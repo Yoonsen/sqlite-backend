@@ -1,0 +1,1590 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI PUBLIC "-// TEI P5 //EN" "http://www.tei-c.org/release/xml/tei/custom/schema/dtd/tei_all.dtd">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="BS_Aasen_Ervingen">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>bokselskap.no, Oslo 2020
+<lb/>Ivar Aasen: <hi rend="italic">Ervingen</hi>
+<lb/>Teksten i bokselskap.no f&#x00F8;lger 1. utgave, 1855 (Kristiania/Det norske Theaters Forlag) og er basert p&#x00E5; digital fil mottatt fra Nasjonalbiblioteket.
+<lb/>ISBN: 978-82-8319-528-6 (digital, bokselskap.no), 978-82-8319-529-3 (epub), 978-82-8319-530-9 (mobi)
+</title>
+</titleStmt>
+<publicationStmt>
+<p rend="noIndent">Publiseres som digital tekst av bokselskap.no.</p></publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Ervingen</title>
+<author>Ivar Aasen</author>
+<publisher>Det norske Theaters Forlag</publisher>
+<pubPlace>Kristiania</pubPlace>
+<date>1855</date>
+<note>digibok_2014120126005 (nb.no)</note>
+</bibl>
+</sourceDesc>
+</fileDesc>
+<revisionDesc>
+<change who="ENW" when="2020-04-06">Lagt inn korrekturrettelser. Lagt inn ISBN. Entiteter, validering og kodekontroll.</change>
+<change xml:id="ENW" who="ENW" when="2020-01-31">Koding. Kodekontroll og validering. Klar for korrektur.</change>
+</revisionDesc>
+</teiHeader>
+<text xml:id="BS_Aasen_Ervingen_tekst" type="drama">
+<front>
+<titlePage type="main">
+<byline><docAuthor>Ivar Aasen</docAuthor></byline>
+<docTitle>
+<titlePart type="main">Ervingen</titlePart>
+<titlePart type="sub">Sangspil i een Akt</titlePart>
+</docTitle>
+<docDate>bokselskap.no<lb/>Oslo 2020</docDate>
+</titlePage>
+</front>
+<body>
+<div type="chapter" subtype="castlist">
+<head type="main">Personerne:</head>
+<castList>
+<castItem><role>Hermann Sauenbach,</role> <roleDesc>boende paa Gaarden Flaavig.</roleDesc></castItem>
+<castItem><role>Inga,</role> <roleDesc>hans Datter.</roleDesc></castItem>
+<castItem><role>Olav i Bakken,</role> <roleDesc>hans Nabo.</roleDesc></castItem>
+<castItem><role>Gunnild.</role> <roleDesc>Olavs Kone.</roleDesc></castItem>
+<castItem><role>Aamund.</role> <roleDesc>Arving til Flaavig.</roleDesc></castItem>
+<castItem><role>Trond paa B&#x00F8;en,</role> <roleDesc>Ungkarl.</roleDesc></castItem>
+</castList>
+<p rend="noIndent"><hi rend="italic">Scene:</hi> En Lund n&#x00E6;r ved Husene i Flaavig. Alle Personer tale i Landsmaalet, undtagen <hi rend="italic">Hermann</hi>.</p>
+</div>
+<div type="chapter" subtype="scene" n="1">
+<head type="main">F&#x00F8;rste Scene.</head>
+<sp>
+<speaker>Trond.</speaker>
+<p rend="noIndent">Dat er daa sant, som Folk segja likev&#x00E6;l, at Flaaviki er venaste Garden i heile Bygdi. Hadde eg havt denne Garden, so skulde eg liva som ein Herremann og hava alle Ting etter min eigen Vilje og blaasa aat heile Bygdi. Og eg tenkjer mest, at eg skal hava han ogso. Han Hermann er inkje nokon Jordmann vidare; han kjem til Atters Aar fyre Aar, og so verd han v&#x00E6;l snart leid av di og vil giva fraa seg alt ihop. No er Dotter hans fullvaksi ogso, og dan som f&#x00E6;r henne, han f&#x00E6;r Jordi med. Dat er nokot te tr&#x00F8;yta seg etter;<note type="footnote"><hi rend="italic">Forfattarnote:</hi> tragte efter.</note> &#x2013; eg maa hava henne; eg skal hava henne. Ho l&#x00E6;st no so,<note type="footnote"><hi rend="italic">Forfattarnote:</hi> foregiver, lader som om.</note> at ho vil inkje hava meg, men dat bryr eg meg inkje stort um; naar ho seer, at dat inkje kjem nokon annan, so tenkjer eg nog, ho vil. Og no heve eg lagat dat so, at inkje nokon skal koma i Vegen fyre meg; for eg heve sett dat Ordet<note type="footnote"><hi rend="italic">Forfattarnote:</hi> Rygte.</note> ut yver Bygdi, at dat er avgjort med oss tvau, og heile Grendi trur, at me er Festarfolk og skal snart hava Bryllaup. Men no lyt eg tala fiint med Faderen ogso og faa han til aa samtykkja fyre Aalvore; for han er so leid med di, at han segjer berre: dat hastar inkje, og me kann talast um dat ein annan Gong, og meir slikt. Eg vil inkje vita av slikt, eg vil hava ei Vissa; for dat er so mangt, som kann koma paa, maa vita. &#x2013; Men dar seer eg, han kjem reikande;<note type="footnote"><hi rend="italic">Forfattarnote:</hi> spadserende.</note> no lyt eg n&#x00F8;yta meg; for eg seer han er i Godlaget sitt, so blid og fiin, at d&#x0027;er reint ofsalegt; dat maa vera dette gode Vedret, som gjerer dat; for han er liksom Solskinfuglen: han syng berre i Solskinet og inkje oftare.</p>
+</sp>
+</div>
+<div type="chapter" subtype="scene" n="2">
+<head type="main">Anden Scene.</head>
+<stage>Hermann og Trond.</stage>
+<sp>
+<speaker>Hermann.</speaker>
+<p rend="noIndent">Naa, er det du Trond, som er ude og gaaer?</p>
+</sp>
+<sp>
+<speaker>Trond.</speaker>
+<p rend="noIndent">Ja, eg gjekk og saag ut yver Marki, eg tykjer d&#x0027;er so hyggjeligt te sjaa paa Gr&#x00F8;det, kor veent dat stend baade paa Aakr og Eng; d&#x0027;er ein stor Hugnad.</p>
+</sp>
+<sp>
+<speaker>Hermann.</speaker>
+<p rend="noIndent">Ja, det kan ikke negtes, her staaer et vakkert Gr&#x00F8;de; faae vi bare en god H&#x00F8;st, saa vil der blive noget af dette.</p>
+</sp>
+<sp>
+<speaker>Trond.</speaker>
+<p rend="noIndent">Dat seer no veent ut allstad i Aar; men so er dat daa ingenstad slikt som her likev&#x00E6;l; dat syner seg dar, som er Folk, som kan driva Jordi; dat verd annat Slag, end dar, som ho inkje er drivi. <stage>(Afsides).</stage> Eg lyt no gj&#x00F8;la fyre han nokot, maa vita.</p>
+</sp>
+<sp>
+<speaker>Hermann.</speaker>
+<p rend="noIndent">Aa ja, &#x2013; man skulde troe det; imidlertid har jeg dog ikke seet den Fremgang, som jeg ventede; der maa v&#x00E6;re noget galt med Jordbunden, hvad det nu er. Jeg syntes meget godt om dette en Tid, men nu &#x00F8;nsker jeg n&#x00E6;sten, at jeg ikke havde befattet mig dermed. Disse Smaaforbedringer ere bare til Udarmelse; man burde gj&#x00F8;re noget stort, men dertil beh&#x00F8;ver man Penge eller rettere sagt en Kapital, og disse Ting ere ikke altid saa lette at opdrive.</p>
+</sp>
+<sp>
+<speaker>Trond.</speaker>
+<p rend="noIndent">Aa, dat var no v&#x00E6;l inkje so vanskelegt fyre ein slik Mann som de er. Og um de kunde verda leid av Bruket og tyst trenga til ei liti Kvild, og de kanskje vilde hava ein Hjelpesmann, som kunde hava noko-litet te leggja til attaat di som er fyrr, so vilde de vist inkje standa uppraadd fyre dat. Dar er fulla dei, som vilde vera baade glade og fegne, naar dei kunde koma inn i eit slikt Rom.</p>
+</sp>
+<sp>
+<speaker>Hermann.</speaker>
+<p rend="noIndent">Det kunde maaskee v&#x00E6;re tjenligst at indrette det saaledes; imidlertid har jeg ikke rigtig bestemt mig endnu.</p>
+</sp>
+<sp>
+<speaker>Trond.</speaker>
+<p rend="noIndent">Dat er sant: um eg skulde vera so djerv og spyrja: Heve de tenkt nokot paa detta, som me talade um sist?</p>
+</sp>
+<sp>
+<speaker>Hermann.</speaker>
+<p rend="noIndent">Naa ja, du mener vel dette her med min Datter? Jo jeg har rigtignok t&#x00E6;nkt paa det; men i slige Ting maa man give sig Tid og bet&#x00E6;nke sig vel. &#x2013; Men du har jo selv talt med hende; veed du nu, om hun virkelig er vel forn&#x00F8;iet med denne Bestemmelse?</p>
+</sp>
+<sp>
+<speaker>Trond</speaker>
+<stage>(Afsides.)</stage>
+<p rend="noIndent">D&#x0027;er galet te segja sant og verre te ljuga. Eg lyt slaa ein Krok paa. <stage>(H&#x00F8;it.)</stage> Eg tenkjer no so eg, at ho vil fyrst h&#x00F8;yra, kvat de vil sj&#x00F8;lv, og sidan tenkjer eg, at ho rettar seg etter di.</p>
+</sp>
+<sp>
+<speaker>Hermann.</speaker>
+<p rend="noIndent">Ja, ja, saa kan vi altsaa tale n&#x00E6;rmere derom en anden Gang. Jeg skal tale med hende om det.</p>
+</sp>
+<sp>
+<speaker>Trond.</speaker>
+<p rend="noIndent">Dat var myket snildt. Og um eg torde tenkja so stort, at de vilde telja<note type="footnote"><hi rend="italic">Forfattarnote:</hi> raade.</note> henne til og leggja eit godt Ord fyre meg, so hadde dat voret overslege v&#x00E6;l. Men no torer eg inkje hefta dikkor<note type="footnote"><hi rend="italic">Forfattarnote:</hi> Eder. Dem.</note> lenger; for de kann v&#x00E6;l hava mangt annat te tenkja paa ogso. Far v&#x00E6;l, Herr Sauenbach.</p>
+<stage>(Gaaer.)</stage>
+</sp>
+</div>
+<div type="chapter" subtype="scene" n="3">
+<head type="main">Tredie Scene.</head>
+<sp>
+<speaker>Hermann.</speaker>
+<stage>(alene.)</stage>
+<p rend="noIndent">Det er ganske morsomt at see, hvorledes den Klodrian sl&#x00E6;ber og str&#x00E6;ber for at snakke fiint og h&#x00F8;fligt uden at forstaae, at en saadan Mand, som jeg, nok altid vil kunne see, hvor liden Dannelse der stikker under. Han er en Stymper, som saa mange andre; han forstaaer ikke at gj&#x00F8;re sig elsket af et Pigebarn; men det er Ulykken, at jeg netop tr&#x00E6;nger til en saadan Mand, som har noget at gj&#x00F8;re med, og derfor maa jeg v&#x00E6;re nedladende og holde gode Miner til slet Spil. Trond har baade Gaard og Formue; der vilde jeg altsaa v&#x00E6;re sikker, enten det nu gik saa eller saa med det &#x00F8;vrige, f. Ex. med denne Odelssag, som jeg nu faaer paa Halsen. Det var da ogsaa et Vovespil af mig at kj&#x00F8;be denne Gaard uden at v&#x00E6;re rigtig sikker paa, at der ikke fandtes nogen Arving; jeg h&#x00F8;rte rigtignok, at der havde v&#x00E6;ret en Arving, men han var jo borte for lang Tid siden; man troede fuldt og fast, at han var omkommen paa en Reise til Amerika, og saaledes holdt jeg mig ganske tryg. Nu kommer man og fort&#x00E6;ller mig, at Arvingen ei alene er i Live, men at han endog er hjemkommen for at gj&#x00F8;re sin Ret gj&#x00E6;ldende. Men han skal ikke gl&#x00E6;de sig for tidlig; for det kan nok h&#x00E6;nde, at hans Ret er forspildt.</p>
+</sp>
+</div>
+<div type="chapter" subtype="scene" n="4">
+<head type="main">Fjerde Scene.</head>
+<stage>Inga. Hermann.</stage>
+<sp>
+<speaker>Inga.</speaker>
+<p rend="noIndent">Fa&#x0027;r, dar var ein Mann upp i Garden, som vilde tala med deg.</p>
+</sp>
+<sp>
+<speaker>Hermann.</speaker>
+<p rend="noIndent">Aa, det er vel ikke noget, som haster synderlig. Men h&#x00F8;r nu, Inga; jeg t&#x00E6;nkte just paa at tale med dig om noget vigtigt. Trond paa B&#x00F8;en har netop v&#x00E6;ret hos mig og talt om dig; han har naturligviis talt med dig selv ogsaa, og hvad har du da svaret ham?</p>
+</sp>
+<sp>
+<speaker>Inga.</speaker>
+<p rend="noIndent">Eg heve svarat, at eg vil inkje hava han.</p>
+</sp>
+<sp>
+<speaker>Hermann.</speaker>
+<p rend="noIndent">Ja, men det var stygt af dig, det skulde du ikke gj&#x00F8;re. Det er denne Bondeviis, du har vant dig til, nemlig at sige alting saa beent frem paa en eneste Gang. Om det nu ikke var saa ganske efter dit Tykke, saa skulde du alligevel have snakket h&#x00F8;fligt og for Exempel sagt, at du beh&#x00F8;vede Tid til at bet&#x00E6;nke dig eller noget sligt.</p>
+</sp>
+<sp>
+<speaker>Inga.</speaker>
+<p rend="noIndent">Ja men dat veit eg daa inkje, kvat dat skal vera til, at ein skal fara so og gj&#x00F8;la fyre Folk, naar ein inkje meiner nokot med di.</p>
+</sp>
+<sp>
+<speaker>Hermann.</speaker>
+<p rend="noIndent">Ja, seer du: der er mangt, som man ikke skj&#x00F8;nner i Ungdommen, men siden kommer det dog med Aarene; blandt andet l&#x00E6;rer man, at et godt Udkomme er dog altid det fornemste i Verden. Da jeg for nogle Aar siden holdt op med Landhandleriet og flyttede hid, meente jeg, at alting nu skulde gaae saa fortr&#x00E6;ffeligt, men det har desv&#x00E6;rre ikke gaaet saa godt, som jeg t&#x00E6;nkte; det gaaer til Atters, eller rettere sagt, det gaaer tilbage. Naar vi nu kunde komme i Forbindelse med en Mand, som eier noget, saa kunde vi snart oprette de faldne Sager og v&#x00E6;re lykkelige paa alle Sider. Og derfor synes jeg, at dette Tilbud ifra Trond ikke er saa ganske at foragte; det kunde h&#x00E6;nde sig, at vi vilde angre paa at have forkastet det.</p>
+</sp>
+<sp>
+<speaker>Inga.</speaker>
+<p rend="noIndent">Men kunde dat inkje ogso henda, at me vilde angra paa, at me hadde teket imot dat?</p>
+</sp>
+<sp>
+<speaker>Hermann.</speaker>
+<p rend="noIndent">Naa, du vil ogsaa v&#x00E6;re klog! &#x2013; Aa jo, det kunde kanskee v&#x00E6;re muligt, men det er dog ikke saa sandsynligt. Jeg veed nok, hvad du t&#x00E6;nker paa; det er denne Ungdommens s&#x00E6;dvanlige Dr&#x00F8;m: man t&#x00E6;nker, at det skal gaae til ligedan som i disse &#x00C6;ventyr og Kj&#x00E6;rlighedshistorier, som man h&#x00F8;rer; man gaaer og venter paa, at der skal komme en forelsket Ridder, saa vakker og saa mandhaftig og galant, at ingen har seet sligt; saa skal der blive Giftermaal, og siden skal der ikke v&#x00E6;re andet end bare Kj&#x00E6;rlighed og Kj&#x00E6;lerie og Forn&#x00F8;ielse, saa l&#x00E6;nge som Livet vil vare. Men det gaaer ikke rigtig saaledes til i Livet. Deels h&#x00E6;nder det, at den rette Ridder ikke vil komme; deels h&#x00E6;nder det ogsaa, at der kommer En, som man anseer for den rette; men han kommer da saa fattig og sulten som en Skrubb ifra Skogen, og saa kommer der En bagefter, som de kalde Smale-Hans, og han pleier at fare saa ilde med disse s&#x00F8;de Dr&#x00F8;mme, at der omsider ikke findes noget Spor tilbage af den hele Herlighed. &#x2013; Men siig mig nu engang, synes du da ikke rigtig om denne Trond?</p>
+</sp>
+<sp>
+<speaker>Inga.</speaker>
+<p rend="noIndent">Nei.</p>
+</sp>
+<sp>
+<speaker>Hermann.</speaker>
+<p rend="noIndent">Jeg maa rigtignok tilstaae, at der var en Tid, da ogsaa jeg havde andre Planer; jeg t&#x00E6;nkte nemlig, at du skulde faae en Opdragelse, saaledes at du kunde blive et passende Gifte, eller rettere sagt et passende Partie for en Mand af bedre Stand. Men Omst&#x00E6;ndighederne tillod mig ikke rigtig at fuldf&#x00F8;re mit Fors&#x00E6;t, eller rettere sagt at realisere min Idee. Din yngre S&#x00F8;ster havde st&#x00F8;rre Lyst til at komme ud i Verden, og saa sendte jeg da hende til Byen for at l&#x00E6;re lidt Folkeskik, men en af jer syntes mig, at jeg maatte have hjemme. Saa var din Moer d&#x00F8;d, og saa kunde jeg ikke holde dig inde l&#x00E6;ngere; du klagede altid over, at det var saa langsomt og kjedeligt; du maatte have Selskab, du kunde ikke leve uden Selskab, og da her nu ikke fandtes andet Selskab end bare Bondefolk, saa gik du der og tumlede omkring iblandt dem saa l&#x00E6;nge, at du blev selv en Bondet&#x00F8;s i Bund og Grund. Naar nu din S&#x00F8;ster engang kommer hjem, saa er hun en anseelig Dame, og du er en Bondeslamse, som gaaer i Stak og Livstykke og taler Bygdemaal. &#x2013; Aa ja, det er just ikke f&#x00F8;rste Gang, at sligt h&#x00E6;nder; det gaaer nu saa op og ned med Folk i Verden.</p>
+</sp>
+<sp>
+<speaker>Inga.</speaker>
+<p rend="noIndent">Ja, men eg tykjer d&#x0027;er no so morosamt, eg, til aa fylgja Bonde-Visi; daa kann ein hava Sellskap baade st&#x00F8;dt og stendigt, og hava Kjenningar i kvart eit einaste Kot i heile Sokni. Og Folket synest eg, er slett inkje lastande; for dei er baade snilde og vituge og veit v&#x00E6;l kor dei skal gjera Folk til Vilje, naar ein berre kjem i Kjendskap med dei.</p>
+</sp>
+<sp>
+<speaker>Hermann.</speaker>
+<p rend="noIndent">Aa ja, du har ikke Adgang til at see noget bedre; derfor synes du, at det er altsammen vel. Men siden du nu er saa vel forn&#x00F8;iet med denne Skik, saa synes jeg netop, at en Mand som Trond kunde ikke v&#x00E6;re at foragte. Imidlertid vil jeg for det f&#x00F8;rste kun bede om, at du maa v&#x00E6;re h&#x00F8;flig imod ham og ikke vise ham saa tvert ifra dig; for Resten beh&#x00F8;ve vi jo ikke at haste med Afgj&#x00F8;relsen. &#x2013; Men nu maa jeg hjem for at see, hvad der er at udrette.</p>
+<stage>(Gaaer.)</stage>
+</sp>
+<sp>
+<speaker>Inga</speaker>
+<stage>(alene.)</stage>
+<p rend="noIndent">Jau dat seer hugnadlegt ut! Men dat kann no endaa vera, naar dat inkje er verre. Eg lyt no pr&#x00F8;va og tala snildt med honom, sidan han Far vil dat; men eg hadde no st&#x00F8;rre Hug te segja Meiningen reint ut. &#x2013; Nei, eg heve seet ein Gut i Dag: dat var annat Slag; eg tykjer, eg berre lengtar, at eg skal sjaa han atter. Men, &#x2013; eg veit inkje eingong kvar han er ifraa, og dess mindre nokot annat.</p>
+<stage>(Gaaer.)</stage>
+</sp>
+</div>
+<div type="chapter" subtype="scene" n="5">
+<head type="main">Femte Scene.</head>
+<stage>Aamund. Siden Inga.</stage>
+<sp>
+<speaker>Aamund.</speaker>
+<p rend="noIndent">Aa, so skulde eg daa vera so lukkeleg, at eg skulde koma atter paa desse Tufterna og sjaa atter gamle F&#x00F8;destaden endaa ein Gong! Her kann eg segja, at eg kjenner meg atter paa alla Sidor: Fjorden og Strandi, Liderna og Fossarne og Fjellgarden rundt i kring, &#x2013; altsaman er gamalt Kjendskap; eg tykjer, eg kjenner kvar ein Stein og kvar ei Tuva uppigjennom alla Bergsidorna. Eg tykjer endaa, at eg kjenner Himmelen, som er upp yver; eg heve seet han paa andre Stader ogso, men dat var liksom han hadde ein annan Lit,<note type="footnote"><hi rend="italic">Forfattarnote:</hi> Udseende, Farve. (Kan udtales som leet).</note> som inkje var dan rette; her heve han dan rette Liten. Og Folket, som eg m&#x00F8;ter paa Vegen, er som dat var Systkjen alt i hop; eg heve aldri skynat Folk so v&#x00E6;l paa nokon annan Stad; naar dei heldo paa aa gartast og l&#x00E6;gja paa dat likaste, so tykte eg, at dat var inkje te l&#x00E6;gja aat; og naar eg skulde segja nokot, som eg meinte var morosamt og fyndigt, so stod dei berre og glanade, og dat saag so ut, at dei tykte, dat var berre Gapesnakk alt i hop; so er dat, naar Folk inkje skyna kvarandre. Her er dat paa ein annan Maate; her slepp eg aa ottast fyre, at Folket skal inkje skyna kvat eg segjer; dat er inkje so, at eg treng um aa trivla etter Ordi, naar eg heve nokot te fortelja, skal eg tru. &#x2013; Aa, eg er so inderlege glad!</p>
+<stage>(Synger.)</stage>
+<lg>
+<head>(Mel. Manden og konen satte sig ned.)</head>
+<l>1. Her er dat Land, som hugar meg best,</l>
+<l>og hiit hev&#x0027; eg lengtat lengje;</l>
+<l>her var dat st&#x00F8;dt, som Hugen var fest</l>
+<l>og gjekk i sitt gamle Gjengje.</l>
+<l>Vida hev&#x0027; eg flutt og faret i kring,</l>
+<l>aldri saag eg slike hyggjelege Ting.</l>
+<l>Ja, myket hev&#x0027; eg seet,</l>
+<l>og meir hev eg frett<note type="footnote"><hi rend="italic">Forfattarnote:</hi> spurgt, h&#x00F8;rt.</note></l>
+<l>men her hev&#x0027; eg seet dat beste.</l>
+</lg>
+<lg>
+<l>2. Her er v&#x00E6;l Jordi hugleg te sjaa</l>
+<l>og yndeleg paa alla Tider,</l>
+<l>helst naar ho heve Sumarsploggi paa</l>
+<l>og bl&#x00F8;mer<note type="footnote"><hi rend="italic">Forfattarnote:</hi> blomstrer.</note> til dei &#x00F8;vste Lider.</l>
+<l>Aldri vild&#x0027; eg bytt i nokon-handa Skatt</l>
+<l>denne vaar s&#x00E6;le sumarljose Natt,</l>
+<l>daa Jordi ligg i Skrud<note type="footnote"><hi rend="italic">Forfattarnote:</hi> festlig Dragt.</note></l>
+<l>og s&#x00F8;v som ei Brud,</l>
+<l>og Dagen vakjer trutt um Landet.</l>
+</lg>
+<lg>
+<l>3. Her heve alt ein venare Lit,</l>
+<l>han gjerer meg so godt i Hjarta;</l>
+<l>her er dat rett, som alt hadde Vit</l>
+<l>og kunde baade l&#x00E6;&#x0027; og garta.</l>
+<l>Folket og eg er like som eitt,</l>
+<l>alt kvat dei segja, skynar eg so greidt;</l>
+<l>og aldri er dar Ord</l>
+<l>paa all dan vide Jord,</l>
+<l>som ganga meg so til Hjarta.</l>
+</lg>
+<lg>
+<l>4. Her kann eg kjenna Bygder og Bol<note type="footnote"><hi rend="italic">Forfattarnote:</hi> Bosteder.</note></l>
+<l>og Berg i so ymsa Rader;</l>
+<l>Fj&#x00F8;ra og Fjell og Himmel og Sol</l>
+<l>er kjendar&#x0027; en andre Stader.</l>
+<l>Saart hev&#x0027; eg saknat Heimen ei Tid,</l>
+<l>difyr&#x0027; er han no so kj&#x00E6;r og so blid.</l>
+<l>Lat koma kvat som kann:</l>
+<l>eg m&#x00F8;ter som ein Mann,</l>
+<l>og aldri fer<note type="footnote"><hi rend="italic">Forfattarnote:</hi> farer (udtalt f&#x00E6;r).</note> eg ut or Landet.</l>
+</lg>
+<p rend="noIndent">Nei, utor Landet; fer eg inkje, men utor Garden? &#x2013; ja dat er eit annat Spursmaal. Stakars Aamund, du gled deg paa tunt &#x00D8;l. Dar er ingen heime, som ventar paa deg, og ingen som vil sjaa deg helder. Dar er komet nytt Folk i Faderhuset, og vil du sjaa inn i dat, so lyt du tigga fiint um Lov, og dat kann gjerne henda, at du slepp inkje inn helder. Du eig inkje so myket Hus som eit Gjeitefjos, inkje so myket Jord som ein N&#x00E6;pereit; altsaman er gjenget fraa deg og komet i framande Hender, og dat kann lett laga seg so, at du f&#x00E6;r inkje atter ein einaste Grand av alt ihop, og so lyt du fara ut-atter like snaud, som du kom, og kanskje ein god Mun snaudare.</p>
+<stage>(Falder i Tanker.)</stage>
+</sp>
+<sp>
+<speaker>Inga</speaker>
+<stage>(kommer ind fra h&#x00F8;ire Side og tr&#x00E6;der frem paa Scenen uden at see Aamund.)</stage>
+<p rend="noIndent">No skal dat vera Moro aa ganga burt paa Leikvollen og sjaa, um dar er myket Folk; for dar maa no v&#x00E6;l vera Leikstemna i Dag ogso liksom hine Sundagarne.</p>
+<stage>(Synger).</stage>
+<lg>
+<head>(Egen Melodie).</head>
+<l>1. Du Sundagskveld, du Sundagskveld,</l>
+<l>du er daa alltid min beste Kveld;</l>
+<l>du ljose, blide Sundagskveld,</l>
+<l>du er daa min kj&#x00E6;raste Kveld.</l>
+<l>Naar Ungdommen sankast or Bygdi her ned</l>
+<l>til Gaman og Song<note type="footnote"><hi rend="italic">Forfattarnote:</hi> udtalt: Saang.</note> etter gamall Sed,</l>
+<l>til Dans og Sprang paa dan gr&#x00F8;ne Vang,</l>
+<l>daa fell inkje Stundi lang.</l>
+</lg>
+<lg>
+<l>2. Dei Bygdarfolk, dei Bygdarfolk</l>
+<l>dei hava so str&#x00E6;vall ein Sumars-Bolk;<note type="footnote"><hi rend="italic">Forfattarnote:</hi> De have en travl Tid om Sommeren.</note></l>
+<l>dei Bygdar-Borni lengta so hardt,</l>
+<l>at Helgi ho koma skal snart.</l>
+<l>Dei faa inkje Tider te koma i Lag,</l>
+<l>naar inkje dat hender ein Heilagdag;</l>
+<l>dei faa inkje Tid ei einaste Rid,</l>
+<l>so lengje som Vyrka<note type="footnote"><hi rend="italic">Forfattarnote:</hi> S&#x00F8;gnedagene.</note> lid.</l>
+</lg>
+<stage>(Idet hun vender sig for at gaae ud til Venstre, kommer hun til at see Aamund og l&#x00F8;ber forskr&#x00E6;kket tilbage.)</stage>
+</sp>
+<sp>
+<speaker>Aamund.</speaker>
+<p rend="noIndent">Nei, &#x2013; er ho alt burte, og eg fekk inkje tala med henne? Er dat ein Draum dette, elder kvat for ei Syn-kverving<note type="footnote"><hi rend="italic">Forfattarnote:</hi> Blendverk.</note> kann dat vera? Ein Song, som eg inkje heve h&#x00F8;yrt, og ein Tone, som eg helder inkje heve h&#x00F8;yrt; dat var liksom dat skulde vera eit framandt Lag og eit kjendt Lag i hop i same Songen, ein Svip<note type="footnote"><hi rend="italic">Forfattarnote:</hi> Mindelse, flygtig Lighed.</note> av Utlandet og ein Svip av F&#x00F8;delandet samanmengde. Og Gjenta var dan same, som eg have seet fyrr i Dag; eg skulde kjent henne atter millom hundrad andre; for eg likade henne so godt fraa dat fyrste, eg saag henne, at eg tykte, eg kunde aldri verda leid te sjaa paa henne. Aa, nei dat var ei Synd, at eg skulde skr&#x00E6;ma henne, men eg kunde slett inkje til dat. Og like eins, at eg inkje skulde faa tala med henne og orsaka meg og beda, at ho inkje vilde vera harm paa meg; &#x2013; no kanskje f&#x00E6;r eg inkje sjaa henne meir atter. Aa, dat maa vera eit inderlege godt Hjarta; dat kunde eg merka so v&#x00E6;l paa Laget hennar, daa ho song um Bygdarborni, kor dei lengta etter Helgi.</p>
+</sp>
+</div>
+<div type="chapter" subtype="scene" n="6">
+<head type="main">Sjette Scene.</head>
+<stage>Olav. Aamund.</stage>
+<sp>
+<speaker>Olav.</speaker>
+<p rend="noIndent">Dat var dat, eg tenkte; eg hadde mest ei Von um, at eg skulde finna deg her paa denne Staden. Sit i Fred, go&#x0027; Mann, og v&#x00E6;lkomen skal du vera paa gamle Tufterna, og giv det maa vera til Heppa<note type="footnote"><hi rend="italic">Forfattarnote:</hi> Held.</note> og til Hugnad baade fyre dan eine og dan andre! Du kann inkje tru, kor glad eg heve voret sidan i Dag, daa eg saag, at du var heimkomen; eg vilde mest inkje tru mine eigne Augo; for me hadde inkje h&#x00F8;yrt nokot um deg paa so lang Tid, og dat siste me h&#x00F8;yrde, var dat, at du skulde vera burtkomen. Dat er no so manga Dr&#x00F8;sor,<note type="footnote"><hi rend="italic">Forfattarnote:</hi> Sladderhistorier.</note> som koma inn i Bygderna; d&#x0027;er som dei segja: dei ljuga so lengje, til dei tru dat sj&#x00F8;lve.</p>
+</sp>
+<sp>
+<speaker>Aamund.</speaker>
+<p rend="noIndent">Dat er inkje annat ventande, en at Folk maa tru slikt, naar ein er so lengje burte og inkje kann koma til aa senda nokor Helsing heimatter. Eg hadde fulla tenkt aa koma heimatter fyrr, men dat vard inkje nokot av di.</p>
+</sp>
+<sp>
+<speaker>Olav.</speaker>
+<p rend="noIndent">D&#x0027;er sant: dat var so litet me fekk tala um dat i Stad, &#x2013; kor kom dat til, at du vard so lengje burte?</p>
+</sp>
+<sp>
+<speaker>Aamund.</speaker>
+<p rend="noIndent">Du veit kanskje, at dat var Tanken min, at eg skulde ut og tena noko-litet Pengar, so eg kunde hjelpa han Fa&#x0027;r te setja Garden i Stand og greida Skuldi hans; for eg visste, at dat var smaatt fyre han; no var dat inke te tena dan Gongen, utan ein foor nokot langt veg, og so foor eg daa sud i Landet, og sidan foor eg utanlands, og tenkte altid so, at dess lenger eg kom, dess meir skulde dat l&#x00F8;na seg. Men dat er som dei segja um Pengarne: Dei er seine te sanka og snare te &#x00F8;yda, og dar ein tenar myket, dar t&#x00E6;rer ein myket ogso; og difyre vardt dat lengje, fyrr eg tyktest vera buen<note type="footnote"><hi rend="italic">Forfattarnote:</hi> f&#x00E6;rdig.</note> te fara heimatter. Og inkje fekk eg nokon Frettnad<note type="footnote"><hi rend="italic">Forfattarnote:</hi> Efterretning.</note> heimanfraa helder, fyrr eg frette dat, som eg minst vilde h&#x00F8;yra; daa laut eg til og skunda meg paa Heimvegen, men langt var dat aa fara, og seint heve dat gjenget, so at eg er myket r&#x00E6;dd, at eg er komen alt for seint.</p>
+</sp>
+<sp>
+<speaker>Olav.</speaker>
+<p rend="noIndent">Aa ja, dat er no kanskje i seinaste Lag; men so heve du no Odalsretten te stola deg paa.</p>
+</sp>
+<sp>
+<speaker>Aamund.</speaker>
+<p rend="noIndent">Dei segja, dat skal vera i sidste Hogget med di; d&#x0027;er no so, at eg heve ei Von endaa, men nokor Vissa heve eg inkje.</p>
+</sp>
+<sp>
+<speaker>Olav.</speaker>
+<p rend="noIndent">Ja, lat oss vona dat beste daa. Elder er dat inkje so dei segja, at ein skal venta dat beste, og tenkja paa dat verste?</p>
+</sp>
+<sp>
+<speaker>Aamund.</speaker>
+<p rend="noIndent">Eg heve h&#x00F8;yrt dat so ogso, at ein skal venta dat verste, til ein seer dat beste; og dat segja dei, skal vera dat klokaste.</p>
+</sp>
+<sp>
+<speaker>Olav.</speaker>
+<p rend="noIndent">D&#x0027;er kanskje dat klokaste, men dat er inkje dat tekkaste.<note type="footnote"><hi rend="italic">Forfattarnote:</hi> behageligste.</note> Men anten dat er no so elder so, du, so vilja me inkje gjera oss nokor Sorg endaa; no i Dag vil eg, at me skal berre hava Moro og sitja saman og spyrja kvarannan um alt dat, som kann vera Hugnad te h&#x00F8;yra.</p>
+</sp>
+<sp>
+<speaker>Aamund.</speaker>
+<p rend="noIndent">Eg segjer dat same.</p>
+</sp>
+<sp>
+<speaker>Olav.</speaker>
+<p rend="noIndent">Eg er so forviten<note type="footnote"><hi rend="italic">Forfattarnote:</hi> nygjerrig.</note> te h&#x00F8;yra, um kor dat stend til uti dan store vide Verdi. Kann du segja meg no med nokre faae Ord, kor dat seer ut i dei store Londi elder kvat Folket gjerer dar?</p>
+</sp>
+<sp>
+<speaker>Aamund.</speaker>
+<p rend="noIndent">Dat snaraste te segja er det at dat seer ut mest som i ei Maurtuva; dat kryp og kryr paa alle Kantar, dat str&#x00E6;var og staakar paa alla Sidor, dat er ei endelaus R&#x00F8;ra, som dat stend i Steinbrjotar-Visa. Ja, du heve v&#x00E6;l inkje h&#x00F8;yrt dan Visa; eg skal kveda henne aat deg, so f&#x00E6;r du h&#x00F8;yra, kor dat seer ut i Verdi.</p>
+</sp>
+<sp>
+<speaker>Olav.</speaker>
+<p rend="noIndent">Ja, lat faa h&#x00F8;yra!</p>
+</sp>
+<sp>
+<speaker>Aamund</speaker>
+<stage>synger.</stage>
+<lg>
+<head>(Mel. efter en Slaatt.)</head>
+<l>1. Dei tr&#x00E6;la, &#x2013; dei tr&#x00E6;la</l>
+<l>fraa Morgon til Kveld, ja dei tr&#x00E6;la;</l>
+<l>dei str&#x00E6;va, &#x2013; dei str&#x00E6;va,</l>
+<l>dat varer um Alder og &#x00C6;va.</l>
+<l>dei freista alt som dei kann vinna,</l>
+<l>dei fanka alt som dei kann finna;</l>
+<l>ja dei leita, &#x2013; ja dei leita</l>
+<l>etter alt dat som Vinningar kann heita.</l>
+</lg>
+<lg>
+<l>2. Det grava, &#x2013; dei grava</l>
+<l>i Berg og i Myr, ja dei grava;</l>
+<l>dei byggja, &#x2013; dei byggja</l>
+<l>paa Huus og paa Veg og paa Bryggja.</l>
+<l>All Jordi, trur eg, dei vil jamna</l>
+<l>all Malmen, trur eg, dei vil famna;<note type="footnote"><hi rend="italic">Forfattarnote:</hi> samle, sanke.</note></l>
+<l>ja dei emna,<note type="footnote"><hi rend="italic">Forfattarnote:</hi> gj&#x00F8;re Anl&#x00E6;g.</note> &#x2013; ja dei emna</l>
+<l>paa so mangt, som eg injke veit aa nemna.</l>
+</lg>
+<lg>
+<l>3. Dei kappast, &#x2013; dei kappast,</l>
+<l>som Hunden um Beini dei nappast;</l>
+<l>dei fumla, &#x2013; dei fumla,</l>
+<l>som Mauren um Tuva dei tumla.</l>
+<l>Sin Skatt vil alle med seg f&#x00F8;ra</l>
+<l>igjenom dan endelause R&#x00F8;ra;</l>
+<l>til dei stupa, &#x2013; til dei stupa,</l>
+<l>og til andre kjem i Staden til aa krjupa.</l>
+</lg>
+</sp>
+<sp>
+<speaker>Olav.</speaker>
+<p rend="noIndent">Eg hadde mest ei Von um, at dat skulde vera so ut-sjaaande, etter di som eg heve h&#x00F8;yrt fyrr um dat. Men eg lyt no faa vita meir um detta likev&#x00E6;l, naar me no faa betra Tider.</p>
+</sp>
+<sp>
+<speaker>Aamund.</speaker>
+<p rend="noIndent">Eg er ogso myket forviten te h&#x00F8;yra, kor dat stend til her i Bygderna; her er v&#x00E6;l mange Umskifte te sjaa, sidan sist eg var heime. Dei halda paa og snu og br&#x00F8;yta paa alle Ting i dei andre Londi, og difyre er dat rimelegt, at dat kjennest ein liten Eim<note type="footnote"><hi rend="italic">Forfattarnote:</hi> Fornemmelse (R&#x00F8;g, Damp, Dunst).</note> av di her i Landet ogso.</p>
+</sp>
+<sp>
+<speaker>Olav.</speaker>
+<p rend="noIndent">Dat er rett, som du segjer: dat kjennest ein liten Eim, og han er stundom alt for stor ogso. For d&#x0027;er so leidt med di, at dat som er Gagn i, dat kjem alltid sist, og dat som er berre til eit Skin utanpaa, dat kjem alltid fyrst. Eg likar inkje alt, som eg seer. Eg seer nog, at Folk vil skapa seg um i sin Bunad og Kl&#x00E6;dnad, og i Ord og Tale, og i onnor Aatferd; men eg seer inkje alltid, at dei verda visare og vitugare fyre di. Eg h&#x00F8;yrer, dei skr&#x00F8;yta av Forfederne vaare og tala fagre Ord um vaare gamle &#x00C6;ttar-Merkje; men eg er r&#x00E6;dd fyre, at skal dat halda fram som dat stemner, so verd dat inkje stort atter av dei gamle &#x00C6;ttarmerki. Dei tala um Framgang, og dat er godt og v&#x00E6;l; men eg tenkjer, me kunde gjera same Framgangen, um me heldt nokot fastare paa gamle &#x00C6;ttar-Laget vaart. Lat oss ganga fram i dat som duger, men inkje ganga so fort, at me gl&#x00F8;yma vaar Fedra-Sed, som dat stend i Visa.</p>
+<stage>(Synger).</stage>
+<lg>
+<head>(Efter en Stevmelodie fra Bergens Stift.)</head>
+<l>1. Dei vil alltid klaga og kyta<note type="footnote"><hi rend="italic">Forfattarnote:</hi> mukke, skjende.</note></l>
+<l>at me ganga so seint og so smaatt;</l>
+<l>Men eg tenkjer, dei tarv inkje syta:</l>
+<l>me skal koma, um inkje so braadt.</l>
+</lg>
+<lg>
+<l>2. Ja, dat skyt inkje fram, so dat dunar<note type="footnote"><hi rend="italic">Forfattarnote:</hi> dundrer (udt. n&#x00E6;sten: donar).</note></l>
+<l>(som no ingen kann undrast uppaa);</l>
+<l>men dat munar daa jamt, ja dat munar,</l>
+<l>so dat stundom er Hugnad te sjaa.</l>
+</lg>
+<lg>
+<l>3. Lat dat ganga fram, lat dat siga!</l>
+<l>Berre eitt eg ynskjer og bed:</l>
+<l>at me inkje so h&#x00F8;gt maatte stiga,</l>
+<l>at me gl&#x00F8;yma vaar Fedra-Sed.</l>
+</lg>
+<lg>
+<l>4. Lat oss inkje Forfederne gl&#x00F8;yma,</l>
+<l>under alt, som me venda og snu;</l>
+<l>for dei gav oss ein Arv til aa gj&#x00F8;yma,</l>
+<l>han er st&#x00F8;rre, en mange vil tru.</l>
+</lg>
+<lg>
+<l>5. Lat dat merkast i meir en i Ordi,</l>
+<l>at me halda dan Arven i Stand,</l>
+<l>at, naar Federne sjaa att paa Jordi,</l>
+<l>dei kann kjenna sitt Folk og sitt Land.</l>
+</lg>
+</sp>
+<sp>
+<speaker>Aamund.</speaker>
+<p rend="noIndent">Takk skal du hava, Olav. Du kann tru, dat gjerer godt aa h&#x00F8;yra atter dei gamle Notarne, naar ein heve voret burte nokre Aar og inkje fenget h&#x00F8;yra nokot heiman-ifraa. Hadde me voret fleire saman, so vilde eg, at me skulde sett oss til aa kveda gamla Visor, so lengje at me vardt tr&#x00F8;ytte. Eg kann inkje segja, kor glad eg vardt her i Stad, daa eg gjekk fram med Leikvollen og h&#x00F8;yrde Hardeng-Fela; eg tykte, dat var nokot som drog meg, at eg skulde burt i Leikstemna og dansa. Men eg laut halda meg ifraa dat likev&#x00E6;l; inkje heve eg Tid til dat, og inkje vil eg, at mange skal vita, at eg er komen; for daa vilde dat koma so mange gamle Kjenningar, at eg fekk inkje snu meg, og dat kann inkje ganga fyre seg endaa; for eg heve so mange &#x00C6;render, som dat hastar med.</p>
+</sp>
+<sp>
+<speaker>Olav.</speaker>
+<p rend="noIndent">D&#x0027;er sant, ja; du nemnde detta i Dag ved Kyrkja ogso, og difyre heve eg inkje sagt dat til nokon, og so heve eg bedet Kjeringi, at inkje ho helder skal tala um dat endaa. D&#x0027;er Von dess,<note type="footnote"><hi rend="italic">Forfattarnote:</hi> det er rimeligt.</note> at du heve mange &#x00C6;render no, baade hjaa Prest og Prokurator, og hjaa Peer og Paal; og so gjeng dat v&#x00E6;l inkje so fort med di helder; ein Gong er dei inkje heime, og ein annan Gong er dei i slik Annsemd,<note type="footnote"><hi rend="italic">Forfattarnote:</hi> Travlhed.</note> at du f&#x00E6;r inkje tala med dei; dat er som dat stend i Visa aat Drengen, som kravde L&#x00F8;ni si: &#x00AB;Ein Gong gjeng han og t&#x00E6;k seg ein Tur, daa er han for full av Tankar; ein Gong ligg han og t&#x00E6;k seg ein Lur, og daa f&#x00E6;r du Skam, um du bankar; ein Gong sit han og et&#x0027; si Steik, og daa kunde Smoltet ulna; ein Gong sit han i Femkort-Leik, og daa kunde Punsen kolna&#x00BB;.</p>
+</sp>
+<sp>
+<speaker>Aamund.</speaker>
+<p rend="noIndent">Han heve inkje sparat Humlen, dan som bryggjade detta. Ha, ha! Nei du Olav, du er daa like lystig, kor gamall du verd.</p>
+</sp>
+<sp>
+<speaker>Olav.</speaker>
+<p rend="noIndent">Ja men, er eg so, alt medan ingi Uheppa sl&#x00E6;r paa. Eg tykjer, dat er so stygt, naar eg seer slike Folk, som korkje hava Sorg elder Sykja, og endaa kann ganga so olme og aalvorsame som ein Ukse; &#x2013; aa ja, dat kann vera godt te skr&#x00E6;ma Folk fraa seg med, kanskje. &#x2013; Men dar seer eg, at me faa meir Sellskap. <stage>(Afsides)</stage> Au, dat var leidt, at ho Inga skulde koma; no faa me inkje tala um dat, som me vilde.</p>
+</sp>
+</div>
+<div type="chapter" subtype="scene" n="7">
+<head type="main">Syvende Scene.</head>
+<stage>Gunnild. Inga (fra Gaarden). Olav. Aamund.</stage>
+<sp>
+<speaker>Inga</speaker>
+<stage>(afsides.)</stage>
+<p rend="noIndent">Sjaa, dar er han endaa.</p>
+</sp>
+<sp>
+<speaker>Aamund</speaker>
+<stage>(afsides.)</stage>
+<p rend="noIndent">So fekk eg daa sjaa henne atter likev&#x00E6;l.</p>
+</sp>
+<sp>
+<speaker>Gunnild.</speaker>
+<p rend="noIndent">Er de her de, Karar; eg vonade mest, at de maatte vera her einkvarstad. No var me tenkte te ganga burt paa Leikvollen. <stage>(Afsides til Olav):</stage> Men dat var galet dat, at desse tvau skulde m&#x00F8;tast. Um ho no spyrr meg, kven han er, so veit eg inkje kvat eg skal svara.</p>
+</sp>
+<sp>
+<speaker>Olav</speaker>
+<stage>(afsides til Gunnild):</stage>
+<p rend="noIndent">D&#x0027;er like eins med meg. Me maa finna paa eitkvart Slag og sjaa til aa venda dat av. &#x2013; <stage>(H&#x00F8;it.)</stage> Han sagde dat i Stad, denne Mannen, at naar me var fleire saman, so skulde me setja oss til og kveda gamla Visor. Hadde eg kunnat so mange no som fyrr, so skulde eg fulla havt Hug til dat same.</p>
+</sp>
+<sp>
+<speaker>Gunnild.</speaker>
+<p rend="noIndent">Aa, du kann v&#x00E6;l nokre Stubbar endaa, naar du berre kjem paa dei.</p>
+</sp>
+<sp>
+<speaker>Aamund.</speaker>
+<p rend="noIndent">Er dei so trottige<note type="footnote"><hi rend="italic">Forfattarnote:</hi> flittige.</note> te kveda no her i Bygdi, som dei var fyrr?</p>
+</sp>
+<sp>
+<speaker>Inga</speaker>
+<stage>(afsides.)</stage>
+<p rend="noIndent">Han maa vera her or Bygdi.</p>
+</sp>
+<sp>
+<speaker>Olav</speaker>
+<stage>(til Aamund.)</stage>
+<p rend="noIndent">Aa ja, d&#x0027;er no so ymist; dat sullar og mullar<note type="footnote"><hi rend="italic">Forfattarnote:</hi> nynner.</note> kvar paa si Viis; for eg skal segja deg: me hava inkje l&#x00E6;rt te syngja etter Notar endaa, som dei gjera burtan fyre Fjellet; dar kann dei inkje kveda, utan dei hava Notar; ja, du veit v&#x00E6;l, kvat eg meiner: d&#x0027;er nokot, som er uppsett paa Papiir med nokre lange Strik og smaa Klumpar imillom.</p>
+</sp>
+<sp>
+<speaker>Aamund.</speaker>
+<p rend="noIndent">Ja, dat heve eg ofta seet.</p>
+</sp>
+<sp>
+<speaker>Olav.</speaker>
+<p rend="noIndent">Ja! Og so vil dei inkje vita av nokre andre Notar en slike som er skrivne, og vil du syngja nokot annat en dat, som stend paa Setelen, so segja dei, at d&#x0027;er Fals og Fusk. Og so skal ein inkje syngja, utan naar d&#x0027;er mange saman; daa skal dei setja i, alle paa ein Gong, og gaula mest dei vinna.</p>
+</sp>
+<sp>
+<speaker>Gunnild.</speaker>
+<p rend="noIndent">Ja men dat maa vera veent aa lyda paa.</p>
+</sp>
+<sp>
+<speaker>Olav.</speaker>
+<p rend="noIndent">Dat kann so vera; men daa h&#x00F8;yrer du berre L&#x00E6;ta, du h&#x00F8;yrer inkje eit Ord av Songen.</p>
+</sp>
+<sp>
+<speaker>Aamund.</speaker>
+<p rend="noIndent">Men bruka dei inkje te stevjast endaa, naar dei er so i Lag i Bygdi?</p>
+</sp>
+<sp>
+<speaker>Olav.</speaker>
+<p rend="noIndent">Aa jau, men d&#x0027;er inkje slikt no som fyrr; for me hava so myket annat te gjera, maa vita; &#x2013; me skal spela Kort um Puns og Pengar, og drikka oss fulle og sova ut-atter Ruset, og mangt slikt.</p>
+</sp>
+<sp>
+<speaker>Aamund.</speaker>
+<p rend="noIndent">Ja, men dat var inkje nokor god Viis.</p>
+</sp>
+<sp>
+<speaker>Olav.</speaker>
+<p rend="noIndent">Ja, seer du, L&#x00E6;rdomen er so: dan som skal syngja, skal ogso supa; og so kann dat lett henda, at ein gl&#x00F8;ymer Songen fyre Supen. &#x2013; Men dat er sant, du: d&#x0027;er reint galet dette, at me inkje hava nokor drikkande Vara fyre Handi; for naar rett skulde vera, so skulde me inkje tala eit viist Ord, fyrr en me hadde eit Bord framsett og ei Punse-Kanna uppaa, so heit at dat rauk upp med &#x00D8;yro; daa fyrsta skulde me faa upp Maalet.</p>
+</sp>
+<sp>
+<speaker>Aamund.</speaker>
+<p rend="noIndent">Eg tykjer no so eg, at eg er friskaste, naar eg inkje drikk.</p>
+</sp>
+<sp>
+<speaker>Olav.</speaker>
+<p rend="noIndent">Daa er du lik meg! &#x2013; Aa nei, du Gunnild, eg kann inkje fortelja, kor glad eg er &#x2026; <stage>(Afsides.)</stage> Dar hadde eg so n&#x00E6;r forsnakkat meg. &#x2013; <stage>(H&#x00F8;it.)</stage> Dat skulde voret Moro te freista aa stevjast ein Gong, naar berre Kvendfolki vilda vera med oss.</p>
+</sp>
+<sp>
+<speaker>Aamund.</speaker>
+<p rend="noIndent">Ja, dat tykjer eg og, at dat heve inkje Lag med Kvedingi, utan ein h&#x00F8;yrer Kvendemaal.</p>
+</sp>
+<sp>
+<speaker>Gunnild.</speaker>
+<p rend="noIndent">H&#x00F8;yr no, kor dei h&#x00F8;la fyre Kvendfolki, gamle og unge like eins. &#x2013; Men kvat skal me stevjast um daa?</p>
+</sp>
+<sp>
+<speaker>Olav.</speaker>
+<p rend="noIndent">Um dat som sviv oss fyrst i Hugen. &#x2013; Du, Inga, skal vera med og svara oss.</p>
+</sp>
+<sp>
+<speaker>Inga.</speaker>
+<p rend="noIndent">Ja, men de maa inkje koma med nokot, som eg inkje kann svara paa.</p>
+</sp>
+<sp>
+<speaker>Olav.</speaker>
+<p rend="noIndent">Lat oss byrja.<note type="footnote"><hi rend="italic">Forfattarnote:</hi> begynde.</note> Og hava me gl&#x00F8;ymt nokot, so skal me l&#x00E6;ra upp-atter og leggja nytt attaat:</p>
+<stage>(Synger.)</stage>
+<lg>
+<head>(Stevmelodie fra Tellemarken.)</head>
+<l>1. Hava me gl&#x00F8;ymt vaare gamle Stev,</l>
+<l>so l&#x00E6;ra me andre Gongen. <stage>(Til Inga)</stage></l>
+<l>H&#x00F8;yr meg, Gjenta, du er so h&#x00E6;v,<note type="footnote"><hi rend="italic">Forfattarnote:</hi> flink.</note></l>
+<l>kom, hjelp oss her med Songen.</l>
+</lg>
+</sp>
+<sp>
+<speaker>Inga.</speaker>
+<lg>
+<l>2. Kvat skal eit Barn v&#x00E6;l finna paa,</l>
+<l>som vituge Folk kann huga?</l>
+<l>dat h&#x00F8;ver meg best aa h&#x00F8;yra og sjaa,</l>
+<l>men kveda kann litet duga.</l>
+</lg>
+</sp>
+<sp>
+<speaker>Gunnild.</speaker>
+<lg>
+<l>3. Her tarv du inkje vera blyg:</l>
+<l>her er inkje nokon te v&#x00E6;gja.<note type="footnote"><hi rend="italic">Forfattarnote:</hi> undsee sig for.</note></l>
+<l>Tykja me, Leiken verd for dryg,</l>
+<l>so skal me pr&#x00F8;va aa b&#x00E6;gja.<note type="footnote"><hi rend="italic">Forfattarnote:</hi> standse, hindre.</note></l>
+</lg>
+</sp>
+<sp>
+<speaker>Aamund</speaker>
+<stage>(til Inga).</stage>
+<lg>
+<l>4. Gjer so v&#x00E6;l, og haldt oss med Lag,</l>
+<l>og lat oss Leiken byrja.</l>
+<l>Kvat likar du best av alle Slag?</l>
+<l>Dat lyt eg vaaga te spyrja.</l>
+</lg>
+</sp>
+<sp>
+<speaker>Inga.</speaker>
+<lg>
+<l>5. Dat likar eg best av alle Ting:</l>
+<l>aa vera med Kjenningar saman,</l>
+<l>sjaa glade Andlit rundt i kring</l>
+<l>og h&#x00F8;yra paa fyndarlegt Gaman.</l>
+</lg>
+</sp>
+<sp>
+<speaker>Aamund.</speaker>
+<lg>
+<l>6. Dat maa eg segja, var inkje kleent</l>
+<l>dat var dat venaste Valet.<note type="footnote"><hi rend="italic">Forfattarnote:</hi> det skj&#x00F8;nneste Valg.</note></l>
+<l>Vil du no kveda, so er dat veent,</l>
+<l>so skal me lengja Talet.<note type="footnote"><hi rend="italic">Forfattarnote:</hi> forl&#x00E6;nge Samtalen.</note></l>
+</lg>
+</sp>
+<sp>
+<speaker>Inga.</speaker>
+<lg>
+<l>7. So vil eg venda Talen i kring</l>
+<l>og spyrja med same Ordi:</l>
+<l>Kvat likar du best av alle Ting,</l>
+<l>dei som du seer paa Jordi?</l>
+</lg>
+</sp>
+<sp>
+<speaker>Aamund.</speaker>
+<lg>
+<l>8. Dat som eg likar best, maa tru,</l>
+<l>er korkje Gull elder Pening,</l>
+<l>men d&#x0027;er ei Gjenta, slik som du</l>
+<l>i all si Viis og Vending.</l>
+</lg>
+</sp>
+<sp>
+<speaker>Olav</speaker>
+<stage>(afsides.)</stage>
+<p rend="noIndent">Au, dat gjeng ein galen Veg.</p>
+</sp>
+<sp>
+<speaker>Aamund.</speaker>
+<lg>
+<l>9. Dat som eg likar best, maa tru,</l>
+<l>er korkje Skip elder Baatar,</l>
+<l>men d&#x0027;er ei Gjenta, slik som du</l>
+<l>i alle mogeleg&#x0027; Maatar.</l>
+</lg>
+</sp>
+<sp>
+<speaker>Olav.</speaker>
+<lg>
+<l>10. Dar skal du h&#x00F8;yra, dat er ein Gut,</l>
+<l>som kann baade kveda og garta.</l>
+<l>Giv, me fekk kveda dan Kvelden ut!</l>
+<l>Dat gjerer so godt i Hjarta.</l>
+</lg>
+<p rend="noIndent">Men dar seer eg, at han Hermann kjem og ein Mann til; dat er Von til, at dei, hava nokot te talast um, og so er dat best, at me tokka oss utor Vegen, so at Mannen kann faa sitja her paa Benken sin, ifall han vil so.</p>
+<stage>(De gaae).</stage>
+</sp>
+</div>
+<div type="chapter" subtype="scene" n="8">
+<head type="main">Ottende Scene.</head>
+<stage>Hermann og Trond.</stage>
+<sp>
+<speaker>Hermann.</speaker>
+<p rend="noIndent">Dette kunde lettelig blive os en slem Streg i Regningen. Men er du nu rigtig vis paa, at Prokuratoren skulde reise forbi paa Nedre-B&#x00F8;en ved denne Tid?</p>
+</sp>
+<sp>
+<speaker>Trond.</speaker>
+<p rend="noIndent">Ja, dat er eg viss paa, for dar er tilsagt Skyts aat honom til Klokka nie.</p>
+</sp>
+<sp>
+<speaker>Hermann.</speaker>
+<p rend="noIndent">Det var da rigtig saa beleiligt, som det kunde v&#x00E6;re. <stage>(Tager et Brev op).</stage> Det er sandt, jeg har ikke forseglet Brevet, og jeg skrev det ogsaa i saadan Hast, at jeg frygter for, der kan v&#x00E6;re noget galt i det. Lad mig see! Aa jo, desv&#x00E6;rre, der er just ikke megen Skik paa det. Der staaer: &#x00AB;jeg har h&#x00F8;rt, at de skulde komme,&#x00BB; istedetfor: jeg har erholdt Underretning om, at de skulle ankomme; saaledes skulde der staae. Og ligesaa staaer der: &#x00AB;for et uventet Tilf&#x00E6;lde,&#x00BB; istedetfor at der skulde staae: paa Grund af en indtruffen uforudseet Begivenhed. Der staaer: &#x00AB;der er lagt megen Omkostning paa Jorden,&#x00BB; istedetfor at der skulde staae: der er anvendt betydelige Kapitaler paa Grund-Eiendommen. Og saa staaer der: &#x00AB;Halvdelen af den Vidde, som kunde dyrkes,&#x00BB; istedetfor at der skulde staae: femti pro Cent af det dyrkbare Areal. Og ligeledes nedenfor: &#x00AB;dobbelt saa god som f&#x00F8;r,&#x00BB; istedetfor at der skulde staae: hundrede pro Cent bedre end forhen. Der er jo ikke det mindste Sving paa, det er bare simple Talemaader, som enhver Bonde-Kj&#x00E6;rring kunde sige. Jeg veed ikke hvad Prokuratoren vil t&#x00E6;nke om sligt. Men jeg har slet ikke Tid til at skrive det om igjen; det er saavidt, at han seer Meningen, og dermed faaer det gaa. <stage>(Forsegler Brevet med en Oblat).</stage> Vil du nu gaae og levere ham dette. Og hvis han skulde have Tid, saa bed ham om at see paa et Brev, som jeg har her, og som angaaer Kj&#x00F8;bet af Gaarden. <stage>(Leverer Trond Brevene.)</stage> See nu til at snakke peent og ordentligt; veed du nu hvad du skal kalde ham?</p>
+</sp>
+<sp>
+<speaker>Trond.</speaker>
+<p rend="noIndent">Eg kallar han Prutterakkaren?</p>
+</sp>
+<sp>
+<speaker>Hermann.</speaker>
+<p rend="noIndent">Aa fy for en Skam! kan du ikke l&#x00E6;re at sige Prokuratoren?</p>
+</sp>
+<sp>
+<speaker>Trond.</speaker>
+<p rend="noIndent">Prukkerakaren? Jau eg skal pr&#x00F8;va.</p>
+</sp>
+<sp>
+<speaker>Hermann.</speaker>
+<p rend="noIndent">Prokuratoren, h&#x00F8;rer du!</p>
+</sp>
+<sp>
+<speaker>Trond.</speaker>
+<p rend="noIndent">Prukkerataren, Prukkerataren, Prukkeratarn.</p>
+</sp>
+<sp>
+<speaker>Hermann.</speaker>
+<p rend="noIndent">Gaa bare og skynd dig; det bliver saa ikke ret alligevel. <stage>(Trond gaaer)</stage> &#x2013; Disse Bondeklodser kan dog aldrig l&#x00E6;re at tale et folkeligt Sprog. Aa ja, der er ikke noget at gj&#x00F8;re ved det; de ere saa mange, at man ikke kan l&#x00E6;re dem alle; om man tager En og tugter ham op, saa virker det dog intet paa den store M&#x00E6;ngde. Jeg er selv n&#x00E6;sten bleven til en Bonde igjen; det gaaer mig omtrent ligedan som min Datter: jeg har saal&#x00E6;nge maattet omgaaes med bare B&#x00F8;nder, og saa har jeg maattet nedlade mig og tale saa simpelt, at de kunde forstaae mig, og derved har jeg vant mig saaledes til at bondske, at jeg ikke mere kan skrive til en dannet Mand, hvis jeg ikke faaer god Tid til at studere det ud i Forveien. Nei, det er dog sandt, hvad jeg nylig l&#x00E6;ste etsteds: Naar en dannet Mand skal boe i en Afkrog og omgaaes med bare udannede Folk, saa vil han om nogen Tid blive ganske rustificeret; ja ganske rigtig, han bliver rustificeret, ganske forrustet ligesom gammelt Jern.</p>
+<stage>(Gaaer.)</stage>
+</sp>
+</div>
+<div type="chapter" subtype="scene" n="9">
+<head type="main">Niende Scene.</head>
+<stage>Olav. Aamund (hver fra sin Side.)</stage>
+<sp>
+<speaker>Olav.</speaker>
+<p rend="noIndent">Er du alt atter komen? No heve du v&#x00E6;l seet Garden paa dan andre Sida.</p>
+</sp>
+<sp>
+<speaker>Aamund</speaker>
+<stage>(nedslagen.)</stage>
+<p rend="noIndent">Ja, eg heve so, og eg heve inkje havt stor Hugnad utav di. Eg heve seet so myket, at eg er mest like glad, anten eg f&#x00E6;r nokot av denne Garden elder ei.</p>
+</sp>
+<sp>
+<speaker>Olav.</speaker>
+<p rend="noIndent">Ja, so daa! Aa ja, d&#x0027;er altfor sant: Garden er utskjemd. Eg heve lengje harmast paa dat.</p>
+</sp>
+<sp>
+<speaker>Aamund.</speaker>
+<p rend="noIndent">Eg kunde inkje ein Gong tru, at han skulde vera so utskjemd som han er. Alt dat, som var til Vanpryda, er verre en dat var, og alt dat som var til Pryda, er umsnutt og ut-tynt. Og dat som eg mest harmast paa, er dan vene gamle Bj&#x00F8;rkeskogen, som er ned-hoggen.</p>
+</sp>
+<sp>
+<speaker>Olav.</speaker>
+<p rend="noIndent">D&#x0027;er alt for sant. Eg var ogso harm fyre dat.</p>
+</sp>
+<sp>
+<speaker>Aamund.</speaker>
+<p rend="noIndent">Eg var tenkt aa gjera mange Umsnuingar paa Garden; men eg hadde fulla tenkt aa taka dat paa ein annan Maate. Eg vilde turka Myri og brjota upp Steinen, eg vilde rydja Lyng og Mose or Marki, men eg vilde lata Grasvollarne gro og Skogen standa, dar han inkje stod i Vegen. Eg vilde inkje hava dat so, som eg heve seet paa sume Stader, at ein skal leggja all Mark i R&#x00F8;yta og gjera heile Landet til ein Mokdunge;<note type="footnote"><hi rend="italic">Forfattarnote:</hi> M&#x00F8;dding.</note> for eg tykjer so, at Mannen skal inkje hava alt sitt Vit i Vombi; han skal rydja og gj&#x00F8;da og pynta paa alt, som er til Vanpryda, men han skal ogso hava einkvar Flekken, dar Jordi heve sin naturlige Grodr og Vokstr, so dat kann vera prydelegt aa sjaa paa og hyggjelegt aa ganga til.</p>
+</sp>
+<sp>
+<speaker>Olav.</speaker>
+<p rend="noIndent">Ja, dat held eg med deg i.</p>
+</sp>
+<sp>
+<speaker>Aamund.</speaker>
+<p rend="noIndent">Eg vil inkje tala um denne Vanskipnaden<note type="footnote"><hi rend="italic">Forfattarnote:</hi> Uorden, daalig Indretning.</note> med Jordi; dan kann ein retta paa med Tidi; men Skogen darimot: Skogen kann ein inkje reisa uppatter korkje med Str&#x00E6;v elder Pengar. Dat er utskjemt, dat er &#x00F8;ydelagt. Dat er inkje dan Heimen, som eg tenkte paa, og som eg lengtade so lengje til; dat er inkje min Gard lenger, og difyre heve eg inkje stor Hug paa han. Eg heve teent meg so myket, at eg kann faa meg ein Gard paa ein annan Stad.</p>
+</sp>
+<sp>
+<speaker>Olav.</speaker>
+<p rend="noIndent">Ja, men du tenkjer no v&#x00E6;l inkje aa sleppa fraa deg Garden fyre dan Skuld?</p>
+</sp>
+<sp>
+<speaker>Aamund.</speaker>
+<p rend="noIndent">Dat vilde vist vera dat klokaste; for so fekk daa kvar hava sitt i Fred. No f&#x00E6;r eg fyrst ei lang Rettargangs-Sak, og dei som skal driva slika Sakjer, dei verda snarare svange og svoltne, en dei verda feite av di; dat er som ein Mann sagde eingong: Dan, som taper, stend atter naken, og dan som vinn, stend i berre Skjorta. Og um eg so skulde vinna eingong, so vilde altsaman vera endaa meir utskjemt, end dat no er.</p>
+</sp>
+<sp>
+<speaker>Olav.</speaker>
+<p rend="noIndent">Nei, Aamund, no kann eg inkje halda med deg lenger. D&#x0027;er alt for sant, at Garden er ille medfaren, men so er dat daa inkje verre, en at dat meste kann retta seg med Tidi, naar dei rette Henderna koma yver dat. Her er endaa ein fager Bustad, og her er Raad te faa han myket betre en han var. Dat er endaa beste Garden i Bygdi, og dat skulde daa vera hyggjelegt aa vita, at han kunde fylgja dan &#x00C6;tti, som heve aatt og odlat han fraa Mann til Mann, so lengje som Folk kann minnast. Eg heve harmast nog paa dat, at han skulde koma i framande Hender, og eg var endaa r&#x00E6;dd, at dat skulde ganga verre en dat gjekk; for dar kunde v&#x00E6;l koma ein, som var meir girug og storlaaten, og som vilde draga under seg baade Land og Lunnende<note type="footnote"><hi rend="italic">Forfattarnote:</hi> Bekvemmeligheder, Herligheder.</note> paa alla Sidor; daa vilde han snart vera Herre yver heile Bygdi, og so kunde Bygdarfolket ganga i Tenesta og hogga Ved og bera Vatn aat dat framande Herskapet, ifall dei inkje vilde r&#x00F8;ma undan og s&#x00F8;kja seg ein Heim paa ein annan Stad. Og daa vilde dat snart vera nytt Folk og nye Seder i Bygdi; for me vita kor n&#x00E6;me Folk plar vera til aa apa og skapa seg etter alt dat, som er nytt og framandt. &#x2013; Eg heve inkje gl&#x00F8;ymt dan gode Grannen som budde her sist, og eg vardt inkje litet glad, daa eg saag, at Ervingen hans var atterkomen og vilde setja seg i Sessen etter sine Forfeder. Men naar du no vilde sleppa Retten fraa deg med Vilje, so vilde eg tykja, dat var dan st&#x00F8;rste Harm, som eg heve havt, og endaa meir: eg vilde tykja, dat var til Harm og Skade fyre heile Bygdi.</p>
+</sp>
+<sp>
+<speaker>Aamund.</speaker>
+<p rend="noIndent">Dat kann vera alt for sant. Dat var myket av detta, som eg inke hadde tenkt etter, og eg seer, at eg kann inkje segja nokot imot di. Dat lyt ganga, som dat vil daa; eg vil standa paa min Rett og inkje sleppa han, fyrr en eg seer Log<note type="footnote"><hi rend="italic">Forfattarnote:</hi> Lov.</note> og Dom fyre dat.</p>
+</sp>
+<sp>
+<speaker>Olav.</speaker>
+<p rend="noIndent">Takk skal du hava! Dat var godt aa h&#x00F8;yra. Og lat oss so vera lystige, som me var fyrr.</p>
+<stage>(De gaae bort).</stage>
+</sp>
+</div>
+<div type="chapter" subtype="scene" n="10">
+<head type="main">Tiende Scene.</head>
+<sp>
+<speaker>Inga.</speaker>
+<p rend="noIndent">Dat var daa underlegt, at eg aldri skal faa vita, kvar han er komen ifraa, elder kvat han vil her. Eg spurde henne Gunnild i Stad, og ho svarade, at dat var Son til ein gamall Kjenning, og so fekk eg inkje meir Greida paa dat. Men anten dat er no so elder so, so kjem eg han i Hug baade jamt og samt; eg tykjer, at eg berre lengtar etter aa sjaa han atter og h&#x00F8;yra Maalet hans. Han sagde, at dat som han likade best, var ei Gjenta, slik som eg i alle Maatar. Kanskje dat var meg, han meinte? &#x2013; Aa, giv dat var sant! &#x2013; Men nei! dat var vist inkje so te taka; han kann hava seet mange slika som eg. D&#x0027;er berre Galskap aa tenkja paa slikt. Men eg veit inkje kor dat er voret;<note type="footnote"><hi rend="italic">Forfattarnote:</hi> fat, beskaffent.</note> eg er liksom eg var umskapad no sidan i Dag: dess meir eg vil gl&#x00F8;yma dat, dess meir minnest eg dat; dess meir eg vil jaga desse Tankarne veg, dess traaare koma dei atter. Ja, men dat er daa ein slik overslege snild Gut likev&#x00E6;l; kvart eit<note type="footnote">eit] <hi rend="italic">retta fr&#x00E5;:</hi> ei <hi rend="italic">(trykkfeil, jf. liste bak i boka)</hi></note> Ord, han segjer, er so huglegt te h&#x00F8;yra; dat var annat Slag en han Trond paa B&#x00F8;en.</p>
+<stage>(Falder i Tanker.)</stage>
+</sp>
+</div>
+<div type="chapter" subtype="scene" n="11">
+<head type="main">Ellevte Scene.</head>
+<stage>Aamund. Inga. Siden Hermann udenfor.</stage>
+<sp>
+<speaker>Aamund</speaker>
+<stage>(uden at see Inga.)</stage>
+<p rend="noIndent">Alltid kjem eg atter paa dan same Flekken, og alltid kjem eg atter paa dan same Tanken. Og endaa veit eg inkje, kvat Manns Barn ho er; &#x2013; eg spurde han Olav, og han svarade so underlege; dat var likt til, at han vilde inkje ut med di. Kvat skal eg tru, han kunde meina med di? d&#x0027;er no v&#x00E6;l ingi Kongsdotter, som er utkl&#x00E6;dd i Bondekl&#x00E6;de, veit eg. <stage>(Gaar l&#x00E6;ngere frem og seer Inga.)</stage> Er dat du, Inga? Dat var godt, at eg fann deg; for dat var nokot, som eg vilde spyrja um. Men lat meg inkje skr&#x00E6;ma deg, so som eg gjorde fyrr i Dag. Eg tenkjer, du er r&#x00E6;dd meg endaa?</p>
+</sp>
+<sp>
+<speaker>Inga</speaker>
+<stage>(forsikkrende).</stage>
+<p rend="noIndent">Nei.</p>
+</sp>
+<sp>
+<speaker>Aamund.</speaker>
+<p rend="noIndent">Nei, dat er sant; me er kjent Folk no, sidan me heldt paa aa stevjast i Stad.</p>
+</sp>
+<sp>
+<speaker>Inga.</speaker>
+<p rend="noIndent">Ja men du var for dryg til aa stevjast med likev&#x00E6;l. Skulde dat vara lenger, so hadde eg inkje vist eit Ord te svara.</p>
+</sp>
+<sp>
+<speaker>Aamund.</speaker>
+<p rend="noIndent">Eg maa vist hava voret for myket framfus, og so lyt eg beda um, at du inkje vil tykkja<note type="footnote"><hi rend="italic">Forfattarnote:</hi> fortryde.</note> paa dat. Og fyrst og fremst lyt eg beda, at du maa orsaka<note type="footnote"><hi rend="italic">Forfattarnote:</hi> undskylde.</note> meg fyre dat, at eg skr&#x00E6;mde deg her i Dag; for eg kunde slett inkje til dat: eg sat her og var so full av Tankar, at eg inkje saag paa nokor Sida, og daa du tok til aa syngja, so tykte eg, dat var so godt aa lyda paa, at eg kom inkje i Hug te r&#x00F8;ra meg, fyrr en eg saag, at du var burte. Eg tenkjer, du vardt myket r&#x00E6;dd?</p>
+</sp>
+<sp>
+<speaker>Inga.</speaker>
+<p rend="noIndent">Nei, eg vardt inkje r&#x00E6;dd, eg berre kvakk ein liten Grand. Men dat var styggare av meg, at eg skulde r&#x00F8;ma undan soleids, liksom ein skulde vera r&#x00E6;dd alle dei som ein inkje kjenner.</p>
+</sp>
+<sp>
+<speaker>Aamund.</speaker>
+<p rend="noIndent">Nei, dat var inkje te undrast paa. Men h&#x00F8;yr no: d&#x0027;er so leidt, naar ein slett inkje veit nokot um dan som ein talar med; eg heve endaa inkje fenget vita, kvar du er &#x00E6;ttad ifraa, elder kvar du heve Folket ditt.</p>
+</sp>
+<sp>
+<speaker>Hermann</speaker>
+<stage>(udenfor Scenen):</stage>
+<p rend="noIndent">Inga! Inga!</p>
+</sp>
+<sp>
+<speaker>Inga</speaker>
+<stage>(hastigt).</stage>
+<p rend="noIndent">Du skal snart faa vita dat.</p>
+<stage>(L&#x00F8;ber ud).</stage>
+</sp>
+<sp>
+<speaker>Aamund</speaker>
+<stage>(&#x00E6;rgerlig).</stage>
+<p rend="noIndent">Nei, d&#x0027;er daa reint som dat var forgjort likev&#x00E6;l; d&#x0027;er som dei skulde vera samstelte alle ihop. &#x2013; Men, &#x2013; dat maa vist vera so, at ho tenar her paa Garden. Aa ja, so skal me v&#x00E6;l finnast atter.</p>
+<stage>(Gaaer til Venstre).</stage>
+</sp>
+</div>
+<div type="chapter" subtype="scene" n="12">
+<head type="main">Tolvte Scene.</head>
+<stage>Hermann. Inga.</stage>
+<sp>
+<speaker>Hermann.</speaker>
+<p rend="noIndent">Han er altsaa borte. Men hvad Slags Kjendskab er det, du har med denne Person, at du kan gaae saaledes og snakke med ham?</p>
+</sp>
+<sp>
+<speaker>Inga</speaker>
+<stage>(forlegen).</stage>
+<p rend="noIndent">Eg veit inkje dat minste um han, annat en ho Gunnild sagde, at dat var ein av Kjenningarne deira.</p>
+</sp>
+<sp>
+<speaker>Hermann.</speaker>
+<p rend="noIndent">Saa du veed ikke hvad Menneske det er, og endda kan du snakke saa fortrolig med ham? &#x2013; Stakkels uskyldige Barn, du veed ikke, hvor ondskabsfulde Folk der findes i Verden. H&#x00F8;r nu engang: Har han v&#x00E6;ret snild og venlig imod dig?</p>
+</sp>
+<sp>
+<speaker>Inga.</speaker>
+<p rend="noIndent">Ja, han heve voret so inderlege snild.</p>
+</sp>
+<sp>
+<speaker>Hermann.</speaker>
+<p rend="noIndent">See saa! Det er netop et Beviis paa at han har havt ondt i Sinde. Veed ikke du, hvem han er, saa veed nok han, hvem du er; det kan du lide paa.</p>
+</sp>
+<sp>
+<speaker>Inga.</speaker>
+<p rend="noIndent">Nei, han veit inkje, kven eg er.</p>
+</sp>
+<sp>
+<speaker>Hermann.</speaker>
+<p rend="noIndent">Saa, det har han ogsaa indbildt dig! Jo, det maa v&#x00E6;re en af de rette Karlene, ret en rigtig Rovfugl. Det er ikke nok med, at han vil &#x00F8;del&#x00E6;gge os paa den ene Maade, han vil gj&#x00F8;re det paa den anden ogsaa, for at vor Ydmygelse skal blive saa fuldkommen, som det er muligt. Aa, usalige Time, da det Menneske kom her paa Land!</p>
+</sp>
+<sp>
+<speaker>Inga.</speaker>
+<p rend="noIndent">Men kvat skal no alt dette hava paa seg? Kvat Mann kann dat vera, elder kvat heve han med oss?</p>
+</sp>
+<sp>
+<speaker>Hermann.</speaker>
+<p rend="noIndent">Stakkels Barn, jeg kvider for at sige dig det. Du faaer tidsnok vide det. Vi faae nok alt for god Leilighed til at kjende den Mand, baade jeg og du, desv&#x00E6;rre.</p>
+<stage>(Gaaer).</stage>
+</sp>
+</div>
+<div type="chapter" subtype="scene" n="13">
+<head type="main">Trettende Scene.</head>
+<sp>
+<speaker>Inga</speaker>
+<stage>(alene.)</stage>
+<p rend="noIndent">Nei no veit eg daa inkje meir korkje att elder fram, og endaa heve eg h&#x00F8;yrt so myket, at eg heve inkje stor Hug te h&#x00F8;yra meir. Eg heve mest kunnat merka, at dat var nokot, som inkje var rett voret. Men kann dat vera rimelegt, at ein Mann kann vera so snild og endaa vera ein Fant? Eg kann inkje tru, at dat er alt so galet som han Far segjer; men nokot galet maa dat vera, og nokot storgalet ogso. So myket er vist, at eg f&#x00E6;r inkje meir tenkja, som eg heve tenkt; dei Tankarne lyt eg driva og gl&#x00F8;yma, so framt eg berre kann. Og hadde eg no havt nokon, som eg kunde ganga til og fortelja mine Tankar, so var eg endaa lukkeleg; men dat er dat verste av alt: eg torer inkje segja eit Ord til ei einaste Saal;<note type="footnote"><hi rend="italic">Forfattarnote:</hi> Sj&#x00E6;l.</note> dei vilde berre l&#x00E6;gja aat meg og gjera Narr av alt i hop; dei vilde segja, at slikt er til H&#x00F8;ves<note type="footnote"><hi rend="italic">Forfattarnote:</hi> tilpas.</note> aat dan, som er so gapen og so godtruen. &#x2013; Aa, dat maa vera tungt aa bera paa ei l&#x00F8;ynleg Sorg og inkje faa klaga seg.</p>
+<stage>(Synger.)</stage>
+<lg>
+<head>(Mel. Jeg gik mig ud spadserende.)</head>
+<l>1. Dan tyngste Sorg og M&#x00F8;da</l>
+<l>er dan, som ingen seer;</l>
+<l>dat verste Mein te gr&#x00F8;da<note type="footnote"><hi rend="italic">Forfattarnote:</hi> l&#x00E6;ge.</note></l>
+<l>er dat, som inkje teer.</l>
+<l>Aa, s&#x00E6;l er dan, som klaga f&#x00E6;r</l>
+<l>og ventar Hjelp og Raad.</l>
+<l>mot dan, som l&#x00F8;ynleg&#x0027; draga f&#x00E6;r</l>
+<l>og ottar<note type="footnote"><hi rend="italic">Forfattarnote:</hi> frygter.</note> Spott og Haad.<note type="footnote"><hi rend="italic">Forfattarnote:</hi> Haan, Spot.</note></l>
+</lg>
+<lg>
+<l>2. Dat var ein Draum eg dr&#x00F8;ymde,</l>
+<l>dan Draumen var so blid;</l>
+<l>slik Hugnad hev&#x0027; eg aldri</l>
+<l>kjent fyrr i all mi Tid.</l>
+<l>Eg dr&#x00F8;ymdest paa ein Blomstervoll,</l>
+<l>og Soli skjein so bjart;<note type="footnote"><hi rend="italic">Forfattarnote:</hi> klart.</note></l>
+<l>eg vaknad&#x0027; paa ein &#x00D8;ydeholm,</l>
+<l>og Himmelen var svart.</l>
+</lg>
+<lg>
+<l>3. Dan Draumen lyt eg l&#x00F8;yna<note type="footnote"><hi rend="italic">Forfattarnote:</hi> d&#x00F8;lge.</note></l>
+<l>og l&#x00E6;sa<note type="footnote"><hi rend="italic">Forfattarnote:</hi> indelukke.</note> i min Barm;</l>
+<l>og trutt skal Barmen tegja,</l>
+<l>kor saart han svell<note type="footnote"><hi rend="italic">Forfattarnote:</hi> svulmer.</note> av Harm.</l>
+<l>I Song skal han faa letta seg</l>
+<l>og i ein Taareflaum.</l>
+<l>Far v&#x00E6;l, far v&#x00E6;l du vene Draum,</l>
+<l>du alt for vene Draum!</l>
+</lg>
+<stage>(Gaaer bort gr&#x00E6;dende).</stage>
+</sp>
+</div>
+<div type="chapter" subtype="scene" n="14">
+<head type="main">Fjortende Scene.</head>
+<stage>Hermann. Aamund.</stage>
+<sp>
+<speaker>Hermann.</speaker>
+<p rend="noIndent">Saa du synes altsaa at v&#x00E6;re vis paa at vinde denne Sag?</p>
+</sp>
+<sp>
+<speaker>Aamund.</speaker>
+<p rend="noIndent">Nei, eg er inkje vidare viss paa dat; men so lyt eg no hava Voni, so lengje som dat er nokor Raad til.</p>
+</sp>
+<sp>
+<speaker>Hermann.</speaker>
+<p rend="noIndent">Ja men det maa jeg da sige, at om saa skulde h&#x00E6;nde, saa vil du ikke komme saa ganske lettelig til det; for her er lagt en stor Bekostning paa Gaarden, og Eiendommen er nu i en ganske anden Stand end den var.</p>
+</sp>
+<sp>
+<speaker>Aamund.</speaker>
+<p rend="noIndent">Dat kann so vera, men eg vilde daa helder, at Garden skulde vera i dat Stand, som han var, sist eg saag han.</p>
+</sp>
+<sp>
+<speaker>Hermann</speaker>
+<stage>(forn&#x00E6;rmet).</stage>
+<p rend="noIndent">Saa? &#x2013; Jo det var en god Forklaring! Det var naturligviis galt, at der blev gjort en liden Modsigelse imod den gamle Bondeviisdom, en liden Afvigelse fra den gamle Slendrian, som han Far og han Bedstefar har befundet sig saa s&#x00E6;rdeles vel ved. Man burde endnu en Tid faa nyde Frugterne af den gamle Dumhed og Dorskhed. Det var naturligviis fortr&#x00E6;deligt, at der skulde skee en Forandring i det gamle Svinerie, at man ikke skulde v&#x00E6;re saa lykkelig at faa rode i den samme Skiddenhed og Uteerlighed som f&#x00F8;r. Jo, her saae saa net og saa hyggeligt ud, da jeg kom her, at det var Skade, at der skulde gj&#x00F8;res en Omskiftelse.</p>
+</sp>
+<sp>
+<speaker>Aamund.</speaker>
+<p rend="noIndent">Eg gjerer Skil paa slike Umskifte, som er Gagn i, og slike som er inkje Gagn i. Her heve butt agtande Folk fyrr, og dei hava teket mangt eit tungt Tak og gjort mangt eit godt Verk, som inkje kan vera so synlegt fyre alle dei, som no koma her; dei hava jamnat mang ei Tuva og lagt upp mang ei Sletta, som inkje var, daa dei kom til. Dei hava gjort kvat dei kunde gjera, og meir vil dat inkje vera te segja um oss helder. Og difyre meiner eg, dat var best aa lata dei daude kvila i Fred og helder passa paa seg sj&#x00F8;lv. Dan som heve gjort so stor Umbot paa Jordi, han maa v&#x00E6;l ogso hava havt ein stor Vinning av di, og heve<note type="footnote">heve] <hi rend="italic">retta fr&#x00E5;:</hi> have <hi rend="italic">(trykkfeil, jf. liste bak i boka)</hi></note> han inkje dat, so maa dat vera galet fram-faret.</p>
+</sp>
+<sp>
+<speaker>Hermann.</speaker>
+<p rend="noIndent">Ingen N&#x00E6;sviished, ingen Forn&#x00E6;rmelser!</p>
+</sp>
+<sp>
+<speaker>Aamund.</speaker>
+<p rend="noIndent">Nei, dat var eg inkje tenkt paa; men eg tykjer, dat er betr aa segja sin Meining til ein Mann, som er sj&#x00F8;lv til Stadar og kann svara fyre seg, en aa skamskjella Folk, som er burte og inkje kann svara.</p>
+</sp>
+<sp>
+<speaker>Hermann</speaker>
+<stage>(afsides).</stage>
+<p rend="noIndent">Han bliver nok ikke saa let at bl&#x00E6;se ifra sig, som jeg t&#x00E6;nkte. <stage>(H&#x00F8;it).</stage> Det kan da v&#x00E6;re nok om den Sag. Men hvorledes troer du, at vi skulde komme overeens, om det skulde komme dertil, at jeg maatte afstaae Gaarden?</p>
+</sp>
+<sp>
+<speaker>Aamund.</speaker>
+<p rend="noIndent">Aa, dat laut no v&#x00E6;l verda ein Utveg med di; eg vilde inkje, at nokon skulde lida Urett. Og so laut eg no fyrst faa h&#x00F8;yra, kor du sj&#x00F8;lv vilde hava dat.</p>
+</sp>
+<sp>
+<speaker>Hermann.</speaker>
+<p rend="noIndent">H&#x00F8;r engang: jeg lider ikke dette &#x00AB;Du&#x00BB;; vi have ikke drukket Duus med hinanden.</p>
+</sp>
+<sp>
+<speaker>Aamund.</speaker>
+<p rend="noIndent">Nei, nei, eg kann gjerne bruka eit annat Ord. Men eg syntest, at de sagde &#x00AB;Du&#x00BB; til meg, og difyre trudde eg, at dat skulde so vera.</p>
+</sp>
+<sp>
+<speaker>Hermann.</speaker>
+<p rend="noIndent">Jeg skulde nok mene, at man maa have Lov til at sige Du til en Bondegut.</p>
+</sp>
+<sp>
+<speaker>Aamund.</speaker>
+<p rend="noIndent">Ja, ja, dat kann so vera. Dat kann henda, at naar ein Bondegut verd Landhandlar, so stig han so h&#x00F8;gt upp um Bonden, at han inkje meir kann hava nokot Samlag med honom.</p>
+</sp>
+<sp>
+<speaker>Hermann</speaker>
+<stage>(afsides).</stage>
+<p rend="noIndent">Hvad for noget? Skulde han vide noget om min Herkomst? &#x2013; <stage>(H&#x00F8;it).</stage> H&#x00F8;r engang: har du v&#x00E6;ret ved Mandal nogen Tid?</p>
+</sp>
+<sp>
+<speaker>Aamund.</speaker>
+<p rend="noIndent">Ja, eg heve voret dar, og eg er v&#x00E6;l kjend med Folk, som er darifraa ogso.</p>
+</sp>
+<sp>
+<speaker>Hermann</speaker>
+<stage>(afsides).</stage>
+<p rend="noIndent">See saa! det manglede kun. Han veed altsaa hele min Historie. Ja, saa faaer jeg nok tale i en anden Tone. &#x2013; <stage>(H&#x00F8;it)</stage> Jeg er bange for at jeg har forn&#x00E6;rmet Dem, og isaafald maa jeg da bede om Forladelse. Men h&#x00F8;r nu engang: jeg vil frems&#x00E6;tte et vist Tilf&#x00E6;lde ligesom til et Exempel. Dersom De traf en indflyttet Mand i Deres Hjembygd, og De saa vidste, at denne Mand paa et andet Sted havde gjort adskillige Dumheder, som han dog siden havde rettet paa og givet Opreisning for: hvad vilde De da gj&#x00F8;re med den Historie? De vilde vel ikke fort&#x00E6;lle den til enhver, som vilde h&#x00F8;re den?</p>
+</sp>
+<sp>
+<speaker>Aamund.</speaker>
+<p rend="noIndent">Dat trur eg inkje, at eg vilde bry meg med. Dat som han hadde gjort paa andre Stader, dat kom inkje nokon ved i mi Heimbygd, og so vilde dat vera gagnlaust aa fortelja dat; for dat vilde berre vera ein Mann til Skade og ingen til Bate. Men naar dat skulde h&#x00F8;va so til, at dan Mannen gjorde seg nokot for dryg anten mot meg elder mine, so kunde dat v&#x00E6;l henda, at eg vilde lata han h&#x00F8;yra, at eg visste dat; men ellest trur eg inkje, at eg vilde gjera nokot vidare utav di.</p>
+</sp>
+<sp>
+<speaker>Hermann</speaker>
+<stage>(afsides).</stage>
+<p rend="noIndent">Det er sandelig en bedre Karl end jeg havde t&#x00E6;nkt. <stage>(H&#x00F8;it.)</stage> Det gl&#x00E6;der mig meget at h&#x00F8;re, at De har en saadan T&#x00E6;nkemaade, og jeg maa oprigtig bede om Forladelse for, at jeg ikke har behandlet Dem, som jeg burde. De vil ellers let indsee, at det maatte falde mig lidt fortr&#x00E6;deligt at blive forstyrret i Besiddelsen af dette Sted, som jeg nemlig nu havde anseet som min retm&#x00E6;ssige Eiendom.</p>
+</sp>
+<sp>
+<speaker>Aamund.</speaker>
+<p rend="noIndent">Dat kann eg slett inkje undrast paa.</p>
+</sp>
+<sp>
+<speaker>Hermann.</speaker>
+<p rend="noIndent">Det vil altsaa v&#x00E6;re mig en Tr&#x00F8;st, at jeg har med en saa fornuftig Mand at bestille. Og for&#x00F8;vrigt maa vel Sagen gaae Rettens Vei?</p>
+</sp>
+<sp>
+<speaker>Aamund.</speaker>
+<p rend="noIndent">Ja, dat er v&#x00E6;l inkje onnor Raad.</p>
+</sp>
+<sp>
+<speaker>Hermann.</speaker>
+<p rend="noIndent">Jeg kan ikke sige noget derimod; enhver maa jo staae paa sin Ret. Og for&#x00F8;vrigt faae vi tale n&#x00E6;rmere sammen en anden Gang; nu for &#x00D8;ieblikket har jeg noget at udrette. Far vel, saal&#x00E6;nge.</p>
+<stage>(Gaaer).</stage>
+</sp>
+<sp>
+<speaker>Aamund</speaker>
+<stage>(alene).</stage>
+<p rend="noIndent">Ha, ha! Jau no kom dat annat Maal i Bj&#x00F8;lla. &#x2013; Eg kann inkje annat segja, en eg harmast, naar eg h&#x00F8;yrer paa, kor Folk kann skjemma og svivyrda<note type="footnote"><hi rend="italic">Forfattarnote:</hi> forhaane.</note> Foreldri vaare, og me skal inkje hava Lov te segja eit Ord imot. So var dat denne Gongen ogso, og difyre fekk han no denna Sneidi.<note type="footnote"><hi rend="italic">Forfattarnote:</hi> Skose, Stikpille.</note> Han er Son til ein Husmann paa ei Plasse-Bot, som heiter Saudebakken; difyre skriv han seg Sauenbach.<note type="footnote"><hi rend="italic">Forfattarnote:</hi> Sauenbach betyder egentlig noget andet, nemlig: Svineb&#x00E6;k.</note> Han var Krambudsvein nokre Aar og slog stort paa og livde som ein Ranglefant med annan Manns Pengar, og sidan kann dat vera mangt, som inkje eg veit um; og inkje bryr meg eg um aa vita dat helder. Dat vilde alltid vera so myket, at Folket her vilde hava nokot te neisa han med,<note type="footnote"><hi rend="italic">Forfattarnote:</hi> at forekaste ham.</note> naar dei kom i Ordkast med honom; og d&#x0027;er v&#x00E6;l dat, som han er r&#x00E6;dd fyre. Men han skal no inkje syta so myket fyre dat helder; heve inkje nokon annan fortalt dat, so vil inkje eg fortelja dat helder. Han skal inkje hava dat te segja, at eg heve gjort Skade paa hans gode Namn.</p>
+</sp>
+</div>
+<div type="chapter" subtype="scene" n="15">
+<head type="main">Femtende Scene.</head>
+<stage>Olav. Aamund.</stage>
+<sp>
+<speaker>Olav.</speaker>
+<p rend="noIndent">Aa so er du atterkomen paa same Staden. Kanskje du heve voret inne og talat med Mannen sj&#x00F8;lv?</p>
+</sp>
+<sp>
+<speaker>Aamund.</speaker>
+<p rend="noIndent">Ja, eg heve talat myket med honom og.</p>
+</sp>
+<sp>
+<speaker>Olav.</speaker>
+<p rend="noIndent">Ja so? Daa tenkjer eg mest, at de hava voret Uviner.</p>
+</sp>
+<sp>
+<speaker>Aamund.</speaker>
+<p rend="noIndent">Aa &#x2013; ja, dat var nokot av baade Slagi.</p>
+</sp>
+<sp>
+<speaker>Olav.</speaker>
+<p rend="noIndent">Dat var mi Von. For han plar vera slik; han er so f&#x00E6;lt strid sume Tider, men naar ein daa berre stend imot og inkje giv seg, so plar han bogna og gjera seg god atter.</p>
+</sp>
+<sp>
+<speaker>Aamund.</speaker>
+<p rend="noIndent">Eg kunde mest merka dat. Men dat er sant: eg heve endaa inkje spurt etter, kvat dat er for andre Folk, som er her paa Garden. Dar skal vera eit Ungmenne,<note type="footnote"><hi rend="italic">Forfattarnote:</hi> ungt Menneske.</note> som eg vilde so gjerne h&#x00F8;yra nokot um; men dat tenkjer eg, du berre vil l&#x00E6;gja aat; for dat er ei Gjenta, skal eg segja deg.</p>
+</sp>
+<sp>
+<speaker>Olav</speaker>
+<stage>(sp&#x00F8;gende).</stage>
+<p rend="noIndent">Ei Gjenta? Eg meiner, du er galen, Gut. Tenk aldri paa nokor Gjenta, fyrr en alt annat er avgjort. <stage>(Afsides.)</stage> Dat maa vist vera ho Inga. Aa, dat var harmelegt at ho skulde vera fast!</p>
+</sp>
+<sp>
+<speaker>Aamund.</speaker>
+<p rend="noIndent">Ja, men dat var daa alltid godt aa vita, kvat Folk ein hadde fyre seg.</p>
+</sp>
+<sp>
+<speaker>Olav.</speaker>
+<p rend="noIndent">Dat var so ja, men du kunde snart faa vita dat, du inkje vilde. <stage>(Afsides.)</stage> Eg lyt pr&#x00F8;va aa faa han paa andre Tankar. &#x2013; <stage>(H&#x00F8;it).</stage> Dat er ein faarleg Ting, desse Kvendi: dei ganga dar so fine og blide, liksom dei vilde lokka Folk inn i Fanget; men er dat daa so, at du l&#x00E6;t deg draga, so veit du inkje av, fyrr en du stend so fast, at du kann korkje koma att elder fram. Dar er ei gamall Visa um dat, som du kanskje inkje heve h&#x00F8;yrt. Lat meg sjaa, kor ho byrjar &#x2026;</p>
+<stage>(Synger).</stage>
+<lg>
+<head>(Egen Melodie.)</head>
+<l>1. Aka paa Isen haale</l>
+<l>med uskodd &#x00D8;yk og kaat,</l>
+<l>beita i Stormen stride</l>
+<l>med styrelause Baat,</l>
+<l>renna i Kapp med Reinen,</l>
+<l>um Raasi<note type="footnote"><hi rend="italic">Forfattarnote:</hi> Veien.</note> er tung og vaat:</l>
+<l>Dat maa ein Galning vera,</l>
+<l>som so vil fara aat.</l>
+</lg>
+<stage>(Afsides.)</stage>
+<p rend="noIndent">Haa haa! Dar kjem Kjeringi. Eg er r&#x00E6;dd, ho vil skjemma dat ut fyre meg.</p>
+</sp>
+</div>
+<div type="chapter" subtype="scene" n="16">
+<head type="main">Sextende Scene.</head>
+<stage>Gunnhild. De forrige.</stage>
+<sp>
+<speaker>Olav</speaker>
+<stage>(vedbliver).</stage>
+<lg>
+<l>2. Ganga og gjera seg fager</l>
+<l>og laata so fiint og smaatt,</l>
+<l>l&#x00F8;yna si laake Sida,<note type="footnote"><hi rend="italic">Forfattarnote:</hi> skjule sin slette Side.</note></l>
+<l>til Maalet fyrst er naatt,</l>
+<l>giva deg goda Voner</l>
+<l>og svika deg sidan braadt:</l>
+<l>dat hev&#x0027; eg h&#x00F8;yrt so ymse,</l>
+<l>skal vera Kvende-Haatt.<note type="footnote"><hi rend="italic">Forfattarnote:</hi> Art, Skik.</note></l>
+</lg>
+</sp>
+<sp>
+<speaker>Gunnild</speaker>
+<stage>(polidsk).</stage>
+<p rend="noIndent">No kjem dan andre Parten:</p>
+<lg>
+<l>3. Ganga med stolte L&#x00E6;te</l>
+<l>og fria tidt og traatt,</l>
+<l>freista dei arme V&#x00E6;kjor<note type="footnote"><hi rend="italic">Forfattarnote:</hi> Pigeb&#x00F8;rn.</note></l>
+<l>til baade stort og smaatt,</l>
+<l>lata dei sidan fara</l>
+<l>og ha&#x0027; dei til Gliis og Laatt:</l>
+<l>dat hev eg h&#x00F8;yrt so ymse,</l>
+<l>skal vera Karmans Haatt.</l>
+</lg>
+</sp>
+<sp>
+<speaker>Olav.</speaker>
+<p rend="noIndent">Eg heve eit Skot i Hornet endaa:</p>
+<lg>
+<l>4. Ganga og sjaa etter Stasen</l>
+<l>og kaupa av alle Slag,</l>
+<l>sitja so traatt og dr&#x00F8;sa<note type="footnote"><hi rend="italic">Forfattarnote:</hi> sladre.</note></l>
+<l>i Gaman og Gjestelag,</l>
+<l>blaasa aat dan, som mukkar,</l>
+<l>og gi&#x0027; han ein godan Dag:</l>
+<l>dat hev eg h&#x00F8;yrt so ymse</l>
+<l>skal vera Kvende-Lag.</l>
+</lg>
+</sp>
+<sp>
+<speaker>Gunnild.</speaker>
+<p rend="noIndent">Endaa er inkje siste Verset sunget:</p>
+<lg>
+<l>5. Ganga og skr&#x00F8;yta og knota</l>
+<l>og laast vera h&#x00E6;v og hag,<note type="footnote"><hi rend="italic">Forfattarnote:</hi> flink og beh&#x00E6;ndig.</note></l>
+<l>sitja i Drikkarstemna</l>
+<l>og sumla Natt og Dag,</l>
+<l>koma so heim og buldra</l>
+<l>og truga med Hogg og Slag:</l>
+<l>dat hev eg h&#x00F8;yrt so ymse</l>
+<l>skal vera Karmanns Lag.</l>
+</lg>
+<p>Og endaa er dar eit litet Ende-Stev:</p>
+<lg>
+<l>6. Skulde eg nokot raada</l>
+<l>so var dat Raadi mi:</l>
+<l>Lastar du andre Sida,</l>
+<l>so sjaa paa Sida di.</l>
+<l>Baada Sidor er veika,</l>
+<l>og kvar heve Veila<note type="footnote"><hi rend="italic">Forfattarnote:</hi> Br&#x00F8;st, Feil.</note> si;</l>
+<l>di skal dei tegja baada,</l>
+<l>og ingi lasta hi.<note type="footnote"><hi rend="italic">Forfattarnote:</hi> derfor skulle de begge tie, og ingen laste den anden.</note></l>
+</lg>
+</sp>
+<sp>
+<speaker>Aamund.</speaker>
+<p rend="noIndent">Dat var rett. No tykjer eg, dat jamnar seg paa baada Sidor. Men dat siste Verset skulde eg havt Hug te minna meg paa.</p>
+</sp>
+<sp>
+<speaker>Olav.</speaker>
+<p rend="noIndent">So skal me kveda dat baade tvau saman.</p>
+</sp>
+<stage>(Olav og Gunnild gjentage Verset: Skulde eg nokot raada o. s. v.)</stage>
+<sp>
+<speaker>Olav.</speaker>
+<p rend="noIndent">Ja! dar skal du h&#x00F8;yra, Aamund, kor dat gjeng til. Soleids kann me stevjast og kivast ofta, naar me er tvau eine.<note type="footnote"><hi rend="italic">Forfattarnote:</hi> kun to sammen. (&#x00AB;tvau&#x00BB; om et Mandfolk og et Kvindfolk).</note> Men dat maa eg segja, at me er like gode Viner fyre dat.</p>
+</sp>
+<sp>
+<speaker>Aamund.</speaker>
+<p rend="noIndent">Dat tvilar eg inkje paa. Dat er inkje slike Hogg, som gjera saart.</p>
+</sp>
+<sp>
+<speaker>Olav.</speaker>
+<p rend="noIndent">Aa nei, dat h&#x00F8;gg inkje alt so hardt, som dat hotar.<note type="footnote"><hi rend="italic">Forfattarnote:</hi> truer.</note></p>
+</sp>
+<sp>
+<speaker>Aamund.</speaker>
+<p rend="noIndent">Men endaa heve eg inkje fenget nokor Greida paa dat, som eg vilde spyrja um.</p>
+</sp>
+<sp>
+<speaker>Olav.</speaker>
+<p rend="noIndent">Nei, dat er sant. Var dat inkje ei Gjenta, som du spurde um?</p>
+</sp>
+<sp>
+<speaker>Aamund.</speaker>
+<p rend="noIndent">Jau, dat var dan, som var med oss i Dag, daa me heldt paa og skulde stevjast.</p>
+</sp>
+<sp>
+<speaker>Olav</speaker>
+<stage>(Afsides).</stage>
+<p rend="noIndent">Ein Gong lyt dat no fram, seer eg.</p>
+<stage>(H&#x00F8;it.)</stage>
+<p rend="noIndent">Dat var Dotter til dan Mannen, som du f&#x00F8;rer Saki med.</p>
+</sp>
+<sp>
+<speaker>Aamund</speaker>
+<stage>(forundret).</stage>
+<p rend="noIndent">Dotter hans? dat hadde eg daa aldri kunnat tru.</p>
+</sp>
+<sp>
+<speaker>Gunnild.</speaker>
+<p rend="noIndent">Nei dat var inkje so godt aa sjaa helder fyre dan, som er ukjend, maa vita; for ho seer ut radt som ei onnor Bondegjenta, ho heve havt st&#x00F8;rste Hugen te fylgja Bonde-Visi, og Fa&#x0027;ren heve voret so kj&#x00E6;r fyre henne, at han heve latet henne raada seg sj&#x00F8;lv.</p>
+</sp>
+<sp>
+<speaker>Olav.</speaker>
+<p rend="noIndent">Eg vilde inkje segja nokot stort um detta i Dag, daa me m&#x00F8;ttest her; for eg tenkte so: Her standa no desse tvo stridande Partarne so meinlause midt imot kvar-annan, og ingen av dei veit, at dan eine skal jaga dan andre ut. Faa dei no vita aldri so litet, so verda dei r&#x00E6;dde kvartannat, og so faa me inkje meir Moro.</p>
+</sp>
+<sp>
+<speaker>Aamund.</speaker>
+<p rend="noIndent">Ja men me hava no voret saman tvau eine likev&#x00E6;l baade fyrr og sidan.</p>
+</sp>
+<sp>
+<speaker>Olav</speaker>
+<stage>(forundret).</stage>
+<p rend="noIndent">Ja so? Og endaa fekk du inkje h&#x00F8;yra, kven ho var?</p>
+</sp>
+<sp>
+<speaker>Aamund.</speaker>
+<p rend="noIndent">Nei. Dat var eit underlegt Tilstemne.<note type="footnote"><hi rend="italic">Forfattarnote:</hi> Sammentr&#x00E6;f.</note> Dat skulde alltid koma nokot i Vegen. &#x2013; Men seg meg no: vita de nokot, um ho er fal endaa?</p>
+</sp>
+<sp>
+<speaker>Olav.</speaker>
+<p rend="noIndent">Dess verre, du; ho skal vera fast og inkje fal, etter som Folk segja.</p>
+</sp>
+<sp>
+<speaker>Aamund</speaker>
+<stage>(nedslagen).</stage>
+<p rend="noIndent">Dat var ilt aa h&#x00F8;yra. &#x2013; Dat var harmelegt.</p>
+</sp>
+<sp>
+<speaker>Olav.</speaker>
+<p rend="noIndent">Kanskje du likar Gjenta?</p>
+</sp>
+<sp>
+<speaker>Aamund.</speaker>
+<p rend="noIndent">Eg likar henne meir, en eg torer segja, naar dat stend so til. Var ho til aa faa, so vilde eg havt henne, um ho inkje aatte Skoen paa Foten.</p>
+</sp>
+<sp>
+<speaker>Olav</speaker>
+<stage>(til Gunnild).</stage>
+<p rend="noIndent">Aa, nei detta var tregelegt.<note type="footnote"><hi rend="italic">Forfattarnote:</hi> &#x00E6;rgerligt.</note> Nei, eg heve<note type="footnote">heve] <hi rend="italic">retta fr&#x00E5;:</hi> have <hi rend="italic">(trykkfeil, jf. liste bak i boka)</hi></note> aldri likat detta dar med han Trond paa B&#x00F8;en.</p>
+</sp>
+<sp>
+<speaker>Gunnild.</speaker>
+<p rend="noIndent">Eg heve inkje likat dat eg helder. Men vil de vita kvat eg trur? Eg trur aldri, at ho vil hava han Trond, og naar ho inkje vil dat, so verd dat inkje nokot av di.</p>
+</sp>
+<sp>
+<speaker>Aamund.</speaker>
+<p rend="noIndent">Aa, giv dat var sant. Men detta er ein Ting, som eg vil vita strakst. Eg gjeng beinast upp i Garden og leitar henne upp. Skulde eg no koma dar ogso for seint, so kunde eg daa segja, at eg var heimkomen i ein uheppen Time.</p>
+</sp>
+<sp>
+<speaker>Olav.</speaker>
+<p rend="noIndent">Ja, kunde detta lukkast, so vilde alt annat laga seg av seg sj&#x00F8;lv. Og dat kann eg segja deg, at dat er Gjenta, som er havande; d&#x0027;er dan snildaste Ungdom, som kann ganga i tvo Skor. Ho er lik si Moer, og dat var ei snild Kona; alt medan ho livde, var han Hermann ein gild Mann; sidan heve dat voret so ymist.</p>
+</sp>
+<sp>
+<speaker>Aamund.</speaker>
+<p rend="noIndent">Eg vil hava ei Vissa, og dat paa Timen.</p>
+</sp>
+<sp>
+<speaker>Gunnild.</speaker>
+<p rend="noIndent">D&#x0027;er fyrst best. Ber fram B&#x00F8;ni di, so h&#x00F8;yrer du, kor dat stend til. Eg torer inkje segja nokot, men eg tykjer, at eg heve ei god Von.</p>
+<stage>(Synger.)</stage>
+<lg>
+<head>(Mel. Aa vil du ha&#x0027; meg, so skal du faa meg.)</head>
+<l>1. No er dat Tid, at du Ordet nemner</l>
+<l>og segjer berlegt,<note type="footnote"><hi rend="italic">Forfattarnote:</hi> aabenhjertigt.</note> kor Hugen stemner;</l>
+<l>og kvik og modig du vera maa,</l>
+<l>dat vil ei Gjenta so gjerne sjaa.</l>
+</lg>
+<lg>
+<l>2. Og lat so inkje all Voni fara,</l>
+<l>um inkje Gjenta so braadt vil svara;</l>
+<l>for slik ein Spurnad er alltid dryg,</l>
+<l>og helst naar V&#x00E6;kja er ung og blyg.</l>
+</lg>
+<lg>
+<l>3. Men hev&#x0027; ein fyrst fenget Rom i Barmen</l>
+<l>so f&#x00E6;r ein ogso eit Rom i Armen.</l>
+<l>D&#x0027;er stundom, ingen um Elsken veit,</l>
+<l>og endaa er han baad&#x0027; varm og heit.</l>
+</lg>
+</sp>
+<sp>
+<speaker>Aamund.</speaker>
+<p rend="noIndent">Takk skal du hava, og mest fyre dat siste.</p>
+</sp>
+<sp>
+<speaker>Olav.</speaker>
+<p rend="noIndent">Lat oss no giva oss ut or Vegen; eg seer Mannen kjem gangande.</p>
+<stage>(De gaae ud til Venstre).</stage>
+</sp>
+</div>
+<div type="chapter" subtype="scene" n="17">
+<head type="main">Syttende Scene.</head>
+<stage>Hermann. Trond.</stage>
+<sp>
+<speaker>Hermann.</speaker>
+<p rend="noIndent">Kom hid og lad os s&#x00E6;tte os her; saa er der ikke nogen, som forstyrrer os. Saa du traf altsaa Prokuratoren?</p>
+</sp>
+<sp>
+<speaker>Trond.</speaker>
+<p rend="noIndent">Eg fann han fyrr, en eg ventade, og eg hadde endaa so n&#x00E6;r vordet for sein; for han hadde slik ei Hast paa seg, at dat var f&#x00E6;lt.</p>
+</sp>
+<sp>
+<speaker>Hermann.</speaker>
+<p rend="noIndent">Det var slemt, at han ikke skulde have Tid til at skrive nogle Ord til mig. Men siig mig nu n&#x00F8;ie og tydeligt hvad han sagde om Brevene.</p>
+</sp>
+<sp>
+<speaker>Trond.</speaker>
+<p rend="noIndent">Han sagde, at dat er inkje rett til aa lita paa med Jordi; for Ervingen heve endaa sin Rett uspilt, og ifall han er nokot fyre seg, og han inkje forseinkar seg elder gl&#x00F8;ymer nokot, so heve han Vinningi.</p>
+</sp>
+<sp>
+<speaker>Hermann.</speaker>
+<p rend="noIndent">See saa! Aa nei, han fors&#x00F8;mmer sig nok ikke. Men er du nu vis paa, at du forstod hvad han sagde?</p>
+</sp>
+<sp>
+<speaker>Trond.</speaker>
+<p rend="noIndent">Ja, dat er eg viss paa; for han var baade tyd og blid og greidde dat so v&#x00E6;l aat meg, at eg maatte skyna dat.</p>
+</sp>
+<sp>
+<speaker>Hermann.</speaker>
+<p rend="noIndent">Naa! paa den Maade vil Sagen altsaa ende med en Udkastelste. &#x2013; Men imidlertid saa anseer jeg dog ikke Sagen som afgjort endnu. Vi skal nok nappes om det en Stund, f&#x00F8;rend jeg giver mig tabt. &#x2013; Men det er sandt: nu skulde vi have talt noget n&#x00E6;rmere om dette Giftermaalet; jeg har talt om det med min Datter, og jeg t&#x00E6;nker nok, at hun f&#x00F8;ier sig; hun gav rigtignok ikke sit fulde Samtykke, men jeg t&#x00E6;nker dog, at det kommer.</p>
+</sp>
+<sp>
+<speaker>Trond.</speaker>
+<p rend="noIndent">Ja, men eg tykjer, dat er leidt aa bry og plaaga Gjenta soleids. Naar inkje Hugen og Hjartat vil dan Vegen, so vilde dat vera Synd aa lokka elder n&#x00F8;yda henne til dat. I dan Saki maa ho hava sin eigen Vilje.</p>
+</sp>
+<sp>
+<speaker>Hermann.</speaker>
+<p rend="noIndent">Du har kanskee ikke saa megen Lyst til det nu som f&#x00F8;r?</p>
+</sp>
+<sp>
+<speaker>Trond.</speaker>
+<p rend="noIndent">Dat var inkje fyre dan Skuld: eg kunde vel hava Lyst; men eg heve tenkt meg um og sleget dat ifraa meg, sidan Gjenta inkje likar dat sj&#x00F8;lv.</p>
+</sp>
+<sp>
+<speaker>Hermann.</speaker>
+<p rend="noIndent">See saa! Jeg havde just en Mistanke om dette. Der maa v&#x00E6;re kommet nye Omst&#x00E6;ndigheder til. Dette der om &#x00AB;Hugen&#x00BB; og om &#x00AB;Hjarta&#x00BB; forekommer mig at v&#x00E6;re nye Talemaader; det Verset stod ikke i Visen, da jeg h&#x00F8;rte den sidst. Men jeg skal saamen ikke gj&#x00F8;re flere Skridt i den Anledning; det er mig ikke saa forf&#x00E6;rdelig meget om at gj&#x00F8;re, og der kunde ogsaa v&#x00E6;re visse Fordele ved, at det gik forbi. Den som ikke faaer, han slipper for at takke. Og dermed skal den Sag v&#x00E6;re afgjort.</p>
+<stage>(Gaaer lidt tilside.)</stage>
+</sp>
+<sp>
+<speaker>Trond</speaker>
+<stage>(ved sig selv.)</stage>
+<p rend="noIndent">No kann du segja kvat du vil. D&#x0027;er alltid ei Gjenta te faa, men d&#x0027;er inkje alltid ei slik Jord te faa.</p>
+<stage>(Gaaer).</stage>
+</sp>
+</div>
+<div type="chapter" subtype="scene" n="18">
+<head type="main">Attende Scene.</head>
+<stage>Hermann. Aamund.</stage>
+<sp>
+<speaker>Hermann</speaker>
+<stage>(ved sig selv, idet han s&#x00E6;tter sig paa B&#x00E6;nken).</stage>
+<p rend="noIndent">Nu er det da altsaa forbi med den Plan, og det har jeg da egentlig ikke saa meget imod. Hvis jeg skulde flytte herifra, saa vilde jeg helst have Barnet med mig, og saa kan hun jo faae sig en bedre Mand paa et andet Sted. Men er det nu ogsaa vist, at jeg skal forlade dette Sted? Jeg har ikke nogen Fred paa mig, f&#x00F8;rend jeg faaer tale med Prokuratoren selv; for jeg er r&#x00E6;d for, at den Klodrian kan have misforstaaet ham.</p>
+</sp>
+<sp>
+<speaker>Aamund</speaker>
+<stage>(ved sig selv, idet han kommer ind fra Gaarden).</stage>
+<p rend="noIndent">Kvar heve dat daa vordet av denna V&#x00E6;kja, at eg aldri kann finna henne atter? Inkje er ho heime, og inkje er ho burte, og inkje er ho nokonstad. Hadde eg endaa funnet Faderen, so trur eg, at eg vilde taka dat paa Enkjemanns Viis og fria til Fa&#x0027;ren fyrst. &#x2013; Sjaa, dar er han med same! <stage>(Til Hermann).</stage> Tykk inkje paa dat; kanskje eg kjem til nokor Uro?</p>
+</sp>
+<sp>
+<speaker>Hermann.</speaker>
+<p rend="noIndent">Aa nei, jeg kan ikke sige det heller. Det var kanskje noget, som du vilde tale om &#x2026; Aa, om Forladelse! Jeg er saa vant til at sige &#x00AB;Du&#x00BB; her iblandt Landsfolket.</p>
+</sp>
+<sp>
+<speaker>Aamund.</speaker>
+<p rend="noIndent">Ja, kunde me inkje pr&#x00F8;va aa segja &#x00AB;Du&#x00BB; til kvarannan? Eg tykjer, d&#x0027;er lettare aa tala daa.</p>
+</sp>
+<sp>
+<speaker>Hermann.</speaker>
+<p rend="noIndent">Aa &#x2013; jo, &#x2013; jo; det kunde nok gaae an. <stage>(Afsides.)</stage> Han er temmelig dristig.</p>
+</sp>
+<sp>
+<speaker>Aamund.</speaker>
+<p rend="noIndent">Dat var nokot, som eg vilde tala um, og eg veit inkje, kor eg skal koma med di; dat kunde kanskje synast so, at dat var nokot djervt og kanskje vanh&#x00F8;velegt;<note type="footnote">vanh&#x00F8;velegt] <hi rend="italic">retta fr&#x00E5;:</hi> vanh&#x00F8;legt <hi rend="italic">(trykkfeil, jf. liste bak i boka)</hi></note> men eg trur inkje, dat skal vera nokot vondt i dat. Dat var fyre dat fyrste berre eit Spursmaal.</p>
+</sp>
+<sp>
+<speaker>Hermann.</speaker>
+<p rend="noIndent">V&#x00E6;r saa god! Jeg er ikke saa streng paa det.</p>
+</sp>
+<sp>
+<speaker>Aamund.</speaker>
+<p rend="noIndent">Du heve ei Dotter, som er her heime.</p>
+</sp>
+<sp>
+<speaker>Hermann.</speaker>
+<p rend="noIndent">Ja, det er Inga, som du vistnok har seet.</p>
+</sp>
+<sp>
+<speaker>Aamund.</speaker>
+<p rend="noIndent">Eg heve talat med henne baade einn Gong og fleire, men eg var inkje so h&#x00E6;v, at eg kjende henne; eg visste inkje, kvat Manns Barn ho var, fyrr en no nyst. Maa eg spyrja, um ho er forlovad?</p>
+</sp>
+<sp>
+<speaker>Hermann</speaker>
+<stage>(afsides).</stage>
+<p rend="noIndent">Hvad kan det betyde? <stage>(H&#x00F8;it).</stage> J-Ja, &#x2013; om Forladelse, jeg er saa fuld af Tanker; &#x2013; nei, hun er ikke forlovet, saa vidt jeg veed. <stage>(Afsides.)</stage> Det er bedst at v&#x00E6;re oprigtig saa forsnakker man sig ikke. <stage>(H&#x00F8;it).</stage> Der var rigtignok talt om en Forlovelse engang; men hun syntes ikke rigtig om det, og saa blev der ikke noget af.</p>
+</sp>
+<sp>
+<speaker>Aamund.</speaker>
+<p rend="noIndent">Eg maa segja, eg likar Gjenta so v&#x00E6;l, at eg tykst aldri hava likat nokot Kvende soleids som henne. Og naar eg kunde vita, at dat var nokor Von fyre meg, og dat inkje skulde vera for myket i Vegen, so vilde eg fria til henne.</p>
+</sp>
+<sp>
+<speaker>Hermann</speaker>
+<stage>(Afsides.)</stage>
+<p rend="noIndent">Nu skal vi h&#x00F8;re. <stage>(H&#x00F8;it).</stage> Det kommer saa uventet, &#x2013; jeg har ikke kommet til at t&#x00E6;nke paa dette, &#x2013; og slige Ting burde man bet&#x00E6;nke meget vel; &#x2013; men jeg troer, at det maatte kunne gaae an, ja jeg mener, at det vilde vist v&#x00E6;re godt. Jeg vil tale med hende om dette, eller rettere, jeg vil kalde hende hid og saa kan du selv tale med hende. Jeg syntes jeg saae hende borte i Gaarden.</p>
+<stage>(Han raaber)</stage>
+<p rend="noIndent">Inga, Inga, kom hid!</p>
+<stage>(Til Aamund.)</stage>
+<p rend="noIndent">Jeg maa sige, jo mere jeg t&#x00E6;nker paa dette, des bedre synes jeg om det; &#x2013; saaledes som Sagerne nu staae, vilde det v&#x00E6;re meget godt.</p>
+<stage>(Til Inga, idet hun kommer ind).</stage>
+<p rend="noIndent">H&#x00F8;r, Inga, her er en Mand, som vil tale med dig.</p>
+<stage>(Han s&#x00E6;tter sig i en grublende Stilling).</stage>
+</sp>
+</div>
+<div type="chapter" subtype="scene" n="19">
+<head type="main">Nittende Scene.</head>
+<stage>Inga. Hermann. Aamund.</stage>
+<sp>
+<speaker>Aamund</speaker>
+<stage>(til Inga.)</stage>
+<p rend="noIndent">Dat var nokot, som eg vilde tala med deg um, og dat lyt eg gjera dat kortaste, som eg kann. Fyre dat fyrste maa eg spyrja, um du heve nokon Kj&#x00E6;raste.</p>
+</sp>
+<sp>
+<speaker>Inga</speaker>
+<stage>(&#x00E6;ngstelig).</stage>
+<p rend="noIndent">Nei.</p>
+</sp>
+<sp>
+<speaker>Aamund.</speaker>
+<p rend="noIndent">Og fyre dat andre maa eg spyrja, um du vil hava meg til Kj&#x00E6;raste.</p>
+</sp>
+<sp>
+<speaker>Inga</speaker>
+<stage>(seer paa Faderen, og da denne sidder i Tanker og ikke bem&#x00E6;rker hende, svarer hun med nogen Bev&#x00E6;gelse:)</stage>
+<p rend="noIndent">Nei.</p>
+</sp>
+<stage>(Pause.)</stage>
+<sp>
+<speaker>Hermann</speaker>
+<stage>(reiser sig.)</stage>
+<p rend="noIndent">Hvorledes var det? &#x2013; Men, det er sandt: hun veed jo ingen Ting. &#x2013; Om Forladelse, der er noget, som jeg har glemt at fort&#x00E6;lle hende. <stage>(Afsides.)</stage> Det var da ogsaa en forskr&#x00E6;kkelig Hast; man kan jo ikke faa Tid til at t&#x00E6;nke efter nogen Ting.</p>
+<stage>(Gaaer tilside og taler sagte med Inga).</stage>
+</sp>
+<sp>
+<speaker>Aamund</speaker>
+<stage>(ved sig selv).</stage>
+<p rend="noIndent">Dat kann v&#x00E6;l vera dat same, kvat du heve gl&#x00F8;ymt elder inkje gl&#x00F8;ymt; eg vil inkje hava annat Svar en dat, som ho kann giva med sin eigen gode Vilje. &#x2013; Aa, dat var harmelegt! Dan Gjenta kjem eg seint til aa gl&#x00F8;yma. Og eg, som trudde so st&#x00F8;dt, at dar inkje var nokot i Vegen! Nei, dat kann ingen skyna desse Kvendi. Du Olav i Bakken, du hadde Rett i dat, som du sagde: &#x00AB;dei giva deg goda Voner og svika deg sidan braadt&#x00BB;. Men dat er sant: Ho er inkje lastande fyre dette; &#x2013; maa inkje ei Gjenta hava Lov til aa vera blid og snild imot ein Kar, utan at han skal tru, at ho vil hava han? &#x2013; Men eit er vist og sant: dat var tregelegt; dat var syrgjelegt!</p>
+<stage>(Falder i Tanker).</stage>
+</sp>
+<sp>
+<speaker>Hermann</speaker>
+<stage>(til Inga).</stage>
+<p rend="noIndent">Saaledes er det. Det var bare denne Sag om Gaarden her og intet andet. Jeg har siden l&#x00E6;rt ham bedre at kjende, og saaledes har jeg nu de bedste Tanker om ham; det er en Mand som man kan komme godt overeens med, en meget fornuftig Mand, en pr&#x00E6;gtig Karl. Jeg har endog havt Beviser paa, at han har en udm&#x00E6;rket T&#x00E6;nkemaade, eller rettere sagt: en &#x00E6;del, en nobel Karakteer.</p>
+</sp>
+<sp>
+<speaker>Inga.</speaker>
+<p rend="noIndent">Aa! dat var ei Synd, at eg inkje skulde vita dat.</p>
+</sp>
+<sp>
+<speaker>Hermann.</speaker>
+<p rend="noIndent">Det er vist ikke for seent endda. Jeg skal forklare ham Sagen, og saa t&#x00E6;nker jeg nok, han kommer igjen.</p>
+</sp>
+<sp>
+<speaker>Inga</speaker>
+<stage>(glad).</stage>
+<p rend="noIndent">Ja, daa vil eg no sagte svara Ja.</p>
+</sp>
+<sp>
+<speaker>Hermann.</speaker>
+<p rend="noIndent">Ja, gj&#x00F8;r det, Barn! Du skal faae raade dig selv nu som f&#x00F8;r. <stage>(Vender sig til Aamund.)</stage> Det var, som jeg formodede: der var en Misforstaaelse under. Hun havde bare h&#x00F8;rt, at du skulde v&#x00E6;re min Uven, og at der var en forf&#x00E6;rdelig Strid imellem os, saa at det maatte ende med Undergang og &#x00D8;del&#x00E6;ggelse; men ellers havde hun intet h&#x00F8;rt om, hvor det egentlig hang sammen. Deraf havde hun da gjort sig den Tanke, at du maatte v&#x00E6;re reent en farlig Fyr. Nu veed hun bedre Besked, og saa t&#x00E6;nker jeg nok, at hun ikke har meget imod dig. Jeg har endog en liden Mistanke om, at hun har havt et godt &#x00D8;ie til dig fra det f&#x00F8;rste, hun saa dig.</p>
+</sp>
+<sp>
+<speaker>Aamund.</speaker>
+<p rend="noIndent">Nei, er dat mogelegt, at dat kann vera sant? <stage>(Til Inga).</stage> So var dat kanskje inkje so reint av Hjarta, at du svarade Nei?</p>
+</sp>
+<sp>
+<speaker>Inga.</speaker>
+<p rend="noIndent">Nei.</p>
+</sp>
+<sp>
+<speaker>Aamund.</speaker>
+<p rend="noIndent">Og so er dat meir Von, at dat er av Hjarta, naar du svarar Ja?</p>
+</sp>
+<sp>
+<speaker>Inga.</speaker>
+<p rend="noIndent">Ja.</p>
+</sp>
+<sp>
+<speaker>Hermann.</speaker>
+<p rend="noIndent">Man kann nok ogsaa see at dette er af Hjertet, for hun seer da sagtens ganske anderledes ud nu end f&#x00F8;r.</p>
+</sp>
+<sp>
+<speaker>Aamund.</speaker>
+<p rend="noIndent">Dat er berre einn Ting, eg ankar paa, og dat er, at ho kjenner meg for litet. Eg kunde gjerne vera ein stor Skarv fyre alt dat, som ho veit um meg.</p>
+</sp>
+<sp>
+<speaker>Hermann.</speaker>
+<p rend="noIndent">Aa Snak! det er ingen som har nogen Mistanke om det. Og desuden saa kjender du jo ikke meget til hende heller.</p>
+</sp>
+<sp>
+<speaker>Aamund.</speaker>
+<p rend="noIndent">Henne? So snart eg berre hadde seet henne og talat ei tvau-try Ord med henne, so var dat nog.</p>
+</sp>
+<sp>
+<speaker>Hermann.</speaker>
+<p rend="noIndent">Det kunde dog kanskee v&#x00E6;re dristigt nok; men imidlertid haaber jeg, at du ikke vil angre det. Jeg maa sige, jeg er ret inderlig glad over dette her; det var et s&#x00E6;rdeles godt Raad, eller rettere sagt: en meget heldig Plan. Vi kunde ikke have kommet til nogen bedre Endskab, eller rettere sagt: til et mere fordeelagtigt Resultat. Og nu t&#x00E6;nker jeg nok, at vi komme vel overeens om de &#x00F8;vrige Sager ogsaa.</p>
+</sp>
+<sp>
+<speaker>Aamund.</speaker>
+<p rend="noIndent">Ja, no heve eg ei Von um, at dat vil greida seg so, at kvar er n&#x00F8;gd paa si Sida.</p>
+</sp>
+<sp>
+<speaker>Hermann.</speaker>
+<p rend="noIndent">Jeg skal sige dig: jeg var allerede kjed af dette Jordbruget, saa jeg ikke for den Skyld havde noget imod at afstaae Gaarden; men jeg syntes, det var leidt, at Folk skulde sige, at jeg skulde blive udjaget. Nu er ikke det at frygte for; nu kan jeg jo sige, at jeg giver Gaarden fra mig til min Datter, og lader hende overf&#x00F8;re den til hvem hun vil.</p>
+</sp>
+<sp>
+<speaker>Aamund.</speaker>
+<p rend="noIndent">Ja, dat kan godt ganga fyre seg. &#x2013; Men no vilde eg berre, at han Olav og ho Gunnild skulde voret her.</p>
+</sp>
+<sp>
+<speaker>Hermann.</speaker>
+<p rend="noIndent">Ja! <stage>(seer sig om)</stage> De er vist ikke saa langt borte, for jeg syntes, at de netop kom gaaende paa Veien hertil. Der er de allerede. Kom hid, godt Folk!</p>
+</sp>
+</div>
+<div type="chapter" subtype="scene" n="20">
+<head type="main">Tyvende Scene.</head>
+<stage>Olav. Gunnild. De Forrige.</stage>
+<sp>
+<speaker>Aamund</speaker>
+<stage>(til O. og G., idet de komme ind).</stage>
+<p rend="noIndent">No, godt Folk, skal de h&#x00F8;yra nokot spildrende nytt. Elder rettare sagt: de skal inkje h&#x00F8;yra, de skal berre sjaa.</p>
+<stage>(Tager Inga i Haanden og gaaer imod dem og bukker).</stage>
+</sp>
+<sp>
+<speaker>Olav.</speaker>
+<p rend="noIndent">Haa, haa! Stend dat so til? Jau dat kann eg halda med. Dat var daa Troll til Gut til aa hava Lukka med seg; han f&#x00E6;r alt, som han tenkjer paa.</p>
+</sp>
+<sp>
+<speaker>Gunnild.</speaker>
+<p rend="noIndent">No, Olav, var eg inkje sannspaadd? Eg tykte, eg kjende dat paa meg, at dat skulde ganga so til.</p>
+</sp>
+<sp>
+<speaker>Olav.</speaker>
+<p rend="noIndent">Ja, kor kunde du vita dat?</p>
+</sp>
+<sp>
+<speaker>Gunnild.</speaker>
+<p rend="noIndent">Jau, eg seer dat mest paa Augnelaget til Folk, naar d&#x0027;er nokot, som vil i hop. Men tykjer du inkje, dat er eit veent Par dette?</p>
+</sp>
+<sp>
+<speaker>Olav.</speaker>
+<p rend="noIndent">Jau mi Sann er dat so. Dat er fulla inkje Vanh&#x00F8;ve, skal eg tru. &#x2013; Aa, jau no kann du tru, dat skal verda morosamt. <stage>(Gaaer til Aamund og tager ham lidt tilside).</stage> No vil du v&#x00E6;l inkje r&#x00F8;ma Garden, fyredi han er lite-vetta umskift?</p>
+</sp>
+<sp>
+<speaker>Aamund.</speaker>
+<p rend="noIndent">Nei daa! Eg skal snart retta paa dat, som eg inkje likar.</p>
+</sp>
+<sp>
+<speaker>Olav.</speaker>
+<p rend="noIndent">Men dei gamle Bj&#x00F8;rkerna daa?</p>
+</sp>
+<sp>
+<speaker>Aamund.</speaker>
+<p rend="noIndent">Aa, lat dei liggja; her stend endaa nokra atter. Og vil me hava fleira, so skal me saa og setja nye Tre; verda dei inkje store i vaar Tid, so skal Ervingarne vaare hava dei.</p>
+</sp>
+<sp>
+<speaker>Olav</speaker>
+<stage>(jublende).</stage>
+<p rend="noIndent">Dat var rett, dat var rett! So skal dat vera. <stage>(Skjelmsk).</stage> So du likar dat inkje reint so ille no som fyrr i Dag?</p>
+</sp>
+<sp>
+<speaker>Aamund.</speaker>
+<p rend="noIndent">Nei, dat er liksom eg tykjer dat heve ein annan Lit; dat er eit annat Ljos, som skin yver dat.</p>
+</sp>
+<sp>
+<speaker>Olav.</speaker>
+<p rend="noIndent">J-Ja, d&#x0027;er underlegt med di du. Men lat no inkje Ljoset skina so yver dat, at du l&#x00E6;t altsaman standa, som dat no stend. <stage>(Til de andre).</stage> Aa, de kann inkje tru, godt Folk, kor glad eg er; eg er so fegjen,<note type="footnote"><hi rend="italic">Forfattarnote:</hi> glad. (Kan og udtales: feien).</note> som eg fingje eit heilt Rikje. Eg trur, eg lyt burt paa Leikvollen og dansa Halling, so gamall som eg er. Men fyrst og fremst so vil eg no kveda.</p>
+<stage>(Synger).</stage>
+<lg>
+<head>(Egen Melodie).</head>
+<l>1. No er alt so godt og v&#x00E6;l,</l>
+<l>og ingen treng um aa sukka.</l>
+<l>Dat maa eg segja, dan Mann er s&#x00E6;l,</l>
+<l>som heve so god ei Lukka.</l>
+<l>No er Striden tagnad;<note type="footnote"><hi rend="italic">Forfattarnote:</hi> forstummet.</note></l>
+<l>dat var ein heppen Lagnad:</l>
+<l>dat som saag ut</l>
+<l>til Sorg og Sut,</l>
+<l>dat vende seg um til Fagnad.<note type="footnote"><hi rend="italic">Forfattarnote:</hi> Gl&#x00E6;de.</note></l>
+</lg>
+</sp>
+<stage>(Olav, Aamund, Inga og Gunnild gjentage: No er Striden tagnad o. s. v.)</stage>
+<sp>
+<speaker>Aamund.</speaker>
+<lg>
+<l>2. Aldri veit eg nokon Strid,</l>
+<l>som fekk so fager ein Ende,</l>
+<l>som naar ei V&#x00E6;kja, veen og blid,</l>
+<l>stod upp og Striden vende.</l>
+<l>No er Saki vunni,</l>
+<l>beste Raadi er funni;</l>
+<l>no kjem ein Dag</l>
+<l>av ljosaste Slag,</l>
+<l>og klaaraste Soli er runni.</l>
+</lg>
+</sp>
+<stage>(Aamund, Olav, Gunnild og Inga gjentage: No er Saki vunni o. s. v.)</stage>
+<sp>
+<speaker>Olav</speaker>
+<stage>(til Aamund).</stage>
+<lg>
+<l>1. Endaa ein Bate, skulde eg tru,</l>
+<l>dat fylgjer med denne S&#x00E6;tti;<note type="footnote"><hi rend="italic">Forfattarnote:</hi> Dette Forlig.</note></l>
+<l>d&#x0027;er at ein Mann i sin Heim kann bu,</l>
+<l>og Odalen fylgja &#x00C6;tti.</l>
+<l>No skal me hage vera,</l>
+<l>Umbot<note type="footnote"><hi rend="italic">Forfattarnote:</hi> Forbedring.</note> i Bygdi gjera,</l>
+<l>setja vaart Land</l>
+<l>i prydelegt Stand</l>
+<l>og endaa Nordmenner vera.</l>
+</lg>
+</sp>
+<stage>(Olav og Aamund gjentage: No skal me hage vera o. s. v.)</stage>
+<sp>
+<speaker>Aamund.</speaker>
+<lg>
+<l>4. No er Ervingen komen heim,</l>
+<l>og heime vil han vera.</l>
+<l>No vil han kjennast ved alle deim,</l>
+<l>som Kjensel paa han bera.</l>
+<l>No skal Frendar finnast</l>
+<l>og gamla Segner minnast.</l>
+<l>Ein heve gj&#x00F8;ymt</l>
+<l>dat, hin heve gl&#x00F8;ymt,</l>
+<l>og so skal allting finnast.</l>
+</lg>
+</sp>
+<stage>(Aamund, Olav, Gunnild og Inga gjentage: No skal Frendar finnast o. s. v.).</stage>
+</div>
+<div type="chapter" subtype="music">
+<head type="main">Notar</head>
+<p rend="center"><figure><graphic url="Notar_1.png"/></figure></p>
+<p rend="center"><figure><graphic url="Notar_2.png"/></figure></p>
+<p rend="center"><figure><graphic url="Notar_3_4.png"/></figure></p>
+<p rend="center"><figure><graphic url="Notar_5_6.png"/></figure></p>
+<p rend="center"><figure><graphic url="Notar_7_8.png"/></figure></p>
+<p rend="center"><figure><graphic url="Notar_9.png"/></figure></p>
+</div>
+</body>
+</text>
+</TEI>

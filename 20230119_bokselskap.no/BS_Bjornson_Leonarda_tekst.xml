@@ -1,0 +1,4019 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI PUBLIC "-// TEI P5 //EN" "http://www.tei-c.org/release/xml/tei/custom/schema/dtd/tei_all.dtd">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="BS_Bjornson_Leonarda">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>bokselskap.no, Oslo 2019
+<lb/>Bj&#x00F8;rnstjerne Bj&#x00F8;rnson: <hi rend="italic">Leonarda</hi>
+<lb/>Teksten er hentet fra Universitetet i Oslo/dokpro.uio.no. Dokprostekst er basert p&#x00E5; <title rend="italic">Samlede Digter-Verker</title>, standardutg. i 9 bind, Kristiania, Gyldendal, 1919&#x2013;20.
+<lb/>ISBN: 978-82-8319-468-5 (digital, bokselskap.no), 978-82-8319-469-2 (epub), 978-82-8319-470-8 (mobi)
+</title>
+</titleStmt>
+<publicationStmt>
+<p>Publiseres som digital tekst av bokselskap.no.</p></publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Leonarda I: Samlede Digter-Verker</title>
+<author>Bj&#x00F8;rnstjerne Bj&#x00F8;rnson</author>
+<publisher>Gyldendal</publisher>
+<pubPlace>Kristiania</pubPlace>
+<date>1919-20</date>
+<note>bbbind4.xml (mottatt fra Universitietet i Oslo, 2017)</note>
+</bibl>
+</sourceDesc>
+</fileDesc>
+<revisionDesc>
+<change who="ENW" when="2019-07-01">Rettet et par feil. Lagt inn bibl i sourceDesc.</change>
+<change xml:id="ENW" who="ENW" when="2019-05-22">XML-koding. Entiteter, kodekontroll og validering. Lagt inn ISBN.</change>
+</revisionDesc>
+</teiHeader>
+<text xml:id="BS_Bjornson_Hanske_tekst" type="drama">
+<front>
+<titlePage type="main">
+<byline><docAuthor>Bj&#x00F8;rnstjerne Bj&#x00F8;rnson</docAuthor></byline>
+<docTitle>
+<titlePart type="main">Leonarda</titlePart>
+<titlePart type="sub">Skuespil i fire handlinger</titlePart>
+</docTitle>
+<docDate>bokselskap.no<lb/>Oslo 2019</docDate>
+</titlePage>
+</front>
+<body>
+<div type="chapter" subtype="castlist">
+<castList>
+<head>DE HANDLENDE</head>
+<castItem><role>BISKOPPEN.</role></castItem>
+<castItem><role>CORNELIA,</role> <roleDesc>hans s&#x00F8;ster</roleDesc></castItem>
+<castItem><role>HAGBART,</role> <roleDesc>hans bror-s&#x00F8;n</roleDesc></castItem>
+<castItem><role>OLDE-MOR</role></castItem>
+<castItem><role>FRU FALK</role></castItem>
+<castItem><role>&#x00C5;G&#x00C5;T,</role> <roleDesc>hennes s&#x00F8;ster-datter</roleDesc></castItem>
+<castItem><role>GENERAL ROSEN</role></castItem>
+<castItem><role>JUSTITIARIUS R&#x00D8;ST</role></castItem>
+<castItem><role>FRU R&#x00D8;ST</role></castItem>
+<castItem><role>PEDERSEN,</role> <roleDesc>fullm&#x00E6;gtig hos fru Falk</roleDesc></castItem>
+<castItem><role>HANS</role></castItem>
+<castItem><role>EN PIGE</role></castItem>
+</castList>
+</div>
+<div type="chapter" subtype="act" n="1">
+<head type="main">F&#x00D8;RSTE HANDLING</head>
+<stage><p rend="center">En stor stue, hvortil d&#x00F8;rene i baggrunnen st&#x00E5;r &#x00E5;bne. Et bord til venstre; gammel-dags m&#x00F8;blement; en pult til h&#x00F8;jre. Ved denne st&#x00E5;r fru Falk.</p></stage>
+<div type="uchapter" subtype="scene" n="1_1">
+<head type="sub">F&#x00F8;rste m&#x00F8;de.</head>
+<sp>
+<speaker>Fru Falk</speaker>
+<stage>(i oph&#x00E6;ftet ridedragt).</stage>
+<p>Dette er tabt.</p>
+</sp>
+<sp>
+<speaker>Pedersen.</speaker>
+<p>Men, frue &#x2013;</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Tabt, hvert gran. Jeg s&#x00E6;lger ikke forbr&#x00E6;nte sten. Hvor meget blir det? To fulle kamre, det er 24,000 sten. Efter prisen nu: 576 kroner. Hvad g&#x00E5;r der af Dem, mand? Vil De, jeg skal afskedige Dem?</p>
+</sp>
+<sp>
+<speaker>Pedersen.</speaker>
+<p>Frue, det er f&#x00F8;rste gang &#x2013;</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Nej, det er det heller ikke, &#x2013; d. v. s. nok f&#x00F8;rste gang, at stenene br&#x00E6;nnes; men Deres opt&#x00E6;lling har gentagende v&#x00E6;ret fejlagtig, s&#x00E5; De har narret mig til at sende falsk faktura. &#x2013; Jeg sp&#x00F8;r, hvad g&#x00E5;r der af Dem?</p>
+</sp>
+<sp>
+<speaker>Pedersen.</speaker>
+<p>Frue, gode frue!</p>
+</sp>
+<sp>
+<speaker>Hans</speaker>
+<stage>(kommer).</stage>
+<p>Hesten er f&#x00E6;rdig, frue, &#x2013; og generalen kommer op ad all&#x00E9;en.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Godt. &#x2013; <stage>(Hans g&#x00E5;r.)</stage> Har De begynt at drikke, Pedersen?</p>
+</sp>
+<sp>
+<speaker>Pedersen.</speaker>
+<p>Nej, frue.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Det lignede Dem heller ikke. Men hvad er det s&#x00E5;? De ser ogs&#x00E5; helt forandret ud. &#x2013; Pedersen! Nu v&#x00E9;d jeg det! Jeg s&#x00E5; Dem komme roende over elven i g&#x00E5;r fra skog-huset. Er De forelsket?</p>
+</sp>
+<sp>
+<speaker>Pedersen</speaker>
+<stage>(vender sig mod baggrunnen).</stage>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>S&#x00E5;ledes. Og ikke lykkelig? <stage>(Hun g&#x00E5;r hen og l&#x00E6;gger sin h&#x00E5;nd p&#x00E5; hans skulder og st&#x00E5;r bortvendt som han.)</stage> Har hun givet Dem sit l&#x00F8;fte?</p>
+</sp>
+<sp>
+<speaker>Pedersen.</speaker>
+<p>Ja.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Men det er jo ingen brav pige! Hun er Dem ikke tro. <stage>(Hun b&#x00F8;jer sig dybere ned mod hans ansigt.)</stage> Og alligevel elsker De henne? <stage>(Hun forlader ham.)</stage> Da er De en svag mand, Pedersen. Det er umuligt l&#x00E6;nger at elske den, som har sveget os. <stage>(Hun drager den ene ride-handske p&#x00E5;.)</stage> Man kan <hi rend="italic">lide</hi> forf&#x00E6;rdelig ved det en stund; men elske &#x2013;! nej!</p>
+</sp>
+<sp>
+<speaker>Pedersen</speaker>
+<stage>(bortvendt).</stage>
+<p>Den, som ikke har pr&#x00F8;vet det, har s&#x00E5; godt ved at tale.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Pr&#x00F8;vet det? &#x2026; Det v&#x00E9;d De ikke. &#x2013; Kom til mig i kv&#x00E6;ld Kl. 7.</p>
+</sp>
+<sp>
+<speaker>Pedersen.</speaker>
+<p>Ja, frue.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>S&#x00E5; skal jeg tale med Dem. Vi skal g&#x00E5; en tur sammen.</p>
+</sp>
+<sp>
+<speaker>Pedersen.</speaker>
+<p>Tak, frue.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Jeg tror, jeg skal kunne hj&#x00E6;lpe Dem over dette, Pedersen. Og da det st&#x00E5;r s&#x00E5;, &#x2013; t&#x00E6;nk ikke mere p&#x00E5; stenen, eller p&#x00E5; hvad jeg har sagt. Undskyld mig! <stage>(R&#x00E6;kker h&#x00E5;nden.)</stage></p>
+</sp>
+<sp>
+<speaker>Pedersen.</speaker>
+<p>Frue! <stage>(Griber den.)</stage></p>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="1_2">
+<head type="sub">Annet m&#x00F8;de</head>
+<sp>
+<speaker>Generalen</speaker>
+<stage>(i d&#x00F8;ren).</stage>
+<p>God morgen! <stage>(Pedersen kommer opover.)</stage> D&#x00F8;d og sylte, Pedersen! De ser ud som smeltet sm&#x00F8;r. <stage>(Pedersen g&#x00E5;r. Til fruen.)</stage> Er De sj&#x00E6;les&#x00F8;rger s&#x00E5; tidlig p&#x00E5; morgenen og p&#x00E5; en s&#x00E5; vakker dag? Det var sv&#x00E6;rt. &#x2013; Har De s&#x00E5; f&#x00E5;t brev fra &#x00C5;g&#x00E5;t?</p>
+</sp>
+<sp>
+<speaker>Fru Falk</speaker>
+<stage>(mens hun s&#x00E6;tter hatten fast).</stage>
+<p>Nej, jeg v&#x00E9;d ikke, hvad der g&#x00E5;r af pigebarnet. Nu er det snart fjorten dager &#x2013;</p>
+</sp>
+<sp>
+<speaker>Generalen.</speaker>
+<p>Hun morer sig. Jeg kan huske, da jeg morede mig, da skrev jeg aldrig.</p>
+</sp>
+<sp>
+<speaker>Fru Falk</speaker>
+<stage>(ser p&#x00E5; ham).</stage>
+<p>De har nok ogs&#x00E5; moret Dem i g&#x00E5;r aftes?</p>
+</sp>
+<sp>
+<speaker>Generalen.</speaker>
+<p>Kan De se det! Av! &#x2013; Jeg t&#x00E6;nkte, at efter badet og ride-turen &#x2013;</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Nej, dette kan ikke g&#x00E5; s&#x00E5;ledes! &#x2013;</p>
+</sp>
+<sp>
+<speaker>Generalen.</speaker>
+<p>Det v&#x00E9;d De s&#x00E5; godt, frue, at n&#x00E5;r jeg ikke f&#x00E5;r v&#x00E6;re her, s&#x00E5; er jeg i klubben.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Men er det da ikke muligt at komme i klubben uden at &#x2013; <stage>(Stanser med tegn p&#x00E5; foragt.)</stage></p>
+</sp>
+<sp>
+<speaker>Generalen.</speaker>
+<p>Jeg v&#x00E9;d, pokker, hvorledes det g&#x00E5;r til. Men der s&#x00E6;ttes altid et glas for meget for mig.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Et? Sig tre!</p>
+</sp>
+<sp>
+<speaker>Generalen.</speaker>
+<p>G&#x00E6;rne det. De v&#x00E9;d, jeg aldrig har v&#x00E6;ret stiv i regning.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>&#x2013; S&#x00E5; kan De ogs&#x00E5; nu f&#x00E5; ride ud alene.</p>
+</sp>
+<sp>
+<speaker>Generalen.</speaker>
+<p>Men, frue &#x2013;!</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Ja, jeg rider ikke i dag sammen med en mand, som var full i g&#x00E5;r. <stage>(Hun tager hatten af igjen.)</stage> Hans! <stage>(Han h&#x00F8;res svare.)</stage> S&#x00E6;t min hest in s&#x00E5; l&#x00E6;nge!</p>
+</sp>
+<sp>
+<speaker>Generalen.</speaker>
+<p>Frue, De straffer ikke mig alene, men Dem selv, som ikke f&#x00E5;r se naturen p&#x00E5; en dag som denne, &#x2013; og s&#x00E5; naturen, som ikke f&#x00E5;r se Dem! &#x2013;</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Kan ingen mere f&#x00E5; Dem til at v&#x00E6;re alvorlig?</p>
+</sp>
+<sp>
+<speaker>Generalen.</speaker>
+<p>Jo da! &#x2013; Den dagen der fejler Dem noget, frue, vil jeg blive alvorlig.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>De g&#x00E5;r alts&#x00E5; her og venter p&#x00E5;, at jeg skal blive ulykkelig? De skal f&#x00E5; vente en stund, vil jeg h&#x00E5;be. <stage>(G&#x00E5;r til pulten.)</stage></p>
+</sp>
+<sp>
+<speaker>Generalen.</speaker>
+<p>Jeg h&#x00E5;ber det samme! Ti s&#x00E5; f&#x00E5;r jeg imidlertid dog g&#x00E5; her.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Lige til der kommer ordre fra Amerika.</p>
+</sp>
+<sp>
+<speaker>Generalen.</speaker>
+<p>Naturligvis, &#x2013; til der kommer ordre fra Sherman.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Ja, De har ikke f&#x00E5;t nogen?</p>
+</sp>
+<sp>
+<speaker>Generalen.</speaker>
+<p>Nej.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Dette begynner at blive mist&#x00E6;nkeligt. Hvor l&#x00E6;nge er det siden, jeg fik Dem til at skrive?</p>
+</sp>
+<sp>
+<speaker>Generalen.</speaker>
+<p>Ja, den, som huskede det!</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Der faller mig noget in &#x2026; De skrev dog vel &#x2013;?</p>
+</sp>
+<sp>
+<speaker>Generalen.</speaker>
+<p>Vist skrev jeg &#x2026; Jeg g&#x00F8;r altid, hvad De befaler.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>De krammer i Deres store rytter-bart, &#x2013; og da har De altid noget narreri for &#x2026;</p>
+</sp>
+<sp>
+<speaker>Generalen.</speaker>
+<p>Hvor kan De tro &#x2013;?</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>De <hi rend="italic">har</hi> ikke skrevet! Nej, hvorfor har dette dog ikke falt mig in f&#x00F8;r?</p>
+</sp>
+<sp>
+<speaker>Generalen.</speaker>
+<p>Jeg har skrevet gentagende; jeg forsikrer Dem &#x2013;!</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Men ikke til Sherman? Ikke meldt Dem p&#x00E5; ny til tjeneste?</p>
+</sp>
+<sp>
+<speaker>Generalen.</speaker>
+<p>Kan De huske de russiske cigaretter, jeg s&#x00E5; ofte har rost? Nu har jeg f&#x00E5;t dem. Jeg tog nogle med til pr&#x00F8;ve: kan jeg f&#x00E5; lov til at &#x2013;</p>
+</sp>
+<stage>(Byder.)</stage>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Skammer De Dem ikke for mig?</p>
+</sp>
+<sp>
+<speaker>Generalen.</speaker>
+<p>Jeg g&#x00F8;r alt, hvad De befaler &#x2026;</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>De opholder mig i mere enn to m&#x00E5;neder med udflugter, med &#x2026; et fullendt komedie-spil! En evrop&#x00E6;isk officer, som i den store amerikanske krig har vunnet &#x00E6;re, rang og fast ans&#x00E6;ttelse &#x2026; kan kaste sin tid bort med s&#x00E5;dant &#x2013; og annet, det er nu et helt &#x00E5;r &#x2013;</p>
+</sp>
+<sp>
+<speaker>Generalen.</speaker>
+<p>&#x2013; Om forladelse: &#x2013; otte m&#x00E5;neder.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Er det kanske ikke l&#x00E6;nge nok?</p>
+</sp>
+<sp>
+<speaker>Generalen.</speaker>
+<p>Altfor l&#x00E6;nge. Men <hi rend="italic">De</hi> v&#x00E9;d bedst, hvorfor jeg g&#x00F8;r det! &#x2013;</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Har jeg bedt Dem komme hid? De tror, De skal tr&#x00E6;tte mig ud?</p>
+</sp>
+<sp>
+<speaker>Generalen.</speaker>
+<p>Leonarda!</p>
+</sp>
+<sp>
+<speaker>Fru Falk</speaker>
+<stage>(ser p&#x00E5; ham).</stage>
+</sp>
+<sp>
+<speaker>Generalen</speaker>
+<stage>(g&#x00F8;r en ceremoniel b&#x00F8;jning).</stage>
+<p>Om forladelse, frue.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Nu skriver De Deres brev her, hvori De melder Dem til tjeneste straks.</p>
+</sp>
+<sp>
+<speaker>Generalen.</speaker>
+<p>Som De befaler.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Jeg skal l&#x00E6;gge det i posten.</p>
+</sp>
+<sp>
+<speaker>Generalen.</speaker>
+<p>Mange tak.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>De drejer igen Deres bart? Hvad p&#x00F8;nser De p&#x00E5;?</p>
+</sp>
+<sp>
+<speaker>Generalen.</speaker>
+<p>Jeg? &#x2013; Er det her, jeg skal skrive?</p>
+</sp>
+<stage>(G&#x00E5;r til pulten.)</stage>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Ja. <stage>(Han tager en pen.)</stage> &#x2013; &#x00C5;, nu har jeg det. N&#x00E5;r De kommer hjem, skriver De et annet brev, hvori De tilbagekaller dette?</p>
+</sp>
+<sp>
+<speaker>Generalen.</speaker>
+<p>Ja, naturligvis.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Ha, ha, ha! <stage>(S&#x00E6;tter sig.)</stage> Nej, jeg opgiver Dem!</p>
+</sp>
+<sp>
+<speaker>Generalen.</speaker>
+<p>Mange tak, frue! &#x2013; Vil De s&#x00E5; smage en af mine cigaretter?</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Nej.</p>
+</sp>
+<sp>
+<speaker>Generalen.</speaker>
+<p>Og ikke ride ud?</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Nej.</p>
+</sp>
+<sp>
+<speaker>Generalen.</speaker>
+<p>T&#x00F8;r jeg komme <hi rend="italic">hid</hi> i kv&#x00E6;ld?</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Jeg er optaget.</p>
+</sp>
+<sp>
+<speaker>Generalen.</speaker>
+<p>Men De rider ud i morgen tidlig?</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Det v&#x00E9;d jeg ikke.</p>
+</sp>
+<sp>
+<speaker>Generalen.</speaker>
+<p>S&#x00E5; skal jeg tillade mig at komme og foresp&#x00F8;rge. Jeg &#x00F8;nsker Dem en behagelig dag, frue!</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Men der st&#x00E5;r jo en fremmed herre i d&#x00F8;ren!</p>
+</sp>
+<stage>(Rejser sig.)</stage>
+<sp>
+<speaker>Generalen.</speaker>
+<p>Hvad? <stage>(Vender sig.)</stage> Han? V&#x00E5;ger han at komme hid? <stage>(Kommer til at kaste et &#x00F8;je ud af det &#x00E5;bne vindue.)</stage> Tprrr! Tprrr! Men, Hans! Ser du ikke, min hest er kommen l&#x00F8;s? <stage>(G&#x00E5;r hurtig opover forbi herren, som b&#x00F8;jer sig hilsende, og derp&#x00E5; ud.)</stage> Tprrr! Tprrr! &#x2013;</p>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="1_3">
+<head type="sub">Tredje m&#x00F8;de</head>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Frue! &#x2013;</p>
+</sp>
+<stage>(Stanser.)</stage>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>T&#x00F8;r jeg sp&#x00F8;rge? &#x2013;</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>De k&#x00E6;nner mig vel ikke?</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Nej.</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Jeg er kandidat Hagbart Tallhaug.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Og det siger De mig &#x2013; smilende!</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Dersom jeg f&#x00F8;rst f&#x00E5;r lov til &#x2013;</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Hvorledes t&#x00F8;r De komme hid?</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Dersom jeg f&#x00F8;rst f&#x00E5;r lov til &#x2013;</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>&#x2013; Ikke til et ord! Eller er der to af dette navn?</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Nej.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>S&#x00E5; er det Dem, der tr&#x00E5;dte op i filharmonien, da jeg s&#x00F8;gte om adgang for mig og min plejedatter, &#x2013; og kalte mig &#x00AB;et tvetydigt fruentimmer&#x00BB;? Det er Dem?</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Ja, frue, &#x2013; og jeg m&#x00E5; &#x2013;</p>
+</sp>
+<sp>
+<speaker>Fru Falk</speaker>
+<stage>(samtidig og st&#x00E6;rkere).</stage>
+<p>S&#x00E5; skal De herfra! Hans!</p>
+</sp>
+<stage>(Denne svarer uden for det &#x00E5;bne vindue.)</stage>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Frue, f&#x00E5;r jeg f&#x00F8;rst lov til &#x2013;</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Hans, vil du f&#x00F8;lge den herre bort fra min ejendom?</p>
+</sp>
+<sp>
+<speaker>Hans.</speaker>
+<p>Ja-ha da!</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>&#x00C5;, vent lidt, Hans!</p>
+</sp>
+<sp>
+<speaker>Hans.</speaker>
+<p>Skal jeg? &#x2013;</p>
+</sp>
+<stage>(Ser p&#x00E5; fruen.)</stage>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Det g&#x00E6;lder Deres s&#x00F8;ster-datter, frue!</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>&#x00C5;g&#x00E5;t! &#x2013; Er der noget p&#x00E5; f&#x00E6;rde med &#x00C5;g&#x00E5;t? Jeg har ikke f&#x00E5;t brev! &#x2013;</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Vent udenfor, du Hans!</p>
+</sp>
+<sp>
+<speaker>Hans.</speaker>
+<p>Skal jeg? &#x2013;</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Ja, ja! &#x2013; Hvad er det?</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Intet farligt, frue, &#x2026;</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Men hvorledes kan <hi rend="italic">De</hi> komme her fra &#x00C5;g&#x00E5;t!</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Det er ikke s&#x00E5; godt at undg&#x00E5; hverandre ved et bade-sted, frue. Jeg m&#x00E5; ellers vidne, at fr&#x00F8;kenen gjorde sit bedste. Hun viste mig al ringeagt, som var mulig og lidt til. Men hun kunde jo ikke forbyde mig at tale med de samme, som hun selv talte med, ej heller at v&#x00E6;re, hvor ogs&#x00E5; hun var, &#x2013; og s&#x00E5; kom det som af sig selv, at &#x2026; ja, at fr&#x00F8;kenen h&#x00F8;rte fra mig og h&#x00F8;rte p&#x00E5; mig &#x2026; og tilsidst ennog talte med mig.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Med Dem?</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Ja, frue, &#x2013; det nytter ikke at n&#x00E6;gte det; hun talte virkelig med mig og det gentagende.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Men hvad g&#x00E6;lder Deres bes&#x00F8;g her?</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Dersom De vilde tillade mig &#x2013;</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Jeg &#x00F8;nsker Deres &#x00E6;rende, kort, bestemt, ikke det ringeste mer.</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Men jeg kan ikke komme med det, f&#x00F8;r jeg f&#x00E5;r &#x2013;</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Enten De kan eller ej, jeg vil intet annet; ti De skal ikke kunne sige, at De ogs&#x00E5; er kommen i nogen samtale med mig.</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>N&#x00E5;r intet annet st&#x00E5;r igen: jeg er bleven forelsket i Deres pleje-datter, frue! &#x2013;</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>De? i &#x00C5;g&#x00E5;t? &#x2013; Den straf fortjente De!</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Ganske vist, frue.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Ha, ha, ha! S&#x00E5; det er De ble&#x0027;t.</p>
+</sp>
+<sp>
+<speaker>Hans</speaker>
+<stage>(i den &#x00E5;bne d&#x00F8;r).</stage>
+<p>Nu kan jeg vist g&#x00E5;?</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Ha, ha, ha! Ja, g&#x00E5;! Nu? Hvad s&#x00E5; videre? Har De ladet Dem m&#x00E6;rke dermed for &#x00C5;g&#x00E5;t?</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Ja, frue.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Og hvad fik De s&#x00E5; opleve? &#x2013; De tier; det koster Dem at sige det?</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Jeg er glad over, at De er bleven munter, frue.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Ja, dette er morsomt. Nej, hvad svarede s&#x00E5; &#x00C5;g&#x00E5;t? Hun er ikke ord-knap.</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Det er hun ikke. Vi kom hid i dag p&#x00E5; samme damp-skib &#x2013;</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>P&#x00E5; samme damp-skib &#x2013;? &#x00C5;g&#x00E5;t og De? Er det en forf&#x00F8;lgelse, De har sat i gang?</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Frue, De vil intet forst&#x00E5;, s&#x00E5; l&#x00E6;nge jeg ikke f&#x00E5;r lov til &#x2013;</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Jeg &#x00F8;nsker resten fortalt af min ni&#x00E8;ce, som alts&#x00E5; straks m&#x00E5; v&#x00E6;re her.</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Ganske vist, men &#x2013;</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Dette kan ikke forts&#x00E6;ttes her! Vil De forf&#x00F8;lge min plejedatter med Deres k&#x00E6;rlighed, som De har forfulgt mig med Deres had, s&#x00E5; st&#x00E5;r det Dem jo frit for. Men hid m&#x00E5; De ikke komme! Her kan jeg forbyde det.</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Men gode, bedste frue &#x2013;!</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Jeg begynner virkelig at tabe t&#x00E5;lmodigheden, eller rettere, jeg har allerede tabt den. Hvad vil De her?</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Da der ikke er annet for &#x2013; nej, jeg skal ligefrem fort&#x00E6;lle det, sk&#x00F8;nt det kommer hovedkulds, &#x2013; jeg st&#x00E5;r her for at bede om Deres pleje-datters h&#x00E5;nd.</p>
+</sp>
+<sp>
+<speaker>Fru Falk</speaker>
+<stage>(som har taget handskerne til sig igen).</stage>
+<p>Hvis jeg var en mand, vilde jeg, for at svaret ikke skulde v&#x00E6;re &#x00AB;tvetydigt&#x00BB;, kyle denne handske i Deres ansigt.</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Men da De er en kvinne, s&#x00E5; g&#x00F8;r De det ikke.</p>
+</sp>
+<sp>
+<speaker>Hans</speaker>
+<stage>(i d&#x00F8;ren).</stage>
+<p>&#x00C5;g&#x00E5;t, frue! &#x2013;</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t</speaker>
+<stage>(udenfor).</stage>
+<p>Tante!</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>&#x00C5;g&#x00E5;t!</p>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="1_4">
+<head type="sub">Fjerde m&#x00F8;de</head>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>Tante! &#x2013; &#x00C5;, den skammelige Hans! jeg gjorde tegn til ham; jeg vilde overraske &#x2013;</p>
+</sp>
+<stage>(Kaster sig til henne.)</stage>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Barn, du har ikke sveget mig?</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>Sveget dig? Jeg?</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Jeg vidste det! <stage>(Omfavner hende.)</stage> Tilgiv mig! jeg havde et &#x00F8;jeblik den forf&#x00E6;rdelige mistanke, &#x2013; men straks jeg ser dig, er den borte! &#x2013; Velkommen! Velkommen! Hvor er du dejlig! Velkommen!</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>&#x00C5;, tante! &#x2013;</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Hvad er det?</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>Du v&#x00E9;d det jo nu.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Hans skammelige forf&#x00F8;lgelse, ja!</p>
+</sp>
+<stage>(Hagbart har imidlertid forladt scenen.)</stage>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>Hys! &#x2013; Nej, han er borte! &#x2013; Har du v&#x00E6;ret uartig mod ham?</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Ikke som han fortjente &#x2026;</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>Sa&#x0027; jeg ham det ikke?</p>
+</sp>
+<sp>
+<speaker>Fru Falk</speaker>
+<stage>(leende).</stage>
+<p>Hvad sa&#x0027; du ham?</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>Hvor hidsig du kan v&#x00E6;re! &#x2013; Var du virkelig slem imod ham?</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Har du medlidenhed &#x2013; med ham?</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>Om jeg har &#x2013;? Men, Gud! har han da ikke sagt dig? &#x2013;</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Hvilket &#x2013;?</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>At han? At jeg? At vi? Nej, tante, se ikke s&#x00E5; forf&#x00E6;rdelig p&#x00E5; mig! Du v&#x00E9;d det ikke!</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Nej!</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>Gud tr&#x00F8;ste og hj&#x00E6;lpe mig! Tante &#x2013;!</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Men du er da vel ikke &#x2013;?</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>Jo, tante!</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>&#x2013; med ham, som &#x2013;? &#x2013; Da har du jo alligevel &#x2013;! G&#x00E5; fra mig!</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t</speaker>
+<stage>(synker i kn&#x00E6;).</stage>
+<p>H&#x00F8;r mig, tante, gode, elskede tante!</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>G&#x00E5; ud til ham! Bort!</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>Har du set p&#x00E5; ham, tante? Har du set, hvor dejlig han er?</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Dejlig? Han!</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t</speaker>
+<stage>(rejsende sig).</stage>
+<p>Nej, Gud bevare mig, er han ikke engang dejlig! S&#x00E5; har du v&#x00E6;ret over alle gr&#x00E6;nser.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>For mig er han den mand, som under alles jubel i den lille hoverende by har kalt mig &#x00AB;tvetydig&#x00BB;. N&#x00E5;r han en dag fremstiller sig her som forlovet med min plejedatter, s&#x00E5; skulde jeg kanske ikke komme ud over de almindelige gr&#x00E6;nser? Utaknemmelige barn &#x2013;</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>Tante &#x2013;</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>&#x2013; for hvis skyld jeg i 8 &#x2013; otte &#x2013; &#x00E5;r har ofret mit liv her i en afkrog under alle opt&#x00E6;nkelige savn! &#x2013; Hun blir ikke voksen, f&#x00F8;r hun p&#x00E5; sin allerf&#x00F8;rste udflugt flyr i armene p&#x00E5; den, som har v&#x00E6;ltet skam ud over mig. Jeg skulde kanske tage det som en naturlig sag? jeg skulde bare finne ham dejlig? &#x2013; Jeg vil ikke se dig! G&#x00E5;! &#x2013;</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t</speaker>
+<stage>(gr&#x00E6;dende).</stage>
+<p>Tror du ikke, tante, at jeg har sagt mig alt dette selv? Jo, tusene ganger. Derfor har jeg heller ikke skrevet; jeg har g&#x00E5;t i den forf&#x00E6;rdeligste v&#x00E5;nde.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>P&#x00E5; den allersagteste fornemmelse af noget s&#x00E5;dant, skulde du v&#x00E6;re tyt hid, til mig, &#x2026; hvis der havde bare v&#x00E6;ret en smule troskab i dig.</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>Tante! <stage>(P&#x00E5; kn&#x00E6;.)</stage> Tante!</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>At du var s&#x00E5; ussel!</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>Tante! &#x2013; Det var jo, fordi han angrede, hvad han havde gjort mod dig, at jeg f&#x00F8;rst &#x2013;</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Han angrede? Han kom her smilende!</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>Det har v&#x00E6;ret af frygt, tante.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Smiler folk af frygt?</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>Ikke andre; men han! K&#x00E6;re, han begynte ogs&#x00E5; s&#x00E5; med mig; han smilede virkelig s&#x00E5; dumt, og det har han siden sagt var af frygt.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Havde han haft ond samvittighed, som du inbilder dig, s&#x00E5; havde han vel i det mindste skyndt sig at komme med en undskyldning.</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>Gjorde han ikke det?</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Nej, med alle mulige omsv&#x00F8;b og smilende stod han her &#x2013; &#x2013;</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>&#x2013; S&#x00E5; har du skr&#x00E6;mt forstanden af ham, tante; han er kejtet, ser du; k&#x00E6;re, han er jo teolog.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>S&#x00E5; det er han ogs&#x00E5;!</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>Ja, det v&#x00E9;d du jo, tante. Han er jo biskoppens brors&#x00F8;n og selv teolog; det var jo derfor, han var s&#x00E5; fanatisk f&#x00F8;r. Men just det, han dengang gjorde, vakte ham; ti han har et godt hj&#x00E6;rte. K&#x00E6;re, gode tante &#x2013;</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Rejs dig! Det er s&#x00E5; t&#x00E5;beligt at ligge s&#x00E5;ledes. Hvor har du l&#x00E6;rt det?</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t</speaker>
+<stage>(rejser sig).</stage>
+<p>Jeg v&#x00E9;d virkelig ikke. Men du skr&#x00E6;mmer mig s&#x00E5;.</p>
+</sp>
+<stage>(Gr&#x00E6;der.)</stage>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Ja, det kan jeg ikke for. Ti det er du, barn, som f&#x00F8;rst har skr&#x00E6;mt mig.</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>Ja, men det er jo ikke, som du tror, tante! han er jo ikke l&#x00E6;nger vor fiende; han har talt om sin handlem&#x00E5;de mod dig i s&#x00E5; st&#x00E6;rke, s&#x00E5; ford&#x00F8;mmende &#x2013; jo, det <hi rend="italic">er</hi> sant! &#x2013; Ti vi har h&#x00F8;rt det allesammen. F&#x00F8;rst gjorde han det til andre og lod mig vide det, siden h&#x00F8;rte jeg selv p&#x00E5; det, og endelig ligefrem til mig.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Hvorfor skrev du ikke det til mig.</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>Fordi du ikke er som andre mennesker, tante! Havde jeg bare n&#x00E6;vnt, at han var der, s&#x00E5; havde du &#x00F8;jeblikkelig kalt mig hjem. Du er jo ikke som andre.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Men hvorledes i al verden gik det til, at du kunde &#x2013;?</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>Bedste tante, den, som roser dig, er jo straks min ven, du v&#x00E9;d jo det. Og n&#x00E5;r oven i k&#x00F8;bet <hi rend="italic">han</hi> gjorde det, han, som havde v&#x00E6;ret s&#x00E5; uretf&#x00E6;rdig mod dig, s&#x00E5; kan du jo sk&#x00F8;nne, at jeg gik hele dagen i en fryd. Det var begynnelsen &#x2013;</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Ja, fort&#x00E6;l mig det hele!</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>Nej, <hi rend="italic">det</hi> er rent umuligt, tante! For det vilde ta&#x0027; mange dager! Men bare det, tante, at jeg ingen anelse havde om, hvad det var, som gjorde mig s&#x00E5; nerv&#x00F8;s.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Men da det gik op for dig, hvorfor flygtede du ikke?</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>Det var jo det, jeg gjorde! Men det er jo ogs&#x00E5; just det, som har forvoldt det altsammen.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Hvorledes? V&#x00E6;r nu lidt ordnet, lidt rolig &#x2013; og fort&#x00E6;l mig!</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>Tak, tante! Tak, fordi du vil h&#x00F8;re p&#x00E5; mig! Gud, hvor jeg har &#x2013;</p>
+</sp>
+<stage>(Gr&#x00E6;der.)</stage>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>S&#x00E5;-! S&#x00E5;-! &#x2013; Fort&#x00E6;l ganske ligetil!</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>Ja &#x2026; jeg gik i otte dager i en feber &#x2026; jeg trode, jeg var syg &#x2026; De andre spurte, hvad der fejlede mig. Jeg vidste det virkelig ikke. Der var tusen ting at fort&#x00E6;lle fra den tid; men du vilde ikke kunne forst&#x00E5; dem.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>&#x00C5;-jo.</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>Nej, umuligt! Og jeg <hi rend="italic">kan</hi> heller ikke &#x2026; Det var s&#x00E5; ondt den gang &#x2026; og nu er det s&#x00E5; s&#x00F8;dt &#x2026;</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>S&#x00E5; vent med det! Men hvorledes gik det op for dig?</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>Han talte til mig &#x2013; rent ud!</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Han fride?</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>Ja vist. &#x00C5;, jeg f&#x00F8;ler, jeg blir r&#x00F8;d igen, bare jeg t&#x00E6;nker p&#x00E5; det.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Du bar dig dumt ad.</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>&#x00C5;, s&#x00E5; gr&#x00E6;sselig!</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Hvad gjorde du da?</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>Jeg satte i et skrig, et virkeligt stort skrig, og l&#x00F8;b l&#x00F8;b hjem, pakkede min kuffert og p&#x00E5; damp-skibet med &#x00E9;n gang.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Og det var altsammen?</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>Altsammen? Det skete ude mellem alle mennesker.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Men, &#x00C5;g&#x00E5;t!</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>Det kom s&#x00E5; aldeles forf&#x00E6;rdelig uventet. Jeg er aldrig ble&#x0027;t s&#x00E5; r&#x00E6;d i mit liv. Og bagefter s&#x00E5; skamfull. Jeg gjorde ikke annet p&#x00E5; damp-skibet hele vejen enn gr&#x00E6;d.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Men han kom jo p&#x00E5; det samme skib.</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>T&#x00E6;nk, han havde rejst landvejs over tangen og taget damp-skibet igen p&#x00E5; den annen side. Ja, det vidste ikke jeg, f&#x00F8;r han sad der lige foran mig! Jeg trode, jeg skulde synke i d&#x00E6;kket. Jeg vilde ogs&#x00E5; da l&#x00F8;be, men &#x2013; &#x00E5;, tante, jeg kunde ikke. Han s&#x00E5; s&#x00E5; vidunderlig p&#x00E5; mig og tog begge mine h&#x00E6;nder. Han talte; men det v&#x00E9;d jeg ikke, hvad var; det gik ligesom rundt. Men de &#x00F8;jne, tante! Ja, du har ikke set dem, &#x2013; derfor m&#x00E5; du f&#x00F8;le det s&#x00E5; &#x2013; ja, s&#x00E5; &#x2026;</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Nej, barn.</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>Der er noget ved ham, n&#x00E5;r han s&#x00E5;dan sidder stille hos en, &#x2013; det er s&#x00E5; &#x00E6;gte. Og n&#x00E5;r han da ser p&#x00E5; mig og siger &#x2026; jeg mener ikke netop med ord, sk&#x00F8;nner du &#x2026; men siger det alligevel: du er mig s&#x00E5; k&#x00E6;r! &#x2026; ja, det sk&#x00E6;lver i mig, &#x2013; &#x00E5;, tante! &#x2013; Kys mig, tante! &#x2013; S&#x00E5;! Gud ske lov! V&#x00E9;d du, hvad han sagde idag?</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Nej.</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>Den, som har fostret &#x2013; han brugte det ord; det er sligt et h&#x00F8;jtideligt ord; men han er jo teolog &#x2013; den, som har fostret en s&#x00E5;dan pige &#x2026; det er mig, det, sk&#x00F8;nner du; jeg t&#x00E6;nkte p&#x00E5; alle mine fejl; han kommer tidsnok til at k&#x00E6;nne dem &#x2013;</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Nu? Den, som har fostret en s&#x00E5;dan pige som dig &#x2013;</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>&#x2013; som mig, m&#x00E5;tte v&#x00E6;re magel&#x00F8;s!</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Du har vel ordentlig skrydt mig op?</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>Tv&#x00E6;rtom! Det var, da han endelig vilde hid f&#x00F8;rst f&#x00F8;r mig; han pligtede det, sa&#x0027; han, at tage den f&#x00F8;rste t&#x00F8;rn. For Guds skyld, sa&#x0027; jeg. Du k&#x00E6;nner henne ikke; hun knuser dig!</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Men, &#x00C5;g&#x00E5;t!</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>Da var det, han sa&#x0027;: Nej, den, som har fostret en slig, &#x2013; o. s. v., o. s. v. &#x2013; &#x00C5;-h&#x00E5;, nu ser jeg, at du har v&#x00E6;ret slem.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Jeg havde om formiddagen haft &#x00E6;rgrelser, &#x2013; og jeg misforstod &#x2013;</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>Herefter skal du aldrig mere have &#x00E6;rgrelser. Ti v&#x00E9;d du, menneskene er s&#x00E5; gode, og nu skal du komme sammen med dem igen. Du, som selv er s&#x00E5; god &#x2013;</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Nej, jeg er jo netop ikke god.</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>Du? Du er bare s&#x00E5; rasende uberegnelig, tante! Nej, hvad er det nu igen?</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Jeg er ulykkelig, &#x00C5;g&#x00E5;t!</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>Hvorover, tante? Over mig?</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Du er sol-str&#x00E5;len i mit liv; du forgyller, du varmer, du opt&#x00F8;r; &#x2013; men just derfor &#x2013;!</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>Just derfor! Tante, jeg forst&#x00E5;r dig ikke?</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Jeg er plump, jeg er h&#x00E5;rd, jeg er mist&#x00E6;nksom, ond. Jeg er vild, jeg er uden m&#x00E5;dehold som f&#x00F8;r, &#x2013; som altid. Hvorledes m&#x00E5; jeg se ud i hans &#x00F8;jne &#x2013; og i dine? Sig mig det! Er jeg ikke plump, styg, &#x2013; hvad?</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>Du er den sk&#x00F8;nneste i hele verden! Du er bare ub&#x00E6;ndig af kraft, af mod, af ungdom &#x2026;</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Nej, nej, nej, sanheden! Jeg fortjener den! Ti det er dog for din skyld, at jeg i otte &#x00E5;r har omg&#x00E5;ts bare arbejds-folk. Alt mit skal blive dit. Derfor, &#x00C5;g&#x00E5;t, hav &#x00E6;rb&#x00F8;dighed for mig! Sig mig sanheden! Er jeg ikke &#x2026; hvad skal jeg kalle det &#x2013;? sig det lige ud, <hi rend="italic">du!</hi></p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>Dejlig!</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Nej, nej! Jeg har aldrig f&#x00F8;lt det som nu, at jeg i disse otte &#x00E5;r har v&#x00E6;ret i b&#x00E6;rg. Alle b&#x00F8;ger fra den store bev&#x00E6;gelse derude har ikke bragt lys nok. De blegner for det f&#x00F8;rste levende glimt af menneske-mylleret. Bare din ny dragt, din moderne hat, &#x2026; disse farver, deres sammens&#x00E6;tning har bud fra en udviklet sk&#x00F8;nhedssans, som jeg ikke mere ejer; der spiller i dem tusene foruds&#x00E6;tninger, jeg ikke har fulgt. Dit v&#x00E6;sen b&#x00E6;rer duft in af noget evig friskt, der ikke mere er til for mig. Du er s&#x00E5; let, kvik, insmigrende omkring mig; alt her blir gammelt, tungt, usammenh&#x00E6;ngende, &#x2026; men jeg allermest!</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>Nej, nu m&#x00E5; jeg sige dig, hvad han sa&#x0027;, siden du ikke vil tro mig selv.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Han k&#x00E6;nte mig jo ikke?</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>Nej, det er ogs&#x00E5; bare indirekte om dig; ti han sa&#x0027;, han havde aldrig l&#x00E6;ngtes efter at l&#x00E6;re at k&#x00E6;nne et menneske s&#x00E5; st&#x00E6;rkt, som han nu l&#x00E6;ngtes efter dig. Ti ved at omg&#x00E5;s mig havde han opdaget dig, &#x2013; han brugte det udtryk! Og det m&#x00E5;tte endelig engang v&#x00E6;re et &#x2013;</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Nej, ikke mere! Jeg t&#x00E5;ler det ikke! &#x2013; At det nu ogs&#x00E5; netop skulde v&#x00E6;re ham, som vi har &#x2013;</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>&#x2013; hadet s&#x00E5;! &#x2013; ja, er det ikke m&#x00E6;rkv&#x00E6;rdigt?</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Den f&#x00F8;rste gang, du flyr ud &#x2013;!</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>&#x2013; ja, ikke sant? &#x2013;</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>S&#x00E5; kommer du hjem igen med favnen full af forsoning og k&#x00E6;rlighed!</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>Men til hvis &#x00E6;re er nu det, tante, uden til din, du, som har &#x00AB;fostret&#x00BB; mig, &#x2013; for at v&#x00E6;re i den teologiske stil. Og du klager over, at du her hjemme har siddet og er ble&#x0027;t plump og styg &#x2026; og jeg v&#x00E9;d ikke alt, du, som af din fabrik kan sende ud en s&#x00E5;dan sejers-gudinne.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Nej, jeg klager ikke, n&#x00E5;r jeg ser, h&#x00F8;rer, &#x2013; n&#x00E5;r jeg <hi rend="italic">har</hi> dig! For s&#x00E5;dan pris m&#x00E5; der betales lidt. Jeg har jo v&#x00E6;ret egenk&#x00E6;rlig, som har trot, det var for meget. Dette er v&#x00E5;ren for dig &#x2013;! Og for mig &#x2013;?</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>For dig? Nej, hvad fejler dig nu igen?</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Jeg kom til at t&#x00E6;nke: nu er min opgave slut.</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>Din &#x2013;? Du, som &#x2013;? Nej, du g&#x00F8;r mig s&#x00F8;rgmodig ved s&#x00E5;dant.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Det vilde v&#x00E6;re den st&#x00F8;rste synd! Jeg er glad, glad! Jeg forsikrer dig; men du k&#x00E6;nner &#x2013;</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>&#x2013; dine ustyrlige, uudgrunnelige overgange, ja!</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>G&#x00E5; nu, barn, og bring ham!</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>Gud, hvor det klinger: bring ham! <stage>(G&#x00E5;r, stanser.)</stage> Tak, s&#x00F8;de, gode, dejlige tante!</p>
+</sp>
+<sp>
+<speaker>Fru Falk</speaker>
+<stage>(kaster sig ved bordet med hovedet over sine armer).</stage>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t</speaker>
+<stage>(h&#x00F8;res udenfor).</stage>
+<p>Jo, kom!</p>
+</sp>
+<sp>
+<speaker>Hagbart</speaker>
+<stage>(langt borte).</stage>
+<p>Virkelig?</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>Kom, kom!</p>
+</sp>
+<sp>
+<speaker>Hagbart</speaker>
+<stage>(udenfor, n&#x00E6;rmere).</stage>
+<p>Nej, er det sant?</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>Nu skal du selv se!</p>
+</sp>
+<sp>
+<speaker>Fru Falk</speaker>
+<stage>(rejser sig, t&#x00F8;rrer sine &#x00F8;jne og g&#x00E5;r smilende mod dem).</stage>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>Tante, her er han!</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Frue!</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Tilgiv mig!</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Hvilket? &#x2013; Nej, tilgiv De mig, frue! Jeg fik ikke sagt det. Jeg &#x2013;</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>Det kan vi tale om en annen gang! Lad nu tante f&#x00E5; se p&#x00E5; dig!</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p><hi rend="italic">I</hi> vil ikke skuffe hverandre. Det ser jeg.</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>Det var da underligt sagt af dig, tante!</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Ja, elsk hverandre! B&#x00E6;r sk&#x00F8;nhed, varme, farver in i disse kolde stuer!</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>Nej, men tante &#x2013;!</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Har I omfavnet hverandre?</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t</speaker>
+<stage>(g&#x00E5;r lidt fra ham).</stage>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>S&#x00E5; g&#x00F8;r det!</p>
+</sp>
+<stage>(De omfavne hverandre.)</stage>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t</speaker>
+<stage>(l&#x00F8;ber fra ham til tanten).</stage>
+<p>Men, Gud, tante, gr&#x00E6;der du &#x2013;?</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Bryd dig ikke om mig! &#x2013; Har De sagt det til Deres pleje-far, biskoppen?</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Ikke ennu.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>S&#x00E5; det har De ikke. &#x2013; Da st&#x00E5;r det v&#x00E6;rste tilbage, er jeg r&#x00E6;d.</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Nej; er jeg kommen s&#x00E5; langt, da skal ingen mere kunne modst&#x00E5;!</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>H&#x00F8;rer du, tante?</p>
+</sp>
+<stage><p rend="center">T&#x00E6;ppet faller.</p></stage>
+</div>
+</div>
+<div type="chapter" subtype="act" n="2">
+<head type="main">ANNEN HANDLING</head>
+<stage><p rend="center">Rum hos biskoppen. En d&#x00F8;r i baggrunnen f&#x00F8;rer in til et annet stort rum; desuden d&#x00F8;r til h&#x00F8;jre f. t. Vinduer til venstre. L&#x00E6;ngst fremme ved et s&#x00E5;dant en stor l&#x00E6;ne-stol. Bag denne et skrive-bord med stol foran. En sofa til h&#x00F8;jre ved d&#x00F8;ren og stole ordnede foran og ved siden af denne samt i baggrunnen.</p></stage>
+<div type="uchapter" subtype="scene" n="2_1">
+<head type="sub">F&#x00F8;rste m&#x00F8;de</head>
+<sp>
+<speaker>Biskoppen</speaker>
+<stage>(i sofaen).</stage>
+<p>Du siger altid, at du har handlet efter din overbevisning, k&#x00E6;re Hagbart. Nu vel; forbyder du mig at handle efter min?</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Jeg ber dig jo bare, onkel, om f&#x00F8;rst at se henne, tale med henne.</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Men n&#x00E5;r jeg nu ikke vil? Det er jo tungt, at du har valgt dig en livs-ledsagerinne uden for vor omgang; &#x2013; imidlertid er hun dag for dag ble&#x0027;t os k&#x00E6;rere. For henne skal vi g&#x00F8;re alt. Men l&#x00E6;ngre g&#x00E5;r vi ikke. &#x2013; Vil du l&#x00E6;se brevet?</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Nej.</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Det skulde du dog g&#x00F8;re. Det er ikke uh&#x00F8;fligt.</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Jeg k&#x00E6;nner jo din milde form. Men det er sagen, onkel, &#x2013; sagen!</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Ja, &#x2013; den kan jeg ikke &#x00E6;ndre.</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Kunde du i alle fall ikke ops&#x00E6;tte med at sende brevet?</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Det er sendt.</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Det er sendt!</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>I morges. &#x2013; Ja! &#x2013; Derved er intet mere at g&#x00F8;re.</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Onkel, du er h&#x00E5;rd!</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Hvor kan du sige det, Hagbart? Jeg finner mig i, at du forlader den teologiske bane. &#x00C9;n alene v&#x00E9;d, hvor jeg s&#x00F8;rger over det. <stage>(Rejser sig.)</stage></p><p>Men jeg finner mig ikke i, at du drager et menneske in i min omgang, som ikke engang b&#x00E6;rer sin mands navn. V&#x00E9;d vi, hvem hennes mand var? Hun b&#x00E5;de giftede sig og blev skilt i udlandet. Hennes liv senere hen k&#x00E6;nner vi heller ikke; det har n&#x00E6;ppe v&#x00E6;ret dadelfrit. Siden hun kom hid, har hun ikke en eneste gang s&#x00F8;gt kirken. Hun har levet h&#x00F8;jst ekscentrisk og nu i den sidste tid tilladt en mand at komme der, som har et slet rygte.</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>General Rosen?</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Ja, general Rosen. Han er dog n&#x00E6;sten en dranker. Udsv&#x00E6;vende er han vist ogs&#x00E5;.</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Han kommer ellers overalt. Han kommer ogs&#x00E5; hid.</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Generalen har udm&#x00E6;rket sig p&#x00E5; val-pladsen; han har mange selskabelige egenskaber, gode forbindelser. Livet er engang s&#x00E5;.</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Men fru Falk kan man afvise?</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Hun er en kvinne.</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Mon hvor l&#x00E6;nge det vil t&#x00E5;les, at slig en forskel g&#x00F8;res?</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Se, se; er du kommen did ogs&#x00E5;? &#x2013; Du har nok lagt dig til mange nye l&#x00E6;rdomme i den senere tid?</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Du skulde &#x00E9;n eneste gang have talt med fru Falk, du ogs&#x00E5;!</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Jeg skal betro dig noget, Hagbart! Justitiarius R&#x00F8;st, som bor derude p&#x00E5; landet, har ofte set generalen komme fra henne p&#x00E5; en h&#x00F8;jst upassende tid. &#x2013; Med den sort fruentimmer taler jeg ikke.</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Men med den sort m&#x00E6;nd?</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Ja, som sagt, det er en annen sag.</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Ja-s&#x00E5;. &#x2013; Fru Falk har intet annet forhold til generalen enn medlidenhedens.</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Har han da k&#x00E6;nt hende f&#x00F8;r?</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Sansynligvis. Hun tar sig i ethvert fall alvorlig af ham. Ingen annen g&#x00F8;r det.</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>S&#x00E5; har hun vel sin s&#x00E6;rskilte grun.</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Skal jeg sige dig den? Hun har mere hj&#x00E6;rte enn vi andre; hun har st&#x00F8;rre kraft til at bringe offer, enn vi har. Hun er en meget st&#x00F8;rre natur, og hun har n&#x00E5;t en dybere udvikling, intellektuelt som moralsk, enn nogen af os.</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Jeg h&#x00F8;rer p&#x00E5; dig med den allerst&#x00F8;rste forundring!</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Ja, misforst&#x00E5; mig ikke! Hun har sine fejl.</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>N&#x00E5;, s&#x00E5; det har hun dog! &#x2013; Jeg vil alvorlig bede dig om noget, Hagbart. Rejs bort p&#x00E5; en stund.</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Rejse bort!</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Til din onkel professoren f. eks. Bare p&#x00E5; en 8 &#x00E0; 14 dager. Du tr&#x00E6;nger st&#x00E6;rkt til at blive klar &#x2013; b&#x00E5;de over det ene og det annet. Du er i en st&#x00E6;rk g&#x00E6;ring.</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Det er jeg; men &#x2013;</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Tal ud!</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Jeg har v&#x00E6;ret i g&#x00E6;ring l&#x00E6;nger, enn du har vidst. Jeg har v&#x00E6;ret det lige fra den dag i vinter, jeg gjorde fru Falk s&#x00E5; forf&#x00E6;rdelig uret.</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Ikke netop uret; men &#x2013;</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Jo, uret! Det blev sk&#x00E6;bne-stenen i mit liv. Til et sligt fanatisk udbrud skulde det komme. S&#x00E5; forf&#x00E6;rdedes jeg endelig over mig selv, &#x2013; ja, jeg skal ikke plage dig med min hele lange kamp; du s&#x00E5; den ikke; ti jeg var ikke her. Men da jeg tilsidst blev syg og m&#x00E5;tte til bad og der fik se &#x00C5;g&#x00E5;t, &#x2013; det var mer enn alt, jeg havde spekuleret, det var sundheden selv, en ny sort menneske, det var endelig livets egen r&#x00F8;st og bev&#x00E6;gelse i rent betagende sk&#x00F8;nhed! Du kan ikke forestille dig, hvorledes jeg da straks l&#x00E6;ngtes efter ogs&#x00E5; at f&#x00E5; se den, som havde opdraget henne. <hi rend="italic">Hun</hi> m&#x00E5;tte sidde inne med noget af det, jeg havde savnet, &#x2013; altid savnet! Ti dette her &#x2013; nu m&#x00E5; det siges! &#x2013; havde i grunnen v&#x00E6;ret mig unaturligt; det var for at d&#x00F8;ve savnene i mig selv, at jeg var ble&#x0027;t s&#x00E5; fanatisk str&#x00E6;ng mod andre. &#x2013; Ja, det er ydmygende at tilst&#x00E5; s&#x00E5;dant. Men det er sant. Jeg har altid v&#x00E6;ret kejtet og h&#x00E6;ftig. &#x2013; Men hvad var det jeg vilde sige?</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Du vilde naturligvis komme til fru Falk.</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Ja! &#x2013; K&#x00E6;re, t&#x00E6;nk nu ikke ondt. Men jeg har i alle disse dager ikke kunnet v&#x00E6;re fra henne.</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Det er alts&#x00E5; henne, du har talt med?</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Ja vist! &#x2013; Ja, d. v. s. ogs&#x00E5; med &#x00C5;g&#x00E5;t. Du foresl&#x00E5;r mig at rejse bort. Jeg kan ikke! Om jeg kunde fordoble mig selv eller tiden, &#x2013; der, hos henne, strak det ikke til. Nej, nu har jeg funnet frem! Nu kan jeg ingensteds rejse hen.</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Og dette kaller du: at finne frem! Stakkels gut!</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Ja, jeg kan ikke tale med dig. Du vil ikke forst&#x00E5; mig mere, enn da du satte olde-mors bibliotek op p&#x00E5; loftet.</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Ja, jeg ser, du har draget det frem igen. Nu; du har din fri vilje i det ene som i det annet. Du skal ikke kunne sige, jeg har &#x00F8;vet tvang.</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Nej, du er god, onkel, &#x2013; mod mig.</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Men her er noget nyt kommet til. Jeg har set det f&#x00F8;r i dag.</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Hvad mener du?</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Du har da i denne samtale h&#x00F8;jst to ganger n&#x00E6;vnt &#x00C5;g&#x00E5;ts navn.</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Det er jo heller ikke &#x00C5;g&#x00E5;t, vi taler om.</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Elsker du henne ikke mere?</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Om jeg elsker &#x00C5;g&#x00E5;t? <stage>(Ler.)</stage> Kan du sp&#x00F8;rge? &#x2013; Du mener &#x2013;?</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Ja, jeg mener &#x2013;</p>
+</sp>
+<sp>
+<speaker>Hagbart</speaker>
+<stage>(ler igen).</stage>
+<p>Nej, det er en misforst&#x00E5;else, k&#x00E6;re!</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Jeg gentar: rejs bort p&#x00E5; en 8-14 dager, Hagbart! Se p&#x00E5; afstand &#x2013; p&#x00E5; dig selv og p&#x00E5; andre!</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Det er umuligt! Aldeles umuligt, onkel! Det var, som vilde du sige til mig: l&#x00E6;g dig ned og sov, Hagbart, i 8-14 dager; det vilde du have s&#x00E5; godt af! &#x2013; Nej, nu er endelig, ja, endelig alle mine kr&#x00E6;fter i bev&#x00E6;gelse; den er stundom s&#x00E5; st&#x00E6;rk, at jeg n&#x00E6;ppe kan styre den.</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Just derfor.</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Just derfor m&#x00E5; det st&#x00E5; til, onkel. Engang i mit liv st&#x00E5; til! &#x2013; Nej, nu m&#x00E5; jeg blive her! Ja, god morgen, onkel! Jeg tr&#x00E6;nger til at g&#x00E5; en tur.</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>D. v. s. til at se fru Falk?</p>
+</sp>
+<sp>
+<speaker>Hagbart</speaker>
+<stage>(ler).</stage>
+<p>Desv&#x00E6;rre, jeg t&#x00F8;r ikke g&#x00E5; did f&#x00F8;r i eftermiddag; ti jeg var der hele dagen i g&#x00E5;r. &#x2013; Men alle mine tanker er ved denne samtale sat i gang igen, og da jeg ingen har at pleje dem med, m&#x00E5; jeg ud og g&#x00E5;. Tak, onkel! du er i grunnen overb&#x00E6;rende med mig!</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Du vil alts&#x00E5; ikke l&#x00E6;se brevet?</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Det er sant, &#x2013; brevet! &#x2013; Det kaster jo hele forholdet hen i uvished igen; &#x2013; hvor kan jeg dog glemme det?</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Ja, ser du selv, hvor uklart og l&#x00F8;st alt er blevet i dig? Du tr&#x00E6;nger til at samle dig igen. Rejs bort!</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Umuligt! &#x2013; Farvel, onkel!</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Der er olde-mor!</p>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="2_2">
+<head type="sub">Annet m&#x00F8;de</head>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>God morgen, olde-mor! Har du sovet godt?</p>
+</sp>
+<sp>
+<speaker>Olde-mor</speaker>
+<stage>(kommende fra baggrunnen).</stage>
+<p>Udm&#x00E6;rket!</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<stage>(som f&#x00F8;rer henne).</stage>
+<p>Hun har s&#x00E5;m&#x00E6;nd sovet til langt ud p&#x00E5; dag.</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Det forn&#x00F8;jer mig, bedste-mor!</p>
+</sp>
+<stage>(Tager hennes annen arm.)</stage>
+<sp>
+<speaker>Olde-mor.</speaker>
+<p>Du beh&#x00F8;ver ikke at tale s&#x00E5; h&#x00F8;jt. Klart vejr i dag. H&#x00F8;rer godt. <stage>(Til Hagbart.)</stage> Du kom ikke in til mig i g&#x00E5;r aftes?</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Jeg kom s&#x00E5; sent hjem, olde-mor.</p>
+</sp>
+<sp>
+<speaker>Olde-mor.</speaker>
+<p>Du beh&#x00F8;ver slet ikke at tale s&#x00E5; h&#x00F8;jt.</p>
+</sp>
+<sp>
+<speaker>Cornelia.</speaker>
+<p>Hun vil altid lade, som hun h&#x00F8;rer.</p>
+</sp>
+<sp>
+<speaker>Olde-mor</speaker>
+<stage>(er under dette f&#x00F8;rt til den store stol ved vinduet).</stage>
+<p>Dette er en god plads &#x2026;</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Og det gl&#x00E6;der mig hver dag, du sidder der! &#x2013;</p>
+</sp>
+<sp>
+<speaker>Olde-mor.</speaker>
+<p>dette vindue &#x2026; og denne spejl derude.</p>
+</sp>
+<sp>
+<speaker>Cornelia.</speaker>
+<p>Ja, der kan du f&#x00F8;lge med.</p>
+</sp>
+<sp>
+<speaker>Olde-mor.</speaker>
+<p>Som de skriger, alle mennesker!</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Nu tillader du, at jeg g&#x00E5;r in og bytter om?</p>
+</sp>
+<stage>(G&#x00E5;r in til h&#x00F8;jre.)</stage>
+<sp>
+<speaker>Cornelia.</speaker>
+<p>Er det noget, du &#x00F8;nsker?</p>
+</sp>
+<sp>
+<speaker>Olde-mor.</speaker>
+<p>Nej, tak!</p>
+</sp>
+<stage>(Cornelia g&#x00E5;r ud af baggrunnen.)</stage>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>K&#x00E6;re, gode olde-mor! Du er den eneste her, som forst&#x00E5;r mig!</p>
+</sp>
+<sp>
+<speaker>Olde-mor</speaker>
+<stage>(fors&#x00F8;ger at se sig om).</stage>
+<p>Er vi alene?</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Ja.</p>
+</sp>
+<sp>
+<speaker>Olde-mor.</speaker>
+<p>Hilser s&#x00E5; biskoppen p&#x00E5; fru Falk?</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Nej, desv&#x00E6;rre; han har skrevet henne et brev til.</p>
+</sp>
+<sp>
+<speaker>Olde-mor.</speaker>
+<p>Jeg t&#x00E6;nkte det.</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Er det ikke forskr&#x00E6;kkeligt, olde-mor! Ikke engang at ville se henne, tale med henne, f&#x00F8;r han d&#x00F8;mmer.</p>
+</sp>
+<sp>
+<speaker>Olde-mor.</speaker>
+<p>De <hi rend="italic">er</hi> slig disse &#x2026; Er vi alene?</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Ja, olde-mor! &#x2013;</p>
+</sp>
+<sp>
+<speaker>Olde-mor.</speaker>
+<p>Men v&#x00E6;r t&#x00E5;lmodig, Hagbart! Du var nylig ligedan.</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Ja, olde-mor!</p>
+</sp>
+<sp>
+<speaker>Olde-mor.</speaker>
+<p>Jeg har set s&#x00E5; mange sl&#x00E6;gter, &#x2026; s&#x00E5; mange moder. I min tid var det tolerancen.</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Jeg har slig gl&#x00E6;de af dine b&#x00F8;ger, olde-mor!</p>
+</sp>
+<sp>
+<speaker>Olde-mor.</speaker>
+<p>Ikke sant? &#x2013; Er vi alene?</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Ja, olde-mor.</p>
+</sp>
+<sp>
+<speaker>Olde-mor.</speaker>
+<p>Jeg er rigtig forelsket i din forlovede, Hagbart. Hun er som pigerne i min tid.</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Frejdig, hvad?</p>
+</sp>
+<sp>
+<speaker>Olde-mor.</speaker>
+<p>Fri, selvst&#x00E6;ndig. &#x2013; Nu p&#x00E5; en tid har de v&#x00E6;ret annerledes. &#x2013; &#x2013; Er vi alene?</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Ja.</p>
+</sp>
+<sp>
+<speaker>Olde-mor.</speaker>
+<p>Gift dig, &#x2026; s&#x00E5; flytter jeg til dig &#x2026; og til henne. Hys!</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Virkelig?</p>
+</sp>
+<sp>
+<speaker>Olde-mor.</speaker>
+<p>Hys! <stage>(Ser ud.)</stage> Der har vi justitiarius og hans frue. &#x2013;</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<stage>(i d&#x00F8;ren fra baggrunnen).</stage>
+<p>Justitiarius og frue kommer! Varsko din onkel!</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Ja.</p>
+</sp>
+<sp>
+<speaker>Olde-mor.</speaker>
+<p>Jeg kunde t&#x00E6;nke det. De kom i g&#x00E5;r fra landet.</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Farvel da, olde-mor!</p>
+</sp>
+<sp>
+<speaker>Olde-mor.</speaker>
+<p>Farvel, min gut!</p>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="2_3">
+<head type="sub">Tredje m&#x00F8;de</head>
+<sp>
+<speaker>Cornelia</speaker>
+<stage>(&#x00E5;bner d&#x00F8;ren i baggrunnen).</stage>
+<p>V&#x00E6;r s&#x00E5; artig!</p>
+</sp>
+<sp>
+<speaker>Fru R&#x00F8;st.</speaker>
+<p>Takker s&#x00E5; meget! Undskyld, at vi kommer s&#x00E5; tidlig. Men vi kom i g&#x00E5;r in fra landet. Og min mand skal i dag i retten et &#x00F8;jeblik.</p>
+</sp>
+<sp>
+<speaker>Justitiarius R&#x00F8;st.</speaker>
+<p>Jeg skal i dag i retten.</p>
+</sp>
+<sp>
+<speaker>Biskoppen</speaker>
+<stage>(fra h&#x00F8;jre).</stage>
+<p>Velkommen!</p>
+</sp>
+<sp>
+<speaker>Begge.</speaker>
+<p>Tak!</p>
+</sp>
+<sp>
+<speaker>Fru R&#x00F8;st.</speaker>
+<p>Undskyld, at vi kommer s&#x00E5; tidlig. Men vi kom i g&#x00E5;r in fra landet, og min mand skal i dag i retten.</p>
+</sp>
+<sp>
+<speaker>R&#x00F8;st.</speaker>
+<p>Jeg skal i retten et &#x00F8;jeblik.</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Jeg v&#x00E9;d det.</p>
+</sp>
+<sp>
+<speaker>Fru R&#x00F8;st.</speaker>
+<p>Der er jo olde-mor allerede p&#x00E5; sin plads!</p>
+</sp>
+<sp>
+<speaker>R&#x00F8;st.</speaker>
+<p>God morgen, bedste frue!</p>
+</sp>
+<sp>
+<speaker>Fru R&#x00F8;st.</speaker>
+<p>God morgen! &#x2013; Nej, for Guds skyld, bliv siddende!</p>
+</sp>
+<sp>
+<speaker>Olde-mor.</speaker>
+<p>&#x00C5;, jeg kan nok &#x2013;</p>
+</sp>
+<sp>
+<speaker>R&#x00F8;st.</speaker>
+<p>Ja, den, som havde Deres styrke!</p>
+</sp>
+<sp>
+<speaker>Fru R&#x00F8;st.</speaker>
+<p>Min mand sa&#x0027; just i g&#x00E5;r aftes til fr&#x00F8;kenen &#x2026;</p>
+</sp>
+<sp>
+<speaker>Olde-mor.</speaker>
+<p>De beh&#x00F8;ver ikke at anstr&#x00E6;nge Dem s&#x00E5;. &#x2013; Jeg h&#x00F8;rer godt.</p>
+</sp>
+<stage>(Man veksler blikke.)</stage>
+<sp>
+<speaker>R&#x00F8;st.</speaker>
+<p>Jeg sa&#x0027; just i g&#x00E5;r aftes til fr&#x00F8;kenen; vi traf sammen et &#x00F8;jeblik ved opbyggelsen: &#x2013;</p>
+</sp>
+<sp>
+<speaker>Olde-mor.</speaker>
+<p>Jeg v&#x00E9;d det.</p>
+</sp>
+<sp>
+<speaker>R&#x00F8;st.</speaker>
+<p>&#x00AB;Jeg har aldrig set nogen over niti &#x00E5;r have alle sine sanser i s&#x00E5; god behold &#x2013;</p>
+</sp>
+<sp>
+<speaker>Fru R&#x00F8;st.</speaker>
+<p>&#x2013; i s&#x00E5; god behold&#x00BB;. Og s&#x00E5; den helbred! Min mand er s&#x00E5; plaget af astma i denne tid.</p>
+</sp>
+<sp>
+<speaker>R&#x00F8;st.</speaker>
+<p>Jeg er s&#x00E5; plaget af astma.</p>
+</sp>
+<sp>
+<speaker>Fru R&#x00F8;st.</speaker>
+<p>Og min kardialgi, &#x2013; den, &#x00E5;!</p>
+</sp>
+<sp>
+<speaker>Olde-mor.</speaker>
+<p>Den sygdom k&#x00E6;nte vi ikke til i min tid.</p>
+</sp>
+<sp>
+<speaker>Fru R&#x00F8;st.</speaker>
+<p>Hun er s&#x00E5; s&#x00F8;d; hun husker ikke, at de var syge i hennes tid.</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Vi har dog godt vejr nu.</p>
+</sp>
+<sp>
+<speaker>R&#x00F8;st.</speaker>
+<p>Et fortryllende vejr! Jeg forst&#x00E5;r heller ikke, at netop nu &#x2013; Nej, umag Dem ikke, Deres h&#x00F8;j&#x00E6;rv&#x00E6;rdighed! Jeg skal &#x2013;</p>
+</sp>
+<sp>
+<speaker>Fru R&#x00F8;st.</speaker>
+<p>Min mand m&#x00E5; have fork&#x00F8;let sig.</p>
+</sp>
+<stage>(Man s&#x00E6;tter sig.)</stage>
+<sp>
+<speaker>Cornelia.</speaker>
+<p>I bede-huset i g&#x00E5;r aftes var ikke frit for drag.</p>
+</sp>
+<sp>
+<speaker>R&#x00F8;st.</speaker>
+<p>Men vi sad i den &#x00F8;verste krog.</p>
+</sp>
+<sp>
+<speaker>Fru R&#x00F8;st.</speaker>
+<p>Vi sad i den &#x00F8;verste krog. Dette hindrede os i at hilse p&#x00E5; Deres h&#x00F8;j&#x00E6;rv&#x00E6;rdighed.</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Der var s&#x00E5; mange folk.</p>
+</sp>
+<sp>
+<speaker>R&#x00F8;st og Frue og Cornelia.</speaker>
+<p>Mange folk.</p>
+</sp>
+<sp>
+<speaker>Fru R&#x00F8;st.</speaker>
+<p>Der har Deres h&#x00F8;j&#x00E6;rv&#x00E6;rdighed f&#x00E5;t en god hj&#x00E6;lp.</p>
+</sp>
+<sp>
+<speaker>R&#x00F8;st.</speaker>
+<p>Ja, derom var alle enige.</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>M&#x00E5;tte han bare v&#x00E6;re, hvad jeg vilde kalle praktisk. Det er slemme tider nu.</p>
+</sp>
+<sp>
+<speaker>Alle tre.</speaker>
+<p>Slemme tider!</p>
+</sp>
+<sp>
+<speaker>Fru R&#x00F8;st.</speaker>
+<p>Vi h&#x00F8;rte just i g&#x00E5;r, &#x2013; ja, jeg kunde ikke sp&#x00F8;rge fr&#x00F8;kenen om det; der kom s&#x00E5; mange folk for at hilse p&#x00E5; os, &#x2013; vi h&#x00F8;rte just &#x2013;</p>
+</sp>
+<sp>
+<speaker>R&#x00F8;st.</speaker>
+<p>&#x2013; og det er grunnen, hvorfor vi kommer hid i dag; &#x2013; vi g&#x00E5;r altid direkte.</p>
+</sp>
+<sp>
+<speaker>Fru R&#x00F8;st.</speaker>
+<p>Direkte! Det er min mands valg-sprog.</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Sansynligvis om Hagbarts &#x2013; forlovelse?</p>
+</sp>
+<sp>
+<speaker>Begge.</speaker>
+<p>&#x2013; med fr&#x00F8;ken Falk?</p>
+</sp>
+<sp>
+<speaker>Cornelia.</speaker>
+<p>Jo, det forholder sig s&#x00E5;.</p>
+</sp>
+<sp>
+<speaker>Fru R&#x00F8;st.</speaker>
+<p>Virkelig?</p>
+</sp>
+<sp>
+<speaker>Cornelia.</speaker>
+<p>Min bror fant, at han ingen ret havde til at mods&#x00E6;tte sig.</p>
+</sp>
+<sp>
+<speaker>R&#x00F8;st.</speaker>
+<p>Ja-s&#x00E5;. Ja, det m&#x00E5; jo v&#x00E6;re tungt for Deres h&#x00F8;j&#x00E6;rv&#x00E6;rdighed!</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Det kan ikke n&#x00E6;gtes.</p>
+</sp>
+<sp>
+<speaker>Fru R&#x00F8;st.</speaker>
+<p>Som kandidat Tallhaug har forandret sig!</p>
+</sp>
+<sp>
+<speaker>R&#x00F8;st.</speaker>
+<p>Han, som nylig &#x2013;!</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Unge mennesker nu til dags, frue, m&#x00E5; ikke i s&#x00E5; henseende d&#x00F8;mmes for str&#x00E6;ngt.</p>
+</sp>
+<sp>
+<speaker>R&#x00F8;st.</speaker>
+<p>Tids&#x00E5;nden!</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Jeg m&#x00E5; ellers sige, at den unge pige ikke netop mishager mig.</p>
+</sp>
+<sp>
+<speaker>Cornelia.</speaker>
+<p>Min bror synes ganske godt om henne, sk&#x00F8;nt han finner jo hennes v&#x00E6;sen noget frit, noget uoverlagt.</p>
+</sp>
+<sp>
+<speaker>Fru R&#x00F8;st.</speaker>
+<p>Men hennes pleje-mor!</p>
+</sp>
+<sp>
+<speaker>R&#x00F8;st.</speaker>
+<p>Ja, hennes pleje-mor!</p>
+</sp>
+<sp>
+<speaker>Cornelia.</speaker>
+<p>Min bror har besluttet ikke at bes&#x00F8;ge henne.</p>
+</sp>
+<sp>
+<speaker>Begge.</speaker>
+<p>Virkelig!</p>
+</sp>
+<sp>
+<speaker>Fru R&#x00F8;st.</speaker>
+<p>Hvor det gl&#x00E6;der os!</p>
+</sp>
+<sp>
+<speaker>R&#x00F8;st.</speaker>
+<p>Det var det, vi vilde vide! Alle mennesker, som vi m&#x00F8;dte i g&#x00E5;r, var sp&#x00E6;nte p&#x00E5; det.</p>
+</sp>
+<sp>
+<speaker>Fru R&#x00F8;st.</speaker>
+<p>Alle! Vi var bekymrede.</p>
+</sp>
+<sp>
+<speaker>Cornelia.</speaker>
+<p>Min bror har skrevet til henne og ladet henne det forst&#x00E5;.</p>
+</sp>
+<sp>
+<speaker>R&#x00F8;st.</speaker>
+<p>Naturligvis!</p>
+</sp>
+<sp>
+<speaker>Fru R&#x00F8;st.</speaker>
+<p>Det gl&#x00E6;der os!</p>
+</sp>
+<sp>
+<speaker>Olde-mor.</speaker>
+<p>Der holder en v&#x00E5;gn udenfor.</p>
+</sp>
+<sp>
+<speaker>Cornelia.</speaker>
+<p>Jeg syntes virkelig ogs&#x00E5;, at jeg h&#x00F8;rte en v&#x00E5;gn.</p>
+</sp>
+<stage>(Rejser sig op.)</stage>
+<sp>
+<speaker>Olde-mor.</speaker>
+<p>En dame stiger ud.</p>
+</sp>
+<sp>
+<speaker>Fru R&#x00F8;st.</speaker>
+<p>En dame? &#x2013; Gud, det skulde dog vel ikke &#x2013;?</p>
+</sp>
+<stage>(Har rejst sig.)</stage>
+<sp>
+<speaker>R&#x00F8;st.</speaker>
+<p>Hvad siger du?</p>
+</sp>
+<stage>(Rejser sig.)</stage>
+<sp>
+<speaker>Cornelia.</speaker>
+<p>Hun b&#x00E6;rer sl&#x00F8;r.</p>
+</sp>
+<sp>
+<speaker>Fru R&#x00F8;st.</speaker>
+<p>Jeg mener virkelig &#x2013;? Kom, R&#x00F8;st, du, som k&#x00E6;nner &#x2013;?</p>
+</sp>
+<sp>
+<speaker>R&#x00F8;st.</speaker>
+<p>Det er henne; jeg k&#x00E6;nner kusken! Hans!</p>
+</sp>
+<sp>
+<speaker>Biskoppen</speaker>
+<stage>(som har rejst sig).</stage>
+<p>Men det kan jo v&#x00E6;re fr&#x00F8;kenen.</p>
+</sp>
+<sp>
+<speaker>Cornelia.</speaker>
+<p>Nej, fr&#x00F8;kenen er det ikke. &#x2013; Nu er hun allerede inne; hvad skal vi?</p>
+</sp>
+<sp>
+<speaker>Fru R&#x00F8;st.</speaker>
+<p>Har hun ikke f&#x00E5;t Deres h&#x00F8;j&#x00E6;rv&#x00E6;rdigheds brev?</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Jo, i morges.</p>
+</sp>
+<sp>
+<speaker>R&#x00F8;st.</speaker>
+<p>Og alligevel &#x2013;?</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Kanske netop derfor. Hm! &#x2013; Du, Cornelia, m&#x00E5; g&#x00E5; ud og &#x2013;</p>
+</sp>
+<sp>
+<speaker>Cornelia.</speaker>
+<p>P&#x00E5; ingen m&#x00E5;de! Aldrig! &#x2013;</p>
+</sp>
+<sp>
+<speaker>Fru R&#x00F8;st</speaker>
+<stage>(til sin mand).</stage>
+<p>Kom, min ven! Skynd dig, lad os g&#x00E5;! <stage>(S&#x00F8;ger sin parasol.)</stage> Min parasol?</p>
+</sp>
+<sp>
+<speaker>Biskoppen</speaker>
+<stage>(sagte).</stage>
+<p>Nej, bliv heller lidt, hr. justitiarius!</p>
+</sp>
+<sp>
+<speaker>R&#x00F8;st.</speaker>
+<p>S&#x00E5;ledes!</p>
+</sp>
+<sp>
+<speaker>Fru R&#x00F8;st.</speaker>
+<p>Min parasol! Jeg kan ikke finne min parasol. &#x2013;</p>
+</sp>
+<sp>
+<speaker>R&#x00F8;st.</speaker>
+<p>Ti du g&#x00E5;r med den i h&#x00E5;nden, min bedste!</p>
+</sp>
+<sp>
+<speaker>Fru R&#x00F8;st.</speaker>
+<p>Det g&#x00F8;r jeg ogs&#x00E5;! Se, hvor forskr&#x00E6;kket jeg er ble&#x0027;t. &#x2013; Skynd dig, kom! Kan vi g&#x00E5; den vej?</p>
+</sp>
+<sp>
+<speaker>R&#x00F8;st.</speaker>
+<p>Biskoppens sove-kammer!</p>
+</sp>
+<sp>
+<speaker>Fru R&#x00F8;st.</speaker>
+<p>&#x00C5;! &#x2013; Men n&#x00E5;r du er med, R&#x00F8;st? Ellers m&#x00F8;der vi henne jo? Du st&#x00E5;r stille! Du skulde dog vel ikke &#x2013;?</p>
+</sp>
+<sp>
+<speaker>R&#x00F8;st.</speaker>
+<p>Lad os vente lidt.</p>
+</sp>
+<sp>
+<speaker>Fru R&#x00F8;st.</speaker>
+<p>Vente? S&#x00E5; du f&#x00E5;r tale med henne? Nej, de mandfolk, er de dog ikke alle lige!</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Men nogen m&#x00E5; dog &#x2013;! Cornelia!</p>
+</sp>
+<sp>
+<speaker>Cornelia.</speaker>
+<p>For alt i verden! Jeg r&#x00F8;rer mig ikke!</p>
+</sp>
+<sp>
+<speaker>Olde-mor.</speaker>
+<p>Gracchus!</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Ja, bedste-mor!</p>
+</sp>
+<sp>
+<speaker>Fru R&#x00F8;st.</speaker>
+<p>Nu blander den gamle sig i det. Jeg t&#x00E6;nkte det!</p>
+</sp>
+<sp>
+<speaker>Olde-mor.</speaker>
+<p>H&#x00F8;flighed er en pligt, som er f&#x00E6;lles for alle.</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Du har ret! <stage>(G&#x00E5;r mod baggrunnen; i det samme bankes p&#x00E5; udenfra.)</stage> V&#x00E6;r s&#x00E5; artig!</p>
+</sp>
+<stage>(D&#x00F8;ren &#x00E5;bnes; fru Falk tr&#x00E6;der in.)</stage>
+</div>
+<div type="uchapter" subtype="scene" n="2_4">
+<head type="sub">Fjerde m&#x00F8;de</head>
+<sp>
+<speaker>Fru R&#x00F8;st.</speaker>
+<p>Der er hun!</p>
+</sp>
+<sp>
+<speaker>R&#x00F8;st.</speaker>
+<p>Men s&#x00E5; v&#x00E6;r rolig!</p>
+</sp>
+<sp>
+<speaker>Fru R&#x00F8;st.</speaker>
+<p>Vil du ikke nu heller &#x2013;?</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Undskyld; det er biskoppen?</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Jo, frue! &#x2013; Jeg har den &#x00E6;re at se &#x2013;?</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Fru Falk.</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>M&#x00E5; jeg forestille min s&#x00F8;ster? &#x2013; Hr. justitiarius R&#x00F8;st; &#x2013; fru R&#x00F8;st, &#x2013; og her &#x2013;</p>
+</sp>
+<stage>(De g&#x00E5;r fremover.)</stage>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Fru &#x00AB;olde-mor&#x00BB;, kan jeg t&#x00E6;nke?</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Jo. &#x2013; M&#x00E5; jeg forestille fru Falk for dig, bedstemor?</p>
+</sp>
+<sp>
+<speaker>Olde-mor</speaker>
+<stage>(rejser sig).</stage>
+<p>Det gl&#x00E6;der mig at se Dem, frue.</p>
+</sp>
+<sp>
+<speaker>Fru R&#x00F8;st og Cornelia.</speaker>
+<p>Hvad siger hun?</p>
+</sp>
+<sp>
+<speaker>Olde-mor.</speaker>
+<p>Som sl&#x00E6;gtens &#x00E6;ldste &#x2013; den eneste fortjeneste, jeg har &#x2013; &#x00F8;nsker jeg Dem velkommen.</p>
+</sp>
+<sp>
+<speaker>Fru Falk</speaker>
+<stage>(studser, kn&#x00E6;ler og kysser hennes h&#x00E5;nd).</stage>
+</sp>
+<sp>
+<speaker>Fru R&#x00F8;st.</speaker>
+<p>Nej, du gode &#x2013;!</p>
+</sp>
+<sp>
+<speaker>Cornelia.</speaker>
+<p>N&#x00E5;!</p>
+</sp>
+<sp>
+<speaker>Fru R&#x00F8;st.</speaker>
+<p>Lad os komme herfra!</p>
+</sp>
+<sp>
+<speaker>R&#x00F8;st</speaker>
+<stage>(sagte).</stage>
+<p>&#x00D8;nsker Deres h&#x00F8;j&#x00E6;rv&#x00E6;rdighed &#x2013;?</p>
+</sp>
+<sp>
+<speaker>Biskoppen</speaker>
+<stage>(liges&#x00E5;).</stage>
+<p>Tak! Nu m&#x00E5; jeg s&#x00E5; alligevel til!</p>
+</sp>
+<sp>
+<speaker>R&#x00F8;st.</speaker>
+<p>Alts&#x00E5;: god morgen!</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Hj&#x00E6;rtelig tak b&#x00E5;de for bes&#x00F8;get og Deres &#x00E5;bne henvendelse til mig selv.</p>
+</sp>
+<sp>
+<speaker>Fru R&#x00F8;st.</speaker>
+<p>Det er vor vis, Deres h&#x00F8;j&#x00E6;rv&#x00E6;rdighed. God morgen!</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<stage>(da man vil tage afsked med henne).</stage>
+<p>Jeg f&#x00F8;lger ud.</p>
+</sp>
+<sp>
+<speaker>R&#x00F8;st</speaker>
+<stage>(til olde-mor).</stage>
+<p>Bestandig lige god helbred, frue!</p>
+</sp>
+<sp>
+<speaker>Fru R&#x00F8;st.</speaker>
+<p>Lev vel, frue! Nej, umag Dem ikke p&#x00E5; ny. De har jo nylig overanstr&#x00E6;ngt Dem.</p>
+</sp>
+<sp>
+<speaker>Olde-mor.</speaker>
+<p>I lige m&#x00E5;de.</p>
+</sp>
+<sp>
+<speaker>Begge.</speaker>
+<p>I lige &#x2013;?</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Hun har t&#x00E6;nkt, De sagde: lev vel &#x2013; eller lignende.</p>
+</sp>
+<sp>
+<speaker>Begge.</speaker>
+<p>N&#x00E5; s&#x00E5;ledes!</p>
+</sp>
+<stage>(Ler. Derp&#x00E5; med stort alvor tavs kompliment for fru Falk. De f&#x00F8;lges ud af Cornelia og biskoppen; den sidste vender om halv-vejs.)</stage>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Vil De behage at tage plads?</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Deres h&#x00F8;j&#x00E6;rv&#x00E6;rdighed har i dag sendt mig et brev. <stage>(Hun venter forg&#x00E6;ves p&#x00E5; et svar fra biskoppen.)</stage> Deri lader De mig p&#x00E5; en h&#x00F8;flig m&#x00E5;de forst&#x00E5;, at Deres familje ikke kan omg&#x00E5;s mig.</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Jeg t&#x00E6;nkte, frue, at De selv ikke &#x00F8;nskede nogen omgang nu som f&#x00F8;r.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>I virkeligheden vil dette sige, at jeg skal give de to unge min ejendom og selv drives bort.</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Denne udl&#x00E6;ggelse er Deres egen, frue.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Deres bror-s&#x00F8;n har vist sagt Dem, at min ejendom ikke er stor nok til at ern&#x00E6;re en familje her og mig et annet sted.</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Sant nok. Men kan ejendommen ikke s&#x00E6;lges?</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>&#x2013; Og vi alle drage bort, mener Deres h&#x00F8;j&#x00E6;rv&#x00E6;rdighed? Jo; men det er f&#x00F8;rst nu at ejendommen skal blive til noget; nu kommer jo ogs&#x00E5; j&#x00E6;rn-banen. &#x2013; Og s&#x00E5; er den gammel i familjen.</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Den er meget vakker.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Vi har f&#x00E5;t den k&#x00E6;r.</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Det g&#x00F8;r mig ondt, at sagen stiller sig s&#x00E5;ledes.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>S&#x00E5; skulde det m&#x00E5;ske f&#x00E5; lidt inflydelse p&#x00E5; Deres h&#x00F8;j&#x00E6;rv&#x00E6;rdigheds bestemmelse?</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Min bestemmelse, frue, t&#x00F8;r intet hensyn tage til Deres ejendom.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Har jeg i disse otte &#x00E5;r forn&#x00E6;rmet Dem? Eller nogen her?</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Frue, De v&#x00E9;d selv, at De ikke har det.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Eller m&#x00E5;ske har jeg opdraget min s&#x00F8;ster-datter s&#x00E5;ledes, at jeg af den grun &#x2013;?</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Deres s&#x00F8;ster-datter g&#x00F8;r Dem &#x00E6;re, frue.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>M&#x00E5;ske er det da mine folk, som har klaget over mig? eller nogen over dem?</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Bedste frue, ingen, selv den skarpeste, kan sige annet, enn at De i dette forhold har v&#x00E6;ret m&#x00F8;nsterv&#x00E6;rdig.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Hvad er det s&#x00E5;?</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>De kan n&#x00E6;ppe ville, at jeg til en dame &#x2013;</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Jeg skal hj&#x00E6;lpe Dem. Det er min fortid.</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Siden De selv siger det, &#x2013; ja.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Finnes der intet, som kan forsone en fortid, som De for &#x00F8;vrigt ikke k&#x00E6;nner?</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Jeg har ikke set Dem s&#x00F8;ge nogen forsoning med den, frue.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>De mener, at De ikke har set mig til skrifte eller i kirke?</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Ja, frue.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Vil De, jeg skal s&#x00F8;ge forsoning ved at lyve?</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Nej; men alene denne vej er den sikre.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Der er andre; jeg har valgt arbejdets og pligtens.</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Jeg sagde: den alene sikre vej, frue. &#x2013; Deres beskytter ikke mod fristelser.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>S&#x00E5; er det noget bestemt, De t&#x00E6;nker p&#x00E5;? &#x2013; Skal jeg hj&#x00E6;lpe Dem &#x00E9;n gang til? General Rosen.</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Netop, frue.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Jeg burde fj&#x00E6;rne ham?</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Ja.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Men s&#x00E5; var det ogs&#x00E5; forbi med ham. Og der er meget dygtigt ved general Rosen.</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Jeg hverken t&#x00F8;r eller vil blande mig i forhold, jeg ikke k&#x00E6;nner; men alene et grunf&#x00E6;stet rygte kan tage p&#x00E5; sig at redde en mand som general Rosen.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>De har vist ret.</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>De betaler en for h&#x00F8;j pris, frue, og er dog ikke sikker p&#x00E5; at opn&#x00E5; noget.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Nej. Men der er &#x00E9;n ting til, og den har De glemt.</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Og det er?</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Barmhj&#x00E6;rtigheden.</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Ja-s&#x00E5;. &#x2013; Ja. &#x2013; N&#x00E5;r De tar det fra den side, har jo jeg intet at sige.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>De tror det ikke?</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Jeg vilde meget &#x00F8;nske, at det berode p&#x00E5;, hvad <hi rend="italic">jeg</hi> her tror. Det g&#x00F8;r det ikke, frue.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Men De m&#x00E5; inr&#x00F8;mme, at man b&#x00F8;r g&#x00F8;re godt selv med fare for sit eget rygte.</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Uden tvil.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Se, det vilde jeg vende mod Dem, Deres h&#x00F8;j&#x00E6;rv&#x00E6;rdighed! Det er muligt, De forel&#x00F8;big tabte noget af menighedens sikre tro p&#x00E5; Dem ved at hilse p&#x00E5; mig; men nu v&#x00E9;d De af min egen mun, at hint rygte er falsk, og at De tv&#x00E6;rtom b&#x00F8;r st&#x00F8;tte mig i det, som jeg her pr&#x00F8;ver at g&#x00F8;re. Og s&#x00E5; g&#x00F8;r De en god g&#x00E6;rning mod de to unge og mod mig ved ikke at st&#x00F8;de mig bort. Jeg har nu i nogle &#x00E5;r bare levet for andre. Det g&#x00F8;res ikke uden offer, Deres h&#x00F8;j&#x00E6;rv&#x00E6;rdighed, is&#x00E6;r n&#x00E5;r man som jeg slet ikke ennu har afsluttet sit liv.</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>De er selve ungdommen, frue!</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Det just ikke; &#x2013; men uden kamp har det ikke g&#x00E5;t. Og nu vilde jeg have lidt l&#x00F8;n for det. Hvem &#x00F8;nsker ikke det? Jeg vilde f&#x00E5; leve sammen med dem, jeg har ofret mig for; jeg vilde f&#x00E5; se deres lykke og g&#x00F8;re den til min. Ber&#x00F8;v mig ikke det, Deres h&#x00F8;j&#x00E6;rv&#x00E6;rdighed. Ti det beror p&#x00E5; Dem!</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Jeg kan ikke godt forst&#x00E5;, at det skulde bero p&#x00E5; mig.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Det beror p&#x00E5; Dem; ti for den pris, at jeg skulde holdes udenfor, tager min pleje-datter aldrig Deres brors&#x00F8;n.</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Det skulde g&#x00F8;re mig ondt, frue.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Jeg skyndte mig hid, f&#x00F8;r hun fik vide noget. Jeg tog brevet med. Tag det tilbage, Deres h&#x00F8;j&#x00E6;rv&#x00E6;rdighed!</p>
+</sp>
+<stage>(S&#x00F8;ger det.)</stage>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Hvad er det, frue?</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Brevet! &#x2013; Jeg lagde det p&#x00E5; pulten for at tage det til mig, n&#x00E5;r jeg var kl&#x00E6;dt, &#x2026; og i min hast og h&#x00E6;ftighed &#x2013; har jeg glemt det! Nu skriver &#x00C5;g&#x00E5;t regninger ud ved den samme pult. Om hun ser Deres h&#x00E5;ndskrift? Hun aner straks noget. Ti vi har jo hver dag ventet Dem.</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>S&#x00E5; er der vel intet at g&#x00F8;re ved det?</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Jo. N&#x00E5;r hun nu kommer her &#x2013; ti hun forst&#x00E5;r alt og kommer straks &#x2013; kunde da ikke Deres h&#x00F8;j&#x00E6;rv&#x00E6;rdighed selv m&#x00F8;de henne og sige: &#x2013;</p>
+</sp>
+<stage>(Stanser.)</stage>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Og sige &#x2013;?</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Jeg har taget fejl. Et menneske skal d&#x00F8;mmes ikke efter hvad det har fejlet, men efter hvad det har n&#x00E5;t; ikke efter dets tro, men efter dets vilje til godt og sant. Dette vil jeg l&#x00E6;re min menighed ved p&#x00E5; f&#x00F8;rste s&#x00F8;ndag at bes&#x00F8;ge Deres pleje-mor. <stage>(Hun ser olde-mors deltagelse, griber hennes h&#x00E5;nd og vender sig.)</stage> Hun, som er &#x00E6;rv&#x00E6;rdig, ber ogs&#x00E5; for mig. Hun er fra en tid, som var tolerantere enn vor, i alle fall enn vi er i vor lille afkrog. Hennes lange livs visdom samler sig i dette ord: v&#x00E6;r overb&#x00E6;rende!</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Der er et slags overb&#x00E6;renhed, frue, som ikke er os tilladt; det er den, der udsletter forsk&#x00E6;llen mellem godt og ondt. Den tolerance viste bedste-mors tid; men den er ikke efterlignelses-v&#x00E6;rdig.</p>
+</sp>
+<sp>
+<speaker>Fru Falk</speaker>
+<stage>(g&#x00E5;r fra olde-mor).</stage>
+<p>Om jeg har fejlet, om jeg er ringe for Deres h&#x00F8;je livs-syn, husk, De tjener en, som var synderes ven.</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Det vil jeg ogs&#x00E5; v&#x00E6;re, n&#x00E5;r De kommer for at s&#x00F8;ge Deres sj&#x00E6;ls frelse; jeg skal da g&#x00F8;re alt.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Hj&#x00E6;lp mig at forsone min fortid! Det er for mig alt. For Dem er det ikke meget. Jeg forlanger bare lidt h&#x00F8;flighed, ingen kr&#x00E6;nkelse! Jeg skal l&#x00E6;mpe det, s&#x00E5; vi sj&#x00E6;lden ser hverandre. Bare ikke s&#x00E6;t mig udenfor; ti det er at overgive mig til foragt. Tro mig: De skal ingen skam have af mig, og de to unges taknemmelighed vil l&#x00F8;nne Deres gode g&#x00E6;rning.</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Det g&#x00F8;r mig meget ondt at st&#x00E5; s&#x00E5;ledes for Dem. Ti De m&#x00E5; tro, at jeg er h&#x00E5;rd. Det er omvendt. P&#x00E5; mit sinn ligger tuseners &#x00E6;ngstelige samvittighed. Jeg t&#x00F8;r ikke for min k&#x00E6;re bror-s&#x00F8;ns skyld kr&#x00E6;nke hines agtelsesfulle tillid eller vor f&#x00E6;lles lov. Det er allerede meget, at jeg i en s&#x00E5; st&#x00E6;rk kirkelig bev&#x00E6;gelse som vor nu &#x2013; &#x00E5;bner biskoppens hus for Deres pleje-datter; jeg kan ikke, jeg t&#x00F8;r ikke ogs&#x00E5; &#x00E5;bne det for en kvinne, som den hele menighed, om ogs&#x00E5; med urette, &#x2026; ja, frue, jeg skal ikke s&#x00E5;re Dem.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Virkelig!</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>V&#x00E6;r vis p&#x00E5;, det g&#x00F8;r mig ondt. Jeg har personlig f&#x00E5;t et udm&#x00E6;rket intryk af Dem.</p>
+</sp>
+<sp>
+<speaker>Olde-mor</speaker>
+<stage>(har imidlertid rejst sig og begynt at g&#x00E5;).</stage>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>De vil g&#x00E5;?</p>
+</sp>
+<stage>(Biskoppen iler hen og ringer p&#x00E5; en klokke-str&#x00E6;ng.)</stage>
+<sp>
+<speaker>Olde-mor.</speaker>
+<p>Ja; &#x2013; jeg er for gammel til kamp. &#x2013; Og efter hvad jeg nu har h&#x00F8;rt &#x2013; har vist heller ikke jeg nogen ret til at sidde her.</p>
+</sp>
+<stage>(Cornelia kommer, modtager henne og g&#x00E5;r med henne ud i baggrunnen.)</stage>
+<sp>
+<speaker>Fru Falk</speaker>
+<stage>(frem).</stage>
+<p>Nu kan jeg sige Dem det: Deres h&#x00F8;j&#x00E6;rv&#x00E6;rdighed er ikke modig. &#x00C5;syn til &#x00E5;syn med mig f&#x00F8;ler De, hvad De b&#x00F8;r g&#x00F8;re; men De t&#x00F8;r ikke.</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>De er en dame, &#x2013; og jeg tier.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Fordi jeg er en dame, har De i dag sagt mig ting, som De ikke vilde have sagt &#x2013; f. eks. general Rosen, en mand, som trods sin fortid &#x2013; og sin nutid &#x2013; kommer i hr. biskoppens hus.</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Han skal for fremtiden ikke komme hid. For &#x00F8;vrigt lar det sig ikke n&#x00E6;gte, at her er forsk&#x00E6;l.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Vist er her forsk&#x00E6;l; men jeg t&#x00E6;nkte ikke, den gik i <hi rend="italic">den</hi> retning. Ej heller, at De, hr. biskop, var sat til at beskytte den st&#x00E6;rkere, men den svagere, ikke den &#x00E5;benbare last, men den uretf&#x00E6;rdig anklagede.</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Tror De, vi med nytte kan forts&#x00E6;tte denne samtale?</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t</speaker>
+<stage>(&#x00E5;bner d&#x00F8;ren i baggrunnen, og st&#x00E5;ende i d&#x00F8;ren roper hun).</stage>
+<p>Tante!</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>&#x00C5;g&#x00E5;t! Gud!</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t</speaker>
+<stage>(kommende).</stage>
+<p>Tante!</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Du v&#x00E9;d &#x2013;? <stage>(&#x00C5;g&#x00E5;t kaster sig til hennes bryst.)</stage> Mit barn!</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>Jeg sk&#x00F8;nte, du nu var her, &#x00E5; Gud!</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Styr dig nu, mit barn!</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>Nej, det kan jeg ikke. Dette er for meget.</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>&#x00D8;nsker damerne at v&#x00E6;re alene?</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>Hvor er Hagbart?</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Han er g&#x00E5;t en tur.</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>&#x00C5;, det koger og bruser! S&#x00E5; det var for denne pris, jeg skulde komme i familjen, ved at s&#x00E6;lge min plejemor, henne, som jeg elsker og agter h&#x00F8;jest af alle i verden.</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Skal vi forts&#x00E6;tte, frue, eller &#x2013;?</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>Forts&#x00E6;tte? Hvad? Underhandlingen om salg af min pleje-mor? Nej, om jeg skulde f&#x00E5; komme i himmerige, jeg gik ikke did uden henne!</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Barn! Barn!</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>Ja, jeg m&#x00E5; f&#x00E5; tale; min sj&#x00E6;l m&#x00E5; f&#x00E5; drage &#x00E5;nde. Men dette er min sj&#x00E6;l, at jeg holder fast, hvad jeg elsker, med alle mine kr&#x00E6;fter, med mit liv.</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>De er ung og bruger den unges overfl&#x00F8;dige sprog. Men jeg t&#x00E6;nker, vi heller afbryder denne samtale; den f&#x00F8;rer s&#x00E5; alligevel til intet.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Lad os g&#x00E5;!</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>Hagbart!</p>
+</sp>
+<stage>(Hun s&#x00E5; ham f&#x00F8;r de andre i d&#x00F8;ren til h&#x00F8;jre.)</stage>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Jeg h&#x00F8;rte din stemme helt ud! Fru Falk &#x2013;!</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>Hagbart! <stage>(Iler opover; men da han skynder sig imod henne, viger hun.)</stage> Nej, r&#x00F8;r mig ikke!</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Men, &#x00C5;g&#x00E5;t &#x2013;?</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>Hvorfor har du ikke magtet at hindre dette? Du har ikke engang talt til mig om det!</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Fordi jeg virkelig ikke vidste det.</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>S&#x00E5;dant v&#x00E9;d man, om der ikke siges et ord. Men det har ikke ligget dig p&#x00E5; hj&#x00E6;rte! &#x2013; Vidste du det ikke nu?</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Jo; men &#x2013;</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>Og s&#x00E5; kom du ikke styrtende til os!</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Det er sant &#x2026; jeg &#x2026;</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>Du er borte i helt andre ting. Og jeg, som ene har levet for dette, for at f&#x00E5; alt forsonet! Det trode jeg var gjort ved dig.</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Du er uretf&#x00E6;rdig, &#x00C5;g&#x00E5;t! Ti hvad kan jeg for &#x2013;?</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>Nej, du lever i dr&#x00F8;mme. Men det m&#x00E5; du da f&#x00F8;le, at min h&#x00E6;der ikke kan blive tantes skam, &#x2013; at det er det umuligste p&#x00E5; jorden.</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Ja, ja! Men beh&#x00F8;ver det at v&#x00E6;re s&#x00E5;? Jeg flytter til eder og &#x2013;</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>Ja, det kan enhver stymper g&#x00F8;re.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Men, &#x00C5;g&#x00E5;t!</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>Ja, min sj&#x00E6;l er s&#x00E5;ret, skuffet, kr&#x00E6;nket. Jeg m&#x00E5; skrige det ud! Ti det er ikke f&#x00F8;rst i dag, og det er ikke bare dette.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Nej, det kan jeg forst&#x00E5;. Men hvad er det? Du s&#x00E5;rer hans k&#x00E6;rlighed.</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>Hans k&#x00E6;rlighed!</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Du er aldeles ude af dig selv! Du taler over dig!</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>Nej, jeg <hi rend="italic">taler</hi> bare engang!</p>
+</sp>
+<sp>
+<speaker>Fru Falk</speaker>
+<stage>(hen til henne, sagte).</stage>
+<p>Vrede ord! Du, som har byttet sj&#x00E6;l med ham i stille og dybe timer; du, som har f&#x00F8;lt hans trofaste, rene vilje! Han er jo som ingen annen, &#x00C5;g&#x00E5;t! &#x2013;</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t</speaker>
+<stage>(fra henne).</stage>
+<p>Hold op! Hold op! Du ser ingen ting!</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Du er rent vild, barn! Din opf&#x00F8;rsel begynner at blive til skam.</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>Nej, da er hans til st&#x00F8;rre skam. Ti det er jo ikke mig, han elsker.</p>
+</sp>
+<stage>(Skriger, flyr hen og g&#x00E6;mmer sig.)</stage>
+<sp>
+<speaker>Biskoppen</speaker>
+<stage>(til Hagbart, sagte).</stage>
+<p>S&#x00E5; h&#x00E5;ber jeg, du tar bort p&#x00E5; nogle dager.</p>
+</sp>
+<sp>
+<speaker>Hagbart</speaker>
+<stage>(liges&#x00E5;).</stage>
+<p>Ja.</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Kom!</p>
+</sp>
+<stage>(Hagbart f&#x00F8;lger in til venstre.)</stage>
+</div>
+<div type="uchapter" subtype="scene" n="2_5">
+<head type="sub">Femte m&#x00F8;de</head>
+<note type="footnote">Femte] <hi rend="italic">rettet fra:</hi> Sjette <hi rend="italic">(trykkfeil)</hi></note>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t</speaker>
+<stage>(kommer frem).</stage>
+<p>Kan du tilgive mig?</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Lad os ta&#x0027; hjem!</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>Men sig mig et godt ord!</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Nej.</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>Jo, du kommer ikke f&#x00F8;r afsted.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Jeg kan ikke.</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>Tante, jeg er ikke skinsyg p&#x00E5; dig.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Ti! &#x2013;</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>Men lad mig f&#x00E5; komme bort p&#x00E5; nogle dager, &#x2013; lad mig blive klar p&#x00E5; mig selv! <stage>(Gr&#x00E6;der.)</stage> &#x00C5;, Gud, tante! elsker du ham? <stage>(Fru Falk vil rive sig l&#x00F8;s.)</stage> Jeg elsker ham ikke mere! Ved Gud, tante, elsker du ham, s&#x00E5; tag ham!</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Men s&#x00E5; ti dog i det mindste p&#x00E5; dette fremmede sted! &#x2013; Vil du ikke blive med, s&#x00E5; tar jeg hjem alene.</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>S&#x00E5; kommer jeg aldrig efter.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Du er aldeles vild!</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>Ja; uden at din stemme er mild, og dit &#x00E5;syn er godt, kan jeg ikke leve. Gud velsigne dig, tante, nu og alle tider!</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Barn!</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>S&#x00E5;!</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Lad os s&#x00E5; ta&#x0027; hjem!</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>Ja.</p>
+</sp>
+<stage><p rend="center">T&#x00E6;ppet faller.</p></stage>
+</div>
+</div>
+<div type="chapter" subtype="act" n="3">
+
+<head type="main">TREDJE HANDLING</head>
+<stage><p rend="center">I haven hos fru Falk. Der er et lyst-hus til venstre med bord og stoler. En st&#x00F8;rre kurv halv-fylt med &#x00E6;bler st&#x00E5;r p&#x00E5; bordet.</p></stage>
+<div type="uchapter" subtype="scene" n="3_1">
+<head type="sub">F&#x00F8;rste m&#x00F8;de</head>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Ja, n&#x00E5;r der intet brug er for hesterne, Pedersen, s&#x00E5; m&#x00E5; vi hente fr&#x00F8;kenen. Kan det ske i dag?</p>
+</sp>
+<sp>
+<speaker>Pedersen.</speaker>
+<p>Det kan det.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Send s&#x00E5; lige godt straks Hans og to hester til s&#x00E6;teren efter henne. Det er ogs&#x00E5; for koldt for henne deroppe nu.</p>
+</sp>
+<sp>
+<speaker>Pedersen.</speaker>
+<p>Det skal ske.</p>
+</sp>
+<stage>(Vil g&#x00E5;.)</stage>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Nu, Pedersen? hvorledes g&#x00E5;r det Dem s&#x00E5;?</p>
+</sp>
+<sp>
+<speaker>Pedersen.</speaker>
+<p>&#x00C5; &#x2013;!</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Kom til mig i kv&#x00E6;ld, s&#x00E5; skal vi fors&#x00F8;ge at optage vore samtaler igen.</p>
+</sp>
+<sp>
+<speaker>Pedersen.</speaker>
+<p>Det har jeg l&#x00E6;nge tr&#x00E6;ngt til, frue.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Ja, jeg har p&#x00E5; en otte-ti dagers tid ikke rigtig kunnet.</p>
+</sp>
+<sp>
+<speaker>Pedersen.</speaker>
+<p>Det har vi alle set, at noget har fejlet fruen.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Enhver har sit.</p>
+</sp>
+<stage>(Pedersen venter; men da fruen blir ved varsomt at plukke &#x00E6;bler af et ungt tr&#x00E6; og at l&#x00E6;gge dem i en liden kurv, hun b&#x00E6;rer, s&#x00E5; g&#x00E5;r han til venstre.)</stage>
+</div>
+<div type="uchapter" subtype="scene" n="3_2">
+<head type="sub">Annet m&#x00F8;de</head>
+<sp>
+<speaker>Hagbart</speaker>
+<stage>(fra h&#x00F8;jre, st&#x00E5;r en stund uden at ses).</stage>
+<p>Frue!</p>
+</sp>
+<sp>
+<speaker>Fru Falk</speaker>
+<stage>(giver et let skrig).</stage>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Jeg ber om forladelse! Jeg s&#x00F8;gte Dem overalt. God dag, frue! Jeg kom tilbage i dette &#x00F8;jeblik.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>&#x00C5;g&#x00E5;t er ikke hjemme.</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Jeg v&#x00E9;d det. Har hun v&#x00E6;ret borte den hele tid?</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Ja.</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Blir hun l&#x00E6;nge borte?</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Jeg sender hester op i dag. S&#x00E5; er hun vel her i overmorgen.</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Det var Dem, jeg m&#x00E5;tte tale med, frue.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Om &#x00C5;g&#x00E5;t?</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Ogs&#x00E5; om &#x00C5;g&#x00E5;t.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>De kunde ikke vente med det &#x2013; til en annen gang?</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Frue, jeg kommer lige fra damp-skibet hid. Og da sk&#x00F8;nner De selv &#x2013;</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Men n&#x00E5;r det ang&#x00E5;r &#x00C5;g&#x00E5;t, og hun ikke er &#x2013;</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Det om &#x00C5;g&#x00E5;t er snart sagt: Hun havde ret; jeg vidste det bare ikke den gang &#x2013;</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>&#x2013; Gud! &#x2013;</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Jeg elsker ikke &#x00C5;g&#x00E5;t.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Men om nu &#x00C5;g&#x00E5;t elsker Dem?</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Det viste hun mig sidst, at hun ikke g&#x00F8;r. Til Dem m&#x00E5; hun have sagt det lige ud?</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>&#x00C5;g&#x00E5;t var &#x2013; hvad skal jeg kalle det? &#x2013; for opr&#x00F8;rt til at st&#x00E5; til troende.</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Alts&#x00E5; har hun sagt det. Det kunde jeg t&#x00E6;nke. Ja, det var jeg vis p&#x00E5;. &#x2013;</p><p>&#x00C5;g&#x00E5;t elsker ikke mig; men <hi rend="italic">Dem</hi> elsker hun, frue. Hun vil Deres lykke.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Dersom De ikke elsker &#x00C5;g&#x00E5;t, s&#x00E5; synes mig, at De ikke burde v&#x00E6;re kommen hid.</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Det kunde De have ret i. Men jeg er ikke den samme, som kom her f&#x00F8;r; jeg kommer heller ikke for det samme.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Elsker De ikke &#x00C5;g&#x00E5;t, s&#x00E5; t&#x00F8;r De ikke v&#x00E6;re her; jeg m&#x00E5; gentage det. Det hensyn skylder De b&#x00E5;de henne og mig.</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Jeg forsikrer, at de st&#x00F8;rste hensyn, som gives, netop har f&#x00F8;rt mig hid, hvor jeg nu st&#x00E5;r.</p>
+</sp>
+<sp>
+<speaker>Fru Falk</speaker>
+<stage>(som hidintil har fors&#x00F8;gt at blive ved ved tr&#x00E6;et).</stage>
+<p>S&#x00E5; g&#x00E5;r <hi rend="italic">jeg.</hi></p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Det g&#x00F8;r De ikke!</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Jeg k&#x00E6;nner Dem ikke igen!</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Gud ske lov! Ti jeg har ikke megen &#x00E6;rb&#x00F8;dighed for den, jeg f&#x00F8;r var. Mange kan g&#x00F8;re s&#x00E5;dant i en h&#x00E5;ndevending; men jeg har beh&#x00F8;vet tid for at f&#x00E5; alle mine skibe opsejlede i &#x00E9;n linje.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Jeg forst&#x00E5;r Dem ikke.</p>
+</sp>
+<sp>
+<speaker>Hagbart</speaker>
+<stage>(ennu mens hun taler, og ganske n&#x00E6;r).</stage>
+<p>De forst&#x00E5;r mig!</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Dette er synd! Tag Dem i agt!</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Deres h&#x00E5;nd sk&#x00E6;lver &#x2013;</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Det er ikke sant!</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>&#x00AB;V&#x00E6;k ikke d&#x00E6;monerne!&#x00BB; hedder det. Det er un&#x00F8;dig tale. Ti d&#x00E6;monerne er vore livskr&#x00E6;fter.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Men de skal styres. Dette er mit livs dyre l&#x00E6;re, og jeg slipper den ikke.</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Dersom jeg ikke trode, at jeg var styret hid af sanhedens egen magt, s&#x00E5; stod jeg her ikke. Jeg har haft et langt arbejde. Jeg har m&#x00E5;ttet l&#x00F8;se l&#x00E6;nke for l&#x00E6;nke, at kr&#x00E6;fterne skulde f&#x00E5; svulme, samle sig og st&#x00E6;vne frem. Her er de, &#x2013; og nu skal vi tilsammen videre.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Det kunde v&#x00E6;re sket uden dette.</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Jeg elsker Dem! Det er Dem, jeg har elsket i henne &#x2013; fra f&#x00F8;rste dag. Jeg elsker Dem.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>S&#x00E5; hav &#x00E6;rb&#x00F8;dighed for mig! &#x2013; G&#x00E5;!</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Leonarda!</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Nej, nej, nej! <stage>(Flygter.)</stage> &#x00C5;, hvorfor er dette kommet!</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Skridt for skridt er det kommet. Modstanden, denne barske ven, har drevet os. &#x00C5;, bliv lykkelig, som jeg er det nu!</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Jeg fortjener ikke lykke. Jeg har ikke ventet p&#x00E5; den.</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Jeg v&#x00E9;d ikke, hvad De alt har gennemg&#x00E5;t for at blive, som De nu er, &#x2013; s&#x00E5; sk&#x00F8;n, s&#x00E5; god, s&#x00E5; san.</p><p>Men det v&#x00E9;d jeg, at havde de andre ikke d&#x00F8;mt Dem for, hvad De har fejlet, s&#x00E5; havde jeg ikke elsket Dem for, hvad De har n&#x00E5;t. Og det t&#x00E6;nkte jeg gav mig &#x00E6;re hos Dem.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Evig tak! &#x2013; Men menneskene har imod s&#x00E5;dant. De har imod, at en ung mand bejler til en &#x00E6;ldre kvinne, og n&#x00E5;r &#x2013;</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Menneskene har jeg dog aldrig spurt, ikke engang, da jeg var som st&#x00E6;rkest bunden. Og nu sp&#x00F8;r jeg Dem, bare Dem!</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Og jeg svarer: Den enkelte kan trives uden menneskenes sympati, ikke et forhold. Den kolde vind, der g&#x00E5;r, tr&#x00E6;nger snart imellem.</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>N&#x00E5;r De svarer mig, f&#x00F8;ler jeg det, jeg selv siger, s&#x00E5; stift, s&#x00E5; h&#x00F8;jtideligt, &#x2013; s&#x00E5; kejtet. Men jeg m&#x00E5; blive ved, som jeg nu engang er. K&#x00E6;re, gode, fra det &#x00F8;jeblik jeg fullt ud f&#x00F8;lte, at det var Dem, jeg elskede, blev der bare &#x00E9;t stort; &#x2013; alt annet forsvant. Jeg fatter derfor ikke, hvad De siger. Tror De, man vil arbejde p&#x00E5; at f&#x00E5; mig tr&#x00E6;t? At man kan opn&#x00E5; det?</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Ikke nu, men siden. Der kommer en tid &#x2013;</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>&#x2013; ja, en arbejdets, en udviklingens tid! Den er jo kommen. Det er for dens skyld, jeg st&#x00E5;r her. M&#x00E5;ske kommer ogs&#x00E5; en kampens, &#x2013; Gud give det! &#x2013; Er det <hi rend="italic">da,</hi> at hensynene skal f&#x00E5; r&#x00E5;de? Nej. De er fri, og jeg er fri; i vor vilje har vi vor fremtid.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Og s&#x00E5; er jeg imidlertid bleven gammel &#x2013;</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>&#x2013; De &#x2013;! &#x2013;</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>&#x2013; og skinsyg og besv&#x00E6;rlig, &#x2013; men De ung blandt de unge, glad blandt de glade! &#x2013;</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>De har mere ungdom enn jeg. Forvandlings-rige! Som De er det i &#x00F8;jeblikket, vil De blive det i livet, &#x2013; altid ny. Enhver alder vil overgyde Dem med en annen sk&#x00F8;nhed, en &#x00E5;ndigere kraft. Tror De, jeg har fattet Dem halvt, eller at jeg elsker Dem halvt? Det er f&#x00F8;rst og fremst hos flammen i din sj&#x00E6;l, at jeg vil sidde. Sanhedsmagten har draget mig til dig. Du uudgrunnelige, jeg vil i et helt liv ikke blive f&#x00E6;rdig med dig.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Dette er som stundum om v&#x00E5;ren. Luften lokker ud og beruser; men den kan v&#x00E6;re d&#x00F8;delig.</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Du elsker mig! Jeg vidste det, f&#x00F8;r jeg kom hid i dag. Jeg s&#x00E5; det, straks jeg stod her. K&#x00E6;rligheden er dit livs luft; jeg har aldrig set det s&#x00E5;ledes hos noget annet menneske. Derfor m&#x00E5; jo de skuffelser, du har gennemg&#x00E5;t, de savn, du har f&#x00F8;lt, have v&#x00E6;ret gr&#x00E6;nsel&#x00F8;se. Og n&#x00E5;r s&#x00E5; k&#x00E6;rligheden bydes dig, &#x00E6;gte og hel, s&#x00E5; sk&#x00E6;lver du &#x2013;!</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Nej, dette er en forst&#x00E5;else, som jeg t&#x00E6;nkte umulig! Den gennemildner alle evner; den &#x2013;</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>&#x2013; Men har jeg ikke haft den, bestandig vi har talt sammen?</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Jo.</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Er den s&#x00E5; ikke mit vidne, at vi to &#x2013;?</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Jo; det er sant! Jeg kan ikke g&#x00E6;mme mig for dig.</p>
+</sp>
+<stage>(Brister i gr&#x00E5;d.)</stage>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Men hvorfor denne angst &#x2013;?</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Jeg v&#x00E9;d ikke! Den er dagers, den er v&#x00E5;gne n&#x00E6;tters!</p>
+</sp>
+<stage>(Gr&#x00E6;der fremdeles.)</stage>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Men det, du har n&#x00E6;vnt, er jo intet. Det kan passe andre, men ikke os, andres forhold, men ikke vort.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Det var i angsten og p&#x00E5; flugten, jeg n&#x00E6;vnte det. Jeg kastede, hvad jeg f&#x00F8;rst fant, for at stanse dig. Men det er ikke dette, &#x2013; &#x00E5; Gud!</p>
+</sp>
+<stage>(Hun synker sammen.)</stage>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Leonarda!</p>
+</sp>
+<stage>(Iler til.)</stage>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Nej, kom ikke! Lad mig v&#x00E6;re!</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Du bugner under det, og du t&#x00F8;r ikke alligevel?</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Hagbart, der er noget i dette, som ikke er ret &#x2013;</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>&#x2013; I m&#x00E5;den, hvorp&#x00E5; det er kommet? At &#x00C5;g&#x00E5;t ledede mig in til dig? T&#x00E6;nk dig om, og du vil se, at det kunde ikke v&#x00E6;re annerledes.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Det er ikke ord, som afg&#x00F8;r s&#x00E5;dant. Jeg m&#x00E5; se &#x00C5;g&#x00E5;t; jeg m&#x00E5; tale med &#x00C5;g&#x00E5;t.</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Det har du jo gjort! Du v&#x00E9;d det, at det er du, som elsker, og ikke hun; det er dig, jeg elsker, og ikke henne. Hvad er det, du mere vil?</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Jeg vil f&#x00E5; tid. Jeg vil ikke tabe styret over mig selv. Jeg har tilk&#x00E6;mpet mig det i &#x00E5;rs forsagelse og opofrelse. Det var min stolthed. Men det vil ikke lyde mig, n&#x00E5;r du taler. Hvert ord af din sj&#x00E6;l suger min i sig. Er der lykke p&#x00E5; jorden, s&#x00E5; er det at tages, tanke for tanke, over i en uendelig forst&#x00E5;else. Men der f&#x00F8;lger en angst med, &#x2013; hos mig i det mindste. Nej, svar mig ikke! Du har for megen magt; ti jeg elsker dig, elsker som den, der har trot, at det h&#x00F8;jeste ikke var til, ikke muligt for mig, &#x2013; og nu bryder det inover mig i den dybeste fred som forr&#x00E6;deri mod mit barn.</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Men det er det jo ikke!</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Jeg v&#x00E9;d det ikke; lad mig f&#x00E5; tid!</p><p>Jeg har angst. Svundne timer komme frem i denne angst. Og der er mere i den. Jeg &#x00E6;ngstes for det gr&#x00E6;nsel&#x00F8;se i min egen k&#x00E6;rlighed til dig. Jeg kunde drage dig ned med i en hvirvel! &#x2013; Nej, svar mig ikke! R&#x00F8;r mig ikke! &#x2013; &#x2013; Hagbart, elsker du mig?</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Og du sp&#x00F8;r? &#x2013;</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>S&#x00E5; hj&#x00E6;lp mig! &#x2013; G&#x00E5;! &#x2013; V&#x00E6;r sk&#x00F8;n! Lad mig f&#x00E5; k&#x00E6;nne denne sejr i min sj&#x00E6;l og se dig i dens lys! Andre tr&#x00E6;nger kanske ikke til det. Men jeg tr&#x00E6;nger til det. &#x2013; G&#x00E5;!</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Leonarda!</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Vent, til der kommer bud. Det kan ikke vare l&#x00E6;nge. Tag stille, hvad som kommer, husk: jeg elsker dig! Nej, sig intet! Jeg har ikke mod og kraft til mere. <stage>(Hvisker.)</stage> G&#x00E5;! <stage>(Han g&#x00E5;r.)</stage> Hagbart! <stage>(Han stanser.)</stage> Det, du har sagt mig i dag, er det h&#x00F8;jeste, jeg har levet. Men at du nu g&#x00E5;r tavs bort, er mere enn alt, du har sagt.</p>
+</sp>
+<stage>(Han g&#x00E5;r.)</stage>
+</div>
+<div type="uchapter" subtype="scene" n="3_3">
+<head type="sub">Tredje m&#x00F8;de</head>
+<sp>
+<speaker>Fru Falk</speaker>
+<stage>(st&#x00E5;r en stund i stor henrykkelse, g&#x00E5;r, st&#x00E5;r. Med &#x00E9;n gang roper hun).</stage>
+<p>&#x00C5;g&#x00E5;t!</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t</speaker>
+<stage>(udenfor).</stage>
+<p>Er du der?</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Men, barn! <stage>(Ud, kommer in igen med henne i favnen.)</stage> Har du g&#x00E5;t?</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>Hele vejen! <stage>(Hun holder sin hat i h&#x00E5;nden, er solbr&#x00E6;nt og varm og har m&#x00E6;rker efter at have g&#x00E5;t en lang fodtur; p&#x00E5; ryggen har hun en ransel, som hun l&#x00E6;gger af.)</stage> Jeg har vasket mig i en b&#x00E6;k i dag og gjort toilet ellers ogs&#x00E5;.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Har du g&#x00E5;t i nat?</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>Nej, jeg l&#x00E5; en stund p&#x00E5; Opsal; men jeg var ude ved solgang. Gud, hvor det var sk&#x00F8;nt! &#x2013;</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Og jeg, som netop har ladet lage i stand for at hente dig.</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>N&#x00E5;; s&#x00E5; kan de hente mit t&#x00F8;j. For jeg kunde ikke vente l&#x00E6;nger.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Du ser s&#x00E5; godt ud.</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>&#x00C5;, det er, fordi jeg er s&#x00E5; sol-br&#x00E6;nt, det.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Ja, du har det da godt &#x2013; nu!</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>Udm&#x00E6;rket, tante! For nu er det over altsammen. Jeg har f&#x00E5;t brev fra olde-mor.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Var det fra henne, det brev, jeg sendte op? Jeg kunde ikke begribe, fra hvem det var.</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>Jo, det var fra henne. Her er det. Du m&#x00E5; h&#x00F8;re.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Ja.</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t</speaker>
+<stage>(l&#x00E6;ser).</stage>
+<p>&#x00AB;K&#x00E6;re barn!
+<lb/>Jeg har ikke skrevet p&#x00E5; mange &#x00E5;r, s&#x00E5; det blir derefter. Men Hagbart er borte, s&#x00E5; jeg m&#x00E5; sige dig det selv. V&#x00E6;r ikke l&#x00E6;nger bedr&#x00F8;vet. N&#x00E5;r I gifter eder, flytter jeg til eder.&#x00BB; &#x2013; Er det ikke magel&#x00F8;st, tante?</p>
+</sp>
+<stage>(Sitrer af fryd og kaster sig om halsen af henne.)</stage>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Men &#x2013;!</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>Men? S&#x00E5; gives der ikke noget men mere da, sk&#x00F8;nner du! Ti dette g&#x00E6;lder jo dig.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Mig? &#x2013; Ja, men &#x2026; <hi rend="italic">du?</hi> Hvorledes har du det? &#x2013; med Hagbart?</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>&#x00C5;, det? &#x2013; Ja, nu skal jeg fort&#x00E6;lle dig det, hvorledes det egentlig gik til. For nu kan jeg g&#x00F8;re det. &#x2013; Nej, tag det ikke s&#x00E5; alvorlig, tante! Det er jo ikke noget. Men lad os s&#x00E6;tte os! <stage>(Flytter stolen tilrette, mens hun taler.)</stage> Jeg tr&#x00E6;nger virkelig ogs&#x00E5; til at sidde lidt. &#x2013; Ser du, det kom som et uventet overfall, &#x2013; ligesom bagfra. Nej, k&#x00E6;re tante, v&#x00E6;r ikke s&#x00E5; bekymret! Her st&#x00E5;r ingenting p&#x00E5; l&#x00E6;nger. Det kom virkelig af en komedie</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Af en komedie?</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>Vi s&#x00E5; sammen i de dager, vi to, kan du huske: &#x00AB;N&#x00E5;r damer f&#x00F8;rer krig&#x00BB; af Scribe.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Ja.</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>Og s&#x00E5; t&#x00E6;nkte jeg, ja, jeg sa&#x0027; det vist ogs&#x00E5;: Han er dog i grunnen dum, den Henri. Han har valg mellem en st&#x00E6;rk, sk&#x00F8;n, ildfull kvinne, der kunde give sit liv for ham, &#x2013; og et barn, som i grunnen er dumt, for det er hun, det nytter ikke at n&#x00E6;gte det, tante, &#x2013; og s&#x00E5; v&#x00E6;lger han denne lille ubetydelige person. Det er alene, fordi han selv er ubetydelig. &#x2013; Nej, jeg m&#x00E5; sidde ned, jeg hviler bedre da. <stage>(Lader sig glide helt ned, hvilende armen p&#x00E5; fru Falks fang.)</stage> &#x00C5;, det var godt! Og nu slipper du for at se mig i ansigtet oftere, enn jeg selv vil, for du tar det altfor gruelig h&#x00F8;jtideligt, og nu kommer noget flovt. &#x2013; Med &#x00E9;n gang stod det nemlig for mig: Gud! Fruen, det er &#x2013;, og hun, den lille tingest med det kr&#x00F8;llede &#x00E5;r, er &#x2013;, og han? Men Hagbart er ikke ubetydelig, han havde valgt annerledes! Og jeg v&#x00E9;d ikke; men det slog mig i samme stund, at Hagbart lige fra f&#x00F8;rste dag havde talt med dig og bare med dig og n&#x00E6;sten slet ikke med mig, og <hi rend="italic">hvis</hi> han talte med mig, da om dig. Jeg blev i den grad hj&#x00E6;rte-s&#x00E5;r, at det var, som &#x00E9;n stak mig, og siden &#x2013; jeg skammer mig nu s&#x00E5; over det &#x2013; havde jeg ikke mere fred; der fulgte mig en stor smerte, v&#x00E5;gen og i dr&#x00F8;mme, og det ligesom sn&#x00F8;rede sig sammen om brystet, bare han talte til dig eller du til ham. Jeg skammer mig; ti hvad var naturligere, enn at han aldrig blev tr&#x00E6;t af at tale med dig! Jeg blir det jo ikke selv.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Men jeg v&#x00E9;d ennu ikke, &#x2026; jeg forst&#x00E5;r ennu ikke &#x2013;!</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>Vent nu! Nej, se ikke s&#x00E5; sp&#x00E6;nt p&#x00E5; mig! Det er jo forbi nu!</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Hvad er forbi?</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>Herre Gud, s&#x00E5; vent! Du, tante, er da ennu mere ut&#x00E5;lmodig enn jeg selv. Jeg vil, at du ikke skal tro mig v&#x00E6;rre, enn jeg er. Og derfor m&#x00E5; jeg f&#x00F8;rst fort&#x00E6;lle, at jeg k&#x00E6;mpede. Jeg l&#x00E5; og gr&#x00E6;d om natten, ti jeg kunde jo ikke tale med dig om det; jeg gjorde mig s&#x00E5; overgiven, munter og lykkelig om dagen, og s&#x00E5;, tante, s&#x00E5; sa&#x0027; jeg en dag fullt og helt til mig selv: Kan <hi rend="italic">det</hi> g&#x00F8;re dig ondt, at han elsker henne h&#x00F8;jere enn dig? Hvad er du mod henne? Og hvor herligt, om tante fant en, hun h&#x00F8;jt kunde elske, og som jeg havde f&#x00F8;rt til henne!</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Min herlige &#x00C5;g&#x00E5;t!</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>Ja, nu m&#x00E5; jeg ikke g&#x00F8;re mig <hi rend="italic">bedre,</hi> enn jeg er, heller. Ti det var ikke altid, jeg kunde sige det. Der var noget, der bestandig sk&#x00F8;d op igen, ligesom &#x2013; ja, ligesom en hulken. Men s&#x00E5; tog jeg mig alvorlig sammen og sa&#x0027; til mig selv: Om det ogs&#x00E5; er din egen lykke, du ofrer henne? Er det kanske for meget? Nej, og atter og evig, nej! Og n&#x00E5;r han ikke elsker mig mere! Skulde jeg da ikke kunne k&#x00E6;mpe det ned? Det vilde dog v&#x00E6;re fejgt ikke at kunne det! Jeg forsm&#x00E5;r en, som ikke elsker mig!</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>&#x00C5;g&#x00E5;t, jeg beundrer dig, jeg elsker dig, jeg er stolt af dig!</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>&#x00C5;, tante, jeg har aldrig f&#x00F8;lt som da, hvad du var for mig! Hvis jeg kunde g&#x00F8;re noget stort i livet, noget, som var rigtig godt eller rigtig vakkert, s&#x00E5; har du lagt det i mig; ti jeg gik da og sv&#x00E6;rmede for alt, jeg skulde finne p&#x00E5; for at lede dette frem; jeg vilde p&#x00E5;tage mig den ydmygste stilling, uden at I skulde fornemme et kny, et suk, &#x2026; og da stod du bestandig for mig! Ti det f&#x00F8;lte jeg, at du kunde g&#x00F8;re dette for mig! Ja, det har du jo i grunnen allerede gjort. Du rigtig lyste for mig, tante!</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>&#x00C5;g&#x00E5;t!</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>Men du ser ikke s&#x00E5; glad ud, som jeg nu er! Fatter du ennu ikke, hvorledes det gik til?</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Jo, men &#x2013; udgangen?</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>K&#x00E6;re, den k&#x00E6;nner du jo! Nej, det er sant! Det m&#x00E5; jeg jo ikke glemme at fort&#x00E6;lle, for ellers kan du jo ikke forst&#x00E5;, hvorfor jeg bar mig s&#x00E5; dumt ad hos bispen.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Nej.</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>I mine stolte sv&#x00E6;rmerier, ser du, om forsagelse for at g&#x00F8;re eder lykkelige &#x2013; kunde der komme p&#x00E5; mig, ja, et virkelig raseri mod Hagbart, fordi han ingenting sa&#x0027; til mig, &#x2026; eller rettere, ingenting forstod, &#x2026; han gik ligesom i dr&#x00F8;mme. Er det ikke underligt, at det ene s&#x00E5;ledes kan blande sig med det annet? Og det var st&#x00E6;rkere, enn jeg selv vidste af; &#x2013; ti da bispen vilde forkaste dig, det kom ogs&#x00E5; ligesom bagfra! &#x2013; da tabte jeg rent besinnelsen, fordi Hagbart ikke havde hindret dette i steden for at g&#x00E5; der og dr&#x00F8;mme; jeg v&#x00E9;d ikke, &#x2013; men &#x2013; ja, du s&#x00E5; selv, hvorledes det gik; det brast ud altsammen hulter til bulter, jeg var rigtig engang igen til gagns uartig og du sint, &#x2013; og s&#x00E5; blev vi venner igen, og jeg rejste, og s&#x00E5;, tante &#x2013;</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Og s&#x00E5; &#x2013;?</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>Ja, s&#x00E5; t&#x00E6;nkte jeg over! Alle de vakre ord om ham, som du gav mig med p&#x00E5; vejen, de vokste og vokste. Du blev igen selv s&#x00E5; stor, s&#x00E5; mild. Deroppe var ogs&#x00E5; rent vidunderligt! Nej, den luft, den klarhed, det over alle gr&#x00E6;nser store, du! Og vandet, n&#x00E6;sten altid stille, s&#x00E5; neds&#x00E6;nkt l&#x00E5; det; og der kunde v&#x00E6;re, is&#x00E6;r om kv&#x00E6;lden, &#x00E5;, hvor stille! Og s&#x00E5; lukkede det sig som et s&#x00E5;r.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p><hi rend="italic">Hvad</hi> lukkede sig?</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>Smerten, tante. Der var ingenting mer i vejen. Hagbart er jo, som du sa&#x0027;, s&#x00E5; &#x00E6;del, s&#x00E5; san. Og du selv, tante! I vilde ikke have gjort mig noget ondt, nogen af eder, nej, ikke engang ufrivillig. &#x00C5;, det var s&#x00E5; godt at k&#x00E6;nne det. Jeg hvilte mig i det mangen gang, til jeg sovnede, der jeg sad, &#x2013; s&#x00E5; lykkelig. Gud, hvor jeg elsker ham! &#x2013; og s&#x00E5; kom brevet fra olde-mor. &#x2013;</p>
+</sp>
+<sp>
+<speaker>Hans</speaker>
+<stage>(kommer s&#x00E5;ledes, at han ikke straks ser &#x00C5;g&#x00E5;t).</stage>
+<p>Fr&#x00F8;kenen skal v&#x00E6;re &#x2013; Der er De jo!</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t</speaker>
+<stage>(rejser sig).</stage>
+<p>Du virkelig skr&#x00E6;mte mig, Hans!</p>
+</sp>
+<sp>
+<speaker>Hans.</speaker>
+<p>Velkommen tilbage!</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>Tak.</p>
+</sp>
+<sp>
+<speaker>Hans.</speaker>
+<p>Ja, s&#x00E5; slipper jeg at rejse &#x2013;?</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>Ja da! Men der m&#x00E5; nogen op efter mit t&#x00F8;j.</p>
+</sp>
+<sp>
+<speaker>Hans.</speaker>
+<p>Naturligvis. Men hvad fejler fruen?</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>Tante? &#x2013; Gud, hvad er det?</p>
+</sp>
+<sp>
+<speaker>Hans.</speaker>
+<p>Fruen har i det sidste ikke v&#x00E6;ret frisk.</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>Ikke det? Men, tante! Skal jeg &#x2013;? Vil du &#x2013;? Tante! Men, tante!</p>
+</sp>
+<sp>
+<speaker>Hans.</speaker>
+<p>Skal jeg kanske hente &#x2013;</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Nej, nej! &#x2013; Men du, &#x00C5;g&#x00E5;t, vil du &#x2013; &#x2013; Gud! &#x2013; Vil du &#x2026; springe in &#x2013;</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>Dr&#x00E5;berne med den r&#x00F8;de etiket?</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Ja. <stage>(&#x00C5;g&#x00E5;t bort.)</stage> Hans, skynd dig hen til generalen, &#x2013; bed ham komme hid! Straks!</p>
+</sp>
+<sp>
+<speaker>Hans.</speaker>
+<p>Ja, frue!</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Hans!</p>
+</sp>
+<sp>
+<speaker>Hans.</speaker>
+<p>Ja!</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Tag hest! Generalen er kanske ikke hjemme, s&#x00E5; efter ham!</p>
+</sp>
+<sp>
+<speaker>Hans.</speaker>
+<p>Ja. <stage>(Ud.)</stage></p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>Her er det, tante!</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Tak. Nu er det over.</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>Men hvad er det, tante?</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Det er, mit barn, &#x2013; det er noget, som kommer undertiden i overgangen fra sommer til h&#x00F8;st.</p>
+</sp>
+<stage><p rend="center">T&#x00E6;ppet faller.</p></stage>
+<stage><p rend="center">Mellem tredje og fjerde handling kun nogle minutters ophold, som udfylles med musik, der begynner, f&#x00F8;r t&#x00E6;ppet er helt nede.</p></stage>
+</div>
+</div>
+<div type="chapter" subtype="act" n="4">
+<head type="main">FJERDE HANDLING</head>
+<stage><p rend="center">Hos biskoppen. Aften, og lys t&#x00E6;ndte.</p></stage>
+<div type="uchapter" subtype="scene" n="4_1">
+<head type="sub">F&#x00F8;rste m&#x00F8;de</head>
+<stage>Biskoppen og fru Falk, den sidste rejse-kl&#x00E6;dt med et sjal p&#x00E5; armen og en v&#x00E6;ske i h&#x00E5;nden, tr&#x00E6;der in. Biskoppen vil fri henne for det, som hun b&#x00E6;rer. Men hun l&#x00E6;gger det selv fra sig.</stage>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>De m&#x00E5; undskylde, hr. biskop, at jeg ulejliger Dem og det s&#x00E5; sent; det har en &#x00E5;rsag, som jeg ikke r&#x00E5;der over. &#x2013; Er Deres bror-s&#x00F8;n hjemme?</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Nej. Men jeg venter ham; han har s&#x00F8;gt mig to ganger i eftermiddag uden at tr&#x00E6;ffe mig.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Jeg vilde g&#x00E6;rne skynde mig, f&#x00F8;r han kom.</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Skal jeg alts&#x00E5; f&#x00E5; vide, n&#x00E5;r han kommer hjem?</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Ja, tak!</p>
+</sp>
+<sp>
+<speaker>Biskoppen</speaker>
+<stage>(ringer).</stage>
+<p>Hans olde-mor siger, han har v&#x00E6;ret hos Dem i dag lige efter sin hjemkomst.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Ja. &#x2013;</p>
+</sp>
+<sp>
+<speaker>Biskoppen</speaker>
+<stage>(til den intr&#x00E6;dende pige).</stage>
+<p>V&#x00E6;r s&#x00E5; god at l&#x00E6;gge m&#x00E6;rke til, n&#x00E5;r kandidaten kommer hjem, og lad mig f&#x00E5; vide det.</p>
+</sp>
+<stage>(Pigen g&#x00E5;r.)</stage>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Han har talt med sin olde-mor?</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Ja.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Efter at han &#x2013;?</p>
+</sp>
+<stage>(Stanser.)</stage>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Efter at han har v&#x00E6;ret hos Dem.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Har han sagt noget?</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Han har v&#x00E6;ret meget bev&#x00E6;get. Men jeg har ikke spurt olde-mor om mere. Jeg kan nemlig t&#x00E6;nke mig det; &#x2013; han har talt til Dem?</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Ja.</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Og De, frue?</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Jeg &#x2013;? Jeg er nu her.</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>For at rejse, om jeg forst&#x00E5;r rigtig?</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>For at rejse. Det blir nu, som De vil have det, hr. biskop.</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Og han skal ikke vide noget om det?</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Ingen &#x2013; uden den, som ledsager mig. Jeg g&#x00E5;r om bord i aften i det engelske damp-skib.</p>
+</sp>
+<sp>
+<speaker>Biskoppen</speaker>
+<stage>(ser p&#x00E5; sit ur).</stage>
+<p>Da har De ikke megen tid.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Jeg vilde ogs&#x00E5; bare betro i Deres h&#x00E6;nder, hr. biskop, et gave-brev p&#x00E5;, hvad jeg her ejer.</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Til Deres s&#x00F8;ster-datter?</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Til &#x00C5;g&#x00E5;t. Hun skal have alt.</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Men De sagde sidste gang, frue &#x2013;?</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Til rejsen har jeg altid nok. Jeg beh&#x00F8;ver senere intet. Jeg kan ern&#x00E6;re mig selv.</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Men &#x00C5;g&#x00E5;t, frue? Vil De ikke vente, til &#x00C5;g&#x00E5;t kommer hjem?</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>&#x00C5;g&#x00E5;t kom hjem i dag. Hun hviler nu. Men min v&#x00E5;gn er sendt tilbage for at hente henne hid &#x2013; straks. Er De da s&#x00E5; god at tage mod henne &#x2026; jeg vidste ingen annen &#x2026; og tr&#x00F8;ste henne &#x2013;!</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Det skal jeg, frue. &#x2013; Jeg forst&#x00E5;r, at dette m&#x00E5; koste p&#x00E5;.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Og vil De pr&#x00F8;ve &#x2026; at f&#x00E5; det godt igen mellem de to?</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Men de elsker jo ikke hverandre.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>&#x00C5;g&#x00E5;t elsker ham. Og da de begge elsker mig, s&#x00E5; t&#x00E6;nkte jeg, at n&#x00E5;r jeg f&#x00F8;rst var borte, &#x2013; og de vidste, at det var mit &#x00F8;nske, &#x2013; jeg t&#x00E6;nkte, at de fant hverandre i deres f&#x00E6;lles k&#x00E6;rlighed til mig. &#x2013; Jeg h&#x00E5;ber det. De er begge s&#x00E5; unge.</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Jeg skal g&#x00F8;re, hvad jeg kan, frue.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Tak! S&#x00E5; vilde jeg bede Dem venligt tillade, at olde-mor flyttede ud p&#x00E5; landet til &#x00C5;g&#x00E5;t, &#x2013; eller at &#x00C5;g&#x00E5;t flyttede hid in, ganske som begge vil, for at &#x00C5;g&#x00E5;t kunde f&#x00E5; den adspredelse at pleje olde-mor; ti hun holder af henne.</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Og olde-mor af henne.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Og der, hvor olde-mor var, derhen kom vel ogs&#x00E5; Hagbart. Den gamle vilde m&#x00E5;ske da hj&#x00E6;lpe dem.</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Jeg finner Deres forslag udm&#x00E6;rket, og jeg forbavses bare over, at De nu har tid og kraft til at t&#x00E6;nke alt dette ud.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Er olde-mor ennu oppe?</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Ja; jeg kommer just nu fra henne. Hagbart har sat henne i uro. Hun t&#x00E5;ler s&#x00E5; lidt.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>S&#x00E5; er det m&#x00E5;ske ikke v&#x00E6;rdt, at jeg siger henne farvel. Jeg havde ellers trang til det.</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Jeg t&#x00F8;r ikke tillade det.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Vil De da v&#x00E6;re s&#x00E5; god at hilse fra mig &#x2013; og takke!</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Det skal jeg.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Og bede henne &#x2013; hj&#x00E6;lpe &#x2013;!</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Jeg tager megen del med Dem, frue.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Tilgiv mig s&#x00E5;, Deres h&#x00F8;j&#x00E6;rv&#x00E6;rdighed, den forstyrrelse, jeg har bragt in her. Den var ufrivillig.</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Jeg beklager, frue, at jeg ikke f&#x00F8;r har l&#x00E6;rt Dem at k&#x00E6;nne. Da kunde meget nu have v&#x00E6;ret annerledes.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Derom skal vi nu ikke tale.</p>
+</sp>
+<sp>
+<speaker>Pigen</speaker>
+<stage>(kommer in).</stage>
+<p>Jeg skulde bringe dette kort til fruen.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Tak! &#x2013; Generalen er alts&#x00E5; i forstuen?</p>
+</sp>
+<sp>
+<speaker>Pigen.</speaker>
+<p>Ja.</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Er general Rosen her?</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Jeg har tilladt mig at bede ham hente mig her, n&#x00E5;r damp-skibet signaliserte.</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Bed generalen komme in! <stage>(Pigen g&#x00E5;r.)</stage> Det er alts&#x00E5; general Rosen, som &#x2013;</p>
+</sp>
+<stage>(Stanser.)</stage>
+<sp>
+<speaker>Fru Falk</speaker>
+<stage>(s&#x00F8;ger i sin v&#x00E6;ske).</stage>
+<p>&#x2013; skal ledsage mig. Han er min mand.</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Deres fraskilte mand.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Ja.</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>S&#x00E5; har jeg gjort Dem megen uret, frue.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>&#x00C5;-ja.</p>
+</sp>
+<sp>
+<speaker>Generalen</speaker>
+<stage>(kommer. Han er if&#x00F8;rt en elegant rejse-dragt og ser udm&#x00E6;rket ud).</stage>
+<p>Jeg ber Deres h&#x00F8;j&#x00E6;rv&#x00E6;rdighed tilgive; men tiden er inne. &#x2013; Frue, dette er Deres?</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Ja. &#x2013; Vil De s&#x00E5;, n&#x00E5;r &#x00C5;g&#x00E5;t kommer, hr. biskop, give henne dette? &#x2013; Og hj&#x00E6;lpe henne?</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Ja, frue. Gud v&#x00E6;re med Dem!</p>
+</sp>
+<sp>
+<speaker>Pigen</speaker>
+<stage>(in).</stage>
+<p>Kandidaten er kommen.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Farvel! &#x2013; Hils &#x2013;!</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Dette er vist mere, enn nogen af os kunde have gjort.</p>
+</sp>
+<sp>
+<speaker>Fru Falk.</speaker>
+<p>Det kommer bare an p&#x00E5;, hvor h&#x00F8;jt man elsker. Tak! Farvel!</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Farvel!</p>
+</sp>
+<stage>(Generalen byder &#x00E6;rb&#x00F8;dig armen; hun tager den; de g&#x00E5;r. Biskoppen f&#x00F8;lger.)</stage>
+</div>
+<div type="uchapter" subtype="scene" n="4_2">
+<head type="sub">Annet m&#x00F8;de</head>
+<sp>
+<speaker>Hagbart</speaker>
+<stage>(kommer fra h&#x00F8;jre, ser sig om, blir forundret, g&#x00E5;r mod baggrunnen, men m&#x00F8;der biskoppen i d&#x00F8;ren).</stage>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Er du der &#x2013;?</p>
+</sp>
+<stage>(Begge g&#x00E5;r tavse frem over.)</stage>
+<sp>
+<speaker>Hagbart</speaker>
+<stage>(i st&#x00E6;rk sinns-bev&#x00E6;gelse, men d&#x00E6;mpet).</stage>
+<p>Jeg h&#x00F8;rer det p&#x00E5; tonen, &#x2013; og jeg ser det p&#x00E5; dig, &#x2013; at du v&#x00E9;d det.</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Du tror, jeg har talt med din olde-mor?</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Ja.</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Det har jeg ogs&#x00E5;. Hun har intet egentligt sagt. Men jeg sk&#x00F8;nner det jo. Du v&#x00E9;d, jeg sk&#x00F8;nte det tidligere enn du selv.</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Det er sant. Jeg har k&#x00E6;mpet min kamp igennem.</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Det har du n&#x00E6;ppe, Hagbart.</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Ja, <hi rend="italic">du</hi> vil ikke sige s&#x00E5;; jeg v&#x00E9;d det. Men jeg kaller det mit livs afg&#x00F8;rende sejer. Jeg elsker fru Falk. Og hun elsker mig.</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Hvis du ikke var i s&#x00E5; stort opr&#x00F8;r &#x2013;</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Det er ikke opr&#x00F8;r, det er lykke. Men her hos dig, &#x2013; ja, jeg er ikke kommen for at bede om din velsignelse; det f&#x00E5;r g&#x00E5; uden den! Men jeg er kommen for at sige dig det; ti det er min pligt. &#x2013; G&#x00F8;r det dig s&#x00E5; ondt?</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Ja.</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Onkel, det kr&#x00E6;nker mig.</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Min s&#x00F8;n! &#x2013;</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Det kr&#x00E6;nker mig for hennes skyld og for min. S&#x00E5; k&#x00E6;nner du ingen af os.</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Skal vi s&#x00E6;tte os og tale sammen, Hagbart?</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Jeg ber dig ikke at fors&#x00F8;ge nogen overtalelse.</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>V&#x00E6;r rolig! Jeg &#x00E6;rer din f&#x00F8;lelse. Og jeg v&#x00E9;d nu, at hun er den v&#x00E6;rd.</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Hvad siger du?</p>
+</sp>
+<stage>(De s&#x00E6;tter sig.)</stage>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Min k&#x00E6;re Hagbart, lad mig straks bek&#x00E6;nne det: Ogs&#x00E5; jeg har haft mine oplevelser siden sidst her. Og de har l&#x00E6;rt mig, at jeg var ikke i min ret mod fru Falk.</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Er det muligt?</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Jeg har d&#x00F8;mt henne b&#x00E5;de for tidlig og for str&#x00E6;ngt. Det er en sk&#x00F8;de-synd, vi har. Og jeg har taget for meget hensyn til mennesker, har haft for lidt af den k&#x00E6;rlighed, som skulde give mod til at g&#x00F8;re godt. Hun, som jeg t&#x00E6;nkte underlegen, hun har l&#x00E6;rt mig det.</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Du v&#x00E9;d ikke, hvor du ved disse ord g&#x00F8;r mig taknemmelig &#x2013; og lykkelig!</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Jeg vil sige mere. Derved, at vi var uretf&#x00E6;rdige mod henne, forledede vi i sin tid dig, som ennda trode p&#x00E5; os, til ogs&#x00E5; at v&#x00E6;re uretf&#x00E6;rdig mod henne og p&#x00E5; ungdommens vis v&#x00E6;re det st&#x00E6;rkere enn vi. Dette skabte et tilbageslag i dig, som f&#x00F8;rte til k&#x00E6;rlighed. Var k&#x00E6;rligheden en synd, s&#x00E5; havde vi skyld i den.</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Men den er synd!</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Nej. Men at du f&#x00F8;lte, vi vilde tage den for synd, opr&#x00F8;rte din retf&#x00E6;rdigheds-f&#x00F8;lelse og &#x00F8;gede din k&#x00E6;rlighed. Du er en &#x00E6;del natur.</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Gud, hvor jeg skal elske dig efter dette, onkel!</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Derfor har jeg sat mig ned hos dig, Hagbart, for at bede dig om forladelse. Og henne! Og ogs&#x00E5; den menighed, som jeg skal lede, men som jeg ikke stolte nok p&#x00E5;. Ti ogs&#x00E5; i den er de gode de fleste; de var komne med, havde jeg haft mod til at g&#x00E5; foran.</p>
+</sp>
+<sp>
+<speaker>Hagbart</speaker>
+<stage>(p&#x00E5; kn&#x00E6;).</stage>
+<p>Jeg &#x00E6;rer dig som ingensinne, og som aldrig nogen har &#x00E6;ret dig!</p>
+</sp>
+<sp>
+<speaker>Biskoppen</speaker>
+<stage>(har rejst sig).</stage>
+<p>Kom, Hagbart!</p>
+</sp>
+<sp>
+<speaker>Hagbart</speaker>
+<stage>(rejser sig og kaster sig til ham).</stage>
+<p>Onkel!</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Har du k&#x00E6;rlighed st&#x00E6;rk nok til at t&#x00E5;le &#x2013;</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>&#x00C5;, alt!</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Ti undertiden f&#x00E5;r vi den, for at den skal l&#x00E6;re os at ofre.</p>
+</sp>
+<sp>
+<speaker>Olde-mor</speaker>
+<stage>(in).</stage>
+<p>Jeg h&#x00F8;rte Hagbarts r&#x00F8;st!</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Olde-mor! <stage>(B&#x00E5;de han og biskoppen op imod henne.)</stage> Oldemor! Gud i himlen, hvor jeg er lykkelig!</p>
+</sp>
+<stage>(Han tar hennes ene arm.)</stage>
+<sp>
+<speaker>Olde-mor.</speaker>
+<p>Er det sant?</p>
+</sp>
+<sp>
+<speaker>Biskoppen</speaker>
+<stage>(som tar hennes annen arm).</stage>
+<p>Du skulde ikke g&#x00E5; alene.</p>
+</sp>
+<sp>
+<speaker>Olde-mor.</speaker>
+<p>Jeg h&#x00F8;rte Hagbarts r&#x00F8;st; &#x2013; den var s&#x00E5; st&#x00E6;rk, og s&#x00E5; t&#x00E6;nkte jeg: der st&#x00E5;r noget p&#x00E5;.</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Og s&#x00E5; er det bare godt! Onkel samtykker, onkel er stor, onkel g&#x00F8;r alt, alt godt igen &#x2013; og mere til! Gud, &#x2013; olde-mor, at du skal v&#x00E6;re s&#x00E5; gammel! Jeg havde lyst til at ta&#x0027; og b&#x00E6;re dig, springe rundt med dig.</p>
+</sp>
+<sp>
+<speaker>Olde-mor.</speaker>
+<p>Nej, det m&#x00E5; du nok lade v&#x00E6;re. <stage>(Bringes til s&#x00E6;de.)</stage> &#x2013; Nu &#x2013;? Hvad s&#x00E5; mere?</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Hvad s&#x00E5; mere? Nej, jeg v&#x00E9;d ikke mere! Der er ikke mere!</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Jo, Hagbart, der er mere.</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Du siger det s&#x00E5; alvorlig? &#x2013; Du <hi rend="italic">er</hi> s&#x00E5; alvorlig ja, bev&#x00E6;get &#x2013;? Onkel!</p>
+</sp>
+<stage>(En v&#x00E5;gn h&#x00F8;res komme.)</stage>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Vent lidt, min s&#x00F8;n. Vent lidt!</p>
+</sp>
+<stage>(G&#x00E5;r ud af hoved-d&#x00F8;ren.)</stage>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>K&#x00E6;re olde-mor, hvad kan det v&#x00E6;re?</p>
+</sp>
+<sp>
+<speaker>Olde-mor.</speaker>
+<p>Jeg v&#x00E9;d ikke. &#x2013; Men lykken er ofte s&#x00E5; kort.</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Lykken s&#x00E5; kort? Hvad er det? Gud, olde-mor, pin mig ikke!</p>
+</sp>
+<sp>
+<speaker>Olde-mor.</speaker>
+<p>Jeg forsikrer dig, jeg v&#x00E9;d intet. &#x2013; Bare &#x2013;</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>&#x2013; Bare &#x2013; Hvilket? &#x2013;</p>
+</sp>
+<sp>
+<speaker>Olde-mor.</speaker>
+<p>&#x2013; At din onkel var hos mig, da fru Falk blev meldt.</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Fru Falk? Har fru Falk v&#x00E6;ret her? Nu?</p>
+</sp>
+<sp>
+<speaker>Olde-mor.</speaker>
+<p>Netop.</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>S&#x00E5; m&#x00E5; noget st&#x00E5; p&#x00E5;! Kanske det var henne, som onkel &#x2013; <stage>(Styrter opover; d&#x00F8;ren &#x00E5;bnes; bispen tr&#x00E6;der in med &#x00C5;g&#x00E5;t under armen.)</stage> &#x00C5;g&#x00E5;t!</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t.</speaker>
+<p>Hagbart! &#x2013; <stage>(Angst.)</stage> Er tante ikke her?</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<stage>(som har fulgt efter biskoppen og &#x00C5;g&#x00E5;t in).</stage>
+<p>Men, bedste-mor!</p>
+</sp>
+<stage>(G&#x00E5;r hen til henne.)</stage>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>K&#x00E6;re &#x00C5;g&#x00E5;t, Deres pleje-mor har p&#x00E5;lagt mig at give Dem dette brev.</p>
+</sp>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>Et brev &#x2013;?</p>
+</sp>
+<sp>
+<speaker>Olde-mor.</speaker>
+<p>Hvad er det? Lad mig se!</p>
+</sp>
+<stage>(Hennes stol blir af Cornelia draget halvt om mod de andre.)</stage>
+<sp>
+<speaker>Hagbart.</speaker>
+<p>L&#x00E6;s h&#x00F8;jt, &#x00C5;g&#x00E5;t!</p>
+</sp>
+<sp>
+<speaker>&#x00C5;g&#x00E5;t</speaker>
+<stage>(l&#x00E6;ser).</stage>
+<p>&#x00AB;Dyrebare! N&#x00E5;r du modtager dette brev, er jeg &#x2013; rejst. Jeg elsker den, som du &#x2013;&#x00BB;</p>
+</sp>
+<stage>(Giver et stort skrig og faller. Biskoppen tar mod henne.)</stage>
+<sp>
+<speaker>Olde-mor.</speaker>
+<p>Hun er rejst?</p>
+</sp>
+<sp>
+<speaker>Cornelia.</speaker>
+<p>Hun elsker den, som &#x2013;? &#x2013; Gud, se Hagbart!</p>
+</sp>
+<sp>
+<speaker>Biskoppen.</speaker>
+<p>Cornelia! <stage>(Denne iler til biskoppen; de l&#x00E6;gger begge &#x00C5;g&#x00E5;t ned. Cornelia st&#x00E5;r hos. Biskoppen vender sig.)</stage> Hagbart! <stage>(Denne styrter til hans bryst.)</stage> Mod! Mod! min s&#x00F8;n!</p>
+</sp>
+<stage>(Stilt.)</stage>
+<sp>
+<speaker>Olde-mor</speaker>
+<stage>(rejser sig).</stage>
+<p>S&#x00E5; de store f&#x00F8;lelsers tid er vendt tilbage!</p>
+</sp>
+<stage><p rend="center">T&#x00E6;ppet faller langsomt.</p></stage>
+</div>
+</div>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,929 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../NSL_ebooks_epub.xsl"?>
+<!DOCTYPE TEI PUBLIC "-// TEI P5 //EN" "http://www.tei-c.org/release/xml/tei/custom/schema/dtd/tei_all.dtd">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Kjerulf">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Halfdan Kjerulf: <title rend="italic">Dagbok 1852</title>
+<lb/>Utgitt ved Margrethe St&#x00F8;kken Bue
+<lb/>NB kilder 5:5 Nasjonalbiblioteket/bokselskap.no, Oslo 2018
+<lb/>ISBN: 978-82-7965-396-7 (digital utgave, bokselskap.no), <lb/>978-82-7965-394-3 (epub), 978-82-7965-395-0 (mobi)
+</title>
+</titleStmt>
+<publicationStmt>
+<p>Publiseres som digital tekst av Nasjonalbiblioteket/bokselskap.no</p>
+</publicationStmt>
+<sourceDesc>
+<p>Transkribert ved Nasjonalbiblioteket 2018.</p>
+</sourceDesc>
+</fileDesc>
+<revisionDesc>
+<change who="ENW" when="2018-12-27">Noen f&#x00E5; rettelser, klar for publisering.</change>
+<change who="ENW" when="2018-12-18">Justert koding noe. Lagt inn tittelside og ISBN. Entiteter, kodekontroll og validering.</change>
+<change who="MSB" when="2018-12-17">Koding og redigering ferdig.</change>
+</revisionDesc>
+</teiHeader>
+<text xml:id="HKD_1852" type="diary">
+<front>
+<titlePage type="main">
+<byline><docAuthor>Halfdan Kjerulf</docAuthor></byline>
+<docTitle>
+<titlePart type="main">Dagbok 1852</titlePart>
+<lb/><titlePart type="sub">Utgitt ved Margrethe St&#x00F8;kken Bue</titlePart>
+</docTitle>
+<lb/><docDate>NB kilder 5:5<lb/>Nasjonalbiblioteket/bokselskap.no<lb/>Oslo 2018</docDate>
+</titlePage>
+<div xml:id="contents">
+<list type="contents_main">
+<item><ref target="chapter_01" xml:id="contents_01">Innledning</ref></item>
+<item><ref target="chapter_02" xml:id="contents_02">Prinsipper for utvalg og transkripsjon</ref></item>
+<item><ref target="chapter_03" xml:id="contents_03">&#x005B;almanakksider&#x005D;</ref></item>
+<item><ref target="chapter_04" xml:id="contents_04">&#x005B;elevoversikt&#x005D;</ref></item>
+<item><ref target="chapter_1" xml:id="contents_1">Januar</ref></item>
+<item><ref target="chapter_2" xml:id="contents_2">Februar</ref></item>
+<item><ref target="chapter_3" xml:id="contents_3">Marts</ref></item>
+<item><ref target="chapter_4" xml:id="contents_4">April</ref></item>
+<item><ref target="chapter_5" xml:id="contents_5">Mai</ref></item>
+<item><ref target="chapter_6" xml:id="contents_6">Juni</ref></item>
+<item><ref target="chapter_7" xml:id="contents_7">Juli</ref></item>
+<item><ref target="chapter_8" xml:id="contents_8">August</ref></item>
+<item><ref target="chapter_9" xml:id="contents_9">September</ref></item>
+<item><ref target="chapter_10" xml:id="contents_10">Oktober</ref></item>
+<item><ref target="chapter_11" xml:id="contents_11">November</ref></item>
+<item><ref target="chapter_12" xml:id="contents_12">December</ref></item>
+<item><ref target="chapter_13" xml:id="contents_13">Jan 1853</ref></item>
+<item><ref target="chapter_14" xml:id="contents_14">&#x005B;solens deklinasjoner&#x005D;</ref></item>
+<item><ref target="chapter_15" xml:id="contents_15">&#x005B;&#x00F8;konomi&#x005D;</ref></item>
+<item><ref target="chapter_16" xml:id="contents_16">&#x005B;svenske grensemarkeder&#x005D;</ref></item>
+<item><ref target="chapter_17" xml:id="contents_17">&#x005B;regnskap&#x005D;</ref></item>
+</list>
+</div>
+</front>
+<body>
+<div type="chapter">
+<head type="main"><ref type="contents" target="contents_01" xml:id="chapter_01">Innledning</ref></head>
+<div type="uchapter">
+<head type="sub">Norsk komponist av internasjonalt format</head>
+<p>Halfdan Kjerulf, f&#x00F8;dt 17. september 1815, var den f&#x00F8;rste store, norske komponisten, men ogs&#x00E5; den f&#x00F8;rste norske komponisten av internasjonalt format. Han hadde stor betydning for Rikard Nordraak, Edvard Grieg og andre komponister utover p&#x00E5; 1800-tallet som bygde videre p&#x00E5; det Kjerulf grunnla. Flere av hans verker ble gitt ut i Tyskland, og de ble framf&#x00F8;rt i Sverige, Danmark og Frankrike.</p>
+<p>Studier og opphold bl.a. i K&#x00F8;benhavn, Leipzig og Paris ga ham kjennskap til europeiske str&#x00F8;mninger i kunst og musikk, men norsk folkemusikk inspirerte ham ogs&#x00E5;. Kjerulf kombinerte nasjonale og europeiske elementer i sine komposisjoner, bl.a. arrangerte han norsk folkemusikk for klaver. Han skapte den norske romansen og det norske romantiske, lyriske klaverstykket, og han la grunnlaget for mannskorsangen i Norge. Sanger som &#x00AB;Syng, syng nattergal du&#x00BB;, &#x00AB;Brudef&#x00E6;rden i Hardanger&#x00BB;, &#x00AB;Synn&#x00F8;ves sang&#x00BB; og &#x00AB;Ingrids vise&#x00BB; er velkjente for mange.</p>
+<p>Kjerulf virket ved siden av komponeringen som dirigent, klaverl&#x00E6;rer, redakt&#x00F8;r, journalist og musikk-kritiker i Christiania. Bl.a. var han den f&#x00F8;rste dirigenten til Den norske Studentersangforening, og Agathe Backer Gr&#x00F8;ndahl tok klavertimer hos ham. Hans virksomhet som journalist, flittig brevskriver og dagbokforfatter gir innblikk i hans liv og samtid.</p>
+<p>I dagb&#x00F8;kene skrev Kjerulf om at han var &#x00AB;haardt plaget af Hoste&#x00BB;. Han led av tuberkulose i mange &#x00E5;r, og d&#x00F8;de i en alder av 52 &#x00E5;r den 11. august 1868.</p>
+</div>
+<div type="uchapter">
+<head type="sub">Dagboka fra 1852 (<ref type="external" target="https://urn.nb.no/URN:NBN:no-nb_digimanus_197922">Ms 8&#x00B0; 3103:2</ref>)</head>
+<p>Etter studieopphold i Leipzig 1850-51, er Halfdan Kjerulf i 1852 tilbake i sitt vante liv i Christiania. Han underviser i piano, spiller i ulike sammenhenger, jobber med sin mannskvartett og tidvis med Studentersangforeningen. I motsetning til i tidligere dagb&#x00F8;ker, f&#x00E5;r vi her noe mindre innsyn i hans liv. Dagboken fra 1852 er lagt opp med flere lister, det er mindre av den dagbokprosaen vi kjenner fra tidligere. I denne dagboken er notatsidene delt inn i to eller flere separate felter, som inneholder lister over elever, regnestykker og hendelser enten punktvis eller som kortprosa. Kun noen f&#x00E5; steder lar Kjerulf oss ta del i hendelser, meninger og skarpe betraktninger i l&#x00F8;pende prosa. At han fortsatt har mange og sterke meninger kommer likevel godt frem. Vi har valgt &#x00E5; beholde Kjerulfs oppsett i transkripsjonen. Dette medf&#x00F8;rer at en del datoer gjentas og dukker opp p&#x00E5; &#x00AB;unaturlige&#x00BB; steder i teksten. Regnstykker gjengis som faksimiler.
+</p>
+</div>
+<div type="uchapter">
+<head type="sub">Om utgivelsesprosjektet</head>
+<p>Nasjonalbiblioteket &#x00F8;nsker &#x00E5; utgi Halfdan Kjerulfs dagb&#x00F8;ker og reisejournaler i sin helhet som nedlastbare e-b&#x00F8;ker i serien NB kilder. Dagb&#x00F8;kene gir et unikt innsyn i Halfdan Kjerulfs liv og Christianias og Norges musikkliv og kulturhistorie. Reisejournalene gir oss dertil unike innblikk i europeisk kunst, kultur og historie.</p>
+<p>Planen er &#x00E5; utgi alle Halfdan Kjerulfs dagb&#x00F8;ker i Nasjonalbibliotekets eie. Dagb&#x00F8;kene for 1833, 1840 og 1850 ble utgitt i 2015, og de andre dagb&#x00F8;kene er planlagt utgitt kronologisk de n&#x00E6;rmeste &#x00E5;rene. Fordi det er til dels store sprang i tid mellom de bevarte dagb&#x00F8;kene blir de utgitt hver for seg i kronologisk rekkef&#x00F8;lge.</p>
+<p>Deler av dagb&#x00F8;kene har tidligere blitt publisert. Wladimir Moe utga i 1917 dagboka fra 1833 og utdrag fra dagb&#x00F8;kene 1840 og 1850. I 1990 ble dagb&#x00F8;kene fra 1833, 1840, 1850 og 1851 utgitt av Nils Grinde, &#x00D8;yvind Norheim og B&#x00F8;rre Qvamme.</p>
+<p>Utgangspunktet for den aktuelle utgivelsen er Nils Grindes transkripsjoner gjort i perioden 1988&#x2013;2009. Vi har v&#x00E6;rt s&#x00E5; heldige &#x00E5; f&#x00E5; bruke disse transkripsjonene som grunnlag for v&#x00E5;r utgivelse, og transkripsjonene har blitt redigert slik at de samsvarer med de generelle prinsippene som ligger til grunn for utgivelser i NB kilder. Grinde skrev ut forkortelser, endret i tegnsetting og rettet skrivefeil. I denne utgaven i NB kilder er derimot Kjerulfs egen skrivem&#x00E5;te beholdt. Prinsippene for utgivelsen av dagb&#x00F8;kene er beskrevet n&#x00F8;yere her: &#x00AB;Prinsipper for utvalg og transkripsjon&#x00BB;.</p>
+<p>Dagboken for 1852 er tilrettelagt ved utgiver Margrethe St&#x00F8;kken Bue. Elin Pr&#x00F8;ysen og B&#x00F8;rge Nordb&#x00F8; har lest korrektur.</p>
+<p>Utgiver vil s&#x00E6;rlig takke Mette Refslund Witting for r&#x00E5;d i edisjonsfilologiske sp&#x00F8;rsm&#x00E5;l. En stor takk til redakt&#x00F8;r i Bokselskap.no, Ellen Nessheim Wiger, som har bist&#x00E5;tt med gode r&#x00E5;d og stor t&#x00E5;lmodighet.</p>
+</div>
+<div type="uchapter">
+<head type="sub">Om materialet og redigeringen</head>
+<p>I Nasjonalbiblioteket er det bevart 19 dagb&#x00F8;ker, men man regner med at det ogs&#x00E5; har eksistert dagb&#x00F8;ker for de &#x00E5;rene som mangler, til sammen 17 stykker. &#x00C5;rene de bevarte dagb&#x00F8;kene dekker er: 1851, 1852, 1854, 1856, 1857, 1859, 1860, 1862, 1863, 1864&#x2013;65, 1866&#x2013;67, 1868. I tillegg er det reisejournaler fra &#x00E5;rene 1860, 1865 og 1867. Dagb&#x00F8;kene og reisejournalene er fordelt p&#x00E5; 17 hele b&#x00F8;ker, ett sett med l&#x00F8;sblad (1833) og en del av en dagbok (1840). To av dagb&#x00F8;kene g&#x00E5;r over to kalender&#x00E5;r (1864&#x2013;65 og 1866&#x2013;67). Dagb&#x00F8;kene og reisejournalene ble gitt som gaver til Nasjonalbiblioteket (dengang Universitetsbiblioteket) i tre omganger: Dagb&#x00F8;kene fra 1833, 1840 og 1850 ble gitt av Carl Kjerulf i 1929, dagb&#x00F8;kene fra perioden 1851&#x2013;1868 av Halfdan Kierulf i 1978, og reisejournalene fra 1860, 1865 og 1867 av Christian F. Kierulf i 1988.</p>
+<p>Arbeidet med Halfdan Kjerulfs dagb&#x00F8;ker har budt p&#x00E5; noen problemstillinger. Selv om Halfdan Kjerulfs h&#x00E5;ndskrift er relativt lettlest, er det en del variasjoner i n&#x00F8;yaktighet, blekk og kvalitet p&#x00E5; pennesplitt og papir. Til tross for stort tidsspenn er dagb&#x00F8;kene p&#x00E5; mange m&#x00E5;ter sv&#x00E6;rt like, men det kan synes som det er en klarere struktur og mer ryddig h&#x00E5;ndskrift etter som &#x00E5;rene g&#x00E5;r.</p>
+<p>Rettskrivningen i dagb&#x00F8;kene f&#x00F8;lger ikke alltid datidens norm. Det er mye skrivefeil, slurv og forglemmelser: Ordet &#x00AB;gjorde&#x00BB; staves b&#x00E5;de &#x00AB;giorde&#x00BB; og &#x00AB;gjorde&#x00BB;, det samme gjelder andre gj-ord. Det varieres mellom &#x00AB;Propheten&#x00BB; og &#x00AB;Profeten&#x00BB;, forkortelsen for &#x00AB;Slesvig-Holstein&#x00BB; varierer med &#x00AB;Sl.H.&#x00BB;, &#x00AB;Sles.-Holst.&#x00BB;, &#x00AB;Schl.H.&#x00BB;. Ord og navn staves tidvis feil, ord utelates og ord gjentas, ord strykes ut og legges til. Parenteser startes uten &#x00E5; avsluttes, tekst markeres med ulike understrekninger. Det settes punktum f&#x00F8;r en setning er slutt, og det varierer mellom enkelt ( . ) og dobbelt ( : ) punktum. Ordenstall skrives p&#x00E5; en rekke ulike m&#x00E5;ter, med og uten punktum etter tallet, med og uten hevet endelse og med og uten d, d., den f&#x00F8;r dato. Stor eller liten forbokstav i substantiv varierer. Vi har her valgt &#x00E5; standardisere ordenstall, alt annet er gjengitt slik Kjerulf selv skrev det.</p>
+<p>Noen av dagb&#x00F8;kene er paginert, andre er ikke. Enkelte dagb&#x00F8;ker har feil paginering, og i dagboka fra 1840 er f&#x00F8;rste side paginert 69. Siden dette er dagb&#x00F8;ker, og dermed har naturlige skiller i teksten ved skifte av dato, er det ikke gjengitt eller lagt til paginering.</p>
+<p>Flere av dagb&#x00F8;kene er almanakker med innlagte notatsider. Almanakksidene er tidvis notert p&#x00E5; og alle disse sidene gjengis som faksimiler for &#x00E5; yte dem rettferdighet. Det samme gjelder regnskap, elevlister, timeplaner, lister over musikkverk og forestillinger.</p>
+<p>Dagb&#x00F8;kene er n&#x00E6;rmere 200 &#x00E5;r gamle, og inneholder derfor ord og uttrykk som ikke er i bruk i moderne norsk/dansk, og omtaler personer, steder og hendelser som ikke er allmennkunnskap i dag. Mengden av slike ord og navn er s&#x00E5; stor at det ikke er lagt inn kommentarer eller noter. Mange av personene er identifisert eller fors&#x00F8;kt identifisert i Grindes transkripsjon, som kan sees p&#x00E5; i Nasjonalbiblioteket.</p>
+</div>
+<div type="uchapter">
+<head type="sub">Litteratur</head>
+<p rend="noIndent">Wallem, Fredrik B. (1916): <title rend="italic">Det Norske Studentersamfund Gjennem hundrede Aar. F&#x00F8;rste del.</title>. H. Aschehoug &#x0026; Co., Kristiania.</p>
+<p rend="noIndent">Moe, Wladimir (1917): <title rend="italic">Halfdan Kjerulf. Af hans efterlatte papirer 1831&#x2013;1847</title>. Jacob Dybwads Forlag, Kristiania.</p>
+<p rend="noIndent">Moe, Wladimir (1918): <title rend="italic">Halfdan Kjerulf. Af hans efterlatte papirer 1847&#x2013;1868</title>. Jacob Dybwads Forlag, Kristiania.</p>
+<p rend="noIndent">Grinde, Nils, &#x00D8;. Norheim og B. Qvamme (1990): <title rend="italic">Halfdan Kjerulfs dagb&#x00F8;ker</title>. Bind 1. Oslo.</p>
+<p rend="noIndent">Grinde, Nils (2003): <title rend="italic">Halfdan Kjerulf. Nordmann og europeer: En komponist og hans tid</title>. Musikk-Husets Forlag A/S, Oslo.</p>
+<p rend="noIndent">Qvamme, B&#x00F8;rre (2010): <title rend="italic"><ref type="external" target="http://www.hf.uio.no/imv/forskning/prosjekter/norgesmusikk/musikkhistarkiv/kjerulf/kjerulf_opera.html">Halfdan Kjerulf og operaen</ref></title></p>
+</div>
+</div>
+<div type="chapter">
+<head type="main"><ref type="contents" target="contents_02" xml:id="chapter_02">Prinsipper for utvalg og transkripsjon</ref></head>
+<p>1. Alle dagb&#x00F8;ker og reisejournaler som befinner seg i Nasjonalbiblioteket, tas med i denne publiseringen. De utgis kronologisk.</p>
+<p>2. Transkripsjonen er n&#x00F8;yaktig og bokstavrett, det vil si at Halfdan Kjerulfs rettskrivning er beholdt. Skrivefeil er ikke rettet. Dette gjelder ogs&#x00E5; feil i diakritiske tegn, manglende parenteser og anf&#x00F8;rselstegn.</p>
+<p>3. Regnskap, elevlister, elevtimeplaner og teater- og konsertlister transkriberes ikke, men gjengis som faksimiler.</p>
+<p>4. H&#x00E5;ndskriften er lett &#x00E5; lese. Noen tvil kan likevel forekomme, og slurvete bokstaver og ord er derfor transkribert velvillig ut fra sammenhengen. Det har i noen tilfeller v&#x00E6;rt n&#x00F8;dvendig &#x00E5; markere usikker lesning med spisse klammer &#x2039;&#x00A0;&#x203A;, og helt uleselig tekst markeres slik: &#x2039;&#x2026;&#x203A;.</p>
+<p>5. I noen tilfeller er det vanskelig &#x00E5; avgj&#x00F8;re om en bokstav er stor eller liten. Det gjelder spesielt d/D, m/M og k/K. Her velges den form som f&#x00F8;lger normen.</p>
+<p>6. Tekst som er str&#x00F8;ket, er markert med gjennomstreking.</p>
+<p>7. Tilf&#x00F8;yd tekst gjengis som plassert i originalen, over eller under linjen. Tekst tilf&#x00F8;yd p&#x00E5; motst&#x00E5;ende side gjengis over linjen i den l&#x00F8;pende teksten.</p>
+<p>8. N&#x00E5;r tekst er rettet ved at noe er skrevet opp&#x00E5; noe annet slik at opprinnelig tekst er dekket, transkriberes den sist skrevne teksten, mens den opprinnelige gjengis i note.</p>
+<p>9. Tekst som er understreket eller uthevet p&#x00E5; annet vis, gjengis med kursiv, og det skjelnes ikke mellom typografisk og retorisk utheving. I noen f&#x00E5; tilfeller har utgiverne valgt &#x00E5; bruke fet skrift n&#x00E5;r det er n&#x00F8;dvendig i forhold til Kjerulfs egne markeringer.</p>
+<p>10. Bindestrek som ser ut som =-tegn gjengis som vanlig bindestrek.</p>
+<p>11. m/n med nasalstrek (liten strek over bokstaven) gjengis med m<hi rend="italic">m</hi>/n<hi rend="italic">n</hi>.</p>
+<p>12. Kr&#x00F8;llestreker og andre markeringer i margen er utelatt.</p>
+<p>13. Ord delt ved linjeslutt uten bindestrek gjengis stilltiende som ett ord.</p>
+<p>14. Ulike former for avsnittsmarkering gjengis s&#x00E5; n&#x00E6;rt opptil originalen som mulig.</p>
+<p>15. Sideskift er ikke markert, og gjentagelse av dato ved sideskift er ikke tatt med.</p>
+<p>16. Paginering er ikke gjengitt eller lagt til.</p>
+<p>17. Dobbelt punktum ( : ) gjengis som kolon.</p>
+<p>18. Senere endringer eller tilf&#x00F8;yelser gjort med annen h&#x00E5;nd, transkriberes ikke.</p>
+<p>19. Ordenstall standardiseres.</p>
+</div>
+<div type="chapter">
+<head type="main"><ref type="contents" target="contents_03" xml:id="chapter_03">&#x005B;almanakksider&#x005D;</ref></head>
+<p rend="center"><figure><graphic url="forside_alm_s_7.jpeg"/></figure></p>
+<p rend="center"><figure><graphic url="alm_side2_s_8.jpeg"/></figure></p>
+<p rend="center"><figure><graphic url="alm_side3_ s_11.jpeg"/></figure></p>
+</div>
+<div type="chapter">
+<head type="main"><ref type="contents" target="contents_04" xml:id="chapter_04">&#x005B;elevoversikt&#x005D;</ref></head>
+<p rend="center"><figure><graphic url="elevoversikt_s_9.jpeg"/></figure></p>
+</div>
+<div type="chapter">
+<head type="main"><ref type="contents" target="contents_1" xml:id="chapter_1">Januar</ref></head>
+<p rend="center"><figure><graphic url="jan1_s_12.jpeg"/></figure></p>
+<p rend="center"><figure><graphic url="jan2_s_17.jpeg"/></figure></p>
+<p rend="noIndent">Brev fra Theodor d. 2<hi rend="raised">den</hi> Skrevet d. 5<hi rend="raised">te</hi>.
+<lb/>Kaja fremdeles syg.
+<lb/>4 Theatret don Juan af &#x00D8;st.
+<lb/>11. Naar Kvinder f&#x00F8;re Krig. &#x2013; Rataplan &#x2013; M<hi rend="raised">d</hi> Schrumpf.
+<lb/>Eftr. fra Paris om den uhyre Majoritet der godkjender Statscoupet. (7&#x00BD; Mill)
+<lb/>L Napoleon tilflytter Tuilerierne. Hylding i Notre Dame.
+<lb/>Tvangsregimente i Frankrig if&#x00F8;lge Nationens eget &#x00D8;nske!
+<lb/>Forviisningerne (Thiers. Changarnier. Lamorciere. Gerardin. Mange r&#x00F8;de Chefer)
+<lb/>Lord Palmerstons Afsked. &#x2013; Dampsk Amazonens Brand. &#x2013;</p>
+<figure rend="fullHorizRule"/>
+<p rend="noIndent"><date when="1852-01-06"><hi rend="initial">6.</hi></date> Fkn Sommerschild. &#x2013; Jfr Bjerregaard (1) M. Thilesen.</p>
+<p rend="noIndent"><date when="1852-01-07"><hi rend="initial">7.</hi></date> B. Aubert (3) Fru Borchgrevink (10. <hi rend="italic">bet.</hi>) (jfr Krftg 0-0.) M. Manthey.</p>
+<p rend="noIndent"><date when="1852-01-08"><hi rend="initial">8.</hi></date> Jfr Thommasson. &#x2013; M. Dyrgren. &#x2013; A Larsen 59.</p>
+<p rend="noIndent"><date when="1852-01-09"><hi rend="initial">9.</hi></date> Somerschild. &#x2013; Fru Flock &#x2013; J. Flock. &#x2013; I. Rehbinder (2.) &#x2013;</p>
+<p rend="noIndent"><date when="1852-01-10"><hi rend="initial">10.</hi></date> Jfr Berger. &#x2013;. M. Manthey. &#x2013; Jfr. Waiz (1).</p>
+<figure rend="leftHorizRule"/>
+<p rend="noIndent"><date when="1852-01-12"><hi rend="initial">12</hi></date> Berger. &#x2013; . &#x2013; . R. Haffner 1 &#x2013;. Jfr Berg (<hi rend="italic">bet</hi> 10.T.) 9?</p>
+<p rend="noIndent"><date when="1852-01-13"><hi rend="initial">13.</hi></date> Somerschild. &#x2013; Bjerregaard (2) &#x2013; Jfr Larsen &#x2013; M Thilesen. &#x2013; Emma Larsen 60.</p>
+<p rend="noIndent"><date when="1852-01-14"><hi rend="initial">14</hi></date> Aubert. (4. <hi rend="italic">bet</hi>). Fru Borchgrk &#x2013; Waiz (2) &#x2013; M Manthey</p>
+<p rend="noIndent"><date when="1852-01-15"><hi rend="initial">15.</hi></date> Tomasson 2 &#x2013; L Brandt &#x2013; Dyrgren &#x2013; O Keyser 1. &#x2013; A Larsen 61. &#x2013;</p>
+<p rend="noIndent"><date when="1852-01-16"><hi rend="initial">16.</hi></date> Somerschild &#x2013; Fru Flock &#x2013; Fkn Flock &#x2013; Rehbinder &#x2013; E Grundt &#x2013; Fkn S&#x00F8;renssen (1)</p>
+<figure rend="fullHorizRule"/>
+<p rend="noIndent"><date when="1852-01-16"><hi rend="initial">16.</hi></date> <hi rend="italic">Phil. S. 3<hi rend="raised">die</hi>Samling.</hi>
+<lb/>Claveertrio af Hummel
+<lb/>Vokalquartett
+<lb/>Duo for 2 Pianos over norske Motiver af Arnold
+<lb/><seg rend="indent_1">udf af Arnold og hans Datter.</seg>
+<lb/>Udvalgte N<hi rend="raised">o</hi> af Arnolds Opera &#x00AB;Irene&#x00BB;.
+<lb/><seg rend="indent_1">God, simpel, udtryksfuld dram. Musik af Gluck-Mozartsk Skole. Nu og da lidt t&#x00F8;r men overh. tiltalende.</seg>
+<lb/><seg rend="indent_1">Udf. som alt i Phil.S. maadelig nok.</seg></p>
+<lb/>
+<p rend="noIndent"><date when="1852-01-17"><hi rend="initial">17.</hi></date> Berger. &#x2013; Frk Falk (1) &#x2013; M<hi rend="raised">me</hi> Jessen (1) &#x2013; M Manthey. &#x2013; Waiz (3)&#x2013;</p>
+<p rend="noIndent"><date when="1852-01-19"><hi rend="initial">19.</hi></date> Berger. &#x2013; L Brandt &#x2013; M<hi rend="raised">me</hi> Smith (7) &#x2013; R Haffner (2) &#x2013; E Grundt &#x2013; Berg (1).</p>
+<p rend="noIndent"><date when="1852-01-20"><hi rend="initial">20.</hi></date> Sommerschild &#x2013; Bjergaard (3) &#x2013; E Larsen &#x2013; M Thilesen. &#x2013; Larsens 4.</p>
+<p rend="noIndent"><date when="1852-01-21"><hi rend="initial">21.</hi></date> Aubert (1) Fru Borchgrevk. &#x2013; H Falk (2) &#x2013;o&#x2013; <hi rend="underlined">Waiz syg</hi> M Manthey.</p>
+<p rend="noIndent"><date when="1852-01-22"><hi rend="initial">22.</hi></date> Jfr Kokkinn (1) Tomasson 3 &#x2013; Dyrgren &#x2013; L Brandt &#x2013; Keyser (2). Larsens 5 og 6.</p>
+<p rend="noIndent"><date when="1852-01-23"><hi rend="initial">23.</hi></date> Sommerschild (10. <hi rend="italic">bet</hi>) Fru Flock &#x2013; (o J Fl.) Rehbinder. &#x2013; E Grundt &#x2013; S&#x00F8;renssen.</p>
+<p rend="noIndent"><date when="1852-01-24"><hi rend="initial">24</hi></date> Berger &#x2013; Falk (3) M<hi rend="raised">me</hi> Jessen (2) M Manthey &#x2013; Ch Waiz (4).</p>
+<figure rend="leftHorizRule"/>
+<p rend="noIndent"><date when="1852-01-26"><hi rend="initial">26.</hi></date> Berger. &#x2013; <hi rend="underlined">Brandt syg</hi> M<hi rend="raised">me</hi>Smith (8). <hi rend="underlined">Haffner fors&#x00F8;mt</hi> <hi rend="underlined">Grundt syg</hi> Jfr Berg. 2.</p>
+<p rend="noIndent"><date when="1852-01-27"><hi rend="initial">27.</hi></date> Sommerschild &#x2013; Bjergaard (4) &#x2013; E Larsen &#x2013; M Thilesen (<hi rend="italic">10. bet</hi>)&#x2013; Larsens (7)</p>
+<p rend="noIndent"><date when="1852-01-28"><hi rend="initial">28.</hi></date> Aubert (2) Fru Borchgrevink &#x2013; Fkn Falk (4) &#x2013; Waiz (5) M Manthey.</p>
+<p rend="noIndent"><date when="1852-01-29"><hi rend="initial">29</hi></date> Kokkin (2) Thomasson (4. <hi rend="italic">bet</hi>) <hi rend="underlined">Brandt syg</hi> Dyrgren &#x2013; Keyser (3) &#x2013; Larsens (8 og 9)</p>
+<p rend="noIndent"><date when="1852-01-30"><hi rend="initial">30.</hi></date> Sommerschild &#x2013; Fru Flock (bet 9. T.) (1.) <hi rend="underlined">Flock syg</hi> Rehbinder. &#x2013; <hi rend="underlined">Grundt syg</hi> S&#x00F8;rensen. &#x2013;</p>
+<p rend="noIndent"><date when="1852-01-31"><hi rend="initial">31.</hi></date> Berger &#x2013; Falk (5) &#x2013; Jessen (3) &#x2013; M Manthey (<hi rend="italic">bet</hi>) Waiz (6).</p>
+<figure rend="fullHorizRule"/>
+<lb/><figure><graphic url="regnestykke_s_16.jpg"/></figure><lb/>
+<figure rend="fullHorizRule"/>
+<p rend="noIndent"><date when="1852-01-21"><hi rend="initial">21.</hi></date> Wessells Fallissement.</p>
+<p rend="noIndent"><date when="1852-01-25"><hi rend="initial">25.</hi></date> Pr&#x00F8;ve paa <hi rend="italic">F. Davids le Desert</hi> (&#x00D8;rkenen). <hi rend="italic">IV. Akts 5<hi rend="raised">te</hi> Scene af Huguenotterne. m.m.</hi></p>
+<p>Skrevet en Art. i Chr. Posten om den forestaaende Concert. (NB. Critik over David af Scudo findes i Revue des deux mondes 1847. Mai)</p>
+<p rend="noIndent"><date when="1852-01-27"><hi rend="initial">27.</hi></date> <hi rend="italic">Ankom Breve fra Theodor</hi> og <hi rend="italic">Gude</hi> (til mig.). &#x2013; Posteftr. om <hi rend="italic">Louis Napoleons &#x00AB;Constitution&#x00BB;</hi> ad moderne Consularconst. fra Aaret VII. Const. som er kort nok og despotisk nok er ledsaget af en lang Prokl. til Folket hvor L.N. aabenhjertig bekjender at det de napoleonske Ideer han altid har sv&#x00E6;rmet for og nu vil gjennemf&#x00F8;re. &#x2013;</p>
+<p rend="noIndent"><date when="1852-01-28"><hi rend="initial">28</hi></date> <hi rend="italic">Speratis Concert</hi> <hi rend="italic">Mendelssohn</hi> Ouv. &#x00AB;Heimkehr&#x00BB;.</p>
+<p><seg rend="indent_2"><hi rend="italic">Meyerbeer</hi>. Rataplanchor af Huguenotterne</seg>
+<lb/><seg rend="indent_2">&#x2013;&#x0022;&#x2013;IV Acts V Scene af samme Opera</seg>
+<lb/><seg rend="indent_2">&#x2013;&#x0022;&#x2013;Trio for Sopr og 2 Fl&#x00F8;iter af Wielke</seg>
+<lb/><seg rend="indent_2"><hi rend="italic">Halevy.</hi> Drikkechor af la Juive.</seg>
+<lb/><seg rend="indent_2"><hi rend="italic">Felicien David</hi>: &#x00AB;&#x00D8;rkenen&#x00BB; Ode Symfoni i 3 Afd.</seg></p>
+</div>
+<div type="chapter">
+<head type="main"><ref type="contents" target="contents_1" xml:id="chapter_2">Februar</ref></head>
+<p rend="center"><figure><graphic url="feb1_s_18.jpeg"/></figure></p>
+<p rend="center"><figure><graphic url="feb2_s_23.jpeg"/></figure></p>
+<p rend="noIndent"><date when="1852-02-02"><hi rend="initial">2.</hi></date> Jfr. Berger. <hi rend="underlined">Brandt syg</hi>. M<hi rend="raised">me</hi> Smith 9 &#x2013; Haffner 3. &#x2013; <hi rend="underlined">Grundt 0</hi>. Jfr Berg. 3.</p>
+<p rend="noIndent"><date when="1852-02-03"><hi rend="initial">3.</hi></date> Sommerschild &#x2013; Bjerregaard 5 &#x2013; E Larsen &#x2013; Thilesen (1) &#x2013; Larsens 10.0.</p>
+<p rend="noIndent"><date when="1852-02-04"><hi rend="initial">4.</hi></date> Aubert (3). M Borchgrevink &#x2013; Falk (6) &#x2013; (6) &#x2013; 0 &#x2013; M Manthey.</p>
+<p rend="noIndent"><date when="1852-02-05"><hi rend="initial">5.</hi></date> Jfr. Kokkin 3. &#x2013; (forresten ferieret hele Dagen)</p>
+<p rend="noIndent"><date when="1852-02-06"><hi rend="initial">6.</hi></date> Sommerschild. &#x2013; <hi rend="underlined">Fr Flock fors&#x00F8;mt</hi>. &#x2013; <hi rend="underlined">J. Flock</hi>. &#x2013; <hi rend="underlined">Rehbinder</hi> &#x2013; <hi rend="underlined">Grundt</hi> &#x2013; S&#x00F8;renssen</p>
+<p rend="noIndent"><date when="1852-02-07"><hi rend="initial">7.</hi></date> Berger (10) Falk (7.) Jessen 4 &#x2013; M Manthey. &#x2013; Waiz 7.0</p>
+<figure rend="leftHorizRule"/>
+<p rend="noIndent"><date when="1852-02-09"><hi rend="initial">9.</hi></date> Berger (1) <hi rend="underlined">Br. 0</hi> &#x2013; M<hi rend="raised">me</hi> Smith (10) Haffner (4.) Grundt. &#x2013; Jfr Berg. 4.</p>
+<p rend="noIndent"><date when="1852-02-10"><hi rend="initial">10.</hi></date> Sommerschild. &#x2013; Bjergaard (6) E Larsen. &#x2013; M Thilesen &#x2013; Larsens 11. 12.</p>
+<p rend="noIndent"><date when="1852-02-11"><hi rend="initial">11.</hi></date> Aubert (4.<hi rend="italic">bet</hi>) Fru Borchgrevink &#x2013; Falk (8) &#x2013; Krefting 5 &#x0026; 6. &#x2013; Waitz (8) &#x2013; Manthey.</p>
+<p rend="noIndent"><date when="1852-02-12"><hi rend="initial">12.</hi></date> Thomasson (1.) L Brandt &#x2013; Jfr Kokkin 4. Dyrgren. &#x2013; Keyser 4. &#x2013; Larsens 13.</p>
+<p rend="noIndent"><date when="1852-02-13"><hi rend="initial">13.</hi></date> Sommerschild &#x2013; Fru Flock (1) J. Flock. &#x2013; Rehbinder &#x2013; Grundt 1.(bet) S&#x00F8;renssen.</p>
+<p rend="noIndent"><date when="1852-02-14"><hi rend="initial">14.</hi></date> Jfr Berger. (2) Falk 9. &#x2013; M<hi rend="raised">me</hi> Jessen 5 &#x2013; M. Manthey. &#x2013; Waiz 9 &#x2013;</p>
+<figure rend="fullHorizRule"/>
+<lb/>
+<figure rend="fullHorizRule"/>
+<lb/>
+<p>&#x2013; 1. comp<hi rend="raised">t</hi> en Lied. (af <hi rend="italic">Th.</hi> C-dur.)
+<lb/>Feb. 2. <hi rend="italic">Brev fra Benny</hi> Cappelen ang. Udvalg af Musik.
+<lb/>&#x2013; 1. I Theatret Bagtalelsens Skole. (Wiehe som Charles).
+<lb/>&#x2013; 4. <hi rend="italic">Brev fra Lindhult og Sahr Leipzig d 24 Jan.</hi> (Norman reist til Stockholm)
+<lb/>&#x2013; 5. <hi rend="italic">Skrevet til Fkn Cappelen</hi> og sendt Noder.
+<lb/>&#x2013; <hi rend="italic">Udst. af Vogne og Sl&#x00E6;der paa Torvet</hi>. &#x2013; T&#x00F8;nsbergs <hi rend="italic">Maleriudstilling</hi> paa B&#x00F8;rsen.
+<lb/>6 Hos Capt. Garbens. Fr&#x00F8;ken Blom. &#x2013; I Lag hos Magnus.
+<lb/>8 &#x2013; Comp<hi rend="raised">t</hi> en Lied: &#x00AB;Ved Nattetid&#x00BB; F<hi rend="raised">dur</hi> af Th. og Melodiudkast til en anden (af Platen)
+<lb/>&#x2013; Bes&#x00F8;g af Gamle Arnold.
+<lb/>9. Snefog og stort Snefald.
+<lb/>12. Gjentagelse af Speratis Concert. Huset d&#x00E6;kker neppe Udgifterne.</p>
+<figure rend="fullHorizRule"/>
+<p rend="noIndent"><date when="1852-02-16"><hi rend="initial">16.</hi></date> Berger &#x2013; L Brandt &#x2013; <hi rend="underlined">M<hi rend="raised">me</hi> Smith 0</hi> Haffner 5. &#x2013; Fkn. Scheel (1.) &#x2013; Grundt. (2). Berg. 5. &#x2014;</p>
+<p rend="noIndent"><date when="1852-02-17"><hi rend="initial">17.</hi></date> Sommerschild &#x2013; Bjergaard 7. &#x2013; E Larsen &#x2013; Thilesen. &#x2013; Larsens 14 og 15.</p>
+<p rend="noIndent"><date when="1852-02-18"><hi rend="initial">18.</hi></date> Aubert (1). M Borchgrevink. &#x2013; Falk (10) &#x2013; Waitz (10). M. Manthey.</p>
+<p rend="noIndent"><date when="1852-02-19"><hi rend="initial">19.</hi></date> Kokkin 5 &#x2013; Brandt &#x2013; Dyrgren &#x2013; Jfr Thomasson (2) &#x2013; Keyser 5 &#x2013; Larsens 16. &#x2013;</p>
+<p rend="noIndent"><date when="1852-02-20"><hi rend="initial">20.</hi></date> Sommerschild &#x2013; Fru Flock &#x2013; J Flock &#x2013; Rehbinder. &#x2013; Grundt &#x2013; V S&#x00F8;renssen &#x2013;</p>
+<p rend="noIndent"><date when="1852-02-21"><hi rend="initial">21.</hi></date> Berger &#x2013; Falk (11) &#x2013; M<hi rend="raised">me</hi> Jessen 6. &#x2013; M Manthey &#x2013; Waitz (11)</p>
+<figure rend="leftHorizRule"/>
+<p rend="noIndent"><date when="1852-02-23"><hi rend="initial">23.</hi></date> Berger. &#x2013; <hi rend="underlined">Brandt syg</hi> &#x2013; M<hi rend="raised">me</hi> Smith. 11 &#x2013; Haffner. 6. &#x2013; Scheel. 2. &#x2013; Grundt. &#x2013; Berg. 6.</p>
+<p rend="noIndent"><date when="1852-02-24"><hi rend="initial">24.</hi></date> Sommerschild &#x2013; Bjerregaard 8. &#x2013; 0 &#x2013; Thilesen. &#x2013; Larsens 17. &#x2013;</p>
+<p rend="noIndent"><date when="1852-02-25"><hi rend="initial">25.</hi></date> Aubert 2 &#x2013; M Borchgrevink &#x2013; Krefting 7 &#x0026; 8 &#x2013; Falk 12 &#x2013; <hi rend="underlined">Waiz 0</hi> &#x2013; M Manthey.</p>
+<p rend="noIndent"><date when="1852-02-26"><hi rend="initial">26.</hi></date> <hi rend="underlined">Kokkin 0</hi> &#x2013; Thomasson. 3. <hi rend="italic">bet. og oph&#x00F8;rt</hi> &#x2013; Brandt. &#x2013; Dyrgren &#x2013; Keyser 6. &#x2013; Larsens 18.</p>
+<p rend="noIndent"><date when="1852-02-27"><hi rend="initial">27.</hi></date> Sommerschild (1) Fru Flock. &#x2013; J. Flock. &#x2013; Rehbinder &#x2013; E. Grundt &#x2013; <hi rend="italic">Sophie S&#x00F8;renssen</hi> 1. &#x2013;</p>
+<p rend="noIndent"><date when="1852-02-28"><hi rend="initial">28.</hi></date> Berger. &#x2013; V. S&#x00F8;renssen &#x2013; M<hi rend="raised">me</hi> Jessen 7. &#x2013; Falk 13 &#x2013; M Manthey. (10 bet) &#x2013; 0 &#x2013;</p>
+<p rend="center"><figure><graphic url="regnestykke_s_22.jpg"/></figure></p>
+<figure rend="fullHorizRule"/>
+<p rend="noIndent"><date when="1852-02-19"><hi rend="initial">19.</hi></date> <hi rend="italic">Damequartetten 1<hi rend="raised">ste</hi> Saml.</hi> hos F&#x00E6;tter Carl. Sopr. Fru Kaja. Emma Riis (abf.) Alt: Marie Lasson. Caroline Norby. &#x2013; Ten: Carl K. Nils Nicolaysen. Bas: R Winge Eriksen. Ch. Lasson. (4<hi rend="raised">st</hi> Lieder af Mendelssohn. Solosang af Norbyerne og Marie.</p>
+<p rend="noIndent"><date when="1852-02-20"><hi rend="initial">20.</hi></date> Et Bes&#x00F8;g i Foreningen. Faa smukke Damer. (Fkn Munch, Fru Dahl, Betsy Lasson)</p>
+<p rend="noIndent"><date when="1852-02-21"><hi rend="initial">21.</hi></date> <hi rend="italic">Philh. Selsk.</hi> 1<hi rend="raised">ste</hi> g. i det ny Lokale. Ouv. af Don Juan for lille Orchester ynkeligt og langsomt. &#x2013; Pr&#x00E6;station paa Violin af Hr. Konow. D<hi rend="raised">o</hi> ynkeligt. 2 Duetter af Mendelssohn Kaja K. og C. Norby. Jeg akkomp. (det Eneste der duede!) Fantasi for Piston: L<hi rend="raised">t</hi> Staffelt. (skidt) <hi rend="italic">3<hi rend="raised">die</hi> deel af Samson</hi> tildeels maadeligt nok. R&#x00E6;dselsfuld var Professor Monrads Bas Solo. &#x2014;</p>
+<p rend="noIndent"><date when="1852-02-23"><hi rend="initial">23.</hi></date> <hi rend="italic">Maskeballet i Logen</hi> arr. af Hr Bo&#x00EB;tius. (Marie L. M. G. Emilie. Betsy. Fru Berens)</p>
+<p rend="noIndent"><date when="1852-02-24"><hi rend="initial">24.</hi></date> Quartetten hos L<hi rend="raised">t</hi> Lund.</p>
+<p rend="noIndent"><date when="1852-02-26"><hi rend="initial">26.</hi></date> Theatret. &#x00AB;Talismanen&#x00BB; tydsk Farce med Musik. Rimel af Nestroy. &#x2013; Fabelen er ellers den samme som i den lille franske Vaudevillecomedie Bonaventure som jeg i 1840 saae i Paris. &#x2013; Hagen spillede Titus Brandstok og M<hi rend="raised">me</hi> Schrumpf Ane Gaasepige. Begge fremkaldtes. &#x2014;</p>
+</div>
+<div type="chapter">
+<head type="main"><ref type="contents" target="contents_1" xml:id="chapter_3">Marts</ref></head>
+<p rend="center"><figure><graphic url="mars1_s_24.jpeg"/></figure></p>
+<p rend="center"><figure><graphic url="mars2_s_29.jpeg"/></figure></p>
+<p rend="noIndent"><date when="1852-03-01"><hi rend="initial">1.</hi></date> Berger. &#x2013; Brandt &#x2013; M<hi rend="raised">me</hi> Smith. 12 &#x2013; Haffner 7 &#x2013; Scheel. &#x2013; Grundt &#x2013; Berg 7.</p>
+<p rend="noIndent"><date when="1852-03-02"><hi rend="initial">2.</hi></date>Sommerschild &#x2013; Bjergaard 9 &#x2013; Larsen (<hi rend="italic">bet</hi>) 1. &#x2013; Thilesen. &#x2013; Larsens 19.</p>
+<p rend="noIndent"><date when="1852-03-03"><hi rend="initial">3.</hi></date> Aubert 3 &#x2013; M Borchgrevink. &#x2013; Falk 14 &#x2013; Waitz 12 &#x2013; M Manthey 1. &#x2013;</p>
+<p rend="noIndent"><date when="1852-03-04"><hi rend="initial">4.</hi></date> Kokkin 6 &#x2013; Brandt. &#x2013; Dyrgren (<hi rend="italic">10 bet</hi>) &#x2013; Keyser 7 &#x2013; Larsens 20 &#x0026; 21.</p>
+<p rend="noIndent"><date when="1852-03-05"><hi rend="initial">5.</hi></date> Sommerschild. &#x2013; Fru Flock. &#x2013; J Flock. (<hi rend="italic">bet</hi>. 1.) &#x2013; <hi rend="underlined">Rehbinder. 0</hi> Grundt &#x2013; V. S&#x00F8;renssen</p>
+<p rend="noIndent"><date when="1852-03-06"><hi rend="initial">6.</hi></date> Berger. &#x2013; S. S&#x00F8;renssen 2. &#x2013; Jessen 8 &#x2013; Falk 15. &#x2013; Waitz 13 &#x2013;</p>
+<figure rend="leftHorizRule"/>
+<p rend="noIndent"><date when="1852-03-08"><hi rend="initial">8.</hi></date> Berger. &#x2013; Brandt &#x2013; M<hi rend="raised">me</hi> Smith 13. &#x2013; Haffner 8. &#x2013; Scheel. &#x2013; Grundt &#x2013; Berg. 8.</p>
+<p rend="noIndent"><date when="1852-03-09"><hi rend="initial">9.</hi></date> Sommerschild &#x2013; Bjerrgaard 10. (<hi rend="italic">bet</hi>) E Larsen 2. &#x2013; Thilesen &#x2013; Larsens 22 &#x0026; 23</p>
+<p rend="noIndent"><date when="1852-03-10"><hi rend="initial">10.</hi></date> Aubert. (4 <hi rend="italic">bet</hi>) Borchgrevink &#x2013; Falk 16 &#x2013; Krefting (<hi rend="italic">bet. 10 T.</hi>) 9 &#x0026; 10 <add place="below">1&#x2013;2.</add> &#x2013; Waitz 14 &#x2013; Manthey</p>
+<p rend="noIndent"><date when="1852-03-11"><hi rend="initial">11.</hi></date> Kokkin 7 &#x2013; Brandt. &#x2013; Dyrgren 1. &#x2013; 0. &#x2013; Larsens 24.</p>
+<p rend="noIndent"><date when="1852-03-12"><hi rend="initial">12.</hi></date> Sommerschild &#x2013; <hi rend="underlined">Fru Fl. 0</hi> J. Flock. &#x2013; Rehbinder 9 &#x0026; 10 (<hi rend="italic">bet</hi>) &#x2013; Grundt &#x2013; V S&#x00F8;renssen &#x2013;</p>
+<p rend="noIndent"><date when="1852-03-13"><hi rend="initial">13.</hi></date> Berger &#x2013; S. S&#x00F8;renssen 3 &#x2013; Jessen 9 &#x2013; Falk 17. &#x2013; <hi rend="underlined">Keyser 0</hi> &#x2013; Waitz 15.</p>
+<figure rend="leftHorizRule"/>
+<p rend="noIndent"><date when="1852-03-15"><hi rend="initial">15.</hi></date> Berger. &#x2013; <hi rend="underlined">Brandt 0</hi> M<hi rend="raised">me</hi> Smith 14. &#x2013; Haffner 9 &#x2013; Scheel &#x2013; Grundt &#x2013; <hi rend="underlined">Berg 9. fors</hi></p>
+<p rend="noIndent"><date when="1852-03-16"><hi rend="initial">16.</hi></date> Sommerschild &#x2013; Bjergaard 1. &#x2013; E Larsen 3. &#x2013; Thilesen &#x2013; Larsens 25, 26.</p>
+<lb/><figure rend="fullHorizRule"/><lb/>
+<p rend="noIndent"><date when="1852-03-05"><hi rend="initial">5.</hi></date> Br. fra Theodor af 23<hi rend="italic">de</hi>
+<lb/>&#x2014; <hi rend="italic">Hans Krag</hi> fra Paris, hvor han har boet i 13 Aar.</p>
+<p rend="noIndent"><date when="1852-03-02"><hi rend="initial">2.</hi></date> Studentercomedie i det Dr. S. Th. for Byggefondet: &#x00AB;Asylet&#x00BB; og En Natscene&#x00BB;. Begge af R. Petersen. Fuldt Hus og megen Munterhed.
+<lb/>&#x2014; Nyt Ministerium Toryer: Lord Derby (Stanley) i England.
+<lb/>I Frankrig forts&#x00E6;ttes med det skj&#x00E6;ndigste Despoti. Sv&#x00E6;rdet hersker og Pressen t&#x00F8;r ikke tale.</p>
+<p rend="noIndent"><date when="1852-03-05"><hi rend="initial">5.</hi></date> Hjalmars Tegninger som vare indleverede til D<hi rend="raised">pt</hi>, atter tilbagesendte. &#x2014;</p>
+<lb/>
+<p>&#x2014; Solen smelter Sneen. Deilige Dage.</p>
+<p rend="noIndent"><date when="1852-03-08"><hi rend="initial">8.</hi></date> <hi rend="italic">Soir&#x00E9;e med Dands hos Matheys</hi>. (De<del rend="overstrike">n</del> gamle m&#x00E6;rkelige Stamb&#x00F8;ger hvori Tegninger af begge Tischbein af Chodowiecki, ja af Goethe med Facsimile)
+<lb/>&#x2014; I den sidste Tid fors&#x00F8;gt med flere Udkast til smaa Compos. som Kalvernotturno, geistlig Lied, et Par andre Lieder &#x2013; altsammen uden at komme til et Resultat. &#x2014;</p>
+<p rend="noIndent"><date when="1852-03-12"><hi rend="initial">12.</hi></date> Studenterbal (Sangforeningen)</p>
+<p rend="noIndent"><date when="1852-03-13"><hi rend="initial">13.</hi></date> Stor Soir&#x00E9; hos Dunker.</p>
+<p rend="noIndent"><date when="1852-03-14"><hi rend="initial">14.</hi></date> Axel holder Lag paa sin Geburtsdag.
+<lb/>Comp<hi rend="raised">t</hi> en Lied &#x00AB;Og vil du v&#x00E6;re Vennen min&#x00BB;.</p>
+<p rend="noIndent"><date when="1852-03-17"><hi rend="initial">17.</hi></date> Aubert. (1). M Borchgrevink (10 (<hi rend="italic">bet</hi>) H Falk. 18 &#x2013; Waitz 16 &#x2013; M Manthey.</p>
+<p rend="noIndent"><date when="1852-03-18"><hi rend="initial">18.</hi></date> Kokkin 8 &#x2013; <hi rend="underlined">Brandt 0</hi>. &#x2013; M Dyrgren. &#x2013; Keyser (8) &#x2013; Larsens 27. &#x2013;</p>
+<p rend="noIndent"><date when="1852-03-19"><hi rend="initial">19.</hi></date> <hi rend="underlined">Sommerschild. 0</hi> Fru Flock. &#x2013; J Flock. &#x2013; Rehbinder (1) &#x2013; Grundt (1) &#x2013; V S&#x00F8;renssen (10.).</p>
+<p rend="noIndent"><date when="1852-03-20"><hi rend="initial">20.</hi></date> Berger (2) S. S&#x00F8;renssen 4. &#x2013; M<hi rend="raised">me</hi> Jessen 10. &#x2013; 0 &#x2013; Waitz 17. &#x2013;</p>
+<figure rend="leftHorizRule"/>
+<p rend="noIndent"><date when="1852-03-22"><hi rend="initial">22.</hi></date> Berger (bet.) <hi rend="underlined">Brandt 0</hi> M<hi rend="raised">me</hi> Smith 15. &#x2013; Haffner 10 &#x2013; Scheel &#x2013; Grundt (<hi rend="italic">bet</hi>) Berg 10.</p>
+<p rend="noIndent"><date when="1852-03-23"><hi rend="initial">23.</hi></date> Sommerschild. &#x2013; Bjerregaard. 2 &#x2013; 0 &#x2013; M Thilesen. &#x2013; Larsens 28 &#x0026; 29.</p>
+<p rend="noIndent"><date when="1852-03-24"><hi rend="initial">24.</hi></date> Aubert (2) M Borchgrevink. &#x2013; Falk 19. &#x2013; Krefting 3 &#x0026; 4. &#x2013; Waitz 18 &#x2013; M Manthey.</p>
+<p rend="noIndent"><date when="1852-03-25"><hi rend="initial">25.</hi></date> Kokkin 9. <hi rend="underlined">Brandt 0</hi> M Dyrgren. &#x2013; Keyser 9. &#x2013; Larsens 30. &#x2013;</p>
+<p rend="noIndent"><date when="1852-03-26"><hi rend="initial">26.</hi></date> Sommerschild. &#x2013; Fru Flock &#x2013; <hi rend="underlined">J Flock 0.</hi> Rehbinder. &#x2013; Grundt &#x2013; V S&#x00F8;renssen (1)</p>
+<p rend="noIndent"><date when="1852-03-27"><hi rend="initial">27.</hi></date> Berger. &#x2013; S. S&#x00F8;renssen 5. &#x2013; M Jessen 11 &#x2013; Falk. 20. &#x2013; Waitz 18. &#x2013;</p>
+<figure rend="leftHorizRule"/>
+<p rend="noIndent"><date when="1852-03-29"><hi rend="initial">29.</hi></date> Berger. &#x2013; <hi rend="underlined">Brandt 0</hi> M<hi rend="raised">me</hi> Smith 16. &#x2013; Haffner <hi rend="italic">11</hi> (<hi rend="italic">bet for 12</hi>) Scheel. Grundt (3) &#x2013; <hi rend="italic">Berg 0</hi></p>
+<p rend="noIndent"><date when="1852-03-30"><hi rend="initial">30.</hi></date> Sommerschild. &#x2013; Bjerregaard 3. &#x2013; E. Larsen. &#x2013; M. Thilesen. &#x2013; Larsens 31, 32.</p>
+<p rend="noIndent"><date when="1852-03-31"><hi rend="initial">31.</hi></date> Aubert 3. &#x2013; Borchgrevink. &#x2013; Falk 21. &#x2013; Waitz 19. &#x2013; M. Manthey.&#x2013;</p>
+<lb/><p rend="center"><figure><graphic url="regnestykke_s_28.jpg"/></figure></p><lb/>
+<figure rend="fullHorizRule"/>
+<p rend="noIndent"><date when="1852-03-17"><hi rend="initial">17.</hi></date> Pengeaffairen med Lindhult, Omsted og Carl K. endelig afsluttet! &#x2013; idet Omsted har bet. til mig de rest. 23 Sp 80 s.
+<lb/>&#x2014; <hi rend="italic">Concert i den lille Logesal af Ursin og hans S&#x00F8;ster</hi>. Ursin spiller godt Basun og vilde med mere Udvikling sikkert ogsaa blive en meget dygtig Violinspiller da han overh. er musikalsk. Hans S&#x00F8;ster spiller plumpt men korrekt og f&#x00E6;rdigt, endog forholdsvis musikalsk. See for&#x00F8;vr. Programmet. Begge have l&#x00E6;rt af Faderen Organist Ursin i Ullensaker; en Mand der i Bygden gaar for et selvl&#x00E6;rt Geni. &#x2013; Huset var fuldt.
+<lb/>&#x2014; Hos Hjelm ianl Geburtsd. &#x2013; Kathinka i disse Dage tilsengs; s&#x00F8;d, og taalmodig som altid.
+<lb/>&#x2013; Marie Garben er nu bleven Hoffr&#x00F8;ken hos Dronningen. &#x2013;
+<lb/>&#x2013; Min Elev Fkn Sophie Berg forlovet med Enkemanden Lieut. Schjelderup.</p>
+<lb/>
+<p rend="noIndent"><date when="1852-03-22"><hi rend="initial">22.</hi></date> Skrevet til Hans Gude og Betsy. &#x2013;
+<lb/>&#x2013; Normans op. 2 ankommen til Lindorf &#x0026; Hansen.</p>
+<p rend="noIndent"><date when="1852-03-27"><hi rend="initial">27.</hi></date> Kathinkas Geburtsdag.</p>
+<p rend="noIndent"><date when="1852-03-28"><hi rend="initial">28.</hi></date> Ny Musik til Platens Lied endelig istandbragt. &#x2013; Ude hos Lassons h&#x00F8;rer jeg Marie Garben spille &#x2013; for f&#x00F8;rste Gang, tror jeg, siden hine Dage da jeg spillede med hende. &#x2013; Den unge Due var der ogsaa og gav Meget til bedste af sine ungdommelige Compositioner. &#x2013;</p>
+<p rend="noIndent"><date when="1852-03-29"><hi rend="initial">29.</hi></date> Udkast til en Nocturne.</p>
+<p rend="noIndent"><date when="1852-03-30"><hi rend="initial">30.</hi></date> Emilie L<hi rend="raised">s</hi> Geb. &#x2013; (Marie Garben)</p>
+</div>
+<div type="chapter">
+<head type="main"><ref type="contents" target="contents_1" xml:id="chapter_4">April</ref></head>
+<p rend="center"><figure><graphic url="april1_s_30.jpeg"/></figure></p>
+<p rend="center"><figure><graphic url="april2_s_35.jpeg"/></figure></p>
+<p rend="noIndent"><date when="1852-04-01"><hi rend="initial">1.</hi></date> Kokkin 10. &#x2013; <hi rend="underlined">Brandt 0</hi>. &#x2013; Dyrgren. &#x2013; Keyser 10. &#x2013; Larsens 33.</p>
+<p rend="noIndent"><date when="1852-04-02"><hi rend="initial">2.</hi></date> Sommerschild (10 <hi rend="italic">bet</hi>.). &#x2013; Fru Flock. &#x2013; J. Flock. &#x2013; Rehbinder. &#x2013; <hi rend="underlined">Grundt 0</hi>. &#x2013; V S&#x00F8;renssen.</p>
+<p rend="noIndent"><date when="1852-04-03"><hi rend="initial">3.</hi></date> Berger. &#x2013; S. S&#x00F8;renssen 6. &#x2013; <hi rend="underlined">M. Jessen 0</hi>. &#x2013; Falk 22. &#x2013; Waitz 20.</p>
+<figure rend="leftHorizRule"/>
+<p rend="noIndent"><date when="1852-04-05"><hi rend="initial">5.</hi></date> Berger. &#x2013; <hi rend="underlined">Brandt 0</hi>. &#x2013; Mme Smith (bet. 17 T.). &#x2013; Haffner (1.) &#x2013; Scheel. &#x2013; Grundt &#x2013; <hi rend="italic">Berg 0</hi>.</p>
+<p rend="noIndent"><date when="1852-04-06"><hi rend="initial">6.</hi></date> Sommerschild. &#x2013; Falk 23 &#x2013; E. Larsen. &#x2013; M. Thilesen (10 <hi rend="italic">bet</hi>.) &#x2013; 0 &#x2013; 0</p>
+<p rend="noIndent"><date when="1852-04-07"><hi rend="initial">7.</hi></date> Aubert (4 <hi rend="italic">bet</hi>) &#x2013; M. Borchgrevink &#x2013; Bjerregaard 4. &#x2013; Krefting 5 &#x0026; 6 &#x2013; Waitz 21. &#x2013; <hi rend="underlined">Manthey 0</hi>.</p>
+<figure rend="leftHorizRule"/>
+<p rend="noIndent"><date when="1852-04-14"><hi rend="initial">14.</hi></date> Aubert (1). &#x2013; M. Borchgrevink. &#x2013; Fkn. Falk (24.) &#x2013; Waitz (22) &#x2013; <hi rend="underlined">Manthey 0</hi>.</p>
+<p rend="noIndent"><date when="1852-04-15"><hi rend="initial">15.</hi></date> Kokkin (11) &#x2013; <hi rend="underlined">Brandt 0</hi> &#x2013; Keyser (11) &#x2013; Larsens (34.)</p>
+<lb/><figure rend="fullHorizRule"/>
+<p rend="noIndent"><date when="1852-04-01"><hi rend="initial">1.</hi></date> <hi rend="italic">Theatret. &#x00AB;Emigrantens Datter&#x00BB;</hi> af Jules Sandeau. Ret smukt og godt spillet af J&#x00F8;rgensen, Smidth, Mad. Schrumpf og Wiehe.</p>
+<p rend="noIndent"><date when="1852-04-02"><hi rend="initial">2.</hi></date> Indbydelse til Grevens. &#x2013; Bekjendtskab med Kirsten Diriks (f. Stabel)</p>
+<p rend="noIndent"><date when="1852-04-03"><hi rend="initial">3.</hi></date> <hi rend="italic">En sjelden behagelig Aften i Philharmonien</hi>. Ouv. Mozarts Entf&#x00FC;hrung. 2 4st. Lieder af Mendelssohn. &#x2013; Duett for 2 Ten. af &#x00AB;Vestalin&#x00BB;. &#x2013; Flytfoglarne af Crusell (bl. Quartet m. Solo) &#x2013; 2<hi rend="raised">den</hi> Afd. var bedre: Her spillede Fru Kirsten Diriks med decidert musikalsk Sands, freidigt og behageligt Pftepartiet af <hi rend="italic">Beethovens Trio op 1. No 2 i g dur</hi> (Violin: Hals Cello: Solberg). Trine Blom sang Annas Arie i 2 Akt af Don Juan. og som Finale havde man <hi rend="italic">Chor og Solo Terzett af Haydns Aarstider</hi> (deiligt, deiligt!)
+<lb/>&#x2013; Arnold lader ikke til at ville modtage Tilbudet om en Organistpost i Gothenborg. &#x2013;</p>
+<p rend="noIndent"><date when="1852-04-04"><hi rend="initial">4.</hi></date> Vaarligt. &#x2013; To smaa Claveerstykker udarbeidede g<hi rend="raised">m</hi> 3/8. og g<hi rend="raised">d</hi> 9/8. &#x2013;
+<lb/>&#x2013; Enkedronningen efter Fr. VI. &#x271D;. i sl. af Marts.
+<lb/>d 29 f M. installeredes Senatet og Corps legislatif i Paris. Beleiringssteeder oph&#x00E6;vet.</p>
+<p rend="noIndent"><date when="1852-04-08"><hi rend="initial">8</hi></date> &#x2013; En Andante for Sopr. m Pfte i Kirkestil comp. &#x2013;
+<lb/>&#x2013; <hi rend="italic">Speratis saakaldte Passionsconcert i den store Logesal</hi>.
+<lb/>Paasken blank og temmelig kold. Stadigt Veir endnu.
+<lb/>Passionsconcerten var meget ynkv&#x00E6;rdig is&#x00E6;r ved Valget af Musik. Det Meste var noget katholsk Miskmask og Klingklang ganske uden kirkeligt Pr&#x00E6;g og andagtv&#x00E6;kkende Indhold.
+<lb/>1. For Orchestret: <hi rend="italic">en Andante religioso af Lindpaintner</hi>; ret smuk men dog ogsaa temmelig middelmaadig.
+<lb/>2. <hi rend="italic">Ave Maria for Sopr. Solo</hi> og bl. Chor. Var ret smuk; ganske katholsk men vel verdslig. (<hi rend="italic">Donizetti</hi>.)
+<lb/>3.<hi rend="italic">Miserere af Donizetti</hi>. Under al Kritik som kirkeligt Arbeide Uden Plan som Composition. Kedsommelig for M&#x00E6;ngdens &#x00D8;ren og pinefuld for Kjendere.
+<lb/>4. <hi rend="italic">Paaske Cantate af Weyse</hi> til Text af Biskop Hertz. Havde vistnok protestantisk Kirkepr&#x00E6;g; var godt sat og simpel og reen; men uden Dybde og overhovedet et middelmaadigt Leilighedsarbeide Den deri forek. 4<hi rend="raised">st</hi> Choral var udm&#x00E6;rket smukt componeret. En ret gehaltfuld Basarie (Hr. Bekkevold) forekom &#x2013; og en Terzett og Quintett. Soli: H. Falch, Hansen, Bekkevold, Damerne Blom, Marie Lasson, C. Norbye, Fru Collett.
+<lb/>5. <hi rend="italic">Tro, Haab og Kj&#x00E6;rlighed. <hi rend="italic">&#x00AB;Religi&#x00F8;se&#x00BB;</hi> Chorsange for Sopr og Alt af Rossini</hi>. Tynd, behagelig Klingklang, mere passende i en Balsal end i en Kirke.
+<lb/>6. <hi rend="italic">Libera me Domine</hi>, et Slags Requiem i Verdisk Theaterstil af <hi rend="italic">Sperati</hi>. Aldeles Fanden i Vold! &#x2013; Ikke en Tone af en Mozart, Beethoven, Haydn, H&#x00E4;ndel, Cherubini, Mendelssohn &#x2013; kort sagt en Kirkeconcert som afgiver et jammerligt Vidnesbyrd om vore musikalske Tilstande. &#x2013; Udf&#x00F8;relsen var derimod ikke saa ganske ueffen. Disse Kr&#x00E6;fter kunde v&#x00E6;re bedre anvendte. Ifjor havde man dog Rossinis Stabat og en Arie af H&#x00E4;ndel og en Motette af S. Bach; og tidligere har man givet Mendelssohnske Kirkesager, Grauns Tod Jesu, Beethovens Christus am Oelberge o.d.m. Gaa vi da tilbage?! &#x2013;</p>
+<p rend="noIndent"><date when="1852-04-16"><hi rend="initial">16.</hi></date> Sommerschild. &#x2013; Fru Flock. &#x2013; J. Flock. &#x2013; Rehbinder. &#x2013; Grundt. &#x2013; V. S&#x00F8;renssen.</p>
+<p rend="noIndent"><date when="1852-04-17"><hi rend="initial">17.</hi></date> Berger. &#x2013; <hi rend="underlined">S. S&#x00F8;renssen 0</hi> &#x2013; <hi rend="underlined">M. Jessen 0</hi> &#x2013; Fkn. Falk (25.) &#x2013; Waitz (23)</p>
+<figure rend="leftHorizRule"/>
+<p rend="noIndent"><date when="1852-04-19"><hi rend="initial">19.</hi></date> Berger. &#x2013; <hi rend="underlined">Brandt 0</hi> &#x2013; Haffner (2) &#x2013; Fkn. Scheel. &#x2013; Grundt &#x2013; <hi rend="underlined">Berg 0</hi>.</p>
+<p rend="noIndent"><date when="1852-04-20"><hi rend="initial">20.</hi></date> &#x2013; 0 &#x2013; Bjerrgaard 5 &#x2013; E. Larsen &#x2013; Thilesen. &#x2013; Larsens 35 &#x2013; 0 &#x2013;</p>
+<p rend="noIndent"><date when="1852-04-21"><hi rend="initial">21.</hi></date> &#x2013; Aubert 2 &#x2013; Borchgrevink. &#x2013; Falk 26 &#x2013; Krefting 7 &#x0026; 8 &#x2013; Waitz 24 &#x2013; Manthey.</p>
+<p rend="noIndent"><date when="1852-04-22"><hi rend="initial">22.</hi></date> Kokkin 12 &#x2013; Brandt (12 <hi rend="italic">bet</hi>) &#x2013; Dyrgren <del rend="overstrike">...</del> &#x2013; Keyser (12.) &#x2013; Larsens 36</p>
+<p rend="noIndent"><date when="1852-04-23"><hi rend="initial">23.</hi></date> Sommerschild &#x2013; Fr&#x00F8;ken Flock. &#x2013; <hi rend="underlined">Fru Flock 0</hi> &#x2013; Rehbinder. &#x2013; Grundt &#x2013; V. S&#x00F8;renssen</p>
+<p rend="noIndent"><date when="1852-04-24"><hi rend="initial">24.</hi></date> Berger &#x2013; Jessen 12 &#x2013; S. S&#x00F8;renssen 7. &#x2013; Falk 27 &#x2013; Waitz 25 &#x2013;</p>
+<figure rend="leftHorizRule"/>
+<p rend="noIndent"><date when="1852-04-26"><hi rend="initial">26.</hi></date> Berger (1) &#x2013; Brandt (1). &#x2013; <hi rend="italic">Marie Ihlen</hi> (1) &#x2013; Haffner (3) &#x2013; Scheel (10 <hi rend="italic">bet</hi>) &#x2013; Grundt. &#x2013; <hi rend="underlined">Berg</hi> 0</p>
+<p rend="noIndent"><date when="1852-04-27"><hi rend="initial">27.</hi></date> Sommerschild &#x2013; Bjergaard (6) &#x2013; E. Larsen &#x2013; Thilesen &#x2013; Larsens 37&#x2013;38.</p>
+<p rend="noIndent"><date when="1852-04-28"><hi rend="initial">28.</hi></date> Aubert (3) &#x2013; Borchgrevink &#x2013; Falk 28 &#x2013; <hi rend="italic">Jfr. &#x00D8;stmark</hi> (1) &#x2013; Waitz 26 &#x2013; Manthey.</p>
+<p rend="noIndent"><date when="1852-04-29"><hi rend="initial">29.</hi></date> Kokkin 13. &#x2013; Brandt (2) &#x2013; Dyrgren &#x2013; Keyser (13) Larsens 39. &#x2013;</p>
+<p rend="noIndent"><date when="1852-04-30"><hi rend="initial">30.</hi></date> Sommerschild &#x2013; Fru Flock &#x2013; J. Flock &#x2013; 0 &#x2013; Grundt (1) (<hi rend="italic">bet</hi>.) &#x2013; V. S&#x00F8;renssen. &#x2013;</p>
+<p rend="center"><figure><graphic url="regnestykke_s_34.jpg"/></figure></p>
+<figure rend="fullHorizRule"/>
+<p rend="noIndent"><date when="1852-04-26"><hi rend="initial">26</hi></date> April <hi rend="italic">Brev fra Gude</hi> dat Df 8<hi rend="raised">de</hi> April.</p>
+<p rend="noIndent"><date when="1852-04-30"><hi rend="initial">30</hi></date> Brev fra <hi rend="italic">Theodor</hi> af 23<hi rend="raised">de</hi> Han reiser nu fra Bonn til Harz. &#x2013;</p>
+<figure rend="fullHorizRule"/>
+<p rend="noIndent"><date when="1852-04-17"><hi rend="initial">17.</hi></date> Isen er v&#x00E6;k og Dampen gaar og &#x2013; Vaaren? kommer den snart? &#x2013; Sendt M. Garben min Elegi i g moll. &#x2013;</p>
+<p rend="noIndent"><date when="1852-04-18"><hi rend="initial">18.</hi></date> <hi rend="italic">Iformd hos Lindorf</hi>. <del rend="overstrike">Trio</del><hi rend="italic"><add place="above">Quartett</add> i A-dur af Mozart</hi> (Ursin, A. Winge og Hansen og jeg) og to Stryge-quartetter af Beethoven (C moll og D dur) U. W. H. og R. Winge.
+<lb/>&#x2013; <hi rend="italic">Confirmationsdag hos Lassons</hi> (Nils) Stort Selskab om Aftenen. Marie sang og jeg gjorde megen Lykke med mine Sange. &#x2013; Hos Lassons vare flere af de Unge syge &#x2013; Bredo laae og Emilie og Betsy vare vel oppe men &#x00AB;skrall&#x00BB; begge. W. Eriksen fuld af Enthusiasme over Maries Sang. Marie G. s&#x00F8;d og venlig. &#x2013; Magnus ogsaa s&#x00F8;d &#x2013; paa sin Maade. &#x2013;</p>
+<p rend="noIndent"><date when="1852-04-19"><hi rend="initial">19.</hi></date> <hi rend="italic">Idag reiste Mama til Grini</hi> og Huus-Reparationen begynder. &#x2013;</p>
+<p rend="noIndent"><date when="1852-04-22"><hi rend="initial">22.</hi></date> Dr. Skjelderup &#x271D; og begravet idag. &#x2013; Stiftamtmand Falsen ogsaa nylig d&#x00F8;d. &#x2013;
+<lb/> &#x2013; <hi rend="italic">Theater</hi>: det originale Skuespil Anna Colbj&#x00F8;rnsdatter. S&#x00E6;rdeles maadeligt. Derefter <hi rend="italic">Mehuls lille Operette Skatten</hi>; morsom og Musiken fin og nydelig i &#x00E6;ldre fransk Stil (J&#x00F8;rgensen. Hagen. Mme Ursin. Jfr. Klingenberg. Lund.)</p>
+<p rend="noIndent"><date when="1852-04-25"><hi rend="initial">25.</hi></date> Lidt varmere. Fast hele Dagen hos Lassons og med dem i Theatret (<hi rend="italic">Embedsiver</hi> og <hi rend="italic">Skatten</hi>.) &#x2013; Comp<hi rend="raised">t</hi> en Etude i G<hi rend="raised">d</hi> og en Adagio i Des: ganske lille &#x2013;
+<lb/>&#x2013; Oph&#x00E6;velse af Forlovelsen mel Krog og Karen Anker.
+<lb/>&#x2013; <hi rend="italic">I Phil. imorgen skal Just Lindemann spille en af ham comp Sonate for Pfte og Violin</hi> med Ursin
+<lb/>April ender med en Snefogsdag!
+<lb/>&#x2013; <hi rend="italic">Magnus</hi> er udn&#x00E6;vnt til const. Assessor ved Overretten.</p>
+</div>
+<div type="chapter">
+<head type="main"><ref type="contents" target="contents_1" xml:id="chapter_5">Mai</ref></head>
+<p rend="center"><figure><graphic url="mai1_s_36.jpeg"/></figure></p>
+<p rend="center"><figure><graphic url="mai2_s_41.jpeg"/></figure></p>
+<p rend="noIndent"><date when="1852-05-01"><hi rend="initial">1.</hi></date> 0 &#x2013; S. S&#x00F8;rensen. 8. Mm<hi rend="raised">me</hi> Jessen 13 &#x2013; Falk 29 &#x2013; 0 &#x2013;</p>
+<figure rend="leftHorizRule"/>
+<p rend="noIndent"><date when="1852-05-03"><hi rend="initial">3.</hi></date> Berger (2). &#x2013; Brandt (3) &#x2013; M. Ihlen (2). &#x2013; Haffner (4) &#x2013; Scheel &#x2013; Grundt &#x2013; <hi rend="underlined">Berg 0</hi></p>
+<p rend="noIndent"><date when="1852-05-04"><hi rend="initial">4.</hi></date> Sommerschild &#x2013; Bjerregaard 7 &#x2013; 0 &#x2013; Thilesen. &#x2013; Larsens 40&#x2013;41.</p>
+<p rend="noIndent"><date when="1852-05-05"><hi rend="initial">5.</hi></date> Aubert 4 (<hi rend="italic">bet</hi>) &#x2013; Borchgrevink &#x2013; Falk 30 &#x2013; L. &#x00D8;stmark (2) &#x2013; Waitz 27 &#x2013; Manthey.</p>
+<p rend="noIndent"><date when="1852-05-06"><hi rend="initial">6.</hi></date> Kokkin 14 &#x2013; Brandt (4) &#x2013; M. Ihlen (3) &#x2013; Dyrgren. &#x2013; Keyser (14) &#x2013; Larsen 42 &#x2013; V. S&#x00F8;renssen &#x2013;</p>
+<p rend="noIndent"><date when="1852-05-08"><hi rend="initial">8.</hi></date> Berger. &#x2013; S. S&#x00F8;renssen. 9 &#x2013; M. Jessen 14 &#x2013; Falk 31 &#x2013; Krefting 9 &#x0026; 10 (<hi rend="italic">bet</hi>). Waitz 28. &#x2013;</p>
+<figure rend="leftHorizRule"/>
+<p rend="noIndent"><date when="1852-05-10"><hi rend="initial">10.</hi></date> Berger. &#x2013; Brandt (5) &#x2013; M. Ihlen &#x2013; Haffner (5) &#x2013; Scheel &#x2013; Grundt &#x2013; <hi rend="italic">Julie Hofgaard</hi> (1)</p>
+<p rend="noIndent"><date when="1852-05-11"><hi rend="initial">11.</hi></date> Sommerschild &#x2013; Bjergaard (8) &#x2013; 0 &#x2013; Thilesen. &#x2013; Larsens 43&#x2013;44.</p>
+<p rend="noIndent"><date when="1852-05-12"><hi rend="initial">12.</hi></date> Aubert (1) &#x2013; Borchgrevink &#x2013; Falk (32) &#x2013; &#x00D8;stmark (3) &#x2013; Waitz 29 &#x2013; M Manthey.</p>
+<p rend="noIndent"><date when="1852-05-13"><hi rend="initial">13.</hi></date> Kokkin 15 &#x2013; M Ihlen 4. Dyrgren. &#x2013; <hi rend="underlined">Keyser <hi rend="italic">oph</hi>. bet. 15 T</hi>. &#x2013; Larsens 45. &#x2013; Brandt.</p>
+<p rend="noIndent"><date when="1852-05-14"><hi rend="initial">14.</hi></date> Sommerschild &#x2013; Fru Flock 10 (<hi rend="italic">9 bet</hi>) J Flock &#x2013; Rehbinder &#x2013; Grundt &#x2013; V S&#x00F8;renssen.</p>
+<p rend="noIndent"><date when="1852-05-15"><hi rend="initial">15.</hi></date> Berger &#x2013; S S&#x00F8;renssen (10) &#x2013; E Larsen &#x2013; Falk (33) &#x2013; Waitz 30 &#x2013;</p>
+<figure rend="fullHorizRule"/>
+<p><hi rend="italic"><hi rend="underlined">Mai 10</hi>.</hi> Skrevet til Theodor og Gude.</p>
+<figure rend="fullHorizRule"/>
+<p rend="noIndent"><date when="1852-05-01"><hi rend="initial">1.</hi></date> Snefoget igaar spores altfor vel. Ude paa Grini i Gaden laa Sneen paa flere Steder over 1/2 Alen dyb. &#x2013; Paa Grini var Betsy, Emilie og Nils L. Tante Sophie, Kath, Eriksen, Axel og jeg. Veiret var smukt men lidt koldt.</p>
+<p rend="noIndent"><date when="1852-05-05"><hi rend="initial">5.</hi></date> &#x2013; Der er nu atter Haab for Akers Kirke. &#x2013; Jernbanearbeidets tempor&#x00E6;re Standsning &#x2013; Fleres Afskedigelse. &#x2013; Menighedsm&#x00F8;der ang. Psalmesagen. &#x2013; Sandsynlighed for at Upsalenserne komme.
+<lb/>&#x2013; <hi rend="italic">Brev fra Lindhult i Leipzig</hi> (ank. d 5. April) yderligere om Omsteds-Sk&#x00F8;ierstreger og hele moralske Jammerlighed. &#x2013;</p>
+<p rend="noIndent"><date when="1852-05-09"><hi rend="initial">9.</hi></date> Regn og Mildhed. 10. Sol og gr&#x00F8;nt. &#x2013; Udsat nogle Sange 3 <hi rend="underlined"><hi rend="raised">st</hi></hi> for Behrens. &#x2013;
+<lb/>&#x2013; En Lap af et Honfleur &#x2013; Mad om den Lykke Tellefsen har gjort i Paris som Pianist og Compositeur. &#x2013;</p>
+<p rend="noIndent"><date when="1852-05-15"><hi rend="initial">15.</hi></date> Betsy L&#x0027;s Geburtsdag. Efter flere Dages Regn Solskin om Em. Smukt vaarligt. &#x2013;</p>
+<p rend="noIndent"><date when="1852-05-17"><hi rend="initial">17.</hi></date> Deiligt sommerligt Veir med milde Regnbyger &#x2013; Flau Folkefest. Eft om Milit&#x00E6;rfesten i Paris. Alt gik godt af &#x2013; storartet, uden sand Enthusiasme.</p>
+<p rend="noIndent"><date when="1852-05-17"><hi rend="initial">17.</hi></date> Brandt &#x2013; Berger. &#x2013; <hi rend="underlined">0 Ihlen</hi>. &#x2013; Haffner 6. &#x2013; Scheel &#x2013; 0 &#x2013; 0</p>
+<p rend="noIndent"><date when="1852-05-18"><hi rend="initial">18.</hi></date> Sommerschild &#x2013; Bjerregaard 9 &#x2013; Jessen 15 &#x2013; Thilesen &#x2013; Larsens 46. 47.</p>
+<p rend="noIndent"><date when="1852-05-19"><hi rend="initial">19.</hi></date> Aubert (2) &#x2013; Borchgrevink &#x2013; Falk 34 &#x2013; &#x00D8;stmark 4 &#x2013; Waitz 31 &#x2013; M. Manthey.</p>
+<figure rend="leftHorizRule"/>
+<p rend="noIndent"><date when="1852-05-21"><hi rend="initial">21.</hi></date> Sommerschild (10 bet). &#x2013; <hi rend="underlined">Fru Flock 0</hi> &#x2013; J Flock &#x2013; Rehbinder &#x2013; <hi rend="underlined">Grundt 0</hi>. &#x2013; V S&#x00F8;renssen.</p>
+<p rend="noIndent"><date when="1852-05-22"><hi rend="initial">22.</hi></date> Berger &#x2013; S. S&#x00F8;renssen (<hi rend="italic">bet</hi>.) 1. &#x2013; E Larsen. &#x2013; Falk 35 &#x2013; Krefting 1. 2 &#x2013; Waitz 32. &#x2013;</p>
+<figure rend="leftHorizRule"/>
+<p rend="noIndent"><date when="1852-05-24"><hi rend="initial">24.</hi></date> Berger &#x2013; 0. &#x2013; Ihlen. &#x2013; Scheel. &#x2013; Grundt. &#x2013; J. Hofgaard (2).</p>
+<p rend="noIndent"><date when="1852-05-25"><hi rend="initial">25.</hi></date> Haffner 7 &#x2013; Sommerschild &#x2013; Bjerregaard 10 &#x2013; Jessen 16 &#x2013; Thilesen &#x2013;0 &#x2013; 0.</p>
+<p rend="noIndent"><date when="1852-05-26"><hi rend="initial">26.</hi></date> Aubert (3) &#x2013; Borchgrevink (10. <hi rend="italic">bet</hi>) &#x2013; Falk (36. <hi rend="italic">afreist</hi>). &#x00D8;stmark 5 &#x2013; 0 &#x2013; M. Manthey (10 <hi rend="italic">bet</hi>).</p>
+<p rend="noIndent"><date when="1852-05-27"><hi rend="initial">27.</hi></date> <hi rend="underlined">Kokkinn 0.</hi> M. Ihlen. &#x2013; Dyrgren &#x2013; Keyser (<hi rend="italic">afreist</hi>). <hi rend="underlined">Larsen 0</hi> Brandt.</p>
+<p rend="noIndent"><date when="1852-05-28"><hi rend="initial">28.</hi></date> 0 &#x2013; Fru Flock &#x2013; J. Flock (10) &#x2013; Rehbinder. &#x2013; Grundt &#x2013; 0</p>
+<p rend="noIndent"><date when="1852-05-29"><hi rend="initial">29.</hi></date> &#x2013; 0 &#x2013; V. S&#x00F8;renssen. &#x2013;</p>
+<p rend="center"><figure><graphic url="regnestykke_s_40.jpg"/></figure></p>
+<figure rend="fullHorizRule"/>
+<p><hi rend="underlined">NB</hi> <hi rend="italic">Laant til Fr&#x00F8;ken Keyser</hi>. Beeth<hi rend="raised">s</hi> Sonater op. 10. 1.2.3. op. 27. 1. op 29. 2. og Gades Akvareller. op. 29. N<hi rend="raised">o</hi> 1 og 3. &#x2014;</p>
+<figure rend="fullHorizRule"/>
+<p rend="noIndent"><date when="1852-05-20"><hi rend="initial">20.</hi></date> Stikkende Hede; deilig Sommerluft. &#x2013; Visit hos Lt. Schjelderup paa Bellevue. Georg S som er gift med en Fkn. Kerwel og boer i Chrsand var ogsaa der. &#x2013;</p>
+<p rend="noIndent"><date when="1852-05-21"><hi rend="initial">21.</hi></date> <hi rend="italic">Skrevet til Lindhult</hi>. <hi rend="italic">Bestilt Pfte til Harris</hi>.</p>
+<p rend="noIndent"><date when="1852-05-23"><hi rend="initial">23.</hi></date> Paa Grini. Deilig Dag. Pastor Gislesen, Camilla Collett og Fru Colban. Om Fm hos Cpt <add place="above">Garbens. Marie G. og Schjelderups.</add></p>
+<p rend="noIndent"><date when="1852-05-25"><hi rend="initial">25.</hi></date> <hi rend="italic">Bryllupsdag for Kaja Lasson og Harald Meltzer</hi> og Kajas 18<hi rend="raised">de</hi> F&#x00F8;dselsdag. Vielsen forrettedes i Frelsers Kirke af Fangen. Onkel P. og Meltzers Broder vare Forlovere. Brudepigerne vare: Marie Garben, Emilie, Betsy og Lulla; Emilie Hjelm og lille Alexandra M&#x002A;. Om Aftenen var en stor Bryllupsfest. En frisk Regn havde kj&#x00F8;let Luften men man kunde dog v&#x00E6;re noget ude i den smukke Have hvor de nydelige Damers Toiletter tog sig ganske pr&#x00E6;gtigt ad. Der var bl&#x00E6;sende Musik og siden dandsedes inde. Saa stort Gj&#x00E6;stebud har Lassons neppe haft. Alt gik smukt og godt.
+<lb/>&#x2014; <hi rend="italic">Brev fra Theodor fr. Harz</hi> Clausthal.</p>
+<p rend="noIndent"><date when="1852-05-28"><hi rend="initial">28.</hi></date> Et Billede af Murillo tilh. Soults Galleri solgt til Louvre for 580.000 fr.
+<lb/>&#x2013; NB: v. Heeringens nye Notation see Leipz Illustrirte Zeitung. &#x2013;</p>
+<p rend="noIndent"><date when="1852-05-28"><hi rend="initial">28.</hi></date> Tante S og Kathinka reise imorgen til Sandefjord. <lb/>&#x2013; Et Bes&#x00F8;g hos Meltzer og Kaja i deres Bolig i Dronningens Gade, n&#x00E6;r Revieret.</p>
+</div>
+<div type="chapter">
+<head type="main"><ref type="contents" target="contents_1" xml:id="chapter_6">Juni</ref></head>
+<p rend="center"><figure><graphic url="juni1_s_42.jpeg"/></figure></p>
+<p rend="center"><figure><graphic url="juni2_s_47.jpeg"/></figure></p>
+<p rend="noIndent"><date when="1852-06-01"><hi rend="initial">1.</hi></date> Haffner 8 &#x2013; Sommerschild &#x2013; Bjergaard 1. (<hi rend="italic">bet</hi>) &#x2013; Jessen 17 &#x2013; Thilesen &#x2013; Larsen 48</p>
+<p rend="noIndent"><date when="1852-06-02"><hi rend="initial">2.</hi></date> Aubert (<hi rend="italic">bet</hi>) &#x2013; Borchgrevink (1) &#x2013; Hofgaard 3. &#x2013; &#x00D8;stmark &#x2013; Waitz 33. &#x2013; Manthey 2.</p>
+<p rend="noIndent"><date when="1852-06-03"><hi rend="initial">3.</hi></date> Kokkinn 16 &#x2013; Brandt &#x2013; Ihlen &#x2013; Dyrgren (10 <hi rend="italic">bet</hi>) &#x2013; 0 &#x2013; 0 &#x2013;</p>
+<p rend="noIndent"><date when="1852-06-04"><hi rend="initial">4.</hi></date> Sommerschild &#x2013; Fru Flock. &#x2013; <hi rend="underlined">J. Flock 0</hi> &#x2013; Rehbinder &#x2013; Grundt &#x2013; S S&#x00F8;renssen 2.</p>
+<p rend="noIndent"><date when="1852-06-05"><hi rend="initial">5.</hi></date> Berger &#x2013; V S&#x00F8;renssen (<hi rend="italic">10. bet</hi>) <hi rend="italic">oph</hi>. &#x2013; E Larsen &#x2013; Krefting 3 &#x0026; 4 &#x2013; Waitz 34.</p>
+<figure rend="leftHorizRule"/>
+<p rend="noIndent"><date when="1852-06-07"><hi rend="initial">7.</hi></date> Berger &#x2013; Brandt &#x2013; Ihlen <add place="above">(bet)</add> &#x2013; Scheel. &#x2013; 0 &#x2013;</p>
+<p rend="noIndent"><date when="1852-06-08"><hi rend="initial">8.</hi></date> Haffner 9 &#x2013; Sommerschild &#x2013; Bjergaard 2 &#x2013; Jessen 18 &#x2013; Thilesen. &#x2013; Larsen 49.</p>
+<p rend="noIndent"><date when="1852-06-09"><hi rend="initial">9.</hi></date> Aubert (1) &#x2013; Borchgrevink. &#x2013; Hofgaard 4 &#x2013; &#x00D8;stmark 7 &#x2013; 0 &#x2013; M. Manthey 3 &#x2013;</p>
+<p rend="noIndent"><date when="1852-06-10"><hi rend="initial">10.</hi></date> Kokkin 17 &#x2013; Brandt &#x2013; Ihlen (10 <hi rend="italic">bet</hi>) &#x2013; <hi rend="underlined">Ursin</hi> &#x2013; 0 &#x2013;</p>
+<p rend="noIndent"><date when="1852-06-11"><hi rend="initial">11.</hi></date> <hi rend="underlined">Sommerschild 0.</hi> &#x2013; Fru Flock &#x2013; J. Flock 1. (bet 10). &#x2013; Rehbinder (1) <hi rend="italic">bet 10</hi>. &#x2013; Grundt &#x2013;</p>
+<p rend="noIndent"><date when="1852-06-12"><hi rend="initial">12.</hi></date> Syg &#x2014;</p>
+<figure rend="leftHorizRule"/>
+<p rend="noIndent"><date when="1852-06-14"><hi rend="initial">14.</hi></date> Berger. &#x2013; Brandt &#x2013; Ihlen (1) &#x2013; <hi rend="italic">Fkn Aars</hi> (1.) &#x2013; Scheel. &#x2013; Grundt. &#x2013;</p>
+<p rend="noIndent"><date when="1852-06-15"><hi rend="initial">15.</hi></date> Haffner (10) &#x2013; Sommerschild &#x2013; Bjergaard 3 &#x2013; 0 &#x2013; Thilesen &#x2013; Larsen 50.</p>
+<p rend="noIndent"><date when="1852-06-16"><hi rend="initial">16.</hi></date> Aubert (2) Borchgrevink &#x2013; Hofgaard 5 &#x2013; &#x00D8;stmark <add place="below">bet.</add> (8) &#x2013; Waitz 35 &#x2013; Manthey.</p>
+<figure rend="fullHorizRule"/>
+<p>Tilgode d 17 Juni ialt med Fradr af Pfteleje &#x00BD; Aar; omtr 100 Spd</p>
+<figure rend="fullHorizRule"/>
+<p>d. 7<hi rend="raised">de</hi> Skrevet til Theodor. &#x2013; <hi rend="italic">29. Skrevet</hi> til Fkn Bodom og Fkn Cappelen. &#x2013; (Jonholt pr Porsgrund)</p>
+<figure rend="fullHorizRule"/>
+<p rend="noIndent"><date when="1852-06-03"><hi rend="initial">3.</hi></date> Atter varmt i Luften. Spadseret til Grini med Betsy L, Emilie, Hj. Eriksen og Axel.</p>
+<p rend="noIndent"><date when="1852-06-04"><hi rend="initial">4.</hi></date> <hi rend="italic">Fl&#x00F8;itespilleren Sau<add place="above">v</add>lets Concert for</hi> n&#x00E6;sten tomt Huus. Det er en udm&#x00E6;rket Virtuos men dog <hi rend="italic">formeget</hi> Virtuos. Hans Piano er deiligt &#x2013; forresten driver han Fl&#x00F8;iten udenfor dens Gr&#x00E6;ndser og da hv&#x00E6;ser den ogsaa alt for st&#x00E6;rkt. &#x2013;</p>
+<p rend="noIndent"><date when="1852-06-05"><hi rend="initial">5.</hi></date> Otte Medlemmer af det runde Bord om E.m. tilbaads ud til Oskarshall. Vidunderlig Aften paa Ladegaards&#x00F8;en. &#x2013; Wigwamen &#x2013; Hovedgaardshaven &#x2013; Frederiksborg &#x2013; Backer som red ud maa <del rend="overstrike">kj&#x00F8;re</del> roe hjem form. at han var fuld. &#x2013;</p>
+<p rend="noIndent"><date when="1852-06-07"><hi rend="initial">7.</hi></date> Dandserinderne Price ere nu komne og Forestillingerne med Balletdivertissements begynde iaften.
+<lb/>&#x2013; I Athen&#x00E6;et: <hi rend="italic">&#x00AB;Musikalische Briefe von einem Wohlbekannten&#x00BB;</hi> Leipzig. Baumgartner. 2 Th. &#x2013; Indeholder meget sundt og sandt. &#x2013;
+<lb/>&#x2013; Revue des deux monds for 1. Mai. H. Blaze om Nils Gade. &#x2013;
+</p>
+<p rend="noIndent"><date when="1852-06-09"><hi rend="initial">9.</hi></date> <hi rend="italic">Brev fra Theodor og Gude med T&#x00F8;nsberg</hi> der komme fra D&#x00FC;sseldorf. Th. var i Zellerfeld og agtede sig i Juni til Leipzig. &#x2013; Gude har bestemt sig til at sende et Billede til Kunstforeningen. &#x2013;</p>
+<p rend="noIndent"><date when="1852-06-14"><hi rend="initial">14.</hi></date> Siden 9<hi rend="raised">de</hi> megen Regn men dog ret mildt. &#x2013; Idag endelig V&#x00E6;relserne atter istand!</p>
+<p rend="noIndent"><date when="1852-06-15"><hi rend="initial">15.</hi></date> <hi rend="italic">Brev fra Lindhult i Leipzig om Pftet</hi> til Harris. (NB Sahr er i D&#x00FC;sseldorf og bliver der omtrent 5 Mdr..) &#x2013;</p>
+<p rend="noIndent"><date when="1852-06-17"><hi rend="initial">17.</hi></date> Kokkin 18 &#x2013; Brandt. 1. (<hi rend="italic">bet 12</hi>) &#x2013; M. Ihlen. &#x2013; Jfr Ursin (1.) &#x2013; 0 &#x2013;</p>
+<p rend="noIndent"><date when="1852-06-18"><hi rend="initial">18.</hi></date> <hi rend="underlined">Sommerschild 0</hi> <hi rend="underlined">Fru Flock</hi> J. Flock &#x2013; Rehbinder &#x2013; Grundt. &#x2013;</p>
+<p rend="noIndent"><date when="1852-06-19"><hi rend="initial">19.</hi></date> Jfr. Steen (1). &#x2013; S. S&#x00F8;renssen 3 &#x2013; E. Larsen (1) &#x2013; Krefting 5 &#x0026; 6. &#x2013; Waitz 36.</p>
+<figure rend="leftHorizRule"/>
+<p rend="noIndent"><date when="1852-06-21"><hi rend="initial">21.</hi></date> &#x2013; <hi rend="underlined">Brandt 0</hi> Ihlen. &#x2013; Aars (2) &#x2013; Scheel. &#x2013; Grundt (1)</p>
+<p rend="noIndent"><date when="1852-06-22"><hi rend="initial">22.</hi></date> Haffner 11 &#x2013; Sommerschild &#x2013; Bjergaard 4 &#x2013; Jessen 19 &#x2013; Thilesen (10 <hi rend="italic">bet</hi>) &#x2013; 0 &#x2013;</p>
+<p rend="noIndent"><date when="1852-06-23"><hi rend="initial">23.</hi></date> Aubert 3. &#x2013; Borchgrevink &#x2013; Hofgaard 6 &#x2013; &#x2013; Waiz 37 &#x2013; M. Manthey.</p>
+<p rend="noIndent"><date when="1852-06-24"><hi rend="initial">24.</hi></date> Jfr. Kokkin 19 &#x2013; 0 &#x2013; 0 &#x2013; Ursin (2) &#x2013; &#x2014;</p>
+<p rend="noIndent"><date when="1852-06-25"><hi rend="initial">25.</hi></date>
+<del rend="overstrike">Sommerschild</del></p>
+<figure rend="leftHorizRule"/>
+<p rend="noIndent"><date when="1852-06-30"><hi rend="initial">30.</hi></date> Aubert (<hi rend="italic">4 bet</hi>). <hi rend="underlined">Borchgrevink 0.</hi> Hofgaard 7 (bet. og bortreist.) &#x2013; Waiz 38 &#x2013; Manthey.</p>
+<p rend="center"><figure><graphic url="regnestykke_s_46.jpg"/></figure></p>
+<figure rend="fullHorizRule"/>
+<p rend="noIndent"><date when="1852-06-18"><hi rend="initial">18.</hi></date> Brev fra Fkn. Cappelen. &#x2013; Compt. Vaarsang af W<hi rend="raised">h</hi>, A<hi rend="raised">d</hi>.</p>
+<p rend="noIndent"><date when="1852-06-20"><hi rend="initial">20.</hi></date> Gudes nye H&#x00F8;ifjeldsbillede i Kunstfgn.
+<lb/>&#x2013; Hele Dagen Tordenluft, st&#x00E6;rk Lummerhed, pludselige Pladskregn og stekende Solskin &#x2013; ret et sydligt Sommerveir.</p>
+<p rend="noIndent"><date when="1852-06-23"><hi rend="initial">23.</hi></date> Kj&#x00F8;bt et Pianino til 160 Sp for Magnhild Bodom hos Br&#x00F8;drene Hals.</p>
+<p rend="noIndent"><date when="1852-06-24"><hi rend="initial">24.</hi></date> Upsalensernes Ankomst Kl 6 E.m. i det skj&#x00F8;nneste Veir. Da Behrens er syg maa jeg anf&#x00F8;re Sangforeningen. Modtagelsen festlig og Stemningen den meest lovende. &#x2013; Om Aftenen hos Thaulows sammen med et Par Svenske og Fru Rosenberg og Fru Munch fra Bergen.</p>
+<p rend="noIndent"><date when="1852-06-25"><hi rend="initial">25.</hi></date> Fm i Kunstfgn. &#x2013; Nat.galleriet &#x2013; Universitetet. Middag hos Richard Kf. Svenskeren G&#x00E4;llstedt. &#x2013; Aften i det deiligste Sommerveir. Studenterfest i Studenterlunden. Upsalensernes ypperlige omtr 80 M. st&#x00E6;rke Sangerchor &#x2013; Taler, Sang og Dands &#x2013; Enerhougens Arbeiderprocession &#x2013; J.A. Josephson. mfl.</p>
+<p rend="noIndent"><date when="1852-06-26"><hi rend="initial">26.</hi></date> <hi rend="italic">Ladegaardstouren</hi> fremdeles i deiligt Veir. Bekj. med flere Svenske. Alt gaar flot og godt. 2 Dampskibe Berzelius og Nordcap f&#x00F8;re os frem og tilbage. Aften i Theatret. Svenske Solosangere hos Holst. &#x2013;</p>
+<p rend="noIndent"><date when="1852-06-27"><hi rend="initial">27.</hi></date> <hi rend="italic">Tour til Sandvigen og Kolsaas</hi>. Megen Sang paa Helgerudshougen; ogsaa paa Toppen af Fjeldet. Is&#x00E6;r paa Hjemfarten deiligt Veir.</p>
+<p rend="noIndent"><date when="1852-06-28"><hi rend="initial">28.</hi></date> <hi rend="italic">Josephson, &#x00D8;rtenblad og S&#x00F8;dermark hos os om Fm</hi>. J h&#x00F8;rer Marie synge ude paa Munkedammen. &#x2013; Klingenbergfest om Aftenen &#x2013; desv&#x00E6;rre kommer Regn &#x2013;</p>
+<p rend="noIndent"><date when="1852-06-29"><hi rend="initial">29.</hi></date> Hos Josephson (Hr Neupert!). Vi bytte Compositioner. &#x2013; <hi rend="italic">Afsked i Logesalen</hi>. &#x2013; Vore Sangere og Upsalenserne (under <hi rend="italic">Oscar Arpi</hi>) vexle Sange. &#x2013; Sahlin, Svedelius, Nordwall ofl tale. &#x2013; Afreise i smukt Veir. (Hostrup fra Danmark.) Der var omtr 300 Svensker. &#x2013;</p>
+</div>
+<div type="chapter">
+<head type="main"><ref type="contents" target="contents_1" xml:id="chapter_7">Juli</ref></head>
+<p rend="center"><figure><graphic url="juli1_s_48.jpeg"/></figure></p>
+<p rend="center"><figure><graphic url="juli2_s_53.jpeg"/></figure></p>
+<p rend="noIndent"><date when="1852-07-01"><hi rend="initial">1.</hi></date> Kokkinn 20 <add place="above">bet</add> &#x2013; 0 &#x2013; Ihlen. &#x2013; Ursin 3. &#x2013; E Larsen 51. &#x2013;</p>
+<p rend="noIndent"><date when="1852-07-02"><hi rend="initial">2.</hi></date> Sommerschild. &#x2013; Fru Flock &#x2013; J. Flock. &#x2013; 0 &#x2013; <hi rend="underlined">Grundt 0</hi> &#x2013;</p>
+<p rend="noIndent"><date when="1852-07-03"><hi rend="initial">3.</hi></date> Steen (2) &#x2013; S S&#x00F8;renssen 4. &#x2013; 0 &#x2013; Jfr Krefting 7 &#x0026; 8 &#x2013; Waitz 39.</p>
+<figure rend="leftHorizRule"/>
+<p rend="noIndent"><date when="1852-07-05"><hi rend="initial">5.</hi></date> x &#x2013; Brandt. &#x2013; Ihlen (bortr 1 M<hi rend="raised">d</hi>) &#x2013; Aars 3 &#x2013; Scheel. &#x2013; <hi rend="underlined">Grundt</hi> &#x2013;</p>
+<p rend="noIndent"><date when="1852-07-06"><hi rend="initial">6.</hi></date> Haffner
+<add place="above">bet</add> 12. <hi rend="underlined">Sommerschild 0</hi>. Bjergaard 5 &#x2013; <hi rend="underlined">Jessen borte</hi> 0 &#x2013; Larsens 52.</p>
+<p rend="noIndent"><date when="1852-07-07"><hi rend="initial">7.</hi></date> Aubert (1) Thilesen. &#x2013; 0 &#x2013; 0 &#x2013; <add place="above">bet</add><hi rend="underlined">Waitz 4</hi> Manthey.</p>
+<p rend="noIndent"><date when="1852-07-08"><hi rend="initial">8.</hi></date> 0 &#x2013; Brandt &#x2013; Jfr Marie Rosing (1) &#x2013; Ursin 4. &#x2013; 0 &#x2013;</p>
+<p rend="noIndent"><date when="1852-07-09"><hi rend="initial">9.</hi></date> Jfr Rollsdorph (1) Fru Flock. &#x2013; 0 &#x2013; Grundt. (3) (bet 10). &#x2013;</p>
+<p rend="noIndent"><date when="1852-07-10"><hi rend="initial">10.</hi></date>---------------------</p>
+<p rend="noIndent"><date when="1852-07-12"><hi rend="initial">12.</hi></date> Jfr Rollsdorph (2) <add place="below">(bet og bortreist)</add>. Jfr Rosing (2). &#x2013; Scheel.&#x2013; &#x2014;</p>
+<p rend="center"><figure><graphic url="regnestykke_s_49.jpg"/></figure></p>
+<figure rend="fullHorizRule"/>
+<p rend="noIndent"><date when="1852-07-02"><hi rend="initial">2.</hi></date> <hi rend="italic">Skrevet til Theodor</hi> (Freiberg i Sachsen)</p>
+<p rend="noIndent"><date when="1852-07-05"><hi rend="initial">5.</hi></date> Skrevet til <hi rend="italic">Lindhult</hi> (m <hi rend="italic">Anvisning 200 Th. fr Harris</hi>).
+<lb/>&#x2013; Skrevet med Lindorf et Par Ord til N. Gade i Kj&#x00F8;benhavn.</p>
+<p rend="noIndent"><date when="1852-07-10"><hi rend="initial">10.</hi></date> Fru L&#x00FC;tkens reist. Thrine W. er i Bergen. &#x2013; W. Nicolaysen tilbage. &#x2013; Brev til Axel fra Gude. Cappelen bet&#x00E6;nkelig syg. &#x2013; (Comp<hi rend="raised">t</hi> 2 Sange) Svenske Blade fulde af Lovtaler over vort Studenterm&#x00F8;de. &#x2013; <hi rend="italic">Kongen reiser til Kissingen og en Interimsregjering cfr. Rigsakten er indsat</hi>. &#x2013;
+<lb/>&#x2013; I over en Uge har vi nu t&#x00F8;rt Solskinsveir med sv&#x00E6;r Hede. &#x2013;
+<lb/><hi rend="italic">Theodor faar Stipend: til Reisen 200 + de 250 som Univers. Stipendiat.</hi></p>
+<p rend="noIndent"><date when="1852-07-11"><hi rend="initial">11.</hi></date> Tidemand ank. hertil. &#x2013; <hi rend="italic">Maleren A. Cappelen er d&#x00F8;d i D&#x00FC;sseldorf</hi>. &#x2013;</p>
+<p rend="noIndent"><date when="1852-07-30"><hi rend="initial">30.</hi></date><hi rend="italic">Brev fra Lindhult</hi> med Kvittering til Rye for modt af Th 200 for Pianofortet hos Timter &#x0026; Wankell.</p>
+<p rend="noIndent"><date when="1852-07-20"><hi rend="initial">20.</hi></date> Taksigelsesskrivelse fra Studentersf<hi rend="raised">dts</hi> Direktion ianled. af min Deeltagelse som Instrukt&#x00F8;r under Studenterm&#x00F8;det. &#x2013;</p>
+<p rend="noIndent"><date when="1852-07-13"><hi rend="initial">13.&#x2013;30.</hi></date> <hi rend="italic">Udflugt til Vestlandet og til Frederikshald og Blekan</hi> i Sverige. Se Dagbok p&#x00E5; n&#x00E6;ste Side.
+<lb/>3 <hi rend="italic">Engelske Digte med Overs. Musik</hi> af Frd<hi rend="raised">kke</hi> Egeberg. 3 Stykker. No. 1 ret smuk.</p>
+<p rend="noIndent"><date when="1852-07-24"><hi rend="initial">24.</hi></date> Betzy Gude f&#x00F8;dt en Datter, Sigrid. &#x2013;</p></div>
+<div type="uchapter"><head type="sub">Udflukt i Juli</head>
+<p>Tirsdag d 13<hi rend="raised">de</hi> Med Dampsk Halden Kl 7 Morgen til Horten. Dagen er varm, Himlen skyfri. Ombord er Fru Halkj&#x00E6;r med Plejedatteren Mille.
+<lb/>Kl. mod 11 ved Horten. Skyds til Aasgaardsstrand hvor Foged Sibbern boer paa Gaarden Tejen t&#x00E6;t udenfor Byen. S. staar i Begreb med at reise til Vall&#x00F8; for derfra med Broderen Georg at gaae til Hamborg hvor dennes Forlovede Grevinde Rehhausen (den sv.n. Gesandts i London, v. R.<hi rend="raised">s</hi> fraskilte Hustru) skal hentes. &#x2013; Paa Tejen er meget pr&#x00E6;gtig Udsigt over Fjorden. Jeg bliver Natten over. Hos Agnes ere Fr&#x00F8;kenerne Messell og C. Schmidt. Af den Sidste erfarer jeg at vores Borchgrevinck har forlovet sig med hd<hi rend="raised">s</hi> S&#x00F8;ster Anna.
+<lb/>Onsd. 14<hi rend="raised">de</hi> Kl. 12 om Midd. afreist til Jarlsberg. Her er Dameindkvartering: Ovidia Keyser, Betsy Sneedorf, Erica Anker, den nye Gouvernante Alvilde Hansen fra Danmark, Fru Kirsten Diriks &#x2013; og paa Berg ere Lagertha Gude og Anna Gr&#x00F8;ntvedt med de to Smaa. Grevinden er forl&#x00E6;ngst frisk igjen og den lille Pige som endnu ei er d&#x00F8;bt, i bedste Velgaaende. Straalende deilig er Dagen og Naturen yppig over al Maade.
+<lb/>Torsd. 15<hi rend="raised">de</hi> Solskin og T&#x00F8;rke. Paa Berg om Fm. Afsted om Aftenen kl. 7 til Sandefjord netop som Baron Fritz med Julie og Herman Brunlaug arrivere til Jarlsberg. I Sandefjord kl mod 10 Aften. Logis hos Gabrielsen. Jeg tr&#x00E6;ffer Tante S og Kathinka endnu oppe. &#x2013;
+<lb/>Fredag 16<hi rend="raised">de</hi> Badeliv og Badegi&#x00E6;ster &#x2013; men t&#x00F8;rt og goldt Sted. &#x2013; Meest med Tante og Kathinka. Den s&#x00F8;de stakkels Jfr. Sundt <gap/><add place="above">E.F. desv&#x00E6;rre har det vist sig at denne Jfr. Sundts Lamhed og sine Lidelser overh. har v&#x00E6;ret opdigtede, tillegnede &#x2013; for at gj&#x00F8;re sig interessant!!</add> Capt. Thulstrup, Wraatzes, Tina Stabel, Fru Lindeman, Bogine, Wilhelmine W. J. &#x2013; Sophus Munk. &#x2013; Danske og Svenske ja endog tydske Badegi&#x00E6;ster. Jeg spiller i Salonen for Kathinka og Jfr. Sundt. &#x2013; Nogle Minutters Regn.
+<lb/>L&#x00F8;verdag 17<hi rend="raised">de</hi> I Sandefjord til kl. 6 E.M. Kj&#x00F8;rt med Tante, Kathinka og Jfr. Sundt 4 Mil ad Jarlsberg til mens min Skyds gaar bag efter. Paa Jarlsberg kl 9 Aften.
+<lb/>S&#x00F8;ndag 18 til Torsdag 22<hi rend="raised">de</hi> paa Jarlsberg. Foruden de ovenn&#x00E6;vnte er nu ogsaa Carsten Anker der. Fkn. Keyser, Fru Diriks og Baron og Baronesse reise dog allerede S&#x00F8;ndag Aften. (Forvalter Kahlberg.)
+<lb/>Torsdag 22. Forgi&#x00E6;ves Reise til Horten da Halden repareres i X<hi rend="raised">ania</hi>. Derfor atter tilbage til Jarlsberg. Om Aftenen kommer Fru Alexandrine M&#x002A; med S&#x00F8;steren den lille nydelige Prindsesse Nadine og Fru Hjelm paa Visit. &#x2013; Pragtfuldt Tordenveir og Regnby af kort Varighed men uhyre st&#x00E6;rk. Fr&#x00F8;ken Keyser tilbage.
+<lb/>Fredag. 23<hi rend="raised">de</hi> Til Middag komme Baron Herman og Nini fra Sandefjord. Jeg bes&#x00F8;ger Pr&#x00E6;ster&#x00F8;d om Aftenen og faar h&#x00F8;re Prindsessen synge og hun synger som en Artiste med udm&#x00E6;rket Skole. Stemmen er ikke betydelig men behagelig. I T&#x00F8;nsberg giver Thrine Blom Concert som jeg dog ikke gider h&#x00F8;re.</p>
+<p>L&#x00F8;verdag d 24<hi rend="raised">de</hi> Det samme klare hede Solskinsveir. Afreist kl 8 fra Jarlsberg. Kl 10 ved Horten. Ombord i Halden. Kl. 4 1/2 paa Frederikshald. Ombord er Pricerne, Bournonville, Hagen, Wiehe, Strambo og Lund. Logis i Hotellet Halden, hvor hele Personalet ogsaa er indkvarteret. &#x2013; Reissiger. &#x2013; Dhr. Holler og Erlandsen dele V&#x00E6;relse med mig. Strambo og Lund holder Skole i vores Sovesal. Indenfor holdes Pricerne i streng Afsondring. Spadseret op paa Frederiksteen ved Solnedgang.
+<lb/>S&#x00F8;ndag 25<hi rend="raised">te</hi> Jeg kj&#x00F8;rer kl mod 6 med Amundsen som skal skydse mig lige til Blekan for den rigtignok ublu Betaling af 4 Spd. Heden er br&#x00E6;ndende og St&#x00F8;vet kv&#x00E6;lende. Kl&#x00E6;ggen stikker Hesten tilblods. Idesletten er ret vakker (Dahls Landsted.) Sv&#x00E6;r Bakke op til Lundene (ny Station). Gj. pr&#x00E6;gtig Granskov forbi Or S&#x00F8; til Pr&#x00E6;stebakke. Rigsgr&#x00E6;ndsen gaar omtr 3 Ml fra Frhald midt over N. Korns&#x00F8;en. Et Stykke videre frem paa den svenske Side ligger Gi&#x00E6;stgivergaarden H&#x00F8;jen. Nu bliver Egnen styg, gold og fattig, is&#x00E6;r over T&#x00F8;ftedalsfieldet til Motra. Men ved Eds Kirke omtr 5 Ml fra Fhald er smukt. Den sidste Deel af Vejen b&#x00F8;ier mere sydlig og gaar for en stor Deel over Moser ganske j&#x00E6;vn men meget kjedsommelig, forbi Bekke Kirke (B&#x00E4;ckeforss l&#x00E6;nger borte h&#x00F8;rer W&#x00E4;rn til). Til Blekan som ligger temmelig trist i en slet dyrket <del rend="overstrike">af</del> <add place="above">paa</add> tynd Skov og Lyngmarker rig Egn, kommer jeg kl 7 om Aftenen. &#x00D8;rtenblad og Marie med B&#x00F8;rnene Herman, Maria og lille Harald ere alle hjemme. Det er en fattig Egn og et fattigt Comministerskab men der er huslig Lykke og &#x00E6;gte Religi&#x00F8;sitet.
+<lb/>Mandag 26<hi rend="raised">de</hi> Soltaage og t&#x00F8;r Bl&#x00E6;st og Hede. &#x00D8;<hi rend="raised">s</hi> have det simpelt men hyggeligt i den lille s&#x00F8;de Pr&#x00E6;stebolig. Mange Billeder, is&#x00E6;r Portraiter af Pehr S&#x00F6;dermark paa V&#x00E6;ggene. Godt Pleyelsk Pfte. &#x2013; Om Efterm komme Hedda Odelius, &#x00D8;<hi rend="raised">s</hi> S&#x00F8;ster, og Maj Almquist fra Rostok Br&#x00F8;nd. &#x2013; Aftenb&#x00F8;n.
+<lb/>Tirsdag 27<hi rend="raised">de</hi> Kl 7 Morgen med &#x00D8;<hi rend="raised">s</hi> til Rostock Br&#x00F8;nd 3/4 Ml fra Blekan. Vi ankomme som det ringer til Morgenb&#x00F8;n. Bl Br&#x00F8;ndgi&#x00E6;sterne tr&#x00E6;ffer jeg gamle Gubben &#x00D8;rtenblad fra &#x00D8;r, Fru Odelius og Almquist. Desv&#x00E6;rre ligger Pehr S&#x00F6;dermark syg i Wenersborg hvorhen Fru S. for at pleje ham er reist hen. Frokost paa Hellen hos Fru Kufle. Her forlader &#x00D8;. os. Vi derimod slutte os til Br&#x00F8;ndgi&#x00E6;sterne, som have en Udflugt fore til Hofverud. Veien er lang og st&#x00F8;vet men den l&#x00F8;nner sig. Ved Upperud Bruk (ved Bunden af Wenern) er Naturen ganske deilig. Bruket er stort og pr&#x00E6;gtigt. Deilig S&#x00F8; og frugtbart omkring; Skov og Eng. Hofverud ligger t&#x00E6;t ved, ved en S&#x00F8; der st&#x00F8;der til Wenern. Her er et Fald af stor Skj&#x00F8;nhed skj. ingen H&#x00F8;ide. Fjeldet ved den ene Side byder herlig Udsigt og er forsynet med Trapper og bebyggede Udsigter. Hofverud har betydelige Hammerv&#x00E6;rker. Vi spise i et Lysthuus ved Elveudl&#x00F8;bet. Langs Faldet gaar en Hest- Jernbane op til den &#x00F8;vre S&#x00F8;. Efter Spadseretouren drikkes Kaffe. Kl lidt over 9 ere vi atter hjemme i Blekan. Touren var arrangeret af de gifte Damer og Fru Kefle og Fru Mont&#x00E9;n pr&#x00E6;siderede. (Fru Kefles to B&#x00F8;rn &#x2013; Herredsh&#x00F6;fding Mont&#x00E9;n &#x2013; Notar R&#x00E5;berg &#x2013; Badel&#x00E6;gen &#x2013; L<hi rend="raised">t</hi> &#x00D6;rngrand med Kj&#x00E6;reste &#x2013; Bruksfuldm&#x00E6;gtigen &#x2013; den smukke unge Fru W&#x00E4;rn gift med en S&#x00F8;n af Patronen paa Baldersn&#x00E4;s &#x2013; M<hi rend="raised">lle</hi> Wenberg &#x2013; den unge Pige som for 14 Dage siden var lam paa Benene men nu atter rask, m.fl.
+<lb/>Onsdag d 28<hi rend="raised">de</hi> &#x00D8;rtenblad reiser allerede kl 9 til Skolexamen. Jeg reiser kl. 12 1/2 i den samme Hede og Soltaage over Torparne, Althorp og Skudetorp til <hi rend="italic">Baldersn&#x00E4;s</hi> omtr 3 1/2 Ml og ankommer der kl 7 Aften. Paa Vejen kommer man igiennem B&#x00E4;ckeforss Bruk og forbi H<hi rend="raised">r</hi> Cyrs Gods Dingelvik. Baldersn&#x00E4;s viser sig som et lille Paradis. Det er en smal mangebugtet omtr 1/2 Ml lang Halv&#x00F8; i Laxars&#x00F8;en, prangende i al Yppighed af Natur og Kunst &#x2013; med herlig Park, svulmende Agre og en Tr&#x00E6;gaard af st&#x00F8;rste Rigdom. Huset er af Tr&#x00E6; men construeret i let Villastil med en stor paa S&#x00F8;iler hvilende Balkon og en paa Frontispisen thronende Balderstatue. &#x00AB;Curas omitte&#x00BB;! siger Inskriptionen ved Indgangsporten til Parken. Ejeren, Brugspatron W&#x00E4;rn en af de rigeste M&#x00E6;nd i Sverige, modtager her enhver Bes&#x00F8;gende med storartet Gi&#x00E6;stfrihed &#x2013; is&#x00E6;r har han en Forkj&#x00E6;rlighed for Norm&#x00E6;nd; fordi hans Fader var norsk og fordi han sv&#x00E6;rmer for vort Lands Institutioner. Jeg blev modtaget af Gaardsfogden Mellin mens W&#x00E4;rn endnu var ude paa sin Aftenvandring. Kl 9 kom han hjem og Modtagelsen kunde ei v&#x00E6;re venligere. Hans Frue er en s&#x00F8;d, aldrende Dame. En heel Flok Paar&#x00F8;rende sad ved Aftensbordet. Jeg maatte overnatte der da jeg naturl ei kunde undslippe en saadan Gi&#x00E6;stfrihed. I Salen i 2<hi rend="raised">den</hi> Etage stod et godt Pfte og et Phisharmonika; fra 3<hi rend="raised">die</hi> Etage var den herligste Udsigt over Nesset og S&#x00F8;en paa hvis modsatte Side Billingen og Bellevue forts ligge. <hi rend="italic">1/4 Ml</hi> borte ligger Calkomidals Bruk som ejes af Sahlin, Magisterens Fader. (Lemmings S&#x00F8;n, min Sovekamerat.)
+<lb/>Torsdag 29<hi rend="raised">de</hi> Allerede 7 1/2 ved Kaffebordet. W&#x00E4;rn f&#x00F8;rer mig nu i Haven hvor Drivhusene besees og hvor jeg tegner mit Navn i Fremmedbogen; derpaa en lille gang langs Stranden &#x2013; og saa Farvel. Kl 8 1/2 gaar det afsted. Den f&#x00F8;rste Del af Veien er smuk formd de mange S&#x00F8;er. Steenby Kirke. Stationer: Taxwika og Wansj&#x00F6;. &#x2013; Ved Eds Kirke kommer jeg ud paa Veien jeg kj&#x00F8;rte til Blekan. &#x2013; Ved Matra kl 3 1/2. Herfra faar jeg Skyds ligetil Lundene i Norge. Her er fast Station. I Frdhald kl 11 1/2.
+<lb/>Fredag d 30<hi rend="raised">te</hi> Hjemreise med Halden. Statholderen er ombord og behager at underholde sig noget med min Ringhed. &#x2013; Om Aftenen sammen med de russiske Fyrstinder hos Lassons. &#x2014;
+<figure rend="longHorizRule"/> 31<hi rend="raised">te</hi> Lindorf kommet tilbage. Hilsninger fra Gade. &#x2013; Cholerine grasserer her i Byen. &#x2013; Raadmand Flock &#x271D;. &#x2013; Brev fra Theodor mens jeg var borte. Det var fra Freiberg; han skulde da gaa til M&#x00FC;nchen og videre over Tyrol til Venedig.</p></div>
+<div type="chapter">
+<head type="main"><ref type="contents" target="contents_1" xml:id="chapter_8">August</ref></head>
+<p rend="center"><figure><graphic url="aug1_s_54.jpeg"/></figure></p>
+<p rend="center"><figure><graphic url="aug2_s_59.jpeg"/></figure></p>
+<p rend="noIndent"><date when="1852-08-02"><hi rend="initial">2.</hi></date> &#x2013; Rosing &#x2013; Scheel. &#x2013;</p>
+<p rend="noIndent"><date when="1852-08-03"><hi rend="initial">3.</hi></date> Jfr Bjerregaard. 6. &#x2013;</p>
+<p rend="noIndent"><date when="1852-08-04"><hi rend="initial">4.</hi></date> Aubert (2) Thilesen. &#x2013;</p>
+<p rend="noIndent"><date when="1852-08-05"><hi rend="initial">5.</hi></date> Rosing. &#x2013;</p>
+<figure rend="leftHorizRule"/>
+<p rend="noIndent"><date when="1852-08-07"><hi rend="initial">7.</hi></date> E. Larsen. &#x2013; Krefting 9 &#x0026; 10 (<hi rend="italic">bet</hi>.).</p>
+<figure rend="leftHorizRule"/>
+<p rend="noIndent"><date when="1852-08-09"><hi rend="initial">9.</hi></date> Rosing. &#x2013; Scheel. (1)</p>
+<p rend="noIndent"><date when="1852-08-10"><hi rend="initial">10.</hi></date> Haffner. (1) Bjerregaard 7. &#x2013; M<hi rend="raised">me</hi> Smith 1. Thilesen. Larsens 53.</p>
+<p rend="noIndent"><date when="1852-08-11"><hi rend="initial">11.</hi></date> Aubert. (3). M<hi rend="raised">me</hi> Kj&#x00F8;l (Steen) 3. &#x2013; Aars (4) &#x2013; Waitz (1.) Marie Manthey.</p>
+<p rend="noIndent"><date when="1852-08-12"><hi rend="initial">12.</hi></date> Kokkinn. (1) M. Ihlen. &#x2013; Rosing. &#x2013; Larsens 54.</p>
+<p rend="noIndent"><date when="1852-08-13"><hi rend="initial">13.</hi></date> Sommerschild. (10. <hi rend="italic">bet</hi>) 9 (?).</p>
+<p rend="noIndent"><date when="1852-08-14"><hi rend="initial">14.</hi></date> E Larsen. &#x2013; Waitz (2)</p>
+<figure rend="leftHorizRule"/>
+<p rend="noIndent"><date when="1852-08-16"><hi rend="initial">16.</hi></date> 0 &#x2013; Brandt &#x2013; Ihlen &#x2013; Aars (5) &#x2013; Scheel (<hi rend="italic">2</hi>) <hi rend="italic">10 bet</hi>. &#x2013; Grundt. &#x2013;</p>
+<lb/><figure rend="fullHorizRule"/><lb/>
+<p rend="noIndent"><date when="1852-08-02"><hi rend="initial">2.</hi></date> Skrevet med Hr. Cand. Winther til Lindhult ang. et Fl&#x00FC;gel til mig hos Timmler &#x0026; Wankell for 240 Th.
+<lb/>&#x2013; Skandinavisk Maleri-Udstilling i det tekniske Lokale.</p>
+<p rend="noIndent"><date when="1852-08-10"><hi rend="initial">10.</hi></date> L. Napoleon oph&#x00E6;ver Forviisningen for endeel Personer der efter d 2. Dec maatte forlade Frankrig. Deribl Thiers, Chambord, Remusat, Duvergier d&#x0027;Hausanne, Gen. Leydet, Th. Bac mfl. &#x2013;
+<lb/>&#x2013; Sommeren har v&#x00E6;ret utaalelig varm over hele Europa; men i den sidste Tid ere heftige Regnskyl komne.</p>
+<p rend="noIndent"><date when="1852-08-16"><hi rend="initial">16.</hi></date> Moder har Brev fra Gude af 4<hi rend="raised">de</hi> om den Nyf&#x00F8;dte. &#x2013; Comp<hi rend="raised">t</hi> en Serenade af A. M.
+<lb/>&#x2013; <hi rend="italic">Vogel</hi> er bleven Organist ved Nykirken i Bergen og har extr. Underst af Statskassen for at virke som L&#x00E6;rer for Elever i Compos. og Orgelspil.
+<lb/>&#x2013; <hi rend="italic">En Russer v. Lenz</hi> har if J. d. Deb. udgivet et <hi rend="italic">omfattende V&#x00E6;rk over Beethoven</hi>, ligt Oulibicheffs over Mozart. H. Berlioz roser det meget. &#x2014;.</p>
+<p rend="noIndent"><date when="1852-08-17"><hi rend="initial">17.</hi></date> <hi rend="underlined">Haffner 2</hi> &#x2013; Rosing. &#x2013; Bjerregaard. 8. &#x2013; Smith (2). &#x2013; Thilesen. &#x2013; 00 &#x2013;</p>
+<p rend="noIndent"><date when="1852-08-18"><hi rend="initial">18.</hi></date> Aubert (4 <hi rend="italic">bet</hi>) Mme Kj&#x00F8;l 4. &#x2013; Waitz 3. &#x2013; M Manthey (bet 10.).</p>
+<p rend="noIndent"><date when="1852-08-19"><hi rend="initial">19.</hi></date> Kokkin 2. Brandt &#x2013; M. Ihlen. Larsens. 55. 56.</p>
+<p rend="noIndent"><date when="1852-08-20"><hi rend="initial">20.</hi></date> Jfr Magnus (1.) Sommerschild. &#x2013; Rehbinder. &#x2013; Grundt.&#x2013;</p>
+<p rend="noIndent"><date when="1852-08-21"><hi rend="initial">21.</hi></date> Krefting 1. &#x0026; 2. E Larsen. &#x2013; Waitz. <del rend="overstrike">4.</del> 5.</p>
+<figure rend="leftHorizRule"/>
+<p rend="noIndent"><date when="1852-08-23"><hi rend="initial">23.</hi></date> Brandt &#x2013; M. Ihlen. &#x2013; Aars 6 &#x2013; Scheel. &#x2013; Grundt. &#x2013; Rosing. &#x2013;</p>
+<p rend="noIndent"><date when="1852-08-24"><hi rend="initial">24.</hi></date> Haffner 3 &#x2013; Bjergaard 9. Smith 3. Thilesen &#x2013; Larsens 57, 58</p>
+<p rend="noIndent"><date when="1852-08-25"><hi rend="initial">25.</hi></date> Aubert (1). Mme Kj&#x00F8;ll 5 &#x2013; Waitz 4 &#x2013; <hi rend="underlined">Manthey</hi>.</p>
+<p rend="noIndent"><date when="1852-08-26"><hi rend="initial">26.</hi></date> Kokkin 3 &#x2013; Brandt &#x2013; Ihlen (bet.) 1. Dyrgren. (1) &#x2013; Larsens. 59 Rosing</p>
+<p rend="noIndent"><date when="1852-08-27"><hi rend="initial">27.</hi></date> Magnus (2) Sommerschild. &#x2013; Rehbinder &#x2013; <hi rend="underlined">Grundt 2</hi></p>
+<p rend="noIndent"><date when="1852-08-28"><hi rend="initial">28.</hi></date> E Larsen. &#x2013; 0 &#x2013;.</p>
+<figure rend="leftHorizRule"/>
+<p rend="noIndent"><date when="1852-08-30"><hi rend="initial">30.</hi></date> <hi rend="underlined">Brandt</hi> M Ihlen 1. Aars 7. &#x2013; Scheel &#x2013; <hi rend="underlined">Grundt</hi> Rosing (10 <hi rend="italic">bet</hi>)</p>
+<p rend="noIndent"><date when="1852-08-31"><hi rend="initial">31.</hi></date> Haffner 4 &#x2013; Bjerregaard 10 &#x2013; Smith 4 &#x2013; Thilesen &#x2013; Larsens <del rend="overstrike">59.60</del><add place="above">60,61</add></p>
+<p rend="center"><figure><graphic url="regnestykke_s_58.jpg"/></figure></p>
+<figure rend="fullHorizRule"/>
+<p rend="noIndent"><date when="1852-08-18"><hi rend="initial">18.</hi></date> Laant <hi rend="italic">Oulibicheff</hi> fra Univ. Bibl. Original Udg. paa Fransk, 3 Bind, Moscou 1843.</p>
+<p rend="noIndent"><date when="1852-08-21"><hi rend="initial">21.</hi></date> Studenternes Badehuus. &#x2013; Atter trykkende Hede, med deilige Aftener.
+<lb/>&#x2013; En Pianist R. Haser giver Concerter ell medvirker i Concerterne a 16 S paa Klingenberg.</p>
+<p rend="noIndent"><date when="1852-08-22"><hi rend="initial">22.</hi></date> Paabeg. Brev til Gude.</p>
+<p rend="noIndent"><date when="1852-08-23"><hi rend="initial">23.</hi></date> Et Glimt af Arnold jun. Foroni og della Santa. De have gjort en Kunstreise langs Kysten og gaa herfra tilbage til Stockholm, form uden at turde give nogen Concert her. Her gaa man nemlig ikke gierne i Concerter!</p>
+<p rend="noIndent"><date when="1852-08-24"><hi rend="initial">24.</hi></date> Regnveir. Ophold om Aftenen. Bal hos Thaulow. (Strecker og hans unge Kone, Datter af Liebig. &#x2013; Fkn. Urdahl, M. G<hi rend="raised">s</hi> Veninde.) &#x2013;</p>
+<p rend="noIndent"><date when="1852-08-26"><hi rend="initial">26.</hi></date> Comp<hi rend="raised">t</hi> paany W<hi rend="raised">s</hi> Ved Havet. D<hi rend="raised">d.</hi> 9/8.</p>
+<p rend="noIndent"><date when="1852-08-27"><hi rend="initial">27.</hi></date> Atter deilige Dage. &#x2013; Politik: Pariserfesten d 15 Aug. mislykket paa Gr af Uveir. Fortsat Tyranni. &#x2013; Tydskl<hi rend="raised">s</hi> Toldkonferentser. &#x2013; Valgene i Danmark endte; m&#x00F8;rke Udsigter for Fremtiden.</p>
+<p rend="noIndent"><date when="1852-08-29"><hi rend="initial">29.</hi></date> Kj&#x00F8;retour til Skar oppe i Maridalen og Vandring op paa Midtkollen hvorfra en pr&#x00E6;gtig Udsigt over Nordmarken, Maridalen og Fjorden i det Fjerne. I Selskab med Lassons (Ottilia. Emilie. Betsy. Kaja. Nils.) Meltzer, Axel og Erichsen.</p>
+<p rend="noIndent"><date when="1852-08-30"><hi rend="initial">30.</hi></date> Sammentr&#x00E6;f med Knegten Omsted i Lindorfs Boutik.</p>
+</div>
+<div type="chapter">
+<head type="main"><ref type="contents" target="contents_1" xml:id="chapter_9">September</ref></head>
+<p rend="center"><figure><graphic url="sept1_s_60.jpeg"/></figure></p>
+<p rend="center"><figure><graphic url="sept2_s_65.jpeg"/></figure></p>
+<p rend="noIndent"><date when="1852-09-01"><hi rend="initial">1.</hi></date> Aubert 2. M<hi rend="raised">me</hi> Kj&#x00F8;l 6. Waitz <del rend="overstrike">5</del><add place="above">6</add>. Manthey.</p>
+<p rend="noIndent"><date when="1852-09-02"><hi rend="initial">2.</hi></date> <hi rend="underlined">Kokkin</hi> Brandt. &#x2013; Ihlen &#x2013; Dyrgren &#x2013; <hi rend="underlined">Larsen 62</hi> Rosing.</p>
+<p rend="noIndent"><date when="1852-09-03"><hi rend="initial">3.</hi></date> Magnus 3 &#x2013; Sommerschild &#x2013; Rehbinder &#x2013; <hi rend="underlined">Grundt 0</hi></p>
+<p rend="noIndent"><date when="1852-09-04"><hi rend="initial">4.</hi></date> Krefting 3 og 4. &#x2013; 0 &#x2013; Waitz 6 &#x2013;</p>
+<figure rend="leftHorizRule"/>
+<p rend="noIndent"><date when="1852-09-06"><hi rend="initial">6.</hi></date> Brandt &#x2013; Ihlen &#x2013; Aars 8 &#x2013; Scheel. &#x2013;</p>
+<p rend="noIndent"><date when="1852-09-07"><hi rend="initial">7.</hi></date> Haffner 5 &#x2013; Bjerregaard (<hi rend="italic">bet</hi>) 1 &#x2013; Rosing &#x2013; 0 &#x2013; Thilesen &#x2013; Larsens 63. 64.</p>
+<p rend="noIndent"><date when="1852-09-08"><hi rend="initial">8.</hi></date> Aubert. 3. &#x2013; M<hi rend="raised">me</hi> Kj&#x00F8;l 7. Waitz 7 &#x2013; Manthey &#x2013;</p>
+<p rend="noIndent"><date when="1852-09-09"><hi rend="initial">9.</hi></date> Kokkinn 4 &#x2013; Brandt (bet) &#x2013; Ihlen &#x2013; Dyrgren &#x2013; Larsen 65 &#x2013; Rosing.</p>
+<p rend="noIndent"><date when="1852-09-10"><hi rend="initial">10.</hi></date> Magnus 4. &#x2013; Sommerschild &#x2013; Rehbinder. &#x2013;</p>
+<p rend="noIndent"><date when="1852-09-11"><hi rend="initial">11.</hi></date> Hr Greve (1) &#x2013; E Larsen &#x2013; 0 &#x2013;</p>
+<figure rend="leftHorizRule"/>
+<p rend="noIndent"><date when="1852-09-13"><hi rend="initial">13.</hi></date> Brandt &#x2013; Ihlen &#x2013; Aars 9 &#x2013; Scheel &#x2013; Rosing.</p>
+<p rend="noIndent"><date when="1852-09-14"><hi rend="initial">14.</hi></date> Haffner 6 &#x2013; Bjerrgaard 2 &#x2013; M<hi rend="raised">me</hi> Smith 5 &#x2013; Thilesen &#x2013; <hi rend="underlined">Larsens 66. 67</hi></p>
+<p rend="noIndent"><date when="1852-09-15"><hi rend="initial">15.</hi></date> Aubert. (4. <hi rend="italic">bet</hi>). <hi rend="underlined">M<hi rend="raised">me</hi> Kj&#x00F8;l. fors.</hi> Waitz 8.9. &#x2013; Manthey.</p>
+<p rend="noIndent"><date when="1852-09-16"><hi rend="initial">16.</hi></date> Kokkinn 5 &#x2013; Brandt &#x2013; Ihlen &#x2013; Dyrgreen &#x2013; 0. &#x2013; 0 &#x2013;</p>
+<figure rend="fullHorizRule"/>
+<p rend="noIndent"><date when="1852-09-03"><hi rend="initial">3.</hi></date> Endnu vedvarer Sommervarmen og svale dunkle Maaneskinsaftener. &#x2013; Comp<hi rend="raised">t</hi> 1<hi rend="raised">ste</hi> Halvdel af et lille 4<hi rend="raised">h</hi> Stykke &#x00AB;Allemande&#x00BB;.
+<lb/>&#x2013; <hi rend="italic">Brev til Moder fra Theodor</hi> <hi rend="italic">dat Venedig d 26 Sept</hi>. Han var fra Freiberg reist til M&#x00FC;nchen. Derfra efter 14 Dages Ophold til de tyrolske Alper og over Trient til Venedig.</p>
+<p rend="noIndent"><date when="1852-09-05"><hi rend="initial">5.</hi></date> Fru Paludan (Louise) fra Kbhavn hos Lassons om Aftenen.</p>
+<p rend="noIndent"><date when="1852-09-06"><hi rend="initial">6.</hi></date> &#x2013; <hi rend="italic">Kronprindsen ankommen</hi>. Han skal kommandere Leiren ved Gardermoen. &#x2013;</p>
+<p rend="noIndent"><date when="1852-09-07"><hi rend="initial">7.</hi></date> <hi rend="italic">Sendt Brev til Gude</hi>. &#x2013;
+<lb/>&#x2013; <hi rend="italic">Brev fra Lindhult. med Winther</hi> (ang. at jeg kan faa et Fl&#x00FC;gel.).
+<lb/>&#x2013; Mit 4<hi rend="raised">h</hi> Divertissement f&#x00E6;rdigt.
+<lb/>&#x2013; Stikkende Solhede endnu om Dagene! &#x2013;</p>
+<p rend="noIndent"><date when="1852-09-10"><hi rend="initial">10.</hi></date> <hi rend="italic">Theatret: Kean</hi>. En af J&#x00F8;rgensens bedste Roller. &#x2013; Forandring i Luften. &#x2013; Koldere.</p>
+<p rend="noIndent"><date when="1852-09-13"><hi rend="initial">13.</hi></date> Skrevet til Lindhult om Fl&#x00FC;gelet og Vexelen.</p>
+<p rend="noIndent"><date when="1852-09-16"><hi rend="initial">16.</hi></date> Kl. 4 1/2 Kongen og d. k. F. ankommen fra Udlandet hertil.</p>
+<p rend="noIndent"><date when="1852-09-17"><hi rend="initial">17.</hi></date> Spareb<hi rend="raised">s</hi>.laan 250 Sp. bevilget. (Endoss. Lasson. Magnus. Axel.)</p>
+<p rend="noIndent"><date when="1852-09-17"><hi rend="initial">17.</hi></date> Magnus 5 &#x2013; Sommerschild &#x2013; &#x00D8;stmark (1) &#x2013; Rehbinder &#x2013;</p>
+<p rend="noIndent"><date when="1852-09-18"><hi rend="initial">18.</hi></date> Krefting 5 og 6. &#x2013; E Larsen. &#x2013; Waitz 9. &#x2013;</p>
+<p>&#x2014;</p>
+<p rend="noIndent"><date when="1852-09-20"><hi rend="initial">20.</hi></date> Brandt &#x2013; Ihlen &#x2013; 0 &#x2013; 0 &#x2013; 0 &#x2013;</p>
+<p rend="noIndent"><date when="1852-09-21"><hi rend="initial">21.</hi></date> 0 &#x2013; Bjerregaard 3 &#x2013; M<hi rend="raised">me</hi> Smith 6. &#x2013; Thilesen. &#x2013; Larsens 68. 69.</p>
+<p rend="noIndent"><date when="1852-09-22"><hi rend="initial">22.</hi></date> Aubert 1. &#x2013; Fru Borchgrevink. &#x2013; M<hi rend="raised">me</hi> Kj&#x00F8;l 8 (<hi rend="italic">bet</hi>) &#x2013; Knudsens 1. Waitz 10 &#x2013; Mantey.</p>
+<p rend="noIndent"><date when="1852-09-23"><hi rend="initial">23.</hi></date> Kokkin 6 &#x2013; Brandt &#x2013; Ihlen &#x2013; Dyrgren. &#x2013; Larsens 70 &#x2013; Rosing.</p>
+<p rend="noIndent"><date when="1852-09-24"><hi rend="initial">24.</hi></date> Magnus 6 &#x2013; Sommerschild &#x2013; &#x00D8;stmark 2 &#x2013; Ursin 5 &#x2013; 0 &#x2013; Grundt &#x2013; Knudsen 2.</p>
+<p rend="noIndent"><date when="1852-09-25"><hi rend="initial">25.</hi></date> <hi rend="underlined">Greve 0</hi> E Larsen. &#x2013; Waitz 10.</p>
+<figure rend="fullHorizRule"/>
+<p rend="noIndent"><date when="1852-09-27"><hi rend="initial">27.</hi></date> Brandt &#x2013; Ihlen &#x2013; Aars 10 (<hi rend="italic">bet</hi>) &#x2013; Scheel (7 bet. <hi rend="italic">oph&#x00F8;rt</hi>) &#x2013; Grundt &#x2013; Rosing.</p>
+<p rend="noIndent"><date when="1852-09-28"><hi rend="initial">28.</hi></date> Haffner. 7 &#x2013; Bjerregaard 4 &#x2013; M<hi rend="raised">me</hi> Smith 7 &#x2013; Thilesen (10 bet) Larsens 71. 72.</p>
+<p rend="noIndent"><date when="1852-09-29"><hi rend="initial">29.</hi></date> Aubert 2 &#x2013; 0 &#x2013; M<hi rend="raised">me</hi> Kj&#x00F8;l (1) Knudsens 3 &#x2013; Waitz 11 &#x2013; Manthey.</p>
+<p rend="noIndent"><date when="1852-09-30"><hi rend="initial">30.</hi></date> Kokkin 7 &#x2013; Brandt &#x2013; Ihlen &#x2013; Dyrgren &#x2013; Greve (2) &#x2013; Larsens 73 &#x2013; Rosing. &#x2013;</p>
+<figure rend="fullHorizRule"/>
+<p rend="center"><figure><graphic url="regnestykke_s_64.jpg"/></figure></p>
+<figure rend="fullHorizRule"/>
+<p rend="noIndent"><date when="1852-09-18"><hi rend="initial">18.</hi></date> 2<hi rend="raised">det</hi> Hefte af mine Romancer og Sange udk. hos Lindorff. Indh: En Vaarnat, Es<hi rend="raised">d</hi> &#x2013; Syng, syng (af Th) &#x2013; Romance af Oehlenschl&#x00E4;ger &#x2013; Og vil Du v&#x00E6;re Vennen min (af Th) G<hi rend="raised">d</hi> (1<hi rend="raised">ste</hi> Hefte udk. f. A 4 Nov.)</p>
+<p rend="noIndent"><date when="1852-09-20"><hi rend="initial">20.</hi></date> <hi rend="italic">Laant paa Vexelobl 250 Sp. i Chr Sparebank fornyes 20<hi rend="raised">de</hi> Januar.</hi>
+<lb/>&#x2013; Hos Harald Holst paa Ladegaards&#x00F8;en Dejeuner kl 2 for Georg Sibbern. (W. og O. Morgenstjerne. Magnus. J. Collett. Grundt.) &#x2013;
+<lb/>&#x2013; Skrevet til Theodor.
+<lb/>&#x2013; <hi rend="italic">D<hi rend="raised">o</hi> til Lindhult med Vexel 480 Bq.</hi><add place="above">(Prinds Gustav syg.)</add> (Wellington &#x271D;.) &#x2013; <hi rend="italic">Kunstfgn</hi>. Puritanerne af Camphausen &#x2013; Genrest. af Knaus. &#x2013;</p>
+<p rend="noIndent"><date when="1852-09-23"><hi rend="initial">23.</hi></date> <hi rend="italic">Theatret</hi> &#x00AB;Mester og L&#x00E6;rling&#x00BB; af Hostrup. Meget godt deri &#x2013; (Hagen &#x2013; Wiehe &#x2013; Smidth)</p>
+<p rend="noIndent"><date when="1852-09-24"><hi rend="initial">24.</hi></date> <hi rend="italic">Idag kl 11 d&#x00F8;de Prinds Gustav paa Slottet</hi> af Nervefeber i Forb. med trondhj. Halsesyge</p>
+<p rend="noIndent"><date when="1852-09-25"><hi rend="initial">25.</hi></date> Spadseret Banelinien op til Linderud. Mildt Veir. (Prindsen obduceret.)</p>
+<p rend="noIndent"><date when="1852-09-26"><hi rend="initial">26.</hi></date> Udsat 3. 4<hi rend="raised">st</hi> Sange for Behrens (Truls &#x2013; Pilgrimssang &#x2013; V&#x00E6;ringssang)&#x2013;</p>
+<p rend="noIndent"><date when="1852-09-27"><hi rend="initial">27.</hi></date> <hi rend="italic">Brev fra Theodor til mig fra Innspruck, M&#x00FC;nchen og Bonn</hi> 23 Sept. <add place="below">is&#x00E6;r om Venedig og Kunsten i M&#x00FC;nchen</add>
+<lb/>&#x2013; Brev fra Lindhult &#x2013; Fl&#x00FC;gelet vil blive afsendt omtr d 30<hi rend="raised">te</hi>
+<lb/>&#x2013; <hi rend="italic">Nadine de Labanoff</hi> sang iaften ude hos Lassons flere Ting; hun var noget forkj&#x00F8;let men sang dog saa let, nydeligt, med et pr&#x00E6;gnant fransk-italiensk virtuosm&#x00E6;ssigt Foredrag. Pr&#x00E6;gtigt og heel dramatisk foredrog hun en Tarantelle af P. Viardot. Hun reiser nu tilbage til Paris.</p>
+<p rend="noIndent"><date when="1852-09-27"><hi rend="initial">27.&#x2013;28.</hi></date> Pr. Gustav lit de parade.</p>
+<p rend="noIndent"><date when="1852-09-28"><hi rend="initial">28.</hi></date> <hi rend="italic">Paa V&#x00E6;kker&#x00F8; hos Baron H.</hi> (Kathinka. Eriksen. Carsten Anker hjemk. fra D&#x00FC;sseldorf.)</p>
+<p rend="noIndent"><date when="1852-09-29"><hi rend="initial">29.</hi></date> <hi rend="italic">Vores V&#x00E6;rt Borchgrevink. Bryllup med Hanna Schmidt</hi>.</p>
+</div>
+<div type="chapter">
+<head type="main"><ref type="contents" target="contents_1" xml:id="chapter_10">Oktober</ref></head>
+<p rend="center"><figure><graphic url="okt1_s_66.jpeg"/></figure></p>
+<p rend="center"><figure><graphic url="okt2_s_71.jpeg"/></figure></p>
+<p rend="noIndent"><date when="1852-10-01"><hi rend="initial">1.</hi></date> Magnus 7 &#x2013; Sommerschild &#x2013; &#x00D8;stmark 3 &#x2013; Ursin 6 &#x2013; <hi rend="underlined">R 0</hi> Grundt &#x2013; Knudsen.</p>
+<p rend="noIndent"><date when="1852-10-02"><hi rend="initial">2.</hi></date> Jfr Krefting <hi rend="underlined">7 og 8 &#x2013; fors&#x00F8;mt</hi> &#x2013; 0 &#x2013; Waitz 12. &#x2013;</p>
+<figure rend="leftHorizRule"/>
+<p rend="noIndent"><date when="1852-10-04"><hi rend="initial">4.</hi></date> Brandt &#x2013; Ihlen (1) &#x2013; Aars 1 &#x2013; Rosing &#x2013; Grundt</p>
+<p rend="noIndent"><date when="1852-10-05"><hi rend="initial">5.</hi></date> Haffner 8 Bjergaard 5. (bet. <hi rend="italic">oph&#x00F8;rt</hi>) &#x2013; <hi rend="underlined">Smith 0</hi> Thilesen &#x2013; 0 &#x2013; 0</p>
+<p rend="noIndent"><date when="1852-10-06"><hi rend="initial">6.</hi></date> Aubert 3 &#x2013; <hi rend="underlined">0.</hi> M<hi rend="raised">me</hi> Kj&#x00F8;l (2) &#x2013; Knudsen. &#x2013; Waitz 13. &#x2013; Manthey.</p>
+<p rend="noIndent"><date when="1852-10-07"><hi rend="initial">7.</hi></date> Kokkinn 8 &#x2013; Brandt &#x2013; Ihlen &#x2013; Dyrgren &#x2013; Larsens 74 &#x2013; Rosing.</p>
+<p rend="noIndent"><date when="1852-10-08"><hi rend="initial">8.</hi></date> Magnus 8 &#x2013; Sommerschild &#x2013; &#x00D8;stmark 4 &#x2013; Ursin 7 &#x2013; Grundt &#x2013; Knudsens.</p>
+<p rend="noIndent"><date when="1852-10-09"><hi rend="initial">9.</hi></date> Greve 3. Ninni Wedel (1.) &#x2013; 0 &#x2013; Waitz 14.</p>
+<figure rend="leftHorizRule"/>
+<p rend="noIndent"><date when="1852-10-11"><hi rend="initial">11.</hi></date> . x. <hi rend="underlined">Brandt 0</hi> Ihlen. &#x2013; Aars 2 &#x2013; Rosing (10 bet) &#x2013; 0 &#x2014;&#x2014;</p>
+<p rend="noIndent"><date when="1852-10-12"><hi rend="initial">12.</hi></date> Haffner 9. &#x2013; M<hi rend="raised">me</hi> Smith 8 &#x2013; Thilesen. &#x2013; 0&#x2014;0&#x2014;
+</p>
+<p rend="noIndent"><date when="1852-10-13"><hi rend="initial">13.</hi></date> Aubert (4 bet) &#x2013; <hi rend="underlined">M<hi rend="raised">me</hi> Kj&#x00F8;l 0</hi> Knudsens. &#x2013; <hi rend="underlined">Waitz 0</hi> M Manthey.</p>
+<p rend="noIndent"><date when="1852-10-14"><hi rend="initial">14.</hi></date> 0 &#x2013; <hi rend="underlined">Brandt 0</hi> 0 &#x2013; Dyrgren &#x2013; Rosing &#x2013; 0 &#x2013; 0.</p>
+<p rend="noIndent"><date when="1852-10-15"><hi rend="initial">15.</hi></date> Magnus 9 &#x2013; Somerschild &#x2013; &#x00D8;stmark 5 &#x2013; Ursin 8 &#x2013; 0 &#x2013; 0.&#x2013;</p>
+<p rend="noIndent"><date when="1852-10-16"><hi rend="initial">16.</hi></date> Larsen E. &#x2013; Nini WJ (2). &#x2013; Waitz 15.</p>
+<figure rend="fullHorizRule"/>
+<p>11 Oct. &#x2013; Et underligt Brevskab fra Theodor. (Just i Prosa!)</p>
+<figure rend="fullHorizRule"/>
+<p rend="noIndent"><date when="1852-10-01"><hi rend="initial">1.</hi></date> &#x2013; Med Lindorf som imorgen reiser til Kbhvn for at holde Bryllup med Fkn. Johannsen sender jeg Expal af mine Sange til Gade, Hartman, Rung og Ploug. Tillige Brev til Erslew. &#x2013;</p>
+<p rend="noIndent"><date when="1852-10-02"><hi rend="initial">2.</hi></date> <hi rend="italic">Idag Kl 12 foregik Prinds Gustavs Bis&#x00E6;ttelse</hi> i Slotskapellet. Studenterne sang en Psalme (Text af Munch. &#x2013; Mel. Hvo ikkun lader). Arup holdt Talen. Den kgl Familie sad n&#x00E6;rmest ved Alteret paa den h&#x00F8;ire Side af Sarkofagen. Den hele Akt var simpel men yderst gribende. Jeg fik Billet af Sangf<hi rend="raised">s</hi> Bestyrelse.
+<lb/>&#x2013; <hi rend="italic">Modtaget Skr. fra Philh. S<hi rend="raised">s</hi> Direktion om at indtr&#x00E6;de som Medlem af Bestyrelsen</hi>.</p>
+<p rend="noIndent"><date when="1852-10-04"><hi rend="initial">4.</hi></date> <hi rend="italic">Iaften aabnede Theatret sin Opera med J&#x00E6;gerbruden</hi>. Wolf sang Max med frisk, st&#x00E6;rk og fuld Stemme og godt Foredrag, is&#x00E6;r godt Portamento &#x2013; hans Spil var ikke godt men heller ikke just slet. Han gjorde stor Lykke. Sandstr&#x00F8;m Casper er eg. kun Bariton og Partiet passede ei for ham &#x2013; han sang just ikke egent ilde &#x2013; men i Spillet havde han sv&#x00E6;r Kamp med Sproget. Den nye Sangerinde er som en Marionetdukke og synger med en tynd Skrigestemme uden Spor af Talent og Routine. M<hi rend="raised">me</hi> Ursin gjorde hvad hun kunde af Agathe. Chor og Udstyr efter Omst. ret gode. Speratis Tempi vare just ikke de langsomste.</p>
+<p rend="noIndent"><date when="1852-10-06"><hi rend="initial">6.</hi></date> Hos J&#x00FC;rgensens tr&#x00E6;ffer jeg <hi rend="italic">Isodor Dannstr&#x00F6;m</hi> som synger en kraftig og t&#x00E6;kkelig Bariton med god Skole. Han er Sangl&#x00E6;rer og Componist, lidt a l&#x0027;italienne. Trine Blom og hendes Fader ere der ogsaa. &#x2013;</p>
+<p rend="noIndent"><date when="1852-10-09"><hi rend="initial">9.</hi></date> Idag f&#x00F8;rtes Prinds Gustavs Lig fra Slottet ombord paa Dampcorvetten Nidaros for at bringes til Stockholm. Uhyre talrig Procession.</p>
+<p rend="noIndent"><date when="1852-10-10"><hi rend="initial">10.</hi></date> Confirmations hos Politimesteren (Saschinka) hos Hjelms og hos Statsministeren (Carl Johan). &#x2013;</p>
+<p rend="noIndent"><date when="1852-10-11"><hi rend="initial">11.</hi></date> Kongel. Families Hjemreise. <hi rend="italic">Dannstr&#x00F6;ms Concert</hi> (se avs...)</p>
+<p rend="noIndent"><date when="1852-10-12"><hi rend="initial">12.</hi></date> <hi rend="italic">Hos Fru Due med mine Sange og Romancer</hi> trykte og utrykte. Is&#x00E6;r gj&#x00F8;r et Par tydske Lykke da de ere satte i en noget yndet Maneer! &#x2013; Men Fru Due er dog altid den samme venlige og for Musik sv&#x00E6;rmende Dame.</p>
+<p><hi rend="italic">Dannstr&#x00F6;ms Concert</hi> d 11<hi rend="raised">te</hi> Samme Dag som Casinotheatret aabnes. Derfor tyndt bes&#x00F8;gt. Men god Assistance og ret smukt det Hele efter Sted og Leilighed. <hi rend="italic">Hummels d<hi rend="raised">m</hi> Quintett</hi> (Pfte Hr Hasert &#x2013; meget flink).
+<lb/><hi rend="italic">Arie af Stabat</hi> (Rossini) sg. af Dannstr&#x00F6;m &#x2013; han har ingen st&#x00E6;rk Concertstemme men synger smukt og med god Skole &#x2013; (Bariton).
+<lb/>Ursin (Basunsolo. St&#x00E4;ndchen).
+<lb/>Pr. Gustavs Hjemgang. Musik af D og Ord dertil af Moe. Leilighedsprodukt.
+<lb/><figure rend="leftHorizRule"/> 2<hi rend="raised">d</hi> Deel af Quintetten.
+<lb/>4<hi rend="raised">st</hi> svenske og norske Folkemel. arr. af D. (Fru J&#x00FC;rgensen, Tr. Blom, Wolf og D.) ret smukt satte.
+<lb/><hi rend="italic">Romance og Terzett af en af</hi> D componeret Operette. Italiensk Genre men comp. med Routine og megen Sands for det Cantable. Den store M&#x00E6;ngdes Smag, net tilberedet. Voil&#x00E0; tout. (Thrine Blom, Wolf, D.)
+<lb/><hi rend="italic">Hasert: Salonstykke</hi> &#x2013; lidt vindig i den ydre Optr&#x00E6;den &#x2013; og i Anslaget &#x2013; men virkelig en fin Pianist &#x2013; godt Foredrag pr&#x00E6;cist Anslag &#x2013; god Touche.
+<lb/>En geistl (ital!) Sang af D.
+<lb/>Comisk Duett af D. (D og Trine Blom) &#x2013; Meget Bifald.</p>
+<p rend="noIndent"><date when="1852-10-13"><hi rend="initial">13.</hi></date> <hi rend="italic">Rudolf Haserts Concert</hi>. Hasert er en flink Pianist, spiller sikkert og med Udtryk og det baade klassisk og Salon Musik. Han er ikke uden Aandrighed som Exekut&#x00F8;r &#x2013; hvad han er som Comp. veed jeg ikke.
+<lb/>Han spillede <hi rend="italic">Mendelssohns g<hi rend="raised">m</hi> Concert</hi> m Orch. Desv&#x00E6;rre var Hr. Neuperts Pianino af Bucher for haardt og dumpt at spille paa.
+<lb/>Videre: <hi rend="italic">Beeth<hi rend="raised">s</hi> uforlignelige Kreutzerske Violin og Pfte Sonate</hi> men Ursin var ei Manden til at spille et sligt Violinparti. Saa: <hi rend="italic">Thalberg Fant over Lucrece Borgia</hi>. Klang meget rigt og fuldt. Smuk Udf af Themaet. Godt d&#x00E6;mpet Spil. <hi rend="italic">Til Slut</hi>. Noget Makv&#x00E6;rk over et italienskartet Tema af Pr Gustav og Kullaks ret nydelige Perles d&#x0027;ecume.
+<lb/><hi rend="italic">Dannstr&#x00F6;m</hi> assisterede med en Bas-Arie af Mercadante og et Par Smaaviser. D. er en beskeden, t&#x00E6;kkelig Kunstner som man ret maa holde af naar han sidder ved Pianoet og synger saa douce og &#x00E6;gte musikalsk. &#x2013; Orchestret spillede et Par Ouverturer &#x2013; naturligvis af det Slags som man andetsteds henviser til a la StraussConcerterne. &#x2013; Huset var ei til at d&#x00E6;kke Udgifterne.</p>
+<p rend="noIndent"><date when="1852-10-15"><hi rend="initial">15</hi></date> Idag ankom Wankel &#x0026; Timlers Fl&#x00FC;gel og jeg er vel tilfreds med det.
+<lb/>&#x2013; Sendt med Tidemand nogle af mine Musikarbeider til Gude.</p>
+<p rend="noIndent"><date when="1852-10-16"><hi rend="initial">16.</hi></date> Fru Paludan og Fru C. Collett reiste til Kbhvn.</p>
+<figure rend="leftHorizRule"/>
+<p rend="noIndent"><date when="1852-10-18"><hi rend="initial">18.</hi></date> <hi rend="underlined">Brandt 0</hi> Ihlen. &#x2013; 0 &#x2013; Rosing. &#x2013; Grundt (10 bet) &#x2013;</p>
+<p rend="noIndent"><date when="1852-10-19"><hi rend="initial">19.</hi></date> Haffner 10. &#x2013; <hi rend="underlined">Smith</hi> Thilesen. &#x2013; Larsens 75. 76.</p>
+<p rend="noIndent"><date when="1852-10-20"><hi rend="initial">20.</hi></date> Aubert. 1. M<hi rend="raised">me</hi> Kj&#x00F8;l (3) &#x2013; Knudsens &#x2013; Waitz 16 &#x2013; M. Manthey.</p>
+<p rend="noIndent"><date when="1852-10-21"><hi rend="initial">21.</hi></date> <hi rend="underlined">Kokkin 0</hi> <hi rend="underlined">Brandt 0</hi> Ihlen. &#x2013; Dyrgren &#x2013; Rosing. &#x2013; Larsens 77. &#x2013;</p>
+<p rend="noIndent"><date when="1852-10-22"><hi rend="initial">22.</hi></date> Magnus 10 &#x2013; Sommerschild &#x2013; &#x00D8;stmark 5 &#x2013; <hi rend="underlined">Ursin 0</hi> Rehbinder &#x2013; Grundt &#x2013; Knudsen.</p>
+<p rend="noIndent"><date when="1852-10-23"><hi rend="initial">23.</hi></date> Krefting (9. 10. <hi rend="italic">bet</hi>.) Larsen. &#x2013; <hi rend="underlined">W.J.</hi> <hi rend="underlined">Waitz</hi> 17</p>
+<figure rend="leftHorizRule"/>
+<p rend="noIndent"><date when="1852-10-25"><hi rend="initial">25.</hi></date> Sophie S&#x00F8;renssen 5 (<hi rend="italic">see Juli</hi>). <hi rend="underlined">Brandt 0</hi> &#x2013; Ihlen. &#x2013; Aars 3 &#x2013; Rosing. &#x2013; Grundt. &#x2013;</p>
+<p rend="noIndent"><date when="1852-10-26"><hi rend="initial">26.</hi></date> Haffner 11 &#x2013; M<hi rend="raised">me</hi> Smith 9 &#x2013; 0 &#x2013; Larsens 78. &#x2013; 0
+</p>
+<p rend="noIndent"><date when="1852-10-27"><hi rend="initial">27.</hi></date> <hi rend="underlined">Aubert 2</hi> Mme Kj&#x00F8;l 4 &#x2013; <add place="below">Ved. S&#x00F8;renssen 1.</add> &#x2013; Knudsens &#x2013; Waitz 18 &#x2013; M Manthey.</p>
+<p rend="noIndent"><date when="1852-10-28"><hi rend="initial">28.</hi></date> <hi rend="underlined">Kokkin-Svenningsen 0</hi> Brandt &#x2013; Ihlen &#x2013; Dyrgren (10 bet) &#x2013; Rosing &#x2013; Larsen 79. Stenersen (1)</p>
+<p rend="noIndent"><date when="1852-10-29"><hi rend="initial">29.</hi></date> Magnus 11. Sommerschild. &#x00D8;stmark 6. <hi rend="underlined">Ursin 0</hi> Rehbinder. &#x2013; 0 &#x2013; Knudsen</p>
+<p rend="noIndent"><date when="1852-10-30"><hi rend="initial">30.</hi></date> Greve (4) &#x2013; Larsen <add place="above">(10 bet)</add> <hi rend="underlined">WJ</hi>. Waitz 19.</p>
+<figure rend="fullHorizRule"/>
+<p rend="center"><figure><graphic url="regnestykke_s_70.jpg"/></figure></p>
+<figure rend="fullHorizRule"/>
+<p rend="noIndent"><date when="1852-10-18"><hi rend="initial">18.</hi></date> Brev fra Ludvig <hi rend="italic">Norman i Stockholm</hi>, <hi rend="italic">Adresse</hi> <hi rend="italic">Bredgr&#x00E4;nden vid Skeppsbron. N<hi rend="raised">o</hi>. 2, 3 tr. upp.</hi> (Baade <hi rend="italic">Sahr og Bargiel</hi> have for det f&#x00F8;rste slaaet sig ned i D&#x00FC;sseldorf; <del rend="overstrike">den</del> Fiedler i Iserlohn. &#x2013; Becker gaar form. ogsaa til Df og faar Wasilewskys Plads.)
+<lb/>&#x2013; Hos Bureauchef J&#x00FC;rgensens (Dannstr&#x00F6;m &#x2013; Thrine Blom &#x2013; Wolf &#x2013; Fru Jurgensen. Fru Borchgrevink. m.fl.).</p>
+<p rend="noIndent"><date when="1852-10-19"><hi rend="initial">19.</hi></date>
+<lb/>Hos Admiralinde M&#x00FC;ller (atter Dannstr&#x00F6;m). Atter klare milde H&#x00F8;stdage.</p>
+<p rend="noIndent"><date when="1852-10-21"><hi rend="initial">21.</hi></date> <hi rend="italic">Theater Hr. og Fru M&#x00F8;ller</hi> (Wiehe) <hi rend="italic">Mus. Divertis.</hi> <hi rend="italic">Arie</hi> (Rabbinero) sg. af Dannstr&#x00F6;m. 2. Duellanterne komisk Duett af D. (D og Wolf) 3) Rungs Hjemvee (Wolf til Pfte). 4. Arie Linda (Thr. Blom til Orchester). 5 Arie Stabat Dannstr&#x00F6;m, Orch. <hi rend="italic">6 Trio</hi> af Verdis Lombardi (Hult Gods). Pianoet var forstemt og Orch.spillede s&#x00F8;vnagtigt hvorved da naturl Nydelsen for en stor Deel gik F. i Vold. Og saa Ouvert af Gazza (Applaus!) og le Pr&#x00E8; !!
+<lb/>&#x2013; 19. <hi rend="italic">Thorvald K. kommet hjem fra London</hi>. <hi rend="italic">Imorgen reiser Dannstr&#x00F6;m</hi>&#x2013; Vi taltes meget ved og han lovede at introducere min Musik i Sverrig (faut voir!) Jeg sendte med ham 2<hi rend="raised">d</hi> H. af R. og S. til Josephson og L. Norman, tillige Album til denne sidste. &#x2013;
+<lb/>En Norsk Musiker fra Tdhjem <hi rend="italic">Udbye</hi> har udg. hos Schuberth op 1. Strygekvartett tilegnet sin L&#x00E6;rer M. Hauptmann &#x2013; &#x2013; Og det veed man her f&#x00F8;rst nu! &#x2014;
+<lb/>&#x2013; Musikhandler Josephson i Stockholm sender L &#x0026; H. en heel Ladning svensk Musik.</p>
+<p rend="noIndent"><date when="1852-10-24"><hi rend="initial">24.</hi></date> <hi rend="italic">Tvende ypperlige Sendelser fra D&#x00FC;sseldorf</hi>: Betsy Gudes Portrait af Sohn og Tidemands Gjentagelse af Haugianerne i Nationalgalleriet. &#x2013;
+<lb/>24. Megen Snee med Nordenvind.</p>
+<p rend="noIndent"><date when="1852-10-25"><hi rend="initial">25.</hi></date> <hi rend="italic">Bulletins om Kongens Sygdom</hi>. &#x2013;</p>
+<p rend="noIndent"><date when="1852-10-28"><hi rend="initial">28.</hi></date> <hi rend="italic">Skrevet til Norman</hi>.</p>
+<p>d. 29. Skrevet til Grevinde W. J. &#x2013;</p>
+<p rend="noIndent"><date when="1852-10-29"><hi rend="initial">29</hi></date>
+<lb/>Jacob Hansen, Lindorfs hidtilv&#x00E6;rende Compagnon forlader nu Norge og bos&#x00E6;tter sig i Kbhvn. Firmaet er nu Lindorff &#x0026; Co. &#x2013;
+<lb/>&#x2013; <hi rend="italic">Kongen har Nervefeber og Interimsregjeringen er tilforordnet</hi>.</p>
+</div>
+<div type="chapter">
+<head type="main"><ref type="contents" target="contents_1" xml:id="chapter_11">November</ref></head>
+<p rend="center"><figure><graphic url="nov1_s_72.jpeg"/></figure></p>
+<p rend="center"><figure><graphic url="nov2_s_77.jpeg"/></figure></p>
+<p rend="noIndent"><date when="1852-11-01"><hi rend="initial">1.</hi></date> S. S&#x00F8;renssen 6. &#x2013; Brandt &#x2013; Ihlen &#x2013; Aars 4 &#x2013; Rosing &#x2013; Grundt &#x2013;</p>
+<p rend="noIndent"><date when="1852-11-02"><hi rend="initial">2.</hi></date> Haffner 12 &#x2013; V S&#x00F8;renssen &#x2013; M Smith (10 bet) &#x2013; Thilesen. &#x2013; Larsens 80.</p>
+<p rend="noIndent"><date when="1852-11-03"><hi rend="initial">3.</hi></date> Aubert (3). M Kj&#x00F8;l 5 &#x2013; Knudsens (bet ...) &#x2013; Waitz 20 &#x2013; M. Manthey 2 (10 bet)</p>
+<p rend="noIndent"><date when="1852-11-04"><hi rend="initial">4.</hi></date> J. Norbye (1) Brandt &#x2013; 0. &#x2013; <hi rend="underlined">Dyrgren 0</hi> Rosing. &#x2013; Larsen 81. &#x2013; 0.</p>
+<p rend="noIndent"><date when="1852-11-05"><hi rend="initial">5.</hi></date> Magnus 12 &#x2013; Sommerschild <add place="above">(bet 10)</add> &#x2013; &#x00D8;stmark 7. <hi rend="underlined">Ursin 0</hi> <hi rend="underlined">Rehbinder 0</hi> &#x2013; Grundt. &#x2013; Knudsen.</p>
+<p rend="noIndent"><date when="1852-11-06"><hi rend="initial">6.</hi></date> Krefting (1 &#x0026; 2.) Larsen. &#x2013; N. Wedel J. &#x2013; O. Stenersen 2 &#x2013; <hi rend="underlined">Waitz 20</hi>.</p>
+<figure rend="leftHorizRule"/>
+<p rend="noIndent"><date when="1852-11-08"><hi rend="initial">8.</hi></date> S. S&#x00F8;renssen 7. &#x2013; Brandt (bet) Ihlen. &#x2013; Aars 5. &#x2013; Rosing &#x2013; Grundt.</p>
+<p rend="noIndent"><date when="1852-11-09"><hi rend="initial">9.</hi></date> Haffner 13. &#x2013; V S&#x00F8;renssen. &#x2013; M Smith (1). &#x2013; Thilesen. &#x2013; 0 &#x2013;</p>
+<p rend="noIndent"><date when="1852-11-10"><hi rend="initial">10.</hi></date> Aubert (4). <hi rend="underlined">M<hi rend="raised">me</hi> Kj&#x00F8;l 0</hi> Knudsen. &#x2013; Waitz 21. <hi rend="underlined">Manthey 0</hi> Svenningsen <add place="above">9</add></p>
+<p rend="noIndent"><date when="1852-11-11"><hi rend="initial">11.</hi></date> Norbye (2) &#x2013; Brandt &#x2013; Ihlen (10 bet) Dyrgren. &#x2013; Rosing &#x2013; 0 &#x2013; M Stenersen (1)</p>
+<p rend="noIndent"><date when="1852-11-12"><hi rend="initial">12.</hi></date> Magnus 13 Sommerschild &#x2013; &#x00D8;stmark 8. &#x2013; Rehbinder (bet 10) Grundt &#x2013; Knudsen</p>
+<p rend="noIndent"><date when="1852-11-13"><hi rend="initial">13.</hi></date> Greve (5) &#x2013; 0 &#x2013; N. Wedel J. &#x2013; Waitz (22).</p>
+<figure rend="leftHorizRule"/>
+<p rend="noIndent"><date when="1852-11-15"><hi rend="initial">15.</hi></date> S S&#x00F8;renssen (8) Brandt &#x2013; Ihlen (1) Aars 6 &#x2013; Rosing (bet. <hi rend="italic">reist</hi>) Grundt &#x2013; Stenersen 3.</p>
+<p rend="noIndent"><date when="1852-11-16"><hi rend="initial">16.</hi></date> Haffner 14 &#x2013; V S&#x00F8;renssen &#x2013; 0 &#x2013; Thilesen &#x2013; Larsens 82&#x2013;83.</p>
+<figure rend="fullHorizRule"/>
+<p rend="noIndent"><date when="1852-11-09"><hi rend="initial">9.</hi></date> <hi rend="italic">Brev fra Gude af 1 Nov, og fra Theodor som nu er i Heidelberg</hi>. Nye Reisebreve fra ham. (I M&#x00FC;nchen og Tizians Monument.)</p>
+<lb/><figure rend="leftlongHorizRule"/><lb/>
+<p rend="noIndent"><date when="1852-11-01"><hi rend="initial">1.</hi></date> I Chrposten for igaar det m&#x00E6;rkelige Brev fra Amerikanske Bl. om <hi rend="italic">Ole Bulls Colonisationsplaner i Pennsylvanien</hi>.</p>
+<p rend="noIndent"><date when="1852-11-03"><hi rend="initial">3.</hi></date> Fru Lindorfs Sang er ganske flink; godt Foredrag, Varme og Udtryk &#x2013; Stemmen er mindre behagelig, skj&#x00F8;nt just ikke tynd.</p>
+<p rend="noIndent"><date when="1852-11-04"><hi rend="initial">4.</hi></date> <hi rend="italic">I Theatret &#x00AB;Skatten&#x00BB;</hi> (J&#x00F8;rgensen og Hagen fortr&#x00E6;ffelige). Musikalsk Intermezzo:
+<lb/>Ouv. Gade Efterkl af Ossian (a<hi rend="raised">m</hi>) langt over Orch<hi rend="raised">s</hi> Kr&#x00E6;fter hvad <hi rend="italic">Opfatning</hi> is&#x00E6;r angaar. &#x2013; <hi rend="italic">Jonas Falsen deklamerede som Gi&#x00E6;st Skjoldm&#x00F8;slaatten</hi> af Munch uhyre flaut og dilettantisk &#x2013; <hi rend="italic">Wiehes Aasgaardsreien</hi> var en lysende Sol i Mods&#x00E6;tning hertil. Sandstr&#x00F6;m sang et Par Romancer ret taalelig, men t&#x00F8;rt. En ny svensk Sangerinde <hi rend="italic">Dem. L&#x00F8;fgr&#x00E9;n</hi>, blond og ung, sang to Arier (Barbi&#x00E8;re og en af Donizetti) Hun har en fuld, kraftig, b&#x00F8;ielig Stemme og skj hendes Foredrag langt fra r&#x00F8;bede den f&#x00E6;rdige Sangerinde, var det dog lovende. Og hun burde vist ansees som en Acquisition J Falsen gav til Slut som Herren i Seer Jer i Speil en Pr&#x00F8;ve paa et meget maadeligt og temmelig schofelt Comediespil. M<hi rend="raised">me</hi> Schrumpf var straalende ved hans Side. &#x2013;
+<lb/>&#x2013; Kongen fremdeles syg. Prindsesse Eugenie er ogsaa blevet syg. &#x2013; 9. Begges Sygdom farlig.</p>
+<p rend="noIndent"><date when="1852-11-09"><hi rend="initial">9.</hi></date> <hi rend="italic">Musik Aften hos Lassons</hi>. Quartetter af S. A. T og B. (Kaja K. Caroline Norbye. Fr&#x00F8;ken Blom. Marie L. Carl K. N Nicolaysen Winge, Erichsen Chr Lasson.) <hi rend="italic">Terzett af Cos&#x00ED; fan tutte</hi> (Kaja K. Fkn Norby. Erichsen). <hi rend="italic">Sextett af Don Juan</hi> (Marie L. Tr. Blom. Kaja K. <gap/> Wolff. W. Lassen. Erichsen. <hi rend="italic">Duett af Joseph</hi> (Wolf, Marie). <hi rend="italic">Duett af Don Juan</hi> (Wolf. Frk Blom). <hi rend="italic">Marienlied af K&#x00FC;cken</hi> (Erichsen og Damerne, Betsy ogsaa!). <hi rend="italic">Preghiera af Moses</hi> (Samtlige Medlemmer.).</p>
+<p rend="noIndent"><date when="1852-11-12"><hi rend="initial">12.</hi></date> Bedre Bulletins om Kongen. Prindsessen fremdeles farlig syg. &#x2013; Marie L<hi rend="raised">s</hi> Geb. <hi rend="bold">13.</hi> Agnes Anker kommen hertil fra Jarlsberg med M. G. Hun var ifm hos Mor og tilstod at hun og Th vare forlovede hemmeligt. &#x2013;</p>
+<p rend="noIndent"><date when="1852-11-13"><hi rend="initial">13.</hi></date> <hi rend="italic">Philh. S. 1<hi rend="raised">ste</hi> Samling</hi> (see paa n&#x00E6;ste Side) <hi rend="bold">14.</hi> Agnes Anker hos os. &#x2013;</p>
+<p rend="noIndent"><date when="1852-11-14"><hi rend="initial">14.</hi></date> Bedre Bulletins om Kongen og Eugenie.</p>
+<p rend="noIndent"><date when="1852-11-13"><hi rend="initial">13.</hi></date> <hi rend="italic">1<hi rend="raised">ste</hi> Samling i Philh. S.</hi> (adm. dir. Backer).
+<lb/>1. Sonate i B. for Pfte og Cello af Mendelssohn, med dens deilige Andante i g<hi rend="raised">m</hi> udf af Fru Pihl og A. Winge.
+<lb/>2. <hi rend="italic">Arie m Rec. af Glucks Orfeus</hi> Che faro senz&#x0027; Euridice. Fru Jurgensen. &#x2013; Jeg accomp.
+<lb/>3. Mandsquartett af Arnold. Wanderlied af Z&#x00F6;llner.
+<lb/>II. 4. (Med Orchester hele anden Afdeling)
+<lb/>Ouv: Hvide Dame
+<lb/>Introd. med Soldaterarien af do.
+<lb/>Solo, <hi rend="italic">Georg</hi>: Lassen <hi rend="italic">Dickson</hi> Wolf. <hi rend="italic">Jenny</hi> Fru J&#x00FC;rgensen.
+<lb/>Margerets Spindevise af 2d Akt: Caroline Norby.
+<lb/>Trio i C. <hi rend="italic">Morley</hi>: H Falch <hi rend="italic">Anna</hi>: Fru J&#x00FC;rgensen <hi rend="italic">Margot</hi> C. Norbye.
+<lb/>(<hi rend="italic">Trykt Program</hi>, en af mig indf. Forbedring.)
+<lb/><lb/>&#x2013; I denne Tid er Sprogsagen meget omdebatteret. Den nye norske Theaterstab vil indf&#x00F8;re et nyt exklusivt Norsk til Forskel for Dansken og vort gieldende Skriftsprog &#x2013; Monrad og Overl&#x00E6;rer Knudsen ivre herfor, og mangen af den gr&#x00F8;nne Ungdom. &#x2013; Et ypperlig Indl&#x00E6;g i Striden er Fr. Bugges Overs&#x00E6;ttelse af Iliadens 3 f&#x00F8;rste Sange paa ny-norsk, vide en Kritik i Xaniaposten. &#x2014;</p>
+<p rend="noIndent"><date when="1852-11-17"><hi rend="initial">17.</hi></date> Aubert. (1) &#x2013; <hi rend="underlined">Svenningsen 10</hi> 0 &#x2013; 0 &#x2013; Waitz 23 &#x2013; M Manthey.</p>
+<p rend="noIndent"><date when="1852-11-18"><hi rend="initial">18.</hi></date> Norbye &#x2013; <hi rend="underlined">Brandt</hi> Ihlen &#x2013; Dyrgren &#x2013; M Stenersen 2 &#x2013; Larsens 84.</p>
+<p rend="noIndent"><date when="1852-11-19"><hi rend="initial">19.</hi></date> Magnus 14 &#x2013; Sommerschild &#x2013; &#x00D8;stmark 9 &#x2013; Ursin 9 &#x2013; Rehbinder &#x2013; Grundt <add place="above">(bet 10)</add> &#x2013; Knudsens</p>
+<p rend="noIndent"><date when="1852-11-20"><hi rend="initial">20.</hi></date> <hi rend="underlined">Krefting 3 &#x0026; 4</hi> <hi rend="underlined">Larsen 0</hi> Ninni W. J. &#x2013; 0 &#x2013;</p>
+<figure rend="leftHorizRule"/>
+<p rend="noIndent"><date when="1852-11-22"><hi rend="initial">22.</hi></date> S&#x00F8;renssen 9 &#x2013; <hi rend="underlined">Brandt 0</hi> Ihlen &#x2013; Aars 7 &#x2013; Grundt &#x2013; O Stenersen. &#x2013;</p>
+<p rend="noIndent"><date when="1852-11-23"><hi rend="initial">23.</hi></date>&#x2013; 0 &#x2013; V. S&#x00F8;renssen &#x2013; M<hi rend="raised">me</hi> Smith 2 &#x2013; Thilesen &#x2013; Larsens 85.</p>
+<p rend="noIndent"><date when="1852-11-24"><hi rend="initial">24.</hi></date> Aubert 2 &#x2013; Svenningsen &#x2013; <hi rend="italic">M Kj&#x00F8;l 6</hi> &#x2013; Knudsens &#x2013; Waitz 24 &#x2013; Manthey.</p>
+<p rend="noIndent"><date when="1852-11-25"><hi rend="initial">25.</hi></date> Norbye &#x2013; <hi rend="underlined">Brandt 0</hi> Ihlen &#x2013; Dyrgren &#x2013; M Stenersen 3 &#x2013; Larsens 86</p>
+<p rend="noIndent"><date when="1852-11-26"><hi rend="initial">26.</hi></date> Magnus 15 &#x2013; Somerschild &#x2013; &#x00D8;stmark 10 &#x2013; Ursin 10 &#x2013; Rehbinder &#x2013; Grundt &#x2013; Knudsens.</p>
+<p rend="noIndent"><date when="1852-11-27"><hi rend="initial">27.</hi></date> Krefting (see ovenfor) Larsen &#x2013; <hi rend="underlined">W. J. 0</hi> Waitz 25. <hi rend="underlined">Greve 0</hi></p>
+<figure rend="leftHorizRule"/>
+<p rend="noIndent"><date when="1852-11-29"><hi rend="initial">29.</hi></date> S&#x00F8;renssen 10 &#x2013; <hi rend="underlined">Brandt 0</hi> Ihlen &#x2013; Aars 8 &#x2013; Grundt &#x2013; O Stenersen.</p>
+<p rend="noIndent"><date when="1852-11-30"><hi rend="initial">30.</hi></date> Haffner 15 &#x2013; V S&#x00F8;renssen &#x2013; <hi rend="underlined">M<hi rend="raised">me</hi> Smith 30</hi> <hi rend="underlined">Thilesen 0</hi> 0 &#x2013;</p>
+<figure rend="fullHorizRule"/>
+<p rend="center"><figure><graphic url="regnestykke_s_76.jpg"/></figure></p>
+<figure rend="fullHorizRule"/>
+<p rend="noIndent"><date when="1852-11-17"><hi rend="initial">17.</hi></date> Bes&#x00F8;gt Fru Diriks &#x2013; (Kirsten Stabell). &#x2013; Aften Barnebal hos Lassons, hvor ogsaa mange Voxne vare. Bl.a. Agnes og Marie G.</p>
+<p rend="noIndent"><date when="1852-11-18"><hi rend="initial">18.</hi></date> I Theatret atter <hi rend="italic">Ossians Ouver</hi> dennegg meget bedre. &#x2013; <hi rend="italic">Jurabjerget af Oehl melodr. behandl. af Hartman</hi>, smukt naar ei Genren var mig imod. Mad. Schrumpf deklamerede.</p>
+<p rend="noIndent"><date when="1852-11-20"><hi rend="initial">20.</hi></date> Comp<hi rend="raised">t</hi> en Balvise til Sangfgn. Text af Welhaven.</p>
+<p rend="noIndent"><date when="1852-11-21"><hi rend="initial">21.</hi></date> Comp<hi rend="raised">t</hi> et Klaveerstykke i F<hi rend="raised">d</hi> til Fru Diriks nye Instrument.
+<lb/>&#x2013; Om Aftenen Welhavens og Agnes A. oppe hos os.</p>
+<p rend="noIndent"><date when="1852-11-22"><hi rend="initial">22.</hi></date> Stort Snefald og Snefog &#x2013; n&#x00E6;sten ufremkommeligt. &#x2013; Sprogstriden. &#x2013; Kongens Sygdom bet&#x00E6;nkeligere &#x2013; Mere om O. Bull i Amerika &#x2013; Bogen: Uncle Toms Cabin.
+<lb/>&#x2013; I L&#x00F8;verdags havde Georg Sibbern paa Klosteret Bryllup med Grev Rehhausens fraskilte Hustru. &#x2013;</p>
+<p rend="noIndent"><date when="1852-11-24"><hi rend="initial">24.</hi></date> Frostveir og herligt F&#x00F8;re. &#x2013; <hi rend="italic">Hos Wessels</hi> en hyggelig Aften med Agnes, Marie Garben, Fr&#x00F8;ken Urdal og Hartvig Lassen. &#x2013;</p>
+<p rend="noIndent"><date when="1852-11-25"><hi rend="initial">25.</hi></date> Q<hi rend="italic">uartettens Samling hos Norbyes</hi>. Ikke Wolf og Lassen. Carls Philisteri. Der blev sunget Smaaquartetter af Mendelssohn &#x2013; Marie L og Trine Blom sang en Duo af Tancred og strax skulde Kaja og Caroline trumfe dem over med en anden d<hi rend="raised">o</hi> af d<hi rend="raised">o</hi> Men det gik slet.</p>
+<p rend="noIndent"><date when="1852-11-26"><hi rend="initial">26.</hi></date> <hi rend="italic">Hos Lindorffs hvor Octetterne af Gade og Mendelssohn fors&#x00F8;gtes</hi>. Item en Quintett af Gade og en d<hi rend="raised">o</hi> af Onslow. De Exekuterende vare Hals. Ursin. Monrad. Winge. A. Winge. Johnsen. Solberg. og (?) &#x2013; Arnold var ogsaa tilstede. Han synes at v&#x00E6;re decideret anti-Mendelssohnianer.</p>
+<p rend="noIndent"><date when="1852-11-27"><hi rend="initial">27.</hi></date> <hi rend="italic">Inviteret til Marie Thilesen</hi> hvor der var stor Soiree (Bl.a. begge S&#x00F8;strene Blom. Ursin m. Kone. Jfr. Svendsen. Fr&#x00F8;ken L&#x00F8;vgren (en kvik Mamsell!) den tykke Bunsebolla, Marie Borchgrevink m.fl. &#x2013; Megen Tale der om Beslutn. at opsige hele Theaterpers. til April. (Dura necessitas.)</p>
+<p rend="noIndent"><date when="1852-11-28"><hi rend="initial">28.</hi></date> <hi rend="italic">Gl&#x00E6;deligere Efterr. om Kongen. Tegn til virkelig Reconvalescents</hi>.
+<lb/>&#x2013; <hi rend="italic">Tellefsen i Paris har skrevet et Klavierstykke Elegie til Pr. Gustavs Minde</hi>. Trykt i Paris.</p>
+<p rend="noIndent"><date when="1852-11-30"><hi rend="initial">30.</hi></date> <hi rend="italic">Bal i Studentersangfgn</hi> (Logesalen). Sange og Dandse i smuk Afvexl. Schwarzenbackerne vare Orchester. <hi rend="italic">En Sang af Welhaven med Musik</hi> af mig blev sunget til Damerne.</p>
+</div>
+<div type="chapter">
+<head type="main"><ref type="contents" target="contents_1" xml:id="chapter_12">December</ref></head>
+<p rend="center"><figure><graphic url="des1_s_78.jpeg"/></figure></p>
+<p rend="center"><figure><graphic url="des2_s_83.jpeg"/></figure></p>
+<p rend="noIndent"><date when="1852-12-01"><hi rend="initial">1.</hi></date> Aubert 3 &#x2013; Svenningsen 12 &#x2013; M<hi rend="raised">me</hi> Kj&#x00F8;l 7 &#x2013; <hi rend="underlined">Knudsen 0</hi> &#x2013; 0 &#x2013; M Manthey. &#x2013;</p>
+<p rend="noIndent"><date when="1852-12-02"><hi rend="initial">2.</hi></date> 0 &#x2013; 0 &#x2013; Ihlen &#x2013; Dyrgren &#x2013; M Stenersen. &#x2013; Larsens 87.</p>
+<p rend="noIndent"><date when="1852-12-03"><hi rend="initial">3.</hi></date> Magnus 16. Sommerschild. &#x2013; &#x00D8;stmark 11 Ursin 11. Rehbinder. Grundt &#x2013; Knudsens.</p>
+<p rend="noIndent"><date when="1852-12-04"><hi rend="initial">4.</hi></date> 0 &#x2013; E Larsen. &#x2013; Nini W. J. &#x2013; Waitz 26.</p>
+<figure rend="leftHorizRule"/>
+<p rend="noIndent"><date when="1852-12-06"><hi rend="initial">6.</hi></date> S. S&#x00F8;renssen 11 &#x2013; 0 &#x2013; Ihlen &#x2013; Aars 9 &#x2013; Grundt &#x2013; O Stenersen.</p>
+<p rend="noIndent"><date when="1852-12-07"><hi rend="initial">7.</hi></date> Haffner 16 &#x2013; V S&#x00F8;renssen &#x2013; M<hi rend="raised">me</hi> Smith 4. &#x2013; Thilesen. &#x2013; Larsen 88.</p>
+<p rend="noIndent"><date when="1852-12-08"><hi rend="initial">8.</hi></date> <hi rend="underlined">Aubert 40</hi> <hi rend="underlined">Sveningsen 13 0</hi> <hi rend="underlined">Kj&#x00F8;l syg</hi> Knudsen &#x2013; Waitz 27. Manthey.</p>
+<p rend="noIndent"><date when="1852-12-09"><hi rend="initial">9.</hi></date> Norby &#x2013; Brandt &#x2013; Ihlen &#x2013; 0 &#x2013; M Stenersen &#x2013; 0 &#x2013;</p>
+<p rend="noIndent"><date when="1852-12-10"><hi rend="initial">10.</hi></date> Magnus 17 &#x2013; <hi rend="underlined">Somersch. 0</hi> &#x00D8;stmark 12. Ursin 12. &#x2013; Rehbinder &#x2013; Grundt &#x2013; Knudsens.</p>
+<p rend="noIndent"><date when="1852-12-11"><hi rend="initial">11.</hi></date> Krefting (5. 6) &#x2013; 0 &#x2013; Nini Wedel. &#x2013; 0. &#x2013;</p>
+<figure rend="leftHorizRule"/>
+<p rend="noIndent"><date when="1852-12-13"><hi rend="initial">13.</hi></date> S S&#x00F8;renssen 2 (<hi rend="italic">10 bet</hi>) 0 &#x2013; 0. &#x2013; Aars 10 (<hi rend="italic">bet</hi>) &#x2013; Grundt &#x2013; O Stenersen.</p>
+<p rend="noIndent"><date when="1852-12-14"><hi rend="initial">14.</hi></date> Haffner 17 V S&#x00F8;renssen. &#x2013; 0 &#x2013; Thilesen. &#x2013; 0 &#x2013;
+</p>
+<p rend="noIndent"><date when="1852-12-15"><hi rend="initial">15.</hi></date> Aubert (4 <hi rend="italic">bet</hi>) 1. &#x2013; Svenningsen 14 &#x2013; 0 &#x2013; Waitz 28 &#x2013; M Manthey.</p>
+<p rend="noIndent"><date when="1852-12-16"><hi rend="initial">16.</hi></date> Norbye &#x2013; Brandt &#x2013; Dyrgreen &#x2013; M Stenersen. &#x2013; 0 &#x2013;</p>
+<figure rend="fullHorizRule"/>
+<p rend="noIndent"><date when="1852-12-01"><hi rend="initial">1.</hi></date> <hi rend="italic">Ph. S. 2<hi rend="raised">den</hi> Samling</hi> (J. Hals.) Ouv. fuldt Ork. &#x2013; <hi rend="italic">Basunsolo af Wiprecht</hi> m Orch. (Ursin). <hi rend="italic">Kirkechor Lobgesang af Hesse</hi>. &#x2013; Et Par slette M.quartetter. <hi rend="italic">Mendelssohn: g<hi rend="raised">m</hi> Concert m Orch.</hi> (Jfr Werner) <hi rend="italic">2 Duetter</hi> Mendelssohn fis<hi rend="raised">m</hi> og G M&#x00FC;ller F<hi rend="raised">d</hi> Kaja K. og Caroline Norby. Jeg acc. &#x2013; <hi rend="italic">8<hi rend="raised">st</hi> Ave Maria af Mendelssohn</hi>.</p>
+<p rend="noIndent"><date when="1852-12-02"><hi rend="initial">2.</hi></date> <hi rend="italic">I Theatret Sheridans &#x00AB;Medbeilerne&#x00BB;</hi>. I det Hele meget godt spillet. Is&#x00E6;r Mad. Bratz som Miss Malaprop. J&#x00F8;rgensen som den gamle Sir Antony. Wiehe som Faulkland.</p>
+<p rend="noIndent"><date when="1852-12-04"><hi rend="initial">4.</hi></date> <hi rend="italic">Speratis Concert i det norske Theater i Casino</hi>. Slet bes&#x00F8;gt og slurvet udf&#x00F8;rt. Balletmusiken (!) af Wilhelm Tell. &#x2013; Dobb.Chor af Kuhlaus Hugo og Adelheid. Burgergardenmarsch av Z&#x00F6;llner. &#x2013; &#x00D8;rkenen af Fel. David (3die Opf&#x00F8;relse).</p>
+<p rend="noIndent"><date when="1852-12-05"><hi rend="initial">5.</hi></date> <hi rend="italic">Paa V&#x00E6;kker&#x00F8;</hi> til Middag og Aften (Agnes. Marie G. Harald W. og Elise m.fl.) &#x2013;</p>
+<p rend="noIndent"><date when="1852-12-06"><hi rend="initial">6.</hi></date> Hos Fru Diriks hvor hun og Marie Garben spille 4<hi rend="raised">h</hi> bl.a. min lille Rondino.
+<lb/>&#x2013; <hi rend="italic">Quartett hos A. Winge</hi> hvor jeg endelig fik h&#x00F8;re <hi rend="italic">Udbyes op. 1</hi> Strygekvartett i f<hi rend="raised">m</hi> Udbye er en Landsskolemester fra Trondhjem, er flere og 30 Aar &#x2013; og gift. Efter 1 Aars Ophold i Leipzig har han skrevet denne Quartett &#x2013; Den vidner om meget Talent; flyder godt og har flere gode Tanker; is&#x00E6;r Scherzoen.</p>
+<p rend="noIndent"><date when="1852-12-07"><hi rend="initial">7.</hi></date> Hos Meltzers et udvalgt Selskab. Tante Otilia med Emilie, Betsy og Lulla. Agnes A og Marie Garben. Julie Urdal. Thrine Welhaven. Magnus. N. og jeg.</p>
+<p rend="noIndent"><date when="1852-12-08"><hi rend="initial">8.</hi></date> Hos Welhavens: Hansteens. Dunker. Schouboe. Agnete. Mama. N og jeg.</p>
+<p rend="noIndent"><date when="1852-12-09"><hi rend="initial">9.</hi></date> <hi rend="italic">Imorgen tidlig reiser Agnes til Kongsvinger</hi>. &#x2013; <hi rend="italic">Kongen er</hi> nu i Reconvalescens.</p>
+<p rend="noIndent"><date when="1852-12-10"><hi rend="initial">10.</hi></date> Vaccineret form. de grasserende B&#x00F8;rnekopper.
+<lb/><hi rend="italic">Udenl. Post melder at d 2 Dec. proclameredes Louis Napoleon i Paris som de Franskes Keiser under Navn Napoleon III</hi>.</p>
+<p rend="noIndent"><date when="1852-12-12"><hi rend="initial">12.</hi></date> Theatret. <hi rend="italic">Livet i Skoven</hi>. Wiehe. Jfr. Svendsen. Mad. Schrumpf. Hagen &#x2013; <hi rend="italic">Guldhornene</hi> af Oehlenschl Melodr. comp<hi rend="raised">t</hi> af Hartman (frems. af Wiehe). <hi rend="italic">Intrigerne</hi> af Hostrup meget godt spillet.</p>
+<p rend="noIndent"><date when="1852-12-16"><hi rend="initial">16.</hi></date> Ank. til Lindorff: S&#x00F8;rgemarsch over Pr. Gustav. Comp<hi rend="raised">t</hi> af L Norman (c<hi rend="raised">m</hi> Pfte), <hi rend="italic">6 Bagatellen f. Pfte af W. Bargiel op 4. Senff, Leipzig</hi>.</p>
+<p rend="noIndent"><date when="1852-12-15"><hi rend="initial">15.</hi></date> <hi rend="italic">Hos Fru Diriks</hi>. Spillet Es dur Sinf. af Haydn 4<hi rend="raised">h</hi> &#x2013;
+<lb/>&#x2013; <hi rend="italic">Gade har i Kbhvn comp<hi rend="raised">t</hi> og opf en ny Sinfoni N<hi rend="raised">o</hi> 5 i D<hi rend="raised">m</hi></hi> for <hi rend="italic">Orchester og Pfte</hi> (!).</p>
+<p rend="noIndent"><date when="1852-12-17"><hi rend="initial">17.</hi></date> Magnus 18 &#x2013; Sommerschild &#x2013; &#x00D8;stmark 13 &#x2013; Ursin 13 &#x2013; Rehbinder &#x2013; Grundt &#x2013; 0 &#x2013;</p>
+<p rend="noIndent"><date when="1852-12-18"><hi rend="initial">18.</hi></date> Greve 6. &#x2013; Nini W. J. &#x2013; Waitz 29.</p>
+<figure rend="leftHorizRule"/>
+<p rend="noIndent"><date when="1852-12-20"><hi rend="initial">20.</hi></date> S S&#x00F8;renssen 3 &#x2013; 0 &#x2013; 0 &#x2013;</p>
+<p rend="noIndent"><date when="1852-12-21"><hi rend="initial">21.</hi></date> Haffner 18
+<add place="below">bet</add> &#x2013; V S&#x00F8;renssen &#x2013; E Larsen &#x2013; Thilesen (bet 10). Larsens 89. 90.</p>
+<p rend="noIndent"><date when="1852-12-22"><hi rend="initial">22.</hi></date> Aubert 2. &#x2013; 0 &#x2013; 0 &#x2013;</p>
+<p rend="noIndent"><date when="1852-12-23"><hi rend="initial">23.</hi></date> Norbye (7)</p>
+<figure rend="fullHorizRule"/>
+<p rend="center"><figure><graphic url="regnestykke_s_82.jpg"/></figure></p>
+<figure rend="fullHorizRule"/>
+<p rend="noIndent"><date when="1852-12-18"><hi rend="initial">18.</hi></date> <hi rend="italic">Coureer med Budsk. at en Prinds er f&#x00F8;dt</hi>: <hi rend="italic">Carl Oscar Wilhelm Frederik</hi>
+<lb/>&#x2013; <hi rend="italic">Philh S. 3<hi rend="raised">d</hi> Saml</hi> (Monrad) <hi rend="italic">Sinfoni N<hi rend="raised">o</hi> 1 i C af Beethoven</hi> 1<hi rend="raised">ste</hi> Afdeling, All<hi rend="raised">o</hi> 2. Arie af Haydns Sch&#x00F6;pfung (Thrine Blom) 3. Hymne af Beethoven uhyre slet udf&#x00F8;rt og til Claveer Akk. 4. <hi rend="italic">Andante og Finale af C dur Sinfonien</hi>. &#x2013; Den gik og lod sig h&#x00F8;re, skj naturlig Udf. var meget langsom, sl&#x00E6;bende, dilettantisk.
+<lb/>II. <hi rend="italic">1. Webers Concertst&#x00FC;ck</hi> m Orch (Mad<hi rend="raised">m</hi> Malthe.) Netop saa det hang <hi rend="italic">igiennem</hi>. 2. <hi rend="italic">Tersett</hi> (Falch. Lassen. Blichfeldt.) <hi rend="italic">Quintett og Finale (1<hi rend="raised">ste</hi> Akt)</hi> af <hi rend="italic">Cos&#x00ED; fan tutte</hi>. Desv&#x00E6;rre med Pfte. Men det gik taaleligt. (Kaja Kjerulf. C. Norbye. Fru Lindorf. H. Falch. Lassen. Blichfeldt. Monrad (!).) &#x2013;</p>
+<p rend="noIndent"><date when="1852-12-20"><hi rend="initial">20.</hi></date> Hos Fru Diriks Sinf N<hi rend="raised">o</hi> 1 af Beeth 4<hi rend="raised">h</hi>. Hun og Marie Garben. Sinf B. af Haydn. &#x2013; Hos Fkn Mour.</p>
+<p rend="noIndent"><date when="1852-12-21"><hi rend="initial">21.</hi></date> Hos Fkn Thilesen hvor Ida L&#x00F8;vgren spiller 4<hi rend="raised">hd</hi> med Fkn Th. Beeth B<hi rend="raised">dur</hi> N<hi rend="raised">o</hi> 4, meget flinkt. Aften Quartett hos Carl Kjerulf (Ingen Tenor.)
+<lb/>&#x2013; <hi rend="italic">Brev fra Theodor fra Heidelberg</hi>. Alt vel. (Forlovelsen tilstaaet!)
+<lb/>&#x2013; Andreas Welhaven har forlovet sig med Lovise Brandt (De gustibus non &#x2013;) <hi rend="italic">Aviserne om Mordscenerne i Kautokeino</hi>. (Chrp. for 21<hi rend="raised">d</hi> og 22<hi rend="raised">d</hi>.)</p>
+<p rend="noIndent"><date when="1852-12-23"><hi rend="initial">23.</hi></date> <hi rend="italic">Theatret</hi>. D<hi rend="italic">oktoren og Apothekeren</hi> komisk Opera i 4 Akter af Dittersdorf. Gammeldags men sund og frisk komisk Musik. Texten lavkomisk ogsaa i gl Stil men trods alle Urimeligheder og Plumpheder dog meget morsom. Udf. ret god. <hi rend="italic">J&#x00F8;rgensen</hi> som Apotheker, <hi rend="italic">Hagen</hi> som Invaliden, M<hi rend="raised">me</hi> J&#x00F8;rgensen som Mutter alle meget flinke. Ligesaa <hi rend="italic">Lund</hi> som Barberen, <hi rend="italic">M<hi rend="raised">me</hi> Ursin og Fr&#x00F8;ken L&#x00F6;vgreen</hi> vare Elskerinderne. <hi rend="italic">L&#x00F6;vgren</hi> er u&#x00F8;vet og synger ofte ureent men har en smuk Stemme og er kvik i al sin Ferskhed og har bestemt Talent. <hi rend="italic">Wolf</hi> var mindre god.</p>
+<p rend="noIndent"><date when="1852-12-24"><hi rend="initial">24.</hi></date> <hi rend="italic">Juleaften hos Lassons</hi>. <hi rend="italic">Mor paa Grini</hi> og <hi rend="italic">Axel reist til Sibberns paa Teje</hi>.
+<lb/>&#x2013; <hi rend="italic">Brev fra Gude</hi> i Df hvori meget smigrende Ord fra ham paa egne og tydske Musikeres (Sahrs(?) og Ditrichs) Vegne om de Compositioner jeg nedsendte. Is&#x00E6;r roser D. de to tydske.</p>
+<p rend="noIndent"><date when="1852-12-25"><hi rend="initial">25, 26.</hi></date> Paa Grini.</p>
+<p rend="noIndent"><date when="1852-12-27"><hi rend="initial">27.</hi></date> <hi rend="italic">I det norske Theater</hi>: Forf&#x00E6;rdelig slet altsammen med Undt. af Jfr Sullustad i Emilies Hjertebanken. Hun har dog Talent og b&#x00E6;r sig som et Menneske.</p>
+<p rend="noIndent"><date when="1852-12-28"><hi rend="initial">28.</hi></date> <hi rend="italic">Doktoren og Apothekeren for 2<hi rend="raised">den</hi> Gang</hi>. Daarligt Hus.</p>
+<p rend="noIndent"><date when="1852-12-27"><hi rend="initial">27.&#x2013;28.</hi></date> Comp<hi rend="raised">t</hi> et Digt af Theodor &#x2013; Vidste du Vei du liden Fugl. g<hi rend="raised">moll</hi>.</p>
+<p rend="noIndent"><date when="1852-12-29"><hi rend="initial">29.</hi></date> <hi rend="italic">Comp<hi rend="raised">t</hi> 2 Sange</hi>. <hi rend="italic"><add place="above">En</add> af Theodor</hi> Og er min Tro end svigefuld (C<hi rend="raised">d</hi>) og <hi rend="italic">en af Runeberg</hi> paa svensk. B<hi rend="raised">d</hi> (F&#x00F6;rst&#x00E4;llningen).</p>
+<p rend="noIndent"><date when="1852-12-30"><hi rend="initial">30.</hi></date> Comp<hi rend="raised">t</hi> en Sang &#x00AB;Ynglingen&#x00BB; af Runeberg. &#x2013; Aften hos Lassons (Hofgaards. Juells. Wolf. Marie Garben. mfl.).</p>
+<p rend="noIndent"><date when="1852-12-31"><hi rend="initial">31.</hi></date> <hi rend="italic">Stor Commers hos Dahls</hi>: <hi rend="italic">Lustig ein lustiges Lustspiel mit Prolog und Ges&#x00E4;nge</hi>. M<hi rend="raised">me</hi> Dahl. Chr. Lasson. Lt. Borkenstein. Lt. M&#x00F8;ller. Jfr. Freyse. Hr. Freyse. Lille Ida Dahl. &#x2013; Mange fine Gj&#x00E6;ster og meget blandet Selskab trods det.</p>
+<figure rend="fullHorizRule"/>
+</div>
+<div type="chapter">
+<head type="main"><ref type="contents" target="contents_13" xml:id="chapter_13">Jan 1853</ref></head>
+<p rend="noIndent"><date when="1853-01-01"><hi rend="initial">Nytaarsdag.</hi></date> I Theatret. Prolog for Kongen af W-n. (Wiehe) Mester og L&#x00E6;rling. &#x271D; <hi rend="italic">Statsraad Sibbern d&#x00F8;d.</hi></p>
+<p rend="noIndent"><date when="1853-01-02"><hi rend="initial">2 Jan.</hi></date> Udkast til en ny Comp f Solo og Chor (Welh<hi rend="raised">s</hi> Troubadouren)</p>
+<p rend="noIndent"><date when="1853-01-03"><hi rend="initial">3 Jan.</hi></date> Hos Fru Diriks hele Dagen. (Marie Garben. J Urdal &#x2013; Lagertha og Anna Gude og Gr&#x00F8;ntvedt)</p>
+</div>
+<div type="chapter">
+<head type="main"><ref type="contents" target="contents_14" xml:id="chapter_14">&#x005B;solens deklinasjoner&#x005D;</ref></head>
+<p rend="center"><figure><graphic url="solens_decl_s_84.jpeg"/></figure></p>
+<p rend="center"><figure><graphic url="solens_decl_s_89.jpeg"/></figure></p>
+<p rend="center"><figure><graphic url="solens_decl_s_90.jpeg"/></figure></p>
+</div>
+<div type="chapter">
+<head type="main"><ref type="contents" target="contents_15" xml:id="chapter_15">&#x005B;&#x00F8;konomi&#x005D;</ref></head>
+<p rend="center"><figure><graphic url="inntekt_s_85.jpeg"/></figure></p>
+<p rend="center"><figure><graphic url="tilgode_s_86.jpeg"/></figure></p>
+<p rend="center"><figure><graphic url="jan1853_s_87.jpeg"/></figure></p>
+<p rend="center"><figure><graphic url="gjeld_s_88.jpeg"/></figure></p>
+</div>
+<div type="chapter">
+<head type="main"><ref type="contents" target="contents_16" xml:id="chapter_16">&#x005B;svenske grensemarkeder&#x005D;</ref></head>
+<p rend="center"><figure><graphic url="svenske_grensemark s_91.jpeg"/></figure></p>
+<p rend="center"><figure><graphic url="svenske_grensemark2_s_92.jpeg"/></figure></p>
+</div>
+<div type="chapter">
+<head type="main"><ref type="contents" target="contents_17" xml:id="chapter_17">&#x005B;regnskap&#x005D;</ref></head>
+<p rend="center"><figure><graphic url="regnskap1_s_93.jpeg"/></figure></p>
+<p rend="center"><figure><graphic url="regnskap2_s_94.jpeg"/></figure></p>
+<p rend="center"><figure><graphic url="regnskap3_s_95.jpeg"/></figure></p>
+<p rend="center"><figure><graphic url="regnskap4_s_96.jpeg"/></figure></p>
+</div>
+</body>
+</text>
+</TEI>

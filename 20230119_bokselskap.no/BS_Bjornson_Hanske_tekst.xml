@@ -1,0 +1,4483 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI PUBLIC "-// TEI P5 //EN" "http://www.tei-c.org/release/xml/tei/custom/schema/dtd/tei_all.dtd">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="BS_Bjornson_Hanske">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>bokselskap.no, Oslo 2019
+<lb/>Bj&#x00F8;rnstjerne Bj&#x00F8;rnson: <hi rend="italic">En hanske</hi>
+<lb/>Teksten er hentet fra Universitetet i Oslo/dokpro.uio.no. Dokprostekst er basert p&#x00E5; <title rend="italic">Samlede Digter-Verker</title>, standardutg. i 9 bind, Kristiania, Gyldendal, 1919&#x2013;20. 
+<lb/>ISBN: 978-82-8319-465-4 (digital, bokselskap.no), 78-82-8319-466-1 (epub), 978-82-8319-467-8 (mobi)
+</title>
+</titleStmt>
+<publicationStmt>
+<p>Publiseres som digital tekst av bokselskap.no.</p></publicationStmt>
+<sourceDesc>
+<bibl>
+<title>En hanske I: Samlede Digter-Verker</title>
+<author>Bj&#x00F8;rnstjerne Bj&#x00F8;rnson</author>
+<publisher>Gyldendal</publisher>
+<pubPlace>Kristiania</pubPlace>
+<date>1919-20</date>
+<note>bbbind5.xml (mottatt fra Universitietet i Oslo, 2017)</note>
+</bibl>
+</sourceDesc>
+</fileDesc>
+<revisionDesc>
+<change who="ENW" when="2019-07-01">Lagt inn bibl i sourceDesc.</change>
+<change xml:id="ENW" who="ENW" when="2019-05-14">XML-koding. Entiteter, kodekontroll og validering. Lagt inn ISBN.</change>
+</revisionDesc>
+</teiHeader>
+<text xml:id="BS_Bjornson_Hanske_tekst" type="drama">
+<front>
+<titlePage type="main">
+<byline><docAuthor>Bj&#x00F8;rnstjerne Bj&#x00F8;rnson</docAuthor></byline>
+<docTitle>
+<titlePart type="main">En hanske</titlePart>
+<titlePart type="sub">Skuespil</titlePart>
+</docTitle>
+<docDate>bokselskap.no<lb/>Oslo 2019</docDate>
+</titlePage>
+</front>
+<body>
+<div type="chapter" subtype="act" n="1">
+<head type="main">F&#x00D8;RSTE HANDLING</head>
+<stage><p rend="center">En stue med &#x00E5;pne d&#x00F8;rer ut til en park, hvorigennem man skimter sj&#x00F8;en. P&#x00E5; b&#x00E6;gge sider af d&#x00F8;ren vinduer. En d&#x00F8;r p&#x00E5; v&#x00E6;ggen til venstre. P&#x00E5; v&#x00E6;ggen til h&#x00F8;jre likes&#x00E5;.</p></stage>
+<stage><p rend="center">Et piano mellem d&#x00F8;ren til h&#x00F8;jre og vinduet mot parken; et skap like imot. Helt foran til h&#x00F8;jre sofa, og en midt imot til venstre; mindre bord foran hv&#x00E6;r af dem; l&#x00E6;nestoler og lettere stoler.</p></stage>
+<lb/>
+<div type="chapter" subtype="scene" n="1_1">
+<head type="sub">F&#x00F8;rste m&#x00F8;te</head>
+<stage><hi rend="bold">Fru Riis</hi>. <hi rend="bold">Nordan</hi>.</stage>
+<stage>(<hi rend="bold">Fru Riis</hi> i sofaen til venstre. <hi rend="bold">Nordan</hi> p&#x00E5; en stol midt mellem bordene; han har en str&#x00E5;-hat p&#x00E5; hodet; den er sk&#x00F8;vet helt bak i nakken; et stort t&#x00F8;rkl&#x00E6;de over et af kn&#x00E6;rne; han sitter l&#x00E6;net p&#x00E5; sin stok.)</stage>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>De faller rent i staver.</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Hvad er det, De sp&#x00F8;r om?</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Om saken mot mrs. North &#x2013; hvad annet?</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Saken mot mrs. North. Jeg talte med Christensen i dette &#x00F8;jeblik. Han har lagt ut pengene; for han vil pr&#x00F8;ve at f&#x00E5; bankerne til at stanse. Dette har jeg jo sagt. Hvad vil De mere?</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Snakket, k&#x00E6;re v&#x00E6;n, snakket?</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>&#x00C5;, manfolkene tier g&#x00E6;rne med hv&#x00E6;randres historier. &#x2013; Skal han for resten ikke f&#x00E5; det at vite nu, han der inne? Nu er han jo tilstede <stage>(nikker til h&#x00F8;jre).</stage></p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Lad os v&#x00E6;nte!</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>For pengene m&#x00E5; jo betales Christensen tilbake. Det har jeg sagt ham.</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Naturligvis. Hvor kan De t&#x00E6;nke annet?</p>
+</sp>
+<sp>
+<speaker>Nordan</speaker>
+<stage>(st&#x00E5;r op).</stage>
+<p>Ja, nu rejser jeg og tar mig ferie, s&#x00E5; nu f&#x00E5;r Christensen stelle med det. &#x2013; Det var vel storartet ig&#x00E5;r?</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Pragt var der ikke.</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Nej, hos Christensens er der aldrig overd&#x00E5;d. Men mange var der vel?</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Jeg har aldrig set s&#x00E5; mange i nogen privat fest.</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Er Svava oppe?</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Hun er ute og bader.</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Allerede? Kom I s&#x00E5; tidlig hjem?</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Jeg tror, klokken var tolv. Svava vilde hjem. Riis kom sent, tror jeg.</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Kort-bordene. &#x2013; Hun var vel str&#x00E5;lende? Hvad?</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Hvorfor kom De ikke?</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Jeg g&#x00E5;r aldrig til forlovelses-fester og aldrig til bryllop. Aldrig. Disse offer-dyr med krans og sl&#x00F8;r, &#x2013; &#x00E5;!</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Men, k&#x00E6;re doktor, De tror jo med os alle, at dette blir et lykkeligt &#x00E6;gteskab?</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Han er en bra kar. Men allikevel &#x2026; Jeg er blet narret s&#x00E5; ofte. &#x2013; Hu, ha!</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Hun var lykkelig. Og idag som ig&#x00E5;r.</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Det er synd, jeg ikke f&#x00E5;r se henne. God morgen, frue!</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>God morgen, k&#x00E6;re doktor! Alts&#x00E5; nu rejser De?</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Jeg tr&#x00E6;nger til en liten pust.</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Det er vist. Ja, lykke til, da, &#x2013; og hj&#x00E6;rtelig tak!</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Tak De, k&#x00E6;re frue! <stage>(G&#x00E5;ende.)</stage> Det var lejt, jeg ikke fik sige Svava farvel.</p>
+</sp>
+</div>
+<div type="chapter" subtype="scene" n="1_2">
+<head type="sub">Annet m&#x00F8;te</head>
+<stage><hi rend="bold">Fru Riis</hi>. (Senere) <hi rend="bold">Riis</hi>.</stage>
+<stage>(<hi rend="bold">Fru Riis</hi> tar op af bordet til venstre et h&#x00E6;fte af et utenlandsk tidsskrift, s&#x00E6;tter sig godt til rette i sofaen med ansigtet vendt mot parken. Under b&#x00E6;gge de f&#x00F8;lgende m&#x00F8;ter l&#x00E6;ser hun, s&#x00E5; ofte det kan lade sig g&#x00F8;re.)</stage>
+<sp>
+<speaker>Riis</speaker>
+<stage>(kommer ut fra h&#x00F8;jre i skjorte-&#x00E6;rmerne, optaget af sin skjorte-snip).</stage>
+<p>God morgen! &#x2013; Var det Nordan, som gik?</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Ja.</p>
+</sp>
+<stage>(<hi rend="bold">Riis</hi> g&#x00E5;r over mot d&#x00F8;ren til venstre, vender om og forsvinner atter i d&#x00F8;ren til h&#x00F8;jre, kommer snart igen og g&#x00F8;r samme tur, bestandig besk&#x00E6;ftiget med skjortesnippen.)</stage>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Er det noget, hvormed jeg kan hj&#x00E6;lpe dig?</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Slet ikke. Mange tak for resten! Disse moderne skjorter er noget kram. Jeg k&#x00F8;pte nogle i Paris.</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Ja, jeg tror, du har et helt dusin med dig?</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Halv-annet. <stage>(Han g&#x00E5;r in, kommer ut igen i samme str&#x00E6;v og g&#x00F8;r samme tur.)</stage> Jeg g&#x00E5;r ellers og spekulerer p&#x00E5; noget.</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Det m&#x00E5; v&#x00E6;re en inviklet sak.</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Det er det ogs&#x00E5;. &#x2013; Det er det ogs&#x00E5;. &#x2013; Sannelig! Den snip er da som &#x2026; N&#x00E5;! Endelig! <stage>(Atter in og ut igen, denne gang med sit slips i h&#x00E5;nden.)</stage> Jeg t&#x00E6;nker p&#x00E5; &#x2026; jeg t&#x00E6;nker p&#x00E5; &#x2026; hvad vor k&#x00E6;re datter er laget sammen af.</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Hvad hun er laget sammen af?</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Ja &#x2026; hvilke stykker af dig, hvilke af mig, o.s.v. Nemlig, hvilke stykker af dine sl&#x00E6;gter, hvilke af mine, o.s.v. &#x2013; Svava er en m&#x00E6;rkelig pige.</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Det er hun.</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Som helhed er hun hv&#x00E6;rken dig eller mig; heller ikke os to tilsammen.</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Svava er meget mere.</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Noget meget betydelig mere &#x00E6;nogs&#x00E5;. <stage>(Han forsvinner igen, kommer atter, denne gang i frakke, kostende sig.)</stage> Hvad sa&#x0027; du?</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Ingen ting. &#x2013; Ellers er det min mor, Svava ligner mest p&#x00E5;.</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Jo, der skulde vi ha det! Svavas stille, behagelige v&#x00E6;sen &#x2013; hvor vil du hen?</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Svava kan v&#x00E6;re lidenskabelig nok.</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Svava overser aldrig formerne som din mor.</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Du forstod ikke mor. Men det kan jo ogs&#x00E5; v&#x00E6;re, at de i meget er forskellige.</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Uhyre! &#x2013; Kan du nu se, at jeg havde ret, da jeg begynte at pludre sprog med henne, fra hun var bitte liten? Kan du se? Du var imot det.</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Jeg var imot dette evige plageri &#x2013; og s&#x00E5; imot, at det bestandig gik fra det ene i det andre.</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Men resultatet, min k&#x00E6;re? Resultatet?<stage>(nynner.)</stage></p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Ja, du vil da vel aldrig sige, at det er sprogene, som har skapt henne?</p>
+</sp>
+<sp>
+<speaker>Riis</speaker>
+<stage>(idet han forsvinner).</stage>
+<p>Ikke sprogene; men &#x2013;. <stage>(Der inne fra:)</stage> Sprogene har gjort uhyre! &#x2013; La&#x0027; du m&#x00E6;rke til henne ig&#x00E5;r? Hun har <hi rend="italic">savoir vivre</hi>. Hvad? <stage>(kommer ut igen.)</stage></p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Det er vist ikke, hvad man mest holder af hos Svava.</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Nej, nej. &#x2013; P&#x00E5; dampskibet spurte en mig, om jeg var i sl&#x00E6;gt med den fr&#x00F8;ken Riis, som havde f&#x00E5;t i stand b&#x00F8;rne-haverne inne i byen. Jeg sa&#x0027;, jeg havde den &#x00E6;re at v&#x00E6;re hennes far. Da skulde du set mannen! Jeg fik &#x00E6;pler i halsen.</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Ja, b&#x00F8;rne-haverne har fra f&#x00F8;rste stund havt lykken med sig.</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Det er vel dem, som har forlovet henne ogs&#x00E5;? Hvad?</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Du f&#x00E5;r sp&#x00F8;rge henne.</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Men du l&#x00E6;gger slet ikke m&#x00E6;rke til min dragt?</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Jo, jeg g&#x00F8;r.</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Og skriker ikke et lille-bitte beundrings-skrik? Sammens&#x00E6;tningen? Farverne &#x2013; like ned i skoene? Hvad? Og lomme-t&#x00F8;rkl&#x00E6;det ogs&#x00E5;?</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Hvor gammel er du, Riis?</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Ti stille! &#x2013; For resten &#x2026; hvad tror du, man holder mig for?</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Naturligvis for 40 &#x00E5;r.</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>&#x00AB;Naturligvis&#x00BB;, &#x2013; hvor klinger det ikke selvforst&#x00E5;ligt? &#x2013; Men denne dragt, den er en slags jubel-ouverture, komponeret i K&#x00F8;ln, netop som jeg fik telegrammet om Svavas forlovelse. T&#x00E6;nk, i K&#x00F8;ln, ikke ti timer fra Paris! Men jeg kunde ikke v&#x00E6;nte ti timer; &#x2013; i den grad blev jeg elegant i min egen forestilling ved at komme i svogerskab med landets rikeste familje.</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Blev det med <hi rend="italic">den</hi> dragt alene?</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Hvilket sp&#x00F8;rsm&#x00E5;l! &#x2013; V&#x00E6;nt nu, til mine kufferter kommer gennem toll-boden!</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Da g&#x00E5;r det ut over os, kan jeg t&#x00E6;nke?</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Da g&#x00E5;r det ut over jer! En altfor lykkelig papa, som netop i det store &#x00F8;jeblik befinner sig i Paris &#x2013;?</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Og hvad siger du s&#x00E5; om festen ig&#x00E5;r?</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Jeg rigtig priste dampskibets forsinkelse, s&#x00E5; jeg som ved et trylleri stod midt oppe i en <hi rend="italic">f&#x00EA;te champ&#x00EA;tre</hi>. Fest for ens egen eneste datter, hvor man selvf&#x00F8;lgelig er frygtelig velkommen!</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>N&#x00E5;r kom du hjem inat?</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Mener du ikke, vi m&#x00E5;tte spille kort ig&#x00E5;r ogs&#x00E5;? Jeg kunde ikke undsl&#x00E5; mig; for jeg skulde sitte til bords med Abraham, Isak og Jakob, d. v. s. med v&#x00E6;rten, statsministeren og gamle Holk. Det var en uendelig n&#x00E5;de at f&#x00E5; tape sine penger til slike stor-folk. For jeg taper jo altid. &#x2013; Jeg kom hjem klokken tre, vil jeg anta&#x0027;. Hvad er det, du l&#x00E6;ser?</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p><hi rend="italic">&#x00AB;The fortnightly.&#x00BB;</hi></p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Har der st&#x00E5;t noget i de par m&#x00E5;neder, jeg var borte? <stage>(begynner at nynne p&#x00E5; en melodi.)</stage></p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Ja; &#x2013; her er nu noget om sl&#x00E6;gts-arv, som du m&#x00E5; l&#x00E6;se. Det passer til det, vi begynte at tale om.</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>K&#x00E6;nner du den melodi? <stage>(iler opover mot pianoet.)</stage> Det er mode-melodien nu. Jeg h&#x00F8;rte den gennem hele Tyskland. <stage>(Spiller og synger; men afbryter.)</stage> Lad mig hente noterne, mens jeg husker det! <stage>(In og kommer ut igen med dem. S&#x00E6;tter sig atter til at spille og synge.)</stage></p>
+</sp>
+</div>
+<div type="chapter" subtype="scene" n="1_3">
+<head type="sub">Tredje m&#x00F8;te</head>
+<stage><hi rend="bold">De forrige</hi>. <hi rend="bold">Svava</hi> (kommer i d&#x00F8;ren til venstre).</stage>
+<sp>
+<speaker>Riis</speaker>
+<stage>(ser sig om, stanser, springer op).</stage>
+<p>God morgen, min pige! God morgen! Jeg har jo n&#x00E6;sten ikke f&#x00E5;t hilse p&#x00E5; dig. For i festen tok alle dig fra mig. <stage>(Han kysser henne og f&#x00F8;lger henne fr&#x00E6;m.)</stage></p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Hvorfor kommer du ogs&#x00E5; s&#x00E5; sent hjem fra utlandet?</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Hvorfor varskuer man ikke, n&#x00E5;r man skal til at forlove sig?</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Fordi man selv intet v&#x00E9;t om det, f&#x00F8;r det er sk&#x00E9;t. God morgen igen da, mor! <stage>(kn&#x00E6;ler hos henne.)</stage></p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>&#x00C5;, som du lugter frisk! Du har g&#x00E5;t i skogen efter badet?</p>
+</sp>
+<sp>
+<speaker>Svava</speaker>
+<stage>(som rejser sig).</stage>
+<p>Ja, og netop som jeg nu kom hjem, gik Alf forbi og hilste op. Han kommer in om et &#x00F8;jeblik.</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Sant at sige &#x2013; og sanheden b&#x00F8;r man altid sige! jeg havde aldeles opgit at se vor gamle pige s&#x00E5; lykkelig.</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Ikke sant? Jeg havde aldeles opgit mig selv.</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Intil denne prins kom?</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Intil denne prins kom, som ogs&#x00E5; havde taget sig god tid.</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Men som du sat og v&#x00E6;ntede p&#x00E5; fra langt tilbake?</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Ikke det minste! &#x2013; Jeg havde ikke engang t&#x00E6;nkt p&#x00E5; ham.</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Nu begynner det at bli g&#x00E5;defuldt.</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Ja, det er en g&#x00E5;de, at to m&#x00E6;nnesker, som har set hv&#x00E6;randre fra barndommen af uten at t&#x00E6;nke p&#x00E5; hv&#x00E6;randre, pludselig &#x2026; ! For det var virkelig s&#x00E5;. Fra en vis given stund! Han blev i mine &#x00F8;jne en annen.</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Mens han naturligvis i alle andres er den samme som f&#x00F8;r?</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Jeg h&#x00E5;ber det!</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Muntrere er han i alle fall blet &#x2013; i mine &#x00F8;jne.</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Ja, jeg s&#x00E5;, I lo sammen ig&#x00E5;r. Hvad var det?</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Vi talte om den beste m&#x00E5;te at komme gennem v&#x00E6;rden p&#x00E5;. Jeg gav ham mine tre ber&#x00F8;mte livs-regler.</p>
+</sp>
+<sp>
+<speaker>Fru Riis og Svava.</speaker>
+<p>Allerede!</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>De gjorde megen lykke. Husker du dem, vanartede barn?</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Nr. 1: aldrig prostituere sig.</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Nr. 2: aldrig falle nogen besv&#x00E6;rlig.</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Nr. 3: altid holde sig p&#x00E5; moden. &#x2013; De er ikke <hi rend="italic">meget</hi> vanskelige at huske; ti de er hv&#x00E6;rken dunkle eller dype.</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Men desto vanskeligere at praktisere! Og det er dyden med alle livs-regler. &#x2013; Jeg gir dig min kompliment for din ny morgen-kjole. Efter omst&#x00E6;ndighederne er den virkelig &#x00AB;k&#x00F8;n&#x00BB;.</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>&#x00AB;Efter omst&#x00E6;ndighederne&#x00BB;, d. v. s. uten at du kunde v&#x00E6;re med.</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Ja, for <hi rend="italic">jeg</hi> havde aldrig valgt den bes&#x00E6;tning, &#x2013; sk&#x00F8;nt den &#x00AB;efter omst&#x00E6;ndighederne&#x00BB; ikke er s&#x00E5; ille. Og snittet? &#x2013; &#x00C5;-ja!</p>
+<p>V&#x00E6;nt nu, til min kuffert kommer!</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Overraskelser?</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Store! &#x2013; For resten har jeg noget straks. <stage>(G&#x00E5;r.)</stage></p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Du, jeg finner ham uroligere &#x00E6;n nogensinne.</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Gl&#x00E6;den, barn!</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Og dog har fars uro altid noget d&#x00E6;mpet over sig. Far er &#x2013; <stage>(<hi rend="bold">Riis</hi> kommer ut fra h&#x00F8;jre.)</stage> V&#x00E9;t du, hvad stats-ministeren sa&#x0027; om dig ig&#x00E5;r?</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Noget skal jo en s&#x00E5;dan h&#x00E6;rre sige.</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>&#x00AB;Deres far, fr&#x00F8;ken, er &#x00E6;nnu bestandig vor elegante man <hi rend="italic">par excellence</hi>.&#x00BB;</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p><hi rend="italic">Ah, a bien dit son excellence</hi>! Nej, s&#x00E5; kan jeg fort&#x00E6;lle dig noget bedre. Du g&#x00F8;r din far til ridder.</p>
+</sp>
+<sp>
+<speaker>Svav.</speaker>
+<p>Gj&#x00F8;r jeg?</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Ja, hvem andre? Nu har regeringen ogs&#x00E5; f&#x00F8;r et par ganger brukt mig en liten smule ved sine forskellige handels-traktater; men denne gang, som svoger af vor store man, blir jeg Olavs-ridder!</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Jeg gratulerer!</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>N&#x00E5;r det regner p&#x00E5; pr&#x00E6;sten, v&#x00E9;t du, drypper det p&#x00E5; klokkeren.</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Du er virkelig s&#x00E5; uv&#x00E6;ntet beskeden i din ny stilling.</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Ikke sant? Og nu optr&#x00E6;der jeg som en beskeden foreviser af elegante kostumer, nemlig tegninger af kostumer (&#x00E6;nnu beskednere!) fra det siste stykke p&#x00E5; <hi rend="italic">français</hi>.</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>&#x00C5;-nej, far! Ikke nu!</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Ikke f&#x00F8;r i eftermiddag begynner vi p&#x00E5; det der.</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Man skulde virkelig tro, at jeg var det eneste fruentimmer her tilstede. Men som I vil! &#x2013; <hi rend="italic">I</hi> kommanderer v&#x00E6;rden! &#x2013; S&#x00E5; har jeg et annet forslag i to afdelinger. F&#x00F8;rst: at vi s&#x00E6;tter os!</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Vi s&#x00E6;tter os! <stage>(De to s&#x00E6;tter sig.)</stage></p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Dern&#x00E6;st fort&#x00E6;ller du din hjemkomne papa, hvordan dette egentlig gik til. Dette med &#x00AB;g&#x00E5;den&#x00BB;, v&#x00E9;t du!</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>&#x00C5;, det! &#x2013; Ja, du f&#x00E5;r undskylde, det kan ikke fort&#x00E6;lles.</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Ikke i sine s&#x00F8;te detaljer! Gud, hvem er s&#x00E5; barbarisk, i forlovelsens f&#x00F8;rste honning-m&#x00E5;ned at bede om det. Nej, jeg mente bare det, som er den egentlige <hi rend="italic">mobile</hi> i det.</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>&#x00C5;, jeg forst&#x00E5;r. Ja, det skal jeg sige dig; for <hi rend="italic">det</hi> er det samme som at l&#x00E6;re at k&#x00E6;nne Alf.</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>F. e. Hvorledes kom du i tale med ham?</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Jo, det var disse vore velsignede b&#x00F8;rne-haver &#x2026;</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>&#x00C5;-h&#x00E5;! &#x2013; <hi rend="italic">Dine</hi> velsignede b&#x00F8;rne-haver, vil du sige?</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>N&#x00E5;r vi er over hundre piger om dem &#x2013;?</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Lad g&#x00E5;! Alts&#x00E5; han kom med bidrag?</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Han kom med bidrag, og det gentagende &#x2013;</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>&#x00C5;-h&#x00E5;! &#x2013;</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>S&#x00E5; talte vi engang om luksus. Det var da bedre at bruke tid og penger s&#x00E5;ledes &#x00E6;n at bruke dem til luksus.</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Ja, hvad skal man kalle &#x00AB;luksus&#x00BB;?</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Derom talte vi slet ikke. Men jeg sa&#x0027;, at jeg holdt luksus for us&#x00E6;delighed.</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>For us&#x00E6;-? Luksus?!</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Ja, jeg v&#x00E9;t, at det ikke er din mening. Men det er <hi rend="italic">min</hi>.</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Din mors, mener du, og din mor-mors?</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Ganske vist; men ogs&#x00E5; min, &#x2013; om du tillader det?</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Gud bevar&#x0027;s!</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Jeg fortalte den lille episode, som mor, du og jeg oplevede i Amerika, &#x2013; kan du huske? Vi var med til et <hi rend="italic">temperance</hi>-m&#x00F8;te, og der s&#x00E5; vi damer komme k&#x00F8;rende op for at st&#x00F8;tte afholdenheds-saken, &#x2013; damer, &#x2013; ja, vi k&#x00E6;nte ikke deres formue; men som de presenterte sig, var de med vogn, h&#x00E6;ster, smykker, dragt &#x2013; is&#x00E6;r smykker! &#x2013; v&#x00E6;rd s&#x00E5;dan en, &#x2013; ja, s&#x00E5;dan en &#x2013;</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Lad os sige mange, mange tusen dollars! Det er sant.</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Det <hi rend="italic">er</hi> sant. Og dette er virkelig like godt utsv&#x00E6;velse p&#x00E5; sin m&#x00E5;te som drik er det p&#x00E5; sin?</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Nu ja &#x2013;?</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Ja, du drar p&#x00E5; skuldrene. Det gjorde ikke Alf. Han fortalte, hvad han havde oplevet &#x2026; i de store byer. Det var forf&#x00E6;rdeligt!</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p><hi rend="italic">Hvad</hi> var forf&#x00E6;rdeligt?</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Afstanden mellem fattig og rik, den gr&#x00E6;nsel&#x00F8;seste n&#x00F8;d og den uansvarligste luksus.</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>&#x00C5;, det! &#x2026; Jeg t&#x00E6;nkte &#x2013;. Nu ja: forts&#x00E6;t!</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Han sat ikke likegyldig og stelte med sine negler. &#x2013;</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Om forladelse!</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>K&#x00E6;re, bliv ved! &#x2013; Nej, han sp&#x00E5;dde en stor social revolution og talte sig varm, &#x2013; og <hi rend="italic">da</hi> kom det, hvad han havde t&#x00E6;nkt sig ved en formue.</p>
+<p>Dette var mig i h&#x00F8;jeste grad uv&#x00E6;ntet &#x2013; og s&#x00E5; til dels nyt. Du skulde se, hvor vakker han var!</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>N&#x00E5;, &#x2013; vakker?</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Er <hi rend="italic">han</hi> ikke vakker? S&#x00E5; mener i alle fall <hi rend="italic">jeg</hi>. Og mor ogs&#x00E5; &#x2013;?</p>
+</sp>
+<sp>
+<speaker>Fru Riis</speaker>
+<stage>(som l&#x00E6;ser).</stage>
+<p>Og mor ogs&#x00E5;.</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>M&#x00F8;drene er altid forelsket i sine d&#x00F8;tres k&#x00E6;rester. Men det g&#x00E5;r over, n&#x00E5;r de blir svigers&#x00F8;nner.</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Er dette <hi rend="italic">din</hi> erfaring?</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Dette er <hi rend="italic">min</hi> erfaring. Alts&#x00E5;, Alf Christensen er blet til en sk&#x00F8;nhed? Vi f&#x00E5;r finne os i det.</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Han stod der s&#x00E5; sikker i sig selv og s&#x00E5; klar og ren, &#x2026; for det m&#x00E5; jeg ha med.</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Hvad forst&#x00E5;r du ved &#x00AB;ren&#x00BB;, min pige?</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Det, som ligger i ordet.</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Jeg sp&#x00F8;r netop om, hvad du l&#x00E6;gger i ordet.</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>N&#x00E5;; det, som jeg h&#x00E5;ber, man l&#x00E6;gger i det, hvis man bruker det om mig selv.</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Du l&#x00E6;gger samme mening i det, n&#x00E5;r det g&#x00E6;ller mannen, som n&#x00E5;r det g&#x00E6;ller kvinnen?</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Ja, naturligvis.</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Og du tror, at Christensens s&#x00F8;n &#x2013;</p>
+</sp>
+<sp>
+<speaker>Svava</speaker>
+<stage>(rejser sig).</stage>
+<p>Far, du forn&#x00E6;rmer mig!</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Kan det forn&#x00E6;rme dig, at han er sin fars s&#x00F8;n?</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>I dette stykke er han det ikke! I s&#x00E5;dant tar jeg ikke l&#x00E6;nger fejl!</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Jeg l&#x00E6;ser just om arv af anl&#x00E6;g; han beh&#x00F8;ver ikke netop at ha arvet sin far.</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>N&#x00E5;, n&#x00E5;; som I vil. Jeg er s&#x00E5; bange for alle dine overjordiske teorier. Du kommer ikke igennem med dem.</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Hvad mener du? &#x2013; &#x2013; Mor, hvad er det, far mener?</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Han mener vel, at slik er ikke manfolkene. Det f&#x00E5;r man opgi&#x0027;.</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Nej, det kan du ikke mene?</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Men hvorfor s&#x00E5; h&#x00E6;ftig? &#x2013; Kom og s&#x00E6;t dig! Hvorledes kan du oven i k&#x00F8;pet vite det?</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Vite? &#x2013; Hvad?</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Jo, i hv&#x00E6;rt enkelt tilf&#x00E6;lle &#x2013;?</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>&#x2013; om den man, som st&#x00E5;r foran mig eller g&#x00E5;r forbi mig, er et urent, motbydeligt dyr, &#x2013; eller en man?</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>O.s.v., o.s.v.! Du kan ta&#x0027; fejl, k&#x00E6;re Svava.</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Nej, s&#x00E5; lit som jeg tar fejl af dig, far, n&#x00E5;r du igen &#x00E6;rter mig med dine gruelige gruns&#x00E6;tninger. For du er da, trods dem, det kyskeste og fineste manfolk, jeg k&#x00E6;nner.</p>
+</sp>
+<sp>
+<speaker>Fru Riis</speaker>
+<stage>(l&#x00E6;gger boken fra sig).</stage>
+<p>Vil du beholde din morgen-kjole p&#x00E5;, mit barn? Vil du ikke bytte, f&#x00F8;r Alf kommer?</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Nej, mor, du f&#x00E5;r mig ikke bort fra dette! &#x2013; Nu har jeg set s&#x00E5; mange af mine v&#x00E6;ninner l&#x00E6;gge sig op til &#x00AB;sit hj&#x00E6;rtes prins&#x00BB;, som det heter i visen, og v&#x00E5;gne i armene p&#x00E5; et dyr. &#x2013; Jeg skal ikke ha noget af det! Jeg skal ikke ta&#x0027; fejl!</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Her er jo ingen lejlighed til at ta&#x0027; det h&#x00E6;ftig. Alf er en h&#x00E6;derlig ung man.</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Det er han. Men jeg har oplevet den ene opr&#x00F8;rende historie efter den andre. &#x2013; Og nu for en m&#x00E5;ned siden den med Helga! &#x2013; Og s&#x00E5; har jeg &#x2026; ja, nu kan jeg sige det; for nu er jeg lykkelig og tryg, &#x2013; nu kan jeg fort&#x00E6;lle eder, hvorfor det har varet en stund med mig. Jeg turde l&#x00E6;nge ikke tro mig selv. For ogs&#x00E5; jeg har engang v&#x00E6;ret p&#x00E5; veje til at bedrages.</p>
+</sp>
+<sp>
+<speaker>B&#x00E6;gge for&#x00E6;ldre</speaker>
+<stage>(rejser sig).</stage>
+<p>Du, Svava?</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Jeg var ganske, ganske ung. Jeg s&#x00F8;kte, som de fleste unge piger, efter mit ideal, og jeg fant det i en ung, kvik man &#x2026; jeg vil ikke n&#x00E6;rmere betegne ham. Han havde &#x2013; &#x00E5;, de &#x00E6;dleste gruns&#x00E6;tninger, de h&#x00F8;jeste m&#x00E5;l, &#x2013; i det stykke fars fulst&#x00E6;ndige mots&#x00E6;tning! Det vilde v&#x00E6;re for lit&#x0027; at sige, at jeg elskede ham. Jeg dyrkede ham. &#x2013;</p>
+<p>Men s&#x00E5; kan jeg ikke fort&#x00E6;lle, hvad jeg opdagede, eller hvorledes jeg opdagede det. Det var dengang, I alle sammen trodde, at jeg var blet &#x2013;</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>&#x2013; bryst-syk? Er det muligt, barn? Var det dengang?</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Dengang. &#x2013; Ingen t&#x00E5;ler, ingen tilgir at bli s&#x00E5; bedraget!</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Og du sa&#x0027; ingen ting til mig?</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Den, som ikke har v&#x00E6;ret i min fejltagelse, kan ikke forst&#x00E5;, hvad det er at skamme sig. &#x2013; Ja, nu er det over. Men det er sikkert, at annen gang tar ingen fejl, som har havt en slik f&#x00F8;rste gang.</p>
+</sp>
+<stage>(<hi rend="bold">Riis</hi> er imidlertid g&#x00E5;t in til h&#x00F8;jre.)</stage>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Kanske det s&#x00E5; var heldigt for dig?</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Jeg er vis p&#x00E5;, at det var. &#x2013; N&#x00E5; ja, &#x2013; nu er det over. Men det var ikke ganske over, f&#x00F8;r jeg fant Alf. Hvor er far?</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Far? Der kommer han, ser jeg.</p>
+</sp>
+<sp>
+<speaker>Riis</speaker>
+<stage>(kommer fra h&#x00F8;jre med hat p&#x00E5; og i f&#x00E6;rd med at drage p&#x00E5; en hanske).</stage>
+<p>H&#x00F8;r nu, b&#x00F8;rn-lille! jeg m&#x00E5; s&#x00F8;rge for mine kufferter p&#x00E5; tollboden. Jeg g&#x00E5;r ned p&#x00E5; stationen og telegraferer. I m&#x00E5; jo f&#x00E5; eders saker i orden; for kongen kommer her snart, og s&#x00E5; g&#x00E6;ller det!</p>
+<p>God morgen da, min s&#x00F8;te pige! <stage>(kysser henne.)</stage> Du har gjort os s&#x00E5; megen gl&#x00E6;de, har du. &#x2013; Ellers har du der nogle id&#x00E9;er, som ikke &#x2026; Nu ja! &#x2013; <stage>(G&#x00E5;ende:)</stage> God morgen!</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>God morgen!</p>
+</sp>
+<sp>
+<speaker>Riis</speaker>
+<stage>(idet han atter drar hansken af).</stage>
+<p>La&#x0027; du m&#x00E6;rke til den melodi, jeg spilte, da du kom in? <stage>(S&#x00E6;tter sig ved pianoet.)</stage> Jeg h&#x00F8;rte den over hele Tyskland. <stage>(Spiller og synger; afbryter.)</stage> Men h&#x00E6;rre-min, her har jeg jo sat noterne, s&#x00E5; du kan spille og synge selv. <stage>(g&#x00E5;r nynnende.)</stage></p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Han er morsom! Der er virkelig noget uskyldigt over ham. &#x2013; S&#x00E5; du ham ig&#x00E5;r? Det str&#x00E5;lede af ham &#x00AB;i hundre brytninger&#x00BB;, som man siger.</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Da s&#x00E5; du nok ikke dig selv?</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Ja-s&#x00E5;? Var jeg slik?</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Din fars datter &#x2013; fulkommen!</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Ja, for det nytter ikke at n&#x00E6;gte det, mor, at hvor stor vor lykke er, andres v&#x00E6;nlighed g&#x00F8;r den st&#x00F8;rre. Idag gik jeg og huskede alt fra ig&#x00E5;r, som havde gjort mig godt, og jeg fant, &#x2013; ja, jeg kan ikke sige det! <stage>(L&#x00E6;gger sig in til moderen.)</stage></p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Lykkelig er du! &#x2013; Nu vil jeg se lit til huset.</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Skal jeg hj&#x00E6;lpe dig?</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>P&#x00E5; ingen m&#x00E5;te. <stage>(De g&#x00E5;r sammen opover.)</stage></p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>S&#x00E5; g&#x00E5;r jeg gennem fars melodi et par ganger, &#x2013; og s&#x00E5; kommer vel Alf snart. <stage>(Moderen in til venstre; <hi rend="bold">Svava</hi> til pianoet.)</stage></p>
+</sp>
+</div>
+<div type="chapter" subtype="scene" n="1_4">
+<head type="sub">Fj&#x00E6;rde m&#x00F8;te</head>
+<stage><hi rend="bold">Svava</hi>. <hi rend="bold">Alf</hi> (fra venstre).</stage>
+<sp>
+<speaker>Alf</speaker>
+<stage>(kommer sagte, l&#x00E6;ner sig over henne, s&#x00E5; at ansigtet n&#x00E6;sten kommer foran hennes).</stage>
+<p>Tak for ig&#x00E5;r!</p>
+</sp>
+<sp>
+<speaker>Svava</speaker>
+<stage>(springer op).</stage>
+<p>Alf! &#x2013; Jeg har ikke h&#x00F8;rt det ringe?</p>
+</sp>
+<sp>
+<speaker>Alf.</speaker>
+<p>Musikken! Den er ogs&#x00E5; s&#x00E5; vakker!</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Og tak, tak for ig&#x00E5;r! <stage>(De g&#x00E5;r fr&#x00E6;m.)</stage></p>
+</sp>
+<sp>
+<speaker>Alf.</speaker>
+<p>Du har vist ingen forestilling om, hvilken lykke du gjorde?</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>En liten smule. Men det m&#x00E5; du tie stille med; for det er jo uanst&#x00E6;ndigt at tilst&#x00E5; det.</p>
+</sp>
+<sp>
+<speaker>Alf.</speaker>
+<p>Til mig talte man jo, og til mor og far. &#x2013; Der er almindelig gl&#x00E6;de hjemme idag.</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Her ogs&#x00E5;! &#x2013; Hvad er det, du holder i h&#x00E5;nden? Et brev?</p>
+</sp>
+<sp>
+<speaker>Alf.</speaker>
+<p>Et brev. Jeg fik det af pigen, som lukkede op. Et kl&#x00F8;gtigt hoved har funnet ut, at hit kom jeg i l&#x00F8;pet af formiddagen.</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Du synes ikke, det var sv&#x00E6;rt at g&#x00E6;tte?</p>
+</sp>
+<sp>
+<speaker>Alf.</speaker>
+<p>Ikke overordentlig. Edvard Hansen er afsender.</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Men til ham kan du g&#x00E5; en snar-vej gennem vor park <stage>(peker ut til h&#x00F8;jre).</stage></p>
+</sp>
+<sp>
+<speaker>Alf.</speaker>
+<p>Det v&#x00E9;t jeg. Og da han siger, at det haster, og har understr&#x00F8;ket ordet, &#x2013;</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>&#x2013; s&#x00E5; kan du f&#x00E5; min n&#x00F8;kkel, &#x2013; v&#x00E6;rs&#x0027;go&#x0027;! <stage>(gir ham den).</stage></p>
+</sp>
+<sp>
+<speaker>Alf.</speaker>
+<p>Tak! Mange tak!</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>&#x00C5;, det er bare egennytte; jo snarere har vi dig igen.</p>
+</sp>
+<sp>
+<speaker>Alf.</speaker>
+<p>Jeg blir her like til middag &#x2013;</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Du blir her like til meget l&#x00E6;nger, g&#x00F8;r du. For vi har frygtelig meget at tale om fra ig&#x00E5;r &#x2013;</p>
+</sp>
+<sp>
+<speaker>Alf.</speaker>
+<p>Ja, ikke sant?</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Og meget annet ogs&#x00E5;!</p>
+</sp>
+<sp>
+<speaker>Alf.</speaker>
+<p>Jeg har et h&#x00F8;jst vigtigt sp&#x00F8;rsm&#x00E5;l at g&#x00F8;re dig.</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Har du?</p>
+</sp>
+<sp>
+<speaker>Alf.</speaker>
+<p>Kanske du vil finne det ut, til jeg kommer igen?</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Da kan det ikke v&#x00E6;re s&#x00E5; vanskeligt.</p>
+</sp>
+<sp>
+<speaker>Alf.</speaker>
+<p>Jo, det er. Men du har undertiden inspirationer.</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Nu da? &#x2013; &#x2013;</p>
+</sp>
+<sp>
+<speaker>Alf.</speaker>
+<p>Hvorfor har vi to ikke funnet hv&#x00E6;randre for flere &#x00E5;r siden?</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Fordi vi ikke var f&#x00E6;rdig til det &#x2013; naturligvis!</p>
+</sp>
+<sp>
+<speaker>Alf.</speaker>
+<p>Hvoraf v&#x00E9;t du det?</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Deraf, at jeg selv dengang var en annen, &#x00E6;n jeg nu er.</p>
+</sp>
+<sp>
+<speaker>Alf.</speaker>
+<p>Men der er natur-sl&#x00E6;gtskab mellem dem, som elsker hv&#x00E6;randre. Det f&#x00F8;ler jeg. Og <hi rend="italic">det</hi> var der jo alts&#x00E5; ogs&#x00E5; dengang?</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Natur-sl&#x00E6;gtskabet m&#x00E6;rker vi ikke, dersom vi har utviklet os forskellig.</p>
+</sp>
+<sp>
+<speaker>Alf.</speaker>
+<p>Det har da vi? Og allikevel &#x2013;</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Og allikevel elsker vi; for vejene kan v&#x00E6;re s&#x00E5; forskellige, de vil, n&#x00E5;r de bare f&#x00F8;rer sammen.</p>
+</sp>
+<sp>
+<speaker>Alf.</speaker>
+<p>Til samme t&#x00E6;nke-m&#x00E5;te, mener du?</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Nu ja, til at st&#x00E5; sammen som vi to nu.</p>
+</sp>
+<sp>
+<speaker>Alf.</speaker>
+<p>S&#x00E5; rigtig godt sammen?</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>S&#x00E5; rigtig godt sammen!</p>
+</sp>
+<sp>
+<speaker>Alf.</speaker>
+<p>Men netop da er det, &#x2013; ja, n&#x00E5;r jeg som nu har dig innen mine to arme, &#x2013; at jeg sp&#x00F8;r op igen og op igen: hvorfor har jeg ikke gjort dette f&#x00F8;r?</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Nej, det t&#x00E6;nker jeg ikke p&#x00E5;; nej, ikke det minste! Dette er den tryggeste plas i v&#x00E6;rden; det er, hvad jeg t&#x00E6;nker.</p>
+</sp>
+<sp>
+<speaker>Alf.</speaker>
+<p>Kanske uten disse &#x00E5;r vilde den ikke ha v&#x00E6;ret det.</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Hvad mener du med det?</p>
+</sp>
+<sp>
+<speaker>Alf.</speaker>
+<p>Jeg mener &#x2026; ja, jeg mener vel i grunnen det samme som du, at jeg har ikke altid v&#x00E6;ret den, jeg nu er. Men jeg m&#x00E5; skynde mig afsted. Der st&#x00E5;r i brevet, at det haster. <stage>(De g&#x00E5;r opover.)</stage></p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>P&#x00E5; minuttet kommer det vel ikke an? &#x2013; For der er noget, jeg f&#x00F8;rst m&#x00E5; sige dig!</p>
+</sp>
+<sp>
+<speaker>Alf.</speaker>
+<p>Hvilket? <stage>(stanser.)</stage></p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Da jeg s&#x00E5; dig st&#x00E5; mellem alle de andre, s&#x00E5; var det f&#x00F8;rst, som jeg ikke k&#x00E6;nte dig. For der var kommet noget nyt over dig, noget fra de andre; ja, du <hi rend="italic">var</hi> ogs&#x00E5; p&#x00E5; en annen m&#x00E5;te.</p>
+</sp>
+<sp>
+<speaker>Alf.</speaker>
+<p>Naturligvis! Det er man da altid blant de fr&#x00E6;mmede. Da <hi rend="italic">du</hi> kom in blant damerne, var det, som jeg ikke havde set opm&#x00E6;rksomt p&#x00E5; dig f&#x00F8;r. Der er jo ogs&#x00E5; visse m&#x00E5;l, en ikke kan ta&#x0027;, f&#x00F8;r andre kommer til. Nu f&#x00F8;rst v&#x00E9;t jeg, hvor omtrentlig stor du er, ogs&#x00E5; hvorledes du b&#x00F8;jer dig &#x2013; &#x00E5;, lit! &#x2013; til den ene side, n&#x00E5;r du hilser &#x2026; Og dine farver! Jeg har i grunnen ikke set &#x2013;</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Nej, vil du nu tie stille og la&#x0027; mig komme til!</p>
+</sp>
+<sp>
+<speaker>Alf.</speaker>
+<p>&#x2013; Slet ikke! Vi er jo komne hit igen, og nu <hi rend="italic">m&#x00E5;</hi> jeg afsted! <stage>(De g&#x00E5;r atter opover.)</stage></p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Men bare ganske lit! Du tok jo ordet fra mig. Da jeg s&#x00E5; dig st&#x00E5; borte blant h&#x00E6;rrerne, var det f&#x00F8;rst, som jeg ikke k&#x00E6;nte dig. Men i det samme fik du &#x00F8;je p&#x00E5; mig og nikkede. Jeg v&#x00E9;t ikke, hvad der skete for en forvandling med dig eller med mig; men jeg f&#x00F8;lte, jeg blev ildr&#x00F8;d. Og det varede en stund, f&#x00F8;r jeg v&#x00E5;gede at se p&#x00E5; dig igen.</p>
+</sp>
+<sp>
+<speaker>Alf.</speaker>
+<p>Nej, v&#x00E9;t du, hvad der h&#x00E6;ndte mig? Hv&#x00E6;r eneste gang &#x00E9;n kom for at danse med dig, unte jeg ham det ikke. Nej, ikke i minste m&#x00E5;te! Jeg t&#x00E5;ler, ved gud, ikke, at nogen annen r&#x00F8;rer ved dig! <stage>(De omfavner hv&#x00E6;randre.)</stage> Og &#x00E6;nda s&#x00E5; har jeg ikke n&#x00E6;vnt det beste!</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Og det er?</p>
+</sp>
+<sp>
+<speaker>Alf.</speaker>
+<p>Det er, at n&#x00E5;r jeg ser dig borte blant de andre og da f. e. et glimt af din arm, s&#x00E5; t&#x00E6;nker jeg: den arm har lagt om min hals og om ingen annens i hele v&#x00E6;rden! Hun er min, hun der, og ingen, ingen, ingen annens!</p>
+<p>Se, det er det beste af alt sammen!</p>
+<p>&#x2013; Men er vi ikke &#x00E9;n gang til komne hit? Dette er jo hekseri! &#x2013; Nu <hi rend="italic">m&#x00E5;</hi> jeg g&#x00E5;! <stage>(opover.)</stage> Farvel! <stage>(slipper, tar henne igen.)</stage> Hvorfor blev jeg ikke s&#x00E5; lykkelig for flere &#x00E5;r siden? &#x2013; Farvel!</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Jeg tror, jeg f&#x00F8;lger dig.</p>
+</sp>
+<sp>
+<speaker>Alf.</speaker>
+<p>Ja, ja!</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Nej, det er sant! Jeg m&#x00E5; l&#x00E6;re den melodi, til far kommer tilbake. F&#x00E5;r jeg ikke l&#x00E6;re den nu, s&#x00E5; s&#x00F8;rger nok du for, at det ikke blir idag.</p>
+</sp>
+<stage>(Det ringer p&#x00E5; port-klokken.)</stage>
+<sp>
+<speaker>Alf.</speaker>
+<p>Der er nogen! Lad mig dog komme afsted forinnen! <stage>(Han springer til h&#x00F8;jre; hun st&#x00E5;r og vifter efter ham. Hun er p&#x00E5; vej til pianoet, da <hi rend="bold">Margit</hi> kommer.)</stage></p>
+</sp>
+</div>
+<div type="chapter" subtype="scene" n="1_5">
+<head type="sub">Femte m&#x00F8;te</head>
+<stage><hi rend="bold">Svava</hi>. <hi rend="bold">Margit</hi>. (Senere) <hi rend="bold">Hoff</hi>.</stage>
+<sp>
+<speaker>Margit.</speaker>
+<p>Her er en h&#x00E6;rre, som b&#x00E9;r om at f&#x00E5; &#x2013;</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>En h&#x00E6;rre? K&#x00E6;nner du ham ikke?</p>
+</sp>
+<sp>
+<speaker>Margit.</speaker>
+<p>Nej.</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Hvad slags h&#x00E6;rre?</p>
+</sp>
+<sp>
+<speaker>Margit.</speaker>
+<p>D&#x0027;er likesom noget &#x2013;</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Noget mist&#x00E6;nkeligt?</p>
+</sp>
+<sp>
+<speaker>Margit.</speaker>
+<p>Nej, langt fra. D&#x0027;er mye pen man.</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Sig ham, at far ikke er hjemme; han er g&#x00E5;t ned p&#x00E5; stationen.</p>
+</sp>
+<sp>
+<speaker>Margit.</speaker>
+<p>Det har jeg sagt ham. Men det er fr&#x00F8;kenen, han vil tale med.</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Bed mor komme in! &#x2013; &#x00C5; nej, hvorfor det? Lad ham komme in!</p>
+</sp>
+<stage>(<hi rend="bold">Margit</hi> g&#x00E5;r.)</stage>
+<sp>
+<speaker>Hoff.</speaker>
+<p>Det er fr&#x00F8;ken Riis, som jeg har den &#x00E6;re at &#x2013;? Ja, jeg ser, at det er det. Mit navn er &#x2013; Hoff, Karl Hoff. Jeg rejser i j&#x00E6;rn.</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Men hvad har <hi rend="italic">jeg</hi> med det?</p>
+</sp>
+<sp>
+<speaker>Hoff.</speaker>
+<p>Jo, for &#x2013; for havde jeg v&#x00E6;ret et almindeligt hjemmem&#x00E6;nneske, s&#x00E5; var meget og mangt ikke h&#x00E6;ndt.</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Hvad var ikke h&#x00E6;ndt?</p>
+</sp>
+<sp>
+<speaker>Hoff</speaker>
+<stage>(tar fr&#x00E6;m en stor tegne-bok, deraf et litet brev).</stage>
+<p>Vil De behage behage at l&#x00E6;se det der? Eller kanske De vil ikke?</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Ja, hvordan kan jeg afg&#x00F8;re det?</p>
+</sp>
+<sp>
+<speaker>Hoff.</speaker>
+<p>Nej, De m&#x00E5; jo vel f&#x00F8;rst &#x2013;. V&#x00E6;rs&#x0027;go&#x0027;!</p>
+</sp>
+<sp>
+<speaker>Svava</speaker>
+<stage>(l&#x00E6;ser).</stage>
+<p>&#x00AB;I kv&#x00E6;ld mellem 10 og 11, at sige, hvis tutlingen ikke er kommet hjem. Du er mig s&#x00E5; k&#x00E6;r, &#x00E5;, s&#x00E5; k&#x00E6;r! &#x2013; S&#x00E6;t lys i gang-vinduet.&#x00BB;</p>
+</sp>
+<sp>
+<speaker>Hoff.</speaker>
+<p>&#x00AB;Tutlingen&#x00BB;, det er mig.</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Men jeg forst&#x00E5;r ikke &#x2013;?</p>
+</sp>
+<sp>
+<speaker>Hoff.</speaker>
+<p>Her er &#x00E9;t til.</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>&#x00AB;Jeg har samvittigheds-nag. Din hoste forf&#x00E6;rder mig, og nu, da du v&#x00E6;nter &#x2013;&#x00BB;</p>
+<p>Men hvad i al verden skal jeg med dette?</p>
+</sp>
+<sp>
+<speaker>Hoff</speaker>
+<stage>(efter en stunds bet&#x00E6;nkning).</stage>
+<p>Ja, hvad tror De?</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Er det en, jeg skal hj&#x00E6;lpe?</p>
+</sp>
+<sp>
+<speaker>Hoff.</speaker>
+<p>Nej, stakkar, hj&#x00E6;lp beh&#x00F8;ver hun ikke mere. Hun er d&#x00F8;d.</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>D&#x00F8;d? Det var Deres hustru?</p>
+</sp>
+<sp>
+<speaker>Hoff.</speaker>
+<p>Det var det. Det var min hustru.</p>
+<p>Jeg fant dette og noget til i en liten &#x2026; &#x00E6;ske. P&#x00E5; bunden l&#x00E5; brev-lapperne, &#x2013; der er flere, &#x2013; og ovenp&#x00E5; dem noget bom-ull. Ovenp&#x00E5; den l&#x00E5; &#x00F8;ren-ringer og slikt efter hennes mor. Og s&#x00E5; &#x2013; disse arm-b&#x00E5;nd, her. De er bestemt for kostbare til at v&#x00E6;re fra mor&#x0027;en.</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Hun d&#x00F8;de alts&#x00E5; pludselig, siden hun ikke &#x2013;</p>
+</sp>
+<sp>
+<speaker>Hoff.</speaker>
+<p>Det kan jeg ikke sige; bryst-syke tror aldrig, de skal d&#x00F8;. &#x2013; Hun var ellers s&#x00E5; fin og svak. &#x2013; Tillader De, at jeg s&#x00E6;tter mig?</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>V&#x00E6;r s&#x00E5; god! &#x2013; Er der barn?</p>
+</sp>
+<sp>
+<speaker>Hoff</speaker>
+<stage>(efter en bet&#x00E6;nkning).</stage>
+<p>&#x2013; Jeg tror ikke det.</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>De tror ikke &#x2013;? Jeg spurte om dette, fordi jeg t&#x00E6;nkte, det var vor forening, De s&#x00F8;kte. &#x2013; Oprigtig talt, dette piner mig.</p>
+</sp>
+<sp>
+<speaker>Hoff.</speaker>
+<p>Det t&#x00E6;nkte jeg nok; &#x2013; det t&#x00E6;nkte jeg nok. &#x2013; Jeg v&#x00E9;t heller ikke rigtig, om jeg &#x2026; Ja, De kan ikke forst&#x00E5; dette, De.</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Nej, jeg kan ikke det.</p>
+</sp>
+<sp>
+<speaker>Hoff.</speaker>
+<p>Nej, De kan ikke det. &#x2013; Jeg har h&#x00F8;rt s&#x00E5; meget godt om Dem i flere &#x00E5;r. Ja, min hustru roste Dem ogs&#x00E5;.</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>K&#x00E6;nte <hi rend="italic">hun</hi> mig?</p>
+</sp>
+<sp>
+<speaker>Hoff.</speaker>
+<p>Maren Tang, &#x2013; hun, som var selskabs-dame hos &#x2013;</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>&#x2013; hos Christensens, min tilkommende svigermor? Nej, var det henne? Hun var en dannet, stille dame &#x2026; De skulde ikke ta&#x0027; fejl? Et par sedler uten underskrift, &#x00E6;nog uten datum? Hvad?</p>
+</sp>
+<sp>
+<speaker>Hoff.</speaker>
+<p>K&#x00E6;nte De ikke h&#x00E5;nd-skriften?</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Jeg? Nej. Var den ikke oven i k&#x00F8;pet lit fordrejet?</p>
+</sp>
+<sp>
+<speaker>Hoff.</speaker>
+<p>Jo; sk&#x00F8;nt ikke s&#x00E5; meget &#x00E6;nda.</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>De havde vel ellers et bestemt &#x00E6;rende til mig?</p>
+</sp>
+<sp>
+<speaker>Hoff.</speaker>
+<p>Jo, jeg havde. &#x2013; Men jeg tror, jeg lar det v&#x00E6;re. De forst&#x00E5;r ikke noget af dette, De, ser jeg. &#x2013; Kanske tror De, jeg er likesom forstyrret? &#x2013; Og det kan s&#x00E5;m&#x00E6;n g&#x00E6;rne v&#x00E6;re, det, ja.</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Men noget var det vel, De vilde?</p>
+</sp>
+<sp>
+<speaker>Hoff.</speaker>
+<p>Ja, det var det. &#x2013; Ser De, disse b&#x00F8;rne-haver &#x2026;</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>N&#x00E5;, s&#x00E5; det var dem allikevel?</p>
+</sp>
+<sp>
+<speaker>Hoff.</speaker>
+<p>Nej, det var ikke dem. Men de gjorde, at jeg l&#x00E6;nge har havt tilovers for Dem, fr&#x00F8;ken. Om jeg m&#x00E5; f&#x00E5; lov at sige det: fornemme unge piger, som tok sig noget nyttigt til, det har jeg aldrig f&#x00F8;r set. Aldrig f&#x00F8;r.</p>
+<p>Jeg er bare en liten falleret k&#x00F8;bman og rejser nu for andre, en d&#x00E5;rlig fyr i mange stykker og har kanske fortjent, hvad jeg har f&#x00E5;t &#x2026; Men &#x00E6;nda vilde jeg, at <hi rend="italic">De</hi> skulde spares. Ja, jeg t&#x00E6;nkte, at det var min pligt &#x2026; rent ut min pligt. &#x2013; Men nu, De sitter slik der foran mig &#x2026; ja, nu blir jeg bare gruelig ulykkelig. Og s&#x00E5; vil jeg Dem ingen ting. <stage>(Rejser sig.)</stage> Slet ingen ting.</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Dette forst&#x00E5;r jeg jo ikke.</p>
+</sp>
+<sp>
+<speaker>Hoff.</speaker>
+<p>De skal bare aldrig bry Dem om mig! Jeg ber Dem mange, mange ganger om undskyldning. &#x2013; Nej, De m&#x00E5; ikke ulejlige Dem! Slet ikke! Jeg har bare ikke v&#x00E6;ret her. Det er det hele.</p>
+</sp>
+<stage>(M&#x00F8;ter ved d&#x00F8;ren Alf. Da han ser, at Svava blir opm&#x00E6;rksom, g&#x00E5;r han hurtig.)</stage>
+</div>
+<div type="chapter" subtype="scene" n="1_6">
+<head type="sub">Sjette m&#x00F8;te</head>
+<stage><hi rend="bold">Svava</hi>. <hi rend="bold">Alf</hi>. (Straks efter) <hi rend="bold">Riis</hi>.</stage>
+<sp>
+<speaker>Svava</speaker>
+<stage>(ser m&#x00F8;tet mellem de to og giver et let skrik. Iler derp&#x00E5; op mot Alf. Men da hun st&#x00E5;r ansigt til ansigt med ham, forf&#x00E6;rdes hun. Han vil n&#x00E6;rme sig henne for at st&#x00F8;tte henne).</stage>
+<p>R&#x00F8;r mig ikke!</p>
+</sp>
+<stage>(Hun s&#x00F8;ker d&#x00F8;ren til venstre. Man h&#x00F8;rer henne innenfra l&#x00E5;se den af og skyte sk&#x00E5;ten for. Derp&#x00E5; h&#x00F8;rer man et utbrud af st&#x00E6;rk gr&#x00E5;t, som afstanden d&#x00E6;mper noget. Kun et &#x00F8;jeblik.)</stage>
+<stage>(Utenfra lyder melodien fra f&#x00F8;r, og straks efter ses <hi rend="bold">Riis</hi> at komme.)</stage>
+</div>
+</div>
+<div type="chapter" subtype="act" n="2">
+<head type="main">ANNEN HANDLING</head>
+<stage type="mil">Samme rum.</stage>
+<div type="chapter" subtype="scene" n="2_1">
+<head type="sub">F&#x00F8;rste m&#x00F8;te</head>
+<stage>Svava. Fru Riis.</stage>
+<stage>(<hi rend="bold">Svava</hi> ligger p&#x00E5; sofaen til h&#x00F8;jre, st&#x00F8;ttet p&#x00E5; sin arm og med hovedet vendt mot parken. Moderen sitter ved siden, vendt mot datteren.)</stage>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Disse kvasse afg&#x00F8;relser, Svava, de er i virkeligheden ingen afg&#x00F8;relser. Ti s&#x00E5; kommer der altid s&#x00E5; meget bakefter. &#x2013; Tag dig bet&#x00E6;nkningstid! Jeg tror, han er en brav man. Lad ham f&#x00E5; tid til at vise det! Bryt ikke straks!</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Hvorfor siger du mig bestandig dette?</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Men, k&#x00E6;re Svava, jeg har jo egentlig ikke f&#x00E5;t sagt dig noget f&#x00F8;r idag.</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Men alle dine fors&#x00F8;k har g&#x00E5;t p&#x00E5; den melodi.</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>P&#x00E5; hvilken skulde de da g&#x00E5;?</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>P&#x00E5; din gode gamle, mor, &#x2013; som er en ganske annen!</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Et er at l&#x00E6;re sit barn at g&#x00F8;re rigtigt valg i livet; &#x2013;</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Og et annet at holde det, man l&#x00E6;rer?</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Et annet er selve livet. Der g&#x00E6;ller det undertiden at sl&#x00E5; af, og da is&#x00E6;r i et samliv.</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>P&#x00E5; uv&#x00E6;sentligheder, ja.</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Bare p&#x00E5; uv&#x00E6;sentligheder &#x2013;?</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Ja, p&#x00E5; egenheder og slikt, som i grunnen er utv&#x00E6;kster. Men ikke p&#x00E5; selve utviklingen.</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>P&#x00E5; <hi rend="italic">den</hi> med.</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>P&#x00E5; <hi rend="italic">den</hi> med? &#x2013; Men er det da ikke for vor utviklings skyld, at vi gifter os? Hvorfor skal vi ellers g&#x00F8;re det?</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Ja, du f&#x00E5;r se!</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Nej, det f&#x00E5;r jeg ikke se; ti s&#x00E5; gifter jeg mig ikke.</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Det skulde du ha sagt f&#x00F8;r. Nu er det for sent.</p>
+</sp>
+<sp>
+<speaker>Svava</speaker>
+<stage>(hun rejser sig i s&#x00E6;tet).</stage>
+<p>For sent? Om jeg havde v&#x00E6;ret gift i tyve &#x00E5;r, jeg havde gjort det samme! <stage>(L&#x00E6;gger sig igen.)</stage></p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>&#x00C5;, gud hj&#x00E6;lpe dig! &#x2013; Du v&#x00E9;t ikke, nej, du v&#x00E9;t ikke, hvad du er i for et net! Du f&#x00E5;r k&#x00E6;nne det, straks du begynner at rykke for alvor.</p>
+<p>Eller vil du virkelig, at din far og jeg skal kaste fra os alt det, vi har arbejdet op her? At vi skal begynne p&#x00E5; igen i et annet land? Ti det har han gentagende sagt i disse dager, at prostitutionen af et opslag, den vilde han ikke finne sig i. Han rejser, og s&#x00E5; m&#x00E5; jeg jo f&#x00F8;lge.</p>
+<p>Ja, du vrider og vender dig i det. T&#x00E6;nk ogs&#x00E5; p&#x00E5; alle de andre! Det er sv&#x00E6;rt at bli s&#x00E5; h&#x00F8;jt sat op, som du blev i forlovelses-gildet. Det er som at l&#x00F8;ftes op p&#x00E5; et stillas, de andre g&#x00E5;r og b&#x00E6;rer. Vogt dig, at de ikke slipper dig ner! Men det g&#x00F8;r de, hvis du kr&#x00E6;nker deres regler for det rigtige.</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Er dette deres regler for det rigtige?</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Det vil jeg ikke sige. Men at der ingen skandale sker, h&#x00F8;rer ubetinget til deres regler for det rigtige. Kanske er det deres f&#x00F8;rste.</p>
+<p>Ingen synes om at bli prostitueret, Svava. Aller minst de, som er de m&#x00E6;gtigste p&#x00E5; sit sted. Og aller &#x2013; aller minst synes folk om, at deres <hi rend="italic">barn</hi> blir prostitueret.</p>
+</sp>
+<sp>
+<speaker>Svava</speaker>
+<stage>(halvt oppe).</stage>
+<p>Du gode gud, er det <hi rend="italic">mig</hi>, som prostituerer <hi rend="italic">ham</hi>?</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Nej, det er vel egentlig ham selv &#x2026;</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>N&#x00E5;! <stage>(lar sig falle ned igen.)</stage></p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Men det f&#x00E5;r du dem aldrig til at forst&#x00E5;! &#x2013; Nej, du g&#x00F8;r ikke! &#x2013; S&#x00E5;l&#x00E6;nge bare familjen og de n&#x00E6;rmeste hvisker om, hvad han har gjort, holder de det slet ikke for prostitution. Ti der er altfor mange, som g&#x00F8;r det samme.</p>
+<p>F&#x00F8;rst n&#x00E5;r det blir k&#x00E6;nt af al v&#x00E6;rden, da holder de det for prostitution.</p>
+<p>Og blev dette k&#x00E6;nt i form af opslag: Christensens &#x00E6;ldste s&#x00F8;n infamt forskut for sin fortids skyld, &#x2013; de vilde holde det for den st&#x00F8;rste skandale, som kunde overf&#x00F8;res dem!</p>
+<p>Og dette vilde is&#x00E6;r g&#x00E5; ut over os. &#x2013; Og over dem, som er afh&#x00E6;ngige af os. Du v&#x00E9;t, det er ikke s&#x00E5; f&#x00E5;. Du har jo taget dig af dem, is&#x00E6;r af barnene. Alt, du har taget dig af her, m&#x00E5;tte du vel s&#x00E5; slippe. For du m&#x00E5;tte f&#x00F8;lge med os. Jeg er sikker p&#x00E5;, at din far g&#x00F8;r alvor af det.</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>&#x00C5;-&#x00E5;!</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Jeg vilde &#x00F8;nske, jeg kunde sige dig, hvorfor jeg er s&#x00E5; sikker p&#x00E5; det. Men det kan jeg ikke; &#x2013; i alle fall ikke &#x00E6;nnu. &#x2013; Nej, du skal ikke friste mig til det.</p>
+<p>Der kommer din far. Bare bet&#x00E6;nknings-tid, Svava! Ikke brud; ikke skandale!</p>
+</sp>
+</div>
+<div type="chapter" subtype="scene" n="2_2">
+<head type="sub">Annet m&#x00F8;te</head>
+<stage><hi rend="bold">Svava</hi>. <hi rend="bold">Fru Riis</hi>. <hi rend="bold">Riis</hi> (kommer utenfra med et &#x00E5;pent brev i h&#x00E5;nden).</stage>
+<sp>
+<speaker>Riis.</speaker>
+<p>N&#x00E5;, ligger du der? <stage>(in i sit rum, hvor han l&#x00E6;gger hat og stok fra sig, og kommer ut igen.)</stage> Vel ikke noget alvorligt, &#x2013; vel?</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Nej; men &#x2013;</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Nu ja! Her er nu brev fra Christensens. Da du ikke vil mot-ta&#x0027; din forlovede og ikke hans brev, s&#x00E5; m&#x00E5; du finne dig i, at familjen blander sig in. Alt i v&#x00E6;rden m&#x00E5; jo ha en ende. <stage>(L&#x00E6;ser.)</stage> &#x00AB;Mellem 11 og 12 giver min hustru, s&#x00F8;n og jeg os den &#x00E6;re at afl&#x00E6;gge Dem og Deres et bes&#x00F8;k&#x00BB;. &#x2013; Det er bare et under, at dette ikke er kommet f&#x00F8;r! De har s&#x00E5;gu&#x0027; v&#x00E6;ret t&#x00E5;lmodige nok.</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Ja, vi har ikke kommet videre, vi, idag heller.</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Men hvad t&#x00E6;nker du p&#x00E5;, barn? Ser du da ikke, hvad <hi rend="italic">dette</hi> f&#x00F8;rer til? Du er dog en godhj&#x00E6;rtet pige, jeg v&#x00E9;t det; du vil dog ikke likefr&#x00E6;m ruinere os alle sammen?</p>
+<p>Jeg synes sannelig, Svava, at nu har du tr&#x00E5;dt bestemt nok op i denne sak. De er blet rystede langt in i sin selvsikkerhed b&#x00E5;de den ene og den andre af dem; det kan du v&#x00E6;re sikker p&#x00E5;. Hvad forlanger du s&#x00E5; mere? Eller vil du virkelig g&#x00E5; &#x00E6;nnu l&#x00E6;ngre, nu vel, &#x2013; stil dine betingelser! De blir sannelig nok antagne.</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Fy, fy, fy!</p>
+</sp>
+<sp>
+<speaker>Riis</speaker>
+<stage>(fortvilet).</stage>
+<p>Ja, det g&#x00E5;r ikke an at ta&#x0027; det p&#x00E5; den m&#x00E5;ten!</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Nej, det g&#x00F8;r ikke det! Du skulde hellere pr&#x00F8;ve at j&#x00E6;vne det lit, Svava.</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Du f&#x00E5;r da virkelig ogs&#x00E5; nedlade dig til at se p&#x00E5;, hvem det er, du kaster fra dig. En af landets rikeste familjer, og jeg t&#x00F8;r sige, en af de h&#x00E6;derligste med. Jeg har aldrig h&#x00F8;rt noget s&#x00E5; letsindigt! &#x2013; Ja, jeg siger det. Letsindigt, siger jeg.</p>
+<p>Om her er beg&#x00E5;t et &#x2013; eller flere &#x2013; fejl-trin, n&#x00E5;, h&#x00E6;rre gud &#x2026;</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Ja, tag ogs&#x00E5; ham med!</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Jam&#x00E6;n g&#x00F8;r jeg s&#x00E5;, ja! For det er alvorligt nok til det.</p>
+<p>Om her ogs&#x00E5; er beg&#x00E5;t fejl-trin, siger jeg, s&#x00E5; er den stakkars unge man nu straffet nok for det. Og vi f&#x00E5;r da virkelig ogs&#x00E5; v&#x00E6;re lit rimelige med hv&#x00E6;randre! Det er jo et bud, det, v&#x00E9;t du, at vi skal v&#x00E6;re rimelige og tilgi&#x0027;. Vi <hi rend="italic">skal</hi> tilgi&#x0027;! Og vi skal mere. Vi skal hj&#x00E6;lpe den, som fejler, &#x2013; vi skal rejse den, som faller, &#x2013; vi skal f&#x00F8;re p&#x00E5; ret vej &#x2026; ja, f&#x00F8;re p&#x00E5; ret vej. Det kan <hi rend="italic">du</hi> s&#x00E5; godt! Det ligger just for dig, det!</p>
+<p>Som du selv v&#x00E9;t, min k&#x00E6;re, er det sj&#x00E6;lden, at jeg taler moral eller den sort. Det kl&#x00E6;r mig rent ut ikke; jeg f&#x00F8;ler det altfor vel. Men ved denne lejlighed kan jeg ikke undlade det.</p>
+<p>Begyn med at tilgi&#x0027;, mit barn; begyn med det!</p>
+<p>Overhovedet: kan du t&#x00E6;nke dig et l&#x00E6;ngre samliv, uten at &#x2026; uten at, &#x2013; ja, uten <hi rend="italic">det</hi>?</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Men her er ikke tale om noget l&#x00E6;ngre samliv; heller ikke om at tilgi&#x0027;. For jeg vil aldeles ikke ha mere med ham at bestille.</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Nej, men dette g&#x00E5;r over alle gr&#x00E6;nser!</p>
+<p>Fordi han har v&#x00E5;get at elske nogen f&#x00F8;r dig &#x2026; ?</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>&#x2013; nogen? &#x2013;</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Ja, hvad der er mere, det v&#x00E9;t jeg ikke!</p>
+<p>Nej, jeg g&#x00F8;r ikke! Det er ogs&#x00E5; fanden, som folk sladrer og baktaler! Men jeg siger: fordi han har v&#x00E5;get at se p&#x00E5; nogen, f&#x00F8;r han s&#x00E5; p&#x00E5; dig, ja, f&#x00F8;r han <hi rend="italic">t&#x00E6;nkte</hi> p&#x00E5; dig, derfor skal han evig forkastes? Hvor mange blev s&#x00E5; gifte, om jeg t&#x00F8;r sp&#x00F8;rge? Al v&#x00E6;rden forsikrer, han er en s&#x00E5; h&#x00E6;derlig, brav ung man, at den stolteste pige trygt kan tro sig til ham, &#x2013; ja, du sa&#x0027; det for en tid siden selv! N&#x00E6;gt det ikke! Men nu skal han pludselig forkastes, fordi <hi rend="italic">du</hi> ikke er den f&#x00F8;rste, han har m&#x00F8;t?</p>
+<p>Der er n&#x00E5; m&#x00E5;te p&#x00E5; hovmod ogs&#x00E5;! Jeg har aldrig h&#x00F8;rt noget urimeligere, jeg for min del.</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>M&#x00E6;nnene er ikke slike.</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>&#x00C6;n pigerne da? Er <hi rend="italic">de</hi> slike? De sp&#x00F8;r sandelig ikke efter, om deres forlovede har v&#x00E6;ret gift f&#x00F8;r &#x2013; se, der kom jeg til at sige &#x00AB;gift&#x00BB;? Du kan g&#x00E5; ut fra, han har v&#x00E6;ret gift. Nu, hvorfor ikke? Det g&#x00F8;r de andre piger. Ja, det nytter ikke at n&#x00E6;gte dette! For jeg v&#x00E9;t, at du v&#x00E9;t det! Du har da v&#x00E6;ret p&#x00E5; bal? Hvem er mest i vinden p&#x00E5; ballerne? Netop de, som har noget, &#x2013; n&#x00E5;, noget don Juanlystigt omkring sit navn. De tar luven fra alle de andre! Du har selv set det de hundre ganger!</p>
+<p>Er det kanske bare p&#x00E5; bal? Blir de kanske ikke gifte? I regelen f&#x00E5;r <hi rend="italic">de</hi> de allerbeste gifter!</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Det er sant.</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Javist er det sant. Og i regelen blir de sandelig gode &#x00E6;gtem&#x00E6;n ogs&#x00E5;!</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>H-m?</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>&#x00C5;, jovist g&#x00F8;r de s&#x00E5;! &#x2013; Ja, h&#x00E6;rre gud, nogle undtagelser. Saken er, at &#x00E6;gteskabet har en for&#x00E6;dlende inflydelse. Og her er kvinnen i sit sk&#x00F8;nneste kall. I sit allersk&#x00F8;nneste kall!</p>
+</sp>
+<sp>
+<speaker>Svava</speaker>
+<stage>(som har rejst sig).</stage>
+<p>Jeg kan til n&#x00F8;d h&#x00F8;re slikt af dig. For jeg v&#x00E6;ntede det ikke bedre.</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Takker s&#x00E5; meget!</p>
+</sp>
+<sp>
+<speaker>Svava</speaker>
+<stage>(som nu kommer helt fr&#x00E6;m).</stage>
+<p>Man skulde virkelig tro, at &#x00E6;gteskabet var en h&#x00F8;jere vaske-anstalt for manfolk, &#x2013;</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Ha, ha! &#x2013;</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>&#x2013; og at manfolkene kunde komme og kaste sig in i den, n&#x00E5;r de vilde, &#x2013; og som de vilde!</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Nej, men &#x2013;</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Jo! Og det er smigrende &#x2013; &#x00E5;, meget smigrende for mig, din datter, at du holder mig for s&#x00E5; s&#x00E6;rdeles skikket til en slik storvask-bestilling! Jeg skal for &#x00F8;vrigt ikke ha noget af den.</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Men dette er da &#x2026;</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Ja, h&#x00F8;r nu lit p&#x00E5; mig ogs&#x00E5;! Jeg tror ikke, jeg i alle disse dager har sagt for meget.</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Nej, vi har jo ikke f&#x00E5;t tale til dig.</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Du, far! Du har en del gruns&#x00E6;tninger til utstillingsbruk.</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Til &#x2013;?</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Jeg vil ikke dermed sige, de ikke er dine. Men du er s&#x00E5; god, s&#x00E5; h&#x00E6;derlig, s&#x00E5; fin i hele dit liv, at jeg bryr mig ikke det ringeste om dine gruns&#x00E6;tninger.</p>
+<p>Men mors bryr jeg mig om. For mors er det, som har dannet mine. Og n&#x00E5;r s&#x00E5; jeg vil handle efter dem, da l&#x00F8;per mor sin vej.</p>
+</sp>
+<sp>
+<speaker>Fru Riis og Riis.</speaker>
+<p>Men, Svava &#x2026; !</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Det er mor, jeg er vred p&#x00E5;. Det er mor, jeg ikke kan t&#x00E5;le.</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Svava dog &#x2026; !</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>For er der noget, mor og jeg har v&#x00E6;ret enige om, s&#x00E5; er det om den letf&#x00E6;rdige m&#x00E5;te, manfolkene forbereder sig til &#x00E6;gteskabet p&#x00E5;, og om de &#x00E6;gteskaber, som deraf blir f&#x00F8;lgen. Vi har forfulgt dette, mor og jeg, gennem mange &#x00E5;r! Og vi er fulkommen enige om, at det er <hi rend="italic">f&#x00F8;r</hi> &#x00E6;gteskabet, at &#x00E6;gteskabet forspilles.</p>
+<p>Men da s&#x00E5; mor her forleden begynte at sl&#x00E5; om &#x2026;</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Nej, det kan du ikke sige! Jeg tror nemlig, at Alf er en h&#x00E6;derlig &#x2026;</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Men da s&#x00E5; mor her forleden begynte at sl&#x00E5; om, ja, jeg kunde ikke v&#x00E6;re blet mere forundret, om nogen havde kommet in og meldt, at de havde m&#x00F8;t mor ute p&#x00E5; gaten, mens hun sat her og talte med mig.</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Jeg b&#x00E9;r dig jo bare at give tid! Jeg siger dig ikke imot!</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Nej, lad mig nu f&#x00E5; tale!</p>
+<p>Bare &#x00E9;t eksempel! Engang jeg var halvvoksen, kom jeg springende in her fra parken. Vi havde nylig k&#x00F8;pt dette sted, og jeg var s&#x00E5; glad. Da stod mor der henne ved d&#x00F8;ren og l&#x00E6;nte sig op og gr&#x00E5;t. Det var en dejlig sommerkv&#x00E6;l. &#x00AB;Hvorfor gr&#x00E5;ter du, mor?&#x00BB; sa&#x0027; jeg. Hun lot l&#x00E6;nge, som hun ikke s&#x00E5; mig. &#x00AB;Hvorfor gr&#x00E5;ter du, mor?&#x00BB; og jeg gik n&#x00E6;rmere; men jeg r&#x00F8;rte ikke ved henne. Hun vendte sig fra mig og gik op og ned her et par ganger. S&#x00E5; kom hun. &#x00AB;Barn,&#x00BB; sa&#x0027; hun og drog mig in til sig. &#x00AB;Sl&#x00E5; aldrig af p&#x00E5; det, som er godt og rent, ikke for nogen pris! Det er s&#x00E5; fejgt, og en angrer det s&#x00E5; forf&#x00E6;rdelig. For en m&#x00E5; bestandig sl&#x00E5; mere af, og mere af, og mere af.&#x00BB;</p>
+<p>Jeg v&#x00E9;t ikke, hvad det galt; jeg har aldrig spurt. Men sommer-kv&#x00E6;llen og mor, som gr&#x00E5;t, og ordene, de st&#x00E6;rke ord, &#x2026; ingen kan overdrive, hvad dette har v&#x00E6;ret for mig! <hi rend="italic">Jeg</hi> kan ikke sl&#x00E5; af. Forlang det ikke!</p>
+<p>Alt, som gjorde &#x00E6;gteskabet sk&#x00F8;nt for mig, det er borte. Min tro, min tryghed. &#x00C5;, borte!</p>
+<p>&#x2026; Nej! &#x2013; Nej, s&#x00E5;ledes kan det jo ikke begynne; I har synd af at ville inbille mig det. Gennem slik skuffelse &#x2013; og slik ydmygelse? Nej! S&#x00E5; hellere sitte ugift, &#x2013; om det skal v&#x00E6;re i et fr&#x00E6;mmed land. Jeg skal nok finne noget at fylle livet med; det er bare nu, jeg er s&#x00E5; overgit. Og alt er bedre &#x00E6;n at fylle det med urent. Den, som ikke straks viser <hi rend="italic">det</hi> ifra sig, g&#x00F8;r sig til medskyldig. Kanske er der dem, som t&#x00E5;ler slikt. Jeg ikke. Nej, ikke jeg!</p>
+<p>I tror, det er hovmod? Fordi jeg er harm? Visste I, hvad vi to havde aftalt og opgjort, &#x2013; s&#x00E5; forstod I det! Og visste I, hvad jeg t&#x00E6;nkte om ham, hvor h&#x00F8;jt jeg satte ham, &#x2026; ja, da fattede I ogs&#x00E5;, hvor ulykkelig jeg nu er! hvor gr&#x00E6;nsel&#x00F8;st jeg har tapt! &#x2013; &#x2013; &#x2013; Hvem gr&#x00E5;ter? Mor?! <stage>- (Hun iler hen, kn&#x00E6;ler og l&#x00E6;gger hodet i hennes fang. Stilhed. &#x2013; <hi rend="bold">Riis</hi> in til h&#x00F8;jre).</stage></p>
+<p>Hvorfor kan ikke vi tre holde sammen? Hvis vi g&#x00F8;r det, hvad har vi da at frygte? Hvad er i vejen? Far, hvad er i vejen? &#x2013; Men hvor er far &#x2013;? &#x2026; <stage>(Ser <hi rend="bold">Nordan</hi> utenfor vinduet.)</stage> Onkel Nordan! Nej, det var uv&#x00E6;ntet! <stage>(Iler opover, kaster sig i hans arme og brister i gr&#x00E5;t.)</stage></p>
+</sp>
+</div>
+<div type="chapter" subtype="scene" n="2_3">
+<head type="sub">Tredje m&#x00F8;te</head>
+<stage><hi rend="bold">De forrige</hi>. <hi rend="bold">Nordan</hi>.</stage>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Store, store tosse-per! &#x2013; Overm&#x00E5;de store tosseper!</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>&#x00C5;, nu m&#x00E5; du tale med mig!</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Er det ikke derfor, jeg er her?</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Og jeg, som trodde, du var oppe i fj&#x00E6;llene og kunde ikke h&#x00F8;re fra os?</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Var jeg ikke? Men telegram p&#x00E5; telegram, s&#x00E5; langt <hi rend="italic">de</hi> kunde r&#x00E6;kke, og siden ilbud p&#x00E5; ilbud; &#x2013; og nu til sist &#x2026; ja, jeg t&#x00F8;r vel ikke mere n&#x00E6;vne hans navn her nu &#x2013;?</p>
+</sp>
+<sp>
+<speaker>Riis</speaker>
+<stage>(som er kommet ut fra h&#x00F8;jre).</stage>
+<p>Endelig! Hvor vi har v&#x00E6;ntet!</p>
+</sp>
+<sp>
+<speaker>Fru Riis</speaker>
+<stage>(som endelig har rejst sig og kommer).</stage>
+<p>Tak, fordi De kom, k&#x00E6;re doktor!</p>
+</sp>
+<sp>
+<speaker>Nordan</speaker>
+<stage>(ser p&#x00E5; henne).</stage>
+<p>Her g&#x00E5;r det nok st&#x00E6;rkt til, her?</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Til Dem beh&#x00F8;ver jeg ingen ting at sige.</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Ja, g&#x00E5; nu med jer, b&#x00E6;gge to! Lad tosse-per og mig f&#x00E5; tale sammen. <stage>(<hi rend="bold">Fru Riis</hi> in til venstre, fulgt af <hi rend="bold">Svava</hi>.)</stage></p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Jeg m&#x00E5; bare f&#x00E5; lov at sige, at om en stund &#x2013;</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>&#x2013; kommer hele den christensen&#x0027;ske &#x2013;, jeg v&#x00E9;t det! G&#x00E5; nu!</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Nordan! <stage>(hvisker.)</stage></p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Ja-ja! &#x2013; &#x2013; &#x00C5;-ja! &#x2013; Nej, naturligvis! <stage>(unddrar sig hviskingen.)</stage> Tror du ikke, jeg kan det der? G&#x00E5; med dig!</p>
+</sp>
+<sp>
+<speaker>Svava</speaker>
+<stage>(som har fulgt moderen, kommer ut fra venstre, samtidig med at faderen g&#x00E5;r in til h&#x00F8;jre).</stage>
+<p>K&#x00E6;re Nordan, &#x2013; endelig f&#x00E5;r jeg da en, som holder med mig!</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>N&#x00E5;, s&#x00E5; det f&#x00E5;r du?</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>&#x00C5;, onkel Nordan, hvad dette har v&#x00E6;ret for dager!</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Og n&#x00E6;tter ogs&#x00E5;, kan jeg t&#x00E6;nke? &#x2013; Sk&#x00F8;nt du ser ikke s&#x00E5; d&#x00E5;rlig ut &#x00E6;nda.</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>De siste n&#x00E6;tter har jeg sovet.</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>S&#x00E5;ledes! S&#x00E5; sk&#x00F8;nner jeg, hvorledes det st&#x00E5;r! Du er en strid en, er du.</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Ja, begyn nu ikke med at sige alt det, du ikke mener, onkel.</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>&#x2013; Jeg ikke mener? &#x2013;</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>For det g&#x00F8;r du jo altid. Og det har vi ikke tid til nu. Det br&#x00E6;nner i mig!</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Hvad er det ogs&#x00E5;, du har f&#x00E5;t i stand?</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Se, der begynner du jo!</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Begynner? Hvem pokker har inbilt dig, at jeg siger annet &#x00E6;n, hvad jeg mener? Kom nu, lad os s&#x00E6;tte os! <stage>(s&#x00E6;tter en stol midt i rummet.)</stage></p>
+</sp>
+<sp>
+<speaker>Svava</speaker>
+<stage>(s&#x00E6;tter sin stol halvt imot hans).</stage>
+<p>Se s&#x00E5;!</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Du har jo, siden jeg var her sist, utstedt en splitter ny lov for k&#x00E6;rlighed? Jeg gratulerer!</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Har jeg?</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>En overjordisk, Svava-sv&#x00E6;vende en! Formodentlig fra serafernes harmoni-l&#x00E6;re?</p>
+<p>&#x00AB;Der er bare &#x00E9;n k&#x00E6;rlighed til, og den har bare &#x00E9;n genstand.&#x00BB; Punktum!</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Har <hi rend="italic">jeg</hi> sagt det?</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Er det ikke du, som forkaster en ung man, fordi han har underst&#x00E5;t sig at elske, f&#x00F8;r han s&#x00E5; dig?</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Tar <hi rend="italic">du</hi> det ogs&#x00E5; p&#x00E5; den m&#x00E5;ten?</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>P&#x00E5; den m&#x00E5;ten? Som om der mellem forstandige folk gaves en annen?</p>
+<p>En ung pr&#x00E6;gtig fyr rigtig tilb&#x00E9;r dig; en stor familje sl&#x00E5;r op fl&#x00F8;j-d&#x00F8;rene sine for dig som for en fyrstinne. Og s&#x00E5; kommer du og siger: &#x00AB;Du har ikke v&#x00E6;ntet p&#x00E5; mig, fra du var en sm&#x00E5;gut! <hi rend="italic">V&#x00E6;k!&#x00BB;</hi></p>
+</sp>
+<sp>
+<speaker>Svava</speaker>
+<stage>(springer op).</stage>
+<p>Nej, du ogs&#x00E5;! Nej, du ogs&#x00E5;! Og den samme lekse! Den samme <hi rend="italic">dumme</hi> lekse!</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Jeg kan sige dig det med &#x00E9;n gang: Tar du ikke hensyn til alt det, som kan siges imot dig, s&#x00E5; er <hi rend="italic">du</hi> dum! Det nytter dig ikke at l&#x00F8;pe fra mig og fare op og ner; for s&#x00E5; begynner jeg ogs&#x00E5; at fare op og ner. &#x2013; Kom her og s&#x00E6;t dig! Eller <hi rend="italic">t&#x00F8;r</hi> du ikke g&#x00E5; med p&#x00E5; en unders&#x00F8;kelse?</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Jo, jeg t&#x00F8;r! <stage>(hun kommer og s&#x00E6;tter sig.)</stage></p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>For s&#x00E6;t nu, at dette er et overm&#x00E5;de tvilsomt sp&#x00F8;rsm&#x00E5;l, som forhandles af alvorlige m&#x00E6;n og kvinner over hele v&#x00E6;rden?</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Det vedkommer bare mig! Og for mig er det aldeles ikke tvilsomt.</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Du misforst&#x00E5;r mig, barn! <hi rend="italic">Du</hi> skal til slut afg&#x00F8;re din egen sak, du og ingen annen. Naturligvis!</p>
+<p>Men n&#x00E5;r det, du skal afg&#x00F8;re, ikke er s&#x00E5; like til, som du kanske tror; n&#x00E5;r det i dette &#x00F8;jeblik syssels&#x00E6;tter tusener og tusener, &#x2013; pligter du s&#x00E5; ikke at ta&#x0027; hensyn til de almene forhold og til, hvad her er t&#x00E6;nkt og sagt om dem?</p>
+<p>Er det ikke samvittighedsl&#x00F8;st at d&#x00F8;mme i den enkelte sak uten at g&#x00F8;re det?</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Jeg forst&#x00E5;r! Jeg tror, at dette, du forlanger af mig, det har jeg gjort. Sp&#x00F8;r mor!</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Nu ja, du og din mor har snakket og l&#x00E6;st en del om &#x00E6;gteskab, om kvinne-sak, om at klasse-forrettigheder er oph&#x00E6;vede, &#x2013; nu skal ogs&#x00E5; k&#x00F8;ns-forrettigheder oph&#x00E6;ves. Men dette specielle sp&#x00F8;rsm&#x00E5;l?</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Hvad har jeg overset, tror du?</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Alts&#x00E5;! Har du ret til at v&#x00E6;re like str&#x00E6;ng mot mannen som mot kvinnen? Hvad?</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Ja, naturligvis!</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Er dette s&#x00E5; naturligt? G&#x00E5; ut og sp&#x00F8;r dig for! Af hundre, du m&#x00F8;ter, vil de nitti svare nej, og <hi rend="italic">det selv af kvinnerne</hi>!</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>H-m? Det begynner at bli annerledes!</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Nu ja. Men der skal kunskab til for at afg&#x00F8;re det sp&#x00F8;rsm&#x00E5;l.</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Mener du, hvad du siger?</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Det kommer dig ikke ved! For resten mener jeg altid, hvad jeg siger. &#x2013; En kvinne kan gifte sig 16 &#x00E5;r gammel. En man m&#x00E5; v&#x00E6;nte, til han er 25 og 30. &#x2013; Der er forskel!</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Der er forskel! For der lever langt, langt, langt flere ugifte kvinner &#x00E6;n m&#x00E6;n. Og disse viser selvbeh&#x00E6;rskelse. Manfolkene, de finner det makeligere at g&#x00F8;re en lov af sin mangel p&#x00E5; selvbeh&#x00E6;rskelse, de!</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Slike svar r&#x00F8;ber uvidenhed! M&#x00E6;nnesket er et polygamisk dyr, likesom mange andre dyr, og det st&#x00F8;tter teorien uhyre, at der er langt flere kvinfolk til &#x00E6;n manfolk. Ja, dette er noget, som du aldrig har h&#x00F8;rt f&#x00F8;r?</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Jo, jeg har, hr. doktor!</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Le ikke af videnskaben! Hvad pokker skal vi s&#x00E5; tro p&#x00E5;?</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>M&#x00E5; jeg bare f&#x00E5; be&#x0027; om, at manfolkene f&#x00E5;r like s&#x00E5; meget bryderi af sine barn som kvinnerne? &#x00C5;, lad dem f&#x00E5; det, onkel! S&#x00E5; t&#x00E6;nker jeg, de ogs&#x00E5; snart f&#x00E5;r andre principer. &#x00C5;, lad dem det!</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Det har de ikke tid til; de skal styre v&#x00E6;rden!</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Ja, de har selv fordelt rollerne! &#x2013; H&#x00F8;r nu, hr. doktor! Er det fejgt, ikke at leve efter sin egen l&#x00E6;re? <stage>(hun l&#x00E6;gger sig p&#x00E5; kn&#x00E6; ved siden af ham.)</stage></p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Ja, naturligvis er det fejgt.</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Hvorfor lever ikke du efter din?</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Jeg? &#x2013; Jeg har altid v&#x00E6;ret et uhyre. K&#x00E6;re, vet ikke du det, da?</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>S&#x00F8;te onkel Nordan &#x2026; du b&#x00E6;rer slike lange hvite lokker &#x2026; Hvorfor g&#x00F8;r du det?</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>N&#x00E5;, &#x2013; det har sine grunne.</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Hvilke? &#x2013;</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Ja, det skal vi ikke in p&#x00E5; nu.</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Du har engang fortalt mig det.</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Har <hi rend="italic">jeg</hi>?</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Jeg vilde ta&#x0027; i dine lokker; men det lot du mig ikke g&#x00F8;re. Og s&#x00E5; sa&#x0027; du: &#x00AB;V&#x00E9;t du, hvorfor du ikke f&#x00E5;r lov til det?&#x00BB; &#x2013; &#x00AB;Nej,&#x00BB; svarte jeg. &#x2013; &#x00AB;Fordi at det har ingen gjort p&#x00E5; 34 &#x00E5;r.&#x00BB; &#x2013; &#x00AB;Hvem var det, som sist r&#x00F8;rte ved dem?&#x00BB; spurte jeg. &#x2013; &#x00AB;Det var en liten pige, som du ligner,&#x00BB; svarte du.</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Nej, s&#x00E5; jeg har fortalt dig det der?</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>&#x2013; &#x00AB;Og hun var en yngre s&#x00F8;ster til din bestemor,&#x00BB; sa&#x0027; du til mig.</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Hun var det. Javist var hun s&#x00E5;. Og du ligner henne, mit barn.</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Og s&#x00E5; fortalte du mig, at det &#x00E5;r du blev student, stod hun engang ved siden af dig, og s&#x00E5; tok hun flere af dine lokker i h&#x00E5;nden p&#x00E5; &#x00E9;n gang. &#x00AB;Du skal aldrig b&#x00E6;re lokkerne kortere &#x00E6;n som s&#x00E5;,&#x00BB; sa&#x0027; hun. &#x2013; &#x2013; &#x2013;</p>
+<p>Hun rejste, og du rejste. Og om en tid skrev du og spurte henne, om ikke det var s&#x00E5;, I to skulde holde sammen? Jo, svarte hun. Og en m&#x00E5;ned efter var hun d&#x00F8;d.</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>&#x2013; var hun d&#x00F8;d.</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Og siden har du, underlige onkel Nordan, holdt dig for gift med henne. <stage>(Han nikker.)</stage> Og fra den kv&#x00E6;l-stund, du fortalte mig dette, &#x2013; og jeg l&#x00E5; l&#x00E6;nge v&#x00E5;ken og t&#x00E6;nkte det over igen &#x2026; fra den gang vilde ogs&#x00E5; jeg i min tidlige ungdom v&#x00E6;lge mig en at g&#x00E5; og v&#x00E6;re sikker p&#x00E5; &#x2026; Og s&#x00E5; valgte jeg ille.</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Virkelig, Svava?</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Sp&#x00F8;r mig ikke mere om det! &#x2013; Men s&#x00E5; valgte jeg &#x00E9;n gang til, og da var jeg sikker! For aldrig har klarere &#x00F8;jne set in i andres. &#x2013; Og som vi havde det sammen! Dag efter dag, bestandig ny, bestandig for kort. Nu t&#x00F8;r jeg ikke t&#x00E6;nke p&#x00E5; det.</p>
+<p>&#x00C5;, det er synd at bedrage s&#x00E5;ledes! Ikke med ord, det er sant; men ved at la&#x0027; os sv&#x00E6;rme og gi&#x0027; os hen. Ikke med ord, nej. Og dog med ord. For de tar jo mot vores og tier til dem og g&#x00F8;r dem derved til sine. De fryder sig ved vor troskyld som stykke af en uford&#x00E6;rvet natur; men netop derved bedrager de os. For der opst&#x00E5;r en fortrolighed og sp&#x00F8;k af det fr&#x00E6;m og tilbake, som bare kan ha &#x00E9;n foruds&#x00E6;tning; s&#x00E5; t&#x00E6;nker vi. Og s&#x00E5; var det tvetydigt.</p>
+<p>Jeg forst&#x00E5;r ikke, at nogen kan handle s&#x00E5; mot den, de elsker. For han elskede mig &#x2013;!</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>&#x2013; han elsker dig!</p>
+</sp>
+<sp>
+<speaker>Svava</speaker>
+<stage>(idet hun rejser sig).</stage>
+<p>Men ikke som jeg elskede ham! <hi rend="italic">Jeg</hi> har i disse &#x00E5;r ikke givet mig bort i sm&#x00E5;t. Dertil har jeg t&#x00E6;nkt for stort om det at elske og bli elsket. Men just derfor var min trang st&#x00E6;rk; dig t&#x00F8;r jeg sige det. Da den fik lov, tok den n&#x00E6;sten magten fra mig. Men jeg f&#x00F8;lte mig s&#x00E5; uendelig tryg hos ham, og derfor lot jeg ham se det og havde min fryd af, at han s&#x00E5; det.</p>
+<p>Dette er det, som nu kr&#x00E6;nker mig! For dertil var han ikke v&#x00E6;rdig.</p>
+<p>Han siger til mig: jeg t&#x00E5;ler ikke, nogen annen r&#x00F8;rer ved dig! Han siger til mig: n&#x00E5;r jeg ser et glimt af din arm, s&#x00E5; t&#x00E6;nker jeg, den har lagt om min hals, om min og om ingen, ingen annens. &#x2013; Og jeg k&#x00E6;nner mig stolt og lykkelig ved det; for det er sant. Jeg har de hundre ganger f&#x00F8;lt, at det vilde &#x00E9;n engang sige mig.</p>
+<p>Men jeg har ikke f&#x00F8;lt, at den, som sa&#x0027; det, han skulde selv &#x2013; &#x00E5;, afskyligt! Da f&#x00E5;r det en betydning, som g&#x00F8;r, at jeg hater ham! Ja, n&#x00E5;r jeg bare t&#x00E6;nker p&#x00E5;, at han har omfavnet mig, har r&#x00F8;rt ved mig, &#x2013; s&#x00E5; sk&#x00E6;lver det i mig.</p>
+<p>Jeg s&#x00E6;tter ingen regler for nogen annen; men min gir sig selv. Alt i mit v&#x00E6;sen, det f&#x00F8;rste og siste, gir den. Lad <hi rend="italic">mig</hi> v&#x00E6;re i fred!</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Ja, dette er alvorligere og g&#x00E5;r dypere, &#x00E6;n jeg havde anelse om. Ingen forst&#x00E5;r det s&#x00E5;ledes, Alf allerminst. <hi rend="italic">Han</hi> er bare kr&#x00E6;nket, &#x2013; bedr&#x00F8;vet og kr&#x00E6;nket over, at du kan ha mistillid til ham.</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Jeg v&#x00E9;t det.</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Ja, tag det ikke s&#x00E5; afvisende! Ti s&#x00E5; vil sannelig de fleste t&#x00E6;nke.</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>H-m? Det begynner at bli annerledes!</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>De fleste vil t&#x00E6;nke: andre piger tilgir s&#x00E5;dant; netop fordi de elsker.</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Der er dem, som vil svare: havde hun <hi rend="italic">ikke</hi> elsket, s&#x00E5; havde hun nok ogs&#x00E5; tilgit.</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Og dog, Svava? Og dog &#x2013;?</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Men, onkel, du forst&#x00E5;r ikke? Og jeg tror ikke, jeg kan forklare det heller. For da m&#x00E5;tte jeg kunne forklare, hvad det er, vi l&#x00E6;gger in i den mans &#x00E5;syn, v&#x00E6;sen, gang, som vi elsker, &#x2013; i hans r&#x00F8;st, i hans smil. Det er dette, som er borte. Betydningen er borte.</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>For en stund, ja; til du har f&#x00E5;t luft &#x2026;</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Nej, nej, nej! Kan du huske en vise, jeg synger, om billedet af den, vi elsker? At det bestandig stiger fr&#x00E6;m i gl&#x00E6;de, omgivet af gl&#x00E6;de? Kan du huske det?</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Ja.</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Nu ja; &#x2013; <hi rend="italic">det</hi> g&#x00F8;r det ikke l&#x00E6;nger! Det kommer naturligvis, men bestandig i sm&#x00E6;rte. Bestandig!</p>
+<p>Og det skal vi tilgi&#x0027;? Fordi de andre piger tilgir? Men hvad har de da elsket, disse andre piger? Kan du sige mig det? For det, som jeg har elsket, ja, det er borte. Jeg s&#x00E6;tter mig ikke hen for at dr&#x00F8;mme det fr&#x00E6;m igen. Jeg skal skaffe mig annet at bestille.</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Ja, nu er du forbitret. Du har f&#x00E5;t dit ideal ordentlig knust, og s&#x00E5;l&#x00E6;nge sm&#x00E6;rten sitter i, nytter det ikke.</p>
+<p>Derfor bare &#x00E9;n ting; en eneste liten ting! Men den skal du ogs&#x00E5; love mig?</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Hvis jeg kan.</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Du kan! Her er hensyn at ta&#x0027;. Bed om bet&#x00E6;nknings-tid!</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>&#x2013; &#x00C5;! &#x2013; Det har mor skrevet til dig!</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Om s&#x00E5; var? Din mor v&#x00E9;t, hvad det her g&#x00E6;ller.</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Hvad det g&#x00E6;ller? I taler s&#x00E5; mystisk, som om vi stod p&#x00E5; usikker grun. G&#x00F8;r vi da det? Far taler om at forlade landet. Hvorfor?</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Han tror vel s&#x00E5; at v&#x00E6;re n&#x00F8;dt til det.</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Far? &#x00D8;konomisk?</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Langt fra! Nej, men folkesnakket vil kaste sig over jer. For det er sv&#x00E6;rt utfordrende, dette.</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>&#x00C5;, vi st&#x00E5;r nok for kritik! &#x2013; &#x2013; Ja, far har underlige gruns&#x00E6;tninger, v&#x00E9;t du; men i sit liv &#x2013;? &#x2013; Der er da vel ingen, som tviler p&#x00E5; det?</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>H&#x00F8;r nu, min pige! Ingen kan forbyde folk at finne p&#x00E5;. V&#x00E6;r forsigtig!</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Ja, hvad mener du?</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Jeg mener, du skal g&#x00E5; ut i parken og samle dig lit, f&#x00F8;r Christensens ringer p&#x00E5;. Fors&#x00F8;k at bli rolig, kom s&#x00E5; rolig in og bed om bet&#x00E6;nknings-tid. Det er det hele! De gir dig den straks; for de er n&#x00F8;dt til det. Ingen ting er sk&#x00E9;t, og alle veje er &#x00E5;pne. G&#x00F8;r nu det!</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Jeg <hi rend="italic">har</hi> bet&#x00E6;nkt mig. Og I f&#x00E5;r mig aldrig til noget annet!</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Nej, nej. S&#x00E5; er det bare en form, da!</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>H-m? I mener noget mere med det?</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>&#x00C5;, hvor du er egensindig! &#x2013; Kan du da ikke g&#x00F8;re det &#x2013; lad mig sige for din mors skyld? Din mor er en brav kvinne.</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Hvad m&#x00E5; de tro, n&#x00E5;r jeg kommer in og siger: &#x00AB;Vil I ikke gi mig bet&#x00E6;nknings-tid?&#x00BB; &#x2013; Nej, dette kan jeg ikke.</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Hvad vil du da sige?</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Jeg vil helst ingen ting sige. Men m&#x00E5; jeg endelig &#x2026;</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Naturligvis!</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Ja, nu skal jeg g&#x00E5; ut og t&#x00E6;nke p&#x00E5; det. <stage>(G&#x00E5;r.)</stage> &#x2013; Men det der, som du vil, blir det ikke.</p>
+</sp>
+<sp>
+<speaker>Nordan</speaker>
+<stage>(som st&#x00E5;r igen).</stage>
+<p>Det <hi rend="italic">m&#x00E5;</hi> bli det!</p>
+</sp>
+<sp>
+<speaker>Svava</speaker>
+<stage>(stanser oppe ved d&#x00F8;ren).</stage>
+<p>Du sa&#x0027;: din mor er en brav kvinne, sa&#x0027; du. Det var n&#x00E6;sten, som du la&#x0027; v&#x00E6;gt p&#x00E5; <hi rend="italic">mor</hi>?</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Nu ja?</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Er ikke far det, da?</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>En brav kvinne, din far?</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Hvorfor sl&#x00E5;r du det bort i sp&#x00F8;k?</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>For pokker, fordi det er for alvorligt.</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Er far ikke at tro &#x2013;?</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Hys!</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Far? &#x2013; Skulde far ogs&#x00E5; &#x2013;? Siger folk det? <stage>(Da Nordan ikke svarer, ikke r&#x00F8;rer sig.)</stage> Sk&#x00E6;ndigt! Umuligt! Jeg siger umuligt! <stage>(g&#x00E5;r hurtig ut.)</stage></p>
+</sp>
+</div>
+<div type="chapter" subtype="scene" n="2_4">
+<head type="sub">Fj&#x00E6;rde m&#x00F8;te</head>
+<stage><hi rend="bold">Nordan</hi>. <hi rend="bold">Riis</hi> (fra h&#x00F8;jre).</stage>
+<sp>
+<speaker>Riis.</speaker>
+<p>Hvad er det med Svava?</p>
+</sp>
+<sp>
+<speaker>Nordan</speaker>
+<stage>(g&#x00E5;r fr&#x00E6;m).</stage>
+<p>Der var ikke annet for.</p>
+</sp>
+<sp>
+<speaker>Riis</speaker>
+<stage>(efter).</stage>
+<p>Ikke annet for? Hvad?</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Nej, der var, pine d&#x00F8;d, ikke annet for!</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Jas&#x00E5;! Men hvad var det da?</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Hvad siger du?</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Nej, <hi rend="italic">du</hi> siger &#x2026;?</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Hvad siger <hi rend="italic">jeg</hi>?</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Du siger, der var ikke annet for, siger du &#x2013;? Du g&#x00F8;r mig r&#x00E6;d.</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>G&#x00F8;r jeg? &#x2013; Da har du h&#x00F8;rt fejl. <stage>(G&#x00E5;r fra ham.)</stage></p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>H&#x00F8;rt fejl? Du har &#x00E6;nogs&#x00E5; bannet p&#x00E5; det!</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Det har jeg aldeles ikke gjort!</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>N&#x00E5;, s&#x00E5; har du ikke gjort det. &#x2013; Men hvordan gik det s&#x00E5; med Svava? &#x2013; Vil du ikke svare mig?</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Hvordan det gik med Svava?</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Hvorfor er du &#x00E5;ndsfrav&#x00E6;rende? Gik det da s&#x00E5; galt?</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>&#x00C5;ndsfrav&#x00E6;rende? Hvorfor skulde jeg v&#x00E6;re det?</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Ja, det m&#x00E5; <hi rend="italic">du</hi> vite. Men jeg sp&#x00F8;r efter Svava! &#x2013; hvorledes det gik med Svava! Og det synes jeg, at jeg har ret at f&#x00E5; vite.</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Du Riis?</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Ja. <stage>(Nordan tar ham under armen.)</stage> Hvad er det?</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>S&#x00E5; du Svava &#x2013;?</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>&#x2013; da hun ilte afsted ut gennem parken? Ja. K&#x00E6;re, hvad var det?</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Det var den gr&#x00E6;ske trag&#x00F8;die.</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Den gr&#x00E6; &#x2013;? </p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Bare navnet! Bare navnet! Ja, du v&#x00E9;t, hvad det betyr?</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Den gr&#x00E6; &#x2013;?</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Nej, ikke &#x00AB;gr&#x00E6;sk&#x00BB;; men &#x00AB;trag&#x00F8;die&#x00BB;?</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Noget s&#x00F8;rgeligt &#x2013;?</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Langt fra! Noget lystigt! Det kom til Gr&#x00E6;kenland med Dionysos-dyrkelsen. I hans f&#x00F8;lge var en buk &#x2026;</p>
+</sp>
+<sp>
+<speaker>Riis</speaker>
+<stage>(drar sin arm l&#x00F8;s).</stage>
+<p>En &#x2013;? Men hvad sa&#x0027; &#x2013;!</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Ja, du kan nok forundre dig! For han sang!</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Han &#x2013; sang?</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Han synger nu ogs&#x00E5;, forst&#x00E5;r sig, &#x2013; og maler &#x00E5;! Billeder af ham p&#x00E5; hv&#x00E6;r utstilling! Og han arbejder i bronse og marmor. Udm&#x00E6;rket! Og slik hofman, som han er! Det er han, som tegner bal-dragter og bestemmer selskabs &#x2013;</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Men er du blet aldeles rasende gal?</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Hvorfor det?</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Jeg g&#x00E5;r her og v&#x00E6;nter p&#x00E5;, at dette forbannede vr&#x00F8;vl skal drive over. Vi er jo vant til noget af hv&#x00E6;rt, n&#x00E5;r du er i <hi rend="italic">det</hi> hj&#x00F8;rne; men idag forst&#x00E5;r jeg ikke et levende ord af, hvad du siger.</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Nej, k&#x00E6;re, g&#x00F8;r du ikke det?</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Kan du ikke sige mig, hvad min datter sa&#x0027;? Er det ikke forrykt, at jeg ikke kan f&#x00E5; vite det? Kort og tydelig: hvad sa&#x0027; hun?</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Vil du vite det?</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Han sp&#x00F8;r!</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Hun sa&#x0027;: det er synd p&#x00E5; alle de uskyldige sm&#x00E5;piger, som sl&#x00E6;gt efter sl&#x00E6;gt tripper afsted, sa&#x0027; hun.</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Hvorhen?</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Ja, der er det! Hvorhen? &#x2013; Hun sa&#x0027;: De opdrages fromt uvidende, og til sist vikler man de troskyldige in i et langt, hvitt sl&#x00F8;r, for at de ikke tydelig skal se, hvorhen det b&#x00E6;rer.</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Men dette er jo atter mytologi? Kan jeg da ikke &#x2013;</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Stille! Det er din datter, som taler!</p>
+<p><hi rend="italic">Men jeg vil ikke</hi>! sa&#x0027; hun. Jeg vil g&#x00E5; tryg in til det hellige &#x00E6;gteskab og s&#x00E6;tte mig ved f&#x00E6;drelandets arne og opdrage barn for min mans &#x00E5;syn. Men han skal v&#x00E6;re &#x00E6;rbar som jeg; for ellers pletter han mit barns hoved, n&#x00E5;r han kysser det, og van&#x00E6;rer mig. &#x2013; Se, det sa&#x0027; hun, og hun var s&#x00E5; vakker, da hun sa&#x0027; det. <stage>(Det ringer.)</stage></p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Der er de over os! Der er de over os! Hvorledes i al v&#x00E6;rden vil dette g&#x00E5;! Vi er komne op i de allerurimeligste teorier! Vi surrer rundt inne i en stor mytologi! <stage>(iler mot d&#x00F8;ren.)</stage></p>
+</sp>
+</div>
+<div type="chapter" subtype="scene" n="2_5">
+<head type="sub">Femte m&#x00F8;te</head>
+<stage><hi rend="bold">De forrige</hi>. <hi rend="bold">Hr</hi>. og <hi rend="bold">Fru Christensen</hi>. <hi rend="bold">Fru Riis</hi>. <hi rend="bold">Margit</hi>. (Senere) <hi rend="bold">Alf</hi>.</stage>
+<sp>
+<speaker>Riis</speaker>
+<stage>(imot dem, og &#x00E6;nnu mens de er utenfor).</stage>
+<p>Velkomne! Hj&#x00E6;rtelig velkomne! &#x2013; Men Deres s&#x00F8;n?</p>
+</sp>
+<sp>
+<speaker>Christensen</speaker>
+<stage>(&#x00E6;nnu utenfor).</stage>
+<p>Vi fik ham ikke med.</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Det beklager jeg meget! &#x2013; Sk&#x00F8;nt jeg forst&#x00E5;r det.</p>
+</sp>
+<sp>
+<speaker>Christensen</speaker>
+<stage>(i d&#x00F8;ren).</stage>
+<p>Jeg m&#x00E5; hv&#x00E6;r gang p&#x00E5; ny beundre, hvor vakkert De bor, h&#x00F8;jst&#x00E6;rede!</p>
+</sp>
+<sp>
+<speaker>Fru Christensen.</speaker>
+<p>&#x00C5;, denne gamle park! Jeg vilde i sin tid &#x2026; God dag, doktor! Hvorledes g&#x00E5;r det?</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>J-o?</p>
+</sp>
+<sp>
+<speaker>Riis</speaker>
+<stage>(til <hi rend="bold">Margit</hi>, som fulgte).</stage>
+<p>V&#x00E6;r s&#x00E5; god at varsku fruen &#x2013; ja? Og &#x2026; se, der er hun! &#x2026; <stage>(<hi rend="bold">Fru Riis</hi> kommer fra venstre d&#x00F8;r.)</stage> Og fr&#x00F8;kenen!</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Hun er ute i parken &#x2013; til h&#x00F8;jre! <stage>(<hi rend="bold">Margit</hi> g&#x00E5;r.)</stage></p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Nej, den vej! &#x2013; Rigtig! &#x2013; Ret fr&#x00E6;m, til De tr&#x00E6;ffer henne!</p>
+</sp>
+<sp>
+<speaker>Fru Christensen</speaker>
+<stage>(samtidig til <hi rend="bold">fru Riis</hi>, idet de g&#x00E5;r fr&#x00E6;mover).</stage>
+<p>Jeg har t&#x00E6;nkt s&#x00E5; p&#x00E5; <hi rend="italic">Dem</hi> i disse dager, min beste! Det var da 
+en kedelig historie?</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>T&#x00F8;r jeg sp&#x00F8;rge, k&#x00E6;nte De noget til den f&#x00F8;r?</p>
+</sp>
+<sp>
+<speaker>Fru Christensen.</speaker>
+<p>Hvad m&#x00E5; en mor &#x2013; og hustru &#x2013; nu til dags ikke k&#x00E6;nne, min beste? Hun var, som De v&#x00E9;t, i mit hus. &#x2013; Kom her! <stage>(Hun fort&#x00E6;ller hviskende noget, som ender med &#x00AB;opdagelse&#x00BB; og &#x00AB;bortvisning&#x00BB;.)</stage></p>
+</sp>
+<sp>
+<speaker>Riis</speaker>
+<stage>(bydende de to damer til s&#x00E6;te).</stage>
+<p>V&#x00E6;rs&#x0027;go! &#x2013; &#x00C5;, om forladelse! Jeg s&#x00E5; ikke &#x2013;. <stage>(Iler til <hi rend="bold">Christensen</hi>.)</stage> Undskyld! Men sitter De virkelig godt der, om jeg t&#x00F8;r sp&#x00F8;rge?</p>
+</sp>
+<sp>
+<speaker>Christensen.</speaker>
+<p>Tak, like s&#x00E5; slet her som et annet sted. For det er overhovedet dette med at s&#x00E6;tte sig og komme op igen, som det kniper om. <stage>(Ser sig rundt.)</stage> Jeg har v&#x00E6;ret hos ham.</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Hos Hoff?</p>
+</sp>
+<sp>
+<speaker>Christensen.</speaker>
+<p>Skikkelig fyr. Dum.</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>N&#x00E5;r han bare tier, s&#x00E5; &#x2013;</p>
+</sp>
+<sp>
+<speaker>Christensen.</speaker>
+<p>Det g&#x00F8;r han.</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>N&#x00E5;, gud ske lov! S&#x00E5; er det bare mellem os. &#x2013; Det kostede vel en del?</p>
+</sp>
+<sp>
+<speaker>Christensen.</speaker>
+<p>Ikke en skilling!</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Det slap De billig fra.</p>
+</sp>
+<sp>
+<speaker>Christensen.</speaker>
+<p>Ja, gjorde jeg ikke? &#x2013; For resten har han kostet mig nok f&#x00F8;r; &#x2013; sk&#x00F8;nt det v&#x00E9;t <hi rend="italic">han</hi> intet om.</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Jas&#x00E5;? Da han gik fallit?</p>
+</sp>
+<sp>
+<speaker>Christensen.</speaker>
+<p>Nej, da han giftede sig.</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>&#x00C5;, jeg forst&#x00E5;r!</p>
+</sp>
+<sp>
+<speaker>Christensen.</speaker>
+<p>Og dermed trodde jeg, den historie var ute. &#x2013; Hvad har damerne for en hviske-lek?</p>
+</sp>
+<sp>
+<speaker>Fru Christensen</speaker>
+<stage>(kommer fr&#x00E6;m. <hi rend="bold">Riis</hi> skaffer plas til henne og til sin hustru).</stage>
+<p>Jeg fortalte dette med fr&#x00F8;ken Tang. Hun er da virkelig som st&#x00E5;t op af graven!</p>
+</sp>
+<sp>
+<speaker>Christensen.</speaker>
+<p>T&#x00F8;r jeg sp&#x00F8;rge, er ikke Deres datter hjemme?</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Der er sendt bud efter henne.</p>
+</sp>
+<sp>
+<speaker>Fru Christensen.</speaker>
+<p>Jeg h&#x00E5;ber, hun ogs&#x00E5; har l&#x00E6;rt noget i disse dager, stakkar! Hun led af en fejl, som g&#x00E6;rne f&#x00F8;lger udm&#x00E6;rket flinke m&#x00E6;nnesker, &#x2013; jeg mener selvretf&#x00E6;rdighed.</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Netop! Aldeles rigtigt! Sig hovmod!</p>
+</sp>
+<sp>
+<speaker>Fru Christensen.</speaker>
+<p>Nej, det vil jeg ikke sige. Men overmod.</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Hvoraf slutter De dette, frue?</p>
+</sp>
+<sp>
+<speaker>Fru Christensen.</speaker>
+<p>Af forskellige samtaler, jeg har havt med henne. Jeg talte engang om, at mannen er hustruens h&#x00E6;rre. I disse moderne tider er det godt at inprente de unge piger dette.</p>
+</sp>
+<sp>
+<speaker>Christensen.</speaker>
+<p>Ja, det v&#x00E9;t gud!</p>
+</sp>
+<sp>
+<speaker>Fru Christensen.</speaker>
+<p>Og da jeg minte henne om nogle linjer hos Paulus, svarte hun: ja, det er bak dette gitter, at vi kvinner &#x00E6;nnu sitter.</p>
+<p>Da visste jeg ved mig selv, at der vilde komme noget. Overmod st&#x00E5;r for fall.</p>
+</sp>
+<sp>
+<speaker>Christensen.</speaker>
+<p>Nej, du, &#x2013; nej! Nej, den slutnings-r&#x00E6;kke st&#x00E5;r ikke! Nej!</p>
+</sp>
+<sp>
+<speaker>Fru Christensen.</speaker>
+<p>Jas&#x00E5;?</p>
+</sp>
+<sp>
+<speaker>Christensen.</speaker>
+<p>Nej! Ti for det f&#x00F8;rste var det ikke fr&#x00F8;ken Riis, som falt, men din hj&#x00E6;rte s&#x00F8;n. Dern&#x00E6;st falt han ikke som f&#x00F8;lge af fr&#x00F8;ken Riis&#x0027;s overmod; ti han falt vist mange &#x00E5;r, f&#x00F8;r fr&#x00F8;ken Riis ytrede sit overmod. S&#x00E5; at n&#x00E5;r du visste, at hans fall vilde komme som f&#x00F8;lge af fr&#x00F8;ken Riis&#x0027;s overmod, s&#x00E5; visste du noget, som du aldeles ikke visste.</p>
+</sp>
+<sp>
+<speaker>Fru Christensen.</speaker>
+<p>Ja, du spotter!</p>
+</sp>
+<sp>
+<speaker>Christensen.</speaker>
+<p>Jeg skulde v&#x00E6;re i en komit&#x00E9; pr&#x00E6;cis 1. T&#x00F8;r jeg sp&#x00F8;rge, hvor blir Deres fr&#x00F8;ken datter af?</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Ogs&#x00E5; jeg begynner virkelig at &#x2013;</p>
+</sp>
+<sp>
+<speaker>Nordan</speaker>
+<stage>(som har holdt sig i bak-grunnen, dels innenfor, dels utenfor, siger til <hi rend="bold">Margit</hi>, som netop kommer forbi fra h&#x00F8;jre til venstre).</stage>
+<p>Fant De henne ikke f&#x00F8;r nu?</p>
+</sp>
+<sp>
+<speaker>Margit.</speaker>
+<p>Jo. Jeg har v&#x00E6;ret nede &#x00E9;n gang til med fr&#x00F8;kenens hat, hansker og parasol.</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Vil hun g&#x00E5; ut?</p>
+</sp>
+<sp>
+<speaker>Margit.</speaker>
+<p>Jeg v&#x00E9;t ikke. <stage>(G&#x00E5;r.)</stage></p>
+</sp>
+<sp>
+<speaker>Christensen.</speaker>
+<p>Se, se!</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Hvad skal det betyde? <stage>(vil g&#x00E5;.)</stage></p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Nej, nej! Ikke du!</p>
+</sp>
+<sp>
+<speaker>Fru Riis</speaker>
+<stage>(som har rejst sig, kommer).</stage>
+<p>Det er vist best, at jeg &#x2013;</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Ja, g&#x00E5; du!</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Nej, <hi rend="italic">jeg</hi> skal g&#x00E5;! &#x2013; For jeg er bange for, at det er jeg, som &#x2026; <stage>(g&#x00E5;r.)</stage> Jeg innest&#x00E5;r for, at jeg skal f&#x00E5; henne med in!</p>
+</sp>
+<sp>
+<speaker>Christensen.</speaker>
+<p>Se, se!</p>
+</sp>
+<sp>
+<speaker>Fru Christensen</speaker>
+<stage>(rejser sig).</stage>
+<p>Men, min beste, vi kommer vist ubelejlig for Deres fr&#x00F8;ken datter?</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Ja, De m&#x00E5; b&#x00E6;re over med henne! Jeg skal sige Dem, det er disse oversp&#x00E6;nte id&#x00E9;er, denne l&#x00E6;sning, som hennes mor ikke str&#x00E6;ngt nok har holdt borte.</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Jeg? Nej, hvad er det, du siger?</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Jeg siger, at dette er et vigtigt &#x00F8;jeblik! Og i slike stunder faller der likesom klarhed &#x2026; likesom &#x2026; ja, det g&#x00F8;r!</p>
+</sp>
+<sp>
+<speaker>Christensen.</speaker>
+<p>Deres man, frue, f&#x00E5;r pludselig samme &#x00E5;benbaring, som vor pr&#x00E6;st nylig fik, &#x2013; d. v. s. min hustrus pr&#x00E6;st. Det var like efter en middag, en ganske god middag for resten, &#x2013; og da f&#x00E5;r man ofte ogs&#x00E5; gode id&#x00E9;er. Vi talte om alt det, som kvinnen m&#x00E5; l&#x00E6;re nu mot f&#x00F8;r. Det kunde v&#x00E6;re slik-slag, mente somme; for hun glemte det igen i &#x00E6;gteskabet. &#x00AB;Ja,&#x00BB; sa&#x0027; vor pr&#x00E6;st meget glad, &#x00AB;min kone har ganske glemt ortografi; jeg h&#x00E5;ber, hun ogs&#x00E5; snart glemmer at skrive!&#x00BB;</p>
+</sp>
+<sp>
+<speaker>Fru Christensen.</speaker>
+<p>Du taler s&#x00E5; likt efter folk, at man m&#x00E5; le, &#x2013; sk&#x00F8;nt det er synd.</p>
+</sp>
+<stage>(<hi rend="bold">Christensen</hi> ser p&#x00E5; klokken.)</stage>
+<sp>
+<speaker>Riis.</speaker>
+<p>De kommer jo ikke tilbake! &#x2013; Vil <hi rend="italic">du</hi> g&#x00E5;, eller skal jeg &#x2013;?</p>
+</sp>
+<sp>
+<speaker>Fru Riis</speaker>
+<stage>(rejser sig).</stage>
+<p>Jeg skal g&#x00E5;. Men du kan ikke v&#x00E6;nte, at de allerede nu &#x2013;</p>
+</sp>
+<sp>
+<speaker>Riis</speaker>
+<stage>(t&#x00E6;t hen til henne).</stage>
+<p>Dette er <hi rend="italic">din</hi> skyld! Jeg sk&#x00F8;nner det fulst&#x00E6;ndig!</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Du v&#x00E9;t vist ikke, hvad du siger. <stage>(G&#x00E5;r.)</stage></p>
+</sp>
+<sp>
+<speaker>Riis</speaker>
+<stage>(fr&#x00E6;m).</stage>
+<p>Jeg b&#x00E9;r <hi rend="italic">meget</hi> om undskyldning! Dette var det siste, jeg havde v&#x00E6;ntet af Svava. Ti mot h&#x00F8;flighedens love, det t&#x00F8;r jeg p&#x00E5;st&#x00E5;, er der aldrig f&#x00F8;r syndet i mit hus!</p>
+</sp>
+<sp>
+<speaker>Fru Christensen.</speaker>
+<p>Der kan jo v&#x00E6;re kommet et eller annet i vejen?</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>De siger noget, frue? &#x2013; Gud!</p>
+</sp>
+<sp>
+<speaker>Fru Christensen.</speaker>
+<p>Ja, misforst&#x00E5; mig ikke! En ung pige bev&#x00E6;ges s&#x00E5; let, mener jeg; og da v&#x00E6;grer hun sig ved at vise sig.</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Allikevel, frue, allikevel! I et s&#x00E5;dant &#x00F8;jeblik? &#x2013; Ja, De f&#x00E5;r undskylde; men jeg har ikke ro. Jeg m&#x00E5; selv unders&#x00F8;ke, hvad her er i vejen!</p>
+</sp>
+<stage>(Iler ut.)</stage>
+<sp>
+<speaker>Christensen.</speaker>
+<p>Havde Alf v&#x00E6;ret her, s&#x00E5; havde vel ogs&#x00E5; han l&#x00F8;pt rundt i parken efter fruentimret.</p>
+</sp>
+<sp>
+<speaker>Fru Christensen.</speaker>
+<p>Men, Christensen!</p>
+</sp>
+<sp>
+<speaker>Christensen.</speaker>
+<p>Er vi ikke alene &#x2013;?</p>
+</sp>
+<sp>
+<speaker>Fru Christensen.</speaker>
+<p>Jo, men allikevel &#x2013;</p>
+</sp>
+<sp>
+<speaker>Christensen.</speaker>
+<p>Ja, da siger jeg, som en viss ber&#x00F8;mt man sa&#x0027; f&#x00F8;r mig: Hvad fa&#x0027;n vilde han p&#x00E5; den galej?</p>
+</sp>
+<sp>
+<speaker>Fru Christensen.</speaker>
+<p>V&#x00E6;r nu t&#x00E5;lmodig bare et &#x00F8;jeblik! Det er n&#x00F8;dvendigt.</p>
+</sp>
+<sp>
+<speaker>Christensen.</speaker>
+<p>Bah, n&#x00F8;dvendigt! Riis er mere r&#x00E6;d for et brud &#x00E6;n nogen af os. S&#x00E5; du ham ikke nu?</p>
+</sp>
+<sp>
+<speaker>Fru Christensen.</speaker>
+<p>Jovist; men &#x2013;</p>
+</sp>
+<sp>
+<speaker>Christensen.</speaker>
+<p>Hun har allerede g&#x00E5;t meget l&#x00E6;ngre, &#x00E6;n hun har ret til.</p>
+</sp>
+<sp>
+<speaker>Fru Christensen.</speaker>
+<p>Det mener Alf ogs&#x00E5;.</p>
+</sp>
+<sp>
+<speaker>Christensen.</speaker>
+<p>Da skulde han nu ha v&#x00E6;ret her og sagt det. Det bad jeg ham om.</p>
+</sp>
+<sp>
+<speaker>Fru Christensen.</speaker>
+<p>Alf er forelsket; og da sk&#x00E6;lver man lit.</p>
+</sp>
+<sp>
+<speaker>Christensen.</speaker>
+<p>&#x00C5;-&#x00E5;! </p>
+</sp>
+<sp>
+<speaker>Fru Christensen.</speaker>
+<p>Ja, det g&#x00E5;r over, n&#x00E5;r man er det s&#x00E5; ofte som du. <stage>(Hun rejser sig.)</stage> Nu kommer de! &#x2013; &#x2013; Nej; ikke Svava.</p>
+</sp>
+<sp>
+<speaker>Christensen.</speaker>
+<p>Kommer ikke hun?</p>
+</sp>
+<sp>
+<speaker>Fru Christensen</speaker>
+<stage>(samtidig).</stage>
+<p>Jeg ser henne ikke.</p>
+</sp>
+<sp>
+<speaker>Riis</speaker>
+<stage>(synlig utenfor).</stage>
+<p>Nu er de her!</p>
+</sp>
+<sp>
+<speaker>Fru Christensen.</speaker>
+<p>Ogs&#x00E5; Deres datter?</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Ogs&#x00E5; Svava. Hun bad de andre g&#x00E5; foran. Hun vilde likesom samle sig en smule.</p>
+</sp>
+<sp>
+<speaker>Fru Christensen</speaker>
+<stage>(som s&#x00E6;tter sig igen).</stage>
+<p>Ser De? Det var, hvad jeg t&#x00E6;nkte mig. Stakkar!</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Nu kommer hun straks! <stage>(I n&#x00E6;rheden af <hi rend="bold">fru Christensen</hi>.)</stage> Undskyld, frue; men hun har havt en sv&#x00E6;r tid.</p>
+</sp>
+<sp>
+<speaker>Fru Christensen.</speaker>
+<p>Gud, det forst&#x00E5;r jeg s&#x00E5; godt. F&#x00F8;rste gang man oplever s&#x00E5;dant, tar det p&#x00E5;.</p>
+</sp>
+<sp>
+<speaker>Christensen.</speaker>
+<p>Her begynner bestemt at bli morsomt, her.</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Se s&#x00E5;! &#x2013; Hun bad mig g&#x00E5; lit i forvejen.</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Ja, vi skal da vel ikke v&#x00E6;nte?</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Hun er like bak mig.</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Der er hun! <stage>(opover fra h&#x00F8;jre side, &#x2013; <hi rend="bold">fru Riis</hi>, <hi rend="bold">Nordan</hi> opover mot henne fra venstre.)</stage></p>
+</sp>
+<sp>
+<speaker>Christensen.</speaker>
+<p>Man skulde tro, det var dronningen af Saba.</p>
+</sp>
+</div>
+<div type="chapter" subtype="scene" n="2_6">
+<head type="sub">Sjette m&#x00F8;te</head>
+<stage>De forrige. Svava.</stage>
+<stage>(<hi rend="bold">Svava</hi> kommer in i hat, med hansker p&#x00E5; og med parasol i h&#x00E5;nden. <hi rend="bold">Christensen</hi> og <hi rend="bold">frue</hi> har b&#x00E6;gge rejst sig. Hun hilser dem med en let b&#x00F8;jning og g&#x00E5;r helt fr&#x00E6;m til h&#x00F8;jre. Man tar plas i stilhed. L&#x00E6;ngst til venstre <hi rend="bold">Nordan</hi>, s&#x00E5; <hi rend="bold">fru Riis</hi>, <hi rend="bold">fru Christensen</hi>, <hi rend="bold">Christensen</hi>; og l&#x00E6;ngst til h&#x00F8;jre, men lit bak, <hi rend="bold">Riis</hi>, som snart st&#x00E5;r, snart sitter.)</stage>
+<sp>
+<speaker>Fru Christensen.</speaker>
+<p>Vi er kommet her, min beste Svava, for at &#x2013; ja, du v&#x00E9;t selv hvorfor. Det, som er sk&#x00E9;t, har bedr&#x00F8;vet os meget. Men det er nu engang ikke til at &#x00E6;ndre. Ingen af os undskylder Alf. Men vi synes jo nok, at han m&#x00E5; kunne f&#x00E5; tilgivelse, og is&#x00E6;r af den, som f&#x00F8;ler sig elsket, virkelig elsket. For det er jo noget annet.</p>
+</sp>
+<sp>
+<speaker>Christensen.</speaker>
+<p>Naturligvis! </p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Naturligvis!</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Naturligvis!</p>
+</sp>
+<sp>
+<speaker>Fru Christensen.</speaker>
+<p>Og om nu ikke du er enig i det, s&#x00E5; h&#x00E5;ber jeg, du er det med hensyn p&#x00E5; Alf selv. Vi tror nemlig, at i hans karakter, min k&#x00E6;re Svava, har du borgen for troskab. &#x2013; Jeg v&#x00E9;t, at hvis det fordres, vil han gi&#x0027; sit &#x00E6;res-ord p&#x00E5;, at &#x2026;</p>
+</sp>
+<sp>
+<speaker>Fru Riis</speaker>
+<stage>(rejser sig).</stage>
+<p>Nej! &#x2026; Nej! &#x2026;</p>
+</sp>
+<sp>
+<speaker>Fru Christensen.</speaker>
+<p>Hvad er det, min beste?</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Ikke dette med &#x00E6;res-ord! Han afl&#x00E6;gger jo ed i &#x00E6;gteskabet ogs&#x00E5;.</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Men to er vist sikrere, frue?</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Nej, ikke det! Ingen ed! <stage>(S&#x00E6;tter sig.)</stage></p>
+</sp>
+<sp>
+<speaker>Christensen.</speaker>
+<p>Jeg har lagt m&#x00E6;rke til vor v&#x00E6;n dr. Nordans bem&#x00E6;rkninger.</p>
+<p>Sig mig, h&#x00F8;jst&#x00E6;rede, g&#x00E5;r ogs&#x00E5; De ut ifra, at det, min s&#x00F8;n har gjort, skal v&#x00E6;re absolut hinderligt for &#x00E6;gteskab med en h&#x00E6;derlig kvinne?</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Aldeles tv&#x00E6;rt om! Det hindrer jo aldrig nogen man fra at bli gift &#x2013; og udm&#x00E6;rket gift. S&#x00E5; det netop er Svava, som her i enhv&#x00E6;r henseende b&#x00E6;rer sig underlig ad.</p>
+</sp>
+<sp>
+<speaker>Fru Christensen.</speaker>
+<p>Det vil jeg ikke sige. Men der er noget, som Svava har overset. Hun handler, som om hun var fri. Men hun er slet ikke fri. En forlovelse er et &#x00E6;gteskab. I alle fall er jeg s&#x00E5; gammeldags at holde det for det. Men da er han, som jeg har givet min h&#x00E5;nd, ogs&#x00E5; min h&#x00E6;rre, min &#x00F8;vrighed, og jeg skylder ham &#x2013; som al &#x00F8;vrighed &#x2013; min &#x00E6;rb&#x00F8;dighed, enten han g&#x00F8;r det gode eller det slette. Jeg kan ikke sige ham op eller selv l&#x00F8;pe bort.</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Det er det gammeldagse og solide. Jeg takker Dem hj&#x00E6;rtelig, frue!</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Jeg ogs&#x00E5;! &#x2013;</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Men n&#x00E5;r det <hi rend="italic">efter</hi> forlovelsen er for sent &#x2026;</p>
+</sp>
+<stage>(Stanser.)</stage>
+<sp>
+<speaker>Fru Christensen.</speaker>
+<p>Hvad mener De, min beste!</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>&#x00C5;-nej. &#x2013; Nej, det var ingen ting.</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>N&#x00E5;r det efter forlovelsen er for sent, mener fru Riis, &#x2013; hvorfor taler man da ikke <hi rend="italic">f&#x00F8;r</hi> forlovelsen?</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Nu har jeg h&#x00F8;rt det med!</p>
+</sp>
+<sp>
+<speaker>Christensen.</speaker>
+<p>Ja, men det vilde ikke v&#x00E6;re af vejen? T&#x00E6;nk, om et frieri herefter fik omtrent f&#x00F8;lgende form: &#x00AB;H&#x00F8;jst&#x00E6;rede fr&#x00F8;ken! Til dato har jeg havt s&#x00E5; og s&#x00E5; mange k&#x00E6;rligheds-historier, nemlig s&#x00E5; og s&#x00E5; mange st&#x00F8;rre og s&#x00E5; og s&#x00E5; mange mindre.&#x00BB; Det m&#x00E5;tte v&#x00E6;re en udm&#x00E6;rket overgang, ikke sant, til at &#x2013;</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>&#x2013; til at forsikre, at hun var den eneste, han elskede?</p>
+</sp>
+<sp>
+<speaker>Christensen.</speaker>
+<p>Ikke netop til det; men til &#x2013;</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Der kommer Alf!</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Alf?</p>
+</sp>
+<sp>
+<speaker>Fru Christensen.</speaker>
+<p>Ja, der er han virkelig!</p>
+</sp>
+<sp>
+<speaker>Riis</speaker>
+<stage>(som har g&#x00E5;t imot ham).</stage>
+<p>Se, det var rigtigt! Velkommen!</p>
+</sp>
+<sp>
+<speaker>Christensen.</speaker>
+<p>N-&#x00E5;?</p>
+</sp>
+<sp>
+<speaker>Alf.</speaker>
+<p>Da det kom til stykket, kunde jeg ikke annet. Jeg m&#x00E5;tte hit.</p>
+</sp>
+<sp>
+<speaker>Christensen.</speaker>
+<p>Det holder jeg med dig i.</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Ja, det var det ene naturlige!</p>
+</sp>
+<stage>(<hi rend="bold">Alf</hi> g&#x00E5;r fr&#x00E6;m og hilser &#x00E6;rb&#x00F8;dig p&#x00E5; <hi rend="bold">Svava</hi>. Hun b&#x00F8;jer sig let, men uten at se p&#x00E5; ham. Han tr&#x00E6;der tilbake.)</stage>
+<sp>
+<speaker>Nordan.</speaker>
+<p>God dag, du!</p>
+</sp>
+<sp>
+<speaker>Alf.</speaker>
+<p>Jeg kommer kanske til ulejlighed.</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Nej, langt fra! Tv&#x00E6;rt om!</p>
+</sp>
+<sp>
+<speaker>Alf.</speaker>
+<p>Jeg synes dog at forst&#x00E5;, at fr&#x00F8;ken Riis ikke &#x00F8;nsker mig her?</p>
+</sp>
+<stage>(Stilhed.)</stage>
+<sp>
+<speaker>Fru Christensen.</speaker>
+<p>Dog i et familje-r&#x00E5;d som vort nu? Ikke sant, min pige?</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Jeg forsikrer Dem, De <hi rend="italic">er</hi> velkommen! Netop Deres uttalelse v&#x00E6;nter vi alle p&#x00E5;!</p>
+</sp>
+<sp>
+<speaker>Christensen.</speaker>
+<p>Det er sant.</p>
+</sp>
+<sp>
+<speaker>Alf.</speaker>
+<p>Det har jo ikke lykkes mig at bli h&#x00F8;rt f&#x00F8;r. Jeg er blet afvist gentagende. B&#x00E5;de jeg selv og mine brev. Og s&#x00E5; t&#x00E6;nkte jeg, &#x2013; at hvis jeg kom nu, blev jeg kanske h&#x00F8;rt.</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Naturligvis. Hvem t&#x00E6;nker annet?</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>H&#x00F8;rt blir du.</p>
+</sp>
+<sp>
+<speaker>Alf.</speaker>
+<p>M&#x00E5;ske t&#x00F8;r jeg ta&#x0027; fr&#x00F8;ken Riis&#x0027;s taushed som tilladelse? &#x2013;</p>
+<p>I s&#x00E5; fall &#x2026; ja, det er ellers ikke stort, jeg har at sige, jeg heller. Egentlig er det bare at minne om, at da jeg bad om fr&#x00F8;ken Riis&#x0027;s h&#x00E5;nd, var det, fordi jeg af alt mit hj&#x00E6;rte elskede henne, &#x2013; henne og ingen annen. Den st&#x00F8;rste lykke og tillike den st&#x00F8;rste &#x00E6;re, jeg kunde t&#x00E6;nke mig, var at bli elsket af henne igen. Og s&#x00E5; er det &#x00E6;nnu.</p>
+</sp>
+<stage>(Han g&#x00F8;r et ophold, som om han v&#x00E6;ntede et svar. Alle ser p&#x00E5; <hi rend="bold">Svava</hi>.)</stage>
+<sp>
+<speaker>Alf.</speaker>
+<p>Fors&#x00E5;vidt fr&#x00F8;ken Riis v&#x00E6;nter, at jeg skal sige mere, &#x2026; at jeg f&#x00F8;rst skal g&#x00F8;re en undskyldning, &#x2026; s&#x00E5; opfatter ikke jeg det s&#x00E5;. Jeg opfatter det ikke, som om jeg skylder nogen.</p>
+<stage>(Stilhed.)</stage>
+<p>Hvad jeg frivillig kunde gi&#x0027;, &#x2013; ja, hvad jeg under andre omst&#x00E6;ndigheder kunde f&#x00F8;le trang til at meddele, det vil jeg her ikke tale om.</p>
+<p>Men jeg <hi rend="italic">skylder</hi> ingen! Min &#x00E6;re kr&#x00E6;ver, at jeg holder dette fast.</p>
+<p>Det er min fr&#x00E6;mtid, jeg skylder. Og hvad den ang&#x00E5;r, da tilst&#x00E5;r jeg, at det har kr&#x00E6;nket mig, at fr&#x00F8;ken Riis et &#x00F8;jeblik har kunnet tvile. Kr&#x00E6;nket mig dypt. Aldrig i mit liv har nogen f&#x00F8;r tvilt p&#x00E5; mig.</p>
+<p>Jeg m&#x00E5; i al &#x00E6;rb&#x00F8;dighed forlange, at man tror mig p&#x00E5; mit ord. <stage>(Da der blir en stilhed.)</stage> Ja, det er ikke mere.</p>
+</sp>
+<sp>
+<speaker>Fru Riis</speaker>
+<stage>(rejser sig uvilk&#x00E5;rlig).</stage>
+<p>Men om en kvinne under de samme omst&#x00E6;ndigheder, Alf, kom og sa&#x0027; det samme, &#x2013; hvem vilde tro henne?</p>
+</sp>
+<stage>(Stilhed.)</stage>
+<stage>(<hi rend="bold">Svava</hi> brister i gr&#x00E5;t.)</stage>
+<sp>
+<speaker>Fru Christensen.</speaker>
+<p>Stakkars barn!</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Tro henne?</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Ja, tro henne. &#x2013; Tro henne, n&#x00E5;r hun efter en slik fortid kom og forsikrede, at hun skulde bli en &#x00E6;rbar &#x00E6;gtef&#x00E6;lle?</p>
+</sp>
+<sp>
+<speaker>Christensen.</speaker>
+<p>Efter en slik fortid?</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Kanske er det galt uttrykt. Men hvorfor forlange, at hun mere skal tro mannen, &#x00E6;n mannen vilde tro henne? For han vilde slet ikke tro henne.</p>
+</sp>
+<sp>
+<speaker>Riis</speaker>
+<stage>(bak fruen).</stage>
+<p>Men er du blet aldeles gal?</p>
+</sp>
+<sp>
+<speaker>Christensen</speaker>
+<stage>(rejser sig halvt).</stage>
+<p>Om forladelse, mine damer og h&#x00E6;rrer; nu b&#x00F8;r de to unge f&#x00E5; afg&#x00F8;re saken!</p>
+</sp>
+<stage>(s&#x00E6;tter sig igen.)</stage>
+<sp>
+<speaker>Alf.</speaker>
+<p>Jeg m&#x00E5; tilst&#x00E5;, at det, fru Riis siger, har jeg aldrig t&#x00E6;nkt over, fordi det aldrig kan forekomme. Ingen h&#x00E6;derlig man v&#x00E6;lger en kvinne, p&#x00E5; hvis fortid han ikke er tryg. Ingen!</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Men en h&#x00E6;derlig kvinne, Alf?</p>
+</sp>
+<sp>
+<speaker>Alf.</speaker>
+<p>Ja, her er forskel.</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>N&#x00F8;jagtig uttrykt: kvinnen skylder mannen b&#x00E5;de sin fortid og fr&#x00E6;mtid; mannen skylder kvinnen bare sin fr&#x00E6;mtid.</p>
+</sp>
+<sp>
+<speaker>Alf.</speaker>
+<p>Om man s&#x00E5; vil, &#x2013; ja.</p>
+</sp>
+<sp>
+<speaker>Nordan</speaker>
+<stage>(til <hi rend="bold">Svava</hi>, idet han rejser sig).</stage>
+<p>Jeg &#x00F8;nskede, du skulde uts&#x00E6;tte med svaret, min pige. Men nu mener jeg, du b&#x00F8;r svare straks.</p>
+</sp>
+<stage>(<hi rend="bold">Svava</hi> g&#x00E5;r mot <hi rend="bold">Alf</hi> og kyler ham sin hanske i ansigtet, derp&#x00E5; videre in i sit kammer. <hi rend="bold">Alf</hi> vender sig helt efter henne. <hi rend="bold">Riis</hi> in i sit kammer til h&#x00F8;jre. Alle har rejst sig. <hi rend="bold">Fru Christensen</hi> griber <hi rend="bold">Alfs</hi> arm og g&#x00E5;r ut med ham; <hi rend="bold">Christensen</hi> efter. <hi rend="bold">Fru Riis</hi> op mot venstre.)</stage>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Det var en hanske, det!</p>
+</sp>
+<sp>
+<speaker>Fru Riis</speaker>
+<stage>(foran d&#x00F8;ren, hvor <hi rend="bold">Svava</hi> forsvant og st&#x00E6;ngte efter sig).</stage>
+<p>Svava!</p>
+</sp>
+<sp>
+<speaker>Christensen</speaker>
+<stage>(kommer igen og siger til <hi rend="bold">Nordan</hi>, f&#x00F8;r denne har lagt m&#x00E6;rke til ham eller vendt sig).</stage>
+<p>Dette er alts&#x00E5; krig? &#x2013; Krig tror jeg, at jeg forst&#x00E5;r mig en smule p&#x00E5;. <stage>(G&#x00E5;r.)</stage></p>
+</sp>
+<stage>(<hi rend="bold">Nordan</hi> vender sig helt om mot ham og blir s&#x00E5; st&#x00E5;ende.)</stage>
+<sp>
+<speaker>Fru Riis</speaker>
+<stage>(foran d&#x00F8;ren).</stage>
+<p>Svava!</p>
+</sp>
+<stage>(<hi rend="bold">Riis</hi> kommer styrtende ut fra sit rum med hat p&#x00E5;, hansker og stok i h&#x00E5;nden; efter <hi rend="bold">Christensens</hi>.)</stage>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Svava!</p>
+</sp>
+</div>
+</div>
+<div type="chapter" subtype="act" n="3">
+<head type="main">TREDJE HANDLING</head>
+<stage><p rend="center">I en have. Baksiden af et smukt, &#x00E9;n-etages hus afslutter den.</p></stage>
+<lb/>
+<div type="chapter" subtype="scene" n="3_1">
+<head type="sub">F&#x00F8;rste m&#x00F8;te</head>
+<stage><hi rend="bold">Nordan</hi>. <hi rend="bold">Alf</hi>. <hi rend="bold">Christensen</hi>. (P&#x00E5; en stol i forgrunnen sitter doktor <hi rend="bold">Nordan</hi> og l&#x00E6;ser. En gammel tjener &#x00E5;pner d&#x00F8;ren p&#x00E5; huset.)</stage>
+<sp>
+<speaker>Tjeneren.</speaker>
+<p>Hr. doktor!</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Hvad er det? <stage>(<hi rend="bold">Alf</hi> kommer tilsyne i d&#x00F8;ren.)</stage> &#x00C5;, er det du! <stage>(rejser sig.)</stage> N&#x00E5;, min gut? &#x2013; Men som du ser ut!</p>
+</sp>
+<sp>
+<speaker>Alf.</speaker>
+<p>Ja, bryd dig ikke om det! Har du lit frokost at gi&#x0027; mig?</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Har du &#x00E6;nda ikke spist frokost? Har du da ikke v&#x00E6;ret hjemme? Ikke i hele nat? Ikke siden ig&#x00E5;r? <stage>(roper.)</stage> Tomas! &#x2013; &#x2013;</p>
+</sp>
+<sp>
+<speaker>Alf.</speaker>
+<p>Og n&#x00E5;r jeg har spist, m&#x00E5; jeg f&#x00E5; tale med dig?</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Naturligvis. K&#x00E6;re min gut! <stage>(til Tomas.)</stage> Vil du s&#x00E6;tte fr&#x00E6;m lit frokost der inne? <stage>(peker p&#x00E5; et vindu til venstre.)</stage></p>
+</sp>
+<sp>
+<speaker>Alf.</speaker>
+<p>Og lit toilette f&#x00E5;r jeg vel ogs&#x00E5; g&#x00F8;re?</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>F&#x00F8;lg med Tomas! Jeg skal straks komme efter. <stage>(De g&#x00E5;r. I det samme h&#x00F8;res en vogn stanse utenfor.)</stage> Her holder en vogn. Se efter, hvad det er, Tomas! &#x2013; Ingen praksis! Rejser imorgen!</p>
+</sp>
+<sp>
+<speaker>Tjeneren.</speaker>
+<p>Det er hr. Christensen. <stage>(G&#x00E5;r igen.)</stage></p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Ho-ho! <stage>(g&#x00E5;r til vinduet til venstre.)</stage> Alf!</p>
+</sp>
+<sp>
+<speaker>Alf</speaker>
+<stage>(i vinduet).</stage>
+<p>Ja?</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Din far! &#x2013; Vil du ikke ses, s&#x00E5; drag ned gardinet.</p>
+</sp>
+<stage>(Gardinet faller.)</stage>
+<sp>
+<speaker>Tjeneren.</speaker>
+<p>V&#x00E6;r s&#x00E5; god!</p>
+</sp>
+<stage>(<hi rend="bold">Christensen</hi> kommer i fest-dragt med Olavs-ordenens kommand&#x00F8;rkors; en st&#x00F8;v-kappe over dragten.)</stage>
+<sp>
+<speaker>Christensen.</speaker>
+<p>Undskyld, h&#x00F8;jst&#x00E6;rede!</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>V&#x00E6;rs&#x0027;go&#x0027;! I full stas? &#x2013; Jeg gratulerer!</p>
+</sp>
+<sp>
+<speaker>Christensen.</speaker>
+<p>Ja, vi nybakte skal til kur idag. Men De tillader, at jeg p&#x00E5; vejen til slottet st&#x00E5;r af et &#x00F8;jeblik hos Dem? Har De h&#x00F8;rt noget der over fra? Fra Riis&#x0027;s?</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Nej. De sitter vel og v&#x00E6;nter p&#x00E5; &#x00AB;krigen&#x00BB;, kan jeg t&#x00E6;nke?</p>
+</sp>
+<sp>
+<speaker>Christensen.</speaker>
+<p>Den skal de ogs&#x00E5; f&#x00E5;! &#x00C6;nnu idag har jeg t&#x00E6;nkt at begynne den. Men hun skulde ikke v&#x00E6;re blet rimeligere? Kvinfolkene plejer at ta&#x0027; slikt sv&#x00E6;rt kvast. Men s&#x00E5; plejer de ogs&#x00E5; at falle af.</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Jeg tror ikke det. Men jeg b&#x00F8;jer mig for Deres erfaring.</p>
+</sp>
+<sp>
+<speaker>Christensen.</speaker>
+<p>Mange tak! Som gammel st&#x00F8;d-pute i familjerne har <hi rend="italic">De</hi> vist en st&#x00F8;rre?</p>
+<p>Ig&#x00E5;r var hun en san sitter-&#x00E5;l! Og hun traf! Gutten har ikke v&#x00E6;ret hjemme siden. Det gl&#x00E6;der mig n&#x00E6;sten; for s&#x00E5; er der dog skam i ham. Jeg begynte at tvile.</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Det er dette med &#x00AB;krigen&#x00BB;, som interesserer <hi rend="italic">mig</hi>.</p>
+</sp>
+<sp>
+<speaker>Christensen.</speaker>
+<p>S&#x00E5; De er s&#x00E5; lysten p&#x00E5; den? Nu ja! &#x2013; Ja, den ordner sig af sig selv. Saken mrs. North kan tages op igen, hvad dag det skal v&#x00E6;re, h&#x00F8;jst&#x00E6;rede! Den er i bankens h&#x00E6;nder, den.</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Men hvad har dette med Deres s&#x00F8;ns forlovelse at bestille?</p>
+</sp>
+<sp>
+<speaker>Christensen.</speaker>
+<p>Hvad det har? Min s&#x00F8;n f&#x00E5;r afslag af fr&#x00F8;ken Riis, fordi hun ikke t&#x00E5;ler hans forhold <hi rend="italic">f&#x00F8;r</hi> &#x00E6;gteskabet. Hennes far har lignende forhold <hi rend="italic">midt oppe</hi> i &#x00E6;gteskabet! <hi rend="italic">Tableau vivant tr&#x00E8;s-curieux!</hi> &#x2013; for at tale i det sprog, som hr. Riis sv&#x00E6;rmer for.</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Det er opr&#x00F8;rende! For det er alene <hi rend="italic">Deres s&#x00F8;n</hi>, som har skylden her.</p>
+</sp>
+<sp>
+<speaker>Christensen.</speaker>
+<p>Min s&#x00F8;n har aldeles ingen skyld her! Han har ikke gjort det ringeste, som er til skade eller skam for Riis&#x0027;s familje! Aldrig det minste! Han er en h&#x00E6;derlig man, som har givet fr&#x00F8;ken Riis sit l&#x00F8;fte, og det har han holdt. Hvem t&#x00F8;r sige annet? Eller at han ikke <hi rend="italic">vil</hi> holde det? Det er en forn&#x00E6;rmelse at tvile, h&#x00F8;jst&#x00E6;rede! Her m&#x00E5; enten g&#x00F8;res undskyldning og sluttes fred &#x2013; eller krig! For dette t&#x00E5;ler jeg ikke! Og t&#x00E5;ler min s&#x00F8;n det, s&#x00E5; foragter jeg ham!</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p><hi rend="italic">Jeg</hi> tror, at Deres s&#x00F8;n mente det &#x00E6;rlig, da han gav sit l&#x00F8;fte. Sansynligvis kunde han holdt det ogs&#x00E5;, &#x2013; jeg v&#x00E9;t ikke! Jeg har l&#x00E6;rt at tvile. Jeg er doktor. Jeg har set for meget. Og ig&#x00E5;r tok han sig ikke godt ut.</p>
+<p>Ja, De f&#x00E5;r virkelig undskylde! Efter hans friske ungkarle-liv og med den arv, som der er i ham, &#x2026; <hi rend="italic">om nogen tvilte</hi>? om hans forlovede tvilte? Turde han virkelig finne det s&#x00E5; forunderligt, &#x2013; h&#x00F8;jst&#x00E6;rede? Havde han ret til at bli forn&#x00E6;rmet? til at kr&#x00E6;ve undskyldning? Undskyldning for hvad? For, at nogen tvilte om hans dyd? &#x2013; T&#x00E6;nk Dem dog om!</p>
+</sp>
+<sp>
+<speaker>Christensen.</speaker>
+<p>&#x00C5;, for noget &#x2013;!</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Jeg b&#x00E9;r! Jeg er bare halv-vejs. For De talte jo ogs&#x00E5; om forlik, det vil da sige &#x00E6;gteskab.</p>
+<p>Dersom Deres s&#x00F8;n finner sig i &#x00E6;gteskab med en dame, som har mistanke til ham, da foragter <hi rend="italic">jeg</hi> ham.</p>
+</sp>
+<sp>
+<speaker>Christensen.</speaker>
+<p>N&#x00E5; &#x2013;!</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Ja, det g&#x00F8;r jeg sannelig. S&#x00E5; forskellige kan meningerne v&#x00E6;re. Efter min m&#x00E5;te at f&#x00F8;le p&#x00E5; har Deres s&#x00F8;n bare at b&#x00F8;je sig &#x2013; og v&#x00E6;nte. Tie og v&#x00E6;nte. Naturligvis under foruds&#x00E6;tning af, at han &#x00E6;nnu elsker. &#x2013; Der har De, hvad <hi rend="italic">jeg</hi> mener!</p>
+</sp>
+<sp>
+<speaker>Christensen.</speaker>
+<p>Nu s&#x00E6;tter jeg, at hvad min s&#x00F8;n har syndet, det har de fleste bejlere syndet; for det tror jeg, de har. Jeg s&#x00E6;tter ogs&#x00E5;, de har den samme ulykkelige &#x00AB;arv&#x00BB;, et ord, De l&#x00E6;gger tryk p&#x00E5; af s&#x00E6;regen v&#x00E6;nlighed mot mig! &#x2013; skal derfor de fleste forlovede piger b&#x00E6;re sig ad som nu fr&#x00F8;ken Riis? Skrike op, l&#x00F8;pe sin vej og g&#x00F8;re skandale? Vi fik ikke mere &#x00F8;relyd! Her blev det morsomste anarki, v&#x00E6;rden &#x00E6;nnu har set!</p>
+<p>Nej, de doktriner, vi er inne p&#x00E5; her, de er mot tingenes natur og orden! De er ville! Og n&#x00E5;r de oven i k&#x00F8;pet kyles os i hodet som moralske h&#x00F8;jesterets-domme, ja, s&#x00E5; hugger jeg til! Farvel! 			<stage>(Han g&#x00E5;r, men vender om.)</stage></p>
+<p><hi rend="italic">Hvem</hi> vilde disse h&#x00F8;jesterets-domme ramme, om jeg t&#x00F8;r sp&#x00F8;rge? I regelen landenes dygtigste, kraftigste ungdom. Og <hi rend="italic">den</hi> skal man s&#x00E6;tte utenfor i en egen foragtet klasse?</p>
+<p><hi rend="italic">Hvad</hi> vilde de ramme? En stor del af v&#x00E6;rdens literatur og kunst; en stor del af det sk&#x00F8;nneste, det mest henrivende i vor tid &#x2013; fr&#x00E6;mfor alt v&#x00E6;rdens st&#x00F8;rste byer! Ja, v&#x00E6;rdens-vidunderne! Million-st&#x00E6;derne! Det er sant! Det liv, som der g&#x00E5;r forbi &#x00E6;gteskabet, eller spr&#x00E6;nger &#x00E6;gteskabet, eller forvandler hele institutionen, &#x2013; ja, De forst&#x00E5;r, hvad jeg mener! &#x2013; &#x2013; alt dette, som man beskylder for at bruke &#x00AB;forlokkelsens v&#x00E5;ben&#x00BB; i moder, i luksus, i symposier, i kunst, i teatre, &#x2026; det er en af million-st&#x00E6;dernes rikeste faktorer, det! En af deres m&#x00E6;gtigste kilder! Ingen, som har set det, tviler; man later bare, som man ikke forst&#x00E5;r.</p>
+<p>&#x00D8;nsker man ogs&#x00E5; at &#x00F8;del&#x00E6;gge alt dette? Forst&#x00F8;te v&#x00E6;rdens beste ungdom, ruinere v&#x00E6;rdens st&#x00F8;rste byer? Ja, man &#x00F8;nsker s&#x00E5; meget i moralens navn, at man til sist &#x00F8;nsker det umoralske.</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Det er med ren statsmans-overlegenhed, De g&#x00E5;r til Deres lille krig?!</p>
+</sp>
+<sp>
+<speaker>Christensen.</speaker>
+<p>Bare med sundt m&#x00E6;nneske-vet, h&#x00F8;jst&#x00E6;rede; det er, skam, nok. Jeg skal f&#x00E5; hele byen med mig; stol p&#x00E5; det!</p>
+</sp>
+<sp>
+<speaker>Tjeneren.</speaker>
+<p>Hr. doktor!</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Hvad ser jeg?</p>
+</sp>
+<stage>(Iler opover.)</stage>
+</div>
+<div type="chapter" subtype="scene" n="3_2">
+<head type="sub">Annet m&#x00F8;te</head>
+<stage>De forrige. Fru Riis.</stage>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>T&#x00F8;r jeg komme?</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Ja, naturligvis! V&#x00E6;r s&#x00E5; god!</p>
+</sp>
+<sp>
+<speaker>Fru Riis</speaker>
+<stage>(til <hi rend="bold">Christensen</hi>, som hilser).</stage>
+<p>Det er Dem mit bes&#x00F8;k g&#x00E6;ller.</p>
+</sp>
+<sp>
+<speaker>Christensen.</speaker>
+<p>Det skal v&#x00E6;re mig k&#x00E6;rt.</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Jeg kom til at se over gaten, i det samme Deres vogn holdt, og De steg ut. Og s&#x00E5; t&#x00E6;nkte jeg at gripe lejligheden; &#x2013; for De truede os jo ig&#x00E5;r? Var det ikke s&#x00E5;? De har erkl&#x00E6;ret os krig?</p>
+</sp>
+<sp>
+<speaker>Christensen.</speaker>
+<p>Det forekommer mig, frue, at den <hi rend="italic">var</hi> erkl&#x00E6;ret; jeg bare tok imot den.</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Og hvad g&#x00E5;r Deres krig ut p&#x00E5;, om jeg t&#x00F8;r sp&#x00F8;rge?</p>
+</sp>
+<sp>
+<speaker>Christensen.</speaker>
+<p>Jeg har just havt den &#x00E6;re at forklare mig for doktoren. Jeg v&#x00E9;t ikke, om det er galant at g&#x00F8;re det like overfor Dem.</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>S&#x00E5; skal <hi rend="italic">jeg</hi> g&#x00F8;re det. Krigen g&#x00E6;ller Deres man. Hr. Christensen tar offensiven.</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Naturligvis! For De v&#x00E9;t, at ham kan De n&#x00E5;. Men jeg kom for at be&#x0027; Dem bet&#x00E6;nke Dem!</p>
+</sp>
+<sp>
+<speaker>Christensen</speaker>
+<stage>(leende).</stage>
+<p>S&#x00E5;?</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Engang &#x2013; det er nu mange &#x00E5;r siden &#x2013; tok jeg mit barn p&#x00E5; armen og vilde g&#x00E5; fra min man. Da n&#x00E6;vnte han et navn; han brukte det som skjold; ti det var en m&#x00E6;gtig mans navn. &#x00AB;L&#x00E6;g m&#x00E6;rke til,&#x00BB; sa&#x0027; han, &#x00AB;hvor overb&#x00E6;rende denne mans hustru er. Og fordi hun er det, er hele samfunnet overb&#x00E6;rende. Og det kommer deres barn til gode.&#x00BB; &#x2013; S&#x00E5; falt ordene.</p>
+</sp>
+<sp>
+<speaker>Christensen.</speaker>
+<p>Nu ja? Fors&#x00E5;vidt der skulde ligge et r&#x00E5;d i det, s&#x00E5; var det et godt r&#x00E5;d. De fulgte det jo ogs&#x00E5;.</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>I vort samfun er det en skam at v&#x00E6;re en fraskilt hustru. Og det er ingen &#x00E6;re at v&#x00E6;re hennes datter. De rike, de m&#x00E6;gtige, de toneangivende har f&#x00E5;t det til at v&#x00E6;re s&#x00E5;.</p>
+</sp>
+<sp>
+<speaker>Christensen.</speaker>
+<p>Nu ja &#x2013;?</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Her er min undskyldning, n&#x00E5;r jeg for mit barns fr&#x00E6;mtid ikke v&#x00E5;gede at g&#x00E5;.</p>
+<p>Men her er ogs&#x00E5; min mans undskyldning; ti han er af dem, som f&#x00F8;lger eksempler.</p>
+</sp>
+<sp>
+<speaker>Christensen.</speaker>
+<p>Det g&#x00F8;r vi alle, frue.</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Men de m&#x00E6;gtiges er de st&#x00E6;rkeste. Og i dette kapitel gir de fristende eksempel.</p>
+<p>Jeg fejler vel n&#x00E6;ppe, n&#x00E5;r jeg i disse dager tror at ha h&#x00F8;rt <hi rend="italic">Deres</hi> opfatning gennem min mans mund? Eller tar jeg fejl heri, s&#x00E5; h&#x00F8;rte jeg vel rigtigere ig&#x00E5;r, n&#x00E5;r jeg h&#x00F8;rte <hi rend="italic">Dem</hi> i det, som Deres s&#x00F8;n sa&#x0027;?</p>
+</sp>
+<sp>
+<speaker>Christensen.</speaker>
+<p>Jeg vedst&#x00E5;r hv&#x00E6;rt ord, som min s&#x00F8;n sa&#x0027;.</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Det t&#x00E6;nkte jeg. Ja, det blir en underlig krig, denne Deres! De er i alt, som her er h&#x00E6;ndt fra f&#x00F8;rst til sist. De er i hele krigen &#x2013; p&#x00E5; b&#x00E6;gge sider!</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>F&#x00F8;r De svarer, &#x2013; m&#x00E5; jeg f&#x00E5; henstille til Dem, beste frue, om De vil g&#x00F8;re bruddet aldeles ul&#x00E6;geligt? Skal en forsoning mellem de unge bli ganske umulig?</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Den <hi rend="italic">er</hi> umulig.</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Hvorfor?</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Fordi tilliden er tapt.</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Nu mere &#x00E6;n f&#x00F8;r?</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Ja, jeg tilst&#x00E5;r, at like til man ig&#x00E5;r b&#x00F8;d fr&#x00E6;m Alfs &#x00E6;res-ord, &#x2013; like til han ogs&#x00E5; selv forlangte at bli trod p&#x00E5; sit &#x00E6;res-ord, k&#x00E6;nte jeg ikke min egen historie igen. Men dette var jo den &#x2013; <hi rend="italic">ord til annet</hi>! S&#x00E5;ledes begynte ogs&#x00E5; vi! Hvem borger for, at ikke forts&#x00E6;ttelsen blir den samme?</p>
+</sp>
+<sp>
+<speaker>Christensen.</speaker>
+<p>Derfor borger min s&#x00F8;ns karakter, frue!</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Karakter? &#x2013; Jo, man opdrager en karakter, n&#x00E5;r man fra ungdommen g&#x00E5;r hemmelige, ulovlige veje! Det er p&#x00E5; den m&#x00E5;ten, man opdrager trol&#x00F8;shed. De, som s&#x00F8;ker efter &#x00E5;rsaken til, at karakterer er s&#x00E5; sj&#x00E6;ldne, de f&#x00E5;r s&#x00F8;ke her, t&#x00E6;nker jeg.</p>
+</sp>
+<sp>
+<speaker>Christensen.</speaker>
+<p>Ungdommen er slet ikke det afg&#x00F8;rende. Det kommer an p&#x00E5;, hvorledes man blir gift.</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Hvorfor skal trol&#x00F8;shed g&#x00E5; over, n&#x00E5;r man blir gift? Kan De sige mig det?</p>
+</sp>
+<sp>
+<speaker>Christensen.</speaker>
+<p>S&#x00E5; elsker man jo.</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>S&#x00E5; elsker man? Man har kanske ikke elsket f&#x00F8;r ogs&#x00E5;?</p>
+<p>Her har manfolkene f&#x00E5;t i stand en ren forbl&#x00E6;ndelse!</p>
+<p>Nej, k&#x00E6;rligheden kan ikke holde l&#x00E6;nge fast, n&#x00E5;r det er selve viljen, som er ford&#x00E6;rvet. Og det er den. Den er blet ford&#x00E6;rvet i ungkarle-livet.</p>
+</sp>
+<sp>
+<speaker>Christensen.</speaker>
+<p>S&#x00E5; k&#x00E6;nner jeg dog sanselige m&#x00E6;n, som har st&#x00E6;rk vilje.</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Jeg taler slet ikke om st&#x00E6;rk vilje; men om ren. Om trofast, &#x00E6;del vilje.</p>
+</sp>
+<sp>
+<speaker>Christensen.</speaker>
+<p>Skal min s&#x00F8;n d&#x00F8;mmes p&#x00E5; slikt gallimatias, s&#x00E5; priser jeg min gud, at han slap v&#x00E6;k, f&#x00F8;r det blev til alvor! Det g&#x00F8;r jeg. &#x2013; Og dermed nok!</p>
+</sp>
+<stage>(Vil g&#x00E5;.)</stage>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Hvad Deres s&#x00F8;n ang&#x00E5;r &#x2013;? Doktor, svar mig, s&#x00E5; hans far h&#x00F8;rer det, f&#x00F8;r han g&#x00E5;r! Den gang De n&#x00E6;gtede at f&#x00F8;lge med til forlovelsesgildet, havde De allerede den gang h&#x00F8;rt noget om Alf Christensen? Var det, De havde h&#x00F8;rt, af den art, at De ikke kunde tro ham?</p>
+</sp>
+<sp>
+<speaker>Nordan</speaker>
+<stage>(bet&#x00E6;nker sig lit).</stage>
+<p>Ikke rigtig, nej!</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Der kan De h&#x00F8;re! &#x2013; Men m&#x00E5; jeg s&#x00E5; f&#x00E5; lov til at sp&#x00F8;rge Dem, doktor &#x2013;: hvorfor sa&#x0027; De ikke det? Du gode gud, hvorfor taug De?</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>H&#x00F8;r, frue; n&#x00E5;r to unge m&#x00E6;nnesker, som i grunnen passer for hv&#x00E6;randre &#x2026; for det g&#x00F8;r de &#x2013;?</p>
+</sp>
+<sp>
+<speaker>Christensen.</speaker>
+<p>Det g&#x00F8;r de; jeg inr&#x00F8;mmer det.</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>N&#x00E5;r de med &#x00E9;n gang blir s&#x00E5; vanvittig forelskede i hv&#x00E6;randre, &#x2013; hvad skal man s&#x00E5;?</p>
+</sp>
+<sp>
+<speaker>Christensen.</speaker>
+<p>Jo, man skal g&#x00F8;re historier, overdrivelser, skandale!</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Og s&#x00E5; m&#x00E5; jeg tilst&#x00E5;, &#x2013; ja, som jeg i grunnen har sagt &#x2013;, at jeg er blet vant til, at i dette stykke er det ikke, som det skulde v&#x00E6;re. Jeg s&#x00E5; p&#x00E5; denne forlovelse, som jeg ser p&#x00E5; de andre &#x2013; p&#x00E5; de fleste andre, &#x2013; som p&#x00E5; et lotteri. Det kan g&#x00E5; godt; det kan ogs&#x00E5; g&#x00E5; meget d&#x00E5;rlig.</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Og min datter, som De holder af, &#x2013; for det v&#x00E9;t jeg, De g&#x00F8;r! &#x2013; s&#x00E6;tter De p&#x00E5; lotteri?! Er det muligt at f&#x00E5; et st&#x00E6;rkere begrep om, hvorledes det st&#x00E5;r til?</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Jo, det er. For <hi rend="italic">De</hi> selv, frue, &#x2013; hvad gjorde De?</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Jeg &#x2026; ?</p>
+</sp>
+<sp>
+<speaker>Christensen.</speaker>
+<p>Bravo!</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Ogs&#x00E5; <hi rend="italic">De</hi> fik vite, hvad Hoff havde sagt, &#x2013; og mere til.</p>
+</sp>
+<stage>(<hi rend="bold">Christensen</hi> ler d&#x00E6;mpet.)</stage>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Allikevel hjalp De Deres man &#x2026; om ikke netop med at f&#x00E5; henne til at overse det, s&#x00E5; dog med at j&#x00E6;vne det ut.</p>
+</sp>
+<sp>
+<speaker>Christensen.</speaker>
+<p>Bravo!</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Og De kalte mig til for at hj&#x00E6;lpe Dem med at skaffe bet&#x00E6;nknings-tid.</p>
+</sp>
+<sp>
+<speaker>Christensen.</speaker>
+<p>M&#x00F8;drene har i disse saker en viss afstand mellem teori og praksis, skal jeg sige Dem.</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Det var f&#x00F8;rst, da jeg s&#x00E5; Svava, &#x2013; hvor dypt hun tok det, og for en r&#x00E6;dsel hun havde for det, &#x2013; at jeg begynte at f&#x00E5; &#x00F8;jnene op. Og s&#x00E5; l&#x00E6;nge h&#x00F8;rte jeg p&#x00E5; henne, til jeg fik medf&#x00F8;lelse. Ogs&#x00E5; jeg har engang v&#x00E6;ret ung, har trod &#x2013; og elsket. Men det var blet s&#x00E5; l&#x00E6;nge siden. Og jeg var g&#x00E5;t tr&#x00E6;t. &#x2013; &#x2013;</p>
+</sp>
+<sp>
+<speaker>Fru Riis</speaker>
+<stage>(som har sat sig ved doktorens lille l&#x00E6;se-bord).</stage>
+<p>&#x00C5;, gud!</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Ja, frue! Lad mig f&#x00E5; v&#x00E6;re oprigtig: det er netop m&#x00F8;drene, som efterh&#x00E5;nden har gjort mig sl&#x00F8;v. M&#x00F8;drene ser s&#x00E5; sl&#x00F8;vt p&#x00E5; det.</p>
+<p>I regelen v&#x00E9;t de nemlig god besked.</p>
+</sp>
+<sp>
+<speaker>Christensen.</speaker>
+<p>De g&#x00F8;r det, de k&#x00E6;re, ja! Og fru Riis danner ingen undtagelse.</p>
+<p>For De m&#x00E5; tilst&#x00E5;, frue, at De gjorde, hvad De kunde, for at holde fast en ung man med en ganske livlig fortid? &#x2013; Han havde for resten en ganske pen stilling i samfunnet, den samme unge man, &#x2013; noget, jeg bare lejlighedsvis l&#x00E6;gger til.</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Nu-ja? &#x2013;</p>
+<p>Ikke f&#x00F8;r f&#x00E5;r d&#x00F8;trene utsigt til, hvad m&#x00F8;drene kaller &#x00AB;godt gifte&#x00BB;, s&#x00E5; glemmer de gamle straks, hvad de selv har lidt.</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Vi v&#x00E9;t jo ikke, at det er det samme.</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>I v&#x00E9;t det ikke?!</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Jeg siger Dem, jeg k&#x00E6;nte det ikke igen! Vi tror, at han, som vor datter skal ha, er s&#x00E5; meget bedre. Vi tror, at her er st&#x00E6;rkere garantier, at her er ganske andre forhold. Det <hi rend="italic">er</hi> s&#x00E5;! Det er en slags syns-ville, som tar os.</p>
+</sp>
+<sp>
+<speaker>Christensen.</speaker>
+<p>Ved utsigten til et godt gifte, ja! Aldeles enig med Dem, frue, &#x2013; for f&#x00F8;rste gang.</p>
+<p>Ellers t&#x00E6;nker jeg nu, det viser noget annet ogs&#x00E5;. Kanske kvinnerne ikke har lidt s&#x00E5; meget &#x00E6;nda ved, at m&#x00E6;n er m&#x00E6;n? Hvad? Det har vist v&#x00E6;ret mere h&#x00E6;ftigt &#x00E6;n dypt &#x2013; omtrent som med sj&#x00F8;-syke? N&#x00E5;r den er over, nu ja, s&#x00E5; er den over.</p>
+<p>Og n&#x00E5;r s&#x00E5; d&#x00F8;trene i sin tid skal ombord, s&#x00E5; t&#x00E6;nker de k&#x00E6;re m&#x00F8;dre: &#x00E5;, de kan vel ogs&#x00E5; holde det ut? Bare afsted!</p>
+<p>For de vil s&#x00E5; g&#x00E6;rne ha dem afsted; &#x2013; det er saken!</p>
+</sp>
+<sp>
+<speaker>Fru Riis</speaker>
+<stage>(som nu rejser sig og kommer fr&#x00E6;m).</stage>
+<p>Ja, er det s&#x00E5;, da er det just ikke til at le ad! Ti da viser det, hvad en kvinne i samliv med mannen synker ned til.</p>
+</sp>
+<sp>
+<speaker>Christensen.</speaker>
+<p>Se s&#x00E5;!</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Ja, for hv&#x00E6;r kvinne-sl&#x00E6;gt kommer med st&#x00E6;rkere og st&#x00E6;rkere krav p&#x00E5; &#x00E6;rbart liv. Det opdrages uvilk&#x00E5;rlig af moder-f&#x00F8;lelsen. Det skal v&#x00E6;re den v&#x00E6;rgel&#x00F8;ses vagt. Selv d&#x00E5;rlige m&#x00F8;dre t&#x00E6;nker s&#x00E5;.</p>
+<p>Men bukker de allikevel under, og synker hv&#x00E6;r kvinnesl&#x00E6;gt p&#x00E5; ny s&#x00E5; dypt i &#x00E6;gteskabet, som De siger, ja, da m&#x00E5; det jo v&#x00E6;re den forret, mannen kommer med, som har gjort det. For den har opdraget ham.</p>
+</sp>
+<sp>
+<speaker>Christensen.</speaker>
+<p>Hvilken forret?</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Den at leve et ungkarle-liv, som han lyster, og at bli trod p&#x00E5; sit &#x00E6;res-ord, n&#x00E5;r han behager at tr&#x00E6;de i &#x00E6;gteskab.</p>
+<p>S&#x00E5;l&#x00E6;nge kvinnen ikke kan stanse denne forf&#x00E6;rdelige forret eller g&#x00F8;re sig uafh&#x00E6;ngig af den, &#x2013; s&#x00E5; l&#x00E6;nge vil den ene halvdel af m&#x00E6;nneskeheden v&#x00E6;re et offer for den andre, &#x2013; for den andres mangel p&#x00E5; selvbeh&#x00E6;rskelse.</p>
+<p>Denne ene forret viser sig at v&#x00E6;re st&#x00E6;rkere &#x00E6;n alt friheds-arbejde p&#x00E5; jorden. Og det er ikke til at le ad.</p>
+</sp>
+<sp>
+<speaker>Christensen.</speaker>
+<p>De t&#x00E6;nker Dem en annen v&#x00E6;rden &#x00E6;n vor, frue, og andre naturer &#x00E6;n vore. Og det &#x2013; undskyld mig! &#x2013; er selvf&#x00F8;lgelig alt det svar, som her beh&#x00F8;ves.</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Men s&#x00E5; giv da det svar offentlig! Hvorfor vedk&#x00E6;nner I jer ikke dette standpunkt ved lys dag?</p>
+</sp>
+<sp>
+<speaker>Christensen.</speaker>
+<p>Ja, g&#x00F8;r vi ikke det?</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Nej, &#x2013; ikke her hjemme. Tv&#x00E6;rtom, I stiller jer officielt under <hi rend="italic">vor</hi> fane, mens I hemmelig sviger den. Hvorfor har I ikke mot til at folde ut eders egen fane?</p>
+<p>Lad ungkarle-vanerne bli vedtagne som fult tilb&#x00F8;rlige! S&#x00E5; kan her endelig komme en kamp. Og s&#x00E5; kan ogs&#x00E5; endelig enhv&#x00E6;r uskyldig brud f&#x00E5; vite, hvad hun g&#x00E5;r in til og som hvad.</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Det er afskaffelsen af &#x00E6;gteskabet, det der; &#x2013; hv&#x00E6;rken mere eller mindre.</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Men var ikke ogs&#x00E5; det likere? Ti nu &#x00F8;del&#x00E6;gges det jo, &#x2013; l&#x00E6;nge f&#x00F8;r det begynner.</p>
+</sp>
+<sp>
+<speaker>Christensen.</speaker>
+<p>Ja, alt er jo mannens skyld. Det er mode nu, det. Det h&#x00F8;rer med til &#x00AB;friheds-arbejdet&#x00BB;. Hans autoritet skal ned.</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Den, han har vunnet i ungkarle-livet?</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Ha-ha!</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Lad os ikke d&#x00E6;kke saken til med fraser!</p>
+<p>Lad os hellere tale om &#x00AB;det &#x00F8;de ved arnen&#x00BB;, som <hi rend="italic">digteren</hi> taler om. For det betyder &#x00F8;delagt &#x00E6;gteskab, det, og hvor skriver det sig fra? Dette gr&#x00E5;-kolde, gyselig hv&#x00E6;rdagslige? dette nydelses-dovne, r&#x00E5;? Hvorfra er det?</p>
+<p>Jeg kunde skildre noget, som er n&#x00E6;rmere! Men jeg skal ikke. Ikke engang n&#x00E6;vne de store sl&#x00E6;gts-sygdomme.</p>
+<p>&#x00C5;pent op med det! S&#x00E5; kanske det ogs&#x00E5; engang tar brand! Det m&#x00E5; piske samvittighederne! Det m&#x00E5; bli det vigtigste i hv&#x00E6;rt hjem. <hi rend="italic">Det</hi> er det, som m&#x00E5; til!</p>
+</sp>
+<sp>
+<speaker>Christensen.</speaker>
+<p>Vi har kommet s&#x00E5; h&#x00F8;jt op nu, at det rent ut ikke klinger, n&#x00E5;r jeg siger, jeg skal &#x00AB;p&#x00E5; h&#x00F8;jere steder&#x00BB;. Men De f&#x00E5;r allikevel undskylde mig!</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Jeg h&#x00E5;ber, jeg ikke har opholdt Dem?</p>
+</sp>
+<sp>
+<speaker>Christensen.</speaker>
+<p>Nej, der er god tid. Jeg l&#x00E6;nges bare dygtig ja, De f&#x00E5;r ikke ta&#x0027; det fortrytelig op! &#x2013; efter at komme herfra.</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Til Deres &#x2013; like?</p>
+</sp>
+<sp>
+<speaker>Christensen.</speaker>
+<p>Det var udm&#x00E6;rket, at De minte mig om dem! Derved husker jeg, at jeg n&#x00E6;ppe oftere kommer sammen med Dem eller Deres.</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Nej, vi har givet eder vort opslag.</p>
+</sp>
+<sp>
+<speaker>Christensen.</speaker>
+<p>Og gud ske lov for det! &#x2013; M&#x00E5;tte det nu bare lykkes mig at fordele latteren lit retf&#x00E6;rdig!</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>De beh&#x00F8;ver bare at utgi&#x0027; Deres selv-biografi.</p>
+</sp>
+<sp>
+<speaker>Christensen.</speaker>
+<p>Nej, hellere Deres familje-gruns&#x00E6;tninger, frue! For de er virkelig <hi rend="italic">s&#x00E5;</hi> morsomme. Og n&#x00E5;r jeg fort&#x00E6;ller den m&#x00E5;te, hvorp&#x00E5; de praktiseres innen selve familjen, s&#x00E5; t&#x00E6;nker jeg nok, at folk vil le, s&#x00E5; det forsl&#x00E5;r. Eller for at tale alvor: Jeg skal forf&#x00F8;lge Deres man i hans rygte og i hans forretning, til han r&#x00F8;mmer byen. Jeg tar ikke imot en ydmygelse som denne uten at kaste den tilbake.</p>
+</sp>
+<stage>(g&#x00E5;r.)</stage>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Men dette er opr&#x00F8;rende!</p>
+</sp>
+<sp>
+<speaker>Alf</speaker>
+<stage>(kommer fr&#x00E6;m i d&#x00F8;ren).</stage>
+<p>Far!</p>
+</sp>
+<sp>
+<speaker>Christensen.</speaker>
+<p>Du her? &#x2013; Men hvor du ser d&#x00E5;rlig ut! Hvor har du v&#x00E6;ret, min gut?</p>
+</sp>
+<sp>
+<speaker>Alf.</speaker>
+<p>Jeg kom hit samtidig med dig, og jeg har h&#x00F8;rt alt. Jeg m&#x00E5; sige dig det straks, at f&#x00F8;rer du den krig fr&#x00E6;m, da g&#x00E5;r jeg rundt og fort&#x00E6;ller, hvorfor fr&#x00F8;ken Riis slog op med mig. &#x2013; Jeg fort&#x00E6;ller det, som det er. &#x2013; &#x2013; Ja, det nytter ikke at se s&#x00E5; spotsk p&#x00E5; mig. For jeg g&#x00F8;r det. Jeg begynner straks.</p>
+</sp>
+<sp>
+<speaker>Christensen.</speaker>
+<p>Jeg tror, du kan spare dig det. Efter et opslag kommer vist dit rygte fortere rundt byen &#x00E6;n du.</p>
+</sp>
+<sp>
+<speaker>Nordan</speaker>
+<stage>(g&#x00E5;r hen til <hi rend="bold">Alf</hi>).</stage>
+<p>Kort og godt, Alf: &#x2013; elsker du henne &#x00E6;nnu?</p>
+</sp>
+<sp>
+<speaker>Alf.</speaker>
+<p>Du sp&#x00F8;r, fordi hun har gjort mig uret? Men nu v&#x00E9;t jeg jo, hvorfor hun kom til det &#x2013; og <hi rend="italic">m&#x00E5;tte</hi> komme til det. Nu forst&#x00E5;r jeg!</p>
+</sp>
+<sp>
+<speaker>Christensen.</speaker>
+<p>Og tilgir henne? Uten videre?</p>
+</sp>
+<sp>
+<speaker>Alf.</speaker>
+<p>Jeg elsker henne h&#x00F8;jere &#x00E6;n nogensinne, &#x2013; hvad hun s&#x00E5; t&#x00E6;nker om mig.</p>
+</sp>
+<sp>
+<speaker>Christensen.</speaker>
+<p>Se s&#x00E5;! Se s&#x00E5;!</p>
+<p>Ja, hvad er det s&#x00E5; mere? Du tar din ret til at spille elskerens rolle &#x2013; og overlader os andre skikkelige folk at g&#x00F8;re gode miner til dit slette spil.</p>
+<p>Du g&#x00E5;r vel straks over og takker for ig&#x00E5;r? B&#x00E9;r om henstand til imorgen? Mens du i al s&#x00F8;mmelig hast g&#x00E5;r igennem et <hi rend="italic">purgatorium</hi>? T&#x00F8;r jeg sp&#x00F8;rge, hvor det ligger henne, og hvori det skal best&#x00E5;?</p>
+<p>N&#x00E5;, n&#x00E5;; ikke s&#x00E5; melodramatisk! N&#x00E5;r du t&#x00E5;ler, hvad du fik af Riis&#x0027;s lille pige ig&#x00E5;r og af hennes mor idag, s&#x00E5; m&#x00E5; du sagtens kunne t&#x00E5;le harm og spot af din far. Jeg har f&#x00E5;t t&#x00E5;le hele forlovelsen, jeg, og opslaget med! Og at bespr&#x00E6;nges med moral-vand ogs&#x00E5;! Fy for pokker! Jeg vil h&#x00E5;be, det &#x00E6;nnu ikke lugter af mig, n&#x00E5;r jeg kommer op p&#x00E5; slottet. 			<stage>(Han g&#x00E5;r, men vender sig ved d&#x00F8;ren.)</stage></p>
+<p>Der vil v&#x00E6;re rejse-penger til dig p&#x00E5; kontoret.</p>
+</sp>
+<stage>(g&#x00E5;r.)</stage>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Skulde dette betyde lands-forvisning?</p>
+</sp>
+<sp>
+<speaker>Alf.</speaker>
+<p>Naturligvis.</p>
+</sp>
+<stage>(Han er i stort opr&#x00F8;r.)</stage>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Doktor, nu m&#x00E5; De f&#x00F8;lge mig over! Og det straks!</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Hvorledes har hun det?</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Jeg v&#x00E9;t ikke.</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>De v&#x00E9;t ikke?</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Ig&#x00E5;r vilde hun v&#x00E6;re alene. Og idag gik hun tidlig ut.</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>S&#x00E5; er der h&#x00E6;ndt noget?</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Ja. De sa&#x0027; mig ig&#x00E5;r, at De havde git henne et vink om &#x2013; hennes far?</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Og s&#x00E5; &#x2013;?</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>S&#x00E5; f&#x00F8;lte jeg, at nu kunde der ikke ties l&#x00E6;ngre.</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Og De har &#x2026; ?</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Jeg har skrevet til henne.</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Skrevet?</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Det falt mig naturligst. S&#x00E5; slap vi at tale om det. Jeg har skrevet, str&#x00F8;ket ut &#x2013; og skrevet! I hele g&#x00E5;r eftermiddag og inat. Skrevet. Det blev ikke langt; men det tok p&#x00E5;.</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Og hun har f&#x00E5;t det?</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Idag, da hun havde spist og gik ut, sendte jeg det efter henne.</p>
+<p>Og nu, min v&#x00E6;n, nu vilde jeg g&#x00E6;rne, <hi rend="italic">De</hi> skulde tale med henne! S&#x00E5; siger De mig til, n&#x00E5;r jeg kan komme. Ti jeg er r&#x00E6;d!</p>
+</sp>
+<stage>(Hun d&#x00E6;kker sit &#x00E5;syn.)</stage>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Jeg s&#x00E5;, straks De kom, at der havde h&#x00E6;ndt noget stort. Og s&#x00E5; var De s&#x00E5; h&#x00E6;ftig. &#x2013; Ja, dette har tat v&#x00E6;kst! Du store gud!</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>De skulde ikke rejse, doktor! Ikke rejse fra henne nu!</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Se, <hi rend="italic">det</hi> var det! Tomas! &#x2013;</p>
+</sp>
+<sp>
+<speaker>Tjeneren.</speaker>
+<p>Ja! Ja!</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Du beh&#x00F8;ver ikke at pakke.</p>
+</sp>
+<sp>
+<speaker>Tjeneren.</speaker>
+<p>Ikke at pakke? &#x2013; V&#x00E6;rs&#x0027;go&#x0027;!</p>
+</sp>
+<stage>(gir ham hans stok.)</stage>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Deres arm, frue!</p>
+</sp>
+<stage>(<hi rend="bold">Tjeneren</hi> &#x00E5;pner for dem.)</stage>
+<sp>
+<speaker>Alf</speaker>
+<stage>(tr&#x00E6;der n&#x00E6;r).</stage>
+<p>Frue! &#x2013; M&#x00E5; jeg f&#x00E5; tale med henne?</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Tale med henne! &#x2013; Nej, det er umuligt.</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Du h&#x00F8;rte selv, hvad hun har f&#x00E5;t at t&#x00E6;nke p&#x00E5; idag.</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Og vilde hun ikke tale med Dem f&#x00F8;r, s&#x00E5; vil hun det vist ikke nu.</p>
+</sp>
+<sp>
+<speaker>Alf.</speaker>
+<p>N&#x00E5;r hun b&#x00E9;r om at f&#x00E5; tale med mig, vil De da sige henne, at jeg er her? Og jeg blir her, til hun b&#x00E9;r om det.</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Men hvad skal det nytte til?</p>
+</sp>
+<sp>
+<speaker>Alf.</speaker>
+<p>Ja, det f&#x00E5;r bli vor sak. Jeg v&#x00E9;t, hun ogs&#x00E5; vil tale med mig. &#x2013; Sig bare, jeg er her! Det er det hele.</p>
+</sp>
+<stage>(g&#x00E5;r videre fr&#x00E6;m i haven, s&#x00E5; han ikke ses.)</stage>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Han v&#x00E9;t ikke, hvad han selv siger.</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>K&#x00E6;re doktor, lad os komme afsted. Jeg er s&#x00E5; r&#x00E6;d.</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Ja, jeg er det ikke mindre. &#x2013; S&#x00E5; nu v&#x00E9;t hun det!</p>
+</sp>
+<stage>(de g&#x00E5;r.)</stage>
+</div>
+</div>
+<div type="chapter" subtype="act" n="4">
+<head type="main">SCENE-&#x00C6;NDRING</head>
+<stage><p rend="center">Samme rum som i f&#x00F8;rste og annen handling.</p></stage>
+<lb/>
+<div type="chapter" subtype="scene" n="4_1">
+<head type="sub">F&#x00F8;rste m&#x00F8;te</head>
+<stage>Svava. Nordan.</stage>
+<stage>(<hi rend="bold">Svava</hi> kommer langsomt in, ser sig om, g&#x00E5;r utenfor d&#x00F8;ren og ser sig om der; in igen. Da hun s&#x00E5; vender sig, st&#x00E5;r <hi rend="bold">Nordan</hi> i d&#x00F8;ren.)</stage>
+<sp>
+<speaker>Svava.</speaker>
+<p>Er <hi rend="italic">du</hi> der? &#x2013; &#x2013; &#x00C5;, onkel Nordan!</p>
+</sp>
+<stage>(hun hulker.)</stage>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Mit barn! Mit k&#x00E6;re barn! Fat dig nu!</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Men har du ikke set mor? De sa&#x0027;, hun var g&#x00E5;t over til dig?</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Jo, hun kommer straks. &#x2013; Men v&#x00E9;t du hvad? Vi to skulde nu g&#x00E5; en lang tur sammen i stedet for at tale med mor eller med nogen? En lang, stille tur? Hvad?</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Jeg kan ikke det.</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Hvorfor?</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Fordi jeg m&#x00E5; bli f&#x00E6;rdig.</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Hvad mener du med det?</p>
+</sp>
+<sp>
+<speaker>Svava</speaker>
+<stage>(uten at &#x00E6;nse hans sp&#x00F8;rsm&#x00E5;l).</stage>
+<p>Du &#x2013;?</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Ja?</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>V&#x00E9;t Alf dette? &#x2013; &#x2013; Visste Alf det ogs&#x00E5;?</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Ja.</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Naturligvis alle sammen undtagen jeg. &#x00C5;, &#x2013; jeg har slik trang til at gemme mig v&#x00E6;k; gemme mig v&#x00E6;k! Og det vil jeg ogs&#x00E5;.</p>
+<p>Nu ser jeg f&#x00F8;rst hvorledes det er! Her er et helt b&#x00E6;rg, som jeg har sat to h&#x00E6;nder p&#x00E5; og villet skyve v&#x00E6;k. Og s&#x00E5; har de st&#x00E5;t rund mig og led. Naturligvis.</p>
+<p>Men lad mig f&#x00E5; tale med Alf!</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Med Alf?</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Jeg bar mig jo s&#x00E5; urigtig ad ig&#x00E5;r. Jeg skulde aldrig ha g&#x00E5;t in. Men du kom og tok mig s&#x00E5; bestemt. Jeg visste n&#x00E6;sten ikke, at jeg fulgte.</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Det var alts&#x00E5; det med din far, &#x2013; det, jeg havde sagt om din far, &#x2013; som &#x2026;</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Jeg forstod det ikke straks. Men da jeg kom alene!</p>
+<p>Mors besynderlige uro, fars trusel om at forlade landet, alle slags ytringer, tegn &#x2026; mange, mange ting, som jeg ikke havde forst&#x00E5;t, ja, ikke engang husket &#x2026; <hi rend="italic">da kom de</hi>!</p>
+<p>Jeg viste det fra mig, og det kom igen. &#x2013; Det kom igen, og det kom igen! &#x2026; Og s&#x00E5; blev jeg som lamsl&#x00E5;t. &#x2013; Da du tok mig ved armen og sa&#x0027;: nu <hi rend="italic">m&#x00E5;</hi> du in! da kunde jeg n&#x00E6;sten ikke t&#x00E6;nke. Det gik rundt.</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Ja, jeg bar mig ad som en stor tull &#x2013; f&#x00F8;rste gang og annen gang.</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Nej, det var bra! Bare bra!</p>
+<p>Det kom jo galt; det er sant. Jeg m&#x00E5; tale med Alf; for det skal ikke st&#x00E5; s&#x00E5;.</p>
+<p>Men ellers var det bra! Nu g&#x00E6;ller det at bli f&#x00E6;rdig.</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Hvad mener du med det?</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Hvor er mor?</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>K&#x00E6;re min pige, du skulde ikke foreta&#x0027; dig noget idag. Helst ikke tale med nogen! G&#x00F8;r du det, &#x2013; ja, da v&#x00E9;t jeg ikke, hvad som kan h&#x00E6;nde.</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Men jeg v&#x00E9;t det. &#x2013; Ja, det nytter dig ikke! &#x2013; Du tror, jeg er bare nerv&#x00F8;sitet idag. Og det er jeg ogs&#x00E5;. Men siger du mig imot, blir det bare v&#x00E6;rre.</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Jeg siger dig jo heller ikke imot; jeg bare &#x2026;</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Ja, ja, ja! &#x2013; Hvor er dog mor? &#x2013; Og Alf m&#x00E5; <hi rend="italic">du</hi> f&#x00E5; hit! Jeg kan jo ikke g&#x00E5; til ham, &#x2013; hvad? Eller tror du, han er for stolt til at komme hit efter det ig&#x00E5;r? &#x00C5;-nej, han er ikke det, Alf? Sig ham, han m&#x00E5; ikke v&#x00E6;re stolt mot en, som er s&#x00E5; ydmyget.</p>
+</sp>
+<stage>(gr&#x00E5;ter.)</stage>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Men er du ogs&#x00E5; i stand til &#x2013;?</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Du v&#x00E9;t ikke, hvad jeg er i stand til, du! Men jeg m&#x00E5; bli f&#x00E6;rdig snart. For dette har nu st&#x00E5;t l&#x00E6;nge p&#x00E5;.</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Jeg skal alts&#x00E5; be&#x0027; din mor &#x2013;?</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Ja! &#x2013; Og Alf &#x2013;?</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Om en stund, ja. &#x2013; Og dersom du &#x2026;</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Nei, ikke noget &#x00AB;dersom&#x00BB;!</p>
+</sp>
+<sp>
+<speaker>Nordan.</speaker>
+<p>Og dersom du tr&#x00E6;nger til mig, s&#x00E5; rejser jeg ikke, f&#x00F8;r du er &#x00AB;f&#x00E6;rdig&#x00BB; som du siger.</p>
+</sp>
+<stage>(<hi rend="bold">Svava</hi> hen til ham og omfavner ham. Han g&#x00E5;r.)</stage>
+</div>
+<div type="chapter" subtype="scene" n="3_2">
+<head type="sub">Annet m&#x00F8;te</head>
+<stage><hi rend="bold">Svava</hi>. (Om lit kommer) <hi rend="bold">Fru Riis</hi>.</stage>
+<sp>
+<speaker>Fru Riis</speaker>
+<stage>(gaar imot datteren).</stage>
+<p>Mit barn!</p>
+</sp>
+<stage>(stanser.)</stage>
+<sp>
+<speaker>Svava.</speaker>
+<p>Ja, mor; jeg kan ikke gaa mot dig. Jeg sk&#x00E6;lver ogs&#x00E5; over hele mit legeme.</p>
+<p>Og du v&#x00E9;t ikke, hvad det er? Det er ikke g&#x00E5;t op for dig, at du ikke kan behandle mig s&#x00E5;ledes?</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Behandle dig, Svava?</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Gud, mor! At du lar mig leve her dag ut dag in, &#x00E5;r ut, &#x00E5;r in &#x2013; uten at la&#x0027; mig vite, hvad jeg lever sammen med? Lar mig forkynne de str&#x00E6;ngeste gruns&#x00E6;tninger fra et hus som vort? Hvad vil man sige om os, n&#x00E5;r nu alt blir k&#x00E6;nt?</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Du vilde da vel ikke, jeg skulde sige mit barn, at &#x2026;</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>&#x2026; ikke sige mig det, mens jeg var barn! Men da jeg blev voksen? Jo! under enhv&#x00E6;r betingelse! Jeg m&#x00E5; da f&#x00E5; v&#x00E6;lge, om jeg vil leve hjemme i slikt eller ej! Jeg m&#x00E5; da f&#x00E5; vite, hvad alle folk v&#x00E9;t, &#x2013; eller hvad de n&#x00E5;r som helst kan f&#x00E5; vite.</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Dette har jeg aldrig t&#x00E6;nkt s&#x00E5;ledes.</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Aldrig t&#x00E6;nkt s&#x00E5;ledes? Mor!</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Aldrig! &#x2013; For at sk&#x00E5;ne dig, for at ha fred over vort hjem, mens du var barn, og siden over dine studier, dine interesser og gl&#x00E6;der, Svava, &#x2013; for du er jo ikke som andre! &#x2013; har jeg v&#x00E5;ket til det utrolige over, at du intet fik vite! Jeg trodde, det var min pligt! Du har ingen anelse om, hvad jeg har nedladt mig til &#x2013; for din skyld, barn!</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Men det har du ingen ret til, mor!</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Ingen ret til &#x2013;?</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Nej! Nedv&#x00E6;rdiger du dig for min skyld, s&#x00E5; nedv&#x00E6;rdiger du jo ogs&#x00E5; mig!</p>
+</sp>
+<sp>
+<speaker>Fru Riis</speaker>
+<stage>(bev&#x00E6;get).</stage>
+<p>Men gud, Svava &#x2013;!</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Ja, jeg bebrejder dig ikke noget, mor! &#x2013; Nej ikke for alt i v&#x00E6;rden! K&#x00E6;re mor! &#x2013; Jeg er bare s&#x00E5; uendelig bedr&#x00F8;vet og forf&#x00E6;rdet over dig, &#x2013; at du kunde g&#x00E5; med en slik hemmelighed! Alts&#x00E5; aldrig et &#x00F8;jeblik v&#x00E6;re rigtig dig selv mod mig! Bestandig skjult! Nej, at du kunde h&#x00F8;re mig rose, hvad som ikke var ros v&#x00E6;rd; du kunde se mig ha tillid, se mig k&#x00E6;rtegne &#x2026; mor, mor, mor!</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Ja, jeg har f&#x00F8;lt det selv! Ja, ja! Tusene ganger! Men jeg trodde, jeg turde ikke! Det var galt &#x2013; &#x00E5;, galt! Jeg forst&#x00E5;r det.</p>
+<p>Men vilde du, at jeg skulde g&#x00E5;t min vej, straks jeg selv fik vite det?</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Det t&#x00F8;r jeg ikke sige. Du har selv afgjort det. Enhv&#x00E6;r f&#x00E5;r afg&#x00F8;re det, &#x2013; eftersom hun har k&#x00E6;rlighed og kr&#x00E6;fter til.</p>
+<p>Men da det varede ved, til jeg blev voksen &#x2013;!</p>
+<p>Naturligvis var det derfor, jeg atter tok fejl. Ti jeg var jo blet opdraget til at ta&#x0027; fejl.</p>
+</sp>
+<stage>(<hi rend="bold">Riis</hi> h&#x00F8;res nynne fra venstre.)</stage>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Gud i himmelen, der er han!</p>
+</sp>
+<stage>(<hi rend="bold">Riis</hi> ses i det samme foran vinduet til venstre. Men ved d&#x00F8;ren stanser han, og med et: &#x00AB;Det er sant!&#x00BB; vender han og g&#x00E5;r hurtig ut.)</stage>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Du blev rent forvandlet, barn! Du gj&#x00F8;r mig bange, Svava! Du vil da vel ikke &#x2013;?</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Men hvad har du da t&#x00E6;nkt dig, mor?</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>At jeg har t&#x00E5;lt s&#x00E5; meget for din skyld, s&#x00E5; at du m&#x00E5; kunne t&#x00E5;le lit for min.</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Af dette? Aldrig det minste!</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Men hvad vil du da?</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Naturligvis straks g&#x00E5; herifra.</p>
+</sp>
+<sp>
+<speaker>Fru Riis</speaker>
+<stage>(gir et skrik).</stage>
+<p>&#x2013; &#x2013; S&#x00E5; g&#x00E5;r jeg med!</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Du? Fra far?!</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Det er for din skyld, jeg har blet hos ham. Uten dig ikke en dag! &#x2013; &#x2013;</p>
+<p><hi rend="italic">Du vil ikke ha mig med?</hi>!</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>K&#x00E6;re mor! &#x2013; Jeg m&#x00E5; f&#x00E5; v&#x00E6;nne mig til dette ny. Ogs&#x00E5; du er jo blet ny. Jeg har jo ogs&#x00E5; tat fejl af dig. Jeg m&#x00E5; f&#x00E5; v&#x00E6;nne mig til det. &#x2013; Jeg m&#x00E5; f&#x00E5; v&#x00E6;re alene. &#x2013; Ja, bliv nu ikke s&#x00E5; ulykkelig!</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Dette til slut! &#x00C5;, gud, dette til slut!</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>K&#x00E6;re mor! Jeg kan ikke annet. Jeg g&#x00E5;r nu ut til mine barnehjem og ofrer mig helt for dem. Jeg m&#x00E5;, jeg m&#x00E5;! F&#x00E5;r jeg ikke v&#x00E6;re alene, s&#x00E5; rejser jeg l&#x00E6;nger bort.</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Dette er det v&#x00E6;rste af alt sammen. Dette er det v&#x00E6;rste. &#x2013; Der h&#x00F8;rer jeg &#x2013;? Jo, det er han! Ikke sig noget nu! &#x2013; For min skyld ikke noget nu; jeg kan ikke mere! Ikke p&#x00E5; &#x00E9;n gang! &#x2013; Pr&#x00F8;v at v&#x00E6;re v&#x00E6;nlig! Svava! H&#x00F8;rer du!</p>
+</sp>
+<stage>(<hi rend="bold">Riis</hi> kommer nynnende igjen, denne gang med en ytter-frakke p&#x00E5; armen.) (<hi rend="bold">Svava</hi> iler fr&#x00E6;m, og efter lit usikkerhed s&#x00E6;tter hun sig til venstre med ryggen halvt mot h&#x00F8;jre og halvt mot bak-grunnen. Hun s&#x00F8;ker ivrig noget at ta&#x0027; sig for).</stage>
+</div>
+<div type="chapter" subtype="scene" n="4_3">
+<head type="sub">Tredje m&#x00F8;te</head>
+<stage><hi rend="bold">Svava</hi>. <hi rend="bold">Fru Riis</hi>. <hi rend="bold">Riis</hi>. (Senere) <hi rend="bold">Alf</hi>.</stage>
+<sp>
+<speaker>Riis</speaker>
+<stage>(l&#x00E6;gger frakken fra sig. Han er i fest-dragt og b&#x00E6;rer st. Olavs-ordenen).</stage>
+<p>God morgen mine damer! God morgen!</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>God morgen!</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>F&#x00F8;rste store nyhed: Hvem k&#x00F8;rte mig fra slottet! Christensen!</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Virkelig?</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Ja! Den vrede gud fra ig&#x00E5;r! Ja! &#x2013; Han og min bror general-direkt&#x00F8;ren. Oppe paa slottet var jeg den f&#x00F8;rste, han hilste p&#x00E5;, da han kom. Han presenterte mig, konverserte mig &#x2013; rent p&#x00E5; utstilling!</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Jas&#x00E5;!</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Der er selvf&#x00F8;lgelig intet h&#x00E6;ndt her ig&#x00E5;r! Ingen hanske er kastet nogensteds i verden, &#x00E6;n sige i ansigtet p&#x00E5; hans f&#x00F8;rstef&#x00F8;dte! Christensen, den &#x00E6;rv&#x00E6;rdige kommand&#x00F8;r af dags dato, f&#x00F8;ler behov til fred! Vi endte med at drikke champagne hos min bror.</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Det var jo morsomt!</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Alts&#x00E5;: godt hum&#x00F8;r, mine damer! Her er ingen ting h&#x00E6;ndt! Absolut ingen ting! Vi begynner rent og fint p&#x00E5; en ren og fin duk, hvorp&#x00E5; der aldrig er spilt en dr&#x00E5;pe! &#x2013;</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Det var jo heldigt!</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Ja, ikke sant? Denne vor datters noget st&#x00E6;rke utladning har lettet hendes eget sind, rensket de andres begreber, &#x2013; luften er behagelig let, for ikke at sige frugtbar.</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Og p&#x00E5; slottet? Hvorledes var det der?</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Ja, du &#x2026; n&#x00E5;r jeg s&#x00E5; mig om blant alle os nybakte, s&#x00E5; kan jeg jo ikke glat v&#x00E6;k sige, at det er dyden, som bel&#x00F8;nnes her i v&#x00E6;rden.</p>
+<p>Man presenterte os allikevel et gruelig h&#x00F8;jtideligt opr&#x00E5;b. Der var noget, vi skulde redde &#x2026; jeg tror s&#x00E5;gu&#x0027; det var staten? &#x2026; eller det var kirken? &#x2026; ja, det v&#x00E9;t jeg ikke; for jeg l&#x00E6;ste det ikke. De skrev under alle sammen!</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Du ogs&#x00E5;?</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Jeg ogs&#x00E5;! Hvorfor skal man ikke v&#x00E6;re med i s&#x00E5; godt selskab? Deroppe p&#x00E5; h&#x00F8;jden af livet f&#x00E5;r man et gladere, et friere syn p&#x00E5; tilv&#x00E6;relsen! Al v&#x00E6;rden deroppe var v&#x00E6;nner! Man kom hen og gratulerte mig &#x2013;, jeg visste til sist ikke, om det var p&#x00E5; min datters vegne eller p&#x00E5; mine egne; heller ikke visste jeg, at jeg havde s&#x00E5; mange v&#x00E6;nner her i byen, &#x00E6;n sige ved hoffet! Men i s&#x00E5; str&#x00E5;lende selskab og i en luft af ros og komplimenter og elskv&#x00E6;rdighed tar man det ikke n&#x00F8;je med nogen ting! Og s&#x00E5; manfolk, bare manfolk! Der er dog &#x2013; om forladelse, mine damer! &#x2013; undertiden en egen charme ved at v&#x00E6;re blant bare manfolk, fest-stemte manfolk. Konversationen blir mere krydret, faktisk, robust; latteren livligere. Man forst&#x00E5;r hv&#x00E6;randre, n&#x00E6;sten f&#x00F8;r man snakker.</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Du er nok rigtig glad idag?</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Ja, det v&#x00E9;t gud, jeg er! Og jeg vilde s&#x00E5; g&#x00E6;rne, alle m&#x00E6;nnesker skulde v&#x00E6;re det! Livet kunde kanske v&#x00E6;re meget bedre; men set s&#x00E5;dan fra h&#x00F8;jden kunde det ogs&#x00E5; v&#x00E6;re meget v&#x00E6;rre. Og hvad os manfolk ang&#x00E5;r, s&#x00E5; har jo ogs&#x00E5; vi vore fejl; men vi er i grunnen ganske morsomme. Det blev, skam, kedeligt uten os.</p>
+<p>Lad os ta&#x0027; livet, som det er, min k&#x00E6;re, s&#x00F8;te Svava!</p>
+<stage>(Han n&#x00E6;rmer sig henne. Hun rejser sig.)</stage>
+<p>Hvad er dette? Er du &#x00E6;nda i d&#x00E5;rligt hum&#x00F8;r? N&#x00E5;r du har f&#x00E5;t fiket ham op med din egen hanske, og det i fult familje-r&#x00E5;d? Kan du med billighed forlange mere af livet? Jeg synes, du skulde stor-le, jeg! &#x2013; &#x2013; Eller st&#x00E5;r noget p&#x00E5;? Hvad? Nej, hvad er det nu igjen?</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Det er &#x2013;</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Det er &#x2013;?</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Jo, det er &#x2026; at om et &#x00F8;jeblik kommer Alf.</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Hit? Alf? Om et &#x00F8;jeblik? Hurra! S&#x00E5; kan jeg forst&#x00E5;!</p>
+<p>Men hvorfor sa&#x0027; I mig ikke det straks?</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Du har talt den hele tid siden du kom in.</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Det har jeg vist ogs&#x00E5;, ja!</p>
+<p>Ja, om <hi rend="italic">du</hi> tar det alvorlig, k&#x00E6;re Svava, s&#x00E5; tillader du vel din &#x00AB;ridderlige&#x00BB; papa at ta&#x0027; det muntert? For mig morer det ganske overordentlig. Jeg blev i godt hum&#x00F8;r straks idag, bare jeg s&#x00E5; p&#x00E5; Christensen, at ingen ting var i vejen.</p>
+<p>S&#x00E5; Alf kommer her om et &#x00F8;jeblik? Da forst&#x00E5;r jeg det hele! Hurra, &#x00E9;n gang til! H&#x00F8;r, det er dog det pr&#x00E6;gtigste af alt, som &#x00E6;nnu er h&#x00E6;ndt idag! Jeg tror sannelig, jeg vil spille en fest-ouverture til hans komme!</p>
+</sp>
+<stage>(G&#x00E5;r syngende mot pianoet.)</stage>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>&#x00C5;-nej! Riis! H&#x00F8;rer du! &#x00C5;-nej!</p>
+</sp>
+<stage>(<hi rend="bold">Riis</hi> spiller og h&#x00F8;rer intet. <hi rend="bold">Fru Riis</hi> g&#x00E5;r op og stanser ham, idet hun viser p&#x00E5; Svava.)</stage>
+<sp>
+<speaker>Svava.</speaker>
+<p>Lad ham spille! K&#x00E6;re, lad ham bare spille! Denne uskyldige lystighed, som jeg har beundret, fra jeg var barn! &#x2026; <stage>(brister i gr&#x00E5;t, men henter sig igjen.)</stage> Afskyligt! Forf&#x00E6;rdeligt!</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Du ser ut, som du har lyst til at kaste med hansker idag ogs&#x00E5;, du. Det har slet ikke g&#x00E5;t over.</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Nej, det har ikke det!</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Her skal du f&#x00E5; l&#x00E5;ne mine, hvis du ikke selv &#x2026;</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Riis! &#x2013; Ikke det!</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Jo, det ogs&#x00E5;! &#x2013; K&#x00E6;re, lad ham h&#x00E5;ne os! &#x2013; Den, som har hans s&#x00E6;delige alvor, b&#x00F8;r h&#x00E5;ne os!</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Hvad mener du med det? Er det mangel p&#x00E5; s&#x00E6;deligt alvor, at jeg ikke sv&#x00E6;rmer for gamle jomfruer og sur dyd?</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Far! Du er &#x2013;</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Svava, dog!</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Nej, lad henne tale ut! Det er noget splitter nyt at se en velopdragen pige kaste hansker i ansigtet p&#x00E5; sin forlovede og sigtelser i ansigtet p&#x00E5; sin far! &#x2013; Is&#x00E6;r, at det sker for moralens skyld!</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Tal ikke om moral! Eller tal til mrs. North om den!</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Mrs. &#x2026; Mrs. &#x2026;s? Hvad har hun med &#x2013;?</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>&#x2013; &#x2013; Ti stille! &#x2013; Jeg v&#x00E9;t alt! Du har &#x2026;</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Svava!</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Det er sant &#x2026; for mors skyld ikke videre!</p>
+<p>Men da jeg ig&#x00E5;r kastede hansken, som du taler s&#x00E5; meget om, da visste jeg det. Det var derfor! Det var mot alt slikt, mot begynnelsen og forts&#x00E6;ttelsen, mot ham og mot dig! Da forstod jeg din hellige iver i denne sak og din moralske forargelse, som du lot mor h&#x00F8;re og se p&#x00E5;!</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Svava!</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>&#x00C5;, din hensynsfulhed, din h&#x00F8;flighed mot mor, som jeg ogs&#x00E5; s&#x00E5; ofte har beundret! Din sp&#x00F8;k, dit gode hum&#x00F8;r, din elegance, &#x2013; nu f&#x00F8;rst v&#x00E9;t jeg, hvad det bet&#x00F8;d! &#x00C5;! Nej, jeg kan ikke mere tro p&#x00E5; nogen ting! Det er forf&#x00E6;rdeligt, forf&#x00E6;rdeligt!</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Men, Svava!</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Hele livet er blet urent for mig! Det beste, det k&#x00E6;reste er jo blet sort. Jeg f&#x00F8;ler det derfor ogs&#x00E5; siden ig&#x00E5;r, som om jeg var kastet ut. Og det er jeg jo ogs&#x00E5; fra alt det, jeg holdt af og satte h&#x00F8;jt, uten at jeg selv har den ringeste skyld i det.</p>
+<p>Og allikevel er det ikke sm&#x00E6;rte, det, jeg f&#x00F8;ler mest af; nej, det er ydmygelse, det er skam. Alt, jeg har g&#x00E5;t og sagt, er jo nu blet til store ord, &#x2013; og det, jeg har gjort i min egen sak, ogs&#x00E5; til store ord &#x2026; og det uten at det er min skyld! For det er <hi rend="italic">din</hi> skyld!</p>
+<p>Jeg trodde, jeg visste noget om livet f&#x00F8;r ogs&#x00E5;. Nej; jeg skulde nok f&#x00E5; vite mere! Det er vel, forat jeg skal b&#x00F8;je mig <hi rend="italic">s&#x00E5;</hi> vidt, at jeg tilsist passer i det. Nu f&#x00F8;rst er det mig klart, hvad du gik her og l&#x00E6;rte mig &#x2013; og tok mor og gud til vidne p&#x00E5;! Men det skal ikke nytte!</p>
+<p>Jeg siger, det er meget, at en kan holde ut, hvad jeg har t&#x00E6;nkt ig&#x00E5;r, inat, idag. Men s&#x00E5; er det &#x00E9;n gang for alle ganger; ti siden kan aldrig noget mere overraske!</p>
+<p>&#x00C5;, at en man har hj&#x00E6;rte til at la&#x0027; sit barn opleve slikt!</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Se p&#x00E5; din far!</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Ja, &#x2013; synes du, det er sv&#x00E6;rt hvad jeg siger dig, s&#x00E5; husk, hvad jeg f&#x00F8;r har sagt dig! Ikke l&#x00E6;nger siden &#x00E6;n her ig&#x00E5;r formiddag. Da har du m&#x00E5;l for, hvor jeg har trod p&#x00E5; dig, far &#x2026; og deraf ogs&#x00E5; for, hvad jeg nu k&#x00E6;nner <hi rend="italic">her</hi>! &#x2013; &#x00C5; &#x2013;!</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Svava!</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Du har ruineret hjemmet for mig! N&#x00E6;sten annen hv&#x00E6;r stund i det er blet ford&#x00E6;rvet. Og jeg kan ikke t&#x00E6;nke mig det i en fr&#x00E6;mtid heller.</p>
+</sp>
+<sp>
+<speaker>Riis og Fru Riis.</speaker>
+<p>Men, Svava!?</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Nej, jeg kan ikke! Trygheden er borte. Og da er der ikke mere noget hjem. S&#x00E5; er det bare at bo til leje, da. Siden ig&#x00E5;r bor jeg til leje.</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Sig ikke det! Mit barn!</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Ja, jeg er dit barn. Bare du siger det som nu, k&#x00E6;nner jeg det dypt. Alt det, vi har levet sammen, vi to! Alt det morsomme p&#x00E5; vore rejser; alt det, vi har l&#x00E6;st sammen, spillet sammen, &#x2026; det kan ikke huskes, og det kan ikke tages op igen! Derfor kan jeg heller ikke bli her.</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Du kan ikke bli her?!</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Det vil minne mig s&#x00E5; s&#x00E5;rt. Alt er jo nu forvr&#x00E6;ngt.</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Du skal se, du kan ikke g&#x00E5; heller!</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Men &#x2013; <hi rend="italic">jeg</hi> kan g&#x00E5;!</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Du?</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Og mor og du blir her? &#x2013; Men, Svava? &#x2013;</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Nej, det tar jeg ikke imot! &#x2013; komme, hvad der vil &#x2013;</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Sig ikke mere! Svava, jeg b&#x00E9;r! G&#x00F8;r mig ikke altfor, altfor ulykkelig! Husk, at jeg aldrig f&#x00F8;r idag &#x2026; Aldrig har t&#x00E6;nkt at gj&#x00F8;re dig &#x2026; Kan du ikke mere holde mig ut, &#x2026; kan du ikke det, &#x2026; s&#x00E5; lad mig f&#x00E5; rejse! Det er jo jeg, &#x2026; som er den skyldige. H&#x00F8;rer du, Svava! Jeg, ikke I! I m&#x00E5; bli her!</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Gud, der er Alf!</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>Alf!</p>
+</sp>
+<stage>(Stilhed.)</stage>
+<sp>
+<speaker>Alf</speaker>
+<stage>(stanser i d&#x00F8;ren. Stilhed).</stage>
+<p>Jeg skal m&#x00E5;ske g&#x00E5; igen &#x2013;?</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>G&#x00E5; igen? &#x2013; &#x2013; G&#x00E5; igen, siger De? &#x2013; &#x2013; Nej, p&#x00E5; ingen m&#x00E5;te! Nej! &#x2013; Nej, det kunde ikke v&#x00E6;re belejligere! Nej, det kunde virkelig ikke! Min v&#x00E6;n; min k&#x00E6;re v&#x00E6;n! Tak!</p>
+</sp>
+<sp>
+<speaker>Fru Riis</speaker>
+<stage>(til Svava).</stage>
+<p>Vil du v&#x00E6;re alene &#x2013;?</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Nej, nej, nej!</p>
+</sp>
+<sp>
+<speaker>Riis.</speaker>
+<p>De vil tale med Svava &#x2013; ja?</p>
+<p>Jeg holder det for rigtigst, at jeg s&#x00E5; drar mig tilbake. I b&#x00F8;r jo nu f&#x00E5; tale frit ut. V&#x00E6;re alene. Naturligvis, ja! De tillader alts&#x00E5;, at jeg fj&#x00E6;rner mig? Ikke sant? Jeg har ogs&#x00E5; et h&#x00F8;jst vigtigt &#x00E6;rende in til byen. Undskyld! Jeg skal g&#x00F8;re en smule omkl&#x00E6;dning i al hast. Undskyld!</p>
+</sp>
+<stage>(In i sit kammer.)</stage>
+<sp>
+<speaker>Alf.</speaker>
+<p>Jeg kan naturligvis komme en annen gang.</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Men De &#x00F8;nsker vist g&#x00E6;rne en samtale nu straks?</p>
+</sp>
+<sp>
+<speaker>Alf.</speaker>
+<p>Her skal ikke v&#x00E6;re sp&#x00F8;rsm&#x00E5;l om, hvad jeg &#x00F8;nsker. Jeg ser det &#x2013; og jeg h&#x00F8;rte doktor Nordan sige det &#x2013;, at fr&#x00F8;kenen er anstr&#x00E6;ngt. Men jeg holdt det allikevel for pligt at melde mig.</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Og jeg takker Dem for det! Det er mere, &#x2013; meget mere, &#x00E6;n jeg har fortjent. Men jeg vil ogs&#x00E5; sige Dem det straks, at det ig&#x00E5;r &#x2013; jeg mener formen for det ig&#x00E5;r &#x2013;, det kom af, at jeg en stund i forvejen havde f&#x00E5;t vite noget, som jeg aldrig havde visst f&#x00F8;r. Og det blandede sig in.</p>
+</sp>
+<stage>(Hun kan ikke skjule sin bev&#x00E6;gelse.)</stage>
+<sp>
+<speaker>Alf.</speaker>
+<p>Jeg visste, at det ig&#x00E5;r &#x2013; det angrede De idag. De er s&#x00E5; god. Og det var mit eneste h&#x00E5;b om at f&#x00E5; se Dem igen.</p>
+</sp>
+<sp>
+<speaker>Riis</speaker>
+<stage>(kommer delvis omkl&#x00E6;dt ut fra sit rum).</stage>
+<p>Er der nogen, som har et &#x00E6;rende in til byen? S&#x00E5; skal jeg bes&#x00F8;rge det, &#x2013; ja? Jeg har t&#x00E6;nkt mig, at damerne kanske nu vilde g&#x00F8;re en l&#x00E6;ngre eller kortere utenlands-rejse? Hvad siger I om det? N&#x00E5;r tankerne er p&#x00E5; veje at bli &#x2013; ja, hvad skal man kalle det? &#x2013; for str&#x00E6;nge eller m&#x00E5;ske rettere for tunge, adspreder det s&#x00E5; m&#x00E6;rkelig. Jeg har ofte pr&#x00F8;vet det med mig selv. &#x00C5;, ofte! &#x2013; Ja, t&#x00E6;nk p&#x00E5; det! Ikke sant? &#x2013; Jeg kunde like godt tr&#x00E6;ffe forf&#x00F8;jninger nu straks, hvis det var s&#x00E5;, &#x2013; hvad?</p>
+<p>Alts&#x00E5;: farvel s&#x00E5; l&#x00E6;nge! Og t&#x00E6;nk p&#x00E5; det! Jeg selv finner det s&#x00E5; udm&#x00E6;rket.</p>
+</sp>
+<stage>(Ut af d&#x00F8;ren og g&#x00E5;r til venstre.)</stage>
+<stage>(<hi rend="bold">Svava</hi> ser smilende p&#x00E5; sin mor og gemmer derp&#x00E5; sit &#x00E5;syn.)</stage>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Jeg vil f&#x00E5; lov til en liten stund at &#x2013;</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Mor!</p>
+</sp>
+<sp>
+<speaker>Fru Riis.</speaker>
+<p>Jeg kan ikke annet, du! Jeg m&#x00E5; samle mig. Dette er for meget for mig. Jeg skal ikke g&#x00E5; l&#x00E6;ngre bort &#x00E6;n in der. <stage>(Peker til venstre.)</stage> Og jeg skal snart v&#x00E6;re her igen.</p>
+</sp>
+<stage>(<hi rend="bold">Svava</hi> kaster sig p&#x00E5; en stol ved bordet overgit til sin bev&#x00E6;gelse.)</stage>
+</div>
+<div type="chapter" subtype="scene" n="4_4">
+<head type="sub">Fj&#x00E6;rde m&#x00F8;te</head>
+<stage><hi rend="bold">Svava</hi>. <hi rend="bold">Alf</hi>.</stage>
+<sp>
+<speaker>Alf.</speaker>
+<p>Nu har jeg en f&#x00F8;lelse af, at det hele er kommet tilbake til os to.</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Ja. &#x2013;</p>
+</sp>
+<sp>
+<speaker>Alf.</speaker>
+<p>De kan vel forst&#x00E5;, at jeg siden ig&#x00E5;r ikke har gjort annet &#x00E6;n holde taler til Dem? &#x2013; Men det nytter mig ikke stort nu.</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Det var dog snilt, De kom.</p>
+</sp>
+<sp>
+<speaker>Alf.</speaker>
+<p>M&#x00E5; jeg da f&#x00E5; lov til at be&#x0027; Dem om &#x00E9;n eneste ting, men om den af alt mit hj&#x00E6;rte: <hi rend="italic">v&#x00E6;nt p&#x00E5; mig</hi>!</p>
+<p>For nu v&#x00E9;t jeg, hvad som f&#x00F8;rer fr&#x00E6;m til Dem. Vi har jo lagt vor livs-plan, vi to, og sk&#x00F8;nt jeg nu blir alene om den, &#x2013; jeg skal f&#x00F8;re den igjennem! Urokkelig! S&#x00E5; kanske De en dag, n&#x00E5;r De ser, hvor tro jeg har v&#x00E6;ret &#x2013; &#x2013;?</p>
+<p>&#x2013; &#x2013; Det er p&#x00E5;lagt mig ikke at plage Dem, aller minst idag. Men et svar? S&#x00E5; stilt, s&#x00E5; litet som muligt? &#x2013; Et svar?</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Men hvorfor?</p>
+</sp>
+<sp>
+<speaker>Alf.</speaker>
+<p>Jeg m&#x00E5; ha det at leve p&#x00E5;. For jeg h&#x00F8;rer til de m&#x00E6;n, at jo h&#x00F8;jere kransen h&#x00E6;nger, des mere er livet v&#x00E6;rdt for mig.</p>
+<p>Et svar!</p>
+</sp>
+<sp>
+<speaker>Svava</speaker>
+<stage>(fors&#x00F8;ker, men brister i gr&#x00E5;t).</stage>
+<p>Ja, De ser, at al ting bev&#x00E6;ger mig idag. Jeg kan ikke. &#x2013; &#x2013; Hvad vil De ogs&#x00E5;? At jeg skal v&#x00E6;nte? Hvad vil det sige? At v&#x00E6;re f&#x00E6;rdig &#x2013; og dog ikke f&#x00E6;rdig; fors&#x00F8;ke p&#x00E5; at glemme &#x2013; og bestandig bygge op igen. <stage>(Overv&#x00E6;ldes atter af bev&#x00E6;gelse.)</stage> Nej!</p>
+</sp>
+<sp>
+<speaker>Alf.</speaker>
+<p>Jeg ser, De m&#x00E5; v&#x00E6;re alene. Men det er mig aldeles umuligt at g&#x00E5;!</p>
+</sp>
+<stage>(<hi rend="bold">Svava</hi> reiser sig for at skjule sin bev&#x00E6;gelse. <hi rend="bold">Alf</hi> g&#x00E5;r efter og kaster sig p&#x00E5; kn&#x00E6;.)</stage>
+<sp>
+<speaker>Alf.</speaker>
+<p>Et eneste ord til mig!</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Men forst&#x00E5;r De da ikke, at dersom De kunde gi&#x0027; mig den fryd &#x00E9;n gang til, som bare den store tillid gir, &#x2013; tror De, jeg da v&#x00E6;ntede p&#x00E5; Dem? Nej, jeg kom og takkede Dem p&#x00E5; mine kn&#x00E6;! Kan De et &#x00F8;jeblik tvile om det?</p>
+</sp>
+<sp>
+<speaker>Alf.</speaker>
+<p>Nej, nej!</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Men jeg har den ikke.</p>
+</sp>
+<sp>
+<speaker>Alf.</speaker>
+<p>Svava!</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Jeg b&#x00E9;r Dem!</p>
+</sp>
+<sp>
+<speaker>Alf.</speaker>
+<p>Farvel! &#x2013; &#x00C5;, farvel! &#x2013; Men p&#x00E5; gensyn? &#x2013; P&#x00E5; gensyn?</p>
+<stage>(Han g&#x00E5;r. Men ved d&#x00F8;ren stanser han.)</stage>
+<p>Jeg <hi rend="italic">m&#x00E5;</hi> ha et tegn! Et bestemt tegn! R&#x00E6;k en h&#x00E5;nd ut mot mig!</p>
+</sp>
+<stage>(<hi rend="bold">Svava</hi> vender sig nu mot ham og r&#x00E6;kker ham b&#x00E6;gge sine h&#x00E6;nder. Han g&#x00E5;r.)</stage>
+<sp>
+<speaker>Fru Riis</speaker>
+<stage>(kommer fra d&#x00F8;ren til venstre).</stage>
+<p>Lovede du ham noget?</p>
+</sp>
+<sp>
+<speaker>Svava.</speaker>
+<p>Jeg tror det.</p>
+</sp>
+<stage>(Hun l&#x00E6;gger sig i stor bev&#x00E6;gelse op til moderen.)</stage>
+</div>
+</div>
+</body>
+</text>
+</TEI>

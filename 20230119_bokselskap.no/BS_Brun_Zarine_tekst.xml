@@ -1,0 +1,3019 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI PUBLIC "-// TEI P5 //EN" "http://www.tei-c.org/release/xml/tei/custom/schema/dtd/tei_all.dtd">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="BS_Brun_Zarine">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>bokselskap.no, Oslo 2017
+<lb/>Johan Nordahl Brun: <hi rend="italic">Zarine</hi>
+<lb/>Teksten i bokselskap.no f&#x00F8;lger 2. utgave, 1778 (K&#x00F8;benhavn, Gyldendal). Digitaliseringen er basert p&#x00E5; fil mottatt fra Nasjonalbiblioteket (nb.no)
+<lb/>ISBN: 978-82-8319-351-0 (digital, bokselskap.no), 978-82-8319-352-7 (epub), 978-82-8319-353-4 (mobi)
+</title>
+</titleStmt>
+<publicationStmt>
+<p>Publiseres som digital tekst av bokselskap.no.</p></publicationStmt>
+<sourceDesc>
+    <bibl>
+        <title>Zarine</title>
+        <author>Johan Nordahl Brun</author>
+        <publisher>Gyldendal</publisher>
+        <pubPlace>K&#x00F8;benhavn</pubPlace>
+        <date>1778</date>
+        <note>digibok_2014102208093 (mottatt fra Nasjonalbiblioteket 2017)</note>
+    </bibl>
+</sourceDesc>
+</fileDesc>
+<revisionDesc>
+<change who="ENW" when="2017-07-05">F&#x00F8;rt inn rettelser etter ekstra korrektur/gjennomlesning. Validering.</change>
+<change who="ENW" when="2017-06-14">F&#x00F8;rt inn korrekturrettelser (Sofie).</change>
+<change xml:id="ENW" who="ENW" when="2017-01-10">XML-koding. Entiteter, kodekontroll og validering. Klar for korrektur.</change>
+</revisionDesc>
+</teiHeader>
+<text xml:id="BS_Brun_Zarine_tekst" type="drama">
+<front>
+<titlePage type="main">
+<byline><docAuthor>Johan Nordahl Brun</docAuthor></byline>
+<docTitle>
+<titlePart type="main">Zarine</titlePart>
+<titlePart type="sub">Et S&#x00F8;rgespil i fem Optoge</titlePart>
+</docTitle>
+<docDate>bokselskap.no<lb/>Oslo 2017</docDate>
+</titlePage>
+<div xml:id="contents">
+<list type="contents_main">
+<item><ref target="chapter_1" xml:id="contents_1">Til L&#x00E6;seren</ref></item>
+<item><ref target="chapter_2" xml:id="contents_2">Personerne</ref></item>
+<item><ref target="chapter_3" xml:id="contents_3">F&#x00F8;rste Optog</ref></item>
+<item><ref target="chapter_4" xml:id="contents_4">Anden Optog</ref></item>
+<item><ref target="chapter_5" xml:id="contents_5">Tredie Optog</ref></item>
+<item><ref target="chapter_6" xml:id="contents_6">Fierde Optog</ref></item>
+<item><ref target="chapter_7" xml:id="contents_7">femte Optog</ref></item>
+</list>
+</div>
+</front>
+<body>
+<div type="chapter" subtype="illustration">
+<p rend="center"><figure><graphic url="tittelblad_1778.jpg"/></figure></p>
+</div> 
+<div type="chapter" subtype="preface">
+<head type="main"><ref type="contents" target="contents_1" xml:id="chapter_1">Til L&#x00E6;seren.</ref></head>
+<p>Ganske undseelig fremtr&#x00E6;der min <hi rend="bold">Zarine</hi> for et oplyst Publikum, der har seet saa mange stolte Ski&#x00F8;nheder fra fremmede Lande. <hi rend="bold">En Merope</hi>, trods den fremmede Dragt, fremviiser dog altid st&#x00E6;rke Tr&#x00E6;k af den &#x00E6;gte Ski&#x00F8;nhed. <hi rend="bold">Caliste</hi>, stolt endog af sin Danske Kl&#x00E6;dning, og <hi rend="bold">Zaire</hi> ere Damer, hvis Yndigheder t&#x00F8;r fordre Tilskueres Biefald, som en vitterlig Gield. Min <hi rend="bold">Zarine</hi> betr&#x00E6;der med Frygt det Sted, hvor disse med Dristighed fremviise sig, forud forsikrede om at behage.</p>
+<p>Ja gunstige L&#x00E6;ser, kun dette vil jeg sige til Undskyldning for de Feil, som maatte findes i mit n&#x00E6;rv&#x00E6;rende Arbeide, at det ei allene er det f&#x00F8;rste Original-Danske S&#x00F8;rgespil, som er opf&#x00F8;rt paa den Danske Skueplads, men endog min f&#x00F8;rste Pr&#x00F8;ve i det h&#x00F8;iere Fag af Digterkonsten. Den paalideligste Konstdommer vi have, (og hvo kiender ham ikke under dette Navn?) har l&#x00E6;st og bed&#x00F8;mmet Zarine: hvad han sagde til hendes Fordeel, var nok til min Opmuntring; men denne Taknemmelighed skylder jeg ham, og mine L&#x00E6;sere denne Oprigtighed, rundt ud at tilstaae, at mange Feil ere rettede, efter hans Anviisning, at nogle endnu staae tilbage, som han har anviist, men jeg ikke v&#x00E6;ret i Stand til at rette, uden alt for stor Omst&#x00F8;bning.</p>
+<p>Ved at gienneml&#x00E6;se vor store <hi rend="bold">Guldbergs</hi> almindelige Historie, fandt jeg f&#x00F8;rste Gang Zarine malet med saa yndige Tr&#x00E6;k, at hun lettelig kunde overtale Digteren til at beskygge et Grundrids, der var saa ypperligt anlagt. Disse ere Forfatterens Ord:</p>
+<quote>
+<p><hi rend="bold">Cyaxares</hi> har i F&#x00F8;rstningen, som de andre Konger, reddet sig og Levningerne af sin Magt i de faste St&#x00E6;der, hvilke Schytterne ikke forstode at angribe; men da disse Fienders f&#x00F8;rste Hidsighed har sat sig, og Asiens Himmelegn og Vellyst ogsaa har viist sin Kraft paa dem: ja da nogle af dem vare vendte med et rigt Bytte tilbage til deres F&#x00E6;dreneland, og andre har uden Tvivl ladet sig ki&#x00F8;be til at gaae i Kongernes Tieneste, saa begyndte Tilstanden at forandre sig, og Schytterne at blive mindre farlige. Imidlertid har Partherne, et Folk, ski&#x00F8;nt Schyttisk til Herkomst, anseet denne Tid for beqvemmest til at rive sig l&#x00F8;s fra <hi rend="bold">Cyaxaris</hi> Aag, og for at gi&#x00F8;re det med des st&#x00F8;rre Sikkerhed, givet sig under Sacernes Skyts, som og vare Schytter, men boede &#x00D8;sten for det Caspiske Hav. Over<note type="footnote">Over] <hi rend="italic">rettet fra:</hi> over <hi rend="italic">(trykkfeil)</hi></note> dem regierede <hi rend="bold">Zarine</hi>, (maaskee <hi rend="bold">Czarinde</hi>,) en Dronning, som med al hendes Ki&#x00F8;ns Smukhed foreenede Tapperhed og Klogskab. Det var meget, at see hende i Spidsen af sine Tropper, og uforskr&#x00E6;kket at gi&#x00F8;re og udholde de blodigske Angreb. Dog hos de fleeste Schyttiske Folk vare Qvinderne stridbare; men det vi vil forundre, er, at hun havde indf&#x00F8;rt Agerdyrkning og gode S&#x00E6;der hos sit Folk, og ved sit Mod og Overl&#x00E6;g revet det ud fra den foragtede Tilstand, hun fandt det i. Saadan er den Printsesse, som <hi rend="bold">Cyaxares</hi> for Parthiens Skyld nu maae bekrige. Efter adskillige Trefninger, hvori Lykken havde vaklet, kom det til et Slag, som <hi rend="bold">Stryang&#x00E6;us</hi>, Kongens Svigers&#x00F8;n, vandt. Nu befordrede dette vel Freden imellem hans Herre og hende, da Parthien igien maatte finde sig i at erkiende Mediens Herred&#x00F8;mme. Men <hi rend="bold">Stryang&#x00E6;us</hi> har seet Sacernes smukke Dronning og er bleven forelsket, og hun, hvis Liv han i et Slag havde reddet, bevidner ham, da han efter Freden bes&#x00F8;gte hende, paa den meest indtagende Maade sin Erkiendtlighed. Heraf blev hans Lue heftigere; men da <hi rend="bold">Zarine</hi> er lige saa dydig som smuk, og baade forsk&#x00F8;d den gifte Mands Haand og Hierte, er alt forgieves, og <hi rend="bold">Stryang&#x00E6;us</hi> er daarlig nok til i Fortvivlelse at dr&#x00E6;be sig selv.</p>
+</quote>
+<p>&#x2013; Saa vidt Herr <hi rend="bold">Guldberg</hi>. <hi rend="bold">Ctesias</hi> hos <hi rend="bold">Diodorus Siculus</hi> holder en vidtl&#x00F8;ftig Lovtale over <hi rend="bold">Zarine</hi>, og bevidner, at hun efter sin D&#x00F8;d blev dyrket af Sacerne med guddommelig &#x00C6;re. II. Bog. Cap. II. Tiden, da dette tildrog sig, var omtrent Aar efter Verdens Skabelse 3363; altsaa 604 Aar for Christi F&#x00F8;dsel, da Josias var Konge over Israel. I <title rend="italic">Memoires de litterature, tir&#x00E9;s des Registres de l&#x0027;Academie royale des Inscriptions &#x0026; belles letres</title> findes et Udtog af <hi rend="bold">Zarines</hi> og <hi rend="bold">Stryanges</hi> Historie, forfattet af <hi rend="bold">Hr. Boivin</hi>. Han anseer den h&#x00F8;istbeqvem til at v&#x00E6;re Indhold af et S&#x00F8;rgespil. Saa taler han derom: <title rend="italic">Ce Sujet au Reste semble fait expr&#x00E9;s pour etre la matiere d&#x0027;une Trag&#x0153;die &amp; je ne doute point que quelque excellent po&#x00EB;t n&#x0027;en soit tent&#x00E9;, tout y est illustre</title>. Til al Ulykke er det her faldet i en Begynders H&#x00E6;nder, som vil v&#x00E6;re fuldkommen forn&#x00F8;iet, om man anseer hans Arbeide godt nok til en Pr&#x00F8;ve. Mit S&#x00F8;rgespil var allerede f&#x00E6;rdigt da man viiste mig en tydsk <hi rend="bold">Zarine</hi> af <hi rend="bold">Hr. Sch&#x00F8;naich</hi>. Med Forn&#x00F8;ielse befandt jeg, at den kun havde Navnet tilf&#x00E6;lles med min, og at jeg intet vovede ved at kalde mit S&#x00F8;rgespil et Originalstykke. <hi rend="bold">Hr. Sch&#x00F8;naich</hi> har ingen <hi rend="bold">Rhetea</hi>, jeg har derimod ingen Rebellion, hvor <hi rend="bold">Stryange</hi> kan viise sin Tapperhed ved at f&#x00E6;lde Hovedmanden, og <hi rend="bold">Zarine</hi> sin Myndighed ved at stille den ophidsede P&#x00F8;bel. Men nok herom: der skal uvillige <hi rend="bold">M&#x00E6;nd</hi> til at gi&#x00F8;re en retskaffen Sammenligning.</p>
+<p>Lykkes dette mit Fors&#x00F8;g, skal jeg vist nok blive ved og ikke efterlade nogen Fliid til at forandre i et andet S&#x00F8;rgespil hvad man med Beskeedenhed kan viise mig at v&#x00E6;re Feil i dette.</p>
+</div>
+<div type="chapter" subtype="castList">
+<head type="main"><ref type="contents" target="contents_2" xml:id="chapter_2">Personerne.</ref></head>
+<castList>
+<castItem><role>Zarine</role>, Sacernes Dronning.</castItem>
+<castItem><role>Rhetea</role>, en Datter af Cyaxares, Medernes Konge, Stryanges Gemal.</castItem>
+<castItem><role>Nitocre</role>, hendes S&#x00F8;ster.</castItem>
+<castItem><role>Stryange</role>, Medernes Anf&#x00F8;rer, Cyaxares Svigers&#x00F8;n.</castItem>
+<castItem><role>Lorano</role>, een af Medernes Anf&#x00F8;rer, den fornemste n&#x00E6;st Stryange.</castItem>
+<castItem>Zarines og Stryanges, saavel som Rheteas F&#x00F8;lge, Nogle Sacer.</castItem>
+</castList>
+<p>Skuepladsen er i de tre f&#x00F8;rste Optog n&#x00E6;r ved Stryanges Leir, i de to sidste i Stryanges Leir. Handlingen begynder mod Aftenen den Dag, da det sidste Slag har staaet imellem Zarine og Stryange.</p>
+</div>
+<div type="chapter" subtype="act" n="1">
+<head type="main"><ref type="contents" target="contents_3" xml:id="chapter_3">F&#x00F8;rste Optog.</ref></head>
+<div type="uchapter" subtype="scene" n="1_1">
+<head type="sub">F&#x00F8;rste Optrin.</head>
+<stage>Rhetea, Nitocre.</stage>
+<sp>
+<speaker>Rhetea.</speaker>
+<l>Nitocre, hvilket Syn! eet Sv&#x00E6;rd det andet m&#x00F8;dte,</l>
+<l>Og Piile regnede, og Skiolde sammenst&#x00F8;dte,</l>
+<l>Og Skriig og Nederlag, og Mord og Blod og D&#x00F8;d</l>
+<l part="I">Og min Stryange<note type="footnote">Stryange] <hi rend="italic">rettet fra:</hi> Styange <hi rend="italic">(trykkfeil)</hi></note> der &#x2013; &#x2013;</l>
+</sp>
+<sp>
+<speaker>Nitocre.</speaker>
+<l part="F">Forgieves alle St&#x00F8;d</l>
+<l>Imod saa kiert et Liv ved vore Sukke v&#x00E6;re!</l>
+<l part="I">Jeg saae ham selv &#x2013; &#x2013;</l>
+</sp>
+<sp>
+<speaker>Rhetea.</speaker>
+<l part="M">Hvordan? &#x2013; &#x2013;</l>
+</sp>
+<sp>
+<speaker>Nitocre.</speaker>
+<l part="F">Til vore Vaabens &#x00C6;re</l>
+<l>At fare gruesom frem, og D&#x00F8;den for ham gik</l>
+<l part="I">Og Legioner faldt.</l>
+</sp>
+<sp>
+<speaker>Rhetea.</speaker>
+<l part="F">Ak! mon han Seier fik?</l>
+<l>O! grumme Krigens Gud, udrust hans Arm med Torden!</l>
+<l>Din Lynild fare ned og Sacer slaae til Jorden!</l>
+<l>Vaag over Heltens Liv; thi min Stryanges D&#x00F8;d</l>
+<l>Min Faders Throne gav og mig det sidste St&#x00F8;d.</l>
+</sp>
+<sp>
+<speaker>Nitocre.</speaker>
+<l>Nei Himlen ynder dig, din Helt, vor Faders Throne:</l>
+<l>Den skal Stryange snart med Seierkrandse krone</l>
+<l>Zarine tapper er; men hvad imod en Helt,</l>
+<l>Hvis L&#x00F8;vemod har giort hans Navn til Skr&#x00E6;k i Felt.</l>
+<l>Os har vel Rygtet sagt, at hun var en Heltinde &#x2013;</l>
+</sp>
+<sp>
+<speaker>Rhetea.</speaker>
+<l>Og at Stryange hun maaskee kan overvinde.<note type="footnote">overvinde.] <hi rend="italic">rettet fra:</hi> overvinde <hi rend="italic">(trykkfeil)</hi></note></l>
+</sp>
+<sp>
+<speaker>Nitocre.</speaker>
+<l>En Qvinde ham? O! nei man Under nok har h&#x00F8;rt</l>
+<l part="I">Om Heltens Tapperhed &#x2013;</l>
+</sp>
+<sp>
+<speaker>Rhetea.</speaker>
+<l part="F">Men ak! mit Sind er r&#x00F8;rt,</l>
+<l>Jeg veed ei selv hvoraf; mit Hierte &#x00E6;ngster, trykker,</l>
+<l>En Anelse, gid den ei spaae min Siel Ulykker.</l>
+<l>Jeg h&#x00F8;rer, synes mig, en Stemme hvor jeg gaaer,</l>
+<l>Som om Stryanges D&#x00F8;d og om min egen spaaer.</l>
+</sp>
+<sp>
+<speaker>Nitocre.</speaker>
+<l>Hvad Under, at du er i denne Time bange,</l>
+<l>Da Piile, Sv&#x00E6;rd og Spyd omringe din Stryange;</l>
+<l>Til det, som aner dig, den rette Grund jeg veed:</l>
+<l>Stryanges Fare og din egen Kierlighed.</l>
+</sp>
+<sp>
+<speaker>Rhetea.</speaker>
+<l>Ja du har Ret, jeg selv med slige Grunde straffer</l>
+<l>Mit bange Hierte; men dog intet Roe mig skaffer:</l>
+<l>En stille Qval alt meer og meer udi mit Bryst</l>
+<l>Opelskes uform&#x00E6;rkt, bortjager Haab og Tr&#x00F8;st.</l>
+<l>Ja jeg erindrer nok den Dag, da min Stryange</l>
+<l>Mig sagde sit Farvel, hvor var mit Hierte bange?</l>
+<l>Og han, som altid f&#x00F8;r saa kiek og mandig var</l>
+<l>Beklemt, uroelig da skiult Sorg i Hiertet bar.</l>
+<l>Han neppe kunde sig af mine Arme vriste,</l>
+<l>Som om han forud alt vort f&#x00E6;lles Vanh&#x00E6;ld vedste;</l>
+<l>Han sagde tit Farvel, gik bort og kom igien</l>
+<l>Og bad: Omfavn endnu engang din beste Ven!</l>
+<l>O! skal jeg, sagde han, for evig dig forlade?</l>
+<l>Og mon vi aldrig meer maae see hverandre glade?</l>
+<l>Mig kalder Krigen &#x2013; du maae l&#x00E6;re uden mig</l>
+<l>Om Himlen byder det, at leve lykkelig.</l>
+<l>Han gik, og disse Ord mit Hierte giennemtr&#x00E6;ngte,</l>
+<l>Jeg ham med Suk endnu tilsidst om Halsen h&#x00E6;ngte,</l>
+<l>Og sagde: Nei ak! nei, jeg skulde leve vel,</l>
+<l>Naar du, min beste Deel, var revet fra min Siel?</l>
+</sp>
+<sp>
+<speaker>Nitocre.</speaker>
+<l part="I">Du vilde dog ei d&#x00F8;e?</l>
+</sp>
+<sp>
+<speaker>Rhetea.</speaker>
+<l part="F">Jeg skulde overleve</l>
+<l>En saa h&#x00F8;itelsket Mand? nei mine Dage bleve</l>
+<l>Mig kun til Byrde da; een Dag os begge to</l>
+<l>Fra Livet rykke skal, til Tegn paa f&#x00E6;lles Tro.</l>
+</sp>
+<sp>
+<speaker>Nitocre.</speaker>
+<l>Forlad, min S&#x00F8;ster, jeg dit Fors&#x00E6;t ei kan priise:</l>
+<l>Du Kongedatter er og Heltemod b&#x00F8;r viise;</l>
+<l>Stryange strider nu for elsket F&#x00F8;deland,</l>
+<l>Han stride b&#x00F8;r som Helt, ei som Rhete&#x00E6; Mand.</l>
+<l>Han lever i vort Bryst, om han i Striden falder,</l>
+<l>Hans Navn ei flettes ud; man hannem stedse kalder</l>
+<l>Skytsengel for sit Land, hans Roes i Marmor staaer,</l>
+<l>Den Helt, som d&#x00F8;er i Krig, Ud&#x00F8;delighed naaer.</l>
+</sp>
+<sp>
+<speaker>Rhetea.</speaker>
+<l>Nitocre! dersom du mit Hiertes Tilstand kiendte</l>
+<l>Og saae hvor liden Tr&#x00F8;st det kan af Skygger hente;</l>
+<l>Thi &#x00C6;ren Skygge kun og Dydens Gienf&#x00E6;rd er,</l>
+<l>Den minder om vort Tab og saarer endnu meer.</l>
+<l>Faaer jeg min Mand igien, naar man hans Mod ber&#x00F8;mmer?</l>
+<l>Naar Eftersl&#x00E6;gten ham blant Guder Sted tild&#x00F8;mmer?</l>
+<l>Nei skulde Hiertet da et L&#x00E6;gemiddel faae,</l>
+<l>Saa var det at han slet af Minde kunde gaae.</l>
+<l>Men d&#x00F8;m Nitocre selv, om jeg og kunde glemme</l>
+<l part="I">En Mand, som han &#x2013; &#x2013;</l>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="1_2">
+<head type="sub">Andet Optrin.</head>
+<stage>Lorano, de forrige.</stage>
+<sp>
+<speaker>Lorano.</speaker>
+<l part="F">Hvordan! hvem seer jeg! hvilken Stemme!</l>
+<l part="I">Stryanges Frue her!</l>
+</sp>
+<sp>
+<speaker>Rhetea.</speaker>
+<l part="F">Ja, lever han, o! siig!</l>
+<l part="I">Ak! lever han endnu &#x2013; &#x2013;</l>
+</sp>
+<sp>
+<speaker>Lorano.</speaker>
+<l part="F">Han lever seierrig:</l>
+<l>Ei altid Lykken kan Zarines Vaaben f&#x00F8;ie,</l>
+<l>De stolte Sacer nu sig under Aaget b&#x00F8;ie,</l>
+<l>Heltinden ydmyg af Stryange venter Fred,</l>
+<l>At eftergive hun, som overvinde veed.</l>
+</sp>
+<sp>
+<speaker>Rhetea.</speaker>
+<l>Men h&#x00F8;r! hvi t&#x00F8;ver nu! hvor er dog min Stryange?</l>
+<l>Mon han Zarine selv og taget har til Fange?</l>
+<l>Og siig mig, var han glad og mon han saaret er?</l>
+<l>Og mon han veed at jeg med L&#x00E6;ngsel venter her?</l>
+</sp>
+<sp>
+<speaker>Lorano.</speaker>
+<l>Stryange allermindst kan dette M&#x00F8;de vente,</l>
+<l>Han til Ecbatana et Bud nu nyelig sendte</l>
+<l>Med Underretning om den vel fuldendte Krig</l>
+<l>Og om den Seier, som jeg vil beskrive dig:</l>
+<l>Fra Solens Opgang vi med lige Mod og Lykke</l>
+<l>Paa begge Sider streed; og ingen vilde rykke</l>
+<l part="I">Tilbage f&#x00F8;rst &#x2013;</l>
+</sp>
+<sp>
+<speaker>Rhetea.</speaker>
+<l part="F">Kun kort: gik det Stryange vel?</l>
+<l>Vidtl&#x00F8;ftighed er nu en Pine for min Siel.</l>
+</sp>
+<sp>
+<speaker>Lorano.</speaker>
+<l>Zarine Sacerne med Mod og List anf&#x00F8;rte,</l>
+<l>Ski&#x00F8;nt Vaaben bragede, man hendes Stemme h&#x00F8;rte:</l>
+<l>Frem Sacer, raabte hun, frem, frem, slaae ned for Fod</l>
+<l>Og hug og stik og skyd! lad str&#x00F8;mme Meders Blod!</l>
+</sp>
+<sp>
+<speaker>Rhetea.</speaker>
+<l>O! min Stryange, o! da var dit Liv i Fare,</l>
+<l>Da bad min heele Siel at Himlen vilde spare</l>
+<l>En Helt saa kier for mig: Velan, min B&#x00F8;n er h&#x00F8;rt:</l>
+<l>Til Medynk Himlen blev ved mine Sukke r&#x00F8;rt.</l>
+</sp>
+<sp>
+<speaker>Lorano.</speaker>
+<l>Knap vore Vaaben frem for tapper Modstand tr&#x00E6;ngte,</l>
+<l>Da selv Stryange sig midt ind i Faren sl&#x00E6;ngte,</l>
+<l>Alt hvad ham forekom, hans Vredes Offer blev,</l>
+<l>Og n&#x00E6;sten han paa Flugt den bange Fiende drev,</l>
+<l>Da Sacer str&#x00F8;mme frem igien fra alle Sider;</l>
+<l>Zarine selv til Hest anf&#x00F8;rer, raaber, strider;</l>
+<l>Hun Helten m&#x00F8;der med bet&#x00E6;nksom Hurtighed,</l>
+<l>Seer Faren og den strax at overvinde veed.</l>
+<l>Da stod et blodigt Slag; alt, hvad man Vaaben kalder,</l>
+<l>Med Gruesomhed blev brugt og Helt paa Helte falder,</l>
+<l>En Arm den anden hug; et Sv&#x00E6;rd det andet br&#x00F8;d,</l>
+<l>Med Glavind, Spyd og Piil man hug og stak og ski&#x00F8;d.</l>
+<l>Nu saae man Krigens Gud med Vrede sig at v&#x00E6;bne</l>
+<l>Mod Sacers Dronning, som bestemte Krigens Skiebne:</l>
+<l>Hun faldt af Hesten ned; rask l&#x00F8;b Stryange hen,</l>
+<l>Afvendte vore Hug, opreiste Dronningen:</l>
+<l>Kom, sagde han og f&#x00F8;lg; i mig du vist skal finde</l>
+<l>En v&#x00E6;rdig Ven, som ei allene veed at vinde &#x2013;</l>
+<l>Hvad, sagde hun, og greb med Vrede til sit Sv&#x00E6;rd,</l>
+<l>Jeg overvunden? nei, erkiend Heltinders V&#x00E6;rd,</l>
+<l>Mit Liv du reddet har, men ei min Styrke sv&#x00E6;kket,</l>
+<l>Ei Ordenen endnu udi min H&#x00E6;r er br&#x00E6;kket.</l>
+<l>Hun sagde disse Ord og Helten hende tog</l>
+<l>Op paa sin Arm og strax en Kreds vi om dem slog.</l>
+<l>Men med alt dette var Stryanges Sind nedslaget,</l>
+<l>Jeg Seierherren saae, Gud veed hvoraf betaget.</l>
+</sp>
+<sp>
+<speaker>Rhetea.</speaker>
+<l>Men tael, hvi s&#x00F8;rger han? han vist nok saaret er?</l>
+</sp>
+<sp>
+<speaker>Lorano.</speaker>
+<l>I Hiertet ja maaskee &#x2013; Jeg kan ei sige meer.&#x2013;</l>
+</sp>
+<sp>
+<speaker>Rhetea.</speaker>
+<l>I Hiertet &#x2013; nu vel an, hans h&#x00F8;ie Siel jeg kiender;</l>
+<l>Mod undertrykte Dyd den tidt af &#x00D8;mhed br&#x00E6;nder:</l>
+<l>Han uden Suk ei seer Zarines tappre Haand,</l>
+<l>Som nyelig Scepter bar, at b&#x00E6;re Slavebaand.</l>
+</sp>
+<sp>
+<speaker>Lorano.</speaker>
+<l>Zarine tapper ei og modig er allene,</l>
+<l>Hos hende Mod og Dyd og Viisdom sig forene &#x2013;</l>
+<l>Og naar jeg l&#x00E6;gger til: hun ski&#x00F8;n som Solen er &#x2013;</l>
+</sp>
+<sp>
+<speaker>Rhetea.</speaker>
+<l>Man altsaa Grunden let til Heltens &#x00D8;mhed seer,</l>
+<l>Han h&#x00F8;it Fortienester endog hos Fienden agter,</l>
+<l>Og Lykkens slibrig Gunst ei uden Frygt betragter,</l>
+<l>Den smiler nu for ham og er Zarine vred;</l>
+<l>Med Grund befrygter han dens Ubestandighed.</l>
+<l>Velan Nitocre, vi gaae hen for hid at hente</l>
+<l>Den Krands, jeg flettet har, det Sv&#x00E6;rd, min Fader sendte:</l>
+<l>Ham Krandsen v&#x00E6;re skal paa Kierlighed et Pandt</l>
+<l>Og Sv&#x00E6;rdet &#x00C6;restegn fordi han Seier vandt.</l>
+<stage>(de gaae.)</stage></sp>
+</div>
+<div type="uchapter" subtype="scene" n="1_3">
+<head type="sub">Tredie Optrin.</head>
+<sp>
+<speaker>Lorano,</speaker> <stage>(allene.)</stage>
+<l>Han vandt; men vidste du at han ved denne Seier</l>
+<l>Sin Dyd, sin Roe har tabt; ja naar jeg overveier</l>
+<l>Hans Medynk, Ord og Suk og den Forvirrelse,</l>
+<l>Jeg Elskov kunde der i Strid mod Dyden see;</l>
+<l>Nu Blodet Skamfuldhed paa Heltens Pande maler,</l>
+<l>Nu staaer han l&#x00E6;nge taus, nu kort og afbrudt taler,</l>
+<l>Nu for Zarine han paa Kn&#x00E6;e nedkaster sig</l>
+<l>Og nu igien staaer op fra Jorden pludselig.</l>
+<l>Ja det er aabenbart, han elsker vist Zarine:</l>
+<l>Han sine &#x00D8;nsker naae! men jeg naaer ogsaa mine:</l>
+<l>Stryange lastefuld landflygtig blive maae</l>
+<l>Og hans forladte Plads for mig skal aaben staae.</l>
+<l>Da skal den Elskovs Ild, som ulmer i mit Hierte</l>
+<l>Og det saa l&#x00E6;nge har forvoldet l&#x00F8;nlig Smerte,</l>
+<l>I lyse Flammer sees. Hvad &#x00C6;re Lykke naar</l>
+<l>Jeg engang til Gemal en Kongedatter faaer.</l>
+<l>Jeg T&#x00F8;nder sanke vil nu til Stryanges Lue,</l>
+<l>Opmuntre ham til sin Zarine at beskue,</l>
+<l>Beskrive hendes Dyd og Mod og Yndighed</l>
+<l>Og sort afmale ham Rhete&#x00E6; Kierlighed.</l>
+<l>Naar han Zarine da sit Hierte haver skienket</l>
+<l>Og Troe og Love mod sin Brud og Konge kr&#x00E6;nket;</l>
+<l>Jeg for Cyaxares da som Misgierningsmand</l>
+<l>Ham strax anklage skal; men see der kommer han.</l>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="1_4">
+<head type="sub">Fierde Optrin.</head>
+<stage>Stryange. Lorano.</stage>
+<sp>
+<speaker>Lorano.</speaker>
+<l>Du tappre Meders Helt, vort Riges Haab og Stytte!</l>
+<l>Til Lykke nu med Fred og med dit rige Bytte.</l>
+</sp>
+<sp>
+<speaker>Stryange.</speaker>
+<l>Hvem jeg? jeg lykkelig! fordi jeg vandt et Slag?</l>
+<l>Jeg burde, det er vist, velsigne denne Dag.</l>
+<l>Med Gl&#x00E6;de m&#x00F8;dte jeg den blide Morgenr&#x00F8;de;</l>
+<l>Men Aftenen ak! den vil bittre Smerter f&#x00F8;de &#x2013;</l>
+<l>Vi faae Lorano snart den l&#x00E6;nge &#x00F8;nskte Fred,</l>
+<l>Zarine selv af Mord og Brand og Krig er kied.</l>
+<l>For mig er dog ei Fred, en Striid er i mit Hierte</l>
+<l>Imellem Lyst og Pligt, imellem Fryd og Smerte,</l>
+<l>Imellem Frygt og Haab og Had og Kierlighed,</l>
+<l>Min s&#x00F8;nderrevne Siel ei nogen Redning veed.</l>
+</sp>
+<sp>
+<speaker>Lorano.</speaker>
+<l>Stryange! hvad er det? i Dag da Gl&#x00E6;den byder,</l>
+<l>At hver en Meder sig i Seiers Sange fryder;</l>
+<l>Du eene sukke skal? Du f&#x00F8;ler intet af</l>
+<l>Den Gl&#x00E6;de, Himlen selv det ganske Rige gav.</l>
+<l>Du s&#x00F8;rger og hvorfor? oplad mig dog dit Hierte,</l>
+<l>Det ellers briste maae, d&#x00F8;lg ei din Qval og Smerte!</l>
+<l>Tal frit, du kiender mig, min Taushed og min Troe</l>
+<l part="I">Hvo veed? mit ringe Raad &#x2013; &#x2013;</l>
+</sp>
+<sp>
+<speaker>Stryange.</speaker>
+<l part="F">Det kan ei skaffe Roe.</l>
+<l>Siig hvad Undskyldning er? hvad Raad for en Lastv&#x00E6;rdig?</l>
+<l>Som nedrig Vellyst gi&#x00F8;r til Sviig, til Meeneed f&#x00E6;rdig,</l>
+<l part="I">Som glemmer Lov og Pligt?</l>
+</sp>
+<sp>
+<speaker>Lorano.</speaker>
+<l part="F">Jeg dig begriber ei;</l>
+<l part="I">Hvor er Forr&#x00E6;deren?</l>
+</sp>
+<sp>
+<speaker>Stryange.</speaker>
+<l part="F">Hvor er han! &#x2013; det er jeg;</l>
+<l>Jeg, som forraade vil den beste Svigerfader,</l>
+<l>Jeg, som hans Datter nu mod Pligt og Eed forlader,</l>
+<l>Jeg, som hans Fiende til Gemal begiere kan</l>
+<l>Og voldsom slukke vil min f&#x00F8;rste Elskovs Brand?</l>
+<l>Ja jeg, som taler her, jeg selv er det Uhyre.</l>
+</sp>
+<sp>
+<speaker>Lorano.</speaker>
+<l>Hvis du kun mod dig selv din Vrede vilde styre,</l>
+<l>Da var du mindre grum, Rhetea elsker dig?</l>
+<l>Det t&#x00E6;nker du! men viid, at hun forstiller sig</l>
+<l part="I">Hun troel&#x00F8;s er &#x2013; &#x2013;</l>
+</sp>
+<sp>
+<speaker>Stryange.</speaker>
+<l part="F">Nei holdt, du hendes Dyd van&#x00E6;rer,</l>
+<l>Og ved opdigtet Tr&#x00F8;st lastv&#x00E6;rdig Lue n&#x00E6;rer:</l>
+<l>Du ei formindske maae min Last og hendes Dyd.<note type="footnote">Dyd.] <hi rend="italic">rettet fra:</hi> Dyd <hi rend="italic">(trykkfeil)</hi></note></l>
+</sp>
+<sp>
+<speaker>Lorano.</speaker>
+<l>Nei aldrig kiendte jeg den ondskabsfulde Fryd,</l>
+<l>At smigre for min Ven ved andre at forn&#x00E6;rme;</l>
+<l>Nei Himlen dig og mig saa sandt fra Ondt beskierme,</l>
+<l>Som din Rhetea nu koldsindig troel&#x00F8;s er;</l>
+<l>Men du, som Hofmand, b&#x00F8;r ei sligt dig tage n&#x00E6;r.</l>
+<l>Ja ved qvindagtig Dyd en Helt som du maae kiedes;</l>
+<l>Nei nei, en v&#x00E6;rdig Brud Stryange nu beredes,</l>
+<l>Som ligner ham i Mod. Zarine seierrig</l>
+<l>Sin Haand, sit Hierte, ja sin Throne byder dig.</l>
+</sp>
+<sp>
+<speaker>Stryange.</speaker>
+<l>Skal jeg da min Gemal og Kongen selv forraade?</l>
+</sp>
+<sp>
+<speaker>Lorano.</speaker>
+<l>Som Konge kan du let undv&#x00E6;re Kongens Naade,</l>
+<l>Da bliver Villien Lov, du viis, retf&#x00E6;rdig er,</l>
+<l>Naar dine &#x00D8;nsker du i alt opfyldte seer:</l>
+</sp>
+<sp>
+<speaker>Stryange.</speaker>
+<l part="I">Det er Tyranners Sprog</l>
+</sp>
+<sp>
+<speaker>Lorano.</speaker>
+<l part="F">Nu vel, adsp&#x00F8;rg din &#x00C6;re</l>
+<l>B&#x00F8;r den i Helters Bryst ei Herskerinde v&#x00E6;re?</l>
+<l>Den ofte fordrer at en nedrig kielen Lyst</l>
+<l>Forn&#x00E6;gtes, drives ud af mandigt h&#x00E6;rdet Bryst.</l>
+<l>Til Thronen Himlen dig i Dag en Vei bereder&#x2013; &#x2013;</l>
+</sp>
+<sp>
+<speaker>Stryange.</speaker>
+<l>Hvad? Himmel? n&#x00E6;vn ei den, den hader en Meeneder.<note type="footnote">Meeneder.] <hi rend="italic">rettet fra:</hi> Meeneder <hi rend="italic">(trykkfeil)</hi></note></l>
+</sp>
+<sp>
+<speaker>Lorano.</speaker>
+<l>Men naar du soret har en ubet&#x00E6;nksom Eed,</l>
+<l>Da bryd den uforsagt og Himlen blier ei vred;</l>
+<l>Rhetea har hun vel en Throne dig at byde?</l>
+<l>Cyaxares kan d&#x00F8;e; men du maae dog adlyde</l>
+<l>Har ei Astyages til Faders Throne Ret?</l>
+<l>Og at adlyde ham, bet&#x00E6;nk hvad koster det?</l>
+<l>Velan, din Lykke grib, du kan med Fryd bestige</l>
+<l>En Throne, som du vandt foruden Blod og Krige</l>
+<l>Og for din Konges Had kast al Bekymring hen,</l>
+<l>Du var hans Undersaat, du bliver da hans Ven.</l>
+</sp>
+<sp>
+<speaker>Stryange.</speaker>
+<l>Hans Ven! han elske den, som mod en yndet Datter&#x2013;</l>
+</sp>
+<sp>
+<speaker>Lorano.</speaker>
+<l>En Konge Venskab kun paa Grund af Nytten skatter,</l>
+<l>Med m&#x00E6;gtig Naboe vil enhver i Forbund staae,</l>
+<l>Men Dyd og Last ei i Betragtning komme maae.</l>
+<l part="I">Nok, &#x00C6;ren byder dig &#x2013; &#x2013;</l>
+</sp>
+<sp>
+<speaker>Stryange.</speaker>
+<l part="F">Jeg kiender ingen &#x00C6;re,</l>
+<l>Som kan mod Dyd og Pligt og Troeskab stridig v&#x00E6;re.</l>
+<l>Naar en Lastv&#x00E6;rdig jeg endog paa Thronen seer,</l>
+<l>Jeg undertrykte Dyd dog altid agter meer.</l>
+</sp>
+<sp>
+<speaker>Lorano.</speaker>
+<l>Alt det er Heltes Dyd, som &#x00C6;rens Love l&#x00E6;rte.</l>
+<l>Mit Raad foragter du! men sp&#x00F8;rg engang dit Hierte,</l>
+<l>Det strax retf&#x00E6;rdiggi&#x00F8;r din Lues Heftighed,</l>
+<l>Zarine, siger det, fortiener Kierlighed.</l>
+</sp>
+<sp>
+<speaker>Stryange.</speaker>
+<l>Ak! du bev&#x00E6;bner dig mod Dydens svage Side:</l>
+<l>Fornuften kan ei meer mod dig og Hiertet stride,</l>
+<l>Velan, det er forbie, jeg Tiger v&#x00E6;re maae,</l>
+<l>Rhetea du af mig dit Banesaar skal faae.</l>
+<l>Ja du skal d&#x00F8;e af Sorg, fordi jeg blev Forr&#x00E6;der,</l>
+<l>Det h&#x00E6;rde skal mit Sind jo meer Rhetea gr&#x00E6;der,</l>
+<l>Min f&#x00F8;rste Kierlighed til Grumhed vendes skal,</l>
+<l>Kom med dit onde Raad, tal nu, Lorano tal.</l>
+</sp>
+<sp>
+<speaker>Lorano.</speaker>
+<l>Rhete&#x00E6; Falskhed maae din Heftighed undskylde,</l>
+<l>Jeg som en trofast Ven mit L&#x00F8;fte skal opfylde,</l>
+<l>Ved mig retm&#x00E6;ssig Sag du skal mod hende faae,</l>
+<l>Forlad dig kun paa mig, jeg strax begynde maae.</l>
+<stage>(han gaaer.)</stage>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="1_5">
+<head type="sub">Femte Optrin.</head>
+<sp>
+<speaker>Stryange,</speaker> <stage>(allene.)</stage>
+<l>Ak! Himmel! hvilket Skridt! hvor er jeg? hvilke Tanker!</l>
+<l>Af Skr&#x00E6;k, af Skamfuldhed mit grumme Hierte banker,</l>
+<l>O! Guder, o! hvi slaaer ei Vredens Torden ned</l>
+<l>Og knuser en Barbar og straffer Gruesomhed?</l>
+<l>I t&#x00F8;ve! nu velan, alt meer mit Hierte h&#x00E6;rdes,</l>
+<l>Jeg snart ei l&#x00E6;nger skal for Guder, selv forf&#x00E6;rdes,</l>
+<l>Til Laster jeg alt meer og meere Styrke faaer,</l>
+<l>Om Pligt og Dyd og Gud al Tanke mig forgaaer.</l>
+<l>Zarine! ja du har en Talsmand i mit Hierte,</l>
+<l>Som alt for meget mig om dine Dyder l&#x00E6;rte.</l>
+<l>Den Viisdom hun mig tit i Krigen skue lod,</l>
+<l>Den &#x00C6;delmodighed, det meer end Heltemod.</l>
+<stage>(efter nogen Taushed.)</stage>
+<l>Hun taler, hvilket Sprog og T&#x00E6;nkekraft og Orden!</l>
+<l>Hun strider, hvilket Mod! hun truer, hvilken Torden!</l>
+<l>Hun byder, Tigren selv med Lyst adlyde vil!</l>
+<l>Hun hader, hvilken Skr&#x00E6;k! hun elsker, hvilken Ild!</l>
+<l part="I">Men hvad! Rhetea der &#x2013; &#x2013;</l>
+<stage>(hun kommer hastig ind.)</stage></sp>
+</div>
+<div type="uchapter" subtype="scene" n="1_6">
+<head type="sub">Siette Optrin.</head>
+<stage>Rhetea, Nitocre, Stryange.</stage>
+<sp>
+<speaker>Rhetea.</speaker>
+<l part="F">O! jeg min Seiervinder</l>
+<l>Omfavner, men hvordan! jeg dig bedr&#x00F8;vet finder;</l>
+<l>Tag min Stryange dog, tag Deel udi min Fryd,</l>
+<l>Og af Rhete&#x00E6; Haand ei denne Krands forskyd,</l>
+<l part="I">Og dette Sv&#x00E6;rd, som dig &#x2013; &#x2013;</l>
+</sp>
+<sp>
+<speaker>Stryange.</speaker>
+<stage>(rykkende Sv&#x00E6;rdet af hendes Haand.)</stage>
+<l part="F">Ja jeg skal Sv&#x00E6;rdet tage,</l>
+<l>Men viid, en Troel&#x00F8;s kan ved Gaver ei behage.</l>
+</sp>
+<sp>
+<speaker>Rhetea.</speaker>
+<l>En Troel&#x00F8;s! Himmel! hvad! hvo har bedraget dig?</l>
+</sp>
+<sp>
+<speaker>Stryange.</speaker>
+<l>Det veed Rhetea best! skielv, naar jeg hevner mig!</l>
+<l part="I">Nok, lad mig gaae &#x2013; &#x2013;</l>
+</sp>
+<sp><speaker>Rhetea,</speaker> <stage>(holder ham tilbage.)</stage>
+<l part="F">Nei holdt, igiennemboer mit Hierte.</l>
+<l>Jeg skielve for din Hevn! hvad er det, hvilken Smerte?</l>
+<l>Forklar mig denne Dr&#x00F8;m! hvordan du hader mig?</l>
+</sp>
+<sp>
+<speaker>Stryange.</speaker>
+<l>Jeg hader, straffer og forbander altid Sviig.</l>
+</sp>
+<sp>
+<speaker>Rhetea.</speaker>
+<l>See din Rethea her for dine F&#x00F8;dder falder</l>
+<l>Og Jord og Himmel selv til Straf og Hevn paakalder:</l>
+<l>Gid Lynilds Straaler ned udi mit Hierte slaae</l>
+<l>Og Jorden revnende mig strax opsluge maae</l>
+<l>Om ei min heele Siel for dig Stryange br&#x00E6;nder</l>
+<l>Og om jeg anden Fryd og Roe og Lykke kiender.</l>
+<l>End den, jeg f&#x00F8;ler i din &#x00F8;mme Kierlighed;</l>
+<l>At leve, d&#x00F8;e hos dig jeg stedse var bereed.</l>
+<l>Hvor ofte har jeg sagt? hvor ofte skal jeg sige?</l>
+<l>At jeg foragtede min Faders heele Rige</l>
+<l>Og vilde glad med dig midt i en &#x00D8;rken boe</l>
+<l>Og jeg, jeg skulde nu ei l&#x00E6;nger v&#x00E6;re troe.</l>
+</sp>
+<sp>
+<speaker>Nitocre.</speaker>
+<l>Rhetea har du glemt Cyaxares din Fader!</l>
+<l>At for hans Undersaat du dig saa dybt nedlader?</l>
+<l>Viid disse Sukke kun van&#x00E6;re meer din Stand.</l>
+</sp>
+<sp>
+<speaker>Rhetea.</speaker>
+<l>Nei de mig &#x00C6;re gi&#x00F8;r, de ofres til min Mand.</l>
+<l>Om jeg mit Hierte selv af Brystet kunde rive,</l>
+<l>Jeg var i Stand dertil, for Troeskabs Pandt at give;</l>
+<l>Men er ei Taarer nok? foragter du min Eed?</l>
+<l>Velan, st&#x00F8;d til og hevn en skuffet Kierlighed.</l>
+</sp>
+<sp>
+<speaker>Stryange,</speaker> <stage>(ved sig selv.)</stage>
+<l>O! hvilken gruesom Strid, mit Hierte bliv forh&#x00E6;rdet.<note type="footnote">forh&#x00E6;rdet.] <hi rend="italic">rettet fra:</hi> forh&#x00E6;rdet <hi rend="italic">(trykkfeil)</hi></note></l>
+</sp>
+<sp>
+<speaker>Rhetea.</speaker>
+<l>Stryange tal, hvordan! du er maaskee forf&#x00E6;rdet,</l>
+<l>Fordi Mistanke dig saa vit forledet har;</l>
+<l>Siig, hader du endnu, elskv&#x00E6;rdige Barbar.</l>
+</sp>
+<sp>
+<speaker>Stryange.</speaker>
+<l>Nei Kierlighed til dig er Kilden til min Smerte;</l>
+<l>Men gid kun bittert Had opfylde maae mit Hierte</l>
+<l>Jeg maae, &#x2013; jeg gyser for min egen Gruesomhed</l>
+<l>Jeg maae forglemme dig og Himlen og min Eed.</l>
+<stage>(han gaaer.)</stage></sp>
+</div>
+<div type="uchapter" subtype="scene" n="1_7">
+<head type="sub">Syvende Optrin.</head>
+<stage>Rhetea. Nitocre.</stage>
+<sp>
+<speaker>Rhetea.</speaker>
+<l>Retf&#x00E6;rdig Himmel, hvad! var det ham selv som talte?</l>
+<l>Min Mand! Stryange, som sit Raserie afmalte?</l>
+<l>Jeg gyser, hvilke Ord! min S&#x00F8;ster ak jeg maae &#x2013;</l>
+</sp>
+<sp>
+<speaker>Nitocre.</speaker>
+<l>Uskyldige, du skal af Himlen Biestand faae.</l>
+<l>Hvo kan udredde sig af disse Bitterheder?</l>
+<l>Og hvo kan holde ud det St&#x00F8;d, man os bereder?</l>
+<l>Stryange nu saa grum, der f&#x00F8;r saa venlig var,</l>
+<l>Mod Dyden, Guder, dig en spottende Barbar.</l>
+<l>Han! en Misgierningsmand! han sin Rhetea hader?</l>
+<l>O! Gud, i hvilken Qval han sin Gemal forlader!</l>
+<l>Ja Himmel! hvis du dog endnu retf&#x00E6;rdig er</l>
+<l>Og undertrykte Dyd paa Jorden haver kier,</l>
+<l part="I">Straf en Lastv&#x00E6;rdig &#x2013; &#x2013;</l>
+</sp>
+<sp>
+<speaker>Rhetea.</speaker>
+<l part="F">Nei beed godt for den Forr&#x00E6;der!</l>
+<l>Den kun er uden Haab, som sig i Laster gl&#x00E6;der.</l>
+<l>Han skr&#x00E6;kkes ved sig selv, han strider, gid han maae</l>
+<l>I Guder! h&#x00F8;rer, gid Stryange Seier faae.</l>
+</sp>
+<p rend="center">Ende paa f&#x00F8;rste Optog.</p>
+</div>
+</div>
+<div type="chapter" subtype="act" n="2">
+<head type="main"><ref type="contents" target="contents_4" xml:id="chapter_4">Andet Optog.</ref></head>
+<div type="uchapter" subtype="scene" n="2_1">
+<head type="sub">F&#x00F8;rste Optrin.</head>
+<sp>
+<speaker>Stryange,</speaker> <stage>(allene.)</stage>
+<l>Hvad Strid udi mit Bryst, en Ild den anden m&#x00F8;der:</l>
+<l>Af &#x00D8;mhed nu for dig Rhetea Hiertet bl&#x00F8;der,</l>
+<l>Nu Sacers Dronning vandt og hendes Yndighed</l>
+<l>Udjaget af mit Bryst min f&#x00F8;rste Kierlighed.</l>
+<l>Nu Pligt og Eed igien mit Hierte s&#x00F8;nderriver,</l>
+<l>Min Elskov hader jeg, og selv min B&#x00F8;ddel bliver.</l>
+<l>Ja, Dyd, Uskyldighed! du har, jeg f&#x00F8;ler det,</l>
+<l>Du har i Himlen den, som vaager for din Ret &#x2013;</l>
+<l>Men Sacers Dronning &#x2013; Nei jeg Dyden overvinder</l>
+<l>Jeg glemmer Eed og Pligt og ingen Lov forbinder&#x2013;</l>
+<l>Dog &#x2013; hvorfor glemme Pligt? Jeg Dronningen har kier:</l>
+<l>Det er: jeg agter h&#x00F8;it Dyd og Fortienester &#x2013; &#x2013;</l>
+<l>Men kan Meeneederie paa denne Grund undskyldes?</l>
+<l>Nei, Laster dog omsonst med Dydens Glands forgyldes:</l>
+<l>Hvad har Rhetea giort? Mon hun lastv&#x00E6;rdig er?</l>
+<l>Fordi jeg &#x00F8;nsker det og har en anden kier?</l>
+<l>Dog har Lorano sagt &#x2013; &#x2013; Men see, der er Zarine,</l>
+<l>O! Himmel, hvilke Tr&#x00E6;k og majest&#x00E6;tisk Mine!</l>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="2_2">
+<head type="sub">Andet Optrin.</head>
+<stage>(Zarine og en Vaabendrager, tillige med fire Bev&#x00E6;bnede, som gaae tv&#x00E6;rs igiennem Skuepladsen, og Stryange.)</stage>
+<sp>
+<speaker>Zarine.</speaker>
+<l>Stryange! Meders Helt og Martis tappre S&#x00F8;n!</l>
+<l>Ved dig blev denne Dag for alle Dage ski&#x00F8;n.</l>
+<l>I Dag jeg f&#x00F8;rste Gang min Ligemand har fundet,</l>
+<l>Som ei ved Vaaben har, men ved Velgierning vundet;</l>
+<l>Men viid, jeg taaler ei at du mig overgaaer,</l>
+<l>Og til at hevne mig jeg vist Anledning faaer.</l>
+<l>Da vil jeg l&#x00E6;re dig at Sacers Dronning eier</l>
+<l>Et Hierte, som attraaer ei nogen st&#x00F8;rre Seier,</l>
+<l>End den, at vinde ved H&#x00F8;imodighed og Dyd;</l>
+<l>At gi&#x00F8;re Vederlag er store Sieles Fryd.</l>
+<l>Blant mine Sacer var det kun min sande &#x00C6;re,</l>
+<l>Naar jeg den Ypperste ved Dyder kunde v&#x00E6;re,</l>
+<l>Saa tit Fortienester jeg gav sin rette L&#x00F8;n,</l>
+<l>Og r&#x00F8;rt af Medynk blev ved den Fortr&#x00E6;ngtes B&#x00F8;n.</l>
+<l>Og du, Stryange &#x2013; Nei du b&#x00F8;r ei Seier Vinde:</l>
+<l>I &#x00C6;delmodighed du skal din Lige finde,</l>
+<l>Jeg utaalmodig nu kun &#x00F8;nsker Leilighed,</l>
+<l>Hvorved at faae beviist min Siels Erkiendtlighed.</l>
+<l>I Krigen saae jeg dig din H&#x00E6;r som Helt anf&#x00F8;re,</l>
+<l>Og dristigt Anfald med Forsigtighed at gi&#x00F8;re;</l>
+<l>Jeg blev din Viisdom vaer og saae dit sande Mod.</l>
+<l>Ak! t&#x00E6;nkte jeg, i Dag vil Seier koste Blod.</l>
+<l>Jeg Ild i Sacerne ved mine Raab oppusted:</l>
+<l>Og selv med Raad og Mod og Vrede mig udrusted;</l>
+<l>Jeg f&#x00F8;lte mig ei selv, jeg allevegne var,</l>
+<l>Og denne Arm til dig, Stryange, D&#x00F8;den bar.</l>
+<l>Jeg faldt og mine Folk jeg h&#x00F8;rte strax at skrige:</l>
+<l>O! Dronning o! nu faldt med dig, det heele Rige:</l>
+<l>Min Siel igiennemtr&#x00E6;ngt af denne Torden blev,</l>
+<l>Mit Pilekoger jeg forbittret s&#x00F8;nderrev.</l>
+<l>I dette &#x00D8;ieblik jeg f&#x00F8;rst min Fiende kiender:</l>
+<l>Du selv mig rykker ud af dine Meders H&#x00E6;nder</l>
+<l>Opbyder os til Fred og vil ei stride meer,</l>
+<l>Fordi du ved mit Fald mit Folk nedslaget seer.</l>
+<l>Du ei benytter dig af min uh&#x00E6;ldig Skiebne,</l>
+<l>Du kun med Vaaben vil mod Vaaben dig bev&#x00E6;bne,</l>
+<l>Med en Ulykkelig du har Medlidenhed,</l>
+<l>Og mig forunder Valg imellem Strid og Fred.</l>
+<l>Paa &#x00C6;delmodighed jeg vist ei kunde ski&#x00F8;nne,</l>
+<l>Om med H&#x00F8;iagtelse jeg dig ei vilde l&#x00F8;nne;</l>
+<l>Ja &#x00F8;nsker Meders Helt med os at have Fred:</l>
+<l>Velan, at slutte den jeg er med Lyst bereed.</l>
+</sp>
+<sp>
+<speaker>Stryange.</speaker>
+<l>Et andet Forbund f&#x00F8;rst vi b&#x00F8;r o! Dronning gi&#x00F8;re,</l>
+<l>Du f&#x00F8;r min Meening veed; o! maatte jeg kun h&#x00F8;re</l>
+<l>Et Svar, som gl&#x00E6;dede min l&#x00E6;ngselfulde Siel!</l>
+<l>Velan, det staaer til dig, bestem Stryanges Vel.</l>
+</sp>
+<sp>
+<speaker>Zarine.</speaker>
+<l>Stryange! ja du er det beste Hierte v&#x00E6;rdig.</l>
+<l>Betaler det min Gield, velan saa er jeg f&#x00E6;rdig;</l>
+<l>Jeg Hiertet skylder dig; retm&#x00E6;ssigt er dit Krav.</l>
+<l>Det Liv b&#x00F8;r v&#x00E6;re dit, som du mig nyelig gav:</l>
+<l>Men kielen Elskov b&#x00F8;r ei dig og mig forleede,</l>
+<l>Smaa Siele drives kun ved heftig Attraa&#x0027;s Hede.</l>
+<l>Cyaxares maae f&#x00F8;rst samtykke dette Baand.</l>
+</sp>
+<sp>
+<speaker>Stryange.</speaker>
+<l part="I">Cyaxares, hvorfor?</l>
+</sp>
+<sp>
+<speaker>Zarine.</speaker>
+<l part="F">Han selv med egen Haand</l>
+<l>Stryange leede skal som Brudgom til Zarine.</l>
+</sp>
+<sp>
+<speaker>Stryange.</speaker>
+<l>Al Ophold blive vil min Siel til Qval og Pine,</l>
+<l>Til Kongen sender jeg strax en Herold, som skal</l>
+<l>Berette Seieren, min Elskov og dit Valg.</l>
+</sp>
+<sp>
+<speaker>Zarine.</speaker>
+<l>Men er det saa du vil din Brud engang behage?</l>
+<l>En Dronning t&#x00E6;nker du udv&#x00E6;lger til sin Mage</l>
+<l>Den, som mod Eed og Pligt sin Herre har forladt,</l>
+<l>Den, som har paa sit Navn et Lasters M&#x00E6;rke sat?</l>
+<l>Nei nei, Stryange viid jeg &#x00C6;rens Love kiender.</l>
+<l>Et nedrigt Baand ei skal van&#x00E6;re disse H&#x00E6;nder;</l>
+<l>Om du som min Gemal til Roxanace kom,</l>
+<l>Cyaxares med Grund strax f&#x00E6;ldte denne Dom:</l>
+<l>Zarine nu ei meer har kunnet Modstand gi&#x00F8;re,</l>
+<l>Hun derfor har fors&#x00F8;gt Stryange at forf&#x00F8;re;</l>
+<l>Man kiender Qvinders List; hun, for at skuffe mig,</l>
+<l>Med Overl&#x00F8;beren endog foreener sig.</l>
+</sp>
+<sp>
+<speaker>Stryange.</speaker>
+<l part="I">Nei dette gaaer for vidt &#x2013; &#x2013;</l>
+</sp>
+<sp>
+<speaker>Zarine.</speaker>
+<l part="F">Stryange d&#x00E6;mp din Vrede</l>
+<l>Du vil dog aldrig mig til denne Skam forleede?</l>
+<l>Jeg her i Faders Sted Cyaxares anseer.</l>
+<l>Du ikkun som hans S&#x00F8;n mit Hierte v&#x00E6;rdig er,</l>
+<l>Paa &#x00E6;dle Handlinger man h&#x00F8;ie Siele kiender;</l>
+<l>Hvor s&#x00F8;dt, naar en Monark foreener vore H&#x00E6;nder,</l>
+<l>Naar tvende Rigers Folk med samlet Iver skal</l>
+<l>Ved B&#x00F8;n til Guderne velsigne vores Valg:</l>
+<l>Saa staaer det Konger an sin Bryllupsfest at holde.</l>
+</sp>
+<sp>
+<speaker>Stryange.</speaker>
+<l>Ak! Himmel, hvilken Qval maae det min Siel forvolde.<note type="footnote">forvolde.] <hi rend="italic">rettet fra:</hi> forvolde <hi rend="italic">(trykkfeil)</hi></note></l>
+</sp>
+<sp>
+<speaker>Zarine.</speaker>
+<l>Stryange! men hvordan er det dig til Besv&#x00E6;r,</l>
+<l>At tale nogle Ord for den, du haver kier?</l>
+<l>At sige din Monark, hvis Vink du b&#x00F8;r adlyde,</l>
+<l>At Sacers Dronning har en Krone dig at byde?</l>
+<l>Og at vi begge to vort Venskab byde ham?</l>
+<l>Er det for vanskeligt? anseer du det for Skam?</l>
+</sp>
+<sp>
+<speaker>Stryange.</speaker>
+<l>F&#x00F8;r maae du f&#x00F8;re mig til Parthien som Slave.</l>
+</sp>
+<sp>
+<speaker>Zarine.</speaker>
+<l>Jeg altsaa til Gemal skal en Friegiven have!</l>
+<l>F&#x00F8;r straffe Himlen mig; men siig mig, kiere siig:</l>
+<l>Hvad mod Cyaxares dog har opirret dig?</l>
+</sp>
+<sp>
+<speaker>Stryange.</speaker>
+<l>H&#x00F8;r Dronning, straf mig kun med Spot, Foragt og Vrede:</l>
+<l>Jeg mod det v&#x00E6;rste St&#x00F8;d mit Hierte vil berede;</l>
+<l>Men viid: Cyaxares jeg aldrig meere seer,</l>
+<l>Og aldrig af hans Mund Befalning tager meer.</l>
+<l>Imellem ham og mig alt Forbund er oph&#x00E6;vet.</l>
+<l>Jeg hidtil har hans Ret med Flid og Mod handth&#x00E6;vet,</l>
+<l>Han aldrig ventet har, dog skienker jeg ham Fred;</l>
+<l>Ei nogen D&#x00F8;delig til saadant Grunden veed.</l>
+<l>Zarine troe dog kun Stryange &#x00C6;ren kiender,</l>
+<l>Og ski&#x00F8;nt en heftig Ild udi mit Hierte br&#x00E6;nder,</l>
+<l>Den f&#x00F8;r fort&#x00E6;re mig, f&#x00F8;r jeg bekiender her</l>
+<l>Hvad Grunden til mit Had og min Bekymring er.</l>
+</sp>
+<sp>
+<speaker>Zarine.</speaker>
+<l>Men hvo er Borgen for at ei min &#x00C6;re lider?</l>
+<l part="I">Din Taushed &#x2013; &#x2013;</l>
+</sp>
+<sp>
+<speaker>Stryange.</speaker>
+<l part="F">Dronning, viid det mod mit L&#x00F8;fte strider</l>
+<l>Og mod min Pligt &#x2013; &#x2013;</l>
+</sp>
+<sp>
+<speaker>Zarine.</speaker>
+<l part="F">Nu vel, men t&#x00E6;nk at &#x00C6;ren er</l>
+<l>En Skat, vi meere b&#x00F8;r end Livet have kier.</l>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="2_3">
+<head type="sub">Tredie Optrin.</head>
+<stage>Lorano, de forrige.</stage>
+<sp>
+<speaker>Lorano.</speaker>
+<l>Ved Leiren venter dig, Stryange, nu den Skare,</l>
+<l>Som for sit F&#x00F8;deland har sat sit Liv i Fare,</l>
+<l>Hvis Saar bevidne dig, at de foruden Frygt</l>
+<l>I Krigens Heede har det Yderste fors&#x00F8;gt.</l>
+<l>Naar deres Tapperhed personlig du ber&#x00F8;mmer.</l>
+<l>Enhver med sine Saar sig strax lyksalig d&#x00F8;mmer.</l>
+<l>Og du o! Dronning f&#x00F8;lg Anf&#x00F8;reren og see,</l>
+<l>At Roes for Tapperhed kan l&#x00E6;ge Saarede.</l>
+</sp>
+<sp>
+<speaker>Zarine.</speaker>
+<l>Ja kom Stryange! vi gaae hen for at beskue</l>
+<l>De grumme Virkninger af Sv&#x00E6;rd og Spyd og Bue;</l>
+<l>Og vore Saarede skal l&#x00E6;re dig og mig,</l>
+<l>At Seierherren selv endog har tabt ved Krig.</l>
+<l>Hvad har Monarken vel til Vederlag at give</l>
+<l>For dem, som Haand og Fod i Krig afhugne blive?</l>
+<l>Naar Sundhed er forliist, hvad gi&#x00F8;r da lykkelig?</l>
+<l>Den derfor B&#x00F8;ddel var, som Gl&#x00E6;de fandt i Krig.</l>
+<l>Min Gud, hvor tr&#x00E6;nge sig de Sukke til mit Hierte,</l>
+<l>Som st&#x00F8;nnes ud af den, der under Vee og Smerte</l>
+<l>Paakalder L&#x00E6;gens Hielp og gyser for sig selv?</l>
+<l>Kom, f&#x00F8;lg min Helt, betragt vor Gruesomhed og skielv.</l>
+<stage>(de gaae.)</stage>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="2_4">
+<head type="sub">Fierde Optrin.</head>
+<sp>
+<speaker>Lorano,</speaker> <stage>(allene.)</stage>
+<l>Hvad Uforsigtighed! han hid Zarine f&#x00F8;rte.</l>
+<l>End om Rhetea kom og deres Tale h&#x00F8;rte!</l>
+<l>Og deres Kierlighed; da var den heele Sag</l>
+<l>Til f&#x00E6;lles Undergang og Skiendsel lagt for Dag.</l>
+<l>Jeg til Rhetea selv b&#x00F8;r dette Budskab f&#x00F8;re;</l>
+<l>Af falsk Fortroelighed en Dyd jeg her skal gi&#x00F8;re.</l>
+<l>Dog nei &#x2013; hvis hun derom kun mindste Kundskab fik,</l>
+<l>Hun strax med B&#x00F8;n og Graad til Sacers Dronning gik,</l>
+<l>Og hun, af Pligt og Dyd og Eed en blind Slavinde,</l>
+<l>Sig aldrig vilde meer til en Meeneeder binde:</l>
+<l>Stryanges Vanh&#x00E6;ld da med min foreenet var;</l>
+<l>Men see, der kommer hun, nu gielder det et Svar.</l>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="2_5">
+<head type="sub">Femte Optrin.</head>
+<stage>Rhetea. Lorano.</stage>
+<sp>
+<speaker>Rhetea.</speaker>
+<l>Som Natten sagtelig op over Himlen glider,</l>
+<l>Saa voxer Frygt og Sorg; forgieves Haabet strider.</l>
+<l>Men hvad! Lorano her! tal, gl&#x00E6;d mig, om du kan?</l>
+<l>Siig, hvad fortryllet har den allerbeste Mand?</l>
+</sp>
+<sp>
+<speaker>Lorano.</speaker>
+<l>Hans Br&#x00F8;de Himlen veed; men nok han er lastv&#x00E6;rdig,</l>
+<l>Og til jeg veed ei hvad for en Misgierning f&#x00E6;rdig.</l>
+</sp>
+<sp>
+<speaker>Rhetea.</speaker>
+<l>Til en Misgierning han! o! nei Stryanges Siel</l>
+<l>Er alt for stor dertil, jeg kiender ham for vel.</l>
+</sp>
+<sp>
+<speaker>Lorano.</speaker>
+<l>Hvad vil du kalde det, om han Rhetea hader,</l>
+<l>Og om Forr&#x00E6;derie opspindes mod din Fader?,</l>
+</sp>
+<sp>
+<speaker>Rhetea.</speaker>
+<l>Forr&#x00E6;derie &#x2013; min Mand! nei du lastv&#x00E6;rdig er,</l>
+<l>Som mod en pr&#x00F8;vet Dyd, mod den jeg haver kier</l>
+<l>Saa grov Beskyldning t&#x00F8;r med dristig Fr&#x00E6;khed f&#x00F8;re.</l>
+</sp>
+<sp>
+<speaker>Lorano.</speaker>
+<l part="I">Tillad, jeg beder dog &#x2013; &#x2013;</l>
+</sp>
+<sp>
+<speaker>Rhetea.</speaker>
+<l part="F">Jeg intet meer vil h&#x00F8;re.</l>
+</sp>
+<sp>
+<speaker>Lorano.</speaker>
+<l part="I">Din egen Velf&#x00E6;rd &#x2013; &#x2013;</l>
+</sp>
+<sp>
+<speaker>Rhetea.</speaker>
+<l part="F">Naar om ham jeg intet veed,</l>
+<l>Adsp&#x00F8;rger jeg saa trygt min egen Kierlighed.</l>
+</sp>
+<sp>
+<speaker>Lorano.</speaker>
+<l part="I">Men Kierlighed er blind &#x2013; &#x2013;</l>
+</sp>
+<sp>
+<speaker>Rhetea.</speaker>
+<l part="F">Men Blindhed selv er Lykke,</l>
+<l>Naar st&#x00F8;rre Lys alt Haab kun skulde undertrykke:</l>
+<l>Ja selv Vildfarelse gi&#x00F8;r ofte lykkelig;</l>
+<l>Var end mit Haab en Dr&#x00F8;m; b&#x00F8;r du da v&#x00E6;kke mig?</l>
+</sp>
+<sp>
+<speaker>Lorano.</speaker>
+<l>Elskv&#x00E6;rdige! jeg b&#x00F8;r, en hellig Pligt mig byder,</l>
+<l>Just naar det falske Haab sig midt i Dr&#x00F8;mmen fryder</l>
+<l>Og n&#x00E6;r sin Undergang paa Bredden roelig laae,</l>
+<l>B&#x00F8;r jeg da tie, som en Afgrund aabnet saae?</l>
+<l>Hvad kan friekiende mig, om jeg det mindste d&#x00F8;lger?</l>
+<l>Min Taushed bliver vist ei uden grumme F&#x00F8;lger.</l>
+</sp>
+<sp>
+<speaker>Rhetea.</speaker>
+<l>Nu vel! saa tal, men t&#x00E6;nk, du taler om min Mand;</l>
+<l>Usandhed allermindst mod ham jeg taale kan.</l>
+</sp>
+<sp>
+<speaker>Lorano.</speaker>
+<l>Jeg veed ei endnu alt; men nok, Stryange s&#x00F8;ger</l>
+<l>Din Undergang og det, som meest min Frygt for&#x00F8;ger&#x2013;</l>
+</sp>
+<sp>
+<speaker>Rhetea.</speaker>
+<l>O! Himmel! styrk mig dog mod et saa gruesomt St&#x00F8;d:</l>
+<l>Bliv ved, Lorano, tal, forkynd mig kun min D&#x00F8;d.</l>
+</sp>
+<sp>
+<speaker>Lorano.</speaker>
+<l>Bag ved Stryanges Telt jeg nyelig fik at h&#x00F8;re</l>
+<l>Hans Ord til Bagoas: du, sagde han, skal f&#x00F8;re</l>
+<l>Mig Underretning om hvad Virkning Giften gi&#x00F8;r,</l>
+<l>Vent til hun drukket har og l&#x00F8;b saasnart hun d&#x00F8;er.</l>
+</sp>
+<sp>
+<speaker>Rhetea.</speaker>
+<l>Lorano, ja jeg d&#x00F8;er, al Kraft med eet forsvinder;</l>
+<l>Den kolde Gysen jeg i hver en Aare finder;</l>
+<l>Jeg d&#x00F8;er foruden Gift; o! Himmel styrk mig dog,</l>
+<l>Saafremt du nogen Deel i Dydens Skiebne tog.</l>
+</sp>
+<sp>
+<speaker>Lorano.</speaker>
+<l>Den vaager over Dyd og redder den af Fare,</l>
+<l>Maaskee den ved min Haand vil her dit Liv bevare,</l>
+<l>F&#x00F8;lg derfor strax mit Raad, du Flugten tage maae:</l>
+<l>Af mig du Vagt og Vogn og F&#x00F8;lgeskab skal faae.</l>
+</sp>
+<sp>
+<speaker>Rhetea.</speaker>
+<l>O! hvilket gruesomt Raad! jeg flye fra min Stryange!</l>
+<l>Dumdristige, du t&#x00F8;r endog af mig forlange,</l>
+<l>At jeg paa dine Ord skal slig Beskyldning troe?</l>
+<l>Forvirret, skielvende, betagen Sands og Roe,</l>
+<l>Jeg iiler for at faae nyt Lys i dette M&#x00F8;rke;</l>
+<l>Stryanges egen Dom skal dine Ord bestyrke;</l>
+<l part="I">Saa l&#x00E6;nge tvivler jeg &#x2013;</l>
+</sp>
+<sp>
+<speaker>Lorano.</speaker>
+<l part="F">Holdt! holdt, jeg dig besv&#x00E6;r</l>
+<l>Ved Guder, Himmel, ja ved alt hvad helligt er:</l>
+<l>Det er min Undergang, min D&#x00F8;d, om du mig r&#x00F8;ber,</l>
+<l>Jeg, som til dig med Frygt og Livets Fare l&#x00F8;ber;</l>
+<l>Saasnart jeg m&#x00E6;rket har det St&#x00F8;d, som truer dig,</l>
+<l>Vil du til Vederlag da saa forraade mig?</l>
+</sp>
+<sp>
+<speaker>Rhetea.</speaker>
+<l>Jeg din Oprigtighed med Taushed skal bel&#x00F8;nne,</l>
+<l>Saafremt jeg ellers veed paa Venskab ret at ski&#x00F8;nne,</l>
+<l>Men intet stille kan min Siels Uroelighed</l>
+<l part="I">F&#x00F8;rend jeg haver talt &#x2013; &#x2013;</l>
+</sp>
+<sp>
+<speaker>Lorano.</speaker>
+<l part="F">T&#x00E6;nk paa din Sikkerhed;</l>
+<l>Lad kun den f&#x00F8;rste Storm sit Raserie udt&#x00F8;mme,</l>
+<l>Fors&#x00F8;g imidlertid hans Vrede at undr&#x00F8;mme.</l>
+<l>Med Tiden han maaskee om Naade beder dig.</l>
+</sp>
+<sp>
+<speaker>Rhetea.</speaker>
+<l>Lorano, denne B&#x00F8;n var let b&#x00F8;nh&#x00F8;rt hos mig:</l>
+<l>Men om jeg Flugten tog &#x2013; nei jeg vil alt fors&#x00F8;ge;</l>
+<l>Lad end min Dristighed min Sorg og Straf for&#x00F8;ge,</l>
+<l>Jeg for Stryanges Fod med B&#x00F8;n mig kaster ned,</l>
+<l>Paa Himlen stoler jeg og min Uskyldighed.</l>
+<l>Min heele Siel ud&#x00F8;st i Suk og Graad skal v&#x00E6;re,</l>
+<l>Med en Ulykkelig han vist skal Medynk b&#x00E6;re!</l>
+<l>Han skal tilgive, ja han skal omfavne mig,</l>
+<l>Min Kierlighed tilsidst skal blive seierrig.</l>
+<l>Og denne Gift maaskee en anden han bestemte</l>
+<l>Maaskee &#x2013; jeg veed ei hvem, mit Navn han dog ei n&#x00E6;vnte?</l>
+<l>Og hvoraf slutter du den lavet var for mig?</l>
+<l>Lorano! nei jeg troer du har bedraget dig.</l>
+</sp>
+<sp>
+<speaker>Lorano.</speaker>
+<l part="I">Men naar &#x2013; &#x2013;</l>
+</sp>
+<sp>
+<speaker>Rhetea.</speaker>
+<l part="F">Ber&#x00F8;v mig dog ei denne s&#x00F8;de Tanke,</l>
+<l>Lad en udmattet Siel af Haabet Kr&#x00E6;fter sanke,</l>
+<l part="I">Forskaan mig for at troe &#x2013; &#x2013;</l>
+</sp>
+<sp>
+<speaker>Lorano.</speaker>
+<l part="F">Jeg sv&#x00E6;r ved Guderne.<note type="footnote">Guderne.] <hi rend="italic">rettet fra:</hi> Guderne: <hi rend="italic">(trykkfeil)</hi></note></l>
+</sp>
+<sp>
+<speaker>Rhetea.</speaker>
+<l>Spar kun din Eed og ynk daarlig Tvivlende.</l>
+<l>Min Tvivl er dog en Pligt og Haabet er min Gl&#x00E6;de;</l>
+<l>Ja skal jeg end engang min Daarlighed begr&#x00E6;de,</l>
+<l>Saa veed jeg dog jeg har, trods Skiebnens Bitterhed,</l>
+<l>Bevaret til min D&#x00F8;d en hellig Troeskabs Eed.</l>
+<l>Fra f&#x00F8;rste Dag da han mit unge Hierte r&#x00F8;rte,</l>
+<l>Da f&#x00F8;rste kielent Suk fra bange Br&#x00F8;st han h&#x00F8;rte,</l>
+<l>Da jeg ham ski&#x00E6;lvende gav f&#x00F8;rste Gang min Haand,</l>
+<l>Har Venskab meer og meer bekr&#x00E6;ftet dette Baand.</l>
+<l>Han var min Mand, min Ven, min Elsker og min Gl&#x00E6;de,</l>
+<l>Hans Hierte var for Dyd og Kierlighed et S&#x00E6;de;</l>
+<l>I Fred elskv&#x00E6;rdig og en tapper Helt i Krig,</l>
+<l>Og denne Helt var min og jeg var lykkelig.</l>
+</sp>
+<sp>
+<speaker>Lorano.</speaker>
+<l part="I">Du var, det er forbie &#x2013; &#x2013;</l>
+</sp>
+<sp>
+<speaker>Rhetea.</speaker>
+<l part="F">Det samme Sprog du taler</l>
+<l>En &#x00E6;ngstet Kierlighed kun ilde den husvaler,</l>
+<l>Som gi&#x00F8;r en elsket Ven forhadt, mist&#x00E6;nkelig:</l>
+<l>Nei, viid jeg elsker ham til Trods og hader dig.</l>
+<l part="I">Gaae bort, forund mig Roe &#x2013; &#x2013;</l>
+<stage>(Han gaaer.)</stage>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="2_6">
+<head type="sub">Siette Optrin.</head>
+<stage>Stryange, Rhetea.</stage>
+<sp>
+<speaker>Rhetea.</speaker>
+<l part="F">Han t&#x00F8;r min Mand van&#x00E6;re?</l>
+<l>Nei min Stryange! nei! mit Hierte dit skal v&#x00E6;re,</l>
+<l>Man sige hvad man vil &#x2013; men Himmel er du der?</l>
+<l>Forbittret! o! bet&#x00E6;nk, jeg din Rhetea er.</l>
+</sp>
+<sp>
+<speaker>Stryange.</speaker>
+<l>Forskaan mig dog engang for disse Suk og B&#x00F8;nner,</l>
+<l>Jeg kiedes kun derved; jeg er ei den som ski&#x00F8;nner</l>
+<l>Paa Qvinders kielne Graad; forstyr mig ei; jeg veed</l>
+<l>Alt hvad du sige kan om Troeskab, Kierlighed.</l>
+</sp>
+<sp>
+<speaker>Rhetea.</speaker>
+<l>Stryange! straffer du saa haardt det beste Hierte?</l>
+<l>Jeg segner kraftesl&#x00F8;s; og savner i min Smerte</l>
+<l>Den &#x00F8;mme Tr&#x00F8;st, som f&#x00F8;r har lindret al min N&#x00F8;d,</l>
+<l>Den Tr&#x00F8;st at gr&#x00E6;de frit i min Stryanges Ski&#x00F8;d.</l>
+<l>Er du ei meere min, hvad har jeg da at haabe?</l>
+<l>Hvi vil jeg da omsonst til d&#x00F8;ve Guder raabe?</l>
+<l>Stryange! maatte jeg endnu omfavne dig</l>
+<l>Og d&#x00F8;e udi din Arm, saa d&#x00F8;er jeg lykkelig.</l>
+<l>O! du bev&#x00E6;get er, maaskee det dig fortryder?</l>
+<l>Mit ganske Hierte jeg dig strax igien tilbyder.</l>
+<l>Den Gl&#x00E6;de mig forund, jeg dig tilgive maae &#x2013; &#x2013;</l>
+<l>Lad mig min Mand igien, lad mig dit Hierte faae.</l>
+<l>Ja Himlen veed det best, mit &#x00F8;mme Hierte br&#x00E6;ndte,</l>
+<l>Det Suk paa Suk for dig til Krigens Gud opsendte,</l>
+<l>Og da du Seier vandt, min gl&#x00E6;defulde Siel</l>
+<l>Forvirret spurgte strax: gaaer det Stryange vel?</l>
+<l>Men nu jeg kommer her for Hiertet at udbrede,</l>
+<l>Min allerbeste Ven! har jeg fortient din Vrede?</l>
+<l>Tr&#x00F8;st din Rhetea dog, tal, min Stryange, tal</l>
+<l>Befrie min &#x00F8;mme Siel, jeg ellers d&#x00F8;er af Qval.</l>
+</sp>
+<sp>
+<speaker>Stryange.</speaker>
+<l>O! hvilke F&#x00F8;lelser! mit Hierte s&#x00F8;nderrive:</l>
+<l>Og dine Sukke mig saa mange Tordner blive,</l>
+<l>Bebreide mig min Skam; ja jeg lastv&#x00E6;rdig er,</l>
+<l>Det dig uv&#x00E6;rdigt er, om du mig haver kier.</l>
+</sp>
+<sp>
+<speaker>Rhetea.</speaker>
+<l>Den mindst lastv&#x00E6;rdig er, som meest sig selv ford&#x00F8;mmer;</l>
+<l>At tie med sin Roes den Viise stedse s&#x00F8;mmer.</l>
+<l>Kom min Stryange, kom, lastv&#x00E6;rdig som du er;</l>
+<l>Bekiend det nok engang og jeg dig elsker meer.</l>
+</sp>
+<sp>
+<speaker>Stryange.</speaker>
+<l>Rhetea! ja du var en bedre Skiebne v&#x00E6;rdig.</l>
+<l>See der er Sv&#x00E6;rdet, st&#x00F8;d og straf kun en Lastv&#x00E6;rdig.</l>
+</sp>
+<sp>
+<speaker>Rhetea.</speaker>
+<l>Ak! Himmel! med dig selv du ikkun f&#x00F8;rer Krig,</l>
+<l>Men naar jeg elsker, ja naar jeg tilbeder dig,</l>
+<l>Er det endda ei nok! skal endnu Klager h&#x00F8;res?</l>
+</sp>
+<sp>
+<speaker>Stryange.</speaker>
+<l>Ja min Misgierning ei dermed retf&#x00E6;rdiggi&#x00F8;res.</l>
+</sp>
+<sp>
+<speaker>Rhetea.</speaker>
+<l>Misgierning! store Gud! tal dog, jeg dig besv&#x00E6;r,</l>
+<l>Oplys min bange Siel! tal om du mig har kier.</l>
+</sp>
+<sp>
+<speaker>Stryange.</speaker>
+<l>Om jeg dig haver kier! Du Hiertet s&#x00F8;nderriver,</l>
+<l>Din &#x00D8;mhed straffer mig og St&#x00F8;d paa St&#x00F8;d mig giver,</l>
+<l>Ja Skam, Bebreidelse med Harm foreene sig,</l>
+<l>Og storme i mit Bryst, som for at dr&#x00E6;be mig;</l>
+<l>Jeg, jeg er en Barbar, det skal din Sorg dig l&#x00E6;re,</l>
+<l>Jeg kan Fortvivlelsen ei meer i Hiertet b&#x00E6;re,</l>
+<l>Den bryder voldsom ud: h&#x00F8;r nu din Mand og skielv:</l>
+<l>Jeg hader Dyd og dig og Guder og mig selv.</l>
+<stage>(Han gaaer.)</stage>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="2_7">
+<head type="sub">Syvende Optrin.</head>
+<sp>
+<speaker>Rhetea.</speaker> <stage>(allene.)</stage>
+<l>Hvor er jeg! hvilken Skr&#x00E6;k! ak! Himmel jeg fortviler!</l>
+<l>Nei efter den Barbar med svage Skridt jeg iiler</l>
+<l>O! Himmel du som seer min Smertes Bitterhed,</l>
+<l>Formild hans Raserie og styrk min Kierlighed.</l>
+<stage>(Hun gaaer.)</stage>
+</sp>
+<p rend="center">Ende paa andet Optog.</p>
+</div>
+</div>
+<div type="chapter" subtype="act" n="3">
+<head type="main"><ref type="contents" target="contents_5" xml:id="chapter_5">Tredie Optog.</ref></head>
+<div type="uchapter" subtype="scene" n="3_1">
+<head type="sub">F&#x00F8;rste Optrin.</head>
+<stage>(Stryange kommer ind og har Zarine ved Haanden.)</stage>
+<sp>
+<speaker>Zarine.</speaker>
+<l>Dyb Taushed hersker her. Paa M&#x00F8;rkets lette Vinger</l>
+<l>Fremglider stille Nat, dens sorte Sl&#x00F8;er omringer</l>
+<l>Naturens heele Kreds: Nu er det Tid og Sted,</l>
+<l>At aabenbare dig min Frygt og Kierlighed.</l>
+</sp>
+<sp>
+<speaker>Stryange.</speaker>
+<l part="I">Din Frygt &#x2013; &#x2013;</l>
+</sp>
+<sp>
+<speaker>Zarine.</speaker>
+<l part="F">Stryange, ja gid den ugrundet v&#x00E6;re!</l>
+<l>Og min Vildfarelse du mig kun vilde l&#x00E6;re,</l>
+<l>Jeg elsker Sandhed h&#x00F8;it; men Hiertet &#x00F8;nsker her</l>
+<l>Et Vidnesbyrd af dig, at det bedraget er &#x2013; &#x2013;</l>
+<l>Jeg Krigen har fors&#x00F8;gt og St&#x00E6;der overvundet,</l>
+<l>Jeg Freden dyrket har og i dens Skygge fundet</l>
+<l>En s&#x00F8;d og stille Roe og f&#x00F8;ler al den Fryd,</l>
+<l>Som Konger f&#x00F8;le kan ved at bel&#x00F8;nne Dyd.</l>
+<l>I Dag jeg f&#x00F8;ler f&#x00F8;rst en Ild udi mit Hierte,</l>
+<l>En Fryd, som ligner Frygt, en Vellyst fuld af Smerte,</l>
+<l>Af L&#x00E6;ngsel, &#x00D8;nsker, Tvivl, Mistanke, Traurighed,</l>
+<l>Velan, jeg fatter let at det er Kierlighed.</l>
+<l>Men skal dog Kierlighed til Selskabsbroder have</l>
+<l>En Qval, som Elskeren bestandig gi&#x00F8;r til Slave?</l>
+<l>Er stedse Kierlighed Lyksaligheds Ruin?</l>
+<l>Maaskee den er det kun, saasnart den er som min?</l>
+<l>Ja dette b&#x00F8;r jeg troe; til dig jeg derfor kommer,</l>
+<l>Min Elsker v&#x00E6;re skal min og sin egen Dommer.</l>
+<l>Du sukker, skielver ved at n&#x00E6;vne Kierlighed.</l>
+</sp>
+<sp>
+<speaker>Stryange.</speaker>
+<l>Jeg skielver &#x2013; Dronning, nei jeg er med Lyst bereed.<note type="footnote">bereed.] <hi rend="italic">rettet fra:</hi> bereed <hi rend="italic">(trykkfeil)</hi></note></l>
+</sp>
+<sp>
+<speaker>Zarine.</speaker>
+<l part="I">Cyaxares &#x2013; &#x2013;</l>
+</sp>
+<sp>
+<speaker>Stryange.</speaker>
+<l part="M">Hvad han? &#x2013; &#x2013;</l>
+</sp>
+<sp>
+<speaker>Zarine.</speaker>
+<l part="F">Du r&#x00F8;ber dig, Stryange.</l>
+</sp>
+<sp>
+<speaker>Stryange.</speaker>
+<l part="I">Jeg r&#x00F8;ber mig! hvormed? &#x2013; &#x2013;</l>
+</sp>
+<sp>
+<speaker>Zarine.</speaker>
+<l part="F">Min Helt! hvor er jeg bange!</l>
+<l>At din Monark mod dig en vigtig Klage har,</l>
+<l>Og strax min Kierlighed en grov Misgierning var.</l>
+</sp>
+<sp>
+<speaker>Stryange.</speaker>
+<l>Og dette kan du troe, om den, som dig tilbeder?</l>
+<l>Men naar jeg sv&#x00E6;r ved Gud og althvad helligt hedder</l>
+</sp>
+<sp>
+<speaker>Zarine.</speaker>
+<l>Saa voxer kun min Frygt, min Tvivl bestyrkes meer:</l>
+<l>Spar derfor kun din Eed og siig hvad Sagen er.</l>
+<l>Du veed min Kierlighed din Br&#x00F8;de let undskylder,</l>
+<l>En Dronning mod sig selv sin Pligt kun slet opfylder,</l>
+<l>Naar hun ei kiender den, hun v&#x00E6;lger til Gemal:</l>
+<l>Oplys min bange Tvivl! tal da Stryange, tal &#x2013;</l>
+</sp>
+<sp>
+<speaker>Stryange.</speaker>
+<l part="I">Din Tvivl mig Uret gi&#x00F8;r &#x2013; &#x2013;</l>
+</sp>
+<sp>
+<speaker>Zarine.</speaker>
+<l part="F">Din Taushed dig van&#x00E6;rer</l>
+<l>Og mod din Villie mig din Skam og Br&#x00F8;de l&#x00E6;rer.</l>
+<l>Din H&#x00E6;r at samles byd, reis til din Konge hen,</l>
+<l>Du bliver min Gemal, saasnart du er hans Ven.</l>
+</sp>
+<sp>
+<speaker>Stryange.</speaker>
+<l>O! Dronning! holdt, jeg dig besv&#x00E6;r ved alle Guder,</l>
+<l>Og ved vor Kierlighed, du mig min D&#x00F8;d bebuder.</l>
+<l>Thi viid Cyaxares min Fiende v&#x00E6;re maae,</l>
+<l>Om du end vilde selv med ham i Forbund staae.</l>
+<l>F&#x00F8;r du mig Hiertet gav, var du min Konges Fiende,</l>
+<l>Og nu jeg hader ham, strax er du hans Veninde.</l>
+<l>B&#x00F8;r du da elske den, som har mit Had fortient,</l>
+<l>Og naar min Vredes Grund mod ham er ubekiendt,</l>
+<l>Skal Kierlighed da strax om mig det verste d&#x00F8;mme?</l>
+<l>Undskyldning kunde her en Elskerinde s&#x00F8;mme.</l>
+<l>Cyaxares og kan begaae Forbrydelser.</l>
+<l>N&#x00F8;dvendig Tausheds Lov mig ei tillader meer.</l>
+<l>Nok, Tiden l&#x00E6;re skal hvor dyrt Stryange ki&#x00F8;ber</l>
+<l>Zarines Hierte; men hvis nu min Tale r&#x00F8;ber</l>
+<l>Min Konges dybe Raad; jeg Troeskabs L&#x00F8;fte br&#x00F8;d,</l>
+<l>Og vore &#x00D8;nsker fik et alt for gruesomt St&#x00F8;d.</l>
+</sp>
+<sp>
+<speaker>Zarine.</speaker>
+<l>Velan, jeg uden dig skal underrettet blive,</l>
+<l>Og ei mit Hierte f&#x00F8;r og ei min Haand bortgive,</l>
+<l>F&#x00F8;r jeg ret kiender dig og Grund til alting veed;</l>
+<l>Det fordrer &#x00C6;ren, ja det fordrer Kierlighed.</l>
+<stage>(hun gaaer.)</stage>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="3_2">
+<head type="sub">Andet Optrin.</head>
+<stage>Nitocre, Stryange.</stage>
+<sp>
+<speaker>Nitocre.</speaker>
+<stage>(som har h&#x00F8;rt de sidste Ord.)</stage>
+<l part="I">Det fordrer Kierlighed &#x2013; &#x2013;</l>
+</sp>
+<sp>
+<speaker>Stryange.</speaker>
+<stage>(som seer efter Zarine.)</stage>
+<l part="F">Hvad skal min Skiebne blive?</l>
+</sp>
+<sp>
+<speaker>Nitocre.</speaker>
+<stage>(i det hun tr&#x00E6;der frem for ham.)</stage>
+<l>Min Gud hvad h&#x00F8;rer jeg? vil du da s&#x00F8;nderrive</l>
+<l part="I">Saa helligt Baand?</l>
+</sp>
+<sp>
+<speaker>Stryange.</speaker>
+<l part="F">Hvem, jeg? hvad Baand? jeg intet veed &#x2013;</l>
+</sp>
+<sp>
+<speaker>Nitocre.</speaker>
+<l>Og jeg veed meer end nok: jeg veed din Kierlighed.</l>
+<l>Troel&#x00F8;se! er det saa du Eed og L&#x00F8;fte holder?</l>
+</sp>
+<sp>
+<speaker>Stryange,</speaker> <stage>(afsides.)</stage>
+<l>Ak! den Bebreidelse mig D&#x00F8;den selv forvolder.</l>
+</sp>
+<sp>
+<speaker>Nitocre.</speaker>
+<l>Forvovne! som imod en Kongedatter t&#x00F8;r</l>
+<l part="I">Saa gruesom fare frem!</l>
+</sp>
+<sp>
+<speaker>Stryange.</speaker>
+<l part="F">O! hvilken Spot! jeg d&#x00F8;er.</l>
+</sp>
+<sp>
+<speaker>Nitocre.</speaker>
+<l>At d&#x00F8;e har du fortient og D&#x00F8;d din L&#x00F8;n skal blive,</l>
+<l>Vor Fader denne H&#x00E6;vn os over dig skal give;</l>
+<l>Sit Banesaar du din Rhetea givet har;</l>
+<l>D&#x00F8;e tusind gange, d&#x00F8;e, Forr&#x00E6;der og Barbar!</l>
+<l>Du, som min Faders Huus formastelig van&#x00E6;rer,</l>
+<l>Og Kongens Fiende selv til din Gemal begierer;</l>
+<l>Men er der Straf endnu for skiendig List og Sviig,</l>
+<l>Da skal Cyaxares ei spare den for dig.</l>
+<stage>(hun gaaer.)</stage>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="3_3">
+<head type="sub">Tredie Optrin.</head>
+<sp>
+<speaker>Stryange,</speaker> <stage>(allene.)</stage>
+<l>Hun raser &#x2013; jeg forgaaer &#x2013; Et Uveir sammentr&#x00E6;kkes,</l>
+<l>Som snart vil bryde ud &#x2013; jeg meer og meer forskr&#x00E6;kkes:</l>
+<l>Hvad vil her blive af? hvor l&#x00F8;b den Grumme hen?</l>
+<l>Forlod mig uden Tr&#x00F8;st og Raad og Hielp og Ven.</l>
+<l>Ja Himlen, merker jeg, udruster sig til Vrede,</l>
+<l>Den v&#x00E6;bner sig med Hevn. Forgieves meer at bede!</l>
+<l>Nei B&#x00F8;n forbittrer kun. Velan, jeg altsaa er</l>
+<l>Et Maal for Himlens Straf, en Skr&#x00E6;k for Mennesker.</l>
+<l>Hvor reen var ei den Ild, som f&#x00F8;r i Hiertet br&#x00E6;ndte;</l>
+<l>Men den, som br&#x00E6;nder nu, som Furier ant&#x00E6;ndte,</l>
+<l>Udmatter, &#x00E6;ngster og fort&#x00E6;rer Liv og Siel,</l>
+<l>Forandrer Dydens Ven til Lasters nedrig Tr&#x00E6;l.</l>
+<l>Ford&#x00F8;mte Kierlighed! jeg for Zarine sukker;</l>
+<l>Hun, som til Trods for mig sit stolte<note type="footnote">stolte] <hi rend="italic">rettet fra:</hi> stol e <hi rend="italic">(trykkfeil)</hi></note> Bryst tillukker;</l>
+<l>Og min Gemal! hvis Siel ud&#x00F8;st i Kierlighed,</l>
+<l>Opofret er for mig &#x2013; uh&#x00F8;rte Gruesomhed &#x2013;</l>
+<l>Jeg hende hade kan &#x2013; Velan, jeg b&#x00F8;r fuldende;</l>
+<l>Og Verden l&#x00E6;re skal mit Raserie at kiende.</l>
+<l>Det koste hvad det vil &#x2013; Zarine bliver min,</l>
+<l>Alt skulle det end skee ved Mediens Ruin.</l>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="3_4">
+<head type="sub">Fierde Optrin.</head>
+<stage>Stryange. Lorano.</stage>
+<sp>
+<speaker>Stryange.</speaker>
+<l>Lorano kom, jeg vil udi dit Ski&#x00F8;d udt&#x00F8;mme</l>
+<l>Min Qval &#x2013; o! kunde jeg mig ikkun selv undr&#x00F8;mme;</l>
+<l part="I">Hvor flyer jeg dog min Ven? Rhetea &#x2013;</l>
+</sp>
+<sp>
+<speaker>Lorano.</speaker>
+<l part="M">Hvad &#x2013;</l>
+</sp>
+<sp>
+<speaker>Stryange.</speaker>
+<l part="F">Hun veed.</l>
+</sp>
+<sp>
+<speaker>Lorano.</speaker>
+<l part="I">Hvad veed hun, store Gud!</l>
+</sp>
+<sp>
+<speaker>Stryange.</speaker>
+<l part="F">Hun veed min Kierlighed.</l>
+</sp>
+<sp>
+<speaker>Lorano.</speaker>
+<l>Det er forbie, jeg alt, endogsaa Haabet, mister.</l>
+</sp>
+<sp>
+<speaker>Stryange.</speaker>
+<l>Nitocre alting veed; &#x2013; af Qval mit Hierte brister.</l>
+<l>Hun kommer her og staaer og h&#x00F8;rer Dronningen,</l>
+<l>Hun trodser mig og flyer strax til Rhetea hen.</l>
+<l>Rhetea ganske vist med Suk og Taare l&#x00F8;ber</l>
+<l>Og for Zarines Fod nedkaster sig og r&#x00F8;ber</l>
+<l>Min Kierlighed, og jeg med Spot og Skiendsel maae</l>
+<l>Rhetea miste og Zarines Haand ei faae.</l>
+<l>D&#x00F8;m selv, Lorano, d&#x00F8;m, hvad Vold min Siel maae lide:</l>
+<l>Hielp nu din Ven og tal og giv et Raad i Tide!</l>
+<l>Snart, snart, &#x2013; du tier. &#x2013; Nu velan! jeg fatter Mod.</l>
+<l>Nu fandt jeg selv et Raad og det skal koste Blod.</l>
+<stage>(han vil gaae.)</stage>
+</sp>
+<sp>
+<speaker>Lorano.</speaker>
+<l part="I">Holdt, Herre! holdt! hvorhen?</l>
+</sp>
+<sp>
+<speaker>Stryange.</speaker>
+<l part="F">Hvordan? vil du mig hindre</l>
+<l>Udi Rhete&#x00E6; Bryst mit Raserie at lindre?</l>
+</sp>
+<sp>
+<speaker>Lorano.</speaker>
+<l part="I">Bet&#x00E6;nk! &#x2013;</l>
+</sp>
+<sp>
+<speaker>Stryange.</speaker>
+<l part="F">Forvovne! hvad? du mig bebreide t&#x00F8;r? &#x2013;</l>
+<stage>(Han tr&#x00E6;kker sin Kaarde)</stage>
+<l>Min Haand skal myrde den, som Mindste Modstand gi&#x00F8;r.</l>
+</sp>
+<sp>
+<speaker>Lorano.</speaker>
+<l>Ved meere v&#x00E6;rdig Haand ei nogen myrdes kunde,</l>
+<l>Ja Helte skulde mig en saadan D&#x00F8;d misunde,</l>
+<l>Stryange! st&#x00F8;d kun til, ud&#x00F8;s udi min Barm</l>
+<l>Din Siels Forbittrelser, begrav kun her din Harm;</l>
+<l>Men i min sidste Stund jeg til din Velf&#x00E6;rd taler,</l>
+<l>Og F&#x00F8;lgen af dit Raad med sande Tr&#x00E6;k afmaler.</l>
+<l>Rhetea d&#x00F8;er; men mon det og forties kan,</l>
+<l>At Kongens Datter er omkommet af sin Mand?</l>
+<l>Nu kiender du jo f&#x00F8;r Zarines T&#x00E6;nkemaade,</l>
+<l>Hun skulde aldrig meer antage dig til Naade:</l>
+<l>Nei hun, Cyaxares og heele Medien,</l>
+<l>Strax om din Undergang anraabte Himmelen.</l>
+</sp>
+<sp>
+<speaker>Stryange.</speaker>
+<l>Velan Lorano tal, bliv ved, hvad skal jeg gi&#x00F8;re?</l>
+</sp>
+<sp>
+<speaker>Lorano.</speaker>
+<l part="I">Her h&#x00F8;r Bet&#x00E6;nkning til &#x2013; &#x2013; &#x2013;</l>
+</sp>
+<sp>
+<speaker>Stryange.</speaker>
+<l part="F">En Torden i mit &#x00D8;re!</l>
+<l>Fat strax et Raad, du veed, hvor kostbar Tiden er</l>
+<l>Og hvilken Marter jeg i knuste Hierte b&#x00E6;r:</l>
+<l>Du seer mit Raserie, saa grumt kan intet v&#x00E6;re</l>
+<l>Som jeg jo pr&#x00F8;ve vil, jeg, som mod Dyd og &#x00C6;re</l>
+<l>Har soeret evig Strid; jeg iiler meer og meer</l>
+<l>Til st&#x00F8;rre Grumhed og til nye Misgierninger.</l>
+</sp>
+<sp>
+<speaker>Lorano.</speaker>
+<l>Forlad dig da paa mig, jeg alting vil fors&#x00F8;ge.</l>
+<l>Jeg skal Rhete&#x00E6; Frygt med gruesom Skr&#x00E6;k for&#x00F8;ge</l>
+<l>Og sige hende, at hun vente maae sin D&#x00F8;d,</l>
+<l>Og at din egen Haand bereeder dette St&#x00F8;d:</l>
+<l>Det hende til at flye Anledning nok skal give;</l>
+</sp>
+<sp>
+<speaker>Stryange.</speaker>
+<l part="I">Men om Cyaxares &#x2013; &#x2013; &#x2013;</l>
+</sp>
+<sp>
+<speaker>Lorano.</speaker>
+<l part="F">Han skal bedraget blive.</l>
+<l>Zarine giver dig sit Hierte og sin Haand,</l>
+<l>Lad da Cyaxares opl&#x00F8;se dette Baand.</l>
+<l>Du til Zarine b&#x00F8;r dig derfor strax forf&#x00F8;ye:</l>
+<l>Maaskee<note type="footnote">Maaskee] <hi rend="italic">rettet fra:</hi> Maaskeee <hi rend="italic">(trykkfeil)</hi></note> Rhete&#x00E6; Flugt snart skal min Helt forn&#x00F8;ie. &#x2013; &#x2013;</l>
+</sp>
+<sp>
+<speaker>Stryange.</speaker>
+<l>Forn&#x00F8;ie! &#x2013; grumme Fryd! &#x2013; Meeneeder som jeg er! &#x2013;</l>
+<l>Rhetea &#x2013; &#x2013; du din Dyd, jeg min Misgierning b&#x00E6;r!</l>
+<l>Hun flyer! og det for mig &#x2013; mit Hierte snart maae smelte.</l>
+</sp>
+<sp>
+<speaker>Lorano.</speaker>
+<l>Jag al den &#x00D8;mhed bort, som kun van&#x00E6;rer Helte.</l>
+</sp>
+<sp>
+<speaker>Stryange.</speaker>
+<l>Rhetea flyer! o! Gud! hun endnu har en Deel</l>
+<l>Udi den Kierlighed jeg hende skyldte heel.</l>
+<l>Lorano! kiere, siig &#x2013; i det hun Flugten tager &#x2013;</l>
+<l>At jeg &#x2013; o! grumme Striid &#x2013; jeg hende dog beklager. &#x2013;</l>
+<l>Siig, at &#x2013; jeg veed ei selv, &#x2013; at Himlen var mig vreed</l>
+<l>Og sendte mig til Straf en fremmed Kierlighed.</l>
+<l>Jeg gaaer &#x2013; for aldrig meer at see min troe Veninde;</l>
+<l>Men gid hun maatte dog en Ven blant Guder finde!</l>
+<l>Ja Himmel taaler du den Lastefuldes B&#x00F8;n:</l>
+<l>Da v&#x00E6;r Rhete&#x00E6; Tr&#x00F8;st, giv Dyden v&#x00E6;rdig L&#x00F8;n.</l>
+<l>Men hvad! skal Himlen vel en slig Begiering h&#x00F8;re!</l>
+<l>En B&#x00F8;n jeg kunde selv men vil ei fyldestgi&#x00F8;re!</l>
+<l>Hils dog &#x2013; Lorano hils. &#x2013; Fra min beklemte Siel</l>
+<l>Fremb&#x00E6;r &#x2013; jeg kan ei meer &#x2013; fremb&#x00E6;r dog mit Farvel.</l>
+</sp>
+<sp>
+<speaker>Lorano.</speaker>
+<l>Jeg intet glemme skal, men glem ei selv Zarine.</l>
+</sp>
+<sp>
+<speaker>Stryange.</speaker>
+<l>Ah! dette grumme Navn er al min Qval og Pine</l>
+<l>Hun med en gruesom Vold regierer i mit Bryst,</l>
+<l>Jeg gaaer, v&#x00E6;r, om du kan, Rhete&#x00E6; Hielp og Tr&#x00F8;st;</l>
+<stage>(han gaaer bort men vender om igien)</stage>
+<l>Men h&#x00F8;r Lorano! hvor vil du Rhetea f&#x00F8;re?</l>
+</sp>
+<sp>
+<speaker>Lorano.</speaker>
+<l>Hun selv til Opholdsted og Flugt maae Anl&#x00E6;g gi&#x00F8;re.</l>
+</sp>
+<sp>
+<speaker>Stryange.</speaker>
+<l>Bes&#x00F8;rg, at ingen Vold Rhetea maatte skee,</l>
+<l>Bet&#x00E6;nk, hun er dog den, jeg engang elskede.</l>
+<l>Der var en Tid, da hun i mine Arme hvilte,</l>
+<l>Og jeg var lykkelig, hver gang Rhetea smilte;</l>
+<l>Der var en Dag, jeg soer ved Himmel, Hav og Jord:</l>
+<l>I Guder! mon I da og h&#x00F8;rte mine Ord!</l>
+<l>Jeg bad, at Himlens H&#x00E6;vn mit Hoved matte knuse,</l>
+<l>Og Havets Vrede mod mit bange Hierre bruse,</l>
+<l>Og at jeg sank med eet need i Afgrundens Ski&#x00F8;d:</l>
+<l>Den Dag jeg hellig Eed med min Rhetea br&#x00F8;d!</l>
+<l>Hvi t&#x00F8;ve Guderne, som h&#x00F8;rte disse B&#x00F8;nner?</l>
+<l>Retf&#x00E6;rdig Himmel, du som Dyd og Last bel&#x00F8;nner!</l>
+<l>Jeg ski&#x00E6;lver for din H&#x00E6;vn, den Straf, du t&#x00F8;ver med,</l>
+<l>Udf&#x00F8;res dog engang med dobbelt Gruesomhed.</l>
+<l>Naar vil du vel slaae til og hvor skal jeg mig skiule?</l>
+<l>Hvor er saa tyk en Muur? hvor er saa dyb en Huule,</l>
+<l>Som mig beskierme kan imod din Vredes Magt?</l>
+<l>Min Moder havde du mig d&#x00F8;d til Verden bragt!</l>
+<stage>(Han gaaer.)</stage>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="3_5">
+<head type="sub">Femte Optrin.</head>
+<sp>
+<speaker>Lorano,</speaker> <stage>(allene.)</stage>
+<l>Hans Hierte neppe sig til Dronningen bestemte,</l>
+<l>Med M&#x00F8;ie han endnu en kier Rhetea glemte;</l>
+<l>Hvad Under? Hun som er saa yndig, dydig, smuk,</l>
+<l>Hvis Hierte skulde vel ei offre hende Suk?</l>
+<l>Som Solen glimter frem imellem steile Klipper,</l>
+<l>Saa seer jeg Haabet alt; Og ei af &#x00D8;ine slipper</l>
+<l>Mit &#x00D8;nskes store Maal! jeg skal det engang naae;</l>
+<l>Rhetea neppe vil Loranos Haand forsmaae.</l>
+<l>Men see! der er hun selv: Mig Kierlighed bev&#x00E6;bne</l>
+<l>Med din Fortryllelse! Bestem nu snart min Skiebne.</l>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="3_6">
+<head type="sub">Siette Optrin.</head>
+<stage>Rhetea, Lorano.</stage>
+<sp>
+<speaker>Rhetea.</speaker>
+<l>Er ei Stryange her? hvor er? hvad lider han?</l>
+</sp>
+<sp>
+<speaker>Lorano.</speaker>
+<l>Jeg til hans Lidelser ei Grunden vide kan;</l>
+<l part="I">Men har din S&#x00F8;ster ei &#x2013; &#x2013; &#x2013;</l>
+</sp>
+<sp>
+<speaker>Rhetea.</speaker>
+<l part="F">Min S&#x00F8;ster! hvad er dette?</l>
+</sp>
+<sp>
+<speaker>Lorano.</speaker> <stage>(sagte)</stage>
+<l part="I">Endnu hun intet veed &#x2013; &#x2013; &#x2013;</l>
+</sp>
+<sp>
+<speaker>Rhetea.</speaker>
+<l part="F">Hvad skal jeg heraf gi&#x00E6;tte?</l>
+</sp>
+<sp>
+<speaker>Lorano.</speaker>
+<l>Jeg meener, om hun ei har s&#x00F8;gt at tr&#x00F8;ste dig</l>
+<l>Og havt Medlidenhed med en Ulykkelig?</l>
+</sp>
+<sp>
+<speaker>Rhetea.</speaker>
+<l>Min Graad aft&#x00F8;rres ei, om heele Verden gr&#x00E6;der.</l>
+<l>Er min Stryange tabt; da ingen Tr&#x00F8;st mig gl&#x00E6;der.</l>
+<l>Forklar mig dog hans Qval, tal som vor f&#x00E6;lles Ven,</l>
+<l part="I">Hvor er Stryange nu?</l>
+</sp>
+<sp>
+<speaker>Lorano.</speaker>
+<l part="F">Han gik til Dronningen.</l>
+</sp>
+<sp>
+<speaker>Rhetea.</speaker>
+<l part="I">Hvad meere! tal!</l>
+</sp>
+<sp>
+<speaker>Lorano.</speaker>
+<l part="F">Hvem? jeg? man troer ei hvad jeg siger,</l>
+<l>Jeg raader som en Ven, men er Barbar og Tiger.</l>
+<l>Jeg viser Faren og det er Forr&#x00E6;derie,</l>
+<l>Blot ei din Rolighed for mit Bedragerie.</l>
+</sp>
+<sp>
+<speaker>Rhetea.</speaker>
+<l>Lorano bliv min Ven! tilgiv min Tvivl, jeg beder:</l>
+<l>Ynk dog et Hierte, som kun f&#x00F8;ler Bitterheder,</l>
+<l part="I">Du veed, jeg elsker &#x2013; &#x2013; &#x2013;</l>
+</sp>
+<sp>
+<speaker>Lorano.</speaker>
+<l part="F">Ja, jeg altsaa tie b&#x00F8;r</l>
+<l>Og ei om din Gemal det mindste sige t&#x00F8;r.</l>
+</sp>
+<sp>
+<speaker>Rhetea.</speaker>
+<l>Undfald mig ei min Ven! tal dog, jeg dig befaler.</l>
+</sp>
+<sp>
+<speaker>Lorano.</speaker>
+<l>Nu Himlen knuse mig, om jeg ei Sandhed taler,</l>
+<l>Din Velf&#x00E6;rd byder mig og bittert Had til den,</l>
+<l>Som t&#x00F8;r foragte dig, &#x2013; &#x2013; &#x2013; og elske Dronningen.</l>
+</sp>
+<sp>
+<speaker>Rhetea.</speaker>
+<stage>(h&#x00E6;lder sig til <hi rend="bold">Lorano</hi> og st&#x00F8;nnende taler.)</stage>
+<l>Og elske Dronningen &#x2013; I Guder! hvilken Torden.</l>
+<l>Nu qvaltes Haabet &#x2013; ah! jeg segne maae til Jorden:</l>
+<l>Den aller&#x00F8;mmeste &#x2013; den allerbeste &#x2013; Mand</l>
+<l>Sin Dyd &#x2013; sin Kierlighed &#x2013; sig selv forglemme kan.</l>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="3_7">
+<head type="sub">Syvende Optrin.</head>
+<stage>Nitocre, de forrige.</stage>
+<sp>
+<speaker>Nitocre.</speaker>
+<l>Ach! Ulyksalige! saa veed du da din Skiebne,</l>
+<l>Gid Himlen selv din Siel med Kraft og Mod bev&#x00E6;bne.</l>
+</sp>
+<sp>
+<speaker>Rhetea.</speaker>
+<l>Veed du i denne Sag da og den rette Grund?</l>
+</sp>
+<sp>
+<speaker>Nitocre.</speaker>
+<l>Jeg, som har alting h&#x00F8;rt udaf hans egen Mund?</l>
+</sp>
+<sp>
+<speaker>Rhetea.</speaker>
+<l>Nu er det alt forbie, jeg kan ei meere tvile:</l>
+<l>Men lad mig endnu hen til den Forr&#x00E6;der iile,</l>
+<l>Min &#x00D8;mhed, Graad og Suk ham giemnembore skal,</l>
+<l>Og tage sidste H&#x00E6;vn for al mit Hiertes Qval.</l>
+</sp>
+<sp>
+<speaker>Lorano.</speaker>
+<l>Holt! holt! hvorhen! nei flye; thi f&#x00F8;r han dig ei m&#x00F8;der</l>
+<l>End han en Morderdolk udi dit Hierte st&#x00F8;der,</l>
+<l>Han s&#x00F8;ger rasende kun at forhindre dig,</l>
+<l>At du hos Dronningen ei r&#x00F8;be skal hans Svig:</l>
+<l part="I">Flye strax, Princesse! flye</l>
+</sp>
+<sp>
+<speaker>Rhetea.</speaker>
+<l part="F">Nei lad ham ikkun bade</l>
+<l>Sin Haand udi mit Blod; jeg kan ham dog ei hade;</l>
+<l>Han myrde mig, jeg d&#x00F8;er, han naaer sit &#x00D8;iemeed</l>
+<l>Og jeg har fyldestgiort min egen Kierlighed.</l>
+<stage>(hun vil gaae.)</stage></sp>
+<sp>
+<speaker>Nitocre.</speaker>
+<l part="I">For Himlens Skyld &#x2013; &#x2013; &#x2013;</l>
+</sp>
+<sp>
+<speaker>Lorano.</speaker>
+<l part="F">Bet&#x00E6;nk, du styrter dig i Fare.</l>
+</sp>
+<sp>
+<speaker>Rhetea.</speaker>
+<l>Men hvorfor skal jeg dog mit Liv til Smerter spare</l>
+<l part="I">Og tusind gange d&#x00F8;e?</l>
+</sp>
+<sp>
+<speaker>Lorano.</speaker>
+<l part="F">Nei Haab har endnu Sted,</l>
+<l>Maaskee du skal endnu velsigne Kierlighed.</l>
+<l>Jeg Sacers Dronning vil om alting underrette,</l>
+<l>Og hun Stryange strax af Hiertet skal udslette.</l>
+<l>Forskudt af hende han og fuld af Anger skal</l>
+<l>Sig kaste for din Fod og blues ved sit Valg.</l>
+<l>Flye derfor strax, om du ei vil et Offer blive &#x2013; &#x2013; &#x2013;</l>
+</sp>
+<sp>
+<speaker>Rhetea.</speaker>
+<l>Nei naar han Hiertet f&#x00F8;rst en anden kunde give,</l>
+<l>Saa blir det neppe mit, min D&#x00F8;d er alt bestemt!</l>
+<l>Saa er jeg evig da af min Stryange glemt? &#x2013; &#x2013;</l>
+<l>Nei jeg endnu engang mig kaster i hans Arme:</l>
+<l>Hvo veed, selv Himlen skal sig over mig forbarme,</l>
+<l>Bev&#x00E6;ge den Barbar og Seier give mig.</l>
+</sp>
+<sp>
+<speaker>Nitocre.</speaker>
+<l>Nei flye min S&#x00F8;ster flye, om du vil redde dig.</l>
+</sp>
+<sp>
+<speaker>Rhetea.</speaker>
+<l>Men om min beste Ven b&#x00F8;r jeg saa hastig v&#x00E6;re,</l>
+<l part="I">At troe alt hvad enhver &#x2013; &#x2013; &#x2013;</l>
+</sp>
+<sp>
+<speaker>Nitocre.</speaker>
+<l part="F">Du Tvivl endnu kan b&#x00E6;re;</l>
+<l>Jeg nyelig h&#x00F8;rte jo Zarines Kierlighed,</l>
+<l>Og ski&#x00F8;nt Stryange jeg med h&#x00E6;ftig Bitterhed</l>
+<l>Bebreidede sin Skam, han ei et Ord mig svarte:</l>
+<l part="I">Jeg saae Forvirrelsen. &#x2013; &#x2013; &#x2013;</l>
+</sp>
+<sp>
+<speaker>Rhetea.</speaker>
+<l part="F">Du intet meer erfarte?</l>
+<l>Min Gud! er det Beviis mod den, som elsker mig?</l>
+<l>Saa haaber jeg endnu at blive lykkelig.</l>
+<l>Zarine elsker ham &#x2013; kan det min Mand van&#x00E6;re?</l>
+<l>Han intet svarer dig &#x2013; hvad skal jeg deraf l&#x00E6;re?</l>
+<l>At han Bebreidelser koldsindig taale kan.</l>
+<l>Og det er alt hvad du kan sige om min Mand.</l>
+<l>Og jeg, jeg skulde flye? ney, dyre Ven, jeg iiler</l>
+<l>For at omfavne dig. Og nu da Haabet smiiler,</l>
+<l>Jeg alting vove t&#x00F8;r! var end Stryange vreed,</l>
+<l>Han skal formildes ved Rhete&#x00E6; Kierlighed.</l>
+<stage>(Hun gaaer.)</stage>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="3_8">
+<head type="sub">Ottende Optrin.</head>
+<stage>Nitocre, Lorano.</stage>
+<sp>
+<speaker>Nitocre.</speaker>
+<l>Forblindet Kierlighed, som troer hvad dig behager!</l>
+<l>O! Himmel giemte du din Vredes grumme Plager!</l>
+<l>Til denne sorte Nat? den Ulyksalige!</l>
+<l>O! mon jeg meer ei skal en elsket S&#x00F8;ster see?</l>
+<stage>(Hun gaaer.)</stage>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="3_9">
+<head type="sub">Niende Optrin.</head>
+<sp>
+<speaker>Lorano,</speaker> <stage>(allene.)</stage>
+<l>Hvad er tilovers nu og hvilken gruesom Skiebne,</l>
+<l>Som mod mit &#x00D8;nske sig dog stedse vil bev&#x00E6;bne?</l>
+<l>Min Kierlighed omsonst har alle Ting fors&#x00F8;gt;</l>
+<l>Nu raser i mit Bryst Had, Elskov, H&#x00E6;vn og Frygt,</l>
+<l>Rhetea vil ei flye, maaskee hun Seier vinder,</l>
+<l>Strax alt mit Haab med eet igien paa nye forsvinder;</l>
+<l>Maaskee jeg hendes Blod nu snart at flyde seer;</l>
+<l>Men skielv Stryange da, jeg hendes H&#x00E6;vner er.</l>
+<l>Jeg br&#x00E6;nder, nei jeg maae med Magt den Sag udf&#x00F8;re,</l>
+<l>Som ei med Konst og List sig vilde lade gi&#x00F8;re;</l>
+<l>Rhetea f&#x00F8;res skal med Vold fra dette Sted</l>
+<l>Og det skal lykkes mig, Trods Skiebnens Gruesomhed.</l>
+<l>Ja Elskov! det er dig, som disse Raad mig giver,</l>
+<l>Ved dig i m&#x00F8;rke Nat nyt Lys mit Haab opliver;</l>
+<l>Jeg snart Rhetea skal ved nogle Fanger see</l>
+<l>Bortf&#x00F8;rt fra dette Sted. Jeg derved reddede</l>
+<l>Et Liv saa dyrebart; og de l&#x00F8;sgivne Fanger</l>
+<l>For Friehed takke mig. Stryange strax forlanger</l>
+<l>Og faaer Zarines Haand. Rhetea reddet er</l>
+<l>Ved mig, og have skal sit Livs Beskiermer kier.</l>
+<l>Kort: jeg ved List og Vold en stor Velgi&#x00F8;rer bliver,</l>
+<l>Ja mit Bedrag endog en Glands af Dyden giver:</l>
+<l>Af dem jeg selv bedrog jeg faaer Velsignelser.</l>
+<l>Kom Elskov, du mit Lys og min Veileder v&#x00E6;r.</l>
+</sp>
+<p rend="center">Ende paa tredie Optog.</p>
+</div>
+</div>
+<div type="chapter" subtype="act" n="4">
+<head type="main"><ref type="contents" target="contents_6" xml:id="chapter_6">Fierde Optog.</ref></head>
+<div type="uchapter" subtype="scene" n="4_1">
+<head type="sub">F&#x00F8;rste Optrin.</head>
+<stage>(Skuepladsen forestiller Stryanges Leir ved en lang Rad af Telte. Stryanges Telt staaer foran og er aabnet mod Tilskuerne. Der h&#x00E6;nger en Lampe, og paa et Bord ligge endeel Skrivemateralier. For Resten er Skuepladsen m&#x00F8;rk.)</stage>
+<sp>
+<speaker>Zarine,</speaker> <stage>(allene.)</stage>
+<l>Ja jeg vil vove det og her allene vente,</l>
+<l>H&#x00F8;r! er her nogen! tal!&#x2013;o! hvis mig Himlen sendte</l>
+<l>En fra Stryanges Leir! maaskee jeg torde faae</l>
+<l>Den bange Tvivl oplyst, som mig om Hiertet laae.</l>
+<l>Men hvorfor kan jeg dog ei ligegyldig v&#x00E6;re?</l>
+<l>Skal jeg i dette Bryst en Ild, som denne, n&#x00E6;re?</l>
+<l>En Ild, som blusser op paa Tapperheds Ruin?</l>
+<l>Hvo havde f&#x00F8;r en Siel, saa fuld af Mod, som min?</l>
+<l>Med roeligt &#x00D8;ie jeg har kunnet Farer skue,</l>
+<l>Og Helte skialv, saasnart jeg greb til Piil og Bue;</l>
+<l>Men nu, beklemt og &#x00F8;m og kielen og forsagt,</l>
+<l>Jeg t&#x00E6;nker, sukker og tilbeder Elskovs Magt.</l>
+<l part="I">Stryange! ja du vandt, jeg f&#x00F8;ler her</l>
+<stage>(hun peger paa sit Hierte)</stage>
+<l part="F">din Seier &#x2013;</l>
+<l>Men naar din Taushed jeg bet&#x00E6;nksom overveier,</l>
+<l>Da burde Hiertet ei endnu bestemme sig:</l>
+<l>Stryange! nei jeg maae, jeg b&#x00F8;r mist&#x00E6;nke dig &#x2013;</l>
+<l>Men s&#x00F8;de F&#x00F8;lelse! skal jeg mig selv forn&#x00E6;gte</l>
+<l>Og mod din kielne Lyst forh&#x00E6;rdet, voldsom f&#x00E6;gte.</l>
+<l>Stryange har udi mit uerfarne Bryst</l>
+<l>En alt for h&#x00E6;ldig Tolk; det er Naturens R&#x00F8;st.</l>
+<l>Guddommelige Ild, som ulmer i mit Hierte,</l>
+<l>Med hvilken himmelsk Fryd betaler du den Smerte,</l>
+<l>Du foraarsager! &#x2013; &#x2013; jeg, eenfoldig, ufors&#x00F8;gt</l>
+<l>Omfavner denne Qval, tilbeder denne Frygt. &#x2013;</l>
+<l>En Himmel i mit Bryst, en Flugt i muntre Tanker</l>
+<l>Jeg stundom f&#x00F8;le maae og stundom Hiertet banker,</l>
+<l>Nu som i stille Dr&#x00F8;m min Siel inddysser sig,</l>
+<l>Nu l&#x00E6;ngselfuld den fl&#x00F8;i, Stryange! hen til dig.</l>
+<l>Men grumme F&#x00F8;lelse! om Dyden du van&#x00E6;rer!</l>
+<l>Ja dersom nogen mig Stryanges Br&#x00F8;de l&#x00E6;rer,</l>
+<l>O! hvilket Hiertest&#x00F8;d! det blev mig D&#x00F8;dens Bud:</l>
+<l>Jeg seer til hvilken Strid jeg da blev fordret ud.</l>
+<l>O! Elskov! skulde du mod Dyd i Hiertet stride,</l>
+<l>Hvor vilde det dig gaae? Hvad maatte jeg ei lide?</l>
+<l>Ski&#x00F8;nt yndet af min Siel, du reene sp&#x00E6;de Lyst,</l>
+<l>Dog maatte give tabt for Dyden i mit Bryst;</l>
+<l>Ja himmelsendte Dyd! mit Hiertes Herskerinde</l>
+<l>Du b&#x00F8;r, du maae, du skal mod Elskov Seier vinde,</l>
+<l>Du fra min Ungdom var min Fryd, min Roe og L&#x00F8;n;</l>
+<l>Viig derfor, Elskov viig, du Hiertets yngre S&#x00F8;n.</l>
+<l>Men kunde disse to foreenes i mit Hierte,</l>
+<l>O! Himmel, det var alt, hvad jeg af dig begierte,</l>
+<l>Hvis ikke, styrk min Siel, gi&#x00F8;r Dyden seierrig,</l>
+<l>Ja, Himmel! lad mig ei van&#x00E6;re den og dig.</l>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="4_2">
+<head type="sub">Andet Optrin.</head>
+<stage>Zarine. Rhetea.</stage>
+<sp>
+<speaker>Rhetea.</speaker>
+<stage>(som kommer ind uden at see Zarine, bliver staaende ved den eene Side og taler:)</stage>
+<l>Saa veed jeg da min Dom, selv har han mig betaget</l>
+<l>Min Tvivl, mit Haab og Tr&#x00F8;st. Foragtet og bedraget,</l>
+<l>Jeg dog endnu engang udruster mig med Mod;</l>
+<l>Jeg vinder eller d&#x00F8;er ved min Stryanges Fod.</l>
+<stage>(Efter disse Ord gaaer hun omkring for at s&#x00F8;ge efter Stryange, dog uden endnu at blive Zarine vaer:)</stage>
+<l>Saa skal jeg dog omsonst ham allevegne s&#x00F8;ge,</l>
+<l>Og Nat og Eensomhed mit Hiertes Qval for&#x00F8;ge,</l>
+<l>Han er ei heller her, her seer jeg dog hans Telt,</l>
+<l>Her vil jeg s&#x00E6;tte mig og bede for min Helt.</l>
+</sp>
+<sp>
+<speaker>Zarine,</speaker> <stage>(for sig selv.)</stage>
+<l>Jeg Tiden gribe maae, nu er her Lys at hente,</l>
+<stage>(til Rhetea.)</stage>
+<l>Elskv&#x00E6;rdige, jeg troer at Himlen selv dig sendte.</l>
+</sp>
+<sp>
+<speaker>Rhetea,</speaker> <stage>(ved sig selv.)</stage>
+<l part="I">O! det er Dronningen &#x2013; &#x2013;</l>
+</sp>
+<sp>
+<speaker>Zarine.</speaker>
+<l part="F">Hid for at gl&#x00E6;de mig.</l>
+</sp>
+<sp>
+<speaker>Rhetea.</speaker>
+<l>Den, som er fattig selv, gi&#x00F8;r sielden nogen rig,</l>
+<l>Den, som er tr&#x00F8;stesl&#x00F8;s, hvem skulde den vel gl&#x00E6;de?</l>
+</sp>
+<sp>
+<speaker>Zarine.</speaker>
+<l>H&#x00F8;r Unge, Ski&#x00F8;nne, tal, hvad Aarsag til at gr&#x00E6;de?</l>
+<l>Hvo er du? kiender du de Meders tappre Helt?</l>
+</sp>
+<sp>
+<speaker>Rhetea.</speaker>
+<l>Ja til min bittre Sorg &#x2013; De Taare, jeg har f&#x00E6;ldt</l>
+<l>For Heltens kiere Liv, da det for Sacers Piile &#x2013;</l>
+</sp>
+<sp>
+<speaker>Zarine.</speaker>
+<l>O! grumme Frygt! ak! jeg begynder alt at tvivle;</l>
+<l part="I">Hvo er du? kiere siig &#x2013; &#x2013;</l>
+</sp>
+<sp>
+<speaker>Rhetea.</speaker>
+<l part="F">Viid da min Fader er</l>
+<l>Cyaxares, og jeg &#x2013; &#x2013; jeg har Stryange kier.</l>
+</sp>
+<sp>
+<speaker>Zarine.</speaker>
+<l>Stryange kier! hvordan, o! Gud mit Hierte banker;</l>
+<l>Min Tvivl var grundet; men har han de samme Tanker</l>
+<l>For dig? Og du maaskee fra ham et L&#x00F8;fte har?</l>
+</sp>
+<sp>
+<speaker>Rhetea.</speaker>
+<l>Et L&#x00F8;fte, hvortil Jord og Himmel Vidne var.</l>
+</sp>
+<sp>
+<speaker>Zarine.</speaker>
+<l>Ach! den Meeneder! men hvad Aarsag til din Smerte?</l>
+</sp>
+<sp>
+<speaker>Rhetea.</speaker>
+<l>Et &#x00F8;mt, men s&#x00F8;nderknust, men giennemboeret Hierte,</l>
+<l>En skuffet Kierlighed, en kier men troel&#x00F8;s Haand,</l>
+<l>Et troefast knyttet, men et s&#x00F8;nderrevet Baand,</l>
+<l>En smuk og seierrig; men grum Medbeilerinde.</l>
+</sp>
+<sp>
+<speaker>Zarine.</speaker>
+<l>Og denne uden Tvivl er da din verste Fiende.</l>
+</sp>
+<sp>
+<speaker>Rhetea.</speaker>
+<l>Jeg hader ingen. &#x2013; Nei hun vist uskyldig er.</l>
+<l>Jeg let kan ynke den, som har Stryange kier.</l>
+</sp>
+<sp>
+<speaker>Zarine.</speaker> <stage>(afsides)</stage>
+<l>O! hielp mig Himmel dog mig selv at overvinde.</l>
+<l>O! Gud nu gielder det at viise sig Heltinde.</l>
+</sp>
+<sp>
+<speaker>Rhetea.</speaker>
+<l>Hvad Strid, o! Dronning og al den Forvirrelse!</l>
+<l>Skal jeg al Verden da i Dag bedr&#x00F8;vet see?</l>
+</sp>
+<sp>
+<speaker>Zarine.</speaker>
+<l>Du Dronning kaldte mig, jeg m&#x00E6;rker du mig kiender.</l>
+</sp>
+<sp>
+<speaker>Rhetea.</speaker>
+<l>Det Ord faldt af min Mund, tillad at jeg fuldender:</l>
+<l>Her til Forstillelse er ikke Tid og Sted;</l>
+<l>En Ulyksalig for din Fod sig kaster ned;</l>
+<l>Eet Ord udaf din Mund, min D&#x00F8;d, mit Liv bestemmer.</l>
+</sp>
+<sp>
+<speaker>Zarine.</speaker>
+<l>Hvad! Kongedatter! nei din Fader du forglemmer;</l>
+<l part="I">Staae op og tal &#x2013; &#x2013;</l>
+</sp>
+<sp>
+<speaker>Rhetea.</speaker>
+<l part="F">Du da o! Dronning her</l>
+<l>Den aller&#x00F8;mmeste blandt Elskerinder seer;</l>
+<l>Fra Ungdoms muntre Aar, da Hiertet Suk ei kiendte,</l>
+<l>En Gl&#x00F8;d oppustet blev, som snart en Ild ant&#x00E6;ndte.</l>
+<l>Den Ild omsider ud i heftig Lue br&#x00F8;d,</l>
+<l>Den Lue N&#x00E6;ring fik og blusser til min D&#x00F8;d;</l>
+<l>Sluk den og Livet ud, det staaer i dine H&#x00E6;nder;</l>
+<l>Men taaler du, at den for min Stryange br&#x00E6;nder,</l>
+<l>Fuld af Erkiendtlighed jeg skal velsigne dig,</l>
+<l part="I">Og glad tilgive ham &#x2013; &#x2013;</l>
+</sp>
+<sp>
+<speaker>Zarine.</speaker>
+<l part="F">Forklar dig, kiere, siig,</l>
+<l>Hvad fordring du og kan paa Heltens Hierte have,</l>
+<l>Var ei Stryange meer af sine L&#x00F8;fter Slave?</l>
+</sp>
+<sp>
+<speaker>Rhetea.</speaker>
+<l>Ja du befaler mig &#x2013; jeg neppe tale kan &#x2013; &#x2013;</l>
+<l>Viid, den som elsker dig, o! Dronning! er min Mand.</l>
+</sp>
+<sp>
+<speaker>Zarine.</speaker>
+<l>Din Mand! o! grumme Sviig, hvad vover du Meeneeder!</l>
+<l>Skielv for min H&#x00E6;vn! saa sandt som jeg Zarine hedder,</l>
+<l>Min heele Kierlighed til Had forvandler sig,</l>
+<l>Og det skal koste den Barbar en blodig Krig:</l>
+<l>Han t&#x00F8;r bedrage mig og sin Gemal forraade,</l>
+<l>Van&#x00E6;re Dronninger, misbruge Kongers Naade;</l>
+<l>Nei slig Forbrydelse forsones kun med Blod:</l>
+<l>Op! tappre Sacer op! og sabler ned for Fod.</l>
+<l>Mit Piilekogger, fuldt af drabelige Piile,</l>
+<l>Alt svangert er med H&#x00E6;vn, og hver en Piil skal iile,</l>
+<l>Stryange, til dit Bryst; med uforf&#x00E6;rdet Mod</l>
+<l>Jeg skal udtappe selv dit sidste Hierteblod.</l>
+</sp>
+<sp>
+<speaker>Rhetea.</speaker>
+<l>Din Vrede billig er, du b&#x00F8;r til Krigen iile,</l>
+<l>Udf&#x00F8;r din H&#x00E6;vn mod mig og giv mit Hierte Hvile,</l>
+<l>Din Vrede fordrer Blod og jeg vil ofre mit;</l>
+<l part="I">Spar kun Stryange &#x2013;</l>
+</sp>
+<sp>
+<speaker>Zarine.</speaker>
+<l part="F">Hvad? jeg skulde fordre dit?</l>
+<l>Mod en uskyldig Barm mit Sv&#x00E6;rd sig aldrig vender;</l>
+<l>Men naar Stryange jeg til D&#x00F8;dens Rige sender,</l>
+<l>Jeg h&#x00E6;vner Dyd og Eed, Natur og dig og mig.</l>
+</sp>
+<sp>
+<speaker>Rhetea.</speaker>
+<l>Mig knuser denne H&#x00E6;vn, jeg meer ulykkelig</l>
+<l>Ved Livet &#x2013; skulde da, endnu ved D&#x00F8;den v&#x00E6;re.</l>
+</sp>
+<sp>
+<speaker>Zarine.</speaker>
+<l>For den Troel&#x00F8;se kan du endnu Godhed b&#x00E6;re?</l>
+</sp>
+<sp>
+<speaker>Rhetea.</speaker>
+<l>Du mod din Villie selv undskylder Heltens Sviig,</l>
+<l>Den, som Zarine saae, kan let forglemme mig,</l>
+<l>Det S&#x00E6;ders Lighed er, som troefast Venskab stifter;</l>
+<l>Stryange, seer dit Mod og mandige Bedrifter,</l>
+<l>Selv tapper, &#x00E6;rer han hos andre Tapperhed,</l>
+<l>Hos mig han finder kun en kielen Kierlighed.</l>
+<l>Lad mine Taarer da, lad disse Sukke r&#x00F8;re</l>
+<l>Din &#x00E6;dle Siel, bet&#x00E6;nk, du kan paa engang gi&#x00F8;re</l>
+<l>To Hierter glade, spar nu min Gemal og mig,</l>
+<l>Vi begge kappes skal om at velsigne dig;</l>
+<l>Lad ei mit Hierte meer af Qval og Smerte bl&#x00F8;de,</l>
+<l>Bet&#x00E6;nk, om du mig tvang, at s&#x00F8;rge mig til d&#x00F8;de,</l>
+<l>For dyrt betalte jeg Zarines Yndighed,</l>
+<l>Som kom Stryange til, at glemme Pligt og Eed;</l>
+<l>Selv Guderne sin Lyst udi Velgierning finde,</l>
+<l>Viis dig i al din Glands og v&#x00E6;r mig en Gudinde;</l>
+<l>Tilgiv Stryange da og ski&#x00E6;nk mig ham igien!</l>
+<l>Hvor stolt er ei den Roes, at ligne Himmelen?</l>
+</sp>
+<sp>
+<speaker>Zarine.</speaker>
+<l>Princesse! Du har l&#x00E6;rt Zarine ret at kiende,</l>
+<l>Paa Dydens Alter skal i Dag et Offer br&#x00E6;nde:</l>
+<l>Jo meere Smerte det mit Hierte kostet har,</l>
+<l>Jo meere dyrebart det og for Himlen var;</l>
+<l>Jeg elskte din Gemal, hans Tapperhed opt&#x00E6;ndte</l>
+<l>De kiere Luer, som mit Hierte f&#x00F8;r ei kiendte;</l>
+<l>Men denne F&#x00F8;lelse, som nu min Vellyst var,</l>
+<l>Sig i et &#x00D8;ieblik til Gift forvandlet har;</l>
+<l>Jeg vilde hade nu &#x2013; men Himlen det forbyde,</l>
+<l>Jeg skal mig selv til Trods ei Hiertets R&#x00F8;st adlyde?</l>
+<l>For Elskovs Svaghed og for Vredens Tyrannie</l>
+<l>Jeg ligegyldig skal herefter v&#x00E6;re frie.</l>
+<l>Ja Strid er al min Lyst og Seyer al min &#x00C6;re,</l>
+<l>At vinde mod mig selv, i Dag min Roes skal v&#x00E6;re;</l>
+<l>Tag din Stryange du og Elskovs Vellyst nyd,</l>
+<l>Jeg stolt indsv&#x00F8;ber mig udi min str&#x00E6;nge Dyd.</l>
+</sp>
+<sp>
+<speaker>Rhetea.</speaker>
+<l>Saa var da Rygtet ei, o! Dronning, overdrevet,</l>
+<l>Nei, kun med svage Tr&#x00E6;k det har din Dyd beskrevet;</l>
+<l>Saae du i dette Bryst, hvor h&#x00F8;it du agtet er,</l>
+<l>Og hvor min Siel, opfyldt af Gl&#x00E6;dens F&#x00F8;lelser,</l>
+<l>Til Himlen l&#x00F8;fter op sin nye Velgi&#x00F8;rerinde,</l>
+<l>I min Erkiendtlighed din L&#x00F8;n du skulde finde,</l>
+<l>Ja min ud&#x00F8;ste Fryd min gl&#x00E6;dedrukne Siel</l>
+<l>Formaaer kun denne B&#x00F8;n: Zarine leve vel.</l>
+</sp>
+<sp>
+<speaker>Zarine.</speaker>
+<l>Jeg altsaa har i Dag den st&#x00F8;rste Seier vundet,</l>
+<l>Og ved at gl&#x00E6;de dig, langt st&#x00F8;rre Gl&#x00E6;de fundet</l>
+<l>End den, jeg fordum fandt ved nye Erobringer,</l>
+<l>Nu jeg min egen og mit Hierte Dydens er.</l>
+<l>Men hvad Bebreidelse fortiener din Stryange,</l>
+<l>Som vil forskyde dig og mig til Brud forlange?</l>
+</sp>
+<sp>
+<speaker>Rhetea.</speaker>
+<l part="I">Undskyld en Skr&#x00F8;belig &#x2013; &#x2013; &#x2013;</l>
+</sp>
+<sp>
+<speaker>Zarine.</speaker>
+<l part="F">Din &#x00D8;mhed Vidne b&#x00E6;r,</l>
+<l>At han saa troel&#x00F8;s var, som du elskv&#x00E6;rdig er.</l>
+</sp>
+<sp>
+<speaker>Rhetea.</speaker>
+<l>O! du, som har begyndt, mit &#x00D8;nske at opfylde,</l>
+<l>Fuldend, lad Elskov her min Dristighed undskylde!</l>
+<l>Kun denne B&#x00F8;n endnu, jeg meer ei bede skal:</l>
+<l>D&#x00F8;m mig lastv&#x00E6;rdig, men undskyld dog min Gemal.</l>
+<l>Bebreidelser af dig hans Hierte giennemtr&#x00E6;ngte</l>
+<l>Og at han var forraad af mig, han vist nok t&#x00E6;nkte;</l>
+<l>Maaskee &#x2013; dog Himlen veed, det mod min Villie var &#x2013; &#x2013;</l>
+<l>Uvidende maaskee jeg ham fort&#x00F8;rnet har.</l>
+<l>Mod mig han synes vreed, ski&#x00F8;nt Grunden til hans Vrede</l>
+<l>Har han fortiet; men o! Dronning! t&#x00F8;r jeg bede</l>
+<l>At jeg mit Hierte frit for dig oplade maae,</l>
+<l>Du selv en Krigsmand her, ved Navn Lorano saae;</l>
+<l>I meer end tvende Aar for ham jeg Frygt har baaret,</l>
+<l>Hans Hierte vist nok er af troel&#x00F8;s Elskov saaret;</l>
+<l>Hans Falskheds sledske Sprog han stedse hvislede;</l>
+<l>Mit Hierte sagde mig, det var Bagvaskelse.</l>
+<l>Hvo veed, maaskee han mig Misgierninger tillagde</l>
+<l>Og med beh&#x00E6;ndig List til min Stryange sagde. &#x2013; &#x2013;</l>
+</sp>
+<sp>
+<speaker>Zarine.</speaker>
+<l>Og saadant skulde strax om dig Stryange troe!</l>
+<l>Da maae en nedrig Siel udi din Elsker boe.</l>
+<l>Kort sagt han ikkun lidt i Dyder dig maa ligne:</l>
+<l>Bliv min Veninde du, og Himlen dig velsigne,</l>
+<l>Ved Dyden lykkelig og i din Elskov glad,</l>
+<l>Og v&#x00E6;rd en troefast Ven, som st&#x00F8;rre Dyd besad.</l>
+<stage>(hun gaaer.)</stage>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="4_3">
+<head type="sub">Tredie Optrin.</head>
+<sp>
+<speaker>Rhetea.</speaker> <stage>(allene.)</stage>
+<l>Det var et Lynildslag; skal Hiertets Saar ei l&#x00E6;ges?</l>
+<l>O! Himmel mon du dog ei ved min N&#x00F8;d bev&#x00E6;ges?</l>
+<l>Ach! vilde Dronningen kun mig strafv&#x00E6;rdig troe,</l>
+<l>Undskylde ham, og os forglemme begge to.</l>
+<l>Nei, jeg skal aldrig meer bestandig Gl&#x00E6;de finde,</l>
+<l>Du blev mig dog tilsidst en grum Velgi&#x00F8;rerinde;</l>
+<l>Du gav o! Dronning mig i Dag min Mand igien;</l>
+<l>Men du ford&#x00F8;mte ham som en uv&#x00E6;rdig Ven.</l>
+<l>Ret som et Stierneskud igiennem M&#x00F8;rket glimter,</l>
+<l>Saa giennem sorte Skr&#x00E6;k min korte Gl&#x00E6;de skimter.</l>
+<l>Jeg glad omfavner den; men faaer kun M&#x00F8;rket fat,</l>
+<l>Og mig omringet seer af Sorgers tykke Nat;</l>
+<l>Man giver mig min Mand ber&#x00F8;ver ham hans &#x00C6;re &#x2013; &#x2013;</l>
+<l>O! Himmel kunde du mig dog de Grunde l&#x00E6;re,</l>
+<l>Hvorved at viise hver hans Dyd, Uskyldighed,</l>
+<l>Jeg skulde glemme strax al min Gienvordighed;</l>
+<l>Men see, der er han selv. O! Gud! hvad skal jeg gi&#x00F8;re!</l>
+<l>Ach! Himmel styrk min Siel, lad mine Sukke r&#x00F8;re</l>
+<l part="I">Hans haarde Hierte &#x2013; &#x2013;</l>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="4_4">
+<head type="sub">Fierde Optrin.</head>
+<stage>Stryange, Rhetea.</stage>
+<sp>
+<speaker>Rhetea.</speaker>
+<l part="F">Din Rhetea venter her,</l>
+<l>Sin Siels Behersker! siig, er hun endnu dig kier?</l>
+</sp>
+<sp>
+<speaker>Stryange.</speaker>
+<l part="I">Mig Tiden kostbar er &#x2013; &#x2013;</l>
+</sp>
+<sp>
+<speaker>Rhetea.</speaker>
+<l part="F">Ja heele Verdens Skatte</l>
+<l>De dyre &#x00D8;ieblik ei kunde mig erstatte,</l>
+<l>Som jeg henbringe maae ved min Stryanges Bryst.</l>
+</sp>
+<sp>
+<speaker>Stryange.</speaker>
+<l part="I">Spar disse Favnetag. &#x2013; &#x2013; &#x2013;</l>
+</sp>
+<sp>
+<speaker>Rhetea.</speaker>
+<l part="F">N&#x00E6;gt mig! ei denne Tr&#x00F8;st,</l>
+<l part="I">Jeg ellers d&#x00F8;er af Sorg &#x2013; &#x2013;</l>
+</sp>
+<sp>
+<speaker>Stryange.</speaker>
+<l part="M">Farvel!</l>
+</sp>
+<sp>
+<speaker>Rhetea.</speaker>
+<l part="F">Du mig da hader!</l>
+</sp>
+<sp>
+<speaker>Stryange.</speaker>
+<l>Ja, slip mig eller jeg udi dit Blod mig bader:</l>
+<l>Paa Krigens Skueplads har Kierlighed ei Sted;</l>
+<l>Flye selv, Troel&#x00F8;se, flye! og al din Elskov med.</l>
+<l part="I">Du eller jeg maae flye. &#x2013; &#x2013; &#x2013;</l>
+</sp>
+<sp>
+<speaker>Rhetea.</speaker>
+<l part="F">Nei lad os begge t&#x00F8;ve</l>
+<l>Og denne kiere Haand mig Livet her ber&#x00F8;ve;</l>
+<l>Saa d&#x00F8;er jeg fyldestgiort. &#x2013; I! Guder, ja jeg d&#x00F8;er;</l>
+<l>Men kun et Suk endnu! fort&#x00F8;rnet Himmel, h&#x00F8;r,</l>
+<l>Et Suk for dig min Ven, min grumme Ven! jeg beder:</l>
+<l>At Himlen aldrig vil saa mange Bitterheder</l>
+<l>Ud&#x00F8;se over dig, som du mig ski&#x00E6;nket har;</l>
+<l>Farvel, st&#x00F8;d til, trods dig, jeg din bestandig var.</l>
+</sp>
+<sp>
+<speaker>Stryange.</speaker>
+<l>Nei jeg maae gaae &#x2013; hvo kan mod disse Vaaben stride?</l>
+</sp>
+<sp>
+<speaker>Rhetea.</speaker>
+<l>Du skal ei kunde<note type="footnote">kunde] <hi rend="italic">rettet fra:</hi> knnde <hi rend="italic">(trykkfeil)</hi></note> dig af mine Arme slide.</l>
+</sp>
+<sp>
+<speaker>Stryange.</speaker>
+<l>Jeg gaaer, forund mig Roe og lev kun, men tilgiv!</l>
+</sp>
+<sp>
+<speaker>Rhetea.</speaker>
+<l>Jeg har tilgivet alt; men end mit usle Liv!</l>
+<l>Er du ei meere min, da er mit Liv til Byrde,</l>
+<l>Og du mig skulde kun med langsom Smerte myrde,</l>
+<l>Nei h&#x00F8;r dog denne B&#x00F8;n: igiennemboer min Barm.</l>
+<l>I det du st&#x00F8;der til, velsigner jeg din Arm.</l>
+</sp>
+<sp>
+<speaker>Stryange.</speaker>
+<l>Jeg qv&#x00E6;les, hvilken Strid! mit Mod min Siel undfalder.</l>
+<l>Kom Vrede, H&#x00E6;vn og D&#x00F8;d, jeg eders Hielp paakalder;</l>
+<l>Styrk denne svage Haand, udruster den med Had.</l>
+<stage>(han griber til sin Kaarde)</stage></sp>
+<sp>
+<speaker>Rhetea.</speaker> <stage>(paa Kn&#x00E6;e)</stage>
+<l>Min Mand! jeg d&#x00F8;er og vi for evig skilles ad.</l>
+</sp>
+<sp>
+<speaker>Stryange.</speaker>
+<l>O! Last, hvor er du svag! hvi ski&#x00E6;lve disse H&#x00E6;nder!</l>
+</sp>
+<sp>
+<speaker>Rhetea.</speaker>
+<l>O! det er Kierlighed, som dette St&#x00F8;d afvender,</l>
+<l part="I">Du elsker mig endnu &#x2013; &#x2013; &#x2013;</l>
+</sp>
+<sp>
+<speaker>Stryange.</speaker>
+<l part="F">Ach! jeg fortvivle maae,</l>
+<l>Du selv, du dr&#x00E6;ber mig, gaae bort o! Grumme gaae.</l>
+</sp>
+<sp>
+<speaker>Rhetea.</speaker>
+<l>Nei jeg er tryg hos dig og jeg har Seier vundet</l>
+<l>Og du er min igien. Zarine har ei kundet &#x2013; &#x2013; &#x2013;</l>
+</sp>
+<sp>
+<speaker>Stryange.</speaker>
+<l part="I">Zarine hvad? hvordan?</l>
+</sp>
+<sp>
+<speaker>Rhetea.</speaker>
+<l part="F">Det alt tilgivet er,</l>
+<l>Hun er ei meere din, du har Rhetea kier.</l>
+</sp>
+<sp>
+<speaker>Stryange.</speaker>
+<l>Jeg er forraad, fortabt, Ulykker sig foreene,</l>
+<l>For ved en samlet Storm at knuse mig allene,</l>
+<l part="I">Du har Zarine sagt &#x2013; &#x2013; &#x2013;</l>
+</sp>
+<sp>
+<speaker>Rhetea.</speaker>
+<l part="F">Kun at jeg elsker dig.</l>
+</sp>
+<sp>
+<speaker>Stryange.</speaker>
+<l>Og det er meer end nok, hun kiender da min Svig:</l>
+<l>Du Grumme, ja du har, du har min Skam opdaget,</l>
+<l>og al den bittre Qval mit Hierte foraarsaget!</l>
+<l part="I">Jeg veed ei hvad mig holt tilbage &#x2013; &#x2013; &#x2013;</l>
+<stage>(han taget atter til sit Sv&#x00E6;rd.)</stage>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="4_5">
+<head type="sub">Femte Optrin.</head>
+<stage>Lorano, de forrige.</stage>
+<sp>
+<speaker>Lorano.</speaker>
+<l part="F">Himlen selv,</l>
+<l part="I">Du vilde dog vel ei &#x2013; &#x2013; &#x2013;</l>
+</sp>
+<sp>
+<speaker>Stryange.</speaker>
+<l part="F">Hvorhen, Forvovne, ski&#x00E6;lv!</l>
+<l part="I">T&#x00F8;r du forhindre mig. &#x2013; &#x2013; &#x2013;</l>
+</sp>
+<sp>
+<speaker>Lorano.</speaker>
+<l part="F">Du selv mig skal ber&#x00F8;mme,</l>
+<l>Og om min Dristighed det allerbeste d&#x00F8;mme:</l>
+<l>Din Vrede raser nu. &#x2013; Rhetea kom f&#x00F8;lg med.</l>
+<stage>(Han tager Rhetea under Armen, som n&#x00F8;dig f&#x00F8;lger, men i det hun gaaer, seer sig tilbage og taler f&#x00F8;lgende:)</stage></sp>
+<sp>
+<speaker>Rhetea.</speaker>
+<l>Forlade min Gemal saa l&#x00E6;nge han er vreed?</l>
+<l>Stryange skal jeg gaae? gl&#x00E6;d dog et saaret Hierte:</l>
+<l>Et Ord udaf din Mund skal l&#x00E6;ge al min Smerte.</l>
+<l>Et Ord! tal dog! tilgiv! jeg endnu h&#x00F8;re kan.</l>
+<l>Du tier, jeg forgaaer! Farvel min grumme Mand.</l>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="4_6">
+<head type="sub">Siette Optrin</head>
+<sp>
+<speaker>Stryange,</speaker> <stage>(allene.)</stage>
+<l>Ja meer end grum! o Gud! du taaler dog paa Jorden</l>
+<l>En Lastefuld som jeg! ney knus mig med din Torden.</l>
+<l>Din &#x00C6;re, Dydens Ret jeg nok forn&#x00E6;rmet har,</l>
+<l>Du eier ingen Straf, som jeg jo v&#x00E6;rdig var:</l>
+<l>Dog &#x2013; jeg har &#x00C6;ren tabt, fortient Zarines Vrede</l>
+<l>Og hos Cyaxares om Naade maatte bede,</l>
+<l>Saafremt han h&#x00F8;rte kun at jeg hans Datter her</l>
+<l>Foragtet har, og havt hans verste Fiende kier.</l>
+<l>Den qv&#x00E6;ler mig med Suk, som jeg forskyde vilde,</l>
+<l>Og den jeg elsker, kan jeg aldrig meer formilde;</l>
+<l>Den jeg adlyde b&#x00F8;r, med H&#x00E6;vn forf&#x00F8;lger mig;</l>
+<l>Er dette dog ei nok for at afstraffe Svig?</l>
+<l>Jeg skal mit Hierte selv med Helvedangest plage,</l>
+<l>Ja da jeg f&#x00F8;rst et Skridt fra Dyden veeg tilbage,</l>
+<l>Opr&#x00F8;rtes i mit Bryst de sorte Sorgers Hav,</l>
+<l>Hvor Fred og Haab og Tr&#x00F8;st nedsank i bundl&#x00F8;s Grav.</l>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="4_7">
+<head type="sub">Syvende Optrin.</head>
+<stage>Stryange. Lorano.</stage>
+<sp>
+<speaker>Lorano.</speaker>
+<l>Mit Anl&#x00E6;g f&#x00E6;rdigt er: jeg fire Sacer haver,</l>
+<l>Som fik hver af min Haand sin Frihed, Sv&#x00E6;rd og Gaver:</l>
+<l>De skulle bryde ind, Rhetea snappe bort,</l>
+<l>Og jeg bes&#x00F8;rger, at de kunne komme fort.</l>
+<l>Jeg vore Vagter har en str&#x00E6;ng Befaling givet,</l>
+<l>At holde sig herfra, og det skal koste Livet,</l>
+<l>Om nogen denne Nat sig her indfinde t&#x00F8;r,</l>
+<l>Endog de Flygtende man ei paagribe b&#x00F8;r.</l>
+</sp>
+<sp>
+<speaker>Stryange.</speaker>
+<l>Din Fliid er priselig, Lorano &#x2013; men Stryange</l>
+<l part="I">Forloren er &#x2013; &#x2013;</l>
+</sp>
+<sp>
+<speaker>Lorano.</speaker>
+<l part="F">Hvad nu? det er en Sacisk Fange,</l>
+<l>Som, os uvidende, Rhetea r&#x00F8;vet har;</l>
+<l>Lad kun Cyaxares forbande den Barbar.</l>
+</sp>
+<sp>
+<speaker>Stryange.</speaker>
+<l part="I">Nei &#x2013; men Zarine veed &#x2013; &#x2013;</l>
+</sp>
+<sp>
+<speaker>Lorano.</speaker>
+<l part="F">Lad hende alting vide,</l>
+<l>Troe mig, hun ei saa let sin Elskov kan bestride,</l>
+<l>Jeg veed hun elsker dig, og ski&#x00F8;nt hun det fortr&#x00F8;d,</l>
+<l>Saa trodser Elskov tit mod det, Fornuften b&#x00F8;d.</l>
+<l>Man slaaer i Luen ned og Luens Kraft for&#x00F8;ger,</l>
+<l>Naar Elskov Modstand faaer, den kun Udflugter s&#x00F8;ger,</l>
+<l>Hvorved at skuffe den bebreidende Fornuft,</l>
+<l>Og blusser himmelh&#x00F8;it, saasnart som den faaer Luft.</l>
+<l>Og hos det andet Ki&#x00F8;n tit heftig Elskov skaber</l>
+<l>Ugrundet Haab, hvorved det Sands og Samling taber;</l>
+<l>Zarine sp&#x00F8;rger ei, hvad List man her har brugt,</l>
+<l>Hun h&#x00F8;rer hierteglad Medbeilerindens Flugt.</l>
+<l>Gaae, tappre Helt, af Krig og Sorg og Elskov tr&#x00E6;ttet,</l>
+<l>Ind i dit Telt og sov, naar alt er vel forrettet,</l>
+<l>Da skal jeg v&#x00E6;re her &#x2013; Paa Sacers Dronning t&#x00E6;nk!</l>
+<stage>(i det han gaaer, dog saa, at Stryange h&#x00F8;rer det.)</stage>
+<l>Om hende S&#x00F8;vnens Gud ham s&#x00F8;de Dr&#x00F8;mme skienk!</l>
+<stage>(han gaaer.)</stage>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="4_8">
+<head type="sub">Ottende Optrin.</head>
+<sp>
+<speaker>Stryange,</speaker> <stage>(allene.)</stage>
+<l>Ja S&#x00F8;vn forn&#x00F8;den var; men S&#x00F8;vn er Himlens Gave,</l>
+<l>Og Himlen er mig vreed; jeg vildsom her maae rave,</l>
+<l>Hvor Nattens Sp&#x00F8;gelser, Skr&#x00E6;k og Fortvivlelse</l>
+<l>Igiennem M&#x00F8;rket f&#x00E6;lt til mine Sorger lee.</l>
+<stage>(han seer til sit Leie i Teltet.)</stage>
+<l>Ak! dette Sted var tit en Grav for Sorg og M&#x00F8;ie,</l>
+<l>Der sov jeg dydig f&#x00F8;r; nu t&#x00F8;r mit bange &#x00D8;ie</l>
+<l>Knap skimte did! o! D&#x00F8;d! dit Billede jeg seer,</l>
+<l>Og til en Pinebenk min Seng forvandlet er.</l>
+<l>Min egen Gruesomhed for&#x00F8;ger Nattens M&#x00F8;rke,</l>
+<l>Fortvivlelse! du er den Gud, jeg nu maae dyrke,</l>
+<l>Men du, Rhetea, som tilbeder Guderne,</l>
+<l>Skal du og denne Nat i al sin Grumhed see?</l>
+<l>Snart skal du f&#x00F8;res bort og jeg er selv Medvider,</l>
+<l>Jeg taale kan at Skr&#x00E6;k dit Hierte s&#x00F8;nderslider.</l>
+<l>Ja reis til &#x00D8;rkener, en Tiger der maaskee</l>
+<l>Skal r&#x00F8;res ved de Suk, som mig forh&#x00E6;rdede.</l>
+<l>Reis hen Uskyldige, lad mig et Offer v&#x00E6;re</l>
+<l>For alle Guders H&#x00E6;vn. &#x2013; Kom S&#x00F8;vn, du mig skal l&#x00E6;re,</l>
+<l>Hvad Straf mig forestaaer. Jeg skal i Dr&#x00F8;mme see</l>
+<l>Rhete&#x00E6; Dyd, min Skam, min L&#x00F8;n, mit Helvede.</l>
+<stage>(han gaaer ind i Teltet.)</stage>
+</sp>
+<p rend="center">Ende paa fierde Optog.</p>
+</div>
+</div>
+<div type="chapter" subtype="act" n="5">
+<head type="main"><ref type="contents" target="contents_7" xml:id="chapter_7">Femte Optog.</ref></head>
+<div type="uchapter" subtype="scene" n="5_1">
+<head type="sub">F&#x00F8;rste Optrin.</head>
+<stage>(Skuepladsen er uden Forandring, som i det fierde Optog. Stryange ligger i sit Telt, og sover.)</stage>
+<sp>
+<speaker>Stryange,</speaker> <stage>(allene i S&#x00F8;vne.)</stage>
+<l>Rhetea d&#x00F8;e &#x2013; o! Skr&#x00E6;k! &#x2013; hvad St&#x00F8;d! &#x2013; nei holdt &#x2013; hun blegner &#x2013;</l>
+<l>Hun taber sig &#x2013; o! hielp &#x2013; forgieves &#x2013; ak! hun segner &#x2013;</l>
+<l part="I">Hun d&#x00F8;er &#x2013; &#x2013;</l>
+<stage>(i det han siger disse Ord, vaagner han forskr&#x00E6;kket og s&#x00E6;tter sig op paa sit Leie, sigende:)</stage>
+<l part="F">Jeg vaagen er &#x2013; ja det en Dr&#x00F8;m kun var.</l>
+<l>Endog i S&#x00F8;vnens Ski&#x00F8;d er jeg en grum Barbar.</l>
+<l>Tr&#x00E6;t s&#x00F8;ger jeg om Roe; men S&#x00F8;vnen &#x00E6;ngster, trykker;</l>
+<l>Jeg sover Kr&#x00E6;fter bort og dr&#x00F8;mmer kun Ulykker;</l>
+<l>Jeg falder hovedkulds fra steile Klippe need,</l>
+<l>Og til at sluge mig Afgrunden er bereed.</l>
+<l>Hist br&#x00F8;le Tordener, her Lynildstraaler funkle</l>
+<l>Nu sorte Skygger Soel og Dag med eet fordunkle.</l>
+<l>Nu mig med voldsom Fart et Hav i M&#x00F8;de kom,</l>
+<l>Nu falde Stierner ned, nu styrtes Jorden om,</l>
+<l>Nu mod Rhete&#x00E6; Barm jeg Morderdolken st&#x00F8;der,</l>
+<l>Jeg synes som jeg seer, at hendes Hierte bl&#x00F8;der,</l>
+<l>Det blodbest&#x00E6;nkte Bryst, hvad Syn var det at see?</l>
+<l>Ei Verdens Undergang mig saa forskr&#x00E6;kkede.</l>
+<stage>(han gnier sine &#x00D8;ine og efter nogen Taushed siger:)</stage>
+<l>O! S&#x00F8;vn; hvor tit har jeg velsignet f&#x00F8;r din Hvile,</l>
+<l>Man saae mig, tr&#x00E6;t af Krig, glad i din Arm at smile,</l>
+<l>Duunvinget, silkebl&#x00F8;d, du gleed paa &#x00D8;iet frem,</l>
+<l>Og hvisked: al din Sorg, dig selv Stryange glem.</l>
+<l>Jeg sov og glemte alt; men nu min S&#x00F8;vn mig qvalte,</l>
+<l>Og Furier til mig kun D&#x00F8;d og Angest talte.</l>
+<l>Saa er der da, o Siel! for dig ei Hvile meer,</l>
+<l>Naar endog S&#x00F8;vnen selv Rhete&#x00E6; H&#x00E6;vner er; &#x2013;</l>
+<l>Men h&#x00F8;r! hvordan? o Gud! mon det Rhetea v&#x00E6;re,</l>
+<l part="I">Som f&#x00F8;res bort? &#x2013; &#x2013;</l>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="5_2">
+<head type="sub">Andet Optrin.</head>
+<stage>(Tre bev&#x00E6;bnede Sacer f&#x00F8;re Rhetea bunden imellem sig, og komme saa langt frem, at de kan sees af Tilskuerne, men ei af Stryange.)</stage>
+<sp>
+<speaker>En Sace.</speaker>
+<l part="M">Holdt her &#x2013; &#x2013;</l>
+</sp>
+<sp>
+<speaker>Rhetea.</speaker>
+<l part="F">O Himmel! hvo vil b&#x00E6;re</l>
+<l part="I">Medlidenhed med mig?</l>
+</sp>
+<sp>
+<speaker>En Sace.</speaker>
+<l part="F">Holdt! her vi vente skal,</l>
+<l part="I">Indtil han kommer &#x2013; &#x2013;</l>
+</sp>
+<sp>
+<speaker>Rhetea.</speaker>
+<l part="F">Hielp! Stryange svar mig! tal!</l>
+<l>Er han ei i sit Telt, hvorhen skal jeg da raabe?</l>
+<l>Af eder, R&#x00F8;vere, jeg intet har at haabe.</l>
+<l>O! myrder mig kun her! jeg spares skal maaskee</l>
+<l part="I">Til st&#x00F8;rre Qval endnu?</l>
+</sp>
+<sp>
+<speaker>En Sace.</speaker>
+<l part="F">Dig intet Ondt skal skee.</l>
+</sp>
+<sp>
+<speaker>Rhetea.</speaker>
+<l>En grum Medlidenhed! Natur! h&#x00F8;r disse Sukke!</l>
+<l>O Jord! vil du dog ei for mig en Grav oplukke!</l>
+<l>Jeg dig paakalde maae, end du min bittre N&#x00F8;d!</l>
+<l>Und mig af Sorger tr&#x00E6;t at skiules i dit Ski&#x00F8;d!</l>
+<l>Ja, Jord! n&#x00E6;gt ei min B&#x00F8;n: nok Himlen mig ei h&#x00F8;rer,</l>
+<l>Og blant de Levende min Suk ei nogen r&#x00F8;rer:</l>
+<l>Ja grumme Nat, du som allene h&#x00F8;rer mig,</l>
+<l>Frembring mit h&#x00E6;se Raab, og min Stryange siig:</l>
+<l>At jeg ham elsket har, Trods alle Bitterheder,</l>
+<l>At jeg endnu en B&#x00F8;n for ham til Himlen beder;</l>
+<l>Undskyld! o Himmel! at jeg mig fordriste t&#x00F8;r:</l>
+<l>Stryange var min Mand, jeg beder, sukker, d&#x00F8;er &#x2013;</l>
+<l>Jeg kan til Himlen ei opl&#x00F8;ste bundne H&#x00E6;nder,</l>
+<l>Mit &#x00D8;ie skimter op: og Hiertet Sukke sender,</l>
+<l>I Guder, ynder ham, som eengang elskte mig!</l>
+<l>Gid! skilt fra mig, han end maae leve lykkelig!</l>
+<l>Forunder mig den H&#x00E6;vn, at f&#x00F8;r han Livet ender</l>
+<l>Han mig uskyldig, troe, endnu engang erkiender;</l>
+<l>Ja Himmel! v&#x00E6;r dog ei til disse Sukke d&#x00F8;v;</l>
+<l>Glad d&#x00F8;er jeg, naar min Mand velsigne maae mit St&#x00F8;v;</l>
+<l>Jeg seer det kiere Telt! ak jeg forgaaer af Smerte:</l>
+<l>Barbarer, dersom Suk bev&#x00E6;ger eders Hierte,</l>
+<l>Saa h&#x00F8;rer denne B&#x00F8;n og bringer mig derhen,</l>
+<l>Jeg der kun et Farvel vil skrive til min Ven &#x2013;</l>
+<l>Mig undes ingen Tr&#x00F8;st! &#x2013; For evig jeg forlader</l>
+<l>Gemal og F&#x00F8;deland og en graah&#x00E6;rdet Fader,</l>
+<l>Og D&#x00F8;den n&#x00E6;gtes mig; uh&#x00F8;rte Gruesomhed,</l>
+<l>Min Mand, var dette L&#x00F8;n for al min Kierlighed.</l>
+<l>Uhyrer! ender dog det Liv, som mig besv&#x00E6;rer,</l>
+<l>Min Siel i Suk og Qval og Angest sig fort&#x00E6;rer;</l>
+<l>H&#x00F8;r tomme Telt og svar, h&#x00F8;r Himmel, Jord og Nat,</l>
+<l>Ynk den, som er af Gud og Mennesker forladt.</l>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="5_3">
+<head type="sub">Tredie Optrin.</head>
+<stage>(Imod Slutningen af Rhete&#x00E6; Tale seer man bag paa Skuepladsen Lorano, uddeelende stumme Forholdsregler til en Sace,<note type="footnote">Sace,] <hi rend="italic">rettet fra:</hi> Sace. <hi rend="italic">(trykkfeil)</hi></note> som just i det Rhetea siger det sidste Ord, l&#x00F8;ber til de forrige og raaber:)</stage>
+<sp>
+<speaker>En Sace.</speaker>
+<l part="I">Flye! flye!</l>
+<stage>(Og derpaa haste de i samme &#x00D8;ieblik bort med Rhetea. De tabe sig strax i M&#x00F8;rket.)</stage>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="5_4">
+<head type="sub">Fierde Optrin.</head>
+<stage>(Lorano, som er kommen l&#x00E6;ngere frem paa Skuepladsen, og Stryange, som kommer forvirret ud af sit Telt.)</stage>
+<sp>
+<speaker>Stryange.</speaker>
+<l part="M">Holdt! holdt! &#x2013; (til Lorano.) kom! kom!</l>
+</sp>
+<sp>
+<speaker>Lorano.</speaker>
+<l part="F">T&#x00F8;v, Herre! t&#x00F8;v! jeg beder!</l>
+</sp>
+<sp>
+<speaker>Stryange.</speaker>
+<l part="I">Strax slip mig, eller d&#x00F8;e!</l>
+</sp>
+<sp>
+<speaker>Lorano.</speaker>
+<l part="F">Til D&#x00F8;den jeg bereder</l>
+<l part="I">Mit uforsagte Bryst. &#x2013; &#x2013;</l>
+</sp>
+<sp>
+<speaker>Stryange.</speaker>
+<l part="F">Kom, f&#x00F8;lg mig, siger jeg.</l>
+</sp>
+<sp>
+<speaker>Lorano.</speaker>
+<l part="I">Bet&#x00E6;nk dig Herre dog!</l>
+</sp>
+<sp>
+<speaker>Stryange.</speaker>
+<l part="F">Hvad? du adlyder ei?</l>
+</sp>
+<sp>
+<speaker>Lorano.</speaker>
+<l>Jeg har adlydet dig, elsk nu kun frit Zarine.</l>
+</sp>
+<sp>
+<speaker>Stryange.</speaker>
+<l>Lorano, spar min Siel for denne grumme Pine.</l>
+</sp>
+<sp>
+<speaker>Lorano.</speaker>
+<l>Hvad Pine! Kierlighed kun her det Offer var &#x2013; &#x2013;</l>
+</sp>
+<sp>
+<speaker>Stryange.</speaker>
+<l part="I">Tie, gaae, Rhetea hent, flye strax &#x2013;</l>
+</sp>
+<sp>
+<speaker>Lorano.</speaker>
+<l part="F">Bet&#x00E6;nk du har</l>
+<l>Begiert Zarines Haand; dit &#x00D8;nske hun opfylder,</l>
+<l>Og Sacers heele H&#x00E6;r dig snart som Konge hylder.</l>
+<l part="I">Kort, &#x00C6;ren vinker og din Elskov &#x2013; &#x2013;</l>
+</sp>
+<sp>
+<speaker>Stryange.</speaker>
+<l part="F">Nu velan &#x2013; &#x2013;</l>
+<l>Dog nei &#x2013; o Strid! &#x2013; o Qval! jeg dog ei taale kan</l>
+<l>At den jeg elskte f&#x00F8;r, Barbarers Bytte bliver,</l>
+<l>O! hendes Suk endnu mit Hierte s&#x00F8;nderriver;</l>
+<l>Indhent mig hende strax, hun ei mishandles b&#x00F8;r</l>
+<l>Af disse R&#x00F8;vere &#x2013; skielv du, saafremt hun d&#x00F8;er</l>
+<l>Ved din Seendr&#x00E6;gtighed. Nok sagt. Du b&#x00F8;r adlyde.</l>
+<stage>(Lorano gaaer.)</stage>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="5_5">
+<head type="sub">Femte Optrin.</head>
+<sp>
+<speaker>Stryange,</speaker> <stage>(allene.)</stage>
+<l>O! kunde jeg dog kun de grumme L&#x00E6;nker bryde,</l>
+<l>De L&#x00E6;nker, jeg til Trods for Dyd og Troeskab b&#x00E6;r;</l>
+<l>Forbandet Elskov, du mit Hiertes B&#x00F8;ddel er.</l>
+<l>Forbandet var den Dag, jeg hid til Krigen iilte.</l>
+<l>Forbandet &#x00D8;ieblik, da Sacers Dronning smiilte</l>
+<l>Den f&#x00F8;rste gang til mig. Den Smiil i Hiertet ski&#x00F8;d</l>
+<l>En galdeblandet Gift, Had, Elskov, Mord og D&#x00F8;d.</l>
+<l part="I">Nu nok et St&#x00F8;d &#x2013; &#x2013;</l>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="5_6">
+<head type="sub">Siette Optrin.</head>
+<stage>Zarine forvirret. Stryange.</stage>
+<sp>
+<speaker>Zarine.</speaker>
+<l part="F">Tilgiv, din Roe jeg dig betager,</l>
+<l>Trods Nattens M&#x00F8;rkhed jeg og dig til Trods opdager,</l>
+<l>Din List, din Gruesomhed. Rhetea f&#x00F8;res bort!</l>
+<l part="I">Og du tillader det?</l>
+</sp>
+<sp>
+<speaker>Stryange.</speaker>
+<l part="F">Hvordan? jeg som har giort</l>
+<l>Fuldkommen Anstalt til at bringe dem tilbage!</l>
+<l>At dine Sacer mig saa skammelig bedrage,</l>
+<l part="I">Og r&#x00F8;ve &#x2013; &#x2013;</l>
+</sp>
+<sp>
+<speaker>Zarine.</speaker>
+<l part="F">Nei Barbar, din egen grumme Haand</l>
+<l>Vist har til skiendig Vold l&#x00F8;st disse Fangers Baand.</l>
+</sp>
+<sp>
+<speaker>Stryange.</speaker>
+<l>Forvovne Tale! jeg, som aldrig disse Slaver</l>
+<l part="I">For mine &#x00D8;ine saae. &#x2013; &#x2013;</l>
+</sp>
+<sp>
+<speaker>Zarine.</speaker>
+<l part="F">Nu vel, Maaskee du haver</l>
+<l part="I">Befalning givet. &#x2013; &#x2013;</l>
+</sp>
+<sp>
+<speaker>Stryange.</speaker>
+<l part="F">Nei, o Dronning! du skal see,</l>
+<stage>(afsides.)</stage>
+<l>Men hvad om dette skeer? at man indhentede</l>
+<l part="I">Dem som &#x2013; &#x2013;</l>
+</sp>
+<sp>
+<speaker>Zarine.</speaker>
+<l part="F">Ja dig til Trods maaskee de skulle blive</l>
+<l>Af mig indhentede; men h&#x00F8;r, at s&#x00F8;nderrive</l>
+<l>Et Baand, som Eed og Dyd og Tiden knyttet har,</l>
+<l>At hade, skuffe den, hvis Hierte f&#x00E6;rdigt var</l>
+<l>Af &#x00D8;mhed, Troeskab, Sorg og D&#x00F8;dens Qval at smelte,</l>
+<l>At v&#x00E6;re Tiger til de Taarer, som hun f&#x00E6;ldte,</l>
+<l>De Taarer, som mit Had mod dig formildede,</l>
+<l>Og i bedragne Bryst min Vrede standsede;</l>
+<l>Forraade sin Monark, en Helt af Aar og Krige</l>
+<l>Og M&#x00F8;ie tr&#x00E6;t! Af Lyst til Kongenavn og Rige</l>
+<l>Ved blot Tvetydighed at ville gi&#x00F8;re ham</l>
+<l>Mist&#x00E6;nkt, forhadt af mig til Skiul for egen Skam,</l>
+<l>At byde mig en Haand, som skulde mig van&#x00E6;re,</l>
+<l>Min unge muntre Siel al Elskovs Qval at l&#x00E6;re,</l>
+<l>Forstyrre Sindets Roe og friste Dyden selv,</l>
+<l>Var det ei Br&#x00F8;de nok? Barbar! Forr&#x00E6;der skielv,</l>
+<l>Skielv for min H&#x00E6;vn &#x2013; dog nei, du neppe H&#x00E6;vn fortiente:</l>
+<l>Men blot Foragt. Min Siel en hellig Lovsang sendte</l>
+<l>Til Himlen, at den dog min Haand beskiermede</l>
+<l part="I">Mod et uv&#x00E6;rdigt Baand &#x2013; &#x2013;</l>
+</sp>
+<sp>
+<speaker>Stryange.</speaker>
+<l part="F">Ja Grumme, vil du see</l>
+<l>Din &#x00C6;re h&#x00E6;vnet, kom, mit Hierte jeg bereder,</l>
+<l>Ja kom! befrie mig selv fra disse Bitterheder,</l>
+<l>Hvortil du Aarsag er. Din Tale mig har bragt</l>
+<l>Til grum Fortvivlelse &#x2013; nei Dronning, din Foragt</l>
+<l>Nye Ild, nyt Raserie udi min Siel ant&#x00E6;nder:</l>
+<l>Til Mord og Nederlag hver S&#x00F8;ene sig ansp&#x00E6;nder.</l>
+<l>Ak! Grumme! gid du stod i Spidsen for din H&#x00E6;r,</l>
+<l>Du skulle f&#x00F8;le da min Vredes Virkninger,</l>
+<l>Flye snart, o sorte Nat, kom Dag, at jeg maae iile</l>
+<l>Til Krig, til Blod og D&#x00F8;d imellem Sv&#x00E6;rd og Piile,</l>
+<l>Da skal din Ski&#x00F8;nhed ei beskierme meer din Barm.</l>
+</sp>
+<sp>
+<speaker>Zarine.</speaker>
+<l>Nei, men min Tapperhed, min Bue, Sv&#x00E6;rd og Arm,</l>
+<l>Og Himlen, Dydens Ven og alle Lasters Fiende</l>
+<l part="I">Skal stride selv for mig.</l>
+<stage>(hun gaaer.)</stage>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="5_7">
+<head type="sub">Syvende Optrin.</head>
+<sp>
+<speaker>Stryange,</speaker> <stage>(alleene.)</stage>
+<l part="F">Det var min Elskerinde,</l>
+<l>Den, som jeg f&#x00F8;r tilbad; meer grum end en L&#x00F8;vinde,</l>
+<l>Hun s&#x00F8;nderrev mit Bryst; ja Laster straffes b&#x00F8;r:</l>
+<l>Hvad er tilovers nu? kun at Stryange d&#x00F8;er;</l>
+<l>Men er og D&#x00F8;den nok til H&#x00E6;vn? Dyd, Elskov, &#x00C6;re!</l>
+<l>Forsones I ved Blod? maaskee min Geist skal v&#x00E6;re</l>
+<l>Et evigt Offer for de grumme Furier?</l>
+<l>Jeg synes som jeg her den sorte Afgrund seer,</l>
+<l>Og D&#x00F8;dens Riges Sv&#x00E6;lg med graadig aabnet Strube,</l>
+<l>Mig som et Offer strax med eet at ville sluge;</l>
+<l>Jeg seer den bleege Frygt, jeg seer Misundelsen,</l>
+<l>Jeg seer den bange Tvivl og Avinds beste Ven,</l>
+<l>Had, Spliid, Fortvivlelse og alle Helveds Plager</l>
+<l>Med kolde Latter at anh&#x00F8;re mine Klager,</l>
+<l>Jeg seer mig selv blant dem; min Geist, forjaget, mat,</l>
+<l>At br&#x00F8;le, tumle sig i Evigheders Nat.</l>
+<l>Og dette Sv&#x00E6;lg jeg seer alt i mit Hierte br&#x00E6;nder;</l>
+<l>Hver Plage i mit Bryst sin egen Ild opt&#x00E6;nder;</l>
+<l>Og disse Luer, der med eet forsamle sig,</l>
+<l>Som Ild-Orcaner mod hverandre f&#x00F8;re Krig.</l>
+<l>Rhetea! Ja din Dyd er h&#x00E6;vnet: en Bedrager</l>
+<l>Faaer her sin rette L&#x00F8;n; dog disse bittre Klager,</l>
+<l>Og denne Smertes Ild jeg for Rhete&#x00E6; Fod</l>
+<l>Ud&#x00F8;se burde. Ja hun burde see mit Blod</l>
+<l>At rinde, for at troe, at Himlen Laster straffer,</l>
+<l>Og Dyd sin fulde Ret mod Svig og Vold forskaffer;</l>
+<l>Jeg burde sige dig, Rhetea, f&#x00F8;r jeg d&#x00F8;er,</l>
+<l>At jeg forbandes og at du velsignes b&#x00F8;r.</l>
+<l>Ja af din egen Mund Forbandelser at h&#x00F8;re,</l>
+<l>Nu kun tilovers var, bitter nok at gi&#x00F8;re</l>
+<l>En grum Meeneeders Straf. Dog, hun for dydig er;</l>
+<l>Hun var i Stand endnu maaskee at have kier</l>
+<l>En klippehaard Barbar; men aldrig meer jeg bliver</l>
+<l>Et saadant Hierte v&#x00E6;rd. Om hun mig end tilgiver;</l>
+<l>Om hun velsigner mig: en slig Oprigtighed</l>
+<l>Min Br&#x00F8;de st&#x00F8;rre gi&#x00F8;r, og Himlen meere vred.</l>
+<l>Ja kom, Rhetea! kom, din Dyd min Straf skal krone,</l>
+<l>Og Straffens Gruesomhed dit Hiertes Qval forsone,</l>
+<l>Nu flyer jeg hen til dig, for ved dit &#x00F8;mme Ski&#x00F8;d</l>
+<l>Mig selv med egen Arm at give sidste St&#x00F8;d.</l>
+<stage>(Han gaaer.)</stage>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="5_8">
+<head type="sub">Ottende Optrin.</head>
+<stage>(Lorano, som har kiget frem ved det sidste af Stryanges Tale, men ei turdet komme frem f&#x00F8;rend han var borte)</stage>
+<sp>
+<speaker>Lorano,</speaker> <stage>(allene.)</stage>
+<l>O Gud! Fortvivlelsen hans stolte Siel betager,</l>
+<l>Og jeg! hvor flyer jeg hen? man dog tilsidst opdager</l>
+<l>Min List. Stryange nu af Dronningen forhadt,</l>
+<l>Vist henter sin Gemal; men h&#x00F8;r mig, sorte Nat:</l>
+<l>Bed&#x00E6;k med dobbelt M&#x00F8;rk og us&#x00E6;dvanlig Skygge</l>
+<l>De Sacer, som min Skat bortf&#x00F8;rde, lad dem trygge</l>
+<l>Igiennem tykke Skov opnaae bestemte Sted;</l>
+<l>Men svage Haab! ham som, opt&#x00E6;ndt af Kierlighed</l>
+<l>Af Had og Raserie, formodentlig udsender</l>
+<l>Erfarne Sacer, som hver Stie, hver Hytte kiender,</l>
+<l>Maaskee han hende mig til Trods indhentede,</l>
+<l>Jeg maatte da mit Haab med eet bedraget see,</l>
+<l>Og s&#x00F8;ges hun omsonst, da veed jeg f&#x00F8;r min Skiebne,</l>
+<l>Min D&#x00F8;d er vis &#x2013; Dog &#x2013; Hvad? nyt Haab, jeg vil bev&#x00E6;bne</l>
+<l>Mig mod min Skiebnes Magt med nye Forbrydelse</l>
+<l>Endnu et nyt Bedrag min Sviig udfordrede:</l>
+<l>Stryange siges skal, at hans Rhetea hviler</l>
+<l>I D&#x00F8;dens Arm; ja strax jeg hen til Vagten iiler,</l>
+<l>Den dette Budskab til Stryange bringe b&#x00F8;r:</l>
+<l>Han meer ei s&#x00F8;ge skal og selv maaskee han d&#x00F8;er.</l>
+<l part="I">Ja dette lykkes &#x2013; men &#x2013;<note type="footnote">men &#x2013;] <hi rend="italic">rettet fra:</hi> men <hi rend="italic">(trykkfeil)</hi></note></l>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="5_9">
+<head type="sub">Niende Optrin.</head>
+<stage>Nitocre, Lorano.</stage>
+<sp>
+<speaker>Nitocre.</speaker>
+<l part="F">Lorano! Dig jeg finder</l>
+<l>Saa roelig her. Hvordan? Skal man da uden Hinder</l>
+<l>Min S&#x00F8;ster r&#x00F8;ve bort? Forr&#x00E6;der! som du er.</l>
+</sp>
+<sp>
+<speaker>Lorano.</speaker>
+<l part="I">Det er omsonst.</l>
+</sp>
+<sp>
+<speaker>Nitocre.</speaker>
+<l part="M">Hvordan? tal!</l>
+</sp>
+<sp>
+<speaker>Lorano.</speaker>
+<l part="F">Ak! hun er ei meer.</l>
+</sp>
+<sp>
+<speaker>Nitocre.</speaker>
+<l>Hun er ei meer! o Gud! min alt for kiere S&#x00F8;ster!</l>
+<l>Din Siel og min var eet, nu intet meer mig tr&#x00F8;ster.</l>
+<l part="I">Hun er da d&#x00F8;d? ved hvem?</l>
+</sp>
+<sp>
+<speaker>Lorano.</speaker>
+<l part="F">Zarines egen Vagt</l>
+<l>Indhenter R&#x00F8;verne; her bruges Magt mod Magt;</l>
+<l>En ulyksalig Haand den grumme Bue sp&#x00E6;nder.</l>
+<l part="I">Jeg kan ei sige meer. &#x2013; &#x2013;</l>
+<stage>(Hun gaaer.)</stage>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="5_10">
+<head type="sub">Tiende Optrin.</head>
+<sp>
+<speaker>Nitocre.</speaker> <stage>(allene.)</stage>
+<l part="F">Af Had mit Hierte br&#x00E6;nder</l>
+<l>Imod Stryange selv, han List og Vold har brugt;</l>
+<l>O grumme Kierlighed! er det din bittre Frugt?</l>
+<l>Er dette Troeskabs L&#x00F8;n? da gid mit Bryst maae v&#x00E6;re</l>
+<l>For Elskov evig lukt! Sorg skal min Siel fort&#x00E6;re,</l>
+<l>Og du, Cyaxares, min &#x00F8;mme Fader skal</l>
+<l>Opleve dette St&#x00F8;d, for dog at d&#x00F8;e af Qval!</l>
+<l>Skal jeg min Fader see af Thronen ned at segne,</l>
+<l>Og bleeg af Alder f&#x00F8;r, end meer af Sorg at blegne,</l>
+<l>Og d&#x00F8;e udi min Arm. O Gud! et dobbelt St&#x00F8;d</l>
+<l>For mig Elendige. Det blev Nitocres D&#x00F8;d.</l>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="5_11">
+<head type="sub">Ellevte Optrin.</head>
+<stage>Stryange, Nitocre.</stage>
+<sp>
+<speaker>Stryange.</speaker>
+<l>Lorano findes ei; og ingen Stierne lyser</l>
+<l part="I">I dette grumme M&#x00F8;rk.</l>
+</sp>
+<sp>
+<speaker>Nitocre.</speaker>
+<l part="F">Der er han. Ak! jeg gyser &#x2013; &#x2013;</l>
+<l>Barbar! Du lever dog endnu blant Mennesker,</l>
+<l>Du, som Naturens Skr&#x00E6;k og Dydens B&#x00F8;ddel er.</l>
+</sp>
+<sp>
+<speaker>Stryange.</speaker>
+<l>Spar kun din Bitterhed, Natur og Dyd skal h&#x00E6;vnes:</l>
+<l>Reis til din Fader strax, og naar Stryange n&#x00E6;vnes,</l>
+<l>Da siig: han &#x00C6;re, Dyd og Elskov kr&#x00E6;nket har;</l>
+<l>Men siig: han kiendte selv, at han Forr&#x00E6;der var.</l>
+<l>Siig den Graah&#x00E6;rdede: at jeg har Seier vundet,</l>
+<l>Og midt i Seieren min Morderinde fundet;</l>
+<l>Siig dog at hun var viis, st&#x00E6;rk, tapper, dydig, ski&#x00F8;n:</l>
+<l>At jeg fortryllet blev, og at fortiente L&#x00F8;n</l>
+<l part="I">Min Arm mig givet har &#x2013; &#x2013;</l>
+</sp>
+<sp>
+<speaker>Nitocre.</speaker>
+<l part="F">Hvad Tr&#x00F8;st kan det vel v&#x00E6;re,</l>
+<l>At du dit Liv har endt? Sorg skal ham dog fort&#x00E6;re;</l>
+<l>Ved en Forr&#x00E6;ders D&#x00F8;d min Fader aldrig kan</l>
+<l part="I">Sit Tab oprettet see &#x2013; &#x2013;</l>
+</sp>
+<sp>
+<speaker>Stryange.</speaker>
+<l part="F">Velan, saa siig at han</l>
+<l>Mit St&#x00F8;v forbande skal og alle Guder sige,</l>
+<l>At de maae h&#x00E6;vne ham endog i D&#x00F8;dens Rige,</l>
+<l>Og mod min grumme Geist med alle Plagers H&#x00E6;r</l>
+<l>Udruste sig. Mon han til H&#x00E6;vn kan fordre meer?</l>
+</sp>
+<sp>
+<speaker>Nitocre.</speaker>
+<l>Til H&#x00E6;vn var dette nok; men ei til Tr&#x00F8;st: en Fader</l>
+<l>Dog har sin Datter tabt. Den svage Rest han hader</l>
+<l>Af sine Dage, som maaskee tilovers var,</l>
+<l>Han, som saa inderlig min S&#x00F8;ster elsket har.</l>
+</sp>
+<sp>
+<speaker>Stryange.</speaker>
+<l>En Faders &#x00D8;mhed hun skal stedse v&#x00E6;rdig v&#x00E6;re,</l>
+<l>Og Alders Byrder med en svag Graah&#x00E6;rdet b&#x00E6;re.</l>
+</sp>
+<sp>
+<speaker>Nitocre.</speaker>
+<l>Barbar! hun er ei meer. Du veed det ei maaskee.</l>
+</sp>
+<sp>
+<speaker>Stryange.</speaker>
+<l part="I">Hvordan, hun er ei meer?</l>
+</sp>
+<sp>
+<speaker>Nitocre.</speaker>
+<l part="F">Nei: Disse R&#x00F8;vere</l>
+<l>Angrebne bleve: Strax en Sace Buen sp&#x00E6;ndte,</l>
+<l>Rhetea, din Gemal! Min S&#x00F8;ster Livet endte.</l>
+<l>Der er din Seier: jeg endnu omfavne b&#x00F8;r,</l>
+<l part="I">En S&#x00F8;sters blodig Barm.&#x2013; &#x2013;</l>
+<stage>(Hun gaaer.)</stage>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="5_12">
+<head type="sub">Tolvte Optrin.</head>
+<sp>
+<speaker>Stryange.</speaker> <stage>(alleene.)<note type="footnote">(alleene.)] <hi rend="italic">rettet fra:</hi> (alleene. <hi rend="italic">(trykkfeil)</hi></note></stage>
+<l part="F">Nu er det nok; jeg d&#x00F8;er.</l>
+<l>Forbandet v&#x00E6;re dog den Arm, den Piil og Bue,</l>
+<l>Som endte hendes Liv. Saa skal jeg meer ei skue</l>
+<l>Dig blant de Levende. Ja naar du kronet gaaer</l>
+<l>Iblant Gudinders Flok, hvor Dyd Bel&#x00F8;nning faaer,</l>
+<l>Da skal du sige dem, at jeg var en Meeneeder,</l>
+<l>Og glad forglemme der de grumme Bitterheder,</l>
+<l>Hvormed jeg fyldte her dit sorgbeklemte Bryst,</l>
+<l>Og kan du h&#x00F8;re det, da skal min huule R&#x00F8;st</l>
+<l>Op fra min Afgrunds Sv&#x00E6;lg hen til din Egn udbr&#x00F8;le</l>
+<l>Den Angest, Skr&#x00E6;k og Qval, som jeg for dig maae f&#x00F8;le,</l>
+<l>Og mine Plager skal bevidne til din Fryd,</l>
+<l>At Himlen straffer Svig, som den bel&#x00F8;nner Dyd.</l>
+<l>Mit Navn blant Mennesker en Skam og Skr&#x00E6;k skal v&#x00E6;re.</l>
+<l>Den store Sandhed dog man af min D&#x00F8;d skal l&#x00E6;re:</l>
+<l>At Elskovs Tyrannie Ulykkers Moder er;</l>
+<l>Jeg Vidnet i min Barm til D&#x00F8;dens Rige b&#x00E6;r.</l>
+<l>Kom H&#x00E6;vn og Raserie! kom D&#x00F8;d frem af din Huule,</l>
+<l>Kom, styrk min Arm og gid en evig Nat maae skiule</l>
+<l>En ski&#x00E6;ndig Krop, som var kun Lasters Boelig f&#x00F8;r,</l>
+<l>Hvis ikke, den til Rov for Udyr v&#x00E6;re b&#x00F8;r.</l>
+<l>Ja sorte Billeder sig for mit &#x00D8;ie tr&#x00E6;kke,</l>
+<l>Og Hiertet b&#x00E6;ve maae; men Nattens m&#x00F8;rke D&#x00E6;kke</l>
+<l>B&#x00F8;r skiule dette Syn. Kom Afgrund, aabne dig,</l>
+<l>Her er dit Bytte, kom, du skal fort&#x00E6;re mig.</l>
+<stage>(Han tager en Dolk ud af sit Belte.)</stage>
+<l>Farvel forhadte Liv, jeg Dagen meer ei skuer,</l>
+<l>Jeg trodser Evighed og al den Skr&#x00E6;k, mig truer.</l>
+<l>Rhete&#x00E6; D&#x00F8;d og Dyd og Troeskab h&#x00E6;vnes b&#x00F8;r:</l>
+<l part="I">Natur, ski&#x00E6;lv &#x2013; &#x2013;</l>
+<stage>(han st&#x00F8;der til.)</stage>
+<l part="F">Det er giort. O Smerte! ak! jeg d&#x00F8;er.</l>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="5_13">
+<head type="sub">Trettende Optrin.</head>
+<stage>(I det han st&#x00F8;der til, sees bag fra Skuepladsen at komme Zarine, Rhetea, Nitocre, Lorano og de fire Sacer, alle fem i L&#x00E6;nker og Soldater paa begge Sider med Fakler.)</stage>
+<sp>
+<speaker>Rhetea.</speaker>
+<l part="I">Holdt! holdt! &#x2013; &#x2013;</l>
+</sp>
+<sp>
+<speaker>Nitocre.</speaker>
+<l part="M">O! Grumme holdt!</l>
+</sp>
+<sp>
+<speaker>Zarine.</speaker>
+<stage>(som imodtager Stryange i det han falder.)</stage>
+<l part="M">Det er forbie.</l>
+</sp>
+<sp>
+<speaker>Rhetea.</speaker>
+<l part="F">Stryange!</l>
+</sp>
+<sp>
+<speaker>Stryange.</speaker>
+<l>Kan en forn&#x00E6;rmet Dyd vel st&#x00F8;rre H&#x00E6;vn forlange.</l>
+</sp>
+<sp>
+<speaker>Rhetea.</speaker>
+<l>Din Br&#x00F8;de var forladt, Barbar! jeg elsker dig.</l>
+<l>Din sidste Gruesomhed allene myrder mig.</l>
+</sp>
+<sp>
+<speaker>Stryange.</speaker>
+<stage>(rykkende sig ud af Zarines Arme.)</stage>
+<l part="I">O Dyd! jeg elsket d&#x00F8;er.</l>
+<stage>(i det han siger disse Ord, falder han ned.)</stage></sp>
+<sp>
+<speaker>Rhetea.</speaker>
+<l part="F">O Dronning! end min Smerte</l>
+<l>Det Blod, som rinder der, det rinder fra mit Hierte.</l>
+<l>Mig Verden &#x00F8;de blev og Livet selv en D&#x00F8;d,</l>
+<l>Min svage Dyd ei kan udholde dette St&#x00F8;d.</l>
+</sp>
+<sp>
+<speaker>Zarine.</speaker>
+<l>Mit Hierte rives hen, mig selv jeg neppe kiender.</l>
+<l>Af Sorg og Had og Nag hver Sielens Evne br&#x00E6;nder.</l>
+<stage>(til Rhetea.)</stage>
+<l>Hvo f&#x00F8;ler ei din N&#x00F8;d? knap Guder kunde selv</l>
+<l>Dig uden Taarer &#x2013; <stage>(til Lorano.)</stage> Men du Forr&#x00E6;der, skielv!</l>
+<l>Mit Had mod dig er Pligt. Din Falskhed er opdaget,</l>
+<l>Al denne Sorg har du, du eene foraarsaget.</l>
+<l>Dig skal jeg vel &#x2013; Men jeg, mon jeg uskyldig er?</l>
+<l>Jeg blues selv derved! jeg Helten havde kier.</l>
+<l>Dog &#x2013; bliver denne Lyst mig til Misgierning regnet,</l>
+<l>Da evig Elskov staae blant sorte Laster tegnet.</l>
+<stage>(til Rhetea.)</stage>
+<l>Kom nu, Princesse! viis du Kongedatter er,</l>
+<l>S&#x00E6;t Dyd i fulde Lys og Modgang taalig b&#x00E6;r.</l>
+</sp>
+<sp>
+<speaker>Rhetea.</speaker>
+<l>Mit dybe Hiertesaar kan aldrig meere l&#x00E6;ges;</l>
+<l>Men hver, som Hierte har, b&#x00F8;r ved min N&#x00F8;d bev&#x00E6;ges,</l>
+<l>Jeg aldrig bliver glad og v&#x00E6;mmes kun ved Tr&#x00F8;st,</l>
+<l>Snart Sorg mig qv&#x00E6;le skal; jeg d&#x00F8;er ved dette Bryst.</l>
+<stage>(hun kaster sig ned ved Siden af Stryange.)</stage>
+</sp>
+<p rend="center">Ende paa det femte og sidste Optog.</p>
+</div>
+</div>
+</body>
+</text>
+</TEI>

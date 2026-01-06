@@ -1,0 +1,773 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI PUBLIC "-// TEI P5 //EN" "http://www.tei-c.org/release/xml/tei/custom/schema/dtd/tei_all.dtd">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="BS_Juel_DenSterkere">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>bokselskap.no, Oslo 2017
+<lb/>Dagny Juel: <hi rend="italic">Den sterkere</hi>
+<lb/>Teksten i bokselskap.no f&#x00F8;lger teksten i Samtiden, 1896, Vol. 7 (Oslo/Aschehoug). Digitaliseringen er basert p&#x00E5; fil hentet fra Nasjonalbiblioteket (nb.no)
+<lb/>ISBN: 978-82-8319-366-4 (digital, bokselskap.no), 978-82-8319-367-1 (epub), 978-82-8319-368-8 (mobi)
+</title>
+</titleStmt>
+<publicationStmt>
+<p>Publiseres som digital tekst av bokselskap.no.</p></publicationStmt>
+<sourceDesc>
+    <bibl>
+        <title>Den sterkere I: Samtiden, Vol. 7</title>
+        <author>Dagny Juel</author>
+        <publisher>Aschehoug</publisher>
+        <pubPlace>Oslo</pubPlace>
+        <date>1896</date>
+        <note>Transkribert (av bokselskap.no) fra Samtiden, 1896, Vol. 7.</note>
+    </bibl>
+</sourceDesc>
+</fileDesc>
+<revisionDesc>
+<change who="ENW" when="2017-11-21">Entiteter, kodekontroll og validering. Klar for korrektur.</change>
+<change xml:id="ENW" who="ENW" when="2017-11-14">Transkripsjon og XML-koding. Validering. Klar for korrektur.</change>
+</revisionDesc>
+</teiHeader>
+<text xml:id="BS_Juel_DenSterkere_tekst" type="drama">
+<front>
+<titlePage type="main">
+<byline><docAuthor>Dagny Juel</docAuthor></byline>
+<docTitle>
+<titlePart type="main">Den sterkere</titlePart>
+<titlePart type="sub">Drama</titlePart>
+</docTitle>
+<docDate>bokselskap.no<lb/>Oslo 2017</docDate>
+</titlePage>
+</front>
+<body>
+<div type="chapter" subtype="castlist" n="1">
+<head type="main">Personerne:</head>
+<castList>
+<castItem><role>Knut Tonder,</role> <roleDesc>l&#x00E6;ge.</roleDesc></castItem>
+<castItem><role>Siri Tonder,</role> <roleDesc>hans hustru.</roleDesc></castItem>
+<castItem><role>Tor Rabbe.</role></castItem>
+</castList>
+</div>
+<div type="chapter" subtype="act" n="2">
+<head type="main">Akt I.</head>
+<stage>En havestue. I baggrunden aabne d&#x00F8;re ud mod haven. Det er sommer. Imod aften.</stage>
+<stage><hi rend="italic">Siri. Knut.</hi></stage>
+<sp>
+<speaker>Siri</speaker>
+<stage>(gaar taus op og ned. Heftig):</stage>
+<p>Er det virkelig umuligt for dig at glemme det? Skal vi hele vort liv knuges af denne mare?</p>
+</sp>
+<sp>
+<speaker>Knut:</speaker>
+<p>Hvordan kan man vel glemme noget, som graver i en evig og altid? Jeg har engang l&#x00E6;st om en mand, som altid fulgtes af sit eget skelet. Tror du, han nogensinde glemte det?</p>
+</sp>
+<sp>
+<speaker>Siri</speaker>
+<stage>(gyser):</stage>
+<p>Dit skelet begynder at gj&#x00F8;re mig m&#x00F8;rkr&#x00E6;d. Jeg ser det stirre ud af &#x00F8;inene dine. Jeg t&#x00F8;r ikke tale til dig, jeg &#x2026;</p>
+</sp>
+<sp>
+<speaker>Knut:</speaker>
+<p>Men forstaar du da ikke, at din taushed piner mig? Det er, som om du gjemmer dig bort for mig. Du blir mig saa fremmed og fjern &#x2026;</p>
+</sp>
+<sp>
+<speaker>Siri:</speaker>
+<p>Men taler jeg om det, saa piner det dig dobbelt. Tror du ikke, jeg ser, hvordan du lider? Tror du, jeg er saa blind?</p>
+</sp>
+<sp>
+<speaker>Knut:</speaker>
+<p>Nei, nei, du misforstaar mig. Det hj&#x00E6;lper mig netop at tale om det. Det beroliger mig. Jeg &#x00F8;nsker ofte, du vilde fort&#x00E6;lle mig lidt n&#x00E6;rmere om det. Sig mig &#x2026; hvor er han nu? Han reiste langt bort, ikke sandt?</p>
+</sp>
+<sp>
+<speaker>Siri:</speaker>
+<p>Jo, han reiste langt bort. Hvorhen ved jeg ikke.</p>
+</sp>
+<sp>
+<speaker>Knut:</speaker>
+<p>Har han aldrig skrevet til dig?</p>
+</sp>
+<sp>
+<speaker>Siri:</speaker>
+<p>Hvorfor i alverden skulde han skrive til mig.</p>
+</sp>
+<sp>
+<speaker>Knut:</speaker>
+<p>Kanske han er d&#x00F8;d?</p>
+</sp>
+<sp>
+<speaker>Siri:</speaker>
+<p>Aa nei, han d&#x00F8;r sikkert ikke saa let.</p>
+</sp>
+<stage>(Pause)</stage>
+<sp>
+<speaker>Knut:</speaker>
+<p>Naar saa du ham sidste gang? Det interesserer mig, forstaar du &#x2026; Fort&#x00E6;l lidt om den sidste gang &#x2026;</p>
+</sp>
+<sp>
+<speaker>Siri:</speaker>
+<p>Naar jeg saa ham den sidste gang? &#x2026; Jo, det var den samme dag, han reiste. <stage>(Tankefuld)</stage> Det staar saa levende for mig &#x2026; jeg husker, jeg sad og fortalte ham en dum historie, jeg havde oplevet paa hotellet, hvor jeg boede. Jeg sad og lo &#x2026;</p>
+</sp>
+<sp>
+<speaker>Knut</speaker>
+<stage>(ophidset):</stage>
+<p>Du sad og lo &#x2026;</p>
+</sp>
+<sp>
+<speaker>Siri:</speaker>
+<p>Ja, jeg sad der og lo. Men saa pludselig m&#x00F8;dte jeg hans &#x00F8;ine &#x2026; et par forbausede, vrede &#x00F8;ine &#x2026; <stage>(Langsomt)</stage> Og saa med &#x00E9;t, som et lyn, slog det mig, at det jo var sidste gang. &#x2013;</p>
+</sp>
+<sp>
+<speaker>Knut:</speaker>
+<p>Sidste gang?</p>
+</sp>
+<sp>
+<speaker>Siri:</speaker>
+<p>Ja, jeg f&#x00F8;lte i det &#x00F8;ieblik saa sikkert, saa besynderligt sikkert, at jeg aldrig skulde se ham igjen. Aldrig for det gode.</p>
+</sp>
+<sp>
+<speaker>Knut</speaker>
+<stage>(med bitter haan):</stage>
+<p>Og du led &#x2026; ikke sandt?</p>
+</sp>
+<sp>
+<speaker>Siri</speaker>
+<stage>(vender sig pludselig mod ham. Tr&#x00E6;kker paa skuldrene):</stage>
+<p>Hvordan kan du falde paa det?</p>
+</sp>
+<stage>(Pause)</stage>
+<sp>
+<speaker>Siri</speaker>
+<stage>(gaar atter op og ned. Haardt):</stage>
+<p>Skal det virkelig &#x00F8;del&#x00E6;gge hele vort liv, at en anden mand har eiet mig f&#x00F8;r du?</p>
+</sp>
+<sp>
+<speaker>Knut</speaker>
+<stage>(farer sammen):</stage>
+<p>Ah, &#x2013; du kan v&#x00E6;re noksaa brutal, naar du vil.</p>
+</sp>
+<sp>
+<speaker>Siri</speaker>
+<stage>(vredt):</stage>
+<p>Brutal?</p>
+</sp>
+<sp>
+<speaker>Knut:</speaker>
+<p>Nei, kj&#x00E6;re jeg mente da ikke brutal. Sa jeg brutal? Det var da latterligt. Og desuden &#x2026; det vedkommer jo egentlig ikke mig. Bare noksaa uheldigt, at jeg ikke traf dig f&#x00F8;rst. Noksaa uheldigt. <stage>(Ler hadefuldt.)</stage></p>
+</sp>
+<sp>
+<speaker>Siri</speaker>
+<stage>(fortvilet):</stage>
+<p>Min Gud, at du vil pine mig saa! At du vil pine os begge saa! Er du da ikke glad over, at jeg er din nu? Ser du da ikke, at jeg bare lever for dig, bare t&#x00E6;nker paa dig.</p>
+</sp>
+<sp>
+<speaker>Knut</speaker>
+<stage>(springer op. Slaar armene om hende):</stage>
+<p>Kj&#x00E6;re, elskede, det er jo altsammen komediespil. Altsammen. Jeg ved ikke selv, hvorfor jeg absolut maa pine dig. Der er noget i dit ansigt, som driver mig til det. <stage>(Hvisker)</stage> Du ved jo ikke, du har jo ingen anelse om, hvor jeg elsker dig!</p>
+</sp>
+<sp>
+<speaker>Siri</speaker>
+<stage>(&#x00F8;mt):</stage>
+<p>Jo vist, jeg ved det. Jeg ved det jo saa godt. Men &#x2026; er du lykkelig Knut?</p>
+</sp>
+<sp>
+<speaker>Knut:</speaker>
+<p>Lykkelig? &#x2026; Det ved jeg ikke, men &#x2026; Siri, sig mig &#x2026; er du ogsaa virkelig min?</p>
+</sp>
+<sp>
+<speaker>Siri:</speaker>
+<p>Om jeg er din?</p>
+</sp>
+<sp>
+<speaker>Knut:</speaker>
+<p>Er du helt min? Er dine tanker mine? &#x2026; Ofte f&#x00F8;ler jeg dig saa langt, saa uendelig langt borte fra mig. Det er, som om jeg rent mister dig med et. Husker du igaar nede ved stranden? Du var saa deilig &#x2026; Hele min sj&#x00E6;l skalv efter dig. Husker du ikke, hvordan jeg knugede din haand? &#x2026; Men du &#x2026; du saa ligegyldig ud over havet.</p>
+</sp>
+<sp>
+<speaker>Siri</speaker>
+<stage>(m&#x00F8;rkt):</stage>
+<p>Jeg f&#x00F8;lte din mistro og led. Derfor vendte jeg mig bort fra dig.</p>
+</sp>
+<sp>
+<speaker>Knut:</speaker>
+<p>Ved du, hvad jeg frygter for?</p>
+</sp>
+<sp>
+<speaker>Siri:</speaker>
+<p>Nei.</p>
+</sp>
+<sp>
+<speaker>Knut</speaker>
+<stage>(speidende):</stage>
+<p>Hvis han kommer tilbage, saa f&#x00F8;lger du med ham. Han er sterk og haard. Du maa tvinges &#x2026;</p>
+</sp>
+<sp>
+<speaker>Siri</speaker>
+<stage>(sidder taus en stund. Saa vender hun sig mod ham. Smiler):</stage>
+<p>Saa tving mig du &#x2026;</p>
+</sp>
+<sp>
+<speaker>Knut:</speaker>
+<p>Siri, leger du med mig?</p>
+</sp>
+<sp>
+<speaker>Siri</speaker>
+<stage>(smyger sig ind i hans arm. Indtr&#x00E6;ngende):</stage>
+<p>Tror du kanske, jeg ved st&#x00F8;rre lykke end at v&#x00E6;re hos dig? Jeg ser jo ingen anden end dig, bare dig. Hvor vakker du er, og hvor god du er. <stage>(Med pludseligt angst)</stage> Hvad er det? Hvorfor blev du saa stille med et? Hvad t&#x00E6;nker du paa?</p>
+</sp>
+<sp>
+<speaker>Knut</speaker>
+<stage>(tvungent):</stage>
+<p>Paa ingenting &#x2026; Ingenting. Det var bare en tanke, som pludselig falt mig ind. Sig mig &#x2026; den f&#x00F8;rste gang du elskede &#x2026; da var du vel sv&#x00E6;rt glad? Jeg mener straalende. Var du ikke straalende?</p>
+</sp>
+<sp>
+<speaker>Siri</speaker>
+<stage>(vender sig pludelig mod ham og ser langt paa ham. Smertelig):</stage>
+<p>Aa &#x2026;</p>
+</sp>
+<sp>
+<speaker>Knut</speaker>
+<stage>(hastig):</stage>
+<p>Nei, nei, jeg vil ikke bedr&#x00F8;ve dig. Du misforstod mig. Siri, hvad feiler dig? Er du vred paa mig?</p>
+</sp>
+<sp>
+<speaker>Siri</speaker>
+<stage>(gyser):</stage>
+<p>Her er saa koldt. Lad os gaa ud i solskinnet &#x2026; <stage>(gaar henimod den aabne haved&#x00F8;r, men studser og standser)</stage>. Hvem kan det v&#x00E6;re?</p>
+</sp>
+<sp>
+<speaker>Tor Rabbe</speaker>
+<stage>(kommer langsomt gjennem haven, op verandatrappen, opdager Siri og Knut og standser med et. Saa kommer han langsomt ind i v&#x00E6;relset):</stage>
+<p>Goddag.</p>
+</sp>
+<sp>
+<speaker>Siri</speaker>
+<stage>(bleg. Viger tilbage):</stage>
+<p>De! Er De kommen tilbage?</p>
+</sp>
+<sp>
+<speaker>Tor</speaker>
+<stage>(betragter Siri og Knut en stund i taushed. Vendt mod Knut):</stage>
+<p>Mit navn er Tor Rabbe.</p>
+</sp>
+<sp>
+<speaker>Knut</speaker>
+<stage>(overdreven venlig):</stage>
+<p>Ah &#x2026; det var jo s&#x00E6;rdeles elskv&#x00E6;rdigt af Dem at s&#x00F8;ge os op. Jeg har h&#x00F8;rt Dem meget omtale &#x2026;</p>
+</sp>
+<sp>
+<speaker>Siri</speaker>
+<stage>(nerv&#x00F8;st):</stage>
+<p>Det var da morsomt at de Dem igjen &#x2026; Jeg troede, De var i Indien eller Kina eller Gud ved hvor &#x2026; paa maanen.</p>
+</sp>
+<sp>
+<speaker>Tor Rabbe</speaker>
+<stage>(s&#x00E6;tter sig rolig overfor hende. Ser stivt paa hende, mens hun undviger hans blik):</stage>
+<p>Aa ja, jeg har v&#x00E6;ret mange steder omkring. Jeg har &#x2026; s&#x00F8;gt lykken tror jeg, det var.</p>
+</sp>
+<sp>
+<speaker>Knut:</speaker>
+<p>Det nytter vel lidet at reise omkring og s&#x00F8;ge den &#x2026;</p>
+</sp>
+<sp>
+<speaker>Siri</speaker>
+<stage>(sp&#x00F8;ger forceret):</stage>
+<p>Og har De fundet lykken da? Og har De tat den med her hjem til os?</p>
+</sp>
+<sp>
+<speaker>Tor</speaker>
+<stage>(koldt):</stage>
+<p>Synes De, jeg ser ud som en mand, der har fundet lykken?<note type="footnote">lykken] <hi rend="italic">rettet fra:</hi> ykken <hi rend="italic">(trykkfeil)</hi></note></p>
+</sp>
+<sp>
+<speaker>Knut:</speaker>
+<p>Ja, ja, lykken &#x2026; <stage>(gaar rastl&#x00F8;st op og ned.)</stage> Nu forresten &#x2026; De maa undskylde mig &#x2026; jeg har patienter, som venter paa mig &#x2026; Au revoir! <stage>(Hilser let og gaar ud til h&#x00F8;ire.)</stage></p>
+</sp>
+<stage>(Pause.)</stage>
+<sp>
+<speaker>Tor</speaker>
+<stage>(pludselig):</stage>
+<p>Jeg har v&#x00E6;ret her l&#x00E6;nge. Jeg kom for at hente dig.</p>
+</sp>
+<sp>
+<speaker>Siri</speaker>
+<stage>(koldt):</stage>
+<p>Det er meget for sent.</p>
+</sp>
+<sp>
+<speaker>Tor:</speaker>
+<p>Det er aldrig for sent. Men kanske det er for tidligt? Nu, det gj&#x00F8;r ingen ting. Jeg kan vente.</p>
+</sp>
+<sp>
+<speaker>Siri</speaker>
+<stage>(smilende):</stage>
+<p>Det blir l&#x00E6;nge for Dem. Jeg ser, Deres haar er alt graat.</p>
+</sp>
+<sp>
+<speaker>Tor:</speaker>
+<p>Ja, jeg har havt det haardt.</p>
+</sp>
+<sp>
+<speaker>Siri</speaker>
+<stage>(ler).</stage>
+</sp>
+<sp>
+<speaker>Tor</speaker>
+<stage>(ser paa hende en stund):</stage>
+<p>Du har forandret dig meget. Men det &#x00E6;gger mig netop. Du er bleven helt ny for mig.</p>
+</sp>
+<sp>
+<speaker>Siri:</speaker>
+<p>De har ogsaa forandret Dem meget. Men det &#x00E6;gger mig ikke det mindste. De er ikke mere saa sterk &#x2026; og kanske heller ikke saa haard?</p>
+</sp>
+<sp>
+<speaker>Tor</speaker>
+<stage>(tankefuld):</stage>
+<p>Jeg tar dig ikke med for at gj&#x00F8;re dig lykkelig. Nei, nei &#x2026; hvorfor skulde du v&#x00E6;re lykkelig? Men det kunde more mig at se dig ung igjen.</p>
+</sp>
+<sp>
+<speaker>Siri</speaker>
+<stage>(glemmer sig):</stage>
+<p>Aa, jeg er yngre, end da du kjendte mig. Meget yngre. Jeg har ikke mere din fod paa min nakke. Nu f&#x00F8;rst er jeg ung.</p>
+</sp>
+<sp>
+<speaker>Tor:</speaker>
+<p>Jeg har set jer saa ofte. Jeg har fulgt jer paa frastand. Aa, hvor han mistror dig! Og hvor han altid minder dig om fortiden. Han tvinger dig formelig til ikke at glemme mig. Det er vakkert af ham, for jeg opgir dig ikke.</p>
+</sp>
+<sp>
+<speaker>Siri</speaker>
+<stage>(vredt):</stage>
+<p>Nu er jeg kjed af denne komedie. Hvor du kjender mig daarlig! Ikke en tanke har jeg ofret dig, ikke en. Jeg har glemt alt, alt som nogensinde bandt os sammen.</p>
+</sp>
+<sp>
+<speaker>Tor:</speaker>
+<p>Den f&#x00F8;rste gang jeg saa jer sammen &#x2026; det var paa kirkegaarden oppe paa h&#x00F8;ien &#x2026; jeg maatte t&#x00E6;nke paa h&#x00F8;st, paa gule, falmede, faldende blade. Jeg maatte t&#x00E6;nke paa noget afd&#x00F8;dt &#x2026;</p>
+</sp>
+<sp>
+<speaker>Knut</speaker>
+<stage>(kommer ind. Betragter dem skarpt):</stage>
+<p>Jeg har glemt mine cigaretter &#x2026; <stage>(S&#x00F8;gende.)</stage> Noksaa uheldigt, at vi aldrig traf hinanden, da De var her sidst, hr. Rabbe. <stage>(Byr Tor en cigaret.)</stage> Maa jeg? &#x2026; De var nok reist herfra et halvt aars tid, f&#x00F8;r jeg kom &#x2026;</p>
+</sp>
+<sp>
+<speaker>Tor</speaker>
+<stage>(tager rolig en cigaret og t&#x00E6;nder den):</stage>
+<p>Tak &#x2026;</p>
+</sp>
+<sp>
+<speaker>Siri</speaker>
+<stage>(ivrig):</stage>
+<p>Knut, bliv dog her! Kan ikke dine patienter vente lidt? Hr. Rabbe fort&#x00E6;ller saa meget interessant.</p>
+</sp>
+<sp>
+<speaker>Knut</speaker>
+<stage>(koldt):</stage>
+<p>Nei, nei, jeg har ikke tid. Og desuden, I har det jo meget godt uden mig.</p>
+</sp>
+<sp>
+<speaker>Siri:</speaker>
+<p>Som du vil.</p>
+</sp>
+<sp>
+<speaker>Knut</speaker>
+<stage>(gaar atter ud til h&#x00F8;ire).</stage>
+</sp>
+<sp>
+<speaker>Tor</speaker>
+<stage>(da han er gaat):</stage>
+<p>Se bare, hvor han mistror dig. Og du er r&#x00E6;d, formelig r&#x00E6;d for at v&#x00E6;re alene med mig. Hvor godt jeg kjender dig. Hvor jeg kjender denne dirren om din mund. Som paa et lidet barn, der holder graaten tilbage &#x2026; Men du forstaar at beherske dig. Det har du altid gjort. Det er ikke let at l&#x00E6;se i din sj&#x00E6;l.</p>
+</sp>
+<sp>
+<speaker>Siri:</speaker>
+<p>Kj&#x00E6;re hr. Rabbe, hvis De bare spiller en besynderlig komedie og den morer Dem &#x2026; saa vil jeg ikke ta den forn&#x00F8;ielse fra Dem. Men hvis De virkelig tror at opnaa noget, saa opgiv det dog ligesaa godt straks. Herregud, det er saa forgj&#x00E6;ves, saa bortkastet &#x2026;</p>
+</sp>
+<sp>
+<speaker>Tor</speaker>
+<stage>(hvisker):</stage>
+<p>Husker du den f&#x00F8;rste gang, da jeg bad dig komme til mig? Jeg fortstod saa godt, at du vilde svare &#x00AB;nei&#x00BB;, men du svarte &#x00AB;ja&#x00BB; &#x2026; Ved du hvorfor?</p>
+</sp>
+<sp>
+<speaker>Siri</speaker>
+<stage>(uvilkaarlig):</stage>
+<p>Nei &#x2026;</p>
+</sp>
+<sp>
+<speaker>Tor</speaker>
+<stage>(stille):</stage>
+<p>Fordi du maatte.</p>
+</sp>
+<sp>
+<speaker>Siri</speaker>
+<stage>(farer sammen. Siger saa haanlig):</stage>
+<p>Jeg havde sikkert drukket for meget champagne.</p>
+</sp>
+<sp>
+<speaker>Tor:</speaker>
+<p>Alt var saa hemmelighedsfuldt, husker du? &#x2026; Hvor det pirrede dig dette forbudte, syndefulde &#x2026;</p>
+</sp>
+<sp>
+<speaker>Siri</speaker>
+<stage>(reiser sig):</stage>
+<p>Aa du kunde sikkert ikke l&#x00E6;se i min sj&#x00E6;l. Du sa netop selv, at det er meget vanskeligt.</p>
+</sp>
+<sp>
+<speaker>Tor:</speaker>
+<p>Et egteskab er vel noget ganske andet, ikke sandt? Alt saa velordnet, saa harmonisk &#x2026;</p>
+</sp>
+<sp>
+<speaker>Siri</speaker>
+<stage>(hadefuldt):</stage>
+<p>Og husker du engang? Du f&#x00F8;lte dig vistnok forn&#x00E6;rmet paa mig, du skulde nok straffe mig, tror jeg &#x2026; Vi var sammen paa landet &#x2026; Du talte ikke, du talte absolut ikke. I syv fulde timer var du ikke at formaa til at v&#x00E6;rdige mig et ord. Aa Gud, hvor jeg hadede dig!</p>
+</sp>
+<sp>
+<speaker>Tor</speaker>
+<stage>(tankefuld):</stage>
+<p>Det er underligt nok, at du aldrig kunde glemme mig.</p>
+</sp>
+<sp>
+<speaker>Siri</speaker>
+<stage>(indbidt):</stage>
+<p>Og engang har du slaat mig, rentud slaat mig.</p>
+</sp>
+<sp>
+<speaker>Tor:</speaker>
+<p>Aa hvor du l&#x00E6;nges efter at f&#x00F8;le min fod paa din nakke igjen!</p>
+</sp>
+<sp>
+<speaker>Siri:</speaker>
+<p>Hvor dine &#x00F8;ine er onde!</p>
+</sp>
+<sp>
+<speaker>Tor:</speaker>
+<p>Forresten burde du virkelig f&#x00F8;lge med mig. Det er netop et liv for dig. Altid noget nyt, nye steder, nye, besynderlige mennesker. Jeg skal gi dig eventyr, som du aldrig har dr&#x00F8;mt om. Og jeg skal tvinge dig til at glemme alt, som er ondt.</p>
+</sp>
+<sp>
+<speaker>Siri</speaker>
+<stage>(ler pludselig):</stage>
+<p>Dette er jo meget morsomt. Men oprigtig talt: jeg vil n&#x00F8;dig v&#x00E6;re uh&#x00F8;flig, men &#x2026;</p>
+</sp>
+<sp>
+<speaker>Tor</speaker>
+<stage>(reiser sig):</stage>
+<p>Ah, du har nok af mig for idag. Godt. Jeg gaar. Men jeg kommer igjen. <stage>(Alvorligt og sterkt.)</stage> Jeg kommer snart igjen, og da maa du v&#x00E6;re beredt paa at f&#x00F8;lge mig. Jeg opgir dig aldrig. Du er nu engang den, jeg vil eie.</p>
+</sp>
+<sp>
+<speaker>Siri</speaker>
+<stage>(rasende):</stage>
+<p>Men jeg f&#x00F8;lger dig aldrig, aldrig i livet! Tror du, jeg lar mig tvinge af dig? Du skal ikke komme igjen! Jeg vil det ikke. Hvor bleg du er! Ikke stirr saa paa mig! Gaa nu, gaa, gaa &#x2026; gaa!</p>
+</sp>
+<sp>
+<speaker>Tor</speaker>
+<stage>(gaar langsomt ud af haved&#x00F8;ren, ned havetrappen. Saa gaar han hurtig ud gjennem haven.)</stage>
+</sp>
+<p rend="center"><stage>T&#x00E6;ppet falder.</stage></p>
+</div>
+<div type="chapter" subtype="act" n="3">
+<head type="main">Akt II.</head>
+<stage>Samme v&#x00E6;relse. <hi rend="italic">Siri. Knut.</hi></stage>
+<sp>
+<speaker>Siri:</speaker>
+<stage>(I dybe tanker foran et stort maleri, som staar paa et staffeli med ryggen paa skraa mod tilskuerne. Efter en pause.)</stage>
+<p>Du, jeg synes, det er rent merkv&#x00E6;rdigt dette billede. De fleste malerier kjeder mig ellers, men dette har en stemning saa f&#x00E6;ngslende uhyggelig, at jeg ikke kan komme bort fra det. Jeg maa altid t&#x00E6;nke paa &#x00AB;the house of Usher&#x00BB; &#x2026;</p>
+</sp>
+<stage>(Pause).</stage>
+<sp>
+<speaker>Knut:</speaker>
+<p>Du &#x2026; han interesserer dig meget, ikke sandt?</p>
+</sp>
+<sp>
+<speaker>Siri</speaker>
+<stage>(aandsfrav&#x00E6;rende):</stage>
+<p>Jo &#x2026; hvem mener du?</p>
+</sp>
+<sp>
+<speaker>Knut:</speaker>
+<p>Grunnel, maleren, mener jeg.</p>
+</sp>
+<sp>
+<speaker>Siri:</speaker>
+<p>Ah saa, Grunnel &#x2026; Jo-o, han interesserer mig.</p>
+</sp>
+<stage>(Pause.)</stage>
+<sp>
+<speaker>Knut:</speaker>
+<p>Undertiden har jeg en f&#x00F8;lelse, som om du nyder, formelig nyder at sp&#x00E6;nde mig paa pineb&#x00E6;nken. Det er naturligvis bare en indbildning &#x2026; eller &#x2026; er det kanske saa?</p>
+</sp>
+<sp>
+<speaker>Siri</speaker>
+<stage>(koldt):</stage>
+<p>Ved jeg?</p>
+</sp>
+<sp>
+<speaker>Knut</speaker>
+<stage>(opfarende):</stage>
+<p>Hvad siger du?</p>
+</sp>
+<sp>
+<speaker>Siri:</speaker>
+<p>Jeg siger, at jeg snart ikke ved hverken ud eller ind &#x2026; Er det kanske ogsaa for at pine dig, jeg er saa glad i Grunnels maleri?</p>
+</sp>
+<stage>(Pause).</stage>
+<sp>
+<speaker>Knut:</speaker>
+<p>En ting har jeg ofte t&#x00E6;nkt paa, men aldrig riktig villet sp&#x00F8;rge dig om &#x2026;</p>
+</sp>
+<sp>
+<speaker>Siri</speaker>
+<stage>(hen til ham):</stage>
+<p>Kj&#x00E6;re, sp&#x00F8;rg! Hvad er det?</p>
+</sp>
+<sp>
+<speaker>Knut:</speaker>
+<p>Jo &#x2026; dengang, da vi traf hinanden &#x2026; da var du altsaa egentlig forlovet med ham? Du var vist igrunden glad i os begge, var du ikke?</p>
+</sp>
+<sp>
+<speaker>Siri</speaker>
+<stage>(fra ham, koldt):</stage>
+<p>Aa nei, det var jeg egentlig ikke.</p>
+</sp>
+<sp>
+<speaker>Knut:</speaker>
+<p>Ved du selv, hvor koldt og haardt du siger det?</p>
+</sp>
+<sp>
+<speaker>Siri</speaker>
+<stage>(foran ham):</stage>
+<p>Sig mig Knut, tror du virkelig for ramme alvor, at jeg ikke l&#x00E6;ngere er glad i dig? Svar mig &#x00E6;rlig: tror du det?</p>
+</sp>
+<sp>
+<speaker>Knut</speaker>
+<stage>(udbrydende):</stage>
+<p>Tro? Tro? Herregud, jeg skulde gjerne gi mit liv for at kunne tro, at jeg var tiendeparten af det for dig som du for mig! Kunde jeg bare en dag, en time f&#x00F8;le sikkert, at du var min! Siri, Siri, hvis du virkelig elskede mig, saa maatte du dog et eneste sekund aabne din sj&#x00E6;l for mig. Du glider fra mig, jeg kan ikke gribe dig. Ikke et &#x00F8;ieblik har jeg dig helt. Du st&#x00E6;nger mig ude, du &#x2026;</p>
+</sp>
+<sp>
+<speaker>Siri</speaker>
+<stage>(hvisker):</stage>
+<p>Kj&#x00E6;re, vidste du ikke, at min sj&#x00E6;l er ond?</p>
+</sp>
+<sp>
+<speaker>Knut</speaker>
+<stage>(griber hende haardt om skuldrene):</stage>
+<p>Hvorfor piner du mig? Hvorfor vil du se mig lide?</p>
+</sp>
+<sp>
+<speaker>Siri</speaker>
+<stage>(fortvilet):</stage>
+<p>Nei, nei, jeg vil jo ikke pine dig. Jeg kan ikke taale at se dig lide!Du er den eneste, som er god, den eneste, jeg elsker. Kan du ikke tro mig? <stage>(forpint.)</stage> Hvorfor jager du mig fra dig? Hvorfor vil du ikke hellere hj&#x00E6;lpe mig?</p>
+</sp>
+<sp>
+<speaker>Knut:</speaker>
+<p>Hj&#x00E6;lpe dig?</p>
+</sp>
+<sp>
+<speaker>Siri:</speaker>
+<p>Jeg har altid vidst, at jeg er skabt til ulykke. Du er den eneste, som kan hj&#x00E6;lpe mig. Og du vil ikke. Du vil ikke forstaa mig. Aa Gud, hvor du mistror mig! Hvor du mistror mig! Dine &#x00F8;ine f&#x00F8;lger mig altid, du &#x2026;</p>
+</sp>
+<sp>
+<speaker>Knut:</speaker>
+<p>Ved du, hvad hele ulykken er? At jeg er for meningsl&#x00F8;st, bundl&#x00F8;st glad i dig. Jeg er altfor meget din slave, din ting. Det ved du &#x2026; og derfor foragter du mig.</p>
+</sp>
+<sp>
+<speaker>Siri:</speaker>
+<p>Foragter jeg dig? Foragter jeg dig, fordi du er for glad i mig?! Derfor skulde jeg foragte dig! Du store himmel &#x2026; Nei, dette er fortvilet, vi kommer nok aldri i livet til at forstaa hinanden.</p>
+</sp>
+<sp>
+<speaker>Knut:</speaker>
+<p>Kunde jeg bare en eneste gang se paa dig med disse tvingende, bydende &#x00F8;ine, som &#x2026; som han vovede at rette paa dig &#x2026;</p>
+</sp>
+<sp>
+<speaker>Siri:</speaker>
+<p>Huh! mind mig ikke om de skr&#x00E6;kkelige &#x00F8;ine!</p>
+</sp>
+<sp>
+<speaker>Knut:</speaker>
+<p>Hvor bleg du blev! Frykter du de skr&#x00E6;kkelige &#x00F8;ines magt?</p>
+</sp>
+<sp>
+<speaker>Siri:</speaker>
+<p>Jeg hader ham saa ubeskrivelig!</p>
+</sp>
+<sp>
+<speaker>Knut</speaker>
+<stage>(rasende):</stage>
+<p>Kan du si mig, hvad han egentlig gj&#x00F8;r her i byen? Han er ikke sammen med et menneske. Han kjender ingen, s&#x00F8;ger ingen. Hvad vil han? Hvorfor reiser han ikke tilbage?</p>
+</sp>
+<sp>
+<speaker>Siri</speaker>
+<stage>(hvisker):</stage>
+<p>Fordi han er saa gr&#x00E6;nsel&#x00F8;st ond!</p>
+</sp>
+<sp>
+<speaker>Knut</speaker>
+<stage>(gaar rastl&#x00F8;s op og ned. Forpint):</stage>
+<p>Jeg faar hverken ro eller fred, f&#x00F8;r han er borte. Jeg lever i en evig angst, en evig angst. Kommer han tilbage, saa f&#x00F8;lger du med ham. Jeg f&#x00F8;ler saa sikkert, at du f&#x00F8;lger ham. Du er jo som forvandlet, siden du saa ham igjen. Du er saa rastl&#x00F8;s og saa gr&#x00E6;nsel&#x00F8;st s&#x00F8;rgmodig. Du er saa s&#x00F8;rgmodig, som om du skulde d&#x00F8;. <stage>(Lidenskabelig.)</stage> Siri, er det muligt, at du f&#x00F8;lger med ham?</p>
+</sp>
+<sp>
+<speaker>Siri</speaker>
+<stage>(rasende):</stage>
+<p>Aldrig! Aldrig! Jeg vil hellere d&#x00F8; end f&#x00F8;lge med ham! Vil du kanske tvinge mig til at gaa med ham? Jeg synes formelig, du jager mig fra dig. Du siger, at du elsker mig, men jeg synes, at du hader mig som d&#x00F8;den. Du er endnu v&#x00E6;rre mod mig end han, &#x2013; du &#x2026;</p>
+</sp>
+<sp>
+<speaker>Knut:</speaker>
+<p>Siri, du raser. Jeg skulde hade dig! Jeg skulde ville dig ondt! Jeg, som elsker dig h&#x00F8;iere end mit eget liv. Herregud, jeg, som kanske er den eneste menneske i verden, som elsker dig &#x2026;</p>
+</sp>
+<sp>
+<speaker>Siri</speaker>
+<stage>(ude af sig selv):</stage>
+<p>Men forstaar du da ikke, at din kj&#x00E6;rlighed er v&#x00E6;rre end hans had? Forstaar du da ikke, at du piner og plager mig, at du gj&#x00F8;r mig gammel? Jeg faar jo ikke elske dig, jeg faar jo ikke lov til at v&#x00E6;re god mod dig! Din evige mistro gj&#x00F8;r mig rasende &#x2026; dine lurende, speidende &#x00F8;ine forf&#x00F8;lger mig evig og altid &#x2026;</p>
+</sp>
+<sp>
+<speaker>Knut</speaker>
+<stage>(behersker sig med m&#x00F8;ie):</stage>
+<p>Du er fra forstanden. Du ved ikke selv, hvad du siger &#x2026; Det er vel bedst, at jeg gaar nu, du tr&#x00E6;nger at v&#x00E6;re alene &#x2026; <stage>(da hun intet siger; gaar han langsomt ud til h&#x00F8;ire.)</stage></p>
+</sp>
+<sp>
+<speaker>Siri</speaker>
+<stage>(gj&#x00F8;r en bev&#x00E6;gelse, som om hun vil f&#x00F8;lge efter ham, men bet&#x00E6;nker sig. Falder ned i en stol og gjemmer ansigtet i h&#x00E6;nderne).</stage>
+</sp>
+<sp>
+<speaker>Tor Rabbe</speaker>
+<stage>(kommer efter en pause langsomt gaaende paa gjennem haven, ind i stuen. Blir staande lidt og ser paa hende. Med lav stemme):</stage>
+<p>Siri &#x2026;</p>
+</sp>
+<sp>
+<speaker>Siri</speaker>
+<stage>(farer sammen og vender sig heftig mod ham):</stage>
+<p>Du! Hvad vil du?</p>
+</sp>
+<sp>
+<speaker>Tor:</speaker>
+<p>Det ved du jo &#x2026; <stage>(hvisker.)</stage> Jeg l&#x00E6;nges saa gr&#x00E6;nsesl&#x00F8;st efter dig, Siri.</p>
+</sp>
+<sp>
+<speaker>Siri:</speaker>
+<p>Nei, nei, jeg gaar ikke med dig! Jeg har jo sagt dig, at jeg ikke vil. Nei, nei, jeg kan ikke. Jeg vilde aldrig mere faa et roligt sekund. <stage>(Bedende.)</stage> Jeg ber dig, jeg b&#x00F8;nfalder dig: Gaa nu, gaa!</p>
+</sp>
+<sp>
+<speaker>Tor:</speaker>
+<p>Jeg saa dig dernede paa veien. Jeg saa dig sidde der saa hensunken i tanker, og jeg forstod, at tiden nu var kommen. Jeg f&#x00F8;lte, at du ventede mig.</p>
+</sp>
+<sp>
+<speaker>Siri:</speaker>
+<p>Hvor jeg elsker ham! Du aner jo ikke, hvor god han er.</p>
+</sp>
+<sp>
+<speaker>Tor:</speaker>
+<p>Aa, hvilken medlidenhed du har med ham! Hvor det gj&#x00F8;r dig ondt, at du maa elske mig!</p>
+</sp>
+<sp>
+<speaker>Siri</speaker>
+<stage>(fortvilet):</stage>
+<p>Han kan ikke leve uden mig. Skal jeg &#x00F8;del&#x00E6;gge ham?</p>
+</sp>
+<sp>
+<speaker>Tor:</speaker>
+<p>Aa, du skal se, han lever nok uden dig. Han vil s&#x00F8;rge et par aar, og saa vil ha t&#x00E6;nke paa dig, som man t&#x00E6;nker paa en d&#x00F8;d. <stage>(Heftig.)</stage> Men jeg, ser du, jeg vil ikke leve uden dig. Se paa mit haar: det er blet graat af l&#x00E6;ngsel efter dig. &#x2013; Se paa mine h&#x00E6;nder: kan du se, hvor jeg har arbeidet for at kunne hente dig til mig &#x2026; Jeg tar dig i mine arme og bortf&#x00F8;rer dig! Du slipper ikke &#x2026; for jeg ved, at du elsker mig &#x2026;</p>
+</sp>
+<sp>
+<speaker>Siri:</speaker>
+<p>Jeg er r&#x00E6;d for dig! Du vil trampe paa mig.</p>
+</sp>
+<sp>
+<speaker>Tor:</speaker>
+<p>Jeg vil b&#x00E6;re dig gjennem livet. Jeg vil bed&#x00F8;ve dig med kj&#x00E6;rlighed!</p>
+</sp>
+<sp>
+<speaker>Siri:</speaker>
+<p>Du har altid v&#x00E6;ret min ulykke!</p>
+</sp>
+<sp>
+<speaker>Tor:</speaker>
+<p>Han tror, du er god. Det er hans ulykke. Det er for tungt for dig at v&#x00E6;re god. Det tr&#x00E6;tter dig, du f&#x00F8;ler det som et uudholdeligt aag. <stage>(Ser paa hende.)</stage> Jeg kjender din stakkels, onde sj&#x00E6;l og elsker den.</p>
+</sp>
+<sp>
+<speaker>Siri</speaker>
+<stage>(rastl&#x00F8;s op og ned):</stage>
+<p>Jeg faar aldrig ro, hvis jeg f&#x00F8;lger med dig. Jeg kommer altid til at t&#x00E6;nke paa ham, paa alt det onde, jeg har gjort ham, al den lidelse, jeg har bragt over ham. Aa, han havde ret i at mistro mig &#x2026; jeg er saa uendelig trol&#x00F8;s, saa usigelig trol&#x00F8;s &#x2026;</p>
+</sp>
+<sp>
+<speaker>Tor</speaker>
+<stage>(gaar mod hende. Griber haardt hendes h&#x00E6;nder):</stage>
+<p>Forstaar du da ikke, at det bedste, du kan gj&#x00F8;re ham, er at gaa? Forstaar du da ikke, at din atmosf&#x00E6;re forgifter hans liv? Han faar aldrig et &#x00F8;iebliks fred, saa l&#x00E6;nge du er hos ham. Evig og altid vil han t&#x00E6;nke paa denne ene, ene ting. Han maa jo f&#x00F8;le, at du ikke elsker ham, at det bare er medlidenhed, som binder dig til ham. Tror du kanske, han er lykkelig med dig? Ikke en dag, ikke en time. Er du kj&#x00E6;rlig mod ham, tror han, det er for at skjule din l&#x00E6;ngsel efter mig. Sidder du taus, tror han ogsaa, at du l&#x00E6;nges &#x2026;</p>
+</sp>
+<sp>
+<speaker>Siri:</speaker>
+<p>Aa, det er en forf&#x00E6;rdelig pine! Det er som b&#x00F8;igen, det er som at kj&#x00E6;mpe med usynlige nisser &#x2026; Han er saa god, og dog piner han mig tild&#x00F8;de. Og hvor han lider, hvor han lider! Bare synet af mig bringer furer i hans pande &#x2026; <stage>(pludselig.)</stage> Ja, du har ret: jeg maa befri ham fra mig. Det er ogsaa det bedste for ham, det er sikkert det bedste for ham &#x2026;</p>
+</sp>
+<sp>
+<speaker>Tor</speaker>
+<stage>(hvisker):</stage>
+<p>Og jeg skal nok s&#x00F8;rge for, at du glemmer ham.</p>
+</sp>
+<sp>
+<speaker>Siri:</speaker>
+<p>Og jeg skal nok s&#x00F8;rge for, at du angrer paa, du kom!</p>
+</sp>
+<sp>
+<speaker>Tor:</speaker>
+<p>Aa, dit had skal nok smelte bort som sne i solen! <stage>(Lidenskabelig.)</stage> Du skal faa se, hvor jeg kan elske &#x2026;</p>
+</sp>
+<sp>
+<speaker>Siri:</speaker>
+<p>Saa kom, kom &#x2026; f&#x00F8;r jeg angrer det &#x2026; kom &#x2026; min Gud, hvad vil han gj&#x00F8;re, naar han ikke finder mig &#x2026;</p>
+</sp>
+<sp>
+<speaker>Tor:</speaker>
+<p>Nei, nei, du maa si ham det. Du maa si ham, at du gaar med mig.</p>
+</sp>
+<sp>
+<speaker>Siri</speaker>
+<stage>(fortvilet):</stage>
+<p>Nei, nei, nei, det kan jeg ikke. Hans ansigt vilde dr&#x00E6;be mig &#x2026; Nei, nei, det kan jeg ikke! <stage>(Kj&#x00E6;mper med ham.)</stage></p>
+</sp>
+<sp>
+<speaker>Knut</speaker>
+<stage>(kommer ind fra h&#x00F8;ire. Blir staaende som lammet. Stammer):</stage>
+<p>Jeg h&#x00F8;rte stemmer &#x2026; Hvad &#x2026; hvad &#x2026; Ja, I to er jo gamle bekjendte &#x2026;</p>
+</sp>
+<sp>
+<speaker>Siri:</speaker>
+<p>Knut &#x2026;</p>
+</sp>
+<sp>
+<speaker>Tor</speaker>
+<stage>(l&#x00E6;gger armene om hende):</stage>
+<p>Hr. Tonder, Siri f&#x00F8;lger mig. Hun var min f&#x00F8;rst, ser De. Hun var min, f&#x00F8;r hun blev Deres, og nu tar jeg hende tilbage igjen. Jeg kom hid for at hente hende.</p>
+</sp>
+<sp>
+<speaker>Knut:</speaker>
+<p>Siri er det sandt? Sig, at han lyver! Det kan da ikke v&#x00E6;rt sandt, det kan da umulig v&#x00E6;re sandt &#x2026;</p>
+</sp>
+<sp>
+<speaker>Tor</speaker>
+<stage>(tvingende):</stage>
+<p>Siri, sig ham, at det er sandt.</p>
+</sp>
+<sp>
+<speaker>Siri</speaker>
+<stage>(fortvilet):</stage>
+<p>Knut!</p>
+</sp>
+<sp>
+<speaker>Knut:</speaker>
+<p>Det er altsaa sandt! Min Gud, hvilken komedie du har spillet for mig! <stage>(Haanlig.)</stage> Storartet har du spillet &#x2026; jeg troede dig &#x2026; n&#x00E6;sten.</p>
+</sp>
+<sp>
+<speaker>Siri:</speaker>
+<p>Og du tror, at jeg har spillet komedie for dig! Og det kan du tro! <stage>(rasende.)</stage> Saa tro det, saa tro det! &#x2026; Nei, saa du har <emph>n&#x00E6;sten</emph> troet mig! Og jeg som &#x2026; Nei, du store Gud! &#x2026;</p>
+</sp>
+<sp>
+<speaker>Tor:</speaker>
+<p>Kommer du saa? Hvorfor spilder du saamange ord?</p>
+</sp>
+<sp>
+<speaker>Siri</speaker>
+<stage>(farer sammen):</stage>
+<p>Ja, kom, kom, bare kom! <stage>(L&#x00F8;ber ud med Tor. Jamrende.)</stage> Han tror, at jeg har spillet komedie for ham &#x2026;</p>
+</sp>
+<sp>
+<speaker>Knut</speaker>
+<stage>(gj&#x00F8;r nogle skridt frem, som om han vil f&#x00F8;lge efter dem).</stage>
+</sp>
+<p rend="center"><stage>T&#x00E6;ppet falder.</stage></p>
+</div>
+</body>
+</text>
+</TEI>

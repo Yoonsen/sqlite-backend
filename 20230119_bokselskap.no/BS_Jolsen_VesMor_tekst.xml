@@ -1,0 +1,1001 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI PUBLIC "-// TEI P5 //EN" "http://www.tei-c.org/release/xml/tei/custom/schema/dtd/tei_all.dtd">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="BS_Jolsen_VesMor">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>bokselskap.no, Oslo 2019
+<lb/>Ragnhild J&#x00F8;lsen: <hi rend="italic">Ve&#x0027;s Mor</hi>
+<lb/>Teksten i bokselskap.no f&#x00F8;lger 1. utgave, 1903 (Kristiania/Aschehoug). Digitaliseringen er basert p&#x00E5; fil mottatt fra Nasjonalbiblioteket (nb.no)
+<lb/>ISBN: 978-82-8319-480-7 (digital, bokselskap.no), 978-82-8319-481-4 (epub), 978-82-8319-482-1 (mobi)
+</title>
+</titleStmt>
+<publicationStmt>
+<p>Publiseres som digital tekst av bokselskap.no.</p></publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Ve&#x0027;s Mor</title>
+<author>Ragnhild J&#x00F8;lsen</author>
+<publisher>Aschehoug</publisher>
+<pubPlace>Kristiania</pubPlace>
+<date>1903</date>
+<note>Jolsen_VesMor_digibok_2010063006053.epub (mottatt fra Nasjonalbiblioteket 2014)</note>
+</bibl>
+</sourceDesc>
+</fileDesc>
+<revisionDesc>
+<change who="ENW" when="2019-07-02">Lagt inn korrekturrettelser (RK). Lagt inn ISBN.</change>
+<change xml:id="ENW" who="ENW" when="2019-04-25">XML-koding. Entiteter, kodekontroll og validering. Klar for korrektur.</change>
+</revisionDesc>
+</teiHeader>
+<text xml:id="BS_Jolsen_VesMor_tekst" type="novel">
+<front>
+<titlePage type="main">
+<byline><docAuthor>Ragnhild J&#x00F8;lsen</docAuthor></byline>
+<docTitle>
+<titlePart type="main">Ve&#x0027;s Mor</titlePart>
+<titlePart type="sub">Nutidsroman</titlePart>
+</docTitle>
+<docDate>bokselskap.no<lb/>Oslo 2019</docDate>
+</titlePage>
+</front>
+<body>
+<div type="chapter" n="1">
+<head type="main">I.</head>
+<p><pb n="1"/>Solen steg, og Solen sank over den graa Gaard med den vanskj&#x00F8;ttede Jord, hvor Gr&#x00E6;sset grodde paa Gj&#x00F8;dseldyngerne, der engang for Aar tilbage var kj&#x00F8;rt ud, men aldrig blev spredd. Og de glinsende brune Heste, som ikke dued til at tr&#x00E6;kke. Og den meterh&#x00F8;ie Tistel, og Humlen, som veirslidt kl&#x00E6;nged sig om Husv&#x00E6;ggene, hvorfra Vinduerne myste som en gammel Pebersvends sure &#x00D8;ine.</p>
+<p>Rundt Huset suste Tr&#x00E6;rne ved Dag og Nat. For udenfor laa Sletten, hvor Tr&#x00E6;kvindene havde Alfarvei. Sletten, som skj&#x00F8;d sig et B&#x00F8;rseskud frem mod Nord, f&#x00F8;r den st&#x00F8;dte mod Skogbrynet, og i Syd f&#x00F8;rst h&#x00F8;rte op, der den tog til at b&#x00F8;lge i Bakker og Braater ned om en Sj&#x00F8;, hvis ene Spids kunde sees fra Gaarden som et bredt og blinkende Knivsblad.</p>
+<p>Men hvis Iagttageren deroppe havde en Fremmeds skarpe Blik, kunde det vanskelig undgaa ham, at hele Gruvang i Grunden ikke var stort bedre faren end den afl&#x00E6;gse Begravelsesplads n&#x00E6;re ved.</p>
+<p><pb n="2"/>Og alligevel! Der det mindst ventedes, kunde en Yppighed, en Slags tung Sybarisme bringe i Forundring.</p>
+<p>Saa luftedes da ogsaa en silkebetrukken Edderdunsdyne en Dag derude paa T&#x00F8;rrestangen.</p>
+<p>Og Jon og Perikles Winkel snuste til M&#x00F8;rbradstegen, der braste paa Spid i Skorstenen.</p>
+<p>&#x2013; Men de to Br&#x00F8;dre havde hektiske Pletter i Kinderne. Et usvigeligt Tegn paa indre Opr&#x00F8;r, som fik Jenterne til at puffe hverandre i Siden.</p>
+<p>Og &#x00D8;inene brugte de vel; rapt, rent fra Ryggen undertiden, at intet Overgreb maatte ske.</p>
+<p>&#x00AB;Pst, bi lidt, du!&#x00BB; stansed de en, som f&#x00F3;r afsted med en S&#x00F8;lvsukkerb&#x00F8;rse i Haanden. &#x00AB;Den er vor den. &#x2013; V&#x00E6;rsgod, giv hid!&#x00BB;</p>
+<p>&#x00AB;Hvem har tilladt dig at gnide paa Kaffekanden vor?&#x00BB; hed det til en anden. &#x00AB;Gnid du heller paa dig selv!&#x00BB;</p>
+<p>Og de baade hefted og stod i Veien, saa Jenterne n&#x00E6;sten rendte hverandre overende i Travelheden og sandelig slog istykker baade det ene og det andet. Indtil Vesle-Kjersti fik en lys Id&#x00E9;:</p>
+<p>&#x00AB;Naa kommer de nok,&#x00BB; sagde hun i en Sving frem paa Gulvet. &#x2013; Og det gav et S&#x00E6;t i de to langn&#x00E6;sede Slikkere.</p>
+<p>Saa gramsed de Kaffekanden og Sukkerb&#x00F8;rsen til sig og smat ind i et tilst&#x00F8;dende Kammer. &#x2013; Jenterne trak &#x00D8;ienbrynene iveiret og fniste. &#x2013;</p>
+<p>&#x00AB;Han Perikles har ligesom Tyvslag med H&#x00E6;nderne sine, han,&#x00BB; hvisked de. &#x00AB;Se slig!&#x00BB; &#x2013; Og de efterabed saa mange Gange, at Fnisen formelig brast.</p>
+<p><pb n="3"/>Efter et Kvarters Forl&#x00F8;b keg et nysgjerrigt Hoved ud af D&#x00F8;ren:</p>
+<p>&#x00AB;Er de inde alt?&#x00BB; spurgtes der hemmelighedsfuldt.</p>
+<p>&#x00AB;Ne-i, vi h&#x00F8;rte vist galent, vi.&#x00BB;</p>
+<p>&#x00AB;Naa saa!&#x00BB; &#x2013; Br&#x00F8;drene kom tilbage. &#x2013;</p>
+<p>&#x00AB;Pas dig naa, Gamlemor, at du ikke svider,&#x00BB; sagde de til Kj&#x00E6;rringen, som snudde, og Jon satte sig tilrette paa Murkanten med en Skaal under Fl&#x00F8;dedryppet. &#x2013;</p>
+<p>&#x00AB;Men <hi rend="italic">der</hi> er de lel,&#x00BB; raabte Jenten og saa ud af Vinduet.</p>
+<p>&#x00AB;Tak for os,&#x00BB; mumled Br&#x00F8;drene ind&#x00E6;dt, idet de atter t&#x00F8;fled ind i Kammeret. Men om lidt skreg Perikles ud, gneldrende i Maalet af Sinne:</p>
+<p>&#x00AB;Dit stygge Naut, du er &#x2013; din Filletaske!&#x00BB;</p>
+<p>&#x2013; Efter saaledes flere Gange at v&#x00E6;re l&#x00F8;iet i Veien for kom endelig de ventede. Jon og Perikles titted paa dem, der de kom over Gaardspladsen. &#x2013; Han gammel og solbr&#x00E6;ndt. &#x2013; Hun ung og bleg. &#x2013; Og Br&#x00F8;drene gjepte. Men han derude, som forstod, hvis Fj&#x00E6;s det skimred af bag Ruderne, medens ingen tog imod, fik et &#x00E6;rgerligt Udtryk, idet han f&#x00F8;rte sin Hustru op over Trappen og ind i Forstuen, der det hvide Gulv og de n&#x00F8;gne V&#x00E6;gge gav Kulde fra sig, syntes hun.</p>
+<p>Hun slap hans Arm og blev et &#x00D8;ieblik staaende. Gav sig saa raadvild til at gaa hid og did.</p>
+<p>&#x00AB;Naa, naa,&#x00BB; sagde en dyb R&#x00F8;st, &#x00AB;du faar vel se at faa T&#x00F8;iet af dig. &#x2013; Og slaa dig til Ro en Stund&#x00BB;, tilf&#x00F8;ied han sp&#x00F8;gende. Med ett str&#x00F8;g han <pb n="4"/>sig adspredt op i Haaret og lunked videre. &#x2013; Hun h&#x00F8;rte ham tage i Klinken paa en D&#x00F8;r, som vistnok holdtes igjen fra Indersiden.</p>
+<p>&#x00AB;Dere er noen gamle Narrifasser&#x00BB;, brummed han. &#x2013;</p>
+<p>&#x00AB;Neitak,&#x00BB; svartes der sylspidst, &#x00AB;det er nok du, det.&#x00BB;</p>
+<p>Da han kom tilbage, havde han Rynker i Panden. Men de glattedes, som han raskt gik hen til hende, l&#x00F8;fted hendes Hage med en haard Haand og tog en v&#x00E6;ldig Smeldkys. &#x2013;</p>
+<p>&#x00AB;Velkommen til Huset, Veslekona mi! &#x2013; Og gid du nu kom til at trives her da.&#x00BB;</p>
+<p>Hun trak Pusten langt:</p>
+<p>&#x00AB;Tak, tak, Winkel! &#x2013; Jo, det tror jeg nok.&#x00BB;</p>
+<p>&#x00AB;Det skal du ikke tro, men vide, det, Paula &#x2013; Ungen min! For &#x00AB;de derinde&#x00BB; er ingenting at bry sig om. Og at alt her staar og gaar, som da Far vor leved, vidste du jo. &#x2013;</p>
+<p>Nu skal vi spise. Asparges f&#x00F8;rste Ret, af den ber&#x00F8;mte, vi gj&#x00F8;der med Blod i Kr&#x00E6;mmerhuse.&#x00BB; &#x2013; Han vendte hende om mod Vinduet. &#x2013; &#x00AB;Se ud i Haven! &#x2013; Det var Kaalsenge f&#x00F8;r. &#x2013; Du, Veslekona mi, som selv er saan en Asparges mellem gamle, uveksterlige &#x00C6;bletr&#x00E6;r &#x2013; dig skal jeg da langt mindre fors&#x00F8;mme.&#x00BB; &#x2013; Han str&#x00F8;g sig over Ansigtet og var med engang kommet i bedre Lune.</p>
+<p>Han lo saa smaat sin sagte, godmodige Latter: &#x2013; &#x00AB;Ja, saa faar vi rusle ind da!&#x00BB; &#x2013; Han aabned D&#x00F8;ren til Stuen, hvor Bordet stod d&#x00E6;kket med gammelt S&#x00F8;lv. &#x2013; &#x00AB;Men her er nok ikke som du <pb n="5"/>er vant,&#x00BB; sagde han, &#x00AB;men du faar tage det, som det er da.&#x00BB; &#x2013; Og der fulgte en R&#x00E6;kke af Undskyldninger med et veltilfreds Smil bagenom. &#x2013; &#x2013;</p>
+<p>&#x00AB;Jeg skal sige fra de andre to,&#x00BB; meldte en Jente ind fra Kj&#x00F8;kkenet, &#x00AB;at de gad ikke fli sig.&#x00BB; &#x2013;</p>
+<p>&#x00AB;Nei, nei, saa faar de la v&#x00E6;re da.&#x00BB;</p>
+<p>&#x00AB;Og de spiser helst hos sig selv.&#x00BB; &#x2013;</p>
+<p>&#x00AB;Ja, ja, de faar vel ha sin Vilje.&#x00BB;</p>
+<p>&#x00AB;De er noget for sig selv, de Br&#x00F8;drene, ser du,&#x00BB; forklarte han. &#x2013; &#x00AB;Nei, skal du sidde der da?&#x00BB;</p>
+<p>&#x00AB;Jeg vil gjerne kunne se ud af Vinduet.&#x00BB;</p>
+<p>&#x00AB;Aa pyt! &#x2013; Her er pladsen din, idag og altid. &#x2013; Ved Siden af mig. Saa ja!&#x00BB; &#x2013;</p>
+<p>&#x00AB;H&#x00F8;! Hvem skulde nu ogsaa troet dette,&#x00BB; l&#x00F8;d det, som de sad der &#x2013; &#x00AB;Paula &#x2013; Ungen min!&#x00BB; &#x2013; Og han saa langt paa hende.</p>
+<p>&#x00AB;Nei, hvem skulde troet!&#x00BB;</p>
+<p>&#x00AB;Du maa spise,&#x00BB; sagde han, &#x00AB;ikke bare spr&#x00E6;tte i Maden,&#x00BB; og han forsynte hendes Tallerken med et tykt Kj&#x00F8;dstykke. &#x2013; &#x00AB;H&#x00F8;! En Gaardmandskone &#x2013; min Kone &#x2013; maa ikke v&#x00E6;re noen Tertit &#x2013; om hendes Far aldrig saa meget var Oberstl&#x00F8;itnant &#x2013; ikke v&#x00E6;re noen Skj&#x00E6;reving, som ikkenoe orker.&#x00BB; &#x2013; Og han klapped hende paa Kn&#x00E6;et. &#x2013; &#x00AB;Er Veslekona mi tr&#x00E6;t efter Reisen? &#x2013; Hun glemmer Smilet sit jo!&#x00BB;</p>
+<p>Hun sad og dreied det gammeldagse R&#x00F8;dvinsglas mellem Fingrene:</p>
+<p>&#x00AB;Du Winkel,&#x00BB; sagde hun sagte, men Smilet kom nu alligevel &#x2013; &#x00AB;hvad, om du heller banlyste det?&#x00BB; &#x2013;</p>
+</div>
+<div type="chapter" n="2">
+<head type="main">II.</head>
+<p><pb n="6"/>Gerhard Winkel var den &#x00E6;ldste af de tre Br&#x00F8;dre og havde giftet sig i sin sildigere Alder.</p>
+<p>&#x2013; I Gerhard Winkels Mor havde flydt godt Landsens Blod, og S&#x00F8;nnen var som Moderen blevet firskaaren og sterk. Og uden Svig.</p>
+<p>Men Jon og Perikles&#x0027;s Mor havde v&#x00E6;ret Datter af en Lensmand, hvilket ogsaa kunde v&#x00E6;ret bra nok, havde ikke Skj&#x00E6;bne og Skifteret villet det saa, at de to Br&#x00F8;dre derved allerede tidlig var kommet til at f&#x00F8;le sig tilsidesatte, hvad Gods og Guld angik.</p>
+<p>&#x00AB;Men dengang gik jeg alene og sl&#x00E6;ngte, jeg, Gutter,&#x00BB; pleied Gerhard sige til dem, &#x00AB;mens dere fik Kj&#x00E6;ling af en Mor &#x2013; og suged Sukker.&#x00BB;</p>
+<p>&#x00AB;De Sukkerbeterne burde du Skam ikke misunde os, Bror,&#x00BB; gneldred Perikles, &#x00AB;der var Rottelort indi!&#x00BB;</p>
+<p>Og Gerhard Winkel maatte tr&#x00E6;kke paa Smilet. Men blev alvorlig, da han spurgte:</p>
+<p>&#x00AB;Og Kj&#x00E6;lingen da, Gutter?&#x00BB;</p>
+<p>&#x00AB;Pyt!&#x00BB; blaaste Perikles, &#x00AB;Mor mente vel, at du nok tog din Mon igjen siden!&#x00BB;</p>
+<p>&#x00AB;Har jeg gjort det, synes du?&#x00BB; spurgte Gerhard.</p>
+<p>&#x2013; Gerhard Winkel forhasted sig jo ikke med at s&#x00F8;ge Kvindegunst.</p>
+<p>Og da han omsider &#x00AB;vilde tage sin Mon igjen&#x00BB;, som Perikles sagde &#x2013; hvo ved, om ikke da saare l&#x00E6;nge L&#x00E6;ngselen efter en noblere Slags Kvindekj&#x00E6;rlighed end den, Tjenestepiger og Budeier kunde <pb n="7"/>give, havde ulmet i ham. Og den L&#x00E6;ngsel v&#x00E6;re brudt ud i lys Lue ved M&#x00F8;det med en viss slank, ung Dame derinde i Hovedstaden &#x2013; en, der gjaldt for at v&#x00E6;re uforsigtig og levelysten &#x2013; da nu saa mangt maa siges om den, der er for&#x00E6;ldrel&#x00F8;s eller ubeskyttet. &#x2013; Hvem kan skjelne mellem Sandhed og L&#x00F8;gn? &#x2013;</p>
+<p>Fr&#x00F8;ken Paula Heiss smilte under tykke &#x00D8;ienlaag. &#x2013; Han vidste ikke, enten Gudfader havde skabt dem slig, eller Graat hovnet dem &#x2013; t&#x00E6;nkte heller ikke stort derpaa &#x2013; men Smilet, Smilet, det gav ham kolde Rislinger over Ryggen med dets lukkede Forj&#x00E6;ttelse. &#x2013; Hun talte med en Stemme saa lav og sl&#x00F8;ret af H&#x00E6;shed &#x2013; han vidste ikke, om af Sygelighed eller Natteluft &#x2013; t&#x00E6;nkte heller ikke stort derpaa &#x2013; men den Stemmen str&#x00F8;g ham som Kj&#x00E6;rtegn, han gav og fik.</p>
+<p>Saa havde han skr&#x00E6;mt hende en Dag og for et kort Sekund t&#x00E6;ndt et Seiersglimt under de hovne &#x00D8;ienlaag, da han voldtog de smale H&#x00E6;nder til Kys &#x2013; og saa klodset, som det alene kunde gj&#x00F8;res af Gerhard Winkel, havde han famlet sig frem til Frieriet med Indledningen:</p>
+<p>&#x00AB;Det br&#x00E6;nder naa v&#x00E6;rst i gamle Huse.&#x00BB; &#x2013;</p>
+<p>At Gerhard Winkel havde giftet sig, naar han nu engang var blevet saa forelsket, var vel heller ikke at undres over &#x2013; han, som endnu var rask og r&#x00F8;rig som en Ungdom.</p>
+<p>&#x2013; Br&#x00F8;drenes Formening i dette Stykke fik da v&#x00E6;re, som den vilde, ligesaa deres Misundelse fra f&#x00F8;r.</p>
+<p>&#x2013; Alligevel kunde det se ud til lidt af hvert <pb n="8"/>med det gamle Forhold imellem dem den Dag, da Gerhard Winkel traadte ind i Br&#x00F8;drenes f&#x00E6;lles V&#x00E6;relse i anden Etage, hvor Jon og Perikles, der sagtens ante Uraad, sad paafaldende ligegyldige uden saa meget som at tage Piben af Munden.</p>
+<p>&#x00AB;Jeg kommer hid op,&#x00BB; sagde Gerhard Winkel, &#x00AB;for at l&#x00E6;re jer lidt Folkeskik.&#x00BB;</p>
+<p>&#x00AB;Naada! Hvordan det?&#x00BB; spurgte Br&#x00F8;drene.</p>
+<p>&#x00AB;Det ved I bedst selv,&#x00BB; svarte Gerhard Winkel; &#x00AB;men jeg vil ikke vide af dette.&#x00BB;</p>
+<p>&#x00AB;Hvilket?&#x00BB; spurgte de atter, og udfordrende. &#x00AB;Neigu, om vi skj&#x00F8;nner, hvad du mener.&#x00BB;</p>
+<p>&#x00AB;At I opf&#x00F8;rer jer som P&#x00F8;bler da, siden I vil h&#x00F8;re det, &#x2013; som I gaar forbi hende i Gangene uden at hilse &#x2013; og blaaser Latteren gjennem N&#x00E6;sen.&#x00BB; &#x2013;</p>
+<p>&#x00AB;Aa, det har vel v&#x00E6;ret saan rent tilf&#x00E6;ldigt, det, Bror,&#x00BB; smilte Perikles med Mundvigerne nedover. &#x00AB;Hun kunde spart sig Sladringen!&#x00BB;</p>
+<p>&#x00AB;Hvad for Pak maa ikke en tander, ung Dame, som ser sligt, tro, hun er kommet til?&#x00BB;</p>
+<p>&#x00AB;Naa blaaser jeg ialfald!&#x00BB; svarte Perikles. &#x2013; &#x00AB;Pas dig, du, at du ikke angrer baade det &#x2013; og slig du kommer og overfuser Br&#x00F8;drene dine, som ikke noe galt har gjort.&#x00BB;</p>
+<p>&#x00AB;Jeg har sagt, hvad jeg vilde,&#x00BB; sagde Gerhard Winkel myndig, og de saa, han var vred. &#x2013; &#x00AB;Blir her ikke slut med de Tilf&#x00E6;ldighederne, saa er det forbi mellem mig og jer. V&#x00E6;r trygge! Jeg skal nok holde &#x00D8;ie med jer, Snoflerne!&#x00BB; &#x2013; Og han gik haardt ud af D&#x00F8;ren. &#x2013;</p>
+<p><pb n="9"/>For saadan var han, den jevne Gerhard Winkel, at som sin Hustrus Beskytter blev han nidkj&#x00E6;r. &#x2013; Og han fordred af Br&#x00F8;drene og alle, at i det &#x00D8;ieblik han havde fundet for godt at tilskj&#x00F8;de sit kraftige Legeme et svagere Lem, saa maatte det respekteres som en Gudsdom. &#x2013; Og pleies af ham selv. Og beundres. Og velsignes.</p>
+<p>Men syntes nu ogsaa Gerhard Winkels Kj&#x00E6;rlighed stille og beskeden udadtil, saa var der i Enrum med hende ved Siden af hans Bj&#x00F8;rneomfavnelser en forhastet Slikvorrenhed ved ham, som gjorde hans Smil sygt og barnagtigt undertiden, mens kj&#x00E6;lne Ord brast ham keitede ud af Munden og kn&#x00E6;kked Nakken ved egen Uformuenhed.</p>
+<p>Hun kunde fri sig fra de tunge H&#x00E6;nder noksaa braat og s&#x00E6;tte sig andetsteds hen, og der kunde komme en Utaalmodighed i hendes &#x00AB;snak ikke slig da&#x00BB;, som bragte Winkel til at se forbauset ud. &#x2013; Han sagde ingenting ved slige Leiligheder. Men Gud bevares, i Grunden var han forn&#x00E6;rmet. &#x2013; Han havde ikke forsyndet sig. &#x2013; Han stelte med hende, saa godt han bare kunde, han. Og naar hun saa fandt paa at vri sig unda med ett, akkurat som skulde noget stikke hende etsteds, saa var den Slags Kvindfolkeluner knapt Paatale v&#x00E6;rd! &#x2013;</p>
+<p>&#x00AB;Ja, ja san!&#x00BB; &#x2013; Winkel reiste sig langsomt med H&#x00E6;nderne mod Bordpladen og gik.</p>
+<p>Hun blev siddende ligeglad tilbage. Lod Blikket glide paa Maafaa henad Gulvet og opad V&#x00E6;ggene, danned Rektangler og Triangler af Kvisterne i Taget, fandt et grinende Ansigt her <pb n="10"/>og et sfinxlignende der. &#x2013; Og Blikket gled og gled &#x2013; Vinduerne med de seksten smaa Ruder i hvert, der Winkelnavnet stod skrevet paa kryds og tvers, de skilte saa hermetisk mellem Gruvanggaardens magre Dagligstue og Vorherres fri Veir derude, det bl&#x00F8;de Gr&#x00E6;s, de skinnende Blomster og det fine L&#x00F8;v, som endnu ikke kunde rasle. &#x2013; Det var, som &#x00F8;nsked hun at puste noget lummert ud, idet hun reiste sig og tog sin Solhat i Haanden. &#x2013;</p>
+<p>Hun blev staaende ude paa Gaardspladsen og stirre op i Aspene &#x2013; de graa ringlete Stammer &#x2013; de lyse, lyse Blade udpaa knortede Grene. &#x2013;</p>
+<p>&#x00AB;Jagu er det naa stilt paa Garen, Frua,&#x00BB; sagde det ved Siden af hende, saa skingert, at hun vak. Men hun smilte, da hun saa, det var Kruggen fra Ramstadpladsen, Hans Mislet kaldet. &#x2013; Han havde smaa, kloge &#x00D8;ine, han, hvis Pupiller blev langagtige i Solskin som en Kats. &#x2013; &#x00AB;Men vent lidt,&#x00BB; skravled han ivei, &#x00AB;om en Maaneds Tid kan en finde Gruvang iblinde, efter Laata, slig Skrangel blir her i Tr&#x00E6;rne da! &#x2013;</p>
+<p>Sikkert det er pent naa, Frua. T&#x00E6;nke sig for lidt siden &#x2013; svart var Jora, svart var Veiret, og svart var Menneskehugen. &#x2013; Hau! &#x2013; Men naa soler jagu Ormen sig i Bakkebraaten, og r&#x00F8;rer en i en Maurtue, sender de sligt et Spiit tilveirs, at en rat kan nyse. Nei, naa fins inte det levendes Kryp, hvori Sevjen inte render baade tjok og klissen &#x2013; Vorherre til Pris, Jora til Formerelse. Det kjender og ser vi nok alle, det.&#x00BB; &#x2013;</p>
+<p><pb n="11"/>Hun saa ham lunte af med lange, ust&#x00F8; Skridt &#x2013; Hovedet lavt nede mellem Skuldrene. &#x2013;</p>
+<p>Og hun fr&#x00F8;s over Ryggen uden at vide hvorfor.</p>
+</div>
+<div type="chapter" n="3">
+<head type="main">III.</head>
+<p>Jon og Perikles Winkel havde i Folkemunde Ord for at v&#x00E6;re lyssky &#x2013; og folkesky med.</p>
+<p>&#x2013; Det forholdt sig da ogsaa i Virkeligheden med dem som med Edderkoppen &#x2013; de likte sig bedst i Skumringen og gik n&#x00F8;dig ud, f&#x00F8;r Solen var nede. Men folkesky var de nu egentlig ikke, uagtet det nok kunde se ud til lidt af hvert.</p>
+<p>Som nu Folk, der blev siddende inde i Stuen og vente, naar Gerhard Winkel var borte, de vented og vented, men ingen kom der, og ingen var der, og alligevel vidste de sig iagttaget. Det var en velkjendt Sag. Men hvorfor i R&#x00F8;des Navn kom ikke de Winkeler heller frem end staa slig og knaase i Tittehul bortover? &#x2013;</p>
+<p>Og som nu Folk, der kj&#x00F8;rte ude paa Landeveien. &#x2013; Bedst de mente m&#x00F8;de en langkroket Winkel, m&#x00F8;dte de jo slet ingen. Kanske saa de istedet en Ryg ude paa et leret Jorde &#x2013; kanske saa de ham aldeles ikke.</p>
+<p>&#x2013; Men Jon og Perikles Winkel havde for Vane at gaa saa slurvet kl&#x00E6;dt, de. &#x2013; Det var saa l&#x00F8;st og ledigt og ugenert, fandt de. &#x2013; Hvorfor ikke heller tr&#x00E6;de tilside bag en Busk end give Afkald paa en af sit Livs Bekvemmeligheder? &#x2013;</p>
+<p><pb n="12"/>Og de to Br&#x00F8;dre skridted saa let over Gr&#x00F8;ften, naar de paa sine Udflugter &#x00F8;ined en eller anden, der i Afstand kunde have Lighed med nogenslags Honoratiores. &#x2013; Jo, de kjendte til det. &#x2013; Der skulde vel ogsaa disse Mennesker have stanset og hilst: &#x00AB;Naa Goddag, Hr. Winkel, hvordan gaar det?&#x00BB; &#x2013; Og de burde svare &#x2013; lige ilde om s&#x00F8;de eller sure &#x2013; mens de blev beglodde fra Ende til anden.</p>
+<p>Og nu tilsidst, da der var kommet en Fremmed i Huset, satte de en hel &#x00C6;re i ikke paa nogensomhelst Maade at &#x00E6;ndre sit Antr&#x00E6;k, men derigjennem vise Broderen og hans Kone, at de var sine egne Herrer, som gjorde, hvad de lysted.</p>
+<p>&#x00AB;Du har fjonget dig sv&#x00E6;rt du, Gammeln&#x00BB;, kunde de dog ikke bare sig for at sige, idet de napped i Broderens nye Vadmelstr&#x00F8;ie.</p>
+<p>&#x00AB;Gift dere sjel dere, Gutter,&#x00BB; brummed denne, &#x00AB;saa slipper I at knytte Taugstump om Livet istedetfor Knapper i Buksen.</p>
+<p>&#x2013; Ligeoverfor de Nygifte n&#x00E6;red de i det skjulte en levende Interesse, som fik Udslag i, hvad Br&#x00F8;drene selv ben&#x00E6;vnte &#x00AB;Lensmandsinstinktet hos sig&#x00BB;, det Gerhard Winkel godt kjendte og stundom s&#x00F8;gte s&#x00E6;tte Stopper for i Form af Papirlapper bortover V&#x00E6;ggene. Men det blev nu blot paa et Skj&#x00F8;n.</p>
+<p>&#x2013; &#x00AB;Hvad sagde hun da? Hvad gjorde hun saa?&#x00BB; l&#x00F8;b Sp&#x00F8;rgsmaalene rapt imellem dem, naar de kom alene hos sig selv. Og der blev svaret, hvisket og leet.</p>
+<p><pb n="13"/>&#x00AB;Men det er &#x00E6;kkelt,&#x00BB; mente Jon, &#x00AB;at have saant i Huset.&#x00BB;</p>
+<p>&#x00AB;Det op&#x00E6;rter,&#x00BB; sagde Perikles.</p>
+<p>&#x00AB;Udkomme har de godt nok,&#x00BB; var de enige, &#x00AB;og de Unger, som blir, skal slippe Arven fra os.&#x00BB;</p>
+<p>&#x00AB;Nu skal jeg sige dig,&#x00BB; foreslog Perikles en Dag. &#x00AB;Vi flytter ligesaagodt, vi &#x2013; og styrer Nebruget alene. &#x2013; S&#x00E6;t dig naa, s&#x00E6;t dig! &#x2013; Saa skriver vi Testamente til bedste for Anders og Bolette. &#x2013; Saa forlanger han Anders ingen anden L&#x00F8;n end lidt til Tobak. Og hende Bolette &#x2013; ja, hende skal jeg tage paa mig.&#x00BB; &#x2013;</p>
+<p>&#x00AB;Hm, jeg ved ikke!&#x00BB; &#x2013; Jon kl&#x00F8;dde sig i Haaret. &#x00AB;Da blev det knapt bedre paa Nebruget da.&#x00BB;</p>
+<p>&#x00AB;Pessimisten!&#x00BB; svarte Perikles, &#x00AB;du kan skj&#x00F8;nne, vi blir blygsommere.&#x00BB;</p>
+<p>Jon var kj&#x00F8;lnet af med ett. Men han fik en Tanke, idet han saa ud af Vinduet:</p>
+<p>&#x00AB;Nei naa &#x2013; mener jeg ikke Olea gaar der. Hende kan jeg testamentere!&#x00BB;</p>
+<p>Perikles gren, men fik ogsaa en lys Indskydelse. Jon spekulerte paa, hvad der var igj&#x00E6;re, siden Broderen trommed saa forn&#x00F8;iet i Vindusposten.</p>
+<p>&#x00AB;Naa skal der bli Moro her!&#x00BB; kom det endelig. &#x2013; &#x00AB;Jeg vedder: han Far sidder ved Vinduet &#x2013; hun Mor sidder i Sofaen. &#x2013; &#x2013; Lad nu du, som du ikke ser hende, og sig til Gerhard, at Gamlekj&#x00E6;resten hans er ude. &#x2013; Og l&#x00E6;g Merke til, hvordan de tar det &#x2013; hva?&#x00BB; &#x2013;</p>
+<p><pb n="14"/>Jon lod samtidig bet&#x00E6;nkelig og indful. Saa gned han sig med Haanden over Hagen og skyndte sig afsted. &#x2013; Paa nederste Trappetrin traadte han feil og ramled, saa Perikles, som stod ved Gel&#x00E6;nderet, kom til at snorke af Latter.</p>
+<p>Jon saa stivt fremfor sig, der han t&#x00F8;fled fremover Stuegulvet. Blinked saa fortrolig:</p>
+<p>&#x00AB;Gamlekj&#x00E6;resten din er ude, du,&#x00BB; sagde han. &#x2013;</p>
+<p>Og det blev bom stille. &#x2013;</p>
+<p>Indtil nogen begynder at le borti Kroken &#x2013; f&#x00F8;rst sagte indest&#x00E6;ngt &#x2013; men mere overgivent efterhvert &#x2013; tilslut i R&#x00E6;kker af Latterb&#x00F8;lger:</p>
+<p>&#x00AB;Aa, aa, du Winkel, du Winkel,&#x00BB; l&#x00F8;d det ganske opgivent indimellem.</p>
+<p>Jon saa sig faaret om. &#x2013; Han forstod ingenting. Fors&#x00F8;gte jo nok at f&#x00F8;lge:</p>
+<p>&#x00AB;He &#x2013; he &#x2013; hehe!&#x00BB;</p>
+<p>Gerhard Winkel smilte mut:</p>
+<p>&#x00AB;Naa, kan du le slig, du da, Veslemor?&#x00BB; Vendte sig saa mod Jon nogenlunde med samme Bev&#x00E6;gelse, som vilde han knipse efter en Flue:</p>
+<p>&#x00AB;Hils Perikles fra mig, du. &#x2013; Og siden du nu er her: Du skulde vel ikke huske dengang, han narred dig til at gaa paa Stylter i Br&#x00F8;nden vel?&#x00BB; &#x2013;</p>
+<p>Jon Winkel blev r&#x00F8;d opimod Haarr&#x00F8;dderne. Braasnudde og langed ud af Stuen med sig. &#x2013; Nei, det var nu ikke f&#x00F8;rste Gangen, det, at Perikles havde narret ham galt afsted. Og Bror Gerhard gjemte paa det. &#x2013; &#x2013;</p>
+</div>
+<div type="chapter" n="4">
+<head type="main">IV.</head>
+<p><pb n="15"/>Det gav et Knep borte ved den aflaaste D&#x00F8;r bag Schatollet, en Eftermiddag Gerhard Winkel og hans unge Frue kom ind i F&#x00F8;lge. Hun f&#x00F8;rst, smal som altid &#x2013; med en Smidighed, ante man, den hun ikke gad bruge. Han efter, i Langst&#x00F8;vler og med H&#x00F8;b&#x00F8;ss paa Skuldrene efter L&#x00E6;sset&#x00E6;lling paa Laaven.</p>
+<p>&#x00AB;Hvad dr&#x00F8;mte du saa inat, du?&#x00BB; spurgte han i Forts&#x00E6;ttelse af Samtalen, trygt smaaleende inde i Skjegget. &#x2013;</p>
+<p>Men han fik intet Svar. &#x2013; Han gl&#x00F8;tted paa Gangd&#x00F8;ren. &#x2013;</p>
+<p>&#x00AB;Der er den, den brundroplede igjen &#x2013; tscht, vil du ud med dig, du din Ranglebikje!&#x00BB;</p>
+<p>&#x00AB;At jage det vakre Dyret&#x00BB;, sagde hun.</p>
+<p>&#x00AB;Naada, gir du den Mad, du kanske?&#x00BB;</p>
+<p>&#x00AB;Den vilde ikke ha.&#x00BB; &#x2013; Hun gik hen til Vinduet og l&#x00E6;ned sig ud af det.</p>
+<p>&#x00AB;Ser du noe rart?&#x00BB; spurgte han. &#x2013; &#x00AB;Er Bikja derude?&#x00BB; &#x2013;</p>
+<p>Hun retted sig ligegyldig. Blev dog fremdeles staaende. &#x2013; Den Hunden, den Hunden &#x2013; at det da ikke var muligt at komme til Vished! &#x2013; Hun saa sig tilbage, overrasket. &#x2013; Ogsaa et Indfald af Winkel pludselig at dunke i V&#x00E6;ggen derborte ved Schatollet! &#x2013; Men Hunden &#x2013; der sad den paa Halen nedenfor Trappen &#x2013; stordroplet over Ryggen, smaadroplet langs Flankerne. &#x2013; Kunde hun bare gaa ud og sige &#x00AB;Rex&#x00BB; til den; men saa sjaued Winkel den sagtens afsted, og &#x2013; nei, det var <pb n="16"/>knapt raadeligt, af flere Grunde. Skj&#x00F8;nt det var naturligvis ikke &#x00AB;Rex.&#x00BB; &#x2013; &#x00AB;Rex!&#x00BB; hvisked hun ganske lavt. Sandelig spidsed den ikke &#x00D8;ren. &#x2013; &#x00AB;Tiras!&#x00BB; fors&#x00F8;gte hun videre. &#x2013; Pyt, den spidsed vist &#x00D8;ren til det ogsaa. &#x2013; &#x00AB;Tosken!&#x00BB; &#x2013; jo da, den tog det vist til sig altsammen. &#x2013; Nei, umuligt at faa det paa det rene!</p>
+<p>&#x00AB;Svare til Hvisling med dig da,&#x00BB; sagde Winkel.</p>
+<p>&#x2013; Og selv det, at den var kommet logrende igaar, beh&#x00F8;ved vel ikke tyde paa nogenslags Gjenkjendelse &#x2013; kunde jo bare v&#x00E6;re en Opf&#x00F8;rsel som af venligsindede Hunde flest. &#x2013; Men slig hun nu havde t&#x00E6;nkt og t&#x00E6;nkt sig rundt siden igaar! &#x2013; Hvorfor i Alverden hun ikke var kommet til at sige &#x00AB;Rex&#x00BB; med det samme. &#x2013; Se der, der dasked den afgaarde nedigjennem All&#x00E9;en, lidt paaskj&#x00F8;ns, ogsaa som Hunde flest. &#x2013; Aaja, flere flekkede Bikjer end Prestens! &#x2013; Der nede stansed den ved et Tr&#x00E6;. &#x2013; Sligt et feiende Kast paa den lange silkefrynsede Hale. &#x2013; Vakkert Dyr. &#x2013; Jo, det var vist &#x00AB;Rex&#x00BB;. &#x2013; Den Hunden, den Hunden! &#x2013; Str&#x00F8;g af hvide, kraftige Herreh&#x00E6;nder over sit smale Hoved, nedad Ryggen, det fik slig en Hund Aar efter Aar, kanske helt indtil selvsamme hvide Herrehaand sendte den en Kugle i Panden. Men Kvinderne, stakkars! &#x2013; hun smilte bittert. &#x2013; Ja, <hi rend="italic">mange</hi> Kvinder kunde vel misunde en eneste Hund. &#x2013;</p>
+<p>&#x00AB;Hvorfor svarer du ikke?&#x00BB; spurgte Winkel.</p>
+<p>&#x00AB;Aa, jeg t&#x00E6;nkte sandelig paa noe andet,&#x00BB; svarte hun tr&#x00E6;t.</p>
+<p>&#x00AB;Hvad har du Hovedet saa fuldt af da?&#x00BB;</p>
+<p><pb n="17"/>&#x00AB;Aa, alt og intet.&#x00BB;</p>
+<p>&#x00AB;S&#x00E6;t dig hid naa!&#x00BB; &#x2013; Han vilde tr&#x00E6;kke hende ned paa Fanget. Hun unddrog sig og satte sig i Sofaen istedet.</p>
+<p>&#x00AB;Veslekona mi puster saa tungt i Fj&#x00E6;rene som en syg Kylling, hun,&#x00BB; begyndte han om en Stund. &#x00AB;Det gjorde hun engang igaar ogsaa&#x00BB;.</p>
+<p>&#x00AB;Jeg er ikke syg, jeg.&#x00BB;</p>
+<p>&#x00AB;Angrer du, du fulgte mig hid kanske?&#x00BB; spurgte han siden, og han blev t&#x00F8;r i Maalet, som naar han snakked om sin Mor.</p>
+<p>&#x00AB;Nei. &#x2013; Bare ikke bryd dig om mig, du. &#x2013; Er ikke vant til sligt, jeg.&#x00BB;</p>
+<p>&#x00AB;Jo, naar du er blid saa.&#x00BB;</p>
+<p>&#x00AB;Hm! &#x2013; Om du liker mig blid, er det vel ikke sagt, at andre &#x2013; &#x2013;&#x00BB;</p>
+<p>&#x00AB;Andre?&#x00BB; sagde Winkel. &#x00AB;Naa! Er det andre, det gj&#x00E6;lder da &#x2013; andre, du dr&#x00F8;mmer om?&#x00BB;</p>
+<p>&#x00AB;Det gj&#x00E6;lder ingenting,&#x00BB; svarte hun. &#x2013; Jeg sover jo hos dig, jeg, inderst inde i dine Arme. &#x2013; Og jeg kjender, du er haard og fugtig som Slibestenen derude. &#x2013; Men t&#x00E6;nke kan jeg vel. Og dr&#x00F8;mme. Dr&#x00F8;mme kan jeg vel baade sent og tidlig, om jeg ogsaa sover hos Bj&#x00F8;rnefar i Hiet. &#x2013; &#x2013; For Dr&#x00F8;mmene, de er trofaste de, Winkel, som Tungsindet.&#x00BB;</p>
+<p>Gerhard Winkel betragted hende n&#x00F8;ie, rysted paa Hovedet og betragted igjen.</p>
+<p>Men slig hun sad der med Fingerspidserne mod Tindingen og med lukkede &#x00D8;ine, begyndte hun at fortryde allerede. Alene Blikket! &#x2013; Hun ante og f&#x00F8;lte det som et Jernpanser om sig.</p>
+<p><pb n="18"/>Og for f&#x00F8;rste Gang fornam Paula Winkel, hvorledes hendes Mand formaadde knuge ned, ligesom samtidig baade med Aand og Krop. Netop dette, at ogsaa han sad der saa taus &#x2013; han, der i alt andet havde et godmodigt Ord tilsidst &#x2013; det gjorde Luften trykkende tung som f&#x00F8;r Tordenveir, syntes hun &#x2013; naar Skyerne bunker sig, og Aandedr&#x00E6;ttet besv&#x00E6;res. Og hun kjendte sig liden og feig, da hun mumled:</p>
+<p>&#x00AB;Aaja, det letner nok engang &#x2013; med Hovedpinen.&#x00BB;</p>
+<p>Saa blev det ham, som ikke svarte. &#x2013; Hun begyndte at blive urolig. Vred sig sagte som for at komme unda Trykket fra ham.</p>
+<p>&#x00AB;Du sa, du ikke var syg,&#x00BB; kom det endelig.</p>
+<p>&#x00AB;Sa jeg? &#x2013; Hm &#x2013; er bedre nu.&#x00BB; &#x2013; Hun aanded op. &#x2013; &#x00AB;Men du Winkel, kj&#x00E6;re, hvorfor sidder du saan da? &#x2013; Er du vond kanske, fordi jeg ikke er robust som en Bondejente?&#x00BB; &#x2013; Hun fanged et Glimt fra Egtef&#x00E6;llens &#x00D8;ine og strakte to hvide H&#x00E6;nder over Bordet:</p>
+<p>&#x00AB;Skal jeg rake imorgen? &#x2013; Vel, vel, Winkel!&#x00BB;</p>
+<p>Winkel blev siddende og se paa hendes H&#x00E6;nder, som saa lindt gled nedover hans graakl&#x00E6;dte Arm og tilbage igjen. Han &#x00F8;nsked, han kunde bede hende tage dem v&#x00E6;k, indtil han fik spurgt &#x2013; han vidste ikke rigtig hvorledes &#x2013; om noget stort og vegtigt. Men hans Sp&#x00F8;rgsmaal vilde hvile som en Ed over hende, ante han.</p>
+<p>&#x00AB;Du &#x2013; du &#x2013; aa sig mig &#x2013;&#x00BB; Videre kom han ikke. De hvide H&#x00E6;nder og hun selv, de sm&#x00F8;g <pb n="19"/>sig rundt ham med engang. Men let og fjernt. Mer som Pust end Ber&#x00F8;ring.</p>
+<p>Det skrabed i Stolen. Og det gav en Knep og en Fnis borte ved den aflaaste D&#x00F8;r, da han pludselig slog Armene om hende. Han kyssed hendes Hoved, som stadig gav efter, nedimod Gulvet. Han krysted, saa hun bad for sig, indimellem afbrudte Ord og S&#x00E6;tninger:</p>
+<p>&#x00AB;Herren signe dig, du Ungen min &#x2013; Ungen min! &#x2013; Er jeg slem mod dig, du? &#x2013; H&#x00F8;! Han Bj&#x00F8;rnefar i Hiet, han dr&#x00E6;ber af Kj&#x00E6;rlighed, han. &#x2013; Fordi han ikke beregner sin egen Styrke, ser du. &#x2013; Aa, Veslemor, du Veslemor!&#x00BB;</p>
+</div>
+<div type="chapter" n="5">
+<head type="main">V.</head>
+<p>Folkefesten, den store, til fremtidig Ihukommelse om den Gang, da Winkels var nygifte, skulde staa en L&#x00F8;rdagsaften i Rumtiden mellem Slaat- og Skuraannen.</p>
+<p>Husm&#x00E6;ndene fra Gruvang, Nebruget og Sagen ved Klun kom da paa Minutet af det fastsatte Klokkesl&#x00E6;t frem bagenfra Laden, der flere allerede havde ventet i timevis. Og de n&#x00E6;rmed sig Hovedbygningen langsomt og uden Smil. Den &#x00E6;ldste, nogenslags Forvalter, i Spidsen. Saa de &#x00E6;ldre og Gutterne. Men Kvindfolkene allersidst, i en stor m&#x00F8;rkrudet Klump.</p>
+<p>En for en n&#x00E6;vetoges de skrabudbukkende med de Sjelve for derpaa efter endt Kaffedrikning i Drengestuen at takke og n&#x00E6;vetage paany.</p>
+<p><pb n="20"/>Egentlig skulde de saa rusle ivei til Laaven, der et falskt, vibrerende Pip fra Ola Skomagers Fele allerede h&#x00F8;rtes indimellem L&#x00F8;vbuskene. Men det lokked ikke nu i Lyse. Derfor satte de sig heller, tyed sammen her og der henover Flaabergene og paa Bakken, kladdevis som vilskne Bier. &#x2013; Bare et par Unggutter stilled sig paa Laavebroen; for indenfor paa Laavegulvet dansed nogle Jenter Hopsa, og naar de holdt paa at snuble, skreg de paa Gutterne.</p>
+<p>Ud paa Traakken kom Jon og Perikles Winkel med tre fire Gaardbrugere, som var der for at se paa. Og nu aabned Fruen D&#x00F8;ren og slap ud Konerne. Hun stod et &#x00D8;ieblik iblandt dem, smilende, ogsaa r&#x00F8;d i Kinderne idag, da Egtef&#x00E6;llen kom imod hende.</p>
+<p>&#x00AB;Der blir flere Fremmede, Veslemor. &#x2013; En J&#x00E6;ger eller to, som bor paa H&#x00E6;tten.&#x00BB;</p>
+<p>Hun blev staaende uden at h&#x00F8;re, nikked til ham, blot fordi han havde sagt noget, og forsvandt ind i Huset.</p>
+<p>Det rasled i nogle Syrinkj&#x00E6;r. Imellem saaes en bl&#x00F8;d, graa Ryg, svai i B&#x00F8;iningen, imellem en svingende Hale. Og imellem l&#x00F8;d en d&#x00E6;mpet, indeklemt Mjauing derindefra. &#x2013; Jon Winkel rusked pludselig i Buskene, og to lysegraa Katter skj&#x00F8;d sig frem i Dagslyset. Stopped midt ude paa Gaardspladsen, der ingen Mennesker var &#x2013; Hunnen krybende sammen med Hovedet paaskj&#x00E6;ve og store, betagne &#x00D8;ine &#x2013; Hannen foran, stolt som en Erobrer, paa h&#x00F8;ie Ben og hver Fiber sp&#x00E6;ndt. &#x2013; &#x2013; Perikles <pb n="21"/>mumled nogle Ord, som fik Vennerne til at le indi sig, og som gav dem Lyst til at sige noget endnu bedre. &#x2013; Snart forl&#x00F8;d da noget fra den ene, snart fra den anden &#x2013; korte, ugjengivelige S&#x00E6;tninger, som hver Gang gav et Gufs af Indlatter gjennem Mander&#x00E6;kken.</p>
+<p>Imens sprang en af Folkene frem og lukked Grinden op for en jagtkl&#x00E6;dt Herre, som kom gaaende &#x2013; fulgt af en brundroplet Fuglehund. Han smilte let, idet han saa sig om &#x2013; saa i et &#x00D8;iekast Folkegrupperne, Buskene og de urolige Tr&#x00E6;r med det sidste Solstreif de fire fem selvbevidste Manderygge i Rad, Katterne, Huset med Traakken og Stenen nedenfor &#x2013; og indiblandt endel runde Madamer atter en Ryg, men rank &#x2013; og en bredbygget Mand, som bemerked ham med det samme og kom im&#x00F8;de. &#x2013; &#x2013; Den jagtkl&#x00E6;dte Herre slentred rolig fremover. &#x2013; Han havde et m&#x00F8;rkt, markeret Racehoved og om Munden et arrogant Drag, som forsvandt, naar han talte:</p>
+<p>&#x00AB;Mit Navn er &#x2013; &#x2013;&#x00BB; Han traadte forbauset et Skridt tilbage og blev staaende med Hatten i Haanden foran Gerhard Winkel, der ogsaa forbauset vendte sig, og f&#x00F8;lgende Retningen af den Fremmedes Blik saa han et hvidt Ansigt og en Haand, som greb om Svalestolpen.</p>
+<p>&#x00AB;Det er min Kone,&#x00BB; sagde han for dog at sige noget. &#x2013; Hun n&#x00E6;rmed sig langsomt. &#x2013;</p>
+<p>&#x00AB;Godaften Munk!&#x00BB; kom det paafaldende rolig; men Haanden, hun rakte, var frostkold. &#x2013; Hun <pb n="22"/>blev halvt aandsfrav&#x00E6;rende stirrende ham ind i Ansigtet. &#x2013;</p>
+<p>&#x00AB;Besynderligt &#x2013; t&#x00E6;nk De her!&#x00BB;</p>
+<p>&#x00AB;Og De her!&#x00BB; &#x2013; Et par forunderlige &#x00D8;ine s&#x00E6;nker sig ned i hendes &#x2013; tr&#x00E6;kker op til Smil, og de smiler begge.</p>
+<p>Men hun tog sig for Panden med en Gang og gik uden forklarende Ord tilbage. F&#x00F8;rst da hun passerer Konekredsen paa Trappen, henkaster hun lavt:</p>
+<p>&#x00AB;Jeg blir saa svimmel undertiden.&#x00BB; &#x2013; Og hun lukked D&#x00F8;ren efter sig.</p>
+<figure rend="asterisk"/>
+<p>&#x00AB;Ser De, Munk, han der? Han kan signe og gj&#x00F8;re igjen, baade for Kopper og Svek. &#x2013; Og han der, han kan ryste et helt Hus. &#x2013; Og han der, Gammeln, han hugged egenh&#x00E6;ndig af sig Koldbrandt&#x00E6;rne sine i Vinter. &#x2013; Og ser De den lange Kj&#x00E6;rringen der da? Hun har faaet Universalmiddel for Kj&#x00E6;rlighedssorger af selve Huldren, hun. &#x2013; &#x2013; Hvad det er? &#x2013; Noget r&#x00E6;dsomt &#x2013; noget med Blod. Men gammelt som Synden.&#x00BB; &#x2013;</p>
+<p>Ove Munk smilte. &#x2013;</p>
+<p>&#x00AB;Ja, der er jo tre Ting,&#x00BB; sagde han senere, &#x00AB;Maanevirkning, Bloddrikning og Rapport mellem Forelskede. &#x2013; Var det ikke saa, De paastod bestandig?&#x00BB; Han lo lavt og blev varm ved en Tanke.</p>
+<p>Der var ogsaa Smil i hendes Stemme:</p>
+<p>&#x00AB;At huske saant.&#x00BB;</p>
+<p>&#x00AB;Aa, man husker nok.&#x00BB; &#x2013; Han b&#x00F8;ied sig ned imod hende og spurgte noget om &#x00AB;Maanevirkningerne <pb n="23"/>nu&#x00BB; &#x2013; gjorde en Bev&#x00E6;gelse ud imod Markerne &#x2013; br&#x00F8;d overtvert, trygled og befalte, at faa snakke med hende alene.</p>
+<p>De gik gjennem Folkeflokke, som delte sig til to Sider, forbi Tufsingr&#x00F8;den, H&#x00E6;ttenkallen og Holten, som ogsaa veg tilside, forbi Jon og Perikles, som sansesl&#x00F8;se stimed frem imod Laaven, og forbi Gerhard Winkel, som stod midt imod dem nedenfor Traakken uden at r&#x00F8;re sig af Flekken.</p>
+<p>&#x00AB;Naa?&#x00BB; sagde han.</p>
+<p>De to Ansigter skimred mod ham med noget ubeskriveligt over sig, noget selv i Halvlyset flimrende &#x2013; Nordlys &#x2013; Kornmo. &#x2013; Og han dreied sig langsomt om efter dem.</p>
+<p>Ved Veiskillet, midt ude i Maaneskinnet, stansed de, og Skikkelserne tegned sig h&#x00F8;ie og elegante mod Maanedisen, medens Skyggerne ifra dem strakte sig indover Gaardspladsen, skj&#x00E6;ve og tynde, og &#x2013; sorte som Sorg.</p>
+<p>Men derude ved Veiskillet d&#x00E6;mped Ove Munk sin daarende R&#x00F8;st, saa Ordene undertiden fl&#x00F8;d bort for hende i en dunkel Vellyd, den hun kjendte og elsked fra f&#x00F8;r:</p>
+<p>&#x00AB;Min lille Pige &#x2013; borte blev du som Bl&#x00E6;st, du &#x2013; men jeg angrer, jeg lod dig bli det! &#x2013; Min lille, lille Pige, kan du tilgi mig, tror du &#x2013; jeg, en Synder for Vorherre, en Synder for dig og alt, som er deiligt i Verden?&#x00BB; &#x2013;</p>
+<p>Hun stod blot og ligesom kj&#x00E6;rtegned hans Ansigt med sine &#x00D8;ine:</p>
+<p>&#x00AB;Du &#x2013;&#x00BB; Hun holdt Aanden, idet han l&#x00E6;ned <pb n="24"/>sig n&#x00E6;rmere &#x2013; og han gjentog noget. Smilte. Hun fors&#x00F8;gte rive sig l&#x00F8;s. H&#x00F8;rte sin egen Stemme fjernt, fjernt borte, men distinkt som fra en Fonograf:</p>
+<p>&#x00AB;Tilgi eller ikke tilgi &#x2013; det har jo ingen Betydning nu. &#x2013; Hvad kunde forresten du for, at du ikke elsked mig, Ove?&#x00BB;</p>
+<p>&#x00AB;Elsked? Dig? &#x2013; Aa!&#x00BB; &#x2013; Han gjorde et uvilkaarligt Ryk. &#x2013; &#x00AB;Du er blit deilig, du &#x2013; deilig!&#x00BB; &#x2013; Han luded sig ned og kyssed hendes Haandled &#x2013; og L&#x00E6;berne var hede. Og Stemmen var hed, og Aanden, slig han hvisked lavt imod &#x00D8;ret, som Susen, der gik i den modne Rugaker. &#x2013; Hun skalv og fornam, som begyndte noget at briste og forgaa rundt omkring. &#x2013; Der dirred Maanelyset &#x2013; der flakked Engtaagen &#x2013; der bued og bugned sig Akre og Tr&#x00E6;r. Etsteds fra en skinger Felelaat og enkelte Skrig &#x2013; et dumpt Br&#x00F8;l. &#x2013;</p>
+<p>&#x00AB;Reis du!&#x00BB; h&#x00F8;rte hun atter sin egen unaturlige Stemme &#x2013; &#x00AB;reis bare, nu som f&#x00F8;r! Hvad skal jeg med dig, tror du? Satan!&#x00BB; &#x2013; &#x2013;</p>
+<p>&#x2013; &#x2013; &#x2013;</p>
+<p>Midt ude i Maanestriben stod en unders&#x00E6;tsig, sortkl&#x00E6;dt Mand stenstille paa samme Plet og stirred, stirred paa de to derude ved Veiskillet. &#x2013; Der gjorde han hende noget, Fyren. &#x2013; Hun raved. &#x2013; Han fik vogte sig. &#x2013; &#x00D8;vri-! &#x2013; Naa, der kom de alligevel spadserende tilbage indover All&#x00E9;en. &#x2013;</p>
+<p>Men hun skiltes fra Kavaleren og gik stiltiende forbi Egtef&#x00E6;llen og ind i Huset. &#x2013;</p>
+<p>&#x00AB;Var De Skyld i, hun blev daarlig?&#x00BB; spurgte Winkel, og &#x00D8;inene lyste stride som Hugg.</p>
+<p><pb n="25"/>&#x00AB;Havde jeg Skylden, var det ialfald ikke ment,&#x00BB; og Ove Munks Blik streifed Porten, hun var gaaet ind af.</p>
+<p>&#x00AB;Nei,&#x00BB; sagde den f&#x00F8;rste, &#x00AB;det vilde jo v&#x00E6;ret at misbruge Gjestevenskabet.&#x00BB; &#x2013;</p>
+<p>Der jog en m&#x00F8;rk Sky over Ove Munks Ansigt:</p>
+<p>&#x00AB;Jeg skulde faa min gode H&#x00E6;ttenmand med mig,&#x00BB; sagde han undvigende. &#x00AB;Og se til at komme hjemover.&#x00BB;</p>
+<p>&#x00AB;V&#x00E6;rsgod!&#x00BB; svarte Gerhard Winkel.</p>
+<figure rend="asterisk"/>
+<p>Inde paa Laaven, hvor der efter Aftensmaden var ruslet ivei med en Polskdans saa t&#x00E6;kkelig paa Rad, tog Trampen til at lyde t&#x00E6;ttere og ivrigere, alt eftersom M&#x00F8;rket seg frem fra Krogene, indtil de blev dansende paa hverandre i Klatter, skraalende og puffende derinde i Halvm&#x00F8;rket. &#x2013; Hans Halvor Grina likte dog bedst at danse Hopsaen alene, og han dansed den med v&#x00E6;ldige Spark mod sin egen Bag. &#x2013; Lorsken brisked sig ved Laaved&#x00F8;ren:</p>
+<p>&#x00AB;Kom hid du Ramstadkrug med Flaska di,&#x00BB; skreg han, i nogenslags sl&#x00E6;bende Pr&#x00E6;kentone. &#x00AB;Ellers ska jeg hive dig saa h&#x00F8;gt tilveirs, at du blir staaendes stille i Lufta, mens Sulua bygger Reir i Enden din.&#x00BB; &#x2013; &#x2013;</p>
+<p>Jon og Perikles, som holdt sig for gode til at v&#x00E6;re med iblandt dem, stod med Benene i H&#x00F8;gulvet og titted frem mellem Birkebuskene. &#x2013;</p>
+<p><pb n="26"/>&#x00AB;Kom Petrine, skal du faa en Daler,&#x00BB; raabte Perikles. &#x00AB;Nei, du skal inte gj&#x00F8;re det forgj&#x00E6;ves, Petrine maars,&#x00BB; smisked han.</p>
+<p>&#x00AB;Jagu &#x2013; en Daler er altids mer end en B&#x00F8;tte Poteter,&#x00BB; hentyded Ramstadkrug til noget gammelt &#x2013; og de n&#x00E6;rmeststaaende spruted Latteren ud af N&#x00E6;sen. Perikles&#x0027;s Hoved med den smalbremmede Filthat var stadig i Bev&#x00E6;gelse fremfor L&#x00F8;vbuskene, og Vitsmageren, Ramstadkrug, bar rundt med Br&#x00E6;ndevinsflasken Bemerkninger om den Skj&#x00F8;nne i det Gr&#x00F8;nne, om Gal&#x00E6;bler paa Bjerka iaar og om en, som havde glemt at tage Hodet sit ud af Hatten, da han sidst h&#x00E6;ngte den der. &#x2013; &#x2013; Men Hans Mislet havde ogsaa noget med Sukker paa en Flaske, hvoraf han skj&#x00E6;nked Kvindfolkene:</p>
+<p>&#x00AB;Vi ska se, aassen det gaar, hvisked han til Kj&#x00E6;rringen, som var dunset og beundrende og braagreb sig i Siden, fordi hun plagedes af Hold, naar hun lo.</p>
+<p>Men Jenten, som var mest i Vinden, hed Erika Karistua. Hun var fregnet, men l&#x00F8;s og ledig og sp&#x00E6;nstig i Dansen, uagtet de famled over hende og greb hende indtil sig. &#x2013; Der var ogsaa dem, som mente, hun ligned Gaardens unge Frue. Gutterne sledes om hende, gav hverandre Fantord og Knub, og hun fulgte, indtil Aandedr&#x00E6;ttet blev hikstende, og hun maatte holde sig i Ladebolken. &#x2013; &#x2013;</p>
+<p>Da var det, at to lange Arme strakte sig frem fra L&#x00F8;vbuskene og trak hende ind.</p>
+<p>Et par Gutter satte bandende efter. &#x2013;</p>
+<p><pb n="27"/>Men der var s&#x00E6;km&#x00F8;rkt i H&#x00F8;gulvet, og St&#x00F8;i udenfor.</p>
+<p>Og de kom tilbage, ladende Skufelsen gaa ud over uskyldige. &#x2013; Berger Berget st&#x00F8;dte sin Farbror for Bringen, og denne svarte med en N&#x00E6;sestyver, saa Blodet skvat. Gutten, som ellers var den st&#x00F8;digste af alle, blev fraadende af Sinne, sp&#x00E6;ndte Ben og fik Farbroderen under sig:</p>
+<p>&#x00AB;Tak for sidst,&#x00BB; hylte han, d&#x00E6;ngende, hvor han traf.</p>
+<p>Der toges Parti. &#x2013; Nogle lo, nogle graat, nogle plystred og sang. &#x2013; Ramstadkrug sad sammenhuket i en Krok, gl&#x00F8;gg, med vaagne &#x00D8;ine. &#x2013; En gammel Kj&#x00E6;rring med svinskt Ungdomsliv kr&#x00F8;b op paa Bolken og ypped:</p>
+<p>&#x00AB;Du er en Vellingvom, Johan! Og du, Kasten, du har Haandlaget til Mor di. &#x2013; Til vinstre Gut, til vinstre, saa raaker du bedre. &#x2013; Heit san, det var Kjevle! H&#x00E6;h&#x00E6;h&#x00E6;! &#x2013; Gi igjen naa! &#x2013; P&#x00F8;h, daaner du for det da, Vammelmagan? &#x2013;</p>
+<lg>
+<l>Og de slos de to,</l>
+<l>saa de drukna i Blo</l>
+<l rend="indent!">for e Jente!</l>
+</lg>
+<p>&#x2013; Har du inte Kniv da, Gut? Op me &#x0027;n!&#x00BB;</p>
+<p>En rulled bort i Fj&#x00E6;lstubben, der st&#x00F8;tted Laaved&#x00F8;ren, og den tunge D&#x00F8;r dumped bragende ned paa Bakken. &#x2013; Nogen inde fra Laden skreg, det fik v&#x00E6;re slut.</p>
+<p>&#x00AB;Nei Br&#x00E6;ndevin!&#x00BB; svartes der, &#x00AB;Br&#x00E6;ndevin!&#x00BB;</p>
+<p>Men der var kommet en Mand med Jernholksv&#x00F8;ben <pb n="28"/>i Haanden. En, som stod for Enden af Laavebroen og b&#x00F8;d dem gaa hjem med sig. Og selv de inderst inde og de fuldeste drog Kjendsel paa Maalet, grovt og sterkt, men hvassere inat end ellers, og slap modvilligt Taget i hverandre. &#x2013;</p>
+<p>Han stod der, og de fik lidt Besindelse tilbage. &#x2013;</p>
+<p>Han stod der, og en efter en gik de forbi, skjanglende, krakilske. &#x2013; En, der kom for n&#x00E6;r, puffedes omkuld, reiste sig bandende og vilde yppe indpaa. &#x2013; Gerhard Winkel h&#x00E6;ved Jernholken mod Mandens Hoved, og Manden, som fik et Skimt af sin Husbonds Ansigt, blev myg med en Gang og lusked lallende af: &#x00AB;Neinei, nok inte til aa sp&#x00F8;ge med inat.&#x00BB; &#x2013;</p>
+<p>Kommen udenfor hven de sig skarevis henad Sletten og ind i Lundene. &#x2013; Men paa Laavegulvet ynked sig en saaret, og bom stille indi Kroken sad Hans Mislet, den daarlige Br&#x00E6;ndevinsforvalter, indtil &#x00AB;han Fars&#x00BB; Skridt tabte sig over Gaardspladsen.</p>
+<p>Gerhard Winkel laaste Porten og gik haardt opover Trappen, hvis Trin knaged og braged i Nattestilheden. Han gik over Langgangen og greb i D&#x00F8;rklinken, men fik ikke D&#x00F8;ren op:</p>
+<p>&#x00AB;Det er bare mig,&#x00BB; sagde han, fordi han t&#x00E6;nkte, hun var blevet skr&#x00E6;mt af Levenet. &#x2013; Men der lukkedes ikke op. &#x2013; Og han banked igjen. &#x2013; Nei ingen. &#x2013; Han banked sterkere. &#x2013; Og sterkere paany. &#x2013; Og han dundred paa i Forundring, der gled over til Frygt for, at noget galt kunde tilst&#x00F8;dt hende. &#x2013; Han lytted, syntes h&#x00F8;re en Lyd, <pb n="29"/>forstod ingenting &#x2013; og sparked med engang af alle Livsens Kr&#x00E6;fter i D&#x00F8;ren. &#x2013; Den var af krydslagte Birkeplanker og holdt. &#x2013; Men noget ved Laasen brast.</p>
+<p>Hun stod der foran ham i Dagningen, lyslevende og paakl&#x00E6;dt &#x2013; h&#x00F8;i, smal og sort som altid &#x2013; men Munden stor og r&#x00F8;d, som sm&#x00E6;gted den efter Kys &#x2013; &#x00D8;inene aabne og blanke. Gerhard Winkel glemte at sp&#x00F8;rge. &#x2013; Der gik en Sitter gjennem hele hans sterke Krop, og hun veg tilbage, veg og veg, indtil hun stod med Ansigtet ind i V&#x00E6;relsets borteste Hj&#x00F8;rne. &#x2013; Da bad hun ham gaa og begyndte hysterisk at vride sig under hans Kj&#x00E6;rtegn. Hendes hede Legeme, hendes Modstand, Dagens Begivenheder, alt tilsammen virked det paa Gerhard Winkel med en Magt indtil Vanvid, og han tog og bar hende, medens hun sprelled og tvinned sig som en vild Kat og slog ham med et iltert Skrig midt i Ansigtet. &#x2013; Da brummed Gerhard Winkel og b&#x00F8;ied hendes Arme tilbage paa Ryggen og kyssed hende alligevel &#x2013; og hun maatte give sig i Afmagt. Men hun saa ikke paa ham. Et &#x00D8;ieblik stirred de aabne, blanke &#x00D8;ine op imod Taget. &#x2013; Saa lukked hun dem pludselig, smilte og lagde begge Armene om hans Hals.</p>
+</div>
+<div type="chapter" n="6">
+<head type="main">VI.</head>
+<p>H&#x00F8;sten blev stille paa Gruvang Gaard. Dobbelt stille efter Uroen og de vilde Slagsmaal.</p>
+<p>Kornet blev skaaret, bundet og kj&#x00F8;rt, tyst og <pb n="30"/>lunt som aldrig f&#x00F8;r. &#x2013; Ingen Tomvogn skrangled rasende afsted det Aar med Leiehest drevet af hvinende T&#x00F8;mender. &#x2013; Ingen Skjending paa Akeren, intet Tilraab og ingen Jenteknegg som ellers, naar H&#x00F8;stens modne Lugt fylder Luften. Men paalidelig og st&#x00F8;t gik det med Bededagsfj&#x00E6;s, rent som syntes hver is&#x00E6;r af dem at have noget at sone. &#x2013; Saa. &#x2013; En Dag det brygged til Regn, blev et par gamle Sl&#x00E6;der med Tr&#x00E6;meier taget i Brug, og Gaardshestene maatte tr&#x00E6;kke, stakkars fede &#x2013; og de trak den hvislende Rigdom i Lade, saa Skummet valt under det knagende S&#x00E6;let&#x00F8;i.</p>
+<p>Men da Regnskyerne drev v&#x00E6;k, havde Himmelen l&#x00F8;fted sig h&#x00F8;iere op &#x2013; fjern og fornem &#x2013; og vidunderlig skyldfri.</p>
+<p>Og H&#x00F8;sttaagen kom, og H&#x00F8;sttaagen veg, og Dag efter Dag laa Sletten og dr&#x00F8;mte. Og Nat efter Nat smilte Maanestraalerne i Taagen. &#x2013;</p>
+<p>Ude paa Jordet stod to Orebuske. De blev til en kostumeret Chevalier og en smallivet Dame. &#x2013; Han bukked og skrabed, smelted sig hen i &#x00C6;rb&#x00F8;dighed, n&#x00E6;sten helt ned til Marken imellem. &#x2013; Hun kasted sig uvillig v&#x00E6;k. &#x2013; Han retted sig stolt, l&#x00F8;ftende paa sin tresnudede Hat. Da blev hun bange og b&#x00F8;ied sig grati&#x00F8;st, som hvisked hun snedige Elskovsord. Og han studsed. &#x2013; Det var nu Ulykken, at han var tryllet til Stedet. &#x2013; Hun lokked, naar han gik, og veg, naar han kom, svaied af Latter, naar han rysted af Sinne. &#x2013; &#x2013; Og slig drev de sit Spil baade sent og tidlig &#x2013; men is&#x00E6;r naar Aftenvinden suste over Sletten.</p>
+<p><pb n="31"/>Paula Winkel stod ofte ude ved Veiskillet og saa paa dem og paa Aasen, som strakte sig der over paa den anden Side, snart graa, snart sort, snart skinnende lys med en H&#x00E6;r af underlige Skikkelser h&#x00F8;it opimod Himmelen. &#x2013; Og som hun stod slig, h&#x00E6;ndte det stundom, hun kunde le sagte ved sig selv og kramme de Blade, hun holdt i Haanden, fordi hun, som havde troet Gl&#x00E6;den d&#x00F8;d, alligevel toges af en Gl&#x00E6;de, den hun ikke helt kunde forstaa, stille som den var, ligesom Taagen og Maaneskinnet og Vorherres milde Veir. Men det kunde ogsaa h&#x00E6;nde, hun blev de lo lysegraa Katter for rap i Vendingen, snapped dem til sig, en under hver Arm, og betragted dem l&#x00E6;nge, fordi de syntes hende Minder om en merkelig Kveld. &#x2013; Se, der smat de dog bort, bagl&#x00E6;ngs, med bl&#x00F8;de Poter, og legte sig videre, skj&#x00F8;nne og trofaste, hele sin Ungdoms daarende Leg &#x2013; over Marker, opigjennem Tr&#x00E6;rne og bort under skumle Udhus. &#x2013;</p>
+<p>Og Livet paa Gruvang gik i sin vante Gj&#x00E6;nge. Og Pleielerne dunked og dunked saa taktfast paa Laaven. &#x2013; Og Stilheden nynned og sang om Aftenen. &#x2013;</p>
+<p>Slig gik det, til M&#x00F8;rketiden kom, og Regnet begyndte smelde.</p>
+<p>Men da M&#x00F8;rketiden kom, fandt Paula Winkel sine Pastelfarver frem og fordrev Tiden med at male derborte ved Vinduet til sidste Skimt af Dag, &#x2013; altimens hun f&#x00F8;lte Varmen lune sig i Ryggen.</p>
+<p>Ofte merked hun, at nogen stod bag og titted. &#x2013;</p>
+<p><pb n="32"/>&#x00AB;He,&#x00BB; kunde han sige, &#x00AB;skal det v&#x00E6;re et Blad eller er &#x00C6;ple?&#x00BB; &#x2013; Og hun tied haardnakket stille &#x2013; kunde dog ikke egentlig &#x00E6;rgre sig over Spydigheden heller.</p>
+<p>Anderledes ligeoverfor Winkel. Hun vendte sig tidt og gl&#x00F8;tted derhen han sad med sin Pibe, smilte lidt usikkert:</p>
+<p>&#x00AB;Synes du, jeg spilder Tid kanske?&#x00BB;</p>
+<p>&#x00AB;Synes du, jeg er uselskabelig, du?&#x00BB;</p>
+<p>&#x00AB;Det er saa morsomt.&#x00BB; &#x2013; For &#x2013; noget hun ikke f&#x00F8;r havde bet&#x00E6;nkt for saa meget andet rart, det var dukket frem for hende i det sidste, i Tusm&#x00F8;rketiden, ligesom Tr&#x00E6;rne, der dukked bladl&#x00F8;se og graa frem af H&#x00F8;stregnet. &#x2013; Naar hun saa Winkel, t&#x00E6;nkte hun ofte: Du har slaaet til ham, du. &#x2013; Funderte meget over, om ogsaa han husked paa det, &#x2013; trodde han gjorde, straks han saa alvorligere ud &#x2013; og hun fornam som et Stik. &#x2013; Men hun generte sig simpelthen for at n&#x00E6;vne sin egen Slemhed. Desuden &#x2013; at gjenoptage &#x2013; der var noget, som var farligt at r&#x00F8;re, som et Rovdyr. &#x2013; &#x2013; Og han havde aldrig n&#x00E6;vnt det Slaget, ikke Morgenen efter &#x2013; aldrig. &#x2013;</p>
+<p>&#x00AB;Nei Winkel, nei er du vond paa mig nu?&#x00BB; kunde hun sige. &#x2013;</p>
+<p>&#x00AB;Var det ligt sig, det,&#x00BB; svarte han rolig, &#x00AB;jeg er ikke vond paa dig, Veslekona mi!&#x00BB; &#x2013;</p>
+<p>Og hun malte atter vel tilmode. &#x2013; Men om nogle Dage var den der igjen, Samvittigheden. Indtil det h&#x00E6;ndte en Dag, hun stod ved Siden af <pb n="33"/>ham, at hun rent impulsivt kom til at stryge sin Haand over hans Ansigt. &#x2013;</p>
+<p>&#x00AB;H&#x00F8;!&#x00BB; sagde han, idet han tog Haanden og saa paa den. &#x00AB;Hvem skulde ogsaa tro, den kunde smelde slige &#x00D8;refiger?&#x00BB;</p>
+<p>Hun fik Vand i &#x00D8;inene af Flauhed. &#x2013;</p>
+<p>&#x00AB;Naada Veslemor,&#x00BB; sagde han noget polisk. &#x00AB;Jeg siger jo ikke andet, end at det var vel fortjent.&#x00BB; &#x2013;</p>
+<p>&#x00AB;Aa, du Winkel &#x2013; du Winkel!&#x00BB; &#x2013; Hun blev saa overv&#x00E6;ldende glad i &#x00D8;ieblikket, at hun h&#x00E6;ngte sig om hans Hals og kyssed. &#x2013; &#x2013;</p>
+<p>Men siden. &#x2013; Naa, saa var det da over &#x2013; hun havde gjort sig un&#x00F8;dige Skrupler &#x2013; en &#x00E6;kkel Byrde var faldt af hende &#x2013; og alt var vel og bra. &#x2013; &#x2013;</p>
+<p>Og saa var hun stadig forn&#x00F8;iet over at have gaaet bort fra &#x00AB;han&#x00BB; Ove hin Festaften, fordi hun f&#x00F8;lte det som en Slags Revanche blandt andet &#x2013; Gud alene vidste, hvorfra hun havde hentet Kraften. &#x2013;</p>
+<p>Naar hun ikke skimted male l&#x00E6;nger, laa hun meget paa Sofaen med lukkede &#x00D8;ine. &#x2013; Jo, nu kunde hun dr&#x00F8;mme! Men hun dr&#x00F8;mte ikke af pur Mathed. Smilte ud for sig bare.</p>
+<p>&#x00AB;Gud ved, du Winkel,&#x00BB; sagde hun engang, &#x00AB;at nogen er r&#x00E6;d? &#x2013; Aa, jeg gl&#x00E6;der mig, gl&#x00E6;der mig saa forf&#x00E6;rdelig til den lille Ungen min.&#x00BB; &#x2013; Og hun laa videre, mat og r&#x00F8;rende. &#x2013; Og Winkel lagde Puder under hendes Hoved. &#x2013;</p>
+<p>&#x00AB;Hvem i Verden har slig Kj&#x00E6;rring som jeg, tro?&#x00BB; &#x2013; Og han str&#x00F8;g lindt med sin haarde Haand over hendes Pande.</p>
+<p><pb n="34"/>Men da vak hun stundom og skutted sig sammen.</p>
+</div>
+<div type="chapter" n="7">
+<head type="main">VII.</head>
+<p>S&#x00F8;nnen f&#x00F8;dtes en Sommerdagsmorgen. Moderen lo, da hun fik se ham, og vilde ikke slippe ham fra sig igjen. Blev liggende med den lille i Armene, og de to peb omkap, saa Faderen tilsidst ganske betuttet og hovedrystende gik ifra dem.</p>
+<p>&#x00AB;Naa blir du Nummer to, Far,&#x00BB; spaadde Br&#x00F8;drene, &#x00AB;har du ikke v&#x00E6;ret det f&#x00F8;r.&#x00BB; &#x2013; Og Gerhard Winkel svarte ikke, men f&#x00F8;lte sig elendig liden og tilovers.</p>
+<p>&#x00AB;Hm, det faar vel bli en Maade med det,&#x00BB; sagde han senere en og anden Gang, men stadig maatte han merke sin Magtesl&#x00F8;shed ligeoverfor de to V&#x00E6;sener deroppe.</p>
+<p>&#x00AB;Hun er akkurat et Dyr,&#x00BB; erkl&#x00E6;rte Br&#x00F8;drene &#x2013; &#x00AB;akkurat en Bikje. Slikker hun ham ikke, tro?&#x00BB; &#x2013; Og de holdt n&#x00E6;sten paa at spr&#x00E6;kke af Latter ved at h&#x00F8;re Navnet &#x2013; Dag. &#x2013; T&#x00E6;nk Dag! &#x2013; &#x00AB;God Dag,&#x00BB; sagde de til Winkel og trykked ham hjertelig i Haanden. &#x2013;</p>
+<p>Noget dundrende Barsel fik de heller ikke. For Daaben blev feiret i Stilhed &#x2013; kun med broget L&#x00F8;v rundt i alle V&#x00E6;relser og de massive S&#x00F8;lvvaser bugnende af s&#x00F8;de Druer og brusende Guldvin i Kruset. &#x2013; &#x2013; Mens hun selv alligevel bare eksisterte for Barnet. &#x2013;</p>
+<p><pb n="35"/>&#x00AB;Det er godt ikke at v&#x00E6;re gift, du,&#x00BB; sagde de, saa Winkel maatte h&#x00F8;re det.</p>
+<p>En Stund fandt vel Winkel sig resigneret i sin Skj&#x00E6;bne. Men saa tog han til at blive gr&#x00E6;tten. &#x2013; Og tilslut blev han saa sint og urimelig, at ingen turde komme ham n&#x00E6;r. &#x2013;</p>
+<p>Imens rusled Hustruen intetanende om oppe paa V&#x00E6;relset og kunde ikke fatte, hvad der gik af Manden, da hun h&#x00F8;rte, han havde lokket en Ranglehund ind i Gangen og rundhjulet den. &#x2013; Men det blev nok ikke dermed. For Folk jaged han af Gaarden, skjeldte og smeldte, tramped efter Katterne, indtil nogle af Folkene en Dag kom og bad hende saa mindelig om at snakke han Far tilrette. &#x2013; For han Far var ikke sig sjel lig. &#x2013; Han Far, som da ellers var saa r&#x00E6;sonnerlig en Mand. &#x2013; Og hun loved at l&#x00E6;gge et Ord ind for dem.</p>
+<p>Hun kom med Barnet paa Armen. &#x2013; Neitak, han br&#x00F8;d sig ikke om at befatte sig med slige, som ikke var skjelligt Ord at faa af. Neitak! &#x2013; &#x00AB;Men &#x2013; vil du gaa op med Ungen saa!&#x00BB; kom det braat. &#x2013;</p>
+<p>Hun gjorde det og kom tilbage:</p>
+<p>&#x00AB;Gudbevares for en Busemand det er blit af dig da, Winkel!&#x00BB; &#x2013;</p>
+<p>Da kunde han ikke andet end le han heller. &#x2013;</p>
+<p>&#x00AB;Er det virkelig sandt, du er blit saa slem i det sidste?&#x00BB; spurgte hun.</p>
+<p>&#x2013; Om det var sandt? Hm, ikke efter hans Maalestok. &#x2013; Tilpas til dem allesammen, Skurkene, som drak sig fulde paa Festen ifjor. &#x2013; <pb n="36"/>Og Ramstadkrug, som var Skyld i det &#x2013; Kjeltringen. &#x2013; &#x2013;</p>
+<p>&#x00AB;Bedre du havde sagt fra dengang end nu efter et Aar.&#x00BB;</p>
+<p>&#x2013; &#x00C6;sch, Kvindfolket&#x00F8;is! Bedre sent end aldrig, vidste han. &#x2013;</p>
+<p>&#x00AB;Hvordan er du blit slig da, du, som var saa snil f&#x00F8;r?&#x00BB;</p>
+<p>&#x2013; Hm, han havde vel knapt noget at v&#x00E6;re snil for nu. &#x2013;</p>
+<p>&#x00AB;Du, som har faaet saan en nydelig liden Gut.&#x00BB;</p>
+<p>&#x2013; Pyt &#x2013; blaas med den! &#x2013;</p>
+<p>&#x00AB;Er du ikkenoe glad i Lillegutten, du da?&#x00BB; spurgte hun stille kr&#x00E6;nket.</p>
+<p>&#x2013; Jo Kors da, han var glad nok i ham. &#x2013;</p>
+<p>&#x00AB;Han er og blir nu den s&#x00F8;teste, han,&#x00BB; fortsatte hun endnu forn&#x00E6;rmet og vigende rent ud ifra Sagen. &#x2013; &#x00AB;Jeg faar gaa op igjen, jeg.&#x00BB; &#x2013;</p>
+<p>&#x00AB;Ja, det er saa!&#x00BB; bruste han pludselig ud. &#x2013; &#x00AB;Jeg skal faa gaa her som det femte Hjul til en Vogn. &#x2013; Rigtigt ja &#x2013; rigtigt.&#x00BB; &#x2013;</p>
+<p>Hun blev forundret staaende:</p>
+<p>&#x00AB;Er du jaloux paa Lillegutten, du da?&#x00BB; &#x2013; Og halvt &#x00E6;rtende: &#x00AB;Nei, t&#x00E6;nk &#x2013; v&#x00E6;re jaloux paa Lillegutten!&#x00BB; &#x2013;</p>
+<p>&#x2013; &#x00C6;sch, var det ligt! &#x2013; Jaloux paa saan en liden Dr &#x2026; pose! &#x2013; Men hun taalte det ikke selv, aldrig at tr&#x00E6;kke frisk Luft &#x2013; &#x2013; Et halvt Snes Barnejenter. &#x2013; Var det nok? &#x2013;</p>
+</div>
+<div type="chapter" n="8">
+<head type="main">VIII.</head>
+<p><pb n="37"/>I Winkels Dagligstue fyldtes det ene Hj&#x00F8;rne af den gamle St&#x00F8;bejernsovn, som hun syntes Winkel ligned. Den var firkantet og bred, sammenf&#x00F8;iet af store, fingertykke Plader. Og paa den ene nogle knudrede Figurer i Basrelief, forestillende Doktor &#x00AB;Factus&#x00BB; spillende Femkort med Fanden. Men tversover var sprunget en Revne, hvorigjennem Ildskj&#x00E6;ret tegned en blodig Snor henover Gulvet eller over den, der sad inden R&#x00E6;kkevidde. Det blev da Gerhard Winkel, naar han Frostaftenerne havde tyet hen i Kroken. &#x2013;</p>
+<p>Det bragte hende undertiden til at sige:</p>
+<p>&#x00AB;Winkel, aa flyt dig lidt til Siden! &#x2013; Du blir saa f&#x00E6;l med det Arret over Kinden.&#x00BB;</p>
+<p>Og ham til at svare:</p>
+<p>&#x00AB;H&#x00F8;! Du kan tro, jeg er en gammel Veteran fra Syttiaarskrigen, jo. &#x2013; Jeg sidder godt jeg, Ven min.&#x00BB;</p>
+<p>Han laante Haarnaaler og kradsed i Piben, som altid vilde slukne &#x2013; kosed sig lunt over den og over endel gamle Historier, slige, som h&#x00F8;rte Gaarden til, og som han vidste vilde d&#x00F8; med ham selv. &#x2013; Hun h&#x00F8;rte dem med et halvt &#x00D8;re, sad mest og t&#x00E6;nkte paa, hvordan Lillegut havde det oppe i Vuggen sin. &#x2013; Naa, han havde det nok godt, og Pigen sad hos ham. &#x2013; Men se ham, naar han var vaagen og laa ved Brystet, den lille, tykke Truten, saa graadig. &#x2013; Se ham, naar han sov, saa buttet og god og r&#x00F8;d i Kinderne, med Udtryk <pb n="38"/>som en liden, liden Hvalp. &#x2013; Se og se ja, aldrig blive tr&#x00E6;t &#x2013; Lillegutten! &#x2013;</p>
+<p>&#x00AB;Der siges,&#x00BB; sagde Winkel, &#x00AB;at naar Gaarden her har fostret en forskruet Slegt, som sjelden blir lykkelig, saa har en lei Afstamning Skylden &#x2013; ikke det, at her er for afsides til, at nogen kan l&#x00E6;re haandtere Livet. &#x2013;</p>
+<p>Der er et Sagn, at langt tilbage i Tiden indgiftedes en Pige, Datter af en Mand, som bodde nedenfor Gravene herborte. Det havde v&#x00E6;ret saa smaat og armodsligt med dem, at de til Br&#x00E6;nde brugte Bord af halvraadne Ligkister, slige, ved du, som Graveren ofte graver op, &#x2013; og over den Veden baade kogte de Gr&#x00F8;den og stegte Lumper nedpaa. &#x2013; Og saa fik Stakkarne Ord paa sig for at v&#x00E6;re Varulve, du. &#x2013; Neida, hun kunde ikke lade Kirkegaarden v&#x00E6;re, selv efter hun kom hid og havde baade i H&#x00E6;k og i S&#x00E6;k. &#x2013; &#x2013; Hun skal gaa igjen derborte den Dag idag, siges der ogsaa. &#x2013; &#x2013; Aaja, Sagn er Eventyr, og Eventyr er Opdigt!</p>
+<p>&#x2013; Saa skal jeg heller fort&#x00E6;lle om Bedstefars Onkel, Major Winkel, da han som pensioneret leved her paa Gaarden med sin Kone og en Husjomfru, hende, Gudherren slog med sin Hevn.&#x00BB; &#x2013;</p>
+<p>&#x00AB;Men Winkel,&#x00BB; kunde Paula faa Lyst til at modsige, &#x00AB;Vorherre hevner vel ikke &#x2013; men straffer.&#x00BB;</p>
+<p>&#x00AB;Hevnen og Straffen har samme Rod,&#x00BB; siger Winkel. &#x2013; Der straffes med koldt Blod, men hevnes i Vrede. Hvor ofte staar der ikke: Og Guds Vrede opt&#x00E6;ndtes. &#x2013; Men der Vreden opt&#x00E6;ndes, der slaar ogsaa Hevnen. &#x2013;</p>
+<p><pb n="39"/>Naa, det var da Majoren! &#x2013; Han var en lang Mand med krokete Ben og stram som en Tinsoldat over Skuldre og Ryg. &#x2013; Majorinden var liden og rund med Engageanter om Haandleddet og Fiskebensskj&#x00F8;rt.</p>
+<p>Ja, de leved som gamle Folk sig h&#x00F8;r og b&#x00F8;r et pent Liv, i bedste Forstaaelse saavel med Vorherre som med hinanden indbyrdes. &#x2013; Og Husjomfruen, Karine hed hun vist, var en udmerket Madlaverske, saa fremsynt i Husv&#x00E6;senet som faa. &#x2013; &#x2013; Det var Tider dengang, Veslemor! Tjenerne kosted omtrent ingenting, F&#x00F8;den endnu mindre, paa Sydflotten stod Linakeren saa blaa som et Stykke Sommerhimmel. &#x2013; Saa kunde nok Kontanten bli baade dr&#x00F8;i og lang. Jajaja!&#x00BB; &#x2013; Winkel fortabte sig i Betragtninger, mens han t&#x00E6;ndte en Flis ind i Tr&#x00E6;khullet og suged Piben op. Fortsatte saa:</p>
+<p>&#x00AB;Borte paa Hagan var en liden Hytte, hvor en Smed, Ranner hed han, havde Tilhold. &#x2013; En lei en Fark, som lusked om ved Nattetid og gjorde Fortr&#x00E6;d og om Vintrene var borte som Svartekatten i M&#x00F8;rket. Der mentes forresten, han laa paa Krybskytteri i S&#x00E6;trene da. &#x2013;</p>
+<p>Saa en vakker Vaar h&#x00E6;ndte det, at Rannersmeden ikke kom igjen. Og da Majoren skj&#x00F8;nte, at Folk br&#x00F8;d sig lidet om at bo i Rannerhytten, gjorde han den ligesaagodt om til Kjone. &#x2013; Men det skulde han n&#x00F8;dig gjort. &#x2013; For ret som det var blevet Sommer, gik Smeden i Bygden, gnistrende gal over det Pudset, Majoren havde spillet ham. &#x2013; Desuden vidste han at fort&#x00E6;lle om noget derbortifra <pb n="40"/>Kjonen, saa n&#x00F8;iagtig ogsaa, at Folk baade korsed sig og vred sig i Latter. &#x2013; Og da Karine, Husjomfruen blev tyk, og tykkere for hver l&#x00F8;bende Uge, vidste alle, at Majoren var impliceret.</p>
+<p>Derfor havde ogsaa mange Moro af at gaa og sp&#x00F8;rge: &#x2013; Aaneida, hun var saa pen og uskyldig, &#x2013; skulde hun faa Barn, hun, var det med hende som med Jomfru Maria da? &#x2013; Naar hun siger det, er det nok saa, nikked Majorinden og laante hende et Fiskebensskj&#x00F8;rt. Men en Dag, Karine stod ved Kj&#x00F8;kkenb&#x00E6;nken, f&#x00F3;r et stort Lyn ind gjennem Vinduet og slog hende overende. &#x2013; Hun sutred et par Gange, der hun laa, tog sig til Maven og var stend&#x00F8;d. De, som bar hende ud, kjendte, at Fosteret r&#x00F8;rte sig, men &#x2013; sagde de siden &#x2013; de havde tiet, fordi de ikke turde lemf&#x00E6;ldiggj&#x00F8;re Vorherres Hevn. &#x2013; &#x2013;</p>
+<p>Det var det.</p>
+<p>Nu &#x2013; med det samme, jeg snakker om Hevn, skal jeg fort&#x00E6;lle om Bedstemor min, som skj&#x00F8;nt Prestedatter var saan en Rasmus af en Kone &#x2013; og ikke vilde laane Husrum til en bleg og forsagt Mand, som en Uveirsjulekveld kom ind i Kj&#x00F8;kkenet. Han saa saa mildt paa hende med et par saa forunderlig lyse og deilige &#x00D8;ine og bad endnu en Gang, om han bare kunde faa ligge i H&#x00F8;gulvet. &#x2013; &#x00AB;Nei!&#x00BB; &#x2013; svarte hun, haardt og bistert. Da r&#x00F8;rte Fremmedmanden ved hendes Skulder. &#x2013; Og han ligesom gled bortover Gulvet og ud af D&#x00F8;ren. Tjenerne snakked om ham senere. &#x2013; Ingen havde seet ham komme tilgaards og ingen at gaa.</p>
+<p><pb n="41"/>Men Bedstemor, hun blev lam og skr&#x00F8;belig lige til sin D&#x00F8;d. &#x2013;</p>
+<p>Guds Lov &#x2013; og Straf &#x2013; og Hevn &#x2013; er mangfoldig. At l&#x00E6;se i Menneskenes Lovb&#x00F8;ger, det er fortr&#x00F8;stningsfuldt det. &#x2013; Der er jeg sikker paa aldrig at have forbrudt mig. &#x2013; Menneske og Menneske imellem har jeg ingen L&#x00E6;k og ingen Lyde. &#x2013; &#x2013;</p>
+<p>T&#x00E6;nd Lysene, Paula &#x2013; Veslemor, er du snil! &#x2013; &#x2013; Ja, saa kan du faa Lov at se til Gutungen.&#x00BB; &#x2013;</p>
+<p>Gerhard Winkel tog Kristian den 5tes norske Lov, ved Casper Peter Rothe, ned af Hylden og gav sig tilfreds til at studere dens Register over Ret og Misgjerninger. Omfavnende Lyset holdt han Bogen langt fra sig udover Bordet.</p>
+</div>
+<div type="chapter" n="9">
+<head type="main">IX.</head>
+<lg>
+<l>&#x00AB;Dugg faldt,</l>
+<l>og Dugg smalt</l>
+<l>i Herrens Aar &#x2013;</l>
+<l>Lod intet Spor tilbage&#x00BB;</l>
+</lg>
+<p>&#x2013; saa siger en gammel Versestub.</p>
+<p>Og Tid forl&#x00F8;b.</p>
+<p>Og lille Dag han vokste. Begyndte bore N&#x00E6;sen ind i Moderens Bryst og lege sig med det. &#x2013; &#x2013;</p>
+<p>Og lille Dag han vokste. Stabbed &#x00F8;rliden og blid om mellem alt det &#x00E6;ldede, der Barneskridtene l&#x00F8;d &#x00F8;dslige og forbausende, hvad enten de snubled <pb n="42"/>paa det kvistede Kj&#x00F8;kkengulv eller rendte insektagtig afsted inde i Stuen, hvor det skraaned. &#x2013; &#x2013;</p>
+<p>Og lille Dag han vokste. L&#x00E6;rte pludre og snakke og gj&#x00F8;re Grimacer, altimens han fik ret N&#x00E6;se og Smilehul i det ene Kind.</p>
+<p>&#x2013; Om det saa var Br&#x00F8;drene, orked de ikke gaa ham forbi uden at smelde med Tungen eller knipse med Fingrene. Og Gutungen knipsed, jepte og smeldte igjen, rent rabalsk af Legenhed. &#x2013; Men falsk var han &#x2013; erkl&#x00E6;rte de &#x2013; falsk som skreneste Fl&#x00F8;deskummet. &#x2013; Slig han nu kunde staa og se Jon op i Ansigtet, saa sm&#x00F8;rblid, for ikke at sige noget andet, at Jon f&#x00F8;lte sig ganske r&#x00F8;rt og smigret. &#x2013;</p>
+<p>&#x00AB;Nei, den Vorten din er f&#x00E6;l, du,&#x00BB; sagde han pludselig. &#x2013; Og slig han nu kl&#x00E6;nged og brydde dem med alt; indtil han ikke havde Brug for dem l&#x00E6;nger: &#x2013; &#x00AB;Gaa med dig, du stugge Onka Pirk,&#x00BB; hed det saa, &#x2013; &#x00AB;du &#x00E6;kle Onka Jon.&#x00BB; &#x2013; Det var Takken. Og ofte kunde Br&#x00F8;drene blive ganske hadefulde i &#x00D8;inene. Men ved Leilighed vidste altid den lille at insinuere sig paany. &#x2013; &#x00AB;Det er hans mindste Sag at gj&#x00F8;re sig l&#x00E6;kker,&#x00BB; sagde de, og en Brod fra den lille r&#x00F8;dkindede Dag blev nu altid siddende igjen.</p>
+<p>Og det var vist &#x2013; mangfoldig var han: Br&#x00F8;d sine Tinsoldater istykker, kasted Sten paa Gaasungerne, skar engang op en hvid Mus med en Bordkniv. &#x2013; &#x00AB;Det er Juleslagtning, t&#x00F8;nner du,&#x00BB; sagde han snusvigtig. Men han kunde angre sig ganske syg, naar det gale vel var gjort.</p>
+<p><pb n="43"/>Gerhard Winkel skubbed ham fra sig, naar han var ulydig: &#x2013; &#x00AB;Du er et arge Trold af en Unge,&#x00BB; sagde han &#x00E6;rgerlig, men le lidt maatte han nu alligevel.</p>
+<p>Gerhard Winkel kunde ogsaa sidde lange Stunder og se paa sin lille S&#x00F8;n, lade ham ride Ranke og l&#x00E6;re ham rare, gamle Regler: &#x00AB;Og han Las og han Mas gik til Lottane By.&#x00BB; &#x2013; &#x00AB;Det er en egte Kj&#x00E6;rlighedsunge, du Paulamor,&#x00BB; l&#x00F8;d det da faderstolt. &#x2013; &#x00AB;Men mig ligner han neigu ikke mer end Katten,&#x00BB; kom det efter. &#x00AB;Det maa v&#x00E6;re dig da.&#x00BB;</p>
+<p>&#x00AB;Han ligner nok ikke hverken dig eller mig,&#x00BB; sagde Paula smilende, &#x00AB;den lille Fyren &#x2013; lunefuld og s&#x00F8;t som Kj&#x00E6;rligheden selv.&#x00BB; &#x2013; Hun fik altid den samme Tr&#x00E6;kning om Munden, hun, naar det gjaldt Barnet &#x2013; noget henimod en syg Lykke. &#x2013; Hun var da ogsaa den eneste, den lille Balstyring lod til at v&#x00E6;re glad i. &#x2013; Han h&#x00E6;ngte hende i Kjoleskj&#x00F8;rtet baade sent og tidlig, saasandt han fik Lov af Faderen. &#x2013; Og det var, som hun ved sin Kj&#x00E6;rlighed formaadde l&#x00E6;gge en D&#x00E6;mper paa hans Vilterhed.</p>
+<p>&#x2013; Ofte tog hun ham med sig ud, og de vavred hist og her over Markerne, mens hun l&#x00E6;rte ham Navnene paa Fugle og Tr&#x00E6;r &#x2013; og aldrig at tr&#x00E6;de paa skinnende Kryb. Og hun bar ham paa Ryggen, naar han blev tr&#x00E6;t.</p>
+<p>Borti Aaslien, der de gule Vaarblomster lyste Side om Side, og Sevjen randt under Siljebarken, der skar hun mange Kviste, bredte sit vide Kjoleskj&#x00F8;rt <pb n="44"/>ud til S&#x00E6;de for Barnet og laved ham Fl&#x00F8;iter, smaa og spinkle som hans egen Lillefinger.</p>
+<p>Men som de sad der, h&#x00E6;ndte det tidt, hun b&#x00F8;ied sig ned over Barnet og snakked saadant, der lidet kom et Barn ved, monotont og s&#x00F8;rgmodig, som den, der ingen Fortrolig har, kritikl&#x00F8;st kan snakke med en Hund, en Kat, en Kanarifugl.</p>
+<p>&#x00AB;Jada &#x2013; jada &#x2013; vi har det jo bra Dag efter Dag og Aar efter Aar &#x2013; at det bare maatte vedvare, Dag &#x2013; at ingenting maatte h&#x00E6;nde, der gav os L&#x00E6;ngsler efter andet &#x2013; og at du aldrig maatte blive stor, lille Dag, og reise fra Mor. &#x2013; Herregud ogsaa &#x2013; hvad vi giver af vort Hjerteblod, vi Kvinder &#x2013; det v&#x00E6;re sig til en Mand eller til et Barn. &#x2013; Manden kror sig af det, og Barnet lever af det. &#x2013; Og mister gj&#x00F8;r vi det hele den Dag, de reiser bort &#x2013; Manden styrket i Troen paa sig selv &#x2013; Barnet, det voksne, styrket mod Liv. &#x2013; Og en anden Kvinde faar, hvad den f&#x00F8;rste gav. &#x2013; Aa ja ja, den evige Stofveksel af Kvinders Hjerteblod til Kvinder gjennem M&#x00E6;nd! &#x2013; &#x2013; Saa skal jeg vel ogsaa sidde alene en Dag, og Aspene klapre som af Regn igjen. &#x2013; Nei, lille min Dag v&#x00E6;re Barn bestandig.&#x00BB; &#x2013; Og hun blev lykkelig ved Tanken: &#x2013; &#x00AB;Lille min Dag har l&#x00E6;nge igjen.&#x00BB; &#x2013; &#x2013; Hun kyssed Gutten, saa paa ham stort og varmt og spurgte for at lege med ham:</p>
+<p>&#x00AB;Hvad er i Mors &#x00D8;ie da, lille Dag?&#x00BB;</p>
+<p>Og i det blanke Veir speiled Gutten sig selv i de blanke &#x00D8;ine:</p>
+<p>&#x00AB;Lille Dag er i Mors &#x00D8;ie.&#x00BB;</p>
+<p><pb n="45"/>Naar Gerhard Winkel gik ude paa Gaardspladsen, holdt han stundom Haanden for &#x00D8;ret og lytted. Det var en Evindeligheds Siljepip borte fra Aaslien. &#x2013; I alle Tonarter l&#x00F8;d det, som en vibrerende Flageoletfl&#x00F8;ite undertiden, saa melankolsk og skj&#x00E6;rt gjennem den gl&#x00E6;desyngende Vaarluft. &#x2013;</p>
+<p>Gerhard Winkel vidste, fra hvem det kom &#x2013; og han smilte trygt for de to.</p>
+</div>
+<div type="chapter" n="10">
+<head type="main">X.</head>
+<p>&#x00AB;I Treskemaskinen,&#x00BB; sagde Br&#x00F8;drene, &#x00AB;blev sandelig lagt baade Penge og Forhaabninger.&#x00BB; &#x2013; Og at Treskemaskinen skulde komme var en stor Begivenhed paa Gruvang.</p>
+<p>F&#x00F8;r havde nemlig Folkene staaet fra Klokken seks hver evige H&#x00F8;st- og Vintermorgen og banket Kornet ud med Pleiel, en Skik, Winkelerne nok havde bibeholdt sin Levetid ud, havde det ikke h&#x00E6;ndt sig slig, at en smart Agent en Dag var dukket op og havde pr&#x00E6;ket og overbevist saa l&#x00E6;nge, at Handelen til syvende og sidst blev afsluttet.</p>
+<p>Saa stod de da allesammen opstillede ude paa Trappen, da den kom trukket paa to Vogne opigjennem All&#x00E9;en, hver Vogn efterladende sig to brede, dybe Spor i Sandet. &#x2013; Jon og Perikles svansed gesch&#x00E6;ftig afsted for at tage den n&#x00F8;iere i &#x00D8;iesyn, og Gerhard Winkel satte sig ogsaa i Bev&#x00E6;gelse. &#x2013; Nu den vel var kj&#x00F8;bt og betalt, var de alle vel forn&#x00F8;iede, kunde bare ikke blive enige <pb n="46"/>om, hvem der f&#x00F8;rst havde givet St&#x00F8;det dertil. Paula blev staaende alene tilbage med Gutten, reserveret og alvorlig:</p>
+<p>&#x00AB;Det er et stygt Dyr,&#x00BB; sagde hun. &#x2013; &#x00AB;Pas dig!&#x00BB; &#x2013; Og Gutten gjemte sig bag hende, mens han nysgjerrig titted frem ved Siden. &#x2013; Den var slet ikke noget styg, syntes han &#x2013; fint gulmalt med r&#x00F8;de Kanter. Og r&#x00F8;de St&#x00E6;nger med Knuder paa laa der ogsaa &#x2013; frygtelig rart altsammen! &#x2013; &#x00AB;Did skal jeg springe hver Dag,&#x00BB; sagde han &#x00E6;rtende. Og hun slog til ham for f&#x00F8;rste Gang i Livet.</p>
+<p>Treskemaskinen blev veltet ud og ned i Hullet, som var gravet nedenfor Laavebroen, &#x2013; og M&#x00E6;ndene blev holdende til der, letted med Jernst&#x00F8;rer og L&#x00F8;ftest&#x00E6;nger, hujed og maated den hele Ettermiddag. De var ogsaa kommet i Tanker nu om noget efterglemt Korn, som heller ikke var saa ilde at faa tresket afveien, f&#x00F8;r Musen spiste op Kjernen, eller Aarets Avling kom ind. F&#x00F8;lgelig maatte Maskinen igang &#x2013; og det paa r&#x00F8;de Rappet.</p>
+<p>N&#x00E6;ste Morgen var de da oppe med Solen, mased og plundred uafladelig. Ud og ind bar det efter Skrujern, Hovt&#x00E6;nger og Taugstumper, uden nogengang at lukke D&#x00F8;rene. Paula h&#x00F8;rte helt ind i Stuen, hvorledes det gik under stadig Parlamentering derborte, Perikles&#x0027;s Skravl og Gerhards H&#x00F8;h&#x00F8;, naar Jon gjorde noget forkjert, alt tilhobe krydret med t&#x00F8;rre Vitser i Pauserne. &#x2013; Hun &#x00F8;nsked, hun havde v&#x00E6;ret derborte og leet af dem. Men en slig Tyngde var over hende. Samme F&#x00F8;lelse omtrent, som gik hun en stor Sygdom im&#x00F8;de.</p>
+<p><pb n="47"/>Saa &#x2013; endelig blev da Heste sp&#x00E6;ndt fore, og det tog da til at surre og sarre hos dem. &#x2013; Og ind kom de i F&#x00F8;lge om en Stund, rysted Tr&#x00F8;ierne sine ude i Gangen og skulde have Eftasv&#x00E6;rd, nystegte Vafler, som de havde betinget sig, og &#x2013; &#x00AB;Jagu tar vi os nu en Taar i Kaffen,&#x00BB; erkl&#x00E6;rte de.&#x00BB; &#x2013; Ja se, nu kunde de afskedige den ene Gaardsgut, da en Guttep&#x00F8;ik godt klarte at kj&#x00F8;re Maskinen. &#x2013; Kanske med Tiden Hestene blev saa vante ogsaa, at de rusled rundt af sig selv. &#x2013; &#x2013; M&#x00E6;ndene rafled om sig, snakked og aad, og hun forekom sig selv styg, som ikke gl&#x00E6;ded sig med dem, der hun stod og saa ud af Vinduet. &#x2013;</p>
+<p>&#x00AB;Uf, den Duren liker jeg ikke.&#x00BB; Og lidt senere: &#x2013; &#x00AB;Det er Hesteplage.&#x00BB; &#x2013; Og tilsidst taget ind under en dump Skygge: &#x00AB;Det er ondt &#x2013; ondt, siger jeg.&#x00BB; Og hun gik langsomt, n&#x00E6;sten sl&#x00E6;bende, og med b&#x00F8;iet Hoved ud af Stuen.</p>
+<lb/>
+<p>Det regned nogle Dage, og efter den regnfulde Sommer steg Vandet i hver B&#x00E6;k og Kulp. Gaardsbr&#x00F8;nden flommed over, og Hestene for Treskemaskinen sjapped rundt og rundt i en bundl&#x00F8;s S&#x00F8;le.</p>
+<p>Den unge Frue smaafr&#x00F8;s om Dagene &#x2013; fordi det var huskoldt, sagde hun. &#x2013; Og St&#x00F8;bejernsovnen med Doktor Factus maatte til, uagtet bare August Maaned var inde. Den blev usund hed og osed af gammelt St&#x00F8;v. &#x2013; Hun t&#x00E6;nkte at sidde med F&#x00F8;dderne paa Ovnspladen og varme Fingerspidserne i Tr&#x00E6;khullet, men formaadde ikke v&#x00E6;re rolig saa l&#x00E6;nge. Hun maatte finde noget at ordne med, fra <pb n="48"/>Stuen ud i Kj&#x00F8;kkenet, fra Kj&#x00F8;kkenet ud i Kammeret, hvor Winkel sad i Samtale med en Mand, &#x2013; fra Kammeret ud i Gangen, kom i sterkere Frost, blev gaaende nerv&#x00F8;s om inde i Stuen &#x2013; havde ikke blivende Sted. Falder i Tanker over Smaagutten, som vel var gaaet tr&#x00E6;t af at trippe hid og did med hende. For hun ser ham ingensteds.</p>
+<p>Og hun gl&#x00F8;tter paa D&#x00F8;rene og kalder.</p>
+<p>&#x00AB;Han var her nu netop,&#x00BB; svares overalt.</p>
+<p>Men hun finder ham ikke. &#x2013; Uden at det falder hende ind at v&#x00E6;re angst, f&#x00F8;ler hun noget bristef&#x00E6;rdigt ved hver liden Nerve i sig, idet hun gaar ud paa Trappen, og &#x2013;</p>
+<p>&#x00AB;Se saa, der staar han,&#x00BB; t&#x00E6;nker hun med ett, ganske isnende rolig, som hun opdager en liden Fyr paa Laavebroen, og hun raaber ikke. Men Barnet, som straks ser Moderen, blir r&#x00E6;d, fordi han havde v&#x00E6;ret ulydig, og vil skynde sig til hende. &#x2013; Hun ser ham s&#x00E6;tte sin lille Fod lige paa Sammenf&#x00F8;iningen mellem St&#x00E6;ngerne, som river ham med sig. &#x2013; En bl&#x00F8;d, r&#x00E6;dsom Lyd &#x2013; et Skrig, jamrende, langt: &#x00AB;Mo-o-or!&#x00BB;</p>
+<p>&#x2013; Og hun besvimer ikke, men styrter frem over Gaardspladsen, Blikket stivt f&#x00E6;stet paa det, der ligger halvt under Stangen. &#x2013; Ved ikke, enten Maskinen er stanset eller ikke. &#x2013; Griber med begge de smale, hvide H&#x00E6;nder om Jernst&#x00E6;ngerne &#x2013; bryder &#x2013; kjender varm V&#x00E6;de over Fingrene &#x2013; bryder igjen &#x2013; st&#x00F8;nner, en eneste Gang &#x2013; og Legemet krummes &#x2013; og Stangen springer.</p>
+<p><pb n="49"/>Saa tager hun sit kv&#x00E6;stede Barn, i hvis Ansigt hun ser to smertetunge &#x00D8;ine lukke sig, og b&#x00E6;rer det tilbage. L&#x00E6;gger det fra sig paa Sofaen &#x2013; henter Egtef&#x00E6;llen, som endnu sidder i Passiar med Bygdens Ordf&#x00F8;rer &#x2013; peger: &#x00AB;Der ligger han!&#x00BB; Blev staaende og se, hvorledes Barnet i svag D&#x00F8;dskrampe spidsed sin lille tykke Mund. &#x2013; Og siger saa stille:</p>
+<p>&#x00AB;Han havde nu sin egen Maade at kysse paa, min Dag.&#x00BB; &#x2013; Knuger sig for Barmen i et Minde, som klargj&#x00F8;r:</p>
+<p>&#x00AB;Nu blir Dag aldrig stor!&#x00BB; &#x2013; Og tumler omkuld.</p>
+</div>
+<div type="chapter" n="11">
+<head type="main">XI.</head>
+<p>Da hun vaagned, spurgte hun som vanlig straks efter Gutten.</p>
+<p>&#x00AB;Han har ikke ondt l&#x00E6;nger,&#x00BB; l&#x00F8;d Svaret &#x2013; som bragte hende til at se saa forbauset paa dem:</p>
+<p>&#x00AB;Skulde da lille Dag havt ondt?&#x00BB;</p>
+<p>&#x00AB;Ja.&#x00BB;</p>
+<p>Hun stirred forvildet et &#x00D8;ieblik. Saa &#x2013; i et Lyn erindred hun. Og hun skreg, tog sig med begge H&#x00E6;nder om Hovedet og skreg igjen, skingrende afsindig &#x2013; skreg og skreg. &#x2013; &#x2013; Spurgte saa pludselig med Haab i &#x00D8;inene:</p>
+<p>&#x00AB;Lever han?&#x00BB;</p>
+<p>&#x00AB;Ja, hos Gud.&#x00BB;</p>
+<p>&#x00AB;Hos Gud,&#x00BB; gjentog hun mat. &#x00AB;Hos Gud?&#x00BB; Og pludselig lo hun, saa de f&#x00F3;r sammen, sprang <pb n="50"/>op, ud af D&#x00F8;ren og Trapperne nedover &#x2013; gjennem Porten. &#x2013; &#x2013; De h&#x00F8;rte hende st&#x00F8;nne henover Gaardspladsen og trodde, hun vilde hen til Ulykkesstedet. Men det bar forbi, og &#x2013; et Plask, der saa de en hvid Skikkelse forsvinde i et Skumspr&#x00F8;it midt udi Br&#x00F8;nden. &#x2013; &#x2013;</p>
+<lb/>
+<p>Hendes f&#x00F8;rste Ord, da hun atter aabned &#x00D8;inene, var Bebreidelser, fordi hun leved. Hun fik Sovepulver, men ynked sig og graat i S&#x00F8;vne, snakked om Gutten og Treskemaskinen, leved Ulykken op og op paany, led umenneskelig og kunde ingensteds komme.</p>
+<p>Der gruedes for hendes Opvaagnen, og et fornyet Selvmordsfors&#x00F8;g antoges sandsynligt.</p>
+<p>Men hun blev magtstjaalen af Feber og Opkastelser, og Doktoren konstaterte en Hjerneaffektion, mulig med D&#x00F8;den til F&#x00F8;lge.</p>
+<p>&#x2013; Imens fik Winkel Barnet stedt til Jords, og ingen ydre R&#x00F8;relse kunde merkes i hans storskaarne Ansigt med den t&#x00E6;t tilknebne Mund. &#x2013; Sorgen han lukked ind i sig, den der verked og gnog baade Dag og Nat, den holdt han dog for ringe i Sammenligning med den, der videre trued. &#x2013; Og Winkels brune Hud blegned Dag for Dag, slig han sad inde ved Sygesengen og iagttog hver liden Muskeltr&#x00E6;kning hos hende, eller nede i den m&#x00F8;rke Stue, n&#x00E6;rmest til Vinduet, bladende i en sv&#x00E6;r, messingbeslaaet Bog, hvis gulnede Pergamentsblade alle bar Merker efter Winkelers brede Fingre. For nu tr&#x00F8;sted ikke l&#x00E6;nger Kristian den 5tes <pb n="51"/>Norske Lov Gerhard Winkel. Og der han gik og stod, gik saavel Br&#x00F8;drene som Tjenerskabet afveien for ham. &#x2013;</p>
+<p>Om Gerhard Winkels B&#x00F8;nner h&#x00F8;rtes? &#x2013; Havde han vidst hvorledes, havde han neppe bedt dem. &#x2013; Men Sygdommen tog en uventet Vending, og en Dag saa han virkelig sin Hustru komme nedad Trapperne, vel d&#x00F8;dsbleg endnu og med indsunkne &#x00D8;ine, men omhyggelig paakl&#x00E6;dt og rak i Ryggen. &#x2013; Og der gled et stort Lys over hans Tr&#x00E6;k, idet han rakte Haanden frem og b&#x00F8;d hende velkommen tilbage. Hun fremmumlede et Tak og gik ud paa Trappen. &#x2013; Der var noget automatisk ved hendes Gang og Maade, som minded ham om deres Egteskabs f&#x00F8;rste Tid, og han satte sig ligeoverfor hende, iagttog hemmelig, hvorledes hun med god Appetit spiste endel halvmodne Plommer. Som Blikket streifed Laavebroen, gav det et Ryk i hende. &#x2013; Den ulyksalige Treskemaskine var dog borte, og Hullet igjenfyldt. &#x2013;</p>
+<p>&#x00AB;Her er blit saa rart og lydl&#x00F8;st,&#x00BB; sagde hun sagte.</p>
+<p>&#x2013; Ja, det var saa, det.</p>
+<p>&#x00AB;Men Br&#x00F8;drene?&#x00BB;</p>
+<p>&#x2013; Flyttet til Nebruget for et par Dage siden. &#x2013;</p>
+<p>&#x00AB;Og &#x2013; og&#x00BB; &#x2013; et Sp&#x00F8;rgsmaal blev siddende saa underlig fast i Halsen.</p>
+<p>&#x2013; Jo, det var ordnet altsammen. &#x2013; Winkel s&#x00E6;nked Hovedet med Haanden over &#x00D8;inene. Hun blev stirrende ud for sig, sygt og aandsfrav&#x00E6;rende.</p>
+<p>Men i de tunge, m&#x00F8;rkringede &#x00D8;ine flakked Feberen. &#x2013;</p>
+<p><pb n="52"/>&#x00AB;Du Winkel,&#x00BB; sagde hun, &#x00AB;hvorfra kommer det egentlig, det, Livsblinket i Livsm&#x00F8;rket? Fra Dj&#x00E6;vel eller Gud? Er det Galskab, tro &#x2013; eller er det Natur &#x2013; eller er det Opblussen bare mod &#x2013; D&#x00F8;d &#x2013; Undergang &#x2013; &#x2013; hvad ved jeg?&#x00BB;</p>
+<p>Winkel saa kun op paa hende.</p>
+<p>&#x00AB;Har du noget at lade mig gj&#x00F8;re da?&#x00BB; spurgte hun. &#x00AB;Meget. Jeg maa arbeide, tror jeg.&#x00BB;</p>
+<p>&#x2013; Jo, Husstellet, forstod sig.</p>
+<p>Hun str&#x00F8;g sig over Panden, smilte n&#x00E6;sten, men svagt, ironisk, som Solglimt en Efteraarsdag. &#x2013;</p>
+<p>&#x00AB;Ja, du Winkel, den, der kunde koge Savnet bort i en Gryde!&#x00BB; &#x2013; &#x2013;</p>
+</div>
+<div type="chapter" n="12">
+<head type="main">XII.</head>
+<p>Imellem Stammer af L&#x00F8;n og gamle Rosenbuske dannedes Havens eneste Lysthus, der B&#x00E6;nkene var farvet af Veir og Vind og fugtiggr&#x00F8;n Moseskimmel. Der var et Dueslag uden Duer. Og der var et Bord med en v&#x00E6;ldig Graastensplade, hvor Sollyset laa drysset som gulnet L&#x00F8;v.</p>
+<p>&#x2013; Men som hun sad der og broderte, Paula Winkel, saa hun sig ofte om, lytted, kikked under Grenene. &#x2013; Stundevis herjed Sorgen, og st&#x00F8;nnende trykked hun H&#x00E6;nderne mod Tindingen. &#x2013; Stundevis stilned den af for Tanker, der drev en vekslende Uro gjennem Blodet. &#x2013; Eller hun blev apatisk stirrende, der Sollyset faldt som levende Gl&#x00F8;der, <pb n="53"/>t&#x00E6;ndte Ild i Broderiets r&#x00F8;de Blade. Der kunde ogsaa falde en Skr&#x00E6;k over hende, noget som en Klo i Brystet.</p>
+<p>&#x2013; Men en Dag h&#x00F8;rte hun alligevel ikke, at et Menneske kom:</p>
+<p>&#x00AB;Paula!&#x00BB;</p>
+<p>Og hun vak, uagtet Stemmen var lav. Hun skalv, idet hun reiste sig:</p>
+<p>&#x00AB;Ove!&#x00BB;</p>
+<lb/>
+<p>Ove Munk havde en Jagtret i Winkels Skog at sp&#x00F8;rge efter.</p>
+<p>Og Ove Munk bar ved sin slanke L&#x00E6;nd et underligt Vaaben. Det var en kaukasisk Kinschal, krumbladet, tveegget med Trolddomssten i Skj&#x00E6;ftet. &#x2013; Jo-o, der havde rundet Blod, varmt rygende Dyreblod med Lugt som af brune Piger. &#x2013;</p>
+<p>Han havde faret videnom i Mellemtiden, gaaet paa Jagt, studeret baade Mennesker og Dyr, smidige Lemmer i mangeslags Hud, fra bl&#x00F8;de Dyrs til solgyldne. &#x2013; Han lo sin lave Latter: Nei, han havde n&#x00F8;iet sig med Dyrehuderne derhjemme. Og &#x2013; sit Tigerskind satte han h&#x00F8;iest.</p>
+<p>Ove Munk havde m&#x00F8;rkfalden Lug over skyggesamlende &#x00D8;ine, de, der snart bad saa mygt om Forladelse, snart trued lurt som en Slanges. Og Munden var bred og fugtig, som havde den kysset hver Nat i sit Liv. Ofte fornam hun Ordene derfra som skjulte Kj&#x00E6;rtegn. &#x2013; Winkel der ved Siden blev som en Stolpe, syntes hun, en Matrikulp&#x00E6;l ved Siden af levende Blod. Men det gjorde hende n&#x00E6;sten ondt.</p>
+<p><pb n="54"/>Den Winkel er en Graabonde, t&#x00E6;nkte Ove Munk, borneret og tv&#x00E6;r. Alligevel fremkaldte enkelte Ytringer en viss Beundring hos ham.</p>
+<p>&#x00AB;Min Skog er fredet,&#x00BB; sagde Winkel, &#x00AB;og Dyrene ved det. For kommer der ikke sv&#x00F8;mmende ofte hele B&#x00F8;lingen af Elg over Vandene til min Skog. Saa faar jeg vel ikke svigte dem iaar heller.&#x00BB; &#x2013;</p>
+<p>Men om R&#x00E6;vehiet blev de tilsidst enige. Ove Munk kunde faa Lov at udrydde den Mikkelfamilen. Men intet andet. Slet intet andet.</p>
+<p>Ove Munk s&#x00F8;gte at indlede en Samtale med Gerhard Winkel, spurgte efter Bygningens Alder, snakked om Skogen og Kornh&#x00F8;sten, alt, han i &#x00D8;ieblikket fik Tag i, uden at det dog lykkedes ham at fremlokke noget Smil i det tunge Alvorsansigt. Desuden br&#x00F8;d Gerhard Winkel af om en Stund:</p>
+<p>&#x00AB;Ja, sid dere bare,&#x00BB; sagde han, &#x00AB;jeg har noget at efterse, jeg. &#x2013; Det er godt for hende at snakke lidt med andre end mig,&#x00BB; henvendte han sig til Munk. &#x2013; &#x00AB;Lidt Adspredelse nu. &#x2013; Kom igjen, om De synes.&#x00BB;</p>
+<p>Og Gerhard Winkel rusled sin rolige Gang.</p>
+<lb/>
+<p>&#x2013; Som Paula Winkel syed paa sit r&#x00F8;dbladede Teppe, blev Ove Munk ofte siddende hos hende derude i Lysthuset. &#x2013; Snart gled Samtalen let og flydende imellem dem, og de snakked om l&#x00F8;st og fast lig Folk, der for f&#x00F8;rste Gang snakker sammen og finder Behag deri. Men snart s&#x00E6;nked deres Stemmer sig ned til en lav Hvisken, den de maatte b&#x00F8;ie Hovederne t&#x00E6;t sammen for at h&#x00F8;re. Og naar <pb n="55"/>Ord fanged &#x2013; Pauser &#x2013; Stilhed &#x2013; Suk. Saa stille, at de h&#x00F8;rte det gamle Londonerur kneppe indi Stuen.</p>
+<p>&#x00AB;Ja, det var jo netop dette med Smilet, Ove &#x2013; Trangen efter Smil, og alt det, som var vakkert i Verden.&#x00BB; &#x2013;</p>
+<p>&#x00AB;Haahaa, Paulalille, den Trang har vi nok endnu. Hvem elsker ikke Livsens Smil, tror du?&#x00BB;</p>
+<p>&#x00AB;Men jeg elsked det for meget, Ove. Derfor kanske blev det hele kun Smil, som forraadte. Livsens Judassmil.&#x00BB;</p>
+<p>&#x00AB;Men Paula!&#x00BB; &#x2013;</p>
+<p>&#x00AB;Nei, kj&#x00E6;re, jeg bebreider dig ingenting. Du var ung, skulde se Livet. &#x2013; Jeg var nok meget yngre, men en Kvinde bare. &#x2013; Det fik vel ikke hj&#x00E6;lpe, om jeg tabte Gl&#x00E6;desevnen.&#x00BB;</p>
+<p>&#x00AB;Om du fandt den paany?&#x00BB;</p>
+<p>&#x00AB;Det &#x00F8;nsker jeg, Ove. &#x2013; Netop jeg. Men Winkel &#x2013; Gerhard Winkel &#x2013; synes du ikke, der er Tyngde bare i Navnet? &#x2013; Og sligt Hjerte han har.&#x00BB; &#x2013; &#x2013;</p>
+<p>&#x00AB;Kan han daare dig i Lyst, Paula?&#x00BB; spurgte Ove Munk. &#x00AB;Kan han tr&#x00F8;ste dig i Sorg? &#x2013; Og du,&#x00BB; tilf&#x00F8;ied han, &#x00AB;har du ikke ogsaa en Smule Pligt ligeoverfor dig selv &#x2013; &#x2013; og mig? &#x2013; Vented du mig forleden?&#x00BB; spurgte han. &#x00AB;Nei, du gjorde ikke.&#x00BB;</p>
+<p>&#x00AB;Jo, jeg gjorde. Havde ventet i Dage allerede. &#x2013; Vaagekonen fortalte saa tilf&#x00E6;ldigvis, da jeg var syg, og &#x2013;&#x00BB;</p>
+<p>&#x00AB;Saa blev du frisk?&#x00BB; &#x2013;</p>
+<p><pb n="56"/>&#x00AB;Aaja!&#x00BB;</p>
+<p>&#x00AB;Jeg trodde, kanske du var blit fed og hverdagslig nu &#x2013; en Madame med snavsede Unger. &#x2013; &#x2013; Vilde se. &#x2013; T&#x00E6;nk du, Paula &#x2013; du, som var og er s&#x00F8;t og deilig og slank som en Mynde.&#x00BB; &#x2013;</p>
+<p>&#x00AB;Og har saasandt ingen Unger, jeg stakkars &#x2013; hverken snavsede eller rene!&#x00BB; &#x2013;</p>
+<p>&#x00AB;Du er da ung endnu, Paula.&#x00BB;</p>
+<lb/>
+<p>&#x00AB;Den rare Lampeskj&#x00E6;rmen din, Ove &#x2013; husker du den? Form og Farve, saa tilf&#x00E6;ldigvis, af en Flaggermus med udspilte Vinger. &#x2013; Jeg saa Maanen engang under to sorte Skyer, den ligned og &#x2013; jeg l&#x00E6;ngted.&#x00BB; &#x2013;</p>
+<p>&#x00AB;Blodhunden nedi Porten, ja. &#x2013; Dump &#x2013; Dump &#x2013; slig Glammene dumped sig gjennem Styrtregnet.&#x00BB;</p>
+<p>&#x00AB;Om jeg likte? Jo, jeg likte Koketteriet og Lummerheden imellem de r&#x00F8;de Lamperne. &#x2013; Og du selv, Ove, jeg husker, du blev r&#x00F8;d i det Lyset, kobberr&#x00F8;d, som Dj&#x00E6;velen &#x2013; h&#x00F8;ie, smekre Satan i Flammeskin, mine Dr&#x00F8;mmes f&#x00F8;rste Elsker. &#x2013; Siden t&#x00E6;nkte jeg nok ofte: Havde du havt Skjeg paa, du, kunde du staaet Model til en Judas Iskariot.&#x00BB;</p>
+<p>&#x00AB;Da elsked du mig lidet, Paula.&#x00BB;</p>
+<p>&#x00AB;Da haded jeg dig meget, Ove.&#x00BB;</p>
+<p>&#x00AB;Jeg merked dog aldrig, du var sint paa mig.&#x00BB;</p>
+<p>&#x00AB;Saa sint, at jeg elsked dig af Sinne. &#x2013; Og da du saa drog dine egne straalende Veie, da smilte jeg og lo, mens Had og L&#x00E6;ngsel ligesom stivned i Blodet og gjorde Verden til Taage.&#x00BB; &#x2013;</p>
+<p><pb n="57"/>&#x00AB;Kunde jeg vide &#x2013; ja, selv om jeg havde vidst &#x2013; &#x2013; slig en Synder. Efter en Tid syntes mig det forgangne som en Rus bare, langt borte. Og da jeg siden h&#x00F8;rte, du var gift udpaa Landsbygden etsteds, saa var der jo ikke mer. &#x2013; Fred med dit St&#x00F8;v, lille Paula! &#x2013; Jeg mente dog virkelig, du var kommet til Ro.&#x00BB;</p>
+<p>&#x00AB;En Ro, ja. &#x2013; Men jeg syntes, det regned bestandig &#x2013; indtil du havde v&#x00E6;ret her. &#x2013; Du med dine &#x00D8;ine, din Stemme. &#x2013; Om du vendte dig bort &#x2013; om du gik, Ove.&#x00BB; &#x2013;</p>
+<p>&#x00AB;Kanske holdt du mig alligevel tilbage. Du ser, jeg fors&#x00F8;ger ikke engang.&#x00BB; &#x2013;</p>
+<p>&#x00AB;Paula, den Festaftenen, du ved &#x2013; du gik.&#x00BB; &#x2013;</p>
+<p>&#x00AB;Og havde dig alligevel med. &#x2013; Om jeg fortalte &#x2013; &#x2013;&#x00BB;</p>
+<p>&#x00AB;Saa rar du er da, Paula! &#x2013; Du skj&#x00E6;lver om Munden. &#x2013; Sig det, da &#x2013; s&#x00F8;deste &#x2013; du kjender mig da.&#x00BB; &#x2013;</p>
+<p>&#x00AB;Den Festaftenen, Ove! &#x2013; Jo, ved du? &#x2013; Dig f&#x00F8;lte jeg &#x2013; dig saa jeg, bag lukkede &#x00D8;ine. &#x2013; &#x2013; Og min S&#x00F8;n &#x2013;&#x00BB;</p>
+<p>&#x00AB;Hvad med ham?&#x00BB;</p>
+<p>&#x00AB;Ligned dig, Ove.&#x00BB;</p>
+<p>&#x00AB;Mig &#x2013; mig?&#x00BB;</p>
+<p>Pludselig glimted det af en stor og skinnende Begeistring i Ove Munks &#x00D8;ine. Han strakte to varme, skj&#x00F8;nne H&#x00E6;nder frem over Bordet:</p>
+<p>&#x00AB;Deiligste, deiligste du &#x2013; Kj&#x00E6;rligheds Mysterium &#x00E9;n Gang &#x2013; Liv af Livsaligheds Fryd en anden. &#x2013; Hvo ved? For Sorg maa s&#x00F8;ges Glemsel!&#x00BB;</p>
+<p><pb n="58"/>&#x00AB;Dybt inde i Skogene og ude paa store Sletter flagrer Vampyrerne, min Paula. De har Blod i &#x00D8;inene og Blod om L&#x00E6;berne. &#x2013; Hver Pore i dem t&#x00F8;rster &#x2013; de suger Marv, de suger Tanker og Forstand.&#x00BB; &#x2013;</p>
+<p>&#x00AB;Smil du, Ove &#x2013; det Smilet, som dukker sig i Sj&#x00E6;len.&#x00BB; &#x2013;</p>
+<p>&#x00AB;Lilith.&#x00BB;</p>
+<p>&#x00AB;Dine &#x00D8;ine, Ove &#x2013; Dj&#x00E6;vle&#x00F8;inene.&#x00BB; &#x2013;</p>
+<p>&#x00AB;Lilith &#x2013; Lilith &#x2013; din store, sm&#x00E6;gtende Mund.&#x00BB; &#x2013;</p>
+<p>&#x00AB;Om jeg blev gal, Ove?&#x00BB;</p>
+<p>&#x00AB;Nei Paulalille &#x2013; jeg ved nok: D&#x00F8;den har havt dig &#x2013; Vanvid har havt dig. Men hvem har dig nu?&#x00BB;</p>
+<p>&#x00AB;Ove Satan.&#x00BB;</p>
+<p>&#x00AB;Se til at fange de R&#x00E6;ve smaa, som vor blomstrende Vingaard nedtr&#x00E6;der.&#x00BB; &#x2013; &#x2013;</p>
+<lb/>
+<p>&#x00AB;Du blev l&#x00E6;nge borte igaarkveld,&#x00BB; sagde Winkel.</p>
+<p>&#x00AB;Gjorde jeg det? &#x2013; Vi saa R&#x00E6;vene, og Munk skj&#x00F8;d efter dem. &#x2013; &#x2013; Om han traf? Det var blevet m&#x00F8;rkt, saa han fandt dem ikke, og &#x00AB;Rex&#x00BB; er jo Fuglehund bare. &#x2013; Det er sandelig deiligt der indi Skogen, du Winkel, naar man f&#x00F8;rst faar Smag paa det.&#x00BB; &#x2013;</p>
+<p>&#x00AB;Jeg begynder i Grunden at blive noget kjed den Fyren din,&#x00BB; sagde Gerhard Winkel.</p>
+<p>&#x00AB;Hvem? &#x2013; Munk? &#x2013; Naa, han kommer her heller ikke mer.&#x00BB; &#x2013; Hun vendte Hovedet og saa ud. &#x2013; &#x00AB;Nei. Han reiser imorgen.&#x00BB; &#x2013;</p>
+</div>
+<div type="chapter" n="13">
+<head type="main">XIII.</head>
+<p><pb n="59"/>H&#x00F8;sten flammed over Gruvang Gaard i syge, bet&#x00E6;ndte Farver. Og Aspenes fredl&#x00F8;se Blade flagred skj&#x00E6;lvende til Jorden, mens m&#x00F8;rkblaa Asters stod stille ude i Haven. Og h&#x00F8;it opad de graa V&#x00E6;gge Vildvins slikkende Ildtunger. &#x2013;</p>
+<p>Gjennem det knitrende L&#x00F8;v, som fossed tilside i rustr&#x00F8;de Str&#x00F8;mme, lod Paula Winkel sin Kjole sl&#x00E6;be, der hun kom med H&#x00E6;nderne fulde af vilde Blomster i yppigt Flor &#x2013; store Prestekraver &#x2013; giftige Blaaklokker &#x2013; gulnede Bregner, fundne i Sumper og Afkroker. Og hun fyldte Stuerne med dem.</p>
+<p>Hun dynked ogsaa sine Kjoler med Viol. Og hun skrev lange Lister efter T&#x00FC;ll og Chiffoner, saa den hvide Hals tilsidst syntes drukne i en Flod af natsort Elegance.</p>
+<p>Men bleg var hun, som gj&#x00E6;red Sygdommen i hende endnu, og Feberen jog i &#x00D8;inene &#x2013; dem hun dog helst s&#x00E6;nked for Egtef&#x00E6;llens Blik. Og sad hun ligeoverfor ham ved Bordet med Haanden under Hagen, da slap hun &#x00D8;ienlaagene helt igjen.</p>
+<p>Og Winkel, som havde oph&#x00F8;rt at forundre sig over hendes Egenheder, forundred sig paany, slig han gik der alene &#x2013; is&#x00E6;r om Aftenerne, baade kjedsom og stur:</p>
+<p>&#x00AB;Hvorfor vasser du ude om Kvelden?&#x00BB; spurgte han. &#x00AB;Jeg liker ikke det. Gaa ud i Lyse du, Paulamor! Ruller du dig paa Mosen, Paulamor? Du beh&#x00F8;ver knapt gaa saa fin i Skogen.&#x00BB;</p>
+<p>Vel saa han ikke tiere Rusk, end sige Barnaale, <pb n="60"/>paa hendes sorte Dragt; men Aftenspadseringen vedblev. &#x2013; Gik han ud i Haven efter M&#x00F8;rkets Frembrud, naar H&#x00F8;stmaaneskinnet laa og fl&#x00F8;d over Tr&#x00E6;topperne, dannende kulsorte Skygger nedenfor, syntes han ofte at fornemme noget, og han sagde:</p>
+<p>&#x00AB;Er det dig, Paula?&#x00BB; Men fik aldrig Svar. &#x2013;</p>
+<p>Der var forresten noget besynderligt den H&#x00F8;st. &#x2013; Hvorledes Folkene nu kunde gaa ud at se efter &#x00C6;bletyve. &#x2013; Trodde saa sikkert at fakke nogen &#x2013; for der <hi rend="italic">var</hi> noget i Haven &#x2013; noget levende, som gjorde utrygt under de lave Grene. Noget gl&#x00F8;gt, med &#x00D8;ren og &#x00D8;ine, som lurte &#x2013; man fatted snart ikke efter hvilket. For &#x00C6;blene hang ur&#x00F8;rte. &#x2013; Saa vilde man have seet et par gloende &#x00D8;ine engang, og man havde flygtet i gispende Hast &#x2013; for at komme mandsterke tilbage med Ildt&#x00E6;nger og Vedtr&#x00E6;r. &#x2013; &#x2013; Borte var det. S&#x00F8;kkende borte.</p>
+<p>Der spurgtes snart, at det maatte v&#x00E6;re nogetslags Udyr, som laa og sm&#x00F8;g mellem Buskene. For &#x2013; hvad ellers? &#x2013; Mindst at n&#x00E6;vne sinte Gr&#x00E6;vlinger, som vilde bide Godtfolk i Leggene &#x2013; men kanske Gaupe, som i et S&#x00E6;t kunde sidde med T&#x00E6;nderne dybt i ens Strube &#x2013; og kanske Ulv &#x2013; ja, hvem vidste? Huh, f&#x00E6;le, sterke Graabenen med strittende Rag og giftige T&#x00E6;nder! &#x2013; &#x2013; Pigerne, som gik mellem Fj&#x00F8;s og Drengestue saan om Kvelden, skotted forskr&#x00E6;mte Gang efter Gang. &#x2013; Hvad om nu noget tassed i L&#x00F8;vet, lusked efter dem paa Klopperne? &#x2013; &#x00AB;Hu &#x2013; uh!&#x00BB; &#x2013; Katuglen, som havde Tilhold i Tr&#x00E6;rne, skreg ogsaa saa opskr&#x00E6;mt, <pb n="61"/>i hvasse, gnelle Klemt. Og den gled saa lydl&#x00F8;st urolig, lavt over Tagene, paa store, lubne Vinger. &#x2013; &#x2013;</p>
+<lb/>
+<p>&#x00AB;Du skal ikke gaa,&#x00BB; begyndte Gerhard Winkel at sige. Hun loved &#x00AB;nei&#x00BB; &#x2013; og gik alligevel.</p>
+<p>Men en Eftermiddag tog han hende ved Haandleddet. &#x2013; Hun kom til at skj&#x00E6;lve i det samme &#x2013; spurgte dog tilsyneladende fattet: &#x00AB;Naada?&#x00BB; &#x2013; Hun lo, skj&#x00E6;ndte, vrissed sig. &#x2013; Altsammen prelled det af, idet han leded hende med sig opover Trapperne, og hun saa nok, han var strid i &#x00D8;inene. Blev alligevel overrasket som aldrig i sit Liv, da han skj&#x00F8;v hende ind paa Sovev&#x00E6;relset og laaste D&#x00F8;ren af for hende. &#x2013; Hun stod flau og halvt bed&#x00F8;vet tilbage og h&#x00F8;rte Lyden af de faste Skridt forsvinde nedi Gangen. &#x2013; Gav sig saa til rastl&#x00F8;s at vandre frem og tilbage over Gulvet &#x2013; knytted H&#x00E6;nderne, banked sig selv i Panden. &#x2013; Hun vilde, hun vilde ikke &#x2013;</p>
+<p>Borte ved Vinduet blev hun l&#x00E6;nge staaende, mens Skumringen samled sig t&#x00E6;ttere og t&#x00E6;ttere over Have og Skog &#x2013; og Blikket det tabte sig ind i Buskadsernes Tykning, ligesom baned og sneg sig saa lydl&#x00F8;st og lavt under mosgrodde Grene, lig et vildsomt Dyr, og det hasted over den aabne Eng langt derborte &#x2013; og det gjemte sig dybt indi Skogen. &#x2013; &#x2013;</p>
+<p>Hun aabned Vinduet. &#x2013; Og Blikket maalte. &#x2013; Der og der. &#x2013; Jo, det skulde lykkes! &#x2013; Hun kr&#x00F8;b op i Vinduet &#x2013; F&#x00F8;dderne paa Randen nedenfor</p>
+<p><pb n="62"/>&#x2013; H&#x00E6;nderne efter &#x2013; og efter &#x2013; slig, slig og slig &#x2013; en, to, tre &#x2013; et Hop &#x2013; og hun stod nede paa Marken. H&#x00F8;rte de dumpe Slag af sin egen Puls &#x2013; b&#x00F8;ied sig &#x2013; l&#x00F8;b. &#x2013; &#x2013;</p>
+<p>Indi Skogskyggen stod en h&#x00F8;i voksen Mand. Han lo og bredte Armene ud:</p>
+<p>&#x00AB;Har jeg ikke fanget det vildeste Vildt i Norge?&#x00BB;</p>
+<p>Hun blev st&#x00F8;ttende sig forpustet indtil ham en Stund. Men saa begyndte hun sagte at jamre og vred sig langsomt ud af hans Favn. &#x2013;</p>
+<p>&#x00AB;Men hvad gaar af dig, Paula?&#x00BB;</p>
+<p>Hun saa stor&#x00F8;iet omkring sig, paa ham, Tr&#x00E6;rne, Marken, som skimtedes. Greb ham i Armen:</p>
+<p>&#x00AB;Han maa have skj&#x00F8;nt det, Ove &#x2013; nogen fortalt, du er i Bygden. &#x2013; Var jeg gal, du, som sprang og gav ham Vished?&#x00BB;</p>
+<p>&#x00AB;Nei, du var deilig. &#x2013; Men du sprang for sterkt. &#x2013; Er du syg, Lilith?&#x00BB;</p>
+<p>&#x00AB;Ja. Syg og r&#x00E6;d og alt muligt.&#x00BB; &#x2013;</p>
+<p>&#x00AB;Hvil dig hos mig da. &#x2013; Her!&#x00BB; &#x2013; han klapped i Lyngen. &#x2013;</p>
+<p>&#x00AB;Aanei!&#x00BB; &#x2013; Hun listed frem til Skogbrynet og titted:</p>
+<p>&#x00AB;Det er ikke lyst <hi rend="italic">der</hi> endda. &#x2013; Men der er Lys nede i Stuen. &#x2013; &#x2013; Det bev&#x00E6;ged sig vist nu. &#x2013; Saa gaar han ovenpaa. &#x2013; Nei! &#x2013; Men hvad tror du, han siger, Ove, naar han ser, jeg er borte?&#x00BB;</p>
+<p>&#x00AB;Pyt, han tager det nok for godt, siden &#x2013; &#x2013; kom da!&#x00BB;</p>
+<p>&#x00AB;Tror du, han slaar mig, Ove? &#x2013; Han havde i Grunden Ret til det.&#x00BB;</p>
+<p><pb n="63"/>&#x00AB;Naa &#x2013; aa &#x2013; neida!&#x00BB; &#x2013;</p>
+<p>Hun sukked dybt indifra, mens han l&#x00F8;sned hendes Haand fra en Gren:</p>
+<p>&#x00AB;Jeg er ulykkelig, Ove &#x2013; kan du hj&#x00E6;lpe mig?&#x00BB;</p>
+<p>&#x00AB;Men &#x2013; der er jo ingenting h&#x00E6;ndt, du. Imorgen fort&#x00E6;ller du mig om ham og &#x2013; ler bare.&#x00BB; &#x2013;</p>
+<p>Hun fik et eget Smil. Rysted paa Hovedet.</p>
+<p>Da snoed Ove Munk Armene om hendes Liv og Skuldre:</p>
+<p>&#x00AB;Husker du Stedet vort nedimellem Bregnerne, du? &#x2013; Blaas i Verden og gamle Egtemager! &#x2013; Hvem har Ret til dig fra f&#x00F8;rst? &#x2013; Kys mig nu, Lilith! &#x2013; Men <hi rend="italic">er</hi> du da ikke l&#x00E6;nger min s&#x00F8;te Lilith? En forsagt Kone bare, som stirrer hypnotiseret efter en Talgpraas i en m&#x00F8;rk Stue. &#x2013; &#x2013; Og &#x2013; t&#x00E6;nk du, som kom springende her uregjerlig som en Zigeunert&#x00F8;s. &#x2013; Se Haaret dit, du! &#x2013; &#x2013; Kom da &#x2013; kom, s&#x00F8;te, rare.&#x00BB; &#x2013;</p>
+<p>&#x00AB;Nei lad v&#x00E6;re da, Ove. &#x2013; Du ved ikke &#x2013; jeg har aldrig taalt at vide Winkel sint, jeg. Der er Blyvegt i Sinnet hans, det knuger, knuger,&#x00BB; hun slog H&#x00E6;nderne for Ansigtet: &#x00AB;Hvorfor bad du mig komme saa ofte?&#x00BB;</p>
+<p>&#x00AB;Vilde du da ikke selv?&#x00BB;</p>
+<p>&#x00AB;Jo &#x2013; o &#x2013; jeg elsked dig jo &#x2013; og det var saa deilig en Glemsel &#x2013; &#x2013; men nu faar det ogsaa v&#x00E6;re nok.&#x00BB;</p>
+<p>Han slap og traadte et Skridt tilbage:</p>
+<p>&#x00AB;Muligt, du har Ret.&#x00BB;</p>
+<p>Hun ynked sig sagte: &#x00AB;Hj&#x00E6;lp mig da, Ove &#x2013; hj&#x00E6;lp mig!&#x00BB;</p>
+<p><pb n="64"/>&#x00AB;Jeg reiser jo alligevel snart &#x2013; &#x2013; men kom efter du, Paula!&#x00BB;</p>
+<p>Hun saa stort paa ham:</p>
+<p>&#x00AB;Jeg kan nok ikke med at leve i Skam heller. &#x2013; &#x2013; Og Winkel!&#x00BB;</p>
+<p>&#x00AB;Kj&#x00E6;re dig, Paula, du maatte jo tage det, som det var &#x2013; en Stund ialfald. Men &#x2013;&#x00BB; han rysted hende i Armen og fortsatte fort&#x00F8;rnet &#x2013; &#x00AB;slig snakked du ikke, du, om der var noget i din Kj&#x00E6;rlighed. &#x2013; &#x2013; Jo &#x2013; o, det var nydeligt, om vi nogengang gifted os, kanske blev du mig utro ogsaa. &#x2013; Hvem ved? Kanske med selveste Winkelkallen. &#x2013; &#x2013; Undskyld, jeg ler.&#x00BB; &#x2013; &#x2013;</p>
+<p>&#x00AB;Winkel!&#x00BB; kom det tonl&#x00F8;st, &#x00AB;han vilde nok ikke have mig. &#x2013; &#x2013; Winkel!&#x00BB; fortsatte hun sterkere, &#x00AB;<hi rend="italic">han</hi> er ingen Krybskytte i anden Mands Skog. &#x2013; Han smyger ikke &#x2013; han kryber ikke &#x2013; han stj&#x00E6;ler ikke i andres Haver.&#x00BB; &#x2013; Atter sank Stemmen magtesl&#x00F8;s sammen. &#x2013; &#x00AB;Han tr&#x00E6;kker ikke Hjerter ud af Kroppene, saa de blir gaaende som levende Lig &#x2013; og han byr dem ikke Skam som Tak!&#x00BB; &#x2013;</p>
+<p>Hun traadte ud paa Jordet, men blev staaende midt i Maaneskinnet. &#x2013;</p>
+<p>&#x00AB;Paula, Paula da &#x2013; alt vi har havt sammen! &#x2013; &#x2013; T&#x00E6;nk, om du angred!&#x00BB; lokked det indimellem Tr&#x00E6;rne. &#x2013; &#x2013;</p>
+<p>&#x00AB;Jeg har havt mere sammen med en anden,&#x00BB; svarte hun utydelig tilbage. &#x2013; &#x00AB;Angeren &#x2013; &#x2013; jo &#x2013;&#x00BB; &#x2013; &#x2013; Saa vendte hun sig og slentred uvist hjemover. &#x2013; &#x2013; &#x2013;</p>
+</div>
+<div type="chapter" n="14">
+<head type="main">XIV.</head>
+<p><pb n="65"/>Og Frosten kom. Den braasved Vildvinens Blade det Aar, og en Morgen hang de der opover Stilkene, visne, brune, som smaa forbr&#x00E6;ndte Filler. &#x2013; Ude paa Gaardspladsen stritted Aspenes graa Grene, mens nede paa Jorden deres faldne Pragt gnissed og hven, naar den traadtes. Og ude i Haven sad endnu &#x00C6;bler uplukkede igjen paa de n&#x00F8;gne Kviste. &#x2013; Men de var dog det eneste, der var tilbage, ligesom fra et Eventyr i &#x00AB;Tusen og &#x00E9;n Nat&#x00BB;, slig de hang der, krystalhaarde af Frosten, gjennemsigtige og r&#x00F8;de. &#x2013; &#x2013; Ellers var Alverdens bladl&#x00F8;se Tr&#x00E6;r som en sammenfiltret Hob af Slanger &#x2013; syntes Paula Winkel. &#x2013; Og naar Maanen skinned bagenfor, formed hendes Indbildning Kors, Bogstaver og onde Ting i Nettet. &#x2013; &#x2013;</p>
+<p>Og der blev graat og farvel&#x00F8;st over Jorden, som der var graat og farvel&#x00F8;st i hendes eget Sind, der hun gik ensom Dagen lang og laa ensom om N&#x00E6;tterne. Da Winkel flytted ud, havde hun ikke turdet sp&#x00F8;rge om Grunden. &#x2013; Hun f&#x00F8;lte sig til Stadighed saa feig og lammet, siden hin Gang Reaktionen var kommet over hende. Og dog &#x2013; ligesaalidt som Winkel havde gjort Klapjagt paa Udyret i Haven, ligesaalidt havde han st&#x00E6;ngt Huset for hende, da hun kom, eller v&#x00E6;ret brutal, eller brugt stygge Ord. Heller ikke havde han fundet paa at spigre igjen Vinduet for atter at st&#x00E6;nge hende inde. &#x2013; &#x2013;</p>
+<p>Gerhard Winkel havde istedet st&#x00E6;ngt af for sig selv. &#x2013; Han &#x00E6;nsed hende ikke, naar hun kom, <pb n="66"/>&#x2013; saa ikke paa hende, snakked ikke til hende mer end h&#x00F8;ist n&#x00F8;dvendigt, og da koldt og aff&#x00E6;rdigende. Og hun toges af en Skyhed for ham. M&#x00F8;dte hun ham i Gangene, sm&#x00F8;g hun sig uvilkaarlig ind til V&#x00E6;ggen, &#x2013; skj&#x00F8;nt hun vidste jo, han ikke lagde Merke til hende.</p>
+<p>Det eneste fortrolige Ord, hun opnaadde af ham i lange Tider, var engang hun kom ind, og han sad alene i Stuen. &#x2013; Han saa tungt paa hende:</p>
+<p>&#x00AB;Jeg t&#x00E6;nker paa Dag, jeg.&#x00BB; &#x2013; Og der hun stod foran ham i sin lange, feiende Kjole, fik hun en Trang til at tr&#x00F8;ste. &#x2013; Hun strakte allerede Haanden ud for at stryge ham over Haaret som &#x2013; forekom det hende &#x2013; i gamle, gamle Dage. &#x2013; Men hun trak den til sig igjen, voved ikke. Istedet traadte hun n&#x00E6;rmere &#x2013; smilte. &#x2013; Men Smilet blev mat og usikkert som Veiret udenfor. &#x2013;</p>
+<p>&#x00AB;Jeg skal skaffe dig en ny Dag.&#x00BB; &#x2013; Han saa ligegyldig forbi hende og sagde ikke mer. Hun orked ikke.</p>
+<p>&#x2013; Naar Regnet trommed imod Ruderne, og Vinden kylte de s&#x00F8;lede Blade indad Gangporten, saa de tasled mod selve Stued&#x00F8;ren, t&#x00E6;nkte hun ofte paa de forrige Senh&#x00F8;stskvelder, da Winkel havde siddet i Ovnskroken saa hyggelig med Piben og alle sine rare, gamle Historier &#x2013; og &#x2013; Herregud! &#x2013; Dag laa og sov oppe i sin lille Seng. &#x2013; Hvor hun egentlig havde v&#x00E6;ret lykkelig dengang. Og ingenting havde manglet, undtagen det hun selv fandt paa.</p>
+<p><pb n="67"/>Nu sad Winkel aldrig i Ovnskroken. &#x2013; Om han nu fandt Minder ved det, han ogsaa! &#x2013; Borte ved det runde Bordet midt i Stuen sad han og l&#x00E6;ste i nogle for&#x00E6;ldede Verdenshistorier ved Skinnet af en elendig, hjemmest&#x00F8;bt Talgpraas &#x2013; for slig havde han brugt som Gut &#x2013;, og begyndte &#x00D8;inene at svide, pleied han kun sidde og stirre ret frem. &#x2013; Det var en stor Lettelse da, dersom Jenten kom ind og meldte nogen, som vilde snakke med ham. &#x2013; Det eneste, han uopfordret kunde oplukke Munden om imellem, var sin Mor, men mer ud i Veir og Vind end til hende i Langsofaen:</p>
+<p>&#x00AB;Det var en h&#x00E6;derlig Kone, det, jevn og tro, som Dagen var lang. Jeg husker godt, hun havde graa &#x00D8;ine og Haaret kj&#x00E6;mmet bag &#x00D8;rene. &#x2013; Og saanne gode, arbeidsslidte H&#x00E6;nder. &#x2013; &#x2013; Aa, Gud evig velsigne hendes Minde!&#x00BB; &#x2013; Og han str&#x00F8;g sig hastig med Haandbagen over &#x00D8;inene.</p>
+<p>Men Paula sukked sagte borti M&#x00F8;rket. H&#x00F8;rte han det, kunde han se didhen og gribe sig i at sige noget.</p>
+<p>Det h&#x00E6;ndte en Gang, de sad saaledes sammen i Skumringen, at det brast lyst ud af hende, n&#x00E6;sten mod hendes Vilje:</p>
+<p>&#x00AB;For et m&#x00E6;gtigt Hoved, du har!&#x00BB; &#x2013;</p>
+<p>Men han lod det gaa sig forbi. &#x2013; Og atter faldt Tausheden sammen om dem som en stor kv&#x00E6;lende Byrde. &#x2013; Hun undred sig ofte senere over, hvordan hun egentlig var kommet til at sige dette til ham, som ignorerte hende bestandig, og over, at hun ikke f&#x00F8;r havde seet det.</p>
+<p><pb n="68"/>Naar hun laa vaagen udover Natten og h&#x00F8;rte Stygveiret ruske mod Hushj&#x00F8;rnet, og hun skygger&#x00E6;d kr&#x00F8;b sammen under Dynen, forekom det hende n&#x00E6;sten, som laa hun i et stort, &#x00F8;de Udhus, &#x2013; og i den hele, vide Verden var der ingen Tr&#x00F8;st eller St&#x00F8;tte at finde. &#x2013; Vendte hun Tanken mod Ove Munk, gjennemstr&#x00F8;mmedes hun ikke af nogen mild Varme, end sige da nogen syg Attraa som f&#x00F8;r, saameget mindre som hun snarere fyldtes af en Bitterhed. &#x2013; &#x2013; Sorgen over sit Barn var hun istand til at skyve fra sig ved Tanken paa det nye. &#x2013; Men hvad der havde begeistret hende, den Gang hun leved og snoed sig i Ove Munks Arme, stod nu for hende som forvitrede Fantasier fra en langvarig Sygdoms Krisis. &#x2013; Ofte forekom hende ogsaa hele Verden som en slimet Br&#x00F8;nd fuld af Gr&#x00F8;nske. &#x2013; Hvorfor havde de ikke ladet hende d&#x00F8;? &#x2013;</p>
+<p>Bl&#x00E6;sten, den skreg som Katter, og som Hunde, der uler mod Lig. &#x2013; Stundom surred den som en Treskemaskine &#x2013; og stundom h&#x00F8;rte hun et langt Jammerskrig &#x2013; Mo-o-o-r! &#x2013; Og den knegged nedigjennem Ovnsr&#x00F8;ret. &#x2013;</p>
+<p>Og der laa hun midt imellem alle M&#x00F8;rkets lange Arme, som vifted koldt og vilde klaske hende med Fladhaand paa Kinden. &#x2013; &#x2013; Borterst ved Gangen laa Winkel. &#x2013; Om hun kom, kanske vilde han pege paa D&#x00F8;ren og fort&#x00E6;lle hende, hun kunde br&#x00E6;nde Lys. &#x2013; Men kanske han ogsaa blev blidere &#x2013; bare hun orked uds&#x00E6;tte sig for Nederlaget!</p>
+<p>Alligevel &#x2013; det var den eneste Tanke, som <pb n="69"/>var hende god, og den sidste, naar de andre Tanker floked sig sammen til S&#x00F8;vn. &#x2013;</p>
+<p>&#x00AB;T&#x00E6;nk, om Winkel blev blid igjen!&#x00BB; &#x2013; Da skreg ikke Bl&#x00E6;sten l&#x00E6;nger saa stygt &#x2013; der kom snarere nogenslags Melodi i den, syntes hun &#x2013; en bleg, h&#x00F8;itidelig S&#x00F8;rgesang, som steg og sank. Og tilsidst svandt den saa mildt ud i M&#x00F8;rket og Natten &#x2013; &#x2013; &#x2013;</p>
+</div>
+<div type="chapter" n="15">
+<head type="main">XV.</head>
+<p>Imens havde Br&#x00F8;drene ruslet sin egen Gang borte paa Nebruget. Og til en Begyndelse havde alt gaaet saare vel og bra. I den lille, gammelagtige Hovedbygning, hvis f&#x00F8;rste Etage kun bestod af Kj&#x00F8;kken og Stue, eftersom Resten optoges af en lang Gang, der strakte sig rundt hele Huset, benytted de Stuen til Dagligstue, Spise- og Sovev&#x00E6;relse. Ude i Kj&#x00F8;kkenet sov Bolette, og oppaa Jordgulvet i anden Etage holdt Hr. Anders til. &#x2013; Bag Schatolklaffen laa Testamenterne f&#x00E6;rdigskrevne, medens Arvingerne gjorde sig Flid og var paaf&#x00E6;rde baade sent og tidlig.</p>
+<p>De to Br&#x00F8;dre var dog for Sikkerheds Skyld oppe en Tur i Solrendingen og paasaa, at Anders ikke sluntred unda, &#x2013; for saa at l&#x00E6;gge sig igjen og sove til henimod Middag, paa hvilken Tid de vilde have Maden f&#x00E6;rdig &#x2013; Sp&#x00E6;dkalv, H&#x00F8;ns eller Kyllinger, helst det bedste Aarstiden kunde byde. &#x2013; Resten af Dagen tilbragte de i Skyggen med Snadden i Mundvigen eller gren paa Anders, som <pb n="70"/>fik staa for St&#x00F8;det i alt muligt. Ude gik de i Kipsko, inde paa Hosel&#x00E6;sten. Og de t&#x00E6;ljed Granved paa Maafaa, saa Flisen g&#x00F8;v, &#x2013; men gjorde ogsaa engang imellem en Visp til Bolette, at hun ikke skulde kleppe Fl&#x00F8;degr&#x00F8;den for dem. &#x2013; Saa fryded de sig over Nebrugets afsides Beliggenhed, dr&#x00F8;fted &#x00AB;Svogerske, som var blevet galen&#x00BB;, og med tilbagetr&#x00E6;ngt Gl&#x00E6;de &#x00AB;stakkars han Gerhard&#x00BB;. &#x2013;</p>
+<p>Om Aftenerne b&#x00F8;d de ofte Arvingerne ind paa en Snaps &#x2013; og forespeiled dem da forskjellige vordende Herligheder. Men de fandt det raadeligst en Dag at oplyse Anders om, at Testamentet i Bordskuffen vilde v&#x00E6;re ugyldigt, hvis Testatorerne braad&#x00F8;de, eftersom det endnu mangled Vitterlighedsvidners Underskrift.</p>
+<p>&#x2013; Men udpaa Vinteren et Stykke indtraf en noksaa kjedelig Ting. Noget de to Br&#x00F8;dre ikke havde taget tilstr&#x00E6;kkelig i Betragtning, og som gav vid Anledning til Tr&#x00E6;tte dem imellem, om hvem af dem der egentlig var den skyldige, medens Hovedpersonen, Bolette, regelm&#x00E6;ssig tuded med Forkl&#x00E6;det for &#x00D8;inene, hver Gang nogen af de to kom til at gaa forbi hende. &#x2013;</p>
+<p>&#x00AB;Fan heller,&#x00BB; sagde Perikles, &#x00AB;jam&#x00E6;nd har du forn&#x00E6;rmet T&#x00F8;sen.&#x00BB; &#x2013;</p>
+<p>&#x00AB;Fan heller,&#x00BB; sagde Jon, &#x00AB;det er nok du, det.&#x00BB; Og hver is&#x00E6;r af dem kunde saaledes drive den hele Dag med at fri sig selv og anklage den anden.</p>
+<p>Enden paa det hele blev da, at de for at undgaa Skandale simpelthen maatte l&#x00E6;gge sig ud <pb n="71"/>for at spleise Arvingerne. &#x2013; De maatte give Anders Gaardskar den st&#x00F8;rste Husmandsplads til en Afgift af 40 &#x00D8;re Aaret og en Ko med Kalv &#x2013; foruden den han fik med paa Kj&#x00F8;bet.</p>
+<p>Men da rev ogsaa Br&#x00F8;drene sine Testamenter istykker og reiste fluksens hjem til Gruvang.</p>
+<p>Der kom de en Eftermiddag skurende i Kassesluffen, og det ligesom osed daarligt Hum&#x00F8;r af dem paa lang Afstand. &#x2013; Nei, paa Nebruget havde det v&#x00E6;ret magert med Oplevelser. Fordelen havde netop v&#x00E6;ret Ugenertheden. &#x2013; De gik om ubarberte som Stikkelsb&#x00E6;r, men jam&#x00E6;nd var de alligevel blevet kjed sig: &#x00AB;Fan ta Nebruget og hele S&#x00F8;rpa,&#x00BB; brast det ind&#x00E6;dt ud af dem.</p>
+<p>&#x00AB;Men nei, aanei Bror, aa hvid du er blevet i Skjegget da! &#x2013; &#x2013; Og du Svogerske &#x2013; Gud hj&#x00E6;lpe os, har ikke Svogerske faaet graa Haar bag &#x00D8;rene!&#x00BB;</p>
+<p>Se, de fik nu straks Indtrykket af at have fors&#x00F8;mt sig godt. Men nu var der sandelig ingen Moro hverken at se eller h&#x00F8;re ved Tittehullerne. &#x2013; Kanske, t&#x00E6;nke de ogsaa, havde Bror Gerhard h&#x00F8;rt ymte noget om Historien, siden han var saa prestealvorlig, hvorfor det Pokker var bedst at holde &#x00D8;rene stive.</p>
+<p>Men slig de to Br&#x00F8;dre gik om den f&#x00F8;rste Tid, vigtige og udfordrende &#x2013; Munden sp&#x00E6;ndt i en stram Bue &#x2013; ligned de n&#x00E6;rmest to forstokkede Galgenfugle, der vented Lensmanden.</p>
+</div>
+<div type="chapter" n="16">
+<head type="main">XVI.</head>
+<lg>
+<l><pb n="72"/>&#x00AB;Mare, Mare mine,</l>
+<l>naa skal du ud</l>
+<l>over tolv Mils Skau.</l>
+<l>Rette de kroge,</l>
+<l>kroge de rette &#x2013;</l>
+<l>Mare, Mare mine.&#x00BB;</l>
+</lg>
+<p>Og Store-Elen, som havde spurgt saa hemmelighedsfuldt om at faa komme ind, &#x00AB;fyred&#x00BB; med en Glo over sin Frue.</p>
+<p>&#x00AB;Mare, Mare mine&#x00BB; &#x2013; Ordene l&#x00F8;d mumlende og monotone, op og op igjen, mens Signekj&#x00E6;rringens rappe, smaa &#x00D8;ine ufravendt hvilte paa den Syges Ansigt. Og stundom rysted hun bet&#x00E6;nkelig paa Hovedet:</p>
+<p>&#x00AB;Nei, nei, det var den paah&#x00E6;ngeligste Mare, hun i sine Dage havde kjendt.&#x00BB; &#x2013; Og hun maned og fyrte; for givet sig havde hun aldrig. F&#x00F8;rst ved den tredje Glo syntes hun merke, det hun vilde. &#x2013; Da skridtet hun langkroket paa Taa hen og slap Maren ud gjennem D&#x00F8;rgl&#x00F8;tten.</p>
+<p>Borte ved Sengen tog hun en af de fine H&#x00E6;nder i sine:</p>
+<p>&#x00AB;Hm &#x2013; det er nok enslags Svek!&#x00BB; &#x2013; Saa kniksed hun dybt: &#x00AB;Farvel, Farvel da, Fruen &#x2013; ja, naa har Mara nok aa gj&#x00F8;re for inat.&#x00BB; &#x2013; &#x2013;</p>
+<lb/>
+<p>Der kom nu ogsaa baade den ene og den anden paa Barselsvisit, om ikke for andet saa af Nysgjerrighed. Men en, der aldrig saaes, uden han blev budsendt, var Winkel.</p>
+<p><pb n="73"/>Hans Hustru spurgte ham engang: &#x00AB;Slig vilde du vel komme til hvilkensomhelst, der bad dig?&#x00BB;</p>
+<p>&#x00AB;Ja, det vilde jeg,&#x00BB; svarte han.</p>
+<p>Hun pr&#x00F8;ved s&#x00E6;tte sig op.</p>
+<p>&#x00AB;Nei, lig du,&#x00BB; sagde han strengt. Og hun laa. Rakte en Haand ud, men han saa den ikke.</p>
+<p><hi rend="italic">Han</hi> havde ingenting at sige hende.</p>
+<p>Men <hi rend="italic">hun</hi> vilde tale, tale uafbrudt, naar han sad der:</p>
+<p>&#x00AB;Herren gav, Herren tog, &#x2013; og Herren gav mig igjen, Winkel. En Vanskabning for en Cherub. &#x2013; Takket v&#x00E6;re du, Gud, for din Velgjerning, at du lader Mennesket v&#x00E6;re daarligt fra F&#x00F8;dselen af, &#x2013; og at du straffer dem, fordi de maatte annamme din F&#x00F8;dselsdagsgave. &#x2013; Takket v&#x00E6;re du, som lader Neslen br&#x00E6;nde, Tornene stikke, gale Hunde bide os og Giftslanger spr&#x00F8;ite Edder i aabne Saar. &#x2013; Jo, jeg ser det. &#x2013; Han, som sendte Landeplager over &#x00C6;gypten, han sender Sj&#x00E6;leplager over Mennesket. &#x2013; Men hjems&#x00F8;gte du alle onde Mennesker, da udd&#x00F8;de jo din Jammerdal! &#x2013; Aa, Herren han er vis og retf&#x00E6;rdig og miskundelig til evig Tid. &#x2013; Derfor v&#x00E6;lger han sig Syndebukke, Herren. &#x2013; &#x2013; Takket v&#x00E6;re du, Gud, som gjorde mig dertil, ligesaalet som du lader Barn forvokse sig i Morsliv. &#x2013; Nei, nei, gaa ikke, Winkel! &#x2013; Jeg takked jo bare. Takked for al hans ubegribelige Naade, h&#x00F8;rte du. &#x2013; Men ved du, hvorfor jeg leved til nu? Kunde jeg ane, at Redningsfyret, jeg styred efter, var en Dj&#x00E6;velens, eller &#x2013; hvad ved jeg? &#x2013; kj&#x00E6;re Gudfaders Bl&#x00E6;ndlygte? &#x2013;</p>
+<p><pb n="74"/>Aa, det som ligger derude, du, er ogsaa en Guds Skabning. &#x2013; &#x2013; Og Gud skabte Mennesket i sit Billede &#x2013; vel &#x2013; vel &#x2013; &#x00C6;re v&#x00E6;re Gudfaders Formsans! Humbug altsammen!</p>
+<p>Spotte min B&#x00F8;rnel&#x00E6;rdom, siger du? &#x2013; Men du, det er jo netop dette med B&#x00F8;rnene &#x2013; mine B&#x00F8;rn. &#x2013; &#x2013; Nei, ved du, hvad jeg tror paa, Winkel? &#x2013; Jo, der er noget, som v&#x00E6;ver sig lig en irret Traad gjennem Skabningen, noget som en br&#x00E6;ndende V&#x00E6;ge i Menneskesj&#x00E6;lene, &#x2013; der det har sit Altar og selv er den evige Ild &#x2013; Ironien, Winkel. Hvem ved, kanske var <hi rend="italic">det</hi> Guden, som skabte Verden, og engang lader Verden forgaa.</p>
+<p>&#x2013; Vorherres Hevn, siger du &#x2013; det som ligger derude! Hvorfor skulde da Gudherren kaste Hevn over mig? Du derimod. Er du &#x2013; Vorherre?</p>
+<p>Nei, gaa ikke &#x2013; jeg ber dig, Winkel. &#x2013; Husker du Dag, du? Aaja, det vidste jeg nok. Jeg havde Gl&#x00E6;de af ham &#x2013; du blev ved Sorgen, den langvarige. &#x2013; Aa, det gj&#x00F8;r ondt herinde, i Brystet, tror jeg. &#x2013; T&#x00E6;nk, om du holdt mig i Haanden. &#x2013; Nei. &#x2013; Husker du de s&#x00F8;te &#x00D8;inene, Winkel, med de ganske, ganske blonde Brynene over? Og N&#x00E6;sen du! &#x2013; &#x2013; Men deiligst var Munden. N&#x00F8;gen var han den mest fuldendte Gud Amor, saa lubben og kraftig &#x2013; ret som et Lys den lille Ryggen. &#x2013; &#x2013; Aldrig skal jeg se den deilige lille Ungen min mer. Jeg fik bare Lov at v&#x00E6;re Kr&#x00F8;blingemor, jeg. Hovedet stort og rundt som Lampekuppelen &#x2013; Fiske&#x00F8;ine og Froskemund. Fy, fy &#x2013; Kr&#x00F8;blingemor, Kr&#x00F8;blingemor!</p>
+<p><pb n="75"/>Ikke nogen Kr&#x00F8;bling heller? &#x2013; &#x2013; Vis mig ham da vel, eller jeg kan selv. Ikke hold i mig &#x2013; jeg vil op, h&#x00F8;rer du! &#x2013;</p>
+<p>Du er som Sten og Fjeld, du! &#x2013; &#x2013; Men jeg har en Revolver. Hvad, om jeg en dag sagde: Hei, du Dj&#x00E6;vel, som pusted paa mig, da jeg f&#x00F8;dtes, &#x2013; og du Vorherre, som har elsket mig saa saare med dit Ris &#x2013; tag mig, hvem som vil! &#x2013; For om Helvedet paa Jorden afl&#x00F8;ses af Helvedet under Jorden, skader ikke.&#x00BB;</p>
+<p>&#x00AB;Herregud, d&#x00F8;m hende ikke, Stakkaren &#x2013; Herregud!&#x00BB; &#x2013; &#x2013;</p>
+<p>&#x00AB;Jeg ved ikke, hvad der er at gj&#x00F8;re,&#x00BB; sagde Winkel til Doktoren. &#x00AB;Hun staar paa Gravens Rand og spotter Vorherre, saa det lyser. Vi kvied os for at vise hende Ungen. &#x2013; Men tredje Dagen sov hun ligesom saa inderlig godt, saa Berte gik fra hende lidt. &#x2013; Og, Gud tr&#x00F8;ste os, havde hun ikke da kr&#x00F8;bet op og seet paa ham. &#x2013; Urolig er hun &#x2013; om ikke andet ligger hun og kravser opefter V&#x00E6;ggen. Vi laaser D&#x00F8;rene naturligvis. Men binde hende t&#x00F8;r vi ikke &#x2013; da rased hun nok Indvoldene ud af sig.&#x00BB;</p>
+<p>&#x00AB;Hun skal faa Morfin,&#x00BB; sagde Doktoren, &#x00AB;saa blir hun nok rolig. Og det kraftige Legeme vil hj&#x00E6;lpe sig selv. &#x2013; Men De ved jo, Winkel, Deres Hustru er en sjelden intensiv Natur, af den Slags, som har let for at blive gaaende med et Malum inveteratum, saa&#x00BB; &#x2013; &#x2013;</p>
+</div>
+<div type="chapter" n="17">
+<head type="main">XVII.</head>
+<p><pb n="76"/>I Drengestukammeret sad Jon og Perikles Winkel, bandende den usalige Skj&#x00E6;bne, som nu atter havde fordrevet dem fra Hovedbygningen.</p>
+<p>Sine lange, gulmalte Senge havde de placeret en paa hver Side af den graa Brandmur, der de havde noteret sin Udflytterdags Datum og Aarstal. Og ved Viduet havde de et Klaffebord, hvorpaa laa de sure Snadder og et par B&#x00F8;ger. Men da det trak derborte, laa de mest tilsengs, med St&#x00F8;vlebenene h&#x00F8;it oppe paa Sengefj&#x00E6;len.</p>
+<p>Perikles&#x0027;s Yndlingslekture i denne Tid var Mangors Sundhedsleksikon, af hvilket han ofte l&#x00E6;ste h&#x00F8;it for Broderen om Sygdomme, hvis Symptomer fuldst&#x00E6;ndig passed ind med Perikles&#x0027;s Fornemmelser &#x2013; slige, &#x2013; hvis Ophav var Sindsbev&#x00E6;gelser og Vanr&#x00F8;gt i de forskjelligste Faser. &#x2013; Jon s&#x00E6;nked da sin Knigge, &#x00AB;Omgang med Mennesker&#x00BB;, eftert&#x00E6;nksomt smattende paa Snadden.</p>
+<p>Fast bestemte paa at spille Martyrer og blive beklaget som saadanne, fik de ingen Ovn derop. Istedet varmed de sig sagtens ved en Snaps saan dann og wann og is&#x00E6;r til Aftensmaden. Saa lysned ogsaa Hum&#x00F8;ret en Smule, og de blev sp&#x00F8;gsomme sig imellem.</p>
+<p>F&#x00F8;rste Gang Perikles sagde: &#x00AB;Skaal da, Papa!&#x00BB; kosted det ham rigtignok mange Ekstradrammer at faa Broderen formildet. Men dette blev alligevel ligesom en Indledning, hvorved de to Lidelsesf&#x00E6;ller lidt efter lidt kom i god Passiar om dit og dat der ved Bordet. &#x2013; Det <pb n="77"/>blev da utrolig meget, de fik at more hinanden med fra Nebruget. Kom de saa i Febrilskheden til at velte sine Glas, tegned de utugtige Tegninger i V&#x00E6;den. Og de lo slig, at en gammel Mand, der kom stavrende forbi en Kveldstund, stansed op og spurgte nyfigent:</p>
+<p>&#x00AB;Nei, nei &#x2013; er ber blevet Kalkonhaner?&#x00BB;</p>
+<p>&#x00AB;Aaja-a,&#x00BB; l&#x00F8;d Svaret langtrukkent, &#x00AB;de s&#x00E6;tter sig nok op naa snart, h&#x00F8;res det ud. Ellers er det nok han Jon og han Perikles Winkel, som sidder og pokkelerer i Drengstua. &#x2013; Se bare, aassen de dupper og svinger paa sig bagenom Ruderne!&#x00BB; &#x2013;</p>
+<lb/>
+<p>Naar Gerhard Winkel stak opom til Br&#x00F8;drene, modtog de ham triumferende:</p>
+<p>&#x00AB;Naa Far, Goddag! Velkommen efter! &#x2013; Jo, nu sidder vi pent i det, sagde Musen, hun sad i F&#x00E6;lden. Jagu blev du gift, ja!&#x00BB; &#x2013; Og de tillod sig, hvad de f&#x00F8;r ikke havde turdet, de bebreided ham hans Giftermaal, som havde uroet dem saadan. Desuden likte de godt at opholde sig ved de besynderlige Navne, B&#x00F8;rnene fik: den ene Dag &#x2013; den anden Ove! &#x2013; &#x00AB;Og &#x2013; hvorfor skulde han hede Ove, du?&#x00BB; &#x2013;</p>
+<p>&#x00AB;Hun laa i Vildelse og sagde det, ved dere jo &#x2013; hvorfor ikke lade hende faa det slig &#x2013; Ungen er jo hendes.&#x00BB; &#x2013;</p>
+<p>&#x00AB;Godt er Stegen gjemt; men jeg gaar efter Lugten, sagde R&#x00E6;ven.&#x00BB;</p>
+<p>Og for hver en l&#x00F8;bende Uge blev de &#x00E6;rgerligere, saa tilslut var det, som Galden formelig <pb n="78"/>drypped af dem. &#x2013; Alligevel formaadde de ikke overf&#x00F8;re sin Stemning paa Broderen: &#x00AB;Men det kommer ofte efter med han Gerhard,&#x00BB; tr&#x00F8;sted de sig. &#x2013; Han gik allerede saa tungt i Trapperne og satte sig saa andpusten, straks han var inde. &#x2013; Skj&#x00F8;nt, de forstod sig ikke l&#x00E6;nger paa ham heller og kjendte ham ikke rigtig igjen fra f&#x00F8;r, slig han sad og grubled for det meste og lod dem sige, hvad de lysted. Og som nu den Dagen, de nok vented, han skulde slaaet i Bordet til dem og deres Uforskammetheder.</p>
+<p>&#x00AB;Hvorfor skulde endelig <hi rend="italic">jeg</hi> leve i C&#x00F8;libat?&#x00BB; spurgte han bare. &#x2013; &#x00AB;<hi rend="italic">Jeg</hi>, som kjendte mig sund og kraftig baade paa Legeme og Sj&#x00E6;l, hvorfor skulde ikke <hi rend="italic">jeg</hi> tage mig en ung Kone, en, jeg kunde stelle godt for, saal&#x00E6;nge jeg orked, og som siden fik stelle godt for mig? Til Gjengj&#x00E6;ld havde hun deilige B&#x00F8;rn og hvad mit var Livet ud. &#x2013; &#x2013; Mennesket spaar, men Gud raar, Br&#x00F8;dre. Nu synes jeg mest, jeg er en gammel Mand bare, en fattig Krok, l&#x00E6;ndset for mangt. &#x2013; Men,&#x00BB; tog han i, &#x00AB;tro ikke derfor, jeg vilde have noget ugjort!&#x00BB;</p>
+<p>Saa fortsatte han jevnt henimod dem:</p>
+<p>&#x00AB;Nei, her jeg sidder, siger jeg endda &#x2013; M&#x00E6;ndene burde f&#x00F8;rst gifte sig i Manddomsalderens sidste Aar. For jeg skal sige dere Gutter, det blir en &#x2013; hvad skal jeg kalde det? &#x2013; Gj&#x00E6;ring ved den Blanding af Blod &#x2013; noget, som syder og skummer som sterkeste Mj&#x00F8;d &#x2013; naar da ingen Malurt forgifter.&#x00BB;</p>
+<p>Men det sidste kom ganske lavt borte ved D&#x00F8;ren.</p>
+<p><pb n="79"/>Br&#x00F8;drene saa efter ham, og det blev l&#x00E6;nge stille i Drengestukammeret.</p>
+<lb/>
+<p>Senh&#x00F8;sten i Menneskenes Hug blev skummel og seiglivet som Veiret derude.</p>
+<p>Nede ved Br&#x00F8;nden gik Anne Indl&#x00E6;g med en Rive. Hun puffed og skj&#x00F8;v med den ud i Gr&#x00F8;nsken, uafbrudt skottende til Siden, &#x2013; indtil Riven faldt hende ud af H&#x00E6;nderne, og hun skalv som et Aspel&#x00F8;v over hele sin skrumpne Skrot: &#x2013; Gjedebukken med Hornene, han, som stod og gren opi Bakken &#x2013; han var det, som havde narret hende til at drukne Ungen sin &#x2013; &#x2013; Fanden &#x2013; Fanden &#x2013; &#x2013;</p>
+<p>Mellem Fj&#x00F8;s og Stald m&#x00F8;dtes Gaardsgut og Budeie: &#x00AB;Du stj&#x00E6;ler Gampeh&#x00F8;et mit, du,&#x00BB; sagde han sint og rysted saa l&#x00E6;nge paa Jenten, til hvert et H&#x00F8;straa var rystet fra hende. Da blev ogsaa Jenten sint, og de sloges, saa Totterne g&#x00F8;v.</p>
+<p>Inde i Stuen sad Winkel, gjennems&#x00F8;gende Bunker af gulnede Dokumenter. Det var Skiftesager, Odelsskj&#x00F8;der, Breve med sirlige Skrifttr&#x00E6;k over tykt Pergament og Breve med store, klodsede Bogstaver. Men over Gerhard Winkels Ansigt gled en Tr&#x00E6;kning som af en stor Plage, hvergang D&#x00F8;rene aabnedes.</p>
+<p>Oppe paa V&#x00E6;relset sad Fruen med &#x00F8;rkesl&#x00F8;st foldede H&#x00E6;nder, rokkende sig i Sorger, hun trodde aldrig kunde vige.</p>
+<p>Og over det hele Hus var det, som den saare Barnegraat aanded.</p>
+</div>
+<div type="chapter" n="18">
+<head type="main">XVIII.</head>
+<p><pb n="80"/>&#x00AB;Skyde Ranglebikjer,&#x00BB; sagde Gerhard Winkel, &#x00AB;det kunde jeg i min Ungdom paa mange hundrede Meters Afstand.&#x00BB; &#x2013; Han h&#x00E6;ngte just sit Gev&#x00E6;r paa V&#x00E6;ggen, idet hun kom ind. Indtog saa sin vanlige Plads borte ved Schatollet med Ryggen mod D&#x00F8;ren, bladende i de gamle Papirer.</p>
+<p>&#x00AB;Hvad vil du mig?&#x00BB; spurgte hun. &#x00AB;Du sendte jo Bud efter mig.&#x00BB;</p>
+<p>&#x00AB;Naaja &#x2013; det var bare det, jeg vilde sige,&#x00BB; begyndte han uden at vende sig om mod hende &#x2013; &#x00AB;du ved, mine Br&#x00F8;dre sidder i Drengestuen for Skrigens Skyld &#x2013; og det kunde ogsaa jeg have Lyst til. Men mine Br&#x00F8;dre, de to Winkeler, de skal ind. Ungen skal ud istedet. &#x2013; Har du forstaaet mig?&#x00BB;</p>
+<p>&#x00AB;Ja!&#x00BB;</p>
+<p>&#x00AB;Godt! Der skal s&#x00E6;ttes istand derover. &#x2013; Det var ikke andet. &#x2013; &#x2013; Det var ikke andet, siger jeg!&#x00BB;</p>
+<p>Hun havde straks forstaaet af Maaden, hvorpaa han n&#x00E6;sten st&#x00F8;dte Ordene frem, at der var noget bagom. Hun ante Br&#x00F8;drene.</p>
+<p>&#x00AB;Det blir v&#x00E6;rre og v&#x00E6;rre,&#x00BB; mumled hun.</p>
+<p>&#x00AB;Ja, det blir v&#x00E6;rre og v&#x00E6;rre,&#x00BB; gjentog han utaalmodig.</p>
+<p>Hun ledte som iblinde efter noget: &#x00AB;Winkel.&#x00BB;</p>
+<p>&#x00AB;Naa?&#x00BB;</p>
+<p>&#x00AB;Vil du, <hi rend="italic">jeg</hi> skal bo der ogsaa?&#x00BB;</p>
+<p>&#x00AB;Du? Nei &#x2013; ikke endnu!&#x00BB; &#x2013; Winkel pusted <pb n="81"/>tungt. &#x2013; Se her du,&#x00BB; fortsatte han, da hun fremdeles blev, &#x00AB;slig skrev min Bedstefar! &#x2013; Hvad staar der?&#x00BB;</p>
+<p>&#x00AB;Jeg skj&#x00F8;nner jo ikke den Skriften.&#x00BB;</p>
+<p>&#x00AB;Min trofaste Viv staar der.&#x00BB; &#x2013; Han blev tyk i M&#x00E6;let: &#x00AB;Slig kunde de alle skrevet.&#x00BB;</p>
+<p>&#x00AB;Hvem, mener du, kan ikke si det samme?&#x00BB; tog hun sig sammen. &#x00AB;Jeg ved det ikke.&#x00BB;</p>
+<p>Gerhard Winkel fik noget henimod en Lysning i &#x00D8;inene, idet han braavendte sig. Men hun holdt ikke Blikket ud. &#x2013; Og Lysningen sluktes i Winkels &#x00D8;ine. Paa Bordet saa hun en sterkbygget Haand, som gjorde et Ryk og &#x2013; atter blev liggende. &#x2013; Saa begyndte den rolig at blade igjen. Men hun blev staaende og se paa den Haanden. &#x2013; Hun havde f&#x00F8;lt den til Kj&#x00E6;rtegn, vidste, den var var, og den var haard. &#x2013; Uvilkaarlig str&#x00F8;g hun med sin Lillefinger over Haanden, som havde rykket saa besynderlig.</p>
+<p>&#x00AB;Du er naadig da, mener du, som ikke lader din Kone bo i Drengestuen?&#x00BB; spurgte hun.</p>
+<p>&#x00AB;Ja.&#x00BB;</p>
+<p>&#x00AB;Eller i Grisehuset &#x2013; eller i Stalden?&#x00BB; fortsatte hun, halvt sp&#x00F8;gende.</p>
+<p>&#x00AB;Der gives nok de, som vilde gjort saa,&#x00BB; svarte han alvorlig. Saa vendte han sig helt om imod hende: &#x00AB;Skal du snart rende tilskogs i Selskabspynt?&#x00BB; spurgte han pludselig. &#x2013; &#x00AB;Nu er han kommet til Bygden igjen, han &#x2013; Fyren!&#x00BB;</p>
+<p>Der var det altsaa! Paula Winkel retted sig langsomt, fornemmende med engang en Trods <pb n="82"/>dukke op i sig. &#x2013; Hun fik enslags Rygst&#x00F8;tte, syntes hun:</p>
+<p>&#x00AB;Jeg ved knapt, hvem du sigter til. Men til Skogen gaar jeg sagtens.&#x00BB;</p>
+<p>Gerhard Winkel reiste sig med N&#x00E6;ven mod Pulten, mens i den ene Tinding Pulsaaren svulmed til en virret, blaa Snor:</p>
+<p>&#x00AB;Til Skogen gaar du sagtens ikke. &#x2013; Pas dig for det!&#x00BB;</p>
+<p>Da br&#x00F8;d det ud af hende i Lidenskab &#x2013; og forekom det hende i &#x00D8;ieblikket, som var hun selv den forurettede:</p>
+<p>&#x00AB;Har jeg nogen Egtef&#x00E6;lle at sp&#x00F8;rge? Hvad har du med mig, andet end at du Tomme for Tomme driver mig tilbage did, du n&#x00F8;digst vil &#x2013; men der <hi rend="italic">jeg</hi> finder Glemsel? &#x2013; Nei, jeg, jeg har ingen Egtef&#x00E6;lle at sp&#x00F8;rge. &#x2013; Det ved du bedst selv. Og jeg gaar, jeg, hvor i Verden jeg lyster.&#x00BB;</p>
+<p>Han havde ladet hende snakke. Men det hvidned om hans &#x00D8;ine og Mund. Og pludselig rakte han Haanden ud. &#x2013; Den blev en stentung Byrde om hendes Nakke og tvang hende ikn&#x00E6;. Hun skalv, men smilte.</p>
+<p>&#x00AB;Tror du, det ikke er Alvor?&#x00BB; mumled han og snapped noget fra Pulten. &#x2013; Hun h&#x00F8;rte det hvine og f&#x00F8;lte Lufttr&#x00E6;kket forbi sig, i et Smeld mod Gulvet. Og Remmen h&#x00E6;vedes paany. Og den knistred og suste som en Sv&#x00F8;be, snart ved hendes ene Side, snart ved den anden, i skarpe Knald mod Gulvet. Hun glemte Smilet &#x2013; r&#x00F8;rte <pb n="83"/>en Haand og kjendte en br&#x00E6;ndende Svie &#x2013; begyndte at blive paa Graaten, st&#x00F8;nned lavt:</p>
+<p>&#x00AB;Fy &#x2013; fy &#x2013; Gerhard!&#x00BB;</p>
+<p>Da trodde hun, han vilde slaa hende med Haanden. Men det var Remmen, som sl&#x00E6;ngtes hen i en Krog. Og han blev staaende forpustet foran hende. Hun laa der ikn&#x00E6;, tilintetgjort og ydmyget som aldrig f&#x00F8;r i sit Liv, uden Tanke paa at komme sig op, laa imod ham med vaade, skamfulde &#x00D8;ine. &#x2013; &#x2013; Der fik han den kjendte Tr&#x00E6;kning ved Munden fra gamle Dage, naar han klarned mod Godveir. &#x2013; I det samme b&#x00F8;ied han sig ned, reiste hende med et eneste Tag under Armene og &#x2013; kyssed hende midt paa Munden.</p>
+<p>Hun kravsed H&#x00E6;nderne fast i hans Tr&#x00F8;ie, lo, graat, vilde ikke slippe &#x2013; og fatted ingenting, da han skj&#x00F8;v hende fra sig:</p>
+<p>&#x00AB;Saa saa &#x2013; gaa nu!&#x00BB; &#x2013;</p>
+<p>&#x00AB;Men du, du &#x2013; nei.&#x00BB; &#x2013; Hun h&#x00E6;ngte efter og bed ham i Skjeggekinden, idet han satte sig, og Gerhard Winkel blev raadvild et Sekund. Han ligesom vented, hun skulde sige noget; men det kom ikke, &#x2013; og han skj&#x00F8;v hende fra sig paany. &#x2013; Stemmen l&#x00F8;d haardere:</p>
+<p>&#x00AB;Gaa, har jeg jo sagt!&#x00BB;</p>
+<p>Hun fors&#x00F8;gte at summe sig, der hun stod:</p>
+<p>&#x00AB;Gaa &#x2013; for bestandig, mener du?&#x00BB;</p>
+<p>&#x00AB;Nei, ved du,&#x00BB; svarte han koldt, &#x00AB;for da slog Skammen F&#x00F8;lge.&#x00BB;</p>
+<p>&#x00AB;I Graven ogsaa?&#x00BB;</p>
+<p>&#x00AB;Ja.&#x00BB; &#x2013; Han fik et polisk Blink i &#x00D8;inene og <pb n="84"/>fortsatte hastig: &#x00AB;Du faar ingen Ligf&#x00E6;rd, ser du &#x2013; ingen Parade i Blaasalen &#x2013; ingen Kranser paa Kisten. Ja, den blir nok n&#x00E6;rmest som en Pakkasse den da, og graves ned &#x2013; udenfor Kirkegaardsmuren.&#x00BB; &#x2013;</p>
+<p>Han h&#x00F8;rte hende tusle ud, vendte sig og saa langt mod D&#x00F8;ren. Han t&#x00F8;rred et par Sveddraaber bort fra Panden med det r&#x00F8;de Lommet&#x00F8;rkl&#x00E6;de:</p>
+<p>&#x00AB;Ja, du Paula, du Paula! Men det er jo du, som maa sige det. Du.&#x00BB; Og atter begyndte han at blade i de gulnede Dokumenter. &#x2013; Men den brede Haand skalv.</p>
+<lb/>
+<p>I Kl&#x00E6;deskammeret sad Paula. Hun vidste ikke hverken frem eller tilbage. Alt, hun havde t&#x00E6;nkt, alt, hun havde gjort, og alt, som havde h&#x00E6;ndt, det var i et eneste floket N&#x00F8;ste for hende nu. &#x2013; Eller &#x2013; hun saa det f&#x00F8;rst nu i al dets frygtelige Uredighed. &#x2013; Og hun graat uafladelig med Hovedet ind i Kl&#x00E6;derne. Hun var nu blevet saadan en Taareperse, at hun selv var flau over det og gjemte det bort. Og N&#x00F8;glen havde hun taget med sig ind. &#x2013; Ingenting hjalp hende, syntes hun, ingenting. &#x2013; Og Leden, hun havde v&#x00E6;ret tr&#x00E6;t af, var blevet Kvide paany, fordi der f&#x00F8;iedes nye Stik i Flugt med de gamle. &#x2013; &#x2013;</p>
+<p>Solskinnet gled over de stribede Rullegardiner &#x2013; lagde sig i tunge, st&#x00F8;vede Lag paa Lag. &#x2013; Og Solskinnet blev en Skraastrime blot &#x2013; skinnende grelt i en r&#x00F8;d Tr&#x00F8;ie &#x2013; flydende flakt over en sort Kjole, en med kr&#x00F8;llet, glinsende Silkechiffon. &#x2013; &#x2013; <pb n="85"/>Hun sad og saa, krammed indi med H&#x00E6;nderne. &#x2013; Jo, den kunde spr&#x00E6;ttes op og glattes, og den vilde blive ganske &#x00E6;ngstelig nobel paany, saa diskret. Bare en blaa Blomst halvt nedi alt det sorte, en Asters, et par giftige Blaabjelder. &#x2013; Ah, der inde i Skogen! &#x2013; Han sparte ikke paa Smil, han, ligesaalidt som paa Elskov. &#x2013; Ne-i, han betvang sig ikke, og han skr&#x00E6;mte ikke. Men han &#x2013; &#x2013; kratsch, der braged Chiffonen i to lasede Dele. &#x2013; Hun blev n&#x00E6;sten selv overrasket, skued bedagelig sit eget Verk, h&#x00E6;ngte den saa resigneret op. &#x2013;</p>
+<p>Hun l&#x00F8;fted paa Rullegardinet. &#x2013; Nede paa Gaarden gik Ramstadkrug, og det gav et Sting i hende af en Sammenligning, som slog. &#x2013;</p>
+<p>Men Solen &#x2013; se, den sank som en l&#x00F8;dig Guldklump nedimellem Tr&#x00E6;rne. &#x2013; Der t&#x00E6;ndte den Skogen &#x2013; der skinned den r&#x00F8;d som St. Hansbaal &#x2013; der flakked det bristende, som af Gl&#x00F8;d i vaade Kvister. &#x2013; &#x2013;</p>
+<p>Hvad gik af Ramstadkrug? Slig han moverte snart her, snart der. Der gav han sig til i Staldd&#x00F8;ren paa Udkig frem mod Huset. &#x2013; Ja, den Ramstaden var fuld af Paafund og besynderlig i alt! Man paastod jo nok, han gik Snigveie og ved Gl&#x00F8;ghed subbed til sig mer end nogen anden ved Ansigts Sved. &#x2013; Nu havde han vist en Biindt&#x00E6;gt fore &#x2013; kanske noget, han skulde anmode Winkel om i Enrum, noget Raskeri, Bordstumper, Vedaffald. &#x2013; &#x2013; Winkel ja &#x2013; Winkel! &#x2013; En trykkende Byrde kom over hende. &#x2013; Han kunde knuge med Haand og Aand, havde knuget nu i over et Aar. &#x2013; Hun <pb n="86"/>f&#x00F8;lte paany, hvorledes Remmen suste, og hun vidste, hun havde fortjent mer end Susen &#x2013; han havde havt Lov at slaa hende ihjel. &#x2013; &#x2013; Det uredige N&#x00F8;ste virred og virred. &#x00AB;Ja, det blir v&#x00E6;rre og v&#x00E6;rre,&#x00BB; h&#x00F8;rte hun Winkels Stemme gjentage. &#x2013; &#x00AB;Det blir v&#x00E6;rre og v&#x00E6;rre,&#x00BB; sagde hun selv. Og atter dukked den frem, Scenen dernede. &#x2013; Men ud af N&#x00F8;stet sprat noget lysende med ett. &#x2013; Hvad nu, at hun ikke havde fundet det allerf&#x00F8;rst. Men hun <hi rend="italic">havde</hi> fundet det allerf&#x00F8;rst, dernede, f&#x00F8;r han st&#x00F8;dte hende fra sig, da det floked sig bort i det skr&#x00E6;kkelige altsammen. &#x2013; &#x2013; At alt kunde glide bort under et Kys, hans Kys! &#x2013; Komisk ogsaa! &#x2013; Sligt et digert Smeldkys det var! &#x2013; Hun tog sig for Brystet i en pludselig Gl&#x00E6;de &#x2013; og lo:</p>
+<p>&#x00AB;Jo, nu <hi rend="italic">skulde</hi> Winkel blive blid!&#x00BB; &#x2013; Hvordan vidste hun ikke, men han <hi rend="italic">skulde</hi>. For han <hi rend="italic">kunde</hi>, og det var Kvintessensen.</p>
+<p>&#x2013; Men hun blev underlig i Kn&#x00E6;rne, da hun n&#x00E6;rmed sig Stued&#x00F8;ren. &#x2013; Om han nu bare kylte hende fra sig paany? &#x2013;</p>
+<p>&#x2013; Der sad han som f&#x00F8;r og vendte sig ikke.</p>
+<p>Hun flytted lidt paa Stolene, ordned nogle B&#x00F8;ger. Forgj&#x00E6;ves. Fra Siden bemerked hun, at hans Hudfarve var r&#x00F8;d imod &#x00D8;inene. Ellers intet. Saa blaaste han i N&#x00E6;verne engang.</p>
+<p>&#x00AB;Synes du, her er koldt?&#x00BB; voved hun sp&#x00F8;rge, og hun h&#x00F8;rte sin Stemme, bl&#x00F8;d, douce, som et Haandstr&#x00F8;g over ham.</p>
+<p>&#x00AB;Aaja!&#x00BB;</p>
+<p>Hun putted selv Ved ind i Ovnen &#x2013; Vedtr&#x00E6; <pb n="87"/>paa Vedtr&#x00E6;, til den blev d&#x00F8;rgende fuld. Fandt Fliser og Bark og t&#x00E6;ndte Fyr. &#x2013; Hun rusled og pusled bag hans Ryg i det uendelige &#x2013; sukked imellem &#x2013; stod stille, stirrende imod den brede Ryg &#x2013; og havned tilsidst helt fremfor Pulten. &#x2013;</p>
+<p>&#x00AB;Vil du noget?&#x00BB; spurgte han.</p>
+<p>Hun studsed ved en besynderlig Blankhed i hans &#x00D8;ine:</p>
+<p>&#x00AB;Ja ja &#x2013; jeg vil noget!&#x00BB; &#x2013; Hun stammed forlegen og lagde begge H&#x00E6;nderne over hans: &#x2013; &#x00AB;At du &#x2013; du&#x00BB; &#x2013; atter m&#x00F8;dte hun Blikket &#x2013; &#x00AB;maa&#x00BB; &#x2013; men Blikket stod der fremdeles imod hende &#x2013; &#x00AB;v&#x00E6;re glad i mig igjen.&#x00BB;</p>
+<p>Det drog sig til et Smil om den tause Mund &#x2013; og uden at vide hvorledes laa Paula Winkel sin Egtef&#x00E6;lle for Fode med Armene krampagtig om hans Kn&#x00E6;r:</p>
+<p>&#x00AB;Tilgiv mig, du &#x2013; jeg har havt det saa ondt. Jeg ber dig, ber dig jo!&#x00BB; &#x2013; Og hun tigged og bad med Ansigtet t&#x00E6;t indtil ham, og Ordene snubled: &#x00AB;Gerhard!&#x00BB; &#x2013; Da f&#x00F8;lte hun et Str&#x00F8;g over sit Hoved. &#x2013; Det l&#x00F8;ftedes. &#x2013; Atter de blanke, besynderlige &#x00D8;ine; de saa saa dybt, dybt ind i Sj&#x00E6;len, syntes hun. Men hun udholdt dem nu.</p>
+<p>&#x00AB;Gud velsigne dig, du deilige Paula min!&#x00BB; kom det pludselig fra Winkel som et v&#x00E6;ldigt Befrielsens Suk. &#x00AB;Ja, ja, jeg tilgiver dig &#x2013; saa sikkert som den, der er st&#x00F8;rre end jeg, nok tilgiver dig &#x2013; hvad i verden du ogsaa har syndet.&#x00BB; &#x2013;</p>
+<p>Hun b&#x00F8;ied hovedet indtil ham paany, medens Kroppen rysted som i Krampe.</p>
+<p><pb n="88"/>&#x00AB;Saa saa, ikke graat nu, Paula!&#x00BB;</p>
+<p>&#x00AB;Jeg har havt det saa ondt, Gerhard,&#x00BB; gjentog hun.</p>
+<p>&#x00AB;Ja, ja, jeg har nok seet det. Men du skj&#x00F8;nner da, det var du, som maatte sige det. Du &#x2013; &#x2013; Saa saa, ja, nu skal alt blive godt igjen.&#x00BB;</p>
+<p>&#x00AB;Nei, lad mig ligge her, &#x2013; ligge paa Kn&#x00E6; for dig hele Livet.&#x00BB; &#x2013; Hun str&#x00F8;g og str&#x00F8;g ham, hvor hun traf. &#x2013; &#x00AB;Jeg skal elske dig, Gerhard, som jeg elsker dig nu &#x2013; aldrig blive tr&#x00E6;t &#x2013; stelle om dig baade sent og tidlig.&#x00BB; &#x2013;</p>
+<p>&#x00AB;Gud signe dig for det, Paula &#x2013; Ungen min! Jeg kan lidet gj&#x00F8;re.&#x00BB;</p>
+<p>&#x00AB;Det er saa forunderligt at kysse dig, du,&#x00BB; hvisked hun kortpustet. &#x00AB;Det var ikke slig f&#x00F8;r. Om du vilde kysse mig meget, forf&#x00E6;rdelig meget!&#x00BB;</p>
+<p>&#x00AB;Ja, jeg skal nok kysse dig meget, mer end du selv vil, husker du &#x2013; siden. Og det onde aaret skal vi nok se at glemme, ja.&#x00BB;</p>
+<p>&#x00AB;Saa skal vi leve, Gerhard, som aldrig f&#x00F8;r.&#x00BB; &#x2013;</p>
+<p>&#x00AB;H&#x00F8; &#x2013; det siger sig selv det, Veslepusen min! &#x2013; Men det er saa koldt her, synes jeg. Du er nok daarlig Fyrb&#x00F8;der idag.&#x00BB; &#x2013;</p>
+<p>&#x00AB;Kj&#x00E6;re dig, Ovnen er jo snart r&#x00F8;d, den. &#x2013; Gerhard!&#x00BB; &#x2013; hun trykked sig op mod ham: &#x00AB;Faar jeg v&#x00E6;re hos dig inat?&#x00BB;</p>
+<p>&#x00AB;Jada, jada, inat og alle N&#x00E6;tter!&#x00BB;</p>
+<p>&#x00AB;Jeg er blevet saa voldsomt glad i dig du. Skal vi gaa?&#x00BB;</p>
+<p>Gerhard Winkel reiste sig:</p>
+<p><pb n="89"/>&#x00AB;Jo, her er sandelig baade koldt og varmt, du Paula!&#x00BB; &#x2013; Der var kommet en skj&#x00E6;r Hinde over hans &#x00D8;ine &#x2013; en tyk, graa Haarlok laa strid ned i Panden. Han tog et Skridt frem, men blev staaende, st&#x00F8;ttende den ene Haand mod Bordet:</p>
+<p>&#x00AB;Aa, gaa efter Stokken min, du.&#x00BB;</p>
+<p>Kommen op paa V&#x00E6;relset faldt en stor Frost over den sterke Gerhard Winkel.</p>
+</div>
+<div type="chapter" n="19">
+<head type="main">XIX.</head>
+<p>Med sygdom som med kj&#x00E6;rlighed &#x2013; ofte vides ikke, hvorfra den kommer.</p>
+<p>Sygdommen, som tog Gerhard Winkel hin Aften, hed Lungebet&#x00E6;ndelse.</p>
+<p>&#x2013; Natten igjennem havde han svedende kastet sig under et Bjerg af Dyner. Og udpaa Morgensiden begyndte han at sl&#x00E6;nge dem af, saa fort hun atter lagde dem op. &#x2013;</p>
+<p>&#x00AB;Der sidder de, Br&#x00F8;drene,&#x00BB; sagde han, pegende ud i V&#x00E6;relset, &#x00AB;som Padder paa en sur Ost.</p>
+<p>Javist er hun snil, stakkars, &#x2013; mer plaget af Tungsind end Letsind. Men hun maa komme f&#x00F8;rst, om saa Brystet forbl&#x00F8;der baade paa hende og mig. &#x2013; &#x2013; Svider gj&#x00F8;r det &#x2013; &#x2013;</p>
+<p>Puh, har du seet slig en Planke da, Kar? vreden som en gammel Kj&#x00E6;rring. Bjerketr&#x00E6; med Orebark. &#x2013; Hvad er mellem Barken og Veden? Hm, er det dig, stakkars, &#x2013; tror du ikke, jeg kan tage dig v&#x00E6;k &#x2013; har jeg for klodsede H&#x00E6;nder?</p>
+<p>Hvad er <hi rend="italic">det</hi> for en rund kugle? Osten! Nei, <pb n="90"/>da rider jeg heller paa en vreden Planke! &#x2013; Er det Veslepusens Levnet det?&#x00BB; &#x2013;</p>
+<p>Hun havde siddet, h&#x00F8;rt og gjemt for at fort&#x00E6;lle ham siden. Men som det led, blev han vildere og Fantasierne ikke forstaaelige l&#x00E6;nger. &#x2013; Aanden besv&#x00E6;redes, og Brystet gik i store Tag. Og hun havde angst sunket ikn&#x00E6; ved Siden af Sengen, mens han trev Armene ud ifra sig, saa de stundom traf hende med haarde Slag over Ansigt og Skuldre. &#x2013; Engang vaagned han da til Bevidsthed et &#x00D8;ieblik, sagde ganske tydelig midt indi:</p>
+<p>&#x00AB;Gaa unda vel.&#x00BB;</p>
+<p>Hun gjorde ikke. Tog Slagene. Blev siddende saa underlig sansesl&#x00F8;s og iagttage hver Bev&#x00E6;gelse, hver Muskeltr&#x00E6;kning i hans Ansigt, som nu var r&#x00F8;dt af Feberen. Hun kunde se Pulsaaren hamre i Tinding og Hals, mens H&#x00E6;nderne var kolde som paa en D&#x00F8;d. Og lod han en Strubelyd h&#x00F8;res, risled R&#x00E6;dselen rykvis gjennem hende. Men i Mellemrummene t&#x00E6;nkte hun sl&#x00F8;vt: Han kommer sig nok &#x2013; snart!</p>
+<p>Men Besindelsen lod vente paa sig. Han st&#x00F8;nned og mased under S&#x00F8;vnen. Eller snakked med lallende Tunge og aabne, forvildede &#x00D8;ine. &#x2013; Og Timerne sl&#x00E6;bte sig saa langsomt hen, en efter en og en efter en. Og han laa stille stundevis, bare gnissed med T&#x00E6;nderne. &#x2013;</p>
+<p>Udpaa Eftermiddagen kom en Pige og spurgte, om Ramstad&#x0027;en maatte faa Fruen i Tale. &#x2013; Ramstadkrug var gaaet ind i Gangen, som det syntes, i ren Forfjamselse over Husbonds Sygdom. &#x2013;</p>
+<p><pb n="91"/>&#x00AB;Gud tr&#x00F8;ste og hj&#x00E6;lpe os for han Far da, Fruen &#x2013; saa snil og reel en Mand.&#x00BB; Han kasted et rapt Blik efter Jenten og lukked Kj&#x00F8;kkend&#x00F8;ren godt til efter hende. &#x2013; &#x00AB;Jeg har jagu gaat her i flere Dage, jeg,&#x00BB; slog han om, idet han trak et Brev ud af Tr&#x00F8;ien, &#x00AB;og snoset efter Fruen. Det var at levere egenh&#x00E6;ndig, saa ingen saa det!&#x00BB; &#x2013; Hans Mislet l&#x00F8;fted paa Huen og pilted bort gjennem Gangen, Hovedet dybt nedimellem Skuldrene. &#x2013; &#x2013; Fru Paula Winkel &#x2013; stod der. &#x2013; Der var Elskov i Skriften, hun kjendte den. &#x2013;</p>
+<p>&#x00AB;Hans!&#x00BB; raabte hun &#x2013; &#x00AB;Hans!&#x00BB; &#x2013; Han kom n&#x00F8;lende. &#x2013; &#x00AB;Giv fra dig det Brevet, du,&#x00BB; sagde hun h&#x00F8;it og nerv&#x00F8;st, &#x00AB;der du fik det.&#x00BB; &#x2013;</p>
+<p>Hun stansed ved Trappevinduet, der en Barneklynk naadde hende fra Drengestuen. &#x2013; Jaja, oppe i Sovev&#x00E6;relset en syg Mand &#x2013; bortover Pladsen Svaret til en Elsker &#x2013; indover Skogene Elskeren, Hundene, Livsens koglende Liv. &#x2013; &#x2013;</p>
+<p>&#x00AB;Paula!&#x00BB; h&#x00F8;rte hun Winkels Stemme indifra V&#x00E6;relset.</p>
+<figure rend="asterisk"/>
+<p>Men havde Gerhard Winkel v&#x00E6;ret medgj&#x00F8;rlig som frisk, naar da ellers intet forarged ham, blev han som syg &#x2013; som de Mennesker flest, der lidet har f&#x00F8;lt af legemlig Smerte &#x2013; utaalsom og gr&#x00E6;tten. Og den f&#x00F8;rste Tid blev sagtens en Pr&#x00F8;velsens Tid saavel for Hustruen med det syge Sind som for Manden med det syge Legeme.</p>
+<p>Vilde saaledes Gerhard Winkel stadig have sin <pb n="92"/>Hustru om sig og ingen anden, jaged han hende dog ofte v&#x00E6;k i &#x00C6;rgrelse:</p>
+<p>&#x00AB;Gaa du!&#x00BB; sagde han. &#x00AB;Jeg vil ikke se dig. Du gj&#x00F8;r saa alligevel ingen Nytte.&#x00BB;</p>
+<p>Men &#x2013; &#x00AB;hvor blir du af?&#x00BB; rungskreg han om lidt. &#x00AB;Kan du ikke v&#x00E6;re hos mig det Gran, naar jeg er vaagen heller?&#x00BB; &#x2013; Og han overfused hende, saa hun syntes knapt at eie hel Plet tilbage.</p>
+<p>Meget maatte hun gaa og fange Fluer.</p>
+<p>&#x00AB;Se der sidder en. Og der. Er du n&#x00E6;rsynt? Og der,&#x00BB; laa han og pegte. &#x00AB;Og &#x2013; den &#x00E6;kle Talggrisen i Spr&#x00E6;kken der da! Du faar sandelig til &#x00D8;ienl&#x00E6;ge du! Og der en &#x2013; &#x2013;&#x00BB;</p>
+<p>Engang sendte han hende ned efter &#x00AB;Bogen med den spraglede Permen&#x00BB;, at hun skulde l&#x00E6;se h&#x00F8;it for ham. Og da hun kom med den, hev han den langt bortover Gulvet, fordi det jo var den gr&#x00F8;nagtige, ikke den brune, han havde ment. &#x2013; Hun gik atter, t&#x00E6;nkende paa, hvor lidet han ligned sig selv fra f&#x00F8;r. &#x2013; Men det var jo alligevel bedre slig, end at han skulde ligge hen. &#x2013; Og det tyded jo paa en viss Kraft, hvilket da ogsaa samstemte med Doktorens Udtalelse fornylig, at Winkel befandt sig paa Bedringssiden allerede. &#x2013; Det var godt. &#x2013; Ingen i Verden var som Winkel alligevel! &#x2013; Hun stansed et &#x00D8;ieblik i Trappeafsatsen og undred i nerv&#x00F8;st Tankesprang over, hvorfra Br&#x00F8;drene vel havde st&#x00F8;vet frem det gamle Monstrum af en Ljaa, som stod der opmed V&#x00E6;ggen. &#x2013; Hun holdt n&#x00E6;sten paa at l&#x00F8;fte paa den i Farten. Men kom ikke til.</p>
+<p>&#x00AB;Nu er jeg g&#x00F8;rrkjed af at ligge,&#x00BB; erkl&#x00E6;rte <pb n="93"/>Winkel, da hun kom ind med den gr&#x00F8;nspraglede i Haanden. &#x00AB;Nu vil jeg kare mig op lidt.&#x00BB;</p>
+<p>Hun bad ham lade v&#x00E6;re. Nei, det lysned for ham alene ved Tanken. &#x2013;</p>
+<p>&#x00AB;Ud med sig naa!&#x00BB; og han kasted i Sp&#x00F8;g en Pude efter hende i D&#x00F8;ren.</p>
+<p>&#x2013; Kommen tilrette i L&#x00E6;nestolen, l&#x00F8;d Svaret paa hendes Sp&#x00F8;rgsmaal ganske fortr&#x00F8;stningsfuldt:</p>
+<p>&#x00AB;Ret bra, Paulamor &#x2013; ret bra!&#x00BB;</p>
+<p>&#x00AB;S&#x00E6;t nu Vinduet op,&#x00BB; hed det senere, &#x00AB;saa jeg ikke kvavner!&#x00BB; Og da hun ikke vilde, gjorde han det selv. &#x2013;</p>
+<p>&#x00AB;Se saa, nu letner det!&#x00BB; &#x2013; Han trak Veiret dybt. Spurgte saa pludselig:</p>
+<p>&#x00AB;Har jeg v&#x00E6;rt lei mod dig, du? &#x2013; Det var nu stygt. Du ser medtaget ud, tror jeg. &#x2013; Hm &#x2013; ja, vi havde nu t&#x00E6;nkt os det anderledes. &#x2013; Men nu blir jeg snart frisk, skj&#x00F8;nner du.&#x00BB;</p>
+<p>Han kosed sig jevnt der foran Vinduet, smaasnakkende om dit og dat:</p>
+<p>&#x2013; &#x00AB;Nu blir det mere Regn, Veslemor,&#x00BB; sagde han indiblandt, &#x2013; &#x00AB;for der flyver Taagedotter langsmed Vasaasen. &#x2013; Det, sagde vi i gamle Dage, var Aaskj&#x00E6;rringen, som r&#x00F8;gte, du.&#x00BB; &#x2013;</p>
+<p>&#x00AB;Var det det, du!&#x00BB; sagde hun syngende. &#x2013; Hun havde hele tiden staaet og str&#x00F8;get ham over Haanden og gned nu smilende Kinden mod hans Haar:</p>
+<p>&#x00AB;Du kan meget rart, du!&#x00BB;</p>
+<p>&#x00AB;Har du Moro af det da? Du skal faa det altsammen siden, Paulamor.&#x00BB;</p>
+<p><pb n="94"/>&#x2013; &#x00AB;Nu faar jeg l&#x00E6;gge mig kanske da,&#x00BB; sagde han siden. &#x2013; Men hun forf&#x00E6;rdedes ved hans kridhvide Ansigt. &#x2013;</p>
+<p>&#x00AB;Er du sygere?&#x00BB;</p>
+<p>&#x00AB;Aanei &#x2013; lidt mat bare!&#x00BB;</p>
+<p>Men Matheden var stor, slig han blev liggende med glansl&#x00F8;se &#x00D8;ine og pibende Aandedr&#x00E6;t.</p>
+<p>&#x2013; Og samme Nat vendte Feberen tilbage.</p>
+</div>
+<div type="chapter" n="20">
+<head type="main">XX.</head>
+<p>&#x00AB;Den Ljaaen, som stod ude i Gangen,&#x00BB; spurgte Paula sine Svogre en Dag, &#x00AB;hvad skulde I egentlig med den?&#x00BB;</p>
+<p>&#x2013; Ljaaen? De kjendte sandelig ikke til nogen Ljaa. &#x2013;</p>
+<p>&#x2013; Jovist maatte de det. Naar hun nu t&#x00E6;nkte efter, havde den vist staaet der hele Ettermiddagen ogsaa. Hun forklarte dem dens Udseende: &#x2013; Graat kroget Skaft med to Knortekvister til Haandgreb og rustent Blad med Eggen hvidblank efter ny Slibning. &#x2013;</p>
+<p>De to Br&#x00F8;dre vilde ingenting vide om sligt noget paa Gaarden, og hun blev den Dag grundende meget over nogle &#x00D8;iekast, hun havde opfanget imellem dem.</p>
+<p>&#x2013; Men som hun sad i Tusm&#x00F8;rket inde ved Sygesengen, der hendes Egtef&#x00E6;lle nu laa i Brystvatersot, slog en Forestilling ned i hende &#x2013; og jomer hun grubled, des mer klarned det sig ud, <pb n="95"/>D&#x00F8;dsmerket over ham, som laa der. &#x2013; Ingen Vei forbi. Der sneg sig en om i Huset. En forf&#x00E6;rdelig. En, som stilled Ljaaen fra sig i Trappeafsatsen en Gang, vel et andet Sted en anden Gang &#x2013; kanske stod den nu inde i selve V&#x00E6;relset! &#x2013; Og hun lod Blikket sky streife rundt V&#x00E6;ggene. &#x2013; &#x2013; &#x00AB;I Kroken!&#x00BB; var der noget indi hende, som hvisked. Og hun saa.</p>
+<p>&#x00AB;Du er sen,&#x00BB; sagde det, &#x00AB;ved D&#x00F8;ren nu.&#x00BB; Og hun saa og saa, enten hun vilde eller ei, hid og did, stadig om igjen.</p>
+<p>Hver M&#x00F8;rkningstime kom det igjen, naar hun saavidt skimted hans blege Ansigt, hvori &#x00D8;ine og Mund kun blev store, dunkle Huller. &#x2013;</p>
+<p>&#x00AB;Aa, lys ikke saa med Fyrstikker i Krokene, du,&#x00BB; overrasked han hende en Dag. Og fra selvsamme Stund, hun maatte l&#x00E6;gge en D&#x00E6;mper paa sig, blev det bedre. &#x2013;</p>
+<p>&#x00AB;Hvordan skulde det vel gaa mig uden dig som Modvegt,&#x00BB; sagde hun til ham.</p>
+<p>Med det, hun mente vide, havde hun saa meget utalt, syntes hun. Med det, han mente vide, laa han helst taus, kun ventende Bedringen.</p>
+<p>Gerhard Winkel var desuden blevet taalmodigere efter hin Gang, han paadrog sig Tilbagefaldet, og jaged han hende nu ud, skede det, fordi hun skulde tr&#x00E6;kke frisk Luft, ikke blive mat og skr&#x00F8;belig, naar han blev rask. &#x2013; Men hun blev ruslende nede i Stuen, f&#x00F8;lte over hans Pult og Stol, stirred i hans B&#x00F8;ger, lagde sig paa Sofaen i krympende Kvide, f&#x00E6;ldte Taarer over hans sv&#x00E6;re Skindkasjet derude <pb n="96"/>i Gangen &#x2013; s&#x00F8;rged og s&#x00F8;rged over ham, som over en D&#x00F8;d, hun havde voldt ondt.</p>
+<p>Naar hun da atter saa ham deroppe og hans kj&#x00E6;rlige Smil imod sig, toges hun af en voldsom Gl&#x00E6;de ved at have ham endnu, og hun styrted sig ned foran ham. Han l&#x00F8;fted Haanden afvergende for sit saare Bryst, &#x2013; men smilte nok paany, det Smil, der blev skj&#x00F8;nnere og mattere for hver en Dag:</p>
+<p>&#x00AB;Nu elsker du mig mer i en Time, Paula,&#x00BB; sagde han engang, &#x00AB;end f&#x00F8;r i et helt Aar.&#x00BB; &#x2013; Og hun gjemte beskj&#x00E6;mmet sit Ansigt i hans tykke graa Haar, som fl&#x00F8;d der udover Puden. &#x2013; Gerhard Winkels Haar og Skjeg floked sig om hans Hoved som en strid Manke, det faldt tungt over hans brede Pande og lige ned mod de &#x00E6;rlige &#x00D8;ine. &#x2013; Hun saa paa ham, haabl&#x00F8;st, stille, Dag efter Dag &#x2013; saa Manken vokse og Legemet svinde. Han var hendes syge L&#x00F8;ve, hvis Billed hun vilde ridse dybt i sig selv, om ogsaa Blodet pibled, og Ulivssaar forvoldtes.</p>
+<p>&#x00AB;Gerhard, Gerhard,&#x00BB; bad hun meningsl&#x00F8;st, &#x00AB;du maa aldrig d&#x00F8; fra mig.&#x00BB;</p>
+<p>&#x00AB;Nei, ikke endnu,&#x00BB; svarte han trygt. &#x00AB;Men Paulamor, efter al Naturs Orden &#x2013; engang.&#x00BB;</p>
+<p>&#x00AB;Selv da maa du ikke helt forlade mig, Gerhard. H&#x00F8;rer du? Hvis du kan lade v&#x00E6;re.&#x00BB;</p>
+<p>&#x00AB;Nei, Paulamor, da blir jeg nok om dig bestandig.&#x00BB;</p>
+<p>&#x00AB;Gerhard, du &#x2013; jeg kunde graate Blod, over dig, over mig og over det altsammen. &#x2013; Gerhard, du &#x2013; led du sv&#x00E6;rt alle de Aarene, da jeg&#x00BB; &#x2013; hun blev lidt t&#x00F8;r i Stemmen.</p>
+<p>&#x00AB;Nei, jeg led ikke dengang. For jeg kjendte <pb n="97"/>dig ikke anderledes. &#x2013; Men det sidste Aaret, Paula, det trak nok Marg ud af Benene paa mig, det. &#x2013; Saada &#x2013; saada &#x2013; ikke bedr&#x00F8;vet! &#x2013; Naar jeg nu kommer op, skal vi leve Livet fra nyt af, Paulamor.&#x00BB; &#x2013;</p>
+<p>Da &#x2013; som hun kn&#x00E6;lende strakte sig henimod ham, blev hendes Blik fanatisk:</p>
+<p>&#x00AB;Min pr&#x00E6;gtige, sterke Gerhard &#x2013; hvad enten vi lever eller d&#x00F8;r, saa h&#x00F8;rer vi dog sammen, vi to &#x2013; om ogsaa du gammel og jeg ung, du god og jeg daarlig. &#x2013; Min Ven var du, min trofaste Ven, min Far og min Elsker!&#x00BB;</p>
+<p>&#x00AB;Paula &#x2013; Ungen min!&#x00BB; smilte Gerhard Winkel, &#x00AB;min Alderdoms store Barn med de store Sorger og de store Gl&#x00E6;der.&#x00BB;</p>
+<p>&#x2013; Han lagde sin tunge Arm om hendes Nakke, og hun l&#x00E6;ned Hovedet nedtil, lytted og nikked, trodde n&#x00E6;sten selv &#x2013; klamred sig med den D&#x00F8;dsd&#x00F8;mte til Livsens liflige Tr&#x00E6;. &#x2013;</p>
+<figure rend="asterisk"/>
+<p>Saa var det en S&#x00F8;ndags Formiddag efter en Nat i Sp&#x00E6;nding, at han vilde have dem alle om sig:</p>
+<p>&#x00AB;Tag hid en B&#x00E6;nk,&#x00BB; sagde han til Br&#x00F8;drene, &#x00AB;og sid jevnsides I to! &#x2013; &#x2013; Ja, se nu skal snart Vaaraannen begynde, og her ligger jeg endda. Hvad siger I dertil, Br&#x00F8;dre?&#x00BB;</p>
+<p>&#x00AB;Aajo, her er et Sorgens og Sygdommens Hus,&#x00BB; mente Jon.</p>
+<p>Der gled en Tr&#x00E6;kning af Ubehag over den Syges Ansigt.</p>
+<p><pb n="98"/>&#x00AB;Har Gj&#x00F8;dselkj&#x00F8;ringen fanget an?&#x00BB; spurgte han lidt senere.</p>
+<p>Br&#x00F8;drene sad pindestive og h&#x00F8;itidelige paa B&#x00E6;nken &#x2013; Jon med foldede H&#x00E6;nder: &#x2013; Ne-i, den havde ikke. &#x2013;</p>
+<p>&#x2013; Da burde der straks tages fat. Altfor god Gaard Gruvang til at ligge i Vanstel som hidtil. Hvad om de dr&#x00E6;nerte den vasne Sydflotten? &#x2013; Og Laden ramled vist snart ned. En ny maatte til. For Dyrene, stakkars, de fik raaddent H&#x00F8;. &#x2013; Og Lundgren &#x2013; var han kommet til Bygden nu? &#x2013; Naa, de fik se at passe ham op da! For Veslemor, hun skulde ikke have slig en Fillehave, hun. &#x2013; Hvide Singelgange skulde hun gaa i, hun, under de gamle Tr&#x00E6;rne, imellem brogede Blomsterrabatter. &#x2013; Og &#x2013; et eller andet Sted skulde i Grunden en Kobberfont&#x00E6;ne &#x2013; &#x2013; hvad om Pladsen hegnedes med Blodb&#x00F8;g og Roser? &#x2013; &#x00AB;Det vilde du like, Paulamor! &#x2013; &#x2013; Men gamle Winkeln passed vel ikke der,&#x00BB; kom det mat &#x2013; og Skyggen fra en m&#x00F8;rk Tid drog over ham. &#x2013;</p>
+<p>&#x00AB;Her er trangt. Mer Lys du, Paula. Luft! &#x2013; &#x2013; Ser du, Paulamor, dine Singelgange,&#x00BB; pegte han mod Lyset, som str&#x00F8;mmed ind i snorrette og glimrende L&#x00E6;ngder. &#x2013; &#x00AB;Naa &#x2013; hvorfor saa stramme i Fj&#x00E6;sene da, Br&#x00F8;dre? Har du faaet Snue, Per? &#x2013; &#x2013;</p>
+<p>Paulamor liden, stakkar &#x2013; hvad er hun bedr&#x00F8;vet for da?&#x00BB; Stemmen l&#x00F8;d fjern med fremmed Kuldegufs. &#x2013; &#x00AB;Saa, saa, alt blir nok bra, du! &#x2013; &#x2013; Og naar jeg nu blir frisk, saa skal vi sidde sammen da og snakke om det, som er gammelt. &#x2013; &#x2013;</p>
+<p><pb n="99"/>Hm! Hvad er det for Klokker? S&#x00F8;ndagsringing naa. &#x2013; Ja, du kan jo gjerne l&#x00E6;se lidt for os, Paula.&#x00BB; &#x2013;</p>
+<p>Hun tog en tyk, gammel Bog ned af Hylden og l&#x00E6;ste, uden at vide hvad. Men som hun atter m&#x00F8;dte hans Blik, stod det saa underligt imod hende. Han maged Munden til, og hun trodde, han vilde sige noget. Istedet rynked han &#x00D8;ienbrynene &#x2013; som i Livet, naar noget gik ham imod &#x2013; greb hende i Haanden, som vilde han holde hende fast eller rive hende med. &#x2013; Og der droges en t&#x00E6;t Hinde for Gerhard Winkels &#x00D8;ine &#x2013; han gisped tungt &#x2013; og de brast i det samme. Hun forstod. &#x2013; Hans sidste Aande havde hun kysset ind i sin Mund.</p>
+<p>Hun saa sig om:</p>
+<p>&#x00AB;Se, nu kan der gjerne staa Ljaaer rundt alle V&#x00E6;gge, herefter.&#x00BB;</p>
+<p>Saa br&#x00F8;d det vildt ud af hende fra en ut&#x00F8;mmelig Sorgens Kilde. &#x2013; &#x2013;</p>
+</div>
+<div type="chapter" n="21">
+<head type="main">XXI.</head>
+<p>Dag efter Dag kom en sl&#x00F8;v&#x00F8;iet Mand ude i Gangen. Han havde en merkelig Vane: &#x2013; ret som han talte, spilte han &#x00D8;inene op som i stivnende R&#x00E6;dsel. &#x2013; Men han arbeided nu engang saa meget om Natten. I Lygteskin. For den frosne Lerjord, haard som Kl&#x00E6;bersten, maatte graves ud Haandfuld for Haandfuld. &#x2013;</p>
+<p><pb n="100"/>&#x00AB;Naa har jeg fem Alen igjen! &#x2013; Naa har jeg fire &#x2013; tre &#x2013; to og en,&#x00BB; var det han kom og meldte. Og for hver Gang hvidned det skr&#x00E6;kslagne Blik af hans &#x00D8;ine.</p>
+<p>&#x2013; Nei, nei, nei, han havde aldrig fornummet noget derborte. &#x2013; Og han havde dog v&#x00E6;ret Bygdens Graver i gode tyve Aar. &#x2013; &#x2013;</p>
+<lb/>
+<p>I Blaasalen laa Gerhard Winkels jordiske Levninger paa Ligstraa. Men Laaget var over Kisten; fordi hun nu ikke orked se ham mere.</p>
+<p>Ingen maatte komme ind. Hun tusled der ensom og lydl&#x00F8;s. D&#x00E6;kked Vinduerne med dunkle Kors af Gran over de hvide Gardiner, snoed Flor over V&#x00E6;gge og Tag, mens &#x00F8;verst ved Kisten Vokslys i alenh&#x00F8;ie Stager br&#x00E6;ndte Dag som Nat, osed sort og bringeknugende ud i Salen. Hun tusled og pusled omkring derinde, til der blev som et h&#x00F8;itideligt Kapel. En fredlyst Plet var det midt indi Ramlet og St&#x00F8;ien til den anstundende store Begravelse. &#x2013; Men hun saa det altsammen gjennem en Taage &#x2013; eller hun var med som d&#x00F8;d, syntes hun. &#x2013; &#x2013;</p>
+<p>Gaardspladsen ringedes af Graner. Og langt bortover Sletten kj&#x00F8;rtes der mellem de m&#x00F8;rke, alvorlige Geledder, hentet fra Winkelernes Skog. &#x2013; Saa langsomt, langsomt gik det. &#x2013; De hvide Baand ifra Kransene &#x2013; det sorte Flor ifra Hestene og Marskalkstavene der foran &#x2013; Husm&#x00E6;ndene, som trasked og bar paa Lysstagerne &#x2013; og Smaaflammerne, som vifted og slog i gult og i r&#x00F8;dt, kr&#x00F8;b helt ned i V&#x00E6;gen undertiden &#x2013; slukned dog ikke.</p>
+<p><pb n="101"/>Klokkeren stemte op, da Kisten bares. Og F&#x00F8;lget fulgte i dr&#x00F8;velig Marsch til Winkelernes gamle Gravsted, der de snirklede Jernkors stod.</p>
+<p>Kisten firedes i lange Reb, og Kransene kastedes efter. I Haugen ved Siden laa en gulnet Knokkel, den en af F&#x00F8;lget skrabed Grus over med Foden. En sort Mand pr&#x00E6;ked, formaadde ikke, sit &#x00E6;rlige Str&#x00E6;v tiltrods, at putte Skj&#x00F8;nhed i det dorske Gab.</p>
+<p>&#x2013; Saa fik de havresultne Heste trave lystig hjemad som fra Brudevielse.</p>
+<p>Og hjemme paa Gaarden tog Br&#x00F8;drene hende i Haanden:</p>
+<p>&#x00AB;Ja, nu har vi forsynt han Gerhard da.&#x00BB;</p>
+<p>Og Gjesterne placerte sig klyngevis rundt Smaaborde eller st&#x00F8;tted V&#x00E6;ggene inde i Stuerne og ude i Gangen. Der var Winkelslegtninge langveis fra, godlynte M&#x00E6;nd af stampet Kj&#x00F8;d og Muskler, og M&#x00E6;nd som Jon og Perikles &#x2013; at ligne med Kirseb&#x00E6;r, der kun har lidt surt Skind over Stenene. Paula Winkel gik en Smule om i Begyndelsen og snakked med hver en, der minded om den Afd&#x00F8;de. Men hun erfared snart, at der gaves noget bagom, som hun bedre kjendte fra Svogrene, Smaaligheder, Misundelse og uventede Stik. &#x2013; Og hun trak sig v&#x00E6;k. Ind i Blaasalen f&#x00F8;rst, der de sorte Skamler stod ensomme paa Gulvet, og Salmeb&#x00F8;gerne laa i Vindusposterne endnu. &#x2013; Og som hun stod der, syntes hun n&#x00E6;sten selv at v&#x00E6;re som noget af det Flor og Granbar, der h&#x00F8;rte med til Gerhard Winkels h&#x00F8;itidelige Minde.</p>
+<figure rend="asterisk"/>
+<p><pb n="102"/>Det var stille oppe paa V&#x00E6;relserne. Saa kneppende stille, at Musen gnaged i Lyse.</p>
+<p>Da de r&#x00F8;dvinsduftende Gjester og Stegelugten vel var drevet af, faldt Husfolkene i Tanker om det ene og det andet. &#x2013; Og de lytted rundt om. Men ingen menneskelig Lyd. &#x2013; En Pige med Madbret gik Trapperne op, banked varsomt paa den aflaaste D&#x00F8;r, og kom atter Trapperne ned.</p>
+<p>&#x00AB;Der er ligesom en Spurning ved hele Stellet,&#x00BB; stak de Hovederne sammen. &#x00AB;Bedst som hun ter sig som galen, blir hun gaaendes ligesom i en D&#x00F8;s. &#x2013; Og saa naa &#x2013; ja, Gud ved!&#x00BB; &#x2013; &#x2013;</p>
+<p>&#x00AB;Men det var naa ligevel Forskjel,&#x00BB; indvendte nogle, &#x00AB;da hun jumped i Br&#x00F8;nden. For Ulykken braakom dengang.&#x00BB; &#x2013; &#x00AB;Aak, Sorgen, som langstak, smagte knapt bedre end Sorgen, som braastak.&#x00BB; &#x2013; Saa regned de efter, at nu havde Fruen v&#x00E6;ret galen for tredje Gang, om hun end nu havde baaret sig ganske anderledes end de to f&#x00F8;rste. &#x2013; Saa, ikke at forglemme, havde hun for nogle Dage siden modtaget en Pakke med udenlandsk Poststempel og Apotekermerke. &#x2013; J&#x00F8;s, om det ikke var da, hun var blevet saa lugn. J&#x00F8;s, om hun nu var blevet saa lugn, at hun aldrig &#x2013; &#x2013; j&#x00F8;s&#x00F8;s&#x00F8;s! &#x2013;</p>
+<p>I Kveldingen gik de til Jon og Perikles.</p>
+<p>&#x00AB;Aa, lad hende sove i Fred,&#x00BB; l&#x00F8;d Svaret. &#x00AB;Sover hun for godt, faar I tidsnok vide det.&#x00BB;</p>
+<p>Folkene orked dog ikke gaa tilro, men sad stille sammen i Kj&#x00F8;kkenet hele denne Nat, i hvilken de var forvisset om atter at have Lig i Huset. Ved mindste Lyd l&#x00F8;fted de Hovederne som aarvaagne <pb n="103"/>Gaardshunde, og vimsed en Rotte over Gulvet, greb Jenterne hverandre i Armen. &#x2013;</p>
+<p>Og endelig seg Graalysningen frem, tung og trist, uden Fuglesang og Dyrelok. Nogen retted Benene og saa paa Klokken. Men det var for tidligt endnu.</p>
+<p>Og videre sad de der paa B&#x00E6;nkene og i Skorstenen med de tanketomme Ansigter som graa, ubestemte Flekker frem af Halvm&#x00F8;rket.</p>
+<p>Men &#x2013; den kneggende Knirk i Sovev&#x00E6;relsed&#x00F8;ren? &#x2013; &#x2013;</p>
+<p>Og siddende blev de i maabende Sp&#x00E6;nding.</p>
+<p>Men &#x2013; i Trappen ogsaa? Knirk. Knark. Knirk. Knark. &#x2013; Jo-o! &#x2013;</p>
+<p>Gutten aabned D&#x00F8;ren, blev staaende og stirre. &#x2013;</p>
+<p>&#x00AB;J&#x00F8;s, aakke ser du?&#x00BB; hvisked en Jente. &#x2013;</p>
+</div>
+<div type="chapter" n="22">
+<head type="main">XXII.</head>
+<p>Den f&#x00F8;rste Morgenhilsen vilde hun bringe ham derude paa Kirkegaarden, dengang de trodde, hendes Gjenf&#x00E6;rd kom nedover Trapperne. &#x2013; Og hun havde, ogsaa legemlig uvel, vandret gjennem viftende Taageskikkelser til en forf&#x00E6;rdelig Haug af graabrun Lere. Og Taagen, den kl&#x00E6;bed som klamme H&#x00E6;nder. Mens Veirhanen, Symbolet paa Livsens evige Morgen, gren over Kirken.</p>
+<p>Hun havde f&#x00F8;lt Tilintetgj&#x00F8;relsen om sig og i sig og t&#x00E6;nkte, at det bedste, som kunde times hende, var, om hun kunde blive som en vandrende Mindesten fra sin Mands Grav. &#x2013; Der skulde da <pb n="104"/>ogsaa forresten kun prydes med levende Vekster. Ingen Bauta, som hun havde &#x00F8;nsket. For &#x2013; &#x00AB;om hundrede Aar kanske,&#x00BB; saa l&#x00F8;d hans Ord igjen, &#x00AB;kan den ligge sl&#x00E6;ngt som Vrag eller bruges til Trappesten, saa alle Folk tr&#x00E6;der paa den.&#x00BB;</p>
+<p>&#x2013; Hans Mislet, der selv paastod at v&#x00E6;re lidt gartnerkyndig, blev stellende der i Dage og Uger hele Vaartiden udover. &#x2013; Bedst som Graven var i Orden, sank den fra Bunden og stygge Hul gabed op. Og bedst der var fyldt Jord i paany, kunde der om Morgenen v&#x00E6;re et bundl&#x00F8;st lidet Hul som efter Varulv.</p>
+<p>&#x00AB;Det ugj&#x00F8;r sig saa f&#x00E6;lt, eftersom Kistelaaget ryker,&#x00BB; sagde Hans Ramstadkrug. Og i Tanken saa hun sin Winkel ligge dernede med knust Ansigt. &#x2013; Hans f&#x00F8;rte nu ogsaa, som han gik derborte imellem Korsene, saa mangehaande Pr&#x00E6;k, undertiden saa rent kuri&#x00F8;st i sin Kynisme, at hun <hi rend="italic">maatte</hi> h&#x00F8;re:</p>
+<p>&#x00AB;Asch, det vokser, Fruen,&#x00BB; sagde han ofte, glattende med Spadebladet langs Gravkanterne. &#x2013; &#x00AB;Kj&#x00F8;re Jord paa &#x2013; h&#x00F8;rt Magen? Jagu er her fedt nok lel.&#x00BB;</p>
+<p>Og en Gang vedblev han:</p>
+<p>&#x00AB;For tredive Aar siden grov de ned Murene seks Alen dybt til Afl&#x00F8;bsrender. Der gaar to mod vest og en mod s&#x00F8;r. &#x2013; Nei, de kan ikke akkurat sees naa, der er lagt Kvist og Tral over Udl&#x00F8;bet. Men lugtes &#x2013; asch! F&#x00F8;r &#x2013; ligsom i Vaartiden, da kunde en nok se ogsaa. &#x2013; Da seg det tjokt og svart som Lane. Og der gror Urter &#x2013; Hesteblom <pb n="105"/>og Tistel, just som paa Gj&#x00F8;dseld&#x00E6;mma, Mor. &#x2013; &#x2013; Men sig mig: Var det gamle Fru Winkel, som laa her f&#x00F8;r ham? &#x2013; Naa! Her var saagu mange Slags Rariteter i den Jordhaugen, vi trilled bort. Det, som h&#x00F8;lder sig l&#x00E6;ngst, det er naa Ister og Haartavser. &#x2013; Det h&#x00F8;lder sig rat i hundrede Aar her i t&#x00E6;tte Lerjorden. &#x2013; Vi fandt ligesom en Blei, vi. &#x2013; Nei, Jadden er det liderligt ogsaa, at Ligene ikke br&#x00E6;ndes. Naa har jeg sagt det!&#x00BB; han gjorde et Klask med Spaden. Saa samled han sine Haveredskaber sammen og lunked af med lange Skridt, Hovedet dybt nedimellem Skuldrene &#x2013; ens, naar han snakked om D&#x00F8;dens Styggedom, som naar han filosoferte over Livsens Lyst eller gik med Elskovsbreve i Lommen. &#x2013; Hun blev l&#x00E6;nge staaende og se efter ham, til han forsvandt bag Buskene. &#x2013; Indimellem de nyplantede Blomster smutted en lynsnar Mark, brun paa tusen Ben. &#x2013; Og hun fr&#x00F8;s som f&#x00F8;rste Gang, hun traf Ramstadkrug paa Gaardspladsen. &#x2013;</p>
+<p>Men nu vidste hun hvorfor.</p>
+<p>Saa gik hun da hjemad som saa mangen Gang f&#x00F8;r i F&#x00F8;lge med svidende Tanker. Stort F&#x00F8;lge samler flere i Flok, siger et gammelt Ord.</p>
+<p>Og de saa hende komme uslere tilbage, end da hun gik, holdningsl&#x00F8;s og gusten, ligegyldig tr&#x00E6;dende ud i S&#x00F8;le og Vand. Og de h&#x00F8;rte hende gaa saa tungt opover Trapperne, som tynged hende Alverdens Sorg, og ind i sit V&#x00E6;relse gik hun, der Egtef&#x00E6;llen havde udaandet. Hun rusled lidt derinde, frem og tilbage. Det knaked i Sengen. <pb n="106"/>Og atter blev det saa kneppende stilt bag de laaste D&#x00F8;re. &#x2013; &#x2013;</p>
+<p>Men i Begyndelsen som hun laa der, Paula Winkel, efter sine daglige Vandringer til Gravene, laa hun en halv Times Tid med sit Ur i Haanden, forventningsfuld som den, der venter en Ven.</p>
+<p>Og Kvarteret forl&#x00F8;b. Da kom den, Susen for &#x00D8;rene, taktfast flydende som Pulsen, der banked, som Lyden af en Aare dybt nedi Jorden. Lindt og lindrende seg Varmen efter. En Solvarme, bl&#x00F8;d gjennem Legemet, som en deilig, deilig Tanke om noget, der var. &#x2013; Hun saa sig i Speilet, havde R&#x00F8;dme i Kinderne og skinnende &#x00D8;ine. &#x2013; Men en Overvindelse blev det at r&#x00E6;kke Haanden ud. Ut&#x00E6;nkeligt efterhvert at flytte et Ben eller vende Hovedet paa Puden. &#x2013; Snart blev det hende, som faldt Musklerne fra hinanden, l&#x00F8;ste sig op i en salig D&#x00F8;d, fl&#x00F8;d bort i en vuggende Gynge. Eller midt ude paa en lys Sj&#x00F8;. Eller i en blank Elvekulp, der Vandet skj&#x00E6;nked lys Gl&#x00E6;de. Og der kom de igjen, Indlandsmenneskets uopfyldte Barndomsdr&#x00F8;mme om alt det skinnende Vand. Henover brusende Flade bar det under Vift af hvide Seil. &#x2013; &#x2013;</p>
+<p>Og herlige Syner aabned sig for hende. &#x2013; Der var Sommerhimmel bag Blomsterguirlander og legende Amoriner. Og Semiramis&#x0027;s h&#x00E6;ngende Haver. Og skj&#x00F8;nne, stolte Mennesker i hvide Gevandter, rolige, sikre, som Halvguder. &#x2013; &#x00AB;Vent du, du var vakker! &#x2013; Nei du, du var endnu vakrere! &#x2013; Al den Deilighed paa Jord! &#x2013; Kj&#x00F8;re, kj&#x00F8;re over lyse <pb n="107"/>Marker! &#x2013; Gaa, bare gaa, med l&#x00F8;fted Hoved og lange Kl&#x00E6;der &#x2013; Livet en Gang over Kl&#x00F8;vereng, hvor Firkl&#x00F8;vere er at finde. &#x2013; &#x2013; Hvad skal du, Ove, du jeg elsked engang? &#x2013; Har du Firkl&#x00F8;ver i Haanden? Nei, du har nok ingen Firkl&#x00F8;ver at give, havde du ogsaa Haanden fuld. Den? &#x2013; Skal jeg have den &#x2013; fra din deilige, slanke Haand? Tak! Men hvorfor gaar du her, Ove? &#x2013; Du, som bare h&#x00F8;rer Ungdomsdr&#x00F8;mmene til. Ser du ikke, Kl&#x00F8;veren har blomstret forl&#x00E6;ngst. Den skal meies nu, af en Mand med Ljaa, og kj&#x00F8;res i Herrens Lade. Kj&#x00E6;rlighed, al Menneskenes Herlighed, den er jo som Gr&#x00E6;ssets Blomster. Firkl&#x00F8;veren fra din Haand, Ove, gav du mig, at jeg fandt min Winkel! Hvad stak i Sindet, saa forf&#x00E6;rdeligt?&#x00BB; &#x2013; &#x2013;</p>
+<p>Men urolige Billeder tog ogsaa til at virre sig frem indenfor de lukkede &#x00D8;ienlaag &#x2013; kom og gik, enkeltvis og i F&#x00F8;lge, med skyggeagtigt Rids, som dirrende Billeder fra en Kinematograf. Og dunklere blev det for hver og en. &#x2013; &#x2013;</p>
+<p>Atter suste de, de fjerne Vandfald, kj&#x00F8;lnende, smertestillende som virkeligt Vand over svidende Saar. &#x2013; Aaren dybt nede i Jorden, den, der dulmed, dulmed &#x2013; som ind i den tyste Evighed.</p>
+<p>&#x2013; Men ofte syntes hun ogsaa, det var Luftens Sus af en stor Ensomhed, hun h&#x00F8;rte. Sin Ensomhed! Men Ensomheden, der drog. Ensomheden, der fanged &#x2013; lig en Edderkop i haarfint Spind. Den suger Blod, suger Tanker, suger Sind. &#x2013; Men Ensomheden f&#x00F8;lte hun som en Livsens store, vidunderlige Vampyr, til hvem hun maatte smile. &#x2013; &#x2013;</p>
+<p><pb n="108"/>&#x2013; Og for hende blev det stille. &#x2013; Lidt l&#x00E6;nger stille for hvert Tidmaal, som gik.</p>
+<p>Og snart vilde Tomheden lukke sin rolige Favn &#x2013; der ingen Vind bl&#x00E6;ser &#x2013; ingen Fugl synger &#x2013; &#x2013; men heller ingen Leviathan velter sig i Fraade! &#x2013;</p>
+</div>
+<div type="chapter" n="23">
+<head type="main">XXIII.</head>
+<p>De gamle Winkeler knakked paa D&#x00F8;ren til Hj&#x00F8;rnev&#x00E6;relserne.</p>
+<p>Da ingen svarte, gik de alligevel videre &#x2013; ind i et stort, halvm&#x00F8;rkt Rum, et med fire tild&#x00E6;kkede Vinduer, r&#x00F8;de V&#x00E6;gge og saa fint et Gulvteppe, at de to uvilkaarlig satte F&#x00F8;dderne l&#x00E6;kkert, trods St&#x00F8;vlerne var de bedste.</p>
+<p>De havde nemlig studset sig nu. Trukket i de side Kl&#x00E6;desbonjourer med den indsvungne Rygs&#x00F8;m, den der danned en Strut bagtil saa god som nogen Andrikhale. Bukserne led nok af Kusma over Kn&#x00E6;rne, men dette skadet ikke meget, eftersom de nystr&#x00F8;gne Fadermordere dog gav hele Dragten et staseligt Anstr&#x00F8;g.</p>
+<p>Perikles havde en vidtl&#x00F8;ftig Tale paa Tungen: &#x2013; Naar de nu kom, saa var det, fordi de holdt af sin Brorkone. Kors i Kr&#x00F8;gels, det var vel saa rimeligt, hun s&#x00F8;rged over Manden, om det end kunde synes at v&#x00E6;re nok nu. Hun var jo noksaa ung endnu. Og de, Jon og Perikles, heller ikke saa v&#x00E6;rst gamle &#x2013; ialfald kunde de godt blive meget &#x00E6;ldre! Kort sagt: Hun burde overveie <pb n="109"/>dit og dat og tage Skeen i en anden Haand. Hun havde jo en Unge ogsaa. Og ikke leve dette rare Livet, som ingen blev klog paa &#x2013; &#x2013;</p>
+<p>&#x00AB;Naada!&#x00BB; Der var ingen at se i Farten. &#x2013; &#x00AB;Nei, mener jeg ikke, hun sover midt paa blanke Formiddagen!&#x00BB; brast det ud, idet de skimted en Kjole bag Sengeomh&#x00E6;nget.</p>
+<p>Og de summed sig noget. Gik saa hen og napped i Kjolefligen:</p>
+<p>&#x00AB;Hei du &#x2013; du faar vaagne naa &#x2013; du har faaet Visiter jo!&#x00BB;</p>
+<p>Det nytted ikke.</p>
+<p>De titted indenfor Omh&#x00E6;nget. Hun laa med Hovedet tilbage og pusted.</p>
+<p>Perikles prikked hende et par Gange med Fingeren i Kinden. &#x2013; Det lod som en besv&#x00E6;rlig S&#x00F8;vn. Hun r&#x00F8;rte sig tr&#x00E6;gt en Stund og satte sig endelig op. Hun ligesom drog og drog i &#x00D8;inene, men sagde ingenting.</p>
+<p>&#x00AB;Vil du ikke se os? Svogrene dine vel. Vi vilde h&#x00F8;re, hvordan du havde det. &#x2013; Har du annammet Sovesygen &#x2013; he?&#x00BB;</p>
+<p>Hun vented lidt. &#x2013;</p>
+<p>&#x00AB;Er det dere? Ja, jeg gik tilsengs. Det var vist ikke sent. Men jeg blev s&#x00F8;vnig naturligvis. Aa, lad mig sove da &#x2013; kj&#x00E6;re dere!&#x00BB; &#x2013; Hun havde allerede sluppet sig tilbage, medens hun sagde det sidste.</p>
+<p>Br&#x00F8;drene pilted hurtig paa D&#x00F8;r. Begge med en Fuldf&#x00F8;lelse af, at her var ingenting at gj&#x00F8;re &#x2013; allermindst for Friere.</p>
+<p><pb n="110"/>Men det sagde de lidet om, da de efter den mislykkede Ekspedition atter havned paa sin Ungkarshybel. Ihvorvel de ingenlunde afholdt sig fra at prise den Lykke, der, takket v&#x00E6;re heldige Tilskikkelser og Br&#x00F8;drenes vidunderlige Forstand, stadig undgik Naadest&#x00F8;det. &#x2013;</p>
+<p>&#x00AB;Tager du Klaven af dig?&#x00BB; sagde Perikles til Jon, der plundred med sin Fadermorder foran Barberspeilet. &#x00AB;T&#x00E6;nk, om du var blevet klavet for Livstid, Gut!&#x00BB; &#x2013; Nei, det havde da laget sig bedre. &#x2013;</p>
+<p>&#x00AB;Men du ved, hun var dum,&#x00BB; plumped det snart ud af Jon, &#x00AB;at hun ikke oppet sig for os. N&#x00E6;ste Gang kunde hun jo v&#x00E6;ret den rigeste Enken bygdevis over.&#x00BB; &#x2013;</p>
+<p>&#x00AB;Og tredje Gangen, mener du,&#x00BB; vedblev Perikles ironisk, idet han vr&#x00E6;ngte Kl&#x00E6;derne af sig, &#x00AB;da skulde hun siddet med Gruvang, Nebruget og Sagen ved Klun? &#x2013; Neitak, du havde ikke overlevet mig, Jonfar!&#x00BB;</p>
+<p>&#x00AB;Det kunde vel ogsaa v&#x00E6;ret ligegyldigt,&#x00BB; mumlede Jon, &#x00AB;eftersom hun altid har likt mig bedst.&#x00BB;</p>
+<p>&#x00AB;Nei, h&#x00F8;r naa! Akkurat som om hun ikke altid har holdt &#x00D8;ie med mig &#x2013; og jeg har kunnet faa hende lattermild oftere end du.&#x00BB;</p>
+<p>&#x00AB;Men hun saa saa langt paa mig, da jeg m&#x00F8;dte hende i Gangen forleden. &#x2013; Just som vilde hun sige: Kj&#x00E6;re min Svoger, jeg er Enke, jeg. &#x2013; Du!&#x00BB; afbr&#x00F8;d han, holdende Bonjouren langt ud fra sig. &#x00AB;Det er saam&#x00E6;nd en flot DiplomatfaÃ§on paa denne.&#x00BB;</p>
+<p><pb n="111"/>&#x00AB;Aaja &#x2013; og paa dig med,&#x00BB; svarte Perikles.</p>
+<p>&#x2013; Saalunde passiarende rydded da de to Br&#x00F8;dre sine Staseffekter afveien. St&#x00F8;vlerne h&#x00F8;rte hjemme i en Kommodeskuffe, Diplomatfrakkerne afsides paa Gangen og Bukserne inde paa Knaggen i Sovev&#x00E6;relset. Og hver is&#x00E6;r havde de omfremt de vanlige to hektiske Pletter l&#x00E6;nger nede paa Kindet, to kirseb&#x00E6;rr&#x00F8;de Merker efter Fadermorderne.</p>
+<p>&#x00AB;Jeg maa t&#x00E6;nke paa den gamle R&#x00E6;glen om Kjensrudbr&#x00F8;drene, jeg,&#x00BB; sagde Perikles allerede i bedre Hum&#x00F8;r, der de gik ned af Trappen.</p>
+<p>&#x00AB;He ja &#x2013; som spurgte Presten, om han ikke kunde gifte dem begge med den samme Jenten?&#x00BB; Og Jon maatte indle.</p>
+<p>&#x00AB;F&#x00E6;lt saa mange T&#x00E6;nder, du mangler, Gut,&#x00BB; udbr&#x00F8;d Perikles i gemytlig Stikkelyst. &#x00AB;Du minder mig om Stakittet der.&#x00BB;</p>
+<p>&#x00AB;Det gj&#x00F8;r ingenting,&#x00BB; svarte Jon uanfegtet.</p>
+<p>Og de indlo begge.</p>
+<p>&#x2013; Og der de to Br&#x00F8;dre blev staaende ude paa Traakken, med Velbehag seende sig om til alle Sider, brast det vekselvis ud af dem:</p>
+<p>&#x00AB;Hvem skulde t&#x00E6;nkt paa det, dengangen Bror Gerhard raped Aanden ud af sig. &#x2013; Her i Huset bor vi, som skulde vi bo alene. Gudskelov! &#x2013; Ja, alt tjener dem tilbedste, som vandrer viselig.&#x00BB;</p>
+<p>Og Jon og Perikles Winkel svaled de hektiske Pletter af sine Kinder, og gik atter, veltilfredse som ikke paa l&#x00E6;nge, ind i Huset, &#x2013; om hvilket Aspene med de skj&#x00E6;lvende Blade og tusen skiftende <pb n="112"/>Skygger hvisked og tisked en Sang, hvis Omkv&#x00E6;d de i Menneskealdre havde kunnet. &#x2013;</p>
+<p>Men borte i Drengestuvinduet saaes et stort, blegt Barneansigt paa en Rude.</p>
+<p>&#x2013; Og Solen steg, og Solen sank over den graa Gaard med den gode Skog og den vanskj&#x00F8;ttede Jord, der Gr&#x00E6;sset fik gro paa Gj&#x00F8;dseldyngerne. Og de glinsende brune Heste, som ikke dued til at tr&#x00E6;kke, og de kapunerede Kyllinger og den blodgj&#x00F8;dede Asparges &#x2013; og den meterh&#x00F8;ie Tistel og Humlen, som atter nu kl&#x00E6;nged om Husv&#x00E6;ggene, hvorfra Vinduerne myste som selve de Br&#x00F8;dres n&#x00E6;rsynte &#x00D8;ine. &#x2013; &#x2013;</p>
+</div>
+<div type="chapter" n="24">
+<head type="main">XXIV.</head>
+<p>Aspene blev gule, og Aspene blev gr&#x00F8;nne &#x2013; Fugle fl&#x00F8;i, og Fugle kom. Og Tid sneg langsomt hen. Tid, hvori meget spurgtes, og lidet svartes. &#x2013; Ogsaa om &#x00AB;Ove derover&#x00BB;, i hvis ikke l&#x00E6;nger saa uforholdsm&#x00E6;ssige Hoved en besynderlig klar Forstand lod til at udvikle sig. Doktoren, som gik hos ham, gav engang Ordre til at slippe ham ind til Moderen, og mod al Forventning havde han faaet Rang og Gang hos hende, som ikke havde villet se ham, siden han var Sp&#x00E6;dbarn.</p>
+<p>&#x2013; Men hun, Fru Paula Winkel &#x2013; hvem magted at se tilbunds i hendes Levnets Dyb? Ja, kanske var hun gal. &#x2013; Det var jo alt gamle Historier de. Jenten, som gik med Madbrettet, fortalte, om hvor rart Fruen bar sig ad, naar hun spiste: <pb n="113"/>Brugte Gaffel til Skemad og omvendt, vilde drikke af Sennepskrukken og tog i Sm&#x00F8;rret. Og h&#x00E6;ndte det sig, at Jenten spurgte om noget, da saa hun kun paa hende og svarte ikke. Og hun, der var saa skv&#x00E6;tten f&#x00F8;r som en Fole, hun ikke saa meget som blunked, da en Vinter et rabaldersk Sneskred fra Taget f&#x00F3;r ret forbi hendes Ryg.</p>
+<p>Det ufatteligste var dog, at til andre Tider kunde hun synes baade kj&#x00E6;k og rask. Da gik hun ud og ind med Farve i Kinderne, nikked Gomorn til de, hun m&#x00F8;dte, ja stundom nynned hun. &#x00AB;Se, nu var Sorgen over!&#x00BB; skumledes der da i Bygden. &#x2013; Snart spurgtes vel den gamle Nyhed, at Enkestanden tilh&#x00F8;rer Fanden. &#x2013; Og de gamle Ungkarle spaaedes et lystigt Hus. &#x2013; Hun var ogsaa sjeldnere paaf&#x00E6;rde borte ved Gravene nu. &#x2013; Hun var blevet saa forbandet hoven, hed det senere, gad ikke se, langt mindre hilse paa Folk. En fik nok vige afveien for den Damen. For hun gik ret paa, som var hun Dronningen. Og ikke saadan en, som ikke l&#x00E6;nger gad skjule Hestefoden. &#x2013; &#x2013; &#x2013;</p>
+<figure rend="asterisk"/>
+<p>&#x2013; &#x00AB;Winkel, Winkel! &#x2013; er du her nu, som du loved mig sidst? Gud! Ved du, hvad han siger, han Dj&#x00E6;velen med Gr&#x00E6;kerh&#x00E6;nderne? &#x2013; &#x00AB;Kun de levende h&#x00F8;rer Livet til,&#x00BB; siger han. Han staar her, naar du er borte, og han har Smil i de dunkle &#x00D8;ine. &#x2013; &#x00AB;Vor Dag d&#x00F8;de,&#x00BB; siger han &#x2013; &#x00AB;vor r&#x00F8;de, skj&#x00F8;nne Dag!&#x00BB; Slig det plager mig, du, den Uret, <pb n="114"/>jeg begik mod dig i Tanke som i Gjerning. &#x2013; Det svider, Winkel, naar jeg vaagner, som Hovedpine, som Salt i Saar. Men du, du, som ser ind i Sj&#x00E6;len, Gerhard, du ser vel ogsaa, han var min Ungdomselskede da, som ungt Sind og unge Sanser havde groet sig rundt saa sterkt, at det verked ikke ud, f&#x00F8;r Bylden, Synden mener jeg, var blevet stor nok, moden nok, slig at den skreg til mig som Blod ifra Jorden &#x2013; og brast.&#x00BB;</p>
+<lb/>
+<p>&#x00AB;Kingel og Kingel over Buske og Tr&#x00E6;r. Kingel i alle de m&#x00F8;rke Kroker &#x2013; graat Edderkoppespind.</p>
+<p>Kingel over alle Tanker, de m&#x00F8;rke og de lyse. Kingel over det Liv, jeg leved &#x2013; over Sorgerne og over Gl&#x00E6;derne &#x2013; graat Edderkoppespind. Og over din L&#x00E6;nestol, Sengen og Speilet.</p>
+<p>Jeg klarer lidet mer. Du &#x2013; dette med Smilet, du &#x2013; blev det mit Livs Ulykke, eller blev det dog mit Livs Lykke tilslut? &#x2013; Jeg mener, det blev vist det sidste. For leded ikke Smilet mig mod dig og dit Alvor &#x2013; og jeg saa dig som Malmfuruen for mig. Malmfuruen, saa sagde du engang, den kjendes ikke f&#x00F8;r ved Hugg i Stammen. &#x2013;</p>
+<p>Og Smilet &#x2013; leded ikke Smilet mig over Gravs M&#x00F8;rke og Helvedeskvaler? Der jeg s&#x00F8;gte og fandt det som Salighedsmusik i Aarerne.</p>
+<p>Og Smilet &#x2013; har saaledes ikke Smilet v&#x00E6;ret mit Kompas igjennem Livet til D&#x00F8;den f&#x00F8;r D&#x00F8;den? &#x2013; Og er saa det ikke Lykken, Winkel &#x2013; for mig og alle? &#x2013;</p>
+<p>Nei, siger du?&#x00BB;</p>
+<p><pb n="115"/>&#x00AB;Du gaar, og du kommer &#x2013; og Gud har velsignet dig. Han kommer og gaar &#x2013; og frister med Smil. Men jeg siger: Jeg &#x00F8;nsker mig ikke i Verden paany. Det er Ungdomsdr&#x00F8;mmene bare, som sp&#x00F8;ger &#x2013; Ungdomsdr&#x00F8;mme bare, saa intensive og mange, at jeg dr&#x00F8;mmer dem maaske, hvis der er et Liv efter dette. Men hvad skal jeg gj&#x00F8;re? Aa, du som er sterk &#x2013; ryd dem da bort, om de er af det onde! &#x2013; &#x2013; Undertiden tror jeg, det kommer fra dengang, da de nylig havde lagt dig i Jord, og jeg t&#x00E6;nkte ikke paa dig, men paa alting andet. &#x2013; Hvem lyster r&#x00F8;re ved nye Saar?&#x00BB;</p>
+<lb/>
+<p>&#x00AB;Sort er Natten, min Winkel &#x2013; fordum vor Nat.</p>
+<p>R&#x00F8;d, r&#x00F8;d gjennem Taage br&#x00E6;nder Solen.</p>
+<p>Men skimtes en Maane, da skimtes den som en nedskruet Lampe med Skj&#x00E6;rm &#x2013; Flaggermusskj&#x00E6;rm. Hvad mener han med vor &#x00AB;Dag&#x00BB;? &#x2013; Aa, blev du borte?&#x00BB;</p>
+<lb/>
+<p>&#x00AB;Hvor er du? &#x2013; Jeg vil finde dig, tiltrods for jeg famler i M&#x00F8;rke. Jeg vil gaa her paa Jagt baade Dag og Nat. &#x2013; Men det er stygt af dig, at du gaar unda for mig. &#x2013; &#x2013; Gaa ikke du, gaa ikke &#x2013; kj&#x00E6;re, snille!&#x00BB; &#x2013; &#x2013;</p>
+<lb/>
+<p>&#x00AB;Hvad tog jeg i da? Det, som smutted fra mig som i R&#x00E6;dsel og er herinde fremdeles. Min Winkel ikke. &#x2013; Kunde jeg le? &#x2013; T&#x00E6;nk min sterke, brede Winkel, &#x2013; og dette forunderlige lillebitte. Nei vent lidt, du, lille pudsige Dyret &#x2013; sig, hvor er du da!</p>
+<p><pb n="116"/>Hm, fange dig skal jeg, R&#x00E6;dharen &#x2013; om du er aldrig saa listig! &#x2013;</p>
+<p>Saa &#x2013; borte!&#x00BB;</p>
+</div>
+<div type="chapter" n="25">
+<head type="main">XXV.</head>
+<p>&#x00AB;Ve.&#x00BB;</p>
+<p>&#x00AB;Er du Ve, siger du? Jeg synes nok snarere en liden Bj&#x00F8;rnunge, jeg. Langtfra, jeg slipper ikke! &#x2013; Hvad gj&#x00F8;r du her? sp&#x00F8;rger jeg.&#x00BB;</p>
+<p>&#x00AB;Jeg er jo Ve,&#x00BB; gjentog det med tynd og forgraaten Stemme. &#x2013; &#x00AB;Ikke slem imod Ve!&#x00BB; Og det skalv som et Aspel&#x00F8;v. Hun f&#x00F8;lte over det og fik vaad Haand, da hun tog det over &#x00D8;inene.</p>
+<p>&#x00AB;Kom igjen i Lyse, Ve,&#x00BB; sagde hun og heldte Vandkaraffelen over det, fordi hun mente noget godt.</p>
+<lb/>
+<p>Og n&#x00E6;ste Dag kom det virkelig igjen i Lyse.</p>
+<p>Hun skimted et seks syv Aars Guttebarn med store, udenpaaliggende &#x00D8;ine.</p>
+<p>&#x00AB;Er du Ve idag?&#x00BB; spurgte hun, &#x00AB;du lille stygge Puslet.&#x00BB;</p>
+<p>&#x00AB;Jada, jeg er jo Ve &#x2013; jeg kom til Mor,&#x00BB; stammed det.</p>
+<p>Hun tog sig haardt over Panden.</p>
+<p>&#x00AB;Du t&#x00F8;ver vist du,&#x00BB; svarte hun, &#x00AB;Dj&#x00E6;velen er L&#x00F8;gnens Far. Men at jeg er Ve&#x0027;s Mor, det vidste jeg ikke. &#x2013;</p>
+<p>Hvad graater saa saart? &#x2013; Er det dig, Ve? Men lille, rare, ikke graat du &#x2013; det gj&#x00F8;r ondt det. &#x2013; &#x2013; Saasaa, ti nu stille, saa er du min egen Ve!&#x00BB;</p>
+<p><pb n="117"/>&#x00AB;Ja, jeg er jo din Ve, og skal ikke graate.&#x00BB;</p>
+<p>&#x00AB;Hvorfor klamrer du dig om Benene paa mig, Ve, saa jeg ikke faar flyttet dem? Jeg maa jo gaa jeg, baade hid og did. Slip nu &#x2013; men det er morsomt, du er her.&#x00BB; &#x2013;</p>
+<lb/>
+<p>Og Dag efter Dag kom det igjen, som hun bad.</p>
+<p>Men hun traadte paa det engang, det sad som en liden Tue paa Gulvet, og siden maatte det holde til i Sofaen.</p>
+<p>Som det sad der og stelled og plukked, dukked et Minde frem for hende engang:</p>
+<p>&#x00AB;Vil du lege, Ve?&#x00BB; spurgte hun og fors&#x00F8;gte at klippe Papirheste til det.</p>
+<p>Det stilled dem forsigtig op paa Bordet, unders&#x00F8;gte dybsindig snart den ene, snart den anden. Men tilsidst vendte det Hovedet om mod hende, og hun syntes &#x00F8;ine et Smil, hun skulde kjende. &#x2013;</p>
+<p>&#x00AB;Slet ikke Heste, dette!&#x00BB; &#x2013; og lege vilde det ikke.</p>
+<p>&#x00AB;Du er trofast, du Ve!&#x00BB; sagde hun ofte. &#x00AB;De andre er blevet borte; men du kommer. &#x2013; Dog &#x2013; hvad siger jeg &#x2013; min Winkel, han i Grunden baade er her og er her ikke. Forstaar vel jeg det? Heller ikke kan jeg s&#x00F8;rge, fordi jeg tog feil af eder dengang &#x2013; Gud ved, hvor l&#x00E6;nge. &#x2013; Skal jeg b&#x00E6;re dig, Ve &#x2013; liden, liden, rare Ve?&#x00BB;</p>
+<p>Men hun gik imod Stole og Borde.</p>
+<lb/>
+<p>&#x00AB;Hvorfor stikker Mor sig med den Naalen i Armen?&#x00BB;</p>
+<p><pb n="118"/>&#x00AB;Fordi det gj&#x00F8;r godt.&#x00BB;</p>
+<p>&#x00AB;Men Mor sovner. Mor ikke sove fra Ve &#x2013; Ve bare sove hos Mor.&#x00BB;</p>
+<p>&#x00AB;Kan vi ikke sove sammen da, Ve, i Gyngestolen der? Min egen Ve!&#x00BB; &#x2013;</p>
+<p>Og de husked og gynged lange Stunder ad Gangen. Og ofte maatte hun lade Morfinen v&#x00E6;re.</p>
+<p>&#x2013; Men som hun sad der, Paula Winkel, med sin Ve i Fanget, var det som Tankerne atter begyndte boble, og hun t&#x00E6;nkte dem h&#x00F8;it, halvt til sin Ve, halvt ud i Veir og Vind:</p>
+<p>&#x00AB;Jajaja! &#x2013; og hvert Menneske gaar sin Skj&#x00E6;bne im&#x00F8;de, saaledes som Gud har bestemt den. &#x2013; Og Livet igjennem spindes der Traad for Traad, og v&#x00E6;ves de sammen til den Menneskeskj&#x00E6;bnes store Billedteppe. Mit Teppe deltes i Felter, det, et r&#x00F8;dt og et sort. &#x2013; Det r&#x00F8;de var min Dag &#x2013; det sorte &#x2013; &#x2013; Det r&#x00F8;de var min Dag &#x2013; det sorte &#x2013; &#x2013; Der var en Kr&#x00F8;bling engang, et Syndebarn &#x2013; Ve.&#x00BB; &#x2013; Pludselig rusked hun det lille i Armen, saa det forskr&#x00E6;kket slog &#x00D8;inene op og begyndte at skj&#x00E6;lve.</p>
+<p>&#x00AB;Hvor er du om Natten?&#x00BB;</p>
+<p>En tynd Haand raktes ud for at klappe hende paa Kindet: &#x00AB;Ikke slem imod Ve.&#x00BB;</p>
+<p>&#x00AB;Hvor bor du?&#x00BB; gjentog hun haardt. &#x00AB;Fort naa &#x2013; i Drengestuen?&#x00BB;</p>
+<p>&#x00AB;Ja,&#x00BB; svarte det og graat hj&#x00E6;lpel&#x00F8;st ind til hende.</p>
+<p>Hun slap Armene ret nedfor sig og blev siddende.</p>
+<p><pb n="119"/>Men snart begyndte hun at vride H&#x00E6;nder og klage som en Syg under tungt Anfald:</p>
+<p>&#x00AB;Skal jeg nu have det ogsaa. Aldrig faa Fred. Aldrig. Hj&#x00E6;lp mig, Herregud, hj&#x00E6;lp mig ulykkelige, jeg, som sov og vaagned til Smerte. &#x2013; Har jeg da ikke havt Smerte nok? &#x2013;</p>
+<p>Du, som tilgav, hvorfor ser du paa dette? Eller tilgav du ikke helt? &#x2013; Eller har jeg gjort dig ondt siden? &#x2013; &#x2013; Ve, Ve &#x2013; Ve over den, der gj&#x00F8;r Kj&#x00E6;re Uret! &#x2013; Da &#x2013; Ve ifra Jorden, som er forkr&#x00F8;blet, og Ve ifra det, der forkr&#x00F8;bler Jorden. Ve ifra Himmel, som lyser &#x2013; Ve ifra Gud, som straffer &#x2013; &#x2013;</p>
+<p>Men min Ve, som l&#x00E6;gger de smaa, tynde Arme om min Hals &#x2013; nei, jeg skal ikke v&#x00E6;re slem mod dig, Ve. Selv satte jeg min Ve i Verden, med Smerte &#x2013; med Smerte beholder jeg ham der &#x2013; jeg arme, som elsked og synded og elsked igjen. &#x2013; &#x2013;</p>
+<p>Hvad sidder i L&#x00E6;nestolen, Ve? Der ved Vinduet?&#x00BB;</p>
+<p>&#x00AB;Ingenting der,&#x00BB; siger Ve og smiler.</p>
+<p>&#x00AB;Men vesle Ve, hvad for Smil har du da? Saa, saa polisk, synes jeg! Ser du det ikke da, du med de &#x00D8;iengluggene dine &#x2013; der i Vinduslysningen. &#x2013; &#x2013; Der vender han sig ogsaa. &#x2013; Himmel! &#x2013; Han smilte. &#x2013; Saa du da ikke, Ve? Det var jo Gerhard, du &#x2013; min Winkel &#x2013; &#x2013; din &#x2013; din egen pr&#x00E6;gtige Far, Ve!&#x00BB; &#x2013; &#x2013; &#x2013; &#x2013;</p>
+<p>I stille Lidenskab folded Paula Winkel de magre H&#x00E6;nder om sit Barn.</p>
+<p>&#x00AB;Aa du, min Ve, ifra Himmel, som lyser &#x2013; <pb n="120"/>min Ve ifra Gud, som straffer. &#x2013; Min Dag d&#x00F8;de &#x2013; jeg fik Ve istedet.</p>
+<p>Men min s&#x00F8;te Ve, som jeg elsker &#x2013; min Ve, som jeg skal b&#x00E6;re, alle, alle Dage &#x2013; indtil han tr&#x00E6;kker mig efter sig, min sterke Gerhard, leve for hans S&#x00F8;n &#x2013; og takke!&#x00BB;</p>
+</div>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,3016 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI PUBLIC "-// TEI P5 //EN" "http://www.tei-c.org/release/xml/tei/custom/schema/dtd/tei_all.dtd">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="BS_Munch_Psyche">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>bokselskap.no, Oslo 2017
+<lb/>Anna Munch: <hi rend="italic">Psyche</hi>
+<lb/>Teksten i bokselskap.no f&#x00F8;lger 1. utgave, 1893 (Christiania, P. T. Malling). Digitaliseringen er basert p&#x00E5; fil mottatt fra Nasjonalbiblioteket (nb.no)
+<lb/>ISBN: 978-82-8319-342-8 (digital, bokselskap.no), 978-82-8319-343-5 (epub), 978-82-8319-344-2 (mobi)
+</title>
+</titleStmt>
+<publicationStmt>
+<p>Publiseres som digital tekst av bokselskap.no.</p></publicationStmt>
+<sourceDesc>
+    <bibl>
+        <title>Psyche</title>
+        <author>Anna Munch</author>
+        <publisher>P. T. Malling</publisher>
+        <pubPlace>Christiania</pubPlace>
+        <date>1893</date>
+        <note>Munch_Psyche_digibok_2009052012003.epub (fra Nasjonalbiblioteket 2016)</note>
+    </bibl>
+</sourceDesc>
+</fileDesc>
+<revisionDesc>
+<change who="ENW" when="2017-04-10">Lagt inn korrekturrettelser. Lagt inn ISBN og faksimile av tittelblad. Kodekontroll og validering.</change>
+<change xml:id="ENW" who="ENW" when="2016-12-02">XML-koding. Entiteter. Validering. Klar for korrektur.</change>
+</revisionDesc>
+</teiHeader>
+<text xml:id="BS_Munch_Psyche_tekst" type="drama">
+<front>
+<titlePage type="main">
+<byline><docAuthor>Anna Munch</docAuthor></byline>
+<docTitle>
+<titlePart type="main">Psyche</titlePart>
+<titlePart type="sub">Skuespil i 3 akter</titlePart>
+</docTitle>
+<docDate>bokselskap.no<lb/>Oslo 2017</docDate>
+</titlePage>
+<div type="chapter" subtype="illustration">
+<p rend="center"><figure><graphic url="tittelblad_1893.jpg"/></figure></p>
+</div> 
+<div>
+<castList>
+<head>DE OPTR&#x00C6;DENDE.</head>
+<castItem><role>Fru Skytte,</role> <roleDesc>rig enke efter oberst Skytte.</roleDesc></castItem>
+<castItem><role>Valentin,</role> <roleDesc>hendes s&#x00F8;n, ingeni&#x00F8;r.</roleDesc></castItem>
+<castItem><role>Eva,</role> <roleDesc>hans hustru.</roleDesc></castItem>
+<castItem><role>Viggo Brandt,</role> <roleDesc>cand. jur., Valentins ven.</roleDesc></castItem>
+<castItem><role>Alma,</role> <roleDesc>hans s&#x00F8;ster, l&#x00E6;rerinde.</roleDesc></castItem>
+<castItem><role>Frk. Witt,</role> <roleDesc>selskabsdame.</roleDesc></castItem>
+<castItem><role>Marit,</role> <roleDesc>tjenestepige.</roleDesc></castItem>
+</castList>
+</div>
+<set><p>Mellem 1ste og de to sidste akter et tidsrum af 4 m&#x00E5;neder.</p></set>
+</front>
+<body>
+<div type="chapter" subtype="act" n="1">
+<head type="main">I.</head>
+<stage>(Et v&#x00E6;relse, udstyret med luksus og smag i moderne stil, med t&#x00E6;pper p&#x00E5; gulv og v&#x00E6;gge, byster p&#x00E5; sokler, et par st&#x00F8;rre malerier o. s. v. Mange blomster. Udgang til en altan i baggrunden, gardinerne er trukne fra og d&#x00F8;rene st&#x00E5;r &#x00E5;bne. Udsigt over lidt af byens omegn, tr&#x00E6;erne b&#x00E6;rer h&#x00F8;stfarver. D&#x00F8;r med porti&#x00E9;rer tilh&#x00F8;ire, en anden d&#x00F8;r l&#x00E6;ngere nede tilvenstre. I forgrunden tilvenstre et marmorbord, lidt l&#x00E6;nger tilbage en kamin. Tilh&#x00F8;ire et st&#x00F8;rre bord med l&#x00E6;nestole m. m.)</stage>
+<stage>Alma sidder og l&#x00E6;ser ved bordet tilvenstre. P&#x00E5; det andet bord og i v&#x00E6;relset ligger forskjellige brogede sager str&#x00F8;d omkring, st&#x00F8;rre og mindre &#x00E5;bne &#x00E6;sker hist og her.</stage>
+<sp>
+<speaker>EVA</speaker>
+<stage>(kommer ind fra altanen, l&#x00E6;sende p&#x00E5; et papir.)</stage>
+<p>Klokken 6; &#x2013; <stage>(ser p&#x00E5; uret)</stage> og nu er den snart halv. Han <hi rend="italic">kommer</hi>, du Alma! <stage>(ser sig om).</stage> Da m&#x00E5; vi sandelig rydde!</p>
+</sp>
+<sp>
+<speaker>ALMA</speaker>
+<stage>(ser op fra bogen.)</stage>
+<p>Ja, vi m&#x00E5; vel det? Til herren i huset kommer hjem, ellers blir han gr&#x00E6;tten &#x2013; &#x2013; er han begyndt med det alt, Eva? Han er vel ikke bedre han end andre. <stage>(Vil reise sig).</stage></p>
+</sp>
+<sp>
+<speaker>EVA.</speaker>
+<p>&#x00C5; nei, sid du. Jeg ved, hvor det skal l&#x00E6;gges altsammen.</p>
+</sp>
+<sp>
+<speaker><pb n="6"/>ALMA.</speaker>
+<p>Det er ogs&#x00E5; forf&#x00E6;rdeligt, hvor du har draget udover.</p>
+</sp>
+<sp>
+<speaker>EVA</speaker>
+<stage>(rydder.)</stage>
+<p>Ja &#x2013; og du har vist ikke set ordentlig p&#x00E5; det endnu. Du bare sidder og l&#x00E6;ser i den fillebogen. <stage>(Stanser lidt, t&#x00E6;nker sig om).</stage> Men n&#x00E5;r han kommer kl. 6 og lige fra jagten, s&#x00E5; har han vel ikke spist. Hvad skal vi finde p&#x00E5;?</p>
+</sp>
+<sp>
+<speaker>ALMA.</speaker>
+<p>Bif med speil&#x00E6;g? Det var han s&#x00E5; glad i f&#x00F8;r, n&#x00E5;r han kom til os.</p>
+</sp>
+<sp>
+<speaker>EVA.</speaker>
+<p>Ja, det husker jeg godt.</p>
+</sp>
+<sp>
+<speaker>ALMA,</speaker>
+<p>Nei, det husker vist ikke du, for det var mere i gamle dage, f&#x00F8;r du var kommen i huset, og f&#x00F8;r han havde v&#x00E6;ret i udlandet.</p>
+</sp>
+<sp>
+<speaker>EVA</speaker>
+<stage>(ler.)</stage>
+<p>Ja, det kan s&#x00E5; godt v&#x00E6;re. Dere tre &#x2013; du og din bror og han &#x2013; har jo s&#x00E5; mange minder sammen, som ikke jeg er med i. <stage>(Hun ringer, en pige kommer).</stage> Vil du v&#x00E6;re s&#x00E5; snil at d&#x00E6;kke bordet derinde &#x2013; og rigtig fint, Edvarda. Min mand kommer hjem, jeg har f&#x00E5;t telegram. <stage>(Hun g&#x00E5;r hen til pigen og gir mere d&#x00E6;mpet en n&#x00F8;iere besked, pigen siger noget, hun nikker, g&#x00E5;r fra hende).</stage> Ja d&#x00E9;t &#x2013; det skal jeg selv kj&#x00F8;be. <stage>(Pigen g&#x00E5;r).</stage></p>
+</sp>
+<sp>
+<speaker><pb n="7"/>EVA</speaker>
+<stage>(ser sig om, ler.)</stage>
+<p>Men nu <hi rend="italic">m&#x00E5;</hi> jeg sandelig rydde!</p>
+</sp>
+<sp>
+<speaker>ALMA</speaker>
+<stage>(som har siddet med hodet i bogen, ser op, smiler ogs&#x00E5;, l&#x00E6;gger sig tilbage i stolen).</stage>
+<p>T&#x00E6;nk, at man ordentlig kommer s&#x00E5;dan i bev&#x00E6;gelse &#x2013; bare fordi ens mand kommer hjem!</p>
+</sp>
+<sp>
+<speaker>EVA</speaker>
+<stage>(rydder og l&#x00E6;gger i &#x00E6;sker.)</stage>
+<p>&#x00C5;, det mener du ikke. Du forst&#x00E5;r det s&#x00E5; godt, Alma. Og du holder af Valentin du ogs&#x00E5; &#x2013; &#x2013; endda s&#x00E5; meget du har at uds&#x00E6;tte p&#x00E5; ham altid. &#x2013; Du snakker! skulde en ikke v&#x00E6;re glad, n&#x00E5;r ens egen deilige velsignede gut kommer hjem! <stage>(stanser igjen og ser ud for sig).</stage> Hvor underligt det er! det er n&#x00E6;sten skj&#x00F8;nt at v&#x00E6;re fra hinanden, for da blir det en gl&#x00E6;de s&#x00E5; vidunderlig stor.</p>
+</sp>
+<sp>
+<speaker>ALMA.</speaker>
+<p>Du taler, som han havde v&#x00E6;ret borte i et &#x00E5;r istedetfor i tre dage.</p>
+</sp>
+<sp>
+<speaker>EVA</speaker>
+<stage>(nynner og rydder.)</stage>
+<p>Ja, ja &#x2013; &#x2013; du har ingen erfaring, Alma! &#x2013; Se s&#x00E5;! nu har jeg da f&#x00E5;t alt det store afveien. Og du har virkelig n&#x00E6;sten ikke s&#x00E5; meget som set p&#x00E5; det engang.</p>
+</sp>
+<sp>
+<speaker>ALMA.</speaker>
+<p>Vist har jeg jo. Det har jo ligget her i hele formiddag.</p>
+</sp>
+<sp>
+<speaker><pb n="8"/>EVA</speaker>
+<stage>(med nogen sager.)</stage>
+<p>Se den lange tyrkiske piben der! og turbanen! Tror du ikke, Valentin kommer til at ta sig ud? <stage>(Hun s&#x00E6;tter turbanen p&#x00E5; og r&#x00F8;ger af piben).</stage> Han kj&#x00F8;bte en slobrok dernede ogs&#x00E5;, eller s&#x00E5;dan en lang tyrkisk kaftan, men den har han i sin egen kuffert. <stage>(L&#x00E6;gger sagerne ned).</stage> Her er en kam&#x00E9;, &#x00E6;gte antik, den kj&#x00F8;bte vi i en bod i Neapel. Det var en liden pige der, som havde s&#x00E5;danne store, sorte, s&#x00F8;rgmodige &#x00F8;ine, at jeg <hi rend="italic">m&#x00E5;tte</hi> kj&#x00F8;be alt, hvad hun bad om.</p>
+</sp>
+<sp>
+<speaker>ALMA.</speaker>
+<p><hi rend="italic">Den</hi> er deilig.</p>
+</sp>
+<sp>
+<speaker>EVA.</speaker>
+<p>Vil du eie den, Alma?</p>
+</sp>
+<sp>
+<speaker>ALMA.</speaker>
+<p>Tak &#x2013; det kan du t&#x00E6;nke, jeg gjerne vil. Men nu har du git mig s&#x00E5; meget.</p>
+</sp>
+<sp>
+<speaker>EVA.</speaker>
+<p>Ingenting er for meget. Det er jo dig og &#x2013; dere alle derhjemme, jeg kan takke for, at jeg har det, som jeg har det og eier alt dette &#x2013; for at jeg l&#x00E6;rte Valentin at kjende! &#x2013; Hvad er det? &#x00C5; sjalet! Du m&#x00E5; ikke glemme din mors kniplingssjal, n&#x00E5;r du g&#x00E5;r iaften &#x2013; her l&#x00E6;gger jeg det p&#x00E5; stolen.</p>
+</sp>
+<sp>
+<speaker>ALMA.</speaker>
+<p>Nei, det skal jeg ikke.</p>
+</sp>
+<sp>
+<speaker><pb n="9"/>EVA.</speaker>
+<p>S&#x00E5; tror jeg ikke, der er mere. <stage>(Ser sig om).</stage> &#x00C5; jo, &#x00E5; jo &#x2013; der er endnu min hvide kniplingsfichu. <stage>(Hun st&#x00E5;r og l&#x00E6;gger den sammen).</stage> Der er minder ved den! Og vil du kjende &#x2013; &#x2013; en duft af en egen sort viol-essens, som jeg fik af Valentin dernede. Den er ikke at f&#x00E5; her. <stage>(L&#x00E6;gger den mod ansigtet).</stage> Det er som at dukke sig ned i minder &#x2013; den deilige, deilige dag i Versailles! <stage>(Hun st&#x00E5;r tankefuld).</stage> Nei, <hi rend="italic">s&#x00E5;dan</hi> blir det vist aldrig mere &#x2013; en s&#x00E5;dan reise er som et eventyr, en vidunderlig dr&#x00F8;m, man bare f&#x00E5;r dr&#x00F8;mme <hi rend="italic">en</hi> gang! &#x2013; <stage>(Stryger sig over &#x00F8;inene, smiler).</stage> Blir det ikke? &#x2013; Jo vist blir det, &#x2013; <stage>(i leende overmod)</stage> det blir bare deiligere og deiligere &#x2013; &#x2013; og det skal <hi rend="italic">vare</hi> &#x2013; &#x2013; hele livet ud! <stage>(Hun l&#x00E6;gger sjalet i &#x00E6;ske, g&#x00E5;r lidt omkring, nynner og s&#x00E6;tter sig til at stelle med noget).</stage></p>
+</sp>
+<sp>
+<speaker>ALMA</speaker>
+<stage>(reiser sig og begynder at g&#x00E5; frem og tilbage p&#x00E5; gulvet).</stage>
+<p>Jeg skj&#x00F8;nner mig slet ikke rigtig p&#x00E5; dig, Eva &#x2013; nei, det gj&#x00F8;r jeg ikke.</p>
+</sp>
+<sp>
+<speaker>EVA.</speaker>
+<p>Hvad skj&#x00F8;nner du ikke?</p>
+</sp>
+<sp>
+<speaker>ALMA.</speaker>
+<p>At du kan v&#x00E6;re s&#x00E5; glad &#x2013; s&#x00E5; rent sorgl&#x00F8;s &#x2013; rent ud sagt.</p>
+</sp>
+<sp>
+<speaker>EVA</speaker>
+<stage>(forundret).</stage>
+<p>Hvad er det da, som er s&#x00F8;rgeligt?</p>
+</sp>
+<sp>
+<speaker><pb n="10"/>ALMA.</speaker>
+<p>&#x00C5; &#x2013; hvis jeg var dig, s&#x00E5; vilde jeg vel heller komme til at g&#x00E5; med en f&#x00F8;lelse, som ulykken hang over hodet p&#x00E5; mig.</p>
+</sp>
+<sp>
+<speaker>EVA</speaker>
+<stage>(ser p&#x00E5; hende.)</stage>
+<p>Uf da? Hvorfor det? Fordi jeg er altfor lykkelig, mener du? fordi der er noget &#x2013; ligesom eventyrligt ved det? <stage>(tankefuld).</stage> Ja, det har jeg nok undertiden t&#x00E6;nkt selv. Men man skal jo ikke t&#x00E6;nke p&#x00E5; s&#x00E5;danne ting.</p>
+</sp>
+<sp>
+<speaker>ALMA.</speaker>
+<p>Nei, ikke just det. Men t&#x00E6;nk at v&#x00E6;re gift p&#x00E5; den m&#x00E5;den, som du er det. Det synes jeg m&#x00E5; v&#x00E6;re noks&#x00E5; utrygt &#x2013; &#x2013;.</p>
+</sp>
+<sp>
+<speaker>EVA</speaker>
+<stage>(leende.)</stage>
+<p>Men Alma &#x2013; vi <hi rend="italic">er</hi> da virkelig <hi rend="italic">aldeles</hi> ordentlig gifte.</p>
+</sp>
+<sp>
+<speaker>ALMA.</speaker>
+<p>Ja, vist &#x2013; men aldeles mod fru Skyttes vilje. Valentin har jo brudt med hende for at gifte sig med dig &#x2013; han t&#x00F8;r ikke s&#x00E6;tte sin fod indenfor hendes d&#x00F8;r mere.</p>
+</sp>
+<sp>
+<speaker>EVA.</speaker>
+<p>&#x00C5;, det. Ja det er sandt. &#x2013; Ved du hvorfor?</p>
+</sp>
+<sp>
+<speaker>ALMA.</speaker>
+<p>Nei, jeg gj&#x00F8;r ikke.</p>
+</sp>
+<sp>
+<speaker><pb n="11"/>EVA.</speaker>
+<p>Ikke jeg heller. <stage>(Grundende).</stage> Der er jo noget underligt ved det. Valentin ved det vist, men han vil ikke sige det. Han siger, vi m&#x00E5; vente &#x2013; at han h&#x00E5;ber, alt vil bli godt tilsidst.</p>
+</sp>
+<sp>
+<speaker>ALMA.</speaker>
+<p>Ja, underligt er det, Jeg synes, det m&#x00E5; v&#x00E6;re s&#x00E5; utrygt p&#x00E5; den m&#x00E5;den. Om ikke du f&#x00F8;ler det, s&#x00E5; kan du v&#x00E6;re vis p&#x00E5;, at <hi rend="italic">han</hi> gj&#x00F8;r det. Det kan bli tungt nok at b&#x00E6;re i l&#x00E6;ngden.</p>
+</sp>
+<sp>
+<speaker>EVA.</speaker>
+<p>&#x00C5; &#x2013; n&#x00E5;r vi er to om det.</p>
+<p>ALMA.</p>
+<p>Ja, men dere er jo ikke to om det heller.</p>
+</sp>
+<sp>
+<speaker>EVA.</speaker>
+<p><hi rend="italic">Er</hi> vi ikke?</p>
+</sp>
+<sp>
+<speaker>ALMA.</speaker>
+<p>Du ved jo ikke engang, hvad det er. Han burde da ikke skjule det for dig. En mand burde ikke ha nogen hemmelighed for sin hustru. <hi rend="italic">Jeg</hi> vilde aldrig t&#x00E5;lt det.</p>
+</sp>
+<sp>
+<speaker>EVA.</speaker>
+<p>Nei, det kan v&#x00E6;re s&#x00E5; ganske sandt. Men det nytter ikke at <hi rend="italic">tvinge</hi> nogen, skal jeg sige dig &#x2013; hver f&#x00E5;r gj&#x00F8;re, som han vil.</p>
+</sp>
+<sp>
+<speaker><pb n="12"/>ALMA</speaker>
+<stage>(nerv&#x00F8;st.)</stage>
+<p>Du er et barn, Eva. Du forkj&#x00E6;ler ham i det hele, han kommer til at f&#x00E5; aldeles magten over dig. Jeg kjender ham bedre end du &#x2013; han t&#x00E5;ler det ikke. Valentin tr&#x00E6;ngte netop en kone, som forstod at ta ham.</p>
+</sp>
+<sp>
+<speaker>EVA.</speaker>
+<p>Og jeg glemmer bestandig at t&#x00E6;nke p&#x00E5;, hvordan han skal &#x00AB;tages&#x00BB; &#x2013; &#x2013;.</p>
+</sp>
+<sp>
+<speaker>ALMA.</speaker>
+<p>Ja, du beundrer Valentin blindt i alting.</p>
+</sp>
+<sp>
+<speaker>EVA</speaker>
+<stage>(forundret.)</stage>
+<p>Nei, skal du nu stikle p&#x00E5; Valentin igjen? Jeg tror virkelig, at du ikke kan udst&#x00E5; ham:</p>
+</sp>
+<sp>
+<speaker>ALMA</speaker>
+<stage>(kort.)</stage>
+<p>&#x00C5;, jo vist.</p>
+</sp>
+<sp>
+<speaker>EVA</speaker>
+<stage>(reiser sig, g&#x00E5;r hen til Alma, l&#x00E6;gger armene om hendes hals og ser hende ind i &#x00F8;inene).</stage>
+<p>Ja, &#x2013; s&#x00E5; skal du ikke v&#x00E6;re s&#x00E5; slem og kritisk, du!</p>
+</sp>
+<sp>
+<speaker>ALMA</speaker>
+<stage>(i nogen bev&#x00E6;gelse.)</stage>
+<p>Nei, herre gud, Eva min &#x2013; jeg vil vist ikke forstyrre din lykke. Jeg synes bare, at dette forhold til Valentins mor burde dere se at f&#x00E5; greiet s&#x00E5; snart som mulig. Ellers har dere jo bare hinanden.</p>
+</sp>
+<sp>
+<speaker><pb n="13"/>EVA.</speaker>
+<p><hi rend="italic">Bare</hi> hinanden. Er ikke det nok?</p>
+</sp>
+<sp>
+<speaker>ALMA.</speaker>
+<p>Det er ikke &#x0027;nok at s&#x00E6;tte sin lid til bare et eneste menneske i verden.</p>
+</sp>
+<sp>
+<speaker>EVA.</speaker>
+<p>Jeg har ham, og han har mig. Det <hi rend="italic">er</hi> nok. &#x2013; Men nu m&#x00E5; jeg nok skynde mig.</p>
+</sp>
+<sp>
+<speaker>ALMA.</speaker>
+<p>Hvor skal du hen nu?</p>
+</sp>
+<sp>
+<speaker>EVA.</speaker>
+<p>Jeg m&#x00E5; ind til konditoren p&#x00E5; hj&#x00F8;rnet og kj&#x00F8;be noget til dessert. Det er noget rart &#x2013; &#x2013; og man kan lave det selv i en fart. Du f&#x00E5;r ikke vide, hvad det er endda. <stage>(Ser sig om).</stage> Generer det dig, at altand&#x00F8;rene st&#x00E5;r &#x00E5;bne?</p>
+</sp>
+<sp>
+<speaker>ALMA.</speaker>
+<p>Nei, de kan vist st&#x00E5; en stund endnu.</p>
+</sp>
+<sp>
+<speaker>EVA.</speaker>
+<stage>(ordner lidt.)</stage>
+<p>S&#x00E5; hyggeligt her er.</p>
+<stage>(Hun skynder sig ud).</stage>
+</sp>
+<sp>
+<speaker>ALMA</speaker>
+<stage>(s&#x00E6;tter sig ved bordet tilh&#x00F8;ire, l&#x00E6;gger armene p&#x00E5; bordet og hodet ned p&#x00E5; dem. Om en stund kommer Viggo Brandt stille ind fra h&#x00F8;ire, st&#x00E5;r lidt).</stage>
+</sp>
+<sp>
+<speaker>BRANDT.</speaker>
+<p>Goddag &#x2013; Alma!</p>
+</sp>
+<sp>
+<speaker><pb n="14"/>ALMA</speaker>
+<stage>(farer op.)</stage>
+<p>Viggo! &#x2013; hvor kom du fra? hvorledes kom du ind?</p>
+</sp>
+<sp>
+<speaker>BRANDT.</speaker>
+<p>Entr&#x00E9;d&#x00F8;ren stod oppe.</p>
+</sp>
+<sp>
+<speaker>ALMA.</speaker>
+<p>M&#x00F8;dte du ikke &#x2013; Eva?</p>
+</sp>
+<sp>
+<speaker>BRANDT.</speaker>
+<p>Nei. Er herskabet ude?</p>
+</sp>
+<sp>
+<speaker>ALMA.</speaker>
+<p>Hvor t&#x00F8;r du komme her, Viggo?</p>
+</sp>
+<sp>
+<speaker>BRANDT.</speaker>
+<p>Jeg skal tale med Valentin. Er han hjemme?</p>
+</sp>
+<sp>
+<speaker>ALMA.</speaker>
+<p>Ikke i &#x00F8;ieblikket &#x2013; men om en stund kommer han.</p>
+</sp>
+<sp>
+<speaker>BRANDT.</speaker>
+<p>S&#x00E5; f&#x00E5;r jeg vente; &#x2013; eller komme igjen.</p>
+</sp>
+<sp>
+<speaker>ALMA.</speaker>
+<p>Men hvor <hi rend="italic">t&#x00F8;r</hi> du komme her?</p>
+</sp>
+<sp>
+<speaker>BRANDT.</speaker>
+<p>Har <hi rend="italic">jeg</hi> gjort noget ondt?</p>
+</sp>
+<sp>
+<speaker>ALMA.</speaker>
+<p>Nei, nei &#x2013; men du burde ikke rive op i dette; &#x2013; for din egen skyld, mener jeg.</p>
+</sp>
+<sp>
+<speaker><pb n="15"/>BRANDT.</speaker>
+<p>&#x00C5;, jeg skal nok passe mine sager; pas du dine. Hvorfor er <hi rend="italic">du</hi> her? Ikke for noget gl&#x00E6;deligt, t&#x00E6;nker jeg &#x2013; at d&#x00F8;mme efter den stilling, du indtog, da jeg kom.</p>
+</sp>
+<sp>
+<speaker>ALMA</speaker>
+<stage>(ser ned.)</stage>
+<p>Nei, det er sandt. <stage>(i st&#x00E6;rk sindsbev&#x00E6;gelse, begynder at g&#x00E5;).</stage> A, &#x2013; ved du, at synet af andres lykke kan gj&#x00F8;re en ond; &#x2013; &#x2013; jeg har f&#x00F8;lt mig s&#x00E5; ond, Viggo....</p>
+</sp>
+<sp>
+<speaker>BRANDT.</speaker>
+<p>Andres lykke &#x2013;? <hi rend="italic">Er</hi> lykken da virkelig s&#x00E5; overlag stor?</p>
+</sp>
+<sp>
+<speaker>ALMA.</speaker>
+<p>&#x00C5;, de er som to barn.</p>
+</sp>
+<sp>
+<speaker>BRANDT.</speaker>
+<p>To fugle i et rede. <stage>(ser sig om)</stage> Her bor de alts&#x00E5;. &#x00C5; ja &#x2013; det var mere end andre har r&#x00E5;d til. Men derfor kan en vel v&#x00E6;re lige god, t&#x00E6;nker jeg. <stage>(G&#x00E5;r omkring).</stage></p>
+</sp>
+<sp>
+<speaker>ALMA.</speaker>
+<p>Nu kommer Eva snart tilbage. Vil du ikke helst g&#x00E5; &#x2013; og komme igjen siden?</p>
+</sp>
+<sp>
+<speaker>BRANDT.</speaker>
+<p>&#x00C5;, det har vel ikke saadan hast. Jeg har ikke n&#x00F8;dig at gjemme mig bort og er ikke bange hverken for hende eller nogen anden. Det kunde v&#x00E6;re ganske interessant at se hende igjen. Vi to har v&#x00E6;ret ganske godt kjendte engang i tiden.</p>
+</sp>
+<sp>
+<speaker><pb n="16"/>ALMA.</speaker>
+<p>Idag for et &#x00E5;r siden, ja &#x2013; hvor alt var anderledes! dengang var han netop kommen hjem fra udlandet &#x2013; &#x2013;</p>
+</sp>
+<sp>
+<speaker>BRANDT</speaker>
+<stage>(st&#x00E5;r.)</stage>
+<p>Ja, og dengang var det ham og dig &#x2013; og mig og hende.</p>
+</sp>
+<sp>
+<speaker>ALMA.</speaker>
+<p>Men det varte ikke l&#x00E6;nge.</p>
+</sp>
+<sp>
+<speaker>BRANDT.</speaker>
+<p>Nei &#x2013; det varte ikke l&#x00E6;nge.</p>
+</sp>
+<sp>
+<speaker>ALMA.</speaker>
+<p>Ja, &#x2013; dengang! det er som det ligger et helt liv imellem &#x2013; &#x2013; min hele ungdom! <stage>(halv for sig selv)</stage> T&#x00E6;nk, at jeg siger det! at jeg t&#x00F8;r udtale det! &#x00E5;, men det gj&#x00F8;r saa godt at tale, det var, som jeg skulde kv&#x00E6;les f&#x00F8;r! &#x2013; &#x2013; Husker du &#x2013; husker du, n&#x00E5;r vi sad om bordet om aftnerne og han fortalte &#x2013; &#x2013; &#x00E5;, for et liv der var med ham bestandig! &#x2013; Men alt dengang var det Eva, han talte for &#x2013; hende han spilte og sang for &#x2013; alt dengang &#x2013; &#x2013; &#x00E5;, jeg ved det!</p>
+</sp>
+<sp>
+<speaker>BRANDT.</speaker>
+<p>Ja &#x2013; det varte ikke l&#x00E6;nge f&#x00F8;r hans evige forf&#x00E6;ngelighed var p&#x00E5;f&#x00E6;rde igjen. S&#x00E5;danne egoister &#x2013; <stage>(knytter h&#x00E5;nden)</stage> n&#x00E5;r de bare rigtig kan f&#x00E5; sit eget lys til at skinne, s&#x00E5; &#x2013; &#x2013;</p>
+</sp>
+<sp>
+<speaker><pb n="17"/>ALMA.</speaker>
+<p>&#x00C5;, nei, Viggo, slig er ikke Valentin. Det var ikke bare egoisme &#x2013; &#x2013; han holder jo virkelig af hende.</p>
+</sp>
+<sp>
+<speaker>BRANDT.</speaker>
+<p>Undskylder du ham? &#x2013; <hi rend="italic">Hun</hi> elsked ikke <hi rend="italic">ham</hi>, siger jeg &#x2013; &#x2013; ikke straks, ikke i f&#x00F8;rstningen. Og han kunde ladet hende v&#x00E6;re i fred. <hi rend="italic">S&#x00E5;</hi> meget kunde han gjort for en ven. Af &#x00E9;n grund til.</p>
+</sp>
+<sp>
+<speaker>ALMA.</speaker>
+<p>Hvilken grund?</p>
+</sp>
+<sp>
+<speaker>BRANDT.</speaker>
+<p>&#x00C5; &#x2013; det kan v&#x00E6;re det samme. &#x2013; Men han s&#x00E5;, hvad det gjaldt for mig, og han vidste, at du holdt af ham. Dere var ja s&#x00E5; godt som forlovede, f&#x00F8;r han reiste.</p>
+</sp>
+<sp>
+<speaker>ALMA.</speaker>
+<p>Nei, Viggo, <hi rend="italic">det</hi> var vi alligevel ikke. Vort forhold var altid mere roligt, kameratsligt &#x2013; ja kanske mindst i den sidste tid, f&#x00F8;r han reiste. Men det kom i al fald aldrig til noget opgj&#x00F8;r, nei, ikke med et eneste ord. Det er ikke for at forsvare ham, at jeg siger det, men fordi det er sandt. Og s&#x00E5; fordi det er en tr&#x00F8;st for mig. S&#x00E5; har jeg da ikke egentlig <hi rend="italic">mistet</hi> ham.</p>
+</sp>
+<sp>
+<speaker>BRANDT.</speaker>
+<p>En fattig tr&#x00F8;st! &#x2013; jeg har ikke engang den!</p>
+</sp>
+<sp>
+<speaker><pb n="18"/>ALMA</speaker>
+<stage>(om lidt, ser p&#x00E5; ham.)</stage>
+<p>Mener du, at &#x2013; <hi rend="italic">hun</hi> virkelig var ved at elske dig &#x2013; f&#x00F8;rst?</p>
+</sp>
+<sp>
+<speaker>BRANDT</speaker>
+<stage>(nikker.)</stage>
+<p>&#x00C5; ja &#x2013; kan vel v&#x00E6;re. Hvem ved.</p>
+</sp>
+<sp>
+<speaker>ALMA</speaker>
+<stage>(ryster p&#x00E5; hodet.)</stage>
+<p>Ak &#x2013; jeg er bange for, det havde ikke v&#x00E6;ret stort h&#x00E5;b for dig &#x2013; stakkars Viggo.</p>
+</sp>
+<sp>
+<speaker>BRANDT</speaker>
+<stage>(irriteret.)</stage>
+<p>Kan <hi rend="italic">du</hi> vide, hvad der har v&#x00E6;ret os imellem?</p>
+</sp>
+<sp>
+<speaker>ALMA.</speaker>
+<p>Dere blev jo aldrig dus engang.</p>
+</sp>
+<sp>
+<speaker>BRANDT</speaker>
+<stage>(smiler.)</stage>
+<p>&#x00C5;, det har ikke noget at sige &#x2013; tvertom. Havde ikke den &#x2013; forgyldte don Juan v&#x00E6;ret, s&#x00E5; var hun kanske min nu.</p>
+</sp>
+<sp>
+<speaker>ALMA.</speaker>
+<p>Ja, du havde kanske kunnet tvinge hendes vilje, for din er st&#x00E6;rk. <stage>(Lytter)</stage> Der gik det i entreen, det er vist Eva. &#x2013; Hun g&#x00E5;r ud i kj&#x00F8;kkenet.</p>
+</sp>
+<sp>
+<speaker>BRANDT</speaker>
+<stage>(har ogs&#x00E5; lyttet efter.)</stage>
+<p>Aldrig mod hendes vilje. Men jeg skulde vundet hende.</p>
+</sp>
+<sp>
+<speaker><pb n="19"/>ALMA</speaker>
+<stage>(g&#x00E5;r omkring.)</stage>
+<p>Ja, far skulde vidst det &#x2013; dengang han bestemte sig til at ta den finske sangerindes datter i huset, fordi fa&#x0027;ren havde v&#x00E6;ret hans ven! Vidst det &#x2013; at han f&#x00F8;rte ulykken over sine egne b&#x00F8;rn!</p>
+</sp>
+<sp>
+<speaker>BRANDT.</speaker>
+<p>&#x00C5;, det var ikke hendes skyld.</p>
+</sp>
+<stage>(Liden Pause).</stage>
+<sp>
+<speaker>ALMA.</speaker>
+<p>Skal du ikke paa kontoret i eftermiddag?</p>
+</sp>
+<sp>
+<speaker>BRANDT.</speaker>
+<p>Nej, jeg er fri &#x2013; for en gangs skyld.</p>
+</sp>
+<sp>
+<speaker>ALMA.</speaker>
+<p>Og jeg fra skolen. Jeg er begyndt med formiddagstimer nu. Men du arbeider vist for meget, Viggo. Du ser s&#x00E5; anstrengt ud.</p>
+</sp>
+<sp>
+<speaker>BRANDT.</speaker>
+<p>Jeg? &#x2013; A ja &#x2013; &#x2013; der kan v&#x00E6;re skyer nok, n&#x00E5;r vi skal tale om <hi rend="italic">det</hi>. <stage>(Efter en pause).</stage> Men er det mulig det, at hun kan v&#x00E6;re s&#x00E5; aldeles bed&#x00E5;ret og s&#x00E6;tte al sin lid til denne lette fyren?</p>
+</sp>
+<sp>
+<speaker>ALMA.</speaker>
+<p>&#x00C5;, du skal ikke sige, han er saa let, Viggo. Han har et let sind og er let bev&#x00E6;gelig, men derfor kan han godt v&#x00E6;re dyb. Jeg er mere bange for, at Eva ikke er den rette for ham.</p>
+</sp>
+<sp>
+<speaker><pb n="20"/>BRANDT</speaker>
+<stage>(ler, tr&#x00E6;kker p&#x00E5; skulderen.)</stage>
+<p>Let &#x2013; &#x2013; dyb &#x2013; &#x2013;. Det bryr jeg mig pokker om &#x2013; og kunde jo lige s&#x00E5; gjerne sp&#x00F8;rge: er <hi rend="italic">han</hi> den rette for <hi rend="italic">hende?</hi> Han er ialfald uefterrettelig, det kan jeg sige dig.</p>
+</sp>
+<sp>
+<speaker>ALMA.</speaker>
+<p>Hvorledes det?</p>
+</sp>
+<sp>
+<speaker>BRANDT.</speaker>
+<p>&#x00C5; &#x2013; jeg har m&#x00F8;ie nok med hans historier. Det er jo derfor, jeg er her.</p>
+</sp>
+<sp>
+<speaker>ALMA.</speaker>
+<p>Hvilke Historier?</p>
+</sp>
+<sp>
+<speaker>BRANDT.</speaker>
+<p>Tror du kanske ikke, han har havt historier? &#x00C5; jo, som det sig h&#x00F8;r og b&#x00F8;r. Det har vi jo forresten havt nogen hver, saa for den sags skyld &#x2013;!</p>
+</sp>
+<sp>
+<speaker>ALMA.</speaker>
+<p>Hvad er det da for Historier?</p>
+</sp>
+<sp>
+<speaker>BRANDT.</speaker>
+<p>Har &#x2013; har fru Eva aldrig fortalt dig noget?</p>
+</sp>
+<sp>
+<speaker>ALMA.</speaker>
+<p>Nei, aldrig.</p>
+</sp>
+<sp>
+<speaker><pb n="21"/>BRANDT.</speaker>
+<p>Saa ved hun det naturligvis ikke. Damer pleier jo fort&#x00E6;lle hinanden s&#x00E5;dant. Men det ligner ham. Han staar for hende som den &#x00AB;rene&#x00BB;, hendes ideal &#x2013; og hvad ved jeg? det har han s&#x00F8;rget for.</p>
+</sp>
+<sp>
+<speaker>ALMA.</speaker>
+<p>Men hvad <hi rend="italic">er</hi> det da?</p>
+</sp>
+<sp>
+<speaker>BRANDT.</speaker>
+<p>Nei, <hi rend="italic">det</hi> forhold hviler nok paa temmelig falsk grund.</p>
+</sp>
+<sp>
+<speaker>ALMA.</speaker>
+<p>Ja, Eva stoler altfor blindt paa ham, det har jeg ogsaa sagt hende. Og s&#x00E5; kan hun slet ikke saadan rigtig &#x2013; h&#x00E6;vde sin v&#x00E6;rdighed overfor ham. Det vilde kanske bare v&#x00E6;re en velgjerning at advare hende.</p>
+</sp>
+<sp>
+<speaker>BRANDT.</speaker>
+<p>Hm .... ja, den gode hr. Valentin<note type="footnote">Valentin] <hi rend="italic">rettet fra:</hi> Valentien <hi rend="italic">(trykkfeil)</hi></note> kunde ha s&#x00E5; inderlig godt af lidt modb&#x00F8;r &#x2013; ikke for det! Han er kommen sovende til alting. Og han fortjener slet ikke hendes tro paa ham.</p>
+</sp>
+<sp>
+<speaker>ALMA.</speaker>
+<p>Men hvad er det da, han har gjort?</p>
+</sp>
+<sp>
+<speaker>BRANDT.</speaker>
+<p>&#x00C5;, ikke just noget m&#x00E6;rkeligt eller us&#x00E6;dvanligt. <stage>(Efter en pause, st&#x00E6;rkt)</stage> Men jeg siger, det er usikker grund!</p>
+</sp>
+<sp>
+<speaker>ALMA.</speaker>
+<p>Hys....</p>
+</sp>
+<sp>
+<speaker><pb n="22"/>EVA</speaker>
+<stage>(et &#x00F8;ieblik efter, fra h&#x00F8;ire. Hun farer let sammen, idet hun ser Brandt. Han ser vist paa hende og hilser stivt).</stage>
+<p>Goddag &#x2013; Brandt, De her? det er l&#x00E6;nge siden, jeg har set &#x2013; &#x2013; &#x2013; <stage>(hun r&#x00E6;kker ham h&#x00E5;nden, han tar den).</stage></p>
+</sp>
+<sp>
+<speaker>BRANDT.</speaker>
+<p>Ja, det er en stund siden. Jeg er her for at tale med Deres mand, frue &#x2013; med Valentin.</p>
+</sp>
+<sp>
+<speaker>EVA</speaker>
+<p>Han er ikke hjemme nu, men vi venter ham. Vil De ikke sidde ned &#x2013; <stage>(hun gj&#x00F8;r en bev&#x00E6;gelse mod bordet tilh&#x00F8;ire).</stage></p>
+</sp>
+<sp>
+<speaker>BRANDT.</speaker>
+<p>Tak, jeg ved ikke &#x2013; jeg burde vel heller komme igjen &#x2013; &#x2013;</p>
+</sp>
+<sp>
+<speaker>EVA</speaker>
+<stage>(som er blet roligere.)</stage>
+<p>&#x00C5;, De kan vel sidde et &#x00F8;ieblik og prate lidt.</p>
+</sp>
+<sp>
+<speaker>BRANDT</speaker>
+<p>Vel, paa fruens eget ansvar &#x2013; om jeg skulde komme til forstyrrelse. Jeg mener, De vil vel helst v&#x00E6;re alene, n&#x00E5;r han kommer. <stage>(Han har sat sig).</stage></p>
+</sp>
+<sp>
+<speaker>ALMA</speaker>
+<stage>(Tar et heklet&#x00F8;i og s&#x00E6;tter sig ved det mindre bord).</stage>
+<p>&#x00C5;, hun har jo saa alligevel mig &#x2013; til at plage hende.</p>
+</sp>
+<sp>
+<speaker>EVA</speaker>
+<stage>(ser p&#x00E5; Alma, ler og s&#x00E6;tter sig ogs&#x00E5;.)</stage>
+<p>Hvorledes har De det?</p>
+</sp>
+<sp>
+<speaker><pb n="23"/>BRANDT.</speaker>
+<p>&#x00C5;, jo, jeg takker &#x2013;. De har det godt, ser jeg?</p>
+</sp>
+<sp>
+<speaker>EVA</speaker>
+<p>Ja &#x2013; jeg synes ikke, verden er s&#x00E5; slem endda.</p>
+</sp>
+<sp>
+<speaker>BRANDT</speaker>
+<stage>(ser hele tiden meget p&#x00E5; hende.)</stage>
+<p>Og det endda Deres mand er borte. Har han v&#x00E6;ret l&#x00E6;nge borte?</p>
+</sp>
+<sp>
+<speaker>EVA.</speaker>
+<p>I tre Dage.</p>
+</sp>
+<sp>
+<speaker>BRANDT.</speaker>
+<p>Og lar Dem alene tilbage?</p>
+</sp>
+<sp>
+<speaker>EVA.</speaker>
+<p>Han var n&#x00F8;dt til at reise; det var et l&#x00E6;nge aftalt m&#x00F8;de med en engelskmand, Mr. Blount, som skulde komme hid i h&#x00F8;st. Han har gjort Valentin flere tjenester. De skulde ud og seile og skyde lidt. <stage>(Efter en pause).</stage> Forresten har jeg ikke v&#x00E6;ret alene. Alma har v&#x00E6;ret her s&#x00E5; meget hun kan,</p>
+</sp>
+<sp>
+<speaker>BRANDT</speaker>
+<stage>(smiler.)</stage>
+<p>For at beskytte Dem?</p>
+</sp>
+<sp>
+<speaker>EVA.</speaker>
+<p><hi rend="italic">Det</hi> beh&#x00F8;ves ikke, jeg er slet ikke bange. Hvem skulde gj&#x00F8;re mig noget midt i en stor by &#x2013; og inden d&#x00F8;re?</p>
+</sp>
+<sp>
+<speaker><pb n="24"/>BRANDT</speaker>
+<stage>(l&#x00E6;ner sig tilbage.)</stage>
+<p>&#x00C5;, &#x2013; &#x2013; det er saa underligt med store byer, de kan rumme meget. Det er saa mangt, som kan h&#x00E6;nde. &#x2013; I en stor by findes der just mange slags mennesker, frue, baade onde og &#x2013; &#x2013;</p>
+</sp>
+<sp>
+<speaker>EVA.</speaker>
+<p>Jeg h&#x00E5;ber, de lar mig v&#x00E6;re i fred. Jeg har aldrig gjort dem nogen fortr&#x00E6;d.</p>
+</sp>
+<sp>
+<speaker>BRANDT.</speaker>
+<p>Nei &#x2013; &#x2013; ganske vist ikke. <stage>(Efter en kort stilhed).</stage> Men De maa erindre &#x00E9;n ting, fru Eva &#x2013; &#x2013; at De er ikke mere bare Dem selv, men en Del af en anden. Vi kan ta et exempel: Hvis nu Valentin &#x2013; ja &#x2013; hvis Deres mand havde fiender, kunde det ogsaa komme til at gaa ud over Dem.</p>
+</sp>
+<sp>
+<speaker>EVA.</speaker>
+<p>Ja, vi skal jo dele byrden; &#x2013; det var ikke mere end rimeligt, at jeg stod ved hans side, naar han blev angrebet &#x2013; selv om jeg ogsaa skulde modta et hug iblandt.</p>
+</sp>
+<sp>
+<speaker>BRANDT</speaker>
+<stage>(rask.)</stage>
+<p>Men om nu Deres mand havde uret?</p>
+</sp>
+<sp>
+<speaker>EVA</speaker>
+<stage>(overrasket.)</stage>
+<p>Uret &#x2013; &#x2013; hvorledes &#x2013;?</p>
+</sp>
+<sp>
+<speaker><pb n="25"/>BRANDT.</speaker>
+<p>Ja, s&#x00E6;t &#x2013;.</p>
+</sp>
+<sp>
+<speaker>EVA</speaker>
+<stage>(resolut.)</stage>
+<p>Men det har han ikke. Valentin har aldrig med vidende og vilje gjort noget menneske ondt &#x2013; det er jeg vis p&#x00E5;.</p>
+</sp>
+<sp>
+<speaker>BRANDT.</speaker>
+<p>Hvad mener De med at gjore ondt &#x2013; fru Eva?</p>
+</sp>
+<sp>
+<speaker>EVA.</speaker>
+<p>Jeg tror, jeg har l&#x00E6;st: At tilf&#x00F8;ie skade p&#x00E5; legeme eller sj&#x00E6;l.</p>
+</sp>
+<sp>
+<speaker>BRANDT.</speaker>
+<p>Eller begge dele?</p>
+</sp>
+<sp>
+<speaker>EVA.</speaker>
+<p>Ja, naturligvis.</p>
+</sp>
+<sp>
+<speaker>BRANDT.</speaker>
+<p>Nu vel; &#x2013; la os da s&#x00E6;tte, at Valentin &#x2013; alligevel havde gjort et menneske skade paa denne m&#x00E5;de, og at han ved at gj&#x00F8;re d&#x00E9;t p&#x00E5; samme tid havde skadet, beg&#x00E5;t uret mod <hi rend="italic">Dem</hi>? Vilde De da endnu st&#x00E5; ved hans side? vilde De ikke da g&#x00E5; over til dem, som angreb ham?</p>
+</sp>
+<sp>
+<speaker>EVA.</speaker>
+<p>Hvorfor beh&#x00F8;ver vi at s&#x00E6;tte s&#x00E5;dant. Jeg forst&#x00E5;r ikke hvad De mener &#x2013; &#x2013; og jeg synes, dette er saa uhyggeligt.</p>
+</sp>
+<sp>
+<speaker><pb n="26"/>ALMA</speaker>
+<stage>(reiser sig.)</stage>
+<p>Nei, Viggo &#x2013; hvorfor skal du nu komme med s&#x00E5;dant noget? hvad <hi rend="italic">skal</hi> det betyde?</p>
+</sp>
+<sp>
+<speaker>BRANDT.</speaker>
+<p>Ja, jeg ber om forladelse. Men vi jurister er s&#x00E5; vant til at gj&#x00F8;re tankeexperimenter, at de falder os i munden b&#x00E5;de i tide og i utide.</p>
+</sp>
+<sp>
+<speaker>EVA</speaker>
+<stage>(efter en pause, ser p&#x00E5; ham.)</stage>
+<p>De har jo kjendt Valentin l&#x00E6;nge &#x2013; har De ikke?</p>
+</sp>
+<sp>
+<speaker>BRANDT.</speaker>
+<p>Jo, jeg t&#x00E6;nker omtrent s&#x00E5; l&#x00E6;nge som Deres halve liv, frue. Vi gik p&#x00E5; skolen sammen, som De ved.</p>
+</sp>
+<sp>
+<speaker>EVA.</speaker>
+<p>Og jeg har ikke kjendt ham i mere end et &#x00E5;r. Det er jo meget kort, men &#x2013;</p>
+</sp>
+<sp>
+<speaker>BRANDT.</speaker>
+<p>&#x00C5;, paa den tid kan meget opleves &#x2013; og meget fort&#x00E6;lles. De maa jo nu kjende Deres mands liv ligesaa godt som jeg og endnu bedre; &#x2013; i det forhold fort&#x00E6;ller man jo hinanden alt.</p>
+</sp>
+<sp>
+<speaker>EVA.</speaker>
+<p>Jeg ved alligevel lidet. Jo, p&#x00E5; en m&#x00E5;de meget, men &#x2013; &#x2013; ja, jeg synes, jeg kjender ham s&#x00E5; godt. Men der findes kanske ting, han ikke bryr sig om at tale om. Og s&#x00E5; sp&#x00F8;r jeg ham ikke &#x2013; &#x2013; endda jeg i grunden ikke kan fordra hemmeligheder.....</p>
+</sp>
+<sp>
+<speaker><pb n="27"/>BRANDT</speaker>
+<p>Nei, d&#x00E9;t synes jeg, De har s&#x00E5; ret i. Hemmeligheder .... og gamle venner, de burde ikke v&#x00E6;re til. Hvad vilde De nu f. ex. sige, om jeg fortalte Dem, at jeg har noget her i min lomme, som jeg ikke t&#x00F8;r betro Dem, men m&#x00E5; levere i Valentins egne h&#x00E6;nder? Vilde De ikke bli jaloux p&#x00E5; mig?</p>
+</sp>
+<sp>
+<speaker>EVA.</speaker>
+<p>Ja, det kom jo an p&#x00E5;, hvad det var. Det kunde jo v&#x00E6;re s&#x00E5;dan en &#x2013; vexel eller noget lignende, som herrer pleier at g&#x00E5; med. Og da vilde jeg bare helst slippe; &#x2013; for jeg kan aldrig forst&#x00E5; det rigtig.</p>
+</sp>
+<sp>
+<speaker>BRANDT.</speaker>
+<p>En vexel &#x2013; &#x2013; <stage>(ler d&#x00E6;mpet)</stage> den var sandelig ikke s&#x00E5; gal! en forfalden &#x2013; ja, hvem ved? En vexel, som skal indfries! &#x2013; &#x2013; <stage>(lidt stilhed, han reiser sig)</stage> Forresten var det nu ikke s&#x00E5; alvorlig ment, frue, med den hemmelighed. <stage>(Han tar et papir op af lommen)</stage> De kan vist s&#x00E5; godt levere Deres mand denne &#x2013; vexel, uden nogen forklaring.</p>
+</sp>
+<sp>
+<speaker>EVA</speaker>
+<stage>(tar imod brevet.)</stage>
+<p>Det kan jeg vist. <stage>(De kommer til at se p&#x00E5; hinanden, der blir en temmelig lang pause).</stage></p>
+</sp>
+<sp>
+<speaker>BRANDT.</speaker>
+<stage>(lidt usikkert.)</stage>
+<p>Og s&#x00E5; &#x2013; tror jeg, jeg vil anbefale mig, frue &#x2013; og heller komme igjen. Jeg burde og skulde jo tale med Valentin &#x2013; tr&#x00E6;ffer ham vel senere. Godaften! <stage>(Han bukker for Eva, som stille gjengj&#x00E6;lder hilsenen, nikker til Alma og g&#x00E5;r. Under de f&#x00F8;lgende scener m&#x00F8;rknes det lidt efter lidt).</stage></p>
+</sp>
+<sp>
+<speaker><pb n="28"/>EVA</speaker>
+<stage>(f&#x00F8;lger ham adspredt med &#x00F8;inene, vender sig om, noget bleg. Hun ser sig om i v&#x00E6;relset).</stage>
+<p>Dette var en rar konversation &#x2013; jeg synes, han talte s&#x00E5; underlig hele tiden. <stage>(Hun trykker h&#x00E6;nderne mod ansigtet, gyser let).</stage> Hvor koldt det er her &#x2013; &#x2013; det er sandt, d&#x00F8;rene st&#x00E5;r jo &#x00E5;bne. <stage>(Hun lukker altand&#x00F8;rene).</stage></p>
+</sp>
+<sp>
+<speaker>ALMA</speaker>
+<stage>(som har g&#x00E5;t fra og til under den sidste del af forrige samtale, tar imens brevet, som Eva har lagt p&#x00E5; bordet, ser p&#x00E5; udskriften.</stage>
+<stage>S&#x00E6;tter sig p&#x00E5; sin plads fra f&#x00F8;r).</stage>
+<p>Det ser n&#x00E6;sten ud som en dameh&#x00E5;nd.</p>
+</sp>
+<sp>
+<speaker>EVA.</speaker>
+<p>Ja &#x2013; jeg tror det er en dameh&#x00E5;nd. <stage>(ringer, til pigen som kommer)</stage> V&#x00E6;r s&#x00E5; snil at l&#x00E6;gge lidt i kaminen.</p>
+<stage>(Hun s&#x00E6;tter sig i en l&#x00E6;nestol, mens der l&#x00E6;gges i, pigen g&#x00E5;r, efter at ha f&#x00E5;t det til at br&#x00E6;nde).</stage>
+</sp>
+<sp>
+<speaker>ALMA</speaker>
+<stage>(efter en pause.)</stage>
+<p>Jeg synes, det er skammeligt af ham, hvis han gjemmer noget for dig, som du har ret til at vide....</p>
+</sp>
+<sp>
+<speaker>EVA.</speaker>
+<p>&#x00C5; &#x2013; sig ikke noget nu, Alma. <stage>(Hun reiser sig, g&#x00E5;r hen til ilden og stirrer ind i den; derefter til bordet, tar brevet, ser opm&#x00E6;rksomt p&#x00E5; det, l&#x00E6;gger det hen p&#x00E5; et fjernere sted i v&#x00E6;relset. S&#x00E6;tter sig i l&#x00E6;nestolen med albuerne st&#x00F8;ttet i fanget og ansigtet gjemt i h&#x00E6;nderne. Om lidt tar hun den fra). Vemodig.</stage> &#x00C5;, hvor lidet jeg egenlig kjender til livet og verden &#x2013; og mennesker! derude er vist saa meget ulykke &#x2013; &#x2013; og sorg! Men <hi rend="italic">mit</hi> liv, det har v&#x00E6;ret s&#x00E5; stille &#x2013; ja, helt fra jeg var barn og bode sammen med far i to sm&#x00E5; <pb n="29"/>v&#x00E6;relser, og han var s&#x00E5; syg &#x2013; &#x2013; og jeg s&#x00E5; n&#x00E6;sten aldrig andre end hans musikelever! det st&#x00E5;r s&#x00E5; underlig klart for mig altsammen &#x2013; med &#x00E9;n gang &#x2013; mit liv, som det var, og er!</p>
+</sp>
+<sp>
+<speaker>ALMA.</speaker>
+<p>Ja, i m&#x00F8;rkningen kan en komme til at t&#x00E6;nke p&#x00E5; s&#x00E5; meget &#x2013; &#x2013;</p>
+</sp>
+<sp>
+<speaker>EVA.</speaker>
+<p>Jeg har ikke villet vide om andet end denne min kj&#x00E6;rlighed og lykke &#x2013; &#x2013; jeg har vist levet bare i min egen verden; &#x2013; &#x2013; skal det bli anderledes nu? Hvad <hi rend="italic">er</hi> det da nu? &#x2013; &#x2013; &#x00C5;, n&#x00E5;r man begynder at t&#x00E6;nke p&#x00E5; noget, da kan det svimle s&#x00E5; underlig for en, du! <stage>(ser sig om)</stage> Alt det, jeg ser omkring mig, &#x2013; det synes s&#x00E5; fremmed, s&#x00E5; uvirkelig &#x2013; som jeg ikke ved, hvem jeg er, <hi rend="italic">hvor</hi> jeg er &#x2013;? Og Valentin &#x2013; Valentin &#x2013;! <stage>(forvildet, pressende h&#x00E6;nderne mod &#x00F8;inene).</stage></p>
+</sp>
+<sp>
+<speaker>ALMA</speaker>
+<stage>(reiser sig, hen til hende.)</stage>
+<p>Nei, Eva &#x2013; Eva! du blir syg af dette, &#x2013; du f&#x00E5;r ikke sidde der og skr&#x00E6;mme dig selv op! nu m&#x00E5; jo Valentin straks komme, s&#x00E5; kan du tale med ham selv, &#x2013; og s&#x00E5; skal vi f&#x00E5; lampen ind. H&#x00F8;rer du, Eva &#x2013; &#x2013;.</p>
+</sp>
+<sp>
+<speaker>EVA</speaker>
+<stage>(roligere.)</stage>
+<p>Ja, nu kommer han jo. Det er jo ikke noget, han holder jo af mig! <stage>(mildt givende sig hen i det)</stage> Han <pb n="30"/>elsker &#x2013; <hi rend="italic">elsker</hi>, s&#x00E5;dan som jeg &#x2013; &#x2013; det <hi rend="italic">er</hi> sandt &#x2013; &#x2013; han kunde ikke v&#x00E6;re mod mig, som han er, hvis han ikke gjorde det! hvad er det s&#x00E5;? &#x2013; &#x2013; nei, han kunde ikke &#x2013; kunde ikke &#x2013; &#x2013;. <stage>(Hun falder hen i en foroverb&#x00F8;iet, grublende stilling. Straks efter ringer det. Hun farer op).</stage></p>
+</sp>
+<sp>
+<speaker>ALMA.</speaker>
+<p>Der er han! nu skal jeg bede om lampen.</p>
+<stage>(G&#x00E5;r ud til venstre).</stage>
+<stage>(Valentin Skytte, et &#x00F8;ieblik efter fra h&#x00F8;ire, han er turistkl&#x00E6;dt og b&#x00E6;rer et gev&#x00E6;r).</stage>
+</sp>
+<sp>
+<speaker>EVA</speaker>
+<stage>(imod ham, kaster sig med heftighed i hans arme.)</stage>
+<p>Valentin!</p>
+</sp>
+<sp>
+<speaker>VALENTIN.</speaker>
+<p>Eva! &#x2013; Se s&#x00E5;! <stage>(ler)</stage> men for guds skyld vogt dig da! t&#x00E6;nk, <hi rend="italic">om</hi> nu gev&#x00E6;ret havde v&#x00E6;ret ladt! T&#x00E6;nkte du slet ikke p&#x00E5; det?</p>
+</sp>
+<sp>
+<speaker>EVA.</speaker>
+<p>Nei, det gjorde jeg sandelig ikke! Og selv om s&#x00E5; var, s&#x00E5; var jeg kanske d&#x00F8;d nu &#x2013; &#x2013; og fik aldrig, aldrig vide andet end at du var glad i mig!</p>
+</sp>
+<sp>
+<speaker>VALENTIN.</speaker>
+<p>Ved du noget andet, om du lever kanske? Det var en underlig tale, det. <stage>(ser paa hende)</stage> Skulde jeg skudt min hvide due? S&#x00E5; &#x2013; kj&#x00E6;reste &#x2013; nu s&#x00E6;tter vi det farlige vaaben fra os. <stage>(Gj&#x00F8;r det, kommer tilbage)</stage> Rigtignok er du en sjelden fugl, ja, den sjeldneste af alle, jeg har gjort jagt p&#x00E5;; &#x2013; men ikke engang vingeskyde dig vilde jeg, du skal f&#x00E5; fly <pb n="31"/>frit! &#x2013; <stage>(Tar hendes h&#x00E5;nd og drage hende ind til sig).</stage> Men jeg tror, du ordentlig skj&#x00E6;lver, barn! Hvad er det? <stage>(ler)</stage> sad du her i halvm&#x00F8;rket og var m&#x00F8;rkr&#x00E6;d? Hvad var du bange for?</p>
+</sp>
+<sp>
+<speaker>EVA.</speaker>
+<p>Ingenting &#x2013; &#x2013; ingenting <hi rend="italic">nu</hi>. T&#x00E6;nk at du er her, Valentin. <stage>(Pigen kommer ind med lampen og g&#x00E5;r igjen).</stage> S&#x00E5;, nu kan jeg da f&#x00E5; se dig rigtig. <stage>(ler).</stage> F&#x00E5;r jeg se p&#x00E5; dig! &#x00C5;, s&#x00E5; glad og kj&#x00E6;k og frisk. &#x2013; &#x2013;</p>
+</sp>
+<sp>
+<speaker>VALENTIN.</speaker>
+<p>Ja &#x2013; jeg gik ikke tilbunds med seilb&#x00E5;den denne gang! F&#x00E5;r s&#x00E5; <hi rend="italic">jeg</hi> se p&#x00E5; <hi rend="italic">dig!</hi> <stage>(han holder hende ud fra sig).</stage> Ogs&#x00E5; glad og frisk vel? Lidt bleg, synes jeg, &#x2013; hvad?</p>
+</sp>
+<sp>
+<speaker>EVA.</speaker>
+<p>&#x00C5; &#x2013; jeg har l&#x00E6;ngtet s&#x00E5; efter dig!</p>
+<p>VALENTIN.</p>
+<p>Ja, jeg ogs&#x00E5;! <stage>(omfavner hende, slipper, betragter hende).</stage> Og s&#x00E5; har du kl&#x00E6;dt dig aldeles i hvidt!</p>
+</sp>
+<sp>
+<speaker>EVA.</speaker>
+<p>For sidste gang i&#x00E5;r! jeg tog den p&#x00E5; idag, endda s&#x00E5; h&#x00F8;stlig det er; &#x2013; men i formiddag skinned solen, og den minded s&#x00E5; om i sommer!</p>
+</sp>
+<sp>
+<speaker>VALENTIN.</speaker>
+<stage>(ser p&#x00E5; hende.)</stage>
+<p>Ved du rigtig selv, hvor r&#x00F8;rende du er, som du st&#x00E5;r der, med foldede h&#x00E6;nder, og ser s&#x00E5; alvorlig <pb n="32"/>p&#x00E5; mig? &#x2013; Der st&#x00E5;r et billede for mig <stage>(med h&#x00E5;nden over &#x00F8;inene).</stage> ja, jeg husker ikke hvorfra, men jeg m&#x00E5; ha set det et eller andet sted &#x2013; &#x2013; dernede. Du ligner en pr&#x00E6;stinde &#x2013; eller en ung vestalinde &#x2013; &#x2013; en &#x00AB;Psyche&#x00BB;, tror jeg, det var .... <stage>(ler).</stage> Ja, nu skal <hi rend="italic">jeg</hi> v&#x00E6;re Eros!</p>
+</sp>
+<sp>
+<speaker>EVA.</speaker>
+<p>Jeg flyr ikke fra dig! &#x2013; og du ikke fra mig, vel? <stage>(ser p&#x00E5; ham og smiler).</stage> Du ved &#x2013; Eros havde jo ogs&#x00E5; vinger, og det var vist en ustadig krabat &#x2013; &#x2013;.</p>
+</sp>
+<sp>
+<speaker>VALENTIN.</speaker>
+<p>Han blev den bedste &#x00E6;gtemand i verden.</p>
+</sp>
+<sp>
+<speaker>EVA</speaker>
+<stage>(l&#x00E6;nende sig til hans skulder, t&#x00E6;nker efter.)</stage>
+<p>Ja, det gjorde han jo; de blev lykkelige &#x2013; tilslut.</p>
+</sp>
+<sp>
+<speaker>VALENTIN.</speaker>
+<p>Du siger det s&#x00E5; s&#x00F8;rgeligt. N&#x00E5;r enden er god, er jo alting godt &#x2013; ikke sandt?</p>
+</sp>
+<sp>
+<speaker>EVA.</speaker>
+<p>Jo, jeg t&#x00E6;nkte bare &#x2013; at al den modgang kunde vist v&#x00E6;ret spart.</p>
+</sp>
+<sp>
+<speaker>VALENTIN.</speaker>
+<p>Hvorledes?</p>
+</sp>
+<sp>
+<speaker>EVA.</speaker>
+<p>Han skulde ikke skjult sig for hende.</p>
+</sp>
+<sp>
+<speaker><pb n="33"/>VALENTIN.</speaker>
+<p>Det havde han vel kanske sine grunde til. Han mente det godt, og desuden <stage>(med lune)</stage> hvor var s&#x00E5; historien blet af? Den skj&#x00F8;nneste af myter var aldrig blet til!</p>
+</sp>
+<sp>
+<speaker>EVA.</speaker>
+<p>Nei &#x2013; og de var kanske heller aldrig blet s&#x00E5; lykkelige, om de ingen sorg havde havt.</p>
+</sp>
+<sp>
+<speaker>VALENTIN.</speaker>
+<p>Og alligevel, Eva .... vilde jeg nok bede Vorherre bevare os for, at en lignende modgang skulde ramme os. <stage>(ler).</stage> Nu ja, <hi rend="italic">det</hi> er vel ingen fare for heller. Ulykken kom, fordi de to ikke havde den gjensidige tillid &#x2013; og den har jo vi &#x2013; ikke sandt?</p>
+</sp>
+<sp>
+<speaker>EVA</speaker>
+<stage>(nikker.)</stage>
+<p>Jo.....</p>
+<stage>(Det ringer p&#x00E5; entr&#x00E9;klokken).</stage>
+</sp>
+<sp>
+<speaker>VALENTIN.</speaker>
+<p>Og s&#x00E5; st&#x00E5;r vi ialfald to sammen, om ulykken skulde komme fra en anden kant. Er der ellers ingenting h&#x00E6;ndt, mens jeg var borte?</p>
+</sp>
+<sp>
+<speaker>EVA.</speaker>
+<p>H&#x00E6;ndt &#x2013;? nei &#x2013; &#x2013; ikke det jeg husker. &#x2013;</p>
+</sp>
+<sp>
+<speaker>VALENTIN.</speaker>
+<p>Der er ikke kommet noget bud fra &#x2013; mor? ikke noget brev fra hende til mig?</p>
+</sp>
+<sp>
+<speaker><pb n="34"/>EVA.</speaker>
+<p>Nei, men .... <stage>(hun ser sig om og g&#x00E5;r et par skridt).</stage></p>
+</sp>
+<sp>
+<speaker>EN PIGE</speaker>
+<stage>(kommer fra entr&#x00E9;en tilh&#x00F8;ire.)</stage>
+<p>Den herre, som var her for en stund siden, er kommen igjen og sp&#x00F8;r, om han m&#x00E5; f&#x00E5; tale med ingeni&#x00F8;ren.</p>
+</sp>
+<sp>
+<speaker>VALENTIN.</speaker>
+<p>Hvilken herre?</p>
+</sp>
+<sp>
+<speaker>PIGEN.</speaker>
+<p>Jeg ved ikke, hvem det er.</p>
+</sp>
+<sp>
+<speaker>VALENTIN</speaker>
+<stage>(ser sp&#x00F8;rgende p&#x00E5; Eva).</stage>
+</sp>
+<sp>
+<speaker>EVA.</speaker>
+<p>Det er .... Brandt.</p>
+</sp>
+<sp>
+<speaker>VALENTIN.</speaker>
+<p>Brandt? har <hi rend="italic">han</hi> v&#x00E6;ret her?</p>
+</sp>
+<sp>
+<speaker>EVA.</speaker>
+<p>Ja, han var her. &#x2013; Det er kanske bedst, jeg g&#x00E5;r s&#x00E5; l&#x00E6;nge &#x2013;.</p>
+</sp>
+<sp>
+<speaker>VALENTIN</speaker>
+<stage>(til pigen.)</stage>
+<p>Bed ham v&#x00E6;re s&#x00E5; god at komme.</p>
+<stage>(Eva og pigen g&#x00E5;r hver til sin side).</stage>
+</sp>
+<sp>
+<speaker>VIGGO BRANDT</speaker>
+<stage>(om lidt, fra h&#x00F8;ire).</stage>
+</sp>
+<sp>
+<speaker>VALENTIN</speaker>
+<stage>(g&#x00E5;r ham im&#x00F8;de, venligt, lidt forlegen.)</stage>
+<p>Goddag, Viggo, det var da overraskende &#x2013; og gl&#x00E6;deligt Ogs&#x00E5; <stage>(r&#x00E6;kker ham h&#x00E5;nden).</stage></p>
+</sp>
+<sp>
+<speaker><pb n="35"/>BRANDT</speaker>
+<stage>(modtar den ikke.)</stage>
+<p>A, det var ikke netop ment som nogen visit. Jeg havde ikke t&#x00E6;nkt at forstyrre en hjemkomsts mulige s&#x00F8;dme; &#x2013; men jeg har et &#x00E6;rend til dig, som det haster med.</p>
+</sp>
+<sp>
+<speaker>VALENTIN</speaker>
+<stage>(koldere.)</stage>
+<p>S&#x00E5; sig fra. Vil du ikke s&#x00E6;tte dig?</p>
+</sp>
+<sp>
+<speaker>BRANDT.</speaker>
+<p>Tak, det beh&#x00F8;ves ikke. &#x2013; Det er Ottilie alts&#x00E5; ... jeg var for tre dage siden der oppe og kan hilse fra hende.</p>
+</sp>
+<sp>
+<speaker>VALENTIN.</speaker>
+<p>Ottilie? Hvad har jeg med det? Hun har ikke lov at sende mig nogen hilsen.</p>
+</sp>
+<sp>
+<speaker>BRANDT.</speaker>
+<p>Det f&#x00E5;r ikke hj&#x00E6;lpe. Jeg er nu alligevel overbringer af den.</p>
+</sp>
+<sp>
+<speaker>VALENTIN.</speaker>
+<p>Hvad vil hun mig? Det er jo forbi &#x2013; &#x2013; d&#x00F8;dt og magtesl&#x00F8;st. Hele forholdet h&#x00F8;rer fortiden til.</p>
+</sp>
+<sp>
+<speaker>BRANDT.</speaker>
+<p>S&#x00E5;? Vel ikke s&#x00E5; ganske. Det kaster sin skygge. Hun var syg mandag og var g&#x00E5;t tilsengs. S&#x00E5; sendte hun bud efter mig og sa, hun vilde og m&#x00E5;tte tale med dig. Jeg havde tilf&#x00E6;ldigvis h&#x00F8;rt, at du var bortreist og kunde ingenting gj&#x00F8;re ... men nu ved du besked.</p>
+</sp>
+<sp>
+<speaker><pb n="36"/>VALENTIN.</speaker>
+<p>&#x00C5;, det har vel ikke noget videre p&#x00E5; sig. Du har ikke v&#x00E6;ret der siden?</p>
+</sp>
+<sp>
+<speaker>BRANDT.</speaker>
+<p>Nei.</p>
+</sp>
+<sp>
+<speaker>VALENTIN.</speaker>
+<p>S&#x00E5; er hun sandsynligvis bra igjen.</p>
+</sp>
+<sp>
+<speaker>BRANDT.</speaker>
+<p>Fordi om <hi rend="italic">jeg</hi> ikke har v&#x00E6;ret der?! hun kunde gjerne v&#x00E6;re d&#x00F8;d for den sags skyld. Jeg har ikke tid til at rende omkring til dine gamle flammer; jeg har n&#x00E6;sten ikke et &#x00F8;ieblik fri fra kontoret.</p>
+</sp>
+<sp>
+<speaker>VALENTIN.</speaker>
+<p>&#x00C5;, det er vel bare kapricer, som vanlig. Man kan jo aldrig ha fred.</p>
+</sp>
+<sp>
+<speaker>BRANDT.</speaker>
+<p>Nei, det ser ud til det. For der kom et brev ogs&#x00E5; nu ig&#x00E5;raftes, som jeg skulde bringe dig. Jeg leverte det her f&#x00F8;r &#x2013;.</p>
+</sp>
+<sp>
+<speaker>VALENTIN.</speaker>
+<p>S&#x00E5; &#x2013; &#x2013;</p>
+</sp>
+<sp>
+<speaker>BRANDT.</speaker>
+<p>Hun <hi rend="italic">var</hi> alvorlig syg alts&#x00E5;. Det var bare d&#x00E9;t, jeg vilde sige .... syntes jeg m&#x00E5;tte tale med dig selv, n&#x00E5;r jeg har lovet det....</p>
+</sp>
+<sp>
+<speaker>VALENTIN.</speaker>
+<p>Jeg skal naturligvis se til hende.</p>
+</sp>
+<sp>
+<speaker><pb n="37"/>BRANDT.</speaker>
+<p>Ja, det var ikke mere end kristelig barmhjertighed. Jeg kan ikke sige, du holder hende videre flot. Hun havde ingenting f&#x00E5;t de to sidste m&#x00E5;neder.</p>
+</sp>
+<sp>
+<speaker>VALENTIN.</speaker>
+<p>Sa hun det? Hun fik dobbelt f&#x00F8;r jeg reiste; &#x2013; til udlandet nu.</p>
+</sp>
+<sp>
+<speaker>BRANDT.</speaker>
+<p>Og din lille datter gik der for lud og koldt vand.</p>
+</sp>
+<sp>
+<speaker>VALENTIN.</speaker>
+<p>Fordi hun er en d&#x00E5;rlig mor.</p>
+</sp>
+<sp>
+<speaker>BRANDT.</speaker>
+<p>Og s&#x00E5; fordi hun er syg, kanske. Og tr&#x00E6;nger medicin og pleie og tilsyn m. m. Men <hi rend="italic">nu</hi> har du formodcntlig ikke &#x00F8;ie for den side af sagen. Ja &#x2013; s&#x00E5; g&#x00E5;r det! Kan du huske for bare lidt over 4 &#x00E5;r siden, dengang barnet blev f&#x00F8;dt? Jeg tror s&#x00E5;gar, du t&#x00E6;nkte paa at gifte dig med hende dengang.</p>
+</sp>
+<sp>
+<speaker>VALENTIN.</speaker>
+<p>Ja &#x2013; det var ialfald kanske mere end <hi rend="italic">du</hi> vilde gjort. Men hvis du kan ha nogen forn&#x00F8;ielse af at v&#x00E6;re min samvittighed, s&#x00E5; er den dig vel undt. Jeg forst&#x00E5;r det til og med &#x2013; at du har nogen grund til at v&#x00E6;re bitter.</p>
+</sp>
+<sp>
+<speaker>BRANDT.</speaker>
+<p>Ja, s&#x00E5; var det ikke mere. <stage>(vil g&#x00E5;).</stage></p>
+</sp>
+<sp>
+<speaker><pb n="38"/>VALENTIN.</speaker>
+<p>Viggo .... g&#x00E5;r du nu med en gang, uden et eneste godt ord? Kan vi da ikke v&#x00E6;re venner...</p>
+</sp>
+<sp>
+<speaker>BRANDT.</speaker>
+<p>&#x00C5;, &#x2013; venner &#x2013; det er jo bare <hi rend="italic">ord</hi> &#x2013; &#x2013;</p>
+</sp>
+<sp>
+<speaker>VALENTIN.</speaker>
+<p>Ja, tro mig, jeg forst&#x00E5;r dig, jeg kan s&#x00E6;tte mig ind i, hvordan du har det, og du har min fulde sympati &#x2013; &#x2013;</p>
+</sp>
+<sp>
+<speaker>BRANDT.</speaker>
+<p>Jeg tr&#x00E6;nger ikke din sympati; &#x2013; og bed mig ikke bli; da kunde jeg komme til at sige mere end jeg vil.</p>
+</sp>
+<sp>
+<speaker>VALENTIN.</speaker>
+<p>Nu ja, s&#x00E5; tal heller ud og la <hi rend="italic">mig</hi> f&#x00E5; tale! Jeg har ofte havt trang til at retf&#x00E6;rdiggj&#x00F8;re mig for dig, fordi jeg har vidst, at du har g&#x00E5;t ud fra feilagtige motiver.</p>
+</sp>
+<sp>
+<speaker>BRANDT.</speaker>
+<p>Jeg sp&#x00F8;r snart ikke mere efter motiver, men bare efter fakta. <stage>(Valentin g&#x00E5;r hen og l&#x00E6;gger et par vedtr&#x00E6;r i kaminen. D&#x00E6;mpet:)</stage> &#x00C5;, jeg er jo gal &#x2013; at jeg har set hende igjen!</p>
+</sp>
+<sp>
+<speaker>VALENTIN</speaker>
+<stage>(kommer tilbage).</stage>
+<p>Ja, men det er ikke retf&#x00E6;rdigt. Og saa godt skulde du kjende mig, at du vidste, hvor langt det har v&#x00E6;ret fra mig at ville kr&#x00E6;nke dig eller gj&#x00F8;re dig ondt.</p>
+</sp>
+<sp>
+<speaker><pb n="39"/>BRANDT.</speaker>
+<p>Jeg er lige glad med din gode hensigt, den kan ikke hj&#x00E6;lpe mig. Faktum er, at du har handlet som en egoist.</p>
+</sp>
+<sp>
+<speaker>VALENTIN.</speaker>
+<p>H&#x00F8;r nu &#x2013; &#x2013;</p>
+</sp>
+<sp>
+<speaker>BRANDT.</speaker>
+<p>At du &#x2013; la mig se &#x2013; ialfald to gange har handlet som en trol&#x00F8;s ven. F&#x00F8;rste gang for 5 &#x00E5;r siden overfor Ottilie. Du tog hende fra mig; jeg led og gr&#x00E6;mmed mig og &#x2013; glemte. Men nu igjen, for et &#x00E5;r siden gjorde du det samme. Og nu glemmer jeg ikke.</p>
+</sp>
+<sp>
+<speaker>VALENTIN.</speaker>
+<p>Ja, skinnet er imod mig, men herre gud, hvad skulde jeg gj&#x00F8;re? Jeg kan da ikke for, at &#x2013; &#x2013; <stage>(ryster p&#x00E5; hodet, smiler)</stage> jeg forsikrer dig, der var ikke spor af beregning i dette.</p>
+</sp>
+<sp>
+<speaker>BRANDT.</speaker>
+<p>Nei, naturligvis. Du gjorde ingenting for at f&#x00E5; dem indtaget i dig.</p>
+</sp>
+<sp>
+<speaker>VALENTIN.</speaker>
+<p>Jeg var simpelthen <hi rend="italic">selv</hi> taget &#x2013; jeg elsked &#x2013; deri ligger hele hemmeligheden! Begge gange m&#x00F8;dte det mig noget, som fik mig til at s&#x00E6;tte ind det bedste af mig selv. Det var mig umulig at la v&#x00E6;re. Kan man forklare sligt? Det er jo magter her, vi ikke selv r&#x00E5;r over.</p>
+</sp>
+<sp>
+<speaker><pb n="40"/>BRANDT.</speaker>
+<p>Ja, d&#x00E9;t er en deilig undskyldning for forbrydelser.</p>
+</sp>
+<sp>
+<speaker>VALENTIN.</speaker>
+<p>Du f&#x00E5;r kalde det, hvad du vil. Men <hi rend="italic">jeg</hi> har aldrig nogensinde i mit liv f&#x00F8;lt mig saa opfyldt af kj&#x00E6;rlighed til alt og alle og s&#x00E5; istand til at gj&#x00F8;re noget virkelig godt, som netop disse gange.</p>
+</sp>
+<sp>
+<speaker>BRANDT.</speaker>
+<p>Ja, det h&#x00F8;res jo bra. Og hvor mange gange er det s&#x00E5; egentlig, du har v&#x00E6;ret i den tilstand? Ti du er da, ja, uden forn&#x00E6;rmelse, det ustadigste menneske, jeg har kjendt.</p>
+</sp>
+<sp>
+<speaker>VALENTIN.</speaker>
+<p>Nej, der gj&#x00F8;r du mig nu egentlig uret. Med mig var det jo <hi rend="italic">aldrig</hi> alvor, undtagen just disse to gange....</p>
+</sp>
+<sp>
+<speaker>BRANDT.</speaker>
+<p>Hm, &#x2013; for <hi rend="italic">s&#x00E5;</hi> vidt s&#x00E5; &#x2013; kunde det jo altid v&#x00E6;ret nok at stifte familie &#x00E9;n gang, synes jeg.</p>
+</sp>
+<sp>
+<speaker>VALENTIN.</speaker>
+<p>&#x00C5;, hvorfor skal du nu rive det op igjen? Tror du ikke, det piner mig selv. Jeg er jo syg paa sj&#x00E6;len &#x2013; syg &#x2013; siger jeg dig! <stage>(g&#x00E5;r lidt omkring)</stage> En ligger paa sine gjerninger &#x2013; ja, selv nu, jeg endelig har <hi rend="italic">fundet</hi> det &#x2013; dette, som jeg gjennem flere &#x00E5;r bestandig har s&#x00F8;gt, uvilkaarlig, uden at vide af det.</p>
+</sp>
+<sp>
+<speaker><pb n="41"/>BRANDT.</speaker>
+<p>Og hvad er s&#x00E5; det, om jeg maa sp&#x00F8;rge?</p>
+</sp>
+<sp>
+<speaker>VALENTIN.</speaker>
+<p>Ja, &#x2013; det kan vel mere f&#x00F8;les end forklares ... Men det <hi rend="italic">er</hi> s&#x00E5;, og det er vel ogs&#x00E5; nedlagt i vor natur, dette, at vi <hi rend="italic">s&#x00F8;ger,</hi> vi mennesker, lige fra vi blir os selv bevidste. Jeg har ialfald f&#x00F8;lt det s&#x00E5; lige fra jeg kom ud i livet: denne br&#x00E6;ndende trang til at beundre, <hi rend="italic">elske,</hi> ikke alene med sanser, men med sj&#x00E6;l &#x2013; som man kan det, n&#x00E5;r man st&#x00E5;r overfor det, som gj&#x00F8;r en bedre; &#x2013; en l&#x00E6;ngsel efter dette, som vi ved <hi rend="italic">m&#x00E5;</hi> v&#x00E6;re der, fordi &#x2013; ja, fordi &#x2013; <stage>(tr&#x00E6;kker p&#x00E5; skuldren)</stage> en b&#x00E6;rer det jo i sig .... i forestillinger og billeder .... det er igjen denne <hi rend="italic">natur,</hi> som vi aldrig kommer fra...</p>
+</sp>
+<sp>
+<speaker>BRANDT.</speaker>
+<p>Hm; &#x2013; jeg vidste ikke, at det var <hi rend="italic">den</hi> slags h&#x00F8;ie idealer, som foresv&#x00E6;ved dig ligeoverfor damer af halvverdenen.</p>
+</sp>
+<sp>
+<speaker>VALENTIN.</speaker>
+<p>&#x00C5; &#x2013; hvad v&#x00E9;d man i den alder rigtig at skjelne det h&#x00F8;ie fra det lave &#x2013; det solide fra det usolide! S&#x00E5;dan en gut p&#x00E5; tyve &#x00E5;r eller lidt mere! han kan finde sit &#x00AB;ideal&#x00BB; i en skuespillerinde af tredje rang, en statsraadsdatter &#x2013; eller en bodegapige! og er man s&#x00E5; dertil forsynet med et altfor varmt hjerte og kanske en altfor vel fyldt pung &#x2013; &#x00E5; ja, s&#x00E5; kan ens liv komme til at opvise feiltagelser! Man stormer frem, man gribes, f&#x00F8;ler en magt i sig, <pb n="42"/>en magt som af det gode! Man er <hi rend="italic">lykkelig, lever</hi> med hver fiber &#x2013; det g&#x00E5;r s&#x00E5; let, altfor let at handle! &#x2013; Ottilie var en s&#x00E5;dan for mig. Hun bl&#x00E6;nded mig ved sit udseende, som lovte saa meget, ved sin originale umiddelbarhed &#x2013; det var, som jeg var kommen ud at seile en morgen for den friskeste brise! &#x2013; &#x2013; Men s&#x00E5; er det forf&#x00E6;ngelighed, altsammen. Man bryder sig mod en anden sort natur, just noget, en ikke kjender, ja, men ikke det, en har dr&#x00F8;mt om! Og det blir ikke harmoni, men falske, skurende toner &#x2013; &#x2013;</p>
+</sp>
+<sp>
+<speaker>BRANDT.</speaker>
+<p>Ja &#x2013; og imens er pigebarnet &#x00F8;delagt, eller sidder igjen med skuffede forh&#x00E5;bninger &#x2013; &#x2013; og s&#x00E5; g&#x00E5;r man til den n&#x00E6;ste!</p>
+</sp>
+<sp>
+<speaker>VALENTIN.</speaker>
+<p>&#x00C5; ja ... selv skuffet, som kvinderne kan skuffe .... s&#x00E5; en taber troen b&#x00E5;de p&#x00E5; sig selv og dem!</p>
+</sp>
+<sp>
+<speaker>BRANDT.</speaker>
+<p>Og hvad garanti har du s&#x00E5; for den &#x00AB;n&#x00E6;ste&#x00BB;? hvad hun for dig? Vogt dig! Hvad d&#x00E9;t ang&#x00E5;r kunde jo det sidste bli v&#x00E6;rre end det f&#x00F8;rste.</p>
+</sp>
+<sp>
+<speaker>VALENTIN</speaker>
+<stage>(ler, ser p&#x00E5; ham.)</stage>
+<p>Du er ikke dig selv, menneske! &#x2013; La v&#x00E6;re med d&#x00E9;t &#x2013; det nytter dig s&#x00E5; alligevel ikke.</p>
+</sp>
+<sp>
+<speaker><pb n="43"/>BRANDT.</speaker>
+<p>Du tror, du har lykken grundf&#x00E6;stet?</p>
+</sp>
+<sp>
+<speaker>VALENTIN.</speaker>
+<p>Ja, jeg tror, jeg har hjemmet grundf&#x00E6;stet, hjemmet og lykken &#x2013; hendes og min! Jeg tror p&#x00E5; hende og hun p&#x00E5; mig.</p>
+</sp>
+<sp>
+<speaker>BRANDT</speaker>
+<stage>(ironisk.)</stage>
+<p>Og hvad har du bygget dit hjem og din lykke p&#x00E5;? Er det et &#x00AB;sandt&#x00BB; forhold, som digterne taler om? Eller er det bygget paa &#x00AB;fortielsens hule grund?&#x00BB; Kjender du hende, og hun dig &#x2013; fuldt ud? &#x2013; Har du f. ex. fortalt hende om dine &#x00AB;feiltagelser&#x00BB;?</p>
+</sp>
+<sp>
+<speaker>VALENTIN.</speaker>
+<p>Nei. Hvorfor skulde jeg bebyrde et skyldfrit v&#x00E6;sen med tanker p&#x00E5; vildfarelse og synd og skam? Jeg har en f&#x00F8;lelse, som jeg vilde kr&#x00E6;nke hende ved det &#x2013; forn&#x00E6;rme hendes tillid til mig!</p>
+</sp>
+<sp>
+<speaker>BRANDT.</speaker>
+<p>Der ser du! du tror ikke p&#x00E5; dig selv overfor hende, du t&#x00F8;r ikke v&#x00E6;re dig selv, ikke vise dig som du er! du tror ikke, hun <hi rend="italic">t&#x00E5;ler</hi> at kjende dig! <stage>(ler h&#x00E5;nlig)</stage> det er jo en st&#x00E6;rk tro, grundf&#x00E6;stet p&#x00E5; en klippe! &#x2013; &#x2013; Og nu <hi rend="italic">hun</hi> &#x2013;? kjender du hende? var der ikke en tid, da du ikke kjendte hende?</p>
+</sp>
+<sp>
+<speaker>VALENTIN.</speaker>
+<p>&#x00C5;, ti med dig! det er jo det rene vanvid alt, hvad du siger.</p>
+</sp>
+<sp>
+<speaker><pb n="44"/>BRANDT.</speaker>
+<p>&#x00C5; ja, et &#x00E5;r er jo rigtignok en lang tid! Og man har jo den sikreste garanti i et omstreiferliv med en artist og en omreisende sangerinde; &#x2013; &#x2013; du kan sige, du endelig er n&#x00E5;d til det solide!</p>
+</sp>
+<sp>
+<speaker>VALENTIN</speaker>
+<stage>(opfarende heftig.)</stage>
+<p>Nu vil jeg r&#x00E5; dig at holde op! &#x2013; Du egger &#x2013; &#x2013; du tr&#x00E6;kker ufred ind i huset! Og husk s&#x00E5; p&#x00E5;, at det er min hustru, du taler om!</p>
+</sp>
+<sp>
+<speaker>BRANDT</speaker>
+<stage>(ude af sig selv.)</stage>
+<p>Ja, din! men jeg kjendte hende f&#x00F8;r du! og f&#x00F8;r du kjendte hende var hun <hi rend="italic">min!</hi> <stage>(Liden pause).</stage></p>
+</sp>
+<sp>
+<speaker>VALENTIN</speaker>
+<stage>(roligere.)</stage>
+<p>&#x00C5; &#x2013; &#x2013; du er gal.</p>
+</sp>
+<sp>
+<speaker>BRANDT.</speaker>
+<p>Sp&#x00F8;rg hende selv og se, om hun n&#x00E6;gter! <stage>(g&#x00E5;r n&#x00E6;rmere hen til ham, de ser hinanden fast i &#x00F8;inene. Brandt dreier sig om, g&#x00E5;r mod udgangen, vender sig).</stage> S&#x00E5;, nu ved du <hi rend="italic">sandheden.</hi> Farvel! <stage>(Han g&#x00E5;r).</stage></p>
+</sp>
+<sp>
+<speaker>VALENTIN</speaker>
+<stage>(ser efter ham, ryster p&#x00E5; hodet.)</stage>
+<p>Han er gal, skinsyg &#x2013; rasende! <stage>(g&#x00E5;r lidt op og ned p&#x00E5; gulvet).</stage> &#x00C5;, det er jo umuligt! &#x2013; men hun havde kanske talt med ham! hun var s&#x00E5; underlig f&#x00F8;r &#x2013; &#x2013; <stage>(blir st&#x00E5;ende og se hen for sig).</stage></p>
+</sp>
+<sp>
+<speaker><pb n="45"/>EVA</speaker>
+<stage>(i d&#x00F8;ren til venstre.)</stage>
+<p>Jeg h&#x00F8;rte, han gik. Hvor l&#x00E6;nge dere talte ... var det noget vigtigt?</p>
+</sp>
+<sp>
+<speaker>VALENTIN.</speaker>
+<p>&#x00C5;. &#x2013; &#x2013; <stage>(ser p&#x00E5; hende).</stage></p>
+</sp>
+<sp>
+<speaker>EVA</speaker>
+<stage>(kommer n&#x00E6;rmere.)</stage>
+<p>Du ser s&#x00E5; tankefuld ud. &#x2013; Men vil du ikke spise nu, Valentin, du kan vist tr&#x00E6;nge det. Alma er derinde ogsaa &#x2013; &#x2013;</p>
+</sp>
+<sp>
+<speaker>VALENTIN.</speaker>
+<p>Jo vist. &#x2013; <stage>(Sp&#x00F8;rger rask).</stage> Talte du med Brandt f&#x00F8;r, da han var her?</p>
+</sp>
+<sp>
+<speaker>EVA.</speaker>
+<p>Ja &#x2013; &#x2013; han sad en stund. <stage>(hurtig).</stage> Det er sandt, jeg glemmer jo &#x2013; &#x2013; her er et brev til dig.</p>
+<stage>(Leverer ham det, han bryder og l&#x00E6;ser).</stage>
+</sp>
+<sp>
+<speaker>PIGEN</speaker>
+<stage>(fra venstre.)</stage>
+<p>Nu er det anrettet, frue.</p>
+</sp>
+<sp>
+<speaker>EVA.</speaker>
+<p>Tak. Vil du ta <hi rend="italic">den</hi> lampen med &#x2013; den lyser s&#x00E5; godt. <stage>(ser p&#x00E5; Valentin).</stage> Skal vi g&#x00E5; &#x2013;?</p>
+</sp>
+<sp>
+<speaker>VALENTIN</speaker>
+<stage>(svarer ikke, pigen g&#x00E5;r med lampen. Det lyser endnu fra kaminen).</stage>
+</sp>
+<sp>
+<speaker><pb n="46"/>EVA</speaker>
+<stage>(urolig.)</stage>
+<p>Hvad er det? er det noget slemt? &#x2013; &#x00E5;, &#x2013; hvad er det?</p>
+</sp>
+<sp>
+<speaker>VALENTIN.</speaker>
+<p>Ikke noget videre, kj&#x00E6;re &#x2013; hvad er du bange for? Men jeg blir n&#x00F8;dt til at g&#x00E5; ud i byen. Vent ikke p&#x00E5; mig; s&#x00E6;t dere tilbords. Jeg tar en vogn &#x2013; og er forh&#x00E5;bentlig snart tilbage igjen. <stage>(Vil g&#x00E5;).</stage></p>
+</sp>
+<sp>
+<speaker>EVA</speaker>
+<stage>(stanser ham, l&#x00E6;gger de foldede h&#x00E6;nder over hans bryst).</stage>
+<p>Valentin! &#x00E5;, sig mig, hvad det er, <hi rend="italic">denne</hi> gang .... g&#x00E5; ikke fra mig, jeg er s&#x00E5; bange .... bange for at v&#x00E6;re alene nu!</p>
+</sp>
+<sp>
+<speaker>VALENTIN</speaker>
+<stage>(med nogen kulde.)</stage>
+<p>Jeg forst&#x00E5;r dig ikke. &#x2013; <stage>(ser p&#x00E5; hende).</stage> Hvad er det? du pleier da ikke at v&#x00E6;re s&#x00E5;dan &#x2013;. Hvad er det, som har sat dig i slig bev&#x00E6;gelse i eftermiddag? <stage>(St&#x00E5;r lidt som han venter, f&#x00F8;rer hende mod d&#x00F8;ren, mildere).</stage> Se her, v&#x00E6;r nu fornuftig! <stage>(Alma kommer i det samme).</stage> God aften, Alma! Vil du ikke passe p&#x00E5; min hustru? jeg er n&#x00F8;dt til at g&#x00E5; min vei.</p>
+</sp>
+<sp>
+<speaker>ALMA.</speaker>
+<p>S&#x00E5; snart! <stage>(d&#x00E6;mpet til Eva, som har sat sig ned).</stage> Hvad er det med dig? er du syg?</p>
+</sp>
+<sp>
+<speaker><pb n="47"/>EVA</speaker>
+<stage>(svarer ikke, f&#x00F8;lger Valentin med &#x00F8;inene. Han er g&#x00E5;t hen til et skrivebord med udsk&#x00E5;rne skabe i et hj&#x00F8;rne af v&#x00E6;relset, tar et n&#x00F8;gleknippe og l&#x00E5;ser op en skuffe og et af skabene. Man h&#x00F8;rer klang som af s&#x00F8;lvpenge, han l&#x00E6;gger papirer og sedler i en tegnebog, l&#x00E5;ser igjen og gjemmer bogen og n&#x00F8;glerne i sin brystlomme).</stage>
+</sp>
+<sp>
+<speaker>VALENTIN.</speaker>
+<p>Se s&#x00E5;! sid nu ikke her i m&#x00F8;rke, mine damer! g&#x00E5; ind, hvor der er lyst og t&#x00E6;nk p&#x00E5; noget hyggeligt til jeg kommer tilbage! &#x2013; <stage>(Han g&#x00E5;r).</stage></p>
+</sp>
+<sp>
+<speaker>EVA</speaker>
+<stage>(farer op og lytter et &#x00F8;ieblik.)</stage>
+<p>Der gik gangd&#x00F8;ren &#x2013;! Han la brevet derned &#x2013; i skuffen, tror jeg .... og nu g&#x00E5;r han .... derhen, til hende &#x2013; &#x2013; ja, hvor?! <stage>(Hun g&#x00E5;r op og ned p&#x00E5; gulvet og vrider h&#x00E6;nderne).</stage></p>
+</sp>
+<sp>
+<speaker>ALMA.</speaker>
+<p>Vilde han ikke sige dig det?</p>
+</sp>
+<sp>
+<speaker>EVA.</speaker>
+<p>Nei &#x2013; nei, jeg ved det ikke, ved ikke .... &#x00E5; gud, at han ikke sa mig det! jeg m&#x00E5; jo tro, at det er noget ondt. &#x2013; <stage>(stanser, begynder at g&#x00E5; igjen).</stage> Nei &#x2013; nei &#x2013; nei! Jeg kan ikke tro det. Han m&#x00E5; jo ha grunde, som han sa f&#x00F8;r; men han skulde sagt mig det, da han s&#x00E5;, hvor angst jeg var .... &#x00E5; nei .... jeg tror ikke, han skj&#x00F8;nte det engang &#x2013;! Han vidste jo ikke, hvor jeg var skr&#x00E6;mt iforveient!</p>
+</sp>
+<sp>
+<speaker><pb n="48"/>ALMA</speaker>
+<stage>(grundende.)</stage>
+<p>Ja, <hi rend="italic">noget</hi> m&#x00E5; det v&#x00E6;re. &#x2013; Og det var stor uret af ham at skjule det for dig. Der ser du, Eva, du har f&#x00F8;iet dig alt for meget efter ham.</p>
+</sp>
+<sp>
+<speaker>EVA.</speaker>
+<p>&#x00C5;, jeg har jo slet ikke t&#x00E6;nkt p&#x00E5;, at der <hi rend="italic">var</hi> noget at skjule .... ikke t&#x00E6;nkt p&#x00E5; noget, som heder falskhed, bedrag .... for nogen stygge ord! Og det har altsammen faldt s&#x00E5; ganske af sig selv. Han har altid v&#x00E6;ret saa kj&#x00E6;rlig og god!</p>
+</sp>
+<sp>
+<speaker>ALMA.</speaker>
+<p>Det er ikke noget at takke ham for. <stage>(Halv for sig selv)</stage> Ja, ja &#x2013; Valentin, Valentin! &#x00C5;, de m&#x00E6;nd, de er vist alle sig selv lige!</p>
+</sp>
+<sp>
+<speaker>EVA</speaker>
+<stage>(g&#x00E5;r, standser igjen, l&#x00E6;gger h&#x00E6;nderne om hodet.)</stage>
+<p>Om jeg kunde finde rede i dette! er det n&#x00F8;dvendig, at jeg har det s&#x00E5; ondt &#x2013; s&#x00E5; ondt som nu? Skal jeg ikke tro ham? det er jo bare et brev &#x2013; <stage>(en tanke sl&#x00E5;r hende)</stage> kunde det v&#x00E6;re fra hans mor? <stage>(forvildet)</stage> nei, nei, det er jo ikke .... det er jo en ganske anden skrift .... <stage>(Hun kaster sig i en stol med h&#x00E6;nderne for ansigtet)</stage></p>
+</sp>
+<sp>
+<speaker>ALMA</speaker>
+<stage>(efter en taushed, reiser sig.)</stage>
+<p>Ja, men nu er der jo ikke noget at gj&#x00F8;re ved det, Eva. <stage>(Hen til hende)</stage> Kom nu, s&#x00E5; g&#x00E5;r vi derind &#x2013; &#x2013; hvor det er lyst!</p>
+</sp>
+<sp>
+<speaker><pb n="49"/>EVA</speaker>
+<stage>(tar h&#x00E6;nderne fra, i tanker.)</stage>
+<p>Husker du ... Brandt talte om, at han havde fiender. Tror du ... at det er fare ... nei, nei, det er jo umulig! En dame ... <stage>(efter en pause)</stage> Jeg skulde kunne t&#x00E5;le <hi rend="italic">visheden,</hi> men ikke dette &#x2013; &#x2013; <stage>(sagte)</stage> Bare lukke op derborte &#x2013; s&#x00E5; vidste jeg det! brevet ligger derinde.</p>
+</sp>
+<sp>
+<speaker>ALMA.</speaker>
+<p>Er du gal! &#x2013; hvordan ved du det?</p>
+</sp>
+<sp>
+<speaker>EVA.</speaker>
+<p>Jeg s&#x00E5; jo, at han la det derind, jeg er n&#x00E6;sten sikker p&#x00E5; det.</p>
+</sp>
+<sp>
+<speaker>ALMA.</speaker>
+<p>Turde du virkelig gj&#x00F8;re det, Eva? Nei, kom nu, vogt dig! det vilde v&#x00E6;re altfor resikabelt!</p>
+</sp>
+<sp>
+<speaker>EVA</speaker>
+<stage>(reiser sig, energisk.)</stage>
+<p>Ja, men forst&#x00E5;r du ikke &#x2013; &#x2013; jeg <hi rend="italic">m&#x00E5;</hi> jo ha klarhed i dette! N&#x00E5;r jeg f&#x00F8;rst har begyndt at t&#x00E6;nke p&#x00E5; det! f&#x00F8;r kan vi to aldrig bli lykkelige! Det har jeg l&#x00E6;st ogs&#x00E5;, at ford&#x00F8;lgelse i et s&#x00E5;dant forhold er det farligste af alt. Hvor sandt det er &#x2013;! det kan g&#x00E5;, s&#x00E5; l&#x00E6;nge en ikke tviler, men da &#x2013; &#x2013;</p>
+</sp>
+<sp>
+<speaker>ALMA.</speaker>
+<p>Ja, <hi rend="italic">retten</hi> har du &#x2013; &#x2013;</p>
+</sp>
+<sp>
+<speaker><pb n="50"/>EVA</speaker>
+<stage>(n&#x00E6;sten hviskende, forf&#x00F8;lgende sine egne tanker.)</stage>
+<p>Han vil ikke sige mig det. Bare lukke op &#x2013; &#x2013; s&#x00E5; vidste<note type="footnote">vidste] <hi rend="italic">rettet fra:</hi> visdte <hi rend="italic">(trykkfeil)</hi></note> jeg det! vidste kanske, at det ikke var s&#x00E5; slemt, som jeg t&#x00E6;nkte. Men om det nu var meget v&#x00E6;rre &#x2013;? &#x00E5;, gud &#x2013; at jeg kan t&#x00E6;nke s&#x00E5; &#x2013; &#x2013;! men jeg <hi rend="italic">m&#x00E5;</hi> jo vide det, hvad det s&#x00E5; er ..... jeg m&#x00E5; vide det, f&#x00F8;r han kommer! &#x2013; ja, klarhed .... bare klarhed.....</p>
+</sp>
+<sp>
+<speaker>ALMA</speaker>
+<stage>(forskr&#x00E6;kket.)</stage>
+<p>Du er aldeles fra dig selv, Eva, &#x2013; du kan ikke styre dig!</p>
+</sp>
+<sp>
+<speaker>EVA</speaker>
+<stage>(stryger sig over &#x00F8;inene.)</stage>
+<p>Jo, jo. <stage>(ser sig om)</stage> Det er sandt, han tog jo n&#x00F8;glerne med sig! men kanske en af mine passer &#x2013; &#x2013;</p>
+</sp>
+<sp>
+<speaker>ALMA.</speaker>
+<p><hi rend="italic">Mener</hi> du virkelig &#x2013;? ja, gj&#x00F8;r hvad du vil, jeg t&#x00F8;r ikke r&#x00E5;de dig &#x2013; du er syg! men det siger jeg dig, at <hi rend="italic">jeg</hi> vil ikke ha noget ansvar &#x2013; &#x2013;</p>
+</sp>
+<sp>
+<speaker>EVA</speaker>
+<stage>(ser sig om igjen, roligere.)</stage>
+<p>Hvor m&#x00F8;rkt og uhyggeligt her er. Jeg vil hente lys. <stage>(Hun g&#x00E5;r).</stage></p>
+</sp>
+<sp>
+<speaker>ALMA</speaker>
+<stage>(ser efter hende, ryster p&#x00E5; hodet og begynder at g&#x00E5; op og ned p&#x00E5; gulvet).</stage>
+</sp>
+<sp>
+<speaker><pb n="51"/>EVA</speaker>
+<stage>(kommer tilbage med et n&#x00F8;gleknippe og et enkelt, br&#x00E6;ndende lys, som hun s&#x00E6;tter fra sig. Begynder at pr&#x00F8;ve n&#x00F8;glerne i skrivebordskuffen, den ene efter den anden. Alma st&#x00E5;r og ser til et stykke fra).</stage>
+<p>Den passer ikke, den er for stor, &#x2013; og det m&#x00E5; v&#x00E6;re hul i. Der er en &#x2013; &#x2013; nei, den g&#x00E5;r ikke ind &#x2013; &#x2013; ikke den heller; &#x2013; &#x2013; hvad skal jeg gj&#x00F8;re, der er ikke flere med huller. <stage>(Kaster n&#x00F8;glerne)</stage> La mig se .... n&#x00F8;glen til bogskabet .... til mit sybord....</p>
+</sp>
+<sp>
+<speaker>ALMA</speaker>
+<stage>(uvilk&#x00E5;rlig.)</stage>
+<p>Eller til <hi rend="italic">dit</hi> skrivebord, Eva &#x2013; &#x2013;</p>
+</sp>
+<sp>
+<speaker>EVA</speaker>
+<stage>(hurtig ind til venstre og kommer tilbage. Pr&#x00F8;ver igjen.)</stage>
+<p>Nei, nei &#x2013; det g&#x00E5;r ikke! &#x2013; Denne da? <stage>(Hun s&#x00E6;tter en ny ind, pr&#x00F8;ver l&#x00E6;nge, tilsidst f&#x00E5;r hun dreiet om og l&#x00E5;sen g&#x00E5;r op).</stage> Den gik &#x2013; &#x2013; <stage>(stanser forf&#x00E6;rdet et &#x00F8;ieblik)</stage> &#x00E5; gud! <stage>(febrilsk)</stage> Videre &#x2013; enden paa det! <stage>(Hun leder mellem papirerne, ser p&#x00E5; enkelte).</stage> Der er det, ganske rigtig &#x2013; &#x2013; i konvoluten! <stage>(St&#x00E5;r et &#x00F8;ieblik med det i h&#x00E5;nden, &#x00E5;bner s&#x00E5;)</stage> Bare nogen ord &#x2013; &#x2013; med blyant. <stage>(l&#x00E6;ser)</stage> &#x00AB;Doktoren siger, at min tilstand er bet&#x00E6;nkelig, og at det kan g&#x00E5; hurtig. Siden jeg sendte bud til dig, er det blevet til st&#x00E6;rk lungebet&#x00E6;ndelse. Kom s&#x00E5; snart du kan &#x2013; jeg m&#x00E5; tale med dig om, hvad vi skal gj&#x00F8;re med barnet&#x00BB;. <stage>(Hun lar papiret falde, st&#x00E5;r bleg og stille, siger sagte nogen ord, de sidste h&#x00F8;res halvh&#x00F8;it)</stage> &#x2013; og mo&#x0027;ren ligger for d&#x00F8;den &#x2013;. <stage>(L&#x00E6;gger h&#x00E5;nden over &#x00F8;inene, grublende)</stage> Men jeg ved ikke mere end f&#x00F8;r &#x2013; var det, f&#x00F8;r han kjendte mig &#x2013; &#x2013; eller &#x2013;? Hvorfor har han ikke sagt <pb n="52"/>mig noget? Det kan ha v&#x00E6;ret fordi han skammed sig ...... eller fordi det varer ved endnu &#x2013; &#x2013;? Ved du ingen, ingen ting om dette, Alma?</p>
+</sp>
+<sp>
+<speaker>ALMA.</speaker>
+<p>Nei &#x2013; jeg har ingenting vidst. Men nu har vi jo sort p&#x00E5; hvidt for det. Han har alts&#x00E5; bedraget dig skammelig....</p>
+</sp>
+<sp>
+<speaker>EVA.</speaker>
+<p>Det er ligesom jeg ikke kan t&#x00E6;nke, det g&#x00E5;r rundt altsammen. <stage>(S&#x00E6;tter sig, l&#x00E6;ner sig mat tilbage. Om lidt, d&#x00E6;mpet, tankefuld, halv for sig selv).</stage> I dette &#x00F8;ieblik ligger hun kanske og d&#x00F8;r &#x2013; &#x2013; og <hi rend="italic">han</hi> er hos hende. &#x00C5; &#x2013; gid det var mig! <stage>(Hun hviler hodet i armene p&#x00E5; bordet; sidder lidt, &#x2013; s&#x00E5; farer hun op).</stage> Hvor gjorde jeg af brevet? <stage>(Hun tar det op).</stage></p>
+</sp>
+<sp>
+<speaker>ALMA.</speaker>
+<p>Ja, efter dette kan du da ikke leve med ham. Ingen kvinde, som har agtelse for sig selv vilde kunne gj&#x00F8;re det. <hi rend="italic">S&#x00E5;</hi> langt er vi da kommen, gud ske lov!</p>
+</sp>
+<sp>
+<speaker>EVA</speaker>
+<stage>(forf&#x00F8;lgende sine tanker.)</stage>
+<p>Skal jeg sige ham, at jeg ved alt? Jeg ved ikke. Men dette m&#x00E5; vel gjemmes &#x2013;. <stage>(hun g&#x00E5;r mekanisk hen til skuffen, l&#x00E6;gger brevet ind, l&#x00E5;ser igjen og vil ta n&#x00F8;glen ud; den g&#x00E5;r ikke, hun arbeider med den en stund).</stage></p>
+</sp>
+<sp>
+<speaker>ALMA.</speaker>
+<p>F&#x00E5;r du ikke l&#x00E5;st igjen?</p>
+</sp>
+<sp>
+<speaker><pb n="53"/>EVA.</speaker>
+<p>Jo. Men n&#x00F8;glen sidder fast, jeg kan ikke f&#x00E5; den ud. Pr&#x00F8;v du!</p>
+</sp>
+<sp>
+<speaker>ALMA</speaker>
+<stage>(pr&#x00F8;ver en stund forgjafeves.)</stage>
+<p>Nei &#x2013; den g&#x00E5;r ikke!</p>
+</sp>
+<sp>
+<speaker>EVA.</speaker>
+<p>Den g&#x00E5;r ikke. N&#x00E5;r han nu kommer, s&#x00E5; forst&#x00E5;r han alt. <stage>(Forvildet).</stage> Hvad vil <hi rend="italic">da</hi> ske? Vil det <hi rend="italic">da</hi> bli klarhed? Jeg ved ikke; &#x2013; nu f&#x00E5;r det komme som det vil &#x2013;! men vil den da ikke g&#x00E5; &#x2013; &#x2013; <stage>(hun pr&#x00F8;ver igjen).</stage></p>
+</sp>
+<sp>
+<speaker>VALENTIN</speaker>
+<stage>(i overt&#x00F8;i, i d&#x00F8;ren tilh&#x00F8;ire. Alma ser ham i samme &#x00F8;ieblik og flyr. Han blir st&#x00E5;ende og se p&#x00E5; Eva).</stage>
+</sp>
+<sp>
+<speaker>EVA</speaker>
+<stage>(ser ham tilsidst; hun farer forskr&#x00E6;kket sammen og tr&#x00E6;kker sig et par skridt tilbage. Siger afbrudt.)</stage>
+<p>Valentin .... jeg m&#x00E5;tte vide .... jeg holdt ikke ud....</p>
+</sp>
+<sp>
+<speaker>VALENTIN.</speaker>
+<p>Og nu ved du &#x2013; &#x2013;</p>
+</sp>
+<sp>
+<speaker>EVA</speaker>
+<stage>(gjemmer ansigtet.)</stage>
+<p>Alt!</p>
+</sp>
+<sp>
+<speaker>VALENTIN.</speaker>
+<p>Alt ... <stage>(g&#x00E5;r hen til hende, tvinger hendes h&#x00E6;nder fra, ser p&#x00E5; hende).</stage> Hvem <hi rend="italic">er</hi> du da? <stage>(slipper, st&#x00E5;r lidt)</stage>, &#x00E5;, s&#x00E5; <stage>(ler)</stage> jeg forst&#x00E5;r .... han talte vel om <hi rend="italic">det</hi> ogs&#x00E5;, han, som var her. Og s&#x00E5; skulde du unders&#x00F8;ge.... hvad?</p>
+</sp>
+<sp>
+<speaker><pb n="54"/>EVA.</speaker>
+<p>Nei, nei, det var min egen skyld .... <stage>(ser p&#x00E5; ham)</stage> &#x00E5;, Valentin, &#x2013; Valentin....</p>
+</sp>
+<sp>
+<speaker>VALENTIN.</speaker>
+<p>Ja, du tror ikke p&#x00E5; mig mere! <stage>(smertelig)</stage> &#x00E5;, hvorfor skulde det komme nu .... <hi rend="italic">dette</hi> ogs&#x00E5; ... jeg synes, jeg kjendte dig .... og p&#x00E5; et par timer er der lagt tusen mil mellem os!</p>
+</sp>
+<sp>
+<speaker>EVA.</speaker>
+<p>Hvad mener du?</p>
+</sp>
+<sp>
+<speaker>VALENTIN.</speaker>
+<p>Du kan gjemme for mig og handle bag min ryg .... der kan v&#x00E6;re endnu mere! <stage>(Ser hende i &#x00F8;inene)</stage> der kan v&#x00E6;re forhold, som er d&#x00F8;de eller forhold, som lever .... nu sp&#x00F8;r <hi rend="italic">jeg</hi> dig; har <hi rend="italic">du</hi> ingenting at svare?</p>
+</sp>
+<sp>
+<speaker>EVA.</speaker>
+<p>Jeg forst&#x00E5;r dig ikke &#x2013; &#x2013;</p>
+</sp>
+<sp>
+<speaker>VALENTIN</speaker>
+<stage>(efter en taushed, hvor han ligesom har ventet.)</stage>
+<p>Jeg skjulte for dig, ja, <hi rend="italic">bedrog</hi> dig, om du vil &#x2013; &#x2013; men det var for vor lykkes skyld! &#x00E5;, <hi rend="italic">den</hi> lykke, den ramler sammen som et korthus! <stage>(st&#x00E6;rkt, smertelig)</stage> der st&#x00E5;r du ... langt fra mig, du t&#x00F8;r ikke! ... troen, tilliden, er <hi rend="italic">den</hi> f&#x00F8;rst borte, kommer den aldrig tilbage ... jo st&#x00E6;rkere man har elsket, desto vanskeligere .... vi vil f&#x00F8;le det begge, aldrig, siger jeg dig....</p>
+</sp>
+<sp>
+<speaker><pb n="55"/>EVA</speaker>
+<stage>(gjentar mekanisk, halv sansesl&#x00F8;s.)</stage>
+<p>Aldrig...</p>
+</sp>
+<sp>
+<speaker>VALENTIN.</speaker>
+<p>Men skylden er vor egen. <stage>(L&#x00E6;gger h&#x00E5;nden over &#x00F8;inene, sagte)</stage> Nu har jeg mistet alt!</p>
+</sp>
+<sp>
+<speaker>EVA.</speaker>
+<p>Alt. Er hun d&#x00F8;d &#x2013; &#x2013; den anden &#x2013; &#x2013; damen &#x2013;?</p>
+</sp>
+<sp>
+<speaker>VALENTIN</speaker>
+<stage>(ser p&#x00E5; hende.)</stage>
+<p>Du sp&#x00F8;r! &#x2013; &#x2013; Vil du vide, om jeg har havt flere? Sp&#x00F8;r, s&#x00E5; skal jeg v&#x00E6;re oprigtigere end du! Vil du ikke ogs&#x00E5; sp&#x00F8;rge til mit barn &#x2013; &#x2013;</p>
+</sp>
+<sp>
+<speaker>EVA.</speaker>
+<p>&#x00C5;, gud....</p>
+</sp>
+<sp>
+<speaker>VALENTIN.</speaker>
+<p>Det kan tr&#x00E6;nges; hendes mor vil aldrig sp&#x00F8;rge efter hende mere. <stage>(Han gj&#x00F8;r en bev&#x00E6;gelse som for at g&#x00E5;).</stage></p>
+</sp>
+<sp>
+<speaker>EVA</speaker>
+<stage>(angst.)</stage>
+<p>Valentin &#x2013; &#x2013; g&#x00E5;r du &#x2013; &#x2013;?</p>
+</sp>
+<sp>
+<speaker>VALENTIN</speaker>
+<stage>(stanser, afbrudt.)</stage>
+<p>Ja, jeg m&#x00E5; ... kan ikke bli her. Ikke <hi rend="italic">nu</hi> &#x2013; <stage>(sagte).</stage> Der er noget istykker...</p>
+</sp>
+<sp>
+<speaker>EVA.</speaker>
+<p>&#x00C5; &#x2013; hvor g&#x00E5;r du hen ... ud i m&#x00F8;rket...</p>
+</sp>
+<sp>
+<speaker><pb n="56"/>VALENTIN.</speaker>
+<p>Nei, nei, jeg flytter hjem &#x2013; &#x2013; til mor. Har du noget at sige, f&#x00E5;r du skrive ... og s&#x00F8;rget for skal du bli ... <stage>(Han g&#x00E5;r).</stage></p>
+</sp>
+<sp>
+<speaker>EVA</speaker>
+<stage>(st&#x00E5;r stille med sammenknugede h&#x00E6;nder og ser mod d&#x00F8;ren).</stage>
+</sp>
+<stage>Teppet falder.</stage>
+</div>
+<div type="chapter" subtype="act" n="2">
+<head type="main">II.</head>
+<stage>(Dagligstue med indgang til en alkove i baggrunden, r&#x00F8;de gardiner for, som nu er trukket halv fra. Ordentlig og hyggeligt, men ikke elegant bohave, gyngestol, bord med t&#x00E6;ppe tilvenstre. Tilh&#x00F8;ire l&#x00E6;nger tilbage et andet bord, hvorp&#x00E5; en h&#x00E5;ndsymaskine og noget hvidt lint&#x00F8;i. Det er eftermiddag sidst i februar, enkelte solglimt falder ind gjennem et vindu. D&#x00F8;re tilh&#x00F8;ire og venstre).</stage>
+<stage>Eva arbeider ved bordet tilvenstre. Marit st&#x00E5;r midt p&#x00E5; gulvet tar af sig et hodet&#x00F8;rkl&#x00E6;de.</stage>
+<sp>
+<speaker>MARIT.</speaker>
+<p>Fruen skal ikke ta sig n&#x00E6;r af det. Det er v&#x00E6;rst for dem selv, de som er slig. Det er bare s&#x00E5; harmeligt.</p>
+</sp>
+<sp>
+<speaker>EVA.</speaker>
+<p>&#x00C5;, det gj&#x00F8;r jo ikke noget &#x2013; &#x2013;.</p>
+</sp>
+<sp>
+<speaker>MARIT.</speaker>
+<p>Jo, harmeligt synes jeg det er. Der st&#x00E5;r den nede i g&#x00E5;rden l&#x00F8;s og ledig &#x2013; og s&#x00E5; skal ikke den velsignede jentungen f&#x00E5; lov at kj&#x00F8;re sig en tur i det deilige veiret! Syg som hun har v&#x00E6;ret ogs&#x00E5;.</p>
+</sp>
+<sp>
+<speaker>EVA.</speaker>
+<p>Ja, nu blir hun nok snart ganske frisk, og s&#x00E5; spaserer hun.</p>
+</sp>
+<sp>
+<speaker><pb n="58"/>MARIT.</speaker>
+<p>Nei, det er ikke noget fint str&#x00F8;g, dette, ikke. Det var hyggeligere der, hvor fruen bode f&#x00F8;r.</p>
+</sp>
+<sp>
+<speaker>EVA.</speaker>
+<p>Ja, men det er et sundt str&#x00F8;g, siger doktoren. Og s&#x00E5; er her s&#x00E5; stille omkring.</p>
+</sp>
+<sp>
+<speaker>MARIT.</speaker>
+<p>&#x00C5;, jeg synes, de snakker, jeg. En f&#x00E5;r nok ikke v&#x00E6;re i fred, der en er.</p>
+</sp>
+<sp>
+<speaker>EVA.</speaker>
+<p>Vi burde vist ikke spurt om at l&#x00E5;ne barnevognen.</p>
+</sp>
+<sp>
+<speaker>MARIT.</speaker>
+<p>Nei, s&#x00E5; havde en da ikke f&#x00E5;t h&#x00F8;re det. Der sidder ordentlig en mund p&#x00E5; dem! men det skal nu vel ikke v&#x00E6;re dannede mennesker, slige nogen.</p>
+</sp>
+<sp>
+<speaker>EVA.</speaker>
+<p>Hvad var det egentlig, de sa for noget, Marit?</p>
+</sp>
+<sp>
+<speaker>MARIT</speaker>
+<stage>(steller med maskinen og t&#x00F8;iet.)</stage>
+<p>&#x00C5;, fruen skal ikke sp&#x00F8;rge om det.</p>
+</sp>
+<sp>
+<speaker>EVA.</speaker>
+<p>Jo, sig det bare.</p>
+</sp>
+<sp>
+<speaker>MARIT.</speaker>
+<p>Ja &#x2013; de snakked en hel del og sa, at fruen ikke var ordentlig gift, og at De havde et barn ..., men s&#x00E5; gik jeg min vei, jeg.</p>
+</sp>
+<sp>
+<speaker><pb n="59"/>EVA</speaker>
+<stage>(l&#x00E6;gger arbeidet i fanget og blir siddende og se ud for sig med h&#x00E5;nden under kinden).</stage>
+</sp>
+<sp>
+<speaker>MARIT.</speaker>
+<p>Der kan fruen bare se &#x2013; nu blir De straks trist ved det.</p>
+</sp>
+<sp>
+<speaker>EVA</speaker>
+<stage>(sidder lidt, smiler.)</stage>
+<p>Nei ... se p&#x00E5; solen, der skinner den sandelig lige ind p&#x00E5; os....</p>
+</sp>
+<sp>
+<speaker>MARIT.</speaker>
+<p>Ja, det velsignede veiret! Og s&#x00E5; skulde ikke den uskyldige stakkars ungen ... <stage>(hun g&#x00E5;r bort og kikker ind i alkoven).</stage></p>
+</sp>
+<sp>
+<speaker>EVA.</speaker>
+<p>Sover hun?</p>
+</sp>
+<sp>
+<speaker>MARIT.</speaker>
+<p>Ja, nu sover&#x0027;n &#x2013; stumpen.</p>
+</sp>
+<sp>
+<speaker>EVA</speaker>
+<stage>(reiser sig, knuger h&#x00E6;nderne, uvilk&#x00E5;rlig.)</stage>
+<p>&#x00C5;, gud ske lov, nu er vinteren snart forbi &#x2013; nu blir dagene l&#x00E6;ngere og lysere!</p>
+</sp>
+<sp>
+<speaker>MARIT</speaker>
+<stage>(ser p&#x00E5; hende.)</stage>
+<p>Ja, vinteren, den har nu v&#x00E6;ret b&#x00E5;de m&#x00F8;rk og h&#x00E5;rd! Og det m&#x00E5; jeg nu sige, n&#x00E5;r jeg skal tale som sandt er &#x2013; at jeg forst&#x00E5;r ikke noget af det, jeg ikke.</p>
+</sp>
+<sp>
+<speaker><pb n="60"/>EVA.</speaker>
+<p>Hvad forst&#x00E5;r du ikke?</p>
+</sp>
+<sp>
+<speaker>MARIT.</speaker>
+<p>At nogen som er ung og vakker vil skj&#x00E6;mme sig slig og gjemme sig bort og leve sin ungdom hen, som fruen gj&#x00F8;r....</p>
+</sp>
+<sp>
+<speaker>EVA</speaker>
+<stage>(har sat sig igjen.)</stage>
+<p>Det skal du ikke t&#x00E6;nke p&#x00E5;, Marit.</p>
+</sp>
+<sp>
+<speaker>MARIT.</speaker>
+<p>Og n&#x00E5;r en s&#x00E5; bare f&#x00E5;r skammen for det!</p>
+</sp>
+<sp>
+<speaker>EVA</speaker>
+<stage>(arbeider.)</stage>
+<p>&#x00C5; ja &#x2013; menneskene d&#x00F8;mmer vist ofte h&#x00E5;rdest det, de ikke kjender....</p>
+</sp>
+<sp>
+<speaker>MARIT.</speaker>
+<p>For jeg har da ogs&#x00E5; lidt erfaring, og jeg har da ogs&#x00E5; v&#x00E6;ret ung. Det var andre greier, det. Ja, det var nu der nordp&#x00E5;, hvor jeg er fra &#x2013; &#x2013; jeg skal sige fruen, de var ganske lystige der, og de vidste, hvordan det skulde v&#x00E6;re. En skal more sig mens en er ung, ellers kommer det efter!</p>
+</sp>
+<sp>
+<speaker>EVA</speaker>
+<stage>(ser op, smiler.)</stage>
+<p>Ja, du snakker, du....</p>
+</sp>
+<sp>
+<speaker><pb n="61"/>MARIT.</speaker>
+<p>Jeg kan vel ikke andet end snakke. For det er vel noger, en ser, at her g&#x00E5;r det ikke rigtig til. Sidde og l&#x00E6;se i b&#x00F8;ger og g&#x00E5; rundt til fattige folk og ta til sig barn, som ikke er ens egne &#x2013; og alt sligt! og aldrig andet! Det kan en gj&#x00F8;re, n&#x00E5;r en er gammel og styg og 50 &#x00E5;r og ikke har mere at h&#x00E5;be og vente. Det er ikke for d&#x00E9;t, ingen kan v&#x00E6;re gladere end jeg i den velsignede ungen &#x2013; men da jeg var p&#x00E5; alder med fruen, da t&#x00E6;nkte jeg rigtignok ikke p&#x00E5; at opdrage barn, ikke.</p>
+</sp>
+<sp>
+<speaker>EVA</speaker>
+<stage>(ser op igjen og smiler.)</stage>
+<p>Og alligevel havde du jo et barn, Marit &#x2013; &#x2013;</p>
+</sp>
+<sp>
+<speaker>MARIT.</speaker>
+<p>Ja, gud hj&#x00E6;lpe os, det havde jeg, men det var nu mere tilf&#x00E6;ldigt. Jeg skal sige fruen, at deroppe er det nu slig, at ingen vil v&#x00E6;re &#x00AB;atgl&#x00F8;ime&#x00BB;. Og derfor s&#x00E5; lod vi ikke gutterne g&#x00E5; og vente p&#x00E5; os, vi &#x2013; som visse andre gj&#x00F8;r. For jeg skal sige som sandt er, at jeg kan synes synd om de unge, spr&#x00E6;ke fyrene, som g&#x00E5;r her og sp&#x00F8;r om Dem. Fruen skulde gifte sig igjen og begynde at se liv og mennesker om Dem. Ellers kunde det g&#x00E5; galt en vakker dag. For det har jeg nu set l&#x00E6;nge, at fruen g&#x00E5;r og b&#x00E6;r p&#x00E5; noget. Men n&#x00E5;r de sp&#x00F8;r, s&#x00E5; si&#x0027;r jeg ikke noget, jeg, for jeg ved jo ikke noget.</p>
+</sp>
+<sp>
+<speaker>EVA</speaker>
+<stage>(er blet opm&#x00E6;rksom og lytter.)</stage>
+<p>Hvem er det, som sp&#x00F8;r? Er det flere som sp&#x00F8;r?</p>
+</sp>
+<sp>
+<speaker><pb n="62"/>MARIT.</speaker>
+<p>Det er nu is&#x00E6;r &#x00E9;n da, som g&#x00E5;r her. Ja, han kom her i forrige uge engang, den samme, da De var ude &#x2013;. Men da n&#x00E6;sten skr&#x00E6;mte han mig, s&#x00E5; jeg turde ikke tale om det. For De havde sagt, jeg skulde ikke tale med nogen om Dem.</p>
+</sp>
+<sp>
+<speaker>EVA</speaker>
+<stage>(har reist sig, nerv&#x00F8;s.)</stage>
+<p>I forrige uge! hvem var det? &#x2013; hvordan s&#x00E5; han ud? &#x2013; Hvorfor sa du det ikke, Marit....</p>
+</sp>
+<sp>
+<speaker>MARIT.</speaker>
+<p>Herre gud, var det galt? men nu kommer han jo straks, s&#x00E5; kan De jo selv tale med ham....</p>
+</sp>
+<sp>
+<speaker>EVA.</speaker>
+<p><hi rend="italic">Kommer</hi> han &#x2013;?</p>
+</sp>
+<sp>
+<speaker>MARIT.</speaker>
+<p>Ja, nu skal fruen h&#x00F8;re. Det er da ikke noget at v&#x00E6;re bange for, det. Det var ig&#x00E5;r aftes, da jeg skulde hente melken, s&#x00E5; stod han ved lygten hernede p&#x00E5; hj&#x00F8;rnet, og da jeg kom tilbage med melken, s&#x00E5; talte han til mig. Jeg havde nu bidt m&#x00E6;rke i ham, for denne er lidt anderledes &#x2013; s&#x00E5; underlig og ser saa rart p&#x00E5; en ud af &#x00F8;inene. Og nu stansed han mig og vilde vide besked om Dem, hvad slags liv De f&#x00F8;rte og mere til. Men jeg siger ikke et ord, jeg er stum som en mur, jeg, for De har jo sagt, at jeg ingenting skal sige. Men s&#x00E5; syntes jeg synd om ham tilslut, og s&#x00E5; m&#x00E5;tte jeg love mig p&#x00E5; <pb n="63"/>det da, at jeg skulde l&#x00E6;gge et godt ord ind for&#x0027;n, at han m&#x00E5;tte f&#x00E5; komme her i eftermiddag og tale med fruen. S&#x00E5; t&#x00E6;nkte jeg, at jeg kunde f&#x00E5;t l&#x00E5;nt barnevognen og kj&#x00F8;re ud med barne imens &#x2013; og lidt r&#x00E6;d var jeg for at sige det ogs&#x00E5;, men nu ved De det, og nu er&#x0027;n her snart. Og s&#x00E5; f&#x00E5;r nu fruen bestemme det, som De selv syn&#x0027;s.</p>
+</sp>
+<sp>
+<speaker>EVA</speaker>
+<stage>(st&#x00E5;r tankefuld, sp&#x00E6;ndt.)</stage>
+<p>Kunde det &#x2013;? nei, nei, det <hi rend="italic">kan</hi> ikke v&#x00E6;re ... <stage>(til Marit)</stage> Ja, jeg skal ta imod den, som kommer. S&#x00E5; kan jo du g&#x00E5; ud lidt, Marit &#x2013; ha fri.</p>
+</sp>
+<sp>
+<speaker>MARIT.</speaker>
+<p>Ja, se det gj&#x00F8;r fruen rigtig ret i, at De taler med nogen. Ellers s&#x00E5; han jo ikke netop munter ud, den karen. Men de blir nok enige.</p>
+</sp>
+<sp>
+<speaker>EVA</speaker>
+<stage>(har sat sig med arbeidet igjen.)</stage>
+<p>Tr&#x00E6;k s&#x00E5; gardinerne for der henne, Marit. Hun v&#x00E5;gner vel ikke &#x2013; tror du?</p>
+</sp>
+<sp>
+<speaker>MARIT.</speaker>
+<p>Nei, nu kommer hun vist til at sove en stund, siden hun var v&#x00E5;gen i formiddag. <stage>(Hun tr&#x00E6;kker for).</stage> Og s&#x00E5; skal jeg vel kj&#x00F8;be ind til aften.</p>
+</sp>
+<sp>
+<speaker>EVA.</speaker>
+<p>Ja &#x2013; det s&#x00E6;dvanlige. Se her. <stage>(Gir hende penge).</stage> Til br&#x00F8;d .... melk....</p>
+</sp>
+<sp>
+<speaker><pb n="64"/>MARIT</speaker>
+<stage>(knytter sit hodet&#x00F8;rkl&#x00E6;de.)</stage>
+<p>Og s&#x00E5; f&#x00E5;r jeg g&#x00E5; bortom til min s&#x00F8;ster en tur. Jeg er her igjen til det blir m&#x00F8;rkt. Nu maa fruen bare se at muntre sig. <stage>(Hun g&#x00E5;r).</stage></p>
+</sp>
+<sp>
+<speaker>EVA</speaker>
+<stage>(reiser sig, g&#x00E5;r omkring, st&#x00E5;r grundende; ser sig om, ordner. Om lidt g&#x00E5;r hun ind i alkoven, gardinerne falder til efter hende. Scenen st&#x00E5;r en stund tom. Derefter banker det et par gange p&#x00E5; d&#x00F8;ren).</stage>
+</sp>
+<sp>
+<speaker>VIGGO BRANDT</speaker>
+<stage>(ind, blir st&#x00E5;ende og se sig om, g&#x00E5;r et par skridt, uvis).</stage>
+</sp>
+<sp>
+<speaker>EVA</speaker>
+<stage>(kommer tilbage, blir st&#x00E5;ende foran gardinerne.)</stage>
+<p>Dem &#x2013;?</p>
+</sp>
+<sp>
+<speaker>BRANDT.</speaker>
+<p>Ja. <stage>(Han blir st&#x00E5;ende og se p&#x00E5; hende).</stage></p>
+</sp>
+<sp>
+<speaker>EVA</speaker>
+<stage>(bange.)</stage>
+<p>Hvad er det? hvorfor kommer De hid &#x2013; nu?</p>
+</sp>
+<sp>
+<speaker>BRANDT.</speaker>
+<p>Jeg m&#x00E5;tte se Dem .... ja, undskyld, fru Eva, men tanken, tankerne, ser De, de lar mig ikke v&#x00E6;re i ro.....</p>
+</sp>
+<sp>
+<speaker>EVA</speaker>
+<stage>(hurtig.)</stage>
+<p>&#x00C5;, er vi da ikke f&#x00E6;rdige? har De ikke gjort ulykke nok?</p>
+</sp>
+<sp>
+<speaker>BRANDT.</speaker>
+<p>Ulykke? &#x2013; <hi rend="italic">Er</hi> De ulykkelig, fru Eva?</p>
+</sp>
+<sp>
+<speaker><pb n="65"/>EVA</speaker>
+<stage>(st&#x00E5;r, svarer ikke).</stage>
+</sp>
+<sp>
+<speaker>BRANDT</speaker>
+<stage>(fremdeles betragtende hende.)</stage>
+<p>De er forandret, De er ligesom blet en anden. S&#x00E5; bleg og &#x2013; sortkl&#x00E6;dt &#x2013; &#x2013; ja, det er vel for far? jeg h&#x00F8;rte, De var hos ham p&#x00E5; det sidste.</p>
+</sp>
+<sp>
+<speaker>EVA</speaker>
+<stage>(nikker.)</stage>
+<p>Ja.</p>
+</sp>
+<sp>
+<speaker>BRANDT.</speaker>
+<p>Og mig vilde De ikke se dengang ... Hvorfor?</p>
+</sp>
+<sp>
+<speaker>EVA.</speaker>
+<p>Jeg v&#x00E9;d ikke ... <stage>(med h&#x00E6;nderne for ansigtet)</stage> &#x00C5;, hvad <hi rend="italic">skal</hi> jeg gj&#x00F8;re da? <stage>(tar dem fra igjen, pr&#x00F8;ver at tale med kraft og ro).</stage> Om De vilde tro mig, n&#x00E5;r jeg siger, at der er ingen i verden, jeg er s&#x00E5; bange for som Dem! kan De ikke &#x2013; kan De ikke la mig v&#x00E6;re i fred?</p>
+</sp>
+<sp>
+<speaker>BRANDT.</speaker>
+<p>Jeg kan ikke, endnu. <stage>(N&#x00E6;sten mildt).</stage> De skal ikke v&#x00E6;re bange &#x2013; <hi rend="italic">hvorfor</hi> er De bange? Kan De sige mig det?</p>
+</sp>
+<sp>
+<speaker>EVA.</speaker>
+<p>Jeg ved ikke...</p>
+</sp>
+<sp>
+<speaker><pb n="66"/>BRANDT.</speaker>
+<p>Hvorfor <hi rend="italic">har</hi> De altid v&#x00E6;ret bange for mig? Det er det, jeg g&#x00E5;r og grubler p&#x00E5;. Og p&#x00E5; samme tid s&#x00E5; &#x2013; &#x2013; s&#x00E5; indtagende, s&#x00E5; venlig og lys, at De blev solskinnet i mit liv, f&#x00F8;r jeg vidste af det? <stage>(N&#x00E6;rmere).</stage> Det er d&#x00E9;t, jeg g&#x00E5;r og t&#x00E6;nker p&#x00E5;. Det er det, som dra&#x0027;r mig til Dem &#x2013; d&#x00E9;t ogs&#x00E5; &#x2013; &#x2013; jeg kjender Dem ikke, har aldrig kjendt Dem! nei, nei, <stage>(da hun dra&#x0027;r sig tilbage)</stage> &#x2013; &#x2013; jeg b&#x00E9;r Dem, gj&#x00F8;r en velgjerning, la mig en gang f&#x00E5; tale med Dem....</p>
+</sp>
+<sp>
+<speaker>EVA</speaker>
+<stage>(st&#x00E5;r, tvinger sig.)</stage>
+<p>Ja. Jeg er ikke bange.</p>
+</sp>
+<sp>
+<speaker>BRANDT.</speaker>
+<p>Jo, De <hi rend="italic">er.</hi> Og d&#x00E9;t er kanske ogs&#x00E5;, fordi De f&#x00F8;ler, at der kommer en regnskabens dag. <stage>(indtr&#x00E6;ngende)</stage> For har ikke <hi rend="italic">De</hi> stor skyld overfor mig?</p>
+</sp>
+<sp>
+<speaker>EVA.</speaker>
+<p>Skyld ... forklar mig, hvad De mener....</p>
+</sp>
+<sp>
+<speaker>BRANDT.</speaker>
+<p>Ja &#x2013; kan <hi rend="italic">De</hi> sige mig, forklare mig den g&#x00E5;de: n&#x00E5;r de gav Dem s&#x00E5;dan ind under mig, som De gjorde dengang &#x2013; eller var bange, eller jeg ved ikke hvad &#x2013; og p&#x00E5; samme tid s&#x00E5; ... deilig! V<hi rend="italic">ar</hi> det s&#x00E5; ikke, fordi &#x2013; <stage>(i sp&#x00E6;nding)</stage> jo, fordi De f&#x00F8;lte det samme for mig, som jeg for Dem?</p>
+</sp>
+<sp>
+<speaker>EVA</speaker>
+<stage>(ser p&#x00E5; ham, svarer ikke).</stage>
+</sp>
+<sp>
+<speaker><pb n="67"/>BRANDT</speaker>
+<stage>(indtr&#x00E6;ngende.)</stage>
+<p>Hvorfor var De slig, som De var? Er man det overfor en, som er en aldeles ligegyldig?</p>
+</sp>
+<sp>
+<speaker>EVA</speaker>
+<stage>(har lyttet urolig, ser hen til gardinerne.)</stage>
+<p>&#x00C5;, De m&#x00E5; v&#x00E6;re s&#x00E5; snil ikke at tale s&#x00E5; h&#x00F8;it....</p>
+</sp>
+<sp>
+<speaker>BRANDT.</speaker>
+<p><hi rend="italic">Er</hi> der nogen derinde?</p>
+</sp>
+<sp>
+<speaker>EVA.</speaker>
+<p>Ja .... nei, bare....</p>
+</sp>
+<sp>
+<speaker>BRANDT</speaker>
+<stage>(ser vist p&#x00E5; hende.)</stage>
+<p>Den, som kunde forst&#x00E5; Dem &#x2013; se tvers igjennem Dem. &#x2013;</p>
+</sp>
+<sp>
+<speaker>EVA</speaker>
+<stage>(samler sig, ligefrem.)</stage>
+<p>De skal bare ikke tro, at det er s&#x00E5; vanskeligt.</p>
+</sp>
+<sp>
+<speaker>BRANDT</speaker>
+<stage>(med d&#x00E6;mpet heftighed.)</stage>
+<p>&#x00C5;, er <hi rend="italic">De</hi> bedre end andre &#x2013; hvem t&#x00F8;r man tro? De ser s&#x00E5; uskyldig ud, der De st&#x00E5;r, s&#x00E5; &#x00E6;rlig, barnlig ... og ved godt alligevel, at De tar magten fra mig, ... selv <hi rend="italic">nu</hi> ... ved det sikkert, at De har stj&#x00E5;let Dem ind i min hu og min tanke.... mens <hi rend="italic">jeg</hi> ikke gj&#x00E6;lder mere for <hi rend="italic">Dem</hi> end det gulv, De tr&#x00E6;&#x0027;r p&#x00E5;. <hi rend="italic">Er</hi> det s&#x00E5;?</p>
+</sp>
+<sp>
+<speaker><pb n="68"/>EVA</speaker>
+<stage>(bedr&#x00F8;vet.)</stage>
+<p>&#x00C5; &#x2013; hvorfor taler De til mig om dette nu &#x2013; hvad nytter det?</p>
+</sp>
+<sp>
+<speaker>BRANDT</speaker>
+<stage>(n&#x00E6;rmere.)</stage>
+<p>Jeg vil vide det. <hi rend="italic">Var</hi> jeg i Deres tanke dengang &#x2013; dengang da <hi rend="italic">han</hi> kom .... sig det nu, endelig en gang &#x2013; <hi rend="italic">var</hi> det s&#x00E5;?</p>
+</sp>
+<sp>
+<speaker>EVA</speaker>
+<stage>(d&#x00E6;mpet.)</stage>
+<p>Ja &#x2013; &#x2013;</p>
+</sp>
+<sp>
+<speaker>BRANDT</speaker>
+<stage>(med st&#x00E6;rkt udbrud.)</stage>
+<p>Eva! &#x2013; jeg vidste det!</p>
+</sp>
+<sp>
+<speaker>EVA</speaker>
+<stage>(hurtig, bange.)</stage>
+<p>I min tanke, ja .... men De tvang Dem ind med den magt, som var i Deres egen kj&#x00E6;rlighed .... s&#x00E5; var det. jeg ved det! De fik mig til at t&#x00E6;nke p&#x00E5; Dem....</p>
+</sp>
+<sp>
+<speaker>BRANDT.</speaker>
+<p>Ja, men De var <hi rend="italic">glad</hi> ved det...</p>
+</sp>
+<sp>
+<speaker>EVA.</speaker>
+<p>Ja &#x2013; jeg var glad i Dem, i alle mennesker!</p>
+</sp>
+<sp>
+<speaker><pb n="69"/>BRANDT</speaker>
+<stage>(ut&#x00E5;lmodig.)</stage>
+<p>Nei .... ikke p&#x00E5; den m&#x00E5;de! De skal ikke komme fra det s&#x00E5;! De gik fra mig for en andens skyld, som var &#x2013; ja simpelthen &#x2013; <hi rend="italic">rigere</hi> end jeg, er det ikke s&#x00E5;? svar mig nu, siden vi har skriftem&#x00E5;let g&#x00E5;ende!</p>
+</sp>
+<sp>
+<speaker>EVA.</speaker>
+<p>Jeg kan ikke svare .... &#x00E5;, hvor De m&#x00E5; ha det ondt....</p>
+</sp>
+<sp>
+<speaker>BRANDT.</speaker>
+<p>Ja, jeg har mistet en illusion, den st&#x00F8;rste i mit liv ... jeg har mistet Dem. Jeg ved ikke, hvem De er .... Ikke hvad liv De f&#x00F8;rer nu, &#x2013; folk taler alleh&#x00E5;nde! Det var d&#x00E9;t, jeg vilde vide &#x2013; det ogs&#x00E5; &#x2013; om De ligner andre &#x2013; &#x2013;! <stage>(ler)</stage> For <hi rend="italic">er</hi> det s&#x00E5;, da har jeg f&#x00F8;rste ret! &#x2013; Hvad ved jeg? <stage>(stanser; br&#x00E5;t)</stage> har De nogen gjemt bag gardinerne der! &#x2013; hvorfor ser De s&#x00E5; ofte derhen? hvad er De r&#x00E6;d for? &#x2013; Kanske jeg overrasked Dem, da jeg kom!</p>
+</sp>
+<sp>
+<speaker>EVA</speaker>
+<stage>(ser p&#x00E5; ham, s&#x00F8;rgmodig.)</stage>
+<p>&#x00C5;, Brandt .... hvor De er forandret! S&#x00E5;dan var De ikke f&#x00F8;r.</p>
+</sp>
+<sp>
+<speaker>BRANDT.</speaker>
+<p>Var jeg ikke? &#x2013; nei, det er sandt, engang var jeg <hi rend="italic">god,</hi> eller jeg trode, jeg var p&#x00E5; vei til at bli det. Det var dengang vi mored os &#x2013; som to b&#x00F8;rn, og <pb n="70"/>De fortalte mig Deres sm&#x00E5; gl&#x00E6;der og sorger &#x2013; og jeg vilde s&#x00E5; gjerne hj&#x00E6;lpe Dem! &#x00E5;, hvor gjerne! og som De st&#x00E5;r der nu, er De den samme &#x2013; &#x2013; og <hi rend="italic">var</hi> dog kanske ikke sand mod mig dengang og har aldrig v&#x00E6;ret det! &#x2013; &#x00C5;, vi &#x2013; vi m&#x00E6;nd b&#x00E6;rer ofte straffen i os selv ... for vi ser det, vi ikke vil!</p>
+</sp>
+<sp>
+<speaker>EVA.</speaker>
+<p>&#x00C5; &#x2013; s&#x00E5; <hi rend="italic">se</hi> da!</p>
+<stage>(Hun g&#x00E5;r bort til alkoven og tr&#x00E6;kker et gardin fra, vinker ham derhen).</stage>
+</sp>
+<sp>
+<speaker>BRANDT.</speaker>
+<p>Hvad er d&#x00E9;t &#x2013; &#x2013; et sovende barn? Det er &#x2013;?</p>
+</sp>
+<sp>
+<speaker>EVA</speaker>
+<stage>(nikker.)</stage>
+<p>Valentins lille pige! se hvor godt hun sover. Kan De ikke kjende hende igjen, De s&#x00E5; hende jo? stakkar, hun havde det ikke s&#x00E5; godt .... og nu har hun v&#x00E6;ret syg. Men har De set noget s&#x00E5; vakkert? Og s&#x00E5;dan en kj&#x00E6;rlig liden en! Hys... la os g&#x00E5; &#x2013; &#x2013; ellers v&#x00E5;gner hun! <stage>(Hun tr&#x00E6;kker for igjen, de g&#x00E5;r begge tilbage).</stage></p>
+</sp>
+<sp>
+<speaker>BRANDT.</speaker>
+<p>&#x00C5; &#x2013; frue &#x2013; &#x2013;</p>
+</sp>
+<sp>
+<speaker>EVA</speaker>
+<stage>(glad, &#x00E5;ben).</stage>
+<p>Ja &#x2013; vil De tro mig nu? &#x00C5;, jeg var s&#x00E5; beklemt f&#x00F8;r, jeg kunde n&#x00E6;sten ikke tale, ikke svare Dem, for jeg f&#x00F8;lte, De vilde ikke tro mig!</p>
+</sp>
+<sp>
+<speaker><pb n="71"/>BRANDT.</speaker>
+<p>&#x00C5; &#x2013; glem alt det stygge, jeg sa. Jeg er en d&#x00E5;rlig en, fru Eva.</p>
+</sp>
+<sp>
+<speaker>EVA.</speaker>
+<p>Nei, De <hi rend="italic">er</hi> ikke. De skal ikke tro det. De har bare havt det ondt &#x2013; &#x2013; &#x00E5;, jeg ved det jo selv, der gis ikke noget v&#x00E6;rre end at tro noget slemt om en, man er glad i! <stage>(ryster p&#x00E5; hodet).</stage> Det skulde &#x00E9;n aldrig gj&#x00F8;re ... men aldrig gjemme noget heller .... bare sige alting ud &#x2013; v&#x00E6;re &#x00E6;rlig! Tror De ikke, d&#x00E9;t vilde hj&#x00E6;lpe alle mennesker?</p>
+</sp>
+<sp>
+<speaker>BRANDT.</speaker>
+<p>Jeg ved ikke rigtig &#x2013; om det g&#x00E5;r an.</p>
+</sp>
+<sp>
+<speaker>EVA.</speaker>
+<p>Jo .... man burde st&#x00E5; fri .... <hi rend="italic">fri,</hi> aldrig skamme sig ved det en gj&#x00F8;r .... for <hi rend="italic">da</hi> gj&#x00F8;r en ikke noget, en m&#x00E5; skamme sig ved! &#x2013; fri, overfor den, det vedkommer &#x2013; &#x2013;</p>
+</sp>
+<sp>
+<speaker>BRANDT.</speaker>
+<p>Ja, det har De sagt engang f&#x00F8;r .... husker De .... dengang jeg tilstod for Dem, at jeg havde .... kysset Dem, dengang De besvimte. De sa, De likte <hi rend="italic">det</hi> bedre....</p>
+</sp>
+<sp>
+<speaker>EVA</speaker>
+<stage>(nikker, smiler.)</stage>
+<p>Ja, den sommernatten ... da vi var blet overfaldt af de stygge sluskene p&#x00E5; Ullevoldsveien.... jeg husker det nok.</p>
+</sp>
+<sp>
+<speaker><pb n="72"/>BRANDT.</speaker>
+<p>De husker det &#x2013; &#x00C5;, vi to, som har oplevet s&#x00E5; meget ... og den tid ... og altsammen... at det skal v&#x00E6;re forbi!</p>
+</sp>
+<sp>
+<speaker>EVA.</speaker>
+<p>Nei, De skal ikke sige det! <stage>(&#x00E5;bent, hjertlig).</stage> Jeg er s&#x00E5; glad over, at De kom, og jeg er ikke bange for Dem mere .... &#x00C5;, Brandt ... Viggo! husker du, at du bad mig kalde dig Viggo og sige <hi rend="italic">du</hi>; &#x2013; nu gj&#x00F8;r jeg det! For du er jo min ven, min bror! <stage>(hun tar hans h&#x00E5;nd)</stage> &#x00E5;, du skal se lige p&#x00E5; mig.... s&#x00E5;dan .... og <hi rend="italic">bare</hi> v&#x00E6;re god! for jeg holder saa af dig....</p>
+</sp>
+<sp>
+<speaker>BRANDT.</speaker>
+<p>Du holder af mig &#x2013; &#x2013;</p>
+</sp>
+<sp>
+<speaker>EVA.</speaker>
+<p>Ja, som jeg gjorde dengang &#x2013; &#x2013; lige s&#x00E5; meget! Og jeg er ikke bange for dig mere. Jeg var det, da du kom, ved du hvorfor ogs&#x00E5; .... fordi jeg altid har trod, at du for en del var &#x00E5;rsag &#x2013; &#x2013; ja kanske aldeles ubevidst &#x2013; i det ... det forf&#x00E6;rdelige, som skete dengang...</p>
+</sp>
+<sp>
+<speaker>BRANDT</speaker>
+<stage>(ser p&#x00E5; hende, gj&#x00F8;r en bev&#x00E6;gelse, begynder at g&#x00E5; op og ned, stanser da hun taler).</stage>
+</sp>
+<sp>
+<speaker><pb n="73"/>EVA.</speaker>
+<p>Ja, vi skal ikke tale om det. For du havde det jo s&#x00E5; ondt, du gik jo og trode dette om mig, og &#x2013; ja, &#x2013; &#x00E5;, du kan tro, jeg har selv bebreidet mig s&#x00E5; meget! is&#x00E6;r nu efter at jeg blev s&#x00E5; &#x2013; s&#x00E5; ulykkelig og forladt .... for n&#x00E5;r en er lykkelig, du &#x2013; da blir man desv&#x00E6;rre ofte h&#x00E5;rd, og blind, og t&#x00E6;nker ikke, forstaar ikke ..., men senere, da forstod jeg bedre, hvordan du maa ha havt det.</p>
+</sp>
+<sp>
+<speaker>BRANDT.</speaker>
+<p>Ja .... dengang, sig mig &#x2013; hvordan <hi rend="italic">var</hi> det egentlig dengang .... jeg har studeret mig syg p&#x00E5; det &#x2013; syg og ond....</p>
+</sp>
+<sp>
+<speaker>EVA.</speaker>
+<p>Ja, tror du ikke, jeg har studeret p&#x00E5; det selv ... det er jo netop saa underligt. Men jeg f&#x00F8;lte s&#x00E5;dan sympati &#x2013; ja, s&#x00E5;, som jeg i det hele f&#x00F8;lte for alle mennesker &#x2013; de allerfleste ialfald. Jeg var s&#x00E5; glad...</p>
+</sp>
+<sp>
+<speaker>BRANDT.</speaker>
+<p>Og gjorde det s&#x00E5; <hi rend="italic">lyst</hi> omkring dig &#x2013; husker du &#x2013; vi kaldte dig for sommerfuglen &#x2013; &#x2013;</p>
+</sp>
+<sp>
+<speaker>EVA.</speaker>
+<p>Ja, jeg syntes jo, det var s&#x00E5; skj&#x00F8;nt at leve.... &#x00E5;, selv nu kan jeg f&#x00F8;le det &#x2013; for jeg har jo h&#x00E5;b... <stage>(tankefuld)</stage> men det var dengang! hvor dere var hyggelige allesammen, far og mor, Alma og du &#x2013; mod mig, som ikke havde nogen i verden! s&#x00E5; m&#x00E5;tte jeg jo v&#x00E6;re glad &#x2013; &#x2013; &#x2013;</p>
+</sp>
+<sp>
+<speaker><pb n="74"/>BRANDT.</speaker>
+<p>Og s&#x00E5; blev jeg glad &#x2013; i dig &#x2013; &#x2013;</p>
+</sp>
+<sp>
+<speaker>EVA.</speaker>
+<p>Ja. Og det er jo det underlige, at vi mennesker m&#x00E5; v&#x00E6;re s&#x00E5; beskafne, at &#x2013; ja, at vi kan f&#x00F8;le sympati for flere, ja kanske for mange.... for jeg holdt af dig ... men da <hi rend="italic">han</hi> s&#x00E5; kom... ja, s&#x00E5; blev han konge over det altsammen! Jeg f&#x00F8;ler, det er s&#x00E5;, men jeg kan ikke forklare det.</p>
+</sp>
+<sp>
+<speaker>BRANDT.</speaker>
+<p>Ja, &#x2013; der er vel forskjellige arter og grader i <hi rend="italic">den</hi> f&#x00F8;lelse &#x2013; &#x2013;</p>
+</sp>
+<sp>
+<speaker>EVA.</speaker>
+<p>Og dere to var s&#x00E5; forskjellige ... som natten og dagen....</p>
+</sp>
+<sp>
+<speaker>BRANDT</speaker>
+<stage>(smiler.)</stage>
+<p><hi rend="italic">Han</hi> var dagen...</p>
+</sp>
+<sp>
+<speaker>EVA.</speaker>
+<p>Som br&#x00F8;d ind over mig, ja ... jeg blev ligesom ta&#x0027;t ind i en fryd, i s&#x00E5; meget lys....</p>
+</sp>
+<sp>
+<speaker>BRANDT.</speaker>
+<p>Og sommerfuglen elsker lyset....</p>
+</sp>
+<sp>
+<speaker>EVA</speaker>
+<p>Men har bare levet &#x00E9;n dag.</p>
+</sp>
+<sp>
+<speaker><pb n="75"/>BRANDT</speaker>
+<stage>(ser p&#x00E5; hende. Efter en pause.)</stage>
+<p>Og nu &#x2013;?</p>
+</sp>
+<sp>
+<speaker>EVA</speaker>
+<p>Nu? &#x2013; hvad mener du?</p>
+</sp>
+<sp>
+<speaker>BRANDT.</speaker>
+<p>G&#x00E5;r du og venter &#x2013; &#x2013;</p>
+</sp>
+<sp>
+<speaker>EVA</speaker>
+<stage>(nikker.)</stage>
+<p>Ja &#x2013; g&#x00E5;r omkring i s&#x00E5; meget uudgrundeligt &#x2013; uklart, t&#x00E5;get &#x2013; og venter, og venter &#x2013; &#x2013;</p>
+</sp>
+<sp>
+<speaker>BRANDT.</speaker>
+<p>Og holder af ham endnu &#x2013; &#x2013; efter det du fik vide &#x2013; &#x2013;</p>
+</sp>
+<sp>
+<speaker>EVA</speaker>
+<stage>(nikker.)</stage>
+<p>Ja.</p>
+</sp>
+<sp>
+<speaker>BRANDT.</speaker>
+<p>Og <hi rend="italic">han</hi> har ond samvittighed og kommer ikke....</p>
+</sp>
+<sp>
+<speaker>EVA</speaker>
+<stage>(ligesom forpint.)</stage>
+<p>Jeg ved ikke ... v&#x00E9;d ikke ... <stage>(sagte)</stage> men jeg har skrevet...</p>
+</sp>
+<sp>
+<speaker>BRANDT</speaker>
+<stage>(efter en pause.)</stage>
+<p>Og ikke f&#x00E5;t svar &#x2013; &#x2013;.</p>
+</sp>
+<sp>
+<speaker><pb n="76"/>EVA</speaker>
+<stage>(ryster p&#x00E5; hodet, pause.)</stage>
+<p>Han reiste jo bort....</p>
+</sp>
+<sp>
+<speaker>BRANDT</speaker>
+<stage>(ser p&#x00E5; hende.)</stage>
+<p>Er det ondt at tale om det? &#x2013; Bare lidt til. Ved du &#x2013; ved du, at han nu har v&#x00E6;ret hjemme i to &#x2013; tre uger?</p>
+</sp>
+<sp>
+<speaker>EVA.</speaker>
+<p>Jeg v&#x00E9;d det; &#x2013; &#x2013; og jeg har jo ventet, ventet hver dag, trod det hver morgen: idag kommer han! da <hi rend="italic">du</hi> kom, trode jeg det var ham! Og jeg har forestillet mig det, hvordan det vil komme &#x2013; dr&#x00F8;mt en dr&#x00F8;m &#x2013; &#x2013; &#x00E5;, det vakreste, jeg har dr&#x00F8;mt &#x2013; &#x2013; om igjen s&#x00E5; mange, mange gange! at han kommer ind af d&#x00F8;ren der &#x2013; og se ham igjen &#x2013; og s&#x00E5; <hi rend="italic">tale</hi> med ham s&#x00E5; godt, inderlig, &#x2013; og tilgi &#x2013; &#x2013; og tale ud om det altsammen! Hvorfor kommer han ikke &#x2013; &#x00E5; &#x2013; <hi rend="italic">hvorfor</hi> kommer han ikke? &#x2013; &#x00C5; .... <stage>(i gr&#x00E5;d)</stage> .... jeg kan ikke tale om det, t&#x00E6;nke p&#x00E5; det .... <stage>(hun samler sig lidt efter lidt).</stage> &#x00C5; du! du sa, at du vilde s&#x00E5; gjerne hj&#x00E6;lpe &#x2013; &#x2013; <hi rend="italic">kan</hi> du ikke hj&#x00E6;lpe &#x2013; &#x2013; du, som var hans bedste ven!</p>
+</sp>
+<sp>
+<speaker>BRANDT</speaker>
+<stage>(tier, han er st&#x00E6;rkt bev&#x00E6;get, men tr&#x00E6;nger det tilbage. G&#x00E5;r op og ned p&#x00E5; gulvet, flere gange som han vil tale, men kan ikke).</stage>
+</sp>
+<sp>
+<speaker>EVA</speaker>
+<stage>(om lidt.)</stage>
+<p>Kunde du g&#x00E5; til ham, skrive til ham! <stage>(grublende).</stage> Og s&#x00E5; det med hans mor &#x2013; &#x2013; &#x2013; jeg ved ikke, <pb n="77"/>hvad det er, jeg ved ingenting! <stage>(hun t&#x00F8;rrer sine &#x00F8;ine, lidt efter lidt freidigere, mellem gr&#x00E5;d og smil).</stage> Nei, mange gange synes jeg, verden er rar. Menneskene g&#x00E5;r omkring og plager sig med hver sit ... og tier ... og misforst&#x00E5;r ... og <hi rend="italic">tror</hi> s&#x00E5; meget rart .... istedetfor at fordra hverandre og v&#x00E6;re gla!</p>
+</sp>
+<sp>
+<speaker>BRANDT.</speaker>
+<p>Ja, vi gj&#x00F8;r det. Vi <hi rend="italic">lider</hi>. Lider &#x2013; fordi vi er onde, kanske &#x2013; &#x2013; og tror, at andre er det! &#x2013; Men det gode, det glade, det lyse ... <stage>(han ser p&#x00E5; Eva)</stage> det afv&#x00E6;bner, forsoner ... gj&#x00F8;r lykkelig, hvor det str&#x00E5;ler en im&#x00F8;de! &#x2013; <stage>(grublende hen for sig).</stage> Man skulde f&#x00E5; <hi rend="italic">lyst</hi> til det, <hi rend="italic">elske</hi> det, gj&#x00F8;re det til en <hi rend="italic">lidenskab</hi> ... en interesse! S&#x00E5; <hi rend="italic">var</hi> man lykkelig ... en underlig tanke! p&#x00E5; &#x00E9;ngang den h&#x00F8;ieste egoisme og den h&#x00F8;ieste selvforglemmelse! men ligger ikke pointet der ...? <stage>(han stryger sig over &#x00F8;inene, siger ligesom opv&#x00E5;gnende)</stage> &#x00C5;, du &#x2013; barn &#x2013; du f&#x00E5;r mig til at t&#x00E6;nke p&#x00E5; s&#x00E5; meget! <stage>(st&#x00E6;rkt).</stage> Gj&#x00F8;re det; <hi rend="italic">gj&#x00F8;re</hi> det, ja! &#x2013; &#x00E5;, h&#x00F8;r nu, jeg m&#x00E5; sige det &#x2013; &#x2013; jeg blev drevet herop idag af en underlig uro &#x2013; &#x2013;</p>
+</sp>
+<sp>
+<speaker>EVA.</speaker>
+<p>Uro &#x2013; &#x2013; hvorfor?</p>
+</sp>
+<sp>
+<speaker>BRANDT.</speaker>
+<p>Jo &#x2013; du skal vide det: han reiser imorgen... hvis du &#x2013; vi &#x2013; ikke forhindrer det ... jeg fik tilf&#x00E6;ldigvis vide det af Alma ig&#x00E5;r...</p>
+</sp>
+<sp>
+<speaker><pb n="78"/>EVA.</speaker>
+<p>Valentin! &#x2013; Han reiser &#x2013; &#x2013;</p>
+</sp>
+<sp>
+<speaker>BRANDT.</speaker>
+<p>Ja &#x2013; det skal v&#x00E6;re hans mening at v&#x00E6;re borte et &#x00E5;r. Han f&#x00F8;lger den expedition, som skal ned til udgravningsarbeiderne ... tror jo at kunne gj&#x00F8;re nytte som ingeni&#x00F8;r....</p>
+</sp>
+<sp>
+<speaker>EVA.</speaker>
+<p>Imorgen &#x2013; og nu er det n&#x00E6;sten aften... den sidste dag forbi ... og han kommer ikke! &#x00E5;, da er alt h&#x00E5;b ude &#x2013; &#x2013;.</p>
+</sp>
+<sp>
+<speaker>BRANDT.</speaker>
+<p>Nei, Eva, det er det ikke &#x2013; &#x2013; ikke endnu. Du har &#x00E9;n ting at gj&#x00F8;re &#x2013; bare en eneste ting: g&#x00E5; til ham &#x2013; til hans mor, vind hende &#x2013; &#x2013;.</p>
+</sp>
+<sp>
+<speaker>EVA</speaker>
+<stage>(r&#x00E6;d.)</stage>
+<p>Derhen! hun, som aldrig har villet se mig &#x2013; &#x2013;</p>
+</sp>
+<sp>
+<speaker>BRANDT.</speaker>
+<p>G&#x00E5; derhen! Og s&#x00E5; skal jeg skrive &#x2013; &#x2013;.</p>
+</sp>
+<sp>
+<speaker>EVA.</speaker>
+<p>Vil du &#x2013;?</p>
+</sp>
+<sp>
+<speaker>BRANDT.</speaker>
+<p>Ja, for der er mere endnu &#x2013; mere end du ved! &#x00C5;, hvordan skal jeg f&#x00E5; det sagt? Jeg st&#x00E5;r jo her <pb n="79"/>som den usleste .... og du ved det ikke og taler med mig som med et andet menneske! Vil du gj&#x00F8;re det mere, n&#x00E5;r du h&#x00F8;rer, at &#x2013; &#x2013;</p>
+</sp>
+<sp>
+<speaker>EVA</speaker>
+<stage>(sp&#x00E6;ndt, forundret.)</stage>
+<p>H&#x00F8;rer &#x2013; hvad &#x2013;?</p>
+</sp>
+<sp>
+<speaker>BRANDT.</speaker>
+<p>At jeg har l&#x00F8;iet p&#x00E5; dig ... i jalousi ... rost mig af ... skj&#x00F8;nt hvad jeg sa, kunde v&#x00E6;re sandt, men der l&#x00E5; en dobbelt betydning i det! &#x2013; &#x00E5;, det er jo afskyeligt! men det skal og m&#x00E5; siges: for <hi rend="italic">ham</hi> har jeg rost mig af at eie, hvad der aldrig har v&#x00E6;ret mit! Kan du <hi rend="italic">s&#x00E5;</hi> tilgi? &#x00C5; &#x2013; jeg ber ikke om det engang! &#x2013;</p>
+</sp>
+<sp>
+<speaker>EVA.</speaker>
+<p>Har du &#x2013;? <stage>(hun ser p&#x00E5; ham, sandheden g&#x00E5;r lidt efter lidt op for hende; hun grunder med h&#x00E5;nden for ansigtet).</stage> &#x00C5;, <hi rend="italic">nu</hi> forst&#x00E5;r jeg Valentin bedre! <stage>(tar h&#x00E5;nden fra, ser p&#x00E5; ham, smertelig udbrydende).</stage> Hvor <hi rend="italic">kunde</hi> du! det er forf&#x00E6;rdelig &#x2013; &#x2013; forf&#x00E6;rdelig!</p>
+</sp>
+<sp>
+<speaker>BRANDT.</speaker>
+<p>Ja, kj&#x00E6;rligheden er forf&#x00E6;rdelig, Eva.</p>
+</sp>
+<sp>
+<speaker>EVA</speaker>
+<stage>(som f&#x00F8;r.)</stage>
+<p>Kj&#x00E6;rlighed! &#x2013; kalder du <hi rend="italic">det</hi> kj&#x00E6;rlighed, som vil &#x00F8;del&#x00E6;gge og pine og gj&#x00F8;re ondt! &#x2013; D&#x00E9;t tror jeg ikke p&#x00E5;!</p>
+</sp>
+<sp>
+<speaker>BRANDT.</speaker>
+<p>Ikke jeg heller &#x2013; nu. Men bliv ved, forband mig, knus mig med din indignation, det skal v&#x00E6;re mig en vellyst! Jeg har fortjent det. <stage>(Efter en pause).</stage> <pb n="80"/>&#x00C5;, kan du forst&#x00E5; det &#x2013; at vi elendige menneskenes b&#x00F8;rn, vi st&#x00E5;r med den ene fod i helvede og den anden i paradiset! der <hi rend="italic">er</hi> ikke noget sv&#x00E6;lgende dyb bef&#x00E6;stet mellem ondt og godt, det ene r&#x00E6;kker det andet h&#x00E5;nden &#x2013; &#x2013;</p>
+</sp>
+<sp>
+<speaker>EVA</speaker>
+<stage>(som f&#x00F8;r.)</stage>
+<p>Ja, men kj&#x00E6;rligheden &#x2013; den kj&#x00E6;rlighed, som <hi rend="italic">du</hi> ikke har lov at n&#x00E6;vne &#x2013; &#x2013; <hi rend="italic">den</hi> st&#x00E5;r over, den alene!</p>
+</sp>
+<sp>
+<speaker>BRANDT</speaker>
+<stage>(nikker, i tanker.)</stage>
+<p>Gnisten, lysstr&#x00E5;len, som renser blandingen! <stage>(Han ser op, med et lyst udtryk).</stage> Jo, jeg har lov, for jeg eier den? <hi rend="italic">Nu</hi> elsker jeg dig &#x2013; nu kan jeg slippe dig! &#x2013; <stage>(Efter et &#x00F8;iebliks venten).</stage> Og derfor skal jeg g&#x00E5; nu &#x2013; ikke plage dig, bare handle! Farvel &#x2013; gud velsigne dig! <stage>(Han g&#x00E5;r mod udgangen).</stage></p>
+</sp>
+<sp>
+<speaker>EVA.</speaker>
+<p>Brandt! <stage>(han g&#x00E5;r n&#x00F8;lende tilbage, imod hende, hun r&#x00E6;kker ham taus h&#x00E5;nden).</stage></p>
+</sp>
+<sp>
+<speaker>BRANDT</speaker>
+<stage>(b&#x00F8;ier sig og kysser den.)</stage>
+<p>Tak! <stage>(Taushed. Han beholder h&#x00E5;nden, ser hende i &#x00F8;inene. Inderligt).</stage> Og g&#x00E5; s&#x00E5; du &#x2013; sommerfugl! g&#x00E5; trygt!</p>
+<stage>(Han g&#x00E5;r).</stage>
+</sp>
+<sp>
+<speaker>EVA</speaker>
+<stage>(ser efter ham, g&#x00E5;r flere gange frem og tilbage i bev&#x00E6;gelse. Hun knuger h&#x00E6;nderne sammen og ser et &#x00F8;ieblik opad. St&#x00E5;r stille, som hun lytter, derefter sagte hen til gardinerne, lytter igjen, g&#x00E5;r udenfor).</stage>
+</sp>
+<stage>T&#x00E6;ppet falder.</stage>
+</div>
+<div type="chapter" subtype="act" n="3">
+<head type="main">III.</head>
+<stage>(Elegant dagligv&#x00E6;relse hos enkefru Skytte. Udgang i baggrunden. D&#x00F8;r tilh&#x00F8;ire, en d&#x00F8;r med porti&#x00E9;rer p&#x00E5; den modsatte side. I forgrunden tilh&#x00F8;ire et sybord med l&#x00E6;nestol og andre stole. L&#x00E6;nger tilbage et bord, hvorp&#x00E5; for &#x00F8;ieblikket dug og et frokostbr&#x00E6;t. Chaiselongne, t&#x00E6;pper, komfort).</stage>
+<stage>Enkefru Skytte, en endnu smuk, statelig dame, st&#x00E5;r ved sybordet og ordner forskjellige sager, som ligger p&#x00E5; det. Selskabsdamen, frk. Witt, midaldrende, af et sygeligt men ganske fint ydre, beskj&#x00E6;ftiget med noget l&#x00E6;nger tilbage i v&#x00E6;relset.</stage>
+<sp>
+<speaker>FRU SKYTTE.</speaker>
+<p>Ja .... alt dette kan gjerne bli liggende her ... sm&#x00E5;tingene ... s&#x00E5; er det samlet. Han henter det selv. Toilet-v&#x00E6;sken, frk. Witt, er den f&#x00E6;rdig, s&#x00E5; l&#x00E6;g den hen til det andet .... siden det nu endelig s&#x00E5; skal v&#x00E6;re. Her &#x2013; se s&#x00E5; <stage>(hun tar imod)</stage> hvor blir han nu af? Han har jo ikke spist frokost. Kaffeen blir kold.</p>
+</sp>
+<sp>
+<speaker>FRK. WITT.</speaker>
+<p>Ingeni&#x00F8;ren gik vist ud for en stund siden.</p>
+</sp>
+<sp>
+<speaker>FRU SKYTTE.</speaker>
+<p>Gik han ud? &#x2013; hvorfor gik han ud nu? Sa han ikke, hvor han gik hen?</p>
+</sp>
+<sp>
+<speaker>FRK. WITT.</speaker>
+<p>Nei, det sa han ikke.</p>
+</sp>
+<sp>
+<speaker><pb n="82"/>FRU SKYTTE.</speaker>
+<p>Nei ... det er jo ikke hans vis. &#x2013; V&#x00E6;r s&#x00E5; god, frk. Witt, at s&#x00F8;rge for, at kaffen ikke blir kold. Og l&#x00E6;g aviserne p&#x00E5; hans bord.</p>
+</sp>
+<stage>(Frk. Witt ordner).</stage>
+<sp>
+<speaker>FRU SKYTTE</speaker>
+<stage>(har sat sig, om en stund.)</stage>
+<p>De kan godt s&#x00E6;tte Dem hid. V&#x00E6;r s&#x00E5; god at sy remmene fast, jeg har ikke kr&#x00E6;fter nok til det. <stage>(Hun tar et lettere h&#x00E5;ndarbeide, frk. Witt s&#x00E6;tter sig og hj&#x00E6;lper).</stage> Jeg ved ikke, hvor mine kr&#x00E6;fter blir af. F&#x00F8;r i tiden .... da kunde jeg modta gj&#x00E6;ster eller v&#x00E6;re ude aften efter aften, men nu tr&#x00E6;tter det mig. Som ig&#x00E5;r; &#x2013; endda det var vor egen kreds. Og hvad har man s&#x00E5; for det?</p>
+</sp>
+<sp>
+<speaker>FRK. WITT.</speaker>
+<p>Men hr. Valentin var i godt hum&#x00F8;r ig&#x00E5;r, synes jeg?</p>
+</sp>
+<sp>
+<speaker>FRU SKYTTE.</speaker>
+<p>Det s&#x00E5; jeg ikke noget til. Og ikke et ord talte han med frk. Seeberg.</p>
+</sp>
+<sp>
+<speaker>FRK. WITT.</speaker>
+<p>Hr. Valentin liker vist ikke frk. Seeberg.</p>
+</sp>
+<sp>
+<speaker>FRU SKYTTE.</speaker>
+<p>Nei, han liker aldrig dem, <hi rend="italic">jeg</hi> liker. Det m&#x00E5; De da ha lagt m&#x00E6;rke til alle de &#x00E5;r, De har v&#x00E6;ret her. Men h&#x00F8;r, det var noget &#x2013; &#x2013;. Det stykke, De spilte ... det, som min s&#x00F8;n gik og nynned p&#x00E5; ... hvad var det for noget?</p>
+</sp>
+<sp>
+<speaker><pb n="83"/>FRK. WITT.</speaker>
+<p>Hvilket ... &#x00E5;, det! det var en romance af Verdi&#x0027;s &#x00AB;Traviata&#x00BB;.</p>
+</sp>
+<sp>
+<speaker>FRU SKYTTE.</speaker>
+<p>Ja, jeg kunde t&#x00E6;nke det. Jeg har jo sagt Dem f&#x00F8;r, frk. Witt, at jeg ikke vil h&#x00F8;re den musik.</p>
+</sp>
+<sp>
+<speaker>FRK. WITT.</speaker>
+<p>Men en gang forleden bad fruen mig jo spille den, og s&#x00E5; t&#x00E6;nkte jeg &#x2013; &#x2013;</p>
+</sp>
+<sp>
+<speaker>FRU SKYTTE.</speaker>
+<p>Det er en anden sag. N&#x00E5;r jeg b&#x00E9;r Dem &#x2013;. Men <hi rend="italic">denne</hi>, har De aldrig spillet f&#x00F8;r. Sig mig &#x2013; h&#x00F8;rte De &#x2013; dengang, for mange &#x00E5;r siden.... hr. Dorn nogensinde synge den?</p>
+</sp>
+<sp>
+<speaker>FRK. WITT.</speaker>
+<p>Ja &#x2013; han sang og hans frue akkompagnerte ... og s&#x00E5; sang de duetterne sammen og <hi rend="italic">jeg</hi> akkompagnerte....</p>
+</sp>
+<sp>
+<speaker>FRU SKYTTE.</speaker>
+<p>De sang jo operetter ogs&#x00E5;? og optr&#x00E5;dte virkelig senere? og d&#x00E9;t gad folk se p&#x00E5;...</p>
+</sp>
+<sp>
+<speaker>FRK. WITT.</speaker>
+<p>Ja, fruen ved, det var virkelige knnstnere....</p>
+</sp>
+<sp>
+<speaker><pb n="84"/>FRU SKYTTE.</speaker>
+<p>Ja, vist ... det g&#x00E5;r jo i &#x00E9;t nu til dags. Kunstnere &#x2013; skuespillere og gj&#x00F8;glere og sangerinder og de, som optr&#x00E6;r paa Tivoli. Og de, som ser p&#x00E5; ogs&#x00E5;. <stage>(Efter en pause)</stage> H&#x00F8;r &#x2013; la De m&#x00E6;rke til, om min s&#x00F8;n gik ud ig&#x00E5;r aftes &#x2013; efter at gj&#x00E6;sterne var g&#x00E5;t?</p>
+</sp>
+<sp>
+<speaker>FRK. WITT.</speaker>
+<p>Nei, jeg tror ikke...</p>
+</sp>
+<sp>
+<speaker>FRU SKYTTE.</speaker>
+<p>Synes De, at der er noget s&#x00E5;dant &#x2013; underlig ved ham nu om dagen?</p>
+</sp>
+<sp>
+<speaker>FRK. WITT.</speaker>
+<p>Nei &#x2013; ikke mere end ellers. Men hr. Valentin er jo s&#x00E5; melankolsk...</p>
+</sp>
+<sp>
+<speaker>FRU<note type="footnote">FRU] <hi rend="italic">rettet fra:</hi> ERU <hi rend="italic">(trykkfeil)</hi></note> SKYTTE.</speaker>
+<p>For hvis De har lagt m&#x00E6;rke til noget, m&#x00E5; De sige mig det, ved De. Jeg ved jo ingenting... han g&#x00E5;r sine egne veie.</p>
+</sp>
+<sp>
+<speaker>FRK. WITT.</speaker>
+<p>Fruen skulde ikke v&#x00E6;re s&#x00E5; r&#x00E6;d for at tale med ham om hans sager.</p>
+</sp>
+<sp>
+<speaker>FRU SKYTTE.</speaker>
+<p>Eller han skulde ikke v&#x00E6;re s&#x00E5; r&#x00E6;d for at tale med mig. Det er h&#x00E5;rdt for en mor at b&#x00E6;re... og at s&#x00E5; dette er den sidste dag...</p>
+</sp>
+<sp>
+<speaker>FRK. WITT.</speaker>
+<p>Der er han ... nei, det er ikke ham.</p>
+</sp>
+<sp>
+<speaker><pb n="85"/>EN PIGE</speaker>
+<stage>(fra baggrunden.)</stage>
+<p>Der kom to breve til ingeni&#x00F8;ren; &#x2013; undskyld, jeg trode, han var herinde &#x2013; &#x2013;</p>
+</sp>
+<sp>
+<speaker>FRU SKYTTE.</speaker>
+<p>De kan l&#x00E6;gge dem der &#x2013; p&#x00E5; konsolen.</p>
+</sp>
+<sp>
+<speaker>PIGEN.</speaker>
+<p>Og s&#x00E5; er der en dame ude, som sp&#x00F8;r, om hun kan f&#x00E5; tale med fruen.</p>
+</sp>
+<sp>
+<speaker>FRU SKYTTE.</speaker>
+<p>En dame ... sa hun ikke sit navn?</p>
+</sp>
+<sp>
+<speaker>PIGEN.</speaker>
+<p>Nei, hun gjorde ikke det.</p>
+</sp>
+<sp>
+<speaker>FRU SKYTTE.</speaker>
+<p>En dame, s&#x00E5; tidlig <stage>(ser p&#x00E5; sit ur)</stage> snart 11. Hvad slags dame er det?</p>
+</sp>
+<sp>
+<speaker>PIGEN.</speaker>
+<p>Det er en ung, pen dame.</p>
+</sp>
+<sp>
+<speaker>FRK. WITT.</speaker>
+<p>Det er kanske den samme, som var her iforg&#x00E5;rs, da fruen ikke tog imod ... hun, som bad fruen tegne sig for bidrag til underst&#x00F8;ttelsesforeningen for hjeml&#x00F8;se piger ... fruen husker, de sa, jeg skulde be hende komme igjen...</p>
+</sp>
+<sp>
+<speaker><pb n="86"/>FRU SKYTTE.</speaker>
+<p>Ja, vist <stage>(til pigen)</stage> la hende komme da <stage>(pigen g&#x00E5;r).</stage> Ikke for d&#x00E9;t ... man kan ikke vide, om man ikke gj&#x00F8;r mere skade end gavn ved at fremhj&#x00E6;lpe s&#x00E5;danne foreninger, som det vrimler af nu for tiden....</p>
+</sp>
+<sp>
+<speaker>EVA</speaker>
+<stage>(kommer fra baggrunden, g&#x00E5;r et par skridt).</stage>
+</sp>
+<sp>
+<speaker>FRU SKYTTE.</speaker>
+<p>V&#x00E6;r s&#x00E5; god, kom n&#x00E6;rmere &#x2013; hvem er det... hvad for noget det er jo...</p>
+</sp>
+<sp>
+<speaker>EVA</speaker>
+<stage>(sl&#x00E5;r sl&#x00F8;ret tilbage.)</stage>
+<p>Frue, De kjender mig kanske....</p>
+</sp>
+<sp>
+<speaker>FRU SKYTTE</speaker>
+<stage>(har reist sig, holder sig i stolen, rolig i det ydre.)</stage>
+<p>Frk. Witt ... vil De v&#x00E6;re s&#x00E5; god at g&#x00E5; ud et &#x00F8;ieblik ... og h&#x00F8;r: hvis ingeni&#x00F8;ren kommer hjem, s&#x00E5; ophold ham, tal med ham om t&#x00F8;iet .... om hvad De vil. La ingen komme herind.</p>
+<stage>(Frk. Witt g&#x00E5;r).</stage>
+<p>S&#x00E5; &#x2013; nu er vi alene. Og <hi rend="italic">ham</hi> f&#x00E5;r De ikke se ... hvis det er d&#x00E9;t, De vil opn&#x00E5; ved at tr&#x00E6;nge ind her. Hvor t&#x00F8;r De vove Dem hid trods mit udtrykkelige forbud? Har ikke min s&#x00F8;n for l&#x00E6;nge siden sagt Dem....</p>
+</sp>
+<sp>
+<speaker><pb n="87"/>EVA.</speaker>
+<p>Jo, frue ... og De m&#x00E5; ikke v&#x00E6;re vred... men jeg kunde ikke andet end g&#x00E5; op til Dem. For det gj&#x00E6;lder s&#x00E5; meget .... for os begge to, og for Dem, for De er jo s&#x00E5; glad i ham og vil vist n&#x00F8;dig, at han skal v&#x00E6;re ulykkelig....</p>
+</sp>
+<sp>
+<speaker>FRU SKYTTE</speaker>
+<stage>(som har sat sig igjen, l&#x00E6;ner sig tilbage.)</stage>
+<p>Nu ... jeg m&#x00E5; sige, De er ikke lidet fr&#x00E6;k. Eva Dorn, &#x2013; &#x2013; Deres mor op af dage! De kommer herop og taler om ulykke ... hvor v&#x00E9;d De for det f&#x00F8;rste, at han er ulykkelig? indbilder De Dem kanske, at han t&#x00E6;nker p&#x00E5; Dem? jeg formoder, De tar feil. Eller <hi rend="italic">om</hi> han er ulykkelig ... hvis skyld er det s&#x00E5;, at han er det?</p>
+</sp>
+<sp>
+<speaker>EVA.</speaker>
+<p>&#x00C5; ... fru Skytte ... hvis jeg kunde f&#x00E5; lov til....</p>
+</sp>
+<sp>
+<speaker>FRU SKYTTE.</speaker>
+<p>Hvis De kunde f&#x00E5; lov til at komme herop og beklage Dem, ja! Gj&#x00F8;re spektakel ... scener, som de jo pleier, disse &#x2013; disse &#x2013; &#x2013; ja, <hi rend="italic">den</hi> sort. Undskylde Dem, tale vidt og bredt, tigge ham om at ta Dem til n&#x00E5;de igjen! S&#x00E5; gjorde han det kanske... og s&#x00E5; havde vi ulykken g&#x00E5;ende p&#x00E5;ny. Det vilde nok ikke vare l&#x00E6;nge! nei, godt var det, at han s&#x00E5;vidt snart fik &#x00F8;ie for, hvem De egentlig var....</p>
+</sp>
+<sp>
+<speaker><pb n="88"/>EVA</speaker>
+<stage>(usikker, med t&#x00E5;rer i &#x00F8;inene.)</stage>
+<p>Har ... har Valentin talt om...</p>
+</sp>
+<sp>
+<speaker>FRU SKYTTE.</speaker>
+<p>Nei, jeg blander mig n&#x00F8;dig i den slags. Jeg vil helst v&#x00E6;re udenfor hans erotiske eventyr.</p>
+</sp>
+<sp>
+<speaker>EVA.</speaker>
+<p>Men kan jeg ikke f&#x00E5; lov til at forklare Dem .... De er i en misforst&#x00E5;else....</p>
+</sp>
+<sp>
+<speaker>FRU SKYTTE.</speaker>
+<p>De skal tie! jeg vil ikke h&#x00F8;re et ord! misforst&#x00E5;else! &#x2013; er der nogen misforst&#x00E5;else i det, at Valentin g&#x00E5;r hen mod min vilje og vier sig borgerlig til Dem og lever med Dem i tre m&#x00E5;neder, som en anden &#x00AB;l&#x00F8;s forbindelse&#x00BB;, uden kirkens velsignelse engang &#x2013; &#x2013; at han s&#x00E5;, n&#x00E5;r de tre m&#x00E5;neder er omme, hovedkuls reiser fra det altsammen, flygter hjem til mig ... til sit gamle hjem, eller ud i verden, s&#x00E5; langt bort som mulig ... n&#x00E5;r han ikke er <hi rend="italic">her?</hi> Hvorfor gj&#x00F8;r han det? &#x2013; mon for sin egen forn&#x00F8;ielses Skyld &#x2013;? Nei, De f&#x00E5;r undskylde mig, om jeg da f&#x00E5;r den tanke, at han er skuffet, bedraget, har gjort bitre, dyrekj&#x00F8;bte erfaringer... dem han kunde undg&#x00E5;t, om han havde fulgt <hi rend="italic">mine</hi> r&#x00E5;d! &#x2013; Og s&#x00E5; kommer De, som er skyld i alt dette &#x2013; hvis man da i det hele vil till&#x00E6;gge Dem nogen betydning &#x2013; &#x2013; De, som jeg har v&#x00E6;rget mig for, som jeg ikke vilde se &#x2013; &#x2013; De kommer her og vil kaste mig bl&#x00E5;r i &#x00F8;inene &#x2013; kanske pr&#x00F8;ve p&#x00E5; at vaske Dem s&#x00E5; ren som en hvid due &#x2013; &#x2013;</p>
+</sp>
+<sp>
+<speaker><pb n="89"/>EVA.</speaker>
+<p>Nei frue, det var ikke derfor ... det var, fordi jeg h&#x00F8;rte, at han skulde reise idag ... langt bort..</p>
+</sp>
+<sp>
+<speaker>FRU SKYTTE.</speaker>
+<p>S&#x00E5; <hi rend="italic">det</hi> ved De ogs&#x00E5;! De har Deres spioner ude! &#x2013; Er det da ikke mulig at f&#x00E5; v&#x00E6;re i fred...</p>
+</sp>
+<sp>
+<speaker>EVA.</speaker>
+<p>Frue ... De skal f&#x00E5; v&#x00E6;re det ... jeg skal ikke pr&#x00F8;ve at f&#x00E5; tale med ham, n&#x00E5;r De ikke vil det. Men om De vilde l&#x00E6;re mig at kjende... lidt n&#x00E6;rmere, om vi kunde tale sammen .... om jeg kunde f&#x00E5; lov til at komme til Dem imellem og pr&#x00F8;ve at v&#x00E6;re Dem til lidt gl&#x00E6;de, hj&#x00E6;lpe Dem... om De f&#x00F8;lte Dem alene....</p>
+</sp>
+<sp>
+<speaker>FRU SKYTTE.</speaker>
+<p>Hvad ved <hi rend="italic">De</hi> om det? <stage>(h&#x00E5;rdt)</stage> Nei, De f&#x00E5;r ikke v&#x00E6;re her. De skal g&#x00E5; nu, straks, jeg vil det. Bi lidt &#x2013; <stage>(t&#x00E6;nker sig om)</stage> hvor g&#x00E5;r De hen ... nu g&#x00E5;r De naturligvis herfra ... og skriver en billet til ham ... eller pr&#x00F8;ver p&#x00E5; at f&#x00E5; ham i tale f&#x00F8;r han reiser. D&#x00E9;t gj&#x00F8;r De naturligvis! Selv om De lover noget andet, stoler jeg ikke p&#x00E5; det ... la mig se ... <stage>(efter en pause)</stage> jo det er det eneste &#x2013; <stage>(hun betragter Eva stivt)</stage> De bad om at f&#x00E5; v&#x00E6;re her ... De <hi rend="italic">skal</hi> f&#x00E5; v&#x00E6;re her. Ialfald s&#x00E5; l&#x00E6;nge som til imorgen &#x2013; &#x2013;. De vilde hjelpe mig, sa De, tjene mig &#x2013;?</p>
+</sp>
+<sp>
+<speaker>EVA</speaker>
+<stage>(ser p&#x00E5; hende, b&#x00F8;ier hodet).</stage>
+</sp>
+<sp>
+<speaker><pb n="90"/>FRU SKYTTE.</speaker>
+<p>Vel &#x2013; det er alts&#x00E5; en aftale. De har kanske evne til lydighed. G&#x00E5; bort og ring paa apparatet der borte. <stage>(Hun peger p&#x00E5; v&#x00E6;ggen, Eva gj&#x00F8;r det; frk. Witt kommer).</stage> Er noget af gj&#x00E6;stev&#x00E6;relserne istand ovenp&#x00E5;?</p>
+</sp>
+<sp>
+<speaker>FRK. WITT.</speaker>
+<p>Ja, &#x2013; begge de &#x00F8;stre v&#x00E6;relser p&#x00E5; &#x00F8;verste gang har der v&#x00E6;ret lagt i &#x2013; som fruen gav ordre til iforg&#x00E5;rs, da det var s&#x00E5; koldt.</p>
+</sp>
+<sp>
+<speaker>FRU SKYTTE</speaker>
+<stage>(til Eva.)</stage>
+<p>De vil deroppe finde alt, hvad De beh&#x00F8;ver &#x2013; &#x2013; og b&#x00F8;ger og tidsfordriv. Men De undskylder, at jeg m&#x00E5; l&#x00E5;se Dem inde en stund. Frk. Witt &#x2013; De er s&#x00E5; god at f&#x00F8;lge denne dame ovenp&#x00E5; &#x2013; &#x2013; g&#x00E5; bagveien &#x2013; &#x2013; l&#x00E5;s igjen, n&#x00E5;r hun er kommen ind og bring mig n&#x00F8;glen. Pas p&#x00E5;, at passagen er fri &#x2013; &#x2013; at De ikke m&#x00F8;der nogen!</p>
+</sp>
+<sp>
+<speaker>EVA.</speaker>
+<p>Frue, jeg skal g&#x00E5; ... men jeg ber Dem... jeg tror, stoler p&#x00E5;, at De vil gj&#x00F8;re det rette...</p>
+</sp>
+<sp>
+<speaker>FRU SKYTTE</speaker>
+<stage>(vinker dem med h&#x00E5;nden fra sig, frk. Witt og Eva g&#x00E5;r).</stage>
+</sp>
+<sp>
+<speaker>FRU SKYTTE</speaker>
+<stage>(reiser sig, g&#x00E5;r, st&#x00E5;r, hun er i sindsbev&#x00E6;gelse, som hun soger at d&#x00E6;mpe. S&#x00E6;tter sig om lidt, st&#x00F8;tter hodet i h&#x00E5;nden, i tanker).</stage>
+</sp>
+<sp>
+<speaker>FRK. WITT</speaker>
+<stage>(om lidt, tilbage).</stage>
+</sp>
+<sp>
+<speaker><pb n="91"/>FRU SKYTTE.</speaker>
+<p>Nu &#x2013; &#x2013; er det bestilt?</p>
+</sp>
+<sp>
+<speaker>FRK. WITT.</speaker>
+<p>Jo, frue ... v&#x00E6;r s&#x00E5; god. <stage>(Leverer N&#x00F8;glen, fru Skytte tar sit arbeide, frk. Witt tar sit og s&#x00E6;tter sig ogs&#x00E5;).</stage></p>
+</sp>
+<sp>
+<speaker>FRU SKYTTE</speaker>
+<stage>(om en stund.)</stage>
+<p>Synes De &#x2013; at De havde set den dame f&#x00F8;r, frk. Witt?</p>
+</sp>
+<sp>
+<speaker>FRK. WITT.</speaker>
+<p>Nei, ikke just .... men det var jo let at se, hvem <hi rend="italic">hun</hi> var.</p>
+</sp>
+<sp>
+<speaker>FRU SKYTTE.</speaker>
+<p>Ja ... hun ligner hende ... sangerinden ... op af dage....</p>
+</sp>
+<sp>
+<speaker>FRK. WITT.</speaker>
+<p>Ja, men hun ligner <hi rend="italic">ham</hi> ogs&#x00E5; ... sin far.</p>
+</sp>
+<sp>
+<speaker>FRU SKYTTE.</speaker>
+<p>Ja, <hi rend="italic">ham</hi> ogs&#x00E5; &#x2013; kanske &#x2013; &#x2013; <stage>(ser grundende hen for sig).</stage></p>
+</sp>
+<sp>
+<speaker>FRK. WITT</speaker>
+<stage>(om lidt.)</stage>
+<p>Stakkars hende, hun s&#x00E5; s&#x00E5; mild og god ud ... men hun var vist ikke glad....</p>
+</sp>
+<sp>
+<speaker>FRU SKYTTE</speaker>
+<stage>(kort.)</stage>
+<p>Det beh&#x00F8;ver De ikke ha nogen mening om frk. Witt. <stage>(De arbeider lidt i Taushed).</stage></p>
+</sp>
+<sp>
+<speaker><pb n="92"/>VALENTIN</speaker>
+<stage>(kommer fra sit v&#x00E6;relse tilh&#x00F8;ire. Han s&#x00E6;tter hatten fra sig).</stage>
+<p>Godmorgen.</p>
+</sp>
+<sp>
+<speaker>FRU SKYTTE.<note type="footnote">SKYTTE] <hi rend="italic">rettet fra:</hi> SBYTTE <hi rend="italic">(trykkfeil)</hi></note></speaker>
+<p>Godmorgen ... kommer du den vei? Kaffen &#x2013; frk. Witt.</p>
+</sp>
+<sp>
+<speaker>FRK. WITT.</speaker>
+<p>Nu skal jeg &#x2013; &#x2013;</p>
+</sp>
+<sp>
+<speaker>VALENTIN.</speaker>
+<p>Tak, jeg skal ikke ha....</p>
+</sp>
+<sp>
+<speaker>FRU SKYTTE.</speaker>
+<p>Ikke frokost?</p>
+</sp>
+<sp>
+<speaker>VALENTIN.</speaker>
+<p>Jo, De kan jo gi mig en kop &#x2013; tak &#x2013; men ikke noget andet. De kan godt ta det ud...</p>
+<stage>(han tar en avis, frk. Witt b&#x00E6;r br&#x00E6;ttet ud).</stage>
+</sp>
+<sp>
+<p>FRU SKYTTE</p>
+<stage>(idet hun g&#x00E5;r.)</stage>
+<p>Og s&#x00E5; f&#x00E5;r De se efter reisesagerne derude &#x2013; om alt er i orden. Et par uldt&#x00E6;pper b&#x00F8;r du ha med, Valentin.</p>
+</sp>
+<sp>
+<speaker>VALENTIN</speaker>
+<stage>(l&#x00E6;ser.)</stage>
+<p>Kanske det.</p>
+</sp>
+<sp>
+<speaker>FRU SKYTTE.</speaker>
+<stage>(arbeider, sukker imellem, l&#x00E6;gger nogen sager tilrette.)</stage>
+<p>&#x00C5; ja &#x2013; &#x2013; siden det nu s&#x00E5; skal v&#x00E6;re. Men rart er det nu, dette her. <stage>(Om en stund).</stage> Ikke sandt?</p>
+</sp>
+<sp>
+<speaker><pb n="93"/>VALENTIN</speaker>
+<stage>(l&#x00E6;sende.)</stage>
+<p>Hm, &#x2013; &#x2013; hvad mener du?</p>
+</sp>
+<sp>
+<speaker>FRU SKYTTE.</speaker>
+<p>Jo, at du nu vil afsted igjen. Og la mig sidde alene p&#x00E5; mine gamle dage.</p>
+</sp>
+<sp>
+<speaker>VALENTIN.</speaker>
+<p>&#x00C5; .... du er jo ikke alene, mor. Du har jo hele din egen kreds.</p>
+</sp>
+<sp>
+<speaker>FRU SKYTTE.</speaker>
+<p>Som ikke er din. Ja, det er just ulykken.</p>
+</sp>
+<sp>
+<speaker>VALENTIN.</speaker>
+<p>&#x00C5; ja &#x2013; den ulykke har nu varet i et halvt liv, s&#x00E5; vi m&#x00E5; vel v&#x00E6;re vante til den.</p>
+</sp>
+<sp>
+<speaker>FRU SKYTTE.</speaker>
+<p>En v&#x00E6;nner sig aldrig rigtig til det, som er unaturligt. Herre gud, ens eget barn, ens egen eneste s&#x00F8;n! Det er jo n&#x00E6;sten &#x2013; &#x2013; ligesom vi ikke er i familie, synes jeg.</p>
+</sp>
+<sp>
+<speaker>VALENTIN.</speaker>
+<p>&#x00C5; ja ... noget s&#x00E5;dant. <stage>(Reiser sig, g&#x00E5;r op og ned, st&#x00E5;r henne hos hende).</stage> Inat har du vist ikke sovet godt, mor.</p>
+</sp>
+<sp>
+<speaker>FRU SKYTTE.</speaker>
+<p>&#x00C5;, nei &#x2013; &#x2013; der kan komme s&#x00E5; mange slags tanker p&#x00E5; en, den sidste nat ... og mange andre tider ogs&#x00E5;. Og s&#x00E5; har vi jo havt det travlt, frk. Witt og jeg. Se her <stage>(viser ham noget)</stage> nu er det f&#x00E6;rdigt, du.</p>
+</sp>
+<sp>
+<speaker><pb n="94"/>VALENTIN</speaker>
+<stage>(ser p&#x00E5; det.)</stage>
+<p>Tak mor. Jo, det er godt. Ja &#x2013; jeg ved, du sparer dig ikke, n&#x00E5;r det gj&#x00E6;lder mine forn&#x00F8;denheder. <stage>(leverer hende tilbage, ser p&#x00E5; hende).</stage> Det var da m&#x00E6;rkelig ... hvor du skj&#x00E6;lver p&#x00E5; h&#x00E5;nden. <stage>(Smiler).</stage> Begynder du at bli gammel, mor?</p>
+</sp>
+<sp>
+<speaker>FRU SKYTTE.</speaker>
+<p>&#x00C5; ja, det ogs&#x00E5;. &#x2013; Men det er vel tankerne, som t&#x00E6;rer mest....</p>
+</sp>
+<sp>
+<speaker>VALENTIN</speaker>
+<stage>(g&#x00E5;r igjen.)</stage>
+<p>Det er jo lidet nytte i at t&#x00E6;nke p&#x00E5; sligt. Vi kan ikke skabe os om, nogen af os. Og vi vilde vel ikke heller, om vi kunde.</p>
+</sp>
+<sp>
+<speaker>FRU SKYTTE.</speaker>
+<p>Nei, vi lever hver vort liv, gj&#x00F8;r vi. Og iaften skal du reise .... og s&#x00E5; sidder jeg her igjen med det altsammen. De kommer altid s&#x00E5; st&#x00E6;rke, tankerne, n&#x00E5;r du er borte. Og n&#x00E5;r du s&#x00E5; er her... s&#x00E5; taler vi ikke sammen.</p>
+</sp>
+<sp>
+<speaker>VALENTIN.</speaker>
+<p>Hvad skulde vi egentlig ... s&#x00E5;dan ... tale om?</p>
+</sp>
+<sp>
+<speaker>FRU SKYTTE.</speaker>
+<p>Det var ogs&#x00E5; et sp&#x00F8;rgsm&#x00E5;l. Skulde ikke en s&#x00F8;n ha noget at tale med sin mor om? Kunde han f. ex. ikke tr&#x00E6;nge hj&#x00E6;lp og r&#x00E5;d &#x2013; af en, som har levet dobbelt s&#x00E5; l&#x00E6;nge som han? Ha fortrolighed? Det er d&#x00E9;t, du ikke har havt, Valentin.</p>
+</sp>
+<sp>
+<speaker><pb n="95"/>VALENTIN.</speaker>
+<p><hi rend="italic">Har</hi> jeg ikke havt det?</p>
+</sp>
+<sp>
+<speaker>FRU SKYTTE.</speaker>
+<p>Nei, ikke p&#x00E5; mange &#x00E5;r. &#x2013; Og nu ... jeg ser jo, at du g&#x00E5;r her og lider ... og du har aldrig et ord om det. Vil ikke hj&#x00E6;lpes. G&#x00E5;r dine egne veie, som du altid har gjort.</p>
+</sp>
+<sp>
+<speaker>VALENTIN.</speaker>
+<p>Tror du, <hi rend="italic">du</hi> kunde hj&#x00E6;lpe?</p>
+</sp>
+<sp>
+<speaker>FRU SKYTTE.</speaker>
+<p>&#x00C5; ja, turde vel h&#x00E6;nde ... om end ikke p&#x00E5; den m&#x00E5;de, du vil. &#x2013; End om du pr&#x00F8;vde &#x2013; &#x2013; om du for en gangs skyld fulgte den vei, jeg viste dig.</p>
+</sp>
+<sp>
+<speaker>VALENTIN.</speaker>
+<p>Den, som har gjort dig selv s&#x00E5; lykkelig?</p>
+</sp>
+<sp>
+<speaker>FRU SKYTTE.</speaker>
+<p>Mig -?</p>
+</sp>
+<sp>
+<speaker>VALENTIN.</speaker>
+<p>Ja, undskyld, mor ... lykken ligger just ikke udenp&#x00E5; dig ... hvad jeg ikke kunde la v&#x00E6;re at gj&#x00F8;re opm&#x00E6;rksom p&#x00E5;.</p>
+</sp>
+<sp>
+<speaker><pb n="96"/>FRU SKYTTE.</speaker>
+<p>Mig &#x2013; <stage>(urolig)</stage> hvem taler om mig? det er noget, du ikke kjender. Nei, men <hi rend="italic">du</hi>. Har du opn&#x00E5;d andet end at gj&#x00F8;re dig selv ulykkelig &#x2013; gr&#x00E6;nsel&#x00F8;s ulykkelig &#x2013; ad den vei, <hi rend="italic">du</hi> har g&#x00E5;t?</p>
+</sp>
+<sp>
+<speaker>VALENTIN.</speaker>
+<p>&#x00C5; ..... sig ingenting ... du har ikke greie p&#x00E5; det hele.</p>
+</sp>
+<sp>
+<speaker>FRU SKYTTE.</speaker>
+<p>Nei &#x2013; men p&#x00E5; hovedsagen: at det ikke har bragt dig lykke. Fik jeg s&#x00E5; ikke ret tilslut?</p>
+</sp>
+<sp>
+<speaker>VALENTIN</speaker>
+<stage>(med tilbagetr&#x00E6;ngt dybere f&#x00F8;lelse.)</stage>
+<p>Ret ... jo, tal om din ret, mor ... nu, som du gjorde det f&#x00F8;r. Du kan jo triumfere ... mine onde gjerninger drager sin skygge. Nu ligger jeg dernede, &#x2013; som jeg har redet, i &#x00AB;stygheden&#x00BB;, som du kaldte det, som du aldrig vilde h&#x00F8;re tale om, som du r&#x00E5;bte over og forf&#x00E6;rdedes over s&#x00E5; l&#x00E6;nge, indtil du skr&#x00E6;mte mig fra dig! &#x2013; Nei, nei, &#x2013; jeg anklager dig ikke &#x2013; &#x2013; jeg ved det jo: inderst inde er skylden min egen. Men ser du, mor, havde du s&#x00F8;rget for mit sj&#x00E6;lelige vel s&#x00E5; godt som for mit legemlige .... d&#x00E9;r stod du udenfor! Helt fra jeg var barn, det uskyldigste &#x2013; n&#x00E5;r jeg kom stormende og vilde ha dig med, i deltagelse.... n&#x00E5;r jeg s&#x00E5; i dine &#x00F8;ine og vented, at de skulde gi gjenskin af mine egne, af den gl&#x00E6;de, jeg f&#x00F8;lte... s&#x00E5; langt fra over nogen livets &#x00AB;styghed&#x00BB;, &#x00E5; nei... <pb n="97"/>s&#x00E5; viste du mig koldt af &#x2013; i korrekthed! Det og det gik ikke an &#x2013; den og den m&#x00E5;tte jeg ikke v&#x00E6;re sammen med! netop de kj&#x00E6;kkeste, &#x00E6;rligste gutter! Jeg skulde g&#x00E5; i dine saloner, p&#x00E5; hosesokker, v&#x00E6;re kavaller .... gj&#x00F8;re honn&#x00F8;r for dine stive, snobbede damer! Kunde d&#x00E9;t bli fortrolighed? &#x00E5; nei ... s&#x00E5; gik vi hver vor vei .... og siden....</p>
+</sp>
+<sp>
+<speaker>FRU SKYTTE.</speaker>
+<p>Ja &#x2013; det kan v&#x00E6;re s&#x00E5; &#x2013; &#x2013; der kan v&#x00E6;re beg&#x00E5;t feil; men jeg mente det godt &#x2013; &#x2013; jeg s&#x00E5;, du havde varmt blod, Valentin &#x2013; <hi rend="italic">hvem</hi> du nu har arvet det efter &#x2013; &#x2013;.</p>
+</sp>
+<sp>
+<speaker>VALENTIN.</speaker>
+<p>Ja &#x2013; det m&#x00E5; vel ha v&#x00E6;ret efter far &#x2013; &#x2013; for efter <hi rend="italic">dig</hi> kan det vel ikke v&#x00E6;re &#x2013; &#x2013;.</p>
+</sp>
+<sp>
+<speaker>FRU SKYTTE.</speaker>
+<stage>(med et eget udtryk.)</stage>
+<p>Nei &#x2013; sandsynligvis ikke.</p>
+</sp>
+<sp>
+<speaker>VALENTIN.</speaker>
+<p>Og n&#x00E5;r du s&#x00E5; endda havde kunnet byde nogen sand gl&#x00E6;de istedetfor den, du tog fra mig.</p>
+</sp>
+<sp>
+<speaker>FRU SKYTTE.</speaker>
+<p>Den var ialfald sandere end den, du siden tog dig selv. Gi mig en del af skylden .... indr&#x00F8;m bare, at der, hvor <hi rend="italic">du</hi> s&#x00F8;gte lykken &#x2013; d&#x00E9;r fandt du den ikke! <stage>(st&#x00E6;rkt).</stage> &#x00C5;, tro mig &#x2013; jeg havde ret alligevel, jeg havde og jeg har det....</p>
+</sp>
+<sp>
+<speaker><pb n="98"/>VALENTIN</speaker>
+<stage>(ler, tr&#x00E6;kker p&#x00E5; skulderen.)</stage>
+<p>&#x00C5; ... ret, jeg tror ... jeg har en f&#x00F8;lelse af, at du heller vil ha selve ulykken g&#x00E5;ende d&#x00F8;rimellem hos dig, end at <hi rend="italic">du</hi> ikke skulde ha ret! &#x2013; Hvor du er underlig, mor! <stage>(st&#x00E5;r og ser p&#x00E5; hende).</stage> Jeg har t&#x00E6;nkt p&#x00E5; det s&#x00E5; ofte &#x2013; &#x2013; du er ikke lig andre kvinder; &#x2013; de kan vel s&#x00E6;tte magten h&#x00F8;it, men andre ting tusen gange h&#x00F8;iere .... kj&#x00E6;rligheden f. ex. Men dig var det ligegyldig, tror jeg, om nogen i verden holdt af dig ... ja, far selv, mens han leved ... n&#x00E5;r du bare behersked dem!</p>
+</sp>
+<sp>
+<speaker>FRU SKYTTE.</speaker>
+<p>S&#x00E5;, tror du? <stage>(Hun st&#x00F8;tter hodet i h&#x00E5;nden; efter en pause)</stage> Nei, &#x2013; det har alligevel ikke altid v&#x00E6;ret s&#x00E5;, som du siger. Engang ... <stage>(hun tier og falder i tanker).</stage></p>
+</sp>
+<sp>
+<speaker>VALENTIN.</speaker>
+<p>Hvad feiler dig? Blev du vred, mor?</p>
+</sp>
+<sp>
+<speaker>FRU SKYTTE.</speaker>
+<p>Nei, men du gj&#x00F8;r mig s&#x00E5; underlig uret. Magt, siger du? &#x2013; Ja &#x2013; n&#x00E5;r alle andre veie er st&#x00E6;ngte &#x2013; lukket for p&#x00E5; alle kanter! Jeg havde ogs&#x00E5; engang andre evner, du ... blandt andet ogs&#x00E5; den, som kvinderne s&#x00E6;tter h&#x00F8;iest ... eller hvorledes du kaldte det ... men just i denne evne led jeg mit st&#x00F8;rste nederlag &#x2013; &#x2013; og siden er den vel d&#x00F8;d i mig. <stage>(igjen som opv&#x00E5;gnende, lidenskabelig)</stage> Og <hi rend="italic">vel</hi> er det kanske! &#x2013; En skal holde sig borte fra det, som frister! &#x2013; <pb n="99"/>&#x00E5;, tro mig, jeg kjender arten; &#x2013; dette uregelm&#x00E6;ssige, boh&#x00EA;magtige, som du altid har havt en ulyksalig svaghed for ... tvilsomme, uvederheftige mennesker ... som nu hun, denne sidste! &#x00E5;, jeg vidste det jo p&#x00E5; forh&#x00E5;nd! Hun har naturligvis gjort dig over alle gr&#x00E6;nser ulykkelig! jeg har set det, hvorledes du har g&#x00E5;t her &#x2013; &#x2013; fort&#x00E6;l mig engang om det &#x2013; &#x2013; hun bedrog dig naturligvis &#x2013; &#x2013;</p>
+</sp>
+<sp>
+<speaker>VALENTIN.</speaker>
+<p>Nei, mor ... jeg &#x00AB;bedrog&#x00BB; <hi rend="italic">hende</hi> ... for det f&#x00F8;rste...</p>
+<stage>(PRU SKYTTE.)</stage>
+<p>Du? Hvorledes?</p>
+</sp>
+<sp>
+<speaker>VALENTIN.</speaker>
+<p>Jeg havde jo havt en anden, ved du ... ja ... s&#x00E5;dan en....</p>
+</sp>
+<sp>
+<speaker>FRU SKYTTE.</speaker>
+<p>&#x00C5; ... ti stille. Jeg vil ikke h&#x00F8;re om det. &#x00C5;, alt det, du har v&#x00E6;ret oppe i, Valentin.</p>
+</sp>
+<sp>
+<speaker>VALENTIN.</speaker>
+<p>Ja, det skurrer vel i fine &#x00F8;ren ... det <hi rend="italic">er</hi> ogsaa ganske simpelt ... jeg havde elsket den anden ogsaa ... vi havde s&#x00E5;gar et barn, mor...</p>
+</sp>
+<sp>
+<speaker>FRU<note type="footnote">FRU] <hi rend="italic">rettet fra:</hi> PRU <hi rend="italic">(trykkfeil)</hi></note> SKYTTE.</speaker>
+<stage>(med en tr&#x00E6;kning og en bev&#x00E6;gelse, som hun vil holde for &#x00F8;rene).</stage>
+<p>Og d&#x00E9;t fik hun vide...</p>
+</sp>
+<sp>
+<speaker><pb n="100"/>VALENTIN.</speaker>
+<p>Ja, hun lyste p&#x00E5; mig &#x2013; &#x2013; s&#x00E5; i mine papirer &#x2013; <stage>(halv hen for sig)</stage> &#x00E5;, Psyche, Psyche!</p>
+</sp>
+<sp>
+<speaker>FRU SKYTTE.</speaker>
+<p>Nysgjerrig naturligvis ... istedetfor at holde sig borte fra alt dette stygge! D&#x00E9;t er arten! Og s&#x00E5; ... kan hun ikke tilgi, hun heller!</p>
+</sp>
+<sp>
+<speaker>VALENTIN.</speaker>
+<p>Hun heller &#x2013; hvad mener du? Jeg <hi rend="italic">ved</hi> ikke ... jeg g&#x00E5;r og venter &#x2013; og grubler mig syg... for der er mere endnu ... <stage>(han st&#x00E5;r henne i forgrunden, tar sig til hodet)</stage> &#x00E5; &#x2013; &#x2013; <hi rend="italic">var</hi> hun &#x00E6;rlig, s&#x00E5; fortalte hun mig det selv!</p>
+</sp>
+<sp>
+<speaker>FRU SKYTTE.</speaker>
+<stage>(har imens reist sig, g&#x00E5;r op og ned, i uro).</stage>
+</sp>
+<sp>
+<speaker>VALENTIN</speaker>
+<stage>(ser efter hende.)</stage>
+<p>Hvad er det med dig, mor? hvad er det, du t&#x00E6;nker p&#x00E5;? &#x2013; Underligt ... nu er du slig igjen, som altid, n&#x00E5;r vi taler om ... <hi rend="italic">hende</hi>. Kjender du da noget til &#x2013; hende, hendes sl&#x00E6;gt &#x2013; &#x2013; du antyded noget sligt engang &#x2013;?</p>
+</sp>
+<sp>
+<speaker>FRU SKYTTE.</speaker>
+<p>&#x00C5; ja &#x2013; &#x2013; jeg kan ikke la v&#x00E6;re at t&#x00E6;nke p&#x00E5; &#x2013; gjengj&#x00E6;ldelsen &#x2013; f&#x00E6;drenes synder, som hjems&#x00F8;ges p&#x00E5; b&#x00F8;rnene.... Det er vel Vorherre selv, som i sin retf&#x00E6;rdighed viselig indretter det s&#x00E5; &#x2013; &#x2013;</p>
+</sp>
+<sp>
+<speaker><pb n="101"/>VALENTIN.</speaker>
+<p>Kalder du d&#x00E9;t retf&#x00E6;rdighed? &#x2013; det er vel i det h&#x00F8;ieste naturlove &#x2013; &#x2013; og i dette tilf&#x00E6;lde kanske ikke engang &#x2013; &#x2013;</p>
+</sp>
+<sp>
+<speaker>FRU SKYTTE</speaker>
+<stage>(har sat sig ned igjen.)</stage>
+<p>Nu ja, det v&#x00E6;re, hvad det vil ... jeg har lyst til at fort&#x00E6;lle dig ... denne historie, den samme som mange andres .... s&#x00E5; betydningsfuld for en selv, s&#x00E5; ligegyldig, intetsigende for den &#x00F8;vrige verden. S&#x00E5; ydmygende ... ja, men alligevel &#x2013;. Jeg sa dig f&#x00F8;r, at jeg engang har v&#x00E6;ret en anden end den, jeg nu er &#x2013;, nuvel &#x2013; jeg har ogs&#x00E5; engang v&#x00E6;ret bundet i et forhold &#x2013; ja <hi rend="italic">forlovet</hi>, forst&#x00E5;r du, med et menneske, som jeg hang ved med hele min sj&#x00E6;l; &#x2013; det var f&#x00F8;r jeg kjendte din far! Han var &#x2013; ja, hvorledes skal jeg beskrive ham &#x2013; han var halv barn, halv mand, et stemningsmenneske, et slags digter, ikke p&#x00E5; papiret, men i livet, i &#x00F8;ieblikket. Ved hans personlighed var noget betagende, som rev alle med, n&#x00E5;r han vilde &#x2013; og &#x00F8;inene talte &#x2013; han var af dem, man aldrig glemmer, n&#x00E5;r man engang har kjendt ham! Lille frk. Witt derinde, hun kjendte ham ogs&#x00E5; &#x2013; meget senere &#x2013; jeg kan ikke la v&#x00E6;re at sp&#x00F8;rge hende imellem &#x2013; <stage>(tankefuld)</stage> ja, hvad der er for en magt i disse minder!</p>
+</sp>
+<sp>
+<speaker>VALENTIN</speaker>
+<stage>(nikker, ser p&#x00E5; hende.)</stage>
+<p>Ja, mor &#x2013; d&#x00E8;t forst&#x00E5;r jeg s&#x00E5; vel &#x2013; &#x2013;</p>
+</sp>
+<sp>
+<speaker><pb n="102"/>FRU SKYTTE</speaker>
+<stage>(lidt efter lidt roligere.)</stage>
+<p>Hvorfor jeg holdt af den mand &#x2013; s&#x00E5; gr&#x00E6;nsel&#x00F8;st &#x2013; det var vel af den grund ogs&#x00E5;, at jeg f&#x00F8;lte, jeg var st&#x00E6;rkere end han, at han tr&#x00E6;ngte mig... min natur er nu engang s&#x00E5;. Han var bl&#x00F8;d af karakter, ja svag, han havde ideer nok, men kunde ikke virkeliggj&#x00F8;re dem, handle &#x2013; &#x2013; derfor h&#x00F8;rte vi to sammen. <hi rend="italic">Jeg</hi> skulde frelst ham ... gjort en mand af ham ... f&#x00F8;rt ham ind i adel og finhed! &#x2013; Men det blev jo anderledes! <stage>(Liden pause).</stage> Betydelig musikalsk var han, d&#x00E9;t blev skj&#x00E6;bnesvangert for os begge. Der kom en damekvartet &#x2013; s&#x00E5;dan en omreisende &#x2013; til byen, som alle skulde h&#x00F8;re. Alt den f&#x00F8;rste aften m&#x00E6;rked jeg, at en af disse damer f&#x00E6;ngsled ham forunderlig ... han havde ikke &#x00F8;inene fra hende, og hans sj&#x00E6;l var med i hver tone, n&#x00E5;r hun sang. Hun var svensk &#x2013; nei &#x2013; finl&#x00E6;nderinde; &#x2013; havde et par &#x00F8;ine, som kunde hun fisket dem op fra bunden af en af de &#x00AB;tusen sj&#x00F8;er&#x00BB; derinde &#x2013; &#x2013; ja, du kjender dem jo! <hi rend="italic">Jeg</hi> l&#x00E6;rte b&#x00E5;de at frygte og &#x2013; hade dem! &#x2013; Fra den stund var han ligesom bergtagen; &#x00F8;inene drog ham &#x2013; tonerne bar ham bort fra mig; ... jeg f&#x00F8;lte, det var ikke h&#x00E5;b mere! &#x2013; Han studerte jus dengang, men nu opgav han det, vendte tilbage til musiken, som han havde dyrket fra gut af &#x2013; og fulgte hende. Deres senere liv kjender jeg lidet til, de slog sig igjennem ved koncerter og informationer i forskjellige byer... vist kummerlig mangen gang. Nu er de d&#x00F8;de begge! &#x2013;</p>
+</sp>
+<sp>
+<speaker><pb n="103"/>VALENTIN</speaker>
+<stage>(ser p&#x00E5; hende.)</stage>
+<p>Og hvad s&#x00E5;? &#x2013; er der mere &#x2013;?</p>
+</sp>
+<sp>
+<speaker>FRU SKYTTE.</speaker>
+<p>Ja &#x2013; du v&#x00E9;d det &#x2013; &#x2013; de havde en datter ... jeg havde jo set hende her i byen, dengang du &#x2013;. Hun er sin mor n&#x00E6;sten som hun gik og stod, har hendes farlige skj&#x00F8;nhed, hendes magnetiske &#x00F8;ine &#x2013;. Jeg t&#x00E5;lte ikke at se hende, nu ved du hvorfor &#x2013; &#x2013; &#x00E5;, Valentin! s&#x00E5; du, hun <hi rend="italic">var</hi> ikke at stole p&#x00E5;! Med <hi rend="italic">min</hi> vilje skal du ikke m&#x00F8;de hende igjen ... <stage>(heftig, urolig)</stage> nei, nei! heller vilde jeg se dig reise verden rundt...</p>
+</sp>
+<sp>
+<speaker>VALENTIN</speaker>
+<stage>(efter en pause, som opv&#x00E5;gnende.)</stage>
+<p>Ja &#x2013; reise, du har ret &#x2013; &#x2013; <stage>(ser p&#x00E5; uret)</stage> Jeg <hi rend="italic">skal</hi> jo reise, i denne dag! s&#x00E5; sidder vi ikke her! <stage>(han g&#x00E5;r hen til hende)</stage> Stakkars mor ... ja, du har havt dit! vi har alle vort....</p>
+</sp>
+<sp>
+<speaker>FRU SKYTTE.</speaker>
+<p>&#x00C5;, jeg har t&#x00E6;nkt p&#x00E5; det, Valentin ... <hi rend="italic">er</hi> det da n&#x00F8;dvendig at reise s&#x00E5; langt. H&#x00F8;r, vi kunde jo reise begge &#x2013; til en anden by?</p>
+</sp>
+<sp>
+<speaker>VALENTIN</speaker>
+<stage>(ryster p&#x00E5; hodet.)</stage>
+<p>G&#x00E5;r ikke, mor. I en liden by var der ikke engang <hi rend="italic">arbeide</hi> for mig. Nei, jeg f&#x00E5;r langt ud nu &#x2013; langt bort! kanske til steder, hvor fortidens... verdenshistoriens minder kunde b&#x00E6;re en h&#x00F8;it, h&#x00F8;it <pb n="104"/>&#x2013; &#x2013; over tankerne p&#x00E5; ens lille personlige, elendige menneskeskj&#x00E6;bne? &#x2013; &#x00C5;, nej ... h&#x00E5;b ikke p&#x00E5; det ... det er ord, ord! Ens egen skj&#x00E6;bne er aldrig liden, ubetydelig for en selv! Vi b&#x00E6;rer jo hver en verden ... og en verdens lidelse i os!</p>
+</sp>
+<sp>
+<speaker>FRU SKYTTE</speaker>
+<stage>(taus, st&#x00F8;tter hodet i h&#x00E5;nden).</stage>
+</sp>
+<sp>
+<speaker>VALENTIN.</speaker>
+<p>Ja, mor, v&#x00E6;r ikke bedr&#x00F8;vet ... jeg kan ikke gj&#x00F8;re andet. Farvel &#x2013; jeg skal lidt ud. G&#x00E5;r med dampb&#x00E5;den iaften. <stage>(Han g&#x00E5;r; hans mor sidder grublende i samme stilling).</stage></p>
+</sp>
+<figure rend="asterisk"/>
+<stage>Samme v&#x00E6;relse. Henimod aften. Et par kufferter og en vads&#x00E6;k st&#x00E5;r f&#x00E6;rdig pakket p&#x00E5; gulvet. Flere reisesager ligger udover.</stage>
+<sp>
+<speaker>FRU SKYTTE</speaker>
+<stage>(noget rastl&#x00F8;s, travl.)</stage>
+<p>Alle sagerne ... de ligger her endnu <stage>(g&#x00E5;r til sybordet)</stage> s&#x00E5; kan de pakkes ned <hi rend="italic">her</hi> ... frk. Witt ... dette skal i h&#x00E5;ndkufferten, det f&#x00E5;r han brug for hver dag. Nu plaidremmen &#x2013; ja, lad den ligge, han sp&#x00E6;nder den selv. T&#x00E6;pperne? er de lagt Ind...</p>
+</sp>
+<sp>
+<speaker>FRK. WITT.</speaker>
+<p>De ligger over stolen der...</p>
+</sp>
+<sp>
+<speaker><pb n="105"/>FRU SKYTTE</speaker>
+<stage>(g&#x00E5;r derhen.)</stage>
+<p>Men det er jo ikke det rigtige ... han skal ha det brune plaid og bare et af de andre ... vil De v&#x00E6;re s&#x00E5; god at bytte om... <stage>(leverer hende, frk. Witt g&#x00E5;r).</stage></p>
+</sp>
+<sp>
+<speaker>FRU SKYTTE</speaker>
+<stage>(g&#x00E5;r et par skridt, holder h&#x00E6;nderne for ansigtet, g&#x00E5;r og st&#x00E5;r, som i tunge tanker).</stage>
+</sp>
+<sp>
+<speaker>VALENTIN</speaker>
+<stage>(kommer. Fru S. begynder at stelle med forskjelligt, rastl&#x00F8;s, stanser imellem. V. ordner nogen papirer p&#x00E5; skrivebordet.)</stage>
+<p>Alle disse kvitteringer, mor, dem f&#x00E5;r du ta dig af, gjemme dem. <stage>(Han s&#x00E6;tter sig og skriver, l&#x00E6;gger et par breve i konvolut, reiser sig om lidt, begynder at l&#x00E6;gge ned ting, ordne med plaidremmen, fik. Witt kommer med plaidet).</stage> Tak. <stage>(Frk. Witt g&#x00E5;r).</stage> Bedst at gj&#x00F8;re det af &#x2013; jeg har bestilt Thomsen til at komme og kj&#x00F8;re sagerne ned i forveien. S&#x00E5; &#x2013; for pokker! det er nogen fillegreier, remmen er jo alt for vid! <stage>(bruger sin pennekniv)</stage> jeg tar nu ikke alt det med, som du har opstablet der &#x2013; &#x2013; det blir altfor stor oppakning. Kan heller kj&#x00F8;be det dernede ... hvad jeg beh&#x00F8;ver. <stage>(Fru Skytte drager nogen tunge suk, han ser p&#x00E5; hende).</stage> Sukker du for d&#x00E9;t? &#x2013; du skal ikke v&#x00E6;re bekymret, mor, &#x2013; ukrudt, ved du...</p>
+</sp>
+<sp>
+<speaker>FRU SKYTTE.</speaker>
+<p>Det var ikke netop d&#x00E9;t nu ... jeg skulde heller v&#x00E6;re med, jeg f&#x00E5;r ordentlig reiselyst, du!</p>
+</sp>
+<sp>
+<speaker><pb n="106"/>VALENTIN.</speaker>
+<p>Du, mor! vil du bort herfra? det trode jeg nu egentlig ikke ... du, som har hele dit liv her, din egen kreds &#x2013; &#x2013;</p>
+</sp>
+<sp>
+<speaker>FRU SKYTTE.</speaker>
+<p>Men jeg er tr&#x00E6;t af det. Det er tomhed altsammen!</p>
+</sp>
+<sp>
+<speaker>VALENTIN.</speaker>
+<p>Er du kommen til <hi rend="italic">det</hi>?</p>
+</sp>
+<sp>
+<speaker>FRU SKYTTE.</speaker>
+<p>&#x00C5; ja ... n&#x00E5;r en begynder at bli gammel du, da tr&#x00E6;nger en til hjertelag, ikke til selskabelighed! og rigdommen, den er egentlig en forbandelse... en ved aldrig, om en er elsket for sin egen skyld! n&#x00E5;r jeg t&#x00E6;nker p&#x00E5; det, s&#x00E5; ved jeg ikke en eneste af min omgang &#x2013; jeg kan v&#x00E6;re fuldt sikker p&#x00E5;! &#x2013; Det er s&#x00E5; tomt, s&#x00E5; koldt ... og nu reiser <hi rend="italic">du</hi>... <stage>(hun g&#x00E5;r frem og tilbage, i uro)</stage> men det m&#x00E5; ske ... det <hi rend="italic">m&#x00E5;</hi> jo ske...</p>
+</sp>
+<sp>
+<speaker>VALENTIN.</speaker>
+<p>Ja, det <hi rend="italic">m&#x00E5;</hi> ske...</p>
+</sp>
+<sp>
+<speaker>FRU SKYTTE</speaker>
+<stage>(tar sig til hodet, febrilsk, travl.)</stage>
+<p>S&#x00E5; la os bli f&#x00E6;rdige ... ja, jeg tror snart ikke, der er mere ... <stage>(hun ordner i v&#x00E6;relset, kommer tilf&#x00E6;ldigvis<note type="footnote">tilf&#x00E6;ldigvis] <hi rend="italic">rettet fra:</hi> tilt&#x00E6;ldigvis <hi rend="italic">(trykkfeil)</hi></note> bort til konsolen, f&#x00E5;r et par breve i b&#x00E5;nden)</stage> nei, Se nu, hvad jeg har glemt i al denne forvirring ... her ligger jo breve til dig. <stage>(Leverer ham.)</stage></p>
+</sp>
+<sp>
+<speaker><pb n="107"/>VALENTIN.</speaker>
+<p>S&#x00E5; .... tak. <stage>(Han tar dem, ser mekanisk p&#x00E5; dem, &#x00E5;bner det ene og l&#x00E6;ser, kaster det p&#x00E5; bordet, &#x00E5;bner det andet, ser i det, halvh&#x00F8;it)</stage> Hvad er det? fra Viggo ... <stage>(begynder at l&#x00E6;se).</stage></p>
+</sp>
+<sp>
+<speaker>FRK. WITT</speaker>
+<stage>(ind.)</stage>
+<p>Nu er manden her ... skulde jeg sige ingeni&#x00F8;ren.</p>
+</sp>
+<sp>
+<speaker>VALENTIN</speaker>
+<stage>(ser p&#x00E5; hende, forstyrret)</stage>
+<p>Hvad for en mand...</p>
+</sp>
+<sp>
+<speaker>FRK. WITT.</speaker>
+<p>Vognmanden, som skal kj&#x00F8;re sagerne ned til bryggen...</p>
+</sp>
+<sp>
+<speaker>VALENTIN</speaker>
+<stage>(viser med h&#x00E5;nden)</stage>
+<p>Ja, det er pakket altsammen &#x2013; &#x2013; han kan komme herind og hente det &#x2013; &#x2013; <stage>(l&#x00E6;ser.)</stage></p>
+<stage>(En vognmand kommer, b&#x00E6;rer reisesagerne ud. Frk. Witt hj&#x00E6;lper. Mens dette st&#x00E5;r p&#x00E5;, l&#x00E6;ser).</stage>
+</sp>
+<sp>
+<speaker>VALENTIN</speaker>
+<stage>(taler imellem))</stage>
+<p>Det var ikke sandt...</p>
+</sp>
+<sp>
+<speaker>FRK. WITT.</speaker>
+<p>Skal han ta h&#x00E5;ndv&#x00E6;sken med det samme!</p>
+</sp>
+<sp>
+<speaker>VALENTIN</speaker>
+<stage>(&#x00E5;ndsfrav&#x00E6;rende.)</stage>
+<p>Hvad? &#x00E5; undskyld ... jeg m&#x00E5; ha en smule ro .... <stage>(han g&#x00E5;r tilh&#x00F8;ire ind p&#x00E5; sit v&#x00E6;relse).</stage></p>
+</sp>
+<sp>
+<speaker><pb n="108"/>FRU SKYTTE.</speaker>
+<p>Det er bedst, den g&#x00E5;r med ... <stage>(Frk. Witt g&#x00E5;r efter manden ud af d&#x00F8;ren med den, en pige kommer med det samme).</stage></p>
+</sp>
+<sp>
+<speaker>PIGEN.</speaker>
+<p>Frue, nu er her igjen en ude, som endelig vil tale med Dem ... jeg sa nok, at fruen ikke tog imod s&#x00E5; sent, men...</p>
+</sp>
+<sp>
+<speaker>FRU SKYTTE.</speaker>
+<p>En? hvad mener du? mand eller kvinde...</p>
+</sp>
+<sp>
+<speaker>PIGEN.</speaker>
+<p>Det er et fruentimmer. Hun sp&#x00F8;r efter en dame, som hun siger skal v&#x00E6;re her i huset og vil aldeles ikke h&#x00F8;re p&#x00E5; en...</p>
+</sp>
+<sp>
+<speaker>FRU SKYTTE.</speaker>
+<p>La hende komme.</p>
+</sp>
+<sp>
+<speaker>PIGEN</speaker>
+<stage>(&#x00E5;bner d&#x00F8;ren for Marit, g&#x00E5;r selv ud og lukker efter sig).</stage>
+</sp>
+<sp>
+<speaker>MARIT</speaker>
+<stage>(forpustet.)</stage>
+<p>Jeg ber fruen s&#x00E5; meget om undskyldning... men de siger derude, at mit herskab ikke er her ... og hun sa, at hun gik hid ... og nu har jeg g&#x00E5;t s&#x00E5; lang vei og m&#x00E5;tte endelig tale med hende.</p>
+</sp>
+<sp>
+<speaker>FRU SKYTTE</speaker>
+<stage>(har sat sig.)</stage>
+<p>Hvad vil De Deres frue...</p>
+</sp>
+<sp>
+<speaker><pb n="109"/>MARIT.</speaker>
+<p>Jo, jeg skal sige fruen &#x2013; hun sa, jeg m&#x00E5;tte vide, hvor hun var om der kom noget p&#x00E5;f&#x00E6;rde... og nu ... men kanske jeg er g&#x00E5;t feil alligevel...</p>
+</sp>
+<sp>
+<speaker>FRU SKYTTE.</speaker>
+<p>Nei, nei ... De er ikke det...</p>
+</sp>
+<sp>
+<speaker>MARIT.</speaker>
+<p>Ja &#x2013; kunde jeg ikke vide, at de for med l&#x00F8;gn derude &#x2013; slig er de &#x2013; men de narrer ikke <hi rend="italic">mig</hi> s&#x00E5; let. Jo, jeg skal sige ... det var imorges, da fruen var g&#x00E5;t, blev den vesle jentungee s&#x00E5; rent ude af sig, og det blev v&#x00E6;rre og v&#x00E6;rre, for hun er jo ikke vant til at v&#x00E6;re fra hende. Og hun vilde slet ikke sove, som hun nok kunde beh&#x00F8;ve, for hun har jo v&#x00E6;ret syg ogs&#x00E5; ... og r&#x00E5;ber p&#x00E5; fruen alt i et Og s&#x00E5; i eftermiddag blev det da rent galt, og alt det jeg har g&#x00E5;t og puslet og stelt for hende, s&#x00E5; er det lige galt, hun kalder p&#x00E5; fruen og vil hverken spise eller drikke, men bare ligge p&#x00E5; gulvet... og madam Tofte, som var oppe hos mig en minut, sa, at hun havde feber. Madam Tofte, hun har nu sligt godlag med barn, og hun sidder hos hende nu ... men jeg syntes, det var s&#x00E5; rent r&#x00E5;dl&#x00F8;st, og jeg t&#x00E6;nkte, at jeg turde ikke v&#x00E6;re alene med hende til natten. Og s&#x00E5; syntes jeg, at jeg m&#x00E5;tte g&#x00E5; herhen, s&#x00E5; sent det var, og pr&#x00F8;ve at f&#x00E5; fruen til at g&#x00E5; med hjem ... for bedre blir det nu ikke med den vesle, s&#x00E5; l&#x00E6;nge hun er borte.</p>
+</sp>
+<sp>
+<speaker><pb n="110"/>FRU SKYTTE</speaker>
+<stage>(som har h&#x00F8;rt forundret til, men har f&#x00E5;t tid til at fatte sig.)</stage>
+<p>Nei &#x2013; det kan vel v&#x00E6;re. Hun er jo barnets mor ... er hun ikke det?</p>
+</sp>
+<sp>
+<speaker>MARIT.</speaker>
+<p>Nei, det er da ikke hendes eget barn ... ved ikke fruen det?</p>
+</sp>
+<sp>
+<speaker>FRU SKYTTE.</speaker>
+<p>Hvis<note type="footnote">Hvis] <hi rend="italic">rettet fra:</hi> Hkis <hi rend="italic">(trykkfeil)</hi></note> barn er det da?</p>
+</sp>
+<sp>
+<speaker>MARIT.</speaker>
+<p>Ja, jeg ved rigtig ikke ... jeg har ikke turdet sp&#x00F8;rge om det, for fruen er s&#x00E5; alvorlig af sig... men jeg har nu s&#x00E5;dan t&#x00E6;nkt for mig selv, at det er fruens mands.</p>
+</sp>
+<sp>
+<speaker>FRU SKYTTE.</speaker>
+<p>Hvorfor tror De det?</p>
+</sp>
+<sp>
+<speaker>MARIT.</speaker>
+<p>Ja, jeg ved da ikke noget uden af det, jeg har h&#x00F8;rt &#x2013; &#x2013; for de skal jo v&#x00E6;re skilte og han har vel v&#x00E6;ret gift f&#x00F8;r &#x2013; &#x2013; og s&#x00E5; ligner hun da sa portr&#x00E6;tet ogs&#x00E5; &#x2013; &#x2013;.</p>
+</sp>
+<sp>
+<speaker>FRU SKYTTE.</speaker>
+<p>Hvilket portr&#x00E6;t?</p>
+</sp>
+<sp>
+<speaker>MARIT.</speaker>
+<p>Af fruens mand, som h&#x00E6;nger inde p&#x00E5; hendes v&#x00E6;relse.</p>
+</sp>
+<sp>
+<speaker><pb n="111"/>FRU SKYTTE</speaker>
+<stage>(langsomt, bet&#x00E6;nkende sig.)</stage>
+<p>Godt; &#x2013; nu kan jo <hi rend="italic">De</hi> g&#x00E5; hjem, s&#x00E5; skal jeg sige Deres frue besked ... hun skal ganske sikkert komme iaften...</p>
+</sp>
+<sp>
+<speaker>MARIT.</speaker>
+<p>Tak skal fruen ha ... n&#x00E5;r hun bare gj&#x00F8;r <hi rend="italic">det</hi> s&#x00E5; ... <stage>(hun g&#x00E5;r ud i baggrunden).</stage></p>
+</sp>
+<sp>
+<speaker>FRU SKYTTE</speaker>
+<stage>(reiser sig; hendes udtryk har noget vemodigt. Afbrudt.)</stage>
+<p>Hvad er dette ... &#x00E5; gud, for en dag, for nogen timer <stage>(g&#x00E5;r, st&#x00E5;r stille)</stage> underligt ... hvor hun ligner ham! fred ... et hjem ... jeg kunde samle dem om mig, mine egne! <stage>(g&#x00E5;r igjen).</stage> For en forskjel... <hi rend="italic">hun</hi> er jo <hi rend="italic">hans</hi> barn &#x2013; &#x2013; og jeg hader og forf&#x00F8;lger! <stage>(med beslutning).</stage> Jeg vil tale med hende! <stage>(Hun ringer, frk. Witt kommer. Hun gir hende n&#x00F8;glen, siger sagte nogle ord, frk. Witt g&#x00E5;r).</stage></p>
+</sp>
+<sp>
+<speaker>FRU SKYTTE</speaker>
+<stage>(st&#x00E5;r lidt, g&#x00E5;r derefter mod Valentins v&#x00E6;relse, men m&#x00F8;der ham i det samme. Han ser bev&#x00E6;get ud, har hastv&#x00E6;rk, vil g&#x00E5; forbi hende, mod baggrunden.)</stage>
+<p>Valentin .... nei, nei .... du m&#x00E5; ikke g&#x00E5; nu...</p>
+</sp>
+<sp>
+<speaker>VALENTIN.</speaker>
+<p>Jo, jeg m&#x00E5; afsted, &#x00F8;ieblikkelig ... <stage>(ser p&#x00E5; hende)</stage> hvad er det...</p>
+</sp>
+<sp>
+<speaker>FRU SKYTTE</speaker>
+<stage>(bestemt.)</stage>
+<p>Du g&#x00E5;r ikke nu, jeg b&#x00E9;r dig &#x2013; &#x2013; h&#x00F8;r, g&#x00E5; ind i kabinettet der, bare et &#x00F8;ieblik!</p>
+</sp>
+<sp>
+<speaker><pb n="112"/>VALENTIN.</speaker>
+<p>Derind? jeg har sandelig ikke tid ... det haster...</p>
+</sp>
+<sp>
+<speaker>FRU SKYTTE</speaker>
+<stage>(indtr&#x00E6;ngende.)</stage>
+<p>Gj&#x00F8;r hvad jeg siger dig &#x2013; &#x2013; g&#x00E5; ikke ud i entreen! g&#x00E5; derind! st&#x00E5; rolig der, indtil jeg siger dig til! st&#x00E5; ganske rolig &#x2013; h&#x00F8;r, hvad du har godt af at h&#x00F8;re &#x2013; &#x2013;</p>
+</sp>
+<sp>
+<speaker>VALENTIN.</speaker>
+<p>Men jeg forst&#x00E5;r aldeles ikke...</p>
+</sp>
+<sp>
+<speaker>FRU SKYTTE.</speaker>
+<p>Det beh&#x00F8;ver du heller ikke &#x2013; &#x2013; g&#x00E5; nu bare, hurtig &#x2013; &#x2013; <stage>(hun skyver ham ind mellem porti&#x00E9;rerne tilvenstre. I det samme &#x00E5;bnes fra baggrunden for <hi rend="bold">Eva</hi>, hun er i sort kjole, bleg).</stage></p>
+</sp>
+<sp>
+<speaker>FRU SKYTTE</speaker>
+<stage>(har sat sig, venlig og rolig.)</stage>
+<p>Kom n&#x00E6;rmere, barn.</p>
+</sp>
+<sp>
+<speaker>EVA</speaker>
+<stage>(kommer, l&#x00F8;fter hodet og ser sig om, n&#x00E6;sten hviskende.)</stage>
+<p>Han er borte &#x2013;!?</p>
+</sp>
+<sp>
+<speaker>FRU SKYTTE.</speaker>
+<p>De m&#x00E5; se at bli rolig, jeg har nogen sp&#x00F8;rsm&#x00E5;l at gj&#x00F8;re. Her har v&#x00E6;ret en og spurgt efter Dem ... der blev talt om et barn...</p>
+</sp>
+<sp>
+<speaker>EVA.</speaker>
+<p>Et barn? <stage>(forskr&#x00E6;kket).</stage> Er der noget p&#x00E5;f&#x00E6;rde... hjemme?</p>
+</sp>
+<sp>
+<speaker><pb n="113"/>FRU SKYTTE.</speaker>
+<p>V&#x00E6;r rolig ... der er et barn, som gr&#x00E6;der og l&#x00E6;nges efter Dem et sted, men det f&#x00E5;r vente... nei, det har ingen fare; sig mig nu f&#x00F8;rst: hvad er det for et barn?</p>
+</sp>
+<sp>
+<speaker>EVA.</speaker>
+<p>Det er Deres s&#x00F8;ns, frue, hans og den anden dames &#x2013; hun, som d&#x00F8;de fra det.</p>
+</sp>
+<sp>
+<speaker>FRU SKYTTE.</speaker>
+<p>Havde ikke Valentin s&#x00F8;rget for det selv?</p>
+</sp>
+<sp>
+<speaker>EVA.</speaker>
+<p>Jo, han havde, han betalte naturligvis for det; &#x2013; men han kunde jo ikke se til det, for han var jo ude og reise, &#x2013; <stage>(optaget af emnet)</stage> og den lille pigen havde det slet ikke s&#x00E5; godt, det var hos en enke oppe ved sagene ... og hun tog imod s&#x00F8;m og arbeided fra morgen til aften og havde 3 b&#x00F8;rn selv. Det var vist ikke s&#x00E5; d&#x00E5;rligt for dem ... men hun fik ikke tid til at passe b&#x00F8;rnene, de l&#x00F8;b mest ude, i al slags veir, de havde ikke nok kl&#x00E6;r heller .... og derinde var s&#x00E5; trangt og d&#x00E5;rlig luft. Jeg kunde ikke andet end synes s&#x00E5; synd p&#x00E5; dem allesammen... men Valentins lille pige, hun var den s&#x00F8;deste... &#x00E5;, de skulde set hende ... i den lille fillede kjolen og med de sm&#x00E5; bl&#x00E5;frosne h&#x00E6;nderne! Og <hi rend="italic">hans</hi> &#x00F8;ine &#x2013; op af dage!</p>
+</sp>
+<sp>
+<speaker><pb n="114"/>FRU SKYTTE.</speaker>
+<p>Og s&#x00E5; tog De hende med hjem til Dem...</p>
+</sp>
+<sp>
+<speaker>EVA.</speaker>
+<p>Ja ... og frue, De kan tro, det var ikke vanskeligt at passe hende &#x2013;! Bare moro! jeg var jo s&#x00E5; alene ... &#x00E5; .. juleaften f. ex., jeg vidste det: <hi rend="italic">han</hi> var nede i Spanien, der var det vel v&#x00E5;r alt! men vi to sad hjemme og havde juletr&#x00E6; &#x2013; og hun fik nye kl&#x00E6;r og var s&#x00E5; lykkelig &#x2013;.</p>
+</sp>
+<sp>
+<speaker>FRU SKYTTE.</speaker>
+<p>Ja, men sig mig &#x2013; var det ikke underligt ... det m&#x00E5;tte jo altid minde Dem om hans uret mod Dem?</p>
+</sp>
+<sp>
+<speaker>EVA.</speaker>
+<p>Ja, men d&#x00E9;t var jo barnet s&#x00E5; ganske, ganske uskyldig i &#x2013; og ellers s&#x00E5; &#x2013; ja, jeg ved ikke, men midt op i alt det &#x2013; ja, det, som var tungt, var jeg s&#x00E5; lykkelig ved at ha noget af <hi rend="italic">hans</hi> at stelle med. Jeg tror, det er naturligt. <stage>(Noget tankefuld, grublende).</stage> Det om uretten har jeg t&#x00E6;nkt meget over .... og det <hi rend="italic">er</hi> jo uret, allermest n&#x00E5;r man ikke taler ud til hinanden ... men jeg <hi rend="italic">kan</hi> ikke v&#x00E6;re bitter, &#x00E5;, det er vist s&#x00E5; naturligt. For jeg <hi rend="italic">var</hi> jo den sidste! <stage>(sagtere)</stage> jeg <hi rend="italic">ved</hi>, at han elsked mig!</p>
+</sp>
+<sp>
+<speaker>FRU SKYTTE.</speaker>
+<p>Ja, <stage>(uvilk&#x00E5;rlig, smertelig hen for sig)</stage> <hi rend="italic">det</hi> er tungere endnu ... ikke at v&#x00E6;re den sidste <stage>(ser p&#x00E5; hende)</stage> men d&#x00E9;t er barnet s&#x00E5; ganske, ganske uskyldig i, det har De ret i.</p>
+</sp>
+<sp>
+<speaker><pb n="115"/>EVA</speaker>
+<stage>(som har st&#x00E5;t hensunken, ser sig om, ligesom opv&#x00E5;gnende.)</stage>
+<p>&#x00C5;, men ... har han da ikke f&#x00E5;t et brev? V&#x00E9;d han ikke <stage>(i smerte)</stage> frue, De har ladet ham reise &#x2013; hvor det er h&#x00E5;rdt! &#x2013; Jeg havde jo et h&#x00E5;b under alt dette, jeg t&#x00E6;nkte: F&#x00E5;r han engang se, at jeg kunde hj&#x00E6;lpe til at forsone ham med den fortid, som pinte ham &#x2013; og som jeg rev sl&#x00F8;ret fra &#x2013; da. &#x2013; ja, da &#x2013; &#x2013;</p>
+</sp>
+<sp>
+<speaker>FRU SKYTTE.</speaker>
+<p>Vented De da, at han skulde komme tilbage til Dem?</p>
+</sp>
+<sp>
+<speaker>EVA.</speaker>
+<p>Om jeg Venter &#x2013;? <stage>(siger afbrudt, kj&#x00E6;mpende med gr&#x00E5;d)</stage> &#x00E5; &#x2013; De ved ikke, hvad De har gjort! ... om han <hi rend="italic">vidste</hi>...</p>
+<stage>(Hun gr&#x00E6;der).</stage>
+</sp>
+<sp>
+<speaker>FRU SKYTTE.</speaker>
+<p>Han <hi rend="italic">ved</hi>, &#x2013; barn.</p>
+</sp>
+<sp>
+<speaker>VALENTIN.</speaker>
+<stage>(som er kommen ind under de sidste ord.)</stage>
+<p>Mor ... v&#x00E6;r forsigtig ... <stage>(Eva lytter og vender sig hastig om med et udbrud, han modtar hende i sine arme. De st&#x00E5;r tause).</stage></p>
+</sp>
+<sp>
+<speaker>FRU SKYTTE.</speaker>
+<stage>(stille hen for sig.)</stage>
+<p>Gud ske lov!</p>
+</sp>
+<stage>Teppet falder.</stage>
+</div>
+</body>
+</text>
+</TEI>

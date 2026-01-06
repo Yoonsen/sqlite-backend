@@ -1,0 +1,3352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI PUBLIC "-// TEI P5 //EN" "http://www.tei-c.org/release/xml/tei/custom/schema/dtd/tei_all.dtd">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="BS_Anker_Kirken">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>bokselskap.no, Oslo 2022
+<lb/>Nini Roll Anker: <hi rend="italic">Kirken</hi>
+<lb/>Teksten i bokselskap.no f&#x00F8;lger 1. utgave, 1921 (Aschehoug/Kristiania). Digitaliseringen er basert p&#x00E5; fil mottatt fra Nasjonalbiblioteket (nb.no).
+<lb/>ISBN: 978-82-8319-666-5 (bokselskap.no), <lb/>978-82-8319-667-2 (epub), 978-82-8319-668-9 (mobi)
+</title>
+</titleStmt>
+<publicationStmt>
+<p rend="noIndent">Publiseres som digital tekst av bokselskap.no.</p></publicationStmt>
+<sourceDesc>
+ <bibl facs="https://urn.nb.no/URN:NBN:no-nb_digibok_2009082512002" rend="antikva">
+<title>Kirken</title>
+<author>Nini Roll Anker</author>
+<publisher>Aschehoug</publisher>
+<pubPlace>Kristiania</pubPlace>
+<date>1921</date>
+<note>digibok_2009082512002 (mottatt fra Nasjonalbiblioteket 2022)</note>
+</bibl>
+</sourceDesc>
+</fileDesc>
+<revisionDesc>
+<change who="ENW" when="2022-07-06">F&#x00F8;rt inn korrekturrettelser (SD). Lagt inn ISBN. Entiteter, kodekontroll og validering.</change>
+<change xml:id="ENW" who="ENW" when="2022-04-11">XML-koding. Entiteter, kodekontroll og validering. Klar for korrektur.</change>
+</revisionDesc>
+</teiHeader>
+<text xml:id="BS_Anker_Kirken_tekst" type="drama">
+<front>
+<titlePage type="main">
+<byline><docAuthor>Nini Roll Anker</docAuthor></byline>
+<docTitle>
+<titlePart type="main">Kirken</titlePart>
+<titlePart type="sub">Skuespil i tre akter</titlePart>
+</docTitle>
+<docDate>bokselskap.no<lb/>Oslo 2022</docDate>
+</titlePage>
+</front>
+
+<body>
+<div type="chapter" subtype="dedication">
+<head type="main">&#x005B;dedikasjon&#x005D;</head>
+<p rend="center">Til mine s&#x00F8;stre</p>
+</div>
+
+<div type="chapter" subtype="castlist">
+<head type="main">&#x005B;rolleliste&#x005D;</head>
+<castList>
+<castItem><role>Cornelia</role></castItem>
+<castItem><role>Presten</role></castItem>
+<castItem><role>Omar,</role> <role>Jon</role> og <role>Benedikt</role>, <roleDesc>deres s&#x00F8;nner</roleDesc></castItem>
+<castItem><role>Magdalena</role></castItem>
+<castItem><role>Adam</role></castItem>
+<castItem><role>Henrik</role></castItem>
+<castItem><role>Jonatan</role></castItem>
+<castItem><role>Ung soldat</role></castItem>
+<castItem><role>En liten gut</role></castItem>
+<castItem><role>Graahaaret soldat</role></castItem>
+<castItem><role>2 ryttere</role></castItem>
+<castItem><role>Soldater</role></castItem>
+<castItem><role>2 fanger</role></castItem>
+<castItem><role>Kvinder</role></castItem>
+</castList>
+</div>
+
+<div type="chapter" subtype="act">
+<head type="main">F&#x00D8;RSTE AKT</head>
+<stage><pb n="1"/>I en liten by.</stage>
+<stage>Kj&#x00F8;kkenet i prestens hus.</stage>
+<stage><hi rend="bold">Magdalena</hi>, ung pike, vasker op. <hi rend="bold">Cornelia</hi>, graahaaret kvinde, t&#x00F8;rker av fat og tallerkener. Mandsr&#x00F8;ster h&#x00F8;res stadig fra siderummet.</stage>
+<lb/><sp>
+<speaker>Magdalena</speaker>
+<p rend="noIndent">Nu tr&#x00E6;tter de vist. H&#x00F8;r paa dem!</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">S&#x00E6;t tallerknene d&#x00E9;r, Magdalena &#x2013; s&#x00E6;t dem imot hverandre, saa rinner vandet av dem.</p>
+</sp>
+<sp>
+<speaker>Magdalena</speaker>
+<p rend="noIndent">Jeg er tr&#x00E6;hendt enda, tante Cornelia. Men jeg skal nok! H&#x00F8;r hvor h&#x00F8;it Jon roper!</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">Ja &#x2013; Jon stakkar &#x2026;</p>
+</sp>
+<sp>
+<speaker>Magdalena</speaker>
+<p rend="noIndent">Altid saa roper han saa h&#x00F8;it, Jon.</p>
+</sp>
+<sp>
+<speaker><pb n="2"/>Cornelia</speaker>
+<stage>(fort&#x00E6;nkt)</stage>
+<p rend="noIndent">Det gj&#x00F8;r han for at d&#x00F8;ve den andre r&#x00F8;sten sin. Det gj&#x00F8;r de, tvilerne, naar de vil overbevise sig selv.</p>
+</sp>
+<sp>
+<speaker>Magdalena</speaker>
+<p rend="noIndent">Men han vil jo bli professor? Men hvordan kan han bli professor naar han tviler? Men han sier bestandig han vil bli professor.</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">Han kan bli professor i tvil. Det kaldes filosofi, det.</p>
+</sp>
+<sp>
+<speaker>Magdalena</speaker>
+<stage>(lytter; ler)</stage>
+<p rend="noIndent">Saan som de holder paa derinde! En gang tr&#x00E6;ttet guttene og Adam om paktens ark, husker jeg. Jon sa, j&#x00F8;dene gjemte krutt i arken, sa han. Det var med <emph>krutt</emph> Moses gjorde miraklene sine, sa han. Jeg var bare liten pike, men jeg husker det godt.</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">Kanske det. At kruttet var som en slags avgud, alt dengangen &#x2026;</p>
+</sp>
+<sp>
+<speaker>Magdalena</speaker>
+<p rend="noIndent">Det er ingen i hele byen som snakker saa meget rart som dere her i prestegaarden, tante <pb n="3"/>Cornelia. Men Benedikt er bedst. Synes du ikke Benedikt sier de rareste og nydeligste tingene?</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">Aa jo &#x2026; Men det er br&#x00F8;drene, som <emph>t&#x00E6;nker</emph>, Omar og Jon &#x2026; <stage>(i uro)</stage> Benedikt blir ikke &#x00E9;n og tyve f&#x00F8;r til vaaren.</p>
+</sp>
+<sp>
+<speaker>Magdalena</speaker>
+<p rend="noIndent">Han kan vel t&#x00E6;nke for det! Aa tror du nogen v&#x00E9;t alt det han t&#x00E6;nker! Benedikt blir &#x2026; Benedikt blir det vakreste! Ja &#x2013; jeg er viss paa Benedikt blir <stage>(hvisker noget til <hi rend="bold">Cornelia</hi>)</stage>.</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<stage>(nikker)</stage>
+<p rend="noIndent">Kanske. Om han faar leve.</p>
+</sp>
+<sp>
+<speaker>Magdalena</speaker>
+<p rend="noIndent">Han! Han blir ikke saaret! Benedikt er beskyttet, han.</p>
+</sp>
+<stage>(Et smell. Begge skv&#x00E6;tter.)</stage>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">Det var ikke skudd. Det var bare gangd&#x00F8;ren. Har du git Benedikt en talisman nu igjen?</p>
+</sp>
+<sp>
+<speaker>Magdalena</speaker>
+<stage>(sagte)</stage>
+<p rend="noIndent">Du beskytter hans aand, tante Cornelia. Guds moder v&#x00E6;rner hans legem. Ingen krig kan gj&#x00F8;re Benedikt noget.</p>
+</sp>
+<sp>
+<speaker><pb n="4"/>Cornelia</speaker>
+<p rend="noIndent">Far vilde ikke like det &#x2013; om han visste det. At en av guttene har en amulet. For katoliker er de jo ikke &#x2013; selv om de ikke tror som ham.</p>
+</sp>
+<sp>
+<speaker>Magdalena</speaker>
+<p rend="noIndent">Men det er ikke <emph>Benedikt</emph>, som kjender Guds moder, tante Cornelia! Det er jo bare mig, det! Og saa er vi trygg for ham, ser du.</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">Ja &#x2026; Ja for Benedikt og Omar er jeg trygg. Men Jon stakkar. Jon &#x2026; <stage>(i uro)</stage> Naar han skulde bestemme sig, dengang han var liten &#x2013; naar Jon skulde v&#x00E6;lge; da vilde han altid ha begge tingene. <emph>Den</emph> vil jeg ha, sa han, og <emph>den</emph> ogsaa vil jeg ha. Alt dengangen han var barn. Ingen talte saa godt paa fars store m&#x00F8;te &#x2013; for freden, for fred og retf&#x00E6;rdighet paa jorden. Du h&#x00F8;rte det selv! Klart, saa alle vilde som far og os.</p>
+</sp>
+<sp>
+<speaker>Magdalena</speaker>
+<p rend="noIndent">Ja, ja, ropte de til ham!</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">Men nu &#x2013; nu han kom hjem og hadde gjort soldatereden, nu hadde det faat trollmagt over ham igjen: fanen, regimentsmusikken og alt det. Han vilde gaa forrest med dragen kaarde, bent i d&#x00F8;den for f&#x00E6;drelandet vilde han <pb n="5"/>gaa &#x2026; Al den gamle seid gj&#x00E6;rte i ham. Br&#x00F8;drene maatte snakke med ham, l&#x00E6;nge, f&#x00F8;r han blev &#x00E6;dru igjen &#x2026; <stage>(Letter paa gardinet, ser ut av vinduet.)</stage> Men at han ikke kommer!</p>
+</sp>
+<sp>
+<speaker>Magdalena</speaker>
+<p rend="noIndent">Onkel sa, du skulde ikke v&#x00E6;re urolig for om det drog ut, sa han. Husker du ikke det?</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">Jo &#x2013;. Men igaar var det fjorten dager siden! Og kirkem&#x00F8;tet sluttet l&#x00F8;rdag, det v&#x00E9;t vi jo. Saa da skulde han vel &#x2026;</p>
+</sp>
+<sp>
+<speaker>Magdalena</speaker>
+<p rend="noIndent">Og de skal jo bare komme overens. Om at de og Gud ikke vil krig. <emph>Det</emph> kan da ikke ta saan tid. Men togene er saa fulde av soldater. Og alle er saa dumme og forfjamset. Undtagen du og jeg og vi i prestegaarden!</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">Aldrig har jeg ventet slik paa noget, Magdalena! Nei &#x2013; nei ikke siden jeg gik med Omar! &#x2026; Det &#x2013; det er liksom at vite, at enda er det under til, og &#x2013; og at nu skal det ske &#x2013; og jeg skal faa v&#x00E6;re med i det! Det &#x2013; det er som at staa f&#x00E6;rdig i kirked&#x00F8;ren, rede til at gaa ut under den blaa himlen, til m&#x00F8;tes med alle de andre, som kommer fra <emph>sit</emph> alter, <emph>sit</emph> gudshus, <pb n="6"/>naar klokkene s&#x00E6;tter i at kime! Da skal far faa se guttene sine komme da! Selv Jon, selv Jon har hv&#x00E6;lv over tankene sine nu!</p>
+</sp>
+<sp>
+<speaker>Magdalena</speaker>
+<p rend="noIndent">Tante Cornelia &#x2026; <stage>(skriker)</stage> Tante Cornelia! H&#x00F8;rer du? <stage>(Det blir pludselig tyst i siderummet.)</stage> De der inde lytter ogsaa &#x2026; Nu h&#x00F8;rer vi dem liksom igaar!</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">Kanonene kommer til at holde op, barn.</p>
+</sp>
+<sp>
+<speaker>Magdalena</speaker>
+<p rend="noIndent">Aa nu er de n&#x00E6;rmere end igaar! <emph>Men Gud vil ikke det skal bli krig!</emph> Jeg dr&#x00F8;mte inat &#x2013; mor kom hjem igjen og sa: Magdalena, sa hun, paa f&#x00F8;dselsdagen din skal krigen slutte. Men det er jo imorgen. Det er jo imorgen!</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">Bi nu &#x2013; bi nu barn til far kommer. Bi til vi faar h&#x00F8;re hvad biskopen har sagt &#x2013; og alle prestene, hele Guds kirke! Aa, guttene venter paa det, de ogsaa!</p>
+</sp>
+<sp>
+<speaker>Magdalena</speaker>
+<p rend="noIndent">Men &#x2026; De har jo uniformen paa sig alt? Omar ogsaa. De skal jo <emph>gaa</emph>.</p>
+</sp>
+<sp>
+<speaker><pb n="7"/>Cornelia</speaker>
+<stage>(heftig)</stage>
+<p rend="noIndent">Gaa! Naturligvis maa de gaa! Saa de kan faa slutt paa det! Og komme hjem igjen! Tror du Jons egne kamerater vil slaa ham ihjel, naar de faar se ham? Men det er jo der borte han har studert! Tror du Adams eget parti vil drepe ham? Men det er jo dem derborte som har skapt partiet!</p>
+</sp>
+<sp>
+<speaker>Magdalena</speaker>
+<p rend="noIndent">Benedikt sa, at Omar&#x2026; Omar vil ikke gaa i krigen, sier Benedikt. Han gj&#x00F8;r det for din skyld, sier Benedikt. For du vil ikke han skal negte.</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<stage>(i stort opr&#x00F8;r)</stage>
+<p rend="noIndent">Nei &#x2013; nei, det vil vi ikke! Det vil ikke engang hans far! Da han kom og sa det &#x2013; da han kom for andre gangen og sa han ikke vilde lystre, at han ikke vilde stille med kompaniet, da ropte jeg paa far. <emph>Han</emph> snakket til ham; han sa til ham at det vilde bli min d&#x00F8;d. <emph>Min</emph> ogsaa. Da b&#x00F8;iet Omar sig. Han kan ikke gj&#x00F8;re som han vil med livet sit! Det er mig som har git ham det!</p>
+</sp>
+<sp>
+<speaker>Magdalena</speaker>
+<stage>(nikker)</stage>
+<p rend="noIndent">Benedikt har fortalt det til mig, tante Cornelia.</p>
+</sp>
+<sp>
+<speaker><pb n="8"/>Cornelia</speaker>
+<p rend="noIndent">Naturligvis maa han <emph>gaa</emph>. Skulde han la sig skyte som en hund? Men hvis han negter blir han skutt. Stillet mot en mur og skutt. Som en gal hund. Vet du ikke det?</p>
+</sp>
+<sp>
+<speaker>Magdalena</speaker>
+<p rend="noIndent">Jo. Men. Men det er jo <emph>Omar</emph>, tante Cornelia! Og da vilde ingen i hele byen glemme ham mer. Og saa vilde kanske ikke de andre gaa heller. Til slut vilde ingen gaa! Og saa blev det ingen krig. For &#x2013; for de kan jo ikke skyte alle soldater &#x2013; i hele verden &#x2013; mot en mur? Men for Omar vilde de reise en statue paa torvet! For det var ham som begyndte at la v&#x00E6;re her i byen. Det sier Benedikt ogsaa.</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">Ti stille! Ti stille, barn! Han blev jo ikke levende igjen for det, Magdalena! Han vilde jo v&#x00E6;re <emph>d&#x00F8;d</emph>. Ti stille!</p>
+</sp>
+<sp>
+<speaker>Magdalena</speaker>
+<p rend="noIndent">Ja &#x2013; han vilde v&#x00E6;re <emph>d&#x00F8;d</emph>&#x2026; Det t&#x00E6;nkte jeg ikke paa.</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">Nei, det t&#x00E6;nkte du ikke paa! Men hvad hj&#x00E6;lper det om jeg beholder hjemmet &#x2013; og f&#x00E6;drelandet &#x2013; og bjergene &#x2013; og solnedgangen &#x2013; hvis jeg mister s&#x00F8;nnene mine? Men jeg <pb n="9"/>mister dem ikke! Ved gr&#x00E6;nsen tr&#x00E6;ffer de alle de andre &#x2013; og far, far og alle prestene f&#x00F8;lger med dem. Husk <emph>det!</emph> Som en ild vil ordet springe fra hjerte til hjerte der ute &#x2013; tusener vil r&#x00E6;kke hverandre h&#x00E6;ndene &#x2013; millioner vil rope: jeg dr&#x00E6;per ikke min bror!</p>
+</sp>
+<sp>
+<speaker>Magdalena</speaker>
+<p rend="noIndent">Og det tror <emph>du</emph>, tante Cornelia?</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">Det vet jeg! Det <emph>vet</emph> vi jo! Se paa Adam &#x2013; se paa Jonatan &#x2013; paa alle Omars venner! Henrik, selv Henrik er blit en anden her hos os! De gaar sin egen vei &#x2013; men alle veier mot det samme.</p>
+</sp>
+<sp>
+<speaker>Magdalena</speaker>
+<p rend="noIndent">Mot <emph>dit</emph> maal, tante Cornelia!</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">Mit. Og mors. Og dit, Magdalena! Alle kvinders naar de vaakner! Har vi f&#x00F8;dt dem med smerte, n&#x00E6;ret dem med legemet vort, vaaket over dem, elsket dem op, set dem bli sterke og sunde &#x2026; aa, mine velsignede! &#x2026; for at de skal bli leml&#x00E6;stet &#x2013;, bli knust, naar det er fuldgjort? La ingen si det gj&#x00E6;lder &#x00E6;ren! &#x00C6;ren ej Guds og Gud er kj&#x00E6;rlighet.</p>
+</sp>
+<sp>
+<speaker><pb n="10"/>Magdalena</speaker>
+<p rend="noIndent">Men far sier &#x2026; Far sier soldaten maa d&#x00F8; for sit land. Far sier jeg skal t&#x00E6;nke som han. Bruk din forstand, sier han.</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">Det sier alle m&#x00E6;nd til os, til kvindene. De paa den andre siden gr&#x00E6;nsen ogsaa &#x2013; alle m&#x00E6;nd i alle f&#x00E6;dreland! Det sier de for at rane vor magt! Bruk dit hjerte, Magdalena &#x2013; stol paa dit hjerte! Forstanden er liten og blind, barn &#x2013; den er &#x00E9;n idag og en anden imorgen &#x2013; m&#x00E6;gtig til en tid &#x2013; men en ny tid kommer, og se, forstanden er blit avf&#x00E6;ldig og farer vild! Men hjertet er det samme fra evighet av! Aa, vent til far kommer &#x2013;! Nu skal kirkens r&#x00F8;st rope sammen med vor &#x2013; med m&#x00F8;drene, hustruene, barnene! For f&#x00F8;rste gang! Fars lille &#x2013; katolikenes store, protestantenes &#x2013; jordens samlede kirke! For f&#x00F8;rste gang! <emph>Den</emph> malm lar sig ikke d&#x00F8;ve av kanonene, Magdalena!</p>
+</sp>
+<sp>
+<speaker>Magdalena</speaker>
+<stage>(ind til hende)</stage>
+<p rend="noIndent">Aa hvor jeg elsker dig!</p>
+</sp>
+<sp>
+<speaker>Jonatan</speaker>
+<stage>(ung mand i soldaterkl&#x00E6;r)</stage>
+<p rend="noIndent">Er Omar hjemme?</p>
+</sp>
+<sp>
+<speaker><pb n="11"/>Cornelia</speaker>
+<p rend="noIndent">Goddag, Jonatan. Ja &#x2013; de sitter der inde. De har netop spist. V&#x00E6;rsego&#x0027;, Jonatan&#x00A0;&#x2013;.</p>
+</sp>
+<sp>
+<speaker>Magdalena</speaker>
+<p rend="noIndent">Vet du noget?</p>
+</sp>
+<sp>
+<speaker>Jonatan</speaker>
+<p rend="noIndent">De sier vi har slaatt dem. Vi har tatt mer end tusen fanger, sier de. De sier soldatene derborte har skutt kongen.</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">Saa har han faatt sin dom. Av landets egne barn.</p>
+</sp>
+<sp>
+<speaker>Jonatan</speaker>
+<p rend="noIndent">De sier, vi skal marsjere imorgen.</p>
+<stage>(Gaar ind til de andre m&#x00E6;nd.)</stage>
+</sp>
+<sp>
+<speaker>Magdalena</speaker>
+<p rend="noIndent">Imorgen? Nei, det vil ikke Gud!</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">Des f&#x00F8;r de gaar des f&#x00F8;r kommer de hjem igjen, barn. Aa, hvor blir det av ham? <emph>Nu</emph> skulde han v&#x00E6;re her!</p>
+</sp>
+<sp>
+<speaker>Ung soldat</speaker>
+<stage>(fort ind)</stage>
+<p rend="noIndent">Godkveld, fru Cornelia &#x2013; morn, Magdalena! Er Benedikt inde?</p>
+</sp>
+<sp>
+<speaker><pb n="12"/>Cornelia</speaker>
+<p rend="noIndent">Benedikt er der inde. Han og br&#x00F8;drene har netop spist. V&#x00E6;rsego&#x0027; &#x2013;</p>
+</sp>
+<sp>
+<speaker>Magdalena</speaker>
+<p rend="noIndent">Er det h&#x00E6;ndt noget?</p>
+</sp>
+<sp>
+<speaker>Ung soldat</speaker>
+<p rend="noIndent">De&#x0027; sier kongen selv leder troppene. De sier de rykker frem i ilmarsj og at &#x2013; Og at vore har spr&#x00E6;ngt broen.</p>
+</sp>
+<sp>
+<speaker>Magdalena</speaker>
+<p rend="noIndent">Hva&#x0027;for en bro?</p>
+</sp>
+<sp>
+<speaker>Ung soldat</speaker>
+<p rend="noIndent">Broen over elven!</p>
+</sp>
+<sp>
+<speaker>Magdalena</speaker>
+<p rend="noIndent"><emph>Vor</emph> elv?</p>
+</sp>
+<sp>
+<speaker>Ung soldat</speaker>
+<p rend="noIndent">Men at de rykker frem like godt. Og at &#x2013; Og at vore viker.</p>
+</sp>
+<sp>
+<speaker>Magdalena</speaker>
+<p rend="noIndent">Det er ikke sandt! Vore viker aldrig! Spr&#x00E6;ngt broen som blev f&#x00E6;rdig ifjor? Og kostet saa mange penger! Er du blit dum, du?</p>
+</sp>
+<sp>
+<speaker><pb n="13"/>Cornelia</speaker>
+<p rend="noIndent">Tro ikke saant sludder. Tro ikke paa krigen, gut.</p>
+</sp>
+<sp>
+<speaker>Ung soldat</speaker>
+<p rend="noIndent">Kan jeg la v&#x00E6;re at tro paa krigen &#x2013; naar jeg <emph>h&#x00F8;rer</emph> den!</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">Tror du paa en l&#x00F8;gner for om du h&#x00F8;rer ham? Vent nu litt&#x2026; <stage>(gaar i stor uro fra vindu til vindu)</stage> Det var ingen sak f&#x00F8;r &#x2026; nu er det, det gj&#x00E6;lder &#x2026; nu er det det gj&#x00E6;lder at <emph>tro</emph>. Vent nu litt &#x2026; Snart faar vi et budskap &#x2013;</p>
+</sp>
+<sp>
+<speaker>Ung soldat</speaker>
+<p rend="noIndent">Men de sier de har kanoner som dr&#x00E6;per folk paa andre siden aasen! Og at de slipper kolerabaciller i br&#x00F8;ndene vore &#x2026; Og at de helder ned gift fra luften &#x2026; De sier, vi skal marsjere imorgen.</p>
+</sp>
+<stage>(<hi rend="bold">Magdalena</hi> brister i graat.)</stage>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">Barn, barn, bry dere ikke om alle de dumme rygtene! Kongen er d&#x00F8;d. Der blir ingen krig.</p>
+</sp>
+<sp>
+<speaker>Ung soldat</speaker>
+<p rend="noIndent">Er kongen d&#x00F8;d?</p>
+</sp>
+<sp>
+<speaker><pb n="14"/>Cornelia</speaker>
+<p rend="noIndent">Ja han er d&#x00F8;d. Gaa dit ind faar du h&#x00F8;re. Jonatan v&#x00E9;t det. Adam og Henrik er ogsaa der inde &#x2026; <stage>(aapner d&#x00F8;ren til siderummet, stort opstyr der inde)</stage>. V&#x00E6;rsego&#x0027; &#x2013; gaa ind og faa dig et glas vin.</p>
+</sp>
+<stage>(<hi rend="bold">Ung soldat</hi> gaar dit ind.)</stage>
+<sp>
+<speaker>Magdalena</speaker>
+<p rend="noIndent">Gift ned fra luften &#x2026;? Men da kan de jo dr&#x00E6;pe os allesammen. <emph>Os</emph> ogsaa! Allesammen!</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">Ja. Derfor er det sludder. Det skj&#x00F8;nner du vel. S&#x00E6;t tallerknene op i hyllen, barn.</p>
+</sp>
+<stage>(<hi rend="bold">Adam</hi>, <hi rend="bold">Henrik</hi>, <hi rend="bold">Jonatan</hi>, <hi rend="bold">ung soldat</hi>, <hi rend="bold">Jon</hi>, <hi rend="bold">Omar</hi>, <hi rend="bold">Benedikt</hi> kommer ind &#x2013; alle unge m&#x00E6;nd i soldaterkl&#x00E6;r. De b&#x00E6;rer med sig glas og vinflasker. R&#x00F8;ker cigaretter.)</stage>
+<sp>
+<speaker>Omar</speaker>
+<p rend="noIndent">Kan vi faa sitte her ute, mor? Kaminen ryker slik der inde.</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">Ja du kan skj&#x00F8;nne det, Omar &#x2013; v&#x00E6;rsego&#x0027;, gutter, v&#x00E6;rsego&#x0027; &#x2013; s&#x00E6;t dere her <stage>(t&#x00F8;rker av bordet)</stage>. Piken gik igaar &#x2013; saa vi blev alene. Frygt smitter v&#x00E6;rre end pest.</p>
+</sp>
+<sp>
+<speaker><pb n="15"/>Ung soldat</speaker>
+<stage>(roper i gjenm&#x00E6;le)</stage>
+<p rend="noIndent">Men han hadde snakket med flygtningene selv, h&#x00F8;rer du!</p>
+</sp>
+<sp>
+<speaker>Adam</speaker>
+<p rend="noIndent">R&#x00F8;mlinger lyver! Hvad skal de ellers gj&#x00F8;re? De er n&#x00F8;dt til at fort&#x00E6;lle det de ser med ryggen &#x2026; De er blit vetskr&#x00E6;mt som kaniner. Hadde de stanset op litegrand og brukt &#x00F8;inene hadde de faat se en bande, som herjer paa egen haand. En r&#x00F8;verbande! Gr&#x00E6;nseboen er ilter, han. De er r&#x00F8;ket ihop over gj&#x00E6;rdene derborte! En otte dages slaassing er vel ikke <emph>krig</emph> &#x2013; folket har ikke faat summet sig enda!</p>
+</sp>
+<sp>
+<speaker>Benedikt</speaker>
+<p rend="noIndent">Nei vent til folkene faar summet sig!</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">Vent til presten kommer hjem, gutter!</p>
+</sp>
+<stage>(Samtalen rundt bordet b&#x00F8;lger videre.)</stage>
+
+<sp>
+<speaker>Henrik</speaker>
+<p rend="noIndent"><emph>Du</emph> r&#x00F8;mmer ikke, Magdalena?</p>
+</sp>
+<sp>
+<speaker>Magdalena</speaker>
+<p rend="noIndent">Jeg? Nei &#x2013; jeg har stedd mig hos tante Cornelia, jeg.</p>
+</sp>
+<sp>
+<speaker>Henrik</speaker>
+<p rend="noIndent">Men dine for&#x00E6;ldre og s&#x00F8;skend da?</p>
+</sp>
+<sp>
+<speaker><pb n="16"/>Magdalena</speaker>
+<p rend="noIndent">De er ikke r&#x00F8;mt! Far har forretning sydpaa ogsaa &#x2013; saa er det vel rimelig han flytter kontoret sit dit.</p>
+</sp>
+<sp>
+<speaker>Henrik</speaker>
+<p rend="noIndent">Men du blev. Er du ikke r&#x00E6;d?</p>
+</sp>
+<sp>
+<speaker>Magdalena</speaker>
+<p rend="noIndent">Jeg!</p>
+</sp>
+<sp>
+<speaker>Henrik</speaker>
+<p rend="noIndent">Ikke det grand?</p>
+</sp>
+<sp>
+<speaker>Magdalena</speaker>
+<p rend="noIndent">Tror du jeg tror det blir nogen krig her i byen? Nei! <stage>(kneiser, korser sig pludselig)</stage> Og &#x2013; og jeg er ikke r&#x00E6;d om de kommer heller, for resten! <stage>(Glir haanden ind i Benedikts)</stage> De er vel mennesker, vel!</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">Tro det bestandig, barn!</p>
+</sp>
+<sp>
+<speaker>Henrik</speaker>
+<p rend="noIndent">Ja. Menneskene i tross.</p>
+</sp>
+<sp>
+<speaker>Magdalena</speaker>
+<p rend="noIndent">Det gaar vel an at <emph>snakke</emph> med dem! Putt &#x2013; de er da ikke mer end m&#x00E6;nd. Her i prestegaarden er det jo bestandig m&#x00E6;nder. Jeg har aldrig v&#x00E6;ret r&#x00E6;d dere, jeg!</p>
+</sp>
+<sp>
+<speaker><pb n="17"/>Benedikt</speaker>
+<p rend="noIndent">Ja du kan faa lov at se paa hende &#x00E9;n gang til, Henrik.</p>
+</sp>
+<sp>
+<speaker>Jon</speaker>
+<stage>(ved bordet, meget h&#x00F8;it)</stage>
+<p rend="noIndent">Nei for jeg er ingen dr&#x00F8;mmer! Jeg tror, det er krigen. Jeg tror, krigen lever. Men den vil styrte under opspurten, sier jeg! Den vil segne i l&#x00F8;pet, den vil bli rammet med lamhet!</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">Det vil den Jon &#x2013; med Guds hj&#x00E6;lp!</p>
+</sp>
+<sp>
+<speaker>Jon</speaker>
+<p rend="noIndent">Ikke Gud, mor! Gud stanser ikke krigen &#x2013; han er en stor stridsherre &#x2013; han er h&#x00E6;rskarenes gud, han! Men smaad&#x00E6;vlene &#x2013; smaad&#x00E6;vlene, gutter! Latteren, kritikken, likegyldigheten! Og &#x2013; vil vi d&#x00F8; f&#x00F8;r vi har h&#x00F8;rt proceduren? Vil vi la os hugge ned f&#x00F8;r vi kjender domsgrundene? Er vi sprellem&#x00E6;nd? Vil vi laane os til et sjofelt haandverk for at slippe at krepere? Er livet en slik skat at vi vil gj&#x00F8;re os til kjeltringer for at beholde det?</p>
+</sp>
+<sp>
+<speaker>Omar</speaker>
+<p rend="noIndent">Livet er kj&#x00E6;rt &#x2026;</p>
+</sp>
+<sp>
+<speaker>Benedikt</speaker>
+<p rend="noIndent">Bravo, Jon!</p>
+</sp>
+<sp>
+<speaker><pb n="18"/>Jon</speaker>
+<p rend="noIndent">Men &#x2013; men naturligvis, paa den anden side &#x2013; At faa opleve en tid, gutter, som gjorde frasene til ord igjen, hvad? At kunne si &#x00AB;for Gud og f&#x00E6;dreland&#x00BB; uten at bli r&#x00F8;d &#x2013; at kunne stige til helt uten at v&#x00E6;re professionel, hvad? Og tror dere blodets dionysier staar tilbake for vinens? Er Iliadens og det gamle testamentes skj&#x00F8;nhet ringere end kristendommens? Krigsrusen er dithyrambisk likesom vinrusen &#x2013; blodt&#x00F8;rsten, den &#x2026;</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">Jon!</p>
+</sp>
+<sp>
+<speaker>Jon</speaker>
+<p rend="noIndent">Nei &#x2026; Du har ret, mor. For vi <emph>t&#x00F8;rster</emph> jo ikke l&#x00E6;nger &#x2013; vi smaker ikke av mordlyst &#x2013; Ares vil utspy os av sin mund &#x2013; vi er lunkne! Og &#x2013; og naar vi ikke har talent for mord &#x2013; naar vi ikke taaler blod <stage>(ler)</stage> saa er det jo ikke mer at snakke om, hvad? Vi har valget: at eksistere som mordere eller utslettes som bra folk &#x2013; og vi v&#x00E6;lger det sidste, hvad? Vi gidder ikke bestaa som krigere, la os i Guds navn faa lov at forgaa som mennesker &#x2013; for vi er jo logikere? Omar! Det er jo dette, vi mener?</p>
+</sp>
+<sp>
+<speaker>Jonatan</speaker>
+<p rend="noIndent">Vor tids soldat er desuten ikke andet end gladiatoren for en politisk fantasi &#x2013; og det v&#x00E9;t han!</p>
+</sp>
+<sp>
+<speaker><pb n="19"/>Adam</speaker>
+<p rend="noIndent">Men dyrene, de slipper l&#x00F8;s paa os, er vore egne private bestier. Le ikke, gutter! Det er kanske vilddyr for om vi aldrig har set dem.</p>
+</sp>
+<sp>
+<speaker>Benedikt</speaker>
+<p rend="noIndent">Paa dine l&#x00F8;vers sundhet, Adam!</p>
+</sp>
+<sp>
+<speaker>Henrik</speaker>
+<p rend="noIndent">Det er bluff! Det er ikke andet end bluff! Skinman&#x00F8;vrer! Imorgen faar vi h&#x00F8;re om vaabenhvile!</p>
+</sp>
+<sp>
+<speaker>Magdalena</speaker>
+<p rend="noIndent">H&#x00F8;rer du hvad Henrik sier, tante Cornelia?</p>
+</sp>
+<sp>
+<speaker>Ung soldat</speaker>
+<p rend="noIndent">H&#x00F8;r kanonene!</p>
+</sp>
+<sp>
+<speaker>Henrik</speaker>
+<p rend="noIndent">De skyter for at trumfe sig til noget &#x2013; koncessioner, indr&#x00F8;mmelser! Nogen fusentaster der borte vil ha grubene vore &#x2013; Det er bare bluff! La os ikke miste hodet!</p>
+</sp>
+<stage>(Alle ler.)</stage>
+<sp>
+<speaker>Jonatan</speaker>
+<p rend="noIndent">Nei la os beholde hodet. Det har du ret i, Henrik.</p>
+</sp>
+<sp>
+<speaker>Henrik</speaker>
+<p rend="noIndent">Beholde hodet <emph>kaldt!</emph> De tror, de kan komme forbi folkeretten!</p>
+</sp>
+<sp>
+<speaker><pb n="20"/>Adam</speaker>
+<p rend="noIndent">Forbi folkene ja &#x2013; paa begge sider gr&#x00E6;nsen!</p>
+</sp>
+<sp>
+<speaker>Henrik</speaker>
+<p rend="noIndent">Men vil nogen av os eie <emph>deres</emph> gruber, <emph>deres</emph> provinser? Jeg er kj&#x00F8;bmand selv &#x2013; men jeg betakker mig! Det blir ingen krig!</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">Det blir ingen krig.</p>
+</sp>
+<sp>
+<speaker>Adam</speaker>
+<p rend="noIndent">Nei! For det skal vi demokrater s&#x00F8;rge for! Kameratene der borte &#x2013; jeg kjender dem! De er blit overrumplet. Vent! Imorgen, ja kanske idag faar vi vite folket er vaaknet! Ve regjeringene, ve l&#x00F8;gnerne, ve generalene da! Og blir de tvunget til at gaa med, guttene derborte &#x2013; da gj&#x00F8;r de som os, som vore demokrater, som mig: de skyter i luften! Det skal sees paa de faldne! <stage>(Latter.)</stage> Paa de som ikke falder, mener jeg. Det blir ingen krig.</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">Nei det blir ingen krig.</p>
+</sp>
+<sp>
+<speaker>Henrik</speaker>
+<p rend="noIndent">Jo saa pined&#x00F8; vil jeg skyte! Jeg kryper ikke unna! Jeg er ikke r&#x00E6;d!</p>
+</sp>
+<sp>
+<speaker>Ung soldat</speaker>
+<p rend="noIndent">Jo. Jeg er r&#x00E6;d &#x2026;</p>
+</sp>
+<sp>
+<speaker><pb n="21"/>Benedikt</speaker>
+<p rend="noIndent">Om en maaned er det h&#x00F8;stfesten. Er det nogen som tror vi skal slaass <emph>da</emph>?</p>
+</sp>
+<sp>
+<speaker>Magdalena</speaker>
+<p rend="noIndent">Da kunde det jo like gjerne bli krig i julen, da!</p>
+</sp>
+<stage>(Alle ler.)</stage>
+<sp>
+<speaker>Benedikt</speaker>
+<stage>(t&#x00F8;mmer indholdet av en rygs&#x00E6;k over bordet, en m&#x00E6;ngde smaa b&#x00F8;ker)</stage>
+<p rend="noIndent">Se arsenalet mit!</p>
+</sp>
+<sp>
+<speaker>Omar</speaker>
+<stage>(tar en av b&#x00F8;kene)</stage>
+<p rend="noIndent">Vers?</p>
+</sp>
+<sp>
+<speaker>Magdalena</speaker>
+<p rend="noIndent">Vers! Benedikt! Har du latt dem trykke? Aa, det har du ikke fortalt til mig!</p>
+</sp>
+<sp>
+<speaker>Benedikt</speaker>
+<p rend="noIndent">Nei &#x2013; nei det er ikke mine! Det er bare det f&#x00F8;rste, som er mit. Det er alle de andres &#x2013; de store, vore egnes og <stage>(ler)</stage> &#x00AB;fiendens&#x00BB;. Jeg har samlet dem. <emph>Det</emph> vil de ikke staa for!</p>
+</sp>
+<sp>
+<speaker>Jon</speaker>
+<p rend="noIndent">Er det hele verdens krigssanger &#x2013; vore og de andres?</p>
+</sp>
+<sp>
+<speaker>Benedikt</speaker>
+<p rend="noIndent">Det er kj&#x00E6;rlighetssange.</p>
+</sp>
+<sp>
+<speaker><pb n="22"/>Cornelia</speaker>
+<p rend="noIndent">Gutten min!</p>
+</sp>
+<sp>
+<speaker>Ung soldat</speaker>
+<p rend="noIndent">Og dem vil <emph>du</emph> stanse krigen med?</p>
+</sp>
+<sp>
+<speaker>Benedikt</speaker>
+<p rend="noIndent">Jeg tror &#x2013; jeg tror at naar vi allesammen pludselig husker &#x2013; at vi elsker paa samme vis &#x2013; og &#x2013; og at vi bestandig har sunget hverandres sange om kj&#x00E6;rlighet &#x2013; da kan vi ikke. Da blir det ingen krig!</p>
+</sp>
+<stage>(De andre ler.)</stage>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">Da blir det ingen krig.</p>
+</sp>
+<sp>
+<speaker>Omar</speaker>
+<p rend="noIndent">Le ikke av ham! <stage>(Det blir stilt.)</stage> Benedikt har ret! Det er bare &#x00E9;n ting, som kan stanse krigen &#x2026; Ikke kj&#x00F8;bm&#x00E6;ndene dine, Henrik. Ikke demokratene, Adam. Ikke din logik heller, Jon. Det &#x2013; det er bare &#x00E9;n magt som kan stanse krigen &#x2026;. <stage>(snur sig pludselig imot Cornelia)</stage> Kj&#x00E6;rligheten &#x2013;. Vi &#x2013; vi maa ikke l&#x00E6;nger blyges for at si det. Vi &#x2013; vi maa kjendes ved den &#x2026; Kj&#x00E6;rligheten til n&#x00E6;sten; for den fins! Kj&#x00E6;rligheten til det gode &#x2013; for den er til! <emph>Kj&#x00E6;rligheten til os selv, kamerater</emph> &#x2013; til alt vi har dr&#x00F8;mt &#x2013; og skapt med tanke, med kraft, med overskuddet! <emph>Vor gud</emph> &#x2013; hver mands egen gud. <emph>Han lever</emph>. Vi er ikke kj&#x00E6;rlige av frygt! Vi vil <pb n="23"/>v&#x00E6;re gode av aglelse for os selv! Vi er ikke dydige av pligt vi som nu kommer &#x2013; vi er dydige av trang til dyd. Vi er erobrere av et nyt hovmod: Ydmyghetens! Kristi hovmod da han sa: Tilgi dem, ti de vide ikke hvad de gj&#x00F8;r. At elske menneskene &#x2013; det er det sv&#x00E6;reste, det er mands gjerning, det kr&#x00E6;ver den h&#x00F8;ieste styrke: seierherrens! Og jorden venter paa os &#x2026; Naar far &#x2026; naar min far &#x2026; naar min far presten kommer hjem &#x2026;</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">Aa hvor er han &#x2013;</p>
+</sp>
+<sp>
+<speaker>Omar</speaker>
+<p rend="noIndent">&#x2026; da skal en stor gjerning fuldbyrdes <stage>(i sterk bev&#x00E6;gelse)</stage>. Ja, jeg tror at det fuldkomne n&#x00E6;rmer sig &#x2013; jeg tror vi skal se ansigt til ansigt! &#x00C9;n stor kj&#x00E6;rlighet skal samle os under sit merke, vor kraft skal vokse i skog med tusen viljer fra Guds samlede kirke i alle land!</p>
+</sp>
+<sp>
+<speaker>Jonatan</speaker>
+<p rend="noIndent">I <emph>alle</emph> land &#x2013;?</p>
+</sp>
+<sp>
+<speaker>Adam</speaker>
+<p rend="noIndent">De andres prester? De ogsaa?</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">Alle er varslet! Og har vi ikke Guds ord?</p>
+</sp>
+<sp>
+<speaker><pb n="24"/>Ung soldat</speaker>
+<p rend="noIndent">Da var vi frelst! Da d&#x00F8;de krigen!</p>
+</sp>
+<sp>
+<speaker>Jon</speaker>
+<stage>(roper)</stage>
+<p rend="noIndent">En samlet kirke &#x2026; ja, det har jeg aldrig negtet, Omar! For miraklet b&#x00F8;ier jeg mig! Staar de op alle som kalder sig Guds barn, Guds m&#x00E6;nd og tjenere paa jord og forkynder Kristus med &#x00E9;n mund. &#x2013; Jeg b&#x00F8;ier mig!</p>
+</sp>
+<sp>
+<speaker>Adam</speaker>
+<stage>(tar sig til hjertet)</stage>
+<p rend="noIndent">Jeg kjender noget, her inde &#x2013; alt nu!</p>
+</sp>
+<sp>
+<speaker>Henrik</speaker>
+<p rend="noIndent">Det vil ingen staa for! Men det sker ikke!</p>
+</sp>
+<sp>
+<speaker>Jonatan</speaker>
+<p rend="noIndent">Det ske! Kirken er den eneste som kan stanse krigen, kamerater &#x2013; den m&#x00E6;gtigste organisation, den sidste almagt, vi har! Jeg har altid visst det!</p>
+</sp>
+<sp>
+<speaker>Magdalena</speaker>
+<p rend="noIndent">Der er han!</p>
+</sp>
+<sp>
+<speaker>Presten</speaker>
+<stage>(i d&#x00F8;ren)</stage>
+<p rend="noIndent">Guds fred og god kveld!</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">Aa Gud v&#x00E6;re lovet! Godkveld &#x2013;! Godkveld kj&#x00E6;re! <stage>(kysser ham)</stage>.</p>
+</sp>
+<sp>
+<speaker><pb n="25"/>Omar, Jon</speaker>
+<p rend="noIndent">Velkommen, far!</p>
+</sp>
+<sp>
+<speaker>Benedikt</speaker>
+<stage>(ind til ham)</stage>
+<p rend="noIndent">Kj&#x00E6;re far!</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">Er du tr&#x00E6;t &#x2013; aa du er tr&#x00E6;t &#x2013; s&#x00E6;t dig kj&#x00E6;re &#x2013;! Ta fars kappe!</p>
+</sp>
+<sp>
+<speaker>Presten</speaker>
+<stage>(gir s&#x00F8;nnene hat, kappe og stok)</stage>
+<p rend="noIndent">Ja nu er jeg i sandhet tr&#x00E6;t.</p>
+<stage>(Liten stilhed. Han s&#x00E6;tter sig.)</stage>
+</sp>
+<sp>
+<speaker>Magdalena</speaker>
+<p rend="noIndent">Drik litt vin, Onkel <stage>(skj&#x00E6;nker for ham)</stage>.</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">Du blev l&#x00E6;nge &#x2026; Aa, vi har stundet &#x2013;.</p>
+</sp>
+<sp>
+<speaker>Presten</speaker>
+<p rend="noIndent">Ja &#x2013;. Og dog var der endnu elve talere indtegnet, da biskopen h&#x00E6;vet m&#x00F8;tet. De kom aldrig til orde. Jeg var &#x00E9;n av dem. <stage>(Drar op en bunke fuldskrevne ark av lommen.)</stage> Jeg har notert ned mine argumenter. Jeg har gjort rede for mit standpunkt &#x2013; det gamle og &#x2013; og det &#x00E6;ndrede. Mit indl&#x00E6;g skal trykkes i kirkebladet &#x2013; jeg tror jeg t&#x00F8;r si det er v&#x00E6;rdifulde og v&#x00E6;gtige ting <pb n="26"/>iblandt. Men vi tik telegram fra regjeringen. Hvad er det?</p>
+</sp>
+<sp>
+<speaker>Benedikt</speaker>
+<p rend="noIndent">Det er kanonene</p>
+</sp>
+<sp>
+<speaker>Jon</speaker>
+<p rend="noIndent">Det er kanonene ved gr&#x00E6;nsen.</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">Det er bare kanonene.</p>
+</sp>
+<sp>
+<speaker>Omar</speaker>
+<p rend="noIndent">Far! Er det besluttet?</p>
+</sp>
+<sp>
+<speaker>Presten</speaker>
+<p rend="noIndent">Ja. Nu er det besluttet.</p>
+</sp>
+<stage>(St&#x00F8;i og rop utefra &#x00F8;ker stadig under det f&#x00F8;lgende.)</stage>
+<sp>
+<speaker>Benedikt</speaker>
+<p rend="noIndent">Holdt det haardt, far?</p>
+</sp>
+<sp>
+<speaker>Presten</speaker>
+<p rend="noIndent">Om konklusionen var der enstemmighet. De nye kjendsgjerninger skapte den! Men adskillig dissens om fremgangsmaaten var der. Og jeg tror, uten at rose mig selv, at mit votum vilde hat betydning for &#x2013;</p>
+</sp>
+<sp>
+<speaker>Omar</speaker>
+<p rend="noIndent">Hvad gj&#x00F8;r prestene, far?</p>
+</sp>
+<sp>
+<speaker>Presten</speaker>
+<p rend="noIndent">Kirken gj&#x00F8;r sin pligt, Omar.</p>
+</sp>
+<sp>
+<speaker><pb n="27"/>Cornelia</speaker>
+<stage>(l&#x00F8;fter h&#x00E6;ndene)</stage>
+<p rend="noIndent">Aa, Gud v&#x00E6;re evig lovet!</p>
+</sp>
+<sp>
+<speaker>Presten</speaker>
+<p rend="noIndent">Kirken velsigner ham, som gaar mot ugudelige. Ti vor fiende er Kristi fiende!</p>
+</sp>
+<stage>(Voldsom bev&#x00E6;gelse.)</stage>
+<sp>
+<speaker>Jonatan</speaker>
+<p rend="noIndent">Kirken velsigner krigen?</p>
+</sp>
+<sp>
+<speaker>Benedikt</speaker>
+<p rend="noIndent">Vor fiende &#x2026;?</p>
+</sp>
+<sp>
+<speaker>Magdalena</speaker>
+<p rend="noIndent">Det var det, far sa!</p>
+</sp>
+<sp>
+<speaker>Jon</speaker>
+<stage>(ler h&#x00F8;it)</stage>
+<p rend="noIndent">H&#x00E6;rskarenes gud!</p>
+</sp>
+<sp>
+<speaker>Presten</speaker>
+<p rend="noIndent">V&#x00E6;r stille! Vi angripes ikke av mennesker. Der kom en bror, en prest fra gr&#x00E6;nsen &#x2013; med bajonettene hadde de jaget ham fra et d&#x00F8;dsleie! Der kom bud fra fromme s&#x00F8;stre &#x2026; Vi anfaldes av dj&#x00E6;vle! Vore br&#x00F8;nde forgiftes! Barn blir stukket ned! Vore kvinder &#x2026; Jeg har h&#x00F8;rt forf&#x00E6;rdelige ting!</p>
+</sp>
+<sp>
+<speaker>Ung soldat</speaker>
+<p rend="noIndent">Der h&#x00F8;rer dere! De forgifter vandet!</p>
+</sp>
+<sp>
+<speaker>Adam</speaker>
+<p rend="noIndent"><pb n="28"/><emph>Barn</emph> &#x2026;?</p>
+</sp>
+<sp>
+<speaker>Omar</speaker>
+<p rend="noIndent"><emph>Kirken vil ikke hj&#x00E6;lpe os?</emph></p>
+</sp>
+<sp>
+<speaker>Presten</speaker>
+<p rend="noIndent">Kirken staar hos hver den, som strider Guds hellige strid, Omar! La mig hvile &#x2013; la mig faa puste, ut! Og jeg skal tale med dere, gutter. Hvad jeg har h&#x00F8;rt skal dere h&#x00F8;re! Men jeg er meget tr&#x00E6;t! Omar &#x2013; Jon &#x2013; Benedikt! Og du, Cornelia! <emph>Vor herre Jesus, var han endnu hos os, han vilde gaa forrest i den h&#x00E6;r vi sender mot landets fiende!</emph> Hustru, jeg vet det for visst! Ti dette blir ingen vanlig krig &#x2013; dette blir det store korstog &#x2013; de retf&#x00E6;rdiges kamp mot satan &#x2013; Guds ridderes strid for hans kirke! Seirer vore fiender &#x2013; da seirer magtbrynden, barbariet, antikrist! Vor jord vil l&#x00E6;gges &#x00F8;de, vort sprog skal visne, vore s&#x00F8;nner og d&#x00F8;tre skal tr&#x00E6;lle i fremmed land! Men seirer vi &#x2013; og vi vil seire! Herren er med os, himlen velsigner vore vaaben &#x2013; og jorden skal se en ny dag: krig skal ikke v&#x00E6;re mer, begj&#x00E6;r skal ikke v&#x00E6;re og ikke magtsyke! Retf&#x00E6;rdighetens klare sol skal skinne over en ny jord! Dette &#x2013; <emph>dette</emph> er det, dere gaar til kamp for, gutter! Og bak dere staar kirken, regjeringen, det samlede folk!</p>
+</sp>
+<sp>
+<speaker>Benedikt</speaker>
+<p rend="noIndent">Du har forlatt os!</p>
+</sp>
+<sp>
+<speaker><pb n="29"/>Omar</speaker>
+<p rend="noIndent">Far!</p>
+</sp>
+<sp>
+<speaker>Jon</speaker>
+<p rend="noIndent">Nei &#x2013; la os h&#x00F8;re paa ham! La os h&#x00F8;re paa far &#x2013; kanske far har <emph>ret!</emph></p>
+</sp>
+<sp>
+<speaker>Presten</speaker>
+<p rend="noIndent">Uten blod kj&#x00F8;ptes ingen aandens seier, gutter! Og &#x2013; &#x2013; Mener I jeg er kommet for at gi fred paa jorden? Nei, siger jeg eder, men tvedragt. Saa taler Frelseren. Han selv.</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">H&#x00F8;r ikke paa ham! Han forvansker Guds ord! Tal ikke til dem! Du har ingen ret til at tale til dem mer!</p>
+</sp>
+<sp>
+<speaker>Presten</speaker>
+<p rend="noIndent">Hustru!</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">Du som foldet h&#x00E6;ndene dine hver kveld og bar dem med dig i b&#x00F8;n til kj&#x00E6;rlighetens ophav! Du som samlet dem om kn&#x00E6;et dit da de var smaa og l&#x00E6;rte dem at elske sine fiender! Du som har sagt som din mester: Gj&#x00F8;r dem godt som hade eder &#x2013; velsigner dem som forbander eder &#x2013; ber for dem som gj&#x00F8;r eder skade!</p>
+</sp>
+<sp>
+<speaker>Presten</speaker>
+<p rend="noIndent">Cornelia!</p>
+</sp>
+<sp>
+<speaker><pb n="30"/>Cornelia</speaker>
+<p rend="noIndent">Du som l&#x00E6;rte dem sandheten, og sandheten frigjorde dem! <emph>Du</emph> kommer og vil l&#x00E6;gge dem i l&#x00E6;nker!</p>
+</sp>
+<sp>
+<speaker>Presten</speaker>
+<p rend="noIndent">Cornelia &#x2013; du vet ikke hvad du sier! Det gj&#x00E6;lder fedrelandets frelse &#x2013; det gj&#x00E6;lder &#x2026;</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">Nei nei! Ikke landets &#x2013; dine s&#x00F8;nners, alle hjertenes frelse gj&#x00E6;lder det nu! Staa fast, gutter! V&#x00E6;r st&#x00E6;rke, v&#x00E6;r st&#x00E6;rke nu! Gud er den samme for os, for dem der borte, for alle sine barn! <emph>Gud vil det gode</emph> &#x2013; Gud vil ikke blod og skj&#x00E6;ndsel! La ingen &#x2026; ingen kirke reise sig mellem dere og ham! Aa vi har sat vor lit til mennesker &#x2013; jeg ser det nu! Nu ser jeg vor vildelse, vor daarskap! Vi trodde vi skulde redde os i ly av ham <stage>(peker paa presten)</stage> &#x2013; vi glemte, at kirken er <emph>her</emph>, her inde i brystet vort! Det er <emph>os</emph>, som er Guds tempel &#x2013; hvert menneske er utvalgt til hans tempel paa jord! &#x2013; Omar! Benedikt! Jon! Mine velsignede! Glem det aldrig!</p>
+</sp>
+<sp>
+<speaker>Omar</speaker>
+<stage>(i voldsom bev&#x00E6;gelse)</stage>
+<p rend="noIndent">Det er for sent! Jeg b&#x00F8;iet mig, jeg gik unna! Jeg vaaget mig ikke ut alene! Og nu sviker han os!</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">Omar!</p>
+</sp>
+<sp>
+<speaker><pb n="31"/>Omar</speaker>
+<p rend="noIndent">Du skulde ikke hindret mig! Uten blod ingen seier &#x2013; far har ret! Jeg sparte mit &#x2013; nu kj&#x00F8;per <emph>han</emph> sin seier med det! Men <emph>du</emph>, som skj&#x00E6;nket mig livet &#x2026;</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">Si det ikke! <emph>Det</emph> kr&#x00E6;ver ingen av en mor!</p>
+</sp>
+<sp>
+<speaker>Omar</speaker>
+<p rend="noIndent">Mit liv er dit, sa du! Men har nogen st&#x00F8;rre kj&#x00E6;rlighet end denne at han s&#x00E6;tter sit liv til? Du svek &#x2013; du svek kj&#x00E6;rligheten &#x2013; likesom han!</p>
+</sp>
+<stage>(<hi rend="bold">Cornelia</hi> d&#x00E6;kker sit ansigt.)</stage>
+<sp>
+<speaker>Liten gut</speaker>
+<stage>(styrter ind)</stage>
+<p rend="noIndent">De kommer!</p>
+</sp>
+<stage>(Trommehvirvler h&#x00F8;res fra gaten.)</stage>
+<sp>
+<speaker>Adam</speaker>
+<p rend="noIndent">Alarm!</p>
+</sp>
+<sp>
+<speaker>Jon, Benedikt, Jonatan, Henrik</speaker>
+<stage>(samtidig)</stage>
+<p rend="noIndent">Hvem kommer? Hvad er det? Hvor? Hvad er det du sier?</p>
+</sp>
+<sp>
+<speaker>Liten gut</speaker>
+<p rend="noIndent">Rytterne &#x2026; De er over elven &#x2026; De er her!</p>
+</sp>
+<sp>
+<speaker><pb n="32"/>Ung soldat</speaker>
+<stage>(ved vinduet)</stage>
+<p rend="noIndent">Folk springer &#x2026; folk springer som gale!</p>
+</sp>
+<sp>
+<speaker>Henrik</speaker>
+<p rend="noIndent">De skyter! <emph>Det er skudd!</emph> <stage>(pr&#x00F8;ver gjemme sig).</stage></p>
+</sp>
+<sp>
+<speaker>Ung soldat</speaker>
+<p rend="noIndent">Gud bevare fedrelandet!</p>
+</sp>
+<stage>(Alle s&#x00F8;ker sine vaaben, sp&#x00E6;nder paa sig bandol&#x00E9;r og gj&#x00F8;r sig f&#x00E6;rdig.)</stage>
+<sp>
+<speaker>Presten</speaker>
+<p rend="noIndent">Cornelia! Cornelia &#x2013; Magdalena! Kom med mig! Jeg maa gaa til kirken &#x2013; f&#x00F8;lg mig til kirken! I Guds hus m&#x00F8;ter vi dem!</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">Til kirken? Nu?</p>
+</sp>
+<sp>
+<speaker>Magdalena</speaker>
+<stage>(klynger sig til Benedikt).</stage>
+<p rend="noIndent">Jeg gaar ikke fra Benedikt!</p>
+</sp>
+<sp>
+<speaker>Presten</speaker>
+<p rend="noIndent">Gutten fort&#x00E6;ller &#x2026; Men kirken vil de skaane! For Guds hus har de &#x00E6;rb&#x00F8;dighet. Jeg vil samle kvindene i kirken &#x2013; kvindene &#x2013; og barnene &#x2013; og de gamle &#x2026;</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">Omar!</p>
+</sp>
+<sp>
+<speaker><pb n="33"/>Omar</speaker>
+<stage>(som har talt med gutten)</stage>
+<p rend="noIndent">Ja mor. Det er alarmsignalet. Vi maa lystre &#x2013; nu.</p>
+</sp>
+<sp>
+<speaker>Presten</speaker>
+<p rend="noIndent">H&#x00F8;rer du hvad jeg sier, hustru? Ta med dig Magdalena og kom!</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">Slip mig! Hvad skal vi i kirken? S&#x00F8;ke skalkeskjul? Tror du jeg er en stakkar?</p>
+</sp>
+<sp>
+<speaker>Presten</speaker>
+<p rend="noIndent">Du vil ikke? Skal jeg gaa alene? <emph>Saa gaar jeg alene</emph> &#x2013;. De hellige kar maa reddes &#x2013; &#x2013; Farvel gutter &#x2013; s&#x00F8;nnene mine! Herren velsigne dig og bevare dig! Herren lade sit ansigt lyse over dig og v&#x00E6;re dig naadig! Herren l&#x00F8;fte sit aasyn paa dig og give dig fred!</p>
+<stage>(M&#x00E6;ndene blir stille og b&#x00F8;ier hodet under velsignelsen. <hi rend="bold">Omar</hi> staar rak og ser paa sin far).</stage>
+<p rend="noIndent">Ogsaa dig velsigne han, Omar!</p>
+</sp>
+<sp>
+<speaker>Omar</speaker>
+<p rend="noIndent">Ja far. Min gud er med mig.</p>
+</sp>
+<sp>
+<speaker>Presten</speaker>
+<p rend="noIndent">Vi m&#x00F8;tes der ute, gutter!</p>
+<stage>(Han tar den lille gutten med sig og skynder sig ut.)</stage>
+</sp>
+<sp>
+<speaker>Omar</speaker>
+<p rend="noIndent">Benedikt, du maa gj&#x00F8;re dig f&#x00E6;rdig!</p>
+</sp>
+<sp>
+<speaker><pb n="34"/>Jonatan</speaker>
+<stage>(kysser <hi rend="bold">Cornelia&#x0027;s</hi> haand).</stage>
+<p rend="noIndent">Her i prestegaarden har jeg hat mine lykkeligste timer!</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">Farvel, Jonatan! Bevar dit hjerte!</p>
+</sp>
+<stage>Jonatan, Henrik, Adam, Ung soldat styrter ut.</stage>
+<sp>
+<speaker>Adam</speaker>
+<stage>(snur, kommer tilbake)</stage>
+<p rend="noIndent">Farvel, fru Cornelia! Tak &#x2013; tak for alt vakkert du l&#x00E6;rte mig!</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">Aa Adam &#x2013; farvel! Sky det onde!</p>
+</sp>
+<sp>
+<speaker>Jon</speaker>
+<stage>(foran <hi rend="bold">Cornelia</hi>, kn&#x00E6;ler)</stage>
+<p rend="noIndent">Velsign mig, mor!</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">Gutten min &#x2013; du stakkars gutten min</p>
+</sp>
+<sp>
+<speaker>Jon</speaker>
+<p rend="noIndent">Si noget &#x2013; si noget jeg kan mindes hele tiden!</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">Gud bor i dig.</p>
+</sp>
+<sp>
+<speaker>Jon</speaker>
+<p rend="noIndent">Saa l&#x00E6;nge jeg er sammen med dig, mor!</p>
+</sp>
+<sp>
+<speaker><pb n="35"/>Cornelia</speaker>
+<p rend="noIndent">Jeg er hos dig bestandig!</p>
+</sp>
+<stage>(<hi rend="bold">Jon</hi> springer ut.)</stage>
+
+<sp>
+<speaker>Omar</speaker>
+<p rend="noIndent">Benedikt, du maa gj&#x00F8;re dig f&#x00E6;rdig. &#x2013; Farvel, mor!</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<stage>(vakler)</stage>
+<p rend="noIndent">Omar &#x2013; min &#x2026; min &#x2026;</p>
+</sp>
+<sp>
+<speaker>Omar</speaker>
+<p rend="noIndent">Mor! Nu kommer stormen og bryter os ned! ingen kan h&#x00F8;re r&#x00F8;sten vor mer! <stage>(styrter ut)</stage>.</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<stage>(efter ham)</stage>
+<p rend="noIndent">Omar &#x2013; <emph>se</emph> paa mig, Omar!</p>
+</sp>
+<stage>(Lyd av skudd og skrik fra gaten tar til.)</stage>
+<sp>
+<speaker>Benedikt</speaker>
+<p rend="noIndent">Si det, Magdalena! Si det en gang til!</p>
+</sp>
+<sp>
+<speaker>Magdalena</speaker>
+<stage>(i graat)</stage>
+<p rend="noIndent">Jeg elsker dig, elskede &#x2013;</p>
+</sp>
+<sp>
+<speaker>Benedikt</speaker>
+<p rend="noIndent">Kys billedet mit hver morgen!</p>
+</sp>
+<sp>
+<speaker>Magdalena</speaker>
+<p rend="noIndent">Ja, elskede &#x2013;</p>
+</sp>
+<sp>
+<speaker><pb n="36"/>Benedikt</speaker>
+<p rend="noIndent">Hver kveld! Hver nat! La det ligge mellem brystene dine!</p>
+</sp>
+<sp>
+<speaker>Magdalena</speaker>
+<p rend="noIndent">Jeg vil be for dig hver time!</p>
+</sp>
+<sp>
+<speaker>Benedikt</speaker>
+<p rend="noIndent">Ja bed! Si navnet mit &#x2013; n&#x00E6;vn navnet mit for den hellige jomfru, hver time! &#x2013; Hvad vil du si til hende, Magdalena? Si det! Si det nu!</p>
+</sp>
+<sp>
+<speaker>Magdalena</speaker>
+<p rend="noIndent">Kj&#x00E6;re Guds moder, bevar min elskede &#x2026;</p>
+</sp>
+<sp>
+<speaker>Benedikt</speaker>
+<p rend="noIndent">Benedikt, min elskede &#x2013;</p>
+</sp>
+<sp>
+<speaker>Magdalena</speaker>
+<p rend="noIndent">Benedikt, min evig elskede!</p>
+</sp>
+<sp>
+<speaker>Benedikt</speaker>
+<p rend="noIndent">Magdalena, Magdalena! Jeg elsker dig!</p>
+</sp>
+<sp>
+<speaker>Magdalena</speaker>
+<p rend="noIndent">Har du amuletten, Benedikt?</p>
+</sp>
+<sp>
+<speaker>Benedikt</speaker>
+<p rend="noIndent">Jeg har den her &#x2013;</p>
+</sp>
+<sp>
+<speaker>Magdalena</speaker>
+<stage>(kysser ham paa brystet)</stage>
+<p rend="noIndent">Hjertet dit &#x2026; jeg h&#x00F8;rer hjertet dit &#x2026; Det slaar saa h&#x00F8;it.</p>
+</sp>
+<sp>
+<speaker><pb n="37"/>Benedikt</speaker>
+<p rend="noIndent">Det slaar h&#x00F8;it om dig.</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<stage>(ind)</stage>
+<p rend="noIndent">Benedikt, de venter paa dig! Troppene samler sig paa torvet &#x2013;. Si farvel til hende! F&#x00F8;lg Omar og Jon!</p>
+</sp>
+<sp>
+<speaker>Benedikt</speaker>
+<p rend="noIndent">Hj&#x00E6;lp mig, mor!</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">Tr&#x00E6;nger <emph>du</emph> hj&#x00E6;lp? Er du ikke en f&#x00F8;rer? Alle dine digtere &#x2026;?</p>
+</sp>
+<sp>
+<speaker>Benedikt</speaker>
+<stage>(pr&#x00F8;ver rette sig op)</stage>
+<p rend="noIndent">Beskyt hende, mor! La hende aldrig komme fra dig! V&#x00E6;r hos hende til jeg henter hende!</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">Ja, gutten min! &#x2013; Magdalena &#x2013; barn, si farvel til ham &#x2026;</p>
+</sp>
+<sp>
+<speaker>Magdalena</speaker>
+<p rend="noIndent">Farvel! Aa &#x2013; gaa ikke &#x2026; Farvel &#x2026;</p>
+</sp>
+<sp>
+<speaker>Benedikt</speaker>
+<stage>(r&#x00E6;kker <hi rend="bold">Cornelia</hi> haanden)</stage>
+<p rend="noIndent">Snak om mig til hende! Hver dag, mor! Si &#x2026;</p>
+</sp>
+<stage>(Et flerfoldig skrik utefra)</stage>
+<sp>
+<speaker><pb n="38"/>Jon</speaker>
+<stage>(river op d&#x00F8;ren)</stage>
+<p rend="noIndent">Benedikt! Raadhuset br&#x00E6;nder!</p>
+</sp>
+<stage>(<hi rend="bold">Benedikt</hi> springer ut med ham. Et svakt, siden st&#x00E6;rkere ildskj&#x00E6;r i v&#x00E6;relset. <hi rend="bold">Magdalena</hi> l&#x00E6;nge paa kn&#x00E6;, sunket sammen i graat.)</stage>
+
+<sp>
+<speaker>Cornelia</speaker>
+<stage>(ved vinduet)</stage>
+<p rend="noIndent">De farer nedover gaten &#x2026; Nu blusser det op &#x2026; Der rider borgermesteren &#x2026; <stage>(banker paa vinduet)</stage>. Marie! Marie! Hun h&#x00F8;rer ikke, hun &#x2026; <stage>(blir taus med ett)</stage>.</p>
+</sp>
+<sp>
+<speaker>Magdalena</speaker>
+<stage>(reiser hodet)</stage>
+<p rend="noIndent">Hvad er det du ser?</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">Ingenting &#x2026; Nogen andre ryttere &#x2026; Ingenting, barn.</p>
+<stage>(Drar gardinet for vinduet.)</stage>
+</sp>
+<stage>(<hi rend="bold">En mand</hi> styrter ind &#x2013; ser sig forvildet omkring &#x2013;, farer ut igjen. D&#x00F8;ren blir staaende aapen efter ham.)</stage>
+<sp>
+<speaker>Magdalena</speaker>
+<stage>(stirrer paa gulvet, skriker)</stage>
+<p rend="noIndent">Blod!</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">Ja. Det er blod.</p>
+</sp>
+<sp>
+<speaker>Magdalena</speaker>
+<p rend="noIndent">Kom! Kom! Vi maa gjemme os! Vi maa flygte!</p>
+</sp>
+<sp>
+<speaker><pb n="39"/>Cornelia</speaker>
+<p rend="noIndent">Nei, vi maa bli! Der ute d&#x00F8;r de.</p>
+<stage>(Laaser d&#x00F8;ren.)</stage>
+</sp>
+<sp>
+<speaker>Magdalena</speaker>
+<p rend="noIndent">Benedikt! Jeg vil til Benedikt!</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<stage>(t&#x00F8;rker op blodet av gulvet)</stage>
+<p rend="noIndent">Vi maa v&#x00E6;re rolig &#x2026; Det er nu vi maa pr&#x00F8;ve at v&#x00E6;re rolig, barn. Nu er det vi ikke maa glemme.</p>
+</sp>
+<sp>
+<speaker>Rytternes r&#x00F8;st</speaker>
+<p rend="noIndent">Luk op! <stage>(slag paa d&#x00F8;ren)</stage>. Luk op for d&#x00E6;velen!</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">Det er &#x2026;? Det er dem! Magdalena &#x2013; gaa ind i stuen! Gaa straks! Laas d&#x00F8;ren efter dig! H&#x00F8;rer du! <emph>Straks!!</emph></p>
+</sp>
+<stage>(<hi rend="bold">Magdalena</hi> gaar ind i siderummet. <hi rend="bold">Cornelia</hi> ordner sin dragt, sit haar. Stiller sig bakom bordet. D&#x00F8;ren blir spr&#x00E6;ngt. <hi rend="bold">To ryttere</hi> tumler ind. Barrikaderer d&#x00F8;ren.)</stage>
+<sp>
+<speaker>1ste rytter</speaker>
+<p rend="noIndent">Er det nogen her &#x2026; <stage>(peker revolveren mot <hi rend="bold">Cornelia</hi>)</stage>. Op med h&#x00E6;ndene! H&#x00E6;ndene op, for satan!</p>
+</sp>
+<sp>
+<speaker>2den rytter</speaker>
+<p rend="noIndent">Det er jo bare et gammelt kvindfolk &#x2013;. Har du m&#x00E6;nd i huset, gamla? Er manden hjemme?</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">Nei.</p>
+</sp>
+<sp>
+<speaker><pb n="40"/>1ste rytter</speaker>
+<p rend="noIndent">S&#x00F8;nnene dine?</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">Nei.</p>
+</sp>
+<sp>
+<speaker>2den rytter</speaker>
+<p rend="noIndent">Lyv ikke!</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">Dette er prestens hus.</p>
+</sp>
+<sp>
+<speaker>2den rytter</speaker>
+<p rend="noIndent">Da har vorherre v&#x00E6;ret med os, gut!</p>
+</sp>
+<sp>
+<speaker>1ste rytter</speaker>
+<stage>(kaster sig paa gulvet)</stage>
+<p rend="noIndent">Det var den hardeste! Og saa s&#x00F8;kkvaat, atpaa!</p>
+</sp>
+<sp>
+<speaker>2den rytter</speaker>
+<p rend="noIndent">Har du mat, kj&#x00E6;rring? Frem med maten! Og vin! <stage>(ser flaskene paa bordet)</stage>. A! <stage>(s&#x00E6;tter flasken for munden, drikker)</stage>. Kongens skaal! <stage>(fylder et glas, b&#x00F8;ier sig over kameraten)</stage>. Her, gut! <stage>(ler pludselig)</stage>. Og slik som han pep, den tjukke!</p>
+</sp>
+<sp>
+<speaker>1ste rytter</speaker>
+<stage>(drikker)</stage>
+<p rend="noIndent">Guds d&#x00F8;d! Guds d&#x00F8;d! Det gjorde godt!</p>
+</sp>
+<stage>(<hi rend="bold">2den rytter</hi> fylder glasset for ham paa nytt.)</stage>
+<stage>(<hi rend="bold">Magdalena</hi> aapner d&#x00F8;ren. <hi rend="bold">1ste rytter</hi> springer op, begge ryttere f&#x00E6;rdig med revolverne.)</stage>
+<sp>
+<speaker><pb n="41"/>2den rytter</speaker>
+<p rend="noIndent">En pike &#x2026;</p>
+</sp>
+<sp>
+<speaker>1ste rytter</speaker>
+<p rend="noIndent">En vakker jente! Hvem gjemmer du bak d&#x00F8;ren, lillemor?</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">Magdalena, luk d&#x00F8;ren! Nei! Hun er alene der inde! Gaa ind igjen, Magdalena!</p>
+</sp>
+<sp>
+<speaker>2den rytter</speaker>
+<p rend="noIndent">Det skal jeg greie, frue!</p>
+<stage>(Springer ind paa <hi rend="bold">Magdalena</hi>, st&#x00F8;ter hende tilbake over d&#x00F8;rstokken, lukker d&#x00F8;ren efter sig, skyver slaa for indefra.)</stage>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<stage>(fjettret)</stage>
+<p rend="noIndent">Nei &#x2026;</p>
+</sp>
+<sp>
+<speaker>1ste rytter</speaker>
+<stage>(ler)</stage>
+<p rend="noIndent">Han er ikke sen i vendingen, han! Men han dat ikke i elven, <emph>han</emph>!</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<stage>(kaster sig imot d&#x00F8;ren)</stage>
+<p rend="noIndent">Luk op! Luk op! Det er min s&#x00F8;ns! Hun er min s&#x00F8;ns &#x2026;</p>
+</sp>
+<sp>
+<speaker>1ste rytter</speaker>
+<stage>(ler)</stage>
+<p rend="noIndent">Din &#x00AB;s&#x00F8;n&#x00BB; har skutt hesten under ham. Under mig ogsaa! Vi er arbeidsl&#x00F8;se nu! Til de andre tar os igjen! <stage>(kaster <hi rend="bold">Cornelia</hi> fra d&#x00F8;ren)</stage>. Saa! <pb n="42"/>Saa! Gi taal! Hold dig til mig, jenta mi! I en uke har vi l&#x00E6;rt dem at kjende, &#x00AB;s&#x00F8;nnene&#x00BB; dine! De skyter paa os fra husene &#x2013; saa tar vi det vi finder i husene! Saa tar vi vor ret! Og saa er vi skuls!</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">Hj&#x00E6;lp hende! Hj&#x00E6;lp mig! For Guds skyld! For din mors!</p>
+</sp>
+<sp>
+<speaker>1ste rytter</speaker>
+<p rend="noIndent">Hold mund. N&#x00E6;vn ikke <emph>mor</emph> &#x2013; du &#x2013; du kj&#x00F8;tertik!</p>
+</sp>
+<stage>(Magdalenas skrik h&#x00F8;res.)</stage>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">Hj&#x00E6;lp hende er du et menneske! Hun er en ung pike! Hun er en liten uskyldig pike!</p>
+</sp>
+<sp>
+<speaker>1ste rytter</speaker>
+<p rend="noIndent">Det er hun knapt l&#x00E6;nger!</p>
+</sp>
+<stage>(<hi rend="bold">Cornelia</hi> til vinduet. <hi rend="bold">1ste rytter</hi> kaster hende overende. De kj&#x00E6;mper.)</stage>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">Omar! Omar! Jon!</p>
+</sp>
+<sp>
+<speaker>1ste rytter</speaker>
+<p rend="noIndent">Saa &#x2013; vil du gi dig, din fandens m&#x00E6;r!</p>
+<stage>(l&#x00F8;fter revolveren, s&#x00E6;nker den igjen)</stage>
+<p rend="noIndent">Det er en f&#x00F8;dselsdag, idag &#x2026; En liten jentunge har f&#x00F8;dselsdag &#x2026; Jeg for&#x00E6;rer hende det stakkars livet dit, bedstemor. Noget andet faar hun ikke av far iaar. <pb n="43"/>Staa op og skaf mig mat! <stage>(gir hende et spark)</stage>. Reis dig h&#x00F8;rer du!</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<stage>(reiser sig langsomt)</stage>
+<p rend="noIndent">Hvem er &#x00E9;n som du?</p>
+</sp>
+<sp>
+<speaker>1ste rytter</speaker>
+<p rend="noIndent">Hvem jeg er det ser du vel? Det samme som han der inde! Soldater &#x2013; som gj&#x00F8;r vor pligt! Vi &#x2013; vi er krigen vi, gamla! <stage>(lytter)</stage>. Nu kommer fotfolket! <stage>(til vinduet)</stage> Fan! Det er de andres! Hvor er lua mi?</p>
+</sp>
+<stage>(Det bryter mot d&#x00F8;ren.)</stage>
+<sp>
+<speaker>Mange r&#x00F8;ster</speaker>
+<p rend="noIndent">To er her &#x2013; Jeg saa to stykker &#x2013; To ryttere sprang ind her &#x2013;</p>
+</sp>
+<sp>
+<speaker>1ste rytter</speaker>
+<stage>(slaar mot d&#x00F8;ren til siderummet)</stage>
+<p rend="noIndent">De er efter os! Hallo, rapp dig gut! Hvor kan vi komme os ut?</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">D&#x00F8;ren ut er der!</p>
+</sp>
+<sp>
+<speaker>1ste rytter</speaker>
+<p rend="noIndent">Du lyver! Det findes en anden ogsaa!</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">Det er den eneste!</p>
+</sp>
+<sp>
+<speaker><pb n="44"/>2den rytter</speaker>
+<stage>(uten lue, sp&#x00E6;nder paa sig patronbeltet)</stage>
+<p rend="noIndent">Fan! Vi springer gjennem vinduet!</p>
+</sp>
+<sp>
+<speaker>1ste rytter</speaker>
+<p rend="noIndent">Nei &#x2013; gaten er fuld av dem! Vi slaar os ut &#x2013; vi slaar os gjennem &#x2013; rytterne kommer bakom haven!</p>
+</sp>
+<stage>(D&#x00F8;ren brytes op, civile og soldater utenfra, rytterne springer imot dem, skyter &#x2013; det kj&#x00E6;mpes derute &#x2013; l&#x00E6;nger og l&#x00E6;nger v&#x00E6;k.)</stage>
+<sp>
+<speaker>Cornelia</speaker>
+<stage>(sagte)</stage>
+<p rend="noIndent">Magdalena! <stage>(litt h&#x00F8;iere)</stage> Magdalena!</p>
+</sp>
+<sp>
+<speaker>1ste rytter</speaker>
+<stage>(kommer ind, med blodig ansigt &#x2013; han tar for sig med h&#x00E6;ndene, siger ned)</stage>
+<p rend="noIndent">Hj&#x00E6;lp mig &#x2026; Hj&#x00E6;lp mig litt &#x2026; <stage>(gutagtig)</stage> Nu slutter vi! Nu skal vi hjem og spise &#x2026; Nei &#x2013; nei &#x2026; Jeg vil ikke! Aa faar jeg slippe! Mor! Det var ikke mig!</p>
+</sp>
+<stage>(<hi rend="bold">Cornelia</hi> drar v&#x00E6;k gardinet &#x2013; ser ut &#x2013; skynder sig mot utgangsd&#x00F8;ren snur sig &#x2013; ser paa den d&#x00F8;ende rytter.)</stage>
+<sp>
+<speaker>1ste rytter</speaker>
+<stage>(&#x00F8;mt og sagte)</stage>
+<p rend="noIndent">Er det dig, mor &#x2026;? T&#x00E6;nd lampen &#x2026;? T&#x00E6;nd lampen saa vi kan se hverandre. Nei &#x2013; r&#x00F8;r ikke ryggen min! Mor &#x2026; Mor &#x2026;</p>
+</sp>
+<stage>(<hi rend="bold">Cornelia</hi> folder h&#x00E6;ndene. Bort til ham. Kn&#x00E6;ler, l&#x00E6;gger haanden paa panden hans.)</stage>
+<sp>
+<speaker><pb n="45"/>1ste rytter</speaker>
+<p rend="noIndent">Si det engang til &#x2013; Velsign mig en gang til f&#x00F8;r vi rider &#x2026; mor. For Gud og kongen!</p>
+</sp>
+<sp>
+<speaker>Henrik</speaker>
+<stage>(halter ind, jamrer sig h&#x00F8;it &#x2013;)</stage>
+<p rend="noIndent">Jeg er skutt &#x2013; De har skutt mig i foten &#x2026;</p>
+<stage>(stanser i skr&#x00E6;k, vil snu).</stage>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">V&#x00E6;r ikke r&#x00E6;d. Han ligger her og d&#x00F8;r.</p>
+</sp>
+<sp>
+<speaker>Henrik</speaker>
+<p rend="noIndent">Men <emph>ser</emph> du ikke &#x2026;? Men det er en av <emph>dem</emph>! Det er en rytter! <stage>(l&#x00F8;fter b&#x00F8;ssen, vil slaa med kolben)</stage>.</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<stage>(verger den d&#x00F8;de med sit legeme)</stage>
+<p rend="noIndent">Det er bare en s&#x00F8;n nu. Og han er alt dr&#x00E6;pt.</p>
+</sp>
+</div>
+<div type="chapter" subtype="act">
+<head type="main">ANDEN AKT</head>
+<stage><pb n="46"/>Et rum halvt i ruiner.</stage>
+<stage><hi rend="bold">Magdalena</hi> kommer ind av en liten d&#x00F8;r fra venstre. B&#x00E6;rer matrester, drar ut skuffen i<note type="footnote">i] <hi rend="italic">rettet fra:</hi> i i <hi rend="italic">(trykkfeil)</hi></note> en dragkiste, s&#x00E6;tter dem ned. Dytter fillene bedre fast i ruteaapningen. Plukker op b&#x00F8;ss fra gulvet. R&#x00F8;rer sig frav&#x00E6;rende og likes&#x00E6;l. Barneskrik h&#x00F8;res. Hun blir staaende ur&#x00F8;rlig.</stage>
+<lb/><sp>
+<speaker>Cornelia</speaker>
+<stage>(med gulvkost og brett)</stage>
+<p rend="noIndent">Har du f&#x00F4;ret dyrene?</p>
+</sp>
+<sp>
+<speaker>Magdalena</speaker>
+<p rend="noIndent">H&#x00F8;rer du ikke?</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">Vi maa la ham skrike litt, nu. Jeg kan ikke ta ham op hver gang han skriker. Da faar vi aldrig ro. Eller &#x2013;. Gaa og ta ham op selv, barn! For &#x2013; du har da hjerte for ham &#x2013; likevel &#x2013; Magdalena? Du vil ikke, han skal <emph>skrike</emph> &#x2026;</p>
+</sp>
+<sp>
+<speaker><pb n="47"/>Magdalena</speaker>
+<stage>(holder sig for &#x00F8;rene)</stage>
+<p rend="noIndent">Jeg orker ikke h&#x00F8;re det. &#x2013; Jeg v&#x00E6;nner mig aldrig til det. &#x2013; Det har ikke noget med hjertet mit, det! Gid han var d&#x00F8;d &#x2013; gid han laa og var d&#x00F8;d! Gid du ikke hadde tat ham fra mig den natten!</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">Jeg synes &#x2026;? Kommer det ikke nogen der ute? Kanske det er <emph>dem</emph>!</p>
+</sp>
+<sp>
+<speaker>Magdalena</speaker>
+<p rend="noIndent">Det er ingen. Det er ingen ting. Du har trodd det var dem &#x2013; hver dag &#x2013; i et aar snart &#x2026;</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">Men en dag kommer de. Denne veien kommer de. Det sier alle.</p>
+</sp>
+<sp>
+<speaker>Magdalena</speaker>
+<p rend="noIndent">Det sa du da vi bodde i stalden ogsaa. Og da vi sat ved storveien i to d&#x00F8;gn. Aa jeg er saa tr&#x00E6;t.</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">Omar kom.</p>
+</sp>
+<sp>
+<speaker>Magdalena</speaker>
+<p rend="noIndent">Ja Omar kom &#x2026; Og Jon har v&#x00E6;ret hjemme &#x2026; Men Benedikt kom ikke! Benedikt kommer <pb n="48"/>aldrig! Ti maaneder, ti maaneder og han kommer ikke! Jeg skal ikke r&#x00F8;re ham! Jeg skal bare &#x2013; bare se paa ham &#x2026; bare se &#x00F8;inene hans &#x2026; og h&#x00E6;ndene &#x2026; og den lille flekken paa kindet &#x2026; Saa kan de &#x2013; Saa kan det v&#x00E6;re &#x2013; Foran toget &#x2013; det er det bedste &#x2026; Foran det store toget &#x2026; Naar jeg har set Benedikt.</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">Hysj, hysj barn! Du lovte du skulde v&#x00E6;re rolig her ute, husker du ikke det, Magdalena? Det kan komme like mange idag som s&#x00F8;ndag. T&#x00E6;nk paa alt det vi hadde at gj&#x00F8;re s&#x00F8;ndag &#x2013;. Vi maa &#x2013;</p>
+</sp>
+<sp>
+<speaker>Magdalena</speaker>
+<p rend="noIndent">Rolig! Rolig &#x2026;! Jeg som br&#x00E6;nder i helvetes ild!</p>
+<stage>(tar sig over brystet, jamrer sig.)</stage>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">Gaa ind og gi det til barnet dit.</p>
+</sp>
+<sp>
+<speaker>Magdalena</speaker>
+<p rend="noIndent">Hold op, hold op med at si det! Aldrig aldrig skal han ha en draape av mig! Slutt med at gi ham av kuene, <emph>du</emph> &#x2013; saa d&#x00F8;r han, saa d&#x00F8;r han liksom sin far! Aa han pines han, pines, pines! Br&#x00E6;nder i svovelp&#x00F8;len &#x2013; evig, evig! Det er det eneste som d&#x00F8;ver, naar jeg t&#x00E6;nker paa at han krymper sig og vaander sig og faar ikke fred!</p>
+</sp>
+<sp>
+<speaker><pb n="49"/>Cornelia</speaker>
+<p rend="noIndent">Og <emph>du</emph> vil m&#x00F8;te Benedikt?</p>
+</sp>
+<sp>
+<speaker>Magdalena</speaker>
+<p rend="noIndent">Nei jeg vil ikke m&#x00F8;te ham! Hvordan kan jeg m&#x00F8;te en engel fra Gud? Jeg vil &#x2013; jeg vil kjende ham skinne paa mig &#x2013; en liten stund &#x2013; en liten stund &#x2026; <stage>(tar op et halmstraa fra gulvet)</stage> Har du set ham du? Du har kanske set ham du? <stage>(kysser straaet)</stage>. Kanske du har ligget under kindet hans? <stage>(l&#x00E6;gger straaet mot kindet sit)</stage>.</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">Har du git dyrene, Magdalena?</p>
+</sp>
+<sp>
+<speaker>Magdalena</speaker>
+<p rend="noIndent">Nei nu gaar jeg &#x2013; du ser jo jeg gaar <stage>(gaar ut til h&#x00F8;ire).</stage></p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<stage>(ser efter hende &#x2013; gjemmer et sekund ansigtet i h&#x00E6;ndene. Begynder at koste gulvet. Lytter paa barneskriket)</stage>
+<p rend="noIndent">Armingen &#x2026; lille ungen vor &#x2026; <stage>(gaar ind til barnet)</stage>.</p>
+</sp>
+<stage>(<hi rend="bold">Jonatan</hi>, <hi rend="bold">to soldater</hi>, som f&#x00F8;rer med sig <hi rend="bold">to bundne soldater</hi> kommer ind fra h&#x00F8;ire. Alle fillet, skitne, skjegget.)</stage>
+
+<sp>
+<speaker>1ste Soldat</speaker>
+<p rend="noIndent">Det er her det skal v&#x00E6;re. Og det er her. Jeg h&#x00F8;rte e ku bure da vi kom &#x2013; D&#x00E6;gern!</p>
+</sp>
+<sp>
+<speaker>Jonatan</speaker>
+<p rend="noIndent">Jeg synes ogsaa, jeg h&#x00F8;rte &#x2026;</p>
+</sp>
+<sp>
+<speaker><pb n="50"/>2den soldat</speaker>
+<p rend="noIndent">Jeg saa ryggen paa et kvindfolk. Se til at komme dere unna, for svarte fan! <stage>(gir den ene av fangene et spark saa han falder og drar den andre med sig)</stage>. Kryp v&#x00E6;k &#x2013; l&#x00E6;gg dere! Det skal v&#x00E6;re et gammelt fruentimmer her.</p>
+</sp>
+<sp>
+<speaker>1ste soldat</speaker>
+<p rend="noIndent">Den evige kj&#x00E6;rringen &#x2013; som sitter igjen paa r&#x00F8;isa. Liksom katta.</p>
+</sp>
+<sp>
+<speaker>2den soldat</speaker>
+<p rend="noIndent">Og to kuer skal det v&#x00E6;re her. Hun pligter gi os kost og logi &#x2026; <stage>(til Jonatan.)</stage> Du er en blautfisk! <stage>(peker paa fangene.)</stage> Du kunde latt mig ekspedert dem. Saa hadde vi spart os denne marsjen i uf&#x00F8;ret &#x2026;</p>
+</sp>
+<sp>
+<speaker>1ste soldat</speaker>
+<p rend="noIndent">Ja fan gale! Du er for stutt, gut!</p>
+</sp>
+<sp>
+<speaker>Jonatan</speaker>
+<stage>(unna)</stage>
+<p rend="noIndent">Det vil tid til alt! Jeg sier ikke imot, gutter! Jeg har baciller i kroppen, jeg &#x2026; En &#x2013; slik en gammel kj&#x00E6;rring har koppet mig med dem &#x2013;</p>
+</sp>
+<sp>
+<speaker>2den soldat</speaker>
+<stage>(godlynt)</stage>
+<p rend="noIndent">Hvo som kjender sin daarskap er paa veien til visdom &#x2013; det kan enda bli folk av dig, gut!</p>
+</sp>
+<sp>
+<speaker><pb n="51"/>Jonatan</speaker>
+<stage>(viker skr&#x00E6;mt)</stage>
+<p rend="noIndent">Der er hun!</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<stage>(i d&#x00F8;ren)</stage>
+<p rend="noIndent">Jonatan! Er &#x2013; er dere her! Aa, dere er kommet!</p>
+</sp>
+<sp>
+<speaker>Jonatan</speaker>
+<p rend="noIndent">Nei &#x2026; Det vil si &#x2026; Det er bare mig. Og saa de der. Og <emph>de</emph> to. Vi er kommet v&#x00E6;k ifra kompaniet &#x2026; Vi gik og vildret &#x2026; Saa kom vi over de d&#x00E9;r bak en h&#x00F8;istakk. Saa drog vi os hit med dem. Vi er slitne. &#x2013; Men &#x2013; Goddag fru Cornelia!</p>
+</sp>
+<sp>
+<speaker>1ste soldat</speaker>
+<p rend="noIndent">Er det dig de kalder bedstemor?</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">Men de andre &#x2026; de andre kommer ogsaa denne veien?</p>
+</sp>
+<sp>
+<speaker>1ste soldat</speaker>
+<p rend="noIndent">Det har vi fan ingen greie paa. Faar vi kaffe av dig?</p>
+</sp>
+<sp>
+<speaker>Jonatan</speaker>
+<p rend="noIndent">S&#x00F8;ndag sloss vi tyve kilometer herfra. Men de skal i kantonnement. Saa de kommer vel &#x2013; Det gj&#x00F8;r de vel.</p>
+</sp>
+<sp>
+<speaker><pb n="52"/>Cornelia</speaker>
+<p rend="noIndent">Naar saa du dem sidst Jonatan! Naar saa du Omar og guttene?</p>
+</sp>
+<sp>
+<speaker>Jonatan</speaker>
+<p rend="noIndent">Omar? Omar og Benedikt saa jeg fredag &#x2026; Fredag var det visst &#x2026;</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">Hvad gjorde de? Hvad sa Omar?</p>
+</sp>
+<sp>
+<speaker>Jonatan</speaker>
+<p rend="noIndent">Han &#x2013; han sat og luset sig da jeg saa ham sidst &#x2026; <stage>(soldatene ler &#x2013; opmuntret:)</stage> Sa han noget, var det til lusene sine!</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">Og &#x2013; og Benedikt? Har han nogen b&#x00F8;ker igjen? Nu kan jeg ikke sende ham fler!</p>
+</sp>
+<sp>
+<speaker>Jonatan</speaker>
+<stage>(sl&#x00F8;vt)</stage>
+<p rend="noIndent">Nu &#x2013; kan &#x2013; du &#x2013; ikke &#x2013; sende &#x2013; ham fler nei &#x2026; Vi er saa forbandet slitne!</p>
+</sp>
+<sp>
+<speaker>2den soldat</speaker>
+<p rend="noIndent">Har du du ikke mat til os, bedstemor? Matl&#x00F8;s gj&#x00F8;r motl&#x00F8;s &#x2013; kom med gryta, siden skal vi spille op til dans!</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">Jo dere skal faa mat, gutter &#x2013; og suppe &#x2013; Og kaffe &#x2026; Da kan de komme naar det skal v&#x00E6;re?</p>
+</sp>
+<sp>
+<speaker><pb n="53"/>Jonatan</speaker>
+<p rend="noIndent">Ja naar det skal v&#x00E6;re &#x2026;</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">Naar det skal v&#x00E6;re! Ja, dere skal faa mat &#x2013; <stage>(hun skynder sig ut til venstre, de h&#x00F8;rer hende rope &#x2013; hun aapner d&#x00F8;ren igjen.)</stage> Du blir vel forundret, Jonatan &#x2013; men Magdalena er her, ogsaa.</p>
+</sp>
+<sp>
+<speaker>Jonatan</speaker>
+<p rend="noIndent">Jeg blir ikke forundret mer, fru Cornelia.</p>
+</sp>
+<stage>(<hi rend="bold">Cornelia</hi> lukker d&#x00F8;ren.)</stage>
+<sp>
+<speaker>2den soldat</speaker>
+<p rend="noIndent">Det var et staselig fruentimmer! D&#x00F8;d og plage!</p>
+</sp>
+<sp>
+<speaker>1ste soldat</speaker>
+<p rend="noIndent">Har du tobak?</p>
+</sp>
+<stage>(<hi rend="bold">Magdalena</hi> kommer sagte ind &#x2013; ser fangene &#x2013; braastanser.)</stage>
+<sp>
+<speaker>2den soldat</speaker>
+<p rend="noIndent">En pike! D&#x00F8;d og plage!</p>
+</sp>
+<sp>
+<speaker>1ste soldat</speaker>
+<p rend="noIndent">En vakker jente!</p>
+</sp>
+<sp>
+<speaker>2den soldat</speaker>
+<p rend="noIndent">V&#x00E6;r ikke r&#x00E6;dd, fr&#x00F8;ken. De biter ikke nu!</p>
+</sp>
+<sp>
+<speaker>Magdalena</speaker>
+<p rend="noIndent">Ta dem v&#x00E6;k! De kan ikke v&#x00E6;re her!</p>
+</sp>
+<sp>
+<speaker>2den soldat</speaker>
+<p rend="noIndent">De maa v&#x00E6;re d&#x00E9;r vi er!</p>
+</sp>
+<sp>
+<speaker><pb n="54"/>Jonatan</speaker>
+<p rend="noIndent">Goddag, Magdalena!</p>
+</sp>
+<sp>
+<speaker>Magdalena</speaker>
+<stage>(stusser, ser mer paa ham)</stage>
+<p rend="noIndent">Er det &#x2013; dig &#x2013; Jonatan? Er &#x2026;? <emph>Er</emph>?</p>
+</sp>
+<sp>
+<speaker>Jonatan</speaker>
+<p rend="noIndent">Nei. Det er bare mig. Vi er kommet v&#x00E6;k fra de andre.</p>
+</sp>
+<sp>
+<speaker>Magdalena</speaker>
+<stage>(stirrer paa ham)</stage>
+<p rend="noIndent">Men &#x2013; jeg kjendte dig da igjen.</p>
+</sp>
+<sp>
+<speaker>Jonatan</speaker>
+<stage>(stirrer)</stage>
+<p rend="noIndent">Ja &#x2013; vi kjendte da hverandre igjen! Og &#x2013; og du er her? V&#x00E6;r ikke r&#x00E6;d. De er bundet. Hvad &#x2013; hvad gj&#x00F8;r du her? <emph>Her</emph>?</p>
+</sp>
+<sp>
+<speaker>Magdalena</speaker>
+<p rend="noIndent">Vi faar lov at bo her. Hun &#x2013; hun gir mat til dem som kommer forbi. Nogen ligger her om natten. Syke soldater har ligget her &#x2026; Hun gaar ut paa veien &#x2026; Hun gir dem drikke &#x2026; Vi venter! Vi venter!</p>
+</sp>
+<sp>
+<speaker>1ste soldat</speaker>
+<p rend="noIndent">Har du n&#x00F8;dig vente, du?</p>
+</sp>
+<sp>
+<speaker>Magdalena</speaker>
+<stage>(&#x00E6;nser ham ikke)</stage>
+<p rend="noIndent">Hun er god imot alle. Hun &#x2013; hun synes alle er Benedikts bror. Og sommetider synes <pb n="55"/>jeg ogsaa &#x2013; jeg ogsaa &#x2026; Naar hun ber med mig! Hun har git alt, hun har! Hun tror &#x2013; hun tror bestandig &#x2026;</p>
+</sp>
+<sp>
+<speaker>Jonatan</speaker>
+<p rend="noIndent">At krigen skal slutte?</p>
+</sp>
+<sp>
+<speaker>1ste soldat</speaker>
+<p rend="noIndent">Da er hun fan ta mig ikke klok!</p>
+</sp>
+<sp>
+<speaker>Magdalena</speaker>
+<stage>(&#x00E6;nser ham ikke)</stage>
+<p rend="noIndent">Hun tror, Omar skal stanse den &#x2013; Omar &#x2013; og Benedikt &#x2013; og Adam &#x2013; og du &#x2026; <stage>(soldatene ler.)</stage> Hun sp&#x00F8;r alle, vi m&#x00F8;ter: har dere ikke h&#x00F8;rt at nu vil soldatene slutte? Har dere ikke h&#x00F8;rt om &#x00E9;n som heter Omar? Mine s&#x00F8;nner, sier hun, mine s&#x00F8;nner som ikke vil det onde &#x2026;.</p>
+</sp>
+<sp>
+<speaker>Jonatan</speaker>
+<p rend="noIndent">Hun er forrykt! <stage>(tar sig til hodet.)</stage> Hun eller vi.</p>
+</sp>
+<sp>
+<speaker>Magdalena</speaker>
+<p rend="noIndent">Men ingen har h&#x00F8;rt noget! Ingen! Ingen! De ler av hende! De spotter hende. Men hun sier bare &#x2013; hun sp&#x00F8;r bare: skal jeg hj&#x00E6;lpe dig? Hun vaaker hos dem, hun finder ved veikanten.</p>
+</sp>
+<sp>
+<speaker>1ste soldat</speaker>
+<p rend="noIndent">Det var fan &#x2013;</p>
+</sp>
+<sp>
+<speaker>Magdalena</speaker>
+<p rend="noIndent">Hun har bodd i uthuser &#x2026; Hun leter op <pb n="56"/>de elendige &#x2026; Hvis vi var som hende kom Gud til os &#x2013;</p>
+</sp>
+<sp>
+<speaker>Jonatan</speaker>
+<stage>(heftig)</stage>
+<p rend="noIndent">Men ingen er som hende! Hun skulde holde op! For hun er alene!</p>
+</sp>
+<sp>
+<speaker>2den soldat</speaker>
+<p rend="noIndent">Du skulde se og komme dig herfra, du.</p>
+</sp>
+<sp>
+<speaker>Magdalena</speaker>
+<p rend="noIndent">Ja &#x2013;. Nu gaar jeg &#x2026;</p>
+</sp>
+<sp>
+<speaker>2den soldat</speaker>
+<p rend="noIndent">V&#x00E6;k. Komme dig <emph>v&#x00E6;k</emph>.</p>
+</sp>
+<sp>
+<speaker>Jonatan</speaker>
+<p rend="noIndent">Han mener &#x2026;</p>
+</sp>
+<sp>
+<speaker>2den soldat</speaker>
+<p rend="noIndent">Smaajomfruer skal ikke gaa ut i skogen til dyrene &#x2026;</p>
+</sp>
+<sp>
+<speaker>Magdalena</speaker>
+<p rend="noIndent">Jeg er &#x2026; Det er det samme hvor jeg er!</p>
+<stage>(Styrter ut til venstre)</stage>
+</sp>
+<stage>(<hi rend="bold">2den soldat</hi> har fundet frem en mugge med drikke og glas.)</stage>
+<sp>
+<speaker>En fange</speaker>
+<p rend="noIndent">Gi os at drikke.</p>
+</sp>
+<sp>
+<speaker>1ste soldat</speaker>
+<p rend="noIndent">Kom og ta i, gutter &#x2013; vi s&#x00E6;tter b&#x00E6;nken frem til bordet.</p>
+</sp>
+<sp>
+<speaker><pb n="57"/>Anden fange</speaker>
+<p rend="noIndent">De h&#x00F8;rer os ikke. Vi er ikke levende mer.</p>
+</sp>
+<stage>(<hi rend="bold">Adam</hi>, <hi rend="bold">Henrik</hi>, <hi rend="bold">ung soldat</hi>, <hi rend="bold">en graahaaret soldat</hi> stimer ind.)</stage>
+<sp>
+<speaker>Adam</speaker>
+<p rend="noIndent">Hallo!</p>
+</sp>
+<sp>
+<speaker>Henrik</speaker>
+<stage>(samtidig)</stage>
+<p rend="noIndent">Her er folk f&#x00F8;r!</p>
+</sp>
+<sp>
+<speaker>Adam</speaker>
+<p rend="noIndent">Jonatan! Er ikke <emph>du</emph> himlet?</p>
+</sp>
+<sp>
+<speaker>Graahaaret soldat</speaker>
+<p rend="noIndent">Fins her drikke? Fy fan til m&#x00F8;kk!</p>
+</sp>
+<sp>
+<speaker>Ung soldat</speaker>
+<p rend="noIndent">Det v&#x00E6;rker slik &#x2026;</p>
+</sp>
+<sp>
+<speaker>Jonatan</speaker>
+<stage>(samtidig)</stage>
+<p rend="noIndent">Hallo! Er det <emph>dere</emph>?</p>
+</sp>
+<sp>
+<speaker>1ste soldat</speaker>
+<p rend="noIndent">Det er fjerde kompani. De sloss om s&#x00F8;ndag.</p>
+</sp>
+<sp>
+<speaker>Graahaaret soldat</speaker>
+<stage>(spytter paa fangene)</stage>
+<p rend="noIndent">Holder dere ut&#x00F8;i?</p>
+</sp>
+<sp>
+<speaker>Ung soldat</speaker>
+<p rend="noIndent">Jeg er saa syk &#x2013;</p>
+</sp>
+<sp>
+<speaker><pb n="58"/>2den soldat</speaker>
+<p rend="noIndent">S&#x00E6;t dig ned og hold kj&#x00E6;ft! Her er ikke noget hospital!</p>
+</sp>
+<stage>(Alle b&#x00E6;nker sig snakkende rundt bordet, t&#x00E6;nder piper og cigaretter &#x2013; drikker, snakker.)</stage>
+<sp>
+<speaker>1ste soldat</speaker>
+<p rend="noIndent">Traakk mig ikke paa bena &#x2013; jeg har liktorn! <stage>(latter.)</stage></p>
+<stage>Synger:</stage>
+<lg>
+<l>Vi drar ut og slaass</l>
+<l>hvorfor, det v&#x00E9;t ingen!</l>
+<l>Nogen dr&#x00E6;per os &#x2013;</l>
+<l>Hvorfor, det v&#x00E9;t ingen!</l>
+</lg>
+</sp>
+<sp>
+<speaker>Henrik</speaker>
+<p rend="noIndent">Adam &#x2013; han d&#x00E9;r &#x2013; han bes&#x00F8;rget tretten, alene, han: Med revolverne! S&#x00F8;ndag &#x2026;</p>
+</sp>
+<sp>
+<speaker>2den soldat</speaker>
+<p rend="noIndent">Alene? Det var katten!</p>
+</sp>
+<sp>
+<speaker>1ste soldat</speaker>
+<p rend="noIndent">Du &#x2013; tok dem vel paa ei snor da liksom &#x2013; liksom<note type="footnote">liksom] <hi rend="italic">rettet fra:</hi> iksom <hi rend="italic">(trykkfeil)</hi></note> han med gj&#x00E6;ssene?</p>
+</sp>
+<sp>
+<speaker>2den soldat</speaker>
+<p rend="noIndent">Hold mund &#x2013; saa vi kan h&#x00F8;re!</p>
+</sp>
+<sp>
+<speaker>Adam</speaker>
+<stage>(er begyndt at fort&#x00E6;lle)</stage>
+<p rend="noIndent">&#x2026; Inde i en retr&#x00E6;t &#x2013; inde i et rottehul! Og da jeg skj&#x00F8;nte, det var fler derinde, stilte <pb n="59"/>jeg mig bakom s&#x00E6;kkene &#x2026; Jeg stilte mig op og ventet &#x2026; Sergeanten kom f&#x00F8;rst &#x2026; Idet samme han kom krypende, syntes jeg grangivelig &#x2013; &#x2013; Men det kan v&#x00E6;re det samme. Jeg drog til ham over nakken &#x2013; <stage>(pr&#x00F8;ver le)</stage>. Det knyste ikke i ham &#x2026; Men den n&#x00E6;ste skrek, da jeg skj&#x00F8;t. Det &#x2013; det skulde fan hente v&#x00E6;re forbudt at hvine! De andre h&#x00F8;rte ham. Men d&#x00E9;r inde kunde de jo ikke bli, hva? De hadde jo ikke luft.</p>
+</sp>
+<sp>
+<speaker>1ste soldat</speaker>
+<stage>(henrykt)</stage>
+<p rend="noIndent">Nei det er greit! De hadde ikke luft! De maatte ut til dig og puste!</p>
+</sp>
+<sp>
+<speaker>Ung soldat</speaker>
+<p rend="noIndent">Jeg er saa tr&#x00E6;t &#x2026;</p>
+</sp>
+<sp>
+<speaker>Graahaaret soldat</speaker>
+<p rend="noIndent">Gi taal &#x2013; snart faar du sove til dommedag!</p>
+</sp>
+<sp>
+<speaker>2den soldat</speaker>
+<p rend="noIndent">Tretten! D&#x00E6;gern! &#x2013; <stage>(til Jonatan)</stage>. Det hadde ikke <emph>du</emph> greid, veikingen!</p>
+</sp>
+<sp>
+<speaker>Jonatan</speaker>
+<p rend="noIndent">Jeg tok en &#x2013; torsdagsnatten. Vil du endelig vite det.</p>
+</sp>
+<sp>
+<speaker>2den soldat</speaker>
+<p rend="noIndent">Heisan! En hel?</p>
+</sp>
+<sp>
+<speaker><pb n="60"/>Henrik</speaker>
+<p rend="noIndent"><emph>Han</emph>? Vakten? Forposten? <stage>(Jonatan nikker.)</stage> Han du pratet med hver kveld?</p>
+</sp>
+<sp>
+<speaker>Graahaaret soldat</speaker>
+<p rend="noIndent">Han grov og spurte efter kvindfolkene vore, rimeligvis?</p>
+</sp>
+<sp>
+<speaker>Jonatan</speaker>
+<stage>(til <hi rend="bold">Henrik</hi> og <hi rend="bold">Adam</hi>)</stage>
+<p rend="noIndent">Tre kvelder snakket vi sammen. Tre kvelder kr&#x00F8;p vi og m&#x00F8;ttes &#x2013; derute. Han var en kristen.</p>
+</sp>
+<sp>
+<speaker>2den soldat</speaker>
+<p rend="noIndent">Jagu sa jeg kristen!</p>
+</sp>
+<sp>
+<speaker>Jonatan</speaker>
+<p rend="noIndent">Han t&#x00E6;nkte som jeg &#x2026; t&#x00E6;nkte f&#x00F8;r &#x2026; Vi snakket om krigen. Han trodde dette blev den sidste krig. Han trodde liksom mig. &#x2013; Vi snakket om Kristus. &#x2013; Men den fjerde kvelden blev det maanelyst. Da syntes jeg, med ett, at han drog sig for at <emph>se</emph> paa mig. Dersom en kunde <emph>tro</emph> &#x2026; Men jeg <emph>saa</emph> han stakk n&#x00E6;ven i lommen! Jeg hadde revolveren i gr&#x00E6;sset foran mig. F&#x00F8;r jeg viste av det hadde jeg drad til. Jeg syntes, han fik noget i blikket &#x2026; Og jeg lar mig ikke lure l&#x00E6;nger!</p>
+</sp>
+<sp>
+<speaker>Adam</speaker>
+<p rend="noIndent">Nei. Nei, d&#x00E9;r er det! En kan aldrig <emph>vite</emph>. Kunde en <emph>vite</emph>, saa! Kunde en v&#x00E6;re sikker saa! <pb n="61"/>Br&#x00E6;ndsikker paa at de og vi, i samme sekund, kunde lite paa hverandre!</p>
+</sp>
+<sp>
+<speaker>Henrik</speaker>
+<p rend="noIndent">Ja kunde en tro en fiende, saa!</p>
+</sp>
+<stage>(Alle ler.)</stage>
+<sp>
+<speaker>Adam</speaker>
+<p rend="noIndent">Men det er det fandens sekundet!</p>
+</sp>
+<sp>
+<speaker>Graahaaret soldat</speaker>
+<p rend="noIndent">At fyre f&#x00F8;rst er bedre end at tro sidst, folkens.</p>
+</sp>
+<sp>
+<speaker>1ste soldat</speaker>
+<stage>(synger)</stage>
+<lg>
+<l>Vi drar ut og slaass &#x2013;</l>
+<l>hvorfor, det v&#x00E9;t ingen!</l>
+<l>Nogen dr&#x00E6;per os &#x2013;</l>
+<l>hvorfor, det v&#x00E9;t ingen &#x2026;</l>
+</lg>
+</sp>
+<sp>
+<speaker>Ung soldat</speaker>
+<p rend="noIndent">Jeg har saa ondt. Jeg har saa ondt.</p>
+</sp>
+<sp>
+<speaker>Magdalena</speaker>
+<stage>(b&#x00E6;rer tallerkener etc.)</stage>
+<p rend="noIndent">Nu kommer jeg straks med suppen &#x2013; Aa &#x2013; Er her fler kommet?</p>
+</sp>
+<sp>
+<speaker>Henrik, Adam, ung soldat</speaker>
+<p rend="noIndent">Magdalena!</p>
+</sp>
+<sp>
+<speaker>Magdalena</speaker>
+<p rend="noIndent">God dag, Henrik. God dag, Adam. God dag, allesammen &#x2026; <stage>(s&#x00E6;tter fra sig det hun b&#x00E6;rer.)</stage> Jeg skal hente flere tallerkener &#x2026; <stage>(skynder sig ut)</stage>.</p>
+</sp>
+<sp>
+<speaker><pb n="62"/>Adam</speaker>
+<p rend="noIndent"><emph>Magdalena</emph> &#x2026;! Her! Og hun saa ikke paa os.</p>
+</sp>
+<sp>
+<speaker>Henrik</speaker>
+<stage>(til Jonatan)</stage>
+<p rend="noIndent">Visste du det? <emph>Visste</emph> du hun var her?</p>
+</sp>
+<sp>
+<speaker>Jonatan</speaker>
+<p rend="noIndent">Fru Cornelia er her ogsaa.</p>
+</sp>
+<sp>
+<speaker>Adam</speaker>
+<p rend="noIndent">Fru Cornelia!</p>
+</sp>
+<sp>
+<speaker>Henrik</speaker>
+<p rend="noIndent">Og du sier ingenting!</p>
+</sp>
+<sp>
+<speaker>Jonatan</speaker>
+<p rend="noIndent">Jeg t&#x00E6;nkte dere fik tidsnok vite det.</p>
+</sp>
+<sp>
+<speaker>Adam</speaker>
+<p rend="noIndent">Hun &#x2013; hun vaaget ikke se paa os &#x2026; God dag, Adam, sa hun. Og saa ikke paa mig.</p>
+</sp>
+<sp>
+<speaker>Henrik</speaker>
+<p rend="noIndent">Nei. Nei hun tok os ikke i haanden.</p>
+</sp>
+<sp>
+<speaker>Ung soldat</speaker>
+<p rend="noIndent">Vi har vel noget paa h&#x00E6;ndene &#x2026;</p>
+</sp>
+<sp>
+<speaker>Jon</speaker>
+<stage>(i d&#x00F8;ren til h&#x00F8;ire)</stage>
+<p rend="noIndent">Er det her dere er &#x2013;</p>
+<stage>(blir staaende.)</stage>
+</sp>
+<sp>
+<speaker>Adam</speaker>
+<p rend="noIndent"><pb n="63"/>Morn, professor &#x2026;. Nu skulde jeg til at gaa efter dig! Her er overraskelser til dig, Jon.</p>
+</sp>
+<sp>
+<speaker>Henrik</speaker>
+<p rend="noIndent">Er du sliten? Har du Omar og Benedikt med dig. Her er &#x2026;</p>
+</sp>
+<sp>
+<speaker>Jonatan</speaker>
+<p rend="noIndent">Du er saa blond midt i fj&#x00E6;set &#x2026; er du sjuk, Jon?</p>
+</sp>
+<sp>
+<speaker>Jon</speaker>
+<p rend="noIndent">Benedikt. Benedikt er. Han er.</p>
+</sp>
+<stage>(<hi rend="bold">Ung soldat</hi> gjemmer ansigtet i h&#x00E6;ndene og gir sig sagte.)</stage>
+<sp>
+<speaker>Adam</speaker>
+<p rend="noIndent"><emph>Naar</emph>?</p>
+</sp>
+<sp>
+<speaker>Henrik</speaker>
+<p rend="noIndent"><emph>S&#x00F8;ndag</emph>?</p>
+</sp>
+<sp>
+<speaker>Jonatan</speaker>
+<p rend="noIndent">Da vi stormet?</p>
+</sp>
+<stage>(<hi rend="bold">Jon</hi> er gaat frem paa gulvet &#x2013; kameratene staar omkring ham &#x2013;.)</stage>
+<sp>
+<speaker>Adam</speaker>
+<p rend="noIndent">Snak da gut!</p>
+</sp>
+<sp>
+<speaker>Jon</speaker>
+<p rend="noIndent">Omar hadde vakt &#x2013;. Forrest. Jeg ogsaa hadde vakt. &#x2013; Det var l&#x00F8;rdags kvelden &#x2026; kvelden f&#x00F8;r angrepet. L&#x00F8;itnanten &#x2026; l&#x00F8;itnanten sa til os, at vaktene stod inde for utfaldet &#x2013; for utfaldet imorgen, sa han. At her ingenting sker i nat, sa han. Det var skodde.</p>
+</sp>
+<sp>
+<speaker><pb n="64"/>Jonatan</speaker>
+<p rend="noIndent">Ja. T&#x00E6;t skodde.</p>
+</sp>
+<sp>
+<speaker>Jon</speaker>
+<p rend="noIndent">Klokken ett, like f&#x00F8;r avl&#x00F8;sningen h&#x00F8;rte Omar &#x2026; Han saa tre stykker komme krypende. Tre, som kom krypende i skodden. Han ropte dem an. Men de kr&#x00F8;p videre &#x2026; Da sigtet han ind. Men f&#x00F8;rst ropte han en gang til &#x2026; Men de blev ved. Da skj&#x00F8;t han. Han skj&#x00F8;t den n&#x00E6;rmeste. Han skj&#x00F8;t Benedikt.</p>
+</sp>
+<sp>
+<speaker>Jonatan</speaker>
+<p rend="noIndent">Nei. Nei! Ikke Benedikt!</p>
+</sp>
+<sp>
+<speaker>Adam</speaker>
+<p rend="noIndent">Men &#x2013; hvorfor svarte de ikke?</p>
+</sp>
+<sp>
+<speaker>Graahaaret soldat</speaker>
+<p rend="noIndent">Hvem skj&#x00F8;t han?</p>
+</sp>
+<sp>
+<speaker>1ste soldat</speaker>
+<p rend="noIndent">En anden soldat.</p>
+</sp>
+<sp>
+<speaker>Graahaaret soldat</speaker>
+<p rend="noIndent">Puss faen! I f&#x00F8;rste kompani d&#x00E9;r skj&#x00F8;t de sjelve kommandanten sin, for tre maan&#x0027;er siden &#x2026;</p>
+</sp>
+<sp>
+<speaker>Adam</speaker>
+<p rend="noIndent">De maatte da <emph>svare</emph>!</p>
+</sp>
+<sp>
+<speaker><pb n="65"/>Jon</speaker>
+<p rend="noIndent">De sanset ingenting &#x2026; De kr&#x00F8;p for livet. De hadde v&#x00E6;ret ute og rekognosert &#x2013; de var blit d&#x00F8;grvill, de visste ikke hvor de var, de bare kr&#x00F8;p <emph>paa</emph>.</p>
+</sp>
+<sp>
+<speaker>Henrik</speaker>
+<p rend="noIndent">De maatte ha h&#x00F8;rt! Han har ikke ropt! Han har skutt uten at varsle!</p>
+</sp>
+<sp>
+<speaker>Jonatan</speaker>
+<p rend="noIndent">Hvor er Omar! Hvad sier Omar?</p>
+</sp>
+<sp>
+<speaker>Jon</speaker>
+<p rend="noIndent">Omar <stage>(l&#x00E6;gger armen for &#x00F8;inene.)</stage> Omar bare tier &#x2026;</p>
+</sp>
+<sp>
+<speaker>Ung soldat</speaker>
+<p rend="noIndent">Jeg vil hjem! Hj&#x00E6;lp mig hjem! Jeg vil ikke mer &#x2013; jeg vil ikke mer! Jeg vil hjem til de andre!</p>
+</sp>
+<sp>
+<speaker>En fange</speaker>
+<p rend="noIndent">H&#x00F8;r os gud i himlen! Hj&#x00E6;lp os hjem!</p>
+</sp>
+<sp>
+<speaker>Jonatan</speaker>
+<p rend="noIndent">Ja, la det slutte! Ta os ut av forbandelsen!</p>
+</sp>
+<sp>
+<speaker>2den soldat</speaker>
+<p rend="noIndent">Hurra for suppa, gutter!</p>
+</sp>
+<sp>
+<speaker>Magdalena</speaker>
+<stage>(med en rykende gryte, s&#x00E6;tter den midt paa bordet)</stage>
+<p rend="noIndent">V&#x00E6;rsego&#x0027; alle-sammen!</p>
+</sp>
+<stage>(Soldatene begynder at spise graadig.)</stage>
+<sp>
+<speaker><pb n="66"/>Jon</speaker>
+<stage>(skriker)</stage>
+<p rend="noIndent"><emph>Du</emph>!</p>
+</sp>
+<sp>
+<speaker>Magdalena</speaker>
+<p rend="noIndent">Jon! Hvor &#x2013; hvor er Benedikt?</p>
+</sp>
+<sp>
+<speaker>Jon</speaker>
+<p rend="noIndent">Han &#x2013;, nu &#x2013; nu kommer Omar &#x2013; Omar vet om Benedikt, Omar &#x2013;</p>
+</sp>
+<sp>
+<speaker>Magdalena</speaker>
+<p rend="noIndent">Er han der ute? Er han utenfor &#x2013; Har du set ham?</p>
+</sp>
+<sp>
+<speaker>Adam</speaker>
+<stage>(frem)</stage>
+<p rend="noIndent"><emph>Jeg</emph> saa Benedikt, Magdalena! Jeg saa ham idag en uke siden. Han sat i skyttergraven &#x2013; det var kveld. Vi sat omkring ham &#x2013; mange. Da sang han for os. Da sang han sangen om stjernen &#x2013; og markene &#x2013; og aftenklokken. Og guttene blev stille og bad: Syng mer. Syng den en gang til, bad de. For han sang os hjem. Og ansigtet hans var mildt og hvitt som &#x2013;</p>
+</sp>
+<sp>
+<speaker>Magdalena</speaker>
+<p rend="noIndent">Som en engel er Benedikts ansigt.</p>
+</sp>
+<sp>
+<speaker>Ung soldat</speaker>
+<p rend="noIndent">Alle elsket &#x2013; Alle elsker Benedikt! Naar han kommer roper de: kommer du ikke til <emph>os</emph>? Bli hos os, roper de. &#x2013; Det er noget i hans &#x00F8;ie &#x2026;</p>
+</sp>
+<sp>
+<speaker><pb n="67"/>Magdalena</speaker>
+<p rend="noIndent">Benedikts &#x00F8;ine skinner.</p>
+</sp>
+<sp>
+<speaker>Jonatan</speaker>
+<stage>(frem)</stage>
+<p rend="noIndent">Det var for to maaneder siden &#x2026; Jeg mindes for to maaneder siden &#x2013; Vi laa i en stald &#x2013; jeg sov ikke &#x2026; Vi sov ikke &#x2013; ingen faar sove &#x2013; for det er vaar &#x2026; Vi laa og t&#x00E6;nkte &#x2026; Da ligger vi og t&#x00E6;nker paa kvinder. Blodet br&#x00E6;nder &#x2013; vi kan ikke staa imot &#x2013; vi &#x00F8;rsker &#x2013; vi fort&#x00E6;res &#x2013; H&#x00E6;ndene vore mindes &#x2026; l&#x00E6;bene vore husker &#x2013; vi blir vilde, vi hisser hverandre, vi forraader &#x2026; Da reiser &#x00E9;n sig og vi ser ham bare som en skygge, som et tegn &#x2026; Han begynder at snakke til os &#x2013; Det er Benedikt, som sier noget til os. Og vi tystner. For det er noget ved hans r&#x00F8;st &#x2013;</p>
+</sp>
+<sp>
+<speaker>Magdalena</speaker>
+<p rend="noIndent">Ja. Og alle lytter, lytter til Benedikts r&#x00F8;st &#x2026;</p>
+</sp>
+<sp>
+<speaker>Jonatan</speaker>
+<p rend="noIndent">Han taler om kj&#x00E6;rligheten &#x2013; han taler til os om de unge pikene &#x2013; om kvindene hjemme &#x2013; om dig, Magdalena! Og tankene vore blir anderledes &#x2026; Vi husker dere, naar dere gaar til kirken &#x2013; vi mindes kveldene, naar dere synger under tr&#x00E6;rne. Vi er ikke forlatt l&#x00E6;nger &#x2013; vi er ikke ford&#x00F8;mt mer!</p>
+</sp>
+<stage>(<hi rend="bold">Magdalena</hi> brister i graat.)</stage>
+<sp>
+<speaker><pb n="68"/>Jon</speaker>
+<p rend="noIndent">Vi &#x2013; vi gik sammen over marken. Da fandt han en liten fugl. Den laa paa jorden og r&#x00F8;rte sig ikke. La den ligge, sa jeg, vi kan ikke hefte os med smaa fugler. Den lever, svarte Benedikt &#x2013; og da har den det vondt. Og han tok den og gjemte den hos sig. Han tok fuglen. Han gjemte den paa brystet sit. Han bar den med sig og matet den. En dag kunde den flyve som de andre &#x2026;</p>
+</sp>
+<stage>(<hi rend="bold">Magdalena</hi> har foldet h&#x00E6;ndene; hun gaar sagte ut til venstre.)</stage>
+<sp>
+<speaker>Anden fange</speaker>
+<p rend="noIndent">Gi os mat!</p>
+</sp>
+<sp>
+<speaker>Ung soldat</speaker>
+<stage>(opr&#x00F8;rt)</stage>
+<p rend="noIndent">Han kunde spart Benedikt! <stage>(fortvilet)</stage> Benedikt ogsaa.</p>
+</sp>
+<sp>
+<speaker>Graahaaret soldat</speaker>
+<p rend="noIndent">Krigen er som hunden, han &#x2013; eter kj&#x00F8;ttet og eter beina &#x2013; al mat paa ett fat &#x2013; smaagutter og graah&#x00E6;ringer &#x2013; han kr&#x00E6;ser ingen, han &#x2013;</p>
+</sp>
+<sp>
+<speaker>2den soldat</speaker>
+<p rend="noIndent">Skaal, gamle godbit!</p>
+</sp>
+<sp>
+<speaker>Adam</speaker>
+<p rend="noIndent">Din mor er der ute, Jon.</p>
+</sp>
+<sp>
+<speaker><pb n="69"/>Jon</speaker>
+<p rend="noIndent">Mor!? Nei &#x2026; Nei &#x2026; ikke mor! Omar faar si det selv &#x2026; <stage>(springer ut til h&#x00F8;ire)</stage>.</p>
+</sp>
+<sp>
+<speaker>En fange</speaker>
+<stage>(til <hi rend="bold">anden fange</hi>)</stage>
+<p rend="noIndent">Snu ryggen til dem &#x2013; saa slipper du se dem ete.</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<stage>(helgekl&#x00E6;dd, hun<note type="footnote">hun] <hi rend="italic">rettet fra:</hi> Hun <hi rend="italic">(trykkfeil)</hi></note> stanser og ser sig om)</stage>
+<p rend="noIndent">Hun sa, Jon var kommet &#x2026; Jeg ser ham ikke &#x2026;</p>
+</sp>
+<stage>(<hi rend="bold">Adam</hi>, <hi rend="bold">Henrik</hi>, <hi rend="bold">ung soldat</hi> reiser sig fra bordet, hilser.)</stage>
+<sp>
+<speaker>Adam</speaker>
+<p rend="noIndent">Jon er gaat efter &#x2013; efter de andre. God dag, fru Cornelia.</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">Adam! Henrik! Og du &#x2013; goddag, gutter &#x2013; velkommen! Det er mat der ute, soldater. Det staar en pande med kj&#x00F8;tt i gruen. Er dere f&#x00E6;rdig, kan dere hente den &#x2013; <stage>(<hi rend="bold">2den soldat</hi> reiser sig)</stage> Men det sitter &#x2026; Vi har et litet barn der ute. Nu sitter moren og gir det die. Gaa stille! <stage>(<hi rend="bold">2den soldat</hi> gaar ut til venstre &#x2013; <hi rend="bold">Cornelia</hi> ser paa fangene.)</stage> Sover de?</p>
+</sp>
+<sp>
+<speaker>Anden fange</speaker>
+<stage>(reiser hodet)</stage>
+<p rend="noIndent">Vi sulter og t&#x00F8;rster.</p>
+</sp>
+<sp>
+<speaker><pb n="70"/>Cornelia</speaker>
+<p rend="noIndent">Men her er mat! Reis dere og faa mat, venner.</p>
+</sp>
+<stage>(Fangene kommer sig op.)</stage>
+<sp>
+<speaker>Soldatene</speaker>
+<stage>(op fra bordet. Samtidig)</stage>
+<p rend="noIndent">Venner!</p>
+<p rend="noIndent">Det var satan!</p>
+<p rend="noIndent">Har du mistet vettet, bedstemor?</p>
+<p rend="noIndent">Fru Cornelia!</p>
+</sp>
+<sp>
+<speaker>Henrik</speaker>
+<p rend="noIndent">Vet du ikke hvem det er?</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">Nei! Kjender <emph>du</emph> dem, Henrik?</p>
+</sp>
+<stage>(Latter.)</stage>
+<sp>
+<speaker>Graahaaret soldat</speaker>
+<stage>(peker paa ung soldat)</stage>
+<p rend="noIndent">Sp&#x00F8;r liket der!</p>
+</sp>
+<sp>
+<speaker>Jonatan</speaker>
+<p rend="noIndent">Bed Vorherre at du aldrig blir kjendt med dem, fru Cornelia!</p>
+</sp>
+<sp>
+<speaker>2den soldat</speaker>
+<stage>(med et kar med kj&#x00F8;tt)</stage>
+<p rend="noIndent">Det er hende, jenten, som har ungen.</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<stage>(til <hi rend="bold">anden fange</hi>)</stage>
+<p rend="noIndent">Hvem er du?</p>
+</sp>
+<sp>
+<speaker><pb n="71"/>Anden fange</speaker>
+<p rend="noIndent">Min mor er enke, min s&#x00F8;ster er syk. Jeg fors&#x00F8;rger dem.</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">Han er eneste s&#x00F8;n. Likesom du, Jonatan. <stage>(til <hi rend="bold">en fange</hi>)</stage> Hvem er du?</p>
+</sp>
+<sp>
+<speaker>En fange</speaker>
+<p rend="noIndent">Far blev skutt for en uke siden.</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">Og din mor?</p>
+</sp>
+<sp>
+<speaker>En fange</speaker>
+<p rend="noIndent">De er seks hjemme &#x2013;</p>
+</sp>
+<sp>
+<speaker>Graahaaret soldat</speaker>
+<p rend="noIndent">Jeg har seks, jeg og, mutter! Men enda har de ikke faat ram paa mig de d&#x00E6;vlene.</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<stage>(til fangene)</stage>
+<p rend="noIndent">Hater dere disse?</p>
+<stage>(Peker paa soldatene. Stilhet.)</stage>
+</sp>
+<sp>
+<speaker>Anden fange</speaker>
+<p rend="noIndent">De er vore fiender &#x2026;&#x2026;&#x2026;&#x2026;&#x2026;. De pr&#x00F8;vde bryte ind i landet vort! De hadde baciller i br&#x00F8;ndene vore! De gjemte gift i bombene sine! Vi maatte v&#x00E6;rge os imot dem!</p>
+</sp>
+<sp>
+<speaker>Adam</speaker>
+<p rend="noIndent">Det er l&#x00F8;gn i din hals! Det var <emph>dere</emph>!</p>
+</sp>
+<sp>
+<speaker><pb n="72"/>Flere</speaker>
+<stage>(samtidig)</stage>
+<p rend="noIndent"><emph>Vi</emph>! Nei <emph>dere</emph>!</p>
+</sp>
+<sp>
+<speaker>Begge fanger</speaker>
+<p rend="noIndent">Det stod i avisene vore!</p>
+</sp>
+<sp>
+<speaker>Soldatene</speaker>
+<stage>(i kor)</stage>
+<p rend="noIndent">Nei, i <emph>vore</emph>!</p>
+</sp>
+<sp>
+<speaker>Begge fanger</speaker>
+<p rend="noIndent">Officerene sa det!</p>
+</sp>
+<sp>
+<speaker>Soldatene</speaker>
+<p rend="noIndent">Ja <emph>vore</emph>!</p>
+</sp>
+<sp>
+<speaker>Begge fanger</speaker>
+<p rend="noIndent">Dere begyndte!</p>
+</sp>
+<sp>
+<speaker>Soldatene</speaker>
+<p rend="noIndent">Nei dere! Det vet vi som <emph>saa</emph> dere komme, for fan!</p>
+</sp>
+<sp>
+<speaker>Anden fange</speaker>
+<p rend="noIndent">Ja for vi var rappere!</p>
+</sp>
+<sp>
+<speaker>Adam</speaker>
+<p rend="noIndent">Det fandens sekundet!</p>
+</sp>
+<sp>
+<speaker>En fange</speaker>
+<p rend="noIndent">Dette er ikke en krig som andre krige! Dette er et korstog! Dere er letf&#x00E6;rdige &#x2013; dere er ford&#x00E6;rvede! Dere &#x2026;</p>
+</sp>
+<stage>(V&#x00E6;ldig opstyr og rop.)</stage>
+<sp>
+<speaker><pb n="73"/>Cornelia</speaker>
+<p rend="noIndent">La ham tale, gutter.</p>
+</sp>
+<sp>
+<speaker>En fange</speaker>
+<p rend="noIndent">Gud har utvalgt os til at stanse dere f&#x00F8;r dere har styrtet verden i ford&#x00E6;rvelse! Var Kristus iblandt os, han vilde f&#x00F8;re os!</p>
+</sp>
+<sp>
+<speaker>2den soldat</speaker>
+<p rend="noIndent">Hold kj&#x00E6;ft! Han er med <emph>os</emph>!</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">Hysj! Hvem er du?</p>
+</sp>
+<sp>
+<speaker>En fange</speaker>
+<p rend="noIndent">Jeg skal bli prest i kirken &#x2013; om Gud vil!</p>
+</sp>
+<sp>
+<speaker>Jonatan</speaker>
+<p rend="noIndent">De er narret! De er blit narret likesom vi!</p>
+</sp>
+<sp>
+<speaker>Ung soldat</speaker>
+<stage>(bort til <hi rend="bold">Cornelia</hi>)</stage>
+<p rend="noIndent">Jeg hater dem ikke &#x2013; jeg vil ikke hate dem! Jeg hater ikke nogen &#x2013; jeg vil komme til Gud. Jeg vil ikke synde mer &#x2013; hj&#x00E6;lp mig til ikke at synde mer!</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">Ja jeg skal hj&#x00E6;lpe dig <stage>(peker paa <hi rend="bold">en fange</hi>).</stage> R&#x00E6;k ham haanden.</p>
+</sp>
+<sp>
+<speaker>Ung soldat</speaker>
+<stage>(dr&#x00F8;ier)</stage>
+<p rend="noIndent">Jeg er saaret &#x2026; Jeg er &#x00F8;delagt &#x2026;</p>
+</sp>
+<sp>
+<speaker><pb n="74"/>Cornelia</speaker>
+<stage>(til <hi rend="bold">en fange</hi>)</stage>
+<p rend="noIndent">R&#x00E6;k ham haanden du som skal tjene Kristus.</p>
+</sp>
+<sp>
+<speaker>En fange</speaker>
+<stage>(dr&#x00F8;ier)</stage>
+<p rend="noIndent">De skj&#x00F8;t min far.</p>
+</sp>
+<sp>
+<speaker>Henrik</speaker>
+<p rend="noIndent">Det nytter ikke l&#x00E6;nger, fru Cornelia! Vi er vaaknet, nu.</p>
+</sp>
+<sp>
+<speaker>Jonatan</speaker>
+<stage>(peker paa <hi rend="bold">ung soldat</hi>)</stage>
+<p rend="noIndent">Han der er ikke noget at bry sig om. Han skal d&#x00F8;, han.</p>
+</sp>
+<sp>
+<speaker>Adam</speaker>
+<p rend="noIndent">Det er for sent nu. Nu er vi for blodig &#x2026;</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">For sent? Det er aldrig for sent at begynde at bli god. Da er hvert minut Guds hellige minut. Gj&#x00F8;r det gode! Gj&#x00F8;r det idag! Gj&#x00F8;r det nu! Det er ikke andet, ikke andet, gutter! Saa enkelt er det, et barn kan fatte det.</p>
+</sp>
+<sp>
+<speaker>Adam</speaker>
+<p rend="noIndent">Ja et <emph>barn</emph>. Ikke m&#x00E6;nd.</p>
+</sp>
+<sp>
+<speaker>Jonatan</speaker>
+<p rend="noIndent">Saa enkelt at det er umulig.</p>
+</sp>
+<sp>
+<speaker><pb n="75"/>Adam</speaker>
+<p rend="noIndent">Ja &#x2013; umulig for den som vil <emph>leve</emph>.</p>
+</sp>
+<sp>
+<speaker>Henrik</speaker>
+<p rend="noIndent">Du kjender ikke krigen, fru Cornelia! Vent til den har rammet dig! Vent til den har rammet dig <emph>selv</emph>!</p>
+</sp>
+<stage>(Omar og Jon kommer fra h&#x00F8;ire.)</stage>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">Omar &#x2013; Omar! Jon! Guttene mine! <stage>(omfavner dem)</stage>. Aa, hvor du har magret &#x2013; Og <emph>du</emph>! Har dere hat det <emph>saa</emph> vondt! Og Benedikt &#x2026; &#x2026; &#x2026; &#x2026; Har dere set far?</p>
+</sp>
+<sp>
+<speaker>Jon</speaker>
+<p rend="noIndent">Far &#x2013; far berettet troppene l&#x00F8;rdag. Hele l&#x00F8;rdag. Han &#x2013; han gik fra kompani til kompani. &#x2013;</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<stage>(i r&#x00E6;dsel)</stage>
+<p rend="noIndent">L&#x00F8;rdag! &#x2013; <emph>Da dere skulde angripe</emph>?!</p>
+</sp>
+<sp>
+<speaker>1ste soldat</speaker>
+<p rend="noIndent">Ja han er satan til prest.</p>
+</sp>
+<sp>
+<speaker>Graahaaret soldat</speaker>
+<p rend="noIndent">Naar presten kommer med kalken vet vi det: nu har d&#x00F8;den aapnet kj&#x00E6;ften!</p>
+</sp>
+<sp>
+<speaker>Henrik</speaker>
+<p rend="noIndent"><emph>Han</emph> gir os sakramentet f&#x00F8;r bajonetkampen &#x2013; <pb n="76"/>da slaas vi som bare fan med syndsforlatelsen i livet, fru Cornelia!</p>
+</sp>
+<sp>
+<speaker>2den soldat</speaker>
+<p rend="noIndent">Da d&#x00F8;r vi som fluer for Vorherre.</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<stage>(har d&#x00E6;kket ansigtet)</stage>
+<p rend="noIndent">Gud v&#x00E6;re ham naadig &#x2026;. Naar kommer Benedikt? <stage>(stilhet)</stage> Er han der ute, Omar?</p>
+</sp>
+<sp>
+<speaker>Omar</speaker>
+<p rend="noIndent">Benedikt, mor &#x2013; Benedikt er ikke med os.</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">Du ser ikke paa mig, Omar &#x2026; Omar! Se paa mig!</p>
+</sp>
+<stage>(<hi rend="bold">Magdalena</hi> kommer stille ind, blir staaende nede ved d&#x00F8;ren.)</stage>
+<sp>
+<speaker>Omar</speaker>
+<p rend="noIndent">Benedikt kommer ikke &#x2026; Han kommer ikke mer.</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">Dr&#x00E6;pt! Dr&#x00E6;pt! De har dr&#x00E6;pt ham!</p>
+</sp>
+<sp>
+<speaker>Omar</speaker>
+<p rend="noIndent">Ja. Dr&#x00E6;pt.</p>
+</sp>
+<stage>(Cornelia vakler &#x2013; kn&#x00E6;ler, graater. Det blir stilt.)</stage>
+<sp>
+<speaker>2den soldat</speaker>
+<p rend="noIndent">Han sover ikke alene, gutten din.</p>
+</sp>
+<stage>(<hi rend="bold">Magdalena</hi> helder sig mot v&#x00E6;ggen &#x2013; langsomt &#x00E6;ndres hendes ansigt, slappes, blir uttryktsl&#x00F8;st, follet.)</stage>
+<sp>
+<speaker><pb n="77"/>Graahaaret soldat</speaker>
+<stage>(spisende)</stage>
+<p rend="noIndent">Graat graver ingen op av jora &#x2013;</p>
+</sp>
+<sp>
+<speaker>Omar</speaker>
+<p rend="noIndent">Mor &#x2013; Mor &#x2026; Kan du tilgi ham, mor? Han som &#x2026; Han som &#x2013;</p>
+</sp>
+<stage>(Cornelia graater uten at svare).</stage>
+<sp>
+<speaker>Anden fange</speaker>
+<p rend="noIndent">Gi os mad<note type="footnote">mad] <hi rend="italic">rettet fra:</hi> med <hi rend="italic">(trykkfeil)</hi></note> dere!</p>
+</sp>
+<sp>
+<speaker>Omar</speaker>
+<p rend="noIndent">Mor &#x2013; kan du tilgi ham?</p>
+</sp>
+
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">Ha taalmodighet med mig &#x2013; Hj&#x00E6;lp &#x2013; mig &#x2013; Gud &#x2013; at tilgi &#x2026; At tilgi den blinde kulen &#x2013; som fandt det reneste hjerte &#x2026; Hj&#x00E6;lp mig at forlate ham som ravet i m&#x00F8;rke &#x2013; og &#x2013; skj&#x00F8;t &#x2013; &#x2013; Og &#x2013; skj&#x00F8;t &#x2013; gutten &#x2013; min &#x2013; Og visste &#x2013; ikke &#x2013; hvad &#x2013; han &#x2013; gjorde &#x2026; Og &#x2013; var en s&#x00F8;n &#x2013; en s&#x00F8;n som som min lille s&#x00F8;n &#x2013; &#x2013; Som Benedikt. Likesom alle disse.</p>
+</sp>
+<stage>(<hi rend="bold">Omar</hi> bryter ut i graat.)</stage>
+<sp>
+<speaker>Henrik</speaker>
+<stage>(stirrer paa <hi rend="bold">Cornelia</hi>)</stage>
+<p rend="noIndent">Aldrig hadde jeg trodd det!</p>
+</sp>
+<sp>
+<speaker>Adam</speaker>
+<p rend="noIndent">Hun tilgir ham! Gud velsigne hende! Aa Gud velsigne hende bestandig!</p>
+</sp>
+<sp>
+<speaker><pb n="78"/>Jonatan</speaker>
+<stage>(i fortvilelse)</stage>
+<p rend="noIndent">Han derute var en bra kar! Men <emph>jeg</emph> skj&#x00F8;t! Han hadde l&#x00E6;rt, han hadde grublet &#x2013; han kunde sagt noget om jorden og himlen &#x2013; som ingen vil si f&#x00F8;r om tusen aar. <emph>Han</emph> hadde kanske fundet en l&#x00F8;sning &#x2013; l&#x00F8;sningen! Og ingen finder den paa tusen aar &#x2013; <emph>Jeg</emph> skj&#x00F8;t ham!</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">Hj&#x00E6;lp mig, herre! Ikke b&#x00E6;re nag &#x2026; ikke b&#x00E6;re nag &#x2026; L&#x00F8;ft m&#x00F8;rket, Gud! Stans misgjerningene! La det bli sidste gang! La det slutte. La hans hjerteblod rense din jord!</p>
+</sp>
+<sp>
+<speaker>Ung soldat</speaker>
+<p rend="noIndent">H&#x00F8;r hende, milde Gud!</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">Ta den store forvildelse fra os! La os komme hjem igjen til kj&#x00E6;rligheten! <emph>Og aldrig ville det mer</emph>.</p>
+</sp>
+<sp>
+<speaker>2den soldat</speaker>
+<p rend="noIndent">Ja la os faa komme hjem.</p>
+</sp>
+<stage>(Alle b&#x00F8;ier hodet, det blir tyst.)</stage>
+<sp>
+<speaker>Cornelia</speaker>
+<stage>(reiser sig, peker paa fangene)</stage>
+<p rend="noIndent">L&#x00F8;s dem. La dem faa spise.</p>
+<stage>(<hi rend="bold">Omar</hi> l&#x00F8;ser fangenes baand. Soldatene reiser sig og viker v&#x00E6;k fra bordet).</stage>
+<p rend="noIndent">S&#x00E6;t dere, gutter! <stage>(Soldatene dr&#x00F8;ier.)</stage></p>
+</sp>
+<sp>
+<speaker><pb n="79"/>Omar</speaker>
+<p rend="noIndent">La os gj&#x00F8;re som mor sier. Vi er i mors kirke, nu.</p>
+</sp>
+<stage>(Da gj&#x00F8;r soldatene plass for de to fanger. <hi rend="bold">Omar</hi> og <hi rend="bold">Jon</hi> s&#x00E6;tter sig ved siden av dem. De andre s&#x00E6;tter sig rundt bordet.)</stage>
+<sp>
+<speaker>2den soldat</speaker>
+<stage>(l&#x00E6;gger armen omkring <hi rend="bold">Magdalena</hi>)</stage>
+<p rend="noIndent">Vil du v&#x00E6;re hos mig inat?</p>
+</sp>
+<sp>
+<speaker>Magdalena</speaker>
+<stage>(ser paa ham, smiler fjollet, l&#x00E6;gger hodet ind til ham &#x2013; med lys r&#x00F8;st)</stage>
+<p rend="noIndent">Jeg skal v&#x00E6;re hos dere bestandig. Likesom Benedikt.</p>
+</sp>
+</div>
+<div type="chapter" subtype="act">
+<head type="main">TREDJE AKT</head>
+<stage><pb n="80"/>Kj&#x00F8;kkenet i prestens hus.</stage>
+<stage>Tapetet i filler, &#x00F8;delagt indbo &#x2013; halvparten av taket buer nedover.</stage>
+<stage>En flok kvinder kommer ind. De b&#x00E6;rer matkurver, vinflasker, gr&#x00F8;nne grener.</stage>
+<lb/><sp>
+<speaker>1ste ung pike</speaker>
+<p rend="noIndent">Her kan vi d&#x00E6;kke for dem. Her kan vi feste! Her i prestegaarden er det tak.</p>
+</sp>
+<sp>
+<speaker>Mager kone</speaker>
+<p rend="noIndent">Bare det ikke ramler ned og slaar nogen ihjel &#x2013; saan som hos Bertel.</p>
+</sp>
+<sp>
+<speaker>Halt kone</speaker>
+<p rend="noIndent">Nei da, det falder ikke! Vi sov her inde i sommer, ungene og jeg &#x2013; bjelkene er like gode, de &#x2013; det er bare himlingen.</p>
+</sp>
+<stage>(Alle s&#x00E6;tter fra sig det, de b&#x00E6;rer, tar paa at rydde, d&#x00E6;kker bord, pynter i rummet.)</stage>
+<sp>
+<speaker>Pleierske</speaker>
+<p rend="noIndent">Bor det ingen her?</p>
+</sp>
+<sp>
+<speaker><pb n="81"/>Tyk kone</speaker>
+<stage>(pakker ut av kurven sin)</stage>
+<p rend="noIndent">Nei naa bor det ingen her. Men naa kommer de straks de, som bor her. Det er prestegaarden, dette.</p>
+</sp>
+<sp>
+<speaker>1ste ung pike</speaker>
+<p rend="noIndent">Hu som jeg gl&#x00E6;der mig!</p>
+</sp>
+<sp>
+<speaker>2den ung pike</speaker>
+<p rend="noIndent">Jeg skj&#x00E6;lver! Se paa h&#x00E6;ndene mine hvor de skj&#x00E6;lver!</p>
+</sp>
+<sp>
+<speaker>Katolsk s&#x00F8;ster</speaker>
+<stage>(i f&#x00E6;rd med at h&#x00E6;nge op et madonnabilled av tr&#x00E6;)</stage>
+ <p rend="noIndent">Er det paterens bolig?</p>
+</sp>
+<sp>
+<speaker>Mager kone</speaker>
+<p rend="noIndent">Nei da &#x2013; det er frikirkepresten, som bor her.</p>
+</sp>
+<sp>
+<speaker>Katolsk s&#x00F8;ster</speaker>
+<stage>(vil ta billedet ned)</stage>
+<p rend="noIndent">Du skal ha tak for at jeg fik vite <emph>det</emph>.</p>
+</sp>
+<sp>
+<speaker>1ste ung pike</speaker>
+<stage>(griper billedet)</stage>
+<p rend="noIndent">Nei, nei! Ta ikke v&#x00E6;k Guds moder! La hende faa v&#x00E6;re hos os idag! Idag vil han ikke r&#x00F8;re hende. Har du ikke h&#x00F8;rt om presten, s&#x00F8;ster?</p>
+
+</sp>
+<sp>
+<speaker><pb n="82"/>2den ung pike</speaker>
+<p rend="noIndent">Han har bodd hos dem i skyttergravene &#x2013; Han har egget dem! Der <emph>han</emph> var slost de som tigere.</p>
+</sp>
+<sp>
+<speaker>1ste ung pike</speaker>
+<p rend="noIndent">Ikke bare han &#x2013; alle prestene! Alle prestene har hjulpet hverandre derute &#x2013; aldrig har de hat det saa travelt, aldrig har vi hat slik bruk for dem, sier far.</p>
+</sp>
+<sp>
+<speaker>Mager kone</speaker>
+<p rend="noIndent">Ja la den hellige jomfru h&#x00E6;nge, s&#x00F8;ster! Nu er det bare &#x00E9;n kirke hos os som har seiret.</p>
+</sp>
+<sp>
+<speaker>1ste ung pike</speaker>
+<p rend="noIndent">Vi stikker l&#x00F8;v i hullene &#x2013; se, nu l&#x00F8;ves alle granathullene i landet vort!</p>
+</sp>
+<sp>
+<speaker>Pleierske</speaker>
+<p rend="noIndent">Og De har skadd foten deres, stakkar!</p>
+</sp>
+<sp>
+<speaker>Halt kone</speaker>
+<p rend="noIndent">Jeg var like god tilbens som dig, s&#x00F8;ster &#x2013; Dette her, det fik jeg f&#x00F8;rste aaret, for fire aar siden, den h&#x00F8;sten de kom &#x2013; da rytterne kom over os. En hogg mig, her &#x2013; o Gud straffe ham evig!</p>
+</sp>
+<sp>
+<speaker><pb n="83"/>2den ung pike</speaker>
+<stage>(danser)</stage>
+<p rend="noIndent">Det gj&#x00F8;r han nok, det gj&#x00F8;r han nok! Og nu skal vi straffe dem, vi ogsaa!</p>
+</sp>
+<sp>
+<speaker>1ste ung pike</speaker>
+<stage>(danser med hende)</stage>
+<p rend="noIndent">Kjend paa hjertet mit! Kjend paa hjertet mit!</p>
+</sp>
+<sp>
+<speaker>Pleierske</speaker>
+<p rend="noIndent">Musik!</p>
+</sp>
+<sp>
+<speaker>Alle</speaker>
+<stage>(str&#x00F8;mmer til vinduerne)</stage>
+<p rend="noIndent">Musik &#x2013; De kommer &#x2013; Dernede! <stage>(gl&#x00E6;desrop, vifting ut av vinduerne, rop)</stage> Velkommen!</p>
+</sp>
+<sp>
+<speaker>1ste ung pike</speaker>
+<p rend="noIndent">Kom saa springer vi &#x2013; og m&#x00F8;ter dem og henter ind vore!</p>
+</sp>
+<sp>
+<speaker>2den ung pike</speaker>
+<p rend="noIndent">Ja &#x2013; Jon &#x2013; og Adam &#x2026; og Henrik &#x2026;</p>
+<stage>(begge to styrter ut).</stage>
+</sp>
+<sp>
+<speaker>Tyk kone</speaker>
+<stage>(til mager kone)</stage>
+<p rend="noIndent">Graat ikke, Anna! Graat ikke! Det er guttene dine vi kan takke for vi vandt!</p>
+</sp>
+<sp>
+<speaker>Mager kone</speaker>
+<p rend="noIndent">Men de kommer ikke igjen for det!</p>
+</sp>
+<sp>
+<speaker>Tyk kone</speaker>
+<p rend="noIndent">Vi skaffer os nye gutter vi, Anna! N&#x00E6;ste gang skal vi ha dobbelt saa mange som dem!</p>
+</sp>
+<sp>
+<speaker><pb n="84"/>Presten</speaker>
+<stage>(i feltprests kl&#x00E6;r, hurtig ind)</stage>
+<p rend="noIndent">Gudsfred! <stage>(stusser)</stage> Her er d&#x00E6;kket? Er min hustru her?</p>
+</sp>
+<sp>
+<speaker>Tyk kone</speaker>
+<stage>(neier)</stage>
+<p rend="noIndent">Velkommen hjem, prest! Nei, vi venter hende hver stund, pastor &#x2013; Hun er paa veien &#x2013;</p>
+</sp>
+<sp>
+<speaker>Halt kone</speaker>
+<p rend="noIndent">Nogen saa hende nordpaa igaar &#x2013; Men hun kom sig ikke med toget.</p>
+</sp>
+<sp>
+<speaker>Mager kone</speaker>
+<p rend="noIndent">Guttene tar togene &#x2013; de sitter paa taket &#x2013; de staar paa stigbrettet &#x2013; vi faar vente, vi andre &#x2013; Vi skal feste for guttene, pastor!</p>
+</sp>
+<sp>
+<speaker>Presten</speaker>
+<p rend="noIndent">Saa flakker hun enda omkring derute &#x2013; veivild &#x2013; alene. Arme Cornelia!</p>
+</sp>
+<sp>
+<speaker>Halt kone</speaker>
+<p rend="noIndent">Gud var med os, pastor!</p>
+</sp>
+<sp>
+<speaker>Presten</speaker>
+<p rend="noIndent">Ja han var med vort folk &#x2013; la os love og takke ham evindelig.</p>
+</sp>
+<stage>(Kvindene flokker sig om ham.)</stage>
+<sp>
+<speaker>Tyk kone</speaker>
+<stage>(storglad)</stage>
+<p rend="noIndent">Er det sandt de sulter ihjel derborte?</p>
+</sp>
+<sp>
+<speaker><pb n="85"/>Pleierske</speaker>
+<stage>(storglad)</stage>
+<p rend="noIndent">Er det sandt de mangler forbindingssaker &#x2013;? Og instrumenter? &#x2013; Og medicin?</p>
+</sp>
+<sp>
+<speaker>Tyk kone</speaker>
+<stage>(storglad)</stage>
+<p rend="noIndent">Og at det er d&#x00F8;d saa mange l&#x00E6;ger at de saarede ikke kan bli sett efter?</p>
+</sp>
+<sp>
+<speaker>Mager kone</speaker>
+<stage>(storglad)</stage>
+<p rend="noIndent">Er det sandt at barnene derborte kommer til verden som kr&#x00F8;plinger?</p>
+</sp>
+<sp>
+<speaker>Presten</speaker>
+<p rend="noIndent">Ja Herren vor Gud er en nidkj&#x00E6;r Gud &#x2013; Han &#x2026;</p>
+</sp>
+<stage>(<hi rend="bold">Soldater</hi> str&#x00F8;mmer ind &#x2013; med tr&#x00E6;kspil, arm i arm med kvinder, syngende, med gr&#x00F8;nne grener i h&#x00E6;ndene. Til slutt <hi rend="bold">Magdalena</hi>, i fillete soldaterkl&#x00E6;r. <hi rend="bold">Presten</hi> l&#x00F8;fter h&#x00E6;ndene velsignende.)</stage>
+<sp>
+<speaker>R&#x00F8;ster</speaker>
+<p rend="noIndent">Her kommer vi! Her er vi!</p>
+<p rend="noIndent">Hurra!</p>
+<p rend="noIndent">Herregud at jeg skulde leve denne dagen! Velkommen prest &#x2013;!</p>
+<p rend="noIndent">Ta av dere! S&#x00E6;t fra dere!</p>
+</sp>
+<sp>
+<speaker><pb n="86"/>Adams mor</speaker>
+<stage>(kysser <hi rend="bold">Adam</hi>)</stage>
+<p rend="noIndent">Gutten min! Snille, pene gutten min!</p>
+</sp>
+<sp>
+<speaker>Jonatans mor</speaker>
+<stage>(kysser <hi rend="bold">Jonatan</hi>)</stage>
+<p rend="noIndent">Aa Gud v&#x00E6;re lovet &#x2013; Han som h&#x00F8;rte mine b&#x00F8;nner! Du min eneste!</p>
+</sp>
+<p rend="noIndent"><hi rend="bold">Soldatene</hi> frir sig for oppakning, vaaben osv., hjulpet av kvindene. B&#x00E6;nker sig lit efter litt i bakgrunden rundt bordet med de unge piker &#x2013; utbrudd av gl&#x00E6;de og latter derfra under resten av akten.</p>
+<sp>
+<speaker>Jon</speaker>
+<stage>(roper)</stage>
+<p rend="noIndent">Hvad sa dere da freden kom, smaapiker?</p>
+</sp>
+<sp>
+<speaker>Kvindekor</speaker>
+<p rend="noIndent">Vi graat! Vi lo!</p>
+<p rend="noIndent">Vi takket Gud! Jeg besvimte!</p>
+<p rend="noIndent">Vi gik til kirken og takket Gud!</p>
+</sp>
+<sp>
+<speaker>1ste ung pike</speaker>
+<stage>(hopper op og kysser <hi rend="bold">Jon</hi>)</stage>
+<p rend="noIndent">Velkommen hjem, Jon &#x2013; nu vil du vel ikke bli professor &#x2013; du som er l&#x00F8;itnant?</p>
+</sp>
+<sp>
+<speaker>2den ung pike</speaker>
+<p rend="noIndent">Er det sandt vi skal faa grubene deres, Henrik?</p>
+</sp>
+<sp>
+<speaker>1ste ung pike</speaker>
+<stage>(arm i arm med <hi rend="bold">Jon</hi>)</stage>
+<p rend="noIndent">Og jernbanene?</p>
+</sp>
+<sp>
+<speaker><pb n="87"/>Henrik</speaker>
+<p rend="noIndent">Ja ved jupiter! Vi skal ha grubene! Og guldet! Og kanonene! Og kv&#x00E6;get! Hvad tror dere vi ellers har slaass for?</p>
+</sp>
+<sp>
+<speaker>2den ung pike</speaker>
+<stage>(klapper i h&#x00E6;ndene)</stage>
+<p rend="noIndent">N&#x00E6;ste gang skal vi skyte dem med deres egne kanoner!</p>
+</sp>
+<sp>
+<speaker>Adam</speaker>
+<p rend="noIndent">Og landet deres skal vi ha! Det gir jeg mig aldrig paa! Hvad, prest?</p>
+</sp>
+<sp>
+<speaker>Jonatan</speaker>
+<p rend="noIndent">Ja hvis det fins retf&#x00E6;rdighet til!</p>
+</sp>
+<sp>
+<speaker>Presten</speaker>
+<p rend="noIndent">V&#x00E6;r viss, gutter, retf&#x00E6;rdigheten lever! Hvert menneske maa svare for sine gjerninger &#x2013; ogsaa vore fiender.</p>
+</sp>
+<sp>
+<speaker>Begge unge piker</speaker>
+<stage>(i jubel)</stage>
+<p rend="noIndent">Vi skal faa store, nye provinser!</p>
+</sp>
+<sp>
+<speaker>Jonatan</speaker>
+<p rend="noIndent">Og de skal sende folk hit! De skal bygge op &#x2013;</p>
+</sp>
+<sp>
+<speaker>2den ung pike</speaker>
+<stage>(klapper i h&#x00E6;ndene)</stage>
+<p rend="noIndent">Det er rett! Det er rett! De skal v&#x00E6;re slavene vore likesom filistrene tr&#x00E6;llet for Guds folk, for Gud gav dem i Davids haand.</p>
+</sp>
+<sp>
+<speaker><pb n="88"/>Henrik</speaker>
+<p rend="noIndent">For nu har vi magten!</p>
+</sp>
+<sp>
+<speaker>Jonatan</speaker>
+<p rend="noIndent">Det er retten, vi har!</p>
+</sp>
+<sp>
+<speaker>Jon</speaker>
+<p rend="noIndent">Det var jo det, han sa.</p>
+</sp>
+<sp>
+<speaker>Adams mor</speaker>
+<p rend="noIndent">Adam her &#x2013; s&#x00F8;nnen min &#x2013; han dr&#x00E6;pte halvhundrede alene, han. Aa du snille pene gutten min!</p>
+</sp>
+<sp>
+<speaker>1ste ung pike</speaker>
+<p rend="noIndent">Hu, er det Sandt!</p>
+<stage>(kysser <hi rend="bold">Adam</hi>)</stage>
+</sp>
+<sp>
+<speaker>Magdalena</speaker>
+<p rend="noIndent">Jeg t&#x00F8;rster.</p>
+</sp>
+<sp>
+<speaker>Mager kone</speaker>
+<p rend="noIndent">Ha dig v&#x00E6;k fra maten!</p>
+</sp>
+<sp>
+<speaker>Tyk kone</speaker>
+<p rend="noIndent">Det er guttene, som skal ha den. V&#x00E6;k med dig!</p>
+</sp>
+<sp>
+<speaker>Tyk kone</speaker>
+<p rend="noIndent">Det er guttene, som skal sitte der &#x2013; V&#x00E6;k med dig. Spis gutter &#x2013; spis og drik, soldater! S&#x00E6;t dig, Adam! Ta for dere, Jonatan!</p>
+</sp>
+<sp>
+<speaker>Omar</speaker>
+<stage>(reiser sig fra kroken, hvor han har sittet)</stage>
+<p rend="noIndent">V&#x00E6;r god imot hende.</p>
+</sp>
+<sp>
+<speaker><pb n="89"/>Halt kone</speaker>
+<p rend="noIndent">Skal hun kanske v&#x00E6;re i lag med <emph>os</emph>?<note type="footnote">os?] <hi rend="italic">rettet fra:</hi> os <hi rend="italic">(trykkfeil)</hi></note></p>
+</sp>
+<sp>
+<speaker>Mager kone</speaker>
+<p rend="noIndent">Skal hun trakteres?</p>
+</sp>
+<sp>
+<speaker>Henrik</speaker>
+<p rend="noIndent">De har ret, Omar. Magdalena, gaa ut i gangen! Gaa ut paa trappen. Her har du en flaske.</p>
+</sp>
+<sp>
+<speaker>Adam</speaker>
+<stage>(til Omar)</stage>
+<p rend="noIndent">Ser du ikke, at mor er her?</p>
+</sp>
+<sp>
+<speaker>Jonatan</speaker>
+<p rend="noIndent">Og <emph>mor</emph>!</p>
+</sp>
+<sp>
+<speaker>Pleierske</speaker>
+<p rend="noIndent">Hvem er hun?</p>
+</sp>
+<sp>
+<speaker>2den soldat</speaker>
+<p rend="noIndent">En skj&#x00F8;ge, s&#x00F8;ster. Hun har fulgt &#x2013; hun har forfulgt regimentet vort i fire aar &#x2026; Hun er en allemandst&#x00F8;s.</p>
+</sp>
+<sp>
+<speaker>Presten</speaker>
+<p rend="noIndent">Hun er et stakkars ting, venner &#x2013; hun har mistet sin forstand. En falden, en forvildet &#x2026; Magdalena, gj&#x00F8;r som Henrik sier.</p>
+</sp>
+<sp>
+<speaker>Magdalena</speaker>
+<stage>(har drukket av flasken, byr katolsk s&#x00F8;ster)</stage>
+<p rend="noIndent">Er du t&#x00F8;rstig saa drik, kj&#x00E6;re s&#x00F8;ster.</p>
+</sp>
+<sp>
+<speaker><pb n="90"/>Katolsk s&#x00F8;ster</speaker>
+<p rend="noIndent">Jeg kjender dig ikke.</p>
+</sp>
+<sp>
+<speaker>Magdalena</speaker>
+<stage>(foran madonnabilledet)</stage>
+<p rend="noIndent">Se Guds moder. Se Guds moder smiler til mig.</p>
+</sp>
+<sp>
+<speaker>Presten</speaker>
+<stage>(opdager madonnabilledet)</stage>
+<p rend="noIndent">Hvem har vaaget! <stage>(River det ned.)</stage> Hvem har bragt dette ind i mit hus?</p>
+</sp>
+<sp>
+<speaker>Katolsk s&#x00F8;ster</speaker>
+<p rend="noIndent">Den hellige jomfru forbarme sig over din sj&#x00E6;l!</p>
+</sp>
+<sp>
+<speaker>Mager kone</speaker>
+<p rend="noIndent">Jeg sa hun kunde la det h&#x00E6;nge, pastor! Denne s&#x00F8;ster har pleiet vore saarede i fire aar.</p>
+</sp>
+<sp>
+<speaker>Presten</speaker>
+<p rend="noIndent">Krigen er forbi, Anna!</p>
+</sp>
+<stage>(<hi rend="bold">Katolsk s&#x00F8;ster</hi> skynder sig ut med madonnabilledet.)</stage>
+<sp>
+<speaker>Jon</speaker>
+<p rend="noIndent">Krigen er forbi &#x2013; leve kirken!</p>
+</sp>
+<stage>(<hi rend="bold">Cornelia</hi> med et tre aars barn ved naanden. Stanser i d&#x00F8;ren.)</stage>
+<sp>
+<speaker>Magdalena</speaker>
+<stage>(med h&#x00F8;i, lys stemme)</stage>
+<p rend="noIndent">Hun kommer! Og ingen skal graate mer &#x2026; For Gud sendte hende med l&#x00E6;gedom for vore saar! Men hans hjerte slog h&#x00F8;it om mig &#x2013;</p>
+</sp>
+<sp>
+<speaker><pb n="91"/>Halt kone</speaker>
+<p rend="noIndent">Cornelia!</p>
+</sp>
+<stage>(<hi rend="bold">Omar</hi> l&#x00F8;fter hodet, ser hende, gjemmer paanytt ansigtet i h&#x00E6;ndene.)</stage>
+<sp>
+<speaker>Presten</speaker>
+<p rend="noIndent">Velkommen, hustru &#x2013; Du er blit hvit &#x2026; <emph>Du</emph> ogsaa &#x2026; Du bringer et barn &#x2013;? Hvis barn er det?</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">Dit og mit.</p>
+</sp>
+<sp>
+<speaker>Presten</speaker>
+<p rend="noIndent">Arme menneske!</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">Nei jeg har min forstand. Barnet er vort og Guds.</p>
+</sp>
+<sp>
+<speaker>Tyk kone</speaker>
+<p rend="noIndent">Cornelia! Lyv ikke for ham!</p>
+</sp>
+<sp>
+<speaker>Halt kone</speaker>
+<stage>(samtidig)</stage>
+<p rend="noIndent">Hun skj&#x00E6;mter, pastor!</p>
+</sp>
+<sp>
+<speaker>Mager kone</speaker>
+<p rend="noIndent">Hysj! Hysj! <stage>(til <hi rend="bold">pleierske</hi>.)</stage> R&#x00F8;r ikke barnet, S&#x00F8;ster! <stage>(hvisker, pleiersken slipper barnet.)</stage></p>
+</sp>
+<sp>
+<speaker>Tyk kone</speaker>
+<p rend="noIndent">Det er fiendens yngel, prest. Det er en ulykkesfugl.</p>
+</sp>
+<sp>
+<speaker><pb n="92"/>Mager kone</speaker>
+<stage>(peker paa <hi rend="bold">Magdalena</hi>.)</stage>
+<p rend="noIndent"><emph>Hendes</emph> unge! Med rytterne!</p>
+</sp>
+<sp>
+<speaker>Pleierske</speaker>
+<p rend="noIndent">Fy! Aa, fy!</p>
+</sp>
+<sp>
+<speaker>Soldat</speaker>
+<p rend="noIndent">Hvad? Har hun bolet med fienden, ogsaa?</p>
+</sp>
+<sp>
+<speaker>Magdalena</speaker>
+<p rend="noIndent">Velsigner dem som Eder forbande! Han sover &#x2026; Men jeg fandt ham ikke &#x2026;</p>
+</sp>
+<sp>
+<speaker>Presten</speaker>
+<stage>(r&#x00E6;kker ut h&#x00E6;ndene)</stage>
+<p rend="noIndent">Du har faret vild, Cornelia! I fire aar har jeg s&#x00F8;kt dig, men du flydde mig &#x2026;</p>
+</sp>
+<sp>
+<speaker>Magdalena</speaker>
+<p rend="noIndent">S&#x00F8;kte &#x2026; s&#x00F8;kte &#x2026; Men fandt ikke.</p>
+</sp>
+<sp>
+<speaker>Presten</speaker>
+<p rend="noIndent">I fire tunge aar har du skydd min vei og lukket dit &#x00F8;re for mit rop! I fire aar har du forkyndt en l&#x00E6;re ingen kirke kan kjendes ved!</p>
+</sp>
+<sp>
+<speaker>Magdalena</speaker>
+<p rend="noIndent">Elsker hverandre!</p>
+</sp>
+<sp>
+<speaker>Presten</speaker>
+<p rend="noIndent">Du har formastet dig! Du har opkastet dig til forkynder &#x2013; du, en kvinde. Vrangl&#x00E6;re har <pb n="93"/>du forkyndt! En kj&#x00E6;rlighet ingen kirke har organisert &#x2013; en godhet, intet samfund har stadf&#x00E6;stet! Uten menighet har du fordristet dig til at pr&#x00E6;dike. Myndighetene har advaret imot dig! Som et jaget dyr er du blit drevet fra sted til sted i to aar &#x2013; du har v&#x00E6;ret som en gift, staten forbyr sine s&#x00F8;nner at drikke!</p>
+</sp>
+<sp>
+<speaker>Magdalena</speaker>
+<p rend="noIndent">Livets vand &#x2026;</p>
+</sp>
+<sp>
+<speaker>Presten</speaker>
+<stage>(peker paa Omar)</stage>
+<p rend="noIndent">Se der siter din discipel! Din f&#x00F8;rstef&#x00F8;tte! De kunde ikke bruke ham mer! De turde ikke tro ham l&#x00E6;nger! Paa min forb&#x00F8;n straffet de ham ikke &#x2013; men de fornedret ham, de negtet ham at f&#x00F8;lge kompaniet &#x2013; Hans arm var lammet av din l&#x00E6;re!</p>
+</sp>
+<sp>
+<speaker>Magdalena</speaker>
+<p rend="noIndent">Vi skal ikke gj&#x00F8;re det onde. Benedikt min elskede &#x2026;</p>
+</sp>
+<sp>
+<speaker>Presten</speaker>
+<p rend="noIndent">Men Gud var dig en naadig Gud! <emph>Han</emph> gav vore vaaben seier &#x2013; han svigtet ikke sit folk! Han &#x00E6;nset ikke den veivildes r&#x00F8;st! Cornelia, dommen er Herrens i det h&#x00F8;ie! R&#x00E6;k mig haanden, hustru min!</p>
+</sp>
+<sp>
+<speaker><pb n="94"/>Cornelia</speaker>
+<p rend="noIndent">Jeg kan ikke. Din synd er for stor. Din synd er mot den hellige aand.</p>
+</sp>
+<sp>
+<speaker>Kvindene</speaker>
+<stage>(i kor)</stage>
+<p rend="noIndent">Hun raser! Hun spotter Gud! Cornelia!</p>
+</sp>
+<sp>
+<speaker>Magdalena</speaker>
+<p rend="noIndent">Og r&#x00F8;sten skal lyde i &#x00F8;rkenen.</p>
+</sp>
+<sp>
+<speaker>Presten</speaker>
+<p rend="noIndent">Ulykken har form&#x00F8;rket din forstand og forh&#x00E6;rdet dit hjerte, hustru &#x2013;! Men Herren sier gjennem Frelseren &#x2026;</p>
+</sp>
+<sp>
+<speaker>Magdalena</speaker>
+<p rend="noIndent">Salige er de rene av hjerte!</p>
+</sp>
+<sp>
+<speaker>Presten</speaker>
+<stage>(heftig)</stage>
+<p rend="noIndent">F&#x00F8;r hende ut! F&#x00F8;r Magdalena ut!</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">Kom hit til mig, barn.</p>
+</sp>
+<sp>
+<speaker>Kvindene</speaker>
+<p rend="noIndent">Hun skal ut! Hun skal bort herfra! Ungen ogsaa! Ungen og hun!</p>
+</sp>
+<stage>(<hi rend="bold">Cornelia</hi> skj&#x00E6;rmer barnet, <hi rend="bold">Magdalena</hi> kryper sammen ved hendes f&#x00F8;tter.)</stage>
+<sp>
+<speaker><pb n="95"/>Halt kone</speaker>
+<p rend="noIndent">Vil du vi skal f&#x00F8; paa dem som har dr&#x00E6;pt s&#x00F8;nnene vore? Vaakn op, Cornelia! Skal &#x00E9;n som han drikke op melken for vore egne? Skal vi n&#x00E6;re ham til han blir st&#x00E6;rk og kan bryte os ned? Vaakn op, Cornelia!</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">Vi er skyldig. Men barnet er uten skyld.</p>
+</sp>
+<sp>
+<speaker>Kvindene</speaker>
+<p rend="noIndent">Er vi skyldige? Hun sier, <emph>vi</emph> er skyldige! Hun raser!</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">Vi hadde ikke kj&#x00E6;rlighet nok, s&#x00F8;stre.</p>
+</sp>
+<sp>
+<speaker>Kvindene</speaker>
+<p rend="noIndent">Vi er ikke dine s&#x00F8;stre!</p>
+</sp>
+<sp>
+<speaker>Tyk kone</speaker>
+<stage>(peker paa <hi rend="bold">Magdalena</hi>)</stage>
+<p rend="noIndent">Hun &#x2013; er hun ogsaa din s&#x00F8;ster?</p>
+</sp>
+<stage>(<hi rend="bold">Cornelia</hi> b&#x00F8;ier sig og kysser <hi rend="bold">Magdalena</hi>.)</stage>
+<sp>
+<speaker>Kvindene</speaker>
+<p rend="noIndent">Hun kysser hende! Ut med dem! Ut med den skj&#x00E6;ndige! Ut med skj&#x00F8;gen og hendes avkom!</p>
+</sp>
+<sp>
+<speaker>Jonatan</speaker>
+<p rend="noIndent">H&#x00F8;r dem, Omar! Omar, h&#x00F8;rer du dem? <pb n="96"/>Kvindene, som skal redde verden med mildhed, med fordragelighet! Slik l&#x00E6;rte <emph>hun</emph> os.</p>
+</sp>
+<sp>
+<speaker>Adam</speaker>
+<p rend="noIndent">H&#x00F8;r dem hyle imot hende! Hun som forkyndte deres evangelium!</p>
+</sp>
+<sp>
+<speaker>Jon</speaker>
+<p rend="noIndent">Er det nytt, kamerater? Kvindehylet mordnatten &#x2013; ved skafottet, ved massakrene! Aartuseners hyl! Altid h&#x00F8;iest, forrest, vildest kvinder&#x00F8;sten!</p>
+</sp>
+<sp>
+<speaker>Henrik</speaker>
+<p rend="noIndent">Ja til helvede med alle evangelier!</p>
+</sp>
+<sp>
+<speaker>Omar</speaker>
+<p rend="noIndent">Vi har tapt, mor. Vi er slaatt. Det har v&#x00E6;ret omsonst.</p>
+</sp>
+<sp>
+<speaker>Adam</speaker>
+<p rend="noIndent">Tapt?</p>
+</sp>
+<sp>
+<speaker>Jonatan</speaker>
+<p rend="noIndent">&#x00C6;ns ham ikke! Han er f&#x00E6;rdig siden han skj&#x00F8;t! La ham v&#x00E6;re!</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">Omsonst? Det er aldrig omsonst at elske! Vi blev forlatt &#x2013; vi blev forraadt &#x2013; vi var for faa &#x2013; hjulene gik over os! Men nu reiser vi os &#x2013; nu &#x2026;</p>
+</sp>
+<sp>
+<speaker>Omar</speaker>
+<p rend="noIndent">Nei! Nei! Det er gaat under i blod, mor! <pb n="97"/>Det er omkommet i synd! Jorden er blind av hat og av h&#x00E6;vn!</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">Men det skal gry &#x2013; snart gryr det, Omar! Vi var faa &#x2013; da er vi blit mange!</p>
+</sp>
+<sp>
+<speaker>Jon</speaker>
+<p rend="noIndent">Det er fredstid, mor! Slukk de store ordene!</p>
+</sp>
+<sp>
+<speaker>Omar</speaker>
+<p rend="noIndent">Ja &#x2013; ord! Ord! L&#x00F8;v som stormen sprer over verden og de d&#x00E6;kker jorden med vissenhet til nye ord d&#x00E6;kker de gamle og raatner dem under sig! Men <emph>gjerningen</emph>, mor! Han, som d&#x00F8;r for sin egen tro &#x2013; og d&#x00F8;r for alles! Han som f&#x00F8;lger sit eget bud &#x2013; og f&#x00F8;lger Guds! <emph>Min</emph> d&#x00F8;d for mig &#x2013; min gjerning &#x2026; Du la armene omkring mig og kvalte den &#x2026; Og nu har Gud slettet mig ut &#x2013; og d&#x00F8;den har ikke bruk for mig mer &#x2026;</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">Omar &#x2013; v&#x00E6;r barmhjertig!</p>
+</sp>
+<sp>
+<speaker>Jonatan</speaker>
+<p rend="noIndent">Han har ret! Omar har ret! Hun tok kraften av os med godhet!</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">En ny kraft gav jeg dere, Jonatan!</p>
+</sp>
+<sp>
+<speaker><pb n="98"/>Jonatan</speaker>
+<p rend="noIndent">En ny gud, vi ikke kunde b&#x00E6;re! En gud som lot os skj&#x00E6;lve i uro &#x2026;</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">For han bodde ikke i himlen. Han bodde i dit eget hjerte.</p>
+</sp>
+<sp>
+<speaker>Jonatan</speaker>
+<p rend="noIndent">Ja. Og hjertet slaar i angst, som sj&#x00F8;en &#x2026; han lar det ikke hvile! Jeg kunde ikke bli en kriger som de andre &#x2013; kunde ikke slaa ihjel med &#x00E6;re &#x2013; kunde ikke dr&#x00E6;pe h&#x00E6;derlig! Til en morder gjorde han mig, din gud!</p>
+</sp>
+<sp>
+<speaker>Adam</speaker>
+<p rend="noIndent">Og mig! Mig ogsaa! F&#x00F8;rste gang de ropte frem &#x2013; og kameratene lystret &#x2026; <emph>jeg</emph> kunde ikke r&#x00F8;re mig &#x2013; jeg, jeg alene kunde ikke! For jeg h&#x00F8;rte en r&#x00F8;st &#x2013; Sky det onde! &#x2026; Jeg syntes, jeg syntes en r&#x00F8;st &#x2013;</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">Fra din egen sj&#x00E6;l!</p>
+</sp>
+<sp>
+<speaker>Adam</speaker>
+<p rend="noIndent">Ja, fra min egen sj&#x00E6;l! Som jeg har maattet d&#x00F8;ve med ugjerninger, som jeg har begravet i drap! Femti liv tok jeg, jeg alene, med disse h&#x00E6;ndene mine, for at kv&#x00E6;le det her inde &#x2026; For at vise dem, at jeg er en mand, en mand jeg ogsaa! En soldat som de andre!</p>
+</sp>
+<sp>
+<speaker><pb n="99"/>Presten</speaker>
+<p rend="noIndent">H&#x00F8;rer du, Cornelia! De reiser sig og vidner imot dig! Din s&#x00F8;n! Guttene fra vort hjem! Ydmyg dig! B&#x00F8;i dit trossige hjerte! T&#x00E6;m dit opr&#x00F8;rske sind!</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">Ikke opr&#x00F8;r talte jeg. Jeg talte til dem om kj&#x00E6;rligheten.</p>
+</sp>
+<sp>
+<speaker>Presten</speaker>
+<p rend="noIndent"><emph>Ingen</emph> kan optr&#x00E6; paa egen haand i et ordnet samfund, Cornelia! Heller ikke kj&#x00E6;rligheten.</p>
+</sp>
+<sp>
+<speaker>Jon</speaker>
+<p rend="noIndent">Nei! For kj&#x00E6;rligheten er den store opr&#x00F8;rer, mor! Far har ret. Vi vil leve! Han, som slutter at elske livet, bare ham kan kj&#x00E6;rligheten bruke! Men <emph>vi</emph> vil v&#x00E6;re til! Som kjeltringer, som pakk, bare vi er til!</p>
+</sp>
+<sp>
+<speaker>Adam</speaker>
+<p rend="noIndent">Leve seiren, gutter!</p>
+</sp>
+<sp>
+<speaker>Soldatene</speaker>
+<p rend="noIndent">Leve! Leve!</p>
+</sp>
+<sp>
+<speaker>Jon</speaker>
+<p rend="noIndent">Leve seiren!</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">Jon, min arme gut!</p>
+</sp>
+<sp>
+<speaker><pb n="100"/>Henrik</speaker>
+<p rend="noIndent">Hvad vil du, kvinde? Skulde vi latt os slagte som kv&#x00E6;g?</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">Kristus d&#x00F8;de paa korset.</p>
+</sp>
+<sp>
+<speaker>Jonatan</speaker>
+<p rend="noIndent">Han var bare &#x00E9;n!</p>
+</sp>
+<sp>
+<speaker>Henrik</speaker>
+<p rend="noIndent">Skal de beholde landet sit? Guldet? Vaabnene? Grubene sine? Hvad?</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">Vi skal intet ha. Vi har syndet som dem.</p>
+</sp>
+<stage>(Stort opstyr, rop av uvilje.)</stage>
+<sp>
+<speaker>Presten</speaker>
+<p rend="noIndent">Cornelia, vogt din tunge! Se jeg gav din fiende, i din haand, sier Herren &#x2013; Han gjengj&#x00E6;lder den skyldige og lar hans vei komme over hans hode!</p>
+</sp>
+<sp>
+<speaker>Henrik</speaker>
+<stage>(frem)</stage>
+<p rend="noIndent">Kamerater! Den dagen byen her blev overrumplet &#x2013; den dagen raadhuset brandt &#x2013; den dagen jeg fik skuddet i foten &#x2013; Da s&#x00F8;kte jeg <emph>hit</emph> &#x2013; til hende! D&#x00E9;r, i d&#x00F8;ren stod jeg og saa hende. Hun laa paa kn&#x00E6; &#x2013; Hun kn&#x00E6;lte her jeg staar. Med hodet i fanget hendes laa en av <emph>dem</emph> &#x2013; en av rytterne.</p>
+</sp>
+<sp>
+<speaker><pb n="101"/>Flere</speaker>
+<p rend="noIndent">Du lyver!</p>
+</sp>
+<sp>
+<speaker>Mange</speaker>
+<p rend="noIndent">Til helvete med hende!</p>
+</sp>
+<sp>
+<speaker>Henrik</speaker>
+<p rend="noIndent">Sp&#x00F8;r hende!</p>
+</sp>
+<sp>
+<speaker>Presten</speaker>
+<p rend="noIndent">Cornelia, svar ham!</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">Han taler sandt.</p>
+</sp>
+<sp>
+<speaker>Henrik</speaker>
+<p rend="noIndent">Hvad h&#x00E6;ndte os i huset ved veien for tre aar siden? Hvem fik os til at l&#x00F8;se fangenes baand?</p>
+</sp>
+<sp>
+<speaker>Adam, Jonatan</speaker>
+<p rend="noIndent">Det var hende!</p>
+</sp>
+<sp>
+<speaker>Henrik</speaker>
+<p rend="noIndent">Hvem fik os til at spise av samme fat som dem?</p>
+</sp>
+<sp>
+<speaker>Adam, Jonatan</speaker>
+<p rend="noIndent">Hun!</p>
+</sp>
+<sp>
+<speaker>Henrik</speaker>
+<p rend="noIndent">De r&#x00F8;mte om natten. Hvem hjalp dem?</p>
+</sp>
+<stage>(<hi rend="bold">Adam</hi>, <hi rend="bold">Jonatan</hi> b&#x00F8;ier hodet.)</stage>
+<sp>
+<speaker>Presten</speaker>
+<p rend="noIndent">Cornelia! Hvad svarer du?</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">De var gutter som vore egne.</p>
+</sp>
+<sp>
+<speaker><pb n="102"/>Henrik</speaker>
+<p rend="noIndent">Saa har hun vel hat et maal! Saa har hun vel v&#x00E6;ret redskap for nogen!</p>
+</sp>
+<sp>
+<speaker>Soldatene</speaker>
+<p rend="noIndent">Spion! Hun er en spion!</p>
+</sp>
+<sp>
+<speaker>Presten</speaker>
+<stage>(synker sammen)</stage>
+<p rend="noIndent">Min herre og min Gud, staa mig bi!</p>
+</sp>
+<sp>
+<speaker>En soldat</speaker>
+<stage>(griper <hi rend="bold">Magdalena</hi> og <hi rend="bold">Cornelia</hi>)</stage>
+<p rend="noIndent">Ut med pakket! Ut med skj&#x00F8;gen og hendes mor og hendes avkom!</p>
+</sp>
+<sp>
+<speaker>Omar</speaker>
+<p rend="noIndent">Slipp kvindene!</p>
+</sp>
+<sp>
+<speaker>Adam</speaker>
+<p rend="noIndent">Forsvar dem ikke &#x2013; ikke <emph>nu</emph>, Omar!</p>
+</sp>
+<sp>
+<speaker>Jonatan</speaker>
+<p rend="noIndent">Vogt dig, Omar!</p>
+</sp>
+<sp>
+<speaker>Adam</speaker>
+<p rend="noIndent">La Magdalena gaa dit hun h&#x00F8;rer hjemmn!</p>
+</sp>
+<sp>
+<speaker>Kvindene</speaker>
+<p rend="noIndent">Fri os fra dem! Vi vil ha fred! Vi vil feste for guttene vore!</p>
+</sp>
+<sp>
+<speaker>Omar</speaker>
+<p rend="noIndent">Magdalena l&#x00F8;d budet &#x2013; slik <emph>hun</emph> h&#x00F8;rte det &#x2026; Dere var t&#x00F8;rste &#x2013; hun gav dere drikke. <stage>(Soldatene ler.)</stage> Dere hungret &#x2013; hun gav sig hen. Dere <pb n="103"/>s&#x00F8;kte hende &#x2013; Magdalena, skrek dere, og hun kom. <emph>Du</emph>, Adam.</p>
+</sp>
+<sp>
+<speaker>Adam</speaker>
+<p rend="noIndent">Det var derute! Det var i krigen!</p>
+</sp>
+<sp>
+<speaker>Omar</speaker>
+<p rend="noIndent">Og du, Jonatan?</p>
+</sp>
+<sp>
+<speaker>Jonatan</speaker>
+<p rend="noIndent">Naar en skal d&#x00F8; imorgen &#x2026;</p>
+</sp>
+<sp>
+<speaker>Omar</speaker>
+<p rend="noIndent">Og du, Henrik?</p>
+</sp>
+<sp>
+<speaker>Henrik</speaker>
+<p rend="noIndent">Jeg negter ikke. Hun var tilfals.</p>
+</sp>
+<sp>
+<speaker>Kvindene</speaker>
+<p rend="noIndent">Hun har ligget med dem alle!</p>
+</sp>
+<sp>
+<speaker>En soldat</speaker>
+<p rend="noIndent">Hun var den eneste.</p>
+</sp>
+<sp>
+<speaker>Omar</speaker>
+<p rend="noIndent">Ja hun var den eneste. Blusset i d&#x00F8;dsnatten &#x2013; den eneste, som turde si til dere: Dere lever &#x2013; enda lever dere! Hos hende &#x2013; hos hende mindtes dere &#x2013; alle disse, som aldrig kom!</p>
+</sp>
+<sp>
+<speaker>Henrik</speaker>
+<p rend="noIndent">Vil du &#x2013; vil du vi skal &#x00E6;re en som hende?</p>
+</sp>
+<sp>
+<speaker>Omar</speaker>
+<p rend="noIndent">Ja, for hun har kj&#x00E6;rlighet.</p>
+</sp>
+<sp>
+<speaker><pb n="104"/>Adam</speaker>
+<p rend="noIndent">Et dyr!</p>
+</sp>
+<sp>
+<speaker>Omar</speaker>
+<p rend="noIndent">Hun gjorde sig til din like!</p>
+</sp>
+<sp>
+<speaker>Soldatene</speaker>
+<p rend="noIndent">Ut med ham! Ned med ham!</p>
+</sp>
+<sp>
+<speaker>Kvinder&#x00F8;st</speaker>
+<p rend="noIndent">Ut! Ut! Vi vil danse!</p>
+</sp>
+<sp>
+<speaker>Jonatan</speaker>
+<p rend="noIndent">Omar, vik fra dem har du livet kj&#x00E6;rt!</p>
+</sp>
+<sp>
+<speaker>Jon</speaker>
+<p rend="noIndent">Slipp Magdalena, Omar!</p>
+</sp>
+<sp>
+<speaker>Presten</speaker>
+<p rend="noIndent">Omar, f&#x00F8;lg mig!</p>
+</sp>
+<sp>
+<speaker>Magdalena</speaker>
+<stage>(klynger sig til ham)</stage>
+<p rend="noIndent">Jeg vil v&#x00E6;re hos dig bestandig.</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">Omar, slipp hende, Omar! Gaa!</p>
+</sp>
+<sp>
+<speaker>Omar</speaker>
+<p rend="noIndent">Ber du mig om noget, mor?</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">Gaa med ham, Omar! Gaa ut i lyset! <stage>(til soldatene, som truer.)</stage> Han gaar! Nu gaar han, venner! Aa, <emph>han</emph> svigter ikke &#x2013; hans gud er med ham &#x2013; han vet, at timen skal komme, da skal han <pb n="105"/>reise sig og se gryingen og finde veien for sig selv, for dere, til maalet! Hvad er det Omar? Omar!</p>
+</sp>
+<sp>
+<speaker>Omar</speaker>
+<p rend="noIndent">Ser du ikke jeg er fremme, mor!</p>
+</sp>
+<sp>
+<speaker>Soldatr&#x00F8;ster</speaker>
+<p rend="noIndent">Leve seiren!</p>
+</sp>
+<sp>
+<speaker>Graahaaret soldat</speaker>
+<stage>(ind paa Omar)</stage>
+<p rend="noIndent">Skrik! Vil du skrike! Leve seiren! D&#x00F8;d over fienden &#x2013; Eller?!</p>
+</sp>
+<sp>
+<speaker>Halt kone</speaker>
+<p rend="noIndent">Rop, Omar! Saa tror de dig!</p>
+</sp>
+<sp>
+<speaker>Mager kone</speaker>
+<p rend="noIndent">Berg dig, gut!</p>
+</sp>
+<sp>
+<speaker>Graahaaret soldat</speaker>
+<p rend="noIndent">Leve seiren! Din d&#x00E6;vel!</p>
+</sp>
+<sp>
+<speaker>Omar</speaker>
+<p rend="noIndent">Aldrig.</p>
+</sp>
+<sp>
+<speaker>Soldatene</speaker>
+<p rend="noIndent">Forr&#x00E6;der! Forr&#x00E6;ders s&#x00F8;n!</p>
+</sp>
+<stage>(Et skudd. Han segner.)</stage>
+<sp>
+<speaker>Omar</speaker>
+<p rend="noIndent">Leve seiren, mor &#x2026;</p>
+</sp>
+<stage>(<hi rend="bold">Presten</hi>, <hi rend="bold">Jon</hi>, <hi rend="bold">Cornelia</hi>, b&#x00F8;ier sig over ham.)</stage>
+<sp>
+<speaker><pb n="106"/>Magdalena</speaker>
+<stage>(reiser sig fra liket)</stage>
+<p rend="noIndent">Han sover! Han sover &#x2026; Likesom Benedikt!</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">Omar &#x2013; Omar &#x2026; Min f&#x00F8;rste &#x2026;</p>
+</sp>
+<sp>
+<speaker>Presten</speaker>
+<p rend="noIndent">D&#x00F8;d. Han er d&#x00F8;d &#x2026; Herren gav &#x2013; Herren tok &#x2013; Herrens navn &#x2026;</p>
+</sp>
+<sp>
+<speaker>Cornelia</speaker>
+<p rend="noIndent">Hold op &#x2013; du! B&#x00F8;i dig &#x2013; skjul dit ansigt &#x2013; du som svigtet ham! Hele jorden ventet paa dig! &#x00D8;inene vore brandt efter at se dig &#x2013; nat og dag rakte vi h&#x00E6;ndene efter dig! Og da timen kom over jorden &#x2013; aa blodets og r&#x00E6;dslenes m&#x00F8;rke time! &#x2013; da vendte millioner sit aasyn imot dig, mot din kirkes spir, mot dit alters kors og attraadde tegnet fra din haand. Aanden, den hellige aand skalv i sindene, <emph>du</emph> skulde forl&#x00F8;se den! L&#x00E6;ngselen, den hellige l&#x00E6;ngsel efter Guds kj&#x00E6;rlighet dirret i sj&#x00E6;len, <emph>du</emph> skulde m&#x00F8;te den! Du kom ikke! Du fulgte ikke kaldet! Du h&#x00F8;rte ikke skriket! Til en skygge gjorde du dig &#x2013; til et intet! Se din kirke er druknet i blod! Aldrig mer reiser den sig &#x2026; aldrig mer!</p>
+<stage>(Kn&#x00E6;ler ved Omars lik.)</stage>
+</sp>
+</div>
+</body>
+</text>
+</TEI>

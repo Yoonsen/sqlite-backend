@@ -1,0 +1,968 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI PUBLIC "-// TEI P5 //EN" "http://www.tei-c.org/release/xml/tei/custom/schema/dtd/tei_all.dtd">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="NSL_Brun_JomfruePecunia">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Johan Nordahl Brun: <hi rend="italic">Jomfrue Pecunia</hi>
+<lb/>Utgave ved Jan Ragnar Hagland, Det norske spr&#x00E5;k- og litteraturselskap/bokselskap.no, Oslo 2017
+<lb/>Teksten i bokselskap.no f&#x00F8;lger 1. utgave, 1768 (J.C. Winding, Trondheim).
+<lb/>ISBN: 978-82-8319-339-8 (digital, bokselskap.no), 978-82-8319-340-4 (epub), 978-82-8319-341-1 (mobi)
+</title>
+</titleStmt>
+<publicationStmt>
+<p>Publiseres som digital tekst av bokselskap.no.</p></publicationStmt>
+<sourceDesc>
+    <bibl>
+        <title>Jomfrue Pecunia</title>
+        <author>Johan Nordahl Brun</author>
+        <publisher>J.C. Winding</publisher>
+        <pubPlace>Trondheim</pubPlace>
+        <date>1768</date>
+        <note>Pecunia.doc (mottatt av Jan Ragnar Hagland februar 2017)</note>
+    </bibl>
+</sourceDesc>
+</fileDesc>
+<revisionDesc>
+<change who="ENW" when="2017-09-11">Lagt inn et par rettelser fra Jan Ragnar. Nye nedlastningsfiler.</change>
+<change who="ENW" when="2017-04-19">Lagt inn et par rettelser fra Jan Ragnar. Klar for publisering.</change>
+<change xml:id="ENW" who="ENW" when="2017-04-05">XML-koding. Entiteter, kodekontroll og validering.</change>
+</revisionDesc>
+</teiHeader>
+<text xml:id="NSL_Brun_JomfruePecunia_tekst" type="drama">
+<front>
+<titlePage type="main">
+<byline><docAuthor>Johan Nordahl Brun</docAuthor></byline>
+<docTitle>
+<titlePart type="main">Jomfrue Pecunia</titlePart>
+<titlePart type="sub">En Comoedie i tre Acter</titlePart>
+<titlePart type="sub">Et Original Stykke</titlePart>
+<titlePart type="sub">Utgave ved Jan Ragnar Hagland</titlePart>
+</docTitle>
+<docDate>Det norske spr&#x00E5;k- og litteraturselskap/bokselskap.no<lb/>Oslo 2017</docDate>
+</titlePage>
+<div xml:id="contents">
+<list type="contents_main">
+<item><ref target="chapter_1" xml:id="contents_1">F&#x00F8;reord ved Jan Ragnar Hagland</ref></item>
+<item><ref target="chapter_2" xml:id="contents_2">Hoved-Personerne</ref></item>
+<item><ref target="chapter_3" xml:id="contents_3">I. ACT</ref></item>
+<item><ref target="chapter_4" xml:id="contents_4">II. ACT</ref></item>
+<item><ref target="chapter_5" xml:id="contents_5">III. ACT</ref></item>
+</list>
+</div>
+</front>
+<body>
+<div type="chapter">
+<head type="main"><ref type="contents" target="contents_1" xml:id="chapter_1">F&#x00F8;reord</ref></head>
+<p rend="noIndent">ved Jan Ragnar Hagland</p>
+<lb/><p>Det vesle skodespelet <title rend="italic">Jomfrue Pecunia. En Comoedie i Tre Acter</title> fekk trykkel&#x00F8;yve (Imprimatur) ein gong i tida mellom 13. juni og 28. august 1768 av stiftsprost Jacob Thode i Trondheim. Han var i den perioden konstituert biskop. Det var biskopen som gav l&#x00F8;yve til &#x00E5; trykkja b&#x00F8;ker, og Thode gav det &#x00AB;absente Episcopo J. E. Gunnero&#x00BB; (i biskop J. E. Gunnerus&#x0027; fr&#x00E5;vere) som det heiter p&#x00E5; tittelbladet til skodespelet. Gunnerus var fr&#x00E5; juni til august p&#x00E5; visitasreis i &#x00AB;Fosens, Nordm&#x00F8;rs, Romsdalens og Dalernes Provstier&#x00BB; veit vi fr&#x00E5; bispearkivets kopib&#x00F8;ker (jf. Hagland 1980, 165). Etter &#x00E5; ha f&#x00E5;tt trykkel&#x00F8;yve har stykket s&#x00E5; vorte trykt i l&#x00F8;pet av hausten 1768 og vart annonsert til sals f&#x00F8;rste gong i <title rend="italic">Tronhiems Adresse-Comptoirs Efterretninger</title> den 4. november same &#x00E5;r. Det m&#x00E5; etter alt dette &#x00E5; d&#x00F8;mma ha vore skrive i l&#x00F8;pet av vinteren 1767/v&#x00E5;ren 1768.</p>
+<p>Men kven var det som skreiv det? Det har lenge herska ein viss tvil om nett d&#x00E9;t, og strid om det har dukka opp heilt fram til v&#x00E5;re dagar &#x2013; i alle fall fram til 2011, d&#x00E5; det vart tematisert i samband med eit fjernsynsprogram NRK produserte og sende i februar det &#x00E5;ret (for eit grundig oversyn over dette, sj&#x00E5; Ellen Alm 2011). Heilt sidan 1784 har det funnest ei offentleg oppfatning om at det var Martinus Nissen, grunnleggjaren av <title rend="italic">Tronhiems Adresse-Comptoirs Efterretninger</title>, som hadde skrive stykket. Dansken Jens Worm skreiv d&#x00E5; i sitt &#x00AB;Fors&#x00F8;g til et Lexikon over danske, norske og islandske M&#x00E6;nd som ved trykte Skrivter have giort sig bekiendte&#x00BB; at &#x00AB;Comoedien Jomfrue Pecunia meenes og af ham &#x005B;i.e. Nissen&#x005D; at v&#x00E6;re forfattet.&#x00BB; (Worm 1784, 567). Denne oppfatninga har alts&#x00E5; i h&#x00F8;g grad overlevd fram til v&#x00E5;r tid &#x2013; jf. at Christina Friberg Hagen i tittelen til eit arbeid fr&#x00E5; s&#x00E5; seint som i 1999 gir Martinus Nissen forfattarskap til stykket (jf. litteraturlista). Heilt fr&#x00E5; byrjinga av 1800-talet har det likevel funnest opplysingar om at det var Johan Nordahl Brun som skreiv <title rend="italic">Jomfrue Pecunia</title>. I dagb&#x00F8;kene etter biskop Pavels i Bergen er nemleg stykket nemnt i ei notis dagsett 20.7. 1818. Pavels gir her ein kommentar til noko presten Chr. Brun hadde skrive i <title rend="italic">Bergens Adressecontoirs Efterretninger</title> No 30 for 25.7. 1818 i samband med at ein anonym innsendar hadde reist sp&#x00F8;rsm&#x00E5;let om nyutgjeving av faren Johan Nordahl Bruns dramatiske arbeid i No 29 for 18.7. s.&#x00E5;. (Det ser ut til at Pavels her har f&#x00F8;rt dagbok p&#x00E5; etterskott og surra med datoane). I alle fall nemner Chr. Brun dei &#x00E5;tte skodespela han veit at faren hadde skrive. I dagboksnotatet sitt gir Pavels uttrykk for undring over at sp&#x00F8;rsm&#x00E5;l om nyutgjeving av Nordahl Bruns dramatiske arbeid i det heile er reist. &#x00AB;Zarine og Einer Tambeski&#x00E6;lver er nok det eneste af V&#x00E6;rd, han har skrevet i det Fag&#x00BB;, skriv Pavels og held fram med &#x00E5; gi syrlege og nedlatande kommentarar til dei andre stykka Chr. Brun hadde nemnt i avisinnlegget sitt. Men i tillegg til dei &#x00E5;tte stykka Chr. Brun hadde nemnt, f&#x00F8;yer Pavels til eit niande: &#x00AB;For at gi&#x00F8;re Tallet paa Muserne fuldt, burde medtages <title rend="italic">Jomfrue Pecunia</title> trykt i Trondhjem &#x005B;&#x2026;&#x005D;, et &#x00E6;gte Skoledrengsproduct&#x00BB;. Dette notatet om Nordahl Bruns dramatiske dikting vart ikkje atg&#x00E5;dd i biografisk og litteraturhistorisk samanheng f&#x00F8;r Hagland (1980) tok det fram i litteraturtidsskriftet <title rend="italic">Edda</title>. Opplysinga om forfattarskapen til <title rend="italic">Jomfrue Pecunia</title> hos Pavels m&#x00E5; seiast &#x00E5; vera v&#x00E9;l s&#x00E5; p&#x00E5;litande som den heller svakt underbygde oppfatninga fr&#x00E5; 1784 om at Martinius Nissen er forfattaren. Pavels var m.a. ein kjend litteraturkritikar i si samtid og ein teaterinteressert mann. Dagb&#x00F8;kene hans har ofte vore nytta som kjelde til norsk personalhistorie. Han hadde kjent Nordahl Brun personleg fr&#x00E5; 1812, og det synest som Nordahl Brun har rekna Pavels som ein fortruleg venn &#x00AB;til hvem han riktig kunde tale fra leveren&#x00BB;, som Bull (1938, 68) formulerer det. Vi m&#x00E5; s&#x00E5;leis kunna rekna med at Pavels har hatt f&#x00F8;rste hands informasjon om kven som stod bak det anonyme skodespelet fr&#x00E5; 1768. I dagboksnotata elles ser det ut til at Pavels etter kvart har kjent det som om han levde i skuggen av minnet om den namngjetne f&#x00F8;remannen i embetet, seier Bull (loc. cit.). Difor vert han meir oppteken av &#x00E5; visa til alt som kunne vera &#x00E5; utsetja p&#x00E5; Nordahl Brun i desse dagboksnotata. Dei syrlege kommentarane fr&#x00E5; 1818 m&#x00E5; d&#x00E5; helst sj&#x00E5;ast i den samanhengen, og notisen om <title rend="italic">Jomfrue Pecunia</title> som ei lita &#x00AB;avsl&#x00F8;ring&#x00BB; eller ein indiskresjon om Nordahl Bruns litter&#x00E6;re fortid.</p>
+<p>Opplysinga om at det er Nordahl Brun som har skrive <title rend="italic">Jomfrue Pecunia</title>, h&#x00F8;ver elles sv&#x00E6;rt godt med det vi veit om biografien hans ved dei tider d&#x00E5; stykket kom ut. Nordahl Brun hadde pr&#x00F8;vd seg som skj&#x00F8;nnlitter&#x00E6;r forfattar f&#x00F8;r dette og f&#x00E5;tt prenta eit bryllaupsdikt i 1766 (Winsnes 1919, 15). Same &#x00E5;ret drog han for andre gong til K&#x00F8;benhavn. I all hast fullf&#x00F8;rte han sin teologiske embetseksamen og var attende i Trondheim ved juletider i 1767. Under dette opphaldet i K&#x00F8;benhavn vart han kjend med Claus Fasting. &#x00AB;Samv&#x00E6;ret med den kundskapsrike, interesserte, fint dannede Fasting, som nettop havde vundet sine f&#x00F8;rste laurb&#x00E6;r, har sikkert egget hans poetiske &#x00E6;rgjerrighet&#x00BB;, seier Winsnes (1919, 17). Og i 1767 hadde Fasting f&#x00E5;tt utgjeve omsetjinga si av Gessners dramatiske arbeid <title rend="italic">Evander og Alcimna</title>. I minnetalen over Fasting uttrykkjer Nordahl Brun seg p&#x00E5; ein m&#x00E5;te som godt kan tolkast slik at ogs&#x00E5; han p&#x00E5; den tida gjerne ville pr&#x00F8;va seg i ein liknande litter&#x00E6;r sjanger (Brun 1792).</p>
+<p><title rend="italic">Jomfrue Pecunia</title> m&#x00E5;, som mange har p&#x00E5;peika, kunna kallast ei Holberg-etterlikning, eller i alle fall seiast &#x00E5; vera sterkt p&#x00E5;verka av Holberg. Det er enkel og lite komplisert underhaldning med eit visst underliggjande moralsk alvor. Noko s&#x00E6;rleg til litter&#x00E6;r resepsjon fekk det ikkje, men det er s&#x00E5; vidt omtala i teaterhistorisk samanheng. I andre halvdel av 1800-talet, i 1876, karakteriserer Huitfeldt-Kaas stykket som ei Holberg-etterlikning og seier at samanlikna med Holberg er det &#x00AB;et temmelig svagt Arbeide, dog er Dialogen ikke uden en vis Kvikhed, og blandt F&#x00E6;lleslitteraturens Efterligninger af Holberg fra f&#x00F8;rre Aarhundrede h&#x00F8;rer stykket alligevel til de heldigere&#x00BB; (Huitfeldt-Kaas 1876, 87). Ut over det er det ikkje stort &#x00E5; finna.</p>
+<p>Kvifor komedien fr&#x00E5; 1768 vart utgjeven anonymt, veit vi ikkje sikkert. Det kan sj&#x00F8;lvsagt vera fleire grunnar til det. Men n&#x00E5;r det m&#x00E5; reknast som temmeleg sikkert at det er Johan Nordahl Brun som har skrive dette stykket, kan det vera verdt ogs&#x00E5; &#x00E5; sj&#x00E5; p&#x00E5; f&#x00F8;reordet til <title rend="italic">Zarine</title>. Det er stila til biskop Gunnerus og vi ser at forfattaren synest han m&#x00E5; tr&#x00F8; sv&#x00E6;rt varsamt n&#x00E5;r det gjeld dette med &#x00E5; skriva for teateret &#x2013; &#x00E5; gjera det var ikkje sett p&#x00E5; som h&#x00F8;veleg for &#x00AB;den der har tilegnet sig til L&#x00E6;re-Embedet&#x00BB;, heiter det i dette f&#x00F8;reordet. Nordahl Brun seier seg vidare lei for at &#x00AB;Skuepladsen er misbrugt, at den er bleven Forf&#x00E6;ngeligheds Skole, hvor den uforsigtige Ungdom opv&#x00E6;kkes til Vellyst ved l&#x00E6;tsindige Tvetydigheder&#x00BB;. S&#x00E5; difor m&#x00E5; han godta at nidkj&#x00E6;re folk &#x00AB;have udraabt alt hvad som henh&#x00F8;rer til Skuespil for Dj&#x00E6;velens V&#x00E6;sen&#x00BB;, og han finn det s&#x00E5;leis n&#x00F8;dvendig &#x00E5; gi eit langt forsvar for at han som prest har gjeve seg til &#x00E5; skriva for scenen, jamvel om det i tilfellet <title rend="italic">Zarine</title> er tale om eit &#x00AB;S&#x00F8;rgespil&#x00BB; med solid moral.</p>
+<p>Det m&#x00E5; d&#x00E5; &#x00F2;g tilf&#x00F8;yast at to av dei tre komediane Nordahl Brun skreiv seinare, er utgjevne anonymt. Berre <title rend="italic">Republiken paa &#x00D8;en</title> fr&#x00E5; 1793 er utgjeven med forfattarnamn. Ogs&#x00E5; slik sett er det d&#x00E5; ein samanheng mellom <title rend="italic">Jomfrue Pecunia</title> og dei komediane vi sikkert veit at Nordahl Brun har skrive.</p>
+<p>Vi veit at <title rend="italic">Jomfrue Pecunia</title> vart framf&#x00F8;rt p&#x00E5; scenen i samtida. Kor og kor ofte veit vi ikkje. Men det er i alle fall sikkert at det vart framf&#x00F8;rt av Martin N&#x00FC;renbachs teaterensemble i Christiania den 17. desember 1771 (jf. Hagland 1980, 169). Det viser d&#x00E5; at Johan Nordahl Brun hadde debutert som dramatikar p&#x00E5; scenen <emph>f&#x00F8;r</emph> den litteraturhistorisk ber&#x00F8;mmelege framf&#x00F8;ringa av tragedien <title rend="italic">Zarine</title> i februar 1772 &#x2013; det som for ettertida skulle bli st&#x00E5;ande som det litter&#x00E6;re hovudverket hans.</p>
+<p>Om ikkje av dei mest sentrale verk i litteraturhistoria v&#x00E5;r, m&#x00E5; <title rend="italic">Jomfrue Pecunia</title> likevel kunna kallast ein liten godbit, ikkje minst av lokalhistoriske grunnar i Tr&#x00F8;ndelag, ettersom det b&#x00E5;de g&#x00E5;r f&#x00F8;re seg og er skrive i &#x00AB;Tronhiem&#x00BB;. Det toler ganske sikkert &#x00E5; oppf&#x00F8;rast end&#x00E5; i dag, t. d. av eit godt amat&#x00F8;rteater.</p>
+<p>Utg&#x00E5;va her er prenta p&#x00E5; grunnlag av NTNU&#x2013;UB, Gunnerusbibliotekets eksemplar. Overleverte manuskript er ikkje kjende.</p>
+<div type="uchapter"> 
+<head type="sub">Litteraturtilvisingar</head>
+<p>Alm, Ellen 2011. &#x00AB;Hvem skrev <title rend="italic">Jomfrue Pecunia</title>?&#x00BB; I: <title rend="italic">Heimen</title>, bd. 48, 355&#x2013;358.</p>
+<p>Bull, Theodor 1938. <title rend="italic">Biskop Johan Nordahl Brun og hans slekt</title>. Oslo: Cammermeyers Boghandel.</p>
+<p>Hagen, Christina Friberg 1999. &#x00AB;Fra Roma til Trondhjem. En studie av Martinus Nissens komedie <title rend="italic">Jomfrue Pecunia</title>&#x00BB;. I: Gaasland, Rolf og Hans Erik Aarseth (red.) <title rend="italic">Mellom europeisk tradisjon og nasjonal selvbevissthet. Det norsk-klassiske drama 1750&#x2013;1814.</title> Oslo: Spartacus forlag AS, 92&#x2013;101.</p>
+<p>Hagland, Jan Ragnar 1980. &#x00AB;Kva tid debuterte Johan Nordahl Brun som dramtikar?&#x00BB; I: <title rend="italic">Edda</title>, hefte 3, 165&#x2013;169.</p>
+<p>Huitfeldt-Kaas, Henrik J&#x00F8;rgen 1876. <title rend="italic">Christiania Theaterhistorie</title>. Kj&#x00F8;benhavn: Gyldendalske Boghandel.</p>
+<p>ODS = Ordbog over det danske sprog. Kbhn. 1919&#x2013;1956.</p>
+<p>Winsnes, Andreas Hofgaard 1919. <title rend="italic">Johan Nordahl Brun. En monografi</title>. Kristiania &#x2013; K&#x00F8;benhavn: Gyldendalske Boghandel.</p>
+<p>Worm, Jens 1784. <title rend="italic">Fors&#x00F8;g til et Lexicon over danske, norske og islandske l&#x00E6;rde M&#x00E6;nd</title>. Tredie Deel. Ki&#x00F8;benhavn: August Frieder. Stein.</p>
+<lb/><p rend="bold">Annan nyare litteratur om Nordahl Bruns forfattarskap</p>
+<p>Andersen, Britt 1999. &#x00AB;Johan Nordahl Bruns <title rend="italic">Zarine</title>: Kj&#x00E6;rlighetsdrama eller fordekt norsk-patriotisme?&#x00BB; I: Gaasland, Rolf og Hans Erik Aarseth (red.) <title rend="italic">Mellom europeisk tradisjon og nasjonal selvbevissthet. Det norsk-klassiske drama 1750&#x2013;1814.</title> Oslo: Spartacus forlag AS, 102&#x2013;114.</p>
+<p>Jakobsen, Rolv N&#x00F8;tvik 1996. <title rend="italic">Den firfoldige fader</title>. Dr. avhandling. Oslo.</p>
+<p>Jakobsen, Rolv N&#x00F8;tvik 1999. &#x00AB;&#x0027;&#x2026;f&#x00F8;rst som Tragedie, deretter som Komedie&#x0027; &#x2013; om skodespela <title rend="italic">Einer Tambeskielver</title> (1772) og <title rend="italic">Republikken paa &#x00D8;en</title> (1793) av Johan Nordahl Brun&#x00BB;. I: Gaasland, Rolf og Hans Erik Aarseth (red.) <title rend="italic">Mellom europeisk tradisjon og nasjonal selvbevissthet. Det norsk-klassiske drama 1750&#x2013;1814.</title> Oslo: Spartacus forlag AS, 115&#x2013;135.</p>
+<p>Wiger, Ellen Nessheim 2002. &#x00AB;Innledning&#x00BB;. I: Brun, Johan Nordahl. <title rend="italic">Einer Tambeskielver</title>. Utgave ved Ellen Nessheim Wiger. Oslo: Det norske sprÃ¥k- og litteraturselskap/Aschehoug, 9&#x2013;19.</p>
+</div>
+</div>
+<div type="chapter" subtype="illustration">
+<p rend="center"><figure><graphic url="tittelblad_1768.jpg"/></figure><lb/>Tittelblad, 1. utgave, 1768 (Nasjonalbibliotekets eksemplar)</p>
+</div>
+<div type="chapter" subtype="castList">
+<head type="main"><ref type="contents" target="contents_2" xml:id="chapter_2">Hoved-Personerne.</ref></head>
+<castList>
+<castItem>1. <role>Theopompus,</role> <roleDesc>en gammel Gnier.</roleDesc></castItem>
+<castItem>2. <role>Philander,</role> <roleDesc>hans S&#x00F8;n.</roleDesc></castItem>
+<castItem>3. <role>Philetor,</role> <roleDesc>en Ven af begge.</roleDesc></castItem>
+<castItem>4. <role>Hendrich,</role> <roleDesc>Philanders Tiener.</roleDesc></castItem>
+<castItem><role>En fremmed Tiener.</role></castItem>
+</castList>
+<p>Skuepladsen er Theopompi Huus i Tronhiem.</p>
+</div>
+<div type="chapter" subtype="act" n="1">
+<head type="main"><ref type="contents" target="contents_3" xml:id="chapter_3">I. ACT.</ref></head>
+<div type="uchapter" subtype="scene" n="1_1">
+<pb n="3"/>
+<head type="sub">I. Scene.</head>
+<stage>Philander. Hendrich.</stage>
+<sp>
+<speaker>Philander.</speaker>
+<p>Hvilken gammeldags T&#x00E6;nkemaade han man ikke i denne Bye? Man skal endelig have en Betiening paa 4 &#x00E0; 500 Rigsdaler f&#x00F8;rend man kan gifte sig. Hvad kunde det vel skille min Fader den Tverdriver, som han er, at gifte mig med Agenore; Han beh&#x00F8;ver jo dog en Huusholderske; Den Tieneste paatog hun sig gierne, naar jeg maatte v&#x00E6;re Fuldm&#x00E6;gtig baade over og det meere; Og naar saa alle vore Huusfolk efterfulgte <pb n="4"/>vores Exempel, da vilde min Faders Huus blive et Verkst&#x00E6;d for lutter Kierligheds Gierninger.</p>
+</sp>
+<sp>
+<speaker>Hendrich.</speaker>
+<p>Ja det maae I nok sige, min Herre, og hvilken Gl&#x00E6;de vilde det ikke blive for eders Morbroder Hr. Paul, saa opbyggeligt som han pr&#x00E6;diker om Kierligheds Gierninger. Hille kn&#x00F8;, hvad han dog er en rar Guds Mand! Han pr&#x00E6;diker om Kierligheds Gierninger, han gi&#x00F8;r Kierligheds Gierninger. Herre Gud! hvor deyligt er det, naar Levnet og L&#x00E6;rdom svarer sammen. Og eders Exempel min Herre, vilde udrette store ting hos os Tiennere. End jeg og Lisken? vi vilde, min Troe, gi&#x00F8;re Kierligheds Gierninger baade Nat og Dag.</p>
+</sp>
+<sp>
+<speaker>Philander.</speaker>
+<p>Det skal du faae mig til at troe; Men jeg gad vide hvad min Fader vilde sige, om han vedste denne L&#x00F8;yer.</p>
+</sp>
+<sp>
+<speaker>Hendrich.</speaker>
+<p>Ja min Herre, dersom I syntes som jeg, da gav I jer Fader en god Dag, og tog saa <pb n="5"/>jer Agenore paa jer Samvittighed: For R&#x00E6;sten kan jeg nok vide, hvad han vilde sige.</p>
+</sp>
+<sp>
+<speaker>Philander.</speaker>
+<p>Siig frem da; men spaae mig godt, ellers gaaer det dig som alle slette Propheter; du faaer et &#x00D8;refigen.</p>
+</sp>
+<sp>
+<speaker>Hendrich.</speaker>
+<p>Det matte jeg vel forstaae at hytte mig for: Eders Fader vil rose eders u-egennyttige Kierlighed, som allene seer paa Dyd ey paa Stand og Midler, han vil strax samtykke, skikke Bud til Pr&#x00E6;sten og stille Caution for Konge-Brevet.</p>
+</sp>
+<sp>
+<speaker>Philander.</speaker>
+<p>Ach! du taler som en Engel, men gid du spaaede sandt; Jeg skulde dog tvile om, at han vilde v&#x00E6;re fuldkommen saa f&#x00F8;yelig.</p>
+</sp>
+<sp>
+<speaker>Hendrich.</speaker>
+<p>Ja, min Herre, jeg har et slemt Tilfelde, som jeg ey vil d&#x00F8;lge: Naar jeg spaaer godt, spaaer jeg sielden sandt.</p>
+</sp>
+<sp>
+<speaker><pb n="6"/>Philander.</speaker>
+<p>Saa t&#x00E6;nker du da, at han ey vil samtykke i min Kierlighed?</p>
+</sp>
+<sp>
+<speaker>Hendrich.</speaker>
+<p>Tanken gaaer Toldfrie.</p>
+</sp>
+<sp>
+<speaker>Philander.</speaker>
+<p>Siig strax frem, jeg befaler dig.</p>
+</sp>
+<sp>
+<speaker>Hendrich.</speaker>
+<p>Men hvordan skulde det saa blive med &#x00D8;refigenet.</p>
+</sp>
+<sp>
+<speaker>Philander.</speaker>
+<p>Det skal du strax faae, dersom du ey efterkommer min Befaling.</p>
+</sp>
+<sp>
+<speaker>Hendrich.</speaker>
+<p>O! jeg arme Stymper! taler jeg, faaer jeg et &#x00D8;refigen, tier jeg, faaer jeg et &#x00D8;refigen. Den, som nu vedste, hvilket af disse &#x00D8;refigener var det v&#x00E6;rste, saa kunde man rette sig derefter.</p>
+</sp>
+<sp>
+<speaker>Philander.</speaker>
+<p>Og dersom du ey gi&#x00F8;r som jeg befaler dig da skal du faae 10 for et.</p>
+</sp>
+<sp>
+<speaker><pb n="7"/>Hendrich.</speaker>
+<p>Ja det var en anden Regning, den kan jeg forstaae mig paa, det mindre Onde maa udv&#x00E6;lges: Et &#x00D8;refigen i Hensigt til Ti er godt; Dog ney, min Herre er en Dievel til at slaae, han kunde give mig en Septleva<note type="commentary">Septleva] I kortspelet <hi rend="italic">basset</hi> (sj&#x00E5; note i II. Act, 6. Scene) var &#x0027;septleva&#x0027; eit bel&#x00F8;p som var sju gonger h&#x00F8;gare enn det ein spelar opphavleg hadde som opphavleg innsats.</note> paa min Fornuft-Kiste, saa min hele Forstand kunde ryge bort, og det var en ubodelig Skade baade for min Herre og mig, og dersom &#x2013; &#x2013; &#x2013;</p>
+</sp>
+<sp>
+<speaker>Philander.</speaker>
+<p>Og dersom du ey holder din Mund med dit Sludder, da skal jeg l&#x00E6;re dig.</p>
+</sp>
+<sp>
+<speaker>Hendrich</speaker> <stage>tier</stage>
+</sp>
+<sp>
+<speaker>Philander.</speaker>
+<p>Tal siger jeg?</p>
+</sp>
+<stage>(Hendrich mumler i Skegget)</stage>
+<stage>Philander giver ham Prygl, Hendrich raaber:</stage>
+<sp>
+<speaker>Hendrich.</speaker>
+<p>Au! au! hvordan Dievelen kan man tale og tie paa eengang?</p>
+</sp>
+<sp>
+<speaker><pb n="8"/>Philander.</speaker>
+<p>I saa tael da og siig hvad min Fader vil finde paa.</p>
+</sp>
+<sp>
+<speaker>Hendrich.</speaker>
+<p>Han vil gi&#x00F8;re eder Arvel&#x00F8;s og jage mig Fanden i Vold.</p>
+</sp>
+<sp>
+<speaker>Philander.</speaker>
+<p>Naar du taler saa tydelig Hendrich, saa kan man begribe dig. Men gid min Fader kun vidste hvor smuk, hvor dydig, hvor elskv&#x00E6;rdig min Agenore er, saa vilde han aldrig fortryde paa min Kierlighed. Ach! min allers&#x00F8;deste Agenore! hvad er du dog yndig blant alle Piger, som Solen blandt Stiernerne. Saa mange &#x00D8;yekast du gir, saa mange Manddrab du gi&#x00F8;r. Saa mange Ord du taler, saa mange L&#x00E6;rdomme, saa mange Beviis paa din Dyd og Forstand. Ja een af dine st&#x00F8;rste Fortienester, som gi&#x00F8;r dig saa berettiget til mit Hierte, du har udvalgt mig blant saa mange Tilbedere, du elsker mig! Ach! henrykkende Tanke &#x2013; &#x2013; &#x2013;</p>
+</sp>
+<sp>
+<speaker><pb n="9"/>Hendrich</speaker> <stage>sagte:</stage>
+<p>Gud st&#x00F8;rke min Herre! Forliebelsen gi&#x00F8;r stor Virkning baade paa Siel og Legem, enten bliver han syg eller og gal, ja maaskee begge Deele.</p>
+</sp>
+<sp>
+<speaker>Philander</speaker> <stage>henrykt.</stage>
+<p>Ach! min Engel! min Skat! min halve Si&#x00E6;l! ach! lad mig kysse dig!</p>
+</sp>
+<stage>(Hendrich lister sig hen og kysser Philander, som i henrykkelse ikke merker at det er ham, omfavner ham troelig; Men da han nok engang vil kysse ham, merker han det er Hendrich, skyver ham fra sig og siger:</stage>
+<sp>
+<speaker>Philander.</speaker>
+<p>Fy! for en Ulykke, din Nar, hvor t&#x00F8;r du v&#x00E6;re saa n&#x00E6;sviis? Understaaer du dig at kysse din Herre?</p>
+</sp>
+<sp>
+<speaker>Hendrich.</speaker>
+<p>Tusinde Gange om Forladelse min Herre. I sagde jo selv: ach! lad mig kysse dig! og siden her var ingen anden i Stuen, end jeg, saa t&#x00E6;nkte jeg, min Herre talte til mig.</p>
+</sp>
+<sp>
+<speaker><pb n="10"/>Philander.</speaker>
+<p>Du er den st&#x00F8;rste Nar, der kan gaae i et Par Skoe.</p>
+</sp>
+<sp>
+<speaker>Hendrich.</speaker>
+<p>Saa meget desbedre kan jeg komme overeens med min Herre.</p>
+</sp>
+<sp>
+<speaker>Philander.</speaker>
+<p>Hvad siger du, din Slyngel? er jeg da en Nar.</p>
+</sp>
+<sp>
+<speaker>Hendrich.</speaker>
+<p>Ney. Men jeg siger kun, at jeg saa meget desbedre kommer overeens med Eder; thi jeg veed min Herre maa gierne fordrage Folk, der ere lidt naragtige, som jeg. <stage>(sagte)</stage> Det kom jeg bitter kn&#x00F8; vel fra.</p>
+</sp>
+<sp>
+<speaker>Philander.</speaker>
+<p>Ney, Hendrich, Tiden bliver mig nu saa lang; alt en heel Dag siden jeg talte med Agenore; Ach! mon Du er fortr&#x00F8;den, min Allerkiereste! over min lange Frav&#x00E6;relse? Mon Du t&#x00E6;nker at jeg er koldsindig? Ach <pb n="11"/>Ney, gid Du kunde see de h&#x00E6;ftige Luer, som br&#x00E6;nde i mit Hierte! Ach! min allers&#x00F8;deste Agenore! hvor hastig giorde ikke Din Ski&#x00F8;nhed mig til Slave. &#x2013; &#x2013; &#x2013;</p>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="1_2">
+<head type="sub">2. Scene.</head>
+<stage><hi rend="bold">Theopompus</hi>. De forrige.</stage>
+<stage>(Theopompus havde imidlertid h&#x00F8;rt det sidste af Philanders Tale, kommer forbitret frem og siger:</stage>
+<sp>
+<speaker>Theopompus.</speaker>
+<p>Men en god Stokke-Prygl skal ligesaa hastig skaffe dig din Frihed igien. H&#x00F8;r du forliebte Crabat, t&#x00F8;r du forlove dig uden din faders Tilladelse? Men saafremt jeg, som Fader, har noget at sige, da skal jeg nok gi&#x00F8;re en Str&#x00E6;g over den Regning. Du skal aldrig i Evighed &#x00E6;gte Agenore.</p>
+</sp>
+<sp>
+<speaker>Hendrich</speaker> <stage>for sig selv.</stage>
+<p>Hvad sagde Hendrich? Hvad sagde Hendrich? du store Prophet?</p>
+</sp>
+<sp>
+<speaker><pb n="12"/>Philander</speaker> <stage>sagte til <hi rend="bold">Hendrich.</hi></stage>
+<p>Hielp mig, hielp mig! find paa noget, lyv.</p>
+</sp>
+<sp>
+<speaker>Theopompus.</speaker>
+<p>Hvem er for Resten denne Agenore?</p>
+</sp>
+<stage>(Hendrich og Philander tier, ingen vil svare, den eene venter paa den anden, nikker til hverandre.)</stage>
+<sp>
+<speaker>Theopompus.</speaker>
+<p>Hvem er denne Agenore, siger jeg?</p>
+</sp>
+<sp>
+<speaker>Philander.</speaker>
+<p>Det er slet ingen, min k&#x00E6;re Fader; thi det min Fader h&#x00F8;rte jeg talte var et St&#x00F8;kke jeg havde l&#x00E6;rt uden ad af en Roman.</p>
+</sp>
+<sp>
+<speaker>Theopompus.</speaker>
+<p>Og det t&#x00F8;r du understaae dig at indbilde mig.</p>
+</sp>
+<sp>
+<speaker>Hendrich.</speaker>
+<p>Ja, det maae I nok sige. Det er forbandet med de forliebte Folk, de skal alletider lyve. Ney, lad mig tale, Herre! jeg vil <pb n="13"/>sige Sandhed, Han er ret forlovet med Agenore. &#x2013; &#x2013;</p>
+</sp>
+<sp>
+<speaker>Theopompus</speaker> <stage>til <hi rend="bold">Philander.</hi></stage>
+<p>Din Slyngel, jeg skal l&#x00E6;re dig at lyve.</p>
+</sp>
+<sp>
+<speaker>Hendrich.</speaker>
+<p>Men jeg kan sige med Sandhed: Det er en Pige, som er v&#x00E6;rd at see paa, Hun er deylig, dydig, forstandig &#x2013; &#x2013; &#x2013;</p>
+</sp>
+<sp>
+<speaker>Theopompus.</speaker>
+<p>Nok af det Sludder.</p>
+</sp>
+<sp>
+<speaker>Hendrich.</speaker>
+<p>Ney, min Herre, nu kommer Humlen, Hendes Fader har arvet store Midler.</p>
+</sp>
+<sp>
+<speaker>Theopompus.</speaker>
+<p>Er det mueligt?</p>
+</sp>
+<sp>
+<speaker>Hendrich.</speaker>
+<p>Ja, allerede for 10 Aar siden vurderede man ham for en Mand paa 10000 Rigsdaler. Og hvad skal han da ej have nu, da han er Proprietair og driver et fordeelagtigt <pb n="14"/>Brug: Og Agenore er hans eeneste Datter.</p>
+</sp>
+<sp>
+<speaker>Philander</speaker> <stage>sagte for sig selv.</stage>
+<p>Der sidder dog et Di&#x00E6;vels Hoved paa Hendrich.</p>
+</sp>
+<sp>
+<speaker>Theopompus.</speaker>
+<p>Hvad heder han?</p>
+</sp>
+<sp>
+<speaker>Hendrich.</speaker>
+<p>Codrus.</p>
+</sp>
+<sp>
+<speaker>Theopompus.</speaker>
+<p>Codrus, nu saa saa. O! kom kun igien min S&#x00F8;n, Sagen skal have sin Rigtighed; Jeg &#x00F8;nsker dig til Lykke; Naar du v&#x00E6;lger med Forstand, da kan jeg lide dit Valg.</p>
+</sp>
+<sp>
+<speaker>Hendrich</speaker> <stage>sagte til <hi rend="bold">Philander.</hi></stage>
+<p>Skynd paa, at man i Dag med Posten kan skrive efter Konge-Brevet, medens Sagerne staaer paa saa gode F&#x00F8;dder.</p>
+</sp>
+<sp>
+<speaker>Philander</speaker> <stage>til <hi rend="bold">Theopompus.</hi></stage>
+<p>Jeg har alletider vidst, at jeg har havt en retsindig Fader, det er derfor kun min Skyldighed <pb n="15"/>at v&#x00E6;re en beskeden S&#x00F8;n; Jeg kan derfor ikke noksom udtr&#x00F8;kke, hvad mit Hierte f&#x00F8;ler af Taknemmelighed. Ach! hvor er jeg ikke lyksalig? Hvor skulde ikke Agenores Kierlighed v&#x00E6;ret mig til Byrde, ja maaskee til st&#x00F8;rste Sorg og Bedr&#x00F8;velse, om min Fader havde v&#x00E6;ret mindre rimelig. Ach! min allerki&#x00E6;reste Fader! tillad mig at kysse Eders Haand. Det er Eder meere end Agenore, som gi&#x00F8;r mig lykkelig. Om det nu er med Eders Villie, da kunde vi med denne Post skrive efter Konge-Brevet, min Fader stille Caution, Bruden og Pr&#x00E6;sten hendtes, og Brude-Vielsen uden mange Omkostninger og Ceremonier fuldbyrdes i denne Aften.</p>
+</sp>
+<sp>
+<speaker>Theopompus.</speaker>
+<p>Holdt, holdt, min S&#x00F8;n, det var alt for hastigt. Ney, ret Ungdommen, hvor hidsig kan den dog v&#x00E6;re.</p>
+</sp>
+<sp>
+<speaker>Hendrich.</speaker>
+<p>Siig ikke det, min Herre. Philander har en beydelig Medbeyler, som vel ey kan elskes af Agenore; Men han er meget riig. <pb n="16"/>Og ikke f&#x00F8;r faaer Codrus vide, at han har Tanke til hans Datter, f&#x00F8;rend han uden Omsv&#x00F8;b givter dem sammen. Man kiender vel disse gamle Gniere. Men lyd mit Raad. Lad os faae fat paa Agenore og en Pr&#x00E6;st, og saa Faderen uafvidende st&#x00F8;be dette smukke Par sammen. Giort Gierning er halvparten forsvaret; thi dette er en alt for feed Steeg at lade sig gaae af H&#x00E6;nderne.</p>
+</sp>
+<sp>
+<speaker>Philander</speaker> <stage>sagte.</stage>
+<p>Skam der veed, hvor Hendrich tager det fra altsammen.</p>
+</sp>
+<sp>
+<speaker>Theopompus.</speaker>
+<p>Ja see til da, Hendrich! at du kan stille dette i V&#x00E6;rk. Og du Philander, gi&#x00F8;r Anstalt til et lidet Gi&#x00E6;stebud i Aften.</p>
+</sp>
+<stage>(Philander og Hendrich gaaer bort.)</stage>
+</div>
+<pb n="17"/>
+<div type="uchapter" subtype="scene" n="1_3">
+<head type="sub">3. Scene.</head>
+<sp>
+<speaker>Theopompus</speaker>
+<stage>allene.</stage>
+<p>Det var saa men ret artigt om denne L&#x00F8;yer kunde fuldbyrdes, saa kunde jeg da see min S&#x00F8;n vel forsynet; Men see! der er Philetor.</p></sp>
+</div>
+<div type="uchapter" subtype="scene" n="1_4">
+<head type="sub">4. Scene.</head>
+<stage><hi rend="bold">Theopompus. Philetor.</hi></stage>
+<sp>
+<speaker>Philetor.</speaker>
+<p>God Dag, min ki&#x00E6;re Theopompe! hvordan behager I at leve?</p>
+</sp>
+<sp>
+<speaker>Theopompus.</speaker>
+<p>Jo, jeg takker, ret vel. I kommer just tilpas. Jeg mener I kan oplyse mig i en magtpaaliggende Sag, Kiender I Codrus?</p>
+</sp>
+<sp>
+<speaker>Philetor.</speaker>
+<p>Ja, desverre! alt for vel.</p>
+</sp>
+<sp>
+<speaker>Theopompus.</speaker>
+<p>Hvordan da? er han saa slet en Mand.</p>
+</sp>
+<sp>
+<speaker><pb n="18"/>Philetor.</speaker>
+<p>Ney men, det kan jeg just heller ikke sige; Han er sagte en god from Mand nok. Men har v&#x00E6;ret ulykkelig i alt sit Foretagende og jeg har tabt store Penge ved ham, Vel har jeg nu hans Gaarder i Pant. Men det str&#x00E6;kker ey langt mod det han er mig skyldig. Og uagtet alt dette, holder jeg dog ret af ham, og anseer ham for en &#x00E6;rlig mand.</p>
+</sp>
+<sp>
+<speaker>Theopompus.</speaker>
+<p>Og jeg er f&#x00E6;rdig at d&#x00F8;e af &#x00C6;rgelse, den forbandede Henrich. Min S&#x00F8;n skulde &#x00E6;gte hans Datter? aldrig i Evighed. Hendrich skal jeg lade h&#x00E6;nge, og min S&#x00F8;n prygle med tvende Karle, og siden s&#x00E6;tte ham i et Fangebuur.</p>
+</sp>
+<sp>
+<speaker>Philetor.</speaker>
+<p>D&#x00E6;mp Deres Ivrighed. Codri Datter er baade en dydig og deylig Pige; Hun er i mit Huus. Og Deres S&#x00F8;n vilde ey blive ilde faren med hende.</p>
+</sp>
+<sp>
+<speaker><pb n="19"/>Theopompus.</speaker>
+<p><hi rend="italic">&#x00E0; Dieu</hi> Philetor! jeg har ikke stort utalt med Dem, naar De ere af denne forbandede Spradebasse T&#x00E6;nkemaade. De skal nok see man kan leve af Smukhed og Dyd, naar man ey har Penger.</p>
+</sp>
+<stage>(De gaaer bort.)</stage>
+<stage>Ende paa 1ste Act.</stage>
+</div>
+</div>
+
+<div type="chapter" subtype="act" n="2">
+<head type="main"><ref type="contents" target="contents_4" xml:id="chapter_4">II. ACT.</ref></head>
+<div type="uchapter" subtype="scene" n="2_1">
+<head type="sub">I. Scene.</head>
+<stage>(Philander allene, tager op en Kiste, l&#x00E6;ser deres navne, som han har ladet indbyde til Aftens og siger:</stage>
+<sp><p>Et ganske artigt S&#x00E6;lskab; gid nu Hendrich kom med Bruden, saa vilde min Lyksalighed <pb n="20"/>snart blive fuldkommen. Nu da, see der er Hendrich, men ingen Agenore, hvad mon det vil sige?</p></sp>
+</div>
+<div type="uchapter" subtype="scene" n="2_2">
+<head type="sub">2. Scene.</head>
+<stage><hi rend="bold">Philander. Hendrich.</hi></stage>
+<sp>
+<speaker>Hendrich</speaker> <stage>med Aanden i Halsen.</stage>
+<p>O! min Herre, Min Herre, der staaer til i en Dievels Maade.</p>
+</sp>
+<sp>
+<speaker>Philander.</speaker>
+<p>Hvordan da, Hendrich? du gi&#x00F8;r mig utaalmodig. Oppholdt mig ikke.</p>
+</sp>
+<sp>
+<speaker>Hendrich.</speaker>
+<p>O! jeg kan knap faae Munden op; Jeg har hverken faaet Vaat eller T&#x00F8;rt, siden vi skiltes ad, og jeg har l&#x00F8;bet som en Hund.</p>
+</sp>
+<sp>
+<speaker>Philander.</speaker>
+<p>Jeg troer den Slyngel vil drive Gi&#x00E6;k med mig; Er der ingen anden Ulykke paaf&#x00E6;rde, end at du ej har faaet Mad, din &#x00C6;der?</p>
+</sp>
+<sp>
+<speaker>Hendrich.</speaker>
+<p>Jo, jeg sagde Eder det jo, jeg har ey heller faaet Drik.</p>
+</sp>
+<sp>
+<speaker><pb n="21"/>Philander.</speaker>
+<p>Og den tredie Ulykke er, at du ey heller har faaet Prygl?</p>
+<stage>(Han giver ham derpaa nogle Rap af sin kaarde)</stage>
+</sp>
+<sp>
+<speaker>Hendrich.</speaker>
+<p>Au! au! Herre, I faaer i Tide nok at vide den fierde Ulykke, som bestaaer deri, at der bliver intet af med Agenore og Eder. Den Dievels Philetor, den forbandede Nar, den lumpne Crabat, den &#x2013; &#x2013; &#x2013;</p>
+</sp>
+<sp>
+<speaker>Philander.</speaker>
+<p>Holdt op med dine Exclamationer og lad os h&#x00F8;re, hvad som staaer paa.</p>
+</sp>
+<sp>
+<speaker>Hendrich.</speaker>
+<p>Han har just i Dag sendt Agenore op paa sin Avels-Gaard at kierne, og dersom denne deylige Dag gaaer forbi, saa kan Eders Fader underrettes om Codri Tilstand, og saa blev det sidste verre end det f&#x00F8;rste.</p>
+</sp>
+<sp>
+<speaker>Philander.</speaker>
+<p>Den var dog en forbandet Renden paa <pb n="22"/>disse Avels-Gaarder. Jeg vilde f&#x00F8;r v&#x00E6;re Ordonantz hos en Officier, end Huusholderske hos Philetor. Endski&#x00F8;nt Manden er brav nok; Men Konen heder Rasmus. Jeg veed vist min Kiereste har Langfredag meer end eengang om Aaret, Den Dievel, den Proserpina,<note type="commentary">Proserpina] romersk gudinne tilsv. den greske Persepone, oftast framstilt som ei vakker ung kvinne. Her som tilvising til Agenore. Sj&#x00E5; &#x00F2;g nedanfor heilt til slutt i stykket.</note> den &#x2013; &#x2013; &#x2013;</p>
+</sp>
+<sp>
+<speaker>Hendrich.</speaker>
+<p>Holdt op med Eders Exclamationer og lad os h&#x00F8;re, hvad vi skal finde paa.</p>
+</sp>
+<sp>
+<speaker>Philander.</speaker>
+<p>Ja, Skam faae den, der veed, Hendrich, om jeg nu sender en Expres, saa kommer de dog for silde, og saa vilde min Fader merke, at det var <hi rend="italic">Dolus malus</hi>.<note type="commentary">Dolus malus] (Latin), her: eit kaldt bedrag, eller ein svikefull plan.</note></p>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="2_3">
+<head type="sub">3. Scene.</head>
+<stage><hi rend="bold">Theopompus.</hi> De forrige.</stage>
+<sp>
+<speaker>Theopompus.</speaker>
+<p><hi rend="italic">A! Messsieurs</hi>, er I der? I gi&#x00F8;r maaskee Anl&#x00E6;g til Bryllupet?</p>
+</sp>
+<sp>
+<speaker><pb n="23"/>Hendrich.</speaker>
+<p>O! min Herre! jeg kan aldrig sige, hvor vi ere i Flugten, vi kan ey faaae fat paa Agenore, vi maae nok sette Bryllupet op til i Morgen.</p>
+</sp>
+<sp>
+<speaker>Theopompus.</speaker>
+<p>Ja, sig heller til evig Tiid, Slyngel; Jeg skal ki&#x00F8;be en Strikke til dig. Og dig Philander, skal jeg sette i et Fangebuur, vil du din lumpne Kn&#x00F8;s fixere din gamle Fader? Agenore er jo saa fattig, som en Kirke-Rotte.</p>
+</sp>
+<sp>
+<speaker>Hendrich.</speaker>
+<p>Hvem Dievelen har nu v&#x00E6;ret fremme og indbildt eder dette? Jeg t&#x00F8;r bande paa at det er eders Medbeyler, Philander! han har maaskee faaet Nys om vores Anl&#x00E6;g, og for at gi&#x00F8;re det til intet, lader eders Fader fort&#x00E6;lle dette. Ja, naar jeg t&#x00E6;nker mig om er det forbandet rimeligt.</p>
+</sp>
+<sp>
+<speaker>Theopompus.</speaker>
+<p>Er der endnu saa mange kl&#x00F8;gtige Inventioner til overs i dit Hoved? men de skal allesammen v&#x00E6;re forgi&#x00E6;ves, din liderlige Compan. Jeg har talt med Philetor, som har hans Gaarder i Pant, og &#x2013; &#x2013; &#x2013;</p>
+</sp>
+<sp>
+<speaker><pb n="24"/>Hendrich.</speaker>
+<p>Philetor, Philetor! hille den sorte J&#x00F8;de; Ja saa er der Ende paa den heele L&#x00F8;yer. Jeg vil ey have meere med denne fortr&#x00E6;delige Sag at bestille. <hi rend="italic">&#x00E0; Dieu</hi>!</p>
+<stage>(Han vil gaae.)</stage>
+</sp>
+<sp>
+<speaker>Theopompus.</speaker>
+<p>Ney holdt! gi&#x00F8;r f&#x00F8;rst Regnskab for din L&#x00F8;gn, og siden skal jeg nok s&#x00F8;rge for din Opdragelse.</p>
+</sp>
+<sp>
+<speaker>Hendrich</speaker> <stage>sagte:</stage>
+<p>Nu er jeg om en Hals. Det staaer aldrig paa at lyve; men at forsvare sin L&#x00F8;gn, det er en anden Sag.</p>
+</sp>
+<sp>
+<speaker>Theopompus.</speaker>
+<p>Nu skal du have 10 Rap for hver L&#x00F8;gn du har smurt i mig.</p>
+</sp>
+<sp>
+<speaker>Hendrich.</speaker>
+<p>Det bliver en slem Regning for min Ryg. Men Courage! begynd Herre at examinere.</p>
+</sp>
+<sp>
+<speaker>Theopompus.</speaker>
+<p>Sagde du ikke at Codrus var Proprietaire! og er det sandt?</p>
+</sp>
+<sp>
+<speaker>Hendrich.</speaker>
+<p>Ja, Gud give alt var saa sandt, som der er, <pb n="25"/>Herre! Han har tvende Gaarder paa Landet. Og den, som har Gaarder paa Landet er Proprrietair. See Lovens 3 Art. 5 Cap. 7 Bog.</p>
+</sp>
+<sp>
+<speaker>Theopompus.</speaker>
+<p>Du sagde jo at hendes Fader har arvet store Midler.</p>
+</sp>
+<sp>
+<speaker>Hendrich.</speaker>
+<p>Jo! det er en soleklar Sandhed; men han har siden spillet Banquerot, og derom meldte jeg intet. Det er heller ikke min Sag at sige til godt Folkes Forkleinelse.</p>
+</sp>
+<sp>
+<speaker>Theopompus.</speaker>
+<p>Men du sagde jo, at Agenore var hans eeneste Datter og han har jo mange B&#x00F8;rn, hvordan vil du komme derfra?</p>
+</sp>
+<sp>
+<speaker>Hendrich.</speaker>
+<p>Ret godt; thi omendski&#x00F8;nt han har 5 S&#x00F8;nner, saa er dog Agenore hans eeneste datter.</p>
+</sp>
+<sp>
+<speaker>Theopompus</speaker> <stage>(sagte).</stage>
+<p>Man kommer ingen Vey med den Karl. <stage>(h&#x00F8;yt)</stage> Men nu vil jeg sige dig noget, som hverken directe eller indirecte skal v&#x00E6;re L&#x00F8;gn. Du skal ey v&#x00E6;re en Dag l&#x00E6;ngere i min S&#x00F8;ns Tieneste. Og du min S&#x00F8;n, gak smukt hen <pb n="26"/>og l&#x00E6;g Vind paa at glemme Agenore. For R&#x00E6;sten skal jeg nok s&#x00F8;rge for dit Givtermaal.</p>
+</sp>
+<stage>(Philander og Hendrich gaaer bort.)</stage>
+</div>
+<div type="uchapter" subtype="scene" n="2_4">
+<head type="sub">4. Scene.</head>
+<sp>
+<speaker>Theopompus</speaker> <stage>allene.</stage>
+<p>Ney, min ki&#x00E6;re S&#x00F8;n! jeg skal nok l&#x00E6;re dig at slaae den forliebte Tand ud, enten skal han ikke givte sig, f&#x00F8;rend han af sit eget Embeds Indkomme kan f&#x00F8;de en Kone, eller og skal han &#x00E6;gte et rigt Fruentimmer. Disse unge forelskede Chavaillers, de t&#x00E6;nke mest paa at givtes, men kun lidt paa hvad de skulle leve af, nogle faa Skillinger, som arves efter en Fader faae snart Ende, ogsaa sidde de der med Kone og B&#x00F8;rn. Men see! der er Philetor igien, hvad mon han nu har at sige.</p></sp>
+</div>
+<div type="uchapter" subtype="scene" n="2_5">
+<head type="sub">5. Scene.</head>
+<stage>Theopompus. Philetor.</stage>
+<sp>
+<speaker>Philetor.</speaker>
+<p>Jeg kommer til at overtale Eder til billige Tanker for Eders S&#x00F8;n; Min ven! bet&#x00E6;nk <pb n="27"/>dog, at Penge gi&#x00F8;r ikke Folk lykkelig; det er sandt, naar man kan faae dem og en dydig Kone tillige, saa er det saa meget desbedre. Men det er dog mueligt at leve i maadelig Omst&#x00E6;ndigheder med en dydig Kone, da det derimod var umueligt at have nogen Gl&#x00E6;de af den Rigdom, som man var n&#x00F8;d til at deele med et Skarn. Jeg er ret fortr&#x00F8;den over Eders Opf&#x00F8;rsel med Eders S&#x00F8;n. I var saa str&#x00E6;ng med ham, som om Agenore var en gemeen T&#x00F8;s. Og hvad Standen angaaer, er Hun i alle Maader ligesaa god som Eders S&#x00F8;n. Og hun har der Egenskaber, som h&#x00F8;yt oph&#x00F8;yer hende over mange af de Rigeste. Jegsiger dette just ikke for at byde hende ud; thi slige Piger blive aldrig forl&#x00E6;gen Kram.</p>
+</sp>
+<sp>
+<speaker>Theopompus.</speaker>
+<p>Er denne Pr&#x00E6;diken snart til Ende?</p>
+</sp>
+<sp>
+<speaker>Philetor.</speaker>
+<p>Jeg merker nok den endnu er for kort til at faae eder omvendt. Ikke er jeg nogen Spamand; Men jeg vil noget n&#x00E6;r forsikre at I vil h&#x00F8;ste slette Frugter af disse Eders egennyttige Anslag og forunderlige Tanker om Rigdom.</p>
+</sp>
+<sp>
+<speaker><pb n="28"/>Theopompus.</speaker>
+<p>Jeg bliver neppe af andre Tanker, end at Rigdom er s&#x00E6;rdeles nyttig, og Fattigdom s&#x00E6;rdeles besv&#x00E6;rlig. Men jeg maae storlig forundre mig over Eder, som selv haver Rigdom og ej veed hvad den duer til.</p>
+</sp>
+<sp>
+<speaker>Philetor.</speaker>
+<p>Ney min ki&#x00E6;re Theopompus! Tillad mig nu engang ret grundig at overbeviise Eder om denne Sag.</p>
+</sp>
+<sp>
+<speaker>Theopompus.</speaker>
+<p>Ney, Farvel Philetor! jeg har noget at forrette.</p>
+<stage>(Han gaaer bort.)</stage>
+</sp>
+<sp>
+<speaker>Philetor.</speaker>
+<p>O Himmel! hvad er dog ikke denne Gierrige et urimeligt Creatur.</p>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="2_6">
+<head type="sub">6. Scene.</head>
+<stage><hi rend="bold">Philetor. Philander. Hendrich.</hi></stage>
+<sp>
+<speaker>Philander.</speaker>
+<p>O! hvad har I giort, Philetor? det er Edcer, som imod Eders Villie har styrtet mig i <pb n="29"/>denne Ulykke. Br&#x00F8;llupet skulde maaskee i denne Aften gaaet for sig, dersom I ey havde underrettet min Fader om Codri slette Omst&#x00E6;ndigheder. Men kan ikke regne Eder det til Last; thi I giorde det uvidende. Jeg beder Eder allene, tag Deel i min Bedr&#x00F8;velse. I seer hvor stor min Ulykke er. Jeg er for evig skilt med Agenore. Min Fader er paa ingen Maade at overtale. Ach! I allene, min ki&#x00E6;re Philetor! veed hvad jeg taber. Den Deyligste med det dydigste Hierte. Og hvilken Sorg vil denne Tidende foraarsage min s&#x00F8;de Agenore? Men, min oprigtige Ven! jeg kr&#x00E6;ver et L&#x00F8;fte af Eder, lov mig det, og sv&#x00E6;r mig ved alt det, som helligt er, og ved det Venskab, som er imellem os, at I vil holde det! V&#x00E6;r Agenores Forsvar; og n&#x00F8;d hende aldrig til at givtes imod sin Villie. Forsikkre hende om, at mit Hierte skal stedse h&#x00F8;re hende til og aldrig blive nogen andens.</p>
+</sp>
+<sp>
+<speaker>Philetor.</speaker>
+<p>Jeg beklager eder af mit Hierte, Philander. Og jeg var en falsk Ven, om jeg ej vilde v&#x00E6;re, som en Fader for Agenore. Men Eders <pb n="30"/>Fader er jeg forbitret paa, jeg gad spille ham et Puds, paa hvad Maade det og kunde skee.</p>
+</sp>
+<sp>
+<speaker>Philander.</speaker>
+<p>Ja, endski&#x00F8;nt der er en stor Skr&#x00F8;belighed af mig, maae jeg tilstaae, at jeg n&#x00E6;sten af Forbitrelse var i Stand til at sette al min s&#x00F8;nlig Lydighed tilside.</p>
+</sp>
+<sp>
+<speaker>Hendrich.</speaker>
+<p>Og jeg maae sige med Sandhed, jeg havde Lyst til at sammenskrabe alle de Indfald, som maatte ligge skiulte i alle de forborgne L&#x00E6;ddiker i mit firkantede Hoved for at sette den gode Mand en Voxnese paa.</p>
+</sp>
+<sp>
+<speaker>Philetor.</speaker>
+<p>Velan da, B&#x00F8;rn lille! lader os legge vore Hierner i bl&#x00F8;dt for at opfinde et lidet Puds.</p>
+</sp>
+<sp>
+<speaker>Hendrich.</speaker>
+<p>Ja, lad see hvilke Kale I ere, speculerer alle.</p>
+<stage>(De falde alle i dybe Tanker.)</stage>
+<stage>Hendrich seer paa dem, og siger med sig selv:</stage>
+<p>Ha, ha, ha, den eene staaer ligesom Peer Gnier, naar han h&#x00F8;rer Bord-Priisen er falden, eller at en ung Ki&#x00F8;bmand s&#x00E6;lger for bedre Priis end han. Den anden staaer som Hr. <pb n="31"/>Paul, naar Biskoppen har faaet at vide, at han Aftenen forud har spilt sig saa Lens i Basset,<note type="commentary">Basset] kortspel om pengar helst for personar av h&#x00F8;g rang ettersom det var tale om store tap og vinstar. Kjent fr&#x00E5; Italia fr&#x00E5; og med slutten av 1500-talet, seinare ogs&#x00E5; elles i Europa.</note> at han var n&#x00F8;d til at sette sin Krave, Bonet og Pr&#x00E6;ste-Peruqve i Pant og laane en gammmel Nathue hos Verten for at komme hiem. <stage>(h&#x00F8;yt</stage>) Nu hvad har I resolveret til, I gode Herrer! De svarer intet. <stage>(Hendrich for sig selv)</stage> De Kale seer ud, som de kunde have en Hoben Forstand.</p>
+</sp>
+<sp>
+<speaker>Philetor.</speaker>
+<p>Hvad meener du, Hendrich?</p>
+</sp>
+<sp>
+<speaker>Hendrich.</speaker>
+<p>Jeg meener, at I har udfundet et exellenz Indfald, siden I har bet&#x00E6;nkt eder saa l&#x00E6;nge.</p>
+</sp>
+<sp>
+<speaker>Philetor.</speaker>
+<p>Der vil intet falde mig ind i en Hast, Men lad mig h&#x00F8;re hvad du vil finde paa?</p>
+</sp>
+<sp>
+<speaker>Hendrich.</speaker>
+<p>Ja, det t&#x00E6;nkte jeg nok. Naar man beh&#x00F8;ver Raad, da er Hendrich ingen Nar, da er han et Orakel. Men det maae ikke hielpe. Min Herre er en brav Karl, som b&#x00F8;r hielpes, og min Herres Fader en arrig Dievel, <pb n="32"/>han b&#x00F8;r narres. Bringer mig hid en Lennestoel.</p>
+<stage>(Man bringer ham en Lennestoel, han setter sig med Haand under Kind, gi&#x00F8;r et &#x00E6;rv&#x00E6;rdig Ansigt, p&#x00F8;nser, og omsider vaagner han op, ligesom af en S&#x00F8;vn, hopper op af Stoelen og raaber:</stage>
+<p>O! du store Hendrich! du Skielmstykkers bundl&#x00F8;se Kilde! Nu har jeg giort Anl&#x00E6;g til den heele Sag. Veed I hvad, nu skal vi bitter kn&#x00F8; spille en fuldkommen Comoedie, og jeg vil tage Hoved-Rollen.</p>
+</sp>
+<sp>
+<speaker>Philander.</speaker>
+<p>Nu Mester Hendrich! hvordan da?</p>
+</sp>
+<sp>
+<speaker>Hendrich.</speaker>
+<p>Kald mig heller Hr. Professor. I skulle have speculeret paa saadant Indfald i 14 Dage og endda v&#x00E6;ret lige n&#x00E6;r.</p>
+</sp>
+<sp>
+<speaker>Philander.</speaker>
+<p>Nu da Hr. Professor! lad os h&#x00F8;re dit kl&#x00F8;gtige Indfald.</p>
+</sp>
+<sp>
+<speaker><pb n="33"/>Hendrich.</speaker>
+<p>Ney holdt saa, ikke alt paa engang. Jeg skal paa en behageligere Maade overrumple Eder, naar I lidt efterhaanden faaer det at vide. Farvel saa l&#x00E6;nge. Jeg gaaer bort for at gi&#x00F8;re Begyndelse.</p>
+<stage>(Han gaaer.)</stage>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="2_7">
+<head type="sub">7. Scene.</head>
+<stage><hi rend="bold">Philetor. Philander.</hi></stage>
+<sp>
+<speaker>Philetor.</speaker>
+<p>Jeg gad ret vide, hvad han nu har bag &#x00D8;ret. Det skulde forn&#x00F8;ye mig om hans Indfald vilde lykkes.</p>
+</sp>
+<sp>
+<speaker>Philander.</speaker>
+<p>Jeg tviler ingenlunde paa hans Capacite; Men ki&#x00E6;re Philetor! skulde han i nogen Maade tr&#x00E6;nge til eders Hielp, var der end om Penge at gi&#x00F8;re, saa n&#x00E6;gt ham det ikke for det Venskab som er mellom os! Men nu maae vi gaae hen og see hvad han tager sig for.</p>
+</sp>
+<stage>(De gaaer bort.)</stage>
+<stage>Ende paa den 2den Act.</stage>
+</div>
+</div>
+<pb n="34"/>
+<div type="chapter" subtype="act" n="3">
+<head type="main"><ref type="contents" target="contents_5" xml:id="chapter_5">III. ACT.</ref></head>
+<div type="uchapter" subtype="scene" n="3_1">
+<head type="sub">I. Scene.</head>
+<sp>
+<speaker>Theopompus</speaker> <stage>allene.</stage>
+<p>Det er en Anstalt med den Ungdom; gid den var vel givt!</p>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="3_2">
+<head type="sub">2. Scene.</head>
+<stage><hi rend="bold">Theopompus. Philetor.</hi></stage>
+<sp>
+<speaker>Philetor.</speaker>
+<p>God Dag paa nye, min Ven! kan I skaffe mig en Vexel paa Amsterdam paa 15000de Rigsdaler?</p>
+</sp>
+<sp>
+<speaker>Theopompus.</speaker>
+<p>15000 Rigsdaler! Hvad skal I med saa mange Penge paa engang? Det er umueligt for mig at skaffe dem. Skal I ellers have dem selv?</p>
+</sp>
+<sp>
+<speaker>Philetor.</speaker>
+<p>Ney men skal jeg ikke. En gammel Jomfrue fra Nordfiord er kommet til mig i Aften, hun kalder sig Jomfrue Pecunia, hun <pb n="35"/>seer ilde ud, har nogle egne Grimacer; men eyer mange Penge; hun vil have den.</p>
+</sp>
+<sp>
+<speaker>Theopompus.</speaker>
+<p>Det er noget rart nyt I fort&#x00E6;ller mig. &#x2013; &#x2013; &#x2013; Mon hun vil givte sig? Der var Leylighed for min S&#x00F8;n. Jeg vil saa sandt jeg er en &#x00E6;rlig Mand hen og frie for min S&#x00F8;n i denne Aften-Stund.</p>
+</sp>
+<sp>
+<speaker>Philetor.</speaker>
+<p>Jeg skal tvile om, at hun vil givte sig; thi hun seer ud, som den Appetit var hende forgaaet. Ikke desmindre har I ey n&#x00F8;dig at bes&#x00F8;ge mig for at faae hende i tale, jeg skal foregive, at I selv mae tale med hende om Vexelen, saa kommer hun nok; thi det er hende meget magtpaaliggende; desuden skal jeg og, om I saa behager, recommendere eder hos hende for en meget riig Mand og en god Huusholder.</p>
+</sp>
+<sp>
+<speaker>Theopompus.</speaker>
+<p>O! Gud velsigne eder derfor, min ki&#x00E6;re Philetor.</p>
+</sp>
+<stage>(Philetor gaaer bort.)</stage>
+</div>
+<pb n="36"/>
+<div type="uchapter" subtype="scene" n="3_3">
+<head type="sub">3. Scene.</head>
+<stage><hi rend="bold">Theopompus. Philander.</hi></stage>
+<sp>
+<speaker>Theopompus</speaker> <stage>raaber:</stage>
+<p>Philander, Philander!</p>
+</sp>
+<sp>
+<speaker>Philander.</speaker>
+<p>Ja, her er jeg! f&#x00E6;rdig til at adlyde, hvad min Fader befaler.</p>
+</sp>
+<sp>
+<speaker>Theopompus.</speaker>
+<p>I Aften skal jeg skaffe dig en Kone, som har saa mange, saa mange Penge.</p>
+</sp>
+<sp>
+<speaker>Philander.</speaker>
+<p>Jeg vilde v&#x00E6;re min Fader h&#x00F8;ylig forbunden for hans Bevaagenhed, dersom Han og kunde skaffe mig Kierlighed til den samme Kone.</p>
+</sp>
+<sp>
+<speaker>Theopompus.</speaker>
+<p>Hvilket ulyksaligt Sludder om Kierlighed. N&#x00E6;vn den aldrig meere, siger jeg. Det er en Daare, som ey vilde elske den Person, som gi&#x00F8;r ham lykkelig.</p>
+</sp>
+<sp>
+<speaker>Philander.</speaker>
+<p>Ja! men det er jo umueligt, at den Person, som jeg ikke elsker, kan gi&#x00F8;re mig lykkelig.</p>
+</sp>
+<sp>
+<speaker><pb n="37"/>Theopompus.</speaker>
+<p>H&#x00F8;r! veed du hvad? Ikke et Ord meere om Kierlighed. Du skal have den, jeg vil du skal have, og jeg vil ikke du skal have nogen uden den, som gi&#x00F8;r dig lykkelig; forstaaer du deg paa den Regning?</p>
+</sp>
+<sp>
+<speaker>Philander.</speaker>
+<p>Ja, endski&#x00F8;nt den er gal baade for, midt og bag udi Regelen, saa faaer jeg vel finde mig deri; Men mig synes det banker.</p>
+<stage>(Han lukker op.)</stage>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="3_4">
+<head type="sub">4. Scene.</head>
+<stage><hi rend="bold">Hendrich</hi> forkl&#x00E6;d til Fruentimmer. <hi rend="bold">Philetor.</hi> De forrige.</stage>
+<sp>
+<speaker>Hendrich.</speaker>
+<p>Tienerinde, min Herre! fortryd ey paa min Dristighed, at jeg kommer saa silde paa Aftenen. Inte heller er jeg saa vel cafferet,<note type="commentary">cafferet] Caffere = coifere, pynta seg p&#x00E5; hovudet, frisera seg.</note> som jeg burte, naar jeg skulde bes&#x00F8;ge bra Folk. Men al min Stats ligger i Cofferten min, og den har jeg min Gud og Herre endnu inte faaet efter mig til Byen.</p>
+</sp>
+<sp>
+<speaker><pb n="38"/>Theopompus.</speaker>
+<p>Deslige Undskyldninger beh&#x00F8;ves ikke, min ki&#x00E6;re Jomfrue Pecunia: Jeg seer kun paa det Reelle. I har talt om en Vexel paa Amsterdam, endnu kan jeg ey skaffe den saa stor. Men maaskee om 8te Dage ifald I kand bie. Maae jeg ellers sp&#x00F8;rge om Eders &#x00C6;rende til Byen.</p>
+</sp>
+<sp>
+<speaker>Hendrich.</speaker>
+<p>Jeg er kommet for at s&#x00E6;lge mit Jorde-Gods, og for at gi&#x00F8;re i Penge baade l&#x00F8;st og fast. Jeg er nu saa kied af at tr&#x00E6;kkes med dette Lapperie. Jeg har nu baaret Byrden i 30 aar, og troe mig, det er ikke godt for et Fruentimmer.</p>
+</sp>
+<sp>
+<speaker>Philetor.</speaker>
+<p>Men ifald I fik en, som kunde drive Eders brug og betage Eder Byrden, som I saa l&#x00E6;nge har sl&#x00E6;bet paa, vilde I endda s&#x00E6;lge?</p>
+</sp>
+<sp>
+<speaker>Hendrich.</speaker>
+<p>Jeg troer I er underlig. Hvor kunde jeg finde den, som jeg skulde betroe alt det jeg har.</p>
+</sp>
+<sp>
+<speaker>Theopompus.</speaker>
+<p>Ja, dersom jeg vidste &#x2013; &#x2013; &#x2013; dog</p>
+<stage>(Han visker til Philetor og Philander at de skal gaae ud.)</stage>
+</sp>
+</div>
+<pb n="39"/>
+<div type="uchapter" subtype="scene" n="3_5">
+<head type="sub">5. Scene.</head>
+<stage><hi rend="bold">Theopompus. Hendrich.</hi></stage>
+<sp>
+<speaker>Theopompus.</speaker>
+<p>Dersom jeg vedste, at Jomfruen var at overtale til at givtes, saa vilde jeg foreslaae min S&#x00F8;n, Hun vilde, om jeg selv skal sige det, faae en f&#x00F8;yelig og artig Mand i ham.</p>
+</sp>
+<sp>
+<speaker>Hendrich.</speaker>
+<p>Jeg troer min Gud og Herre I sp&#x00F8;ger?</p>
+</sp>
+<sp>
+<speaker>Theopompus.</speaker>
+<p>Han er min eeneste S&#x00F8;n.</p>
+</sp>
+<sp>
+<speaker>Hendrich.</speaker>
+<p>Ja! men Han er ung, munter og alt for artig til mig som er et gammeldags Fruentimmer. Jeg har desuden ladet mig sige, at Han ey er nogen god Huusholder. Og jeg seer Ham an for at kunde s&#x00E6;tte til baade de Midler jeg har og dem han kan vente efter Eder. Ney, gode Huusholdere dem elsker jeg. Der er en fattig Pige hos min Vert Philetor, hun heder Agenore. Det er en Forn&#x00F8;yelse at see, hvilken Huusholder hun er. Hun har 20 Rigsdaler i L&#x00F8;n, og hun l&#x00E6;gger <pb n="40"/>op 30. &#x2013; &#x2013; &#x2013; Ja, I leer. &#x2013; &#x2013; &#x2013; I meener vel hun sti&#x00E6;ler da. Ney men gi&#x00F8;r Hun ikke. Hun f&#x00F8;rer smaat Ki&#x00F8;bmandskab, dog uden at gi&#x00F8;re sin Herre Skade. Saadanne Folk b&#x00F8;r have Penge. Og veed I vel at jeg har giort hende lykkelig? Jeg har for&#x00E6;ret Hende een af de beste Gaarder paa mit Gods med alle undeliggendeHerligheder, som ingen har vildet misbyde mig 10000 Rigsdaler for. Nu staaer hun altid Frier, det skal jeg garnedere for.</p>
+</sp>
+<sp>
+<speaker>Theopompus </speaker> <stage>raaber:</stage>
+<p>Philetor, Philander kommer ind!</p>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="3_6">
+<head type="sub">6. Scene.</head>
+<stage><hi rend="bold">Philander. Philetor.</hi> De forrige.</stage>
+<sp>
+<speaker>Theopompus.</speaker>
+<p>Philander! nu skal du med din Faders Tilladelse givte dig med Agenore.</p>
+</sp>
+<sp>
+<speaker>Philander.</speaker>
+<p>Min Fader skiemter kun. Ney, jeg er alt for lydig S&#x00F8;n til at jeg ikke allerede skulde <pb n="41"/>have forglemt Agenore. Jeg tviler vel ikke paa, at jo en saa ki&#x00E6;r Fader s&#x00F8;rger for mig. Og naar I har udvagt mig et efter Eders tanker rimeligt Partie, saa er jeg f&#x00E6;rdig til at modtage min Lykke.</p>
+</sp>
+<sp>
+<speaker>Theopompus.</speaker>
+<p>Som jeg siger dig; Nu er Agenore et efter mine Tanker rimeligt Partie. Du er ellers bleven forskr&#x00E6;kkelig lydig paa en Stund.</p>
+</sp>
+<sp>
+<speaker>Philander.</speaker>
+<p>Min Fader, synes mig, er og blevet ulige bedre at komme til rette med, end han har v&#x00E6;ret.</p>
+</sp>
+<sp>
+<speaker>Philetor</speaker> <stage>til <hi rend="bold">Philander.</hi></stage>
+<p>Men jeg troer n&#x00E6;sten du kommer for silde, thi Nicodemus er alt i fuldt Brug med at frie. Ikke f&#x00F8;r fik Hun den Herregaard &#x2013; &#x2013; &#x2013;</p>
+</sp>
+<sp>
+<speaker>Philander.</speaker>
+<p>Hvordan? Herregaard? hvem har givet hende den?</p>
+</sp>
+<sp>
+<speaker>Philetor.</speaker>
+<p>Den gode Jomfrue Pecunia der sidder.</p>
+</sp>
+<sp>
+<speaker>Philander.</speaker>
+<p>I fixerer mig.</p>
+</sp>
+<sp>
+<speaker><pb n="42"/>Theopompus.</speaker>
+<p>Ney! det er ganske vist. Men gaae hen og gi&#x00F8;r dig vis i Sagen hos hendes Fader, at man jo f&#x00F8;r jo heller kan faae det afgiort.</p>
+</sp>
+<sp>
+<speaker>Philander.</speaker>
+<p>Ach! gid jeg nu kun var i Frankerig, saa kunde Notarierne afgi&#x00F8;re den heele Sag i en Hast.</p>
+</sp>
+<sp>
+<speaker>Philetor.</speaker>
+<p>O! en rask Pr&#x00E6;st er heller ikke l&#x00E6;nge derom, naar han kun har noget for sig. </p>
+</sp>
+<sp>
+<speaker>Philander.</speaker>
+<p>Nu vel da, ki&#x00E6;re Fader! jeg har til Lykke en Formular i Lommen, skriv under den, at det kan v&#x00E6;re vitterligt og uigienkaldeligt, at jeg efter Eders Villie skal &#x00E6;gte Agenore! og at I vil cavere for Konge-Brevet.</p>
+</sp>
+<sp>
+<speaker>Theopompus.</speaker>
+<p>Ja Top!</p>
+<stage>(Han s&#x00E6;tter sig ned og skriver, og imidlertid siger han:)</stage>
+<p>Hillem&#x00E6;nd! og paa stemplet Papiir.</p>
+</sp>
+<sp>
+<speaker>Philander.</speaker>
+<p>End om jeg kunde faae Brudevielsen giort i Aften?</p>
+</sp>
+<sp>
+<speaker>Theopompus.</speaker>
+<p>Hiertelig gierne!</p>
+</sp>
+<sp>
+<speaker><pb n="43"/>Philander</speaker> <stage>i det han gaaer bort:</stage>
+<p>Nu skal jeg nok ikke komme igien, f&#x00F8;rend jeg er givt.</p>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="3_7">
+<head type="sub">7. Scene.</head>
+<stage><hi rend="bold">Theopompus. Philetor. Hendrich.</hi></stage>
+<sp>
+<speaker>Theopompus</speaker> <stage>sagte til Philetor.</stage>
+<p>Frie for mig selv mens jeg er ude. <stage>(h&#x00F8;yt til Hendrich)</stage> om Forladelse, min ki&#x00E6;re Jomfrue Pecunia! jeg maae forlade Dem lidt!</p>
+</sp>
+<sp>
+<speaker>Hendrich.</speaker>
+<p>Alt forladt!</p>
+</sp>
+<stage>(Theopompus gaaer ud.)</stage>
+</div>
+<div type="uchapter" subtype="scene" n="3_8">
+<head type="sub">8. Scene.</head>
+<stage><hi rend="bold">Philetor. Hendrich.</hi></stage>
+<sp>
+<speaker>Philetor.</speaker>
+<p>Hendrich! end Theopompus, som vil &#x00E6;gte dig selv. Hold nu &#x00D8;rene stive. Han gav mig i Commission at frie. Jeg siger da, naar han kommer ind, at han har faaet Ja?</p>
+</sp>
+<sp>
+<speaker>Hendrich.</speaker>
+<p>Ja, det forstaaer sig selv. Jeg er baade som Hendrich og som Jomfrue Pecunia for l&#x00E6;nge <pb n="44"/>siden kied af at v&#x00E6;re Jomfrue. Men gaaer ikke Comoedien artig, spiller jeg ikke min Roulle vel?</p>
+</sp>
+<sp>
+<speaker>Philetor.</speaker>
+<p>Det gaaer, som det var smurt. Men der er han; Han maae v&#x00E6;re forbandet forliebt, siden han kommer saa hastig tilbage.</p>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="3_9">
+<head type="sub">9. Scene.</head>
+<stage><hi rend="bold">Theopompus.</hi> De forrige.</stage>
+<sp>
+<speaker>Philetor.</speaker>
+<p>Jeg har forrettet mit &#x00C6;rinde og det er faldt ud efter &#x00D8;nske. Jomfruen elsker Eder.</p>
+</sp>
+<sp>
+<speaker>Theopompus.</speaker>
+<p>O! hvad er jeg da overmaade lykkelig. Nu kan jeg da med Gl&#x00E6;de t&#x00E6;nke paa min forestaaende Alderdom. Men I har v&#x00E6;ret saa god og give Agenore en Herregaard; og det er nu som det er; det falder da endelig i gode H&#x00E6;nder; thi det er min S&#x00F8;ns Ki&#x00E6;reste. Men er I alletider saa gavmild?</p>
+</sp>
+<sp>
+<speaker>Hendrich.</speaker>
+<p>Ney, min Herre! kun een eeneste Gang min heele Livs Tiid. Men siden vi nu i Dag <pb n="45"/>ved Forsynets forunderlige Bestyrelse ere foreenede, saa maae I give Eders Piger en liden Douceur, i s&#x00E6;r Lisken, ellers har de ingen Respect for mig, naar jeg bliver deres Matmoder.</p>
+</sp>
+<sp>
+<speaker>Theopompus.</speaker>
+<p>Ja, saa vil jeg da give Lisken 1 Ort, og &#x2013; &#x2013; &#x2013;</p>
+</sp>
+<sp>
+<speaker>Hendrich.</speaker>
+<p>10 Rigsdaler er det allermindste, ellers slaaer jeg op med Eder.</p>
+</sp>
+<sp>
+<speaker>Theopompus.</speaker>
+<p>Det var forskr&#x00E6;kkeligt. Men lov mig da, at I aldrig meere vil v&#x00E6;re saa raisonable.<note type="commentary">raisonable] brukt om person som ikkje er sm&#x00E5;leg i pengesaker. Brukt slik ogs&#x00E5; av Holberg.</note></p>
+</sp>
+<sp>
+<speaker>Hendrich.</speaker>
+<p>Ney aldrig meere. Men kom hid med de 10 Rigsdaler.</p>
+</sp>
+<sp>
+<speaker>Theopompus.</speaker>
+<p>See der har I dem da.</p>
+<stage>(Han tar op 10 Rdlr. af Lommen.)</stage>
+</sp>
+<sp>
+<speaker>Hendrich.</speaker>
+<p>Men hvad mon den Tiener vil?</p></sp>
+</div>
+<pb n="46"/>
+<div type="uchapter" subtype="scene" n="3_10">
+<head type="sub">10. Scene.</head>
+<stage>En fremmet Tiener. De forrige.</stage>
+<sp>
+<speaker>Tieneren.</speaker>
+<p>Jeg kommer min Hr. Theopompe! for at sige Dem, at nu ki&#x00F8;rte Pr&#x00E6;sten hen til Philetors Huus for at gi&#x00F8;re Brudevielse til Deres S&#x00F8;n og Agenore. Det er jo mod min Herres Villie og Vidende?</p>
+</sp>
+<sp>
+<speaker>Theopompus.</speaker>
+<p>Ney men er det ikke. Det forn&#x00F8;yer mig overmaade.</p>
+</sp>
+<stage>(Imidlertid seer Tieneren paa Hendrichleer og siger,)</stage>
+<sp>
+<speaker>Tieneren.</speaker>
+<p>Hvem Fanden har f&#x00F8;rt dig i Fruentimmer Kl&#x00E6;der, Hendrich?</p>
+<stage>Hendrich neyer og vil gaae. Tieneren tr&#x00E6;kker ham i Ski&#x00F8;rtet, saa det falder af ham, og man kan see, at det er Hendrich.)</stage>
+</sp>
+<sp>
+<speaker>Theopompus.</speaker>
+<p>O Bedragere! O! du skal d&#x00F8;e din Hund. Saa er det jo altsammen L&#x00F8;gn.</p>
+</sp>
+<sp>
+<speaker><pb n="47"/>Philetor.</speaker>
+<p>Ja alt, undtagen at Eders S&#x00F8;n nu paa det n&#x00E6;rmeste er givt med Agenore.</p>
+</sp>
+<sp>
+<speaker>Theopompus.</speaker>
+<p>Men Agenores Herregaard?</p>
+</sp>
+<sp>
+<speaker>Philetor.</speaker>
+<p>Ja den maae Hendrich gi&#x00F8;re Regnskab for.</p>
+</sp>
+<stage>(Theopompus vil prygle Hendrich, men forhindres af Philetor, som siger:)</stage>
+<sp>
+<speaker>Philetor.</speaker>
+<p>Ney holdt saa, nu skal vi v&#x00E6;re to om Budet. Der er intet forseet i denne Sag, uden at denne Dosmer kom ind og forstyrrede Comoedien. I burde &#x00E6;rlig og redelig v&#x00E6;ret givt med Hendrich.</p>
+</sp>
+<sp>
+<speaker>Theopompus.</speaker>
+<p>O! jeg er f&#x00E6;rdig at d&#x00F8;e. Men end mine 10 Rigsdaler?</p>
+</sp>
+<sp>
+<speaker>Hendrich.</speaker>
+<p>De skal efter min Herres Befaling leveres til min lille Lisken.</p>
+</sp>
+<stage>(Theopompus vil atter prygle ham.)</stage>
+
+<sp>
+<speaker><pb n="48"/>Philetor.</speaker>
+<p>Ney holdt Eder kun i Skindet. Jeg har spillet Eder dette Puds for at h&#x00E6;vne mig over Eders gnieragtige T&#x00E6;nkemaade. I har friet til <hi rend="bold">Pecunia</hi>, det er Penge. Jeg vil &#x00F8;nske alle dem, som tr&#x00E6;de i Eders Fodspor, at det maatte finde saadan en Jomfrue, som den der staaer med St&#x00F8;vler og Boxer paa. Endski&#x00F8;nt det maatte v&#x00E6;re et underligt Meuble af et Fruentimmer, som ey skulde blive givt i vore Tider, naar hun kun havde Penge. Men v&#x00E6;r og tillige vis paa, at aldrig blev I meere bedraget med Eders Jomfrue Pecunia, end mange daglig blive, der for at faae nogle lumpne Skillinger, tilki&#x00F8;be sig enten en Proserpina, eller en Grebenille,<note type="commentary">Grebenille] Grebbenille, ogs&#x00E5; Gribbenille, Gremmenille, Grimmenille. Formene med Grimme- er rekna for &#x00E5; vera dei opphavlege, slik at det i utgangspunktet har vore ei samansetjing av &#x0027;grim&#x0027; og person-namnet &#x0027;Nille&#x0027;. Formene med Grebbe- og Gribbe- er dialektformer i dansk og tyder i alle fall &#x00AB;gammelt, grimt&#x00BB; ofte ogs&#x00E5; &#x00AB;arrigt, umedg&#x00F8;rligt kvindemenneske&#x00BB; (ODS).</note> eller en Tosse, eller en Coqvette. &#x2013; &#x2013; &#x2013; Men for at tr&#x00F8;ste Eder, arme Mand! vil jeg fort&#x00E6;lle Eder, at</p>
+<p rend="center">Agenore skal v&#x00E6;re min eenste<lb/>Arving.</p></sp>
+<p rend="center"><hi rend="italic">Ende.</hi></p>
+</div>
+</div>
+</body>
+</text>
+</TEI>

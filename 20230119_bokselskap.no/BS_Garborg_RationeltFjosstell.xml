@@ -1,0 +1,962 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI PUBLIC "-// TEI P5 //EN" "http://www.tei-c.org/release/xml/tei/custom/schema/dtd/tei_all.dtd">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="BS_Garbog_RationeltFjosstell">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>bokselskap.no, Oslo 2019
+<lb/>Hulda Garborg: <hi rend="italic">&#x00AB;Rationelt fj&#x00F8;sstell&#x00BB;</hi>
+<lb/>Teksten i bokselskap.no f&#x00F8;lger 1. utgave, 1915 (Kristiania/Feilberg &#x0026; Landmarks forlag). Digitaliseringen er basert p&#x00E5; fil mottatt fra Nasjonalbiblioteket (nb.no)
+<lb/>ISBN: 978-82-8319-453-1 (digital, bokselskap.no), 978-82-8319-454-8 (epub), 978-82-8319-455-5 (mobi)
+</title>
+</titleStmt>
+<publicationStmt>
+<p>Publiseres som digital tekst av bokselskap.no.</p></publicationStmt>
+<sourceDesc>
+    <bibl>
+        <title>&#x00AB;Rationelt fj&#x00F8;sstell&#x00BB;</title>
+        <author>Hulda Garborg</author>
+        <publisher>Feilberg &#x0026; Landmarks forlag</publisher>
+        <pubPlace>Kristiania</pubPlace>
+        <date>1915</date>
+        <note>digibok_2013013008147.epub (Nasjonalbiblioteket, 2014)</note>
+    </bibl>
+</sourceDesc>
+</fileDesc>
+<revisionDesc>
+<change who="ENW" when="2019-02-08">Lagt inn korrekturrettelser (HO). Lagt inn ISBN. Kodekontroll og validering. Klar for publisering.</change>
+<change xml:id="ENW" who="ENW" when="2018-10-03">XML-koding. Entiteter, kjapp kodekontroll og validering. Klar for korrektur.</change>
+</revisionDesc>
+</teiHeader>
+<text xml:id="BS_Garbog_RationeltFjosstell_tekst" type="drama">
+<front>
+<titlePage type="main">
+<byline><docAuthor>Hulda Garborg</docAuthor></byline>
+<docTitle>
+<titlePart type="main">&#x00AB;Rationelt fj&#x00F8;sstell&#x00BB;</titlePart>
+<titlePart type="sub">En komedie-akt</titlePart>
+</docTitle>
+<docDate>bokselskap.no<lb/>Oslo 2019</docDate>
+</titlePage>
+</front>
+<body>
+<div type="chapter">
+<p>Originalens bygdemaal er her til lettelse for l&#x00E6;sningen overf&#x00F8;rt til landsmaal (ved <hi rend="italic">Arne Garborg</hi>).</p>
+<p>Ved opf&#x00F8;relse paa landet (f. eks. i ungdomslagene) brukes selvf&#x00F8;lgelig vedkommende bygds egen dialekt.</p>
+</div>
+<div type="chapter">
+<head type="main">PERSONENE</head>
+<castList>
+<castItem><role>Lars B&#x00F8;an.</role></castItem>
+<castItem><role>Anne,</role> <roleDesc>hans kone.</roleDesc></castItem>
+<castItem><role>Inger,</role> <roleDesc>deres datter.</roleDesc></castItem>
+<castItem><role>Utstu-Gamla.</role></castItem>
+<castItem><role>Tore,</role> <roleDesc>hendes s&#x00F8;n.</roleDesc></castItem>
+<castItem><role>Jens Pedersen,</role> <roleDesc>seminarist og kontorist hos lensmanden.</roleDesc></castItem>
+</castList>
+<p>Sted: En norsk &#x00F8;stlands-fjeldbygd.</p>
+<p>Tid: Begyndelsen av 80-aarene.</p>
+</div>
+<div type="chapter">
+<stage>Tun paa en liten fjeldgaard.</stage>
+<stage>I bakgrunden fjeldlandskap. Tilvenstre t&#x00F8;mmerstue med sval, hvortil et par trin av stenheller f&#x00F8;rer op. Tilh&#x00F8;ire façaden av ildhuset med d&#x00F8;r og et litet vindu. Ovenfor ildhuset kommer veien ind paa tunet. I forgrunden tilvenstre en stor flat sten. N&#x00E6;rmere bakgrunden omtrent midt paa scenen er opf&#x00F8;rt et litet ildsted av sten. En stor gryte staar over ilden og koker. Inger, 22aarig, r&#x00F8;dlet jente med kortklippet haar staar med det ene ben paa hellen b&#x00F8;iet over gryten og r&#x00F8;rer i den med en slev. Paa kn&#x00E6;et ligger en bok, som hun har fordypet sig i, saa hun hvert &#x00F8;ieblik glemmer at r&#x00F8;re. Tilslut falder sleven ut av haanden og hun blir mer og mer betat av boken. Litt efter litt retter hun sig og gaar likesom viljel&#x00F8;st fremover mot forgrunden, uten et &#x00F8;ieblik at ta blikket fra boken.</stage>
+<sp>
+<speaker>Inger</speaker>
+<stage>(halvh&#x00F8;it.)</stage>
+<p>20&#x0025; av n&#x00E6;ringsv&#x00E6;rdien &#x2026; <stage>(l&#x00E6;ser videre)</stage>.</p>
+</sp>
+<sp>
+<speaker>Anne</speaker>
+<stage>(en kraftig kone paa omkr. 60 aar, kommer ind med et par vandb&#x00F8;tter. Snuser litt ved gryten.)</stage>
+<p>Gjeng du fraa gryta, gjente?</p>
+</sp>
+<sp>
+<speaker><pb n="8"/>Inger</speaker>
+<stage>(mot hende, ivrig. Hun taler bygdemaal, dog noget opblandet med boklige vendinger og tildels med et bokstivt &#x00E6;ldre landsmaal.)</stage>
+<p>Vil du h&#x00F8;yre? 20&#x0025; av n&#x00E6;ringsv&#x00E6;rdien gjeng burt i eimen; er det kje for gale! For vanstell og sl&#x00F8;seri.</p>
+</sp>
+<sp>
+<speaker>Anne</speaker>
+<stage>(har sat b&#x00F8;ttene fra sig; snuser sterkere, griper saa sleven og r&#x00F8;rer av al magt.)</stage>
+<p>Meiner tausi er reint paa stell. Svi ho kje myssm&#x00F8;re for meg!</p>
+</sp>
+<sp>
+<speaker>Inger</speaker>
+<p>Tjuge procent! &#x2013;</p>
+</sp>
+<sp>
+<speaker>Anne</speaker>
+<stage>(r&#x00F8;rer.)</stage>
+<p>Kva er du vallar &#x0027;ti.</p>
+</sp>
+<sp>
+<speaker>Inger</speaker>
+<p>Eg seier, at dette myssm&#x00F8;re er ein upraktisk og &#x00F8;ydsam mat &#x2013; med det lange koke. Veit du, at 20&#x0025; gjeng burt i eimen berre.</p>
+</sp>
+<sp>
+<speaker>Anne</speaker>
+<p>Prosent meg framme og prosent meg bak; &#x2013; pyhsch! er det kje slik ei ram svi-lukt, at ein mest kan kovne.</p>
+</sp>
+<sp>
+<speaker><pb n="9"/>Inger</speaker>
+<stage>(ivrig op og ned, klasker boken mot sin flate haand.)</stage>
+<p>Nei; folk maa l&#x00E6;rast upp! Alt dette vanstell og all denne uvidenheit &#x00F8;ydelegg oss. Folke maa ha upplysning!</p>
+</sp>
+<sp>
+<speaker>Anne</speaker>
+<stage>(str&#x00E6;ver videre.)</stage>
+<p>J&#x00F8;ss for klokskap. Kva sku&#x0027; me eta, naar me ikkje hadde myssm&#x00F8;r? Det var eg huga te vita.</p>
+</sp>
+<sp>
+<speaker>Inger</speaker>
+<p>Kva me skulde eta? Jau det skal eg seia deg. Me skal venja oss til aa eta gr&#x00F8;nsager og frugt og ferskt kj&#x00F8;t. All denne saltmaten er og reint forderveleg. Dokterane seier, at spikjematen ligg som stein i magen paa folk; og det same gjer dette myssm&#x00F8;re, de held slik h&#x00F8;gtid med. Det er mat for hestar og ikkje for folk, &#x2013; seier vitenskapen.</p>
+</sp>
+<sp>
+<speaker>Anne</speaker>
+<stage>(ler.)</stage>
+<p>Nei jaso; seier han det du. &#x2013; Ja no hev no eg eti mykje myssm&#x00F8;r i mi tid; men aldri hev eg kjent stein i magen.</p>
+<p>Og spikjematen og gamalosten, det hev vore furkematen det, for meg og alle gamle <pb n="10"/>folk eg hev kjent. Og aldri veit eg av eit menneskje som hev vore ustellt i magen i gamle dagar, endaa fersk mat saag me aldri. Og det gr&#x00F8;ne, som veks paa marki, det hev me brukt aat kui, og ikkje aat folk.</p>
+</sp>
+<sp>
+<speaker>Inger</speaker>
+<p>Ja det var det galne!</p>
+</sp>
+<sp>
+<speaker>Anne</speaker>
+<stage>(avbrytende.)</stage>
+<p>Aa kom kje til meg med slikt tull. Spikjematen tenkjer eg gjer det, eg, so lengje ein bell aa tyggje. Og gjerne kan han vera baade gamal og feit. <stage>(til <hi rend="bold">Lars</hi>, som under det sidste er kommet ut fra stuen og har sat sig paa d&#x00F8;rstokken med en avis)</stage>. Kom og tak i gryta med meg!</p>
+<stage>(<hi rend="bold">Inger</hi> ryster paa hodet og gaar utaalmodig op og ned. Lars, en middelaldrende, litt kvapset mand, reiser sig senf&#x00E6;rdig og l&#x00E6;gger avisen sammen. Taler langsomt og med et visst dovent eftertryk.)</stage>
+</sp>
+<sp>
+<speaker>Lars</speaker>
+<stage>(ler.)</stage>
+<p>Ja te spiknare og ramare feita var, te grommare var det &#x2013; aat dei gamle. &#x2013; Men eg trur no lel, det er noko i det ho Inger seier &#x2026; <stage>(kremtar)</stage> allvisst med myssm&#x00F8;re daa.</p>
+</sp>
+<sp>
+<speaker><pb n="11"/>Anne</speaker>
+<p>So; Skunde deg no! <stage>(staar og venter med grytehanken mellem h&#x00E6;ndene)</stage>.</p>
+</sp>
+<sp>
+<speaker>Lars</speaker>
+<stage>(lagger bortover.)</stage>
+<p>Eg skal ikkje seia anna en eg rett hev havt liksom litt beklemmels, naar eg hev ete nokolite av myssm&#x00F8;re &#x2026; allvisst naar det hev vore varmt daa. <stage>(Tar sig under brystet.)</stage> Just som ho Inger seier &#x2026; plent som stein i magen, ja.</p>
+</sp>
+<sp>
+<speaker>Anne</speaker>
+<p>Du skal sakte faa meg til aa tru det, slik som du legg &#x0027;ti deg av det varme geite-myssm&#x00F8;re. Men eg ser no gjerne, det ber burtum fjos-n&#x00F4;vi med deg, naar det lid paa, &#x2013; so det gjeng visst rette vegen, myssm&#x00F8;re, er-det-von.</p>
+</sp>
+<sp>
+<speaker>Lars</speaker>
+<stage>(forn&#x00E6;rmet, idet han l&#x00F8;fter forsigtig med hende.)</stage>
+<p>Aa, &#x2013; det kan full&#x0027; hende nokon kvar, at ein &#x00EA;t v&#x00E6;l-so mykje av furkematen. <stage>(De s&#x00E6;tter gryten ned; Anne r&#x00F8;rer fremdeles.)</stage> Eg kjenner no ei, som &#x2026; vart klen i gjesteboe paa Utstu, eg; &#x2013; men kanskje det var berre av kaffidrikking det, kanskje. <stage>(Spytter, snur skraaen og rusler ind med h&#x00E6;ndene paa ryggen.)</stage></p>
+</sp>
+<sp>
+<speaker><pb n="12"/>Inger</speaker>
+<stage>(som har sittet paa stenen fordypet i boken, vaagner ved ordet &#x00AB;kaffidrikking&#x00BB;.)</stage>
+<p>Ja den kaffidrikkingi ja! <stage>(Op; frem og tilbake; slaar h&#x00E6;ndene sammen.)</stage> Aa! Enn alt her er aa gjera! Enn alt her er aa reformere! <stage>(Stanser foran moren.)</stage> Eg kan bli so indignera, naar eg tenkjer paa, at no du mor, som er so gamal, ikkje skal ha so mykje vit, at du legg av denne fordervelege kaffien!</p>
+</sp>
+<sp>
+<speaker>Anne</speaker>
+<stage>(ler.)</stage>
+<p>Jaso; er han forderveleg, du? H&#x00E6;, h&#x00E6;. Ein l&#x00E6;rer med&#x0027; ein lever; rett gjer ein det, ja. D&#x0027;er minst fyre, naar ein hev so kloke baan.</p>
+</sp>
+<sp>
+<speaker>Inger</speaker>
+<p>Du skulde h&#x00F8;yrt det foredrage han heldt, den gj&#x00E6;ve l&#x00E6;raren vaar paa folkeh&#x00F8;gskulen, um &#x00AB;Kaffedrikking paa landsbygden&#x00BB;. Han kunde fortelja, koss dei vert utsjaaande baate utvendes og innvendes av kaffe&#x00EF;n-forgifti.</p>
+</sp>
+<sp>
+<speaker>Anne</speaker>
+<stage>(s&#x00E6;tter h&#x00E6;ndene i siden og ser hvast paa Inger.)</stage>
+<p>Nei no vil eg regtig spyrja deg kva du meiner! Ja regtig hadde&#x0027;n noko te gjera, den <pb n="13"/>karen! <stage>(Med vegt og overbevisning.)</stage> Eg vil be&#x0027; deg sjaa paa ho Berit Kringstnoen og ho Kari Eggen og ho &#x2026; ho &#x2026; Hansamarit. Dei hev no full&#x0027; drukke so mykje kaffi som dei hev belle faa &#x0027;ti seg; men eg sp&#x00F8;r deg, um du hev set rauleittare og vakrare kjeringar! Og dei er no paa fjorde tjuge alle tri. &#x2013; Og &#x2013; <stage>(vender sig til gryten igjen og r&#x00F8;rer)</stage> &#x2013; for det, so &#x2013; er eg no ikkje verst eg hell, til det at eg er so vidt uti aari og hev havt trettan baan.</p>
+</sp>
+<sp>
+<speaker>Inger</speaker>
+<p>Slikt er taapelege r&#x00E6;sonementer. Men det kjem av uvidenheit. Det nyttar ikkje aa tala med dykk gamle um reformer &#x2013; ikkje um slike smaa-reformer eingong. <stage>(Med patos.)</stage> Det er ungdomen som f&#x00E6;r taka striden upp. Det er ungdomen, som baade maa gjenomf&#x00F8;re reformerna og realisera dei store ideerna! <stage>(Snur sig, stiger op paa stenhellen og vil gaa ind. Skoen kipper, saa der viser sig et stort hul paa str&#x00F8;mpeh&#x00E6;len.)</stage></p>
+</sp>
+<sp>
+<speaker>Anne</speaker>
+<p>Du hev sakte l&#x00E6;rt mykje nyttigt paa den skulen, h&#x00F8;yrer eg. Hadde du no berre l&#x00E6;rt aa stoppe hoseh&#x00E6;lane dine og, so!</p>
+</sp>
+<sp>
+<speaker><pb n="14"/>Inger</speaker>
+<stage>(vender sig om.)</stage>
+<p>Eg bryr meg ikkje um spotten din. Den tid er forbi, daa kvinna levde for aa stoppa hosur. <stage>(Ind i stuen.)</stage></p>
+</sp>
+<sp>
+<speaker>Anne</speaker>
+<p>H&#x00E6;-h&#x00E6;; d&#x0027;er mest likt te di. <stage>(M&#x00F8;rkere; smaasnakker for sig selv.)</stage> Kva tru han vil seia til slikt, han Tore, mann hennar skal bli, tru. <stage>(Ser sig omkring.)</stage> Eg veit ho hev bòdsendt han; men eg var mest huga til at han ikkje kom her, fyrr verste galenskapen var avgjengen. <stage>(Sukker.)</stage> Det gjeng full&#x0027; av ho att, f&#x00E6;r ein tru! <stage>(L&#x00E6;gger et stort tr&#x00E6;lok over gryten.)</stage></p>
+</sp>
+<sp>
+<speaker>Utstu-Gamla</speaker>
+<stage>(Kone paa omkr. 65, kommer ind, med bunding mellem h&#x00E6;ndene).</stage>
+<p>God kveld. Signe arbeide.</p>
+</sp>
+<sp>
+<speaker>Anne</speaker>
+<p>God kveld, Sidsel, og takk for det. Er du ute og ruslar? <stage>(Glatter haaret ind under silkeluen og t&#x00F8;rrer h&#x00E6;ndene paa stakken)</stage>.</p>
+</sp>
+<sp>
+<speaker>Gamla</speaker>
+<p>Jamenn er eg so. <stage>(Ser op.)</stage> Det var so fint eit ver; &#x2013; og so h&#x00F8;yrde eg gjete at ho Inger var heimkomi av skulen.</p>
+</sp>
+<sp>
+<speaker><pb n="15"/>Anne</speaker>
+<stage>(med et litet suk.)</stage>
+<p>Ho er sakte det, ja.</p>
+</sp>
+<sp>
+<speaker>Gamla</speaker>
+<p>Jamenn fekk eg no spurt det, ja. &#x2013; Du veit, han Tore hev full&#x0027; som ei greie paa det, han. &#x2013; <stage>(Smaaler.)</stage> Det var full&#x0027; so, dei skulde ha som ei lita greie paa einannan dei, ja.</p>
+</sp>
+<sp>
+<speaker>Anne</speaker>
+<p>Aa ja, det kan vel hende det, kanskje.</p>
+</sp>
+<sp>
+<speaker>Gamla</speaker>
+<p>Og so var eg no huga te sjaa hit, og helse paa ho, ja.</p>
+</sp>
+<sp>
+<speaker>Anne</speaker>
+<p>Du veit daa det. Du maa no berre gaa inn no daa.</p>
+</sp>
+<sp>
+<speaker>Gamla</speaker>
+<p>Aa du skal ha takk. <stage>(Ser paa himlen.)</stage> Det er no sopass hugsamt ute, alt med&#x0027; soli er uppe; &#x2013; eg set meg radt her paa steinen so lenge; du maa kje hefte deg burt.</p>
+</sp>
+<sp>
+<speaker><pb n="16"/>Anne</speaker>
+<p>Nei jamenn var eg no nett ferdig med ei myssm&#x00F8;rgryte, so eg hev kje st&#x00F8;rre aa fors&#x00F8;me fyrr me skal aat fjose &#x2026; Men kan du greie deg med denne &#x00AB;soffaen&#x00BB; vaar her, so &#x2013; <stage>(ler.)</stage> Berre det ikkje bi for kj&#x00F8;le aat deg i dette vinddrage.</p>
+</sp>
+<sp>
+<speaker>Gamla</speaker>
+<stage>(har sat sig.)</stage>
+<p>Aa, eg er v&#x00E6;l kl&#x00E6;dd. Og soffaen gjer det nok.</p>
+</sp>
+<sp>
+<speaker>Anne</speaker>
+<stage>(smutter rask indom d&#x00F8;ren efter en kobber-kaffekjel, slaar vand paa den og s&#x00E6;tter den paa gl&#x00F8;rne.)</stage>
+<p>Og det stend berre godt til daa, veit eg.</p>
+</sp>
+<sp>
+<speaker>Gamla</speaker>
+<p>Ja, me er med helsa; og so er de full&#x0027; her og?</p>
+</sp>
+<sp>
+<speaker>Anne</speaker>
+<p>Jau, eg kan ikkje anna seia.</p>
+</sp>
+<sp>
+<speaker>Gamla</speaker>
+<p>Og no er det full&#x0027; ikkje stuslegt hell aat dykk. Ho Inger hev vel mangt aa fortelja, no ho hev fare so vidt.</p>
+</sp>
+<sp>
+<speaker>Anne</speaker>
+<p>Aa, det er nok ikkje fritt for det, veit du.</p>
+</sp>
+<sp>
+<speaker><pb n="17"/>Lars</speaker>
+<stage>(barhodet, n&#x00E6;sten skaldet, kommer langsomt ut; h&#x00E6;ndene i bukselommene.)</stage>
+<p>God kvelden! &#x2013; Er det grannar ute og fer?</p>
+</sp>
+<sp>
+<speaker>Gamla</speaker>
+<p>Er sakte det. Det var so fint eit ver vorte &#x2026;</p>
+</sp>
+<sp>
+<speaker>Anne</speaker>
+<stage>(ser paa Lars.)</stage>
+<p>Men j&#x00F8;, er du reint hugslaus vorten, gubbe; du gjeng daa luvelaus i kaldvinden.</p>
+</sp>
+<sp>
+<speaker>Lars</speaker>
+<stage>(tar sig varsomt til hodet.)</stage>
+<p>Gjer so ja; men ikkje er det hugsen, som vantar. <stage>(Smaa-ler tilfreds.)</stage></p>
+</sp>
+<sp>
+<speaker>Anne</speaker>
+<p>Kva er det daa, sp&#x00F8;r eg. Det kan kje vera luve; for dei hev du daa visst vonom fleir av.</p>
+</sp>
+<sp>
+<speaker>Lars</speaker>
+<stage>(seigt; med stor vegt paa ordene.)</stage>
+<p>Nei &#x2013;; det er kje det heller. Men ho Inger seier no det, ho, og det hev eg inkje-noko imot, &#x2013; at ein &#x00F8;ydelegg haare med desse tjukke hovudplaggi, me gjeng med. Det treng &#x00AB;ljos&#x00BB; og &#x00AB;luft&#x00BB;, haare, seier ho, som alt anna, skal <pb n="18"/>det trivast, seier ho. <stage>(Gamla s&#x00E6;nker arbeidet og h&#x00F8;rer forbauset paa ham.)</stage></p>
+</sp>
+<sp>
+<speaker>Anne</speaker>
+<stage>(steller med kjelen.)</stage>
+<p>Aa ja; skulde du spara paa haare nokon gong, so fekk det full&#x0027; bi no!</p>
+</sp>
+<sp>
+<speaker>Lars</speaker>
+<stage>(forts&#x00E6;tter.)</stage>
+<p>Og desse bakkateriane, seier ho, desse smaa dyri, som &#x00EA;t upp haare, dei trivst og so ytleg godt i desse tjukke luvune, seier ho. <stage>(En kold vindgufs kommer; han tar sig hurtig til hodet.)</stage> Men jamenn dreg det rett kj&#x00F8;le fraa fjelle no; d&#x0027;er vel snart paa dei tider, at soli vil til aa gaa ned &#x2026; Eg &#x2013; trur eg vil inn og karve &#x0027;ti pipa. H&#x00E6;-h&#x00E6; <stage>(ler forlegen; ind.)</stage></p>
+</sp>
+<sp>
+<speaker>Gamla</speaker>
+<stage>(fortapt.)</stage>
+<p>Men j&#x00F8; aa j&#x00F8;, &#x2013; og eg, som mest all min dag hev gjenge med luve, &#x2013; fraa eg vart gift daa, aa seia, &#x2013; og eit lite turkl&#x00E6;-plagg med, no i seinare aar &#x2026; <stage>(skyver sit sorte hodeplagg ned i nakken.)</stage> Kanskje det var kje verst aa lette paa det litt du!</p>
+</sp>
+<sp>
+<speaker>Anne</speaker>
+<p>Aa, lat berre plagge sitja, du Sidsel <stage>(smiler)</stage>. Me hev slik ein ytleg haarvokster baade du og <pb n="19"/>eg, at me treng ikkje meir, den tidi me hev att aa leva. <stage>(Tar bundingen, som h&#x00E6;nger i en krok ved beltet og s&#x00E6;tter sig til at strikke.)</stage></p>
+</sp>
+<sp>
+<speaker>Gamla</speaker>
+<p>Eg hev rett havt vakkert haar ja; men jamenn tek det til aa tynnast no; det gjer det.</p>
+<stage>(Lars kommer ut med nyt&#x00E6;ndt pipe; stanser paa trammen.)</stage>
+</sp>
+<sp>
+<speaker>Anne</speaker>
+<stage>(til <hi rend="bold">Lars</hi>.)</stage>
+<p>Du f&#x00E6;r vel snart til aa tenkje paa helgeveden, Lars?</p>
+</sp>
+<sp>
+<speaker>Lars</speaker>
+<p>Mjmm &#x2013;. <stage>(Beskuer himmelen i alle retninger. Tar sig til hodet av og til.)</stage> Det ser ikkje mykje rart ut med vere; &#x2013; meiner eg ikkje, det tek til aa draga ihop der uppi? &#x2013; Var det kje det eg tykte, at det vart slikt eit kj&#x00F8;le drag i lufti &#x2026; Var det so v&#x00E6;l, me greidde oss til yver helgi, so eg slapp aa koma ut i uvere; det lid paa dagen og.</p>
+</sp>
+<sp>
+<speaker>Anne</speaker>
+<stage>(ser paa ham med foragt.)</stage>
+<p>Hev du set det hev regnt av klaare himmelen, du daa. Eg ser korkje sky elder floke. Og seint plar det gjerne bli sist paa dagen. &#x2013; Elles hev dagen vore lang nok den.</p>
+</sp>
+<sp>
+<speaker><pb n="20"/>Lars</speaker>
+<stage>(til <hi rend="bold">Gamla</hi> blidt konverserende.)</stage>
+<p>Det er mangt aa tufse med paa ein gard, ja. &#x2013; Det vart daa so sn&#x00F8;en strauk i vaar, fyrr eg fekk k&#x00F8;yrt fram somarveden. Og no er det so slitsamt, so det er overlag.</p>
+</sp>
+<sp>
+<speaker>Anne</speaker>
+<stage>(spydig.)</stage>
+<p>Han plar gjerne stryke, sn&#x00F8;en um vaaren ja.</p>
+</sp>
+<sp>
+<speaker>Gamla</speaker>
+<stage>(fint.)</stage>
+<p>Du veit daa det. &#x2013; Me fekk no ein tidlig god vaar &#x2026;</p>
+</sp>
+<sp>
+<speaker>Anne</speaker>
+<p>Nei no mishugsar du deg, Sidsel. Beisked&#x00F8; laag han ikkje mai&#x0027;en ut, sn&#x00F8;en i aar; det gjorde han. <stage>(Sender et harmfuldt blik mot <hi rend="bold">Lars</hi>, som kremter og later som han ikke h&#x00F8;rer.)</stage></p>
+</sp>
+<sp>
+<speaker>Gamla</speaker>
+<p>Er det mogeleg det, du. Aa ja, ein bi gamal.</p>
+<stage>(Kort pause. <hi rend="bold">Lars</hi> s&#x00E6;tter sig paa d&#x00F8;rstokken.)</stage>
+</sp>
+<sp>
+<speaker>Anne</speaker>
+<p>Men det er gjerne so med han Lars: um vaaren gjeng sn&#x00F8;en for snart burt, og um hausten, <pb n="21"/>daa er det isen, som kjem for braadt paa han.</p>
+<stage>(<hi rend="bold">Lars</hi> tar avisen av lommen; s&#x00E6;tter sig paa d&#x00F8;rstokken og r&#x00F8;ker og l&#x00E6;ser.)</stage>
+</sp>
+<sp>
+<speaker>Inger</speaker>
+<stage>(er under dette kommet ind.)</stage>
+<p>God kveld, Sidsel Utstu. Kor stend det til med deg?</p>
+<stage>(<hi rend="bold">Anne</hi> tar kjelen av gl&#x00F8;rne og gaar ind.)</stage>
+</sp>
+<sp>
+<speaker>Gamla</speaker>
+<p>Aa goddag, og v&#x00E6;lkomi heim. Jau, du skal ha takk! det slit med det gamle. Hev det stae bra til med deg paa ferdi daa?</p>
+</sp>
+<sp>
+<speaker>Inger</speaker>
+<p>Jau takk. For meg hev det vori ei stor og rik tid.</p>
+</sp>
+<sp>
+<speaker>Gamla</speaker>
+<stage>(ser op paa hende.)</stage>
+<p>Ja det vil eg tru, du.</p>
+</sp>
+<sp>
+<speaker>Inger</speaker>
+<p>Ja no ser eg, for ei vankunne me hev levt i, Sidsel, &#x2013; for eit uverdigt liv me hev levt.</p>
+</sp>
+<sp>
+<speaker>Gamla</speaker>
+<stage>(litt usikker.)</stage>
+<p>Aa ja, &#x2013; det kan full&#x0027; vera mangt, som ikkje er &#x2026; som det skal vera. <stage>(Studser og ser igjen <pb n="22"/>paa <hi rend="bold">Inger</hi>.)</stage> Men kor &#x2026; kor ukjennelig du va vorti, du! Eg veit ikkje kva det er &#x2026; aa j&#x00F8;! <stage>(slipper bundingen og slaar h&#x00E6;ndene sammen.)</stage> Eg meiner du hev misst det vakre haare dit! Aa nei, aa nei, kva er det for ei ulykke som er komi aat deg, tru!</p>
+</sp>
+<sp>
+<speaker>Inger</speaker>
+<stage>(smiler.)</stage>
+<p>Det er nok inga ulykke, Sidsel; eg hev klipt det av meg.</p>
+</sp>
+<sp>
+<speaker>Gamla</speaker>
+<p>Men kors &#x2013;!</p>
+</sp>
+<sp>
+<speaker>Inger</speaker>
+<p>Me kvinnor hev andre uppgaavor no en aa halda greie paa ei lang hesterompe nedetter ryggen. Slikt er berre til aa sanke dumbe og bakterier i.</p>
+</sp>
+<sp>
+<speaker>Gamla</speaker>
+<stage>(forskr&#x00E6;kket.)</stage>
+<p>Nei rett enn alt det dei veit no for tidi, du! <stage>(rusker sig uvilkaarlig med en strikkepind ind under huen.)</stage></p>
+</sp>
+<sp>
+<speaker>Inger</speaker>
+<p>Og so veit me, at det lange haare òg hev vore eit av dei mange uverdige midlar, kvinna brukte i si lange slavetid &#x2013; til aa fange menn i. Slik villskap maa me koma yver.</p>
+</sp>
+<sp>
+<speaker><pb n="23"/>Gamla</speaker>
+<stage>(blir litt urolig. Ser sig omkring.)</stage>
+<p>Det er gjerne noko i det, du. &#x2013; Ja det var sant; eg skulde helse deg fraa han Tore, son min &#x2026;</p>
+</sp>
+<sp>
+<speaker>Inger</speaker>
+<p>Du skal ha takk.</p>
+</sp>
+<sp>
+<speaker>Gamla</speaker>
+<stage>(smiler.)</stage>
+<p>D&#x0027;er vel kje umogeleg anna han kjem etter. Eg tykte eg forstod noko slikt. <stage>(Skjemtende.)</stage> Det er no laurdags kvelden.</p>
+</sp>
+<sp>
+<speaker>Inger</speaker>
+<stage>(med et dypt suk.)</stage>
+<p>Aa ja; dei lever vel i same raaskapen uppi her, &#x2013; i den vegen. Det er vel kanskje so, at han Tore og eg kan ha eit ord aa seia kvarandre; men <stage>(h&#x00F8;itidelig)</stage> ved dagsens fulle ljos skal det skje! <stage>(Ut tilh&#x00F8;ire.)</stage></p>
+<stage>(Gamla ser forskr&#x00E6;kket efter hende og ryster paa hodet.)</stage>
+</sp>
+<sp>
+<speaker>Anne</speaker>
+<stage>(kommer ut.)</stage>
+<p>Ja no maa du koma inn og faa deg litegrand varmt. Eg er r&#x00E6;dd det bi v&#x00E6;l-so kj&#x00F8;le no aat deg.</p>
+</sp>
+<sp>
+<speaker><pb n="24"/>Gamla</speaker>
+<stage>(reiser sig med besv&#x00E6;r.)</stage>
+<p>Aa, du skal ha takk. <stage>(Slaar rusket av kjolen.)</stage> Eg hev tala med Inger &#x2026; Kor han hev forandra seg, ungdomen paa det siste du. <stage>(Likesom for sig selv.)</stage> &#x00AB;Ved dagsens fulle ljos &#x2013;&#x00BB; sku&#x0027; du ha h&#x00F8;yrt! &#x2013; Dei er kje bljuge no for tidi.</p>
+</sp>
+<sp>
+<speaker>Anne</speaker>
+<stage>(slaar ut med haanden.)</stage>
+<p>R&#x00F8; aldri um det.</p>
+<stage>(De tr&#x00E6;nger sig forbi Lars og ind).</stage>
+</sp>
+<stage>(Saa snart d&#x00F8;ren er lukket efter dem, lister Lars sig hen til gryten og tar sig en slev myssm&#x00F8;r; s&#x00E6;tter sig paa stenen og spiser velbehagelig derav med tollekniven.)</stage>
+<sp>
+<speaker>Anne</speaker>
+<stage>(kommer ut paa hellen med en vandskvet, som hun slaar ut.)</stage>
+<p>Agte deg no, at du ikkje f&#x00E6;r beklemmels!</p>
+<stage>(<hi rend="bold">Lars</hi>, som ikke har merket hende, kvekker og sender hende et &#x00E6;rgerlig blik. <hi rend="bold">Anne</hi> gaar ind; han spiser videre, men nu med ryggen vendt helt mot stued&#x00F8;ren.)</stage>
+</sp>
+<sp>
+<speaker>Inger</speaker>
+<stage>(kommer.)</stage>
+<p>Aa, er du der, far. Det var godt eg fann deg aaleine; eg vilde gjerne tala med deg um eit og anna.</p>
+</sp>
+<sp>
+<speaker>Lars</speaker>
+<stage>(stikker skyndsomt sleven under stolen og t&#x00F8;rrer sig med haandbaken om munden)</stage>
+<p>Ja, &#x2013; berre her no vart fred ei rid. <stage>(Skeler mot stued&#x00F8;ren.)</stage></p>
+</sp>
+<sp>
+<speaker><pb n="25"/>Inger</speaker>
+<stage>(s&#x00E6;tter sig ved siden av ham.)</stage>
+<p>Du er meir mottageleg for nye tankar og ideer, du far. Deg kan ein tala med. Ho mor, ho &#x2026; vil no helst ha alt i den gamle tralten.</p>
+</sp>
+<sp>
+<speaker>Lars</speaker>
+<stage>(nikker forn&#x00F8;iet.)</stage>
+<p>&#x2013; gamle tralten ja; det er so sant som det er sagt. <stage>(Ilter.)</stage> Slik som far hennar gjekk og sl&#x00E6;pte og gnudde, slik skal ein annan og gaa &#x2026;</p>
+</sp>
+<sp>
+<speaker>Inger</speaker>
+<p>D&#x0027;er jamt so med dei, naar dei vert gamle.</p>
+</sp>
+<sp>
+<speaker>Lars</speaker>
+<p>Ja gamle kvinfolk, dei er so trassuge so trassuge som &#x2026; bukken. Vil ein mann ha eit grand lesnad og upplysning, so hakkar dei mest augo ut paa &#x0027;n. Daa gneg dei paa ved, og daa gneg dei paa vatn, og daa er det altslags merakels; jamvel gardsstelle vil dei blande seg uppi. <stage>(<hi rend="bold">Inger</hi> kremter.)</stage> Og vert ikkje alt gjort paa dag og datto plent etter almanakka, so er det varmelaust. Kunde eg hjelpe, at sn&#x00F8;en gjekk av i vaar, so eg ikkje fekk fram veden? Og denne baaten, du veit ho masar um jamt, &#x2013; <pb n="26"/>var det mi skuld, at isen la seg, fyrr eg fekk han upp? Og &#x2026;</p>
+</sp>
+<sp>
+<speaker>Inger</speaker>
+<p>Dei lever for mykje i det materielle; elles var no dette noko anna &#x2026;</p>
+</sp>
+<sp>
+<speaker>Lars</speaker>
+<stage>(jatter.)</stage>
+<p>Ja visst; ja du veit det; men jamenn er det ikkje avbekleg med gamle kvinfolk; det seier eg beintfram.</p>
+</sp>
+<sp>
+<speaker>Inger</speaker>
+<p>Kvinna hev altid vore den, som stod i vegen for framskridte. Men heretter skal det verta annleis! Og no tenkte eg, at naar me tvo slog oss saman, so maatte me daa vel bi so vidt sterke, at me kunde faa innf&#x00F8;rt nokre reformer her paa garden.</p>
+</sp>
+<sp>
+<speaker>Lars</speaker>
+<stage>(nikker, litt usikker.)</stage>
+<p>Reformer, ja!</p>
+</sp>
+<sp>
+<speaker>Inger</speaker>
+<p>So i eit og anna ja. Det er berre smaating, eg no meiner; men slikt smaatt maa og til, um live skal verte fagert og ljost. Til <pb n="27"/>d&#x00F8;mes &#x2013; eg vil nemna: rationelt fjosstell, som ho mor l&#x00E6;r so aat. Veit du kva det er?</p>
+</sp>
+<sp>
+<speaker>Lars</speaker>
+<stage>(ikke rigtig med l&#x00E6;nger,)</stage>
+<p>Ja du veit det, rationelt fjosstell &#x2026; du veit det.</p>
+</sp>
+<sp>
+<speaker>Inger</speaker>
+<p>Fyrst maa me byggje eit stort nytt fjos, med store vindaugo, so der vert ljost og &#x2026; regtig ljost; og det fjose maa bli skurt kvar laurdag, so kvitt som &#x2013;</p>
+</sp>
+<sp>
+<speaker>Lars</speaker>
+<stage>(ser forbl&#x00F8;ffet paa hende.)</stage>
+<p>Sk &#x2026; sku &#x2013;</p>
+</sp>
+<sp>
+<speaker>Inger</speaker>
+<p>Me maa ha gjente, forstend du.</p>
+</sp>
+<sp>
+<speaker>Lars</speaker>
+<stage>(halvt bortvendt; mumler.)</stage>
+<p>Endaa eit kvinfolk i huse. <stage>(Vender sig til hende igjen)</stage> Ja, ja; du veit det. Det er berre &#x2026; du veit &#x2026; ho skal no ha l&#x00F8;n, gjenta og, ja.</p>
+</sp>
+<sp>
+<speaker>Inger</speaker>
+<p>Slikt er smaalege hensyn, far. Dei skillingarne f&#x00E6;r me altid. Naar berre du driv garden med kraft &#x2026; han Tore skal l&#x00E6;re deg <pb n="28"/>nokre nye metodar, som han fekk greie paa daa han var hjaa Unge-Mannen paa Bueng &#x2026;</p>
+</sp>
+<sp>
+<speaker>Lars</speaker>
+<stage>(bortvendt; med et betydelig flaut uttryk i ansigtet.)</stage>
+<p>&#x2013; med kraft, ja. Ja du veit det.</p>
+</sp>
+<sp>
+<speaker>Inger</speaker>
+<p>Og nye metodar. Og so driv me rationelt fjosstell. No skal du h&#x00F8;yre; det er so greidt aa forstaa. Vitenskapen hev funne ut det no, at det l&#x00F8;ner seg betre aa f&#x00F8; kyrne paa baasen heile aare og lata dei eta med&#x0027; dei vil; og so slagtar ein dei, naar dei vert for feite, og berre kompleterar med nye.</p>
+</sp>
+<sp>
+<speaker>Lars</speaker>
+<stage>(gaper av forbauselse,)</stage>
+<p>Lata dei eta med&#x0027; dei vil, seier du &#x2026; Ja-ha; ja-ha; du veit det; eg hev inkje noko imot det, &#x2013; eg inkje &#x2026; <stage>(kl&#x00F8;r sig i nakken.)</stage> D&#x0027;er berre um ein hev h&#x00F8;y nok, ser du!</p>
+</sp>
+<sp>
+<speaker>Inger</speaker>
+<p>Aa, berre du bryt upp noko ny jord, so.</p>
+</sp>
+<sp>
+<speaker>Lars</speaker>
+<stage>(bortvendt, mumler for sig selv.)</stage>
+<p>Neimenn um ho vert likare en den gamle, &#x2013; denne nei!</p>
+</sp>
+<sp>
+<speaker><pb n="29"/>Tore</speaker>
+<stage>(Gut paa omtrent 28, kommer ind, paatat rolig, noget forlegen.)</stage>
+<p>Goddag og takk for sist.</p>
+</sp>
+<sp>
+<speaker>Lars</speaker>
+<stage>(snur sig rundt paa stenen, ser paa Tore og r&#x00E6;kker haanden frem.)</stage>
+<p>Aa godkvelden; er det du Tore?</p>
+</sp>
+<sp>
+<speaker>Tore</speaker>
+<p>Ja det er nok det. Eg var just ei &#x00E6;rend nedpaa Eggen, og so &#x2026; var eg huga til aa helse paa dykk <stage>(r&#x00E6;kker haanden til <hi rend="bold">Inger</hi>, idet han slaar &#x00F8;inene ned.)</stage> Goddag &#x2013; og v&#x00E6;lkomi heimatt fraa turen!</p>
+</sp>
+<sp>
+<speaker>Inger</speaker>
+<p>Takk, Tore. Og takk ogso for alle brevi dine <stage>(<hi rend="bold">Tore</hi> skotter hen til <hi rend="bold">Lars</hi> og kremter forlegen.)</stage></p>
+</sp>
+<sp>
+<speaker>Lars</speaker>
+<stage>(tar sig et par ganger braatt til hodet,)</stage>
+<p>Nei, &#x2013; no trur eg det vert &#x2026; v&#x00E6;l-so kj&#x00F8;le aat meg, ja. Eg trur mest &#x2026; eg vil gaa inn att litt. <stage>(Til <hi rend="bold">Tore</hi>)</stage> Ja du maa no sjaa innum d&#x00F8;ri, fyrr du gjeng!</p>
+</sp>
+<sp>
+<speaker>Tore</speaker>
+<p>Du skal ha takk; eg gjer full&#x0027; det. <stage>(<hi rend="bold">Lars</hi> ind.)</stage></p>
+</sp>
+<sp>
+<speaker>Inger</speaker>
+<p>Det er utviklande aa byta tankar gjenom brev, naar ein ferdast kvar for seg. Og eg <pb n="30"/>l&#x00E6;rde mykje av brevi dine, Tore, endaa eg saag med sorg, at du ikke rett kunde fylgje meg i alt det store og nye. Ja ofte hadde du berre ein kaat flir aat det, som fyllte meg med begeistring.</p>
+</sp>
+<sp>
+<speaker>Tore</speaker>
+<p>Det var kje &#x2026; so meint, Inger. Men det var somt, eg tykte var <stage>(med et tilbaketr&#x00E6;ngt smil)</stage> &#x2026; litegrand rart. Eg forstod deg full&#x0027; ikkje rett, kan eg tru.</p>
+</sp>
+<sp>
+<speaker>Inger</speaker>
+<p>Kom, set deg, og lat oss r&#x00F8;e saman. Me maa forstaa kvarandre fullt ut. Full forstaaelse, Tore! og full sympathi, og fyrst og fremst: f&#x00E6;lles interesser; utan det er eit kvart forhold umoralsk.</p>
+<stage>(De s&#x00E6;tter sig paa stenen, <hi rend="bold">Tore</hi> litt brydd.)</stage>
+</sp>
+<sp>
+<speaker>Tore</speaker>
+<p>Ja du veit det. Men eg tykte no me &#x00AB;forstod&#x00BB; einannan bra, fyrr du strauk.</p>
+</sp>
+<sp>
+<speaker>Inger</speaker>
+<p>Nemn ikkje den tidi, Tore! Alt maa no bi annleis, um det skal bi noko millom oss. Eg hev fengje eit nytt syn paa live, Tore. Men seg meg no, korleis du hev havt det i alle ting.</p>
+</sp>
+<sp>
+<speaker>Tore</speaker>
+<stage>(som av og til glytter paa hendes haar, med voksende forundring og misforn&#x00F8;ielse.)</stage>
+<p>Aa du veit, det hev ofte vore litt stuslegt, som von var.</p>
+</sp>
+<sp>
+<speaker><pb n="31"/>Inger</speaker>
+<stage>(b&#x00F8;ier hodet og ser tankefuldt frem for sig. <hi rend="bold">Tore</hi> benytter anledningen til at se hende nedover ryggen, likesom letende.)</stage>
+<p>Du skulde lesa meir, Tore, utvikla din aand. So vart det aldri stuslegt.</p>
+</sp>
+<sp>
+<speaker>Tore</speaker>
+<p>Vart det aldri &#x2026; stuslegt aat deg?</p>
+</sp>
+<sp>
+<speaker>Inger</speaker>
+<p>Aa &#x2013;. Men fortel no um deg fyrst, Tore.</p>
+</sp>
+<sp>
+<speaker>Tore</speaker>
+<p>Ja eg &#x2026; f&#x00F3;r no og las stundom, eg og; men du veit, det vert gjerne so mykje anna aa gjera. Elles veit du no eg hev l&#x00E6;rt eit og anna, eg og, &#x2013; helst i den tidi, daa eg var paa Bueng og tente &#x2026;</p>
+</sp>
+<sp>
+<speaker>Inger</speaker>
+<p>Ja han Hallvard Bueng er ein upplyst mann.</p>
+</sp>
+<sp>
+<speaker>Tore</speaker>
+<p>Skulde tru det; han hev daa vore baade paa folkeh&#x00F8;gskulen og jordbruksskulen. &#x2013; Ja, han tala stundom og um &#x2026; somt av dette same, som du skreiv um i brevi. Alt dette nye, ja. Men han meinte no det, han, at ein fekk ta det med lempe, ta det me kunde bruka, og som h&#x00F8;vde &#x2026;</p>
+</sp>
+<sp>
+<speaker><pb n="32"/>Inger</speaker>
+<stage>(rynker n&#x00E6;sen.)</stage>
+<p>"Lempe". Er han alt <emph>so</emph> gamal, han Hallvard Bueng. Og du, &#x2013; kan du og ta slikt eit &#x00E6;kelt, klamt ord i din munn? &#x00AB;Lempe&#x00BB;. &#x00AB;Lempe seg.&#x00BB; Hev du og vorte gamall, Tore?</p>
+</sp>
+<sp>
+<speaker>Tore</speaker>
+<stage>(endnu litt trykket; men smiler.)</stage>
+<p>Eg er akkurat eit aar eldre en ifjor dette bile.</p>
+</sp>
+<sp>
+<speaker>Inger</speaker>
+<p>Du forstend meg ikkje. Ein maa vera ung! Ein maa ha mod! Ser du ikkje, kor mykje her er aa gjera, Tore?</p>
+</sp>
+<sp>
+<speaker>Tore</speaker>
+<stage>(later som han ikke forstaar; synes oplagt paa at erte hende litt.)</stage>
+<p>Jau, her er mykje aa gjera enno; men eg hev daa freista aa drive upp garden der heime so godt eg kunde; husi hev eg og fare yver litegrand; <stage>(smiler.)</stage> eg tykte liksom eg skulde ha dei ferdige no ved dette leite paa lag &#x2026; <stage>(alvorlig igjen.)</stage> eg hadde som ei von um, at du kunde vilja sjaa uppum &#x2013; uppum oss. Ja, og so hev eg freista aa lesa litegrand, ja, naar eg tykte det vart for tungt og saknadsamt; men &#x2013; <stage>(varmere)</stage> det var kje som det vilde hjelpe. Det kom berre for meg, kor gildt me hadde det ifjor, me tvo &#x2026; men det er sant: det maa eg ikkje nemne lenger.</p>
+</sp>
+<sp>
+<speaker><pb n="33"/>Inger</speaker>
+<stage>(ryster tankefuldt paa hodet.)</stage>
+<p>Du forstend meg ikkje, du forstend meg ikkje &#x2026;</p>
+</sp>
+<sp>
+<speaker>Tore</speaker>
+<stage>(forts&#x00E6;tter.)</stage>
+<p>Og so fekk eg slikt eit rart bod fraa deg: at eg maatte koma <emph>no</emph> &#x2013; so tidleg. Det var liksom &#x2026;. ja eg veit ikkje &#x2026;. det var mest som meiningi var, at me ikkje skulde &#x2026; ha noko oss imillom lenger.</p>
+<stage>(Ser nu fast og forskende paa hende. Synes endelig at faa rede paa, hvad der er i veien med hendes haar; tr&#x00E6;kker sig ifra hende, f&#x00F8;rst forbauset og uhyggelig ber&#x00F8;rt; siden synes han helst at ha lyst til at le.)</stage>
+</sp>
+<sp>
+<speaker>Inger</speaker>
+<stage>(som ser ut for sig og intet merker.)</stage>
+<p>Nei, Tore; men det me hev aa seia kvarandre, det skal seiast <stage>(retter sig)</stage> i dagsens fulle ljos! <stage>(<hi rend="bold">Tore</hi> blir urolig, kremter og flytter paa sig; tar en kvist op og bryter den i smaa stykker.)</stage> Og no skulde du og eg vera fyregangsmenn i denne sak, Tore, vise eit godt eksempel og hjelpe til at drive ut raaskap og gamall used.</p>
+</sp>
+<sp>
+<speaker>Tore</speaker>
+<stage>(sk&#x00F8;ieragtig.)</stage>
+<p>Aa, eg veit no ikkje um eg duger til aa vera &#x2026; eksempel for nokon, eg.</p>
+</sp>
+<sp>
+<speaker>Inger</speaker>
+<p>No er det aandeleg latskap, som talar ut av deg, Tore! Men ungdomen hev kje lov <pb n="34"/>til aa vera lat i dette lande! Alt skal skapast um fraa nytt; eit nytt liv skal vekkjast, eit nytt ljos spreidast i dei tusind hjem; det er eit arbeid, som krev vakne krefter, det, Tore.</p>
+</sp>
+<sp>
+<speaker>Tore</speaker>
+<stage>(med m&#x00F8;isomt undertrykt latter.)</stage>
+<p>Ja &#x2026; det er full&#x0027; ikkje so lett gjort det som &#x2013; ha-ha &#x2013; aa klippe haare av seg!</p>
+</sp>
+<sp>
+<speaker>Inger</speaker>
+<stage>(streng.)</stage>
+<p>Og det krevst aalvor, Tore!</p>
+</sp>
+<sp>
+<speaker>Tore</speaker>
+<p>Ha-ha; &#x2013; ja det krevst det til aa drive ein gard upp og. Du trur kanskje, eg hev havt lette dagar med aa faa i stand engvatningi der, burt i Brekkehei-i, so ho no stend med gras som gjeng til knes &#x2026;</p>
+</sp>
+<sp>
+<speaker>Inger</speaker>
+<p>Ja det er godt. Men er det kje anna, du hev fenge augo upp for, en denne turrleiken i Brekkehei-i &#x2013;</p>
+</sp>
+<sp>
+<speaker>Tore</speaker>
+<p>Jau daa. Some stader fann eg, at det var for mykje v&#x00E6;te og. Eg fekk med meg nokre ungdomar til aa veite ut Gjilemyri; det kravde aalvor, det med, maa du tru! <stage>(Noget saart spottende kommer frem i den sk&#x00F8;ieragtige tone.)</stage></p>
+</sp>
+<sp>
+<speaker><pb n="35"/>Inger</speaker>
+<stage>(bekymret.)</stage>
+<p>Eg skynar v&#x00E6;l, at du vil koma burt fraa det som eg vil tala med deg um. <stage>(Reiser sig; med utstrakt haand; peker paa ham.)</stage> Men du slepp ikkje fraa det, Tore! Vatne engjer og turke ut myrer er godt og v&#x00E6;l; men h&#x00F8;gare uppgaavur hev me ungdomar no en aa reinske upp i gamle myrar! &#x2013; Fyrst og fremst hev me den uppgaava aa reinska upp i forholde millom kvinne og mann.</p>
+</sp>
+<sp>
+<speaker>Tore</speaker>
+<p>Eg tykte ikkje det var so verst millom kvinne og mann, eg, &#x2013; &#x2013; fyrr.</p>
+</sp>
+<sp>
+<speaker>Inger</speaker>
+<p>Du er veik i viljen, Tore! Du vil ikkje sjaa! &#x2013; I natti&#x0027;s mulm og m&#x00F8;rke snikjer gutarne seg som tjuvar rundt paa gardom og kliv som kattar paa lemmar og loft &#x2013; fy!</p>
+</sp>
+<sp>
+<speaker>Tore</speaker>
+<stage>(snur luen mellem fingrene, noksaa forpint av latter.)</stage>
+<p>Aa, eg veit ikkje eg &#x2026; kva skal me gjera? Um dagen &#x2026; hev ein nok anna aa tenkje paa en gaa paa friing; og ikkje kan ein koma til gjentune &#x2026; som ein gris heller; ein maa daa &#x2013; ha-ha &#x2013; vaske henderne um ikkje meir &#x2026;</p>
+</sp>
+<sp>
+<speaker><pb n="36"/>Inger</speaker>
+<p>Tome talemaater og undskyldningar. Nei; no skal du vita det beintfram, Tore: alt dette maa burt. Me maa vinna yver alt dette laage og sanselege; &#x00E6;gteskape maa verte eit aandelegt forhold; ikkje millom mann og kvinne, men millom tvo menneskje, som kan lyfte og for&#x00E6;dle kvarandre og leve for h&#x00F8;gre maal en <stage>(med en grimace av motbydelighet.)</stage> &#x2026; aa avle baan!</p>
+<stage>(Tore kan ikke bare sig l&#x00E6;nger; spruter ut i latter; s&#x00E6;tter saa tilbens det forteste han kan.)</stage>
+</sp>
+<sp>
+<speaker>Inger</speaker>
+<stage>(staar igjen og stirrer forbauset; stamper i jorden med et uttryk av forbitrelse; men retter sig saa op. Stille bev&#x00E6;get:)</stage>
+<l>Den som gaar foran i en alvorsdyst,</l>
+<l>han falder ei, han kj&#x00E6;mper kun &#x2013; &#x2013;</l>
+<stage>(retter sig.)</stage>
+<l>han kj&#x00E6;mper ei, han falder kun &#x2013; &#x2013;</l>
+<stage>(forvirret.)</stage>
+<l>han kj&#x00E6;mper &#x2013; han falder &#x2013; han &#x2013; &#x2013;</l>
+<stage>(Begynder forfra igjen, meget forsigtig, for ikke at komme av det:)</stage>
+<l>Den som gaar foran i &#x2013; &#x2013;</l>
+<stage>(<hi rend="bold">Anne</hi> og <hi rend="bold">Utstu-Gamla</hi> kommer ut.)</stage>
+</sp>
+<sp>
+<speaker>Gamla</speaker>
+<p>Kva er som stend paa her?</p>
+</sp>
+<sp>
+<speaker>Inger</speaker>
+<p>Aa det er berre han Tore.</p>
+</sp>
+<sp>
+<speaker>Gamla</speaker>
+<p>Var det kje det eg tykte, at eg kjende att den gode laatten hans Tore. Ja den som f&#x00E6;r <pb n="37"/>han Tore i huse, han f&#x00E6;r den han skal tr&#x00F8;yte tidi med. Skjemt og laatt er det jamt med han. Syng og l&#x00E6;r gjer han naar han arbeider, og det same gjer han naar han kviler paa. Og ein drusteleg arbeidskar er han.</p>
+</sp>
+<sp>
+<speaker>Inger</speaker>
+<p>Tore manglar aandeleg utvikling. Han er ingen mann for meg.</p>
+</sp>
+<sp>
+<speaker>Gamla</speaker>
+<stage>(forf&#x00E6;rdet.)</stage>
+<p>Kva &#x2026; kva &#x2026; er det du seier?</p>
+</sp>
+<sp>
+<speaker>Inger</speaker>
+<stage>(h&#x00F8;iere.)</stage>
+<p>Eg seier, at Tore vantar aandeleg utvikling, og at min mann vert han aldri.</p>
+</sp>
+<sp>
+<speaker>Anne</speaker>
+<stage>(har staat som himmelfalden.)</stage>
+<p>Nei no trur eg beisked&#x00F8; tausi er fraa vite. Vil du kje ha han Tore, seier du? <stage>(ind&#x00E6;dt.)</stage> Kanskje du gjeng og ventar paa ein prest?</p>
+<p>Eg var huga te dengje deg, so lang som du er. Kom kje her og legg deg ut med vyrdande folk; det <emph>raar</emph> eg deg til!</p>
+</sp>
+<sp>
+<speaker>Gamla</speaker>
+<stage>(skj&#x00E6;lvende av sinne.)</stage>
+<p>Ja kva han vantar, han Tore, &#x2013; kva han vantar og ikkje vantar, &#x2013; so skal eg fortelja <pb n="38"/>deg, at han vantar korkje gard eller noko anna som h&#x00F8;yrer ein giftande gut til &#x2026; <stage>(ler koldt)</stage> og ikkje vantar han dei som vil ha han hell, maa du tru. H&#x00F8;, h&#x00F8;!</p>
+<stage>(Gaar.)</stage>
+</sp>
+<sp>
+<speaker>Inger</speaker>
+<p>Dei tider er forbi, daa ein lokka ei gjente med gard og grunn. Gard hev elles eg sj&#x00F8;lv.</p>
+</sp>
+<sp>
+<speaker>Anne</speaker>
+<stage>(rasende.)</stage>
+<p>Nei b&#x00E9;isked&#x00F8;, no svor eg! &#x2013; so lenge eg krek paa tvo &#x2026; so skal her ikkje bi nassjonalt fjosstell her paa garden; no veit du det!</p>
+</sp>
+<sp>
+<speaker>Lars</speaker>
+<stage>(i d&#x00F8;ren med begge h&#x00E6;nder om hodet; jamrer og st&#x00F8;nner.)</stage>
+<p>Aa, ai &#x2026; Aa j&#x00F8;, j&#x00F8;. Kor er luva mi? &#x2013; ai, ai.</p>
+</sp>
+<sp>
+<speaker>Anne</speaker>
+<p>Kva er tids? Hev no du og misst vite?</p>
+</sp>
+<sp>
+<speaker>Lars</speaker>
+<p>Ai, ai &#x2026; aa, det er hovue; eg fekk slik &#x2026; forbrennande verk i hovue; eg kan ikkje tru anna en det flyg av meg &#x2013; ai, ai, ai; kor hev du gjort av luva mi, Inger?</p>
+</sp>
+<sp>
+<speaker><pb n="39"/>Anne</speaker>
+<stage>(springer ind.)</stage>
+<p>Aa du er eit narr so gamall du er. <stage>(Kommer med luven og tr&#x00E6;kker den noksaa haardh&#x00E6;ndt ned over &#x00F8;rene hans.)</stage> Eg skal seia deg noko anna en bakketerier, eg, som trivst i ei tjukk luve, og det er ein gamall skolt! H&#x00E6;-h&#x00E6;; ja no kjem gikti og bryt deg; og det kan ho gjerne gjera; d&#x0027;er berre til pass! <stage>(<hi rend="bold">Lars</hi> ind, kroket og elendig. Anne efter, men snur sig og sier til <hi rend="bold">Inger</hi>:)</stage> So! Tak bytta no, og gakk aat fjose og mj&#x00F8;lka og gjer eitkvart til gagns! Men gl&#x00F8;ym deg no ikkje burt med spenarne millom fingrarne; skikkelegt stell vil eg ha, og ikkje noko &#x00AB;nassjonalt&#x00BB;! <stage>(lukker d&#x00F8;ren. <hi rend="bold">Inger</hi> vrir paa sig og s&#x00E6;tter op en martyrmine; blir staaende.)</stage></p>
+</sp>
+<sp>
+<speaker>Inger</speaker>
+<p>Den som gaar foran i en alvorsdyst, &#x2013; han &#x2013; &#x2013;</p>
+</sp>
+<sp>
+<speaker>Jens Pedersen</speaker>
+<stage>(ung, noget blek fyr, bykl&#x00E6;dd; l&#x00E6;gger an paa en viss handelsbetjentflothet; men hans bev&#x00E6;gelser er stive og hans sprog seminaristisk bokkorrekt. Tar hatten av.)</stage>
+<p>Godaften, fr&#x00F8;ken.</p>
+</sp>
+<sp>
+<speaker>Inger</speaker>
+<stage>(vender sig forskr&#x00E6;kket.)</stage>
+<p>Aa, kor eg kvakk. Godaften! <stage>(oplivet.)</stage> Aa, er det &#x2013; &#x2013;</p>
+</sp>
+<sp>
+<speaker>Jens Pedersen</speaker>
+<p>Jeg beder om undskyldning, jeg skr&#x00E6;mte Dem vist. <stage>(stivt buk.)</stage> Mit navn er Jens Pedersen &#x2013;</p>
+</sp>
+<sp>
+<speaker><pb n="40"/>Inger</speaker>
+<stage>(blid og forlegen.)</stage>
+<p>Ja, eg kjenner daa deg &#x2013; &#x2013; Dykk; eg hev so ofte tenkt eg skulde skriva og takka Dykk for alle dei storartede digti, De skriv i &#x00AB;Nutidsposten&#x00BB; &#x2026; <stage>(blir meget r&#x00F8;d.)</stage></p>
+</sp>
+<sp>
+<speaker>Jens Pedersen</speaker>
+<stage>(slaar ut med haanden.)</stage>
+<p>Intet at tale om, fr&#x00F8;ken &#x2013; bare &#x00F8;velser, <emph>endnu</emph>. De forstaar; saa l&#x00E6;nge man skal v&#x00E6;re n&#x00F8;dtvungen til at sidde paa et trangt og m&#x00F8;rkt lensmandskontor mellem bare skattelister og protokoller &#x2026; der kan ikke trives <emph>aand</emph> der. Men vent &#x2013;! &#x2013; Nu, jeg er ikke kommen for at tale om mine egne anliggender. Jeg erfarede, at fr&#x00F8;kenen var hjemkommen fra folkeh&#x00F8;iskolen, og saa fik jeg en st&#x00E6;rk trang til &#x2026; De ved, her er jo ingen mennesker her i bygden, som man kan tale med om h&#x00F8;iere emner, og saa t&#x00E6;nkte jeg &#x2026; det vil sige &#x2026; for at tale ligefrem: jeg l&#x00E6;ngter efter et menneske med en smule aandelig udvikling.</p>
+</sp>
+<sp>
+<speaker>Inger</speaker>
+<stage>(saare blid, r&#x00E6;kker ham haanden.)</stage>
+<p>Aa nei, kor &#x2026; hyggeligt dette var. Aa, De veit kje, kor &#x2026; kor eg forstend det. Ikkje <pb n="41"/>eg heller har nogen, eg kan tale med, &#x2013; ikkje ein, som forstaar meg!</p>
+</sp>
+<sp>
+<speaker>Jens Pedersen</speaker>
+<p>Saa er vi lidelsesf&#x00E6;ller. Jeg kan nok sige jeg har &#x2026; rent ud vansm&#x00E6;gtet, den tid jeg har v&#x00E6;ret her; og mit arbeide for at v&#x00E6;kke et aandeligt liv i bygden er der ingen som skj&#x00F8;nner.</p>
+</sp>
+<sp>
+<speaker>Inger</speaker>
+<p>Vil De ikkje &#x2026; ta plads her litegrand. Eg vil kje be Dykk gaa inn; &#x2013; her er trangt og indest&#x00E6;ngt her, i stuerne som i sj&#x00E6;lene.</p>
+<stage>(De s&#x00E6;tter sig paa stenen.)</stage>
+</sp>
+<sp>
+<speaker>Jens Pedersen</speaker>
+<p>Ja; der mangler &#x2026; <emph>syn</emph>.</p>
+</sp>
+<sp>
+<speaker>Inger</speaker>
+<p>Ahh! <stage>(Springer op igjen; ivrig; ogsaa hun knoter nu mer og mer.)</stage> Her er en form&#x00F8;rkelse, en uvidenheit, som kan gjera eit menneskje galen! Eg kom heim igaar, men har alt lengta meg <emph>syg</emph> &#x2026; etter aa faa snakke med eit oplyst menneskje. Og ungdomen! Aa, bare raahed og &#x2026; vankundigheit &#x2026; <stage>(retter sig op; i foredragstone.)</stage> Kva skal ein gjera for ungdomen i dette land!</p>
+</sp>
+<sp>
+<speaker><pb n="42"/>Jens Pedersen</speaker>
+<stage>(hoderystende. Ser paa Inger med forlibte &#x00F8;ine.)</stage>
+<p>Det er forf&#x00E6;rdeligt. Men &#x2026; naar vi faar kvinden med os i det store arbeide for oplysning og moral, da vil det blive anderledes. Jeg <emph>tror</emph> paa kvinden!</p>
+</sp>
+<sp>
+<speaker>Inger</speaker>
+<stage>(s&#x00E6;tter sig. Med en bekymret mine, men smigret.)</stage>
+<p>Hm &#x2013; ja &#x2026; enno maa jeg skj&#x00E6;mmes av mitt eige kj&#x00F8;n. Som en d&#x00F8;dv&#x00E6;gt har vi ligget paa all utvikling. <stage>(Ryster skyldbevisst paa hodet.)</stage> F&#x00F8;de b&#x00F8;rn og lage mat og b&#x00F8;te str&#x00F8;mper &#x2013; det var det heile; og vort h&#x00F8;ieste maal var <stage>(stopper sig litt, skotter til ham fra siden)</stage> &#x2013; aa faa ein mann. <stage>(Smiler ufrivillig, men straks igjen alvorsfuldt.)</stage> Kunde ein ikkje skjemmast, so ein kraup i jordi. <emph>Her</emph> er det, me maa begynde!</p>
+</sp>
+<sp>
+<speaker>Jens Pedersen</speaker>
+<stage>(bekymret.)</stage>
+<p>Visselig, visselig. Det er her, vi maa begynde. &#x2013; Om det end maa indr&#x00F8;mmes, at &#x2013; <stage>(kremter)</stage> ja jeg mener under visse omst&#x00E6;ndigheder &#x2026; at man ikke helt t&#x00F8;r fraraade <stage>(vender sig pludselig helt mot hende og ser varmt paa hende.)</stage> Kort sagt: der gives omst&#x00E6;ndigheder; jeg mener: under betingelse af hel og fuld forstaaelse og hel sj&#x00E6;lelig sympathi <pb n="43"/>og &#x2013; fuldt f&#x00E6;llesskab i syn og interesser, og den h&#x00F8;ieste gjensidige agtelse &#x2013; <stage>(tr&#x00E6;kker pusten dypt)</stage>, &#x2026; da kan det jo ikke egentlig betragtes som &#x2026; da t&#x00F8;r man maaske ikke ganske fraraade kvinden at &#x2026; f&#x00F8;de lidt b&#x00F8;rn. <stage>(Hurtig)</stage> Men derimod str&#x00F8;mperne! Nei; det faar vi gj&#x00F8;re selv.</p>
+</sp>
+<sp>
+<speaker>Inger</speaker>
+<stage>(vekt; vendt imot ham.)</stage>
+<p>Aa, for ein aandsvederkv&#x00E6;gelse aa h&#x00F8;yre et dannet menneskje tala igjen. <stage>(Gir ham pludselig haanden)</stage> Eg takkar Dykk for De kom! Eg treng so saart til ein, som kan sympathisere med meg og hjelpe meg med eit godt og forl&#x00F8;sande ord i den &#x2026; kampen eg no f&#x00E6;r aa staa i.</p>
+</sp>
+<sp>
+<speaker>Jens Pedersen</speaker>
+<p>De er en herlig kvinde; saa stolt og saa sand. Og jeg f&#x00F8;ler, hvor De kan forstaa en mand som &#x2013;; eller kan De ikke t&#x00E6;nke Dem, hvorledes ogsaa jeg maa l&#x00E6;nges efter sympathi, forstaaelse, efter en ven, en kvinde med intelligens og aand, som kan dele mine interesser og st&#x00F8;tte mit arbeide for &#x2026; fremskridt og udvikling. Aa, Inger &#x2013;!</p>
+</sp>
+<sp>
+<speaker><pb n="44"/>Inger</speaker>
+<stage>(slaar &#x00F8;inene ned.)</stage>
+<p>Ja, kunde eg faa vera Dykk til hjelp i dette arbeide! Eg brenn etter aa reformere disse elendige hjem.</p>
+</sp>
+<sp>
+<speaker>Jens Pedersen</speaker>
+<stage>(griper hendes haand.)</stage>
+<p>Aa ja, lad os begynde i dag. I denne stund. Eksemplet, ser De, er det f&#x00F8;rste bud i opdragelsens katekismus. Vi maa selv give eksemplet paa den store forstaaelse, den dybe aandelige sympathi, som herefter skal v&#x00E6;re det tilgrundliggende i forholdet mellem mand og kvinde. Lad os indgaa &#x2026; ja hvad skal jeg kalde det? <stage>(Inger drar sig litt tilbake.)</stage> Vi vil ikke bruge udtryk som forlovelse &#x2013; eller &#x00E6;gteskab, &#x2013; aa, dette brutale, frast&#x00F8;dende ord <stage>(skyder fra sig med begge h&#x00E6;nder)</stage>; rent ud modbydeligt og umoralsk virker det paa mig.</p>
+</sp>
+<sp>
+<speaker>Inger</speaker>
+<p>Enn paa meg daa; fy!</p>
+</sp>
+<sp>
+<speaker>Jens Pedersen</speaker>
+<p>Ja, ja! Fy! netop fy! &#x2013; det er ordet. Nei. Men skal vi kunne arbeide sammen med den rette kraft, saa lad os &#x2013; <stage>(h&#x00F8;itidelig)</stage> etablere et aandeligt forbund.</p>
+</sp>
+<sp>
+<speaker><pb n="45"/>Inger</speaker>
+<stage>(begeistret.)</stage>
+<p>Aa ja! Aandelegt forbund! Det er det, eg so lenge hev dr&#x00F8;ymt um! Inkje noko av alt dette &#x2013; fy &#x2026;</p>
+</sp>
+<sp>
+<speaker>Jens Pedersen</speaker>
+<p>Nei, et h&#x00F8;it og s&#x00E6;deligt aandeligt forbund, til gjensidig st&#x00F8;tte i det f&#x00E6;lles arbeide, og for at give det gode eksempel.</p>
+</sp>
+<sp>
+<speaker>Inger</speaker>
+<p>Ja! Ja! &#x2013; Aa nei for ei lykke, at eg endelig traf ein upplyst mann, som kunde forstaa meg. Ein fin mann, som i &#x2026; forbundet med kvinden berre s&#x00F8;kjer aandelig udvikling for henne og seg sj&#x00F8;lv. Ja, s&#x00E6;l er denne dagen; og takk for De kom!</p>
+</sp>
+<sp>
+<speaker>Jens Pedersen</speaker>
+<p>Og dette vort forbund &#x2013;; det vil v&#x00E6;re hensigtsm&#x00E6;ssigt, min kj&#x00E6;re Inger &#x2013; jeg faar vel nu kalde dig saa &#x2013;, at vi besegler dette vort forbund med et h&#x00F8;itideligt broder- og s&#x00F8;sterkys &#x2026; <stage>(n&#x00E6;rmer sig.)</stage></p>
+</sp>
+<sp>
+<speaker>Inger</speaker>
+<stage>(viker noget tilbake. Saa med ett i stor beslutning.)</stage>
+<p>Ja! Eit broderkyss! I dagsens fulle ljos! <pb n="46"/>Aandeleg kj&#x00E6;rleik! <stage>(B&#x00F8;ier sig ind til ham. Han drar hende ind til sig og kysser hende eftertrykkelig.)</stage></p>
+</sp>
+<sp>
+<speaker>Anne</speaker>
+<stage>(kommer i det samme ut i d&#x00F8;ren.)</stage>
+<p>Skal tru ho vert ferdug nokon gong?</p>
+<stage>(faar &#x00F8;ie paa dem; s&#x00E6;tter h&#x00E6;ndene i siden og roper:)</stage>
+<p>J&#x00F8;sses for eit syn. Er det slik du driv &#x2026; nassjonalt fjosstell! <stage>(De springer op.)</stage></p>
+</sp>
+<sp>
+<speaker>Inger</speaker>
+<stage>(strammer sig op.)</stage>
+<p>Lat ikkje folk forstaa, kor simpelt du tenkjer. Eg skal forklara deg &#x2026;</p>
+</sp>
+<sp>
+<speaker>Anne</speaker>
+<p>Nei takk; det trengst daa visst ikkje, no daa. So det er slikt du hev brukt pengar til aa l&#x00E6;re i den gromme skulen din. Jau denne vinteren hev du rett nytta godt.</p>
+</sp>
+<sp>
+<speaker>Inger</speaker>
+<p>Eg skal kje svara deg som du fortente. Eg vil berre seia deg, at eg er eit vakse og fritt menneskje og gjer som eg vil.</p>
+</sp>
+<sp>
+<speaker>Anne</speaker>
+<p>Ja, gjer som du vil, so gjer eg like eins.</p>
+</sp>
+<sp>
+<speaker><pb n="47"/>Inger</speaker>
+<p>Ja, eg gjer som eg vil, og no vil eg, at denne mannen og eg &#x2026; <stage>(<hi rend="bold">Pedersen</hi> tar hatten av og bukker dypt)</stage> me vil inngaa &#x2026; eit aandelegt forbund.</p>
+</sp>
+<sp>
+<speaker>Anne</speaker>
+<p>Aa bry deg aldri med aa valle tull for meg. Eg hev for fin ein tev, eg <stage>(ser sint paa <hi rend="bold">Jens Pedersen</hi> fra siden)</stage>, &#x2013; so fin ein tev, at det nyttar korkje stive hattar eller bukking og skraping. Og no seier eg deg det, at du kan vera so aandeleg du vil; men her paa garden hev me kje bruk for slikt noko. Garden hev eg fenge i arv, og han er min og skal so vera, so lenge eg kan r&#x00F8;re ein fot. Og det tor bi vonom lenger, det; <stage>(ind&#x00E6;dt til <hi rend="bold">Jens Pedersen</hi>)</stage> for friskare en eg er no hev eg aldri vore. <stage>(Til Inger)</stage> Og ikkje f&#x00E6;r du narre upp meg som du hev gjort med far din, &#x2013; som no ligg der inne og gjev seg som eit reivebaan for geitestykki dine!</p>
+</sp>
+<sp>
+<speaker>Inger</speaker>
+<p>Nei! &#x2013; dette kan eg ikkje tola. Burt fraa dette hus. <stage>(Med patos.)</stage> Eg hev fyrst og fremst pligter mot meg sj&#x00F8;lv! <stage>(slaar ut med haanden.)</stage> Behald garden din! <stage>(Tar et skridt mot <hi rend="bold">Jens Pedersen</hi> og r&#x00E6;kker haanden frem.)</stage> Jens Pedersen! Eg gjeng med deg.</p>
+</sp>
+<sp>
+<speaker><pb n="48"/>Jens Pedersen</speaker>
+<stage>(forskr&#x00E6;kket; skyver fra sig med begge h&#x00E6;nder.)</stage>
+<p>Nei, nei &#x2026; i et aandeligt forbund s&#x00F8;mmer det sig, at man blir <stage>(hatten av)</stage> &#x2013; hver for sig.</p>
+<stage>(Tr&#x00E6;kker sig bakl&#x00E6;ngs og bukkende ut i kulissen tilh&#x00F8;ire.)</stage>
+<stage>(Inger staar maall&#x00F8;s og gapende igjen og ser efter ham.)</stage>
+</sp>
+<sp>
+<speaker>Anne</speaker>
+<stage>(slaar sig paa laaret og ler hjertelig. Tar b&#x00F8;tten og stikker i n&#x00E6;ven paa Inger, som mekanisk klemmer fingrene om den.)</stage>
+<p>Sjaa no til, um han kjem att! &#x2013; Eg kjenner karen, eg.</p>
+<p><stage>(Peker.)</stage> Der ligg fjose!</p>
+<stage>(Inger gaar stiv i den anviste retning og forsvinder bak kulissen.)</stage>
+</sp>
+<sp>
+<speaker>Anne</speaker>
+<stage>(staar efter og ler for sig selv.)</stage>
+<p>Sku mest tru, det gjev seg no!</p>
+</sp>
+</div>
+</body>
+</text>
+</TEI>

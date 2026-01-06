@@ -1,0 +1,2436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI PUBLIC "-// TEI P5 //EN" "http://www.tei-c.org/release/xml/tei/custom/schema/dtd/tei_all.dtd">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="BS_Aas_Nemesis">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>bokselskap.no, Oslo 2022
+<lb/>Ovidia Aas: <hi rend="italic">Nemesis</hi>
+<lb/>Teksten i bokselskap.no f&#x00F8;lger 1. utgave, 1899 (Kristiania/Det norske Aktieforlaget). Digitaliseringen er basert p&#x00E5; fil mottatt fra Nasjonalbiblioteket (nb.no).
+<lb/>ISBN: 978-82-8319-657-3 (bokselskap.no), <lb/>978-82-8319-658-0 (epub), 978-82-8319-659-7 (mobi)
+</title>
+</titleStmt>
+<publicationStmt><p rend="noIndent">Publiseres som digital tekst av bokselskap.no.</p></publicationStmt>
+<sourceDesc>
+    <bibl facs="https://urn.nb.no/URN:NBN:no-nb_digibok_2009032603014" rend="antikva">
+<title>Nemesis</title>
+<author>Ovidia Aas</author>
+<publisher>Det norske Aktieforlaget</publisher>
+<pubPlace>Kristiania</pubPlace>
+<date>1899</date>
+<note>digibok_2009032603014 (mottatt fra Nasjonalbiblioteket 2022)</note>
+</bibl>
+</sourceDesc>
+</fileDesc>
+<revisionDesc>
+<change who="ENW" when="2022-04-04">Entiteter, kodekontroll og validering</change>
+<change xml:id="ENW" who="ENW" when="2022-03-18">Word -> TEI. XML-koding og opprydding.</change>
+</revisionDesc>
+</teiHeader>
+<text xml:id="BS_Aas_Nemesis_tekst" type="novel/poems/collection/drama">
+<front>
+<titlePage type="main">
+<byline><docAuthor>Ovidia Aas</docAuthor></byline>
+<docTitle>
+<titlePart type="main">Nemesis</titlePart>
+<titlePart type="sub">Skuespil i 3 Akter med et Forspil</titlePart>
+</docTitle>
+<docDate>bokselskap.no<lb/>Oslo 2022</docDate>
+</titlePage>
+<div xml:id="contents">
+<list type="contents_main">
+<item><ref target="chapter_0" xml:id="contents_0">&#x005B;Rollelister&#x005D;</ref></item>
+<item><ref target="chapter_1" xml:id="contents_1">Forspil</ref></item>
+<item><ref target="chapter_2" xml:id="contents_2">F&#x00F8;rste akt</ref></item>
+<item><ref target="chapter_3" xml:id="contents_3">Anden akt</ref></item>
+<item><ref target="chapter_4" xml:id="contents_4">Tredje akt</ref></item>
+</list>
+</div>
+<div type="chapter" subtype="castlist">
+<head type="main"><ref type="contents" target="contents_0" xml:id="chapter_0">&#x005B;ROLLELISTER&#x005D;</ref></head>
+<castList>
+<head><hi rend="bold">Personerne i forspillet</hi></head>
+<castItem><role>Arvid Borch,</role> <roleDesc>kunstmaler.</roleDesc></castItem>
+<castItem><role>Talma Borch,</role> <roleDesc>hans hustru.</roleDesc></castItem>
+<castItem><role>Eivind,</role> <roleDesc>deres s&#x00F8;n.</roleDesc></castItem>
+<castItem><role>Phoebe (Careni),</role> <roleDesc>variet&#x00E9;sangerinde.</roleDesc></castItem>
+<castItem><role>Ragna,</role> <roleDesc>pige hos Borchs.</roleDesc></castItem>
+</castList>
+<p rend="noIndent">Handlingen foregaar i Paris hos kunstmaler Borch. Nutiden.</p>
+<castList>
+<head><hi rend="bold">Personerne i skuespillet</hi></head>
+<castItem><role>Enkefru Skjoldberg.</role></castItem>
+<castItem><role>Wilhelm,</role> <roleDesc>l&#x00E6;ge</roleDesc>
+<lb/><role>Arvid,</role> <roleDesc>kunstmaler,</roleDesc> <roleDesc>hendes b&#x00F8;rn.</roleDesc></castItem>
+<castItem><role>Fanny,</role> <roleDesc>adopteret datter.</roleDesc></castItem>
+<castItem><role>Betzy Skram,</role> <roleDesc>fru Skjoldbergs s&#x00F8;sterdatter.</roleDesc></castItem>
+<castItem><role>Talma Lund,</role> <roleDesc>guvernante.</roleDesc></castItem>
+<castItem><role>Kandidat Wang.</role></castItem>
+<castItem><role>Jakob J&#x00E6;ger,</role> <roleDesc>student.</roleDesc></castItem>
+<castItem><role>Jomfru Gr&#x00F8;n.</role></castItem>
+</castList>
+<p rend="noIndent">Handlingen foregaar paa fru Skjoldbergs eiendom lidt udenfor en stor by. 5 aar senere.</p>
+<p rend="noIndent">1ste akt: dagligstue hos Skjoldbergs; juleaften. &#x2013; 2den akt: samme dekoration; 8 dage senere. &#x2013; 3dje akt: Wilhelm Skjoldbergs studerv&#x00E6;relse; samme dags aften.</p>
+</div>
+</front>
+<body>
+<div type="chapter" subtype="act" n="0">
+<head type="main"><ref type="contents" target="contents_1" xml:id="chapter_1">FORSPIL</ref></head>
+<stage><pb n="1"/>Et kunstnerisk udstyret atelier. I baggrunden aaben verandad&#x00F8;r, til venstre to d&#x00F8;re med portierer, til h&#x00F8;ire i forgrunden et flygel. L&#x00E6;nestole og et bord; malerier paa staffelier; blandt dem, midt paa scenen, et stort tild&#x00E6;kket billede. For resten malerisk uorden.</stage>
+<div type="uchapter" subtype="scene" n="0_1">
+<head type="sub">F&#x00F8;rste scene.</head>
+<stage>Ragna; (senere) Phoebe.</stage>
+<sp>
+<speaker>Ragna</speaker>
+<stage>(kommer forsigtig ind ad verandad&#x00F8;ren, gaar over til sided&#x00F8;ren og lytter).</stage>
+<p rend="noIndent">Jeg synes, jeg h&#x00F8;rer ham. <stage>(Lytter.)</stage> Nei, han er vist faldet i s&#x00F8;vn igjen. <stage>(Kommer fremover.)</stage> Stakkars gut! Gud ved, hvor l&#x00E6;nge han skal lide. <stage>(Gaar tilbage til d&#x00F8;ren.)</stage> Det er alligevel bedst, jeg gaar ind og gir fruen besked.</p>
+<stage>(I det samme hun vil gaa, kommer)</stage>
+</sp>
+<sp>
+<speaker><pb n="2"/>Phoebe</speaker>
+<stage>(fra baggrunden).</stage>
+<p rend="noIndent">Naa, saa her bor altsaa den meget omtalte kunstmaler Arvid Borch! <stage>(Tar sin lorgnet paa og ser sig rundt.)</stage> Se! se! Her er jo noksaa net. <stage>(Ser Ragna.)</stage> Ah, pardon! Kan jeg faa tale med hr. Borch? <stage>(Knipser med fingrene.)</stage> Straks, h&#x00F8;rer De! <stage>(Ragna staar fremdeles stille og ser paa hende.)</stage> Hurtig!</p>
+</sp>
+<sp>
+<speaker>Ragna</speaker>
+<p rend="noIndent">Herren pleier at sove middag paa denne tid, og vi har streng ordre til ikke at v&#x00E6;kke ham.</p>
+</sp>
+<sp>
+<speaker>Phoebe</speaker>
+<stage>(ironisk).</stage>
+<p rend="noIndent">Saa? Det er beklageligt. <stage>(Gaar t&#x00E6;t hen til hende.)</stage> Men h&#x00F8;r nu: vi v&#x00E6;kker ham alligevel, h&#x00F8;rer De! Han har lovet at spille for mig, forstaar De, naar jeg synger. <stage>(Peger paa flygelet.)</stage></p>
+</sp>
+<sp>
+<speaker>Ragna</speaker>
+<stage>(forf&#x00E6;rdet).</stage>
+<p rend="noIndent">Spille og synge, naar gutten ligger for d&#x00F8;den! Det gaar slet ikke an, det ved jeg bestemt.</p>
+</sp>
+<sp>
+<speaker><pb n="3"/>Phoebe</speaker>
+<stage>(ironisk).</stage>
+<p rend="noIndent">De ved vist meget! Men gaa De nu alligevel ind og fort&#x00E6;l ham, at Phoebe Careni venter paa ham herinde, og De skal se, han blir snart vaagen!</p>
+</sp>
+<sp>
+<speaker>Ragna</speaker>
+<stage>(staar maall&#x00F8;s og ser paa hende).</stage>
+</sp>
+<sp>
+<speaker>Phoebe.</speaker>
+<p rend="noIndent">Naa, adlyd ordre! Straks! Det er jeg vant til.</p>
+<stage>(Ragna gaar frygtsomt ud. Phoebe gaar over til flygelet, tr&#x00E6;kker handskerne af, s&#x00E6;tter sig og begynder at spille og synge en variet&#x00E9;sang.)</stage>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="0_2">
+<head type="sub">Anden scene.</head>
+<stage>Phoebe. Talma.</stage>
+<sp>
+<speaker>Talma</speaker>
+<stage>(kommer hurtig ind fra venstre, if&#x00F8;rt en tarvelig morgenkjole; hun ser &#x00E6;ngstelig og forvaaget ud).</stage>
+<p rend="noIndent">Gode Gud! Hvem synger slig her i <pb n="4"/>huset? <stage>(Ser Phoebe)</stage> Madame! Jeg ber Dem holde op. Min gut ligger for d&#x00F8;den!</p>
+</sp>
+<sp>
+<speaker>Phoebe</speaker>
+<stage>(ser paa hende gjennem lorgnetten).</stage>
+<p rend="noIndent">Ah! en net person! De er formodentlig husholdersken. <stage>(Let.)</stage> Ja saa! Deres gut &#x2013; saa, De har en gut? &#x2013; Frygtelig ubeleiligt for Dem og mig netop nu i &#x00F8;ieblikket, &#x2013; for De har formodentlig ingen mand. <stage>(Talma udst&#x00F8;der et skrig.)</stage> Nu ja, tag det ikke saa n&#x00F8;ie! Det h&#x00E6;nder ofte. Men jeg foretr&#x00E6;kker nu at ha&#x0027; flere m&#x00E6;nd og ingen b&#x00F8;rn. M&#x00E6;ndene kan man skifte, saa ofte man vil; men b&#x00F8;rn h&#x00E6;nger altid saa pokkers fast! &#x2013; <stage>(Ler.)</stage></p>
+</sp>
+<sp>
+<speaker>Talma</speaker>
+<stage>(med undertrykt harme).</stage>
+<p rend="noIndent">Hvem er De, som t&#x00F8;r vove at f&#x00F8;re et sligt sprog?</p>
+</sp>
+<sp>
+<speaker>Phoebe</speaker>
+<stage>(ler overgivent og kaster sig i en stol).</stage>
+<p rend="noIndent">Hvem jeg er? &#x2013; Ja, det skal jeg gjerne fort&#x00E6;lle Dem. Har De ikke h&#x00F8;rt tale om <pb n="5"/>Phoebe? <stage>(Talma skjuler hovedet i h&#x00E6;nderne.)</stage> Jeg antar, De har! &#x2013; Ja, hvem kjender ikke det navn? &#x2013; Den smukke, geniale, bedaarende Phoebe, der kan synge som en nattergal og sparke h&#x00F8;iere end nogen anden! <stage>(Sparker op med benet.)</stage> Min begavelse er ensidig, det tilstaar jeg; men jeg glimrer, virker berusende paa m&#x00E6;nd, for jeg skal betro Dem, at de fleste af dem er ogsaa ensidige, og derfor f&#x00F8;lger de mig! Hele denne arm&#x00E9; af n&#x00E6;rsynte idioter lar jeg passere revue for mig; enkelte tar jeg til naade; de fleste <stage>(gj&#x00F8;r en bev&#x00E6;geise)</stage> &#x2013; sparker jeg til! <stage>(Talma stirrer forferdet paa hende.)</stage> Aa, se ikke saa glubende paa mig! &#x2013; Ha, ha, ha! De tror, jeg er fuld, ikke sandt? Det blir man saa let! Og jeg tilstaar: kunstneren her, han beruser mig! Ham elsker jeg for &#x00F8;ieblikket, ingen anden. Jeg synger, han maler &#x2013; superb tilv&#x00E6;relse! &#x2013; Leve og dr&#x00F8;mme, og saa igjen leve dr&#x00F8;mmenes berusende &#x00F8;ieblikke, gl&#x00F8;dende af begeistring for hinanden, glemmende alt i nuet, i sine tankers stemningsfulde verden, og realisere sine id&#x00E9;er i det skj&#x00F8;nneste af alt &#x2013; i kj&#x00E6;rlighed! <stage>(Reiser sig.)</stage></p>
+</sp>
+<sp>
+<speaker><pb n="6"/>Talma</speaker>
+<stage>(udst&#x00F8;der et skrig).</stage>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="0_3">
+<head type="sub">Tredje scene.</head>
+<stage>De forrige. Arvid.</stage>
+<sp>
+<speaker>Arvid</speaker>
+<stage>(fra den anden d&#x00F8;r til venstre, &#x00E6;rgerlig).</stage>
+<p rend="noIndent">Aldrig er her ro; enten barneskrig eller hysteriske scener. Hvad pokker er der nu i veien? <stage>(Ser phoebe.)</stage> Phoebe! &#x2013; Du her?</p>
+</sp>
+<sp>
+<speaker>Phoebe</speaker>
+<stage>(ler overgivent).</stage>
+<p rend="noIndent">Ja, som du ser! &#x2013; Hvor det igrunden kl&#x00E6;r dig at v&#x00E6;re sint! Men det er mig, som har givet tonen an denne gang, og ikke den lille nipsgjenstand der. <stage>(Peger paa Talma.)</stage> For slige typer som mig er tjenestefolk n&#x00E6;sten altid bange. Ha, ha, ha!</p>
+</sp>
+<sp>
+<speaker>Arvid</speaker>
+<stage>(fortumlet, pr&#x00E6;senterer).</stage>
+<p rend="noIndent">Det &#x2013; er &#x2013; min hustru. <stage>(Til Talma.)</stage> Sangerinden Phoebe Careni.</p>
+</sp>
+<sp>
+<speaker><pb n="7"/>Talma</speaker>
+<stage>(foragtelig, med sterk stemme).</stage>
+<p rend="noIndent">Deres navn er mig ubekjendt. Derfor kan jeg heller ikke paaskj&#x00F8;nne Deres visit.</p>
+<stage>(Gaar hurtig ud).</stage>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="0_4">
+<head type="sub">Fjerde scene.</head>
+<stage>Phoebe. Arvid.</stage>
+<sp>
+<speaker>Phoebe</speaker>
+<stage>(ser nysgjerrig efter hende, dreier sig rundt og kommer til at velte en vase, tager stykkerne op og ser paa dem.)</stage>
+<p rend="noIndent">Det var trist, den gik i stykker. Den var antik, ser jeg. <stage>(Let.)</stage> Men da du har flere antike sager paa lager, vil denne maaske ikke savnes. <stage>(Sl&#x00E6;nger stykkerne haardt henad gulvet; spotsk.)</stage> Saa, du er altsaa gift! Hvem anede sligt? &#x2013;Og her skjuler du din mage for alle graadige blikke. Denne lille dukke i lange kl&#x00E6;der, hun er din kone! <stage>(Ler ustanselig).</stage></p>
+</sp>
+<sp>
+<speaker>Arvid</speaker>
+<stage>(gaar op og ned ad gulvet; stanser pludselig, stampende med foden foran hende).</stage>
+<p rend="noIndent">Aa, hold op at le slig! Du erter mig. <pb n="8"/>Jeg bad dig jo slet ikke komme op her; det var mig, som skulde komme ned i koncerthallen til dig.</p>
+</sp>
+<sp>
+<speaker>Phoebe</speaker>
+<stage>(slaar op en h&#x00F8;i latter).</stage>
+<p rend="noIndent">Nei, nu er du virkelig forn&#x00F8;ielig! Du bad mig ikke, siger du. Forstaar du da ikke, at det er, fordi du aldrig har bedt mig, at jeg kom? Naturer som min f&#x00F8;ler netop det pikante i modstanden; jeg er saa vant til at blive bedt; men da gaar jeg ikke, skj&#x00F8;nner du. <stage>(Ler igjen.)</stage></p>
+</sp>
+<sp>
+<speaker>Arvid</speaker>
+<stage>(ironisk).</stage>
+<p rend="noIndent">Du gik da til den russiske gesandt.</p>
+</sp>
+<sp>
+<speaker>Phoebe</speaker>
+<stage>(ler som f&#x00F8;r).</stage>
+<p rend="noIndent">Jaloux? hvad? &#x2013; Nei, saa du er jaloux? <stage>(Tar ham under hagen.)</stage> Gesandter, min ven, vokser ikke op som andre paddehatte; de er sjeldne at faa fat i.</p>
+</sp>
+<sp>
+<speaker><pb n="9"/>Arvid</speaker>
+<stage>(ser sig &#x00E6;ngstelig om).</stage>
+<p rend="noIndent">Hys! hys! Er du gal?</p>
+</sp>
+<sp>
+<speaker>Phoebe.</speaker>
+<p rend="noIndent">Gal? Nei, slet ikke! Det er snarere<note type="footnote">snarere] <hi rend="italic">rettet fra:</hi> snaerre <hi rend="italic">(trykkfeil)</hi></note> du, synes jeg, slig som du hysser. Det er l&#x00E6;nge, siden jeg gik paa t&#x00E6;rne af hensyn. Nei du! jeg er vokset op i en slegt, som var st&#x00F8;iende baade udvendig og indvendig, der sprudlede af livslyst, og hvor sinnet fik lov til at lege blindebuk med samvittigheden, og hvor viljen sad til rors og styrede pokker i vold. Det ligger i blodet, du; &#x2013; Nemesis, min engel! Nemesis!</p>
+</sp>
+<sp>
+<speaker>Arvid</speaker>
+<stage>(&#x00E6;ngstelig)</stage>
+<p rend="noIndent">Phoebe, jeg ber dig, her i mit hus, om at beherske dig.</p>
+</sp>
+<sp>
+<speaker>Phoebe</speaker>
+<stage>(spotsk).</stage>
+<p rend="noIndent">I dit hus, &#x2013; der traf du ordet! Der er du bange, ikke sandt? Ha ha ha! Stakkars dig! Men ude paa kaf&#x00E9;erne og <pb n="10"/>andre steder, der er du den modigste, den mest uforf&#x00E6;rdede af dem alle, der kaster du l&#x00E6;nken og er dig selv. Der sprudler dit kunstnergeni, der f&#x00F8;des dine bedste id&#x00E9;er til det arbeide, du har viet dit liv. Her lever du i l&#x00F8;gn og spiller komedie hver dag! &#x2013; Humbug!</p>
+<stage>(Ler overgivent.)</stage>
+</sp>
+<stage>(Arvid staar med undertrykt harme. Hun gaar indsmigrende hen til ham og l&#x00E6;gger armene om hans hals).</stage>
+<sp>
+<speaker>Phoebe.</speaker>
+<p rend="noIndent">Naa, min egen ven, bliv nu ikke sint! Det var vel snarere mig, som havde grund dertil. Men du ser, jeg er slet ikke jaloux paa &#x2013; hende derinde <stage>(peger mod d&#x00F8;ren).</stage></p>
+</sp>
+<sp>
+<speaker>Arvid</speaker>
+<stage>(utaalmodig).</stage>
+<p rend="noIndent">Aa, du ved godt, jeg l&#x00E6;nges efter dig, og at jeg elsker kunstnernes boh&#x00E8;meliv ligesaa meget, som jeg hader dette trivielle familieliv.</p>
+</sp>
+<sp>
+<speaker>Phoebe.</speaker>
+<p rend="noIndent">Nu begynder du at blive fornuftig, h&#x00F8;rer jeg. Men hvorfor i al verden gik du hen og giftede dig?</p>
+<stage>(Arvid tr&#x00E6;kker undvigende paa skuldrene).</stage>
+</sp>
+<sp>
+<speaker><pb n="11"/>Phoebe.</speaker>
+<p rend="noIndent">Aa, jeg forstaar &#x2013; n&#x00F8;dvendigheden! Men offeret? Det lider skade, fordi du selv skal v&#x00E6;re en mand af ord. <stage>(Alvorlig.)</stage> Stakkars hende! <stage>(Sukker, peger ind).</stage></p>
+</sp>
+<sp>
+<speaker>Arvid</speaker>
+<stage>(ironisk)</stage>
+<p rend="noIndent">F&#x00F8;ler du medlidenhed?</p>
+</sp>
+<sp>
+<speaker>Phoebe.</speaker>
+<p rend="noIndent">Ja! &#x2013; med hende. Ikke med dig.</p>
+</sp>
+<sp>
+<speaker>Arvid</speaker>
+<stage>(bukker).</stage>
+<p rend="noIndent">Tak! Det er ellers i et nyt lys, jeg ser dig nu.</p>
+</sp>
+<sp>
+<speaker>Phoebe</speaker>
+<stage>(alvorlig).</stage>
+<p rend="noIndent">Du mener maaske, at kvinder som jeg ikke kan have f&#x00F8;lelse? &#x2013; Jo, du, naar vi bare fik lov til at pleie den! <stage>(Let.)</stage> Naa ja, jeg skal ikke genere dig. <stage>(Tr&#x00E6;kker handskerne paa.)</stage> Jeg kom ganske vist meget ubeleilig, det tilstaar jeg; <stage>(b&#x00F8;ier sig indsmigrende mod ham)</stage> men da kj&#x00E6;rligheden <pb n="12"/>altid er overb&#x00E6;rende, saa ved jeg bestemt, du tilgir mig. <stage>(Han vil gribe hende; men hun l&#x00F8;ber raskt hen til d&#x00F8;ren, kysser paa fingeren og siger koket:)</stage> Paa gjensyn! &#x2013; Adi&#x00F8;! <stage>(L&#x00F8;ber ud).</stage></p>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="0_5">
+<head type="sub">Femte scene.</head>
+<stage>Arvid (alene).</stage>
+<sp>
+<speaker>Arvid</speaker>
+<stage>(ser efter hende i tanker; siger derpaa, medens han hurtig gaar op og ned ad gulvet).</stage>
+<p rend="noIndent">Nei, det er for galt at rode sig ind i slige bagvendte forhold. Jeg vil reise derind straks! &#x2013; Men saa Talma og gutten? <stage>(Stamper.)</stage> Aa, jeg holder det ikke ud &#x2013; kan ikke &#x2013; <stage>(Han gaar hen og tr&#x00E6;kker gardinet tilside fra det tild&#x00E6;kkede maleri, som viser et d&#x00F8;ende barn.)</stage> Der er du, der jager mig som en gal! Der er min fremtid, &#x2013; og endda kan jeg ikke faa dette eneste penselstr&#x00F8;g, der kunde skabe min lykke. <stage>(Han kaster sig i en stol foran billedet, lukker &#x00F8;inene.)</stage> Aa, at maatte sidde slig med id&#x00E9;er, med tanken paa det, som skulde v&#x00E6;re &#x2013; og ikke magte at male det udtryk, som jeg maa, maa ha&#x0027;! <stage>(Reiser sig, gaar frem og tilbage.)</stage> <pb n="13"/>Om jeg var fri! <stage>(D&#x00E6;mpet.)</stage> Aa, denne evindelige stimulation, man tr&#x00E6;nger for at blive til noget! Denne vekslen af scener og oplevelser, man maa ha&#x0027;, denne jagen efter nye indtryk, lystige &#x00F8;ieblik, hvor sj&#x00E6;len jubler ud og holder ferie, for atter at tage kraftig fat! Alt dette forstaar hun ikke, hun derinde <stage>(peger ind)</stage>, vil og kan ikke forstaa det. <stage>(Lytter.)</stage> Hys! jeg synes, Talma graater. Eivind skulde vel ikke v&#x00E6;re bleven v&#x00E6;rre? <stage>(Stumt spil; han vil gaa ind, men stanser foran staffeliet.)</stage> Jeg skal fors&#x00F8;ge at male! <stage>(S&#x00E6;tter sig.)</stage> Maaske vil det lykkes mig nu, jeg f&#x00F8;ler slig rasende lyst. <stage>(Ordner farverne og begynder at male; derpaa febrilsk:)</stage> Dette eneste penselstr&#x00F8;g! &#x2013; Naar &#x2013;? <stage>(Afbrydes, idet han ser Talma komme hurtig ind.)</stage></p>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="0_6">
+<head type="sub">Sjette scene.</head>
+<stage>Arvid. Talma.</stage>
+<sp>
+<speaker>Talma</speaker>
+<stage>(b&#x00F8;nfaldende).</stage>
+<p rend="noIndent">Arvid, skynd dig! Kom! &#x2013; Eivind d&#x00F8;r!</p>
+</sp>
+<sp>
+<speaker><pb n="14"/>Arvid</speaker>
+<stage>(maler rolig videre).</stage>
+<p rend="noIndent">Du gj&#x00F8;r dig nu altid un&#x00F8;dig bekymring. Da jeg var derinde f&#x00F8;r, sov han.</p>
+</sp>
+<sp>
+<speaker>Talma</speaker>
+<stage>(i angst).</stage>
+<p rend="noIndent">Nei, nei! han sover ikke, han d&#x00F8;r! Udtrykket i hans &#x00F8;ine er d&#x00F8;ende.</p>
+</sp>
+<sp>
+<speaker>Arvid</speaker>
+<stage>(gaar hurtig over imod hende, tager hende haardt om haandleddet og ser hende hvast ind i ansigtet).</stage>
+<p rend="noIndent">Udtrykket! <stage>(H&#x00E6;st.)</stage> Udtrykket er d&#x00F8;ende, siger du?</p>
+</sp>
+<sp>
+<speaker>Talma</speaker>
+<stage>(som f&#x00F8;r).</stage>
+<p rend="noIndent">Ja, Arvid, d&#x00F8;ende! &#x2013; Aa Gud!</p>
+</sp>
+<sp>
+<speaker>Arvid</speaker>
+<stage>(som f&#x00F8;r).</stage>
+<p rend="noIndent">Hvorledes er &#x2013; udtrykket? <stage>(Hurtig.)</stage> Udtrykket!</p>
+</sp>
+<sp>
+<speaker><pb n="15"/>Talma</speaker>
+<stage>(seende hen for sig ligesom ubevidst).</stage>
+<p rend="noIndent">Stirrende – glansl&#x00F8;st. <stage>(Skjuler ansigtet i h&#x00E6;nderne.)</stage></p>
+</sp>
+<sp>
+<speaker>Arvid</speaker>
+<stage>(slynger hende fra sig og kaster sig i stolen foran maleriet.)</stage>
+</sp>
+<sp>
+<speaker>Talma</speaker>
+<stage>(ser op og gaar over mod ham).</stage>
+<p rend="noIndent">For Eivinds skyld er alt glemt og tilgivet. Kom, h&#x00F8;rer du! Kom!</p>
+</sp>
+<sp>
+<speaker>Arvid</speaker>
+<stage>(skyver hende haardt fra sig og siger som i dr&#x00F8;mme for sig selv).</stage>
+<p rend="noIndent">Der staar du &#x2013; fosteret uden f&#x00F8;dsel! <stage>(H&#x00F8;iere.)</stage> Et eneste penselstr&#x00F8;g, og maalet var naaet! <stage>(Reiser sig; til Talma, der forf&#x00E6;rdet forstaar hans mening:)</stage> Talma! Bring Eivind ind her, foran dette billede! H&#x00F8;rer du? Skynd dig! Det d&#x00F8;ende udtryk mangler jeg her <stage>(peger paa maleriet.)</stage></p>
+</sp>
+<stage>(Stumt spil, idet Talma ligesom kj&#x00E6;mper med sig selv).</stage>
+<sp>
+<speaker>Talma.</speaker>
+<p rend="noIndent">Arvid, sig &#x2013; at jeg tar feil!</p>
+</sp>
+<sp>
+<speaker><pb n="16"/>Arvid</speaker>
+<stage>(som f&#x00F8;r).</stage>
+<p rend="noIndent">Udtrykket &#x2013; de d&#x00F8;ende &#x00F8;ine! &#x2013;Bring ham ind!</p>
+</sp>
+<sp>
+<speaker>Talma</speaker>
+<stage>(raaber h&#x00F8;it).</stage>
+<p rend="noIndent">Aldrig! &#x2013; <stage>(Mere roiig.)</stage> Talentet, som Vorherre har givet dig, maa ikke modnes gjennem synd. Alt har jeg ofret dig, alt har jeg tilgivet dig, – men dette gj&#x00F8;r jeg ikke. <stage>(Hun l&#x00F8;ber hen mod d&#x00F8;ren.)</stage></p>
+</sp>
+<sp>
+<speaker>Arvid</speaker>
+<stage>(l&#x00F8;ber efter hende, slaar hende haardt paa skulderen).</stage>
+<p rend="noIndent">Gaa v&#x00E6;k, siger jeg! &#x2013; Gaa!</p>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="0_7">
+<head type="sub">Syvende scene.</head>
+<stage>De forrige. Ragna.</stage>
+<sp>
+<speaker>Ragna</speaker>
+<stage>(kommer hurtig ind, ser forbauset paa dem begge).</stage>
+</sp>
+<sp>
+<speaker><pb n="17"/>Arvid</speaker>
+<stage>(til Ragna).</stage>
+<p rend="noIndent">Skynd dig! &#x2013; Bring Eivind ind her!</p>
+</sp>
+<sp>
+<speaker>Ragna</speaker>
+<stage>(forferdet).</stage>
+<p rend="noIndent">Ind her? – Gode Gud! &#x2013;</p>
+</sp>
+<sp>
+<speaker>Arvid</speaker>
+<stage>(som f&#x00F8;r).</stage>
+<p rend="noIndent">Bring ham ind, siger jeg! &#x2013; Hurtig! <stage>(Ragna skynder sig ud til venstre.)</stage></p>
+</sp>
+<sp>
+<speaker>Talma</speaker>
+<stage>(som fra sig selv).</stage>
+<p rend="noIndent">Du slog mig, du! &#x2013; slog mig! <stage>(Med eftertryk.)</stage> Saa forbander jeg ogsaa dit talent, som bragte dig til det! &#x2013; Det skal kue dit mod og din fremtid.</p>
+<stage>(Ragna kommer ind, b&#x00E6;rende barnet, og l&#x00E6;gger det forsigtig paa sofaen. Arvid begynder at male. Stumt spil. Talma kaster sig paa Kn&#x00E6; foran barnet.)</stage>
+<stage><p rend="center">Teppet falder.</p></stage>
+</sp>
+</div>
+</div>
+<div type="chapter" subtype="act" n="1">
+<head type="main"><ref type="contents" target="contents_2" xml:id="chapter_2">F&#x00D8;RSTE AKT</ref></head>
+<stage><pb n="21"/>Fem aar senere. Juleaften hos doktor Vilhelm Skjoldberg. En hyggelig m&#x00F8;bleret gammeldags stue. I baggrunden d&#x00F8;r ud til entreen, hvor man ser en trappe op til 2den etage; ved siden af d&#x00F8;ren stort buevindu. Det sner udenfor. En stor gammeldags ovn, som det br&#x00E6;nder i, og et pyntet juletr&#x00E6; til h&#x00F8;ire. Idet teppet gaar op, er scenen tom; man h&#x00F8;rer larm og sm&#x00E6;kken med d&#x00F8;re, piskesm&#x00E6;ld og dombjelder.</stage>
+<div type="uchapter" subtype="scene" n="1_1">
+<head type="sub">F&#x00F8;rste scene.</head>
+<stage>Jakob J&#x00E6;ger; Vilhelm Skjoldberg; (senere) Fanny.</stage>
+<sp>
+<speaker>En stemme</speaker>
+<stage>(i entreen).</stage>
+<p rend="noIndent">Jomfru Gr&#x00F8;n! &#x2013; Jomfru Gr&#x00F8;n! &#x2013; Aa, tag denne vads&#x00E6;kken fra studenten da! &#x2013; Ja vist er det juleveir, du, rigtig deiligt sl&#x00E6;def&#x00F8;re! &#x2013; H&#x00E6;ng nu frakken din op og kom ind!</p>
+<stage>(Jakob J&#x00E6;ger og Vilhelm Skjoldberg kommer ind.)</stage>
+</sp>
+<sp>
+<speaker><pb n="22"/>Jakob J&#x00E6;ger</speaker>
+<stage>(ser sig om, gnider h&#x00E6;nderne).</stage>
+<p rend="noIndent">Nei, hvor her er hyggeligt!</p>
+</sp>
+<sp>
+<speaker>Vilhelm.</speaker>
+<p rend="noIndent">Ja, ikke sandt, du!</p>
+</sp>
+<sp>
+<speaker>Jakob.</speaker>
+<p rend="noIndent">Tak for indbydelsen! Jeg skal hilse hjemmefra. Far har v&#x00E6;ret lidt skral i det sidste. Han taler saa ofte om eder; men mor vil ikke lade ham reise, saal&#x00E6;nge han ikke er bedre end nu. <stage>(Langsomt)</stage>. De syntes nok ikke rigtig om, at jeg reiste fra dem, men &#x2013;</p>
+</sp>
+<sp>
+<speaker>Vilhelm</speaker>
+<stage>(afbryder).</stage>
+<p rend="noIndent">Men &#x2013;? <stage>(Ler.)</stage> Du kunde ikke andet, mener du?</p>
+</sp>
+<sp>
+<speaker>Jakob</speaker>
+<stage>(forlegen).</stage>
+<p rend="noIndent">Nei! &#x2013; Jeg t&#x00E6;nkte &#x2013; <stage>(raskt)</stage> jeg t&#x00E6;nkte, det vilde gl&#x00E6;de eder, jeg kom.</p>
+</sp>
+<sp>
+<speaker><pb n="23"/>Vilhelm</speaker>
+<stage>(slaar ham paa skulderen).</stage>
+<p rend="noIndent">Ja vist! Ja vist, min kj&#x00E6;re gut, gl&#x00E6;der det os. Ungt selskab giver ungt blod. Desuden er Fanny ogsaa hjemme, &#x2013; saa her skal vel rigtig tures, t&#x00E6;nker jeg.</p>
+<stage>(Fanny kommer hurtig l&#x00F8;bende ned ad trappen og stanser aandel&#x00F8;s midt paa scenen; ser ikke Jakob J&#x00E6;ger.)</stage>
+</sp>
+<sp>
+<speaker>Fanny.</speaker>
+<p rend="noIndent">Onkel Vilhelm! var det Jakob, som kom, du?</p>
+<stage>(Vilhelm peger paa Jakob. Fanny staar undselig og ser ned. En stemme kalder ovenfra: «Vilhelm!»)</stage>
+</sp>
+<sp>
+<speaker>Vilhelm</speaker>
+<p rend="noIndent">Mor kalder paa mig. <stage>(Opover.)</stage> Ja, nu kommer jeg, Mor. <stage>(Gaar op.)</stage></p>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="1_2">
+<head type="sub">Anden scene.</head>
+<stage>Jakob; Fanny.</stage>
+<sp>
+<speaker>Jakob</speaker>
+<stage>(lystig).</stage>
+<p rend="noIndent">Ja, Fanny, det var mig, som kom. Det <pb n="24"/>var virkelig mig. Ventede du kanske nogen anden?</p>
+</sp>
+<sp>
+<speaker>Fanny.</speaker>
+<p rend="noIndent">Fy dig! At erte mig saadan! Du er vist bleven rigtig vigtig, siden du blev student, lader det til; og jeg &#x2013; jeg holdes ikke for andet end en skolepige. <stage>(Vender sig forn&#x00E6;rmet om.)</stage></p>
+</sp>
+<sp>
+<speaker>Jakob</speaker>
+<stage>(h&#x00F8;itidelig).</stage>
+<p rend="noIndent">Fanny! <stage>(Pause.)</stage> Fanny!</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<stage>(vender sig halvt om).</stage>
+<p rend="noIndent">Naa, hvad er det?</p>
+</sp>
+<sp>
+<speaker>Jakob</speaker>
+<stage>(som f&#x00F8;r).</stage>
+<p rend="noIndent">Skal vi love ikke at v&#x00E6;re forn&#x00E6;rmet paa hinanden mere?</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<stage>(furten).</stage>
+<p rend="noIndent">Det kan vi gjerne.</p>
+</sp>
+<sp>
+<speaker><pb n="25"/>Jakob</speaker>
+<stage>(fortrolig).</stage>
+<p rend="noIndent">Du Fanny, vil du se i vads&#x00E6;kken min alle presenterne?</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<stage>(glemmende sig).</stage>
+<p rend="noIndent">Om jeg vil! Ja, slig moro det skulde bli!</p>
+</sp>
+<sp>
+<speaker>Jakob.</speaker>
+<p rend="noIndent">Ja, men saa vil jeg have et velkomstkys!</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<stage>(overgivent, kysser ham).</stage>
+<p rend="noIndent">Gjerne to, du! Men det andet faar du ikke f&#x00F8;r efterpaa, for nu skal du v&#x00E6;re med ud paa gaardspladsen, saa jeg faar givet dig en ordentlig sneball!</p>
+<stage>(Hun l&#x00F8;ber ud, Jakob efter. De l&#x00F8;ber lige mod jomfru Gr&#x00F8;n, som kommer aldeles bel&#x00E6;sset med pakker; disse flyver til alle sider. Fanny og Jakob samler dem op i armen paa hende igjen og render ud.)</stage>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="1_3">
+<head type="sub"><pb n="26"/>Tredje scene.</head>
+<stage>Jomfru Gr&#x00F8;n (alene).</stage>
+<sp>
+<speaker>Jomfru Gr&#x00F8;n</speaker>
+<stage>(staar midt paa scenen og ser efter dem; man h&#x00F8;rer entr&#x00E9;d&#x00F8;ren aabnes og sm&#x00E6;ldes igjen, dern&#x00E6;st en hvinen, idet Fanny kaster sneballen).</stage>
+<p rend="noIndent">Har nogen set slig jente? Hvad er der i veien med dig? Er du splitter gal? Aa Gud bevare mig for slig ungdom! Jeg tror, de kunde sidde paa en vaad sky og synge halleluja bare for at faa et mandfolk til at h&#x00E6;nge paa. &#x2013; Ja, er det noget forunderligt, at mandfolk blir opstanasige og kry, naar kvindfolkene blir ellevilde, bare de ser en fyr? Men det kommer af al denne l&#x00E6;sningen, ja vist saa, i alle disse nye b&#x00F8;ger med de forgyldte permer og svingninger og gesveisninger paa forsiden. Nei, der skulde ikke findes andre b&#x00F8;ger end bibelen og kogebogen, saa blev der skik paa alt sammen. Ja, sligt leven, som her er blevet, siden denne jentungen er kommen hjem igjen! Der blir vel ikke en krog, som Bolette Gr&#x00F8;n kan spytte i engang. <stage>(Spytter.)</stage> Tvi for en styggedom og <pb n="27"/>ulykke for kristendommen! <stage>(Steller med pakkerne.)</stage> Lad mig nu se; det er seksten aar idag, siden Fanny blev f&#x00F8;dt. Ak, der er rendt meget vand i stranden siden den dag! Fruen liker ikke, jeg snakker om det; men jeg har nu faaet snakket&#x00F8;iet af Vorherre, forat jeg skal bruge det <stage>(med eftertryk)</stage> og jeg vil bruge det. Det var nu godt, moren d&#x00F8;de, da jentungen kom til verden; for han reiste jo sin vej, saa fruen maatte beholde hende. Ja, hun paastaar nu, at jentungen er til velsignelse; men jeg siger nu, at b&#x00F8;rn er en himmelens gave, men en fandens plage <stage>(sl&#x00E6;nger en pakke henad gulvet)</stage>; nu bandte Bolette Gr&#x00F8;n.</p>
+</sp>
+<sp>
+<speaker>En stemme.</speaker>
+<p rend="noIndent">Jomfru Gr&#x00F8;n! &#x2013; Jomfru Gr&#x00F8;n!</p>
+</sp>
+<sp>
+<speaker>Jomfru Gr&#x00F8;n</speaker>
+<stage>(utaalmodig).</stage>
+<p rend="noIndent">Ja, ja! &#x2013; Nu kommer jeg. <stage>(Gaar ud.)</stage></p>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="1_4">
+<head type="sub"><pb n="28"/>Fjerde scene.</head>
+<stage>Vilhelm; (senere) Betzy Skram.</stage>
+<sp>
+<speaker>Vilhelm</speaker>
+<stage>(kommer ind med et brev i haanden, ser opr&#x00F8;rt og forstemt ud).</stage>
+<p rend="noIndent">Han skriver, at han vil gl&#x00E6;de os ved at komme hjem i julen. Gl&#x00E6;de os? <stage>(Bittert.)</stage> Det vilde ialfald v&#x00E6;re f&#x00F8;rste gang, for han har jo aldrig bragt os andet end sorg. <stage>(Synker i en stol, st&#x00F8;tter hovedet i haanden.)</stage> Og saa mor! Stakkars, stakkars mor, vil hun kunne orke at modtage ham nu?</p>
+</sp>
+<sp>
+<speaker>Betzy Skram</speaker>
+<stage>(kommer hurtig ind og gaar over mod Vilhelm).</stage>
+<p rend="noIndent">Vilhelm! Brevet er fra &#x2013;?</p>
+</sp>
+<sp>
+<speaker>Vilhelm.</speaker>
+<p rend="noIndent">Arvid! Han kommer.</p>
+</sp>
+<sp>
+<speaker>Betzy</speaker>
+<stage>(aandel&#x00F8;st).</stage>
+<p rend="noIndent">Naar?</p>
+</sp>
+<sp>
+<speaker><pb n="29"/>Vilhelm</speaker>
+<stage>(gir hende brevet).</stage>
+<p rend="noIndent">Kanske allerede iaften. L&#x00E6;s! –</p>
+</sp>
+<sp>
+<speaker>Betzy</speaker>
+<stage>(l&#x00E6;ser).</stage>
+<p rend="noIndent">Og hvad skal vi gj&#x00F8;re?</p>
+</sp>
+<sp>
+<speaker>Vilhelm.</speaker>
+<p rend="noIndent">Ja, han maa naturligvis komme; vi kan jo ikke forbyde ham det.</p>
+</sp>
+<sp>
+<speaker>Betzy.</speaker>
+<p rend="noIndent">Og tante! Skal du melde hende det?</p>
+</sp>
+<sp>
+<speaker>Vilhelm.</speaker>
+<p rend="noIndent">Nei, vi skal vente, til han er kommen. <stage>(i forandret tone.)</stage> Betzy, ved du, at Arvid Borch og Arvid Skjoldberg er &#x00E9;n og samme person?</p>
+</sp>
+<sp>
+<speaker>Betzy.</speaker>
+<p rend="noIndent">Jeg ante det. <stage>(Tankefuld.)</stage> Men en stor kunstner er gaaet tabt i ham.</p>
+</sp>
+<sp>
+<speaker>Vilhelm</speaker>
+<stage>(bittert).</stage>
+<p rend="noIndent">Kanske! Men han var for ussel som <pb n="30"/>menneske til at arbeide i sit kald. Talentet maa vokse i god jord, ellers blir det som oftest forkr&#x00F8;blet. T&#x00E6;nk dig al den sorg, han har gjort mor, al den skam og skjendsel, som har nedbrudt hendes fysiske kraft mange aar f&#x00F8;r tiden! Hun, som med al sin opofrelse og kj&#x00E6;rlighed har hjulpet ham! Men dog er han bleven v&#x00E6;rre og v&#x00E6;rre. Nu er han vist en uhelbredelig dranker, efter hvad jeg har h&#x00F8;rt.</p>
+</sp>
+<sp>
+<speaker>Betzy</speaker>
+<stage>(gyser).</stage>
+<p rend="noIndent">Aa, det f&#x00E6;le ord!</p>
+</sp>
+<sp>
+<speaker>Vilhelm.</speaker>
+<p rend="noIndent">Ja, det er frygteligt, at vi ikke formaar at hj&#x00E6;lpe ham. Og saa at komme hjem, netop i aften, som jeg t&#x00E6;nkte &#x2013; t&#x00E6;nkte paa at –. <stage>(Tager hendes haand.)</stage> Ja, Betzy! jeg vil betro dig alt. Jeg elsker Talma. <stage>(Betzy holder sig for hjertet; han ser &#x00E6;ngstelig paa hende)</stage>. Er du syg, Betzy?</p>
+</sp>
+<sp>
+<speaker>Betzy.</speaker>
+<p rend="noIndent">Nei, du! Fort&#x00E6;l! &#x2013; Det var bare et lidet stik i hjertet.</p>
+</sp>
+<sp>
+<speaker><pb n="31"/>Vilhelm</speaker>
+<stage>(deltagende).</stage>
+<p rend="noIndent">Det var slemt! &#x2013; Nu ja, iaften vil jeg bede hende blive min hustru. &#x2013; Men, Betzy, du er vist syg?</p>
+</sp>
+<sp>
+<speaker>Betzy</speaker>
+<stage>(inderlig).</stage>
+<p rend="noIndent">V&#x00E6;r ikke &#x00E6;ngstelig for mig! <stage>(Trykker hans haand.)</stage> Jeg &#x00F8;nsker dig al lykke og velsignelse.</p>
+</sp>
+<sp>
+<speaker>Vilhelm</speaker>
+<stage>(muntert).</stage>
+<p rend="noIndent">Naa ja, jeg returnerer det! Kandidaten benytter vel &#x2013;</p>
+</sp>
+<sp>
+<speaker>Betzy</speaker>
+<stage>(afbrydende).</stage>
+<p rend="noIndent">Vilhelm, ikke et ord om dette! Kvinder som jeg s&#x00E6;lger sig ikke.</p>
+</sp>
+<sp>
+<speaker>Vilhelm.</speaker>
+<p rend="noIndent">Men, Betzy, han holder vist saa meget af dig!</p>
+</sp>
+<sp>
+<speaker>Betzy.</speaker>
+<p rend="noIndent">Netop derfor! Han fortjener en hustru, <pb n="32"/>som gj&#x00F8;r det samme lige overfor ham. Uden gjensidig kj&#x00E6;rlighed er egteskabet en ulykke.</p>
+</sp>
+<sp>
+<speaker>Vilhelm.</speaker>
+<p rend="noIndent">Gid alle kvinder maatte t&#x00E6;nke slig! <stage>(Han kysser hendes haand.)</stage></p>
+</sp>
+<sp>
+<speaker>Betzy</speaker>
+<stage>(hurtig).</stage>
+<p rend="noIndent">Per maa snart v&#x00E6;re her med b&#x00F8;rnene, og bordet maa d&#x00E6;kkes.</p>
+</sp>
+<sp>
+<speaker>Vilhelm.</speaker>
+<p rend="noIndent">Det var en smuk id&#x00E9;, den at holde jul for sognets fattige b&#x00F8;rn.</p>
+</sp>
+<sp>
+<speaker>Betzy</speaker>
+<p rend="noIndent">Det var Talmas id&#x00E9; fra begyndelsen af.</p>
+</sp>
+<sp>
+<speaker>Vilhelm.</speaker>
+<p rend="noIndent">Var det Talmas id&#x00E9;? Men du hjalp hende vel?</p>
+</sp>
+<sp>
+<speaker>Betzy.</speaker>
+<p rend="noIndent">Hun maatte jo ha&#x0027; hj&#x00E6;lp, Vilhelm. <stage>(Hun gaar langsomt ud.)</stage></p>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="1_5">
+<head type="sub"><pb n="33"/>Femte scene.</head>
+<stage>Vilhelm; (senere) Talma.</stage>
+<sp>
+<speaker>Vilhelm</speaker>
+<stage>(ser efter Betzy).</stage>
+<p rend="noIndent">Slige kvinder tr&#x00E6;nger ikke diamanter for at glimre. Heller ikke Talma, denne fine, sarte kvindetype, der strandede, som hun siger, her hos os. &#x2013; Ja, hele menneskeheden er en stranding; mange gaar til bunds, og andre forts&#x00E6;tter som vrag. &#x2013; <stage>(Tankefuld.)</stage> Der er noget saa yndefuldt kvindeligt over Talma, noget saa betagende sympatisk, men som en rose i sin skj&#x00F8;nneste flor: bare se, ikke r&#x00F8;re; saa falder bladene af! Hendes &#x00F8;ine taler om skuffelse, om sorg og modgang, men dog saa f&#x00E6;ngslende, ligesom graatende bange for at h&#x00F8;re ord, der saarer, og ligesom bedende om venlighed og kj&#x00E6;rlighed.</p>
+</sp>
+<sp>
+<speaker>Talma</speaker>
+<stage>(kommer ind, s&#x00F8;gende; opdager Vilhelm).</stage>
+<p rend="noIndent">Ah! er doktoren her?</p>
+</sp>
+<sp>
+<speaker><pb n="34"/>Vilhelm.</speaker>
+<p rend="noIndent">S&#x00F8;ger De noget?</p>
+</sp>
+<sp>
+<speaker>Talma.</speaker>
+<p rend="noIndent">Ja. Jeg glemte et manuskript herinde iaftes. Har De seet det?</p>
+</sp>
+<sp>
+<speaker>Vilhelm.</speaker>
+<p rend="noIndent">Det, jeg fandt, var ikke f&#x00E6;rdigt; men jeg l&#x00E6;ste det alligevel med megen interesse. De har vel ikke noget imod det?</p>
+</sp>
+<sp>
+<speaker>Talma</speaker>
+<stage>(ser ned, stille).</stage>
+<p rend="noIndent">Nei! Men slutningskapitlet mangler.</p>
+</sp>
+<sp>
+<speaker>Vilhelm.</speaker>
+<p rend="noIndent">Naar blir det f&#x00E6;rdigt?</p>
+</sp>
+<sp>
+<speaker>Talma.</speaker>
+<p rend="noIndent">Naar &#x2013; det ved jeg ikke selv.</p>
+</sp>
+<sp>
+<speaker>Vilhelm.</speaker>
+<p rend="noIndent">Men naar De faar det skrevet, vil De saa lade mig l&#x00E6;se det?</p>
+</sp>
+<sp>
+<speaker><pb n="35"/>Talma</speaker>
+<stage>(som t&#x00E6;nkende).</stage>
+<p rend="noIndent">Ja, hvis jeg faar det skrevet &#x2013; &#x2013;</p>
+</sp>
+<sp>
+<speaker>Vilhelm.</speaker>
+<p rend="noIndent">De maa have stor livserfaring for at kunne skrive sligt.</p>
+</sp>
+<sp>
+<speaker>Talma</speaker>
+<stage>(alvorlig).</stage>
+<p rend="noIndent">Livserfaring, ja &#x2013; det har jeg!</p>
+</sp>
+<sp>
+<speaker>Vilhelm.</speaker>
+<p rend="noIndent">Men jeg forstaar ikke, at &#x2013;</p>
+</sp>
+<sp>
+<speaker>Talma</speaker>
+<stage>(afbrydende).</stage>
+<p rend="noIndent">De vil forstaa alt, hvis min bog blir f&#x00E6;rdig.</p>
+</sp>
+<sp>
+<speaker>Vilhelm</speaker>
+<stage>(tager hendes haand).</stage>
+<p rend="noIndent">Er det n&#x00F8;dvendigt at vente paa staaelse saa l&#x00E6;nge?</p>
+</sp>
+<sp>
+<speaker><pb n="36"/>Talma</speaker>
+<stage>(ser fast paa ham).</stage>
+<p rend="noIndent">Jeg tror, det blir bedst &#x2013; bedst for os begge.</p>
+</sp>
+<sp>
+<speaker>Vilhelm</speaker>
+<stage>(varmt).</stage>
+<p rend="noIndent">Nu vel! Jeg vil vente &#x2013; saa l&#x00E6;nge De vil.</p>
+</sp>
+<sp>
+<speaker>Talma.</speaker>
+<p rend="noIndent">Jeg vidste, De ikke vilde skuffe mig. Til den tid &#x2013; tak! Tak for al Deres venlighed, Deres tillid <stage>(sagtere)</stage> &#x2013; og kj&#x00E6;rlighed!</p>
+</sp>
+<sp>
+<speaker>Vilhelm</speaker>
+<stage>(griber hende i armen, raaber).</stage>
+<p rend="noIndent">Talma! Talma!</p>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="1_6">
+<head type="sub">Sjette scene.</head>
+<stage>De forrige; Kandidat Wang.</stage>
+<sp>
+<speaker>Kandidat Wang</speaker>
+<stage>(kommer og ser dem).</stage>
+<p rend="noIndent">Nei, slig en hemmelighedsfuld atmosf&#x00E6;re <pb n="37"/>der er alle steder paa en juleaften! Naa, lad mig ikke forstyrre! V&#x00E6;r saa god, forts&#x00E6;t!</p>
+</sp>
+<sp>
+<speaker>Vilhelm</speaker>
+<stage>(muntert).</stage>
+<p rend="noIndent">Nei, aldeles ikke! Jeg spurgte blot fr&#x00F8;knen om et godt raad.</p>
+</sp>
+<sp>
+<speaker>Wang</speaker>
+<stage>(t&#x00F8;rt).</stage>
+<p rend="noIndent">Et godt raad? Du fik det naturligvis?</p>
+</sp>
+<sp>
+<speaker>Talma</speaker>
+<stage>(leende).</stage>
+<p rend="noIndent">Doktoren tror ogsaa paa andres recepter og f&#x00F8;lger dem n&#x00F8;ie.</p>
+</sp>
+<sp>
+<speaker>Vilhelm.</speaker>
+<p rend="noIndent">Ja, man stoler jo mere paa andre end paa sig selv.</p>
+</sp>
+<sp>
+<speaker>Wang</speaker>
+<stage>(interesseret).</stage>
+<p rend="noIndent">Ja, det har jeg altid fundet ud! <stage>(Talma gaar langsomt ud. Wang og Vilhelm ser efter hende.)</stage></p>
+</sp>
+<sp>
+<speaker><pb n="38"/>Wang</speaker>
+<stage>(forlegen).</stage>
+<p rend="noIndent">Du Vilhelm, jeg vil ogsaa bede dig om et godt raad.</p>
+</sp>
+<sp>
+<speaker>Vilhelm.</speaker>
+<p rend="noIndent">Er det noget specielt?</p>
+</sp>
+<sp>
+<speaker>Wang.</speaker>
+<p rend="noIndent">Ja, det er det. Jeg vilde nemlig sp&#x00F8;rge dig: hvad skal jeg gi&#x0027; Betzy i juleklap?</p>
+</sp>
+<sp>
+<speaker>Vilhelm.</speaker>
+<p rend="noIndent">Jeg synes, det er temmelig sent at t&#x00E6;nke paa det nu.</p>
+</sp>
+<sp>
+<speaker>Wang</speaker>
+<stage>(ivrig).</stage>
+<p rend="noIndent">Ja, du forstaar, jeg har allerede kj&#x00F8;bt den. <stage>(Tager op en pakke.)</stage></p>
+</sp>
+<sp>
+<speaker>Vilhelm</speaker>
+<stage>(ler, idet han ser paa det).</stage>
+<p rend="noIndent">En brosche &#x2013; og en ring!</p>
+</sp>
+<sp>
+<speaker>Wang.</speaker>
+<p rend="noIndent">Ja, hvad synes du nu, jeg skal gi&#x0027; hende?</p>
+</sp>
+<sp>
+<speaker><pb n="39"/>Vilhelm.</speaker>
+<p rend="noIndent">Hvis jeg var dig, saa gav jeg hende begge dele.</p>
+</sp>
+<sp>
+<speaker>Wang</speaker>
+<stage>(eftert&#x00E6;nksomt).</stage>
+<p rend="noIndent">Siger &#x2013; du det? &#x2013; Siger du &#x2013; det?</p>
+</sp>
+<sp>
+<speaker>Vilhelm.</speaker>
+<p rend="noIndent">Fors&#x00F8;g! <stage>(Wang staar forlegen; han slaar ham paa skulderen.)</stage> Se, du gamle ven, staa ikke der og spil den uvidende! &#x2013; Naar man blir saa gammel som du, maa man holde &#x00F8;rene stive og ha&#x0027; tankerne greie og klare, ellers er spillet tabt.</p>
+</sp>
+<sp>
+<speaker>Wang.</speaker>
+<p rend="noIndent">Ja, men ser du, Betzy har aldrig saadan ligefrem vist, at hun holder af mig.</p>
+</sp>
+<sp>
+<speaker>Vilhelm</speaker>
+<stage>(peger paa panden).</stage>
+<p rend="noIndent">Wang! man siger, at forelskede mennesker aldrig er rigtig normale; &#x2013; hvor i alverden kan du v&#x00E6;re saa enfoldig at tro, at en kvinde viser det, naar hun holder af os? <pb n="40"/>Nei, min ven, de leder os fuldst&#x00E6;ndig ind i en labyrint. Den, som de holder mest af, behandler de mest ukj&#x00E6;rlig.</p>
+</sp>
+<sp>
+<speaker>Wang</speaker>
+<stage>(som f&#x00F8;r).</stage>
+<p rend="noIndent">Siger du det? &#x2013; Siger du det?</p>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="1_7">
+<head type="sub">Syvende scene.</head>
+<stage>De forrige; Betzy; (et &#x00F8;ieblik) Jomfru Gr&#x00F8;n.</stage>
+<stage>(Betzy kommer ind, med hvidt forkl&#x00E6;de, sykurv i haanden, fulgt af Jomfru Gr&#x00F8;n, med et tebret.)</stage>
+<sp>
+<speaker>Vilhelm.</speaker>
+<p rend="noIndent">Naa, der har vi jo Betzy! <stage>(Til Wang.)</stage> Fors&#x00F8;g nu! <stage>(Afsides.)</stage> Bare det maatte lykkes ham! <stage>(Til Betzy.)</stage> Aa, byd kandidaten en kop te, Betzy!</p>
+</sp>
+<sp>
+<speaker>Betzy.</speaker>
+<p rend="noIndent">Med gl&#x00E6;de! <stage>(Til jomfru Gr&#x00F8;n.)</stage> Aa, s&#x00E6;t tebrettet paa det lille bord!</p>
+<stage>(Jomfru Gr&#x00F8;n s&#x00E6;tter brettet fra sig og gaar. Betzy skj&#x00E6;nker teen.)</stage>
+</sp>
+<sp>
+<speaker><pb n="41"/>Betzy</speaker>
+<stage>(til Vilhelm).</stage>
+<p rend="noIndent">Vil du ha&#x0027; en kop?</p>
+</sp>
+<sp>
+<speaker>Vilhelm.</speaker>
+<p rend="noIndent">Ja tak! Men jeg tar den med ind paa kontoret.</p>
+</sp>
+<sp>
+<speaker>Betzy.</speaker>
+<p rend="noIndent">Som du vil. <stage>(R&#x00E6;kker ham koppen. Vilhelm gaar.)</stage></p>
+</sp>
+<sp>
+<speaker>Betzy.</speaker>
+<p rend="noIndent">Men saa s&#x00E6;t Dem dog ned, Wang!</p>
+</sp>
+<sp>
+<speaker>Wang.</speaker>
+<p rend="noIndent">Tak, tak! <stage>(S&#x00E6;tter sig.)</stage></p>
+</sp>
+<sp>
+<speaker>Betzy.</speaker>
+<p rend="noIndent">Liker ikke kandidaten te? Her er ogsaa en af jomfru Gr&#x00F8;ns vel bekjendte pigekys; dem maa De endelig smage.</p>
+</sp>
+<sp>
+<speaker>Wang.</speaker>
+<p rend="noIndent">Tak! <stage>(Tager en.)</stage> En god kop te er ikke at foragte. Min salig mor sa&#x0027; altid: «Naar en kop te ikke hj&#x00E6;lper, er det selve d&#x00F8;den» <pb n="42"/>Men far, han troede ikke paa slig medicin, uden han tog en konjak i.</p>
+</sp>
+<sp>
+<speaker>Betzy</speaker>
+<stage>(skjelmsk).</stage>
+<p rend="noIndent">Og det hjalp?</p>
+</sp>
+<sp>
+<speaker>Wang.</speaker>
+<p rend="noIndent">Ja, saavidt jeg husker, hjalp det nok, &#x2013; skj&#x00F8;nt han gjentog det ofte.</p>
+</sp>
+<sp>
+<speaker>Betzy</speaker>
+<stage>(leende).</stage>
+<p rend="noIndent">V&#x00E6;r saa god, her er fl&#x00F8;de og sukker. <stage>(Wang b&#x00E6;rer sig forlegent og keitet ad; medens han taler, kommer han sukker i fl&#x00F8;deskaalen og omvendt.)</stage></p>
+</sp>
+<sp>
+<speaker>Wang</speaker>
+<stage>(aandsfrav&#x00E6;rende).</stage>
+<p rend="noIndent">Juleaften er en deilig aften!</p>
+</sp>
+<sp>
+<speaker>Betzy.</speaker>
+<p rend="noIndent">Ja, den er saa hyggelig.</p>
+</sp>
+<sp>
+<speaker>Wang</speaker>
+<stage>(som f&#x00F8;r).</stage>
+<p rend="noIndent">Ja, &#x2013; og saa alle de presenter, man faar!</p>
+</sp>
+<sp>
+<speaker><pb n="43"/>Betzy</speaker>
+<stage>(ertende).</stage>
+<p rend="noIndent">Venter De nogen?</p>
+</sp>
+<sp>
+<speaker>Wang.</speaker>
+<p rend="noIndent">Ja &#x2013; nei! &#x2013; Men det at gi&#x0027; dem synes jeg er saa morsomt. <stage>(Tager seks stykker sukker i sin te paa &#x00E9;n gang.)</stage></p>
+</sp>
+<sp>
+<speaker>Betzy.</speaker>
+<p rend="noIndent">Synes ikke kandidaten, at den te er s&#x00F8;d nok?</p>
+</sp>
+<sp>
+<speaker>Wang</speaker>
+<stage>(helder fl&#x00F8;de i sukkerkoppen).</stage>
+<p rend="noIndent">Jo tak! <stage>(Smager.)</stage> Den er passe.</p>
+</sp>
+<sp>
+<speaker>Betzy.</speaker>
+<p rend="noIndent">Men hvordan i alverden er det, kandidaten b&#x00E6;r sig ad! De helder jo fl&#x00F8;de i sukkerkoppen.</p>
+</sp>
+<sp>
+<speaker>Wang.</speaker>
+<p rend="noIndent">Aa, jeg ber om forladelse! Jeg er sommetider saa distrait.</p>
+</sp>
+<sp>
+<speaker><pb n="44"/>Betzy</speaker>
+<stage>(leende).</stage>
+<p rend="noIndent">Ja, det beh&#x00F8;ver De ikke at fort&#x00E6;lle mig. Kan De huske, da der var brand i prestegaarden, og kandidaten skulde kaste alt gangt&#x00F8;iet ud af vinduet? hvorledes De da bar t&#x00F8;iet forsigtig ned ad trapperne og kastede prestefruens nips ud af vinduet! <stage>(Ler.)</stage> Det skal jeg aldrig glemme.</p>
+</sp>
+<sp>
+<speaker>Wang</speaker>
+<stage>(t&#x00F8;rt).</stage>
+<p rend="noIndent">Aa, fr&#x00F8;ken Betzy, De minder mig nu altid derom; men det var egentlig Deres skyld dengang &#x2013;</p>
+</sp>
+<sp>
+<speaker>Betzy</speaker>
+<stage>(forundret).</stage>
+<p rend="noIndent">Min?</p>
+</sp>
+<sp>
+<speaker>Wang.</speaker>
+<p rend="noIndent">Ja, Deres skyld; for jeg var saa bange, De skulde br&#x00E6;nde inde.</p>
+</sp>
+<sp>
+<speaker><pb n="45"/>Betzy</speaker>
+<stage>(leende).</stage>
+<p rend="noIndent">Ja saa! Men hvor kan kandidaten v&#x00E6;re saa bange for mig?</p>
+</sp>
+<sp>
+<speaker>Wang</speaker>
+<stage>(t&#x00F8;rt).</stage>
+<p rend="noIndent">Aa jo, fordi &#x2013; fordi &#x2013; <stage>(hurtig)</stage> fr&#x00F8;ken Betzy har mere v&#x00E6;rdi for mig end prestefruens nips. <stage>(Skj&#x00E6;nker en hel del fl&#x00F8;de i koppen.)</stage></p>
+</sp>
+<sp>
+<speaker>Betzy</speaker>
+<stage>(forvirret).</stage>
+<p rend="noIndent">Synes De ikke, der er fl&#x00F8;de nok i den te?</p>
+</sp>
+<sp>
+<speaker>Wang</speaker>
+<stage>(smager).</stage>
+<p rend="noIndent">Jo tak! Den er passe. <stage>(Drikker.)</stage></p>
+</sp>
+<sp>
+<speaker>Betzy.</speaker>
+<p rend="noIndent">Skal det v&#x00E6;re en kop til?</p>
+</sp>
+<sp>
+<speaker>Wang.</speaker>
+<p rend="noIndent">Jeg siger tak. <stage>(R&#x00E6;kker frem koppen. Betzy gir den tilbage til ham. Denne gang drikker han den uden fl&#x00F8;de og sukker, medens Betzy fors&#x00F8;ger at skjule latteren.)</stage> Jeg vilde saa inderlig gjerne tale med Dem alene.</p>
+</sp>
+<sp>
+<speaker><pb n="46"/>Betzy.</speaker>
+<p rend="noIndent">Alene? &#x2013; Men vi er jo alene.</p>
+</sp>
+<sp>
+<speaker>Wang.</speaker>
+<p rend="noIndent">Ja, der var noget, jeg vilde sp&#x00F8;rge Dem om. <stage>(Man h&#x00F8;rer dombjelder og st&#x00F8;i.)</stage></p>
+</sp>
+<sp>
+<speaker>Betzy</speaker>
+<stage>(lyttende.)</stage>
+<p rend="noIndent">Kandidaten maa ops&#x00E6;tte det til en anden gang, for nu kommer Per tilbage med b&#x00F8;rnene. <stage>(Ringer.)</stage></p>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="1_8">
+<head type="sub">Ottende scene.</head>
+<stage>Wang; Betzy; Fanny; Jomfru Gr&#x00F8;n.</stage>
+<stage>(Jomfru Gr&#x00F8;n kommer og tar tebrettet; samtidig Fanny, der leder rundt efter noget.)</stage>
+<sp>
+<speaker>Fanny.</speaker>
+<p rend="noIndent">Hvor skal jeg finde den huen henne? Hvor har jeg gjort af den?</p>
+</sp>
+<sp>
+<speaker>Jomfru Gr&#x00F8;n</speaker>
+<stage>(barskt).</stage>
+<p rend="noIndent">Hvilken hue?</p>
+</sp>
+<sp>
+<speaker><pb n="47"/>Fanny</speaker>
+<stage>(forn&#x00E6;rmet).</stage>
+<p rend="noIndent">Hvilken hue? Jacobs naturligvis! Vi kasted sneball ude paa gaarden, og saa erted jeg ham med at gjemme huen hans, og nu kan jeg slet ikke huske, hvor jeg har gjort af den.</p>
+<stage>(Jomfru Gr&#x00F8;n ryster paa hovedet, de andre ler.)</stage>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<stage>(pludselig).</stage>
+<p rend="noIndent">Aa, nu husker jeg, hvor jeg gjemte den. <stage>(Til jomfru Gr&#x00F8;n.)</stage> Inde paa din seng, du, under hovedpuden. <stage>(L&#x00F8;ber hurtig ud.)</stage></p>
+</sp>
+<sp>
+<speaker>Jomfru Gr&#x00F8;n</speaker>
+<stage>(ser efter hende, ryster paa hodet, arrig).</stage>
+<p rend="noIndent">Ja, du kan komme med noget mandfolkskrab paa kammerset mit, du! <stage>(Til de andre, idet hun gaar ud.)</stage> Der er liv i den t&#x00F8;sen, for mye liv; men ikke for det, jeg vil rode mig op i slig styggedom. <stage>(Gaar.)</stage></p>
+</sp>
+<sp>
+<speaker>Wang.</speaker>
+<p rend="noIndent">Mandfolk staar ikke numer en hos jomfru Gr&#x00F8;n.</p>
+</sp>
+<sp>
+<speaker><pb n="48"/>Betzy</speaker>
+<stage>(ertende).</stage>
+<p rend="noIndent">Har De fors&#x00F8;gt?</p>
+</sp>
+<sp>
+<speaker>Wang</speaker>
+<stage>(forf&#x00E6;rdet).</stage>
+<p rend="noIndent">Nei! Gud bevare mig! Nei!</p>
+<stage>(Betzy ler. Man h&#x00F8;rer larm, og entr&#x00E9;d&#x00F8;ren blir aabnet. Derpaa h&#x00F8;res)</stage>
+</sp>
+<sp>
+<speaker>Jomfru Gr&#x00F8;ns stemme.</speaker>
+<p rend="noIndent">Saa, nu rolige, troldpak! T&#x00F8;rk f&#x00F8;dderne af! Slig s&#x00F8;le I tr&#x00E6;kker med jer, unger! Man har forn&#x00F8;ielse af at gj&#x00F8;re rent her i huset.</p>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="1_9">
+<head type="sub">Niende scene.</head>
+<stage>Betzy; Wang; b&#x00F8;rnene; Talma.</stage>
+<stage>(B&#x00F8;rnene kommer ind, seks&#x2013; otte paa rad, og stiller sig op nede ved d&#x00F8;ren, tar sig om n&#x00E6;sen og bukker med et «gl&#x00E6;delig jul»; straks efter Fanny).</stage>
+<sp>
+<speaker>Betzy.</speaker>
+<p rend="noIndent">Tak, b&#x00F8;rn! Naa, hvordan staar det saa til med kl&#x00E6;derne iaften?</p>
+</sp>
+<sp>
+<speaker><pb n="49"/>Alle b&#x00F8;rnene</speaker>
+<stage>(hurtig).</stage>
+<p rend="noIndent">Der mangler ingen knapper; Berte Marie har syet dem i alle sammen.</p>
+</sp>
+<sp>
+<speaker>Betzy.</speaker>
+<p rend="noIndent">Naa, det var jo deiligt!</p>
+</sp>
+<stage>(En af gutterne staar skamfuld.)</stage>
+<sp>
+<speaker>De andre b&#x00F8;rn</speaker>
+<stage>(i kor).</stage>
+<p rend="noIndent">Det er bare Gunnar, den tosken! Han skulde vise os, f&#x00F8;r han Per kom og hented os, hvor sterk han var, og saa satte han i at d&#x00E6;nge Halvor, saa buksa hans sprak!</p>
+</sp>
+<sp>
+<speaker>Betzy.</speaker>
+<p rend="noIndent">Er det sandt, Gunnar?</p>
+</sp>
+<sp>
+<speaker>De andre.</speaker>
+<p rend="noIndent">Det er saa sandt, saa sandt!</p>
+</sp>
+<sp>
+<speaker>Betzy</speaker>
+<stage>(komisk alvorlig).</stage>
+<p rend="noIndent">Kom herhen, Gunnar! <stage>(Gunnar kommer langsomt hen til hende.)</stage> Vend dig om, saa jeg kan faa <pb n="50"/>se! <stage>(Han vender sig; et stort hul sees, hvoraf skjorten stikker ud.)</stage> Nei, slig en stor lap har jeg nok ikke!</p>
+</sp>
+<sp>
+<speaker>Wang</speaker>
+<stage>(unders&#x00F8;ger n&#x00F8;ie Gunnars bukse; derefter tar han op et storrudet, blaat og r&#x00F8;dt lommet&#x00F8;rkl&#x00E6;de; til Betzy).</stage>
+<p rend="noIndent">Kan fr&#x00F8;kenen bruge dette, staar det til tjeneste.</p>
+</sp>
+<sp>
+<speaker>Betzy</speaker>
+<p rend="noIndent">Tak! kanske det d&#x00E6;kker, til de nye kl&#x00E6;r kommer ned af juletr&#x00E6;et.</p>
+</sp>
+<sp>
+<speaker>Talma</speaker>
+<stage>(henter sykurven til Betzy, som s&#x00E6;tter sig og syr lappen paa).</stage>
+<p rend="noIndent">Skal ikke jeg gj&#x00F8;re dette?</p>
+</sp>
+<sp>
+<speaker>Betzy.</speaker>
+<p rend="noIndent">Nei tak! Men, kj&#x00E6;re Dem, tag b&#x00F8;rnene ud og s&#x00F8;rg for, de faar sin te og kage, er De snild! Han her <stage>(peger paa Gunnar)</stage> kommer straks efter.</p>
+</sp>
+<sp>
+<speaker>Talma.</speaker>
+<p rend="noIndent">Alt er f&#x00E6;rdigt. <stage>(Til b&#x00F8;rnene.)</stage> Kom nu, gutter! <stage>(De f&#x00F8;lger hende st&#x00F8;iende.)</stage></p>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="1_10">
+<head type="sub"><pb n="51"/>Tiende scene.</head>
+<stage>Betzy; Wang; (et &#x00F8;ieblik) Gunnar.</stage>
+<stage>(Wang staar forlegen og ser paa Betzy, som traakler lappen paa.)</stage>
+<sp>
+<speaker>Betzy</speaker>
+<stage>(syende).</stage>
+<p rend="noIndent">Aa, vil kandidaten t&#x00E6;nde kandelabrene, er De snild!</p>
+</sp>
+<sp>
+<speaker>Wang.</speaker>
+<p rend="noIndent">Ja, det skal jeg. <stage>(Idet han t&#x00E6;nder en lampe.)</stage> Kan jeg saa faa tale med Dem?</p>
+</sp>
+<sp>
+<speaker>Betzy</speaker>
+<stage>(ser op)</stage>
+<p rend="noIndent">Det har De jo altid anledning til.</p>
+</sp>
+<sp>
+<speaker>Wang</speaker>
+<p rend="noIndent">Jeg mener alene. Jeg vilde sp&#x00F8;rge Dem om noget.</p>
+</sp>
+<sp>
+<speaker>Betzy</speaker>
+<stage>(ser op igjen, ser, at han har t&#x00E6;ndt lampen).</stage>
+<p rend="noIndent">Men, Wang, da? nu har De t&#x00E6;ndt lampen! <pb n="52"/>Jeg sa&#x0027; kandelabrene. <stage>(Wang ser sin feiltagelse og t&#x00E6;nder dem.)</stage> Se aaa, nu sidder den! <stage>(Vender gutten rundt.)</stage> Den tar sig storartet ud. L&#x00F8;b nu ud til de andre og faa te og kage! <stage>(Gunnar springer ud med et hurra. Betzy ler og samler sysagerne sammen.)</stage></p>
+</sp>
+<sp>
+<speaker>Wang</speaker>
+<stage>(h&#x00F8;itidelig).</stage>
+<p rend="noIndent">Ved De, fr&#x00F8;ken Betzy, hvad jeg har iaften &#x2013;?</p>
+</sp>
+<sp>
+<speaker>Betzy.</speaker>
+<p rend="noIndent">Nei, det kan jeg virkelig ikke gjette.</p>
+</sp>
+<sp>
+<speaker>Wang</speaker>
+<stage>(som f&#x00F8;r).</stage>
+<p rend="noIndent">Jeg har en ring &#x2013;</p>
+</sp>
+<sp>
+<speaker>Betzy</speaker>
+<stage>(afbrydende).</stage>
+<p rend="noIndent">Nei virkelig! <stage>(Fortrolig.)</stage> Ved De, kandidat, hvor mange jeg har? &#x2013; Jeg har otte &#x2013; t&#x00E6;nk otte! &#x2013; ringe. <stage>(Hurtig.)</stage> Men nu vil jeg ikke bry mig om at ha&#x0027; flere. &#x2013; De maa undskylde mig nu, for min hj&#x00E6;lp tr&#x00E6;nges <pb n="53"/>nok deude. <stage>(Idet hun l&#x00F8;ber ud.)</stage> Aa, tag kandelabrene med Dem!</p>
+</sp>
+<sp>
+<speaker>Wang</speaker>
+<stage>(tar kandelabrene)</stage>
+<p rend="noIndent">Men fr&#x00F8;ken Betzy da! &#x2013; Naa, hun er gaat. <stage>(Eftert&#x00E6;nksomt.)</stage> Vilhelm sa&#x0027;, at naar en kvinde liker en, saa er hun mest ukj&#x00E6;rlig. <stage>(Patetisk.)</stage> Gud, hvor saa fr&#x00F8;ken Betzy maa elske mig! <stage>(Gaar langsomt ud med kandelabrene.)</stage></p>
+</sp>
+<stage>(Scenen staar tom et &#x00F8;ieblik. Der h&#x00F8;res sl&#x00E6;debjelder; d&#x00F8;re gaar op og i; stemmer om hinanden; scenen er lidt m&#x00F8;rk.)</stage>
+</div>
+<div type="uchapter" subtype="scene" n="1_11">
+<head type="sub">Ellevte scene.</head>
+<stage>Fanny; Vilhelm; (senere) Arvid.</stage>
+<sp>
+<speaker>Fanny</speaker>
+<stage>(titter ind og raaber opr&#x00F8;mt).</stage>
+<p rend="noIndent">Onkel! Onkel Vilhelm! &#x2013; <stage>(Kommer helt ind.)</stage> Er du her? <stage>(Hun l&#x00F8;ber over og banker paa hans d&#x00F8;r.)</stage></p>
+</sp>
+<sp>
+<speaker>Vilhelm</speaker>
+<stage>(aabner d&#x00F8;ren, har en t&#x00E6;ndt lampe i haanden; forundret).</stage>
+<p rend="noIndent">Er det dig, Fanny?</p>
+</sp>
+<sp>
+<speaker><pb n="54"/>Fanny</speaker>
+<stage>(som f&#x00F8;r).</stage>
+<p rend="noIndent">Ja vist, onkel! Der er kommen en fremmed herre, som sp&#x00F8;r efter mor.</p>
+</sp>
+<sp>
+<speaker>Vilhelm</speaker>
+<stage>(tar sig for panden).</stage>
+<p rend="noIndent">Som sp&#x00F8;r efter mor? Ja saa, du! &#x2013; Hvor &#x2013; er han?</p>
+</sp>
+<sp>
+<speaker>Fanny.</speaker>
+<p rend="noIndent">Lige her ude paa gaarden. Per har taget hans hest. <stage>(Det ringer.)</stage> Der er han! <stage>(L&#x00F8;ber hen og lukker op).</stage></p>
+</sp>
+<stage>(Arvid kommer ind i reisetullup og store st&#x00F8;vler. Vilhelm s&#x00E6;tter lampen fra sig og staar nerv&#x00F8;st ventende ham. Fanny ser forbauset paa dem begge, mens Vilhelm byder hende med en haandbev&#x00E6;gelse at gaa. Hun gaar.)</stage>
+<sp>
+<speaker>Arvid.</speaker>
+<p rend="noIndent">Naa, det lader til, at jeg maa pr&#x00E6;sentere mig selv, f&#x00F8;r nogen kjender mig her. Mit navn er Arvid &#x2013; f&#x00F8;dt Skjoldberg. Formodentlig er det min bror, min &#x00E6;ldre bror, som jeg har den forn&#x00F8;ielse at hilse paa.</p>
+<stage>(S&#x00E6;tter lorgnetten paa og ser paa ham.)</stage>
+</sp>
+<sp>
+<speaker><pb n="55"/>Vilhelm</speaker>
+<stage>(koldt).</stage>
+<p rend="noIndent">Du tar ikke feil; &#x2013; jeg er din bror.</p>
+</sp>
+<sp>
+<speaker>Arvid.</speaker>
+<p rend="noIndent">Naa ja, &#x2013; men ikke et velkomstord, ikke spor af gjestfrihed vises der mig; det er jo ikke min skyld, at vi er i familie, og familien, den maa jo altid gaa ud til fremmede for at hygge sig og v&#x00E6;re velkommen. Den er gammel, den historie. Man er jo n&#x00E6;sten altid til g&#x00EA;ne for sine egne. Men r&#x00E6;k mig nu haanden alligevel! Det er som sagt ikke vor skyld. <stage>(R&#x00E6;kker ham haanden.)</stage></p>
+</sp>
+<sp>
+<speaker>Vilhelm</speaker>
+<stage>(tager hans haand).</stage>
+<p rend="noIndent">Der er meget, man ikke kan hj&#x00E6;lpe for. &#x2013; Velkommen, Arvid! Det er l&#x00E6;nge, siden du var hjemme nu!</p>
+</sp>
+<sp>
+<speaker>Arvid</speaker>
+<stage>(t&#x00E6;nder en cigar).</stage>
+<p rend="noIndent">Ja, en seksten aar, antar jeg. Derfor t&#x00E6;nkte jeg &#x2013;</p>
+</sp>
+<sp>
+<speaker><pb n="56"/>Vilhelm</speaker>
+<stage>(afbrydende).</stage>
+<p rend="noIndent">Arvid, her r&#x00F8;ges ikke. Kun paa mit v&#x00E6;relse. Mor taaler ikke tobaksr&#x00F8;g.</p>
+</sp>
+<sp>
+<speaker>Arvid</speaker>
+<stage>(s&#x00E6;tter sig ligegyldig i en stol).</stage>
+<p rend="noIndent">Aa, ja saa! &#x2013; Saa, hun taaler ikke r&#x00F8;g? &#x2013; Naa, hvordan har hun det egentlig?</p>
+</sp>
+<sp>
+<speaker>Vilhelm</speaker>
+<stage>(m&#x00F8;rk).</stage>
+<p rend="noIndent">Hun er bleven blind.</p>
+</sp>
+<sp>
+<speaker>Arvid.</speaker>
+<p rend="noIndent">Blind &#x2013; det maa v&#x00E6;re fanden saa kjedeligt. Hvor l&#x00E6;nge har hun v&#x00E6;ret det?</p>
+</sp>
+<sp>
+<speaker>Vilhelm</speaker>
+<stage>(som f&#x00F8;r).</stage>
+<p rend="noIndent">I de sidste ti aar.</p>
+</sp>
+<sp>
+<speaker>Arvid</speaker>
+<stage>(som f&#x00F8;r).</stage>
+<p rend="noIndent">Er det kanske en familiesvaghed?</p>
+</sp>
+<sp>
+<speaker><pb n="57"/>Vilhelm</speaker>
+<stage>(truende).</stage>
+<p rend="noIndent">Arvid! &#x2013; <stage>(I en d&#x00E6;mpet tone.)</stage> Du valgte ellers uheldig aftenen for din gjenkomst.</p>
+</sp>
+<sp>
+<speaker>Arvid</speaker>
+<stage>(spotsk).</stage>
+<p rend="noIndent">Saa? Synes du det? &#x2013; Nei, min bror, den forlorne s&#x00F8;n kommer altid tilpas, og iaften er gj&#x00F8;dkalven slagtet, og vinen flyder i str&#x00F8;mme.</p>
+</sp>
+<sp>
+<speaker>Vilhelm.</speaker>
+<p rend="noIndent">Du er nok ikke meget forandret, skj&#x00F8;nner jeg.</p>
+</sp>
+<sp>
+<speaker>Arvid.</speaker>
+<p rend="noIndent">Aa nei! Aarene har just ikke taget stort paa mig. <stage>(Pause.)</stage></p>
+</sp>
+<sp>
+<speaker>Vilhelm.</speaker>
+<p rend="noIndent">Hvor har du opholdt dig i al den tid?</p>
+</sp>
+<sp>
+<speaker>Arvid.</speaker>
+<p rend="noIndent">Aa, i Paris og London. Jeg har havt <pb n="58"/>den lykke at flyde ovenpaa, som alt andet smuds.</p>
+</sp>
+<sp>
+<speaker>Vilhelm</speaker>
+<stage>(spotsk).</stage>
+<p rend="noIndent">Og du har profiteret?</p>
+</sp>
+<sp>
+<speaker>Arvid.</speaker>
+<p rend="noIndent">Profiteret! Aa ja, det er, som man tar det. Jeg har gjort studier over mennesket ligesom du. Jeg dr&#x00E6;ber dem aandelig, du flaar dem levende; det er hele forskjellen.</p>
+</sp>
+<sp>
+<speaker>Vilhelm</speaker>
+<stage>(med harme).</stage>
+<p rend="noIndent">Du bringer julestemning, skj&#x00F8;nner jeg!</p>
+</sp>
+<sp>
+<speaker>Arvid.</speaker>
+<p rend="noIndent">Stemningen kommer nok; den skal bare fugtes, saa man kan svelge alle pillerne med lethed; det mangler dig, min bror. Du skulde fors&#x00F8;ge experimentet med dig selv &#x2013; ialfaId med dem, du selv laver til andre. <stage>(Reiser sig.)</stage> Nu ja, hver sit talent. <stage>(I forandret tone.)</stage> Her er sgu rigtig hyggeligt, &#x2013; og saa er her saadan <pb n="59"/>kvindelig atmosf&#x00E6;re. <stage>(Hurtig.)</stage> Hvor mange har du egentlig her i huset?</p>
+</sp>
+<sp>
+<speaker>Vilhelm.</speaker>
+<p rend="noIndent">Jeg skal pr&#x00E6;sentere dig –</p>
+</sp>
+<sp>
+<speaker>Arvid</speaker>
+<stage>(afbrydende).</stage>
+<p rend="noIndent">Prat! Det fornuftigste er at la&#x0027; mig vide ialfald, om du er ugift. T&#x00E6;nk, om jeg ubevidst kom til at gj&#x00F8;re stormende kur til din kone! <stage>(St&#x00F8;der til ham med albuen.)</stage></p>
+</sp>
+<sp>
+<speaker>Vilhelm</speaker>
+<stage>(&#x00E6;rgerlig).</stage>
+<p rend="noIndent">Det slipper du for; jeg er ugift.</p>
+</sp>
+<sp>
+<speaker>Arvid.</speaker>
+<p rend="noIndent">Naa ja, godt ord igjen! I det kapitel er du sgu fornuftig; i det ligner du din kj&#x00E6;re bror. Jeg liker bedst at suge honningen af blomsterne.</p>
+</sp>
+<sp>
+<speaker>Vilhelm</speaker>
+<stage>(m&#x00F8;rk).</stage>
+<p rend="noIndent">Og naar saa blomsten er &#x00F8;delagt?</p>
+</sp>
+<sp>
+<speaker><pb n="60"/>Arvid</speaker>
+<stage>(ler).</stage>
+<p rend="noIndent">Ja, saa er den &#x00F8;delagt! &#x2013; Saa har jeg suget lidt f&#x00F8;de ud af den til mine poetiske arbeider. Ja, du ved vel, jeg fusker lidt i haandteringen. Jeg er saadan rundt om begavet. Min sidste bog blev rigtignok beslaglagt i Paris; men det l&#x00F8;nner sig oftest og er en god reklame for en digter.</p>
+</sp>
+<sp>
+<speaker>Vilhelm</speaker>
+<stage>(opr&#x00F8;rt).</stage>
+<p rend="noIndent">Digter! &#x2013; Ha, saa du kalder dig digter! Ved du, hvad jeg syntes skulde v&#x00E6;re den f&#x00F8;rste betingelse for at kunne digte? Det var selv at eie de grunds&#x00E6;tninger, der kunde l&#x00F8;fte en opad til h&#x00F8;iere moral og menneskekundskab, saa man kunde skabe og udforme det ideale, det fuldendte og helst&#x00F8;bte og saaledes sprede lykke og velsignelse i verden. <stage>(H&#x00F8;iere.)</stage> Du kalder dig digter! Ved du, hvad slige digtere er for vort land? En forbandelse er de! De tror at rydde vei, at bryde bane for efterslegtens frihed, ved at fremstille alle slags uhumskheder og sanselige lyster, indhyllede <pb n="61"/>i indsmigrende talemaader og et vakkert sprog. Hvad er f&#x00F8;lgen? <stage>(Stigende.)</stage> Se paa vor ungdom, dem, som lever efter disse saakaldte digteres visdom! Tag dem &#x00E9;n for &#x00E9;n og sp&#x00F8;rg dem ud, om de er lykkelige ved tilv&#x00E6;relsen, disse s&#x00F8;nner af Norge, der er udlevede f&#x00F8;r manddomsalderen, blaserte, rensede for noble f&#x00F8;lelser! Er det de s&#x00F8;nner, den kj&#x00E6;kke norske kvinde ammed ved sin barm? Som oftest d&#x00F8;r hun f&#x00F8;r tiden af sorg over en slig s&#x00F8;n. <stage>(Langsomt, alvorlig.)</stage> Og nu ber jeg dig som din &#x00E6;ldre bror: ikke et eneste ord om dette her i huset! Her er atmosf&#x00E6;ren ren. Besmit den ikke, om kun af hensyn til din mor, som har lidt saa meget for dig! <stage>(Haardt.)</stage> Paa disse betingelser kan du blive; &#x2013; hvis ikke maa du gaa. <stage>(Peger paa d&#x00F8;ren.)</stage></p>
+</sp>
+<sp>
+<speaker>Arvid</speaker>
+<stage>(spotsk.)</stage>
+<p rend="noIndent">Tak, kj&#x00E6;re dig! Tak! D&#x00F8;ren finder jeg altid selv; jeg har stedsans, du. Men jeg takker dig for tilladelsen. Jeg skal nok v&#x00E6;re snild gut, spise sukkert&#x00F8;i og lege blindebuk; man maa jo tude med de ulve, man er iblandt. <stage>(Tager pelsen af og sl&#x00E6;nger den paa en stol.)</stage></p>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="1_12">
+<head type="sub"><pb n="62"/>Tolvte scene.</head>
+<stage>Vilhelm; Arvid; (efterhaanden) de &#x00F8;vrige (undtagen fru Skjoldberg).</stage>
+<stage>(Jomfru Gr&#x00F8;n t&#x00E6;nder lysene paa tr&#x00E6;et. Kandidat Wang kommer med kandelabrene, ser ikke Arvid.)</stage>
+<sp>
+<speaker>Vilhelm.</speaker>
+<p rend="noIndent">Faar jeg lov at pr&#x00E6;sentere &#x2013; min bror Arvid? Det er seksten aar, siden han var hjemme, saa I kjender ham vel neppe. <stage>(Alle vender sig. Arvid og Talma faar &#x00F8;ie paa hinanden og staar maall&#x00F8;se. Arvid s&#x00E6;tter lorgnetten paa og ser paa hende; hun st&#x00F8;tter sig ubevidst til Vilhelm.)</stage></p>
+</sp>
+<sp>
+<speaker>Arvid.</speaker>
+<p rend="noIndent">Her er dog &#x00E9;n, som kjender mig, ser jeg.</p>
+</sp>
+<sp>
+<speaker>Talma</speaker>
+<stage>(koldt).</stage>
+<p rend="noIndent">De tar feil; jeg kjender Dem ikke – slet ikke.</p>
+</sp>
+<sp>
+<speaker>Arvid.</speaker>
+<p rend="noIndent">Ja saa! Naa saadan &#x2013; ja, ja, saa maa det vel v&#x00E6;re en feiltagelse.</p>
+</sp>
+<sp>
+<speaker><pb n="63"/>Vilhelm</speaker>
+<stage>(urolig, til Arvid.)</stage>
+<p rend="noIndent">Hvem mente du fr&#x00F8;ken Talma ligned?</p>
+</sp>
+<sp>
+<speaker>Arvid</speaker>
+<stage>(dreier sig raskt om paa h&#x00E6;len til ham).</stage>
+<p rend="noIndent">Aa, en af blomsterne, jeg talte om, du.</p>
+</sp>
+<sp>
+<speaker>Vilhelm</speaker>
+<stage>(truende).</stage>
+<p rend="noIndent">Arvid! husk min advarsel!</p>
+</sp>
+<sp>
+<speaker>Arvid</speaker>
+<stage>(spotsk bukkende).</stage>
+<p rend="noIndent">Gudbevares! Gudbevares!</p>
+<stage>(Selskabet blander sig om hverandre, b&#x00F8;rnene rundt juletr&#x00E6;et, hvor kandidaten, J&#x00E6;ger og Betzy steller med dem.)</stage>
+</sp>
+<sp>
+<speaker>Vilhelm</speaker>
+<stage>(til Talma, som sidder i sofaen).</stage>
+<p rend="noIndent">Vil fr&#x00F8;ken Talma hj&#x00E6;lpe mig at hente mor?</p>
+</sp>
+<sp>
+<speaker>Talma</speaker>
+<stage>(hjertelig, synlig glad ved at reise sig).</stage>
+<p rend="noIndent">Hvor kan De sp&#x00F8;rge? <stage>(De gaar op ad trappen.)</stage></p>
+</sp>
+<sp>
+<speaker><pb n="64"/>Fanny</speaker>
+<stage>(har nysgjerrig staaet op og seet paa Arvid, n&#x00E6;rmer sig ham undseelig).</stage>
+<p rend="noIndent">Er du min onkel?</p>
+</sp>
+<sp>
+<speaker>Arvid</speaker>
+<stage>(bukker og ser skarpt paa hende).</stage>
+<p rend="noIndent">Jeg har den forn&#x00F8;ielse!</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<stage>(overgivent).</stage>
+<p rend="noIndent">Aa, onkel Arvid, det var morsomt, du kom!</p>
+</sp>
+<sp>
+<speaker>Arvid.</speaker>
+<p rend="noIndent">Du er vist ogsaa den eneste, som synes det. <stage>(Ser paa Betzy, der taler med kandidaten.)</stage> Min kusine Betzy deler vist ikke din mening?</p>
+</sp>
+<sp>
+<speaker>Betzy</speaker>
+<stage>(vender sig ligegyldig om).</stage>
+<p rend="noIndent">Talte du til mig, Arvid?</p>
+</sp>
+<sp>
+<speaker>Arvid</speaker>
+<stage>(ironisk).</stage>
+<p rend="noIndent">Se, se! Navnet har du ialfald ikke glemt. <stage>(I en let tone.)</stage> Har du noget sukkert&#x00F8;i der borte?</p>
+</sp>
+<sp>
+<speaker><pb n="65"/>Fanny</speaker>
+<stage>(l&#x00F8;ber hen og faar et stykke, som hun knalder af lige foran ham).</stage>
+<p rend="noIndent">Se her, onkel Arvid, her er et med knaldeffekt!</p>
+</sp>
+<sp>
+<speaker>Arvid</speaker>
+<stage>(ler og spiser, medens han tar Fanny under hagen).</stage>
+<p rend="noIndent">Det tr&#x00E6;nges her i huset, tror jeg!</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<stage>(uvilkaarlig).</stage>
+<p rend="noIndent">Ja da! &#x2013; Ja da! <stage>(Ler.)</stage></p>
+</sp>
+<sp>
+<speaker>Jomfru Gr&#x00F8;n</speaker>
+<stage>(som har h&#x00F8;rt det sidste, stiller sig ved siden af Fanny og siger arrig).</stage>
+<p rend="noIndent">Hvor du prater! Var her mere af den ting, saa exploderet vi min salighed alle sammen, din spjaak, du er!</p>
+</sp>
+<sp>
+<speaker>Arvid</speaker>
+<stage>(ser b&#x00F8;rnene)</stage>
+<p rend="noIndent">Er jeg ogsaa onkel til alle disse planter?</p>
+</sp>
+<sp>
+<speaker>Betzy.</speaker>
+<p rend="noIndent">Det er sognets hjeml&#x00F8;se b&#x00F8;rn, som vi har hos os hver juleaften.</p>
+</sp>
+<sp>
+<speaker><pb n="66"/>Arvid.</speaker>
+<p rend="noIndent">Ah, hvilken opl&#x00F8;ftende mission!</p>
+</sp>
+<stage>(Gunnar vender sig; Arvid ser lappen og slaar op en skingrende latter. I det samme kommer Vilhelm og Talma med fru Skjoldberg mellem sig ned ad trappen.)</stage>
+</div>
+<div type="uchapter" subtype="scene" n="1_13">
+<head type="sub">Trettende scene.</head>
+<stage>De forrige; fru Skjoldberg.</stage>
+<sp>
+<speaker>Fru Skjoldberg</speaker>
+<stage>(h&#x00F8;rer Arvids stemme og stanser skj&#x00E6;lvende i d&#x00F8;ren).</stage>
+<p rend="noIndent">Arvid! Arvid, min gut!</p>
+</sp>
+<sp>
+<speaker>Arvid</speaker>
+<stage>(gaar bort til hende).</stage>
+<p rend="noIndent">Du har ret, mor! Det er din forlorne s&#x00F8;n!</p>
+</sp>
+<sp>
+<speaker>Fru Skjoldberg</speaker>
+<stage>(sterkt).</stage>
+<p rend="noIndent">Saa sig, at julen bragte velsignelse! – Kom, gutter! Kom, begge to! Lad mig f&#x00F8;le eder hos mig! <stage>(Stryger Arvid over tr&#x00E6;kkene.)</stage> Gammel er du blit, og tr&#x00E6;t er du vist ogsaa; men hvil dig her hos mig! <stage>(Hun trykker ham til sig. Alle er r&#x00F8;rte.)</stage> Nu blir du vel hos din mor, stakkars, stakkars gutten min!</p>
+<stage><p rend="center">Teppet falder.</p></stage>
+</sp>
+</div>
+</div>
+<div type="chapter" subtype="act" n="2">
+<head type="main"><ref type="contents" target="contents_3" xml:id="chapter_3">ANDEN AKT</ref></head>
+<stage><pb n="67"/>Samme dekoration, men pyntet op med flag og blomster. Idet teppet gaar op, staar Jakob midt paa scenen if&#x00E6;rd med at pakke t&#x00F8;i i en haandv&#x00E6;ske; paa en stol i n&#x00E6;rheden ligger en del lint&#x00F8;i.</stage>
+<div type="uchapter" subtype="scene" n="2_1">
+<head type="sub">F&#x00F8;rste scene.</head>
+<stage>Jakob (alene).</stage>
+<sp>
+<speaker>Jakob</speaker>
+<stage>(t&#x00E6;ller snipper).</stage>
+<p rend="noIndent">En, to, tre, fire &#x2013; Mor sa&#x0027;: Jakob, pas godt paa snipperne dine, gutten min! &#x2013; Fem, seks, syv &#x2013; Du beh&#x00F8;ver ikke at ta&#x0027; saa mange med, sa&#x0027; hun &#x2013; Ni, ti, elleve, tolv. <stage>(Holder dem i haanden og sukker.)</stage> Ak, mor havde ret! Men hvem kunde vel t&#x00E6;nke sig, at Fanny og jeg skulde bli uvenner? <stage>(Tar op til snippen, han har paa.)</stage> Dette er den trettende; den har jeg havt paa <pb n="68"/>i to dage. Ja, om det ikke er godt for andet, saa er det da godt for lint&#x00F8;iet. <stage>(Sukker og pakker, medens han taler.)</stage> Nei, nu er det bestemt! Reise vil jeg, og det f&#x00F8;r Fanny er staaet op. Ingen skal ane misforstaaelsen. <stage>(Eftert&#x00E6;nksomt.)</stage> Misforstaaelse, siger jeg! Det var slet ingen misforstaaelse, slet ingen! Jeg h&#x00F8;rte jo selv, at hun gav ham et kys &#x2013; vist saa! <stage>(Klemmer en snip.)</stage> Og saa &#x2013; og saa &#x2013; t&#x00E6;nke sig til, at &#x2013; at hun vil indbilde mig, student Jakob J&#x00E6;ger &#x2013; mig &#x2013;, at det var en &#x00F8;refig, hun gav ham, som om jeg ikke skulde skj&#x00F8;nne forskjel paa et kys og en fig! <stage>(Tar en del lint&#x00F8;i og klemmer sammen i v&#x00E6;sken.)</stage> Det er virkelig for galt!</p>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="2_2">
+<head type="sub">Anden scene.</head>
+<stage>Jakob; Fanny.</stage>
+<stage>(Fanny kommer ind i lang kaabe, vil gaa videre, men ser Jakob.)</stage>
+<sp>
+<speaker>Fanny</speaker>
+<stage>(forundret).</stage>
+<p rend="noIndent">Er det dig, Jakob?</p>
+</sp>
+<sp>
+<speaker><pb n="69"/>Jakob</speaker>
+<stage>(vender sig gr&#x00E6;ttent om og ser paa hende).</stage>
+<p rend="noIndent">Ja, vist er det mig!</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<stage>(peger paa v&#x00E6;sken).</stage>
+<p rend="noIndent">Skal du kl&#x00E6;de dig paa her til ballet?</p>
+</sp>
+<sp>
+<speaker>Jakob</speaker>
+<stage>(gr&#x00E6;ttent).</stage>
+<p rend="noIndent">Ja, tror du det, saa synes jeg, du heller burde gaa.</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<stage>(ertende).</stage>
+<p rend="noIndent">Saa! Synes du? Ja, men du og jeg har jo aldrig havt ens meninger, Jakob.</p>
+</sp>
+<sp>
+<speaker>Jakob</speaker>
+<stage>(sukker).</stage>
+<p rend="noIndent">Nei, det ved Gud vi ikke har! <stage>(Pakker igjen.)</stage></p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<stage>(staar og ser pa ham, hoster)</stage>
+<p rend="noIndent">Jeg har faaet slig slem hoste.</p>
+</sp>
+<sp>
+<speaker><pb n="70"/>Jakob</speaker>
+<stage>(sl&#x00E6;nger en vest hen paa en stol).</stage>
+<p rend="noIndent">Jeg har faaet noget, som er v&#x00E6;rre hoste, jeg! <stage>(Pause.)</stage></p>
+</sp>
+<sp>
+<speaker>Fanny.</speaker>
+<p rend="noIndent">Jakob! &#x2013; <stage>(Jakob lader, som han ikke h&#x00F8;rer.)</stage>  Du Jakob!</p>
+</sp>
+<sp>
+<speaker>Jakob</speaker>
+<stage>(vender sig om).</stage>
+<p rend="noIndent">Hm! &#x2013;</p>
+</sp>
+<sp>
+<speaker>Fanny.</speaker>
+<p rend="noIndent">Ved du hvad, Jakob, i grunden er du gyselig dum!</p>
+</sp>
+<sp>
+<speaker>Jakob</speaker>
+<stage>(bukker dybt).</stage>
+<p rend="noIndent">Tak! Mange tak!</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<stage>(ertende).</stage>
+<p rend="noIndent">Aa, jeg ber! Har kanske ingen sagt dig det f&#x00F8;r?</p>
+</sp>
+<sp>
+<speaker><pb n="71"/>Jakob.</speaker>
+<p rend="noIndent">Nei, du har den &#x00E6;re at v&#x00E6;re den f&#x00F8;rste.</p>
+</sp>
+<sp>
+<speaker>Fanny.</speaker>
+<p rend="noIndent">En maa jo v&#x00E6;re den f&#x00F8;rste.</p>
+</sp>
+<sp>
+<speaker>Jakob</speaker>
+<stage>(sint).</stage>
+<p rend="noIndent">Aa ja, slige komplimenter spenderer du vel paa alle dem, du gj&#x00F8;r nar af.</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<stage>(hurtig).</stage>
+<p rend="noIndent">Men jeg kyssed ham ikke, Jakob. Det var ham, som kyssed mig.</p>
+</sp>
+<sp>
+<speaker>Jakob</speaker>
+<stage>(h&#x00F8;itidelig, afbryder hende).</stage>
+<p rend="noIndent">Fanny, jeg ved, hvad et kys er, du!</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<stage>(i samme tone).</stage>
+<p rend="noIndent">Det ved jeg ogsaa, du!</p>
+</sp>
+<stage>(De vender sig bort fra hinanden. Stumt spil. Fanny gaar bort til Jakob.)</stage>
+<sp>
+<speaker><pb n="72"/>Fanny.</speaker>
+<p rend="noIndent">Skal jeg hj&#x00E6;lpe dig med at pakke?</p>
+</sp>
+<sp>
+<speaker>Jakob</speaker>
+<stage>(svinger sig op paa bordet, gr&#x00E6;ttent).</stage>
+<p rend="noIndent">Ja, v&#x00E6;r saa god! &#x2013; V&#x00E6;r saa god!</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<stage>(sl&#x00E6;nger sin kaabe af og staar i kostyme, begynder ivrig at tage alt t&#x00F8;ie ud af v&#x00E6;sken, medens Jakob ser forbauset paa hende).</stage>
+<p rend="noIndent">Jeg synes, du burde ops&#x00E6;tte reisen din nogle dage, Jakob.</p>
+</sp>
+<sp>
+<speaker>Jakob</speaker>
+<stage>(sl&#x00E6;nger med benene til en stol).</stage>
+<p rend="noIndent">Saa! Synes du det? &#x2013; Hm! &#x2013;</p>
+</sp>
+<sp>
+<speaker>Fanny.</speaker>
+<p rend="noIndent">Ja, for du kan da umulig reise hjem med sligt t&#x00F8;i til din mor. Hvad tror du hun vil t&#x00E6;nke!</p>
+</sp>
+<sp>
+<speaker>Jakob</speaker>
+<stage>(ser ligegyldig paa det).</stage>
+<p rend="noIndent">Jeg er lige glad, jeg!</p>
+</sp>
+<sp>
+<speaker><pb n="73"/>Fanny.</speaker>
+<p rend="noIndent">Det er du slet ikke, det ved jeg. Hun vil bestemt tro, du har v&#x00E6;ret i brydekamp <stage>(holder frem alle de kr&#x00F8;llede snipper)</stage>, slig som disse ser ud!</p>
+</sp>
+<sp>
+<speaker>Jakob</speaker>
+<stage>(springer ned af bordet).</stage>
+<p rend="noIndent">Ja, lad hende tro, hvad hun vil! Jeg reiser nu imorgen.</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<stage>(l&#x00E6;gger t&#x00F8;iet i v&#x00E6;sken og n&#x00E6;rmer sig ham).</stage>
+<p rend="noIndent">Kan du binde denne sl&#x00F8;ifen, Jakob? <stage>(Vender sig mod ham og giver ham baandet.)</stage></p>
+</sp>
+<sp>
+<speaker>Jakob</speaker>
+<stage>(ser forbauset paa hende).</stage>
+<p rend="noIndent">Binde sl&#x00F8;ife? &#x2013; Jeg! &#x2013; Det kan jeg ikke!</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<stage>(indsmigrende).</stage>
+<p rend="noIndent">Du kan da fors&#x00F8;ge. Paa den venstre side skal den bindes. <stage>(Hun vender skulderen mod ham.)</stage></p>
+</sp>
+<sp>
+<speaker>Jakob</speaker>
+<stage>(staar bet&#x00E6;nksom).</stage>
+</sp>
+<sp>
+<speaker><pb n="74"/>Fanny.</speaker>
+<p rend="noIndent">Naa, jeg venter! <stage>(Jakob binder sl&#x00F8;ifen.)</stage> Synes du ikke, min dragt er pen, du?</p>
+</sp>
+<sp>
+<speaker>Jakob.</speaker>
+<p rend="noIndent">Aa jo! Men naar jomfru Gr&#x00F8;n faar se dig i det kostyme, faar du nok h&#x00F8;re noget andet.</p>
+</sp>
+<sp>
+<speaker>Fanny.</speaker>
+<p rend="noIndent">Aa pyt, hun skal nok ikke faa se mig f&#x00F8;r efterpaa. &#x2013; Er du ikke snart f&#x00E6;rdig med den sl&#x00F8;ifen?</p>
+</sp>
+<sp>
+<speaker>Jakob.</speaker>
+<p rend="noIndent">Jo, nu er den f&#x00E6;rdig!</p>
+</sp>
+<sp>
+<speaker>Fanny.</speaker>
+<p rend="noIndent">Tak skal du ha&#x0027;! Men skynd dig nu! Fuldm&#x00E6;gtigen og lensmanden er kommet alt. Den pakningen kan du gj&#x00F8;re efterpaa.</p>
+</sp>
+<sp>
+<speaker>Jakob</speaker>
+<stage>(lukker v&#x00E6;sken).</stage>
+<p rend="noIndent">Bry dig bare ikke om det! Jeg skal <pb n="75"/>nok bli f&#x00E6;rdig. <stage>(Ser paa Fanny)</stage>. Fanny, du kl&#x00E6;r den dragten.</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<stage>(glad).</stage>
+<p rend="noIndent">Ja, ikke sandt, jeg er pen? Aa, Jakob, nu ved jeg, du tror paa den &#x00F8;refigen, ikke sandt?</p>
+</sp>
+<sp>
+<speaker>Jakob</speaker>
+<stage>(t&#x00F8;rt, tar kufferten).</stage>
+<p rend="noIndent">Nei, den tror jeg ikke paa!</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<stage>(bedr&#x00F8;vet).</stage>
+<p rend="noIndent">Du blir nok overbevist engang!</p>
+</sp>
+<sp>
+<speaker>Jakob.</speaker>
+<p rend="noIndent">Aldrig! &#x2013; Aldrig, Fanny! <stage>(Gaar hurtig ud. Musiken begynder sagte at spille en vals af balletten Coppelia. Fanny synker ned paa en stol og ser fortvilet efter Jakob. Derpaa springer hun hurtig op og lytter.)</stage></p>
+</sp>
+<sp>
+<speaker>Fanny.</speaker>
+<p rend="noIndent">Nu begynder de at spille derinde! &#x2013; Nei, nu vil jeg glemme det hele og &#x00F8;ve mig, som fr&#x00F8;ken Talma sagde jeg skulde gj&#x00F8;re.</p>
+<p rend="noIndent"><pb n="76"/><stage>(Hun danser efter musiken. Jomfru Gr&#x00F8;n h&#x00F8;res at komme. Fanny l&#x00F8;ber rundt og vil gjemme sig.)</stage> Nei, hvor skal jeg gjemme mig! <stage>(Hun hopper op paa kommoden, som staar i det ene hj&#x00F8;rne, og skjuler sig i det store flag, der er h&#x00E6;ngt over samme. I det samme kommer jomfru Gr&#x00F8;n.)</stage></p>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="2_3">
+<head type="sub">Tredje scene.</head>
+<stage>Fanny (skjult);<note type="footnote">(skjult)] <hi rend="italic">rettet fra:</hi> skjult) <hi rend="italic">(trykkfeil)</hi></note> jomfru Gr&#x00F8;n.</stage>
+<sp>
+<speaker>Jomfru Gr&#x00F8;n</speaker>
+<stage>(fra entr&#x00E9;en, tr&#x00E6;kkende paa en kurv med vin, som hun skyver ind under bordet til h&#x00F8;ire, gaar efter et bret med glas, som hun s&#x00E6;tter paa bordet, under alt dette talende med sig selv; hun begynner at pudse glassene.)</stage>
+<p rend="noIndent">Nei, om jeg kan forstaa, at det skal v&#x00E6;re nogen forn&#x00F8;ielse at hoppe rundt slig som andre galninger og mase og blaase, saa de n&#x00E6;sten mister pusten, ikke at tale om alle de penge, sligt koster! <stage>(Hun er f&#x00E6;rdig med glassene, tar en flaske op og s&#x00E6;tter den paa brettet ved siden af dem.)</stage> Aa, Herregud, hvor meget underligt har her ikke h&#x00E6;ndt, siden jeg kom i dette hus! Det vilde ikke forundre mig, om de blev rent gale derinde, slig som de opf&#x00F8;rer sig. Ak, Herregud, slige tider man lever i! <stage>(Vil gaa, men ser, at flaget i hj&#x00F8;rnet <pb n="77"/>ikke h&#x00E6;nger som f&#x00F8;r.)</stage> Hvem er det nu, som har h&#x00E6;ngt flaget slig igjen? Jeg skal bande paa, det er denne pokkers ungen, som har v&#x00E6;ret ude med narrestregerne sine igjen! Det er rigtignok noget at holde stas for, slig en &#x2013;! Der er saam&#x00E6;nd ingen, som anstrenger sig paa min f&#x00F8;dselsdag. <stage>(Staar op paa en stol og skal rette paa flaget, da Fanny kommer tilsyne.)</stage></p>
+</sp>
+<sp>
+<speaker>Jomfru Gr&#x00F8;n</speaker>
+<stage>(tumler ned med et skrig).</stage>
+<p rend="noIndent">Aa, du forbarmende Gud! Ser jeg sp&#x00F8;gelser? Hvad er dette for troldskab?</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<stage>(undskyldende).</stage>
+<p rend="noIndent">Aa, jomfru Gr&#x00F8;n, v&#x00E6;r ikke sint! Det er bare moro alt sammen!</p>
+</sp>
+<sp>
+<speaker>Jomfru Gr&#x00F8;n</speaker>
+<stage>(sint).</stage>
+<p rend="noIndent">Er det dig, dit spektakel! &#x2013; Saa, du kalder dette moro? <stage>(Fanny vipper op og ned.)</stage> Hvorledes er det, du staar og vipper? Kan du ikke svare mig? Hvad skal disse narrestreger til?</p>
+</sp>
+<sp>
+<speaker><pb n="78"/>Fanny</speaker>
+<stage>(som f&#x00F8;r).</stage>
+<p rend="noIndent">Jakob og jeg skal danse iaften, og saa skal vi ha&#x0027; tableau! Fr&#x00F8;ken Talma har arrangeret det hele.</p>
+</sp>
+<sp>
+<speaker>Jomfru Gr&#x00F8;n</speaker>
+<stage>(mere og mere sint).</stage>
+<p rend="noIndent">Aa, jeg blaaser i fr&#x00F8;ken Talma &#x2013; og i dig med! Danse mig her, og danse mig der, om jeg forstaar et eneste ord af alt dette sludder! <stage>(Peger paa hendes dragt.)</stage> Jeg vilde skamme mig ved at l&#x00F8;be omkring som et n&#x00F8;gent gespenst!</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<stage>(glemmende sig).</stage>
+<p rend="noIndent">Aa, det er saa frygtelig moro! Og der er ingen, som ved det. Det skal v&#x00E6;re en overraskelse!</p>
+</sp>
+<sp>
+<speaker>Jomfru Gr&#x00F8;n</speaker>
+<stage>(som f&#x00F8;r).</stage>
+<p rend="noIndent">Saa? &#x2013; En overraskelse! &#x2013; Ja, jeg skal minsandten s&#x00F8;rge for, at det skal bli en <pb n="79"/>overraskelse, jeg! <stage>(Knytter haanden)</stage>. Aa, jeg er saa sint, at jeg kunde spytte varme!</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<stage>(hopper ned af kommoden).</stage>
+<p rend="noIndent">Ja, spyt bare! Naar du bare ikke spytter paa kjolen min!</p>
+</sp>
+<sp>
+<speaker>Jomfru Gr&#x00F8;n</speaker>
+<stage>(som f&#x00F8;r).</stage>
+<p rend="noIndent">N&#x00E6;sevisen! &#x2013; Aa, jeg kan ikke bli l&#x00E6;nger i dette huset! Min anst&#x00E6;ndighed forbyder det. Hvad tror du folk vilde sige, om jeg fjasede mig ud slig? &#x2013; Nei, dette er for galt! Du arme barn, du har nok faat al syndigheden i arv efter mor din! &#x2013; &#x2013;</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<stage>(med harme).</stage>
+<p rend="noIndent">Efter mor? Aa, jomfru Gr&#x00F8;n, kald mig alt stygt, men sig ikke et ondt ord om hende, min kj&#x00E6;re, snilde mor!</p>
+</sp>
+<sp>
+<speaker>Jomfru Gr&#x00F8;n</speaker>
+<stage>(haanlig).</stage>
+<p rend="noIndent">Din mor! Aa pyt, din vigtige unge, jeg <pb n="80"/>skal fort&#x00E6;lle dig, at din mor h&#x00F8;rte til i kj&#x00F8;kkenet, akkurat som jeg. Du har ikke meget at v&#x00E6;re kry af, skulde jeg mene! <stage>(Med eftertryk.)</stage> Jeg kunde knuse modet dit, om jeg vilde. <stage>(Fanny ser maall&#x00F8;s paa hende.)</stage> Du beh&#x00F8;ver ikke at se slig paa mig, for Bolette Gr&#x00F8;n snakker sandt, hun. Dans, saa meget du vil, for mig! Men det, som h&#x00F8;rer til i kj&#x00F8;kkenet, lugter af kj&#x00F8;kken, selv om man pudser det aldrig saa meget.</p>
+<stage>(Hun gaar.)</stage>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="2_4">
+<head type="sub">Fjerde scene.</head>
+<stage>Fanny (alene).</stage>
+<sp>
+<speaker>Fanny</speaker>
+<stage>(staar en stund og ser efter hende, kaster sig derpaa hulkende i en stol).</stage>
+<p rend="noIndent">Er det dette, som man kalder at v&#x00E6;re voksen &#x2013; aa, kj&#x00E6;re Gud, lad mig saa blive barn igjen! Aa, hvor verden maa v&#x00E6;re ond! At t&#x00E6;nke sig, ikke at h&#x00F8;re nogen til &#x2013; slet ingen! <stage>(Ser op, h&#x00F8;itideiig.)</stage> Ikke at eie nogen mor! Hvor fattig, hvor fattig jeg maa v&#x00E6;re! &#x2013; <stage>(Lysere.)</stage> Jeg vil alligevel gaa op og betro mig til hende! Hun vil fort&#x00E6;lle mig sandheden.</p>
+<stage>(L&#x00F8;ber ud.)</stage>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="2_5">
+<head type="sub">Femte scene.</head>
+<stage><pb n="81"/>Betzy Skram og Wang (kommer ned ad trappen.)</stage>
+<sp>
+<speaker>Betzy Skram.</speaker>
+<p rend="noIndent">Tak for bryderiet, Wang! Tror De nu ogsaa, at speilet h&#x00E6;nger sikkert?</p>
+</sp>
+<sp>
+<speaker>Wang</speaker>
+<stage>(sp&#x00F8;gende.)</stage>
+<p rend="noIndent">Sikkert? &#x2013; Bare jeg hang saa sikkert!</p>
+</sp>
+<sp>
+<speaker>Betzy Skram.</speaker>
+<p rend="noIndent">Fy da, for et udtryk!</p>
+</sp>
+<sp>
+<speaker>Wang</speaker>
+<stage>(som f&#x00F8;r).</stage>
+<p rend="noIndent">Ja, jeg mener nu, om halsen paa Dem!</p>
+</sp>
+<sp>
+<speaker>Betzy Skram.</speaker>
+<p rend="noIndent">Nu er De &#x00E6;kel, Wang!</p>
+</sp>
+<sp>
+<speaker>Wang.</speaker>
+<p rend="noIndent">Kj&#x00E6;re fr&#x00F8;ken Betzy, jeg mente nu ikke at forn&#x00E6;rme Dem. Det var bare sp&#x00F8;g; &#x2013; det vil sige, at &#x2013; at &#x2013;</p>
+</sp>
+<sp>
+<speaker><pb n="82"/>Betzy Skram</speaker>
+<stage>(afbrydende).</stage>
+<p rend="noIndent">Ja, tal nu ikke mere om det!</p>
+</sp>
+<sp>
+<speaker>Wang</speaker>
+<stage>(stammende).</stage>
+<p rend="noIndent">Men om jeg &#x2013; nu &#x2013; kunde ha&#x0027; lyst til at &#x2013; at udtale, hvad jeg mener &#x2013; saan i al oprigtighed &#x2013;?</p>
+</sp>
+<sp>
+<speaker>Betzy Skram<note type="footnote">Skram] <hi rend="italic">rettet fra:</hi> Skbam <hi rend="italic">(trykkfeil)</hi></note></speaker>
+<stage>(undvigende).</stage>
+<p rend="noIndent">Ja, det kan De jo gj&#x00F8;re senere, ikke iaften.</p>
+</sp>
+<sp>
+<speaker>Wang</speaker>
+<stage>(heftig).</stage>
+<p rend="noIndent">Senere! Altid uds&#x00E6;ttelse! &#x2013; Kan De ikke forstaa, fr&#x00F8;ken Betzy, hvad uds&#x00E6;ttelse vil sige for mig?</p>
+</sp>
+<sp>
+<speaker>Betzy Skram</speaker>
+<stage>(let).</stage>
+<p rend="noIndent">Aa, uds&#x00E6;ttelse for Dem er vel akkurat det samme som for andre, bare lidt taalmodighed.</p>
+</sp>
+<sp>
+<speaker><pb n="83"/>Wang</speaker>
+<stage>(stamper i gulvet).</stage>
+<p rend="noIndent">Uf, for et v&#x00E6;mmeligt ord! Dette «taalmodighed», det slaar folk ihjel i tommevis; lidt efter lidt borer det sig ind i os, &#x00F8;del&#x00E6;gger os, aandelig og legemlig! Og saa &#x2013; og saa er det dette forbistrede, at tilsidst har man ingen taalmodighed igjen mere &#x2013; faktisk slet ingen &#x2013;, saa ender det med det uundgaaelige nederlag, paa den ene eller den anden maade.</p>
+</sp>
+<sp>
+<speaker>Betzy Skram.</speaker>
+<p rend="noIndent">Naar man har haab, mister man ikke taalmodigheden.</p>
+</sp>
+<sp>
+<speaker>Wang</speaker>
+<stage>(hurtig).</stage>
+<p rend="noIndent">Haab &#x2013; vil De give mig det, fr&#x00F8;ken?</p>
+</sp>
+<sp>
+<speaker>Betzy Skram.</speaker>
+<p rend="noIndent">Nei, desv&#x00E6;rre &#x2013; jeg, som selv er haabl&#x00F8;s, kan jo ikke &#x2013;</p>
+</sp>
+<sp>
+<speaker><pb n="84"/>Wang</speaker>
+<stage>(irriteret, afbrydende).</stage>
+<p rend="noIndent">Aa, jeg vidste det, &#x2013; vidste, at De ikke vilde forstaa andres f&#x00F8;lelser og tanker!</p>
+</sp>
+<sp>
+<speaker>Betzy Skram</speaker>
+<stage>(inderlig).</stage>
+<p rend="noIndent">Jo, Wang, det vilde jeg saa gjerne! Men naar jeg f&#x00F8;ler, at jeg ikke vilde magte dette, &#x2013; da t&#x00F8;r jeg heller ikke forstaa Dem.</p>
+</sp>
+<sp>
+<speaker>Wang</speaker>
+<stage>(alvorlig).</stage>
+<p rend="noIndent">Har De fors&#x00F8;gt, fr&#x00F8;ken Betzy? Ved De da ikke, at der gives enkelte mennesker, som gaar omkring i verden til ingen nytte, bare fylder op, &#x2013; som lever uden forstaaelse, uden sympati? Og hvorfor? Jo, fordi &#x2013; fordi deres tause og indesluttede natur hindrer dem fra at vinde omgang og venner; deres f&#x00F8;lelser fryser som oftest ihjel, f&#x00F8;r de er sprungne ud i blomst. Og endda kan de ikke forklare sig! Ja, selv om deres liv stod paa spil, selv om alt, de elsker i verden, glider dem ud af h&#x00E6;nderne &#x2013; de staar stille <pb n="85"/>og hj&#x00E6;lpel&#x00F8;se, fordi de mangler ord, disse rige, beaandede, sj&#x00E6;lfulde ord, der aabner hjertet hos menneskene, disse bevingede ord, som baner en vei til maalet. Verden har ikke tid til at kl&#x00E6;kke ud geniet og tankerne hos slige individer, dertil leves der for hurtig, og medens livet rullende gaar sin gang, saa visner slige menneskers haab og virkelyst, &#x2013; og <stage>(sagtere)</stage> pludselig opdager stakkelen, at det er for sent, &#x2013; og saa d&#x00F8;r han tilsidst selv, ubemerket, som han f&#x00F8;dtes, uden at savnes!</p>
+</sp>
+<sp>
+<speaker>Betzy Skram</speaker>
+<stage>(der overrasket har h&#x00F8;rt paa ham).</stage>
+<p rend="noIndent">De har ret &#x2013; men det passer ikke paa Dem, &#x2013; ikke nu! De fortjener at finde forstaaelse.</p>
+</sp>
+<sp>
+<speaker>Wang</speaker>
+<stage>(glad).</stage>
+<p rend="noIndent">Tror De, fr&#x00F8;ken Betzy?</p>
+</sp>
+<sp>
+<speaker>Betzy Skram</speaker>
+<stage>(bestemt).</stage>
+<p rend="noIndent">Jeg ikke alene tror det, men jeg ved det!</p>
+</sp>
+<sp>
+<speaker><pb n="86"/>Wang</speaker>
+<stage>(som f&#x00F8;r).</stage>
+<p rend="noIndent">Og hvad raader De mig nu til?</p>
+</sp>
+<sp>
+<speaker>Betzy Skram</speaker>
+<stage>(inderlig).</stage>
+<p rend="noIndent">Til at tale &#x2013; tale frit! <stage>(Gaar hurtig ud.)</stage></p>
+</sp>
+<sp>
+<speaker>Wang</speaker>
+<stage>(lykkelig.)</stage>
+<p rend="noIndent">Saa talte da Vilhelm virkelig sandt! Det var kj&#x00E6;rlighedens labyrint alligevel. <stage>(Gaar efter hende.)</stage></p>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="2_6">
+<head type="sub">Sjette scene.</head>
+<stage>Fru Skjoldberg. Fanny.</stage>
+<sp>
+<speaker>Fanny</speaker>
+<stage>(leder fruen ind og s&#x00E6;tter hende i den store l&#x00E6;nestol).</stage>
+<p rend="noIndent">Saa, nu sidder du godt, ikke sandt? S&#x00E6;t benene paa denne skammel, slig! <stage>(Kysser hende.)</stage> Du kj&#x00E6;re, kj&#x00E6;re mor!</p>
+</sp>
+<sp>
+<speaker><pb n="87"/>Fru Skjoldberg</speaker>
+<stage>(tar hendes haand).</stage>
+<p rend="noIndent">Min solstraale er du blit i mit m&#x00F8;rke! <stage>(Fortrolig.)</stage> Naa, kj&#x00E6;reste, fort&#x00E6;l mig nu alt, hvad der ligger dig paa hjerte.</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<stage>(undselig).</stage>
+<p rend="noIndent">Men, kj&#x00E6;re mor &#x2013; kanske det vil kjede dig!</p>
+</sp>
+<sp>
+<speaker>Fru Skioldberg.</speaker>
+<p rend="noIndent">Kjede mig? &#x2013; Ved du da ikke, at jeg er din fortrolige?</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<stage>(som f&#x00F8;r).</stage>
+<p rend="noIndent">Jo, jo! Jeg ved, du interesserer dig for alt angaaende mig; men dette her &#x2013; kan jeg ligesom ikke fort&#x00E6;lle. <stage>(Skjuler hovedet i h&#x00E6;nderne.)</stage></p>
+</sp>
+<sp>
+<speaker>Fru Skjoldberg</speaker>
+<stage>(alvorlig).</stage>
+<p rend="noIndent">Fanny! Nu skal du betro dig til mig.</p>
+</sp>
+<sp>
+<speaker><pb n="88"/>Fanny</speaker>
+<stage>(kaster sig om hendes hals)</stage>
+<p rend="noIndent">Aa, kj&#x00E6;reste, kj&#x00E6;reste &#x2013; du, som jeg har faat lov til at kalde mor, jeg, som aldrig havde ret til det, jeg fattige, hjeml&#x00F8;se barn! &#x2013;</p>
+</sp>
+<sp>
+<speaker>Fru Skjoldberg</speaker>
+<stage>(reiser sig forf&#x00E6;rdet).</stage>
+<p rend="noIndent">Fanny, hvorledes &#x2013; ved du &#x2013; det?</p>
+</sp>
+<sp>
+<speaker>Fanny.</speaker>
+<p rend="noIndent">Aa, jeg har l&#x00E6;nge anet det.</p>
+</sp>
+<sp>
+<speaker>Fru Skjoldberg</speaker>
+<stage>(s&#x00E6;tter sig igjen).</stage>
+<p rend="noIndent">Hvem har ladet dig ane dette, Fanny? &#x2013; Hvem? &#x2013; Svar mig!</p>
+</sp>
+<sp>
+<speaker>Fanny.</speaker>
+<p rend="noIndent">Jomfru Gr&#x00F8;n! Og iaften, da hun blev sint paa mig, sa&#x0027; hun, at &#x2013; at jeg egentlig h&#x00F8;rte til i kj&#x00F8;kkenet, og &#x2013; <stage>(skjuler ansigtet)</stage> og at min rette mor havde v&#x00E6;ret kokkepige her i huset. <stage>(Ser fast op paa hende.)</stage> Men jeg kan jo ikke hj&#x00E6;lpe for det! Hun var saa snild og <pb n="89"/>brav <stage>(med overbevisning)</stage>, det sa&#x0027; Per, for han kjendte hende! &#x2013;</p>
+</sp>
+<sp>
+<speaker>Fru Skjoldberg</speaker>
+<stage>(med anstrengelse).</stage>
+<p rend="noIndent">Saa, du har spurgt ham?</p>
+</sp>
+<sp>
+<speaker>Fanny.</speaker>
+<p rend="noIndent">Ja. Hvem vilde ikke sp&#x00F8;rge efter sin mor! <stage>(Uvilkaarlig.)</stage> Men var hun slig som du &#x2013; aa, saa vilde jeg &#x00F8;nske, hun havde levet, selv om hun havde v&#x00E6;ret kokkepige aldrig saa meget! <stage>(Hun l&#x00E6;ner sig i fanget til fru Skjoldberg, som stryger hende over haaret.)</stage></p>
+</sp>
+<sp>
+<speaker>Fru Skjoldberg</speaker>
+<p rend="noIndent">Kj&#x00E6;reste, kj&#x00E6;reste barnet mit!</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<stage>(efter en pause, ser op, hurtig).</stage>
+<p rend="noIndent">Men hvem var min far, du?</p>
+</sp>
+<sp>
+<speaker>Fru Skjoldberg</speaker>
+<stage>(i angest).</stage>
+<p rend="noIndent">Din far &#x2013; din far &#x2013; han var ingen brav mand.</p>
+</sp>
+<sp>
+<speaker><pb n="90"/>Fanny</speaker>
+<stage>(naivt).</stage>
+<p rend="noIndent">Var det alt det, han var? &#x2013; Aa, s&#x00E6;t dig bedre! <stage>(Steller kj&#x00E6;rlig med hende.)</stage> Du er vist ikke rigtig rask i det sidste &#x2013;?</p>
+</sp>
+<sp>
+<speaker>Fru Skjoldberg.</speaker>
+<p rend="noIndent">Aa nei, barn, for min sygdom hj&#x00E6;lper ingen doktor. Det er sj&#x00E6;lens strenge, som sp&#x00E6;ndes for h&#x00F8;it. <stage>(I en forandret tone.)</stage> S&#x00E6;t dig nu ned og fort&#x00E6;l mig din hemmelighed; den har jeg endnu til gode.</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<stage>(s&#x00E6;tter sig fortrolig til rette).</stage>
+<p rend="noIndent">Ja, nu vil jeg begynde! &#x2013; Du ved, at onkel &#x2013; onkel Arvid &#x2013;</p>
+</sp>
+<sp>
+<speaker>Fru Skjoldberg</speaker>
+<stage>(i angest).</stage>
+<p rend="noIndent">Ja, barn &#x2013; videre!</p>
+</sp>
+<sp>
+<speaker>Fanny.</speaker>
+<p rend="noIndent">Han er saa frygtelig elskv&#x00E6;rdig mod mig. Overalt, hvor jeg er, kommer han ogsaa, og <pb n="91"/>nu ved du, at Jakob &#x2013; at han &#x2013; at han ogsaa holder saa meget af mig &#x2013; og jeg &#x2013;</p>
+</sp>
+<sp>
+<speaker>Fru Skjoldberg</speaker>
+<stage>(&#x00E6;ngstelig afbrydende).</stage>
+<p rend="noIndent">Og du &#x2013;?</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<stage>(med overbevisning).</stage>
+<p rend="noIndent">Jeg &#x2013; aa, jeg liker ham saa frygtelig godt!</p>
+</sp>
+<sp>
+<speaker>Fru Skjoldberg</speaker>
+<stage>(lettet).</stage>
+<p rend="noIndent">Og saa &#x2013;? Videre!</p>
+</sp>
+<sp>
+<speaker>Fanny.</speaker>
+<p rend="noIndent">Ja, saa er han jaloux paa onkel Arvid, kan du t&#x00E6;nke!</p>
+</sp>
+<sp>
+<speaker>Fru Skjoldberg</speaker>
+<stage>(atter &#x00E6;ngstelig).</stage>
+<p rend="noIndent">Jaloux? &#x2013; Men, Fanny, det har han da vel ingen grund til?</p>
+</sp>
+<sp>
+<speaker><pb n="92"/>Fanny</speaker>
+<stage>(fortrolig).</stage>
+<p rend="noIndent">Ja, nu skal jeg fort&#x00E6;lle dig det alt sammen! &#x2013; Igaaraftes kommer jeg springende nedad trappen fra mit v&#x00E6;relse. Entr&#x00E9;lampen var ikke t&#x00E6;ndt endda, saa det var n&#x00E6;sten m&#x00F8;rkt. Nede ved foden af trappen staar onkel Arvid, han griber mig haardt i armen, og saa trykkede han mig ind til sig, &#x2013; og saa &#x2013; og saa kyssed han mig! &#x2013; Aa, et skr&#x00E6;kkeligt kys! <stage>(Gysende)</stage>. Uf, det var &#x00E6;kelt! <stage>(Hurtig.)</stage> Slig har aldrig Jakob kysset mig, det ved jeg &#x2013;<stage>(holder pludselig inde).</stage></p>
+</sp>
+<sp>
+<speaker>Fru Skjoldberg</speaker>
+<stage>(som f&#x00F8;r).</stage>
+<p rend="noIndent">Og saa &#x2013;? og saa &#x2013;? Fort&#x00E6;l &#x2013; fort&#x00E6;l alt!</p>
+</sp>
+<sp>
+<speaker>Fanny.</speaker>
+<p rend="noIndent">Saa hvisker han til mig, at jeg maa komme ind paa hans v&#x00E6;relse, saa skal han vise mig fotografier og fort&#x00E6;lle mig om alle de store byer. Men saa rev jeg mig l&#x00F8;s, da han igjen vilde kysse mig, &#x2013; og gav <pb n="93"/>ham en ordentlig &#x00F8;refig! Men t&#x00E6;nk dig, saa havde Jakob h&#x00F8;rt, at han kyssed mig, og havde l&#x00F8;bet sin vei. Aa, bare han havde blit staaende og h&#x00F8;rt den figen! &#x2013; Men nu vil han reise imorgen og vil slet ikke tale med mig, &#x2013; og jeg, som holder saa frygtelig meget af Jakob &#x2013; aa, jeg er saa bedr&#x00F8;vet, saa bedr&#x00F8;vet! <stage>(Fru Skjoldberg er heftig bev&#x00E6;get, vil reise sig, men Fanny holder hende tilbage og siger undskyldende:)</stage> Men ved du, hvad jeg tror? &#x2013; Jeg tror, onkel havde drukket lidt, og da er mandfolk altid saa &#x00E6;kle. <stage>(Fru Skjoldberg udst&#x00F8;der et skrig.)</stage> Men, kj&#x00E6;reste, hvad feiler dig? &#x2013;</p>
+</sp>
+<sp>
+<speaker>Fru Skjoldberg</speaker>
+<stage>(h&#x00F8;itidelig, griber hendes h&#x00E6;nder).</stage>
+<p rend="noIndent">Fanny, du maa love mig ikke at fort&#x00E6;lle et eneste ord om dette til nogen.</p>
+</sp>
+<sp>
+<speaker>Fanny.</speaker>
+<p rend="noIndent">Det lover jeg dig ganske bestemt. <stage>(I forandret tone.)</stage> Nu skal jeg vende stolen lidt, saa du kan sidde og hvile rigtig uforstyrret.</p>
+<stage>(Flytter stolen, saa ryggen kommer til at vende mod scenen).</stage>
+</sp>
+<sp>
+<speaker><pb n="94"/>Fru Skjoldberg.</speaker>
+<p rend="noIndent">Ja, gj&#x00F8;r det, mit barn! Og saa maa du love mig at more dig derinde. Jeg skal tale med Jakob.</p>
+</sp>
+<sp>
+<speaker>Fanny.</speaker>
+<p rend="noIndent">Vil du? &#x2013; Aa, det var snildt! Og husk saa endelig paa at n&#x00E6;vne &#x00F8;refigen! &#x2013; Skal jeg hente dig en pude? <stage>(L&#x00F8;ber ud, kommer straks igjen, steller kj&#x00E6;rlig med fru Skjoldberg.)</stage> Se saa, nu kan du hvile dig! <stage>(Lytter; man h&#x00F8;rer, at der stemmes fioliner.)</stage> H&#x00F8;r, de begynder at stemme fioliner derinde! &#x2013; Aa, bare du kunde se, hvor pen jeg er!</p>
+</sp>
+<sp>
+<speaker>Fru Skjoldberg.<note type="footnote">Skjoldberg] <hi rend="italic">rettet fra:</hi> Skjoldbefg <hi rend="italic">(trykkfeil)</hi></note></speaker>
+<p rend="noIndent">Jeg ser dig nok, barnet mit! &#x2013; Din kjole er vel ikke for udringet?</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<stage>(b&#x00F8;ier sig ned mod hende).</stage>
+<p rend="noIndent">F&#x00F8;l her selv! Det er ikke meget, vel? <stage>(L&#x00E6;gger fruens haand om sin hals.)</stage> Det er ikke riktig slig, som de har det paa teatret. Nei, fr&#x00F8;ken Talma sagde, den saa meget anst&#x00E6;ndig ud.</p>
+</sp>
+<sp>
+<speaker><pb n="95"/>Fru Skjoldberg.</speaker>
+<p rend="noIndent">Ja, naar hun har sagt det &#x2013; saa dans du, barn! Glem alt leit &#x2013; og bare mor dig!</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<stage>(lys og freidig).</stage>
+<p rend="noIndent">Jeg tror, jeg vil! &#x2013; Det blir nok godt alt sammen, naar du bare fort&#x00E6;ller Jakob om &#x00F8;refigen! &#x2013; Skal jeg skrue lampen ned?</p>
+</sp>
+<sp>
+<speaker>Fru Skjoldberg.</speaker>
+<p rend="noIndent">Ja tak! &#x2013; Se saa &#x2013; nu kan jeg h&#x00F8;re musiken <stage>(s&#x00E6;tter sig til rette, Fanny kysser hende.)</stage></p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<stage>(glad).</stage>
+<p rend="noIndent">Nu vil jeg danse &#x2013; danse mig bent ind i Jakobs hjerte! For jeg er jo saa pen iaften!</p>
+<stage>(L&#x00F8;ber ud.)</stage>
+</sp>
+<sp>
+<speaker>Fru Skjoldberg.</speaker>
+<p rend="noIndent">Velsignede uskyld! Hvor lette er dine sorger! &#x2013; <stage>(I forandret tone.)</stage> Aa, Herregud, hvor Arvid er lig sin far! <stage>(Folder h&#x00E6;nderne og sidder, som om hun sover. Pause.)</stage></p>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="2_7">
+<head type="sub"><pb n="96"/>Syvende scene.</head>
+<stage>Arvid; (senere) Fanny; (afsides og ubemerket af dem) fru Skjoldberg.</stage>
+<sp>
+<speaker>Arvid</speaker>
+<stage>(kommer ind uden at se moderen, ser vinen paa bordet, skj&#x00E6;nker i og t&#x00F8;mmer et par glas, kaster sig i stolen ved bordet).</stage>
+<p rend="noIndent">Ah, det var bra! &#x2013; Nu skal man ha&#x0027; en cigar! Jeg haaber, den gamle ikke lugter lunten helt op paa v&#x00E6;relset sit. <stage>(Drikker et par glas til og t&#x00E6;nder en cigar. Moderen lytter.)</stage> Det var riktig heldigt, at der stod en flaske her! For at leve i slige forhold maa man enten v&#x00E6;re fuld eller gal. Jeg foretr&#x00E6;kker nu det f&#x00F8;rste! &#x2013; Der skal altid v&#x00E6;re et sort faar i hver familie, siges der; det maa vel v&#x00E6;re mig her i huset. Jeg angrer n&#x00E6;sten paa, jeg kom hjem; jeg hader at se kontraster. Fy for pokker, hvor Talma holder tonen! Det kan &#x00E6;rgre mig frygtelig, at hun er her. Naturligvis har hun beregnet dette m&#x00F8;de. &#x2013; Jeg maa se til at ryste det af alt sammen! Men &#x00E6;rgerligt er det, for Fanny er et pokkers kj&#x00E6;kt pigebarn.</p>
+<stage>(Drikker igjen et par glas og l&#x00E6;ner sig tilbage.)</stage>
+</sp>
+<sp>
+<speaker><pb n="97"/>Talma</speaker>
+<stage>(kommer ind, opdager Arvid, vil gaa; Arvid holder hende tilbage. Hun udbryder:)</stage>
+<p rend="noIndent">Arvid!</p>
+</sp>
+<sp>
+<speaker>Arvid</speaker>
+<stage>(ondskapsfuldt).</stage>
+<p rend="noIndent">Aa, skrig nu ikke slig, fr&#x00F8;ken! Det er jo bare en gammel bekjendt! <stage>(Han reiser sig.)</stage> Tag min plads! <stage>(Trykker hende ned i stolen. Talma s&#x00F8;ger at reise sig, men han holder hende nede.)</stage> Naa, naa! det haster da ikke slig! Det var rigtig morsomt at tr&#x00E6;ffe dig alene engang. <stage>(Hun vil op, men synker tilbage igjen; han b&#x00F8;ier sig over hende.)</stage> Sid nu stille; det er bedre at sidde end at staa. <stage>(Hun b&#x00F8;ier sig ned og vugger sig frem og tilbage.)</stage> Du er nok urolig, ser jeg, bange kanske for, at broder Vilhelm skulde finde os i en <hi rend="italic">t&#x00E9;te &#x00E0; t&#x00E9;te</hi>. Ha ha ha! det vilde naturligvis spolere dit rygte som ung pige og fr&#x00F8;ken her i huset. <stage>(Hun ser op truende.)</stage> Og netop nu, da han kurtiserer dig, nu er det jo et uheldigt tidspunkt for at have daarligt rygte. Ha ha ha!</p>
+</sp>
+<sp>
+<speaker><pb n="98"/>Talma</speaker>
+<stage>(indtr&#x00E6;ngende).</stage>
+<p rend="noIndent">Arvid! &#x2013;</p>
+</sp>
+<sp>
+<speaker>Arvid.</speaker>
+<p rend="noIndent">Nu kjender jeg dig igjen! &#x2013; V&#x00E6;r endelig ikke r&#x00E6;d for, at jeg skal staa dig i veien. Du har din frie vilje!</p>
+</sp>
+<sp>
+<speaker>Talma</speaker>
+<stage>(ser paa ham.)</stage>
+<p rend="noIndent">Min frie vilje? &#x2013; <stage>(Fortvilet.)</stage> Men det er jo netop det, jeg ikke har! <stage>(Hun vugger sig hurtig og bedende frem og tilbage.)</stage> Aa, giv mig min frihed tilbage, Arvid! &#x2013; Jeg har bedt dig engang f&#x00F8;r. Aa, giv mig den, h&#x00F8;rer du! <stage>(R&#x00E6;kker armene op mod ham.)</stage></p>
+</sp>
+<sp>
+<speaker>Arvid</speaker>
+<stage>(overmodig).</stage>
+<p rend="noIndent">Aa, bry dig bare ikke med en slig bagatell! Du beh&#x00F8;ver ingen.</p>
+</sp>
+<sp>
+<speaker>Talma</speaker>
+<stage>(forundret).</stage>
+<p rend="noIndent">Beh&#x00F8;ver jeg ingen?</p>
+</sp>
+<sp>
+<speaker><pb n="99"/>Arvid</speaker>
+<stage>(som f&#x00F8;r).</stage>
+<p rend="noIndent">Jeg gjentar, du beh&#x00F8;ver den ikke. <stage>(Let.)</stage> Du var aldrig min hustru!</p>
+</sp>
+<sp>
+<speaker>Talma</speaker>
+<stage>(ser forferdet paa ham).</stage>
+<p rend="noIndent">Aldrig &#x2013; din hustru? Hvad er jeg da?</p>
+</sp>
+<sp>
+<speaker>Arvid.</speaker>
+<p rend="noIndent">Aa, en god veninde, min kj&#x00E6;re! &#x2013;</p>
+</sp>
+<sp>
+<speaker>Talma.</speaker>
+<p rend="noIndent">Og &#x2013; vor &#x2013; brudeattest? &#x2013;</p>
+</sp>
+<sp>
+<speaker>Arvid.</speaker>
+<p rend="noIndent">Bah! &#x2013; En god ven af mig gjengj&#x00E6;ldte kun en god tjeneste, jeg havde gjort ham. <stage>(Talma stirrer paa ham.)</stage> Ja, se nu ikke saa forstyrret ud! Men det er virkelig tilf&#x00E6;ldet. Husker du Phoebe? &#x2013; Naa, hun var til meget bryderi; men da hun fik h&#x00F8;re, at jeg var gift, saa blev hun bedre; det vil sige, hun blev kjed af mig, og det var en lettelse for pengepungen.</p>
+</sp>
+<sp>
+<speaker><pb n="100"/>Talma</speaker>
+<stage>(fra sig selv).</stage>
+<p rend="noIndent">Du lyver! <stage>(Fru Skjoldberg, som har h&#x00F8;rt hele samtalen, reiser sig halvt i stolen, aandel&#x00F8;st lyttende. Talma reiser sig hurtig, kaster sig paa kn&#x00E6; foran Arvid, der morer sig over hende.)</stage> Aa Arvid, sig, at du ikke taler sandt! Sig, du bare trodser mig! For din kj&#x00E6;re, velsignede mors skyld sig sandheden! Aa, Arvid &#x2013; jeg beder dig &#x2013;</p>
+</sp>
+<sp>
+<speaker>Arvid</speaker>
+<stage>(ler spotsk).</stage>
+</sp>
+<sp>
+<speaker>Fru Skjoldberg</speaker>
+<stage>(forf&#x00E6;rdet).</stage>
+<p rend="noIndent">Arvid! &#x2013; Arvid!</p>
+</sp>
+<sp>
+<speaker>Arvid</speaker>
+<stage>(farer sammen, udbrydende).</stage>
+<p rend="noIndent">Mor! &#x2013; <stage>(Talma reiser seg)</stage></p>
+</sp>
+<sp>
+<speaker>Fru Skjoldberg</speaker>
+<stage>(til Arvid, med h&#x00F8;i, imponerende r&#x00F8;st).</stage>
+<p rend="noIndent">Ja, det er din mor! Din mor, som i dette &#x00F8;ieblik for f&#x00F8;rste gang &#x00F8;nsker at v&#x00E6;re d&#x00F8;v istedenfor blind! &#x2013; Talma, kom hid til mig; jeg tr&#x00E6;nger st&#x00F8;tte nu. <stage>(Talma l&#x00F8;ber hurtig over <pb n="101"/>og holder hende i sine arme.)</stage> Saa lavt troede jeg aldrig du vilde handle. <stage>(Tankefuld.)</stage> Aa, hvor lykkelig var jeg ikke, den dag du blev f&#x00F8;dt! Slige forhaabninger, slige store tanker! &#x2013; Dengang da du blev d&#x00F8;dssyg, raabte jeg og bad til Gud om dit liv. Aa, hvor jeg elskede dig! Men hvor ofte har jeg ikke angret, at jeg bad slig! <stage>(Arvid staar b&#x00E6;vende foran hende.)</stage> Arvid! dengang bad jeg om dit liv; nu ber jeg dig kun om lidt hensyn til mig, som har lidt for din skyld i saa mange aar. Din mor ber dig, Arvid &#x2013; h&#x00F8;rer du? &#x2013; sig, du har l&#x00F8;iet lige overfor Talma! Sig, at du ikke har handlet som den v&#x00E6;rste af alle uslinger mod en uskyldig kvinde, som havde tillid til dig!</p>
+<stage>(Arvid staar taus, kj&#x00E6;mpende med sig selv.)</stage>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="2_8">
+<head type="sub">Ottende scene.</head>
+<stage>De forrige; Fanny.</stage>
+<stage>(Fanny aabner d&#x00F8;ren og kikker ind. Man h&#x00F8;rer musik indenfra.)</stage>
+<sp>
+<speaker>Fanny.</speaker>
+<p rend="noIndent">Mor! &#x2013; Sover du?</p>
+</sp>
+<sp>
+<speaker><pb n="102"/>Fru Skjoldberg.</speaker>
+<p rend="noIndent">Nei, barnet mit!</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<stage>(lykkelig).</stage>
+<p rend="noIndent">Jeg vilde bare fort&#x00E6;lle dig, at Jakob og jeg er blit gode venner igjen, og nu skal vi begynde at danse! &#x2013; Aa, jeg er saa glad for, at han tror paa den &#x00F8;refigen! <stage>(Ser Arvid og Talma.)</stage> Nei, nu maa dere virkelig komme, for nu begynder vi!</p>
+</sp>
+<sp>
+<speaker>Fru Skjoldberg.</speaker>
+<p rend="noIndent">De kommer snart, Fanny. Gaa du bare ind!</p>
+</sp>
+<sp>
+<speaker>Fanny.</speaker>
+<p rend="noIndent">Ja, du kan tro, vi har frygtelig moro.</p>
+<stage>(Gaar.)</stage>
+</sp>
+<sp>
+<speaker>Fru Skjoldberg.</speaker>
+<p rend="noIndent">Naa, Arvid jeg venter paa svar. <stage>(Arvid staar og ser efter Fanny, Talma ligger gr&#x00E6;dende over stolryggen bag fru Skjoldberg.)</stage> For dette uskyldige barns skyld <stage>(peger paa d&#x00F8;ren, hvor Fanny stod)</stage> &#x2013;  for din datters skyld: sig sandheden!</p>
+</sp>
+<sp>
+<speaker><pb n="103"/>Arvid</speaker>
+<stage>(stirrer aandel&#x00F8;s paa moderen; med udraab.)</stage>
+<p rend="noIndent">Mor! &#x2013; <stage>(Peger paa d&#x00F8;ren.)</stage> Er hun min datter?</p>
+</sp>
+<sp>
+<speaker>Fru Skjoldberg</speaker>
+<stage>(nikker bejaende).</stage>
+</sp>
+<sp>
+<speaker>Talma.</speaker>
+<stage>(raaber).</stage>
+<p rend="noIndent">Aa, jeg ante det!</p>
+</sp>
+<sp>
+<speaker>Arvid</speaker>
+<stage>(staar en stund som lammet; derpaa styrter han i moderens arme).</stage>
+<p rend="noIndent">Aa, mor! &#x2013; Du kj&#x00E6;re, kj&#x00E6;re mor!</p>
+</sp>
+<sp>
+<speaker>Fru Skjoldberg</speaker>
+<stage>(holder ham t&#x00E6;t op til sig).</stage>
+<p rend="noIndent">Faar jeg saa kalde Talma din &#x2013; din &#x2013;</p>
+</sp>
+<sp>
+<speaker>Arvid.</speaker>
+<p rend="noIndent">Hustru!</p>
+</sp>
+<sp>
+<speaker>Talma</speaker>
+<stage>(reiser sig op.)</stage>
+<p rend="noIndent">Aa, jeg vidste jo, det var saa! &#x2013; &#x2013;</p>
+<stage><p rend="center">Teppet falder.</p></stage>
+</sp>
+</div>
+</div>
+<div type="chapter" subtype="act" n="3">
+<head type="main"><ref type="contents" target="contents_4" xml:id="chapter_4">TREDJE AKT</ref></head>
+<stage><pb n="104"/>Samme dag som i forrige akt; aften. Vilhelm Skjoldbergs studerv&#x00E6;relse. Ilden br&#x00E6;nder lystig i en gammeldags kamin; foran denne chaise-longue og l&#x00E6;nestole; i hj&#x00F8;rnet et skrivebord. I baggrunden indgangsd&#x00F8;r og ved siden af denne et stort vindu, gjennem hvilket man ser det sneer udenfor. Paa den modsatte side af kaminen to d&#x00F8;re med portierer. En lampe med gr&#x00F8;n skjerm br&#x00E6;nder paa skrivebordet; ved siden af dette staar et skelet. Billedet af det d&#x00F8;ende barn h&#x00E6;nger mellem d&#x00F8;ren og vinduet i baggrunden.</stage>
+<div type="uchapter" subtype="scene" n="3_1">
+<head type="sub">F&#x00F8;rste scene.</head>
+<stage>Vilhelm; Fanny.</stage>
+<stage>(Vilhelm sidder l&#x00E6;sende i l&#x00E6;nestolen. Fanny kommer forsigtig ind; hun er neglig&#x00E9; og b&#x00E6;rer en liden lampe.)</stage>
+<sp>
+<speaker>Fanny.</speaker>
+<p rend="noIndent">Onkel Vilhelm!</p>
+</sp>
+<sp>
+<speaker>Vilhelm</speaker>
+<stage>(ser op).</stage>
+<p rend="noIndent">Er det dig, Fanny?</p>
+</sp>
+<sp>
+<speaker><pb n="105"/>Fanny</speaker>
+<stage>(kommer helt ind).</stage>
+<p rend="noIndent">Du blir vel ikke vond paa mig, fordi jeg kommer?</p>
+</sp>
+<sp>
+<speaker>Vilhelm.</speaker>
+<p rend="noIndent">Nei, langtfra, barnet mit! &#x2013; Kom herhen!</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<stage>(s&#x00E6;tter sig paa hans fang og stryger sine fingre gjennem hans haar).</stage>
+<p rend="noIndent">Aa, onkel Vilhelm, jeg er saa r&#x00E6;d for, at jeg har gjort noget galt i at danse saa meget iaften! &#x2013; <stage>(Hurtig.)</stage> Men tror du ikke, de morede sig hos os?</p>
+</sp>
+<sp>
+<speaker>Vilhelm</speaker>
+<stage>(beroligende).</stage>
+<p rend="noIndent">Jo vist, jo vist gjorde de saa! Det var jo bare moro. Og Jakob og du dansede jo saa nydelig! &#x2013;</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<stage>(uvilkaarlig).</stage>
+<p rend="noIndent">Du onkel, &#x2013; jeg tror, jeg er forlovet &#x2013; n&#x00E6;sten! &#x2013;</p>
+</sp>
+<sp>
+<speaker><pb n="106"/>Vilhelm</speaker>
+<stage>(undrende).</stage>
+<p rend="noIndent">Tror du?</p>
+</sp>
+<sp>
+<speaker>Fanny.</speaker>
+<p rend="noIndent">Ja, for nu er vi gode venner igjen, og iaften har han spurgt mig, om jeg vilde ha&#x0027; ham, naar han blev til noget.</p>
+</sp>
+<sp>
+<speaker>Vilhelm</speaker>
+<stage>(sp&#x00F8;rgende).</stage>
+<p rend="noIndent">Ha&#x0027; ham, naar han blev til noget?</p>
+</sp>
+<sp>
+<speaker>Fanny.</speaker>
+<p rend="noIndent">Aa, du ved, naar han blev noget stort saa vilde han ha&#x0027; mig til kone. <stage>(Alvorlig.)</stage> Men ikke f&#x00F8;r!</p>
+</sp>
+<sp>
+<speaker>Vilhelm.</speaker>
+<p rend="noIndent">Ja saa! <stage>(Ler.)</stage> &#x2013; Naa, saa du er altsaa forlovet?</p>
+</sp>
+<sp>
+<speaker>Fanny.</speaker>
+<p rend="noIndent">Ja, jeg svarede ja! &#x2013; Aa, onkel, naar du bare vidste, hvor deiligt det er at v&#x00E6;re <pb n="107"/>forlovet! &#x2013; At vide, der er nogen, som holder saa frygtelig af en! &#x2013; <stage>(L&#x00E6;ner sig ind til ham.)</stage> Du sukker? Har du aldrig vidst, hvad det er at elske, onkel Vilhelm?</p>
+</sp>
+<sp>
+<speaker>Vilhelm</speaker>
+<stage>(vil l&#x00F8;srive sig).</stage>
+<p rend="noIndent">Nei, barn! &#x2013; Nei.</p>
+</sp>
+<sp>
+<speaker>Fanny.</speaker>
+<p rend="noIndent">Men vilde du ikke &#x00F8;nske &#x2013; saadan rigtig l&#x00E6;nges efter &#x2013; at eie &#x00E9;n, en eneste, som du kunde holde rigtig af?</p>
+</sp>
+<sp>
+<speaker>Vilhelm.</speaker>
+<p rend="noIndent">Hvad nytter det at &#x00F8;nske, Fanny? &#x2013; Hvad vilde det nytte mig at holde af nogen, naar det ikke blev gjengj&#x00E6;ldt?</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<stage>(fortrolig).</stage>
+<p rend="noIndent">Du onkel, nu skal jeg betro dig noget; men du maa endelig ikke fort&#x00E6;lle det til nogen, h&#x00F8;rer du! &#x2013; Fr&#x00F8;ken Talma er saa glad i dig, du! <stage>(Vilhelm vil reise sig, men Fanny holder <pb n="108"/>ham nede.)</stage> Bliv siddende ganske rolig, saa skal du h&#x00F8;re. Igaar kom jeg op til mor, som just da var falden i s&#x00F8;vn. Og da saa jeg Talma staa med dit billede i haanden og kysse det gang paa gang. Og saa h&#x00F8;rte jeg hende sige halvh&#x00F8;it til sig selv: «Aa, du kj&#x00E6;re, &#x00E6;dle menneske &#x2013; om jeg kunde fort&#x00E6;lle dig alt!» &#x2013; Jeg listed mig forsigtig ned ad trappen igjen. Var det ikke rigtigt, onkel Vilhelm?</p>
+</sp>
+<sp>
+<speaker>Vilhelm</speaker>
+<stage>(som fra sig selv).</stage>
+<p rend="noIndent">Jo, jo &#x2013; det var det vel.</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<stage>(reiser sig og tar ham om halsen).</stage>
+<p rend="noIndent">Aa, hvor jeg er glad i dig &#x2013; og i fr&#x00F8;ken Talma!</p>
+</sp>
+<sp>
+<speaker>Vilhelm</speaker>
+<stage>(kysser hende).</stage>
+<p rend="noIndent">Naar man er lykkelig selv, Fanny, spreder man altid solstraaler til andre.</p>
+</sp>
+<sp>
+<speaker><pb n="109"/>Fanny</speaker>
+<stage>(alvorlig).</stage>
+<p rend="noIndent">Men jeg er ikke rigtig lykkelig, onkel. <stage>(Lidt vigtig.)</stage> Og det kan da heller ingen v&#x00E6;re, som b&#x00E6;rer paa en hemmelighed.</p>
+</sp>
+<sp>
+<speaker>Vilhelm.</speaker>
+<p rend="noIndent">Paa en hemmelighed? <stage>(Hun nikker.)</stage> Men hvad er det for en hemmelighed, Fanny.</p>
+</sp>
+<sp>
+<speaker>Fanny.</speaker>
+<p rend="noIndent">Fortalte jeg det, saa blev det jo ikke nogen hemmelighed &#x2013; vel, onkel?</p>
+</sp>
+<sp>
+<speaker>Vilhelm.</speaker>
+<stage>(langtrukkent).</stage>
+<p rend="noIndent">Nei &#x2013; nei!</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<stage>(b&#x00F8;ier sig over ham).</stage>
+<p rend="noIndent">Nu vil jeg gaa til sengs. Vil du v&#x00E6;re saa snild at f&#x00F8;lge mig over den lange gang derude?</p>
+</sp>
+<sp>
+<speaker><pb n="110"/>Vilhelm</speaker>
+<stage>(sp&#x00F8;gende).</stage>
+<p rend="noIndent">Er Fanny r&#x00E6;d for sp&#x00F8;gelser?</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<stage>(alvorlig).</stage>
+<p rend="noIndent">Nei, onkel, for sp&#x00F8;gelser er jeg ikke r&#x00E6;d, men for mennesker; &#x2013; aa, de er langt v&#x00E6;rre! &#x2013; Kommer du saa?</p>
+</sp>
+<sp>
+<speaker>Vilhelm</speaker>
+<stage>(tankefuld).</stage>
+<p rend="noIndent">Ja, de er meget, meget v&#x00E6;rre! &#x2013;  Ja vist skal jeg f&#x00F8;lge dig!</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<stage>(idet hun gaar).</stage>
+<p rend="noIndent">Jeg skj&#x00F8;nner ikke, at du kunde kj&#x00F8;be sligt uhyggeligt maleri, onkel! Jeg gyser, hvergang jeg ser det &#x2013;</p>
+</sp>
+<sp>
+<speaker>Vilhelm</speaker>
+<stage>(alvorlig).</stage>
+<p rend="noIndent">Der er nok meget, du ikke skj&#x00F8;nner endnu, barn. Kom nu! <stage>(Tar hende om livet og gaar med hende ud.)</stage></p>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="3_2">
+<head type="sub"><pb n="111"/>Anden scene.</head>
+<stage>Arvid (alene).</stage>
+<stage>(Efter en pause h&#x00F8;rer man en st&#x00F8;i som af en, der famler for at finde d&#x00F8;ren; endelig blir den revet op, og Arvid kommer ind, halvt beruset og veltende en del stole, som staar i hans vei).</stage>
+<sp>
+<speaker>Arvid.</speaker>
+<p rend="noIndent">Se her &#x2013; her har jeg sgu aldrig v&#x00E6;ret f&#x00F8;r. Her er hyggeligt! Rigtig koseligt er her. Det er vel her, han lager alle pillerne. <stage>(T&#x00E6;nder en cigar.)</stage> Her kunde man r&#x00F8;ge, sa&#x0027; han. Det er for resten kjedeligt at tilstaa, is&#x00E6;r for sig selv, at man altid gaar over stregen! &#x2013; Men slige forunderlige mennesker, disse honoratiores! Alting gaar som paa en streg! De er saa r&#x00E6;dde for at faa en rynke paa skindet sit, skj&#x00F8;nt de i grunden helst vilde slaa sig l&#x00F8;s. Men de t&#x00F8;r ikke &#x2013; de t&#x00F8;r ikke! &#x2013; <stage>(Med en overgang.)</stage> Vinen var superb! &#x2013; Storartet mad! &#x2013; Men kvinderne &#x2013; bare antikviteter, &#x2013; naar undtages Fanny. Hun tog sig pr&#x00E6;gtig ud &#x2013; og dansede som en engel! &#x2013; Hvor verden er forbausende liden! <pb n="112"/>At tr&#x00E6;ffe Talma her, hvem anede sligt? &#x2013; Situationen kjeder mig gyselig! &#x2013; Mor kyssed mig nylig, og saa str&#x00F8;g hun de lange, magre fingrene gjennem mit haar. <stage>(Gysende.)</stage> Uh, det var, som hun vilde rive alt ondt ud af mig; men det blev siddende <stage>(holder sig for brystet)</stage> &#x2013; siddende her! &#x2013; Det maa i grunden v&#x00E6;re deiligt at f&#x00F8;le sig saa god og &#x00E6;del som mor! &#x2013;? Jeg tror, jeg er blit fuld igjen. <stage>(Ser skelettet.)</stage> Hei, du gamlen! Du ser mig ud til, at en konjak ikke kunde skade dig! &#x2013; Hvorfor glor du slig paa mig? Du var kanske ikke bedre du, da du havde kj&#x00F8;d paa. Ja, du kan sagtens le af mig; du er forl&#x00E6;ngst ude over det, du; men jeg har mit til gode; jeg er ikke f&#x00E6;rdig endda, jeg! <stage>(Ser skarpt paa skelettet.)</stage> Saa det er altsaa mennesket n&#x00F8;gent! Ha ha ha! Benene veier i grunden mest! <stage>(Han holder sig for hjertet.)</stage> Nu er det der igjen, dette stik &#x2013; her &#x2013; i hjertet. &#x2013;Forbistret! <stage>(Tar op en liden flaske.)</stage> Jeg faar ta&#x0027; lidt af dette! &#x2013; <stage>(Skj&#x00E6;lvende.)</stage> Uh, nu begynder det igjen &#x2013; synerne &#x2013; disse &#x00F8;ine, som forf&#x00F8;lger mig &#x2013; dette d&#x00F8;ende udtryk! &#x2013; Ha  &#x2013; jeg kv&#x00E6;les! <stage>(Han drikker af flasken; <pb n="113"/>derpaa reiser han sig og gaar op og ned. Han kommer til at se op og faar &#x00F8;ie paa maleriet, udst&#x00F8;der et h&#x00F8;it skrig og synker om paa sofaen.)</stage> &#x2013; Kunstverket &#x2013; &#x00F8;inene! &#x2013; Eivind! &#x2013; Ha, stir ikke slig paa mig! &#x2013; Jeg kv&#x00E6;les! &#x2013; Talma, Talma, tag ham bort! &#x2013; H&#x00F8;rer du, Talma! &#x2013; <stage>(Ser op igjen.)</stage> &#x00D8;inene &#x2013; de forf&#x00F8;lger mig! &#x2013; de dr&#x00E6;ber mig! &#x2013; dr&#x00E6;ber mig! <stage>(Falder st&#x00F8;nnende om paa sofaen.)</stage></p>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="3_3">
+<head type="sub">Tredje scene.</head>
+<stage>Arvid; Vilhelm; Talma; (til slut) de andre optr&#x00E6;dende.</stage>
+<sp>
+<speaker>Vilhelm</speaker>
+<stage>(kommer ind med Talma uden f&#x00F8;rst at se Arvid).</stage>
+<p rend="noIndent">Vent bare et &#x00F8;ieblik! Nu skal De faa anden del af bogen. <stage>(Gaar hen til skrivebordet, tar en bog og gir Talma den.)</stage></p>
+</sp>
+<sp>
+<speaker>Talma.</speaker>
+<p rend="noIndent">Tak!</p>
+</sp>
+<sp>
+<speaker><pb n="114"/>Wilhelm</speaker>
+<stage>(tar hendes haand).</stage>
+<p rend="noIndent">Naar vil slutningskapitlet i Deres bog blive f&#x00E6;rdigt, fr&#x00F8;ken Talma?</p>
+</sp>
+<sp>
+<speaker>Talma</speaker>
+<stage>(gyser).</stage>
+<p rend="noIndent">Jeg har ikke mod nok til at forts&#x00E6;tte &#x2013; ikke nu!</p>
+</sp>
+<sp>
+<speaker>Vilhelm.</speaker>
+<p rend="noIndent">Mod? &#x2013; Kan ikke jeg give Dem mod &#x2013;?</p>
+</sp>
+<sp>
+<speaker>Talma</speaker>
+<stage>(inderlig).</stage>
+<p rend="noIndent">De er den eneste, som kan! <stage>(Arvid udst&#x00F8;der et skrig; de vender sig og ser ham. Talma l&#x00F8;ber hen og b&#x00F8;ier sig over ham udbrydende:)</stage> Arvid!</p>
+</sp>
+<sp>
+<speaker>Vilhelm</speaker>
+<stage>(forbauset).</stage>
+<p rend="noIndent">Er det min bror?</p>
+</sp>
+<sp>
+<speaker>Talma.</speaker>
+<p rend="noIndent">Ja, det er jo Deres bror! &#x2013;</p>
+</sp>
+<sp>
+<speaker><pb n="115"/>Vilhelm</speaker>
+<stage>(ser skarpt paa hende).</stage>
+<p rend="noIndent">Talma! <stage>(Griber hende i armen.)</stage> Er det &#x2013; for hans skyld, jeg ikke faar svar? &#x2013; <stage>(Talma nikker taus; han staar aandel&#x00F8;s og ser paa hende. Arvid faar sine anfald igjen. Talma synker graatende i kn&#x00E6;.)</stage></p>
+</sp>
+<sp>
+<speaker>Vilhelm</speaker>
+<stage>(&#x00E6;ngstelig udbrydende).</stage>
+<p rend="noIndent">Talma! &#x2013; Svar mig! &#x2013; Er det sandt, De var hans &#x2013; hans &#x2013;? <stage>(Han skjuler sit ansigt.)</stage></p>
+</sp>
+<sp>
+<speaker>Talma</speaker>
+<stage>(r&#x00E6;kker h&#x00E6;nderne op mod ham).</stage>
+<p rend="noIndent">&#x2013; hans hustru, Vilhelm!</p>
+</sp>
+<sp>
+<speaker>Vilhelm</speaker>
+<stage>(lettet, synker i en stol).</stage>
+<p rend="noIndent">Hans hustru &#x2013; hans hustru! &#x2013; Stakkars, stakkars Talma! &#x2013; Og historien om barnet?</p>
+</sp>
+<sp>
+<speaker>Talma.</speaker>
+<p rend="noIndent">Barnet &#x2013; var vort! <stage>(Hun peger paa Arvid, som urolig kaster sig frem og tilbage.)</stage></p>
+</sp>
+<sp>
+<speaker><pb n="116"/>Vilhelm</speaker>
+<stage>(reiser sig og knytter haanden truende mod Arvid).</stage>
+<p rend="noIndent">Usling! &#x2013; Usling!</p>
+</sp>
+<sp>
+<speaker>Talma.</speaker>
+<p rend="noIndent">Hys, Vilhelm! &#x2013; Her d&#x00F8;mmer nok en h&#x00F8;iere end vi. <stage>(Peger paa Arvid, som under det f&#x00F8;lgende kj&#x00E6;mper med d&#x00F8;den og h&#x00F8;res at raabe i l&#x00F8;srevne udbrud.)</stage></p>
+</sp>
+<sp>
+<speaker>Arvid.</speaker>
+<p rend="noIndent">Eivind &#x2013;! &#x2013; Talma &#x2013;! &#x2013; Maleriet &#x2013;! <stage>(Talma og Vilhelm s&#x00F8;ger fra hver sin side af sofaen at underst&#x00F8;tte og berolige ham. I det samme falder flasken ned paa gulvet; Vilhelm tar den op og viser Talma den.)</stage></p>
+</sp>
+<sp>
+<speaker>Vilhelm.</speaker>
+<p rend="noIndent">Han har t&#x00F8;mt denne! &#x2013; Da er det nok snart forbi. <stage>(Holder sig for panden og slynger flasken hen ad gulvet.)</stage></p>
+</sp>
+<sp>
+<speaker>Arvid</speaker>
+<stage>(reiser sig pludselig med et skrig).</stage>
+<p rend="noIndent">Talma! &#x2013; Nemesis! &#x2013; Talma! &#x2013; <stage>(Falder tilbage og d&#x00F8;r.)</stage></p>
+</sp>
+<stage>(Fra baggrunden kommer moren, st&#x00F8;ttet af Betzy Skram og kandidat Wang; efter dem de andre optr&#x00E6;dende.)</stage>
+<sp>
+<speaker><pb n="117"/>Fru Skjoldberg</speaker>
+<stage>(med h&#x00E6;vet stemme).</stage>
+<p rend="noIndent">Hvem raaber slig paa denne tid af natten? <stage>(Pause.)</stage> Gutter! &#x2013; svar mig! &#x2013; <stage>(Langsomt.)</stage> Er Arvid drukken nu igjen?</p>
+</sp>
+<sp>
+<speaker>Vilhelm</speaker>
+<stage>(reiser sig).</stage>
+<p rend="noIndent">Nei, mor! &#x2013; Arvid er d&#x00F8;d.</p>
+</sp>
+<sp>
+<speaker>Fru Skjoldberg</speaker>
+<stage>(h&#x00F8;itidelig).</stage>
+<p rend="noIndent">Er han d&#x00F8;d? &#x2013; <stage>(Amindelig hulken.)</stage> Da undrer det mig, at I graater! &#x2013; &#x2013; Guds vilje ske! &#x2013; &#x2013;</p>
+<stage><p rend="center">Teppet falder.</p></stage>
+</sp>
+</div>
+</div>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,1579 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI PUBLIC "-// TEI P5 //EN" "http://www.tei-c.org/release/xml/tei/custom/schema/dtd/tei_all.dtd">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="BS_Frimann_DenSyngendeSoemand">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>bokselskap.no, Oslo 2020
+<lb/>Claus Frimann: <hi rend="italic">Den syngende S&#x00F8;emand</hi>
+<lb/>Teksten i bokselskap.no f&#x00F8;lger 1. utgave, 1793 (Bergen/R. Dahl Efterleverske). Digitaliseringen er basert p&#x00E5; fil mottatt fra Nasjonalbiblioteket (nb.no).
+<lb/>ISBN: 978-82-8319-555-2 (digital, bokselskap.no), <lb/>978-82-8319-556-9 (epub), 978-82-8319-557-6 (mobi)
+</title>
+</titleStmt>
+<publicationStmt>
+<p>Publiseres som digital tekst av bokselskap.no.</p></publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Den syngende S&#x00F8;emand</title>
+<author>Claus Frimann</author>
+<publisher>R. Dahl Efterleverske</publisher>
+<pubPlace>Bergen</pubPlace>
+<date>1793</date>
+<note>digibok_2009030512003, mottatt fra Nasjonalbiblioteket 2020</note>
+</bibl>
+</sourceDesc>
+</fileDesc>
+<revisionDesc>
+<change xml:id="ENW" who="ENW" when="2020-07-03">Konvertert fra Word -> XML (TEI P5). Entiteter, kodekontroll og validering. Lagt inn ISBN.</change>
+</revisionDesc>
+</teiHeader>
+<text xml:id="BS_Frimann_DenSyngendeSoemand_tekst" type="poems">
+<front>
+<titlePage type="main">
+<byline><docAuthor>Claus Frimann</docAuthor></byline>
+<docTitle>
+<titlePart type="main">Den syngende S&#x00F8;emand</titlePart>
+<titlePart type="sub">Indeholdende 25 nye smaa Viiser og S&#x00F8;emandssange, til uskyldig Tidsfordriv paa S&#x00F8;en, forfattede i Aaret 1792. Tilligemed en Mindesang om den allerf&#x00F8;rste Norske Ostindiefarer, kaldet Prinds Carl, som af Hr. Conference-Raad Berent Anker blev udreedet i Aaret 1791</titlePart>
+</docTitle>
+<docDate>bokselskap.no<lb/>Oslo 2020</docDate>
+</titlePage>
+<div xml:id="contents">
+<list type="contents_main">
+<item><ref target="chapter_1" xml:id="contents_1">No. 1. En ung Matros som f&#x00F8;rste Gang udkommanderes</ref></item>
+<item><ref target="chapter_2" xml:id="contents_2">No. 2</ref></item>
+<item><ref target="chapter_3" xml:id="contents_3">No. 3</ref></item>
+<item><ref target="chapter_4" xml:id="contents_4">No. 4</ref></item>
+<item><ref target="chapter_5" xml:id="contents_5">No. 5</ref></item>
+<item><ref target="chapter_6" xml:id="contents_6">No. 6</ref></item>
+<item><ref target="chapter_7" xml:id="contents_7">No. 7</ref></item>
+<item><ref target="chapter_8" xml:id="contents_8">No. 8</ref></item>
+<item><ref target="chapter_9" xml:id="contents_9">No. 9</ref></item>
+<item><ref target="chapter_10" xml:id="contents_10">No. 10. Cort Adeler</ref></item>
+<item><ref target="chapter_11" xml:id="contents_11">No. 11. Reidar Griotgardsen</ref></item>
+<item><ref target="chapter_12" xml:id="contents_12">No. 12. Carl den M&#x00F8;rske</ref></item>
+<item><ref target="chapter_13" xml:id="contents_13">No. 13. Frithiof</ref></item>
+<item><ref target="chapter_14" xml:id="contents_14">No. 14</ref></item>
+<item><ref target="chapter_15" xml:id="contents_15">No. 15</ref></item>
+<item><ref target="chapter_16" xml:id="contents_16">No. 16</ref></item>
+<item><ref target="chapter_17" xml:id="contents_17">No. 17</ref></item>
+<item><ref target="chapter_18" xml:id="contents_18">No. 18. Under Indsegling igien til Norge</ref></item>
+<item><ref target="chapter_19" xml:id="contents_19">No. 19. En Matros-Sang</ref></item>
+<item><ref target="chapter_20" xml:id="contents_20">No. 20</ref></item>
+<item><ref target="chapter_21" xml:id="contents_21">No. 21. Til Nords&#x00F8;en</ref></item>
+<item><ref target="chapter_22" xml:id="contents_22">No. 22. Om &#x00D8;resundet</ref></item>
+<item><ref target="chapter_23" xml:id="contents_23">No. 23. Ved at m&#x00F8;des paa S&#x00F8;en</ref></item>
+<item><ref target="chapter_24" xml:id="contents_24">No. 24. Sang for en Lots</ref></item>
+<item><ref target="chapter_25" xml:id="contents_25">No. 25. Paa et Skib, som bringer F&#x00F8;devahrer</ref></item>
+<item><ref target="chapter_26" xml:id="contents_26">Mindesang om den allerf&#x00F8;rste Norske Ostindiefarer</ref></item>
+</list>
+</div>
+</front>
+<body>
+<div type="chapter" n="1">
+<head type="main"><ref type="contents" target="contents_1" xml:id="chapter_1">No. 1. En ung Matros som f&#x00F8;rste Gang udkommanderes</ref></head>
+<p rend="center">Mel. Jeg er en Mand, som har saa vidt etc.</p>
+<lg>
+<head type="sub">1.</head>
+<l>Min Konge troe jeg soeret har at v&#x00E6;re;</l>
+<l>Har Kongen Skib, saa maae han have Mand:</l>
+<l>Hvad jeg ey veed, det t&#x00E6;nker jeg at l&#x00E6;re,</l>
+<l>Og aldrig var jeg saadan Dumrian.</l>
+</lg>
+<lg>
+<head type="sub">2.</head>
+<l>Af Veyen I, som gaae mig her og krybe!</l>
+<l>For Kongens Karl, saa Hatten af, du Kn&#x00E6;gt!</l>
+<l>At tages an paa Kongens egne Skibe,</l>
+<l>Jo, Broder! jo, det have vil Respect.</l>
+</lg>
+<lg>
+<head type="sub">3.</head>
+<l>I Lommen alt saa b&#x00E6;r jeg Kongens Penge &#x2013;</l>
+<l>Et Glas herhid! &#x2013; nu det er Kongens Skaal;</l>
+<l>Til Borg og Laan vel den, som ey mon tr&#x00E6;nge!</l>
+<l>Den kan slaae Knep for baade Peer og Paal.</l>
+</lg>
+<lg>
+<head type="sub">4.</head>
+<l>Og nok en Skaal for gode Officeerer!</l>
+<l>Og for enhver min &#x00E6;rlig Kammerat!</l>
+<l>Og for mig selv: &#x2013; naar man mig commanderer,</l>
+<l>At let jeg da maae springe som en Kat!</l>
+</lg>
+<lg>
+<head type="sub"><pb n="2"/>5.</head>
+<l>Jeg synes alt at see mig selv deroppe,</l>
+<l>Nu vayende paa yderligste Raae,</l>
+<l>Og nu igien fra Vant til Vant at hoppe,</l>
+<l>Og nu igien mit Glas til Roers at staae.</l>
+</lg>
+<lg>
+<head type="sub">6.</head>
+<l>Lad n&#x00E6;rme sig, de som vil os forhaane,</l>
+<l>Og de, som Seyl for os ey stryge vil,</l>
+<l>Min Tr&#x00F8;ye dem da vil jeg ikke laane,</l>
+<l>Naar med dem ind vi komme ret i Spil.</l>
+</lg>
+</div>
+<div type="chapter" n="2">
+<head type="main"><ref type="contents" target="contents_2" xml:id="chapter_2">No. 2</ref></head>
+<p rend="center">Mel. Det h&#x00E6;ndte sig, Jefta, den Gileads Mand.</p>
+<lg>
+<head type="sub">1.</head>
+<l>Forstaaer du ey denne saa nyttige Konst,</l>
+<l>Paa Skr&#x00F8;det at fire og hale,</l>
+<l>Til Maalet at komme du t&#x00E6;nker omsonst,</l>
+<l>Hvormeget du end monne prale;</l>
+<l>Af Gangen et Skridt</l>
+<l>Vel synes for lidt.</l>
+<l>Men kan dog Umagen betale.</l>
+</lg>
+<lg>
+<head type="sub">2.</head>
+<l>Med Seylet oprullet paa vayende Raae</l>
+<l>Du ligger og kommer ey l&#x00E6;nger.</l>
+<l>Med Seylene sp&#x00E6;ndte at lade kun gaae,</l>
+<l>Vel give dig dandsende St&#x00E6;nger;</l>
+<l>Men hael kun og fiir,</l>
+<l>Beholden du bliir,</l>
+<l>Og Stormen du giennem dig tr&#x00E6;nger.</l>
+</lg>
+<lg>
+<head type="sub"><pb n="3"/>3.</head>
+<l>Til &#x00C6;re, til Velstand, til gunstige Sind</l>
+<l>Paa Modgangs fortr&#x00E6;delig B&#x00F8;lge</l>
+<l>Du lykkelig haler og fiirer dig ind</l>
+<l>Ved S&#x00F8;emands Exempel at f&#x00F8;lge;</l>
+<l>Naar Anker er kast,</l>
+<l>Og Foden er fast,</l>
+<l>Da leer du ad Storm og ad B&#x00F8;lge.</l>
+</lg>
+</div>
+<div type="chapter" n="3">
+<head type="main"><ref type="contents" target="contents_3" xml:id="chapter_3">No. 3</ref></head>
+<lg>
+<head type="sub">1.</head>
+<l>I Frankerig, hvor jeg kom fra</l>
+<l>Forganqen,</l>
+<l>Hvad Pokkers Huus var der ey da;</l>
+<l>Thi &#x00AB;Fangen</l>
+<l>Er Kongen selv og hans Parti,&#x00BB;</l>
+<l>Saa raabte man, &#x2013; &#x00AB;nu holde vi</l>
+<l>Ham Stangen &#x2013;&#x00BB;</l>
+</lg>
+<lg>
+<head type="sub">2.</head>
+<l>Hvad, t&#x00E6;nkte jeg, mon dette T&#x00F8;y</l>
+<l>Kan v&#x00E6;re?</l>
+<l>Slig Kost for Konger maae falde dr&#x00F8;y</l>
+<l>At t&#x00E6;re;</l>
+<l>At v&#x00E6;re Konge i Frankerig,</l>
+<l>Om man mig b&#x00F8;d, frabad jeg mig</l>
+<l>Den &#x00C6;re.</l>
+</lg>
+<lg>
+<head type="sub">3.</head>
+<l>Det giorde mig i mit Hierte Sting,</l>
+<l>At h&#x00F8;re:</l>
+<l>At Folket saa med Kongen i Ring</l>
+<l>Mon ki&#x00F8;re;</l>
+<l><pb n="4"/>Skinbarlig det er, saa t&#x00E6;nkte jeg,</l>
+<l>Selv Fanden, som Folket paa saadan Vey</l>
+<l>Mon f&#x00F8;re.</l>
+</lg>
+<lg>
+<head type="sub">4.</head>
+<l>En HErrens Salved, at spotte ham</l>
+<l>Med L&#x00E6;be,</l>
+<l>Og efter Kronen sat paa ham</l>
+<l>At str&#x00E6;be &#x2013;</l>
+<l>Fy, for en Skam for &#x00E6;rligt Folk!</l>
+<l>Mon det er mindre, end med Dolk</l>
+<l>At dr&#x00E6;be?</l>
+</lg>
+<lg>
+<head type="sub">5.</head>
+<l>Hans Kamerater: Keyseren</l>
+<l>Og flere,</l>
+<l>Kan de vel taale, man vil deres Ven</l>
+<l>Tortere?</l>
+<l>Var jeg nu Keyser et &#x00D8;yeblik,</l>
+<l>Jeg skulde med Tampen, saa det havde Skik,</l>
+<l>Dem l&#x00E6;re.</l>
+</lg>
+<lg>
+<head type="sub">6.</head>
+<l>Og, var jeg Konge af Preusen, &#x2013; jo,</l>
+<l>Jeg skulde</l>
+<l>Dem give sin Pibe t&#x00E6;ndt, min Troe!</l>
+<l>Tilfulde,</l>
+<l>Og tage dem rigtig i deres Karduus,</l>
+<l>Og sige: hvad er det, godt Folk, for et Huus</l>
+<l>I holde?</l>
+</lg>
+<lg>
+<head type="sub">7.</head>
+<l>Paa Fallerebet det v&#x00E6;re maae</l>
+<l>Med Paven;</l>
+<l><pb n="5"/>Han n&#x00E6;vnes saa sielden, som om han laae</l>
+<l>I Graven;</l>
+<l>Et Holmens Fadervor kunde han vel</l>
+<l>For Fransken l&#x00E6;se, og give et Sm&#x00E6;ld</l>
+<l>Med Staven.</l>
+</lg>
+<lg>
+<head type="sub">8.</head>
+<l>Naar vores Konge byder: gaae!</l>
+<l>Saa gaaer man,</l>
+<l>Og naar han atter byder: staae!</l>
+<l>Saa staaer man;</l>
+<l>Hvad Kongen byder, det Folket gi&#x00F8;r,</l>
+<l>Hvad Kongen fordrer, som det sig b&#x00F8;r,</l>
+<l>Det faaer han.</l>
+</lg>
+<lg>
+<head type="sub">9.</head>
+<l>Her lever man saa godt og vel</l>
+<l>I Landet;</l>
+<l>Om Kongen her af nogen Siek</l>
+<l>Blev bandet,</l>
+<l>Jeg gav ham strax en varm Konfekt;</l>
+<l>Fortiente saadan Tyvekn&#x00E6;gt</l>
+<l>Vel andet?</l>
+</lg>
+</div>
+<div type="chapter" n="4">
+<head type="main"><ref type="contents" target="contents_4" xml:id="chapter_4">No. 4</ref></head>
+<lg>
+<head type="sub">1.</head>
+<l>Hvor Oxesteeg vinker ad kommende H&#x00E6;nder</l>
+<l>Paa store og blanke udhamrede Tin,</l>
+<l>Men sp&#x00F8;r derhos efter grundmurede T&#x00E6;nder,</l>
+<l>Og Jungerne brede, om hver haver sin,</l>
+<l><pb n="6"/>Hvor syngende Glasse saa yndelig klinge,</l>
+<l>Is&#x00E6;r naar man drikker sin Ki&#x00E6;restes Skaal,</l>
+<l>Og hvor man de Dandse saa lystelig springe,</l>
+<l>Did ki&#x00F8;re vi nu paa Neptuns Kariol.</l>
+</lg>
+<lg>
+<head type="sub">2.</head>
+<l>Det Land er det bedste blandt hundrede Riger;</l>
+<l>Det ligner vort Norge som to Draaber Vand:</l>
+<l>Der finder man altid de raskeste Piger,</l>
+<l>Der finder man altid den &#x00E6;rligste Mand:</l>
+<l>Du pr&#x00F8;ve vil Styrke, en Dray ham du laaner.</l>
+<l>Men see, om han ey den betaler igien &#x2013;</l>
+<l>Ney, bort med de Slyngler og alle Kujoner!</l>
+<l>Den engelske Mand er min ki&#x00E6;reste Ven.</l>
+</lg>
+<lg>
+<head type="sub">3.</head>
+<l>Ey var det for Flyndre og Hvidling at fiske,</l>
+<l>At vore Forf&#x00E6;dre foer' over den S&#x00F8;e;</l>
+<l>Naar Tiden faldt lang, og de vilde sig friske,</l>
+<l>Da vendte de Stavnen, til Britternes &#x00D8;e;</l>
+<l>De t&#x00E6;nkte, som Sandhed, Halvbr&#x00F8;dre vi ere,</l>
+<l>Og Br&#x00F8;dre og Ligem&#x00E6;nd spille jo bedst;</l>
+<l>Thi holdt de paa Marken med H&#x00E6;der og &#x00C6;re</l>
+<l>Saa mangen navnkundig og ridderlig Fest.</l>
+</lg>
+<lg>
+<head type="sub">4.</head>
+<l>Ey vare de bange sit &#x00D8;ye at vove,</l>
+<l>Vist vanked der mangen ret blodig Kavay;</l>
+<l>Men see, om ey der nu saa rolig de sove</l>
+<l>I H&#x00F8;yene deres, som jeg i min Koy; &#x2013;</l>
+<l>De H&#x00F8;ye, som Koye for dem nu mon v&#x00E6;re,</l>
+<l>Dem vil jeg bes&#x00F8;ge, og bedst som jeg veed,</l>
+<l><pb n="7"/>Med l&#x00F8;ftet Kabuse beviise dem &#x00C6;re,</l>
+<l>Og sige: Nu hviler, I Venner, i Fred!</l>
+</lg>
+</div>
+<div type="chapter" n="5">
+<head type="main"><ref type="contents" target="contents_5" xml:id="chapter_5">No. 5</ref></head>
+<lg>
+<head type="sub">1.</head>
+<l>Der, hvor den store Sultan er</l>
+<l>Bormester,</l>
+<l>Og der, hvor Folket d&#x00F8;er som St&#x00E6;r</l>
+<l>Af Pester,</l>
+<l>Jeg veed ey, om jeg reyser did &#x2013;</l>
+<l>Blandt Christne jeg kan jo slide den Tid,</l>
+<l>Som rester.</l>
+</lg>
+<lg>
+<head type="sub">2.</head>
+<l>Dog Tyrker nok blandt christne Folk,</l>
+<l>Desv&#x00E6;rre!</l>
+<l>Vel sielden Sabel, mindre Dolk</l>
+<l>De b&#x00E6;re;</l>
+<l>Men sl&#x00E6;kker de ey sin N&#x00E6;stes Bug,</l>
+<l>Ham paa hans Velf&#x00E6;rd dygtig i Smug</l>
+<l>De ski&#x00E6;re.</l>
+</lg>
+<lg>
+<head type="sub">3.</head>
+<l>Sit Hesteki&#x00F8;d vel spise raadt</l>
+<l>De Tyrker,</l>
+<l>Thi, alting, sige de, er godt.</l>
+<l>Som styrker;</l>
+<l>Men de, som &#x00E6;de de B&#x00F8;nder op,</l>
+<l>Mon slige ey fra Taa til Top</l>
+<l>Er' Tyrker?</l>
+</lg>
+<lg>
+<head type="sub"><pb n="8"/>4.</head>
+<l>Hos Tyrkerne man ey med Ret</l>
+<l>Kan prise,</l>
+<l>At Dyrkelse de Mahomet</l>
+<l>Bevise;</l>
+<l>Men mangen Mand, som er sendt ud</l>
+<l>Af Fanden selv, dog som en Gud</l>
+<l>Vi prise.</l>
+</lg>
+<lg>
+<head type="sub">5.</head>
+<l>De smukkeste Piger den Sultan hvor</l>
+<l>Han finder,</l>
+<l>Udi sit Huus de stakkels Faar</l>
+<l>Han binder;</l>
+<l>Men, sagde jeg det, jeg neppe l&#x00F8;y,</l>
+<l>At mangen heri er vel saa dr&#x00F8;y</l>
+<l>En Synder.</l>
+</lg>
+<lg>
+<head type="sub">6.</head>
+<l>Hvi er man da saa bitter, vred</l>
+<l>Paa Tyrken,</l>
+<l>Da midt udi vor Christenhed</l>
+<l>Boer Tyrken &#x2013;</l>
+<l>Jeg fatter derfor et andet Sind,</l>
+<l>Og setter med Skibet lige ind</l>
+<l>Til Tyrken.</l>
+</lg>
+</div>
+<div type="chapter" n="6">
+<head type="main"><ref type="contents" target="contents_6" xml:id="chapter_6">No. 6</ref></head>
+<lg>
+<head type="sub">1.</head>
+<l>Jeg har ikke seet den gr&#x00F8;nlandske Iis,</l>
+<l>Men meget om samme h&#x00F8;rt tale;</l>
+<l><pb n="9"/>Der er, (som fort&#x00E6;lles) et sandt Paradiis,</l>
+<l>At sige, for gr&#x00F8;nlandske Hvale;</l>
+<l>Med frugtbare Miil</l>
+<l>Ey bytte de vil,</l>
+<l>Om man dem end vilde betale.</l>
+</lg>
+<lg>
+<head type="sub">2.</head>
+<l>Men der, hvor der voxer ey Erter, ey Kaal,</l>
+<l>Hvor blive de Hvale saa tykke,</l>
+<l>Saa feede, saa st&#x00E6;rke, saa lange af Maal?</l>
+<l>Det, Broder! begriber jeg ikke &#x2013;</l>
+<l>Maaskee det gaaer der,</l>
+<l>Som tidt sees her:</l>
+<l>De Store de Smaa undertrykke.</l>
+</lg>
+<lg>
+<head type="sub">3.</head>
+<l>Og derfor, maaskee, sender Himmelen os,</l>
+<l>Og lader os Skibene ruste,</l>
+<l>At vi skulle byde de Singhalse Trods,</l>
+<l>Og efter de Ki&#x00E6;ltringer kuste,</l>
+<l>Thi Fiskene smaae</l>
+<l>Jo maatte forgaae,</l>
+<l>Naar ey de fik Tid til at puste.</l>
+</lg>
+<lg>
+<head type="sub">4.</head>
+<l>I graadige Store paa gr&#x00F8;nnere Jord,</l>
+<l>Som Smaafolket gierne fort&#x00E6;rte!</l>
+<l>Min ki&#x00E6;rlig Erindring, mit peegende Ord</l>
+<l>O, gid at I tone til Hierte!</l>
+<l>For H&#x00E6;vnens Harpun</l>
+<l>O, vogter Jer kun!</l>
+<l>Saa snarlig den Eder kan sn&#x00E6;rte.</l>
+</lg>
+</div>
+<div type="chapter" n="7">
+<head type="main"><ref type="contents" target="contents_7" xml:id="chapter_7">No. 7</ref></head>
+<lg>
+<head type="sub"><pb n="10"/>1.</head>
+<l>Du Dannemarks Flag!</l>
+<l>Dig f&#x00F8;lge den H&#x00E6;der hver kommende Dag,</l>
+<l>Som altid dig fulgte i herligste Glands,</l>
+<l>Naar Heltene f&#x00E6;gted' for Seyerens Krands!</l>
+<l>Hvad kunde de andet, til dig naar de saae,</l>
+<l>End ridderlig slaae?</l>
+</lg>
+<lg>
+<head type="sub">2.</head>
+<l>Den S&#x00F8;el&#x00F8;ve: Juel,</l>
+<l>Af br&#x00E6;ndende Ild for din &#x00C6;re saa fuld,</l>
+<l>I Kampen ved Ki&#x00F8;ges navnkundige Bugt,</l>
+<l>Hvor gav han da Svensken tilb&#x00F8;rlige Tugt,</l>
+<l>Mens Dannemark Skibe, og Sielland har Havn,</l>
+<l>Ey glemmes hans Navn.</l>
+</lg>
+<lg>
+<head type="sub">3.</head>
+<l>Og Trolle, som stod</l>
+<l>Syv Timer i Slaget med rindende Blod,</l>
+<l>Og tre Gange br&#x00F8;d giennem tre Gange fleer',</l>
+<l>Og vandrende siden med skuldret Gev&#x00E6;hr</l>
+<l>Gik blodig fra Slaget til landlige Gaard</l>
+<l>Udmattet af Saar!</l>
+</lg>
+<lg>
+<head type="sub">4.</head>
+<l>Og Ki&#x00E6;mperen: Rud,</l>
+<l>Som fordred den taklede Goliath ud,</l>
+<l>Det Uhyre: Magel&#x00F8;s, Svekerens Tr&#x00F8;st,</l>
+<l>Og slog det saa l&#x00E6;nge paa Sider og Bryst,</l>
+<l>At Arme det rakte for f&#x00F8;rende Trop</l>
+<l>Til Ki&#x00E6;mperen op!</l>
+</lg>
+<lg>
+<head type="sub"><pb n="11"/>5.</head>
+<l>Og Oldingen: Skram!</l>
+<l>Naar &#x00E6;ngstede F&#x00E6;dreland fordrede ham</l>
+<l>At r&#x00E6;dde dets Lande, at frelse dets B&#x00F8;rn</l>
+<l>Fra feydende Greve, fra lybekske &#x00D8;rn,</l>
+<l>End sleed han sig l&#x00F8;s af sin unge Bruds Arm,</l>
+<l>At h&#x00E6;vne dets Harm.</l>
+</lg>
+<lg>
+<head type="sub">6.</head>
+<l>Og tr&#x00F8;ndiske Chor,</l>
+<l>Blandt Dannemarks Helte saa stigende stor,</l>
+<l>Som, naar han nedtordned og t&#x00E6;ndte sit Lyn,</l>
+<l>Fremviiste for Svensken saa grusomme Syn,</l>
+<l>Og sv&#x00E6;mmed med Kaarden ved holdende Tand</l>
+<l>Fra fiendtlige Strand.</l>
+</lg>
+<lg>
+<head type="sub">7.</head>
+<l>Hvo regner dem op:</l>
+<l>Paa nordiske Vande den S&#x00F8;eki&#x00E6;mpe-Trop? &#x2013;</l>
+<l>Jo, Dennemarks Flag! &#x2013; du kan bryste dig af</l>
+<l>De M&#x00E6;nd, som dit Land og dit Norge dig gav! &#x2013;</l>
+<l>Til Slag naar du hidses, o maatte de M&#x00E6;nd</l>
+<l>Fremtr&#x00E6;de igien!</l>
+</lg>
+</div>
+<div type="chapter" n="8">
+<head type="main"><ref type="contents" target="contents_8" xml:id="chapter_8">No. 8</ref></head>
+<lg>
+<head type="sub">1.</head>
+<l>H&#x00F8;r, danske Broder! dit Amager,</l>
+<l>Dit Dannemark har ski&#x00F8;nne Sager;</l>
+<l>Det har et knuget skuddet Maal</l>
+<l>Af Gryn og Kaal og gule Erter,</l>
+<l><pb n="12"/>Det har og mange gode Hierter,</l>
+<l>Men og i dem vel meget Kaal.</l>
+</lg>
+<lg>
+<head type="sub">2.</head>
+<l>Fortryd ey, at jeg harcelerer! &#x2013;</l>
+<l>Nu videre jeg om spatserer:</l>
+<l>Jeg dine Str&#x00F8;mme kommer til;</l>
+<l>Vist er der Aal og Sild og Flynder;</l>
+<l>Men Fiskeren hvor liig en Synder!</l>
+<l>Og Str&#x00F8;mmen der hvor d&#x00F8;d og still!</l>
+</lg>
+<lg>
+<head type="sub">3.</head>
+<l>Ney, bedre bruse vore Sarper;</l>
+<l>Der d&#x00F8;de dine gode Karper,</l>
+<l>Hos os af Angest de forgik;</l>
+<l>Naar Mael-Str&#x00F8;ms h&#x00F8;ye Struber tude,</l>
+<l>Naar vore store Hvale sprude,</l>
+<l>Da haver det en anden Skik.</l>
+</lg>
+<lg>
+<head type="sub">4.</head>
+<l>See nu til vore Biergetoppe!</l>
+<l>Naar vi paa een af dem er oppe,</l>
+<l>Hvor liden da din Siellands &#x00D8;e!</l>
+<l>Selv da dit Ki&#x00F8;benhavn forsvinder; &#x2013;</l>
+<l>I Norge alting stort jeg finder,</l>
+<l>Der vil jeg leve helst og d&#x00F8;e.</l>
+</lg>
+<lg>
+<l>Svar:</l>
+<l>Forlad mig, Broder! &#x2013; jeg maae svare:</l>
+<l>Dit Spotterie du kunde spare;</l>
+<l>Hos dig jeg meer end gierne troer:</l>
+<l>At Folk og Hvale der er' Ki&#x00E6;mper; &#x2013;</l>
+<l>Men hvo sit store Mod som damper,</l>
+<l>Er endnu meer end ki&#x00E6;mpestor.</l>
+</lg>
+<lg>
+<l><pb n="13"/>Hvad gavner h&#x00F8;ye, brede Skulder,</l>
+<l>Naar inden tomme Tarm er bulder?</l>
+<l>Et saadant Skrog snart ligger da;</l>
+<l>Da vil jeg heller liden v&#x00E6;re,</l>
+<l>Min Aal og Kaal og Erter t&#x00E6;re;</l>
+<l>Jeg lever bedst, hvor jeg kom fra.</l>
+</lg>
+</div>
+<div type="chapter" n="9">
+<head type="main"><ref type="contents" target="contents_9" xml:id="chapter_9">No. 9</ref></head>
+<lg>
+<head type="sub">1.</head>
+<l>Cort Adler, den store navnkundige Cort,</l>
+<l>Som giorde sig saa admirabel,</l>
+<l>I det han saa hugged' paa tyrkiske Port,</l>
+<l>At endnu staaer Arr af hans Sabel</l>
+<l>Saa langt som en Favn,</l>
+<l>Til h&#x00F8;yeste Navn</l>
+<l>Opsteeg han fra bare Constabel.</l>
+</lg>
+<lg>
+<head type="sub">2.</head>
+<l>Og Tordenskiold, han som af heglede Hamp</l>
+<l>Sig fletted til Svekusens Rygge</l>
+<l>Den store, den tykke navnkundige Tamp,</l>
+<l>Hvormed han dem saa monne myge.</l>
+<l>At ynksom de peeb</l>
+<l>For svingede Reeb,</l>
+<l>Ja, l&#x00E6;nge til koys monne ligge.</l>
+</lg>
+<lg>
+<head type="sub">3.</head>
+<l>Hvad var han fra f&#x00F8;rst af? Kun simpel Mads Foss,</l>
+<l>Men steeg dog til Ober-Tampmester;</l>
+<l><pb n="14"/>Hvad l&#x00E6;rer nu heraf en simpel Matros,</l>
+<l>Naar &#x00D8;yet til saadant han f&#x00E6;ster? &#x2013;</l>
+<l>Jo, klarlig han seer:</l>
+<l>Mangt underligt skeer</l>
+<l>I Verden fra &#x00D8;ster til Vester.</l>
+</lg>
+<lg>
+<head type="sub">4.</head>
+<l>Ja, ligesom Solen, naar den kommer op,</l>
+<l>Saa liden i F&#x00F8;rstningen kryber,</l>
+<l>Men siden, hvor voxer og rundes dens Krop,</l>
+<l>Ja Luen fra Maanen den kniber,</l>
+<l>Saa stiger Matros</l>
+<l>Til h&#x00F8;yeste Roes,</l>
+<l>Naar Luen kun rigtig han kniber.</l>
+</lg>
+</div>
+<div type="chapter" n="10">
+<head type="main"><ref type="contents" target="contents_10" xml:id="chapter_10">No. 10. Cort Adeler</ref></head>
+<lg>
+<head type="sub">1.</head>
+<l>Hvor havde det v&#x00E6;ret en kongelig Lyst</l>
+<l>At staae paa Cort Adelers Side,</l>
+<l>Den Gang han med tyrkiske Bassen i Dyst</l>
+<l>Paa D&#x00E6;kket saa deylig mon stride;</l>
+<l>I tyrkiske Blod</l>
+<l>Til B&#x00E6;lte han stod;</l>
+<l>Hvor maatte den Sabel da bide!</l>
+</lg>
+<lg>
+<head type="sub">2.</head>
+<l>Hr. Ibrahim havde et Skib som et Field,</l>
+<l>Det tusinde Mand havde inde;</l>
+<l><pb n="15"/>Om Adeler t&#x00E6;nkte han: Ey! Bagatell!</l>
+<l>Kun lidt det mig koster at vinde &#x2013;</l>
+<l>Tak! Ibrahim! Tak!</l>
+<l>Giv f&#x00F8;rst dig i Snak</l>
+<l>Med Manden, saa faaer du det finde.</l>
+</lg>
+<lg>
+<head type="sub">3.</head>
+<l>Hverandre de hilsed' med Sablen i Haand;</l>
+<l>Her stod' nu to opreyste L&#x00F8;ver;</l>
+<l>Thi Tyrken er heller just ingen Kujon,</l>
+<l>Sig daglig i Sablen han &#x00F8;ver;</l>
+<l>Og &#x00D8;velse, Ven!</l>
+<l>Gi&#x00F8;r mange til M&#x00E6;nd,</l>
+<l>Det m&#x00E6;rker nok hver, som det pr&#x00F8;ver.</l>
+</lg>
+<lg>
+<head type="sub">4.</head>
+<l>Som f&#x00F8;rste Mand hugger Hr. Ibrahim til,</l>
+<l>Og rammer Hr. Adelers Skulder,</l>
+<l>Saa Adelers h&#x00F8;yre Haand ey, som den vil,</l>
+<l>Kan f&#x00F8;re den Sabel, den holder;</l>
+<l>Thi griber han den</l>
+<l>Med venstre igien,</l>
+<l>Og slaaer, saa Hr. Ibrahim ruller.</l>
+</lg>
+<lg>
+<head type="sub">5.</head>
+<l>Det ski&#x00E6;ggede Hoved paa Sabelens Pynt</l>
+<l>Han tager og l&#x00F8;vter i Harme,</l>
+<l>Et Skriig af de Tyrker da bliver begyndt,</l>
+<l>Saa Himlen sig maatte forbarme;</l>
+<l>Om gunstig Pardon</l>
+<l>Hver for sin Person</l>
+<l>Da r&#x00E6;kke de ski&#x00E6;lvende Arme.</l>
+</lg>
+</div>
+<div type="chapter" n="11">
+<head type="main"><ref type="contents" target="contents_11" xml:id="chapter_11">No. 11. Reidar Griotgardsen</ref></head>
+<lg>
+<head type="sub"><pb n="16"/>1.</head>
+<l>Kong Magnus Blinde, den gode Mand</l>
+<l>Paa Tronen det gik saa ilde;</l>
+<l>Saa l&#x00E6;nge maatte han deele Land</l>
+<l>Med Farbroder Harald Gille.</l>
+</lg>
+<lg>
+<head type="sub">2.</head>
+<l>Af Vanh&#x00E6;ld tr&#x00E6;t i Kloster ind</l>
+<l>Han gav sig, maaskee for at bede:</l>
+<l>At Himlen vilde forandre sit Sind,</l>
+<l>Om den til ham bar Vrede.</l>
+</lg>
+<lg>
+<head type="sub">3.</head>
+<l>Men Himlen vilde ey h&#x00F8;re hans B&#x00F8;n,</l>
+<l>Hans Anslag saa lidet mon gavne;</l>
+<l>Ey bytted han Lykke ved Haralds S&#x00F8;n,</l>
+<l>Han bytted kun Uvenners Navne.</l>
+</lg>
+<lg>
+<head type="sub">4.</head>
+<l>Med tredive Skibe fra Danmarks Land,</l>
+<l>Som Kongen ham der monne borge</l>
+<l>For bedende Ord, nu kommer han,</l>
+<l>Igien til sit F&#x00E6;drene Norge.</l>
+</lg>
+<lg>
+<head type="sub">5.</head>
+<l>Men Norge derved ey vundet er;</l>
+<l>I Hvalom dets Konger ham m&#x00F8;de,</l>
+<l>Saa drabelig l&#x00F8;ftes de &#x00D8;xer der,</l>
+<l>Mens Skibene sammen mon st&#x00F8;de.</l>
+</lg>
+<lg>
+<head type="sub"><pb n="17"/>6.</head>
+<l>De Danske spreedes, og Magni Trop</l>
+<l>Indsperres i Fiendens H&#x00E6;nder;</l>
+<l>Af S&#x00E6;ng kan Magnus ey lette sig op,</l>
+<l>Saa skr&#x00F8;belig der han sig vender:</l>
+</lg>
+<lg>
+<head type="sub">7.</head>
+<l>Det skuer Reidar: hans gamle Svend;</l>
+<l>Thi l&#x00F8;fter han Kongen af Karmen,</l>
+<l>Til sikkrere Skib at bringe ham hen,</l>
+<l>Saa b&#x00E6;r han Kong Magnus i Armen:</l>
+</lg>
+<lg>
+<head type="sub">8.</head>
+<l>Da tr&#x00E6;ffer et fiendtlig kastet Spyd</l>
+<l>Den trofaste Reidars Skulder;</l>
+<l>I segnende Arme i sidste Tid</l>
+<l>Den ene den anden holder.</l>
+</lg>
+<lg>
+<head type="sub">9.</head>
+<l>Hvo seer et Syn saa veemodsfuldt,</l>
+<l>Og kan ved Synet ey gr&#x00E6;de,</l>
+<l>Ey prise det Hierte, som saa huldt</l>
+<l>Sin Herre god vilde redde?</l>
+</lg>
+</div>
+<div type="chapter" n="12">
+<head type="main"><ref type="contents" target="contents_12" xml:id="chapter_12">No. 12. Carl den M&#x00F8;rske</ref></head>
+<lg>
+<head type="sub">1.</head>
+<l>Hen til Fer&#x00F8;erne en efter anden</l>
+<l>Sendte Sanct Ole at indkr&#x00E6;ve Skat;</l>
+<l>Men de Skatskyldige gave ham Fanden,</l>
+<l>Og sig undskyldte med dit og med dat;</l>
+<l><pb n="18"/>Thi det maae m&#x00E6;rkes: at kr&#x00E6;ve sin Skyld,</l>
+<l>Er just at trykke paa &#x00F8;mmeste Byld.</l>
+</lg>
+<lg>
+<head type="sub">2.</head>
+<l>Ole blev ved, disse Venner at purre,</l>
+<l>Puffed med Regning paa D&#x00F8;d og paa Liv;</l>
+<l>Hine, som endnu vedbleve at knurre,</l>
+<l>B&#x00F8;d de Udsendte en virkelig Kniv,</l>
+<l>B&#x00F8;d den alvorlig, som sees deraf:</l>
+<l>At de dem Kniven i Hierterne gav.</l>
+</lg>
+<lg>
+<head type="sub">3.</head>
+<l>Da fra Sanct Ole saa en efter anden</l>
+<l>Foere, men aldrig saae Norge igien,</l>
+<l>Den maatte have da Horn udi Panden,</l>
+<l>Den som da meer vilde drage derhen;</l>
+<l>&#x00AB;T&#x00F8;r da, saa spurgte Kong Ole sit Folk:</l>
+<l>&#x00AB;Ingen derhenne agere min Tolk?&#x00BB;</l>
+</lg>
+<lg>
+<head type="sub">4.</head>
+<l>Fremstod da Carl den M&#x00F8;rske for Bordet,</l>
+<l>H&#x00F8;yt over M&#x00E6;ngden han h&#x00E6;ved sin R&#x00F8;st:</l>
+<l>Her kommer Manden, saa tog han til Ordet,</l>
+<l>Her sidder Hierte i dette mit Bryst &#x2013;</l>
+<l>Eder I skamme, som her om mig staae!</l>
+<l>Hvo b&#x00F8;r ey Landsherrens &#x00C6;rinder gaae?</l>
+</lg>
+<lg>
+<head type="sub">5.</head>
+<l>Niddinger s&#x00F8;mmer for Livet at frygte</l>
+<l>Da, naar det gi&#x00E6;lder almindelig Sag;</l>
+<l>Mig er bekiendt nok den Fer&#x00F8;emands Rygte,</l>
+<l>Dog vil jeg reyse i Morgen den Dag;</l>
+<l>Skriv paa min Bautes den Steen eller Stav:</l>
+<l>H&#x00E6;derligt &#x00C6;rinde, h&#x00E6;derlig Grav.</l>
+</lg>
+</div>
+<div type="chapter" n="13">
+<head type="main"><ref type="contents" target="contents_13" xml:id="chapter_13">No. 13. Frithiof</ref></head>
+<p rend="center"><pb n="19"/>Mel. Det var en Skik i Samnien.</p>
+<lg>
+<head type="sub">1.</head>
+<l>For liden L&#x00F8;n og gode Ord</l>
+<l>Vil Manden Frithiof sig paatage</l>
+<l>Til &#x00D8;rken&#x00F8;er langt i Nord</l>
+<l>For Kongeskattens Skyld at drage;</l>
+<l>Af Sognefiord han gaaer da du,</l>
+<l>Til Havs han gaaer &#x2013; han gaae med GUd!</l>
+</lg>
+<lg>
+<head type="sub">2.</head>
+<l>Men hist i Nord, som vel bekiendt,</l>
+<l>Var Troldom nok i fordums Tider;</l>
+<l>Nu er det kun saa lidt bevendt</l>
+<l>Med all den Gan, som Finmand skyder,</l>
+<l>At neppe nok hans bedste Gan</l>
+<l>Den mindste Flue f&#x00E6;lde kan.</l>
+</lg>
+<lg>
+<head type="sub">3.</head>
+<l>&#x00D8;ebyggeren der nord fornam,</l>
+<l>At Frithiof var paa Reysen ude,</l>
+<l>Thi t&#x00E6;nkte han: gid du faae Skam!</l>
+<l>Og l&#x00F8;ser saa sin Gane-Knude,</l>
+<l>Han l&#x00F8;ser to, han l&#x00F8;ser tre,</l>
+<l>Den tredie hedte: Ak og Vee.</l>
+</lg>
+<lg>
+<head type="sub">4.</head>
+<l>Han l&#x00F8;fte dem, og sagde: faer!</l>
+<l>Og hvor I finde ham, jeg meener,</l>
+<l><pb n="20"/>Der viiser nu, hvad Kraft I har,</l>
+<l>Og alle tre Jer der foreener!</l>
+<l>Thi baade Skib og Mand er st&#x00E6;rk,</l>
+<l>Gaaer flux udrettet godt jer V&#x00E6;rk!</l>
+</lg>
+<lg>
+<head type="sub">5.</head>
+<l>Huj! sagde de, og fl&#x00F8;y afsted,</l>
+<l>Og snart fik de sin Mand i Sigte,</l>
+<l>Og kasted sig saa voldsom ned,</l>
+<l>At de begyndte selv at frygte.</l>
+<l>Som ivrig Mand, der faaer et Brud,</l>
+<l>Og ey i L&#x00E6;ngden holder ud:</l>
+</lg>
+<lg>
+<head type="sub">6.</head>
+<l>Hvad Under da de gav en Kn&#x00E6;k</l>
+<l>Paa Skibet, da de sammenst&#x00F8;dte,</l>
+<l>Saa dette fik en farlig L&#x00E6;k;</l>
+<l>Nu griber Frithiof Kar og B&#x00F8;tte,</l>
+<l>At holde l&#x00E6;nds, at &#x00F8;se ud,</l>
+<l>Og alle raabte: hielp os GUd!</l>
+</lg>
+<lg>
+<head type="sub">7.</head>
+<l>Men Hierte sad i Mandens Bryst,</l>
+<l>Som f&#x00F8;rte Skibet, saa han talte:</l>
+<l>God Sag er altid bedste Tr&#x00F8;st,</l>
+<l>Arbeyder kun! saa han befalte,</l>
+<l>Og sang, blandt andet saa han sang:</l>
+<l>Det er dog kun en Overgang.</l>
+</lg>
+<lg>
+<head type="sub">8.</head>
+<l>Saa sang han Nat og M&#x00F8;rke bort,</l>
+<l>Og muntrede sit hele F&#x00F8;lge,</l>
+<l>Og Ki&#x00F8;len gik som oljesmurt,</l>
+<l>Og dandsed giennem hvide B&#x00F8;lge,</l>
+<l><pb n="21"/>Den dandsede og Frithiof sang:</l>
+<l>Det er dog kun en Overgang.</l>
+</lg>
+<lg>
+<head type="sub">9.</head>
+<l>Saa vil og jeg, naar Storm og Nat</l>
+<l>Og andre Vanh&#x00E6;ld mig forf&#x00F8;lge,</l>
+<l>Fordrive Mulm og Sorrigs Nat,</l>
+<l>Og synge giennem Modgangs B&#x00F8;lge</l>
+<l>Det samme, som Hr. Frithiof sang:</l>
+<l>Det er dog kun en Overgang.</l>
+</lg>
+</div>
+<div type="chapter" n="14">
+<head type="main"><ref type="contents" target="contents_14" xml:id="chapter_14">No. 14</ref></head>
+<lg>
+<head type="sub">1.</head>
+<l>For Ruffen b&#x00E6;r jeg all Respekt,</l>
+<l>Samt for hans store Moder;</l>
+<l>Jeg elsker ham som min egen Sl&#x00E6;gt,</l>
+<l>Ja som min ki&#x00F8;delig Broder.</l>
+</lg>
+<lg>
+<head type="sub">2.</head>
+<l>Vente maae den sit &#x00D8;ye r&#x00F8;dt,</l>
+<l>Mod hvem han l&#x00F8;fter sin N&#x00E6;ve;</l>
+<l>Stortyrkens Ki&#x00E6;be han slog ey bl&#x00F8;dt,</l>
+<l>Den stod jo gandske paa ski&#x00E6;ve.</l>
+</lg>
+<lg>
+<head type="sub">3.</head>
+<l>Paa tomme R&#x00F8;g foruden Ild</l>
+<l>Kun Tosser sig forundre;</l>
+<l>Af Hiertet det kommer, naar Russen slaaer til,</l>
+<l>For Alvor han lader det dundre.</l>
+</lg>
+<lg>
+<head type="sub">4.</head>
+<l>Aldrig jeg lider den Ki&#x00E6;lling-Maneer:</l>
+<l>Med Munden kun at brumme;</l>
+<l><pb n="22"/>I Russens Slag en Mand jeg seer,</l>
+<l>Som ikke slaaer Kn&#x00E6;p i Lomme.</l>
+</lg>
+<lg>
+<head type="sub">5.</head>
+<l>Tyrken lader voxe sit Ski&#x00E6;g,</l>
+<l>For andre dermed at skr&#x00E6;mme;</l>
+<l>Men blev det end langt som en Kirkev&#x00E6;g,</l>
+<l>Ey let skal det Russen skr&#x00E6;mme.</l>
+</lg>
+<lg>
+<head type="sub">6.</head>
+<l>Som sagt, for Russen all Respekt!</l>
+<l>Samt for hans store Moder!</l>
+<l>Jeg elsker ham som min egen Sl&#x00E6;gt,</l>
+<l>Ja som min ki&#x00F8;delig Broder.</l>
+</lg>
+<lg>
+<head type="sub">7.</head>
+<l>Ja, kom han her, vist kyssed jeg ham,</l>
+<l>Og sagde: velkommen min Broder!</l>
+<l>Og var det ikke formegen Skam,</l>
+<l>Saa kyssed jeg og hans Moder:</l>
+</lg>
+<lg>
+<head type="sub">8.</head>
+<l>Jeg meener den Moder, som er saa ki&#x00E6;k.</l>
+<l>Den store, den st&#x00E6;rke Cathrine,</l>
+<l>Som s&#x00E6;tter den halve Verden i Skr&#x00E6;k,</l>
+<l>Blot naar hun gi&#x00F8;r en Mine.</l>
+</lg>
+</div>
+<div type="chapter" n="15">
+<head type="main"><ref type="contents" target="contents_15" xml:id="chapter_15">No. 15</ref></head>
+<lg>
+<head type="sub">1.</head>
+<l>Naar jeg betragter, hvor Vinden sig dreyer,</l>
+<l>Stundum endog til den modsatte Kant,</l>
+<l>T&#x00E6;nker og ofte saa sige jeg pleyer:</l>
+<l>(Og jeg maae sp&#x00F8;rge om ey det er sandt?)</l>
+<l><pb n="23"/>Vinden sig dreyer,</l>
+<l>Skibet sig dreyer,</l>
+<l>Alting i Verden sig dreyer.</l>
+</lg>
+<lg>
+<head type="sub">2.</head>
+<l>Solen og Maanen sig dreyer om Jorden,</l>
+<l>Alle Planeter og tusinde fleer',</l>
+<l>Alle de dreye sig hver i sin Orden;</l>
+<l>Derfor jeg siger, naar saadant jeg seer:</l>
+<l>Solen sig dreyer,</l>
+<l>Himlen sig dreyer,</l>
+<l>Alting i Verden sig dreyer.</l>
+</lg>
+<lg>
+<head type="sub">3.</head>
+<l>De, som paa Jorden sig byggede Bolig,</l>
+<l>Staae de bestandig paa blivende Sted?</l>
+<l>Kiender du nogen, som altid var rolig,</l>
+<l>Nogen, hvis Sind af Forandring ey veed?</l>
+<l>Jorden sig dreyer,</l>
+<l>Sindet sig dreyer,</l>
+<l>Alting i Verden sig dreyer.</l>
+</lg>
+<lg>
+<head type="sub">4.</head>
+<l>Seer jeg det Sp&#x00F8;gelse, Folk kalder Lykken,</l>
+<l>Holder da denne bestandig sin Str&#x00E6;g?</l>
+<l>Den, som i Gaar var en Finger fra Strikken,</l>
+<l>Sidder i Dag inden Herremands V&#x00E6;g &#x2013;</l>
+<l>Lykken sig dreyer,</l>
+<l>Hiulet sig dreyer,</l>
+<l>Alting i Verden sig dreyer.</l>
+</lg>
+</div>
+<div type="chapter" n="16">
+<head type="main"><ref type="contents" target="contents_16" xml:id="chapter_16">No. 16</ref></head>
+<lg>
+<head type="sub"><pb n="24"/>1.</head>
+<l>Hvad er Skibet uden Roer?</l>
+<l>Og hvad er vel Manden,</l>
+<l>Som ey hos sig inden Bord</l>
+<l>Har den Ting: Forstanden?</l>
+<l>Liig' er' begge til at see,</l>
+<l>Liig' i Vandringsmaade;</l>
+<l>Snart vil og med begge skee,</l>
+<l>Hvad den Kloge spaaede.</l>
+</lg>
+<lg>
+<head type="sub">2.</head>
+<l>Er det Roer ey rigtig fast,</l>
+<l>Naar sig B&#x00F8;yen n&#x00E6;rmer,</l>
+<l>Lidt da nytter Seyl og Mast;</l>
+<l>See, hvor da den sv&#x00E6;rmer.</l>
+<l>Just som den beski&#x00E6;nket var;</l>
+<l>O, den stakkels Skude!</l>
+<l>For all Verden som en Nar</l>
+<l>Tumler den derude.</l>
+</lg>
+<lg>
+<head type="sub">3.</head>
+<l>Uden Vid og uden Sands</l>
+<l>Snart som et Spektakel</l>
+<l>Udaf Kurs og all Ballans</l>
+<l>Kun for Toug og Takkel</l>
+<l>Saa at drive rundt omkring</l>
+<l>Paa godt Folkes Naade,</l>
+<l>Var det ey en h&#x00E6;slig Ting?</l>
+<l>Derfor drik med Maade!</l>
+</lg>
+</div>
+<div type="chapter" n="17">
+<head type="main"><ref type="contents" target="contents_17" xml:id="chapter_17">No. 17</ref></head>
+<p rend="center"><pb n="25"/>Mel. Hvor herlig, herlig gik det til.</p>
+<lg>
+<head type="sub">1.</head>
+<l>I Rige eller Republik</l>
+<l>Det aldrig vel i Verden gik.</l>
+<l>Naar Eenighed ey fandtes;</l>
+<l>Opl&#x00F8;ste falde snart omkring,</l>
+<l>Og snart forgaae de st&#x00F8;rste Ting,</l>
+<l>Som ved den gyldne Samfunds Ring</l>
+<l>Saa yndelig forbandtes.</l>
+</lg>
+<lg>
+<head type="sub">2.</head>
+<l>En slet, en farlig Tidsfordriv</l>
+<l>Er det, som Fredens s&#x00F8;de Liv</l>
+<l>Forbittrer og forbeesker;</l>
+<l>Ey Menneske- kun Dievle-Bryst</l>
+<l>Beboer den edderfulde Lyst,</l>
+<l>Som Ven og Mand til Kamp og Dyst</l>
+<l>For ingen Ting ud&#x00E6;sker.</l>
+</lg>
+<lg>
+<head type="sub">3.</head>
+<l>Vi Folk, som her om Borde gik,</l>
+<l>Vort Selskab er vor Republik;</l>
+<l>Skal Tvedragt det forstyrre?</l>
+<l>Ney, bort du Spliid! fra Skibet bort!</l>
+<l>Ey Rum er her, &#x2013; det Kum er vort;</l>
+<l>Og var end Skibet nok saa stort,</l>
+<l>Hvad har du her at gi&#x00F8;re?</l>
+</lg>
+</div>
+<div type="chapter" n="18">
+<head type="main"><ref type="contents" target="contents_18" xml:id="chapter_18">No. 18. Under Indsegling igien til Norge</ref></head>
+<p rend="center"><pb n="26"/>Mel. Rind nu op etc.</p>
+<lg>
+<head type="sub">1.</head>
+<l>Hilset var du ki&#x00E6;re Land!</l>
+<l>V&#x00E6;r velkomment til mit &#x00D8;ye!</l>
+<l>Den, som Havet maatte pl&#x00F8;ye,</l>
+<l>Efter dig hvor l&#x00E6;nges han!</l>
+<l>Ved at see dig voxe, stige,</l>
+<l>Blaane, gr&#x00F8;nnes, bredes du,</l>
+<l>Hvo vil ey med Gl&#x00E6;de sige:</l>
+<l>Hidindtil saa hialp os GUd?</l>
+</lg>
+<lg>
+<head type="sub">2.</head>
+<l>Kom og aabne snart dit Ski&#x00F8;d!</l>
+<l>Lad din milde Soel os qv&#x00E6;ge!</l>
+<l>Lad os h&#x00F8;re Lammet br&#x00E6;ge!</l>
+<l>Lad os see, hvor blomsterstr&#x00F8;ed</l>
+<l>Engen smiler, Kilden springer!</l>
+<l>Lad os naae din gr&#x00F8;nne Skov!</l>
+<l>H&#x00F8;re der, hvor Fuglen synger</l>
+<l>Elskovs Sang og Skabers Lov.</l>
+</lg>
+<lg>
+<head type="sub">3.</head>
+<l>Stemmende vor Sang med dem</l>
+<l>Snoe vi der de lette Dandse,</l>
+<l>Bryde Green og h&#x00E6;nge Krandse</l>
+<l>I vor Hat, og gaae igien,</l>
+<l>Og vildfarende i Skyggen</l>
+<l>S&#x00F8;gende forladte Strand</l>
+<l><pb n="27"/>Klavre giennem Biergeryggen</l>
+<l>Ned igien til hviden Sand.</l>
+</lg>
+</div>
+<div type="chapter" n="19">
+<head type="main"><ref type="contents" target="contents_19" xml:id="chapter_19">No. 19. En Matros-Sang</ref></head>
+<head type="sub">om Morderskuddet paa den Svenske Konge.
+<lb/>Natten mellem 16de og 17de Marts 1792.</head>
+<lg>
+<head type="sub">1.</head>
+<l>At skyde sin egen Konge i Smug</l>
+<l>Med Kugler, med Hagl og med Spiger,</l>
+<l>Nu skulde man t&#x00E6;nke, var reent af Brug</l>
+<l>I disse nordiske Riger;</l>
+</lg>
+<lg>
+<head type="sub">2.</head>
+<l>Men see, hvad h&#x00F8;rer man for en Skam!</l>
+<l>I Dandsen paa h&#x00F8;ye Lofte</l>
+<l>Vor Naboe-Konge saa ilde ham</l>
+<l>Man ramponerer hans Hofte:</l>
+</lg>
+<lg>
+<head type="sub">3.</head>
+<l>Mindst ventede han en saadan Ski&#x00E6;nk</l>
+<l>Af den, som for ham burde stride;</l>
+<l>Ki&#x00F8;lhalet nu ligger han der paa B&#x00E6;nk</l>
+<l>Og vender saa ilde sin Side:</l>
+</lg>
+<lg>
+<head type="sub">4.</head>
+<l>Bedre Baand den Hofte var v&#x00E6;rd,</l>
+<l>Om hvilken gik det B&#x00E6;lte,</l>
+<l>Hvori det sad, det Birtings-Sv&#x00E6;rd,</l>
+<l>Som f&#x00F8;rte Sverriges Helte:</l>
+</lg>
+<lg>
+<head type="sub">5.</head>
+<l>Bedre Baand var v&#x00E6;rd den Barm,</l>
+<l>Ved hvilken Dankongens Syster</l>
+<l><pb n="28"/>Favnes skulde udi den Arm,</l>
+<l>Paa hvilken sig Landet fortr&#x00F8;ster.</l>
+</lg>
+<lg>
+<head type="sub">6.</head>
+<l>Skamme dig vel, du falske Blaae!</l>
+<l>Din Eed hvor soer du ilde!</l>
+<l>Var intet andet at sigte paa,</l>
+<l>Naar endelig skyde du vilde?</l>
+</lg>
+<lg>
+<head type="sub">7.</head>
+<l>Hvi gik du ey med de Kugler to</l>
+<l>Den kronede Hiort at forraske?</l>
+<l>Den kunde du t&#x00E6;ret i Fred og Roe,</l>
+<l>Og drukket dertil din Flaske.</l>
+</lg>
+<lg>
+<head type="sub">8.</head>
+<l>Hvi kunde du ey med de Hagl og de S&#x00F8;m</l>
+<l>Den skrigende Ugle bed&#x00F8;vet,</l>
+<l>Og naar hun om Natten forstyrret din Dr&#x00F8;m,</l>
+<l>Paa hende da Hovedet kl&#x00F8;vet?</l>
+</lg>
+<lg>
+<head type="sub">9.</head>
+<l>Ey roser jeg mig de Ting at forstaae,</l>
+<l>Som hine de Spaadoms-Fugle;</l>
+<l>Din Ski&#x00E6;bne dog troer jeg at kunne spaae</l>
+<l>Saa godt, som den kyndigste Ugle.</l>
+</lg>
+<lg>
+<head type="sub">10.</head>
+<l>For Vaade-Fald den gode GUd</l>
+<l>Vor milde Konge bevare!</l>
+<l>For indf&#x00F8;d Niddings Morderskud</l>
+<l>Har Kongen hos os ey Fare:</l>
+</lg>
+<lg>
+<head type="sub">11.</head>
+<l>Ham, som hans S&#x00F8;n, i gyldene Karm</l>
+<l>Saa gierne paa Gaden vi ki&#x00F8;rte,</l>
+<l><pb n="29"/>Saa gierne vi bar' ham paa vor Arm,</l>
+<l>Og Vee den Mand, ham r&#x00F8;rte!</l>
+</lg>
+</div>
+<div type="chapter" n="20">
+<head type="main"><ref type="contents" target="contents_20" xml:id="chapter_20">No. 20</ref></head>
+<p rend="center">Mel. Svend Tveski&#x00E6;g havde sig en Mand.</p>
+<lg>
+<head type="sub">1.</head>
+<l>At b&#x00E6;re gammelt Nid i L&#x00F8;n,</l>
+<l>For det og det,</l>
+<l>En Dannemarks, en Norges S&#x00F8;n</l>
+<l>Det s&#x00F8;mmer slet;</l>
+<l>I Hierterod det er en Brand,</l>
+<l>En Lue blaa,</l>
+<l>Som t&#x00E6;rer selv sin egen Mand</l>
+<l>Fra Top til Taa &#x2013;</l>
+<l>Thi bort med det lumskende V&#x00E6;sen!</l>
+</lg>
+<lg>
+<head type="sub">2.</head>
+<l>For alt den Ild i Venneski&#x00F8;d</l>
+<l>Det lod saa smukt</l>
+<l>Til sidste Gnist i f&#x00F8;rste Gl&#x00F8;d</l>
+<l>At vorde slukt;</l>
+<l>Ved ilde slukket Ulmerie</l>
+<l>Saa lidt man seer</l>
+<l>At Luen staaer i h&#x00F8;yen Skye</l>
+<l>Og Skade skeer &#x2013;</l>
+<l>Thi bort med det lumskende V&#x00E6;sen!</l>
+</lg>
+<lg>
+<head type="sub">3.</head>
+<l>Langt heller siger jeg som saa:</l>
+<l>Holdt, Broder, holdt!</l>
+<l>At dette mig er kommen paa,</l>
+<l>Vel har du voldt</l>
+<l><pb n="30"/>Men br&#x00E6;kke dig din Hals itu,</l>
+<l>Var ey bevendt,</l>
+<l>Saa lad den Fugl da flyve nu!</l>
+<l>Den Sag er endt &#x2013;</l>
+<l>Thi bort med det lumskende V&#x00E6;sen!</l>
+</lg>
+<lg>
+<head type="sub">4.</head>
+<l>En anden Gang jeg l&#x00F8;ber Surr,</l>
+<l>Du veed dig Mand</l>
+<l>At give mig et Sm&#x00E6;k, en Purr,</l>
+<l>Du legger an,</l>
+<l>Men, naar du seer, det var din Ven,</l>
+<l>Som dig forlod,</l>
+<l>Saa falder l&#x00F8;ftet Haand igien,</l>
+<l>Saa ki&#x00F8;lnes Blod &#x2013;</l>
+<l>Thi bort med det lumskende V&#x00E6;sen!</l>
+</lg>
+</div>
+<div type="chapter" n="21">
+<head type="main"><ref type="contents" target="contents_21" xml:id="chapter_21">No. 21. Til Nords&#x00F8;en</ref></head>
+<lg>
+<head type="sub">1.</head>
+<l>Hvor mangen en Stavn</l>
+<l>Udvandrer paa dig fra den nordiske Havn!</l>
+<l>Nu f&#x00F8;re de Skibe saa fredeligt Gods,</l>
+<l>F&#x00F8;r gik de at byde hver M&#x00F8;dende Trods,</l>
+<l>F&#x00F8;r gik de at fylde den Skov og den Strand</l>
+<l>Med Mord og med Brand:</l>
+</lg>
+<lg>
+<head type="sub">2.</head>
+<l>Udhugne som Trold'</l>
+<l>Da glimred' de Stavne af h&#x00E6;ngende Skiold';</l>
+<l>Naar Uvenner m&#x00F8;dte, at hilse paa dem,</l>
+<l>Da ginge de F&#x00E6;dre i Stavnene frem,</l>
+<l><pb n="31"/>Og grebe de Skiolde, og giorde sig Tag</l>
+<l>Med stormende Brag:</l>
+</lg>
+<lg>
+<head type="sub">3.</head>
+<l>I Skiorter af Jern</l>
+<l>Da f&#x00F8;rte sig Odins de leegende B&#x00F8;rn,</l>
+<l>Saa stod' de i Stavnene gule og blaa,</l>
+<l>Og l&#x00F8;ftede &#x00D8;xer med Eegeskaft paa,</l>
+<l>Og kl&#x00F8;vede Pander, saa Hiernemarv fl&#x00F8;y</l>
+<l>Mod Himmelen h&#x00F8;y:</l>
+</lg>
+<lg>
+<head type="sub">4.</head>
+<l>Af Blodet, som fl&#x00F8;d.</l>
+<l>Da saaes, du Nordhav, din B&#x00F8;lge saa r&#x00F8;d;</l>
+<l>Gid, silde den sees saa gyselig styg!</l>
+<l>Lad Springerne hugge paa Hvalenes Ryg!</l>
+<l>Lad Hvaleblod flyde; en saadan en Dyst,</l>
+<l>Er smukkere Lyst.</l>
+</lg>
+<lg>
+<head type="sub">5.</head>
+<l>Med os f&#x00F8;lge Fred!</l>
+<l>Og blomstrende Handel opfylde den Reed,</l>
+<l>Hvor Skibene f&#x00F8;r laae paa ventende Vink</l>
+<l>At skyde dets Naboelands Br&#x00F8;dre i Synk!</l>
+<l>Til festeligt, gl&#x00E6;dende, hilsende Skud</l>
+<l>Kun t&#x00E6;ndes vort Krud!</l>
+</lg>
+</div>
+<div type="chapter" n="22">
+<head type="main"><ref type="contents" target="contents_22" xml:id="chapter_22">No. 22. Om &#x00D8;resundet</ref></head>
+<lg>
+<head type="sub">1.</head>
+<l>Med hvide krandsende Korall</l>
+<l>Om vaade Haar</l>
+<l><pb n="32"/>Paa Trone h&#x00F8;y af Muskelskal</l>
+<l>Og Perlemoer</l>
+<l>Rank, h&#x00E6;vende din trinde Barm,</l>
+<l>Hvor englemild</l>
+<l>Udr&#x00E6;kker du din Rosen-Arm,</l>
+<l>Stolt &#x00D8;relild!</l>
+<l>Hil v&#x00E6;re dig, Sundenes Dronning!</l>
+</lg>
+<lg>
+<head type="sub">2.</head>
+<l>Omgi&#x00E6;rdet med en Vold af Tang</l>
+<l>Og flettet R&#x00F8;r</l>
+<l>Nu lydende paa Svanesang</l>
+<l>Du sidder der,</l>
+<l>Nu stolt af den din Eyendom</l>
+<l>Fra Arilds Tid</l>
+<l>Til Nordens Hav du seer dig om</l>
+<l>Saa moderblid &#x2013;</l>
+<l>Hil v&#x00E6;re dig, Sundenes Dronning!</l>
+</lg>
+<lg>
+<head type="sub">3.</head>
+<l>Den Egn, hvor du har Boelig valgt,</l>
+<l>Af Sommergr&#x00F8;nt</l>
+<l>Hvor paradisisk smiiler Alt!</l>
+<l>Hvor engleski&#x00F8;nt!</l>
+<l>Den B&#x00F8;lge, som mod Skyen stod,</l>
+<l>Naar den var vred,</l>
+<l>Her, Dronning! for din vaade Fod</l>
+<l>Den kn&#x00E6;ler ned &#x2013;</l>
+<l>Hil v&#x00E6;re dig, Sundenes Dronning!</l>
+</lg>
+<lg>
+<head type="sub">4.</head>
+<l>Bes&#x00F8;gende din Yndlings-Havn</l>
+<l>Din Yndlings-Bye</l>
+<l>Hver runden Soel hvor mangen Stavn</l>
+<l>Der s&#x00F8;ger Lye!</l>
+<l><pb n="33"/>Af Seylere fra fierne Land</l>
+<l>I fuld Galop</l>
+<l>Hvor mangen flagget Caravan</l>
+<l>Der l&#x00F8;ber op!</l>
+<l>Hil v&#x00E6;re dig, Sundenes Dronning!</l>
+</lg>
+<lg>
+<head type="sub">5.</head>
+<l>Hvad Vellyst maae det v&#x00E6;re dig</l>
+<l>Ved kronet Sund</l>
+<l>Nu der at see den samle sig,</l>
+<l>Den Master-Lund!</l>
+<l>Nu paa dit lange Speyelblaa</l>
+<l>I Perspektiv</l>
+<l>At see saa mangen gylden Raa,</l>
+<l>Og alt det Liv! &#x2013;</l>
+<l>Hil v&#x00E6;re dig, Sundenes Dronning!</l>
+</lg>
+<lg>
+<head type="sub">6.</head>
+<l>At hilse dig med Flag og Skud</l>
+<l>Og Seylet ned,</l>
+<l>Naar de gaae ind, naar de gaae ud,</l>
+<l>Sin Pligt de veed;</l>
+<l>Ugierne dig de vende Ryg,</l>
+<l>Du er saa smuk,</l>
+<l>Ti Gange see de efter dig</l>
+<l>Og drage Suk &#x2013;</l>
+<l>Hil v&#x00E6;re dig, Sundenes Dronning!</l>
+</lg>
+</div>
+<div type="chapter" n="23">
+<head type="main"><ref type="contents" target="contents_23" xml:id="chapter_23">No. 23. Ved at m&#x00F8;des paa S&#x00F8;en</ref></head>
+<lg>
+<head type="sub">1.</head>
+<l>Vi komme, vi m&#x00F8;de, vi hilse vor Ven,</l>
+<l>Saa vinke vi Afskeed, og skilles igien,</l>
+<l><pb n="34"/>Saa f&#x00F8;rer os Str&#x00F8;mmen og Vindene bort &#x2013;</l>
+<l>Den seylende Samling hvor flyvende kort!</l>
+</lg>
+<lg>
+<head type="sub">2.</head>
+<l>Saa skuer jeg Livet i klareste Speyl:</l>
+<l>Et M&#x00F8;de, en Samling, et Vink under Seyl &#x2013;</l>
+<l>Hvad andet paa Kloden er Selskabets Navn,</l>
+<l>End reysende Br&#x00F8;dre til modsatte Havn?</l>
+</lg>
+<lg>
+<head type="sub">3.</head>
+<l>Dog kan vi ey nyde den favnende Arm,</l>
+<l>Kun see den at r&#x00E6;kkes fra broderlig Barm,</l>
+<l>Den talende Taare, det sukkende Bryst</l>
+<l>Paa Reysen i Livet er endnu en Tr&#x00F8;st.</l>
+</lg>
+</div>
+<div type="chapter" n="24">
+<head type="main"><ref type="contents" target="contents_24" xml:id="chapter_24">No. 24. Sang for en Lots</ref></head>
+<lg>
+<head type="sub">1.</head>
+<l>Naar, Himlen i Brand.</l>
+<l>Og Havet i Kaagning, jeg setter fra Strand,</l>
+<l>De M&#x00E6;nd at ledsage paa retteste Stie,</l>
+<l>Som &#x00F8;nske sig Indl&#x00F8;bets Farer forbi,</l>
+<l>Da, himmelske Fader! du v&#x00E6;re vort Skiold</l>
+<l>Mod Br&#x00E6;ndingens Vold!</l>
+</lg>
+<lg>
+<head type="sub">2.</head>
+<l>Paa Skibet ombord</l>
+<l>Ey vorde beski&#x00E6;mmet mit raabende Ord!</l>
+<l>Lad kiendes, at ey udi blinde jeg gik,</l>
+<l>Men vidste hver Banke til n&#x00F8;yeste Prik;</l>
+<l>Dog, er du ey selv min Raadgiver, &#x2013; omsonst</l>
+<l>Er Kundskab og Konst.</l>
+</lg>
+<lg>
+<head type="sub"><pb n="35"/>3.</head>
+<l>Ulykkeligt Skridt</l>
+<l>Den blinde Formastende giorde saa tidt;</l>
+<l>Hvor skulde jeg saa byde Farerne Trods!</l>
+<l>Paa Lykkespil sette det Skib og det Gods!</l>
+<l>At handle mod gode Samvittigheds Bud &#x2013;</l>
+<l>Bevare mig GUd!</l>
+</lg>
+<lg>
+<head type="sub">4.</head>
+<l>Naar styrende Mand</l>
+<l>Af mig tager Roeret ved yderste Land,</l>
+<l>Som Skibet jeg vendte fra boerende Grund,</l>
+<l>Saa vogt du det siden i raadvilde Stund!</l>
+<l>Naar Storb&#x00F8;lgen banker, naar Torden slaaer ned,</l>
+<l>O, lys da din Fred!</l>
+</lg>
+<lg>
+<head type="sub">5.</head>
+<l>Ja, Fred med enhver,</l>
+<l>Som dig i sit Hierte paa B&#x00F8;lgerne b&#x00E6;r!</l>
+<l>Velsignelse f&#x00F8;lge Retf&#x00E6;rdigheds Gods,</l>
+<l>Hvad enten det gaaer eller kommer til os!</l>
+<l>Naar Br&#x00F8;dskibet ventes, lad ki&#x00E6;rlige Havn</l>
+<l>Oplade sin Favn!</l>
+</lg>
+<lg>
+<head type="sub">6.</head>
+<l>Men kommer med D&#x00F8;d</l>
+<l>Med sprudende Struber og Ild i sit Ski&#x00F8;d</l>
+<l>Den trol&#x00F8;se Snekke fra fiendtlig Kyst,</l>
+<l>Af mig kun forgi&#x00E6;ves da trygler den Tr&#x00F8;st,</l>
+<l>Hvor Br&#x00E6;ndingen bryder, med Ki&#x00F8;l over Raa</l>
+<l>Den l&#x00E6;nge nok staae!</l>
+</lg>
+</div>
+<div type="chapter" n="25">
+<head type="main"><ref type="contents" target="contents_25" xml:id="chapter_25">No. 25. Paa et Skib, som bringer F&#x00F8;devahrer</ref></head>
+<p rend="center"><pb n="36"/>Mel. Den Mand er uv&#x00E6;rdig til Livet at smage.</p>
+<lg>
+<head type="sub">1.</head>
+<l>Naar B&#x00F8;ygdene raabe, og Loftene tomme</l>
+<l>Os verne paa f&#x00F8;rste velgi&#x00F8;rende Vind,</l>
+<l>Som Himmelens Fugle til Landet vi komme,</l>
+<l>I savnende Arme det slutter os ind &#x2013;</l>
+<l>Til Dyrkerens Gl&#x00E6;de, til fattig Mands Tr&#x00F8;st</l>
+<l>Velsignet da vorde den kronende H&#x00F8;st!</l>
+</lg>
+<lg>
+<head type="sub">2.</head>
+<l>Og, medens vi f&#x00F8;re saa fredeligt Bytte</l>
+<l>Paa slibrige Bane, paa B&#x00F8;lgen den blaa,</l>
+<l>Saa vilde du Fader os m&#x00E6;gtig beskytte,</l>
+<l>At &#x00F8;nskede Havne med Gl&#x00E6;de vi naae! &#x2013;</l>
+<l>Den haaber dit Forsyn, den frygter ey Fald,</l>
+<l>Som seer til din Himmel, og f&#x00F8;lger sit Kald.</l>
+</lg>
+<lg>
+<head type="sub">3.</head>
+<l>Naar saa vi har t&#x00F8;rret den Tr&#x00E6;ngendes Taare</l>
+<l>Og stillet dens Sukke, som sukked for Br&#x00F8;d,</l>
+<l>Tilbage saa vende vi glade til Vore,</l>
+<l>Og hviilende blunde i ki&#x00E6;rlige Ski&#x00F8;d &#x2013;</l>
+<l>Saa s&#x00F8;delig hviiler den sovende Mand,</l>
+<l>Som vaagende sveeded for tr&#x00E6;ngende Land.</l>
+</lg>
+</div>
+<div type="chapter" n="26">
+<head type="main"><ref type="contents" target="contents_26" xml:id="chapter_26">Mindesang</ref>
+<lb/>om den allerf&#x00F8;rste Norske Ostindiefarer, som af Hr. Conference-Raad Berent Anker allene udreedet, og besat med lutter indf&#x00F8;dde Norske, under Navn Prinds Carl afseylede fra Moss den 21de October 1791</head>
+<lg>
+<l><pb n="39"/>Hvad er det for en h&#x00F8;yen Hald,</l>
+<l>Du stolte Skib, bestorme skal,</l>
+<l>Som tager der ved Mosse-Bye</l>
+<l>Kanoner, Jern og Blye?</l>
+<l>Har Norge ey med Naboe Fred?</l>
+<l>Hvi rustes Skib paa Norges Rehd?</l>
+<l>Hvem agter du at byde Trods?</l>
+<l>Du gamle ski&#x00E6;gget Moss!</l>
+</lg>
+<lg>
+<l>Hvem er vel her Udstyringsmand?</l>
+<l>Thi Kongen ey det v&#x00E6;re kan;</l>
+<l>Men, Vaabendrager, uden Bud</l>
+<l>Hvor t&#x00F8;r du vel gaae ud?</l>
+<l>Bar du end den, hvis Navn du b&#x00E6;r,</l>
+<l>Ret selv <hi rend="bold">Prinds Carl</hi> med all hans H&#x00E6;r,</l>
+<l>Ey uden Vink' af Kongehaand</l>
+<l>Han l&#x00F8;ste mindste Baand.</l>
+</lg>
+<lg>
+<l>Men, under disse Frydeskud</l>
+<l>Hvad h&#x00F8;rer jeg at raabes ud:</l>
+<l>&#x00AB;Held f&#x00F8;lge Norges bedste S&#x00F8;n!</l>
+<l>Hans H&#x00E6;der evig gr&#x00F8;n! &#x2013;</l>
+<l>At fremme Norske Handels Liv,</l>
+<l>Var Ankers Lyst og Tidsfordriv;</l>
+<l>Det f&#x00F8;rste Skib til Asers Strand</l>
+<l>Fra Norge, rusted han:</l>
+</lg>
+<lg>
+<l><pb n="40"/>Sit Guld til fremmed Leyesvend</l>
+<l>Ey b&#x00F8;d den F&#x00E6;drelandets Ven;</l>
+<l>Thi skulde Norske S&#x00F8;n til Raa</l>
+<l>Vel ski&#x00E6;lve for at gaae?</l>
+<l>Han, som saa tidt til Fieldetop</l>
+<l>Paa Ravne-Sporet klavred op &#x2013;</l>
+<l>I Sneesetal og meer end nok</l>
+<l>Sig b&#x00F8;d saa rask en Flok:</l>
+</lg>
+<lg>
+<l>Af saadan en fin H&#x00E6;dersmand</l>
+<l>Sig bryste t&#x00F8;r hans B&#x00F8;ygd og Land;</l>
+<l>Mens Andre glemme Landets Tarv,</l>
+<l>Og sue Br&#x00F8;dres Marv,</l>
+<l>Besielet af veld&#x00E6;dig Aand</l>
+<l>Med Handelsgudens Stav i Haand</l>
+<l>Saa gaaer han frem paa Ki&#x00E6;mpe-Viis</l>
+<l>Og bryder haarden Iis &#x2013;&#x00BB;</l>
+</lg>
+<lg>
+<l>Nu hvad du da i Skioldet b&#x00E6;r,</l>
+<l>Og at dit Tog kun fredsomt er,</l>
+<l>Af Hundrede, som kom og gik,</l>
+<l>Det nu jeg h&#x00F8;re fik; &#x2013;</l>
+<l>Gak, Seyler, da i Norges Navn!</l>
+<l>Fra Kyst til Kyst, fra Havn til Havn,</l>
+<l>Hvor du gaaer ind, hvor du gaaer ud,</l>
+<l>Dig f&#x00F8;lge Norges GUd!</l>
+</lg>
+<lg>
+<l>Ja, Norges GUd dig f&#x00F8;lge skal;</l>
+<l>Af Norges Field, af Norges Dal</l>
+<l><pb n="41"/>Det er jo, hvad dig i dit Ski&#x00F8;d</l>
+<l>Din Eyer b&#x00E6;re b&#x00F8;d:</l>
+<l>Og den, som med saa ki&#x00E6;k en Siel</l>
+<l>Kun baner Vey til Folkevel,</l>
+<l>Mon den vel haabe kan omsonst</l>
+<l>Alraaders h&#x00F8;ye Gunst?</l>
+</lg>
+<lg>
+<l>Gak, B&#x00F8;lgetr&#x00E6;der, stolt og ki&#x00E6;k!</l>
+<l>I Navnet selv du f&#x00F8;rer Skr&#x00E6;k;</l>
+<l>Hvert Havtrold flygter for den Stavn,</l>
+<l>Som b&#x00E6;r et saadant Navn;</l>
+<l>Om Ufredsmand sig n&#x00E6;rme t&#x00F8;r,</l>
+<l>Da viis dig, som en Nordmand b&#x00F8;r!</l>
+<l>Imens han havde Jern og Blye,</l>
+<l>Ey var han vant at flye.</l>
+</lg>
+<lg>
+<l>Saa vaye nu dit H&#x00E6;dersflag!</l>
+<l>Det er i Dag din Afskeedsdag;</l>
+<l>See der, hvor alt det kuuler op!</l>
+<l>Saa Seylet nu i Top!</l>
+<l>Til Roeret nu, du gamle Lots!</l>
+<l>Styr vaerlig, styr den bedste Koes!</l>
+<l>Ey hver Dag gaaer fra Mosse-Bugt</l>
+<l>Et Skib saa stolt og smukt:</l>
+</lg>
+<lg>
+<l>Naar anden Vinter er forbi,</l>
+<l>Da list dig paa din Klippesti,</l>
+<l>T&#x00F8;rr Kigeglasset flittig af,</l>
+<l>Og skue hen over Hav!</l>
+<l>Naar Ankers Skib med Flag og Skud,</l>
+<l>At styre ind, dig fordrer du,</l>
+<l><pb n="42"/>Tre Gange da din Hue sving,</l>
+<l>Og ned som Hiorten spring!</l>
+</lg>
+<lg>
+<l>Naar Langf&#x00E6;rdsmanden saa paa nye</l>
+<l>Indstavnende til Reeders Bye</l>
+<l>Sig m&#x00E6;lder med sit Skud og Flag,</l>
+<l>Da bliver der en Dag!</l>
+<l>Har Ankers Sahl for Gi&#x00E6;ste Rum,</l>
+<l>Den Dag da vil det sp&#x00F8;rges om,</l>
+<l>En ski&#x00E6;nkes vil med Niddings-Maal</l>
+<l>Tilbagekomstens Skaal.</l>
+</lg>
+<lg>
+<l>Som buden Gi&#x00E6;st i Vennerad</l>
+<l>Ved Ankers Bord jeg aldrig sad.</l>
+<l>Og aldrig sang jeg f&#x00F8;r til Roes</l>
+<l>For Anker eller Moss;</l>
+<l>Men kiendt at gi&#x00F8;re Mandens Navn,</l>
+<l>Den Mands, der fremmer Folkegavn,</l>
+<l>Mon dette var uv&#x00E6;rdigt Kald</l>
+<l>For end den bedste Skiald?</l>
+</lg>
+<lg>
+<l>Ey Norges bedste Skiald er jeg;</l>
+<l>Jeg sidder helst ved Landevey,</l>
+<l>Og sp&#x00F8;rger dem, som gaae forbi,</l>
+<l>Om Nyt i Land og Bye;</l>
+<l>Som Marmorsteen i Klippev&#x00E6;g,</l>
+<l>Alt graaner nu mit Haar og Ski&#x00E6;g,</l>
+<l>I Ungdoms Aar jeg havde R&#x00F8;st,</l>
+<l>Nu sv&#x00E6;kkes gode Bryst;</l>
+</lg>
+<lg>
+<l><pb n="43"/>Men n&#x00E6;gter mig nu fordums Ild</l>
+<l>Som f&#x00F8;r med Sang og Harpespill</l>
+<l>At tr&#x00E6;de med i Skialdedands</l>
+<l>Og vinde s&#x00F8;gte Krands,</l>
+<l>Saa endnu dog, saa tidt jeg seer</l>
+<l>At H&#x00E6;dersdaad i Landet skeer,</l>
+<l>Saa stiger endnu Gnisten varm</l>
+<l>I gamle Skialdebarm.</l>
+</lg>
+<lg>
+<l>Tag, ki&#x00E6;kke Mand, til takke tag!</l>
+<l>Forsmaae kun ey mit Harpeslag!</l>
+<l>Ey tr&#x00E6;nger jeg til Guld af dig,</l>
+<l>Ey du til Roes af mig &#x2013;</l>
+<l>Ved Mosse-V&#x00E6;rk du st&#x00F8;ber Jern,</l>
+<l>Men meer end det; &#x2013; af Landets B&#x00F8;rn</l>
+<l>Du st&#x00F8;ber M&#x00E6;nd,&#x2013; I unge Bryst</l>
+<l>Du skaber Liv og Lyst.</l>
+</lg>
+<lg>
+<l>Som hidindtil saa rask og gi&#x00E6;v</l>
+<l>Til Landets Held og H&#x00E6;der lev!</l>
+<l>Et Folk i Vey at have sat</l>
+<l>Er meer end all den Skat,</l>
+<l>Som dig Prinds Carl hiembringe kan</l>
+<l>Fra gyldne Kyst, fra bedste Land; &#x2013;</l>
+<l>Prinds Carl kan strande paa sin Vey,</l>
+<l>Sand &#x00C6;re strander ey.</l>
+</lg>
+<lg>
+<l>Velsigne GUd hver Norges S&#x00F8;n!</l>
+<l>(H&#x00F8;r, Himmel, nu min varme B&#x00F8;n!)</l>
+<l><pb n="44"/>Velsigne hver en H&#x00E6;dersmand,</l>
+<l>Som gavner Folk og Land!</l>
+<l>Lad Handelsflaaden gaae i Fred!</l>
+<l>Men slaaer end Vanhelds Torden ned,</l>
+<l>Saa lad en bedre Soel paa nye</l>
+<l>Opklare m&#x00F8;rke Skye!</l>
+</lg>
+<lg>
+<l>Lad Norges Grube, Norges Skov,</l>
+<l>Dog aldrig vorde Havets Rov!</l>
+<l>For tungt udperses Nordmands Sved,</l>
+<l>Til der at legges ned:</l>
+<l>Ledsaget ved din Varet&#x00E6;gt</l>
+<l>Dig v&#x00E6;re dyrebar den Sl&#x00E6;gt,</l>
+<l>Som for at vinde Br&#x00F8;d og Navn</l>
+<l>Gik ud af Norske Havn!</l>
+</lg>
+</div>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI PUBLIC "-// TEI P5 //EN" "http://www.tei-c.org/release/xml/tei/custom/schema/dtd/tei_all.dtd">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="BS_Sivle_Vossa-Stubba">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>bokselskap.no, Oslo 2018
+<lb/>Per Sivle: <hi rend="italic">Vossa-Stubba</hi>
+<lb/>Teksten i bokselskap.no f&#x00F8;lger 1. utgave, 1887 (Kristiania/Samlaget/Cammermeyer). Digitaliseringen er basert p&#x00E5; fil mottatt fra Nasjonalbiblioteket (nb.no)
+<lb/>ISBN: 978-82-8319-423-4 (digital, bokselskap.no), 978-82-8319-424-1 (epub), 978-82-8319-425-8 (mobi)
+</title>
+</titleStmt>
+<publicationStmt>
+<p>Publiseres som digital tekst av bokselskap.no.</p></publicationStmt>
+<sourceDesc>
+    <bibl>
+        <title>Vossa-Stubba</title>
+        <author>Per Sivle</author>
+        <publisher>Samlaget/Cammermeyer</publisher>
+        <pubPlace>Kristiania</pubPlace>
+        <date>1887</date>
+        <note>digibok_2012102308249.epub (mottatt fra Nasjonalbiblioteket)</note>
+    </bibl>
+</sourceDesc>
+</fileDesc>
+<revisionDesc>
+<change who="ENW" when="2018-08-30">F&#x00F8;rt inn korrekturrettelser (HO). Entiteter, kodekontroll og validering. Lagt inn ISBN.</change>
+<change xml:id="ENW" who="ENW" when="2018-07-03">XML-koding. Klar for korrektur.</change>
+</revisionDesc>
+</teiHeader>
+<text xml:id="BS_Sivle_Vossa-Stubba_tekst" type="collection">
+<front>
+<titlePage type="main">
+<byline><docAuthor>Per Sivle</docAuthor></byline>
+<docTitle>
+<titlePart type="main">Vossa-Stubba</titlePart>
+</docTitle>
+<docDate>bokselskap.no<lb/>Oslo 2018</docDate>
+</titlePage>
+<div xml:id="contents">
+<list type="contents_main">
+<item><ref target="chapter_1" xml:id="contents_1">&#x005B;Forord&#x005D;</ref></item>
+<item><ref target="chapter_2" xml:id="contents_2">Han Kolbein Hausa</ref></item>
+<item><ref target="chapter_3" xml:id="contents_3">Vetle-Raurn</ref></item>
+<item><ref target="chapter_4" xml:id="contents_4">Slumpelukko</ref></item>
+<item><ref target="chapter_5" xml:id="contents_5">Ute aa heima</ref></item>
+<item><ref target="chapter_6" xml:id="contents_6">&#x00AB;Vossingjen&#x00BB; aa Mor hans</ref></item>
+</list>
+</div>
+</front>
+<body>
+<div type="chapter">
+<head type="main"><ref type="contents" target="contents_1" xml:id="chapter_1">&#x005B;Forord&#x005D;</ref></head>
+<p>Eg ha skrive dei p&#x00E5; Vossa-M&#x00E5;l, desse Stubbane; eg laut so gjera, skje<note type="footnote"><hi rend="bold">Forfatternote:</hi> <hi rend="italic">skje:</hi> imperf. konjunkt. taa <hi rend="italic">skulja</hi></note> eg sj&#x00F8;lu kunna kannast m&#x00E6; dei.</p>
+<p>End&#x00E5; da &#x00E6; kje alti so greitt, f&#x00E5; livande M&#x00E5;le ne p&#x00E5; Papire; dar &#x00E6; Trot<note type="footnote"><hi rend="bold">Forfatternote:</hi> <hi rend="italic">Trot:</hi> Mangel</note> p&#x00E5; Bogstava end&#x00E5; te. Soleis dennen opne <hi rend="bold">u</hi>-en, midt imydlo <hi rend="bold">u</hi> aa <hi rend="bold">o</hi> (fin<hi rend="bold">u</hi>, stor<hi rend="bold">u</hi>) &#x2013; ja, ein har berre <hi rend="bold">u</hi> te detta; aa inkje anna en&#x0027; <hi rend="bold">y</hi> te D&#x00F8;mes i f<hi rend="bold">y</hi>, f<hi rend="bold">y</hi>re, end&#x00E5; Vokaln dar skje h&#x00F8;yrast burtimot <hi rend="bold">&#x00F8;</hi>.</p>
+<p>L&#x00F8;yst upp i Oro litevetta ha eg og sumestane gjort.</p>
+<p>Detta her <hi rend="bold">ao</hi> ha eg skrive m&#x00E6; <hi rend="bold">&#x00E5;</hi>, so mykje de vita da, (inkje <hi rend="bold">aa</hi>, so heldest eg bruka). Eg veit so v&#x00E6;l, kor gjedna Folk vilja gjera da te &#x00AB;<hi rend="bold">au</hi>&#x00BB;; skje gale v&#x00E6;, vi eg d&#x00E5; heldu, Folk skje lesa <hi rend="bold">aa</hi>, ette M&#x00E5;lf&#x00F8;r&#x00E6; i Eksingadal&#x00E6;, dar dei og rekna seg h&#x00F8;yra Voss te. &#x2013; So dar &#x00E6; no end&#x00E5; eit Vossa-<hi rend="bold">Maal</hi>: men Vossa-&#x00AB;<hi rend="bold">Maul</hi>&#x00BB;, da &#x00E6; inkjevetta.</p>
+</div>
+<div type="chapter">
+<head type="main"><ref type="contents" target="contents_2" xml:id="chapter_2">Han Kolbein Hausa</ref></head>
+<p>De ha vel inkje haurt gjete hono Kolbein Hansa heldu, de, Godtfolk?</p>
+<p>Aa nei, da &#x00E6; vel so da, de. Eg spure no berre og, eg, aa dei seia so fy eit gamalt Or, dei &#x00E6; fleire so forsnakka seg en so forspyrja seg.</p>
+<p><hi rend="italic">Eg</hi> kann no seia, eg kjende hono Kolbein, fr&#x00E5; eg vatt saa storu, eg vann tyggja Graut, eg. Men so &#x00E6; no eg fr&#x00E5; Voss og, eg, m&#x00E5;vita, just so han Holbein sj&#x00F8;lu va; aa da &#x00E6; no so, dei kunna kje adle v&#x00E6; <hi rend="italic">dar</hi> ifr&#x00E5; heldu.</p>
+<p>No va d&#x00E5; dennen Kolbein&#x0027;n sliku meistarl&#x00E6; Kar te fortelja Rispu aa Skronu, at han va namgjeten t&#x00E5; <hi rend="italic">di</hi> heila Vossabygd&#x00E6; yve, aa end&#x00E5;ne viare umkring, baade ni Harang aa inni Sognabygdo. Da &#x00E6; kje lengur sian en sinn Haustn, eg kom yve Fjedle ne te Lustur ein Kveld. Gjekk eg so inn te hono Joans Uppigar&#x00E6; paa Krok &#x2013; da &#x00E6; no sliku tydl&#x00E6; aa snildu Mann koma heim te, attu da &#x00E6; Hugna i da. Tr&#x00F8;yttu va eg aa svoltn va eg; spure so eg, um da va <pb n="6"/>so v&#x00E6;l, eg kunde faa kj&#x00F8;pa meg ei Matamaalti aa so f&#x00E5; Hus yve Hove um Natt&#x00E6;. Aa dar vatt inkje nei te des, dar i Gar&#x00E6;, skuld&#x0027; eg tru.</p>
+<p>&#x00AB;Du &#x00E6; fr&#x00E5; Audland, du, mein&#x0027; eg?&#x00BB; seie Joans&#x0027;n.</p>
+<p>&#x00AB;Nei&#x00BB;, svart&#x0027; eg, &#x00AB;eg &#x00E6; kje da heldu; eg &#x00E6; fr&#x00E5; Voss, eg&#x00BB;, sa eg.</p>
+<p>&#x00AB;Nei, &#x00E6; du <hi rend="italic">da</hi>, du!&#x00BB; sa han. &#x00AB;Nei du&#x00BB;, sa han, &#x00AB;live han Kolbein Hausa end&#x00E5;ne, du?&#x00BB; sa han.</p>
+<p>&#x00AB;Kjenne du <hi rend="italic">hono</hi>, du&#x00BB;, seie eg.</p>
+<p>&#x00AB;Aa inkje da heldu nettupp&#x00BB;, svart&#x0027;an, &#x00AB;men da &#x00E6;, so dei seia, attu Gjetore feru viare en Mannen&#x00BB;.</p>
+<p>So dei hadde haurt <hi rend="italic">ta</hi> hono, dar og.</p>
+<p>Ja, dan Gongj&#x00E6; va no han Holbein end&#x00E5;ne baade frisku og ferigu, seks aa sjauti &#x00C5;r gamadlu so han va. Da va fyssta her i V&#x00E5;r, da bar te Enda m&#x00E6; hono.</p>
+<p>Han va no sliku framifr&#x00E5; Sme og, m&#x00E5;ta, dennen Kolbein&#x0027;n. B&#x00E6;re Bitj&#x00F8;ddn en <hi rend="italic">han</hi> aa so H&#x00F8;yland&#x0027;n, han Jens, gjore, va kje te finna p&#x00E5; heila Vossabygdne, aa end&#x00E5;ne vilde dei halda &#x00D8;ksane hans Kolbein v&#x00E6;l so goa; men H&#x00F8;yland&#x0027;n skje rikja<note type="footnote"><hi rend="bold">Forfatternote:</hi> <hi rend="italic">rikja:</hi> vinna</note> m&#x00E6; Knivo sine.</p>
+<p><pb n="7"/>D&#x00F8;adagjen sin, d&#x00E5; sto han Kolbein i Smiene aa smidde fr&#x00E5; Klokko va seks um Morgun.</p>
+<p>N&#x00E5;r da so lei te Daurs,<note type="footnote"><hi rend="bold">Forfatternote:</hi> <hi rend="italic">Daur:</hi> Dugurd</note> kom ho Ingjebj&#x00F8;r, Kjeringj&#x00E6; hans, ut aa ropte hono inn.</p>
+<p>&#x00AB;Har inkje Tiena, du!&#x00BB; svarte han berre, aa dreiv p&#x00E5;, so da skje golde Live.</p>
+<p>D&#x00E5; Klokko va so p&#x00E5;lag toll, kom han inn i Stovo.</p>
+<p>&#x00AB;Ja set deg no burt, f&#x00E5; deg Matn din, Kolbein!&#x00BB; sa ho Ingjebj&#x00F8;r.</p>
+<p>Aa burt i H&#x00E6;gsete<note type="footnote"><hi rend="bold">Forfatternote:</hi> <hi rend="italic">H&#x00E6;gsete:</hi> H&#x00F8;gsete</note> sette han seg og, aa tok te nuska m&#x00E6; Graut&#x00E6;; men da vatt kje mangje Bitane han tok, f&#x00F8;r han la Skei&#x00E6; ifr&#x00E5; seg, gjekk burt hadla seg nep&#x00E5; Sengj&#x00E6;.</p>
+<p>&#x00AB;Du &#x00E6; d&#x00E5; kje vottn l&#x00E5;ku, veit eg, Kolbein?&#x00BB; seie ho Ingjebj&#x00F8;r.</p>
+<p>&#x00AB;Aa inkje da heldu viare&#x00BB;, svart&#x0027; an; &#x00AB;eg fekk berre sliku idly Styng fy Bringene&#x00BB;.</p>
+<p>Dette va dei seinste Or&#x00E6;, dei haure t&#x00E5; hans Munn; ein halvu Time ette va han &#x00E5;lien.<note type="footnote"><hi rend="bold">Forfatternote:</hi> <hi rend="italic">&#x00E5;lien:</hi> daud</note></p>
+<p>&#x2013; Da &#x00E6; no da minsta, eg hugsa attu no, t&#x00E5; adla Reglo hans; dei vo no utan Tal og, dei.</p>
+<p>Inkje va da no alti, ein fekk hono te; men sleppte han fyssta laust, ja, d&#x00E5; kunde han og halda p&#x00E5; Time ette Time, so da va, so da berre <pb n="8"/>rann or hono. Jabnaste va da no seg sj&#x00F8;lu, han fortalde um; aa lika radt gjekk da, antan da so va Lygn eldu sannt, eldu og blanda t&#x00E5; b&#x00E5;e Slogo, so da no gjedna va. &#x2013; Han va kje so lite kleisu i M&#x00E5;l&#x00E6;, aa hadde fy Vane supa ette Anda inkar Gongj&#x00E6;, n&#x00E5;r han etla seg te koma m&#x00E6; noku serlaga noku.</p>
+<p>Men inkje <hi rend="italic">da</hi>, at du skje sj&#x00E5; likt te L&#x00E5;tt p&#x00E5; hans Anlite, um so heila Stovo risste seg t&#x00E5; Skratt&#x00E6; v&#x00E5;ro; han sat so truverdugu, so han skje sote i Kyrkjene.</p>
+<p>&#x2013; Ha de Hug te h&#x00F8;yra, so ska eg meir en gjedna freista fortelja deko nokre t&#x00E5; Stubbo hans, so godt eg da evla.</p>
+<p>End&#x00E5; jamen &#x00E6; da Synd, de inkje fekk h&#x00F8;yra hono Kolbein sj&#x00F8;lu, n&#x00E5;r han va i Golagj&#x00E6; aa sat i Kubbastol&#x00E6; sino framm&#x00E6; Peis&#x00E6; um Vettra-Kveldo.</p>
+</div>
+<div type="chapter">
+<head type="main"><ref type="contents" target="contents_3" xml:id="chapter_3">Vetle-Raurn</ref></head>
+<p>&#x2013; &#x2013; &#x2013; &#x00AB;Ja, no ha eg no hatt mangje Kr&#x00F8;tur aa t&#x00E5; adle Slogo, baade kneggjande aa rautande aa rinande<note type="footnote"><hi rend="bold">Forfatternote:</hi> <hi rend="italic">rina:</hi> skrika som ein gris</note> aa remjande;<note type="footnote"><hi rend="bold">Forfatternote:</hi> <hi rend="italic">remja:</hi> som ei geit</note> men jamen vettu no Vetle-Raurn Meistarn, kusser, han, <hi rend="italic">da</hi> tore eg seia baade h&#x00F8;gt og fritt.</p>
+<p>Nei, eg hadde kje ale hono, heldu, han va Tveggjering,<note type="footnote"><hi rend="bold">Forfatternote:</hi> <hi rend="italic">Tveggj&#x00E6;ring:</hi> tvo Aars Hest</note> d&#x00E5; <hi rend="italic">eg</hi> fekk hono; aa eg kann gjedna fortelja, kur da m&#x00E6; <hi rend="italic">di</hi> bar te, og.</p>
+<p>Da va d&#x00E5; dan Sumarn, da va sliku steikjande Turk, &#x2013; end&#x00E5;ne same Sumarn, gamle Prostn Mynstur p&#x00E5; Vossavangj&#x00E6; d&#x00F8;e. &#x2013; So var da ein Dag, eg sto nep&#x00E5; Grinda-Teigj&#x00E6; aa slo. Bestu so dette va, dar kjemu han Ola Nigar&#x00E6; p&#x00E5; L&#x00F8;no drivande hitette Allmannsvegj&#x00E6; m&#x00E6; ei Hestadryft.</p>
+<p>Aa dar vatt no &#x00AB;Gudag!&#x00BB;, kann du vita, aa &#x00AB;Gudag igjen!&#x00BB; so da <hi rend="italic">pl&#x00E5;</hi> aa <hi rend="italic">ska</hi> v&#x00E6;, n&#x00E5;r Fagnafolk m&#x00F8;tast.</p>
+<p><pb n="10"/>&#x00AB;Jau, detta va Kar, so har Hesta-Makt&#x00E6;, du!&#x00BB; seie eg.</p>
+<p>&#x00AB;Ja, eg meine <hi rend="italic">so!</hi>&#x00BB; svart&#x0027; an.</p>
+<p>&#x00AB;Da &#x00E6; vel Synnfjoringa, detta?&#x00BB; seie so eg.</p>
+<p>&#x00AB;Skje so v&#x00E6;, <hi rend="italic">da</hi>, ja!&#x00BB; svarte Ola&#x0027;n.</p>
+<p>Mendu me d&#x00E5; stou dar aa pratte, dameso va dar ein Tveggj&#x00E6;rings Lakje,<note type="footnote"><hi rend="bold">Forfatternote:</hi> <hi rend="italic">Lakje:</hi> Filla</note> so spratt te aa skaut seg ratt yve Steingarn inn paa B&#x00F8;dn te meg, aa &#x2013; forsyne meg! &#x2013; snart<note type="footnote"><hi rend="bold">Forfatternote:</hi> <hi rend="italic">snerta:</hi> naa</note> han ni, eigong, end&#x00E5; Garn va yve sina to Alne h&#x00F8;gu! &#x2013; so snautt gjo&#x0027;an da.</p>
+<p>Nei, sj&#x00E5; Lumhundn,<note type="footnote"><hi rend="bold">Forfatternote:</hi> <hi rend="italic">Lumhund:</hi> Lemende</note> du!&#x00BB; sa eg.</p>
+<p>&#x00AB;Kj&#x00F8;p du Lumhundn t&#x00E5; meg, du Kolbein!&#x00BB; sa han Ola; &#x00AB;da ser ut te, han lika seg hjaa <hi rend="italic">deg</hi>&#x00BB;, sa han.</p>
+<p>&#x00AB;Aa, eg har no end&#x00E5; laanesko<note type="footnote"><hi rend="bold">Forfatternote:</hi> <hi rend="italic">Laanesko:</hi> Hudsko med H&#x00E5;ri p&#x00E5;</note> nok te fara reka i kr&#x00F8;dno,<note type="footnote"><hi rend="bold">Forfatternote:</hi> <hi rend="italic">i Kr&#x00F8;dno:</hi> i Kr&#x00F8;rna</note> kusser, eg&#x00BB;, seie eg. &#x00AB;um eg inkje ska f&#x00E5; dei ifr&#x00E5; Synnfjor&#x00BB;.</p>
+<p>&#x00AB;Ja ja, tru meg no, du, da &#x00E6; meira te Hestebne, en da ser ut te, detta, Kolbein! &#x2013; bjo meg p&#x00E5; hono, du!&#x00BB; seie Ola&#x0027;n.</p>
+<p>&#x00AB;Aa, Hesta har eg no end&#x00E5; nok te f&#x00F8;a p&#x00E5;, eg&#x00BB;, seie eg, &#x00AB;altfor mangje, so idla, &#x00C5;re <hi rend="italic">no</hi> ser <pb n="11"/>ut. &#x2013; Men da &#x00E6; da sama: Handul ha eg aldre vanda, &#x2013; kva vi du ha?&#x00BB; seie eg.</p>
+<p>&#x00AB;Ja&#x00BB;, svart&#x0027;an, &#x00AB;ette di da no &#x00E6; du Kolbein, aa me &#x00E6; goe Vine aa inkje rettare eg veit littevetta skylde,<note type="footnote"><hi rend="bold">Forfatternote:</hi> <hi rend="italic">skylde:</hi> i Slegt</note> og, so f&#x00E5;r da kje hjelpa: du ska ha hono fy tredivu Dalar&#x00BB;.</p>
+<p>&#x00AB;Jau! &#x2013; soleisne kann du forlanga, n&#x00E5;r du kjemu ut p&#x00E5; Strilalande, men inkje n&#x00E5;r du &#x00E6; p&#x00E5; Voss, aa har han Kolbein Hansa fy deg&#x00BB;, sa eg.</p>
+<p>&#x00AB;No, kva gjevu du d&#x00E5;?&#x00BB; sa han.</p>
+<p>&#x00AB;Femtan Dalar, aa inkje ein Skjeling meir!&#x00BB; svart&#x0027; eg, &#x00AB;aa end&#x00E5;ne skje eg tru, Traven &#x00E6; bitaltu!&#x00BB;</p>
+<p>&#x00AB;Nei, snakka kje burt i Veggjene!&#x00BB; seie han. &#x00AB;Men da &#x00E6; da sama: d&#x00E5; eg no vi, du ska ha ein Hest ette meg, so du kann ha Hugna t&#x00E5;, so lat me sl&#x00E5; t&#x00E5; fem Dalar; &#x2013; end&#x00E5; eg tapa utlagde Penga p&#x00E5; Foln, eg, d&#x00E5;&#x00BB;, sa han. &#x2013; Da va Handuls-Klo, dan stygge Ola&#x0027;n, du!</p>
+<p>Ja, so vatt no dar ei heil Akedering, dar, kann du vita. Men p&#x00E5; Seinsten vatt da no so, attu Foln vatt min, kusser; aa tju-u Dalar skje eg gje, tiu trakst, aa tiu te Trettndag Jol.</p>
+<p>&#x2013; &#x00AB;Neimen um eg skyna meg p&#x00E5; <hi rend="italic">deg</hi>, Kolbein, <pb n="12"/>likavelne!&#x00BB; sa ho Ingjebj&#x00F8;r; &#x00AB;kasta Penga burt paa slikt eit Ru-R&#x00F8;yve,<note type="footnote"><hi rend="bold">Forfatternote:</hi> <hi rend="italic">Ru:</hi> Vaar-Ull</note><note type="footnote"><hi rend="bold">Forfatternote:</hi> <hi rend="italic">R&#x00F8;yve:</hi> Bundt</note> fydla upp Hus&#x00E6; m&#x00E6;!&#x00BB;</p>
+<p>Aa sannt va da og, attu skarve Foln s&#x00E5;g alt anna en likl&#x00E6; ut. Storu va han p&#x00E5;lag so ein skikkjel&#x00E6; Ver, aa langraggutu so du skje set ein Geitabukk.</p>
+<p>Han skje no lestu v&#x00E6; rau-u p&#x00E5; Lit, end&#x00E5; han skar likaso mykje i da blakka aa dysje-gr&#x00E5;a; aa lortutu va han te ratt upp yve &#x00F8;yro.</p>
+<p>Ja ja, hadde so eg hono Vetturn framyve, eg; aa &#x00E5;t gjor&#x0027; an, so han sto dar m&#x00E6; ei Vomb verru en ei Bura-Kyr.<note type="footnote"><hi rend="bold">Forfatternote:</hi> <hi rend="italic">Bura-Kyr:</hi> Kyr, som stend ferdug te bera</note> Inkje vatt dar Skikk p&#x00E5; hono heldu, f&#x00F8;r han kom p&#x00E5; Grorn<note type="footnote"><hi rend="bold">Forfatternote:</hi> <hi rend="italic">Gror:</hi> nytt Gras</note> um V&#x00E5;rn attu.</p>
+<p>Men so tok Fantn p&#x00E5; l&#x00F8;ysa H&#x00E5;r&#x00E6;, aa Vomb&#x00E6; te minka.</p>
+<p>Aa n&#x00E5;r han kom heimattu or Fjedl&#x00E6; um Haustn, &#x2013; hunn rugge meg, kunde du peka Lyte p&#x00E5; hans Kropp m&#x00E6; ein einaste Fing! Liten va han end&#x00E5;ne &#x2013; han rokk heldu aldre yve sine seks Stolpa fr&#x00E5; Manka te Hovskjeggj&#x00E6; &#x2013; aa ja, da va no trongt m&#x00E6;lt, d&#x00E5; &#x2013;; men so kjednande<note type="footnote"><hi rend="bold">Forfatternote:</hi> <hi rend="italic">kjednande tettu:</hi> tett so ein Kjedne (Kjerne)</note> v&#x00E6;llagdu aa tettu, m&#x00E6; &#x00D8;yrna-Spissa, Lenda-Lag aa Bein-Ty, &#x2013; forsyne meg, sto han inkje, so han <pb n="13"/>skje vo svarva! Slikjande<note type="footnote"><hi rend="bold">Forfatternote:</hi> <hi rend="italic">slikjande:</hi> glitrande</note> slettu i H&#x00E5;ro va han so ein liten Gris, aa so blenkjande rau-u p&#x00E5; Lit so dan finasta Byhua, du fy dina Augu kunde sj&#x00E5;!</p>
+<p>Jau, so skje eg tru, Rakkjen kom te Vyrna! &#x2013; Ho Ingjebj&#x00F8;r velsigna aa ba, eg inkje maatte selja hono, &#x2013; eg lest no so vilja, eg, inkje fy di, eg meinte noku <hi rend="italic">m&#x00E6;</hi> da, eg va for gildu <hi rend="italic">t&#x00E5;</hi> hono, sj&#x00F8;lu, te dess; eg hadde no berre Moro te pirast litevetta m&#x00E6; Kjeringjene, sian ho hadde svivyrt hono so i Fysstne.</p>
+<p><hi rend="italic">Eit</hi> Lyte hadde han likavelne, da ska eg kje nekta fy: dar fanst korkje Gar eldu Grind, so sto hono, &#x2013; yve flaug han so ein Fugl, da hjelpte lite, kor h&#x00F8;gt dar va.</p>
+<p>&#x2013; Men so flaug han so ein Fugl heldest og! Eg tok no te temja hono um Vetturn, fyssta da vatt Sleaf&#x00F8;re, aa <hi rend="italic">so</hi> mangje Hesta hadde eg end&#x00E5; hatt unde Hendo, at eg snart s&#x00E5;g, her va Fotalag, so va framifr&#x00E5;. Eg hadde alt fengje k&#x00F8;yrt hono inn so nokulunde, d&#x00E5; da lei so langt fram so te Kyndesmysu Tiu.</p>
+<p>D&#x00E5; va da ein Dag, eg hadde eit Sn&#x00F8;ggerende ne p&#x00E5; Vangjen. Fin F&#x00F8;r va da, so da berre skutla; spente so eg Raurn fyre aa k&#x00F8;yrde or Tun&#x00E6;.</p>
+<p><pb n="14"/>N&#x00E5;r eg so svinga innp&#x00E5; Allmannsvegjen, kom eg i Fylgje m&#x00E6; ei Kr&#x00E5;ka; ho skje sama Lei&#x00E6;, ho og, s&#x00E5;g da ut te, kvar da no kunde v&#x00E6;, <hi rend="italic">ho</hi> skulde &#x00E5;, aa kva Erend ho heldest hadde.</p>
+<p>Kr&#x00E5;ko, ho fauk no, ho, kann du vita; men inkje da, attu me vottu attuliggjande, eg aa Raurn, heldu.</p>
+<p>&#x00AB;Bra! &#x2013; bra!&#x00BB; skreik ho.</p>
+<p>&#x00AB;Jagu &#x00E6; da bra!&#x00BB; sa eg, &#x00AB;da &#x00E6; meir en bra; men bia no, ska du sj&#x00E5; da end&#x00E5;ne b&#x00E6;re!&#x00BB;</p>
+<p>Ga eg so Hestn eit Drag t&#x00E5; Svipene, eg &#x2013; aa ja, dar skje kje storu Snertn te, trur eg! &#x2013; aa dar vatt ho ette m&#x00E6; da sama, Kr&#x00E5;ko. Brukte Vengjene gjore ho, alt ho berre evla, aa i Motebokko va da, so ho vilde rikja; men n&#x00E5;r da berre hadla <hi rend="italic">m&#x00E6;</hi> attu, eldu me n&#x00E5;dde Flatn, so vatt da Raurn, so hadde Fyremunen.</p>
+<p>Nei, d&#x00E5; me hadde tevla mestu Mil&#x00E6; ut aa vo komne so langt so nep&#x00E5; Rongs-Bakkjen, d&#x00E5; va skarve Kr&#x00E5;ko vott&#x00E6; so tr&#x00F8;ytt, at ho sto kje i da lengur, aa so sette ho seg &#x2013; forsyne meg!&#x2013; beint nep&#x00E5; Selahyvre aa kvilte seg! &#x2013; ja, da gjore ho.</p>
+<p>&#x2013; Vetturn dar ette skulde dar v&#x00E6; Kappk&#x00F8;yring p&#x00E5; Vangs-Is&#x00E6; Trettndag Jol; &#x2013; Raurn va i femto &#x00C5;r&#x00E6;, d&#x00E5;.</p>
+<p><pb n="15"/>&#x00AB;Ja ja&#x00BB;, tenkte <hi rend="italic">eg</hi> m&#x00E6; meg, &#x00AB;da due kje uppr&#x00F8;vt!&#x00BB; &#x2013; aa so m&#x00F8;tt&#x0027; eg, eg og.</p>
+<p>Seimen, han Haldor, hadde ei brun Merr, dei kadla Seims-Bruno, so hadde vo Fritr&#x00E5;ar dar p&#x00E5; Is&#x00E6; fleire &#x00C5;r i Renn. Tiu Stolpa stor <hi rend="italic">va</hi> ho, hoggande v&#x00E6;l voks&#x00E6;, m&#x00E6; Hasa aa Helne-Lea, so dei skje vo spikka, Sokka p&#x00E5; adle fira F&#x00F8;tno aa Sj&#x00F8;dn i Skaddla; &#x2013; aa, da va mykje te Merr, va da, dan Seims-Bruno!</p>
+<p>&#x00AB;Nei, &#x00E6; du Kolbein og ute, m&#x00E6; R&#x00F8;ysekatt&#x00E6; dino?&#x00BB; seie Haldor&#x0027;n.</p>
+<p>&#x00AB;Eg &#x00E6; so da, ja!&#x00BB; sa eg.</p>
+<p>&#x00AB;Kappk&#x00F8;yring um Hest aa hundra Dalar?&#x00BB; ropt&#x0027; an.</p>
+<p>Men antan de no vilja tru meg eldu inkje, so jamen snudde Raurn paa Hove, blinka attette p&#x00E5; meg, d&#x00E5;, aa grov gjor&#x0027; an i Isn m&#x00E6; Grevskono, so berre Sprutn sto; da va kje vanskjel&#x00E6; sj&#x00E5;, kva <hi rend="italic">han</hi> vilde.</p>
+<p>&#x00AB;Ja ja, Gutn min&#x00BB;, tenkt&#x0027; eg, da &#x00E6; deg, da <hi rend="italic">st&#x00E5;r</hi> p&#x00E5;, no, aa tore <hi rend="italic">du</hi> v&#x00E5;ga <hi rend="italic">deg</hi>, so f&#x00E5;r <hi rend="italic">eg</hi> v&#x00E5;ga <hi rend="italic">meg</hi>, og&#x00BB;.</p>
+<p>&#x00AB;Da &#x00E6; so mykje de h&#x00F8;yra p&#x00E5;, da, Kara!&#x00BB; sa eg; &#x00AB;kom so, Haldor!&#x00BB;</p>
+<p>&#x00AB;&#x00C6; da Aalvore dit?&#x00BB; spur&#x0027; an, aa tok te Skratt&#x00E6;.</p>
+<p><pb n="16"/>&#x00AB;Jau&#x00BB;, svart&#x0027; eg, &#x00AB;inkje rettare <hi rend="italic">eg</hi> veit; eldu kanskje <hi rend="italic">du</hi> inkje tore, no?&#x00BB;</p>
+<p>Jysses jau d&#x00E5;, kur <hi rend="italic">han</hi> torde! dar va kje Trot m&#x00E6; <hi rend="italic">di</hi>, inkje.</p>
+<p>So handslou me, d&#x00E5;, um dette V&#x00E5;gam&#x00E5;le, aa stelte oss upp; dei hadde no end&#x00E5; Moro&#x00E6; si, Karane dar, skje eg tru.</p>
+<p>Dameso sleppte me laust. &#x2013; Men d&#x00E5; fengje dei sj&#x00E5;, kva R&#x00F8;ysekattn dudde te! &#x2013; fy Seimen vatt liggjande ette trast, han, aa <hi rend="italic">da</hi> so da munte og. Piska p&#x00E5; Merr&#x00E6; si gjor&#x0027;an, alt da han orka, aa ho tr&#x00E5;a aa ho ekste; men lika mykje bata da.</p>
+<p>Nei, d&#x00E5; eg so va komen so p&#x00E5;lag halvvegjes, &#x2013; jau beiske deg! dar tok Raurn so hart eit Tak, at han kasta dan eine Hoven t&#x00E5; seg. &#x2013; Dar sto eg!</p>
+<p>Men eg ha no, um eg sj&#x00F8;lu ska seia da, aldre vo t&#x00E5; dei seintenkte; eg va eldande snj&#x00E5;pu<note type="footnote"><hi rend="bold">Forfatternote:</hi> <hi rend="italic">snj&#x00E5;p:</hi> rask</note> te tumma <hi rend="italic">ette</hi> i Lummo mina, aa dar, te adl Lukka, so fann eg ein storu Spikar. <hi rend="italic">Eg</hi> utor Slea, treiv store Lea-Kniven<note type="footnote"><hi rend="bold">Forfatternote:</hi> <hi rend="italic">Lea-Kniv:</hi> Lumekniv</note> min, slo Hoven <hi rend="italic">p&#x00E5;</hi> attu aa sleppte laust p&#x00E5; nyt Lag.</p>
+<p>Aa &#x2013; forsyne meg! &#x2013; sto eg inkje end&#x00E5;ne fysste Mann unde Tveita-Land&#x00E6;, eg, n&#x00E5;r Haldor&#x0027;n kom <pb n="17"/>tanande m&#x00E6; brune Merrne sine, so Skumskavlane berre volt t&#x00E5; L&#x00E6;ro henna! &#x2013; ja, da gjor&#x0027; eg.</p>
+<p>Men inkje <hi rend="italic">da</hi>, att du s&#x00E5;g Hestn stikta<note type="footnote"><hi rend="bold">Forfatternote:</hi> <hi rend="italic">stikta paa Fot&#x00E6;:</hi> gi seg</note> p&#x00E5; desso Fot&#x00E6; eigong, inkje so mykje so han skje vo stokkjen m&#x00E6; dan mindsta N&#x00E5;l! &#x2013; Aa, da va Hest, dan Raurn, du!</p>
+<p>&#x2013; Kur da gjekk m&#x00E6; <hi rend="italic">meg</hi> aa Haldor&#x0027;&#x00E6;? Jau, du kann no vita, eg inkje vilde st&#x00E5; <hi rend="italic">ette</hi> hono, eg, so goe Vine so <hi rend="italic">me</hi> vo, aa Trimenninga end&#x00E5; te! Han gjore eit grepa Gjestabo um Kveldn, aa me <hi rend="italic">dette</hi> va V&#x00E5;gam&#x00E5;le t&#x00E5;gjort.</p>
+<p>Han fekk litevetta i Hove, gjore Seim&#x0027;en, d&#x00E5; da lei framp&#x00E5;. Me sotu end&#x00E5;ne i H&#x00E6;gset&#x00E6;, me to, aa smakte p&#x00E5; &#x00F8;le &#x2013; han hadde no slikt eit framifr&#x00E5; goa Jol-&#x00F8;l jamt, han Haldor &#x2013;. Men d&#x00E5; sa han, m&#x00E6; sama han flidde meg &#x00F8;l-Kjengjo:<note type="footnote"><hi rend="bold">Forfatternote:</hi> <hi rend="italic">&#x00D8;l-Kjengja:</hi> &#x00D8;lausa med tvau Skaft</note> &#x00AB;ja, hadde da kje vo fy Skams Skuld, aa da inkje hadde vo <hi rend="italic">du</hi>, Kolbein, so jamen kunde da treft, eg hadde tekje antan te Gr&#x00E5;t&#x00E6; eldu te Kniv&#x00E6;, &#x2013; <hi rend="italic">so</hi> ilt gjore da meg, attu Bruno mi tapte!&#x00BB; &#x2013; ja, soleis sa han.</p>
+<p>&#x2013; Eg hadde Raurn mestu i seks &#x00C5;r ette <hi rend="italic">dasso</hi> Dagj&#x00E6;, aa mangt eit Meistarstykkje gjor&#x0027;an. L&#x00E6;sa upp Buad&#x00F8;r&#x00E6;, <hi rend="italic">da</hi> va no ingjen viare <pb n="18"/>Vande fy hono, &#x2013; han berre beit um Lykjedl aa snudde; og hende gjore da meir en ei Gong, attu me so fonnu hono st&#x00E5;ande gjera seg te goans i Konnkisto mina. Men eg heldt so <hi rend="italic">t&#x00E5;</hi> hono, att trur du, eg va go te vetta sintu paa hono, kusser! So gjor&#x0027; an da no og for mykje hoggande snautt, m&#x00E5;ta, um da end&#x00E5; va Fantastykkje, han va ute m&#x00E6;.</p>
+<p>&#x2013; Kvar da vatt <hi rend="italic">t&#x00E5;</hi> hono &#x2013; jau, han daua, han, so me skulja adle, n&#x00E5;r Ti&#x00E6; v&#x00E5;r kjemu.</p>
+<p>End&#x00E5; da va no altfor ulikl&#x00E6;, da m&#x00E6; <hi rend="italic">di</hi> bar te, gub&#x00E6;re!</p>
+<p>Da va eit &#x00C5;re, ei Slya, dei kadla Brita-Joans, skulde tena hj&#x00E5; meg, lestu.</p>
+<p>So ein Dag, dar kjemu Skaffarn, seie te Skjuss. Are Hesta en Raurn hadd&#x0027; eg kje heima, aa sj&#x00F8;lu kunde eg inkje p&#x00E5; nokun Sett eldu Vis sj&#x00E5; meg Tiena te fylgja <hi rend="italic">m&#x00E6;</hi>.</p>
+<p>&#x00AB;Ja, h&#x00F8;yr no, Joans&#x00BB;, sa eg: &#x00AB;da vettu kje onnor R&#x00E5;, anna du f&#x00E5;r ta Raurn aa skjussa, kusser, du. &#x2013; Men no &#x00E6; da so mykje eg seie da m&#x00E6; deg: setu du deg no te surla aa drikka deg fudlu &#x2013; han va no so narr ette desso Drykkj&#x00E6;! &#x2013; aa da vettu noku gale m&#x00E6; Hest&#x00E6;, ska da inkje v&#x00E6; meg aa takka, har du eit heilt Siebein Annakveld&#x00BB;; &#x2013; fy <pb n="19"/>han va end&#x00E5; inkje so beinspeltu<note type="footnote"><hi rend="bold">Forfatternote:</hi> <hi rend="italic">beinspeltu:</hi> lika til</note> te k&#x00F8;yra, Raurn, n&#x00E5;r da fyssta sveiv hono, aa jamt va han no godt heldn og.</p>
+<p>Aa Jyssys! han hadde no sakta vo ute m&#x00E6; Tauma mydlo Hendo <hi rend="italic">f&#x00F8;r</hi>, han, meinte Joans&#x0027;n</p>
+<p>Men meina du kje likav&#x00E6;l, Svine sette seg innp&#x00E5; Gasgivar-Stovo p&#x00E5; Vangj&#x00E6; aa te studrikka, so han mysste baade Sans aa Samling p&#x00E5; Seinstn, fekk eg sian h&#x00F8;yra.</p>
+<p>Hadde so nokre Glankara<note type="footnote"><hi rend="bold">Forfatternote:</hi> <hi rend="italic">Glankar:</hi> Sk&#x00F8;yar</note> fengje hono upp i Kjerro aa lete hono k&#x00F8;yrt sin Veg. Jau, Brita-Joans&#x0027;n ha sakta dotte ni Kjerrekarmen, han, aa sobna, Beiste! aa Hestn so s&#x00F8;kt heimattu p&#x00E5; ei&#x00E6; Haand.</p>
+<p>Da kunde end&#x00E5;ne alt gjengje baade godt aa v&#x00E6;l, hadde kje te adl Ulukka skarve Lunda-Grind&#x00E6; vo <hi rend="italic">i</hi>. Ha Hestn so sprotte te, han, aa bykst enda yve, end&#x00E5; so h&#x00F8;gt eit Grinds-Le dar va, aa ha da gjengje, so ein kunde venta, attu Hjulna vottu hektande yve Tv&#x00F8;r&#x00E5;s&#x00E6;.</p>
+<p>&#x00D8;rande til&#x00E6; um Morgun ette hadde han Samso Lunde Erend ut; aa dar fekk han sj&#x00E5; Kjerro aa Raurn aa heila Greio hangande burte i Grindne. Da va end&#x00E5; so mykje, Hestn snart <pb n="20"/>litevetta ni Vegjen m&#x00E6; Framf&#x00F8;tno; men sian Selatye heldt, hadde Brjostreim&#x00E6; likav&#x00E6;l strypt hono jhel.</p>
+<p>Ja, soleis va Teh&#x00F8;ve. &#x2013; Men &#x2013; forsyne meg! &#x2013; l&#x00E5;g inkje Brita-Joans&#x0027;n end&#x00E5;ne uppe i Kjerrekarm&#x00E6; aa sov aa raut so ei onnor Purka, fortalde han Samso.</p>
+<p>Eg ha no kje just vo so blautu <hi rend="italic">t&#x00E5;</hi> meg i mi Ti; men jamen greet eg, dan Dagjen, likavelne. Hestn k&#x00F8;yrde eg heim aa grov hono ne; eg va kje go te dra Skinne t&#x00E5; hono eigong.</p>
+<p>Joans&#x0027;n hadde tekje Fotn te Vara, <hi rend="italic">han</hi>, fyssta han vakna, aa <hi rend="italic">da</hi> va vel da besta baade fy hono aa meg; me s&#x00E5;gu hono inkje dar i Bygdne sian, f&#x00F8;r Fatti-Kassn mangje &#x00C5;r ette laut henta hono heimattu fr&#x00E5; Norfjor.</p>
+<p>&#x2013; So va da her eit &#x00C5;re, han Ola, Son min, skulde grava ei Veit burte p&#x00E5; Ny-L&#x00E6;ndne.</p>
+<p>Jau, ein Dagjen, han kom inn te Daurs, dar hadde han ein morkjen Hestahov i Haandne; men midt igj&#x00F8;nom Hoven sto da ein storu, rustn Spikar.</p>
+<p>&#x00AB;Her ska du sj&#x00E5;, kva eg fann burti Veitne, Far!&#x00BB; seie han.</p>
+<p>&#x00AB;Nei, &#x2013; hunn rugge meg! &#x2013; &#x00E6; da d&#x00E5; kje Hoven t&#x00E5; Vetle-Raur&#x00E6;!&#x00BB; sa eg; eg kjende hono p&#x00E5; Spikar&#x00E6;, eg.</p>
+<p><pb n="21"/>Hoven va no so smuldrn, han, att han datt sundu vono f&#x00F8;r. Men Spikarn har eg, dan Dag i Dag &#x00E6;; aa i Kistne mine ska han st&#x00E5;, dan Dagjen, dei k&#x00F8;yra meg ut or Hansa-Tun&#x00E6;, ja, da ska han! so sannt han Ola vi halda, da han ha lovt meg&#x00BB;.</p>
+</div>
+<div type="chapter">
+<head type="main"><ref type="contents" target="contents_4" xml:id="chapter_4">Slumpelukko</ref></head>
+<p>&#x2013; &#x2013; &#x2013; &#x00AB;Nei, so va da ein Morgun her eine Haustn, att eg gjekk burti Smio aa smidde meg ei ny &#x00F8;ks. Eg skjefta henne aa &#x00E5;retta henne aa slipte henne upp, gjore eg, aa so tok eg henne paa Oksl&#x00E6;, tutla <hi rend="italic">sta</hi>, skje finna meg nye Meia &#x00E5;t H&#x00F8;y-Slea mino.</p>
+<p>Aa Bj&#x00F8;rku va dar N&#x00F8;ygde t&#x00E5;, baade sm&#x00E5; aa stora. Men sume va for <hi rend="italic">lite</hi> krokutu, aa sume va for <hi rend="italic">mykje</hi> krokutu; fy de &#x00E6; no so her i desse Verne, m&#x00E5;ta, att inkje <hi rend="italic">kvar</hi> krokute Bj&#x00F8;rkj&#x00E6; &#x00E6; laga te Slea-Mei heldu.</p>
+<p>Men seint um sian kom eg nep&#x00E5; Elvabakkjen attm&#x00E6; Svarte-Hyl&#x00E6;,<note type="footnote"><hi rend="bold">Forfatternote:</hi> <hi rend="italic">Hyl:</hi> H&#x00F8;l</note> aa dar fekk eg Auga p&#x00E5; ein Stu, hoggande fint meia-voksn, so han inkje skje tenkt paa anna en vetta Mei, fr&#x00E5; fysste Dagjen, V&#x00E5;rherra leet hono spretta; &#x2013; &#x2013; ja, da &#x00E6; same Meiane, eg har unde H&#x00F8;y-Slea mino end&#x00E5;ne, so de kunna sj&#x00F8;le g&#x00E5; sta sj&#x00E5;, att da &#x00E6; Gussens Sanning kvart einaste Ore.</p>
+<p>&#x00AB;Du f&#x00E5;r fylgja m&#x00E6; <hi rend="italic">meg</hi>, du Kar!&#x00BB; tenkte <hi rend="italic">eg</hi>. &#x2013; Aa eg te skora,<note type="footnote"><hi rend="bold">Forfatternote:</hi> <hi rend="italic">skura:</hi> hogga</note> so Flisane fokje.<note type="footnote"><hi rend="bold">Forfatternote:</hi> <hi rend="italic">fokje:</hi> plural, av <hi rend="italic">fauk</hi></note></p>
+<p><pb n="23"/>Jau, beiske deg! &#x2013; dar visst&#x0027; eg inkje Ore t&#x00E5;, f&#x00F8;r &#x00F8;kse foor t&#x00E5; Skaft&#x00E6; i slarpa <hi rend="italic">ni</hi> Hyln, so Budlna<note type="footnote"><hi rend="bold">Forfatternote:</hi> <hi rend="italic">Budla:</hi> Bola (Boble)</note> <hi rend="italic">sto</hi> ette.</p>
+<p>&#x00AB;Tvi deg!&#x00BB; sa eg aa sputta ette henne.</p>
+<p>&#x2013; So va da ein Laurdagskveld Sumarn ette. Eg hadde end&#x00E5;ne vo p&#x00E5; St&#x00F8;dl um Dagjen aa va baade tr&#x00F8;yttu aa slyen.</p>
+<p>&#x00AB;Eg bry meg kje um g&#x00E5; p&#x00E5; Sl&#x00E5;tteteigjen, Kjering&#x00BB;, sa eg. &#x00AB;En um eg no gjekk ne&#x00E5;t Elvene aa r&#x00F8;ynte, um da vo so v&#x00E6;l, att Aurn vilde una os Fiska-Kling te Bisk i Morgo?&#x00BB;</p>
+<p>&#x00AB;Jau, eg kjenne da <hi rend="italic">p&#x00E5;</hi> meg! &#x2013; Nora-Ett aa Kl&#x00E5;rv&#x00E6;r so <hi rend="italic">no</hi> da &#x00E6;!&#x00BB; meinte ho, aa bl&#x00E6;s i Nos&#x00E6;.</p>
+<p>Lest inkje eg viare g&#x00E5;, anna tok Fiske-Troa aa Makka-Pose aa lakka neyve B&#x00F8;dn.</p>
+<p>&#x00AB;Ja, eg ska eta da r&#x00E5;t, eg, da <hi rend="italic">du</hi> f&#x00E5;r i Kveld!&#x00BB; ropte ho Ingjebj&#x00F8;r ette meg.</p>
+<p>Tutla<note type="footnote"><hi rend="bold">Forfatternote:</hi> <hi rend="italic">tutla:</hi> gaa sm&#x00E5;tt</note> eg so ne&#x00E5;t Svarte-Hyl&#x00E6;, sl&#x00F8;ngde uti. &#x2013; Aa bestu so eg sto, dar kjend&#x0027; eg, da nuppa so tungt, &#x2013; dameso sl&#x00F8;ngd&#x0027; eg te, end&#x00E5; p&#x00E5; Striting<note type="footnote"><hi rend="bold">Forfatternote:</hi> <hi rend="italic">Striting:</hi> R&#x00F8;yning</note> gjekk da, so Tro-o sto so ein Bogje. Eg s&#x00E5;g berre, kur da blenkte aa sprilta i Luktne, f&#x00F8;r da datt <hi rend="italic">ne</hi> i ein Krakje attante meg, so Kvistane <pb n="24"/>truste.<note type="footnote"><hi rend="bold">Forfatternote:</hi> <hi rend="italic">truste:</hi> imperf. av <hi rend="italic">trysja</hi></note> &#x2013; Jau, d&#x00E5; eg so skulde sj&#x00E5; <hi rend="italic">te</hi>, &#x2013; &#x2013; &#x2013; du skje aldri p&#x00E5; Makjen ha set! &#x2013; dar hadde Ungedl<note type="footnote"><hi rend="bold">Forfatternote:</hi> <hi rend="italic">Ungedl:</hi> Fiskekrok</note> fysty smett seg gj&#x00F8;nom Auga p&#x00E5; desse &#x00F8;ksne, eg mysste &#x00C5;re framfyre&#x00E5;t, aa so hadde dar sian bite ein forn&#x00F8;ggjel&#x00E6;<note type="footnote"><hi rend="bold">Forfatternote:</hi> <hi rend="italic">foruoggjel&#x00E6;:</hi> uhorveleg</note> Aure <hi rend="italic">p&#x00E5;</hi>, &#x2013; ja, antan de vilja tru meg eldu inkje, so va han sina goa to Merku yve V&#x00E5;gj&#x00E6;!</p>
+<p>Men so l&#x00E5;g dar ein Hare og. Han ha sagta sote uppi Kraka i sine eigne Tanka, han, Stakkar, n&#x00E5;r &#x00D8;ks&#x00E6; kom sjugande aa trefte hono midt i Skjelto, so han datt dau-u p&#x00E5; Flekkj&#x00E6;.</p>
+<p>Nei, d&#x00E5; breidd&#x0027; eg Hendna ut te Velsignelse; aa &#x2013; forsyne meg! &#x2013; kom dar kje so ein Orrhane, sette seg p&#x00E5; kver Haand! &#x2013; ja, da gjore da. So kneip eg te, aa dar hadd&#x0027; eg <hi rend="italic">dei</hi> og.</p>
+<p>Ho slo Hendna yve Hove, ho Ingjebj&#x00F8;r, d&#x00E5; eg kom dragande inn i Stovo m&#x00E6; alt detta her.</p>
+<p>&#x00AB;Ja, dar har du Matn din, Kjering!&#x00BB; sa eg; &#x00AB;set deg no burt&#x00E5;t Bor&#x00E6;, ta te nuska. Eg vona, du har nokk m&#x00E6; &#x00D8;ksne, no te Kveldsmat; aa vi du, kan du end&#x00E5; f&#x00E5; Lov te koka henne, og&#x00BB;.</p>
+<p>&#x00AB;Nei, du Kolbein, du Kolbein!&#x00BB; sa ho, &#x00AB;du har no Slumpe-Lukko <hi rend="italic">m&#x00E6;</hi> deg, kusser, du!&#x00BB;</p>
+<p>Men ho ga meg Sm&#x00F8;r-Kling te Kvelds, og, d&#x00E5;, likavellne&#x00BB;.</p>
+</div>
+<div type="chapter">
+<head type="main"><ref type="contents" target="contents_5" xml:id="chapter_5">Ute aa heima</ref></head>
+<p>&#x2013; &#x2013; &#x2013; &#x00AB;Jau, so skje eg kanhenda fortalt deko um ei Byfeer, eg eigong gjore, aa kur da gjekk baade <hi rend="italic">mendu</hi><note type="footnote"><hi rend="bold">Forfatternote:</hi> <hi rend="italic">mendu:</hi> medan</note> aa <hi rend="italic">ettep&#x00E5;</hi>.</p>
+<p>Da va no i dei Daga, f&#x00F8;r Dampb&#x00E5;tane vo komne, detta, inkje aa snakka um Jedn-Banen, me <hi rend="italic">no</hi> ha fengje.</p>
+<p>Antan va da te k&#x00F8;yra te Evunga, d&#x00E5;, sian slita aa ro Evunga-Vatne aa Bulsto-Fjorn ut, aa so h&#x00E6;ra p&#x00E5;, te me n&#x00E5;dde Bergen, &#x2013; ellog te reisa landa-leies Strila-Lande yve, aa dar vo kje Vegjene for rare, skje eg tru.</p>
+<p>So va da d&#x00E5; trea &#x00C5;re ette, eg hadde gift meg &#x2013; same Haustn end&#x00E5;ne, ho Anna, Dottur mi, kom <hi rend="italic">te</hi>.</p>
+<p>Eg hadde no vo i Bydn baade tidt og tr&#x00E5;t, dan Ti eg va Ungkar aa for rak m&#x00E6; Skr&#x00E6;ppene eldu endur aa d&#x00E5; m&#x00E6; nokre Fe-Stykkje aa inkvar Hestn, og; men d&#x00E5; eg so hadde tekje mot Fars-Garn min, vatt dar lite Tiena te <hi rend="italic">sovore</hi> kan du vita.</p>
+<p><pb n="26"/>So skuld&#x0027; eg d&#x00E5; i Veg attu, no, eigong. Eg aa han Sjur Brekku, Sv&#x00E5;gurn min va, slou os ihop, kj&#x00F8;pte inn ein heilu Brote m&#x00E6; Sm&#x00F8;r aa Ramost,<note type="footnote"><hi rend="bold">Forfatternote:</hi> <hi rend="italic">Ramost:</hi> Gammalost</note> att&#x00E5;t Sumars-Dr&#x00E5;ttn v&#x00E5;r eien; tiu Festykkje aa fira Hesta <hi rend="italic">og</hi> skulde me ha <hi rend="italic">m&#x00E6;</hi>.</p>
+<p>Laga d&#x00E5; <hi rend="italic">me</hi> da so, attu Sjur&#x0027;n for sjovegjes m&#x00E6; Dr&#x00E5;tt&#x00E6; aa eg landaleies m&#x00E6; Kr&#x00F8;turo.</p>
+<p>&#x2013; No va dar ein, dei kadla H&#x00E6;gset&#x0027;n, &#x2013; han eitte heldest Knut aa va t&#x00E5; H&#x00E6;gset i Raundal&#x00E6;. &#x2013; Aa ja, dar g&#x00E5;r no Gitore t&#x00E5; <hi rend="italic">hono</hi> Bygdane yve, dan Dag i Dag &#x00E6;; han vatt end&#x00E5;ne ihel-skurn burte i Hadlingdal sian. &#x2013; Verru Agal&#x00F8;ysa en dennen H&#x00E6;gset&#x0027;n va dar kje i dei Daga te finna Sjoane imydlo. Ute p&#x00E5; Handul for han aa rak baade jamt aa samt; aa so drakk han, aa so slost han, aa gjore adle dei Spikk, so te kunde v&#x00E6;.</p>
+<p>Dei vilde no seia, han hadde Svartebokj&#x00E6;, og; aa kur da no va m&#x00E6; <hi rend="italic">di</hi> eldu inkje, so kunde han no baade trodla aa synkverva, <hi rend="italic">da</hi> s&#x00E5;g eg m&#x00E6; mina eigna Auge, <hi rend="italic">da</hi>, so de sian skulja f&#x00E5; h&#x00F8;yra; &#x2013; end&#x00E5; da va kje alti, han hadde Magt <hi rend="italic">te</hi> da, sa han.</p>
+<p>Trefte so eg dennen H&#x00E6;gset&#x0027;n, d&#x00E5; eg kom drivande Vossavangjen forbi.</p>
+<p><pb n="27"/>&#x00AB;&#x00C6; du p&#x00E5; Byfer, Kolbein?&#x00BB; sa han.</p>
+<p>&#x00AB;Ja, eg &#x00E6; so da!&#x00BB; svart&#x0027; eg.</p>
+<p>&#x00AB;Kanhenda me kunde vetta i Fylgje, d&#x00E5;; eg ska same Vegjen, eg og&#x00BB;, seie han.</p>
+<p>Eg kan no kje seia, eg va viare mota p&#x00E5; detta; eg kjende hono for v&#x00E6;l te <hi rend="italic">dess</hi>. Men eg kvidde meg fy seia nei, og, eg hadde kje Hug leggja meg ut <hi rend="italic">m&#x00E6;</hi> hono, heldu.</p>
+<p>No, so <hi rend="italic">vatt</hi> da <hi rend="italic">so</hi>, d&#x00E5;, attu me slou Lag, kusser. Han hadde fem Hesta aa sjau Fe-Stykkje, han, so dar vatt ei heil lit&#x00E6; Dryft, n&#x00E5;r me sleppte ihop.</p>
+<p>Aa mot <hi rend="italic">meg</hi> va han serlaga baade glupu aa redel&#x00E6;, heila Ti&#x00E6;, &#x2013; sa eg anna, so laug eg. &#x2013; Du skje gjedna sj&#x00E5; <hi rend="italic">da</hi>, attu du finnu kje truare Kar en ein Skjelm, vi han fysta <hi rend="italic">v&#x00E6;</hi> tru-u.</p>
+<p>Men du aa du, fy adle dei Glankar-Spikk aa Fanta-Stykkje han gjore, dar me foor fram, vissa d&#x00E5; me komu ut p&#x00E5; Strilalande.</p>
+<p>Eg hugsa so nauande v&#x00E6;l ein Dagjen, me vo inne hj&#x00E5; ei Strila-Kjering aa kj&#x00F8;pte os Mat.</p>
+<p>No va da Skjikkjen, attu Matamaalti&#x00E6; kosta fira Skjeling te Manns, meira kunde ingjen fy Skams Skuld ta i dei Daga.</p>
+<p>Ja, sette so me os burt&#x00E5;t Bor&#x00E6;, aa H&#x00E6;gset&#x0027;n te spika p&#x00E5; Sm&#x00F8;re, so da skje vo Graut.</p>
+<p><pb n="28"/>Kjeringj&#x00E6; gjekk svimsa aa svamsa p&#x00E5; Golv&#x00E6;, berre skjeggle-glytte <hi rend="italic">te</hi> hono; p&#x00E5; hara Live va ho fy Sm&#x00F8;r&#x00F8;skjo si, <hi rend="italic">da</hi> va vandalaust te sj&#x00E5;; men Skam totte ho vel da va, snakke <hi rend="italic">te</hi>, og.</p>
+<p>Jau, so kunde ho kje halda seg lengur; kom ho so hit, sette seg paa Store-Krakkjen framante os.</p>
+<p>&#x00AB;Da &#x00E6; dyrt Sm&#x00F8;re, no&#x00BB;, sa ho.</p>
+<p>&#x00AB;Aa ja, da kan gjedna v&#x00E6; dyrt, detta, so &#x00E6; so godt!&#x00BB; svarte H&#x00E6;gset&#x0027;n berre, aa sp&#x00F8;nte p&#x00E5; end&#x00E5;ne f&#x00E6;lare.</p>
+<p>D&#x00E5; han so hadde lagt i seg alt, han p&#x00E5; nokun M&#x00E5;te orka, tok han Pipo si upp aa ga seg te karva t&#x00E5; Tobakkj&#x00E6; sino.</p>
+<p>&#x00AB;Eg pl&#x00E5; no jamt ta meg ein R&#x00F8;yk midt i Maaltiene&#x00BB;, sa han.</p>
+<p>Men d&#x00E5; flaug ho upp, Kjeringj&#x00E6;, og. &#x00AB;Ja, &#x00E6; du kje lengur komen end&#x00E5;ne, so Gu signe deg slutta! &#x2013; du ska sleppa bitala ein einaste Skjeling!&#x00BB; sa ho. &#x2013; Aa soleis vatt da, og.</p>
+<p>&#x2013; P&#x00E5; ein Gar nora Bydn budde dar ein Mann, dei kadla Hamra-Kj&#x00E6;mpo, &#x2013; riku aa evlugu<note type="footnote"><hi rend="bold">Forfatternote:</hi> <hi rend="italic">evlug:</hi> st&#x00E6;rk</note> Kar, men so eitrande illsinna aa harkavorn, attu vissa fy Fremandefolk va han reint ei Vega-Skr&#x00E6;ma.</p>
+<p>H&#x00E6;gset&#x0027;n fortalde, han hadde bytt Hesta <pb n="29"/>m&#x00E6; hono um V&#x00E5;rn, aa lurt inn p&#x00E5; hono ei sprengd Merr, m&#x00E6; eit Vamba-Drag so ein Smie-Belg, fysta ho inkje fekk berre klinkande Turr-Foringj&#x00E6;.</p>
+<p>&#x00AB;Eg ska v&#x00E5;ga, han &#x00E6; bliu p&#x00E5; meg, han Elias Hamre, no; men lika godt!&#x00BB; sa han.</p>
+<p>Jau, d&#x00E5; me so ein Kv&#x00E6;ldn sottu inni Gasgivar-Stovene p&#x00E5; Haukali, p&#x00E5;lag ei Mil fr&#x00E5; Bydn, dar kj&#x00E6;mu Hamr&#x0027;n inn, han, hallfudlu aa rangu.</p>
+<p>&#x00AB;Jagu va da bra, eg eigong trefte deg attu, Knut H&#x00E6;gset! no ska du end&#x00E5; faa Helsing fr&#x00E5; Borkene, eg bytte t&#x00E5; deg!&#x00BB; sa han, aa vava Snertn t&#x00E5; store Blyklumpa-Peisne sine um N&#x00E6;ven.</p>
+<p>Men i da sama dar fekk han eit tungt Tinn-Krus midt i Skjelto, so &#x00F8;le aa Bloe sprytte burtette, aa i Uvite seig han p&#x00E5; Flekkj&#x00E6;.</p>
+<p>D&#x00E5; han so kr&#x00E5;nte <hi rend="italic">te</hi> attu, sto H&#x00E6;gset&#x0027;n yve hono m&#x00E6; Kniv&#x00E6; i Luktne aa engla aa bante, att no skuld&#x0027; an ta Helso <hi rend="italic">t&#x00E5;</hi> hono dar.</p>
+<p>Aa jamen klokk han <hi rend="italic">i</hi>, Hamr&#x0027;n, d&#x00E5;, aa tok te be fy seg so sm&#x00E5;t. &#x2013; Dei sa no og, da skulde kje v&#x00E6; st&#x00F8;rra Mote i hono, n&#x00E5;r han inkje hadde Svarta-Sinne sit yve seg.</p>
+<p>&#x00AB;Ja, da &#x00E6; da sama, Elias&#x00BB;, sa Knut&#x0027;n, &#x00AB;gjevu <pb n="30"/>du meg godt Hestabyte ei Gong te, so f&#x00E5;r eg spara deg!&#x00BB;</p>
+<p>Aa dar vatt kje lengje bia, heldu, f&#x00F8;r Handuln va gjoru; han torde kje anna, Hamr&#x0027;n, end&#x00E5; han laut ut m&#x00E6; femtan Dalar i Mydlolag, aa fekk l&#x00E5;kare Hest, en han hadde. &#x2013; Aa jau, da va upplaga Kar, dan H&#x00E6;gset&#x0027;n!</p>
+<p>&#x2013; Dagjen ette drivu me so te Bydn; aa same Kveldn kom han Sjur, Sv&#x00E5;gurn min, og.</p>
+<p>M&#x00E6; Kr&#x00F8;turo vottu me reiuge vono f&#x00F8;r.</p>
+<p>Men so vatt da d&#x00E5; Dag ut aa Dag inn te renna um fr&#x00E5; Hus te Hus m&#x00E6; Prov p&#x00E5; Sm&#x00F8;r aa Ramost aa kjekkla aa prata m&#x00E6; desse Bergens-Kvenfolko.</p>
+<p>Du aa du, fy eit Kjefta-Lag dar va p&#x00E5; dei! &#x2013; aa so grovu dei no aa spure um all dan bidige Ting, <hi rend="italic">te</hi> kunde v&#x00E6;, so toskutu end&#x00E5; te, att du kunde tru, dei vo uppalne burte i ei Ur.</p>
+<p>Aa ja, me sette no end&#x00E5; mangei Lyra<note type="footnote"><hi rend="bold">Forfatternote:</hi> <hi rend="italic">Lyra:</hi> Lygn</note> i dei, skuld&#x0027; eg tru.</p>
+<p>Da va ein Dagjen, eg kom upp te slikei grusa Kj&#x00F8;pmannsfrua, aa skje no sj&#x00E5; te sl&#x00E5; ein Handul, eg, kan du vita. Ja, ho smakte p&#x00E5; Varna, gjore ho, aa hadla p&#x00E5; Hove aa trippa aa skrikka, so <pb n="31"/>da skulde vo ei Skjor. Men inkje noko va d&#x00E5; telags &#x00E5;t henne.</p>
+<p><hi rend="italic">Eg</hi> paa Sjo-Bu&#x00E6; ette anna, tre Vendinga end&#x00E5;ne gjor&#x0027; eg, sleit aa bar p&#x00E5; tunge Sm&#x00F8;r-Stampane; eg tenkte, dar kunde votte noku tena, eg.</p>
+<p>Jau, so vatt da so p&#x00E5; Seinstn, att ho kj&#x00F8;pte eit lite Sm&#x00F8;rstykkje; men end&#x00E5; gnika ho so p&#x00E5; Prisn, attu da va Skam h&#x00F8;yra.</p>
+<p>&#x00AB;Nei, h&#x00F8;r nu, go Vossemann!&#x00BB; sa ho, d&#x00E5; eg sto reiugu skulde g&#x00E5;, &#x00AB;jeg vilde saa gjerne vide, hvorledes din Kone bereider sit Sm&#x00F8;r&#x00BB;.</p>
+<p>&#x00AB;Jau, da ska du f&#x00E5; vita&#x00BB;, sa eg. &#x00AB;N&#x00E5;r da &#x00E6; kjedna, so l&#x00E6;ggu ho da i eit stort Traag<note type="footnote"><hi rend="bold">Forfatternote:</hi> <hi rend="italic">Traag:</hi> Traug</note> aa drysu Salt p&#x00E5;; so dra <hi rend="italic">ho</hi> aa adle Ungane Sokkane t&#x00E5; seg, springa uppi, trakka i da, alt dei orka. &#x2013; Da f&#x00E5;r fysta rette Smakjen sin, d&#x00E5;&#x00BB;, sa eg.</p>
+<p>Men &#x2013; forsyne meg! &#x2013; sto kje Gausn<note type="footnote"><hi rend="bold">Forfatternote:</hi> <hi rend="italic">Gaus:</hi> Sprut</note> or Hals&#x00E6; <hi rend="italic">p&#x00E5;</hi> henne, m&#x00E6; sama eg detta sa!</p>
+<p>Aa ja, eg greet inkje, dar eg gjekk neyve Treppena, trur eg!</p>
+<p>&#x2013; Men dan H&#x00E6;gset&#x0027;n, dan H&#x00E6;gset&#x0027;n! &#x2013; Han gjekk no p&#x00E5; beste Leisto sine, og, i dei Dage; aa Basn spelte han i Bydn, dennen Haustn, &#x2013; Pultie vilde kje ha <hi rend="italic">m&#x00E6;</hi> hono gjera eigong.</p>
+<p><pb n="32"/>Eg fortalde f&#x00F8;r, han kunde dan Kunstn aa kverva Syn&#x00E6;. &#x2013; Jau, ein Dagjen, dar hadde han fengje seg Tak i ein Bukka-Kjidling, han gjekk leidde p&#x00E5; burte p&#x00E5; Torgj&#x00E6;. Aa Folk str&#x00F8;ymde <hi rend="italic">te</hi> um hono, so du skulde set ein Kyrkje-Almugje; fy adle so tytte<note type="footnote"><hi rend="bold">Forfatternote:</hi> <hi rend="italic">tytte:</hi> tykte</note> dei so skile, attu skarve Kjidlingjen drog ein forn&#x00F8;ggjel&#x00E6; storu Tymburstokk ette Spedl&#x00E6;.</p>
+<p>Men so kom dar ei Kjering m&#x00E6; ei H&#x00F8;y-Dydla<note type="footnote"><hi rend="bold">Forfatternote:</hi> <hi rend="italic">Dydla:</hi> liti Byr</note> berande, aa i desso H&#x00F8;y&#x00E6; ha dar sagta vo ein Firakl&#x00F8;vur, so Trolskapen hadde kje Makt yve <hi rend="italic">henne</hi>, inkje.</p>
+<p>&#x00AB;Nei, &#x00E6; d&#x00E5; detta noku st&#x00E5; bisna p&#x00E5;, og!&#x00BB; sa ho, &#x2013; &#x00AB;ein Kjidling, so dregu eit Halmstr&#x00E5; ette Spedl&#x00E6;!&#x00BB;</p>
+<p>Ja, so s&#x00E5;gu dei da, adle samne, d&#x00E5;.</p>
+<p>Men d&#x00E5; vatt han inkje bliu, H&#x00E6;gset&#x0027;n, heldu.</p>
+<p>&#x00AB;Vi du selja H&#x00F8;ye dit, Kjering, so her har du ein Dalar!&#x00BB; sa han.</p>
+<p>Jau, Kjeringj&#x00E6; takka te, ho, aa sette H&#x00F8;y-Dydlo t&#x00E5; seg.</p>
+<p>Men d&#x00E5; skje du ha Takk! &#x2013; kvervde so Vyresl&#x00F8;yso Syn&#x00E6; p&#x00E5; henne, so ho tytte, ho sto ute i aukande Vattn. Trekte so ho &#x2013; forsyne <pb n="33"/>meg! &#x2013; Doss&#x00E6;<note type="footnote"><hi rend="bold">Forfatternote:</hi> <hi rend="italic">Doss:</hi> Stakk, Skj&#x00F8;rt</note> upp, ho, Stakkar! lukt unde H&#x00E6;ndna end&#x00E5; te, aa gjekk so dar, vabba aa vadde p&#x00E5; Torga-Ris&#x00E6;,<note type="footnote"><hi rend="bold">Forfatternote:</hi> <hi rend="italic">Torga-Rise;</hi> den Haugen paa Bergens Torg, der Christi-Stytta staar</note> te du skje tru, Folk hadde l&#x00E6;tt seg spent sprikkande ihel.</p>
+<p>Han flinte godt, stygge H&#x00E6;gset&#x0027;n og, d&#x00E5;.</p>
+<p>&#x2013; Me hadde no end&#x00E5; Moro&#x00E6; v&#x00E5;r ofta tidt, dar i Bydn. &#x2013; Ein Kveldn vo me inne s&#x00E5;gu p&#x00E5; nokre Komeli-Spelara, aa vissa va dar d&#x00E5; ein, so va no so mykje eldande snj&#x00E5;pu te springa! Han foor flaug rundt i ein storu Krins dar p&#x00E5; Golv&#x00E6;, forare aa forare aa forare aa forare, te p&#x00E5; Seinstn so n&#x00E5;dd&#x0027; an seg sj&#x00F8;lu attantefr&#x00E5;, aa sette Fotn i Brokabottn <hi rend="italic">p&#x00E5;</hi> seg, so &#x2013; forsyne meg! &#x2013; foor han inkje hovestupa burtette! &#x2013; ja, da gjor&#x0027; an.</p>
+<p>&#x2013; Nei, so va da detta, d&#x00E5;, att end&#x00E5;ne Dagjen ette, att eg te Bydn va komen, dar gjekk eg inn i Krambu&#x00E6; te hono Frans J&#x00E6;gur p&#x00E5; Sm&#x00F8;rs-Allmenningj&#x00E6;. &#x2013; Me vo no end&#x00E5; kjende fr&#x00E5; gamalt, me, skje eg tru!</p>
+<p>Helste so eg Gudagjen aa takka fy sistu.</p>
+<p>&#x00AB;Nei, Gudag, Gudag! &#x2013; aa velkomen te Bydn attu eigong, Kolbein!&#x00BB; sa han.</p>
+<p><pb n="34"/>Eg laut no fylgja inn i sj&#x00F8;la Kantore p&#x00E5; raue Rappen, eg, aa dar tok han Hol p&#x00E5; ei Flaska t&#x00E5; adla besto Slagj&#x00E6; &#x2013; da Ieet seg no end&#x00E5; drikka, skje eg tru! &#x2013; so me sote nuska m&#x00E6;, mendu me pratte um nyt aa gamalt.</p>
+<p>&#x00AB;Nei, h&#x00F8;yr no, du Kolbein Hausa&#x00BB;, sa han, &#x00AB;va da kje R&#x00E5;, me kunde sl&#x00E5; ein litn Handul idag&#x00BB;.</p>
+<p>&#x00AB;Ka skulde da so <hi rend="italic">v&#x00E6;</hi> um, <hi rend="italic">da</hi>, d&#x00E5;?&#x00BB; seie eg.</p>
+<p>&#x00AB;Jau, eg fekk her i hinare Vikene heim fr&#x00E5; Engeland noku Obna t&#x00E5; ein nyu Sort, so ska no v&#x00E6; reint framifr&#x00E5; glupu&#x00BB;, seie han.</p>
+<p>&#x00AB;Ja, da &#x00E6; v&#x00E6;l nok, da, du&#x00BB;, svar&#x0027; eg; &#x00AB;men so &#x00E6; vel Prisn darette og, d&#x00E5;?&#x00BB;</p>
+<p>&#x00AB;Aa, du veit, eg f&#x00E5;r no fy di Skuld t&#x00F8;ya meg so langt, eg kan&#x00BB;, sa han; &#x00AB;me kunna no g&#x00E5; ne, sj&#x00E5; p&#x00E5; dei&#x00BB;.</p>
+<p>No hadde eg nettupp sj&#x00F8;lu tenkt, f&#x00E5; meg ein nyu Obn, fysta da trefte seg so; dan gamle <hi rend="italic">va</hi> snart berre Sprikkena aa Klinkingane, han, so han va mindur i Hus&#x00E6; havande.</p>
+<p>D&#x00E5; me so komu nep&#x00E5; Sjobu&#x00E6;, jau, dar stou dei, desse Obnane, h&#x00F8;ge so dei h&#x00F8;gste Kara, aa grepa aa gilde s&#x00E5;gu dei ut i adle M&#x00E5;ta.</p>
+<p>&#x00AB;Ka trur du, Kolbein, meina du inkje, han <pb n="35"/>skulde prya i Hausa-Stovene, ein sliku?&#x00BB; seie Frans&#x0027;n, dulta meg i Sio m&#x00E6; Ollbaaga.</p>
+<p>No, so forlangte d&#x00E5; han, aa eg bau. Jau, bestu da va, dar votte me Handlara um eine Aabn, me; aa tiu Bismar-Pund Sm&#x00F8;r aa ein Ramost <hi rend="italic">ga</hi> eg, men so skuld&#x0027; eg ha ei Tobaks-Mork p&#x00E5; Handuln.</p>
+<p>D&#x00E5; me so eigong vottu reiuge, toku no eg aa Sjur&#x0027;n p&#x00E5; Heimveg, me; men H&#x00E6;gset&#x0027;n vatt liggjande <hi rend="italic">attu</hi>, han, dar i Bydn.</p>
+<p>Dei m&#x00F8;tte os p&#x00E5; Evungo m&#x00E6; Hest heimante, aa me komu end&#x00E5;ne p&#x00E5; Vossavangjen dan same Dagjen, d&#x00E5; han Svein Brekku stakk hono Hallstein L&#x00F8;no te Ulivs. Eg sat burte p&#x00E5; Gassgivar-Stovene, eg og, d&#x00E5; desse Karane votte usams um eit Kroka-Drag &#x2013; aa ja, da va no vel ho Torbj&#x00F8;r Seim, so sat i Hausa p&#x00E5; dei b&#x00E5;e to. &#x2013; Aa dar flaug Svein&#x0027;n upp, han, k&#x00F8;yrde Kniven beint i Sio p&#x00E5; hono Hallstein, so da skulde vo eit Beist, han hadde fy seg; &#x2013; du skje aldre so stygt ha set! &#x2013; men so fint so Blospiro sto, dui!</p>
+<p>Jau, same Kveldn so k&#x00F8;yrde eg d&#x00E5; inn Hausa-Tune attu; da dar vatt no H&#x00F8;gti, kann du vita.</p>
+<p>Um Morgun tok so eg <hi rend="italic">te</hi> stedla nye Obn upp inne i Stovene.</p>
+<p><pb n="36"/>&#x00AB;Nei, du Kolbein, du Kolbein, du veit no finna da p&#x00E5;, du!&#x00BB; sa ho Ingjebj&#x00F8;r; ho va no so gild t&#x00E5; desso Obn&#x00E6;, ho gjekk berre te aa fr&#x00E5;, skaadde p&#x00E5;.</p>
+<p>Da vatt no og sliku utifr&#x00E5; Kar te dra, dennen Obn, m&#x00E5;ta. att du aldre Makjen skje set.</p>
+<p>&#x00AB;Eg skyne kje detta&#x00BB;, sa ho Ingjebj&#x00F8;r ein Dag, &#x00AB;eg kunde gjedna v&#x00E6; Sobl<note type="footnote"><hi rend="bold">Forfatternote:</hi> <hi rend="italic">Sobl:</hi> Sopling</note> forutan, sian dennen nye Obn kom i Huse; her &#x00E6; kje so godt so eit Bos<note type="footnote"><hi rend="bold">Forfatternote:</hi> <hi rend="italic">Bos:</hi> Rusk</note> te sj&#x00E5; p&#x00E5; Golv&#x00E6;, eigong&#x00BB;.</p>
+<p>Aa sannt <hi rend="italic">va</hi> da, og; Obn trekte da <hi rend="italic">te</hi> seg, alt sama, han, so dar va so fint, so dar skje vo kusta.</p>
+<p>Ei Lukka va da, attu dar va ei Malm-Grind te leggja yve Veen; utan hadde no han aldre vo te stogga, han.</p>
+<p>&#x2013; Ein Kveld um Vetturn, dar kom eg heim or Tymbur-Skogj&#x00E6;, aa tr&#x00F8;yttu aa v&#x00E5;tu va eg. Kasta so eg nokre Knubba i Obn aa sette meg attm&#x00E6; opna Oms-D&#x00F8;rne, drog v&#x00E5;te Laaneskone mine <hi rend="italic">t&#x00E5;</hi> meg; &#x2013; aa dar foru dei, &#x2013; Hun&#x0027;n rugge meg! &#x2013; te Vers, b&#x00E5;e tvo, so da berre <hi rend="italic">sau</hi> ette! &#x2013; ja, da gjore dei; aa sian s&#x00E5;g inkje <hi rend="italic">eg</hi> dei meir.</p>
+<p><pb n="37"/>&#x2013; Same Vetturn va eg ni Harang aa kj&#x00F8;pte meg ei Grisapurka t&#x00E5; desso stora Slagj&#x00E6; m&#x00E6; dubbul Krudl p&#x00E5; Roene. D&#x00E5; da lei framp&#x00E5;, so fekk denn&#x00E6; Purko &#x00F8;dlevu Sm&#x00E5;grise; aa &#x2013; forsyne meg! &#x2013; va eg inkje so dildu t&#x00E5; desse Grisungo, so dei skulde vo mine eigne Baadn!</p>
+<p>So va da ein Dag um V&#x00E5;rn, ho Ingjebj&#x00F8;r heldt p&#x00E5; koka Daurs-Grautn burte i Obn&#x00E6; &#x2013; dar va Koke-Hol og, m&#x00E5;ta &#x2013;. Stove-D&#x00F8;r&#x00E6; sto op&#x00E6;, gjore ho; aa bestu so da va, dar kjemu Purko inn aa adle &#x00F8;dlevu Ungane ette &#x2013; &#x00AB;&#x00F8;h, &#x00F8;h! &#x00F8;h, oh!&#x00BB; &#x2013; tridlande framyve Golve.</p>
+<p>G&#x00E5;dde so korkje eg eldu Kjeringj&#x00E6;, att Oms-D&#x00F8;r&#x00E6; inkje va il&#x00E6;t&#x00E6;. &#x2013; Jau, beiske deg! &#x2013; dar foru tre t&#x00E5; Grisungo uppigj&#x00F8;nom Obn, f&#x00F8;r me visste Ore t&#x00E5;.</p>
+<p>Kva da <hi rend="italic">vatt</hi> t&#x00E5; dei tvaug ha eg aldre korkje h&#x00F8;yrt eldu spurt; men dan tre-e han datt neattu i Prestagar&#x00E6; p&#x00E5; Vossavangj&#x00E6;, aa d&#x00E5; va han so fint brunsteiktu, so han skulde vo steiktu i Prestn sit eie Kj&#x00F8;kun.</p>
+<p>Aa Sundagjen ette heldt Prestn ei Preik, so dar inkje vatt turt Auga i heile Vangs-Kyrkjene; han vilde be Folk ta te tenkja seg um, no, sa han; va da kje p&#x00E5; Versens sista Tie, no, so visste kje han; fy n&#x00E5;r da tok te regna m&#x00E6; steikte <pb n="38"/>Grisunga, laut da vel sagta nokku ha <hi rend="italic">p&#x00E5;</hi> seg, sa han; &#x2013; ja, so sa han.</p>
+<p>Men ho Ingjebj&#x00F8;r tok F&#x00E6;le, d&#x00E5;, likavelne.</p>
+<p>&#x00AB;Gu signe deg, gryt dennen stygge Obn uttattu, Kolbein! &#x2013; Skulde Vetle-Baadn&#x00E6; slysna <hi rend="italic">te</hi>, lata Oms-D&#x00F8;r&#x00E6; upp, so &#x00E6; da da seinsta, me sj&#x00E5; dei!&#x00BB; sa ho.</p>
+<p>Ja, so taard&#x0027; eg kje anna, da, eg reiv Obn neattu, eg, aa sette hono burt i Bua-Skote.</p>
+<p>Vilja de sj&#x00E5; D&#x00F8;r&#x00E6; <hi rend="italic">t&#x00E5;</hi> hono, so gangje berre burt i Bu&#x00E6;, &#x2013; dar st&#x00E5;r ho innante Konn-Kistne i Ram&#x00E6;, dan Dag idag &#x00E6;; &#x2013; ja, da gjere ho&#x00BB;.</p>
+</div>
+<div type="chapter">
+<head type="main"><ref type="contents" target="contents_6" xml:id="chapter_6">&#x00AB;Vossingjen&#x00BB; aa Mor hans</ref></head>
+<p>&#x2013; &#x2013; &#x2013; &#x00AB;Da &#x00E6; vel inkje noken t&#x00E5; <hi rend="italic">deko</hi>, so minnest henne Gamla-Marta p&#x00E5; Bakka? &#x2013; ja, <hi rend="italic">du</hi>, Ingjebj&#x00F8;r kanhenda? &#x2013; end&#x00E5; du va no Lit&#x00E6;-Jenta, du, d&#x00E5; <hi rend="italic">ho</hi> d&#x00F8;ydde.</p>
+<p>Ho va ei gamal M&#x00F8;y-Kjering, denn&#x00E6; Marto&#x0027;&#x00E6;, aa budde i ei lit&#x00E6; Hytta nep&#x00E5; Kv&#x00E5;ls-Bakka, tett attm&#x00E6; Allmannsvegj&#x00E6;, &#x2013; Tuft&#x00E6; syne end&#x00E5;ne dan Dag idag &#x00E6;.</p>
+<p>Da va no i dei Tie, f&#x00F8;r &#x00C5;viso p&#x00E5; Vangj&#x00E6; kom upp, detta. Men her i Kv&#x00E5;ls-Reppa hadde me end&#x00E5;ne &#x00C5;visa go nok, skje eg tru, solengje ho Marta va i Grendne.</p>
+<p>Sian so fekk me no dennen &#x00AB;Vossingjen&#x00BB;, m&#x00E5;ta; men eg fy <hi rend="italic">meg</hi> kan seia, eg trur baade fullt aa fast, da va henne Gamla-Marta p&#x00E5; Bakka, dei tokje te Mynstur, desse Vangs-Karane, d&#x00E5; dei klemde te m&#x00E6; desso Bla&#x00E6; sino.</p>
+<p>Skulde noko skylja, so laut da d&#x00E5; v&#x00E6;, att &#x00AB;Vossingjen&#x00BB; &#x00E6; Vike-Bla, men ho Gamla-Marta, ho va Dag-Bla.</p>
+<p><pb n="40"/>Mestu te kvar einaste Dagjen, Vika ut aa Vika inn aa &#x00C5;r ut aa &#x00C5;r inn, foor ho Reppen yve p&#x00E5; Treskono aa i sie Skinntr&#x00F8;yene sine, rjonte aa fortalde alt da Ryggle aa Vase, so te kunde v&#x00E6; aa v&#x00E6;l so da, &#x2013; nett so &#x00AB;Vossingjen&#x00BB; sian ha gjort; &#x2013; end&#x00E5; jamen va ho Meistarn hans, ho Marta, likavelne. Men so va ho no driv&#x00E6; i Tralt&#x00E6;, og, ho; da tore henda, han kjemu seg m&#x00E6; &#x00C5;ro, &#x00AB;Vossingjen&#x00BB; og.</p>
+<p>Ho gjore no kje detta fy inkjevetta, skje eg meina! Dar &#x00E6; aldre Trot p&#x00E5; Kjeringa, so inkje vita seg noku gildare en sitja lya p&#x00E5; Slarv aa Sleiv um <hi rend="italic">are</hi>, &#x2013; soleis ha da <hi rend="italic">alti</hi> vo, aa soleisne vettu da vel herettedags og; aa ja, inkje fy <hi rend="italic">di</hi>, attu mangje t&#x00E5; Menno &#x00E6; stort likare, dei heldu.</p>
+<p>Visst &#x00E6; da, att ho Gamla-Marta livn&#x00E6;rde seg, ho, t&#x00E5; desso Ryggle-Renn&#x00E6; sine, aa <hi rend="italic">godt</hi> end&#x00E5; te; &#x2013; da &#x00E6; vandt vita, um &#x00AB;Vossingjen&#x00BB; kan seia da sama fy <hi rend="italic">seg</hi>.</p>
+<p>&#x2013; No, so va da dan Vetturn, d&#x00E5; eg gjekk i mit nittjande &#x00C5;r. &#x2013; Lon&#x00E6; va bard<note type="footnote"><hi rend="bold">Forfatternote:</hi> <hi rend="italic">bard:</hi> av berja</note> aa Vea-Kostn upphoggjen, aa lite aa inkje va her te gjera fy tre vaksne Kara, so me gjengje her p&#x00E5; Gar&#x00E6;.</p>
+<p>&#x00AB;L&#x00E5;n meg tju-u Dalar, Far&#x00BB;, sa eg, &#x00AB;so g&#x00E5;r eg nep&#x00E5; Vangjen aa pakka gamla Kram-Skr&#x00E6;ppo <pb n="41"/>di, so eg kunde f&#x00E5; pr&#x00F8;va tena meg nokre Skjelinga m&#x00E6; Handul, eg og&#x00BB;.</p>
+<p>&#x00AB;Kvar skulde <hi rend="italic">eg</hi> ta <hi rend="italic">dei</hi> ifr&#x00E5;?&#x00BB; svart&#x0027;an, &#x2013; end&#x00E5; eg visste, han hadde Pengane liggjande. &#x00AB;Men tiu ska du f&#x00E5;, aa so f&#x00E5;r du be dei borga deg Restn&#x00BB;.</p>
+<p>Ja, tok so eg Tiudalar-Setedl, eg, tutla ne te hone Hans Kromsta, aa kom lakkande heimyve m&#x00E6; Skr&#x00E6;ppene fudl, d&#x00E5; da lei p&#x00E5; Dagen.</p>
+<p>Nej, i da sama eg kom upp p&#x00E5; Kv&#x00E5;ls-Bakkjen, dar kjemu ho Gamla-Marta sendande ut. &#x2013; Ho va no end&#x00E5; van settja m&#x00E6; Spyt&#x00E6; sino innante vetle gr&#x00F8;ne Glas-Rutne sine aa vakta p&#x00E5; Folk, so foor ette Vegje aa snekja ette noku te renna kring m&#x00E6;.</p>
+<p>Eg helste no, eg: &#x00AB;Gudagjen!&#x00BB;</p>
+<p>&#x00AB;Gudagjen og! &#x2013; &#x00C6; <hi rend="italic">du</hi>, vetle Kolbein, ute g&#x00E5;r? &#x2013; Kjemu du t&#x00E5; Vangj&#x00E6;, kanhenda?&#x00BB;</p>
+<p>Jau, eg gjore so, <hi rend="italic">da</hi>.</p>
+<p>&#x00AB;Eg ser, du har Kram-Skr&#x00E6;ppe paa Ryggj&#x00E6;; ska du ut p&#x00E5; Handul, kanskje?&#x00BB;</p>
+<p>Ja, da va d&#x00E5; Meiningj&#x00E6;.</p>
+<p>&#x00AB;Aa ja, &#x2013; da &#x00E6; snildt, da, Goa-Badn! att Ungdomen har Framt&#x00F8;kje <hi rend="italic">i</hi> seg; du har no kje langt likjast p&#x00E5;, heldu, du, te sovore, skje eg tru! <pb n="42"/>eg hugsa v&#x00E6;l, n&#x00E5;r han Far din tok te g&#x00E5; m&#x00E6; Skr&#x00E6;ppene, og, eg; de var fermu Kar, han Ola Hausa, i dei Dage, du! &#x2013; aa hoggande upplaga i Handul! &#x2013; end&#x00E5; han visst inkje eigu, so mykje so ei Knappen&#x00E5;l med Urette, inkje! &#x2013; &#x2013; &#x2013; &#x2013; Kva nyt haure du p&#x00E5; Vangj&#x00E6; idag, d&#x00E5;?&#x00BB;</p>
+<p>Dar m&#x00E6; ei einaste Gong stakk ein Tankje meg.</p>
+<p>&#x00AB;Aa&#x00BB;, svart&#x0027; eg, aa drog p&#x00E5; M&#x00E5;le, &#x00AB;dar &#x00E6; gjedna nokk t&#x00E5; da, so <hi rend="italic">nyt</hi> &#x00E6;, her i Verne; men da &#x00E6; no kje jamt so <hi rend="italic">godt</hi>, da nya, gub&#x00E6;re!&#x00BB;</p>
+<p>&#x00AB;Nei, gub&#x00E6;re, gub&#x00E6;re! &#x2013; da &#x00E6; so sannt, so da &#x00E6; sagt, <hi rend="italic">da</hi>, Goe-Son &#x2013; &#x2013; &#x2013; Ka &#x00E6; da <hi rend="italic">no</hi>, d&#x00E5;?&#x00BB;</p>
+<p>&#x00AB;Ja &#x2013; &#x2013; eg bry meg kje um, bera da ut yve Bygd&#x00E6;, <hi rend="italic">eg;</hi> da spyrst no end&#x00E5;, kuser, slikt noku, um da inkje ska hermast ette <hi rend="italic">meg</hi>&#x00BB;.</p>
+<p>&#x00AB;Nei, du kan ha Rett i <hi rend="italic">da</hi>, vetle Kolbein! &#x2013; Eg kjende henne Mor di, og, eg; da <hi rend="italic">va</hi> noku te snilda Kona, du! ho foor inkje mykje m&#x00E6; Ryggl aa Vas mydlo Folkj&#x00E6;, <hi rend="italic">ho</hi>, inkje! Du &#x00E6; no so liku henne, og, du &#x2013; same Skaddl aa same Augene! &#x2013; eg meine, eg minnest dei! &#x2013; eg ha kje <hi rend="italic">set</hi> finare Brur i Vangs-Kyrkjene en ho Kari, Mor di, d&#x00E5; <hi rend="italic">ho</hi> sto fy Alter&#x00E6; &#x2013; Gu kvile Sj&#x00E6;l&#x00E6; henne! &#x2013; &#x2013; &#x2013; Du kunde no forteija <hi rend="italic">meg</hi> da, <pb n="43"/>likavelne; du kan lita p&#x00E5;, att inkje <hi rend="italic">eg</hi> feru beru da utyve&#x00BB;.</p>
+<p>&#x00AB;Du trengu kje fortelja meg &#x2013; &#x2013;!&#x00BB; svart&#x0027; eg, &#x00AB;eg meine, eg veit no <hi rend="italic">da</hi>, kuser! &#x2013; Jau, da va to Br&#x00F8;ru or Eksingadal&#x00E6;, so vottu halshoggne p&#x00E5; Vangj&#x00E6; idag&#x00BB;.</p>
+<p>&#x00AB;Du seie kje da, veit eg! &#x2013; Nei, kva Versens illt hadde d&#x00E5; <hi rend="italic">dei</hi> gjort?&#x00BB;</p>
+<p>&#x00AB;Aa, da &#x00E6; mestu inkje eigong R&#x00E5; fortelja da, &#x2013; Synd&#x00E6; vettu tjukkare aa tjukkare her i desse arme Verne. &#x2013; Men ha nokun fortent Straff&#x00E6; si, so hadde no <hi rend="italic">dei</hi> gjort da*.</p>
+<p>&#x00AB;Nei &#x2013; sote, goe, rauste! &#x2013; kva <hi rend="italic">va</hi> da? kva <hi rend="italic">va</hi> da?&#x00BB;</p>
+<p>&#x00AB;Jau &#x2013; du skje aldre p&#x00E5; Makjen ha haurt! &#x2013; dei ha drive i heile Vettur aa turka Snjo p&#x00E5; heite Obn&#x00E6; aa selt te Fatifolkj&#x00E6; i Staen fy Salt&#x00BB;.</p>
+<p>&#x00AB;Aa Jyssys han milde bevare meg!&#x00BB; skreik ho, aa nesta Hendna yve Brjoste.</p>
+<p>&#x00AB;Ja&#x00BB; &#x2013; sa eg &#x2013; &#x00AB;aa so ha stakkars Husmanns-Kjeringane burti Eksingadal&#x00E6; salta vetla Sm&#x00F8;re sit m&#x00E6; <hi rend="italic">desso</hi> &#x2013; aa skjemt ut alt sama, kan du vita!&#x00BB;</p>
+<p>Ba so eg V&#x00E6;lliva, eg, aa lakka min Veg.</p>
+<p>D&#x00E5; eg kom Kv&#x00E5;le forbi, sto han Knut Uppigar&#x00E6; uti Tun&#x00E6;, kl&#x00F8;yvde Kubba.</p>
+<p><pb n="44"/>&#x00AB;Du f&#x00E5;r d&#x00E5; fylgja innum D&#x00F8;r&#x00E6;&#x00BB;, sa han.</p>
+<p>Jau, eg so gjore. Tok so han fram or Krosk&#x00E5;p&#x00E6; ei Brennevinsflaska aa eit Drammaglas, &#x2013; votte me so sittjande dar prata te fram i Skymmingjene.</p>
+<p>Bestu so dette va, dar haure me Treskone klakka ute i Gangj&#x00E6;, aa ho Gamla-Marta kom stiddlande inn gj&#x00F8;nom D&#x00F8;r&#x00E6;.</p>
+<p>&#x00AB;Gukveldn!&#x00BB; helste ho, m&#x00E6; sit M&#x00E6;le, so va ho kom&#x00E6; i ei Lik-Stova.</p>
+<p>&#x00AB;Gukveldn og!&#x00BB; svarte Knut&#x0027;n. I <hi rend="italic">meg</hi> knatt da kje, aa inkje s&#x00E5;g ho meg, heldu, skumt so da va dar i Hus&#x00E6;.</p>
+<p>&#x00AB;Fina Vere!&#x00BB;</p>
+<p>&#x00AB;Aa ja &#x2013; Vere &#x00E6; fint, da vanta kje <hi rend="italic">da;</hi> &#x2013; V&#x00E5;rherra &#x00E6; snildu, han, mein&#x0027; eg, um Folk &#x00E6; aldre so harkavorne&#x00BB;, sa ho, aa anvarpa.<note type="footnote"><hi rend="bold">Forfatternote:</hi> <hi rend="italic">anvarpa;</hi> sukka</note></p>
+<p>&#x00AB;Ka godt nyt i Kveld, d&#x00E5;, Marta?&#x00BB;</p>
+<p>&#x00AB;Aa&#x00BB;, svarte ho, aa drog so gr&#x00F8;tel&#x00E6; p&#x00E5; M&#x00E5;le, &#x00AB;dar &#x00E6; jabnaste nokk t&#x00E5; da, so <hi rend="italic">nyt</hi> &#x00E6;; &#x2013; men &#x2013; gub&#x00E6;re! &#x2013; da &#x00E6; no kje jamt so <hi rend="italic">godt</hi>, da nya, &#x2013; gub&#x00E6;re sovisst!&#x00BB;</p>
+<p>&#x00AB;No d&#x00E5;?&#x00BB;</p>
+<p>&#x00AB;Ja, eg bry meg kje um, bera da ut yve Bygd&#x00E6;, <hi rend="italic">eg;</hi> de spyrst no, kuser, slikt noku, um <pb n="45"/>da inkje ska hermast ette <hi rend="italic">meg</hi>. &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; Aa ja, eg kan no gjedna fortelja <hi rend="italic">deg</hi> da, likavelne; fy eg veit no, du fem kje beru da kringum Garane, kuser, <hi rend="italic">du</hi> Knut. &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; Eg snakte m&#x00E6; hono Kolbein Hausa her burti Vegj&#x00E6;; han hadde vo sta, kj&#x00F8;pt seg Kram aa skulde ut p&#x00E5; Handul, &#x2013; aa ja, han har no kje langt likjast te sovore, skje eg meina! han vettu vel same Snytarn, han, so dan Skeivnosingjen, Far hans, va i sine unge Daga! &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; Da va to Br&#x00F8;ru or Eksingadal&#x00E6;, so vottu halshoggne p&#x00E5; Vangj&#x00E6; idag, sa han.</p>
+<p>&#x00AB;Jau, beiske deg!&#x00BB; tok Knut&#x0027;n frami. &#x00AB;Nei, kva <hi rend="italic">va</hi> da, dei hadde forbrote, <hi rend="italic">dei</hi>, da?&#x00BB;</p>
+<p>&#x00AB;Aa da &#x00E6; mestu inkje R&#x00E5; fortelja da, eigong, &#x2013; Synd&#x00E6; vettu tjukkare aa tjukkare her i desse arme Verne; men ha nokun fortent Straff&#x00E6; si, so ha no <hi rend="italic">dei</hi> gjort da, &#x2013; du skje aldri p&#x00E5; Makjen ha haurt! &#x2013; ha dei kje dreve i heile Vettur, meine du, aa turka Snjo p&#x00E5; heite Obn&#x00E6; aa selt te Fatifolkj&#x00E6; i Staen fy Salt! &#x2013; aa so ha stakkars Husmanns-Kjeringane burti Evsingadal&#x00E6; salta vetle Sm&#x00F8;rbitane sine m&#x00E6; <hi rend="italic">desso</hi>, aa skjemt ut alt sama, kan du vita!&#x00BB;</p>
+<p>Nei, d&#x00E5; seet&#x0027;an Knut i aa skratta, so da va, so Huse huska, &#x2013; slo so Eld aa kveikte Ljos.</p>
+<p><pb n="46"/>Dar fekk ho Auga p&#x00E5; <hi rend="italic">meg!</hi> &#x2013; Ho vatt standande litevetta, berre bisna <hi rend="italic">p&#x00E5;</hi> meg, so va da ein Dauingje, ho s&#x00E5;g. Aa eg aa han Knut, me surde kje, skje eg tru! &#x2013; So forsto ho vel heila Greio, d&#x00E5;, snudde seg aa foor p&#x00E5; D&#x00F8;r&#x00E6;, treiv Treskone sine i Nevane aa tirra p&#x00E5; Sokkaleisto or Tun&#x00E6;, gandande sinna, so me haure, kur ho pokka aa bante langt neyve Vegjen.</p>
+<p>Men &#x2013; forsyne meg! &#x2013; varte aa rokk da kje heila Viko ette, f&#x00F8;r Kjeringane her i Reppa fengje &#x00C5;viso si &#x2013; ja, da gjore da! &#x2013; aa p&#x00E5; Hausa sette ho kje sian sin Fot meir.</p>
+<p>&#x2013; &#x00AB;Vossingjen&#x00BB;, han g&#x00E5;r no Gangjen sin den same aa kjemu <hi rend="italic">attu</hi> lika bliu, han, um du gjevu hono aldre so stor ei Lyra te renna rundt m&#x00E6; i Bygdne; han &#x00E6; kje so tykkjen aa snurtn, han, so ho va, Mor&#x00E6; hans, ho Gamla-Marta p&#x00E5; Bakka&#x00BB;.</p>
+</div>
+</body>
+</text>
+</TEI>

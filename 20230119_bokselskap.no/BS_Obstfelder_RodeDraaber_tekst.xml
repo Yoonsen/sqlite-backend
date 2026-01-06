@@ -1,0 +1,2340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI PUBLIC "-// TEI P5 //EN" "http://www.tei-c.org/release/xml/tei/custom/schema/dtd/tei_all.dtd">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="BS_Obstfelder_RodeDraaber">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>bokselskap.no, Oslo 2021
+<lb/>Sigbj&#x00F8;rn Obstfelder: <hi rend="italic">De r&#x00F8;de dr&#x00E5;ber</hi>
+<lb/>Teksten er hentet fra Universitetet i Oslo/dokpro.uio.no. Dokpros tekst er basert p&#x00E5; Skrifter (2 bind), K&#x00F8;benhavn, Gyldendal, 1917.
+<lb/>ISBN: 978-82-8319-591-0 (digital, bokselskap.no), 978-82-8319-592-7 (epub), 978-82-8319-593-4 (mobi)
+</title>
+</titleStmt>
+<publicationStmt>
+<p>Publiseres som digital tekst av bokselskap.no.</p>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>De r&#x00F8;de dr&#x00E5;ber I: Skrifter, b. 1</title>
+<author>Sigbj&#x00F8;rn Obstfelder</author>
+<publisher>Gyldendal</publisher>
+<pubPlace>K&#x00F8;benhavn</pubPlace>
+<date>1917</date>
+<note>soi.xml (mottatt fra UiO 2021)</note>
+</bibl>
+</sourceDesc>
+</fileDesc>
+<revisionDesc>
+<change who="ENW" when="2021-03-18">Entiteter, kodekontroll og validering. Lagt inn ISBN. Klar for publisering.</change>
+<change xml:id="ENW" who="ENW" when="2021-03-17">XML-koding, konvertering fra Dokpro-fil.</change>
+</revisionDesc>
+</teiHeader>
+<text xml:id="BS_Obstfelder_RodeDraaber_tekst" type="drama">
+<front>
+<titlePage type="main">
+<byline><docAuthor>Sigbj&#x00F8;rn Obstfelder</docAuthor></byline>
+<docTitle>
+<titlePart type="main">De r&#x00F8;de dr&#x00E5;ber</titlePart>
+<titlePart type="sub">Drama</titlePart>
+</docTitle>
+<docDate>bokselskap.no<lb/>Oslo 2021</docDate>
+</titlePage>
+</front>
+<body>
+<div type="chapter" subtype="castList">
+<head type="main">PERSONERNE</head>
+<castList>
+<castItem><role>ODD BERG,</role> <roleDesc>doktor i kemien.</roleDesc></castItem>
+<castItem><role>APOTHEKER BERG,</role> <roleDesc>hans far.</roleDesc></castItem>
+<castItem><role>BORGHILD.</role></castItem>
+<castItem><role>LILI.</role></castItem>
+<castItem><role>DIREKT&#x00D8;R HANSEN.</role></castItem>
+<castItem><role>OTTO,</role> <roleDesc>l&#x00E6;ge.</roleDesc></castItem>
+<castItem><role>STEEN.</role></castItem>
+<castItem><role>WILLE.</role></castItem>
+<castItem><role>DANIEL</role></castItem>
+<castItem><role>NIELS</role> <roleDesc>bybud.</roleDesc></castItem>
+<castItem><role>FRU STEEN.</role></castItem>
+<castItem><role>ET PAR OPVARTERSKER.</role></castItem>
+<castItem><role>TO SM&#x00C5;GUTTER.</role></castItem>
+</castList>
+</div>
+<div type="chapter" subtype="act" n="1">
+<head type="main">I</head>
+<stage>(Byens festsal. Festkl&#x00E6;dte herrer og damer i grupper. Man taler ivrig sammen. Lidt afsides i forgrunden tilvenstre sidder p&#x00E5; en chaiselongue <hi rend="bold">Odd Berg</hi> og <hi rend="bold">Borghild</hi>).</stage>
+<sp>
+<speaker>ODD</speaker>
+<stage>(med en b&#x00E6;vren i r&#x00F8;sten).</stage>
+<p>Borghild!</p>
+</sp>
+<sp>
+<speaker>BORGHILD.</speaker>
+<p>Ja.</p>
+</sp>
+<sp>
+<speaker>ODD.</speaker>
+<p>Borghild! Se p&#x00E5; mig!</p>
+<stage>(Borghild vender hodet mod ham. Han ser l&#x00E6;nge og grublende p&#x00E5; hende). (Smerteligt).</stage>
+<p>Ja, jeg f&#x00F8;ler det. Du g&#x00E5;r.</p>
+<stage>(Ser atter frem foran sig).</stage>
+<p>Snart g&#x00E5;r de alle. Og s&#x00E5; &#x2026; s&#x00E5; &#x2026;</p>
+</sp>
+<sp>
+<speaker>BORGHILD</speaker>
+<stage>(lidt blyg).</stage>
+<p>&#x00C5;, endnu g&#x00E5;r de jo ikke p&#x00E5; l&#x00E6;nge. Og desuden &#x2026;</p>
+</sp>
+<sp>
+<speaker>ODD.</speaker>
+<p>Jeg f&#x00F8;ler det p&#x00E5; mig. Du g&#x00E5;r.</p>
+</sp>
+<sp>
+<speaker>BORGHILD.</speaker>
+<p>Hvorfor er du s&#x00E5; underlig? Idag! Idag da alt er s&#x00E5; stort og deiligt for os. Du er blit s&#x00E5; forandret, siden du kom hjem &#x2026;
+<stage>(Indsmigrende, n&#x00E6;r ham).</stage> Snart er jeg jo din. Helt. Hver tr&#x00E5;d i mig skal du f&#x00E5;.</p>
+</sp>
+<sp>
+<speaker>ODD</speaker>
+<stage>(hen for sig).</stage>
+<p>Hvor du er vidunderlig vakker blit. Mens jeg dr&#x00F8;mte om dig derude, da blev vist hver dr&#x00F8;m til en skj&#x00F8;nhedslinje mer hos dig. Som deiligheden selv er du blit. Brystet dit har hv&#x00E6;lvet sig s&#x00E5; stort, l&#x00E6;berne dine &#x2026;</p>
+</sp>
+<sp>
+<speaker>BORGHILD</speaker>
+<stage>(med uendelig lokken).</stage>
+<p>Hys &#x2026; de h&#x00F8;rer os &#x2026; de ser p&#x00E5; os.</p>
+</sp>
+<stage>(Hun l&#x00F8;fter &#x00F8;inene mod ham.)</stage>
+<sp>
+<speaker>ODD</speaker>
+<stage>(angst)</stage>
+<p>Se ikke p&#x00E5; mig s&#x00E5;dan. &#x00C5; jeg ved ikke &#x2026;</p>
+</sp>
+<stage>(han reiser sig og g&#x00E5;r bortover nogle skridt, hun ser studsende efter ham, f&#x00F8;lger s&#x00E5; efter, r&#x00F8;rer ved hans arm).</stage>
+<sp>
+<speaker>BORGHILD</speaker>
+<stage>(r&#x00F8;sten f&#x00E5;r noget bydende over sig).</stage>
+<p>Kom. S&#x00E6;t dig her.</p>
+<stage>(Han f&#x00F8;lger &#x00E5;ndsfrav&#x00E6;rende.)</stage>
+<p>Si mig sandheden. Der er h&#x00E6;ndt dig noget derude. Jeg s&#x00E5; af brevene, at du skjulte noget for mig. Du skrev en masse ting, jeg ikke forstod. Du har m&#x00F8;dt nogen, nogen anden. Jeg ved det.</p>
+</sp>
+<sp>
+<speaker>ODD</speaker>
+<stage>(som overh&#x00F8;rende Borghilds ord, stille, s&#x00E6;lsomt).</stage>
+<p>Det er mig i dette &#x00F8;ieblik, som hele livet hviler p&#x00E5; min skulder, alles liv. Og <hi rend="italic">du</hi>, du er s&#x00E5; langt borte, og du blir s&#x00E5; stor, s&#x00E5; uendelig, &#x2013; jeg t&#x00F8;r ikke r&#x00F8;re ved din h&#x00E5;nd.</p>
+</sp>
+<sp>
+<speaker>BORGHILD</speaker>
+<stage>(h&#x00E5;rdt).</stage>
+<p>Jeg vidste det. Du har m&#x00F8;dt nogen.</p>
+</sp>
+<sp>
+<speaker>ODD</speaker>
+<stage>(som f&#x00F8;r).</stage>
+<p>Jeg var alene. I m&#x00E5;neder. Alene om dagen, alene om natten. Da t&#x00E6;nkte jeg og t&#x00E6;nkte. Og s&#x00E5; kom det. Det store. Det forf&#x00E6;rdelige.</p>
+<p><stage>(I udbrud).</stage> Alle disse menneskene! &#x2026; De gj&#x00F8;r mig angst &#x2026; <stage>(N&#x00E6;sten for sig selv).</stage> Se nu kommer han, nu tar han glasset. <stage>(I angst).</stage> Han skal tale &#x2026; for mig kanske.</p>
+</sp>
+<sp>
+<speaker>BORGHILD</speaker>
+<stage>(langsomt).</stage>
+<p>Du er ikke l&#x00E6;nger den samme. Jeg forst&#x00E5;r dig ikke l&#x00E6;nger. Jeg forst&#x00E5;r ikke, hvordan du kan v&#x00E6;re angst nu. Nu da vi er sammen igjen!
+<stage>(bl&#x00F8;dere).</stage> Nu da du sidder her! <stage>(endnu bl&#x00F8;dere).</stage> Hos mig.</p>
+</sp>
+<sp>
+<speaker>ODD</speaker>
+<stage>(som i dr&#x00F8;mme).</stage>
+<p>Hos dig? &#x2026; Hos dig? &#x2026;</p>
+</sp>
+<stage>(Idetsamme sl&#x00E5;r direkt&#x00F8;r <hi rend="bold">Hansen</hi> p&#x00E5; et glas).</stage> <sp>
+<speaker>HANSEN.</speaker>
+<p>Mine damer og herrer! Vi lever i en forunderlig tid. Videnskabens tid! Der var engang, at videnskabens m&#x00E6;nd sad som syge dr&#x00F8;mmere i sine huler og ledte efter &#x00AB;de vises sten&#x00BB;. Ud i solen og den friske luft har videnskaben nu flyttet sine tabernakler. Og jeg siger s&#x00E5; stort et ord: De vises sten er <hi rend="italic">funden!</hi> Den sande guldalder er kommen! Ude i livet, blandt mennesketusenderne er veien til at gj&#x00F8;re guld af jern!</p>
+<p>Jeg ser for mig, mine damer og herrer, et syn, et fremtidssyn. Jeg ser h&#x00F8;it oppi luften som oprakte fingre de skyh&#x00F8;ie fabrikpiber, jeg ser r&#x00F8;gen drive ud over verden og fort&#x00E6;lle om menneskeh&#x00E6;ndernes arbeide, jeg h&#x00F8;rer maskinernes pulsslag, jeg ser lossepladse langs stranden, hvorfra fremmede skibe knytter vor by sammen med de fjerneste havne.</p>
+<p>Og n&#x00E5;r jeg nu h&#x00E6;ver det skummende b&#x00E6;ger, s&#x00E5; er det forat hilse velkommen tilbage blandt os den mand, den geniale forsker vil jeg kalde ham, hvis kj&#x00E6;rlighed til sin f&#x00F8;deby indgav ham den m&#x00E6;rkv&#x00E6;rdige plan, vi idag feirer med fest. Vi sendte ham ud i de fremmede lande, jeg t&#x00F8;r sige vi sendte ham ud som en pion&#x00E9;r fra norden. Men trofast mod sit hjem og mod vore h&#x00E5;b l&#x00E6;ngedes han tilbage, og her har vi ham nu hos os iaften.</p>
+<p>En sk&#x00E5;l for fabriken!</p>
+<p>En sk&#x00E5;l for doktor Odd Berg!</p>
+</sp>
+<stage>(Man tr&#x00E6;nger sig om <hi rend="bold">Odd</hi> og sk&#x00E5;ler med ham. Han er meget bleg og bev&#x00E6;get. Samtidig kommer seks unge damer i hvidt. Den f&#x00F8;rste b&#x00E6;rer en buket r&#x00F8;de roser).</stage> <sp>
+<speaker>DEN FORRESTE.</speaker>
+<p>Vi kommer fra kvinderne. Vi kommer med roser. Ti kvinderne tilbeder den handlende mand. N&#x00E5;r det gj&#x00E6;lder om at sprede lykke i hjemmene og latter i sindene, da er vi med, da &#x00F8;ser vi kvindekj&#x00E6;rtegn over dem, som g&#x00E5;r f&#x00F8;rst.</p>
+</sp>
+<stage>(Hun r&#x00E6;kker roserne frem. Da han med h&#x00E5;nden v&#x00E6;grer, l&#x00E6;gger hun dem i <hi rend="bold">Borghilds</hi> skj&#x00F8;d, &#x2013; hun sidder ved hans side. De seks neier og g&#x00E5;r. Taushed mellem <hi rend="bold">Odd</hi> og <hi rend="bold">Borghild</hi> imens. Derp&#x00E5;):</stage>
+<sp>
+<speaker>ODD</speaker>
+<stage>(seende p&#x00E5; Borghild).</stage>
+<p>Hvor du er vakker iaften!</p>
+</sp>
+<sp>
+<speaker>BORGHILD</speaker>
+<stage>(str&#x00E5;lende).</stage>
+<p>Det er fordi jeg er stolt af dig.</p>
+<stage>(<hi rend="bold">Odd</hi> skjuler ansigtet i h&#x00E6;nderne, uden at <hi rend="bold">Borghild</hi> l&#x00E6;gger m&#x00E6;rke dertil).</stage>
+<p>Hvor det er deiligt at se p&#x00E5; alle de festkl&#x00E6;dte mennesker og t&#x00E6;nke p&#x00E5; alt det, som skal komme! Alt det nye, friske!</p>
+<p>Og vi to! Hvor vi skal arbeide! Hvor vor egen lykke skal vokse med de andres!</p>
+<stage>(Hun lugter til roserne).</stage>
+<p>De deilige roser! Som de gav dig. Os.</p>
+<p>Kjend! Det er dine!</p>
+<stage>(Hun vender sig mod <hi rend="bold">Odd</hi>, der er forblevet i samme stilling).</stage>
+<p>Hvad er det?</p>
+</sp>
+<sp>
+<speaker>ODD</speaker>
+<stage>(i dyb sorg).</stage>
+<p>Jeg h&#x00F8;rer din stemme. Jeg fors&#x00F8;ger at se dig indvortes og prente dig ind i mig.</p>
+<p><stage>(L&#x00F8;fter ansigtet, eiendommelig):</stage> Roser! Hvor jeg holder af roser!</p>
+<p>&#x2013; S&#x00E5; du, hvor nydelig de neiede, da de gik.</p>
+</sp>
+<sp>
+<speaker>BORGHILD.</speaker>
+<p>Ja, er det ikke en deilig aften? <stage>(Hun vil gribe hans h&#x00E6;nder. Han tr&#x00E6;kker dem tilbage).</stage></p>
+</sp>
+<sp>
+<speaker>ODD</speaker>
+<stage>(med en overgang).</stage>
+<p>Vilde du f&#x00F8;lge mig overalt, Borghild?</p>
+</sp>
+<sp>
+<speaker>BORGHILD.</speaker>
+<p>Det v&#x00E9;d du!</p>
+</sp>
+<sp>
+<speaker>ODD.</speaker>
+<p>Ogs&#x00E5; om jeg opgav det altsammen?</p>
+</sp>
+<sp>
+<speaker>BORGHILD.</speaker>
+<p>Opgav det? &#x2026; Hvorfor skulde du opgi det?</p>
+</sp>
+<sp>
+<speaker>ODD</speaker>
+<stage>(tier).</stage>
+<p/>
+</sp>
+<sp>
+<speaker>BORGHILD.</speaker>
+<p>Hvorfor skulde du opgi det?</p>
+</sp>
+<sp>
+<speaker>ODD.</speaker>
+<p>Du taler om al den gl&#x00E6;de, som skal komme. <hi rend="italic">Tror</hi> du p&#x00E5; menneskenes gl&#x00E6;de?</p>
+</sp>
+<stage>(Imidlertid er apothekeren <hi rend="bold">Berg</hi> langsomt kommet hen til dem. Han er en h&#x00F8;i, slank mand, men b&#x00E6;rer hodet noget foroverb&#x00F8;iet).</stage>
+<sp>
+<speaker>BERG</speaker>
+<stage>(bev&#x00E6;get).</stage>
+<p>M&#x00E5; ogs&#x00E5; <hi rend="italic">jeg</hi> f&#x00E5; drikke med dig, Odd? <stage>(Med pauser og s&#x00F8;gende efter ord).</stage> Det har v&#x00E6;ret s&#x00E5; rart for mig &#x2026; s&#x00E5; rart.</p>
+<p>Det var som de stod frem for mig alle &#x00E5;rene, som er g&#x00E5;t, mens man talte s&#x00E5; vakkert for dig &#x2026; folk er s&#x00E5; gode &#x2026; s&#x00E5; meget st&#x00F8;rre, end man tror &#x2026; <stage>(famlende).</stage> hvad var det, jeg vilde sagt &#x2026; ja det stod frem for mig &#x2026; mange &#x00F8;ieblikke &#x2026; &#x00E5;, det er s&#x00E5;meget &#x2026; &#x00F8;ieblikke, da jeg ikke vidste, hvad i verden der var det rette &#x2026; fortvilet mangengang &#x2026; fortvilet.</p>
+<p>&#x2026; Ja, det var et sandt ord: At bringe videnskaben ind i alle livets forhold, <hi rend="italic">det</hi> er den rette alchymi.</p>
+<p>Ja &#x2026; jeg st&#x00E5;r og snakker &#x2026; og I kan nok neppe forst&#x00E5; mig &#x2026; der var s&#x00E5;meget som kom op i mig iaften &#x2026; Ja &#x2026; <stage>(kvalt af bev&#x00E6;gelse h&#x00E6;ver han glasset forat sk&#x00E5;le).</stage> Jeg kunde ikke drikke med dig, da alle de andre var om dig &#x2026; Jeg syntes jeg havde ikke ret dertil.</p>
+<stage>(Visker noget bort fra &#x00F8;iet. Retter sig s&#x00E5; op).</stage>
+<p>Sk&#x00E5;l Odd! Sk&#x00E5;l Borghild! For det nye liv, I g&#x00E5;r ind i!</p>
+<p>Alt er liv!</p>
+</sp>
+<stage>(g&#x00E5;r med l&#x00F8;ftet hode og raske skridt fra dem).</stage> <sp>
+<speaker>BORGHILD.</speaker>
+<p>Hvor underlig han var!</p>
+</sp>
+<sp>
+<speaker>ODD</speaker>
+<stage>(hen for sig).</stage>
+<p>Fra jeg var ganske liden, har det syntes mig, som om der hvilte en g&#x00E5;de ved ham. Som om han bar p&#x00E5; en dyb, hemmelig smerte. Jeg var bange for ham, og jeg droges mod ham. Aldrig talte han til mig. Men jeg glemmer ikke, hvordan jeg nogle gange om natten har h&#x00F8;rt ham komme ind til mig og dra teppet opover mig &#x2026; Jeg husker, hvor han sukkede tungt.</p>
+</sp>
+<stage>(skjuler ansigtet i h&#x00E6;nderne).</stage> <stage>(Under den p&#x00E5;f&#x00F8;lgende pause mellem <hi rend="bold">Odd</hi> og <hi rend="bold">Borghild</hi> h&#x00F8;res f&#x00F8;lgende samtale fra en gruppe, som sidder noget l&#x00E6;ngere bag tilh&#x00F8;ire).</stage>
+<sp>
+<speaker>FRU STEEN.</speaker>
+<p>Hvordan <hi rend="italic">anvendes</hi> s&#x00E5; det &#x2026; det vandet &#x2026; den &#x2026; den &#x2026; v&#x00E6;sken, &#x2013; hvad <hi rend="italic">var</hi> det nu det hed, herr Wille?</p>
+</sp>
+<sp>
+<speaker>WILLE.</speaker>
+<p>Den Secardske v&#x00E6;ske, frue.</p>
+</sp>
+<sp>
+<speaker>FRU STEEN.</speaker>
+<p>&#x2026; den Secardske v&#x00E6;ske ja &#x2026; Jeg tror forresten ikke p&#x00E5; det. Jeg tror aldrig i verden der kan opfindes noget s&#x00E5;dant. Den Se &#x2026; Se &#x2026;</p>
+</sp>
+<sp>
+<speaker>WILLE.</speaker>
+<p>Den Secardske v&#x00E6;ske, frue.</p>
+</sp>
+<sp>
+<speaker>FRU STEEN.</speaker>
+<p>Den Secardske v&#x00E6;ske, den Secardske v&#x00E6;ske, den Secardske v&#x00E6;ske! Det er humbug, siger jeg.</p>
+</sp>
+<sp>
+<speaker>DR. OTTO.</speaker>
+<p>Det skal De ikke si s&#x00E5; vist, fru Steen!</p>
+</sp>
+<sp>
+<speaker>FRU STEEN</speaker>
+<p>Ja, hvad <hi rend="italic">er</hi> det s&#x00E5; for noget? Hvordan ser det ud? Hvordan tar man det ind?</p>
+</sp>
+<sp>
+<speaker>DR. OTTO</speaker>
+<stage>(bel&#x00E6;rende).</stage>
+<p>Ja, se det er en meget vanskelig proces at definere. Men hvis De har en virkelig videnskabelig interesse af sagen, vil jeg med forn&#x00F8;ielse demonstrere den.</p>
+</sp>
+<sp>
+<speaker>EN AF DE TO ANDRE DAMER I KREDSEN.</speaker>
+<p>&#x00C5; ja, vis os det!</p>
+</sp>
+<sp>
+<speaker>OTTO</speaker>
+<stage>(i doktortone).</stage>
+<p>Vil De r&#x00E6;kke mig Deres h&#x00E5;nd, fru Steen?</p>
+<stage>(Fru <hi rend="bold">Steen</hi> r&#x00E6;kker den frem, <hi rend="bold">Otto</hi> tar den).</stage>
+<p>De har for lange &#x00E6;rmer. Der m&#x00E5; br&#x00E6;ttes op en smule.</p>
+</sp>
+<sp>
+<speaker>FRU STEEN</speaker>
+<stage>(koket).</stage>
+<p>Ikke meget.</p>
+</sp>
+<sp>
+<speaker>OTTO</speaker>
+<stage>(br&#x00E6;tter op og holder under h&#x00E5;ndledet).</stage>
+<p>S&#x00E5;danne arme beh&#x00F8;ver ingen foryngelse, frue.</p>
+</sp>
+<stage>(De to andre damer klapper i h&#x00E6;nderne).</stage>
+<sp>
+<speaker>FRU STEEN</speaker>
+<stage>(sl&#x00E5;r ham med viften).</stage>
+<p>Uf, De er v&#x00E6;mmelig! Jeg ved ikke, hvad som er v&#x00E6;mmeligst, medicin eller medicinere.</p>
+</sp>
+<sp>
+<speaker>DE TO ANDRE DAMER.</speaker>
+<p>Anvendelsen!</p>
+</sp>
+<sp>
+<speaker>FRU STEEN</speaker> <stage>(til dr. <hi rend="bold">Otto</hi>, der har gjort en kunstpause).</stage>
+<p>Nu!?</p>
+</sp>
+<sp>
+<speaker>OTTO</speaker>
+<stage>(l&#x00E6;rd).</stage>
+<p>For at indpode den Secardske v&#x00E6;ske &#x2026; tager man sig ud &#x2026; en vis plet &#x2026; af huden &#x2013; en &#x00E0; to kvadratcentimeter i flade &#x2026; for exempel denne. <stage>(han ber&#x00F8;rer en plet af hendes arm)</stage> derp&#x00E5; &#x2026; <stage>(han kysser pletten)</stage> &#x2026; se det er ungdomsdrikken, fru Steen, og s&#x00E5;dan tar man den ind.</p>
+</sp>
+<sp>
+<speaker>FRU STEEN</speaker>
+<stage>(hurtig, som for at d&#x00E6;kke over, til apothekeren, som n&#x00E6;rmer sig gruppen).</stage>
+<p>De, hr. apotheker, De er en <hi rend="italic">alvorlig</hi> mand, hvad mener De om ungdomsdrikken? Tror De p&#x00E5; den?</p>
+</sp>
+<sp>
+<speaker>BERG</speaker>
+<stage>(interesseret).</stage>
+<p>Mener De i organisk eller uorganisk form?</p>
+</sp>
+<stage>(Samtalen g&#x00E5;r videre).</stage> <stage>(<hi rend="bold">Odd</hi> og <hi rend="bold" >Borghild</hi>).</stage>
+<sp>
+<speaker>BORGHILD</speaker>
+<stage>(med overvindelse, d&#x00E6;mpet, smerteligt).</stage>
+<p>Ikke en eneste gang i hele aften har du sagt, at du elsker mig.</p>
+</sp>
+<sp>
+<speaker>ODD</speaker>
+<stage>(i pludselig, voldsom men stille smerte).</stage>
+<p>Hvis du vidste hvad jeg lider &#x2026;</p>
+<stage>(Han reiser sig i sterkt tilbagetr&#x00E6;ngt bev&#x00E6;gelse, g&#x00E5;r i tilkj&#x00E6;mpet ro hen til et bord i n&#x00E6;rheden, sl&#x00E5;r f&#x00F8;rst svagt, s&#x00E5; et gjennemtr&#x00E6;ngende sterkt slag p&#x00E5; et glas, hvorved alle blikke med engang vendes mod ham).</stage> <stage>(Efter en stilhed, hvorunder han ser udover selskabet, derp&#x00E5; med stor, s&#x00E6;lsom sikkerhed).</stage>
+<p>Jeg f&#x00F8;ler eder n&#x00E6;r mig, jeg f&#x00F8;ler eders hjerter sl&#x00E5; og eders hjerner arbeide. Jeg ser eders ansigter forventningsfulde efter, hvad jeg vil sige. Om et &#x00F8;ieblik vil I vide det, og eders h&#x00E6;nder, l&#x00F8;ftet til bifald, vil knyttes i vrede.</p>
+<stage>(En forundret mumlen).</stage>
+<p>I over et &#x00E5;r har jeg gruet for denne stund. Til det sidste t&#x00E6;nkte jeg, det kunde m&#x00E5;ske undg&#x00E5;s.</p>
+<p>Det, som min tidlige ungdoms dr&#x00F8;mme og store tanker bandt sig til, det m&#x00E5; jeg forlade. Hvad der vil komme, ved jeg ikke.</p>
+<stage>(Man ser &#x00E5;ndel&#x00F8;st tause, sp&#x00F8;rgende p&#x00E5; hinanden).</stage> <p>Mens jeg var derude i de store byer, mens jeg vandred om blandt disse sorte menneskeflokke, der vrimler omkring som tr&#x00E6;llende krybdyr, da kom det.</p>
+<p>Jeg s&#x00E5; noget.</p>
+<p><hi rend="italic">Der er noget sygt hos menneskene</hi>. Hos eder, hos mig, hos allesammen.</p>
+<p>Og den, som ved det, og den, som har s&#x00E9;t det, han &#x2013; &#x2013; &#x2013; <stage>(tar sig med begge h&#x00E6;nder for panden, n&#x00E6;sten som i vildelse).</stage></p>
+<p>Det lyse, det varme liv blandt eder, det er ikke for mig.</p>
+<stage>(En liden pause, hvorunder den forundrede mumlen stadig vokser).</stage>
+<p><stage>(Anderledes).</stage> Jeg har set p&#x00E5; eder iaften. Jeg har set eder le. Si mig. Er I da glade? Har I da nogensinde f&#x00F8;lt, hvad det er at v&#x00E6;re menneske?</p>
+</sp>
+<stage>(Mumlen. Ud af denne)</stage>
+<sp>
+<speaker>DIREKT&#x00D8;R HANSEN.</speaker>
+<p>Til sagen!</p>
+</sp>
+<sp>
+<speaker>ODD.</speaker>
+<p>I vil bli rige. I vil h&#x00F8;re maskinernes hjul omkring i byen. I vil ha nyt liv, boder, skibe, fragtfart.</p>
+<p>Og n&#x00E5;r I s&#x00E5; har f&#x00E5;t alt det, hvad s&#x00E5;?</p>
+</sp>
+<stage>(Bev&#x00E6;gelsen er vokset til storm).</stage>
+<sp>
+<speaker>FRA FLERE KANTER.</speaker>
+<p>Til sagen! Til sagen!</p>
+</sp>
+<sp>
+<speaker>ODD</speaker>
+<stage>(samler sin sidste kraft).</stage>
+<p>Min ungdoms dr&#x00F8;m, dr&#x00F8;mmen om den store fabrik, er d&#x00F8;d.</p>
+ <p>Rige kan den m&#x00E5;ske gj&#x00F8;re eder, nogle af eder, glade, aldrig.</p>
+</sp>
+<stage>(Man samler sig t&#x00E6;ttere om ham, han skjules af flokken, ud af denne)</stage>
+<sp>
+<speaker>DIREKT&#x00D8;R HANSENS STEMME.</speaker>
+<p>Er det da Deres mening at opgi Deres deltagelse i projektet?</p>
+</sp>
+<sp>
+<speaker>ODDS STEMME.</speaker>
+<p>Ja.</p>
+</sp>
+<sp>
+<speaker>STEMMER I FLOKKEN.</speaker>
+<p>Skammeligt! Skammeligt!</p>
+</sp>
+<sp>
+<speaker>DIREKT&#x00D8;R HANSEN</speaker>
+<stage>(afbrydende).</stage>
+<p>Og har De s&#x00E5; t&#x00E6;nkt over &#x2013; &#x2013;</p>
+</sp>
+<sp>
+<speaker>APOTHEKEREN BERG</speaker>
+<stage>(der har st&#x00E5;et i et hj&#x00F8;rne i baggrunden, har imidlertid hastig tr&#x00E6;ngt sig ind i flokken. H&#x00F8;res sterkt r&#x00E5;be)</stage>
+<p>Vogt dig, Odd! Forbandelsen er <hi rend="italic">over</hi> dig!</p>
+</sp>
+<sp>
+<speaker>ODD</speaker>
+<stage>(i flokken).</stage>
+<p>Hvad mener du?</p>
+</sp>
+<sp>
+<speaker>BERG.</speaker>
+<p>Denne kveld var mit livs gl&#x00E6;desdag.</p>
+<p>Jeg beder dig, &#x2013; for mine gr&#x00E5; h&#x00E5;rs skyld, &#x2013; for et liv i angst, &#x2013; gj&#x00F8;r det ikke! Opgi det ikke! Opgi ikke livet!</p>
+</sp>
+<stage>(En &#x00E5;ndel&#x00F8;s pause. B&#x00E5;de <hi rend="bold">Odd</hi> og <hi rend="bold">faderen</hi> er skjult af flokken).</stage> <sp>
+<speaker>BERG</speaker>
+<stage>(atter).</stage>
+<p>Opgi det ikke!</p>
+</sp>
+<sp>
+<speaker>ODD</speaker>
+<stage>(stille).</stage>
+<p>Jeg kan ikke. Man befaler ikke over sig selv.</p>
+</sp>
+<sp>
+<speaker>BERG.</speaker>
+<p>T&#x00E6;nk over det endnu en gang! &#x2013; &#x2013; &#x2013; For <hi rend="italic">min</hi> skyld!</p>
+</sp>
+<sp>
+<speaker>ODD</speaker>
+<stage>(efter en liden pause, n&#x00E6;sten uh&#x00F8;rligt).</stage>
+<p>Jeg kan ikke.</p>
+</sp>
+<sp>
+<speaker>BERG</speaker>
+<stage>(sterkt).</stage>
+<p>Forbandelsen er <hi rend="italic">over</hi> dig!</p>
+</sp>
+<stage>(Han iler ud).</stage>
+<sp>
+<speaker>DET G&#x00C5;R FRA MAND TIL MAND:</speaker>
+<p>Hvad var det!</p>
+<p>Forbandte ham?</p>
+<p>Forbandte han ham?</p>
+</sp>
+<stage>(fra d&#x00F8;ren til h&#x00F8;ire i baggrunden kommer):</stage>
+<sp>
+<speaker>ET PAR OPVARTERSKER.</speaker>
+<p>Hvad er det? Hvad var det?</p>
+</sp>
+<sp>
+<speaker>DE N&#x00C6;RMESTE.</speaker>
+<p>Faren forbandte ham, siger de.</p>
+</sp>
+<sp>
+<speaker>BLANDT NOGLE DAMER.</speaker>
+<p>Huf, t&#x00E6;nk s&#x00E5; uhyggeligt! Kom, la os g&#x00E5;.</p>
+</sp>
+<sp>
+<speaker>FLERE.</speaker>
+<p>La os g&#x00E5;!</p>
+</sp>
+<stage>(Man str&#x00F8;mmer, ivrig og forvirret sp&#x00F8;rgende og snakkende, ud af alle d&#x00F8;re).</stage> <stage>(<hi rend="bold">Odd Berg</hi> ses at st&#x00E5; som forstenet p&#x00E5; samme sted som f&#x00F8;r, midt i salen).</stage>
+<sp>
+<speaker>FRU STEEN</speaker>
+<stage>(sn&#x00F8;rer forbi ham, idet hun skal g&#x00E5; ud i forgrunden tilh&#x00F8;ire).</stage>
+<p>Tak for gl&#x00E6;den, De bragte.</p>
+</sp>
+<stage>(<hi rend="bold">Odd</hi> er nu alene. <hi rend="italic">Borghild</hi>, som har st&#x00E5;t stille i baggrunden, kommer frem og g&#x00E5;r mod d&#x00F8;ren i forgrunden tilh&#x00F8;ire).</stage>
+<sp>
+<speaker>ODD.</speaker>
+<p>G&#x00E5;r <hi rend="italic">du</hi> ogs&#x00E5;?</p>
+</sp>
+<sp>
+<speaker>BORGHILD</speaker>
+<stage>(svarer ikke).</stage>
+<p/>
+</sp>
+<sp>
+<speaker>ODD.</speaker>
+<p>Nu, da alle g&#x00E5;r &#x2026; Nu, da jeg har det ondt.</p>
+</sp>
+<sp>
+<speaker>BORGHILD</speaker>
+<stage>(st&#x00E5;r stille, ligesom ventende p&#x00E5; noget).</stage>
+<p/>
+</sp>
+<sp>
+<speaker>ODD.</speaker>
+<p>Til det sidste vented jeg, at m&#x00E5;ske nogen, m&#x00E5;ske en eller anden blandt m&#x00E6;ngden, &#x2013; blot &#x00E9;n, &#x2013; vilde forst&#x00E5; mig. De gik alle.</p>
+</sp>
+<sp>
+<speaker>BORGHILD</speaker>
+<stage>(st&#x00E5;r som f&#x00F8;r).</stage>
+<p/>
+</sp>
+<sp>
+<speaker>ODD</speaker>
+<stage>(kaster sig p&#x00E5; kn&#x00E6; og griber om hendes kjole).</stage>
+<p>Bliv!</p>
+</sp>
+<sp>
+<speaker>BORGHILD.</speaker>
+<p>Vognen venter.</p>
+</sp>
+<sp>
+<speaker>ODD</speaker>
+<stage>(s&#x00E6;tter sig og breder h&#x00E6;nderne foran ansigtet).</stage>
+<p/>
+</sp>
+<sp>
+<speaker>BORGHILD.</speaker>
+<p>Husker du v&#x00E5;ren f&#x00F8;r du reiste, aftenturene langs havnen, husker du alt det, du sa mig.</p>
+<stage>(Han svarer ikke).</stage>
+<p>Husker du den aften, du havde talt for hele byen i arbeidersamfundet, kaneturen efterp&#x00E5;, langt ud p&#x00E5; landet?</p>
+<p>&#x2013; &#x2013; &#x2013; Jeg synes endnu, jeg h&#x00F8;rer bjelderne.</p>
+<stage>(G&#x00E5;r i heftigt opr&#x00F8;r lige indp&#x00E5; ham, meget sterkt, halvt hviskende, idet hun b&#x00F8;ier sig ned mod ham).</stage>
+<p>L&#x00F8;gner!</p>
+</sp>
+<stage>(Hun g&#x00E5;r langsomt ud. Vognen h&#x00F8;res kj&#x00F8;re bort. Da <hi rend="bold">Odd</hi> pludselig m&#x00E6;rker, at det er blit aldeles stille, tar han h&#x00E6;nderne fra ansigtet og farer op):</stage>
+<sp>
+<speaker>ODD</speaker>
+<p>G&#x00E5;et!</p>
+<stage>(Han s&#x00E6;tter sig ned i grublerier).</stage> <stage>(Han g&#x00E5;r til et vindu i baggrunden, tr&#x00E6;kker op gardinet. Man ser stjernehimmelen).</stage>
+<p>Myriader!</p>
+<stage>(G&#x00E5;r frem og tilbage, stanser, vendt mod forgrunden, r&#x00E6;kker h&#x00E6;nderne i veiret).</stage>
+<p>Myriader!</p>
+</sp>
+<stage>(Teppe).</stage>
+</div>
+<div type="chapter" subtype="act" n="2">
+<head type="main">II</head>
+<stage>(Storbyen. Laboratorium. Flasker, mortere, reagensr&#x00F8;r, skelet, globus. <hi rend="bold">Lili</hi> sidder p&#x00E5; et skind p&#x00E5; gulvet, tilvenstre i forgrunden, og stopper str&#x00F8;mper. <hi rend="bold">Odd</hi> g&#x00E5;r frem og tilbage arbeidende med kar og flasker og pulvere. Det store, aflange arbeidsbord st&#x00E5;r paralelt med v&#x00E6;ggen, tilh&#x00F8;ire).</stage>
+<sp>
+<speaker>LILI.</speaker>
+<p>Si mig, hvorfor du g&#x00E5;r s&#x00E5;danne lange ture? Er det noget du m&#x00E5;?</p>
+<stage>(Hun l&#x00F8;fter hodet til lytten).</stage>
+<p>Du svarer ikke, doktor.</p>
+<p>&#x2013; Jeg h&#x00F8;rte dig komme ind s&#x00E5; sent. At du ikke blir r&#x00E6;d, n&#x00E5;r du g&#x00E5;r s&#x00E5;dan alene!</p>
+</sp>
+<sp>
+<speaker>ODD.</speaker>
+<p>Jeg forstyrred dig ikke?</p>
+</sp>
+<sp>
+<speaker>LILI.</speaker>
+<p>&#x00C5; nei, nei. Jeg bare v&#x00E5;gned et &#x00F8;ieblik. Jeg syntes der kom g&#x00E5;endes en flaske, en stor, sv&#x00E6;r flaske, med fire hoder. Og s&#x00E5; v&#x00E5;gned jeg. For jeg syntes, det var s&#x00E5; rart, at en flaske skulde g&#x00E5;. Og s&#x00E5; var det <hi rend="italic">du</hi>, som var den flasken.</p>
+<p>&#x2013; &#x2013; Hvorfor ler du ikke? Du <hi rend="italic">ler</hi> aldrig.</p>
+<p>&#x2013; S&#x00E5; s&#x00E5; jeg ud af vinduet. Og s&#x00E5; var det midt p&#x00E5; natten. Det var s&#x00E5; rart. Alt er s&#x00E5; rart om natten. Ganske anderledes.</p>
+<p>Jeg liker s&#x00E5; godt Orion, jeg. Ved du hvorfor?</p>
+</sp>
+<sp>
+<speaker>ODD</speaker>
+<stage>(distrait).</stage>
+<p>Hvorfor?</p>
+</sp>
+<sp>
+<speaker>LILI.</speaker>
+<p>Du vil kanske indbilde mig, at du h&#x00F8;rte hvad jeg spurgte om.</p>
+<p>Du h&#x00F8;rer ikke et muk af, hvad jeg siger. &#x2013; &#x2013;</p>
+<p><stage>(Lavere)</stage> Men forresten kan det v&#x00E6;re akkurat det samme. Jeg prater alligevel, jeg.</p>
+<p><stage>(Hemmelighedsfuld)</stage> Jo, for det er <hi rend="italic">han</hi>, som r&#x00E5;r for <hi rend="italic">tiden</hi>, ser du. For hvorfor skulde han ellers se ud som et timeglas? Skinbarligen som et timeglas.</p>
+<p><stage>(Opslugt af sin fantasi)</stage> Sekunderne, &#x2013; sekunderne, det er egentlig bare nogen bitte, bitte, yrende sm&#x00E5; stene, det, &#x2013; og s&#x00E5; falder de, &#x2013; og falder og falder, &#x2013; fra de &#x00F8;verste to til de nederste to, men s&#x00E5; vender han sig lidt efter lidt, ved du, &#x2013; og s&#x00E5; blir de oppe, som f&#x00F8;r var nede, &#x2013; og s&#x00E5; falder de ned igjen, &#x2013; og slig falder de og falder og falder og falder &#x2013; i al &#x00E6;velighed &#x2013; op og ned og op og ned, op og ned og op og ned.</p>
+<p>Er det ikke s&#x00E5;dan, at tiden er, doktor?</p>
+<stage>(Halvt til sig selv).</stage>
+<p>Han m&#x00E5; ha det ganske ualmindelig sv&#x00E6;rt gr&#x00E6;sselig travlt idag, troldmanden.</p>
+<stage>(L&#x00E6;gger str&#x00F8;mpen fra sig og t&#x00E6;ller p&#x00E5; fingrene):</stage>
+<p>Tiden, rummet, kraften, stoffet, tiden, rummet, kraften, stoffet.</p>
+<p>&#x00C5; gud, hvor det skal bli herligt! &#x2013; herligt!</p>
+</sp>
+<stage>(Hun klapper i h&#x00E6;nderne).</stage> <sp>
+<speaker>ODD</speaker>
+<stage>(ser op).</stage>
+<p>Hvad er det, Lili? Hvad <hi rend="italic">er</hi> det, som skal bli s&#x00E5; herligt?</p>
+</sp>
+<sp>
+<speaker>LILI.</speaker>
+<p>N&#x00E5;r du finder det.</p>
+<p>For du kan v&#x00E6;re tryg for, du finder det! &#x2026; N&#x00E5;r du bare finder y s&#x00E5;. Jeg tror, x er rigtig, jeg. Tror ikke du ogs&#x00E5;, at x er rigtig, doktor?</p>
+</sp>
+<sp>
+<speaker>ODD.</speaker>
+<p>x?</p>
+</sp>
+<sp>
+<speaker>LILI.</speaker>
+<p>x ja! Netop x!</p>
+</sp>
+<sp>
+<speaker>ODD.</speaker>
+<p>Hvilket x?</p>
+</sp>
+<sp>
+<speaker>LILI.</speaker>
+<p><hi rend="italic">Hvilket</hi> x? Er der ikke altid et x og et y kanske? Som det ikke netop var det, som det er s&#x00E5; knakendes morsomt at spekulere p&#x00E5;? Hvad de <hi rend="italic">er</hi> for noget.</p>
+</sp>
+<sp>
+<speaker>ODD</speaker>
+<stage>(stadig blot optaget af sit arbeide).</stage>
+<p>Men hvad er det s&#x00E5;, du kalder x?</p>
+</sp>
+<sp>
+<speaker>LILI.</speaker>
+<p>Det r&#x00F8;de vel, det r&#x00F8;de, som du har f&#x00E5;t til. Men der m&#x00E5; v&#x00E6;re noget bl&#x00E5;t ogs&#x00E5;. Tror ikke du ogs&#x00E5; det, at y blir bl&#x00E5;t? Akkurat som himmelen om kvelden.</p>
+ <p>&#x2013; Nu skal du hvile dig doktor! Du har arbeidet hele dagen.</p>
+<p>S&#x00E5; s&#x00E6;tter jeg kjedlen p&#x00E5;.</p>
+</sp>
+<stage>(<hi rend="bold">Odd</hi> s&#x00E6;tter sig ved det h&#x00F8;ire af vinduerne i baggrunden og ser ud, med hodet st&#x00F8;ttet i h&#x00E5;nden. <hi rend="bold">Lili</hi> henter kanden og t&#x00E6;nder p&#x00E5; oljemaskinen, er meget geskj&#x00E6;ftig, men lydl&#x00F8;st og grati&#x00F8;st. Der st&#x00E5;r nu, da tusm&#x00F8;rket er faldt p&#x00E5;, et eget skin ud af en flaske med en r&#x00F8;d v&#x00E6;ske, der er stillet op p&#x00E5; en hylde).</stage>
+<sp>
+<speaker>LILI.</speaker>
+<p>Se, Odd!</p>
+</sp>
+<sp>
+<speaker>ODD.</speaker>
+<p>Hvad er det?</p>
+</sp>
+<sp>
+<speaker>LILI.</speaker>
+<p>Se! Flasken med det r&#x00F8;de. Den skinner. Den lyser.</p>
+<p>Det er akkurat, som solen er indi den.</p>
+<p><stage>(Angst ved tanken)</stage> T&#x00E6;nk om korken skulde springe!</p>
+<p>For hvis solen nu ikke vilde <hi rend="italic">v&#x00E6;re</hi> l&#x00E6;nger derinde!</p>
+</sp>
+<sp>
+<speaker>ODD</speaker>
+<stage>(atter vendt mod vinduet, vemodig og langsomt).</stage>
+<p>Solen siger du &#x2026; Solen &#x2026;</p>
+<p>&#x2013; Solen, himmelen, hele himmelrummet &#x2026; Draget magnetisk ned p&#x00E5; jorden. Samlet op i hvert menneskes bryst!</p>
+<p>Hvor de skynder sig! De har ingen ro. De har glemt, at de er s&#x00F8;nnes&#x00F8;nss&#x00F8;nner af ham, som bl&#x00E6;ste liv i millionerne &#x2026; H&#x00F8;rer du, Lili?</p>
+</sp>
+<sp>
+<speaker>LILI</speaker>
+<stage>(st&#x00E5;r en stund stille i lytten, derp&#x00E5; med stort alvor):</stage>
+<p>Ja. Det er &#x00AB;trikken&#x00BB;.</p>
+</sp>
+<sp>
+<speaker>ODD.</speaker>
+<p>Den er ganske fuld.</p>
+<p>Der er en hvidh&#x00E5;ret mand. Han m&#x00E5; st&#x00E5;. Han holder sig i remmen. Ingen byr ham sin plads. De har ikke tid til at t&#x00E6;nke p&#x00E5; ham.</p>
+<stage>(I udbrud).</stage>
+<p>Hvor jeg elsker dem!</p>
+</sp>
+<sp>
+<speaker>LILI.</speaker>
+<p>Du kjender dem jo ikke.</p>
+<stage>(Idet hun pusler med kjedlen).</stage>
+<p>Kog nu, dit b&#x00E6;st!</p>
+<stage>(Lige efter).</stage>
+<p>Hvordan kan du holde af dem, n&#x00E5;r du ikke kjender dem?</p>
+</sp>
+<stage>(Hun tar skindet og g&#x00E5;r og s&#x00E6;tter sig ved hans f&#x00F8;dder. Det er blit m&#x00F8;rkere).</stage>
+<sp>
+<speaker>ODD</speaker>
+<stage>(dr&#x00F8;mmende).</stage>
+<p>F&#x00F8;r du kom, s&#x00E5; var jeg ganske alene. S&#x00E5; sad jeg og s&#x00E5; ud af vinduet, n&#x00E5;r jeg var tr&#x00E6;t. Da syntes jeg mer og mer, at de var akkurat som bitte sm&#x00E5; b&#x00F8;rn, de som gik dernede. De var s&#x00E5; r&#x00E6;dde, s&#x00E5; r&#x00E6;dde, for at de ikke skulde f&#x00E5; gjort alt det, de skulde ha gjort, f&#x00F8;r natten kom. Jeg syntes de havde det s&#x00E5; ondt.</p>
+</sp>
+<sp>
+<speaker>LILI</speaker>
+<stage>(eftert&#x00E6;nksomt).</stage>
+<p>Nei. De har det ikke godt. De er ikke lykkelige.</p>
+<p>Men <hi rend="italic">du</hi> er.</p>
+</sp>
+<sp>
+<speaker>ODD.</speaker>
+<p>Jeg &#x2026; Jeg er jo ogs&#x00E5; menneske.</p>
+</sp>
+<sp>
+<speaker>LILI.</speaker>
+<p>Ja, det er du nok &#x2026; Men du er noget andet ogs&#x00E5;, du, du er noget som g&#x00E5;r opover, over allesammen, du ser allesammen, du g&#x00E5;r opover, mod &#x2026; mod Orion!</p>
+</sp>
+<sp>
+<speaker>ODD.</speaker>
+<p>Ja, men det er ikke lykke at m&#x00E5;tte se alt. T&#x00E6;nk om gud m&#x00E5; se alt! Jeg kan ikke t&#x00E6;nke mig det. Ikke s&#x00E5;dan, som vi ser det ialfald. For s&#x00E5; m&#x00E5;tte han bli s&#x00E5; m&#x00F8;rk. Og han skal v&#x00E6;re lys.</p>
+<p>Hvad er det nu, du grubler p&#x00E5;, Lili?</p>
+</sp>
+<sp>
+<speaker>LILI.</speaker>
+<p>Du er s&#x00E5; snil iaften. &#x2013; &#x2013; Jeg grubler ikke. Jeg h&#x00F8;rer. Jeg h&#x00F8;rer p&#x00E5; stemmen din. Det er akkurat som den kommer ud fra noget andet end dig, det er akkurat som &#x2026; som den &#x2026;</p>
+</sp>
+<sp>
+<speaker>ODD</speaker>
+<stage>(noget s&#x00E5;rt).</stage>
+<p>Tal ikke om mig.</p>
+</sp>
+<sp>
+<speaker>LILI.</speaker>
+<p>Jeg <hi rend="italic">snakker</hi> ikke om dig. Det er hele verden, jeg snakker om. Du er hele verden, du. For ellers kunde du ikke <hi rend="italic">gj&#x00F8;re</hi> det.</p>
+<p>Og du <hi rend="italic">er</hi> lykkelig. Du <hi rend="italic">er</hi>. Der er ingen, som er s&#x00E5; lykkelig som du.</p>
+<p>For &#x2026; for &#x2026; <stage>(hun t&#x00E6;ller p&#x00E5; fingrene)</stage> for der er jo intet, som er s&#x00E5; gribende deiligt, som at se alt det, som er s&#x00E5; skr&#x00E6;kkelig, forf&#x00E6;rdelig vondt &#x2026; og s&#x00E5; &#x2026; <stage>(t&#x00E6;ller p&#x00E5; fingrene, presto):</stage> s&#x00E5; gribende deiligt, s&#x00E5; gribende deiligt &#x2026; s&#x00E5; gribende deiligt som at vide, at en kan gj&#x00F8;re det str&#x00E5;lende godt igjen altsammen i hele &#x2026; i hele &#x2026; hvad er det nu, du kalder det &#x2026; bi lidt &#x2026; verdensrummet!!</p>
+</sp>
+<stage>(En liden pause).</stage>
+<sp>
+<speaker>ODD.</speaker>
+<p>Men n&#x00E5;r en nu ikke kan?</p>
+</sp>
+<sp>
+<speaker>LILI.</speaker>
+<p>Du <hi rend="italic">kan!</hi></p>
+<stage>(Hun springer op og danser hen til maskinen, syngende):</stage>
+<p>Du kan, du kan, du kan, du kan!</p>
+<stage>(Hun steller hurtig til et lidet bord med br&#x00F8;d, sm&#x00F8;r og ost, og skj&#x00E6;nker te. F&#x00F8;r hun er f&#x00E6;rdig og uden at vende sig om):</stage>
+<p>Hvad t&#x00E6;nker du p&#x00E5;? Du t&#x00E6;nker s&#x00E5; forf&#x00E6;rdelig sv&#x00E6;rt, at jeg f&#x00F8;ler det i ryggen.</p>
+</sp>
+<sp>
+<speaker>ODD.</speaker>
+<p>&#x00C5;, det var ikke noget.</p>
+</sp>
+<sp>
+<speaker>LILI</speaker>
+<stage>(idet hun b&#x00E6;rer kopperne frem).</stage>
+<p><stage>(Eiendommelig henkastet og med s&#x00E6;nkede &#x00F8;ine)</stage> Nei s&#x00E5; var det ikke det da.</p>
+</sp>
+<stage>(Han tar sukker op i teen og b&#x00E6;rer den hen til det samme vindu, hvor han spiser og drikker st&#x00E5;ende. Hun det samme ved det <hi rend="sperret">venstre</hi> vindu i baggrunden).</stage>
+<sp>
+<speaker>ODD</speaker>
+<stage>(idet der piber et lokomotiv, og man h&#x00F8;rer de f&#x00F8;rste slag).</stage>
+<p>At t&#x00E6;nke sig, t&#x00E6;nke sig &#x2026;</p>
+</sp>
+<sp>
+<speaker>LILI</speaker>
+<stage>(nu lystigt).</stage>
+<p>Jeg t&#x00E6;nker mig, jeg t&#x00E6;nker mig.</p>
+</sp>
+<sp>
+<speaker>ODD.</speaker>
+<p>&#x2026; t&#x00E6;nke sig, at dette tr&#x00E6;net, som nu iler til den n&#x00E6;ste by, til den n&#x00E6;ste menneskeklump, &#x2013; alle disse tr&#x00E6;nene udover hele jorden, &#x2013; alle disse menneskene &#x2026;</p>
+</sp>
+<sp>
+<speaker>LILI.</speaker>
+<p>Alt det, som kj&#x00F8;rer og l&#x00F8;ber og g&#x00E5;r og &#x2026; og cykler.</p>
+</sp>
+<sp>
+<speaker>ODD.</speaker>
+<p>Og disse sv&#x00E6;re husene med alle etagerne, alle bjelkerne og murene og vinduerne og piberne &#x2026; og alle lysene bortigjennem gaden &#x2026;</p>
+</sp>
+<sp>
+<speaker>LILI.</speaker>
+<p>De elektriske mener du?</p>
+</sp>
+<sp>
+<speaker>ODD.</speaker>
+<p>De elektriske og gaslygterne og vinduerne &#x2026; t&#x00E6;nke sig &#x2026;</p>
+</sp>
+<sp>
+<speaker>LILI.</speaker>
+<p>Jeg t&#x00E6;nker mig, s&#x00E5; jeg er f&#x00E6;rdig at spr&#x00E6;nges.</p>
+</sp>
+<sp>
+<speaker>ODD.</speaker>
+<p>Alt dette, som vrimler og kaver og g&#x00E5;r omkring i gadevis, og pruster og puster og damper og &#x2026; altsammen &#x2026; at det er vokset frem, bygget op, blit til p&#x00E5; de samme love, som var fra f&#x00F8;rst af!</p>
+</sp>
+<sp>
+<speaker>LILI</speaker>
+<stage>(eftert&#x00E6;nksomt).</stage>
+<p>Love &#x2026; Love ja &#x2026;</p>
+<p>Hvad <hi rend="italic">er</hi> lover for noget, du doktor? Jeg blir altid r&#x00E6;d, n&#x00E5;r jeg h&#x00F8;rer det ordet.</p>
+</sp>
+<sp>
+<speaker>ODD.</speaker>
+<p>Det er noget, som g&#x00E5;r fra klode til klode og fra v&#x00E6;sen til v&#x00E6;sen &#x2026;</p>
+</sp>
+<sp>
+<speaker>LILI</speaker>
+<stage>(afbrydende).</stage>
+<p>Akkurat som telefontr&#x00E5;de? Suser det i dem?</p>
+</sp>
+<sp>
+<speaker>ODD.</speaker>
+<p>T&#x00E6;nk dig midtveis p&#x00E5; en telefontr&#x00E5;d: Det suser og suser. Der g&#x00E5;r en masse ting igjennem den. Men du skj&#x00F8;nner ikke, hvad det er. Det er bare en susen. Og alligevel, s&#x00E5; blir det til tusener af ord, tydelige, adskilte sm&#x00E5; ord.</p>
+<p>S&#x00E5;dan er det ogs&#x00E5; med lovene.</p>
+</sp>
+<sp>
+<speaker>LILI.</speaker>
+<p>&#x00C5; gud, s&#x00E5; er jo lovene bare noget godt. Hvor det er deiligt! Og <hi rend="italic">det</hi> g&#x00E5;r igjennem hele verden?</p>
+</sp>
+<sp>
+<speaker>ODD.</speaker>
+<p>Ja.</p>
+</sp>
+<sp>
+<speaker>LILI.</speaker>
+<p>Akkurat som p&#x00E5; den planchen med alle de kul&#x00F8;rte striberne, ikke sandt? Hvad er det nu den forestiller?</p>
+</sp>
+<sp>
+<speaker>ODD.</speaker>
+<p>H&#x00E5;rkarnettet.</p>
+</sp>
+<sp>
+<speaker>LILI.</speaker>
+<p>&#x00C5;, hvor det er deiligt! Er der <hi rend="italic">sj&#x00E6;l</hi> i det ogs&#x00E5;?</p>
+</sp>
+<sp>
+<speaker>ODD</speaker>
+<stage>(svarer ikke).</stage>
+<p/>
+</sp>
+<sp>
+<speaker>LILI.</speaker>
+<p>Du svarer ikke igjen &#x2026; Der <hi rend="italic">er</hi> sj&#x00E6;l. Jeg <hi rend="italic">ved</hi>, der er sj&#x00E6;l!</p>
+<p>&#x00C5;, hvor det er deiligt! S&#x00E5; er jo hele verden akkurat som et menneske &#x2026; og disse &#x2026; disse lovene, det er nerverne og alt det?</p>
+</sp>
+<sp>
+<speaker>ODD.</speaker>
+<p>Men s&#x00E6;t nu, at der var en eneste lov bag altsammen, som man kunde lede sig frem til, hvis man kunde binde op alle knuderne og f&#x00F8;lge tr&#x00E5;den efter! For da kunde en begynde.</p>
+</sp>
+<sp>
+<speaker>LILI.</speaker>
+<p>Begynde?</p>
+</sp>
+<sp>
+<speaker>ODD.</speaker>
+<p>Ja, da kunde en begynde at s&#x00E6;tte sammen p&#x00E5;ny.</p>
+</sp>
+<sp>
+<speaker>LILI.</speaker>
+<p>S&#x00E6;tte sammen? S&#x00E6;tte sammen hvad?</p>
+</sp>
+<sp>
+<speaker>ODD.</speaker>
+<p>Atomerne.</p>
+</sp>
+<sp>
+<speaker>LILI.</speaker>
+<p>Atomerne! Kommer du nu igjen med de atomerne? Jeg synes, der skulde v&#x00E6;re nogen <hi rend="italic">skikkelige</hi> ord, jeg, &#x2013; som folk kunde forst&#x00E5;!</p>
+<p>Atomerne, det er de, som er kommet i ulave det, er det ikke? &#x2013; de, som du snakked om den s&#x00F8;ndagskvelden, &#x2013; da du l&#x00E6;rte mig stjernebillederne, stjernerne inde i kroppen, &#x2013; de, som ikke ligger slig som de <hi rend="italic">skal</hi> ligge?</p>
+<p>&#x2013; Jo, jeg ser det p&#x00E5; dig! Det <hi rend="italic">er</hi> det. Du m&#x00E5; ikke tro, jeg ikke ser dig, for om det er m&#x00F8;rkt, doktor!</p>
+ <stage>(Hun b&#x00E6;rer kopperne bort og s&#x00E6;tter dem ind i et skab. Hun kommer imens til at skotte bort til <hi rend="bold">Odd</hi>, som har sat sig og sidder og stirrer hen for sig. Stanser op og siger sagte og s&#x00E5;rt):</stage>
+<p>Der <hi rend="italic">er</hi> det igjen!</p>
+</sp>
+<stage>(Hun lister sig lydl&#x00F8;st hen foran ham og l&#x00E6;gger sig p&#x00E5; skindet. Hun brister i stille gr&#x00E5;t, der vokser til hulken).</stage>
+<sp>
+<speaker>ODD</speaker>
+<stage>(som f&#x00F8;rst nu blir hende var).</stage>
+<p>Hvad er det? Hvad <hi rend="italic">er</hi> det, kj&#x00E6;re?</p>
+</sp>
+<sp>
+<speaker>LILI.</speaker>
+<p>Du havde det blikket. <stage>(Sn&#x00F8;ftende):</stage> Du havde det blikket &#x2026; <stage>(Hun tar sig for brystet).</stage> &#x00C5;, jeg blir s&#x00E5; angst &#x2026;</p>
+</sp>
+<sp>
+<speaker>ODD</speaker>
+<stage>(stryger hende over h&#x00E5;ret).</stage>
+<p>Stakkels Lili! Stakkels Lili!</p>
+<stage>(Idet han efter en liden pause reiser sig og g&#x00E5;r ud):</stage>
+<p>Jeg skulde g&#x00E5; et lidet &#x00E6;rinde. Jeg kommer snart igjen.</p>
+</sp>
+<stage>(<hi rend="bold">Lili</hi> blir liggende med hodet begravet i skindet, af og til rykker det i hendes ryg af hulken. Det er blit ganske m&#x00F8;rkt ude, kun lygteskinnet gir et svagt lysskj&#x00E6;r. S&#x00E5; ringer det).</stage>
+<sp>
+<speaker>LILI</speaker>
+<stage>(farer op).</stage>
+<p>Ringte det?</p>
+<stage>(Det ringer igjen).</stage>
+<p>Hvem kan det v&#x00E6;re?</p>
+</sp>
+<stage>(Hun g&#x00E5;r ud. Kommer igjen med <hi rend="italic">Berg)</hi>.</stage>
+<sp>
+<speaker>LILI.</speaker>
+<p>Her er s&#x00E5; m&#x00F8;rkt. Jeg skal t&#x00E6;nde lampen.</p>
+</sp>
+<stage>(Hun t&#x00E6;nder).</stage> <sp>
+<speaker>BERG.</speaker>
+<p>Blir han l&#x00E6;nge borte?</p>
+</sp>
+<sp>
+<speaker>LILI.</speaker>
+<p>Nei.</p>
+</sp>
+<sp>
+<speaker>BERG</speaker>
+<stage>(som ser sig omkring).</stage>
+<p>De er hans amanuensis kanske?</p>
+</sp>
+<sp>
+<speaker>LILI.</speaker>
+<p>Jeg er hans elev &#x2026; <stage>(stolt)</stage> hans discipel.</p>
+</sp>
+<sp>
+<speaker>BERG.</speaker>
+<p>Hans discipel n&#x00E5; &#x2026; Tillader De, at jeg ser mig omkring?</p>
+</sp>
+<sp>
+<speaker>LILI.</speaker>
+<p>Ja, v&#x00E6;rsgo, hvis de er forsigtig s&#x00E5;.</p>
+</sp>
+<sp>
+<speaker>BERG</speaker>
+<stage>(m&#x00F8;nstrer hver flaske l&#x00E6;nge og n&#x00F8;ie, udbryder her og der):</stage>
+<p>Jas&#x00E5;.</p>
+<stage>(Han finder tilslut p&#x00E5; bordet en opskriftsbog, som han studerer meget interesseret. Derefter g&#x00E5;r han hurtig op og ned gjennem v&#x00E6;relset, med h&#x00E6;nderne p&#x00E5; ryggen. Stanser s&#x00E5; brat foran <hi rend="bold">Lili</hi>, sp&#x00F8;rger barskt og hurtigt):</stage>
+<p>Tror du, han finder formelen?</p>
+</sp>
+<sp>
+<speaker>LILI</speaker>
+<stage>(med lysende overbevisning).</stage>
+<p>Ja!</p>
+</sp>
+<sp>
+<speaker>BERG</speaker>
+<stage>(s&#x00E6;tter sig, m&#x00F8;rkt og h&#x00E5;rdt).</stage>
+<p>Nei!</p>
+<p><hi rend="italic">Intet</hi> d&#x00F8;deligt menneske finder <hi rend="italic">den</hi>.</p>
+<p>Det er dj&#x00E6;velen, som stikker det i en, Satan.</p>
+<stage>(Gjentar mellem grublerier, roligere og uendelig s&#x00F8;rgmodig).</stage>
+<p><hi rend="italic">Intet</hi> d&#x00F8;deligt menneske <hi rend="italic">finder</hi> den. <hi rend="italic">Intet</hi> d&#x00F8;deligt menneske <hi rend="italic">finder</hi> den.</p>
+<stage>(Helt bl&#x00F8;dt).</stage>
+<p>Nei, man <hi rend="italic">finder</hi> den ikke.</p>
+<p>Man <hi rend="italic">finder</hi> den ikke.</p>
+<stage>(Han reiser sig og <hi rend="italic">g&#x00E5;r</hi> raskt, stanser atter foran <hi rend="bold">Lili</hi>, mildt):</stage>
+<p>Hvad heder du?</p>
+</sp>
+<sp>
+<speaker>LILI.</speaker>
+<p>Lili.</p>
+</sp>
+<sp>
+<speaker>BERG.</speaker>
+<p>Lili. N&#x00E5;.</p>
+<stage>(Han stryger hende over h&#x00E5;ret. Venligt):</stage>
+<p>Hj&#x00E6;lper du ham, du Lili?</p>
+</sp>
+<sp>
+<speaker>LILI.</speaker>
+<p>Ja.</p>
+</sp>
+<sp>
+<speaker>BERG.</speaker>
+<p>Passer p&#x00E5; analyserne?</p>
+</sp>
+<sp>
+<speaker>LILI.</speaker>
+<p>Ja.</p>
+</sp>
+<sp>
+<speaker>BERG.</speaker>
+<p>Holder karrene for ham?</p>
+</sp>
+<sp>
+<speaker>LILI.</speaker>
+<p>Ja.</p>
+</sp>
+<sp>
+<speaker>BERG.</speaker>
+<p>Gj&#x00F8;r dem rene?</p>
+</sp>
+<sp>
+<speaker>LILI.</speaker>
+<p>Ja.</p>
+</sp>
+<sp>
+<speaker>BERG.</speaker>
+<p>Men ved du nu egentlig, hvorfor han <hi rend="italic">gj&#x00F8;r</hi> alt dette?</p>
+</sp>
+<sp>
+<speaker>LILI.</speaker>
+<p>Ja! Han vil finde livets vand igjen.</p>
+</sp>
+<sp>
+<speaker>BERG.</speaker>
+<p>Det, som forl&#x00E6;nger livet?</p>
+</sp>
+<sp>
+<speaker>LILI.</speaker>
+<p>Nei! det som gj&#x00F8;r, at de ikke <hi rend="italic">beh&#x00F8;ver</hi> at leve s&#x00E5; l&#x00E6;nge.</p>
+</sp>
+<sp>
+<speaker>BERG</speaker>
+<stage>(tvilsom, forundret).</stage>
+<p>Ikke beh&#x00F8;ver &#x2026; ikke beh&#x00F8;ver &#x2026; leve s&#x00E5; l&#x00E6;nge &#x2026; Hvad mener du med det?</p>
+</sp>
+<sp>
+<speaker>LILI.</speaker>
+<p>Ved du, hvad atomerne er?</p>
+</sp>
+<sp>
+<speaker>BERG</speaker>
+<stage>(smiler).</stage>
+<p/>
+</sp>
+<sp>
+<speaker>LILI.</speaker>
+<p>Det er ikke noget at le af. Det er det vanskeligste i verden at skj&#x00F8;nne ordentlig det med atomerne.</p>
+</sp>
+<sp>
+<speaker>BERG.</speaker>
+<p>Nuvel. Hvad er det s&#x00E5; med atomerne?</p>
+</sp>
+<sp>
+<speaker>LILI.</speaker>
+<p>Jo, ser du, atomerne skj&#x00E6;lver nok. Men de skj&#x00E6;lver ikke l&#x00E6;nge nok. Forst&#x00E5;r du det nu?</p>
+</sp>
+<sp>
+<speaker>BERG.</speaker>
+<p>Vel! Men hvad har s&#x00E5; vandet med det at bestille?</p>
+</sp>
+<sp>
+<speaker>LILI.</speaker>
+<p>Det skal fylde op alle de tomme hullerne, s&#x00E5; atomerne kommer til at sv&#x00E6;ve og b&#x00F8;lge p&#x00E5; dem akkurat som skibene p&#x00E5; sj&#x00F8;en. For livet er musik, ser du. Men menneskene har glemt at h&#x00F8;re den.</p>
+</sp>
+<sp>
+<speaker>BERG</speaker>
+<stage>(alvorlig).</stage>
+<p>De har m&#x00E5;ske aldrig kunnet &#x2026;</p>
+<p>&#x2013; Lili heder du &#x2026;</p>
+<stage>(For sig selv mere).</stage>
+<p>Du er en ganske anden end hende, han elskede. <hi rend="italic">Hun</hi> var m&#x00F8;rk. <hi rend="italic">Du</hi> er s&#x00E5; lys.</p>
+</sp>
+<sp>
+<speaker>LILI</speaker>
+<stage>(der st&#x00E5;r med h&#x00E6;ngende hode og t&#x00E6;nker, uden at se p&#x00E5; ham).</stage>
+<p>Vil De ikke vente? Han kommer om et &#x00F8;ieblik.</p>
+</sp>
+<sp>
+<speaker>BERG.</speaker>
+<p>Hm &#x2026; Jeg kommer heller tilbage en anden gang &#x2026; Si ikke noget om, at jeg har v&#x00E6;ret her. Vil du love mig det?</p>
+</sp>
+<sp>
+<speaker>LILI</speaker>
+<stage>(afbrydende sine tanker, raskt).</stage>
+<p>Ja. Det lover jeg Dem. For jeg liker Dem <hi rend="italic">godt</hi>.</p>
+<stage>(Hun springer pludselig hen til ham og sl&#x00E5;r armene omkring ham).</stage>
+<p>B&#x00F8;i dig.</p>
+</sp>
+<stage>(Han b&#x00F8;ier sig, hun kysser ham).</stage>
+<sp>
+<speaker>BERG</speaker>
+<stage>(med noget i r&#x00F8;sten).</stage>
+<p>Tak, lille Lili.</p>
+</sp>
+<stage>(Han g&#x00E5;r).</stage>
+<sp>
+<speaker>LILI</speaker>
+<stage>(blir st&#x00E5;ende p&#x00E5; samme sted, med begge h&#x00E6;nder skyggende over &#x00F8;inene).</stage>
+<p>Elskede &#x2026;</p>
+<stage>(Hun g&#x00E5;r et par skridt).</stage>
+<p>Elske &#x2026; Jeg &#x2026; jeg &#x2026;</p>
+<stage>(Hun synker ned p&#x00E5; gulvet, reiser sig, tar lampen og ser sig i speilet, som h&#x00E6;nger mod baggrunden. Vender sig, s&#x00E6;tter lampen bort. Med begge h&#x00E6;nder foran brystet):</stage>
+<p>Grim!</p>
+<stage>(g&#x00E5;r et par skridt, stryger sig ned over ansigtet og halsen):</stage>
+<p>Grim!</p>
+<stage>(Hvisker med funklende &#x00F8;ine):</stage>
+<p>Det er godt jeg har t&#x00E6;ring!</p>
+</sp>
+<stage>(<hi rend="bold">Odd</hi> h&#x00F8;res i gangen, kommer ind, g&#x00E5;r raskt hen til arbeidsbordet, synlig oplivet fra turen, t&#x00E6;nder en arbeidslampe, tar flere flasker og ser p&#x00E5;, tar ud en, t&#x00E6;nder under en fordampningskjedel o. s. v. Under dette taler han).</stage> <sp>
+<speaker>ODD.</speaker>
+<p>T&#x00E6;nke sig, om der intet <hi rend="italic">var</hi> af alt dette: Gader, telefontr&#x00E5;de, huskasser, jernbanelinjer! &#x2026; menneske&#x00E5;nden kunde bygge op p&#x00E5;ny, fra grunden af &#x2026; i harmoni med sig selv! &#x2026; Som stjerner skulde de elektriske blus h&#x00E6;nge over byen, i stjerner og kranse, husene skulde f&#x00F8;ie sig som levende v&#x00E6;sener om menneskesindet, &#x2013; d&#x00E6;mpet skulde tr&#x00E6;nene fare forbi!</p>
+<p>Ja, der <hi rend="italic">m&#x00E5;</hi> findes et stof, der gir menneskene evnen til at leve! Til at forme ud sit liv efter sin natur, den enkeltes liv, det heles liv &#x2026; <stage>(sm&#x00E5; pauser, frembragt ved arbeidet)</stage> som planterne skyder klokker og blomster &#x2026; som tr&#x00E6;erne bygger skove &#x2026; hvor alles duft smelter sammen til &#x00E9;n enkelt ny stor duft &#x2026; alles susen til &#x00E9;n &#x2026;</p>
+<stage>(Kommer pludselig til at se p&#x00E5; <hi rend="italic">Lili</hi>, som ligger ved en sofa i det venstre baggrundshj&#x00F8;rne, med hodet skjult i h&#x00E6;nderne).</stage>
+<p>Hvad er det <hi rend="italic">med</hi> dig, Lili?</p>
+</sp>
+<sp>
+<speaker>LILI.</speaker>
+<p>N&#x00E5;r jeg lukker &#x00F8;inene igjen og holder h&#x00E6;nderne for, s&#x00E5; ser jeg s&#x00E5;meget deiligt, alslags vidunderlige farver, og femkanter, og sekskanter, og stjerner, og ruder, og altid nye, og de g&#x00E5;r op og ned. Tror du, det er s&#x00E5;dan, n&#x00E5;r man d&#x00F8;r?</p>
+</sp>
+<sp>
+<speaker>ODD</speaker>
+<stage>(distrait, under arbeidet).</stage>
+<p>Det tror jeg ikke.</p>
+</sp>
+<sp>
+<speaker>LILI.</speaker>
+<p>Kanske det er s&#x00E5;dan, n&#x00E5;r man elsker.</p>
+<p>Du elsker, du doktor!</p>
+<p>En deilig kvinde elsker du.</p>
+</sp>
+<sp>
+<speaker>ODD</speaker>
+<stage>(vender sig og ser p&#x00E5; hende).</stage>
+<p/>
+</sp>
+<sp>
+<speaker>LILI.</speaker>
+<p>&#x2026; en deilig kvinde &#x2026; med lange, bl&#x00F8;de &#x00F8;ienh&#x00E5;r &#x2026; stolt og m&#x00E6;gtig &#x2026; hvid som en lilje &#x2026; med skuldre som hugget i alabaster &#x2026; med et bryst som &#x2026; som &#x2026;</p>
+</sp>
+<stage>(brister i gr&#x00E5;t).</stage> <stage>(<hi rend="bold">Odd</hi> kommer hen til hende, r&#x00F8;rer ved hendes skulder).</stage>
+<sp>
+<speaker>LILI.</speaker>
+<p>Nei! Nei! <stage>(Vredt)</stage> R&#x00F8;r mig ikke! &#x2026; Det sorte h&#x00E5;ret &#x2026; de brune &#x00F8;inene &#x2026; det er indi dig &#x2026; det er langt indi dig &#x2026; du kan ikke se ordentlig i en retorte, for du ser &#x00F8;inene hendes &#x2026; du skj&#x00E6;lver p&#x00E5; h&#x00E5;nden, n&#x00E5;r du tar i en flaske &#x2026; du, du &#x2026; hun er i dig &#x2026;</p>
+</sp>
+<sp>
+<speaker>ODD</speaker>
+<stage>(st&#x00E5;r stille, overv&#x00E6;ldet).</stage>
+<p/>
+</sp>
+<sp>
+<speaker>LILI</speaker>
+<stage>(vender sig pludselig om og omklamrer hans f&#x00F8;dder).</stage>
+<p>&#x00C5; nei &#x2026; Tilgi mig! Tilgi mig!</p>
+<stage>(Klart og roligt, idet hun retter sig op).</stage>
+<p><hi rend="italic">Har</hi> du tilgit mig?</p>
+</sp>
+<sp>
+<speaker>ODD</speaker>
+<stage>(halvt i tanker, med en sorgfuld ro).</stage>
+<p>Jeg var s&#x00E5; glad. Jeg syntes, jeg s&#x00E5; det for mig.</p>
+</sp>
+<sp>
+<speaker>LILI</speaker>
+<stage>(krampagtig ildfuld).</stage>
+<p>&#x00C5; du m&#x00E5; ikke tro, at jeg ikke har h&#x00F8;rt det altsammen, det om de elektriske stjernerne, det om &#x2026; om &#x2026;</p>
+</sp>
+<sp>
+<speaker>ODD</speaker>
+<stage>(synker ned p&#x00E5; sofaen).</stage>
+<p>&#x2026; s&#x00E5;snart jeg tar i en flaske &#x2026; i en retorte &#x2026;</p>
+</sp>
+<stage>(<hi rend="bold">Lili</hi> gj&#x00F8;r en bev&#x00E6;gelse af fortvilelse, st&#x00E5;r derp&#x00E5; op og lister sig som skamfuld over til arbeidsbordet, ser p&#x00E5; det, som koger. Hun lister sig tilbage, st&#x00E5;r foran ham).</stage>
+<sp>
+<speaker>LILI</speaker>
+<stage>(sagte og r&#x00E6;d).</stage>
+<p>Doktor!</p>
+<stage>(Han r&#x00F8;rer sig ikke).</stage>
+<p>Doktor! &#x2013; Du m&#x00E5; vist komme.</p>
+</sp>
+<stage>(<hi rend="bold">Odd</hi> springer op, tar sig til tindingerne, g&#x00E5;r tilbage til arbeidet).</stage> <stage>(I den pause, som p&#x00E5;f&#x00F8;lger, ringer det. <hi rend="italic">Lili</hi> g&#x00E5;r ud. En damestemme h&#x00F8;res. S&#x00E5; kommer <hi rend="italic">Borghild</hi> og <hi rend="bold">Lili</hi>).</stage>
+<sp>
+<speaker>ODD.</speaker>
+<p>Borghild! Du her!</p>
+</sp>
+<sp>
+<speaker>BORGHILD.</speaker>
+<p>Ja! Jeg er kommet.</p>
+</sp>
+<sp>
+<speaker>ODD.</speaker>
+<p>Kommet! Du er kommet!</p>
+</sp>
+<sp>
+<speaker>BORGHILD.</speaker>
+<p>Ja. Som du ser.</p>
+</sp>
+<sp>
+<speaker>ODD</speaker>
+<stage>(str&#x00E6;kker h&#x00E5;nden ud mod hende, men hun viger tilbage. I anden tone).</stage>
+<p>Hvad vil du mig?</p>
+</sp>
+<sp>
+<speaker>BORGHILD</speaker>
+<stage>(uden at svare p&#x00E5; sp&#x00F8;rsm&#x00E5;let).</stage>
+<p>Denne pi &#x2026; denne dame &#x2026;?</p>
+</sp>
+<stage>(<hi rend="bold">Odd</hi> vil svare, men <hi rend="bold">Lili</hi>, som har holdt sig fjernt, kommer til).</stage>
+<sp>
+<speaker>LILI.</speaker>
+<p>Kald mig bare pige &#x2026; Jeg <hi rend="italic">er</hi> ikke andet jeg.</p>
+<p>&#x2013; &#x00C5; la mig f&#x00E5; se p&#x00E5; Dem!</p>
+<stage>(Hun st&#x00E5;r foran <hi rend="bold">Borghild</hi> og folder h&#x00E6;nderne.</stage>
+<p>Hvor De er vakker! De er vakker som solen!</p>
+<p>Dem er det alts&#x00E5; &#x2026; han &#x2026;</p>
+</sp>
+<stage>(Hun kaster sig p&#x00E5; kn&#x00E6;, kysser Borghilds kjolepliss&#x00E9;, springer derp&#x00E5; hurtig ud, med den ene h&#x00E5;nd over &#x00F8;inene).</stage>
+<sp>
+<speaker>ODD.</speaker>
+<p>Min amanuensis.</p>
+<p>Hvad vil du mig?</p>
+</sp>
+<sp>
+<speaker>BORGHILD.</speaker>
+<p>Ser du mig?</p>
+</sp>
+<sp>
+<speaker>ODD.</speaker>
+<p>Jeg ser dig.</p>
+</sp>
+<sp>
+<speaker>BORHILD.</speaker>
+<p>Husker du, at du har kysset mig?</p>
+</sp>
+<sp>
+<speaker>ODD</speaker>
+<stage>(med eftertryk).</stage>
+<p>Jeg husker det.</p>
+</sp>
+<sp>
+<speaker>BORGHILD.</speaker>
+<p>Husker du alt det du sa mig?</p>
+</sp>
+<sp>
+<speaker>ODD.</speaker>
+<p>H&#x00F8;r mig, Borghild! &#x2026;</p>
+</sp>
+<sp>
+<speaker>BORGHILD.</speaker>
+<p>Mine l&#x00E6;ber l&#x00E6;nges efter kys.</p>
+<p>Mit bryst l&#x00E6;nges efter at die b&#x00F8;rn.</p>
+<p>Nat kommer og nat g&#x00E5;r &#x2026;</p>
+</sp>
+<sp>
+<speaker>ODD</speaker>
+<stage>(g&#x00E5;r hende i m&#x00F8;de med udbredte arme).</stage>
+<p/>
+</sp>
+<sp>
+<speaker>BORGHILD</speaker>
+<stage>(r&#x00E6;kker h&#x00E5;nden op).</stage>
+<p>R&#x00F8;r mig ikke!</p>
+<stage>(sterkt).</stage>
+<p>Du har slukket livslyset ud for mig!</p>
+</sp>
+<sp>
+<speaker>ODD</speaker>
+<stage>(tar den r&#x00F8;de flaske, h&#x00E6;ver den h&#x00F8;it, h&#x00F8;itidelig):</stage>
+<p>Her, Borghild, er det livslys, du t&#x00E6;ndte!</p>
+</sp>
+<stage>(<hi rend="bold">Borghild</hi> str&#x00E6;kker armen ud, <hi rend="bold">Odd</hi> r&#x00E6;kker hende instinktm&#x00E6;ssig flasken. <hi rend="bold">Borghild</hi> tar den, lar lyset spille i den, h&#x00E6;ver den h&#x00F8;it op, slynger den i vandbassinet, som st&#x00E5;r n&#x00E6;r).</stage> <sp>
+<speaker>ODD</speaker>
+<stage>(rasende).</stage>
+<p>G&#x00E5;!</p>
+</sp>
+<sp>
+<speaker>BORGHILD</speaker>
+<stage>(st&#x00E5;r).</stage>
+<p/>
+</sp>
+<sp>
+<speaker>ODD.</speaker>
+<p>Jeg hader dig! &#x2026; Jeg hader dit bryst! &#x2026; Jeg hader dine &#x00F8;ine! &#x2026; Jeg hader dit h&#x00E5;r! &#x2026;</p>
+<p>G&#x00E5;!</p>
+</sp>
+<sp>
+<speaker>BORGHILD</speaker>
+<stage>(ur&#x00F8;rlig, langsomt, med eftertryk p&#x00E5; hvert ord):</stage>
+<p>N&#x00E5;r Borghild blir dit livslys, s&#x00E5; send bud!</p>
+</sp>
+<stage>(Teppe).</stage>
+</div>
+<div type="chapter" subtype="act" n="3">
+<head type="main">III</head>
+<stage>(Fattigere v&#x00E6;relse. Bord med flasker l&#x00E6;ngst tilh&#x00F8;ire, et andet midt i v&#x00E6;relset med andre ting, kopper, toiletsager o. s. v. <hi rend="bold">Lili</hi> ligger i en seng tilvenstre, hovedgj&#x00E6;rdet mod baggrunden. <hi rend="bold">Odd</hi> sidder p&#x00E5; en stol ved siden. Vinduet er tilh&#x00F8;ire).</stage>
+<sp>
+<speaker>LILI.</speaker>
+<p>&#x00C5; flyt lampen hen p&#x00E5; det andre bordet.</p>
+<stage>(Han flytter lampen fra bordet midt i v&#x00E6;relset over til arbeidsbordet. Hun r&#x00E6;kker den venstre h&#x00E5;nd ud, mens hun venter, og f&#x00F8;lger lampen med &#x00F8;inene. Han tar hendes h&#x00E5;nd, da han er f&#x00E6;rdig).</stage>
+<p>&#x00C5;-h!</p>
+<stage>(Hun s&#x00E6;tter begge h&#x00E6;nder foran &#x00F8;inene, tar dem atter bort, reiser sig og ser i lyset. Med angst):</stage>
+<p>Det er der endnu!</p>
+</sp>
+<sp>
+<speaker>ODD.</speaker>
+<p>Hvad er det du ser?</p>
+</sp>
+<sp>
+<speaker>LILI.</speaker>
+<p>Det stirrer p&#x00E5; mig! S&#x00E6;t noget foran!</p>
+<stage>(Han s&#x00E6;tter noget foran. Hun vender sig mod v&#x00E6;ggen. Liden pause. Hun vender sig atter mod lyset).</stage>
+<p>&#x00C5; la mig f&#x00E5; se lyset! &#x2026; Ta bort det som st&#x00E5;r foran!</p>
+<stage>(Han gj&#x00F8;r s&#x00E5;).</stage>
+<p>Det er det samme som jeg s&#x00E5; inat. Da du sov. Det samme &#x00F8;iet. Du m&#x00E5; ikke sove inat!</p>
+<stage>(Hun griber hans h&#x00E5;nd).</stage>
+<p>Vil du love mig, at du ikke skal sove!</p>
+<stage>(Hun vender sig mod v&#x00E6;ggen, vender sig s&#x00E5; hurtig om igjen og stirrer &#x00E6;ngstelig ind i lyset. S&#x00E5;ledes g&#x00E5;r en stund. S&#x00E5; vender hun sig atter mod v&#x00E6;ggen. Imens sl&#x00E5;r det ti slag i et kirket&#x00E5;rn langt borte, hun n&#x00E6;vner op slagene, eftersom de kommer).</stage>
+<p>En &#x2013; to &#x2013; tre &#x2013; fire &#x2013; fem &#x2013; seks &#x2013; syv otte &#x2013; ni &#x2013; ti.</p>
+<p>Stakkars klokken &#x2026; som h&#x00E6;nger deroppe i m&#x00F8;rket &#x2026; Jeg ser den &#x2026; Huf, det er s&#x00E5; m&#x00F8;rkt &#x2026; Vinden hyler i bjelkerne &#x2026; H&#x00F8;rer du?</p>
+</sp>
+<stage>(Hun l&#x00F8;fter sig op).</stage>
+<sp>
+<speaker>ODD.</speaker>
+<p>Hvad er det?</p>
+</sp>
+<sp>
+<speaker>LILI.</speaker>
+<p>H&#x00F8;rer du ikke?</p>
+</sp>
+<sp>
+<speaker>ODD.</speaker>
+<p>Jeg h&#x00F8;rer ingenting.</p>
+</sp>
+<sp>
+<speaker>LILI.</speaker>
+<p>De g&#x00E5;r.</p>
+</sp>
+<sp>
+<speaker>ODD.</speaker>
+<p>Hvem g&#x00E5;r?</p>
+</sp>
+<sp>
+<speaker>LILI.</speaker>
+<p>Alle. Alle.</p>
+</sp>
+<sp>
+<speaker>ODD.</speaker>
+<p>Hvem?</p>
+</sp>
+<sp>
+<speaker>LILI.</speaker>
+<p>Alle p&#x00E5; hele jorden &#x2026; P&#x00E5; gaden &#x2026; P&#x00E5; torvet &#x2026;</p>
+<stage>(Hun reiser sig op og ser <hi rend="bold">Odd</hi> forunderlig og sygt ind i &#x00F8;inene).</stage>
+<p>Hvor er vi nu? Hvor er jorden nu? Hvor er det vi reiser, du? &#x2026; Svar!</p>
+</sp>
+<sp>
+<speaker>ODD.</speaker>
+<p>Jeg ved det ikke.</p>
+</sp>
+<sp>
+<speaker>LILI</speaker>
+<stage>(skriger).</stage>
+<p>Ved du det ikke?</p>
+<stage>(Hun holder for &#x00F8;inene og hulker).</stage>
+<p>&#x00C5; gud jeg ved ikke hvor jeg er! Og Odd ved det heller ikke! Hvad skal jeg gj&#x00F8;re?</p>
+<stage>(Hun l&#x00E6;gger sig ned, lidt efter reiser hun sig og siger urolig):</stage>
+<p>De skriger.</p>
+</sp>
+<sp>
+<speaker>ODD.</speaker>
+<p>Hvem?</p>
+</sp>
+<sp>
+<speaker>LILI.</speaker>
+<p>De r&#x00F8;de dr&#x00E5;berne.</p>
+<p>&#x2013; Kan du huske alle kveldene. Da vi fandt dem.</p>
+<p>En gang v&#x00E5;gned jeg midt p&#x00E5; natten. Klokken to. Jeg syntes, der var noget stort, som h&#x00E6;ndte i verden. Jeg kunde ikke sove. Jeg kl&#x00E6;dte p&#x00E5; mig. Jeg gik ind i laboratoriet.</p>
+<p>Du var oppe. Kan du huske det? Du var d&#x00F8;dsenstr&#x00E6;t. Men &#x00F8;inene dine str&#x00E5;lte. Du havde fundet x. Men <hi rend="italic">jeg</hi> laved det til. Jeg vasked glassene. Du sa hvad jeg skulde ta af. Jeg veied det altsammen p&#x00E5; den lille vegten.</p>
+<p>&#x2013; Jeg synes du gr&#x00E5;ter &#x2026; Flyt dig n&#x00E6;rmere &#x2026; Endnu n&#x00E6;rmere &#x2026; Gi mig dine h&#x00E6;nder.<stage>(Hun tar dem).</stage></p>
+<p><stage>(Mat).</stage> Jeg &#x2026; blir &#x2026; s&#x00E5; &#x2026; tr&#x00E6;t.</p>
+</sp>
+<stage>(Hun synker tilbage p&#x00E5; puden).</stage>
+<sp>
+<speaker>ODD</speaker>
+<stage>(efter en liten pause, meget bl&#x00F8;dt).</stage>
+<p>Lili!</p>
+</sp>
+<sp>
+<speaker>LILI</speaker>
+<stage>(mat).</stage>
+<p>Jeg &#x2026; syntes &#x2026; der &#x2026; var nogen &#x2026; langt ude &#x2026; som talte &#x2026;</p>
+</sp>
+<sp>
+<speaker>ODD</speaker>
+<stage>(h&#x00F8;iere).</stage>
+<p>Det var mig.</p>
+</sp>
+<sp>
+<speaker>LILI</speaker>
+<stage>(besv&#x00E6;rlig).</stage>
+<p>Var det dig doktor &#x2026; som talte. Du sa vist &#x2026; Lili.</p>
+</sp>
+<sp>
+<speaker>ODD.</speaker>
+<p>Ja.</p>
+</sp>
+<sp>
+<speaker>LILI</speaker>
+<stage>(besv&#x00E6;rlig).</stage>
+<p>Vilde du sige noget til mig, doktor?</p>
+</sp>
+<sp>
+<speaker>ODD.</speaker>
+<p>Ja.</p>
+</sp>
+<sp>
+<speaker>LILI.</speaker>
+<p>Du kan godt sige det. Jeg h&#x00F8;rer.</p>
+</sp>
+<sp>
+<speaker>ODD</speaker>
+<stage>(langsomt).</stage>
+<p>Ogs&#x00E5; jeg er tr&#x00E6;t, Lili.</p>
+</sp>
+<sp>
+<speaker>LILI</speaker>
+<stage>(l&#x00F8;fter hodet lidt, ser p&#x00E5; ham, med klart, men sp&#x00F8;rgende blik. Da han tier):</stage>
+<p>Si det engang til.</p>
+</sp>
+<sp>
+<speaker>ODD.</speaker>
+<p>Ogs&#x00E5; jeg er tr&#x00E6;t.</p>
+<p>Jaget &#x2026; Forbandet! &#x2026;</p>
+</sp>
+<stage>(<hi rend="bold">Lili</hi> har med m&#x00F8;ie reist sig og stirrer alvorlig mod ham).</stage>
+<sp>
+<speaker>LILI.</speaker>
+<p>Doktor! &#x2026; L&#x00F8;ft mig op!</p>
+</sp>
+<sp>
+<speaker>ODD.</speaker>
+<p>Hvad vil du?</p>
+</sp>
+<sp>
+<speaker>LILI.</speaker>
+<p>L&#x00F8;ft mig ud af sengen!</p>
+</sp>
+<sp>
+<speaker>ODD.</speaker>
+<p>Du er for mat, kj&#x00E6;re Lili.</p>
+</sp>
+<sp>
+<speaker>LILI.</speaker>
+<p>L&#x00F8;ft mig! Jeg <hi rend="italic">vil</hi> det.</p>
+<stage>(Hun str&#x00E6;kker armene ud. <hi rend="bold">Odd</hi> tar hende i sine arme).</stage>
+<p>B&#x00E6;r mig til vinduet!</p>
+</sp>
+<sp>
+<speaker>ODD.</speaker>
+<p>Det tr&#x00E6;kker. Du t&#x00E5;ler det ikke.</p>
+</sp>
+<sp>
+<speaker>LILI.</speaker>
+<p>Jeg vil.</p>
+<stage>(<hi rend="bold">Odd</hi> b&#x00E6;rer hende til vinduet).</stage>
+<p>Rul op gardinet!</p>
+<stage>(Han ruller op. Man ser stjernehimmelen).</stage>
+<p>Du viste mig dem.</p>
+<p>Se, der er Orion.</p>
+<p>Uh &#x2026; det er s&#x00E5; koldt deroppe. Men str&#x00E5;lende lyst er det.</p>
+<stage>(I stigning).</stage>
+<p>Odd! Det er ikke nok at samle op solen, du m&#x00E5; samle op stjernerne ogs&#x00E5;!</p>
+<stage>(Liden pause).</stage>
+<p>Odd! Jeg kommer til at fryse i graven, hvis du ikke &#x2026;</p>
+</sp>
+<sp>
+<speaker>ODD.</speaker>
+<p>Nu m&#x00E5; vi g&#x00E5; tilbage.</p>
+</sp>
+<sp>
+<speaker>LILI</speaker>
+<stage>(mat).</stage>
+<p>Men rul &#x2026; ikke &#x2026; gardinet &#x2026; ned &#x2026; igjen.</p>
+<p>&#x2013; Jeg fryser.</p>
+<stage>(Midt p&#x00E5; gulvet stanser <hi rend="bold">Odd</hi> og kysser hendes pande).</stage> <stage>(Da han har lagt hende i sengen, str&#x00E6;kker hun h&#x00E6;nderne op og siger i extase):</stage>
+<p>Han kyssede mig!</p>
+<stage>(Hun synker d&#x00F8;ende tilbage, hviskende):</stage>
+<p>Doktoren &#x2026; kyssede &#x2026;</p>
+</sp>
+<stage>(En stund sidder <hi rend="bold">Odd</hi> og ser p&#x00E5; hende, &#x2013; p&#x00E5; vinduet med stjernehimlen, &#x2013; og ud for sig. S&#x00E5; falder teppet).</stage>
+</div>
+<div type="chapter" subtype="act" n="4">
+<head type="main">IV</head>
+<stage>(Folkefest. Lidt skr&#x00E5;nende plads i parken, hvor den holdes, omgivet af b&#x00F8;ge. Hvor det er &#x00E5;bent mod baggrunden, skimtes langt ude blank sj&#x00F8;. Solen er ved at g&#x00E5; ned, som en stor gl&#x00F8;dende kugle. I forgrunden er et par bybud if&#x00E6;rd med at oph&#x00E6;nge kul&#x00F8;rte lamper).</stage> <stage>(Fra h&#x00F8;ire h&#x00F8;res)</stage>
+<sp>
+<speaker>UNGE STEMMER.</speaker>
+<p>V&#x00E6;ve va&#x0027;mel, sl&#x00E5; tilsammen o. s. v.</p>
+</sp>
+<sp>
+<speaker>APOTHEKER BERG</speaker>
+<stage>(kommer langsomt ind fra venstre side i baggrunden. H&#x00E6;nderne p&#x00E5; ryggen. Han stanser p&#x00E5; skr&#x00E6;nten foran sj&#x00F8;en. Han tar hatten af. Sangen d&#x00F8;r hen).</stage>
+<p>Du store sol!</p>
+<p>Tilgiv mig. Et helt liv, og du var der, og du gik som verdens skj&#x00F8;nneste brillant hver aften ned derude, og jeg s&#x00E5; dig ikke.</p>
+</sp>
+<sp>
+<speaker>DANIEL</speaker>
+<stage>(som er halt, til <hi rend="bold">Nils)</hi>.</stage>
+<p>Jamen tror jeg ikke, han er begyndt at g&#x00E5; i barndommen nu, gamle Berg.</p>
+</sp>
+<sp>
+<speaker>BERG</speaker>
+<stage>(vender sig mod forgrunden, l&#x00F8;fter hodet og &#x00E5;nder ind).</stage>
+<p>&#x2013; Det er somom jeg har sovet i sytti &#x00E5;r. Dette er aften, og det er mig, som var det min f&#x00F8;rste morgen.</p>
+<p>&#x2026; Duft! Jordens sj&#x00E6;l!</p>
+<stage>(G&#x00E5;r et par skridt).</stage>
+<p>Ja, s&#x00E5; er det &#x2026; S&#x00E5; er det &#x2026;</p>
+<stage>(Han g&#x00E5;r atter nogle skridt fremover, r&#x00E6;kker h&#x00E5;nden op og plukker et blad fra et tr&#x00E6;, stanser, ser p&#x00E5; det, holder det mod luften).</stage>
+<p>Ogs&#x00E5; et stykke liv. Ogs&#x00E5; gjennem dette rinder saften, saften, som str&#x00F8;mmer gjennem alt, der lever.</p>
+<stage>(Citerende).</stage>
+<p>&#x00AB;Livet er musik, men menneskene har glemt at h&#x00F8;re den.&#x00BB;</p>
+<stage>(Idet han g&#x00E5;r videre).</stage>
+<p>Glemt at h&#x00F8;re den, ja.</p>
+<stage>(Han ser nu de to m&#x00E6;nd. Idet han n&#x00E6;rmer sig dem):</stage>
+<p>Godkveld, Daniel! En deilig kveld!</p>
+</sp>
+<sp>
+<speaker>DANIEL</speaker>
+<stage>(i sn&#x00F8;rklet bogsprog).</stage>
+<p>Prima, herr apotheker, prima. Som digteren siger: Som purpur at skue, som r&#x00F8;den guld.</p>
+</sp>
+<sp>
+<speaker>BERG.</speaker>
+<p>Du beholder hum&#x00F8;ret, du, Daniel! Har du aldrig t&#x00E6;nkt p&#x00E5;, at du &#x2026; s&#x00E5;dan &#x2026; begynder at bli gammel &#x2026; at enden n&#x00E6;rmer sig.</p>
+</sp>
+<sp>
+<speaker>DANIEL</speaker>
+<stage>(stadig halvt dialekt, halvt bogsprog).</stage>
+<p>Jomen t&#x00E6;nker han nok p&#x00E5; det aven og tel.</p>
+</sp>
+<sp>
+<speaker>BERG.</speaker>
+<p>En forf&#x00E6;rdelig tanke! Ikke sandt?</p>
+</sp>
+<sp>
+<speaker>DANIEL.</speaker>
+<p>&#x00C5;, jeg synes n&#x00E5; ikke, den er s&#x00E5; forf&#x00E6;rendes, <hi rend="italic">jeg</hi> da, herr apotheker.</p>
+</sp>
+<sp>
+<speaker>BERG.</speaker>
+<p>Du synes <hi rend="italic">ikke</hi>, den er forf&#x00E6;rdelig?</p>
+</sp>
+<sp>
+<speaker>DANIEL.</speaker>
+<p>Jeg skal sige Dem det, herr apotheker, at fattigmand kan nok au ha lyst til og s&#x00E5; pr&#x00F8;ve staskl&#x00E6;rne. Og f&#x00E5;r han dem ikke f&#x00F8;r, s&#x00E5; f&#x00E5;r han dem ialfald i ligstua.</p>
+</sp>
+<sp>
+<speaker>NILS.</speaker>
+<p>Huf, det var da f&#x00E6;lt, som du snakker lel!</p>
+</sp>
+<sp>
+<speaker>DANIEL.</speaker>
+<p>Ti bare stille, du Nils! Jeg har havt tid og stunder til at gj&#x00F8;ra mine obsalvationer over livsens gang, jeg.</p>
+ <p>Og du vil vel ikke negta for det, du Nils, at simpelmand han har sin skj&#x00F8;nhedssans, om jeg s&#x00E5; m&#x00E5;tte sige, han ogs&#x00E5;.</p>
+<p>Har ikke du som jeg mangen gang st&#x00E5;t foran et af de fine vinduerne indi byen og t&#x00E6;nkt som s&#x00E5;: De kl&#x00E6;rne kunde nok jeg ha lyst at b&#x00E6;ra au. Den flossehatten kunde det nok v&#x00E6;ra morosamt at ha p&#x00E5; hue.</p>
+<p>Og hvorfor skulde du ikke ha ret til og s&#x00E5; b&#x00E6;ra den? Du har jo en ud&#x00F8;delig sj&#x00E6;l, du au, Nils. Har du ikke det kanske?</p>
+</sp>
+<sp>
+<speaker>NILS.</speaker>
+<p>Jo, jeg trur nok det, atte jeg &#x2026;</p>
+</sp>
+<sp>
+<speaker>DANIEL.</speaker>
+<p>Ja, se nu ber jeg dig at f&#x00F8;lga n&#x00F8;ie med i min tankegang, Nils. For nu kommer en af mine obsalvationer, som ikke er s&#x00E5; ganske til at l&#x00F8;be p&#x00E5;. Til apothekeren beh&#x00F8;ver jeg ikke at sige noget.</p>
+<p>Om du kunde si dig r&#x00E5;d til at eiga den flossehatten, Nils, vilde du s&#x00E5;?</p>
+</sp>
+<sp>
+<speaker>NILS.</speaker>
+<p>Ja, &#x2013; jeg vet ikke jeg, &#x2013; jeg trur nok, atte &#x2026;</p>
+</sp>
+<sp>
+<speaker>DANIEL</speaker>
+<stage>(afbrydende).</stage>
+<p>&#x00C5;, du er en tosk, er du. Vist vilde du inte, nei.</p>
+<stage>(Med stolthed over sin logik).</stage>
+<p>For fattigmand, han kl&#x00E6;r inte s&#x00E5;ne kl&#x00E6;r, han.</p>
+<p>Har jeg ret, herr apotheker?</p>
+</sp>
+<sp>
+<speaker>BERG.</speaker>
+<p>Sandelig en seig N&#x00F8;d at kn&#x00E6;kke, Daniel.</p>
+</sp>
+<sp>
+<speaker>DANIEL</speaker>
+<stage>(der tar det som en kompliment stolt).</stage>
+<p>&#x00C5; ja, n&#x00E5;r han bruger de &#x00F8;ine og det vesle vettet, Vorherre gav ham, s&#x00E5; kan han, som sagt er, gj&#x00F8;ra sine obsalvationer.</p>
+<p>Og derfor s&#x00E5; har jeg nu gjort mig mi tru jeg, Nils, som atte du ikke skal le af. Og ikke skal du tru, at jeg er s&#x00E5; sturen, som det kunde tykkes af hvad jeg sa for en stund siden.</p>
+<stage>(Hemmelighedsfuldt).</stage>
+<p>Jeg skal sige det, at jeg har lagt m&#x00E6;rke til, at al ting g&#x00E5;r op og ner her i verden, b&#x00E5;de det som levendes er, og det som daudt er. G&#x00E5;r ikke havet op og ner i b&#x00F8;lje og br&#x00E5;t, g&#x00E5;r ikke sol og m&#x00E5;ne op og ner? Og ser vi det ikke for os hver eneste dag, hvorlessen at altingen g&#x00E5;r op og ner i en cerkel, om jeg s&#x00E5; m&#x00E5;tte sige. Idag p&#x00E5; klubben, imorra p&#x00E5; stalten. Idag champani, imorra laddevin.</p>
+<p>Du forst&#x00E5;r, Nils? De forst&#x00E5;r, herr apotheker?</p>
+<p>Engang vil turen komma til dig og mig ogs&#x00E5;, Nils, at v&#x00E6;ra oppe.</p>
+<p>&#x2013; &#x2013; Men nu f&#x00E5;r vi nok hasta ivei med lamperne, vi, Nils. Han b&#x00F8;rjer alt at sm&#x00F8;rra lidt svart p&#x00E5;.</p>
+<p>Men s&#x00E5; sandelig har jeg ikke st&#x00E5;t og snakka, s&#x00E5; jeg har gl&#x00F8;mt at gratulere herr apothekeren p&#x00E5; denne gl&#x00E6;dens dag.</p>
+</sp>
+<sp>
+<speaker>BERG.</speaker>
+<p>Gratulere mig? Hvorfor?</p>
+</sp>
+<sp>
+<speaker>DANIEL.</speaker>
+<p>Ja det vet apothekeren bedre end mig.</p>
+</sp>
+<sp>
+<speaker>BERG.</speaker>
+<p>Nei, sandelig om jeg ved, Daniel. Jeg har levet s&#x00E5; udenfor verden i den senere tid.</p>
+</sp>
+<sp>
+<speaker>DANIEL.</speaker>
+<p>Apothekeren skulde ikke vide, at der er fest for hans egen s&#x00F8;n, folkefest over hele linjen san, med b&#x00E5;de fyrverkeri og musik san, med b&#x00E5;de basun og dustromma og triangel.</p>
+</sp>
+<sp>
+<speaker>BERG.</speaker>
+<p>For min s&#x00F8;n, siger du?</p>
+</sp>
+<sp>
+<speaker>DANIEL.</speaker>
+<p>Ja just ja, dokteren.</p>
+</sp>
+<sp>
+<speaker>BERG.</speaker>
+<p>For Odd? &#x2026; Er der da nogen speciel anledning?</p>
+</sp>
+<sp>
+<speaker>DANIEL.</speaker>
+<p>Jeg skulde tru, der er anledning.</p>
+<p><stage>(Deklamerende).</stage> Verdensudstillingens f&#x00F8;rste pris for fabriken!</p>
+<p>Jeg har sjelv set dukaten, herr apotheker! Det var s&#x00E5;gu ingen ti&#x00F8;ring det san! Det bandte han p&#x00E5;.</p>
+</sp>
+<sp>
+<speaker>BERG</speaker>
+<stage>(der er faldt i dybe grublerier, br&#x00E5;t).</stage>
+<p>Farvel!</p>
+</sp>
+<stage>(G&#x00E5;r ud samme vei, som han kom).</stage> <stage>(Under de f&#x00F8;lgende repliker h&#x00F8;res atter sangen fra h&#x00F8;ire).</stage>
+<sp>
+<speaker>DANIEL</speaker>
+<stage>(under arbeidet, fuld dialekt).</stage>
+<p>Snodig mand, den apothekeren. Der er dem, som siger, at han vet mer, end folk har godt af at vide. Og hvis det er sandt, som at Lars fort&#x00E6;ller, s&#x00E5; &#x2026; kan en tru noget af hvert &#x2026; Og jeg trur nu ikke, at han Lars lyger, s&#x00E5;vidt jeg kjender til ham, da.</p>
+</sp>
+<sp>
+<speaker>NILS.</speaker>
+<p>Hvad fortalte han Lars?</p>
+</sp>
+<sp>
+<speaker>DANIEL.</speaker>
+<p>Det var en nat, da han venta p&#x00E5; Englandsb&#x00E5;den. Klokka tre kom han forbi apotheket. Da s&#x00E5;g han, atte det lyste p&#x00E5; bagsida af huset. Han sprang over gj&#x00E6;rdet og kikka ind. Og hva trur du han s&#x00E5;g? Apothekeren i skjorta og underbukser, som st&#x00E5;r og koger og braser som til bryllups.</p>
+</sp>
+<sp>
+<speaker>NILS</speaker>
+<stage>(interesseret).</stage>
+<p>Nei, men gubevare mig, er det sandt da, Nils?</p>
+</sp>
+<sp>
+<speaker>DANIEL.</speaker>
+<p>Har du nogengang m&#x00E6;rka, at jeg for med usandhed?</p>
+<p>Ei kj&#x00E6;rring med en diger hale stod der atmed.</p>
+</sp>
+<sp>
+<speaker>NILS</speaker>
+<stage>(ivrig).</stage>
+<p>Ei troldkj&#x00E6;rring?</p>
+</sp>
+<sp>
+<speaker>DANIEL.</speaker>
+<p>M&#x00E5;tte vel v&#x00E6;ra det da.</p>
+<p>&#x2013; Men, hvorlessen det n&#x00E5; er, og hvad de n&#x00E5; siger, s&#x00E5; har jeg n&#x00E5; funni, jeg for min del, at apothekeren er en t&#x00E6;nkendes person, som en kan snakka med om dybere ting ogs&#x00E5;. Han sejer ikke mye, det <hi rend="italic">gj&#x00F8;r</hi> han ikke, men en ser p&#x00E5; ham, at opfattelsen, den <hi rend="italic">har</hi> han.</p>
+<stage>Under den sidste replik er begyndt at komme fra h&#x00F8;ire ganske unge m&#x00E6;nd og kvinder i legen: &#x00AB;V&#x00E6;ve vadmel&#x00BB;. Kvinderne er mest lyskl&#x00E6;dte, mange af dem har gr&#x00F8;nt og kranse i h&#x00E5;ret, flere har fletter nedover ryggen. De leger og synger:</stage>
+<l>V&#x00E6;ve va&#x0027;mel, sl&#x00E5; tilsammen, la s&#x00E5; skyttelen l&#x00F8;be. S&#x00E5; v&#x00E6;ve vi Va&#x0027;mel, s&#x00E5; sl&#x00E5; vi tilsammen, v&#x00E6;ve va&#x0027;mel, sl&#x00E5; tilsammen, la s&#x00E5; skyttelen l&#x00F8;be.</l>
+</sp>
+<stage>(Under dette)</stage>
+<sp>
+<speaker>DIREKT&#x00D8;R HANSEN</speaker>
+<stage>(kommer hurtig fra h&#x00F8;ire og g&#x00E5;r ud til venstre, er i galladragt med festkomit&#x00E9;b&#x00E5;nd).</stage>
+<p>I f&#x00E5;r t&#x00E6;nde lamperne nu, Daniel. De er t&#x00E6;ndt overalt ellers.</p>
+</sp>
+<sp>
+<speaker>DANIEL.</speaker>
+<p>Skal ske, herr direkt&#x00F8;r!</p>
+</sp>
+<stage>(De t&#x00E6;nder lamperne).</stage> <sp>
+<speaker>DANIEL</speaker>
+<stage>(da de er f&#x00E6;rdige).</stage>
+<p>Ja, nu kan vi nok g&#x00E5; vi, Nils. For nu er nok voreses deltagelse i festen slut, den.</p>
+</sp>
+<stage>(De g&#x00E5;r ud i forgrunden til venstre).</stage>
+<sp>
+<speaker>ODD OG BORGHILD</speaker>
+<stage>(kommer arm i arm).</stage>
+<p/>
+</sp>
+<sp>
+<speaker>ODD.</speaker>
+<p>En vidunderlig kveld!</p>
+<p>&#x2013; Endnu er det r&#x00F8;dt derude. Lad os g&#x00E5; hen p&#x00E5; skr&#x00E6;nten.</p>
+</sp>
+<stage>(De legende slutter legen, stikker hoderne sammen, hvisker og g&#x00E5;r s&#x00E5; i klynger ud tilvenstre).</stage> <stage>(<hi rend="bold">Odd</hi> og <hi rend="bold">Borghild</hi> er g&#x00E5;t hen p&#x00E5; skr&#x00E6;nten og st&#x00E5;r og ser udover sj&#x00F8;en).</stage> <stage>(Den f&#x00F8;lgende samtale mellem <hi rend="bold">Odd</hi> og <hi rend="bold">Borghild</hi> hen&#x00E5;ndes meget langsomt og dv&#x00E6;lende).</stage>
+<sp>
+<speaker>ODD.</speaker>
+<p>Det er som selve vinden i rummet og duften fra tr&#x00E6;rne tar mit bryst og l&#x00F8;fter det, og gj&#x00F8;r det h&#x00F8;iere end f&#x00F8;r.</p>
+</sp>
+<sp>
+<speaker>BORGHILD.</speaker>
+<p>Er du nu glad, Odd?</p>
+</sp>
+<sp>
+<speaker>ODD.</speaker>
+<p>Ja, jeg er glad.</p>
+<stage>(Han vender sig mod hende).</stage>
+<p>Hvor du er vakker! &#x2026; Og en deilig r&#x00F8;d kjole har du p&#x00E5; iaften &#x2026; som sidder s&#x00E5; godt &#x2026; Dit bryst st&#x00E5;r h&#x00F8;it, h&#x00F8;it mod luften &#x2026; &#x00C5;, det er mange gange, Borghild, som at du er mer end et menneske!</p>
+</sp>
+<sp>
+<speaker>BORGHILD</speaker>
+<stage>(bl&#x00F8;dt for sig selv).</stage>
+<p>Jeg vidste, det vilde komme.</p>
+</sp>
+<sp>
+<speaker>ODD.</speaker>
+<p>Hvad siger du, Borghild?</p>
+</sp>
+<sp>
+<speaker>BORGHILD</speaker>
+<stage>(bl&#x00F8;dt).</stage>
+<p>Jeg vidste, at jeg vilde vinde. Jeg vidste, at jeg vilde f&#x00E5; dig tilbage. Helst om n&#x00E6;tterne var jeg vis p&#x00E5; det.</p>
+<stage>(For sig selv med en s&#x00E6;lsom varme).</stage>
+<p>Jeg &#x00F8;nsked det jo!</p>
+<stage>(I pludselig stigning).</stage>
+<p>Og nu, Odd, vil vi leve!</p>
+<p>H&#x00F8;r, hvor de ler! Se alle de kul&#x00F8;rte lamper! Og byen er illumineret! I hvert vindu er der lys og blomster! Alle jubler, og du, du, Odd, er det, som har skabt det!</p>
+</sp>
+<sp>
+<speaker>ODD.</speaker>
+<p>Tror du det?</p>
+</sp>
+<sp>
+<speaker>BORGHILD.</speaker>
+<p>Du, du, Odd, er det!</p>
+</sp>
+<sp>
+<speaker>ODD.</speaker>
+<p>Jeg vidste aldrig, at jorden var s&#x00E5; deilig!</p>
+<p>Jeg synes hele jorden stiger op som en salme imellem os, Borghild.</p>
+ <p>Det, som er derude, det er <hi rend="italic">i</hi> os. Det r&#x00F8;de derude, det er ikke skilt fra mig, det er <hi rend="italic">i</hi> mig.</p>
+<p>Og den store fest i os, den vil vi &#x00F8;se ud igjen. Over menneskene. Over jorden.</p>
+</sp>
+<sp>
+<speaker>BORGHILD.</speaker>
+<p>I hvert hjem i hele byen vil vi skabe h&#x00F8;itid, h&#x00F8;itid hver dag!</p>
+</sp>
+<sp>
+<speaker>ODD.</speaker>
+<p>N&#x00E5;r jeg h&#x00F8;rer dig tale, da er det som jeg ser i en dyb br&#x00F8;nd, s&#x00E5; dyb, at den g&#x00E5;r helt ned til jordens midte, s&#x00E5; hemmelighedsfuld sort.</p>
+</sp>
+<sp>
+<speaker>BORGHILD</speaker>
+<stage>(for sig selv).</stage>
+<p>Hvor livet er vidunderlig stort.</p>
+<stage>(til <hi rend="bold">Odd)</hi>.</stage>
+<p>T&#x00E6;nk du, nu skal hele vort livs dag v&#x00E6;re som denne ene aften!</p>
+</sp>
+<sp>
+<speaker>ODD.</speaker>
+<p>Tror du den vil bli det, Borghild?</p>
+</sp>
+<sp>
+<speaker>BORGHILD.</speaker>
+<p>Den skal!</p>
+<stage>(Med den s&#x00E6;lsomme varme).</stage>
+<p>Jeg vil, at den skal.</p>
+</sp>
+<sp>
+<speaker>ODD</speaker>
+<stage>(for sig selv).</stage>
+<p>Hvor har jeg v&#x00E6;ret?</p>
+</sp>
+<sp>
+<speaker>BORGHILD</speaker>
+<stage>(halvt for sig selv).</stage>
+<p>Atter skal vi g&#x00E5; de gamle ture. Hver kveld &#x2026; Og du skal sige alle de deilige ord &#x2026; Og du skal tale til menneskene, og jeg skal sidde og h&#x00F8;re.</p>
+</sp>
+<sp>
+<speaker>ODD</speaker>
+<stage>(for sig selv).</stage>
+<p>Ja. Det var hjernespind. Selvbedrag. Jeg var bergtagen.</p>
+</sp>
+<sp>
+<speaker>BORGHILD</speaker>
+<stage>(som f&#x00F8;r, bl&#x00F8;dt).</stage>
+<p>Ogs&#x00E5; det store.</p>
+<p>H&#x00F8;rer du, hvad jeg siger, Odd?</p>
+</sp>
+<sp>
+<speaker>ODD.</speaker>
+<p>Ja, jeg h&#x00F8;rer. Jeg glemte, at det var du. Det var som noget varmt i luften kyssed min kind.</p>
+</sp>
+<sp>
+<speaker>BORGHILD.</speaker>
+<p>Forst&#x00E5;r du, hvad jeg mener?</p>
+</sp>
+<sp>
+<speaker>ODD.</speaker>
+<p>Si det igjen.</p>
+</sp>
+<sp>
+<speaker>BORGHILD</speaker>
+<stage>(usigelig bl&#x00F8;dt).</stage>
+<p>Ogs&#x00E5; kommer <hi rend="italic">det</hi> ogs&#x00E5;. Det store.</p>
+<stage>(Da <hi rend="bold">Odd</hi> intet siger).</stage>
+<p>Forst&#x00E5;r du det?</p>
+</sp>
+<sp>
+<speaker>ODD.</speaker>
+<p>Hvad mener du?</p>
+</sp>
+<sp>
+<speaker>BORGHILD</speaker>
+<stage>(stryger sig med h&#x00E5;nden over sit bryst). (<hi rend="italic">Berg</hi> er kommet ind fra h&#x00F8;ire, har stanset en stund, g&#x00E5;r s&#x00E5; hen til dem).</stage>
+<p/>
+</sp>
+<sp>
+<speaker>BERG.</speaker>
+<p>En deilig kveld.</p>
+</sp>
+<sp>
+<speaker>ODD.</speaker>
+<p>Ja, ikke sandt?</p>
+</sp>
+<sp>
+<speaker>BERG.</speaker>
+<p>Og jeg h&#x00F8;rer, at der skal v&#x00E6;re fest &#x2026; for dig n&#x00E6;rmest. Jeg vidste det ikke. Jeg har levet s&#x00E5; fjernt fra alt i det sidste.</p>
+</sp>
+<sp>
+<speaker>BORGHILD.</speaker>
+<p>Og vi vilde ikke si det, vi vilde overraske Dem.</p>
+</sp>
+<sp>
+<speaker>BERG.</speaker>
+<p>Og verdensudstillingens pris har du vundet. For man m&#x00E5; vel sige, at det er <hi rend="italic">du</hi>, som har vundet den.</p>
+</sp>
+<sp>
+<speaker>BORGHILD.</speaker>
+<p>Ja, er De ikke nu glad, Berg? Er De ikke stolt?</p>
+</sp>
+<sp>
+<speaker>BERG.</speaker>
+<p>Jeg er blit for gammel, Borghild.</p>
+<p>&#x2013; Jeg vilde si en ting til <hi rend="italic">dig</hi>, Odd. Jeg har g&#x00E5;t l&#x00E6;nge med den. Men jeg havde s&#x00E5; meget at t&#x00E6;nke over f&#x00F8;rst &#x2026; Du husker, at jeg engang sa sterke ord &#x2026;</p>
+</sp>
+<sp>
+<speaker>ODD.</speaker>
+<p>Du havde vist ret, far.</p>
+</sp>
+<sp>
+<speaker>BERG.</speaker>
+<p>Jeg havde <hi rend="italic">ikke</hi> ret, Odd.</p>
+</sp>
+<sp>
+<speaker>ODD</speaker>
+<stage>(gjentagende).</stage>
+<p>&#x2026; ikke ret &#x2026;?</p>
+</sp>
+<sp>
+<speaker>BERG</speaker>
+<stage>(lidt forvirret).</stage>
+<p>Jeg &#x2026; jeg er &#x2026; kommet &#x2026; til andre &#x2026; resultater.</p>
+<stage>(Pludselig, bestemt og hurtigt).</stage>
+<p>Du havde ret, Odd. Livs-atomerne er i uorden.</p>
+</sp>
+<stage>(Han g&#x00E5;r lige efter disse ord raskt ud tilvenstre).</stage>
+<sp>
+<speaker>ODD.</speaker>
+<p>Livs-atomerne? Hvad mente han?</p>
+</sp>
+<stage>(Han tar sig til panden).</stage>
+<sp>
+<speaker>BORGHILD.</speaker>
+<p>Hvad er det, Odd? Hvad er det, du t&#x00E6;nker p&#x00E5;?</p>
+</sp>
+<sp>
+<speaker>ODD.</speaker>
+<p>Livs-atomerne &#x2026; i uorden &#x2026; Og <hi rend="italic">det</hi> siger <hi rend="italic">han</hi> &#x2026;</p>
+<stage>(Energisk).</stage>
+<p>Jeg m&#x00E5; tale med ham.</p>
+</sp>
+<sp>
+<speaker>BORGHILD.</speaker>
+<p>Kom, Odd! Husk, endnu har vi ikke danset sammen, vi to.</p>
+</sp>
+<sp>
+<speaker>ODD.</speaker>
+<p>Danse? Nu straks?</p>
+</sp>
+<sp>
+<speaker>BORGHILD</speaker>
+<stage>(l&#x00E6;gger sin arm ind i hans).</stage>
+<p>Er ikke min arm noks&#x00E5; myg, Odd?</p>
+</sp>
+<sp>
+<speaker>ODD.</speaker>
+<p>Den er s&#x00E5; myg, s&#x00E5; myg.</p>
+<p>&#x2013; &#x2013; &#x00C5;, la mig v&#x00E6;re alene et &#x00F8;ieblik, Borghild, bare et &#x00F8;ieblik.</p>
+</sp>
+<sp>
+<speaker>BORGHILD.</speaker>
+<p>Hvorfor vil du v&#x00E6;re alene?</p>
+</sp>
+<sp>
+<speaker>ODD.</speaker>
+<p>Jeg m&#x00E5; &#x2026; Jeg m&#x00E5; samle mig til festen &#x2026;</p>
+</sp>
+<sp>
+<speaker>BORGHILD.</speaker>
+<p>Kom, Odd, la os g&#x00E5;.</p>
+</sp>
+<sp>
+<speaker>ODD</speaker>
+<stage>(i pludselig, lidenskabelig heftighed, stamper med foden).</stage>
+<p>Jeg <hi rend="italic">vil</hi> v&#x00E6;re alene.</p>
+</sp>
+<sp>
+<speaker>BORGHILD</speaker>
+<p>
+<stage>(g&#x00E5;r langsomt).</stage>
+</p>
+</sp>
+<sp>
+<speaker>ODD</speaker>
+<stage>(efter hende).</stage>
+<p>&#x00C5;! Tilgi mig! &#x2026; jeg &#x2026; jeg &#x2026;</p>
+</sp>
+<sp>
+<speaker>BORGHILD</speaker>
+<stage>(vender sig. Langsomt og med smerte).</stage>
+<p>Jeg tilgir dig.</p>
+</sp>
+<stage>(Hun g&#x00E5;r langsomt ud til venstre).</stage> <stage>(<hi rend="bold">Odd</hi> er alene, han s&#x00E6;tter sig p&#x00E5; skr&#x00E6;nten med ryggen mod forgrunden).</stage> <stage>(Fra h&#x00F8;ire h&#x00F8;res en stund sangen: V&#x00E6;va va&#x0027;mel).</stage> <stage>(Fra samme side kommer to sm&#x00E5;gutter l&#x00F8;bende ind).</stage>
+<sp>
+<speaker>DEN ENE.</speaker>
+<p>Rak&#x00E9;tter heder det!</p>
+</sp>
+<sp>
+<speaker>DEN ANDEN.</speaker>
+<p>Og <hi rend="italic">jeg</hi> siger, det heder r&#x00E1;ketter.</p>
+</sp>
+<sp>
+<speaker>DEN ENE.</speaker>
+<p>Ja men far siger rak&#x00E9;tter, og <hi rend="italic">han</hi> ved det.</p>
+</sp>
+<sp>
+<speaker>DEN ANDEN.</speaker>
+<p>Ja men <hi rend="italic">min</hi> far siger r&#x00E1;ketter.</p>
+</sp>
+<sp>
+<speaker>DEN ENE.</speaker>
+<p>Ja men <hi rend="italic">min</hi> far ved det bedst. <hi rend="italic">Min</hi> far er kaptein. <hi rend="italic">Din</hi> far han syr far sine bukser han.</p>
+</sp>
+<stage>(<hi rend="italic">Den Anden</hi> l&#x00F8;ber efter den f&#x00F8;rste for at sl&#x00E5;, de l&#x00F8;ber begge ud tilvenstre).</stage>
+<sp>
+<speaker>ODD</speaker>
+<stage>(vender sig siddende mod forgrunden).</stage>
+<stage>(Derp&#x00E5; m&#x00F8;rkt og d&#x00E6;mpet):</stage>
+<p>Jeg synes alting er <hi rend="italic">r&#x00F8;dt!</hi></p>
+<stage>(Han reiser sig lige efter det sidste ord hastig, ryster voldsomt p&#x00E5; hodet).</stage>
+<p>V&#x00E6;k!</p>
+</sp>
+<stage>(Han g&#x00E5;r ud tilvenstre).</stage> <stage>(Fra h&#x00F8;ire kommer fire herrer i galadragt, champagner&#x00F8;de og sterkt gestikulerende).</stage> <sp>
+<speaker>DIREKT&#x00D8;R HANSEN.</speaker>
+<p>Ja det nytter nu ikke, Steen, &#x2013; livsgl&#x00E6;den det <hi rend="italic">er</hi> pengene, &#x2013; og pengene er arbeidet.</p>
+<p>Hvad siger <hi rend="italic">De</hi>, Wille?</p>
+</sp>
+<sp>
+<speaker>WILLE.</speaker>
+<p>De har fuldkommen ret, herr direkt&#x00F8;r.</p>
+</sp>
+<sp>
+<speaker>HANSEN.</speaker>
+<p>M&#x00E5; jeg sp&#x00F8;rge, er der noget vidunderligere til end dette pengenes oml&#x00F8;b, og den s&#x00E5;atsige guddommelige retf&#x00E6;rdighed, som dette oml&#x00F8;bs egne love &#x00F8;ver?</p>
+</sp>
+<sp>
+<speaker>STEEN.</speaker>
+<p>Vil De tillade mig et lidet sp&#x00F8;rsm&#x00E5;l, f&#x00F8;r De g&#x00E5;r videre? De siger, gl&#x00E6;den er pengene, pengene arbeidet. Nu de, som ikke kan f&#x00E5; arbeide?</p>
+</sp>
+<sp>
+<speaker>HANSEN.</speaker>
+<p>Alle kan f&#x00E5; arbeide. Nu kan alle f&#x00E5; arbeide. Alle, som vil ha det.</p>
+</sp>
+<sp>
+<speaker>WILLE.</speaker>
+<p>Aldeles rigtigt.</p>
+</sp>
+<sp>
+<speaker>HANSEN.</speaker>
+<p>Se Dem om, Steen, se p&#x00E5; byen. Er det ikke, som om den allerede p&#x00E5; denne korte tid er totalt forandret? Er det ikke, som om denne nye drivkraft, denne friske bev&#x00E6;gelse, denne almene f&#x00F8;lelse af, at der er str&#x00F8;m igang, er det ikke som den har varmet blodet et par grader i alt levende, lige indtil heste og hunde?</p>
+</sp>
+<sp>
+<speaker>STEEN.</speaker>
+<p>Jeg negter ikke, at der er kommet et vist liv s&#x00E5;dan i det store, en vis fart i oml&#x00F8;b og samfundsliv, men n&#x00E5;r De siger, at disse ting skulde kunne blive af gjennemgribende betydning for den enkeltes livslykke, da har jeg mine tvil, mine <hi rend="italic">sterke</hi> tvil. T&#x00F8;r De virkelig p&#x00E5;st&#x00E5; for exempel, at ogs&#x00E5; den enkeltes <hi rend="italic">moralske</hi> niveau kan s&#x00E6;ttes i forbindelse med disse almene kr&#x00E6;fter?</p>
+</sp>
+<stage>(De er efter gjentagne stansninger kommet til udgangen i baggrunden til venstre, hvor de forsvinder).</stage> <stage>(S&#x00E5; kommer fra h&#x00F8;ire arm i arm dr. <hi rend="bold">Otto</hi> og fru <hi rend="bold">Steen)</hi>.</stage>
+<sp>
+<speaker>OTTO</speaker>
+<stage>(f&#x00F8;r han er kommet helt ind, meget h&#x00F8;it).</stage>
+<p>Jeg siger, De <hi rend="italic">er</hi> grusom, frue.</p>
+</sp>
+<sp>
+<speaker>FRU STEEN.</speaker>
+<p>Men her er jo ingen.</p>
+</sp>
+<sp>
+<speaker>OTTO.</speaker>
+<p>Ikke et liv.</p>
+</sp>
+<sp>
+<speaker>FRU STEEN</speaker>
+<stage>(ser sig om, hvisker s&#x00E5;):</stage>
+<p>Kys mig!</p>
+<stage>(De kysser hinanden).</stage>
+<p>Hvem skulde anet det den sidste fest vi var sammen &#x2026; <stage>(Med en liden latter):</stage> Da du viste mig livsdrikken.</p>
+</sp>
+<sp>
+<speaker>OTTO.</speaker>
+<p>Forspillet, Sofie.</p>
+<stage>(Idet de g&#x00E5;r ud tilvenstre i baggrunden, meget h&#x00F8;it):</stage>
+<p>Forspillet, fru Steen!</p>
+</sp>
+<stage>(Sangen h&#x00F8;res en stund, <hi rend="bold">Borghild</hi> og <hi rend="bold">Odd</hi> kommer fra venstre).</stage>
+<sp>
+<speaker>ODD.</speaker>
+<p>La os s&#x00E6;tte os.</p>
+<stage>(De s&#x00E6;tter sig p&#x00E5; en b&#x00E6;nk, der st&#x00E5;r noget tilh&#x00F8;ire ude p&#x00E5; skr&#x00E6;nten).</stage>
+<p>&#x2026; Menneskene forst&#x00E5;r ikke sig selv &#x2026; Dette vidunderlige lys du! Blussene og kvelden, som smelter sammen. Denne sangen. Den er s&#x00E5; lys. Der er s&#x00E5;dan ro i den. Der er noget i den som fra evigheden &#x2026; De gl&#x00E6;der sig ved livet!</p>
+<p>&#x2026; Livet! Gl&#x00E6;den!</p>
+<stage>(Han ser p&#x00E5; <hi rend="bold">Borghild)</hi>.</stage>
+<p>Dine &#x00F8;ine er s&#x00E5; dybe.</p>
+<p>Det er s&#x00E5; sjelden, at jeg rigtig t&#x00F8;r se ind i dine &#x00F8;ine, Borghild.</p>
+</sp>
+<stage>(<hi rend="bold">Borghild</hi> r&#x00E6;kker ham sin h&#x00E5;nd).</stage>
+<sp>
+<speaker>BORGHILD</speaker>
+<stage>(for sig selv, n&#x00E6;sten hviskende).</stage>
+<p>Du drog den ikke bort.</p>
+</sp>
+<sp>
+<speaker>ODD.</speaker>
+<p>Hvad siger du?</p>
+</sp>
+<sp>
+<speaker>BORGHILD.</speaker>
+<p>Undertiden drar du din h&#x00E5;nd bort.</p>
+</sp>
+<sp>
+<speaker>ODD.</speaker>
+<p>Tilgi mig! Jeg ved ikke, hvad det er, som stundom kommer i mig. Man forst&#x00E5;r ikke sig selv, Borghild.</p>
+</sp>
+<sp>
+<speaker>BORGHILD.</speaker>
+<p>Jeg ved en, som kan l&#x00E6;re dig at forst&#x00E5; dig selv. Jeg ved en, som kan gj&#x00F8;re dig sterk som en gud.</p>
+</sp>
+<sp>
+<speaker>ODD.</speaker>
+<p>Ved du, Borghild?</p>
+</sp>
+<sp>
+<speaker>BORGHILD.</speaker>
+<p>H&#x00F8;r, de r&#x00E5;ber hurra!</p>
+</sp>
+<sp>
+<speaker>ODD</speaker>
+<stage>(tier).</stage>
+<p/>
+</sp>
+<sp>
+<speaker>BORGHILD</speaker>
+<stage>(som ser p&#x00E5; ham).</stage>
+<p>Hvad er det, Odd?</p>
+</sp>
+<sp>
+<speaker>ODD.</speaker>
+<p>&#x2026; Jeg ved ikke &#x2026; al denne hurrar&#x00E5;ben &#x2026; den &#x2026; den &#x2026; jeg ved ikke &#x2026; den gj&#x00F8;r mig &#x2026; angst &#x2026;</p>
+</sp>
+<stage>(Hurrar&#x00E5;bene er blit stadig sterkere, og fra begge sider kommer ind herrer og damer, festkl&#x00E6;dte, &#x00E6;ldre og yngre).</stage>
+<sp>
+<speaker>ALLE.</speaker>
+<p>Hurra! Hurra for Odd Berg!</p>
+</sp>
+<sp>
+<speaker>BORGHILD</speaker>
+<stage>(under larmen).</stage>
+<p>Er det da ikke deiligt, Odd?</p>
+</sp>
+<stage>(tar hans h&#x00E6;nder).</stage> <sp>
+<speaker>ODD.</speaker>
+<p>Jo. Jo. Det er deiligt &#x2026; Det var vist bare den sterke r&#x00E5;ben, som &#x2026;</p>
+</sp>
+<stage>(En liden pause mellem dem, mens r&#x00E5;bene gjentages).</stage>
+<sp>
+<speaker>BORGHILD.</speaker>
+<p>De holder af dig, Odd!</p>
+</sp>
+<stage>(R&#x00E5;bene vedblir. S&#x00E5; tr&#x00E6;der <hi rend="bold">Odd</hi> frem p&#x00E5; skr&#x00E6;nten).</stage>
+<sp>
+<speaker>ODD.</speaker>
+<p>Tak!</p>
+<stage>(Pause).</stage>
+<p>Jeg ser om mig, og hvor jeg ser, mod &#x00F8;st og mod vest, mod syd og mod nord, ser jeg skj&#x00F8;nhed og farvegl&#x00F8;d.</p>
+<p>Lamperne, som menneskeh&#x00E6;nder planted, sender sine glimt dagens sidste str&#x00E5;ler til m&#x00F8;de. Og mellem l&#x00F8;vet ser jeg ansigter, der tykkes mig at smile, m&#x00E6;nd og kvinder, der har kl&#x00E6;dt sig i hvidt og lyst, sommeren, gl&#x00E6;den til &#x00E6;re!</p>
+<p>La livet bruse i os, venner! La os seile p&#x00E5; timernes hav, som vinden er god!</p>
+</sp>
+<sp>
+<speaker>ALLE.</speaker>
+<p>Hurra! Hurra!</p>
+</sp>
+<sp>
+<speaker>ODD.</speaker>
+<p>Jeg har t&#x00E6;nkt meget og lidt meget, f&#x00F8;r denne kveld oprandt.</p>
+<p>Jeg t&#x00E6;nkte engang, at mennesket kunde befale over livet, vise det veien, indrette det, som det skulde v&#x00E6;re.</p>
+ <stage>(Sterkt).</stage>
+<p>La os ta imot det, som det kommer, venner!</p>
+<p>La os la det lege i os!</p>
+<p>La os la solen skinne i vore &#x00F8;ine og vinden suse i vort h&#x00E5;r!</p>
+</sp>
+<sp>
+<speaker>I KOR.</speaker>
+<p>Bravo! Bravo!</p>
+<p>Hurra for Odd Berg!</p>
+</sp>
+<sp>
+<speaker>ODD.</speaker>
+<p>Jeg siger et halleluja for dansen, for kvinden, for elskoven!</p>
+</sp>
+<sp>
+<speaker>ALLE</speaker>
+<stage>(klapper og jubler).</stage>
+<p/>
+</sp>
+<sp>
+<speaker>ODD.</speaker>
+<p>Jeg dr&#x00F8;mte om det uendelige. Jeg vilde bringe det ind i jordlivet.</p>
+<p>Er da ikke det uendelige <hi rend="italic">hos</hi> os? Tar det da ikke en evighed at lodde et par &#x00F8;ine! Har man ikke nok med i m&#x00E5;neder at sidde og tilbede en liden fod!</p>
+<stage>(Bifald fra damerne).</stage>
+<p>Der er stjerner over os. Det er sandt &#x2026; Men vil vi nogensinde n&#x00E5; dem? Vil vi nogensinde bli f&#x00E6;rdig med den, der er os n&#x00E6;rmest, den vi g&#x00E5;r p&#x00E5;?</p>
+<p>Det er sandt &#x2026; der er stjerner &#x2026;</p>
+<stage>(Han tar sig for panden, st&#x00E5;r l&#x00E6;nge aldeles taus, blir bleg, mumler altereret):</stage>
+<p>Ja &#x2026; jeg havde vist sagt det, jeg vilde si.</p>
+</sp>
+<stage>(Derp&#x00E5; iler han ud til h&#x00F8;ire mellem den uvist bifaldende m&#x00E6;ngde. Man ser forundret efter ham).</stage> <sp>
+<speaker>BORGHILD</speaker>
+<stage>(som st&#x00E5;r til h&#x00F8;ire i baggrunden, halvh&#x00F8;it).</stage>
+<p>Han gik &#x2026; alene.</p>
+</sp>
+<stage>(I en gruppe).</stage>
+<sp>
+<speaker>OTTO.</speaker>
+<p>Den endte lidt m&#x00E6;rkelig.</p>
+</sp>
+<sp>
+<speaker>HANSEN.</speaker>
+<p>Den gjorde det. Gode hoder, Bergerne, begge to, <hi rend="italic">brillante</hi> hoder, men &#x2026; lidt forskruede <hi rend="italic">er</hi> de nu da.</p>
+<stage>(Imidlertid har apotheker <hi rend="bold">Berg</hi> tr&#x00E6;ngt sig frem mod baggrunden).</stage>
+<p>Hva? &#x2026; S&#x00E5; min s&#x00E6;l tror jeg ikke gamlingen ogs&#x00E5; vil tale.</p>
+</sp>
+<sp>
+<speaker>FORUNDRET MUMLEN OG HVISKEN:</speaker>
+<p>Gamle Berg. Gamle Berg.</p>
+</sp>
+<sp>
+<speaker>BERG.</speaker>
+<p>Jeg havde lyst, mens I alle endnu er her, og f&#x00F8;r dansen atter begynder, at si et par ord. Det blir b&#x00E5;de den f&#x00F8;rste og den sidste tale, jeg holder i mit liv.</p>
+<p>Det er til min s&#x00F8;n, jeg vil tale. Men i <hi rend="italic">eders</hi> n&#x00E6;rv&#x00E6;r. Ti foran <hi rend="italic">eder</hi> synded jeg mod ham.</p>
+<p>Min s&#x00F8;n! &#x2026; min s&#x00F8;n!</p>
+<p>Er han her ikke? Er ikke Odd her?</p>
+</sp>
+<sp>
+<speaker>NOGLE.</speaker>
+<p>Han er her ikke.</p>
+</sp>
+<stage>(Han hentes. Stilhed imens).</stage> <sp>
+<speaker>BERG.</speaker>
+<p>Der er han. Det er til dig, jeg vil tale, Odd. Ti disse, som st&#x00E5;r her omkring, de vil aldrig forst&#x00E5; hverken dig eller mig.</p>
+<stage>(Mumlen).</stage>
+<p>I firti &#x00E5;r har jeg boet i denne by. Over en menneskealder. Aldrig var der nogen, som banked p&#x00E5; min d&#x00F8;r.</p>
+<p>Hvorfor knurrer I? Har jeg noget at takke jer for? Var der kanske nogen, som nogensinde af fri vilje banked p&#x00E5; min d&#x00F8;r?</p>
+<stage>(Sterkere mumlen).</stage>
+<p>For at f&#x00E5; l&#x00E6;gemidler mod eders sygdomme, som ingen anden end jeg kunde lave, derfor kom I. Forat f&#x00E5; styrkedrikke hos mig kom I.</p>
+<stage>(Mumlen).</stage>
+<p>Jeg vil tale. Jeg <hi rend="italic">vil</hi> tale. Den f&#x00F8;rste og sidste gang i mit liv.</p>
+<p>Jeg er ikke bange eder. Mine h&#x00E5;r er hvide. Jeg kjender en sterkere end eder. En uhyre meget sterkere. D&#x00F8;den. H&#x00F8;rer I? D&#x00F8;den!</p>
+<p>&#x2013; I tier. &#x2013;</p>
+<p>Hvor jeg har l&#x00E6;ngtet! Efter menneskene. Efter deres kj&#x00E6;rlighed.</p>
+<p><hi rend="italic">Nu</hi> ved jeg, at den er intet, intet v&#x00E6;rd.</p>
+<stage>(Mumlen).</stage>
+<p>Jeg vil tale. I kan kaste mig ud, om I vil. Men jeg vil f&#x00F8;rst holde min tale. I firti &#x00E5;r har jeg g&#x00E5;et rolig om p&#x00E5; eders gader. Jeg har tat hatten af for eder allesammen. Har jeg nogensinde forn&#x00E6;rmet nogen? Aldrig. Men var der nogen, som bes&#x00F8;gte mig, som banked p&#x00E5; min d&#x00F8;r? Aldrig.</p>
+<p>I forstod mig ikke.</p>
+<p>&#x2013; Odd! Det er til <hi rend="italic">dig</hi> jeg vil tale:</p>
+<p>Nye mennesker m&#x00E5; der til! Nye fra grunden af! Med nye atomer i sig, Odd!</p>
+</sp>
+<sp>
+<speaker>STEMMER.</speaker>
+<p>Han er fuld. Han har drukket for meget. Hold op! Hys! Hys!</p>
+</sp>
+<sp>
+<speaker>BERG</speaker>
+<stage>(med sterk, h&#x00F8;itidelig stemme).</stage>
+<p>Vogt eder for at h&#x00E5;ne en olding!</p>
+<p>Har I noget at anklage mig for? Min s&#x00F8;n har gjort eders by bekjendt. Han har vundet verdensudstillingens st&#x00F8;rste pris. La hans far tale!</p>
+<stage>(Taushed).</stage> <stage>(<hi rend="bold">Berg</hi> videre, roligt og dr&#x00F8;mmende).</stage>
+<p>Odd! Ogs&#x00E5; <hi rend="italic">jeg</hi> har havt et laboratorium &#x2026;</p>
+<p>Der var nu ingen som havde id&#x00E9; om <hi rend="italic">det</hi> san.</p>
+<p>Derinde er det, mit hjerte har sl&#x00E5;t h&#x00F8;iest.</p>
+<p>Jeg listed mig v&#x00E6;k fra din moders side. Om natten. Jeg arbeided til den lyse daggry.</p>
+<p>Min s&#x00F8;n! Jeg h&#x00F8;rte din tale.</p>
+<stage>(Meget st&#x00E6;rkt).</stage>
+<p>Du l&#x00F8;i!</p>
+<p>&#x2013; Der g&#x00E5;r en dr&#x00F8;m fra slegt til slegt. Og den, som f&#x00F8;ler <hi rend="italic">dr&#x00F8;mmen</hi> i sig, han f&#x00F8;ler et kainsmerke p&#x00E5; sin pande blandt menneskene.</p>
+<p>Men n&#x00E5;r <hi rend="italic">d&#x00F8;den</hi> n&#x00E6;rmer sig, da ser han, at &#x2013; &#x2013;</p>
+<p>det sande, det var &#x2013; dr&#x00F8;mmen.</p>
+<stage>(En pause, hvorunder han tar op fra den indre frakkelomme en flaske med r&#x00F8;d v&#x00E6;ske i, han h&#x00E6;ver den h&#x00F8;it op, den lyser sterkt i halvm&#x00F8;rket).</stage>
+<p>Odd! G&#x00E5;r du med mig? Langt, langt bort fra allesammen.</p>
+</sp>
+<sp>
+<speaker>ODD</speaker>
+<stage>g&#x00E5;r nogle skridt fremad.</stage>
+<p/>
+</sp>
+<sp>
+<speaker>BORGHILD</speaker>
+<stage>kommer efter og holder hans arm.</stage>
+<p/>
+</sp>
+<sp>
+<speaker>ODD</speaker>
+<stage>peger p&#x00E5; <hi rend="bold">Borghild</hi>.</stage>
+<p/>
+</sp>
+<sp>
+<speaker>BERG.</speaker>
+<p>Kommer du, Odd?</p>
+</sp>
+<sp>
+<speaker>BORGHILD</speaker>
+<stage>l&#x00E6;gger begge sine arme om <hi rend="italic">Odd</hi> og holder ham tilbage.</stage>
+<p/>
+</sp>
+<sp>
+<speaker>BERG.</speaker>
+<p>S&#x00E5; g&#x00E5;r den gamle mand alene.</p>
+</sp>
+<stage>(Han g&#x00E5;r under en underlig stilhed).</stage>
+<sp>
+<speaker>OTTO.</speaker>
+<p>S&#x00E5; til valsen, mine damer!</p>
+</sp>
+<stage>(De g&#x00E5;r i grupper samtalende ud til begge sider).</stage> <stage>De yngste har atter ordnet sig til legen. Synger og leger:</stage>
+<sp>
+<l>V&#x00E6;ve va&#x0027;mel, sl&#x00E5; tilsammen, la s&#x00E5; skyttelen l&#x00F8;be. S&#x00E5; v&#x00E6;ve vi va&#x0027;mel, s&#x00E5; sl&#x00E5; vi tilsammen, v&#x00E6;ve vamel, sl&#x00E5; tilsammen, la s&#x00E5; skyttelen l&#x00F8;be.</l>
+</sp>
+<stage>(De leger videre ud tilh&#x00F8;ire. Sangen forsvinder).</stage>
+<sp>
+<speaker>BORGHILD</speaker>
+<stage>(som har st&#x00E5;et med ryggen vendt mod et tr&#x00E6; l&#x00E6;ngst ude p&#x00E5; skr&#x00E6;nten tilvenstre, ansigtet vendt halvt tilh&#x00F8;ire mod forgrunden).</stage>
+<p>Odd!</p>
+</sp>
+<sp>
+<speaker>ODD</speaker>
+<stage>(der har st&#x00E5;et i forgrunden noget til h&#x00F8;ire, som i dr&#x00F8;mme, uden at se p&#x00E5; hende).</stage>
+<p>Hvad <hi rend="italic">vil</hi> du, Borghild?</p>
+</sp>
+<sp>
+<speaker>BORGHILD.</speaker>
+<p>Hvorfor st&#x00E5;r du <hi rend="italic">der</hi>borte?</p>
+</sp>
+<sp>
+<speaker>ODD</speaker>
+<p>
+<stage>(svarer ikke).</stage>
+</p>
+</sp>
+<sp>
+<speaker>BORGHILD.</speaker>
+<p>Se p&#x00E5; mig.</p>
+</sp>
+<sp>
+<speaker>ODD</speaker>
+<stage>(gj&#x00F8;r s&#x00E5;).</stage>
+<p/>
+</sp>
+<sp>
+<speaker>BORGHILD</speaker>
+<stage>(bl&#x00F8;dt).</stage>
+<p>Odd! Kom!</p>
+</sp>
+<stage>(<hi rend="bold">Odd</hi> g&#x00E5;r imod hende).</stage> <sp>
+<speaker>BORGHILD</speaker>
+<stage>(som g&#x00E5;r og s&#x00E6;tter sig p&#x00E5; b&#x00E6;nken, vendt mod forgrunden).</stage>
+<p>Her!</p>
+<p>L&#x00E6;g dig p&#x00E5; kn&#x00E6; for mig!</p>
+<stage>(Han gj&#x00F8;r det).</stage>
+<p>Hvem <hi rend="italic">er</hi> jeg?</p>
+</sp>
+<sp>
+<speaker>ODD</speaker>
+<stage>(stryger hende over h&#x00E5;nden og ser i dens linjer).</stage>
+<p/>
+</sp>
+<sp>
+<speaker>BORGHILD.</speaker>
+<p>Hvem <hi rend="italic">er</hi> jeg, Odd?</p>
+</sp>
+<sp>
+<speaker>ODD.</speaker>
+<p>Borghild &#x2026; Min Borghild.</p>
+</sp>
+<sp>
+<speaker>BORGHILD.</speaker>
+<p>Er jeg din gudinde?</p>
+</sp>
+<sp>
+<speaker>ODD</speaker>
+<stage>(idet han stadig ser p&#x00E5; hendes h&#x00E5;nd).</stage>
+<p>Det er du.</p>
+</sp>
+<sp>
+<speaker>BORGHILD.</speaker>
+<p>Er jeg det eneste p&#x00E5; jorden?</p>
+</sp>
+<sp>
+<speaker>ODD.</speaker>
+<p>Ja.</p>
+</sp>
+<sp>
+<speaker>BORGHILD.</speaker>
+<p>Den eneste i hele verden?</p>
+</sp>
+<sp>
+<speaker>ODD</speaker>
+<stage>(svarer ikke).</stage>
+<p/>
+</sp>
+<sp>
+<speaker>BORGHILD.</speaker>
+<p>Hvorfor svarer du ikke?</p>
+</sp>
+<stage>(En pause. Hun stryger hans h&#x00E5;r).</stage>
+<sp>
+<speaker>ODD</speaker>
+<stage>(farende op).</stage>
+<p>Hvor gik han hen?</p>
+</sp>
+<sp>
+<speaker>BORGHILD</speaker>
+<stage>(uendelig mygt).</stage>
+<p>Skal vi g&#x00E5; hjem, Odd?</p>
+</sp>
+<stage>(Hun kysser ham i h&#x00E5;ret, uden at han m&#x00E6;rker det).</stage>
+<sp>
+<speaker>ODD</speaker>
+<stage>(ser pludselig p&#x00E5; hende).</stage>
+<p>Hvad er det, Borghild?</p>
+</sp>
+<sp>
+<speaker>BORGHILD.</speaker>
+<p>Jeg kyssed dig i h&#x00E5;ret, og du la ikke m&#x00E6;rke til det.</p>
+</sp>
+<sp>
+<speaker>ODD</speaker>
+<stage>(uvilk&#x00E5;rlig).</stage>
+<p>Stakkels Borghild! &#x2026; Kanske g&#x00E5;r han nu rundt i alle de m&#x00F8;rke gaderne derinde, alene &#x2026; <stage>(hun l&#x00E6;gger armen om hans hals).</stage> La mig se p&#x00E5; dig, Borghild &#x2026; Dine &#x00F8;ine. Dine kindben der &#x2026; opover s&#x00E5; <stage>(han f&#x00F8;lger med fingeren).</stage> Indenfor der er kraniet &#x2026; Som et hvilketsomhelst andet kranium.</p>
+</sp>
+<sp>
+<speaker>BORGHILD</speaker>
+<stage>(med elskovsskj&#x00E6;lvende stemme).</stage>
+<p>Se, Odd, bladene skj&#x00E6;lver.</p>
+<p>Kjend! Der smyger sig noget i gr&#x00E6;sset, henover v&#x00E5;gen.</p>
+<p>Det er natten, som kommer, Odd. M&#x00E6;rker du det?</p>
+<stage>(Hvisker pludselig lidenskabelig):</stage>
+<p>Kys mig!</p>
+</sp>
+<stage>(Hun kysser ham).</stage>
+<sp>
+<speaker>ODD</speaker>
+<stage>(ryster hende af sig og farer op. Holder sig for &#x00F8;inene).</stage>
+<p>Hvad <hi rend="italic">var</hi> det? &#x2026; Dine &#x00F8;ine! Jeg kjendte dem ikke!</p>
+<stage>(Stanser foran hende).</stage>
+<p>Hvem <hi rend="italic">er</hi> du?</p>
+</sp>
+<sp>
+<speaker>BORGHILD.</speaker>
+<p><hi rend="italic">Din</hi> Borghild.</p>
+</sp>
+<sp>
+<stage>(Under de sidste ord kommer fra h&#x00F8;ire og drager ud til venstre de legende, syngende):</stage>
+<l>S&#x00E5; v&#x00E6;ve vi Va&#x0027;mel, s&#x00E5; sl&#x00E5; vi tilsammen.</l>
+</sp>
+<sp>
+<speaker>ODD</speaker>
+<stage>(st&#x00E5;r imens i fortvilet, indre kamp. Da det atter er stille):</stage>
+<p>Ser du det?</p>
+</sp>
+<sp>
+<speaker>BORGHILD.</speaker>
+<p>Hvad?</p>
+</sp>
+<sp>
+<speaker>ODD</speaker>
+<p>Der &#x2026; Ved tr&#x00E6;et &#x2026; Hvor du stod &#x2026; <stage>(Han str&#x00E6;kker hodet forover).</stage> Det er hvidt. Str&#x00E5;lende.</p>
+<stage>(Han str&#x00E6;kker hodet l&#x00E6;nger og l&#x00E6;nger forover, stirrer vildt, idet han, f&#x00F8;lgende et syn, dreier hodet i vanvittig r&#x00E6;dsel).</stage>
+<p>Lili!</p>
+</sp>
+<stage>(Teppe).</stage>
+</div>
+</body>
+</text>
+</TEI> 

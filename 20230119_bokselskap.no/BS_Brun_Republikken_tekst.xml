@@ -1,0 +1,2468 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI PUBLIC "-// TEI P5 //EN" "http://www.tei-c.org/release/xml/tei/custom/schema/dtd/tei_all.dtd">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="BS_Brun_Republikken">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>bokselskap.no, Oslo 2018
+<lb/>Johan Nordahl Brun: <hi rend="italic">Republikken paa &#x00D8;en</hi>
+<lb/>Teksten i bokselskap.no f&#x00F8;lger 1. utgave, 1793 (K&#x00F8;benhavn, R. Dahl). Digitaliseringen er basert p&#x00E5; fil mottatt fra Nasjonalbiblioteket (nb.no)
+<lb/>ISBN: 978-82-8319-420-3 (digital, bokselskap.no), 978-82-8319-421-0 (epub), 978-82-8319-422-7 (mobi)
+</title>
+</titleStmt>
+<publicationStmt>
+<p>Publiseres som digital tekst av bokselskap.no.</p></publicationStmt>
+<sourceDesc>
+    <bibl>
+        <title>Republikken paa &#x00D8;en</title>
+        <author>Johan Nordahl Brun</author>
+        <publisher>R. Dahl</publisher>
+        <pubPlace>K&#x00F8;benhavn</pubPlace>
+        <date>1793</date>
+        <note>digibok_2009033112002 (mottatt fra Nasjonalbiblioteket 2017)</note>
+    </bibl>
+</sourceDesc>
+</fileDesc>
+<revisionDesc>
+<change who="ENW" when="2018-07-11">Lest gjennom og lagt inn en del rettelser. Entiteter, kodekontroll og validering. Klar for publisering.</change>
+<change who="ENW" when="2018-07-10">Lagt inn ISBN.</change>
+<change who="ENW" when="2018-07-04">F&#x00F8;rt inn korrekturrettelser (RK).</change>
+<change xml:id="ENW" who="ENW" when="2018-01-03">XML-koding. Klar for korrektur.</change>
+</revisionDesc>
+</teiHeader>
+<text xml:id="BS_Brun_Republikken_tekst" type="drama">
+<front>
+<titlePage type="main">
+<byline><docAuthor>Johan Nordahl Brun</docAuthor></byline>
+<docTitle>
+<titlePart type="main">Republikken paa &#x00D8;en</titlePart>
+<titlePart type="sub">Et Skuespil i fem Handlinger
+<lb/>bestemt til den 28de Januarii 1793</titlePart>
+</docTitle>
+<docDate>bokselskap.no<lb/>Oslo 2018</docDate>
+</titlePage>
+</front>
+<body>
+<div type="chapter" subtype="illustration">
+<p rend="center"><figure><graphic url="tittelside_1793.jpg"/></figure></p>
+</div>
+<div type="chapter" subtype="castlist">
+<head type="main">&#x005B;Personerne og Skuepladsen&#x005D;</head>
+<p rend="center"><hi rend="bold">Personerne</hi> <lb/>anm&#x00E6;lde sig selv.</p>
+<p rend="center"><hi rend="bold">Skuepladsen</hi> <lb/>opdages ved Begyndelsen af hver Handling;</p>
+<p rend="center">Men &#x00D8;en <lb/>skal ingen Columbus opdage.</p>
+</div>
+<div type="chapter" subtype="act" n="1">
+<head type="main">F&#x00F8;rste Handling.</head>
+<stage>Skuepladsen er i Leonard Pettis Huus.</stage>
+<div type="uchapter" subtype="scene" n="1_1">
+<head type="sub">F&#x00F8;rste Optrin.</head>
+<stage><hi rend="bold">Dorant</hi>, dern&#x00E6;st <hi rend="bold">Lise</hi>.</stage>
+<sp>
+<speaker><pb n="1"/>Dorant</speaker>
+<stage>allene reisekl&#x00E6;d.</stage>
+<p>Det er ikke godt at agere Spion i et Huus, naar man ikke tr&#x00E6;ffer paa Mennesker, men see, der har vi en Pr&#x00F8;ve.</p>
+</sp>
+<sp>
+<speaker>Lise</speaker>
+<stage>neyer.</stage>
+<p>Velkommen.</p>
+</sp>
+<sp>
+<speaker>Dorant.</speaker>
+<p>Maa jeg tage Dem for Jomfrue eller Pige i Huuset?</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>Ville De tage mig, maatte De nok tage mig for Jomfrue, men f&#x00F8;rend jeg lod mig tage, gad jeg vedst hvem De var.</p>
+</sp>
+<sp>
+<speaker>Dorant.</speaker>
+<p>Mit Navn er Dorant, jeg er fremmed, jeg er ulykkelig.</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>Saa vor HErre tage Dem jo f&#x00F8;r jo heller. Vi have Ulykker nok paa &#x00D8;en, om vi ikke skal hente flere fra det faste Land. De er maaskee en Emigrant, en Aristocrat.</p>
+</sp>
+<sp>
+<speaker>Dorant.</speaker>
+<p>Nei, tvertimod, forfulgt af dem. Jeg leder efter en Friestad hos Mennesket. Den skulle findes paa denne &#x00D8;e, is&#x00E6;r i denne Bye, fornemmelig i dette Huus.</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>I saa Fald er De ikke gaaen Feil, her aander alting Friehed, her hersker Liighed, her gielder Mennesket: Jeg er, sandt at sige, kun Pige i Huuset efter den gamle Cancellie-Stiil, men nu begiegner Fruen mig som en S&#x00F8;ster, og Manden, <pb n="2"/>som jeg kunde v&#x00E6;re hans Frue. Al Fornemhed, al Adel, alle Titler og Baand og Stierner og Ordener,<note type="footnote">Ordener,] <hi rend="italic">rettet fra:</hi> Ordener. <hi rend="italic">(trykkfeil)</hi></note> og GUd veed hvad de heede alle disse Menneskelighedens Frynser, ere reent afskaarne; Kun Talenter sp&#x00F8;rger man om? F&#x00F8;rer De noget med Dem af den Sort?</p>
+</sp>
+<sp>
+<speaker>Dorant.</speaker>
+<p>Lidt til Huusbehov. Men kunde man ikke faae Herberge her for det f&#x00F8;rste? Jeg kan saa taalelig godt betale; men Vertshuus kan jeg ikke lide.</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>Her er V&#x00E6;relser i Overfl&#x00F8;dighed, men S&#x00E6;ng &#x2013; Jeg ligger vel som oftest allene &#x2013; Men&#x2013;</p>
+</sp>
+<sp>
+<speaker>Dorant.</speaker>
+<p>Maatte jeg opvarte Herren?</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>Fy for Fanden! bort med dette Hofsprog, opvarte &#x2013; hvad er det? Ikke eengang jeg gi&#x00F8;r Opvartning. Og Herren med fulde Bogstaver? Paa det faste Land der have I Eders Herrer, Eders Naader, Eders Excellence. Leonard Pettis er Medlem af Octoviratet, Mand i sit Huus, Faer for sin S&#x00F8;n, og den, som har formaaet mig og Valentin at gi&#x00F8;re visse Gierninger for en vis aarlig Rente.</p>
+</sp>
+<sp>
+<speaker>Dorant.</speaker>
+<p>Maa jeg da have den &#x00C6;re at tale &#x2013;</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>Atter Hofstiil. Der er ingen &#x00C6;re i at tale, det kommer an paa hvordan man taler.</p>
+</sp>
+<sp>
+<speaker>Dorant.</speaker>
+<p>Saa gaae da hen og siig Lemmen af Octoviratet, Manden i Huuset, Faderen til S&#x00F8;nnen, at jeg vil tale med ham.</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>Jeg gaaer om jeg vil og naar jeg vil.</p>
+</sp>
+<sp>
+<speaker>Dorant.</speaker>
+<p>Ja det forstaaer sig. Jeg beder om Forladelse.</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>Synd f&#x00F8;rst f&#x00F8;rend De beder om Forladelse.</p>
+</sp>
+<sp>
+<speaker>Dorant.</speaker>
+<p>Her er man ilde opski&#x00F8;rtet. Frieheds Terminologie er en heel Videnskab. H&#x00F8;r! kan De ikke skaffe mig Republikkens Ordbog.</p>
+</sp>
+<sp>
+<speaker><pb n="3"/>Lise.</speaker>
+<p>O! De kan for det f&#x00F8;rste bruge mig som et levende Lexicon, naar De kun ikke maculerer Exemplaret med despotiske Anm&#x00E6;rkninger. Men der kommer Leonard af sig selv. <stage>(Hun gaaer.)</stage></p>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="1_2">
+<head type="sub">Andet Optrin.</head>
+<stage><hi rend="bold">Leonard</hi>, <hi rend="bold">Dorant</hi>.</stage>
+<sp>
+<speaker>Leonard.</speaker>
+<p>Fremmede! her er Frieheds F&#x00E6;dreneland. Her gaaer man lige til, sig, er De en af Despoternes Slaver, Ven eller Fiende, &#x00E6;rlig Mand eller Spion?</p>
+</sp>
+<sp>
+<speaker>Dorant.</speaker>
+<p>Spion og &#x00E6;rlig Mand tillige.</p>
+</sp>
+<sp>
+<speaker>Leonard.</speaker>
+<p>Ved Nationens &#x00C6;re sv&#x00E6;r jeg De skal h&#x00E6;nges inden Soel gaaer ned. Modsigelse taales ikke paa denne &#x00D8;e.</p>
+</sp>
+<sp>
+<speaker>Dorant.</speaker>
+<p>Jeg modsiger mig ikke, og De forlanger mig ikke straffet, naar De kiender min Forfatning. Ingen har lidt meere af Aristocrater end jeg. Jeg er ikke f&#x00F8;d Adel, det er Ulykken, for Resten havde Natur og Lykke v&#x00E6;ret mig saa taalelig gunstig, jeg kunde gi&#x00F8;re Regning paa at spille en glimrende Rulle; men Hofkabalen tog Partie imod mig. Jeg besluttede at flye did hvor Ret og Friehed og Liighed herske, til disse tre Gratiers &#x00D8;e. Jeg maatte foregive, at jeg reiste hid som Spion. Men Republikken er jeg kommen at tiene, og at d&#x00F8;e for den, om det galdt, i Krig mod Despoter.</p>
+</sp>
+<sp>
+<speaker>Leonard.</speaker>
+<p>Saa er De ogsaa Kokardens v&#x00E6;rdige Candidat.</p>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="1_3">
+<head type="sub">Tredie Optrin.</head>
+<stage>Fire Gemeene styrte ind i Huuset og tale i Munden paa hverandre.</stage>
+<sp>
+<p><pb n="4"/>1) Her var Huuset. 2) Her tog han ind. 3) Der er han. 4) Det er den samme. <stage>Alle fire:</stage> Hei, Spion! flux til Lygtep&#x00E6;ls.</p>
+</sp>
+<sp>
+<speaker>Leonard.</speaker>
+<p>Stop, Kammerat! Respekt for mit Huus.</p>
+</sp>
+<sp>
+<speaker>Den f&#x00F8;rste.</speaker>
+<p>Respekt; gaae ad Helvede til med jer Respekt. Respekt for Mennesker, Respekt for Friehed, Respekt for den almindelige Sikkerhed, og dette mit Huus, det skulle han sige saa sagte, lille Leonard. For, Liighed holder vi meget af, der mumles st&#x00E6;rkt om, at en vis Mands Huus kneiser saa h&#x00F8;it over andres, at der seer saa aristocratisk ud, man t&#x00E6;nker saa uform&#x00E6;rkt paa at j&#x00E6;vne det med de &#x00F8;vrige Huuse, saa bliver Gaden saa ki&#x00F8;n, liige; seer han, lille Leonard.</p>
+</sp>
+<sp>
+<speaker>Leonard.</speaker>
+<p>Veed Du, at jeg sidder i Octoviratet?</p>
+</sp>
+<sp>
+<speaker>Den f&#x00F8;rste.</speaker>
+<p>Veed Du, at min Stemme var med at s&#x00E6;tte Dig derind, og kanskee i Morgen sidder Du der ikke. Ikke N&#x00E6;sen saa h&#x00F8;yt i Veiret, Bestefar! Men Du Monsieur Gaustrich! flux til Lygtep&#x00E6;ls; v&#x00E6;r ikke undseelig, det er en Overgang.</p>
+</sp>
+<sp>
+<speaker>Leonard.</speaker>
+<p>Holdt dog og h&#x00F8;r! Han er forfulgt af Aristocrater, s&#x00F8;ger her en Friestad, tilbyder Republikken Tieneste, og kan tiene Republikken.</p>
+</sp>
+<sp>
+<speaker>Den f&#x00F8;rste.</speaker>
+<p>Nu! saa lad den Slyngel leve paa Pr&#x00F8;ve; men hvortil duer han?</p>
+</sp>
+<sp>
+<speaker>Dorant.</speaker>
+<p>Jeg forstaaer en Deel levende Sprog. Jeg har lagt mig efter Fortifications-V&#x00E6;snet, og, saavidt jeg veed, fra det faste Land turde det snart blive forn&#x00F8;dent her; Der ruster sig en vis aristocratisk Flaade.</p>
+</sp>
+<sp>
+<speaker>Leonard.</speaker>
+<p>Og det skulde v&#x00E6;re os meent?</p>
+</sp>
+<sp>
+<speaker>Dorant.</speaker>
+<p>Saa gik Rygtet.</p>
+</sp>
+<sp>
+<speaker><pb n="5"/>Den f&#x00F8;rste.</speaker>
+<p>Ei! Kokard paa Krabbaten, lad ham sv&#x00E6;rge Constitutionen, og saa strax til Volds at arbeide.</p>
+</sp>
+<stage>(Alle fire gaae.)</stage>
+<sp>
+<speaker>Leonard</speaker>
+<stage>mumler for sig selv.</stage>
+<p>Mit Huus &#x2013; sige det saa sagte &#x2013; Nei! det gaaer for vidt &#x2013; rive en Etage af mit Huus &#x2013; Den Egalite h&#x00F8;rer Fanden til.</p>
+</sp>
+<sp>
+<speaker>Dorant.</speaker>
+<p>F&#x00F8;rend Huuset degraderes, maa jeg logere her?</p>
+</sp>
+<sp>
+<speaker>Leonard.</speaker>
+<p>Ja! dersom det ikke er at degradere Dem, naar jeg anviiser min Tiener til Contuberual.</p>
+</sp>
+<sp>
+<speaker>Dorant.</speaker>
+<p>O! Nei, vi ere alle Mennesker; Jeg bringer mit T&#x00F8;i derhen. <stage>(Han gaaer.)</stage></p>
+</sp>
+<sp>
+<speaker>Leonard</speaker>
+<stage>alleene.</stage>
+<p>Den Krabbat seer mig vittig ud, han skal gaae mig til Haande &#x2013; Godserne skal nok tilsidst blive min Odel og Eiendom &#x2013; Tiene Republikken er vel nok &#x2013; men Gratis &#x2013; det maatte Fanden.</p>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="1_4">
+<head type="sub">Fierde Optrin.</head>
+<stage><hi rend="bold">Carl</hi>, <hi rend="bold">Leonard</hi>.</stage>
+<sp>
+<speaker>Carl.</speaker>
+<p>Nu, min Far! Timen n&#x00E6;rmer sig, Eiendoms-Loven skal bestemmes, viis Dem sand Patriot, lad ikke Deres store Godser f&#x00E6;ngsle Deres Frieheds-Aand. Deres eeneste Arving taler her. Gi&#x00F8;r De kun et Offer for det Almindelige, her er en S&#x00F8;n, som ikke skal fortryde det.</p>
+</sp>
+<sp>
+<speaker>Leonard.<note type="footnote">Leonard.] <hi rend="italic">rettet fra:</hi> Dorant. Leonard. <hi rend="italic">(trykkfeil)</hi></note></speaker>
+<p>Ei! hold Du din Mund, Gr&#x00F8;nskolling! Vil Du l&#x00E6;re mig Pligter mod F&#x00F8;deland?</p>
+</sp>
+<sp>
+<speaker>Carl.</speaker>
+<p>Ja vist vilde jeg, naar jeg kiendte dem bedre.</p>
+</sp>
+<sp>
+<speaker>Leonard.</speaker>
+<p>Veed Du, at jeg er din Far?</p>
+</sp>
+<sp>
+<speaker>Carl.</speaker>
+<p>Ja vist, og at De b&#x00F8;r fortiene at have saadan en S&#x00F8;n.</p>
+</sp>
+<sp>
+<speaker>Leonard.</speaker>
+<p>Veed Du, at jeg sidder i Raadet?</p>
+</sp>
+<sp>
+<speaker><pb n="6"/>Carl.</speaker>
+<p>Ja! og at jeg paa samme Tiid staaer blandt dem, som raade. <stage>(Han gaaer.)</stage></p>
+</sp>
+<sp>
+<speaker>Leonard</speaker>
+<stage>alleene.</stage>
+<p>Ikke B&#x00F8;rn adlyde For&#x00E6;ldre, det er st&#x00E6;rkt.</p>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="1_5">
+<head type="sub">Femte Optrin.</head>
+<stage><hi rend="bold">Mentor</hi>, som har h&#x00F8;rt de sidste Ord. <hi rend="bold">Leonard</hi>.</stage>
+<sp>
+<speaker>Leonard.</speaker>
+<p>Er det Dem, Mentor! som har indpr&#x00E6;ntet min S&#x00F8;n denne smukke Grunds&#x00E6;tning?</p>
+</sp>
+<sp>
+<speaker>Mentor.</speaker>
+<p>O ja! I Ligning med F&#x00F8;deland maa For&#x00E6;ldre vige. Men jeg er kommen i et vigtigt Erinde: jeg veed, De skal i Raadet, jeg veed, der bliver Debatter. Jeg vil holde Dem en Forel&#x00E6;sning om <hi rend="italic">jus ad rem</hi> og <hi rend="italic">jus in re</hi>.</p>
+</sp>
+<sp>
+<speaker>Leonard.</speaker>
+<p>Jeg forstaaer ikke Latin.</p>
+</sp>
+<sp>
+<speaker>Mentor.</speaker>
+<p>Saa b&#x00F8;r De l&#x00E6;re, eller lade mig gaae i Deres Sted. Raadet er ikke tient med Idioter.</p>
+</sp>
+<sp>
+<speaker>Leonard.</speaker>
+<p>Ei heller med l&#x00E6;rde Pedanter.</p>
+</sp>
+<sp>
+<speaker>Mentor.</speaker>
+<p>Nyt Tiiden, daarlige Mand! annam Viisdom!</p>
+</sp>
+<sp>
+<speaker>Leonard.</speaker>
+<p>Gi&#x00F8;r mig ikke vred! Anvend Deres Gaver paa min S&#x00F8;n, derfor betaler jeg Dem.</p>
+</sp>
+<sp>
+<speaker>Mentor.</speaker>
+<p>Hvad betale! hvad betale! Kom mig ikke med den Guld Despotisme, den er endnu v&#x00E6;rre end enhver anden. Betale og commandere meener De er eet. <hi rend="italic">Absit.</hi> Friehed har en anden Guldvigt. Mod mig er De veiet, og funden for l&#x00E6;t. Deres S&#x00F8;n og De selv og den heele Republik tr&#x00E6;nger til mine Indsigter. H&#x00F8;r nu hvad jeg vil sige: <hi rend="italic">jus ad rem</hi> og <hi rend="italic">jus in re</hi>.</p>
+</sp>
+<sp>
+<speaker>Leonard.</speaker>
+<p>Jeg maa hen at kl&#x00E6;de mig. <stage>(Han gaaer.)</stage></p>
+</sp>
+<sp>
+<speaker>Mentor.</speaker>
+<stage>alleene.</stage>
+<p>Du maatte heller gaae n&#x00F8;gen, end have en Forstand saa luuslidt.</p>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="1_6">
+<head type="sub"><pb n="7"/>Siette Optrin.</head>
+<stage><hi rend="bold">Valentin</hi>, <hi rend="bold">Mentor</hi>.</stage>
+<sp>
+<speaker>Mentor.</speaker>
+<p>Valentin! Du kommer ret tilpas. Du er vel ingen Litterat, men Du har us&#x00E6;dvanlig Kundskab og Opdragelse efter din Stand. Gaae mig til Haande, see Du kan faae samlet en Deel Stemmer, som i Dag andrage for Raadet, at der altid burde v&#x00E6;re een, som forstoed Sprog i det diplomatiske Fag, at denne burde handle med alle udenlandske Ministre, og at denne burde have &#x00F8;verste S&#x00E6;de i Republikken.</p>
+</sp>
+<sp>
+<speaker>Valentin.</speaker>
+<p>Og da ventelig bringe Dem i Forslag?</p>
+</sp>
+<sp>
+<speaker>Mentor.</speaker>
+<p>O Nei! Veed Du nogen bedre, da n&#x00E6;vn den.</p>
+</sp>
+<sp>
+<speaker>Valentin.</speaker>
+<p>Nei! jeg veed ingen. Man har saa temmelig renset Republikken fra alt det, som kunde komme i Betragtning i den store Verden; Men &#x00F8;verste S&#x00E6;de, hvad bekymrer en Philosoph sig derom? Raadets Secretair kunde man foreslaae Dem til, og i saa Fald var det best De adresserede Dem til Deres Principal.</p>
+</sp>
+<sp>
+<speaker>Mentor.</speaker>
+<p>Bort med det ford&#x00F8;mte Ord: Principal! Jeg erkiender ingen Principal, uden den, som er klogere end jeg.</p>
+</sp>
+<sp>
+<speaker>Valentin.</speaker>
+<p>Er de da saa klog?</p>
+</sp>
+<sp>
+<speaker>Mentor.</speaker>
+<p>Ja vist er jeg. Det er falsk Hofbeskeedenhed at n&#x00E6;gte, men af Dig at sp&#x00F8;rge derom, er dumt, er <hi rend="italic">impertinent</hi>.</p>
+</sp>
+<sp>
+<speaker>Valentin.</speaker>
+<p>Dumt, det vil jeg indr&#x00F8;mme &#x2013; Men <hi rend="italic">impertinent</hi>, er ikke dette Ord ubrugbart i vor Forfatning? Kan den Ting v&#x00E6;re til, eller det Ord have nogen Bem&#x00E6;rkelse?</p>
+</sp>
+<sp>
+<speaker><pb n="8"/>Mentor.</speaker>
+<p>Det vil endnu sige: Du er l&#x00E6;g og jeg er l&#x00E6;rd; Jeg danner den unge Carl Pettis Forstand. De putser hans Skoe. Du er Tiener, jeg Hofmester, og det er en n&#x00E6;sviis Str&#x00E6;g af en saadan Tiener, at sp&#x00F8;rge en saadan Hofmester saadant et Sp&#x00F8;rsmaal, og hern&#x00E6;st giver jeg din &#x00C6;sel derfor paa din Snude.</p>
+</sp>
+<sp>
+<speaker>Valentin.<note type="footnote">Valentin] <hi rend="italic">rettet fra:</hi> Valenin <hi rend="italic">(trykkfeil)</hi></note></speaker>
+<p>Nei vist gi&#x00F8;r De ikke; De kan ikke handle despotisk midt i Frieheds Ski&#x00F8;d. Liighed er Sielen i vort heele V&#x00E6;sen. Naar de slog mig, maatte jeg for Egalitetens Skyld slaae Dem igien. Og da nu just ikke Naturen har giort os til Ligem&#x00E6;nd i denne Vei, da en saadan Tiener formodentlig er st&#x00E6;rkere end saadan en Hofmester, saa slaaer ikke saadan en Hofmester saadan en Tiener.</p>
+</sp>
+<sp>
+<speaker>Mentor.</speaker>
+<p>Saa skal mine Indsigter ydmyge Dig, dumdristige! <stage>(Han gaaer.)</stage></p>
+</sp>
+<sp>
+<speaker>Valentin</speaker>
+<stage>alleene.</stage>
+<p>Jeg er ydmyget nok midt i denne Sv&#x00E6;rm af Narrestr&#x00E6;ger.</p>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="1_7">
+<head type="sub">Syvende Optrin.</head>
+<stage>Fr&#x00F8;ken <hi rend="bold">Amalia</hi>, <hi rend="bold">Valentin</hi>.</stage>
+<sp>
+<speaker>Amalia.</speaker>
+<p>Hvad Tr&#x00F8;st, kiere Valentin! hvad Haab til Redning? hvad Vei til Flugt? eller er jeg evig d&#x00F8;mt til denne Daarekiste? Ak! hvor min Far, saa klog han var, miskiendte Leonard Pettis, da han betroede ham Baroniet Leverpol til Forvaltning og mig til Opdragelse. Leonard, som kun besidder nedrige Sieles Klogskab til at samle Rigdom, Leonard, hvis Hierte, som alle Gierriges, er fuldt af Despotisme og Tyrannie, Leonard, som allene omfavnede Revolutions-Partiet, for at usurpere adelige <pb n="9"/>Godser og rage i exilerte Pr&#x00E6;laters efterladte Rigdomme. Min Tante, som misallierede sig med ham, svor under Friehedens Fahne, for at h&#x00E6;vne sig over den Adel, af hvilken hun var foragtet; Den som apostaserer, Valentin! bliver altid meest intollerant mod sin forrige Troes Bekiendere. Hendes Forhaanelser gaae mig ind i Sielen. I Dag har hun kronet dem: Baroniet Leverpol, siger hun hiemfalder til Republikken, med mindre jeg gi&#x00F8;r Partie med hendes S&#x00F8;n. Jeg &#x00E6;rer ham, men jeg elsker ham ikke; jeg kan ikke elske ham. Han er nok, troer jeg, blandt alt hvad som sv&#x00E6;rmer paa denne &#x00D8;e, den reedeligste, den som troer, han har Ret og gi&#x00F8;r Ret; Men han sv&#x00E6;rmer, han gl&#x00E6;der sig over, at min Byrd og al Adel forhaanes; han er meere intollerant mod Adel, end Adel nogensinde har v&#x00E6;ret mod andre St&#x00E6;nder. Han fort&#x00E6;ller mig i Dag et Decret: Jeg skal ikke kaldes Fr&#x00F8;ken, men Jomfrue, ikke von Leverpol, men Amalia Lever. B&#x00F8;rnerier i sig selv, det veed jeg nok; men da mine F&#x00E6;dre bare Navnet med &#x00C6;re, da de vare fortiente af Staten, saa smerter det en Datter at ber&#x00F8;ves alle kiere Erindrings-Tegn af Familie-H&#x00E6;der. Foragtet, forladt kan jeg ikke tale et klogt Ord, uden med Ham, Valentin! Ved et Slags Mirakel er han eene ubesmittet af de Frieheds Opiater, der har beruset den heele &#x00D8;e; Jeg veed, han gi&#x00F8;r alt for at tiene mig. Nu er det Tiid, Valentin! nu kan jeg snart ikke meere b&#x00E6;re min Kummer. Kiere! har De udt&#x00E6;nkt nogen Plan, fundet nogen Udvey &#x2013; De tier &#x2013; er der intet Glimt til Haab?</p>
+</sp>
+<sp>
+<speaker>Valentin.</speaker>
+<p>Intet, naadige Fr&#x00F8;ken! jeg vil ikke smigre Dem, aldeeles intet. Jeg kunde vel liste <pb n="10"/>mig bort under et eller andet Paaskud, men jeg b&#x00F8;r ikke forlade Dem &#x2013; &#x2013; Jeg kan ikke.</p>
+</sp>
+<sp>
+<speaker>Amalia.</speaker>
+<p>&#x00C6;dle Menneske! hvormed bel&#x00F8;nner jeg Dem? &#x2013; Dog, det er den Ulyksaliges Lod, han drager altid med sig ned i Faren den, som han af alle skylder mest. O! levede enda min Fader; men i saa lang Tiid intet fra ham, intet om ham, ikke hans Navn i Gazetterne, ikke siden Opr&#x00F8;ret i Constantinopel. Ak nei! han er ikke meere! jeg er altsaa kun en fattig Orpheline, som ingen Tieneste kan bel&#x00F8;nne, mindst nogen, saa vigtig som den, jeg beh&#x00F8;ver af ham.</p>
+</sp>
+<sp>
+<speaker>Valentin.</speaker>
+<p>N&#x00E6;vn ikke Bel&#x00F8;nning, naadige Fr&#x00F8;ken! Det var min Siels heele Stolthed, om jeg engang kunde sige: Denne Ski&#x00F8;nne har jeg frelst fra R&#x00F8;veres H&#x00E6;nder. Jeg faaer et Indfald: Denne Fremmede, som kom, har Opdragelse, kunde jeg vinde ham, bruge ham, han maa blive min Fortroelige, f&#x00F8;rend han bliver nogen andens. Ak! hvor det mindste Glimt af Haab for Dem, min Fr&#x00F8;ken! opliver min heele Siel! Maatte det kun ikke atter skuffe! <stage>(Han gaaer.)</stage></p>
+</sp>
+<sp>
+<speaker>Amalia</speaker>
+<stage>alleene.</stage>
+<p>Hvem er dog denne Valentin? &#x2013; og hvad er det jeg f&#x00F8;ler for ham? &#x2013; Taknemmelighed &#x2013; Ja &#x2013; Men her er noget meere her indenfor &#x2013; H&#x00F8;iagtelse? &#x2013; Nu, ja &#x2013; det er alt &#x2013; meere er det ikke &#x2013; meere b&#x00F8;r det ikke v&#x00E6;re &#x2013; Men hvorfor ikke &#x2013; End Venskab &#x2013; Venskab med en Domistique? Men hvorfor ikke? Det &#x00E6;dleste Menneske i Huuset; Jeg troer n&#x00E6;sten i den heele Bye.</p>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="1_8">
+<head type="sub"><pb n="11"/>Ottende Optrin.</head>
+<stage>Frue <hi rend="bold">Petris</hi>, <hi rend="bold">Amalia</hi>.</stage>
+<sp>
+<speaker>Fruen.</speaker>
+<p>Hillem&#x00E6;nd! en Monologue? Confronterer De maaske Deres adelige Princips med vor stakkels Frieheds Aand? Eller t&#x00E6;ller De endnu Deres Ahner? eller studerer De Heraldiquen? I Sandhed det var en Sielef&#x00F8;dende Videnskab. Jeg erindrer nok, hvor ynkelig min Francoise arbeidede med den, for at oplyse min form&#x00F8;rkede Forstand; Men jeg var en af de uh&#x00E6;ldige Skabninger, som ikke vidste mit eget Beste. Jeg var altid blasphemisk mod alle Adelens Guddommeligheder. Jeg kronede endelig mit Friet&#x00E6;nkerie, da jeg understod mig at troe, at den unge raske Borgers&#x00F8;n Leonard Pettis var bedre skikket til &#x00C6;gteskab, end Baron von Bossy, som var skrutrygget, og skeel&#x00F8;iet, og halt, og stammende.</p>
+</sp>
+<sp>
+<speaker>Amalia.</speaker>
+<p>Ah! min Tante! skaan mig dog engang for Deres Bitterhed! Giv mig Grund til at elske Dem! Jeg falder Dem jo aldrig besv&#x00E6;rlig med adelige Maximer. Jeg bebreider Dem aldrig Deres Valg, ikke mit Hierte bebreider Dem, jeg forsikrer. Jeg f&#x00F8;ler, alt for vel maaske, det Stive i vor Etiquet. Jeg begriber, at en ung Dames Hierte er ingen Timeviiser, som lader sig med Fingrene flytte hen paa hvad Klokkesl&#x00E6;t man vil. Jeg ynker dog enhver Datter, som med &#x00C6;gteskab fort&#x00F8;rner For&#x00E6;ldre, og udelukkes fra deres Samfund. Jeg kan beklage, jeg kan elske Hende, jeg kan ski&#x00E6;nke Natur og Ungdom og Elskov alt; men jeg fordrer, at Hun, i en modnere Alder, dog skal &#x00F8;nske: Gid min Brudgom havde v&#x00E6;ret af samme Byrd som jeg, <pb n="12"/>at F&#x00E6;dres Velsignelser kunde hvilet over mit Huus! Jeg, i deres Sted, Tante! skulde maaskee ikke giort det bedre. Ungdom, en smuk Figur, et godt Forhold, daglig Omgang, Kierligheds Pr&#x00F8;ver, jeg begriber, hvor l&#x00E6;t disse Ting kan indsnige sig i et frit Hierte; Men dette samme Hierte skulle dog &#x00E6;ret de Fordomme, det var n&#x00F8;d til at trodse.</p>
+</sp>
+<sp>
+<speaker>Fruen.</speaker>
+<p>Pr&#x00E6;gtig! I Respect af adelig Indbildning skulle jeg str&#x00F8;e Gift paa min virkelig blomstrende Lyksalighed. Stand er Chimaire, vi ere alle lige.</p>
+</sp>
+<sp>
+<speaker>Amalia.</speaker>
+<p>Saae De da gierne, at Carl &#x00E6;gtede Lise?</p>
+</sp>
+<sp>
+<speaker>Fruen.</speaker>
+<p>Det er en anden Sag. Min Pettis var ingen Bondes&#x00F8;n, ingen Haandv&#x00E6;rks-Burs; hans Fader var Ki&#x00F8;bmand, kom i vore S&#x00E6;lskaber og vi til ham.</p>
+</sp>
+<sp>
+<speaker>Amalia.</speaker>
+<p>S&#x00E6;lskab og &#x00C6;gteskab er gandske forski&#x00E6;lligt. Jeg erindrer, som en Dr&#x00F8;m, at min Fader holdt baade S&#x00E6;lskab og Venskab med en M&#x00F8;ller og en Bonde i hans Naboelav, begge v&#x00E6;rdige M&#x00E6;nd, at han sagde mig, som et Barn: Foragt ingen Stand, min Amalia! I alle St&#x00E6;nder gives &#x00E6;dle Mennesker; men neppe vilde han, at jeg skulde &#x00E6;gtet M&#x00F8;llerens eller Bondens S&#x00F8;n. &#x2013; Men da nu denne Fader har betroet sin Svoger Baroniet og sin S&#x00F8;ster Datteren, saa turde dog denne svage Rest af Adelen saaledes haabe nogen Beskyttelse under en Tantes Vinger. Hvor h&#x00F8;itidelig skulle De forsone alle Forn&#x00E6;rmelser mod Deres Stamme, ved at opelske med Moderlig Haand det eeneste Skud, som oprinder under Deres Huuses Skygge.</p>
+</sp>
+<sp>
+<speaker>Fruen.</speaker>
+<p>Det skulde jeg ogsaa; men Du forsmaaer min S&#x00F8;n, og her er ikke en Draabe adeligt Blod <pb n="13"/>paa &#x00D8;en. Han er dog en Bastard, og for en saadan ikke saa daarlig. Ikke sandt, er det ikke en ki&#x00F8;n Dreng?</p>
+</sp>
+<sp>
+<speaker>Amalia.</speaker>
+<p>Altiid et Partie over mine n&#x00E6;rv&#x00E6;rende Vilkaar, altiid i denne Forfatning det beste jeg kunde gi&#x00F8;re; Men jeg troer ikke han elsker mig. Han skal giftes, meener han, og med mig saasnart som med en anden. Hans Gallanterie bestaaer til Dato i at sige mig Grovheder, og hvad mig angaaer, jeg elsker ham ikke, jeg kan ikke elske ham; Og min Tante kan ikke kalde den Pr&#x00E6;tention ubillig, at man vil f&#x00F8;le en Smule Tilb&#x00F8;ielighed til den Person man skal v&#x00E6;lge. Siden Byrd er ligegyldig til &#x00C6;gteskab, saa burde dog nok ikke Kierlighed v&#x00E6;re det.</p>
+</sp>
+<sp>
+<speaker>Fruen.</speaker>
+<p>H&#x00F8;r, lille kostbare Fr&#x00F8;ken! Jeg agter ikke med mange Ord at udprange min S&#x00F8;n. Den Frieheds-Aand, som j&#x00E6;vner alt, t&#x00F8;r ogsaa j&#x00E6;vne dette. Kan hende, inden Soel gaaer ned, at De modtager stakkels Carl, som en Naadegave. Octoviratet ventilerer i Dag et Decret, som skal gi&#x00F8;re alting nyttigt og brugbart til Republikkens Tieneste, lige indtil den overblevne Rest af Adel her paa &#x00D8;en, og indtil videre, for at v&#x00E6;nne Deres Fl&#x00F8;iels &#x00D8;rne til det nye Navn; Farvel, Jomfrue Amalia Lever! <stage>(Hun gaaer.)</stage></p>
+</sp>
+<sp>
+<speaker>Amalia</speaker>
+<stage>alleene.</stage>
+<p>Ubarmhiertige! hvor langt vil du drive din Gruesomhed? &#x2013; &#x2013; Alting nyttigt og brugbart i Republikkens Tieneste &#x2013; Man vil dog vel ikke bruge os som Slavinder til F&#x00E6;stnings-Arbeyde?</p>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="1_9">
+<head type="sub"><pb n="14"/>Niende Optrin.</head>
+<stage><hi rend="bold">Dorant</hi>, <hi rend="bold">Amalia</hi>.</stage>
+<sp>
+<speaker>Dorant.</speaker>
+<p>Jeg er fremmed, som De seer, naadige Fr&#x00F8;ken, men jeg haaber Deres Bekiendtskab. Jeg finder dem bedr&#x00F8;vet, jeg veed nogen Grund dertil allereede, og jeg gietter meere. Jeg troer Dem i den Grad forn&#x00E6;rmet paa denne &#x00D8;e, at en fremmed med mindre Hazard enden Landsmand t&#x00F8;r blotte sig for dem. Jeg vover at sige Dem strax under fire &#x00D8;ine, at De er den fornemste Gienstand for min Komme til denne &#x00D8;e. Meere maa jeg endnu ikke sige. Plan har jeg endnu ikke kundet lagt, men eet er jeg kommen at sp&#x00F8;rge om: Denne Valentin synes Mig en Smule klogere end de fleeste Folk her til Lands, han lader at &#x00F8;nske min Fortroelighed, jeg tr&#x00E6;nger til hans. Siig mig, jeg besv&#x00E6;r Dem, er han Dem hengiven? t&#x00F8;r jeg troe ham? kan jeg bruge ham i Anliggender, som stemme med min naadige Fr&#x00F8;kens egne &#x00D8;nsker.</p>
+</sp>
+<sp>
+<speaker>Amalia.</speaker>
+<p>Uden Omsv&#x00F8;b, min Herre! Der er intet saa farligt, intet saa besv&#x00E6;rligt, han jo fors&#x00F8;ger det for min Skyld. Og De, &#x00E6;dle Fremmede! Er De falden ned af Himmelen, som en Skyts-Engel for Betr&#x00E6;ngte, saa holde og Himlen sin Varet&#x00E6;gt over Dem. Tusende Farer ville omringe hvert Skrit De skal gaae. Almindelig Forvirrelse kuldkaster enhver fornuftig Plan. Hver Dag er frugtbar paa nye Voldsomheder. Ingen Ting er hellig for den larmende P&#x00F8;bel. Eiendom, &#x00C6;re, Liv, alting er som Ladning, Takkelagen og Roer flydende endnu paa B&#x00F8;lgerne, men ved Stormen revne det eene fra det andet, jeg selv var siunken allereede, <pb n="15"/>om ikke denne Valentin havde udrakt imod mig sitt hielperige Arm. Og denne Dag! o! den tr&#x00E6;kker M&#x00F8;rk sammen, det gielder, GUd veed hvorledes just i Dag, maaskee baade min Friehed og &#x00C6;re. I Dag maa jeg frelses, eller jeg er forloren min Livs Tid.</p>
+</sp>
+<sp>
+<speaker>Dorant.</speaker>
+<p>Saa er min Operations Termin knap taget, n&#x00E6;sten alt for peremptorisk; Men fat Dem, min Fr&#x00F8;ken! jeg har Anl&#x00E6;g og haaber resourcer. Har kun ogsaa denne Valentin Courage?</p>
+</sp>
+<sp>
+<speaker>Amalia.</speaker>
+<p>Ja derom t&#x00F8;r de ikke tvile. Men vi maa gaae hver til sit. Vort Tetatete kunde mist&#x00E6;nkes. <stage>(De gaaer ud hver sin Vei. Amalia vender om og siger)</stage> Men for alting exponeer ham ikke. Det er et Menneske af megen indvortes V&#x00E6;rd. <stage>(De gaae.)</stage></p>
+</sp>
+<stage>Ende paa F&#x00F8;rste Handling.</stage>
+</div>
+</div>
+<div type="chapter" subtype="act" n="2">
+<head type="main">Anden Handling.</head>
+<div type="uchapter" subtype="scene" n="2_1">
+<head type="sub">F&#x00F8;rste Optrin.</head>
+<stage><hi rend="bold">Leonard</hi>, kl&#x00E6;d som Raadsherre, <hi rend="bold">Lise</hi>, som b&#x00F8;rster ham.</stage>
+<sp>
+<speaker>Lise.</speaker>
+<p>Jo, Jo! Lise bliver dog den bedste naar alt kommer til alt. Vil han troe, Fatter! at der stikker endnu en Smule Adel i Frue Pettis; hendes Fingre staae ikke saa ret til dette Smaa-V&#x00E6;sen, hun vil nok have Fatter pr&#x00E6;gtig, men hun gider ikke v&#x00E6;ret over at pynte ham; Men see nu skal han blive saa reputeerlig, som Holophernes.</p>
+</sp>
+<sp>
+<speaker><pb n="16"/>Leonard.</speaker>
+<p>Du er ret en Sladderhanke; Men h&#x00F8;r nu Lise, hvad jeg vil sige: See der har Du 3 Breve til 3 af mine Colleger, som Du seer, og der er 3 Pakker, alle liige store, forstaaer Du mig; Du leverer, f&#x00F8;rst til enhver Brevet, og naar det er l&#x00E6;st, siger Du: Kan Leonard haabe at De vil forrette Commissionen? Svares der da: Ja; saa leverer Du en af Pakkerne og siger: Her er vist nogle Penge som skulle f&#x00F8;lge med til Deres Disposition. For, seer Du, der er Banco-Noter i Pakkerne, forstaaer Du mig. De ere fattige Di&#x00E6;vle, og dem kan man ki&#x00F8;be, saa ere de altid af min Meening; forstaaer Du mig?</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>Men er ikke dette, med Forlov, en Slags Bestikkelse? Jeg meente den h&#x00F8;rte kun til Aristocratie og Monarchie? burde ikke disse Skabhalse holde med Fatter alligevel, naar Fatter har Ret? Men kandskee denne Gang &#x2013; &#x2013;</p>
+</sp>
+<sp>
+<speaker>Leonard.</speaker>
+<p>Ja vist har jeg Ret, men de maa dog sm&#x00F8;rres. For de ere ellers avindsyge paa min Rigdom, forstaaer Du mig, og saa ere de mig altid imod.</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>Men med Forlov, jeg sp&#x00F8;r nu som en Tosse i min Eenfoldighed: Naar man dog saaledes faaer sin Villie frem ved bare Penge, er ikke dette Bestikkelse?</p>
+</sp>
+<sp>
+<speaker>Leonard.</speaker>
+<p>Nei vist ikke; nei. Jeg vil strax viise Dig hvordan det er; H&#x00F8;r nu: b&#x00F8;r ikke Du r&#x00F8;gte disse &#x00C6;rinder for Din Huusbond?</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>Jo det forstaaer sig.</p>
+</sp>
+<sp>
+<speaker>Leonard.</speaker>
+<p>B&#x00F8;r Du sladdre af Skolen, naar Fatter, som holder af Dig, betroer Dig noget hemmelig?</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>Nei, GUd bevare os vel, da var jeg et Skarn.</p>
+</sp>
+<sp>
+<speaker><pb n="17"/>Leonard.</speaker>
+<p>Men naar jeg nu oveniki&#x00F8;bet for&#x00E6;rer Dig en Banco-Note paa 5 Pd. Sterl. <stage>(han giver hende den)</stage> bestikker jeg Dig da?</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>O! nei vist ikke, nei. Jeg takker tusindfold. Nu fik jeg det rette Lys i Sagen. O! hvad denne Friehed dog er et nyt Liv, og denne Republik ret en allerkiereste Ting. Men Fatter! her er kun 3 Pulvere og der er jo 7 Patienter?</p>
+</sp>
+<sp>
+<speaker>Leonard.</speaker>
+<p>Gaae, du lille Nar! Bombast, forstaaer du mig, er riig, ligesom jeg, og har Jordegods af samme Natur, som mit, han er altid af min Meening. Altsaa ere vi 5, forstaaer Du, og saa overstemme vi de &#x00F8;vrige 3, og lade saa den Knurpotte Philalet ski&#x00E6;lde l&#x00E6;nge nok.</p>
+</sp>
+<sp>
+<speaker>Lise</speaker>
+<stage>(i det hun gaaer)</stage>
+<p>O du Republik! du Republik! du Republik! hvad du dog ret er en Himmel paa Jorden.</p>
+</sp>
+<sp>
+<speaker>Leonord</speaker>
+<stage>(allene)</stage>
+<p>Ja bare den P&#x00F8;bel, den P&#x00F8;bel, den er mig saa di&#x00E6;vlebl&#x00E6;ndt uregierlig. Naar ikke det var, saa ville jeg styre Republikken med en Silketraad, og saa kunde man have mangen feed Steeg, og man kunde saa ki&#x00F8;nt for&#x00F8;ge sin Rigdom.</p>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="2_2">
+<head type="sub">Andet Optrin.</head>
+<stage><hi rend="bold">Carl Pettis</hi>,<note type="footnote">Carl Pettis] <hi rend="italic">rettet fra:</hi> Carl, Pettis <hi rend="italic">(trykkfeil)</hi></note> <hi rend="bold">Leonard</hi>.</stage>
+<sp>
+<speaker>Carl.</speaker>
+<p>Frisk Allarm! Atter Spektakler af denne forbandede Gierrigheds Aand; men H&#x00E6;vnens Time er kommen baade over den og alle andre Afgrundens Vanskabninger. Flittig Hilsen fra Bombast, han har da ogsaa faaet nok; Jeg forstod vel, det ville tilsidst komme noget saadant ud af hans Bondeplagerie. Der er Vacance i Octoviratet. Bombast <pb n="18"/>er gaaen derhen, hvor en Guine og en Kopek hvor Piaster og Assignater gaae all pari, og han tog ikke en Skilling med sig.</p>
+</sp>
+<sp>
+<speaker>Leonard.</speaker>
+<p>Bombast, min Gemyts Ven, d&#x00F8;d; Hvordan? Af et Slag.</p>
+</sp>
+<sp>
+<speaker>Carl.</speaker>
+<p>Af et eller fleere, det kan jeg ikke sige; men han er slagen ihiel af sine B&#x00F8;nder, som han dr&#x00E6;bte saa langsom.</p>
+</sp>
+<sp>
+<speaker>Leonard.</speaker>
+<p>Min GUd! en Octovir af en Bonde? Nei! det gaaer for vidt.</p>
+</sp>
+<sp>
+<speaker>Carl.</speaker>
+<p>Ja! en Bonde af en Octovir, det gik ligesaa vidt, de ere begge et Par tobeenede Gude Skabninger.</p>
+</sp>
+<sp>
+<speaker>Leonard.</speaker>
+<p>O! jeg forskr&#x00E6;kkes, hvor gik det til?</p>
+</sp>
+<sp>
+<speaker>Carl.</speaker>
+<p>O! denne Gang var det en smal Sag; men gammelt velfortient Had br&#x00F8;d ud. En fuld Bonde, som maaskee havde v&#x00E6;ret grov, nedstyrtet af hans Trapper og ligger i Svime paa Gaden, andre B&#x00F8;nder see det, forbittres, tr&#x00E6;nger ind i Huuset; hvordan der gik til, veed jeg ikke. Nok! Bombast er heden faren. Vogt De Dem, min Far! Deres egne B&#x00F8;nder har De vel faaet vante til L&#x00E6;nken; men de paa Baroniet vare anderledes vante f&#x00F8;r, og de vil snart ikke meere taale min Faders alt for trykkende Haand.</p>
+</sp>
+<sp>
+<speaker>Leonard.</speaker>
+<p>O! der blir en Raad med, gid vi saa vist havde Bombastes Plads vel besat. En Tverdriver i hans Sted i Octoviratet, saa staaer man der, saa faaer man ingen Ting drevet igiennem. <stage>(han gaaer)</stage></p>
+</sp>
+<sp>
+<speaker>Carl.</speaker>
+<stage>(allene)</stage>
+<p>Min GUd! hvad Alderdommen dog er fuld af R&#x00E6;nker; Men jeg skal opdage dem, jeg skal ikke skaane om det og var min Fader selv. Intet skal v&#x00E6;re mig helligt uden Friehed og Ret.</p>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="2_3">
+<head type="sub"><pb n="19"/>Tredie Optrin.</head>
+<stage><hi rend="bold">Dorant</hi>, <hi rend="bold">Carl</hi>.</stage>
+<sp>
+<speaker>Dorant.</speaker>
+<p>Min unge Helt! fort&#x00E6;l mig lidt om Revolutionen her paa &#x00D8;en, vi vide ikke stort meere paa det faste Land, end at De har tilf&#x00E6;gtet Dem Friehed, og at De endog ville v&#x00E6;re uafh&#x00E6;ngige af det Rige, hvoraf De f&#x00F8;r udgiorde en Provinds.</p>
+</sp>
+<sp>
+<speaker>Carl.</speaker>
+<p>O! min Herre! naar De har l&#x00E6;st om en Revolution i Verden, saa kiender De 100de; saa veed De om graadig Geistlighed, om stolt Adel, om despotisk Gouvernement. Dette kan v&#x00E6;re nok for de T&#x00E6;nkende; Men skal P&#x00F8;bel bringes i Harnisk, maa hertil komme Pengetrang; Alt dette st&#x00F8;der sammen paa vor &#x00D8;e. Det heele Eventyr gider jeg ikke fortaalt. Vor Konge har jeg aldrig kiendt eller seet; men vor Gouverneur var en af de smaa m&#x00F8;rke Tyranner, der vilde betragtes som en liden Guddom paa denne &#x00D8;e, og disse Under-Guder dem har Fanden skabt. Kort sagt: vi f&#x00F8;lede os paa &#x00D8;en som paa det faste Land. Vi streed for Friehed, vi fik den, vi have den og saa, men, ak! den har mange Forr&#x00E6;dere.</p>
+</sp>
+<sp>
+<speaker>Dorant.</speaker>
+<p>Friehed hos Dem? mig synes alt hvad jeg seer er frit. Her er intet Baand, ingen Tvang, ingen Aristocrat, ingen Hierark, ingen Despot; saa mange Siele, saa mange Frieheds Venner.</p>
+</sp>
+<sp>
+<speaker>Carl.</speaker>
+<p>&#x00C6;dle Fremmede! De kiender os ikke. 100de Fiender for hver Ven. I den f&#x00F8;rste Heede br&#x00E6;nder alt, og en Aand synes besi&#x00E6;le alle. Men nu, hvor mange Ski&#x00E6;vheder opdager jeg ikke. De som i Revolutionens haardeste Tid vare Engle, de som da talte Gudernes Sprog, ere nu Di&#x00E6;vle, <pb n="20"/>hvisle nu deres Egennytte frem, eller deres private Had, eller deres Stoltheds Plan. De fleeste gamle Borgere plages af Gierrigheds Aand. Haandtv&#x00E6;rkere begynde at caballere for deres monopoliske Laugs-Artikler. Jordegods Eiere ville beholde saa meget mueligt af Hoverie-Tr&#x00E6;ldommens gamle Suurdei. Ki&#x00F8;bst&#x00E6;d-P&#x00F8;bel er P&#x00F8;bel, sv&#x00E6;rmende, vaklende, nedrig. Dersom en Adelsmand endnu i dette &#x00D8;ieblik hvervede 10, som kunde skraale, og gav saa dertil en Smaus, nogle T&#x00F8;nder &#x00D8;l Br&#x00E6;ndeviin paa Torvet, saa opvakte han gierne en Contrarevolution, for hvilken alt maatte vige. Kun Bonden er den karakteristiske Klasse af Mennesker. Men disse ere for &#x00E6;rlige, for eenfoldige, enten mistroiske mod en redelig Mand, fordie de ere saa tidt bedragne, eller og, naar nogen f&#x00F8;rst vinder dem, alt for godtroende. Og faaer jeg nu ikke min Plan drevet igiennem for denne vigtige Stands Friehed, kan Bonden gierne sige, som &#x00C6;slet i Fabelen: Hvad skiller det mig hvem jeg tiener, naar jeg dog maa b&#x00E6;re mine Kl&#x00F8;ver. Men hvad er det? Stormklokken ringer &#x2013; bliv her &#x2013; staae mig bie, om jeg kalder Dem. <stage>(Han gaaer.)</stage></p>
+</sp>
+<sp>
+<speaker>Dorant</speaker>
+<stage>(allene)</stage>
+<p>Den sande Republikaner.</p>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="2_4">
+<head type="sub">Fierde Optrin.</head>
+<stage><hi rend="bold">Valentin</hi> med Pallask, <hi rend="bold">Dorant</hi>.</stage>
+<sp>
+<speaker>Dorant.</speaker>
+<p>Hvad er der, min Ven! hvad er der?</p>
+</sp>
+<sp>
+<speaker>Valentin.</speaker>
+<p>Kun Mord og Nederlag, min Herre! kun P&#x00F8;bel og Borgervagt som slaaes, kun Menneskeblod som rinder langs Gaden, kun hver Dags Optrin. Denne Gang et Slags-Maal hos <pb n="21"/>en Horevert, Borgervagten skal gaae ind og stifte Fred, den drives tilbage. Partiet voxer paa begge Sider, og Seieren er tvetydig.</p>
+</sp>
+<sp>
+<speaker>Dorant.</speaker>
+<p>Skal De da hen og tage Partie, siden De b&#x00E6;r Sv&#x00E6;rd?</p>
+</sp>
+<sp>
+<speaker>Valentin.</speaker>
+<p>Nei, jeg har mit engang for alle. Naar Stormklokken ringer har Hr. Pettis befalet mig at forsvare hans Huus.</p>
+</sp>
+<sp>
+<speaker>Dorant.</speaker>
+<p>I Sandhed dette huuslige Partie var og det bedste, naar man ikke var oplagt til Krig.</p>
+</sp>
+<sp>
+<speaker>Valentin.</speaker>
+<p>Ikke oplagt til Krig? De skulle, hvad mig angaaer, ikke stole derpaa, om De var min Modstander. Jeg er i det mindste &#x00D8;vet fra min Barndom i alt hvad som h&#x00F8;rer dertil. Opdragelsen har just ikke bestemt mig til Tiener-Rullen; Men i Statens Jordski&#x00E6;lv tumles man saa underlig om.</p>
+</sp>
+<sp>
+<speaker>Dorant.</speaker>
+<p>Velan da, Tiden er kostbar. Jeg b&#x00F8;r aabne Dem af min Plan, hvad jeg kan. Jeg er udsendt at bortf&#x00F8;re Fr&#x00F8;ken Leverpol, hun er elsket, og Kierlighed vil gi&#x00F8;re meere for hende, end man kan troe her til Lands.</p>
+</sp>
+<sp>
+<speaker>Valentin.</speaker>
+<p>Hun er elsket! &#x2013; ventelig af en Adelsmand, en Mand i glimrende Forfatning.</p>
+</sp>
+<sp>
+<speaker>Dorant.</speaker>
+<p>Af en Adelsmand i glimrende Forfatning.</p>
+</sp>
+<sp>
+<speaker>Valentin.</speaker>
+<p>I en eller anden Monarkes Tieneste?</p>
+</sp>
+<sp>
+<speaker>Dorant.</speaker>
+<p>I Kongen af Dannemarks.<note type="footnote">Kongen af Dannemarks] <hi rend="italic">rettet fra:</hi> Kongens af Dannemark <hi rend="italic">(trykkfeil)</hi></note></p>
+</sp>
+<sp>
+<speaker>Valentin.</speaker>
+<p>Han har altsaa seet hende paa denne &#x00D8;e?</p>
+</sp>
+<sp>
+<speaker>Dorant.</speaker>
+<p>Paa denne &#x00D8;e. Men nu ikke fleere Sp&#x00F8;rsmaal. Vil De staae hende bie?</p>
+</sp>
+<sp>
+<speaker>Valentin.</speaker>
+<p>Vil De v&#x00E6;re hende saa troe som jeg, da opofre vi Liv og Blod for hendes Vel. &#x2013; Men hun er elsket. &#x2013; Jeg veed ikke &#x2013; Jeg skulle biedrage &#x2013;?</p>
+</sp>
+<sp>
+<speaker><pb n="22"/>Dorant.</speaker>
+<p>Hvordan? De vakler? Jeg har endnu ikke truffet min Mand; De skal blive bel&#x00F8;nnet, rigelig bel&#x00F8;nnet. Mit Rederie har udrustet mig med ski&#x00F8;nne Hollandske Ducater.</p>
+</sp>
+<sp>
+<speaker>Valentin.</speaker>
+<p>Dristige Fremmede! var det ikke mod Gieste-Ret, jeg skulle l&#x00E6;re Dem hvad det er at troe min Siel til Fals. Nei! blot Domestique, som De seer mig, tiener jeg Dyd og Ski&#x00F8;nhed par Honneur. Men hun er elsket &#x2013; er De vis paa at hun vil elske igien.</p>
+</sp>
+<sp>
+<speaker>Dorant.</speaker>
+<p>Saa vis, som paa nogen Ting i Verden.</p>
+</sp>
+<sp>
+<speaker>Valentin.</speaker>
+<p>Grunder denne Vished sig paa det almindelige Begreb om unge Damers Forf&#x00E6;ngelighed, saa turde den netop her tage m&#x00E6;rkelig Feil.</p>
+</sp>
+<sp>
+<speaker>Dorant.</speaker>
+<p>Som jeg siger, jeg er Dem Borgen derfor.</p>
+</sp>
+<sp>
+<speaker>Valentin.</speaker>
+<p>En underlig Sag at borge for. Men <hi rend="italic">enfin</hi>, hun b&#x00F8;r bortf&#x00F8;res. Jeg har &#x00F8;nsket at kunde gi&#x00F8;re det l&#x00E6;nge f&#x00F8;r De kom. Og nu Cavaillers Parolle, at naar hun kommer hvorhen De vil, De aldrig overtaler, endnu mindre tvinger hende, mod hendes Tilb&#x00F8;ielighed. Jeg f&#x00F8;lger med. Jeg forlader hende ikke. Og det &#x00D8;ieblik jeg m&#x00E6;rker Mine eller Anl&#x00E6;g til noget saadant, anseer jeg Dem for en af disse Despoternes nedrige Gesandtere, der omstrippe Land og Strand, for at sanke uskyldige Ski&#x00F8;nheder til at recrutere Deres Herrers Serail. Og da skal denne <stage>(han slaaer paa sin Pallask)</stage> s&#x00F8;ge Dem og deres Hierte, om det var igiennem tredobbelte Muure.</p>
+</sp>
+<sp>
+<speaker>Dorant.</speaker>
+<p>De taler som en Mand af &#x00C6;re, og vi harmonere meere end De kan troe. See der er en <pb n="23"/>Guldb&#x00F8;rs, hav den Godhed dermed at hverve et Snees raske Karle, forsynede med Sv&#x00E6;rd og Pistoler, altid f&#x00E6;rdige til deres Vink. Lad dem stedse patroullere, ikke langt fra Fr&#x00F8;kenen; lad dem ikke indlade sig i nogen anden Bande, hvor vidt vi skulle beh&#x00F8;ve dem eller ikke, kan jeg endnu ikke vide. Forbereed Fr&#x00F8;kenen til Standhaftighed. Jeg maa ud og see om jeg kunde opdage et eller flere Tilf&#x00E6;lde, som kan favorisere vor Plan. <stage>(Han gaaer.)</stage></p>
+</sp>
+<sp>
+<speaker>Valentin.</speaker>
+<stage>(allene)</stage>
+<p>Nu f&#x00F8;rst f&#x00F8;ler jeg at jeg elsker, nu, da jeg skal arbeide for en anden, nu da jeg med egen Haand skal udslukke mit svage Haab &#x2013; elsket paa det faste Land &#x2013; maaskee dog kun af en Besl&#x00E6;gtet &#x2013; en Oncle &#x2013; en Fader &#x2013; ja maaskee hendes Fader lever &#x2013; Dog hvad da &#x2013; da blev Afstanden mellem hendes og mine Kaar alt for stor &#x2013; Og nu ikke engang spille Hoved-Rullen i hendes Bortf&#x00F8;relses Act &#x2013; Kun Dorantis Haandtlanger, kun hans Fortroelige, kun <stage>(han seer paa Guldb&#x00F8;rsen med Foragt)</stage> hans Hverver. Der er hun.</p>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="2_5">
+<head type="sub">Femte Optrin.</head>
+<stage><hi rend="bold">Amalia</hi>, <hi rend="bold">Valentin</hi>.</stage>
+<sp>
+<speaker>Amalia.</speaker>
+<p>Saa m&#x00F8;rk, Valentin! saa dybsindig. Det er min Frelse, De l&#x00E6;gger Plan til, ikke sandt?</p>
+</sp>
+<sp>
+<speaker>Valentin.</speaker>
+<p>Jo, naadige Fr&#x00F8;ken! <stage>(afsides)</stage> og min egen Undergang.</p>
+</sp>
+<sp>
+<speaker>Amalia.</speaker>
+<p>Ak! &#x00E6;dle ypperlige Valentin! De er saa forvirret, De bedr&#x00F8;ver mig. Jeg blues ikke ved at sige det: De er min eeneste Fortroelige, min beste Ven paa den heele &#x00D8;e. De er ellers saa blid, saa lys, saa bestemt: D&#x00F8;dens Skygger over dette <pb n="24"/>Ansigt er endnu det grueligste M&#x00F8;rke, der trak sig op over min Horizont. &#x2013;</p>
+</sp>
+<sp>
+<speaker>Valentin.</speaker>
+<p>Jeg f&#x00F8;lede at jeg var Dem vigtig; dette var min Stolthed, min Gl&#x00E6;de. Jeg f&#x00F8;ler, at jeg ikke meere er det; dette er min Ydmygelse, min Smerte. Dorantes frelser Dem; jeg gaaer ham kun til Haande. De kommer til det faste Land, i glimrende Forfatning; jeg f&#x00F8;lger, og taber mig i Sviten af Deres Opvartere. Deres Dyd bel&#x00F8;nnes i en v&#x00E6;rdig Elskers Arme. &#x2013; &#x2013;</p>
+</sp>
+<sp>
+<speaker>Amalia.</speaker>
+<p>En Elsker? Hvem kan elske mig?</p>
+</sp>
+<sp>
+<speaker>Valentin.</speaker>
+<p>Enhver som har seet og kiendt Dem.</p>
+</sp>
+<sp>
+<speaker>Amalia.</speaker>
+<p>Det var nu kun en Compliment; Men har De Grund til at n&#x00E6;vne en bestemt Elsker?</p>
+</sp>
+<sp>
+<speaker>Valentin.</speaker>
+<p>Ja! saa siger Dorant.</p>
+</sp>
+<sp>
+<speaker>Amalia.</speaker>
+<p>Siig Dorant igien: Jeg vil bel&#x00F8;nne, om jeg kan, min Bortf&#x00F8;relse, men ikke saa dyre, ikke ved at tabe frie Raadighed over mit Hierte.</p>
+</sp>
+<sp>
+<speaker>Valentin.</speaker>
+<p>Jeg har giort den Paastand paa Deres Vegne, naadige Fr&#x00F8;ken! Men man l&#x00E6;rer at elske i Deres Alder. Et anst&#x00E6;ndigt &#x2013; Ja, meere: et glimrende Partie, og <stage>(Han seer veemodig paa Amalia)</stage> et frit Hierte. &#x2013;</p>
+</sp>
+<sp>
+<speaker>Amalia.</speaker>
+<stage>(Afsides sukkende.)</stage>
+<p>Et frit Hierte! Valentin! De vil dog f&#x00F8;lge mig?</p>
+</sp>
+<sp>
+<speaker>Valentin.</speaker>
+<p>Om jeg vil, jeg maa &#x2013; om det var til Siberien. <stage>(Han falder paa Kn&#x00E6; og kysser hendes Haand, men reiser sig strax igien, som om han havde giort en Misgierning.)</stage> Tilgiv min Forvirrelse, min Dumdristighed. Der ere &#x00D8;ieblikke, hvor man glemmer sin Stand og andres tillige. Ah! denne Sielens For&#x00E6;dling ved boglige Kunster, skal jeg <pb n="25"/>velsigne eller forbande den, den, som gi&#x00F8;r vore F&#x00F8;lelser saa levende og vore Hierter saa aabne for Indtryk af det Ski&#x00F8;nne? Skal jeg takke min Fosterfader, den &#x00E6;dle Aretus, eller laste ham? Han burde l&#x00E6;rt mig at pl&#x00F8;ie og harve, at saae og h&#x00F8;ste. Uden L&#x00E6;sning, uden Videnskaber skulde jeg dyrket den taknemmelige Jord, og med en trivelig Bondepige forplantet min Sl&#x00E6;gt, ubekymret, enten jeg betalte min Skat til Monarchiet eller Republikken. Men nu f&#x00F8;ler jeg kun alt for meget, nu sv&#x00E6;ver stedse for mine &#x00D8;ine dette Verdens Sp&#x00F8;gelse, som man kalder &#x00C6;re. Min Byrd maatte jeg ikke vide, men just derfor maa den have v&#x00E6;ret alt for ringe. Denne tunge Tanke falder ofte ned paa mine muntre &#x00D8;ieblikke, som &#x00D8;rnen paa en Flok uskyldige Duer. O! hvor s&#x00F8;dt maa det v&#x00E6;re, at kunde n&#x00E6;vne Fader og Moder i heele Verdens Aasiun, uden at r&#x00F8;dme. Men Ak! &#x2013; dog jeg for&#x00F8;der Tiden; bereed Dem, naadige Fr&#x00F8;ken! til Bortf&#x00F8;relse, maaskee i Dag. Deres T&#x00F8;i, Deres Pr&#x00E6;tiosa maatte indpakkes og bringes i mit Kammer. Vent n&#x00E6;rmere Vink fra mig, og forglem, om jeg i denne Samtale har forglemt, at jeg var kun en Tiener! <stage>(Han gaaer.)</stage></p>
+</sp>
+<sp>
+<speaker>Amalia.</speaker>
+<stage>(alleene.)</stage>
+<p>Men en Tiener, som Naturen neppe har bestemt til at v&#x00E6;re det &#x2013; Han elsker; Men jeg &#x2013; Forraskelige Hierte! hvo kan vaage nok mod dine Overrumplinger? Da han kyste min Haand, hvilken Ild sneeg sig ind i mit Blod! hvor meget Blod steeg der op i mit Ansigt! Men hvad var det? En ufrievillig F&#x00F8;lelse, som kom, jeg veed ikke hvorfra, som fortryllede mine Sandser, jeg veed ikke hvorledes, men som jeg ikke biefalder, som jeg vil dempe. Jeg vil; thi jeg b&#x00F8;r.</p>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="2_6">
+<head type="sub">Siette Optrin.</head>
+<stage><hi rend="bold">Brontis</hi>, en Bondekone, <hi rend="bold">Amalia</hi>.</stage>
+<sp>
+<speaker><pb n="26"/>Brontis.</speaker>
+<stage>(kyssende Fr&#x00F8;kens Haand.)</stage>
+<p>Guds Fred, Fr&#x00F8;ken! Hvor lever Hun?</p>
+</sp>
+<sp>
+<speaker>Amalia.</speaker>
+<stage>(omfavnende hende.)</stage>
+<p>Siig: Du til mig, beste Brontis! kald mig Mallemor, som f&#x00F8;r, omfavn mig, som da jeg laae uskyldig diende ved dit Bryst! Jeg har vel f&#x00F8;r gr&#x00E6;dt ved denne Barm, men aldrig saa bittre Taarer.</p>
+</sp>
+<sp>
+<speaker>Brontis.</speaker>
+<p>O! Du er dog endnu det samme gode velsignede Barn, som Du altid har v&#x00E6;ret, og aldrig storagtig mod ordinaire Folk, og saa var For&#x00E6;ldre for Dig, GUd tr&#x00F8;ste deres Siel! Du har godt at sl&#x00E6;gte paa; Men hvorfor gr&#x00E6;der Du, Mallemor! Du faaer mig med til at gr&#x00E6;de. Hvor lever Du i al denne Forskr&#x00E6;kkelse og al denne R&#x00F8;re?</p>
+</sp>
+<sp>
+<speaker>Amalia.</speaker>
+<p>Jeg lever som den, der sidder paa Hv&#x00E6;lvet af en Baad, og seer, om der ingen kommer, som vil redde. Men f&#x00F8;rst siig mig: Hvor gaaer det Dig i din Enkestand? Skal din S&#x00F8;n ikke gifte sig? Hvordan styrer han sin Faders Gaard? Jeg skylder ham meget; jeg ber&#x00F8;vede ham den moderlige Melk, hvortil han var f&#x00F8;d med st&#x00F8;rre Ret end jeg.</p>
+</sp>
+<sp>
+<speaker>Brontis.</speaker>
+<p>O! GUd tr&#x00F8;ste mig arme bedr&#x00F8;vede Moders; Jeg har ingen Robbert meere! Han var forleden ude paa Fiske; da han kom til lands, kom der Byefolk og ville ki&#x00F8;be Fisk, de var halv rusende, og snakkede om alt som til var. Saa var der een, som sagde: V&#x00E6;r nu glad Robbert! du skal ikke v&#x00E6;re Hoverle-Bonde l&#x00E6;nger; Nu skal ikke Leverpolen ride paa Dig, som paa en Hest. Saa sagde han, stakkels Dreng: GUd give Leverpolen kom <pb n="27"/>igien, han var en velsignet Mand, han var som en Far mod os allesammen! Der var Forskiel paa ham og denne stygge Pettissen. Og dette forbandede Vaas I har fundet paa nu inde i Byen. Jeg var tilfreds det var Fanden i Vold. Saa sagde han, og saa tog det eene Ord det andet, og saa kom de til at slaaes, og saa slog de min skikkelige Robbert ihiel og kastet ham udi S&#x00F8;en. Ja, GUd see til dem, hvor mangen Moer de har bedr&#x00F8;vet. <stage>(Hun gr&#x00E6;der.)</stage></p>
+</sp>
+<sp>
+<speaker>Amalia.</speaker>
+<p>Ford&#x00F8;mte Fredsforstyrrere! hvor mange Uskyldige have I ofret paa den indbildte Frieheds Alter! Brontis! Du skulle have qvalt mig sovende med dit Bryst, saa havde Du v&#x00E6;ret mod din Villie en velgi&#x00F8;rende Amme. Du har sparet mig, at jeg skulde opleve alle de Afskyeligheder, som Menneskesl&#x00E6;gtens Afskum kan frembringe; Dog, &#x00F8;nsk mig Lykke, Brontis! I Dag skal jeg maaskee forlade R&#x00F8;verkulen; En Fremmed er kommen at afhente mig; Valentin skal f&#x00F8;lge med; alting skal gaae hemmelig. Du skal hielpe mig med at indpakke mine Smaasager, og for Resten gaae mig til Haande, og saa, Brontis! give mig din Velsignelse.</p>
+</sp>
+<sp>
+<speaker>Brontis.</speaker>
+<p>O! lad mig faae reise med! Jeg reiser som jeg staaer og gaaer; nu har jeg ingen Robbert, jeg har intet i Verden at hygge mig til, uden Dig, Mallemor! og Du b&#x00F8;r ikke heller reise eene Fruentimmer med Mandfolk.</p>
+</sp>
+<sp>
+<speaker>Amalia.</speaker>
+<p>V&#x00E6;rdige Brontis! Dette var det behageligste, som har m&#x00F8;dt mig i lang Tid. Ja! Du skal v&#x00E6;re med, i dit Ski&#x00F8;d vil jeg gr&#x00E6;de, i din Arm vil jeg sove. Du skal v&#x00E6;re min bedste Veninde. Du er ikke den f&#x00F8;rste &#x00E6;dle Siel i Bondedragt. O! <pb n="28"/>denne S&#x00E6;dernes Forfinelse, denne indbildte Oplysning man sludrer mig om, hvad er den dog for et Bl&#x00E6;ndev&#x00E6;rk! Naar du har Religion, naar du har Hierte, aabent for &#x00E6;dle F&#x00F8;lelser, hvad er det &#x00F8;vrige saa meere. Man vil maaskee ogsaa polere saa l&#x00E6;nge paa Eders Stand, indtil man faaer den lige ford&#x00E6;rvet med alle de &#x00F8;vrige. Kom, &#x00E6;dle Brontis! f&#x00F8;lg mig, raad mig, tr&#x00F8;st mig, deel mit Br&#x00F8;d, deel min Sorg, ledsag mig med dine oprigtige, dine eenfoldige, dine moderlige B&#x00F8;nner.</p>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="2_7">
+<head type="sub">Syvende Optrin.</head>
+<stage><hi rend="bold">Lise</hi>. (De forrige.)</stage>
+<sp>
+<speaker>Lise.</speaker>
+<p>Brontis! Jeg troer saamen Du gier Die endnu til din Patteglut? Hvad synes Du om, at din Mallemor er omd&#x00F8;bt, og har faaet et christeligt republicansk Navn, en &#x00C6;res-Tittel, som vi stakkels Piger saa gierne ville indbilde Verden at vi fortiene: Hun skal heede Jomfrue, ikke Fr&#x00F8;ken, Amalia Lever, ikke Leverpol; thi dette pol er en styg adelig Grimace, som skurrer for h&#x00F8;viske &#x00D8;rne.</p>
+</sp>
+<sp>
+<speaker>Amalia.</speaker>
+<p>Jo, det er sandt Brontis! Raadet har befalet det; Hvad synes Du?</p>
+</sp>
+<sp>
+<speaker>Brontis.</speaker>
+<p>Mig synes: Raadet skulde lade sligt Fias v&#x00E6;re, og heller holde Styr paa gale Folk i Byen. Skam skulle den faae, som ville tage fra mig mit Fars-Navn. Der er B&#x00F8;nder, som ogsaa har Bienavn. Manden paa M&#x00F8;chlebust kalder sig Tormund Trogne; Trogne heed Far for ham, og Trogne S&#x00F8;n efter ham. Der skal staae i en gammel Kr&#x00F8;nike, at en af den Sl&#x00E6;gt skal have v&#x00E6;ret saa troe mod en Konge, og vist nok er det, disse Folk paa <pb n="29"/>denne Gaard vil altid fortiene dette Navn; for Du skal aldrig h&#x00F8;re, at de fare med L&#x00F8;gn eller Bedrag.</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>Troe mod en Konge? Jo, det var ret en Fortieneste. Du skulle sige sligt paa Torvet, saa blev Du steenet.</p>
+</sp>
+<sp>
+<speaker>Brontis.</speaker>
+<p>Ja! ja! jeg h&#x00F8;rer nu, de vil ingen Konge have meere; Men Bonden synes, han har faaet en heel Buskab af smaae Konger, og dem fordrager han ikke, og aldrig f&#x00F8;r pirrer de lidt med Bonden, f&#x00F8;rend han kommer og slaaer Dommedags Slag.</p>
+</sp>
+<sp>
+<speaker>Amalia.</speaker>
+<stage>(hvisker til Brontis, leverer hende N&#x00F8;gler, og hun gaaer.)</stage>
+<p>F&#x00F8;ler Hun, Lise! hvor megen Sandhed der ligger i denne ukunstlede Bondekones Ord?</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>Ja saamen gi&#x00F8;r jeg saa; Jeg er, jeg tilstaaer min Synd, en Smule l&#x00E6;tsindig; men Folk i mit Fag maa vende Kaaben efter Veiret, og Verden er, som man den sig tager; Men naar jeg skal digte reent ud, er jeg f&#x00E6;rdig at lee mig uf&#x00F8;r til denne Republik. Den skal f&#x00F8;de, siger Carl Pettis; disse Mord, disse Opr&#x00F8;r, disse evige Narrestr&#x00E6;ger ere kun, siger han, F&#x00F8;dsels-Veer; Men det gaaer over Tiden, Frue! Republikkens Regning er alt l&#x00E6;nge ude, og jeg seer hverken Jordemoder eller Accuscheur. Det eene med det andet kreperer, det troer nu jeg. Hver skraber til sin Kage, nu som f&#x00F8;r; Og disse 8 smaae Majest&#x00E6;ter ere de l&#x00F8;ierligste Figurer af Verden; Naar jeg undtager denne Philalet, saa ville jeg paatage mig at narre de andre 7 op i Ski&#x00E6;gget, for hver af dem har sin Orm. Ru Anf&#x00F8;reren for Borgerskabet, han er heel og holden Orm, lang og smal og m&#x00F8;rk, liig salig Don Qvixot paa sin Rosinante. Ride og kommandere kan han ikke, men tale, men pr&#x00E6;ke, ja som en Cathechet, <pb n="30"/>der har v&#x00E6;ret 30 Aar i et B&#x00F8;rnehuus. Endog i Dag, han skulde sende 12 Mand med en Underofficier paa et Horehuus, for at stille et Slagsmaal, han for&#x00F8;dede der saa megen Tapperhed og Conduite og Borgerdyd, at det halve var nok, da han nu ret var i Heeden og med Andagt, som en Helgen skulde slutte med disse Ord: Overalt, Venner! respecterer Nationens Majest&#x00E6;t! da kneb det om Hiertet, kan jeg troe, og han har nok trykt Sporene ind i Hestens Siide. Hesten, meere republikansk end hans Rytter, steiler og staaer bag ud, og Harleqvin Patriot falder netop i Rendesteenen. Carl Pettis, der vil undskylde alt hvad som er vel meent, siger: at han kastede sig ned for at kysse den store Moder, vort f&#x00E6;lles F&#x00F8;deland. Jeg, for min Deel, vilde heller kyst Carl Pettis, end velbemeldte store Moder; thi hun vasker ikke altid sin Flab. Men jeg staaer her og sluddrer, og glemmer, at jeg har en Commission for en Tr&#x00E6;ngende til min Fr&#x00F8;ken, eller Jomfrue.</p>
+</sp>
+<sp>
+<speaker>Amalia.</speaker>
+<p>Nu, saa skynd Dig og siig hvad det er! jeg skal maaskee ikke l&#x00E6;nge kunde gi&#x00F8;re Godt paa disse Gr&#x00E6;ndser; skynd Dig, om det ellers er Trang, jeg kan afhielpe.</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>Det er at afstaae til Deres N&#x00E6;ste, hvad De gierne gad v&#x00E6;ret af med.</p>
+</sp>
+<sp>
+<speaker>Amalia.</speaker>
+<p>Saa er det jo ikke at gi&#x00F8;re godt?</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>Jo Kierligheds Gierning i bogstavelig Forstand. Carl Pettis kan godt lide mig, men han skal tage Dem, det er besluttet. Lad os hielpe hverandre til at forekomme denne Beslutning.</p>
+</sp>
+<sp>
+<speaker>Amalia.</speaker>
+<p>Dertil har jeg et Anl&#x00E6;g, som du mindst gietter.</p>
+</sp>
+<sp>
+<speaker><pb n="31"/>Lise.</speaker>
+<p>Og der m&#x00F8;der en Hindring, som De umuelig kan giette. De er i dette &#x00D8;ieblik decreteret. Hvad vi skal gi&#x00F8;re og lade decreteres, hvad vi skal troe og t&#x00E6;nke, hvad vi skal kaldes og v&#x00E6;re, og nu endelig decreteres i Dag hvad vi skulle ville, hvem vi skal elske. Octoviratet er Republikkens Siele-Verkst&#x00E6;d, vi andre ere kun Lemmer paa Legemet. Philalet er Fornuften, Pettis Villien, Bombast var Talen, de andre 5 ere Sandserne. Nu er De, min Fr&#x00F8;ken, decreteret til &#x00C6;gteskab strax i Dag eller i Morgen. Jeg faaer Copie af alt saadant hos den gamle forsnusede Skriverkarl Olfux, den Abekat skriver det altid med gr&#x00F8;nt Bl&#x00E6;k, for han siger: Gr&#x00F8;nt er for Kjerlighed; han er forliebt i mig, arme Di&#x00E6;vel, og lader sig n&#x00F8;ie med et Kys. Der kan De selv l&#x00E6;se deres Dom.</p>
+</sp>
+<sp>
+<speaker>Amalia</speaker>
+<stage>l&#x00E6;ser:</stage>
+<p>&#x00AB;Da her findes i vor Stat adskillige adelige ugifte Qvinder, have disse strax at bestemme dem til &#x00C6;gteskab. De som ikke allereede for nogen vis Person bestemme sig selv, skulle i Morgen fremstilles paa Raads-Sahlen med et lige Antal giftedygtige unge Karle, da enhver skal faae sin efter Lodkastning, paa det al Rest af Adel saaledes maatte udryddes, og Plan l&#x00E6;gges til Folke-Formeerelsen, som er Statens Styrke.&#x00BB; Levende GUd! hvilket Decret, hvad er Despotisme, naar dette ikke er det?</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>Ja det er n&#x00E6;sten paa eengang at voldtage alle adelige Fr&#x00F8;kener; Men i hvorom alting er: Hvo som faaer en Mand, faaer en god Ting. Og noget deslige skulde dog hvert Qvindemenneske have.</p>
+</sp>
+<sp>
+<speaker>Amalia</speaker>
+<stage>(afsides)</stage>
+<p>(O! gid jeg var alt borte) H&#x00F8;r, Lise! her passerer dog intet i Dag.</p>
+</sp>
+<sp>
+<speaker><pb n="32"/>Lise.</speaker>
+<p>Jo vist, man vil forsikre sig Deres Person, dersom De ikke i Dag erkl&#x00E6;rer Dem for en Brudgom. Man er bange for Flugt eller Selvmord. For De veed jo, det er l&#x00E6;nge siden decreteret, at Selvmord er Synd, ikke mod GUd, men mod Staten.</p>
+</sp>
+<sp>
+<speaker>Amalia.</speaker>
+<p>O, Himmel! hvad gi&#x00F8;r jeg, hvor skiuler jeg mig?</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>Jeg vedste ikke med Sikkerhed at forvare denne lille &#x00C6;ske, om De kunde krybe devi. I saa Fald ere vore Politie-St&#x00F8;vere v&#x00E6;rre end den spanske Inqvisition. De kunde vel erkl&#x00E6;re, at De var udygtig til &#x00C6;gteskab, men man ville ikke troe Dem, og saa ville den geski&#x00E6;ftige Publicit&#x00E6;t strax komme, den taaler ikke at et Menneske har sig nogen Ting forbeholden.</p>
+</sp>
+<sp>
+<speaker>Amalia.</speaker>
+<p>Lise! kiere Lise! staae mig bie, hvad du kan, i det mindste r&#x00F8;b ikke min Plan, om Du opdager den. Denne lille Guldb&#x00F8;rs skal blive Din Bel&#x00F8;nning. Gaae hen, ops&#x00F8;g mig Valentin, han maa komme strax, siig ham, jeg maa tale med ham i Eenrum.</p>
+</sp>
+<sp>
+<speaker>Lise</speaker>
+<stage>(i det hun gaaer)</stage>
+<p>Aha! jeg lugter Lunten.</p>
+</sp>
+<sp>
+<speaker>Amalia</speaker>
+<stage>(allene)</stage>
+<p>Mon den Fiante skulle begribe mig. Dog &#x2013; hvad er det jeg vil gi&#x00F8;re? &#x2013; Men kan jeg vel gi&#x00F8;re andet end dette. Min Byrd! min Fader! om han lever &#x2013; Min Tantes Forhaanelser &#x2013; Men see der &#x2013;</p>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="2_8">
+<head type="sub">Ottende Optrin.</head>
+<stage><hi rend="bold">Mentor</hi>, <hi rend="bold">Amalia</hi>.</stage>
+<sp>
+<speaker>Mentor.</speaker>
+<p>Min Jomfrue! De kiender Decretet. Her er den som vil frelse Dem fra at h&#x00E6;ftes i Dag, fra at faldbydes i Morgen. Jeg tilbyder Dem denne <pb n="33"/>Person, mig selv til en ligesaa kierlig som v&#x00E6;rdig &#x00C6;gtemand.</p>
+</sp>
+<sp>
+<speaker>Amalia</speaker>
+<stage>afsides.</stage>
+<p>(Jeg faaer et Indfald) Hr. Mentor! jeg erkiender Deres Fortienester og ski&#x00F8;nner paa Deres belejlige Tilbud. Men Hiertets Valg bestemmes ikke i et &#x00D8;ieblik. Jeg b&#x00F8;r ikke svare Nei; thi en grov Karl kunde blive min Lod; jeg kan ikke svare ja, thi jeg elsker ikke, i det mindste endnu ikke. Men vil De vove noget paa denne Sag, afvend, om De kan, i det mindste i Dag, at jeg ikke bliver n&#x00F8;d at erkl&#x00E6;re mig eller arresteret. Opv&#x00E6;k en Cabale derimod, og lykkes det Dem, biedrager denne Tieneste meget til at bestemme mit Hiertes Valg. <stage>(Hun gaaer.)</stage></p>
+</sp>
+<sp>
+<speaker>Mentor</speaker>
+<stage>(allene).</stage>
+<p>Mit Hierte br&#x00E6;nder, og den Ski&#x00F8;nne er ikke brandfrie. Cabalen er min Siels Vellyst; thi det er at narre Tosser. Jeg maa vinde min guddommelige Donna, om og Republikken skulle tabe sin Friehed. <stage>(Han gaaer.)</stage></p>
+</sp>
+<stage>Ende paa Anden Handling.</stage>
+</div>
+</div>
+<div type="chapter" subtype="act" n="5">
+<head type="sub">Tredie Handling.</head>
+<stage>Skuepladsen er et andet V&#x00E6;relse, hvor et Skriverbord.</stage>
+<div type="uchapter" subtype="scene" n="3_1">
+<head type="sub">F&#x00F8;rste Optrin.</head>
+<stage><hi rend="bold">Dorant</hi>, <hi rend="bold">Lise</hi>.</stage>
+<sp>
+<speaker>Dorant.</speaker>
+<p>Saa dette Kammer tilh&#x00F8;rer Hr. Pettis medens han er Octovir? Og der indenfor er Raads-Sahlen?</p>
+</sp>
+<sp>
+<speaker><pb n="34"/>Lise.</speaker>
+<p>Ja vil de kun h&#x00F8;re, hvilken helvedes Allarm der inde. De skulle t&#x00E6;nke, det var en Svenne-Kroe, og deres frie Mandag. L&#x00E6;gg &#x00D8;ret til V&#x00E6;ggen, saa skal Deres Siel ret inddrikke Respect for Republikkens Majest&#x00E6;t. <stage>(De lytte begge.)</stage> Hei da &#x2013; hu &#x2013; det gaaer lystig &#x2013; Nu rider Fanden dem allesammen &#x2013; Nu er Holland i N&#x00F8;d. Hvad synes Dem, som Fremmed, om denne Harmonie af br&#x00F8;lende, br&#x00E6;gende, skraalende, pibende, bandende Stemmer? Tal kun frit, jeg er ikke saa str&#x00E6;ng i min Sect, som jeg lod til; Hvad synes Dem?</p>
+</sp>
+<sp>
+<speaker>Dorant.</speaker>
+<p>Gandske fortr&#x00E6;ffelig, jeg forsikrer. Her er vel nogen st&#x00E6;rk Giering, men saa vil det til, inden man kan skabes. Lidt Tummult endnu, men det er ingen Under; Rom er ikke bygd paa een Dag.</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>Men dette Fr&#x00F8;ken-Decret?</p>
+</sp>
+<sp>
+<speaker>Dorant.</speaker>
+<p>Er fortr&#x00E6;ffeligt, det er at blande Blodet, det er at oprykke Klinten med Rod; thi gik disse Mademoiseller saa hen og &#x00E6;rgede sig over deres forlorne Adelskab og beholdne Jomfruedom, de ville stifte Ulykker; og hvad skulde man ellers gi&#x00F8;re af dem paa en &#x00D8;e, hvor der er intet adeligt af Mandki&#x00F8;n, intet Vest&#x00E6; Tempel, og intet Nonne-Kloster?</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>Fanden fare efter dette Decret, det s&#x00E6;tter maaskee et halv 100de raske Karle i fast Nummer, som ellers skulde v&#x00E6;ret vacante til Tr&#x00F8;st og Haab for mig og mine Lige, og saa havde man faaet det reene ski&#x00E6;re ubeblandede republicanske Blod. Nu er ogsaa meget vakkert ungt Mandskab bortsmeltet, at man faaer nok udskibe en lille Ladning Overfl&#x00F8;digheds Product af ugifte Piger, Gud veed hvor hen. Veed De nogensteds paa det faste Land, hvor saadan Kram var afs&#x00E6;tlig?</p>
+</sp>
+<sp>
+<speaker><pb n="35"/>Dorant.</speaker>
+<p>Nei! men man kunde faae et Decret, at een Mand kunde have to eller fleere Koner.</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>Nei! det kunde jeg for min D&#x00F8;d ikke lide. Jeg er vel en forstyrret T&#x00F8;s, men Concubine gad jeg ikke v&#x00E6;re. Min Mand gad jeg nok have alleene, desuden er det jo ikke tilladt i det nye Testamente.</p>
+</sp>
+<sp>
+<speaker>Dorant.</speaker>
+<p>Gud velsigne Dem, min Pige! Denne Republik er meget nyere end det nye Testamente, og i Henseende til Love, gielder altid den nyeste.</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>Nei, mange Tak, saa gandske ugudelig faaer Han mig nu heller ikke til at v&#x00E6;re, om det og 100de Gange blev decreteret.</p>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="3_2">
+<head type="sub">Andet Optrin.</head>
+<stage><hi rend="bold">Valentin</hi>. De forrige.</stage>
+<sp>
+<speaker>Valentin.</speaker>
+<p>Lise! Fruen har kaldet Dig meer end een Gang.</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<stage>I det hun gaaer, hvisker til Valentin. Han svarer hende hviskende.</stage>
+</sp>
+<sp>
+<speaker>Valentin.</speaker>
+<p>Fortryd ikke, Hr. Dorant! om Fr&#x00F8;ken Amalia kommer her, vil De ikke da tr&#x00E6;de lidt over til vores, hun vil tale med mig i Eenrum.</p>
+</sp>
+<sp>
+<speaker>Dorant.</speaker>
+<p>Gandske gierne; Men hvor vidt er De kommen?</p>
+</sp>
+<sp>
+<speaker>Valentin.</speaker>
+<p>Hvervet mine Folk, de venter mit Vink, og jeg venter Deres. Maatte kun ikke denne Fr&#x00F8;ken-Arrestering forekomme vor Bortf&#x00F8;relses-Plan. Gid De var f&#x00E6;rdig med Deres Dispositioner.</p>
+</sp>
+<sp>
+<speaker>Dorant.</speaker>
+<p>Jeg br&#x00E6;nder selv af L&#x00E6;ngsel. Jeg skal og have mine Ordres. Jeg gi&#x00F8;r nogle Tilberedelser, som jeg ikke veed, om jeg kommer til at bruge. Det gielder nu, for Exempel, nok mig derinde. Jeg vil paatage mig Opsyn over F&#x00E6;stnings-V&#x00E6;rkene, og <pb n="36"/>har begieret, at N&#x00F8;glene til Portene maatte ogsaa betroes mig; hvorvidt man nu bider paa den Krog eller ikke, faaer staae sin Pr&#x00F8;ve; Men er ellers noget Nyt i Republikken?</p>
+</sp>
+<sp>
+<speaker>Valentin.</speaker>
+<p>Kun et nyt Decret, saa klogt som de &#x00F8;vrige. P&#x00F8;belen tr&#x00E6;nger allevegne igiennem med sit, og denne nye Friehed etablerer mange moersomme Princips. De veed den sidste Tummult. Horeverten paastaaer, at han er Herre i sit Huus, at om hans Giester finde for godt at slaaes, kommer det ingen ved, uden ham; Thi decreteres: At ingen efterdags maa hindres i den Friehed, efter Behag, at slaaes inden fire V&#x00E6;gge, at &#x00D8;vrighed, Politie eller Borgervagt dermed ikke maa befatte sig, med mindre een af Parterne klager. Vinkelskriveren, som er P&#x00F8;belens Talsmand, lagde dette Axioma til Grund: At stifte Fred, er et <hi rend="italic">Beneficium</hi>, og <hi rend="italic">Beneficium nemini obtiuditur</hi>.</p>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="3_3">
+<head type="sub">Tredie Optrin.</head>
+<stage><hi rend="bold">Amalia</hi>. De forrige.</stage>
+<sp>
+<speaker>Dorant</speaker>
+<p>Jeg gaaer naar De kommer; men De er dog, naadige Fr&#x00F8;ken! min heele Interesse paa denne &#x00D8;e. <stage>(Han gaaer.)</stage></p>
+</sp>
+<sp>
+<speaker>Amalia.</speaker>
+<p>Beste Valentin! gode Raad ere dyre. Jeg har giort et Fejltrin. Ved en fiin Vending vilde jeg skaffe mig en Interims Ven, og fik en evig Fiende. Mentor begi&#x00E6;rer mig til &#x00C6;gte, jeg beslutter at svare hverken Nei eller Ja; Jeg kiender hans umaneerlige<note type="footnote">umaneerlige] <hi rend="italic">rettet fra:</hi> nmaneerlige <hi rend="italic">(trykkfeil)</hi></note> Duelighed til Kabalen; Opv&#x00E6;k en, sagde jeg, mod denne Arrest alleene i Dag, saa voxer min Velvillighed mod Dem, til i Morgen! Strax foer han afsted; men ak! han kom tilbage og <pb n="37"/>paatr&#x00E6;ngte Svar, og med sine &#x00E6;kle Udladelser bragte mig til den Yderlighed, at jeg maatte herud, med det reene Afslag. Han var vis paa, sagde han, at komme i Bombastes Sted, og som den eeneste l&#x00E6;rde Mand, ville det v&#x00E6;re ham l&#x00E6;t at ride de andre til Vands, og saa vilde han blive for denne &#x00D8;e, hvad Cromwel var for Britternes. Jeg kunde da saaledes gi&#x00F8;re med ham et Partie, min Stand v&#x00E6;rdigt, og meere deslige; Jeg afviiste ham maaskee i for tydelige Udtrykke. Nu funklede i hans &#x00D8;ine den sorte H&#x00E6;vngierrigheds Ild; Han fl&#x00F8;i afsted, og ventelig fremhaster han nu den Arrest, han ellers skulde forhalet. Hvad gi&#x00F8;r jeg nu? hvor skiuler jeg mig? H&#x00F8;r! Valentin! De t&#x00E6;nker &#x00E6;delt, De er beskeeden, jeg vil vove et Skridt; De misbruger det ikke. De vil jo f&#x00F8;lge mig herfra?</p>
+</sp>
+<sp>
+<speaker>Valentin.</speaker>
+<p>Jeg maa f&#x00F8;lge Dem saa langt jeg kan. Der er en Despot i dette Hierte, som dikterer dette Decret. Med al Uliighed mellem vor Stand og Vilkaar, er min Ski&#x00E6;bne evig bunden til Deres.</p>
+</sp>
+<sp>
+<speaker>Amalia.</speaker>
+<p>Nu vel! Contracter, som oprettes under Tvang, gielder jo ikke meere, naar enhver er sig selv raadig?</p>
+</sp>
+<sp>
+<speaker>Valentin.</speaker>
+<p>Nei! det falder af sig selv.</p>
+</sp>
+<sp>
+<speaker>Amalia.</speaker>
+<p>De er jo og for &#x00E6;delmodig, for at ville nogensinde misbruge den Tillid, med hvilken jeg betroer mig til Dem?</p>
+</sp>
+<sp>
+<speaker>Valentin.</speaker>
+<p>Det var kun hvad jeg skylder enhver anden ligegyldig Person; Men mod Dem bliver det ikke &#x00C6;delmodighed hos mig, kun en blind Lydighed, som mit Hierte ikke kan imodstaae, om det vilde.</p>
+</sp>
+<sp>
+<speaker>Amalia.</speaker>
+<p>Velan da! skriv en saadan Contract mellem Dem og mig, som jeg kan fremviise, hvorved <pb n="38"/>jeg i Dag undgaaer Arrest; men en Contract, som udenfor Republikkens Tvang har ingen Kraft. Her er Pen, Bl&#x00E6;k og Papiir. <stage>(Valentin skriver, Amalia seer ham f&#x00E6;lde Taarer paa Papiiret, hun bliver r&#x00F8;rt og skiuler sit Ansigt med T&#x00F8;rkl&#x00E6;det. Da Valentin har skrevet, reiser han sig, sigende:</stage></p>
+</sp>
+<sp>
+<speaker>Valentin.</speaker>
+<p>Aldrig skrev jeg L&#x00F8;gn f&#x00F8;r, og aldrig f&#x00F8;r &#x00F8;nskede jeg, at L&#x00F8;gn var Sandhed. Tilgiv, at dette Ord faldt af min Mund, at jeg tillod mit Hierte den Vellyst, at aabne hvad det saa l&#x00E6;nge qvalte! Frygt ikke! ingen skal decretere ud af denne Barm den &#x00C6;re jeg b&#x00E6;r for Deres Byrd, den Nidkierhed, med hvilken jeg adlyder Deres Villie. Jeg elsker, jeg skal evig elske Dem. Den Lue, som br&#x00E6;nder her, slukkes ikke; men d&#x00E6;mpe den skal jeg. Jeg skal aldrig glemme mig selv. Min Mund var dog ikke nu n&#x00E6;r saa dristig, som min Haand her har v&#x00E6;ret. Undskyld Udtrykkene i denne Contrakt; de ere langt fra ikke saa respectueuse, som mit Hierte vilde dicteret dem. Men den maa v&#x00E6;re in forma saadan, som den er befalet. <stage>(Han l&#x00E6;ser ski&#x00E6;lvende.)</stage> &#x00AB;Undertegnende erkl&#x00E6;re hermed, at vi fra dette &#x00D8;ieblik erkiende mellem os en uopl&#x00F8;selig &#x00C6;gteforeening, og begi&#x00E6;re denne vor Erkl&#x00E6;ring til Vitterlighed indf&#x00F8;rt i Notarii Protocol.
+<lb/>Valentin Vigdahl.&#x00BB;</p>
+</sp>
+<sp>
+<speaker>Amalia.</speaker>
+<p>Velan! jeg skriver under; men jeg kr&#x00E6;ver Himlen til Vidne, at jeg udenfor Republikkens Tvang erkl&#x00E6;rer mig uafh&#x00E6;ngig af denne proforma Forbindelse.</p>
+</sp>
+<sp>
+<speaker>Valentin.</speaker>
+<p>Jeg kr&#x00E6;ver det samme Vidne, at dette skal v&#x00E6;re som uskrevet, endski&#x00F8;nt jeg gi&#x00F8;r denne Eed, stridende baade imod Haand og Hierte.</p>
+</sp>
+<sp>
+<speaker><pb n="39"/>Amalia.</speaker>
+<p>Eet endnu: Kan jeg undgaae at fremsviise dette, er det mit &#x00D8;nske og Fors&#x00E6;t, og hvad De kan biedrage til mit &#x00D8;nskes Opfyldelse, t&#x00F8;r jeg haabe det?</p>
+</sp>
+<sp>
+<speaker>Valentin.</speaker>
+<p>De t&#x00F8;r v&#x00E6;re vis paa, at ethvert af Deres &#x00D8;nsker jeg kan opfylde, er en Lov for mine Handlinger, hvor tung denne Lov endog maatte v&#x00E6;re for et &#x00F8;mt Hierte; Men dersom &#x2013;</p>
+</sp>
+<sp>
+<speaker>Amalia.</speaker>
+<p>Hvad, dersom? &#x2013;</p>
+</sp>
+<sp>
+<speaker>Valentin.</speaker>
+<p>O Nei! det maa uden Tvivl lykkes.</p>
+</sp>
+<sp>
+<speaker>Amalia.</speaker>
+<p>Hvad lykkes? Tal, jeg besv&#x00E6;r Dem.</p>
+</sp>
+<sp>
+<speaker>Valentin.</speaker>
+<p>Jeg meener &#x2013; &#x2013; men jeg undseer mig.</p>
+</sp>
+<sp>
+<speaker>Amalia.</speaker>
+<p>For Himlens Skyld tal, tal frit.</p>
+</sp>
+<sp>
+<speaker>Valentin.</speaker>
+<p>Dersom det ikke lykkes at komme bort, hvad vover De da? At kastes i en uv&#x00E6;rdig Tieners Arme?</p>
+</sp>
+<sp>
+<speaker>Amalia.</speaker>
+<p>Jeg har t&#x00E6;nkt over den Sag. Jeg har giort, jeg vil gi&#x00F8;re alt mueligt for min Stammes &#x00C6;re. Under man mig endog her Raadighed over mig selv, river jeg denne Billet i tu, og lever min Livs Tiid i eenlig Stand; Men naar jeg er tvungen, saa er De, Valentin! den eeneste ugifte Mandsperson, med hvilken jeg kunde overtale mig til at leve; ja meere: jeg skylder sande Fortienester denne Bekiendelse. Deres Byrd, lige med min, saa valgte mit Hierte Dem maaskee blandt alle ugifte Adelsm&#x00E6;nd.</p>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="3_4">
+<head type="sub">Fierde Optrin.</head>
+<stage><hi rend="bold">Carl Pettis</hi>, de forrige.</stage>
+<sp>
+<speaker>Carl.</speaker>
+<p>Endnu engang Jomfrue Lever! Deres Figur staaer mig an. Deres Siel er nok heller ikke saa slem. Naar Deres smaa adelige Fordomme <pb n="40"/>faae uddampet i f&#x00F8;rste Barsels&#x00E6;ng, vil De blive en Kone, som gi&#x00F8;r mig lykkelig. Endnu engang, jeg er til Deres Tieneste. En Strandkadet kan maaskee ellers blive det ved Lodkastning.</p>
+</sp>
+<sp>
+<speaker>Amalia.</speaker>
+<p>Deres Galanterie, Coussin! er ikke delicat, men jeg tiltroer Dem for megen indvortes V&#x00E6;rd, til at burde belemres med en ligegyldig Kone. De er elskv&#x00E6;rdig og b&#x00F8;r blive elsket, det blev De ikke af mig. &#x00C6;gteskab kan decreteres, men Kierlighed ikke, og for at svare Dem i Deres eget udf&#x00F8;rlige Sprog: hverken een eller fleere Barsels&#x00E6;nge forslaae til at udrydde mine adelige Fordomme. Disse ville bestandig incommodere en Mand, som var af modsatte Sentiments, da De ellers ikke skulle falde noget andet Menneske besv&#x00E6;rlige. Altsaa, min Herre! jeg takker for Deres &#x00E6;rede Tilbud, men afslaaer Det, fordie jeg ikke vil gi&#x00F8;re Dem ulykkelig. Jeg overlader heller min Ski&#x00E6;bne til en blind Hazard.</p>
+</sp>
+<sp>
+<speaker>Carl.</speaker>
+<p>I! nu vel min Pige! jeg er just ikke heller forliebt, og gad allermindst tvinge mig en Kone til. Det gi&#x00F8;r mig dog ondt for min Cousine, om hun fra sin Adels h&#x00F8;ie Spidse skulle synke alt for dybt. Kom nu og f&#x00F8;lg mig hiem, og beed en god B&#x00F8;n om en god Mand. Inden en Time komme Betientere at avhente Dem til en stor vakker Sahl, hvor De, med fleere adelige M&#x00F8;er, kunne vente af Morgendagen, hvad mange Aar maaskee ikke skulle forskaffet Dem. Republikken, Cousine! er alle Daarers Formynder.</p>
+</sp>
+<sp>
+<speaker>Valentin.</speaker>
+<p>Kan De ikke forsikre Dem Deres Cousines Person, uden at f&#x00F8;re hende i Dag til dette Marked?</p>
+</sp>
+<sp>
+<speaker><pb n="41"/>Carl.</speaker>
+<p>Det var maaskee mueligt med hende, men derfor ikke med alle. Raadets Decret b&#x00F8;r v&#x00E6;re helligt. Ingen Persons Anseelse. Just fordie hun er i en Raadsherres Huns, b&#x00F8;r allermindst for hendes Skyld skee Undtagelse fra Regelen, Formildelse i Lovene. Disse Undtagelser, disse Formildelser h&#x00F8;re just til Monarchiets ski&#x00F8;nne Rariteter.</p>
+</sp>
+<sp>
+<speaker>Valentin.</speaker>
+<p>Og til Republikkens, at ikke kunde moderere nogen Lov, naar det gielder Folk af &#x00C6;re, men at kuldkaste aldeles en Lov, og skabe en anden, naar man st&#x00F8;der an paa en Horevert, og fleere Canailler med ham tilbagedrive Borgervagten; soutinerer man ikke anderledes Republikkens Majest&#x00E6;t, saa bliver denne Majest&#x00E6;t det foragteligste Phantom, som endnu nogensinde har sp&#x00F8;get paa Jordkloden.</p>
+</sp>
+<sp>
+<speaker>Carl.</speaker>
+<p>Du har Ret, Valentin! men viid: Republikken kan ikke endnu alt hvad den vil, men den b&#x00F8;r ville alt hvad den kan. Og her kan den. Altsaa, Coussine! kom, f&#x00F8;lg med. Bliv Du her, Valentin, om min Fader beh&#x00F8;ver Dig. <stage>(De gaae, Amalia seer &#x00F8;mt og bedr&#x00F8;vet tilbage til Valentin.)</stage></p>
+</sp>
+<sp>
+<speaker>Valentin.</speaker>
+<stage>(allene)</stage>
+<p>O! hvilket Par &#x00D8;ine. Br&#x00E6;nd&#x2013;Speile som kunde smelte Metaller! Ja, hun elsker mig. Men jeg! hvad gi&#x00F8;r jeg? befordre hendes Flugt &#x2013; bereede min Undergang &#x2013; forhindre hendes Flugt &#x2013; omfavne min Eiendom! O, Elskov! hvor du gi&#x00F8;r Mennesket svagt, vaklende. Dog &#x2013; bruge List &#x2013; bryde L&#x00F8;fte &#x2013; handle mod Troeskabs Love. Og her &#x2013; hvilket St&#x00E6;d at boe paa &#x2013; hvilken huuslig Lyksalighed? hvilken borgerlig Sikkerhed kan ventes her, midt i et Sv&#x00E6;lg, som drager alting ned til Undergang med uimodstaaelig Kraft.</p>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="3_5">
+<head type="sub"><pb n="42"/>Femte Optrin.</head>
+<stage><hi rend="bold">Dorant</hi>, som kommer leende fra Raadhuus Salen, <hi rend="bold">Valentin</hi>.</stage>
+<sp>
+<speaker>Dorant.</speaker>
+<p>Ha! ha! ha! Jeg kommer fra den Kant De mindst venter mig. Jeg er et Stykke af en Commandant, her er N&#x00F8;gler til Portene, til T&#x00F8;ihuuset, og Friehed at v&#x00E6;lge til Adjudant hvem jeg finder beqvem. De skal v&#x00E6;re det, det forstaaer sig, og saa skal vi ikke beh&#x00F8;ve Deres bev&#x00E6;bnede Tyve for at bortf&#x00F8;re vor Helena. Den Philalet var den v&#x00E6;rste Di&#x00E6;vel. Den eeneste agtende Mand blandt dem alle, mellem os sagt. Men jeg forstod at blande mit Kort. Jeg giorde f&#x00F8;rst megen Vind, talede om Approcher, Redouter, Raveliner, Catapulter, L&#x00F8;begrave, og alle baade passende og ikke passende Kunstord. Strax skreeg de af fuld Hals, at jeg var Manden. Men da Philalet giorde en meget rigtig Anm&#x00E6;rkning mod mig, som fremmed, og is&#x00E6;r mod Fremmede som prale, var jeg listig nok til at svare: H&#x00F8;iviise Senatorer! Denne Republikkens Fabius har vist nok Ret. Jeg &#x00F8;nskede ogsaa selv en 8 Dages Tid, for f&#x00F8;rst at afleegge Pr&#x00F8;ver paa min Capacite; troer mig ikke paa mine Ord, I Republikker er det kun Gierninger som skulle tale; &#x2013; Men aldrig f&#x00F8;r fik jeg sagt disse Ord, f&#x00F8;rend det var som Ild til Krud. Nu kunde man ikke bie et &#x00D8;ieblik: Strax N&#x00F8;gler frem, strax mit Navn til Protocols, strax Eeden aflagt. Jeg soer da paa at jeg skulde gi&#x00F8;re alt hvad som stod i min Magt til F&#x00E6;stnings V&#x00E6;rkernes Istands&#x00E6;ttelse. Nu staaer der virkelig slet ingen Ting i min Magt, thi jeg forstaaer mig ikke meere paa F&#x00E6;stnings V&#x00E6;rk, end paa <pb n="43"/>at v&#x00E6;ve brabantske Kniplinger. Desuden m&#x00E6;rkede jeg, man clausuleerte ikke Eeden med Religion, men med &#x00C6;ren. Og med &#x00C6;ren har det god Vei. Det er min &#x00C6;re at v&#x00E6;re den troe som udsendte mig, og at narre disse 7 Viise, og den 8de med, saa godt som jeg kan.</p>
+</sp>
+<sp>
+<speaker>Valentin.</speaker>
+<p>Ja! hvortil nu da disse N&#x00F8;gle? og hvortil denne Adjutant? hvad skal vi begynde paa?</p>
+</sp>
+<sp>
+<speaker>Dorant.</speaker>
+<p>Jeg kan intet reelt begynde, uden Ordre fra min Herre; men den maa snart v&#x00E6;re her. Imidlertid vil jeg gi&#x00F8;re mig lidt bekiendt med Voldene, og med Portene fornemmelig, og, for et Syns Skyld, hitte op en eller anden Forandring.</p>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="3_6">
+<head type="sub">Siette Optrin.</head>
+<stage><hi rend="bold">Leonard</hi>, sveedende og pustende, de forrige.</stage>
+<sp>
+<speaker>Leonard.</speaker>
+<p>Dette forbandede Beest! Denne Skole-Fux, nu faaer man intet drevet igiennem; Kan ikke Penge hielpe?</p>
+</sp>
+<sp>
+<speaker>Dorant.</speaker>
+<p>Hvad er der, Hr. Pettis? Dette Beest &#x2013; er det tilladt at sp&#x00F8;rge.</p>
+</sp>
+<sp>
+<speaker>Leonard.</speaker>
+<p>O! det er denne indbildske Mentor, som, ved ki&#x00F8;bte Stemmer er indvoteret i Octoviratet, denne Glosebog, som vil styre Staten efter Grammatica. Texten til hans Indtr&#x00E6;delses Tale var fuldkommen Friehed og Eiendoms Ret for alle Herregaards B&#x00F8;nder. N&#x00E6;r, som paa et Haar, havde han bragt det til Decret, dersom jeg ikke ved et m&#x00E6;gtigt Argument havde givet Sagen en Vending.</p>
+</sp>
+<sp>
+<speaker>Dorant.</speaker>
+<p>Og dette Argument, om jeg maa sp&#x00F8;rge.</p>
+</sp>
+<sp>
+<speaker>Leonard.</speaker>
+<p>Er alle menneskelige Tings Hovedargument &#x2013; Penge. Republikken beh&#x00F8;ver 50000 Pd. <pb n="44"/>Strl. Disse voxe nu ikke i hver Mands Have. Jeg skaffer disse Penge, sagde jeg, dersom Republikken vil s&#x00E6;lge mig Baroniet Leverpol med sine adelige Herligheder for 25000 Pdstrl., saa skal jeg pants&#x00E6;tte mit eget Str&#x00F8;egods, og faae laant den anden Halvedeel mod Republikkens Caution. Men faaer B&#x00F8;nderne Friehed og Eiendom, saa er jeg en fattig Mand, og saa vil ingen give en Skilling for Baroniet, saa kan I flaae B&#x00F8;nderne og s&#x00E6;lge Skindet, og see om det bel&#x00F8;ber til 50000 Pd. Strl. Nu var der da Ende paa denne Storm; saa kom Mentor med sine h&#x00F8;il&#x00E6;rde Indfald om et Academie paa &#x00D8;en, om Pakketbaade, om republicanske Ordens-Tegn, og GUd veed, hvad det var altsammen; Kort: det var, som om han alleene havde slugt al Forstand, og vi andre vare Tosser.</p>
+</sp>
+<sp>
+<speaker>Dorant.</speaker>
+<p>Man maa holde de L&#x00E6;rde en Smule Forf&#x00E6;ngelighed tilgode; deres Indfald tiener dog ofte til at give de menneskelige Sager en Smule Politur.</p>
+</sp>
+<sp>
+<speaker>Leonard.</speaker>
+<p>Ei! hvad Politur? Man sp&#x00F8;r i Republikken om det Gavnlige, det Nyttige, det Solide; Med et Ord: Om Penge. Polere mig hid, og polere mig did, naar man ikke har Penge. Og hvad jeg nu vil sige, Hr. Dorant! i Henseende til Voldene &#x2013; da ingen Stats, ingen Zirater &#x2013; Forstaaer Du mig? &#x2013; kun det, som kan forsvare Byen, alt med mueligste Besparelse; Jo mindre Penge det koster Byen, jo bedre; Og, hvad jeg vil sige, h&#x00F8;r nu: Siden De dog har mig at takke for Deres nye Station, saa kan De gi&#x00F8;re mig en Tieneste! Det bliver mellem os: Der staaer et stort tomt Huus oppe ved Volden ved Vesterport, deri har jeg 500 Pd. Strl. f&#x00F8;rste Prioritet, men Eieren er Fanden i Vold, <pb n="45"/>og Huuse, forstaaer De mig? ere i slet Priis. Nu kan De jo hitte paa, at just der b&#x00F8;r anl&#x00E6;gges et Fort, at Huusets Muure kan nyttes dertil, at Republikken, koste hvad koste vil, maa ki&#x00F8;be det af Eiermanden. Lad os forstaae hverandre! Eenighed b&#x00F8;r herske i Republikken.</p>
+</sp>
+<sp>
+<speaker>Dorant.</speaker>
+<p>I! det forstaaer sig, med Forn&#x00F8;ielse. Det skal v&#x00E6;re min mindste Kunst. Den eene Haand vasker den anden. Men denne Valentin kommer jeg at ber&#x00F8;ve Dem; Han skal v&#x00E6;re min Adjudant.</p>
+</sp>
+<sp>
+<speaker>Leonard.</speaker>
+<p>Der gi&#x00F8;r De mig en Fandens Str&#x00E6;g; Den Karl kan jeg ikke undv&#x00E6;re.</p>
+</sp>
+<sp>
+<speaker>Dorant.</speaker>
+<p>Men jeg endnu mindre.</p>
+</sp>
+<sp>
+<speaker>Leonard.</speaker>
+<p>H&#x00F8;r! bie! Veed De hvad? De skal faae min Gaardskarl, det er en st&#x00E6;rk bredskuldret Prygl; Ja kiere! tag den.</p>
+</sp>
+<sp>
+<speaker>Dorant.</speaker>
+<p>Det kan jeg umuelig; Det maa v&#x00E6;re et Menneske af Indsigter; Jeg kan ellers ikke forsvare det for Republikken.</p>
+</sp>
+<sp>
+<speaker>Leonard.</speaker>
+<p>Nu, h&#x00F8;r! Veed De hvad? De kan beholde ham; Men eet maa De love mig: Naar der er Opl&#x00F8;b, som her gierne er hver Dag, maa De strax tillade ham at s&#x00F8;ge til mit Huus, og is&#x00E6;r, Valentin! til min Penge-Kielder, forstaaer Du mig; Du er troe og veed Beskeed.</p>
+</sp>
+<sp>
+<speaker>Dorant.</speaker>
+<p>O ja! det bliver mellem os; jeg tiener gierne en Velynder, for taknemmelig er jeg, om jeg selv skal sige det.</p>
+</sp>
+<sp>
+<speaker>Leonard.</speaker>
+<p>Ja, Valentin! om Du end stod ved Volden.</p>
+</sp>
+<sp>
+<speaker>Dorant.</speaker>
+<p>Om han commanderede et Batterie, og Fienden ville l&#x00F8;be Storm, saa skulle han tage sit Mandskab og begive sig til Hr. Pettis Huus; thi <pb n="46"/>hvad er et Batterie mod en brav riig Borgers Huus; Man kan ki&#x00F8;be mange Batterier for de Rigdomme, som bevares i Hr. Pettis Huus; ikke sandt? Og h&#x00F8;r, Hr. Adjutant! jeg skal give Dem en skriftlig Ordre dertil, med Dag og Time og Minut in blanco, som De selv kan udfylde, at De dermed kan legitimere Deres Conduite for Octoviratet; jeg, for min Deel, skal nok vide at drage mit Hoved ud af Strikken; thi naar en Mand viiser sig, min Ven! som Hr. Pettis, saa maa jeg tiene ham, hvad det og skal koste.</p>
+</sp>
+<sp>
+<speaker>Leonard.</speaker>
+<stage>(kysser ham og gr&#x00E6;der.)</stage>
+<p>O! hvad De er en velsignet Mand. Herre Gud! Republikken skulle ikke have saadanne Betiente allevegne, saa var det en Lyst at styre den. Men h&#x00F8;r, Valentin! fra dette &#x00D8;yeblik er Du i Republikkens, ikke i min Sold; Forstaaer Du mig? men jeg skal mage det saa, at Du faaer 5 Pd. Strl. meere aarlig end Du havde hos mig, og naar Du saa har en Time leedig, kan Du vel udrette eet og andet smaat i mit Huus, og skrive lidt iblandt; Forstaaer Du mig?</p>
+</sp>
+<sp>
+<speaker>Valentin.</speaker>
+<p>O! ja vist, med Forn&#x00F8;ielse.</p>
+</sp>
+<sp>
+<speaker>Leonard.</speaker>
+<p>Men jeg betaler Dig intet derfor a parte; Forstaaer Du?</p>
+</sp>
+<sp>
+<speaker>Valentin.</speaker>
+<p>O! det var ogsaa ubilligt.</p>
+</sp>
+<sp>
+<speaker>Leonard.</speaker>
+<p>Men b&#x00F8;r ikke en saadan Adjutant have Uniform med Ingenieurer?</p>
+</sp>
+<sp>
+<speaker>Dorant.</speaker>
+<p>Det skulde ikke kl&#x00E6;de ilde.</p>
+</sp>
+<sp>
+<speaker>Leonard.</speaker>
+<p>V&#x00E6;r saa god, leveer ham T&#x00F8;ihuus-N&#x00F8;glene, der ligger, som Du veed, en Lieutenants-Uniform. Du burde ellers beholde dit Livre for din troe Tieneste; men nu lader Du den ligge til din <pb n="47"/>Eftermand, da jeg skaffer Dig en Meget smukkere Dragt. <stage>(Han gaaer.)</stage></p>
+</sp>
+<sp>
+<speaker>Dorant.</speaker>
+<p>(afsides.) Det kalder jeg at spare for Republikken.</p>
+</sp>
+<sp>
+<speaker>Leonard.</speaker>
+<p>Men siden vi nu er under fire &#x00D8;ine: Denne Flaade De talte om, skulle den v&#x00E6;re befrygtelig for vor &#x00D8;e?</p>
+</sp>
+<sp>
+<speaker>Dorant.</speaker>
+<p>O! ikke; De kan vel vente Unds&#x00E6;tning fra Deres stridende Br&#x00F8;dre paa det faste Land?</p>
+</sp>
+<sp>
+<speaker>Leonard.</speaker>
+<p>Nei! det er just Ulykken; thi for det f&#x00F8;rste have de nok endnu selv en Smule ugiort; Desuden ville de ikke erkiende os uafh&#x00E6;ngige af dem. De har vel l&#x00E6;st vores Manifest, hvor vi erkl&#x00E6;rede at ville v&#x00E6;re for os selv. Min S&#x00F8;n var nu saa forpikket derpaa, og han har conciperet det. Vi boe paa en &#x00D8;e, siger han, og kan ligesaavel forsvare os mod den heele Christenhed, som Malta mod Tyrken. Han har Courage, den Kn&#x00E6;gt; men kommer der en Flaade, saa er det dog hvad det er.</p>
+</sp>
+<sp>
+<speaker>Dorant.</speaker>
+<p>Ja, man faaer dog vel s&#x00F8;ge et Par m&#x00E6;gtige Potentaters Garantie; saa har alle smaae republikanske Stater.</p>
+</sp>
+<sp>
+<speaker>Leonard.</speaker>
+<p>Ja! men jeg er bange, de ere os mod allesammen. De har l&#x00E6;st vort Manif&#x00E6;st mod Dispoter; Vi ski&#x00E6;ldte dem Huuden fuld, det er sandt, og bad deres Undersaattere gi&#x00F8;re ligesom vi. Den Gang syntes jeg rigtig, det var ki&#x00E6;kt skrevet; Mentor var Concipist; Men nu er jeg ikke meere saa heed om Hovedet. Den di&#x00E6;vels Philalet synes mig nu have Ret; Jeg husker hvert et Ord: Kan vi ikke, sagde han, indrette vore Sager paa det beste, uden at udst&#x00F8;de Forhaanelser mod dem, som have og elske en anden Indretning? Om jeg finder for godt at reformere <pb n="48"/>min Oeconomie, Naboe Pettis! skal jeg derfor ski&#x00E6;lde paa Dem, kives med Dem, skabe mig en Fiende i Dem, fordie De har det anderledes? Washington spillede en st&#x00F8;rre og ski&#x00F8;nnere Rulle i den americanske Revolution end nogen enkelt Person af vore, hverken paa &#x00D8;e eller fast Land; men aldrig sagde han Sottisser til Fyrsterne i Europa. Han ansaae sig ikke, som en Frieheds Apostel, der skulde omvende alle Monarchiers Folk til den sande Troe, og gaae paa Proselyt-Jagt over al Verden. Ja, det sagde Philalet, men han blev overstemmet, og jeg er bange, han havde Ret. Overalt, kom denne Flaade, saa var jeg tilfreds, jeg havde mine Midler i den hollandske Bank; saa forlod jeg Bye og &#x00D8;e, og kom der aldrig meere.</p>
+</sp>
+<sp>
+<speaker>Dorant.</speaker>
+<p>O! vi skulle nok forsvare os; Her er jo et ki&#x00E6;kt Folk. Republicaneren har Mod som en L&#x00F8;ve, naar han slaaes for Friehed.</p>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="3_7">
+<head type="sub">Syvende Optrin.</head>
+<stage>Frue <hi rend="bold">Pettis</hi>, de forrige.</stage>
+<sp>
+<speaker>Fruen.</speaker>
+<p>Her seer De, Hr. Octovir! ikke saa meget Deres Frue, som den f&#x00F8;rste Dame paa den heele &#x00D8;e, mit Ki&#x00F8;ns Ambassadrice, med Fuldmagt fra en Herskares Mangfoldighed, med alvorlig Paastand, grundet paa Liighed og Billighed, kort: paa Princips som Staten har adopteret. Men Pr&#x00E6;liminairement maa jeg sp&#x00F8;rge: Ere ikke Fruentimmer Mennesker?</p>
+</sp>
+<sp>
+<speaker>Leonard.</speaker>
+<p>Jo! det veed den s&#x00F8;de Himmel!</p>
+</sp>
+<sp>
+<speaker>Fruen.</speaker>
+<p>Ere ikke alle Mennesker lige?</p>
+</sp>
+<sp>
+<speaker>Leonard.</speaker>
+<p>Ja! det har man nu engang for alle antaget &#x2013; i hvorvel&#x2013;</p>
+</sp>
+<sp>
+<speaker><pb n="49"/>Fruen.</speaker>
+<p>I hvor vel eller hvor ilde, naar man har antaget det, saa er det antaget, og saa s&#x00F8;mmer det et frit og kiekt Folk at blive sine Grunds&#x00E6;tninger troe. Altsaa paastaaer jeg i Nationens Qvinders Navn, at alle D&#x00F8;ttre efterdags skulle arve lige med S&#x00F8;nner, og have alle de samme personlige Rettigheder.</p>
+</sp>
+<sp>
+<speaker>Leonard.</speaker>
+<p>Beste Kone! Det gaaer ikke an; thi for det f&#x00F8;rste ere Fruentimrene svagere.</p>
+</sp>
+<sp>
+<speaker>Fruen.</speaker>
+<p>Hvilket skulle beviises. Kan han beviise det, lille Mand? hvad kan han, som jeg ikke kan? hvad t&#x00F8;r han, som jeg ikke vil? I M&#x00E6;nd sukke under Despoter, vi Qvinder herske over dem. En vis Fridrich af Preusen, en vis Carl i Sverrig viiste os Foragt. Men for Resten &#x2013; dog et Ord saa godt som 1000de, hvad giver han mig for Catrina? Mon hun forstaaer at l&#x00E6;re M&#x00E6;nd Lydighed? Overalt: Pluraliteten er paa min Side. Min Hr. Octovir! Egalitet med M&#x00E6;nd, eller Krig med os.</p>
+</sp>
+<sp>
+<speaker>Leonard</speaker>
+<stage>(paa Kn&#x00E6;e)</stage>
+<p>Min s&#x00F8;de Kone! min Hiertens Engel! bet&#x00E6;nk min gamle Moer lever, og hvad tabe vi om vor lumpne Svoger, som har min eeneste S&#x00F8;ster, skal gaae i liige Arv med os?</p>
+</sp>
+<sp>
+<speaker>Fruen.</speaker>
+<p>Ei, hvad! nedrige Egennytte, lave Sieles Afgud! Dens Alter v&#x00E6;re evig nedbrudt. Jeg skal have min Krig frem, uf&#x00F8;dde Sl&#x00E6;gter skulle dyrke mig som en Gudinde, og s&#x00E6;tte mig ved Siden af Juno, Pallas, Venus.</p>
+</sp>
+<sp>
+<speaker>Leonard.</speaker>
+<p>Men Hvor skal man da s&#x00E6;tte mig?</p>
+</sp>
+<sp>
+<speaker>Fruen.</speaker>
+<p>Mellem Hanrederen Vulcanus og Philosophen Socrates.</p>
+</sp>
+<sp>
+<speaker>Leonard.</speaker>
+<p>Nei; derved leed din &#x00C6;re, min bedste Kone! man skulde da troe at jeg har haft en Blanding af Cogvetten Venus og Serpenten Xantippe.</p>
+</sp>
+<sp>
+<speaker><pb n="50"/>Fruen.</speaker>
+<p>Saa mange Spisser han vil; men min Paastand decreteret.</p>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="3_8">
+<head type="sub">Ottende Optrin.</head>
+<stage><hi rend="bold">Carl</hi>, de forrige.</stage>
+<sp>
+<speaker>Carl.</speaker>
+<p>Jeg veed min Moders Paastand, den b&#x00F8;r gaae frem, men min ogsaa. Hvo som deeler liige Herlighed, skal deele liige Byrde. Qvinder b&#x00F8;r herefter &#x00F8;ves i Strid, b&#x00E6;re Vaaben, arbeide paa Voldene. Saa bliver f&#x00F8;rst Tapperhed heele Nationens Dyd. Vi beh&#x00F8;ve det nu, vort Mandskab er tynt, men det voxer strax til meer end det dobbelte. Giv kun Piger en anden Opdragelse, og man skal finde dem beqvemme til alt, og da skulle disse Amazoner f&#x00F8;de os kiekke S&#x00F8;nner.</p>
+</sp>
+<sp>
+<speaker>Dorant.</speaker>
+<p>I Sandhed! den unge Mand har Ret, allene, hvo skal kaage vor Mad, flye vort T&#x00F8;i, forestaae vort Huus.</p>
+</sp>
+<sp>
+<speaker>Carl.</speaker>
+<p>Det skal deels M&#x00E6;nd og Qvinder af slet Helbred, deels de qvindagtige Mandfolk, alle Kujoner skulle v&#x00E6;re Ki&#x00F8;kkenskrivere.</p>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="3_9">
+<head type="sub">Niende Optrin.</head>
+<stage><hi rend="bold">Philalet</hi> kommer ud af Sahlen, de forrige.</stage>
+<sp>
+<speaker>Philalet.</speaker>
+<p>Nu faaer man see hvorledes vi have maneoureret mod fremmede Magter. En Strand-Rider indberetter, at en Esqvadre n&#x00E6;rmer sig &#x00F8;en, den bestaaer af 2 Orlogs Skibe, 3 Fregatter og nogle mindre Fart&#x00F8;ier. Raske Carl, meddeel vort Mandskab Deres Aand. Dorant! strax til Volds, en vigtig Post nu, is&#x00E6;r for en Fremmed. Hr. Collega! jeg har sagt min Meening, og toer mine H&#x00E6;nder, hvordan det falder ud.</p>
+</sp>
+<sp>
+<speaker><pb n="51"/>Leonard.</speaker>
+<p>Ah! mit deilige Huus! Ah! mon De kaster Bommer ind?</p>
+</sp>
+<sp>
+<speaker>Carl.</speaker>
+<p>Jeg skal seyre eller d&#x00F8;e?</p>
+</sp>
+<sp>
+<speaker>Fruen.</speaker>
+<p>Jeg d&#x00F8;er i Spidsen af mine Amazoner, paa &#x00C6;rens S&#x00E6;ng.</p>
+</sp>
+<sp>
+<speaker>Dorant.</speaker>
+<p>Jeg vil leve og indl&#x00E6;gge mig &#x00C6;re.</p>
+</sp>
+<stage>(Alle tre gaae.)</stage>
+<sp>
+<speaker>Leonard.</speaker>
+<p>Nei, jeg maa hiem til mit Huus.</p>
+</sp>
+<sp>
+<speaker>Philalet.</speaker>
+<p>Paa ingen Maade. I Octoviratet maa vi v&#x00E6;re, for at give forn&#x00F8;dne Ordres til alt. Republikken er vort Huus. <stage>(Han sl&#x00E6;ber Leonard med som n&#x00F8;dig f&#x00F8;lger, men siger afsides, i det han gaaer)</stage></p>
+</sp>
+<sp>
+<speaker>Leonard.</speaker>
+<p>Gid Fanden havde den heele Republik.</p>
+</sp>
+<stage>Ende paa Tredie Handling.</stage>
+</div>
+</div>
+<div type="chapter" subtype="act" n="4">
+<head type="main">Fierde Handling.</head>
+<stage>Skuepladsen er, som i f&#x00F8;rste og anden Handling.</stage>
+<div type="uchapter" subtype="scene" n="4_1">
+<head type="sub">F&#x00F8;rste Optrin.</head>
+<stage><hi rend="bold">Amalia</hi>, <hi rend="bold">Brontis</hi>.</stage>
+<sp>
+<speaker>Amalia.</speaker>
+<p>Her gaaer jeg, som mellem Liv og D&#x00F8;d; alting aander Skr&#x00E6;k. Bombastes B&#x00F8;nder str&#x00F8;mme ind fra Landet, og paatr&#x00E6;nge Frieheds Decret. Byens Fruentimmer ere blevne rasende, og min Tante er Furie god nok til at anf&#x00F8;re dem. En Flaade paa Reeden, som maaskee truer Byen med Beleiring &#x2013; og ingen Valentin og ingen Dorant; Hvor ere de? hvad vove de? Iil, Brontis! ops&#x00F8;g mig Valentin! iil &#x2013; dog nei, bie, forlad mig ikke, jeg er ellers forladt af Himmel og Jord.</p>
+</sp>
+<sp>
+<speaker><pb n="52"/>Brontis.</speaker>
+<p>Nei vist ikke, kiereste Barn! Jeg er saa l&#x00E6;t om Hierte, jeg. Jeg er ingen Spaaekielling; det b&#x00E6;res mig dog rigtig for, at der er noget godt med denne Flaade. Denne Flaade og Dorant og Din Bortf&#x00F8;relse, disse tre Ting tvinder jeg sammen som en Traad; Du skal sande og see, de h&#x00F8;re sammen; B&#x00F8;nder er ikke Gi&#x00E6;s, fordie de ere graae; V&#x00E6;r nu Du vakkert her, saa vil jeg hen og finde Valentin.</p>
+</sp>
+<sp>
+<speaker>Amalia.</speaker>
+<p>Nu, saa gaae da, gode kiere Brontis! gaae, og Fred f&#x00F8;lge Dig; men hast tilbage! <stage>(Hun gaaer.)</stage> &#x2013; Denne Flaade &#x2013; og Dorant? Ja det er rimeligt; Men en Flaade &#x2013; for min Skyld, det er urimeligt; det er umueligt; Men jeg kunde v&#x00E6;re en Biesag, den kan have, den maa have vigtigere Hensigter. <stage>(Hun tager op den skrevne Contract)</stage> Ah! der har hans Taarer giennemtrukket Papiiret. &#x00C6;dle Menneske! kunde nogen af h&#x00F8;ieste Byrd handle &#x00E6;dlere end Du! Ford&#x00F8;mte Capricer.</p>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="4_2">
+<head type="sub">Andet Optrin.</head>
+<stage>Frue <hi rend="bold">Pettis</hi> med Hat og Cokard, samt Kaarde h&#x00E6;ngende i en Bandeleers Rem, 2de Betientere, <hi rend="bold">Amalia</hi>.</stage>
+<sp>
+<speaker>Fruen.</speaker>
+<p>Nu, lille Niece! jeg beklager din Ungdoms Daarlighed. Mit Hierte var moderligt, det br&#x00E6;ndte i denne Barm. Men Du har ikke villet dit eget Beste. Du forsmaaede min S&#x00F8;ns Tilbud. Det er Forblindelse. Det er en Vei Du aabner Dig til yderste Van&#x00E6;re; Her er et Par gode Venner, som skulle afhente Dig. Det vil smerte mig i min Siel, om jeg i Morgen skal see Dig s&#x00E6;lge Fisk paa Torvet.</p>
+</sp>
+<sp>
+<speaker><pb n="53"/>Amalia.</speaker>
+<p>O! Tante! hvad Deres Medlidenhed er gruesom, men var den virkelig, saa viis mig en Naade. Paa mine Kn&#x00E6;e for Dem beder jeg derom. Forund mig Tid til Bet&#x00E6;nkning, kun i Dag, kun Natten over, maaskee jeg da indseer, at jeg har giort ilde i at afslaae Deres S&#x00F8;n.</p>
+</sp>
+<sp>
+<speaker>Betienterne Begge.</speaker>
+<p>Retten maa have sin Gi&#x00E6;nge.</p>
+</sp>
+<sp>
+<speaker>Fruen.</speaker>
+<p>Det er desuden forbie, Amalia! Min S&#x00F8;n er stolt, &#x00E6;del stolt, han har lagt under dette Hierte, han taaler ikke meer end et Afslag.</p>
+</sp>
+<sp>
+<speaker>Amalia.</speaker>
+<p>Und mig dog Huuslye her til i Morgen.</p>
+</sp>
+<sp>
+<speaker>Betienterne.</speaker>
+<p>Retten maa have sin Gi&#x00E6;nge.</p>
+</sp>
+<sp>
+<speaker>Amalia.</speaker>
+<p>Mig synes det var bedre I forsvarede den beleirede Bye, end at I &#x00E6;ngste nogle stakkels uskyldige Fr&#x00F8;kener. Men det er Kujoners V&#x00E6;rk at v&#x00E6;re Barbarer mod v&#x00E6;rgel&#x00F8;se Qvinder, og Qvinder mod v&#x00E6;bnede M&#x00E6;nd.</p>
+</sp>
+<sp>
+<speaker>Betienterne.</speaker>
+<p>Retten maa have sin Gi&#x00E6;nge.</p>
+</sp>
+<sp>
+<speaker>Amalia.</speaker>
+<p>Kalde I det Ret at f&#x00E6;ngsle frie Folk, saa gid baade denne Ret og Rettens Gi&#x00E6;nge maatte knuses under den Ruin, som truer det heele.</p>
+</sp>
+<sp>
+<speaker>Betienterne.</speaker>
+<p>Retten maa have sin Gi&#x00E6;nge. <stage>(De ville tage hende een under hver Arm.)</stage></p>
+</sp>
+<sp>
+<speaker>Amalia.</speaker>
+<p>R&#x00F8;rer mig ikke, Nedrige! uden foreviist Ordre, eller jeg anseer Eder for Straten-R&#x00F8;vere, og raaber Vold.</p>
+</sp>
+<sp>
+<speaker>En Betient</speaker>
+<stage>(tager et Papir op og l&#x00E6;ser saa t&#x00E6;t ind i Amalias Ansigt, at det gyser af hans Mund.)</stage>
+<p>&#x00AB;Hos ovenmeldte adelige Piger indfinde I Eder cito, bringende dem til den anviiste Sahl. Viiser nogen skriftlig &#x00C6;gteskabs Contract med en virkelig bekiendt og n&#x00E6;rv&#x00E6;rende ugift Mands Person, da modtage I den Contract, og samme til Notarius <pb n="54"/>levere, ladende en saadan som virkelig gift Kone med Fred i det Huus, hvor hun sig befinder.&#x00BB;</p>
+</sp>
+<sp>
+<speaker>Begge</speaker>
+<stage>(tagende hende under Armene)</stage>
+<p>Retten maa have sin Gi&#x00E6;nge.</p>
+</sp>
+<sp>
+<speaker>Amalia</speaker>
+<p>Nei, holdt! siden det ikke anderledes kan v&#x00E6;re, see der jeg er gift, tag og lad f&#x00F8;re til Protocols, og lad saa Eders Ret have sin Gi&#x00E6;nge saa l&#x00E6;nge den vil.</p>
+</sp>
+<sp>
+<speaker>Fruen.</speaker>
+<stage>(l&#x00E6;ser Contracten i Betientens Haand, og siger)</stage>
+<p>Ja, ja! I faae altsaa ikke denne T&#x00F8;ite med paa den store Sahl, gaaer kun. <stage>(De gaae, hun seer l&#x00E6;nge stift og haanlig paa Amalia.)</stage></p>
+</sp>
+<sp>
+<speaker>Amalia.</speaker>
+<p>O! Madam! Jeg seer hvad De t&#x00E6;nker, jeg veed hvad De vil sige, jeg kan det udenad altsammen. Jeg har veiet mine Pligter. Da man ikke tillod mig at blive min Stand troe, giorde jeg i N&#x00F8;dsfald det bedste Valg jeg vedste.</p>
+</sp>
+<sp>
+<speaker>Fruen.</speaker>
+<p>Sikken Funke af Sentiments, just da den adelige Stolthed opgav sin Aande. De vil dog ikke troe, at mine &#x00D8;ine endnu skulle v&#x00E6;re dunkle af Alderdom? Nei! nei! disse alt for p&#x00E6;ne Piger ere mig engang for alle mist&#x00E6;nkte. Jeg har optegnet i min Hukommelses-Journal alle disse mist&#x00E6;nkelige Samtaler med Valentin, alle disse talende &#x00D8;iekast, denne sygelige kielne Tone, i hvilken man befalede denne stakkels Tiener noget. I Sandhed, Republikken har forekommet Deres &#x00D8;nsker, den har tient Dem med et Paaskud, saa anst&#x00E6;ndigt, som De forgi&#x00E6;ves skulle s&#x00F8;gt det i al Verdens Monarchier. A <hi rend="italic">la bonn &#x00AB;heure&#x00BB;</hi> Tienerinde Madame Valentin Wigdahls. Han maatte tage dette Tilnavn, stakkels Fyr! af den Gaard, hvor han er opfostret; men det var i Mangel af Faders Navn. De veed, <pb n="55"/>han er et Hittebarn; Kanskee han er en stor Mands S&#x00F8;n, naar alt kommer til alt, en Prinds af Blodet incognito; Kan ogsaa hende, hans Fader er kagstr&#x00F8;get og br&#x00E6;ndem&#x00E6;rket; Men <hi rend="italic">en fin</hi>, Deres adelige Blod har f&#x00F8;let, at der var noget ved ham. Han er sandelig sufficant, en god Bygning, og lover en giftesyg Pige en lykkelig Fremtid.</p>
+</sp>
+<sp>
+<speaker>Amalia.</speaker>
+<p>Denne Forel&#x00E6;sning karakteriserer Deres Hierte. Min Samvittighed kan besvare alt; men den taler et Sprog, som De, Madam! ikke forstaaer, som De ikke fortiener at h&#x00F8;re. De har bragt min Forvirrelse til h&#x00F8;ieste Spidse. Viid da: jeg foragter Dem i min Siels Inderste! De beviiser, hvad man i denne Tid saa gierne vil have beviist: At Adel frembringer Monstra. De b&#x00E6;r et Sv&#x00E6;rd der, giennemboer mig dermed, siden Naturen dog har taget feil, og bestemt Dem til at anf&#x00F8;re Fiskerkiellinger. Kom, st&#x00F8;d til! Det er jo gandske republicansk at slaae de Folk ihiel, som t&#x00E6;nke og tale anderledes end vi; Og overalt: De kan jo faae et Decret, som siger: Det skal saa v&#x00E6;re, det maa saa v&#x00E6;re!</p>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="4_3">
+<head type="sub">Tredie Optrin.</head>
+<stage><hi rend="bold">Lise</hi>. De forrige.</stage>
+<sp>
+<speaker>Lise.</speaker>
+<p>Frue General! Frue General! Armeen venter Dem, og bestormer Huuset i dette &#x00D8;ieblik, dersom De ikke kommer.</p>
+</sp>
+<sp>
+<speaker>Fruen.</speaker>
+<p>Nei! lev, Dumdristige! Min H&#x00E6;vn skal skaane Dig til langvarigere Smerter. <stage>(Hun gaaer.)</stage></p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>Ja! det er en bitter Di&#x00E6;vel, den s&#x00F8;de Tante; Kan hun hugge saa dybe Saar med sit Sv&#x00E6;rd, som med sin Mund, saa GUd forbarme sig over Fienden! <pb n="56"/>Men, Fr&#x00F8;ken! der skulle De seet en Armee, de havde n&#x00E6;r skamrasket stakkels Valentin, som stod paa T&#x00F8;ihuuset og udleverede Vaaben til dem. Den dydziirede Rufferske, Mutter paa Trappen, er Oberstlieutnant; Hendes Mave af tre Etager gaaer som en Smideb&#x00E6;lg.</p>
+</sp>
+<sp>
+<speaker>Amalia.</speaker>
+<p>Du saae Valentin? hvor er han? hvor gik det ham?</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>Det veed jeg i Sandhed ikke; Jeg saae kun et Glimt af ham, og h&#x00F8;rde kun en og anden Gang hans R&#x00F8;st mellem disse sn&#x00F8;vlende Fiskerkiellingers rustede Basuner. Jeg tog Flugten, for ikke at blive hvervet.</p>
+</sp>
+<sp>
+<speaker>Amalia.</speaker>
+<p>H&#x00F8;r, Lise! V&#x00E6;r mig troe! jeg skal &#x00E6;gte Valentin: Vi ville flytte hemmelig i denne Aften; Forraad mig ikke, men v&#x00E6;r tilstede, hielp til Rette, naar vort T&#x00F8;i afh&#x00E6;ntes. Der har Du den lille Guldb&#x00F8;rs, den sidste Gave maaskee af min Haand.</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<stage>(gr&#x00E6;dende kysser hendes Haand.)</stage>
+<p>O! min s&#x00F8;de Fr&#x00F8;ken! seer jeg Dem ikke meere, saa v&#x00E6;r velsignet for hvert &#x00D8;ieblik jeg har kiendt Dem! De var altid god, mod alle god; Men seer jeg Dem ikke meere?</p>
+</sp>
+<sp>
+<speaker>Amalia</speaker>
+<p>Det veed jeg ikke; gaae min Pige! v&#x00E6;r paa din Post i Valentins Kammer! Lykke f&#x00F8;lge Dig. <stage>(Hun gaaer.)</stage></p>
+</sp>
+<sp>
+<speaker>Amalia.</speaker>
+<stage>(alleene)</stage>
+<p>Det er dog en Vellyst at v&#x00E6;re elsket, endog af den ringeste Tiener, endog af ubef&#x00E6;stede Karakterer.</p>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="4_4">
+<head type="sub">Fierde Optrin.</head>
+<stage><hi rend="bold">Brontis</hi>, <hi rend="bold">Amalia</hi>.</stage>
+<sp>
+<speaker>Brontis.</speaker>
+<p>V&#x00E6;r roelig, mit Barn! jeg traf ikke ham; men Dorant han sagde: Du skulde v&#x00E6;re f&#x00E6;rdig, <pb n="57"/>naar Bud kom og hilsede fra Valentin. Valentin var i hans Erinde, jeg veed ikke hvor; Men GUd forbarme sig, hvad det er for en Republik! En M&#x00E6;r af en Madam fik mig i sine Kl&#x00F8;er, og sagde: at hun vilde gi&#x00F8;re mig til Amazon. Fanden v&#x00E6;re din Amazon, svarte jeg, jeg er en &#x00E6;rlig Bondekone; Til al Guds Lykke var jeg saa st&#x00E6;rk, at jeg puffede hende fra mig. Jeg saa ingen som holdt Skik, alle vare lige gode, eller lige onde, ret som en Flok uskikkelige B&#x00F8;rn, som s&#x00E6;tte Stuen paa Loftet, naar Faer og Moer ere ude. Er dette Republik, og faaer vi ingen Konge igien, eller nogen anden brav Mand, som kan Holde styr paa Almuen, saa sv&#x00E6;r jeg paa, alle Folk i Byen i det mindste &#x00F8;del&#x00E6;gge hverandre inden Aar og Dag.</p>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="4_5">
+<head type="sub">Femte Optrin.</head>
+<stage>To bev&#x00E6;bnede. De forrige.</stage>
+<sp>
+<speaker>Den eene.</speaker>
+<p>Er det Fr&#x00F8;ken Amalia?</p>
+</sp>
+<sp>
+<speaker>Amalia.</speaker>
+<p>Ja! det er.</p>
+</sp>
+<sp>
+<speaker>Den eene.</speaker>
+<p>Valentin Wigdahl sendte os at afhente Dem, og her er fleere udenfor at tage T&#x00F8;iet.</p>
+</sp>
+<sp>
+<speaker>Amalia.</speaker>
+<stage>(til Brontis)</stage>
+<p>L&#x00F8;b og beed Lise v&#x00E6;re i Valentins Kammer <stage>(Hun gaaer.)</stage> <stage>(til den Bev&#x00E6;bnede)</stage> beed dem, som skal tage T&#x00F8;iet, gaae til Bagporten! <stage>(Een af de Bev&#x00E6;bnede gaaer ud, og kommer strax ind igien.)</stage></p>
+</sp>
+<sp>
+<speaker>Amalia.</speaker>
+<p>Ak Himmel! din Varet&#x00E6;gt! <stage>(Brontis kommer tilbage, og da hun vil f&#x00F8;lge Amalia.)</stage></p>
+</sp>
+<sp>
+<speaker>Den eene.</speaker>
+<p>Vi har ingen Ordre om nogen Kielling.</p>
+</sp>
+<sp>
+<speaker>Amalia.</speaker>
+<p>Da er det blot en Forglemmelse.</p>
+</sp>
+<stage>(De gaae alle.)</stage>
+<sp>
+<speaker>Amalia.</speaker>
+<p>Forf&#x00E6;rdelige Optrin!</p>
+</sp>
+<stage>(De slaae D&#x00F8;rren st&#x00E6;rk efter sig.)</stage>
+</div>
+<div type="uchapter" subtype="scene" n="4_6">
+<head type="sub"><pb n="58"/>Siette Optrin.</head>
+<stage><hi rend="bold">Leonard</hi>.</stage>
+<sp>
+<speaker>Leonard.</speaker>
+<stage>(alleene.)</stage>
+<p>Hvad Fanden var dette? Heida! Valentin! Lise! hvor ere I allesammen? Hvem gik i den D&#x00F8;r? Ikke en Siel i Huuset! Valentin var en feed Karl til at passe paa Huuset. Ak! din Skielm! Man skulle gi&#x00F8;re vel mod slige Folk! Saa snart en saadan Laquai &#x2013; Slyngel faaer en lille Betiening, saa er han strax Matador, og giver sit Herskab D&#x00F8;den og Di&#x00E6;velen. O! gid dette Republicanskab var Fanden i Vold. Jeg er bange, her gaaer meere for mindre. Jeg t&#x00E6;nkte ret, jeg skulle fiske i r&#x00F8;rt Vand, men jeg drugner i denne R&#x00F8;re.</p>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="4_7">
+<head type="sub">Syvende Optrin.</head>
+<stage><hi rend="bold">Lise</hi>, <hi rend="bold">Leonard</hi>.</stage>
+<sp>
+<speaker>Leonard</speaker>
+<p>Lise! hvor holder Du Huus? Du passer godt paa; Her kunne man jo sti&#x00E6;le alting bort.</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>O! jeg var oppe i Fruens Garderobe og fandt en Jagtkl&#x00E6;dning med breede Guldgalloner, den var i Moden da jeg var et Barn, men nu vil den kl&#x00E6;de godt til Amazon-Dragt, saa slipper Fatter at skaffe hende nye Uniform. Hvad som er spart er fortient.</p>
+</sp>
+<sp>
+<speaker>Leonard.</speaker>
+<p>Du er brav, Lise! men hvor er Valentin?</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>Han kom for en Stund siden som han var gal, l&#x00F8;b ind i sit Kammer, slog D&#x00F8;rren efter sig, og da han foer ud igien, syntes mig han havde r&#x00F8;d Kiole. Jeg gik ind i hans Kammer, og der laae den heele Laquai-Ham paa Gulvet.</p>
+</sp>
+<sp>
+<speaker>Leonard.</speaker>
+<p>Det begriber jeg &#x2013; Men Amalia?</p>
+</sp>
+<sp>
+<speaker><pb n="59"/>Lise.</speaker>
+<p>Hun var her i &#x00F8;ieblikket &#x2013; Ah! hun har vel fulgt disse Fr&#x00F8;ken-St&#x00F8;vere til den lykkelige Sahl hvor alle disse Brudes&#x00E6;ngs Candidater skulle henbringe deres Uskyldigheds sidste Nat.</p>
+</sp>
+<sp>
+<speaker>Leonard.</speaker>
+<p>Det er nok saa; det er nok saa.</p>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="4_8">
+<head type="sub">Ottende Optrin.</head>
+<stage><hi rend="bold">Valentin</hi>, som Ingenieur-Officier.</stage>
+<sp>
+<speaker>Valentin.</speaker>
+<p>Staffetten fra Flaaden er paa Raads-Sahlen. Man venter Dem, Hr. Pettis!</p>
+</sp>
+<sp>
+<speaker>Leonard.</speaker>
+<p>Ja! men hvor Fanden er du henne, som skal passe paa mit Huus? Nu maa Du blive her til jeg kommer tilbage.</p>
+</sp>
+<sp>
+<speaker>Valentin.</speaker>
+<p>Det er mig umueligt, jeg skal til Volds, og desuden h&#x00F8;rer Man ikke Stormklokken. Men hvor er Amalia?</p>
+</sp>
+<sp>
+<speaker>Leonard.</speaker>
+<p>De sl&#x00E6;bte nu af med hende paa Fr&#x00F8;ken-Sahlen.</p>
+</sp>
+<sp>
+<speaker>Valentin.</speaker>
+<p>Det er umueligt.</p>
+</sp>
+<sp>
+<speaker>Leonard.</speaker>
+<p>Det som er virkeligt, er ikke umueligt.</p>
+</sp>
+<sp>
+<speaker>Valentin.</speaker>
+<p>Saa har Betienterne giort Vold, hun havde jo Document, hvormed at befrie sig.</p>
+</sp>
+<sp>
+<speaker>Leonard.</speaker>
+<p>Det maa have v&#x00E6;ret et falskt Document, siden hun ikke blev befriet.</p>
+</sp>
+<sp>
+<speaker>Valentin.</speaker>
+<stage>(afsides)</stage>
+<p>Eller falsk Beskeedenhed, eller Stolthed.</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>Hun er virkelig bortf&#x00F8;rt efter Ordre <stage>(sagte)</stage> Du forstaaer mig nok &#x2013; og med god Villie.</p>
+</sp>
+<sp>
+<speaker>Valentin.</speaker>
+<p>Det kan jeg i Evighed ikke forstaae. <stage>(Han gaaer.)</stage></p>
+</sp>
+<sp>
+<speaker>Leonard.</speaker>
+<p>See der, tog ikke atter Fanden ved ham.</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<stage>(for sig selv)</stage>
+<p>Det er en poleret Krabbat, den Valentin!</p>
+</sp>
+<sp>
+<speaker><pb n="60"/>Leonard.</speaker>
+<p>Faae den Skam der forlader mit Huus. Republikken betaler mig ikke, naar jeg er bestiaalen af Gautyve.</p>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="4_9">
+<head type="sub">Niende Optrin.</head>
+<stage><hi rend="bold">Fruen</hi>, de forrige.</stage>
+<sp>
+<speaker>Fruen.</speaker>
+<p>Ak! gid vi ikke vare bestiaalne, jeg kommer ind af Bagporten, den staaer aaben, i Valentins Kammer, det er tomt, i Amalies Kammer, det er tomt, hvor er Amalia?</p>
+</sp>
+<sp>
+<speaker>Leonard.</speaker>
+<p>Amalia er jo vel paa Fr&#x00F8;ken-Sahlen.</p>
+</sp>
+<sp>
+<speaker>Fruen.</speaker>
+<p>Nei, hvad skulde hun der? hun er gift i Tugt og &#x00C6;re med Valentin. Betienterne maatte gaae med uforrettet Sag. Hendes Naade tog til Takke med Laquaien. Det kalder jeg den h&#x00F8;ie Adel.</p>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="4_10">
+<head type="sub">Tiende Optrin.</head>
+<stage><hi rend="bold">Philalet</hi>, de forrige.</stage>
+<sp>
+<speaker>Philalet.</speaker>
+<p>Hvor bliver De af, Hr. Collega! Stafetten venter, vi har Debatter. Her er periculum in mora. H&#x00F8;r hvad han bringer. <stage>(Han l&#x00E6;ser:)</stage></p>
+<p>&#x00AB;Undertegnede lader sp&#x00F8;rge den h&#x00F8;irespective Republik i sin Herre Kongen af Dannemarks Navn, om den vil tillade ombordev&#x00E6;rende Minister at komme ind i Byen for mundtlig at afgi&#x00F8;re Ting af Importence, samt om han maa bringe med sig en Esqcorte af 100de bev&#x00E6;bnede, ingenlunde tvivlende om det h&#x00F8;ie Octovirats Parolle, naar den blev givet; men fordi man har bragt i Erfaring, at Byen er &#x00E6;ngstet af indvortes Uroelighed, og at h&#x00F8;ibemeldte Octovirat ikke med bedste Villie, under n&#x00E6;rv&#x00E6;rende Omst&#x00E6;ndigheder, kunde anderledes holde ham sikker for P&#x00F8;bel-Insulter. Skulde alt venskabeligt, mod <pb n="61"/>Formodning, afslaaes, forbeholder man sig at tage andre n&#x00F8;dvendige Messures, for at naae det foresatte Maal.&#x00BB;</p>
+<p>Orlogskibet Bi&#x00F8;rnen den 28de Januarii 1793.
+<lb/>Schoutbinacht Nordskiold.</p>
+<p>See, der er Sagen. Med Kongen af Dannemark kan vi ikke have noget udestaaende, uden de Uartigheder vi have sagt mod alle Konger. Af det Danske Ministerium troer jeg desuden ikke vi b&#x00F8;r befrygte nogen voldsom Invasion. Overalt kan man med kloge Folk altid snakke sig til Rette; Men med os selv ere vi v&#x00E6;rre farne. Gid vi kunne komme overeens! Gid vi kunde hytte os for Narrestr&#x00E6;ger! Mentor har det h&#x00E6;ftigt med Etiquetten, hvordan vi skal staae og gaae, om vi skal reyse os for Ministeren eller ikke. Han taler om romerske Fassces og Lictores og Corona civica. Jeg var tilfreds, han i den Sted kunde skaffe os nogle Fabier og Marier og Scipioner, ellers kl&#x00E6;der det os ilde, at v&#x00E6;re deres Abekatter i Baggateller. Han paastaaer, at det diplomatiske Fag b&#x00F8;r v&#x00E6;re hans alleene; Men han ford&#x00E6;rver alt. Jeg forstaaer mig slet ikke paa Diplomatique, det er vist nok; Men jeg skulle troe, at denne danske Minister ligesaa gierne nogocierer med en Mand af sund menneskelig Forstand, som med en Nar, der kommer antogende i en overspendt H&#x00F8;itidelighed. H&#x00F8;r nu! Mit Forslag er for det f&#x00F8;rste: Vi indvilge Ministerens Komme og Esquorte; 100 bev&#x00E6;bnede kan dog ikke skr&#x00E6;mme os. Dern&#x00E6;st: at Hr. Collega indr&#x00F8;mmer Ministeren sit Huus til Logis, at vi kan sondere hans Meening, f&#x00F8;rend vi in pleno giver Svar, som da ikke kan forandres.</p>
+</sp>
+<sp>
+<speaker><pb n="62"/>Leonard.</speaker>
+<p>Ja, vel nok, Hr. Collega! Men Republikken skal betale mig Huusleie; Jeg gi&#x00F8;r det sandelig ikke under 100de Pd. Strl.; Thi naar&#x2013;</p>
+</sp>
+<sp>
+<speaker>Philalet.</speaker>
+<p>Specificeer ikke Deres Patriotisme, jeg kiender den baade en gros og en datail. De skal faae Betaling; Forekom nu kun, at ikke Mentor ford&#x00E6;rver os Leegen. Han fik det, til Lykke, travelt med noget, GUd veed hvad det var, og foer afsted, som en Brems havde stukket ham. Glad var jeg, at jeg fik Leilighed til at tale med Estaphetten. Jeg gaaer hen og byder Ministeren v&#x00E6;re velkommen, og anviiser Deres Huus. Farvel! <stage>(Han gaaer)</stage></p>
+</sp>
+<sp>
+<speaker>Fruen.</speaker>
+<p>Nedrige! med sine 100de Pd. Strl., n&#x00E6;vn mig dem aldrig meere; Ikke en Skilling! Fy! Han maatte skamme seg! Vil Han ikke, at jeg maa holde Marketenterie for de 100de Soldater? Der var en Skilling at fortiene.</p>
+</sp>
+<sp>
+<speaker>Leonard.</speaker>
+<p>Stille, stille, Kone! Jeg skal gi&#x00F8;re det for intet.</p>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="4_11">
+<head type="sub">Ellevte Optrin.</head>
+<stage><hi rend="bold">Mentor</hi>, <hi rend="bold">Leonard</hi>, <hi rend="bold">Fruen</hi>, <hi rend="bold">Lise</hi>.</stage>
+<sp>
+<speaker>Mentor.</speaker>
+<stage>(i Raadsherre Dragt.)</stage>
+<p>Her er Manden, den fortiente af Staten. Hvad have I udrettet der oppe allesammen, saa l&#x00E6;nge I have sat der? Strax ved D&#x00F8;rt&#x00E6;rskelen opdager jeg Conspirationer, Forr&#x00E6;dere, F&#x00F8;delands Fiender. Jo! jo! de skulle haft sit Spil, om jeg ikke var kommen. Men det er ikke saa l&#x00E6;t at v&#x00E6;re Catilina, naar der gives en Cicero. Dog, jeg kan troe, det skal saa gaae. Naar Allbestyreren vil have en Stat r&#x00E6;ddet fra Undergang, opv&#x00E6;kker han i N&#x00F8;dens Tid en Mand, som har &#x00D8;ine, en Frelser.</p>
+</sp>
+<sp>
+<speaker><pb n="63"/>Lise</speaker>
+<p>Han pr&#x00E6;ker.</p>
+</sp>
+<sp>
+<speaker>Leonard.</speaker>
+<p>Nu! hvad er der? hvad er der? De gi&#x00F8;r mig gandske angest.</p>
+</sp>
+<sp>
+<speaker>Mentor.</speaker>
+<p>Staaer ikke paa, staaer ikke paa, Hr. Collega! Dorant er en Spisbub, Valentin en Forr&#x00E6;der, begge i Ledtog med Flaaden.</p>
+</sp>
+<sp>
+<speaker>Leonard</speaker>
+<p>Himmel og Jord! Men hvoraf veed De det?</p>
+</sp>
+<sp>
+<speaker>Mentor.</speaker>
+<p>Opdaget ved en Constabel, at Dorant forstaaer sig paa F&#x00E6;stnings-V&#x00E6;rk, som Koe Paa Moskat. Han vil have et Fort, hvor et Huus staaer, et Fort, som, naar det blev f&#x00E6;rdigt, kunde beskyde Byen, aldrig forsvare den.</p>
+</sp>
+<sp>
+<speaker>Leonard.</speaker>
+<p>Jeg troer positiv, at Dorant har Ret; Thi &#x2013;</p>
+</sp>
+<sp>
+<speaker>Mentor.</speaker>
+<p>Dumt raisoneret, Hr. Collega! Men nu eet da, som ikke gaaer over Deres Horizont: Dorant f&#x00F8;rer hemmelig Brev-Vexling med Flaaden.</p>
+</sp>
+<sp>
+<speaker>Leonard.</speaker>
+<p>Ja, skulle det v&#x00E6;re sandt, saa maatte han vel arresteres.</p>
+</sp>
+<sp>
+<speaker>Mentor.</speaker>
+<p>Dumt raisoneret, Hr. Collega! <hi rend="italic">in hac crisi reipublic&#x00E6;</hi>. Arresteer ham nu, saa har vi Krig med Flaaden; men en Karl leiet, der giennemborer Spionen med en Dolk, saa veed ingen, hvo der har giort det. Vi skylde paa P&#x00F8;belen, og beklage den brave Mands Tab.</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>Fy, det var h&#x00E6;slig, jeg troer De, Hr. Mentor! var bedre v&#x00E6;rd en Dolk, som kommer frem med sligt, end Dorant, det er ret saadan allerkiereste ki&#x00F8;n Mand.</p>
+</sp>
+<sp>
+<speaker>Mentor.</speaker>
+<p>Lise! bland Dig ikke i Stats Sager.</p>
+</sp>
+<sp>
+<speaker>Leonard.</speaker>
+<p>Ja! det gi&#x00F8;r mig ret Ondt for Dorant. Men nu Valentin?</p>
+</sp>
+<sp>
+<speaker><pb n="64"/>Mentor.</speaker>
+<p>Er hans Haandtlanger og <hi rend="italic">sublato ante cedente tollitur conseqvens</hi>.</p>
+</sp>
+<sp>
+<speaker>Leonard.</speaker>
+<p>O! jeg forstaaer ikke Latin da! Det var en Di&#x00E6;vels Allarm med det Menneske og hans Latin. Hvad har Valentin giort?</p>
+</sp>
+<sp>
+<speaker>Mentor.</speaker>
+<p>Bortf&#x00F8;rt Amalia med bev&#x00E6;bnede Banditter.</p>
+</sp>
+<sp>
+<speaker>Leonard.</speaker>
+<p>Det var jo intet Forr&#x00E6;derie, han maa jo f&#x00F8;re sin Kone hvorhen han vil.</p>
+</sp>
+<sp>
+<speaker>Mentor.</speaker>
+<p>Ha! ha! ha! Saa politicerer Kandest&#x00F8;beren. Men Mentor seer lidt dybere i Tingen. Hvorfor bortf&#x00F8;re hemmelig sin aabenbare Kone &#x2013; Ja, der staaer I nu &#x2013; Jo, paa det, naar hans Plan med Dorant var udf&#x00F8;rt, og Forr&#x00E6;deren ikke torde v&#x00E6;re l&#x00E6;ngere paa &#x00D8;en, han da kunde viide ubehindret at tage og indskibe hende; og maaskee er hun i denne Stund paa Flaaden.</p>
+</sp>
+<sp>
+<speaker>Fruen.</speaker>
+<p>Dette er h&#x00F8;yst sandsynligt.</p>
+</sp>
+<sp>
+<speaker>Mentor.</speaker>
+<p>Men jeg bringer det til juridisk Vished. Valentin b&#x00F8;r arresteres, d&#x00F8;mmes og straffes som Landsforr&#x00E6;der. Jeg gaaer hen at ops&#x00F8;ge ham, og Republikken skal takke mig for sin Frelse. <stage>(han gaaer.)</stage></p>
+</sp>
+<sp>
+<speaker>Fruen.</speaker>
+<p>Jeg maa ind og see om Amalia ogsaa har taget mine Juveeler med sig &#x2013; hun vedste hvor de vare. <stage>(Hun gaaer.)</stage></p>
+</sp>
+<sp>
+<speaker>Leonard.</speaker>
+<p>Og jeg maa giemme det rareste i mit Mynt-Cabinet, jeg faaer dog vel viise Ministeren det, og han kunde ellers blive med lyste. <stage>(han gaaer.)</stage></p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<stage>(allene)</stage>
+<p>Ak Himmel! gid jeg ikke blev indviklet med i denne Bande! Gid jeg aldrig havde taget imod denne Guldb&#x00F8;rs.</p>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="4_12">
+<head type="sub"><pb n="65"/>Tolvte Optrin.</head>
+<stage><hi rend="bold">Valentin</hi>, <hi rend="bold">Lise</hi>.</stage>
+<sp>
+<speaker>Valentin.</speaker>
+<p>Lise! ki&#x00E6;re Lise! jeg besv&#x00E6;r Dig ved Himmel og Jord, siig mig hvor Amalia er.</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>Far Pokker i Vold Abekat! spil ikke Rulle for mig, jeg er jo Medvider, Mentor har opdaget alt; siig heller, hvorledes vi begge undgaae Lygte-P&#x00E6;len.</p>
+</sp>
+<sp>
+<speaker>Valentin.</speaker>
+<p>I, min Gud! Lise! sp&#x00F8;g dog ikke nu, jeg er i D&#x00F8;ds Angest.</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>Jeg meener Du raser, jeg er og i D&#x00F8;ds Angest, frels os, frels os.</p>
+</sp>
+<sp>
+<speaker>Valentin.</speaker>
+<p>Ja Du kunde gi&#x00F8;re mig rasende, tal dog, hvor er Amalia, siig hvad Du veed, hvad her er passeret.</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>To Bev&#x00E6;bnede hilser fra Dig og bortf&#x00F8;re Amalia, fleere af samme Bande indlukkes af mig giennem Bagporten, og afhente dit og Amalias T&#x00F8;i.</p>
+</sp>
+<sp>
+<speaker>Valentin.</speaker>
+<p>Hvor er jeg? hvad H&#x00F8;rer jeg? have disse Canailler giettet min Plan, og udf&#x00F8;rt den i Utide, uden Ordre. Hvor mange vare De?</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>Jeg vil slutte der var omtrent et Snees Stykker.</p>
+</sp>
+<sp>
+<speaker>Valentin.</speaker>
+<p>O! min GUd! det var de samme.</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>Men de beraabte sig paa Ordre.</p>
+</sp>
+<sp>
+<speaker>Valentin.</speaker>
+<p>Det er L&#x00F8;gn, Lise! jeg har ingen Ordre givet, kun befalet dem at vente paa Ordre. O! forf&#x00E6;rdelige Tildragelse! hvilken ond Aand blander sig i dette Spil. Jeg er forraad! jeg er forraad&#x2013;</p>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="4_13">
+<head type="sub"><pb n="66"/>Trettende Optrin.</head>
+<stage><hi rend="bold">Leonard</hi>, de forrige.</stage>
+<sp>
+<speaker>Leonard.</speaker>
+<p>Ja det er omtrent saa, men det er godt, at en Forr&#x00E6;der forraades. Nedrige! mindst havde jeg ventet dette af dig. I Ledtog med Dorant? I Ledtog med Flaaden? Republikkens Fiende?</p>
+</sp>
+<sp>
+<speaker>Valentin.</speaker>
+<p>Det er jeg ikke, det bliver jeg aldrig. Men min Amalia borte, saa kan intet verre m&#x00F8;de mig.</p>
+</sp>
+<sp>
+<speaker>Leonard.</speaker>
+<p>Giftige Ski&#x00E6;lm! Du har selv f&#x00F8;rt hende bort, Du veed eene hvor hun er, og Du vil drive Gi&#x00E6;k med al Verden.</p>
+</sp>
+<sp>
+<speaker>Valentin.</speaker>
+<p>Det nytter ikke at retf&#x00E6;rdiggi&#x00F8;re mig. Al Sandsynlighed er mig imod. Jeg har kun et Vidne, men det taler ikke paa Jorden.</p>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="4_14">
+<head type="sub">Fiortende Optrin.</head>
+<stage><hi rend="bold">Mentor</hi>, 2 Vagtm&#x00E6;nd, de forrige.</stage>
+<sp>
+<speaker>Mentor.</speaker>
+<p>Du troe Tiener! Din L&#x00F8;n venter Dig. I Republikkens Navn leveer Din Kaarde!</p>
+</sp>
+<sp>
+<speaker>Valentin</speaker>
+<stage>(forbittret tr&#x00E6;kker sin Kaarde, og i det han taler, gaaer meere og meere ind paa Livet af Mentor)</stage>
+<p>Den burde giennemboere Dig, Nedrige! see mig i &#x00D8;inene, frygtagtige Ski&#x00E6;lm. Du t&#x00F8;r ikke, Du burde d&#x00F8;e paa Stedet, men Du skal leve. Hvor indviklet end Sagen er, Sandhed maa frem, om der er Skygge af Ret til paa denne &#x00D8;e. Jeg veed ikke hvor Amalia er, hvad Ruller I spille, hvilke Intriguer Du sammenv&#x00E6;ver. Staae Karl paa dine Been, de ski&#x00E6;lve, Dit Ansigt blegner; Du ja Du er min Ulykkes Ophavsmand. <stage>(Vagten n&#x00E6;rmer sig og vil tage fat paa Valentin)</stage> R&#x00F8;er mig ikke, Karle. <pb n="67"/>Karle! Jeg er Mand for jer alle 3, naar jeg har denne, <stage>(han seer paa sin Kaarde)</stage> Jeg skal levere den, naar min Tid kommer, naar jeg faaer sagt denne Glosebog, at han er en gemeen Karl, som kan slikke P&#x00F8;belen, for at voteres ind i Raadet, at jeg haaber at afkl&#x00E6;de hans Ski&#x00E6;ndsel i Rettens Aasyn. Studeer nu, sorte Si&#x00E6;l! paa Dine R&#x00E6;nker, medens en &#x00E6;rlig Karl gaaer i F&#x00E6;ngsel, og venter at Sandhed maa udvikle sig selv. See der, Vagt! der er min Kaarde, nu gaaer jeg&#x2013;</p>
+<stage>(Han gaaer med Vagten.)</stage>
+</sp>
+<sp>
+<speaker>Leonard.</speaker>
+<p>Hvor staaer til, Mentor? Jeg er bange det h&#x00E6;nger ikke ret sammen. Man pleier sielden v&#x00E6;re saa kiek som Valentin, naar man gribes i en Misgierning, og sielden saa bange som Mentor, naar man har Ret. Hr. Collega! De puster saa, og er saa hierteklemt.</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>Ja, han seer ud skinbarlig som den onde Samvittighed.</p>
+</sp>
+<sp>
+<speaker>Mentor.</speaker>
+<p>Jeg bekymrer mig ikke om Eders Anm&#x00E6;rkninger. Et rasende Menneske maa vel Folk v&#x00E6;re bange for. Jeg har ydmygst Respect for en blot Kaarde. Min Styrke er ikke i Armene, men her &#x2013; <stage>(Han peger paa sit Hoved)</stage></p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<stage>(pegende paa sit Hierte)</stage>
+<p>Men her, Hr.Collega! her staaer nok heller ikke ret til.</p>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="4_15">
+<head type="sub">Femtende Optrin.</head>
+<stage><hi rend="bold">Carl</hi> med blank Kaarde, leedende <hi rend="bold">Dorant</hi> under Armen, som holder paa sin Side, en Constabel blodig bunden, og geleidet af 2de Bev&#x00E6;bnede.</stage>
+<stage><hi rend="bold">Leonard</hi>, <hi rend="bold">Mentor</hi>, <hi rend="bold">Lise</hi>.</stage>
+<sp>
+<speaker><pb n="68"/>Carl</speaker>
+<stage>(til Mentor)</stage>
+<p>Kiender De denne Karl, <stage>(pegende paa Constabelen)</stage> De svarer ikke, De blegner, De tier. Han har bekiendt i Vidners N&#x00E6;rv&#x00E6;relse at han er leiet af Dem, og det i Republikkens Navn, til at myrde Dorant. Karlen b&#x00F8;r ikke straffes. Han har giort sin Pligt, fulgt sin &#x00D8;vrigheds Ordre. Jeg kom til i samme Stund, forhindre mig ikke, raabte Karlen, jeg har Ordre, og jeg myrder en Forr&#x00E6;der. Forr&#x00E6;der eller ikke, sagde jeg, saa er han et Menneske, han skal leve, og er han skyldig, d&#x00F8;mmes efter Love. Jeg forvirrede St&#x00F8;det. Dorant er uden Tvivl kun let saaret; jeg skal ikke vige fra hans Side, vil man myrde skal man nu myrde os begge. Nedrige Mentor! er dette Omgangsmaade? hvilken Ski&#x00E6;ndsel har De villet kaste paa vor Republique? hvilke sorte Maximer? Ja, Du har l&#x00E6;rt mig boglige Konster, Du understod Dig vel ikke at forgifte min unge Siel med Bundfaldet af Din T&#x00E6;nkemaade. Men jeg har dog l&#x00E6;nge keeget ind i Dit inderste, det er ikke godt, nei, det er ikke.</p>
+</sp>
+<sp>
+<speaker>Mentor.</speaker>
+<p>Republikkens Frelse var mit Maal, og sund Politique min Methode.</p>
+</sp>
+<sp>
+<speaker>Carl.</speaker>
+<p>Jeg elsker nok Republikken meere end Du, Skinhellige! men kan den ikke frelses uden ved M&#x00F8;ykelmord, saa faaer den tabe sig, og er dette sund Politique, saa gid al Politique var i heede Helvede.</p>
+</sp>
+<sp>
+<speaker>Leonard.</speaker>
+<p>Ikke saa hidsig, min S&#x00F8;n! ikke saa hidsig, bet&#x00E6;nk Du er et ungt Menneske.</p>
+</sp>
+<sp>
+<speaker>Carl.</speaker>
+<p>En &#x00E6;rlig ung Mand er bedre end en Skielm dobbelt saa gammel. Min Faer! Colludeer ikke! aftv&#x00E6;t den Skampl&#x00E6;t af Republikken, og befal Deres Collega arresteret. De tier &#x2013; Nu vel an! jeg gi&#x00F8;r <pb n="69"/>det, jeg befaler det, og jeg har 300de B&#x00F8;nder ved Haanden, som skal gi&#x00F8;re mine Ord gieldende.</p>
+<stage>Han griber selv Mentor. Forh&#x00E6;nget falder.</stage>
+</sp>
+<stage>Ende paa Fierde Handling.</stage>
+</div>
+</div>
+<div type="chapter" subtype="act" n="5">
+<head type="main">Femte Handling.</head>
+<stage>Skuepladsen en st&#x00F8;rre Sahl i Pettis Huus uden Meubler, som en Audience-Sahl.</stage>
+<div type="uchapter" subtype="scene" n="5_1">
+<head type="sub">F&#x00F8;rste Optrin.</head>
+<stage><hi rend="bold">Carl</hi>, <hi rend="bold">Dorant</hi>.</stage>
+<sp>
+<speaker>Carl.</speaker>
+<p>Hvad kan han nu bestille derinde, Hans Pestilense, eller Excellence, hvad I kalde ham. Det skal vel smage af denne H&#x00F8;ihed, som Matadorerne i Monarchiet give sig? En Suurdei, som burde udrenses af det menneskelige Ki&#x00F8;n.</p>
+</sp>
+<sp>
+<speaker>Dorant</speaker>
+<p>Vist gives der de, som h&#x00E6;ve sig formeget, men det er ikke denne Ministers Casus; Men Deres Anm&#x00E6;rkning er i det heele urigtig. Den Smule Glands, hvormed Monarchiet omgiver de Store og St&#x00F8;rste, omendski&#x00F8;nt den i sig selv kun er Maaneskin, virker den dog paa M&#x00E6;ngden, og Virkningen er god. Mennesket er ikke saa abstract, som De meener. Seer De engang her, den nedrigste P&#x00F8;bel levner ikke Deres Fader den mindste &#x00C6;re; En Skarnager er f&#x00E6;rdig at spytte ham i Ansigtet. Kan Stat styres paa den Maade? Ja, De selv erhverver Dem nogle Ugers Agtelse ved Deres Tapperhed, Deres Uegennyttighed, Deres virkelig &#x00E6;dle Frieheds Aand; Men aldrig f&#x00F8;r fik De Ting at bestyre <pb n="70"/>i Roelighed, og noget skulle befales, som trykkede meenige Mand, f&#x00F8;rend den P&#x00F8;bel, som nyelig bar Dem paa H&#x00E6;nderne, fl&#x00F8;i Dem lugt i Deres &#x00D8;ine.</p>
+</sp>
+<sp>
+<speaker>Carl.</speaker>
+<p>Lad os ikke disputere! Slaven og den Frie tale dog ikke eet Sprog.</p>
+</sp>
+<sp>
+<speaker>Dorant.</speaker>
+<p>Jeg er meere frie end De, min Ven! Mit Gods, min &#x00C6;re, mit Liv beski&#x00E6;rmes mod de M&#x00E6;gtige ved Lovene. Hos os f&#x00F8;rer privat Mand Proces med Monarchen om Dit og mit, og Monarchen taber ofte.</p>
+</sp>
+<sp>
+<speaker>Carl.</speaker>
+<p>Det havde jeg ikke vedst f&#x00F8;r; Men saa maa deres System v&#x00E6;re en Undtagelse fra Regelen; Men siig mig, siden De nu har tilstaaet, at de var Spion, og saaledes taget denne Maske af: Hvorfor gaaer Ministeren med virkelig Maske? hvorfor skiuler han sit Navn? han er dog vel ikke br&#x00E6;ndem&#x00E6;rket.</p>
+</sp>
+<sp>
+<speaker>Dorant.</speaker>
+<p>Nei! men han b&#x00E6;r et M&#x00E6;rke i sit Ansigt, som han endnu ikke vil viise frem, men som ikke vil van&#x00E6;re ham, naar han viiser det; Men siig De mig: Hvordan h&#x00E6;nger den ulykkelige Historie sammen med Amalia? Findes hun ikke, saa bliver Byen bombarderet.</p>
+</sp>
+<sp>
+<speaker>Carl.</speaker>
+<p>Nu! Ja, hvad da? Og saa bliver Deres Flaade skudt i Siunk.</p>
+</sp>
+<sp>
+<speaker>Dorant.</speaker>
+<p>Lad os ikke prale, kiere Carl! Var alting paa &#x00D8;en i saa god Stand, som Deres Individuum, saa forslog vor Esqvadre ikke, men nu kiender jeg det heele; De udholdt i Sandhed ikke en Times Beleiring. Vi ere ikke lystne paa Krig; men De kan ikke troe, hvor dette Tilf&#x00E6;lde med Amalia er pirrende for Ministeren; Han veed alt hvad her er passeret <pb n="71"/>i Dag, og han vil troe, man har udf&#x00F8;rt mod Amalia, hvad man begyndte mod mig, og da vover han sig D&#x00F8;den for at h&#x00E6;vne sin &#x2013; Jeg havde n&#x00E6;r fortalt mig &#x2013; for at h&#x00E6;vne Amalia.</p>
+</sp>
+<sp>
+<speaker>Carl.</speaker>
+<p>Ja, det er underligt. Valentins Erkl&#x00E6;ring synes rimelig, Mentors Anklagelse ligesaa, kun Mentor er en lumpen Siel, men det er nok ikke Valentin, han er en ki&#x00E6;k Karl, den eeneste paa &#x00D8;en jeg ikke vilde slaaes med, og den, som er ret ki&#x00E6;k, kan neppe v&#x00E6;re nogen Slyngel; Altsaa troer jeg Valentin, og tviler om Mentor. Men med alt dette har vi ingen Amalia.</p>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="5_2">
+<head type="sub">Andet Optrin.</head>
+<stage><hi rend="bold">Fruen</hi> uden Kaarde og Hat, <hi rend="bold">Carl</hi>, <hi rend="bold">Dorant</hi>.</stage>
+<sp>
+<speaker>Fruen.</speaker>
+<p>Stor Allarm for en Pandekage! Her er en St&#x00F8;i om dette Menneske, som hun kunde v&#x00E6;re en Prindsesse. Jo men! det er ret en ki&#x00F8;n en. Jeg er hendes Tante, og vil &#x00F8;nske jeg saae hende aldrig meere for mine &#x00D8;ine. Hr. Dorant! siig Deres Minister fra mig: jeg tilgiver at man gi&#x00F8;r en Smule Oph&#x00E6;velser for en Person, hvilken man t&#x00E6;nker sig som eeneste Datter af den ber&#x00F8;mte von Leverpol. Men at gi&#x00F8;re et Skrit for at finde en lille Taske, der af Kaadhed gifter sig med en stor f&#x00F8;r Laquai, det er Ministeren uv&#x00E6;rdigt.</p>
+</sp>
+<sp>
+<speaker>Dorant.</speaker>
+<p>Med alt dette, Madame! saa har hvert Menneske sin Caprice, og Ministeren har den, enten at finde Amalia, eller at pr&#x00F8;ve Styrke med Republikken.</p>
+</sp>
+<sp>
+<speaker>Fruen.</speaker>
+<p>Det kalder jeg Ridderspil; Det er ret a la Don Qvixotte.</p>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="5_3">
+<head type="sub"><pb n="72"/>Tredie Optrin.</head>
+<stage><hi rend="bold">Lise</hi>, <hi rend="bold">Fruen</hi>, <hi rend="bold">Carl</hi>, <hi rend="bold">Dorant</hi>.</stage>
+<sp>
+<speaker>Lise.</speaker>
+<p>Triumph! Triumph! Frue! Skyd Victoria; Deres Vaaben seire. Oberstlieutnant, Mutter paa Trappen er den anden Zarine. Hun har med Corps d&#x0027; Armee bestormet Byens Arresthuus, og brudt op alle F&#x00E6;ngsler, og l&#x00F8;sladt alle Fanger. Alle mindre og st&#x00F8;rre Canailler af begge Ki&#x00F8;n, skyldige og uskyldige, Tyve, R&#x00F8;vere og Hoerkarle, smage nu den &#x00E6;dle Friehed, og lovsynge Heltinden. Mentor og Valentin slap og ved samme Leilighed. Mutter kunde godt lide Valentin, hun heftede selv hans Kaarde til hans Side, og gav ham et Kys, som man kunde h&#x00F8;re giennem 3 Gader; det var nok saftigt, og dertil lagde hun dette kielne Udtryk: Du er min Salighed en vakker Kn&#x00F8;s.</p>
+</sp>
+<sp>
+<speaker>Dorant.</speaker>
+<p>Dette er at krone V&#x00E6;rket: Man havde T&#x00E6;nke-Friehed, man havde Skrive-Friehed, man feilede endnu Synde-Friehed, den vil smage best af alt.</p>
+</sp>
+<sp>
+<speaker>Fruen.</speaker>
+<p>Jeg biefalder just ikke dette Optrin, jeg f&#x00F8;ler Deres Satyre: det er for Exempel ikke saa ret, at en Valentin s&#x00E6;ttes paa frie Fod, da han anklages som Landsforr&#x00E6;der.</p>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="5_4">
+<head type="sub">Fierde Optrin.</head>
+<stage><hi rend="bold">Leonard</hi>, <hi rend="bold">Philalet</hi>, forbausede, med s&#x00F8;nderrevne Kapper, de forrige.</stage>
+<sp>
+<speaker>Philalet.</speaker>
+<p>Ja, sagde jeg det ikke nok?</p>
+</sp>
+<sp>
+<speaker>Leonard.</speaker>
+<p>Ja, sagde jeg ikke endnu meer?</p>
+</sp>
+<sp>
+<speaker>Philalet.</speaker>
+<p>Ulykken De sagde alt for meget. Raske Carl! har De nu Mod, saa gielder det, har De <pb n="73"/>nu Indflydelse paa Deres B&#x00F8;nder, saa brug den; De tr&#x00E6;ngte ind paa Raads-Sahlen, de truede, de forfulgte os, med Livs Fare toge vi Flugten. Hast at d&#x00E6;mpe denne Ild, den udbr&#x00F8;d, fordie De lovede Bonden for meget.</p>
+</sp>
+<sp>
+<speaker>Carl.</speaker>
+<p>Eller fordie Octoviratet n&#x00E6;gtede ham for meget. <stage>(han gaaer.)</stage></p>
+</sp>
+<sp>
+<speaker>Philalet.</speaker>
+<p>Deri har Deres S&#x00F8;n ogsaa Ret. Middelveyen er altid den beste. Jeg vilde gaae den, men jeg maatte gaae allene. Carl paastod fuldkommen Friehed og Eiendoms Ret, Hr. Collega paastod fuldkommen Tr&#x00E6;ldom og Hoverie; jeg vilde haft det allevegne, som paa Baroniet, da Leverpol selv styrede det, dermed havde Bombastes B&#x00F8;nder, tilligemed alle de &#x00F8;vrige, ladet sig n&#x00F8;ie, naar ikke Carl havde l&#x00E6;rt dem at begiere meere, og for meget.</p>
+</sp>
+<sp>
+<speaker>Dorant.</speaker>
+<p>Jeg har l&#x00E6;st, eller h&#x00F8;rt, at denne Republik skulle f&#x00F8;de et politisk Foster, som fuldkommen skulde ligne alle Philosophers og Poeters Ideal om en gylden Alder. Nu ville vi vel snart faae see dette ski&#x00F8;nne Barn, thi F&#x00F8;dsels-Veerne, synes mig, ere paa det haardeste.</p>
+</sp>
+<sp>
+<speaker>Philalet.</speaker>
+<p>Hr. Collega! Vi have fortient denne Spot; men skaan os, Hr. Dorant! ynk os, gr&#x00E6;d Blod over os, om De kunde. Her ere mange v&#x00E6;rdige Folk lidende, alt for mange som lide uforskyldt. Vort forrige System var et gammelt brystf&#x00E6;ldigt Huus, og mangen Tiener leed ondt derinde. Vi reev det ned i Bund og Grund, og bleve alle huusvilde. Vi have siden bygget op og revet ned, og saa mange Mennesker, saa mange Bygmestere; en og anden klog og god Mand hist og her kommer ingen <pb n="74"/>Vei. Undre Dem derfor ikke over, at vi endnu ikke have saa godt som en skikkelig Fi&#x00E6;l-Hytte. Ynk os, raad os, hielp os, formaae Deres Minister til at staae os bie.</p>
+</sp>
+<sp>
+<speaker>Dorant.</speaker>
+<p>Det vil jeg, det gi&#x00F8;r han, kun Amalia.</p>
+</sp>
+<sp>
+<speaker>Philalet.</speaker>
+<p>Staten er deri uskyldig, meld os dog, at vi kan retf&#x00E6;rdiggi&#x00F8;re os. <stage>(Dorant gaaer.)</stage></p>
+</sp>
+<sp>
+<speaker>Fruen.</speaker>
+<stage>(til Leonard.)</stage>
+<p>Du b&#x00F8;r f&#x00F8;re Ordet.</p>
+</sp>
+<sp>
+<speaker>Leonard.</speaker>
+<p>Ja &#x2013; men &#x2013; dog &#x2013; h&#x00F8;r &#x2013; disse di&#x00E6;vels B&#x00F8;nder &#x2013; jeg er saa stakaandet; tal De, Hr. Collega!</p>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="5_5">
+<head type="sub">Femte Optrin.</head>
+<stage>Ministeren med Maske, <hi rend="bold">Dorant</hi>, de forrige.</stage>
+<sp>
+<speaker>Dorant.</speaker>
+<p>Det er Hr. Pettis, det er Hr. Philalet, det er Frue Pettis, en Datter af den gamle Baron von Leverpol.</p>
+</sp>
+<sp>
+<speaker>Ministeren.</speaker>
+<p>Det gl&#x00E6;der mig at complimentere en S&#x00F8;ster af Baronerne, von Leverpol; jeg har haft den Lykke at dyrke Venskab med dem begge. Nyelig Underretning fra den &#x00E6;ldre eller yngre?</p>
+</sp>
+<sp>
+<speaker>Fruen.</speaker>
+<p>Ingen, min Herre! i lang Tid ingen fra den &#x00E6;ldre; kun hans Navn n&#x00E6;vnet i Opr&#x00F8;ret i Constantinopel, siden intet. Den yngre havde en Affaire d&#x0027; Honneur, blev usynlig og d&#x00F8;de strax efter.</p>
+</sp>
+<sp>
+<speaker>Ministeren</speaker>
+<p>Den &#x00E6;ldre var saa meget min Ven, at jeg vilde finde en Vellyst i at entretenere Dem, Madame! som min S&#x00F8;ster. <stage>(Han tager hendes Haand mellem begge sine, og l&#x00E6;gger den op til sit Bryst.)</stage></p>
+</sp>
+<sp>
+<speaker>Leonard</speaker>
+<stage>(sagte til Philalet.)</stage>
+<p>Det er min Siel en Courtisan!</p>
+</sp>
+<sp>
+<speaker>Fruen.</speaker>
+<p>Min Herre! Dersom vi ikke befandt os i en Republik, ville jeg sige, det var at nedlade Dem <pb n="75"/>for dybt. Jeg er kun en Borgerkone, men da jeg har den Lykke at v&#x00E6;re Kone af den f&#x00F8;rste Borger i vor lille Stat, modtager jeg det &#x00E6;rede Tilbud med ligesaa megen Tilb&#x00F8;ielighed, som det ski&#x00E6;nkes.</p>
+</sp>
+<sp>
+<speaker>Leonard.</speaker>
+<stage>(til Philalet)</stage>
+<p>Tal om Republikken! tal om Republikken!</p>
+</sp>
+<sp>
+<speaker>Ministeren.</speaker>
+<p>Jeg beder om Pardon, mine Herrer! Denne Dame occuperer mig maaskee for meget. Min Ministerial-Note er fremlagt. De seer en Fr&#x00F8;ken Leverpol, med hvad hende tilh&#x00F8;rer, er min Fordring. Min Adkomst til Fordringen skylder jeg Dem endnu, mod den skal intet kunde indvendes. Det seer mist&#x00E6;nkeligt ud, at hun just i Dag skulle v&#x00E6;re gift med en Tiener, og endnu meere, at man ikke skulle vide hvor hun er.</p>
+</sp>
+<sp>
+<speaker>Fruen.</speaker>
+<p>Hendes egen Bludsel over dette <hi rend="italic">faux pas</hi>, hendes Galans Interesse at beholde sin <hi rend="italic">Bijou</hi>, gi&#x00F8;r Undvigelsen sandsynlig. Om deres virkelige &#x00C6;gteskab ville Deres Excellence behage at see dette autentiqve Beviis. <stage>(Hun leverer Contracten.)</stage></p>
+</sp>
+<sp>
+<speaker>Ministeren</speaker>
+<stage>(l&#x00E6;ser, man seer hans Haand ski&#x00E6;lver.)</stage>
+<p>Amalia Lever, hun heeder jo Amalia von Leverpol.</p>
+</sp>
+<sp>
+<speaker>Philalet.</speaker>
+<p>Jo, Deres Excellence! det er, Skam at tale om, efter et af vore kloge Decreter. Jeg maatte ogsaa skrive under dette Anabaptisterie. Jeg blev overstemmet.</p>
+</sp>
+<sp>
+<speaker>Ministeren.</speaker>
+<p>Min GUd! Amalia gift med en Tiener! Amalia undveeget! &#x2013; Men hun lever &#x2013; Jeg maa see hende, jeg maa tale med hende.</p>
+</sp>
+<sp>
+<speaker>Philalet.</speaker>
+<p>Vi have sat alting i Bev&#x00E6;gelse for at s&#x00F8;ge; Men skulle alt v&#x00E6;re omsonst, saa er det ikke Statens Skyld. Vi kunne ingen Modstand gi&#x00F8;re, vi tr&#x00E6;nge til Biestand, vi anmode, som sande Patrioter, <pb n="76"/>Deres Excellence om Biestand! Brug alt hvad De har af Armatur imod os, for at skaffe, om det saa kun var en Times Orden. P&#x00F8;belen hersker, intet, uden Overmagt, kan styre dem. Vore Qvinder ere just i Dag blevne rasende.; B&#x00F8;nder, just i Dag, drevet os ud af Raads-Sahlen. Vi ere landflygtige i vor egen Bye; Ethvert System er bedre end vores; thi vi have, sandt at sige, slet intet.</p>
+</sp>
+<sp>
+<speaker>Ministeren.</speaker>
+<p>Jeg har ingen Tilladelse at blande mig i Republikkens Sager, uden hvad min Amalia angaaer &#x2013; &#x2013;</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<stage>(afsides)</stage>
+<p>Min Amalia.</p>
+</sp>
+<sp>
+<speaker>Ministeren.</speaker>
+<p>Men dette er mig tilladt: Om denne &#x00D8;e erkiendes uafh&#x00E6;ngig af sit Rige, at tilbyde den min Souverains venskabelige Garantie for Republikkens Friehed, og at oprette med den en reciproque Handels-Tractat. Ikke desmindre, er Staten uskyldig i Forbrydelser mod Amalia, saa vil jeg vove at anvende Vaaben, for at stifte Fred, og jeg vil overl&#x00E6;gge med Dem, hvorledes man best undgaaer Blods Udgydelse.</p>
+</sp>
+<sp>
+<speaker>Philalet.</speaker>
+<p>Hvo iblandt os vil da ikke velsigne Deres Konge og Dem.</p>
+</sp>
+<sp>
+<speaker>Ministeren.</speaker>
+<p>Findes ikke Amalia, ak! om hun ikke fandtes; saa fordrer jeg Regnskab af Dem, Hr. Pettis! for Baroniet Leverpol. Min Pr&#x00E6;tention er 3 T&#x00F8;nder Guld.</p>
+</sp>
+<sp>
+<speaker>Leonard.</speaker>
+<p>Ak! Velbaar! ak! H&#x00F8;ivelbaar! ak! Deres Excellence! Baro &#x2013; Baroniet er &#x2013; det er hiemfalden til Republikken.</p>
+</sp>
+<sp>
+<speaker>Ministeren.</speaker>
+<p>Efter hvilken Lov, min Herre! har Amalia, har hendes Fader syndet mod Staten?</p>
+</sp>
+<sp>
+<speaker><pb n="77"/>Fruen</speaker>
+<p>Nei! Men om det er mig tilladt at sp&#x00F8;rge: Naar Amalias Fader er d&#x00F8;d, hvem, uden Amalia kan da have Fordring paa Baroniet?</p>
+</sp>
+<sp>
+<speaker>Ministeren.</speaker>
+<p>Naar jeg fremviiser min, skal De selv kiende den gyldig. Det er ikke denne Esqvadre; thi da havde jeg kun S&#x00F8;er&#x00F8;verens Ret, og min Konge laante ikke sin Armatur til saa nedrige Expeditioner. Men kort og gandske bestemt, Hr. Pettis! Amalia borte, 3 T&#x00F8;nder Guld, og det promte; Amalia funden, kun 2; I begge Tilf&#x00E6;lde med den Clausul, at Godset da tilh&#x00F8;rer Dem, saal&#x00E6;nge De eller f&#x00F8;lgende Eiermand behandler B&#x00F8;nder i eet og alt som Amalias Fader. Dette Vilkaar brudt, skal Baroniet hiemfalde til Republikken, og Republikken kun erstatte den, som bryder det, 1 T&#x00F8;nde Guld.</p>
+</sp>
+<sp>
+<speaker>Leonard.</speaker>
+<p>Ah! gid Amalia fandtes, det vilde l&#x00E6;tte lidt; men jeg er dog en ruineret Mand.</p>
+</sp>
+<sp>
+<speaker>Philalet.</speaker>
+<p>Klynk ikke, Hr. Collega! De har enda Guds Velsignelse tilbage; De b&#x00F8;r h&#x00F8;itidelig takke Geheimeraaden.</p>
+</sp>
+<sp>
+<speaker>Leonard.</speaker>
+<p>O GUd skee Lov! der seer jeg dog Amalia!</p>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="5_6">
+<head type="sub">Siette Optrin.</head>
+<stage><hi rend="bold">Mentor</hi>, <hi rend="bold">Amalia</hi>. De forrige.</stage>
+<sp>
+<speaker>Mentor.</speaker>
+<p>Mit F&#x00E6;ngsel er brudt; Lys som Dagen er min Sag. Jeg havde Grund til at mist&#x00E6;nke Hr. Dorant. Jeg har atter frelst Republikken, ved at gi&#x00F8;re det, ingen anden kunde, men alle ville, det Valentin<note type="footnote">Valentin] <hi rend="italic">rettet fra:</hi> Vallentin <hi rend="italic">(trykkfeil)</hi></note> alleene kunde, men vilde ikke; Jeg har opdaget denne Dame.</p>
+</sp>
+<sp>
+<speaker><pb n="78"/>Ministeren.</speaker>
+<p>Denne Fortieneste er stor for Staten, og endnu st&#x00F8;rre for mig; Hun interesserer mig ubeskrivelig meget, den unge Ski&#x00F8;nne. Madame! eller Fr&#x00F8;ken! hvad maa jeg kalde Dem? Er det sandt, at De er gift? Er dette Deres Haand?</p>
+</sp>
+<sp>
+<speaker>Amalia.</speaker>
+<p>Min Haand er det; men gift er jeg ikke.</p>
+</sp>
+<sp>
+<speaker>Fruen.</speaker>
+<p>Har De ikke, i Vidners N&#x00E6;rv&#x00E6;relse, selv forlangt denne Contract indf&#x00F8;rt i Notarii Protocol?</p>
+</sp>
+<sp>
+<speaker>Amalia.</speaker>
+<p>Jo! jeg har.</p>
+</sp>
+<sp>
+<speaker>Fruen.</speaker>
+<p>Men er det ikke saaledes, man gifter sig her til Lands?</p>
+</sp>
+<sp>
+<speaker>Amalia.</speaker>
+<p>Jo! naar man havde sin Friehed; Naadige Herre! taler jeg under Deres Beskyttelse, og er den tilstr&#x00E6;kkelig?</p>
+</sp>
+<sp>
+<speaker>Ministeren.</speaker>
+<p>V&#x00E6;r forsikret om begge Deele! Jeg kan desuden skaane Dem for at sige mig om et &#x00C6;gteskabs-Decret, en Fr&#x00F8;ken-Arrest, en i Morgen forestaaende Lodkastning; Alle disse Republikkens Besynderligheder har Dorant beskrevet.</p>
+</sp>
+<sp>
+<speaker>Amalia.</speaker>
+<p>Maaskee har han da og sagt Dem, hvorledes jeg blev begiegnet af min Tante der staaer, hvorledes hun persifflerede mig og al Adel, Hvorledes hun m&#x00E6;ttede min Siel med daglige Bitterheder.</p>
+</sp>
+<sp>
+<speaker>Fruen.</speaker>
+<p>Hvem, jeg? Dumdristige! t&#x00F8;r Du lyve?</p>
+</sp>
+<sp>
+<speaker>Amalia.</speaker>
+<p>Jeg t&#x00F8;r ikke, men De t&#x00F8;r. De er netop eet af de Adelens Exemplarer, som bringer Standen i Udraab.</p>
+</sp>
+<sp>
+<speaker>Fruen.</speaker>
+<p>Ah! Deres Excellence! forbyd denne Uforskammede!</p>
+</sp>
+<sp>
+<speaker>Ministeren.</speaker>
+<p>Nei! jeg maa v&#x00E6;re impoli nok til at forbyde Dem, Madam! at falde hende ind i Talen; <pb n="79"/>Hver har saa sin Tid at tale i Verden. Engang er Republicaneren h&#x00F8;ir&#x00F8;stet, en anden Gang Royalisten. Det maa man have Philosophie nok paa begge Sider at finde sig i, som Raden tr&#x00E6;ffer. Nu videre:</p>
+</sp>
+<sp>
+<speaker>Amalia.</speaker>
+<p>En vis Valentin var mig eene opofret, eene det sindige Menneske, til hvilken jeg kunde betroe mig; Ja, jeg blues ikke ved at sige det, han var min Siels Fortroelige. Og siig De, Hr. Dorant! fandt De ikke, at han havde megen Verden, virkelige Sentiments, og, det som er meest, megen Retskaffenhed.</p>
+</sp>
+<sp>
+<speaker>Dorant.</speaker>
+<p>I Sandhed De har Ret; Jeg saae i Tieneren den sande Cavallier og det fortr&#x00E6;ffeligste Menneske.</p>
+</sp>
+<sp>
+<speaker>Amalia.</speaker>
+<p>Da jeg nu befrygtede, at Arrest ellers skulde forekommet min Bortf&#x00F8;relse, bestemte jeg mig til denne pro forma Contract. Vi underskreve den i Eenrum, vi besvore begge Himlen som Vidne, at den skulde v&#x00E6;re som uskrevet, saasnart vi befandt os udenfor Republikkens Tvang. O! gid De, naadige Herre! havde v&#x00E6;ret Vidne til den Respect, hvormed jeg blev begiegnet af Valentin! Han sagde da, det er sandt, f&#x00F8;rste Gang, at han elskede mig, men at han elskede uden Haab. De vover dog ved denne Contract, lagde han til: Lykkes ikke Bortf&#x00F8;relsen, bliver De n&#x00F8;d at kaste Dem i en uv&#x00E6;rdig Tieners Arme. Jeg vil bekiende mit Svar: Naar Tvang ikke kan modstaaes, sagde jeg, saa har jeg dog giort det beste Valg jeg kunde paa denne &#x00D8;e. Ja &#x2013; maaskee det var skr&#x00F8;beligt &#x2013; Troe ikke, sagde jeg, at jeg foragter noget retskaffent Menneske! Troe ikke, at Deres Kierlighed er mig ligegyldig, <pb n="80"/>eller at jeg jo &#x00E6;rer sande Fortienester; Troe meget meere, at naar vor Byrd ikke var saa ulige, naar jeg ikke med mit Valg kunde komme at bedr&#x00F8;ve en dyrebar Fader, om han maaskee endnu maatte leve, saa blev De den af alle, jeg helst valgte. Undskyld denne Skr&#x00F8;belighed, naadige Herre! Undskyld en stakkels Ungdom, isoleret fra alle kloge Folk!</p>
+</sp>
+<sp>
+<speaker>Dorant.</speaker>
+<p>Mig synes Masken l&#x00F8;sner paa Deres Excellences Ansigt.</p>
+</sp>
+<sp>
+<speaker>Ministeren.</speaker>
+<p>De har Ret, jeg har M&#x00F8;ie for at beholde den.</p>
+</sp>
+<sp>
+<speaker>Amalia.</speaker>
+<p>O! maatte De med alt dette agte mig endnu v&#x00E6;rdig til at kaldes en Datter af den &#x00E6;dle Baron Fridrich von Leverpol! O! hvi var du ikke her, velsignede Fader! Du var god, du skulde tilgivet din Amalia, du skulle med din troefaste Haand aft&#x00F8;rret disse Taarer; Jeg skulde kastet mig for dine Kn&#x00E6;e, nei! i dine Arme; Jeg skulde &#x2013; men ak! du er vel ikke meere! Fred med dit St&#x00F8;v, hvor du hviler! &#x2013; Ah! vi arme D&#x00F8;ttre, naar vi forlades af For&#x00E6;ldre i de sp&#x00E6;de Aar! De tier &#x2013; De svarer mig ikke &#x2013; Men De er r&#x00F8;rt &#x2013; O! var denne Maske borte, maaskee turde jeg see en &#x00C6;rens Mand f&#x00E6;lde Taarer over en ulykkelig Pige, som dog vilde v&#x00E6;re sine Pligter troe.</p>
+</sp>
+<sp>
+<speaker>Ministeren.</speaker>
+<stage>(river Masken af og sl&#x00E6;nger den paa Gulvet)</stage>
+<p>Nei! nu kan jeg ikke meere.</p>
+</sp>
+<sp>
+<speaker>Fruen.</speaker>
+<p>Min Broder!</p>
+</sp>
+<sp>
+<speaker>Leverpol.</speaker>
+<p>Her er din Fader! Jeg gr&#x00E6;der Velsignelser ned over mit Barn.</p>
+</sp>
+<sp>
+<speaker>Amalia.</speaker>
+<p>Ah! min Fader! Du lever, jeg omfavner Dig. O! det menneskelige Liv kan ikke have mange saadanne &#x00D8;ieblikke! O! hvad jeg er glad! <pb n="81"/>O! gid al Verden var det! Tilgiv min Tante, had ikke Deres S&#x00F8;ster, r&#x00E6;dd vor stakkels Republik, min Fader! Men er De tilfreds med mit Forhold?</p>
+</sp>
+<sp>
+<speaker>Leverpol.</speaker>
+<p>Dyrebare Pige! Du ski&#x00E6;nker mig min Ungdom igien; Jeg var ikke v&#x00E6;rd at v&#x00E6;re din Faer, om jeg ikke var tilfreds &#x2013; Men hvorfor har Valentin ikke vildet sige hvor Du var?</p>
+</sp>
+<sp>
+<speaker>Amalia.</speaker>
+<p>Det er mig en m&#x00F8;rk Tale.</p>
+</sp>
+<sp>
+<speaker>Mentor.</speaker>
+<p>Men som jeg har den &#x00C6;re at oplyse meget naturlig: Enhver havde giort det samme som Valentin, naar han havde Dame gardee, indtil Esqvadren var borte; saa blev den pro forma Contract et lovm&#x00E6;ssigt Document, og saa var han i lyksalig Besiddelse af denne ynderige og dydziirede Ski&#x00F8;nhed.</p>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="5_7">
+<head type="sub">Syvende Optrin.</head>
+<stage>Udenfor h&#x00F8;res Raab og Kaardeklinger; Lise l&#x00F8;ber og lukker D&#x00F8;rren op, retirerer forskr&#x00E6;kket; Carl baglends ind, parerende af; Valentin attaqverer; Carl kaster sin Kaarde, omfavner og kysser Valentin, og leeder ham frem til Ministeren. De forrige.</stage>
+<sp>
+<speaker>Carl.</speaker>
+<p>De er Ministeren formodentlig? Velkommen! Jeg er vel kun en Republicaner, men saa er jeg dog noget. See her en Karl, <stage>(peeger paa Valentin)</stage> trods De har den bedre i Monarchiet; Han trak Kaarde mod mig og frelste mit Liv. De havde Ret, Hr. Dorant! Disse B&#x00F8;nder lode sig ikke styre den Gang; Byens Ski&#x00E6;nkehuuse have for stor Kraft; De omringede, de anfaldt mig. Jeg har en god Kaarde og en taalelig st&#x00E6;rk Arm. Jeg sqvadronerede, men jeg havde ikke holdt det l&#x00E6;nge. Valentin <pb n="82"/>kom himmelsendt; Han tog ikke Partie med mig, det havde v&#x00E6;ret omsonst; Men, af Veien B&#x00F8;nder! raabte han, og trak sin Kaarde. Den som blotter Sv&#x00E6;rd mod Eder, skal v&#x00E6;re min Mand, han skal falde for min Haand. De giorde Plads; han udst&#x00F8;dte Trudsler mod mig, gik mig paa Livet; jeg begreb ham, jeg retirerede, han forfulgte, B&#x00F8;nderne raabte Seier. Tak, Valentin! Du trak Kaarde, som en stolt Karl; Du har frelst mir Liv, som en &#x00C6;rens Mand.</p>
+</sp>
+<sp>
+<speaker>Leverpol.</speaker>
+<p>O! hvad det var en ski&#x00F8;n Handling, den r&#x00F8;ber Siels N&#x00E6;rv&#x00E6;relse i Farens &#x00D8;ieblik, &#x00E6;dle Valentin! Dog, jeg b&#x00F8;r vel ikke kalde Dem saa? Jeg seer De er Officier.</p>
+</sp>
+<sp>
+<speaker>Valentin</speaker>
+<p>Ja, Deres Excellence! det er meget uvist her i Landet, hvad man er og ikke er; man veed det neppe selv; man er snart noget, og snart intet. Jeg skulde ellers v&#x00E6;ret Adjutant der, hvor Hr. Dorant bes&#x00F8;rger Fortificationen.</p>
+</sp>
+<sp>
+<speaker>Leverpol.</speaker>
+<p>Nu indtil videre da, Hr. Adjutant! Hvorfor ville De ikke sige, hvor Amalia var?</p>
+</sp>
+<sp>
+<speaker>Valentin.</speaker>
+<p>Fordie jeg ikke vedste det.</p>
+</sp>
+<sp>
+<speaker>Amalia.</speaker>
+<p>De, som afhentede mig, hilsede dog fra Dem.</p>
+</sp>
+<sp>
+<speaker>Valentin.</speaker>
+<p>Min GUd! hvad er dette for Koglerie.</p>
+</sp>
+<sp>
+<speaker>Leverpol.</speaker>
+<p>Ih! nu Hr. Adjutant! kun oprigtig! Synden er ikke saa stor. Amalia er en taalelig ki&#x00F8;n Pige. Denne Herre <stage>(han peeger paa Mentor)</stage> synes have giettet rigtig: De ville bevare denne Skat for Dem selv, indtil Argonauterne vare borte, og saa s&#x00F8;ge denne lille Vexel accepteret.</p>
+</sp>
+<sp>
+<speaker>Valentin.</speaker>
+<p>Nei, naadige Herre! jeg havde overvundet denne Fristelse. Jeg elsker, jeg tilbeder; <pb n="83"/>men jeg f&#x00F8;ler hvem hun er, hvem jeg er; Hverken med List eller Tvang &#x00F8;nskede jeg desuden en Brud; Men jeg seer Mistanken er sandsynlig, den hviler mod mig, den van&#x00E6;rer mig &#x2013; H&#x00F8;r, Hr. Mentor! hvor fik De viide, at Fr&#x00F8;kenen var bortf&#x00F8;rt efter min Ordre, og hvor hen?</p>
+</sp>
+<sp>
+<speaker>Mentor.</speaker>
+<p>Det takker jeg mine Spioner for.</p>
+</sp>
+<sp>
+<speaker>Valentin.</speaker>
+<p>Velan? nu kan vi faae Sandhed frem. Da det er ingen Skam, at bruge Spion, eller lade sig bruge som Spion i et saadant Tilf&#x00E6;lde, da min &#x00C6;re kan r&#x00E6;ddes, og maa blive r&#x00E6;ddet derved, saa lad den Spion komme frem og forklare Sagen.</p>
+</sp>
+<sp>
+<speaker>Mentor.</speaker>
+<p>Det lader jeg vel v&#x00E6;re.</p>
+</sp>
+<sp>
+<speaker>Valentin.</speaker>
+<p>Indtil De gi&#x00F8;r det, beskylder jeg Dem h&#x00F8;itidelig for den heele Intrique, at De, De selv har bortf&#x00F8;rt Amalia. De seer mig dog ikke heller saa aandelig ud, at De skulle have Aabenbaringer.</p>
+</sp>
+<sp>
+<speaker>Mentor.</speaker>
+<p>Men skal jeg dog taale af dette dristige Menneske alle de Sottisser han vil sige mig, fordie jeg ikke kan slaaes med ham?</p>
+</sp>
+<sp>
+<speaker>Leverpol.</speaker>
+<p>Ja vist maa De, Hr. Mentor! I en Republik, som denne, maa det ongef&#x00E6;r gaae saa til. Det er F&#x00F8;lge af det fortr&#x00E6;delige Inegalit&#x00E6;ts-System, som Naturens Herre tog sig den Friehed at etablere, for at &#x00E6;rgre Livet af de nye philosopherende Statsm&#x00E6;nd; Ellers synes Hr. Adjutantens Conclusion at komme et Argument temmelig n&#x00E6;r.</p>
+</sp>
+<sp>
+<speaker>Lise</speaker>
+<stage>(til Dorant)</stage>
+<p>Nu gaaer min Troe den politiske Kateket af med sin Pr&#x00E6;ken.</p>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="5_8">
+<head type="sub">Ottende Optrin.</head>
+<stage><hi rend="bold">Brontis</hi>, de forrige.</stage>
+<sp>
+<speaker>Brontis.</speaker>
+<p>T&#x00F8;r en Bondekone komme herind?</p>
+</sp>
+<sp>
+<speaker><pb n="84"/>Amalia.</speaker>
+<p>Det er min Amme.</p>
+</sp>
+<sp>
+<speaker>Brontis.</speaker>
+<p>Gode Gud! hvad seer jeg? er det ikke min gamle Huusbond, min Faer, <stage>(hun kysser hans Haand og gr&#x00E6;der)</stage> O! hvad han er vakker endnu, Mallemor! Din Faer, o! jeg gr&#x00E6;der af Gl&#x00E6;de.</p>
+</sp>
+<sp>
+<speaker>Valentin.</speaker>
+<p>Geheimeraad Leverpol! O! min Gud! skal jeg blive glad eller bedr&#x00F8;vet?</p>
+</sp>
+<sp>
+<speaker>Carl.</speaker>
+<p>Min Oncle altsaa, vil De kiendes ved en Republicaner?</p>
+</sp>
+<sp>
+<speaker>Leverpol</speaker>
+<stage>(omfavner ham)</stage>
+<p>Jeg elsker alle kiekke og &#x00E6;dle Folk. Enhver Mand, som handler efter Grunde, og troer selv han har de beste, &#x00E6;rer jeg med min heele Siel, om jeg endog troede hans Grunde urigtige.</p>
+</sp>
+<sp>
+<speaker>Brontis</speaker>
+<p>T&#x00F8;r Bondekonen tale til den Danske Minister?</p>
+</sp>
+<sp>
+<speaker>Leverpol.</speaker>
+<p>Ja, om det var til vor Kronprinds, &#x00E6;rlige Brontis. Du skulle viide hvad denne unge Mand nu arbeider paa. Han vil gi&#x00F8;re den Danske Bonde ligesaa lykkelig, som den Norske, han elsker dem begge. Og en Norsk Selveier Bonde er det lykkeligste Medlem af Staten, som jeg kiender i Europa.</p>
+</sp>
+<sp>
+<speaker>Brontis.</speaker>
+<p>Saa maa det v&#x00E6;re en velsignet Mand. Men jeg kan ogsaa lidt meere end mit Fader vor. Jeg har opsnusket, at denne Mentor gik sig ud og ki&#x00F8;bte Stemmer for at komme i Raadet, han traf paa Valentins Folk, de havde ikke Tid, han kiendte en af dem, og fik lokket af ham, at Valentin havde hvervet dem. Da han nu m&#x00E6;rkede at Valentin skulle giftes med Mallemor, fandt han Leberiet, tog det paa, gik ud i M&#x00F8;rket og gav sig ud for Valentin. <pb n="85"/>Folkene f&#x00F8;rte Mallemor og mig til St. Pauls &#x00F8;delagde Kirke uden for Byen, og de vedste ikke andet, end Valentin havde befalet dem.</p>
+</sp>
+<sp>
+<speaker>Leverpol</speaker>
+<p>O! hvad det eenfoldige Fordrag dog er den &#x00E6;dle Sandheds Modersprog.</p>
+</sp>
+<sp>
+<speaker>Amalia.</speaker>
+<p>Oprigtige Deeltagerske i min Kummer! Jeg har ikke kiendt Moder, men Din Kierlighed var saa moderlig, som Din Melk var sund og reen.</p>
+</sp>
+<sp>
+<speaker>Valentin.</speaker>
+<p>Jeg har elsket sand &#x00C6;re. Men Du, Du har reddet mit Rygte fra virkelig Ski&#x00E6;ndsel.</p>
+</sp>
+<sp>
+<speaker>Mentor.</speaker>
+<p>Jeg har altid h&#x00F8;rt, at Royalister ere st&#x00E6;rkt henfaldne til at troe Kielling-Sladder.</p>
+</sp>
+<sp>
+<speaker>Leverpol.</speaker>
+<p>O Mentor! den Feil tilh&#x00F8;rer individuer ikke Systemet. Men Sandhed har saa sit eget Pr&#x00E6;g; Klangen endog r&#x00F8;ber sig for et &#x00F8;vet &#x00D8;re. Den som omgaaes med mange Penge, opdager strax falsk Mynt. Deres Politiqve er ellers ikke siin. En oprigtig Konge-Fiende torde De maaskee v&#x00E6;re, Dog &#x2013; Nei &#x2013; De seer mig frygtagtig ud. I Monarchiet blev De den nedrigste Hofkryber. De har vist forfattet et Manif&#x00E6;st mod Despoter. Det er en Original i det diplomatiske. Ikke at tale om, at man ikke midt i Revolutionens Tid endnu kan betragte sig som en erkl&#x00E6;ret Stat, saa har De glemt, at Stater i Europa betragtes, som et S&#x00E6;lskab af Personer, der skylde hverandre giensidige Pligter, og at man dog i det mindste ikke er grov mod den, med hvilken man intet har udstaaende. Som Envoye i Constantinopel, burde jeg ikke, om jeg og havde turdet, ski&#x00E6;lde paa Dispotismen og lee til Mahomet. Deres Manif&#x00E6;st, Hr. Mentor! synes forfattet ved et Kruus &#x00D8;ll. Frieheds-Ruuset er behageligt; <pb n="86"/>men det kommer Hovedpiine bagefter, den er n&#x00E6;sten incurable. De er altsaa ikke alleene friekiendt for Mistanke, Hr. Adjutant men De har opvakt hos mig h&#x00F8;ie Tanker om Deres Conduite. Som Fader, bliver jeg Dem uendelig forbunden for min stakkels Datter. Med Tilladelse! Det var en smuk Kaarde; Den h&#x00F8;rer ikke til Uniformen!</p>
+<stage>(Han bliver ved at beskue den)</stage>
+</sp>
+<sp>
+<speaker>Valentin.</speaker>
+<p>Nei, naadige Herre! jeg er opdragen hos den gamle &#x00E6;dle Aretus, fordum Hofmester for Deres Excellences yngre Broder, til min Lykke eller Ulykke, vilde han ikke sige mig hvem min Fader var, ski&#x00F8;nt han lod til at vide det. Nyelig f&#x00F8;rend han d&#x00F8;de gav han mig denne Kaarde, med disse besynderlige Ord: Forvar den vel, viis ingen D&#x00F8;delig den, og h&#x00E6;ng den ikke paa din Side, f&#x00F8;rend Du faaer et Embede, som berettiger Dig til at b&#x00E6;re Sv&#x00E6;rd, brug den siden aldrig i Utide. Den var Dig besl&#x00E6;gtet som har baaret den sidst, tr&#x00E6;ffer Du nogen, som kiender den, da siig de Ord jeg nu har sagt.</p>
+</sp>
+<sp>
+<speaker>Leverpol.</speaker>
+<p>Hvad Aar har De?</p>
+</sp>
+<sp>
+<speaker>Valentin.</speaker>
+<p>21.</p>
+</sp>
+<sp>
+<speaker>Leverpol.</speaker>
+<p>Ak, Himmel! jeg har fundet meere end jeg s&#x00F8;gte. <stage>(Han omfavner ham.)</stage> Amalia accepterer denne Vexel, der er Din Mand, min Broders&#x00F8;n og nu min Svigers&#x00F8;n. Jeg talte med min Broder i Paris f&#x00F8;rend han d&#x00F8;de, han sagde mig om sin Duel, sin Flugt, sin deilige Frues D&#x00F8;d paa f&#x00F8;rste Barsels&#x00E6;ng, just da hun skulle fulgt ham, om en S&#x00F8;n han betroede Aretus, og om dette ki&#x00E6;re, men ak! alt for drabelige Sv&#x00E6;rd. <stage>(Amalia og Valentin ere begge faldne paa Kn&#x00E6;e, han omfavner dem)</stage> Hvilken Fader <pb n="87"/>saa riig som jeg, saa glad som jeg! Kommer, mine deilige B&#x00F8;rn! mit Hiertes Yndlinge begge, og f&#x00F8;lger mig i Ski&#x00F8;det af et Rige, som bliver m&#x00E6;gtigt, fordie Fred og Orden og Friehed blomstrer der. Fornuftig Friehed blomstrer i det faderlige Monarchie.</p>
+</sp>
+<sp>
+<speaker>Carl.</speaker>
+<p>Disse Optrin, denne Mand, dette Sprog henriver min heele Siel, og er n&#x00E6;sten f&#x00E6;rdig at nedrive min heele republicanske Bygning.</p>
+</sp>
+<sp>
+<speaker>Valentin</speaker>
+<stage>(som omfavner Amalia)</stage>
+<p>O! hvilken Dag, og hvilket Kys det f&#x00F8;rste, naar man alt l&#x00E6;nge har elsket uden Haab!</p>
+</sp>
+<sp>
+<speaker>Leverpol.</speaker>
+<p>Den eene T&#x00F8;nde Guld v&#x00E6;re min S&#x00F8;ster ski&#x00E6;nket, den anden betaler De, baade fordie jeg beh&#x00F8;ver den, og paa det ikke Folk, som finde for godt at skabe Love, stridende mod almindelige Begreb om Eiendom og Ret, skulle troe de have frit Sprog.</p>
+</sp>
+<sp>
+<speaker>Fruen</speaker>
+<stage>(neier)</stage>
+</sp>
+<sp>
+<speaker>Leonard.</speaker>
+<p>Takker for naadig Straf.</p>
+</sp>
+<sp>
+<speaker>Philalet.</speaker>
+<p>Nu vor &#x00E6;ngstede Republiqve!</p>
+</sp>
+<sp>
+<speaker>Leverpol.</speaker>
+<p>De er en &#x00E6;del Mand, Hr. Philalet! 8 saadanne i Deres Raad fra Begyndelsen, saa havde her ikke v&#x00E6;ret Opr&#x00F8;r nu. Jeg vil vove et Skrit. Min Souverain maatte udruste en Esquadre, da Naboen giorde det. Da jeg vedste at den som Observations Flaade skulle krydse paa disse H&#x00F8;ider, erholdt jeg den Kongelige Naade at f&#x00F8;lge, og Schoutbinacten Ordre at staae mig bie til at indtale Erstatning for mit Baronie, og afhente min Datter, om hun levede. Jeg vil vove det. Vor Regiering er mild. Jeg efterlader 400 Soldater til Guarnison, paa Republikkens Besoldning, men giver Chefen Ordre, at aldrig lade dem bruge, hverken til Forsvar <pb n="88"/>eller Angreb mod udvortes Fiende, kun til at stille indvortes Opr&#x00F8;r og s&#x00E6;tte Lovene i Respect.</p>
+</sp>
+<sp>
+<speaker>Carl.</speaker>
+<p>400, det er vel lidet, et frit Folk er kiekt.</p>
+</sp>
+<sp>
+<speaker>Leverpol.</speaker>
+<p>Det er 400 Norske Soldatere, Coussin! Klippernes S&#x00F8;nner, tappre og st&#x00E6;rke og saa frie i deres Aand, som Mennesker paa Jordkloden kan v&#x00E6;re, men derhos vante til Orden og Lydighed. Jeg vover meget, Cousin! da jeg handler uden Ordre, men jeg kiender min Souveraine. Menneskekierlighed er hans Skioldem&#x00E6;rke, og en god Hensigt skal retf&#x00E6;rdiggi&#x00F8;re mig.</p>
+</sp>
+<sp>
+<speaker>Philalet.</speaker>
+<p>Nu, jeg vil &#x00F8;nske, at alle forstyrrede Republikker maatte faae saa kloge Formyndere, og at aldrig saa faderlige Monarchier, som det Danske, maatte forstyrres.</p>
+</sp>
+<sp>
+<speaker>Leonard.</speaker>
+<p>Jeg spinder ikke Silke ved denne Republik, og naar alt kommer til alt, er dog nok en formuende Borger mest sikker i et saadant Monarchie.</p>
+</sp>
+<sp>
+<speaker>Valentin.</speaker>
+<p>Jeg br&#x00E6;nder af L&#x00E6;ngsel at tiene i den Danske eller Norske Armee; Man har sagt mig, at Kongens S&#x00F8;n is&#x00E6;r elsker kiekke Officierer.</p>
+</sp>
+<sp>
+<speaker>Brontis.</speaker>
+<p>Og det, som er endnu meere: At han holder af Bonden.</p>
+</sp>
+<sp>
+<speaker>Carl.</speaker>
+<p>Og det, som er allermeest: At han arbeider for deres Friehed.</p>
+</sp>
+<sp>
+<speaker>Leverpol.</speaker>
+<p>Hr. Dorant! Det er just i Dag Kronprindsens F&#x00F8;dsels-Dag. Han vilde finde den Maade nye og maaskee behagelig, paa hvilken man her Udm&#x00E6;rker den.</p>
+</sp>
+<stage>Ende paa Femte og sidste Handling.</stage>
+</div>
+</div>
+</body>
+</text>
+</TEI>

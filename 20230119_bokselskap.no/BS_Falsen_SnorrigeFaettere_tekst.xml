@@ -1,0 +1,2194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI PUBLIC "-// TEI P5 //EN" "http://www.tei-c.org/release/xml/tei/custom/schema/dtd/tei_all.dtd">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="BS_Falsen_Snorrige">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>bokselskap.no, Oslo 2020
+<lb/>Enevold de Falsen: <hi rend="italic">De snorrige F&#x00E6;ttere</hi>
+<lb/>Teksten i bokselskap.no f&#x00F8;lger 1. utgave, 1778 (K&#x00F8;benhavn). Digitaliseringen er basert på transkripsjon av originalen.
+<lb/>ISBN: 978-82-8319-552-1 (digital, bokselskap.no), <lb/>978-82-8319-553-8 (epub), 978-82-8319-554-5 (mobi)
+</title>
+</titleStmt>
+<publicationStmt>
+<p>Publiseres som digital tekst av bokselskap.no.</p></publicationStmt>
+<sourceDesc>
+<bibl>
+<title>De snorrige F&#x00E6;ttere eller Testamentet</title>
+<author>Enevold de Falsen</author>
+<pubPlace>K&#x00F8;benhavn</pubPlace>
+<date>1775</date>
+<note>De Snorrige F&#x00E6;ttere.docx (transkribert av Anne Zimmermann november 2019), korrekturlest av Sofie Damgaard desember 2019</note>
+</bibl>
+</sourceDesc>
+</fileDesc>
+<revisionDesc>
+<change who="ENW" when="2020-06-29">Rettet et par transkripsjonsfeil. Entiteter, kodekontroll og validering. Klar for publisering.</change>
+<change who="ENW" when="2020-06-26">Ført inn korrekturrettelser (SD). Gjenstår: entiteter, kodekontroll og validering</change>
+<change xml:id="ENW" who="ENW" when="2020-01-06">Konvertert fra Word -> XML (TEI P5). Kodekontroll og validering. Klar for korrektur.</change>
+</revisionDesc>
+</teiHeader>
+<text xml:id="BS_Falsen_Snorrige_tekst" type="drama">
+<front>
+<titlePage type="main">
+<byline><docAuthor>Enevold de Falsen</docAuthor></byline>
+<docTitle>
+<titlePart type="main">De snorrige F&#x00E6;ttere</titlePart>
+<titlePart type="sub">eller</titlePart>
+<titlePart type="main">Testamentet</titlePart>
+<titlePart type="sub">Comedie i to Acter</titlePart>
+</docTitle>
+<docDate>bokselskap.no<lb/>Oslo 2020</docDate>
+</titlePage>
+</front>
+<body>
+<div type="chapter" subtype="quote">
+<p rend="center">Rire &#x2013; &#x2013; c&#x0027;est ma divise.</p>
+</div>
+<div type="chapter" subtype="castlist">
+<head type="main">Personerne</head>
+<castList>
+<castItem><role>Frue Dormin,</role> <roleDesc>Enke.</roleDesc></castItem>
+<castItem><role>Lise,</role> <roleDesc>hendes Kammerpige.</roleDesc></castItem>
+<castItem><role>Leander</role></castItem>
+<castItem><role>von Spradenfeldt,</role></castItem>
+<castItem><role>Meerskum,</role> <roleDesc>Caper-Capitain</roleDesc>, <roleDesc>F&#x00E6;ttere og Friere til Frue Dormin.</roleDesc></castItem>
+<castItem><role>Hr. Orgon,</role> <roleDesc>Herremand fra Jylland.</roleDesc></castItem>
+<castItem><role>Jens,</role> <roleDesc>Leanders Tiener.</roleDesc></castItem>
+</castList>
+<p>Scenen er i Ki&#x00F8;benhavn.</p>
+</div>
+<div type="chapter" subtype="act" n="1">
+<head type="main">F&#x00F8;rste Act</head>
+<div type="uchapter" subtype="scene" n="1_1">
+<head type="sub">F&#x00F8;rste Scene</head>
+<stage>Lise. Jens. (De komme ind hver fra sin Side &#x2013; Lise har et Brev i Haanden.)</stage>
+<sp>
+<speaker>Lise.</speaker>
+<p>Det er dog vel, man eengang kan faae Monsieur Jens i Tale; jeg har f&#x00F8;r i Dag alt v&#x00E6;ret hos Jeres, men var ikke saa lykkelig at tr&#x00E6;ffe ham.</p>
+</sp>
+<sp>
+<speaker><pb n="4"/>Jens.</speaker>
+<p>Er det for at bringe mig mit Morgenkys, at du i Dag er saa bandsat tidlig paa F&#x00E6;rde? Men veed du, hvoraf det kommer, at du ikke kunde tr&#x00E6;ffe mig derinde?</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>Hvoraf da?</p>
+</sp>
+<sp>
+<speaker>Jens.</speaker>
+<p>Fordi jeg var der ikke &#x2013; jeg har maattet rende som en Jagthund siden i Morges tidlig Klokken ni.</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>Hvormed har du da saa travelt?</p>
+</sp>
+<sp>
+<speaker>Jens.</speaker>
+<p>Kan du sp&#x00F8;rge herom? &#x2013; I Dag &#x2013; Bryllupsdagen &#x2013; og to Brylluper endogsaa! saadant kan nok fine Arbeide &#x2013; og er det ikke mig, som alleting hviler paa? &#x2013; jeg maae have alting i Hovedet, og endeel i Benene &#x2013; jeg har rendt efter hvide Handsker, efter Skolen, Skoemageren, Skr&#x00E6;deren, Pr&#x00E6;sten &#x2013; bestilt Brudeskammel, Vielse, V&#x00E6;gtere og Bedemand &#x2013; Uf &#x2013; Sveden drypper af mig, naar jeg kun t&#x00E6;nker paa, hvilket Arbeide det er, at givte sig &#x2013; og dette er endda kun en Begyndelse &#x2013; men m&#x00E6;rk min Bet&#x00E6;nksomhed midt under Forretningernes M&#x00E6;ngde &#x2013; for at vi ikke skulle komme i Forlegenhed, og for at faae alleting afgiort paa eengang &#x2013; har jeg <pb n="5"/>bestilt to Pr&#x00E6;ster &#x2013; altsaa, medens Herskabet, bruger Sognepr&#x00E6;sten, kan Kapellanen saa lumskelig smedde den ganske forliebte Jens til hans Si&#x00E6;ls Beherskerinde.</p>
+<stage>(vil omfavne Lise.)</stage>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>Saa sagte, Msr. Jens, om han saa behager &#x2013; Brylluppet er ikke forbi endnu &#x2013; see her <stage>(viser Brevet.)</stage> er noget af en ganske anden Dose &#x2013; det er Skade, at han skal have umaget sig selv og saa mange andre smukke Folk forgieves. &#x2013;</p>
+</sp>
+<sp>
+<speaker>Jens.</speaker>
+<p>Du kan selv v&#x00E6;re Dose &#x2013; hvad vil du sige med al den Sludder &#x2013; er nu Fanden l&#x00F8;s igien?</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>Nei &#x2013; ikke Fanden, men din latterlige Herres s&#x00E6;dvanlige Opt&#x00F8;ier &#x2013; jeg bringer jer her jeres Afskeed i ubunden Stiil.</p>
+</sp>
+<sp>
+<speaker>Jens.</speaker>
+<p>Havde det endda v&#x00E6;ret paa Vers &#x2013; men primer du &#x2013; hvad er det for Fluer? Vidste din Frue da ikke f&#x00F8;r, at min Herre var en Nar &#x2013; jeg synes hun har havt lang Tid nok til at l&#x00E6;re at kiende sin Hr. F&#x00E6;tter &#x2013; og nu, da alting var afgiort &#x2013;</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>Tust nu &#x2013; saa meget uanst&#x00E6;ndigere er din Herres Opf&#x00F8;rsel, ikke at vogte sig i de sidste &#x00D8;ieblik.</p>
+</sp>
+<sp>
+<speaker><pb n="6"/>Jens.</speaker>
+<p>Hvordan &#x2013; du er og imod ham &#x2013; men hvad har han da giort?</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>Ikke andet, end at lee min Frue ud i offentlig Selskab i Gaar, fordi hun sagde noget, jeg veed ikke hvad, som ikke havde den Lykke at staae den kloge Herre an.</p>
+</sp>
+<sp>
+<speaker>Jens.</speaker>
+<p>Ikke andet end det &#x2013; en anden Gang er jeg vis paa han gr&#x00E6;der hende ind. Men er da det noget at bryde for &#x2013; skulde jeg tage ham ilde op alle de Gange han leer ad mig, var jeg for l&#x00E6;ngst af hans Tieneste &#x2013; dog, Sagen er vel ikke saa farlig &#x2013;</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>Det lader dog til, som det aldrig har v&#x00E6;ret min Frues Alvor saa meget som i Dag, at give din Herre Afskeed &#x2013; hun er meget opirret &#x2013;</p>
+</sp>
+<sp>
+<speaker>Jens.</speaker>
+<p>Desto bedre, saa meget f&#x00F8;r gaaer det over igien &#x2013; ha, Fruentimmer-Vrede, den skulde vel kunde v&#x00E6;re bestandig &#x2013; gaae, min Snut &#x2013; inden Aften skal de igien v&#x00E6;re saa gode Venner, at begge vore Pr&#x00E6;ster skal v&#x00E6;re kommen forgieves.</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>Naa, naa, Msr. Jens &#x2013; v&#x00E6;r kun ikke saa vis i sin Sag &#x2013;</p>
+</sp>
+<sp>
+<speaker><pb n="7"/>Jens.</speaker>
+<p>Hvordan for Pokker &#x2013; ikke saa vis &#x2013; og er det da ikke vor egen Sag, det gielder om &#x2013; faaer ikke min Herre din Frue, gaaer jo og du glip af mig &#x2013;</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>En stor Skade &#x2013; som jeg ikke kunde faae en Mand uden dig &#x2013;</p>
+</sp>
+<sp>
+<speaker>Jens.</speaker>
+<p>Ikke saadan en Mand &#x2013; de Jenser voxe ikke paa Tr&#x00E6;er &#x2013; men jeg vil nu bringe min lattermilde Herre dette Brev &#x2013; han venter sig neppe den Frokost &#x2013; inden to Timer er han paa Kn&#x00E6;e for din Frue, og alting godt igien. Str&#x00E6;b du og paa din Side med din Frue &#x2013; Lev vel saa l&#x00E6;nge, du Perle blant Kammerpigerne!</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>Farvel, Hr. Spaamand &#x2013; dog skal der Lykke til, om den Spaadom indtr&#x00E6;ffer &#x2013; Der kommer min Frue; hvor hun seer m&#x00F8;rk du &#x2013; jeg gi&#x00F8;r hende i Dag vel neppe noget tilpas.</p>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="1_2">
+<head type="sub">Anden Scene</head>
+<stage><pb n="8"/>Frue Dormin. Lise.</stage>
+<sp>
+<speaker>Frue Dormin.</speaker>
+<p>Nu, Mamsel! er mit &#x00C6;rende forrettet?</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>Oh &#x2013; l&#x00E6;nge siden, Frue!</p>
+</sp>
+<sp>
+<speaker>Frue Dormin.</speaker>
+<p>Da kunde hun vel bragt mig Svar. Det er forunderligt, hun aldrig kan l&#x00E6;re det.</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>De befalte mig blot at levere Brevet &#x2013; det har jeg giort, og jeg har ingen Svar at bringe.</p>
+</sp>
+<sp>
+<speaker>Frue Dormin.</speaker>
+<p>Ja, Undskyldninger fattes hun aldrig &#x2013; hvordan hun har sat mit Haar i Dag &#x2013; den Bukkel vil jo falde ned &#x2013; s&#x00E6;t den fast &#x2013; stik mig dog ikke i Hovedet &#x2013; hvem leverede hun Brevet?</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>Til Jens.</p>
+</sp>
+<sp>
+<speaker>Frue Dormin.</speaker>
+<p>Jeg befalede jo, hun skulde levere Leander det selv.</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>Jeg beder om Forladelse; det h&#x00F8;rde jeg ikke.</p>
+</sp>
+<sp>
+<speaker><pb n="9"/>Frue Dormin.</speaker>
+<p>Nei &#x2013; for hun h&#x00F8;rer aldrig &#x2013; tag mig en Stoel &#x2013; hent mig en Bog &#x2013; Nei lad v&#x00E6;re &#x2013; min Vifte vil jeg have &#x2013;</p>
+</sp>
+<sp>
+<speaker>Lise,</speaker>
+<stage>(i det hun henter den.)</stage>
+<p>Jeg t&#x00E6;nkte det nok &#x2013; men, det er godt Tegn.</p>
+</sp>
+<sp>
+<speaker>Frue Dormin.</speaker>
+<p>Hvad fortalte hun?</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>Jeg &#x2013; ikke et Ord, Frue!</p>
+</sp>
+<sp>
+<speaker>Frue Dormin.</speaker>
+<p>Det er dog vel, at jeg er bleven skilt ved denne latterlige Hr. Leander &#x2013; jeg var paa Veien at gi&#x00F8;re et Skridt, som kunde fortr&#x00F8;dt mig min Livstid &#x2013; jeg er ret glad over, at jeg har brudt med ham.</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>Saa det nu for Alvor er ude med ham &#x2013; uden Redning?</p>
+</sp>
+<sp>
+<speaker>Frue Dormin.</speaker>
+<p>Hvad kalder hun for Alvor &#x2013; meener hun det er for Sp&#x00F8;g, jeg skrev ham til, og forb&#x00F8;d ham at komme for mine &#x00D8;ine?</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>Jeg tvivler ikke paa, det jo var Deres Alvor, Frue! den Gang, De skrev det.</p>
+</sp>
+<sp>
+<speaker><pb n="10"/>Frue Dormin.</speaker>
+<p>Og det skal saamen fremdeeles blive det, Mamsel!</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>Men dog, om det maae v&#x00E6;re mig tilladt &#x2013; at bryde for saa smaa Ting &#x2013; nu det var saa n&#x00E6;r, at Deres Bryllup til i Dag var berammet.</p>
+</sp>
+<sp>
+<speaker>Frue Dormin.</speaker>
+<p>Hvad &#x2013; smaa Ting &#x2013; at lee en Kone af min Stand ud i offentlig Selskab &#x2013; just nu det var saa n&#x00E6;r &#x2013; Ah &#x2013; jeg kunde d&#x00F8;e af Harme &#x2013; er det af de Ting, som forlades.</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>Men Fruen vidste jo f&#x00F8;r, at det altid var hans Feil, at lee og gr&#x00E6;de; begge Deele i Utide, hvorfor bestemte De Dem da til at &#x00E6;gte ham &#x2013; og har De eengang besluttet det, hvor kan da en Feil, som forud var Dem bekiendt, saa ganske forandre en Beslutning, der dog vist koster Deres Hierte en Hoben at tilbagekalde.</p>
+</sp>
+<sp>
+<speaker>Frue Dormin.</speaker>
+<p>Hendes Raisonnements fortiente at trykkes, Jomfrue Lise! saa smukke ere de &#x2013; men jeg vil intet meere h&#x00F8;re herom &#x2013; Leander er en Nar &#x2013;</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>Det tilstaaer jeg &#x2013; men ere deres andre Cousins, som og frie til Dem, bedre? Denne lille Hr. Spradenfeldt, som idelig taler om sine Reiser, <pb n="11"/>om de Fortienester, han ikke har; som fl&#x00F8;iter, dandser, og aldrig frembringer noget klogt Ord, uden hvert Skudaar &#x2013; eller Caper-Capitain Meerskum, som vel har Fortienester, men opbl&#x00E6;st af den Lykke, at v&#x00E6;re kommen i Kongelig S&#x00F8;e-Tieneste, taler idelig om Touge, Vimpler etc. og &#x00F8;vrigt S&#x00F8;emandssprog, som om han stedse var til S&#x00F8;es; som lugter af Tobak og Ti&#x00E6;re, og desuden gierne for at vise et indbildt Galanterie (en Levning fra Coffardie-Farten); er forn&#x00F8;iet med en Ruus &#x2013; var De<note type="footnote">De] <hi rend="italic">rettet fra:</hi> de <hi rend="italic">(trykkfeil)</hi></note> bedre faren med nogen af dem?</p>
+</sp>
+<sp>
+<speaker>Frue Dormin.</speaker>
+<p>Nei, det var jeg ikke &#x2013; men saa kan jeg jo lade v&#x00E6;re at givte mig &#x2013;</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>Ja &#x2013; den Tilflugt har enhver &#x2013; men den er haard for en ung Enke paa Deres Alder &#x2013; og overalt saa har Deres Sal. Mand, Herren af Dormin, efterladt Dem sit Jordegods i en Tilstand, som jo gi&#x00F8;r Dem det uundgaaelig forn&#x00F8;dent at givte Dem med en velhavende Mand, om De skal s&#x00E6;ttes istand til at figurere i Verden, efter Deres Stand og Attraae.</p>
+</sp>
+<sp>
+<speaker>Frue Dormin.</speaker>
+<p>Det er sandt; men skal jeg derfor &#x00E6;gte en urimelig Person &#x2013; kan jeg ikke finde en bedre?</p>
+</sp>
+<sp>
+<speaker><pb n="12"/>Lise.</speaker>
+<p>Men endnu har ingen meldet sig &#x2013; og &#x2013; forlad mig, at jeg siger mine Tanker &#x2013; jo l&#x00E6;ngere Fruen bier, jo &#x00E6;ldre bliver De, og jo meere aftage Liebhaberne; Leander er jo, paa den Feil n&#x00E6;r, desuden en Mand af Fortieneste, og De kan ikke n&#x00E6;gte at elske ham, uagtet denne Feil &#x2013; endog nu.</p>
+</sp>
+<sp>
+<speaker>Frue Dormin.</speaker>
+<p>Ah, Lise &#x2013; du har Ret, det f&#x00F8;ler jeg &#x2013; men den Feil, den gi&#x00F8;r ham latterlig i den heele Verdens &#x00D8;ine &#x2013; skulde jeg deele denne Skiebne med ham &#x2013; nei, jeg kan ikke overtale mig til at give ham min Haand &#x2013; desuden, om min Oncle i Jylland d&#x00F8;er, kan jeg dog efter ham vente mig saa meget, at jeg kan betale det meeste af den Gield, der h&#x00E6;fter paa mit Gods, og saa kan jeg leve ret godt &#x2013;</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>Og Enke Deres Livstid &#x2013; Ah, Frue! De veed ikke, hvad De siger, og Deres Hierte er ikke eenig med Deres Mund &#x2013; Deres Oncle kan jo og endnu leve l&#x00E6;nge, siden alle de Sygdomme, han har gaaet igiennem, ikke have udrettet andet, end at gi&#x00F8;re ham Skade paa H&#x00F8;relsen. Han har jo og stedse af sine S&#x00F8;sterb&#x00F8;rn havt meest Godhed for Leander; hvem veed, om han ikke faaer den f&#x00F8;rste Plads i Testamentet, saa er og det Haab ude.</p>
+</sp>
+<sp>
+<speaker><pb n="13"/>Frue Dormin.</speaker>
+<p>Du dr&#x00E6;ber mig med lutter Grunde, som dog ikke bev&#x00E6;ge mig til at &#x00E6;gte Leander.</p>
+</sp>
+<sp>
+<speaker>Lise,</speaker>
+<stage>(som h&#x00F8;rer en St&#x00F8;i i Gangen.)</stage>
+<p>Der er Deres Cousin, Spradenfeldt &#x2013; <stage>(tilside.)</stage> Maaskee hans Bes&#x00F8;gelse gi&#x00F8;r Leander st&#x00F8;rre Tieneste, end min heele Pr&#x00E6;ken.</p>
+</sp>
+<sp>
+<speaker>Frue Dormin,</speaker>
+<stage>(vranten.)</stage>
+<p>Han kunde aldrig komme ubeleiligere, og det er umueligt, at lade sig n&#x00E6;gte hiemme for ham, for han render lige ind.</p>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="1_3">
+<head type="sub">Tredie Scene</head>
+<stage>von Spradenfeldt. De Forrige.</stage>
+<sp>
+<speaker>von Spradenfeldt.</speaker>
+<p><emph>Pardon ma belle Cousine</emph>, at jeg kommer ind uden at lade mig melde. Denne Frihed har jeg v&#x00E6;nnet mig til paa mine Reiser &#x2013; palfambleu &#x2013; jeg lod mig aldrig annoncere noget Sted &#x2013; jeg gik ind overalt, som <emph>Ami de la Maison</emph> &#x2013; Mad. la Marquise af Estielles og Mad. la Comtesse de Boispre i Paris vare ogsaa vante dertil, at naar en D&#x00F8;r gik op, raabte de strax, <emph>ah voila Mr. de Spradenfeldt</emph> &#x2013; god Dag, Lisette &#x2013;</p>
+</sp>
+<sp>
+<speaker><pb n="14"/>Lise.</speaker>
+<p>Jeg troede ikke jeg var blevet m&#x00E6;rket for lutter Marquiser og Comtesser &#x2013;</p>
+</sp>
+<sp>
+<speaker>Spradenfeldt.</speaker>
+<p><emph>Mal peste</emph> &#x2013; De er jo saa m&#x00F8;rk i Dag, Cousine &#x2013; hvad fattes Dem &#x2013; Lise, hvad har Du giort ved Fruen &#x2013; hvilken en Mine &#x2013; ret et Enke-Ansikt &#x2013; paa min &#x00C6;re, <emph>un Visage &#x00E0; la Car&#x00E8;me</emph> &#x2013; forlad mig &#x2013; men er det et Ansigt for Deres Alder &#x2013; Ah! opklar dog dette Ansigt, lad en Smiil tegne sig paa Deres Purpur-Mund og gi&#x00F8;re et hul i Deres deilige Kinder &#x2013; <emph>mon Dieu</emph>, er det paa Deres Alder man bonderer &#x2013; Ah &#x2013; De er nok vred, fordi De ikke har seet mig saa l&#x00E6;nge &#x2013; men er det min Skyld &#x2013; raader jeg for mig selv een Time? Der er en Riven om, hvem der f&#x00F8;rst skal faae mig til sig &#x2013; og er jeg f&#x00E6;rdig at forgaae &#x2013; Det er een af Hovedaarsagerne, hvorfor jeg vil givte mig &#x2013; for at kunne drage min Aande &#x2013; for naar man seer jeg er bunden, saa d&#x00F8;e Forhaabningerne, og saa lader man mig dog vel Roe &#x2013; ikke en Smiil &#x2013; saa lee da du, Lise &#x2013; Uf &#x2013; jeg d&#x00F8;er, jeg forgaaer blant alvorlige Folk &#x2013; <emph>toujours chanter &#x0026; toujours boire, c&#x0027;est la Devise de Gregoire</emph>.</p>
+</sp>
+<sp>
+<speaker>Frue Dormin.</speaker>
+<p>Min Hr. Cousin! man kan ikke altid v&#x00E6;re lige glad.</p>
+</sp>
+<sp>
+<speaker><pb n="15"/>Spradenfeldt.</speaker>
+<p>Hvordan t&#x00E9;t&#x00E9;bleu &#x2013; ikke altid glad &#x2013; og hvad skal man da v&#x00E6;re naar man ikke er glad &#x2013; er der nogen Middelvei imellem at v&#x00E6;re glad og at v&#x00E6;re intet.</p>
+</sp>
+<sp>
+<speaker>Frue Dormin.</speaker>
+<p>Det er en Lykke for Dem, at De altid kan v&#x00E6;re det.</p>
+</sp>
+<sp>
+<speaker>Spradenfeldt.</speaker>
+<p>Og De skal og blive det &#x2013; det staaer jeg inde for &#x2013; der fattes Dem intet uden en Mand &#x2013; <emph>non, rien que &#x00E7;a</emph> &#x2013; og den sender Skiebnen Dem i mig, saa fuldkommen som De kan &#x00F8;nske Dem ham &#x2013; men, naar skal jeg da eengang overrumple Dem ved Deres Toilette &#x2013; man maae komme hvad Tid paa Dagen man vil, saa er De altid paakl&#x00E6;d &#x2013; er det for en Dame af Stand &#x2013; De skulle gi&#x00F8;re saadant i Paris &#x2013; <emph>par la sangbleu, il n&#x0027;y a que les bourgeoises qui se levent le matin, gens comme il faut</emph> sove til Middag &#x2013; at staae op f&#x00F8;r, ford&#x00E6;rver Teinten, det er det, der gi&#x00F8;r melankolisk, giver Vapeurs &#x2013; Lise &#x2013; naar staaer Fruen op?</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>Jeg mener min Frue kan sige Dem det selv, om hun finder forn&#x00F8;dent, at De skal vide det.</p>
+</sp>
+<sp>
+<speaker><pb n="16"/>Spradenfeldt.</speaker>
+<p>Nei sandt, Mamsel Lisette &#x2013; see det lille Dyr, hun har maaskee og sine Luner &#x2013; men det er kun Mangel paa Forstand, paa fiin Levemaade, mit Barn, for det er just Kammerpigernes Sag, at give det Slags Underretninger &#x2013; nu h&#x00F8;r Cousine; for at tage Dem vis eengang, vil jeg blive oppe den heele Nat.</p>
+</sp>
+<sp>
+<speaker>Frue Dormin.</speaker>
+<p>Oh &#x2013; spar Dem den Umage &#x2013; det kunde ford&#x00E6;rve Deres Teint &#x2013; den var desuden spilt; thi jeg modtager ingen Visitter ved Toilettet.</p>
+</sp>
+<sp>
+<speaker>Spradenfeldt.</speaker>
+<p>De modtager ingen &#x2013; oh, for Pokker, det var artigt &#x2013; De modtager ingen &#x2013; men jeg lader mig aldrig modtage, jeg, jeg gaaer lige ind &#x2013; ah, jeg vil ikke tillade Dem, saaledes at l&#x00E6;gge Dem ud med <emph>le bon ton</emph>, jeg skal med Deres Villie faae Dem til at lyde Moden &#x2013; ikke modtage <emph>Visitter &#x00E0; la Toilette</emph>! Har de bet&#x00E6;nkt det?</p>
+</sp>
+<sp>
+<speaker>Frue Dormin.</speaker>
+<p>Ja ret vel &#x2013; det er desuden endnu kun Moden i Paris, og vi, som boe i Ki&#x00F8;benhavn, ere frie for at lyde dens Love.</p>
+</sp>
+<sp>
+<speaker>Spradenfeldt.</speaker>
+<p>Men veed De da vel, at der er ingen Mode til, uden i Paris &#x2013; Paris er Modens Tempel <pb n="17"/>og smuk Levemaades S&#x00E6;de; det er der et ungt Menneske f&#x00F8;rst ret kan danne sig; det er i denne Smagens Stole at han l&#x00E6;rer <emph>Airs, Mani&#x00E9;res, fa&#x00E7;ons &#x2013; ah vive Paris former un jeune homme</emph>. Men, lad os tale om andre Ting &#x2013; hvordan gaaer det med Hiertet? Jeg har i alle disse Dage ikke kunnet faae et &#x00D8;iebliks Tid for at sp&#x00F8;rge dertil &#x2013; jeg er bange, det gi&#x00F8;r mig et Puds, gi&#x00F8;r en Afstikker. Man maae passe paa de unge Enkers Hierter; taber man dem een Minut af Synet, <emph>patz</emph>, saa er det borte; det er som en Raket, <emph>comme la feuille au Vent</emph>.</p>
+</sp>
+<sp>
+<speaker>Frue Dormin.</speaker>
+<p>Den samme Deel, De altid har havt deri, har de vist endnu.</p>
+</sp>
+<sp>
+<speaker>Spradenfeldt.</speaker>
+<p><emph>Ah, j&#x0027;en suis revi</emph> &#x2013; det er mig ki&#x00E6;rt at erfare, at jeg intet har tabt ved min Frav&#x00E6;relse.</p>
+</sp>
+<sp>
+<speaker>Lise</speaker>
+<stage>(afsides.)</stage>
+<p>Nei, skulde han vinde, skulde det just v&#x00E6;re derved.</p>
+</sp>
+<sp>
+<speaker>Spradenfeldt.</speaker>
+<p>Man giver min ellers en Rival i Byen &#x2013; og, <emph>fapperment</emph>, jeg troer det var mit &#x00C6;rende herhen, at sp&#x00F8;rge Dem om den Sag &#x2013; Min F&#x00E6;tter, Leander, denne Leer og Gr&#x00E6;der &#x2013; ja, jeg troer endog, man sagde, De vare givte, eller skulde givtes med det f&#x00F8;rste.</p>
+</sp>
+<sp>
+<speaker><pb n="18"/>Frue Dormin.</speaker>
+<p>Oh, min Hr. Cousin! man skal ikke troe alt, hvad der siges; intet er utilforladeligere, end Byerygter &#x2013; hvilken Pine jeg er i.</p>
+</sp>
+<sp>
+<speaker>Spradenfeldt.</speaker>
+<p>Nei, v&#x00E6;r ikke bange, jeg har ikke troet det eet &#x00D8;ieblik, det kan jeg s&#x00E6;tte min &#x00C6;re til Pandt paa.</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>Meener De at faae laant meget paa Pandtet?</p>
+</sp>
+<sp>
+<speaker>Spradenfeldt.</speaker>
+<p><emph>Comment Mamsel Lisette, diantre &#x2013; de la Satire! de l&#x0027;Esprit!</emph> &#x2013; Ah &#x2013; hun er af mine Folk &#x2013; jeg elsker stedse et godt Indfald, om det endog falder paa min Bekostning &#x2013; ellers have dog vel vore &#x00C6;rer ikke meget at lade hinanden h&#x00F8;re?</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>Enhver veed sin Leilighed.</p>
+</sp>
+<sp>
+<speaker>Frue Dormin,</speaker>
+<stage>(afsides.)</stage>
+<p>Gid da denne Visitte maatte faae en Ende.</p>
+</sp>
+<sp>
+<speaker>Spradenfeldt.</speaker>
+<p>Altsaa, min lille Cousine! har jeg da ingen Aarsag at frygte den Rival &#x2013; ventre faint gris! det skulde og v&#x00E6;re f&#x00F8;rste Gang von Spradenfeldt var bleven stukken ud &#x2013; sligt er aldrig <pb n="19"/>h&#x00E6;ndet mig, ski&#x00F8;nt jeg tilstaaer det burde skee par <emph>Droit de Reprefailles</emph>, siden jeg ofte har giort andre det Puds &#x2013;</p>
+</sp>
+<sp>
+<speaker>Frue Dormin.</speaker>
+<p>Jeg tvivler ikke derpaa; en Person af Deres Fortienester &#x2013;</p>
+</sp>
+<sp>
+<speaker>Spradenfeldt.</speaker>
+<p><emph>Ah Serviteur</emph> &#x2013; De vil see mig r&#x00F8;d &#x2013; oh ja &#x2013; man kan maaskee vel gielde noget &#x2013; i Paris der taler man endnu om mig &#x2013; man husker endnu le Marquis de Spradenfeldt &#x2013; <emph>on conte mes pr&#x00F6;uesses</emph> &#x2013; jeg var almindelig kaldet der <emph>l&#x0027;homme &#x00E0; bonne fortunes</emph> &#x2013; man n&#x00E6;vnede mig som en <emph>Cavalier accompli</emph> &#x2013; De kan og troe, jeg giorde min Nation &#x00C6;re. De havde aldrig seet saadan en Dansk.</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>Det troer jeg gierne.</p>
+</sp>
+<sp>
+<speaker>Spradenfeldt.</speaker>
+<p>Dronningen raabte meere end eengang, naar jeg dandsede til Hove &#x2013; <emph>peste qu&#x0027;il danse bien</emph> &#x2013; Dauphin rakte mig Haanden, og jeg tutoyerede Prindserne af Blodet &#x2013; Hofdamerne kikkede paa mig over Vifterne, og hviskede: <emph>en Verit&#x00E9; ma Soeur, il est beau, il est charmant, il est unique</emph> &#x2013;</p>
+</sp>
+<sp>
+<speaker><pb n="20"/>Frue Dormin.</speaker>
+<p>I det sidste er jeg ganske eenig med Hofdamerne.</p>
+</sp>
+<sp>
+<speaker>Spradenfeldt.</speaker>
+<p>Mandki&#x00F8;nnet i Almindelighed derimod saae med Gl&#x00E6;de, at jeg forlod Paris; jeg var dem overalt i Veien &#x2013; blant andet var jeg temmelig vel hos en vis Douchesse, som en Grand d&#x0027;Espagne, der da var i Paris, giorde sig forgieves stor Umage for at behage &#x2013;</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>Tillad mig, min Herre! et Grand d&#x0027;Espagne &#x2013; hvad er det for noget?</p>
+</sp>
+<sp>
+<speaker>Spradenfeldt.</speaker>
+<p>Jeg vil tiene dig, mit Barn! En Grand d&#x0027;Espagne er een af de fornemste M&#x00E6;nd i Spanien &#x2013; det er en Mand, som har sin Hat paa, naar han taler med Kongen. Begriber du det nu?</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>Oh ja, jeg forstaaer &#x2013; det er en fornemme Mand med Hat paa.</p>
+</sp>
+<sp>
+<speaker>Spradenfeldt.</speaker>
+<p><emph>Les bourgeois sont pourtant bien b&#x00EA;tes</emph>. Nok sagt &#x2013; en Mand som jeg stikkes ikke ud &#x2013; det er nok, at han lader sig see, for at alle andre maae forsvinde, og jeg sover ganske roelig for Leander.</p>
+</sp>
+<sp>
+<speaker><pb n="21"/>Frue Dormin.</speaker>
+<p>For den Deel, De har at tage i den Sag, er det vist ikke v&#x00E6;rd at foruroelige Deres S&#x00F8;vn.</p>
+</sp>
+<sp>
+<speaker>Spradenfeldt.</speaker>
+<p>Ah &#x2013; jeg seer nok, at jeg ikke har truffet det lykkelige &#x00D8;ieblik &#x2013; <emph>l&#x0027;heure du berger</emph> &#x2013; og at de gi&#x00F8;r Vold paa Deres eget Hierte, for at synes vred &#x2013; <emph>t&#x00EA;tebleu</emph>! det er og paa Tiden at jeg skynder mig &#x2013; jeg skal see Pr&#x00F8;ven af en nye Ballet, og give min Bet&#x00E6;nkning over en nyelig ankommen Dandserinde, som gi&#x00F8;r nogle uforlignelige Pas &#x2013; jeg skal vise Dem nogle deraf.</p>
+<stage>(Han dandser og synger dertil.)</stage>
+<p>Hvad synes De derom &#x2013; men saae De hende selv! Jeg saae hende kun nogle Minuter i Gaar igiennem mit Glas &#x2013; men hun fortryllede mig &#x2013; jeg maae f&#x00F8;re dem paa Comedien! en nydelig Fod &#x2013; en Fod! Himmel! en Fod! lad mig see &#x2013; ja, som Deres &#x2013; og en Gorge &#x2013; ah, Vandet kommer mig i Munden &#x2013; &#x00E0; revoir ma belle Veuve; saasnart jeg bliver mig selv m&#x00E6;gtig, skal jeg v&#x00E6;re for Deres F&#x00F8;dder igien, og see, om Veiret ikke da er opklaret &#x2013; Adieu Lise!</p>
+<stage>(gi&#x00F8;r en <emph>Coupe&#x00E9;</emph>, gaaer syngende du, og kalder paa sine Folk med St&#x00F8;i i Gangen.)</stage>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="1_4">
+<head type="sub">Fierde Scene</head>
+<stage><pb n="22"/>Frue Dormin. Lise.</stage>
+<sp>
+<speaker>Frue Dormin.</speaker>
+<p>Nei &#x2013; han er ufordragelig &#x2013; at underholde sin Ki&#x00E6;reste om en Dandserinde, om med lutter Vindmagerie &#x2013; det er vel han gik.</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>Ja, uagtet hans Feil, er Leander dog en ganske anden Mand.</p>
+</sp>
+<sp>
+<speaker>Frue Dormin.</speaker>
+<p>Jeg har jo sagt dig, at jeg vil intet meere h&#x00F8;re om Leander &#x2013; det er vist &#x2013; han praler aldrig.</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>Nei han er for et ungt Menneske meget beskeeden.</p>
+</sp>
+<sp>
+<speaker>Frue Dormin.</speaker>
+<p>Han har og ingen af Ungdommens sv&#x00E6;rmende Feil; han er ordentlig &#x2013; Huusholder &#x2013;</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>Og beh&#x00F8;ver ingen bedre Talsmand, end Fruens eget Hierte.</p>
+</sp>
+<sp>
+<speaker>Frue Dormin.</speaker>
+<p>Ah, Lise! ja, jeg kan ikke n&#x00E6;gte, at jeg elsker ham &#x2013; men den Leen og Gr&#x00E6;den, nei &#x2013; det skal v&#x00E6;re ude.</p>
+</sp>
+<sp>
+<speaker><pb n="23"/>Lise.</speaker>
+<p>Sv&#x00E6;r ikke, Frue &#x2013; De h&#x00F8;rte jo desuden, at Rygtet om Deres Givtermaal er alt i Byen &#x2013; hvad vil man d&#x00F8;mme, om der intet bliver af &#x2013; men der seer jeg Jens.</p>
+</sp>
+<sp>
+<speaker>Frue Dormin.</speaker>
+<p>Hvad kan han ville &#x2013; jeg vil gaae min Vei &#x2013; siig ham, jeg modtager hverken Brev eller Bud &#x2013; dog &#x2013; jeg kan jo sige ham det selv.</p>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="1_5">
+<head type="sub">Femte Scene</head>
+<stage>De Forrige. Jens.</stage>
+<sp>
+<speaker>Jens.</speaker>
+<p>Om Forladelse, Naadige Frue &#x2013; Tak for sidst, lille Lise!</p>
+</sp>
+<sp>
+<speaker>Frue Dormin.</speaker>
+<p>Hvad er vel Msr. Jenses &#x00C6;rende &#x2013; har jeg ikke forbudet hans Herre oftere at komme i mit Huus; hvortil da hans Bes&#x00F8;gelse?</p>
+</sp>
+<sp>
+<speaker>Jens.</speaker>
+<p>Med meere H&#x00F8;flighed, Frue! om jeg t&#x00F8;r bede; jeg er Ambassadeur; jeg kommer her ikke paa Klammerie, men for at megle Fred; jeg er en Freds-Gesandt.</p>
+</sp>
+<sp>
+<speaker><pb n="24"/>Frue Dormin.</speaker>
+<p>Veed han vel, at han er n&#x00E6;seviis &#x2013; nu snart, hans &#x00C6;rende?</p>
+</sp>
+<sp>
+<speaker>Jens.</speaker>
+<p>Sagen er, at min Herre lade Dem vide, at han er ganske fortvivlet &#x2013;</p>
+</sp>
+<sp>
+<speaker>Frue Dormin.</speaker>
+<p>Nu da?</p>
+</sp>
+<sp>
+<speaker>Jens.</speaker>
+<p>Rasende &#x2013;</p>
+</sp>
+<sp>
+<speaker>Frue Dormin.</speaker>
+<p>Men &#x2013; videre?</p>
+</sp>
+<sp>
+<speaker>Jens.</speaker>
+<p>Afsindig, desperat, besat, forplumret, og ilde tilmode &#x2013;</p>
+</sp>
+<sp>
+<speaker>Frue Dormin.</speaker>
+<p>Nei, Taalmodigheden forgaaer mig, og hvad gaaer alt dette mig an?</p>
+</sp>
+<sp>
+<speaker>Jens.</speaker>
+<p>Jo &#x2013; det skal dog angaae Dem noget, det er Tingen. Det er det Uheld, han har havt, at gi&#x00F8;re Dem vred, der s&#x00E6;tter ham i denne Forfatning &#x2013; Ah, Frue! om De saae ham, vilde De vist blive bev&#x00E6;get &#x2013; huh &#x2013; en Steen maatte r&#x00F8;res derved.</p>
+</sp>
+<sp>
+<speaker>Frue Dormin.</speaker>
+<p>Hm &#x2013; er han da saa bedr&#x00F8;vet?</p>
+</sp>
+<sp>
+<speaker><pb n="25"/>Jens.</speaker>
+<p>Ja, jeg har aldrig seet ham saa tilmode, som han er, siden han fik Deres Seddel; han tramper i Gulvet, saa H&#x00E6;len gik af hans eene Skoe &#x2013; han slaaer sig Buler i sin Pande mod V&#x00E6;ggen &#x2013; jeg vilde tr&#x00F8;ste ham, men fik til Svar: Hold Mund, Slyngel &#x2013; for det er altid hans Mundheld, naar han er i det onde Lune.</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>Det er Tegn til han kiender dig.</p>
+</sp>
+<sp>
+<speaker>Jens.</speaker>
+<p>Tak for Skosen, Jomfrue! jeg skal v&#x00E6;re hende saa god igien; det er ellers med hendes Frue jeg taler.</p>
+</sp>
+<sp>
+<speaker>Frue Dormin.</speaker>
+<p>Og, naar faaer da alt dette Ende?</p>
+</sp>
+<sp>
+<speaker>Jens.</speaker>
+<p>Strax, Frue! Lidt Taalmodighed &#x2013; det var vist ved Slyngelen vi slap &#x2013; ja, rigtig &#x2013; derpaa sl&#x00E6;ngte han sig i en Stoel, og vr&#x00E6;lede, saa det kunde h&#x00F8;res paa Gaden &#x2013; Ah &#x2013; det er ude med mig &#x2013; hun hader mig &#x2013; saa n&#x00E6;r ved min Lykke, seer jeg mig skilt ved alting &#x2013; forbandede Feil &#x2013; ford&#x00F8;mte Latter &#x2013; og meget meere, hvoraf jeg intet husker, uden at det var saare bev&#x00E6;geligt; han talte om at d&#x00F8;e, jeg vilde strax hentet Doctor og Apotheker, da han efter mange Sukke, Eeder og Forbandelser endelig brast &#x2013;</p>
+</sp>
+<sp>
+<speaker><pb n="26"/>Frue Dormin,</speaker>
+<stage>(h&#x00E6;ftig.)</stage>
+<p>I Graad?</p>
+</sp>
+<sp>
+<speaker>Jens.</speaker>
+<p>Nei &#x2013; i en stor Latter.</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>O den Nar!</p>
+</sp>
+<sp>
+<speaker>Frue Dormin.</speaker>
+<p>I Sandhed, Fort&#x00E6;llingen er dens Helt v&#x00E6;rdig; et smukt Tegn til Bedr&#x00F8;velse.</p>
+</sp>
+<sp>
+<speaker>Jens.</speaker>
+<p>Ja, Frue &#x2013; det er saa min Herres Maade; han leer tit, hvor andre gr&#x00E6;de &#x2013; og fl&#x00E6;ber igien, hvor hans N&#x00E6;ste leer &#x2013; han loe den heele Dag, da hans Sal. Fader d&#x00F8;de; derimod gr&#x00E6;d han Dagen efter, fordi Fairfax fik en Apoplerie; forleden Dag loe han af, at jeg faldt i Gulvet med hans Suppe og spildte den; derimod gr&#x00E6;d han over, at hans ene Hest haltede; og jeg finder det dog vel verre at miste Suppe, end at ki&#x00F8;re med en halt Hest.</p>
+</sp>
+<sp>
+<speaker>Frue Dormin.</speaker>
+<p>Men med alt dette er jeg endnu ikke kommen i Erfaring om, hvad hans &#x00C6;rende er.</p>
+</sp>
+<sp>
+<speaker>Jens.</speaker>
+<p>Om Forladelse, jeg havde n&#x00E6;r glemt det &#x2013; Det har man af de Parentheser; ja det var dette, at han udbad sig Tilladelse, at kaste sig n&#x00E6;segruus <pb n="27"/>paa Gulvet for Dem, og sige Dem mange smukke Ting, som han og sagde mig, men som min svage Hukommelse ikke kunde beholde, og hvoraf Meeningen var, at han ikke kunde leve, uden at see Dem.</p>
+</sp>
+<sp>
+<speaker>Frue Dormin.</speaker>
+<p>Alt dette bev&#x00E6;ger mig ikke &#x2013; siig kun sin Herre, at jeg vil ikke see ham oftere.</p>
+</sp>
+<sp>
+<speaker>Jens.</speaker>
+<p>Vil Fruen da begaae Mord?</p>
+</sp>
+<sp>
+<speaker>Frue Dormin.</speaker>
+<p>Msr. Jens! han kan blive sat ud paa Hovedet.</p>
+</sp>
+<sp>
+<speaker>Jens.</speaker>
+<p>Jeg er Dem forbunden; men jeg gaaer allerbest paa mine Been &#x2013; men Frue, lad Dem dog bev&#x00E6;ge &#x2013; for Pokker, Lise! du staaer og der, som du var stum; hielp mig dog, beed med, to skraale dog altid h&#x00F8;iere end een; hvad holder jeg dig for?</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>Ei! hvad gaaer mig din naragtige Herre an? Du endnu naragtigere Ambassadeur.</p>
+</sp>
+<sp>
+<speaker>Jens.</speaker>
+<p>Tys! du veed det andet, der er os imellem &#x2013; skal jeg da gaae med uforrettet Sag tilbage, Frue?</p>
+</sp>
+<sp>
+<speaker><pb n="28"/>Lise.</speaker>
+<p>Aldrig har jeg heller seet Fruen saa ubev&#x00E6;gelig, og det for saa smaa Ting.</p>
+</sp>
+<sp>
+<speaker>Frue Dormin.</speaker>
+<p>Naar jeg beh&#x00F8;ver hendes Raad, skal jeg forlange det, og han, Msr. Jens &#x2013;</p>
+</sp>
+<sp>
+<speaker>Jens.</speaker>
+<p>Ah, Frue! jeg seer min Herre, lad ham nu selv f&#x00F8;re Ordet, for sandt at sige, var jeg og nu keed deraf.</p>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="1_6">
+<head type="sub">Siette Scene</head>
+<stage>Leander. De Forrige.</stage>
+<sp>
+<speaker>Jens</speaker>
+<stage>(gaaer Leander im&#x00F8;de.)</stage>
+<p>Jeg har kun slet Tr&#x00F8;st at bringe Dem; Fruen er ubev&#x00E6;gelig &#x2013;</p>
+</sp>
+<sp>
+<speaker>Leander</speaker><stage>(leer.)</stage>
+<p>Saa, ja, naar man sender en saadan Karl i Bye, maae man v&#x00E6;re vis paa at faae sit &#x00C6;rende vel forrettet.</p>
+</sp>
+<sp>
+<speaker>Jens.</speaker>
+<p>Det har man for sit gode Hierte.</p>
+<stage>(Frue Dormin vil gaae ud; Leander holder hende.)</stage>
+</sp>
+<sp>
+<speaker><pb n="29"/>Leander.</speaker>
+<p>De flyer mig &#x2013; er da alt mit Haab ude &#x2013; Min Utaalmodighed tillod mig ikke at oppebie Deres Tilladelse, at komme for Deres &#x00D8;ine &#x2013; kan jeg da nu ikke vente Tilgivelse meere?</p>
+</sp>
+<sp>
+<speaker>Frue Dormin.</speaker>
+<p>Jeg meener, mit Brev har sagt Dem alt, hvad jeg har at sige, jeg har intet at till&#x00E6;gge.</p>
+<stage>(vil atter gaae.)</stage>
+</sp>
+<sp>
+<speaker>Leander</speaker>
+<stage>(med Taarer.)</stage>
+<p>Ah, Cousine &#x2013; har De nogentid elsket mig, saa kald den haarde Dom tilbage, De deri har f&#x00E6;ldet &#x2013; jeg har ikke havt eet roeligt &#x00D8;ieblik siden, og faaer det aldrig, f&#x00F8;rend De tilgiver mig &#x2013; min Vellyst var at elske Dem, at tilbede Dem, var min eeneste Lykke; jeg saae mig nu n&#x00E6;r ved mine &#x00D8;nskers Maal, skal i det samme &#x00D8;ieblik Deres Haand, denne Haand, De endelig havde bestemt mig som L&#x00F8;n for den fuldkomneste Ki&#x00E6;rlighed, selv nedstyrte mig derfra i Fortvivlelsens Afgrund.</p>
+</sp>
+<sp>
+<speaker>Frue Dormin.</speaker>
+<p>Ah, Lise! han bev&#x00E6;ger mig.</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>Ja, det har jeg nok t&#x00E6;nkt.</p>
+</sp>
+<sp>
+<speaker>Jens.</speaker>
+<p>Siig nu, jeg spaaer ikke rigtig.</p>
+</sp>
+<sp>
+<speaker><pb n="30"/>Leander.</speaker>
+<p>Elskte Cousine! vend dog ikke Deres &#x00D8;ine fra mig &#x2013; send mig et af de fortryllende &#x00D8;iekast, De i lykkeligere Dage har v&#x00E6;rdiget mig, og lad en Smiil vidne, at De tilgiver mig min Forseelse.</p>
+</sp>
+<sp>
+<speaker>Frue Dormin.</speaker>
+<p>Men kan<note type="footnote">kan] <hi rend="italic">rettet fra:</hi> kan kan <hi rend="italic">(trykkfeil)</hi></note> jeg og tilgive Dem den &#x2013; hvorledes stemmer den overeens med den Ki&#x00E6;rlighed, De siger at b&#x00E6;re for mig &#x2013; leer man da den Person ud, som man elsker? og just nu, saa n&#x00E6;r ved vores Bryllup; burde De dog ikke de sidste &#x00D8;ieblik i det mindste vogte Dem &#x2013; hvad Agtelse t&#x00F8;r jeg vel vente mig af dem som Mand, naar De som Frier endnu, og Dagen f&#x00F8;r Bryllupet, t&#x00F8;r lee mig ud, og det i offentligt Selskab?</p>
+</sp>
+<sp>
+<speaker>Leander.</speaker>
+<p>Jeg tilstaaer Dem med Skamfuldhed min Forseelse, men lad min uheldige Feil dog ikke virke en saa gruesom Mistanke hos Dem &#x2013; De kan ikke vente Dem Agtelse! Himmel! Uforlignelige! Tilbedelse kan De vente Dem; jeg vil ikke leve, uden for at elske Dem, for at gi&#x00F8;re Dem lykkelig De kunde aldrig faae en Mand, der elskede Dem meere &#x2013; tilgiv mig dog &#x2013; ski&#x00E6;nk mig Deres Hierte igien &#x2013;</p>
+</sp>
+<sp>
+<speaker><pb n="31"/>Frue Dormin.</speaker>
+<p>Nu vel da, Leander &#x2013; jeg tilgiver Dem &#x2013; endnu denne Gang. Hvor svage Vaaben har man dog mod den, man elsker!</p>
+</sp>
+<sp>
+<speaker>Leander</speaker>
+<stage>(gr&#x00E6;dende.)</stage>
+<p>De tilgiver mig &#x2013; Ah! lad mig kysse denne Haand, jeg nu t&#x00F8;r kalde min &#x2013; Hvor gl&#x00E6;der De mit Hierte.</p>
+</sp>
+<sp>
+<speaker>Jens.</speaker>
+<p>Det skulde man neppe troe, naar man ikke kiendte ham.</p>
+</sp>
+<sp>
+<speaker>Leander.</speaker>
+<p>Deiligste &#x2013; Ah! evig skal jeg elske Dem &#x2013; jeg sv&#x00E6;r Dem en evig Ki&#x00E6;rlighed og Erkiendtlighed &#x2013; her for Deres F&#x00F8;dder &#x2013;</p>
+<stage>(han springer i det samme op og leer.)</stage>
+</sp>
+<sp>
+<speaker>Jens.</speaker>
+<p>Au &#x2013; det kom, som naar Quinten springer i en Concert.</p>
+</sp>
+<sp>
+<speaker>Frue Dormin.</speaker>
+<p>Hvordan &#x2013; nei, dette gaaer for vidt; har De foresat Dem at drive Spot med mig?</p>
+</sp>
+<sp>
+<speaker>Leander</speaker>
+<stage>(immer leende.)</stage>
+<p>Forlad mig, Cousine! men kan jeg bare mig for at lee &#x2013; intet uden min heftige Ki&#x00E6;rlighed kan undskylde den Daarlighed &#x2013; jeg synes, De maatte lee selv, ved at see mig som en Romanhelt <pb n="32"/>falde paa Kn&#x00E6;e for Dem &#x2013; Ah &#x2013; det er latterligt i h&#x00F8;i Grad &#x2013; man maae sige, hvad man vil, saa er dog Bondestanden den, man skulde gaae i Skole hos &#x2013; de Folk leve naturlig, de kiende hverken Moder eller Fordomme &#x2013; den ene er den andens Ligemand, og en &#x00E6;rlig Bonde vilde lee h&#x00F8;it, og have Ret der til, om han saae det eene Menneske falde paa Kn&#x00E6;e for det andet.</p>
+</sp>
+<sp>
+<speaker>Frue Dormin.</speaker>
+<p>Han skulde lee vel h&#x00F8;it, om han skulde lee h&#x00F8;iere end De &#x2013; og De, min Hr. Cousin! gi&#x00F8;r Dem fra nu av forvisset om, at der intet bliver af vores Foreening &#x2013; Tilsidst maae Deres Opf&#x00F8;rsel overbevise mig, at den mildeste Dom, man kan f&#x00E6;lde over Dem, er, at Deres Hoved er ikke ganske rigtig istand.
+<stage>(hun gaaer.)</stage></p>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="1_7">
+<head type="sub">Syvende Scene</head>
+<stage>Leander. Lise. Jens.</stage>
+<sp>
+<speaker>Jens.</speaker>
+<p>Jo, den Afhandling om Bondestanden kom ret tilpas &#x2013; Har Herren mange saadanne? De skulde give Dem i Trykken &#x2013; Uf &#x2013; jeg maatte <pb n="33"/>blive gal; i det samme &#x00D8;ieblik, hun tager Dem til Naade igien, saa ved en nye af Deres s&#x00E6;dvanlige gale &#x2013;</p>
+</sp>
+<sp>
+<speaker>Leander.</speaker>
+<p>Og hva nytter da din Sludder &#x2013;</p>
+</sp>
+<sp>
+<speaker>Jens.</speaker>
+<p>I det mindste ligesaa meget, som Herrens Afhandlinger.</p>
+</sp>
+<sp>
+<speaker>Leander.</speaker>
+<p>Hold Munden &#x2013; jeg f&#x00F8;ler nok, at jeg er ulykkelig &#x2013;</p>
+</sp>
+<sp>
+<speaker>Jens.</speaker>
+<p>Siig Fusentast, Afsindig &#x2013; jeg veed ikke, hvad jeg skal kalde det; thi en Mand, som De, troer jeg ikke der findes i begge Kongerigerne.</p>
+</sp>
+<sp>
+<speaker>Leander.</speaker>
+<p>Ah, Lise! antag dig min Sag, tael for mig hos din Frue, du har f&#x00F8;r v&#x00E6;ret min Talsmand hos hende.</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>Men nu er jeg Deres Tienerinde; tilsidst bliver man keed deraf &#x2013; altid at slette &#x2013; at gi&#x00F8;re godt igien, hvad De har giort galt &#x2013; nei &#x2013; jeg befatter mig ikke med Deres Sag mere.</p>
+</sp>
+<sp>
+<speaker>Leander.</speaker>
+<p>Vil du ikke for min Skyld, saa gi&#x00F8;r det for Jenses; jeg veed, I to have et godt &#x00D8;ie til hinanden; <pb n="34"/>og naar jeg faaer din Frue, har jeg lovet ham, han skal blive min Forvalter, og saa skal jeg nok s&#x00F8;rge for jer &#x2013; ophit kun noget til mit Beste, t&#x00E6;nk paa at redde mig &#x2013; kan denne Guldb&#x00F8;rs opv&#x00E6;kke T&#x00E6;nkekraften?</p>
+<stage>(han flyer Lise en Guldb&#x00F8;rs.)</stage>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>Det er sandt, De har nogle talende Argumenter &#x2013; nogle Grunde, som jeg ikke kan modstaae; saa vred jeg end var, skal jeg dog antage mig Deres Sag, og str&#x00E6;be for Dem som en &#x00E6;rlig Pige.</p>
+</sp>
+<sp>
+<speaker>Jens.</speaker>
+<p>Jo, havde Herren ikke den bandsatte Feil, var De en fuldkommen Herre; thi De har for Resten en meget god Maade at omgaaes Folk.<note type="footnote">Folk.] <hi rend="italic">rettet fra:</hi> Folk <hi rend="italic">(trykkfeil)</hi></note></p>
+</sp>
+<sp>
+<speaker>Leander</speaker>
+<stage>(leer.)</stage>
+<p>Midt i min Bedr&#x00F8;velse kommer jeres Adf&#x00E6;r mig til at lee &#x2013; jeg vil gaae bort, og gi&#x00F8;re en Tour i Haugen, for at adsprede Tankerne, og give jer Roe til at overl&#x00E6;gge, hvad der tiener til mit Beste &#x2013; om nogle &#x00D8;ieblik skal jeg v&#x00E6;re her igien, for at h&#x00F8;re, og i alt at f&#x00F8;lge jeres Raad.
+<stage>(gaaer ud.)</stage></p>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="1_8">
+<head type="sub">Ottende Scene</head>
+<stage><pb n="35"/>Lise. Jens.</stage>
+<sp>
+<speaker>Lise.</speaker>
+<p>Naa, lad nu da see, hvad din Hierne kan bringe frem, s&#x00E6;t nu din Forstand paa Skruer.</p>
+</sp>
+<sp>
+<speaker>Jens</speaker>
+<stage>(griber efter Guldb&#x00F8;rsen, som Lise veier i Haanden.)</stage>
+<p>Ja, lad mig faae nogle Skruer &#x2013; du har godt ved at tale derom; Fordeelen vil du have, og det er mig, som skal have Hovedbruddet &#x2013; nei Tak, vil du deele &#x2013;</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>Hvad, Sladder, det er godt at s&#x00E6;tte Boe med; enten du har det eller jeg, kommer jo paa eet ud, og desuden meener jeg, min Person kan nok l&#x00F8;nne Umagen at bryde din Hierne noget.</p>
+</sp>
+<sp>
+<speaker>Jens.</speaker>
+<p>Nu, saa forvar da disse Dukater, mine T&#x00E6;nder l&#x00F8;be ret i Vand, jeg har al min Tid v&#x00E6;ret en Giek efter det Fias.</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>Nu da, saa hit paa.</p>
+</sp>
+<sp>
+<speaker>Jens.</speaker>
+<p>Saa hit paa, hit paa &#x2013; jeg havde langt meere Lyst at tale noget med dig om mig selv &#x2013; <pb n="36"/>det er en gr&#x00E6;sselig Tid siden jeg har faaet sagt dig et Par Ord &#x2013; nu, fort&#x00E6;l mig noget.</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>Og hvad skal jeg vel fort&#x00E6;lle dig?</p>
+</sp>
+<sp>
+<speaker>Jens.</speaker>
+<p>Ih &#x2013; noget af det, du veed jeg gierne gider h&#x00F8;re &#x2013; nu da &#x2013; nei &#x2013; for Pokker, jeg veed ikke, hvorfor vi Mandfolk alletider skal tale f&#x00F8;rst.</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>Det er ikke meere end jeres Skyldighed; er der ikke &#x00C6;re nok, at vi svare Eder?</p>
+</sp>
+<sp>
+<speaker>Jens.</speaker>
+<p>Nu, saa lad det blive derved &#x2013; saa svar mig da &#x2013; Lise! holder du noget af din Jens?</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>Og hvor tit vil du da gi&#x00F8;re mig dette Sp&#x00F8;rsmaal?</p>
+</sp>
+<sp>
+<speaker>Jens.</speaker>
+<p>Ih, for en Uf&#x00E6;rd, det kommer sig af, at jeg glemmer altid, hvad du svarer derpaa &#x2013; Ah, Taske &#x2013; hvad dog dine tyvagtige sorte &#x00D8;ine have giort en Rumstering i mit Hierte; seer du, naar jeg ikke er hos dig, saa er jeg saa underlig &#x2013; det er ligesom det er mig &#x2013; og dog ikke mig &#x2013; og &#x2013; som der var noget borte af mig &#x2013; og <pb n="37"/>saa, som med en Klappen &#x2013; og en Fortumling &#x2013; og en L&#x00E6;ngsel &#x2013; forstaaer du mig? f&#x00F8;ler du ikke saadant noget?</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>Kan det ikke v&#x00E6;re din store Nar lige meget, hvad jeg f&#x00F8;ler og ikke f&#x00F8;ler, naar jeg kun bliver din Kone &#x2013; og dette veed du kan ikke skee, f&#x00F8;rend vi faae din Herre og min Frue givte, f&#x00F8;r faaer du jo ikke det Forvalterskab, han har lovet dig, som er os saa n&#x00F8;dvendigt, for af Luften kan dog ikke leve.</p>
+</sp>
+<sp>
+<speaker>Jens.</speaker>
+<p>Nei; is&#x00E6;r for mig, som gierne vil have fyldig Mad &#x2013; hvorfor han ikke og kunde give mig det Forvalterskab strax, uden videre hocus pocus.</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>Ja, ja; derfor saa str&#x00E6;b nu at ophitte noget, som snart kan befordre deres &#x00C6;gteskab &#x2013; naa, saa skynd dig da &#x2013; hit paa.</p>
+</sp>
+<sp>
+<speaker>Jens.</speaker>
+<p>Det er reent forgiort, jeg har aldrig v&#x00E6;ret saa dum som i Dag; havde jeg dog noget at live min Geist op med, som for Exempel: et godt Glas af den Ratafia eller Persicus, du stial til mig i Gaar, for, naar jeg drikker en Draabe, pleier jeg altid at faae gode Indfald.</p>
+</sp>
+<sp>
+<speaker><pb n="38"/>Lise.</speaker>
+<p>Ah! din Forr&#x00E6;der, er det saaledes, du holder af mig; naar har f&#x00F8;r et Puds, en L&#x00F8;gn kostet dig noget? Bet&#x00E6;nkte du dig saa l&#x00E6;nge den Gang du bildte din f&#x00F8;rste Herre, Kammerjunkeren, ind, at hans Sprogmester, den franske Soldat, som just paa den Tid havde faaet i Sinde at see sig videre om, havde taget hans Hat med den hvide Fi&#x00E6;r med sig paa Reisen, som du selv havde brugt paa Cantusse-Ballet i Laxegaden, hvor Verten beholdt den i Mangel af anden Betaling &#x2013; Og da du, efter at have levet h&#x00F8;it med din vestindiske Herres Madera-Viin, tog Tappen af Ankeret, da det var paa Heldingen, som om det var skeet i Fuldskab af hans Morian, hvilken du for i Veien med Flid i al Venskab havde tilpakket, paa det hans Ruus kunde gi&#x00F8;re din Angivelse meere rimelig, saa den arme Skielms Ryg maatte betale din Fort&#x00E6;ring &#x2013; og da du &#x2013;</p>
+</sp>
+<sp>
+<speaker>Jens</speaker>
+<stage>(holder hende for Munden.)</stage>
+<p>Og da du, og da du &#x2013; hvad beh&#x00F8;ver du at staae her at qv&#x00E6;kke om mine Krigsbedrifter, og rose mig i mine aabne &#x00D8;ine &#x2013; man kan jo nok vide, hvad man er v&#x00E6;rd &#x2013; men bie &#x2013; just nu faaer jeg et Indfald &#x2013;</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>Ja, ja, rigtig; det var brav &#x2013;</p>
+</sp>
+<sp>
+<speaker><pb n="39"/>Jens.</speaker>
+<p>Hvad for noget?</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>Ih &#x2013; det, du meente, hvad er det?</p>
+</sp>
+<sp>
+<speaker>Jens.</speaker>
+<p>Ja, hvad var det &#x2013; bie dog og h&#x00F8;r det f&#x00F8;rst, inden du d&#x00F8;mmer, om det er brav eller ei &#x2013; har du ikke sagt mig, at din Frue og min Herre skulde til sammen arve en f&#x00E6;lleds Oncle i Jylland, naar han engang bliver m&#x00E6;t af Dage?</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>Ja rigtig &#x2013; han hedder Hr. Orgon, og det er fra den Kant min Frue venter de Midler, hun endnu kan haabe &#x2013; Spradenfeldt og Meerskum skal og arve ham.</p>
+</sp>
+<sp>
+<speaker>Jens.</speaker>
+<p>Desto bedre &#x2013; gid jeg og skulde arve ham &#x2013; men denne Oncle &#x2013; befinder han sig vel?</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>Saavidt &#x2013; han har i to Aar ellers n&#x00E6;sten havt alle muelige Sygdomme, Pl&#x00F8;ris, Gigt, Vattersot, Podagra.</p>
+</sp>
+<sp>
+<speaker>Jens.</speaker>
+<p>Au, au, det jager mig alt i Kroppen &#x2013; der maae da nok ikke v&#x00E6;re Doctores i Jylland, siden han lever endnu &#x2013; nu vel &#x2013; saa fald paa dine <pb n="40"/>Kn&#x00E6;e, og beundre mig, som i et &#x00D8;ieblik skal udrette meer, end Jyllands Apothequer har funnet udrette i to Aar.</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>Hvordan, hvad vil du sige &#x2013;</p>
+</sp>
+<sp>
+<speaker>Jens.</speaker>
+<p>At denne Oncle, denne Herremand fra Jylland, denne Hr. Orgon &#x2013;</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>Nu da?</p>
+</sp>
+<sp>
+<speaker>Jens.</speaker>
+<p>Skal inden to Timer v&#x00E6;re d&#x00F8;d og have giort Testamente.</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>Er du bleven gal &#x2013;</p>
+</sp>
+<sp>
+<speaker>Jens.</speaker>
+<p>Nei; dette er just H&#x00F8;iden af Viisdom &#x2013; H&#x00F8;r nu, og forstaae, hvad jeg siger: Vi vide, at din Frue elsker Leander, og kan ikke synderlig lide de andre to Herrer, der gi&#x00F8;re sig Umage for hende, men at hans Leen og Gr&#x00E6;den immer gi&#x00F8;r dem Uvenner.</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>Ja den dumme Feil &#x2013;</p>
+</sp>
+<sp>
+<speaker>Jens.</speaker>
+<p>Enhver har sin, og denne siger intet, naar man bliver vant dertil &#x2013; h&#x00F8;r nu da &#x2013; man <pb n="41"/>maae hitte paa et Middel, som kunde tvinge din Frue til at gi&#x00F8;re en Ende paa Sagen; thi den vinder intet ved Ops&#x00E6;ttelser &#x2013; hun er fattig, og hendes eeneste Haab er denne Oncles Arv &#x2013; naar man nu opdigtede et Brev fra Jylland, hvori der meldtes, at Onclen var d&#x00F8;d, og havde ved Testamente indsat din Frue til eeneste Arving, men imod at hun skulde givte sig med een af sine tre F&#x00E6;ttere; og dersom hun ikke vilde dette, da v&#x00E6;re arvel&#x00F8;s &#x2013; skulde det da ikke, meener du, bev&#x00E6;ge hende til at &#x00E6;gte min Herre, og gi&#x00F8;re mig til Forvalter &#x2013;</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>Ja, nu begynder jeg selv at holde dig for en stor Mand &#x2013; det Indfald var Guld v&#x00E6;rd &#x2013; hurtig, lad os faae det sat i V&#x00E6;rk &#x2013; men &#x2013; naar de nu faae at vide, at det er L&#x00F8;gn &#x2013;</p>
+</sp>
+<sp>
+<speaker>Jens.</speaker>
+<p>Ja, lad os kuns f&#x00F8;rst faae dem smeddet sammen, siden maae Onclen leve op saa meget som han vil.</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>Oh ja, du har Ret; men hvem skal Brevet komme fra? thi den salig Mand kan dog ikke skrive selv.</p>
+</sp>
+<sp>
+<speaker>Jens.</speaker>
+<p>Det kan jo komme fra en Forvalter, man kan lade ham have havt, og som kan skrive det.</p>
+</sp>
+<sp>
+<speaker><pb n="42"/>Lise.</speaker>
+<p>Vel &#x2013; oh, hvor jeg nu holder af dig &#x2013; skynd dig at faae det skrevet, det er i Dag Postdag fra Jylland.</p>
+</sp>
+<sp>
+<speaker>Jens.</speaker>
+<p>Ja, det er Knuden; for naar jeg s&#x00E6;tter mine Tanker paa Papiir, skal de v&#x00E6;re dievels onde at fatte for andre end mig selv &#x2013; den l&#x00E6;rde gr&#x00E6;ske Magister, jeg tiente for tre Aar siden, br&#x00F8;d sig et heelt Jevnd&#x00F8;gn igiennem, for at udfinde, om noget, jeg havde skrevet, var Elamitisk eller Mesopotamisk, og jog mig paa Porten, fordi jeg fortalte ham, at det var min Haand.</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>Oh! ikke andet &#x2013; der er Peer Slagter, han kan skrive &#x2013; du kiender ham jo &#x2013; han gi&#x00F8;r det strax f&#x00E6;rdig &#x2013; Men der troer jeg Leander kommer tilbage.</p>
+</sp>
+<sp>
+<speaker>Jens.</speaker>
+<p>Han maae intet vide deraf &#x2013; hans &#x00F8;mme Samvittighed vilde aldrig tilstede dette Puds, og spilde os den heele Comedie &#x2013; vi ville derfor intet sige ham heraf.</p>
+</sp>
+</div>
+<div type="uchapter" n="1_9">
+<head type="sub">Niende Scene</head>
+<stage><pb n="43"/>Leander. De Forrige.</stage>
+<sp>
+<speaker>Leander.</speaker>
+<p>Nu B&#x00F8;rn, hvad har I udfundet? Kan jeg haabe? Er der Redning? Jeg samtykker alt, naar det kun ikke strider imod Redelighed og den &#x00C6;rb&#x00F8;dighed, jeg skylder min Cousine.</p>
+</sp>
+<sp>
+<speaker>Jens</speaker>
+<stage>(til Lise.)</stage>
+<p>Sagde jeg det ikke?</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>Nei, frygt kun ikke herfor &#x2013; det, vi have hittet paa, strider aldeeles ikke herimod; thi det er &#x2013;</p>
+</sp>
+<sp>
+<speaker>Leander.</speaker>
+<p>Nu da?</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>Intet.</p>
+</sp>
+<sp>
+<speaker>Leander</speaker>
+<stage>(leer.)</stage>
+<p>Hvordan? Det var l&#x00F8;ierligt &#x2013; veed du da intet til min Redning? Har I i al den Tid ikke kunnet udfinde noget?</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>Nei &#x2013; ikke det allermindste.</p>
+</sp>
+<sp>
+<speaker><pb n="44"/>Leander.</speaker>
+<p>Jens &#x2013; er det sandt, veed du heller intet Middel?</p>
+</sp>
+<sp>
+<speaker>Jens.</speaker>
+<p>Jo; jeg kunde endelig nok vide eet, dersom Herren kun vilde s&#x00E6;tte det i V&#x00E6;rk.</p>
+</sp>
+<sp>
+<speaker>Leander.</speaker>
+<p>Ah &#x2013; siig snart, hvori bestaaer det &#x2013; jeg vil gi&#x00F8;re alt.</p>
+</sp>
+<sp>
+<speaker>Jens.</speaker>
+<p>Det bestaaer i, at De skulde bestemme Dem til, enten at lee bestandig, eller at gr&#x00E6;de bestandig, for det var meget bedre, end dette April-Veir og den Blanding af Solskin og Regn, som immer er hos Herren.</p>
+</sp>
+<sp>
+<speaker>Leander.</speaker>
+<p>Forvovne! du t&#x00F8;r spotte mig &#x2013; min Haand skal tugte din Uforskammenhed.</p>
+<stage>(griber til Kaarden.)</stage>
+</sp>
+<sp>
+<speaker>Jens.</speaker>
+<p>Ah &#x2013; bie, Herre! lad mig bare rende f&#x00F8;rst lidt bort og gi&#x00F8;re Testamente, f&#x00F8;rend jeg d&#x00F8;er.</p>
+<stage>(han l&#x00F8;ber.)</stage>
+</sp>
+<sp>
+<speaker>Leander.</speaker>
+<p>Den Skurk &#x2013; han skal betale det &#x2013; Ah! Lise &#x2013;</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>Vil De og aflive mig &#x2013; i saa Fald har jeg og f&#x00F8;rst noget med en sidste Villie at gi&#x00F8;re.</p>
+<stage>(hun l&#x00F8;ber.)</stage>
+</sp>
+<sp>
+<speaker><pb n="45"/>Leander</speaker>
+<stage>(allene.)</stage>
+<p>De Uforskammede! de tage mine Penge, og spotte mig til &#x2013; men er det andet, end en Virkning af min urimelige Leen og Gr&#x00E6;den. <stage>(med Taarer.)</stage> Forbandede Feil &#x2013; du skuller mig ved den, jeg elsker, og uds&#x00E6;tter mig for Folks billige Spot &#x2013; jeg er dog ret ulykkelig, at jeg ikke kan betvinge denne Feil &#x2013; <stage>(leer.)</stage> Men er det og ikke tilpas til mig, som har den Daarlighed, at ville s&#x00F8;ge Tr&#x00F8;st og Raad hos saadanne Folk &#x2013; jeg maae lee af mig selv &#x2013; <stage>(alvorlig.)</stage> jeg vil gaae ind og skrive min Cousine selv til &#x2013; jeg vil afmale hende min Tilstand, og sige hende, at jeg enten maae besidde hende, eller d&#x00F8;e. <stage>(han gaaer.)</stage></p>
+</sp>
+</div>
+</div>
+<div type="chapter" subtype="act" n="2">
+<head type="main">Anden Act</head>
+<div type="uchapter" subtype="scene" n="2_1">
+<head type="sub">F&#x00F8;rste Scene</head>
+<stage><pb n="46"/>Leander, strax derefter Capitain Meerskum.</stage>
+<sp>
+<speaker>Leander</speaker>
+<stage>(kommer leende ind med et Brev i Haanden.)</stage>
+<p>Det er ganske forn&#x00F8;ieligt, nu jeg har faaet mit Brev f&#x00E6;rdigt, har jeg ikke een at sende bort dermed &#x2013; ikke een af mine Domestiquer er tilstede &#x2013; hola Jens &#x2013; mon han ikke skulde v&#x00E6;re gaaet herind til min Cousine &#x2013; Jens, Jens &#x2013; nei &#x2013; den Skurk &#x2013; <stage>(alvorlig.)</stage> Det er og gruesomt med alle de Uheld, der i Dag storme ind paa mig &#x2013; det er ret ligesom den heele Verden havde sammensvoret sig imod mig &#x2013; som det var en Skiebne, at jeg skal v&#x00E6;re uheldig i alle Ting. &#x2013;</p>
+<stage>(han gr&#x00E6;der, og holder T&#x00F8;rkl&#x00E6;det for &#x00D8;inene.)</stage></sp>
+<stage>(Meerskum kommer beskienket ind &#x2013; han standser, da han bliver Leander vaer, og betragter ham noget.)</stage>
+<sp>
+<speaker>Meerskum.</speaker>
+<p>Men &#x2013; skal jeg ikke have seet den Fregat f&#x00F8;r &#x2013; samme Reisning &#x2013; samme Takkelage &#x2013; jo vist maae jeg kiende ham &#x2013; jeg faaer l&#x00E6;gge <pb n="47"/>Roer i L&#x00E6;e, dreie bi og praje ham &#x2013; Sei, Leander, Mand &#x2013; er det dig?</p>
+</sp>
+<sp>
+<speaker>Leander.</speaker>
+<p>Ah, Meerskum &#x2013; jeg kiendte dig neppe, det er l&#x00E6;nge siden jeg saae dig, jeg &#x00F8;nsker dig Lykke til din Forfremmelse, du er bleven Capitain!</p>
+</sp>
+<sp>
+<speaker>Meerskum.</speaker>
+<p>Det troer jeg; du stod jo her saa forsynket i Betragtninger, som om du havde st&#x00F8;dt paa et Ski&#x00E6;r &#x2013; men &#x2013; plager den Onde dig, troer jeg ikke ordentlig at du gr&#x00E6;der &#x2013; er det din Onde dag i Dag, saa holder jeg af igien, for jeg farer ikke gierne med bedr&#x00F8;vede Folk.</p>
+</sp>
+<sp>
+<speaker>Leander.</speaker>
+<p>Oh nei, bie &#x2013; det gaaer strax over &#x2013; og jeg kan ikke andet end lee ved at see dig &#x2013; ja hvem skulde og kunne bare sig derfor &#x2013; saa snorrig som du seer ud.</p>
+<stage>(leer.)</stage>
+</sp>
+<sp>
+<speaker>Meerskum.</speaker>
+<p>Lee af Fanden, og ikke af en Caper-Capitain.</p>
+</sp>
+<sp>
+<speaker>Leander.</speaker>
+<p>Men siig mig dog, hvor har du v&#x00E6;ret saa l&#x00E6;nge &#x2013; hvordan lever du? hvor kommer du fra? hvor vil du hen? Hvor &#x2013;</p>
+</sp>
+<sp>
+<speaker><pb n="48"/>Meerskum.</speaker>
+<p>Sei, Rev i Seilene, du finder en fiorten Miils Fart i Vagten &#x2013; vil du rende mig en Planke ind? Vil du saaledes sp&#x00F8;rge, faaer du varpe mig Papiir hid, at jeg kan tegne Sp&#x00F8;rgsmaalene op, for jeg har desuden faaet en Lecase i Hukommelsen i Nat.</p>
+</sp>
+<sp>
+<speaker>Leander.</speaker>
+<p>Hvi saa &#x2013; hvor kommer du da fra?</p>
+</sp>
+<sp>
+<speaker>Meerskum.</speaker>
+<p>Fra Champagne-Viin &#x2013; Ha, Broder &#x2013; det var en deilig Havn &#x2013; jeg har ladet mig den ganske Nat.</p>
+</sp>
+<sp>
+<speaker>Leander.</speaker>
+<p>Jeg kan m&#x00E6;rke det &#x2013; og hvor agter du dig hen her?</p>
+</sp>
+<sp>
+<speaker>Meerskum.</speaker>
+<p>Jeg styrede just Coursen ind til vores Cousine, da jeg dreiede bi for at praje dig.</p>
+</sp>
+<sp>
+<speaker>Leander</speaker>
+<stage>(alvorlig.)</stage>
+<p>Hvad! &#x2013; vil du vise dig for hende i den Forfatning &#x2013;</p>
+</sp>
+<sp>
+<speaker>Meerskum.</speaker>
+<p>Og hvad fattes da vel min Forfatning &#x2013; jeg er aldrig saa h&#x00F8;flig, saa beleven, saa skikket til at l&#x00E6;gge ombord paa Ki&#x00F8;nnet, som naar jeg <pb n="49"/>har en Seis &#x2013; men du selv, hvad gi&#x00F8;r du paa disse H&#x00F8;ider?</p>
+</sp>
+<sp>
+<speaker>Leander</speaker>
+<stage>(leende.)</stage>
+<p>Du seer en Uheldig &#x2013; jeg frier til vores Cousine, vores Bryllup var endog berammet til i Dag &#x2013; men ved en uheldig Tildragelse er hun bleven saa opbragt imod mig, at hun ikke vil h&#x00F8;re meere om den Sag.</p>
+</sp>
+<sp>
+<speaker>Meerskum.</speaker>
+<p>Det var den Onde, du frier til vores Cousine &#x2013; det er i det samme &#x00C6;rende at jeg krydser her &#x2013; og du er alt n&#x00E6;r ved at seile for fuld Vind ind i Havnen, imedens jeg endnu ligger og bouter langt ude i Farvandet &#x2013; men nu, derfor ere vi lige gode Venner, Farten er frie for enhver, der kan bringe Skib i S&#x00F8;en, og vil hun ikke have mig, saa vil vel en anden; n&#x00E6;rmere tager jeg mig ikke den Sag.</p>
+</sp>
+<sp>
+<speaker>Leander</speaker>
+<stage>(alt leende.)</stage>
+<p>Tildragelsen er l&#x00F8;ierlig og uventet &#x2013; vi ere da Rivaler &#x2013;</p>
+</sp>
+<sp>
+<speaker>Meerskum.</speaker>
+<p>Rivaler &#x2013; nei tak; vil du kappes med mig om at f&#x00F8;re Skib, at staae til Roers, at &#x00E6;ntre, at gaae til Veirs &#x2013; ja derom kunne vi blive Rivaler, men for et Fruentimmer! nei pas.</p>
+</sp>
+<sp>
+<speaker><pb n="50"/>Leander.</speaker>
+<p>Elsker Frue Dormin dig da ikke?</p>
+</sp>
+<sp>
+<speaker>Meerskum.</speaker>
+<p>Og befatter jeg mig med det Ragerie &#x2013; jeg har spurgt hende et Par Gange, om hun vil have mig, og det har hun ikke svaret mig saa reent ud af Ski&#x00E6;gget paa; i Dag er jeg kommen her, for at gi&#x00F8;res klar, thi jeg har ikke i Sinde at fryse inde her og lade mig iise ud &#x2013; overalt har jeg ingen Tid, hverken i Morgen eller Overmorgen.</p>
+</sp>
+<sp>
+<speaker>Leander.</speaker>
+<p>Hvi saa &#x2013; Hvad skal du da bestille i Morgen?</p>
+</sp>
+<sp>
+<speaker>Meerskum.</speaker>
+<p>Ei nu, det skal jeg fort&#x00E6;lle dig &#x2013; der, hvor jeg var fort&#x00F8;iet i Nat, der var kommen en Lus ind, en Bl&#x00E6;ksm&#x00F8;rer, den Onde veed, hvem det var; jeg gier ham D&#x00F8;den og Di&#x00E6;vlen, den Hvalp &#x2013; han duede ikke til at fare til Coffardis med en Svabert! see &#x2013; medens vi saa sad og skaffede, og parsiarede i &#x00D8;st og Vest, saa paa eengang faaer han Ondt, og vil paastaae imod mig &#x2013; Meerskum &#x2013; som har f&#x00F8;rt Dragen, v&#x00E6;ret i Canelen &#x2013; ved de spanske Drenge &#x2013; under Linien &#x2013; som kiender Passaten som jeg kiender mig selv &#x2013; huh &#x2013; imod mig vil han paastaae, at man kunde seile Vinden n&#x00E6;rmere end paa sex Str&#x00E6;ger <pb n="51"/>&#x2013; jeg svarede ham meget h&#x00F8;flig &#x2013; det er den Onde tage mig L&#x00F8;gn &#x2013; det forstaaer jeg bedre end I &#x2013; herpaa svarede han igien, alt med H&#x00F8;flighed, og kort at fort&#x00E6;lle, den eene H&#x00F8;flighed gik saa l&#x00E6;nge i Ki&#x00F8;lvandet paa den anden, at jeg tilsidst smeed ham hans Bramstang over Borde med en Tallerken, som giorde lidt uklart paa hans Stortop &#x2013; han smeed noget Ragerie efter mig igien, saa der blev en Allemands Haverie &#x2013; men jeg forsatte ham en slingre Patron saa heftig, at Lysene gik ud i hans Lanterner, og bumbs, der saae min Coffardi-Mand paa sit Agter-Kastel &#x2013; see, saa blev han vred, og paastod, jeg skulde flaaes ordentlig med ham &#x2013; vel Mand, sagde jeg, det er og mit Spil, du skal faae det som du vil &#x2013; og saa bad han om det til i Morgen &#x2013; for ventelig vil han tage Afskeed med sin Familie i Dag.</p>
+</sp>
+<sp>
+<speaker>Leander</speaker>
+<stage>(som ved Fort&#x00E6;llingen er blevet meere og meere alvorlig.)</stage>
+<p>Men hvem var denne Person?</p>
+</sp>
+<sp>
+<speaker>Meerskum.</speaker>
+<p>Veed jeg det &#x2013; Secreteer eller Consistorial-raad kaldte de ham &#x2013; en Karl som en Agurk &#x2013; jeg holder mig ligesaa god som han, og vel saa vestlig.</p>
+</sp>
+<sp>
+<speaker><pb n="52"/>Leander.</speaker>
+<p>Men bet&#x00E6;nk dog, hvad F&#x00F8;lger din Fremfusenhed kan have; om Hiertet, som det lader, sidder ham paa det rette Sted.</p>
+</sp>
+<sp>
+<speaker>Meerskum.</speaker>
+<p>Jeg er tilfreds hvor det sidder ham &#x2013; hvad F&#x00F8;lger &#x2013; Meerskum har aldrig viist nogen fiendtlig Skude sit Speil, uden naar han har bogseret den efter sig &#x2013; vi kan komme til at l&#x00E6;gge vore Batterier imod hinanden, og l&#x00F8;be hverandre et Par Planker ind &#x2013; det vil intet sige &#x2013; men hvad &#x2013; troer jeg ikke nu du er l&#x00E6;k igien; der skulde en Pompe som Fanden til at holde dig lens &#x2013; hvad er der?</p>
+</sp>
+<sp>
+<speaker>Leander.</speaker>
+<p>Hvad der er? Er det ikke beklageligt, og kan det ikke fortiene Taarer, at see et Menneske saaledes med beraad Hu styrte sig i Faren, og med Overl&#x00E6;g skille sig med Glasset i Haanden ved den sunde Fornuft.</p>
+</sp>
+<sp>
+<speaker>Meerskum.</speaker>
+<p>Slap hun derud &#x2013; den sunde Fornuft mig hid, og den sunde Fornuft mig did, saa viid, min kloge Ven, at der er intet saa dumt, som den sunde Fornuft &#x2013; hvad man vil gi&#x00F8;re, hvad man slaaer paa, strax er den i Veien, kan man <pb n="53"/>da gi&#x00F8;re bedre, end at smidde den over Borde og drikke den bort, saa bliver man f&#x00F8;rst letseilende.</p>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="2_2">
+<head type="sub">Anden Scene</head>
+<stage>De Forrige. Spradenfeldt.</stage>
+<sp>
+<speaker>Spradenfeldt</speaker>
+<stage>(ind til Coulissen.)</stage>
+<p><emph>Pierre &#x2013; Laquai &#x2013; Maraud &#x2013; ha</emph> &#x2013; jeg troer ikke nogen Adelsmand i det heele Land er saa slet betient som jeg!</p>
+</sp>
+<sp>
+<speaker>Meerskum.</speaker>
+<p>Er det dine Junger alle de &#x2013; giv dem en Lussing &#x2013; kast dem i Boien, saa gi&#x00F8;r jeg ved mine.</p>
+</sp>
+<sp>
+<speaker>Spradenfeldt.</speaker>
+<p><emph>Ah, bon jour Meerskum</emph>, det er jo hundrede Aar siden jeg saae dig; jeg har ikke seet dig siden du blev Msr. Le Capitain &#x2013; og Leander, <emph>peste, je suis ici en pays de Connoissance</emph> &#x2013;</p>
+</sp>
+<sp>
+<speaker>Meerskum.</speaker>
+<p>Kunde du ikke sige det paa Dansk; man skulde troe, du havde v&#x00E6;ret under Linien, for du har lidet Haverie paa Forstanden.</p>
+</sp>
+<sp>
+<speaker><pb n="54"/>Spradenfeldt.</speaker>
+<p>Ja, du sp&#x00F8;ger nu altid &#x2013; men hvad fattes vor Ven Leander i Dag?</p>
+</sp>
+<sp>
+<speaker>Leander.</speaker>
+<p>Meerskum har havt en Trette, han skal slaaes, det b&#x00F8;r gi&#x00F8;re mig ondt.</p>
+</sp>
+<sp>
+<speaker>Meerskum.</speaker>
+<p>Ikke andet end det; naar det ikke gi&#x00F8;r mig ondt, saa seer jeg ikke, at du kan have nogen Svie deraf.</p>
+</sp>
+<sp>
+<speaker>Spradenfeldt.</speaker>
+<p><emph>Ah, Bagatelle que &#x00E7;a</emph> &#x2013; jeg havde nu nyelig en Affaire &#x2013; jeg kom for Skade at ki&#x00F8;re en Fiacre i Rendesteenen, ved det jeg har befalet min Kudsk, immer at holde Midten af Gaden &#x2013; Manden, som sad deri, blev vred, sprang ud, vilde, jeg skulde slaaes med ham &#x2013; <emph>Enfin</emph>, jeg var <emph>force&#x00E9;rt</emph> &#x2013; jeg stak ham tvert igiennem Armen, og fik siden at vide, at det var Greven af Fontak &#x2013;</p>
+</sp>
+<sp>
+<speaker>Leander</speaker>
+<stage>(gr&#x00E6;dende.)</stage>
+<p>Hvor kan du dog lyve saa, det er uv&#x00E6;rdigt for en Adelsmand &#x2013; Fontak er jo alt i Forgaars reist til Paris.</p>
+</sp>
+<sp>
+<speaker>Spradenfeldt.</speaker>
+<p>Ja, det var og Dagen f&#x00F8;r jeg havde Passagen &#x2013; og jeg fortalte det meest for at faae dig til <pb n="55"/>at lee &#x2013; jeg vil altid see glade Folk &#x2013; jeg er selv aldrig bedr&#x00F8;vet, uden naar jeg fattes Penge, og det er endelig kun sielden h&#x00E6;ndet mig &#x2013; <emph>un galant homme &#x00E0; tousjours ses Ressources</emph> &#x2013; dog, eengang paa mine Reiser hang jeg forbandet med Hovedet; skulde I troe, at jeg en heel Uge igiennem i Paris var saa fattig, at jeg ikke eiede 10,000 Rdlr.</p>
+</sp>
+<sp>
+<speaker>Meerskum</speaker>
+<stage>(leer h&#x00F8;it, og Leander gr&#x00E6;der.)</stage>
+<p>Det var en Coffardi-Str&#x00E6;g &#x2013; hold dig om Bagbord, naar du lyver saa &#x2013; du har jo aldrig seet 10,000 Rdlr.</p>
+</sp>
+<sp>
+<speaker>Spradenfeldt</speaker>
+<stage>(til Leander.)</stage>
+<p>Ah, Monfrere! det gi&#x00F8;r mig ondt &#x2013; s&#x00F8;rg ikke derfor nu &#x2013; den Tid er l&#x00E6;nge siden forbi &#x2013;</p>
+</sp>
+<sp>
+<speaker>Meerskum.</speaker>
+<p>Han maatte v&#x00E6;re gal, s&#x00F8;rgede han for det &#x2013; nei, det er nok snarere Kurven, han har faaet hos vores Cousine, som tr&#x00E6;kker ham Vandet af Spigatterne.</p>
+</sp>
+<sp>
+<speaker>Spradenfeldt.</speaker>
+<p>Hvordan? <emph>Comment?</emph> Hvad &#x2013; Kurv &#x2013; du frier da til Frue Dormin?</p>
+</sp>
+<sp>
+<speaker><pb n="56"/>Leander.</speaker>
+<p>Ja; og ventede i Dag endog at see mig foreenet med hende, hvis ikke Skiebnen, som altid er mig ublid &#x2013;</p>
+</sp>
+<sp>
+<speaker>Spradenfeldt.</speaker>
+<p><emph>Qu&#x0027;entend-je-tetebleu, j&#x0027;enrage!</emph> saa er dog Rygtet sandt &#x2013; men du burde ventet dig Kurven &#x2013; Du veed maaskee ikke, min lille F&#x00E6;tter, at Frue Dormin elsker mig?</p>
+</sp>
+<sp>
+<speaker>Leander</speaker>
+<stage>(leer.)</stage>
+<p>Elsker dig?</p>
+</sp>
+<sp>
+<speaker>Meerskum</speaker>
+<stage>(leer og.)</stage>
+<p>Elsker dig &#x2013; det staaer ved Siden af de 10,000 Rdlr.</p>
+</sp>
+<sp>
+<speaker>Spradenfeldt.</speaker>
+<p>Ja, ja, elsker mig &#x2013; ret mig &#x2013; er det saa ubegribeligt &#x2013; jeg synes det maatte forundre jer, om hun ikke giorde det &#x2013; mon jeg er en Person <emph>qu&#x0027;on refuce</emph> &#x2013; som man holder Stand imod &#x2013; men jeg taaler ikke, at nogen gaaer mig i Veien, og vover at frie, hvor jeg har giort mine Pr&#x00E6;tensions &#x2013; og jeg skal l&#x00E6;re dem, som t&#x00F8;r gi&#x00F8;re Anfordring paa Frue Dormins Hierte, at von Spradenfeldt forstaaer Kaarden ligesaa godt som Galanteriet.</p>
+</sp>
+<sp>
+<speaker><pb n="57"/>Leander</speaker>
+<stage>(s&#x00E6;tter sin Hat paa med Latter.)</stage>
+<p>Kom, min behiertede F&#x00E6;tter! vi vil strax gi&#x00F8;re Pr&#x00F8;ven; du kunde aldrig finde mig bedre opsat.</p>
+</sp>
+<sp>
+<speaker>Spradenfeldt</speaker>
+<stage>(forlegen.)</stage>
+<p>Oh, det har just ingen Hast &#x2013; jeg slaaes ikke gierne, naar jeg har gode Kl&#x00E6;der paa, og desuden er denne Kiol saa trang over Armene.</p>
+</sp>
+<sp>
+<speaker>Meerskum.</speaker>
+<p>Saa tag min Broders, den har du Rum nok at r&#x00F8;re dig i, det veed jeg &#x2013; og slaaes saa med mig, det har du bedre af &#x2013; Leander! maae jeg tage din Absent?</p>
+</sp>
+<sp>
+<speaker>Leander</speaker>
+<stage>(med Foragt.)</stage>
+<p>Oh ja, jeg overlader dig ham.</p>
+</sp>
+<sp>
+<speaker>Spradenfeldt.</speaker>
+<p><emph>Comment, Morbleu</emph> &#x2013; jeg har jo intet udestaaende med Meerskum.</p>
+</sp>
+<sp>
+<speaker>Leander.</speaker>
+<p>Det samme som med mig &#x2013; han frier og til vores Cousine.</p>
+</sp>
+<sp>
+<speaker>Spradenfeldt.</speaker>
+<p>Nu &#x2013; det var snorrig &#x2013; er der ikke fleere &#x2013; vi ere altsaa her tre Rivaler &#x2013;</p>
+</sp>
+<sp>
+<speaker><pb n="58"/>Meerskum.</speaker>
+<p>Den Onde plager jer, at ville v&#x00E6;re mine Rivaler &#x2013; jeg har sagt, at jeg aldrig er Rival med nogen udenfor Seilads, og med dig vil jeg kun slaaes for L&#x00F8;iers Skyld &#x2013; saa kom &#x2013;</p>
+<stage>(han tr&#x00E6;kker Kiolen af og flyer Spradenfeldt.)</stage>
+<p>Der &#x2013; drukne i den &#x2013; jeg slaaes best i Vesten &#x2013; nu frisk &#x2013; Batteriet an &#x2013; st&#x00F8;dt Styrbord &#x2013; eller har du maaskee st&#x00F8;rre Lyst til at baxes, see, det kan jeg og tiene dig med &#x2013;</p>
+<stage>(han st&#x00F8;der til Spradenfeldt, som falder bagl&#x00E6;nds om paa Gulvet.)</stage>
+<p>Ah &#x2013; faldt du &#x2013; st&#x00F8;dte du dig for Hiertet?</p>
+</sp>
+<sp>
+<speaker>Spradenfeldt.</speaker>
+<p>Disse Haand-Geb&#x00E6;rder ere saa ubehagelige &#x2013; nei h&#x00F8;r, mine Venner &#x2013; jeg faaer et andet Indfald &#x2013; vi ere dog alle tre S&#x00F8;dskendeb&#x00F8;rn, og jeg vil ikke smitte mine H&#x00E6;nder med min Families Blod &#x2013; Vi ville vente vores Skiebne fra Frue Dormin selv &#x2013; vi ere her nu alle tre, lad hende v&#x00E6;lge os imellem &#x2013; jeg er vis paa, hun vil ski&#x00F8;nne Fortienesterne.</p>
+</sp>
+<sp>
+<speaker>Meerskum</speaker>
+<stage>(som tr&#x00E6;kker sin Kiol paa igien.)</stage>
+<p>Og saa er jeg vis paa du vinder ligesaa lidet, som ved at slaaes &#x2013; men top, det holdes &#x2013; det er dog hende selv det fornemmelig angaaer, og den af os, som vant hende, havde dog giort en forloren <pb n="59"/>Reise, dersom hun bad ham fortr&#x00E6;kke &#x2013; see, der kommer hun selv &#x2013; ret som hun var kaldet.</p>
+</sp>
+<sp>
+<speaker>Leander.</speaker>
+<p>Ah &#x2013; jeg skielver som en Forbryder, der venter sin Dom.</p>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="2_3">
+<head type="sub">Tredie Scene</head>
+<stage>De Forrige. Frue Dormin. Lise.</stage>
+<stage>(Under denne Scenes L&#x00F8;b afvexler Leander med at lee og v&#x00E6;re alvorlig.)</stage>
+<sp>
+<speaker>Spradenfeldt.</speaker>
+<p>Ah, min smukke Cousine! kom og afv&#x00E6;rg en Ulykke, Blods Udgydelse &#x2013; Mord &#x2013; De seer her tre Hierter, som Deres &#x00D8;ines Straaler have t&#x00E6;ndt i Brand &#x2013; som alle staae i klare Luer &#x2013; br&#x00E6;nde h&#x00E6;ftig &#x2013;</p>
+</sp>
+<sp>
+<speaker>Meerskum.</speaker>
+<p>Sei, hvad vil al den Passiaring sige &#x2013; kort og godt, Cousine! Sagen er denne: jeg har styret Cours herhid i Dag, for at h&#x00F8;re Deres endelige Beslutning, om De vil have mig eller ei, og da jeg ankrer her, finder jeg Leander og denne Finke-Ridder, som begge fort&#x00E6;lle mig, at de og ere fort&#x00F8;iede her, og frie til Dem &#x2013; nu ligge vi <pb n="60"/>her paa Rad alle tre, v&#x00E6;lg nu hvem De vil der skal blive seilklar, for min Provision er nu snart sluppen; jeg kan ikke meget med det Frieras, og hvad det hedder.</p>
+</sp>
+<sp>
+<speaker>Spradenfeldt.</speaker>
+<p>Ja, Cousine! giv een af os &#x00C6;blet; jeg t&#x00F8;r vel smigre mig med, at De ikke bet&#x00E6;nker Dem l&#x00E6;nge paa Valget.</p>
+</sp>
+<sp>
+<speaker>Meerskum.</speaker>
+<p>Jeg smigrer mig aldrig, jeg lapsalver mig heller &#x2013; men de veed, hvad jeg f&#x00F8;r har sagt Dem &#x2013; vil De vove Dem ud med mig paa &#x00C6;gteskabs S&#x00F8;e, troer jeg De skal ikke blive misforn&#x00F8;iet med Skipperen &#x2013; jeg skal holde meget af Dem, naar jeg er i Land; ja, n&#x00E6;st Skib og S&#x00F8;e, skal jeg holde meest af Dem &#x2013; men slaaer De til, saa Bryllup i Dag, for i Morgen skal jeg, om Gud vil, slaaes, og Overmorgen farer jeg ud at krydse igien. Dragen er nu forhudet og i seilbar Stand; vil De seile med, vel, der ere stolte Anstalter, De skal faae mine bedste Koie-Kl&#x00E6;der, og en deilig H&#x00E6;nge-Koie; men vil De blive hiemme, ogsaa det &#x2013; De skal fra min Side have Vind og Str&#x00F8;m med Dem i alle Ting &#x2013;</p>
+</sp>
+<sp>
+<speaker>Frue Dormin.</speaker>
+<p>Deres Tilbud, mine Herrer Cousins, be&#x00E6;rer mig meget &#x2013; men forlad mig, at jeg ikke kan <pb n="61"/>modtage enten den enes eller den andens &#x2013; jeg har ikke i Sinde at forandre min Stand.</p>
+</sp>
+<sp>
+<speaker>Spradenfeldt.</speaker>
+<p>Hvordan, Frue Cousine? en ordentlig Kurv &#x2013; bet&#x00E6;nker De det &#x2013; naa Spradenfeldt &#x2013; det er f&#x00F8;rste Gang &#x2013; ja, man skal fors&#x00F8;ge alting i Verden &#x2013; men jeg vil ikke v&#x00E6;re haard nok til at tage Dem paa Ordet &#x2013; jeg veed det nok &#x2013; Modestien &#x2013; De vil ikke saa i Selskab udlade Dem med, hvad De f&#x00F8;ler &#x2013; Ah &#x2013; jeg veed det nok &#x2013;</p>
+</sp>
+<sp>
+<speaker>Frue Dormin</speaker>
+<stage>(fortrydelig.)</stage>
+<p>De maae vide, hvad De vil, saa forsikkrer jeg Dem, at De er den, jeg allermindst bet&#x00E6;nker mig paa at give Kurven &#x2013;</p>
+</sp>
+<sp>
+<speaker>Meerskum.</speaker>
+<p>Maet &#x2013; den var plat &#x2013; det Compas kan du vel seile efter?</p>
+<stage>(Spradenfeldt fl&#x00F8;iter.)</stage>
+</sp>
+<sp>
+<speaker>Leander.</speaker>
+<p>Elskte Cousine &#x2013; t&#x00F8;r jeg til min Fordeel udtolke den Koldsindighed, De udviser imod mine Medbeilere &#x2013; t&#x00F8;r jeg haabe &#x2013;</p>
+</sp>
+<sp>
+<speaker>Frue Dormin.</speaker>
+<p>De veed, Leander, at jeg har elsket Dem &#x2013; men jeg kan ikke overtale mig til at foreene mig med en Mand, der ikke vil skille sig ved en Feil, <pb n="62"/><!--(OBS st&#x00E5;r 92 i original)-->som med Grund gi&#x00F8;r ham latterlig &#x2013; Deres besynderlige Leen og Gr&#x00E6;den &#x2013;</p>
+</sp>
+<sp>
+<speaker>Meerskum.</speaker>
+<p>Ja, Cousine har Ret, du veed ikke hvordan du selv takler dig med den bandsatte Feil &#x2013; see &#x2013; hvad er der nu at grine af?</p>
+</sp>
+<sp>
+<speaker>Leander.</speaker>
+<p>Og hvem skulde ikke lee af dine Udtryk &#x2013; og den Maade, du har at fremf&#x00F8;re dem paa.</p>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="2_4">
+<head type="sub">Fierde Scene</head>
+<stage>De Forrige. Jens.</stage>
+<sp>
+<speaker>Jens.</speaker>
+<p>En Karl leverede mig dette Brev i Porten, han sagde, det var til Dem, Frue!</p>
+</sp>
+<sp>
+<speaker>Frue Dormin.</speaker>
+<p>Til mig? Og hvor er Karlen?</p>
+</sp>
+<sp>
+<speaker>Jens.</speaker>
+<p>Her er han, at sige Karlen, som Brevet blev leveret til; for den, som leverede det, rendte strax &#x2013; det var et Postbud; han sagde, det var kommet med Posten fra Jylland.</p>
+</sp>
+<sp>
+<speaker><pb n="63"/>Frue Dormin.</speaker>
+<p>Sort Lak &#x2013; jeg er bange det angaaer vores Oncle.</p>
+</sp>
+<sp>
+<speaker>Jens</speaker>
+<stage>(til Lise.)</stage>
+<p>See, hvor lige hun kunde giette det &#x2013; nu vil det bryde l&#x00F8;s.</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>Tys &#x2013; v&#x00E6;r forsigtig.</p>
+</sp>
+<sp>
+<speaker>Frue Dormin</speaker>
+<stage>(efter at have l&#x00E6;st Brevet.)</stage>
+<p>Vores Oncle er d&#x00F8;d &#x2013;</p>
+</sp>
+<sp>
+<speaker>Spradenfeldt.</speaker>
+<p>D&#x00F8;d &#x2013; Ah, det var paa Tiden &#x2013; le bon homme &#x2013; nu vil det give sig, om han har skrabet brav sammen sammen til os.</p>
+</sp>
+<sp>
+<speaker>Leander</speaker>
+<stage>(gr&#x00E6;der.)</stage>
+<p>Hans D&#x00F8;d afpresser mig Taarer, han var dog vores Oncle.</p>
+</sp>
+<sp>
+<speaker>Meerskum.</speaker>
+<p>Men hvad, Skuden var jo saa gammel, at det vel var paa Tiden at den blev ophugget.</p>
+</sp>
+<sp>
+<speaker>Frue Dormin.</speaker>
+<p>Ja, det er ikke alt &#x2013; han efterlader sig et Testamente &#x2013; i Sandhed et besynderligt Testamente &#x2013; Lise! l&#x00E6;s hun Brevet h&#x00F8;it.</p>
+</sp>
+<sp>
+<speaker><pb n="64"/>Jens.</speaker>
+<p>Det kan du best &#x2013; du kiender Indholden.</p>
+</sp>
+<sp>
+<speaker>Lise</speaker>
+<stage>(l&#x00E6;ser.)</stage>
+<quote>
+<p>&#x00AB;Som Forvalter paa Hr. Orgons Gods, og den eeneste Christen Si&#x00E6;l, der ved hans Hensovelse betiente ham, maae jeg efter den salige Herres Befaling lade Fruen vide, at D&#x00F8;den vist S&#x00F8;ndag Aften, ongef&#x00E6;r tre Qvarteer til 7. slog min Herre for Panden, saa han strax faldt om og d&#x00F8;de som en Stud &#x2013; &#x2013;</p>
+</quote>
+</sp>
+<sp>
+<speaker>Spradenfeldt.</speaker>
+<p>Stilen er nydelig &#x2013; man skulde troe en Slagter var Forfatter deraf.</p>
+<stage>(Meerskum leer, og Leander gr&#x00E6;der.)</stage>
+</sp>
+<sp>
+<speaker>Jens</speaker>
+<stage>(afsides.)</stage>
+<p>Det kunde maaskee og nok h&#x00E6;nde sig.</p>
+</sp>
+<sp>
+<speaker>Lise</speaker>
+<stage>(l&#x00E6;ser videre.)</stage>
+<quote>
+<p>Der er fundet et Papiir efter ham, hvori der staaer: At han inds&#x00E6;tter sin Broder-Dotter, Frue Dormin, til sin eneste Arving, men paa de Vilkaar, at hun skal givte sig med een af hendes tre S&#x00F8;dskendeb&#x00F8;rn, Hr. Leander, von Spradenfeldt, eller Capitain Meerskum, hvilken hendes Hu meest staaer til &#x2013; men dersom <pb n="65"/>hun ikke vil det, skal hans Midler af &#x00D8;xen, Stude, Faar, Sviin, Huuse, Jord, L&#x00F8;st og Fast, deeles i tre lige Deele imellem disse omskrevne tre F&#x00E6;ttere, og Fruen v&#x00E6;re arvel&#x00F8;s, og ikke nyde den mindste Skilling &#x2013; &#x2013; Hvortil jeg gratulerer af Hiertet.&#x00BB;
+<lb/>Christen Mikkelsen.
+<lb/>Forvalter paa Godset.</p>
+</quote>
+<stage>(hun leverer Frue Dormin Brevet tilbage.)</stage>
+</sp>
+<sp>
+<speaker>Spradenfeldt.</speaker>
+<p>Den Sal. Mand har dog ikke v&#x00E6;ret saa dum som jeg troede &#x2013; nu vel, Cousine! hvad siger De nu &#x2013; refuserer De endnu von Spradenfeldt? &#x2013; Den Lykke, at have saa gentil en Mand, og den Sal. Oncles Penge med ham? Vi ville s&#x00E6;lge alt, hvad der findes efter ham &#x2013; &#x00D8;xnene, Faarene, Jordegodset, Sviinene, kort: det L&#x00F8;se og det Faste, gi&#x00F8;re det altsammen i Penge, og saa leve i Ki&#x00F8;benhavn comme il faut.</p>
+</sp>
+<sp>
+<speaker>Frue Dormin.</speaker>
+<p>Jeg kan oversee hvad De siger &#x2013; men det skulde smerte mig, om nogen af de andre Herrer kunde troe, at Pengebegierlighed var i nogen Maade istand til at forandre min Beslutning, eller indgive mig andre Tanker, end jeg havde f&#x00F8;r. De behager altsaa at deele Deres Oncles Arv efter Testamentet.</p>
+</sp>
+<sp>
+<speaker><pb n="66"/>Jens</speaker>
+<stage>(til Lise.)</stage>
+<p>Fy, dette tager en splittergal Vending.</p>
+</sp>
+<sp>
+<speaker>Meerskum</speaker>
+<stage>(st&#x00F8;der Jens tilside, som staaer imellem ham og Frue Dormin.)<note type="footnote">Dormin.)] <hi rend="italic">rettet fra:</hi> Dormin. <hi rend="italic">(trykkfeil)</hi></note></stage>
+<p>Sei, du Svampetrykker, stik paa dit Toug og ski&#x00E6;r dig herfra &#x2013; Saa, staae mig ikke til Luart og tag Vinden fra en Orlogsmand, seer du ikke jeg vil snakke &#x2013; <stage>(til Frue Dormin.)</stage> H&#x00F8;r, Cousine, hun har slet ikke<note type="footnote">ikke] <hi rend="italic">rettet fra:</hi> ike <hi rend="italic">(trykkfeil)</hi></note> n&#x00F8;dig at tage mig omborde, naar hun endelig ikke vil &#x2013; og hvad Arven angaaer, saa bryder jeg mig ikke meere derom, end om raadent Kabelgarn og forslidt Anker-Toug &#x2013; Seer hun, jeg har nok at leve af, saal&#x00E6;nge jeg duer til S&#x00F8;en, og siden er jeg ikke v&#x00E6;rd at f&#x00F8;de l&#x00E6;nger, for naar jeg ikke kan fare, duer jeg ikke for en suur Sild &#x2013; Styr frit Cours med hvem hun vil.</p>
+</sp>
+<sp>
+<speaker>Spradenfeldt.</speaker>
+<p>Men, <emph>diantre Cousine</emph>, hvad forlanger De da meere, end en Mand og Penge! <stage>(afsides.)</stage> om de sidste er det mig is&#x00E6;r at gi&#x00F8;re.</p>
+</sp>
+<sp>
+<speaker>Leander</speaker>
+<stage>(leende.)</stage>
+<p>I Sandhed! dette Testamente er latterligt, og min Oncle maae have gaaet i Barndom, da han giorde det, det er langt fra, at jeg i nogen Henseende agter at gi&#x00F8;re mig Fordeel deraf &#x2013; <stage>(alvorlig.)</stage> Men vil De da knuse mit Hierte med <pb n="67"/>evigt Afslag? T&#x00F8;r jeg ikke oftere haabe at bev&#x00E6;ge Dem? Ah &#x2013; Grusomme &#x2013; var det at elske? Kan man v&#x00E6;re uforsonlig imod den, man elsker &#x2013; og kan de v&#x00E6;re haard nok til at d&#x00F8;ve Deres Hiertes Stemme, som dog vist lader sig h&#x00F8;re til min Fordeel &#x2013;</p>
+</sp>
+<sp>
+<speaker>Frue Dormin.</speaker>
+<p>Bebreidelser, Leander, har De ikke Ret at gi&#x00F8;re mig; og taler Hiertet end for Dem, saa taler Eftertanken imod Dem, saal&#x00E6;nge De ikke afl&#x00E6;gger Deres alt for besynderlige Feil.</p>
+</sp>
+<sp>
+<speaker>Jens.</speaker>
+<p>Lise &#x2013; jeg troer jeg gaaer hen og siger, det er L&#x00F8;gn altsammen.</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>Ja, Fusentast &#x2013; saadanne ere altid dine herlige Anslag.</p>
+</sp>
+<sp>
+<speaker>Jens.</speaker>
+<p>Var du da ikke ligesaa meget for det som jeg?</p>
+</sp>
+<sp>
+<speaker>Leander.</speaker>
+<p>Velan da, Cousine &#x2013; jeg skal ikke oftere blive Dem byrdefuld &#x2013; en Elsker, som er til Byrde, bliver snart forhadt, jeg skal skille Dem ved en Person, som er Dem utaalelig &#x2013; men tillad, at jeg i Vidners Overv&#x00E6;relse maae afstaae Dem min Andeel i Testamentet &#x2013; jeg vil ikke paa Deres Bekostning nyde Godt af min Oncles Uretf&#x00E6;rdighed <pb n="68"/>&#x2013; hans urimelige Disposition skal fra min Side ligesaa lidet ber&#x00F8;ve Dem en retm&#x00E6;ssig Arv, som den skal binde Dem til at bortgive Deres Haand &#x2013; <stage>(med Latter.)</stage> Den gode Mand maae have kiendt mig meget lidt, naar han kunde troe, at jeg paa slig en Maade kunde beqvemme mig til at erhverve Midler, eller forskaffe mig en Kone &#x2013; og hvad mig selv angaaer, saa har jeg Midler nok til at kunne skaffe mig en Krog paa Landet langt fra Mennesker, hvor jeg kan philosophere over disse kloge V&#x00E6;sener, som blinde for Deres egne Daarligheder, med Falkesyn opdage hos andre de Feil, de ved en H&#x00E6;ndelse netop ikke have selv &#x2013; og hvor det eneste, jeg vil beklage, er Deres Hiertes Forliis, hvis Besiddelse ene udgiorde S&#x00F8;dheden af mit Liv.</p>
+<stage>(han vil gaae.)</stage>
+</sp>
+<sp>
+<speaker>Jens.</speaker>
+<p>Oh, min stakkels Herre &#x2013; han kommer mig til at gr&#x00E6;de &#x2013; den &#x00C6;delmodighed ventede min Tiener-Forstand sig ikke &#x2013; jeg dumme Di&#x00E6;vel &#x2013; jeg maae give mig selv an &#x2013; Herre! h&#x00F8;r &#x2013;</p>
+</sp>
+<sp>
+<speaker>Frue Dormin</speaker>
+<stage>(som med Bev&#x00E6;gelse har seet efter Leander, der er n&#x00E6;r ved at gaae ud af Skuepladsen.)</stage>
+<p>Bie, Leander &#x2013; De overbeviser mig &#x2013; Deres &#x00C6;delmodighed r&#x00F8;rer mig og overvinder min Beslutning &#x2013; Ah, den var nok desuden kun svag <pb n="69"/>&#x2013; jeg ski&#x00E6;nker Dem min fulde Ki&#x00E6;rlighed igien &#x2013; De fortiener min Haand, jeg giver Dem den her, og skal ikke oftere tage den tilbage.</p>
+</sp>
+<sp>
+<speaker>Jens.</speaker>
+<p>Ha &#x2013; der faldt en Steen fra mit Hierte &#x2013; om hun havde givet mig sin Haand, kunde jeg ikke blevet gladere.</p>
+</sp>
+<sp>
+<speaker>Leander.</speaker>
+<p>De ski&#x00E6;nker mig Livet igien &#x2013; jeg kan aldrig bevidne Dem, hvor stor min Gl&#x00E6;de og Taknemmelighed er &#x2013; Uforlignelige &#x2013; Ah, hvor jeg er lykkelig!</p>
+<stage>(med Taarer.)</stage>
+</sp>
+<sp>
+<speaker>Frue Dormin.</speaker>
+<p>Og dog f&#x00E6;lder De Taarer!</p>
+</sp>
+<sp>
+<speaker>Leander.</speaker>
+<p>Ah, Cousine &#x2013; der ere og Gl&#x00E6;des-Taarer &#x2013; jeg skal str&#x00E6;be at rette min forhadte Feil &#x2013; jeg vil herefter stedse lee, og skulde jeg gr&#x00E6;de, er det ene af Gl&#x00E6;de.</p>
+</sp>
+<sp>
+<speaker>Meerskum.</speaker>
+<p>F&#x00E6;tter Spradebasse, vi to nyde ingen Ting &#x2013; vi ligge her og som t&#x00F8;rre vore Seil efter en Regn.</p>
+</sp>
+<sp>
+<speaker>Spradenfeldt</speaker>
+<stage>(Til Frue Dormin.)</stage>
+<p>De er straffet nok ved at faae Leander &#x2013; jeg skal nu gi&#x00F8;re en Ski&#x00F8;nsommere lykkelig, og saa vil Fortrydelsen komme for sildig.</p>
+</sp>
+<sp>
+<speaker><pb n="70"/>Frue Dormin.</speaker>
+<p>Ja, det kan v&#x00E6;re farligt nok &#x2013; men Leander, vi maae ikke ber&#x00F8;ve vore F&#x00E6;ttere den Andeel, de have Ret at paastaae i Arv efter vores Oncle &#x2013; vi vil deele lovlig &#x2013;</p>
+</sp>
+<sp>
+<speaker>Leander.</speaker>
+<p>De forekommer mig, og min Oncles urimelige Testamente skal vist ikke gi&#x00F8;re mig riig paa mine Medarvingers Bekostning. Deres Haand og Hierte er mig Rigdom nok.</p>
+</sp>
+<sp>
+<speaker>Spradenfeldt.</speaker>
+<p><emph>Ah &#x2013; je m&#x0027;en mocque.</emph> <stage>(afsides.)</stage> Dog, sandt at sige, tager jeg imod min Part.</p>
+</sp>
+<sp>
+<speaker>Meerskum.</speaker>
+<p>Ja, ja, Mand &#x2013; det er vel nok &#x2013; jeg veed du meener, hvad du siger &#x2013; men er det mig Erstatning for Deres Haand, Cousine?</p>
+</sp>
+<sp>
+<speaker>Frue Dormin.</speaker>
+<p>Jeg har aldrig lovet Dem den, saa jeg ikke bedrager Dem, og kan mit Venskab v&#x00E6;re Dem behageligt, saa tilbyder jeg Dem det med Deres &#x00E6;rlige Oprigtighed.</p>
+</sp>
+<sp>
+<speaker>Meerskum.</speaker>
+<p>Venskab &#x2013; ja det er godt til Baglast &#x2013; at n&#x00E6;gte mig Deres Haand, og tilbyde mig Deres Venskab, det er som at tage min Fregatte fra mig, <pb n="71"/>og give mig en P&#x00E6;re-Skude igien &#x2013; dog top &#x2013; jeg tager derimod &#x2013; jeg er ikke den, som h&#x00E6;nger mig, fordi man ikke vil have mig &#x2013; jeg skal end meere af et godt S&#x00F8;emands-Hierte stikke en Pocal ud paa en god Vind for Brudeparret.<note type="footnote">Brudeparret] <hi rend="italic">rettet fra:</hi> Prudeparret <hi rend="italic">(trykkfeil)</hi></note></p>
+</sp>
+<sp>
+<speaker>Leander.</speaker>
+<p>&#x00C6;rlige Ven &#x2013; hvor ki&#x00E6;rt er dit Venskab mig!</p>
+</sp>
+<sp>
+<speaker>Meerskum.</speaker>
+<p>Ja, du har godt for det, du er Flagmand &#x2013;</p>
+</sp>
+<sp>
+<speaker>Jens.</speaker>
+<p>Nu, Jomfrue Lise &#x2013; hvad har hun nu at klage?</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>Det gik bedre, end jeg t&#x00E6;nkte.</p>
+</sp>
+<sp>
+<speaker>Jens.</speaker>
+<p>Ja derfor, naar du har mig med, beh&#x00F8;ver du ikke at t&#x00E6;nke.</p>
+</sp>
+<sp>
+<speaker>Meerskum</speaker>
+<stage>(til Leander, som gr&#x00E6;der.)</stage>
+<p>Hvad? nu en Regn-Bye igien &#x2013; raser du Mand?</p>
+</sp>
+<sp>
+<speaker>Leander.</speaker>
+<p>Jeg kan ikke n&#x00E6;gte, at jeg dog min Oncles uventede D&#x00F8;dsfald gaaer mig n&#x00E6;r.</p>
+</sp>
+<sp>
+<speaker>Meerskum.</speaker>
+<p>For alle Uveir, da veed jeg der gaaer ti Oncler paa een Kone, er det at t&#x00E6;nke paa nu?</p>
+</sp>
+<sp>
+<speaker><pb n="72"/>Leander.</speaker>
+<p>Du har Ret! den yndigste Kones Besiddelse skal og snart forjage den Sorg af mit Bryst.</p>
+</sp>
+<sp>
+<speaker>Jens.</speaker>
+<p>Siden da nu alle Ting tegne til Gl&#x00E6;de her, saa tillad og Deres troe Tiener, Jens, at tage Deel i Brudehuusets Forn&#x00F8;ielse, og lad ikke mig blive den eneste, som gr&#x00E6;der paa denne glade Dag &#x2013; Tienere kan aldrig gi&#x00F8;re bedre, end f&#x00F8;lge deres Herskabs Exempel; og da det nu endelig er kommet saa vidt med Herren og Fruen, at De givte sig, saa tillad Kammerpigen og Jens at f&#x00F8;lge et saa priisv&#x00E6;rdigt Exempel.</p>
+</sp>
+<sp>
+<speaker>Meerskum.</speaker>
+<p>For 100 Travatere &#x2013; hvad &#x2013; du Plynder-Greve, du Svaber-Capitain &#x2013; skulde du l&#x00F8;be af med den ski&#x00F8;nne Pige &#x2013; nei stop &#x2013; hun er for god for saadan en Opl&#x00F8;ber &#x2013; jo, en smuk Person paa en Roerkop &#x2013; f&#x00F8;r maatte jeg forlise alle mine Ankere og see Master og St&#x00E6;nger gaae over Borde &#x2013; h&#x00F8;r, min Putte, f&#x00F8;rend du skulde seile den Bavian i Armene, saa lad mig &#x2013;</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>Den &#x00C6;re var mig for stor &#x2013; og jeg har desuden en uovervindelig Afskye for S&#x00F8;en.</p>
+</sp>
+<sp>
+<speaker>Spradenfeldt.</speaker>
+<p><emph>Ah, Mademoiselle Lisette &#x00E0; de l&#x0027;Esprit</emph> &#x2013; hun pynter Kurven.</p>
+</sp>
+<sp>
+<speaker><pb n="73"/>Meerskum.</speaker>
+<p>Du vil heller have det Murmeldyr, end en stolt S&#x00F8;emand; nu da, saa lad staae til &#x2013; seil din egen Cours &#x2013; men den Onde kn&#x00E6;kke min Stormast, om du er hende v&#x00E6;rd.</p>
+</sp>
+<sp>
+<speaker>Jens.</speaker>
+<p>Det er og nok, naar hun er mig v&#x00E6;rd &#x2013; Herre! t&#x00F8;r jeg erindre om det Forvalterskab.</p>
+</sp>
+<sp>
+<speaker>Leander.</speaker>
+<p>Hvad jeg har lovet, skal jeg holde, endski&#x00F8;nt jeg kunde skylde dig noget &#x2013; men paa denne Dag skal det v&#x00E6;re glemt &#x2013; min Bedste har vel intet imod, at Jomfrue Lise gi&#x00F8;re Hr. Jens lykkelig?</p>
+</sp>
+<sp>
+<speaker>Frue Dormin.</speaker>
+<p>Naar hun selv vil, saa har hun mit Samtykke &#x2013; nu kan jeg ellers begribe, hvorfor hun altid saa ivrig har talet Leanders Sag &#x2013; nu &#x2013; hvad siger hun, Lise?</p>
+</sp>
+<sp>
+<speaker>Jens.</speaker>
+<p>Hun tier og samtykker &#x2013; en Pige trykker sig altid ved, at sige det f&#x00F8;rste Ja &#x2013; men er det eengang sagt, saa gaaer det siden som en Peberqv&#x00E6;rn, ja, ja, ja, ja; ikke sandt, Frue Forvalters?</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>Jeg meener, Hr. Forvalteren kan ikke gi&#x00F8;re sig til af for mange Jaer af mig.</p>
+</sp>
+<sp>
+<speaker><pb n="74"/>Spradenfeldt.</speaker>
+<p><emph>Ah, Mr. Jens est discret</emph>, man taler ikke saa om sine bonnes fortunes, han tier med sin Lykke hos Ki&#x00F8;nnet.</p>
+</sp>
+<sp>
+<speaker>Jens.</speaker>
+<p>Ja, det er og kun, naar man ingen har, at man taler derom.</p>
+</sp>
+<sp>
+<speaker>Meerskum.</speaker>
+<p>Gid du faae Last og Skam, du Hundunge! du har gode Indfald, og har dog ikke faret til Orlogs.</p>
+</sp>
+<sp>
+<speaker>Frue Dormin.</speaker>
+<p>Vil De gi&#x00F8;re mig den &#x00C6;re, at gaae ind til mig, og lade os alle ende denne Dag i f&#x00E6;lleds Venskab og Gl&#x00E6;de?</p>
+</sp>
+<sp>
+<speaker>Spradenfeldt.</speaker>
+<p>Oh ja &#x2013; <emph>je serai de la partie</emph>, jeg skal lee lidt paa Deres<note type="footnote">Deres] <hi rend="italic">rettet fra:</hi> deres <hi rend="italic">(trykkfeil)</hi></note> Bekostning, som har tordet vove at give mig Kurven &#x2013; <stage>(afsides.)</stage> og see at passe, at De<note type="footnote">De] <hi rend="italic">rettet fra:</hi> de <hi rend="italic">(trykkfeil)</hi></note> ikke glemmer Arvens Deeling.</p>
+</sp>
+<sp>
+<speaker>Meerskum.</speaker>
+<p>Og jeg vil stuve Sorgen med Viin, og gaae i V&#x00E6;rk med at l&#x00E6;tte.</p>
+</sp>
+<sp>
+<speaker>Frue Dormin.</speaker>
+<p>Saa giv mig Haanden, Leander &#x2013; vi vil vise dem Veien.</p>
+</sp>
+<sp>
+<speaker><pb n="75"/>Spradenfeldt.</speaker>
+<p>Nei, flye mig den i Dag &#x2013; han kan faae den nok siden &#x2013; lad mig i Dag gi&#x00F8;re <emph>les honeurs &#x2013; apr&#x00E9;s nous Messieurs</emph> &#x2013;</p>
+</sp>
+<sp>
+<speaker>Jens</speaker>
+<stage>(til Lise.)</stage>
+<p>Naar Pr&#x00E6;sten har v&#x00E6;ret her og giort alting klart, saa siger jeg f&#x00F8;rst, at Testamentet var L&#x00F8;gn. &#x2013; Giv mig sin Haand, Jomfrue Liesgen, jeg har fortient den, det veed jeg.</p>
+<stage>(De vil alle gaae ind, da de ved Udgangen af Theatret m&#x00F8;de Hr. Orgon, som kommer ind i Reisekl&#x00E6;der.)</stage>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="2_5">
+<head type="sub">Femte og sidste Scene</head>
+<stage>Frue Dormin. Leander. Spradenfeldt. Meerskum. Orgon. Lise. Jens.</stage>
+<stage>(Orgons uventede Komme volder en almindelig Bestyrtelse: i det han kommer ind, giver Frue Dormin et Skrig og falder besvimet om i en Stol.)</stage>
+<sp>
+<speaker>Leander</speaker>
+<stage>(studser og gaaer nogle Skridt tilbage, men leer strax og siger:)</stage>
+<p>Hvordan! vor Sal. Oncle gaaer igien.</p>
+</sp>
+<sp>
+<speaker>Meerskum</speaker>
+<stage>(staaer og forundret i nogen Frastand fra Orgon, og siger:)</stage>
+<p>Enten er det vor Oncle eller Fanden, der har forhudet sig med hans Planker.</p>
+</sp>
+<sp>
+<speaker><pb n="76"/>Spradenfeldt</speaker>
+<stage>(slipper Frue Dormins Haand det f&#x00F8;rste han bliver ham vaer, og gi&#x00F8;r en lang Kreds omkring ham, for at naae D&#x00F8;ren, raabende:)</stage>
+<p>Det er Fanden, <emph>c&#x0027;est le diable, c&#x0027;est mon Oncle</emph>.</p>
+<stage>(hans Frygt gi&#x00F8;r, at han ikke kan faae D&#x00F8;ren op, han troer den er i Laas, og siger:)</stage>
+<p>Hvilken Ulykke! D&#x00F8;ren er gaaet i Laas.</p>
+<stage>(han fors&#x00F8;ger at komme du af Vinduet, men da han finder det for h&#x00F8;it, har han ingen anden Redning, end at skiule sig bag Frue Dormins Stol.)</stage>
+</sp>
+<sp>
+<speaker>Lise</speaker>
+<stage>(raaber, i det Orgon kommer ind:)</stage>
+<p>Onclen fra Jylland!</p>
+</sp>
+<stage>(Lise og Jens ere rendte hen forrest paa Skuepladsen, og see hinanden l&#x00E6;nge an med taus Forlegenhed.)</stage>
+<stage>(Orgon selv staaer i Midten og gotter sig over den almindelige Forvirrelse &#x2013; der ere nogle &#x00D8;ieblik en stum Scene, som Jens er den f&#x00F8;rste der bryder.)</stage>
+<sp>
+<speaker>Jens.</speaker>
+<p>Aldrig kom nogen Oncle ubeleiligere! Pokker komme efter den gamle Knark, som saaledes falder ned fra Skyerne for at spilde os den heele Leeg!</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>Ja, det er dit V&#x00E6;rk &#x2013; burde du ikke underrettet dig f&#x00F8;rst, om denne Ulykkens Oncle var i Jylland endnu, f&#x00F8;rend vi &#x2013; Ah, jeg maae springe i Flint &#x2013; saadan er du alletider &#x2013; staae vi der ikke ki&#x00F8;nt nu?</p>
+</sp>
+<sp>
+<speaker><pb n="77"/>Jens.</speaker>
+<p>For en Uf&#x00E6;rd! synes du, du staaer ilde, saa s&#x00E6;t dig ned &#x2013; du staaer der jo ikke verre end jeg, det er over mig det fornemmelig vil bryde l&#x00F8;s &#x2013; kunde jeg faae min Ryg og mine Skuldre asseurerede, for der vil nok falde en artig Regn over dem.</p>
+</sp>
+<sp>
+<speaker>Orgon.</speaker>
+<p>Ja, ja, det t&#x00E6;nkte jeg marre nok, B&#x00F8;rnlille! jeg vilde s&#x00E6;tte jer i Forundring, I ventede mig ikke.</p>
+</sp>
+<sp>
+<speaker>Jens</speaker>
+<stage>(for sig selv.)</stage>
+<p>Nei, ligesaa lidet, som vi vente Dommedag.</p>
+</sp>
+<sp>
+<speaker>Orgon.</speaker>
+<p>Jeg seer mit uventede Komme volde Bestyrtelse og Gl&#x00E6;de hos jer alle.</p>
+</sp>
+<sp>
+<speaker>Jens.</speaker>
+<p>Ja, ongef&#x00E6;r den samme Gl&#x00E6;de, som det vilde volde at see sit Gienf&#x00E6;rd.</p>
+</sp>
+<sp>
+<speaker>Orgon.</speaker>
+<p>Min Reise er gaaet ligesaa snart og lykkelig, som den blev hastig besluttet.</p>
+</sp>
+<sp>
+<speaker>Jens.</speaker>
+<p>Oh &#x2013; det havde slet ingen Hast &#x2013; du kunde gierne givet dig Tid.</p>
+</sp>
+<sp>
+<speaker>Orgon.</speaker>
+<p>Det eneste, jeg har at klage over, er de sv&#x00E6;re Bekostninger, som medgaae ved Reiser.</p>
+</sp>
+<sp>
+<speaker><pb n="78"/>Jens.</speaker>
+<p>Ja, just de burde holdet dig ved dit Huus.</p>
+</sp>
+<sp>
+<speaker>Orgon.</speaker>
+<p>Nu B&#x00F8;rn, glem dog jeres Forundring igien, den maae jo dog eengang faae Ende &#x2013; kom, min &#x00E6;rlige Meerskum, kom og lad mig kysse dig &#x2013;</p>
+</sp>
+<sp>
+<speaker>Meerskum.</speaker>
+<p>Nei stop &#x2013; jeg kysser ikke gierne Fanden.</p>
+</sp>
+<sp>
+<speaker>Orgon.</speaker>
+<p>Hvad? Oh ja, paa Munden eller Panden, det skiller eet &#x2013; som du vil &#x2013;</p>
+</sp>
+<sp>
+<speaker>Meerskum.</speaker>
+<p>Leander &#x2013; det er ham selv, han er jo d&#x00F8;v.</p>
+</sp>
+<sp>
+<speaker>Orgon.</speaker>
+<p>Saa kom da du, min Leander, og omfavne din Oncle.</p>
+</sp>
+<sp>
+<speaker>Leander.</speaker>
+<p>Men er dette et Blendv&#x00E6;rk, eller er det Dem selv, jeg seer?</p>
+</sp>
+<sp>
+<speaker>Orgon.</speaker>
+<p>Hvad? jeg taler jo ikke om, at det sneer &#x2013; det kan v&#x00E6;re det samme, nu har jeg Huus over Hovedet.</p>
+</sp>
+<sp>
+<speaker>Leander</speaker>
+<stage>(h&#x00F8;it.)</stage>
+<p>Men, hvordan begriber jeg dette? Var det maaskee for desmeere at overrumple os, at De indbildte os, at De var d&#x00F8;d?</p>
+</sp>
+<sp>
+<speaker><pb n="79"/>Orgon.</speaker>
+<p>Oh &#x2013; det var kun en kort Tid, at jeg var d&#x00F8;v &#x2013; det kom af en Sygdom &#x2013; det er forbi &#x2013; nu h&#x00F8;rer jeg ret godt.</p>
+</sp>
+<sp>
+<speaker>Meerskum</speaker>
+<stage>(endnu h&#x00F8;iere.)</stage>
+<p>Nei, for alle Uveir &#x2013; han sp&#x00F8;rger, hvorfor I indbildte os, at I var d&#x00F8;d, og saa gar havde giort Testamente?</p>
+</sp>
+<sp>
+<speaker>Orgon.</speaker>
+<p>Har I ikke ladet mig hente? Er jeg jer da ikke velkommen?</p>
+</sp>
+<sp>
+<speaker>Leander</speaker>
+<stage>(med Taarer.)</stage>
+<p>Hvad det dog er beklageligt, at mangle een af sine Sandser!</p>
+</sp>
+<sp>
+<speaker>Meerskum.</speaker>
+<p>Nei, ikke selv min Baadsmand kunde skraale saa han kan h&#x00F8;re det; var min Jolle her, skulde jeg lade ham bogsere mig min Raaber hid.</p>
+</sp>
+<sp>
+<speaker>Leander</speaker>
+<stage>(leer.)</stage>
+<p>Du kan faae een hos mig.</p>
+</sp>
+<sp>
+<speaker>Meerskum.</speaker>
+<p>Vel Mand! <stage>(til Jens.)</stage> Sei du, seil ind og hent den.</p>
+</sp>
+<stage>(Jens l&#x00F8;ber ind, og kommer strax ud med en Raaber, som han leverer Meerskum.)</stage>
+<stage>(Under denne Scenes L&#x00F8;b er Lise gaaet hen til Frue Dormin, og hielper hende at komme sig af Besvimelsen, ved at holde lugtende Vand for hende etc. Spradenfeldt har kikket af og til over Stolen; endelig vover han sig frem.)</stage>
+<sp>
+<speaker><pb n="80"/>Spradenfeldt.</speaker>
+<p>Jeg seer det gaaer an at tale med Sp&#x00F8;gelser, endnu er der ingen Ulykke skeet; skulde det v&#x00E6;re min Oncle selv &#x2013; jeg faaer at vove en Dyst &#x2013; Ih, for Pokker, det kan jo ikke gaae mig verre, end de andre &#x2013; frisk Mod, von Spradenfeldt.</p>
+<stage>(han n&#x00E6;rmer sig med megen Forsigtighed, Orgon bliver ham i det samme vaer.)</stage>
+</sp>
+<sp>
+<speaker>Orgon.</speaker>
+<p>Ah, F&#x00E6;tter Spradenfeldt, jeg syntes nok, jeg saae et Glimt af dig f&#x00F8;r &#x2013; det gl&#x00E6;der mig, at finde jer her alle.</p>
+<stage>(han vil omfavne ham.)</stage>
+</sp>
+<sp>
+<speaker>Spradenfeldt</speaker>
+<stage>(gaaer tilbage.)</stage>
+<p>Ah, min ki&#x00E6;re Sal. Oncle &#x2013; <emph>abracadabra</emph> &#x2013;</p>
+</sp>
+<sp>
+<speaker>Orgon.</speaker>
+<p>Hvad? hvor jeg kommer fra &#x2013; ih, fra Jylland &#x2013; fra min Gaard &#x2013; kom og kys mig.</p>
+<stage>(han vil atter omfavne Spradenfeldt, som stikker sig under hans Arm, saa han kommer til at omfavne Jens, der staaer ved siden af Spradenfeldt.)</stage>
+</sp>
+<sp>
+<speaker>Jens.</speaker>
+<p>Nu er jeg ligesaa ilde bestod, som om jeg var i Lucifers Kl&#x00F8;er.</p>
+</sp>
+<sp>
+<speaker>Orgon.</speaker>
+<p>Men B&#x00F8;rn, forklar mig dog dette, hvad er der paa F&#x00E6;rde? Br&#x00E6;nde I Eder paa mig? I vil dog ikke gi&#x00F8;re Nar af jeres gamle Oncle, som kommer fredelig herover fra Jylland, og t&#x00E6;nkte, han skulde gl&#x00E6;de jer med sin Ankomst?</p>
+</sp>
+<sp>
+<speaker><pb n="81"/>Leander.</speaker>
+<p>Men, hvordan kan og dette h&#x00E6;nge sammen?</p>
+</sp>
+<sp>
+<speaker>Meerskum.</speaker>
+<p>Ja, uklart er det, vi ere i en Leiervold &#x2013; det gaaer over min Horizont.</p>
+</sp>
+<sp>
+<speaker>Frue Dormin</speaker>
+<stage>(som lidt efter lidt er kommet sig, til Lise.)</stage>
+<p>Ah, det var et f&#x00E6;lt Syn, jeg syntes, jeg saae min Sal. Oncle livagtig.</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>Ja, vi havde alle det f&#x00E6;le Syn, og have det endnu, for han gaaer iblant os.</p>
+</sp>
+<sp>
+<speaker>Frue Dormin.</speaker>
+<p>Hvordan &#x2013; saae jeg ret, er han da ikke d&#x00F8;d?</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>Jo vist er han &#x2013; det er jo skrevet Fruen til &#x2013; men &#x2013; Folk kan jo gaae igien.</p>
+</sp>
+<sp>
+<speaker>Frue Dormin.</speaker>
+<p>Ja Snak &#x2013; med Sp&#x00F8;gelse-Historier skal du ikke komme til mig &#x2013; her maae v&#x00E6;re Bedragerie i denne Sag &#x2013; jeg mist&#x00E6;nker noget &#x2013; det skal snart erfares &#x2013; ja vist er det min Oncle &#x2013; det er ham selv.</p>
+<stage>(hun staaer op og gaaer hen imod ham.)</stage>
+</sp>
+<sp>
+<speaker>Orgon.</speaker>
+<p>Ah, min ki&#x00E6;re Broder-Dotter, naa, Gud skee Lov! eengang faaer jeg dog et fornuftigt Menneske i Tale &#x2013; alle disse Folk b&#x00E6;re sig ad som de vare galne, og aldrig havde seet en Herremand fra <pb n="82"/>Jylland f&#x00F8;r &#x2013; siig mig &#x2013; seer jeg da saa forunderlig du?</p>
+</sp>
+<sp>
+<speaker>Frue Dormin.</speaker>
+<p>Den Forundring er ganske naturlig, hvori Deres Ankomst s&#x00E6;tter os.</p>
+</sp>
+<sp>
+<speaker>Orgon.</speaker>
+<p>Nei Tak, Broder-Datter! jeg er ikke tr&#x00E6;t &#x2013; jeg vil nok staae.</p>
+</sp>
+<sp>
+<speaker>Meerskum.</speaker>
+<p>Ha, ha, ha! ja, den onde splidde mit Top-Seil &#x2013; er ikke det vor Oncle selv!</p>
+</sp>
+<sp>
+<speaker>Spradenfeldt.</speaker>
+<p>Jeg begynder selv at troe det.</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>Jo, Hr. Jens har bragt os i en ki&#x00F8;n Labyrinth.</p>
+</sp>
+<sp>
+<speaker>Jens.</speaker>
+<p>Tys &#x2013; man maae ikke snakke, hvor det sp&#x00F8;ger.</p>
+</sp>
+<sp>
+<speaker>Meerskum.</speaker>
+<p>Jeg er keed af denne Parsiaring &#x2013; jeg maae have klaret dette. <stage>(i Raaberen.)</stage> Sei, Hr. Oncle, er det paa Skr&#x00F8;mt eller Alvor, at I er d&#x00F8;d?</p>
+</sp>
+<sp>
+<speaker>Orgon.</speaker>
+<p>Hvem? jeg d&#x00F8;d? raser du?</p>
+</sp>
+<sp>
+<speaker>Jens.</speaker>
+<p>Nu tog jeg gierne Penge for min Part.</p>
+</sp>
+<sp>
+<speaker><pb n="83"/>Lise.</speaker>
+<p>Komme vi i nogen Fortred, skal du ene undgielde derfor.</p>
+</sp>
+<sp>
+<speaker>Jens.</speaker>
+<p>Mange Tak &#x2013; det har jeg altid troet.</p>
+</sp>
+<sp>
+<speaker>Frue Dormin</speaker>
+<stage>(h&#x00F8;it til Orgon.)</stage>
+<p>Ja, jeg faaer jo nylig et Brev om Deres D&#x00F8;d fra Deres Forvalter.</p>
+</sp>
+<sp>
+<speaker>Orgon</speaker>
+<stage>(som kan see paa hende, at hun griber sig an for at tale h&#x00F8;it.)</stage>
+<p>Tael ikke saa h&#x00F8;it, jeg kan jo nok h&#x00F8;re &#x2013; ja, ja, Broder-Dotter, jeg tager til Takke med de Anstalter, her ere &#x2013; det er just for at afv&#x00E6;rge, at ingen skulde gi&#x00F8;res, at jeg kommer saa oven paa dem.</p>
+</sp>
+<sp>
+<speaker>Frue Dormin.</speaker>
+<p>Nei, det er fortr&#x00E6;deligt, han h&#x00F8;rer aldrig ret, jeg kan ikke skrige h&#x00F8;it nok til at blive forstaaet af ham.</p>
+</sp>
+<sp>
+<speaker>Meerskum.</speaker>
+<p>Da kan jeg &#x2013; <stage>(i Raaberen.)</stage> Cousine sp&#x00F8;rger, hvorfor I har ladet Eders Forvalter skrive, at I var gaaet til Grunde, og havde giort Testamente?</p>
+</sp>
+<sp>
+<speaker>Orgon.</speaker>
+<p>Har jeg ladet saadant skrive &#x2013; ere I da alle af Lave, eller vil I gi&#x00F8;re mig gal &#x2013; jeg har jo aldrig havt nogen Forvalter &#x2013; jeg kommer herover fra Jylland for en Proces, som jeg har for <pb n="84"/>H&#x00F8;ieste-Ret, og som jeg agter at f&#x00F8;re selv, for de Procuratores ere saa dyre, og snakke ikke saa meget om Sagen, som jeg kan snakke selv &#x2013; og jeg indbildte mig, at jeg kunde v&#x00E6;re frit hos min Broder-Dotter,<note type="footnote">Broder-Dotter] <hi rend="italic">rettet fra:</hi> Brodotter <hi rend="italic">(trykkfeil)</hi></note> eller een af jer andre, i den Tid, for den Reise koster nok alligevel &#x2013; t&#x00E6;nk engang, det koster allene 28 Skilling at gaae over fra Nyborg til Cors&#x00F8;er, for en ledig Person; thi min Bagage har jeg i Lommen &#x2013; hvad vilde der ikke gaae med, om jeg skulde betale mit Ophold i Ki&#x00F8;benhavn.</p>
+</sp>
+<sp>
+<speaker>Meerskum</speaker>
+<stage>(alt i Raaberen.)</stage>
+<p>Kommer da det Brev, som vi have faaet, fra Lucifer?</p>
+</sp>
+<sp>
+<speaker>Orgon.</speaker>
+<p>Hvad for et Brev &#x2013; jeg veed ikke, hvad I vil sige &#x2013;</p>
+</sp>
+<sp>
+<speaker>Meerskum.</speaker>
+<p>Flye mig det, Cousine &#x2013; jeg m&#x00E6;rker nok, jeg maae v&#x00E6;re Tolk her, siden ingen kan spille paa denne Fl&#x00F8;ite uden jeg &#x2013; Sei, Hr. Oncle, see der, l&#x00E6;s selv.</p>
+</sp>
+<sp>
+<speaker>Orgon</speaker>
+<stage>(efter at han har l&#x00E6;st Brevet.)</stage>
+<p>O, mine ki&#x00E6;re Penge, mine ki&#x00E6;re Penge! som jeg saa m&#x00F8;isommelig har skrabet sammen, det sp&#x00F8;ger for jer &#x2013; vidste jeg, hvilken en Skielm der har drevet Spot med jer &#x2013; for en Skielm er det <pb n="85"/>&#x2013; jeg har aldrig havt nogen Forvalter, de ere Tyve i et Huus, jeg forvalter selv alle Ting og giemmer alle mine N&#x00F8;gler selv &#x2013; Brevet har jeg hverken skrevet eller ladet skrive, og denne Christen Mikkelsen kiender jeg ikke &#x2013; At jeg er ikke d&#x00F8;d, det kan I see &#x2013; og hvor skulde jeg falde paa, at gi&#x00F8;re et saa naragtigt Testamente &#x2013; man har narret jer, B&#x00F8;rnlille! ja men har man saa.</p>
+</sp>
+<sp>
+<speaker>Meerskum.</speaker>
+<p>Naa, jeg bander n&#x00F8;dig, men den Onde splitte mine Touge og splindre min St&#x00E6;nger, havde jeg den Coffardi-Mand sat, der har spillet os den Str&#x00E6;g, skulde han ikke surres til Canonen, og have saa di&#x00E6;rv en Lussing, som Arm kan give!</p>
+</sp>
+<sp>
+<speaker>Jens</speaker>
+<stage>(afsides.)</stage>
+<p>Tusend Tak!</p>
+</sp>
+<sp>
+<speaker>Spradenfeldt.</speaker>
+<p>Jeg t&#x00E6;nkte nok, det latterlige Testamente var galt, jeg var jo ikke Hoved-Arving!</p>
+</sp>
+<sp>
+<speaker>Leander.</speaker>
+<p>Det er skammeligt, saaledes at torde spille Gi&#x00E6;k med brave Folk &#x2013; en saadan Ondskab afpresser mig billige Taarer!</p>
+</sp>
+<sp>
+<speaker>Jens.</speaker>
+<p>Alle disse Skyer tr&#x00E6;kke op til Uveir for min Ryg!</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>Ulykkens Fugl! hvad har du giort?</p>
+</sp>
+<sp>
+<speaker>Jens.</speaker>
+<p>Testamente &#x2013;</p>
+</sp>
+<sp>
+<speaker><pb n="86"/>Frue Dormin.</speaker>
+<p>Leander &#x2013; hvem skal jeg mist&#x00E6;nke for dette, uden Dem &#x2013;</p>
+</sp>
+<sp>
+<speaker>Leander</speaker>
+<stage>(leer.)</stage>
+<p>Mig, Cousine?</p>
+</sp>
+<sp>
+<speaker>Frue Dormin.</speaker>
+<p>Ja Dem &#x2013; lee kun af den smukke Opfindelse! De vilde bedraget mig ved en saa slet sammensat List, og n&#x00E6;r var jeg bleven et Offer for min Godtroenhed &#x2013; gaae, Utaknemmelige! De er den Ki&#x00E6;rlighed uv&#x00E6;rdig, jeg har baaret for Dem; jeg vil skamme mig ved at have kunnet v&#x00E6;re svag nok til at elske et Menneske, der besad en saadan T&#x00E6;nkemaade &#x2013; min Haand skulde bel&#x00F8;nnet et Puds &#x2013; og hvilket Puds &#x2013; et falsk Testamente; en Handel som kun en Skielm burde kunnet befatte sig med! Uv&#x00E6;rdige, kom aldrig meere for mine &#x00D8;ine, men slaae dine ned af Skam over den foragteligste Handling!</p>
+</sp>
+<sp>
+<speaker>Spradenfeldt.</speaker>
+<p><emph>Brava Donna brava!</emph> en ypperlig Declamation! ski&#x00F8;nt! fortr&#x00E6;ffeligt! det var just Tonen og Ansigtet &#x2013;</p>
+</sp>
+<sp>
+<speaker>Jens.</speaker>
+<p>Farvel Forvalterskab &#x2013;</p>
+</sp>
+<sp>
+<speaker>Meerskum</speaker>
+<stage>(til Leander, som staaer og grunder.)</stage>
+<p>Kammerat! du er i Bekneeb &#x2013; det var en Di&#x00E6;vels Misviisning; kan du prange den Leger fra dig, saa er du min Mester.</p>
+</sp>
+<sp>
+<speaker><pb n="87"/>Leander</speaker>
+<stage>(med H&#x00F8;ihed.)</stage>
+<p>Det er forn&#x00E6;rmeligt, at De kan mist&#x00E6;nke mig for et saa nedrigt Puds &#x2013; Ja, Cousine! jeg vil selv frasige mig Deres Haand, om det er Deres Alvor, at De troer mig istand til denne Str&#x00E6;g &#x2013; <stage>(leer.)</stage> Dog, det er alt for l&#x00F8;ierligt, jeg skulde gi&#x00F8;re falske Testamenter! Jeg vil tilstaae Dem, at jeg har bedet Lise og Jens ophitte noget til min Redning hos Dem, give mig et Raad, da jeg i min Fortvivlelse ikke selv kunde finde noget Middel, og dette er noget af det daarligste, jeg har giort min Livstid &#x2013; men en uheldig Elsker griber villig selv det Ubetydeligste, som kan n&#x00E6;re det Glimt af Haab, der er hans Livs Tr&#x00F8;st &#x2013; men de skal selv bekiende, at jeg forb&#x00F8;d dem, ikke at gi&#x00F8;re nogen Plan, som streed imod Redelighed og den &#x00C6;rb&#x00F8;dighed, jeg skylder Dem, og begge svarede mig, at de vidste intet Raad &#x2013; men jeg har denne Skurk mist&#x00E6;nkt &#x2013; det er af hans s&#x00E6;dvanlige Mesterstykker &#x2013; det var og ham, som bragte Brevet &#x2013; Siig strax, Elendige! er du Fader til dette ski&#x00F8;nne Paafund &#x2013; bekiend, eller jeg &#x2013;</p>
+<stage>(tr&#x00E6;kker Kaarden.)</stage>
+</sp>
+<sp>
+<speaker>Meerskum</speaker>
+<stage>(holder ham tilbage.)</stage>
+<p>Sei &#x2013; du seiler jo til med en stiv Merseils Kuling &#x2013; lad ham dog faae Tid at l&#x00E6;se Fader vor.</p>
+</sp>
+<sp>
+<speaker>Leander.</speaker>
+<p>Slip mig &#x2013; vil du tilstaae &#x2013;</p>
+</sp>
+<sp>
+<speaker><pb n="88"/>Jens.</speaker>
+<p>Der staaer Lise &#x2013; lad hende svare &#x2013; hun veed det ligesaa godt som jeg.</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>Hvad veed jeg &#x2013; er det ikke dig &#x2013;</p>
+</sp>
+<sp>
+<speaker>Leander.</speaker>
+<p>Naa &#x2013; faae vi noget &#x2013; bekiend, eller d&#x00F8;e &#x2013;</p>
+</sp>
+<sp>
+<speaker>Jens.</speaker>
+<p>Au &#x2013; oh, strax, Herre &#x2013; Lise &#x2013; tael du &#x2013;</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>Tael selv &#x2013; du kan best &#x2013;</p>
+</sp>
+<sp>
+<speaker>Jens.</speaker>
+<p>Nu vel &#x2013; saa forvar da denne Kaarde &#x2013; jeg kan aldrig snakke, saa l&#x00E6;nge jeg lugter Staal &#x2013; Ja, Frue &#x2013; det er da mig, som, for at gi&#x00F8;re en Ende paa min Herres og Deres evige Frierie, og for selv at komme i Besiddelse af den lys&#x00F8;iede Glur, der staaer, og et vist Forvalterskab tillige, har forfattet dette Testamente, som jeg troede skulde befordret &#x00C6;gteskabet, da jeg d&#x00F8;mte om Deres Ki&#x00E6;rlighed til Penge af det Indtryk, de gi&#x00F8;re paa mig selv, og desuden nok vidste, at De havde meest Godhed for min Herre &#x2013; jeg vilde tilstaae Dem, at det var L&#x00F8;gn, naar jeg havde faaet Herren og Fruen vel givtede, og den f&#x00F8;rste Bryllups-Nat var forbi, for saa troede jeg nok, De ville tilgive mig det &#x2013; men denne Sag viser, hvad Mennesket og Menneskets Paafund ere &#x2013; det <pb n="89"/>gaaer mig som alle Projectmagere &#x2013; man d&#x00F8;mmer om dem efter H&#x00E6;ndelsen og Udfaldet &#x2013; var mit Forslag lykket, saa havde ingen v&#x00E6;ret forn&#x00E6;rmet, og jeg blevet en stor Mand; men nu det gik rabuntus, saa er jeg en Esel, som jeg var f&#x00F8;r &#x2013; og kan alt dette ikke undskylde mig, saa staaer min Undskyldning der <stage>(peger paa Lise.)</stage> hun kan nok dreie Hovedet paa en &#x00E6;rlig Karl.</p>
+</sp>
+<sp>
+<speaker>Spradenfeldt.</speaker>
+<p>Oh, Msr. Jens kan gi&#x00F8;re Testamenter &#x2013; <emph>oh l&#x0027;habile homme</emph> &#x2013; i Sandhed, dine Fortienester burde oph&#x00F8;ies, saa alle kunde see dem.</p>
+</sp>
+<sp>
+<speaker>Frue Dormin.</speaker>
+<p>Og hun og, Jomfrue Lise! jeg t&#x00E6;nkte, man skyldede sit Herskab meere &#x00C6;rb&#x00F8;dighed &#x2013;</p>
+</sp>
+<sp>
+<speaker>Meerskum.</speaker>
+<p>Ja, h&#x00F8;r nu, godt Folk! nu ere vi varpet af Grund, og komne til at flyde igien, lad nu alle Ting v&#x00E6;re godt, jeg beder for Kn&#x00E6;gten, han har ikke meent det saa ilde, og vil De ikke tage ham til Raade, saa kan du blive Koksmat omborde hos mig &#x2013; naa, lad os nu begynde, hvor vi slap, jeg veed dog, det vil falde ud dertil alligevel, saa kom hid &#x2013;</p>
+<stage>(Han tager Leanders og Frue Dormins H&#x00E6;nder, og l&#x00E6;gger dem i hinanden med en Dask.)</stage>
+<p>Lad nu alle Ting v&#x00E6;re vel, og lad os eengang faae smuult Vand efter Stormveir.</p>
+</sp>
+<sp>
+<speaker><pb n="90"/>Frue Dormin.</speaker>
+<p>Ja, siden Leander ingen Deel har deri, forlader jeg gierne en List, som har l&#x00E6;rt mig at kiende hans gode Hierte.</p>
+</sp>
+<sp>
+<speaker>Leander.</speaker>
+<p>Og skulde jeg kunne v&#x00E6;re vred for et Indfald, som, hvor uoverlagt det end er, dog forsikkrer mig min elskte Cousines Haand &#x2013;</p>
+</sp>
+<sp>
+<speaker>Frue Dormin.</speaker>
+<p>Jeg skylder dem den, som en Giengieldelse for den Uret, min Mistanke giorde Dem.</p>
+</sp>
+<sp>
+<speaker>Leander</speaker>
+<stage>(med Taarer.)</stage>
+<p>Ja, den Mistanke smerter mig endnu; men jeg vidste vel, at den ikke var grundet, igiennem alle de Vendinger, vores Sag har taget, var Deres Hierte dog for mig &#x2013; men tag nu ikke oftere denne Haand tilbage &#x2013;</p>
+</sp>
+<sp>
+<speaker>Frue Dormin.</speaker>
+<p>Nei, den skal blive Deres.</p>
+</sp>
+<sp>
+<speaker>Spradenfeldt.</speaker>
+<p><emph>Ah &#x2013; que ca est doux</emph> &#x2013; lad os faae det sat paa Noder.</p>
+</sp>
+<sp>
+<speaker>Frue Dormin.</speaker>
+<p>Vi fattes nu intet, uden min Oncles Samtykke, siden han er tilstede. &#x2013; <stage>(til Jens.)</stage> Men han forlader vel neppe dig, at have besottet hans Penge og l&#x00F8;iet ham d&#x00F8;d.</p>
+</sp>
+<sp>
+<speaker><pb n="91"/>Jens.</speaker>
+<p>Den verste Steen er lettet, siden Herren og Fruen have tilgivet mig, og ere komne til fast Accord, hvortil jeg ydmygst gratulerer. Jens Mikkelsen, Forvalter paa Godset.</p>
+</sp>
+<sp>
+<speaker>Meerskum.</speaker>
+<p>I see alle paa mig &#x2013; det betyder vel saa meget, som at jeg maae til at praje ham igien &#x2013; <stage>(i Raaberen.)</stage> Saa, Hr. Oncle! nu er den Urede klaret &#x2013; det kom fra den Bavian, der staaer &#x2013; Sagen er &#x2013; Leander elsker sin Cousine, og hun ham igien; men ved det, at han saa tit er l&#x00E6;k, var hun bange for at gaae omborde hos ham, og for at faae hende desto snarere paa Faldreebs-Trappen, har Jens, som har havt Lise og et Forvalterskab i Udkik ved den Leilighed, smeddet dette Brev f&#x00E6;rdig &#x2013; See, nu kan I vel see Land? nu kommer det an paa jer, hvad I vil gi&#x00F8;re ved Testamentet, og om I vil tillade, at Leander og hans Ki&#x00E6;reste heiser &#x00C6;gteskabs Flag?</p>
+</sp>
+<sp>
+<speaker>Orgon</speaker>
+<stage>(til Jens.)</stage>
+<p>Din Gadestryger! Hvem giver dig Lov til at drive Spot med en &#x00E6;rlig Mand og hans Penge &#x2013; giorde jeg din Ret &#x2013; saa &#x2013; men jeg har alt een Proces paa Halsen, den bryder mig nok, og vel er det, vi kom ud af den Forvirrelse.</p>
+</sp>
+<sp>
+<speaker><pb n="92"/>Jens.</speaker>
+<p>Det var det, man paa Latin kalder K&#x00F8;rivendum, det begyndte alt at lue mig om &#x00D8;rene.</p>
+</sp>
+<sp>
+<speaker>Orgon.</speaker>
+<p>Nu, B&#x00F8;rn &#x2013; nu kan jeg begribe jer heele Adf&#x00E6;rd &#x2013; h&#x00F8;r nu da, jeg samtykker gierne, at I givte jer &#x2013; I veed, jeg har altid &#x00F8;nsket, at I to vilde tage hinanden &#x2013; jeg har endog t&#x00E6;nkt, ved mit Ophold iblant jer at faae den Sag i Rigtighed, og med det samme deele mine Midler iblant jer alle Fire, endnu i mit levende Live, saa hindrer det alle Tvistigheder &#x2013; forstaae mig nu, jeg holder marre meget af jer allesammen, men sandt at sige, holder jeg meer af mine Penge, seer I, derfor giver jeg jer ingen af dem i H&#x00E6;nde saa l&#x00E6;nge jeg lever, men naar jeg er d&#x00F8;d, faaer det v&#x00E6;re mig ligemeget, hvor de ere, og saa ere de jer vel undte.</p>
+</sp>
+<sp>
+<speaker>Frue Dormin.</speaker>
+<p>Dermed er jeg for min Deel meget forn&#x00F8;iet &#x2013; det er os kun om Deres Samtykke at gi&#x00F8;re.</p>
+</sp>
+<sp>
+<speaker>Orgon.</speaker>
+<p>Hvad?</p>
+</sp>
+<sp>
+<speaker>Meerskum</speaker>
+<stage>(i Raaberen.)</stage>
+<p>Vi sige alle, det er vel.</p>
+</sp>
+<sp>
+<speaker><pb n="93"/>Spradenfeldt.</speaker>
+<p>Det har jeg ikke sagt endnu.</p>
+</sp>
+<sp>
+<speaker>Jens.</speaker>
+<p>Da har jeg alt l&#x00E6;nge sagt det.</p>
+</sp>
+<sp>
+<speaker>Lise.</speaker>
+<p>Ja, vi kan sige efter Ordsproget: Ilde gik det, og vel var det.</p>
+</sp>
+<sp>
+<speaker>Orgon.</speaker>
+<p>Ja, h&#x00F8;r nu, saa vil jeg da med det samme jeg er iblant Eder, beskikke mit Huus, og bringe mine Sager i Rigtighed &#x2013; jeg har altid elsket Orden, og vil derfor see at vedligeholde den, endog efter min D&#x00F8;d &#x2013; Leander og hans Brud vil jeg testamentere, forstaae naar jeg er d&#x00F8;d, 40,000 Rdlr. og dig, Meerskum, og dig, Spradenfeldt, hver 20,000 Rdlr. at sige, og naar jeg er d&#x00F8;d, ikke f&#x00F8;r &#x2013; det er alt det, jeg eier &#x2013; saa er det deelt ki&#x00F8;nt lige imellem jer, og saa skeer ingen for n&#x00E6;r.</p>
+</sp>
+<sp>
+<speaker>Jens.</speaker>
+<p>Det har dog en anden Art, naar en Mand selv gi&#x00F8;r sit Testamente.</p>
+</sp>
+<sp>
+<speaker>Spradenfeldt.</speaker>
+<p><emph>Serviteur Mr. mon Oncle</emph>, bare han ikke vil leve for l&#x00E6;nge.</p>
+</sp>
+<sp>
+<speaker><pb n="94"/>Orgon.</speaker>
+<p>Mange Penge &#x2013; ja, ja, det er mig ki&#x00E6;rt, I ere forn&#x00F8;iede.</p>
+</sp>
+<sp>
+<speaker>Meerskum</speaker>
+<stage>(ryster ham i Haanden.)</stage>
+<p>Tak, Mand, for min Part, det er godt, naar jeg bliver for gammel til S&#x00F8;en, og maae sidde hiemme at r&#x00F8;ge Knaster og tale om mine Kryds-Toge.</p>
+</sp>
+<sp>
+<speaker>Frue Dormin.</speaker>
+<p>Tillad mig, at bevidne Dem min Taknemmelighed &#x2013; Deres Godhed overgaaer langt min Forventning.</p>
+</sp>
+<sp>
+<speaker>Leander</speaker>
+<stage>(omfavner ham.)</stage>
+<p>Deres Godhed r&#x00F8;rer mig paa det &#x00F8;mmeste, jeg er det lykkeligste Menneske &#x2013;</p>
+</sp>
+<sp>
+<speaker>Orgon.</speaker>
+<p>Ja, nu vil I kysse mig &#x2013; men h&#x00F8;r &#x2013; det er med den Betingelse, at I lade mig v&#x00E6;re frit hos Eder, saa l&#x00E6;nge jeg har at bestille i Ki&#x00F8;benhavn, og bekoster min Reise hiem til Jylland.</p>
+</sp>
+<sp>
+<speaker>Leander.</speaker>
+<p>Det vil v&#x00E6;re os en Forn&#x00F8;ielse, at have vor Oncle hos os, saa l&#x00E6;nge De vil be&#x00E6;re vort Huus med Deres N&#x00E6;rv&#x00E6;relse.</p>
+</sp>
+<sp>
+<speaker>Orgon.</speaker>
+<p>Ja, I kan give mig, hvad V&#x00E6;relse I ville, det er mig det samme.</p>
+</sp>
+<sp>
+<speaker><pb n="95"/>Meerskum.</speaker>
+<p>Naa, saa fattes vi jo nu kun en Pr&#x00E6;st til disse to gode Venner, for at faae dem spidset sammen.</p>
+</sp>
+<sp>
+<speaker>Spradenfeldt.</speaker>
+<p>Ja &#x2013; og en Notarius, for Testamentets Skyld.</p>
+</sp>
+<sp>
+<speaker>Jens.</speaker>
+<p>Pr&#x00E6;sten vil nok strax komme, han er bestilt siden i Morges, og her boer en Notarius strax ved.</p>
+</sp>
+<sp>
+<speaker>Frue Dormin.</speaker>
+<p>Hvor De har v&#x00E6;ret tidlig paa F&#x00E6;rde, Leander.</p>
+</sp>
+<sp>
+<speaker>Leander.</speaker>
+<p>Ah &#x2013; kunde jeg haste for meget, naar det gielde om, at besidde Dem.</p>
+</sp>
+<sp>
+<speaker>Orgon.</speaker>
+<p>Hvad er det, De sige?</p>
+</sp>
+<sp>
+<speaker>Meerskum</speaker>
+<stage>(i Raaberen.)</stage>
+<p>De sige, at vi nu kun fattes en Pr&#x00E6;st og en Notarius, for at faa alting kant og klar.</p>
+</sp>
+<sp>
+<speaker>Orgon.</speaker>
+<p>Ja &#x2013; men I skal selv betale begge Forretningerne.</p>
+</sp>
+<sp>
+<speaker>Leander</speaker>
+<stage>(med Taarer.)</stage>
+<p>Hvad dog Gierrighed er en slem Last &#x2013; den form&#x00F8;rker alle vor Oncles gode Egenskaber.</p>
+</sp>
+<sp>
+<speaker>Meerskum.</speaker>
+<p>Saa, s&#x00F8;rger du nu for det &#x2013; nu da, lad os gaae ind og faae en Ende paa Sagen &#x2013; jeg l&#x00E6;nges nu ret efter, at fort&#x00F8;ies ved et godt Bord, den megen <pb n="96"/>Skrigen har giort<note type="footnote">giort] <hi rend="italic">rettet fra:</hi> gi&#x00F8;rt <hi rend="italic">(trykkfeil)</hi></note> mig ganske t&#x00F8;r i Halsen &#x2013; saa, Chalouppen i Land &#x2013; <stage>(til Orgon.)</stage> Vil I varpe jer ind efter mig &#x2013; men for alle Ting hold t&#x00E6;t ved Bordet, Leander, for jeg vil ingen Fl&#x00E6;ben vide af, naar jeg skaffer.</p>
+</sp>
+<sp>
+<speaker>Leander</speaker>
+<stage>(som aft&#x00F8;rrer sine Taarer.)</stage>
+<p>Kan du tvivle om, at jeg i Dag vil v&#x00E6;re glad?</p>
+</sp>
+<sp>
+<speaker>Jens.</speaker>
+<p>Sv&#x00E6;r ikke, Herre! uden i det h&#x00F8;ieste for hver andet Qvarteer. <stage>(til Tilskuerne.)</stage> Jeg for min Deel veed kun et eneste Tilf&#x00E6;lde, som i Dag kunde komme mig til at gr&#x00E6;de, det er: om De, mine Herrer! ikke lee.</p>
+</sp>
+<stage><p rend="center">Ende.</p></stage>
+</div>
+</div>
+</body>
+</text>
+</TEI>

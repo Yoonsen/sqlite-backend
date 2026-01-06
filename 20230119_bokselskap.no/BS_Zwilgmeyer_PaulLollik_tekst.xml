@@ -1,0 +1,1232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI PUBLIC "-// TEI P5 //EN" "http://www.tei-c.org/release/xml/tei/custom/schema/dtd/tei_all.dtd">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="BS_Zwilgmeyer_PaulLollik">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>bokselskap.no, Oslo 2022
+<lb/>Dikken Zwilgmeyer: <hi rend="italic">Paul og Lollik</hi>
+<lb/>Teksten i bokselskap.no f&#x00F8;lger 1. utgave, 1904 (Kristiania/Aschehoug). Digitaliseringen er basert p&#x00E5; fil mottatt fra Nasjonalbiblioteket (nb.no)
+<lb/>ISBN: 978-82-8319-648-1 (bokselskap.no), <lb/>978-82-8319-649-8 (epub), 978-82-8319-650-4 (mobi)
+</title>
+</titleStmt>
+<publicationStmt><p>Publiseres som digital tekst av bokselskap.no.</p></publicationStmt>
+<sourceDesc>
+    <bibl facs="https://urn.nb.no/URN:NBN:no-nb_digibok_2012032024042" rend="antikva">
+<title>Paul og Lollik</title>
+<author>Dikken Zwilgmeyer</author>
+<publisher>Aschehoug</publisher>
+<pubPlace>Kristiania</pubPlace>
+<date>1904</date>
+<note>digibok_2012032024042_ocr_xml.txt (mottatt fra Nasjonalbiblioteket 2021)</note>
+</bibl>
+</sourceDesc>
+</fileDesc>
+<revisionDesc>
+<change who="ENW" when="2022-02-01">Lagt inn illustrasjon. Klar for publisering.</change>
+<change who="ENW" when="2022-01-14">Lagt inn korrekturrettelser. Lagt inn ISBN. Entiteter, kodekontroll og validering.</change>
+<change xml:id="ENW" who="ENW" when="2021-06-09">XML-koding. Validering. Klar for korrektur.</change>
+</revisionDesc>
+</teiHeader>
+<text xml:id="BS_Zwilgmeyer_PaulLollik_tekst" type="novel">
+<front>
+<titlePage type="main">
+<byline><docAuthor>Dikken Zwilgmeyer</docAuthor></byline>
+<docTitle>
+<titlePart type="main">Paul og Lollik</titlePart>
+<titlePart type="sub">En ungdomshistorie</titlePart>
+</docTitle>
+<docDate>bokselskap.no<lb/>Oslo 2022</docDate>
+</titlePage>
+</front>
+<body>
+<div type="chapter" subtype="illustration">
+<p rend="center"><figure><graphic url="Omslag_1utg.jpg"/></figure><lb/>Omslag, 1. utgave, 1904.</p>
+</div> 
+<div type="chapter" n="1">
+<head type="main">PAUL</head>
+<p rend="noIndent"><pb n="3"/>Isch for et veir! Taage og s&#x00F8;le, kanske lidt sneslaps med lange bl&#x00F8;de snefiller, og saa taage og s&#x00F8;le igjen, og fint &#x00E6;kkelt duschregn, som aldrig holdt op og ligesom aldrig begyndte heller. Det gik i en suppedas altsammen. Dampskibene laa og ulte udenfor i taagen, nogen havde lange ul og nogen korte, forsinket var de allesammen, saa det ikke var nogen moro at gaa paa dampskibsbryggen heller og staa der og vente og vente. S&#x00F8;ndenvinden stod ude i fjorden og trykkede paa, sagde gamle folk &#x2013; nu kunde den sandelig have trykket fra sig snart.</p>
+<p>For nu havde dette filleveiret varet i tre uger akkurat. &#x2013;</p>
+<p>Der var nogen, som havde snakket om sk&#x00F8;iteis paa skolen idag. Sk&#x00F8;iteis! At der nok kom sk&#x00F8;iteis f&#x00F8;r jul oppe paa Jern&#x00E6;svandet! Jam&#x00E6;nd sagde jeg sm&#x00F8;r, jeg.</p>
+<p><pb n="4"/>Paul Borch sparkede til en sten, saa den sprat bortover i s&#x00F8;len. Syv uger til jul akkurat idag &#x2013; kunde der komme nogen is ud af sligt silregn da!</p>
+<p>Den lange veien, han havde at gaa hjem fra byen ogsaa i sligt hundeveir, mange gange om dagen. Den evig lange bakken og saa bortover her, hvor der var saa s&#x00F8;let, at en mange gange maatte studere paa, hvor en skulde s&#x00E6;tte foden, og l&#x00F8;b en for at komme fort frem, saa var det bare klask i klask. &#x2013;</p>
+<p>Han pleiede at l&#x00F8;be inde paa jordet ved siden af veien; de stive, gule gr&#x00E6;sstraaene i gr&#x00F8;ftekanten hang dyngfulde af vanddraaber, men det var da rensligt, det. Men saa havde en alle tr&#x00E6;rne i Mortensens have over sig der, som det dryppede og rendte af, om der saa tilf&#x00E6;ldigvis blev et lidet gl&#x00F8;t i silregnet. &#x2013;</p>
+<p>&#x2013; Og nu vilde de, han skulde gaa paa den fille danseskolen ogsaa!</p>
+<p>Inderst inde var det det med danseskolen, som var det leie. Det stakkars veiret kunde v&#x00E6;re, som det vilde, for ham. Det kunde gjerne regne mursten ned for ham, om det havde lyst. Og s&#x00F8;len her opover &#x2013; skidt i den!</p>
+<p>Og stenene klaskede i s&#x00F8;len og sprat igjen bortover, slig sp&#x00E6;ndte han til dem.</p>
+<p>Det var ikke maade heller paa alt det, <pb n="5"/>tante Lena fandt paa. Maatte han ikke sidde og spille paa det &#x00E6;kle pianoet en hel halv time hver dag kanske, trykke og trykke paa de fille tangenterne. Han trykkede rigtignok lidt faderlig haardt ogsaa, saa der i forrige uge sprang to strenge, men det var bare tilpas til tante Lena.</p>
+<p>Og havde han ikke gaaet her i h&#x00F8;st kanske og plomberet alle t&#x00E6;nderne sine? Gr&#x00E6;sselig vondt var det, is&#x00E6;r det store hullet. Bare tante Lenas paafund altsammen. Hvad ialverden skulde det gj&#x00F8;re, om han havde nogen huller i t&#x00E6;nderne, det maatte han rigtignok sp&#x00F8;rge om. Ligesom ikke alle mennesker havde huller i t&#x00E6;nderne!</p>
+<p>Og saadan som tante Lena havde forsikret, at det ikke gjorde noget ondt at plombere. Ja, hun kunde nok sidde der og v&#x00E6;re overlegen hun, som havde forlorne t&#x00E6;nder baade oppe og nede i munden. Ja han skulde gjerne v&#x00E6;dde ti kroner om, at de var falske nede i munden ogsaa.</p>
+<p>&#x00AB;Du vil takke mig engang inderlig, naar du faar bedre forstand,&#x00BB; havde tante Lena sagt.</p>
+<p>Deilig vilde han det! Bedre forstand! Puh!</p>
+<p>Nei tante Lena lignede en skj&#x00E6;re, det gik han aldrig i verden ifra &#x2013; en skj&#x00E6;re, som hopper og hopper og ser alt og vender hovedet allevegne.</p>
+<p><pb n="6"/>Kunde ikke han bare faa l&#x00E6;se og ellers v&#x00E6;re i fred, som han havde lyst til. Nu havde han jo hele det store verket om geologi, som stod i det indre kontoret hos far, og om aftenen havde han alle Carit Etlars romaner, foruden den af Cooper, som far subskriberte paa for ham. &#x2013;</p>
+<p>Havde bare hans egen mor levet, havde han sluppet alt det leie med danseskole og alt sligt. Og tante Lena ogsaa, som gik der og skubbede og skubbede ham til alting.</p>
+<p>Og far sagde ingenting heller til alt det maset. Forresten h&#x00F8;rte han nu ikke saa stort til det heller, han sad jo paa kontoret hele dagen. Om aftenerne inde i stuen, naar han l&#x00E6;ste aviserne, saa masede jo aldrig tante Lena.</p>
+<p>Nei hun var nok saa klog. Nei da var det stilt da.</p>
+<p>&#x2013; Forresten kunde det nok v&#x00E6;ret hyggeligere, ligesom lidt muntrere, om far havde snakket lidt mere. Saadan at han ligesom kunde snakke til ham om lekserne og tante Lena og sligt noget mange gange &#x2013; skj&#x00F8;nt &#x2013; nei far var akkurat, som han skulde v&#x00E6;re.</p>
+<p>Far var grepa flink i grunden. Mange gange stod der om ham i aviserne, og altid lovord &#x2013; &#x00AB;Amtmand Borchs ubestridelige dygtighed&#x00BB; stod der igaar. Sv&#x00E6;rt hyggeligt, at han var amtmand <pb n="7"/>ogsaa, slig respekt der stod af ham i byen. Det var ligesom der blev stille af noget, der lignede &#x00E6;refrygt, bare far var i n&#x00E6;rheden.</p>
+<p>Nei akkurat slig skulde en far v&#x00E6;re. Det gik ikke an at fort&#x00E6;lle far om alle de smaatterierne ham og tante Lena imellem, far var for stor til det. Han havde nok at t&#x00E6;nke paa alligevel, han.</p>
+<p>Paul Borch travede videre. Skoleb&#x00F8;gerne i en rem under armen, lud i ryggen og sl&#x00E6;ngende, han stirrede altid ned i marken, naar han gik.</p>
+<p>Ja &#x2013; bra vilde han altid v&#x00E6;re for fars skyld &#x2013; simpelthen for fars skyld. &#x2013;</p>
+<p>Jeg er glad i den manden. &#x2013;</p>
+<p>Paul saa op fra marken og udover fjorden, hvor taagen kom drivende igjen, det var ligesom &#x00F8;inene blev st&#x00F8;rre og blikket lysere.</p>
+<p>Aldrig har jeg l&#x00F8;iet for far f. eks. da!</p>
+<p>Aldrig i evighed har jeg gjort det! Nei, t&#x00E6;nk lyve for far! &#x2013;</p>
+<p>Ingen af de gutterne, han kjendte, havde en saadan far som han. F. eks. se nu Jens Berentsens far! Der var ikke noget v&#x00E6;rdigt ved ham. Han dansede hver aften med smaapigerne sine, og t&#x00E6;nk saa stod han paa ski og rullede ligesom en anden gut.</p>
+<p>Nei saadan skal ikke en far v&#x00E6;re. &#x2013;</p>
+<p><pb n="8"/>Og Ditlev Bangs far, som str&#x00E6;vede saadan for at blive stortingsmand, saa alle lo af ham &#x2013; og alle vidste det. &#x2013;</p>
+<p>Nei, en far skulde v&#x00E6;re med respekt om sig &#x2013; alle skulde have respekt for ham. &#x2013; Nei, det gik ikke an at snakke til far om noget saadant t&#x00F8;v som den fille danseskolen! For i grunden, hvorfor danser folk? Hoppe saadan, som de ikke havde sin fulde forstand, t&#x00E6;nk gamle mennesker! Og saa danse med piger atpaa. Jenter, som bare ler af alting og er dumme som sild allesammen. Inderlig godt, jeg ikke har nogen s&#x00F8;ster ialfald.</p>
+<p>Piger er det v&#x00E6;rste som find&#x0027;s.</p>
+<p>Aldrig i verden havde han snakket med en pige heller. Saadan rigtig da! Ja, han mente saadan alvorlig. For naturligvis havde han snakket med piger paa sk&#x00F8;itebanen, sp&#x00E6;ndt sk&#x00F8;iterne paa dem og trukket dem og saadant noget &#x2013; men aldrig snakket med dem rigtigt.</p>
+<p>Sandelig om der var noget at snakke med saadanne om heller. For de lo jo bare af al ting.</p>
+<p>Han blev flau, han, naar han var sammen med piger, og vidste ikke, hvad han skulde sige.</p>
+<p>Var det nogen sag for en som Jens Berentsen kanske. Saadan en jentegut. Fem s&#x00F8;stre havde han, og hver af de fem s&#x00F8;stre <pb n="9"/>havde mindst fem veninder. Han havde snakket med piger, fra han blev f&#x00F8;dt, han. Var det nogen sag at vide, hvad en skulde sige til dem, da?</p>
+<p>For det var det, som var saa &#x00E6;rgerligt, at han ikke vidste, hvad han skulde sige til dem.</p>
+<p>Slig som Jens Berentsen kunde snakke med piger! Dreie paa ordene og faa dem til at le. Det var slig, de vilde have det.</p>
+<p>Gik ikke Jens Berentsen der med nedkj&#x00E6;mmet haar i panden og ud i tindingerne bare for at v&#x00E6;re pen!</p>
+<p>Aldrig i verden skulde han da klippe haaret sit for en jentes skyld eller for at blive pen. Da vilde jeg foragte mig selv, da!</p>
+<p>Men slige gutter med haaret nedi panden liker netop alle piger. Og saa er han saa dum i matematik, at de gjerne kan kj&#x00F8;re ham gjennem en v&#x00E6;g, Jens Berentsen.</p>
+<p>Og saa skulde han Paul Borch paa danseskole, og danse med slige, som ikke skj&#x00F8;nner nogen ting!</p>
+<p>Nei, endnu i aften vilde han tale med far og tante Lena, for paa den danseskolen vilde han ikke. Det var skraasikkert, det.</p>
+<p>&#x2013; Han var kommet ind i gangen hjemme, huen blev sl&#x00E6;ngt i paraplystativet. &#x2013; Uh, nu var det det, at han skulde bytte paa benene ogsaa for gulvteppernes skyld.</p>
+<p><pb n="10"/>Ja, tante Lena var temmelig irriterende. &#x2013;</p>
+<p>Naa, der stod hun i spisestuen og piskede fl&#x00F8;de. Glat, graaspr&#x00E6;ngt haar, hvidt, stramt sm&#x00E6;kkeforkl&#x00E6;de og magre, raske h&#x00E6;nder, saadan var tante Lena. Paul slog sig ned ved bordet.</p>
+<p>&#x00AB;Vil du have et &#x00E6;ble?&#x00BB; spurgte tante Lena.</p>
+<p>Ja, Paul var saa naadig og tog det.</p>
+<p>Tante Lena vispede kvitsch-kvatsch. &#x2013;</p>
+<p>Paul skr&#x00E6;llede et &#x00E6;ble overordentlig omhyggelig, det mindste spor af skallet maatte fjernes &#x2013; bagefter spiste han saa alle &#x00E6;bleskr&#x00E6;llingerne lige omhygelig op.</p>
+<p>&#x00AB;Du!&#x00BB; &#x2013;</p>
+<p>Tante Lenas visp stansede: &#x00AB;Ja.&#x00BB;</p>
+<p>&#x00AB;Jeg vil ikke gaa paa danseskole, jeg du.&#x00BB;</p>
+<p>Han havde i grunden t&#x00E6;nkt at gribe sagen ganske anderledes an. Saadan ganske kort og bestemt, at paa danseskole vilde han nu engang ikke. Det laa ikke for ham. Han vilde blive videnskabsmand, han &#x2013; og det var noget uv&#x00E6;sentligt t&#x00F8;v at l&#x00E6;re at danse.</p>
+<p>Men hvorledes det nu var eller ikke, saa kunde han aldrig faa den bestemte tone til for tante Lena. Han kunde nok beslutte sig til det og v&#x00E6;re kj&#x00E6;k iforveien, men naar det kom til stykket, saa blev tante Lena saa vrien og &#x00E6;kkel med en gang.</p>
+<p><pb n="11"/>&#x00AB;For noget t&#x00F8;v&#x00BB; &#x2013; kvitsch&#x2013;kvatsch. &#x2013;</p>
+<p>&#x00AB;Ja men jeg kan jo ikke danse.&#x00BB;</p>
+<p>&#x00AB;Ja, det er jo netop det, du skal l&#x00E6;re, ved jeg.&#x00BB;</p>
+<p>Hvor svinagtig kjedeligt, saa skulde alle pigerne bare le af det, at han ikke kunde danse; men det skulde tante Lena v&#x00E6;re blaa for at faa vide.</p>
+<p>&#x00AB;Jeg har sandelig ikke tid heller, tante Lena, jeg maa drive paa, alt jeg orker.&#x00BB;</p>
+<p>&#x00AB;Det greier nok du alligevel, Paullikken, &#x2013; og saa er det jo bare disse seks ugerne til jul.&#x00BB;</p>
+<p>Uh, det &#x00E6;kle kj&#x00E6;lenavnet ogsaa. Han var fjorten aar for en maaned siden, og saa kaldte hun ham Paullikken endda!</p>
+<p>Det var maade paa alt!</p>
+<p>Men det kunde han ikke sige. Saa begyndte han at l&#x00E6;gge ud om alt det, han skulde l&#x00E6;se &#x2013; fysik og matematik &#x2013; &#x00AB;du aner ikke altsammen, tante Lena.&#x00BB;</p>
+<p>Tante Lena vispede urokkelig.</p>
+<p>&#x00AB;Dans h&#x00F8;rer med til opdragelsen, min kj&#x00E6;re Paul, for ikke at tale om holdning og anstand. En velopdragen ung mand af den gode familie, du stammer fra, maa kunne f&#x00F8;re sig ordentlig.&#x00BB;</p>
+<p>&#x00AB;Dans er noget naragtigt noget,&#x00BB; sagde Paul uhyre morsk i ansigtet.</p>
+<p><pb n="12"/>Tante Lenas visp stansede braat.</p>
+<p>&#x00AB;Naragtigt &#x2013; siger du, at det, din far og tante, der efter bedste evne er dig i mors sted, bestemmer for dig, er naragtigt?&#x00BB;</p>
+<p>Tante Lenas stemme var ganske usedvanlig bebreidende.</p>
+<p>&#x00AB;Nei, jeg &#x2013; jeg mener bare, jeg mener ikke &#x2013; forresten har jeg saa ilde vondt i en ligtorn ogsaa.&#x00BB;</p>
+<p>&#x00AB;Ilde vondt &#x2013; hvad er det for et vulg&#x00E6;rt udtryk, Paullikken, du skulde passe dig og ikke v&#x00E6;nne dig til denslags.&#x00BB;</p>
+<p>Uf, altid skulde tante Lena v&#x00E6;re saa fin ogsaa ligesom.</p>
+<p>&#x00AB;Forresten kan du jo tale med din far om dette,&#x00BB; vedblev tante Lena, &#x00AB;om du overh&#x00F8;rer mine ord og ikke tror, jeg vil dit vel &#x2013; skj&#x00F8;nt Gud skal vide &#x2013;&#x00BB;</p>
+<p>Nei, naar tante Lena tager det paa den maade, ligesom martyragtig, kniber munden sammen og snakker om Gud, saa skal du have tak, t&#x00E6;nkte Paul.</p>
+<p>Akkurat det samme sagde hun, da han maatte plombere tretten huller ogsaa &#x2013; nei noget saa stridigt som tanter, de er saa stridige som gamle bukker.</p>
+<p>Nei, han maatte nok paa danseskole, han, det var ikke raad for andet, det skj&#x00F8;nte han nok.</p>
+<p><pb n="13"/>&#x2013; Pyt san, han var ligeglad han, han skulde gjerne gaa paa den fille danseskolen &#x2013; det var ham knusende ligegyldigt altsammen.</p>
+<p>Om aftenen, da amtmanden sad bag sit Morgenblad, og det var saa lunt og stille i det store v&#x00E6;relse, hvor alle lyd d&#x00E6;mpedes af det store, karmosinr&#x00F8;de gulvteppe, sagde tante Lena pludselig:</p>
+<p>&#x00AB;Paul vil ikke paa danseskole.&#x00BB;</p>
+<p>Morgenbladet blev s&#x00E6;nket et &#x00F8;ieblik, og Paul fik et blik over brillerne:</p>
+<p>&#x00AB;Jasaa &#x2013; hvorfor det, gutten min?&#x00BB;</p>
+<p>Der steg et lidet haab op i Paul. Kanske han alligevel kunde slippe.</p>
+<p>&#x00AB;Jo, for jeg kan jo ikke danse.&#x00BB;</p>
+<p>Inden amtmanden havde faaet kremtet sig til at sige noget, han var lidt langsom amtmanden, tog tante Lena ordet paany om gode manerer og anstand og et behageligt v&#x00E6;sen.</p>
+<p>Isch, t&#x00E6;nkte Paul.</p>
+<p>Sandelig h&#x00F8;rtes det ikke n&#x00E6;sten paa tante Lena, som hele hans karriere i livet og alting afhang af, enten han gik paa danseskole eller ikke. Det var grovt ogsaa, saadant snakket&#x00F8;i tante Lena havde. &#x2013;</p>
+<p>&#x00AB;Ja, ja,&#x00BB; sagde amtmanden et par gange, han vilde ligesom gjerne have en ende paa det, vedblev at holde Morgenbladet op foran sig <pb n="14"/>og knipsede paa det et par gange for at faa det til at staa stivt i hele sin l&#x00E6;ngde: &#x2013; &#x00AB;Ja &#x2013; ja &#x2013;&#x00BB;</p>
+<p>Men tante Lena var endda ikke f&#x00E6;rdig:</p>
+<p>&#x00AB;Merk mine ord, svoger, en klodset ung mand kommer sjelden frem i verden!&#x00BB;</p>
+<p>&#x00AB;Jo jo, det er overmaade rigtigt det, tante Lena siger, gutten min.&#x00BB; Atter et knips paa Morgenbladet, og henvendt til tante Lena: &#x00AB;Meld ham ind paa den danseskole!&#x00BB;</p>
+<p>&#x00AB;Det er alt bes&#x00F8;rget, svoger,&#x00BB; sagde tante Lena med et ubeskriveligt udtryk. Det var noget martyragtigt, ingen skulde komme og sige, at hun ikke gjorde sin pligt imod det moderl&#x00F8;se barn. &#x2013;</p>
+<p>&#x2013; Hele klassen skulde paa danseskole, det var ikke en eneste en, som ikke skulde der, saa det var kanske noksaa godt, at han ogsaa var meldt ind, t&#x00E6;nkte Paul, for det kunde v&#x00E6;ret leit ellers kanske. &#x2013;</p>
+<p>De havde gjerne kunnet gj&#x00F8;re nar af ham, havde han ikke v&#x00E6;ret med &#x2013; og der fandtes ikke noget saa f&#x00E6;lt, som naar folk gjorde nar. Uh det var det v&#x00E6;rste paa jorden.</p>
+<p>To dage efter, klokken seks om eftermiddagen, stod Paul Borch i hotellets klubsal med nye laksko og et meget stort, morskt, lyser&#x00F8;dt fj&#x00E6;s.</p>
+<p><pb n="15"/>Han skulde vist ikke snakke til nogen, det kunde de v&#x00E6;re blaa for, saa optaget som de var allesammen af denne fille danseskolen. Johannes Larsen hviskede, naar han snakkede, bare af h&#x00F8;itidelighed. Der fandtes ikke noget saa dumt i verden som en saadan danseskole. Baade naragtigt og dumt.</p>
+<p>Og der kom pigerne ogsaa. To og to eller i hele flokke. Forventningsfulde og i s&#x00F8;ndagskjoler. Fine var de paa benene allesammen.</p>
+<p>Alle pigerne samlede sig i en stor klump midt paa gulvet og snakkede ivrig, men lavt de ogsaa, ligesom Johannes. De vendte ryggen til gutteflokken borte ved d&#x00F8;ren, men fletterne daskede dem om hovedet, saa ofte og braat vendte de sig og saa bortover til gutterne. Nogen af de mindste pigerne, saadanne som lille Sofie Wilms, som endda fablede om Bukken Bruse og denslags, de l&#x00F8;b grassat op og ned i den store sal, kr&#x00F8;b op i sofaerne, der var saa h&#x00F8;ie, at benene deres ikke naadde gulvet, men stod ret ud i luften; saa sad de i to sekunder, jumpede ned igjen og l&#x00F8;b og hylte lidt imellem. &#x2013;</p>
+<p>Skammeligt ogsaa, at en skulde gaa paa danseskole med slige smaaunger!</p>
+<p>Frygtelig fin danseskole var det forresten. <pb n="16"/>Der havde aldrig v&#x00E6;ret saa fin danseskole i byen f&#x00F8;r. For alle de andre danseskoler havde danset paa madam Salomonsens sal nede ved bryggerne. Men denne skulde holdes paa klubsalen paa det fineste hotellet, og det var en dansel&#x00E6;rerinde, som holdt skolen. Og hun var saa bekjendt, at hun beh&#x00F8;vede ikke engang anbefalinger. Hun havde bare averteret, at hun kom, og saa vidste alle, hvem det var.</p>
+<p>Hotellets klubsal var frygtelig stor, med skinnende hvidt dansegulv og tre umaadelige glasprismekroner. H&#x00F8;ie, r&#x00F8;de damaskes sofaer strakte sig langs begge salens langv&#x00E6;gge, og der var stoppede, r&#x00F8;de skamler langsmed alle sofaerne, forat de, som dansede, ikke skulde tr&#x00E6;de t&#x00E6;rne af alle dem, som sad og saa paa.</p>
+<p>Og selve hornmusiken i byen, den, som spillede paa torvet om s&#x00F8;ndagene, skulde spille; alle de andre danseskolerne havde danset efter Blinde-Gunders harmonika. &#x2013;</p>
+<p>Blinde-Gunder spillede forresten godt, han, han var med paa alle skoleture og alle ture ellers ogsaa.</p>
+<p>Men der sad alt hornmusiken og stemte violinerne sine, saa det kven i strengene. &#x2013;</p>
+<p>Jens Berentsen var den eneste af gutterne, som havde skilt sig ud fra de andre, han havde spadseret op og ned i salen med nedkj&#x00E6;mmet <pb n="17"/>haar ud i tindingerne og myset omkring sig. Han vilde vise, at han havde v&#x00E6;ret i klubsalen paa bal f&#x00F8;r; hans onkel havde havt voksent bal engang, som blev holdt paa klubben, og der havde han v&#x00E6;ret altsaa.</p>
+<p>T&#x00E6;nk, at han vil gaa der midt paa gulvet aldeles alene, t&#x00E6;nkte Paul.</p>
+<p>Men der kom dansel&#x00E6;rerinden seilende. Hun havde et oldenborgsk kongeansigt, saadan med hagen frem, sort elegant silkekjole og bitte smaa h&#x00F8;ivristede f&#x00F8;dder i sorte silkestr&#x00F8;mper.</p>
+<p>Gid som hun gjorde sig til og b&#x00F8;iede og vred paa sig, da hun hilste.</p>
+<p>Alle b&#x00F8;rnene trak sig respektfuldt tilbage langs sofaerne, Jens Berentsen ogsaa, endda han passede paa at v&#x00E6;re forrest.</p>
+<p>Saa begyndte det.</p>
+<p>Den fede, silkekl&#x00E6;dte dansel&#x00E6;rerinde gik let som paa fj&#x00E6;re i en uendelig aktivitet op og ned i salen, ordnede og befalede; hun havde en stemme, som det smeldte i, endda hun var dansk. Gutterne blev opstillet paa den ene side, pigerne paa den anden.</p>
+<p>Dansel&#x00E6;rerinden var overordentlig h&#x00F8;flig, kaldte dem &#x00AB;Mine damer&#x00BB; og &#x00AB;Mine herrer&#x00BB;, men gjorde ofte meget kort proces med &#x00AB;Mine herrer&#x00BB;, tog dem i skulderen og dreiede dem <pb n="18"/>rundt med en vis fart, naar de stod stive og ikke kom paa plads hurtig nok.</p>
+<p>De, som tilf&#x00E6;ldigvis var kommet til at staa ligeoverfor hinanden, skulde da danse sammen; forresten var det afpasset efter st&#x00F8;rrelsen, saa de smaa tutlede for sig selv nede ved d&#x00F8;ren.</p>
+<p>&#x00AB;Mine damer og herrer, giv agt!&#x00BB;</p>
+<p>Det formelig kvak i dem alle, slig r&#x00F8;st havde dansel&#x00E6;rerinden, naar hun rigtig satte i.</p>
+<p>Paul Borch havde kastet et hurtigt, forf&#x00E6;rdet blik nedover piger&#x00E6;kken for at se, hvem der faldt paa hans part.</p>
+<p>Du store kinesiske &#x2013; det var Lollik Bommen &#x2013; den lattermildeste af dem alle. For hun lo bestandig. Han havde bogstavelig aldrig seet hende, uden at hun lo &#x2013; altid havde han gaaet omveie, skraaet over gaden, naar han saa hende, bare for den latteren. For ingen kunde vide, om ikke en slig en lo af en selv.</p>
+<p>Og der stod hun ret overfor ham og lo, saa det lyste i de hvide t&#x00E6;nderne.</p>
+<p>Aa den afskyelige tante Lena, som havde faaet ham op i dette! F&#x00E6;lt var det.</p>
+<p>Lollik Bommen talte ivrig raden nedover af gutter &#x2013; de stod omtrent midt i salen &#x2013; for at se, hvem der faldt paa hendes part; da hun fandt ud, at det var Paul Borch, saa det ud, som hun talte om igjen en gang til.</p>
+<p><pb n="19"/>Saa nikkede og lo hun over til ham; han blev sprutende r&#x00F8;d; saa hviskede og lo hun til dem, som stod n&#x00E6;rmest, og saa nikkede hun igjen.</p>
+<p>Hun havde gult sv&#x00E6;rt haar, kinderne var r&#x00F8;de som en fuldmoden fersken, men munden var stor, fordi hun altid lo.</p>
+<p>Hun var den v&#x00E6;rste af dem allesammen, t&#x00E6;nkte Paul &#x2013; nei, at han skulde v&#x00E6;re saa uheldig ogsaa, havde han bare staaet et nummer l&#x00E6;nger ned, saa havde han faaet Mina Br&#x00F8;ndum, og det havde v&#x00E6;ret meget bedre, for hun var ligesom ingenting, Mina Br&#x00F8;ndum.</p>
+<p>Saavidt han kunde skj&#x00F8;nne den danske snakken paa dansel&#x00E6;rerinden, skulde han og Lollik h&#x00F8;re sammen som fast par hele danseskolen, ialfald langt udover, til de havde l&#x00E6;rt mere.</p>
+<p>Nei, han vilde blive syg, han vilde faa hovedpine, det vilde han, for dette kom han ikke til at holde ud.</p>
+<p>&#x00AB;Mine damer og herrer &#x2013; hop, en, to, tre!&#x00BB;</p>
+<p>Dansel&#x00E6;rerinden l&#x00F8;ftede sin kjole op med to fingre og strakte sin ene lille h&#x00F8;ivristede silkefod ud i luften.</p>
+<p>&#x00AB;Mine damer og herrer, behag at se n&#x00F8;ie efter!&#x00BB;</p>
+<p><pb n="20"/>Skal ikke dette v&#x00E6;re naragtighed, t&#x00E6;nkte Paul, saa ved jeg rigtignok ikke heller, hvad der kan kaldes saa, det er et mirakel, at hun er saa let paa foden slig en maskine &#x2013; saa tyk &#x2013; men hvorledes hun kan faa benene sine til slig, det gaar over min forstand.</p>
+<p>Han stirrede paa de smaa h&#x00F8;ivristede ben og fors&#x00F8;gte at gj&#x00F8;re ligedan. &#x2013; Nei &#x2013; flaut var det ogsaa at hoppe slig &#x2013; og saa raabte pludselig det oldenborgske kongeansigt deroppe fra enden af salen:</p>
+<p>&#x00AB;Den unge, lyse, st&#x00F8;rste herre dernede f&#x00F8;rer sig for stivt.&#x00BB;</p>
+<p>V&#x00E6;mmeligt ogsaa, at han skulde v&#x00E6;re den st&#x00F8;rste. Naturligvis lo Lollik Bommen og allesammen og saa paa ham. Det var rent ud ydmygende &#x2013; den afskyelige tante Lena med alt det, hun fandt paa.</p>
+<p>Endda havde han heldigvis ikke kommet Lollik Bommen paa saa n&#x00E6;rt hold, at han beh&#x00F8;vede at snakke, de bare opererede paa hver sin side, men pludselig raabte oldenborgerinden noget, og der kom Lollik over til ham.</p>
+<p>Gyselig flaut, at han ikke skj&#x00F8;nte dansk ogsaa.</p>
+<p>De skulde danse sammen. &#x00AB;Men jeg kan ikke,&#x00BB; sagde Paul, han kjendte, han blev r&#x00F8;d helt ud i &#x00F8;rene.</p>
+<p><pb n="21"/>&#x00AB;Pyt, det gj&#x00F8;r ingenting, jeg kan saa udmerket, alle, som danser med mig, siger, at jeg danser saa brilliant &#x2013; kom bare!&#x00BB;</p>
+<p>&#x00AB;Hvorfor gaar du her da, naar du kan danse?&#x00BB;</p>
+<p>&#x00AB;For moro vel.&#x00BB;</p>
+<p>Ja det var deilig moro. Lollik Bommen halte og trak i ham, han var stiv som en kjep og kunde ikke svinge; hele hans ansigt br&#x00E6;ndte som en glo.</p>
+<p>&#x00AB;Kom nu &#x2013; saadan &#x2013; nei saadan &#x2013; nu gik det bedre &#x2013; saa ja!&#x00BB;</p>
+<p>Hun var merkelig flink ogsaa, slig som hun fik det til, nu dansede de jo n&#x00E6;sten som de andre. V&#x00E6;mmeligt var det jo forresten, og der var sandelig dansel&#x00E6;rerinden ogsaa og tog et tag i ham, rundt og rundt og atter et tag, hun fulgte med hele salen opover.</p>
+<p>&#x00AB;Mere b&#x00F8;ielig, min herre, mere b&#x00F8;ielig!&#x00BB;</p>
+<p>Lolliks ansigt lo lige imod ham. &#x2013; &#x00AB;De har forresten faaet en brilliant dame &#x2013; f&#x00F8;r ham frem, lille fr&#x00F8;ken &#x2013; f&#x00F8;r ham frem!&#x00BB;</p>
+<p>Dermed slap oldenborgerinden ham for den gang.</p>
+<p>Noget saa simpelthen v&#x00E6;mmeligt.</p>
+<p>&#x00AB;Du er saa stor, og du holder godt, saa du skal nok blive flink,&#x00BB; sagde Lollik.</p>
+<p>&#x00AB;Nei, jeg kan ikke dette, jeg.&#x00BB;</p>
+<p><pb n="22"/>&#x00AB;Pyt, du kan da vide, du kan, jeg skal hj&#x00E6;lpe dig saa godt &#x2013;&#x00BB;</p>
+<p>Der blev klappet af til pause, og Paul vilde pile bort til gutterne, men Lollik stansede ham.</p>
+<p>&#x00AB;Ikke gaa da &#x2013; saa s&#x00E6;tter vi os her.&#x00BB; Saa kunde han jo umulig gaa, naar hun sagde det.</p>
+<p>&#x00AB;Jeg har ofte t&#x00E6;nkt paa det,&#x00BB; vedblev Lollik, &#x00AB;naar vi er paa bal, saa staar du bare i d&#x00F8;rene og kikker, er det nogen moro i det da?&#x00BB;</p>
+<p>&#x00AB;Nei.&#x00BB;</p>
+<p>&#x00AB;Hvorfor gj&#x00F8;r du det da?&#x00BB;</p>
+<p>&#x00AB;Jo &#x2013; for de vil, jeg skal gaa hjemme.&#x00BB; Han vilde jo ikke sige, at det var tante Lena, som fik ham afsted heller.</p>
+<p>&#x00AB;Gid, hvor dum du er &#x2013; endda folk siger, du skal v&#x00E6;re saa skr&#x00E6;kkelig klog &#x2013; er du det?&#x00BB;</p>
+<p>Han maatte smile, endda han ikke vilde det.</p>
+<p>&#x00AB;Nei, jeg tror ikke det.&#x00BB;</p>
+<p>&#x00AB;Jo, jeg tror du er klog &#x2013; l&#x00E6;ser du frygtelig meget?&#x00BB;</p>
+<p>&#x00AB;Aa nei da.&#x00BB;</p>
+<p>&#x00AB;Gid &#x2013; jeg orker simpelthen ikke at l&#x00E6;se, jeg &#x2013; skolen er det v&#x00E6;mmeligste paa jorden &#x2013; jeg maa have moro, jeg &#x2013; det er rart, at vi aldrig har snakket sammen f&#x00F8;r, du.&#x00BB;</p>
+<p>&#x00AB;Ja &#x2013;&#x00BB;</p>
+<p><pb n="23"/>Der kom Jens Berentsen hen og trak ham med sig, det var noget hemmeligt.</p>
+<p>Om ikke de to kunde bytte damer nu med en gang &#x2013; dansel&#x00E6;rerinden merkede det ikke nu, naar hun ikke kjendte nogen endda, &#x00AB;og det er vist dig knusende ligegyldigt, hvem du har.&#x00BB;</p>
+<p>Han havde saavidt seet, at Jens Berentsen havde trukket afsted med tykke Janna Sendresen.</p>
+<p>&#x00AB;Nei jeg vil ikke bytte,&#x00BB; sagde han og saa ret ud i luften med sit trodsige, store, lyser&#x00F8;de fj&#x00E6;s.</p>
+<p>&#x00AB;Maa jeg sp&#x00F8;rge hvorfor?&#x00BB;</p>
+<p>&#x00AB;Nei,&#x00BB; Paul Borch havde ingen grund, men han vilde ikke bytte.</p>
+<p>&#x00AB;Det er lumpent af dig altsaa.&#x00BB;</p>
+<p>&#x00AB;Paa plads,&#x00BB; raabte oldenborgerinden, saa det smeldte i &#x00F8;rene, og der stod de igjen i rad og r&#x00E6;kke.</p>
+<p>&#x00AB;Du er slet ikke v&#x00E6;rst,&#x00BB; sagde Lollik, &#x00AB;jeg havde troet, du havde v&#x00E6;ret meget v&#x00E6;rre.&#x00BB;</p>
+<p>&#x2013; Paul travede hjemover i s&#x00F8;len den lange vei opefter til amtmandsboligen.</p>
+<p>Hun var ikke v&#x00E6;rst ligevel, Lollik heller, hun var n&#x00E6;sten koselig &#x2013; og hun havde ikke leet saa f&#x00E6;lt meget.</p>
+<p>Nei sandelig om han vilde bytte med Janna Sendresen lel, den store dundra!</p>
+<p><pb n="24"/>Og n&#x00E6;sten pen var hun ogsaa, Lollik.</p>
+<p>Han vidste ikke af, f&#x00F8;r han var inde i gangen hjemme, saa meget nyt var det at t&#x00E6;nke paa.</p>
+<p>&#x00AB;Var det nu ikke morsomt?&#x00BB; spurgte tante Lena.</p>
+<p>&#x00AB;Aah&#x00BB; &#x2013; han vilde for alt i verden ikke sige til tante Lena, at det havde v&#x00E6;ret lidt moro.</p>
+<p>&#x00AB;Hvem dansede du med?&#x00BB;</p>
+<p>&#x00AB;Med Lollik Bommen.&#x00BB;</p>
+<p>&#x00AB;Den lille pene?&#x00BB;</p>
+<p>Paul svarede ikke noget paa det. Tante Lena skulde v&#x00E6;re blaa for at faa vide, om han syntes, Lollik Bommen var pen.</p>
+<p>Om aftenen blev han liggende l&#x00E6;nger vaagen, end han pleiede. Det var det, om han skulde &#x00F8;ve sig i dansetrin hjemme, som han funderte paa. Bare han kunde gj&#x00F8;re det, saa ingen saa det. Hvis han hoppede slig heroppe paa sit v&#x00E6;relse, var det vel al rimelighed for, at tante Lena kunde h&#x00F8;re det nede i dagligstuen, og saa kom hun naturligvis op og spurgte, hvad der var paaf&#x00E6;rde. For saadan var hun akkurat. Midt paa svarte natten rev tante Lena af fyrstikker, naar hun h&#x00F8;rte jernbanetogene, for at kontrollere, om de ogsaa holdt ruten paa minuttet. Saa kunde en jo vide, <pb n="25"/>hvorledes hun var hjemme i huset, naar hun lagde sig op i jernbanen ogsaa. &#x2013; &#x2013;</p>
+<p>&#x00AB;Naa, t&#x00E6;nk nu paa det, at vi danser vals, og ikke paa al l&#x00E6;rdommen din&#x00BB; &#x2013; og Lollik svingede ham rundt. For det var det rare, at trinene kunde han nok klare, men at svinge kneb det altid med.</p>
+<p>Han likte forresten det, at Lollik troede, at han ikke kunde svinge i dansetakt, fordi han var for l&#x00E6;rd.</p>
+<p>Hun maatte gjerne tro det ogsaa &#x2013; det var ligesom saa voksent.</p>
+<p>Men Jens Berentsen var rentud v&#x00E6;mmelig. Der kunde ikke han og Lollik faa sidde i ro et &#x00F8;ieblik og tale alvorlig, saadan som han likte det, f&#x00F8;r den figuren kom med alle ableg&#x00F8;ierne sine og b&#x00F8;d Lollik cigaretter. Selv stod han med en ut&#x00E6;ndt cigaret i mundvigen og konverserte, naar dansel&#x00E6;rerinden havde travelt med de smaa oppe i salen.</p>
+<p>Han kunde jo holde sig borte hos den tykke Janna Sendresen, han. Det var jo hans dame.</p>
+<p>Men der var han aldrig, endda Janna hele tiden sad og saa efter ham med de umaadelig s&#x00F8;vnige &#x00F8;inene sine.</p>
+<p>En ting var forresten merkelig. Og det var det, at han aldrig havde troet, at det var <pb n="26"/>saa let at snakke med piger. Naar han havde t&#x00E6;nkt paa det f&#x00F8;r, havde han aldrig kunnet skj&#x00F8;nne, hvad han skulde snakke om. For han havde jo aldrig v&#x00E6;ret noget videre sammen med piger f&#x00F8;r, ingen s&#x00F8;stre havde han jo, og ingen kusiner som alle andre, og hjemme var det jo saa gr&#x00E6;sselig stille bestandig. Ingen selskaber, uden det store herreselskab paa fars f&#x00F8;dselsdag, 6te januar. F&#x00F8;r i tiden havde han jo havt gutteselskaber, men nu var det blevet ligesom saa kjedeligt, saa nu vilde han ikke mere. Han rent gruede, naar tante Lena kom med forslag om, at han skulde have fremmede.</p>
+<p>Eller bare bede en gut hjem til middag.</p>
+<p>Nei ialverden, hvad skulde han stille op med en af de gutterne fra skolen hjemme i deres egne stuer? De vilde bare kjede sig, og han vilde ikke vide, hvad han skulde snakke om heller.</p>
+<p>Forresten &#x2013; naar han snakkede med Lollik Bommen paa danseskolen, saa var det ikke stort, han selv sagde. Det var i grunden bare nei og ja og jasaa. Mere beh&#x00F8;vede han ikke at sige, for Lollik snakkede hele tiden alene.</p>
+<p>Naar han kom hjem og t&#x00E6;nkte over det, var det alligevel leit, at han aldrig sagde andet end ja og nei og jasaa.</p>
+<p><pb n="27"/>&#x2013; Det kan godt h&#x00E6;nde, at hun tror, jeg er et naut.</p>
+<p>Men aldrig i verden kunde han faa det til at begynde at snakke om noget heller, endda han spekulerte ud temaer i forveien.</p>
+<p>&#x2013; Igaaraftes paa danseskolen havde det v&#x00E6;ret rent galt med svingningen. Dansel&#x00E6;rerinden havde fulgt med et langt stykke, da han og Lollik dansede, og svinget og svinget dem rundt. Og Lollik havde storleet, og alle de andre ogsaa, som et kor af latter fra sofaerne rundt om.</p>
+<p>Forresten troede han, de lo af det lange, tynde haaret hans ogsaa. Fordi det viftede, naar han dansede. Tante Lena vilde jo aldrig, han skulde klippe haaret sit om vinteren og h&#x00F8;sten, forat han ikke skulde blive forkj&#x00F8;let. Men han skulde simpelthen gaa ind til en barber og klippe sig imorgen, han, uden at sige et eneste ord om det, f&#x00F8;r det var gjort. Og &#x00F8;ve sig i at danse kunde han altid gj&#x00F8;re i det store gamle lysthuset nede i haven. N&#x00F8;glen hang i gangen bestandig den.</p>
+<p>En ting kunde han forresten ikke skj&#x00F8;nne, og det var, hvorledes tante Lena kunde opdage al ting.</p>
+<p>For mener du ikke, at hun havde opdaget, at han ikke syntes, det var v&#x00E6;rst at gaa paa <pb n="28"/>danseskole. Naar hun havde spurgt ham, havde han bare blaast og ladet sv&#x00E6;rt ligegyldig, og endda sagde hun en aften:</p>
+<p>&#x00AB;Hvad sagde jeg, Paullikken? Jeg sagde, du vilde more dig, jeg, Paullikken &#x2013; stol paa tante Lena, du Paullikken.&#x00BB;</p>
+<p>Det var &#x00E6;kkelt, men tante Lena fik saa ofte ret &#x2013; han kunde ialverden ikke skj&#x00F8;nne, hvorfor det var saaledes bestandig.</p>
+<p>For t&#x00E6;nk nu gl&#x00E6;dede han sig hver aften han skulde paa danseskolen. Han kunde ikke skj&#x00F8;nne, hvad det var, alt det han havde stelt med og t&#x00E6;nkt paa alle de lange, m&#x00F8;rke eftermiddagene, f&#x00F8;r danseskolen begyndte. For nu var det ligesom bare danseskolen, han t&#x00E6;nkte paa bestandig.</p>
+<p>Men svineheldig havde han v&#x00E6;ret, som havde faaet Lollik Bommen til fast dame. Naar han saa paa alle de andre, saa var der ingen saadan som hende.</p>
+<p>Ikke Claudine Soot og ikke Tilla Schou og ikke Magdalene Nilsen heller, hun med det sorte, kr&#x00F8;llede haaret sit &#x2013; nei de maatte ikke byde sig mod Lollik. &#x2013;</p>
+<p>For Lollik var saa nydelig, naar hun lo, og saa snakkede hun meget mere end alle de andre, meget morsommere ogsaa, og saa var hun ikke spor af generet.</p>
+<p><pb n="29"/>T&#x00E6;nk hun dansede midt paa gulvet mutters alene mange gange.</p>
+<p>Og saa snild som hun var. Naar det kneb i svingene, saa hvisked hun:</p>
+<p>&#x00AB;Lad os bare skynde os, saa hun ikke faar se det, Storemor.&#x00BB;</p>
+<p>Hun kaldte dansel&#x00E6;rerinden aldrig andet end &#x00AB;Storemor&#x00BB;.</p>
+<p>Ja det var en koselig pige, Lollik Bommen.</p>
+<p>Ekstra koselig i grunden.</p>
+<p>Det var ganske rimeligt ogsaa, slig som alle gutterne vilde danse med hende. Men sandelig om det var noget hyggeligt heller; naar han og Lollik havde sat sig ned i god ro, saa kom de straks og bukkede for Lollik, ofte to tre paa en gang.</p>
+<p>For i ekstradansene indimellem havde de jo lov til at danse med hvem de vilde.</p>
+<p>Og Lollik var lige blid mod alle, og det var ikke noget hyggeligt det heller.</p>
+<p>En dag han kom paa danseskolen &#x2013; han var kommet sent afsted hjemmefra &#x2013; sad Lollik med en stor pose teaterkonfekt borte paa en af sofaerne og tyggede og spiste. Jens Berentsen og Yngvar Lie stod ved siden af hende. Inden han havde faaet snoet sig frem mellem alle de dansende par paa gulvet, dansede Lollik ud med Jens Berentsen.</p>
+<p><pb n="30"/>Du store alverden, Lollik var jo hans dame, og f&#x00F8;rste dans skulde de da altid danse sammen. &#x2013;</p>
+<p>Han vilde passe paa at v&#x00E6;re i n&#x00E6;rheden, naar de satte sig ned, for det var skam dette.</p>
+<p>Men der kom dansel&#x00E6;rerinden:</p>
+<p>&#x00AB;Unge hr. Borch, v&#x00E6;rsgod, her er en dame&#x00BB; &#x2013; og puffede den skj&#x00E6;ve, tynde Gusta Olsen hen til ham.</p>
+<p>Paul Borch havde en meget veltalende underl&#x00E6;be. Den stod langt frem og var temmelig trodsig, da han bukkede stiv som en lineal for Gusta Olsen.</p>
+<p>Gusta var ikke saa h&#x00F8;i, som han selv. Over hendes skulder holdt han &#x00F8;ie med Lollik og Jens. &#x2013;</p>
+<p>Der satte de sig ned. &#x2013; Paul slap Gusta Olsen midt paa gulvet, men det oldenborgske kongeansigt var, sandt for dyden, lige ved:</p>
+<p>&#x00AB;Nei, nei, min herre &#x2013; salen tre gange rundt.&#x00BB;</p>
+<p>Isch!</p>
+<p>Han sled i det. Naa endelig, der var han f&#x00E6;rdig og styrtede hen til Lollik og bukkede for hende.</p>
+<p>&#x00AB;Nei tak, jeg danser med Jens.&#x00BB;</p>
+<p>&#x00AB;Ja, men du er jo min dame.&#x00BB;</p>
+<p><pb n="31"/>&#x00AB;Pyt &#x2013; det var bare i begyndelsen det, kan du vide.&#x00BB; &#x2013; Lollik kikkede ned i sin konfektpose og udvalgte sig en sukret valn&#x00F8;d. &#x2013; &#x00AB;V&#x00E6;rsgod, vil du ikke have konfekt?&#x00BB;</p>
+<p>Nei, han skulde vist ikke have nogen konfekt. &#x2013; Inden han havde faaet summet sig til at sige noget, dansede Jens og Lollik ud igjen. Og straks Jens havde sluppet hende paa den anden side af salen, saa dansede hun med Yngvar Lie.</p>
+<p>Det var saa skammeligt, at &#x2013;</p>
+<p>Og iaften som han netop havde gl&#x00E6;det sig saa til at snakke med hende.</p>
+<p>T&#x00E6;nk saa fik han ikke danse med Lollik den hele aften. Det var rent harmeligt. De var om hende som fluer alle de andre gutterne, og ret som det var, havde hun en ny stor pose konfekt.</p>
+<p>Og slig, som hun lo den aftenen. Hun havde den slags latter, som trillede, jo mere hun lo, des r&#x00F8;dere blev kinderne.</p>
+<p>Det var som alle likte Lollik. Om det saa var selve dansel&#x00E6;rerinden, saa smeldte hun ikke saa i stemmen, naar hun talte til hende.</p>
+<p>Og de gule fletterne til Lollik dansede om hende, hun var som en vind oppe i salen og nede i salen, hjalp de smaa og pratede med dem. Hun kunde ligge paa kn&#x00E6; i lange tider <pb n="32"/>foran lille Sofie Wilms og snakke med hende om Bukken Bruse.</p>
+<p>&#x00AB;Har du seet ham selv?&#x00BB; spurgte Lollik.</p>
+<p>&#x00AB;Nei, ikke den store, og ikke den lille, men den mellemste har jeg seet mange gange,&#x00BB; sagde lille Sofie Wilms, hun var fem aar og havde blaa silkebaand ved tindingerne.</p>
+<p>Hun brydde sig ikke det gran, om der stod gutter og vilde danse med hende, naar hun laa slig og snakkede med de smaa.</p>
+<p>&#x00AB;Isch, vent da!&#x00BB; sagde Lollik.</p>
+<p>Tilslut blev det saa, at dansel&#x00E6;rerinden fik hende til at hj&#x00E6;lpe sig med de smaa.</p>
+<p>Hun trillede og lo og kommanderte, og der blev en hel komedie af det hele.</p>
+<p>For t&#x00E6;nk, hun kommanderte paa dansk, akkurat som dansel&#x00E6;rerinden!</p>
+<p>De smaa havde mest hoppet og tullet for sig selv dernede ved ovnen uden at v&#x00E6;re med i takten, men Lollik fik liv i det hele og str&#x00E6;vede opover og nedover salen med lille Jens Kobro, der var tyk som en liden p&#x00F8;lse og hang som en klump om livet paa hende.</p>
+<p>Gid hvor rare piger kan v&#x00E6;re &#x2013; t&#x00E6;nkte Paul &#x2013; at hun vil bry sig saa med de dumme smaaungerne!</p>
+<p>Dansel&#x00E6;rerinden prakkede paa ham de v&#x00E6;rste damerne, de som dansede mindst og <pb n="33"/>ikke var pene, Elisa Malvig f. eks. med den sv&#x00E6;re f&#x00F8;deflekken.</p>
+<p>Ikke derfor, han havde i grunden vondt af hende, og han skulde gjerne danse med hende, for hun dansede svinagtig godt &#x2013; hun var ikke v&#x00E6;rst Elisa Malvig.</p>
+<p>Men Lollik trillede og lo l&#x00E6;nger op i salen &#x2013; nei nu vilde han danse med Lollik!</p>
+<p>Aa langtifra, der var nogen andre i veien altid.</p>
+<p>Ikke kunde han finde paa at sige et eneste ord til hende heller &#x2013; det var sandelig ikke saa let at snakke &#x2013; saadan i en fart da.</p>
+<p>Det havde v&#x00E6;ret en kjedelig aften, det havde det. Den kjedeligste, siden danseskolen begyndte &#x2013; han l&#x00F8;b hjemover med nordenvinden i ryggen den m&#x00F8;rke h&#x00F8;stkvelden.</p>
+<p>Latterligt ogsaa, at gutterne havde begyndt ligesom at skulle f&#x00F8;lge pigerne hjem om aftenen. De kunde saam&#x00E6;nd saa inderlig godt gaa alene, de lange jenterne! Stod de ikke der ude i klubgangen og hang og ventede, til pigerne havde faaet byttet af sig danseskoene og kom ud. Han skulde vist aldrig staa der og h&#x00E6;nge og vente paa en jente. Nei, det skulde de v&#x00E6;re blaa for.</p>
+<p>Lollik havde havt f&#x00F8;lge med Yngvar Lie ikveld, havde han seet.</p>
+<p><pb n="34"/>Det skulde ligesom ogsaa v&#x00E6;re nogen moro at staa slig og vente &#x2013; isch!</p>
+<p>&#x2013; Det var begyndt sv&#x00E6;rt med traktering paa danseskolen nu. Mange af gutterne havde konfekt og chokoladekager med og cigaretter, som blev budt frem i smug.</p>
+<p>Han saa aldrig Lollik nu, uden hun tyggede.</p>
+<p>Jens Berentsen var v&#x00E6;rst til at traktere. Han havde to poser med sig hver dag &#x2013; og sandelig &#x2013; ja Paul var ikke vis paa det, men han troede, at Lollik fik dem begge. Hver dag.</p>
+<p>Han kunde ikke like det. Simpelthen.</p>
+<p>&#x00AB;Er du glad i saant?&#x00BB; Han saa gr&#x00E6;sselig morsk paa Lollik.</p>
+<p>&#x00AB;Marcipan er altsaa simpelthen det bedste, jeg ved,&#x00BB; svarede Lollik.</p>
+<p>Der d&#x00E6;mrede noget i Pauls sind, om at han &#x2013; kanske &#x2013; ogsaa skulde give hende nogen marcipan.</p>
+<p>Jo &#x2013; han vilde gj&#x00F8;re det. For alle de andre gutterne gav hende jo, og da kunde sandelig han ogsaa gj&#x00F8;re det. Det vilde n&#x00E6;sten v&#x00E6;re lumpent, hvis han ikke gjorde det, for hun havde jo v&#x00E6;ret hans dame fra begyndelsen af ialfald.</p>
+<p>Hvor hestedum han havde v&#x00E6;ret, at han ikke havde fundet paa dette f&#x00F8;r. Denne trakteringen <pb n="35"/>havde jo holdt paa mindst en uge nu &#x2013; og kanske det var derfor, at ikke Lollik dansede med ham saa meget som f&#x00F8;r. For altid var det nogen andre, som hun n&#x00F8;dvendig skulde danse med. Naturligvis de som gav hende alt det slikkeriet.</p>
+<p>Men sligt noget var vist dyrt &#x2013; og hvor skulde han faa penge fra? Maanedspengene sine havde han brugt op for l&#x00E6;nge siden til de nye sk&#x00F8;iterne.</p>
+<p>Skulde han bede far om penge? Nei, saa vilde naturligvis far sp&#x00F8;rge om, hvad han skulde bruge de pengene til &#x2013; for han maatte ikke have saa lidet heller &#x2013; mindst fem kroner.</p>
+<p>For slig marcipankonfekt var frygtelig dyr &#x2013; og saa skulde han da v&#x00E6;re n&#x00F8;dt til at sige til far, at det skulde v&#x00E6;re til marcipan til en pige!</p>
+<p>Nei!</p>
+<p>Og lyve for far &#x2013; nei det vilde han ikke &#x2013; for det var skammeligt, det.</p>
+<p>Men tante Lena &#x2013; mon der var nogen penge at faa ud af tante Lena? Han kunde jo sige, at han maatte have en ny bog paa skolen f. eks. Men saa skrev hun op i sit regnskab: Ny l&#x00E6;rebog til Paul &#x2013; og saa vilde kanske far sp&#x00F8;rge, hvad det var for en bog.</p>
+<p>Det var v&#x00E6;mmeligt ikke at have penge. Han havde syv &#x00F8;re akkurat i portemonn&#x00E6;en sin.</p>
+<p><pb n="36"/>T&#x00E6;nk om han fandt en skat f. eks. Det var jo mange, som fandt skatte &#x2013; i gamle dage forresten mest, skrin med penge inde i mure, og saadant noget. Der var mange tykke mure oppe i amtmandsgaarden hjemme. &#x2013;</p>
+<p>Nei, det var kanske bedre at redde en rig engelskmand, som gav mange penge i bel&#x00F8;nning, saadan som det stod om i aviserne mange gange.</p>
+<p>Men hvad skulde han egentlig redde ham fra?</p>
+<p>Ja, han kunde jo f. eks. have staaet paa ski og brukket benet, og saa skulde han komme og hj&#x00E6;lpe ham og v&#x00E6;re gr&#x00E6;sselig snild.</p>
+<p>Og saa skulde engelskmanden give ham fem pund; saa regnede Paul Borch meget n&#x00F8;iagtig ud, hvormeget fem pund var i norske penge. Nei, det var altfor meget &#x2013; nei, han skulde v&#x00E6;ret forn&#x00F8;iet, om engelskmanden havde givet ham fem kroner for at redde ham.</p>
+<p>Isch for noget t&#x00F8;v!</p>
+<p>Var det ingen ting, han kunde s&#x00E6;lge da. Han stod oppe paa guttev&#x00E6;relset sit og saa sig om.</p>
+<p>Der var kurvhylden med skoleb&#x00F8;gerne i de tre nederste hylder og morskabsb&#x00F8;gerne ovenpaa.</p>
+<p>Alle de gamle indianerb&#x00F8;gerne, men hvem kj&#x00F8;bte sligt gammelt juks!</p>
+<p><pb n="37"/>Forresten havde far ogsaa engang sagt, at han likte ikke, at han solgte b&#x00F8;ger.</p>
+<p>Der laa frimerkealbumet hans. Tusen og otti frimerker havde han i det. Og mange sjeldne dubletter atpaa!</p>
+<p>T&#x00E6;nk om han solgte det. Det kunde ikke et menneske sige noget om, for det var hans eget det.</p>
+<p>Han stod og veiede det i haanden. &#x00C6;kkelt ogsaa at s&#x00E6;lge det, slig som han havde gl&#x00E6;det sig over hvert nyt frimerke.</p>
+<p>Men nu tr&#x00E6;ngte han altsaa penge. Simpelthen i h&#x00F8;i grad. Elias Weigert havde jo gaaet i lange tider og tigget og bedt om at faa kj&#x00F8;bt det.</p>
+<p>Ja sandelig vilde han ikke s&#x00E6;lge det jo &#x2013; nu var han saa gammel, at nu brydde han sig ikke om at samle mere &#x2013; paa nogenting. Alt det gamle jukset, fugleeg og rare stene var han ligeglad med nu. Knusende ligeglad. I grunden brydde han sig lidt mere om frimerkerne, men naar han altsaa tr&#x00E6;ngte penge, saa!</p>
+<p>Og Paul Borchs store lyser&#x00F8;de ansigt blev trodsigt: Jovist vilde han s&#x00E6;lge det.</p>
+<p>Det eneste leie var, at far kunde sp&#x00F8;rge efter det undertiden, eller komme med et nyt frimerke til ham fra kontoret. Men det var saa yderlig sjelden, det h&#x00E6;ndte, og gruelig <pb n="38"/>l&#x00E6;nge siden nu, saa han havde sikkert glemt det hele.</p>
+<p>Han tog frimerkealbumet med sig paa skolen n&#x00E6;ste dag. Det var jo ikke saa skraasikkert endda, om han solgte det. &#x2013;</p>
+<p>Han viste det frem til Elias Weigert. Og Elias beundrede og sammenlignede og spurgte og grov om al ting.</p>
+<p>&#x00AB;Vil du kj&#x00F8;be det?&#x00BB; spurgte Paul pludselig.</p>
+<p>&#x00AB;Er du gal, gut, vil du s&#x00E6;lge?&#x00BB;</p>
+<p>&#x00AB;Det var nok muligt.&#x00BB;</p>
+<p>&#x00AB;Hvormeget vil du have?&#x00BB;</p>
+<p>&#x00AB;Tyve kroner.&#x00BB;</p>
+<p>&#x00AB;Han er spikende gal han!&#x00BB; &#x2013; Elias sl&#x00E6;ngte albumet fra sig, &#x00AB;havde du sagt fem, saa.&#x00BB;</p>
+<p>S&#x00E6;lge frimerkealbumet for fem kroner, nei, f&#x00F8;r kunde det v&#x00E6;re det samme med konfekt og danseskole og al ting.</p>
+<p>Idetsamme han b&#x00F8;iede ud af skolegaarden og skulde gaa hjem, var Elias efter ham igjen.</p>
+<p>&#x00AB;Jeg skal give syv.&#x00BB;</p>
+<p>&#x00AB;Nei.&#x00BB;</p>
+<p>&#x00AB;Otte da.&#x00BB;</p>
+<p>&#x00AB;Nei.&#x00BB;</p>
+<p>&#x00AB;Ja giver jeg ti, saa har du faaet evig nok, tv&#x00E6;rpompen, for alle de gamle fillemerkerne dine.&#x00BB;</p>
+<p>Paul saa ned paa det gamle r&#x00F8;de albumet <pb n="39"/>med guldbogstaverne udenpaa, som han havde havt saa l&#x00E6;nge han kunde huske n&#x00E6;sten; det var rent slidt i hj&#x00F8;rnerne.</p>
+<p>&#x00AB;Ja, vil du ikke, er det mig komplet det samme,&#x00BB; Elias vilde skraa over gaden.</p>
+<p>&#x00AB;Jeg skal t&#x00E6;nke paa det til imorgen.&#x00BB;</p>
+<p>&#x00AB;Noget saa tv&#x00E6;rket som dig &#x2013; v&#x00E6;rsgod, t&#x00E6;nk du!&#x00BB;</p>
+<p>Elias Weigert vendte braat om og f&#x00F3;r nedover igjen.</p>
+<p>&#x2013; &#x2013; Uf, at han ikke havde taget imod de ti kronerne, saa kunde han kj&#x00F8;bt konfekt til Lollik til iaften. Hestedumt ogsaa. Han troede knapt nok, han vilde gaa paa danseskolen iaften. &#x2013;</p>
+<p>Straks over middag kom Elias Weigert op paa hans v&#x00E6;relse. Det var saa sjelden, at der kom nogen gutter op til ham den lange vei fra byen, at det var rent rart. Han var vis paa, at tante Lena vilde l&#x00E6;gge merke til det og sp&#x00F8;rge, hvad det var for en gut.</p>
+<p>&#x00AB;Jeg skal sige dig,&#x00BB; begyndte Elias ivrig, &#x00AB;jeg t&#x00E6;nkte paa noget, gut. Jeg skal reise ind til Kristiania imorgen til begravelse, jeg, ikke noget s&#x00F8;rgeligt, bare den &#x00E6;ldgamle bedstemoderen min, du ved. Broderen min kjender en mand, som kj&#x00F8;ber frimerker, og saa skal jeg gaa did &#x2013; saa skal vi dele ligt, gut, &#x2013; <pb n="40"/>vi kan faa gr&#x00E6;sselig mange penge for det, saa ustyrtelig mange sjeldne frimerker, du netop har.&#x00BB;</p>
+<p>Paul funderte en liden stund paa dette, han troede ikke noget videre paa Elias, han var ligesom altid saa ful og vringlete &#x2013; men det kunde jo h&#x00E6;nde, at han kunde faa flere penge for det der end her.</p>
+<p>&#x00AB;Dele ligt var nu sv&#x00E6;rt da,&#x00BB; sagde Paul tilslut.</p>
+<p>&#x00AB;Det som blir over tyve kroner, kan jeg faa da.&#x00BB;</p>
+<p>&#x00AB;Ja &#x2013; det kunde vel lade sig h&#x00F8;re.&#x00BB;</p>
+<p>Ja saa aftalte de, at de skulde gj&#x00F8;re det paa den maade.</p>
+<p>&#x00AB;Svinagtig lang vei opover her til dig, gut&#x00BB; &#x2013; og Elias pilte til byen igjen med albumet under armen.</p>
+<p>Inderlig godt, nu skulde han da faa penge, og det mange penge ogsaa. Nu skulde Lollik faa noget meget finere, end alle de andre havde givet hende. Han havde seet en &#x00E6;ske med konfekt i et vindu med roser udenpaa og knyttet med silkebaand &#x2013; den vilde han kj&#x00F8;be.</p>
+<p>Han havde da sandelig lov til at gj&#x00F8;re med sit, hvad han vilde. Han gav sig til at gj&#x00F8;re noget oppe paa sit v&#x00E6;relse, endda der ikke var lagt i ovnen nu straks over middag, ryddede i <pb n="41"/>boghylden &#x2013; og jam&#x00E6;nd var bl&#x00E6;khuset hans ogsaa bra bl&#x00E6;kket nu. &#x2013;</p>
+<p>Du verden, t&#x00E6;nk om tante Lena vidste, at han vilde kj&#x00F8;be konfekt til en pige &#x2013; og far beh&#x00F8;vede jo slet ikke at vide noget om det i det hele.</p>
+<p>Om aftenen kom der en ungdomsven af faderen op paa bes&#x00F8;g. Han laa over med dampskibet og spiste aftens deroppe. Han var kammerherre, lidt tykfalden, n&#x00E6;sten lidt oppustet, men f&#x00F8;rte sig med megen lethed og elegance, fortalte morsomt og n&#x00F8;d amtmandens gamle vine med et vist forstaaende smek med tungen. Tante Lena var synlig oplivet og havde arrangeret en fin liden soup&#x00E9;. Selv amtmanden talte mere, end han pleiede.</p>
+<p>Kammerherren havde ofte henvendt sig til Paul om skolen og hans studier, &#x2013; henimod slutten af maaltidet blussede hans ansigt sterkt over servietten, der var stukket ind i knaphullet.</p>
+<p>&#x00AB;Maa jeg saa drikke et glas med dig, min unge ven, min kj&#x00E6;re gamle vens s&#x00F8;n&#x00BB; &#x2013; det lille smek med tungen var der igjen &#x2013; &#x00AB;ingen forelskelse vel endnu, min unge mand &#x2013; ingen kurtise med smaapigerne vel?&#x00BB;</p>
+<p>Paul Borch blev blodr&#x00F8;d, det var saavidt, han ikke fik vinen i vrangstruben. Svinagtig v&#x00E6;mmeligt ogsaa. &#x2013;</p>
+<p><pb n="42"/>&#x00AB;Nei gudskelov, Paul er et fuldst&#x00E6;ndigt barn endnu,&#x00BB; tog tante Lena ordet, &#x00AB;han har i den grad liden interesse for det smukke kj&#x00F8;n &#x2013; jeg tror virkelig ikke, han kjender en eneste pige paa sin alder.&#x00BB;</p>
+<p>&#x00AB;Se, se,&#x00BB; sagde kammerherren, &#x00AB;det var dog en meget merkelig ung kavaler &#x2013; da var det dog anderledes i vor tid, fr&#x00F8;ken, maa jeg have den store &#x00E6;re &#x2013;&#x00BB;</p>
+<p>Tante Lena nippede til sit glas: &#x00AB;Nei, Paul er min gut han, i den retning er jeg tryg.&#x00BB;</p>
+<p>&#x00AB;Det stille vand &#x2013; og den dybe grund,&#x00BB; lo kammerherren og blinkede til Paul.</p>
+<p>Amtmanden likte &#x00F8;iensynlig ikke denne passiar og fik det bort i noget andet. Da kammerherren merkede det, blev han med en eneste gang meget h&#x00F8;itidelig og talte med halvlukkede &#x00F8;ine meget alvorlig om et religi&#x00F8;st videnskabeligt sp&#x00F8;rgsmaal, der netop var dagens tema.</p>
+<p>&#x00AB;Nei, hvor morsomt, at du spiser russiske erter nu, Paullikken,&#x00BB; sagde tante Lena med halvh&#x00F8;i stemme.</p>
+<p>Han havde ikke id&#x00E9; om, hvad han spiste.</p>
+<p>Hvor inderlig godt, at tante Lena ikke vidste noget om konfekten, han vilde kj&#x00F8;be &#x2013; og det gamle albumet og al ting &#x2013; endda han angrede ikke det mindste paa det, saa koselig som Lollik Bommen var.</p>
+<p><pb n="43"/>Han var morsom, den kammerherren gid der ofte kom slige hyggelige gjester!</p>
+<p>Hesten var alt kommet efter kammerherren, dampskibet skulde gaa &#x00F8;ieblikkelig, afskeden gik i en fart: &#x00AB;Farvel &#x00E6;dle, unge mand!&#x00BB; &#x2013; Pauls haand blev rystet kraftig, og &#x00F8;ieblikket efter sad amtmanden, tante Lena og Paul igjen i den dybeste stilhed under den store lampe med den gr&#x00F8;nne silkeskj&#x00E6;rm. Men der laa alligevel ligesom noget oplivende igjen i luften.</p>
+<p>&#x00AB;Det er sandt,&#x00BB; sagde amtmanden pludselig, &#x00AB;hvor godt, at jeg huskede paa det&#x00BB; &#x2013; han tog op sin lommebog og ledte i den. &#x2013; &#x00AB;Her har jeg gaaet i lange tider med et overmaade sjeldent frimerke til dig, det er gammelt, fra &#x00C6;gypten, som du ser; hent dit frimerkealbum, skal vi sammenligne og se, om du har noget tiln&#x00E6;rmelsesvis lignende.&#x00BB;</p>
+<p>Paul blev igjen sprutr&#x00F8;d: &#x00AB;Nei jeg &#x2013; jeg har det ikke &#x2013;&#x00BB;</p>
+<p>&#x00AB;Har du det ikke &#x2013; hvorledes &#x2013;?&#x00BB;</p>
+<p>&#x00AB;Jeg &#x2013; jeg laante Elias Weigert det idag.&#x00BB;</p>
+<p>&#x00AB;Naa, saa venter vi til imorgen,&#x00BB; sagde amtmanden og lagde frimerket igjen i sin lommebog. &#x00AB;Det er rent pudsigt,&#x00BB; henvendte han sig til tante Lena, &#x00AB;jeg har ellers ingen <pb n="44"/>samlermani, men frimerker interesserer mig virkelig.&#x00BB;</p>
+<p>&#x00AB;Paul har ogsaa en nydelig samling,&#x00BB; sagde tante Lena, &#x00AB;du skulde virkelig ikke laane ud den smukke samling til hvemsomhelst, Paullikken.&#x00BB;</p>
+<p>&#x00AB;Du kan vide, de bytter sig imellem,&#x00BB; sagde amtmanden venlig, &#x00AB;men husk paa at faa det igjen imorgen, Paul, det skal more mig at se det gjennem igjen.&#x00BB;</p>
+<p>Paul stirrede ned i sin bog, bogstaverne dansede for hans &#x00F8;ine. Du store alverden, hvorledes skulde dette gaa!</p>
+<p>T&#x00E6;nk at han havde sagt, at han havde laant bort albumet, og nu vilde far se det imorgen.</p>
+<p>T&#x00E6;nk han havde l&#x00F8;iet for far! Han kunde aldrig huske, at han havde gjort det f&#x00F8;r. Aldrig. Nei, dette var det v&#x00E6;rste, som kunde h&#x00E6;nde. Men han maatte lyve igjen. Jo, han maatte. For han kunde umulig sige til far, at han havde solgt frimerkealbumet for at faa konfekt til en pige. &#x2013;</p>
+<p>T&#x00E6;nk om tante Lena ogsaa fik vide det! Tankerne aldeles hvirvlede inde i hans hoved. Hvad skulde han gj&#x00F8;re?</p>
+<p>Nei, ingen i verden maatte vide, at han havde solgt frimerkealbumet sit af den grund.</p>
+<p><pb n="45"/>Bare han kunde faa fat paa Elias Weigert iaften. Men klokken var over halv elleve, og Weigerts havde ikke telefon, det vidste han.</p>
+<p>L&#x00F8;be til byen nu i stupende b&#x00E6;lgm&#x00F8;rke &#x2013; ikke heller fik han vel lov til det, om han end kunde finde paa en grund. &#x2013;</p>
+<p>Nei, han fik vente til imorgen, Elias reiste nok ikke saa tidligt, saa vilde han faa albumet igjen &#x2013; det fik v&#x00E6;re det samme med konfekt og al ting, for lyve for far var det v&#x00E6;rste, som kunde h&#x00E6;nde.</p>
+<p>&#x00AB;Hvor du dog er interesseret i den bog,&#x00BB; h&#x00F8;rte han tante Lenas stemme, &#x00AB;du h&#x00F8;rer jo ikke engang, naar man taler til dig.&#x00BB;</p>
+<p>&#x00AB;Ja, Cooper er morsom,&#x00BB; nikkede faderen.</p>
+<p>Tidlig n&#x00E6;ste morgen var Paul paa benene.</p>
+<p>Nei, han havde ikke tid til at vente paa eg og den stegte skinke. &#x2013;</p>
+<p>&#x2013; Om Elias var hjemme?</p>
+<p>Nei da, han reiste igaaraftes han.</p>
+<p>Om de vidste adressen.</p>
+<p>Neim&#x00E6;nd om de huskede den, der var ingen andre hjemme end to tjenestepiger.</p>
+<p>Der kom en dump f&#x00F8;lelse over ham. Se saa, det var intet at gj&#x00F8;re ved det, han maatte finde paa noget at sige til far, han maatte lyve, han maatte.</p>
+<p>Det var bedst at sige det ved middagsbordet, <pb n="46"/>f&#x00F8;r far spurgte ham, for da faldt det vist lettest og ligesom naturligst. Han kunde jo sige, at Elias havde kommet til at kaste albumet i sj&#x00F8;en, eller br&#x00E6;nde det op. Nei, det var naturligst, at det var br&#x00E6;ndt op, lampen veltede &#x2013; jo, det var lettest det med lampen. &#x2013;</p>
+<p>Han &#x00F8;vede sig i at sige det ligesom fort og ligegyldig: T&#x00E6;nk Elias Weigert har br&#x00E6;ndt op frimerkealbumet mit &#x2013; lampen veltede &#x2013;</p>
+<p>&#x2013; De var kommet helt til desserten ved middagsbordet, f&#x00F8;r han kunde komme sig til at sige det, og da gik det saa fort, at han n&#x00E6;sten snublede over ordene.</p>
+<p>&#x00AB;Elias Weigert har br&#x00E6;ndt op frimerkealbumet mit &#x2013; der veltede en lampe &#x2013;&#x00BB;</p>
+<p>&#x00AB;Det var da et uheld,&#x00BB; sagde amtmanden.</p>
+<p>&#x00AB;Kj&#x00E6;re, det har da ikke staaet noget i aviserne om det,&#x00BB; sagde tante Lena, &#x00AB;det pleier da altid staa om beatricer, som eksploderer, og lamper, som velter &#x2013;&#x00BB;</p>
+<p>&#x00AB;Det blev vist snart slukket,&#x00BB; sagde Paul utydelig.</p>
+<p>&#x00AB;Ja, der er megen moro og hygge gaaet tabt for dig med det,&#x00BB; sagde saa faderen venlig, &#x00AB;stakkars gutten min.&#x00BB;</p>
+<p>Han saa ikke op. Hvor f&#x00E6;lt det var, at far var saa snild, nu som han sad her og l&#x00F8;i.</p>
+<p><pb n="47"/>&#x00AB;Ja, dette er en l&#x00E6;repenge, Paullikken,&#x00BB; begyndte tante Lena, &#x00AB;rigtig en l&#x00E6;repenge &#x2013;&#x00BB;</p>
+<p>Nei, han havde ikke nogen ro paa sig til at l&#x00E6;se lekser idag. Det store lyser&#x00F8;de ansigtet hans blev mer og mer trodsigt, der han sad med albuerne paa bordet oppe paa sit v&#x00E6;relse.</p>
+<p>Han var ligeglad med alting! Knusende ligeglad. Han kunde ligesaa gjerne gaa ned og borge den konfekten, saa havde han da den hyggen at give Lollik Bommen den iaften. At han ikke havde t&#x00E6;nkt paa det f&#x00F8;r, at han bare kunde borge den konfekten &#x2013; han fik jo alt, hvad han vilde, han &#x2013; amtmandens s&#x00F8;n.</p>
+<p>Han gik til byen med lange skridt, ludede endda mere med hovedet, end han pleiede.</p>
+<p>Ja, det var ikke det mindste iveien for, at han kunde faa den fine &#x00E6;ske med konfekt paa kredit. Men isch, saa dyr den var. Fire kroner. Men nu kunde han ikke sige, at han ikke vilde have den heller, nu naar han alt stod med &#x00E6;sken i haanden og til og med havde spurgt, om han kunde faa den paa kredit.</p>
+<p>Han skulde betale den om to dage.</p>
+<p>&#x00AB;Ganske efter behag, hr. Borch.&#x00BB;</p>
+<p>F&#x00F8;rste gang, han havde taget noget paa kredit ogsaa. Ja, nu var det gjort. Han saa igjen skr&#x00E6;kkelig trodsig ud.</p>
+<p><pb n="48"/>Han var den allerf&#x00F8;rste, der kom paa danseskolen den aften. Hoteltjeneren gik endda og pudsede og stelte inde i salen. Det var da merkeligt, at det var saa tidligt, saa evig lang denne eftermiddagen havde v&#x00E6;ret.</p>
+<p>Saa sene, som allesammen var idag ogsaa. De kom jo aldrig. Nu var klokken et minut over seks, og Lollik var ikke kommet endda.</p>
+<p>Naa endelig, der h&#x00F8;rte han hendes stemme, hun lo ude i forv&#x00E6;relset. Der kom hun og Magdalene Nilsen. Slig som alle roste det kr&#x00F8;llede sorte haaret til Magdalene &#x2013; enhver kunde da se, at gult, tykt haar var meget penere.</p>
+<p>Det var flaut at gaa over gulvet saadan ganske alene, men skyndte han sig ikke, saa kom der en anden, og saa dansede Lollik med ham. Han gik med lange skridt over gulvet.</p>
+<p>&#x00AB;V&#x00E6;rsgod, vil du have lidt konfekt?&#x00BB; Uf, han kom til at r&#x00E6;kke hende &#x00E6;sken, medens han endnu var saa langt fra hende, at han maatte staa med aldeles strak arm.</p>
+<p>&#x00AB;Har du ogsaa konfekt &#x2013; gid &#x2013; nei tak &#x2013; nu har jeg aldeles forspist mig paa konfekt &#x2013; jeg er saa kjed konfekt, saa &#x2013;&#x00BB;</p>
+<p>Musiken spillede op. &#x00AB;Saa danser vi da,&#x00BB; sagde Jens Berentsen, og Lollik og han valsede ud.</p>
+<p><pb n="49"/>Paul stod igjen med &#x00E6;sken med de lyseblaa silkebaand. Vilde hun virkelig ikke have den &#x2013; aa &#x2013; aa &#x2013;</p>
+<p>Aa, han hadede hende &#x2013; aa, han hadede hende forf&#x00E6;rdelig. &#x2013;</p>
+<p>Det var som noget kogte inde i ham, det gik n&#x00E6;sten rundt for ham &#x2013; han vilde l&#x00F8;be hjem &#x2013; han vilde ikke v&#x00E6;re her. &#x2013;</p>
+<p>Han saa efter hende. Det lyste i hendes hvide t&#x00E6;nder, slig lo hun over skulderen til Jens Berentsen.</p>
+<p>Nei, saadan havde han aldrig hadet noget menneske, som han hadede Lollik Bommen. &#x00AB;Hade&#x00BB; var netop det rigtige ord, &#x00AB;v&#x00E6;re vond paa&#x00BB; var et altfor svagt udtryk for det, han f&#x00F8;lte.</p>
+<p>&#x00AB;Falder unge hr. Borch i tanker?&#x00BB; Det var dansel&#x00E6;rerinden. &#x00AB;Vil De behage at tage denne dame.&#x00BB;</p>
+<p>Det var atter Gusta Olsen. &#x00AB;Jeg &#x2013; jeg maa hjem,&#x00BB; sagde Paul med tyk stemme, &#x00AB;jeg tror jeg har hovedpine.&#x00BB;</p>
+<p>&#x00AB;Pyt hovedpine,&#x00BB; sagde Gusta Olsen, &#x00AB;jeg har hovedpine bestandig, jeg &#x2013; gid for en nydelig &#x00E6;ske &#x2013; er det teaterkonfekt?&#x00BB;</p>
+<p>&#x00AB;Vil du have den?&#x00BB; sagde Paul pludselig, endda tykkere i m&#x00E6;let.</p>
+<p>&#x00AB;Aa gid, hvor flot &#x2013; nei tusen tak &#x2013; har du virkelig kj&#x00F8;bt den til mig?&#x00BB;</p>
+<p><pb n="50"/>Med en eneste gang blev Paul ligeglad med Lollik og al ting &#x2013; skidt!</p>
+<p>&#x00AB;Ingen af de andre pigerne har faaet saadan nydelig &#x00E6;ske som denne,&#x00BB; vedblev Gusta, &#x00AB;den er vel forf&#x00E6;rdelig dyr?&#x00BB;</p>
+<p>&#x00AB;Ja sv&#x00E6;rt.&#x00BB;</p>
+<p>De dansede ud. Idetsamme de dansede forbi Lollik og Jens Berentsen, der havde taget plads i en sofa, sagde Jens &#x2013; Paul h&#x00F8;rte det tydelig:</p>
+<p>&#x00AB;Akkurat passeligt par.&#x00BB;</p>
+<p>Det var ham og Gusta Olsen, han mente.</p>
+<p>Aa, om han kunde l&#x00F8;be bort og rundjule Jens Berentsen. Rigtig ordentlig juling. &#x2013;</p>
+<p>Han fulgte dem med &#x00F8;inene, medens han dansede. Lollik saa ikke op, men sad og stregede med foden paa gulvet.<note type="footnote">gulvet] <hi rend="italic">rettet fra:</hi> Gulvet <hi rend="italic">(trykkfeil)</hi></note> &#x2013;</p>
+<p>&#x00AB;Gid som du danser da, gut,&#x00BB; sagde Gusta Olsen.</p>
+<p>&#x00AB;Skal vi s&#x00E6;tte os?&#x00BB; sagde Paul.</p>
+<p>Der dansede Lollik ud med Yngvar Lie. Ja du kan v&#x00E6;re blaa for, at jeg skal engagere dig mere, mor. &#x2013;</p>
+<p>Se nu saadant leven hun holdt, nu stod der om hende fire gutter mindst.</p>
+<p>Nei, nu havde han hovedpine &#x2013; r&#x00E6;dsomt &#x2013; han listede sig ud.</p>
+<p>Han spr&#x00E6;ngl&#x00F8;b hele veien hjemover. T&#x00E6;nk han, der havde l&#x00F8;iet for far og borget <pb n="51"/>den &#x00E6;sken, og saa vilde hun ikke have den! Aa slig som han hadede hende!</p>
+<p>Tante Lena var snild, da han kom hjem. &#x00AB;Stakkars min gut, hvor varm du er i panden.&#x00BB;</p>
+<p>Ja han vilde helst l&#x00E6;gge sig, saa slap han at sidde nede med far hele aftenen.</p>
+<p>Til sin egen forbauselse sov han hele natten. Han skulde aldrig se paa Lollik Bommen mere, om han m&#x00F8;dte hende en gang.</p>
+<p>Han var ligesom dumpt ligeglad hele formiddagen paa skolen &#x2013; hun kunde v&#x00E6;re inderlig blaa for, at han skulde snakke til hende mere, og se paa hende ogsaa. &#x2013;</p>
+<p>&#x00AB;Jeg har kj&#x00F8;bt billet til dig ogsaa til konserten iaften,&#x00BB; sagde tante Lena ved middagsbordet, &#x00AB;det gj&#x00F8;r vel ikke saa meget, om du fors&#x00F8;mmer danseskolen en aften.&#x00BB;</p>
+<p>Hvor deiligt det var! Altid havde han v&#x00E6;ret saa kjed af det, at tante Lena trak ham med paa alle konserter. Han brydde sig ikke et pluk om det, det var bare tante Lena, som paa d&#x00F8;d og liv vilde han skulde v&#x00E6;re musikalsk, fordi hans mor havde v&#x00E6;ret det.</p>
+<p>&#x00AB;Ja, han kunde saa udmerket godt lade v&#x00E6;re at gaa paa danseskole iaften.&#x00BB;</p>
+<p>&#x2013; Konsertsalen var propfuld, da tante Lena og Paul kom ind. Paul var altid glad, naar de slap at gaa midtgangen opover, hvor <pb n="52"/>alle saa dem. De skulde heldigvis idag have pladse n&#x00E6;rmere v&#x00E6;ggen og tr&#x00E6;ngte sig opover den smale gang, tante Lena foran, Paul efter.</p>
+<p>Saa havde tante Lena naturligvis<note type="footnote">naturligvis] <hi rend="italic">rettet fra:</hi> nuturligvis <hi rend="italic">(trykkfeil)</hi></note> glemt program, og Paul maatte klemme sig ud igjen.</p>
+<p>Da han kom ind igjen, saa han pludselig Lollik Bommens hoved borte paa den anden side af midtgangen. Hun vendte ansigtet lige mod ham &#x2013; nu nikkede hun.</p>
+<p>Paul b&#x00F8;iede hovedet, men saa straks til en anden kant. Men da han var kommet paa plads, fik han alligevel saadan lyst til at se bort til den side Lollik sad.</p>
+<p>Han vilde ikke se efter hende naturligvis &#x2013; langtifra &#x2013; han vilde bare se, hvor det var hun egentlig sad. Han havde ikke opfattet det i farten.</p>
+<p>Han saa derbort. Der strakte ogsaa Lollik hovedet frem &#x2013; nei, nu nikkede hun igjen.</p>
+<p>Lynsnart trak han hovedet tilbage uden at nikke igjen.</p>
+<p>Det var en violinsolo, som blev spillet. Han spillede jo saa sagte, at det var n&#x00E6;sten ikke til at h&#x00F8;re, folk pustede n&#x00E6;sten ikke bare for at lytte.</p>
+<p>Det var forresten ikke v&#x00E6;rst pent &#x2013; uf, hvor lei han var af sig, fordi han ikke havde nikket til Lollik igjen. For det var uh&#x00F8;fligt ikke at nikke igjen, naar hun gjorde det.</p>
+<p><pb n="53"/>Nei, han maatte se efter den gule fletten igjen. Med det samme saa Lollik bort til ham &#x2013; nei noget saa flaut &#x2013; lynsnart dukkede han bag tante Lena.</p>
+<p>Men saa maatte han se derbort igjen &#x2013; bare for &#x2013; bare for at se, hvor det egentlig var hun sad.</p>
+<p>Violinsoloen var forbi, de klappede voldsomt rundt ham.</p>
+<p>&#x00AB;Et yndigt pianissimo,&#x00BB; hviskede tante Lena, &#x00AB;men hvorfor sidder du og dreier og vender dig saadan, er det nogen du ser efter.&#x00BB;</p>
+<p>&#x00AB;Jeg &#x2013; nei langtifra.&#x00BB;</p>
+<p>Saa sad han som en mur bag tante Lena. Bare en eneste gang til saa han derbort, og da havde han siddet og t&#x00E6;nkt paa det saal&#x00E6;nge, at han vidste ikke af, f&#x00F8;r han gjorde det.</p>
+<p>Men da saa han bare den gule fletten og lidt af et r&#x00F8;dt kind.</p>
+<p>I grunden havde han lyst at snakke med hende ogsaa. Nei, ikke snakke heller, men bare &#x2013; nei, snakke vilde han ikke paa nogen maade.</p>
+<p>Han stillede sig lige ved indgangen, da alle str&#x00F8;mmede ud. Det gik langsomt, for huset var propfuldt. Men hvorfor ialverden kom ikke Lollik!</p>
+<p>F&#x00F8;r havde han altid v&#x00E6;ret inderlig kjed af tante Lenas uendelige passiarer inde i garderoben. <pb n="54"/>Idag var det hende og gamle admiralinden &#x2013; du, hvor de snakkede!</p>
+<p>Bare de vilde snakke endda l&#x00E6;nger.</p>
+<p>En gang maatte da Lollik komme.</p>
+<p>Nei, nu var der n&#x00E6;sten ingen andre igjen end tante Lena og admiralinden, hvor ialverden var det blevet af Lollik! Han havde da sandelig seet n&#x00F8;ie efter, for han havde jo ikke t&#x00E6;nkt paa andet.</p>
+<p>Paa hjemveien kom hele elendigheden med frimerkealbumet, og at han havde l&#x00F8;iet og borget, over ham igjen. Det smaaregnede, saa de kj&#x00F8;rte med opslaaet kalesche, det var som han skulde kv&#x00E6;les, der han sad. Tante Lena kunde aldrig tie l&#x00E6;nge stille, nu snakkede hun med Svend kusk, det bar opover hele veien, saa det gik langsomt.</p>
+<p>Aa, hvor lei han var af sig for alle mulige ting.</p>
+<p>Stuepigen aabnede d&#x00F8;ren, da hesten stansede.</p>
+<p>&#x00AB;Amtmanden havde bedt om, at Paul skulde komme ind til ham paa kontoret, straks han kom hjem.&#x00BB;</p>
+<p>Paul kvak i. Hvad var det far vilde ham?</p>
+<p>Du store alverden, hvad var det?</p>
+<p>Han blev staaende i det ydre kontor, der hvor kontoristerne pleiede at sidde. Der var m&#x00F8;rkt &#x2013; uf, han gruede saa for at gaa ind til <pb n="55"/>far! Han kunde da umulig vide noget om frimerkealbumet, men kanske konditoren alt havde sendt regning!</p>
+<p>Han h&#x00F8;rte faderen r&#x00F8;mme sig inde paa sit kontor.</p>
+<p>Nei han vilde vente til imorgen med at gaa derind. Idetsamme han famlede sig ud, st&#x00F8;dte han mod en stol.</p>
+<p>D&#x00F8;ren til kontoret blev aabnet: &#x00AB;Er her nogen?&#x00BB;</p>
+<p>&#x00AB;Ja &#x2013; det er bare mig.&#x00BB;</p>
+<p>&#x00AB;Kom herind.&#x00BB;</p>
+<p>Der var altid en egen lugt inde paa fars kontor. I gamle dage havde han altid syntes, der lugtede saa fint af sterke cigarer og b&#x00F8;ger i skindbind og papirer. Nu kunde han rigtignok ogsaa forstaa, hvad tante Lena mente, naar hun sagde, at der lugtede st&#x00F8;v. Tante Lena klagede jo altid over, at hun ikke fik vaske alle v&#x00E6;ggene derinde og puste og bl&#x00E6;se st&#x00F8;vet af hvert eneste papir. Far fik da sandelig have lov at gj&#x00F8;re, som han vilde, naar han vilde have st&#x00F8;v i boghylderne sine, saa beh&#x00F8;vede ikke tante Lena bry sig. &#x2013;</p>
+<p>En ting, som Paul ogsaa altid syntes var saa fint ved fars kontor, var de gr&#x00F8;nne tykke gardiner, som ikke blev heftet op, men som far vilde skulde h&#x00E6;nge ret ned. Det var ligesom <pb n="56"/>saa aristokratisk. Det store skrivebord stod ret ud fra v&#x00E6;ggen mellem begge vinduer.</p>
+<p>Han likte i grunden aldrig rigtig at komme ind paa fars kontor. Bare fordi han ikke vidste, hvad han skulde snakke om med far. Det var saa generet. Og saa hang det store billede af mor der ogsaa, og det var saa s&#x00F8;rgeligt. Han vilde helst ikke se paa det, Paul.</p>
+<p>&#x00AB;Naa, er det dig?&#x00BB; &#x2013; Far ledte mellem nogen breve paa skrivebordet, du, hvor skaldet far var blevet i det sidste, han saa det saa godt nu lige under den sv&#x00E6;re lampe. &#x2013; &#x00AB;Jeg har faaet et brev &#x2013; naa her er det &#x2013; det var jo saa, at dit frimerkealbum var br&#x00E6;ndt op?&#x00BB;</p>
+<p>Paul kvak i, saa han n&#x00E6;sten begyndte at skj&#x00E6;lve.</p>
+<p>&#x00AB;Ja &#x2013;a.&#x00BB;</p>
+<p>&#x00AB;Jeg har faaet et brev,&#x00BB; amtmanden blev staaende, men holdt brevet op under lampen, &#x00AB;fra en mig ubekjendt mand i Kristiania. Han skriver:</p>
+<p>&#x00AB;Der er idag af en gut blevet udbudt mig til salg et album med ca. tusen frimerker, en ganske sjelden samling, efter sigende tilh&#x00F8;rende hr. amtmandens s&#x00F8;n. Da samlingen er ret v&#x00E6;rdifuld, og det ikke var eieren selv, der falb&#x00F8;d den, t&#x00F8;r jeg herved foresp&#x00F8;rge, om denne sag har sin rigtighed.&#x00BB;</p>
+<p><pb n="57"/>Amtraanden saa over brillerne hen paa sin s&#x00F8;n. &#x00AB;Hvad er dette? Den gut, du laante dit album har altsaa l&#x00F8;iet for dig og sagt, det var blevet &#x00F8;delagt, og reiser saa direkte ind og udbyder det til salg til denne mand.&#x00BB;</p>
+<p>Paul havde grebet fat i faderens kontorstol. Han havde en f&#x00F8;lelse, som om alt blodet str&#x00F8;mmede ham fra hovedet ned i hjertet, men ikke en lyd kom over hans l&#x00E6;ber.</p>
+<p>&#x00AB;Nu,&#x00BB; sagde amtmanden igjen, &#x00AB;du siger intet &#x2013; naturligvis gj&#x00F8;r det indtryk paa dig, at denne din skolekamerat kunde opf&#x00F8;re sig saa skammelig &#x2013; hvad er hans navn, jeg maa henvende mig til hans far.&#x00BB;</p>
+<p>&#x00AB;Nei far&#x00BB; &#x2013; halsen sn&#x00F8;rede sig aldeles sammen paa ham, &#x00AB;nei &#x2013;&#x00BB;</p>
+<p>&#x00AB;Hvilket?&#x00BB;</p>
+<p>&#x00AB;Det er jo ikke sandt &#x2013; jeg har l&#x00F8;iet far &#x2013; det var ikke sandt, det jeg sagde.&#x00BB; &#x2013; Han sank ned i faderens kontorstol og holdt begge h&#x00E6;nder op for ansigtet.</p>
+<p>&#x00AB;Hvorledes h&#x00E6;nger dette sammen, hvad er ikke sandt?&#x00BB; Amtmanden heiste h&#x00E6;ngelampen h&#x00F8;iere op, saa lyset faldt sterkere paa den sammensunkne gut i stolen.</p>
+<p>&#x00AB;Det var ikke sandt, at albumet br&#x00E6;ndte op&#x00BB; &#x2013; voldsom hikst og graat.</p>
+<p>&#x00AB;Saa &#x2013; aa &#x2013;&#x00BB;</p>
+<p><pb n="58"/>&#x00AB;Jeg vilde s&#x00E6;lge det&#x00BB; &#x2013; endda sterkere graat.</p>
+<p>&#x00AB;Hvorfor?&#x00BB;</p>
+<p>&#x00AB;Jeg vilde have nogen penge.&#x00BB;</p>
+<p>&#x00AB;Hvad skulde de bruges til?&#x00BB;</p>
+<p>Intet svar.</p>
+<p>&#x00AB;Jeg venter et svar, Paul,&#x00BB; sagde amtmanden koldt.</p>
+<p>&#x00AB;Jeg kan ikke sige det, far.&#x00BB;</p>
+<p>&#x00AB;Kan du ikke sige det &#x2013; saa maa det v&#x00E6;re noget meget slemt.&#x00BB;</p>
+<p>Paul havde lagt hovedet ned paa faderens skrivebord: &#x00AB;Nei &#x2013; jo &#x2013; nei det er ikke noget galt.&#x00BB;</p>
+<p>Der maatte v&#x00E6;re noget ved det lyse guttehoved der paa skrivebordet, som r&#x00F8;rte faderen.</p>
+<p>Han lagde sin haand paa den stridhaarede nakke.</p>
+<p>&#x00AB;Saavidt jeg ved, er det f&#x00F8;rste gang, du har l&#x00F8;iet for mig, Paul, &#x2013; jeg ser, du tager dig n&#x00E6;r af det &#x2013; hvad er det?&#x00BB;</p>
+<p>Hvor frygteligt dette var! Hvor grusomt at sige til far, at han vilde have penge til konfekt til en pige. Far kunde vist ikke forstaa det. &#x2013;</p>
+<p>&#x00AB;Aa far &#x2013; nei jeg kan ikke sige det &#x2013; jo jeg vil&#x00BB; &#x2013; han reiste sig op og stod lige ved siden af faderen.</p>
+<p><pb n="59"/>&#x00AB;Du synes vist, det er rart &#x2013; du kan vist ikke forstaa det &#x2013; men jeg vilde bare have noget konfekt til en pige.&#x00BB;</p>
+<p>&#x00AB;Til en pige!&#x00BB;</p>
+<p>&#x00AB;Ja, en paa danseskolen &#x2013; alle de andre gutterne gav hende konfekt &#x2013; og saa vilde hun ikke danse med mig,&#x00BB; han var holdt op at graate, men pillede og str&#x00F8;g henover udskj&#x00E6;ringerne paa skrivebordet.</p>
+<p>&#x00AB;Og saa?&#x00BB;</p>
+<p>&#x00AB;Ja &#x2013; saa havde jeg ikke penge &#x2013; og saa blev Elias og jeg enige om, at han skulde s&#x00E6;lge albumet for mig.&#x00BB;</p>
+<p>&#x00AB;Og saa l&#x00F8;i du for din far&#x00BB;.</p>
+<p>&#x00AB;Ja for det var saa leit &#x2013;&#x00BB;</p>
+<p>&#x00AB;Hvilket?&#x00BB;</p>
+<p>&#x00AB;At jeg vilde have konfekt til en pige &#x2013; du skj&#x00F8;nner det vist ikke far, men det var saa skr&#x00E6;kkelig leit.&#x00BB;</p>
+<p>Amtmanden stod endnu med brevet i haanden: &#x00AB;Naa saaledes &#x2013; dette er altsaa sandheden?&#x00BB;</p>
+<p>&#x00AB;Ja far &#x2013; ikke v&#x00E6;r vond &#x2013; det har v&#x00E6;ret saa leit, saa.&#x00BB;</p>
+<p>Amtmanden lagde brevet omhyggelig sammen og stak det ind i konvolutten. &#x00AB;Naa, saaledes &#x2013;&#x00BB;</p>
+<p>Saa lagde han begge sine h&#x00E6;nder paa Pauls skuldre.</p>
+<p><pb n="60"/>&#x00AB;Du skj&#x00F8;nner vel, det ikke er noget hyggeligt, naar man f&#x00F8;rste gang opdager, at ens s&#x00F8;n har l&#x00F8;iet for en?&#x00BB;</p>
+<p>&#x00AB;Ja, far.&#x00BB; Han saa op paa ham. Der maatte v&#x00E6;re noget ved de smaa lyse &#x00F8;ine, som atter r&#x00F8;rte faderen. Han kastede et hastigt blik paa det store billede over sofaen.</p>
+<p>&#x00AB;Du er aldrig herinde og ser paa din mors billede, gutten min, du skulde gj&#x00F8;re det. Du har godt af at mindes hende.&#x00BB;</p>
+<p>Det rykkede i Paul, graaten vilde frem igjen.</p>
+<p>&#x00AB;Mig gl&#x00E6;der det billede hver dag med en vemodig gl&#x00E6;de.&#x00BB;</p>
+<p>Det vibrede om Pauls mund, saa han n&#x00E6;sten ikke kunde holde den rolig.</p>
+<p>&#x00AB;Det er ikke fornemt at lyve Paul &#x2013; ikke nobelt.&#x00BB;</p>
+<p>Pauls mund skalv endda sterkere.</p>
+<p>&#x00AB;Og saa ved du, der er en h&#x00F8;iere, du ogsaa skylder regnskab.&#x00BB;</p>
+<p>&#x00AB;Ja.&#x00BB;</p>
+<p>&#x00AB;Saa kan du gaa, jeg t&#x00E6;nker nok, du husker denne stund.&#x00BB;</p>
+<p>Gud &#x2013; han maatte sige det, at han havde borget konfekten ogsaa, jo han maatte, han maatte &#x2013;</p>
+<p>&#x00AB;Du &#x2013;&#x00BB;</p>
+<p>&#x00AB;Er det mere?&#x00BB;</p>
+<p><pb n="61"/>&#x00AB;Ja &#x2013; jeg borgede for fire kroner konfekt igaar.&#x00BB;</p>
+<p>&#x00AB;Saa,&#x00BB; far tog op sin portemonn&#x00E6; og leverede ham penge, &#x00AB;du betaler dem &#x00F8;ieblikkelig imorgen.&#x00BB;<note type="footnote">imorgen.&#x00BB;] <hi rend="italic">rettet fra:</hi> imorgen. <hi rend="italic">(trykkfeil)</hi></note></p>
+<p>&#x00AB;Ja.&#x00BB;</p>
+<p>&#x00AB;Er det endda mere.&#x00BB;</p>
+<p>&#x00AB;Nei.&#x00BB;</p>
+<p>Paul gik ud. Aa gid far havde spurgt ham lidt mere. Saa vilde han fortalt, at de lo af ham paa danseskolen og alt det, og at Lollik ikke vilde have konfekten, og at alting var saa grusomt leit, at han ikke vilde gaa paa danseskoleballet og &#x2013; bare ikke tante Lena fik vide det altsammen ogsaa.</p>
+<p>Han holdt paa at gaa nedenunder til faderens v&#x00E6;relse for at bede ham ikke sige noget til tante Lena. Han var alt helt ude paa gangen med t&#x00E6;ndt lys, for entrelamperne var slukket &#x2013; der tittede tante Lena paa sin d&#x00F8;r:</p>
+<p>&#x00AB;Hvad er det Paul &#x2013; er du syg?&#x00BB;</p>
+<p>&#x00AB;Nei da.&#x00BB;</p>
+<p>Tante Lena kom helt ud i nathabit: &#x00AB;Jo, noget er det, sig det straks.&#x00BB;</p>
+<p>Han mumlede noget om &#x00AB;vand paa karaflen&#x00BB; og skyndte sig ind igjen.</p>
+<p>Nei, magen til tante Lenas &#x00F8;ren! &#x2013;</p>
+<p><pb n="62"/>Der var tante Lena i d&#x00F8;rspr&#x00E6;kken med et glas vand. &#x00AB;Her har du vand, Paullikken, og for al del, du gaar jo i str&#x00F8;mpel&#x00E6;sten &#x2013;&#x00BB;</p>
+<p>&#x2013; Endda var det ligesom en lettelse, at det var blevet sagt, og at far vidste alt nu. Uf, hvor indviklet alt var blevet i det sidste. Alt det grusomme, han havde havt for dette frimerkealbumet for at faa de fillepengene, og saa vilde ikke Lollik have konfekten &#x2013; hvor rasende, han havde v&#x00E6;ret paa hende &#x2013; saa gjild hun alligevel i grunden var. Da han saa den gule fletten og det r&#x00F8;de kindet paa konserten iaften, saa maatte han huske paa, hvor inderlig hyggelig hun altid havde v&#x00E6;ret.</p>
+<p>Bare ikke tante Lena fik vide det, saa.</p>
+<p>Hvor s&#x00F8;rgeligt det var, da far sagde det om &#x00AB;vemodig gl&#x00E6;de&#x00BB;.</p>
+<p>Uf, at han kunde lyve for far. Han skjendte ikke heller, men han kunde vist ikke begribe, at en kunde have lyst at give en pige konfekt.</p>
+<p>Dumt forresten ogsaa &#x2013; hestedumt &#x2013; jenter er i grunden det v&#x00E6;rste, som find&#x0027;s.</p>
+<p>&#x2013; Han gik i en feber hele n&#x00E6;ste dag, om far skulde sagt noget til tante Lena. Nei, han merkede intet. Det var taust og stille ved maaltiderne, som sedvanligt, kanske endda lidt stillere. To dage efter laa frimerkealbumet <pb n="63"/>oppe paa hans bord. Det maatte v&#x00E6;re far, som havde lagt det der. Men faderen sagde ikke et ord, og ikke var Paul heller istand til at sige et ord. Han holdt paa fiere gange at sige: &#x00AB;Tak for albumet&#x00BB;. Men saa kunde han ikke faa det til, og da der var gaaet nogle dage, syntes han, det var saa l&#x00E6;nge siden, at det var saa leit at sige noget bare af den grund.</p>
+<p>Han havde fundet paa undskyldninger hver eneste aften, saa han havde sluppet at gaa paa danseskolen. Han havde havt saa r&#x00E6;dsomt vondt i en ligtorn, saa. &#x2013;</p>
+<p>Men saa vilde tante Lena se den ligtorn, og saa var jo det forbi.</p>
+<p>Nei, far havde nok ikke sagt et ord til tante Lena om nogen ting. Aa, hvor godt han likte far for det.</p>
+<p>Lollik Bommen saa han intet til. Han havde taget sig en tur opover paa den anden kant af byen, hvor hun boede, men han saa hende ikke.</p>
+<p>Han var ligeglad, han, baade med Lollik og alting, naar bare far ikke var vond, saa. &#x2013;</p>
+<p>Men n&#x00E6;ste dag tog han sig atter en sving opover veien, hvor Lollik boede. Men bare et lidet stykke, saa vendte han straks og gik nedover igjen.</p>
+<p>&#x00AB;Nu skal det vel snart v&#x00E6;re danseskolebal?&#x00BB; <pb n="64"/>sagde tante Lena pludselig ved middagsbordet.</p>
+<p>Det<note type="footnote">Det] <hi rend="italic">rettet fra:</hi> &#x00AB;Det <hi rend="italic">(trykkfeil)</hi></note> kvak i Paul: &#x00AB;Ja, det skal vel det.&#x00BB;</p>
+<p>&#x00AB;Du kan vel bruge dine sko?&#x00BB;</p>
+<p>&#x00AB;Jeg &#x2013; jeg tror ikke, jeg gaar.&#x00BB;</p>
+<p>&#x00AB;Nu har jeg h&#x00F8;rt det med &#x2013; svoger hvad siger du om det?&#x00BB;<note type="footnote">det?&#x00BB;] <hi rend="italic">rettet fra:</hi> det? <hi rend="italic">(trykkfeil)</hi></note></p>
+<p>&#x00AB;Hum &#x2013; han kan jo gj&#x00F8;re, som han vil.&#x00BB;</p>
+<p>Min stilling i dette hus er ikke misundelsesv&#x00E6;rdig, t&#x00E6;nkte tante Lena, godt at Vorherre gjemte min stakkels s&#x00F8;ster og sparede hende for at leve livet med en saadan utilgj&#x00E6;ngelighed og uforstaaelighed som denne mand. Han er stiv som en grindstolpe &#x2013; jo, jeg staar her som mellem to grindstolper.</p>
+<p>&#x00AB;Er det din mening, at Paul ikke skal gaa paa det bal?&#x00BB;</p>
+<p>&#x00AB;Ja, han har sin frihed til at gj&#x00F8;re, hvad han vil.&#x00BB;</p>
+<p>&#x00AB;Tak far,&#x00BB; brast det ud af Paul. Far var den snildeste mand paa kloden &#x2013; han skj&#x00F8;nte godt det, at han ikke likte sig paa danseskolen. Ja, noget saa klogt som den manden. &#x2013;</p>
+<p>Han havde tydeligvis ikke sagt et ord til tante Lena om alt det leie, saa nu gjorde han det nok ikke heller.</p>
+<p>Det var bare det, at han var saa fjern bestandig, far.</p>
+<p><pb n="65"/>Han turde ikke snakke med ham om nogen ting, og ikke havde han nogen andre at tale med heller. Alle de andre gutterne havde saa mange venner, han h&#x00F8;rte ikke andet paa skolen, end at de havde v&#x00E6;ret sammen om eftermiddagene allesammen. Mest oppe hos Jens Berentsen, der var vist skokkevis af gutter oppe hos ham hver dag.</p>
+<p>Men han vilde ikke gaa derop, for Jens Berentsen bad ham aldrig.</p>
+<p>I grunden saa var Lollik Bommen det hyggeligste menneske, han havde truffet paa. Han likte hende simpelthen. Det var noget t&#x00F8;v det, at han hadede hende. Nei da, han hadede hende ikke, han t&#x00E6;nkte paa hende hver dag.</p>
+<p>Hvad ialverden kom det af, at hun begyndte med det, at hun ikke vilde danse med ham mere. Nu som han dansede saa meget bedre end i begyndelsen, og da som hun var saa snild.</p>
+<p>Ikke vilde hun have konfekten heller. Hun skulde bare vide alt det leie, han havde havt for hendes skyld, saa. Han burde hade hende, men han gjorde det ikke.</p>
+<p>Merkeligt nok, saa snakkede ikke tante Lena et ord mere om ballet. Hun saa rigtignok lidt martyragtig ud, men hun skubbede ham ikke det spor mere til nogen ting.</p>
+<p><pb n="66"/>I grunden havde han &#x00F8;nsket, at hun vilde skubbet ham lidt til at gaa. Ikke sagde nogen af kameraterne paa skolen noget heller, om han vel kom paa det ballet. Det var ligesom de allesammen havde glemt, at han havde gaaet paa dansekolen, han ogsaa.</p>
+<p>Og Lollik saa han jo aldrig</p>
+<p>Nei saam&#x00E6;nd om han vilde gaa paa det fille ballet, han havde andet at gj&#x00F8;re, han.</p>
+<p>Den aften ballet skulde v&#x00E6;re, var det forresten noksaa rart. Noksaa rart at vide, at nu var hele klubsalen straalende oplyst, og musiken bruste gjennem salen, og nu dansede de alle. &#x2013;</p>
+<p>Lollik Bommen dansede vel sv&#x00E6;rt nu, mon hvadslags kjole hun havde paa? Jo hun havde vist blaa kjole. Hun snakkede engang om, at naar hun var paa bal, havde hun udslaaet haar. T&#x00E6;nk det sv&#x00E6;re haaret!</p>
+<p>Uf, aldrig i verden havde han noget morsomt. Aldrig &#x2013; aldrig! Han var saa kjed af b&#x00F8;ger saa!</p>
+<p>Saa gr&#x00E6;sselig stilt som det var iaften herhjemme! Far bruskede med aviserne og l&#x00E6;ste og l&#x00E6;ste, og tante Lena var martyr. Nu lagde hun forresten kabal.</p>
+<p>Det var skr&#x00E6;kkelig trist at leve. Det sidste, han t&#x00E6;nkte paa, f&#x00F8;r han sovnede, var, hvem <pb n="67"/>mon Lollik havde danset f&#x00F8;rste dans med. Havde han v&#x00E6;ret der, saa var det nu vel rimeligt, at de havde danset sammen, hun havde jo v&#x00E6;ret hans dame fra begyndelsen af.</p>
+<p>Ja alting var gyselig trist. &#x2013; &#x2013;</p>
+<p>Et par dage efter, da han gik hjem fra skolen, ganske skj&#x00E6;v af den store bogpakke under den venstre arm, kom der nogen l&#x00F8;bende efter ham. Det var Lollik.</p>
+<p>Hun blev gaaende ved siden af ham og passede sine skridt efter hans.</p>
+<p>&#x00AB;Hvorfor var du ikke paa ballet?&#x00BB;</p>
+<p>&#x00AB;Aa &#x2013; jeg ved ikke &#x2013; jeg havde ikke lyst.&#x00BB;</p>
+<p>&#x00AB;Der var saa morsomt saa.&#x00BB;</p>
+<p>&#x00AB;Jasaa.&#x00BB;</p>
+<p>Saa gik de nogen skridt tause, mange i grunden. De saa ned i jorden begge to.</p>
+<p>&#x00AB;Du Paul Borch,&#x00BB; begyndte Lollik, &#x00AB;er du vond paa mig?&#x00BB;</p>
+<p>&#x00AB;Jeg &#x2013; nei &#x2013;&#x00BB;</p>
+<p>&#x00AB;Jeg ved ikke &#x2013; jeg troede &#x2013;&#x00BB;</p>
+<p>&#x00AB;Hvorfor skulde jeg v&#x00E6;re vond da?&#x00BB;</p>
+<p>&#x00AB;Ja det er jo det, jeg ikke ved,&#x00BB; se nu lo hun igjen, &#x00AB;uf, det er &#x00E6;kkelt at gaa og gj&#x00F8;re sig god igjen, maa du tro.&#x00BB;</p>
+<p>&#x00AB;Hvorledes &#x2013; hvad mener du?&#x00BB;</p>
+<p>&#x00AB;Ja, det som jeg gj&#x00F8;r nu vel &#x2013; du har jo <pb n="68"/>seet ud som en torden mindst, men saa t&#x00E6;nkte jeg, at jeg vilde snakke til dig engang og sp&#x00F8;rge dig &#x2013; uf, at du skal v&#x00E6;re saadan, Paul Borch!&#x00BB;</p>
+<p>&#x00AB;Hvorledes er jeg?&#x00BB;</p>
+<p>&#x00AB;Aa, saadan stiv og &#x00E6;kkel.&#x00BB;</p>
+<p>Uf, hvad skulde han svare paa det da. Han vilde sandelig ikke v&#x00E6;re stiv og &#x00E6;kkel.</p>
+<p>&#x00AB;Ja, jeg maa nok gaa, jeg,&#x00BB; sagde Lollik, &#x00AB;adj&#x00F8; da!&#x00BB;</p>
+<p>Hun gik bagl&#x00E6;ngs opover gaden: &#x00AB;Adj&#x00F8; da &#x2013; adj&#x00F8;!&#x00BB;</p>
+<p>Fremdeles bagl&#x00E6;ngs gik hun og smilte hele tiden. &#x00AB;Adj&#x00F8; da!&#x00BB; raabte hun helt oppe fra hj&#x00F8;rnet.</p>
+<p>Paul stod hele tiden ganske stille og saa efter hende. Jakken var gledet ham opover hoften paa den side, bogpakken var, og haaret strittede ud ved &#x00F8;rene. Han saa gr&#x00E6;sselig morsk ud, for det var saa forf&#x00E6;rdelig dumt, at han ikke vidste, hvad han skulde sige.</p>
+<p>Han skridtede langt ud paa veien hjemover. Storartet veir det var idag. Barfrost og solskin. Kanske det snart blev sk&#x00F8;iteis alligevel. Heroppe fra bakken var det pent i grunden, det blaa paa himlen der var forf&#x00E6;rdelig vakkert.</p>
+<p>Lollik Bommen var ogsaa storartet pen <pb n="69"/>idag. Jenter kan virkelig v&#x00E6;re pene! Og greie ogsaa. Men magen til Lollik Bommen findes nu ikke. Nei, det var han vis paa.</p>
+<p>Det var ligesom der sang noget indi ham. Noget som var saa gruelig deiligt. Han havde lyst til al ting ieftermiddag. Sandelig vilde han ikke gj&#x00F8;re rent hos duerne oppe paa h&#x00F8;loftet. Han havde t&#x00E6;nkt paa det l&#x00E6;nge, men aldrig havt lyst. Men idag skulde det rigtig v&#x00E6;re moro.</p>
+<p>Han var saa glad over ingenting idag.</p>
+<p>Duerne holdt til inde paa et lidet loft med mange stokker under taget til at sidde paa. Han gik og plystrede og sopede. Det var en sang, han havde h&#x00F8;rt paa en konsert engang:</p>
+<p>Irrnelin rose &#x2013; Irmelin sol &#x2013;</p>
+<p>Kvitsch kvatsch med limen, duerne kurrede og flaksede om ham:</p>
+<p>Irmelin rose &#x2013; Irmelin sol.</p>
+<p>Pludselig med en eneste gang slog det som et lyn ned i ham:</p>
+<p>Jeg elsker vist Lollik Bommen!</p>
+<p>Ja saadan var det, det som der stod om i alle romaner. Saa kjed, som han havde v&#x00E6;ret af alt det om kj&#x00E6;rlighed, som stod i alle romanb&#x00F8;ger &#x2013; han havde sprunget over mange blade, naar det bare var om kj&#x00E6;rlighed &#x2013; men t&#x00E6;nk nu skj&#x00F8;nte han det!</p>
+<p><pb n="70"/>T&#x00E6;nk at han havde syntes, at det havde v&#x00E6;ret kjedeligt at l&#x00E6;se om. Det som var saa forf&#x00E6;rdelig deiligt.</p>
+<p>T&#x00E6;nk han elskede hende!</p>
+<p>Han vilde ikke snakke med hende. Nei da! Han brydde sig slet ikke om at snakke med hende. Men hver eneste dag vilde han gaa den veien om pigeskolen, saa kanske han m&#x00F8;dte hende, og saa vilde han hilse.</p>
+<p>Ikke et liv paa jorden skulde faa vide, at han likte Lollik Bommen gr&#x00E6;sselig godt. F&#x00F8;r skulde de kappe hovedet af ham, f&#x00F8;r nogen skulde merke det.</p>
+<p>Han sopede igjen af alle kr&#x00E6;fter. Men t&#x00E6;nk, om hun merkede det selv, at han &#x2013; ja at han altsaa elskede hende.</p>
+<p>Nei det maatte v&#x00E6;re grusomt simpelthen. Aldrig i evighed skulde hun merke det.</p>
+<p>Ja forresten &#x2013; om mange aar. Naar han var blevet ber&#x00F8;mt, saa vilde han sige det. For naturligvis skulde han nok blive ber&#x00F8;mt. Men hvorledes skulde han sige det mon?</p>
+<p>Lollik Bommen, jeg liker dig forf&#x00E6;rdelig godt, du aner ikke, hvor godt jeg liker dig!</p>
+<p>Kanske han da ogsaa vilde sige: Jeg elsker dig. Men det var han ikke vis paa. Det gik vist ikke an at sige det saadan bent frem. Det var bare i romanerne det, ellers &#x00AB;t&#x00E6;nkte&#x00BB; de det vist bare.</p>
+<p><pb n="71"/>Kvitsch, kvatsch med soplimen: Irmelin rose &#x2013; Irmelin sol &#x2013; han plystrede h&#x00F8;it og skarpt.</p>
+<p>Han fik l&#x00E6;gge en plan ogsaa nu, hvad han skulde blive i verden.</p>
+<p>Han troede n&#x00E6;rmest, han vilde blive professor i geologi.</p>
+</div>
+<div type="chapter" n="2">
+<head type="main">LOLLIK</head>
+<div type="uchapter" n="2_1">
+<head type="sub">&#x005B;I&#x005D;</head>
+<p rend="noIndent"><pb n="75"/>Aa gid for moro!</p>
+<p>Storartet simpelthen.</p>
+<p>Den fineste danseskole, som var i Kristiania, skulde komme til byen. Og den fineste dansel&#x00E6;rerinden, som fandtes i Norges land, skulde holde den. Og danseskolen skulde holdes paa klubsalen &#x2013; bare hvidt og guld og r&#x00F8;de damaskes sofaer rundt alle v&#x00E6;gge. Og lysekroner af glas og guld. Og orkestertribune! En har f&#x00F8;lelsen af noget kongeligt, naar en kommer ind i klubsalen.</p>
+<p>Hun havde nok danset f&#x00F8;r paa klubben, Lollik Bommen. Paa barneballer. Men da dansede de altid i den lille klubsal, aldrig i den store.</p>
+<p>Aa gid &#x2013; t&#x00E6;nk i den store klubsalen!</p>
+<p>Hun havde seet dansel&#x00E6;rerinden paa gaden. Og hun var ligesaa fin som admiralinden &#x2013; kanske lidt finere endda. Og admiralinden var <pb n="76"/>det fineste i hele byen. Ja, Maren kokke sagde forleden dag:</p>
+<p>&#x00AB;Det er jo ikke mange grader fra admiral til konge vel?&#x00BB;</p>
+<p>Saa kan jo enhver t&#x00E6;nke sig, hvorledes dansel&#x00E6;rerinden saa ud.</p>
+<p>Og klubsalen var det sted i byen, hvor folk forlovede sig mest. Ja det havde Lollik altid h&#x00F8;rt.</p>
+<p>For det er jo mange mennesker, som forlover sig gr&#x00E6;sselig fort. Det maatte v&#x00E6;re rart, men nydeligt forresten.</p>
+<p>F. eks. far og mor. T&#x00E6;nk den ene vidste ikke, at den anden eksisterte i verden den ene onsdagen, og den andre onsdagen var de forlovet.</p>
+<p>Var det ikke underligt? At det kan komme saa fort, med en gang?</p>
+<p>N&#x00E6;sten ikke til at forstaa. &#x2013;</p>
+<p>Det var saa gjildt, naar far og mor snakkede om det. Ligesom en roman. Naar far fortalte, saa sagde mor:</p>
+<p>&#x00AB;Nei, nu glemmer du det og det.&#x00BB;</p>
+<p>Og naar mor fortalte, saa sagde far akkurat ligedan:</p>
+<p>&#x00AB;Nei, nu glemmer du det vigtigste.&#x00BB;</p>
+<p>Og saa straalede de i ansigtet begge to.</p>
+<p>T&#x00E6;nk siden den onsdagen havde far og <pb n="77"/>mor v&#x00E6;ret sammen bestandig. Giftede sig straks og flyttede herop til Ekeli, hvor de endnu bor. Men den gang havde de slet ikke saa god raad som nu.</p>
+<p>Langtifra! Da havde de bare seks gr&#x00F8;nne ripsstole, fort&#x00E6;ller mor, og dem var hun saa forf&#x00E6;rdelig glad i. Men huset var akkurat ligedan som nu, det er bare den sv&#x00E6;re verandaen, som er bygget til.</p>
+<p>For far og mor vil aldrig flytte fra Ekeli, og det holdt Lollik med dem i. Det er det deiligste sted i verden. Nu skal dere h&#x00F8;re, hvorledes der er:</p>
+<p>Huset er lysegr&#x00F8;nt og lavt med en umaadelig glasveranda. Bag huset er ekeparken, som huset heder efter, og foran huset og paa begge sider er haven. Aa den ustyrtelig store, deilige haven! Der er nogen eketr&#x00E6;r i den ogsaa, forresten findes der ikke et rart tr&#x00E6; paa jordens kreds, som far ikke har faaet fat paa og plantet i haven paa Ekeli.</p>
+<p>Og alle verdens roser!</p>
+<p>Og fuksiaer! Far elsker simpelthen fuksiaer. De er store som smaa tr&#x00E6;r og staar i baljer.</p>
+<p><pb n="78"/>Og slig som far gaar og steller i den haven. Fra tidlig om vaaren, de lange sommeraftnerne, og til sent om h&#x00F8;sten.</p>
+<p>Og altid med den sv&#x00E6;re gule panamahatten paa. Han er akkurat som en umaadelig vandrende sop, far, naar han gaar med den hatten nede i haven. For far er jo noksaa tyk og liden.</p>
+<p>Men slig som far forandrer i haven! Store tr&#x00E6;r flytter han, og nye gange og nye bed er der hvert aar.</p>
+<p>&#x00AB;Lad det bare blive ved det gamle,&#x00BB; siger mor.</p>
+<p>&#x00AB;Sig nu ingen ting, f&#x00F8;r du har seet det,&#x00BB; siger far.</p>
+<p>Og naar det saa er f&#x00E6;rdigt, siger mor: &#x00AB;Det er jo nydeligt!&#x00BB;</p>
+<p>&#x00AB;Ja, der kan du se,&#x00BB; siger far. Saadan er det bestandig.</p>
+<p>&#x2013; Verandaen paa Ekeli er den deiligste veranda under himlen. Der er store palmer og deilige, umaadelige bregner. Og m&#x00F8;blerne er trukket med lys blomstret satin for al den solen, og der staar gyngestole og kurvstole alle steder. Alle mennesker, som kommer ud paa verandaen, saa siger de bare:</p>
+<p>&#x00AB;Aa gid!&#x00BB;</p>
+<p>Saa nydeligt er der.</p>
+<p><pb n="79"/>Om sommeraftnerne er der fremmede hver eneste aften, da sidder de nedover verandatrappen og ser udover fjorden og byen i sommerkvelden.</p>
+<p>Mor spiller paa flygelet inde, og undertiden synger alle de, som sidder nedover trappen ogsaa. &#x2013; Og det er saa deiligt, is&#x00E6;r naar de synger noget, der er rigtig s&#x00F8;rgeligt, for det er saa nydeligt. Og det er saa lunt og saa mildt og saa stille i luften, og langt ude skinner dampskibenes r&#x00F8;de lanterner, og fyret paa Lysholmen blinker og slukner &#x2013; blinker og slukner &#x2013; som et &#x00F8;ie der aabner og lukker sig uafladelig.</p>
+<p>Saadan er det om sommeren paa Ekeli. Men om vinteren er det n&#x00E6;sten endda deiligere, fordi huset ligger saa h&#x00F8;it, og en kan se saa langt. Helt over til amtmandsboligen paa den anden side byen ser en tydelig. Naar sneen ligger og solen skinner, saa lever en jo hele dagen i noget straalende hvidt.</p>
+<p>End vaaren paa Ekeli! Naar hele Ekeparken blaaner af blaaveis, og ekebladene saavidt pibler ud lysegr&#x00F8;nne og myge.</p>
+<p>Ja, Lollik Bommen havde for sin part aldrig seet saa meget blaat i sit liv, som naar blaaveisen blomstrede paa Ekeli.</p>
+<p>Folk kom op fra byen for at se paa det, <pb n="80"/>og nogen sagde, det var som et eventyr, og nogen sagde, at det ikke var penere paa teatret.</p>
+<p>T&#x00E6;nk at nogen kunde v&#x00E6;re saa idiotisk nauden at sammenligne Ekeparken med teatret.</p>
+<p>Hun kunde n&#x00E6;sten blive vond, Lollik Bommen.</p>
+<p>&#x2013; Men gid, alle de veninder hun havde. Claudine Soot og Tilla Schou og Julie Berentsen og Magdalene Nilsen, og Agga Berentsen ogsaa forresten.</p>
+<p>Nogen var snilde, og nogen var v&#x00E6;mmelige.</p>
+<p>Men n&#x00E6;sten alle gutter er greie. Jens Berentsen og Yngvar Lie og Alf Nilsen &#x2013; de er snodige allesammen. De spadserte hver dag i det sidste. Alle pigerne foran arm i arm og alle gutterne efter. Forleden var der en herre fra Kristiania paa visit hos far, og saa sagde han:</p>
+<p>&#x00AB;Du er vel af de jentungerne, som gaar og st&#x00E6;nger gaden her i byen.&#x00BB;</p>
+<p>Han mente altsaa, at vi st&#x00E6;ngte gaden, fordi vi gaar i lange r&#x00E6;kker.</p>
+<p>&#x00AB;Og naar nogen hilser paa dere,&#x00BB; sagde den samme forvigtige herre, &#x00AB;saa lukker dere bare &#x00F8;inene og r&#x00F8;rer ikke paa hovedet.&#x00BB;</p>
+<p>Han vilde kanske vi skulde neie, han, men det er vi sandelig for store til, naar vi er fjorten og et halvt aar n&#x00E6;sten allesammen. Ja Lollik var for sin part fjorten aar og otte maaneder.</p>
+<p><pb n="81"/>&#x2013; &#x2013; Aldrig i evighed kom den dagen, at danseskolen skulde begynde heller! &#x2013;</p>
+<p>Hun skulde bruge den blaa kjolen, Lollik, hver eneste aften. Den med de orientalske baandene til pynt, r&#x00F8;de og gr&#x00F8;nne indv&#x00E6;vet med guld. Fine l&#x00E6;g nedover armene, og en sv&#x00E6;r puf ved haandleddet. Ja, rasende fin var hun.</p>
+<p>Og skoene da! Hjemf&#x00F8;rte, mor, ikke noget saadant klumperi, som de gj&#x00F8;r her i byen. Laksko med silkerosetter. De havde v&#x00E6;ret oppe og seet paa dem alle veninderne.</p>
+<p>Endelig var det den dagen, at danseskolen skulde begynde.</p>
+<p>Gid for et hav af lys, naar en kom ind i klubsalen. Det var n&#x00E6;sten til at miste pusten af bare h&#x00F8;itidelighed.</p>
+<p>Og saa skulde en have fast kavaler i begyndelsen, sagde dansefruen. Mon hvem der faldt paa hendes part?</p>
+<p>Det kunde da vel aldrig v&#x00E6;re Paul Borch.</p>
+<p>Den store sl&#x00E6;ngete gutten, s&#x00F8;n til amtmanden. Han som gaar saa alene bestandig og er saa frygtelig flink, siger folk.</p>
+<p>Ja, han saa n&#x00E6;sten ud som en professor alt. Han var ikke det pluk pen, for professorer skal aldrig v&#x00E6;re pene. Han har et umaadelig stort lyser&#x00F8;dt fj&#x00E6;s f. eks.</p>
+<p><pb n="82"/>Aldrig i sit liv havde hun snakket med ham, Lollik. Men Jens Berentsen snakkede ofte om ham, han kaldte ham altid bare docenten.</p>
+<p>Sandelig min hat der stod docenten lige overfor hende.</p>
+<p>F&#x00F8;rst talte hun r&#x00E6;kken engang nedover, om det virkelig ogsaa var docenten, hun skulde danse med. Jo. Nei, saa maatte hun t&#x00E6;lle igjen, for det var ligesom saa uventet.</p>
+<p>Jo, det var nok saa ligevel. Han saa over paa hende, han ogsaa.</p>
+<p>Gid hvor ulykkelig han saa ud. Hun syntes, hun maatte nikke. Men det var ikke tale om, at han nikkede igjen, bare blev stupende r&#x00F8;d og stirrede.</p>
+<p>Nei noget saa rart som den gutten!</p>
+<p>Men t&#x00E6;nk i det samme fik hun saa vondt af ham, ligesom saa frygtelig vondt af ham med en eneste gang.</p>
+<p>Og det var det rare, at naar Lollik Bommen fik vondt af nogen og syntes synd i dem, saa likte hun dem saa skr&#x00E6;kkelig godt med en gang.</p>
+<p>Akkurat som hun maatte beskytte dem. Hun havde havt det nogen gange saadan med veninder. Men aldrig havde hun havt vondt af nogen gut f&#x00F8;r. Aldrig.</p>
+<p><pb n="83"/>Stakkars dig, docent!</p>
+<p>Saa nikkede hun igjen. En gang b&#x00F8;iede han hovedet forf&#x00E6;rdelig stivt. Og da likte hun ham endda bedre.</p>
+<p>Han er simpelthen rar, men t&#x00E6;nk han er lidt s&#x00F8;d.</p>
+<p>Nok er det, saa skulde de danse.</p>
+<p>T&#x00E6;nk saa kunde han ikke &#x2013; han kunde bent frem ikke danse. Saa fik hun endda mere vondt af ham.</p>
+<p>Han var saa tung som en t&#x00F8;mmerstok at tr&#x00E6;kke paa, og svinge kunde han merkelig nok ikke.</p>
+<p>Hvor hun str&#x00E6;vede med ham! For t&#x00E6;nk hvor &#x00E6;kkelt for ham, om nogen saa, hvor klodset han i virkeligheden var.</p>
+<p>Naar han smilte, var han ikke v&#x00E6;rst pen. &#x2013; Han brydde sig ikke om at gaa paa danseskole, sagde han.</p>
+<p>&#x00AB;Hvadslags moro har du da?&#x00BB; spurgte Lollik.</p>
+<p>&#x00AB;Aa, jeg l&#x00E6;ser.&#x00BB;</p>
+<p>&#x00AB;Isch noget saa v&#x00E6;mmeligt som bare at l&#x00E6;se og l&#x00E6;se!&#x00BB;</p>
+<p>Han saa forbauset paa hende. Hvor gr&#x00E6;sselig godt hun likte de smaa &#x00F8;inene hans. Men hele tiden maatte hun snakke, for han sagde jo ingenting.</p>
+<p><pb n="84"/>Hvor rart, at et menneske kan have saa vondt for at snakke. Det var da den letteste sag af verden. Men havde Paul Borch trykket to ord ud af sig, maatte en v&#x00E6;re evig taknemmelig for det.</p>
+<p>Slig som alle veninderne lo, fordi hun havde faaet docenten til fast kavaler.</p>
+<p>&#x00AB;Gr&#x00E6;sselig snodig herre du har faaet,&#x00BB; sagde de og lo og kniste bag ryggen paa hinanden.</p>
+<p>&#x00AB;Dere beh&#x00F8;ver slet ikke at le af ham,&#x00BB; sagde Lollik, &#x00AB;han er slet ikke v&#x00E6;rst, og pene t&#x00E6;nder har han da ialfald.&#x00BB;</p>
+<p>I grunden var han hyggelig ogsaa. Saa paa hende med de smaa &#x00F8;inene og smilte, ligesom han var generet for hende.</p>
+<p>Og saa lagde hun merke til, at han saa efter hende, hvor han gik.</p>
+<p>Hun likte ham knakende godt, det gjorde hun. Men det beh&#x00F8;vede jo ingen at vide.</p>
+<p>Saa kom Jens Berentsen og hviskede og vilde, at hun skulde blive hans dame istedetfor Janna Sendresen.</p>
+<p>&#x00AB;Kan det v&#x00E6;re nogen moro at danse med en slig staur da,&#x00BB; sagde Jens Berentsen.</p>
+<p>&#x00AB;Du er ikke en staur engang, men bare en pinde, du,&#x00BB; sagde Lollik.</p>
+<p>T&#x00E6;nk det blev Jens Berentsen forn&#x00E6;rmet for. Gjerne for mig, t&#x00E6;nkte Lollik, jeg liker <pb n="85"/>ikke slige smeldvakre gutter, jeg. Nei, gutter maatte have store ansigter, det var pent.</p>
+<p>&#x2013; Du hvor hun sled og trak i Paul Borch aften efter aften. Hun var ganske tr&#x00E6;t mange gange. Men det skulde hun nok ikke fort&#x00E6;lle nogen, hvor vond han i virkeligheden var at danse med.</p>
+<p>Og slig som hun maatte opmuntre ham. Bare dansefruen tog ham i skulderen, saa han ulykkelig ud. Hun snakkede op af v&#x00E6;gge og ned af stolper &#x2013; ja hun maatte det simpelthen.</p>
+<p>Hun maatte ogsaa fort&#x00E6;lle far om ham.</p>
+<p>For naar far lagde sig til at sove middag paa chaiselonguen, saa tog hun altid en skammel og satte sig ved siden af ham, og saa fortalte hun om Paul Borch.</p>
+<p>&#x00AB;Du kan tro, han er rar, far, for t&#x00E6;nk han er generet for mig.&#x00BB;</p>
+<p>&#x00AB;Det er da ikke det mindste rart,&#x00BB; sagde far, der han laa med det r&#x00F8;de lureteppe over sig, &#x00AB;saadan fuldendt dame, du er, Lol.&#x00BB;</p>
+<p>&#x00AB;Uf da, far &#x2013; t&#x00E6;nk han snakker n&#x00E6;sten ikke, du.&#x00BB;</p>
+<p>&#x00AB;Det er n&#x00E6;sten endda rarere, at ikke du kan faa hans mund paa glid.&#x00BB;</p>
+<p>&#x00AB;Jeg tror, han har en sorg, jeg.&#x00BB;</p>
+<p>&#x00AB;Jasaa, hvorfor det?&#x00BB;</p>
+<p><pb n="86"/>&#x00AB;Jo, du ved mange mennesker gaar med sorger.&#x00BB;</p>
+<p>&#x00AB;Nei, jasaa, gj&#x00F8;r de det, Lol?&#x00BB;</p>
+<p>&#x00AB;Uf, ikke &#x00E6;rt saa da &#x2013; t&#x00E6;nk jeg synes han er hyggelig alligevel.&#x00BB;</p>
+<p>&#x00AB;Det er jo ikke det mindste merkeligt, for du liker jo alle gutter.&#x00BB;</p>
+<p>&#x00AB;Det gj&#x00F8;r jeg aldeles ikke.&#x00BB;</p>
+<p>&#x00AB;Undskyld da&#x00BB; &#x2013; far glippede med &#x00F8;inene og var s&#x00F8;vnig.</p>
+<p>&#x00AB;Uf, for et murmeldyr du er, far.&#x00BB; Og Lollik sprang sin vei. &#x2013; &#x2013;</p>
+<p>Netop i den tid var det, at modehandlerinden i byen giftede sig med den kontoristen, som gik paa krykker.</p>
+<p>Claudine og Tilla kunde ikke forstaa, at hun vilde gj&#x00F8;re det.</p>
+<p>&#x00AB;Det forstaar jeg saa godt,&#x00BB; sagde Lollik.</p>
+<p>&#x00AB;Simpelthen da fordi hun har ondt af ham,&#x00BB; sagde de andre.</p>
+<p>&#x00AB;Ja, fordi hun vil hj&#x00E6;lpe ham vel.&#x00BB;</p>
+<p>&#x00AB;Hvor rart det maatte v&#x00E6;re at elske en,&#x00BB; sagde Claudine.</p>
+<p>Isch &#x2013; altid talte Claudine og Tilla saameget om kj&#x00E6;rlighed i det sidste. Det var saa v&#x00E6;mmelig kjedeligt at h&#x00F8;re paa bestandig.</p>
+<p>&#x2013; Saa en dag sagde Tilla pludselig til Lollik:</p>
+<p><pb n="87"/>&#x00AB;Du er indtaget i Paul Borch du &#x2013; gid for en smag!&#x00BB;</p>
+<p>&#x00AB;Nei ved du hvad.&#x00BB;</p>
+<p>&#x00AB;Jo ved du hvad &#x2013; hele danseskolen snakker om det.&#x00BB;</p>
+<p>Nei noget til de grader v&#x00E6;mmeligt &#x2013; det skulde bare mangle de sagde det til Paul Borch ogsaa &#x2013; fy for en skam!</p>
+<p>Nei, da d&#x00F8;de hun af fortvilelse, hvis hun anede, at de sagde det til ham ogsaa.</p>
+<p>Indtaget i ham! Blaas i det! Nei, det skulde de v&#x00E6;re blaa for at sige mere. Hun vilde ikke danse saameget med ham mere, nei det vilde hun ikke. Han var meget flinkere til at danse ogsaa nu, saa han klarede sig godt med de andre. Stakkar, han &#x00F8;vede sig vist hjemme. &#x2013;</p>
+<p>&#x2013; &#x00AB;Tak, jeg er engageret!&#x00BB; &#x2013; Lollik saa ud i luften, naar Paul Borch bukkede for hende og vilde danse. Han saa ligesom skuffet ud. Men sandelig min hat om hun vilde danse med ham, naar de sagde saadant noget v&#x00E6;mmeligt. &#x2013;</p>
+<p>Indtaget &#x2013; pyt!</p>
+<p>Saa begyndte gutterne at give pigerne chokolade og sukkert&#x00F8;i. Gid hvor meget sukkert&#x00F8;i hun fik, Lollik! De var saa greie og hyggelige alle gutterne, saa.</p>
+<p><pb n="88"/>En aften paa danseskolen, som de netop skulde danse ud, sagde Jens Berentsen:</p>
+<p>&#x00AB;Det gaar i byen, at du er aldeles sterbens i docenten.&#x00BB;</p>
+<p>I samme &#x00F8;ieblik han sagde det, kommer Paul Borch tvert over gulvet med en nydelig &#x00E6;ske konfekt, som han rakte hende saadan i stiv arm.</p>
+<p>Stakkar, saa klodset han saa ud. Tilla og Claudine laa over hinanden af latter.</p>
+<p>Hun vidste n&#x00E6;sten ikke af det selv, f&#x00F8;r hun havde sagt nei tak. Saa forf&#x00E6;rdelig flaut og v&#x00E6;mmeligt da!<note type="footnote">da!] <hi rend="italic">rettet fra:</hi> da.! <hi rend="italic">(trykkfeil)</hi></note></p>
+<p>I samme &#x00F8;ieblik hun dansede ud med Jens Berentsen, angrede hun det. Aa, som hun angrede.</p>
+<p>Der gav han &#x00E6;sken til Gusta Olsen &#x2013; og der dansede de.</p>
+<p>&#x00AB;Akkurat passeligt par,&#x00BB; sagde Jens Berentsen, da de dansede forbi.</p>
+<p>Hun saa et sekund ind i Jens Berentsens trillende runde, sorte &#x00F8;ine, saa h&#x00E6;vede hun sin h&#x00F8;ire haand og gav ham en kladask &#x00F8;refik, saa det sang i hovedet paa ham.</p>
+<p>T&#x00E6;nk saa blev han ikke vond engang, den v&#x00E6;mmelige Jens Berentsen. Men fulgte hende lige til haveporten og tiggede og bad, om hun ikke vilde give ham en &#x00F8;refik paa det andet &#x00F8;re ogsaa.</p>
+<p><pb n="89"/>Om aftenen graat Lollik, da hun havde lagt sig og lyset var slukket. Hun pleiede ikke graate, og det var ikke mange taarer heller, men hun kjendte det var vaadt paa hovedpuden.</p>
+<p>Uf &#x2013; hvis hun bare ikke havde havt saa vondt af den gutten. Trist havde han det vist hjemme ogsaa. Den alvorlige amtmanden med det tr&#x00E6;ansigtet og ligesom en lineal gjennem ryggen bare af stivhed, og saa den spidse n&#x00E6;sen til tante Lena oppe i kaleschevognen &#x2013; altid sad hun i kaleschevogn, tante Lena.</p>
+<p>Og saa den lave amtmandsgaarden under de sv&#x00E6;re asketr&#x00E6;rne. Uf, der ser saa knugende ud. Jeg vilde ikke bo der for aldrig det.</p>
+<p>Saa skulde mor og hun paa konsert om aftenen. Da hele salen var fuld, kom tante Lena og Paul. Han var ildr&#x00F8;d helt op i haaret, da de trykkede sig opover mellem stoleraderne.</p>
+<p>Han er nu pen, hvad de saa siger, t&#x00E6;nkte Lollik.</p>
+<p>Gr&#x00E6;sselig gjildt, at han heller ikke var paa danseskolen. Hun havde anket paa, at hun skulde paa konsert, af den grund. Hun stirrede hele tiden paa ham, for hun vilde nikke, hun var ligeglad, om hele klassen saa det, nu vilde hun nikke til ham.</p>
+<p><pb n="90"/>Endelig saa han hende &#x2013; aa gid, hvor r&#x00F8;d han blev. Nu er han n&#x00E6;sten nydelig, t&#x00E6;nkte Lollik.</p>
+<p>Hun h&#x00F8;rte ikke paa musiken. Puh, den fille musiken! Den var vist pen forresten, for der stod skr&#x00E6;kkelig meget ros i aviserne dagen efter.</p>
+<p>Nei, hun havde bent frem ikke tid til at h&#x00F8;re paa musiken, Lollik, fordi hun maatte jo kikke efter Paul naturligvis.</p>
+<p>Han sad og vendte og dreiede det store ansigtet sit ligesom saa ligegyldig og flau i udtrykket.</p>
+<p>Men hvad ialverden var det han saa efter?</p>
+<p>Uf &#x2013; saa fik mor vondt i hovedet og vilde gaa, og saa maatte hun jo f&#x00F8;lge med.</p>
+<p>Dagen efter paa skolen sagde Magdalene Nilsen til hende: &#x00AB;Jeg skal fort&#x00E6;lle dig en hemmelighed.&#x00BB;</p>
+<p>Lollik blev meget interesseret, hemmeligheder var det morsomste af alt.</p>
+<p>&#x00AB;Paul Borch er forelsket i dig.&#x00BB;</p>
+<p>Nei da maatte hun le. Lo, saa latteren trillede bortover. Den generte gutten!</p>
+<p>&#x00AB;Hvorfor tror du det?&#x00BB; spurgte hun.</p>
+<p>&#x00AB;Jo, han stirrede paa dig hele konserten igaar.&#x00BB;</p>
+<p>&#x00AB;Paa mig! &#x2013; Nei ved du hvad.&#x00BB;</p>
+<p><pb n="91"/>Nei at folk kunde finde paa noget saadant erke &#x2013; fille &#x2013; v&#x00E6;mmeligt noget!</p>
+<p>Hun t&#x00E6;nkte at fort&#x00E6;lle far det, men da det kom til stykket, syntes hun det var dumt og lod det v&#x00E6;re.</p>
+<p>T&#x00E6;nk, saa var han siden ikke paa danseskolen. Hun t&#x00E6;nkte paa ham hver eneste dag, hun var kjed af at t&#x00E6;nke paa ham tilslut. For aldrig m&#x00F8;dte hun ham mere, og aldrig snakkede nogen om ham heller. Det blev bare at t&#x00E6;nke det gamle op igjen, og det blev saa kjedeligt i l&#x00E6;ngden. Naar hun sad oppe paa sit v&#x00E6;relse, stirrede hun over til amtmandsgaarden hver dag. En kunde se den helt derfra over paa den anden side byen.</p>
+<p>Engang tog hun en teaterkikkert og saa derbort. Uf, hvor trist der saa ud. Der boede han, stakkar!</p>
+<p>Men hvor hun gl&#x00E6;dede sig til det danseskolebal. Mon Paul Borch havde saapas &#x00F8;ine i hovedet, at han vilde se, at hun havde flunkende ny kjole. Og mors granatarmbaand vilde hun laane og have det ovenfor albuen, for var saa nydeligt. Mon Paul Borch vilde se det.</p>
+<p>Og alle gutterne engagerede hende dobbelt op til alle dansene. Det var noksaa v&#x00E6;mmeligt, for hun vilde have fire danse mindst tilovers til Paul.</p>
+<p><pb n="92"/>&#x2013; Stakkar!</p>
+<p>&#x2013; &#x2013; &#x2013; T&#x00E6;nk saa kom han ikke. Hun ventede og ventede, sad og stirrede forventningsfuld mod d&#x00F8;ren: Nu kommer han vist!</p>
+<p>Nei han kom ikke. Du hvor skuffet hun var!</p>
+<p>Det var ikke det pluk gjildt at danse, i begyndelsen is&#x00E6;r. Siden glemte hun det jo &#x2013; gid, hun dansede sine sko aldeles itu, Lollik, den aften.</p>
+<p>Ikke en eneste n&#x00E6;vnte ham paa ballet, eller siden heller. Det var, som han slet ikke eksisterte engang.</p>
+<p>Nu var hun rigtig kjed af at gaa og t&#x00E6;nke paa den generte, klodsede gutten.</p>
+<p>Nogen dage efter saa hun ham nede i gaden. Saa l&#x00F8;b hun efter ham.</p>
+<p>Saa var det n&#x00E6;sten ikke et ord at faa af ham. Nu var hun rigtig &#x00E6;rlig, hjertelig kjed af ham.</p>
+<p>Hun gik bagl&#x00E6;ngs og raabte adj&#x00F8; mange gange, for at se, om han ikke kunde blive lidt blid.</p>
+<p>Langtifra. Han var vist vond, fordi hun l&#x00F8;b efter ham.</p>
+<p>Du kan v&#x00E6;re blaa for, at jeg skal gj&#x00F8;re det mere ogsaa, tv&#x00E6;rpompen!</p>
+</div>
+<div type="uchapter" n="2_2">
+<head type="sub">&#x005B;II&#x005D;</head>
+<p rend="noIndent"><pb n="93"/>Jens Berentsen var skr&#x00E6;kkelig morsom. Gid &#x2013; hvad havde han ikke fundet paa nu kanske?</p>
+<p>At alle de st&#x00F8;rste gutterne og pigerne skulde have kanetur i julen. Akkurat ligesom de voksne. Kj&#x00F8;re op til N&#x00E6;ssund, danse der, og kj&#x00F8;re hjem igjen i maaneskin. For det blev netop maaneskin i julen, og sligt maaneskin, som de havde i den byen, var der ikke andre steder paa kloden, det sagde alle gamle mennesker ogsaa.</p>
+<p>Men du store kinesiske al den modsigelse hjemme for den turen! Ikke kunde gutterne kj&#x00F8;re ordentlig, forkj&#x00F8;le sig r&#x00E6;dsomt kom de til at gj&#x00F8;re allesammen, saa der vilde bare komme elendighed ud af det hele. Pyt san &#x2013; elendighed!</p>
+<p>Du store alverden &#x2013; gutter paa seksten aar maatte da kunne kj&#x00F8;re en fille hest. Og <pb n="94"/>sandelig var de ikke saa store alle damerne ogsaa, saa de havde da forstand til at tage t&#x00F8;i paa sig. &#x00C6;rgerligt ogsaa, at en skulde blive betragtet som smaaunger alle sine dage.</p>
+<p>De gik i lange rader i gaderne, damerne, arm i arm, gutterne efter eller paa siderne, og der var stor mudder og megen diskussion, om hvor v&#x00E6;mmelige alle de gamle var, at de ikke fik lov at have kanetur.</p>
+<p>&#x00AB;Sandelig,&#x00BB; sagde Jens Berentsen tilslut, &#x00AB;skal jeg ikke bede gamla og fatter v&#x00E6;re med, saa flasker det sig vel.&#x00BB;</p>
+<p>Aa gid! Ja naar bare konsul Berentsen og frue vilde v&#x00E6;re med, saa blev det nok af.</p>
+<p>Tykke fru Berentsen kunde aldrig negte Jens nogen ting: &#x00AB;Jeg vil ikke have noget bry, det siger jeg, men papa og jeg skal nok sidde der, hvis du endelig vil det, stompen min &#x2013; forresten kan jeg faa fru Johnsen og fr&#x00F8;ken Westergaard med ogsaa, saa jeg ikke kjeder livet af mig mellem alle dere unger.&#x00BB;</p>
+<p>Jens Berentsen overh&#x00F8;rte fuldst&#x00E6;ndig den sidste tirade og fl&#x00F8;i paa d&#x00F8;r for at meddele de andre, at nu gik det hele i laas.</p>
+<p>Bare moro, at de skulde ordne det selv altsammen. Men alt det, der skulde t&#x00E6;nkes paa! Og der stod hele klumper af gutter og piger paa gadehj&#x00F8;rnerne og snakkede og raabte <pb n="95"/>af bare ivrighed. Det var sm&#x00F8;rrebr&#x00F8;d, der skulde skj&#x00E6;res, og kransekage, som skulde bestilles &#x2013; saa maatte der telefoneres til N&#x00E6;ssund, at de fyrte op i storsalen mindst to dage i forveien, ellers fr&#x00F8;s de ihjel i det ishavet. De var slet ikke saa dumme, som de gamle troede, for de t&#x00E6;nkte saam&#x00E6;nd baade paa kulde og al ting. Og paa fodposer ogsaa. Og kanske de fik lov at kj&#x00F8;re isen. Og alle heste i byen blev gaaet igjennem, og nogen gutter sprang h&#x00E6;sbl&#x00E6;sende op til vognmanden for at sikre sig de bedste heste i tide.</p>
+<p>Men naar pigerne blev alene, talte de bare om, hvem de skulde blive budne af. For enhver herre skulde bede &#x00E9;n dame, ja han kunde jo gjerne bede to ogsaa for den sags skyld.</p>
+<p>&#x00AB;Isch,&#x00BB; Julie Berentsen vilde ikke for sin d&#x00F8;d kj&#x00F8;re med Yngvar Lie &#x2013; &#x00AB;den v&#x00E6;mmelige poden!&#x00BB;</p>
+<p>&#x00AB;Ja kommer Christen Pedersen og ber mig,&#x00BB; sagde Magdalene Nilsen, &#x00AB;saa hopper jeg ud af vinduet.&#x00BB;</p>
+<p>For naturligvis kom vel herrerne hjem og bad dem h&#x00F8;itidelig, ligesom de voksne gjorde.</p>
+<p>Lollik havde aldeles hjerteklap. Aa om Paul Borch vilde bede hende. T&#x00E6;nk at kj&#x00F8;re en hel mil alene og snakke hyggelig og alvorlig. Aa gid hun m&#x00F8;dte postbudet nede i all&#x00E9;en hver <pb n="96"/>dag nu &#x2013; for det kunde jo h&#x00E6;nde han skrev og inviterte hende.</p>
+<p>Men ikke et liv snakkede om, enten Paul Borch skulde paa kanetur eller ei. Og siden de havde sagt det v&#x00E6;mmelige paa danseskolen, saa skulde vist ikke hun lukke sin mund op om Paul Borch. Det skulde de v&#x00E6;re blaa for.</p>
+<p>En dag Lollik var ude, kom Jens Berentsen op og inviterte hende til kaneturen. Han havde truffet far.</p>
+<p>&#x00AB;Om Deres fr&#x00F8;ken datter vilde have den forn&#x00F8;ielse at kj&#x00F8;re med mig.&#x00BB;</p>
+<p>&#x00AB;Tak den forn&#x00F8;ielse vil hun vist gjerne have,&#x00BB; lo far. &#x00AB;Du kj&#x00F8;rer vel sikkert, gut?&#x00BB;</p>
+<p>&#x00AB;Sikkert &#x2013; han havde endda aldrig i hele sit liv kj&#x00F8;rt galt.&#x00BB;</p>
+<p>&#x00AB;Isch,&#x00BB; sagde Lollik, da hun h&#x00F8;rte, at hun var buden af Jens Berentsen.</p>
+<p>&#x00AB;Naada?&#x00BB; Far saa sp&#x00F8;rgende paa hende.</p>
+<p>Ja, han skulde rigtignok kj&#x00F8;re den gule hoppen til Berentsens, og det var den nydeligste hesten i byen &#x2013; saa det var da en tr&#x00F8;st. &#x2013;</p>
+<p>&#x00AB;Du blir vel med paa kanetur tredjedag?&#x00BB; Jens Berentsen traf Paul Borch inde paa bogladen.</p>
+<p>&#x00AB;Kanetur &#x2013; ja, det havde han nok lyst til.&#x00BB;</p>
+<p>Jens Berentsen fortalte hviskende hele arrangementet. Der steg et lidet haab op i Paul, t&#x00E6;nk om han kunde bede Lollik.</p>
+<p><pb n="97"/>&#x00AB;Jeg kj&#x00F8;rer med Lollik Bommen,&#x00BB; hviskede Jens igjen.</p>
+<p>Paul Borch bladede og bladede i en ny bog: &#x00AB;Ja, jeg ved nu ikke saa sikkert, om jeg blir med.&#x00BB;</p>
+<p>&#x00AB;Pyt<note type="footnote">&#x00AB;Pyt] <hi rend="italic">rettet fra:</hi> Pyt <hi rend="italic">(trykkfeil)</hi></note> &#x2013; hvis du er r&#x00E6;d damer, saa beh&#x00F8;ver du saam&#x00E6;nd slet ikke at have nogen &#x2013; vi har damer nok &#x2013; kj&#x00F8;r i spidssl&#x00E6;de alene, gut!&#x00BB;</p>
+<p>Paul Borch gik hjemover i mange funderinger.</p>
+<p>Nei, han vilde ikke v&#x00E6;re med &#x2013; jo han vilde &#x2013; nei han vilde ikke &#x2013; ja, nogen dame vilde han nu paa ingen maade have. &#x2013;</p>
+<p>Tante Lena opmuntrede ham til at v&#x00E6;re med. &#x00AB;Du skal faa min fodpose, Paullik, den er saa god og varm &#x2013; bare deiligt du ikke har nogen dame, saa har du det saa meget bekvemmere.&#x00BB;</p>
+<p>Det var frem og tilbage begge juledagene, enten han vilde v&#x00E6;re med eller ikke, men tredjedags morgen gik han resolut ned og skrev sit navn paa listen, som laa i bogladen. Det havde v&#x00E6;ret saa v&#x00E6;mmeligt sidst, dengang alle de andre var paa bal, og han sad hjemme.</p>
+<p>Han havde hilst paa Lollik hver eneste dag hele december maaned. Hun hilste saa pent, meget penere end de andre piger, men snakket med hende havde han ikke en eneste <pb n="98"/>gang. Nu var det forresten fem &#x2013; nei seks dage, siden han havde m&#x00F8;dt hende. Han kunde ikke forstaa, hvilken vei hun nu gik. Men idetsamme han gik ud af bogladen, st&#x00F8;dte han lige i d&#x00F8;ren paa Lollik Bommen. Det sneede, og hun havde sne i haaret, sne paa skindluen, ja selv paa &#x00F8;ienhaarene havde hun sne. Hun havde denslags opadb&#x00F8;iede &#x00F8;ienhaar, Lollik, som ser saa muntre og uskyldige ud.</p>
+<p>Egentlig var hun gaaet ind for at se, om Paul Borch havde skrevet sit navn paa listen.</p>
+<p>&#x00AB;Gid er det dig &#x2013; for et sneveir,&#x00BB; hun b&#x00F8;rstede af sig alle steder, &#x00AB;skal du paa kanetur?&#x00BB; Hun saa fra siden paa ham og smilte, der hang endda bitte lidet sne i det ene opadb&#x00F8;iede &#x00F8;ienhaar.</p>
+<p>&#x00AB;Ja, jeg har netop tegnet mig.&#x00BB;</p>
+<p>&#x00AB;Hvem skal du have til dame?&#x00BB;</p>
+<p>&#x00AB;Ingen.&#x00BB;</p>
+<p>&#x00AB;Ingen! Du da!&#x00BB;</p>
+<p>Der kom nogen i d&#x00F8;ren; da de stod lige indenfor, maatte de flytte paa sig, men derved kom de ligesom ud af samtalen. De stod et lidet &#x00F8;ieblik uden at sige noget, nogen af dem.</p>
+<p>&#x00AB;Adj&#x00F8; da!&#x00BB; sagde Lollik.</p>
+<p>&#x00AB;Adj&#x00F8;!&#x00BB; &#x2013;</p>
+<p>Da Lollik kom hen til disken havde <pb n="99"/>hun aldeles glemt, hvad det var, hun vilde sp&#x00F8;rge om.</p>
+<p>&#x2013; Du for et veir, det var den dag, kaneturen skulde v&#x00E6;re! Det havde sneet et par dage, men nu var det klart frostveir. Alle gj&#x00E6;rdestaurer og havestakitter havde en bl&#x00E6;ndende hvid hat af sne, solen skinnede, saa det skar i &#x00F8;inene, naar en saa bortover de lange hvide jorderne, og h&#x00E6;ngebirkegrenene nedover all&#x00E9;en hang drysfulde af iskrystaller. Lange og ur&#x00F8;rlige hang de der mod den blaa luft. Og det sang under meierne, og knirkede bare folk gik paa veiene. Hele parken paa Ekeli var som en skinnende eventyrhave.</p>
+<p>Nu svingede Jens Berentsen ind paa gaardspladsen med den store gule hoppen, hvidt sl&#x00E6;denet, som sopede, spidssl&#x00E6;de og en hel krans af bittesmaa bjelder.</p>
+<p>Jens Berentsen hilste elegant med den store sv&#x00F8;be, han havde en stor sort lok frem i panden under luen.</p>
+<p>Lollik straalede og trillede og lo. Og far og mor og Jens Berentsen pakkede hende ind.</p>
+<p>&#x00AB;Gaa ind, gaa ind,&#x00BB; raabte Lollik, &#x00AB;dere forkj&#x00F8;ler dere jo r&#x00E6;dsomt herude.&#x00BB;</p>
+<p>Jens Berentsen smeldte med den store sv&#x00F8;be, og saa kj&#x00F8;rte de i susende fart ud paa de hvide veie, nedover mod byen.</p>
+<p><pb n="100"/>Nei noget saa forf&#x00E6;rdelig fortryllende! Akkurat som at v&#x00E6;re voksen, kj&#x00F8;re med herre bagpaa og sl&#x00E6;denet, som sopede, og al ting.</p>
+<p>Paa torvet stod alt m&#x00E6;ngdevis af sl&#x00E6;der med paapakkede damer. Lollik kjendte dem n&#x00E6;sten ikke igjen, alle veninderne, &#x2013; gid for moro!</p>
+<p>Konsul Berentsen gik omkring i tullup og ordnede det hele; fru Berentsen og fr&#x00F8;ken Westergaard og fru Johnsen sad i en sv&#x00E6;r sluffe og raabte og kommanderte, de ogsaa. Det var det, det gjaldt, at kransekagerne ikke var kommet med, da provianten drog, og nu fandtes der ikke plads nogensteds.</p>
+<p>&#x00AB;Skaf en ny hest,&#x00BB; raabte fru Berentsen.</p>
+<p>&#x00AB;Find&#x0027;s ikke flere heste i byen.&#x00BB;</p>
+<p>Jens Berentsens gule hoppe bed fr&#x00F8;ken Westergaard i kysen bagfra. Hun skreg op, men Lollik lo, saa hun holdt paa at falde af sl&#x00E6;den.</p>
+<p>Alle handelsbetjente i byen stod i de aabne butiksd&#x00F8;re og saa paa stasen. Oppe hos gamle fr&#x00F8;kenerne Bendz var alle blomsterpotterne ryddet af vinduerne, hvorfra hele pyramider af gamle dameansigter stirrede ud. Men gamle doktor Feddersen sad med kikkert i sit vindu. Og smaabarn stod omkring med kj&#x00E6;lker og vaatter og vidaabne &#x00F8;ine. Slig havde Lollik <pb n="101"/>ogsaa staaet &#x2013; og nu sad hun her og var n&#x00E6;sten voksen. Hurra!</p>
+<p>Der kom Paul Borch ogsaa. Ganske alene med amtmandens lille hest. Stakkar! Lollik vr&#x00E6;ngte sig n&#x00E6;sten helt rundt for at nikke, og alligevel saa han det ikke. Det var ligesom noget, der blev lidt trist og saart med en gang.</p>
+<p>Aa gid hun havde kj&#x00F8;rt med ham, saa havde hun givet en god dag baade i sl&#x00E6;denettet og den gule hoppen.</p>
+<p>Der blev signalet givet, og hele raden af sl&#x00E6;der, en lang r&#x00E6;kke, kj&#x00F8;rte opover Storgaden. Bjelder og sangspil klirrede, og barn l&#x00F8;b med og raabte hurra, saal&#x00E6;nge de orkede.</p>
+<p>Lollik og Jens Berentsen kj&#x00F8;rte f&#x00F8;rst. Den gule hoppen taalte ingen foran sig, det gik i et susende trav.</p>
+<p>Naar Lollik vendte sig helt rundt, kunde hun se, at den lille brune hesten til amtmanden var den allersidste i r&#x00E6;kken. Alting var saa forf&#x00E6;rdelig deiligt undtagen det, at Paul Borch kj&#x00F8;rte der alene. &#x2013;</p>
+<p>Og den store gule hest lagde ud, som den ikke havde det bitterste at tr&#x00E6;kke, end sige en n&#x00E6;sten voksen herre og en n&#x00E6;sten voksen dame i spidssl&#x00E6;de. Det sang under meierne, og Jens Berentsen svingede den store sv&#x00F8;be. De kj&#x00F8;rte susende gjennem t&#x00E6;tte granskogen, hvor sneen <pb n="102"/>laa tung og b&#x00F8;iede de store grene helt til jorden, mens fanerne laa dybe og bl&#x00F8;de langs veikanten. Lige bag birketr&#x00E6;rne, der havde som hvide kniplingssl&#x00F8;r kastet ud over sig, var himlen ganske blaa, som midt paa sommeren.</p>
+<p>De kj&#x00F8;rte fra alle, h&#x00F8;rte ikke engang de andres bjelder. I alle hytterne ved veien kom der barn bag ruderne og stirrede.</p>
+<p>Hui, som det gik!</p>
+<p>Uf, der laa sandelig N&#x00E6;ssund alt borte paa sletten. Hun skulde gjerne kj&#x00F8;rt en mil til mindst, Lollik.</p>
+<p>De svingede ind paa gaarden med en vis glans. Der kom manden og konen paa gaarden ud for at tage imod dem, og alle folkene kikkede i d&#x00F8;re og vinduer.</p>
+<p>&#x00AB;Dere kommer kav aleine dere,&#x00BB; sagde manden.</p>
+<p>&#x00AB;Vi er de grommeste, vi, kan du skj&#x00F8;nne,&#x00BB; sagde Jens Berentsen.</p>
+<p>&#x00AB;Dere faar have velkommen til gaards da,&#x00BB; sagde manden.</p>
+<p>&#x2013; Der var gamle gange med brune bjelkev&#x00E6;gge, smale, slidte trapper og dybe v&#x00E6;relser med smaarudede vinduer. Der lugtede rengj&#x00F8;ring og brisk allevegne. Borte i hj&#x00F8;rnerne stod der omh&#x00E6;ngssenge med h&#x00F8;ie dyner, og det durede og smeldte i de tykmavede, gamle <pb n="103"/>ovne, saa gnisterne sprat langt bortover gulvene.</p>
+<p>Oppe paa den store sal, hvor de skulde danse, var gulvet skinnende hvidt, og der var nogen &#x00E6;ldgamle tapeter med en hyrdinde i et kort skj&#x00F8;rt, og en hyrde, som sad paa en sten og saa paa hende, og h&#x00F8;ie stive stole med afslidt gyldenl&#x00E6;ders betr&#x00E6;k rundt alle v&#x00E6;gge. Under taget hang to lysekroner af tr&#x00E6;, som var omvundet med granbar. Og iskoldt som ved Nordpolen, uagtet ovnen stod r&#x00F8;d.</p>
+<p>Der var forf&#x00E6;rdelig festligt.</p>
+<p>&#x00AB;Ja det er som byfolket pleier have det,&#x00BB; sagde manden paa gaarden.</p>
+<p>T&#x00E6;nk akkurat som de voksne! Nei, saa syntes Lollik, at alting var saa stormende gjildt, at hun tog Jens Berentsen og valsede opover med ham.</p>
+<p>&#x00AB;Ungdommen er sig selv lig den, den er sig lig det ene aar som det andet,&#x00BB; sagde manden, han stod med h&#x00E6;nderne i lommen og saa dem valse.</p>
+<p>Langtifra, aldrig havde nogen v&#x00E6;ret saa straalende glad som hun, t&#x00E6;nkte Lollik, alting var moro, hele livet var moro &#x2013; ret nu kom der en gut med et stort, stort ansigt og nogen smaa vemodige &#x00F8;ine, som fulgte hende overalt. Ja alting var deiligt.</p>
+<p><pb n="104"/>Der var bjeldeklang ude paa gaarden, og der kom alle sl&#x00E6;derne i rad og r&#x00E6;kke svingende ind paa gaarden, mens alle herrerne smeldte med sv&#x00F8;berne. Alle damerne veltede ud af sl&#x00E6;derne som sv&#x00E6;re bylter, det r&#x00F8;g af hestene, og Lollik saa oppe fra vinduet, at Paul Borch selv ledte sin lille hest ind i stalden.</p>
+<p>Hele huset stod som paa ende med en eneste gang. L&#x00F8;b i d&#x00F8;rene og rend i trapperne, latter og raab og latter igjen, mest inde fra det v&#x00E6;relse, hvor damerne tog sit t&#x00F8;i af. Der var saa trangt, at en knapt kunde r&#x00F8;re sig, og der skulde tredive smaapiger tage af sig kaaber, sokker og pelse. Alle tredive skulde se sig i et speil, som akkurat var halvandet kvart langt og halvandet kvart bredt. Og alle tredive vilde se sig i speilet paa en gang naturligvis. Den sv&#x00E6;re himmelseng borte i hj&#x00F8;rnet laa pakfuld af ydert&#x00F8;i, helt op under det lave tag, gulvet fl&#x00F8;d af sne, der smeltede, sokker og galocher og lakerede sko. Og midt oppe i alt det gik Magdalene Nilsens perlebaand itu &#x2013; ritsch ratsch &#x2013; mellem sokker og s&#x00F8;levand, blev traadt paa og knustes, mens Magdalene stridgraat, for de var romerske. Og Gusta Olsens kjole sprak i ryggen, og det graat hun for. &#x2013;</p>
+<p>Endelig var de ovenpaa allesammen i den store sal og sad paa de stive stolene langs <pb n="105"/>v&#x00E6;ggene og drak skoldende hed, sterk kaffe af tykke kopper, mens v&#x00E6;ldige hauge af julekage blev baaret rundt af en bastant pige, som var ildr&#x00F8;d af sp&#x00E6;nding og varme i den iskolde sal.</p>
+<p>&#x00AB;Forf&#x00E6;rdelig hedt,&#x00BB; sagde alle smaapigerne, omend aanden stod som en hvid sky ud i luften, naar en pustede. Saa kom musiken. Det var Blinde-Gunder med harmonika og Aronsen med violinen. Aronsen var gammel med sv&#x00E6;rt, graat haar, som han kastede tilbage med et<note type="footnote">et] <hi rend="italic">rettet fra:</hi> er <hi rend="italic">(trykkfeil)</hi></note> kunstnersving; han var forresten ikke at stole paa i takten Aronsen, for han glodde formeget omkring sig men saa var Blinde-Gunder det desmere. Han var st&#x00F8; som Dovrefjeld, Blinde-Gunder, men saa havde han en harmonika ogsaa, som havde kostet penge. Hele byen havde lagt sammen til den.</p>
+<p>Konsul Berentsen f&#x00F8;rte op med fr&#x00F8;ken Westergaard, for det var saa morsomt og h&#x00F8;itideligt, Berentsen f&#x00F8;rte sig saa udtilbens og pent, og fr&#x00F8;ken Westergaard var ligesom en kn&#x00E6;kket lilje, naar hun dansede; men det var nydeligt at se paa, og saa var de alle paa gulvet med en eneste gang.</p>
+<p>Hele gulvet rystede, det klirrede i den gamle, tykmavede kakkelovn, Aronsen gnikkede og gned paa violinen og kastede haaret bagover, <pb n="106"/>Blinde-Gunder stirrede med sine d&#x00F8;de &#x00F8;ine ud i virvaret af blaa og r&#x00F8;de og gr&#x00F8;nne kjoler, fletter, som svingede, og udslaaet haar, som viftede om ildr&#x00F8;de kinder. Alting svingede og dreiede og skiftede og vuggede om hinanden. Gutterne var gjennemgaaende mindre end pigerne; nogen store gutter f&#x00F8;lte sig, stod i klynger ved d&#x00F8;rene, smaapigerne trykkede sig ud af d&#x00F8;rene og trykkede sig ind igjen hvert &#x00F8;ieblik, hele klumper i f&#x00F8;lge, aldrig en og en.</p>
+<p>Men Blinde-Gunder holdt det hele sammen som med en stor st&#x00F8;dig haand. Det var en vals, han spillede: Dansken har seier vunden &#x2013; hurra &#x2013; hurra &#x2013; tysken sin grav har funden &#x2013; hurra &#x2013; hurra.</p>
+<p>Jens Berentsen satte altid fuld stim paa bort i alle salens hj&#x00F8;rner, ende bardus frem som en pil fra det ene hj&#x00F8;rne til det andet.</p>
+<p>Men endnu var det ligesom h&#x00F8;itideligt og ikke stort snak. Det varede jo ikke l&#x00E6;nge &#x2013; saa steg der et brus af snak og latter &#x2013; h&#x00F8;ie smaapigestemmer, der hvinte, saa igjen latter, det hele som en b&#x00F8;lge, der steg og vokste og bredte sig udover.</p>
+<p>Dansken har seier vunden &#x2013; hurra &#x2013; hurra &#x2013;</p>
+<p>&#x00AB;Svinagtig varmt,&#x00BB; sagde Jens Berentsen og t&#x00F8;rrede sig i panden. Han holdt sig ved <pb n="107"/>siden af Lollik den hele tid. Maatte han danse med en anden, saa pegte han paa stolen ved siden af Lollik:</p>
+<p>&#x00AB;Det er min plads, den skal v&#x00E6;rsgod ingen anden tage.&#x00BB;</p>
+<p>Isch &#x2013; nu var hun sandelig kjed ham, &#x2013; i alverden &#x2013; hvor var Paul Borch henne!</p>
+<p>Og Lollik klemte sig ud af de smale d&#x00F8;re, hvor folkene paa gaarden stod i d&#x00F8;raabningerne og stirrede, og ud i gangene, hvor tjenestepigerne kom med bretter svingende fulde af limonade.</p>
+<p>Dansken har seier vunden &#x2013; gutterne sang ude i trapperne og rev hinanden omkuld.</p>
+<p>Naa endelig der stod Paul Borch ude i gaded&#x00F8;ren og talte med manden paa gaarden, medens sneen glitrede i stjerneskinnet. &#x2013;</p>
+<p>&#x00AB;Men Paul Borch da, hvorfor kommer du ikke op og danser?&#x00BB;</p>
+<p>Han smilte: &#x00AB;Der er saa varmt.&#x00BB;</p>
+<p>&#x00AB;Pyt, kom nu!&#x00BB;</p>
+<p>&#x00AB;Vil du danse med mig da?&#x00BB;</p>
+<p>&#x00AB;Javist &#x2013; nu har vi fran&#x00E7;aise.&#x00BB;</p>
+<p>Hun vidste, at hun havde lovet Jens Berentsen fran&#x00E7;aisen, men pyt! &#x2013;</p>
+<p>De stillede sig op. Der kom Jens farende:</p>
+<p>&#x00AB;Men er du gal, Lollik, det er min fran&#x00E7;aise.&#x00BB;</p>
+<p>&#x00AB;Jasaa &#x2013; pyt &#x2013; find en anden dame vel.&#x00BB;</p>
+<p><pb n="108"/>&#x00AB;V&#x00E6;rsgod gaa din vei,&#x00BB; sagde han til Paul Borch.</p>
+<p>&#x00AB;Nei,&#x00BB; Paul saa trodsig ud med sit store lyser&#x00F8;de fj&#x00E6;s. Der spillede musiken op, og Paul og Lollik dansede ud. Lollik saa tilbage paa Jens og lo, mens den gule, tykke flette svingede.</p>
+<p>Jens Berentsen var rasende og f&#x00F3;r nedenunder og drak tre glas punsch i et kj&#x00F8;r: &#x00AB;V&#x00E6;mmelige poden den docenten &#x2013; han skulde faa det igjen. &#x2013; Og Lollik ogsaa.&#x00BB;</p>
+<p>Lollik morede sig storartet, og Paul var i en stille fryd, de snakkede ikke stort, men Lollik trillede og lo, saa det h&#x00F8;rtes over hele salen.</p>
+<p>&#x00AB;Du er sv&#x00E6;rt flink til at danse nu,&#x00BB; sagde Lollik, &#x00AB;kom, saa danser vi lanciers ogsaa &#x2013; jeg har lovet Jens Berentsen den ogsaa, men pyt!&#x00BB;</p>
+<p>Saa lo de af det.</p>
+<p>Aldrig i sit liv havde Paul moret sig saa. Alting var moro, hele livet var moro. &#x2013;</p>
+<p>Der begyndte lanciersen. Paul Borch f&#x00F3;r som en raket hen til Lollik, men der var Jens Berentsen ogsaa. Lollik lod som ingen ting og tog Paul Borchs arm.</p>
+<p>&#x00AB;Nei ved du hvad,&#x00BB; sagde Jens Berentsen m&#x00F8;rker&#x00F8;d i ansigtet af sinne.</p>
+<p>&#x00AB;Jeg har jo danset med dig hele aftenen, <pb n="109"/>ved jeg,&#x00BB; sagde Lollik, &#x00AB;sandelig min hat, nu vil jeg danse med nogen andre ogsaa.&#x00BB;</p>
+<p>&#x00AB;Du er lumpen, Lollik Bommen.&#x00BB;</p>
+<p>&#x00AB;Aa gid, hvor sint han var nu,&#x00BB; sagde Lollik med et straalende ansigt til Paul, &#x00AB;hvorfor skal jeg v&#x00E6;re pokket n&#x00F8;dt til at danse med ham bestandig.&#x00BB;</p>
+<p>Paul Borch var umaadelig enig. Det var en fryd bare at m&#x00F8;de hinanden i kjeden &#x2013; jo Paul Borch var den snodigste gut, Lollik Bommen havde kjendt i alle sine dage.</p>
+<p>Men da lanciersen var slut, og musiken fik punsch, og damerne sad r&#x00F8;de og varme og forpustede, blev der pludselig et sv&#x00E6;rt spetakkel nedenunder. Det var to gutter, som slos.</p>
+<p>Alle smaapigerne f&#x00F3;r ud og heldede sig over trappegel&#x00E6;nderet og kikkede ned.</p>
+<p>Du store alverden &#x2013; det var Jens Berentsen og Paul Borch.</p>
+<p>Jens Berentsen havde sp&#x00E6;ndt ben for Paul nede i den m&#x00F8;rke smale gang, og saa var Paul blevet hidsig og havde r&#x00F8;get paa ham.</p>
+<p>De stod skr&#x00E6;kslagne omkring allesammen, for de slos ordentlig, det var ikke for moro. Paul havde overtaget, han havde klemt Jens ind i en krog og slog og slog.</p>
+<p>Der kom konsul Berentsen: &#x00AB;Saa forsyne mig, gaar ikke dette an &#x2013; jeg mener dere er <pb n="110"/>&#x2013; slip siger jeg &#x2013; jo det er nogen nydelige voksne kavalerer dette &#x2013; slip din &#x2013;&#x00BB;</p>
+<p>&#x00AB;Ja, men det var ham, som begyndte,&#x00BB; sagde Paul tyk i m&#x00E6;let.</p>
+<p>&#x00AB;Vis vas &#x2013; saa saa &#x2013; v&#x00E6;r nu gode venner igjen&#x2013; slige hanekyllinger &#x2013; hvad er det, dere har imellem dere da?&#x00BB;</p>
+<p>&#x00AB;Han har brukket haandleddet mit,&#x00BB; sutrede Jens Berentsen.</p>
+<p>&#x00AB;Ja, gale hunde faar revet skind,&#x00BB; sagde konsulen.</p>
+<p>Det var ikke snak om andet end dette slagsmaalet oppe i balsalen siden, det var ligesom Lollik havde tabt hum&#x00F8;ret, hun stirrede med store &#x00F8;ine.</p>
+<p>Jens Berentsens haandled blev v&#x00E6;rre og v&#x00E6;rre. Det var nok ikke tale om, at han kunde kj&#x00F8;re nogen hest tilbage igjen iaften.</p>
+<p>Fru Berentsen var rent utr&#x00F8;stelig, gik og byttede vaade omslag paa ham. &#x00AB;Ja, du maa kj&#x00F8;re med os hjem i sluffen iaften,&#x00BB; sagde fru Berentsen.</p>
+<p>Langtifra, det vilde han aldeles ikke, rev omslaget af og dansede ud. Men saa hovnede haandleddet saa op, at han maatte slutte igjen.</p>
+<p>Gid &#x2013; hvem skulde hun kj&#x00F8;re med tilbage nu, Lollik!</p>
+<p>&#x00AB;Vil du kj&#x00F8;re med mig,&#x00BB; sagde Paul Borch, <pb n="111"/>han blev aldeles skarlagenr&#x00F8;d af gl&#x00E6;de bare ved tanken.</p>
+<p>Jo, Lollik vilde nok gjerne det, men &#x2013;</p>
+<p>Ja, saa blev det bestemt, at Lollik skulde kj&#x00F8;re i spidssl&#x00E6;de med Paul Borch og den lille amtmandshesten tilbage igjen.</p>
+<p>Aa for et stjerneskin det blev udover natten! Det var saa h&#x00F8;it til himmels, og stjernerne var saa store &#x2013; ja, Lollik syntes n&#x00E6;sten de lyste som smaa sole.</p>
+<p>De kj&#x00F8;rte sidst af alle, for amtmandshesten var slig, at den maatte have nogen foran sig for at komme i fart.</p>
+<p>Og granskogen var saa sort, tr&#x00E6;toppene stod saa nydelig mod stjernehimmelen, det knirkede og skreg under meierne, og Paul kj&#x00F8;rte storartet. Lollik syntes nok, hun havde havt moro mange gange f&#x00F8;r i sit liv, men magen til iaften &#x2013; nei &#x2013;</p>
+<p>&#x00AB;Sp&#x00E6;ndte han ben under dig?&#x00BB; sagde Lollik.</p>
+<p>&#x00AB;Lumpne fyren &#x2013; javist gjorde han det.&#x00BB;</p>
+<p>&#x00AB;Da har han v&#x00E6;ret sinna,&#x00BB; lo Lollik.</p>
+<p>Det har han gjort, fordi jeg ikke vilde danse med ham, t&#x00E6;nkte Lollik, men det sagde hun ikke. Og ikke sagde Paul Borch heller et ord om det.</p>
+<p>&#x00AB;Sligt fortryllende veir har jeg aldrig seet,&#x00BB; <pb n="112"/>sagde Lollik, &#x00AB;stjernerne har aldrig v&#x00E6;ret saa store f&#x00F8;r heller.&#x00BB;</p>
+<p>Nei, Paul troede n&#x00E6;sten ikke, at de havde v&#x00E6;ret saa store f&#x00F8;r.</p>
+<p>&#x00AB;Og saa nydelig som denne lille hesten l&#x00F8;ber. Ligesom saa let.&#x00BB;</p>
+<p>&#x00AB;Ja, magen til hest find&#x0027;s ikke,&#x00BB; sagde Paul.</p>
+<p>Og saa ustyrtelig gjildt de havde havt det i aften.</p>
+<p>Ja det var over alle gr&#x00E6;nser det.</p>
+<p>Naar Lollik sad et &#x00F8;ieblik stille, spurgte Paul:</p>
+<p>&#x00AB;Du fryser vel ikke?&#x00BB;</p>
+<p>&#x00AB;Langtifra &#x2013;jeg ser bare paa stjernerne.&#x00BB;</p>
+<p>&#x00AB;Du,&#x00BB; sagde Paul pludselig, da Lollik l&#x00E6;nge, vist tre minutter, havde seet paa stjernerne &#x2013; &#x00AB;&#x2013; du &#x2013; hvorfor vilde du ikke have den konfekten den gangen?&#x00BB;</p>
+<p>&#x00AB;Den gangen &#x2013; aa &#x2013; ha ha &#x2013; nei det vil jeg ikke sige.&#x00BB;</p>
+<p>&#x00AB;Hvorfor ikke?&#x00BB;</p>
+<p>&#x00AB;Nei, nei, jeg vil ikke sige det, ikke om du kapper hovedet af mig, Paul Borch, vil jeg sige det.&#x00BB;</p>
+<p>Det var rigtignok intet, som var fjernere fra Paul Borchs tanker end at ville kappe hovedet af Lollik.</p>
+<p>&#x00AB;Jasaa,&#x00BB; sagde han grundende, han sad og slog med sv&#x00F8;ben i sneen ved siden af veien.</p>
+<p><pb n="113"/>&#x00AB;Jasaa,&#x00BB; sagde han igjen, han havde t&#x00E6;nkt at sige noget om, hvor lei han havde v&#x00E6;ret af sig, fordi hun ikke vilde have den, men han kunde ikke faa det til.</p>
+<p>&#x00AB;Jeg angrede saa f&#x00E6;lt paa det,&#x00BB; sagde Lollik pludselig ud i stilheden.</p>
+<p>&#x00AB;Nei gjorde du &#x2013; vil du have &#x2013;&#x00BB;</p>
+<p>Gid &#x2013; der veltede de &#x2013; pladask op i sneen. Paul faldt af hundsvotten, og hesten stansede ikke straks, saa Lollik blev sl&#x00E6;bt med et stykke.</p>
+<p>&#x00AB;Ptro &#x2013; ptro &#x2013; Gud, du har da ikke slaaet dig?&#x00BB; Paul kom styrtende.</p>
+<p>&#x00AB;Ikke spor &#x2013; hvor snodigt det var.&#x00BB;</p>
+<p>&#x00AB;Uf nei.&#x00BB; For en skam, han skulde kj&#x00F8;re slig, og at han ikke havde holdt paa t&#x00F8;mmerne heller.</p>
+<p>&#x00AB;Rasende snodigt &#x2013; vi siger det ikke til et menneske, du.&#x00BB;</p>
+<p>&#x00AB;Ja, hvis du vil v&#x00E6;re saa snild.&#x00BB;</p>
+<p>&#x00AB;Ikke til et liv &#x2013; gid vi veltede igjen.&#x00BB;</p>
+<p>Saa lo de hele veien af ingenting, af det at hesten pludselig var blevet saa spag og ikke vilde gaa andet end i skridt. Da den saa tog paa at l&#x00F8;be, lo de af det.</p>
+<p>&#x00AB;Frygtelig snodig hest,&#x00BB; sagde Lollik, &#x00AB;hvad heder den.&#x00BB;</p>
+<p>&#x00AB;Du kan jo d&#x00F8;be den, du.&#x00BB;</p>
+<p><pb n="114"/>&#x00AB;Kald den Lol &#x2013; for det kalder far mig.&#x00BB;</p>
+<p>&#x00AB;Altfor pent navn,&#x00BB; sagde Paul.</p>
+<p>&#x00AB;Langtifra, ha, ha.&#x00BB;</p>
+<p>Der veltede de igjen, men denne gang holdt Paul fast i t&#x00F8;mmerne. Gid hvor de lo, og det var midt inde i tykkeste granskogen, veien gik ret som en streg gjennem skogen, over dem var der bare en stribe himmel.</p>
+<p>&#x00AB;Fort&#x00E6;l det bare ikke,&#x00BB; lo Lollik. Men dette, at de havde ligesom en hemmelighed mellem sig, gjorde det endda morsommere.</p>
+<p>Der saa de lygterne i byen. Uf, at denne deilige turen alt var slut.</p>
+<p>&#x00AB;Tusend tak for kj&#x00F8;returen,&#x00BB; sagde Lollik udenfor porten paa Ekeli.</p>
+<p>&#x00AB;Og for veltingen,&#x00BB; sagde Paul.</p>
+<p>&#x00AB;Ja for den ogsaa.&#x00BB;</p>
+<p>De tog hinanden i haanden, og Paul t&#x00E6;nkte siden, at det havde han i grunden aldrig gjort f&#x00F8;r.</p>
+<p>T&#x00E6;nk, at han nogengang havde kunnet synes, at piger var det v&#x00E6;rste, som find&#x0027;s!</p>
+<p>Den n&#x00E6;ste dag ved frokostbordet var Paul i et saa overstadig lystigt hum&#x00F8;r, at tante Lena blev n&#x00E6;sten sur. Den slags havde en da virkelig v&#x00E6;ret fritaget for med Paul. Han kunde takke hende, at hun havde skubbet ham afsted paa det bal.</p>
+<p><pb n="115"/>&#x00AB;Se, se, Paullikken &#x2013; stol paa tante Lena, du Paullikken!&#x00BB;</p>
+<p>Han var saa glad idag, Paul, saa tante Lena kunde gjerne tro, det var hendes skyld, at alting var saa deiligt.</p>
+</div>
+<div type="uchapter" n="2_3">
+<head type="sub">&#x005B;III&#x005D;</head>
+<p rend="noIndent"><pb n="116"/>Lollik var blevet konfirmeret om h&#x00F8;sten.</p>
+<p>Alt andet end fortidligt, for nu var hun sandelig seksten aar og syv maaneder gammel. Men det var fars skyld, for han sagde altid:</p>
+<p>&#x00AB;Lollik skal vente med at konfirmeres, til hun bliver mere voksen.&#x00BB;</p>
+<p>Men saa blev hun aldrig mere voksen, og saa sagde mor:</p>
+<p>&#x00AB;Ja nu skal hun konfirmeres.&#x00BB; Og saa maatte far give sig.</p>
+<p>Hun havde gruet sv&#x00E6;rt for konfirmationen, Lollik. Is&#x00E6;r for at gaa til alters. For at hun ikke skulde v&#x00E6;re beredt og alvorlig nok. For hun vilde saa gjerne v&#x00E6;re alvorlig. Og saa havde det bare v&#x00E6;ret deiligt altsammen og ikke det mindste at grue for.</p>
+<p>T&#x00E6;nk nu var hun voksen! Forunderlig rart. Ja hun kunde nok merke, at hun var voksen nu, Lollik Bommen, saa alvorlig som hun nu <pb n="117"/>t&#x00E6;nkte over livet og al ting. Alt det, som var rart i verden.</p>
+<p>For i grunden var der ustyrtelig meget rart i verden.</p>
+<p>Bare det, at hun aldrig kunde komme paa det rene med, hvorledes hendes natur egentlig var. For hun kunde nok v&#x00E6;re i sv&#x00E6;rt godt hum&#x00F8;r, men saa var hun f&#x00E6;lt melankolsk indimellem.</p>
+<p>Hun var i grunden dybt melankolsk.</p>
+<p>Ikke kunde hun heller skj&#x00F8;nne, hvadslags temperament hun havde. Lige til en aften hun h&#x00F8;rte et foredrag af den nye skolebestyreren om de fire temperamenter. Da skj&#x00F8;nte hun, at hun havde et kolerisk temperament.</p>
+<p>For det var de koleriske, som udrettede noget i verden, sagde skolebestyreren. Og Lollik vilde rigtignok udrette noget i verden, det skulde v&#x00E6;re skraasikkert ogsaa det.</p>
+<p>Hun kunde slet ikke like, naar gamle lodsoldermanden kaldte hende &#x00AB;en hvedebolle&#x00BB; &#x2013; undertiden kaldte han hende sandelig ogsaa &#x00AB;en plomme&#x00BB;.</p>
+<p>Hun vilde slet ikke v&#x00E6;re nogen hvedebolle eller plomme, Lollik Bommen. Hun vilde v&#x00E6;re en karakter, det vilde hun.</p>
+<p>Hun var rigtignok liden og lidt tyk, men derfor kunde hun godt v&#x00E6;re en karakter. Det <pb n="118"/>var slet ikke bare magre damer, som var karakterer.</p>
+<p>Hun t&#x00E6;nkte meget over kvindesagen ogsaa Lollik nu. T&#x00E6;nk at damer i gamle dage ingenting l&#x00E6;rte. At de ikke gjorde opr&#x00F8;r.</p>
+<p>Saa gyselig dumme de ogsaa maatte v&#x00E6;re, at de ikke havde lyst at kunne noget og gj&#x00F8;re noget i verden. Se nu de gamle fr&#x00F8;kenerne Hempel. De var d&#x00F8;tre af en frygtelig fin mand i gamle dage, og saa havde de ikke l&#x00E6;rt andet end at spille klaver. Og det l&#x00E6;rte de ikke ordentlig engang. Og nu er de saa fattige, at folk sender middagsmad til dem, og saa graater de, naar de faar den, fordi det er saa leit at tage imod. Ja, hun skulde gjerne staaet paa hovedet for de to gamle fr&#x00F8;kener Hempel, hvis det kunde hjulpet dem paa en eller anden maade, saa vondt havde hun af dem.</p>
+<p>Jo hun vilde vie sit liv til kvindesagen. Vie sit liv var saadant et nydeligt udtryk, ligesom saa h&#x00F8;itideligt.</p>
+<p>For Lollik Bommen troede knapt nok, hun vilde gifte sig. For t&#x00E6;nk bare alt det maset med barn. Mor fortalte ofte, at da de var smaa alle s&#x00F8;skenderne hjemme, saa havde hun hundrede negler at klippe hver l&#x00F8;rdag, naar de havde badet. De var fem s&#x00F8;skender nemlig, saa kan jo enhver selv regne.</p>
+<p><pb n="119"/>Forresten &#x2013; den Lollik Bommen skulde gifte sig med, maatte ikke v&#x00E6;re som andre.</p>
+<p>Aa langt langtifra.</p>
+<p>For hun var akkurat nu, da hun var voksen og gammel, som hun var, da hun var barn, at de, hun kunde like og blive glad i, dem maatte hun have vondt af. Saadan rigtig ind i hjertet vondt af.</p>
+<p>For i grunden kunde ikke Lollik Bommen like saadanne mennesker, som er saa ovenpaa i verden Saadanne flotte feiende herrer, som de andre unge pigerne likte. Det var nok moro at snakke med dem og holde leven, men hun likte dem ikke.</p>
+<p>For hvad h&#x00E6;ndte der ikke med Yngvar Lie f. eks. nu sidste femtende september! Akkurat en maaned f&#x00F8;r hun blev konfirmeret.</p>
+<p>Lollik var jo blevet saa overrasket, at hun ikke var blevet saa overrasket i hele sit lange liv, for seksten og et halvt aar var et skr&#x00E6;kkelig langt liv i grunden.</p>
+<p>T&#x00E6;nk Yngvar Lie havde friet til hende. Virkelig ordentligt sandf&#x00E6;rdigt frieri.</p>
+<p>Endda hun altsaa ikke var konfirmeret. Uf, hvor leit det var!</p>
+<p>Yngvar Lie var blevet student sommeren f&#x00F8;r. Noksaa god karakter, for Yngvar Lie havde jo alle dage v&#x00E6;ret en gyselig pughest. Hans far, <pb n="120"/>telegrafinspekt&#x00F8;ren, gik jo altid rundt og skr&#x00F8;t af ham, og havde afskrifter af alle stilene hans i lommen og l&#x00E6;ste dem op.</p>
+<p>&#x00AB;Min Yngvar skriver det &#x2013; og min Yngvar skriver det,&#x00BB; sagde telegrafinspekt&#x00F8;ren. Folk flygtede for telegrafinspekt&#x00F8;ren og &#x00AB;min Yngvars&#x00BB; stile.</p>
+<p>Nok er det, han kom nauturligvis hjem i ferierne i sommer med h&#x00F8;ie flipper og moustacher, men hvor han havde faaet dem fra, skj&#x00F8;nte ingen, for de var noksaa store. Han gik hele dagen paa gaden og mysede paa folk, og naar han tog en i haanden, l&#x00F8;ftede han den h&#x00F8;it op. Bare af finhed. Og saa vilde han bare snakke om litteratur &#x2013; ligesom det var nogen moro. De brydde sig ikke det spor om litteratur, hun og alle veninderne. Gid hvor de lo af ham.</p>
+<p>Det var saadant fortryllende veir udover i september netop da, og de var paa ture hver eneste dag. Seilture og kj&#x00F8;reture med niste og harmonika og havde det gjildt.</p>
+<p>En aften de havde v&#x00E6;ret ude paa en af &#x00F8;erne og danset paa en gaard demde, klokken var sandelig blevet et, da de lagde til bryggen. Saa vilde Yngvar Lie f&#x00F8;lge hende hjem til Ekeli. Hun var ikke spor r&#x00E6;d for at gaa alene, men han vilde absolut.</p>
+<p><pb n="121"/>Hun syntes nok, at han var lidt rar, men det kunde jo aldrig falde hende ind, at han vilde fri naturligvis.</p>
+<p>I begyndelsen snakkede de om ingenting, men da de netop var kommet saa langt som forbi den f&#x00F8;rste b&#x00E6;nken under lindetr&#x00E6;rne, saa begyndte det.</p>
+<p>&#x00AB;Jah&#x00BB; &#x2013; sagde saa Yngvar Lie, saadan langtrukkent, som han pleiede &#x2013; &#x00AB;det er tungt at t&#x00E6;nke paa at skulle gaa ensom gjennem verden ogsaa.&#x00BB;</p>
+<p>&#x00AB;Ja, det maatte v&#x00E6;re tungt,&#x00BB; sagde Lollik naturligvis.</p>
+<p>Han gik og slog i gr&#x00E6;sset langs gr&#x00F8;ftekanten med sin flotte tynde stok.</p>
+<p>&#x2013; &#x00AB;Men naar en er saa lykkelig at have fundet den, en elsker &#x2013;&#x00BB;</p>
+<p>&#x00AB;Ja, det maatte v&#x00E6;re rart,&#x00BB; sagde Lollik. For hun kunde ligesom skj&#x00F8;nne, at han ventede et svar.</p>
+<p>&#x2013; &#x00AB;Saa ligger livet skj&#x00F8;nt for en,&#x00BB; vedblev Yngvar og slog endda mere efter gr&#x00E6;sstraaene.</p>
+<p>&#x00AB;Ja det gj&#x00F8;r det vel,&#x00BB; sagde Lollik.</p>
+<p>&#x2013; &#x00AB;Da skulde jeg arbeide da, naa det h&#x00F8;ieste; f&#x00F8;r jeg har vished, er ligesom min kraft lammet.&#x00BB;</p>
+<p>&#x00AB;Uf da,&#x00BB; sagde Lollik. For det h&#x00F8;rtes saa leit det om lammelse.</p>
+<p><pb n="122"/>&#x00AB;For vished maa man have,&#x00BB; sagde saa Yngvar ligesom truende, stoppede pludselig op og saa Lollik stivt ind i &#x00F8;inene, &#x2013; &#x00AB;hvad siger du saa?&#x00BB;</p>
+<p>&#x00AB;Jeg siger jo ingenting.&#x00BB; Lollik var meget forbauset i stemmen.</p>
+<p>&#x00AB;Ja men &#x2013; vil du?&#x00BB;</p>
+<p>&#x00AB;Hvadfornoget?&#x00BB;</p>
+<p>&#x00AB;Det som jeg har sagt nu naturligvis, vil du blive min elskede forlovede og siden min elskede hustru?&#x00BB;</p>
+<p>&#x00AB;Er du gal?&#x00BB; Lollik gik bagl&#x00E6;ngs, saa hun holdt paa at falde i gr&#x00F8;ften.</p>
+<p>&#x00AB;Vil du?&#x00BB; Han fulgte efter hende lige bort til gr&#x00F8;ftekanten.</p>
+<p>&#x00AB;Er du aldeles rusk?&#x00BB; Nu hoppede Lollik virkelig over gr&#x00F8;ften.</p>
+<p>&#x00AB;Det er mit ramme alvor.&#x00BB;</p>
+<p>&#x00AB;Ja, det er mit ogsaa, at jeg tror, du er ruskende gal.&#x00BB;</p>
+<p>&#x00AB;Svar mig ja eller nei.&#x00BB;</p>
+<p>&#x00AB;Nei, nei, nei,&#x00BB; sagde Lollik paa den anden side af gr&#x00F8;ften, jeg er jo ikke konfirmeret endda da, gut.&#x00BB;</p>
+<p>&#x00AB;Den feil retter du jo snart,&#x00BB; sagde Yngvar Lie overlegent, &#x00AB;men du vil altsaa ikke.&#x00BB;</p>
+<p>&#x00AB;Nei, jeg vil virkelig ikke, Yngvar.&#x00BB;</p>
+<p><pb n="123"/>&#x00AB;Naa saa, jasaa &#x2013; jeg troede &#x2013; jasaa, naar du ikke vil saa &#x2013; adj&#x00F8;, fr&#x00F8;ken Bommen!&#x00BB;</p>
+<p>&#x00AB;Adj&#x00F8;, Yngvar!&#x00BB;</p>
+<p>Han vendte sig hurtig og gik nedover den m&#x00F8;rke vei mellem lindetr&#x00E6;rne. Hun blev staaende og lytte efter hans skridt nedover i m&#x00F8;rket. Nu var han vist vond paa hende, det var saa leit, naar nogen var vond.</p>
+<p>&#x00AB;Er du vond paa mig, Yngvar,&#x00BB; raabte hun nedover all&#x00E9;en.</p>
+<p>Intet svar en god stund. Saa kom det langt dernedefra:</p>
+<p>&#x00AB;Skal jeg komme igjen.&#x00BB;</p>
+<p>&#x00AB;Langtifra,&#x00BB; raabte Lollik, tog tilbens og storml&#x00F8;b hjem.</p>
+<p>&#x2013; Nei noget saa rart!</p>
+<p>At virkelig Yngvar Lie havde friet til hende! Uf saa &#x00E6;kkelt. Hvorledes ialverden kunde den dumme gutten finde paa det! Det var ikke det mindste moro heller. Alle veninderne snakkede altid om, hvor deiligt det var, naar herrer friede, og alt det om kj&#x00E6;rlighed. Det var bare, fordi ingen endnu havde friet til dem, at de troede, det var saa gjildt. Det var leit og n&#x00E6;sten flaut. Ja hun vilde ikke sige det til et menneske, ikke til far engang. Nei allermindst til far; hvor grusomt leit det maatte v&#x00E6;re at fort&#x00E6;lle far og mor sligt noget. Den <pb n="124"/>v&#x00E6;mmelige Yngvar Lie! Hun sovnede ikke paa l&#x00E6;nge den nat, Lollik, saa meget hun havde faaet at t&#x00E6;nke paa.</p>
+<p>For efterpaa hun havde t&#x00E6;nkt paa Yngvar Lie, kom hun til at t&#x00E6;nke paa noget andet. Og det var paa en gut, som hun havde kjendt for l&#x00E6;nge, l&#x00E6;nge siden, vist over to aar siden. Det var endda Paul Borch, s&#x00F8;n til amtmanden. Dengang de havde gaaet paa danseskole, og da de kj&#x00F8;rte hjem sammen fra N&#x00E6;ssund, da stjernerne var saa forf&#x00E6;rdelig store.</p>
+<p>Hvorledes levede han nu mon? Hans far var jo blevet forflyttet til Kristiania for tre aar siden, og saa h&#x00F8;rte hun ikke mere til ham. Jo hun havde faaet julekort fra ham med &#x00AB;Gl&#x00E6;delig jul&#x00BB; og &#x00AB;Godt nytaar&#x00BB; skrevet med en stiv, stor haandskrift, og saa havde hun skrevet ligedan igjen. Det var det hele.</p>
+<p>Forresten havde hun seet i aviserne, at han havde faaet pr&#x00E6;ceteris til artium. Og det havde staaet i aviserne hjemme om &#x00AB;vor gamle amtmands s&#x00F8;n, som havde taget en saa glimrende eksamen&#x00BB;. Det var ligesom der faldt nogen &#x00E6;re paa byen ogsaa.</p>
+<p>Hvorledes ialverden kom hun til at t&#x00E6;nke paa ham nu?</p>
+<p>Du &#x2013; hvor godt hun havde likt den gutten! T&#x00E6;nk om det havde v&#x00E6;ret ham &#x2013; &#x2013;om det <pb n="125"/>havde v&#x00E6;ret ham, som havde snakket saadan til hende, som Yngvar Lie gjorde iaften!</p>
+<p>Lollik borede hovedet ned i hovedpuden. Aa gid! &#x2013; Hvor forf&#x00E6;rdelig rart det maatte v&#x00E6;re at sige ja. Saa stirrede hun med store &#x00F8;ine ud i m&#x00F8;rket. Ja ham vilde hun have, det var skraasikkert ogsaa det.</p>
+<p>Men Paul Borch var vist ganske anderledes nu end dengang. Nu som han havde pr&#x00E6;ceteris og al ting. Han var kanske lige saa ovenpaa som alle de andre herrerne nu, de vigtige poderne!</p>
+<p>For det var det, som var saa forf&#x00E6;rdelig hyggeligt, at han var saa generet og ulig de andre.</p>
+<p>Aa hvor godt hun likte den gutten! T&#x00E6;nk om hun traf ham igjen, men det gjorde hun vel aldrig. Hun t&#x00E6;nkte forresten sjelden paa ham nu &#x2013; ja, undtagen naar hun lagde kabaler. For da lagde hun altid, om hun nogengang traf Paul Borch igjen. Gik ikke kabalen op, saa lagde hun om det samme straks igjen. Men det vidste ikke et menneske naturligvis.</p>
+<p>Og alle mennesker skulde v&#x00E6;re blaa for nogen, nogen gang at faa vide det ogsaa!</p>
+</div>
+<div type="uchapter" n="2_4">
+<head type="sub">&#x005B;IV&#x005D;</head>
+<p rend="noIndent"><pb n="126"/>Det var atter jul. Og Lollik gl&#x00E6;dede sig til julen, saadan over alle gr&#x00E6;nser. F&#x00F8;rst juleaften og alt det deilige hjemme. Og saa alle ballerne og dansemoroerne. End alle de, som kom hjem i julen da!</p>
+<p>For hele h&#x00F8;sten var der ikke stor moro hjemme i byen. Hyggeligt var der nok i Lolliks by, det manglede ikke paa det, men &#x2013;</p>
+<p>Sligt forf&#x00E6;rdeligt veir det havde v&#x00E6;ret ogsaa i h&#x00F8;st, slud og regn, regn og slud og storm indimellem. Forresten kunde det v&#x00E6;re rigtig moro, naar det var storm ogsaa, naar det br&#x00F8;d over skj&#x00E6;rene favneh&#x00F8;it af hvidt skum; men saa var det jo de stakkars sj&#x00F8;folkene igjen &#x2013; uf, det var godt, det blev jul, for da pleiede det blive stilt.</p>
+<p>Yngvar Lie havde v&#x00E6;ret hjemme om sommeren, og nu var han alt kommet hjem til jul.</p>
+<p><pb n="127"/>Saa v&#x00E6;mmelig kjedelig han var blevet efter det frieriet. Altid stiklede han paa hende og sagde hende imod, saadan overlegent. &#x2013; Ikke derfor, han d&#x00F8;de saam&#x00E6;nd aldrig i synden, for Lollik gav ham det glatte lag igjen. Ikke et menneske anede det, som havde v&#x00E6;ret mellem dem. Aldrig havde han hentydet til det heller siden den aften under lindetr&#x00E6;rne. Men v&#x00E6;mmelig var han bestandig.</p>
+<p>Nei, naar folk bliver saadan, naar de frier, saa sagde, sandelig min hat, Lollik tak for sig. Ja virkelig vilde hun &#x00F8;nske, at ikke et menneske friede til hende mere.</p>
+<p>Forresten nu gjorde Yngvar Lie kur til Magdalene Nilsen. Naar Magdalene gjorde sig rigtig grundig til for ham, kingsede og lo sv&#x00E6;rt og vred paa sig, slig som hun pleiede, naar hun gjorde sig til, saa vendte Yngvar Lie den lange n&#x00E6;sen sin om mod Lollik:</p>
+<p>Se paa dette du &#x2013; sagde n&#x00E6;sen uden ord &#x2013; her ser du en, som s&#x00E6;tter tilb&#x00F8;rlig pris paa mig her.</p>
+<p>Og nu kan du have det saa godt, sagde n&#x00E6;sen videre, for nu bryr jeg mig ikke det gran om dig &#x2013; nu kan du gaa der nu!</p>
+<p>Tilslut morede hun sig saa over ham, at hun maatte betro sig til en, og saa fortalte hun far det hele.</p>
+<p><pb n="128"/>Det var netop, naar far lagde sig paa sofaen for at sove middag, at han pleiede at faa alle Lolliks fortrolige meddelelser.</p>
+<p>&#x00AB;Du far &#x2013; t&#x00E6;nk der er en, som har friet til mig.&#x00BB;</p>
+<p>Far blev saa overrasket, at han reiste sig helt op igjen og kastede lureteppet af sig.</p>
+<p>&#x00AB;Hvad er det du siger? Hvad er det for en kanalje?&#x00BB;</p>
+<p>&#x00AB;L&#x00E6;g dig bare ned igjen &#x2013; det er saa latterligt, ser du. &#x2013; Ikke bliv sint da &#x2013; du kan tro, jeg svarede ham nok &#x2013; jeg klarede det brilliant, far, det var Yngvar Lie, ser du.&#x00BB;</p>
+<p>&#x00AB;Den langn&#x00E6;sede fyren!&#x00BB;</p>
+<p>&#x00AB;Ja har du seet saadan evig lang n&#x00E6;se &#x2013; du kan vide, jeg sagde nei &#x00F8;ieblikkelig &#x2013; men nu er det saa latterligt, for nu er han saa vigtig ligeoverfor mig.&#x00BB;</p>
+<p>&#x00AB;Du skulde sagt mig det straks,&#x00BB; sagde far alvorlig.</p>
+<p>&#x00AB;Nei det var saa leit, men nu er det saal&#x00E6;nge siden &#x2013; du kan tro, han er latterlig nu.&#x00BB;</p>
+<p>Hun lagde hovedet med det sv&#x00E6;re gule haar paa fars bryst. Han klappede det.</p>
+<p>&#x00AB;Hvis der kommer en saadan igjen, saa skal du fort&#x00E6;lle mig det &#x2013; lover du mig det?&#x00BB;</p>
+<p><pb n="129"/>&#x00AB;Ja,&#x00BB; &#x2013; men inde i sig t&#x00E6;nkte Lollik: Likte jeg ham saadan forf&#x00E6;rdelig godt, saa tror jeg ikke, jeg kunde fort&#x00E6;lle noget menneske, ikke engang far, det med en eneste gang. Jeg maatte gjemme det en liden stund for mig selv &#x2013; men bare en liden stund.</p>
+<p>&#x2013; &#x2013; &#x2013; &#x2013; Gik hun saa ikke her og var saa livende r&#x00E6;d for, at Jens Berentsen ogsaa t&#x00E6;nkte paa noget saadant. Saa gode kamerater, de havde v&#x00E6;ret, og skulde nu han blive ligesaa &#x00E6;kkel som Yngvar Lie.</p>
+<p>Han havde v&#x00E6;ret paa et udenlandsk handelskontor og kom hjem nogle dage f&#x00F8;r jul.</p>
+<p>Tip top moderne!</p>
+<p>Alting i orden, snip og slips og manschetter &#x2013; aa gid, hvor t&#x00E6;rtefin han var.</p>
+<p>Snakkede lidt gebrokkent gjorde han sandelig ogsaa, han havde jo v&#x00E6;ret udenlands et helt aar &#x2013; laksko gik han med ude i sneen &#x2013; jo han var saa fin, som det gik an at blive.</p>
+<p>Og den sorte lokken i panden, han havde som gut, havde han endnu, men nu var den klippet og arrangeret.</p>
+<p>Saadan som de havde gl&#x00E6;det sig alle veninderne, til han skulde komme hjem.</p>
+<p>Og det kunde v&#x00E6;ret sv&#x00E6;rt gjildt ogsaa, hvis det ikke havde v&#x00E6;ret dette, som Lollik var blevet saa r&#x00E6;d for.</p>
+<p><pb n="130"/>For den f&#x00F8;rste gang, hun traf ham, begyndte han saadan at &#x2013; ja at gj&#x00F8;re kur altsaa.</p>
+<p>&#x00AB;Du overtr&#x00E6;ffer mine dristigste forventninger som voksen,&#x00BB; sagde han den f&#x00F8;rste gang, de m&#x00F8;dtes.</p>
+<p>&#x00AB;Hvorledes det &#x2013; var jeg saa f&#x00E6;l som liden pige?&#x00BB;</p>
+<p>&#x00AB;Nei du var s&#x00F8;d &#x2013; meget s&#x00F8;d endogsaa &#x2013; men nu er du altsaa &#x2013; pardon &#x2013; hm ja &#x2013;&#x00BB;</p>
+<p>&#x00AB;Snak kuns rent ud du, far,&#x00BB; sagde Lollik.</p>
+<p>&#x00AB;Ja gjerne det &#x2013; du er en henrivende ung dame.&#x00BB;</p>
+<p>&#x00AB;Hvor &#x00E6;kkel du er, Jens Berentsen.&#x00BB;</p>
+<p>&#x00AB;Du sagde jo selv, at jeg skulde sige, hvad jeg mente &#x2013; bare disse lange, gule fletter &#x2013;&#x00BB;</p>
+<p>&#x00AB;Lad dem v&#x00E6;re, gut.&#x00BB;</p>
+<p>&#x00AB;Vil du jeg skal sige mere?&#x00BB;</p>
+<p>&#x00AB;Nei, nei jeg vil ikke.&#x00BB;</p>
+<p>&#x00AB;Jo jeg vil &#x2013; du vilde v&#x00E6;kke opsigt, hvorsomhelst du kom &#x2013; du er kort sagt, som franskmanden siger &#x2013;&#x00BB;</p>
+<p>&#x00AB;Hold munden paa dig, Jens Berentsen.&#x00BB;</p>
+<p>Det var fra den gang, Lollik blev r&#x00E6;d, han skulde fri.</p>
+<p>Ja, hvis han begyndte, saa vilde hun holde for &#x00F8;rene og l&#x00F8;be sin vei! Uf for frierier <pb n="131"/>var saa h&#x00F8;itidelige, og der kom saa meget leit efter.</p>
+<p>Men Lollik bestemte sig til, at hun vilde v&#x00E6;re fuldst&#x00E6;ndig alvorlig ligeoverfor ham, saa kanske det ikke blev til noget alligevel.</p>
+</div>
+<div type="uchapter" n="2_5">
+<head type="sub">&#x005B;V&#x005D;</head>
+<p rend="noIndent"><pb n="132"/>Hun traf Jens Berentsen paa gaden hver dag nu. Det var umuligt at undgaa ham, hun forstod han maatte passe hende op. Naar de gik flere i f&#x00F8;lge, saadan alle de unge damer og herrer, var det ingen sag &#x2013; det var bare moro da &#x2013; men alene med ham vilde ikke Lollik v&#x00E6;re.</p>
+<p>&#x00AB;Jeg mener du er r&#x00E6;d mig, jeg,&#x00BB; han kom h&#x00E6;sbl&#x00E6;sende efter hende opover bakken til Ekeli, &#x00AB;du l&#x00F8;ber jo, som det gjaldt livet.&#x00BB;</p>
+<p>&#x00AB;R&#x00E6;d dig &#x2013; er du rusk, du?&#x00BB;</p>
+<p>&#x00AB;Ja, hvorfor maa jeg ikke f&#x00F8;lge dig hjem da?&#x00BB;</p>
+<p>&#x00AB;Jeg l&#x00F8;ber som en vind, jeg, og da er det bare &#x00E6;kkelt at have f&#x00F8;lge.&#x00BB;</p>
+<p>&#x00AB;Saa du synes det &#x2013; det var forresten noget, jeg vilde fort&#x00E6;lle dig &#x2013; du husker vel Paul Borch?&#x00BB;</p>
+<p>Jo, Lollik troede, at hun huskede ham.</p>
+<p>&#x00AB;Jeg traf ham paa gaden inde i Kristiania <pb n="133"/>i forrige uge &#x2013; han havde saadan lyst at komme herned paa klubballet tredjedag.&#x00BB;</p>
+<p>&#x00AB;Her til byen!&#x00BB; Lollik syntes, der var noget, som stansede, hun vidste ikke, om det var hendes eget hjerte, eller hvad det var.</p>
+<p>&#x00AB;Han havde kommet sig,&#x00BB; vedblev Jens Berentsen, &#x00AB;han var slet ikke v&#x00E6;rst nu &#x2013; i gamle dage var han en styg plug, kan du vel huske.&#x00BB;</p>
+<p>&#x00AB;Nei, det husker jeg slet ikke.&#x00BB;</p>
+<p>&#x00AB;Nei, det er jo sandt, du havde jo en &#x00AB;<hi rend="italic">faible</hi>&#x00BB; for den figuren.&#x00BB;</p>
+<p>&#x00AB;<hi rend="italic">Faible</hi>,&#x00BB; vr&#x00E6;ngte Lollik, &#x00AB;jeg synes du skulde snakke norsk til saadanne dumrianer som mig.&#x00BB;</p>
+<p>&#x00AB;V&#x00E6;r nu lidt hyggelig.&#x00BB;</p>
+<p>&#x00AB;Jeg kan slet ikke udstaa at gaa saa langsomt, jeg,&#x00BB; sagde Lollik, &#x00AB;du kr&#x00E6;ker jo.&#x00BB;</p>
+<p>&#x00AB;Skal vi kapspringe kanske?&#x00BB;</p>
+<p>&#x00AB;Kom an!&#x00BB; Lollik tog paa sprang og stod alt med gl&#x00F8;dende kinder oppe ved porten til Ekeli, da Jens Berentsen endnu var nede i bakken.</p>
+<p>&#x00AB;Nu kan du se, hvem som vandt,&#x00BB; raabte hun.</p>
+<p>&#x00AB;Vent, vent,&#x00BB; raabte han.</p>
+<p>Nei, saa dum var hun rigtignok ikke. Han maatte ikke indbilde sig, at hun vilde vente paa ham. Og Lollik l&#x00F8;b.</p>
+<p><pb n="134"/>Men noget saa rart, som at Paul Borch kom hid til byen igjen! Det underlige var, at hun syntes, det var leit at snakke om det til nogen. De kunde gjerne tro, at hun gl&#x00E6;dede sig til, at han skulde komme.</p>
+<p>Pyt san &#x2013; det gjorde hun sandelig ikke &#x2013; saa dum var hun da ikke.</p>
+<p>Endelig fik hun da opsnuset, at han skulde v&#x00E6;re gjest hos konsul Berentsens. De var nok blevet venner, Jens Berentsen og han, siden de slos den aften oppe paa N&#x00E6;ssund. Forresten var det nu stor stas med Paul Borch, alle i byen syntes, de kjendte ham forf&#x00E6;rdelig godt nu. De unge pigerne undrede sig over, hvorledes han var &#x2013; gid han var n&#x00E6;sten ber&#x00F8;mt.</p>
+<p>Sagde Lollik et par ord om ham, var det kort og affeiende. En gang var hun saa bange, hun var blevet r&#x00F8;d, da de talte om ham &#x2013; aa for en ustyrtelig skam det havde v&#x00E6;ret, om nogen havde seet det!</p>
+<p>F&#x00F8;rst t&#x00E6;nkte hun, at hun vilde have sin nye hvide balkjole paa klubballet &#x2013; men, nei sandelig om hun vilde pynte sig for ham. Bare den tanken var saa flau. Nei, hun vilde tage den gamle rosenr&#x00F8;de paa, den var evig god nok, saa havde hun den nye hvide til Vaagaards store bal nytaarsdag.</p>
+<p>Hun holdt paa at fort&#x00E6;lle far i middagsstunden, <pb n="135"/>at Paul Borch skulde komme til klubballet, men saa fik hun det ikke til, det var ligesom ordene sad fast i halsen paa hende.</p>
+<p>Han skulde komme tredjedags eftermiddag, den samme dag ballet var. Det var i skumringen, Lollik listede sig ud, sprang ned mod dampskibsbryggen og stod oppe paa bakken mellem de smaa husene og stirrede i halvm&#x00F8;rket nedover mod bryggen. Der kom det sv&#x00E6;re skib, prustede og st&#x00F8;nnede og lagde til bryggen &#x2013; landgangen lagdes ombord &#x2013; du alverden hvor sent alting gik idag &#x2013; Lollik stirrede og stirrede. Der kom nogen iland, et par herrer, det kunde da ikke v&#x00E6;re nogen af dem!</p>
+<p>Aa &#x2013; &#x2013; der var han. Ved siden af Jens Berentsen. Lolliks hjerte hamrede. Saa h&#x00F8;i han var blevet, over et halvt hoved h&#x00F8;iere end Jens. Saa vakkert han holdt hovedet.</p>
+<p>Aa, hvor dum jeg er, sagde Lollik til sig selv og l&#x00F8;b baggaderne hjem.</p>
+<p>&#x2013; Lollik maatte t&#x00E6;nke paa den f&#x00F8;rste dag hun som liden pige gik paa danseskole og dansede netop i den samme sal, da hun tredjedags aften kom ind i klubsalen. Det var de samme r&#x00F8;de sofaer og den samme straalende oplysning, men nu sad der &#x00E6;ldre damer i rad og r&#x00E6;kke langs v&#x00E6;ggene, med f&#x00F8;dderne paa de lange skamler. Og der var en summen og brusen af snak og latter. &#x2013;</p>
+<p><pb n="136"/>Lolliks &#x00F8;ine fl&#x00F8;i omkring.</p>
+<p>Derborte ved d&#x00F8;ren stod han sammen med alle de gamle kamerater. Du, hvor pen han var! I samme &#x00F8;ieblik angrede hun, at hun ikke havde taget sin nye hvide kjole. Uf, at hun skulde v&#x00E6;re saa dum ogsaa. Hun tog sig vist alt andet end godt ud i den gamle sjab!</p>
+<p>Aa der kom han og Jens Berentsen tvers over gulvet til hende. Bare hun nu ikke blev stupende r&#x00F8;d.</p>
+<p>&#x00AB;Jeg ved ikke, om fr&#x00F8;ken Bommen kjender mig igjen?&#x00BB;</p>
+<p>Han havde de samme nydelige t&#x00E6;nderne.</p>
+<p>Jo, Lollik kjendte ham da igjen.</p>
+<p>&#x00AB;De er aldeles den samme,&#x00BB; han havde seet paa hende hele tiden. Ja nu var hun r&#x00F8;d som blod, det f&#x00F8;lte hun &#x2013; og saa denne v&#x00E6;mmelige r&#x00F8;de kjolen.</p>
+<p>Men saa var det, ligesom hun samlede sig:</p>
+<p>&#x00AB;Nei, jeg er slet ikke den samme,&#x00BB; sagde Lollik, &#x00AB;jeg er rigtignok forf&#x00E6;rdelig forandret.&#x00BB;</p>
+<p>&#x00AB;Nei, De er ikke&#x00BB; &#x2013; han saa ufravendt og alvorlig paa hende.</p>
+<p>&#x00AB;Men De er forandret&#x00BB; &#x2013; hun havde spekuleret paa, om hun skulde sige du eller De, men naar han sagde &#x00AB;De&#x00BB;, saa maatte jo hun ogsaa &#x2013; forresten blev hun n&#x00E6;sten som generet, fordi han saa saa l&#x00E6;nge paa hende.</p>
+<p><pb n="137"/>&#x00AB;Ja, jeg ved det,&#x00BB; sagde han rolig.</p>
+<p>&#x00AB;Saa snakker De vel ogsaa mere nu,&#x00BB; sagde Lollik og lo.</p>
+<p>&#x00AB;Nu husker jeg Deres latter,&#x00BB; sagde han d&#x00E6;mpet og langsomt, &#x00AB;nei, jeg er bange, at jeg er lige taus, som da jeg var gut.&#x00BB;</p>
+<p>Hvor nydeligt Lollik syntes det var, at han talte saadan d&#x00E6;mpet.</p>
+<p>&#x00AB;Men danse kan De vel nu?&#x00BB;</p>
+<p>&#x00AB;Lidt bedre maaske.&#x00BB;</p>
+<p>&#x00AB;Aa, hvor tung De var at tr&#x00E6;kke paa.&#x00BB;</p>
+<p>&#x00AB;Og saa snild De var.&#x00BB;</p>
+<p>&#x00AB;Var jeg?&#x00BB; Hun lo igjen den morsomme, trillende latteren. Hendes egen stemme h&#x00F8;rtes saa h&#x00F8;i mod hans.</p>
+<p>Jo, De er aldeles den samme,&#x00BB; sagde han igjen.</p>
+<p>&#x00AB;Og De som er blevet saa flink.&#x00BB;</p>
+<p>&#x00AB;Nei.&#x00BB;</p>
+<p>&#x00AB;Jo &#x2013; jeg burde vist genere mig rasende.&#x00BB;</p>
+<p>&#x00AB;Jeg kan ikke t&#x00E6;nke mig Dem generet.&#x00BB;</p>
+<p>Ja, der kan en bare se, hvor dumme herrer er, t&#x00E6;nkte Lollik, at han ikke forstaar, hvor forf&#x00E6;rdelig generet jeg er nu, jeg snakker jo aldeles vildt.</p>
+<p>&#x00AB;Husker De det ballet paa N&#x00E6;ssund?&#x00BB;</p>
+<p>Jo da, Lollik huskede det.</p>
+<p><pb n="138"/>&#x00AB;Det er et af mine smukkeste minder fra barneaarene.&#x00BB;</p>
+<p>Lollik kunde ikke rigtig sige, hvori det stak, men fra det &#x00F8;ieblik forstod hun, at han var kommet herned for hendes skyld, og at han var glad i hende.</p>
+<p>Fra det &#x00F8;ieblik brydde hun sig ikke det spor mere om sin gamle, r&#x00F8;de kjole.</p>
+<p>Men saa var det ogsaa den deiligste aften, hun havde oplevet.</p>
+<p>Hvor de dansede, og hvor de snakkede, hun og Paul Borch. Der var for Lollik ingen andre end Paul Borch paa det bal.</p>
+<p>Uden at de merkede det, sagde de &#x00AB;du&#x00BB; til hinanden. Da de saa opdagede det, gjorde ingen af dem nogen bemerkning om det, men vedblev at sige &#x00AB;du&#x00BB;, som de havde gjort det den hele tid. Jens Berentsen sv&#x00E6;rmede om dem og var spydig og &#x00E6;rtede, men Lollik saa ham komplet ikke.</p>
+<p>&#x00AB;Ved du Lollik, hvorfor jeg er kommet herned,&#x00BB; spurgte Paul, de havde listig faaet erobret sig et par stole, hvor de syntes de sad useet.</p>
+<p>&#x00AB;Sig det da,&#x00BB; sagde Lollik.</p>
+<p>&#x00AB;Forstaar du da ikke, jeg er glad i dig?&#x00BB;</p>
+<p>&#x00AB;Jo.&#x00BB;</p>
+<p>Lollik vidste ikke, enten hun sv&#x00E6;vede i <pb n="139"/>luften, eller hun sad paa en br&#x00F8;stf&#x00E6;ldig stol i den gamle klubsal borte ved et vindu, som trak ganske afskyelig.</p>
+<p>&#x00AB;Er du &#x2013; er du virkelig lidt glad i mig ogsaa?&#x00BB;</p>
+<p>&#x00AB;Ja jeg er, Paul Borch.&#x00BB; T&#x00E6;nk det, som hun havde syntes maatte v&#x00E6;re saa rart at sige &#x2013; og nu var det ikke det mindste underligt.</p>
+<p>De sad stille en liden stund begge to, saa sagde Paul sagte:</p>
+<p>&#x00AB;Jeg har v&#x00E6;ret glad i dig, siden den danseskolen &#x2013; hele tiden.&#x00BB;</p>
+<p>&#x00AB;Har du &#x2013; jeg ogsaa.&#x00BB;</p>
+<p>&#x00AB;Du ogsaa!&#x00BB;</p>
+<p>&#x2013; &#x2013; &#x2013; Far og mor havde ikke v&#x00E6;ret med paa det bal. Da Lollik kom hjem, fik hun saadan ustyrtelig lyst til at gaa ind til dem og fort&#x00E6;lle dem dette vidunderlige med en eneste gang. Hun havde altid f&#x00F8;r t&#x00E6;nkt, at hun maatte beholde det for sig selv en liden stund, men dette var altfor deiligt.</p>
+<p>&#x00AB;Er dere vaagne?&#x00BB; Lollik kom med et t&#x00E6;ndt lys ind til far og mor.</p>
+<p>Hun stod ved fodenden af deres senge med den rosenr&#x00F8;de kjole, det sv&#x00E6;re gule haar i en eneste kr&#x00F8;l om det blussende ansigt, &#x00F8;inene straalede og lyste, og lyset holdt hun h&#x00F8;it over sit hoved.</p>
+<p><pb n="140"/>&#x00AB;Far og mor &#x2013; jeg har forlovet mig!&#x00BB;</p>
+<p>Far og mor reiste sig begge to op i sine senge.</p>
+<p>&#x00AB;Men kj&#x00E6;re barn, hvad er det du siger, hvem er det med?&#x00BB;</p>
+<p>&#x00AB;Paul Borch naturligvis.&#x00BB;</p>
+<p>&#x00AB;Paul Borch &#x2013; er han her?&#x00BB;</p>
+<p>&#x00AB;Ja naturligvis.&#x00BB;</p>
+<p>&#x00AB;Men kj&#x00E6;reste barn, er du sikker paa dig selv i dette?&#x00BB; sagde mor.</p>
+<p>&#x00AB;Lol &#x2013; Lol &#x2013; er nu dette noget, som varer?&#x00BB; sagde far.</p>
+<p>&#x00AB;Ja i evighed.&#x00BB; Uvilkaarlig h&#x00E6;vede hun lyset endda h&#x00F8;iere, og &#x00F8;inene straalede end sterkere.</p>
+<p>&#x2013; &#x2013; &#x2013; Slig huskede far og mor hende altid senere. Og de forstod mere og mere, at Lolliks lyse, unge sj&#x00E6;l den gang ikke havde grebet feil.</p>
+<p>Og Lollik og Paul gik ud i det brogede liv sammen!</p>
+</div>
+</div>
+</body>
+</text>
+</TEI>

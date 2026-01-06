@@ -1,0 +1,3433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI PUBLIC "-// TEI P5 //EN" "http://www.tei-c.org/release/xml/tei/custom/schema/dtd/tei_all.dtd">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="BS_Munch_SorteSvaner">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>bokselskap.no, Oslo 2017
+<lb/>Anna Munch: <hi rend="italic">Sorte svaner</hi>
+<lb/>Teksten i bokselskap.no f&#x00F8;lger 1. utgave, 1898 (Kristiania, Det norske aktieforlag). Digitaliseringen er basert p&#x00E5; fil mottatt fra Nasjonalbiblioteket (nb.no)
+<lb/>ISBN: 978-82-8319-345-9 (digital, bokselskap.no), 978-82-8319-346-6 (epub), 978-82-8319-347-3 (mobi)
+</title>
+</titleStmt>
+<publicationStmt>
+<p>Publiseres som digital tekst av bokselskap.no.</p></publicationStmt>
+<sourceDesc>
+    <bibl>
+        <title>Sorte svaner</title>
+        <author>Anna Munch</author>
+        <publisher>Det norske aktieforlag</publisher>
+        <pubPlace>Kristiania</pubPlace>
+        <date>1898</date>
+        <note>digibok_2009051412002-1898-nob-837-Munch_Anna-Sorte_svaner_skuespil.html (fra Nasjonalbiblioteket 2016)</note>
+    </bibl>
+</sourceDesc>
+</fileDesc>
+<revisionDesc>
+<change who="ENW" when="2017-04-13">F&#x00F8;rt inn korrekturrettelser. Entiteter, kodekontroll og validering.</change>
+<change who="ENW" when="2017-04-10">Lagt inn ISBN og faksimile av tittelblad.</change>
+<change xml:id="ENW" who="ENW" when="2017-01-19">XML-koding. Validering. Klar for korrektur.</change>
+</revisionDesc>
+</teiHeader>
+<text xml:id="BS_Munch_SorteSvaner_tekst" type="drama">
+<front>
+<titlePage type="main">
+<byline><docAuthor>Anna Munch</docAuthor></byline>
+<docTitle>
+<titlePart type="main">Sorte svaner</titlePart>
+<titlePart type="sub">Skuespil</titlePart>
+</docTitle>
+<docDate>bokselskap.no<lb/>Oslo 2017</docDate>
+</titlePage>
+<div type="chapter" subtype="illustration">
+<p rend="center"><figure><graphic url="tittelblad_1898.jpg"/></figure></p>
+</div>
+<div>
+<castList>
+<head>Personer</head>
+<castItem><role>Konsul L&#x00FC;tzen</role></castItem>
+<castItem><role>Fru Ad&#x00E8;le L&#x00FC;tzen</role></castItem>
+<castItem><role>Ellinor,</role> <roleDesc>deres datter, 20 aar</roleDesc></castItem>
+<castItem><role>Kontorchef Hellesen</role></castItem>
+<castItem><role>Agnes Reinhart,</role> <roleDesc>fruens brordatter, 23 aar</roleDesc></castItem>
+<castItem><role>Jonathan,</role> <roleDesc>billedhugger</roleDesc></castItem>
+<castItem><role>Gerhardt,</role> <role>Exner,</role> <role>Balle</role> <roleDesc>Hans venner</roleDesc></castItem>
+<castItem><role>Kykliky,</role> <roleDesc>en gut paa 9 aar</roleDesc></castItem>
+<castItem><role>L&#x00F8;itnant Morell</role></castItem>
+<castItem><role>Arkitekt Aaby</role></castItem>
+<castItem><role>Habel,</role> <roleDesc>kunstkritiker</roleDesc></castItem>
+<castItem><role>En pige</role></castItem>
+<castItem><role>Opvartere, g&#x00E6;ster, damer og herrer. M&#x00E6;nd og kvinder af folket, arbeidere, haandv&#x00E6;rkere, bonde piger. Deltagere i korporationer og optog, med og uden forkl&#x00E6;dning.</role></castItem>
+</castList>
+</div>
+</front>
+<body>
+<div type="chapter" subtype="act" n="1">
+<head type="main">AKT I</head>
+<stage><pb n="9"/>Et kabinet eller boudoir, rigt udstyret. I forgrunden til venstre et stort speil. Til h&#x00F8;ire bord, chaiselongue, l&#x00E6;nestole. Gulvteppe, portierer etc. Udgange i mellemgrunden til begge sider.</stage>
+<stage>Gennem den opslaaede mellemd&#x00F8;r i baggrunden ser man ind i spisesalen, hvor bord d&#x00E6;kkes med blomster, frugtopsatser, s&#x00F8;lv og glast&#x00F8;i. Et par piger med hvide forkl&#x00E6;der og hvidt haars&#x00E6;t er i arbeide. Agnes Reinhart, noget bleg, med m&#x00F8;rke &#x00F8;ine og rigt, sort haar, ses fra og til.</stage>
+<sp>
+<speaker>Ellinor L&#x00FC;tzen</speaker>
+<stage>(ind fra venstre. Hun er lys cendr&#x00E9;e, i elegant baltoilette, b&#x00E6;rer en &#x00E6;ske blomster. Gaar hen foran speilet og pr&#x00F8;ver den ene efter den anden i haaret og nedover kjolen. Om lidt, utaalmodig)</stage>
+<p>Nei! <stage>(raaber)</stage> Agnes, Agnes!</p>
+</sp>
+<sp>
+<speaker><pb n="10"/>Agnes</speaker>
+<stage>(indefra)</stage>
+<p>Ja. <stage>(Kommer.)</stage></p>
+</sp>
+<sp>
+<speaker>Ellinor</speaker>
+<p>Jeg faar det ikke til. Jeg ved ikke hvilke jeg skal ta engang. Du faar hj&#x00E6;lpe mig, Agnes.</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<p>Ja, vent lidt. De holder paa at flytte konsolen derinde, og jeg er bange for den store vasen.</p>
+</sp>
+<sp>
+<speaker>Ellinor</speaker>
+<stage>(pr&#x00F8;ver og sukker utaalmodig. Ryster paa hodet)</stage>
+<p>Ingenting kl&#x00E6;r mig idag. <stage>(Til en pige, som gaar gennem rummet)</stage> Hent pudder til mig, Pauline. Kvasten, ved du, og det rosa. <stage>(Pigen gaar.)</stage></p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<stage>(lidt efter, ser paa hendes pr&#x00F8;ven)</stage>
+<p>Tar du den sort? Det passer vist ikke.</p>
+</sp>
+<sp>
+<speaker><pb n="11"/>Ellinor</speaker>
+<p>Nei, hvad skal jeg ta da? Den saffrangule her? Jo, ser du ikke, det er en &#x00AB;dristig sammens&#x00E6;tning&#x00BB;. Til det gr&#x00F8;nne? Men uf, en blir saa bleg. Nei, hj&#x00E6;lp mig, du har god smag. Disse da? Pr&#x00F8;v nedover kjolen. <stage>(Hun gir hende et par kvaster, Agnes begynder at f&#x00E6;ste. Pigen kommer med pudderet, Ellinor begynder at pudre sig)</stage> Saa ja. Og haaret haaret. Der, du! lige bag &#x00F8;ret, saa! <stage>(gir hende blomster, hun har sat sig, Agnes f&#x00E6;ster)</stage> Hvad skal du ha paa?</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<p>Det er vel ikke saa meget at v&#x00E6;lge imellem.</p>
+</sp>
+<sp>
+<speaker>Ellinor</speaker>
+<p>Den lysegraa silke? Efter din mor? Ja, du har jo rigtignok trukket i den adskillige gange. Men den kl&#x00E6;r dig &#x2026; <stage>(tr&#x00F8;stende)</stage> Pyh, det er ikke noget at bry sig om.</p>
+</sp>
+<sp>
+<speaker><pb n="12"/>Agnes</speaker>
+<p>Det gj&#x00F8;r jeg ikke heller. Jeg er allergladest i den kjolen. Men forresten kommer jeg vist ikke til at pynte mig iaften. Jeg vil helst ikke v&#x00E6;re inde.</p>
+</sp>
+<sp>
+<speaker>Ellinor</speaker>
+<stage>(vender sig og ser paa hende med store &#x00F8;ine)</stage>
+<p>Ikke v&#x00E6;re inde? Naar din egen forlovelse skal deklareres!</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<p>Nei, kan du ikke sidde stille, Ellinor, jeg blir jo aldrig f&#x00E6;rdig med dette &#x2026;</p>
+</sp>
+<sp>
+<speaker>Ellinor</speaker>
+<p>Ja, se her <stage>(r&#x00E6;kker hende en blomst)</stage> Det mangler bare den paa skulderen nu. Saa. <stage>(igen)</stage> Ikke v&#x00E6;re inde? Jeg tror, du er gal. Forlovelsen da?</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<p>Jeg er ikke forlovet.</p>
+</sp>
+<sp>
+<speaker><pb n="13"/>Ellinor</speaker>
+<p>Naa! Og denne selvsamme dag har mama sagt, at forlovelsen skal offentliggj&#x00F8;res iaften.</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<p>Det er vel ikke forsent endnu at faa det forandret.</p>
+</sp>
+<sp>
+<speaker>Ellinor</speaker>
+<p>Jo, ved du hvad. Og jeg kom endda til at fort&#x00E6;lle det til Emmy i formiddag.</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<p>Saa faar du sige til Emmy, at det ikke blir.</p>
+</sp>
+<sp>
+<speaker>Ellinor</speaker>
+<p>Nei, du er god. Og t&#x00E6;nk, Hellesen, hvad siger han?</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<p>Jeg har aldrig lovet Hellesen noget.</p>
+</sp>
+<sp>
+<speaker><pb n="14"/>Ellinor</speaker>
+<p>Jasaa?</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<p>Det er han selv, &#x2013; ja, og din far og mor, som har taget det for givet, at det skal saa v&#x00E6;re.</p>
+</sp>
+<sp>
+<speaker>Ellinor</speaker>
+<p>Nei, nu har jeg aldrig &#x2013;</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<p>Han gik jo her bestandig. Og har gaat her saa l&#x00E6;nge, jeg kan huske. Jeg sk&#x00F8;nte ikke, at det var det. Har ikke havt noget imod ham heller. Men nu har jeg det, og det blir aldrig, nei aldrig &#x2026; <stage>(noget knuget)</stage> De skal ikke faa mig til det, f&#x00F8;r skal jeg &#x2026;</p>
+</sp>
+<sp>
+<speaker>Ellinor</speaker>
+<p>Nei, naturligvis. Ingen tvinger dig. Det var bare noget sent, mener jeg. <stage>(Dreier og <pb n="15"/>vender sig foran speilet, retter paa sit sl&#x00E6;b etc.)</stage> Ja, jeg er ligeglad, jeg. Det faar du ordne med mama. Men for en staahei det blir.</p>
+</sp>
+<sp>
+<p><stage>(<hi rend="bold">Konsul L&#x00FC;tzen</hi> ses inde ved spisebordet, han tr&#x00E6;kker propper af vinflasker, s&#x00E6;tter paragouter paa. Om lidt, i d&#x00F8;ren)</stage> Agnes! Hj&#x00E6;lp mig lidt her, du.</p></sp>
+<stage>(Agnes gaar ind.)</stage>
+<sp>
+<speaker>Fru L&#x00FC;tzen</speaker>
+<stage>(ind, grande toilette. Hun er omkring de 50, endnu smuk.)</stage>
+<p>Ved du, Ellinor. Oberst Bjerrings har sendt afbud; ligesaa Morells, generalkonsulens.</p>
+</sp>
+<sp>
+<speaker>Ellinor</speaker>
+<p>Det var jo kedeligt. Han er saa dekorativ, Bjerring.</p>
+</sp>
+<sp>
+<speaker>Fruen</speaker>
+<p>Morells skal v&#x00E6;re reist herfra idag. Man siger, de er blit tildels ruinerede <pb n="16"/>gjennem s&#x00F8;nnen. Han maa til udlandet og rette paa sagerne.</p>
+</sp>
+<sp>
+<speaker>Ellinor</speaker>
+<p>S&#x00F8;nnen, l&#x00F8;itnant Morell? den nydelige l&#x00F8;itnant Morell? Han med alle de galante eventyrene?</p>
+</sp>
+<sp>
+<speaker>Fruen</speaker>
+<stage>(tr&#x00E6;kker paa skuldrene)</stage>
+<p>De var regnet for uhyre rige.</p>
+</sp>
+<sp>
+<speaker>Ellinor</speaker>
+<p>Jeg dansed med ham paa et bal i vinter, og han har gjort visit her. Han var chic! Men de sa, han havde en kostbar elskerinde. Det er naturligvis hende, som har ruineret ham.</p>
+</sp>
+<sp>
+<speaker>Fruen</speaker>
+<p>Hys, tal ikke saa djervt, barn, hvor l&#x00E6;rer du det? Damer siger ikke saadant.</p>
+</sp>
+<sp>
+<speaker><pb n="17"/>Ellinor</speaker>
+<p>Aah! End du og papa &#x2026; Og de andre, naar de sidder og hvisker i selskaber. <stage>(Ler)</stage> Men se paa kjolen min, mama.</p>
+</sp>
+<sp>
+<speaker>Fruen</speaker>
+<stage>(m&#x00F8;nstrer hende)</stage>
+<p>Jo, du er bra. Ganske bra. Har Agnes hjulpet dig?</p>
+</sp>
+<sp>
+<speaker>Ellinor</speaker>
+<p>Ja.</p>
+</sp>
+<sp>
+<speaker>Fruen</speaker>
+<p>Det er sandt. Agnes, bestilte du isen?</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<stage>(i d&#x00F8;ren)</stage>
+<p>Ja.</p>
+</sp>
+<sp>
+<speaker>Fruen</speaker>
+<stage>(retter paa et draperi)</stage>
+<p>Bare vi nu faar den i rette tid. De er saa umulige. Nei, se her! Garneringen er <pb n="18"/>gaat l&#x00F8;s et langt stykke. <stage>(Raaber ind)</stage> Agnes! aa, kom her med naal og traad.</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<stage>(kommer om lidt, <hi rend="bold">konsulen</hi> noget efter. Agnes syr paa garneringen.)</stage>
+</sp>
+<sp>
+<speaker>Fruen</speaker>
+<p><stage>(retter lidt paa sit toilette. M&#x00F8;nstrer hende.)</stage> Men du gode! gaar du endnu i den kjole?</p>
+</sp>
+<sp>
+<speaker>Ellinor</speaker>
+<p>Ja, mama, du skulde bare vide. Agnes vil &#x2026;</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<p>Ti stille, Ellinor, jeg skal selv &#x2026;</p>
+</sp>
+<sp>
+<speaker>Konsulen</speaker>
+<stage>(kommer i det samme.)</stage>
+<p>Se saa. Det var de vaade varer. Men den sherry er ikke <emph>t&#x00F8;r</emph>. <stage>(B&#x00F8;rster sig med lommet&#x00F8;rkl&#x00E6;det <pb n="19"/>over livkjolen)</stage> Og sauternen er feil aargang fra k&#x00E6;lderen; jeg saa det for sent. De jenterne! <stage>(Viser frem noget)</stage> Se her, hvad har vi her?</p>
+</sp>
+<sp>
+<speaker>Ellinor</speaker>
+<p>Papa, din nye orden.</p>
+</sp>
+<sp>
+<speaker>Konsulen</speaker>
+<p>Nyt af aaret! Sidste stjernefald.</p>
+</sp>
+<sp>
+<speaker>Ellinor</speaker>
+<p>Lad mig f&#x00E6;ste den paa dig, papa. <stage>(Hun f&#x00E6;ster)</stage> Nei, saa statelig!</p>
+</sp>
+<sp>
+<speaker>Konsulen</speaker>
+<stage>(ser sig i speilet.)</stage>
+<p>Hm. Aa ja, kan gaa an. Endnu.</p>
+</sp>
+<sp>
+<speaker>Ellinor</speaker>
+<p>Ja, l&#x00E6;nge endnu. Ved du papa, at Ada Holtmark er ganske haabl&#x00F8;st forelsket i dig. Hun betrode mig det forleden.</p>
+</sp>
+<sp>
+<speaker><pb n="20"/>Konsulen</speaker>
+<stage>(fremdeles foran speilet, med en vis lun overlegenhed)</stage>
+<p>Nei, er hun det. Da er hun saa vist ikke den f&#x00F8;rste.</p>
+</sp>
+<sp>
+<speaker>Fruen</speaker>
+<stage>(&#x00E6;rgerlig, til sin mand)</stage>
+<p>Saa? skal du nu til med det narreri. Jeg synes, du engang burde komme over den slags indbildninger. <stage>(Til datteren)</stage> Hvorfor siger du sligt, Ellinor? Det er naturligvis bare noget, du vil opnaa igen. <stage>(Ellinor ler.)</stage></p>
+</sp>
+<sp>
+<speaker>Konsulen</speaker>
+<stage>(kniber sin kone i &#x00F8;ret, da han gaar forbi.)</stage>
+<p>Naa. Du er jaloux. Det ved vi.</p>
+</sp>
+<sp>
+<speaker>Fruen</speaker>
+<stage>(bl&#x00E6;ser)</stage>
+<p>Jaloux!</p>
+</sp>
+<sp>
+<speaker>Konsulen</speaker>
+<p>Naa, naa &#x2026; Apropos, jaloux &#x2026; har du h&#x00F8;rt nyeste nyt? <emph>Det</emph> er jalousi, som <pb n="21"/>forslaar. Hm. Oberstl&#x00F8;itnant Bratt kommer hjem sent igaar nat &#x2013; fra sold, nei, det kan virkelig ikke fort&#x00E6;lles h&#x00F8;it. <stage>(Fruen spidser &#x00F8;ren, konsulen fort&#x00E6;ller halv sagte, man h&#x00F8;rer afbrudte s&#x00E6;tninger)</stage> &#x2026; Ved Sovekammerd&#x00F8;ren &#x2026; fulgte ham ned trappen &#x2026; Evakostyme &#x2026; inde i alkoven &#x2026; tableau, ha, ha &#x2026; <stage>(Fruen er blid igen, de ler begge.)</stage></p>
+</sp>
+<sp>
+<speaker>Ellinor</speaker>
+<p>Fort&#x00E6;l det, papa.</p>
+</sp>
+<sp>
+<speaker>Konsulen</speaker>
+<p>Hys, det er ikke noget for dig.</p>
+</sp>
+<sp>
+<speaker>Fruen</speaker>
+<p>Igaar, siger du. Ja, men iforgaars &#x2026; og hendes egen svoger &#x2026; <stage>(de hvisker igen.)</stage> Naa saa! Ja, det tror jeg inderlig gerne. Det ligner hende. Hun tror sig ganske uimodstaaelig.</p>
+</sp>
+<sp>
+<speaker><pb n="22"/>Ellinor</speaker>
+<p>Nei, nu skal jeg fort&#x00E6;lle noget. T&#x00E6;nk, fru Kent, dere ved, hun, som skrev til sin mand fra Rom ganske aabenlyst, at hun bedrog ham, &#x2013; hun ligger nu haabl&#x00F8;st syg paa hospitalet af sorg over, at han, den andre, har forladt hende &#x2026; og familien vil ingenting ha at g&#x00F8;re med hende mere &#x2026;</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<p>Det er ikke saa, Ellinor, for jeg saa dem tilf&#x00E6;ldigvis igaar. De gik arm i arm.</p>
+</sp>
+<sp>
+<speaker>Ellinor</speaker>
+<p>Jasaa. Ja, gerne for mig. Han kan vist v&#x00E6;re bedaarende, men trofasthed trode jeg ikke var hans st&#x00E6;rke side.</p>
+</sp>
+<sp>
+<speaker>Fruen</speaker>
+<p>Ja, lad nu det fare. Det er ikke noget at spilde tiden med, &#x2013; en gemen og aabenlys skandalhistorie, som alle folk spytter paa.</p>
+</sp>
+<sp>
+<speaker><pb n="23"/>Agnes</speaker>
+<stage>(med et m&#x00F8;rkt, smertefuldt blik, uvilkaarlig)</stage>
+<p>Aa, men de har da vist &#x2013; lidt saa meget, begge to, alle tre &#x2013;</p>
+</sp>
+<sp>
+<speaker>Fruen</speaker>
+<p>Naa, det er ikke noget at forsvare, synes jeg.</p>
+</sp>
+<sp>
+<speaker>Ellinor</speaker>
+<p>Nei, men ved dere, hvem <emph>han</emph> ligner? Jonathan, billedhuggeren. Jo, han g&#x00F8;r. Jeg saa ham idag. Dere skulde set ham, da han hilste. Storartet! Papa, han kommer vel iaften?</p>
+</sp>
+<sp>
+<speaker>Konsulen</speaker>
+<p>Han kommer vel nok, da indbydelse er sendt. Saadanne hjeml&#x00F8;se fugle har ikke noget imod at komme lidt med. Og denne er nok en &#x00E6;gte vagabond.</p>
+</sp>
+<stage><pb n="24"/><hi rend="bold">Kontorchef Hellesen</hi>, en smuk mand paa omkring 45, &#x2013; haaret noget graaspr&#x00E6;ngt, &#x2013; og <hi rend="bold">Arkitekt Aaby</hi>, ind fra h&#x00F8;ire. De b&#x00E6;rer hver sin blomsterbuket.</stage>
+<sp>
+<speaker>Hellesen og Aaby</speaker>
+<p>Godaften! godaften!</p>
+</sp>
+<sp>
+<speaker>De andre</speaker>
+<p>Godaften!</p>
+<stage>(De tar hverandre i haanden.)</stage>
+</sp>
+<sp>
+<speaker>Arkitekten</speaker>
+<p>Ja, vi er rigtignok noget tidlig ude. Men jeg havde lovet frk. Ellinor at v&#x00E6;re en smule dekorat&#x00F8;r.</p>
+</sp>
+<sp>
+<speaker>Ellinor</speaker>
+<p>Ja vist. Blomster-arrangementet inde i salen; det havde jeg ganske glemt.</p>
+</sp>
+<sp>
+<speaker>Arkitekten</speaker>
+<p>Som mand af faget, ved De. Men bevares, hvor De er bl&#x00E6;ndende, storartet! <pb n="25"/><stage>(Han bukker for hende)</stage> Maa jeg ha den &#x00E6;re? <stage>(Han r&#x00E6;kker hende buketten.)</stage></p>
+</sp>
+<sp>
+<speaker>Ellinor</speaker>
+<p>Tusen tak. <stage>(Ler)</stage> Hvor vi skal more os iaften. Kom, hr. arkitekt, til v&#x00E6;rket; jeg r&#x00E6;kker Dem palmerne. <stage>(Hun g&#x00F8;r dansetrin, drager ham med sig indover til venstre.)</stage></p>
+</sp>
+<sp>
+<speaker>Fruen</speaker>
+<stage>(efter hende)</stage>
+<p>Ellinor! V&#x00E6;r nu forsigtig med din dragt! hold kjolen op! &#x2026; Staa ikke paa gardintrappen, barn.</p>
+</sp>
+<sp>
+<speaker>Konsulen</speaker>
+<p>Jeg faar nok v&#x00E6;re med der.</p>
+<stage>(Ud.)</stage>
+</sp>
+<sp>
+<speaker>Kontorchef Hellesen</speaker>
+<stage>(har imens n&#x00E6;rmet sig Agnes og pr&#x00E6;senterer hende nu sin buket.)</stage>
+</sp>
+<sp>
+<speaker><pb n="26"/>Agnes</speaker>
+<stage>(staar rank og taus, modtar den mekanisk, men l&#x00E6;gger den et &#x00F8;ieblik efter fra sig paa et bord. Stille.)</stage>
+<p>Den er vist ikke til mig, hr. Hellesen. Giv den heller til tante Ad&#x00E9;le.</p>
+</sp>
+<sp>
+<speaker>Hellesen</speaker>
+<p>Hvad? Frk. Agnes, hvad skal nu dette betyde igen?</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<stage>(som f&#x00F8;r)</stage>
+<p>Det er feil adresse, siger jeg Dem.</p>
+</sp>
+<sp>
+<speaker>Fruen</speaker>
+<stage>(har vendt sig om, ser fra den ene til den anden)</stage>
+<p>Ja, jeg maa ogsaa sp&#x00F8;rge, Agnes. &#x2013; Hvorfor staar du der som en st&#x00F8;tte? Hvorfor er du ikke pyntet?</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<stage>(en smule usikker i stemmen)</stage>
+<p>Fordi jeg helst ikke vil v&#x00E6;re inde iaften.</p>
+</sp>
+<sp>
+<speaker><pb n="27"/>Fruen</speaker>
+<stage>(skarpt)</stage>
+<p>Sludder! Hvad er det for vanskeligheder? <stage>(til Hellesen)</stage> Aa, hr. Hellesen, vil De ikke gaa ind i salen til de andre. Jeg taler med Agnes, <stage>(nikker opmuntrende efter ham)</stage> Det skal nok greie sig. <stage>(til Agnes)</stage> Hvad er dette for paafund, barn? Nu i sidste &#x00D8;ieblik.</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<stage>(stille)</stage>
+<p>Jeg <emph>kan</emph> jo ikke, tante Ad&#x00E8;le. Det er ganske, ganske umuligt.</p>
+</sp>
+<sp>
+<speaker>Fruen</speaker>
+<p>Og det siger du nu, samme aften, sagen skal offentligg&#x00F8;res. Vil du g&#x00F8;re skandale?</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<p>Det blir ikke skandale. Sagen er jo ikke kendt endnu.</p>
+</sp>
+<sp>
+<speaker><pb n="28"/>Fruen</speaker>
+<p>Aa. Baade den ene og den anden ved allerede &#x2026;</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<p>Ja, det er ikke min skyld, at Ellinor og du selv &#x2013;. Hvorfor er dere ikke mere forsigtige.</p>
+</sp>
+<sp>
+<speaker>Fruen</speaker>
+<stage>(haanlig)</stage>
+<p>Og du, end du selv? Har du kanske ikke ladet ham kysse dig? Tror du ikke, jeg saa det igaar aftes.</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<p>Ja, netop derfor. Netop efter d&#x00E9;t <emph>kan</emph> jeg ikke. Aldrig mere. Det blir f&#x00F8;rste og sidste gang.</p>
+</sp>
+<sp>
+<speaker>Fruen</speaker>
+<p>Naa, det er storartet! Og han skulde ikke v&#x00E6;re god nok. Du, en for&#x00E6;ldrel&#x00F8;s pige, som maatte v&#x00E6;re glad til. Og hvad <pb n="29"/>vil du g&#x00F8;re nu? Tror du, vi kan ha dig gaaende her aar efter aar? Hvad i al verden har du imod Hellesen med &#x00E9;t? Han, som har kendt dig lige fra dit trettende aar, da du kom hid.</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<p>Jeg har ingenting imod ham uden det, at han vil gifte sig med mig. Og kanske &#x00E9;n ting til.</p>
+</sp>
+<sp>
+<speaker>Fruen</speaker>
+<stage>(skjult agtpaagivende)</stage>
+<p>Hvad er d&#x00E9;t?</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<p>Nei, det var ikke noget &#x2013;. <stage>(b&#x00F8;ier af, indtr&#x00E6;ngende)</stage> Tante Ad&#x00E8;le, du kan ikke mene, at jeg skal gj&#x00F8;re dette for at v&#x00E6;re dere alle til vilje &#x2013; og fordi jeg er i en vanskelig stilling her &#x2013;</p>
+</sp>
+<sp>
+<speaker>Fruen</speaker>
+<p>Den vil ialfald ikke bli lettere herefter. Og nu har vi da skandalen gaaende.</p>
+</sp>
+<sp>
+<speaker><pb n="30"/>Agnes</speaker>
+<stage>(opr&#x00F8;rt)</stage>
+<p>Skandale? det er din eneste tanke. Gid jeg aldrig kom til at g&#x00F8;re v&#x00E6;rre skandale end det &#x2026;</p>
+</sp>
+<sp>
+<speaker>Fruen</speaker>
+<stage>(vedblir)</stage>
+<p>Skammeligt &#x2026; s&#x00E6;tte os alle i gabestok &#x2026; uds&#x00E6;tte for omtale &#x2026;</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<p>Tante Ad&#x00E8;le, du faar mig til at sige mere end jeg vil! Her er ingen fare, jeg kan jo v&#x00E6;re blit syg. Og om der hviskes i krogene! Dere er jo ikke bange, dere &#x2013; heroppe i den store verden &#x2013; for andet end aabenbare fakta, for det, som kan bevises. Alt det andet, det d&#x00E6;kkes jo over. Forlovelsen er ikke offentliggjort. Og imorgen &#x2026; ja, imorgen er jeg herfra.</p>
+</sp>
+<sp>
+<speaker>Fruen</speaker>
+<p><emph>Du</emph>? Nu skal vi faa h&#x00F8;re. Hvor vil du gaa hen?</p>
+</sp>
+<sp>
+<speaker><pb n="31"/>Agnes</speaker>
+<p>Det ved jeg ikke endnu. Jeg vil gaa ud i den vide verden, did sk&#x00E6;bnen vil. For d&#x00E9;t har jeg vidst l&#x00E6;nge, at her, &#x2013; i dette liv her, &#x2013; h&#x00F8;rer jeg ikke til.</p>
+</sp>
+<sp>
+<speaker>Fruen</speaker>
+<p>Hvad er det for noget taabeligt snak. Hvor du kan irritere en! Det er, som at h&#x00F8;re din mor &#x2026;</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<p>Aa, n&#x00E6;vn ikke mor. Hende kendte ikke du &#x2026;</p>
+</sp>
+<sp>
+<speaker>Fruen</speaker>
+<p>Nei, jeg havde ikke evne til at forstaa; hun laa for h&#x00F8;it, kanske. <stage>(Roligere)</stage> Hvad er det for noget vr&#x00F8;vl, barn. Hvor vil du gaa hen? Du, som ikke engang har l&#x00E6;rt noget. Vil du kanske s&#x00F8;ge dig plads som l&#x00E6;rerinde eller sidde paa et kontor?</p>
+</sp>
+<sp>
+<speaker><pb n="32"/>Agnes</speaker>
+<p>Ja, gid jeg havde gjort det for l&#x00E6;nge siden, gid jeg havde l&#x00E6;rt noget. Men det passed sig jo ikke, at et af medlemmerne her sad paa kontor. Og dere havde altid, altid brug for mig herhjemme. <stage>(afbedende)</stage> Nei, jeg bebreider dig ikke &#x2026; Men de penge, jeg havde efter far og mor, de er gaat med til finere kl&#x00E6;r og til flere forn&#x00F8;denheder, end jeg af naturen har. Nu har jeg en sparebankbog med 200 kr. tilbage. Og dem har jeg t&#x00E6;nkt at benytte bedre.</p>
+</sp>
+<sp>
+<speaker>Fruen</speaker>
+<p>Jo, de r&#x00E6;kker vist langt. Hvad er det, du &#x00AB;t&#x00E6;nker&#x00BB; paa.</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<p>Jeg vil leve for dem, saa l&#x00E6;nge jeg kan, &#x2013; ude i Guds fri natur! Det er ikke saa l&#x00E6;nge til vaaren nu! Jeg vil gaa ud i livet for at l&#x00E6;re, for at s&#x00F8;ge &#x2026; Der findes vel <pb n="33"/>et sted en plads for mig. Her er en fremmed verden.</p>
+</sp>
+<sp>
+<speaker>Fruen</speaker>
+<stage>(indigneret)</stage>
+<p>Du er jo vanvittig. Hvad er det for tilb&#x00F8;ieligheder, du har? Vil du gaa fra hus og hjem som en eventyrerske? en zigeunert&#x00F8;s, &#x2013; boh&#x00EA;mienne? &#x2013; Jo, det er takken, man har. Du, som vi har hegnet om i flere aar, opdraget sammen med vor egen datter inden hjemmets trygge mure. Som nu kunde faa en bra mand, selve dette hjems bedste ven. Men der er din mor igen: en vagabondnatur, en fremmed langt borte fra. Der er blandingsblod i dig, og ulykke for min bror, at han nogensinde traf hende &#x2026;</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<p>Vagabondnatur? sig en fri natur, en <emph>oprindelig</emph>, en, som kunde skille &#x00E6;gte fra u&#x00E6;gte. Og fars ulykke ved at tr&#x00E6;ffe hende, &#x2013; ja, det var kanske den, at han <pb n="34"/>ikke kunde <emph>overleve</emph> hende, <stage>(knuger h&#x00E6;nderne, uvilkaarlig)</stage> Aa, far, &#x2013; mor, &#x2013; hvor jeg l&#x00E6;ngter! &#x2026; Et hjem, siger du. Ja, der var et hjem &#x2026; og der var et helt forhold, saa helligt, saa enkelt &#x2026; livet mellem to, det, som varer &#x2013; livet ud! Jeg tror paa det!</p>
+</sp>
+<sp>
+<speaker>Fruen</speaker>
+<p>Ja &#x2026; hvem negter dig det. Tro du bare &#x2026;</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<p>D&#x00E8;r tr&#x00E6;ngte aldrig noget at d&#x00E6;kkes over. Men her! Aa, tante Ad&#x00E8;le, du tvinger mig, &#x2013; ja, jeg vil tale lige ud engang! Hvad er det for hjem, hvad er det for hegn? Og hvad er alt dette, som sker og hviskes om i krogene, det, som gaar saa godt an, saa l&#x00E6;nge det bare gaar <emph>hemmelig</emph> og ikke kan bevises. <stage>(Gaar hen og ser hende lige i &#x00F8;inene)</stage> Tante Ad&#x00E8;le! jeg vil sige det, for du skal ikke ford&#x00F8;mme mig, fordi jeg gaar nu: At jeg v&#x00E9;d, hvem han er &#x2013; eller har v&#x00E6;ret &#x2013; han, som du kakler &#x00AB;hjemmets bedste ven&#x00BB;. <pb n="35"/>Han, som du nu vil, at jeg skal gifte mig med &#x2013; kanske for at binde ham fastere til huset?</p>
+</sp>
+<sp>
+<speaker>Fruen</speaker>
+<p>Barn! Hvad vover du at sige &#x2026;</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<p>Jeg <emph>vover</emph> ikke &#x2026; og jeg bebreider dig ikke &#x2026; men jeg <emph>ved</emph>.</p>
+</sp>
+<sp>
+<speaker>Fruen</speaker>
+<stage>(bl&#x00E6;ser haanlig)</stage>
+<p>Ved &#x2026;</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<stage>(nikker)</stage>
+<p>Ved, ja. Kan ikke bevise. Nei. Men jeg ved, husker, fra aar tilbage, lige siden den sommernat i haven, da jeg var 14 aar! Jeg har t&#x00E6;nkt over meget i det sidste, <emph>maattet</emph> l&#x00E6;gge sammen. Indtil et par ord, jeg h&#x00F8;rte dere tale igaar aftes! Men aldrig <pb n="36"/>skulde jeg <emph>n&#x00E6;vnt</emph>, hvis du ikke havde villet gifte mig med ham.</p>
+</sp>
+<sp>
+<speaker>Fruen</speaker>
+<p>Ja, men ved Gud, Agnes &#x2026;</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<p>Jeg sk&#x00F8;nner det altsammen. Du kan jo ikke undv&#x00E6;re ham &#x2013; gaaende her i huset &#x2013; og heller end at miste ham ganske, afstaar du ham til mig. Saa blir han da i familien.</p>
+</sp>
+<sp>
+<speaker>Fruen</speaker>
+<stage>(har sat sig ned, betaget, hun t&#x00F8;rrer sig over panden med lommet&#x00F8;rkl&#x00E6;det. Stakaandet.)</stage>
+<p>Ja &#x2026; tro, hvad du vil, du. Men hvad du end tror &#x2026; saa daarlig er jeg ikke, at jeg skulde ville &#x2026; hvis der <emph>nu</emph> var &#x2026; Naa! Ja, en skal opleve mangt og meget. Men du skulde vide, du, som d&#x00F8;mmer &#x2026;</p>
+</sp>
+<sp>
+<speaker><pb n="37"/>Agnes</speaker>
+<p>Jeg d&#x00F8;mmer ikke. Bare dem, som d&#x00F8;mmer <emph>de andre</emph>. F. ex. dem, som er mindre beh&#x00E6;ndige.</p>
+</sp>
+<sp>
+<speaker>Fruen</speaker>
+<p>Aa Gud, ja &#x2026; Vi er alle skr&#x00F8;belige, alle syndere for Gud! men faar haabe paa Kristi blod, som renser fra al synd.</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<stage>(smiler uvilkaarlig)</stage>
+<p>Nei, <emph>det</emph> tror jeg ikke paa. Det er jo hedensk. Et blodoffer, en &#x00AB;aflad&#x00BB;, som menneskene bruger til sovepude. &#x00AB;Der skal gj&#x00F8;res regnskab for hvert utilb&#x00F8;rligt ord&#x00BB;, staar der. Vi faar vist svare hver for os.</p>
+</sp>
+<sp>
+<speaker>Fruen</speaker>
+<stage>(t&#x00F8;rrer sig igen)</stage>
+<p>Hys, barn, du taler ganske bespottelig. Gaar du aldrig i kirke? Men hvad jeg vilde sagt: Du skulde vide, du, hvad <emph>jeg</emph> <pb n="38"/>har maattet gaa igennem i mange aar med ham, min mand &#x2026; alle <emph>hans</emph> hemmelige veie.</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<p>V&#x00E9;d jeg det ikke &#x2013;. Og jeg har syntes synd paa ham og foragtet ham! Onkel L&#x00FC;tzen, saa dj&#x00E6;rv, statelig &#x2026; altid lige god for verden! Fordi de ved at vogte sig! Der gaar de paa samme tid og holder saa &#x00E6;ngstelig fast paa sin v&#x00E6;rdighed, ikke en flig maa l&#x00F8;ftes &#x2013; for verden! Nei, da heller ofre hemmelig baade sk&#x00E6;bner og hjerter, &#x2013; andres!</p>
+</sp>
+<sp>
+<speaker>Fruen</speaker>
+<stage>(reiser sig)</stage>
+<p>Ja, men ved du hvad. Sin v&#x00E6;rdighed, den faar en da sandelig holde paa.</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<stage>(ler)</stage>
+<p>Nei! Hvorfor ikke heller kaste den af i h&#x00F8;i foragt &#x2013; for den &#x00AB;offentlige mening&#x00BB;? <pb n="39"/>Aa, en kunde jo gerne faa lyst til &#x2013; ja, netop at g&#x00F8;re &#x00AB;skandale&#x00BB;, som dere er saa r&#x00E6;d for. En ordentlig, &#x00E6;rlig en!</p>
+</sp>
+<sp>
+<speaker>Fruen</speaker>
+<p>Du skulde vogte dig!</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<stage>(igen alvorlig, lidt s&#x00F8;rgmodig)</stage>
+<p>Ikke for skandalens skyld. Ikke for at udfordre, trodse. Men jeg mener, &#x2013; ja, at jeg <emph>kunde</emph> kanske komme til at g&#x00F8;re det.</p>
+</sp>
+<sp>
+<speaker>Fruen</speaker>
+<p>Ja, det skulde bare mangle.</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<p>Jo. For der ligger da gerne noget &#x00E6;gte til grund for det, som kaldes saa. En stor, hel f&#x00F8;lelse, ja, kanske endog noget rent. Sommetider i al fald.</p>
+<stage>(Hun staar tankefuld.)</stage>
+</sp>
+<sp>
+<speaker><pb n="40"/>Ellinor</speaker>
+<stage>(ind)</stage>
+<p>Men, mama, hvor blir du af? Flere g&#x00E6;ster er alt komne. Jonathan er kommen, <stage>(&#x00E6;rgerlig til Agnes)</stage> Jeg maa sige, det er lumpent af dig at g&#x00F8;re alt det opstyr i sidste minut! Kom, mama, det gaar ikke an. Du maa jo ta imod og pr&#x00E6;sentere. Jeg har aldrig set paa magen!</p>
+</sp>
+<sp>
+<speaker>Fruen</speaker>
+<p>Ja, gaa nu, gaa bare ind igen. <stage>(Vinker med haanden)</stage> Jeg kommer efter, kommer &#x00F8;ieblikkelig. <stage>(Opgivet)</stage> Ak, Gud, hvad er der at g&#x00F8;re! og forlovelsen, deklarationen, mange ved om det, &#x2013; det vil bli snak <stage>(opgivet og vred)</stage> Ja, efter dette faar du reise, Agnes. Du kan virkelig ikke v&#x00E6;re her.</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<p>Jeg reiser. Se her &#x2013; <stage>(gaar et &#x00F8;ieblik ind til h&#x00F8;ire, kommer tilbage med en haandkuffert og sit overt&#x00F8;i)</stage> Jeg har alt pakket. Jeg turde ikke vente &#x2013; om det skulde komme til det <pb n="41"/>yderste. Det andet skal jeg hente siden. Farvel, tante Ad&#x00E8;le, og tak for alt &#x2026;</p>
+</sp>
+<sp>
+<speaker>Ellinor</speaker>
+<stage>(kommer i det samme, tar morens haand og drar hende med)</stage>
+<p>Mama, nu <emph>kommer</emph> du. Jeg maa pr&#x00E6;sentere dig for Jonathan, den ber&#x00F8;mte billedhuggeren. Du kan tro, han er statelig; men gruelig rar. Nu har han alt sagt mig ti komplimenter i &#x00E9;t minut!</p>
+</sp>
+<stage>(De gaar begge indover, Ellinor ser sig ikke om.)</stage>
+<sp>
+<speaker>Fruen</speaker>
+<stage>(vinker med haanden mos Agnes)</stage>
+<p>Farvel, farvel &#x2026; har ikke tid &#x2026;</p>
+</sp>
+<stage>(De gaar.)</stage>
+<sp>
+<speaker>Agnes</speaker>
+<stage>(tar stille paa sit overt&#x00F8;i, vil ta haandkufferten, stanser, ser sig om. Knuger h&#x00E6;nderne sammen, ser op. Sagte)</stage>
+<p>Far, &#x2013; mor! v&#x00E6;r med mig nu!</p>
+<stage>(Hun tar kufferten og gaar ud til h&#x00F8;ire.)</stage>
+</sp>
+<lb/><stage>Teppet falder.</stage>
+</div>
+<div type="chapter" subtype="act" n="2">
+<head type="main">AKT II</head>
+<stage><pb n="45"/>Vaar. En national festdag, udover eftermiddagen.</stage>
+<stage>(I forgrunden til venstre en frilufts - kaf&#x00E9; med tr&#x00E6;r og telte. Overfor til h&#x00F8;ire en murbygning, hvortil f&#x00F8;rer en stentrappe med gel&#x00E6;nder. I mellemgrunden bred gade og en aaben plads. Byen ses i baggrunden. Flere st&#x00F8;rre, festlige bygninger, nationale flag og gr&#x00F8;nne kranse.</stage>
+<stage>Et broget liv over scenen. Undertiden ses optog drage forbi, korporationer med faner, mai-optog med kranse, guirlander og blomster, fantastiske optog. Mennesker af alle klasser ses komme og gaa, elegant kl&#x00E6;dte damer, herrer; folk fra landet, haandv&#x00E6;rkere, arbeidere, bondepiger etc. Dog ingen tr&#x00E6;ngsel eller rastl&#x00F8;shed. Undertiden musik til processionerne; musik h&#x00F8;res ogsaa ellers stundimellem, fjernere og n&#x00E6;rmere.)</stage>
+<stage><hi rend="bold">Fru L&#x00FC;tzen</hi>, <hi rend="bold">Ellinor</hi>, <hi rend="bold">kontorchef Hellesen</hi> og <hi rend="bold">arkitekt Aaby</hi> sidder ved det forreste bord i kafeen. De er ved at bryde op.</stage>
+<sp>
+<speaker><pb n="46"/>Arkitekt Aaby</speaker>
+<p>Men skal vi ikke heller bli siddende. Det er et bra sted, dette. Her er saa god udsigt.</p>
+</sp>
+<sp>
+<speaker>Ellinor</speaker>
+<stage>(s&#x00E6;tter sig igen)</stage>
+<p>To minutter til. Men husk, De har lovet at vise mig monumentet.</p>
+</sp>
+<sp>
+<speaker>Fru L&#x00FC;tzen</speaker>
+<p>Der er vist saadan tr&#x00E6;ngsel, Ellinor.</p>
+</sp>
+<sp>
+<speaker>Ellinor</speaker>
+<p>Uf, se de to fulde m&#x00E6;ndene. <stage>(ler)</stage> De er ganske salige, og alligevel har de lyst til at slaas. Gud! bare de ikke kommer hid.</p>
+</sp>
+<sp>
+<speaker>Arkitekt</speaker>
+<p>V&#x00E6;r ikke bange. De har jo mig. <stage>(Ellinor ler, de veksler blikke. De to fulde fjerner sig igen.)</stage></p>
+</sp>
+<sp>
+<speaker><pb n="47"/>Fruen</speaker>
+<p>Det er ubehageligt med den blanding af alle klasser paa de store festdage.</p>
+</sp>
+<sp>
+<speaker>Hellesen</speaker>
+<p>Sig heller, at man blandes for lidet. I udlandet sker det hver dag, derfor begaaes der ikke slige excesser. En ser n&#x00E6;sten aldrig fulde folk. Det er galt, som det er, her hjemme. <stage>(Han ser paa sit ur.)</stage></p>
+</sp>
+<sp>
+<speaker>Fruen</speaker>
+<p>Vil De gaa, Hellesen?</p>
+</sp>
+<sp>
+<speaker>Hellesen</speaker>
+<stage>(adspredt)</stage>
+<p>Ja, jeg skal v&#x00E6;re et sted.</p>
+</sp>
+<sp>
+<speaker>Fruen</speaker>
+<p>Nu gaar vi allesammen. Sid lidt. Jeg skulde tale med Dem om noget.</p>
+</sp>
+<sp>
+<speaker><pb n="48"/>Hellesen</speaker>
+<stage>(resigneret)</stage>
+<p>Til tjeneste.</p>
+</sp>
+<sp>
+<speaker>Ellinor</speaker>
+<stage>(peger)</stage>
+<p>Nei, se hende d&#x00E8;r! saa h&#x00F8;it tilveirs. <stage>(De ser alle paa et optog)</stage> Ligesom en Gudinde! Sk&#x00F8;n var hun.</p>
+</sp>
+<sp>
+<speaker>Arkitekt</speaker>
+<p>K&#x00E6;re! det var jo Florence King, den bekendte variet&#x00E9;-sangerinde.</p>
+</sp>
+<sp>
+<speaker>Ellinor</speaker>
+<p>Nei, var det? Jeg har h&#x00F8;rt om hende. Og hendes tilbedere. Kanske De er en af dem? &#x2013; Det maa v&#x00E6;re et forn&#x00F8;ieligt liv, de f&#x00F8;rer, saadanne.</p>
+</sp>
+<sp>
+<speaker>Fruen</speaker>
+<p>Nei, Ellinor. Saadant maa du ikke sige. Det mener du ikke.</p>
+</sp>
+<sp>
+<speaker><pb n="49"/>Ellinor</speaker>
+<p>Jo, da. <stage>(ler)</stage> Mama er saa bange bestandig. Men jeg synes, det maatte v&#x00E6;re interessant. T&#x00E6;nk, v&#x00E6;re en saadan kunstnerdronning. For et eventyrlig og afvexlende liv!</p>
+</sp>
+<sp>
+<speaker>Fruen</speaker>
+<p>Barn, du kender ikke til, hvad du taler om.</p>
+</sp>
+<sp>
+<speaker>Ellinor</speaker>
+<p>Jo; og jeg skulde gerne ville optr&#x00E6;de saadan &#x2013; og faa blomster og bli feiret og v&#x00E6;re deilig! Aa, deilig, bedaarende sk&#x00F8;n vilde jeg v&#x00E6;re! Faa dere til at d&#x00F8; for min skyld &#x2026; <stage>(ler igen.)</stage></p>
+</sp>
+<sp>
+<speaker>Arkitekt</speaker>
+<stage>(sagte)</stage>
+<p>Eller g&#x00F8;re os lykkelige? <stage>(Han reiser sig)</stage> Men skal vi altsaa gaa, frk. Ellinor?</p>
+</sp>
+<sp>
+<speaker>Fruen</speaker>
+<stage>(til de to)</stage>
+<p>K&#x00E6;re, v&#x00E6;r nu forsigtige. Pas paa hende i tr&#x00E6;ngselen, Aaby.</p>
+</sp>
+<sp>
+<speaker><pb n="50"/>Arkitekt</speaker>
+
+<p>Fruen kan v&#x00E6;re rolig.</p>
+</sp>
+<sp>
+<speaker>Fruen</speaker>
+<p>Og kommer dere saa hjem og spiser iaften?</p>
+</sp>
+<sp>
+<speaker>Ellinor</speaker>
+<p>Ja, mama, men det er ikke saa vist. Kanske vi tr&#x00E6;ffer nogen andre og gaar lidt paa galei. Det er frihedsdagen idag. Adj&#x00F8;! Adj&#x00F8;, Hellesen.</p>
+<stage>(De to gaar.)</stage>
+</sp>
+<sp>
+<speaker>Fruen</speaker>
+<stage>(sukker)</stage>
+<p>Hun er saa djerv, det barn. Lig sin far &#x2026;</p>
+</sp>
+<sp>
+<speaker>Hellesen</speaker>
+<p>Ja, men dristigere. <stage>(Smiler)</stage> Den kan bli farlig. Hedt blod &#x2026;</p>
+</sp>
+<sp>
+<speaker><pb n="51"/>Fruen</speaker>
+<p>Jeg raar ikke med hende. <stage>(Hun har reist sig)</stage> Men gaar vi saa? <stage>(ser &#x00F8;mt paa ham)</stage> Vi to gamle ogsaa?</p>
+</sp>
+<sp>
+<speaker>Hellesen</speaker>
+<stage>(lidt st&#x00F8;dt)</stage>
+<p>Jeg f&#x00F8;ler mig ikke gammel. Sjelden har jeg f&#x00F8;lt mig yngre end nu.</p>
+</sp>
+<sp>
+<speaker>Fruen</speaker>
+<stage>(varlig)</stage>
+<p>Nei, nei &#x2026; jeg mente det jo ikke saa alvorlig.</p>
+<stage>(De gaar.)</stage>
+</sp>
+<stage><hi rend="bold">Opvartere</hi> s&#x00E6;tter i orden og t&#x00F8;rrer af det forreste bord. Selskaber ved de fjernere kommer og gaar.</stage>
+<sp>
+<speaker>En opvarter</speaker>
+<stage>(til en anden)</stage>
+<p>Mathisen! Bestilte du R&#x00FC;desheimeren?</p>
+</sp>
+<sp>
+<speaker><pb n="52"/>Den anden</speaker>
+<p>R&#x00FC;desheim? Nei, champagne var det.</p>
+</sp>
+<sp>
+<speaker>Den f&#x00F8;rste</speaker>
+<p>Tosken! idag var det R&#x00FC;desheimer. Skal vide, hvad det blir imorgen? Og jagu betaler han for sig ogsaa. Men n&#x00F8;it dig nu, gut! ned i k&#x00E6;lderen med dig, for retnu har vi dem i farvandet.</p>
+</sp>
+<sp>
+<speaker>Den anden</speaker>
+<stage>(n&#x00F8;ler)</stage>
+<p>Ja, og jeg skal gerne expedere her, jeg, &#x2013; om du kanske vil ta dig en fristund&#x2026;</p>
+</sp>
+<sp>
+<speaker>Den f&#x00F8;rste</speaker>
+<p>Ho! nei, den lurer vi ikke &#x2013; fan deise mig!</p>
+</sp>
+<sp>
+<speaker>Den anden</speaker>
+<stage>(&#x00E6;rgerlig, tyk i m&#x00E6;let)</stage>
+<p>Nei, du t&#x00E6;nker nu bare paa de &#x2013; drikkepengene, du!</p>
+</sp>
+<sp>
+<speaker><pb n="53"/>Den f&#x00F8;rste</speaker>
+<stage>(ler)</stage>
+<p>Ingen sludder i valsen! ned i k&#x00E6;lderen med dig. Her skal det anden honn&#x00F8;r til, end hvad en saadan kan pr&#x00E6;stere. Se der, h&#x00F8;rer jeg dem i trappen. Det var heldig, bordet blev ledig.</p>
+</sp>
+<stage>(Den anden forsvinder, f&#x00F8;rste opvarter bukker og skraber for <hi rend="bold">Jonathan</hi>, <hi rend="bold">Exner</hi>, <hi rend="bold">Gerhardt</hi> og <hi rend="bold">Balle</hi>, som kommer ud fra bygningen overfor. De gaar nedover stentrappen. Jonathan og Gerhardt b&#x00E6;rer kranse af egel&#x00F8;v om haaret.)</stage>
+<sp>
+<speaker>Gerhardt</speaker>
+<p>Se her. Her ser vi ligesaa godt.</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>Ja, og her generer ikke r&#x00F8;gen. <stage>(De s&#x00E6;tter sig)</stage> Men i herrens navn, Gerhardt. Vil du sidde med den tingest paa?</p>
+</sp>
+<sp>
+<speaker><pb n="54"/>Gerhardt</speaker>
+<p>Naa. Skal du endelig v&#x00E6;re den eneste, som er bekranset?</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<stage>(tar sig til hodet)</stage>
+<p>Har jeg den paa endnu? Ja, saa kan den sgu sidde. Kellner, oberkellner! Vinen.</p>
+</sp>
+<sp>
+<speaker>Opvarter</speaker>
+<stage>(kommer styrtende med glas)</stage>
+<p>&#x00D8;ieblikkelig.</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>Vi venter. Det gaar an at vente paa noget godt. Og det Guds velsignede veir, og vaaren og friheden og den glade fuldskaben derborte! Her hjemme er alt sig ligt, om en har v&#x00E6;ret 8 aar borte og kommer hjem igen. <stage>(Han h&#x00E6;ver det tomme glas)</stage> Skaal!</p>
+</sp>
+<sp>
+<speaker>Opvarter</speaker>
+<stage>(kommer styrtende med vinen. Sk&#x00E6;nker i.)</stage>
+</sp>
+<sp>
+<speaker><pb n="55"/>Gerhardt</speaker>
+<p>Ja, og vi er de samme, Jonathan. Bare at det nu er R&#x00FC;desheimer og ikke brunt &#x00F8;l, og ikke en hybel med tre v&#x00E6;gge, men en kaf&#x00E9;.</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>Er d&#x00E9;t hele forskellen?</p>
+</sp>
+<sp>
+<speaker>Exner</speaker>
+<p>Ja, vittighederne, de var saamen lige gode dengang.</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>Den, som havde noteret dem! Men nu siger jeg ikke vittigheder mere; nei, det er netop forskellen. Jeg gaar dybere, jeg er blevet t&#x00E6;nker, et menneske i udvikling, mine herrer! Og mine dybe og symbolske tanker, dem former jeg ikke i fattige ord, nei, jeg hugger dem i plastisk og uforg&#x00E6;ngeligt marmor. Skaal! <stage>(De klinker og drikker)</stage> Ah, det er egentlig vr&#x00F8;vl, dette <pb n="56"/>med en tanke. En statue, som har en <emph>tanke</emph>? Hvad?</p>
+</sp>
+<sp>
+<speaker>Balle</speaker>
+<stage>(har taget hatten af)</stage>
+<p>Det er symbolet, symbolikum, symbolisme. Den t&#x00E6;nker &#x2026; nei, <emph>jeg</emph> t&#x00E6;nker. Min tanke sv&#x00F8;mmer i et hav af himle. Den menneskelige sj&#x00E6;l enten t&#x00E6;nker eller sover &#x2013; sover. Skaal!</p>
+</sp>
+<sp>
+<speaker>Exner</speaker>
+<p>Jeg tror, Balle har faat en stor sorg at drukne. Han g&#x00F8;r ikke andet end drikke idag.</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>Ja, <emph>han</emph> springer alle stadier over, baade det glade, det elskovsfulde og det krakilske og kommer strax i det s&#x00F8;vnige. Men han finder et korn alligevel. Den menneskelige sj&#x00E6;l enten t&#x00E6;nker eller sover. Ja, det er netop det, den g&#x00F8;r. Og derfor, mine venner, <pb n="57"/>er vi <emph>ikke</emph> de samme. Nei, vi befinder os &#x2013; om jeg saa maa sige &#x2013; i udvikling.</p>
+</sp>
+<sp>
+<speaker>Balle</speaker>
+<p>I hvad &#x2026; Naa! Jeg trode, det var en melkevei.</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>Hm&#x2026; <stage>(med et sideblik)</stage> Lad ham sv&#x00F8;mme om i sin melk, vi holder os til Rauenthaleren. Eller hvad det er &#x2026;</p>
+</sp>
+<sp>
+<speaker>Gerhardt</speaker>
+<p>Det blir et slags melkepunsch.</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>Au. V&#x00E6;r saa god, 5 &#x00F8;re. <stage>(Han tar sin krans af hodet og s&#x00E6;tter den paa Balle)</stage> Sov S&#x00F8;dt, du &#x00E6;gte s&#x00F8;n af Sil&#x00E9;n! <stage>(vinker)</stage> Hei, Kykliky! <stage>(En liden gut, som har leget i gaden, kommer. Til gutten)</stage> Spring op i atelieret og hent min hat.</p>
+<stage>(Gutten gaar op stentrappen, kommer snart efter tilbage med hatten, som Jonathan s&#x00E6;tter paa hodet.)</stage>
+</sp>
+<sp>
+<speaker>Exner</speaker>
+<stage>(beskuer vinen gennem sit glas)</stage>
+<p>Ah! tilv&#x00E6;relsen &#x2026;</p>
+</sp>
+<sp>
+<speaker><pb n="58"/>Jonathan</speaker>
+<p>Ja, <emph>du</emph>, Exner, du er nu slet ikke den samme. Du er gift.</p>
+</sp>
+<sp>
+<speaker>Exner</speaker>
+<stage>(nikker, drikker)</stage>
+<p>Ja, <emph>det</emph> er udviklende, kan dere tro.</p>
+</sp>
+<sp>
+<speaker>Gerhardt</speaker>
+<p>Og du, Jonathan, t&#x00E6;nker vist paa at bli det.</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>G&#x00F8;r jeg? Vakte du min slumrende tanke? Der ligger noget og dr&#x00F8;mmer i mig, men det har vist ikke form. Det er bare saa at sige i begyndende udvikling. Ja, jeg er kommen hjem igen, mine inderlig k&#x00E6;re <pb n="59"/>venner, for at pr&#x00F8;ve livet her hjemme og vinde erfaring. Og jeg har v&#x00E6;ret i udl&#x00E6;ndighed og slidt ondt og levet under et halvt sammenstyrtet tag i 5 maaneder og skabt mine bedste ting der. Men nu har jeg guid paa lommen og arbeider ikke meget. Kellner! mere af den sort! <stage>(Han tar op penge og sedler)</stage> Den dyre vin skal flyde, og det herrens mammon er foragteligt og skabt til at rulle! Er det ikke et f&#x00E6;nomen, ja, et m&#x00E6;rkeligt f&#x00E6;nomen, mine venner: Man kan simpelthen ikke arbeide, naar man har penge, sk&#x00F8;nt man absolut ikke arbeider for at tjene dem. Ikke jeg, nei.</p>
+</sp>
+<stage>(Opvarteren tr&#x00E6;kker op og sk&#x00E6;nker i. Jonathan betaler og str&#x00F8;r om sig.)</stage>
+<sp>
+<speaker>Exner</speaker>
+<p>En sk&#x00F8;nner, at <emph>du</emph> ikke er gift.</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>L&#x00E6;rer en da at passe bedre paa sine penge? Vel, jeg venter paa at l&#x00E6;re ogsaa <pb n="60"/>det; vi er her for at l&#x00E6;re. Livet er kort og kunsten lang. Ja, kunsten &#x2013; arbeidet. Ved De, hvad det g&#x00E6;lder?</p>
+</sp>
+<sp>
+<speaker>Gerhardt</speaker>
+<p>Nei! Fort&#x00E6;l os det!</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>Dere ved det. Det g&#x00E6;lder f&#x00F8;rst og sidst at v&#x00E6;re <emph>fyldt</emph> af noget. Den menneskelige sj&#x00E6;l enten t&#x00E6;nker eller sover. Og er den ikke fyldt af noget, saa laver den sladderhistorier eller skravler politik og f&#x00F8;lger derved bare en naturlov. Ti disse tankebaciller, de staar aldrig stille i os. Men jeg udbringer en skaal for hvers dyre hemmelighed og maal &#x2026; for livets store <emph>arbeide</emph>, for den fyldende interesse. Mandens v&#x00E6;rk, hver mands livsv&#x00E6;rk, &#x2013; det bedste, vi har!</p>
+<stage>(De l&#x00F8;fter sine glas og drikker.)</stage>
+</sp>
+<sp>
+<speaker>Gerhardt</speaker>
+<p>Men <emph>kvinden</emph> da?</p>
+</sp>
+<sp>
+<speaker><pb n="61"/>Exner</speaker>
+<p>Og giftermaalet?</p>
+</sp>
+<sp>
+<speaker>Gerhardt</speaker>
+<p>Ha, ha! Hvilken ivrig propaganda, du f&#x00F8;rer. Den er mist&#x00E6;nkelig. Nei, men se der! Der kommer nogen, som ikke er gift. Nei, ikke paa nogen maade.</p>
+<stage>(De ser paa en korporation, som drager forbi.)</stage>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>Hvad skal <emph>den</emph> betyde?</p>
+</sp>
+<sp>
+<speaker>Gerhardt</speaker>
+<p>Det er medlemmerne af &#x00AB;Den hvide vinge&#x00BB;. En gammel og kendt institution.</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>&#x00AB;Hvide vinge&#x00BB;. Hm, nytter ikke mege jeg kender dem. De er utrolig gode danseheste og l&#x00E6;gger overhaands og ubegribelig <pb n="62"/><emph>meget</emph> i at holde en dame om livet. De dyrker s&#x00E6;deligheds-bacillen, s&#x00E6;tter den under renkultur, til den strutter af sundhed, blir spillende frisk &#x2026; Hm. Farligt det.</p>
+</sp>
+<sp>
+<speaker>De andre</speaker>
+<p>Ha, ha! Bravo, Jonathan.</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>Nei, det er altsaa en misforstaaelse, mener jeg; men slet ikke egentlig videre latterligt. Tvungen forsagelse dur ikke; vi er &#x2013; om jeg saa maa udtrykke mig &#x2013; i udvikling. De fleste maa i <emph>gennem</emph> for at komme <emph>over</emph>. Jeg siger: Lad de baciller d&#x00F8;, forraadne &#x2026; pr&#x00F8;v hvad alt er v&#x00E6;rd, ja, smag paa b&#x00E6;rmen, til du l&#x00E6;nges efter det <emph>rene</emph>! <stage>(Han ser sig om, tar sig til hodet)</stage> Hvor <emph>er</emph> det?</p>
+</sp>
+<sp>
+<speaker>Exner</speaker>
+<p>Ja det var kvinden.</p>
+</sp>
+<sp>
+<speaker><pb n="63"/>Gerhardt</speaker>
+<p>Og giftermaalet &#x2026;</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>Hold mund snart. Vi er ikke komne saa langt.</p>
+</sp>
+<stage>(De blir ved at tale og betragte de forbigaaende.)</stage>
+<stage><hi rend="bold">Agnes Reinhart</hi> ses glimtvis i folkevrimlen. Hun er m&#x00F8;rktkl&#x00E6;dt, bleg, ses f&#x00F8;rst alene. Derefter i samtale med en dame; de peger hen i retning af kafeen og ser ud til at aftale noget. Senere atter alene.</stage>
+<sp>
+<speaker>Jonathan</speaker>
+<stage>(sidder og ser. Om lidt, til de andre, som halvt i tanker.)</stage>
+<p>Se det kvinde-ansigt der, &#x2013; det hode. Det er fysiognomi. F&#x00E6;ngslende &#x2026; Bleg, &#x00F8;ine &#x2026; sort, kr&#x00F8;llet haar under russisk hue. En Sonjafigur. Hm. M&#x00E6;rkeligt.</p>
+<stage>(Han falder helt hen.)</stage>
+</sp>
+<sp>
+<speaker>Gerhardt</speaker>
+<stage>(om lidt)</stage>
+<p>Nu, Jonathan.</p>
+</sp>
+<sp>
+<speaker><pb n="64"/>Jonathan</speaker>
+<stage>(henter sig)</stage>
+<p>Ja. Jeg t&#x00E6;nkte paa noget.</p>
+</sp>
+<sp>
+<speaker>Gerhardt</speaker>
+<p>Sig frem, du meget talende. Det flyder med manna og honning fra dine l&#x00E6;ber.</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>Naa, hvorfor sige? &#x2013; Jo, jeg skal sige det. Jeg t&#x00E6;nker paa en dyr hemmelighed &#x2026; mit livs store v&#x00E6;rk. Det, som jeg skal g&#x00F8;re nu.</p>
+</sp>
+<sp>
+<speaker>Gerhardt</speaker>
+<p>Hvad skal du g&#x00F8;re? Sig frem.</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<stage>(reiser sig, l&#x00F8;fter sit glas)</stage>
+<p>Jeg hugger en statue af <emph>sk&#x00E6;bnen</emph>. <emph>Min</emph> sk&#x00E6;bne og alles, sk&#x00E6;bnen, som m&#x00F8;der os og siger: Du <emph>maa</emph>! du <emph>vil</emph>! Ti vor <pb n="65"/>egen vilje, det er halvdelen afvorsk&#x00E6;bne; den er fri &#x2026; men udgaar fra en mystisk, forud <emph>vidende</emph> konstellation &#x2013; deroppe! Jo, det er saa! Og den statue, den skal v&#x00E6;re i en kvindes skikkelse, en kvinde med gaadefulde &#x00F8;ine, som r&#x00E6;kker en en kalk &#x2013;</p>
+</sp>
+<sp>
+<speaker>Exner</speaker>
+<p>Den ide er ikke ganske daarlig.</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>Og &#x00F8;inene skal sige: Du maa drikke. Du maa ville det &#x2013; nei, du vil. Og man vil, hvad &#x00F8;inene taler. <stage>(Efter en pause)</stage> Jeg saa hende nu &#x2026; har set hende iaften, det ansigt. <stage>(Ser sig om)</stage> Hvor blev hun af?</p>
+</sp>
+<sp>
+<speaker>Gerhardt</speaker>
+<stage>(ryster paa hodet)</stage>
+<p>Hun er borte.</p>
+</sp>
+<stage>(Hurra og jubelraab l&#x00E6;nger borte. Der falder et &#x00F8;ie- blik sterk og sk&#x00F8;n musik ind. Under det f&#x00F8;lgende m&#x00F8;rknes det lidt efter lidt.)</stage>
+<sp>
+<speaker><pb n="66"/>Jonathan</speaker>
+<stage>(s&#x00E6;tter sig, ryster tankerne af)</stage>
+<p>Ja. Ikke nu. Der ligger ting og dr&#x00F8;mmer under i ens bevidsthed &#x2026; Lad dem ligge! Men denne dag er sk&#x00F8;n! Det er vaar, jeg er glad idag. Alt smiler, fugle synger for mig ogsaa, og jeg er ikke l&#x00E6;nger syg, fattig. Nei! mine gode venner! Jeg har v&#x00E6;ret i uleilighed for mange ting; nu arbeider jeg ikke meget, jeg &#x2013; om jeg saa maa sige &#x2013; jeg <emph>lever</emph>. Og heldet smiler til en, livets d&#x00F8;re aabner sig. Man sidder paa bl&#x00F8;de hynder og indaander parfume, fineste parfume iblandt.</p>
+<stage>(Han reiser sig med &#x00E9;t, tar sin hat dybt af og hilser. <hi rend="bold">Ellinor</hi> og en veninde, fulgt af arkitekten, gaar forbi.)</stage>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<stage>(s&#x00E6;tter sig)</stage>
+<p>Se! Hun smilte ogsaa. <stage>(i stemning)</stage> Kendte dere <emph>den</emph> dame?</p>
+</sp>
+<sp>
+<speaker>Gerhardt</speaker>
+<p>Det var jo frk. L&#x00FC;tzen. Generalkonsulens datter.</p>
+</sp>
+<sp>
+<speaker><pb n="67"/>Exner</speaker>
+<p>Du kommer jo der i huset.</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>Har den &#x00E6;re.</p>
+</sp>
+<sp>
+<speaker>Gerhardt</speaker>
+<p>Det er n&#x00E6;rmest hofkredse.</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>En m&#x00E6;rker det ikke meget. Jeg er sivet derind som flere steder, i det sidste. Man blir snart hel verdensmand. Jo, jo.</p>
+</sp>
+<sp>
+<speaker>Gerhardt</speaker>
+<p>De holder aabent hus for ber&#x00F8;mtheder. Det er nok is&#x00E6;r frk. Ellinor, som sv&#x00E6;rmer for det dekorative og det, som er paa moden.</p>
+</sp>
+<sp>
+<speaker><pb n="68"/>Jonathan</speaker>
+<p>Vil du v&#x00E6;re saa god at lade v&#x00E6;re at raljere! Det er elskv&#x00E6;rdige mennesker. Og den pige, det barn &#x2013; hun ler saa velsignet, klingende h&#x00F8;it!</p>
+</sp>
+<sp>
+<speaker>Gerhardt</speaker>
+<stage>(nikker, halvt hen for sig)</stage>
+<p>Ja, freidig nok.</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>En kan sige, hvad en vil. Der er noget trygt, et vist d&#x00E6;mpet og dirrende velbehag ved at f&#x00E6;rdes i det liv. Ja, man ser paa tingene, h&#x00F8;ster ny erfaring. Har endog opdaget, at man sv&#x00E6;rmer for elegance, komfort, &#x2013; og silkeraslen af damesl&#x00E6;b! <stage>(Ler)</stage> Jeg, fattiggutten! Naa, skaal! En skaal for livets mods&#x00E6;tninger. En driver did, sk&#x00E6;bnen vil.</p>
+</sp>
+<stage>(Der er nu mere stilhed, livet h&#x00F8;res fjernere. En- kelte lys t&#x00E6;ndt hist og her.)</stage>
+<sp>
+<speaker><pb n="69"/>Gerhardt</speaker>
+<p>Apropos, drive. Jeg synes, det m&#x00F8;rkner. Klokken er henved 9. Skal vi nu ikke drive hen et sted og spise aften?</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>Du siger noget. Eller nei &#x2026; Jeg gaar ikke ud iaften. Der er noget, jeg skal g&#x00F8;re, <stage>(l&#x00E6;gger haanden over panden)</stage> Og iaften maa det ske. Venter jeg til imorgen, er det v&#x00E6;k. H&#x00F8;r nu &#x2026; nei! Gaar du hjem til din kone, Exner?</p>
+</sp>
+<sp>
+<speaker>Exner</speaker>
+<p>Min kone? Tror du, hun sidder alene hjemme? Nei, hun er ude og morer sig, far. I al uskyldighed og &#x00E6;rbarhed, forstaas.</p>
+</sp>
+<sp>
+<speaker>Gerhardt</speaker>
+<p>Ja, lad os haabe det. Og da gaar vi to ungkarle hen i logen. Dig ved jeg, det ikke gaar an at overtale, Jonathan. Men <pb n="70"/>denne synderen her? Hvad i evigheds navn skal vi g&#x00F8;re med ham?</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>Det var, hvad jeg vilde sige: Ham f&#x00F8;lger jeg. Jeg tr&#x00E6;nger en spas&#x00E9;rtur for at klare begreberne. F&#x00F8;lger ham hjem, Og saa &#x2026; Hei, Kykliky! <stage>(Gutten kommer.)</stage> Gaa ind i kafeen og bestil nogen sm&#x00F8;rbr&#x00F8;d og en halv &#x00F8;l til mig, til jeg kommer tilbage. <stage>(peger)</stage> Derop. Hoi &#x2013; vent! Du har spist, vel?</p>
+</sp>
+<sp>
+<speaker>Kykliky</speaker>
+<p>Ja.</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>Gaa saa selv med &#x2013; op og l&#x00E6;g dig.</p>
+<stage>(Gutten gaar.)</stage>
+</sp>
+<stage>(Gerhardt har taget kransen af Balles hode. Han r&#x00F8;rer paa sig og vaagner.)</stage>
+<sp>
+<speaker>Jonathan</speaker>
+<stage>(hen til de andre)</stage>
+<p>Naa, du Bacchuss broder! har du studeret melkeveien og de syv sf&#x00E6;rer, saa f&#x00F8;lg <pb n="71"/>nu vore fjed paa jorden. Hvor er din hat, min ven. <stage>(Han s&#x00E6;tter den paa ham.)</stage></p>
+</sp>
+<sp>
+<speaker>Balle</speaker>
+<stage>(gnider &#x00F8;inene, ser omkring sig)</stage>
+<p><emph>Jeg</emph> er ikke fuld. <emph>Jeg</emph> har ikke sovet. Hvem siger det? Du Jonathan? V&#x00E6;rsgo', forts&#x00E6;t hvor du slap. Vil dere alt gaa?</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<stage>(tar ham under armen)</stage>
+<p>Kom nu, du gl&#x00E6;dens fyrb&#x00F8;der.</p>
+</sp>
+<sp>
+<speaker>Balle</speaker>
+<stage>(mods&#x00E6;tter sig)</stage>
+<p>Tak, jeg kan godt gaa alene.</p>
+</sp>
+<stage>(De andre ler, drager ham med sig indover.)</stage>
+<stage><hi rend="bold">En opvarter</hi> g&#x00F8;r istand paa bordet og t&#x00F8;rrer af. Folk gaar forbi. Om lidt kommer <hi rend="bold">Agnes Reinhart</hi> fulgt af <hi rend="bold">kontorchef Hellesen</hi>.</stage>
+<sp>
+<speaker><pb n="72"/>Agnes</speaker>
+<p>Tak, jeg er ikke bange. Jeg t&#x00F8;r saa godt vente alene. Det kan ikke vare l&#x00E6;nge, f&#x00F8;r hun kommer nu. Vi aftalte klokkeslet.</p>
+</sp>
+<sp>
+<speaker>Hellesen</speaker>
+<p>Tror De, jeg vil lade Dem alene. Det er jo snart helt m&#x00F8;rkt.</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<stage>(smiler)</stage>
+<p>Nei, slet ikke. Det er ganske vaarligt, ser De ikke det? Og maanen kommer op. Jeg ber Dem, hr. Hellesen, gaa fra mig nu. Og sp&#x00F8;rg ikke om mere. Jeg har gaat saa meget idag Og er tr&#x00E6;t. <stage>(Hun s&#x00E6;tter sig ned.)</stage></p>
+</sp>
+<sp>
+<speaker>Hellesen</speaker>
+<p>Ja, netop derfor. Og jeg beh&#x00F8;ver ikke at sp&#x00F8;rge. Frk. Agnes, jeg har v&#x00E6;ret oppe i Deres logi. De var flyttet igaar.</p>
+</sp>
+<sp>
+<speaker><pb n="73"/>Agnes</speaker>
+<p>Og hvad saa? Hvorfor &#x2013; hvordan vidste De, hvor jeg bode?</p>
+</sp>
+<sp>
+<speaker>Hellesen</speaker>
+<p>Det unders&#x00F8;gte jeg. Folkene sa, De var flyttet, men De havde ikke givet nogen adresse for mulige bud eller breve. Vil De ikke sige mig, hvor De nu er flyttet hen?</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<p>Hvorfor skulde jeg sige Dem det?</p>
+</sp>
+<sp>
+<speaker>Hellesen</speaker>
+<p>Hvorfor skulde De <emph>ikke</emph> sige mig det?</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<stage>(ligefrem)</stage>
+<p>De maa gerne vide det. Saa sk&#x00F8;nner De, at det ikke nytter. Jeg har ikke faat noget v&#x00E6;relse endnu, men skal v&#x00E6;re hos <pb n="74"/>den dame inat, som jeg venter paa her. Jeg hj&#x00E6;lper hende med noget &#x2026;</p>
+</sp>
+<sp>
+<speaker>Hellesen</speaker>
+<p>Javel, men De kan ikke skjule for mig &#x2026; Tror De ikke jeg ved, at De ikke har flere penge? De <emph>kan</emph> ikke skaffe Dem et v&#x00E6;relse. De staar snart ganske paa bar bakke &#x2026; De har kanske ikke spist idag. <stage>(Ser ned ad hende)</stage> Deres kjole, &#x2013; dragt &#x2013;</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<p>Og selv om det var saa. <stage>(Tr&#x00E6;t)</stage> Jeg har jo sagt Dem det, hr. Hellesen. Jeg &#x00F8;nsker ikke at ta imod nogen hj&#x00E6;lp af Dem. <stage>(Opgivet)</stage> Aa, jeg er tr&#x00E6;t. Om De vilde v&#x00E6;re saa snil at gaa.</p>
+</sp>
+<sp>
+<speaker>Hellesen</speaker>
+<stage>(reiser sig)</stage>
+<p>Vel, jeg gaar nu, jeg vil ikke plage Dem. Men De kan ikke forbyde mig at forh&#x00F8;re <pb n="75"/>mig om Dem og f&#x00F8;lge Deres spor. Og kommer De i n&#x00F8;d, frk. Agnes, da haaber jeg at faa lov til at vise i gerning, at De ikke eier nogen bedre ven end jeg. Hvis De vidste &#x2026;</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<stage>(ligefrem, r&#x00E6;kker ham haanden)</stage>
+<p>Farvel, hr. Hellesen. Det er snilt, at De gaar nu. Jeg vil bare gerne faa sidde lidt her og hvile, <stage>(nikker)</stage> Farvel, farvel!</p>
+</sp>
+<stage>(Hellesen gaar.)</stage>
+<sp>
+<speaker>Agnes</speaker>
+<stage>(s&#x00E6;tter sig tungt ned, st&#x00F8;tter hodet i haanden.)</stage>
+</sp>
+<sp>
+<speaker>En opvarter</speaker>
+<stage>(om lidt)</stage>
+<p>Undskyld! Jeg turde sp&#x00F8;rge, om De kanske er den dame, som skulde vente her. Vente paa en anden dame?</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<p>Ja, det er mig.</p>
+</sp>
+<sp>
+<speaker><pb n="76"/>Opvarteren</speaker>
+<p>Da skulde jeg hilse fra den anden dame, at hun var forhindret fra at komme, da hun var buden med paa den store folkefesten. Hun var her for en stund siden.</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<p>Jasaa. Naar &#x2013; naar slutter den festen?</p>
+</sp>
+<sp>
+<speaker>En opvarter</speaker>
+<p>Aa, den varer vist baade til to og tre.</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<p>Og gav hun ingen n&#x00F8;iere besked? Gav hun Dem ingen n&#x00F8;gle til mig?</p>
+</sp>
+<sp>
+<speaker>En opvarter</speaker>
+<p>Nei, Hun sa ikke mere. Hun havde saadan hast. <stage>(Ser op og ned ad hende. Deltagende)</stage> Men fr&#x00F8;knen skulde heller gaa med paa festen. Det blir grom fest, kan Di tro, og <pb n="77"/>baade for store og smaa. Hele betjeningen her har fri, for hid kommer der vist ikke flere iaften.</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<p>Ja, De skal ha tak for beskeden.</p>
+<stage>(Hun blir siddende, venter paa, at han skal gaa.)</stage>
+</sp>
+<sp>
+<speaker>Opvarter</speaker>
+<stage>(n&#x00F8;ler)</stage>
+<p>Ja, undskyld, men &#x2013;. Vi skulde nok lukke her. For betjeningen har fri, ser De. <stage>(Agnes reiser sig, blir staaende, ubesluttet.)</stage> Vi tr&#x00E6;kker bare teltv&#x00E6;ggen for. Saadan. <stage>(L&#x00F8;fter haanden til hatten, vil gaa, stanser.)</stage> Nei, kom heller og bli med, da &#x2013; fr&#x00F8;ken!</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<stage>(ryster paa hod&#x00E9;t og vinker ham fra sig. Opvarteren gaar. Hun gaar et par skridt, stanser, staar igen ubesluttet. Hun s&#x00E6;tter sig i tr&#x00E6;thed ned paa stentrappen og l&#x00E6;ner sig til r&#x00E6;kv&#x00E6;rket. Falder lidt efter lidt hen i en d&#x00F8;s eller let s&#x00F8;vn. Det er nu helt maanelyst. Sagte musik h&#x00F8;res fra og til i afstand.)</stage>
+</sp>
+<sp>
+<speaker><pb n="78"/>Jonathan</speaker>
+<stage>(kommer. Han har t&#x00E6;ndt en cigar, nynner lidt til musiken, ser sig om, betragter himlen. N&#x00E6;rmer sig, vil gaa op. Han faar se Agnes. Staar taus et &#x00F8;ieblik. Derefter uvilkaarlig og d&#x00E6;mpet)</stage>
+<p>Hvad er det? Hun? Der sidder hun &#x2026; Det er ansigtet, tr&#x00E6;kkene <stage>(iagttagende)</stage> ja, der er det! <stage>(blir staaende, grunder tankefuld, ser)</stage> M&#x00E6;rkv&#x00E6;rdig.</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<stage>(r&#x00F8;rer paa sig, slaar &#x00F8;inene op, reiser sig og stirrer paa ham.)</stage>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<stage>(efter en kort taushet, rolig, venlig)</stage>
+<p>Hvorfor sidder De alene her ude i natten, barn?</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<stage>(efter et &#x00F8;ieblik)</stage>
+<p>Jeg sad og hvilte. Jeg var tr&#x00E6;t.</p>
+</sp>
+<stage>(De ser vist paa hinanden.)</stage>
+<sp>
+<speaker><pb n="79"/>Jonathan</speaker>
+<p>Hvordan kom De hid?</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<p>Jeg skulde m&#x00F8;de en.</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>Og han kom ikke?</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<p>Nei, den jeg skulde m&#x00F8;de, kom ikke.</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>Besynderligt &#x2026; H&#x00F8;r, sig mig: <stage>(gaar n&#x00E6;rmere)</stage> hvor bor du? Hvem &#x2013; hvem du?</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<p>Jeg er &#x2026; <stage>(stolt)</stage> Jeg er, den jeg <emph>er</emph>.</p>
+</sp>
+<sp>
+<speaker><pb n="80"/>Jonathan</speaker>
+<stage>(nikker)</stage>
+<p>Javel. Den du er. Rigtig! Jeg har set dig f&#x00F8;r. Du heder Sonja!</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<stage>(smiler)</stage>
+<p>G&#x00F8;r jeg? ja, kanske det.</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>Du smiler. Hm. Du staar saa rank der, saa rolig, lidt bleg &#x2026; Du er vist ikke bange?</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<stage>(ser paa ham)</stage>
+<p>Nei, jeg er ikke bange.</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>Kender du mig?</p>
+</sp>
+<sp>
+<speaker><pb n="81"/>Agnes</speaker>
+<p>Jeg ved ikke &#x2026;jeg tror &#x2026; Jo. Jeg maa ha set Dem.</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>Jeg heder Jonathan. Er kunstner, billedhugger.</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<p>Aa &#x2026;</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>Hvad t&#x00E6;nkte du nu?</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<p>Ikke noget.</p>
+<stage>(Pause.)</stage>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<stage>(tar sig til panden)</stage>
+<p>Det er sk&#x00E6;bne-tr&#x00E6;kkene, figuren, hodet &#x2026;</p>
+</sp>
+<sp>
+<speaker><pb n="82"/>Agnes</speaker>
+<stage>(fjerner sig et par skridt)</stage>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<stage>(ligesom bange, hurtig)</stage>
+<p>Hvor gaar du hen?</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<p>Jeg &#x2026; <stage>(ryster paa hodet)</stage> Jeg ved ikke.</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>Hjem? Jeg skal f&#x00F8;lge dig.</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<p>Jeg har ikke noget hjem.</p>
+<stage>(Hun vil igen fjerne sig.)</stage>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>Ikke noget hjem. <stage>(Efter hende)</stage> Men barn hvor vil du gaa hen?</p>
+</sp>
+<sp>
+<speaker><pb n="83"/>Agnes</speaker>
+<stage>(knuger h&#x00E6;nderne, i skjult smerte)</stage>
+<p>Jeg &#x2013; jeg ved det jo ikke. Lad mig gaa.</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>H&#x00F8;r &#x2026; Sonja! Lad mig tale med dig. Du kan g&#x00F8;re mig en stor, stor tjeneste; du ved ikke, hvor stor. Ja, h&#x00F8;r: Der er noget ved dig &#x2013; noget uforklarlig! Du er den, du <emph>er</emph>, siger du &#x2026; Jeg forstaar. Og vilde ikke sige til dig som til en anden: Gaa hjem med mig! Men alligevel siger jeg det, h&#x00F8;r paa mig: <stage>(peger op)</stage> D&#x00E8;r oppe sover et barn. Gaa med mig derop, lad mig tegne dit ansigt, dit hode &#x2013; din skikkelse. Jeg har ledt l&#x00E6;nge, l&#x00E6;nge &#x2026; nu begynder det at forme sig, <stage>(peger paa panden)</stage> herinde, forstaar du. G&#x00F8;r det. Og siden kan du gaa ind i alkoven og hvile. Jeg sover i atelieret. <stage>(Efter en taushed)</stage> Er du bange for mig? Sig nei!</p>
+</sp>
+<sp>
+<speaker><pb n="84"/>Agnes</speaker>
+<stage>(ser paa ham, rolig, aabent)</stage>
+<p>Jeg er ikke bange. <stage>(staar taus)</stage> Men vil De sige mig: Tror De paa &#x00AB;sk&#x00E6;bnen&#x00BB;? ja, jeg mener, det som kaldes saa?</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>Om jeg tror paa en sk&#x00E6;bne? Ja, det ved himlen, at jeg g&#x00F8;r.</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<p>Da er det vel den, som har f&#x00F8;rt mig hid. Der er kanske en mening med det. Og Deres ansigt lyver ikke. Jeg tror Dem, naar De siger, at deroppe sover et barn!</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>Tak!</p>
+</sp>
+<stage>(Han gaar et par trin op ad stentrappen, aabner d&#x00F8;ren, lar hende gaa ind og f&#x00F8;lger.)</stage>
+<div type="uchapter" n="scene">
+<head type="sub">SCENEFORANDRING</head>
+<stage><pb n="85"/>Jonathans atelier. Temmelig n&#x00F8;gent, uregelm&#x00E6;ssigt, hist og her skulptur, gamle ting, vaaben, skjolde etc. H&#x00F8;it til loftet og overlys. Tidlig morgen.</stage>
+<stage><hi rend="bold">Jonathan</hi> sover paa en l&#x00F8;ib&#x00E6;nk. Gutten i en krog.</stage>
+<sp>
+<speaker>Jonathan</speaker>
+<stage>(reiser sig helt op, ser omkring sig. Han lukker vinduet op, solen siver ind.)</stage>
+<p>Ah!</p>
+<stage>(Han ser mod d&#x00F8;ren til et rum indenfor mod baggrunden, tar et papir og betragter det. Gaar omkring og nynner. Gutten vaagner, reiser paa sig.)</stage>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>Ha, ha! Ja, se at komme dig op. Hvad har vi for en dag idag, Kykliky?</p>
+</sp>
+<sp>
+<speaker>Gutten</speaker>
+<stage>(s&#x00F8;vnig, gaber)</stage>
+<p>Idag er det fredag.</p>
+</sp>
+<sp>
+<speaker><pb n="86"/>Jonathan</speaker>
+<p>Hei, vil du se at bli vaagen! Fredag, sa du? Nei, gu er det ikke fredag. Det er helligdag, ser du ikke det? Ser du ikke solen der? V&#x00E6;r glad, gut. Det er helligdag. Vi skal arbeide idag.</p>
+</sp>
+<sp>
+<speaker>Gutten</speaker>
+<p>Men det er nu ikke s&#x00F8;ndag alligevel. For det var torsdag igaar.</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>Ho! du lille kranglefant! Gaa ned og faa fat i noget frokost til mig i restauranten &#x2013; til os. Til to, sig.</p>
+</sp>
+<sp>
+<speaker>Gutten</speaker>
+<p>Skal jeg bede om dobbelt portion?</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>Ja, foruden dine egne sm&#x00F8;rbr&#x00F8;d. Du var vaagen igaar aften jo? Du ved, <stage>(peger)</stage> der er en derinde.</p>
+</sp>
+<stage>(Gutten nikker, gaar.)</stage>
+<sp>
+<speaker><pb n="87"/>Jonathan</speaker>
+<stage>(spaserer omkring igen, nynner, ser ud af vinduet, ordner nogen sager borte i et hj&#x00F8;rne. Gaar til d&#x00F8;ren i alkoven og lytter et &#x00F8;ieblik)</stage>
+<p>Jo, hun er oppe. <stage>(Gaar fra d&#x00F8;ren igen, ler stille for sig selv, staar grundende)</stage> Der var noget ved den pigen &#x2013; ligesom langt borte fra. <emph>Kendt</emph> &#x2013; og fjernt, en jente, dame &#x2013; eventyrerske? Nei, umulig.</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<stage>(om lidt, kommer fra alkoven. Hun b&#x00E6;rer enkel m&#x00F8;rk kjole, lidt aaben i halsen og foran &#x00E6;rmerne. Hendes teint er varm og hvid, haaret dybt m&#x00F8;rkt, &#x00F8;inene lyser, solsk&#x00E6;ret falder lige paa hende.)</stage>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>Godmorgen! Nei, staa slig. K&#x00E6;re, staa saadan. Der gaar straaler fra dig. Og du smiler, du smiler &#x2013;</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<p>Godmorgen!</p>
+</sp>
+<sp>
+<speaker><pb n="88"/>Jonathan</speaker>
+<stage>(tagen)</stage>
+<p>Du g&#x00F8;r mig glad &#x2026; du, Sonja. Du er den, du <emph>er</emph>. Ja, det er svaret. <stage>(Tier, betragter hende)</stage> Har du badet dig derinde? Barn, jeg saa dig ikke helt igaar.</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<stage>(ser sig om)</stage>
+<p>Hvor her er lyst! og h&#x00F8;it til loftet. Jeg bode saa l&#x00E6;nge paa en hybel &#x2026;</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>Bode De ogsaa paa en hybel? Ja, vi er fattige, vi, Sonja. D. v. s. her er ikke saa galt nu, ikke sandt? Naar en har penge, h&#x00E6;nder det, at man leier sig et lyst og stort atelier. Saa kommer ideen af sig selv <stage>(nikker)</stage> ja, stundom &#x2013; af sig selv kommer den, som <emph>du</emph>, ja, netop som du kom igaar! <stage>(ser paa hende, haanden over panden)</stage> Det er over mig, det kommer &#x2026; Sonja, du, dit ansigt, dit blik &#x2026; det <pb n="89"/>v&#x00E6;kker skabertrang, en varm rislen gennem min rygmarv! De vaagner, mine evner, til forh&#x00F8;iet, intensere liv! <stage>(Han gaar omkring paa gulvet, optaget af sine tanker.)</stage></p>
+</sp>
+<sp>
+<speaker>En opvarter</speaker>
+<stage>(med kaffe og frokost paa en bakke.)</stage>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>Ah, ha, frokosten. V&#x00E6;r saa god, s&#x00E6;t den paa det bord der. Tak.</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<stage>(ligefrem)</stage>
+<p>Skal jeg sk&#x00E6;nke for Dem?</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>Ja vel, ja. Tak. Aa, dette vidunderlige sollys! Vaar &#x2026; og kvindeh&#x00E6;nder i min <pb n="90"/>stue! Det er en stund siden nu. <stage>(Han s&#x00E6;tter sig ved bordet, ser paa hendes syslen)</stage> Vakre h&#x00E6;nder, ikke altfor smaa. Jeg forstaar mig paa h&#x00E6;nder. Jeg kan l&#x00E6;se af dem, hvad De kanske ikke vil sige.</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<stage>(smiler)</stage>
+<p>L&#x00E6;s hvad De vil Og kan. <stage>(Hun sk&#x00E6;nker for ham.)</stage>
+</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>Kom, s&#x00E6;t Dem. Spis, barn, vi maa styrke os, begge. Vi skal kanske arbeide. <stage>(Hun har sat sig, han blir ved at tale)</stage> Deres h&#x00E6;nder, ja. Det er ikke arbeidsh&#x00E6;nder, ikke letsindige h&#x00E6;nder &#x2026; Der er en r&#x00F8;rende, noget hj&#x00E6;lpel&#x00F8;s, ubenyttet kraft <stage>(nikker)</stage> Ja, det er saa ganske Dem altsammen. Nei, jeg sp&#x00F8;r ikke om noget.</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<p>Der er heller ikke meget. Jeg gaar did, sk&#x00E6;bnen f&#x00F8;rer mig.</p>
+</sp>
+<sp>
+<speaker><pb n="91"/>Jonathan</speaker>
+<p>Kastet ud i verden, som jeg selv. Har De hverken far eller mor?</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<p>Nei, hverken far eller mor.</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>Og er ikke bange for noget i verden. De sa det igaar. <stage>(L&#x00E6;ner sig tilbage)</stage> Der lyser ud af Deres ansigt noget som hos den, der har en st&#x00E6;rk tro.</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<p>Ja. Jeg tror, at hvad der skal ske det sker.</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<stage>(nikker, gentar)</stage>
+<p>Det sker. Og vor vilje?</p>
+</sp>
+<sp>
+<speaker><pb n="92"/>Agnes</speaker>
+<p>Den regnes med &#x2013; og <emph>vides</emph>, kanske.</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<stage>(skyder stolen tilbage, reiser sig, gaar lidt, stanser)</stage>
+<p>Sonja, Sonja, det var godt, du kom nu. Jeg tr&#x00E6;ngte dig saa saare, saa hoilig! <stage>(Agnes har ogsaa reist sig)</stage> Som du staar der, er du gaadefuld, som det, en har set i dr&#x00F8;mme, som det, en kender og ikke kender &#x2026; Og min sk&#x00E6;bne-statue, det er dig, det er jo dig! I hvert spil i dit ansigt, hvert udtryk &#x2026; i din haandbev&#x00E6;gelse, din skikkelse. Du r&#x00E6;kker mig kalken, og drikke den maa jeg! Hvis du vil hj&#x00E6;lpe mig, da skal jeg nu snart g&#x00F8;re mit livs sk&#x00F8;nneste v&#x00E6;rk! Det stolteste!</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<stage>(ser vedholdende paa ham, mens han taler. Om lidt, alvorlig)</stage>
+<p>Hvordan kan jeg hj&#x00E6;lpe Dem?</p>
+</sp>
+<sp>
+<speaker><pb n="93"/>Jonathan</speaker>
+<p>Kort og godt: Ved at v&#x00E6;re min model. Helt ud, fuldt ud. <stage>(Skygger med haanden over &#x00F8;inene)</stage> Det kommer, jeg kan arbeide, idag kan jeg arbeide. Vil du, Sonja? Er du r&#x00E6;d for mig? &#x2013; Du kender mig, du sa det. Jeg kender dig fra f&#x00F8;r, fra evighed kanske. &#x2013; Vi er kendt, vi to. Der er samme blod i os. Jeg s&#x00E9;r paa dit udtryk, at du forstaar, hvad jeg siger.</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<stage>(sagte)</stage>
+<p>Ja, jeg forstaar, hvad De siger.</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p><emph>Vil</emph> du da?</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<p>Jeg kender Dem, synes jeg, som jeg kendte min far og mor engang. Men &#x2026; <stage>(Hun brister i Graad.)</stage></p>
+</sp>
+<sp>
+<speaker><pb n="94"/>Jonathan</speaker>
+<p>Graater du? graat ikke! Sonja, velsignede &#x2026; <stage>(Han kaster sig med &#x00E9;t ned foran hende, b&#x00F8;ier hodet mod s&#x00F8;mmen af hendes kjole)</stage> Barn, h&#x00F8;r mig, svar mig: Tror du paa indvielsen, paa kunsten for kunstens skyld? tror du paa <emph>mig</emph>, at jeg bare vil &#x00E9;t: naa det h&#x00F8;ieste?</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<stage>(staar stille, ser ned paa ham, det klarer i hendes udtryk. Efter en pause, barnligt)</stage>
+<p>Ja, &#x2013; ja, jeg tror &#x2026; at De vil kunne g&#x00F8;re et kunstv&#x00E6;rk! <stage>(gentar, sagtere)</stage> Tror paa Dem &#x2026; paa indvielsen &#x2026; Deres ansigt bedrager ikke. <stage>(Reiser hodet)</stage> Hvis De har brug for mig, saa tag mig.</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<stage>(blir i den kn&#x00E6;lende stilling.)</stage>
+</sp>
+<lb/><stage>Teppet falder.</stage>
+</div>
+<div type="chapter" subtype="act" n="3">
+<head type="main">AKT III</head>
+<stage><pb n="97"/>H&#x00F8;st. Et lidet, tarvelig, m&#x00F8;bleret v&#x00E6;relse med skraav&#x00E6;gge. Seng henne i et hj&#x00F8;rne. Til venstre en hestehaars sofa. Et lys br&#x00E6;nder paa et bord.</stage>
+<stage><hi rend="bold">Agnes Reinhart</hi>, halvt liggende paa sofaen. Hun b&#x00E6;r en l&#x00F8;st siddende dragt og haaret i en flette nedover ryggen. Ser mat og bleg ud.</stage>
+<sp>
+<speaker>Kontorchef Hellesen</speaker>
+<stage>(gaar op og ned paa gulvet. Stanser undertiden og iagttar Agnes, grunder, gaar igen. Stanser, ryster, paa hodet)</stage>
+<p>Det er, som jeg siger. Og gid De havde h&#x00F8;rt paa mig for l&#x00E6;nge siden.</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<p>Jeg kan ikke h&#x00F8;re paa andre. Jeg maa gaa min egen vei. De skal ikke bry <pb n="98"/>Dem om mig, hr. Hellesen. Det har jeg sagt Dem f&#x00F8;r.</p>
+</sp>
+<sp>
+<speaker>Hellesen</speaker>
+<stage>(ser paa hende, omkring sig)</stage>
+<p>Og her ligger De alene. Nu mod vinteren, i et v&#x00E6;relse, som ikke har en ordentlig ovn engang. De, som kunde ha baade lys og varme.</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<p>Jeg har, hvad jeg beh&#x00F8;ver.</p>
+</sp>
+<sp>
+<speaker>Hellesen</speaker>
+<stage>(blir ved)</stage>
+<p>Bleg og trodsig. Med opreist hode midt i Deres forladthed. For det kan De ikke negte, Agnes. Han har forladt Dem.</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<p>Kanske.</p>
+</sp>
+<sp>
+<speaker><pb n="99"/>Hellesen</speaker>
+<p>Sikkert. D&#x00E8;r er jeg &#x00F8;ienvidne. Han drages mere og mere mod Ellinor. Han kommer der n&#x00E6;sten hver dag nu.</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<p>Jeg ved det.</p>
+</sp>
+<sp>
+<speaker>Hellesen</speaker>
+<p>Fort&#x00E6;ller han Dem alt?</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<p>Nok i al fald.</p>
+</sp>
+<sp>
+<speaker>Hellesen</speaker>
+<p>Og alligevel? &#x2013; Kan De ikke engang slaa den mand af tanken? Ser De ikke, &#x2013; ser De ikke, hvor liden og almindelig han er? Et &#x00E6;gte mandfolk! Nu, da De har givet ham alt, sl&#x00E6;nger han Dem fra sig.</p>
+</sp>
+<sp>
+<speaker><pb n="100"/>Agnes</speaker>
+<stage>(efter lidt taushed)</stage>
+<p>Det er ikke sandt. jeg har ikke givet ham &#x00AB;alt&#x00BB;, som De siger.</p>
+</sp>
+<sp>
+<speaker>Hellesen</speaker>
+<p>Har ikke <emph>De</emph>?</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<p>Nei.</p>
+</sp>
+<sp>
+<speaker>Hellesen</speaker>
+<stage>(ler)</stage>
+<p>Det skal De faa mig til at tro. <stage>(Ryster paa hodet)</stage> Nei, Agnes, De maa og skal ud af det. De er syg og svag, alene og uden venner &#x2026; De gaar lige lukt &#x00F8;del&#x00E6;ggelsen im&#x00F8;de. Jeg kan redde Dem, og jeg <emph>vil</emph>; jeg har st&#x00E6;rke arme, jeg vil b&#x00E6;re Dem bort fra alt dette her. De har ingen <emph>ret</emph> til at sige nei, ikke nu l&#x00E6;nger. Vi to, vi staar nu paa lige trin.</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<p>Hvad mener De med det?</p>
+</sp>
+<sp>
+<speaker><pb n="101"/>Hellesen</speaker>
+<p>Bare det, at verdens moral og dom nu g&#x00E6;lder ligesaa meget Dem, som mig. Det kan nu ikke l&#x00E6;nger v&#x00E6;re nogen hindring for Dem, det, &#x2013; som jeg ved, at De ved, &#x2013; mit gamle forhold til Deres tante.</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<stage>(smiler lidt)</stage>
+<p>Verdens moral og dom? Det er jo bare teorier. Tror De, jeg vilde bry mig om det, hvis &#x2026;</p>
+</sp>
+<sp>
+<speaker>Hellesen</speaker>
+<p>Det er altsaa ikke det?</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<p>Nei, det er ikke det.</p>
+</sp>
+<sp>
+<speaker>Hellesen</speaker>
+<p>Ja, men jeg var Deres ven engang! De havde ikke noget imod mig, snarere &#x2026; <pb n="102"/>jeg tar ikke feil. Der var noget i Deres &#x00F8;ine, som &#x2013;</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<stage>(ler)</stage>
+<p>Aa ja, kanske. I den alder, da alle har noget at sv&#x00E6;rme for. Som 15 &#x2013; 16 aar &#x2026;</p>
+</sp>
+<sp>
+<speaker>Hellesen</speaker>
+<p>Ja, dengang. Aa, jeg har set Dem bli voksen og udvikle Dem, og &#x2013;</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<p>Paa samme tid, som &#x2013;?</p>
+</sp>
+<sp>
+<speaker>Hellesen</speaker>
+<p>Ja, paa samme tid. Det forhold kender De ikke, helt fra f&#x00F8;rst af. Jeg var ung, endel yngre end hun. Jeg var i Deres onkels forretning, arbeided hjemme paa hans kontor. Og <emph>han</emph> var aldrig hjemme, sjelden eller aldrig. <emph>Hun</emph> var alene, trist <pb n="103"/>og nedtrykt, &#x2013; saa betrode hun sig til mig, det er den gamle vise, og saa &#x2013;. Men jeg har aldrig v&#x00E6;ret glad i hende, aldrig <emph>saadan</emph>. Jeg var glad i <emph>Dem</emph>, helt fra Deres 15de aar. Aa, De med Deres lange, sorte fletter. Jeg t&#x00E6;nkte: <emph>hun</emph>, hun skal engang bli min hustru.</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<p>Ja, men det kan jo aldrig bli.</p>
+</sp>
+<sp>
+<speaker>Hellesen</speaker>
+<p>Og De vil ligge her, saa som det nu er. <emph>Han</emph> gaar til Ellinor, siger jeg Dem.</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<p>Ja, De siger det.</p>
+</sp>
+<sp>
+<speaker>Hellesen</speaker>
+<p>Han elsker hende, h&#x00F8;rer De. Og han er <emph>svag</emph>! Svag for elegance, for det &#x00AB;fine&#x00BB;, <pb n="104"/>cr&#x00EA;me de la cr&#x00EA;me &#x2013; som alle opkomlinger. T&#x00E6;nk, hvilke formaaende forbindelser, en af byens bedste familier. Han er ked af sit fattige liv; det skader ikke at bli taget en smule under armene. De kender Ellinor! hun har ikke noget imod at faa en ber&#x00F8;mt mand. Hun ved at ta ham, den sk&#x00F8;ierungen. Han er idealist og naiv, han danner et billede af hende efter sin forestilling om det fine, det rene &#x2026; sk&#x00F8;nt hun er n&#x00E6;rmere demimonde, demimonden i high life. Netop den, han kender i forgrovet skikkelse fra sit eget omstreiferliv, og som han egentlig har en skr&#x00E6;k for.</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<p>Det ser ud til, at De har fulgt med.</p>
+</sp>
+<sp>
+<speaker>Hellesen</speaker>
+<p>Det har jeg. Jeg har fulgt tingenes gang, med skinsygens skarpsyn, jeg negter det ikke &#x2026; ham som Dem &#x2026; Jeg ser udviklingen, skal vel vogte mig for at forpurre</p>
+<p>noget. Men sk&#x00E6;ndigt er det!</p>
+</sp>
+<sp>
+<speaker><pb n="105"/>Agnes</speaker>
+<p>Hvad er sk&#x00E6;ndigt?</p>
+</sp>
+<sp>
+<speaker>Hellesen</speaker>
+<p>Forf&#x00F8;re den ene og forlove sig med den anden. Medlemmer af det samme hus.</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<stage>(reiser sig halvt)</stage>
+<p>Hellesen, det kan v&#x00E6;re det samme, hvad andre tror. Men kan det v&#x00E6;re Dem til nogen gl&#x00E6;de: Jeg har aldrig v&#x00E6;ret hans. Og han ved ikke engang, hvem jeg er.</p>
+</sp>
+<sp>
+<speaker>Hellesen</speaker>
+<p>V&#x00E9;d han ikke, hvem De er?</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<p>Nei.</p>
+</sp>
+<sp>
+<speaker>Hellesen</speaker>
+<p>Naa, da begriber jeg bedre hans freidighed. Men Dem, <stage>(ryster paa hodet)</stage> Dem <pb n="106"/>begriber jeg aldeles ikke. <stage>(Efter en pause)</stage> Har De virkelig ikke sagt ham det?</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<stage>(ryster paa hodet)</stage>
+</sp>
+<sp>
+<speaker>Hellesen</speaker>
+<p>Men hvorfor? &#x2013; Og hvad er dette for et slags indviklet forhold &#x2026; <stage>(staar stille og ser paa hende)</stage> Jeg tror Dem ikke. De indbilder mig ikke, at De kan leve i tamt venskab eller &#x00AB;kameratskab&#x00BB; med nogen mand. En mand kan det ikke. <stage>(lidenskabelig)</stage> Han vil b&#x00E6;re Dem &#x2013; lig Sappho &#x2013; op gennem fire etager, om De blir tungere og tungere. Agnes, Agnes &#x2026; <stage>(n&#x00E6;rmer sig)</stage></p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<stage>(reiser sig, staar paa gulvet med tindrende &#x00F8;ine)</stage>
+<p>De skal ikke tale saadan. Jeg er ikke Deres, bare tanken paa det er udenfor al natur. Hvis De ikke vil, at jeg skal faa afsky for Dem, saa skaan mig &#x2026; lad os <pb n="107"/>v&#x00E6;re venner &#x2026; <stage>(r&#x00E6;kker ham et &#x00F8;ieblik haanden i bev&#x00E6;gelse, slipper)</stage> Aa, Gud! Jeg foragter dere &#x2013; og jeg synes synd paa dere, m&#x00E6;nd, skabningens herrer! saa afm&#x00E6;gtige, afh&#x00E6;ngige &#x2026;</p>
+</sp>
+<sp>
+<speaker>Hellesen</speaker>
+<p>Af en overm&#x00E6;gtig naturlov, ja.</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<p>Det kan v&#x00E6;re.</p>
+</sp>
+<sp>
+<speaker>Hellesen</speaker>
+<p>Ja. Og De er netop af dem, som tilgir, fordi De forstaar. De er mild, Deres hjerte er godt. Den, som kunde vinde Dem! Men De staar, De er syg! De maa ikke &#x2026; <stage>(han vil igen n&#x00E6;rme sig.)</stage></p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<stage>(holder ham fra sig)</stage>
+<p>Jeg er ikke syg. Jeg er st&#x00E6;rkere end De, end dere alle. Hellesen, det er sandt, <pb n="108"/>at man tilgir lettere, naar man forstaar. Men vov ikke at komme mig n&#x00E6;r! <emph>De</emph> forstaar ikke &#x2026; nei, men De skal vide det og saa gi mig fred: at jeg tilh&#x00F8;rer &#x00E9;n eneste mand, en, som er gjort af samme stof som andre, &#x2013; den, jeg aldrig har tilh&#x00F8;rt, og <stage>(sagtere)</stage> kanske aldrig kommer til at g&#x00F8;re det. Med liv og sj&#x00E6;l og for livet, ja, jeg V&#x00E9;d det! <stage>(Hun holder haanden for &#x00F8;inene, vakler tilbage til sofaen.)</stage> Saa. Kan det nu v&#x00E6;re slut?</p>
+</sp>
+<sp>
+<speaker>Hellesen</speaker>
+<stage>(staar halv forskr&#x00E6;kket. Efter taushed, sagtere)</stage>
+<p>Men jeg vil Dem jo ikke noget ondt. Ikke andet end hj&#x00E6;lpe Dem, hvis jeg kan. Ti hvor skal det b&#x00E6;re hen? De er aldeles v&#x00E6;k &#x2013; ubegribelig, hvis det var en anden, vilde jeg ikke l&#x00E6;nger se til den side. Han bryr sig jo ikke om Dem, han gaar fra Dem, syg og daarlig, som De er. Han kommer aldrig tilbage, tro De mig &#x2026;</p>
+</sp>
+<stage>(Det banker.)</stage>
+<sp>
+<speaker>Agnes</speaker>
+<stage>(reiser sig halvt og lytter i sp&#x00E6;nding)</stage>
+<p>Han kommer. Det er ham &#x2026; jeg kender hans banken. Kom!</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<stage>(kommer, staar paa gulvet, ser fra den ene til den anden, tar sig i det og hilser. Til Hellesen)</stage>
+<p>Skal vi tr&#x00E6;ffes her?</p>
+</sp>
+<sp>
+<speaker>Hellesen</speaker>
+<stage>(lidt usikkert)</stage>
+<p>Ja &#x2026; frk. Agnes og jeg er gamle kendte</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>Kan v&#x00E6;re det, ja. Nei, lad mig ikke, forstyrre. Vil De alt gaa?</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<p>Vi var f&#x00E6;rdige.</p>
+</sp>
+<sp>
+<speaker>Hellesen</speaker>
+<p>Ja, jeg tror &#x2026; Der var vist ikke mere. Farvel!</p>
+</sp>
+<sp>
+<speaker><pb n="110"/>Agnes</speaker>
+<p>Farvel!</p>
+</sp>
+<stage>(Jonathan hilser, Hellesen gaar.)</stage>
+<sp>
+<speaker>Agnes</speaker>
+<stage>(sidder halvt opreist, taus, ser paa ham, forventningsfuld)</stage>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<stage>(aabner halvt sin side frak, blir staaende, iagttar hende)</stage>
+<p>De er lidt bev&#x00E6;get, synes jeg. Forstyrred jeg kanske?</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<p>Slet ikke.</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>De kender den mand? Ja, jeg har forresten set Dem sammen f&#x00F8;r, engang.</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<p>Det er hr. Hellesen. De kender ham vist ogsaa.</p>
+</sp>
+<sp>
+<speaker><pb n="111"/>Jonathan</speaker>
+<p>Jo. Vi tr&#x00E6;ffes iblandt. <stage>(Lidt kort)</stage> Hvordan gaar det idag?</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<p>Tak. Det er ikke saa slemt &#x2026;</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>De ser ikke bra ud. Nei, De g&#x00F8;r ikke. Alvorlig talt, barn, De b&#x00F8;r sende bud efter en l&#x00E6;ge. Hvorfor vil De ikke?</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<p>Der feiler mig ikke noget videre. Bare mathed &#x2026;</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>Saa blev det en slut paa det. Sygdom <stage>(ryster det af)</stage> uf! Er man endelig selv f&#x00E6;rdig, skal en gaa og se paa andres. <stage>(Ser sig om)</stage> Her er koldt. Trist belysning. H&#x00F8;r nu, Sonja! De kan ikke l&#x00E6;nger bli boende her.</p>
+</sp>
+<sp>
+<speaker><pb n="112"/>Agnes</speaker>
+<p>Men k&#x00E6;re &#x2026;</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>De Penge faar De sandelig ta imod og leie Dem et bedre v&#x00E6;relse.</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<p>Jeg har jo faat modelpengene.</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>Aa, det. Jeg har gjort det bedste arbeide i mit liv, og Dem har jeg at takke for det. Min statue vil g&#x00F8;re mig ber&#x00F8;mt, og imens ligger modellen og d&#x00F8;r.</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<p>Statuen &#x2026; Er den udstillet?</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>Ja, idag. Imorges.</p>
+</sp>
+<sp>
+<speaker><pb n="113"/>Agnes</speaker>
+<p>Hvor?</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>Henne i &#x00AB;Central&#x00BB;. Det store lokale.</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<stage>(gentar)</stage>
+<p>Idag. Og imorgen &#x2026; <stage>(sagtere)</stage> imorgen kommer skandalen.</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<stage>(er gaat bort til ovnen, tar et vedtr&#x00E6; og begynder at spikke fliser)</stage>
+<p>Hvad siger du?</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<p>Nei, ingenting.</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>Her er altfor koldt. L&#x00E6;gger De ikke i ovnen for Dem? Det er jo slutten af oktober. <stage>(Han blir ved at spikke, begynder at l&#x00E6;gge i ovnen.)</stage></p>
+</sp>
+<sp>
+<speaker><pb n="114"/>Agnes</speaker>
+<p>Ovnen er ikke god.</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>Nei, jeg ser det. Men naar det kommer an paa d&#x00E9;t, <stage>(han l&#x00E6;gger i)</stage> saa har jeg stelt med endnu daarligere ovne end denne. <stage>(Han faar det til at br&#x00E6;nde. S&#x00E6;tter sig en stund ved ovnen, st&#x00F8;tter hovedet i h&#x00E6;nderne. Pause)</stage> Hvordan har De egentlig havt det &#x2026; siden jeg var her?</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<p>Siden sidst De var her? Det er en stund siden.</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>Ja, det er saa. Jeg har havt travlt &#x2026;</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<p>Har De?</p>
+</sp>
+<sp>
+<speaker><pb n="115"/>Jonathan</speaker>
+<p>For en del.</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<p>Hellesen siger &#x2026; ja han kom til at fort&#x00E6;lle, tilfeldigvis, at der har v&#x00E6;ret soir&#x00E9;e hos konsul L&#x00FC;tzens. At De var der.</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>Jo, jeg var der <stage>(Ler, reiser sig)</stage> Vil De tro, jeg dansed. Ja, de unge damer fik mig til at danse galoppade, men vals, det fik de mig nu slet ikke til. Der er jo maade med alt, nemlig.</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<p>Ja, hvorfor skulde De ikke danse og more Dem. <stage>(Pause.)</stage>
+</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<stage>(hastig, pludselig)</stage>
+<p>Frk. Ellinor, ja &#x2026; har De set frk. L&#x00FC;tzen? Nei, der er slig <emph>gl&#x00E6;de</emph> over <pb n="116"/>hende... Apropos, Sonja! Ja, det var jeg skulde sagt. <stage>(Han stanser.)</stage></p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<p>Hvilket?</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>Jo, hvordan har De havt det &#x2013; her? <stage>(ser sig om)</stage> Siden vi taler om det &#x2026; Hellesen? hvorfra kender De ham?</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<p>Jeg &#x2026; jo &#x2026; jeg kender ham.</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>Kender ham. Jeg &#x2026; jo, jeg kender <stage>(M&#x00F8;rk)</stage> Ikke mere. Nei, aldrig <emph>mere</emph>. Jeg vidste det.</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<stage>(ser fast paa ham)</stage>
+<p>Der er ikke mere.</p>
+</sp>
+<sp>
+<speaker><pb n="117"/>Jonathan</speaker>
+<p>Er der ikke mere? Jo, der er mere, mere paa alle kanter. Der er ting, jeg ikke s&#x00E9;r igennem. I begyndelsen er det ingenting. De er den, De er &#x2026; Sonja, det ord var saa vakkert!</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<stage>(smiler)</stage>
+<p>Ja.</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>Og naar De smiler slig &#x2026; Hm. Men 5 maaneder er en lang tid, Sonja. Jeg er tr&#x00E6;t.</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<p>Er De tr&#x00E6;t. <stage>(angst)</stage> Ja, jeg ved det.</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>Tr&#x00E6;t. <stage>(st&#x00E6;rkt)</stage> Jeg vil v&#x00E6;k, jeg vil ryste det af mig. Dem og mystiken og lidelsen <pb n="118"/>og det altsammen. Det er, hvad jeg vil. Her er saa m&#x00F8;rkt hos dig. <stage>(Pause.)</stage>
+</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<stage>(sagte)</stage>
+<p>Ja, nu er det h&#x00F8;st. Husker De ivaar? da var det lyst &#x2026; Hvor lyst det begyndte.</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>Ja.</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<p>Det var helligdag hver dag, sa De. Og hvor De kunde arbeide. &#x2013; Hvorfor kunde det ikke vare ved?</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>Saadant varer aldrig ved. Der kommer den dag f&#x00F8;r eller senere, da en ikke kan. Slige halve forhold er umulige, unaturlige. Men De skulde gaat med dengang, Sonja. <pb n="119"/>Da havde det v&#x00E6;ret bedre for Dem nu. Ja, selv om De aldrig skulde se mig mere.</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<stage>(efter en taushed)</stage>
+<p>Jonathan &#x2026; jeg ved, jeg forstaar hvorfor De er kommet her idag.</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>Det er godt, at De forstaar det. Det g&#x00F8;r det lettere for mig at tale. Ja, jeg negter det ikke. Jeg er kommet hid iaften for at sige Dem &#x2026; for at l&#x00F8;se et baand, som aldrig nogensinde blev knyttet mellem os, fordi De gav for lidet &#x2013; og forlangte for meget.</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<stage>(gentar mekanisk)</stage>
+<p>For meget, <stage>(efter ny taushed)</stage> Hvor gaar De hen? Reiser De?</p>
+</sp>
+<sp>
+<speaker><pb n="120"/>Jonathan</speaker>
+<p>Nei. Jeg reiser ikke. Jeg har bundet mig herhjemme.</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<p>Har De bundet Dem &#x2026;</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<stage>(kort og bestemt)</stage>
+<p>Jeg blev igaar forlovet med Ellinor L&#x00FC;tzen.</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<p>Ah! <stage>(hun sidder stille, ser stumt og ligesom ventende paa ham.)</stage></p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>Og da ved De, at vi maa v&#x00E6;re f&#x00E6;rdige. Det har varet l&#x00E6;nge nok. De har lidt, og jeg har lidt &#x2026; det er sidste gang. <stage>(Han vender sig rask imod hende)</stage> Sonja, De forstaar, at det maa saa v&#x00E6;re.</p>
+</sp>
+<sp>
+<speaker><pb n="121"/>Agnes</speaker>
+<stage>(nikker.)</stage>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>Men jeg vil forsikre mig om, at De ikke har det ondt, at der er nogen, som s&#x00F8;rger for Dem &#x2026; Aa, disse &#x2026; <stage>(stamper med &#x00E9;t i gulvet)</stage> Sig mig: har De venner? Hvem var det, De skulde m&#x00F8;de i natten dengang? F&#x00F8;rste gang, jeg traf Dem?</p>
+</sp>
+<sp>
+<speaker><pb n="122"/>Agnes</speaker>
+<p>Det var en dame.</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<stage>(staar taus og ser paa hende)</stage>
+<p>Siger De sandt? &#x2013; Hvorfra kender De Hellesen? Hvad gaar han her efter, han? Hvem er De? En eventyrerske? &#x2013; Det er som allerhelvedes evige pine, at en aldrig kan bli f&#x00E6;rdig med Dem.</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<stage>(smertelig)</stage>
+<p>De piner Dem selv &#x2026; Aa, hvor De g&#x00F8;r det.</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<stage>(rolig, mildere)</stage>
+<p>Ja, men h&#x00F8;r, barn. Forklar mig nu: Kan De huske den aften, da De graat saa meget. Den aften, da jeg havde bedt Dem om det. Erindrer De?</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<p>Ja.</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>De tilstod mig lige ud, at De var glad i mig. At jeg var Dem mere end far og mor, sa De. Hvorfor vilde De da ikke &#x2013; hvad jeg bad om?</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<stage>(sagte, ser paa ham, ryster paa hodet)</stage>
+<p>Men De br&#x00F8;d Dem jo ikke om mig ikke saadan. <stage>(Hun retter sig, stoltere)</stage> Jonathan, <pb n="123"/>jeg <emph>vilde</emph> ikke. De fortalte mig om de andre. Disse atelier-oplevelser. Og om hende fortalte De. Jeg <emph>kunde</emph> ikke, nei, jeg kunde ikke; jeg maatte ligesom vente, Vente &#x2026; <stage>(hun ser frem for sig.)</stage></p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>Vente? paa hvad?</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<p>Paa noget <emph>st&#x00F8;rre</emph>. Jeg forstod, at det ikke var der, det store, &#x2013; det, som varer.</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>Tror De paa det, som varer? Har De set det?</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<p>Ja.</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>Hvor?</p>
+</sp>
+<sp>
+<speaker><pb n="124"/>Agnes</speaker>
+<p>I forholdet mellem min far og mor. Jeg maatte t&#x00E6;nke paa det altid.</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<stage>(staar og ser paa hende)</stage>
+<p>Underlige pige. Der er mods&#x00E6;tninger, som jeg aldrig blir klog paa. Deres v&#x00E6;sen, Deres maade at leve paa &#x2013; det h&#x00F8;rer ikke sammen. Jeg kender Dem, og kender Dem ikke.</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<p>Jeg har aldrig l&#x00F8;iet for Dem.</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>Hvor det er m&#x00F8;rkt her. Dystert som tvilen selv. Hvor De ser syg ud, De har tabt Dem, Sonja. Husker De, hvad De sa engang, da jeg bad Dem meget, fordi jeg pintes af Deres n&#x00E6;rhed, som m&#x00E6;nd pines, fordi de er m&#x00E6;nd: De sa: <emph>Kunde</emph> De <pb n="125"/>g&#x00F8;re mig til Deres hustru? &#x2013; Hvor faldt De paa det?</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<p>Jeg ved ikke &#x2013; nu mere. <stage>(Da han knapper sin frak til, halv sagte, b&#x00E6;vende)</stage> Gaar De?</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>Jeg maa gaa. <stage>(staar lidt, siger)</stage> Det er sandt &#x2026; De skal nu ikke mangle noget. <stage>(Han tar op sin tegnebog, l&#x00E6;gger to r&#x00F8;de sedler paa bordet.)</stage> Jeg har faat forskud &#x2026; Se her, Sonja, lov mig nu, at De leier Dem et bedre v&#x00E6;relse.</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<stage>(har reist sig, hun gaar henimod ham, stanser. Peger paa bordet, siger med d&#x00E6;mpet ild og i sindsbev&#x00E6;gelse)</stage>
+<p>Tag Deres penge tilbage, jeg r&#x00F8;rer dem ikke &#x2026; tag dem tilbage, h&#x00F8;rer De! <stage>(knuger h&#x00E6;nderne)</stage> V&#x00E6;r barmhjertig, aa menneske, mand, forstaa! G&#x00F8;r ikke dette &#x00F8;ieblik endnu tungere, bitrere, <stage>(i halvkvalt hulken, som hun bekj&#x00E6;mper)</stage> De gaar fra mig, De &#x2026; Jeg <pb n="126"/>skal ikke se Dem mere, og De vover at byde mig erstatning i penge! Jeg r&#x00F8;rer ikke Deres penge. <stage>(Peger bydende paa bordet)</stage> Tag dem!</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<stage>(tar dem taus, ser paa hende)</stage>
+<p>Sonja, hvem er De? For sidste gang.</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<stage>(stille)</stage>
+<p>Naar De ikke trode mig &#x2026; naar De ikke kender mig, for min egen skyld, som den jeg er, i mit inderste indre &#x2026; da kan det vist v&#x00E6;re os begge ligegyldig, hvem jeg er &#x2013; i samfundet.</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<stage>(staar paa gulvet, uvis)</stage>
+<p>De har ret, kanske. <stage>(Han gaar nogen skridt mod d&#x00F8;ren, vender sig)</stage> Farvel, Sonja.</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<p>Farvel! <stage>(i bev&#x00E6;gelse, b&#x00F8;nlig)</stage> Vent lidt.</p>
+</sp>
+<sp>
+<speaker><pb n="127"/>Jonathan</speaker>
+<stage>(staar ventende)</stage>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<p>Deres penge vilde jeg ikke ha &#x2026; men giv mig et eneste minde! Giv mig den lille lermodellen, som De formed statuen efter. Til erindring om det, som var saa lyst!</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>Naar jeg kunde det! Men den <emph>er</emph> ikke mere, den er &#x00F8;delagt. Jeg var ikke forn&#x00F8;iet med den. Og hvad g&#x00F8;r det ogsaa? Vi har jo den store i marmor, min sk&#x00E6;bnestatue, den, vi skal bli ber&#x00F8;mte paa begge to. Jeg sender den paa salonen til vaaren.<note type="footnote">vaaren.] <hi rend="italic">rettet fra:</hi> vaaren <hi rend="italic">(manglende tegnsetting)</hi></note></p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<stage>(staar med sammentrykte h&#x00E6;nder)</stage>
+<p>Statuen &#x2026; den i marmor, den n&#x00F8;gne, kyske, dit livs sk&#x00F8;nneste v&#x00E6;rk! <stage>(sagtere)</stage> Men for verden skandale, den n&#x00F8;gne skandale &#x2026;</p>
+</sp>
+<sp>
+<speaker><pb n="128"/>Jonathan</speaker>
+<p>Hvad siger De?</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<p>Det var ikke noget &#x2026; Farvel! og gid De maatte faa gl&#x00E6;de af Deres v&#x00E6;rk!</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>Gl&#x00E6;de, ja. De siger det saa profetisk. Sonja, gaa og s&#x00E6;t Dem, hvil Dem &#x2013;.De taaler ikke at staa. Gl&#x00E6;de? Ja, jeg tror det. Farvel! og tak!</p>
+<stage>(Han gaar hurtig.)</stage>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<stage>(kn&#x00E6;ler ved en stol, st&#x00F8;tter hodet i h&#x00E6;nderne. Sukker hen for sig)</stage>
+<p>Ikke det engang. Ikke den lille lermodellen. <stage>(Hun reiser sig, ser op, l&#x00F8;fter h&#x00E6;nderne frem for sig)</stage> Sk&#x00E6;bne? &#x2013; Jeg tror at hvad der skal ske, det sk&#x00E9;r!</p>
+</sp>
+<lb/><stage>Teppet falder.</stage>
+</div>
+<div type="uchapter" subtype="scene">
+<head type="sub">SCENEFORANDRING</head>
+<stage><pb n="129"/>Hos konsulens. Ettermiddag. Modtagelse til te. Flere g&#x00E6;ster ankomne. Staaende og siddende grupper, levende samtale.</stage>
+<stage><hi rend="bold">Fru L&#x00FC;tzen</hi> og flere &#x00E6;ldre damer omkring bord i salonen, til h&#x00F8;ire. De passiarer, syr og h&#x00E6;kler. Tre-fire unge damer staar til venstre i forgrunden; et par herrer, deriblandt <hi rend="bold">arkitekt Aaby</hi> og <hi rend="bold">l&#x00F8;itnant Morell</hi>, gaar fra og til. L&#x00E6;nger i baggrunden flere ankommende. Senere <hi rend="bold">kontorchef Hellesen</hi>. <hi rend="bold">Ellinor</hi> og en pige sk&#x00E6;nker te inde ved buffeten og byr om.</stage>
+<sp>
+<speaker>En ung dame</speaker>
+<stage>(til venstre)</stage>
+<p>Ligheden? Er der lighed?</p>
+</sp>
+<sp>
+<speaker>En anden</speaker>
+<p><emph>Om</emph> der er lighed.</p>
+</sp>
+<sp>
+<speaker>En tredie</speaker>
+<p>Nei, har du ikke h&#x00F8;rt det, Milly. Jeg vidste det alt igaar.</p>
+</sp>
+<sp>
+<speaker><pb n="130"/>Den f&#x00F8;rste</speaker>
+<p>Er det sandt?</p>
+</sp>
+<sp>
+<speaker>En fjerde</speaker>
+<p>Er det mulig?</p>
+</sp>
+<sp>
+<speaker>Den anden</speaker>
+<p>Ja. Og t&#x00E6;nk &#x2026; <stage>(Blir ved at tale halv sagte.)</stage></p>
+</sp>
+<sp>
+<speaker>En &#x00E6;ldre dame</speaker>
+<stage>(fra sofaen)</stage>
+<p>Der kan De se, hvad sa jeg?</p>
+</sp>
+<sp>
+<speaker>En anden</speaker>
+<p>Nei, var det andet at vente. Hun skulde jo altid v&#x00E6;re anderledes end andre.</p>
+</sp>
+<sp>
+<speaker>Den f&#x00F8;rste</speaker>
+<p>Hvor jeg beklager Dem, fru L&#x00FC;tzen. Ja, rigtig inderlig g&#x00F8;r jeg det. Vi talte l&#x00E6;nge om det idag, min mand og jeg.</p>
+</sp>
+<sp>
+<speaker><pb n="131"/>Fru L&#x00FC;tzen</speaker>
+<p>Ja, herregud! jeg vasker mine h&#x00E6;nder.</p>
+</sp>
+<sp>
+<speaker>Den f&#x00F8;rste</speaker>
+<p>Det kan De vist trygt g&#x00F8;re. Saa godt, hun havde det hos Dem i mange aar.</p>
+</sp>
+<sp>
+<speaker>En anden</speaker>
+<p>Og saa l&#x00F8;nne Dem med at l&#x00F8;be fra huset og staa ganske almindelig model.</p>
+</sp>
+<sp>
+<speaker>En tredie</speaker>
+<p>Ja, og Gud maa vide, hvad andet. Men tilb&#x00F8;ielighederne er vanskelige hos nogen. En faar ikke d&#x00F8;mme for haardt.</p>
+</sp>
+<sp>
+<speaker>En anden</speaker>
+<p>Havde det endda v&#x00E6;ret med kl&#x00E6;r paa. Men ikke saa meget som et b&#x00E6;lte engang.</p>
+</sp>
+<sp>
+<speaker><pb n="132"/>En herre</speaker>
+<stage>(som sidder hos, smiler)</stage>
+<p>Naa, naa, bedste frue, berolige Dem. Hodet, ansigtet, halsen, det er hende. Resten? det kan man umulig vide.</p>
+</sp>
+<sp>
+<speaker>Den f&#x00F8;rste unge dame</speaker>
+<stage>(til venstre)</stage>
+<p>Det kan vel ikke v&#x00E6;re sandt?</p>
+</sp>
+<sp>
+<speaker>Den anden</speaker>
+<p>Ikke spor af kl&#x00E6;r.</p>
+</sp>
+<sp>
+<speaker>En tredie</speaker>
+<p>Ikke spor. Og t&#x00E6;nk &#x2026; <stage>(taler halv sagte.)</stage></p>
+</sp>
+<sp>
+<speaker>Den anden</speaker>
+<p>T&#x00E6;nk en dame! En virkelig dame.</p>
+</sp>
+<sp>
+<speaker>Den fjerde</speaker>
+<p>Nei, f&#x00F8;r jeg vilde &#x2026;</p>
+</sp>
+<sp>
+<speaker><pb n="133"/>Arkitekt Aaby</speaker>
+<stage>(n&#x00E6;rmer sig)</stage>
+<p>Ja, men statuen er glimrende gjort, frk. Benneche.</p>
+</sp>
+<sp>
+<speaker>Den tredie</speaker>
+<p>Aa, De vil vel ikke forsvare &#x2026;</p>
+</sp>
+<sp>
+<speaker>Arkitekt</speaker>
+<p>Jeg forstaar mig lidt paa kunstv&#x00E6;rker. En h&#x00F8;ihed, forsikrer jeg Dem &#x2026; en sublim tanke! Den vil han bli ber&#x00F8;mt paa.</p>
+</sp>
+<sp>
+<speaker>Den tredie</speaker>
+<stage>(til Ellinor, som byder t&#x00E9;, fulgt af l&#x00F8;itnant Morell)</stage>
+<p>Ja, hvad siger du, Ellinor? Hvor kedelig det maa v&#x00E6;re for dig. Din egen kusine, og to dage efter din forlovelse &#x2026;</p>
+</sp>
+<sp>
+<speaker>Den f&#x00F8;rste</speaker>
+<p>Kommer han hid iaften?</p>
+</sp>
+<sp>
+<speaker><pb n="134"/>Ellinor</speaker>
+<p>Vist kommer han. Vi venter ham hvert &#x00F8;ieblik. Pyh, det g&#x00F8;r ikke noget. Hellesen siger, han vidste ikke engang, hvem hun var. Det ligner hende.</p>
+</sp>
+<sp>
+<speaker>Den f&#x00F8;rste</speaker>
+<p>Gud, kommer han hid iaften? Hvor gerne jeg vilde se ham.</p>
+</sp>
+<sp>
+<speaker>L&#x00F8;itnant Morell</speaker>
+<p>Det er en bj&#x00F8;rn, mine damer.</p>
+</sp>
+<sp>
+<speaker>Ellinor</speaker>
+<stage>(ler, de fjerner sig med teen, de andre ler og konverserer.)</stage>
+</sp>
+<sp>
+<speaker>L&#x00E6;ngere tilbage</speaker>
+<stage>(h&#x00F8;res mellem ankommende g&#x00E6;ster)</stage>
+<p>Sidste nyt!</p>
+</sp>
+<sp>
+<speaker><pb n="135"/>Andre</speaker>
+<p>Slem historie &#x2026; beklageligt <stage>(udraab, hvisken etc. De taler sammen to og tre i grupper; Ellinor gaar omkring og taler med enkelte.)</stage></p>
+</sp>
+<sp>
+<speaker>Fra de &#x00E6;ldre damers bord</speaker>
+<stage>(h&#x00F8;res indimellem)</stage>
+<p>Det er fr&#x00E6;kt &#x2026; skandale &#x2026; utaknemlighed &#x2026; etc.</p>
+</sp>
+<sp>
+<speaker>Ellinor og l&#x00F8;itant Morell</speaker>
+<stage>(i forgrunden)</stage>
+</sp>
+<sp>
+<speaker>Morell</speaker>
+<p>Jo, det er De. Som taget lige ud af en af Maupassants b&#x00F8;ger. Har De l&#x00E6;st?</p>
+</sp>
+<sp>
+<speaker>Ellinor</speaker>
+<p>Bevares!</p>
+</sp>
+<sp>
+<speaker>Morell</speaker>
+<p>Jeg t&#x00E6;nkte paa Dem i udlandet.</p>
+</sp>
+<sp>
+<speaker><pb n="136"/>Ellinor</speaker>
+<stage>(ler)</stage>
+<p>Det er ikke sandt.</p>
+</sp>
+<sp>
+<speaker>Morell</speaker>
+<p>Hvor De kan le &#x2026; Deres latter er himmelstormende, der ligger en portion ligegyldighed i den, som risler en som staalklinger nedover ryggen. De s&#x00E6;tter Deres fod paa en mands nakke; De er ikke norsk, De er chic.</p>
+</sp>
+<sp>
+<speaker>Ellinor</speaker>
+<p>Er de saadan i udlandet?</p>
+</sp>
+<sp>
+<speaker>Morell</speaker>
+<p>Der var en, som ligned Dem. Ber&#x00F8;mt chansonette, solgte sig til en million&#x00E6;r; han kom mig i fork&#x00F8;bet. Ikke spor af hjerte, men guddommelig chic og deilig foragtfuld. Herhjemme er det smaatteri. <stage>(Han snur sine barter.)</stage></p>
+</sp>
+<sp>
+<speaker><pb n="137"/>Ellinor</speaker>
+<p>Hvordan?</p>
+</sp>
+<sp>
+<speaker>Morell</speaker>
+<p>Der er noget gauche. Se f. ex. der <stage>(peger)</stage> 4 om &#x00E9;n. De g&#x00F8;r kur til ham, rollerne er forbyttede. Se, frk. Elvig, dette villende blik. Man faar nok af det med disse pigehjerter i en buket.</p>
+</sp>
+<sp>
+<speaker>Ellinor</speaker>
+<p>Ja, De skal jo ha knust saa mange, hr. Morell. Gud, for et rygte, De har.</p>
+</sp>
+<sp>
+<speaker>Morell</speaker>
+<p>Gud, for nogen &#x00F8;ine, De har! Tror De ikke, jeg <emph>saa</emph> Dem efter det bal. De kan gi Dem saa deilig hen i en vals.</p>
+</sp>
+<sp>
+<speaker>Ellinor</speaker>
+<p>Den eneste, De dansed.</p>
+</sp>
+<sp>
+<speaker><pb n="138"/>Morell</speaker>
+<p>Og bare med Dem.</p>
+</sp>
+<sp>
+<speaker>Ellinor</speaker>
+<p>Men De reiste alligevel, hr. l&#x00F8;itnant.</p>
+</sp>
+<sp>
+<speaker>Morell</speaker>
+<p>Og De &#x2013; forloved Dem.</p>
+</sp>
+<sp>
+<speaker>Ellinor</speaker>
+<stage>(nikker)</stage>
+<p>Med en, som mange andre gerne vilde ha.</p>
+</sp>
+<sp>
+<speaker>Morell</speaker>
+<p>Var d&#x00E9;t grunden?</p>
+</sp>
+<sp>
+<speaker>Ellinor</speaker>
+<p>Nei, hvor kan De tro. <stage>(Ler.)</stage></p>
+</sp>
+<sp>
+<speaker><pb n="139"/>Morell</speaker>
+<p>Og De tror, at <emph>De</emph> vil kunne gaa rolig til ankers i &#x00E6;gteskabets havn? Med Deres &#x00AB;flammesj&#x00E6;l&#x00BB;?</p>
+</sp>
+<sp>
+<speaker>Ellinor</speaker>
+<p>Hvad behager?</p>
+</sp>
+<sp>
+<speaker>Morell</speaker>
+<p>Jeg tror, jeg reiser til udlandet igen.</p>
+</sp>
+<sp>
+<speaker>Ellinor</speaker>
+<p>Ja, g&#x00F8;r det. Nei, g&#x00F8;r ikke det da &#x2026; Hys! <stage>(vender sig.)</stage></p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<stage>(er kommen ind. Ellinor gaar ham im&#x00F8;de, han tar hende i haanden, hilser paa fru L&#x00FC;tzen og flygtig paa g&#x00E6;sterne, hvis konversation efterhaanden blir mere d&#x00E6;mpet, mens de iagttar. Han gaar hen i forgrunden og taler sagte med Ellinor.)</stage>
+</sp>
+<sp>
+<speaker><pb n="140"/>Fru L&#x00FC;tzen</speaker>
+<stage>(om lidt, gaar hen til dem. Til Ellinor)</stage>
+<p>Naa? Ved han det?</p>
+</sp>
+<sp>
+<speaker>Ellinor</speaker>
+<stage>(peger paa Jonathan)</stage>
+<p>Sp&#x00F8;rg ham!</p>
+</sp>
+<sp>
+<speaker>Fru L&#x00FC;tzen</speaker>
+<p>De slemme mand. Hele byen taler om Dem.</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>Ja, men i herrens navn!</p>
+</sp>
+<sp>
+<speaker>Fru L&#x00FC;tzen</speaker>
+<p>Om Dem og Deres model. Forklar Dem nu, forsvar Dem; jeg er vis paa, De kan det. Hende taler vi ikke om.</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>Hende? Forklare mig. Nei, De maa forklare mig. Folk summer en om &#x00F8;rene <pb n="141"/>med dumheder og vil ha greie paa en historie, som lader til at v&#x00E6;re kendt af alle undtagen af mig.</p>
+</sp>
+<sp>
+<speaker>Fru L&#x00FC;tzen</speaker>
+<p>De vidste det altsaa ikke?</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>Nei, om jeg ved <emph>endnu</emph>. <emph>Hvem</emph> i Guds navn er fr&#x00F8;ken Agnes Reinhart?</p>
+</sp>
+<sp>
+<speaker>Fru L&#x00FC;tzen</speaker>
+<p>Det er jo Deres model.</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>Naa, den ting begriber jeg da endelig. I lige maade at hun er &#x00AB;kompromitteret&#x00BB;, og det er en stor og v&#x00E6;ldig skandale. Men sammenh&#x00E6;ngen, frue? Hvem <emph>er</emph> hun?</p>
+</sp>
+<sp>
+<speaker>Fru L&#x00FC;tzen</speaker>
+<p>Du gode! Det er jo min brordatter, som er l&#x00F8;bet fra os. Vidste De virkelig ikke det?</p>
+</sp>
+<sp>
+<speaker><pb n="142"/>Jonathan</speaker>
+<stage>(ryster paa hodet)</stage>
+</sp>
+<sp>
+<speaker>Fru L&#x00FC;tzen</speaker>
+<p>Vi trode en stund, at De begge var om det. Det vilde gjort os ondt, for vi er sandelig blevet saa glad i Dem, hr. Jonathan.</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>Ja &#x2026; men <emph>hun</emph>? Hvad er det med hende? Hvorfor l&#x00F8;b hun bort?</p>
+</sp>
+<sp>
+<speaker>Fru L&#x00FC;tzen</speaker>
+<p>Hvorfor hun &#x2026; herregud <stage>(irriteret, forurettet)</stage> sp&#x00F8;r mig ikke om hende. Vi har havt nok af ubehageligheder i den sag. Hendes navn n&#x00E6;vnes ikke mere i vort hus. Naar man l&#x00F8;ber fra hus og hjem, saa maa det vel v&#x00E6;re, fordi ens tilb&#x00F8;ieligheder &#x2026; Min bror gjorde nemlig en mesalliance, skal jeg sige Dem, og saadant ligger i blodet.</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<stage>(i tanker)</stage>
+<p>Ah &#x2026;?</p>
+</sp>
+<sp>
+<speaker>Fru L&#x00FC;tzen</speaker>
+<p>Hun var altid et vanskeligt barn, hr Jonathan.</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<stage>(som f&#x00F8;r)</stage>
+<p>Vanskeligt barn. Saa. <stage>(Til Hellesen, som n&#x00E6;rmer sig)</stage> Kanske <emph>De</emph>, hr. Hellesen, kan gi lidt besked? De kendte frk. Reinhart godt, sa De.</p>
+</sp>
+<sp>
+<speaker>Hellesen</speaker>
+<p>Jo, det er ikke usandhed. Frk. Reinhart og jeg var meget godt kendte. Men nu tror jeg n&#x00E6;sten, jeg overlader hende til <emph>Dem</emph>, hr. Jonathan.</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<stage>(rykker sammen)</stage>
+<p>Hvad behager? <stage>(Han blir staaende paa samme plet, det ser ud, som mange slags tanker brydes i ham)</stage></p>
+</sp>
+<sp>
+<speaker><pb n="144"/>Hellesen</speaker>
+<stage>(gaar fra ham, han og Fru L&#x00FC;tzen blir staaende i samtale. Han ryster paa hodet, man h&#x00F8;rer ordene)</stage>
+<p>Totalt &#x00F8;delagt &#x2026; folkesnak! &#x2026; skammelig fr&#x00E6;khed, uhj&#x00E6;lpeligt&#x2026; skandal&#x00F8;st. <emph>Den</emph> var for dr&#x00F8;i!</p>
+</sp>
+<sp>
+<speaker>Fruen</speaker>
+<stage>(sagte, smilende)</stage>
+<p>Er De helbredet, Hellesen?</p>
+</sp>
+<sp>
+<speaker>Hellesen</speaker>
+<p>Jeg tror det.</p>
+</sp>
+<sp>
+<speaker>Ellinor</speaker>
+<stage>(om en stund, n&#x00E6;rmer sig Jonathan, smilende)</stage>
+<p>Hvad t&#x00E6;nker du paa?</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<stage>(ser et &#x00F8;ieblik aandsfrav&#x00E6;rende paa hende, henter sig, slaar pludselig om)</stage>
+<p>Min gl&#x00E6;des dronning! Jeg hilser dig, jeg er din slave, <stage>(kysser hendes haand)</stage> Dit smil og dit blik &#x2026; de gaar altid som <pb n="145"/>vin og ild gennem mine aarer. <stage>(Ser sig om)</stage> Her er lyst! Er her ikke selskab iaften? Jeg kender jo mange af disse mennesker &#x2026; <stage>(H&#x00F8;it og lydeligt til g&#x00E6;sterne)</stage> Mine damer Og herrer, hvad siger De om en dans? Skal vi ikke holde bal iaften ogsaa?</p>
+</sp>
+<sp>
+<speaker>Flere unge damer</speaker>
+<p>Jo! jo!</p>
+</sp>
+<stage>(Stor og lydelig tilslutning blandt g&#x00E6;sterne, is&#x00E6;r damerne, enkelte jubler og samler sig om ham.)</stage>
+<sp>
+<speaker>Jonathan</speaker>
+<p>Vel, vi begynder strax. Gl&#x00E6;den h&#x00F8;it i tag. Faar jeg danse med Dem, fr&#x00F8;ken? &#x2013; Med Dem? <stage>(Han l&#x00F8;ber om og tar snart den ene, snart den anden om livet. Damerne flygter, ler, river sig l&#x00F8;s halv paa skr&#x00F8;mt og n&#x00E6;rmer sig igen.)</stage></p>
+</sp>
+<sp>
+<speaker>L&#x00F8;itnant Morell</speaker>
+<stage>(i forgrunden, snur sine barter og ser til)</stage>
+<p>Ha, ha! Her leger man: Bj&#x00F8;rnen er ikke hjemme. Plukke &#x2013; plukke bj&#x00F8;rneb&#x00E6;r!</p>
+</sp>
+<lb/><stage>(En stormende vals spilles inde paa pianoet. Flere herrer tar damer. Teppet falder under livlig dans.)</stage>
+</div>
+</div>
+<div type="chapter" subtype="act" n="4">
+<head type="main">AKT IV</head>
+<stage><pb n="149"/><hi rend="bold">Jonathans atelier</hi>, righoldigere og mere elegant og moderne udstyret end i 2den akt. Ettermiddag. Lyset falder d&#x00E6;mpet ind, det er begyndt at sne udenfor.</stage>
+<stage>Statuen, halv tild&#x00E6;kket, staar i mellemgrunden til h&#x00F8;ire. <hi rend="bold">Gerhardt</hi> holder paa at ordne folderne paa det overd&#x00E6;kkende kl&#x00E6;de. <hi rend="bold">Habel</hi>, kunstkritiker, i n&#x00E6;rheden; han har tegnebog og blyant og g&#x00F8;r undertiden noticer.</stage>
+<sp>
+<speaker>Habel</speaker>
+<stage>(taler med lidt udenlandsk &#x2013; ikke gebrokken &#x2013; accent.)</stage>
+<p>Overmaade udtryksfuld, betagende, ja sandelig. Gjort, hvad man kalder con amore, ingen d&#x00F8;de punkter, sjeldent v&#x00E6;rk. Jeg takker Dem, hr. Gerhardt. De har gjort mig en stor tjeneste.</p>
+</sp>
+<sp>
+<speaker><pb n="150"/>Gerhardt</speaker>
+<stage>(bukker)</stage>
+<p>Aa, jeg b&#x00E9;r.</p>
+</sp>
+<sp>
+<speaker>Habel</speaker>
+<p>Vil De sige hr. Jonathan, naar han kommer, at jeg vented paa ham her. At jeg skriver til &#x00AB;Deutsche Rundschau&#x00BB; og til &#x00AB;Revue des revues&#x00BB;, for det f&#x00F8;rste. Statuen skal jo til Paris?</p>
+</sp>
+<sp>
+<speaker>Gerhardt</speaker>
+<p>Det var meningen. Til vaaren.</p>
+</sp>
+<sp>
+<speaker>Habel</speaker>
+<p>En forsmag skader ikke. Jeg priser mit held. Jeg var i udstillingen idag; men der var den altsaa ikke. Saa fandt jeg paa at gaa lige hid. Men hvorfor har han taget den hjem?</p>
+</sp>
+<sp>
+<speaker>Gerhardt</speaker>
+<p>Den skulde afslibes en smule.</p>
+</sp>
+<sp>
+<speaker><pb n="151"/>Habel</speaker>
+<p>Nu, se det er kunstnerens hemmelighed. De aller delikateste finesser. Jeg vilde sige: Her er intet mere at forandre.</p>
+</sp>
+<sp>
+<speaker>Gerhardt</speaker>
+<stage>(bukker)</stage>
+<p>Hr. Habels altid sikre blik bedrager Dem ikke; ti det er allerede gjort.</p>
+</sp>
+<sp>
+<speaker>Habel</speaker>
+<stage>(bukker, smiler tilbage)</stage>
+<p>Ah, ha, ser De. Men sig mig, hr. Gerhardt. Hvem er egentlig hr. Jonathan?</p>
+</sp>
+<sp>
+<speaker>Gerhardt</speaker>
+<p>Hans oprindelse, mener De?</p>
+</sp>
+<sp>
+<speaker>Habel</speaker>
+<p>Ja vel.</p>
+</sp>
+<sp>
+<speaker><pb n="152"/>Gerhardt</speaker>
+<p>Jonathan er et &#x00E6;gte barn af folket. For circa 20 aar siden var han en liden fattig gut, som gik og solgte viser og fyrstikker og sligt, her i byen.</p>
+</sp>
+<sp>
+<speaker>Habel</speaker>
+<p>Ja, saadan begynder de. Saa var der vel en eller anden rig velynder, som opdaged ham.</p>
+</sp>
+<sp>
+<speaker>Gerhardt</speaker>
+<p>Nei, Jonathan har aldrig havt velyndere. Det ligger ikke for ham. Al slags &#x00AB;protektion&#x00BB; har i al fald hidtil v&#x00E6;ret ham en gru. Han g&#x00F8;r alt paa sin egen maade, maa arbeide &#x00AB;uden forbindtlighed&#x00BB;, som han kalder det. D. v. s., han fik <emph>l&#x00E6;re</emph> frit, kunstnerne interesserte sig for ham. Hans egen kunst har saa at sige baaret ham frem.</p>
+</sp>
+<sp>
+<speaker>Habel</speaker>
+<p>Det er meget interessant. Jonathan? er det hans efternavn?</p>
+</sp>
+<sp>
+<speaker><pb n="153"/>Gerhardt</speaker>
+<p>N&#x00E6;rmest hans fornavn. Han kaldtes saa af alle den gang. Senere har han antaget det.</p>
+</sp>
+<sp>
+<speaker>Habel</speaker>
+<p>God klang i det navn, og bedre vil den bli. Den d&#x00E8;r, <stage>(peger paa statuen)</stage> det er et genis lykkebarn og mere end et symbol &#x2026; det er en guddommelig id&#x00E9;, virkelig f&#x00F8;dt til verden og legemliggjort. Form og tanke i &#x00E9;n St&#x00F8;bning. <stage>(Noterer i tegnebogen, smiler)</stage> Vel, jeg skriver ned med det samme. Man maa holde paa udtrykkene. <stage>(Ser paa sit ur)</stage> Jeg vilde gerne tr&#x00E6;ffe hr. Jonathan. Men min tid er altfor knap, jeg har allerede forsinket mig.</p>
+</sp>
+<sp>
+<speaker>Gerhardt</speaker>
+<stage>(ser ogsaa paa sit ur)</stage>
+<p>Han maa strax v&#x00E6;re her, efter tiden.</p>
+</sp>
+<sp>
+<speaker>Habel</speaker>
+<p>Jeg t&#x00F8;r ikke vente. T&#x00F8;r jeg bede Dem bringe min hilsen og undskyldning for min <pb n="154"/>dristighed at afd&#x00E6;kke kunstv&#x00E6;rket. Endvidere min hensigt at anmelde.</p>
+</sp>
+<sp>
+<speaker>Gerhardt</speaker>
+<p>Han skal faa al mulig besked, hr. Habel.</p>
+</sp>
+<sp>
+<speaker>Habel</speaker>
+<stage>(tar sin hat)</stage>
+<p>Jeg takker Dem. Farvel, hr. Gerhardt. Farvel! <stage>(S&#x00F8;ger d&#x00F8;ren.)</stage>
+</p>
+</sp>
+<sp>
+<speaker>Gerhardt</speaker>
+<p>Farvel! Nei, udgangen, den er her.</p>
+<stage>(F&#x00F8;lger ham ud til h&#x00F8;ire. Kommer tilbage, ordner lidt i atelieret, blader i nogen plancher, t&#x00E6;nder en cigar og s&#x00E6;tter sig til at studere dem, mens han venter.)</stage>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<stage>(om lidt, fulgt af Kykliky)</stage>
+<p>Ah, goddag. Er du her.</p>
+</sp>
+<sp>
+<speaker><pb n="155"/>Gerhardt</speaker>
+<p>Ja. Og Habel har v&#x00E6;ret her.</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>Jeg traf ham lige udenfor. Han var n&#x00E6;sten ikke til at komme fra. Han vil skrive om mig. Distingveret, forresten.</p>
+</sp>
+<sp>
+<speaker>Gerhardt</speaker>
+<p>Ja vel. Du er tryg i hans h&#x00E6;nder. Apropos! Gaar du med hen til D&#x00F8;cker lidt? Du husker, vi lovte ham det.</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>Ja, men sid og drik et glas vin f&#x00F8;rst. Det er saa velgj&#x00F8;rende at v&#x00E6;re et &#x00F8;ieblik i ro. <stage>(Stryger sig over &#x00F8;inene)</stage> Naar verden er med en, har det ogsaa sine sider. Jeg gidder ikke bestilt noget om dagen. Naa, &#x2013; Kykliky! Hvad staar du der efter? Sa jeg ikke, du skulde gaa og l&#x00E6;gge dig?</p>
+</sp>
+<sp>
+<speaker><pb n="156"/>Gutten</speaker>
+<p>Jo. Skal jeg kl&#x00E6; af mig, da?</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>Han har fork&#x00F8;let sig, knegten, han har feber. Kl&#x00E6; af dig? Nei, l&#x00E6;g dig hen paa l&#x00F8;ib&#x00E6;nken der i hj&#x00F8;rnet. Se her er et teppe. <stage>(Kaster det til ham)</stage> Nu skal du faa noget i en ske. Og se saa til, du kan faa sove en stund.</p>
+</sp>
+<stage>(Gutten gaar bort i hj&#x00F8;rnet til venstre og l&#x00E6;gger sig.)</stage>
+<sp>
+<speaker>Jonathan</speaker>
+<stage>(s&#x00E6;tter en flaske og glass p&#x00E5; bordet)</stage>
+<p>Her er god gammel Oporto; sygevin saa godt som. Han skal faa den i ske, saa tror han det er medicin, og det hj&#x00E6;lper strax. Indbildning, ved du. Smag paa den, Gerhardt, den er ikke ilde. Skaal! <stage>(De drikker, Jonathan helder i en ske, gaar bort og gir gutten, drager teppet om ham. Tilbage.)</stage></p>
+</sp>
+<sp>
+<p>Gerhardt<note type="footnote">Gerhardt] <hi rend="italic">rettet fra:</hi> Grehardt <hi rend="italic">(trykkfeil)</hi></note></p>
+<p>Har du ta't den lille fyren til dig, du? For alvor?</p>
+</sp>
+<sp>
+<speaker><pb n="157"/>Jonathan</speaker>
+<p>Ja, ser du &#x2026; han er mig til stor nytte, med &#x00E6;rinder og sligt. Og sandt at sige, jeg har vist ikke let for at slippe ham. En voxer sig sammen, det er den hellige vane. Han var helt forkommen, da jeg traf ham f&#x00F8;rste gang, &#x2013; lig mig selv i gamle dage. Har en gaat d&#x00E9;t igennem, saa.</p>
+</sp>
+<sp>
+<speaker>Gerhardt</speaker>
+<p>Ja vel. Og hvordan staar det sig ellers?</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>Jo. End du?</p>
+</sp>
+<sp>
+<speaker>Gerhardt</speaker>
+<p>Naa, &#x2013; travlt. Det er en evig tr&#x00E6;dem&#x00F8;lle, det journalistliv. &#x2013; Og du lever i glans og herlighed? Hvordan gaar det med &#x00AB;udviklingen&#x00BB;?</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>Jo, saa at sige. Eller &#x2026; skal jeg gi en n&#x00E6;rmere kommentar til min tilstand, <pb n="158"/>saa vil jeg sige, at jeg befinder mig n&#x00E6;rmest lig den mand Tannh&#x00E4;user, der han var kommen ind i Venusbjerget. Jeg er kanske ikke kommen l&#x00E6;nger end til forgaarden, men selv den er ganske vist attraav&#x00E6;rdig nok. Forresten, det rene vellevnet. <stage>(Han drikker, blir siddende og se ud for sig.)</stage></p>
+</sp>
+<sp>
+<speaker>Gerhardt</speaker>
+<p>Skaal, du lykkens s&#x00F8;n! Herren skal vide, jeg under dig inderlig dit held baade i kunst og i k&#x00E6;rlighed.</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>Ja vist. Det slemme er, en blir bl&#x00F8;dagtig. Er jeg ikke blit fed, synes du?</p>
+</sp>
+<sp>
+<speaker>Gerhardt</speaker>
+<stage>(ryster paa hodet, ler.)</stage>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>Jo. En steges i solskin, blir indolent. Jeg tror, herren forsyne mig, jeg ikke kan <pb n="159"/>udrette noget ordentlig, uden jeg har et halvt snes kreditorer sl&#x00E6;ngende i h&#x00E6;lene paa mig; &#x2013; i al fald sulter lidt og fryser lidt og bor i 5te etage og ser fremtiden akavet. Jeg faar ikke gjort det bitterste gran om dagen.</p>
+</sp>
+<sp>
+<speaker>Gerhardt</speaker>
+<p>Naa, herregud! det er da rimeligt. En forlovet mand!</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>Ja, trolovet &#x2026; med selve dronningen derinde i Venusbjerget. Skaal for hende! Hun beruser &#x2026;</p>
+</sp>
+<sp>
+<speaker>Gerhardt</speaker>
+<p>Og varmer &#x2026;</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<stage>(reiser sig hurtig)</stage>
+<p>Er det ikke koldt her? <stage>(gaar omkring)</stage> Jeg undres &#x2026; for gutten.</p>
+</sp>
+<sp>
+<speaker><pb n="160"/>Gerhardt</speaker>
+<p>Jeg synes ikke det.</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>Men det m&#x00F8;rkner. Jeg skal t&#x00E6;nde lys. Se denne &#x2026; et kunstv&#x00E6;rk af en lampe. <stage>(Han t&#x00E6;nder en liden &#x00AB;maaneskinslampe&#x00BB;, den har <emph>r&#x00F8;dt</emph> sk&#x00E6;r)</stage> De har pyntet for mig her, ser du. De s&#x00E6;tter ind saa mange slags ting. Det er slet ikke aldeles &#x00E6;gte kunst altsammen. Men herregud! det forstaar de sig ikke paa. Forresten forstyrrer det mig lidt. Ellinor &#x2026; hun er her undertiden &#x2026; da t&#x00E6;nder vi <emph>den</emph> lampe; den har et &#x2013; om jeg saa maa sige &#x2013; elskovsgl&#x00F8;dende sk&#x00E6;r.</p>
+</sp>
+<sp>
+<speaker>Gerhardt</speaker>
+<p>Jeg forstaar.</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>Hm. <stage>(Gaar omkring)</stage> Der str&#x00F8;mmer saa mange ting ind paa en hver dag. Og en <pb n="161"/>uro &#x2026; <stage>(tar sig til panden)</stage> Jeg ved ikke, om den er <emph>her</emph> eller udenfor.</p>
+</sp>
+<sp>
+<speaker>Gerhardt</speaker>
+<p>Naa. Det f&#x00F8;lger vel med ber&#x00F8;mmelsen. <stage>(Efter lidt taushed)</stage> Ja, der blev du rigtignok staaende med palmer i h&#x00E6;nderne.</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>Hvor?</p>
+</sp>
+<sp>
+<speaker>Gerhardt</speaker>
+<p>I denne &#x00AB;skandalhistorie&#x00BB;. Is&#x00E6;r da arbeidet viser sig at v&#x00E6;re et mesterv&#x00E6;rk. Det er sandt: Igaar saa jeg hende, den anden part i sagen.</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>Hvem?</p>
+</sp>
+<sp>
+<speaker>Gerhardt</speaker>
+<p>Din model.</p>
+</sp>
+<sp>
+<speaker><pb n="162"/>Jonathan</speaker>
+<stage>(rykker til)</stage>
+<p>Saa du hende? &#x2026; <stage>(efter en pause)</stage> Er hun ude? Hvor saa du hende?</p>
+</sp>
+<sp>
+<speaker>Gerhardt</speaker>
+<p>Det var lige her i n&#x00E6;rheden. Igaar, i m&#x00F8;rkningen. Hun str&#x00F8;g mig forbi.</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>Hvordan &#x2026; saa hun ud?</p>
+</sp>
+<sp>
+<speaker>Gerhardt</speaker>
+<p>M&#x00F8;rkt kl&#x00E6;dt og bleg. Mere saa jeg ikke. Ja, <emph>hun</emph> er da &#x00F8;delagt, forsnakket. Men en faar vel sige, det er hendes egen skyld. <stage>(Etter ny taushed)</stage> Sig mig, skal vi saa gaa?</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<stage>(adspredt)</stage>
+<p>Jo. Ja, lad os det. Gutten? <stage>(ser derhen)</stage> Han sover. Lampen kan br&#x00E6;nde; jeg <pb n="163"/>blir jo ikke l&#x00E6;nge borte. Vil du ha en cigar? <stage>(byr)</stage></p>
+</sp>
+<sp>
+<speaker>Gerhardt</speaker>
+<p>Tak. <stage>(De t&#x00E6;nder cigarerne, Gerhardt vender sig i d&#x00F8;ren)</stage> Vakkert atelier; s&#x00E6;rlig ved dette eiendommelig erotiske sk&#x00E6;r. Lykkelige! jeg misunder dig.</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<stage>(lidt tr&#x00E6;t)</stage>
+<p>Aa, det er ikke altid saa let at vide &#x2026; hvem der er v&#x00E6;rd at misunde.</p>
+</sp>
+<stage>(De gaar.)</stage>
+<stage>Efter en stund h&#x00F8;res et par gange banken paa d&#x00F8;ren. Deretter pirken ved d&#x00F8;rlaasen. D&#x00F8;ren gaar op, og <hi rend="bold">Ellinor L&#x00FC;tzen</hi> kommer ind, fulgt af <hi rend="bold">l&#x00F8;itnant Morell</hi>.</stage>
+<sp>
+<speaker>Ellinor</speaker>
+<stage>(ser sig om)</stage>
+<p>Nei, ingen.</p>
+</sp>
+<sp>
+<speaker><pb n="164"/>Morell</speaker>
+<p>Han maa nylig v&#x00E6;re gaat ud. Her er frisk cigarr&#x00F8;g, og lampen br&#x00E6;nder.</p>
+</sp>
+<sp>
+<speaker>Ellinor</speaker>
+<p>Ja, lampen br&#x00E6;nder. Hyggeligt her? T&#x00E6;nk, hvor heldigt, at jeg havde den lille partoutn&#x00F8;gle.</p>
+</sp>
+<sp>
+<speaker>Morell</speaker>
+<p>N&#x00F8;glen ja. Har han givet Dem den?</p>
+</sp>
+<sp>
+<speaker>Ellinor</speaker>
+<p>For n&#x00F8;dstilf&#x00E6;ldes skyld. Jeg tog den engang. Jeg kommer og gaar, naar jeg vil.</p>
+</sp>
+<sp>
+<speaker>Morell</speaker>
+<p>Naturligvis. Det er Dem, som hersker her. Det merker man.</p>
+</sp>
+<sp>
+<speaker>Ellinor</speaker>
+<p>Paa hvad?</p>
+</sp>
+<sp>
+<speaker><pb n="165"/>Morell</speaker>
+<p>Naa &#x2026; her er ligesom en atmosf&#x00E6;re af erotik. Den r&#x00F8;de lampen har De givet ham, ikke sandt? <emph>Han</emph> forstaar ikke sligt.</p>
+</sp>
+<sp>
+<speaker>Ellinor</speaker>
+<stage>(gaar omkring, ler og nynner)</stage>
+<p>Deiligt &#x2026; deiligt &#x2026;</p>
+</sp>
+<sp>
+<speaker>Morell</speaker>
+<stage>(ser paa flere ting)</stage>
+<p>Og dette andet. Jo, det er altsammen Dem. De skaber eventyr om Dem &#x2026; De staar altid indhyllet i et erotisk r&#x00F8;dmende flordraperi. Derfor kan jeg n&#x00E6;sten ikke holde ud at v&#x00E6;re her.</p>
+</sp>
+<sp>
+<speaker>Ellinor</speaker>
+<p>Derfor? Hvorfor ikke?</p>
+</sp>
+<sp>
+<speaker>Morell</speaker>
+<p>Jo, alt dette eventyr og al denne deilighed sk&#x00E6;nker De jo en anden. Her i <pb n="166"/>dette selvsamme rum m&#x00F8;der De <emph>ham</emph>. Hvad her kan v&#x00E6;re passeret, t&#x00F8;r jeg ikke t&#x00E6;nke paa.</p>
+</sp>
+<sp>
+<speaker>Ellinor</speaker>
+<stage>(ler)</stage>
+<p>Ja &#x2026; hvad her kan v&#x00E6;re passeret. Er De nysgerrig? Kanske jaloux? Man kan aldrig vide. Kanske vi leger Maupassant her.</p>
+</sp>
+<sp>
+<speaker>Morell</speaker>
+<p>Pin mig ikke.</p>
+</sp>
+<sp>
+<speaker>Ellinor</speaker>
+<p>Hvor har De gjort af Deres vakre mod, hr. l&#x00F8;itnant? Forresten. Han er slet ikke saadan; han er saa l&#x00F8;ierlig. Sky saadan.</p>
+</sp>
+<sp>
+<speaker>Morell</speaker>
+<p>Han er naturligvis en tr&#x00E6;stok.</p>
+</sp>
+<sp>
+<speaker>Ellinor</speaker>
+<p>Nei, <emph>aldeles</emph> ikke. Men han tror saa godt om mig. Ja, han vilde vist helst <pb n="167"/>s&#x00E6;tte mig helt op paa en pidestal: bare se, ikke r&#x00F8;re. Og da faar jeg altid lyst til at pirke ham lidt.</p>
+</sp>
+<sp>
+<speaker>Morell</speaker>
+<p>Saare naturlig.</p>
+</sp>
+<sp>
+<speaker>Ellinor</speaker>
+<p>Men man maa v&#x00E6;re forsigtig. Jeg skal sige Dem, han har nogen egne anskuelser og st&#x00F8;des let. Jeg tror, man kunde skr&#x00E6;mme ham lang vei, saa nerv&#x00F8;s, som han er. Men det vogter jeg mig vel for.</p>
+</sp>
+<sp>
+<speaker>Morell</speaker>
+<p>Det lykkelige menneske! nei, var det mig &#x2026;</p>
+</sp>
+<sp>
+<speaker>Ellinor</speaker>
+<p>Ja, De! Med Dem taler man ret frem.</p>
+</sp>
+<sp>
+<speaker>Morell</speaker>
+<p>Bare leger lidt gemsel somme tider.</p>
+</sp>
+<sp>
+<speaker><pb n="168"/>Ellinor</speaker>
+<stage>(efter et &#x00F8;iebliks taushed)</stage>
+<p>Lege, ja! <stage>(ler)</stage></p>
+</sp>
+<sp>
+<speaker>Morell</speaker>
+<stage>(ler ogsaa)</stage>
+<p>Nei, De er yr, uimodstaaelig &#x2026; den latteren! <stage>(ser vist paa hende)</stage> Lege, ja! Danse paa randen af en afgrund og falde ned paa f&#x00F8;dderne, hvis man falder. Det kan <emph>De</emph>, frk. Ellinor.</p>
+</sp>
+<sp>
+<speaker>Ellinor</speaker>
+<p>Danse? &#x2013; Ja, men helst paa et glat dansegulv, hvor en kender jorden under sig.</p>
+</sp>
+<sp>
+<speaker>Morell</speaker>
+<p>Saa bortf&#x00F8;rte jeg Dem i en vals!</p>
+</sp>
+<sp>
+<speaker>Ellinor</speaker>
+<stage>(ler)</stage>
+<p>Hvorhen, om jeg maa sp&#x00F8;rge.</p>
+</sp>
+<sp>
+<speaker><pb n="169"/>Morell</speaker>
+<p>Ud! til st&#x00F8;rre forhold! Det er dem, De er skabt for. Sk&#x00F8;nt De aner det ikke selv &#x2026; aa, De ved ikke, hvad det er at leve!</p>
+</sp>
+<sp>
+<speaker>Ellinor</speaker>
+<p>Aa jo, hr. Morell. Jeg er ikke r&#x00E6;d af mig, jeg. <stage>(Ser ham fast i &#x00F8;inene)</stage> Jeg ser verden, som den er.</p>
+</sp>
+<sp>
+<speaker>Morell</speaker>
+<p>Og gaar hen og binder Dem til en blind idealist.</p>
+</sp>
+<sp>
+<speaker>Ellinor</speaker>
+<p>Ja, men han blir en ber&#x00F8;mt mand <stage>(ler)</stage> og jeg hans hustru &#x2013; hans stjerne, herskerinde! Ved <emph>hans</emph> side &#x2013; sk&#x00F8;nner De ikke det, <stage>(med en haandbev&#x00E6;gelse)</stage> ligger verden for min fod! <emph>Han</emph> allerf&#x00F8;rst naturligvis. Og kommer der en tid, da han ikke g&#x00F8;r det &#x2026; <stage>(stanser.)</stage></p>
+</sp>
+<sp>
+<speaker><pb n="170"/>Morell</speaker>
+<p>Hvad saa?</p>
+</sp>
+<sp>
+<speaker>Ellinor</speaker>
+<p>Saa la ham dyrke sin kunst og sine idealer, jeg gir ham carte blanche, paa &#x00E9;n betingelse.</p>
+</sp>
+<sp>
+<speaker>Morell</speaker>
+<p>Hvilken?</p>
+</sp>
+<sp>
+<speaker>Ellinor</speaker>
+<p>Naturligvis at han gir mig det samme.</p>
+</sp>
+<sp>
+<speaker>Morell</speaker>
+<stage>(ler)</stage>
+<p>Ja, frk. Ellinor. Livet, ser De &#x2013; det er som et stort table d'h&#x00F4;te for de udvalgte. Det er bare at ta for sig af retterne.</p>
+</sp>
+<sp>
+<speaker>Ellinor</speaker>
+<stage>(med et suk)</stage>
+<p>Men saa langt er vi ikke komne endnu.</p>
+</sp>
+<sp>
+<speaker><pb n="171"/>Morell</speaker>
+<p>Ikke? <stage>(Pause.)</stage></p>
+</sp>
+<sp>
+<speaker>Ellinor</speaker>
+<p>Nei, hvad skal vi g&#x00F8;re nu? Han kommer vist ikke. Skal vi gaa?</p>
+</sp>
+<sp>
+<speaker>Morell</speaker>
+<p>Nei, lad os vente. Her er saa lunt herinde. Synes De ikke egentlig, her er varmt? De b&#x00F8;r ta kaaben af. Faar jeg lov at hj&#x00E6;lpe Dem? <stage>(Han hj&#x00E6;lper hende med kaaben, lidt dv&#x00E6;lende. Siger d&#x00E6;mpet)</stage> Ja. Saadan pleier de at g&#x00F8;re.</p>
+</sp>
+<sp>
+<speaker>Ellinor</speaker>
+<p>Hvem?</p>
+</sp>
+<sp>
+<speaker>Morell</speaker>
+<stage>(ser vist paa hende)</stage>
+<p>De, som m&#x00F8;des &#x2026; til bestemt klokkeslet, naar blodet br&#x00E6;nder. Aa, De er vidunderlig <pb n="172"/>i den kjolen! Frk. Ellinor, ved De &#x2026; kender De Deres egne kr&#x00E6;fter?</p>
+</sp>
+<sp>
+<speaker>Ellinor</speaker>
+<stage>(med et m&#x00F8;dende blik)</stage>
+<p>Nei &#x2026; <emph>de</emph> sover vist.</p>
+</sp>
+<sp>
+<speaker>Morell</speaker>
+<p>Vidunderlig er De! Der str&#x00F8;mmer imod mig fra Deres personlighed ligesom en m&#x00E6;gtig d&#x00F8;vende kraft &#x2026;</p>
+</sp>
+<sp>
+<speaker>Ellinor</speaker>
+<p>D&#x00E9;t ved jeg ikke! Men fort&#x00E6;l &#x2026; aa, fort&#x00E6;l mig noget, hvad De vist har oplevet! Underlige eventyr, ikke sandt? Fra de store forhold derude. <stage>(Naiv)</stage> Jeg ved jo ingenting, <stage>(ler)</stage> nei, slet ikke. Jonathan fort&#x00E6;ller mig aldrig noget saadant. Det er saa morsomt. Sig &#x2026; hvad g&#x00F8;r han saa?</p>
+</sp>
+<sp>
+<speaker>Morell</speaker>
+<p>Hvem?</p>
+</sp>
+<sp>
+<speaker><pb n="173"/>Ellinor</speaker>
+<p>Jeg mener: disse to, som m&#x00F8;des.</p>
+</sp>
+<sp>
+<speaker>Morell</speaker>
+<p>Hvad han g&#x00F8;r? Jo &#x2026; paa et sted, hvor de to er alene, i sk&#x00F8;nne omgivelser, som her &#x2026; der hj&#x00E6;lper han hende kaaben af, han f&#x00F8;ler den varme berusning fra hendes legeme &#x2026; Han kn&#x00E6;ler for hende, <stage>(kn&#x00E6;ler)</stage> han kysser s&#x00F8;mmen af hendes kjole <stage>(g&#x00F8;r det.)</stage>
+</p>
+</sp>
+<sp>
+<speaker>Ellinor</speaker>
+<stage>(ler)</stage>
+<p>Er De gal! staa op? &#x2013; Og saa? hvad saa videre?</p>
+</sp>
+<sp>
+<speaker>Morell</speaker>
+<p>Jo, han staar op, og han staar d&#x00E9;r foran hende. Blik i blik staar de og aner hinandens hjerteslag &#x2026; til de ikke <emph>kan</emph> mere &#x2026; Og han kaster sig over hende og kysser hende &#x2026; paa halsen. Og er <pb n="174"/>hun <emph>naadig</emph>, da faar han lov at r&#x00F8;re hende, kl&#x00E6; af hende &#x2026; lidt efter lidt &#x2026;</p>
+<stage>(Han omfavner hende med &#x00E9;t voldsomt og kysser hende paa halsen.)</stage>
+</sp>
+<stage>De er under den sidste scene uden at vide det komne til at staa lige i n&#x00E6;rheden af statuen. Da hun drager sig noget tilbage, t&#x00F8;rner de, omslyngede, st&#x00E6;rkt imod den. Statuen styrter mod gulvet og knuses med et brag i mange stykker.</stage>
+<sp>
+<speaker>Morell og Ellinor</speaker>
+<stage>(slipper hinanden, staar blege, forstenede. Pause.)</stage>
+</sp>
+<sp>
+<speaker>Ellinor</speaker>
+<stage>(med &#x00E9;t, peger hen i hj&#x00F8;rnet til venstre)</stage>
+<p>Aa, Gud! Se! se der!</p>
+</sp>
+<sp>
+<speaker>Morell</speaker>
+<p>Hvad? Hvor?</p>
+</sp>
+<sp>
+<speaker>Ellinor</speaker>
+<p>Der i hj&#x00F8;rnet. Gutten.</p>
+</sp>
+<sp>
+<speaker><pb n="175"/>Kykliky</speaker>
+<stage>(sidder halvt opreist mellem sine tepper, stirrer paa de to, forf&#x00E6;rdet og bleg, med store &#x00F8;ine.)</stage>
+</sp>
+<sp>
+<speaker>Morell</speaker>
+<p>Ah! &#x2026; <stage>(Staar et &#x00F8;ieblik, gaar derefter hurtig hen til sofaen, tar med et tag gutten og l&#x00F8;fter ham frem paa gulvet. D&#x00E6;mpet)</stage></p>
+<p>H&#x00F8;r nu, du &#x2026; Du skal faa penge, mange penge, hundrede kroner skal du faa, hvis du vil sige til Jonathan, naar han kommer, at det er <emph>dig</emph>, som har gjort det. <stage>(Gutten, endnu fortumlet, ser paa ham, svarer ikke)</stage> H&#x00F8;rer du, gut! Din dj&#x00E6;vels unge, kan du ikke svare. <stage>(Stamper i gulvet)</stage> To hundrede kroner skal du faa, jeg s&#x00F8;rger for dig hele din levetid. Men tag skylden. <stage>(Med fors&#x00F8;g at tale rolig og mildt.)</stage> Han blir jo ikke vond paa <emph>dig</emph> da, sk&#x00F8;nner du, gut!</p>
+</sp>
+<sp>
+<speaker>Gutten</speaker>
+<stage>(stikker i at gr&#x00E6;de)</stage>
+<p>Ja, men det <emph>var</emph> jo ikke mig.</p>
+</sp>
+<sp>
+<speaker><pb n="176"/>Morell</speaker>
+<stage>(ryster ham i armen)</stage>
+<p>Sig, at det var dig. H&#x00F8;rer du! Eller sig ingenting. Jeg g&#x00F8;r dig noget ondt &#x2026; jeg myrder dig, gut &#x2026; imorgen, en dag, du skal aldrig faa gaa i fred, v&#x00E6;re r&#x00E6;d bestandig &#x2026; hvis du r&#x00F8;ber os.</p>
+</sp>
+<sp>
+<speaker>Ellinor</speaker>
+<stage>(lytter)</stage>
+<p>Hys! Jeg synes, at jeg h&#x00F8;rer &#x2026; Der kommer nogen op ad trappen <stage>(peger)</stage> opgangen fra gaarden. Det er ham. Vi t&#x00F8;r ikke vente &#x2026; Gud! skynd Dem, Morell! <stage>(til gutten)</stage> Kykliky, du skal faa markedssukkert&#x00F8;i, store poser &#x2026; alle de godter, som er til, bare du vil tie! &#x2026; Skynd Dem, kom! <stage>(De to gaar ud til h&#x00F8;ire. Gutten har stanset graaden, staar og stirrer efter dem et &#x00F8;ieblik, gaar bort og s&#x00E6;tter sig paa l&#x00F8;ib&#x00E6;nken.)</stage></p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<stage>(kommer ind den anden opgang; han opdager &#x00F8;del&#x00E6;ggelsen. Blir staaende stum og forstenet. Tar sig til panden)</stage>
+<p>Hvad er d&#x00E9;t? Hvad i evigheds <pb n="177"/>navn er <emph>det</emph>! <stage>(Han ser sig om, opdager gutten, tar ham i armen og drager ham frem paa gulvet. Gutten er bleg og ryster i feber.)</stage> Er det dig, som har gjort det? Sig det nu. Sig det, gut.</p>
+</sp>
+<sp>
+<speaker>Gutten</speaker>
+<stage>(ser op paa ham)</stage>
+<p>Det er ikke mig.</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>Er det ikke dig? Sig sandheden, gut! <emph>Hvem</emph> er det? Har der v&#x00E6;ret nogen her <stage>(ser sig om, ligesom veirer)</stage> Ja vel har her v&#x00E6;ret nogen. Her er en lugt af noget fremmed og en svag parfume <stage>(ryster ham i armen, ude af sig selv)</stage> Ud med det, h&#x00F8;rer du! Hvem har v&#x00E6;ret her?</p>
+</sp>
+<sp>
+<speaker>Gutten</speaker>
+<stage>(hvid af angst)</stage>
+<p>De sa &#x2026; jeg skulde ikke sige det. De vil dr&#x00E6;be mig, imorgen, &#x2013; manden, han sa det &#x2026;</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p><emph>De</emph>? Der var altsaa <emph>to</emph>? Var det to? En mand og en &#x2013; kvinde. Svar!</p>
+</sp>
+<sp>
+<speaker><pb n="178"/>Gutten</speaker>
+<p>Ja. <stage>(Han falder pludselig om paa gulvet.)</stage></p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>Se saa! Der daaner han af. Nei, fan! f&#x00F8;rst <emph>ham</emph> nu! <stage>(Han henter en karaffel vand og et haandkl&#x00E6;de, v&#x00E6;der hans pande. Gutten r&#x00F8;rer sig om lidt, l&#x00F8;fter hodet, falder tilbage igen og lukker &#x00F8;inene. Bl&#x00F8;dt)</stage> Din lille stakkar. Saa. Du skal slippe at tale. Sov nu bare. Saa. Jeg tror ikke, det er dig, gutten min. <stage>(Han tar ham i sine arme og b&#x00E6;rer ham bort til l&#x00F8;ib&#x00E6;nken. Breder tepperne over ham.)</stage> Saa. Saa. <stage>(Gaar sagte fra ham og blir staaende foran den s&#x00F8;nderslaaede statue. Om lidt, stille, afbrudt, intenst grundende)</stage> To. En mand og en kvinde. Kan bare v&#x00E6;re &#x00E9;n. Og hj&#x00E6;lpere har hun. Forlod jeg hende ikke &#x2026; syg, fattig &#x2026; Jeg udstilled hende for den hele by. Hun hader mig; hevner sig. Ja, <emph>nu</emph> har du hevnet dig, &#x2013; Sonja!</p>
+<stage>(Blir staaende foran statuen.)</stage>
+</sp>
+<lb/><stage>Teppet falder.</stage>
+</div>
+<div type="chapter" subtype="act" n="5">
+<head type="main">AKT V</head>
+<stage><pb n="181"/>Atelieret, som i 4de akt. <hi rend="bold">Jonathan</hi> sidder ved et bord og skriver. En pige venter.</stage>
+<sp>
+<speaker>Jonathan</speaker>
+<stage>(reiser sig om lidt, l&#x00E6;gger papiret i konvolut og forsegler. Til pigen)</stage>
+<p>Se her. Vil De gi fr&#x00F8;kenen dette. Hils hende saa, at det er mig ganske umulig at komme iaften. Barnet har v&#x00E6;ret inde i d&#x00F8;den de tre sidste dage. Nu sover han derinde &#x2026; for f&#x00F8;rste gang en naturlig s&#x00F8;vn, og jeg venter paa udfaldet.</p>
+</sp>
+<sp>
+<speaker>Pigen</speaker>
+<p>Ja, da saa. Jo, jeg skal hilse &#x2026;</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>Ja vel. Men kanske hun vil komme herhen? Nu i eftermiddag, f&#x00F8;r hun tar paa bal?</p>
+</sp>
+<sp>
+<speaker><pb n="182"/>Pigen</speaker>
+<p>Aa j&#x00F8;ss, nei da Fr&#x00F8;knen er saa <emph>nerv&#x00F8;s</emph> idag, og hun har siddet friss&#x00E9;rt lige siden klokken 3. Det er fint bal hos kammerherrens naa, hoffet er i byen, skal Dem vide. Og saa skal en jo kl&#x00E6; sig, og det tar mindst to timer.</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>Det var fan. Ja, jeg sk&#x00F8;nner mig ikke paa den slags. Der er brevet, altsaa.</p>
+</sp>
+<sp>
+<speaker>Pigen</speaker>
+<p>De kan ikke f&#x00F8;lge heller da, skal jeg sige?</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>Jeg har skrevet det d&#x00E8;r. Men hun faar vel f&#x00F8;lge med en af de andre.</p>
+</sp>
+<sp>
+<speaker>Pigen</speaker>
+<p>Jo, baade l&#x00F8;itnanten og arkitekten kommer vist indom. Dem var her i formiddag. Dem snakked rigtig om Dere, hr. Jonathan.</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>Saa.</p>
+</sp>
+<sp>
+<speaker><pb n="183"/>Pigen</speaker>
+<p>Ja. For naa gaar det rundt i byen om den sortkl&#x00E6;dte damen, den modellen, som lurte sig herop og slog istykker statyen. Ja, Dere skal jo ha sagt det selv. Aa j&#x00F8;ss, sligt syn. Naar jeg var som Dere, saa vilde jeg da ha det v&#x00E6;k.</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<stage>(adspredt)</stage>
+<p>Hvad vilde De ha v&#x00E6;k?</p>
+</sp>
+<sp>
+<speaker>Pigen</speaker>
+<p>De stykkerne der. Nei, saa skammeligt menneske. Jamen maa det v&#x00E6;re s&#x00F8;rgeligt for Dere at se paa, hr. Jonathan. Jeg skulde naa gerne hj&#x00E6;lpe Dere, jeg &#x2026;</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<stage>(kort)</stage>
+<p>Nei, de stykkerne skal ligge. <stage>(Gaar omkring.)</stage> Hm. Taler man om en dame. Har <emph>jeg</emph> sagt det? Der er vist ikke noget med en dame. Hvorfor skulde hun ha gjort det. Gaa hjem <pb n="184"/>og sig &#x2026; nei, sig ingenting. Hm. Hvad kjole skal fr&#x00F8;kenen ha paa iaften, Marie?</p>
+</sp>
+<sp>
+<speaker>Pigen</speaker>
+<p>Ja, Gud, <emph>den</emph> er kommen fra etablissementet naa netop. Hvid brocheret silke med guldbroderi og kniplinger. Men jeg staar her og glemmer mig. Fr&#x00F8;kenen sa, jeg skulde v&#x00E6;re tilbage strax, for hun skulde pr&#x00F8;ve.</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>Ja, saa faar De hilse. Farvel.</p>
+</sp>
+<sp>
+<speaker>Pigen</speaker>
+<p>Adj&#x00F8;, hr. Jonathan.</p>
+<stage>(Hun gaar.)</stage>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<stage>(gaar omkring stundesl&#x00F8;s, stanser foran de s&#x00F8;nderslaaede stykker)</stage>
+<p>Har jeg virkelig sagt det? Kan jeg ikke ta vare paa min mund. <stage>(h&#x00E6;ver armene)</stage> At <pb n="185"/>hun kunde g&#x00F8;re det! At hun <emph>kunde</emph> g&#x00F8;re det! En uge &#x2026; det gaar i &#x00E9;t, dag og nat. <stage>(Ser paa klokken)</stage> Halv 5 bare. Kjoler og kniplinger &#x2026; baller &#x2026; Knust marmor &#x2026; folkesnak, kvindehevn; d&#x00F8;dsfare &#x2026; og ikke s&#x00F8;vn paa tre n&#x00E6;tter og dage. Det blir snart for meget.</p>
+<stage>Han l&#x00E6;gger sig ned paa l&#x00F8;ib&#x00E6;nken og falder i en let s&#x00F8;vn. Musiken intonerer en sagte og blid melodi, som antyder, at han dr&#x00F8;mmer.</stage>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<stage>(reiser sig, musiken tier)</stage>
+<p>Jeg dr&#x00F8;mte &#x2026; Saa jeg et alter? Et alter ude i naturen. <stage>(Ser hen mod statuen)</stage> Og <emph>den</emph> var hel igen. Sk&#x00F8;nnere, saa som jeg bare har bygget den i dr&#x00F8;mme, sv&#x00E6;vende &#x2026; rakte den os sin kalk; der var musik &#x2013; og foran alteret kn&#x00E6;lte to mennesker, og den ene, kvinden, hun var saa lig &#x2013; ja, saa lig &#x2013;</p>
+<p><stage>(Det banker paa indgangsd&#x00F8;ren til h&#x00F8;ire. Han lytter, det banker igen. Han gaar langsomt hen og aabner d&#x00F8;ren. Med d&#x00E6;mpet udraab)</stage> Sonja!</p>
+</sp>
+<sp>
+<speaker><pb n="186"/>Agnes</speaker>
+<stage>(staar i d&#x00F8;ren, ser alvorlig paa ham, gaar forbi ham ind i atelieret, blir staaende foran den knuste statue. Uvilkaarlig)</stage>
+<p>Aa &#x2026; hvad de har &#x00F8;delagt for dig!</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<stage>(efter hende)</stage>
+<p>Trampet paa mit livsv&#x00E6;rk, Sonja. D&#x00E9;t kunde du g&#x00F8;re.</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<p>Jeg! &#x2026; Ja, jeg ved, de siger det. <stage>(Sagtere)</stage> <emph>De</emph> har sagt det. Men nu maatte jeg, jeg <emph>maatte</emph>. Jeg saa Dem for mig mat, saa gl&#x00E6;del&#x00F8;s &#x2026; Jeg syntes, Deres haar var blevet ganske graat.</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<stage>(nikker)</stage>
+<p>Aa ja &#x2026; Det er saa menneskeligt. Og ganske uden samvittighed er De vel ikke. Naar ens hevn er tilfredsstillet, h&#x00E6;nder det stundom, at man ynkes over sit offer.</p>
+</sp>
+<sp>
+<speaker><pb n="187"/>Agnes</speaker>
+<stage>(gentar)</stage>
+<p>Hevn. Jeg skulde gjort det af hevn.</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<stage>(ser granskende, iagttagende paa hende. Om lidt)</stage>
+<p>Sonja &#x2026; Agnes Reinhart, er det ikke saa &#x2026; Hm. Havde jeg glemt det: hvor De er besynderlig lig Dem selv og ulig alle andre, der De staar &#x2026; Men sig mig, svar mig: Er det ikke saa, at en kvindes k&#x00E6;rlighed, den gaar let over til had? Saa er sagt mig.</p>
+</sp>
+<stage><hi rend="bold">Agnes</hi> ser paa ham og tier.</stage>
+<sp>
+<speaker>Jonathan</speaker>
+<stage>(blir ved)</stage>
+<p>Jeg d&#x00F8;mmer ikke &#x2026; nei, jeg havde jo gjort dig saa meget ondt. Hvorfor s&#x00E9;r du, saa det gaar en i sj&#x00E6;len? <stage>(staar stille)</stage> Barn, hvad skal jeg tro? Er der ikke som en <emph>gl&#x00E6;de</emph> gemt der bag dit blik, dybt inde. Eller &#x2026; eller kom du som den skyldige, den, som hemmelig drages og kredser om <pb n="188"/>det sted, hvor han har begaat en forbrydeise? Deres &#x00F8;ine &#x2026; de hverken benegter eller bekender. For stolte til begge dele.</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<p>Jonathan! <stage>(Pause.)</stage></p>
+<stage>Der h&#x00F8;res en sagte larm i rammet indenfor. Hun lytter</stage>
+<p>Hys! Hvad er det?</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<stage>(ogsaa lyttende)</stage>
+<p>Det er barnet. Han vaagner.</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<p>Gutten? Er han syg?</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>Nei, nu blir han frisk.</p>
+<stage>Han gaar ind i alkoven, kommer om lidt ud derfra med gutten indhyllet i tepper. Tr&#x00E6;kker en chaiselongue lidt frem og placerer ham i den.</stage>
+</sp>
+<sp>
+<speaker><pb n="189"/>Gutten</speaker>
+<stage>(r&#x00F8;d i kinderne, ser ud, som han har sovet. Ser sig om. Med klar stemme)</stage>
+<p>Er de ikke her?</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<stage>(ser fra gutten til Agnes, sp&#x00E6;ndt)</stage>
+<p>Hvem mener du?</p>
+</sp>
+<sp>
+<speaker>Gutten</speaker>
+<stage>(ler)</stage>
+<p>Er det bare dig? og <emph>du</emph>, Sonja.</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<stage>(nikker, smiler til ham)</stage>
+<p>Ja.</p>
+</sp>
+<sp>
+<speaker>Gutten</speaker>
+<p>Jeg er ikke bange. Han kan ikke g&#x00F8;re mig noget, naar dere er her.</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>Hvem &#x2013; kan ikke g&#x00F8;re dig noget.</p>
+</sp>
+<sp>
+<speaker>Gutten</speaker>
+<p>Den slemme manden. Jeg er ikke bange nu mere. Jeg er sulten.</p>
+</sp>
+<sp>
+<speaker><pb n="190"/>Jonathan</speaker>
+<p>Det havde jeg glemt. Han skal ha varm melk, naar han vaagner, sa doktoren.</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<p>Jeg skal g&#x00F8;re det istand. Jeg ved nok, hvor det staar &#x2026; <stage>(nikker)</stage> Ja, hvis det er som f&#x00F8;r, altsammen.</p>
+<stage>Hun gaar hen i baggrunden, t&#x00E6;nder paa et apparat og begynder at sysle, mens hun samtidig f&#x00F8;lger de to.</stage>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<stage>(til gutten)</stage>
+<p>Barn, ingen skal g&#x00F8;re dig noget. Men sig mig nu, Kykliky &#x2026;</p>
+</sp>
+<sp>
+<speaker>Gutten</speaker>
+<p>Kommer de ikke igen?</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>Nei, de kommer vist ikke igen.</p>
+</sp>
+<sp>
+<speaker>Gutten</speaker>
+<stage>(prater)</stage>
+<p>Er du ikke bedr&#x00F8;vet?</p>
+</sp>
+<sp>
+<speaker><pb n="191"/>Jonathan</speaker>
+<p>Hvorfor?</p>
+</sp>
+<sp>
+<speaker>Gutten</speaker>
+<p>Fordi statuen gik istykker.</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>Jo. Men hvem gjorde det, kan du sige mig det? Hvem var det, som var her? Kendte du dem?</p>
+</sp>
+<sp>
+<speaker>Gutten</speaker>
+<p>Det var jo frk. Ellinor. Hun lo saa h&#x00F8;it &#x2026; og jeg vaagned. Og manden var vist soldat. Han tog af hende kaaben &#x2026; og de holdt armene om hverandre &#x2026; og saa faldt statuen.</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>Ah &#x2026;! &#x2026; <stage>(Han staar l&#x00E6;nge og grubler, med h&#x00E6;nderne for &#x00F8;inene. Agnes har h&#x00F8;rt til og stanset sit arbeide. Jonathan reiser hodet)</stage> Sonja! H&#x00F8;rte du!</p>
+</sp>
+<sp>
+<speaker><pb n="192"/>Agnes</speaker>
+<p>Ja &#x2026;</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>Hun lo <emph>for</emph> h&#x00F8;it &#x2026; Hun tramped paa mit livsv&#x00E6;rk. Hun danser iaften.</p>
+<stage>Han blir staaende og gruble.</stage>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<stage>(kommer med melken. Til gutten)</stage>
+<p>Nu er den god og varm. Nu maa du drikke.</p>
+<stage>Hun holder koppen hen til ham. Han drikker.</stage>
+</sp>
+<sp>
+<speaker>Gutten</speaker>
+<p>Tak. Det var godt. Sonja, skal du v&#x00E6;re her nu?</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<p>Det ved jeg ikke. <stage>Hun steller med ham.</stage></p>
+</sp>
+<sp>
+<speaker>Gutten</speaker>
+<p>Jeg er s&#x00F8;vnig.</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<p>Ja, jeg tror, du b&#x00F8;r sove lidt nu.</p>
+<stage>Hun begynder at skyve chaiselonguen tilbage i hj&#x00F8;rnet.</stage>
+</sp>
+<sp>
+<speaker><pb n="193"/>Jonathan</speaker>
+<stage>(som langt borte fra)</stage>
+<p>Vent, lad mig hj&#x00E6;lpe dig. Hvad siger du, Kykliky? <stage>(Han gaar hen og hj&#x00E6;lper. Ser sig om)</stage> Dere to. Ah &#x2026; jeg ser dere igen, Og alt som f&#x00F8;r. <stage>(Ser sig igen om, smiler)</stage> Nei, ikke alt ganske som f&#x00F8;r &#x2026; Sonja, Agnes Reinhart, De er saa flink og let paa haanden. Vil De hj&#x00E6;lpe mig med noget?</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<p>Med hvad?</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>Jo, se Dem om: Her har stjaalet sig en hel del u&#x00E6;gte sager ind i mit atelier. De er komne der lidt efter lidt, jeg ved ikke hvordan. Der er nydelige ting iblandt &#x2026; kan v&#x00E6;re, men jeg sv&#x00E6;rmer nu ikke for det. Se, rundt paa v&#x00E6;ggene. Kan De rigtig kende Dem igen?</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<stage>(ser sig om)</stage>
+<p>Nei &#x2026; her er blit noget fremmed og forandret siden ivaar &#x2026;</p>
+</sp>
+<sp>
+<speaker><pb n="194"/>Jonathan</speaker>
+<p>Kom, vi rydder v&#x00E6;k. En ordentlig razzia. Se, alt dette nips, sammen med den gamle forvitrede torso der &#x2026; ja, den er &#x00E6;gte, selv om det er en torso. Vi skal snart kende os igen. <stage>(Mens de rydder)</stage> En m&#x00F8;rkningslampe med rosenr&#x00F8;dt, erotisk sk&#x00E6;r. Hm. En kunstig viftepalme &#x2026; ah! d&#x00E8;r ogsaa! Nyeste porcel&#x00E6;n, ikke ganske smagfuldt, men <emph>helt</emph> er det altsammen. Og vi slaar ingenting istykker, Sonja. Men s&#x00E6;tter det altsammen herhen i hj&#x00F8;rnet, hvor d&#x00E9;t ligger, som <emph>er</emph> gaat istykker. <stage>(De rydder.)</stage></p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<stage>(om lidt, ser sig om)</stage>
+<p>Nu tror jeg snart, der ikke er mere.</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>Nei, nu er her deilig tomt &#x2013; eller enkelt &#x2013; de store linjer. Deilig n&#x00F8;gent, om jeg saa maa sige. Vi passer ikke for kunstprodukter, vi, Sonja. Vi urmennesker &#x2013; vildfugle. Men de skal faa alt helt <pb n="195"/>tilbage. Aa &#x2013;. Jeg aander frit igen, jeg vaagner!</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<stage>(staar, stille)</stage>
+<p>Ja, nu er alt som f&#x00F8;r. Som da jeg kom her ind f&#x00F8;rste gang.</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<stage>(nikker)</stage>
+<p>Som da. Bare at <emph>De</emph> er blegere. <stage>(Han staar og iagttar hende)</stage> Hvor De har lidt, Sonja.</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<p>Kanske ikke mere end De.</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<p>Kanske ikke. En ved saa lidet. Der ligger ting og dr&#x00F8;mmer under i ens bevidsthed. Og man lar dem ligge, man tar dem ikke op. <stage>(Efter en taushed, pludselig)</stage> Agnes Reinhart! er De flink til at g&#x00E6;tte gaader?</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<p>Det ved jeg ikke.</p>
+</sp>
+<sp>
+<speaker><pb n="196"/>Jonathan</speaker>
+<p>Kan De sige mig &#x00E9;t: Hvor <emph>var</emph> jeg i al denne tid? Med mit inderste v&#x00E6;sen &#x2026; det, en ikke selv kender?</p>
+</sp>
+<stage><hi rend="bold">Agnes</hi> ser paa ham, taus.</stage>
+<sp>
+<speaker>Jonathan</speaker>
+<p>Du ved det ikke? &#x2013; Barn, jeg ved det nu, og jeg siger: Heller med dig, &#x2013; syg, fattig, &#x2013; i &#x00F8;rken og udl&#x00E6;ndighed, end &#x2026; <stage>(Han stanser i bev&#x00E6;gelse og staar med udbredte arme)</stage> Sonja!</p>
+</sp>
+<sp>
+<speaker>Agnes</speaker>
+<stage>kaster sig i hans arme. Taushed</stage>
+</sp>
+<stage>Der bankes st&#x00E6;rkt paa indgangsd&#x00F8;ren til h&#x00F8;ire. De to faar tid til at fjerne sig, Agnes gaar noget tilside og sees f&#x00F8;rst ikke.</stage>
+<stage><hi rend="bold">Ellinor L&#x00FC;tzen</hi> med en elegant forv&#x00E6;rkskaabe l&#x00F8;st kastet over sin baldragt, kommer hurtig ind. Efter hende <hi rend="bold">l&#x00F8;itnant Morell</hi> i sin uniformskappe, <hi rend="bold">fru L&#x00FC;tzen</hi> og <hi rend="bold">kontorchef Hellesen</hi>.</stage>
+<sp>
+<speaker><pb n="197"/>Ellinor</speaker>
+<stage>(kaster kaaben tilbage og staar i et pragtfuldt, dybt nedringet baltoilette. Siger lidt forceret livlig)</stage>
+<p>Jeg syntes, du maatte se min nye kjole. Skynd dig at se. Vognen venter nede.</p>
+</sp>
+<sp>
+<speaker>Fruen</speaker>
+<p>Ja, vi k&#x00F8;rte opom. Det er synd, De ikke blir med. Er hun nu ikke ualmindelig fix?</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<stage>(bukker meget dybt)</stage>
+<p>Jeg hilser &#x2026; Sk&#x00F8;nhedens dronning!</p>
+</sp>
+<sp>
+<speaker>Fruen</speaker>
+<stage>(opdager i det samme Agnes)</stage>
+<p>Men det er jo &#x2026; Agnes! Du her! <stage>(tr&#x00E6;kker sig lidt tilbage)</stage> Naa! det maa jeg sige.</p>
+</sp>
+<sp>
+<speaker>Ellinor</speaker>
+<p>Gud &#x2026; Agnes! <stage>(Ser sig om)</stage> Holder dere flytning her?</p>
+</sp>
+<sp>
+<speaker><pb n="198"/>Jonathan</speaker>
+<stage>(med lune)</stage>
+<p>Ja, nu flytter vi &#x2026; Vi ryster st&#x00F8;vet af vore f&#x00F8;dder, saa at sige. Til en eller anden &#x00F8;de &#x00F8; &#x2026; hvem ved &#x2026;</p>
+</sp>
+<sp>
+<speaker>Fruen</speaker>
+<stage>(d&#x00E6;mpet, til Hellesen)</stage>
+<p>Jeg tog altsaa ikke feil. De <emph>var</emph> to om skandalen. Han blir kanske n&#x00F8;dt til at gifte sig med hende nu &#x2026;?</p>
+</sp>
+<stage><hi rend="bold">Hellesen</hi> tr&#x00E6;kker paa skuldrene.</stage>
+<sp>
+<speaker>Jonathan</speaker>
+<stage>(paa samme maade)</stage>
+<p>Naa, godt ord igen &#x2026; undre Dem ikke for meget! Mine damer og herrer &#x2013; et alvorsord i sagen skader ikke: Den unge pige der, frk. Agnes Reinhart, hun var nemlig beskyldt for &#x2013; ja, hvad skal man <pb n="199"/>kalde det &#x2013; et slags billedstormeri paa dette selvsamme sted. Og eftersom et gammelt ord siger, at forbryderen &#x2013; eller eventuelle forbrydere &#x2013; altid har en selsom og mystisk dragelse til at kredse om den plet, hvor en hemmelig forbrydelse er begaat, saa &#x2013; nei, men vil De alt gaa &#x2026;</p>
+</sp>
+<sp>
+<speaker>Fruen</speaker>
+<p>Ja, vognen venter. Og saavidt jeg forstaar, g&#x00F8;r al den underlige snak ikke Deres sag bedre. Ellinor, kaaben &#x2026; fork&#x00F8;l dig nu ikke.</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<stage>(til Ellinor)</stage>
+<p>Faar jeg lov at hj&#x00E6;lpe Dem med kaaben? <stage>(Hun lar ham viljel&#x00F8;s hj&#x00E6;lpe sig, alle fire tr&#x00E6;kker sig tilbage mod udgangen)</stage> Farvel, mor Dem nu godt! &#x2026; Ja god forn&#x00F8;ielse paa ballet. <stage>(Han f&#x00F8;lger til d&#x00F8;ren, de gaar, med halve og tause hilsener.)</stage>
+</p>
+</sp>
+<sp>
+<speaker>Jonathan</speaker>
+<stage>(tilbage, lys)</stage>
+<p>Se saa &#x2026; Jeg har lyst til at sige, sk&#x00F8;nt ordet er ikke af mig, jeg har l&#x00E6;st det et <pb n="200"/>sted: Agnes Reinhart! <stage>(r&#x00E6;kker hende naanden med stor gestus)</stage> Haand i haand med dig udfordrer jeg mit aarhundrede!</p>
+<stage>De staar lidt saa. Agnes ser paa ham og smiler.</stage>
+<stage>Han ler</stage>
+<p>Naa ja. Det kan v&#x00E6;re det samme forel&#x00F8;big &#x2013; med alle de andre!</p>
+<stage>Han drager hende til sig.</stage>
+</sp>
+<lb/><stage>Teppet falder.</stage>
+</div>
+</body>
+</text>
+</TEI>

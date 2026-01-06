@@ -1,0 +1,1169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI PUBLIC "-// TEI P5 //EN" "http://www.tei-c.org/release/xml/tei/custom/schema/dtd/tei_all.dtd">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="BS_Lie_SvendBidevind">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>bokselskap.no, Oslo 2020
+<lb/>Bernt Lie: <hi rend="italic">Svend Bidevind</hi>
+<lb/>Teksten i bokselskap.no f&#x00F8;lger 5. oplag, 1911 (Kristiania/Aschehoug). Digitaliseringen er basert p&#x00E5; fil mottatt fra Nasjonalbiblioteket (nb.no)
+<lb/>ISBN: 978-82-8319-522-4 (digital, bokselskap.no), 978-82-8319-523-1 (epub), 978-82-8319-524-8 (mobi)
+</title>
+</titleStmt>
+<publicationStmt>
+<p>Publiseres som digital tekst av bokselskap.no.</p></publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Svend Bidevind</title>
+<author>Bernt Lie</author>
+<publisher>Aschehoug</publisher>
+<pubPlace>Kristiania</pubPlace>
+<date>1911</date>
+<note>Lie_SvendBidevind_digibok_2010110806058.epub (mottatt fra Nasjonalbiblioteket 2014)</note>
+</bibl>
+</sourceDesc>
+</fileDesc>
+<revisionDesc>
+<change who="ENW" when="2020-03-11">Lagt inn ref-koding. Klar for publisering.</change>
+<change who="ENW" when="2020-03-02">Lagt inn korrekturrettelser. Entiteter, kodekontroll og validering. Lagt inn ISBN.</change>
+<change xml:id="ENW" who="ENW" when="2020-01-30">XML-koding. Entiteter, kodekontroll og validering. Klar for korrektur.</change>
+</revisionDesc>
+</teiHeader>
+<text xml:id="BS_Lie_SvendBidevind_tekst" type="collection">
+<front>
+<titlePage type="main">
+<byline><docAuthor>Bernt Lie</docAuthor></byline>
+<docTitle>
+<titlePart type="main">Svend Bidevind</titlePart>
+<titlePart type="sub">Skolehistorier</titlePart>
+</docTitle>
+<docDate>bokselskap.no<lb/>Oslo 2020</docDate>
+</titlePage>
+<div xml:id="contents">
+<list type="contents_main">
+<item><ref target="chapter_1" xml:id="contents_1">Svend Bidevind</ref></item>
+<item><ref target="chapter_2" xml:id="contents_2">Fusk!</ref></item>
+<item><ref target="chapter_3" xml:id="contents_3">Slagsmaal</ref></item>
+<item><ref target="chapter_4" xml:id="contents_4">Eksamen</ref></item>
+</list>
+</div>
+</front>
+<body>
+<div type="chapter" n="1">
+<head type="main"><ref type="contents" target="contents_1" xml:id="chapter_1">Svend Bidevind</ref></head>
+<p>Omtrent i midt klassen sat Svend Bidevind. Fra maaned til anden, naar hovedkarakterene regnedes ut, og nummer gaves derefter, flyttet han kanske en plads op eller en plads ned, &#x2013; i midten omtrent blev det.</p>
+<p>Han kom ind paa skolen i 3dje middel, og noget s&#x00E6;rlig rart var der ikke ved ham, uten at han talte et andet sprog end her i byen; han kom nemlig fra en by s&#x00F8;rpaa, hvor de skarret paa r&#x0027;et. Og saa hadde han for vane, naar han sat og h&#x00F8;rte efter, at l&#x00E6;gge hodet over paa skakke og se paa den som talte, bare med h&#x00F8;ire &#x00F8;ie; med det venstre saa han ret i sin egen n&#x00E6;serot.</p>
+<p><pb n="4"/>&#x2013; Seiler du altid slik for bidevind, du Svend far? spurte adjunkt Svenningsen en dag og apet efter ham, &#x2013; og dermed het han <emph>Svend Bidevind</emph> for al sin tid.</p>
+<p>En ganske almindelig gut forresten, midt i klassen. Der blev ikke lagt mere merke til ham end til de andre dernede paa mellemb&#x00E6;nkene, de jevne middelveisfarere mellem elendigheten &#x2013; sekserne og prylene &#x2013; nedenfor og herligheten ovenfor blandt de kappestridende dukser. N&#x00E6;rmest var det slik at l&#x00E6;rerne ikke likte Svend Bidevind. Der var noget eget ugreit ved den gutten, og en doven hund var han saavisst! Der var tegn nok paa evner langt over midten av klassen; det formerkedes tit nok, naar det gjaldt begripelsen og ikke netop l&#x00E6;sningen, at den gutten skj&#x00F8;nte baade fort og godt. Men leksene kunde han aldrig mere end saa halvt om halvt &#x2013; og knapt nok det.</p>
+<p>&#x2013; Ja du har det saa&#x0027; n paa et skipperskj&#x00F8;n, du Svend far, sa Svenningsen, &#x2013; det kan v&#x00E6;re bra nok paa styrmandsskolen kanske, men her duer det ikke, min ven!</p>
+<p>Og saa fik Svend Bidevind sin vanlige karakter, som var 2,5, men oftest med et &#x00E6;rgerlig sl&#x00E6;ngord efter sig, naar han gik nedover med karakterboken:</p>
+<p><pb n="5"/>&#x2013; Egentlig skulde du ha blank 6, for det duer ikke et gran, det du farer med her!</p>
+<p>Hvad der &#x00E6;rgret dem &#x2013; l&#x00E6;rerne altsaa &#x2013; mest ved Svend Bidevind, var at han aldrig vilde staa ved at han ikke kunde noget. Stod der ingen anden utvei aapen, var han evig fuld av undskyldninger, hvorav han sendte den ene frem for sig efter den anden som en feltherre sine h&#x00E6;rlinjer indtil sidste reserve. Saa hadde han tilf&#x00E6;ldigvis faat vite gal lekse igaar, &#x2013; saa var netop dette blad ute av boken hans, eller han hadde en &#x00E6;ldre utgave, hvor det stod anderledes; saa brukte han bok sammen med sin s&#x00F8;ster, som hadde lagt den igjen paa sin pikeskole osv. osv.</p>
+<p>&#x2013; Brukte du hodet dit saa godt paa at l&#x00E6;re dine ting som paa at lage dig undskyldninger, saa kom du langt, du gutten min, sa overl&#x00E6;rer Bugge.</p>
+<p>Ellers pr&#x00F8;vde han paa mangfoldig vis at vinde sig utseende av at han jo <emph>egentlig</emph> kunde det saa udmerket &#x2013; at det bare var saa rent &#x2013; h&#x00E6; &#x2013; svineuheldig, at han just nu stod her og glemte det! Ja, alt maatte de tro og t&#x00E6;nke, bare ikke det som var den eneste, reneste stadige sandhed, at han ikke hadde set paa leksen derhjemme!</p>
+<p><pb n="6"/>Mest drev han sig med at gjette, og her var han en ren mester.</p>
+<p>Merket han at der i timens l&#x00F8;p var fare paaf&#x00E6;rde for at bli h&#x00F8;rt, &#x2013; enten f. eks. l&#x00E6;reren begyndte i en viss orden efter protokollen, eller han stod for tur if&#x00F8;lge antallet av de ganger han var blit h&#x00F8;rt i maanedens l&#x00F8;p, &#x2013; geraadet Svend Bidevind i en ford&#x00E6;kt, men ivrig virksomhet paa sin plads. Han stablet b&#x00F8;ker op foran sig paa pulten i hele bygninger og bolverker til ly mot ransakende blikke fra oven; bakved fik han saa lekseboken aapnet paa gl&#x00F8;t, og saa keg og skjelte han sig under stadig vaktsomhet op mot katederet nedover siden fra det punkt hvor det kunde beregnes at den som blev h&#x00F8;rt i &#x00F8;ieblikket, vilde bli stanset. Skulde det saa uheldigvis tr&#x00E6;ffe at l&#x00E6;reren begyndte at spasere op og ned paa gulvet og indimellem pultr&#x00E6;kkerne. saa de beskyttende mure blev nyttel&#x00F8;se, puttet han boken i et ubevogtet &#x00F8;ieblik op under vesten, sat litt og reiste sig saa:</p>
+<p>&#x2013; Kan jeg faa lov til at gaa i gaarden?</p>
+<p>Nu, den b&#x00F8;n var jo vanskelig at avslaa, og blev den det allikevel, sat Svend Bidevind en stund urolig, og gjentok saa sin anmodning med beklemt og indtr&#x00E6;ngende stemme.</p>
+<p><pb n="7"/>Saa hadde man da en fem &#x2013; syv minutters tid derute til uforstyrret studium ........</p>
+<p>Langt fremover i leksen rak han jo sjelden paa dette vis, og naar han saa blev h&#x00F8;rt, slap den stjaalne kundskap jo pludselig op. Varsomt stak han saa frem et ord eller to, begyndelsen paa en s&#x00E6;tning som kunde ha sandsynligheten for sig &#x2013; forsigtig anglende efter et opmuntrende nik fra katederet om at han var paa ret vei, et hj&#x00E6;lpende ord, hvorpaa videre kunde bygges. Ofte gik det godt. Der var saa mangt og meget et vaktsomt &#x00F8;re kunde lytte sig til av sandsynlighet, bare man hadde begyndelsen; om utfaldet av et slag, om et verbums styrelse efter eller imot regelen, om ja eller nei paa et sp&#x00F8;rsmaal, &#x2013; der kunde anes saa meget allerede av maaten hvorpaa sp&#x00F8;rsmaalet stilledes! Men saa kunde det jo h&#x00E6;nde at det gik rent spillende i v&#x00E6;ggene galt. Hadde han en stund faat l&#x00E6;reren med sig med nik og velvillig opmuntring, &#x2013; javist &#x2013; rigtig Svend &#x2013; pr&#x00E6;sens parti &#x2013; particip ja! &#x2013; og der saa ved et rent vanvittig galt gjettet ord pludselig aapnedes en vankundighetens avgrund under den ulykkelige Svend Bidevind, da br&#x00F8;t vreden l&#x00F8;s over ham v&#x00E6;ldigere og varmere end vanlig!</p>
+<p>&#x2013; Jeg mener du staar her fr&#x00E6;kt og gjetter dig frem, gut! Jeg skal l&#x00E6;re dig! Tror du det <pb n="8"/>nytter at ta <emph>mig</emph> ved n&#x00E6;sen, din slubbert, saa tar du skammelig feil!</p>
+<p>Og der blev juling og 4 og anmerkning i karakterboken og al ulykke over den makel&#x00F8;se knegt som mente at leksen lod sig <emph>gjette</emph>! Og som imidlertid lusket tilbake paa sin plads efter sit nederlag med en egen lun mine av at dette uh&#x00F8;rte jo dog <emph>hadde</emph> latt sig gj&#x00F8;re &#x2013; ikke saa sjelden!</p>
+<p>I det store hele tat tok l&#x00E6;rerne for&#x00F8;vrig liten eller ingen notis av Svend Bidevind; hadde de ekspedert ham med 2,5&#x0027;eren, saa de ikke stort efter ham. Og Svend Bidevind paa sin side saa eller h&#x00F8;rte ikke stort efter l&#x00E6;reren heller, saasnart &#x00AB;st&#x00F8;iten&#x00BB; var over, og han vel var paa plads uten at ha noget at grue for. Resten av timen sat han stille paa sin b&#x00E6;nk uten at gi anledning til nogenslags klage over snaksomhet eller anden &#x00AB;forstyrrelse av undervisningen&#x00BB;, som det het i anmerkningene. Mest sat han og rablet og skrev paa nogen papirlapper. Undertiden h&#x00E6;ndte det jo at der forl&#x00F8;d et barskt:</p>
+<p>&#x2013; Sitter du uopmerksom, gut! L&#x00E6;g v&#x00E6;k de greiene!</p>
+<p>Og Svend Bidevind la sine lapper bort. Engang stanset overl&#x00E6;rer Bugge bak ham og keg over hans ryg.</p>
+<p><pb n="9"/>Hvad er det du bestiller, gut? Faa se &#x2013; hvad er det du sitter og skriver?</p>
+<p>Svend Bidevind f&#x00F3;r op som bitt av en orm, men da overl&#x00E6;reren vilde ha lappen, hadde han alt lynsnart puttet den i munden og tygget den sammen i en klump.</p>
+<p>En anden gang Svend Bidevind havde uke og leverte sin tyske l&#x00E6;sebok op paa katederet til adjunkt Svenningsen, fandt pludselig adjunkten frem et stykke papir inde i boken.</p>
+<p>&#x2013; Nei hvad finder man her! Et utrykt digt av hr. Svend, mener jeg!</p>
+<p>Svend Bidevind blev ildr&#x00F8;d der han sat, og reiste sig. Men Svenningsen holdt papiret h&#x00F8;it op, la sig frem over katederet og sa:</p>
+<p>&#x2013; Det maa vi h&#x00F8;re, mine herrer!</p>
+<p>&#x2013; Nei, nei, ropte Svend Bidevind, som var sprunget n&#x00E6;sten helt frem mot katederet, og stod og rakte haanden frem efter sit papir.</p>
+<p>&#x2013; Gi mig det!</p>
+<p>&#x2013; Gi mig det? Hvad er det for en tone! Gaa og s&#x00E6;t dig! Og saa l&#x00E6;ste adjunkten med h&#x00F8;itidelig stemme:</p>
+<lg>
+<head>Seir tilslut!</head>
+<l>Han stod paa galliotens d&#x00E6;k</l>
+<l>saa rank, saa h&#x00F8;i, med vaakent &#x00F8;ie,</l>
+<l><pb n="10"/>Kolumbus, seileren saa kj&#x00E6;k,</l>
+<l>og agterut man h&#x00F8;rte fr&#x00E6;k</l>
+<l>et opr&#x00F8;rsk mandskap vildt at st&#x00F8;ie.</l>
+</lg>
+<lg>
+<l>Han stirret utover det vide hav,</l>
+<l>hans bryst sig h&#x00E6;vede og s&#x00E6;nkte:</l>
+<l>&#x00AB;Skal intet land staa frem derav?</l>
+<l>Skal kun jeg finde her en grav</l>
+<l>for mig og for den plan jeg t&#x00E6;nkte!&#x00BB;</l>
+</lg>
+<lg>
+<l>Men bak ham n&#x00E6;rmet larmen sig,</l>
+<l>de kom med dragne sverd ih&#x00E6;nde,</l>
+<l>&#x00AB;Vend om, Kolumbus! Vi vil ei</l>
+<l>dig f&#x00F8;lge paa din vilde vei,</l>
+<l>her skal din galskap ha en ende.&#x00BB;</l>
+</lg>
+<lg>
+<l>De stimlet om ham, hujed, skrek,</l>
+<l>sverdklinger alt hans kl&#x00E6;dning r&#x00F8;rte,</l>
+<l>de truet, bandet, larmen steg,</l>
+<l>Kolumbus stirret stum og blek,</l>
+<l>som om han intet h&#x00F8;rte.</l>
+</lg>
+<lg>
+<l>Da smilte han med taus foragt,</l>
+<l>da stilnet deres vilde f&#x00E6;rden,</l>
+<l>de saa ham staa med armen strakt,</l>
+<l>&#x2013; da saa de, lyst av solen svakt,</l>
+<l>en stripe av den nye verden.</l>
+</lg>
+<p>&#x2013; Se, se, et epos! sa Svenningsen. Alle guttene saa ned mot Svend Bidevind, de fleste fnisende med haan. Svend Bidevind sat med hodet i armene, n&#x00E6;sen klemt ned i pulten.</p>
+<p><pb n="11"/>&#x2013; En storartet digtning! sa adjunkten.</p>
+<p>&#x2013; Der var nu feil i versemaalet etpar steder da! smilte Simon Selmer, duksen, fra sin f&#x00F8;rsteb&#x00E6;nk op mot adjunkten.</p>
+<p>&#x2013; Dette maa man omhyggelig opbevare, sa Svenningsen paa sin spotske maate, idet han foldet papiret sammen.</p>
+<p>Da saa Svend Bidevind op. Adjunkten tok det sammenlagte papir og stak det ind i sin Brystlomme. Svend Bidevind reiste sig og sprang frem:</p>
+<p>&#x2013; Gi mig det: Det er mit!</p>
+<p>&#x2013; Det <emph>var</emph> dit. Nu er det mit, hr. poet!</p>
+<p>&#x2013; Jeg vil ha det igjen, skrek Svend Bidevind med graaten i halsen.</p>
+<p>Adjunkt Svenningsen saa forbauset og strengt paa Svend Bidevind; slik hadde han aldrig set den stilf&#x00E6;rdige gutten.</p>
+<p>&#x2013; Hvad er det du vaager? <emph>Vil</emph>? Din vilje ligger forel&#x00F8;big her i min lomme, Svend far, og der blir den liggende. Sitter du med slike uvedkommende saker i timen &#x2013; jeg ser jo nok at produktet er skrevet med skolens bl&#x00E6;k &#x2013; saa tar man det fra dig, konfiskerer det, simpelthen!</p>
+<p>Da h&#x00E6;ndte der noget uh&#x00F8;rt. Svend Bidevind stod fremme mellem de to f&#x00F8;rste pulter, Simon Selmers og Anton Bechs. Da adjunkten <pb n="12"/>ved sine sidste ord nikket blidt og klappet sig over brystlommen, slog Svend Bidevind av al magt n&#x00E6;ven i Anton Bechs pult, saa det smaldt, og ropte med graaten dirrende i stemmen:</p>
+<p>&#x2013; Aa, det er skammelig!</p>
+<p>Adjunkten f&#x00F3;r ned fra katederet.</p>
+<p>&#x2013; Hvad sa du? Hvad sa du, gut? han knep ham i &#x00F8;ret.</p>
+<p>&#x2013; Skammelig, skammelig! skrek Svend Bidevind rent fra sig, mens graaten tok overhaand over ham.</p>
+<p>Da smaldt en &#x00F8;refik, en til, atter en, og for hver fik ropte adjunkten:</p>
+<p>&#x2013; Hvad sa du? Hvad sa du?</p>
+<p>Og Svend Bidevind gjentok mere og mere skrikende sit:</p>
+<p>&#x2013; Skammelig! Skammelig!</p>
+<p>Og det smaldt og smaldt og smaldt igjen, adjunkten slog ildr&#x00F8;d av sinne, og Svend Bidevind ropte. Hele klassen sat som forstenet. Endelig holdt adjunkten op, sl&#x00E6;ngte Svend Bidevind fra sig og saa glupsk paa ham:</p>
+<p>&#x2013; Nu t&#x00E6;nker jeg du har faat nok, din l&#x00F8;mmel!</p>
+<p>Svend Bidevind stod likblek, skidden av taarer med spilte, stive &#x00F8;ine, og saa ropte han, &#x2013; det l&#x00F8;d som et angstskrik:</p>
+<p><pb n="13"/>&#x2013; Skammelig!</p>
+<p>Adjunkt Svenningsen f&#x00F3;r frem igjen.</p>
+<p>Da reiste Anton Bech sig paa sin plads; han var klassens sterkeste gut, h&#x00F8;i og lys. Ganske rolig traadte han ut av b&#x00E6;nken foran adjunkten og sa:</p>
+<p>&#x2013; Det <emph>var</emph> skammelig!</p>
+<p>Svenningsen tok et skridt tilbake og stod stum. Anton Bech saa ham rolig ind i &#x00F8;inene; bak ham hulket Svend Bidevind. Ellers var der lydl&#x00F8;st stille i klassen.</p>
+<p>Adjunkten vendte sig og gik etpar ganger frem og tilbake over gulvet. Uten et ord gik han saa op paa katederet og begyndte at h&#x00F8;re Simon Selmer i grammatikken. Anton Bech satte sig ned, og Svend Bidevind gik paa plads.</p>
+<p>Timen forl&#x00F8;p d&#x00F8;dsstille, bare med lekseh&#x00F8;ringens jevne, d&#x00E6;mpede ord. Da det ringte, gik adjunkt Svenningsen uten et ord, han glemte at gi lekse til n&#x00E6;ste gang.</p>
+<p>I frikvarteret holdt Svend Bidevind sig for sig selv, unna de andre; han var r&#x00F8;d og underlig.</p>
+<p>Forresten holdt han sig ogsaa ellers mest for sig selv. Han hadde v&#x00E6;ret paa skolen i snart to aar nu, og allikevel var det likesom ingen kjendte ham endnu. Utenfor skolen var han n&#x00E6;sten aldrig sammen med klassekameratene.</p>
+<p><pb n="14"/>Han holdt sig mest hjemme i den store, gamle gaard, hvor han bodde. Nogen paastod at han lekte med jenter &#x2013; han hadde etpar s&#x00F8;stre; ellers visste man paa en eller anden maate at han derhjemme i gaarden hadde mange slags sine egne greier, som han stelte med. Naa, der var ingen som egentlig brydde sig om ham heller, eller gransket efter hvad han holdt slik for sig selv! Han var heller ikke fri for at v&#x00E6;re litt vittig av og til, vilde gjerne gi sig mine av at vite mangt og meget utenom, voksent; ikke samlet han paa frimerker, heller ikke paa knapper; han likesom holdt sig for god, for voksen til denslags.</p>
+<p>Nu gik han der altsaa for sig selv henne ved skolegj&#x00E6;rdet, og de andre guttene stod i klump ved gymnastiksalstrappen og snakket om ham og keg bort paa ham.</p>
+<p>&#x2013; Svinagtig uv&#x00F8;rnt gjort da! fandt de fleste.</p>
+<p>&#x2013; Digter gj&#x00F8;r han altsaa, den g&#x00E6;lningen!</p>
+<p>&#x2013; Men like i synet paa Svenning da, gut!</p>
+<p>&#x2013; Uforskammet! erkl&#x00E6;rte Simon Selmer; &#x2013; bare vigtigheten for det verset naturligvis, som han synes er saa uovertr&#x00E6;ffelig storartet!</p>
+<p>&#x2013; Det var da ialfald likere end dem jeg har set dig gj&#x00F8;re, Simon, tok Anton Bech i, han stod og saa over paa Svend Bidevind henne i gj&#x00E6;rdekroken.</p>
+<p><pb n="15"/>&#x2013; Hvorfor du blandet dig op i det, Anton! Karslig naturligvis, vr&#x00E6;ngte Simon Selmer.</p>
+<p>&#x2013; Hvorfor jeg blandet mig op i det? Jo det skal jeg si dig, det var fordi <emph>du</emph> hadde blandet dig i det f&#x00F8;rst, &#x2013; for at smiske for Svenning. Og det var skidt gjort av dig, for det f&#x00F8;rste fordi det var lumpent altsaa, og for det andet fordi Svenning altid er v&#x00E6;mmelig med det haanet sit, som vi aldrig skulde le av.</p>
+<p>&#x2013; Blandet jeg mig ....?</p>
+<p>&#x2013; Kom du ikke kanske med nogen vigtighet om versef&#x00F8;tter! Ogsaa noget!</p>
+<p>Anton Bech stak n&#x00E6;verne i bukselommerne og slentret nedover mot gj&#x00E6;rdet. Da han n&#x00E6;rmet sig kroken, vendte Svend Bidevind sig halvt til siden og pirket i plankestolpen.</p>
+<p>&#x2013; Du skulde bare latt ham slaa v&#x00E6;k, sa han ind i v&#x00E6;ggen, &#x2013; nu faar du, du ogsaa. Der er ikke mening i slikt, ser du &#x2013; for min skyld.</p>
+<p>&#x2013; Mening! Tror du jeg vil sitte og la Svenning forn&#x00E6;rme klassens &#x00E6;re! Skal han ha lov til at blande sig i lapper som han finder i boken, og som ikke rager ham!</p>
+<p>&#x2013; Ja, men ....</p>
+<p>&#x2013; Svinagtig godt gjort av dig, Bidevind, ser du, simpelthen svinagtig godt gjort!</p>
+<p>&#x2013; Haa &#x2013;</p>
+<p><pb n="16"/>&#x2013; Nu kommer rektor altsaa. Han klager naturligvis nu straks, Svenning.</p>
+<p>&#x2013; Ja&#x2013;a.</p>
+<p>&#x2013; Men jeg for min part sier rektor besked, jeg, ser du, om Svenning sine lumpenheter. Det kan du stole paa. Saa kan han gj&#x00F8;re hvad han vil.</p>
+<p>&#x2013; Tror du det blir &#x2013; f&#x00E6;lt?</p>
+<p>&#x2013; Aa det er ikke godt at vite. Ifjor blev Anders Holm vist ut, han. Han hadde sagt &#x00AB;tosken!&#x00BB; til overl&#x00E6;rer Bugge.</p>
+<p>&#x2013; Vist ut av skolen?</p>
+<p>&#x2013; Ja, simpelthen. Men det var jo v&#x00E6;rre. Gubben Bugge er ikke den lumpningen som Svenning er!</p>
+<p>Det ringte, og frikvarteret var forbi.</p>
+<p>Der blev usedvanlig fort stille oppe i klassen. Det var rektors egen time, historie.</p>
+<p>Det varte l&#x00E6;nge f&#x00F8;r rektor kom. Alle skj&#x00F8;nte det; det var Svenning som klaget!</p>
+<p>Endelig kom han, og der gik et ryk gjennem guttene. Rektor Holst var en m&#x00F8;rk mand, altid meget alvorlig. Han gik op paa katederet, fik leksen av ukehavende, Svend Bidevind, og stilte sig som sedvanlig deroppe med benene litt fra hverandre, h&#x00E6;nderne paa ryggen under frakkeskj&#x00F8;tene. Han vugget sig svakt fra den ene side til den anden; &#x00F8;inene, som laa m&#x00F8;rke <pb n="17"/>og dype under den h&#x00F8;ie, blankhv&#x00E6;lvede pande, gik rolig ransakende utover klassen. Flere minutter gik.</p>
+<p>&#x2013; Du Svend! sa han endelig. R&#x00F8;dmen jog Svend Bidevind op i kindene, og han reiste sig angstfuldt sp&#x00E6;ndt.</p>
+<p>&#x2013; Fra hvilken begivenhet daterer vi det avsnit i verdenshistorien vi kalder &#x00AB;den nye tid&#x00BB;?</p>
+<p>&#x2013; F&#x2013;fra&#x2013;fra Amerikas opdagelse.</p>
+<p>&#x2013; Hvad aarstal?</p>
+<p>&#x2013; 1492.</p>
+<p>&#x2013; Ved hvem?</p>
+<p>&#x2013; Kristofer &#x2013; Kolumbus! svarte Svend Bidevind. &#x00AB;Kristofer&#x00BB; kom straalende, i Svend Bidevinds henrykkelse over bare at bli h&#x00F8;rt; men ved &#x00AB;Kolumbus&#x00BB; blev han pludselig blodr&#x00F8;d og hvisket navnet ned for sig.</p>
+<p>Der gik et d&#x00E6;mpet knis gjennem klassen, &#x2013; meget d&#x00E6;mpet, eftersom rektors mine ingen tilladelse gav til lystighet; streng og alvorlig stod han deroppe og vugget. Men leksen idag var om krigen mellem Nord- og Sydstatene i 1864, saa dette at begynde med Kolumbus og netop Svend Bidevind, &#x2013; naa, trods den strenge mine gav det dog en lettende anelse om at rektor ikke hadde tat Svennings klage saa skr&#x00E6;kkelig h&#x00F8;itidelig!</p>
+<p>&#x2013; Hvad landsmand?</p>
+<p><pb n="18"/>&#x2013; Spaniol.</p>
+<p>&#x2013; Vims!</p>
+<p>&#x2013; Nei &#x2013; Genueser!</p>
+<p>&#x2013; Men Spaniolene?</p>
+<p>&#x2013; Utrustet ham.</p>
+<p>&#x2013; Gi mig en kort fremstilling av Amerikas historie fra dets opdagelse til 1860.</p>
+<p>Svend Bidevinds &#x00F8;ine lyste &#x2013; for her var han i sit element!</p>
+<p>Historie og geografi var de eneste fag Svend Bidevind kunde noget ordentlig av. Ikke saa at han l&#x00E6;ste stort mere paa leksene her end ellers; men paa et eller andet ubegripelig vis lagret der sig op i ham her hele sikre kapitaler av kundskaper som han aldrig mistet, altid hadde klare og paa rede haand. Han beh&#x00F8;vde bare at lukke &#x00F8;inene og se ind i sit indre hode; der hadde han staaende spikerfast hele verdenskartet med hav, land, byer, floder og berg, menneskeracer, kvadratmil, indbyggerantal, ut- og indf&#x00F8;rsel, n&#x00E6;ringsveier og al den ting. Og historien &#x2013; den laa som bev&#x00E6;gelige billeder over alle geografiens land, han saa den for sig lyslevende for hvert land, hvis farvelagte gr&#x00E6;nselinjer utvidet sig og trak sig sammen efter tidenes skiftende skj&#x00E6;bner. Han <emph>h&#x00F8;rte</emph> det dr&#x00F8;nnende, taktfaste tridt av de romerske legioner om Middelhavslandene, <emph>saa</emph> Hannibals elefanter i m&#x00F8;isommelig, <pb n="19"/>tungt st&#x00F8;nnende fremgang over alperne; han saa st&#x00F8;vskyen i &#x00F8;st av de fremtr&#x00E6;ngende huner og germaner; i sorte skygger laa middelalderens borger i skog og paa fjeld rundt i Tyskland og Frankrike, med klemt langt borte av kirkeklokker, brus av d&#x00E6;mpet munkesang bak klosterportene, og trompetst&#x00F8;t, lansebrud og slag paa skjold under ridderturneringene. Fra Norden kom skibe med Nordsj&#x00F8;ens skumspr&#x00F8;it under de l&#x00F8;ftede dragehoder, ombord stod lyshaarede vikinger i blaa kofter og s&#x00F8;lvbelte, blikket utover havet mot sydens eventyr og rigdomme. L&#x00E6;ngere frem var det som randt der lysen sol over verden, tunge taaker drev hen, og langt borte i lyset steg den nye verden frem av havet; hjemme i Europa h&#x00F8;rtes Luthers klare tale i Worms midt imot keiser og pave, fra nord kom &#x00AB;Snekongen&#x00BB; Gustav Adolf med svensker og finner som et snehvitt veir ned i roteriet og uklarheten i Tyskland. &#x2013; &#x2013; &#x2013; Saa blev billederne rikere og mangfoldigere, de vrimlet frem i &#x00F8;st og i vest, nord og syd, det var som de tok paa at kappes, alle landene, om at gj&#x00F8;re historien broket og vanskelig! I Spanien gik Filip den anden stum og m&#x00F8;rk med sine prester og munker og holdt pinlige forh&#x00F8;r i kjelderne og brandstinkende autodaf&#x00E9;er paa gater og pladser; men Wilhelm av Oranien og de flittige nederl&#x00E6;ndere b&#x00F8;d ham <pb n="20"/>den seige trods, og de kj&#x00E6;mpet og sultet og led og holdt ut, br&#x00F8;t sine diker igjennem, saa havet flommet ind over deres blomsterhaver og frugtbare enger og skylte over hoderne paa Alba og hans sorte spanioler. &#x2013; &#x2013; &#x2013; I England sat dronning Elisabeth med sin kniplingskrave og sit r&#x00F8;de haar og halshugget Maria Stuart, men bygget sig sin sterke flaate, sendte stolte Engl&#x00E6;ndere verden over efter nyt land og nye veier; saa kom Jakob og Karl I og den m&#x00F8;rke Cromwell. – – &#x2013; Men saa var det som tidde alle de andre stille og holdt op en lang stund for bare at se paa Frankrike! Her stod Ludvig den fjortende med allongeparyk og h&#x00F8;ie h&#x00E6;ler paa sin trone i Versailles, og det lavet om ham av pragt og glans og av magt som de andre bare b&#x00F8;iet sig ydmygt for og adl&#x00F8;d; hele Frankrike blev til en festsal i straalende lys, hvor hofm&#x00E6;nd og damer bev&#x00E6;get sig sirlig i krans om kongen &#x2013; de herrer med silkestr&#x00F8;mper og spidse kaarder, damerne i uhyre fiskebensskj&#x00F8;rter og h&#x00F8;ie parykker, &#x2013; og der var ikke andet i verden at se paa end Frankrikes festlige sal! Konger og keisere stod utenfor og stirret og saa og glemte sig rent bort, der blev n&#x00E6;sten ingen historie av hos dem selv! Og saa vaaknet de pludselig op allesammen ved et dundrende <pb n="21"/>smeld og en stemme som skrek paa tysk, saa det skar gjennem hele Europa. Det var Fredrik den store av Preussen som pludselig gav ild og kommanderte frem sine kj&#x00E6;mpesoldater mot &#x00D8;sterrike og Rusland og Frankrike tilsammen; og alle kongerne og keiserne rundt om i landene fik &#x00F8;inene til sig og tankerne med fra det franske hofbal, og saa saa de at hundrede aar var gaat, og at de rent hadde fors&#x00F8;mt sig! Og l&#x00E6;nge varte det ikke f&#x00F8;r de fik syn for at hele stasen i Versailles, som slik havde bl&#x00E6;ndet og bundet dem, var raatten og ormstukken i de hundrede aars l&#x00F8;p med Ludvig XIV og Ludvig XV: Revolutionen kom rullende fra bakgaterne i Paris som en flodb&#x00F8;lge der vokste og vr&#x00E6;lte og slog s&#x00F8;nder og sammen den hele maskerade; parykkene f&#x00F8;k og hoderne efter dem av alle hofm&#x00E6;ndene og damerne &#x2013; og h&#x00F8;iest tilveirs f&#x00F8;k kongens og dronningens, Ludvig XVI&#x0027;s og Marie Antoinettes. Saa gik det blodr&#x00F8;dt for sig! P&#x00F8;belhoben hylte, Danton, Marat og Robespierre br&#x00F8;lte utover dem, og uavladelig knirket og gik guillotinen, skar og skar hoder fra halser, som br&#x00F8;dkniven gik til frokost om morgenen, naar mor smurte mat til dem allesammen derhjemme. Paany var der ikke andet i verden end Frankrike; og alle kongerne og keiserne <pb n="22"/>samlet sig i forf&#x00E6;rdelse og gik imot for at stanse guillotinen, jage p&#x00F8;belen fra hverandre og kv&#x00E6;le Danton, Marat og Robespierre. Men saa klang stormklokken over Frankrike, og de myllret frem i tusenvis og tusenvis, barbente og fillete, med h&#x00F8;igafler og ljaaer, foran gik revolutionsm&#x00E6;ndene og ropte br&#x00E6;ndende ord &#x2013; det var som en eneste ild og sydende lue mot gr&#x00E6;nsen, og kongerne og keiserne veg tilbake, bleke og forf&#x00E6;rdede. &#x2013; &#x2013; &#x2013; Men ildsluen vendte hjem ifra gr&#x00E6;nsen, slog ind i Paris, i hele landet, det vokste og steg i et gr&#x00E6;nsel&#x00F8;st helvedesleven, hoderne f&#x00F8;k, og blodspr&#x00F8;iten stod tilveirs, p&#x00F8;belhyl, r&#x00E6;dselsmanifester &#x2013; &#x2013; &#x2013; &#x2013;</p>
+<p>Holdt! tordnet en stemme over alt br&#x00F8;l og alt skrik &#x2013; og det blev stille med ett. P&#x00F8;belen spredte sig, ildsluen sank, og r&#x00F8;kdampen spredte sig for vinden; Frankrike laa stille i den klare dag, og &#x00F8;verst paa alle de sammenramlede revolutionens ruiner stod en eneste liten mand med en trekantet hat, armene overkors og &#x00F8;inene dype og truende. Og bak den store Napoleon ordnet sig alt det som hadde br&#x00E6;ndt og br&#x00F8;lt, i t&#x00E6;tte, faste soldaterr&#x00E6;kker under trikoloren og den gyldne keiser&#x00F8;rn &#x2013; og i femten aar var der ikke levende fred for alt hvad konger og keisere <pb n="23"/>het i verden, de piskedes, jagedes, tumlet om hinanden, kanonene tordnet fra Spanien til Rusland, og frem gik Frankrikes keiser fra seier til seier, og alverden laa foran ham i r&#x00E6;dsel ..... Der var bare ett land som holdt sig ukuet, &#x2013; laa og seilet og krydset utenom ham og passet paa i alle aar, aldrig gav sig, aldrig tok sit &#x00F8;ie fra ham eller sine vaktende skuter fra hans vei. Det var England. Og midt i hans seiersrus, midt i r&#x00E6;dselens torden over de andres hoder &#x2013; hugg engl&#x00E6;nderen kloen i den lille mand med den trekantede hat og l&#x00F8;ftet ham over land og videste hav og satte ham hen paa den fjerneste &#x00F8; i verdenshavet.</p>
+<p>Og siden blev der stilt og kjedelig langt frem i historien. Og Svend Bidevind hadet ingen i verden som Engl&#x00E6;nderen for det, saavisst som han elsket og led med ham derute paa den ensomste &#x00F8; i havet!</p>
+<p>&#x2013; &#x2013; &#x2013; En kort fremstilling av Amerikas historie! Slik pleiet rektor Holst alt i ett at ta en rask oversigt over hele land og perioder, og med sit ransakende blik hadde han jo nok opdaget at dette var Svend Bidevinds rette felt. Saa svart og utiln&#x00E6;rmelig som rektor stod deroppe paa katederet og vugget sig, saa lyset blinket i den h&#x00F8;ie elfenbenblanke <pb n="24"/>pande, &#x2013; Svend Bidevind f&#x00F8;lte nu allikevel en viss tryghet for ham; at han spurte paa denne maate just nu var som en anelse om at der dog var at haabe paa en h&#x00F8;iere art av retf&#x00E6;rdighet end adjunkt Svenningsens ildr&#x00F8;de &#x00F8;refiker!</p>
+<p>Og den korte fremstilling gik s&#x00E6;rdeles godt. Rektor sa ikke sit vanlige &#x00AB;Vims!&#x00BB; mere end etpar ganger, og Svend Bidevind fik en av rektors bitte smaa, fine enere i karakterboken.</p>
+<p>Timen gik langsomt og stilf&#x00E6;rdig videre med d&#x00E6;mpet mumlen om den amerikanske borgerkrig, og av og til rektors korte:</p>
+<p>&#x2013; Vims! eller: &#x2013; Er du slik du?</p>
+<p>Endelig ringte det, og leksen blev git til n&#x00E6;ste gang.</p>
+<p>&#x2013; Du Svend og du Anton Bech blir tilbake her. Gaa ut dere andre.</p>
+<p>Nu kom det altsaa! Svend Bidevinds mave krympet sig sammen under brystet. Der blev tomt i klassen. Rektor stod paa katederet, uforandret vuggende sig.</p>
+<p>&#x2013; Kom frem her, dere to.</p>
+<p>Anton Bech og Svend Bidevind stillet sig op foran katederet. Anton saa trodsig m&#x00F8;rkt i katederv&#x00E6;ggen; Svend Bidevinds blik laa angstfuldt avventende paa rektors alvorlige ansigt.</p>
+<p><pb n="25"/>&#x2013; Adjunkt Svenningsen<note type="footnote">Svenningsen] <hi rend="italic">rettet fra:</hi> Svenningen <hi rend="italic">(trykkfeil)</hi></note> klager til mig over dig, Svend. Han har fundet dette vers i din bok, &#x2013; rektor trak papiret frem av sin lomme. &#x2013; Istedenfor at straffe dig for at du befatter dig med denslags uvedkommende ting i timen, finder han behag i dit vers, l&#x00E6;ser det op for dine kamerater, og vil selv opbevare det. Herfor burde du &#x2013; baade som hr. Svenningsens elev og som digter &#x2013; v&#x00E6;re hr. Svenningsen meget taknemmelig. Du er imidlertid alt andet; du er uforskammet mot hr. Svenningsen. Du har faat dine velfortjente pryl for det, min ven. Og her har du dine vers tilbake &#x2013; hr. Svenningsen finder dem allikevel ikke v&#x00E6;rd at opbevares. V&#x00E6;rsaagod!</p>
+<p>Rektor rakte papiret frem, og Svend Bidevind tok det, blodr&#x00F8;d i ansigtet. Rektor stod en stund taus vuggende sig, mens han ufravendt saa paa Svend Bidevind. Saa man n&#x00F8;ie efter, var der et fint tegn til et bitte litet smil om rektors tynde l&#x00E6;ber. Endelig vendte han sig mot Anton Bech:</p>
+<p>&#x2013; Nu Anton, har du intet at si?</p>
+<p>Anton Bech saa sp&#x00F8;rrende op.</p>
+<p>&#x2013; Jeg h&#x00F8;rer jo du optr&#x00E6;der som selvbestaltet h&#x00F8;iesteretsdommer i klassen. Men du er kanske naadigst tilfreds med mine bemerkninger til Svend? Jaja, da er jeg altsaa heldigere <pb n="26"/>end hr. Svenningsen, som jo fik sit pas paaskrevet av dig. Jeg faar si tak da!</p>
+<p>Rektor rakte haanden frem. Anton Bech slog &#x00F8;inene ned og stod ur&#x00F8;rlig.</p>
+<p>&#x2013; Gi mig haanden du, gutten min! sa rektor med pludselig forandret tone &#x2013; n&#x00E6;sten hjertelig og gemytlig!</p>
+<p>Motstr&#x00E6;bende rakte Anton Bech haanden frem; rektor trykket den let:</p>
+<p>&#x2013; Ja, nu kan dere gaa, dere to.</p>
+<p>Svend Bidevind og Anton Bech lunket ut sammen.</p>
+<p>Et stykke ned i trappen &#x2013; de gik side om side nedover &#x2013; stanset Anton:</p>
+<p>&#x2013; Jeg synes altsaa det digtet dit var svinagtig godt jeg!</p>
+<p>De gik videre nedover og n&#x00E6;rmet sig d&#x00F8;ren. Ute i skolegaarden gik leven og skrik og skraal som sedvanlig. Atter stanset Anton Bech:</p>
+<p>&#x2013; Du Bidevind, sa han, &#x2013; vi er enige om ikke at si et muk til de andre om hvad rektor sa!</p>
+<p>&#x2013; Naturligvis! svarte Svend Bidevind.</p>
+<p>&#x2013; Ja ser du, sa Anton, &#x2013; for de nautene vil saa ikke skj&#x00F8;nne likevel at rektor egentlig var svinagtig koselig mot os.</p>
+<p>&#x2013; Nei, sa Svend Bidevind. Han stod <pb n="27"/>litt fort&#x00E6;nkt; saa sa han:&#x2013; For han <emph>var</emph> vist sv&#x00E6;rt koselig, du? Jeg fik igjen digtet mit ogsaa jeg!</p>
+<p>&#x2013; Ja, vist ut av skolen blev vi da ikke, lo Anton Bech, og dermed gik de ut i skolegaarden.</p>
+<p>&#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013;</p>
+<p>Svend Bidevind gik fort&#x00E6;nkt baade den dagen og dagen efter.</p>
+<p>Der var noget han spekulerte paa.</p>
+<p>Tredje dagen hadde de igjen historie med rektor. Og hele timen igjennem sat Svend Bidevind paa sin plads med hodet paa skakke og saa med sit h&#x00F8;ire &#x00F8;ie ufravendt paa rektor, med det venstre stivt i sin egen n&#x00E6;serot.</p>
+<p>Rektor Holst stod der oppe som ellers, men Svend Bidevind fandt tydeligvis noget ekstra ved ham den dag.</p>
+<p>Da timen var slut, gik Svend Bidevind som ordensmand alene igjen i klassen og lukket op vinduene, vasket tavlen og la frem kridt til matematiktimen, dyppet svampen, satte frem den sv&#x00E6;re tr&#x00E6;passeren. Da han var f&#x00E6;rdig, stod han en stund og saa i katederv&#x00E6;ggen. Saa nikket han frem for sig som med en beslutning:</p>
+<p>&#x2013; Jo! Rektor <emph>var</emph> igrunden en koselig kar!</p>
+<p><pb n="28"/>Men fra disse dage var det som blev der nogen forandring paa skolen for Svend Bidevind. Ikke nogen stor eller s&#x00E6;rdeles merkbar. Men mens han f&#x00F8;r hadde sittet der som den der ikke i nogen maate hadde andet med det hele at gj&#x00F8;re end bare at snike sig igjennem de seks timer og saa pile hjem til middag, hadde han nu faat som et baand &#x2013; eller rettere to baand &#x2013; mellem sig og skolen.</p>
+<p>Det ene var rektor Holst.</p>
+<p>Hver eneste historietime sat Svend Bidevind og keg op paa den m&#x00F8;rke mand som saa pludselig var blit forandret for ham fra hele skole- og l&#x00E6;rer-fiendtlighetens &#x00F8;verste herre og fjerne mester til et menneske, der jevnt og venlig vilde forstaa og tale og d&#x00F8;mme som et almindelig menneske &#x2013; utenfor skolen. Og alt eftersom han slik sat og keg og iagttok, fandt han mere og mere godt og beroligende ut av rektors ansigt, hans stemme, hans holdning. Den h&#x00F8;ie, blanke pande under det ravnsorte, opstr&#x00F8;kne haar syntes ham saa klok og ren; i de alvorlige &#x00F8;ine saa han ret som det var glimt av smil og venlighet. Stemmen og den sagte, regelm&#x00E6;ssige vuggen frem og tilbake var saa rolig og v&#x00E6;rdig. Aldrig blev rektor hidsig, aldrig slog han eller skjeldte han; naar han sa sit: &#x00AB;<emph>Vims</emph>!&#x00BB; eller: &#x00AB;<emph>Er du slik du?</emph>&#x00BB; virket det ti ganger <pb n="29"/>mere end f. eks. Svenningsens spot og vitser eller overl&#x00E6;rer Bugges lange straffepr&#x00E6;kener. Og en stor, stor ting til: For rektor var alle guttene like; der var ikke mere smil eller ekstra venlighet mot dem paa f&#x00F8;rste b&#x00E6;nkerad end mot dem paa sidste. &#x00AB;Vims!&#x00BB; l&#x00F8;d like strengt til Simon Selmer som til vesle S&#x00F8;ren Manddraber, klassens st&#x00F8;rste tosk, som altid sat nederst nede. F&#x00F8;r hadde Svend Bidevind altid syntes at rektor lignet det svarte billede hjemme i<note type="footnote">i] <hi rend="italic">rettet fra:</hi> li <hi rend="italic">(trykkfeil)</hi></note> Daae og Drolsums illustrerte verdenshistorie av hertugen av Alba. Eftersom han nu sat og saa paa ham, is&#x00E6;r naar han rolig og urokkelig klart gjennemgik store avsnit og perioder av historien for dem, &#x2013; forsvandt Alba, og rektor lignet mere og mere, is&#x00E6;r i panden og &#x00F8;inene, den store Napoleon.</p>
+<p>Inderst inde paa bunden av Svend Bidevinds sj&#x00E6;l dr&#x00F8;mte der som en vak uhyggelig anelse om at en dag maatte syndfloden bryte ut over hans hode. Saa han paa sit skoleliv fra f&#x00F8;rst til sidst, var det intet uten fors&#x00F8;mmelse og huller overalt. Intet kunde han helt, alt hadde han sluntet unna, gjettet sig fra. Det var gaat saa nogenlunde fra maaned til maaned, fra aar til aar. Men i virkeligheten sv&#x00E6;vet han over en avgrund. En dag maatte regnskapet komme. Og det vilde bli forf&#x00E6;rdelig! Disse tanker skj&#x00F8;v <pb n="30"/>han altid fra sig. De kunde komme pludselig, baade paa skolen og utenfor &#x2013; som en frysning gjennem kroppen. Men forf&#x00E6;rdeligheten var for stor derved, angsten for uhj&#x00E6;lpelig vild; den var ikke til at ta op!</p>
+<p>Nu, efterat han saa at si hadde &#x00AB;opdaget&#x00BB; rektor Holst, hadde han i denne enslags n&#x00F8;danker. Han fik en fortr&#x00F8;stende fornemmelse av at naar det engang bar l&#x00F8;s for alvor, naar skolen gjorde op med ham, far blev hentet og underrettet om det hele osv. &#x2013; da vilde kanske allikevel rektor Holst ikke helt slippe ham. Forhaanet, pisket, flaadd vilde han nok naturligvis bli &#x2013; men ikke helt dr&#x00E6;pt! Ikke jaget fra skolen, ikke opgit, sendt tilsj&#x00F8;s, eller overhodet behandlet som den der <emph>aldrig</emph> kunde bli bedre.</p>
+<p>Samtidig med at han hadde fundet denne tr&#x00F8;st, blev tanken paa den forf&#x00E6;rdelige opgj&#x00F8;rets dag mere levende i Svend Bidevind, oftere forekommende. Ialfald i hver historietime hadde han den lyslevende for sig, saa han sat og svedet paa b&#x00E6;nken, mens han i al stilhet utmalte sig hvorledes det vilde komme og forl&#x00F8;pe. Saa sat han og saa paa rektor fra siden, og f&#x00F8;lte det som stod han alt over ham .....</p>
+<p>Han begyndte for alvor at l&#x00E6;se paa historielekserne, og rektor Holst var forn&#x00F8;iet med Svend Bidevind, &#x2013; saa litet han ellers anet hvad for <pb n="31"/>slags tanker gutten gik med, eller at den lille fyr med hodet paa skakke og det underlige bidevindsblik i virkeligheten sad der og forgudet ham, klamret sig til ham i sine angstfulde tanker!</p>
+<p>Det andet baand for Svend Bidevind var Anton Bech. Fra hin dag med digtet og Svenningsen var der venskap mellem Anton Bech og Svend Bidevind. I begyndelsen ganske faam&#x00E6;lt og umerkelig. Siden varmere og mere aapenlyst.</p>
+</div>
+<div type="chapter" n="2">
+<head type="main"><ref type="contents" target="contents_2" xml:id="chapter_2">Fusk!</ref></head>
+<quote>
+<p>9/4. Svend har &#x00AB;glemt&#x00BB; at regne sine matematikstykker til idag.
+<lb/>Lange.</p>
+</quote>
+<quote>
+<p>16/4. Heller ikke til idag har Svend indlevert de matematiske hjemmeopgaver.
+<lb/>Lange.</p>
+</quote>
+<quote>
+<p>23/4. Svends mat. opgaver til idag vidner om h&#x00F8;i grad av uorden og fors&#x00F8;mmelighet.
+<lb/>L.</p>
+</quote>
+<quote>
+<p>30/4. Svend sitter idag igjen 2&#x2013;3 for at regne omigjen sine matematikstykker.
+<lb/>L.</p>
+</quote>
+<p>Det var den brede marg i Svend Bidevinds karakterbok som slik var blit brodert i den sidste maaned.</p>
+<p><pb n="36"/>Hver gang hadde far maattet &#x00AB;forevise&#x00BB;, og for hver gang hadde det v&#x00E6;ret ulykkeligere derhjemme. Sidst var det 4 i orden ogsaa!</p>
+<p>Nu sat han der i den tomme klasse. Klokken slog halv tre nede i gangen; det gav en bedr&#x00F8;velig dump gjenklang gjennem den &#x00F8;de, d&#x00F8;dsstille skolebygning, hvor Svend Bidevind var den eneste levende.</p>
+<p>Han sat igjen.</p>
+<p>Han regnet og regnet. Kandidat Lange havde gjennemgaat alle tre stykkerne for ham, punkt for punkt, med al forklaring og utredning baade om potens og rottegn.</p>
+<p>Han syntes nok han skulde huske det ogsaa. Men ...</p>
+<p>Der l&#x00F8;d pludselig skridt ute paa den tomme gang, og rektor Holst kom ind.</p>
+<p>Han kom over fra rektorboligen i bygningens anden fl&#x00F8;i. Han hadde en husfrakke paa sig, som Svend Bidevind aldrig hadde set ham i; den var noksaa flekket og styg. Ellers pleide rektor altid paa skolen at v&#x00E6;re rent ekstra pent og pertentlig kl&#x00E6;dd.</p>
+<p>Det lugtet faarikaal av rektor, og han pirket sig i t&#x00E6;nderne.</p>
+<p>&#x2013; Nu Svend, er du f&#x00E6;rdig med regningen din?</p>
+<p>&#x2013; Nei.</p>
+<p><pb n="37"/>Er du ikke kommet l&#x00E6;nger? Halvparten av f&#x00F8;rste opgave! Sitter du og dovner dig her?</p>
+<p>&#x2013; Nei, sa Svend Bidevind og b&#x00F8;ide sig over sine kladder. &#x2013; Jeg har regnet hele tiden.</p>
+<p>&#x2013; Og er ikke l&#x00E6;nger kommet!</p>
+<p>&#x2013; Ne&#x2013;i.</p>
+<p>&#x2013; Kj&#x00E6;re, forstaar du ikke stykket da?</p>
+<p>&#x2013; Nei! svarte Svend Bidevind og saa hj&#x00E6;lpel&#x00F8;s op.</p>
+<p>&#x2013; Saa begynd paa det n&#x00E6;ste da!</p>
+<p>&#x2013; Jeg forstaar ikke det heller! sa Svend Bidevind, og taarerne kom ham i &#x00F8;inene.</p>
+<p>&#x2013; Saa ta bare fat paa det tredje da, gutten min!</p>
+<p>Svend Bidevind kunde ikke svare.</p>
+<p>&#x2013; Skj&#x00F8;nner du ikke det heller, kanske?</p>
+<p>&#x2013; N&#x2013;e&#x2013;i, hikstet Svend Bidevind.</p>
+<p>Rektor gjorde et par slag op og ned over gulvet.</p>
+<p>&#x2013; Men dette er jo rent ilde! mumlet han frem for sig. Han stod litt og saa paa Svend Bidevind.</p>
+<p>&#x2013; Ja, du faar pr&#x00F8;ve en stund endnu!</p>
+<p>Saa gik rektor.</p>
+<p>Svend Bidevind pudset n&#x00E6;sen og t&#x00F8;rret &#x00F8;inene. Han stirret i kladdene med alle de fortvilede<note type="footnote">fortvilede] <hi rend="italic">rettet fra:</hi> ortvilede <hi rend="italic">(trykkfeil)</hi></note> tal, alle de lange, umulige regninger <pb n="38"/>han hadde faat sammen, og som bare var galt, &#x2013; saa galt, saa galt! Naar han var kommet til et resultat i stykket, saa det saa ganske anderledes ut end da kandidat Lange regnet det paa tavlen.</p>
+<p>Han saa sig om. Der stod de nedover gulvet og gapte alle de forlatte b&#x00E6;nkene; v&#x00E6;ggene var saa underlig kolde og n&#x00F8;kne, og henne i katederkroken hang v&#x00E6;gtavlen over hj&#x00F8;rnet. Den var daarlig vasket, og endnu skimtedes streker og antydninger av kandidat Langes regning.</p>
+<p>Men den <emph>var</emph> jo udstr&#x00F8;ket!</p>
+<p>Der var overhodet ikke hj&#x00E6;lp at finde nogensteds, hvor han saa hen. Hverken i klassen eller utenfor.</p>
+<p>Utenfor &#x2013; der var far og mor derhjemme, som atter skulde forevise! Nu sat de og spiste middag allesammen, saa koselig. Skj&#x00F8;nt &#x2013; noget videre koselig hadde de det vel ikke nu, de jo forstod at han sat igjen!</p>
+<p>Nei, det var dette med de skriftlige opgaver! Dem nyttet det ikke med, hverken gjetning eller med undskyldninger. Det var fra dem det maatte komme engang, opgj&#x00F8;ret, regnskapet med hele skolegangen hans. Og f&#x00F8;rst og fremst i matematikken. Naturligvis. Stilene, baade de tyske og de latinske, dem kunde man jo til n&#x00F8;d <pb n="39"/>greie; der var jo baade leksikon og grammatik, og saa var det jo til syvende og sidst menneskelige <emph>ord</emph> at skrive!</p>
+<p>Men matematikken var ganske fremmed. Den hang i luften for sig selv uten sammenh&#x00E6;ng med nogen verdens anden ting.</p>
+<p rend="center">(a + b)<hi rend="raised">2</hi> = a<hi rend="raised">2</hi> + 2ab + b<hi rend="raised">2</hi>
+<lb/>(a - b)<hi rend="raised">2</hi> = a<hi rend="raised">2</hi> - 2ab + b<hi rend="raised">2</hi></p>
+<p>Skulde man til at t&#x00E6;nke paa a og paa b og a<hi rend="raised">2</hi> og b<hi rend="raised">2</hi>, &#x2013; saa var det ingenting. Noget uvirkelig noget, som intet billede hadde!</p>
+<p>Fra f&#x00F8;rste begyndelse hadde det v&#x00E6;ret saa fot&#x2013;i&#x2013;hose&#x2013;let, saa rent barnagtig; men efterhaanden var det vokst likesom rent i l&#x00F8;ndom; han hadde ikke agtet paa det, ikke l&#x00E6;rt lekser, ikke h&#x00F8;rt efter &#x2013; og nu stod det der midt imot ham som en stenhaard, uangripelig fiende, en verden han absolut ikke kjendte til.</p>
+<p>Jojo! Der hadde han i al stilhet, litt efter litt latt den store fiendemagt vokse over sig; fra matematikstykkerne kom det engang!</p>
+<p>Kanske snart! Kanske alt nu med denne gjensitningen som skulde forevises. Nu begyndte de kanske at sp&#x00F8;rre efter &#x2013; snuse om hvordan det egentlig hang sammen ...</p>
+<p>Han vak op. Rektor Holst kom ind igjen.</p>
+<p><pb n="40"/>&#x2013; Se her, Svend, ta dette brev med hjem til din far. H&#x00F8;rer du klokken hitop?</p>
+<p>&#x2013; Ja da.</p>
+<p>&#x2013; Naar den slaar tre, kan du altsaa gaa. Svend Bidevind sat atter alene. Men han hadde faat et yderst uhyggelig selskap i det blanke, hvite brev som laa foran ham paa pulten med rektors fine, regelm&#x00E6;ssige utenpaaskrift til hans far.</p>
+<p>Svend Bidevind sat selv saa blek som det blanke papir. Det <emph>var</emph> der altsaa: Opgj&#x00F8;ret.</p>
+<p>Her i brevet stod det naturligvis altsammen, klart og ub&#x00F8;nh&#x00F8;rlig sat frem for far &#x2013; om at han, Svend Bidevind, gik her paa skolen dag ut og dag ind som den der intet hadde med det hele at gj&#x00F8;re; som, mens de andre guttene l&#x00E6;ste og str&#x00E6;vet, bare gjettet og snek sig unna; og naar far hver maaned betalte skolepengene, var det som at kaste pengene ut av vinduet. Og det var ikke mangel paa evner, som med S&#x00F8;ren Manddraber, stakkar; nei, det var idel dovenskap, elendig, jammerlig ...!</p>
+<p>Han la hodet ned i h&#x00E6;nderne; det gjorde ondt dypt nede i maven. Kanske stod der ogsaa om at han skrev vers i timen istedenfor at f&#x00F8;lge med og h&#x00F8;re efter!</p>
+<p>Far vilde faa det hele at vite. Han vilde <pb n="41"/>gaa op paa skolen og tale med rektor; saa fik han endnu mere at vite!</p>
+<p>Svend Bidevind saa for sig fars ansigt. Saa rent s&#x00F8;rgmodig!</p>
+<p>&#x2013; Hvad skal vi gj&#x00F8;re med dig, Svend? vilde far si. Og saa vilde han tale med mor. Mest om aftenen, naar de var gaat og lagt sig. Og dagen efter vilde vel beslutningen komme.</p>
+<p>&#x2013; Vi faar opgi skolen for dig, Svend. Du faar gaa en anden vei!</p>
+<p>Og det vimret for Svend Bidevinds tanke: Tilsj&#x00F8;s &#x2013; eller paa mekanisk verksted, bli ingeni&#x00F8;r kanske. Snekkerl&#x00E6;re &#x2013;? Eller i en butik, bli handelsmand ...</p>
+<p>Hvad stod der i Rektors brev?</p>
+<p>Han holdt det op mot lyset; men konvolutten var uigjennemtr&#x00E6;ngelig. Han la brevet flatt og klemte paa konvolutten; &#x2013;endnu mindre gjennemtr&#x00E6;ngelig! Han kikket ind gjennem det ulukkede &#x00F8;verste hj&#x00F8;rne af konvolutklaffen. Aapningen for liten. Indenfor saa han brevet sammenlagt &#x2013; &#x2013;</p>
+<p>Kanske var gummien l&#x00F8;s &#x2013; hvis han fik klaffen aapnet langs gummiranden, kunde han lime det sammen igjen med ny gummi!</p>
+<p>Forsigtig pr&#x00F8;vde han med pennekniven, lettet og l&#x00F8;ste. Men gummien var fast, kl&#x00E6;bet t&#x00F8;rt og godt, han vilde bare komme til at rive papiret med ...</p>
+<p><pb n="42"/>Han <emph>hadde</emph> alt revet i papiret!</p>
+<p>Det saa stygt ut. Konvolutklaffen var buklet ut oppe i hj&#x00F8;rnet; der hadde desuten v&#x00E6;ret noget stygt paa pennekniven, for papiret var blit skiddent. Og saa en rift opover, sletikke ganske liten heller!</p>
+<p>Dette vilde jo far straks merke!</p>
+<p>En&#x2013;to&#x2013;tre, der r&#x00F8;k hele konvolutten! I febrilsk hast trak han brevet ut, aapnet det &#x2013;</p>
+<p>&#x00AB;Hvis Svend skal komme efter i matematik, hvori han staar meget tilbake, maa han uomgj&#x00E6;ngelig faa nogen timers privatundervisning utenfor skolen.&#x00BB;</p>
+<p>Det var hvad der stod. Med rektor Holsts fine smaa bokstaver.</p>
+<p>I f&#x00F8;rste &#x00F8;ieblik pustet Svend Bidevind lettere. V&#x00E6;rre var det altsaa dog ikke &#x2013; dennegang!</p>
+<p>Men saa stivnet det igjennem ham: Han havde brutt rektors brev til far! Det nyttet jo ikke at l&#x00E6;gge det ind igjen i den fillete konvolutten! Han t&#x00E6;nkte paa at gaa indom papirhandleren og kj&#x00F8;be sig en ny konvolut. Men saa utenpaaskriften &#x2013;&#x00BB;</p>
+<p>Med koldsveden i panden gik Svend Bidevind bort til ovnen. Paa bunden laa der gl&#x00F8;r under asken. Han grov rektors blanke, stive brevpapir ned i den, rotet rundt &#x2013; endelig <pb n="43"/>fattet det, og en klar flamme blusset op. Saa var rektors brev kul.</p>
+<p>I det samme slog klokken tre slag nede i gangen; Svend Bidevind pakket sammen og gik ut gjennem de tomme ganger.</p>
+<p>Hjemover gik han langsomt. Han t&#x00E6;nkte og grublet. Det var jo nemlig en maate dette &#x2013; rent totalt at bli kvit det hele ved bare at br&#x00E6;nde dokumentene op!</p>
+<p>Nu skulde altsaa far forevise anmerkningen. Saa hadde han iforgaars faat 4 i norsk mundtlig, hvilket var en skam; igaar blev to karakterer indf&#x00F8;rt for latinsk stil &#x2013; hjemmestilen og skolestilen. Det var 3.5 og 4.</p>
+<p>Alt dette sammen med anmerkningen og gjensitningen &#x2013; &#x2013; &#x2013;!</p>
+<p>Men det da at ha mistet karakterboken var vel omtrent det v&#x00E6;rste som kunde meldes paa skolen! <emph>Karakterboken</emph>! Den var jo som den helligste blandt b&#x00F8;kerne den.</p>
+<p>Svend Bidevind gik og regnet: Det var den sidste i maaneden. Fik han ny karakterbok nu, vilde den begynde med Iste mai. Den forl&#x00F8;pne maaned vilde naturligvis ikke bli indf&#x00F8;rt; den vilde i det hele v&#x00E6;re som str&#x00F8;ket bort, rent ikke til; Ja, hvad der saa blev gjort ham, om han hadde mistet karakterboken, &#x2013; det veiet dog ikke op den umaadelige fordel ved at bli den kvit just nu.</p>
+<p><pb n="44"/>T&#x00E6;nk at bli kvit hele den blytunge hjertebyrde &#x2013; slippe at forevise for far ...!</p>
+<p>Bare ved at putte den tynde, uhyggelige boken i ovnen!</p>
+<p>Svend Bidevind var hjemme. Han gik op gangtrappen. Der var stille i huset. Fra kj&#x00F8;kkenet h&#x00F8;rte han klir og klang av opvasken.</p>
+<p>Det var jo l&#x00E6;nge efter middagen.</p>
+<p>Inde i entr&#x00E9;en kom s&#x00F8;ster Johanne imot ham &#x2013; hun var yngre end Svend Bidevind &#x2013; og saa paa ham med et knusende foragtelig blik.</p>
+<p>&#x2013; Du som har sittet igjen; Aa gid!</p>
+<p>&#x2013; Det skjeller ikke dig! Har vi spist?</p>
+<p>&#x2013; For l&#x00E6;nge siden.</p>
+<p>&#x2013; Hvor er far?</p>
+<p>&#x2013; Han sover middag.</p>
+<p>&#x2013; Og mor?</p>
+<p>&#x2013; Mor ogsaa, naturligvis. Jo, du faar av far!</p>
+<p>&#x2013; Mat vil jeg ha!</p>
+<p>&#x2013; Du! Gjensitteren! Far sa du skulde ingen mat ha!</p>
+<p>Svend Bidevind saa skarpt, tvilende paa s&#x00F8;steren &#x2013; om hun l&#x00F8;i eller &#x2013;?</p>
+<p>&#x2013; Hyss&#x2013;s&#x2013;ss&#x2013;da!</p>
+<p>Det var s&#x00F8;ster Andrea, den &#x00E6;ldre, som kom fra stuen.</p>
+<p>&#x2013; Vet dere ikke far og mor sover! End du, Svend!</p>
+<p><pb n="45"/>&#x2013; Jeg, ja! Pyt, det er ogsaa noget at bry sig om! Vi har sittet igjen hele klassen altsaa, fordi vi havde lagt over at negte at regne stykkerne til Lange &#x2013; umulige, ser du! <emph>Jeg</emph> kunde da ikke s&#x00E6;tte mig til at regne, naar alle de andre var enige altsaa! H&#x00F8;!</p>
+<p>&#x2013; Forf&#x00E6;rdelig uskikkelig gjort av hele klassen! sa Andrea strengt &#x2013; men &#x00F8;iensynlig lettet.</p>
+<p>&#x2013; Du Drea, &#x2013; er far f&#x00E6;lt vond?</p>
+<p>&#x2013; Han trodde vel det var dig alene som sat igjen.</p>
+<p>&#x2013; Er det sandt at jeg ingen mat faar?</p>
+<p>&#x2013; Aanei, jeg har sat av til dig. Kom da. Svend Bidevind og Drea gik sammen ut i kj&#x00F8;kkenet. Her brummet Janna kokkepike om</p>
+<p>&#x2013; Denne gutungen, som en skal ha ekstra opvartning til!</p>
+<p>&#x2013; Hyssch! sa Drea og aapnet for stekeovnen, hvor lokkefatene stod.</p>
+<p>Det er vel bare fisk? spurte Svend Bidevind og saa ind i den svarte ovn. Han kunde ha &#x00E6;tt baade fater og lok, saa sulten var han.</p>
+<p>S&#x00F8;ster Drea svarte ikke, tok fatene og gik med dem ind i spisestuen. Svend efter. Paa bordet var der d&#x00E6;kket til ham &#x2013; sv&#x00E6;rt koselig forresten! Saa kom lokket av det store fatet.</p>
+<p><pb n="46"/>&#x2013; Kj&#x00F8;tkaker!</p>
+<p>Livretten altsaa.</p>
+<p>&#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013;</p>
+<p>Morgenen efter gik Svend Bidevind til skolen med b&#x00F8;kerne under armen; iblandt dem manglet &#x00E9;n: karakterboken. Den var den tyndeste av alle b&#x00F8;kerne, og dog var det som bokpakken den morgen var svundet ind til n&#x00E6;sten ingenting under armen hans!</p>
+<p>Han havde ligget vaaken en hel time inat og grublet.</p>
+<p>Det gjaldt at finde paa noget absolut ekstra. Noget hvorom der simpelthen ikke kunde tales.</p>
+<p>Og han havde fundet det ut tilslut.</p>
+<p>Men han koldsvedet der han gik nedefter gaten, og stemmen skalv, mens han gik og mumlet halvh&#x00F8;it frem for sig hvad han hadde bestemt sig til at si.</p>
+<p>Det heldige var at de ikke hadde matematik f&#x00F8;r iovermorgen, saa blev der ingen snak med Lange.</p>
+<p>Det vanskelige var at faa fat i Svenningsen, som var klasseforstander, paa forhaand og for sig selv, saa der ikke blev nogen forh&#x00F8;relse av de andre, nogen gjentagelse.</p>
+<p>Inde i skolegangen saa han efter paa den store timetabel, og fandt ut at Svenningsen l&#x00E6;ste f&#x00F8;rste time i 3dje middel.</p>
+<p><pb n="47"/>Guttene kom stimende, flokkevis og enkeltvis. Svend Bidevind hadde tat post ved hj&#x00F8;rnet av gangen indover til smaaklasserne, hvor 3dje middel var l&#x00E6;ngst inde. Guttene gik forbi ham, smaa og store, nogen gik videre trappen op, andre ind smaaklassegangen, atter andre gangen likeoverfor; hver forsvandt bak sin d&#x00F8;r. Svend Bidevind maatte t&#x00E6;nke paa ifjor sommer, da de laa paa landet, &#x2013; naar b&#x00F8;lingen kom hjem om kveldene, og alle kj&#x00F8;rene seg ind i fj&#x00F8;set, hver fandt av sig selv frem til sin baas.</p>
+<p>Nogen spurte hvorfor han stod her? Han svarte et eller andet. Klassev&#x00E6;relserne blev fuldere, larmen indenfor d&#x00F8;rene steg, der var en forskjellig slags larm i hver klasse.</p>
+<p>Svend Bidevind var tr&#x00E6;t av at staa, og eftersom han t&#x00E6;nkte paa hvad han hadde at melde til Svenningsen, blev han avvekslende r&#x00E6;d og blek og atter modig.</p>
+<p>Endelig ringte det ind, og Svenningsen kom fra l&#x00E6;rerv&#x00E6;relset. Han gik sammen med overl&#x00E6;rer<note type="footnote">overl&#x00E6;rer] <hi rend="italic">rettet fra:</hi> over l&#x00E6;rer <hi rend="italic">(trykkfeil)</hi></note> S&#x00F8;mme. Paa hj&#x00F8;rnet mellem gangene stanset de og talte sammen. Det varte en stund; Svend Bidevind stod like ved og grudde sig, saa det suget og skrek inde i maven paa ham.</p>
+<p>Endelig skiltes de to med en latter, og Svenningsen svinget ind mot 3dje middel.</p>
+<p>&#x2013; Undskyld, hr. Svenningsen ...</p>
+<p><pb n="48"/>&#x2013; Nu, hr. Svend, hvad er det paa morgenkvisten?</p>
+<p>&#x2013; Jeg vilde bare &#x2013; bare melde at jeg har v&#x00E6;ret saa uheld &#x2013; uheldig at &#x2013; miste karakterboken.</p>
+<p>&#x2013; Miste karakterboken? Hvad er det for sludder! Du maa da kunne finde den igjen!</p>
+<p>&#x2013; J&#x2013;a, jeg kunde nok det ogsaa &#x2013; men ....</p>
+<p>&#x2013; Hvor har du mistet den? Her eller hjemme?</p>
+<p>&#x2013; Det var nok hjemme, men ....</p>
+<p>&#x2013; Saa let om igjen hjemme! sa Svenningsen og vilde gaa videre.</p>
+<p>&#x2013; Nei &#x2013; det &#x2013; det gaar nok ikke an heller ....</p>
+<p>&#x2013; Hvor har du gjort av den da gut?</p>
+<p>&#x2013; Det er saa generlig at si det ....</p>
+<p>&#x2013; Hvad er dette for snak! Hvor har du gjort av karakterboken?</p>
+<p>&#x2013; Den &#x2013; jeg var saa uheldig at miste den &#x2013; undskyld &#x2013; men &#x2013; i do.</p>
+<p>&#x2013; I &#x2013; &#x2013;</p>
+<p>Svend Bidevind stod med nedslagne &#x00F8;ine. Svenningsen slog op en latter:</p>
+<p>&#x2013; Ja, da har du ret &#x2013; da er det vist ikke v&#x00E6;rdt vi s&#x00F8;ker videre efter den! Du faar kj&#x00F8;pe dig en ny en da.</p>
+<p><pb n="49"/>&#x2013; Ja, om jeg kunde faa lov til at l&#x00F8;pe straks ned til bokhandleren?</p>
+<p>&#x2013; Hvorfor straks? Vent til frikvarteret.</p>
+<p>&#x2013; Det er bare &#x2013; saa leit, om jeg skulde bli n&#x00F8;dt til at fort&#x00E6;lle det &#x2013; oppe i klassen.</p>
+<p>&#x2013; Naa &#x2013; ja, saa l&#x00F8;p da!</p>
+<p>Svend Bidevind sprang.</p>
+<p>Og nedover gaten var det som verden var blit lysere, luften lettere &#x2013; hurra! det var overstaat.</p>
+<p>Med den blanke, nye karakterboken sprang han saa tilbake &#x2013; en verden av tyngsel laa bak ham, og i sit stille sind besluttet han sig til at med denne nye karakterboken skulde han begynde et nyt liv paa skolen!</p>
+<p>Det var jo ikke v&#x00E6;rre end bare at l&#x00E6;se litt hjemme.</p>
+<p>I et av frikvarterene stanset rektor Holst ham:</p>
+<p>&#x2013; Nu, Svend, hvad sa din far om mit brev?</p>
+<p>Svend Bidevind blev r&#x00F8;d.</p>
+<p>&#x2013; Jo, svarte han, &#x2013; jeg skal begynde at ta privatundervisning i matematik.</p>
+<p>&#x2013; Godt. La mig saa se du l&#x00E6;rer dine ting grundig.</p>
+<p>Solglansen han havde gaat i fra om morgenen, blev pludselig borte. Rektor klappet ham paa skulderen idet han<note type="footnote">han] <hi rend="italic">rettet fra:</hi> har <hi rend="italic">(trykkfeil)</hi></note> gik.</p>
+<p><pb n="50"/>Han skulde bare visst at brevet var br&#x00E6;ndt, &#x2013; at far aldrig hadde set det.</p>
+<p>Om han fik det at vite!</p>
+<p>Om han bare f. eks. m&#x00F8;tte far paa gaten en dag, og der blev snak om brevet?</p>
+<p>Umulig!</p>
+<p>Det gjaldt altsaa bare at klemme paa og puge matematik, saa de trodde han fik undervisning!</p>
+<p>Eller om han gik til far og sa at rektor hadde sagt &#x2013;? Nei, det var ikke raadelig. Saa kunde far finde paa at ville tale med rektor om det, og da kom det naturligvis op, det med brevet.</p>
+<p>Nei, bare klemme paa og arbeide!</p>
+<p>Det lysnet litt igjen inde i Svend Bidevind;<note type="footnote">Bidevind] <hi rend="italic">rettet fra:</hi> Bide vind <hi rend="italic">(trykkfeil)</hi></note> ja, han f&#x00F8;lte det som nogenslags tilskikkelse at han paa denne maate blev n&#x00F8;dt til at l&#x00E6;re matematik.</p>
+<p>Hel solglans &#x2013; som imorges &#x2013; blev det nu ikke. Han gik og f&#x00F8;lte rektors haand paa skulderen hele dagen. Han hadde klappet ham saa rent venlig.</p>
+<p>Mens han stod og l&#x00F8;i!</p>
+<figure rend="asterisk"/>
+<p><pb n="51"/>&#x2013; Du kan naar bare du vil du, Svend far!</p>
+<p>Det forl&#x00F8;d pludselig fra alle kanter, baade paa skolen fra l&#x00E6;rerne og hjemme, naar han kom hjem til middagene og kunde berette om enere baade i historie, geografi, tysk, latin, religion.</p>
+<p>Det var det nye liv med den nye karakterboken.</p>
+<p>&#x2013; Tar du privatundervisning altsaa? spurte kandidat Lange, han stod med Svend Bidevinds hjemmeopgaver, fire ligninger, hver med sit &#x00AB;R&#x00BB; med blaablyant og under det sidste en lang 1&#x0027; er.</p>
+<p>&#x2013; J&#x2013;a, svarte Svend Bidevind med nedslagne &#x00F8;ine.</p>
+<p>&#x2013; Med hvem da?</p>
+<p>&#x2013; Med &#x2013; kandidat Winther.</p>
+<p>&#x2013; Det er godt. Ja, la ham bare fremdeles gjennemgaa opgaverne med dig.</p>
+<p>&#x2013; Ja.</p>
+<p>Det var ingen sak med det nye liv paa den nye karakterboken. Alt ondt med karakterboken var forbi med den gamle boks ford&#x00E6;rvelse og forsvinden. Han havde l&#x00F8;iet den ene gangen, og saa var det ikke mere. Desuten &#x2013; det var jo bare for Svenningsen!</p>
+<p>Med &#x00AB;privatundervisningen&#x00BB; i mathematik var det helt anderledes, meget v&#x00E6;rre. Han blev aldrig kvit det; fra den stund han hadde br&#x00E6;ndt <pb n="52"/>rektors brev, hadde han bundet sig fast til noget ondt som aldrig slap; som vokste! Det ene drog det andet med sig &#x2013; l&#x00F8;gn og evig angst, ny l&#x00F8;gn, st&#x00F8;rre og mangfoldigere angst! Fastere og fastere sat han i det, l&#x00E6;ngere og l&#x00E6;ngere bort kom han fra nogen utvei.</p>
+<p>Det nyttet ikke at l&#x00E6;se matematikken for sig selv. Alt det han str&#x00E6;vet &#x2013; bare umuligere blev det at forstaa. Og allikevel maatte han v&#x00E6;re flink, bli flinkere og flinkere for Lange. Han tok jo privatundervisning! Og hver dag kunde far og rektor m&#x00F8;tes og komme til at tale om brevet. Nu var jo det fjernere likesom. V&#x00E6;rre var det med kandidat Winther. Hvis nu Lange snakket til Winther! Bare spurte f. eks. om fremgangen! Det kunde let nok h&#x00E6;nde. Han hadde m&#x00F8;tt Lange og Winther sammen paa gaten en dag; livsens r&#x00E6;d f&#x00F3;r han ind i et portrum for ikke at bli set av dem. Hadde de set ham, var selvf&#x00F8;lgelig talen straks faldt paa hans privatundervisning! Siden gik han i skj&#x00E6;lvende angst for hvert gatehj&#x00F8;rne .....</p>
+<p>Alt fordi han hadde br&#x00E6;ndt brevet.</p>
+<p>Saa gjerne han kunde latt det v&#x00E6;re ogsaa!</p>
+<p>Men det var jo r&#x00E6;dselen dengang: Han visste jo ikke hvad der stod i det!</p>
+<p>V&#x00E6;rst av alt var at hjemmeopgaverne <emph>maatte</emph> v&#x00E6;re rigtige hvergang. Dem skulde <pb n="53"/>jo kandidat Winther ha gjennemgaat! Det fik staa hen og se at klare sig paa s&#x00E6;tt og vis med skoleopgaverne og med hver dags lekser.</p>
+<p>De matematiske hjemmeopgaver blev indlevert fredag i sidste time, 1&#x2013;2. Nu hadde kandidat Lange for fast skik at la alle b&#x00F8;kerne bli liggende i katederskapet og f&#x00F8;rst ta dem dagen efter, l&#x00F8;rdag kl. 12, da han hadde en fritime; saa rettet han opgaverne i den timen inde paa l&#x00E6;rerv&#x00E6;relset. Paa den maaten slap han at dra den digre bokbunken med sig hjem hver fredag middag.</p>
+<p>Svend Bidevind kom hver l&#x00F8;rdag morgen paa skolen 20 minutter f&#x00F8;r 8. Han hadde med sig en liten bl&#x00E6;kflaske med hjemmebl&#x00E6;k. Katederskapet var aldrig laast, og i bunken fandt han frem Anton Bechs bok; i lynende hast skrev han saa Antons opgaver av i sin egen bok &#x2013; til kl. 8 var han f&#x00E6;rdig, og begge b&#x00F8;kerne inde i Langes bunke.</p>
+<p>Slik greide han altsaa hjemmeopgaverne.</p>
+<p>Men det var en st&#x00F8;it at ta dette &#x2013; hver l&#x00F8;rdag morgen med angst for at nogen skulde komme!</p>
+<p>Dette var ogsaa som han skammet sig for at fort&#x00E6;lle det til Anton Bech. En l&#x00F8;rdags morgen kom Anton saa tidlig paa skolen at han saa Svend Bidevind sitte med hans regnebok.</p>
+<p><pb n="54"/>&#x2013; Jeg trodde Winther forklarte det for dig altsammen?</p>
+<p>&#x2013; Ja, ser du, men jeg skj&#x00F8;nner det aldrig ganske allikevel.</p>
+<p>&#x2013; Ja &#x2013; min bok kan du saa gjerne faa bruke!</p>
+<p>Igrunden kunde han jo gjerne sagt det hele til Anton. Han hadde lyst til det ogsaa, hadde en f&#x00F8;lelse av at Anton Bech kanske kunde hj&#x00E6;lpe ham ut av al denne lumre luft! Ja, bare det at fort&#x00E6;lle det til en syntes han vilde hjulpet!</p>
+<p>Men han kom sig ikke til. Der var noget over Anton Bech, saa klar, saa grei, bentfrem en kar som han var, &#x2013; det passet ikke at komme til ham med et br&#x00E6;ndt brev, l&#x00F8;gn og elendighet!</p>
+<p>Overhodet gik han alene med alt dette. Der var noget eget ondt i at far derhjemme paa en maate ogsaa var blandet ind i hans aff&#x00E6;rer; han skulde jo hat brevet fra rektor. Hver aften, naar far og mor kom hjem fra sin tur f&#x00F8;r aftensmaten, gik Svend Bidevind med ondt i maven og lurte og keg efter fars ansigt &#x2013; om han mulig hadde truffet rektor og talt om brevet.</p>
+<p>Og hver morgen, ja hver time paa skolen var den evige angst. Kom rektor ind i timens l&#x00F8;p, gik r&#x00E6;dselen gjennem Svend Bidevind som <pb n="55"/>is og ild &#x2013; for om det skulde gj&#x00E6;lde ham &#x2013; brevet, kandidat Winther, Anton Bechs bok ....</p>
+<p>Ellers klemte han paa med at l&#x00E6;re leksene. Hvad der drev ham mest her, var en f&#x00F8;lelse av at han maatte se til paa al vis at stemme dem vel mot sig alle l&#x00E6;rerne, skaffe sig velvilje hos dem &#x2013; til den dag da det kanske br&#x00F8;t l&#x00F8;s!</p>
+<p>&#x2013; Jeg synes Svend blir mager og blek om dagen, mor, sa far en dag ved middagsbordet.</p>
+<p>&#x2013; Han<note type="footnote">&#x2013; Han] <hi rend="italic">rettet fra:</hi> Han <hi rend="italic">(trykkfeil)</hi></note> str&#x00E6;ver rigtig meget, ser du, svarte mor, &#x2013; med leksene. Is&#x00E6;r er det matematikken som er slem, ikke sandt, Svend?</p>
+<p>&#x2013; Jo svarte Svend &#x2013; det er is&#x00E6;r matematikken.</p>
+<p>&#x2013; Jaja, gutten min, sa far, &#x2013; klem bare paa til du er ovenpaa, saa gaar det lettere!</p>
+<p>Far nikket til ham. De var i det hele saa s&#x00F8;te og snille mot ham i den senere tiden, saa glade for ham!</p>
+<p>&#x2013; Bare komme ovenpaa ja! nikket far!</p>
+<p>Taarerne satte sig pludselig op i &#x00F8;inene paa Svend Bidevind &#x2013; og hele elendigheten, disse ukers n&#x00F8;d og angst slog som en sv&#x00E6;r b&#x00F8;lge igjennem ham &#x2013; &#x2013; aa, om han kunde faa lagt sig ind til far nu og faa sagt ham alt, alsammen baade om brevet og alt!</p>
+<p><pb n="56"/>&#x2013; Kj&#x00E6;re gutten min da! Du maa ikke graate da!</p>
+<p>&#x2013; Ne&#x2013;hei da!</p>
+<figure rend="asterisk"/>
+<p>Fire uker var gaat paa dette vis, og det var fredag. Da Anton Bech og Svend Bidevind som sedvanlig i den senere tid gik hjemover sammen fra skolen, sa Anton Bech:</p>
+<p>&#x2013; Hvis du skulde ha bruk for at skrive stykkerne mine av imorgen, saa har jeg bare f&#x00F8;rt selve opgaverne ind i boken. Utregningen staar paa l&#x00F8;s kladd, som jeg har lagt indi. Jeg har fri sangtimen kl. 10 imorgen, og da f&#x00F8;rer jeg regningen ind, skj&#x00F8;nner du, &#x2013; fik ikke tid igaar. For sikkerhets skyld, om Lange skulde set efter, vilde jeg allikevel ha kladden liggende der, saa han ikke skulde komme og si at jeg ikke hadde regnet! Men husk at passe paa, saa du ikke mister den kladdlappen da du!</p>
+<p>&#x2013; Javel. Naturligvis.</p>
+<p>Morgenen efter sat Svend Bidevind alene i klassen og skrev av efter Antons kladd. Det var bare to stykker, og det gik fort. Da han var f&#x00E6;rdig, klapped han boken sin sammen og la den midt inde i Langes bunke i skapet.</p>
+<p><pb n="57"/>I det samme han saa skulde l&#x00E6;gge den l&#x00F8;se kladd ind igjen i Antons bok, veltet han bl&#x00E6;khuset sit &#x2013; og saa svinagtig uheldig at bl&#x00E6;kket fl&#x00F8;d utover kladden og smurte den til ganske ul&#x00E6;selig. Den var skrevet med blyant ogsaa ....</p>
+<p>Han stod et &#x00F8;ieblik raadl&#x00F8;s. Der hadde han &#x00F8;delagt Anton Bechs kladd, som han hadde bedt ham passe paa!</p>
+<p>Naa, der var ikke andet at gj&#x00F8;re end at faa skrevet en ny kladdlap og l&#x00E6;gge ind i Antons bok i den &#x00F8;delagtes sted. Og han fandt frem et l&#x00F8;st papir og en blyant, og rotet i katederskapet efter sin regnebok.</p>
+<p>Da han satte sig til at skrive av, saa han at det var Simon Selmers regnebok, han i farten hadde faat fat i istedenfor sin egen.</p>
+<p>Naa, det gjorde jo det samme, naturligvis! Og det hastet, han hadde ikke tid til at rote omigjen efter sin egen bok!</p>
+<p>Saa fort blyanten kunde fare over papiret skrev han l&#x00F8;s, og endnu f&#x00F8;r klokken blev 8 var han f&#x00E6;rdig, den nye kladd lagt ind i Antons bok, og baade Antons og Simon Selmers regneb&#x00F8;ker vel forvaret i bunken i skapet.</p>
+<p>Klokken 10 var det sangtime. Svend Bidevind saa Anton Bech ta sin regnebok i skapet. Klokken 11 var de igjen sammen i norsktimen. Svend Bidevind var litt sp&#x00E6;ndt. Men Anton <pb n="58"/>Bech sa ingenting; han hadde vist ikke engang merket at kladden var en anden end hans egen!</p>
+<figure rend="asterisk"/>
+<p>Det var onsdag, klokken 9. Fra 9&#x2013;10 var det matematik, og kandidat Lange kom.</p>
+<p>De skulde ha igjen hjemmeopgaverne; det var f&#x00F8;rst i timen. Og Svend Bidevind var altid let om hjertet, naar det var over uten videre snak.</p>
+<p>Kandidat Lange var idag sv&#x00E6;rt alvorlig. Guttene var glade i ham, han var saa vakker, saa ung og sv&#x00E6;rt likefrem og hyggelig. Men idag var han som sagt sjelden alvorlig.</p>
+<p>Han stod en stund med den h&#x00F8;ie bunke regneb&#x00F8;ker foran sig paa katederet.</p>
+<p>&#x2013; Hvem var ordensmand her i forrige uke? spurte han pludselig.</p>
+<p>S&#x00F8;ren manddraber reiste sig op nederst nede.</p>
+<p>&#x2013; Det var mig.</p>
+<p>&#x2013; Kom her frem, S&#x00F8;ren.</p>
+<p>S&#x00F8;ren kom &#x2013; skj&#x00E6;lvende. Der var altid noget galt med S&#x00F8;ren manddraber, det var man vant til.</p>
+<p>&#x2013; Du S&#x00F8;ren &#x2013; har nogen v&#x00E6;ret og rotet i regneb&#x00F8;kerne her i skapet i l&#x00F8;rdags?</p>
+<p><pb n="59"/>Dette vakte opmerksomhet. De fleste av guttene hadde jo sin samvittighet her &#x2013; av regneb&#x00F8;kerne som laa saa bekvemt i det ulaaste skap om l&#x00F8;rdagene.</p>
+<p>Midt i klassen l&#x00F8;d der et st&#x00F8;n som ingen forresten agtet paa. Det var Svend Bidevind som var blit blodr&#x00F8;d i ansigtet, og som nu skyndte sig at dukke hodet under pulten.</p>
+<p>&#x2013; Svar nu, S&#x00F8;ren!</p>
+<p>&#x2013; N&#x2013;nei, ikke det jeg vet, stammet S&#x00F8;ren Manddraber.</p>
+<p>&#x2013; Du forstaar, S&#x00F8;ren far, jeg sp&#x00F8;r fordi jeg vil ha det at vite. Jeg sp&#x00F8;r ogsaa fordi du er ansvarlig som ordensmand.</p>
+<p>Idet kandidat Lange sa dette, saa han visst og l&#x00E6;nge ned paa Anton Bech paa f&#x00F8;rste b&#x00E6;nk.</p>
+<p>S&#x00F8;ren Manddraber stod og saa i gulvet uten at svare. Langsomt vendte han paa hodet og saa &#x2013; ogsaa han mot Anton Bech, stjaalent.</p>
+<p>Pludselig reiste Anton Bech sig raskt. Han gjorde et kast med hodet som han pleiet &#x2013; halv trodsig:</p>
+<p>&#x2013; Jeg var i skapet hr. kandidat, l&#x00F8;rdag kl. 10.</p>
+<p>Kandidat Lange bet sig i l&#x00E6;ben.</p>
+<p>&#x2013; Jeg frygtet for det, Anton Bech, sa han. &#x2013; Du kan gaa paa plads, S&#x00F8;ren.</p>
+<p>S&#x00F8;ren Manddraber gik b&#x00E6;nkeradene nedover. <pb n="60"/>Ingen saa l&#x00E6;nger paa ham. Alle stirret paa Anton Bech som stod deroppe.</p>
+<p>&#x2013; Hvad hadde du der at gj&#x00F8;re?</p>
+<p>&#x2013; Jeg hadde ikke faat tid i fredags til at skrive ind i boken mere end bare opgaverne. Utregningen hadde jeg lagt indi paa kladd. Saa f&#x00F8;rte jeg den ind i sangtimen som jeg hadde fri for vondt i halsen.</p>
+<p>Kandidat Lange stod og saa n&#x00E6;sten m&#x00F8;rkt alvorlig paa Anton Bech. Det varte en stund. Saa sa han:</p>
+<p>&#x2013; At du for en gangs skyld har nedlatt dig til at fuske, Anton Bech, kunde jeg tilgi dig, saa flink en gut du er. Men saapas &#x00E6;rlig kar har jeg holdt dig for at jeg ikke trodde du siden vilde lyve dig fra det.</p>
+<p>&#x2013; Det var ikke fusk! sa Anton Bech &#x2013; han gjorde et ryk ut av sin b&#x00E6;nk.</p>
+<p>Kandidat Lange saa foragtelig paa ham &#x2013; samtidig ogsaa n&#x00E6;sten bedr&#x00F8;vet. Han tok frem to regneb&#x00F8;ker.</p>
+<p>&#x2013; Se her finder jeg to besvarelser. Den ene er Simon Selmers, den anden Anton Bechs. Simon Selmer ser jeg har skrevet den ene opgave galt ind. Han har skrevet 3 <hi rend="italic"><hi rend="raised">x</hi></hi> istedenfor 5<hi rend="italic"><hi rend="raised">x</hi></hi>. Utregningen er rigtig, men resultatet er galt, eftersom opgaven har 5<hi rend="italic"><hi rend="raised">x</hi></hi> og ikke 3<hi rend="italic"><hi rend="raised">x</hi></hi>. Den samme opgave har du, Anton Bech, skrevet <pb n="61"/><emph>rigtig</emph> op. Men din utregning og dit resultat er akkurat Simon Selmers. Du har hele regningen igjennem regnet, du ogsaa, med 3<hi rend="italic"><hi rend="raised">x</hi></hi>, uagtet du i opgaven ganske rigtig har skrevet 5<hi rend="italic"><hi rend="raised">x</hi></hi>. Hvordan skal jeg forstaa dette?</p>
+<p>Anton Bech svarte ikke. Guttene sad bak ham i klassen saa stille saa en knappenaal kunde h&#x00F8;res falde. De saa Anton Bechs nakke bli r&#x00F8;d under kr&#x00F8;lhaaret.</p>
+<p>Kandidat Lange fortsatte:</p>
+<p>&#x2013; Du sier selv at du har skrevet din regning ind her i l&#x00F8;rdags &#x2013; efter indleveringen i fredags. Du har skrevet regningen av efter Simon Selmers bok. Du har fusket. Og det nytter dig ikke at ville lyve dig fra det. Hvad du helst ikke skulde ha indlatt dig paa. V&#x00E6;rsaagod, her er din bok. Jeg har git dig 6 for fusk. For&#x00F8;vrig vil jeg tale med rektor om hvad videre skal gj&#x00F8;res. Hadde du ikke staat her og l&#x00F8;iet, hadde jeg latt dig slippe med 6&#x0027;eren.</p>
+<p>Kandidat Lange rakte boken frem over katederet. Anton Bech tok den ikke.</p>
+<p>&#x2013; Jeg tar ikke mot Deres 6&#x0027; er. Jeg har ikke fusket. Jeg &#x2013; jeg maa ha skrevet feil i regningen &#x2013; 3<hi rend="italic"><hi rend="raised">x</hi></hi>.</p>
+<p>&#x2013; Sludder, gut! sa Lange og sl&#x00E6;ngte boken ned til ham. &#x2013; S&#x00E6;t dig ned.</p>
+<p><pb n="62"/>&#x2013; Jeg lyver ikke! ropte Anton Bech. Regneboken<note type="footnote">Regneboken] <hi rend="italic">rettet fra:</hi> Regnebokens <hi rend="italic">(trykkfeil)</hi></note> hans faldt paa gulvet.</p>
+<p>Kandidat Lange tok alle regneb&#x00F8;kerne, reiste sig og gik rolig ned av katederet. Han stanset foran Anton Bech og sa alvorlig:</p>
+<p>&#x2013; Jeg har l&#x00E6;nge v&#x00E6;gret mig for at tro det. Det gjorde mig ondt, Anton Bech, at se at du fusket efter Simon Selmer, &#x2013; at du nu lyver, gj&#x00F8;r mig meget, meget mere ondt. S&#x00E6;t dig, gutten min!</p>
+<p>Hvorpaa Lange gik nedover klassen og delte ut b&#x00F8;kerne til hver av guttene. For hver gut viste han feilene, hvis der var feil, pekte og forklarte. Han saa ikke mere efter Anton Bech, som litt efter tok sin bok op fra gulvet og satte sig, mens han unders&#x00F8;kte den og sin regning.</p>
+<p>Kandidat Langes rolige stemme l&#x00F8;d fra plads til plads nedover klassen. Men det var som guttene sad forfjetret, og alt i et l&#x00F8;d Langes:</p>
+<p>&#x2013; Du maa h&#x00F8;re efter, gut!</p>
+<p>Nede i midten av klassen forl&#x00F8;d det:</p>
+<p>&#x2013; Der er jo, min kj&#x00E6;re Svend, fremdeles en sv&#x00E6;r forskjel mellem dine hjemmeopgaver og dine skoleopgaver. Disse er jo altsaa ganske rigtige. Ja, &#x2013; nei, du beh&#x00F8;ver ikke se saa &#x2013; saa skamfuld ut for det! Jeg har sagt dig, at du skal la hr. kandidat Winther gjennemgaa dine hjemmeopgaver for dig. Jeg mener bare <pb n="63"/>at du faar se at huske litt med dig, naar du sitter paa skolen og regner! Det er jo som oftest samme slags opgaver!</p>
+<p>Svend Bidevind saa ikke op; han tok imot boken sin med h&#x00E6;nder som skalv. Han var het i tindingene.</p>
+<p>&#x2013; Nei, kj&#x00E6;re dig da gut, jeg mener det ikke saa farlig! Det kommer nok, ser du! Bare du er rigtig opmerksom og flittig ogsaa hos herr Winther. Forresten maa du hilse hr. Winther fra mig og si ham at du s&#x00E6;rlig tr&#x00E6;nger at gaa igjennem begyndelsesgrundene. Der er du altfor vaklende! Naa &#x2013; ved leilighet kan jeg si det selv til Winther! &#x2013; Ja, jeg har altsaa git dig 1 dennegang ogsaa; jeg gaar ut fra at du virkelig selv ogsaa har arbeidet med opgaverne!</p>
+<p>Kandidat Lange gik videre.</p>
+<p>Svend Bidevind sat igjen. Hans ansigt var nu blit blekt, meget blekt. Han sat og stirret opover mot f&#x00F8;rste b&#x00E6;nk, hvor Anton Bech sat foroverb&#x00F8;iet over sin regnebok.</p>
+<p>Da kandidat Lange var f&#x00E6;rdig med alle b&#x00F8;kerne, begyndte han at h&#x00F8;re. Og den f&#x00F8;rste var Simon Selmer.</p>
+<p>Der var &#x2013; det merket alle guttene &#x2013; noget eget triumferende i Simon Selmers stemme og hele v&#x00E6;sen. Og under h&#x00F8;ringen fremme ved <pb n="64"/>tavlen saa han av og til bort paa Anton Bech med en litt haanlig mine.</p>
+<p>Anton Bech sat som f&#x00F8;r, foroverb&#x00F8;iet. Regneboken hadde han lukket sammen.</p>
+<p>Nede i midten av klassen sat Svend Bidevind og stirret ufravendt opover &#x2013; mot Anton Bechs ryg.</p>
+<p>Timen gik forunderlig d&#x00F8;dsstille.</p>
+<p>Da det ringte, gik guttene ganske stilf&#x00E6;rdig ut ogsaa.</p>
+<p>Anton Bech gik midt iblandt dem; men der gjordes likesom plads for ham.</p>
+<p>Nede i skolegaarden likesaa. Han fors&#x00F8;kte at late som ingenting, snakket og lo. Men de andre trak sig bort.</p>
+<p>Det var ikke fordi de i nogen maate vilde vise ham foragt eller slikt. Nei, &#x2013; det var bare saa absolut ubegripelig det hele, saa rent vanskelig at tro. De generte sig for dette, &#x2013; kunde ikke finde ord for sig.</p>
+<p>Anton Bech blev staaende alene.</p>
+<p>Saa mange desto flere samlet de sig om Simon Selmer, som holdt sig i en anden ende av skolegaarden. Han snakket meget ivrig; guttene stod omkring ham og h&#x00F8;rte.</p>
+<p>Der var to partier i klassen, ett om Anton Bech og ett om Simon Selmer; fra gammel tid hadde det v&#x00E6;ret slik. Naturligvis, mange i <pb n="65"/>klassen h&#x00F8;rte ikke til noget parti ogsaa. Men de to hadde hver sin flok.</p>
+<p>Antons var den mindste. Han var igrunden hoven, Anton Bech nemlig. lalfald noksaa vanskelig at faa med paa fusking og slikt.</p>
+<p>Endda Simon Selmer, pughesten, &#x00AB;Zeloten&#x00BB;, var meget mindre likt, var hans &#x00AB;parti&#x00BB; dog st&#x00F8;rre. Han hjalp meget med fuskelapper og med stilene og opgaverne, Simon Selmer; men han tok sig altid betalt for det. S&#x00F8;ren Manddraber f. eks. holdt Simon Selmer med svisker, rosiner og slikt; S&#x00F8;ren Manddrabers far hadde kolonialbutik. Otar Ingebrigtsen stjal epler i sin fars have og bragte med paa skolen; han betalte to glasepler for en latinsk stil av Simon Selmer. O. s. v. Der gik ellers en gammel historie om at Vilhelm Gabrielsen engang hadde git Simon Selmer 10 &#x00F8;re for regnestykker.</p>
+<p>Saa skiftedes Anton Bech og Simon Selmer altsaa om nummer-&#x00E9;n-pladsen i klassen. Oftest holdt Simon den. Paa mange vis var der fiendskap mellem dem.</p>
+<p>Nu stod altsaa Simon Selmer med flokken om sig og bredte sig med at Anton Bech hadde fusket efter ham.</p>
+<p>Anton Bech saa sig om i skolegaarden. Langt nede ved gymnastiksalen saa han endelig</p>
+<p><pb n="66"/>Svend Bidevind, som ogsaa stod ganske alene. Han gik nedover til ham.</p>
+<p>&#x2013; Du Svend!</p>
+<p>&#x2013; Ja?</p>
+<p>&#x2013; Kj&#x00E6;re, se ikke saa forf&#x00E6;rdet ut! Du kan da vite jeg har ikke fusket &#x2013; efter Zeloten!</p>
+<p>&#x2013; Nei, <emph>det</emph> tror da ingen!</p>
+<p>&#x2013; Aa, de <emph>tror</emph> det nok. Men nu skal jeg snakke med rektor. Du, hvad jeg vilde spurt om: Brukte du kladden min i l&#x00F8;rdags?</p>
+<p>&#x2013; Nei.</p>
+<p>&#x2013; Naa, det er godt at vite det.</p>
+<p>N&#x00E6;ste time var norsk og overl&#x00E6;rer S&#x00F8;mme. Saa var det latin med overl&#x00E6;rer Bugge. Og baade S&#x00F8;mme og Bugge var underlig h&#x00F8;itidelige. Ingen av dem h&#x00F8;rte Anton Bech, men de saa tit ned paa ham.</p>
+<p>Der bredte sig en pinagtig h&#x00F8;itidelighet over hele klassen ved dette. Det var som noget laa under og ulmet &#x2013; bare rektor vilde komme, saa fik det luft, blev nogen endskap og avgj&#x00F8;relse.</p>
+<p>Tredje timen var Svenningsen i tysk.</p>
+<p>Han satte sig tilrette paa katederet og saa straks foragtelig ned paa Anton Bech. Saa kikket han igjennem protokollen.</p>
+<p>&#x2013; Kandidat Lange har git dig 6 for fusk <pb n="67"/>idag, h&#x00F8;rer jeg, Anton Bech. Den er ikke indf&#x00F8;rt.</p>
+<p>&#x2013; Den skal ikke bli indf&#x00F8;rt heller! svarte Anton Bech rolig.</p>
+<p>&#x2013; Jasaa?</p>
+<p>&#x2013; For jeg har ikke fusket.</p>
+<p>&#x2013; Jeg gj&#x00F8;r dig opmerksom paa at du er dristig, min kj&#x00E6;re Anton Bech. Du mener altsaa, at kandidat Lange lyver paa dig?</p>
+<p>&#x2013; Jeg mener at det er en feiltagelse.</p>
+<p>&#x2013; Ah &#x2013; saa! En liten feiltagelse! Naar du fusker, saa heter det &#x00AB;feiltagelse&#x00BB;, mener du: jaja &#x2013; kj&#x00E6;rt barn har mange navn! Slike feiltagelser honoreres dog uten persons anseelse her paa skolen med et 6-tal.</p>
+<p>Adjunkt Svenningsen begyndte at h&#x00F8;re Simon Selmer i overs&#x00E6;ttelsen. Han var ekstra blid mod Simon Selmer.</p>
+<p>Pludselig midt i stilheten banket det kort paa d&#x00F8;ren, og rektor kom ind; han var bet&#x00E6;nkt og endnu alvorligere end han pleiet. Han gik langsomt op til katederet, hvor Svenningsen gjorde plads for ham. F&#x00F8;rst hvisket han etpar ord til Svenningsen, som svarte hviskende, ivrig; de saa begge under dette ned paa Anton Bech.</p>
+<p>&#x2013; Anton Bech! sa rektor h&#x00F8;it.</p>
+<p>Anton reiste sig.</p>
+<p>&#x2013; Kandidat Lange har &#x00F8;nsket at jeg skulde <pb n="68"/>meddele dig hans og min beslutning i dine kameraters paah&#x00F8;r. Du har fusket. Den sangtime du i l&#x00F8;rdags hadde fri, har du benyttet til meget fr&#x00E6;kt at gaa ind i katederets skap, hvor du har uttat en av dine kameraters regneb&#x00F8;ker; for at spare dig selv m&#x00F8;ien har du avskrevet dennes regning. For denne forseelse har du erholdt din velfortjente sekser &#x2013; som enhver anden gut i klassen vilde faat for det samme. Naar du imidlertid derefter s&#x00F8;ker at undgaa din straf, idet du serverer en historie om en kladd eller lignende, da er kandidat Lange og jeg enige om ikke at straffe dig videre derfor. Samtlige dine l&#x00E6;rere er med mig blit pinlig ber&#x00F8;rt av at h&#x00F8;re disse ting om dig. Du er en gut, for hvem vi alle har megen agtelse og sympati. Jeg tror ogsaa at ha bemerket at dine kamerater deler disse f&#x00F8;lelser for dig. Vi har derfor forstaat at du maaske mere end andre har hat vanskelig for at tilstaa en slik forgaaelse som lumpen fusk. Naar du saa vil fors&#x00F8;ke at lyve dig fra den, er dette en misforstaat opfatning av dig av at du var bedre hjulpet med en l&#x00F8;gn end med en &#x00E6;rlig og aapen tilstaaelse. Vi har besluttet at tilgi dig denne misforstaaelse. Vi haaber at du s&#x00E6;tter den rette pris herpaa. Forstaar at vort gode omd&#x00F8;mme om dig paal&#x00E6;gger dig ansvar.</p>
+<p>Anton Bech stod og stred med sig selv <pb n="69"/>under rektors rolige tale. Da den var forbi,<note type="footnote">forbi] <hi rend="italic">rettet fra:</hi> forbt <hi rend="italic">(trykkfeil)</hi></note> svelget han graaten voldsomt og sa:</p>
+<p>&#x2013; Men jeg <emph>har</emph> ikke fusket.</p>
+<p>Rektors ransakende &#x00F8;ine saa paa ham:</p>
+<p>&#x2013; Har du ikke selv tilstaat at du tok din bok ut av skapet her l&#x00F8;rdag &#x2013; f&#x00F8;rte dine regninger ind i sangtimen?</p>
+<p>&#x2013; Jo&#x2013;o men ...</p>
+<p>&#x2013; Vims! sa rektor, bukket kort for Svenningsen og gik.</p>
+<p>Anton Bech mere faldt end satte sig ned paa b&#x00E6;nken; han la hodet paa armene over pulten og st&#x00F8;nnet.</p>
+<p>Svenningsen stod med ryggen til klassen og saa ut av vinduet. Etpar ganger vendte han sig ind mot Anton, som st&#x00F8;nnet h&#x00F8;it. Guttene sat stille.</p>
+<p>Endelig sa Svenningsen:</p>
+<p>&#x2013; Kan du ikke beherske dig, Anton Bech, faar du v&#x00E6;re saa god at gaa utenfor saal&#x00E6;nge.</p>
+<p>Anton Bech reiste sig og gik.</p>
+<p>Endnu en stund varte det f&#x00F8;r Svenningsen gjenoptok overs&#x00E6;ttelsen.</p>
+<p>Anton Bech kom ikke ind igjen; i n&#x00E6;ste time var han heller ikke paa plads.</p>
+<p>Han var gaat hjem.</p>
+<figure rend="asterisk"/>
+<p><pb n="70"/>Svend Bidevind gik hjemover. Han syntes ikke benene kunde b&#x00E6;re ham; han segnet og svigtet i kn&#x00E6;rne.</p>
+<p>Ved middagsbordet berettet han om 1 i matematiske hjemmeopgaver. Maten sat fast i halsen paa ham; han svelget og svelget.</p>
+<p>Efter bordet gik han op paa guttev&#x00E6;relset. Her la han sig paa sengen sin &#x2013; paa maven, med hodet dypt i puten. Han hadde en forf&#x00E6;rdelig trang til at graate, men fik det ikke til. Opunder brystet suget det av smerte &#x2013; en hul, snikende smerte.</p>
+<p>Han laa slik ur&#x00F8;rlig i mere end en time. Endelig reiste han sig langsomt op. Han saa sig om i v&#x00E6;relset, sat paa sengekanten med benene slapt ned. Atter gik en lang, lang stund.</p>
+<p>Saa stod han op, gik langsomt nedad trappen, tok luen i gangen. Han stanset utenfor kontord&#x00F8;ren og lyttet. Far var derinde. Han tok i d&#x00F8;rklinken &#x2013; stod litt, slap den saa og gik ut paa gaten.</p>
+<p>Langsomt gik han nedover. Vogner ramlet og raslet, mennesker gik forbi ham; han syntes ikke han saa eller h&#x00F8;rte. Han syntes han gik i en kl&#x00E6;dning av fugtig is.</p>
+<p>Han gik helt frem til skoled&#x00F8;ren. Her stanset han og t&#x00F8;rret sig med lommet&#x00F8;rkl&#x00E6;det over panden. Det blev drivvaatt av den kolde sved.</p>
+<p><pb n="71"/>Da han holdt i det tunge d&#x00F8;rgrep, vilde han til at stanse og bet&#x00E6;nke sig; men han skyndte sig at lukke op. Gjennem alle de &#x00F8;de ganger gik han, til han stanset ved rektors kontor. Han banket svakt.</p>
+<p>Ingen svarte.</p>
+<p>Saa banket han sterkt. Ingen svarte fremdeles.</p>
+<p>Ved siden av kontoret var rektors private entr&#x00E9;d&#x00F8;r. Han grep efter klokkestrengen; men nu bet&#x00E6;nkte han sig. Meget l&#x00E6;nge.</p>
+<p>Da h&#x00F8;rtes der skridt indenfor i entr&#x00E9;en, og med et hugg slet han i klokkestrengen.</p>
+<p>Fru rektorinden kom ut.</p>
+<p>&#x2013; Om jeg kunde faa tale litt med rektor?</p>
+<p>&#x2013; Ja, straks!</p>
+<p>Og fru rektorinden f&#x00F8;rte ham gjennem entr&#x00E9;en og ad en indre d&#x00F8;r derfra ind paa kontoret.</p>
+<p>&#x2013; V&#x00E6;rsaagod sit ned, saa kommer han straks.</p>
+<p>Hun satte en h&#x00F8;irygget skindstol bort til ham og gik.</p>
+<p>Svend Bidevind satte sig paa den haarde stol.</p>
+<p>Rektors kontor var avlangt, smalt, med vindu for den ene smalv&#x00E6;g. Langs v&#x00E6;ggene var bare hylder, ja v&#x00E6;ggene var hylder, hvor b&#x00F8;kerne stod stramt og t&#x00E6;t fra gulv til tak.</p>
+<p><pb n="72"/>Svend Bidevind sat paa den h&#x00F8;ie stol ret op og ned, fordi ryggen var saa brat. Han kunde saavidt naa gulvet med t&#x00E6;rne. Han sat og stirret op efter b&#x00F8;kerne; og litt efter litt syntes han v&#x00E6;ggene i det smale rum n&#x00E6;rmet sig til hinanden, n&#x00E6;rmere, n&#x00E6;rmere &#x2013; vilde klemme ham t&#x00E6;t imellem sig, knuge de stive, stramme bokrygger ind i ham &#x2013; &#x2013; &#x2013;</p>
+<p>Han lot sig glide ned fra stolen &#x2013; han kunde knapt staa av angst, snek sig hen til utgangsd&#x00F8;ren, grep i klinken &#x2013; d&#x00F8;ren var laast.</p>
+<p>Og den andre d&#x00F8;ren &#x2013; den f&#x00F8;rte jo ut i entr&#x00E9;en!</p>
+<p>Han gav et skrik fra sig, da med ett d&#x00F8;ren til entr&#x00E9;en aapnet sig. Det var rektor.</p>
+<p>Han<note type="footnote">Han] <hi rend="italic">rettet fra:</hi> Haa <hi rend="italic">(trykkfeil)</hi></note> var i den samme husfrakke Svend Bidevind hadde set, da han sat igjen.</p>
+<p>&#x2013; Nu, min gode Svend, du vilde tale med mig?</p>
+<p>&#x2013; Ja.</p>
+<p>Rektor stod foran ham og saa paa ham og ventet. Men der kom ikke mere end &#x00AB;ja&#x00BB;.</p>
+<p>Svend Bidevind stod med spilte &#x00F8;ine og stirret paa rektor. Stirret, stirret. Uten et ord.</p>
+<p>Endelig sa rektor:</p>
+<p>&#x2013; Ja, hvad var det saa? Hvorpaa han gik hen til det store arbeidsbord ved vinduet; her <pb n="73"/>satte rektor sig og b&#x00F8;d Svend Bidevind stolen foran.</p>
+<p>&#x2013; Det var &#x2013; det er &#x2013; at det er mig som har fusket.</p>
+<p>&#x2013; Har du fusket, Svend?</p>
+<p>&#x2013; Ja. Og ikke Anton Bech.</p>
+<p>&#x2013; Forklar dig, gutten min!</p>
+<p>Svend fortalte om l&#x00F8;rdags morgen. At regnekladden laa l&#x00F8;s i Anton Bechs bok; at han hadde slaat bl&#x00E6;k over den og saa erstattet den med en avskrift av Simon Selmers regning, som han jo hadde trodd var ganske rigtig, som den pleiet at v&#x00E6;re.</p>
+<p>&#x2013; Anton Bech hadde altsaa regnet stykkerne?</p>
+<p>&#x2013; Ja, paa kladden sin. Han sa dagen f&#x00F8;r at han bare ikke hadde faat tid til at f&#x00F8;re dem ind, &#x2013; bare selve opgaverne hadde han indf&#x00F8;rt.</p>
+<p>Rektor Holst sat og saa ut av vinduet en lang stund. Endelig sa han:</p>
+<p>&#x2013; Og saa har han ikke lagt merke til at den kladd han f&#x00F8;rte ind efter, var en anden end hans egen?</p>
+<p>&#x2013; Nei. Jeg pr&#x00F8;vde at gj&#x00F8;re den saa lik hans egen som jeg kunde.</p>
+<p>Rektor tidde l&#x00E6;nge og saa ut. Saa vendte han sig langsomt mot Svend Bidevind:</p>
+<p><pb n="74"/>&#x2013; Du fusket altsaa?</p>
+<p>&#x2013; Ja.</p>
+<p>&#x2013; Men &#x2013; men, kj&#x00E6;re Svend, du har jo kandidat Winther ....</p>
+<p>Svend Bidevind saa med to stive &#x00F8;ine paa rektor Holst og rystet paa hodet.</p>
+<p>&#x2013; Hj&#x00E6;lper han dig ikke? Naar du tar timer hos ham?</p>
+<p>&#x2013; Jeg tar ikke timer hos Winther.</p>
+<p>&#x2013; Med hvem da? Du sa, synes jeg ...</p>
+<p>&#x2013; Jeg tar ikke timer hos nogen.</p>
+<p>&#x2013; Men jeg skrev jo til din far ....</p>
+<p>&#x2013; Jeg gav ikke far brevet.</p>
+<p>&#x2013; Gav du ikke din far mit brev!</p>
+<p>Svend Bidevind sat som f&#x00F8;r med de stive &#x00F8;ine &#x2013; &#x2013; og rystet paa hodet. Rektor Holst saa ransakende paa ham. Saa ut av vinduet igjen. Endelig tilbake til Svend:</p>
+<p>&#x2013; Men hvordan kunde du saa fort&#x00E6;lle at du tok privatundervisning i matematik, som jeg hadde skrevet om?</p>
+<p>Svend Bidevinds l&#x00E6;ber bev&#x00E6;get sig, skalv sterkere og sterkere &#x2013; de stive &#x00F8;ine blev vaatere og vaatere &#x2013; han skrapet i pusten, og endelig kom det:</p>
+<p>&#x2013; Jeg br&#x00F8;t brevet og l&#x00E6;ste det.</p>
+<p>Retkor Holst reiste sig og begyndte at gaa frem og tilbake paa gulvet. L&#x00E6;nge. Saa stanset <pb n="75"/>han foran Svend Bidevind og saa dypt ransakende paa ham og sa:</p>
+<p>&#x2013; Er du slik du?</p>
+<p>&#x2013; Ne&#x2013;nei, aa nei! Jeg er &#x2013; er ikke slik! ropte Svend Bidevind &#x2013; og saa kom hele, fulde graaten, som hadde sittet og presset paa siden i formiddag.</p>
+<p>Rektor Holst lot ham graate en lang stund.<note type="footnote">stund.] <hi rend="italic">rettet fra:</hi> stund, <hi rend="italic">(trykkfeil)</hi></note> Da den sv&#x00E6;re hulking bedaget sig, spurte han:</p>
+<p>&#x2013; Si mig, Svend, vet Anton Bech dette?</p>
+<p>&#x2013; Nei &#x2013; men &#x2013; jeg &#x2013; gaar og sier ham &#x2013; ham det nu.</p>
+<p>&#x2013; Nu. Ja. Det er vist bedst du gaar straks med det!</p>
+<p>Svend Bidevind tok luen og gik. Da han var kommet n&#x00E6;sten ut av d&#x00F8;ren, vendte han om, gik indenfor og bukket for rektor. Han hadde glemt det.</p>
+<p>Saa gik hans vei opover til byfoged Bechs.</p>
+<p>Naar han nu bare hadde faat sagt altsammen til Anton Bech &#x2013; saa fik det v&#x00E6;re da. Hele elendigheten.</p>
+<p>Vist ut av skolen blev han vel rimeligvis. Og hjemme hos far blev det saa sp&#x00F8;rsmaalet om mekanisk verksted eller tilsj&#x00F8;s eller i butik.</p>
+<p>Bare ikke t&#x00E6;nke paa dette endnu &#x2013; der var tid nok, naar han hadde v&#x00E6;ret hos Anton Bech f&#x00F8;rst. Han skyndte sig. Veien gik forbi <pb n="76"/>hjemmet; han l&#x00F8;p forbi vinduene.&#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013;</p>
+<p>En halv times tid efter var alt sagt og gjort inde paa guttev&#x00E6;relset hos Anton Bech. Svend Bidevind sat paa Antons sengekant og saa ufravendt ned i gulvet. Anton Bech sat paa bordet sit og dinglet med benene, mens han saa ut i luften.</p>
+<p>&#x2013; Og alt dette sa du bent ut til rektor?</p>
+<p>&#x2013; Ja. Det var likesaa godt at faa det sagt med &#x00E9;n gang.</p>
+<p>&#x2013; Du Svend, du &#x2013; du faar juling imorgen.</p>
+<p>&#x2013; Slap jeg med juling, saa &#x2013;!</p>
+<p>En lang stilhet. Endelig sa Svend Bidevind uten at se op:</p>
+<p>&#x2013; Er du svinagtig vond paa mig, Anton?</p>
+<p>&#x2013; Tosken! svarte Anton Bech.</p>
+<p>Svend Bidevind begyndte at rokke frem og tilbake der han sat.</p>
+<p>&#x2013; Ja ser du, naar du bare ikke er vond l&#x00E6;nger &#x2013; &#x2013;</p>
+<p>&#x2013; Jeg synes du har v&#x00E6;ret storartet real &#x2013; gaat like til rektor .....</p>
+<p>&#x2013; Ja, saa er jeg noksaa glad likevel da. Og saa faar det gaa som det kan forresten. Bare du ikke vil t&#x00E6;nke paa mig saa&#x0027; n vondt &#x2013; naar jeg er borte.</p>
+<p>&#x2013; Skal du bort?</p>
+<p><pb n="77"/>&#x2013; Der er ikke andet for mig nu, ser du. Jeg maa se at r&#x00F8;mme.</p>
+<p>&#x2013; R&#x00F8;m ..? R&#x00F8;mme?</p>
+<p>&#x2013; Ja, jeg r&#x00F8;mmer hjemmefra jeg. Inat, t&#x00E6;nker jeg.</p>
+<p>&#x2013; Er du gal!</p>
+<p>&#x2013; Jeg orker ikke alt dette. Blir jeg vist ut av skolen nu, saa blir far saa fortvilet, skammen da, ser du. Baade for ham og mor. De maa saa finde paa noget med mig allikevel. Sende mig bort nogensteds. Saa er det likesaa godt at l&#x00F8;pe selv. Paa forhaand. For jeg orker det ikke, jeg.</p>
+<p>&#x2013; Men &#x2013; hvordan vil du r&#x00F8;mme da, gut?</p>
+<p>&#x2013; Aa skidt. En kommer sig da vel altid bort nogensteds, hvor en kan gjemme sig til de har glemt en. Jeg kan gaa saa langt til jeg kommer til en av byene s&#x00F8;rpaa. Derfra gaar Amerikabaatene.</p>
+<p>&#x2013; Du blir bare knepet!</p>
+<p>&#x2013; Ikke om jeg holder mig langt oppe i landet. Fra gaard til gaard &#x2013; til jeg naar frem.</p>
+<p>&#x2013; Men penger?</p>
+<p>&#x2013; Jeg har 20 kroner som er mine egne.</p>
+<p>&#x2013; Med det kommer du ikke langt, gut! Du kommer bare til at svelte.</p>
+<p>&#x2013; Aaja. Kanske det ogsaa. Svelter en <pb n="78"/>ihjel paa fjeldet, &#x2013; ja saa &#x2013; saa er en da vel v&#x00E6;k da ialfald. Fra alt dette.<note type="footnote">dette.] <hi rend="italic">rettet fra:</hi> dette <hi rend="italic">(trykkfeil)</hi></note></p>
+<p>Det begyndte at b&#x00E6;vre av graat i Svend Bidevinds stemme, og han stod op paa gulvet.</p>
+<p>&#x2013; Skulde jeg v&#x00E6;re v&#x00E6;k imorgen, saa vet du ingenting naturligvis!</p>
+<p>&#x2013; Nei, naturligvis, men .....</p>
+<p>&#x2013; Og kanske kunde du skrive til mig. Naar jeg engang faar sendt dig adressen. Du &#x2013; du er den eneste vennen jeg har, Anton, vet du. Ja, farvel da du!</p>
+<p>Anton Bech hoppet ned fra bordet.</p>
+<p>&#x2013; Er det alvoret dit &#x2013; virkelig &#x2013; saa&#x0027; n at r&#x00F8;mme?</p>
+<p>&#x2013; Jeg har jo ikke andet at gj&#x00F8;re jeg, kan du vite. Slik en &#x2013; utvist en som jeg blir!</p>
+<p>&#x2013; Nei, jeg faar ikke dette til jeg? sa Anton Bech. &#x2013; Ikke for det, svinagtig kj&#x00E6;kt om du r&#x00F8;mmer, naturligvis. Men &#x2013; end om du sa det altsammen til din far f&#x00F8;rst! For at pr&#x00F8;ve hvordan han tok det?</p>
+<p>&#x2013; Jeg &#x2013; jeg t&#x00F8;r ikke. Nei &#x2013; jeg t&#x00F8;r ikke det!</p>
+<p>Graaten tok Svend Bidevind. Han bet t&#x00E6;nderne sammen og vilde ikke.</p>
+<p>&#x2013; Farvel da, Anton! sa han og gik fort ut av d&#x00F8;ren.</p>
+<p>Han gik hjemover.</p>
+<p><pb n="79"/>Dette med at r&#x00F8;mme &#x2013; det hadde ligget for ham som en mulighet fra for l&#x00E6;nge, l&#x00E6;nge siden. Og nu, under samtalen med Anton Bech var det pludselig kommet saa visst og fast .......</p>
+<p>End om du sa det altsammen til din far f&#x00F8;rst! For at se hvordan han tok det!</p>
+<p>Ja, den der bare, bare hadde modet!</p>
+<p>At gaa til rektor &#x2013; det hadde han altsaa turdet .....!</p>
+<p>Men far.</p>
+<p>Nei, han f&#x00F8;lte det paa sig: Han var ikke istand til en slik gang til &#x2013; og saa far! Og mor vilde komme, &#x2013; s&#x00F8;strene faa vite det!</p>
+<p>Nu var han fremme i gaten, saa huset.</p>
+<p>Pludselig braastanset han:</p>
+<p>Foran sig saa han en mand gaa rolig, med et eget s&#x00F8;kk i kn&#x00E6;rne &#x2013;: Rektor Holst! Man kunde fra ryggen av likesom slutte sig til det m&#x00F8;rke, alvorlige ansigt fortil!</p>
+<p>Svend Bidevind stod naglet til gaten i en r&#x00E6;dselsfuld angst.</p>
+<p>&#x2013; Ja &#x2013; ja sandelig? Aa Gud, Gud! Rektor gik ind av gangd&#x00F8;ren hjemme!</p>
+<p>Han gik for at melde det til far!</p>
+<p>&#x2013; Aa &#x2013; aa! Aa &#x2013; aa! Svend Bidevind klynket uvilkaarlig halvh&#x00F8;it frem for sig. Han <pb n="80"/>snudde om og gik den motsatte vei gjennem gaterne.</p>
+<p>Han gik og gik. Blodet spr&#x00E6;ngte ham til hodet, hele kroppen n&#x00E6;sten sjanglet.</p>
+<p>Han naadde ut paa landeveien. Da han var kommet helt ut rigtig paa landet et stykke, orket han ikke mere og satte sig ved veikanten.</p>
+<p>Det hjalp litt at faa sitte. Men bare et &#x00F8;ieblik. Saa kom det over ham igjen &#x2013; &#x2013; den forf&#x00E6;rdelige angst og fortvilelse. Han sat og stirret frem for sig og t&#x00E6;nkte paa &#x00E9;n ting alene:</p>
+<p>At han var en slik en som man h&#x00F8;rte tale om, en s&#x00F8;n av bra for&#x00E6;ldre, som gjorde skam paa dem og sit hjem og sig selv; som det &#x00AB;gik galt med&#x00BB; &#x2013; maatte reise til Amerika. En av dem som ofte endte paa tugthuset.</p>
+<p>Svend Bidevind foldet h&#x00E6;nderne og bad til Gud.</p>
+<p>Men Gud kunde ikke bry sig om det &#x2013; om at han bad til ham nu! Det var ingen sak at be til Gud nu, i n&#x00F8;den og elendigheten. Han kunde ha t&#x00E6;nkt paa Gud, dengang han br&#x00E6;ndte brevet. Gud maatte bare synes han var lumpen og dum, som trodde Gud ikke visste at det bare var r&#x00E6;dselen som drev ham nu &#x2013; til at be!</p>
+<p><pb n="81"/>Han saa sig omkring. Der var saa stille omkring ham, &#x2013; langt borte var han alt.</p>
+<p>Han var paa veien ut, var han. Han <emph>var</emph> alt r&#x00F8;mt! Han vilde gaa, gaa &#x2013; aldrig vende tilbake!</p>
+<p>Men han hadde intet faat med sig. Hverken de 20 kronerne i &#x00E6;sken hjemme eller mellemmaten som nu stod smurt paa guttev&#x00E6;relset, og som han hadde t&#x00E6;nkt at ta med til niste. Han kom til at sulte og lide n&#x00F8;d!</p>
+<p>Men det var just rigtig. Han skulde lide n&#x00F8;d. Det nyttet ikke bare at komme her og be til Gud. Nei, noget ordentlig maatte der til f&#x00F8;rst, noget alvorlig. Sult og n&#x00F8;d, uten penger, &#x2013; holdt han det ut en god stund, i nogen dage mindst, saa kunde kanske Gud faa <emph>litt</emph> respekt for ham ...!</p>
+<p>Ja, han vilde bare gaa! Og inat vilde han gjemme sig i skogen. Det var ingen sak at gjemme sig. De skulde ikke finde ham. Og fra f&#x00F8;rste by han kom til, vilde han skrive like til far, og si ham at han bare skulde la ham reise for sig selv, ikke lete efter ham. At han bare <emph>&#x00F8;nsket</emph> at faa slite og stride sig igjennem. Han vilde nok komme hjem den dag han syntes han hadde gjort bod for sig, var blit til noget paa egen haand. Han skulde nok skrive saa alvorlig og forstandig at far forstod det, og lot ham faa sin vilje.</p>
+<p><pb n="82"/>Saa om nogen aar vilde han vende tilbake til far og mor og til Johanne og Drea &#x2013; som en agtet mand.</p>
+<p>Ja &#x2013; han vilde straks gaa videre!</p>
+<p>Han saa op til himlen; den var klar og blaa. Solen begyndte at n&#x00E6;rme sig fjeldet. Han syntes han var blit et bedre menneske alt, siden han hadde tat sin beslutning. Han t&#x00E6;nkte igjen paa Gud. Han vilde sletikke be Gud om nogen hj&#x00E6;lp eller slikt &#x2013; for det var bare lumpent. Men Fadervor vilde han be allikevel. Det forstod Gud nok hvad han mente med.</p>
+<p>Svend Bidevind l&#x00E6;ste Fadervor helt ut. Saa reiste han sig og gik videre.</p>
+<figure rend="asterisk"/>
+<p>Klokken halv ni om aftenen kom Svend Bidevinds far ind til byfoged Bechs.</p>
+<p>&#x2013; Om de hadde set noget til Svend der i huset idag?</p>
+<p>&#x2013; Ja, jo. Ved femtiden i eftermiddag var han her en halv times tid. Siden har vi ikke set ham. Er han ikke kommet hjem?</p>
+<p>&#x2013; Nei, gutten har v&#x00E6;ret hjemmefra i hele dag.</p>
+<p><pb n="83"/>Svend Bidevinds far gik.</p>
+<p>Da han var kommet et stykke nedover gaten, blev han indhentet av en der l&#x00F8;p:</p>
+<p>&#x2013; Undskyld, hr. amtmand!</p>
+<p>&#x2013; Er det dig, Anton?</p>
+<p>&#x2013; Ja &#x2013; jeg &#x2013; jeg vilde bare, jeg synes, jeg maa si Dem at &#x2013; at Svend var oppe hos mig idag ...</p>
+<p>&#x2013; Ja, gutten min, jeg vet det, jeg vet ogsaa hvorfor. Rektor Holst har v&#x00E6;ret hos mig og fortalt mig det hele.</p>
+<p>&#x2013; Ja &#x2013; men Svend &#x2013; han sa &#x2013; han var saa r&#x00E6;d ...</p>
+<p>&#x2013; Var han r&#x00E6;d du?</p>
+<p>&#x2013; Ja saa forf&#x00E6;rdelig. Og saa sa han at han ikke turde komme hjem. Eller rettere sagt at han vilde &#x2013; vilde ...</p>
+<p>&#x2013; Hvad vilde han? I Herrens navn ...</p>
+<p>&#x2013; R&#x00F8;mme hjemmefra.</p>
+<p>Det saa ut som Svend Bidevinds far hadde trodd noget v&#x00E6;rre; han saa n&#x00E6;sten lettet ut. Men bare et &#x00F8;ieblik. Saa spurte han:</p>
+<p>&#x2013; Vet du hvorhen? Du skj&#x00F8;nner jo, min kj&#x00E6;re Anton, at jeg maa ha det at vite!</p>
+<p>&#x2013; Nei. Han sa bare at han vilde gaa til han naadde en av byene s&#x00F8;rpaa. Der vilde han ta Amerikabaaten. Fra gaard til gaard, sa han, vilde han gaa.</p>
+<p><pb n="84"/>Det var lyse mai-aftenen. Svend Bidevinds far stod litt og bet&#x00E6;nkte sig.</p>
+<p>&#x2013; H&#x00F8;r, kj&#x00E6;re Anton, vil du gj&#x00F8;re mig en stor tjeneste?</p>
+<p>&#x2013; Aa ja da!</p>
+<p>&#x2013; Spring hen til Ole vognmand og bestil for mig snarest mulig to gode hester med karjol. Be ham komme straks utenfor hos mig!</p>
+<p>&#x2013; Ja!</p>
+<p>Anton Bech l&#x00F8;p. Svend Bidevinds far gik hjem.</p>
+<p>Kort efter stod der to karjoler utenfor amtmandens d&#x00F8;r. I den ene satte han sig selv, i den anden hans f&#x00F8;rste kontorist.</p>
+<p>&#x2013; Ja, Molstad, sa Svend Bidevinds far til kontoristen, &#x2013; saa kj&#x00F8;rer De veien nordover til kl. 12 og sp&#x00F8;r indom paa alle gaarder, og hvem De tr&#x00E6;ffer. Har De ingen besked til kl. 12, saa vender De tilbake.</p>
+<p>Molstad kj&#x00F8;rte. Saa sa Svend Bidevinds far farvel til sin kone og begge smaapikerne som stod i gangd&#x00F8;ren og graat.</p>
+<p>Karjolhjulene hvirvlet hen over brostenene.</p>
+<p>En times tid utpaa landeveien s&#x00F8;rover m&#x00F8;tte han endelig en som &#x00AB;trodde&#x00BB; han hadde set en gut i veien. Senere en kj&#x00E6;rring. Jo, hun hadde m&#x00F8;tt gutten for ikke saa l&#x00E6;nge siden.</p>
+<p><pb n="85"/>Karjolen f&#x00F3;r videre.</p>
+<p>Langt om l&#x00E6;nge kom der et h&#x00F8;ilas. Bonden gik ved siden.</p>
+<p>&#x2013; Du har vel ikke m&#x00F8;tt en bygut i veien her vel? En liten fyr ...</p>
+<p>&#x2013; Jo, hr. amtmand! Gutten ligg her paa lasset han. Han s&#x00F8;v saa vakkert. &#x00C6;g tok han op herborte, han sat og graat saa ynkelig i landeveien og sa han var saa tr&#x00F8;it. Er det dokkers sin gut kanske?</p>
+<p>&#x2013; Ja, det er det.</p>
+<p>&#x2013; Han meinte ellers paa at han hadde hverken hus eller hjem, stakkaren.</p>
+<p>Oppe i h&#x00F8;ilasset laa Svend Bidevind og sov.</p>
+<p>&#x2013; Bad han saa om at faa kj&#x00F8;re med dig?</p>
+<p>&#x2013; Nei, var det likt sig. Han skulde videre han, sa han. Det var bare mens &#x00E6;g var oppe paa gaarden hos han Smedstad, at han bad om at faa sitte i h&#x00F8;iet og hvile sig. Han b&#x00F8;d sig til at holde hesten imens &#x2013; til gjengj&#x00E6;ld, sa han. Da &#x00E6;g kom tilbake, laa han slik dokker ser han &#x2013; s&#x00F8;vendes. Og saa lot &#x00E6;g han ligge!</p>
+<figure rend="asterisk"/>
+<p><pb n="86"/>N&#x00E6;ste dag i matematiktimen kom rektor ind. Kandidat Lange hilste og smilte. Rektor smilte igjen og gik op paa katederet.</p>
+<p>&#x2013; Jeg har at si dig, Anton Bech, at vi igaar gjorde dig uret. Dine kamerater skal vite at du ikke, som vi trodde, hadde fusket. Jeg tilf&#x00F8;ier at jeg er s&#x00E6;rdeles glad over paa denne maate at ha faat igjen min tidligere sikre tro paa at du ikke indlot dig paa slike kleine streker. V&#x00E6;rsaagod kom frem, Anton Bech!</p>
+<p>Anton Bech stod foran katederet.</p>
+<p>&#x2013; Jeg ber dig om tilgivelse for at ha gjort dig uret. Gi mig din haand til tegn paa at jeg faar den!</p>
+<p>Anton rakte haanden frem. Rektor tok den i sin, og klappet ham med den anden haand over kr&#x00F8;lhodet.</p>
+<p>&#x2013; Jaja, gutter, sa rektor, da Anton Bech igjen var paa plads, &#x2013; la mig se at dere alle f&#x00F8;lger Anton Bechs eksempel &#x2013; og holder deres skjold blankt.</p>
+<p>Idet rektor gik mot d&#x00F8;ren, sa han:</p>
+<p>&#x2013; Du Svend, vil du komme med mig litt!</p>
+<p>Svend Bidevind reiste sig og fulgte efter rektor, ut av d&#x00F8;ren, ned gangene og ind paa kontoret.</p>
+<p>Han stod litt i det smale, h&#x00F8;ie v&#x00E6;relse <pb n="87"/>med bokryggene stramme til begge sider. Rektor Holst hadde sat sig og saa paa ham.</p>
+<p>Svend Bidevind saa mager og blek ut.</p>
+<p>&#x2013; Du Svend! sa rektor, &#x2013; du har vel saa omtrent hver l&#x00F8;rdag skrevet matematikstykkerne av?</p>
+<p>&#x2013; Ja. Hver l&#x00F8;rdag.</p>
+<p>&#x2013; Kan t&#x00E6;nke det. Jeg har nu bedt kandidat Lange gi dig to privattimer i matematik om uken. Dem maa du benytte godt. Vi har eksamen om en maaneds tid.</p>
+<p>&#x2013; Ja.</p>
+<p>&#x2013; Skal vi saa bli enige, du og jeg, Svend, om ikke at fare med nogenslags fusking mere?</p>
+<p>&#x2013; Ja.</p>
+<p>&#x2013; Saa slipper du for fremtiden en slik en dag som den du oplevde igaar. Ikke sandt &#x2013; den var ikke hyggelig at faa igjen?</p>
+<p>&#x2013; Nei.</p>
+<p>&#x2013; Jeg har talt med din far, gutten min. Vi er enige om at tro at du nok blir en bra kar! Farvel, gutten min.</p>
+<p>Svend Bidevind stridgraat. Rektor reiste sig, gik ned til d&#x00F8;ren hvor han stod, og str&#x00F8;k Svend Bidevind over haaret.</p>
+<p>Svend Bidevind hikstet, rektor ventet at han skulde gaa, men der var noget gutten stred med at faa sagt gjennem hikstingen. Endelig <pb n="88"/>bukket han meget dypt, rakte haanden frem til rektor og sa:</p>
+<p>&#x2013; Ma-mahange tak!</p>
+<p>&#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013;</p>
+<p>Hjemme ved middagsbordet var det oksestek, stor, r&#x00F8;d, med saus og poteter og tytteb&#x00E6;rsyltet&#x00F8;i, &#x2013; endda det var torsdag, som ellers var fiskedag.</p>
+</div>
+<div type="chapter" n="3">
+<head type="main"><ref type="contents" target="contents_3" xml:id="chapter_3">Slagsmaal</ref></head>
+<p>Jeg sier ingenting jeg. Jeg bare sp&#x00F8;r hvordan du har faat akkurat min regning &#x2013; naar du ikke har skrevet den av!</p>
+<p>Det var Simon Selmer ute i skolegaarden. Anton Bech stod foran ham, utfordrende.</p>
+<p>&#x2013; Det skjeller dig altsaa ikke, ser du, Simon.</p>
+<p>&#x2013; Aanei, det er vel det heldigste det, kan jeg t&#x00E6;nke.</p>
+<p>&#x2013; Jeg sp&#x00F8;r dig altsaa hvad du mener med det? At det er det &#x00AB;heldigste&#x00BB; altsaa. Netop det er det jeg sp&#x00F8;r om, skj&#x00F8;nner du.</p>
+<p>Simon Selmer saa sig med et smil om i guttekredsen. Hele klassen stod t&#x00E6;t omkring de to.</p>
+<p><pb n="92"/>&#x2013; Og jeg svarer altsaa at det vist er det heldigste at en ikke gransker mere efter i den saken.</p>
+<p>&#x2013; Han har gransket rektor altsaa.</p>
+<p>&#x2013; Ja, jeg merker det.</p>
+<p>&#x2013; Hvordan merker?</p>
+<p>&#x2013; Han er saa forskjellig<note type="footnote">forskjellig] <hi rend="italic">rettet fra:</hi> forkjellig <hi rend="italic">(trykkfeil)</hi></note> rektor du!</p>
+<p>&#x2013; Hvordan forskjellig?</p>
+<p>&#x2013; Aa &#x2013; hadde det v&#x00E6;ret en av os andre og ikke den s&#x00F8;te kj&#x00E6;legutten hans, saa t&#x00E6;nker jeg der var blit andet av!</p>
+<p>&#x2013; Hvad andet?</p>
+<p>&#x2013; Du sp&#x00F8;r saa meget, synes jeg.</p>
+<p>&#x2013; Anton Bech stod med n&#x00E6;verne i bukselommerne, ganske rolig uten at se sig om. Han bare saa Simon Selmer ret i fj&#x00E6;set og svarte:</p>
+<p>&#x2013; Ja jeg sp&#x00F8;r til du svarer altsaa. Til du t&#x00F8;r svare.</p>
+<p>&#x2013; T&#x00F8;r &#x2013; haa!</p>
+<p>&#x2013; Ja t&#x00F8;r. Hvad mener du med at der var blit <emph>andet</emph> av?</p>
+<p>&#x2013; Jeg mener det jeg mener, jeg.</p>
+<p>Anton Bech rykket ham nu like under &#x00F8;inene.</p>
+<p>&#x2013; Ja ser du, dette er vel nok. Men jeg sp&#x00F8;r dig altsaa om du tror jeg har fusket?</p>
+<p>&#x2013; Jeg tror ingenting jeg. Jeg bare <emph>vet</emph> at du har hat min regning i boken din.</p>
+<p><pb n="93"/>&#x2013; Og naar jeg sier &#x2013; og rektor sier &#x2013; at det er en tilf&#x00E6;ldighet?</p>
+<p>&#x2013; Saa sier jeg dertil at det er en merkelig tilf&#x00E6;ldighet.</p>
+<p>&#x2013; Hvordan merkelig?</p>
+<p>&#x2013; H&#x00F8;ist merkelig.</p>
+<p>Hele gutteflokken lo h&#x00F8;it.<note type="footnote">h&#x00F8;it] <hi rend="italic">rettet fra:</hi> h&#x00F8;ilt <hi rend="italic">(trykkfeil)</hi></note> Anton Bech trak den ene n&#x00E6;ven op av lommen.</p>
+<p>&#x2013; Nu sier du meningen din bent ut.</p>
+<p>&#x2013; Sv&#x00E6;rt saa du interesserer dig for min &#x00AB;mening&#x00BB; da! Kj&#x00E6;re!</p>
+<p>&#x2013; Jeg finder mig bare ikke i at du gaar her og mumler om mine regnestykker l&#x00E6;nger. Har du ikke faat forklaring god nok av rektor, saa faar du den ikke av mig. Men denne historien skal v&#x00E6;re forbi den. Derfor sier du meningen din bent ut, saa blir det vel en endskap paa det.</p>
+<p>&#x2013; Aa, du ypper slagsmaal altsaa?</p>
+<p>&#x2013; Ja, jeg gj&#x00F8;r det. Det tar jeg hele klassen til vidne paa, at om du ikke ret frem sier at du tar rektors forklaring fuldt og helt for godt, saa m&#x00F8;tes vi paa Nagelkaien i eftermiddag klokken 4.</p>
+<p>&#x2013; Jeg er ikke r&#x00E6;d for at komme.</p>
+<p>&#x2013; <hi rend="italic">All right!</hi></p>
+<p>Dermed snudde Anton Bech sig rundt og gik gjennem guttekredsen op mot skoletrappen. Det hadde alt ringt ind.</p>
+<p><pb n="94"/>&#x2013; Slagsmaal, gut!</p>
+<p>&#x2013; Ordentlig da, ser du!</p>
+<p>&#x2013; Klokken 4 altsaa, paa Nagelkaien:</p>
+<p>&#x2013; Men bare klassen. Ingen andre.</p>
+<p>&#x2013; Naturligvis.</p>
+<p>Klassen gik i ivrig flok opover mot trappen.</p>
+<p>&#x2013; T&#x00E6;nker han faar, Zeloten, jeg.</p>
+<p>&#x2013; Aa &#x2013; det er ikke saa visst.</p>
+<p>&#x2013; Godt av juling hadde han da ialfald, Simon. Hvad har han med at blande sig mere opi det!</p>
+<p>&#x2013; Men jamen er det nu rart likevel da!</p>
+<p>&#x2013; Tror du rektor hadde staat og bedt om forladelse, hvis han <emph>hadde</emph> fusket da gut!</p>
+<p>&#x2013; N&#x2013;n&#x00E6;&#x2013;&#x00E6; .....!</p>
+<p>Svenningsen var rasende oppe i klassen fordi de kom saa sent ind. Blidere blev han ikke i timens l&#x00F8;p, for slik uopmerksomhet, &#x2013; skriving av lapper og forsendelser mellem guttene &#x2013;!</p>
+<figure rend="asterisk"/>
+<p>Der hadde ifjor vinter engang f&#x00F8;r v&#x00E6;ret &#x00AB;ordentlig&#x00BB; slagsmaal mellem Anton Bech og Simon Selmer. Det var i anledning av Nikken P&#x00F8;lsepind. Simon Selmer hadde faat juling <pb n="95"/>dengangen. Det fik han vel nu ogsaa. Simon var tyk og tung, temmelig sterk. Men Anton Bech var nu allikevel den sterkeste gutten i klassen da. Skj&#x00F8;nt Simon Selmer var ram i knep!</p>
+<p>Dette med Nikken P&#x00F8;lsepind var gaat slik for sig:</p>
+<p>Nikken Olsen &#x2013; &#x00AB;P&#x00F8;lsepinden&#x00BB; &#x2013; var Anton Bechs byfiende. Hvorfor spurte ingen om; det <emph>var</emph> bare saa. Anton Bech kunde selv ikke ha svaret paa nogenslags sp&#x00F8;rsmaal om hvorfra det skrev sig. Faktum var at naar han m&#x00F8;tte P&#x00F8;lsepinden nord i byen, skulde han slaas med ham. At si, naar han eller Nikken var sammen med nogen. M&#x00F8;ttes de alene, beh&#x00F8;vdes bare etpar skjeldsord i forbigaaende &#x2013; som:</p>
+<p>&#x2013; Vent bare, din tosk! eller:</p>
+<p>&#x2013; Er det julingen fra sidst du gaar og tygger dr&#x00F8;v paa idag?</p>
+<p>Var en av dem i flok derimot, var saken given; de andre guttene stillet sig i ring, og slagsmaalet bar l&#x00F8;s mellem de to.</p>
+<p>Undertiden naar Anton og guttene fra klassen kom drivende nordigjennem byen, h&#x00E6;ndte det at Nikken P&#x00F8;lsepind blev set i det fjerne, skyndsomt skjulende sig i et portrum eller forsvindende om et hj&#x00F8;rne. Saken var at Nikken <pb n="96"/>regelm&#x00E6;ssig var den som fik juling. Anton Bech pleiet da h&#x00F8;ilydt at beklage sig til de andre over den tapte leilighet til at jule P&#x00F8;lsepinden.</p>
+<p>Men inderst inde var han glad for det. For det f&#x00F8;rste, fordi der jo allikevel var saa sin sp&#x00E6;nding hver gang, &#x2013; ingen kunde jo vite hvad nyt knep Nikken P&#x00F8;lsepind hadde l&#x00E6;rt sig siden sidst, eller hvad kamerathj&#x00E6;lp han kunde ha bak sig fra folkeskolen; for det andet, fordi &#x2013; &#x2013; naa ja, der var noget underlig blekt noget over Nikken P&#x00F8;lsepinds ansigt, hvergang han skulde til, &#x2013; og noget eget likesom forundret sp&#x00F8;rrende i hans &#x00F8;ine, naar han stod op efter julingen. Alt i alt noget som mindet Anton Bech om et digt han engang hadde l&#x00E6;st, om en j&#x00E6;ger som hadde skadeskutt en hjort i skogen og skulde hen og skj&#x00E6;re halsen over paa den &#x2013; &#x2013; han kom sig n&#x00E6;sten ikke til med kniven for noget i dyrets &#x00F8;ine.</p>
+<p>Imidlertid, Nikken P&#x00F8;lsepind var og blev fienden, ingen visste hvorfor, men det var altsaa en given sak baade blandt guttene i Antons klasse og folkeskoleguttene. Det var et byfiendskap i fuld orden, og det nyttet ikke at sp&#x00F8;rre mere om den ting.</p>
+<p>&#x2013; &#x2013; Saa var det juleaftens middag, at fru <pb n="97"/>Bech fortalte ved bordet at madam &#x00D8;ien hadde v&#x00E6;ret i kj&#x00F8;kkenet og klaget sig saa ynkelig over n&#x00F8;d og fattigdom til julen, fordi manden var arbeidsl&#x00F8;s; og saa hadde fru Bech git hende Antons hverdagsbukser &#x2013; som forresten var baade hele og brukbare endnu. Det hadde is&#x00E6;r v&#x00E6;ret daarlig med kl&#x00E6;r til s&#x00F8;nnen, Nikken, som n&#x00E6;sten ikke kunde vise sig paa skolen l&#x00E6;nger for bare filler.</p>
+<p>Saa gik juledagene til tredje dag, som endelig var hverdag.</p>
+<p>Guttene fra klassen m&#x00F8;ttes. Anton Bech hadde sine nye kl&#x00E6;r paa, og i vestelommen laa femogtyve&#x00F8;ren han hadde faat av onkel Fredrik. Idag skulde den springe i kaker.</p>
+<p>Imidlertid kom Otar Ingebrigtsen med en foruroligende snak om at folkeskoleguttenes snef&#x00E6;stning nede paa Langkaien var st&#x00F8;rre end klassens i Bechgaarden.</p>
+<p>Hele flokken ruslet nordover. Og ved Langkaien stod ganske rigtig folkeskolef&#x00E6;stningen uforskammet h&#x00F8;i! Skiddenblank var den av isvand og mange n&#x00E6;ver, ja rent uindtagelig saa den ut. Og folkeskoleguttene myldret om den.</p>
+<p>Langsomt n&#x00E6;rmet klassen sig, til de stod i halvkreds t&#x00E6;t om f&#x00E6;stningen. Mellem etpar av de fremragende gutter paa begge sider begyndte</p>
+<p><pb n="98"/>det at ulme med haansord og utfordringer. Anton<note type="footnote">Anton] <hi rend="italic">rettet fra:</hi> Auton <hi rend="italic">(trykkfeil)</hi></note> Bech stod stille og h&#x00F8;rte paa, da pludselig Simon Selmer og etpar andre begyndte at dulte ham i siden:</p>
+<p>&#x2013; Anton! der er P&#x00F8;lsepinden? Ser du ham ikke! Paa han da.</p>
+<p>Men Anton r&#x00F8;rte sig ikke. Saa begyndte de andre at rope:</p>
+<p>&#x2013; Du Nikken! Skulde du ikke jule nogen i jula? Her staar han Anton Bech og er r&#x00E6;d for dig!</p>
+<p>&#x2013; R&#x00E6;d! ropte Anton; &#x2013; kom bare an, P&#x00F8;lsa!</p>
+<p>Nikken blev ved at kitte med kramsneen paa f&#x00E6;stningsmuren og vilde tydelig ikke til, endda hans egne ertet og drev paa, mens Anton kom n&#x00E6;rmere og n&#x00E6;rmere. Saa sier pludselig Anton:</p>
+<p>&#x2013; P&#x00F8;lsepinden er bange for at ford&#x00E6;rve de fine bukserne sine, &#x2013; for dem har han arvet efter mig.</p>
+<p>Alle guttene lo, for de kjendte jo straks igjen Anton Bechs bukser. Men de visste ikke ordet av f&#x00F8;r Nikken P&#x00F8;lsepind var i synet paa Anton med et n&#x00E6;veslag i n&#x00E6;seroten, saa Anton tumlet bakover, og blodet sprat ham av n&#x00E6;sen. Og slik f&#x00F3;r Nikken l&#x00F8;s med slag i slag saa lynende fort og saa uvant rasende, at Anton ikke <pb n="99"/>sanset sig f&#x00F8;r han laa overende med P&#x00F8;lsepinden skr&#x00E6;vs over sig, d&#x00E6;ngende ham i ansigtet av al gl&#x00E6;delig lyst.</p>
+<p>Nu vet enhver at midt inde i et slagsmaal kan der komme som en stans, en stilhet, som ingen vet om uten de to selv. Nikken pustet hett og hidsig like ned i den blodige n&#x00E6;se paa Anton; han holdt op at slaa, og begge pustet ut.</p>
+<p>I dette sekund kjendte Anton at han lettelig kunde velte Nikken P&#x00F8;lsepind av sig, komme ovenpaa og gi ham rundelig igjen; is&#x00E6;r da han saa at P&#x00F8;lsepinden stridgraat av sinne, og var rent sansel&#x00F8;s. Men han blev liggende ganske stille. Han lettet litt paa den ene haand, og fik den ned i vestelommen til femogtyve&#x00F8;ren.</p>
+<p>&#x2013; Hold op, din tosk!</p>
+<p>Og P&#x00F8;lsepinden holdt op. Saa fik Anton listet femogtyve&#x00F8;ren ned i n&#x00E6;ven paa P&#x00F8;lsepinden, og saa laa de litt stille, den ene oppaa den anden. Saa med ett vippet Anton Nikken av sig og stod op. De andre ropte og skrek en hel del, men P&#x00F8;lsepinden l&#x00F8;p opover gaten, og Anton stod og tok blodet av n&#x00E6;sen med sne. Han sa ingenting. Men siden den dag slos han aldrig mere med Nikken P&#x00F8;lsepind.</p>
+<p>&#x2013; Nu, denne historie med femogtyve&#x00F8;ren kom paa s&#x00E6;t og vis ut blandt guttene i klassen.</p>
+<p>Saa hadde Simon Selmer skrevet paa en <pb n="100"/>lap i timen ned til Vilhelm Gabrielsen at Anton Bech hadde git Nikken P&#x00F8;lsepind 25 &#x00F8;re for at fri sig fra juling. Denne lappen fik Anton Bech fat i, og saa hadde han og Simon Selmer holdt sit store slagsmaal paa Nagelkaien.</p>
+<p>Dette var ifjor vinter. Da fik Zeloten altsaa juling; men det var jo halvandet aar siden nu; siden den tid kunde jo mangt ha forandret sig.</p>
+<figure rend="asterisk"/>
+<p>Alt klokken halv fire var en stor flok av klassen samlet paa Nagelkaien. Det var en stor, sv&#x00E6;r, plankelagt indebygning, enslags gaardsrum med tr&#x00E6;gulv mellem Nagels to pakboder. Langs pakbodv&#x00E6;ggene stod en dobbelt rad tomt&#x00F8;nder, og paa dem satte de sig paa rad, dundrende med st&#x00F8;vleh&#x00E6;lene i tomt&#x00F8;nderne, saa det klang. For enden av pladsen gik baattrappen ned i fj&#x00E6;ren. Henne ved trappen holdt S&#x00F8;ren Manddraber og nogen andre til med hyssing og skj&#x00E6;lagn. De fisket krabber, mens de ventet.</p>
+<p>Alle kaiene i byen var bekvemme for guttem&#x00F8;ter paa denne tid; de stod tomme n&#x00E6;sten allesammen. Men is&#x00E6;r Nagelkaien, fordi den laa saa langt unna, helt ytterst s&#x00F8;r ibyen. Og saa var Nagel sin bryggemand, han Hans Bentsen, en sjelden koselig kar.</p>
+<p><pb n="101"/>Endelig kom Simon Selmer. Han var i f&#x00F8;lge med Otar Ingebrigtsen. Litt blek var han; men han lot som ingenting, satte sig paa en t&#x00F8;nde og lo og snakket. Da S&#x00F8;ren Manddraber og de andre borte i trappen h&#x00F8;rte at Simon var kommet, begav de krabbefisket og kom indover.</p>
+<p>Klokken i kirketaarnet langt inde i byen slog fire. Og just da kom Anton Bech. Han hadde f&#x00F8;lge med Svend Bidevind.</p>
+<p>&#x2013; Det er sv&#x00E6;rt saa de to h&#x00E6;nger sammen i det sidste! sa Morten Johnsgaard til Vilhelm Gabrielsen.</p>
+<p>&#x2013; Har du ikke skj&#x00F8;nt det i det sidste? sa Vilhelm Gabrielsen; &#x2013; at Bidevind faar hj&#x00E6;lp i stilene av Anton Bech!</p>
+<p>&#x2013; Jo, naturligvis.</p>
+<p>Anton<note type="footnote">Anton] <hi rend="italic">rettet fra:</hi> Anten <hi rend="italic">(trykkfeil)</hi></note> Bech gik fremover til t&#x00F8;nden, hvor Simon Selmer sat og sparket.</p>
+<p>&#x2013; Du faar si fra for sidste gang &#x2013; om du vil ta i dig at jeg har fusket!</p>
+<p>&#x2013; Jeg har ingenting sagt. Ellers tar jeg ikke noget i mig.</p>
+<p>&#x2013; Slikt noget skidtsnak om at du ingenting har sagt, gj&#x00E6;lds ikke. Jeg sp&#x00F8;r altsaa ....</p>
+<p>&#x2013; Hold kj&#x00E6;ft med den sp&#x00F8;rringen din! ropte Simon Selmer og sprang ned av t&#x00F8;nden; i det samme puffet han Anton Bech i maven.</p>
+<p>Anton Bech tok et skridt tilbake. Han <pb n="102"/>sl&#x00E6;ngte tr&#x00F8;ien av sig og stod i skjorte&#x00E6;rmene. Guttene samlet sig t&#x00E6;t omkring.</p>
+<p>&#x2013; Nu kan du komme an! sa Anton Bech.</p>
+<p>Men Vilhelm Gabrielsen traadte frem av flokken og sa h&#x00F8;itidelig:</p>
+<p>&#x2013; Det skal v&#x00E6;re vedtat f&#x00F8;rst at det ikke gj&#x00E6;lds at sp&#x00E6;nde krok, ikke at skalle og ikke at s&#x00E6;tte kn&#x00E6;dult.</p>
+<p>&#x2013; Ja, sa Morten Johnsgaard, som stillet sig ved siden av Vilhelm &#x2013; og kommer dere i tak, skal dere dele overtak og undertak!</p>
+<p>&#x2013; N&#x00E6; &#x2013; det faar komme an paa det! ropte Otar Ingebrigtsen.</p>
+<p>&#x2013; Ja, det syns jeg ogsaa! stemte etpar andre i med. Anton og Simon Selmer stod med dirrende n&#x00E6;ver og saa paa hverandre, mens de andre tr&#x00E6;ttet en stund om overtak og undertak. Alt i ett l&#x00F8;d Vilhelm Gabrielsens gjentagne:</p>
+<p>&#x2013; For det skal gaa ordentlig for sig! Det skal gaa ordentlig for sig!</p>
+<p>&#x2013; Ja naturligvis skal det det, men overtak og undertak .....</p>
+<p>&#x2013; Nu faar det begynde! ropte Otar Ingebrigtsen. &#x2013; Saa stiller vi os alle i ring utenom. Naturligvis skal det gaa ordentlig for sig, fusking gj&#x00E6;lds ikke. Saa &#x2013; nei, l&#x00E6;ngere tilbake &#x2013; saa. Nu t&#x00E6;ller jeg til tre.</p>
+<p>&#x2013; En &#x2013; to &#x2013; tr ....</p>
+<p><pb n="103"/>&#x2013; Nei, nei, vent da, gut! Svend Bidevind f&#x00F3;r frem, &#x2013; Simon har en sten i n&#x00E6;ven! Gj&#x00E6;lds det kanske?</p>
+<p>Sprutr&#x00F8;d maatte Simon Selmer slippe fra sig en rund sten fra hver haand.</p>
+<p>&#x2013; En &#x2013; to &#x2013; tre!</p>
+<p>Saa r&#x00F8;k de i hverandre. Simon Selmer med hodet s&#x00E6;nket foran sig og armene over det, n&#x00E6;verne gik som et dampskibshjul. Men Anton Bech drev et n&#x00E6;veslag nedenifra og opunder og midt i det s&#x00E6;nkede ansigt. Det knepet kjendte han! Det var &#x00F8;vede karer begge to, og slagsmaalet gik hidsigere og hidsigere; de slog med h&#x00F8;ire og verget sig med venstre haand, og noget skikkelig n&#x00E6;seslag kom ingen av dem til med. I hidsigheten f&#x00F3;r de omkring, saa gutteringen utenom maatte vige og forandre plads uavladelig.</p>
+<p>Pludselig datt Anton Bech forover. Som et lyn var Simon Selmer over ham.</p>
+<p>&#x2013; Nei, det gj&#x00E6;lds ikke! skrek en stemme. Det var Svend Bidevind som sprang frem og vilde rykke Simon tilbake. Men f&#x00F8;r han naadde til, hadde Otar Ingebrigtsen tak i tr&#x00F8;ien hans:</p>
+<p>&#x2013; Vil du hj&#x00E6;lpe, kanske? Din tosk!</p>
+<p>&#x2013; Det gj&#x00E6;lds ikke, han bare gled, skrek Svend Bidevind i fuldt sinne, slet sig l&#x00F8;s og vilde frem igjen. Saa var baade Otar og Vilhelm <pb n="104"/>Gabrielsen paa ham; Morten Johnsgaard la sig imellem .......</p>
+<p>Bare et &#x00F8;ieblik hadde Anton Bech Simon over sig. Han fik hevet sig rundt, og nu sat han selv overskr&#x00E6;vs paa maven til Simon. Og der holdt han ham.</p>
+<p>Men i et nu var det r&#x00F8;ket saa rasende op omkring dem at ingen saa efter hvordan de stelte sig, &#x2013; slik tr&#x00E6;tting, skrik, dulting, og tilslut stod hele flokken i et eneste rasende slagsmaal, nogen slog, andre sp&#x00E6;ndte, nogen slos par om par, andre bundtevis, inderst inde i klumpen mellem alle benene laa Svend Bidevind og vesle S&#x00F8;ren Manddraber og br&#x00F8;lte og skrek, kl&#x00F8;p i l&#x00E6;ggene paa de andre og kunde ikke komme ut, &#x2013; og over alt levenet h&#x00F8;rtes Vilhelm<note type="footnote">Vilhelm] <hi rend="italic">rettet fra:</hi> Vilhelms <hi rend="italic">(trykkfeil)</hi></note> Gabrielsens uavladelig:</p>
+<p>&#x2013; Det skal gaa ordentlig for sig! alt mens han skiftet slag med Morten Johnsgaard ....</p>
+<p>&#x2013; Aanei, aanei da guta! Aa e detta for spettakel da!</p>
+<p>Hans Bentsen, bryggemanden til Nagel, kom farende over kaien. Han fors&#x00F8;kte at tr&#x00E6;nge sig ind imellem guttene, han ropte og bef&#x00F3;l, men intet hjalp og ingen h&#x00F8;rte. Hans Bentsen blev rent f&#x00E6;len, sprang ut paa gaten og kom et &#x00F8;ieblik efter tilbake med to-tre mand.</p>
+<p>Der blev stilt med ett. Alle guttene slap <pb n="105"/>hverandre, stod pustende og p&#x00E6;sende, nogen bl&#x00F8;dende, andre smaajamrende sig, &#x00E9;n holdt sig over n&#x00E6;sen, en anden i siden ..... og ut under benene paa dem alle kr&#x00F8;p Svend Bidevind og S&#x00F8;ren Manddraber frem. De saa f&#x00E6;le ut. S&#x00F8;ren hulkgraat og holdt sig paa maven; Svend Bidevind silbl&#x00F8;dde av n&#x00E6;sen, over h&#x00F8;ire &#x00F8;ie hadde han et ildr&#x00F8;dt, gl&#x00F8;dende merke.</p>
+<p>Men alle stod rake som lys.<note type="footnote">lys.] <hi rend="italic">rettet fra:</hi> lys <hi rend="italic">(trykkfeil)</hi></note></p>
+<p>Blandt de m&#x00E6;nd Hans Bentsen hadde faat med sig ute fra gaten, var der &#x00E9;n med guldrand om huen. Han var kjendt nok.</p>
+<p>Det var politi Loe.</p>
+<p>&#x2013; En skikkelig mands barn og h&#x00E6;ll&#x0027; slikt leven! sa politi Loe, &#x2013; saa en h&#x00F8;re dokk heile byen over! K&#x00E6;m e&#x0027; det ut av dokker?</p>
+<p>Politi Loe saa sig om i kredsen, tok op sin notisebok og skrev etpar av navnene op.</p>
+<p>&#x2013; De beh&#x00F8;ver ikke at melde andre end mig og Simon Selmer, sa Anton Bech, han traadte frem. &#x2013; Det er vi som har slaas.</p>
+<p>&#x2013; End du som er s&#x00F8;n til byfogden! Og saa skj&#x00E6;ms du ikje? sa gamle Loe og rystet paa hodet.</p>
+<p>&#x2013; Bare meld mig De, saa .....</p>
+<p>&#x2013; Aa, &#x00E6; t&#x00E6;nke vi tek dokk alle ihop! Se till aa pelle dokk ut av kaia her og det strakst! End skikkelig mands barn!</p>
+<p><pb n="106"/>Politi Loe drev flokken foran sig og ut paa gaten.</p>
+<p>&#x2013; &#x2013; Et stykke oppe i byen kom adjunkt Svenningsen imot hele optoget, gutteflokken fra 5te middel og konstabel Loe efter.</p>
+<p>&#x2013; Kj&#x00E6;re, hvad er dette?</p>
+<p>Alle guttene stod med luerne i n&#x00E6;verne. Men Loe skred frem, tok til luen og meldte det hele:</p>
+<p>&#x2013; &#x00C6; t&#x00E6;nke det kan v&#x00E6;ra nok at skolens vedkommende f&#x00E6;r det at vite, mente Loe med haanden til den guldrandede luen.</p>
+<p>&#x2013; Ja tak, min kj&#x00E6;re Loe, det er aldeles nok!</p>
+<p>&#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013;</p>
+<p>Da Svend Bidevind kom hjem, blev der stor forf&#x00E6;rdelse over hans hovne n&#x00E6;se og et gr&#x00F8;nblaat m&#x00E6;rke over h&#x00F8;ire &#x00F8;ie. Han maatte tilslut rykke ut med hele historien. Mor syntes, det var rigtig stygt og uskikkelig altsammen. Men far lo i skjegget:</p>
+<p>&#x2013; Ja, ser du, gutten min, sa far, &#x2013; den julingen var dig altsaa av skj&#x00E6;bnen bestemt. Saa kan du ta al anden tilgivelse, baade min og rektors, med saa meget bedre samvittighet!</p>
+<p>&#x2013; Ja, sa Svend Bidevind n&#x00E6;sten h&#x00F8;itidelig og saa op paa far med store, alvorlige &#x00F8;ine &#x2013; eller rettere sagt med et stort og et litet; for det <pb n="107"/>h&#x00F8;ire &#x00F8;ie var blit temmelig smaat under den gr&#x00F8;nblaa flekken.</p>
+<figure rend="asterisk"/>
+<p>Dagen efter, i anden time, stod rektor i klassen og holdt en tordentale om &#x00AB;skam for skolen&#x00BB;, &#x00AB;politiet paa halsen&#x00BB;, &#x00AB;opt&#x00F8;ier i byen&#x00BB; osv. osv.</p>
+<p>&#x2013; Til straf sitter hele klassen igjen fra 2&#x2013;3.</p>
+<p>Svenning hadde sladret! Ja, han var nu altsaa lumpen da! Altid!</p>
+<p>Da Svenningsen kom ind i tysktimen kl. 12, var den store beslutning fattet og vedtat enstemmig av hele klassen. Den som svigtet, hadde slik juling ivente altsaa som han aldrig hadde set maken til. Ideen var Simon Selmers, og var straks blit ivrig optat av Anton Bech. De var godvenner igjen nu, naturligvis! Avgjort var avgjort .... Hele klassen var godvenner igjen!</p>
+<p>Svenningsen hilste som vanlig. Klassen bare reiste sig, alle med m&#x00F8;rke miner og en d&#x00E6;mpet mishagsmumlen.</p>
+<p>Svenningsen begyndte at h&#x00F8;re. Hver og en bevarte sin sure mine, svarte kort og knapt. Den ene efter den andre.</p>
+<p>Svenningsen lot som han intet merket.</p>
+<p><pb n="108"/>Han begyndte som han pleiet, at si vitser, var spydig, saa over S&#x00F8;ren Manddraber, saa over Hans Otterbech. Ingen lo. Bare m&#x00F8;rke, mugne miner. Selv ikke da S&#x00F8;ren Manddraber i al enfoldighet oversatte:</p>
+<p>&#x00AB;Die Schweisstropfen traten vor seinen Stirn&#x00BB; med</p>
+<p>&#x2013; Sveitsertroppene traadte frem for sin stjerne.</p>
+<p>Svenningsen holdt et svare hus med dette, lo og haante. Men guttene trak ikke paa smilebaandet. Etpar av dem maatte jo holde lommet&#x00F8;rkl&#x00E6;det for ansigtet for ikke at vise at de lo.</p>
+<p>De saa godt at Svenningsen blev rasende tilslut.</p>
+<p>&#x2013; Klokken 2 kom adjunkt Svenningsen ind i klassen for at passe paa den mens den sat igjen.</p>
+<p>Der var ikke et liv. Svenningsen lette baade h&#x00F8;it og lavt, ute i skolegaarden, i gymnastiksalen. De slyngler maatte v&#x00E6;re gaat hjem allikevel!</p>
+<p>I fuldt raseri trak han frakken paa sig og gik. Skoleporten smeldte efter ham.</p>
+<p>Ikke f&#x00F8;r var han v&#x00E6;k, f&#x00F8;r hele gutteflokken myldret ind. Og den gjensitningstimen gik med leven og moro paa al vis. Nogen benyttet <pb n="109"/>leiligheten til at faa haspet av regnestykkerne eller den latinske stilen ved hj&#x00E6;lp av en av de flinkeste; andre rotet oppe i katederet, i protokollen og dagboken. En hel flok hentet luerne ind fra gangen, la dem i rad mot den ene v&#x00E6;ggen og slog lueball. Morten Johnsgaard hadde ball med.</p>
+<p>Da klokken slog tre, gjorde de sig alle istand, mens Hans Otterbech blev sendt ind til rektor.</p>
+<p>&#x2013; Om de kunde gaa nu?</p>
+<p>Rektor kom tilbake med Hans Otterbech, rent ute av sig:</p>
+<p>&#x2013; Men, kj&#x00E6;re gutter, er ikke herr Svenningsen her?</p>
+<p>&#x2013; Nei, ingen hadde set noget til herr Svenningsen.</p>
+<p>&#x2013; Hm! H&#x00F8;ist besynderlig. Dere har sittet ganske alene da?</p>
+<p>&#x2013; Ja.</p>
+<p>Rektor saa ikke lys ut. Han bet sig i l&#x00E6;ben:</p>
+<p>&#x2013; Ja, nu kan dere gaa da.</p>
+<figure rend="asterisk"/>
+<p><pb n="110"/>Dagen efter hadde de ikke tysk. Men Svenningsen kom alt i f&#x00F8;rste time, som var overl&#x00E6;rer S&#x00F8;mmes norsktime, farende ind i klassen, r&#x00F8;d i toppen.</p>
+<p>&#x2013; Undskyld, hr. overl&#x00E6;rer, at jeg forstyrrer et &#x00F8;ieblik! Jeg t&#x00F8;r sp&#x00F8;rre dere, gutter, hvor dere blev av igaar?</p>
+<p>Guttene saa med uskyldig forundring paa hverandre og op mot hr. Svenningsen.</p>
+<p>&#x2013; Svar straks! Her gik jeg og ventet paa dere, klassen var tom!</p>
+<p>Simon Selmer reiste sig:</p>
+<p>&#x2013; Kanske hr. adjunkten mener med det samme det var ringt klokken to?</p>
+<p>&#x2013; Ja, javist, naturligvis!</p>
+<p>&#x2013; Ja, da tror jeg vi et &#x00F8;ieblik var nede i gaarden.</p>
+<p>&#x2013; Sludder, jeg saa efter i skolegaarden!</p>
+<p>&#x2013; Ja &#x2013; nei, i <emph>gaarden</emph> altsaa!</p>
+<p>Overl&#x00E6;rer S&#x00F8;mme, som ikke forstod nogen sammenh&#x00E6;ng, lo nu h&#x00F8;it. Men Svenningsen sendte ham et rasende blik:</p>
+<p>&#x2013; Var dere &#x2013; dernede allesammen? &#x2013; <emph>Hele klassen</emph>?</p>
+<p>Simon Selmer saa sig sp&#x00F8;rrende om til guttene:</p>
+<p>&#x2013; Ja, jeg vet ikke &#x2013; der var noksaa mange ....</p>
+<p><pb n="111"/>&#x2013; Jeg var der! reiste Anton Bech sig.</p>
+<p>&#x2013; Jeg var der!</p>
+<p>&#x2013; Jeg var der!</p>
+<p>&#x2013; Jeg var der!</p>
+<p>Det l&#x00F8;d som skud i skud ned over b&#x00E6;nkeradene, &#x00E9;n efter &#x00E9;n reiste sig og ropte sit:</p>
+<p>&#x2013; Jeg var der! indtil alle guttene stod opstillet i rad og r&#x00E6;kker nedover.</p>
+<p>Overl&#x00E6;rer S&#x00F8;mme skj&#x00F8;nte vel at her maatte v&#x00E6;re noget paaf&#x00E6;rde; men han maatte snu sig ind mot v&#x00E6;gtavlen, og pudset n&#x00E6;sen med megen larm &#x2013; tre-fire ganger.</p>
+<p>Svenningsen stod et &#x00F8;ieblik og saa utover den staaende klasse. Saa bukket han kort til overl&#x00E6;rerens ryg:</p>
+<p>&#x2013; Undskyld! Og saa f&#x00F3;r han paa d&#x00F8;r.</p>
+<p>&#x00C9;n efter &#x00E9;n satte sig igjen. Der b&#x00F8;lget en dulgt triumf nedimellem guttene. Svend Bidevind hadde, da han kom paa skolen, tilf&#x00E6;ldig opfanget nogen ord mellem rektor og Svenningsen ute paa gangen. Rektor hadde v&#x00E6;ret meget misforn&#x00F8;iet. Etpar ord som &#x00AB;forgalt &#x2013; her kommer jeg kl. 3 og finder guttene alene!&#x00BB; osv. blev av Svend Bidevind referert i klassen straks til tegn paa at hevnen over Svenningsen fuldt ut hadde lykkes.</p>
+<p>Skrape av rektor &#x2013; simpelthen altsaa!</p>
+</div>
+<div type="chapter" n="4">
+<head type="main"><ref type="contents" target="contents_4" xml:id="chapter_4">Eksamen</ref></head>
+<p>Husk eksamen, gutter! Bare fjorten dage til!</p>
+<p>&#x2013; Kj&#x00E6;re dere, hvordan skal dette gaa &#x2013; eksamen for d&#x00F8;ren ....</p>
+<p>&#x2013; Aldrig naar vi ut til eksamen paa dette viset!</p>
+<p>Eksamen, eksamen! Det gik paa livet l&#x00F8;s nu i junidagene med eksamen h&#x00E6;ngende hett over alle hoder, saa det lumret omkap med de 20 varmegrader gjennem solruterne! Spr&#x00E6;ngt paa blev der gjennem alle pensa, agterut var de, og frem maatte de for al pris &#x2013;! Undtagen i rektors historie, som n&#x00F8;iagtig var naadd boken ut til 1ste juni, saa de sidste timerne kunde <pb n="116"/>brukes stille og rolig til oversigtige repetitionstimer &#x2013; uten egentlige lekser.</p>
+<p>V&#x00E6;rst av alle var Svenningsen. Sint og vond hadde han v&#x00E6;ret hele tiden i det sidste &#x2013; som rimelig kunde v&#x00E6;re &#x2013; og nu drev han paa med l&#x00E6;sebok og grammatik, med lekser saa lange som dagsreiser fra time til anden. Tysktimen gik som et uveir, Svenningsen tordnet, &#x00AB;eksamen&#x00BB; lynte i luften, og altid en to-tre stridgraatende nede paa fukseb&#x00E6;nken. Karaktererne haglet ned, 6 her og 5 der, og slut paa det hele var en lekse til n&#x00E6;ste gang, saa der ikke var utgang at se paa den!</p>
+<p>Otar Ingebrigtsen fik sin tause, indbitte og temmelig haardknokede rundjuling en dag Svenning endte timen med at gi syv sider grammatik, hvorav fem lange remser til puging &#x2013; og Otar rent uvilkaarlig, glemmende alt av bare forf&#x00E6;rdelse, skrek h&#x00F8;ien lydt fra sin b&#x00E6;nk:</p>
+<p>&#x2013; Han er g&#x00E6;l&#x0027; n han!</p>
+<p>Svenningsen r&#x00F8;k bare ret i ham uten ord. Og saa gr&#x00E6;nsel&#x00F8;st forf&#x00E6;rdet var Otar Ingebrigtsen over sig selv at han glemte at skrike &#x2013; det eneste middel mot Svennings juling, &#x2013; endda han efterpaa fremviste en betragtelig haardot samlet op av gulvet efter kampen.</p>
+<p>&#x2013; Gi den til Svenning som seiersskalp! raadet Simon Selmer.</p>
+<p><pb n="117"/>S&#x00F8;rgeligst gik det med Manddraberen i disse hete dage. Ondt hadde han jo altid for at holde trop, men nu, med overnaturlige lekser i alle dagens seks fag, i et helsel&#x00F8;st stormridt gjennem al kundskapens brokede mangfoldighet, var han rent forfjetret, og mistet det vesle han visste i r&#x00E6;dsel, bare navnet eksamen n&#x00E6;vntes. Og Svenningsen var ikke barmhjertig. S&#x00F8;ren Manddraber tutet og jamret, men Svenning maatte bare oplyse om at man ikke tok eksamen ved at perse taarer; han vilde foreslaa S&#x00F8;ren at stille sig i tjeneste hos byens vandverk i denne t&#x00F8;rketid &#x2013; femfor at dumpe til eksamen og bli sittende igjen i klassen et helt aar til!</p>
+<p>Og Manddraberen stred med lommekluten for n&#x00E6;sen og hiksten i halsen, og kunde <emph>absolut</emph> ikke l&#x00E6;re &#x00AB;Angst, Axt, Bank, Braut ...&#x00BB;, end sige reglerne for konjunktiv!</p>
+<p>Nede i skolegaarden i friminuttene gik de rent stilf&#x00E6;rdige allesammen. Men saa erkl&#x00E6;rte Morten Johnsgaard en dag at det dog &#x2013; saa vondt det var &#x2013; ikke gjaldt selv livet!</p>
+<p>Og fra Paal Gundersen forl&#x00F8;d det at det var da hverken middelskole-eksamen eller artium, saa skidt, &#x2013; om en bare hanglet igjennem ...!</p>
+<p>Men S&#x00F8;ren Manddraber tok sig ikke tr&#x00F8;st av dette. Han t&#x00E6;nkte paa at hive sig i sj&#x00F8;en, og hadde kanske gjort det ogsaa, hvis ikke <pb n="118"/>Anton Bech en dag hadde sat mod i ham ved at love ham hj&#x00E6;lp og bistand med hvisking i det mundtlige og &#x2013; om det lot sig gj&#x00F8;re &#x2013; med fuskelapper i det skriftlige.</p>
+<p>Dette var S&#x00F8;ren Manddrabers eneste livshaab.</p>
+<p>&#x2013; &#x2013; Svend Bidevind gik under alt dette og bare undret sig over at han egentlig slet ikke grudde sig til eksamen.</p>
+<p>Han turde n&#x00E6;sten ikke tilstaa det for sig selv, men han n&#x00E6;sten gl&#x00E6;det sig!</p>
+<p>Dumpe kunde han ikke. Slik hadde kandidat Lange drevet ham i matematikken, at han nok skulde klare den. Og de andre fag maatte han kunne greie saa nogenlunde &#x2013; saa det ikke blev stryk altsaa! Paa ett punkt var han tryg med sig selv paa at han vilde ha 1. Det var i historie for rektor. Og slik stod det for ham, at med en 1&#x0027;er for rektor Holst var han berget, om det blev saa baade 3&#x0027;ere og 4&#x0027;ere for de andre. Og saa med denne eksamen var aaret forbi, en lang, lang sommerferie, og derefter nyt &#x00AB;skoleaar&#x00BB;, ny klasse, ny begyndelse paa alle kanter, baade utvendig og i det indvendige menneske! Dermed var dette aars synder og sorger slettet ut. Han visste jo nok at han ikke undgik sin drabelige ordens- og kanske opf&#x00F8;rselskarakter for aaret &#x2013; i karakterseddelen tilslut; men ellers, selve eksamen var der noget <pb n="119"/>ved &#x2013; noget sp&#x00E6;ndende &#x2013; og desuten var den egentlige skolegang forbi! ett fag om dagen, forresten var det alt som for ferier at regne!</p>
+<p>Pugingen var i fuld gang i klassen. Hver morgen paa skolen forl&#x00F8;d det fra den ene og den anden: Kommet 30 sider i historien! L&#x00E6;st hele den norske grammatikken! Repetert fra mennesket til de &#x00E9;nhovede! O.s.v. Nogen hadde slaat sig sammen i klumper og partier og l&#x00E6;ste ute, enten oppe i bymarken eller paa en pakbod &#x2013; nidpuget og h&#x00F8;rte hverandre. S&#x00F8;ren Manddraber var to timer om dagen oppe hos Anton Bech og fik gjennemgaat tysken og matematikken.</p>
+<p>Men denslags kunde ikke Svend Bidevind. Han pr&#x00F8;vde etpar ganger at v&#x00E6;re med i bymarken; senere sat han alene i N&#x00E6;ss&#x0027;s have. Men alt dette bare forstyrret ham. F&#x00F8;rst og fremst de andre guttene; men ogsaa naar han var alene. En humle, et vindsus i bjerketoppene, ja bare selv f&#x00F8;lelsen av at v&#x00E6;re ute; det passet ikke. L&#x00E6;se maatte man gj&#x00F8;re inden fire v&#x00E6;gger, hvor b&#x00F8;kerne var hjemme; ute var til for moro skyld, ferier, fri, lek ...</p>
+<p>Og saa sat han dagen lang paa v&#x00E6;relset sit og l&#x00E6;ste og grov sig frem fra fag til fag; han skrev op for hver dag hvormeget han hadde l&#x00E6;st, beregnet hvorlangt han hadde igjen <pb n="120"/>&#x2013; og han saa sig selv som Stanley gjennem det m&#x00F8;rke fastland, fast og sikkert arbeidende sig frem dagsreise efter dagsreise. Det holdt haardt mange ganger; han var saa underlig uvant med at l&#x00E6;se slik &#x2013; og utenfor sken solen .....!</p>
+<p>En ren lettelse selv for S&#x00F8;ren Manddraber var det, da rektor endelig en dag kom med eksamenstabellen, hele programmet trykt, skriftlig og mundlig, helt fra artianerne og nedover til smaaskolen, som hadde etpar smaa uskyldige rubrikker med &#x00AB;l&#x00E6;sning&#x00BB;, &#x00AB;regning&#x00BB;, og &#x00AB;religion&#x00BB; ute i de sidste eksamensdagene.</p>
+<p>En lettelse var det &#x2013; for saa visste man hvad man hadde at holde sig til, naar det bar l&#x00F8;s, hvilke fag kom f&#x00F8;rst og altsaa maatte puges f&#x00E6;rdig f&#x00F8;rst &#x2013; o.s.v.</p>
+<p>Det var i geografitimen dette kom, og da tykke Wiers hadde slaat ut med haanden som farvelhilsen til rektor &#x2013; han var saa tyk at det faldt ham sv&#x00E6;rt at reise sig, saa gammel og god var han ogsaa at haandbev&#x00E6;gelsen var rektor og enhver anden fuldst&#x00E6;ndig nok &#x2013; var der en rasling med det trykte papir, en mumling og brumming mellem guttene, eftersom de l&#x00E6;ste programmet, saa tykke Wiers klasket n&#x00E6;ven i katederet:</p>
+<p>&#x2013; Vil dere l&#x00E6;gge v&#x00E6;k de lappene deres straks og holde skravlene igjen paa flyende flekken!</p>
+<p><pb n="121"/>&#x2013; Aa, men det er jo eksamenstabellen! l&#x00F8;t det b&#x00F8;nlig.</p>
+<p>&#x2013; Hj&#x00E6;lper ikke. Flere byer i Spanien, gut!</p>
+<p>Det var Morten Johnsgaard som blev h&#x00F8;rt, og han hadde benyttet leiligheten under rektors avbrytelse til at faa sig hvisket nogen oplysninger fra f&#x00F8;rste b&#x00E6;nk.</p>
+<p>&#x2013; Vanelcia.</p>
+<p>&#x2013; Va &#x2013; hvad for noget?</p>
+<p>&#x2013; Nei &#x2013; Valencia!</p>
+<p>&#x2013; Du kjender da Valencia, gut! Det er der de hiver sneball med appelsiner. Vet du ikke hvad valencianerne gjorde i 1811, da de ikke hadde flere kanonkuler igjen til at skyte paa franskm&#x00E6;ndene med? Jo, far, det var gutter det, ser du! De stoppet kanonene sine med appelsiner, gjorde de, baade raatne og umodne &#x2013; saa det sprutet og sved i &#x00F8;inene paa franskmanden. En spansk sj&#x00F8;mand fortalte mig engang at en av appelsinene traf Napoleon i flabben, mens han stod og maapte &#x2013; r&#x00F8;k ret i vommen paa ham, og blev der saal&#x00E6;nge til han d&#x00F8;de av den paa St. Helena. Tror du paa den historien, Morten Johnsgaard far?</p>
+<p>&#x2013; N&#x2013;&#x00E6;!</p>
+<p>&#x2013; Ikke jeg heller. For det f&#x00F8;rste fordi keiser Napoleon aldrig maapte, for det andet fordi han aldrig i sit liv var utenfor Valencia.<note type="footnote">Valencia.] <hi rend="italic">rettet fra:</hi> Valencia <hi rend="italic">(trykkfeil)</hi></note> <pb n="122"/>Saa det maa v&#x00E6;re l&#x00F8;gn. Hvad utf&#x00F8;rer de fra Valencia?</p>
+<p>&#x2013; Appelsiner.</p>
+<p>&#x2013; Naa, det kom du let til. Flere byer i Spanien?</p>
+<p>Morten Johnsgaard visste ikke flere byer, og turde ikke klemme ivei med den han saa Simon Selmer si med l&#x00E6;berne. Han skj&#x00F8;nte det nemlig ikke, og det kunde bli saa rent galt!</p>
+<p>&#x2013; Hvordan skal det gaa dig til eksamen, gut!</p>
+<p>&#x2013; Jeg har ikke naadd til at repetere geografien endnu, klynket Morten.</p>
+<p>&#x2013; Men leksen din til idag da, din slubbert!</p>
+<p>&#x2013; Men vi har saa svinagtig meget geografi iaar! l&#x00F8;d det nede fra klassen.</p>
+<p>&#x2013; Ja, stemte en i med, &#x2013; det er ikke til at faa l&#x00E6;st altsammen.</p>
+<p>&#x2013; Jasaa, Otar far, saa du faar det ikke l&#x00E6;st?</p>
+<p>&#x2013; Umulig! Aa, kunde vi ikke faa slippe noget?</p>
+<p>&#x2013; Aaja, faa slippe noget! roptes der.</p>
+<p>&#x2013; Jo, kj&#x00E6;re guttene mine, jo da! Saameget dere vil.</p>
+<p>&#x2013; Aa!</p>
+<p>&#x2013; Men saa faar dere fem altsaa.</p>
+<p>&#x2013; Da &#x2013; saa! H&#x00F8;!</p>
+<p><pb n="123"/>&#x2013; Det er nu &#x00E9;n ting jeg synes hr. Wiers gjerne kunde la os slippe, sa Anton Bech.</p>
+<p>&#x2013; Naada?</p>
+<p>&#x2013; Det er alle statene i Nordamerika.</p>
+<p>&#x2013; Er du g&#x00E6;ln, Bech far! Statene i Nordamerika! Tror du det gaar an at &#x00AB;slippe&#x00BB; dem! Jo, det skulde se net ut. Hvorfor ikke &#x00AB;slippe&#x00BB; statene i Europa ogsaa da? De er ikke saa vigtige som de skaper sig de, far, mange ganger &#x2013; hverken Frankrike nu med alt sit ministervr&#x00F8;vl, eller Tyskland, siden Bismarck blev<note type="footnote">blev] <hi rend="italic">rettet fra:</hi> blav <hi rend="italic">(trykkfeil)</hi></note> sat paa porten, eller de andre. Statene i Nordamerika! Pas dig du, Bech far, f&#x00F8;r du vet ordet av det er de mindre v&#x00E6;rd at &#x00AB;slippe&#x00BB; end alle statene tilsammen baade i Europa og Asien! H&#x00F8;! Slippe!</p>
+<p>&#x2013; Men de er saa vanskelige.</p>
+<p>&#x2013; Vanskelige ja! Jo, det synes nok som dig nogen hver, baade han fyren Salisbury i England og Spaniolen. Men ikke er det v&#x00E6;rdt at slippe dem lel, t&#x00E6;nker jeg.</p>
+<p>&#x2013; Vi kan jo ta dem igjen til n&#x00E6;ste aar!</p>
+<p>&#x2013; Aa, la os faa slippe dem da! Slippe dem! Slippe! l&#x00F8;d det nedover klassen.</p>
+<p>&#x2013; Vi har saa forf&#x00E6;rdelig meget til eksamen iaar, saa!</p>
+<p>&#x2013; Er dere g&#x00E6;lne, gutter! Jeg skal si dere hvad dere skal gj&#x00F8;re, jeg.</p>
+<p><pb n="124"/>&#x2013; Ja, si det! Si os noget!</p>
+<p>&#x2013; Sp&#x00F8;r de andre karene dere har &#x2013; ham i tysk og ham i latin og ham i bibelhistorie, sp&#x00F8;r dem om ikke de kan la dere slippe litt for dem &#x2013; fordi dere har saa meget geografi at l&#x00E6;re! Sp&#x00F8;r dem, og h&#x00F8;r hvad de svarer!</p>
+<p>En misforn&#x00F8;iet mumlen!</p>
+<p>&#x2013; Ja, tror dere kanske det nytter at l&#x00E6;re tysk og bibelhistorie og alle andre denne verdens ting, saa l&#x00E6;nge dere ikke kjender denne verden selv? F&#x00F8;rst geografi, gutter, saa resten. F&#x00F8;rst faar en l&#x00E6;re stuen sin at kjende, saa kan en begynde at pynte den op og gj&#x00F8;re det koselig i den? Det er min mening, ser dere, og jeg er ikke dum!</p>
+<p>Tykke Wiers var i sit perlehum&#x00F8;r idag, og guttene moret sig.</p>
+<p>&#x2013; Men det nytter ikke at si dette til de andre l&#x00E6;rerne.</p>
+<p>&#x2013; Nytter det ikke! Hils fra mig dere, og si som jeg har sagt.</p>
+<p>&#x2013; De vil ikke likevel.</p>
+<p>&#x2013; Tror dere det nytter mere at sp&#x00F8;rre mig! Er dere g&#x00E6;lne, gutter!</p>
+<p>&#x2013; Ja, for De er meget snillere end de andre! sa Simon Selmer.</p>
+<p>Dette skulde Simon helst ikke sagt. Pludselig <pb n="125"/>gik hum&#x00F8;ret og lystigheten av tykke Wiers&#x0027;s ansigt.</p>
+<p>&#x2013; Hvad sa du, Simon Selmer far? spurte han tordenh&#x00F8;it.</p>
+<p>&#x2013; Jeg sa &#x2013; jeg sa bare &#x2013; at De &#x2013; er snillere ...</p>
+<p>&#x2013; Simon Selmer! Gaa efter rottingen!</p>
+<p>&#x2013; Men ...</p>
+<p>&#x2013; Gaa efter rottingen, sier jeg. Den ligger i 6te middel. Simon Selmer maatte gaa. Wiers sat i ventetiden m&#x00F8;rk paa katederet og trommet med fingrene og sa ingenting. Endelig kom Simon Selmer tilbake med et spanskr&#x00F8;r i n&#x00E6;ven.</p>
+<p>&#x2013; Kom med den! Saa &#x2013; staa der &#x2013; l&#x00E6;nger frem. Saa!</p>
+<p>Et rap suste igjennem luften og smaldt i Simons ryg.</p>
+<p>&#x2013; Jeg skal l&#x00E6;re dig hvor snillere jeg er!</p>
+<p>Et rap til &#x2013; to tre &#x2013; fire.</p>
+<p>&#x2013; Her faar du den snilheten at f&#x00F8;le, din aban! Gaa og s&#x00E6;t dig.</p>
+<p>Tutende og vaandende sig gik Simon paa plads.</p>
+<p>&#x2013; Flere byer i Spanien, knegt!</p>
+<p>&#x2013; Sevilla. Granada. &#x2013; Cadix.</p>
+<p>&#x2013; Hvem har l&#x00E6;rt dig det imens? Svar! Hvem har hvisket?</p>
+<p><pb n="126"/>Morten Johnsgaard kjendte tykke Wiers, naar vinden bar imot, og han var vond; det var bare at si fra straks.</p>
+<p>&#x2013; Paal Gundersen hvisket! sa han ynkelig.</p>
+<p>&#x2013; Fem skal du ha. Gaa og s&#x00E6;t dig.</p>
+<p>Det var ikke ofte at tykke Wiers&#x0027;s timer var s&#x00F8;rgmodige; men naar det h&#x00E6;ndte, var det med eftertryk.</p>
+<p>&#x2013; Fem skal du ha! br&#x00F8;lte han til den ene efter den anden, og da timen var slut, tok han hat og frak paa selv uten hj&#x00E6;lp, hvilket var tegn paa hans dypeste unaade.</p>
+<p>N&#x00E6;ste time var norsk med overl&#x00E6;rer S&#x00F8;mme. Han kom sirlig og fin, hvit i skjortebrystet, langt guldkjede, store mansjetknapper og lange, hvite h&#x00E6;nder. Han satte sig tilrette og fandt Wiers&#x0027;s spanskr&#x00F8;r paa katederet. Han tok det mellem to fingrer og spurte:</p>
+<p>&#x2013; Hvem &#x2013; hvem av dere var det idag?</p>
+<p>&#x2013; Mig, svarte Simon Selmer og reiste sig.</p>
+<p>&#x2013; Dig, Simon, Petrus &#x2013; eller klippen! Jasaa! Saa den vrede Moses har slaat paa dig med sin stav! Gav du vand fra dig?</p>
+<p>Klassen br&#x00F8;lte av latter.</p>
+<p>Det blev stille med ett. D&#x00F8;ren ut til gangen sloges pludselig op paa vidt gap, og midt i den stod tykke Wiers.</p>
+<p>&#x2013; Undskyld, hr. overl&#x00E6;rer!</p>
+<p><pb n="127"/>&#x2013; Jeg ber, hr. Wiers!</p>
+<p>&#x2013; Dere kan slippe de nordamerikanske stater, gutter! sa Wiers, vendte sit m&#x00E6;gtige legeme og gik. En av guttene maatte lukke d&#x00F8;ren efter ham.</p>
+<figure rend="asterisk"/>
+<p>Saa var da endelig eksamen inde!</p>
+<p>Norsk og tysk skriftlig hadde de hat. Den norske stilopgave l&#x00F8;d: &#x00AB;<emph>En morsom dag</emph>&#x00BB;, og den blev klart noksaa bra, selv av S&#x00F8;ren Manddraber, som ellers sat og smaagraat hele tiden over sin morsomme dag! I tysk stil hadde han faat hj&#x00E6;lp. Det hadde lykkes Anton Bech at faa praktisert en lap med gloser o. a. nedover fra mand til mand og frem til S&#x00F8;ren. Men det hadde v&#x00E6;ret saa farlig, saa n&#x00E6;r paa at bli opdaget etpar ganger, at de ikke turde gjenta det eksperiment.</p>
+<p>Nu var det matematiske opgaver, og S&#x00F8;ren Manddraber sat og holdt sig paa maven av gruelse, mens de ventet paa Lange med opgaverne. Ellers sat de idag nogen hver med mavepine, ikke mindst Svend Bidevind. Anton Bech tr&#x00F8;stet Manddraberen med at det nok skulde gaa; han hadde fundet ut et middel!</p>
+<p><pb n="128"/>Opgaverne kom, Lange gik; gamle Bugge hadde inspektion, og spaserte op og ned paa gulvet mellem b&#x00E6;nkene, som var flyttet langt fra hverandre. Alle guttehoderne s&#x00E6;nkedes over opgavelappen; en lang stund var der saa stille at man kunde h&#x00F8;re en naal falde mellem hvert av gubben Bugges fottrin. Saa begyndte &#x00E9;n at skrive. En anden l&#x00F8;ftet hodet eftert&#x00E6;nksomt mot taket; en tredje sukket. Efter et kvarters forl&#x00F8;p skrapte det i pennene hele klassen over. S&#x00F8;ren Manddraber snufset og smaaskrev, rev sig i haaret og t&#x00E6;nkte v&#x00E6;ldig. Hans &#x00F8;ine s&#x00F8;kte opover mot Anton Bechs ryg, som i rolig flid b&#x00F8;ide sig over pulten.</p>
+<p>Da etpar timers tid var gaat, reiste Anton Bech sig i s&#x00E6;tet og saa sig om. Agtpaagiven fulgte han gubben Bugges gang frem og tilbake. Han tok forsigtig frem et bitte litet stykke papir og begyndte at beskrive det med smaa, t&#x00E6;tte tal. Det hele gik for sig med stor langsomhet. Hver gang Bugge paa sin vandring kom i n&#x00E6;rheten, la han lappen v&#x00E6;k. Endelig var den fuldskrevet; hans forsigtighet blev endnu st&#x00F8;rre. Han tok penneholderen av sit penneskaft; han rullet papirlappen sammen t&#x00E6;t, t&#x00E6;t, brettet den paa alle kanter, presset den og sat stille en stund. Saa puttet han den ind i metalpenneholderen og satte skaftet paa; efter endel forbedringer <pb n="129"/>og halen ut og ind var lappen endelig vel forvaret, ganske usynlig inde i metalhylsteret.</p>
+<p>Saa pudset Anton Bech n&#x00E6;sen med megen v&#x00E6;lde.</p>
+<p>Et &#x00F8;ieblik efter h&#x00F8;rtes et kn&#x00E6;k nede paa bakerste b&#x00E6;nk. S&#x00F8;ren Manddraber reiste sig:</p>
+<p>&#x2013; Aa! jeg har br&#x00E6;kket penneskaftet mit!</p>
+<p>&#x2013; Din klodrian! sa Bugge og saa paa den ubrukelige stump som S&#x00F8;ren holdt iveiret; han stod litt og saa sig om efter nogen raad, da Anton Bech reiste sig og gik frem med sit papir til katederet.</p>
+<p>&#x2013; F&#x00E6;rdig!</p>
+<p>&#x2013; Se, se, allerede, sa Bugge, &#x2013; l&#x00E6;g fra dig deroppe.</p>
+<p>&#x2013; Saa kan S&#x00F8;ren<note type="footnote">S&#x00F8;ren] <hi rend="italic">rettet fra:</hi> Soren <hi rend="italic">(trykkfeil)</hi></note> faa min pen.</p>
+<p>&#x2013; Udmerket! Og gubben Bugge tok selv Anton Bechs pen og bar den ned til S&#x00F8;ren.</p>
+<p>&#x2013; Se her, min ven, nu er du hjulpen! sa han venlig.</p>
+<p>&#x2013; Mange tak, sa S&#x00F8;ren Manddraber.</p>
+<p>&#x2013; &#x2013; Ved ett-tiden hver skriftlig dag samledes de alle utenfor skoleporten og sammenlignet kladdene. Klyngevis stod de bortover pladsen og oppe i gr&#x00E6;sbakken bak skolebygningen, hver klasse for sig. Men i hj&#x00F8;rnevinduet hos baker Hansen ret overfor skolen sat de syv artianere samtidig med sine opgaver; de var</p>
+<p><pb n="130"/>sv&#x00E6;rt vigtige, naturligvis, drak brus, spiste kaker, etpar av dem sat endog med en halv &#x00F8;l og viste den frem i vinduskarmen til de almindelige gutters misundelse! de r&#x00F8;kte ogsaa cigaretter derinde. Kom nogen av l&#x00E6;rerne forbi, forsvandt &#x00F8;llet naturligvis fra vinduet, og tobaksdampen gik indover i baker Hansens v&#x00E6;relse.</p>
+<p>Svend Bidevind var aldrig med i disse konferanser. Han l&#x00F8;p like hjem for hver gang. Spurte de ham hjemme hvordan det var gaat, l&#x00F8;d det faste svar: &#x2013; Aa, jeg tror saa passelig! Og nogen kladd hadde kan aldrig at vise frem.</p>
+<p>&#x2013; Nei &#x2013; jo &#x2013; naturligvis skrev jeg kladd, men jeg skrev saa anderledes ind &#x2013; og &#x2013; kladden, nei den blev ganske ul&#x00E6;selig tilslut &#x2013; saa kastet jeg den!</p>
+<p>Aanei, det var bedst ikke at vite noget selv! Der var likesom noget, som et grep om maven, opunder brystet, som holdt ham tilbake fra at faa h&#x00F8;re feilene. Han visste for hver gang at han maatte ha greiet sig, at han ikke hadde skrevet i 6. Og saa fik det staa til &#x2013; paa karakterseddelen kom det jo for en dag.</p>
+<p>Undertiden kunde det jo komme over ham som en angst &#x2013; om han hadde skrevet sp&#x00E6;ndspikende galt! Det hadde h&#x00E6;ndt f&#x00F8;r at han hadde v&#x00E6;ret saa sikker selv paa en stil, saadan <pb n="131"/>henimot 2. Og saa hadde den vist sig at v&#x00E6;re r&#x00E6;dselsfuld baade til 4 og 5!</p>
+<p>Men allikevel, her var uvissheten dog bedre; den indebar jo et haab, og det var haabet som skulde b&#x00E6;re gjennem al det mundtliges sp&#x00E6;nding og bekymringer!</p>
+<p>Det mundtlige kom, og Svend Bidevind var glad. S&#x00F8;ren Manddraber <emph>var</emph> berget gjennem det skriftlige. S&#x00F8;ren blev en f&#x00E6;llessak for hele klassen. Om det saa var de andre daarligdommene nede paa S&#x00F8;rens b&#x00E6;nk, de som slos om fuksev&#x00E6;rdigheten med ham, saa gik de omkring og interesserte sig faderlig for ham. Det var nogen sv&#x00E6;re, bomsterke karer som bare skulde faa unnagjort middelskole-eksamen til n&#x00E6;ste aar, og saa fluksens stryke tilsj&#x00F8;s! Jens Kock, Sivert Sm&#x00F8;rkake og etpar andre. Og S&#x00F8;ren var ussel og liten og graat saa gudsjammerlig. Han <emph>skulde</emph> desuten bokveien frem i denne verden, helt ut over gymnasiet, artium og universitetet; det var hans fars, klokkerens uryggelige vilje med vesle S&#x00F8;ren.</p>
+<p>F&#x00F8;rste mundtlige fag var historie. S&#x00F8;ren Manddraber var her ganske overlatt til sig selv; ti for rektor turde ingen hviske. S&#x00F8;ren var gr&#x00F8;n i ansigtet.</p>
+<p>Men Svend Bidevind kom i s&#x00F8;ndagskl&#x00E6;rne, nye graa sommerbukser med to blanke knapper <pb n="132"/>ved kn&#x00E6;rne, fine vrang- og ret strikkede sorte str&#x00F8;mper, vest og rundjakke, ren snip, rigtig skjortebryst med mors svingfuldeste sl&#x00F8;ife, og om haandleddene et par av fars manschetter halvanden gang sammenrullet i tr&#x00F8;ie&#x00E6;rmet. Nyklippet og vandkj&#x00E6;mmet stod den lyse luggen ret tilveirs, der han sat nede paa pladsen sin, tidlig ankommet, med hodet paa skakke og blikket bidevinds op mod rektor Holst fremme ved eksamensbordet. Foran ham laa nordenshistorien, verdenshistorien og den tykke gloseboken, hvori han selv under repeteringen nu hadde notert op sine oversigtstabeller, konger&#x00E6;kker og fremfor alt en n&#x00F8;iagtig gjennemgaaelse av alle koalitionskrigene mot Frankrike fra 1701 til 1815.</p>
+<p>Rektors eksamination gik jevnt d&#x00E6;mpet deroppe. Hvert 20de &#x00E0; 30te minut skrapet stolen, den f&#x00E6;rdige gik, den n&#x00E6;ste kom. Langsomt, men sikkert gik det r&#x00E6;kken nedover.</p>
+<p>Svend Bidevinds formand i nummerr&#x00E6;kken, Paal Gundersen, blev kaldt frem; det var for Svend Bidevind som aapnet der sig en kold avgrund for ham paa den side Paal hadde sittet &#x2013; nu, han gik frem.<note type="footnote">frem.] <hi rend="italic">rettet fra:</hi> frem <hi rend="italic">(trykkfeil)</hi></note></p>
+<p>Paal Gundersen blev h&#x00F8;rt om Fredrik 3 og enevoldsmagtens indf&#x00F8;relse.</p>
+<p>Svend Bidevind pustet lettere. Saa blev han forhaabentlig h&#x00F8;rt i verdenshistorien, naar <pb n="133"/>formanden fik Nordens. Svend Bidevind kunde nordenshistorien godt nok; men den var saa kjedelig. Saa trang, likesom snever i omraadet, og saa ensfarvet.</p>
+<p>Paal Gundersen greiet sig. Nansen og Svane og Gabel og 1660. Saa gik rektor litt tilbake, til krigen med Svenskerne, Karl X Gustav, freden til Roskilde, stormen paa Kj&#x00F8;benhavn. Her tullet Paal Gundersen svinagtig! Tosken! Hadde han bare l&#x00E6;st &#x00AB;Gj&#x00F8;ngeh&#x00F8;vdingen&#x00BB;! Ikke husket han Kronborg, ikke Holl&#x00E6;nderflaaten og admiral Opdam &#x2013; ikke engang stormnatten, da Svenskerne trak skjorten over kl&#x00E6;rne snenatten.</p>
+<p>F&#x00F8;r Svend Bidevind i sin hete iver for Paal visste ordet av det, l&#x00F8;d rektors d&#x00E6;mpete</p>
+<p>&#x2013; Nok!</p>
+<p>Paal Gundersen skj&#x00F8;v stolen bakover, reiste sig og gik.</p>
+<p>I samme nu stod Svend Bidevind ved stolen og bukket.</p>
+<p>&#x2013; V&#x00E6;rsaagod! sa rektor uten at se op fra sine papirer, og Svend Bidevind satte sig. Det var en underlig f&#x00F8;lelse at ha rektor saa n&#x00E6;r indpaa; de sat der likeoverfor hverandre ved det lille bord &#x2013; som til en passiar!</p>
+<p>Et &#x00F8;ieblik gik blodet svimlende til Svend Bidevinds hode. Nu skulde han h&#x00F8;res til selve eksamen! Og nu var det eneren skulde vindes <pb n="134"/>for rektor. Nu var det! Om det gik galt! Om der var et punkt ... og han tullet sig v&#x00E6;k!</p>
+<p>En god stund sat rektor og noterte i papirene. Svend Bidevind saa alle navnene staa nedover; ved hvert navn indtil hans stod et merke; det var karakteren. Men den var ikke skrevet med tal, men med nogenslags hemmelige tegn.</p>
+<p>Endelig saa rektor op.</p>
+<p>&#x2013; Nu &#x2013; er det dig, Svend! Men &#x2013; er du ikke ganske frisk?</p>
+<p>&#x2013; Jo&#x2013;o da, &#x2013; tak!</p>
+<p>&#x2013; Drik litt vand, t&#x00E6;nker jeg; du ser ut til at tr&#x00E6;nge det!</p>
+<p>Rent genert drak Svend Bidevind vandet, som han slet ikke tr&#x00E6;ngte til! Skj&#x00F8;nt, godt gjorde det nu likevel!</p>
+<p>&#x2013; Nu. Vi var ved Karl X Gustav, som d&#x00F8;de &#x2013; naar?</p>
+<p>&#x2013; 1660, svarte Svend Bidevind nedslaat. Det blev Nordens allikevel altsaa.</p>
+<p>&#x2013; Og efterfulgtes av?</p>
+<p>&#x2013; Formynderregjeringen for Karl XI.</p>
+<p>Saa gik det fremover med t&#x00F8;rre sp&#x00F8;rsmaal og t&#x00F8;rre svar som vanlig i nordenshistorien. Over slaget ved <emph>Fehrbellin</emph> begyndte det imidlertid at lysne i horisonten, der blev tale om den store kurfyrste av Brandenburg, om <pb n="135"/>Preussen, Fredrik I, videre frem til Fredrik II, den store, og her sette man sig rolig tilrette; Svend Bidevind fik situationer at forklare, la ut og fortalte om Maria Theresia, om Katharina II, om Frankrik med Voltaire, Ludvig XV og marskalk Soubise, om England og den store Pitt, &#x2013; alt som den mangfoldig skiftende og m&#x00E6;gtige ramme om den store preusserkonges skikkelse. Det som lignet et smil skinnet frem i rektor Holsts store, ransakende &#x00F8;ine, mens han bare hadde at sitte stille og h&#x00F8;re paa Svend Bidevinds lavm&#x00E6;lte, ivrige veltalenhet. Med nogen undselig forsigtighet anbragte alt i et Svend Bidevind saa et tr&#x00E6;k om kongen selv, saa et om William Pitt &#x2013; som ikke stod i boken, og rektor spurte:</p>
+<p>&#x2013; Hvor har du dette fra? Jeg skulde tro du har v&#x00E6;ret borte i Macaulay?</p>
+<p>&#x2013; Ja, svarte Svend Bidevind og slog &#x00F8;inene ned.</p>
+<p>Svend Bidevind var blit h&#x00F8;rt i tre kvart&#x00E9;r, da rektor sa &#x00AB;nok&#x00BB;.</p>
+<p>Eneren var utvilsomt reddet! Og Svend Bidevind gik hjem i festlig hum&#x00F8;r; ja, han spiste lutefisk og &#x00F8;lsuppe til mandags middagen som var det oksestek og saftsuppe! Og fortalte vidt og bredt om eksaminationen.</p>
+<p>Saa gik det slag i slag fremover gjennem <pb n="136"/>det mundtlige. S&#x00F8;ren Manddraber hadde gjort en miserabel begyndelse i historien. Han lot Karl XII tape slaget ved Poltava mot Napoleon; Kristian Kvart hadde slos med bisp Absalon ved Femern og meget andet rart. Under paved&#x00F8;mmets forfaldsperiode staar der i boken at &#x00AB;to skaml&#x00F8;se kvinder hadde bem&#x00E6;gtiget sig pavestolen! de av- og indsatte paver efter tykke&#x00BB;. Dette kunde S&#x00F8;ren ganske bra, men da han sluttet med at de to skaml&#x00F8;se &#x00AB;av&#x2013; og indsatte paver efter tykkelsen&#x00BB;, da kunde selv rektor Holst ikke bare sig; han brast i en aabenbar latter og sluttet eksaminationen. Siden var S&#x00F8;ren ved hvisking og fingersprog blit hjulpet over den rene skandale.</p>
+<p>Svend Bidevind gik fra fag til fag med en f&#x00F8;lelse av at danse over dem paa slap line &#x2013; som en Blondin over Niagara. Under ham bruste det med tysk, norsk grammatik, matematik, religion, fysik og alt rart, blandet med dunkle r&#x00E6;dsler for 6&#x0027;ere og 5&#x0027;ere. Men &#x2013; han berget sig iland hver gang og gik hjem uten at se sig tilbake, uten som de andre at overveie og spekulere paa hvad karakter han hadde faat. Etpar av de modigste i klassen utrustet en eftermiddagsekspedition en dag ind paa det tomme l&#x00E6;rerv&#x00E6;relse, hvor eksamensprotokollene laa; men de opdaget kun de mystiske og uforstaaelige <pb n="137"/>tegn og ingen tal, &#x2013; og Svend Bidevind var glad til.</p>
+<p>Det kom nok for en dag &#x2013; paa karakteropl&#x00E6;sningen!</p>
+<figure rend="asterisk"/>
+<p>Det var den 9de juli, bl&#x00E6;ndende solblank formiddag. Opover skolebakken var der en h&#x00F8;itidelig, s&#x00F8;ndagskl&#x00E6;dt f&#x00E6;rdsel. Der kom byfoged Bech med frue, og Anton imellem sig; paa hj&#x00F8;rnet traf de sammen med klokker S&#x00F8;rensen i sid, sort bonjour og metalglinsende floshat; ved haanden hadde han sin lille Manddraber. L&#x00E6;ngere nede kom k&#x00E6;mner Ingebrigtsen med sine fem gutter; han medf&#x00F8;rte ogsaa hustru og tre d&#x00F8;tre i side mammelukker og krumkam. K&#x00E6;mner Ingebrigtsen kom altid med fuld eskorte, selv dennegang, da de fem saa inderlig tyndt hadde tigget om at faa slippe at ha med jenterne! Der kom fruer med parasoller og sorte silkekjoler, madammer med hvite, stivede skj&#x00F8;rter og wienersjaler i spids nedefter ryggen; byens to prester med hvitt slips og bl&#x00F8;te silkehatter, embedsm&#x00E6;nd og grosserere, skippere i stive, blaa pjekkerter og med m&#x00E6;gtige n&#x00E6;ver, skomakere og skr&#x00E6;ddere i fuld puds, blanke st&#x00F8;vler og b&#x00F8;rstede hatter.</p>
+<p><pb n="138"/>Det var som kirkegang paa en s&#x00F8;ndagsformiddag. Men det var en tirsdag &#x2013; og karakteropl&#x00E6;sning.</p>
+<p>Guttene gik mellem m&#x00F8;dre og f&#x00E6;dre, tanter og bedstefor&#x00E6;ldre, vandkj&#x00E6;mmede og h&#x00F8;itidelige, og var det ikke fordi der var alle aldere og st&#x00F8;rrelser iblandt dem, kunde man tro det var konfirmationsdag.</p>
+<p>Svend Bidevind kom med far og mor. Han hadde bestaat en kamp hjemme, for begge s&#x00F8;strene hadde tigget sig lov av mor til at faa v&#x00E6;re med, og det vilde han aldeles ikke. Som om der ikke var snak nok mellem guttene om at han &#x00AB;lekte med jenter&#x00BB;, var &#x00AB;en jentedalt&#x00BB; osv.</p>
+<p>Oppe i skolebakken m&#x00F8;tte de skr&#x00E6;dder Johnsgaard og kone med Morten imellem sig. L&#x00E6;ngere oppe st&#x00F8;tte ogsaa kj&#x00F8;bmand Selmer til med Simon og hans to yngre br&#x00F8;dre. Simon hadde fl&#x00F8;iels tr&#x00F8;ie med blanke knapper.</p>
+<p>&#x2013; Det er nu bare gl&#x00E6;den for Dem, hr. Selmer, sa skr&#x00E6;dder Johnsgaard, &#x2013; at gaa til denne h&#x00F8;itid. De er vel nummer &#x00E9;n alle Deres tre!</p>
+<p>&#x2013; Aa, svarte hr. Selmer smilende, &#x2013; paa Simon er jeg jo sikker i saa maate. De to andre karene mine er vel mere tvilsomme.</p>
+<p>&#x2013; Saa Simon er saadan duks han! sa Svend Bidevinds far.</p>
+<p><pb n="139"/>&#x2013; Ja, hr. amtmand, han pleier oftest v&#x00E6;re den f&#x00F8;rste blandt sine.</p>
+<p>Svend<note type="footnote">Svend] <hi rend="italic">rettet fra:</hi> Skend <hi rend="italic">(trykkfeil)</hi></note> Bidevind knep l&#x00E6;berne sammen, &#x2013; saa absolut sikker skulde nu Simon Selmer ikke v&#x00E6;re; det turde h&#x00E6;nde at Anton Bech gjorde ham den nummer-&#x00E9;n-pladsen stridig nok! Og Simon sin norske stil kom sletikke op imot Antons! Han hadde l&#x00E6;st dem begge, Svend Bidevind.<note type="footnote">Bidevind.] <hi rend="italic">rettet fra:</hi> Bidevind, <hi rend="italic">(trykkfeil)</hi></note></p>
+<p>&#x2013; Det er jo en stor forn&#x00F8;ielse, hr. Selmer, sa amtmanden.</p>
+<p>&#x2013; Ja, ja! sa hr. Selmer og vendte sig til Svend Bidevind; han syntes vel han maatte si litt han ogsaa &#x2013; om amtmandens s&#x00F8;n &#x2013;: Og nu skal det smake at faa ferier, Svend, ikkesandt?</p>
+<p>&#x2013; Jo tak! svarte Svend Bidevind.</p>
+<p>&#x2013; Ja, det er nu en herlig tid den skoletiden, sa hr. Selmer, &#x2013; med de lange ferier. Og dem faar en jo hvadslags karakter en saa opnaar til eksamen!</p>
+<p>&#x2013; Ja, smaalo amtmanden, &#x2013; det er som Guds regn det, den falder over retf&#x00E6;rdig og uretf&#x00E6;rdig!</p>
+<p>Svend Bidevind gik og &#x00F8;nsket at hr. Selmer skulde forstaa at far nu mente at gj&#x00F8;re nar av ham &#x2013; for hovenheten hans! Aa, hvor han &#x00F8;nsket at Anton Bech skulde bli nummer &#x00E9;n!</p>
+<p>&#x2013; Oppe i gymnastiksalen var der pyntet med gr&#x00F8;nne kranser. Midt paa den inderste <pb n="140"/>tr&#x00E6;v&#x00E6;g, over rektors talerstol, hang skolefanen. Entrest&#x00E6;ngerne var skubbet ind i en krok, hvor hesten, bukken og stigen ogsaa stod; alle ribbev&#x00E6;ggene var overh&#x00E6;ngt med kranser, og bommen var heiset til taks. I to rader med en aapen midtgang imellem stod skoleb&#x00E6;nker opstillet. De begyndte alt at fyldes. Paa &#x00F8;verste b&#x00E6;nk sat allerede k&#x00E6;mner Ingebrigtsen med sin kone og sine otte barn. Ellers hadde de fleste sat sig beskedent paa de nederste b&#x00E6;nkerader.</p>
+<p>Amtmanden lot sin kone og Svend Bidevind s&#x00E6;tte sig midtveis i b&#x00E6;nkeradene. Selv gik han helt op til l&#x00E6;nestolene ved katederet, hvor l&#x00E6;rerne og byens autoriteter hadde sine faste pladser. Byfoged Bech sat der alt med Svenningsen, Bugge og Lange.</p>
+<p>Men kj&#x00F8;bmand Selmer med sine tre poder gik stoltelig op og tok plads paa f&#x00F8;rste b&#x00E6;nk ved siden av k&#x00E6;mner Ingebrigtsen, men paa den andre siden av midtgangen.</p>
+<p>Der var en gaaen og kommen, s&#x00F8;ken efter plads, hilsen og nikken, men alt d&#x00E6;mpet, h&#x00F8;itidelig, aldeles som i kirken!</p>
+<p>Guttene selv sat stumme og trykkede. Det var som om deres egen gymnastiksal pludselig var blit nogenslags tempel &#x2013; alt andet end det vanlige leven og spektakel med gymnastikl&#x00E6;rer Olsen. Og al den megen hvisken mellem <pb n="141"/>for&#x00E6;ldrene og venlige tale til dem selv om ferier o. lign. gik dem forbi. Feriestemningen var endnu d&#x00E6;mmet op av den ventede karakterseddel; endnu hadde absolut skolen sit faste tak i dem, der de sat og grudde sig!</p>
+<p>Der kom artianerne, alle i &#x00E9;n flok, efter avtale, med duskluerne under armene &#x2013; helt frem til l&#x00E6;nestolene, hvor de gratulertes av dem deroppe i hele forsamlingens paasyn. For&#x00E6;ldrene &#x2013; hver paa sin kant nede imellem b&#x00E6;nkene &#x2013; reiste sig halvt op derved, skinte i &#x00F8;inene og nikket og smilte med, eftersom der nikkedes og smiltes deroppe ...</p>
+<p>Tykke Wiers kom anstigende. Han br&#x00F8;t h&#x00F8;itideligheten ved at gaa og snakke ganske h&#x00F8;it med garver Svendsen, som gik sammen med ham opover, frygtelig genert. Elers avbr&#x00F8;tes h&#x00F8;itideligheten av og til ellers ogsaa; f. eks. da fru Beeren kom med sine to hvitluggede tvillinggutter fra f&#x00F8;rste smaaklasse, og den ene av dem ropte h&#x00F8;it og lydt om at han &#x00AB;vilde sitte paa den kassen der&#x00BB;, &#x2013; pekende paa talerstolen.</p>
+<p>Ind trippet de, store og smaa, salen fyldtes, der mumledes og hviskedes ...</p>
+<p>Saa stod rektor Holst paa katederet. Klokken var pr&#x00E6;cis 10&#x00BD;, som der stod i indbydelsesskriftet.</p>
+<p><pb n="142"/>Der blev d&#x00F8;dsstille i salen, og pedel Ibenfeldt nede ved d&#x00F8;ren hadde sin m&#x00F8;ie med paa taaspidsene og hviskende at faa bragt nogen eftern&#x00F8;lere til s&#x00E6;te.</p>
+<p>Rektor Holst stod litt paa vanlig vis, vuggende sig i kn&#x00E6;rne og med de store &#x00F8;ine ransakende utover. Da eftern&#x00F8;lerne og pedel Ibenfeldt var kommet til ro, og stilheten var absolut, r&#x00F8;mmet han sig og begyndte.</p>
+<p>Rektor Holst holdt aldrig lange taler. Det gik kort, d&#x00E6;mpet og urokkelig alvorlig gjennem det almindelige om skolen og over til artianerne, som fik sin formaning og sin tale om at de nu &#x00AB;skulde ut i livet&#x00BB;. Og artianerne stod og pillet paa silkeduskene med s&#x00E6;nkede hoder.</p>
+<p>Saa bar det nedover klasserne.</p>
+<p>For hver ny klasse sa rektor etpar ord om dens flid og fremgang i almindelighet, og saa l&#x00E6;stes karaktersedlene op; &#x00E9;n for &#x00E9;n kom guttene frem efter nummerne, stod foran talerstolen, mens hovedkarakter, ordenskarakter og opf&#x00F8;rselskarakter l&#x00E6;stes op over det mere eller mindre syndige hode.</p>
+<p>6te middel med middelskole-eksamen fik jo sine ekstra bemerkninger.</p>
+<p>Svend Bidevind hadde ondt i maven.</p>
+<p>&#x2013; 5te middelklasse! l&#x00E6;ste rektor.</p>
+<p>Et &#x00F8;iebliks stilhet. Svend Bidevind b&#x00F8;ide <pb n="143"/>sig over sin smertende mave, &#x2013; endnu hadde han jo nogen frist, f&#x00F8;rst de almindelige ord, saa Simon og Anton og ...</p>
+<p>Han f&#x00F3;r sammen: Rektors stemme uttalte hans navn, uten spor av almindelige ord ...</p>
+<p>Han sanset sig ikke straks; det f&#x00F3;r igjennem ham, om rektor skulde ville &#x2013; i alt folkets paah&#x00F8;r &#x2013; gi ham en straffetale for alt galt iaar ...</p>
+<p>&#x2013; Nu Svend, ropte rektor Holst igjen og saa ransakende nedover b&#x00E6;nkene. Amtmanden oppe ved l&#x00E6;nestolene reiste sig og saa strengt ned mot Svend Bidevinds plads.</p>
+<p>Med svigtende kn&#x00E6;r, hvit av angst, n&#x00E6;sten sjanglet Svend Bidevind opover midtgangen.</p>
+<p>Rektor stod med karakterseddelen i haanden. Han saa et &#x00F8;ieblik over den ned paa Svend Bidevind, der var stanset foran ham. Saa l&#x00E6;ste rektor:</p>
+<p>&#x2013; Hovedkarakter udmerket godt 1,35. Opflyttes i 6te middelklasse som nummer 1.</p>
+<p>Rektor rakte seddelen ned. Svend Bidevind tok den ikke.</p>
+<p>&#x2013; Nu vims! sa rektor, &#x2013; du faar ta seddelen din!</p>
+<p>Papiret rystet i n&#x00E6;ven paa Svend Bidevind. Han glemte at bukke som de andre, blev staaende litt og stirret paa rektor.</p>
+<p>Men rektor l&#x00E6;ste rolig videre:</p>
+<p><pb n="144"/>&#x2013; Simon Selmer!</p>
+<p>Da Svend Bidevind vendte sig for at gaa, m&#x00F8;tte han Simon Selmers sure fj&#x00E6;s &#x2013; og i det samme fik han et glimt av hr. Selmer paa f&#x00F8;rsteb&#x00E6;nken.</p>
+<p>Da f&#x00F8;rst gik det op for Svend Bidevind at han var blit nummer &#x00E9;n &#x2013;!</p>
+<p>I et eneste, v&#x00E6;ldig skinnende smil gik han nedover til mor.</p>
+</div>
+</body>
+</text>
+</TEI>

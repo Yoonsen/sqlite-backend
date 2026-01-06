@@ -1,0 +1,802 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI PUBLIC "-// TEI P5 //EN" "http://www.tei-c.org/release/xml/tei/custom/schema/dtd/tei_all.dtd">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="OM_Normann_NyeEventyr">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>bokselskap.no/Nasjonalbiblioteket/OsloMet, Oslo 2019
+<lb/>Regine Normann: <hi rend="italic">Nye eventyr</hi>
+<lb/>Teksten i bokselskap.no f&#x00F8;lger 1. utgave, 1926 (Oslo/Aschehoug). Digitaliseringen er basert p&#x00E5; fil mottatt fra Nasjonalbiblioteket. Korrekturlest og tilrettelagt av OsloMet-studentene Kent Bersvendsen, Antonio A. Encarnacion og Arne George &#x00D8;stensen, h&#x00F8;sten 2018.</title>
+</titleStmt>
+<publicationStmt>
+<p>Publiseres som digital tekst av bokselskap.no.</p></publicationStmt>
+<sourceDesc>
+    <bibl>
+        <title>Nye eventyr</title>
+        <author>Regine Normann</author>
+        <publisher>Aschehoug</publisher>
+        <pubPlace>Oslo</pubPlace>
+        <date>1926</date>
+        <note>digibok_2012021424055 (fra Nasjonalbiblioteket)</note>
+    </bibl>
+</sourceDesc>
+</fileDesc>
+<revisionDesc>
+<change xml:id="ENW" who="ENW" when="2019-01-11">Sjekket XML-kodingen, justert en del. Flyttet sidereferanser, lagt inn innholdsliste og ref-koding. Lest gjennom teksten og rettet noen korrekturfeil. Entiteter, kodekontroll og validering. Klar for publisering.</change>
+<change xml:id="OM" who="OsloMet" when="2018-12-18">XML-koding og korrektur. Validering.</change>
+</revisionDesc>
+</teiHeader>
+<text xml:id="OM_Normann_NyeEventyr_tekst" type="collection">
+<front>
+<titlePage type="main">
+<byline><docAuthor>Regine Normann</docAuthor></byline>
+<docTitle>
+<titlePart type="main">Nye eventyr</titlePart>
+</docTitle>
+<docDate>bokselskap.no/OsloMet
+<lb/>i samarbeid med Nasjonalbiblioteket
+<lb/>Oslo 2019</docDate>
+</titlePage>
+<div xml:id="contents">
+<list type="contents_main">
+<item><ref target="chapter_1" xml:id="contents_1">Ungdomslandet</ref></item>
+<item><ref target="chapter_2" xml:id="contents_2">Oterhammen</ref></item>
+<item><ref target="chapter_3" xml:id="contents_3">Den snartenkte kjerringen</ref></item>
+<item><ref target="chapter_4" xml:id="contents_4">Risen i Bl&#x00E5;berget</ref></item>
+<item><ref target="chapter_5" xml:id="contents_5">Gutten som fulgte efter matmor sin til Hekkelsfjell</ref></item>
+<item><ref target="chapter_6" xml:id="contents_6">Tredokka</ref></item>
+<item><ref target="chapter_7" xml:id="contents_7">Makt mot makt</ref></item>
+<item><ref target="chapter_8" xml:id="contents_8">Gutten som giftet sig med huldrejenten</ref></item>
+<item><ref target="chapter_9" xml:id="contents_9">Det r&#x00F8;de gullbergslottet i Nordvesthavet</ref></item>
+</list>
+</div>
+</front>
+<body>
+<div type="chapter" n="1">
+<head type="main"><ref type="contents" target="contents_1" xml:id="chapter_1">Ungdomslandet</ref></head>
+<p>Det var engang en mektig konge som hersket over et stort rike. Han hadde tre s&#x00F8;nner og ingen datter. Og alt han satte sig fore &#x00E5; utrette, lyktes for ham, s&#x00E5; &#x00E5;rene svant som r&#x00F8;k for fykende vind.</p>
+<p>S&#x00E5; var det en natt fullm&#x00E5;nen skinte s&#x00E5; stor og vakker. Kongen l&#x00E5; v&#x00E5;ken og s&#x00E5; p&#x00E5; den gjennem vinduet p&#x00E5; sovekammeret sitt. Og mens han l&#x00E5; slik og stirret, rant det ham i tankene at han alt var langt oppe i &#x00E5;rene, og at tiden n&#x00E6;rmet sig fort da han m&#x00E5;tte k&#x00E5;re ut den av s&#x00F8;nnene sine han fant best skikket til &#x00E5; bli konge efter ham.</p>
+<p>Men tankene urodde ham der han l&#x00E5;. Han blev harm over livets forgjengelighet <pb n="2"/>og steg frem av sengen, slengte en kappe om sig og gikk ut i haven for &#x00E5; svale den hete kroppen og bli kvitt mismotet som hadde f&#x00E5;tt tak i ham.</p>
+<p>Best han gikk der og drev mellem blomster og tr&#x00E6;r, fikk han &#x00F8;ie p&#x00E5; noget svart, kronglete som kom krabbende mot ham i m&#x00E5;nestripen p&#x00E5; grusgangen. Da det n&#x00E5;dde frem til ham, s&#x00E5; han det var en eldgammel kjerring s&#x00E5; ihopkr&#x00F8;kt at fingertuppene r&#x00F8;rte ved gruset.</p>
+<p>&#x00AB;Du trenger ikke g&#x00E5; her nattens tider og stri med de tunge tankene dine,&#x00BB; pep kjerringen. &#x00AB;Jeg vet om et land de kaller Ungdomslandet. Der ligger et slott, og bak slottet er en have, og i den haven vokser det et tre som b&#x00E6;rer blodr&#x00F8;de epler. Ved roten av treet bobler det frem en iskald kilde, og spiser du et av de eplene, og drikker du en slurk av det kildevannet, blir du ung igjen og f&#x00E5;r mot og krefter til &#x00E5; leve livet engang til.&#x00BB;</p>
+<p>I det samme hun hadde sagt det, kvarv hun bort, og kongen stod der og glante p&#x00E5; m&#x00E5;nestripen, og visste ikke om han var v&#x00E5;ken eller om han dr&#x00F8;mte.</p>
+<p>N&#x00E6;ste dag skikket han bud p&#x00E5; s&#x00F8;nnene sine, og sa at den av dem som skaffet ham et eple og en slurk kildevann fra haven <pb n="3"/>bak slottet i Ungdomslandet, skulde f&#x00E5; bli konge efter ham.</p>
+<p>Den eldste s&#x00F8;nnen vilde f&#x00F8;rst i vei. Han fikk mat i taska og vin p&#x00E5; flaska og den gildeste hesten p&#x00E5; stallen, og red ut i den vide verden for &#x00E5; lete op Ungdomslandet.</p>
+<p>Da han hadde ridd langt og lengere enn langt, kom han til et sv&#x00E6;rt nypekjerr dryssende fullt av pene sm&#x00E5; roser. Det var s&#x00E5; vent at prinsen rent falt i undring over at noget s&#x00E5; vakkert grodde op ved alfarveien, og steg av hesten, fant frem nisten sin og satte sig til &#x00E5; spise i skyggen av kjerret.</p>
+<p>Best han satt, blev han var at noget r&#x00F8;rte sig inne i kjerret, og ut kom det en gammel, skrukket kjerring og stilte sig ved siden av matskreppen hans.</p>
+<p>&#x00AB;&#x00C5; kj&#x00E6;re vene, gi mig en bitteliten br&#x00F8;dkrumme hos dig. Jeg har ikke smakt matbeten p&#x00E5; den dag jeg selv kan minnes,&#x00BB; pep hun, ikke stort h&#x00F8;iere enn en mus.</p>
+<p>&#x00AB;Jeg har ikke mere mat enn jeg trenger selv,&#x00BB; sa konges&#x00F8;nnen, trev matskreppen, hev sig i salen og red vekk fra kjerringen og nypekjerret som var s&#x00E5; vakkert.</p>
+<p><pb n="4"/>I belgm&#x00F8;rke om kvelden kom han til et stort hus som l&#x00E5; like ved veien. Det lyste ut av vindusrutene, og klangen av sang og av strengelek trengte ut til ham.</p>
+<p>Han steg av hesten, gikk inn og bad om husly for sig selv og stallrum for hesten sin, og han fikk begge deler. En svenn kom og tok hesten; men konges&#x00F8;nnen gikk inn til den lystige flokk av gamle og unge, blandet sig i laget, drakk og moret sig til han glemte b&#x00E5;de far sin og &#x00E6;rendet han selv f&#x00F3;r i.</p>
+<lb/>
+<p>Men kongen ventet og ventet, og ingen prins kom der med eplet og kildevannet han stundet s&#x00E5; s&#x00E5;rt efter.</p>
+<p>Da &#x00E5;ret var omme, sa n&#x00E6;steldste s&#x00F8;nnen at nu vilde han i vei og lete efter broren og efter Ungdomslandet. Kongen sa ikke nei, og han fikk mat i taska og vin p&#x00E5; flaska og den n&#x00E6;st gildeste hesten p&#x00E5; stallen.</p>
+<p>Det gikk ham akkurat som det hadde g&#x00E5;tt bror hans. Han kom til nypekjerret og falt i undring over hvor vent det var, steg av hesten og satte sig til &#x00E5; spise.</p>
+<p>Men straks den skrukkete kjerringen kom stiltrende ut av kjerret og tok p&#x00E5; &#x00E5; <pb n="5"/>tigge om mat, trev han skreppen, kastet sig p&#x00E5; hesteryggen og sprengte i vei.</p>
+<p>Sent om kvelden kom han til det store huset, s&#x00E5; lys i alle vinduene og h&#x00F8;rte klangen av sang og strengelek. Han gikk inn for &#x00E5; be om husly for sig selv og stallrum for hesten sin.</p>
+<p>Men inne i huset r&#x00E5;ket han p&#x00E5; bror sin, som spurte om han hadde grust med penger p&#x00E5; sig. Det hadde han, og s&#x00E5; blev det fest og turing natt og lyse dag, til han glemte b&#x00E5;de far sin og &#x00E6;rendet han selv f&#x00F3;r i.</p>
+<lb/>
+<p>Da &#x00E5;ret var omme, og ingen av konges&#x00F8;nnene vendte hjem eller p&#x00E5; annet vis lot h&#x00F8;re fra sig, gikk yngste prinsen til kongen og bad om lov til &#x00E5; dra ut og lete op Ungdomslandet og f&#x00E5; fatt i eplet og kildevannet kongen s&#x00E5; inderlig gjerne vilde ha. Samtidig vilde han nytte leiligheten og h&#x00F8;re sig om efter de bortkomne br&#x00F8;drene, og det skulde nu v&#x00E6;re rart om han ikke p&#x00E5; en eller annen lei fikk spurning av dem, mente han.</p>
+<p>Kongen sa tvert nei. Han hadde bare denne ene s&#x00F8;nnen &#x00E5; tr&#x00F8;ste sig til i alderdommen og vilde ikke slippe han fra sig.</p>
+<p><pb n="6"/>Men prinsen gn&#x00E5;lte og tagg, og til slutt fikk han da maset sig til et slags jaord. Men det var ikke med kongens gode vilje at det ordet glapp ham ut av munnen.</p>
+<p>I fykende fei gjorde yngste s&#x00F8;nnen sig ferdig til reisen. Han fikk mat i taska og vin p&#x00E5; flaska, men ingen hest til &#x00E5; ri p&#x00E5;, for kongen s&#x00E5; sig ikke utkomme til &#x00E5; miste flere av de kostbare hestene sine.</p>
+<p>Men yngstes&#x00F8;nnen mente som s&#x00E5;, at han hadde unge, sterke ben &#x00E5; g&#x00E5; p&#x00E5;, og freidig bad han farvel med faren og alle som var p&#x00E5; slottet, og gav sig p&#x00E5; vandring for &#x00E5; lete op Ungdomslandet.</p>
+<p>Bl&#x00E5;ne op og bl&#x00E5;ne ned gikk han, og langt om lenge kom han til nypekjerret med alle de vene sm&#x00E5; rosene. Trett av vandringen hev han sig ned i skyggen av kjerret og l&#x00F8;ste op b&#x00E5;ndet for matskreppen.</p>
+<p>I det samme han fant frem nisten, tok det p&#x00E5; &#x00E5; rasle inne i kjerret, og en eldgammel, skrukket kjerring kom stiltrende frem og stilte sig ved siden av skreppen.</p>
+<p>&#x00AB;&#x00C5; kj&#x00E6;re vene, gi mig en bitteliten br&#x00F8;dkrumme hos dig. Jeg har ikke smakt matbeten p&#x00E5; den dag jeg selv kan minnes,&#x00BB; pep hun rent ynkelig i m&#x00E5;let.</p>
+<p><pb n="7"/>&#x00AB;Bare ta det du helst vil ha,&#x00BB; sa konges&#x00F8;nnen og grov frem det lekreste av nisten og la bort&#x00E5;t henne.</p>
+<p>Da hun hadde rusket i sig b&#x00E5;de vel og lenge og drukket sig godt ut&#x00F8;rst av flasken hans, spurte hun hvor han eslet sig hen og hvad &#x00E6;rend han f&#x00F3;r i. Og prinsen fortalte uten omsv&#x00F8;p alt som det var.</p>
+<p>Da han hadde snakket ferdig, sa kjerringen:</p>
+<p>&#x00AB;Du har gitt mig, gamle kroken, av alt det lekreste du hadde i matskreppen din, og nu vil jeg gi dig et godt r&#x00E5;d til takk for velgjort.</p>
+<p>N&#x00E5;r du kommer til Ungdomslandet, m&#x00E5; du ikke bli der lenger enn en snau klokketime, og ikke skal du ta med dig mere <pb n="8"/>fra haven enn ett eple og s&#x00E5;pass med vann fra kilden at far din kan fylle munnen &#x00E9;n gang.&#x00BB;</p>
+<p>&#x00AB;Det r&#x00E5;det skal jeg legge mig p&#x00E5; minne,&#x00BB; sa prinsen og gjorde sig rede til &#x00E5; dra videre.</p>
+<p>&#x00AB;Nei, stans nu litevette, jeg er ikke ferdig med det jeg har &#x00E5; si! P&#x00E5; din vandring kommer du forbi et stort hus like ved veien. Der lever begge br&#x00F8;drene dine i sus og dus; men det er ikke verdt at du g&#x00E5;r inn til dem, f&#x00F8;r du f&#x00E5;r undagjort &#x00E6;rendet ditt, og helst ikke da heller.&#x00BB;</p>
+<p>Dermed s&#x00E5; kvarv hun bort, og prinsen tok skreppen p&#x00E5; ryggen og gav sig p&#x00E5; vandring. Det store huset kom han til i dagslys, og hvordan det nu var eller ikke var, s&#x00E5; syntes han han fikk svippe innom som aller snarest og hilse p&#x00E5; br&#x00F8;drene.</p>
+<p>Men de l&#x00E5; og sov og var ikke til &#x00E5; f&#x00E5; vekket, og han m&#x00E5;tte n&#x00F8;ie sig med &#x00E5; legge ned en hilsen til dem, at han hadde v&#x00E6;rt der og var dratt videre til Ungdomslandet. Men han skulde stikke innom dem p&#x00E5; tilbakeveien.</p>
+<p>Da han kom ut av huset, stod den gamle kjerringen der, og hun var ikke blid i opsynet.</p>
+<p>&#x00AB;Nu var lykken bedre enn fremferden,&#x00BB; <pb n="9"/>sa hun. &#x00AB;Men siden du er s&#x00E5; opsatt p&#x00E5; &#x00E5; sinke dig selv, skal du f&#x00E5; denne hesten &#x00E5; ri p&#x00E5;. Den korter alltids veien for dig s&#x00E5; lenge det er ridendes, siden f&#x00E5;r du ta foten fatt.&#x00BB;</p>
+<p>Dermed s&#x00E5; tok hun en tordivel op av skj&#x00F8;rtelommen, stilte den p&#x00E5; flate veien og la et lyser&#x00F8;dt lite rosenblad over ryggen p&#x00E5; den.</p>
+<p>Straks blev tordivelen til en fnysende, kullsvart hingst, og prinsen hev sig i salen og sprengte avsted s&#x00E5; st&#x00F8;vf&#x00F8;iken stod jevnh&#x00F8;it med ham selv.</p>
+<p>Langt og lenger enn langt red han, og s&#x00E5; kom han til en skog som var s&#x00E5; tettvokset at den lignet en vegg.</p>
+<p>Han steg av hingsten og slapp den p&#x00E5; beite, og salen hengte han p&#x00E5; en gren, og s&#x00E5; tok han p&#x00E5; &#x00E5; bryte sig vei gjennem skogen.</p>
+<p>Det gikk sm&#x00E5;tt, og hvert plagg p&#x00E5; kroppen hans var fl&#x00E6;ret i filler, da han sent en kveld fikk se et lys glimte frem mellem tr&#x00E6;rne. Han famlet sig frem efter lyset og kom til en jordhytte. D&#x00F8;ren var stengt, men han banket p&#x00E5; og sa: &#x00AB;Lukk op, bestemor.&#x00BB;</p>
+<p>Straks h&#x00F8;rte han subb av f&#x00F8;tter mot jordgulvet, og en gammel, skrukket kjerring <pb n="10"/>kom og lukket op d&#x00F8;ren p&#x00E5; gl&#x00F8;tt og kikket ut.</p>
+<p>&#x00AB;Nu har jeg levd i hundre vedfall, og ingen har kalt mig bestemor, og kan jeg gj&#x00F8;re dig noget bestemorsstykke, s&#x00E5; skal jeg sikkert gj&#x00F8;re det,&#x00BB; sa hun.</p>
+<p>&#x00AB;Du kan ikke gj&#x00F8;re mig st&#x00F8;rre bestemorsstykke enn &#x00E5; f&#x00F8;re mig til Ungdomslandet,&#x00BB; sa prinsen.</p>
+<p>&#x00AB;Det landet har jeg aldri h&#x00F8;rt nevnt for mine syndige &#x00F8;rer, men jeg eier alle fuglene i skogen, kanskje de vet greie p&#x00E5; det og kan hjelpe dig p&#x00E5; vei. Jeg skal kalle dem sammen n&#x00E5;r det blir dag.&#x00BB;</p>
+<p>S&#x00E5; tok hun konges&#x00F8;nnen med inn i hytten og stelte vel med ham med mat og med drikke, og smurte grosalve p&#x00E5; alle rispene skogen hadde revet i skinnet hans.</p>
+<p>Straks dagen rant over tretoppene, stilte hun sig p&#x00E5; trammen utenfor d&#x00F8;ren og bl&#x00E5;ste i en benpipe. Og fuglene kom susende i flokk og enkeltvis, til luften svartnet om hytten, slik en h&#x00E6;rskarenes mangfoldighet var det av dem. Men ingen hadde h&#x00F8;rt om Ungdomslandet, og hun sendte dem tilbake dit de kom fra.</p>
+<p>&#x00AB;Nu vet jeg ikke bedre r&#x00E5;d &#x00E5; gi dig enn at du drar til n&#x00E6;steldste s&#x00F8;steren min som bor sju bl&#x00E5;ner herifra. Hun eier alle dyrene <pb n="11"/>i skogen, kanskje hun kan hjelpe dig. Men fordi du nevnte mig for bestemor, skal du f&#x00E5; dette sverdet. Det er slik laget at alt du truer med det, blir tamt, og du kan lett f&#x00E5; bruk for det.&#x00BB;</p>
+<p>Prinsen tok med glede mot gaven, spente sverdet om livet, takket for sig og gav sig p&#x00E5; vandring.</p>
+<p>Men hadde skogen v&#x00E6;rt tett f&#x00F8;r, s&#x00E5; var den nu blitt ti ganger tettere. Men han var ikke av den sorten som gav sig over ved halvgjort arbeid. Han skar og han br&#x00F8;t, han sm&#x00F8;g og han kr&#x00F8;p, til han langt om lenge kom til en liten stue som l&#x00E5; p&#x00E5; en &#x00E5;pning i skogen.</p>
+<p>Han banket p&#x00E5; d&#x00F8;ren og sa: &#x00AB;Lukk op, bestemor,&#x00BB; og straks h&#x00F8;rte han skrubbing av fots&#x00E5;ler mot gulvfj&#x00F8;lene, og en kroket, gammel kjerring &#x00E5;pnet d&#x00F8;ren og stod og myste mot ham med sure, r&#x00F8;dkantede &#x00F8;ine.</p>
+<p>&#x00AB;Nu har jeg levd i to hundre vedfall, og ingen har kalt mig for bestemor, og kan jeg gj&#x00F8;re dig noget bestemorsstykke, skal jeg s&#x00E5;visst gj&#x00F8;re det.&#x00BB;</p>
+<p>&#x00AB;Du kan ikke gj&#x00F8;re mig st&#x00F8;rre bestemorsstykke enn &#x00E5; f&#x00F8;re mig til Ungdomslandet,&#x00BB; sa prinsen.</p>
+<p>&#x00AB;Nei, det landet kjenner jeg ikke noget til,&#x00BB; sa kjerringen. &#x00AB;Men jeg eier alle dyrene <pb n="12"/>i skogen, kanskje ett av dem vet om landet.&#x00BB;</p>
+<p>S&#x00E5; tok hun en liten pipe op av skj&#x00F8;rtlommen og bl&#x00E5;ste, og straks tok det p&#x00E5; &#x00E5; knake og brake mellem tr&#x00E6;rne, og en stor skokk dyr av alle slag br&#x00F8;t frem og stilte sig i ring rundt kjerringen og prinsen. Men ingen av flokken &#x00E5;tte rede p&#x00E5; Ungdomslandet, og hun bad dem g&#x00E5; tilbake dit de var kommet fra.</p>
+<p>&#x00AB;Nu vet jeg ikke bedre r&#x00E5;d &#x00E5; gi dig enn at du drar i vei til eldstes&#x00F8;steren min, som bor sju bl&#x00E5;ner herifra. Hun eier alle fiskene i havet, kanskje hun kan hjelpe dig. Men for du var s&#x00E5; snild og kalte mig bestemor, skal du f&#x00E5; denne duken. Den er slik laget at n&#x00E5;r du sier: Duk, bred dig ut, dekk op alle slags kostelige retter, s&#x00E5; gj&#x00F8;r den det.</p>
+<p>Og n&#x00E5;r du og dem du har med dig til m&#x00E5;ltidet, er mette, sier du: Duk, dekk av, s&#x00E5; bretter den sig sammen av sig selv til den ikke er st&#x00F8;rre enn du kan putte den i vestelommen din. Ta godt vare p&#x00E5; den, for den kan bli dig til st&#x00F8;rre nytte enn du selv vet.&#x00BB;</p>
+<p>Prinsen tok med takk mot gaven, bad farvel og gav sig p&#x00E5; vandring over alle sju bl&#x00E5;nene. Han gikk gjennem skog hele <pb n="13"/>veien til han kom til et &#x00E5;pent hav. P&#x00E5; strandstrimen l&#x00E5; en usselig liten hytte, og han banket p&#x00E5; d&#x00F8;ren og sa: &#x00AB;Lukk op, bestemor.&#x00BB;</p>
+<p>Straks h&#x00F8;rte han dunk av kjepp mot gulvfj&#x00F8;lene, og en gammel, ihopkr&#x00F8;kt kjerring med nesen til stav drog sl&#x00E5;en fra d&#x00F8;ren.</p>
+<p>&#x00AB;Nu har jeg levd i tre hundre vedfall, og ingen har kalt mig bestemor, og kan jeg gj&#x00F8;re dig noget bestemorsstykke, s&#x00E5; skal jeg s&#x00E5;visst gj&#x00F8;re det,&#x00BB; sa hun.</p>
+<p>&#x00AB;Du kan ikke gj&#x00F8;re mig st&#x00F8;rre bestemorsstykke enn &#x00E5; f&#x00F8;re mig til Ungdomslandet,&#x00BB; sa konges&#x00F8;nnen.</p>
+<p>&#x00AB;Det landet har jeg aldri hverken h&#x00F8;rt eller spurt navnet p&#x00E5; en gang. Men jeg eier alle fiskene i havet. Kanskje en av dem har rede p&#x00E5; hvor det er &#x00E5; finne.&#x00BB;</p>
+<p>S&#x00E5; bl&#x00E5;ste hun i en liten benpipe hun tok op av stakklommen, og sj&#x00F8;en tok p&#x00E5; &#x00E5; skumme og bruse, og stim p&#x00E5; stim av alle de fisk som i havet var, s&#x00F8;kte inn mot strandstrimen. Alle var de der, bare hvalen manglet.</p>
+<p>Hun bl&#x00E5;ste en gang til og ennu en gang; men da h&#x00F8;rte de den peste langt ut p&#x00E5;, og vannstr&#x00E5;ler stod spr&#x00F8;it i spr&#x00F8;it mens den br&#x00F8;itet sig vei inn mot stranden.</p>
+<p><pb n="14"/>&#x00AB;Kan du fortelle mig hvad det er for l&#x00F8;nnveier du farer, siden du ikke h&#x00F8;rer n&#x00E5;r jeg piper p&#x00E5; dig?&#x00BB; spurte kjerringen.</p>
+<p>Hvalen l&#x00E5; og hev efter pusten, og det varte en dryg stund f&#x00F8;r den fikk m&#x00E5;l for sig til &#x00E5; svare at han kom fra Ungdomslandet. Der hadde den ligget og d&#x00F8;st i solsteken. Men veien derfra og hit var s&#x00E5; lang at den greide ikke komme f&#x00F8;r.</p>
+<p>&#x00AB;Har du v&#x00E6;rt i Ungdomslandet uten mitt vidende, skal du f&#x00E5; gj&#x00F8;re turen om igjen med prinsen her st&#x00E5;r, p&#x00E5; ryggen,&#x00BB; sa kjerringen.</p>
+<p>Dermed s&#x00E5; satte prinsen sig p&#x00E5; hvalryggen, og av bar det s&#x00E5; skumskavlen fosset og valt om dem.</p>
+<lb/>
+<p>Da de kom til Ungdomslandet, h&#x00F8;vde det sig s&#x00E5; vel at trollene som voktet slottet, l&#x00E5; og kvilte middag.</p>
+<p>Hvalen bad prinsen g&#x00E5; bent forbi dem og ikke stanse f&#x00F8;r han var i haven bak slottet; og han m&#x00E5;tte endelig ikke glemme &#x00E5; v&#x00E6;re tilbake og p&#x00E5; ryggen til hvalen f&#x00F8;r klokken slo ett. Ellers v&#x00E5;knet trollene, og da stod det om livet for dem begge.</p>
+<p><pb n="15"/>Og s&#x00E5; sv&#x00F8;mte hvalen inn til et svaberg, og konges&#x00F8;nnen krabbet p&#x00E5; land og gikk fort op til slottet og forbi trollene som snorksov ved inngangen. Det l&#x00E5; syv saler p&#x00E5; rad, og han gikk gjennem dem alle syv; i den &#x00E5;ttende l&#x00E5; en deilig prinsesse og sov p&#x00E5; et leie av silke og gull. Hun var fagrere enn solen p&#x00E5; himlen, og konges&#x00F8;nnen stod fjetret ved synet og form&#x00E5;dde ikke r&#x00F8;re hverken h&#x00E5;nd eller fot.</p>
+<p>Men s&#x00E5; sanset han sig og sprang til haven, plukket i en fart alle eplene av treet og hev dem i skreppen sin.</p>
+<p>Vannet i den iskalde kilden boblet frem av en lerkrukke. Han stakk en mosedott i hullet og la krukken i skreppen sammen med eplene og skyndte sig tilbake til salen hvor prinsessen l&#x00E5;. Da han hadde st&#x00E5;tt og stirret p&#x00E5; henne en lang stund, kysset han henne og skrev navnet sitt p&#x00E5; veggen over sengen hun l&#x00E5; p&#x00E5;.</p>
+<p>I det samme tok klokken i slottst&#x00E5;rnet p&#x00E5; &#x00E5; surre til slag, og han la p&#x00E5; sprang gjennem alle salene, forbi alle trollene, og fikk s&#x00E5;vidt slengt sig p&#x00E5; ryggen til hvalen da klokken var ferdig med &#x00E5; sl&#x00E5; ett.</p>
+<p>Men da var ogs&#x00E5; trollene v&#x00E5;knet. De tok store steiner og hev efter hvalen og prinsen. Og hvalen, som var s&#x00E5; sint <pb n="16"/>over somlet til konges&#x00F8;nnen, at den hadde pisket sj&#x00F8;en til skum, stakk tilbunns.</p>
+<p>En lang stund sv&#x00F8;mte den under, og da den kom op til overflaten hadde prinsen n&#x00E6;sten mistet pusten.</p>
+<p>&#x00AB;Blev du redd?&#x00BB; spurte hvalen.</p>
+<p>&#x00AB;Ja,&#x00BB; svarte prinsen.</p>
+<p>&#x00AB;Like redd var jeg da du plukket alle eplene av treet i haven,&#x00BB; sa hvalen, og stakk tilbunns for annen gang.</p>
+<p>Da den dukket op, varte det lenge f&#x00F8;r prinsen fikk pust for sig.</p>
+<p>&#x00AB;Blev du redd?&#x00BB; spurte hvalen.</p>
+<p>&#x00AB;Ja,&#x00BB; svarte prinsen.</p>
+<p>&#x00AB;Like redd blev jeg da du tok krukken vannet boblet frem av, og la den i skreppen din.&#x00BB;</p>
+<p>Nu sv&#x00F8;mte den i vannskorpen en dryg stund, men s&#x00E5; stakk den tilbunns for tredje gang, og da den s&#x00E5; kom op, l&#x00E5; prinsen som d&#x00F8;d efter ryggen dens. Men litt om senn kviknet han til liv og fikk gulpet op sj&#x00F8;vannet.</p>
+<p>&#x00AB;Blev du redd?&#x00BB; sa hvalen.</p>
+<p>&#x00AB;Ja,&#x00BB; svarte prinsen.</p>
+<p>&#x00AB;Like redd blev jeg da du b&#x00F8;ide dig og kyste prinsessen og skrev navnet ditt p&#x00E5; veggen over sengen hennes.&#x00BB;</p>
+<p>Siden f&#x00F3;r hvalen fredelig frem, og kjerringen <pb n="18"/>stod nederst p&#x00E5; fj&#x00E6;ren og hilste dem velkommen tilbake fra ferden.</p>
+<p>F&#x00F8;r de skiltes, gav konges&#x00F8;nnen henne et eple og en slurk vann av lerkrukken, og da hun hadde spist eplet og drukket vannet, flaknet den gamle hammen av henne, og hun stod der ung og vakker som den klare dag, og visste ikke hvor hun skulde gj&#x00F8;re av sig av bare glede over forvandlingen.</p>
+<p>Men prinsen sa det var takk for velgjort. P&#x00E5; tilbakeveien svippet han innom de andre to kjerringene og gav dem et eple og en slurk vann hver; og du kan stole p&#x00E5; de blev glade da den gamle hammen brast, og de stod der rene og uskyldige som liljer i morgensol.</p>
+<p>Hesten fant han i utkanten av skogen der han hadde sloppet den p&#x00E5; beite. Han spente salen p&#x00E5; den og red s&#x00E5; fort hingsten orket springe, uten &#x00E5; tenke p&#x00E5; han var fillet, og sundrevet b&#x00E5;de p&#x00E5; kroppen og kl&#x00E6;rne.</p>
+<lb/>
+<p>Da han kom til huset hvor br&#x00F8;drene hans var, gikk han inn for &#x00E5; fortelle dem at han hadde v&#x00E6;rt i Ungdomslandet og hentet epler og vann.</p>
+<p><pb n="19"/>De lot som om de var glad over at lykken hadde fulgt ham, og disket op med mat og vin, og yngste prinsen spiste og drakk, og ante ikke at br&#x00F8;drene hans hadde blandet dvaledrikk i vinen for &#x00E5; bringe ham i ulykke.</p>
+<p>Han sovnet der han satt, og seg under bordet, og br&#x00F8;drene &#x00E5;pnet skreppen hans, tok eplene og la andre i stedet og skiftet vann p&#x00E5; lerkrukken.</p>
+<p>S&#x00E5; salte de hestene sine og red tilbake til kongen og sa de kom bent fra Ungdomslandet med epler og vann til ham.</p>
+<p>Men i skreppen l&#x00E5; det et eneste vissent eple, og p&#x00E5; krukken var det en liten slant med lunkent vann. Kongen tok og spiste eplet og drakk vannet til siste dr&#x00E5;pe. Men synderlig yngre av utseende blev han ikke og heller ikke av &#x00E5;r, enda han selv trodde det.</p>
+<p>Siden spurte han dem om de hadde sett eller h&#x00F8;rt noget til yngste bror sin, og de fortalte han l&#x00E5; fillet og f&#x00E6;l og sov ut rusen under bordet i vertshuset, da de stakk innom som snarest for &#x00E5; f&#x00E5; sig et m&#x00E5;ltid mat. Det stod ikke i deres makt &#x00E5; f&#x00E5; vekket ham; men nu kom han vel snart selv, sa de, og da kunde kongen se med egne &#x00F8;ine om de f&#x00F3;r med l&#x00F8;st snakk.</p>
+<p><pb n="20"/>Da yngste prinsen v&#x00E5;knet av den tunge dvalen, og h&#x00F8;rte at begge br&#x00F8;drene hans var reist, blev han glad. Det var riktig av dem som hadde uthvilte hester, &#x00E5; ri i forveien og varsle kongen, ellers kunde jo gleden bli for stor for ham.</p>
+<p>Han gav sig god tid med &#x00E5; vaske og strigle hesten sin f&#x00F8;r han drog avsted, og red i ro og mak resten av veien.</p>
+<p>Men da han kom hjem til kongsg&#x00E5;rden, vilde ikke far hans kjennes ved ham eller h&#x00F8;re p&#x00E5; snakket hans om Ungdomslandet. Ikke r&#x00F8;rte han eplene eller vannet yngste s&#x00F8;nnen hadde med til ham, enda gutten bad ham s&#x00E5; vakkert om &#x00E5; smake og pr&#x00F8;ve virkningen.</p>
+<p>&#x00AB;Du ser vel jeg er blitt meget yngre av eplet og vannet br&#x00F8;drene dine hadde med til mig. Men der st&#x00E5;r en alderdomssvak gammel kone, gi gaven din til henne,&#x00BB; sa kongen.</p>
+<p>Prinsen s&#x00E5; gjorde. Men ikke blev hun yngre eller vakrere av &#x00E5; spise eplet og drikke av vannet prinsen gav henne.</p>
+<p>Der kunde kongen selv se for en bedrager han var, sa de andre to br&#x00F8;drene, og var ikke han skyldig til &#x00E5; d&#x00F8;, fantes det ikke rett og rettferdighet i landet. Og s&#x00E5; lenge holdt de p&#x00E5; med &#x00E5; anklage bror <pb n="21"/>sin, at kongen tok og kastet yngste prinsen i l&#x00F8;vehulen.</p>
+<p>Da prinsen n&#x00E5;dde bunnen i hulen, vilde l&#x00F8;vene fly p&#x00E5; ham og rive ham i filler. Men han l&#x00F8;ftet sverdet sitt mot dem, og tamme som bikkjer kom de smygende til ham og slikket ham p&#x00E5; h&#x00E5;nd og fot.</p>
+<p>Og da sulten meldte sig, tok prinsen duken op av vestelommen og bad den dekke op med alle slags kostelige retter, og hverken han selv eller dyrene led nogen n&#x00F8;d.</p>
+<lb/>
+<p>Men s&#x00E5; hendte det en dag at det kom en utsending fra prinsessen av Ungdomslandet med b&#x00F8;nn og beskjed til kongen om &#x00E5; sende til henne den prinsen som hadde skrevet navnet sitt over sengen hennes. Trollene var d&#x00F8;de av alderdom, da de ikke lenger hadde eplene og kildevannet &#x00E5; forynge sig p&#x00E5;, og veien til Ungdomslandet l&#x00E5; &#x00E5;pen og fremkommelig for enhver.</p>
+<p>Kongen sa at eldste s&#x00F8;nnen fikk reise, og han red efter strake landeveien til han kom til Ungdomslandet.</p>
+<p>Foran slottet var det bredd et stort, fagert teppe overs&#x00E5;dd med gull og kostelige stener. Midt p&#x00E5; teppet satt prinsessen med hendene foldet i fanget.</p>
+<p><pb n="22"/>Da prinsen n&#x00E5;dde kanten av teppet, stanset han hesten. Men da ropte prinsessen:</p>
+<p>&#x00AB;Ri tilbake dit du er kommet fra. Du har aldri v&#x00E6;rt i Ungdomslandet!&#x00BB;</p>
+<p>Og prinsen snudde hesten og red hjem til kongsg&#x00E5;rden.</p>
+<p>Da sendte kongen den n&#x00E6;steldste s&#x00F8;nnen. Men det gikk ham som det hadde g&#x00E5;tt bror hans. Han kom til slottet og stanset hesten ved ytterste teppekanten, og prinsessen lod ham snu hjem igjen. Han hadde aldri v&#x00E6;rt i Ungdomslandet f&#x00F8;r.</p>
+<p>Nu gikk det nogen dager; men s&#x00E5; kom et nytt bud fra prinsessen at enten fikk kongen sende til henne den prinsen som hadde v&#x00E6;rt i Ungdomslandet og skrevet navnet sitt over sengen hennes, eller s&#x00E5; fikk han forberede sig p&#x00E5; krig.</p>
+<p>Men da m&#x00E5;tte v&#x00E6;rsgod de to som hadde fart s&#x00E5; stygt frem mot yngste bror sin, g&#x00E5; til bekjennelse. Og full av sorg gikk kongen og de ypperste menn i riket til l&#x00F8;vehulen for &#x00E5; se om det ikke l&#x00E5; nogen benknoker igjen av den uskyldige prinsen, s&#x00E5; de kunde f&#x00E5; gi ham en hederlig begravelse.</p>
+<p>Men hvem kan vel skildre deres glede <pb n="23"/>da de gl&#x00F8;ttet ned i hulen, og s&#x00E5; prinsen sitte der lyslevende med l&#x00F8;vene i ring omkring sig.</p>
+<p>De drog ham op, og br&#x00F8;drene hans blev kastet ned i hulen til straff for deres onde hjertelag, og s&#x00E5; var deres saga ute.</p>
+<lb/>
+<p>Kongen tok og kl&#x00E6;dde yngste prinsen i skinnende rustning og gav ham den gildeste hesten p&#x00E5; stallen og bad ham ri til Ungdomslandet, og prinsen lot sig ikke be to ganger. Lynrapt red han den lange veien. Han stanset ikke ved kanten av teppet, men sprengte frem til prinsessen s&#x00E5; gull og dyrebare stener gnistret og spratt om hestehovene.</p>
+<p>&#x00AB;Ja du har v&#x00E6;rt i Ungdomslandet!&#x00BB; ropte prinsessen og strakte begge armene ut mot ham.</p>
+<p>Og s&#x00E5; blev det bryllup. Prinsen blev konge, og prinsessen blev dronning, og dagene svant som en lek.</p>
+<p>Men en dag kongen kom uforvarende inn p&#x00E5; kammerset til dronningen, s&#x00E5; han at hun satt og gr&#x00E5;t, og han spurte hvorfor hun ikke kom til ham med det som tynget henne.</p>
+<p>Da fortalte dronningen at de hadde v&#x00E6;rt <pb n="24"/>to s&#x00F8;stre, og trollene hadde forgjort dem begge. P&#x00E5; henne hadde de kastet en &#x00E5;relang s&#x00F8;vn, og den vesle s&#x00F8;steren hennes hadde de skapt om til en gammel, skrukket kjerring og gjemt henne i et nypekjerr. Og hun var ikke god for &#x00E5; f&#x00F8;le sig glad og lykkelig, f&#x00F8;r hun fikk henne fridd ut av trolldommen.</p>
+<p>&#x00AB;Det kunde du ha sagt mig f&#x00F8;r,&#x00BB; sa kongen. &#x00AB;Men kom nu og bli med mig, s&#x00E5; reiser vi og hilser p&#x00E5; far min,&#x00BB; sa han.</p>
+<p>Da de kom s&#x00E5; langt som til nypekjerret, klaget dronningen over at hun var s&#x00E5; ussel og trett, og bad om &#x00E5; f&#x00E5; legge sig i skyggen av kjerret, mens s&#x00F8;vnen gled over &#x00F8;ielokkene. Og kongen bredte kappen sin over gresset og satt hos henne mens hun sov.</p>
+<p>Best han satt, tok det p&#x00E5; &#x00E5; rasle inne i kjerret, og den gamle, skrukkete kjerringen kom krabbende frem.</p>
+<p>&#x00AB;Nu har du n&#x00E5;dd det du vilde n&#x00E5; og mere til, ta nu sverdet og hugg hodet av mig til takk for min del av hjelpen,&#x00BB; sa kjerringen og rakte halsen frem.</p>
+<p>Kongen trakk sverdet og skilte hodet fra kroppen, og en deilig prinsesse stod der kjerringen hadde st&#x00E5;tt.</p>
+<p><pb n="25"/>Da dronningen v&#x00E5;knet og fikk se s&#x00F8;steren sin, gr&#x00E5;t hun av glede. Sammen fortsatte de reisen til gamlekongen, som ikke kjente sig eldre av &#x00E5;r enn at han syntes han godt kunde gifte sig engang til.</p>
+<p>Han fridde til prinsessen som var l&#x00F8;st ut av den skrukne kjerringhammen, og s&#x00E5; blev det bryllup i den kongsg&#x00E5;rden ogs&#x00E5;, og har de ikke sluttet med turingen, s&#x00E5; holder de p&#x00E5; ennu.</p>
+<p>Snipp snapp snute. Her er eventyret ute.</p>
+</div>
+<div type="chapter" n="2">
+<head type="main"><ref type="contents" target="contents_2" xml:id="chapter_2">Oterhammen</ref></head>
+<p><pb n="26"/>Det var en gang en sm&#x00E5;gutt som fikk lov til &#x00E5; bli med far sin p&#x00E5; oterfangst en torsdagskveld ved fullm&#x00E5;ne.</p>
+<p>Da de kom til uren der oteren brukte ha sj&#x00F8;veien sin, s&#x00E5; de friske spor p&#x00E5; sandfj&#x00E6;ren nedenom uren, og skj&#x00F8;nte at den alt var g&#x00E5;tt til fjords.</p>
+<p>S&#x00E5; satte de sig til &#x00E5; vente til den kom op igjen; og mannen passet n&#x00F8;ie p&#x00E5; at vinden stod fra sporet op p&#x00E5; dem og ikke omvendt.</p>
+<p>Men det drygde og det rakk, og gutten var b&#x00E5;de s&#x00F8;vnig og frossen da oteren fremp&#x00E5; morgensiden kom smygende p&#x00E5; land med en lubben sj&#x00F8;&#x00F8;rret i flabben.</p>
+<p>&#x00D8;verst p&#x00E5; fj&#x00E6;ren stanset den og stod <pb n="27"/>og v&#x00E6;ret. S&#x00E5; br&#x00E5;snudde den, og mannen sendte en kule efter den p&#x00E5; langt hold. Den traff s&#x00E5; godt at oteren trillet overende og l&#x00E5; og sprikte med alle fire labbene i v&#x00E6;ret.</p>
+<p>Men da de kom for &#x00E5; hente byttet, var b&#x00E5;de kj&#x00F8;ttet og innvollene borte, og det l&#x00E5; bare en tom oterham p&#x00E5; den hvite sandfj&#x00E6;ren.</p>
+<p>&#x00AB;Pass dig og ta ikke bort i den! Det er en trolloter og ikke et dyr med kj&#x00F8;tt og blod, som jeg trodde, da jeg sendte kulen i den,&#x00BB; ropte mannen.</p>
+<p>Men gutten hadde alt b&#x00F8;id sig ned og r&#x00F8;rt ved de silkemyke h&#x00E5;rene, og i det samme krengte hammen sig over hodet p&#x00E5; ham og nedover hele kroppen og skapte ham om til en stor, vakker oter. Faren tok om ham med begge hendene for &#x00E5; slite hammen av ham, men oteren smatt ut av grepet hans og blev borte mellem stenene nederst i uren.</p>
+<p>Og like f&#x00E5;fengt var det at han tok frem oterbl&#x00E5;sen og gav sig til &#x00E5; plystre og lokke. Gutten i oterhammen kom ikke frem, og breddfull av bitter sorg m&#x00E5;tte faren g&#x00E5; den tunge gang hjem til henne som mor var, og fortelle det s&#x00F8;rgelige som var skjedd med den snilde, flinke gutten deres.</p>
+<p><pb n="28"/>Men gutten som var skapt om til oter drog sig op uren, over bergakslen og ut p&#x00E5; ville heien, langt fra kristent folk og langt fra alfarvei. Det var hammen som f&#x00F8;rte, og gutten selv hadde ingen vilje.</p>
+<p>Langt om lenge stanset oteren ved en trillrund jordgamme. D&#x00F8;ren stod oppe, og det brente en flammende varme midt p&#x00E5; jordgulvet, og ved varmen satt en streng, gammel jomfru og n&#x00E6;rte varmen med myke kvister av gullforgylt bj&#x00F8;rkeris.</p>
+<p>Oteren smatt inn d&#x00F8;r&#x00E5;pningen, sm&#x00F8;g borttil jomfruen og stod og pistret og skalv.</p>
+<p>&#x00AB;Ja nu pistrer og skjelver du,&#x00BB; sa jomfruen sint. &#x00AB;Men far din skj&#x00F8;t bror min forrige natten, og i natt skikket jeg hammen hans i vei for &#x00E5; hente dig. Og her skal du bli til det kommer nogen som kan l&#x00F8;se dig ut.&#x00BB;</p>
+<lb/>
+<p>S&#x00E5; m&#x00E5;tte gutten i oterhammen bli der ute i &#x00F8;demarken hos den strenge, gamle jomfruen som bare vilde hevne sig, og aldri hadde et vennlig ord tilovers for ham. Om dagen slepte han inn vann og ved til henne, kokte maten hun skulde spise, og vartet henne op s&#x00E5; godt han form&#x00E5;dde.</p>
+<p><pb n="30"/>Om natten tvang hammen ham ned til fjorden og ut p&#x00E5; dypet efter fet, lekker fisk til henne. Til &#x00E5; begynne med var han redd for det m&#x00F8;rke, kalle vannet, men sm&#x00E5;tt om senn vennet han sig til det og blev minst likes&#x00E5; flink fisker som de andre oterne han blev kjent med p&#x00E5; veien til og fra fjorden.</p>
+<p>Nogen netter s&#x00E5; han far sin sitte i uren og plystre p&#x00E5; oterbl&#x00E5;sen, og en natt ved fullm&#x00E5;ne satt mor hans der. Da la han den lubne fisken han bar p&#x00E5;, i fotefaret hennes, s&#x00E5; hun kunde se han hadde v&#x00E6;rt henne n&#x00E6;r, og smatt ned i fjorden efter en annen til trolljomfruen.</p>
+<p>Men den fisken han da fikk tak i, var b&#x00E5;de mager og sl&#x00E5;pen; og til straff svidde jomfruen v&#x00E6;rh&#x00E5;rene hans over varmen s&#x00E5; det blev verre for ham &#x00E5; ta sig frem b&#x00E5;de p&#x00E5; landjorden og ute i vannet.</p>
+<lb/>
+<p>En dag sa trolljomfruen at nu vilde hun ha s&#x00F8;lvfisk &#x00E5; spise, og greide han ikke &#x00E5; skaffe henne en i natten som kom, skulde hun slite ut syv bj&#x00F8;rkeris p&#x00E5; ryggtrevlene hans.</p>
+<p>Men aldri hadde gutten i oterhammen st&#x00F8;tt p&#x00E5; en slik fisk i sj&#x00F8;en, og ikke visste han hvor han skulde finne den heller.</p>
+<p><pb n="31"/>Han sm&#x00F8;g ut av gammen og til opkommet for &#x00E5; v&#x00E6;te den t&#x00F8;rre tungen sin med en slurk kaldt, friskt kildevann f&#x00F8;r han gav sig p&#x00E5; vei til fjorden.</p>
+<p>Men da han skulde ta p&#x00E5; &#x00E5; lepje av vannet, fikk han se en kj&#x00F8;e som l&#x00E5; og varlet innved torvkanten.</p>
+<p>&#x00AB;Jeg er datter til kongen over havfolket, og den samme trolljomfruen som har kastet oterham p&#x00E5; dig, har skilt mig fra alle mine og holder mig i fangenskap her i opkommet. Om dagen er jeg en fattigslig liten kj&#x00F8;e, men om natten er jeg prinsesse, og da piner og plager hun mig. Og s&#x00F8;lvfisken hun har satt dig til &#x00E5; fange i natt, er s&#x00F8;steren min.</p>
+<p>Men lover du mig, at n&#x00E5;r hun har spist det hun vil ha av fisken, skal du ta benene <pb n="32"/>og alt som er igjen og slippe det ned i opkommet, s&#x00E5; skal jeg lage det slik at du m&#x00F8;ter s&#x00F8;lvfisken straks du kommer i fjorden.&#x00BB;</p>
+<p>Oteren lovde villig &#x00E5; gj&#x00F8;re det hun bad ham om, og lett om hjertet sprang han over heien og ned uren. S&#x00F8;lvfisken kom imot ham bare nogen f&#x00E5; favner fra land, og han tok den mellem tennene og bar den til torvgammen og la den i fanget til jomfruen.</p>
+<p>&#x00AB;Det greide du,&#x00BB; sa hun og lo stygt. &#x00AB;Men til natten skal du fange en gullfisk til mig, og gj&#x00F8;r du ikke det, skal jeg slite ut syv bj&#x00F8;rkeris p&#x00E5; ryggen din, s&#x00E5; meget du vet det.&#x00BB;</p>
+<p>Det mukket ikke i oteren. Men han tenkte med gru p&#x00E5; all den julingen som ventet ham, for aldri hadde han sett en gullfisk i fjorden, og ikke visste han hvor han skulde sv&#x00F8;mme hen for &#x00E5; finne en heller.</p>
+<lb/>
+<p>Da jomfruen hadde spist, tok oteren og sanket op benene og alt som ellers var igjen av s&#x00F8;lvfisken, og slapp det i opkommet, slik han hadde lovet kj&#x00F8;en.</p>
+<p>Og da kvelden kom, sm&#x00F8;g han bort til opkommet igjen for &#x00E5; svale den hete tungen <pb n="33"/>sin for han drog ut p&#x00E5; sin h&#x00E5;pl&#x00F8;se fangst efter gullfisk i fjorden.</p>
+<p>Men da han skulde til &#x00E5; lepje av kildevannet, fikk han se det l&#x00E5; to kj&#x00F8;er og varlet innved torvkanten.</p>
+<p>&#x00AB;Gullfisken trolljomfruen har satt dig til &#x00E5; fange i natt, er yngste s&#x00F8;ster v&#x00E5;r,&#x00BB; sa kj&#x00F8;ene. &#x00AB;Men lover du oss at n&#x00E5;r hun har spist det hun vil, av gullfisken, tar du benene og alt som er igjen, og slipper det i opkommet, s&#x00E5; skal vi lage det slik at du m&#x00F8;ter s&#x00F8;ster v&#x00E5;r straks du kommer i fjorden.&#x00BB;</p>
+<p>&#x00AB;Det kan jeg saktens love,&#x00BB; sa oteren. Men hjertet hans var tungt av mismot, da han f&#x00F3;r over heien og ned uren.</p>
+<p>Gullfisken sv&#x00F8;mte ham i m&#x00F8;te nogen favner fra land. Den var s&#x00E5; fin og glinsende blank at det skar i &#x00F8;inene, og gutten i oterhammen tok den varlig mellem tennene og bar den til torvgammen og la den i fanget til trolljomfruen.</p>
+<p>&#x00AB;Det greide du ogs&#x00E5;,&#x00BB; sa hun og slapp fisken ned i ildm&#x00F8;rjen. &#x00AB;Men til natten skal du fange en kullsvart fisk til mig, og du skal kjenne den p&#x00E5; det, at den har gullkrone p&#x00E5; hodet.</p>
+<p>Men greier du det ikke, skal jeg slite ut syv bj&#x00F8;rkeris p&#x00E5; ryggen din og str&#x00F8; salt i de &#x00E5;pne s&#x00E5;rene.&#x00BB;</p>
+<p><pb n="34"/>Da jomfruen hadde spist det hun vilde av gullfisken, sanket oteren op resten og slapp det i opkommet.</p>
+<p>Hele dagen gikk han i den st&#x00F8;rste frykt for julingen som ventet ham, og da kvelden kom, sm&#x00F8;g han til opkommet for &#x00E5; svale tungen f&#x00F8;r han la ivei over heien.</p>
+<p>Men da han skulde til &#x00E5; lepje, fikk han se det l&#x00E5; tre kj&#x00F8;er innved torvbredden.</p>
+<p>&#x00AB;Det er far v&#x00E5;r hun vil du skal fange i natt,&#x00BB; sa kj&#x00F8;ene; &#x00AB;og det kan godt v&#x00E6;re du klarer det; for av sorg over oss har han forlatt slottet sitt og sv&#x00F8;mmer rundt i fjorden og leter efter d&#x00F8;trene sine. Men <pb n="35"/>f&#x00E5;r trolljomfruen tak i ham, er det ute med havfolket.</p>
+<p>V&#x00E6;r nu barmhjertig og ta oss alle tre i munnen din og b&#x00E6;r oss tilbake til fjorden.&#x00BB;</p>
+<p>&#x00AB;Det kan jeg vel gj&#x00F8;re,&#x00BB; sa oteren; &#x00AB;men dere f&#x00E5;r jo menneskeliknelse om natten, og da blir det ikke rum i munnen min for dere alle tre.&#x00BB;</p>
+<p>&#x00AB;Vi har fiskeskapelse like til midnatt,&#x00BB; sa kj&#x00F8;ene, &#x00AB;s&#x00E5; fort dig nu bare f&#x00F8;r det blir for sent.&#x00BB;</p>
+<p>Oteren gapte, og alle tre kj&#x00F8;ene la sig inn i munnen hans, og han sprang alt han orket over heien og over bergakslen og ned uren. Efter ham kom trolljomfruen susende i ugleham, og det blev et kappl&#x00F8;p p&#x00E5; liv og d&#x00F8;d.</p>
+<p>Men nederst i uren satt far til gutten og plystret p&#x00E5; oterbl&#x00E5;sen, og gev&#x00E6;ret l&#x00E5; ved siden av ham.</p>
+<p>Han s&#x00E5; oteren stryke forbi sig som en lynrapp skygge, og uglen som hugg efter den og skrek, og han var ikke sen om &#x00E5; sende en kule i trollfuglen.</p>
+<p>I det samme uglen trimlet til jorden, sprakk oterhammen, og gutten stod der fri og frank med de tre sm&#x00E5; blanke kj&#x00F8;ene i den ene h&#x00E5;nden.</p>
+<p><pb n="36"/>Forsiktig bar han dem ned til fj&#x00E6;ren og slapp dem ut i fjorden; og han syntes tydelig de ropte takk, enda han hadde mistet evnen til &#x00E5; skj&#x00F8;nne fiskem&#x00E5;l da han selv blev menneske igjen.</p>
+<p>Og snipp snapp snute. Nu er eventyret ute.</p>
+</div>
+<div type="chapter" n="3">
+<head type="main"><ref type="contents" target="contents_3" xml:id="chapter_3">Den snartenkte kjerringen</ref></head>
+<p><pb n="37"/>Det var en gang et par folk som bodde p&#x00E5; en plass ikke langt fra kongens g&#x00E5;rd.</p>
+<p>Kjerringen var gl&#x00F8;gg og om sig efter fortjeneste; men mannen var av det senvorne slaget som helst puslet med alt og ingenting, s&#x00E5; nogen velstand var det ikke i huset hos dem.</p>
+<p>S&#x00E5; var det en tidlig morgen det var slikt vakkert v&#x00E6;r b&#x00E5;de p&#x00E5; sj&#x00F8;en og p&#x00E5; landjorden. Silden t&#x00F8;rrgikk like op i fj&#x00E6;restenene, og det l&#x00E5; tykt med b&#x00E5;t og &#x00F8;ste den inn med b&#x00F8;tter og &#x00F8;sekar og hvad annet mennene hadde for h&#x00E5;nden.</p>
+<p>Kjerringen s&#x00E5; det altsammen da hun kom fra sommerfj&#x00F8;set med morgenmelken, og hun gledet sig ved tanken p&#x00E5; <pb n="38"/>hvor velsignet godt den blodferske silden skulde smake.</p>
+<p>Bare nu mannen hennes fikk somlet sig p&#x00E5; land med stekesild, skulde hun straks g&#x00E5; i gang med &#x00E5; lage herrem&#x00E5;ltid til dem.</p>
+<p>Men da hun kom inn p&#x00E5; kammerset, l&#x00E5; mannen under skinnfelden og suget p&#x00E5; pipen.</p>
+<p>&#x00AB;Ligger du her langt p&#x00E5; lyse dagen og ser ikke at Guds rike gaver t&#x00F8;rrg&#x00E5;r oppe i fj&#x00E6;restenene?&#x00BB; ropte hun b&#x00E5;de harm og hjertens fortura.</p>
+<p>&#x00AB;Jeg har ingen b&#x00E5;t,&#x00BB; sa mannen.</p>
+<p>&#x00AB;Du har nu vel den samme b&#x00E5;ten idag som du har hatt hittil,&#x00BB; sa kjerringen.</p>
+<p>&#x00AB;Du har st&#x00F8;tt sagt jeg ikke duger til &#x00E5; tjene f&#x00F8;den,&#x00BB; sa mannen. &#x00AB;Og b&#x00E5;ten har jeg solgt til en farende kar i g&#x00E5;rkveld da du var i marken efter kr&#x00F8;tturne.&#x00BB;</p>
+<p>&#x00AB;&#x00C5; du syn og du liknelse for et mannfolkskapelse jeg er blitt gift med,&#x00BB; jamret kjerringen. &#x00AB;Men nu er du s&#x00E5; god du st&#x00E5;r op av sengen og tar p&#x00E5; dig helgdagskl&#x00E6;rne dine, og s&#x00E5; g&#x00E5;r du til kongen og ber om en gave.&#x00BB;</p>
+<p>Ja &#x2013; mannen torde ikke gj&#x00F8;re annet enn det kjerringen befalte. Han stod op og kl&#x00E6;dde p&#x00E5; sig helgdagskl&#x00E6;rne, tok <pb n="39"/>staven i neven og diltet i vei, innerlig glad ved &#x00E5; v&#x00E6;re unda &#x00F8;iesynet hennes den stunden.</p>
+<p>Da han kom til kongsg&#x00E5;rden, stod kongen ute p&#x00E5; trappen og str&#x00F8;dde erter til duene sine. Mannen v&#x00E5;gde ikke g&#x00E5; bort til ham og plage ham med det han bar p&#x00E5; hjertet, men stanset midt p&#x00E5; tunet og stod der og glante.</p>
+<p>&#x00AB;Er det mig du vil tale ved, s&#x00E5; kom n&#x00E6;rmere,&#x00BB; ropte kongen.</p>
+<p>Og mannen stiltret fram&#x00E5;t trappen med hatten i neven og hilste: &#x00AB;Guds fred og signe arbeidet.&#x00BB;</p>
+<p>&#x00AB;Hvad er det s&#x00E5; du skal ha sagt mig?&#x00BB; spurte kongen, han var i godlaget.</p>
+<p>&#x00AB;Kona mi sa jeg skulde be om en gave.&#x00BB;</p>
+<p>&#x00AB;Hvad skulde det v&#x00E6;re?&#x00BB; spurte kongen.</p>
+<p>&#x00AB;Hun sa jeg skulde be om en gave.&#x00BB;</p>
+<p>&#x00AB;Det har jeg h&#x00F8;rt, men hvad slags gave er det du vil ha?&#x00BB;</p>
+<p>&#x00AB;Kona mi sa jeg skulde be om en gave,&#x00BB; gjentok mannen og annet visste ikke han &#x00E5; si.</p>
+<p>&#x00AB;Det ligger en gjenlagt &#x00E5;ker i en vik s&#x00F8;nnenom kongsg&#x00E5;rden, den kan du og kjerringen f&#x00E5; til odel og eie,&#x00BB; sa kongen, og mannen takket og diltet hjem igjen.</p>
+<p>Da dagen var i hellingen, gikk kjerringen <pb n="40"/>og mannen for &#x00E5; se p&#x00E5; den nye eiendommen sin.</p>
+<p>&#x00AB;Nu har du &#x00E5; gj&#x00F8;re efter det jeg gj&#x00F8;r fore,&#x00BB; sa kjerringen og slet en staur l&#x00F8;s av garden og flidde ham. Selv tok hun maken og til &#x00E5; g&#x00E5; p&#x00E5; kryss og p&#x00E5; tvers over &#x00E5;keren; og for hvert tiende skritt hun gjorde, stanset hun og dunket mot marken med stokken og s&#x00E5; sig om til ymse kant, som lette hun efter med og merke i tretoppene,</p>
+<p>Mannen gjorde efter det kjerringen gjorde fore, dunket i marken med stokken og glante. Og ingen av dem sa et ord.</p>
+<p>Men i skogen l&#x00E5; det tre r&#x00F8;vere p&#x00E5; lur. De s&#x00E5; kjerringen og kallen g&#x00E5; der som to tullinger og banke i marken, og h&#x00F8;vdingen gikk bort til dem og spurte hvorfor de f&#x00F3;r slik og vimret omkring p&#x00E5; den gjenlagte &#x00E5;keren.</p>
+<p>&#x00AB;Det skal jeg si dig,&#x00BB; sa kjerringen. &#x00AB;Mannen min har i dag f&#x00E5;tt denne jordluten i gave av selveste kongen, og her skal ligge en stor skatt gravd ned. Nu g&#x00E5;r vi og h&#x00F8;rer efter hvor marken er hul, og i morgen g&#x00E5;r vi i gang med &#x00E5; grave efter skatten.&#x00BB;</p>
+<p>Men da kjerringen og kallen ruslet heim fra &#x00E5;keren, kom alle tre r&#x00F8;verne frem <pb n="41"/>av skogen og til &#x00E5; grave. Hele &#x00E5;keren spadde de op fra rein til rein, men skatten fant de ikke alt det de grov.</p>
+<p>Kjerringen satte tidligpoteter i den nyspadde &#x00E5;keren, og maken til fruktbart potetland skulde en lete lenge efter. Hun tjente mange penger p&#x00E5; salget og var glad og vel tilfreds.</p>
+<p>Men da sommeren led mot slutten og det ikke var mere &#x00E5; selge, kom r&#x00F8;verh&#x00F8;vdingen og vilde ha alle pengene, siden det var ham og kameratene hans som hadde spadd op &#x00E5;keren for henne.</p>
+<p>Hun bad ham pakke sig dit han kom ifra, og han gikk for den gangen.</p>
+<p><pb n="42"/>S&#x00E5; var det en kveld nogen dager senere at kjerringen var g&#x00E5;tt i gang med &#x00E5; steke byggkaker p&#x00E5; takken i gruvsteinen. Det var varmt, og d&#x00F8;ren stod p&#x00E5; gl&#x00F8;tt. Mens hun nu gikk der og svinset mellem matbordet og deigtrauet og takken i gruvsteinen, fikk hun i lysningen fra d&#x00F8;rgl&#x00F8;ttet &#x00F8;ie p&#x00E5; samme r&#x00F8;veren som hadde v&#x00E6;rt hos henne for &#x00E5; f&#x00E5; fatt i pengene. Han stod og lurte bortved vedskjulet og ventet p&#x00E5; at det skulde bli stilt i huset.</p>
+<p>Hun drev p&#x00E5; med sitt og lot som ingenting og pratet med mannen sin, som satt ved bordet og spiste av de nystekte kakene. Men hele tiden spekulerte hun p&#x00E5; hvordan hun skulde fare &#x00E5;t &#x00E5; narre r&#x00F8;veren.</p>
+<p>P&#x00E5; gulvet innfor kj&#x00F8;kkend&#x00F8;rstokken stod det et spann med nogen levende krabber mannen var kommet med. Og best hun drev med stekingen sa hun s&#x00E5; pass h&#x00F8;it at hvem som vilde kunde h&#x00F8;re det.</p>
+<p>&#x00AB;Jeg dr&#x00F8;mte i natt at han styggfanten av en r&#x00F8;ver som var her og vilde ha pengene jeg har tjent p&#x00E5; potetsalget, kom og tok dem fra mig. Men nu vil jeg v&#x00E6;re lur og gjemme dem i spannet her st&#x00E5;r, og legge nogen byggkaker opp&#x00E5;, s&#x00E5; finner han dem aldri.&#x00BB;</p>
+<p>&#x00AB;Ja gj&#x00F8;r det,&#x00BB; sa mannen.</p>
+<p><pb n="43"/>Da de hadde lagt sig og alt var stilt og lyset slukket for natten, gled kj&#x00F8;kkend&#x00F8;ren op, og r&#x00F8;veren stakk h&#x00E5;nden inn, tok spannet og sprang til skogen til de to som stod og ventet.</p>
+<p>Straks tok de p&#x00E5; &#x00E5; forsyne sig av de nystekte kakene; men h&#x00F8;vdingen stakk h&#x00E5;nden dypt ned i spannet for &#x00E5; ta op pengene.</p>
+<p>Men han fikk den op i en fart, for om hver finger klemte en krabbeklo, og han var b&#x00E5;de bl&#x00E5; og blodig f&#x00F8;r de vant &#x00E5; f&#x00E5; fingrene l&#x00F8;st ut av grepet.</p>
+<lb/>
+<p>En kveld ikke s&#x00E5; sv&#x00E6;rt lenge efter &#x00E5;pnet kjerringen kammersvinduet for &#x00E5; f&#x00E5; inn litt frisk luft f&#x00F8;r hun la sig. Utenfor vinduet vokste en diger rogn, og oppe i toppen p&#x00E5; den hang et stort hvepsebol.</p>
+<p>Med det samme hun skulde dra igjen glasset, s&#x00E5; hun at det l&#x00E5; en voksen kar strak efter marken innved muren.</p>
+<p>Hun skj&#x00F8;nte straks at det var en av r&#x00F8;verne, og snartenkt som hun var av naturen, tok hun p&#x00E5; &#x00E5; snakke med mannen sin om at nu hadde hun tullet boken med alle pengene inn i en dott saueull og bundet et hvitt lommet&#x00F8;rkl&#x00E6; utenom og hengt dem i toppen p&#x00E5; rognen.</p>
+<p><pb n="44"/>R&#x00F8;veren h&#x00F8;rte hvert ord hun sa, og mellem de gr&#x00F8;nne bladene p&#x00E5; rognen skimtet han i noget rundt, hvitt &#x00F8;verst i toppen.</p>
+<p>Han op og til skogen for &#x00E5; varsle kameratene, og sammen listet de sig tilbake til rognen. Den lettvinteste av dem skulde klatre tilv&#x00E6;rs efter posen, og de andre to sm&#x00F8;g inntil stammen og holdt vakt.</p>
+<p>Men da han som klatret, n&#x00E5;dde toppen og tok om bolet, str&#x00F8;mmet hvepsene ut og stakk ham i ansiktet og p&#x00E5; halsen og hendene, s&#x00E5; han slapp det han tok i og stod og fektet med begge armene for &#x00E5; fri sig fra svermen.</p>
+<p>Men de andre to trodde det var pengene han puttet vekk. Rope til ham kunde de ikke, for s&#x00E5; vekket de mannen og konen, og s&#x00E5; tok de p&#x00E5; &#x00E5; klatre de ogs&#x00E5; for &#x00E5; berge sin del av rovet. Men straks var hvepsene over dem, og r&#x00F8;verne balte og viftet og slo for &#x00E5; fri sig fra stikkene, til grenene brast, og de ramlet ned og slo sig, s&#x00E5; den ene m&#x00E5;tte st&#x00F8;tte den andre til de n&#x00E5;dde r&#x00F8;verhulen.</p>
+<p>Men kjerringen skj&#x00F8;nte at r&#x00F8;verne vilde v&#x00E6;re efter henne og kanskje ta b&#x00E5;de pengene og livet. S&#x00E5; skikket hun mannen i vei &#x00E5; plukke mose og lyng, og selv <pb n="45"/>sydde hun det fast p&#x00E5; et blodr&#x00F8;dt dynevar. I den ene snippen fylte hun maur fra en maurtue og bandt et b&#x00E5;nd omkring og smettet dynevaret over hodet p&#x00E5; sig og str&#x00F8;k tilskogs for &#x00E5; lete efter skjulestedet deres.</p>
+<p>Da hun hadde streifet om b&#x00E5;de langt og lenge og g&#x00E5;tt over myr og mo og &#x00F8;de marker, kom hun til en liten gr&#x00F8;nn slette midt i tetteste skogen. Det fl&#x00F8;t en bekk forbi, og hun var t&#x00F8;rst og utkj&#x00F8;rt av all g&#x00E5;ingen.</p>
+<p>Men da hun la sig ned for &#x00E5; drikke, fikk hun se det kom en kar vassende efter bekken et stykke nedenfor der hun l&#x00E5; og drakk.</p>
+<p>Hun kr&#x00F8;p baklengs og gjemte sig i sm&#x00E5;krattet ved bredden og drysset maur over sig. Visste en ikke bedre m&#x00E5;tte en tro det var en lyngtue som krydde av maur.</p>
+<p>Det samme trodde r&#x00F8;veren som kom med et drept lam over akslen. Han stanset ved krattet, krakset som en ravn, og straks f&#x00F3;r en diger gresstorv festet til en stang tilv&#x00E6;rs. Under torven var det en svart &#x00E5;pning, og da r&#x00F8;veren var forsvunnet gjennem &#x00E5;pningen, seg torven ned og lukket over hullet.</p>
+<p><pb n="46"/>Hun stakk nogen trepinner i jorden for &#x00E5; v&#x00E6;re sikker p&#x00E5; &#x00E5; finne stedet igjen og listet sig vekk. Men ikke fortere enn at hun vant merke op veien der hun f&#x00F3;r frem.</p>
+<p>Men det var langt dit hun skulde. Det tok p&#x00E5; &#x00E5; skumre, og det blev m&#x00F8;rkt og stuslig i skogen, og hun &#x00F8;nsket inderlig hun var hjemme igjen.</p>
+<p>Best hun gikk, fikk hun se glimt av varme mellem trestammene. Hun snek sig n&#x00E6;rmere fra tre til tre, og hvem andre satt ved b&#x00E5;let enn r&#x00F8;verh&#x00F8;vdingen med pengeboken hennes mellem fingrene.</p>
+<p>&#x00AB;&#x00C5; ditt styggelse du er, har du nu v&#x00E6;rt og tatt alle pengene mine mens jeg var borte!&#x00BB; skrek hun.</p>
+<p>Men da r&#x00F8;verh&#x00F8;vdingen h&#x00F8;rte det f&#x00E6;le skriket og lyset fra b&#x00E5;let falt p&#x00E5; det blodr&#x00F8;de dynevaret og alle lyngtufsene, trodde han det var en skogheks. Han hev boken og pengene og en stor pose med gull og s&#x00F8;lv og r&#x00F8;mte sin vei s&#x00E5; fort benene vilde b&#x00E6;re ham.</p>
+<p>Men kjerringen tok posen og pengene og syntes hun hadde gjort et godt dagsverk.</p>
+<p>Siden skikket hun mannen sin til kongen med n&#x00F8;ie beskjed om hvor r&#x00F8;verne var &#x00E5; finne.</p>
+<p><pb n="47"/>Men da kongen fikk h&#x00F8;re om alt det kjerringen hadde gjort, sa han:</p>
+<p>&#x00AB;G&#x00E5; hjem til kjerringen din du, og hils fra mig at herefterdags skal du sitte i kongens r&#x00E5;d, for den som har slik snartenkt kjerring, f&#x00E5;r aldri stunder til &#x00E5; finne p&#x00E5; noget selv.&#x00BB;</p>
+<p>Men r&#x00F8;verne blev grepet og hengt, og kongen tok alle skattene de hadde samlet i hulen under jorden.</p>
+<p>Og snipp snapp snute, her er eventyret ute.</p>
+</div>
+<div type="chapter" n="4">
+<head type="main"><ref type="contents" target="contents_4" xml:id="chapter_4">Risen i Bl&#x00E5;berget</ref></head>
+<p><pb n="48"/>Det var en gang en mann og en kone som hadde tre d&#x00F8;tre og en gullgul h&#x00F8;ne kjerringen hadde f&#x00E5;tt av frua til futen.</p>
+<p>De kalte h&#x00F8;na for Gullduna, og den var s&#x00E5; gj&#x00E6;v til &#x00E5; verpe at maken til h&#x00F8;ne fantes ikke i syv kirkesogn.</p>
+<p>Men s&#x00E5; var det en sommer i travleste h&#x00F8;ionnen at h&#x00F8;na tok sig til &#x00E5; verpe borte, og da helgen kom, fikk mannen ikke de to eggene han var vant ved &#x00E5; f&#x00E5; til s&#x00F8;ndagsfrokost.</p>
+<p>Kallen blev b&#x00E5;de vill og vond, som ventendes kunde v&#x00E6;re, og sa som sant var, at han skj&#x00F8;nte ikke hvorfor han skulde slite og kave for f&#x00F8;a til en en hel horg <pb n="49"/>med kvinnfolk, n&#x00E5;r de ikke dugde s&#x00E5;pass som til &#x00E5; gj&#x00E6;te op en skarve h&#x00F8;ne, som hadde laget sig reir i utmarken et steds, og finne frem eggene.</p>
+<p>Dermed s&#x00E5; str&#x00F8;k kallen ned p&#x00E5; naustloftet og la sig fore der til kvelden kom.</p>
+<p>Kjerringen og d&#x00F8;trene blev rent lei sig over all uhyggen i huset, og mandag morgen tok eldstedatteren en svart ulltr&#x00E5;d og bandt den ene enden om h&#x00F8;ire foten til Gullduna, og den andre enden bandt hun om venstre lillefingeren sin.</p>
+<p>S&#x00E5; tok hun bundingen og ruslet efter der h&#x00F8;na trippet fore; fort gikk det ikke, for den hakket og sparket, og hadde det travelt med &#x00E5; plukke i sig alt den kunde f&#x00E5; mellem nebbet.</p>
+<p>Bort fra g&#x00E5;rden bar det, ned sj&#x00F8;veien og langsmed sandfj&#x00E6;ren. Siden trippet den opover uren til den kom under bratteste stupet i Bl&#x00E5;berget. Der smatt den ned i et svart hull, og op kom der en forferdelig stor rise.</p>
+<p>&#x00AB;Vil du v&#x00E6;re steika mi, eller vil du v&#x00E6;re brura mi?&#x00BB; skrek risen og slo kloen i jenten.</p>
+<p>&#x00AB;Jeg vil ikke v&#x00E6;re noget, jeg vil bare slippe heim!&#x00BB; svarte jenten, og strevde fri sig ut av grepet hans.</p>
+<p><pb n="50"/>Men han tok og bar henne inn i Bl&#x00E5;berget, og der var det stort og rummelig til alle kanter med kammers efter kammers hele veien innover, s&#x00E5; langt &#x00F8;iesynet rakk.</p>
+<p>N&#x00E6;ste morgen gav risen henne en hank med n&#x00F8;kler og et snehvitt h&#x00F8;nseegg.</p>
+<p>&#x00AB;Jeg drar ut p&#x00E5; sj&#x00F8;en efter kokning,&#x00BB; sa han, &#x00AB;men her har du n&#x00F8;klene til alle kammersene mine, og du kan fritt se dig omkring, s&#x00E5; n&#x00E6;r som i R&#x00F8;dkammerset. For g&#x00E5;r du inn der, s&#x00E5; tar jeg livet av dig, s&#x00E5; meget du vet det. Og egget skal du gi mig tilbake like snedrivende hvitt som du nu tar det av neven min.&#x00BB;</p>
+<p><pb n="51"/>Ja, jenten lovde gj&#x00F8;re alt han bad om, hun, og s&#x00E5; labbet risen sj&#x00F8;veien sin ned gjennem fjellet til naustet; skj&#x00F8;v ut b&#x00E5;ten sin og rodde ut p&#x00E5; br&#x00E5;dypet.</p>
+<p>Da jenten hadde vasket op frokostkoppene og sopt og flidd inne p&#x00E5; stuen, tok hun egget i den ene h&#x00E5;nden og n&#x00F8;kkelhanken i den annen og drog p&#x00E5; opdagelse. Fra kammers til kammers gikk hun, og hvor hun kom lavde det av gull og av s&#x00F8;lv, og hauger med gilde kvinnfolkkl&#x00E6;r l&#x00E5; og fl&#x00F8;t utover bord og benker.</p>
+<p>Til slutt kom hun til R&#x00F8;dkammersd&#x00F8;ren. Hun vilde snu og g&#x00E5; tilbake til stuen, men det rev og det slet i fingertuppene, og f&#x00F8;r hun riktig fikk sanset sig, hadde hun vridd op l&#x00E5;sen.</p>
+<p>Inne i kammerset l&#x00E5; der stablet op en diger haug med lik, og gulvet var aldeles sleipt av blod.</p>
+<p>I forskrekkelsen over det grufulle syn slapp hun egget, og da hun skulde ta det op, var der en blodig flekk p&#x00E5; det.</p>
+<p>Det nyttet ikke alt det hun vasket og gned b&#x00E5;de med vann og med t&#x00E5;rev&#x00E6;te, flekken var der, og flekken blev der.</p>
+<p>S&#x00F8;rgmodig l&#x00E5;ste hun igjen d&#x00F8;ren og gikk og satte sig p&#x00E5; stuen. Og hun var <pb n="52"/>s&#x00E5; skremt at hun kjente hjertet klappe i halsen p&#x00E5; sig.</p>
+<p>I det samme kom risen trampende op den bratte sj&#x00F8;veien inne i fjellet med en diger nise p&#x00E5; nakken og hev den inn p&#x00E5; gulvet til henne.</p>
+<p>&#x00AB;Har du v&#x00E6;rt i R&#x00F8;dkammerset!&#x00BB; skrek han.</p>
+<p>&#x00AB;Nei,&#x00BB; svarte jenten.</p>
+<p>&#x00AB;La mig f&#x00E5; se egget jeg gav dig.&#x00BB;</p>
+<p>Jenten flidde ham det, og da han fikk se den svarte flekken, skrek han:</p>
+<p>&#x00AB;Har du ikke v&#x00E6;rt der, s&#x00E5; skal du f&#x00E5; komme dit!&#x00BB; Og s&#x00E5; tok han og drog henne med sig til R&#x00F8;dkammerset, skar hodet av henne og slengte b&#x00E5;de det og skrotten p&#x00E5; likhaugen.</p>
+<lb/>
+<p>Men hjemme gikk de og ventet og ventet. Gullduna kom trippende da det led utp&#x00E5; dagen, men eldstedatteren var borte og blev borte.</p>
+<p>Da det blev morgen igjen, tok n&#x00E6;steldstedatteren og knyttet en svart ulltr&#x00E5;d om h&#x00F8;ire foten til h&#x00F8;na; den andre enden surret hun om venstre lillefingeren sin, og med bundingen mellem hendene gav hun sig til &#x00E5; f&#x00F8;lge Gullduna der hun f&#x00F4;r og trippet og plukket og fant sig noget &#x00E5; leve av.</p>
+<p><pb n="54"/>Ned sj&#x00F8;veien og langsmed sandfj&#x00E6;ren bar det, og op uren til den kom under bratteste stupet i Bl&#x00E5;berget.</p>
+<p>Jenten ruslet efter, og hun undret sig riktig p&#x00E5; hvor dette bar hen.</p>
+<p>Men best det var, smatt h&#x00F8;na ned i et svart hull, og op kom det en diger rise og grep tak om henne.</p>
+<p>&#x00AB;Vil du v&#x00E6;re steika mi, eller vil du v&#x00E6;re brura mi!&#x00BB; skrek han s&#x00E5; det runget i bergveggen.</p>
+<p>&#x00AB;Jeg vil ikke v&#x00E6;re noget, jeg vil bare slippe heim,&#x00BB; svarte jenten og kavet og strevde for &#x00E5; komme l&#x00F8;s av grepet hans.</p>
+<p>Men han tok henne med inn i berget, og der var det vidt og rummelig til alle kanter med kammers bak kammers s&#x00E5; langt synet rakk.</p>
+<p>N&#x00E6;ste morgen gav risen henne en hank med n&#x00F8;kler og et snedrivende hvitt h&#x00F8;nseegg.</p>
+<p>&#x00AB;Jeg drar p&#x00E5; sj&#x00F8;en efter kokning,&#x00BB; sa han, &#x00AB;men her har du n&#x00F8;klene til alle kammersene, og du kan fritt se dig omkring, s&#x00E5; n&#x00E6;r som i R&#x00F8;dkammerset. Men g&#x00E5;r du dit inn, s&#x00E5; tar jeg livet ditt, s&#x00E5; meget du vet det. Og egget skal du gi mig tilbake like hvitt som du nu f&#x00E5;r det.&#x00BB;</p>
+<p>S&#x00E5; gikk risen sj&#x00F8;veien sin ned gjennem <pb n="55"/>fjellet, skj&#x00F8;v b&#x00E5;ten fra land og rodde ud p&#x00E5; br&#x00E5;dypet.</p>
+<p>Da jenten hadde f&#x00E5;tt morgenstellet fra h&#x00E5;nden, tok hun n&#x00F8;kkelhanken og egget og gav sig i vei for &#x00E5; lete efter s&#x00F8;steren sin.</p>
+<p>Fra kammers til kammers gikk hun og l&#x00E5;ste op og lukket efter sig alle de d&#x00F8;rene som hadde st&#x00E5;tt p&#x00E5; vid vegg da risen drog henne inn i fjellet. Det lavde av gull og s&#x00F8;lv hvor hun kom, og store hauger av staselige kvinnfolkkl&#x00E6;r l&#x00E5; utover bord og benker, men s&#x00F8;steren sin fant hun ikke.</p>
+<p>Til slutt var det bare R&#x00F8;dkammerset igjen. Hun stirret p&#x00E5; n&#x00F8;kkelen, og hun stirret p&#x00E5; d&#x00F8;rl&#x00E5;sen, og f&#x00F8;r hun riktig fikk tenkt sig om, hadde hun stukket n&#x00F8;kkelen i hullet og vridd op l&#x00E5;sen.</p>
+<p>Kroppen til s&#x00F8;steren hennes l&#x00E5; &#x00F8;verst p&#x00E5; likhaugen, og hodet l&#x00E5; ved siden, og jenten blev s&#x00E5; redd at hun slapp egget i gulvet.</p>
+<p>Da hun tok det op, var det en blodig flekk p&#x00E5; det, og alt hun skrubbet og alt hun gned, flekken var der, og flekken blev der.</p>
+<p>S&#x00F8;rgmodig l&#x00E5;ste hun igjen d&#x00F8;ren og gikk tilbake til stuen og satte sig til &#x00E5; vente p&#x00E5; risen.</p>
+<p><pb n="56"/>Langt om lenge kom han pesende op sj&#x00F8;veien med en diger kobbe og hev den p&#x00E5; gulvet foran gravsteinen.</p>
+<p>&#x00AB;Har du v&#x00E6;rt i R&#x00F8;dkammerset?&#x00BB; skrek han.</p>
+<p>&#x00AB;Nei,&#x00BB; svarte jenten, hun satt og bevret og skalv.</p>
+<p>&#x00AB;Syn mig egget du fikk,&#x00BB; sa han og tok det ut av h&#x00E5;nden hendes.</p>
+<p>&#x00AB;Ja har du ikke v&#x00E6;rt der, s&#x00E5; skal du f&#x00E5; komme dit,&#x00BB; skrek han, og s&#x00E5; tok han <pb n="57"/>og drog henne med sig til R&#x00F8;dkammerset, skar hodet av henne og slengte b&#x00E5;de det og skrotten p&#x00E5; likhaugen.</p>
+<lb/>
+<p>Hjemme gikk faren og moren og yngstedatteren og ventet og ventet og kunde ikke skj&#x00F8;nne hvor det var blitt av begge jentene. Om kvelden kom Gullduna trippende inn p&#x00E5; g&#x00E5;rdsplassen og feilte ingenting; men de som hadde rekt efter den for &#x00E5; finne eggene, var og blev borte.</p>
+<p>Og kvelden gikk, og natten gikk, og da det blev dag igjen og ingen kom, tok yngstedatteren en svart ulltr&#x00E5;d og bandt den ene enden om h&#x00F8;ire foten p&#x00E5; Gullduna, og den andre enden tullet hun om venstre lillefingeren sin.</p>
+<p>S&#x00E5; tok hun hosebundingen og fulgte efter der h&#x00F8;na trippet fore. Langsmed sandfj&#x00E6;ren bar det og op uren til de kom under bratteste stupet i Bl&#x00E5;berget. Der smatt h&#x00F8;na ned i et svart hull, og op kom en diger furke av en rise.</p>
+<p>&#x00AB;Vil du v&#x00E6;re steika mi, eller vil du v&#x00E6;re brura mi,&#x00BB; skrek han og slo kloen i henne.</p>
+<p>&#x00AB;Jeg vil v&#x00E6;re brura di,&#x00BB; svarte jenten; og risen tok og bar henne inn i berget, og der var det stort og godt rum til alle <pb n="58"/>kanter med kammers efter kammers og vid&#x00E5;pne d&#x00F8;rer lengere enn synet rakk &#x00E5; telle dem.</p>
+<p>N&#x00E6;ste morgen gav risen henne en hank med n&#x00F8;kler og et gullende rent h&#x00F8;nseegg, hvitt som nyfallen sne.</p>
+<p>&#x00AB;Jeg drar utp&#x00E5; efter kokning,&#x00BB; sa han; &#x00AB;men her har du n&#x00F8;klene til alle kammersene du fikk en titt av ig&#x00E5;r, da jeg bar dig inn i berget; du kan fritt se dig omkring overalt, s&#x00E5; n&#x00E6;r som i R&#x00F8;dkammerset. Men g&#x00E5;r du inn der, tar jeg livet av dig, s&#x00E5; meget du vet det. Og egget skal du gi mig tilbake like snedrivende hvitt som du nu tar det av neven min.&#x00BB;</p>
+<p>S&#x00E5; gikk risen sj&#x00F8;veien sin ned gjennem berget, skj&#x00F8;v b&#x00E5;ten fra land og rodde ut p&#x00E5; br&#x00E5;dypet.</p>
+<p>Jenten heftet sig ikke med morgenstellet. Med egget i den ene h&#x00E5;nden og n&#x00F8;kkelhanken i den annen tok hun p&#x00E5; &#x00E5; l&#x00E5;se op kammers efter kammers for &#x00E5; lete efter s&#x00F8;strene sine. Gull og s&#x00F8;lv var det nok av og kl&#x00E6;r og stas i haugevis, men dem hun lette efter, dem fant hun ikke.</p>
+<p>Til slutt var det bare R&#x00F8;dkammerset igjen. Hun betenkte sig ikke der hun stod foran d&#x00F8;ren, men puttet egget i kjolelommen, stakk n&#x00F8;kkelen i hullet og l&#x00E5;ste op.</p>
+<p><pb n="59"/>Noget gledelig syn var det ikke som ventet henne inne i kammerset, bare lik ovenp&#x00E5; lik. Og &#x00F8;verst p&#x00E5; stabelen l&#x00E5; begge de drepte s&#x00F8;strene med hodene ved siden av kroppen.</p>
+<p>&#x00AB;&#x00C5; tr&#x00F8;ste og b&#x00E6;re mig arme stakkar, hvad skal jeg nu finne p&#x00E5; for &#x00E5; frelse dere,&#x00BB; jamret hun.</p>
+<p>Da kjente hun noget krible over det ene fotbladet sitt, og da hun skulde se efter, var det en gr&#x00E5; liten tusse ikke st&#x00F8;rre enn knyttneven hennes.</p>
+<p>&#x00AB;Gr&#x00E5;t ikke,&#x00BB; sa tussen, &#x00AB;du satte ikke tussemerket p&#x00E5; fj&#x00F8;sd&#x00F8;ren i vinter som var, men lot mig og mine ha fri adkomst til ferskmelken, og nu skal jeg l&#x00F8;nne dig. Under hodedynen i sengen til risen finner du et smurningshorn. Av det skal du ta og sm&#x00F8;re p&#x00E5; halsstubbene til s&#x00F8;strene dine og sette hodene p&#x00E5;, s&#x00E5; levner de op igjen. Resten greier du selv, bare du f&#x00E5;r tenkt dig om.&#x00BB;</p>
+<p>S&#x00E5; var tussen borte. Og jenten l&#x00E5;ste d&#x00F8;ren og skyndte sig tilbake til stuen og tok p&#x00E5; &#x00E5; feie og vaske og pynte s&#x00E5; det var ikke m&#x00E5;te med det.</p>
+<p>Best hun holdt p&#x00E5;, kom risen trampende inn med en diger h&#x00E5;kjerring og slengte den fra sig p&#x00E5; det nyskurte gulvet.</p>
+<p><pb n="60"/>&#x00AB;Hvad er du for en slurv av en karmann som ikke gj&#x00F8;r til fisken nede ved sj&#x00F8;en og skj&#x00E6;rer den op i beter, slik skikkelige folk bruker?&#x00BB; skjente hun.</p>
+<p>Risen glante p&#x00E5; henne.</p>
+<p>&#x00AB;Har du v&#x00E6;rt i R&#x00F8;dkammerset,&#x00BB; spurte han.</p>
+<p>&#x00AB;Du sa jo sj&#x00F8;l jeg skulde ikke g&#x00E5; dit,&#x00BB; svarte jenten.</p>
+<p>&#x00AB;Syn mig egget ditt,&#x00BB; bad han.</p>
+<p>Jenten tok det op av kjolelommen, og det var snedrivende hvitt som da hun fikk det om morgenen.</p>
+<p>&#x00AB;Ja du skal v&#x00E6;re brura mi!&#x00BB; sa risen. Og han til &#x00E5; lete frem s&#x00F8;lvflor og gullringer til henne og fint silket&#x00F8;i til kjole, og var s&#x00E5; gibben og blid at han knapt visste hvad fot han skulde st&#x00E5; p&#x00E5;.</p>
+<lb/>
+<p>N&#x00E6;ste morgen, da risen stod ferdig til &#x00E5; ro efter ferskfiskkokning, sa jenten:</p>
+<p>&#x00AB;Vi er ikke rike der jeg kommer fra, og her ligger det haugevis med kvinnfolkkl&#x00E6;r og slenger utover bord og benker i alle kammersene dine. Kan jeg f&#x00E5; lov til &#x00E5; pakke i en sekk og sette den utenfor Bl&#x00E5;berget, s&#x00E5; tar du og b&#x00E6;rer den heim til ho mor, n&#x00E5;r du kommer fra sj&#x00F8;en. Men husk p&#x00E5; det at jeg vil ikke <pb n="61"/>ha dig til &#x00E5; handfare det jeg legger i sekken.&#x00BB;</p>
+<p>Jo da, hun kunde sende alt hun vilde, og han skulde bringe det frem, lovde risen.</p>
+<p>Ikke f&#x00F8;r var hun alene, s&#x00E5; lette hun frem smurningshornet under hodedynen og sprang til R&#x00F8;dkammerset og slo av smurningen p&#x00E5; halsstubben til eldstes&#x00F8;steren sin og satte hodet p&#x00E5; plass. Straks levnet hun op, og s&#x00F8;strene falt hverandre om halsen og gr&#x00E5;t blanke t&#x00E5;rer.</p>
+<p>Siden tok de en sekk og et fange med kl&#x00E6;r og gikk utenfor berget. Der puttet hun eldstes&#x00F8;steren i sekken og dyttet tett med kl&#x00E6;r om henne p&#x00E5; alle kanter, og bad henne endelig passe p&#x00E5; &#x00E5; si: &#x00AB;Du ser i sekk,&#x00BB; om risen emnet sig til &#x00E5; sette ned b&#x00F8;ren for &#x00E5; l&#x00F8;se op mulebandet og handfare det som i sekken var.</p>
+<p>Da kvelden kom, satte risen kokningen pent vasket og flidd innfor stued&#x00F8;rstokken til henne og gikk ut av Bl&#x00E5;berget, trev sekken p&#x00E5; akslen og la ivei med den.</p>
+<p>Men sekken var tungere enn kl&#x00E6;r brukte v&#x00E6;re, syntes han, og da han var midtveis ned uren, satte han b&#x00F8;ren fra sig og tok p&#x00E5; &#x00E5; tukle med mulebandet.</p>
+<p>&#x00AB;Du ser i sekk!&#x00BB; sa det innved &#x00F8;ret hans, og han hev sekken p&#x00E5; nakken og <pb n="62"/>la ivei og stanset ikke f&#x00F8;r han kom til stuen og hev sekken mot bislagd&#x00F8;ren s&#x00E5; det knaket.</p>
+<p>Da mannen og kjerringen kom for &#x00E5; unders&#x00F8;ke hvad det var som dunket s&#x00E5; h&#x00E5;rdt mot d&#x00F8;ren, fant de eldstedatteren, og det var ikke gr&#x00E5;t i huset den kvelden.</p>
+<p>N&#x00E6;ste morgen da risen stod ferdig til &#x00E5; dra ut p&#x00E5; sj&#x00F8;en, bad jenten ham bringe ennu en sekk med kl&#x00E6;r hjem til foreldrene hennes; men han fikk ikke lov til &#x00E5; se i sekken p&#x00E5; veien, sa hun.</p>
+<p>Ja risen lovde gj&#x00F8;re alt hun bad om. Og straks han var g&#x00E5;tt ned til b&#x00E5;ten, tok hun smurningshornet og gikk til R&#x00F8;dkammerset og helte av hornet p&#x00E5; halsstubben til n&#x00E6;steldste s&#x00F8;steren og satte hodet p&#x00E5; stubben. Hun levnet op, hun ogs&#x00E5;, og gleden var stor.</p>
+<p>Da det led p&#x00E5; dagen, tok jenten en sekk og et fange med gangkl&#x00E6;r, gikk utenfor berget og puttet s&#x00F8;steren sin i sekken og dyttet kl&#x00E6;r om henne, s&#x00E5; ingen kunde se hun var i sekken.</p>
+<p>&#x00AB;Hvis risen gj&#x00F8;r mine til &#x00E5; handfare innholdet av sekken, skal du rope: &#x00AB;Du ser i sekk&#x00BB;,&#x00BB; sa jenten f&#x00F8;r hun bandt igjen.</p>
+<p>Straks risen kom p&#x00E5; land og hadde <pb n="63"/>stukket ferskfiskkokningen innfor stued&#x00F8;rstokken, tok han sekken og la i vei.</p>
+<p>Men sekken kjentes tung, og da han vel var kvitt uren, emnet han sig til &#x00E5; se hvad det var som tynget s&#x00E5;.</p>
+<p>&#x00AB;Du ser i sekk!&#x00BB; ropte det.</p>
+<p>&#x00AB;Det var da snuten til aua p&#x00E5; den jenten,&#x00BB; mumlet han arg, trev sekken p&#x00E5; nakken og stanset ikke f&#x00F8;r han var fremme og hev den mot bislagd&#x00F8;ren s&#x00E5; det knaket.</p>
+<p>Men innenfor stod mannen og kjerringen og eldstedatteren, og straks risen var unda &#x00F8;iesynet, &#x00E5;pnet de sekken og trakk frem den mellemste datteren sin.</p>
+<lb/>
+<p>N&#x00E6;ste morgen risen stod ferdig til &#x00E5; ro ut p&#x00E5; sj&#x00F8;en, skapte jenten sig glad og blid i m&#x00E5;let. Hun vilde g&#x00E5; igang med &#x00E5; sy p&#x00E5; brudekjolen straks, sa hun; men f&#x00F8;rst vilde hun ha vekk alle de kvinnfolkkl&#x00E6;rne som l&#x00E5; og fl&#x00F8;t utover hvor hun snudde sig. Han fikk nok v&#x00E6;re snild &#x00E5; bringe enda en b&#x00F8;r hjem til de fattige foreldrene hennes; men s&#x00E5; skulde hun aldri be ham mere om slikt, sa hun. Og risen var villig han.</p>
+<p>&#x00AB;Men du f&#x00E5;r la v&#x00E6;re &#x00E5; glane i sekken p&#x00E5; veien, for gj&#x00F8;r du det, vil jeg ikke gifte mig med dig,&#x00BB; sa hun.</p>
+<p><pb n="64"/>Nei, risen skulde ikke gl&#x00F8;tte i sekken, og lett p&#x00E5; fot ruslet han ned den bratte sj&#x00F8;veien sin og rodde ut p&#x00E5; br&#x00E5;dypet.</p>
+<p>Men jenten skyndte sig til R&#x00F8;dkammerset og tok en skrott p&#x00E5; st&#x00F8;rrelse som hun selv og et h&#x00F8;velig hode og bar det inn p&#x00E5; stuen, kl&#x00E6;dde kjolen og hodet&#x00F8;rkl&#x00E6;et sitt p&#x00E5; liket og gildret det op p&#x00E5; benken innved bordet.</p>
+<p>S&#x00E5; gav hun det n&#x00E5;l og tr&#x00E5;d og la silken risen hadde gitt henne, mellem hennene p&#x00E5; det. Visste en ikke bedre, m&#x00E5;tte en tro det var jenten selv som satt der og sydde.</p>
+<p>Siden skar hun sig i lillefingeren og dryppet tre dr&#x00E5;per blod p&#x00E5; liknelset, og hver dr&#x00E5;pe fikk makt til &#x00E5; svare &#x00AB;straks&#x00BB; en eneste gang.</p>
+<p>Og jenten raspet sammen s&#x00E5; meget hun kunde f&#x00E5; med sig av den aller fineste gullstasen, tullet tett med kl&#x00E6;r om sig, tok sekken og kr&#x00F8;p inn i den utenfor Bl&#x00E5;berget og sn&#x00F8;rte igjen.</p>
+<p>Ikke f&#x00F8;r var hun ferdig, s&#x00E5; kom risen. Han skj&#x00F8;v kokningen inn gjennem stued&#x00F8;ren, gikk ut og tok sekken p&#x00E5; nakken og stampet i vei.</p>
+<p>Halvveis ned uren stanset han.</p>
+<p>&#x00AB;Denne gang vil jeg se det hun har puttet i sekken,&#x00BB; sa han.</p>
+<p><pb n="65"/>&#x00AB;Du ser i sekk,&#x00BB; skrek jenten innved &#x00F8;ret hans, og risen trev b&#x00F8;ren og la i vei.</p>
+<p>Men da han n&#x00E5;dde sandfj&#x00E6;ren, fikk han slik brennende lyst til &#x00E5; gl&#x00F8;tte i sekken, og han til &#x00E5; fikle med mulebandet.</p>
+<p>&#x00AB;Du ser i sekk,&#x00BB; ropte det og han kjente m&#x00E5;let til brura si.</p>
+<p>&#x00AB;Det var da snuten til aua p&#x00E5; dig,&#x00BB; mumlet han og trampet videre med b&#x00F8;ren p&#x00E5; nakken.</p>
+<p>Da han n&#x00E5;dde bislaget og umulig kunde se &#x00E5;pningen i Bl&#x00E5;berget, hev han sekken p&#x00E5; trammen.</p>
+<p>&#x00AB;Nu vil jeg handfare innholdet,&#x00BB; mumlet han for sig selv, &#x00AB;for her kan hun da umulig se mig.&#x00BB;</p>
+<p>&#x00AB;Du ser i sekk,&#x00BB; skrek det hvast innved &#x00F8;ret hans, og risen blev s&#x00E5; skremt at han la p&#x00E5; sprang det forteste benene bar ham, og stanset ikke f&#x00F8;r han n&#x00E5;dde uren under Bl&#x00E5;berget.</p>
+<p>Mannen og kjerringen og begge de hjemkomne d&#x00F8;trene drog sekken i hus og fikk frem yngstedatteren og alt s&#x00F8;lvet og gullet hun hadde med sig fra Bl&#x00E5;berget, og det var ikke gr&#x00E5;t og l&#x00E5;t i huset den kvelden.</p>
+<p>Da risen kom trampende inn p&#x00E5; stuen hos sig selv, stod ferskfisken ur&#x00F8;rt i <pb n="66"/>stampen, slik han selv hadde satt den fra sig, og vannet hang og fosskokte over varmen p&#x00E5; gruen.</p>
+<p>Men ved bordet satt hun som brur skulde bli, og strisydde p&#x00E5; brurkjolen og &#x00E5;tte hverken sans eller tanke for annet.</p>
+<p>&#x00AB;F&#x00E5;r jeg mat snart?&#x00BB; spurte risen, han tok p&#x00E5; &#x00E5; drive att og fram p&#x00E5; stuegulvet.</p>
+<p>&#x00AB;Straks,&#x00BB; sa den f&#x00F8;rste blodsdr&#x00E5;pen.</p>
+<p>Vannet kokte, og risen drev, og ergere og ergere blev han.</p>
+<p>&#x00AB;F&#x00E5;r jeg mat snart?&#x00BB; spurte risen igjen, og han var ikke blid i r&#x00F8;sten.</p>
+<p>&#x00AB;Straks,&#x00BB; svarte den andre blodsdr&#x00E5;pen.</p>
+<p>Ennu drev han en stund, og vannet kokte vekk, og varmen sluknet under gryten.</p>
+<p>&#x00AB;Jeg spor om jeg f&#x00E5;r mat snart!&#x00BB; skrek risen og var s&#x00E5; sint at h&#x00E5;rene reiste sig p&#x00E5; hodet hans.</p>
+<p>&#x00AB;Straks,&#x00BB; svarte den tredje blodsdr&#x00E5;pen.</p>
+<p>&#x00AB;Jeg skal gi dig straks!&#x00BB; freste han og drev hun som brur skulde bli, en under &#x00F8;ret s&#x00E5; hodet trillet bortover gulvet.</p>
+<p>Men da han skj&#x00F8;nte at jenten hadde narret ham og kl&#x00E6;dd kl&#x00E6;rne sine p&#x00E5; <pb n="67"/>en d&#x00F8;d skrott, blev han s&#x00E5; harm at han sprakk i sm&#x00E5;beter og blev til sten. Og slik ligger han inne i Bl&#x00E5;berget, og tror du mig ikke kan du sp&#x00F8;rre min nabo som er klokere enn mig.</p>
+<p>Og snipp snapp snute, nu er eventyret ute.</p>
+</div>
+<div type="chapter" n="5">
+<head type="main"><ref type="contents" target="contents_5" xml:id="chapter_5">Gutten som fulgte efter matmor sin til Hekkelsfjell</ref></head>
+<p><pb n="68"/>Det var en gang en velstandskjerring som var ute for &#x00E5; h&#x00F8;re sig om efter tjenestegutt. Men alle hun spurte sa tvert nei, for hun hadde ord p&#x00E5; sig for &#x00E5; v&#x00E6;re trollkjerring.</p>
+<p>Langt om lenge fikk hun da tak i en som var villig til &#x00E5; komme.</p>
+<p>&#x00AB;Men jeg har slik en lei vane,&#x00BB; sa gutten,&#x00AB;og det er kanskje likest jeg melder fra om det p&#x00E5; forh&#x00E5;nd.&#x00BB;</p>
+<p>&#x00AB;La mig f&#x00E5; h&#x00F8;re hvordan du har det da,&#x00BB; sa kjerringen.</p>
+<p>&#x00AB;Ja det er det, at jeg sover med &#x00E5;pne &#x00F8;ine og glaner s&#x00E5; stygt i s&#x00F8;vne at jeg kan skremme b&#x00E5;de vett og forstand av alle som ser mig,&#x00BB; sa gutten.</p>
+<p><pb n="69"/>&#x00AB;Er det ikke verre vane du har &#x00E5; trekkes med, har det ingen n&#x00F8;d,&#x00BB; sa kjerringen. &#x00AB;Du sover i drengstukammerset, og jeg har sengen min i gammelstuen, og ikke ser jeg dig og ikke ser du mig, s&#x00E5; den glaningen din skal ikke plage nogen av oss,&#x00BB; sa hun.</p>
+<p>&#x00AB;Men jeg har nok en lei vane til, jeg,&#x00BB; sa gutten; &#x00AB;for innimellem s&#x00E5; sovner jeg ved matbordet. Og kommer det nogen og snakker til mig da, fyker jeg op i usinne, og sl&#x00E5;r og spenner og b&#x00E6;rer mig verre enn en olm stut, og gir mig ikke f&#x00F8;r det flyter blod, s&#x00E5; meget du vet det, om galt skulde hende, at jeg sovnet ved matbordet i ditt hus.&#x00BB;</p>
+<p>&#x00AB;Den vanen blir det verre &#x00E5; b&#x00E6;re over med,&#x00BB; sa kjerringen; &#x00AB;men karshjelp m&#x00E5; jeg ha p&#x00E5; g&#x00E5;rden min, s&#x00E5; jeg f&#x00E5;r vel friste &#x00E5; feste dig p&#x00E5; trass av de slemme vanene dine.&#x00BB;</p>
+<lb/>
+<p>Da tiden n&#x00E6;rmet sig jonsok, slapp kjerringen alle melkekyrne sine p&#x00E5; beite i den frodigste engsl&#x00E5;tten. Tjenestgutten trodde at matmor hans hadde f&#x00E5;tt en alvorlig skavank p&#x00E5; forstanden og tok og jagde kr&#x00F8;tturne ut av engen; men hun sa de skulde g&#x00E5; der, ellers fikk hun ikke godt, <pb n="70"/>gult sommersm&#x00F8;r til rette husbonden sin, og det m&#x00E5;tte hun ha til jonsok, sa hun.</p>
+<p>Men gutten undret sig p&#x00E5; hvadslags kar rette husbonden var, og hvor han &#x00E5;tte hjemme siden han aldri viste sig p&#x00E5; g&#x00E5;rden.</p>
+<lb/>
+<p>Da jonsokkvelden kom, fikk kjerringen det brenntravelt med &#x00E5; kjerne den fete r&#x00F8;mmen. Og da sm&#x00F8;ret var verket, la hun det i en fint utkrota sm&#x00F8;rkanne, og kannen knyttet hun inn i en damaskes serviett.</p>
+<p>S&#x00E5; gjorde hun fra sig alt stellet innen og utend&#x00F8;rs, og ropte tjenestgutten inn til kvelds. Han vilde vel helst v&#x00E6;re sammen med annen ungdom en slik kveld, sa hun, s&#x00E5; for henne kunde han g&#x00E5; dit han selv vilde, n&#x00E5;r han hadde spist fra sig.</p>
+<p>Men best gutten satt og godgjorde sig med maten, sovnet han med hodet mot bjelkeveggen bak sig og glante stygt med vidt&#x00E5;pne &#x00F8;ine.</p>
+<p>Kjerringen blev b&#x00E5;de harm og lei sig. Ikke torde hun snakke til gutten eller pr&#x00F8;ve p&#x00E5; &#x00E5; f&#x00E5; ham v&#x00E5;ken p&#x00E5; annen vis; og tiden led alt s&#x00E5; langt at hun m&#x00E5;tte bli ferdig med sitt, for den karen hun skulde <pb n="71"/>fare til med sommersm&#x00F8;ret, t&#x00E5;lte ingen un&#x00F8;dig somling hos den som stod i hans tjeneste.</p>
+<p>Og gutten satt der med vidt&#x00E5;pne &#x00F8;ine og glante p&#x00E5; at kjerringen lauget og kl&#x00E6;dde sig som til h&#x00F8;itidsferd, smurte r&#x00F8;mmefett i h&#x00E5;ret for &#x00E5; f&#x00E5; det til &#x00E5; ligge glatt efter hodeskallen og dynket sig med godluktenes vann, s&#x00E5; det duftet verre enn i selveste kirken en prekens&#x00F8;ndag.</p>
+<p>Da det var undagjort, hentet hun de to nye soplimene han hadde laget, valgte ut den h&#x00F8;veligste, og smurte skaftet inn med fett fra smurningshornet som l&#x00E5; p&#x00E5; peishyllen. S&#x00E5; trev hun knyttet med sm&#x00F8;rkannen, tredde det inn p&#x00E5; venstre arml&#x00F8;kken, <pb n="72"/>og satte sig overskrevs p&#x00E5; soplimen og sa:</p>
+<p>&#x00AB;Herifr&#x00E5; og til Hekkelsfjell, hit igjen i morra.&#x00BB; Og dermed s&#x00E5; f&#x00F3;r kjerringen opigjennem skorstenspipen s&#x00E5; det pistret og pep i soplimkvistene.</p>
+<p>Gutten spratt op fra benken, trev den andre limen og klinte fett p&#x00E5; skaftet fra smurningshornet. S&#x00E5; tok han en diger treklubbe i h&#x00F8;ire neven, satte sig over skrevs p&#x00E5; limen, slik kjerringen hadde gjort, og sa:</p>
+<p>&#x00AB;Herifr&#x00E5; og til Hekkelsfjell, hit igjen i morra.&#x00BB;</p>
+<p>Og op gjennem skorstenspipen bar det med ham og ut i l&#x00F8;se luften, s&#x00E5; han var n&#x00E6;r ved &#x00E5; miste b&#x00E5;de sans og samling, s&#x00E5; fort gikk det.</p>
+<p>Foran ham fl&#x00F8;i det en svart flokk med trollkjerringer med hvite knytter tredd inn p&#x00E5; arml&#x00F8;kkene, og gutten tok p&#x00E5; &#x00E5; skj&#x00F8;nne hvad rette husbonden var for en kar.</p>
+<p>Nordover bar det over hav og over land til de kom til et fjell med en mektig flammende ildslue p&#x00E5; toppen. Der satt den onde i en rummelig kubbestol med ryggen mot flammen, og trollkjerringene hoppet av limene, og i rad bar de frem sommersm&#x00F8;ret, den ene efter den annen.</p>
+<p><pb n="74"/>Sist i raden kom tjenestgutten med klubben i neven. Da han n&#x00E5;dde frem til kubbestolen, sa han som i den satt:</p>
+<p>&#x00AB;Ka e&#x0027; det du har i din benkombang?&#x00BB;</p>
+<p>&#x00AB;Tetta,&#x00BB; svarte gutten, for det hadde kjerringen foran ham svart.</p>
+<p>&#x00AB;Bring hit!&#x00BB; sa den onde.</p>
+<p>Dermed s&#x00E5; svinget gutten treklubben, og av all sin makt slengte han den midt i fjeset p&#x00E5; hinmannen, s&#x00E5; tennene skranglet i hausen p&#x00E5; ham.</p>
+<p>Siden gjorde han ikke veien lang til dit limen l&#x00E5;, hev sig op p&#x00E5; den og b&#x00F8;d den &#x00E5; f&#x00F8;re ham dit han kom fra.</p>
+<p>Den lystret befalingen; men bak sig h&#x00F8;rte han jammer og gr&#x00E5;t fra alle trollkjerringene, som nu m&#x00E5;tte ta straffen han skulde hatt.</p>
+<p>Da gutten vel var fremme, tok han det hans var, og r&#x00F8;mte vekk fra tjenesten og trollkjerringen s&#x00E5; fort f&#x00F8;ttene vilde b&#x00E6;re ham.</p>
+<p>Og snipp snapp snute. Her er eventyret ute.</p>
+</div>
+<div type="chapter" n="6">
+<head type="main"><ref type="contents" target="contents_6" xml:id="chapter_6">Tredokka</ref></head>
+<p><pb n="75"/>Det var en gang en ung mann som blev munk fordi han ikke kunde f&#x00E5; henne han var glad i.</p>
+<p>Han var flink til &#x00E5; skj&#x00E6;re i tre, og klosterforstanderen satte ham til &#x00E5; skj&#x00E6;re ut helgenbilleder til klosterkirken. F&#x00F8;rst skar han ut de sm&#x00E5; helgener som skulde pryde veggene. S&#x00E5; skar han ut de store helgener som skulde pryde altrene. Og sist skar han ut en madonna med Jesubarnet p&#x00E5; fanget til hovedalteret.</p>
+<p>Men da alt var ferdig, var det enda en h&#x00F8;velig bete tre tilovers, og munken tok og skar ut en tredokke i hennes liknelse for hvis skyld han var g&#x00E5;tt i kloster.</p>
+<p>Han malte dukken bl&#x00E5; som madonnas <pb n="76"/>kjortel, og forgylte den av gullet som var igjen efter str&#x00E5;lekransen om Jesubarnets hode. Ansiktet malte han blekr&#x00F8;dt som bladene p&#x00E5; en villrose, og h&#x00E5;ret gult som modent korn om h&#x00F8;sten.</p>
+<p>S&#x00E5; satte han dokka p&#x00E5; hovedalteret ved Jesubarnets f&#x00F8;tter; og alle som s&#x00F8;kte dit for &#x00E5; b&#x00F8;ie kne for det helligste, s&#x00E5; mere p&#x00E5; dokka enn p&#x00E5; Guds mor og hennes velsignede lille s&#x00F8;nn.</p>
+<p>Og n&#x00E5;r prestene stod ved alteret og l&#x00F8;ftet br&#x00F8;det og vinen i innvielsens hellige &#x00F8;ieblikk, var det dokka blikket dvelte ved, s&#x00E5; de hverken sanset kordrengens ringlen med s&#x00F8;lvbjellene eller kirkeklokkens tre alvorsfulle klemt forkynte at nu var underet fullbyrdet.</p>
+<p>Men om natten, n&#x00E5;r alle i klosteret sov, listet munken sig inn i kirken. Og i lyset fra den stedsebrennende lampe foran h&#x00F8;ialteret stirret han p&#x00E5; liknelsen av <pb n="77"/>henne han hadde kj&#x00E6;r og ikke kunde glemme.</p>
+<p>Natt efter natt stod han der fortapt i synet, og sanset ikke at hans egen sjel flyttet ut av ham og inn i tredokka. Den blev fagrere og fagrere og som en levende &#x00E5; se til; men selv lignet han vinterens hvite sne.</p>
+<p>En tidlig morgenstund munkene kom til kirken for &#x00E5; h&#x00F8;re messen, fant de ham kold og stiv foran alteret.</p>
+<p>De tok og strakte ham p&#x00E5; likstr&#x00E5;, og la ham i kiste.</p>
+<p>Og da alle i klosteret holdt ham for &#x00E5; v&#x00E6;re en hellig, blev kisten satt i h&#x00F8;ikoret natten over. Abbeden satt selv vakt, for han elsket den unge munken, som hadde prydet hans kirke s&#x00E5; skj&#x00F8;nt at det spurtes fra kloster til kloster all verden over.</p>
+<p>Men hvordan det nu var eller ikke var. Da klokken n&#x00E6;rmet sig tolv, duppet abbedens hode ned mot brystet, og &#x00F8;ielokkene lukket sig i blund.</p>
+<p>I det samme gled kirked&#x00F8;ren p&#x00E5; klem. Den onde sm&#x00F8;g inn og rant som en kullsvart skygge langsmed kirkeveggen frem til h&#x00F8;ialteret og snappet tredokka.</p>
+<p>&#x00AB;&#x00C5; sjelen min!&#x00BB; st&#x00F8;nnet den d&#x00F8;de og reiste sig i kisten.</p>
+<p><pb n="78"/>Abbeden skvatt v&#x00E5;ken. Han s&#x00E5; den onde, og stanset ham i kraft av sin h&#x00F8;ie stilling og den myndighet kirken hadde utrustet ham med.</p>
+<p>&#x00AB;Tre frem av m&#x00F8;rket og gi fra dig ditt rov, for han som her hviler var i levende live en hellig mann, og hans sjel tilh&#x00F8;rer Gud, og ikke dig, du m&#x00F8;rkets onde &#x00E5;nd,&#x00BB; sa abbeden.</p>
+<p>&#x00AB;Der l&#x00F8;gster du godt!&#x00BB; sa den onde. &#x00AB;Det var tredokka og ikke ham du nevnte, han tilbad. Og du som er s&#x00E5; hellig, vet saktens at menneskene ikke skal ha fremmede guder foran ham.&#x00BB;</p>
+<p>&#x00AB;S&#x00E5; st&#x00E5;r det skrevet, og s&#x00E5; er det sagt,&#x00BB; svarte abbeden. &#x00AB;Likevel byder jeg dig i kraft av korset jeg nu l&#x00F8;fter mot dig. Gi dokka fra dig.&#x00BB;</p>
+<p>&#x00AB;Der har du den!&#x00BB; skrek den onde og slengte den mot gulvet, og den d&#x00F8;de seg tilbake i kisten og lukket &#x00F8;inene.</p>
+<p>Men ned fra veggene og fra altrene kom alle helgenene.</p>
+<p>&#x00AB;Han har sk&#x00E5;ret oss til pryd for dette hellige hus, og vi skylder ham takken for at vi er til,&#x00BB; sa de, og slo krins om den d&#x00F8;de og om dokka, s&#x00E5; den onde blev utenfor.</p>
+<p>&#x00AB;Det nytter ikke hvad dere s&#x00E5; finner p&#x00E5;, sjelen er min!&#x00BB; sa den onde.</p>
+<p><pb n="79"/>Da kom Guds mor fra h&#x00F8;ialteret med Jesubarnet p&#x00E5; armen, tok dokka og la den i armene p&#x00E5; abbeden.</p>
+<p>&#x00AB;Den har st&#x00E5;tt ved mitt barns f&#x00F8;tter,&#x00BB; sa hun, &#x00AB;og min vilje er at du skal gj&#x00F8;re en kiste av ek med et l&#x00F8;nnrum under leddiken. I det skal du legge dokka, som gjemmer sjelen til ham som har sk&#x00E5;ret oss; og der skal den bli til et uskyldig barn finner den og l&#x00F8;ser den ut.</p>
+<p>Men kisten skal du fylle med gull og med s&#x00F8;lv s&#x00E5; meget den kan b&#x00E6;re uten &#x00E5; synke. Og s&#x00E5; skal du skyve den fra land <pb n="80"/>og la den drive for vind og havets b&#x00E5;rer dit den selv vil.&#x00BB;</p>
+<p>&#x00AB;Det skal skje som madonna befaler,&#x00BB; sa abbeden.</p>
+<p>Den onde &#x00E5;nd vek, og Guds mor og alle helgenene gikk hver til sin plass, og det falt fred over kirken.</p>
+<p>Hvor lenge kisten drev om p&#x00E5; det store, urolige hav skal her v&#x00E6;re usagt.</p>
+<p>Men da den blev funnet nederst i fj&#x00E6;ren i et fremmed land, langt fra det klosteret l&#x00E5; i, var den ormett og overgrodd med skjell og slimet gr&#x00F8;nske.</p>
+<p>Det var en fisker som fant den. Han tok og skrapte den ren og bar den op i hytten sin, og med m&#x00F8;ie og stort besv&#x00E6;r fik han lirket op l&#x00E5;sen. Gullet og s&#x00F8;lvet t&#x00F8;mte han i en haug p&#x00E5; gulvet, og den skr&#x00F8;pelige kisten satte han i en krok oppe p&#x00E5; loftet.</p>
+<p>Fiskeren kj&#x00F8;pte sig g&#x00E5;rd og grunn for pengene havet s&#x00E5; uventet hadde bragt ham; og den fattigslige hytten solgte han til en enke som hadde en eneste s&#x00F8;nn og ingen datter.</p>
+<lb/>
+<p>For &#x00E5; skaffe mat til sig og gutten tinget enken sig arbeide hos en skredder. <pb n="81"/>Der satt hun og sydde fra &#x00E5;rle morgen til sent p&#x00E5; kveld, og den vesle farl&#x00F8;se gutten hennes fikk tidlig l&#x00E6;re &#x00E5; g&#x00E5; og stulle for sig selv. Somme dager falt tiden lang for ham, is&#x00E6;r n&#x00E5;r det var ruskev&#x00E6;r og han m&#x00E5;tte holde til innend&#x00F8;rs.</p>
+<p>Men i solskinn og t&#x00F8;rt v&#x00E6;r blev tiden hellere kort.</p>
+<p>S&#x00E5; hendte det en dag han drev og lekte ute p&#x00E5; gressbakken, at det blev slik forferdelig m&#x00F8;rkskodde. Den kom veltende ute fra storhavet, og gutten blev s&#x00E5; vettskremt at han sprang inn og skj&#x00F8;v sl&#x00E5;en for d&#x00F8;ren.</p>
+<p>Men skodda kom efter og stod som en gr&#x00E5;, ullen vegg rundt huset, og ingen var det til &#x00E5; berge ham.</p>
+<p>Han sprang op loftstrappen og bort i den ene kroken p&#x00E5; stueloftet. Der stod en eldgammel kiste. Den var s&#x00E5; ormett og skr&#x00F8;pelig, at han som solgte hytten til dem, ikke vilde ha den med, og s&#x00E5; hadde gutten f&#x00E5;tt den til &#x00E5; gjemme lekene sine i, og han var blit sv&#x00E6;rt glad i kisten.</p>
+<p>Han rev op lokket og la sig s&#x00E5; lang han var mellem alle lekene, og l&#x00E5; d&#x00F8;rgende still.</p>
+<p>Men s&#x00E5; orket han ikke mere ligge der som en annen stokk. Han tok p&#x00E5; &#x00E5; sparke <pb n="82"/>med benene mot gavlen under leddikken; og best han sparket, gled gavlen til side, og gutten stirret inn i et l&#x00F8;nnrum, og i l&#x00F8;nnrummet l&#x00E5; en vakker dokke laget av bare tre.</p>
+<p>Han grep om henne med begge nevene og krystet henne fast mot blusebarmen.</p>
+<p>&#x00AB;Jeg er s&#x00E5; redd at skodda skal komme og ta mig, og det er ingen hjemme til &#x00E5; berge mig,&#x00BB; klaget han og tok p&#x00E5; &#x00E5; storgr&#x00E5;te.</p>
+<p>&#x00AB;Nei, gr&#x00E5;t ikke er du snild, jeg skal jage skodda,&#x00BB; sa tredokka og spratt frem av kisten, trippet over loftsgulvet og kl&#x00F8;v sn&#x00F8;gt op i vinduskarmen. Der stod den stram som en soldat og truet med begge de sm&#x00E5; hendene sine mot den ulne, gr&#x00E5; veggen utenfor vinduet og sa:</p>
+<lg>
+<l>&#x00AB;Skodda, skodda hut dig heim</l>
+<l>b&#x00E5;net lig p&#x00E5; b&#x00E5;l og breinn.&#x00BB;</l>
+</lg>
+<p>Ikke f&#x00F8;r var ordene sagt, s&#x00E5; revnet skoddeveggen, og i fykende fart jog m&#x00F8;rkskodda utover havet, dit den var kommet fra. Og dagen blev klar og vakker igjen med sol og bl&#x00E5; himmel.</p>
+<p>Gutten krabbet op av kisten, tok tredokka <pb n="83"/>og s&#x00E5; n&#x00F8;ie p&#x00E5; den i dagslyset fra vinduet. Den var bl&#x00E5;malt med brede gullforgylte border p&#x00E5; kjolen; men ansiktet dens var blekr&#x00F8;dt som bladene p&#x00E5; en villrose.</p>
+<p>&#x00AB;Kan ikke du bli med ned og leke med mig, det er s&#x00E5; stuslig &#x00E5; v&#x00E6;re alene hele dagen mens mor min er borte p&#x00E5; arbeide?&#x00BB; bad gutten.</p>
+<p>&#x00AB;Det vil jeg gjerne,&#x00BB; sa dokka.</p>
+<p>Og han tok henne med sig og satte henne p&#x00E5; kj&#x00F8;kkenbenken og delte maten sin med henne.</p>
+<p>Siden lekte de, og slik morsom dag hadde gutten ikke hatt.</p>
+<p>Da det led til den tid moren skulde komme, bl&#x00E5;ste dokka p&#x00E5; ansiktet til gutten, og han sovnet der han satt. Men dokka sprang og la sig i l&#x00F8;nnrummet i kisten oppe p&#x00E5; loftet.</p>
+<lb/>
+<p>Om kvelden da moren kom fra arbeidet, l&#x00E5; gutten hennes og sov p&#x00E5; kj&#x00F8;kkengulvet. Hun pr&#x00F8;vde &#x00E5; f&#x00E5; ham v&#x00E5;ken, men han sanset hverken henne eller maten hun hadde med til ham, men spurte efter en tredokke, og gr&#x00E5;t sig i s&#x00F8;vn, da hun ikke kunde finne den til ham.</p>
+<p><pb n="84"/>Moren trodde han &#x00F8;rsket i feber, og l&#x00E5; v&#x00E5;ken hele natten av bare angst for at han skulde bli syk og d&#x00F8; fra henne. Og da hun gikk p&#x00E5; arbeide om morgenen, satte hun frokosten hans p&#x00E5; et brett ved sengen og slo korstegn over barnet sitt, at Gud og hans hellige engler skulde v&#x00E5;ke over ham mens hun var borte.</p>
+<lb/>
+<p>Hver morgen straks gutten v&#x00E5;knet, kom tredokka trippende ned loftstrappen. Hun hjalp ham med &#x00E5; reop sengen og sope gulvet og var hos ham hele dagen. Men n&#x00E5;r kvelden kom, bl&#x00E5;ste hun p&#x00E5; gutten f&#x00F8;r hun sprang og gjemte sig i l&#x00F8;nnrummet, og han husket aldri p&#x00E5; &#x00E5; fortelle mor sin om den snilde lekekameraten han hadde f&#x00E5;tt.</p>
+<p>Slik gikk det en tid; men s&#x00E5; bad tredokka en dag gutten sette sig p&#x00E5; fotskamlen og lukke begge &#x00F8;inene.</p>
+<p>Han gjorde det, og da han &#x00E5;pnet dem igjen, var han i en stor, deilig kirke.</p>
+<p>Rundt veggene og p&#x00E5; alle altrene stod det menn og kvinner sk&#x00E5;ret i tre. De glitret av s&#x00F8;lv, de skinte av gull og gnistret av kostelige stener. Vakrest var <pb n="86"/>Guds mor over h&#x00F8;ialteret og det lille Jesubarnet hun hadde p&#x00E5; fanget.</p>
+<p>&#x00AB;Vil du l&#x00E6;re &#x00E5; skj&#x00E6;re slike billeder?&#x00BB; spurte tredokka,</p>
+<p>&#x00AB;Det vil jeg!&#x00BB; sa gutten. &#x00AB;Jeg skal skj&#x00E6;re en madonna, og hun skal ligne dig, for du er den allervakreste.&#x00BB;</p>
+<p>&#x00AB;Se dig nu godt om, s&#x00E5; du minnes det du har sett,&#x00BB; sa tredokka, og s&#x00E5; var de hjemme i stuen igjen.</p>
+<lb/>
+<p>Men fra den stund snakket gutten ikke om annet enn den pene madonnaen han skulde skj&#x00E6;re i tre, og en dag det regnet, tok dokka ham med sig op p&#x00E5; loftet. Der stod det en h&#x00F8;velig treblokk, og alskens redskap til &#x00E5; skj&#x00E6;re med l&#x00E5; rede til bruk.</p>
+<p>Dokka viste ham alle grepene, og da han var skapt hendig, gikk det makel&#x00F8;st fort med &#x00E5; f&#x00E5; l&#x00E6;rt ham kunsten.</p>
+<lb/>
+<p>Madonnaen vilde han ha slik han selv s&#x00E5; den inne i sig. Den lignet p&#x00E5; en prikk tredokka, bare at ansiktet dens var mere uskyldig vakkert.</p>
+<p>Da den var ferdigsk&#x00E5;ret og malt og forgylt, <pb n="87"/>bar han den ut p&#x00E5; gressbakken s&#x00E5; solen kunde skinne p&#x00E5; den. Og s&#x00E5; vakker var den, at sm&#x00E5;fuglene sanket sig om den og trillet og sang av fryd, og blomstene svaiet og nikket til &#x00E6;re for den.</p>
+<p>Men tredokka sa:</p>
+<p>&#x00AB;Nu har jeg l&#x00F8;st ut evnene dine, og alt du skaper i tre til Guds &#x00E6;re skal lykkes for dig. Ta nu madonnaen du er s&#x00E5; glad i, og gi den til kirken.</p>
+<p>Men mig skal du grave en grav til p&#x00E5; kirkeg&#x00E5;rden og legge mig der og f&#x00E5; presten til &#x00E5; l&#x00E6;se syv messer for min bundne sjel. Den er trett og lenges efter hvilen hos Gud.&#x00BB;</p>
+<p>Gutten skj&#x00F8;nte slettes ikke hvad dokka mente med &#x00E5; v&#x00E6;re trett. Selv tenkte han p&#x00E5; alt han skulde skj&#x00E6;re i tre, og at det fikk v&#x00E6;re slutt med &#x00E5; leke vekk dagene til unyttes.</p>
+<p>Han gjorde som tredokka bad ham. Madonnaen gav han til kirken, og tredokka grov han grav til ved kirkemuren, str&#x00F8;dde blomster i graven og la dokka ovenp&#x00E5; dem.</p>
+<p>Men da presten l&#x00E6;ste den syvende messen, kom det en liten fugl op av graven. Et kort lite blunk satte den sig p&#x00E5; skulderen til gutten, s&#x00E5; fl&#x00F8;i den rett op mot himmelbl&#x00E5;et.</p>
+<p><pb n="88"/>Da gutten skulde fylle graven med jord var dokka borte. Det l&#x00E5; bare noget malt st&#x00F8;v og glitret ovenp&#x00E5; blomstene. Og gutten skar en vakker st&#x00F8;tte og satte p&#x00E5; graven.</p>
+<p>Og snipp snapp snute, her er eventyret ute.</p>
+</div>
+<div type="chapter" n="7">
+<head type="main"><ref type="contents" target="contents_7" xml:id="chapter_7">Makt mot makt</ref></head>
+<p>Det var en gang en mann som hette Johan Aronsa; han &#x00E5;tte gard og grunn og en fin galeas, og var regnet for en velstandsmann i bygden hvor han h&#x00F8;rte til.</p>
+<p>Husmannen hans hette Andreas, og plassen hans l&#x00E5; p&#x00E5; nesset tett ved den gamle, nedlagte kirkeg&#x00E5;rden, og det sagdes folk imellem, at kjerringen hans Andreas brukte dauingene til &#x00E5; g&#x00E5; &#x00E6;rend for sig n&#x00E5;r hun fikk imot nogen og vilde &#x00F8;ve hevn.</p>
+<p>Hver eneste vinter reiste han Johan Aronsa til Lofoten og saltet klippfisk i galeasen sin; men hvordan det nu var eller ikke var, s&#x00E5; hadde blankeste lykken forlatt ham. Enten m&#x00F8;tte han havskodda ute p&#x00E5; Vestfjorden, og m&#x00E5;tte ligge stille <pb n="90"/>med skuta; eller s&#x00E5; d&#x00F8;de en av karene ombord, mens resten av mannskapet gikk og hanglet og dugde til ingenting n&#x00E5;r det gjaldt som mest &#x00E5; arbeide p&#x00E5; spreng for &#x00E5; berge last i skuta den korte tiden fisket varte.</p>
+<p>S&#x00E5; var det en vinter han l&#x00E5; med galeasen sin i Skroven og saltet fisk. Som vanlig hadde havskodda sinket ham s&#x00E5; han n&#x00E5;dde ikke frem f&#x00F8;r gj&#x00E6;veste fisket var over. Men han hadde da h&#x00E5;p om &#x00E5; f&#x00E5; full last, selv om han m&#x00E5;tte betale overpris de dagene det var knapt om fangst; og mannskapet hans var ved helsen, s&#x00E5; lenge det varte.</p>
+<p>Tidlig en fredag morgen han Johan Aronsa stod innved skansekl&#x00E6;dningen og s&#x00E5; p&#x00E5; fiskerfl&#x00E5;ten som rodde ut til garnsettene, fikk han &#x00F8;ie p&#x00E5; en ottringsb&#x00E5;t hvor alle ombord fra h&#x00F8;vedsmannen og nedover til halvkaren var kuftekl&#x00E6;dde finner.</p>
+<p>I det samme ottringen rodde forbi galeasen, slapp h&#x00F8;vedsmannen grepet om &#x00E5;ren og pekte op i riggen p&#x00E5; skuta og skr&#x00E5;lte:</p>
+<p>&#x00AB;Nei sj&#x00E5; p&#x00E5; dem, glunta! Eg undres rektig p&#x00E5; ka skipperen vilde sagt om han hadde visst kaslags f&#x00F8;lgesvenner han har f&#x00E5;tt med ombord i skuta.&#x00BB;</p>
+<p><pb n="91"/>Det var ikke m&#x00F8;rkere enn at han Johan Aronsa kunde lese nummeret p&#x00E5; b&#x00E5;ten, og da den p&#x00E5; innroren la til galeasen for &#x00E5; selge fangsten, b&#x00F8;d han h&#x00F8;vedsmannen bli med sig ned i kahytten og f&#x00E5; sig en dram og en kringle &#x00E5; bite i attp&#x00E5; handelen.</p>
+<p>Der var ikke nei i finnen sin munn, kan du vite. Han t&#x00F8;mte dramglasset han Johan Aronsa satte foran ham, og takket for skjenken. Men kringlen stak han inn p&#x00E5; barmen.</p>
+<p>Men da skipperen fylte i p&#x00E5; nytt og bad ham v&#x00E6;rsgod ta den attp&#x00E5;, glante finnen ned i brennevinet f&#x00F8;r han drakk.</p>
+<p>&#x00AB;Du har fleire med dig ombord i galeasen din enn du sj&#x00F8;l veit om,&#x00BB; sa han og stilte forsiktig glasset fra sig p&#x00E5; ytterste bordkanten.</p>
+<p>&#x00AB;Har jeg det!&#x00BB; sa han Johan Aronsa, og bad finnen komme ombord til ham om s&#x00F8;ndags formiddagen. Det var noget han gjerne vilde tale ved ham om; men idag var det ikke stunder til det.</p>
+<p>Finnen svarte hverken ja eller nei; men da s&#x00F8;ndagen kom lot han Johan Aronsa mannskapet sitt f&#x00E5; landlov, og han var alene menneske ombord da finnen kom tuslende op leideren.</p>
+<p><pb n="92"/>De gikk straks ned i kahytten og satte sig til &#x00E5; tygge skr&#x00E5; og prate om alt og ingenting.</p>
+<p>Men best de satt, tok han Johan Aronsa til &#x00E5; sp&#x00F8;rre og grave efter hvad det var finnen hadde sett oppe i riggen p&#x00E5; galeasen torsdag morgen han f&#x00F3;r forbi skuta p&#x00E5; utror.</p>
+<p>&#x00AB;Det e&#x0027; nokken som vil deg ondt,&#x00BB; sa finnen. &#x00AB;Du har f&#x00E5;tt f&#x00F8;lge av dauinger ombord, eg s&#x00E5;g de f&#x00F3;r og klattra oppe i riggen p&#x00E5; skuta di.&#x00BB;</p>
+<p>Nu skj&#x00F8;nte han Johan Aronsa hvorfor blankeste lykken hadde forlatt ham, og han bad finnen nevne navnet p&#x00E5; den eller dem som vilde ham s&#x00E5; ondt. Men finnen svarte at det l&#x00E5; utenfor hans synskrets, og han kunde ingenting si.</p>
+<p><pb n="93"/>Men han Johan Aronsa var ikke den karen at han gav op p&#x00E5; halvveien, han fristet finnen med &#x00E5; love ham en kagge med godt drikkendes, og da greidde ikke finnkallen st&#x00E5; imot lenger.</p>
+<p>Men hvad han enn s&#x00E5;, og hvad han enn h&#x00F8;rte, s&#x00E5; m&#x00E5;tte skipperen hverken r&#x00F8;re h&#x00E5;nd eller fot, og slettes ikke fikk han oplate sin syndige munn til et eneste ord, for gjorde han det bragte han ulykke over dem begge, sa finnen. Og han Johan Aronsa lovde det.</p>
+<p>Straks spratt finnen op p&#x00E5; st&#x00E5;ende fot og tok p&#x00E5; &#x00E5; gjeike og summe som en humle p&#x00E5; lag; og samtidig snurret han rundt i rundt p&#x00E5; samme flekken, s&#x00E5; det rent tok til &#x00E5; svimre for &#x00F8;iesynet til ham som satt og s&#x00E5; p&#x00E5;.</p>
+<p>Men best det var seg finnkallen sammen, og f&#x00F8;r skipperen fik sukk for sig l&#x00E5; kufta midt p&#x00E5; kahyttsgulvet, men finnen selv var ingensteds &#x00E5; se.</p>
+<p>Det var ikke fritt for at han Johan Aronsa kjente f&#x00E6;lsken gro op i sig der han satt. Men heldigvis hadde han bitt sig en durabelig skr&#x00E5; f&#x00F8;r finnen la i vei med trolldommen sin, og det kom vel med nu han hadde forpliktet sig til &#x00E5; sitte d&#x00F8;rgende still, hvad det s&#x00E5; skjedde inne hos ham.</p>
+<p><pb n="94"/>Lenge satt han, og ingen lyd h&#x00F8;rtes uten sj&#x00F8;en som skvalpet mot skuten, og klokken som pikket i vestelommen hans. Han valt skr&#x00E5;en fra kjake til kjake, og en lang stund lot han den ligge og svi under tungespissen, for det tok p&#x00E5; forstanden &#x00E5; sitte der &#x00F8;rkesl&#x00F8;s og nidstirre p&#x00E5; den tomme kufta uten &#x00E5; kunne fatte eller forst&#x00E5; hvor det var blitt av finnkallen.</p>
+<p>Men verre enn alt var at han fikk slik brennende lyst til &#x00E5; ta bort p&#x00E5; kufta, og han var just i ferd med &#x00E5; rekke ut h&#x00E5;nden, da finnen med ett stod lyslevende fremfor ham.</p>
+<p>&#x00AB;Nu kunde du ha gjort oss begge ul&#x00F8;kkelig,&#x00BB; sa finnen, han var bl&#x00E5;blek i ansiktet og drivende v&#x00E5;t som et sj&#x00F8;lik &#x00E5; se p&#x00E5;. I h&#x00F8;ire neven holdt han en morken benknoke, men om den var av folk eller av kr&#x00F8;ttur kunde ikke han Johan Aronsa avgj&#x00F8;re.</p>
+<p>Finnkallen seg ned p&#x00E5; krakken innved bordet og synte frem knoken. Han hadde funnet den nederst i kj&#x00F8;lsvinet p&#x00E5; galeasen, og det var hun Sebuline, kona til han Andreas nede p&#x00E5; nesset, som hadde truet mannen sin til &#x00E5; legge den der. Det skulde v&#x00E6;re l&#x00F8;nn som forskyldt fordi hun st&#x00F8;tt blev nektet arbeide oppe p&#x00E5; <pb n="95"/>g&#x00E5;rden; men han r&#x00E5;det skipperen til at la v&#x00E6;re med &#x00E5;t tirre henne, for hun stod i pakt med de d&#x00F8;de og hadde lett for &#x00E5; hevne sig.</p>
+<p>&#x00AB;Du er nu ikke s&#x00E5; nyf&#x00F8;dt du heller, der du sitter,&#x00BB; mente han Johan Aronsa, og vilde finnen, greidde han sikkert &#x00E5; fri b&#x00E5;de skipperen og skuta fra trolldommen til den gamle, tannl&#x00F8;se kjerringen. &#x00AB;Det kosta liv for liv det,&#x00BB; svarte finnen.</p>
+<p>Men skipperen sa som sant var, at det m&#x00E5;tte hun Sebuline v&#x00E6;re vidende om p&#x00E5; forh&#x00E5;nd, s&#x00E5; ikke rettere enn han kunde skj&#x00F8;nne, kom det bare an p&#x00E5; hvem som var den sterkeste av de to: finnen som her satt, eller trollkjerringen hjemme p&#x00E5; nesset nedved den gamle kirkeg&#x00E5;rden. Og l&#x00F8;nn skulde han f&#x00E5; som opveiet umaken, og selv fikk han avgj&#x00F8;re om han vilde ha den i drikkendes eller i singlendes.</p>
+<p>S&#x00E5; gikk de op p&#x00E5; dekket, og finnen tok en favnvedski og kl&#x00F8;vde en sprekk i den og stakk knoken i sprekken, spyttet tre ganger p&#x00E5; vedskien og slengte den p&#x00E5; sj&#x00F8;en.</p>
+<p>&#x00AB;Nu farer den med d&#x00F8;den til ham som la knoken i kj&#x00F8;lsvinet p&#x00E5; galeasen din,&#x00BB; sa finnen og lo.</p>
+<p><pb n="96"/>Men han Johan Aronsa sa ingenting, han bare stod og s&#x00E5; efter favnvedskien som stimet ut v&#x00E5;gen s&#x00E5; fort at kj&#x00F8;lfaret ikke vant &#x00E5; lukke sig efter den for den var ute av &#x00F8;iesynet.</p>
+<p>De gikk tilbake til kahytten, og finnen fikk l&#x00F8;nnen de var blitt forlikt om, og s&#x00E5; skiltes de for den gangen.</p>
+<lb/>
+<p>Men p&#x00E5; Balstad i Vestlofoten satt han Andreas med begge f&#x00F8;ttene til knes i sj&#x00F8;en og sprettet op fisk og slengte den op p&#x00E5; fj&#x00E6;ren. De var kommet s&#x00F8;kkladd p&#x00E5; land og hadde det mere enn travelt med &#x00E5; f&#x00E5; fangsten hengt p&#x00E5; hjell f&#x00F8;r kvelden. Det var enda slikt vakkert solskinn den dagen, og havnen l&#x00E5; blank som et glasspeil.</p>
+<p>Han Andreas skottet som snarest op fra arbeidet og fikk se en favnvedskie som i full fart kom stimende inn v&#x00E5;gen og pekte dit han satt.</p>
+<p>Nu var ikke han Andreas dummere karen enn at han godt forstod hvad &#x00E6;rend den f&#x00F3;r i, og han reiste sig st&#x00F8;lbent fra stenen han satt p&#x00E5; for &#x00E5; berge sig inn p&#x00E5; det t&#x00F8;rre, s&#x00E5; den ikke n&#x00E5;dde ham med f&#x00F8;ringen den bar.</p>
+<p>Men f&#x00F8;ttene hans var stive av det kolde vannet, og fj&#x00E6;ren var sleip av gr&#x00F8;nske og <pb n="97"/>tang og av alt fiskesloet. Han tumlet overende og stupte s&#x00E5; lang han var uti sj&#x00F8;en.</p>
+<p>I samme blunket var favnvedskien der. Den traff ham midt i brystet, og han Andreas fikk bare sagt &#x00AB;au&#x00BB;, s&#x00E5; l&#x00E5; han der like livl&#x00F8;s som et stykke drivt&#x00F8;mmer stormen setter tillands.</p>
+<p>D&#x00F8;dsbudet n&#x00E5;dde f&#x00F8;rst han Johan Aronsa, og han skikket det videre i brev hjem til konen sin og bad henne b&#x00E6;re det frem til Sebuline p&#x00E5; nesset.</p>
+<p>Men samme dagen brevet n&#x00E5;dde frem, kom hun Sebuline fykende inn p&#x00E5; stuen til konen hans Johan Aronsa og sa hun trengte ikke &#x00E5; bry sig med noget bud til henne. Sebuline visste alt for vel hvad det stod i brevet, og hvem det var som hadde sendt d&#x00F8;den til han Andreas hennes. Men hverken han som gjorde det, eller han som bad ham om det skulde g&#x00E5; ustraffet ut av leken.</p>
+<p>Dermed f&#x00F3;r hun p&#x00E5; d&#x00F8;r, trev skiene sine og satte utfor bakken s&#x00E5; sneen f&#x00F8;k om henne.</p>
+<lb/>
+<p>Natt til torsdag i samme uken brevet var kommet, gikk Sebuline inn p&#x00E5; gammelkjerg&#x00E5;rden med en tendt fj&#x00F8;slykt gjemt under forkl&#x00E6;et. Sommesteder l&#x00E5; <pb n="98"/>der sne og sommesteder var den bl&#x00E5;st vekk s&#x00E5; gravene l&#x00E5; bare. Hun gikk og lyste mellem alle de sammensunkne gravtuene og tok op tre benknoker som hun puttet i lommen p&#x00E5; ytterstakken.</p>
+<p>Dagen efter var hun olm og ikke til &#x00E5; v&#x00E6;re i hus med for skikkelig folk, og da det blev kveld str&#x00F8;k hun til ildhuset og gjorde op varme under storgryten som hang i grusteinen full av vann. S&#x00E5; tok hun en benknoke op av lommen, den var fast og glatt &#x00E5; ta p&#x00E5;, og hun gl&#x00F8;ttet s&#x00E5; vidt p&#x00E5; den i skj&#x00E6;ret fra varmen f&#x00F8;r hun slapp den opi gryten.</p>
+<p>Akkurat i det samme boblet i kok, gled ildhusd&#x00F8;ren op, og en h&#x00F8;i, rak kar i bl&#x00E5; dyffels kl&#x00E6;r stod i &#x00E5;pningen.</p>
+<p>&#x00AB;Hvorfor uroer du mig?&#x00BB; spurte han.</p>
+<p>&#x00AB;Du skal ta hjelperne med dig og fare til Skroven og b&#x00E6;re hevn p&#x00E5; den finnlurven som sendte d&#x00F8;den til han Andreas, mannen min,&#x00BB; sa hun Sebuline.</p>
+<p>&#x00AB;Det makter jeg ikke, han er sterkere enn mig og mine hjelpere,&#x00BB; svarte dauingen.</p>
+<p>&#x00AB;S&#x00E5; hut dig dit du kom i fra!&#x00BB; hujet Sebuline og trampet i jordgulvet; og dauingen svev bort, og d&#x00F8;ren gled igjen.</p>
+<p>Men Sebuline famlet ned i stakklommen <pb n="100"/>efter en knoke til. Den var gr&#x00E5;skimlet og ru &#x00E5; ta p&#x00E5;, og hun heftet sig ikke med &#x00E5; se p&#x00E5; den, men hev den op i gryten s&#x00E5; vannet skvatt. S&#x00E5; satte hun sig p&#x00E5; krakken foran grusteinen og n&#x00F8;rte p&#x00E5; varmen til vannet fosskokte.</p>
+<p>D&#x00F8;ren gikk op, og en mann i m&#x00F8;rke vadmelskl&#x00E6;r med isgr&#x00E5;tt h&#x00E5;r og skjegg stod i &#x00E5;pningen.</p>
+<p>&#x00AB;Hvorfor uroer du mig?&#x00BB; spurte han.</p>
+<p>&#x00AB;Du skal ta hjelperne dine med dig og fare til Skroven og b&#x00E6;re hevn p&#x00E5; den finnlurven som sendte d&#x00F8;den til han Andreas, mannen min,&#x00BB; sa hun Sebuline.</p>
+<p>&#x00AB;Det makter jeg ikke, han er sterkere enn mig og mine hjelpere,&#x00BB; svarte dauingen.</p>
+<p>&#x00AB;S&#x00E5; hut dig dit du kom i fra!&#x00BB; hujet Sebuline og hyttet mot ham med knyttneven, og dauingen svev bort, og d&#x00F8;ren gled igjen.</p>
+<p>Atter stakk hun h&#x00E5;nden ned i lommen og halte frem den siste av de tre benknokene hun hadde hentet p&#x00E5; kirkeg&#x00E5;rden natten f&#x00F8;r. Den var morken og gr&#x00F8;nn av elde, og hun slapp den op i gryten til de andre to.</p>
+<p>I det samme spratt d&#x00F8;ren op, og en olding i kofte og svart hundskinnslue trukket nedover &#x00F8;rene stod i &#x00E5;pningen.</p>
+<p><pb n="101"/>&#x00AB;Hvorfor uroer du mig?&#x00BB; knurret han.</p>
+<p>&#x00AB;Du skal ta hjelperne dine med dig og fare til Skroven og b&#x00E6;re hevn p&#x00E5; den finnlurven som sendte d&#x00F8;den til han Andreas, mannen min,&#x00BB; sa Sebuline.</p>
+<p>&#x00AB;Hvad byr du mig for umaken?&#x00BB; spurte dauingen.</p>
+<p>&#x00AB;Sjelen til finnlurven straks du har n&#x00E5;dd ham med hevnen, og Johan Aronsa sin n&#x00E5;r jeg f&#x00E5;r pint den ut av kroppen p&#x00E5; ham,&#x00BB; svarte Sebuline.</p>
+<p>&#x00AB;Jeg har nok med den ene,&#x00BB; sa dauingen og kvarv bort fra &#x00E5;pningen.</p>
+<lb/>
+<p>Men om finnen som hjalp han Johan Aronsa, er det det &#x00E5; fortelle, at samme natten hun Sebuline drev og mante frem dauingene, kom han tumlende ned i kahytten til skipperen.</p>
+<p>&#x00AB;Du m&#x00E5; v&#x00E5;kne nu, Johan Aronsa, for nu st&#x00E5;r det om livet for oss begge!&#x00BB;</p>
+<p>Og s&#x00E5; fortalte han at hun Sebuline hadde l&#x00F8;st alle landdauingene, og at de alt var p&#x00E5; veien med hevn.</p>
+<p>Men han Johan Aronsa var ikke lett &#x00E5; skremme.</p>
+<p>&#x00AB;Jeg har den tiltro til dig,&#x00BB; sa han til finnen, &#x00AB;at du er kar for &#x00E5; reise makt mot makt. Og legger du nu godviljen til <pb n="102"/>og frir oss ut fra hekseriet hennes Sebuline, kan du selv bestemme l&#x00F8;nnen, og att&#x00E5;t skal du f&#x00E5; s&#x00F8;lvklokken min og kjeden den henger i.&#x00BB;</p>
+<p>Han fikk vel fors&#x00F8;ke da, mente finnen, men skipperen m&#x00E5;tte bli med ham i land nu straks p&#x00E5; timen.</p>
+<p>De rodde bort til nesset som l&#x00E5; og tok av for sj&#x00F8;brottet fra Vestfjorden, og finnen satte sig ytterst p&#x00E5; svaberget; men han Johan Aronsa satte sig mellem nogen store stener et lite stykke ovenfor. Det var m&#x00F8;rkt med en smal sigd av nym&#x00E5;ne og stjernelys.</p>
+<p>S&#x00E5; tok finnen p&#x00E5; &#x00E5; mane. Han gjeiket og rugget med kroppen i takt med gjeikingen, og om en stund stakk en draug hodet op av sj&#x00F8;en, og morilden lyste inne i den tomme hausen hans.</p>
+<p>&#x00AB;Hvorfor uroer du mig?&#x00BB; knurret den.</p>
+<p>&#x00AB;Du skal ta alle hjelperne dine med dig og fare ut p&#x00E5; Vestfjorden og stanse den h&#x00E6;rskaren av landdauinger som nu er p&#x00E5; veien hit,&#x00BB; kommanderte finnen.</p>
+<p>&#x00AB;Det makter jeg ikke,&#x00BB; svarte draugen og sakk ned i sj&#x00F8;dypet.</p>
+<p>Men finnen tok p&#x00E5; &#x00E5; mane og gjeike og rugge med kroppen som om ingenting var hendt, og langt om lenge kom en <pb n="103"/>draug fossende inn v&#x00E5;gen s&#x00E5; fort at morilden lyste som varme i kj&#x00F8;lfaret dens, og satte kursen mot nesset der finnen satt.</p>
+<p>&#x00AB;Hvorfor uroer du mig?&#x00BB; knurret den.</p>
+<p>&#x00AB;Du skal ta alle hjelperne dine med dig og fare ut p&#x00E5; Vestfjorden og stanse den h&#x00E6;rskaren av landdauinger som nu er p&#x00E5; veien hit,&#x00BB; kommanderte finnen.</p>
+<p>&#x00AB;Det makter jeg ikke,&#x00BB; svarte draugen og br&#x00E5;snudde og fosset ut p&#x00E5; dypet dit den kom i fra.</p>
+<p>Finnen vrengte luen av sig og t&#x00F8;rket svetten p&#x00E5; foret, han var n&#x00E5;blek i ansiktet, og tennene hakket mot hverandre, slik skalv og bevret han.</p>
+<p>&#x00AB;Jeg legger en dunk brennevin og gullringen jeg b&#x00E6;r p&#x00E5; fingeren att&#x00E5;t s&#x00F8;lvklokken, om du nu gj&#x00F8;r s&#x00E5; vel at du tar dig sammen og frelser b&#x00E5;de dig selv og mig,&#x00BB; lokket han Johan Aronsa oppe fra stenene der han satt og glante p&#x00E5; skremslene.</p>
+<p>Finnen pustet tungt nogen ganger, og s&#x00E5; tok han til &#x00E5; gjeike og mane igjen meget myndigere enn f&#x00F8;r. Det tok p&#x00E5; &#x00E5; bryte ute p&#x00E5; b&#x00E5;ene, og fiskerfl&#x00E5;ten inne p&#x00E5; havnen hugget og slet i fort&#x00F8;iningene. En f&#x00E6;l, gammel draug, overgrodd med tare og skjell, kom baksende inn v&#x00E5;gen s&#x00E5; sj&#x00F8;en stod i kok om den.</p>
+<p><pb n="104"/>&#x00AB;Hvorfor uroer du mig?&#x00BB; freste den, da den n&#x00E5;dde frem til nesset.</p>
+<p>&#x00AB;Du skal ta alle hjelperne dine med dig og fare ut p&#x00E5; Vestfjorden og stanse den h&#x00E6;rskaren av landdauinger som nu er p&#x00E5; veien hit!&#x00BB; kommanderte finnen uten det minste skjelv i stemmen.</p>
+<p>&#x00AB;Hvad byr du for umaken?&#x00BB; spurte stordraugen.</p>
+<p>&#x00AB;Sjelen til henne som skikket h&#x00E6;ren,&#x00BB; svarte finnen; og draugen gliste i flir og fosset ut p&#x00E5; havsdypet.</p>
+<p>Men finnen satt igjen p&#x00E5; svaberget og hoiet av gl&#x00E6;de over at hevnen snudde sig mot henne som sendte den.</p>
+<p>Dagen efter, da fiskerfl&#x00E5;ten n&#x00E5;dde ut til garnsettene, var havet som str&#x00F8;dd med knuste likkistefj&#x00F8;ler og digre tarelegger. &#x2013; Og de som &#x00E5;tte forstand til &#x00E5; tyde det skjulte, s&#x00E5; straks at her hadde i nattens mulm og m&#x00F8;rke st&#x00E5;tt et slag mellem de d&#x00F8;de p&#x00E5; landjorden og alle dem havet hadde tatt, og det var ikke vanskelig &#x00E5; se at draugene hadde g&#x00E5;tt av med seiren.</p>
+<lb/>
+<p>Da fisket var slutt, og han Johan Aronsa for fin b&#x00F8;r kom seilende hjem med galeasen ladd av saltet fisk, fikk han vite at samme uken brevet med d&#x00F8;dsbudet n&#x00E5;dde <pb n="105"/>frem, h&#x00F8;rte de en natt slik jammer og gr&#x00E5;t nede p&#x00E5; nesset. Og straks det blev lyst, gikk budeien og innleggskjerringen dit for &#x00E5; h&#x00F8;re om hun Sebuline selv eller nogen av kr&#x00F8;tturne var blitt syke og trengte hjelp. D&#x00F8;ren til stuen stod p&#x00E5; vid vegg, og det var ikke et menneske &#x00E5; se.</p>
+<p>Men fra stuen og ned til sj&#x00F8;en var en bred fure i nysneen akkurat som om nogen var blitt slept efter f&#x00F8;ttene. De fulgte faret, og ytterst p&#x00E5; vorren l&#x00E5; hun Sebuline med hodet i sj&#x00F8;en. Hun var opklort og bl&#x00E5;svart i ansiktet og d&#x00F8;d som en sten.</p>
+</div>
+<div type="chapter" n="8">
+<head type="main"><ref type="contents" target="contents_8" xml:id="chapter_8">Gutten som giftet sig med huldrejenten</ref></head>
+<p><pb n="106"/>Det var en gang ei ku som var s&#x00E5; slem til &#x00E5; reke bort fra buskapen. Aldri blev den med de andre kyrne hjem om kvelden, og kjerringen som &#x00E5;tte den, m&#x00E5;tte g&#x00E5; halve natten og mere f&#x00F8;r hun fant den og fikk dratt melken av spenene.</p>
+<p>Men skille sig av med det plagsomme dyret vilde hun ikke, for den var slik en makel&#x00F8;s god melkeku og lett &#x00E5; ha i foret om vinteren.</p>
+<p>S&#x00E5; var det en kveld kua som vanlig la sig igjen i marken at kjerringen sendte s&#x00F8;nnen sin ivei for &#x00E5; lete efter den.</p>
+<p>F&#x00F8;rst gikk han til alle de stedene han visste buskapen hadde for vane &#x00E5; beite <pb n="107"/>n&#x00E5;r dagen var i hellingen, og for hver haug han kom til, stanset han og lydde efter kubjelle.</p>
+<p>Siden la han veien inn i tetteste skogen. Det var skumt mellem trestammene og n&#x00E6;sten ur&#x00E5;d &#x00E5; skimte far efter kufot. Men etsteds m&#x00E5;tte jo kua ha stukket sig vekk; og han var ikke den som gav op p&#x00E5; halvveien.</p>
+<p>Best han gikk der og lokket og lette, kom han til en gr&#x00F8;nn engslette han aldri hadde visst om. En hel skokk bl&#x00E5;droplede kyr beitet p&#x00E5; engen i saftig gress som n&#x00E5;dde dem opunder buken, og det singlet og sang i s&#x00F8;lvbjellene de bar. Og da han skulde se vel efter, var alle hornene knappet med gull istedenfor med messing.</p>
+<p>En vakker, lysh&#x00E5;ret jente i bl&#x00E5; stakk og med dinglende bringes&#x00F8;lv i kjolelivet sitt satt p&#x00E5; en flat sten og niglodde p&#x00E5; ham. Han ruslet bort&#x00E5;t stenen, hilste godkveld og signe hvilen, og spurte om det var henne som var eiermann til alle de gilde kyrne som gikk og beitet p&#x00E5; engsletten.</p>
+<p>&#x00AB;Nei, det er mor min sine,&#x00BB; svarte jenten. &#x00AB;Men for &#x00E5; &#x00F8;ke unnadrotten bruker vi &#x00E5; ha dem p&#x00E5; beite d&#x00F8;gnet rundt mens <pb n="108"/>sommeren varer. Jeg gj&#x00E6;ter dem om natten her ute i skogen; og om dagen har vi dem i heimehagen, og da ser mor min efter dem.&#x00BB;</p>
+<p>&#x00AB;Men vil du ikke heller sitte enn st&#x00E5;?&#x00BB; spurte hun og gjorde plass for ham ved siden av sig p&#x00E5; stenen.</p>
+<p>Gutten lot sig ikke be to ganger. Han satte sig bredved den vakre jenten. Og da han hadde sittet en stund, spurte han om det ikke var kommet en fremmed ku innimellem buskapen hennes.</p>
+<p>Jo &#x2013; det hadde nyss v&#x00E6;rt en svart ku med en hvit stjerne i pannen; men den var g&#x00E5;tt igjen, fortalte hun.</p>
+<p><pb n="109"/>&#x00AB;Men kan ikke du bli her og hjelpe mig &#x00E5; gj&#x00E6;te kuene til det blir lyst,&#x00BB; tagg hun. &#x00AB;Det er s&#x00E5; stuslig &#x00E5; v&#x00E6;re alene i skogen om natten.&#x00BB;</p>
+<p>Jo, han kunde da det. Og s&#x00E5; blev de sittende der de satt og snakke sammen til dagen rant og sol&#x00F8;iet steg op over tretoppene. S&#x00E5; hjalp han henne med &#x00E5; sanke sammen buskapen og jage den p&#x00E5; dagbeite i heimehagen.</p>
+<p>Da det var gjort, bad jenten ham bli med inn og f&#x00E5; sig noget &#x00E5; bite i efter all nattev&#x00E5;ken, og trippet foran ham til en bratt fjellvegg. Der stod en d&#x00F8;r &#x00E5;pen, og gutten kom inn p&#x00E5; et stort hvitskurt kj&#x00F8;kken med frisk, nyhakket briskebar p&#x00E5; gulvet.</p>
+<p>Alle kj&#x00F8;rler og &#x00F8;ser og tvarer var av gull, og kakeformene som hang til stas p&#x00E5; veggene, og &#x00F8;lkrusene og tallerkene i tallerkenrekken var av gull. Og i den lune kroken ved gruen satt en trivelig kjerring og spant gulltr&#x00E5;d p&#x00E5; en spinnrokk av bare gull.</p>
+<p>Hun reiste sig fra rokken og la forkl&#x00E6;et hun hadde over fanget mens hun spant, ovenp&#x00E5; ullkurven.</p>
+<p>S&#x00E5; kom hun over gulvet og handhilstes med gutten og bad ham og datteren sin <pb n="110"/>sette sig til bordet. De kunde trenge &#x00E5; f&#x00E5; sig mat nu, sa hun.</p>
+<p>Gutten gjorde som han blev bedt. Men en slik overd&#x00E5;dig opdekning av god mat og godt drikke hadde han aldri sett for sine &#x00F8;ine f&#x00F8;r, og han &#x00E5;t b&#x00E5;de lenge og vel.</p>
+<p>Da m&#x00E5;ltidet var slutt, tok han p&#x00E5; &#x00E5; be farvel og takke for sig.</p>
+<p>Men huldrekjerringen mente han trengte ikke ha slik brennhast med &#x00E5; komme av sted. Kunde han ikke bli hos henne et &#x00E5;rs tid og hjelpe dem med &#x00E5; gj&#x00E6;te. <pb n="111"/>Hun tok p&#x00E5; &#x00E5; bli gammel og st&#x00F8;lbent og dugde ikke til &#x00E5; kappfly med de galne kyrne, og fremmed hjelp var ikke &#x00E5; opdrive.</p>
+<p>Men vilde han gj&#x00F8;re s&#x00E5; vel &#x00E5; bli nu med det samme, skulde han f&#x00E5; tre hundre daler i l&#x00F8;nn, og en ny vadmelskl&#x00E6;dning og nye st&#x00F8;vler n&#x00E5;r &#x00E5;ret var omme.</p>
+<p>Gutten hadde nettop n&#x00E5;dd den alder han pliktet ta fatt med &#x00E5; tjene f&#x00F8;den til sig selv, og s&#x00E5; syntes han han likes&#x00E5;godt kunde ta ved tjenesten hos huldra som et annet sted, og s&#x00E5; festet han sig for et &#x00E5;r.</p>
+<lb/>
+<p>Mens sommeren varte, gj&#x00E6;tet gutten kyrne om natten. Og da vinteren kom, og buskapen blev satt p&#x00E5; b&#x00E5;s, var huldrejenten med ham i fj&#x00F8;set og hjalp ham med &#x00E5; stelle kr&#x00F8;tturne, og tiden falt aldri lang for ham.</p>
+<p>Og aldri kom han i hug det var hulder og ikke kristenfolk han tjente hos, s&#x00E5; likt var stellet det han selv var vant ved hjemme hos mor sin. Bare med den forskjell, at hos huldra var alt s&#x00E5; meget rikere.</p>
+<p>Da &#x00E5;ret var omme, gjorde gutten sig rede til &#x00E5; forlate tjenesten. Det skulde bli moro &#x00E5; komme hjem til moren og vise <pb n="112"/>frem alle pengene han hadde tjent p&#x00E5; det snaue &#x00E5;ret han hadde v&#x00E6;rt borte.</p>
+<p>Huldrekjerringen satte sig imot. Hun mente ham s&#x00E5; vel, sa hun; og l&#x00F8;nnen skulde hun tredoble og att&#x00E5;t kl&#x00E6; ham op fra innerst til ytterst, bare han vilde stanse hos henne et &#x00E5;r til.</p>
+<p>Men gutten sa nei.</p>
+<p>S&#x00E5; talte huldra op tre hundre daler i gullpenger og la dem i en fin pung. Og vadmelskl&#x00E6;dningen han fikk, var av skinnende gullt&#x00F8;i, s&#x00E5; gutten str&#x00E5;lte som en <pb n="113"/>sol, da han kom inn i stuen til mor sin og bad freden i huset.</p>
+<p>Men moren kjente ham ikke. En slik gullforgylt herremann kunde hun umulig sette frem stol til og be v&#x00E6;rsgod sitte ned i sin ringe stue, og s&#x00E5; blev gutten st&#x00E5;ende innenfor d&#x00F8;rstokken.</p>
+<p>Langt om lenge m&#x00E5;tte han da si hvem han var; men mor hans sa han f&#x00F3;r med l&#x00F8;gn og fanteri. Hennes s&#x00F8;nn var blitt borte for et &#x00E5;r siden, da han gikk til skogen for &#x00E5; lete efter ei svart ku som hadde for vane &#x00E5; gi sig igjen n&#x00E5;r de andre kr&#x00F8;tturne rekte hjem om kvelden.</p>
+<p>Da det led p&#x00E5; natten kom kua. Men den som aldri kom, det var s&#x00F8;nnen hennes.</p>
+<p>Men gutten tok p&#x00E5; &#x00E5; fortelle alt som var hendt ham. Han viste frem pungen med alle gulldalerne og knappet op den gilde vadmelstr&#x00F8;ien og synte frem skjorten hun selv hadde vevd og sydd til ham, og da m&#x00E5;tte hun jo tro sine egne &#x00F8;ine.</p>
+<lb/>
+<p>For pengene kj&#x00F8;pte gutten kl&#x00E6;r til mor sin og v&#x00F8;lte om stuen og fj&#x00F8;set, s&#x00E5; de mest blev som nybygd &#x00E5; se til.</p>
+<p>Men da alt var stelt i stand, blev gutten syk og sengeliggende og mistet b&#x00E5;de sans og samling. Doktoren sa det var <pb n="114"/>ikke redning for ham, og det samme sa signekjerringen mor hans spurte tilr&#x00E5;ds.</p>
+<p>Men mens han l&#x00E5; der maktesl&#x00F8;s midt imellem livet og d&#x00F8;den, syntes han at datteren til huldra han hadde tjent hos, var inne i kammerset. Hun puslet og stelte om ham s&#x00E5; varlig og &#x00F8;mt, og om natten satt hun fremfor sengen hans og gav ham svaledrikk av en gullkopp.</p>
+<p>Mor hans h&#x00F8;rte det knirket i stolen og i gulvfjelene, og at nogen tok i d&#x00F8;rklinken, og hun trodde det var de d&#x00F8;de vennene som kom for &#x00E5; f&#x00F8;lge s&#x00F8;nnen hennes gjennem skyggedalen frem til V&#x00E5;rherres trone.</p>
+<p>Men den som ikke d&#x00F8;de, det var gutten. Han blev frisk og sterk som aldri f&#x00F8;r, og tok fatt med tungarbeide p&#x00E5; jorden.</p>
+<p>Og usynlig for alle andre enn ham selv hjalp huldrejenten ham med arbeidet, og hadde med styrkende mat og godt drikke til ham fra huldreg&#x00E5;rden.</p>
+<lb/>
+<p>Litt om senn tok mor hans p&#x00E5; &#x00E5; ane ur&#x00E5;d. Det m&#x00E5;tte v&#x00E6;re nogen hun ikke kunde se, som hjalp s&#x00F8;nnen hennes med arbeidet ute p&#x00E5; marken. Og en dag han drev med &#x00E5; spa om jorden i k&#x00E5;lrabihagen og pratet og lo under arbeidet, b&#x00F8;ide hun begge <pb n="115"/>&#x00F8;resnippene sammen p&#x00E5; den svarte hingsten deres og gl&#x00F8;ttet p&#x00E5; s&#x00F8;nnen gjennem det tette fakset.</p>
+<p>Da s&#x00E5; hun at jevnsides gutten hennes gikk en ferm, lysh&#x00E5;ret jente og spadde s&#x00E5; mulden f&#x00F8;k.</p>
+<p>Men huldrejenten stanset midt i arbeidet.</p>
+<p>&#x00AB;Er det s&#x00E5; du vil ha mig til kjerring p&#x00E5; g&#x00E5;rden din, f&#x00E5;r du forte dig med &#x00E5; kaste st&#x00E5;l over mig, for nu st&#x00E5;r mor din og ser p&#x00E5; oss gjennem fakset p&#x00E5; hingsten din.&#x00BB;</p>
+<p>&#x00AB;Haster det s&#x00E5;?&#x00BB; sa gutten.</p>
+<p>&#x00AB;Ja stedfester du mig ikke nu, m&#x00E5; jeg bort fra dig, og du ser mig aldri mere.&#x00BB;</p>
+<p>Da rev gutten tollekniven av sliren og hev den over hodet p&#x00E5; jenten, og hun stod der vakker og lys og synlig for alle.</p>
+<p>Mor hans satte sig til motverge og vilde han skulde ta et kristent menneske til kjerring; men gutten giftet sig med huldra og levde lykkelig med henne livsdagen til ende.</p>
+<p>Og snipp snapp snute her er eventyret ute.</p>
+</div>
+<div type="chapter" n="9">
+<head type="main"><ref type="contents" target="contents_9" xml:id="chapter_9">Det r&#x00F8;de gullbergslottet i Nordvesthavet</ref></head>
+<p><pb n="116"/>Det var en gang en mann og en kone som bodde for sig selv p&#x00E5; en flat strandstrimmel ute ved storhavet.</p>
+<p>Oven om stranden var det et stupbratt fjell med et firkantet, svart hull midt oppe i slette bergveggen. Og fra det hullet trengte det stundom s&#x00E5;n jammer og gr&#x00E5;t at det var f&#x00E6;lt &#x00E5; h&#x00F8;re p&#x00E5; for dem som bodde det s&#x00E5; n&#x00E6;rt og allikevel ikke kunde n&#x00E5; &#x00E5; rekke en hjelpende h&#x00E5;nd.</p>
+<p>Utenfor stranden l&#x00E5; et par gressgrodde holmer, og siden var det bare havet og himmelen.</p>
+<p>Mannen og konen hadde en go&#x0027;bonde <pb n="117"/>p&#x00E5; stueloftet sitt, for det hadde bodd folk f&#x00F8;r p&#x00E5; den stranden. Men han var av det godlynte slaget og lett &#x00E5; v&#x00E6;re i hus med. Karianna, den vesle jentungen deres, bar silesup op til ham. Og n&#x00E5;r moren bakte ovnsbr&#x00F8;d, laget Karianna en liten stomp til ham og stakk en fleskebete i midten. Men kors og krone krinte hun aldri p&#x00E5; stompen, for da r&#x00F8;rte han den ikke, sa mor hennes.</p>
+<p>Go&#x0027;bonden selv hadde Karianna aldri sett, men maten hun satte op til ham, &#x00E5;t han, og n&#x00E5;r det blev stilt om kvelden, h&#x00F8;rte hun han snorket i s&#x00F8;vne.</p>
+<lb/>
+<p>En sommerkveld faren og moren var rodd ut p&#x00E5; sj&#x00F8;en efter storseien, og alle kr&#x00F8;tturne var lukket inn i fj&#x00F8;set, satt Karianna p&#x00E5; haugen et lite stykke fra det ene stuer&#x00F8;stet og stirret p&#x00E5; b&#x00E5;ten og pr&#x00F8;vde telle de blanke fiskene de l&#x00F8;ftet inn over b&#x00E5;tripen.</p>
+<p>Best hun satt slik og stirret, fikk hun se en veldig drage, som kom brusende over havet og de sm&#x00E5; holmene like mot den stupbratte bergveggen. Der smatt den inn i det svarte hullet. Og straks blev det slik gr&#x00E5;t og jammer at hun vettskremt sprang inn bislagveien <pb n="118"/>og ropte p&#x00E5; go&#x0027;bonden, at han m&#x00E5;tte komme og frelse henne.</p>
+<p>Ikke f&#x00F8;r hadde hun ropt, s&#x00E5; kom han imot henne; en eldgammel mann i gr&#x00E5; vadmelskofte og oterskinns lue p&#x00E5; hodet og skjeggkrins rundt haken og kjakene.</p>
+<p>Jentungen f&#x00F8;k like i armene p&#x00E5; ham, og bad og b&#x00F8;nnfalt ham om &#x00E5; frelse henne fra den f&#x00E6;le dragen, som nettop var fl&#x00F8;iet inn i hullet oppe i berget og nu holdt p&#x00E5; &#x00E5; pine nogen der inne.</p>
+<p>&#x00AB;Kom og bli med mig til nabomannen min du,&#x00BB; sa kallen; og dermed s&#x00E5; tok han Karianna ved h&#x00E5;nden og gikk med henne til haugen hun nyss hadde forlatt. Han banket med h&#x00F8;ire langfingerknoken mot en stenhelle som l&#x00E5; der, og straks blev <pb n="119"/>det en &#x00E5;pning stor nok til at de kunde komme inn i haugen.</p>
+<p>Der var det akkurat som en stue, og en minst like s&#x00E5; gammel kall satt og skar fliser av et spekel&#x00E5;r med tollekniven sin og drakk skj&#x00F8;r til.</p>
+<p>&#x00AB;Go&#x0027; kveld, nabomann,&#x00BB; hilste go&#x0027;bonden.</p>
+<p>&#x00AB;Go&#x0027; kveld igjen,&#x00BB; sa gamlingen. &#x00AB;Du f&#x00E5;r lete dig fram&#x00E5;t og smake p&#x00E5; traktementet,&#x00BB; sa han og skubbet spekel&#x00E5;ret og skj&#x00F8;rbollen bort&#x00E5;t go&#x0027;bonden.</p>
+<p>De satt en stund og gumlet og drakk, s&#x00E5; spurte haugkallen hvad det var for et lite krek han var i f&#x00F8;lge med; og go&#x0027;bonden sa det var en snerten liten jente som brukte b&#x00E6;re op silesup og nybakt stomp til ham. Ikveld hadde hun sett dragen fra gullbergslottet fare inn i hullet oppe i bergveggen, og var kommet springende inn og bedt ham frelse henne fra utysket.</p>
+<p>&#x00AB;&#x00C5;, er du den snilde vesle piken som sitter og leker dig p&#x00E5; stuetaket mitt, s&#x00E5; vet jeg om dig. Sett dig p&#x00E5; fotskammelen min, du, og v&#x00E6;r ikke redd. Hit inn v&#x00E5;ger ikke dragen sig, det kan du v&#x00E6;re trygg for,&#x00BB; sa haugkallen.</p>
+<p>S&#x00E5; fortalte gamlingen henne at lenge f&#x00F8;r den tid han blev lagt i haug, bodde det <pb n="120"/>en sj&#x00F8;konge p&#x00E5; stranden. En gang han var ute p&#x00E5; h&#x00E6;rferd, kom dragen fra det r&#x00F8;de gullbergslottet i Nordvesthavet og r&#x00F8;vet s&#x00F8;nnen hans; men slottet og alt og alle som var der, hekste han inn i brattfjellet ovenom stranden, s&#x00E5; bare ljor&#x00E5;pningen var synlig.</p>
+<p>Da kongen kom tilbake fra ferden, s&#x00E5; han ikke annet av det hans hadde v&#x00E6;rt, enn den &#x00F8;de stranden.</p>
+<p>Siden flakket han vidt omkring og lette efter dronningen og s&#x00F8;nnen sin, men fant dem aldri.</p>
+<p>&#x00AB;Er det ingen som kan drepe dragen og frelse konges&#x00F8;nnen?&#x00BB; spurte Karianna og t&#x00F8;rket t&#x00E5;rene av &#x00F8;iekriken.</p>
+<p>&#x00AB;Det krevdes levende menneske til det arbeidet,&#x00BB; svarte begge gjengangerne, og snakket lavm&#x00E6;lt sig imellem.</p>
+<p>Men Karianna satt p&#x00E5; fotskammelen og tenkte p&#x00E5; prinsen og gullbergslottet, til go&#x0027;bonden reiste sig fra benken og sa at nu var det p&#x00E5; tide &#x00E5; g&#x00E5; hjem til sig selv.</p>
+<lb/>
+<p>Fra den kvelden stirret Karianna flittig mot nordvest efter det r&#x00F8;de gullbergslottet. Og n&#x00E5;r solen seg i hav, trodde hun &#x00E5; skimte det bak de gl&#x00F8;dende skyer, men sikker p&#x00E5; det var hun ikke.</p>
+<p><pb n="122"/>Men solen gikk lavere og lavere over himmelhvelvet, og en dag stirret Karianna f&#x00E5;fengt efter den. Solen steg ikke op, og glansen, som sa henne hvor slottet l&#x00E5;, var sluknet.</p>
+<lb/>
+<p>Vinteren kom og gikk. V&#x00E5;ren kom og gikk. Og halve sommeren var alt forbi, da Karianna oppe fra uren under berghammeren s&#x00E5; det r&#x00F8;de gullbergslottet. N&#x00E6;r havet hang det, og bak det var himlen som en gr&#x00F8;nnblank sk&#x00E5;l, og foran det var en gar av gloende ild.</p>
+<p>Det var t&#x00E5;rn og tinder p&#x00E5; slottet, og p&#x00E5; en av t&#x00E5;rnkrinsene stod prinsen og vinket til henne.</p>
+<p>Hun vinket igjen, f&#x00F8;rst med bare h&#x00E5;nden, s&#x00E5; med hodet&#x00F8;rkl&#x00E6;et for &#x00E5; v&#x00E6;re sikker p&#x00E5; at han skulde se hun svarte. Men i det samme tok flammene foran slottet til &#x00E5; blusse og blafre, s&#x00E5; prinsen blev skjult. Og da de bleknet, var slottet borte.</p>
+<p>Fort kl&#x00F8;v hun frem av uren og sprang hjem og fortalte go&#x0027;bonden det hun hadde sett, og han tok henne med inn i haugen til ham som der bodde.</p>
+<p>&#x00AB;Vil du bli med og frelse prinsen, siden det er du som har sett ham?&#x00BB; spurte haugkallen, <pb n="123"/>og Karianna sa at det vilde hun mere enn gjerne, bare nogen vilde hjelpe henne p&#x00E5; vei.</p>
+<p>Da tok haugkallen et gammelt blankslitt ildst&#x00E5;l og la det i neven hennes.</p>
+<p>&#x00AB;Ta vare p&#x00E5; det, s&#x00E5; du ikke mister det p&#x00E5; veien,&#x00BB; sa han. &#x00AB;Og n&#x00E5;r du kommer til slottet, skal du kaste det tvers over dragen, som ligger og sover innenfor ildgaren, og veien til prinsen er fri.&#x00BB;</p>
+<p>&#x00AB;Men hvordan skal jeg n&#x00E5; frem dit slottet er?&#x00BB; spurte Karianna, hun tok og puttet ildst&#x00E5;let inn p&#x00E5; barmen.</p>
+<p>&#x00AB;Jeg skal sj&#x00F8;l seile dig dit,&#x00BB; sa haugkallen og tok p&#x00E5; &#x00E5; finne frem sj&#x00F8;kl&#x00E6;r til sig og go&#x0027;bonden.</p>
+<lb/>
+<p>Da de kom ut av haugen, l&#x00E5; det et fint skib innved land. Gamlingene ruslet i forveien ned til fj&#x00E6;ren, mens Karianna smatt innom mor sin og sa fra at hun blev borte nogen dager, for hun skulde i vei og frelse prinsen.</p>
+<p>Moren slo kors over jentungen sin og gav henne en stomp og en osteskalk med til veimat, og s&#x00E5; steg Karianna ombord p&#x00E5; skibet.</p>
+<p>Haugkallen tok roret, og go&#x0027;bonden <pb n="124"/>passet seilet, og avsted bar det fortere enn vind bl&#x00E5;ste og fugl fl&#x00F8;i.</p>
+<p>Best de seilte slik, kom de til en &#x00E5;pen avgrunn. Den var br&#x00E5;dyp og t&#x00F8;rr for vann. P&#x00E5; andre siden avgrunnen l&#x00E5; det r&#x00F8;de gullbergslottet tindrende blankt, og prinsen stod oppe p&#x00E5; det ene t&#x00E5;rnet. Aldeles snehvit i ansiktet var han, og armene holdt han korslagt over brystet.</p>
+<p>&#x00AB;Her er min makt ute,&#x00BB; sa haugkallen og slapp rorkulten.</p>
+<p>&#x00AB;Men ikke min,&#x00BB; sa go&#x0027;bonden, og han tok p&#x00E5; &#x00E5; mane frem av dypet alt havet gjemte p&#x00E5; av fisk og alle slags kryp. B&#x00E5;de de fyselige og det ufyselige mante han frem; bare stordraugen selv form&#x00E5;dde han ikke &#x00E5; rikke.</p>
+<p><pb n="125"/>&#x00AB;Vi f&#x00E5;r greie oss uten den karen,&#x00BB; sa go&#x0027;bonden. Og s&#x00E5; spurte han<note type="footnote">han] <hi rend="italic">rettet fra:</hi> han han <hi rend="italic">(trykkfeil)</hi></note> alle dem som var m&#x00F8;tt frem, om nogen vilde ta p&#x00E5; sig det ansvarsfulle hverv &#x00E5; frakte jenten uskadt frem til gullbergslottet.</p>
+<p>&#x00AB;Det f&#x00E5;r bli mig det,&#x00BB; m&#x00E6;lte en diger kveite og valt sig op ved siden av skibet. Men da Karianna vilde sette sig op p&#x00E5; ryggen dens, gled den unda.</p>
+<p>&#x00AB;Jeg f&#x00E5;r nok gjemme dig bedre enn som s&#x00E5;, n&#x00E5;r vi har stordraugen imot oss,&#x00BB; sa kveiten og tok og hekset Karianna om til et lite bubberullskjell og la henne i den ene hultannen sin.</p>
+<p>Og alt og alle av fisk og kryp og annet levende svor &#x00E5; verge jenten s&#x00E5; langt deres makt og evne rakk.</p>
+<p>I det samme dukket stordraugen op av havdypet aldeles overgrodd av tang og skjell.</p>
+<p>&#x00AB;Havet skal brenne der du vil renne og svi dig til kull,&#x00BB; skrek han, og slo efter kveiten med en diger skibskj&#x00F8;l han hadde i neven.</p>
+<p>&#x00AB;Ikke har du mig, og ikke tar du mig, for jeg vet vei dypere enn du kan komme,&#x00BB; spottet kveiten og stakk tilbunns fortere enn en utskutt pil.</p>
+<p>Stordraugen efter!</p>
+<p><pb n="126"/>Og fisk og alt havsens kryp sank de ogs&#x00E5;, avgrunnen fyltes av gloende ild, og havet bevret og skalv, s&#x00E5; kallene hadde sin store m&#x00F8;ie med &#x00E5; berge skibet.</p>
+<lb/>
+<p>Dypt nede p&#x00E5; havsbunnen, dit dagslyset ikke n&#x00E5;dde og sol aldri br&#x00F8;t frem, var en smal sprekk i et knudret berg. Bak sprekken var en hule med vegger og tak av glinsende rav.</p>
+<p>Kveiten kilte sig inn i sprekken, skapte Karianna om til en havfrue og bad henne bli inne i hulen, mens den selv smatt utenfor til kamp mot fienden deres.</p>
+<p>Det varte ikke lenge f&#x00F8;r stordraugen kom settende med en h&#x00E6;r av sj&#x00F8;drauger efter sig. De brukte skibsplanker og digre tarelegger til v&#x00E5;ben og var f&#x00E6;le &#x00E5; se p&#x00E5;.</p>
+<p>Men kveiten l&#x00E5; alt ferdig med sin h&#x00E6;r. De hadde bare snaue kroppene &#x00E5; forlate sig p&#x00E5;, og nogen freste og nogen hugg med tenner og klorte med kl&#x00F8;r. Somme sprutet giftig eiter og somme pisket med sporden.</p>
+<p>Midt i bl&#x00F8;teste gj&#x00F8;rmen l&#x00E5; blekksprutmoren og hektet draug for draug med de lange, seige armene sine, mens hval og <pb n="127"/>hvalross, og kobbe og havhest, og alle som var skapt slik at de m&#x00E5;tte puste i luft, b&#x00F8;kset til og fra og brukte stormakten hvor det mest trengtes.</p>
+<p>Tre dager og tre netter varte slaget, men da flyktet stordraugen og de av herket hans som ennu &#x00E5;tte krefter til &#x00E5; komme sig unda.</p>
+<p>Kveiten hadde f&#x00E5;tt sporden kl&#x00F8;vd under kampen. Den opl&#x00F8;ste h&#x00E6;ren sin og satte blekksprutmoren til &#x00E5; holde vakt ved inngangen til hulen.</p>
+<p>Nu fikk Karianna det travelt med &#x00E5; rense kveites&#x00E5;ret for treflis og spikerrust. Hun smurte med tangsalve slik mor hennes brukte n&#x00E5;r nogen hadde skadd sig, og bandt fille om s&#x00E5;ret. Likevel gikk det mange dager f&#x00F8;r kveiten blev s&#x00E5;pass frisk at den kunde varle tversover hulen. Og det var umulig for den &#x00E5; legge p&#x00E5; langfart til det r&#x00F8;de gullbergslottet i Nordvesthavet.</p>
+<p>Men Karianna bar prinsen i tankene, og hjertet hennes sved av lengsel efter &#x00E5; frelse ham.</p>
+<lb/>
+<p>S&#x00E5; var det en dag de tenkte p&#x00E5; fred og ingen fare, at det tok p&#x00E5; &#x00E5; dryppe ild ned <pb n="128"/>fra taket i hulen. Kveiten valt sig med kvitsiden op, nappet Karianna og skapte henne om til et bubberullskjell og gjemte henne i tannen og rakk akkurat &#x00E5; frelse sig inn i en av de trange gangene som str&#x00E5;lte ut fra storhulen, f&#x00F8;r vannet i hulen boblet i kok.</p>
+<p>Den stimet i vei s&#x00E5; det fosset om den. Men hvor den kom, m&#x00F8;ttes den av gloende varme. Og oppe fra taket h&#x00F8;rte den stordraugen glise og le av pinen den sendte p&#x00E5; fienden sin.</p>
+<p>Kveiten pilte til bunns og dunket snuten mot sandet.</p>
+<p>&#x00AB;Hjelp mig nu du som under mig bor!&#x00BB; skrek den; og straks &#x00E5;pnet det sig vei, og sj&#x00F8;ormen stakk hodet frem av &#x00E5;pningen og bad den v&#x00E6;rsgod komme innenfor.</p>
+<lb/>
+<p>Under havsbunnen var det marker og skog og himmel og dagslys som oppe p&#x00E5; jorden. Midt ute i en sj&#x00F8; stod et slott av marmor, og rundt det var en skog som skinte som kobber. Der bodde ormekongen. Han bad kveiten v&#x00E6;re velkommen til riket hans og fulgte den til h&#x00F8;is&#x00E6;tet.</p>
+<p>&#x00AB;Og syn mig s&#x00E5; henne du gjemmer i <pb n="129"/>tannen din, at ogs&#x00E5; jeg kan f&#x00E5; skuelevende menneske hos mig,&#x00BB; sa han.</p>
+<p>Straks hekset kveiten Karianna frem som hun gikk og stod hjemme i stuen hos foreldrene sine. Og ormekongen glante p&#x00E5; henne, mens platene i panseret hans str&#x00E5;lte som de klareste edelstener, og v&#x00E6;rh&#x00E5;rene rundt snuten hans vibret.</p>
+<p>Men Karianna hilste det peneste hun hadde l&#x00E6;rt; aldri hadde hun sett noget s&#x00E5; fint og gromt som ormekongen, og prinsen gled henne ut av tanken.</p>
+<p>Ormekongen spurte om hun vilde bli der og v&#x00E6;re dronningen hans, s&#x00E5; skulde hun f&#x00E5; alt hun pekte p&#x00E5;.</p>
+<p>Men da sanset Karianna hvad &#x00E6;rend hun f&#x00F3;r i, og sa som sant var, at hun m&#x00E5;tte til det r&#x00F8;de gullbergslottet i Nordvesthavet og frelse prinsen. Og hun kjente efter om hun hadde ildst&#x00E5;let.</p>
+<p>&#x00AB;Ja m&#x00E5; du det, s&#x00E5; m&#x00E5; du det, og jeg skal ikke hindre dig,&#x00BB; sa ormekongen. Og dermed s&#x00E5; kl&#x00E6;dde han Karianna i en kjole fagrere enn himlens klareste bl&#x00E5;ner og overs&#x00E5;dd med stjerner, hun fikk sko av gullfiskskinn, og i h&#x00E5;ret hennes flettet han lange perlesnorer.</p>
+<p>&#x00AB;Og kommer du nogengang i n&#x00F8;d, s&#x00E5; rop p&#x00E5; mig,&#x00BB; sa han.</p>
+<p><pb n="130"/>S&#x00E5; la de i vei. Karianna satt p&#x00E5; ryggen til kveiten, og ormekongen gled jevnsides dem. De sv&#x00F8;mte gjennem s&#x00F8;lvskog; der var fugl, men de sang ikke. De sv&#x00F8;mte gjennem gullskog; der var blomster, men de duftet ikke. De sv&#x00F8;mte under Nordvesthavet, og da de dukket op, var de ved det r&#x00F8;de gullbergslottet.</p>
+<p>Det var just i middagskvilen de kom dit, og dragen l&#x00E5; i trygg s&#x00F8;vn innenfor ildgaren.</p>
+<p>&#x00AB;Ta nu frem ildst&#x00E5;let ditt og g&#x00E5; tvers gjennem varmen og kast det over dragen,&#x00BB; sa kveiten.</p>
+<p>Karianna la i vei. Men aldri hadde hun sett noget s&#x00E5; vakkert og s&#x00E5; fryktelig. Og hadde ikke prinsen ventet at hun skulde komme og frelse ham, hadde hun snudd om og f&#x00E5;tt kveiten til &#x00E5; f&#x00F8;re sig hjem til stranden og foreldrene. Men nu m&#x00E5;tte hun ikke gi sig! Bent inn i varmen gikk hun, men flammen b&#x00F8;ide sig unda henne, og ikke en tr&#x00E5;d p&#x00E5; hennes kropp og ikke s&#x00E5;pass som et eneste lite h&#x00E5;rstr&#x00E5; blev svidd.</p>
+<p>Da hun kom til dragen, tok hun ildst&#x00E5;let frem av kjolebarmen og hev det med all sin makt over ham. Han sprakk i tusen beter og f&#x00F8;k til v&#x00E6;rs som en veldig gloregn, og veien til slottet l&#x00E5; &#x00E5;pen for henne.</p>
+<p><pb n="131"/>Karianna steg op trappen. Foran henne l&#x00E5; sal innenfor sal, og alle skinte av gull. I den aller innerste satt prinsen stiv og hvit, og svarte ikke da hun bad Guds fred i huset og nevnte hvem hun var.</p>
+<p>&#x00AB;&#x00C5; tr&#x00F8;ste og b&#x00E6;re mig, er jeg kommet for sent til &#x00E5; frelse dig!&#x00BB; skrek hun og hev sig nesegrus i fanget hans og gr&#x00E5;t.</p>
+<p>Men s&#x00E5; mintes hun det ormekongen hadde lovet, og ropte s&#x00E5; det ljomet gjennem alle salene.</p>
+<p>&#x00AB;Orm, orm, kom og hjelp!&#x00BB;</p>
+<p>Straks var han der. Han gav henne et bittelite blodr&#x00F8;dt blad og sa hun skulde <pb n="132"/>legge det under tungen til prinsen, s&#x00E5; blev han levende. Men selv gled han ut av slottet og drog tilbake til riket sitt, like alene som f&#x00F8;r.</p>
+<lb/>
+<p>Prinsen blev sjeleglad da han fikk rede p&#x00E5; alt det Karianna hadde gjort for ham. Sammen vandret de omkring p&#x00E5; slottet, og han synte henne all herligheten som var der inne, og spurte om hun vilde bli dronningen hans.</p>
+<p>Og det vilde hun gjerne. Men f&#x00F8;rst m&#x00E5;tte hun svippe hjem om foreldrene og si fra at hun var i live og hadde det godt.</p>
+<p>P&#x00E5; slottstrappen m&#x00F8;tte de haugkallen og go&#x0027;bonden. De kom stampende mot dem i fullt sj&#x00F8;hyre og spurte om nogen trengte skyss, for nu l&#x00E5; skuten seilferdig. Og Karianna og prinsen blev med, for det var blitt farbart over avgrunnen.</p>
+<p>Men da de n&#x00E6;rmet sig stranden, kunde Karianna ikke kjenne f&#x00F8;destedet sitt igjen. Slottet til prinsen stod der stuen hadde st&#x00E5;tt, og det vrimlet av folk og kj&#x00F8;redoninger. Og hadde hun ikke f&#x00E5;tt &#x00F8;ie p&#x00E5; faren og moren sin nede ved b&#x00E5;tst&#x00F8;en, hadde hun trodd hun var kommet til et feil sted.</p>
+<p><pb n="133"/>De turte bryllup b&#x00E5;de lenge og vel. Men da brursteken var spist og &#x00F8;let drukket og gjestene kjente sig b&#x00E5;de mette og ut&#x00F8;rste, bad haugkallen farvel og takk for sig. Og go&#x0027;bonden blev med ham inn i haugen, siden det var blitt slik st&#x00E5;k og uro i huset.</p>
+<p>Og snipp snapp snute, her er eventyret ute.</p>
+</div>
+</body>
+</text>
+</TEI>

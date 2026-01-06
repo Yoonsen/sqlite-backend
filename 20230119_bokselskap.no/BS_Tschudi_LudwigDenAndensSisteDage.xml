@@ -1,0 +1,998 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI PUBLIC "-// TEI P5 //EN" "http://www.tei-c.org/release/xml/tei/custom/schema/dtd/tei_all.dtd">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="BS_Tschudi_LudwigDenAndensSidsteDage">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>bokselskap.no, Oslo 2021
+<lb/>Clara Tschudi: <hi rend="italic">Ludwig den andens sidste dage</hi>
+<lb/>Teksten i bokselskap.no f&#x00F8;lger 1. utgave, 1906 (K&#x00F8;benhavn/Kristiania/Gyldendal) og er basert p&#x00E5; digital tekstversjon ved &#x00D8;ystein Tvede.
+<lb/>ISBN: 978-82-8319-633-7 (bokselskap.no) <lb/>978-82-8319-634-4 (epub), 978-82-8319-635-1 (mobi)
+</title>
+</titleStmt>
+<publicationStmt><p>Publiseres som digital tekst av bokselskap.no.</p></publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Ludwig den andens sidste dage</title>
+<author>Clara Tschudi</author>
+<publisher>Gyldendal</publisher>
+<pubPlace>K&#x00F8;benhavn/Kristiania</pubPlace>
+<date>1906</date>
+<note>Tschudi_Ludwig de andens siste dage.docx (mottatt fra &#x00D8;ystein Tvede 2021)</note>
+</bibl>
+</sourceDesc>
+</fileDesc>
+<revisionDesc>
+<change who="ENW" when="2021-09-27">Lagt in ISBN.</change>
+<change who="ENW" when="2021-09-22">Entiteter, kodekontroll og validering.</change>
+<change xml:id="ENW" who="ENW" when="2021-09-21">XML-koding: konvertering fra Word til TEI P5 XML. Koderydding. Lagt inn illustrasjoner.</change>
+</revisionDesc>
+</teiHeader>
+<text xml:id="BS_Tschudi_Tschudi_LudwigDenAndensSidsteDage_tekst" type="prose">
+<front>
+<titlePage type="main">
+<byline><docAuthor>Clara Tschudi</docAuthor></byline>
+<docTitle>
+<titlePart type="main">Ludwig den andens sidste dage</titlePart>
+<titlePart type="sub">Bind II: Den ensomme konge 1875&#x2013;1886</titlePart>
+</docTitle>
+<docDate>bokselskap.no<lb/>Oslo 2021</docDate>
+</titlePage>
+</front>
+<body>
+<div type="chapter" subtype="citation">
+<p rend="noIndent">Zwei Seelen wohnen, ach! in meiner Brust,
+<lb/>Die eine will sich von der andern trennen.
+<lb/>Goethe. (&#x00AB;Faust&#x00BB;.)</p>
+</div>
+<div type="chapter" subtype="illustration">
+<p rend="center"><figure><graphic url="Tschudi1906_tb.PNG"/></figure><lb/></p>
+</div>
+<div type="chapter">
+<head type="main">I. Troppe-revuen 1875. &#x2013; Kronprins Friedrich af Preussen</head>
+<p rend="noIndent">Det bayerske folk havde v&#x00E6;nnet sig til Ludwig den andens eiendommeligheder. Udlandet betragtede endnu hans v&#x00E6;sen og handlinger som tegn paa genialitet. Kongen selv syntes ligegyldig for det indtryk, som hans optr&#x00E6;den gjorde paa andre.</p>
+<p>Milit&#x00E6;re skuespil havde aldrig interesseret ham; han havde fra barndommen n&#x00E6;ret en sygelig skr&#x00E6;k for skydevaaben og krigsv&#x00E6;sen. Ved de hjemvendende troppers indtog i M&#x00FC;nchen 1871 havde han ikke kastet et blik paa de saarede, &#x2013; ei fordi hans hjerte manglede medf&#x00F8;lelse med dem, men fordi hans nerver ikke taalte synet.</p>
+<p>Efter krigen viste han sin h&#x00E6;r mindre interesse end f&#x00F8;r. Det vakte derfor den st&#x00F8;rste forbauselse, da det sommeren 1875 fortaltes, at han agtede at afholde en stor revue. Man havde vanskelig <pb n="2"/>for at tro, at han vilde gj&#x00F8;re denne afvigelse fra sine eneboervaner.</p>
+<p>Rygtet holdt sig alligevel. Tropper fra de forskjellige garnisoner var allerede rykkede ud i anledning af h&#x00F8;stman&#x00F8;vrerne, da 14,000 mand indkaldtes til hovedstaden; Ludwig vilde vise verden, at han var &#x00F8;verstbefalende over sin arm&#x00E9;.</p>
+<p>Hans hensigt var neppe bleven bekjendt, f&#x00F8;r tusinder af fremmede str&#x00F8;mmede til M&#x00FC;nchen for at faa se ham.</p>
+<p>S&#x00F8;ndagen den femtende august 1875 var alle gader overfyldte. Mellem indgangen til hofparken og feltherrehallen havde monarkens glimrende f&#x00F8;lge stillet sig op.</p>
+<p>Da han hin vakre s&#x00F8;ndag morgen red frem paa sin hvide hest i spidsen for sin stab, gjennemstr&#x00F8;mmedes m&#x00E6;ngden af kj&#x00E6;rlighed og beundring.</p>
+<p>Kongen eiede ikke l&#x00E6;nger sin bedaarende skj&#x00F8;nhed. Men ansigtstr&#x00E6;kkene var endnu fine og &#x00E6;dle, og hans &#x00F8;ine var sj&#x00E6;lfulde og straalende som f&#x00F8;r. Trods sine unge aar var han bleven meget fyldig; da han var h&#x00F8;i, var hans skikkelse dog lige imponerende. Han beh&#x00F8;vede blot at vise sig for at begeistre.</p>
+<p>Med sin medf&#x00F8;dte v&#x00E6;rdighed og med den indtagende elskv&#x00E6;rdighed, som han udfoldede i sine bedste &#x00F8;ieblikke, hilste han til alle sider.</p>
+<p><pb n="3"/>Det var tropperne forbudt at hylde ham med hurra-raab; men dette gjaldt ikke tilskuerne. Jubelen steg som laviner; den forplantede sig fra gade til gade og gav det mest umiskjendelige udtryk for, i hvor h&#x00F8;i grad han endnu var elsket.</p>
+<p>Efter paradens slutning red han hen til prinsesse Gisela<note type="footnote"><hi rend="italic">Forfatternote:</hi> Franz Josephs og keiserinde Elisabeths &#x00E6;ldste datter, der er gift med kong Ludwigs f&#x00E6;tter.</note>, der havde bivaanet den siddende i den kongelige galavogn.</p>
+<p>I dette &#x00F8;ieblik omringedes han fra alle sider. Hans tjenere fors&#x00F8;gte at holde m&#x00E6;ngden tilbage, men han afv&#x00E6;rgede det ivrig. Det kostede den st&#x00F8;rste m&#x00F8;ie at bane en vei for ham, da han i skridt vendte tilbage til byen. Saa overv&#x00E6;ldende var begeistringen, at han f&#x00F8;lte sig foranlediget til samme dag i en egenh&#x00E6;ndig skrivelse at takke for alle de beviser paa trofast hengivenhed og kj&#x00E6;rlighed, som han havde m&#x00F8;dt.</p>
+<p>Det var sidste gang, han gav M&#x00FC;nchens borgere leilighed til at hylde ham, sidste gang, at hans hjerte stolt slog i takt med hans undersaatters. &#x2013;</p>
+<p>Alligevel var denne lyse, stemningsrige dag paa ingen maade fremkaldt af &#x00E6;dle tanker.</p>
+<p>Den tyske kronprins pleiede hver h&#x00F8;st at holde revue over de bayerske tropper. Skinsyge mod <pb n="4"/>ham havde foranlediget den ensomme konge til atter at tr&#x00E6;de frem for verden.</p>
+<p>Ved h&#x00E6;rens indtog 1871 var hans misstemning mod Friedrich klart traadt for dagen.</p>
+<p>Den var ikke bleven mindre i aarenes l&#x00F8;b. Ludwig den anden led dybere under Preussens overherred&#x00F8;mme end nogen af de &#x00F8;vrige fyrster, fordi hans rige var st&#x00F8;rre end de andres, og fordi hans sind var sygt og saart.</p>
+<p>Medens hans ministre 1870–71 trak forhandlingerne om de tyske staters sammenslutning i langdrag, havde Friedrich udslynget vrede ord mod Bayern, hvis konge ikke var forbleven i uvidenhed derom.<note type="footnote"><hi rend="italic">Forfatternote:</hi> Se: &#x00AB;Ludwig den anden, konge af Bayern.&#x00BB;</note> Han betragtede kronprinsens aarlige bes&#x00F8;g i hans rige som en direkte forn&#x00E6;rmelse. Og han forfulgtes af den sygelige tanke, at denne som keiser vilde jage ham ud af hans kongerige. &#x00AB;Det er ikke behageligt at blive slugt,&#x00BB; gjentog han tidt.</p>
+<p>Wilhelm den f&#x00F8;rste havde 1872 sendt ham den sorte &#x00F8;rns ordenskj&#x00E6;de. Men keiserens udsending havde ikke v&#x00E6;ret istand til at opnaa audiens, skj&#x00F8;nt den preussiske gesandt i M&#x00FC;nchen gjorde indtr&#x00E6;ngende forestillinger. Endelig fik man dog overtalt Ludwig til at sende et takkebrev. <pb n="5"/>Han skrev, at &#x00AB;det vilde gl&#x00E6;de ham at modtage keiserens orden paa et senere tidspunkt, naar han f&#x00F8;lte sig mindre tr&#x00E6;t; for tiden var han overanstrengt og kunde ikke bestemme nogen dag!&#x00BB;</p>
+<p>Dog n&#x00E6;rede han langtfra fiendtlige f&#x00F8;lelser mod den gamle keiser. I sine sidste leveaar n&#x00E6;vnte han de mordfors&#x00F8;g, der var for&#x00F8;vede mod ham, som en af grundene til sin afsky for at komme i ber&#x00F8;ring med mennesker. Og da keiseren sammen med storhertuginden af Baden bes&#x00F8;gte Wagner-forestillingerne i Bayreuth, sendte Ludwig sin betroede sekret&#x00E6;r derhen for at indrette alt saa behagelig som muligt for ham og hans datter.</p>
+<p>Wilhelm havde paa sin side kun venlige f&#x00F8;lelser for Ludwig. Han udtalte hyppig, at han beklagede, at kongen af Bayern trak sig saa meget tilbage; og han glemte aldrig de tjenester, som han havde ydet ham og hans land.</p>
+<p>Men kongen af Preussen var tre gange saa gammel som kongen af Bayern. Han var desuden soldat fra isse til fodsaale. Om forstaaelse mellem dem kunde der saa meget mindre v&#x00E6;re tale, som Ludwig ingenlunde delte den begeistring, som man i almindelighed f&#x00F8;lte for det tyske riges gjenoprettelse, og var tr&#x00E6;t af den uafladelige ros <pb n="6"/>over hans holdning i aarene 1870–1871. Han var bayrer fremfor alt.</p>
+<p>Ofte udtalte han: &#x00AB;Man &#x00E6;rer mig kun ved mit lands farver!&#x00BB;</p>
+<p>Kronprins Friedrich var venlig og ligefrem i sit v&#x00E6;sen, og han gjorde et gunstigt indtryk paa bayrerne. Det er imidlertid fuldst&#x00E6;ndig bragt paa det rene, at han gjengj&#x00E6;ldte kongens skinsyge med ringagt. Til sine fortrolige pleiede han at kalde Ludwig: &#x00AB; <hi rend="italic">Le roi fain&#x00E9;ant</hi>&#x00BB;.</p>
+<p>Han var en livlig natur, der ikke altid veiede sine ord.</p>
+<p>Efter en inspektionsreise sagde han til bayerske officerer, som var m&#x00F8;dte frem for at tage afsked med ham: &#x00AB;Om ti aar h&#x00F8;rer I helt til os!&#x00BB;</p>
+<p>Denne henkastede ytring blev forebragt kongen, der blev yderst forbitret. Hans gesandt ved det preussiske hof fik ordre til at af&#x00E6;ske kronprinsen en forklaring.</p>
+<p>Friedrich lod svare, at han kun havde hentydet til de to landes milit&#x00E6;re forbund; men Ludwig var ikke tilfreds med dette svar.</p>
+<p>I begyndelsen af sytti-aarene &#x00F8;nskede den tyske kronprins og hans gemalinde af helbredshensyn at tilbringe sommeren i Berchtesgaden. Kongen skyndte sig at l&#x00E6;gge hindringer i veien for det paat&#x00E6;nkte bes&#x00F8;g. Han foregav, at den derv&#x00E6;rende <pb n="7"/>kongevilla skulde benyttes som bolig for hans sindssyge broder.</p>
+<p>En dame af det tyske aristokrati, der eiede et hus i Berchtesgaden, tilb&#x00F8;d kronprinsen dette.</p>
+<p>Nu skiftede Ludwig pludselig sind. F&#x00F8;lgende karakteristiske brev viser, at han for et &#x00F8;ieblik angrede sin uvenlighed:</p>
+<quote>
+<p rend="noIndent">&#x00AB;Min kj&#x00E6;re ven!</p>
+<p rend="noIndent">Af dit kj&#x00E6;re brev ser jeg, at I allerede har besluttet at benytte den eiendom, som fr&#x00F8;ken von Waldenburg har tilbudt eder. Dette gj&#x00F8;r mig ret ondt; thi det vilde have gl&#x00E6;det mig saa meget mere, om du, kj&#x00E6;re f&#x00E6;tter, og din familie havde beboet min villa i Berchtesgaden under opholdet der, som Otto, if&#x00F8;lge l&#x00E6;gernes erkl&#x00E6;ring, skal forts&#x00E6;tte sin kur i Nymphenburg, og huset saaledes havde v&#x00E6;ret til eders uindskr&#x00E6;nkede raadighed.</p>
+<p rend="noIndent">Jeg n&#x00E6;rer det haab, at opholdet i den kraftige bjergluft vil bringe kronprinsessen og dine b&#x00F8;rn gl&#x00E6;de og styrke!</p>
+<p rend="noIndent">Jeg slutter med &#x00F8;nsket om, at I maa f&#x00F8;le eder rigtig vel i det vakre Berchtesgaden. Med b&#x00F8;n om, at du paa mine vegne vil kysse kronprinsessens haand, forbliver jeg i gammelt venskab</p>
+<p rend="noIndent">din trofast hengivne f&#x00E6;tter
+<lb/>Ludwig.&#x00BB;</p>
+</quote>
+<p><pb n="8"/>Denne forsonlige stemning var kun forbigaaende. Naar Friedrich i senere aar kom til M&#x00FC;nchen, opholdt han sig altid der incognito. Han bes&#x00F8;gte kunst- og industrimuseerne og modtog nogle af sine gamle vaabenbr&#x00F8;dre; men han bes&#x00F8;gte aldrig kongen, og kongen ops&#x00F8;gte heller aldrig ham.</p>
+<p>Modviljen voksede fra begge sider. Uheldigvis gjorde Ludwig sig ingen umage for at skjule sine f&#x00F8;lelser; han talte ofte og uforbeholdent om sin bitterhed mod dette medlem af det preussiske keiserhus.</p>
+<p>Hans omgivelser betragtede det ikke som skyldighed at tie med, hvad de havde h&#x00F8;rt. Kongens ord tog undertiden veien over Wien til Berlin, og virkningerne udeblev ikke.</p>
+<p>1874 hilste han for sidste gang paa keiser Wilhelm paa banegaarden i M&#x00FC;nchen. Senere reiste ogsaa &#x00AB;seiers-oldingen&#x00BB; incognito gjennem Bayern, naar han hver sommer bes&#x00F8;gte Gastein.</p>
+</div>
+<div type="chapter">
+<head type="main">II. Kong Ludwig og keiserinde Elisabeth</head>
+<p rend="noIndent">Ludwigs had til et enkelt medlem af huset Hohenzollern &#x00F8;delagde det gode forhold til hans slegtninge i Berlin. Til gjengj&#x00E6;ld bevirkede den sympati, som han f&#x00F8;lte for keiserinde Elisabeth, at forholdet til huset Habsburg var meget venskabeligt.</p>
+<p>Hans forlovelse med hans kusine Sophie Charlotte havde efterladt bitre minder.<note type="footnote"><hi rend="italic">Forfatternote:</hi> Se: &#x00AB;Ludwig den anden, konge af Bayern.&#x00BB;</note> Skj&#x00F8;nt det var ham, som havde l&#x00F8;st forbindelsen, og skj&#x00F8;nt hun neppe vilde have v&#x00E6;ret istand til at gj&#x00F8;re ham lykkelig, er det en kjendsgjerning, at han blev en slave af sit tungsind, da forlovelsen blev brudt.</p>
+<p>Hertuginden havde meget at tilgive ham; og dog syntes den syge konge, der d&#x00F8;mte sig selv til ensomhed, at det var ham, som var den forurettede.</p>
+<p>I en af de sale, hvor han opholdt sig mest, havde han et portr&#x00E6;t af en kvinde, over hvilket <pb n="10"/>han havde h&#x00E6;ngt et t&#x00E6;t silkesl&#x00F8;r. Han pleiede at staa hensunken i tanker foran dette; naar han fjernede sig, gik han langsomt bort, som om det kostede ham overvindelse at forlade det.</p>
+<p>Ingen uvedkommende fik det at se, og ingen vidste, hvem det forestillede. Man gj&#x00E6;ttede paa Marie Antoinette af Frankrige, som han n&#x00E6;rede stor beundring for; men mange troede ogsaa, at maleriet forestillede hertuginden af Alen&#x00E7;on, som han aldrig glemte.</p>
+<p>N&#x00E6;sten hele den kongelige familie havde taget parti for hans tidligere forlovede; de var med grund forbitrede over hans vankelmodighed.</p>
+<p>Tiltrods for den tort, der var tilf&#x00F8;iet det hertuglige hus, havde alligevel en af Sophies br&#x00F8;dre og en af hendes s&#x00F8;stre havt overb&#x00E6;renhed for ham.</p>
+<p>Hertug Dr. Karl Theodor<note type="footnote"><hi rend="italic">Forfatternote:</hi> Se: &#x00AB;En forglemt heltinde.&#x00BB;</note> havde med l&#x00E6;gens blik gjennemskuet sin f&#x00E6;tter: han havde fundet undskyldning for hans handlemaade i hans syge sind. Elisabeth af &#x00D8;sterrige havde forstaaelse endog for foreteelser hos ham, der umulig kunde v&#x00E6;re hende sympatiske; og hun f&#x00F8;lte sig tiltrukken af sider hos ham, der havde mishaget og foruroliget hendes s&#x00F8;ster.</p>
+<p>Det er vanskelig at fastslaa, om det var Sophies <pb n="11"/>lighed med Elisabeth, der havde vakt hans f&#x00F8;lelser for hertuginden, eller om en halvt ubevidst l&#x00E6;ngsel efter hans tidligere forlovede knyttede baandet fastere mellem keiserinden og ham. Paafaldende var det i ethvert tilf&#x00E6;lde, at kongen, som ellers var saa tilbageholdende ligeoverfor kvinder, sluttede et varigt venskab med hende.</p>
+<p>Den ydre lighed mellem de to s&#x00F8;stre var meget stor; den indre harmoni stod imidlertid ikke i samme forhold. Trods sin skj&#x00F8;nhed og sine omhyggelig udviklede talenter var Sophie en almindelig kvinde, medens Elisabeth var en rig aand, men en s&#x00F8;nderreven sj&#x00E6;l. Haardt bed&#x00F8;mt af mange, forstaaet af faa og dog beundret af de fleste, var hun, om nogen, den, der vilde have passet ind i kongen af Bayerns liv.</p>
+<p>Begge havde samme uro i blodet, samtidig som de havde samme ensomhedstrang. Den &#x00AB;skr&#x00E6;k for sv&#x00E6;rmen&#x00BB;, der i saa h&#x00F8;i grad beherskede ham, var ogsaa et kjendemerke for hende. De var belastede med samme sygelige anl&#x00E6;g. Endog i det ydre var der lighed mellem de to s&#x00F8;skendeb&#x00F8;rn, der var begavede med en saa ualmindelig og beaandet skj&#x00F8;nhed.</p>
+<p>Ingen af dem havde kjendt ungdommens gl&#x00E6;der; sceptret var bleven lagt i deres h&#x00E6;nder, medens de var uudviklede b&#x00F8;rn. Den magt, som de <pb n="12"/>for tidlig var komne i besiddelse af, havde hos begge udviklet utilb&#x00F8;ielighed til at ofre en t&#x00F8;ddel af deres bekvemmelighed.</p>
+<p>Ludwig aabnede aldrig d&#x00F8;ren til det dybe og s&#x00E6;rlige ved sin personlighed; ogsaa Elisabeth holdt sit indre i bevidst skygge. Hvor ivrig m&#x00E6;ngden end s&#x00F8;gte blandt de rygter, der surrede rundt, fik den aldrig vished for, hvad der bev&#x00E6;gede dem inderst.</p>
+<p>Men gjensidig fandt de lindring ved at aabne sig for hinanden om de utilfredsstillede &#x00F8;nsker og bortgjemte skuffelser, som verden ikke saa.</p>
+<p>Den fra f&#x00E6;drene nedarvede nervelidelse var deres tilv&#x00E6;relses sorgtunge understr&#x00F8;m. Vanviddet, der gik gjennem slegten, stod for begge som et truende sp&#x00F8;gelse, der tidligere eller senere vilde angribe dem. Men frygten havde hos Ludwig i h&#x00F8;iere grad end hos Elisabeth r&#x00F8;vet viljens staal.</p>
+<p>Stolte n&#x00E6;sten til stormandsgalskab var de ikke destomindre venlige mod landbefolkningen, som de m&#x00F8;dte. Af naturen var de yderst gavmilde; men n&#x00E6;stens lidelser drev hverken hos ham eller hende tankerne bort fra dem selv.</p>
+<p>Baade Ludwig og Elisabeth var eksentriske i sine sympatier og antipatier. Elisabeth var ulykkelig i sit egteskab; hun s&#x00F8;gte et surrogat for kj&#x00E6;rlighed i venskab med kvinder. Ludwig kunde <pb n="13"/>pludselig og tilsyneladende umotiveret slutte sig til m&#x00E6;nd, der stod langt under ham. Begge blev som regel skuffede og hurtig tr&#x00E6;tte af disse yndlinge for en dag.</p>
+<p>Baade kongen og keiserinden flygtede til b&#x00F8;gernes verden; naar de m&#x00F8;dtes, knyttede deres liter&#x00E6;re interesser dem endnu fastere sammen.</p>
+<p>I kraft af deres gjensidige hengivenhed &#x00F8;vede de indflydelse paa hinanden. Elisabeth var &#x00E6;ldre og mere verdenserfaren; hun overragede ikke sin f&#x00E6;tter i intelligens, men vel i energi. Derfor blev hendes magt over ham st&#x00F8;rre end hans over hende.</p>
+<p>Keiserindens indflydelse var ikke ubetinget heldig. Hun indprentede Ludwig, at &#x00AB;man kan gj&#x00F8;re alt, hvad man vil&#x00BB;; og den unge Wittelsbacher var meget modtagelig for denne l&#x00E6;res&#x00E6;tning.</p>
+<p>Hvor det kunde have v&#x00E6;ret godt og nyttigt, var han derimod mindre villig til at f&#x00F8;lge hendes raad:</p>
+<p>Keiserinden gik tidlig tilsengs, stod op hver morgen klokken fem og gik ud i naturen. Kongen tilbragte sine n&#x00E6;tter med musik og l&#x00E6;sning; f&#x00F8;rst naar dagen gryede, gik han til ro.</p>
+<p>Begge havde v&#x00E6;ret lidenskabelige ryttere, men havde maattet opgive denne sport. H u n foretog <pb n="14"/>istedet milelange fodvandringer, medens h a n gjorde sine daglige ture i lukket vogn.</p>
+<p>Elisabeth tilbragte en del af sine sommere i Feldafing, i n&#x00E6;rheden af Ludwigs slotte. De satte hinanden stevne paa Rosen&#x00F8;en i Starnbergers&#x00F8;en. <note type="footnote"><hi rend="italic">Forfatternote:</hi> Se: &#x00AB;Keiserinde Elisabeth.&#x00BB;</note> Det h&#x00E6;ndte ikke heller sjelden, at hun uventet dukkede op i hans arbeidsv&#x00E6;relse paa Berg eller Neuschwanstein og blev siddende mange timer hos ham.</p>
+<p>Hun bragte en str&#x00F8;m af skj&#x00F8;nhed og harmoni ind i hans stille sale. Selv i hans sidste, form&#x00F8;rkede aar, da han ellers ikke modtog nogen, satte han pris paa hendes bes&#x00F8;g.</p>
+<p>Prins Leopold af Bayern havde 1873 egtet hendes &#x00E6;ldste datter. Ludwig var ved denne leilighed traadt ud af sin s&#x00E6;dvanlige tilbagetrukkenhed; prinsesse Gisela var en af hans faa kvindelige slegtninge, der kunde gl&#x00E6;de sig ved hans elskv&#x00E6;rdighed.</p>
+<p>Hvor smigrende hans hyldest var, saa faldt den undertiden ret ubekvem; thi kongen, der gjorde nat til dag, sendte hende presenter og blomsterbuketter om natten. Sine vaner vilde han ikke forandre hverken for hendes eller hendes moders skyld.</p>
+<p>Keiserindens yngste datter, Marie Valerie, udtrykte <pb n="15"/>&#x00F8;nsket om at gj&#x00F8;re sin onkels bekjendtskab, og Elisabeth ivrede meget for, at hendes yndlingsbarn skulde faa ham at se.</p>
+<p>Men han vilde ikke forstyrres i sin ro.</p>
+<p>&#x00BB;Jeg ved ikke, hvorfor keiserinden altid fort&#x00E6;ller mig om sin Valerie,&#x00BB; udtalte han til en af sine omgivelser. &#x00AB;Valerie har lyst til at se mig, siger hun; men jeg har ingensomhelst lyst til at se hendes Valerie.&#x00BB;</p>
+</div>
+<div type="chapter">
+<head type="main">III. Kong Ludwig og dronning Marie</head>
+<p rend="noIndent">Et billede, der er meget udbredt i Bayern, fremstiller Maximilian den anden og hans familie i haven i Hohenschwangau. Dronningen sidder med prins Otto paa sit skj&#x00F8;d; kongen, som staar ved siden af hende, har lagt sin haand paa kronprins Ludwigs hoved. Han er i sin manddoms fulde kraft; hans gemalinde straaler af lykke og skj&#x00F8;nhed.</p>
+<p>Faa aar havde forvandlet forholdene i den bayerske kongeborg. Den livsglade dronning var bleven enke, den stolte moder en &#x00AB; <hi rend="italic">Mater dolorosa</hi>&#x00BB;.</p>
+<p>Prins Otto, hendes hjertebarn, var uhelbredelig sindssyg. Den beundring, som Ludwig havde vakt, de store forhaabninger, som han i sin f&#x00F8;rste regjeringstid havde v&#x00E6;ret gjenstand for, kunde ikke undertrykke hendes bange anelser for hans fremtid.</p>
+<p><pb n="17"/>Indtil midten af syttiaarene pleiede hun og hendes &#x00E6;ldste s&#x00F8;n samtidig at bebo Hohenschwangau. Enkedronningen benyttede f&#x00F8;rste etage af slottet, den unge konge anden etage.</p>
+<p>Skj&#x00F8;nt de elskede stedet lige h&#x00F8;it, og skj&#x00F8;nt Hohenschwangau var dronning Maries enkes&#x00E6;de, foranledigede s&#x00F8;nnens eneboerliv en forandring ogsaa paa dette omraade: i senere aar reiste han til Linderhof, naar hun kom; og hun trak sig tilbage til Elbingen-Alp, naar han vendte tilbage.</p>
+<p>M&#x00F8;dtes de, viste han sin moder stor &#x00E6;rb&#x00F8;dighed; og naar der leilighedsvis forekom disharmonier mellem dem, beherskede han sin heftighed. Men enkedronningens borgerlige livssyn fandt aldrig n&#x00F8;glen til hans sammensatte v&#x00E6;sen. Gang paa gang st&#x00F8;dt tilbage opgav hun haabet om at vinde hans fortrolighed, skj&#x00F8;nt kj&#x00E6;rligheden endnu levede i begge hjerter. &#x2013;</p>
+<p>Ligeoverfor Hohenschwangau stod et m&#x00E6;gtigt grantr&#x00E6; paa en fremspringende klippe; belyst af den nedgaaende sol mindede det enkedronningen om et juletr&#x00E6;.</p>
+<p>En vinter, da de begge opholdt sig paa sit yndlingsslot, feirede s&#x00F8;n og moder julaften sammen.</p>
+<p>Da gaverne var uddelte, f&#x00F8;rte Ludwig sin moder til balkonvinduet. Han trak de tunge fl&#x00F8;ielsporti&#x00E9;rer <pb n="18"/>tilside. I det sned&#x00E6;kkede landskab udenfor straalede et herligt juletr&#x00E6;; det var granen paa klippen, som han havde ladet smykke med lys for at gl&#x00E6;de hende.</p>
+<p>Marie af Bayern elskede landbefolkningen; hun traadte ofte og gjerne i personlig omgang med den. B&#x00F8;ndernes s&#x00E6;der, men fremfor alt deres dybe, barnlige religi&#x00F8;sitet tiltalte hendes fromme sind.</p>
+<p>Af f&#x00F8;dsel en Hohenzollern var hun bleven opdraget i den lutherske l&#x00E6;re; hendes egen moder havde v&#x00E6;ret en streng protestant.</p>
+<p>Saa l&#x00E6;nge Bayern havde v&#x00E6;ret kongerige, havde dets dronninger tilh&#x00F8;rt denne kirke, hvilket den protestantiske del af befolkningen betragtede som en st&#x00F8;tte og hj&#x00E6;lp.</p>
+<p>Skuffelsen var stor, da man h&#x00F8;rte, at enkedronningen agtede at tr&#x00E6;de over til den katholske kirke.</p>
+<p>Ogsaa hendes slegtninge i Preussen blev smertelig overraskede; hendes s&#x00F8;ster, prinsessen af Hessen-Darmstadt, reiste endog til Hohenschwangau for at s&#x00F8;ge at omstemme hende i sidste &#x00F8;ieblik. Den tyske keiser, hvis hjerte hun stedse havde staaet meget n&#x00E6;r, gjorde hende forestillinger i samme anledning.</p>
+<p>Men livet havde bragt hende for mange pr&#x00F8;velser til, at menneskers paavirkning skulde kunne <pb n="19"/>lede hende bort fra det, hun f&#x00F8;lte som en samvittighedssag. Sorgfuld, men ikke bitter, trak hun sig tilbage fra verden og menneskene, hvis h&#x00F8;iagtelse og deltagelse fulgte hende i hendes ensomhed.</p>
+<p>I det lille kapel i Wallenhofen skiftede hun i stilhed religion.</p>
+<p>Utvivlsomt var mangen haard kamp gaaet forud for dette skridt. Man antog, at kong Ludwig ikke billigede hendes handlemaade, fordi protestanterne i hans land beklagede den saa meget. Men hans frihedselskende natur vilde ikke l&#x00E6;gge hindringer iveien for hendes &#x00F8;nske. Ved en religi&#x00F8;s festlighed i M&#x00FC;nchen forkyndte han personlig for almenheden, hvad hans moder havde besluttet.</p>
+</div>
+<div type="chapter">
+<head type="main">IV. Stat og kirke. &#x2013; Ignaz von D&#x00F6;llinger. &#x2013; Ludwigs breve til sin gamle l&#x00E6;rer</head>
+<p rend="noIndent">En julenat i sytti-aarene bivaanede Ludwig den anden midnatsmessen i hofkirken i M&#x00FC;nchen sammen med enkedronningen og de kongelige prinser.</p>
+<p>Midt under gudstjenesten lagde han sin b&#x00F8;nnebog bort. Han kastede sig paa kn&#x00E6;, skjulte ansigtet i sine h&#x00E6;nder og hulkede h&#x00F8;it.</p>
+<p>Moderen iagttog ham urolig og kaldte paa sin svoger, prins Luitpold, der sad i logen ved siden af.</p>
+<p>Kongen reiste sig, traadte tilbage og skjulte sit hoved ved hendes bryst; og hun og onkelen f&#x00F8;rte ham til hans v&#x00E6;relser.</p>
+<p>Faa dage f&#x00F8;r havde der fundet en henrettelse sted, som havde gjort et dybt indtryk paa ham. En tyveaarig neapolitaner, der havde for&#x00F8;vet et mord i hans land, var bleven d&#x00F8;mt til d&#x00F8;den. De ulykkelige for&#x00E6;ldre havde sendt et hjerteskj&#x00E6;rende <pb n="21"/>b&#x00F8;nskrift til den unge konge, der havde &#x00F8;nsket at benaade ham; men hans ministre havde modsat sig hans hensigt.</p>
+<p>I senere aar deltog Ludwig kun sjelden i nogen gudstjeneste i M&#x00FC;nchen. Men naar han boede paa Berg, bes&#x00F8;gte han regelm&#x00E6;ssig en liden kirke, som var opf&#x00F8;rt i den derv&#x00E6;rende park. I hans slot Neuschwanstein stod der et alter og en bedestol i hans sovekammer. Han pleiede at h&#x00F8;re messen i det n&#x00E6;rliggende kapel; og intet menneske blev negtet adgang, fordi om kongen forrettede sin andagt. Naar han bes&#x00F8;gte de smaa landsbykirker i h&#x00F8;ifjeldene, kn&#x00E6;lede han ogsaa ofte ukjendt mellem de bedende.</p>
+<p>I Ober-Ammergau blev han saa greben af passions-skuespillene, at han der lod reise en storartet marmorgruppe, som forestiller korsf&#x00E6;stelsen. Paa en kj&#x00F8;retur m&#x00F8;dte han engang en geistlig, der bar alterets sakramente; han steg ud, kn&#x00E6;lede paa landeveien og bad.</p>
+<p>Han var gudfrygtig, men meget tolerant; og han hadede konfessionelle stridigheder.</p>
+<p>I regjeringsanliggender bevarede han et roligt og sikkert blik, ikke mindst hvor det gjaldt kirkens anliggender. Men forholdet mellem pavemagten og hans regjering var alt andet end fredeligt.</p>
+<p><pb n="22"/>Ludwig havde en moderne opfatning af kirkens forhold til staten; han vilde, at skolen skulde l&#x00F8;srives fra kirkens baand. Regjeringens reformer paa dette omraade blev kilden til heftige feider.</p>
+<p>Det katholske kirkeparti, der smykkede sig med det ofte misbrugte navn &#x00AB;nationale&#x00BB;, oparbeidede en kraftig stemning mod ham og hans ministre. <note type="footnote"><hi rend="italic">Forfatternote:</hi> Se: &#x00AB;Ludwig den anden, konge af Bayern.&#x00BB;</note></p>
+<p>I virkeligheden var dette parti mindre nationalt end de andre; thi den katholske kirke er international i sit princip og sin hele organisation: i Rom samles traadene fra de katholske menigheder i alle dele af verden!</p>
+<p>Inden selve den katholske geistlighed var der imidlertid heller ikke fred.</p>
+<p>En af kirkens spidser i Bayern var paa hin tid domprovst Ignaz von D&#x00F6;llinger. Han havde v&#x00E6;ret Ludwigs l&#x00E6;rer og en af de faa blandt disse, som han i ungdommen virkelig havde holdt af.</p>
+<p>Domprovsten h&#x00F8;rte til det forrige aarhundredes betydeligste theologer. 1863 havde han udgivet en bog, &#x00AB;Pabstfabeln des Mittelalters&#x00BB;, der havde bragt ham paa det sorte br&#x00E6;t hos den romerske kurie. Trods trusler fra Rom fortsatte han rolig den vei, som hans sandhedskj&#x00E6;rlige <pb n="23"/>aand og hans videnskabelige forskninger udpegede for ham.</p>
+<p>1864 havde Pius den niende udsendt den saakaldte &#x00AB;Syllabus&#x00BB;, hvori han h&#x00E6;vdede og pr&#x00E6;ciserede den middelalderske opfatning af kirkens overherred&#x00F8;mme over staten. Paven vilde ved sit aktstykke forberede dogmet om sin ufeilbarhed.</p>
+<p>D&#x00F6;llinger gjorde dette til gjenstand for en s&#x00F8;nderfl&#x00E6;ngende kritik. Hans skrifter fik ganske vist ingen indflydelse paa de uoplyste masser, der modtog den hellige faders bud med blind lydighed; inden videnskabelige kredse i den katholske verden gjorde domprovstens udtalelser derimod et sterkt indtryk.</p>
+<p>M&#x00FC;nchen blev centret for oppositionen, og D&#x00F6;llinger blev dens selvskrevne leder.</p>
+<p>Den ind&#x00E6;dte forbitrelse, som han l&#x00E6;nge havde v&#x00E6;ret gjenstand for i Rom, forvandledes nu til aabenlyse og heftige forf&#x00F8;lgelser.</p>
+<p>Under disse kampe holdt kong Ludwig sin beskyttende haand over sin gamle l&#x00E6;rer.<note type="footnote"><hi rend="italic">Forfatternote:</hi> Ogsaa Ludwigs betroede minister, fyrst Hohenlohe, betragtede det som sin pligt at skride ind mod dogmet om pavens ufeilbarhed. I en rundskrivelse indb&#x00F8;d han alle tyske regjeringer til at protestere mod samme. De gik imidlertid ikke ind paa hans plan.</note> Han sendte ham f&#x00F8;lgende brev:</p>
+<quote>
+<p rend="noIndent">&#x00AB;Min kj&#x00E6;re domprovst von D&#x00F6;llinger!</p>
+<p rend="noIndent">Jeg vilde have bes&#x00F8;gt Dem idag. Men desv&#x00E6;rre <pb n="24"/>er jeg ved ildebefindende forhindret fra at udf&#x00F8;re mit fors&#x00E6;t og personlig at udtale mine hjerteligste &#x00F8;nsker om lykke og velsignelse for Dem i anledning af Deres f&#x00F8;dselsdag!</p>
+<p rend="noIndent">Jeg sender Dem derfor mine lyk&#x00F8;nskninger ad denne vei!</p>
+<p rend="noIndent">Jeg haaber til Gud, at han endnu vil skjenke Dem mange aar med usv&#x00E6;kket aandskraft og helbred, saa at De med h&#x00E6;der kan f&#x00F8;re den kamp til ende, som De har paabegyndt til &#x00E6;re for religionen og videnskaben, til kirkens og statens vel.</p>
+<p rend="noIndent">Gaa ikke tr&#x00E6;t i denne saa alvorsfulde og vigtige kamp! Maatte De stedse holdes oppe ved bevidstheden om, at millioner med tillid ser hen til Dem som sandhedens forkj&#x00E6;mper og st&#x00F8;tte, og som hengiver sig til det sikre haab, at det vil lykkes Dem og Deres uforf&#x00E6;rdede medkj&#x00E6;mpere at gj&#x00F8;re de jesuitiske intriger til skamme og at bringe lyset seir over menneskelig ondskab og m&#x00F8;rke.</p>
+<p rend="noIndent">Det give Gud, og derom beder jeg Ham af hele min sj&#x00E6;l!</p>
+<p rend="noIndent">Idet jeg gjentager mine oprigtigste og inderligste &#x00F8;nsker for Deres lykke og velf&#x00E6;rd, sender jeg Dem, min kj&#x00E6;re domprovst von D&#x00F6;llinger, <pb n="25"/>mine venligste hilsener, og forbliver jeg med velvilje og urokkelig tillid altid</p>
+<p rend="noIndent">Deres meget hengivne konge
+<lb/>Ludwig.</p>
+<p rend="noIndent">Den 28. februar 1870.&#x00BB;</p>
+</quote>
+<p>Den 18<hi rend="raised">de</hi> juli samme aar forkyndte Pius den niende sit ufeilbarheds-dogme. Faa uger efter traf banstraalen Ignaz von D&#x00F6;llinger.</p>
+<p>Det tjener kong Ludwig til stor h&#x00E6;der, at han fremdeles vedblev at st&#x00F8;tte ham.</p>
+<p>Den 28<hi rend="raised">de</hi> februar 1871 sendte han ham en skrivelse, hvori det, blandt andet, heder:</p>
+<quote>
+<p rend="noIndent">&#x00AB;Min kj&#x00E6;re domprovst og rigsraad, dr. von D&#x00F6;llinger!</p>
+<p rend="noIndent">Jeg kan ikke lade Deres f&#x00F8;dselsdag idag gaa hen uden gjennem oversendelsen af mine bedste og inderligste lyk&#x00F8;nskninger at give Dem et tegn paa min s&#x00E6;rlige bevaagenhed. Mit land og jeg er stolte over at kunne kalde Dem vor! Og jeg er glad over at turde tro, at De som videnskabens pryd og i Deres pr&#x00F8;vede hengivenhed for tronen endnu l&#x00E6;nge, ligesom hidtil, vil forts&#x00E6;tte Deres virksomhed til statens og kirkens vel.</p>
+<p rend="noIndent">Jeg beh&#x00F8;ver neppe at fremh&#x00E6;ve, hvor inderlig jeg gl&#x00E6;der mig over Deres bestemte holdning i ufeilbarheds-sp&#x00F8;rgsmaalet. Meget pinlig ber&#x00F8;rer <pb n="26"/>det mig derimod, at abbed Haneberg har underkastet sig, tiltrods for sin overbevisning. Jeg t&#x00F8;r formode, at han har gjort det af &#x00AB;ydmyghed&#x00BB;.</p>
+<p rend="noIndent">Efter min mening er det en meget forkjert ydmyghed, naar man officielt underkaster sig og b&#x00E6;rer en anden mening til skue end den, som man har i sit hjerte.</p>
+<p rend="noIndent">Jeg gl&#x00E6;der mig over, at jeg ikke er bleven skuffet af Dem! Jeg har altid sagt, at De er min Bossuet, han derimod min F&#x00E9;n&#x00E9;lon. &#x2013; &#x2013;</p>
+<p rend="noIndent">&#x2013; &#x2013; Stolt er jeg af Dem, kirkens sande klippe! &#x2013; &#x2013; &#x2013;</p>
+<p rend="noIndent">Jeg forsikrer Dem, min kj&#x00E6;re hr. domprovst, om min stedsevarende velvilje og forbliver, idet jeg sender Dem mine venligste hilsener,</p>
+<p rend="noIndent">Deres meget hengivne konge
+<lb/>Ludwig.&#x00BB;</p>
+</quote>
+<p>Kongen pleiede ogsaa senere ofte at forlange oplysninger af D&#x00F6;llinger om religi&#x00F8;se verker; og han sendte flere gange bud til ham for at udbede sig forklaring over enkelte skriftsteder. &#x2013;</p>
+<p>Johannes von Lutz, s&#x00F8;n af en landsbyskolel&#x00E6;rer, men tidlig bekjendt som en fremragende jurist, var bleven fyrst Hohenlohes efterf&#x00F8;lger som minister. <note type="footnote"><hi rend="italic">Forfatternote:</hi> Se: &#x00AB;Ludwig den anden, konge af Bayern.&#x00BB;</note> <pb n="27"/>Ogsaa han blev forfulgt af det katholske kirkeparti. Ludwig adlede ham, gjorde ham til friherre og beskyttede ham stedse.</p>
+<p>Da rigsdagens flertal 1883 opponerede mod regjeringen, sendte han ham f&#x00F8;lgende karakteristiske haandskrivelse:</p>
+<quote>
+<p rend="noIndent">&#x00AB;Min kj&#x00E6;re minister von Lutz!</p>
+<p rend="noIndent">Jeg har med beklagelse fulgt de hindringer, som i de sidste maaneder er bleven lagte iveien for mine ministre, hvis virken, som jeg ved, kun er dikteret af omsorgen for landets vel. Jeg f&#x00F8;ler mig opfordret til at udtale, at det er min faste forventning, at De og Deres embedsbr&#x00F8;dre, der af mig er kaldte til at v&#x00E6;re kronens raadgivere, ogsaa fremtidig holder trofast ud og med al kraft tr&#x00E6;der i skranken for mine rettigheder.</p>
+<p rend="noIndent">Hvad s&#x00E6;rlig kirkens forhold til staten angaar saa har jeg stedse og af inderligste overbevisning skjenket kirken min beskyttelse; og jeg vil aldrig oph&#x00F8;re at beskytte mit folks religi&#x00F8;se trang, som jeg betragter som ordenens grundvold.</p>
+<p rend="noIndent">Men jeg er ligesaa bestemt paa, at min regjering nu og fremtidig skal modarbeide alle fors&#x00F8;g paa at undergrave statens utvivlsomme rettigheder, <pb n="28"/>hvilket vilde bringe stat og kirke i en uheldsvanger stilling.</p>
+<p rend="noIndent">Idet jeg herved gjentagende giver udtryk for denne min vilje, udtaler jeg for Dem og Deres embedsbr&#x00F8;dre min varme anerkjendelse af Deres trofaste udholdenhed under store vanskeligheder.&#x00BB;</p>
+</quote>
+<p rend="center"><figure><graphic url="Tschudi1906_29.PNG"/></figure></p>
+</div>
+<div type="chapter">
+<head type="main">V. Ludwig den anden i det daglige liv</head>
+<p rend="noIndent">Da Bayern 1880 feirede huset Wittelsbachs syv hundrede aars jubil&#x00E6;um, frabad kongen sig alle festligheder. Fra sine bjerge udstedte han en proklamation, hvori han erkl&#x00E6;rede, at han f&#x00F8;lte sig et med sit folk; han udtalte samtidig &#x00F8;nsket om, at man vilde oprette en velgj&#x00F8;rende stiftelse til minde om dagen.</p>
+<p>Det vakte med f&#x00F8;ie sterk uvilje, at han ikke viste sig.</p>
+<p>Nogle aar f&#x00F8;r havde provinsen Pfalz festligholdt sin femtiaarige gjenforening med Bayern. Ludwig havde lovet at v&#x00E6;re tilstede. I sidste stund sendte han afbud, skj&#x00F8;nt denne provins under krigen 1866 paa den mest glimrende maade havde bevist ham sin trofasthed.</p>
+<p>Han foregav, at han var syg. Dette forhindrede imidlertid ikke, at han samme dag reiste til Schweiz for at bes&#x00F8;ge sin ven Richard Wagner.</p>
+<p>Naar man undtager den sidste tid af hans liv, <pb n="32"/>udf&#x00F8;rte han punktlig sine regjeringsarbeider; og han lagde vegt paa, at ingen ops&#x00E6;ttelser fandt sted. Bortset fra repr&#x00E6;sentationen, som han unddrog sig, har endog hans modstandere maattet erkjende, at han i en lang aarr&#x00E6;kke pligttro opfyldte sit kongelige hverv.</p>
+<p>I begyndelsen af sin regjering havde han den vane at staa tidlig op; men det varede ikke mange aar, inden hans tidsinddeling blev h&#x00F8;ist eiendommelig. Han viste sig senere sjelden f&#x00F8;r middagstid.</p>
+<p>Naar han opholdt sig i bjergene, blev de dokumenter, som han skulde undertegne, sendte til ham gjennem ilbud, der forlod M&#x00FC;nchen hver morgen og vendte tilbage samme aften. Som regel fulgte hans kabinetssekret&#x00E6;r med ham; i de forskjellige departementer merkede man derfor ingen ulemper paa grund af hans frav&#x00E6;r.</p>
+<p>I den varme sommertid blev statsforretningerne leilighedsvis udf&#x00F8;rte i fri luft. Bord og stole blev stillede paa en gr&#x00E6;spl&#x00E6;ne, som d&#x00E6;kkedes med tyrkiske tepper. Store blomsterbuketter blev satte foran kongens plads.</p>
+<p>Kabinetssekret&#x00E6;ren opl&#x00E6;ste dokumenterne. Kongen traf sine afgj&#x00F8;relser, sagde farvel og forsvandt ligesaa hurtig, som han var kommen.</p>
+<p>Sekret&#x00E6;ren havde en vanskelig stilling. Naar <pb n="33"/>Ludwig beherskedes af sit slette lune, tog han miner og udtryk ilde op. Ofte sendte han ham breve sent paa natten, hvori han opfordredes til at afl&#x00E6;gge regnskab for et eneste uoverlagt ord.</p>
+<p>Samtidig var han ivrig for at gj&#x00F8;re ham gl&#x00E6;de, hvis han var tilfreds med ham: han overraskede ham og hans familie hyppig med fotografier, b&#x00F8;ger og andre v&#x00E6;rdifulde gjenstande.</p>
+<p>Naar kongen om h&#x00F8;sten var flyttet til Hohenschwangau, kj&#x00F8;rte han hver nat ud i sin pr&#x00E6;gtige vogn eller i sin sl&#x00E6;de, der var prydet med allegoriske figurer. Hans ekvipage susede som en stormvind afsted gjennem landsbyerne og de m&#x00F8;rke skove, forbi sned&#x00E6;kkede fjelde og dybe afgrunde.</p>
+<p>Paa disse udflugter var hans liv undertiden i fare. En uveirsnat blev forrideren, som ikke kunde skjelne landeveien fra afgrunden, greben af en saadan angst, at han kastede faklen fra sig og blindt jagede afsted. Ludwigs liv reddedes som ved et vidunder.</p>
+<p>Naar han var i M&#x00FC;nchen, kj&#x00F8;rte han daglig til den &#x00BB;engelske have&#x00BB;; her gik han ganske alene frem og tilbage under de gamle tr&#x00E6;er, med hatten trykket dybt ned i panden. Han beherskedes af en sygelig frygt for forf&#x00F8;lgelser; dette forklarer, at han altid lod sig ledsage af politisoldater, naar han kj&#x00F8;rte gjennem sin hovedstad.</p>
+<p><pb n="34"/>De enkelte gange, han viste sig for folket, gik han umaadelig stram, med hovedet kastet tilbage. Ildesindede betragtede dette som tegn paa stor mandsgalskab; de fleste andre fandt hans holdning stolt og kongelig.</p>
+<p>Sandheden var den, at han havde en daarlig holdning og en usikker, vaklende gang, som han s&#x00F8;gte at skjule.</p>
+<p>Naar han talte med fremmede, lod han dem staa i lang afstand, fordi det plagede ham, at man skulde l&#x00E6;gge merke til hans daarlige t&#x00E6;nder; han var forfengelig af sit ry som Europas smukkeste monark.</p>
+<p>Sine maaltider indtog han n&#x00E6;sten altid alene ved et ubekvemt bord i sit arbeidsv&#x00E6;relse. Naar han gav audiens om eftermiddagen, spiste han undertiden, medens kabinetssekret&#x00E6;ren holdt foredrag. Da han aldrig var punktlig, maatte hans mad timevis holdes varm. Der blev serveret indtil tolv retter, men han spiste hyppig kun en.</p>
+<p>Det er bleven sagt, at han i de sidste aar n&#x00F8;d sterke drikke til overmaal. Dette var ikke overensstemmende med sandheden. Som regel drak han kun rhinskvin med vand eller champagne, hvori der var lagt friske, duftende violer. Hede vine drak han ikke, fordi de voldte ham blodstigning til hovedet.</p>
+<p><pb n="35"/>F&#x00F8;r han gik tilsengs, lod han tjeneren stille et glas cognac paa hans natbord; men som oftest stod det ur&#x00F8;rt den f&#x00F8;lgende dag.</p>
+<p>At give presenter var en formelig livstrang hos kongen. Ved juletid var det hans gl&#x00E6;de at overraske alle med gaver, fra prinser og prinsesser og til hvert enkelt medlem af hans tjenerskab. Han glemte ikke heller gamle l&#x00E6;rere, som han havde holdt af, eller udenforstaaende, som han havde m&#x00F8;dt paa sin vei og l&#x00E6;rt at s&#x00E6;tte pris paa.</p>
+<p>L&#x00E6;nge f&#x00F8;r jul lod han sp&#x00F8;rge efter alle mulige gjenstande, der blev sendte til Hohenschwangau eller Neuschwanstein, hvor hans v&#x00E6;relser forvandledes til en udstillingsbasar.</p>
+<p>Paa hans bestilling fremstod der i M&#x00FC;nchen, i Schweiz og Paris mesterverker paa kunstindustriens omraade. Da de gaver, han uddelte, snart skulde minde om sangerkrigen i det trettende aarhundrede, til andre tider maatte passe ind i det sekstende, syttende og attende aarhundredes stil, blev de, der arbeidede for Ludwig, fortrolige med de forskjelligste stilarter.</p>
+<p>Han var saa utaalmodig efter at faa kunstverkerne at se, at han forlangte, at de straks skulde v&#x00E6;re f&#x00E6;rdige. Mange hoveder og h&#x00E6;nder havde fuldt op at gj&#x00F8;re med at udf&#x00F8;re arbeider <pb n="36"/>for ham, og han bidrog meget til kunstindustriens udvikling.</p>
+<p>De summer, hvormed han betalte ubetydelige tjenester, stod, ligesaalidt som hans &#x00F8;vrige udgifter, i forhold til den bayerske konges appanage. Ved ulykkestilf&#x00E6;lder og indsamlinger traadte han hj&#x00E6;lpende til; men endnu langt st&#x00F8;rre var den gavmildhed, som han udviste i stilhed. Af sin egen kasse udbetalte han desuden saa l&#x00E6;nge, han levede, alle underst&#x00F8;ttelser og pensioner, som hans fader havde tilstaaet.</p>
+</div>
+<div type="chapter">
+<head type="main">VI. Ludwig og Richard Wagner. &#x2013; Kongens bes&#x00F8;g i Bayreuth</head>
+<p rend="noIndent">Saa l&#x00E6;nge Richard Wagner boede i M&#x00FC;nchen,<note type="footnote"><hi rend="italic">Forfatternote:</hi> Se: &#x00AB;Ludwig den anden, konge af Bayern.&#x00BB;</note> beh&#x00F8;vede han blot at udtrykke et &#x00F8;nske med hensyn til opf&#x00F8;relsen af sine verker, og kongen opfyldte det straks.</p>
+<p>Efter sin bortreise havde han i begyndelsen i Hans von B&#x00FC;low en stedfortr&#x00E6;der, som han trygt kunde stole paa. Men da ogsaa han forlod Bayern, blev sagen vanskeligere.</p>
+<p>Baron von Perfall blev hoftheater-intendant. Skj&#x00F8;nt han drev en ren kultus med Wagners verker og under sin fem og tyve-aarige virksomhed opf&#x00F8;rte hans operaer 742 gange, forandredes forholdet under hans ledelse.</p>
+<p>Den 25<hi rend="raised">de</hi> juni 1868, dagen efter generalpr&#x00F8;ven paa &#x00AB;Mestersangerne i N&#x00FC;rnberg&#x00BB;, modtog Perfall et brev fra Wagner, hvori han udtaler, at <pb n="38"/>han &#x00AB;nu tr&#x00E6;der tilbage fra enhver forbindelse med det kongelige hoftheater.&#x00BB;</p>
+<p>Omtrent samtidig saa man i M&#x00FC;nchen for sidste gang Ludwig og Wagner side om side.</p>
+<p>Det var ved den f&#x00F8;rste opf&#x00F8;relse af &#x00AB;Mestersangerne&#x00BB;.</p>
+<p>Forestillingen var glimrende. Hans von B&#x00FC;low dirigerede med st&#x00F8;rste energi og helt i mesterens aand.</p>
+<p>Kongen sad i sin store loge. Han lod Wagner anmode om at komme ind til sig.</p>
+<p>Efter f&#x00F8;rste akt blev komponisten fremkaldt under begeistring. Han viste sig ikke paa scenen, fordi han ei havde kunnet finde veien did fra &#x00AB;keiserlogen&#x00BB;.</p>
+<p>Forestillingen fortsattes. Da den var tilende, br&#x00F8;d bifaldet frem med fordoblet styrke. Wagner, som vedblivende sad ved kongens side, reiste sig og bukkede for publikum fra keiserlogen, hvilket vakte meget anst&#x00F8;d.</p>
+<p>Den ondsindede kritik, som hans venskab for digter-komponisten stadig fremkaldte, ud&#x00F8;vede en uheldig indflydelse paa Ludwigs sind og saarede i h&#x00F8;i grad hans stolthed.</p>
+<p>Wagner havde i sin ungdom bes&#x00F8;gt Bayreuth; han havde bevaret et behageligt indtryk af denne <pb n="39"/>by, der laa saa fjernt fra industriens larm og udenverdenens distraherende indflydelse.</p>
+<p>1871 kom han did tilbage, og der opstod et varmt venskab mellem ham og befolkningen, som &#x00F8;nskede at beholde ham i sin midte.</p>
+<p>Markgrevens store theater havde i mange aar v&#x00E6;ret ubenyttet. Han blev enig med de ledende m&#x00E6;nd om at overtage dette, men indsaa snart, at det neppe egnede sig for ham. Borgerne tilb&#x00F8;d ham nu som gave en tomt, der i enhver henseende maatte tiltale ham.</p>
+<p>Hans plan om at reise et kunsttempel i den lille by mellem de bayerske bjerge blev modtaget med gl&#x00E6;de af hans tilh&#x00E6;ngere og venner, der gjorde alt for at st&#x00F8;tte foretagendet. Ogsaa Ludwig stod som en trofast hj&#x00E6;lper ved hans side under kampene for at faa hans theater istand.</p>
+<p>1872 blev grundstenen lagt. Kongen telegraferede:</p>
+<p>&#x00AB;Af min inderste sj&#x00E6;l udtaler jeg for Dem, min dyrebareste ven, mine varmeste og oprigtigste lyk&#x00F8;nskninger i anledning af denne dag, der har betydning for hele Tyskland. Held og velsignelse f&#x00F8;lge det store verk! Jeg er idag mere end nogensinde i tankerne hos Dem!&#x00BB;</p>
+<p>Richard Wagners breve til Emil Heckel giver <pb n="40"/>et indblik i de uhyre vanskeligheder, som han og hans beundrere havde at overvinde.</p>
+<p>1873 gik der en pengekrise over Tyskland og &#x00D8;sterrige. Banker, som havde lovet kredit, var ikke istand til at indfrie sine l&#x00F8;fter, hvilket forsinkede virkeliggj&#x00F8;relsen af hans id&#x00E9;.</p>
+<p>Han havde altid regnet paa kongens hj&#x00E6;lp. Den 16<hi rend="raised">de</hi> januar 1874 skrev han til Heckel, at han havde anmodet &#x00AB;sin stedse &#x00E6;delmodige beskytter&#x00BB; om at garantere et laan, men at denne af en eller anden ubekjendt grund havde negtet at hj&#x00E6;lpe ham.</p>
+<p>En tysk digter havde forfattet &#x00E9;n smigrende ode til Ludwigs &#x00E6;re og havde opfordret Wagner til at s&#x00E6;tte musik til den. Men han, som ikke vidste, at kongen kjendte digtet, havde koldt afslaaet at gj&#x00F8;re det.</p>
+<p>Ludwig var bleven forn&#x00E6;rmet. Han kunde imidlertid ikke l&#x00E6;nge v&#x00E6;re vred paa sin ven: allerede i februar samme aar stillede han den &#x00F8;nskede kaution.</p>
+<p>Den f&#x00F8;rste &#x00AB;Niebelungen-cyklus&#x00BB; blev givet i Bayreuth fra den 13<hi rend="raised">de</hi> til den 30<hi rend="raised">te</hi> august 1876. Den blev tre gange gjentaget for et begeistret auditorium, hvoriblandt keiseren af Tyskland, storhertugerne af Weimar og Baden, keiseren af Brasilien, storfyrst Konstantin af Rusland og mange <pb n="41"/>andre fyrstelige personer samt liter&#x00E6;re og kunstneriske st&#x00F8;rrelser fra alle lande.</p>
+<p>Kongen af Bayern, der udelukkende pleiede at overv&#x00E6;re separatforestillinger, besluttede at reise til Bayreuth, tiltrods for at han her var n&#x00F8;dsaget til at vise sig offentlig.</p>
+<p>Fra Chiemsee kj&#x00F8;rte han direkte til jagtslottet &#x00AB;Eremitagen&#x00BB; udenfor byen. Kun Wagner var tilstede for at modtage ham. Han hilste hjertelig paa sin gamle ven og b&#x00F8;d ham at tage plads ved siden af sig i vognen.</p>
+<p>Skj&#x00F8;nt Ludwig hver aften kj&#x00F8;rte en omvei til forestillingerne for at undgaa m&#x00E6;ngden, var han baade i og udenfor theatret gjenstand for stormende ovationer. Han s&#x00F8;gte at undfly dem, men maatte atter og atter tr&#x00E6;de frem i sin loge og takke.</p>
+<p>Han saa syg og nedstemt ud. Wagner var den eneste, som han talte med. Men han aflagde intet bes&#x00F8;g i hans private bolig; og han forlod Bayreuth uden f&#x00F8;lge og i al stilhed, som han var kommen. &#x2013;</p>
+<p>Den tyske, franske og engelske presse stillede sig kj&#x00F8;lig ligeoverfor festspillene. Det kunde ikke negtes, at de havde v&#x00E6;ret storartede og vellykkede; men man fandt &#x00AB;Niebelungerne&#x00BB; langtrukne. Forestillingerne viste et underskud af 160,000 mark.</p>
+<p>Digter-komponisten var i den st&#x00F8;rste pengeforlegenhed. <pb n="42"/>Hans venner raadede ham paanyt til at henvende sig til kongen; han fandt imidlertid, at han mere end tilstr&#x00E6;kkelig havde udnyttet sin beskytter.</p>
+<p>Da han ikke paa anden maade saa sig istand til at betale sin gj&#x00E6;ld, solgte han til en theateragent &#x00AB;Niebelungerne&#x00BB;, som han havde arbeidet paa i n&#x00E6;sten tretti aar, og som theatret i Bayreuth var bleven bygget for.</p>
+<p>Hvor tungt salget maa have faldt ham, hjalp det ham dog over hans vanskeligheder. Niebelungerne gjorde et triumftog over Tysklands hovedscener; stridende kunstretninger samlede sig i beundring for hans verk, og hans navn straalede i st&#x00F8;rre glans end f&#x00F8;r. Siden den tid valfarter begeistrede tilh&#x00F8;rerskarer fra alle dele af Europa og Amerika til den lille by for at hylde den store digter-komponist og hans toneverker.</p>
+<p>Ludwigs beundring for hans person var kj&#x00F8;lnet noget gjennem aarene; under bes&#x00F8;get i Bayreuth havde man intet sporet af den tidligere sv&#x00E6;rmeriske hengivenhed. Men om venskabet end ikke mere var lige ungdomsvarmt, saa var det ingenlunde afbrudt. Endnu 1879 skrev Wagner til Emil Heckel om &#x00AB;et elskv&#x00E6;rdigt brev, som hans konge havde sendt ham&#x00BB;.</p>
+<p><pb n="43"/>Mesterens verker havde slaaet dybe r&#x00F8;dder i kongens sind. 1881 overtog han protektoratet over festspillene i Bayreuth. Han bestemte, at hoftheatrets orchester og kor to maaneder af aaret skulde staa til Richard Wagners afbenyttelse.</p>
+<p>1882, da &#x00AB;Parcival&#x00BB; blev opf&#x00F8;rt f&#x00F8;rste gang, udtrykte han &#x00F8;nsket om en privat forestilling, hvor han ubemerket kunde v&#x00E6;re tilstede. Han ombestemte sig imidlertid i sidste &#x00F8;ieblik, maaske fordi den tyske kronprins skulde v&#x00E6;re blandt publikum.</p>
+<p>Nogen tid efter blev Parcival opf&#x00F8;rt i M&#x00FC;nchen under medvirkning af de samme kunstnere, som havde sunget i Bayreuth.</p>
+<p>Da de f&#x00F8;rste scenepr&#x00F8;ver paa ovenn&#x00E6;vnte opera havde fundet sted, skrev Wagner i brevform en afhandling om sin person og sine arbeider, som han sendte Ludwig.</p>
+<p>Den begyndte med f&#x00F8;lgende ord:</p>
+<p>&#x00AB;Jeg vil ikke skrive en node mere. Mit verk er fuldbragt! Jeg har lykkelig og seirrig gjennemf&#x00F8;rt min mission, tiltrods for en verden af modstanderes fiendtlige fremstormen.&#x00BB;</p>
+<p>Dette var et af de sidste breve fra tonedigteren til denne konge, der havde v&#x00E6;ret mere end en ven for ham.</p>
+<p>Digter-komponisten pleiede hvert aar at afl&#x00E6;gge <pb n="44"/>et bes&#x00F8;g i M&#x00FC;nchen, hvor hans beskytter modtog ham med uforandret velvilje.</p>
+<p>I slutningen af 1882 kom han did for sidste gang. Han anmodede ogsaa nu om en audiens; men Ludwig bad ham undskylde, at han ikke kunde modtage ham, da han ei befandt sig vel.</p>
+<p>Den trettende februar 1883 d&#x00F8;de Richard Wagner i Venedig. Fem tusinde telegramer sendtes til alle verdens kanter for at melde s&#x00F8;rgebudet. Et af de f&#x00F8;rste kom til kong Ludwig.</p>
+<p>Han bebreidede sig heftig, at han ikke havde villet se ham.</p>
+<p>En af hans adjutanter reiste paa hans vegne til Venedig for at l&#x00E6;gge en krans af alperoser paa hans kiste.</p>
+<p>Et ekstratog f&#x00F8;rte den d&#x00F8;de samt hans enke og et antal venner og disciple til Bayreuth. Ved Bayerns gr&#x00E6;nse ventede kongens sekret&#x00E6;r for at f&#x00F8;lge kisten og vise ham den sidste &#x00E6;re.</p>
+<p>Musiken, der f&#x00F8;r havde v&#x00E6;ret Ludwigs st&#x00F8;rste gl&#x00E6;de, blev fra nu af ikke tilladt paa noget af hans slotte, fordi den saa smertelig erindrede ham om hans ungdomsven. Alle pianoer, hvorpaa han havde spillet, blev indhyllede i s&#x00F8;rgeflor. Endnu &#x00F8;vede den afd&#x00F8;des verker en saa m&#x00E6;gtig <pb n="45"/>indflydelse paa ham, at han efter hver opf&#x00F8;relse af &#x00AB;Parcival&#x00BB; lod l&#x00E6;se en messe paa sit slot. Og da kongen var d&#x00F8;d, fandt man i hans yndlingsv&#x00E6;relser overalt buster, portr&#x00E6;tter og andre minder om Richard Wagner.</p>
+</div>
+<div type="chapter">
+<head type="main">VII. Kong Ludwig og kunstnerne</head>
+<p rend="noIndent">En fransk journalist, der saa Ludwig den anden i hans unge aar, har sagt:</p>
+<p>&#x00AB;Hans skj&#x00F8;nhed tilh&#x00F8;rer den romantiske type. Hans m&#x00F8;rke &#x00F8;ine er dr&#x00F8;mmende og fulde af enthusiasme. Hans smukke ansigt, elegante personlighed og v&#x00E6;rdige fremtr&#x00E6;den vinder &#x00F8;ieblikkelig beundring og sympati. Han er i besiddelse af ungdommens hele ynde, dens illusioner og begeistring. Men samtidig frembyder han et eksempel paa den trang til forandringer, som h&#x00F8;rer ungdommen til. Hans undersaatter betragter ham som en nar. De tager feil: han er kun naragtig paa et punkt, nemlig hvor det gj&#x00E6;lder musiken.&#x00BB;</p>
+<p>Kongen elskede lidenskabelig Wagners operaer. Konserter bes&#x00F8;gte han derimod sjelden; men han indb&#x00F8;d ofte operasangere og sangerinder til at synge paa hans slotte. <note type="footnote"><hi rend="italic">Forfatternote:</hi> Se: &#x00AB;Ludvig den anden, konge af Bayern.&#x00BB;</note></p>
+<p><pb n="47"/>Kort efter at han havde tiltraadt sin regjering, blev en skuespiller ved navn Emil Rohde knyttet til M&#x00FC;nchens hoftheater. Han vandt i h&#x00F8;i grad majest&#x00E6;tens bifald som Don Carlos, Ferdinand i Schillers &#x00AB;Kabale und Liebe&#x00BB;, Max Piccolomini og Mortimer.</p>
+<p>Rohde var en af de f&#x00F8;rste kunstnere, som Ludwig viste s&#x00E6;rlig interesse. I begyndelsen af sit ophold i Bayerns hovedstad blev han ofte kaldt til slottet. Efter den f&#x00F8;rste uforkortede opf&#x00F8;relse af Schillers &#x00AB;Wilhelm Tell&#x00BB; sendte kongen ham f&#x00F8;lgende haandskrivelse:</p>
+<quote>
+<p rend="noIndent">&#x00AB;Kj&#x00E6;re Rohde! De har overtruffet alle mine forventninger. Med inderlig gl&#x00E6;de mindes jeg altid de skj&#x00F8;nne timer, som vi i vinter tilbragte sammen. Ja, de maa komme igjen! Stedse forbliver jeg Deres meget naadige konge
+<lb/>Ludwig.&#x00BB;</p>
+</quote>
+<p>Indbydelserne gjentog sig imidlertid ikke. Ludwig fik andre interesser og andre yndlinge.</p>
+<p>Tenorsangeren Franz Ignaz Nachbaur blev over&#x00F8;st med naadesbeviser. Han havde begyndt som korist, men en schweizisk kunstm&#x00E6;cen lod ham uddanne hos Lamperti i Milano. 1868 modtog <pb n="48"/>han en indbydelse til at medvirke som Walther von Stoltzing i &#x00AB;Mestersangerne i N&#x00FC;rnberg&#x00BB;.</p>
+<p>Egentlig var han ingen meget intelligent sanger; men han overtraf alle sine kolleger ved sit glimrende ydre og ved sin stemmes egte tenorklang.</p>
+<p>Ludwig udn&#x00E6;vnte ham til kammersanger. Efter hver ny rolle sendte han ham kostbare gaver, blandt andet en Lohengrin-rustning af drevet s&#x00F8;lv og en mangfoldighed af diamantnaale og ringe. Nachbaur, som med barnagtig gl&#x00E6;de fremviste disse, blev af den grund kaldt &#x00AB;Brillant-Nazzi&#x00BB;.</p>
+<p>Ved siden af Wagners musikverker h&#x00F8;rte kongen gjerne Lortzing&#x0027;s, Kreutzeris, Verdi&#x0027;s og Hal&#x00E9;vy&#x0027;s operaer.</p>
+<p>Dagen efter at han f&#x00F8;rste gang havde overv&#x00E6;ret Hal&#x00E9;vy&#x0027;s opera &#x00AB;Guido og Guivera&#x00BB;, sendte han bud efter Nachbaur. Skj&#x00F8;nt han aldrig havde kastet et blik paa noderne, sang han hele den store arie for den overraskede kunstner. Da han var f&#x00E6;rdig, sagde han:</p>
+<p>&#x00AB;Vil De nu v&#x00E6;re af den godhed at synge arien for mig; jeg vilde gjerne vide, om jeg har sunget den rigtig.&#x00BB;</p>
+<p>Da Nachbaur engang var syg, skrev Ludwig til ham:</p>
+<p><pb n="49"/>&#x00AB;Skaan Dem! Gj&#x00F8;r det for Deres families skyld og for at vedligeholde Deres guddommelige stemme. Gj&#x00F8;r det ogsaa for min skyld! Jeg beder Dem derom, jeg, kongen, der ellers ikke er vant til at bede!&#x00BB;</p>
+<p>Ved en anden leilighed skrev han til ham:</p>
+<p>&#x00AB;Vi er begge modstandere af alt, som er tarveligt og slet, og vi gl&#x00F8;der i hellig begeistring for alt, som er h&#x00F8;it og rent. Derfor vil vi ogsaa hele vort liv blive ved at v&#x00E6;re trofaste og oprigtige venner.&#x00BB;</p>
+<p>Sangeren Vogl fik ligeledes hyppige opfordringer til at indfinde sig hos Ludwig paa en bestemt tid af natten. Han maatte synge en arie for ham og blev derefter kj&#x00F8;rt tilbage til sit hjem.</p>
+<p>Kongen havde v&#x00E6;ret en ypperlig rytter; som ung havde han paa sin yndlingshest sat over stok og sten.</p>
+<p>Denne hest for&#x00E6;rede han til den udmerkede hofoperasangerinde fru Vogl. Hver gang hun optraadte som Br&#x00FC;nhilde i Wagners &#x00AB;G&#x00F6;tterd&#x00E4;mmerung&#x00BB;, red hun paa den, naar hun gjorde det forvovne sprang ind i ilden.</p>
+<p>Under en forestilling, hvor Possart og fru Ramlo vekslede ringe, sendte kongen dem to diamantringe, som de skulde benytte paa scenen og beholde til erindring om ham.</p>
+<p><pb n="50"/>Overhovedet sparede han hverken paa gaver eller udmerkelser, hvor det gjaldt skuespillere og sangere, der vandt hans gunst. Guldure med kjeder, brillanter, armbaand, broscher blev fra &#x00AB;keiserlogen&#x00BB; sendte ned til dem som udtryk for hans tilfredshed.</p>
+<p>I de sidste aar af sit liv var han dog mere tilbageholdende mod kunstnerne, ligesom han overhovedet sjeldnere talte med mennesker, som han ikke kjendte fra f&#x00F8;r. &#x2013;</p>
+<p>Ogsaa mod de malere, hos hvem han gjorde bestillinger, var han som regel meget elskv&#x00E6;rdig.</p>
+<p>Saavel ligeoverfor disse, som hvor det gjaldt den sceniske kunst, fastholdt han ub&#x00F8;nh&#x00F8;rlig, at alt maatte gjengives med historisk troskab. En etikette-feil paa et maleri dadlede han ligesaa strengt, som om man havde begaaet den i hans sale.</p>
+<p>Heinrich von Pechmann havde faaet det hverv at male et billede, som skulde forestille &#x00AB;Lever de Marie Antoinette&#x00BB;.</p>
+<p>Skj&#x00F8;nt komposition og totalvirkning var meget smuk, sendte kongen det tilbage til ham med den besked, at &#x00AB;hofdamerne ikke viftede sig og heller ikke passiarede med hofkavallererne i dronningens n&#x00E6;rv&#x00E6;relse. I&#x00F8;vrigt &#x00F8;nskede han blandt de tilstedev&#x00E6;rende at se komponisten <pb n="51"/>Gluck, som dengang opholdt sig ved det franske hof.&#x00BB;</p>
+<p>Kunstneren Ille malede fem store billeder med motiver fra sagnet om &#x00AB;Lohengrin&#x00BB;; de skulde oph&#x00E6;nges paa slottet Neuschwanstein.</p>
+<p>&#x00AB;Kongen saa gjerne, at keiserens holdning blev forandret&#x00BB;, skrev Ludwigs sekret&#x00E6;r i den anledning til ham; &#x00AB;men han vil dog ikke stille en befaling op mod din kunstneriske overbevisning! Hvis ikke tekniske vanskeligheder eller digtningens tekst umuliggj&#x00F8;r det, &#x00F8;nskede kongen desuden, at morgen- eller aftensolen skulde skinne paa erke-engelen Michael. Endvidere skulde jeg bede dig at overveie, om ikke svanens hoved er for stort og om ikke dens bryst, der hviler paa vandet, er for svagt. Kongen har nemlig fra sin f&#x00F8;rste ungdom havt svanen for &#x00F8;ie.&#x00BB;</p>
+<p>Ille gjorde de &#x00F8;nskede forandringer og modtog en pragtfuld ring som udtryk for kongens tilfredshed. &#x2013;</p>
+<p>Ludwig anvendte daglig mange timer til at studere literatur. Paa sine ture i bjergene tog han altid b&#x00F8;ger med; og naar han gjorde reiser, blev en kuffert fyldt med et planm&#x00E6;ssigt udvalg af hans yndlingsforfatteres verker.</p>
+<p>Han havde ikke som kronprins havt leilighed til at bes&#x00F8;ge h&#x00F8;iskoler eller til at samle kundskaber <pb n="52"/>og erfaringer ved ophold i fremmede lande. Men ved selvstudium blev han i ung alder en kundskabsrig mand. Han studerede grundig utallige videnskabelige verker. Og naar han f&#x00F8;lte sig tiltrukken af en forfatter, l&#x00E6;ste han alt, hvad denne havde skrevet.</p>
+<p>Forfatterens personlighed og private liv var ham ikke heller ligegyldigt. Hvis han endnu var ilive, gav kongen befaling til, at man skulde skaffe ham oplysning om, under hvilke forhold han levede; og hvis han var fattig, ydede han ham meget ofte i stilhed en storartet hj&#x00E6;lp.</p>
+</div>
+<div type="chapter">
+<head type="main">VIII. Separatforestillinger paa hoftheatret i M&#x00FC;nchen</head>
+<p rend="noIndent">Bayrerne var i almindelighed tilb&#x00F8;ielige til at tilgive kongens eiendommeligheder. En eneste svaghed havde de vanskelig for at forsone sig med: de likte ikke, at han anordnede theaterforestillinger, hvor han var den eneste tilskuer.</p>
+<p>Skj&#x00F8;nt Ludwig bestred alle udgifter, blev hans separatforestillinger paa hoftheatret saa upopul&#x00E6;re, at ministrene saa sig n&#x00F8;dsagede til at gj&#x00F8;re indsigelser mod dem.</p>
+<p>Man gav Wagner skylden for dem; og man motiverede anklagen med den kjendsgjerning, at digter-komponisten (1865) havde arrangeret en konsert i hoftheatret, hvor kongen havde v&#x00E6;ret eneste tilh&#x00F8;rer. Sandsynligere er det dog, at lysten vaagnede lidt efter lidt, da han fra sine slotte i bjergene pleiede at kj&#x00F8;re til hovedstaden for at overv&#x00E6;re generalpr&#x00F8;verne, der blev holdte i kostume.</p>
+<p>Undertiden lod han overs&#x00E6;tte eller omarbeide <pb n="54"/>franske stykker fra Ludwig den fjortendes tid, som blev spillede for ham alene. Senere gik han over til Ludwig den femtendes tid. I sine sidste aar lod han opf&#x00F8;re flere historiske stykker, hvortil emnerne var hentede fra sagnene om Hohenschwangau.</p>
+<p>Den f&#x00F8;rste separatforestilling fandt sted 1871, den sidste henimod slutningen af 1885. I l&#x00F8;bet af disse fjorten s&#x00E6;soner overv&#x00E6;rede han 210 forestillinger, deriblandt 45 operaer. <note type="footnote"><hi rend="italic">Forfatternote:</hi> 1872 opf&#x00F8;rtes som separatforestillinger blandt andet f&#x00F8;lgende stykker: &#x00AB;Grevinde du Barry&#x00BB;, &#x00AB;Greven af Saint-Germain&#x00BB;, &#x00AB;En minister under Ludwig den femtende&#x00BB;. <p>1872–77 lod han ikke opf&#x00F8;re en eneste opera. Men 1878 h&#x00F8;rte han Verdi&#x0027;s &#x00AB;A&#x00EF;da&#x00BB; med Wagners Siegfrid-idyl som forspil. 1879 lod han &#x00AB;Niebelungerne&#x00BB; opf&#x00F8;re fire paa hinanden f&#x00F8;lgende gange. 1880 h&#x00F8;rte han Wagners &#x00AB;Tannh&#x00E4;user&#x00BB;, &#x00AB;Lohengrin&#x00BB; og Verdi&#x0027;s &#x00AB;A&#x00EF;da&#x00BB;. 1881: Glucks &#x00AB;Iphigenia paa Tauris&#x00BB;, Wagners &#x00AB;Tristan og Isolde&#x00BB; og Webers &#x00AB;Oberon&#x00BB;. 1882: Glucks &#x00AB;Armida&#x00BB;, Wagners &#x00AB;Tannh&#x00E4;user&#x00BB;, &#x00AB;Mestersangerne i N&#x00FC;rnberg&#x00BB;, &#x00AB;Lohengrin&#x00BB; samt Meyerbeers &#x00AB;Hugenotterne&#x00BB;. 1883: &#x00AB;Niebe!ungerne&#x00BB; og &#x00AB;Den flyvende Holl&#x00E6;nder&#x00BB;. 1884: &#x00AB;Tristan og Isolde&#x00BB; samt seks gange &#x00AB;Parcival&#x00BB;. Desuden lod han opf&#x00F8;re &#x00BB;Den stumme fra Portici&#x00BB; af Auber og atter Glucks &#x00AB;Armida&#x00BB;. 1885 h&#x00F8;rte han i april maaned tre gange &#x00AB;Parcival&#x00BB;. Af skuespil saa han dette aar Schillers &#x00AB;Wilhelm Tell&#x00BB;, Sardous &#x00AB;Theodora&#x00BB;, Brachvogels &#x00AB;Narcisz&#x00BB; samt flere stykker af Karl von Heigel, en begavet bayersk forfatter, der gjennem aarr&#x00E6;kker dels digtede, dels bearbeidede dramatiske verker for kongens separatforestillinger.</p></note></p>
+<p>Til og med 1878 blev der aldrig givet mere end tolv separatforestillinger i hver s&#x00E6;son. 1879 steg antallet til tyve og 1883 til fem og tyve forestillinger.</p>
+<p>Alt, hvad der blev opf&#x00F8;rt for kongen alene, var kunstnerisk fuldendt.</p>
+<p><pb n="55"/>Skuespillerinden Charlotte Wolther, som medvirkede ved den sidste Narcisz-forestilling 1885, har beskrevet sine indtryk fra hin aften:</p>
+<p>Hans majest&#x00E6;t havde forordnet, at forestillingen skulde begynde klokken tolv om natten, fort&#x00E6;ller hun. Gjennem kighullet saa man kun det oplyste proscenium. Der herskede fuldst&#x00E6;ndig taushed; endog arbeiderne gik paa filtsko.</p>
+<p>Paa slaget tolv h&#x00F8;rte man lyden af en klokke; kongen forlod sit slot. Gjennem korridoren gik han ind i den store loge.</p>
+<p>Et nyt klokketegn meldte, at han var traadt ind, og &#x00F8;ieblikkelig gik teppet op!</p>
+<p>En nerv&#x00F8;s skj&#x00E6;lven overfaldt kunstnerinden, der tr&#x00E6;ngte hele sin aandsn&#x00E6;rv&#x00E6;relse for at udf&#x00F8;re sin rolle for en eneste tilskuer paa en saa eiendommelig tid og i denne eventyrlige stilhed. &#x2013; &#x2013;</p>
+<p>Mange delvis usandf&#x00E6;rdige historier om disse theateraftener gik fra mund til mund. Franske, russiske og amerikanske journalister udmalede dem i fantastiske farver.</p>
+<p>Den amerikanske humorist Mark Twain fortalte l&#x00F8;ierlige ting om dem; og hans beretninger vandt tiltro paa begge sider af Atlanterhavet.</p>
+<p>&#x00AB;Naar operaen er forbi og kunstnerne har vasket sminken af sine ansigter, faar de ofte befaling til <pb n="56"/>at kostumere sig paanyt, og sangere og orchester maa fra begyndelsen til enden udf&#x00F8;re operaen for anden gang for kongen&#x00BB;, hed det i en af hans fort&#x00E6;llinger.</p>
+<p>&#x00AB;I det store hoftheater findes en indretning, der i tilf&#x00E6;lde af brand kan s&#x00E6;tte hele scenen under vand. Ved en separatforestilling skulde der v&#x00E6;re et heftigt uveir. Theaterstormen hylede, tordenen rullede. Med h&#x00F8;i r&#x00F8;st raabte Ludwig fra sin loge:</p>
+<p>&#x00AB;Godt, meget godt! Men jeg &#x00F8;nsker virkelig regn. Lad vandet flomme!&#x00BB;</p>
+<p>Maskinmesteren vovede at g&#x00F8;re indvendinger. Han fremholdt, at dekorationerne samt silke- og fl&#x00F8;ielstepperne vilde blive &#x00F8;delagte.</p>
+<p>&#x00AB;Det er ligegyldigt&#x00BB;, sagde kongen; &#x00AB;gj&#x00F8;r, som jeg befaler!&#x00BB;</p>
+<p>Nu str&#x00F8;mmede vandet ud over scenen, over de kunstige blomster og huse. Sangerne blev gjennemvaade; de gjorde gode miner og sang tappert. Kongen klappede og raabte bravo.</p>
+<p>&#x00AB;Mere torden, mere lynild!&#x00BB; befalede han. &#x00AB;Ve over den, som vover at forlade scenen!&#x00BB; &#x2013;</p>
+<p>Selvf&#x00F8;lgelig var Mark Twains historie fuldst&#x00E6;ndig greben ud af luften; Ludwig lo hjertelig, da man l&#x00E6;ste beskrivelsen op for ham.</p>
+<p><pb n="57"/>Og dog var M&#x00FC;nchens borgere paa dette punkt ikke mindre lettroende end amerikanerne. De mente, blandt andet, at kongen digtede sine stykker selv; og de paastod, at hans separatforestillinger forh&#x00F8;iede skatten i Bayern.</p>
+<p rend="center"><figure><graphic url="Tschudi1906_59.PNG"/></figure></p>
+</div>
+<div type="chapter">
+<head type="main">IX. Kong Ludwig og hans slotte</head>
+<p rend="noIndent">Ludwig den f&#x00F8;rste ofrede millioner for at smykke sin hovedstad med bygverker i antik- og renaissancestil.</p>
+<p>Ludwig den anden havde arvet sin farfaders byggelyst. Julen 1852 skrev Ludwig den f&#x00F8;rste til sin s&#x00F8;n, kong Otto af Gr&#x00E6;kenland:</p>
+<p>&#x00AB;Da julegaverne blev uddelte, fik Ludwig bygge klodser af tr&#x00E6;, hvormed han skulde sammens&#x00E6;tte seirsporten. Han liker at bygge. Jeg saa bygninger af ham, der var udmerkede. En paafaldende lighed finder jeg mellem den fremtidige Ludwig den anden og den politisk afd&#x00F8;de Ludwig den f&#x00F8;rste!&#x00BB;</p>
+<p>Han var dengang kun syv aar gammel.</p>
+<p>I elleveaars-alderen udkastede han planen til et <pb n="62"/>jagtslot, der skulde ops&#x00E6;ttes ved Hintersee, i n&#x00E6;rheden af Berchtesgaden.</p>
+<p>Det blev ikke gjort. Men baade hans farfader og dronning Marie var forbausede over hans tidlig udviklede begavelse; og hans tegning fik plads i hans moders album.</p>
+<p>Indtil sit fyldte attende aar havde han aldrig penge under h&#x00E6;nder.</p>
+<p>Faa maaneder efter sin attende f&#x00F8;dselsdag fik han en aarlig appanage paa mange millioner. Hans rigdom syntes ham uudt&#x00F8;mmelig, og han troede det let at realisere alle sine dr&#x00F8;mme.</p>
+<p>Sommerslottene Berg og Herzogenstand, som han havde arvet efter sin fader, selv hans yndlingsopholdssted Hohenschwangau, tilfredsstillede ham ikke l&#x00E6;nger. I n&#x00E6;rheden af dette sidste, h&#x00F8;it paa en klippe vilde han lade opf&#x00F8;re et nyt slot.</p>
+<p>1869 blev grundstenen lagt til Neuschwanstein. Af de slotte, som han har bygget, gj&#x00F8;r dette det bedste indtryk. Fra hvilken side man end betragter det, virker det skj&#x00F8;nt og imponerende.</p>
+<p>Man finder her intet af det vanvittig &#x00F8;dsle og dog i grunden ukunstneriske, der paafalder i slottene Linderhof og Chiemsee.</p>
+<p>Neuschwanstein er holdt i ren romantisk stil. Dets indre er prydet med billeder fra tyske heltesagn og sange. De gjengiver Tannh&#x00E4;user- og <pb n="63"/>Lohengrin-sagnet, Niebelungerne og Parcival, og de er kunstnerisk opfattede og udf&#x00F8;rte.</p>
+<p>Efter afslutningen af den fransk-tyske krig dannede byggevirksomheden midtpunktet for Ludwigs tanker. Han beskjeftigede sig med de mindste enkeltheder vedr&#x00F8;rende opf&#x00F8;relsen af sine slotte og beskrev n&#x00F8;iagtig, hvordan de forskjellige sale skulde dekoreres. Med m&#x00F8;ie og besv&#x00E6;r skaffede han kopier af kunstgjenstande fra andre lande, der ellers ikke var tilgj&#x00E6;ngelige for nogen.</p>
+<p>I n&#x00E6;rheden af Ober-Ammergau havde kong Maximilian havt en jagthytte. Her indrettede hans s&#x00F8;n det fantastiske f&#x00E9;slot Linderhof.</p>
+<p>Han lagde selv planerne og studerede omhyggelig verker om stil-arterne. Under udf&#x00F8;relsen fik han stadig nye id&#x00E9;er. Han blev ofte greben af lyst til at forandre dele af bygningen. Skj&#x00F8;nt han havde et sikkert blik for totalvirkninger, havde han ingen anelse om, paa hvilken maade det hele skulde udf&#x00F8;res. For at iagttage, hvordan det vilde tage sig ud, lod han reise mure og gj&#x00F8;re andre store omkalfatringer, der n&#x00F8;dvendiggjorde betydelig for&#x00F8;gede udgifter, og som sluttelig f&#x00F8;rte til hans financielle ruin.</p>
+<p>Grundstenen til Linderhof blev lagt 1869. F&#x00F8;rst ti aar senere var det tiln&#x00E6;rmelsesvis f&#x00E6;rdigt.</p>
+<p>Slottet er ikke stort; og det giver heller ikke <pb n="64"/>udtryk for nogen bestemt stil. Det indeholder ti sale af forskjellig st&#x00F8;rrelse og form, hvori der er samlet en mangfoldighed af gjenstande, olje- og pastelmalerier. M&#x00F8;blerne er delvis af rosentr&#x00E6;. De rigt udskaarne d&#x00F8;re og v&#x00E6;gge er forgyldte. Paa gyldne konsoler staar japanesisk og chinesisk porcell&#x00E6;n, majolika og broncearbeider samt det herligste gamle porcell&#x00E6;n fra Meissen. Det s&#x00F8;lvforgyldte husgeraad er prydet med &#x00E6;delstene. M&#x00F8;belstoffer, gardiner og porti&#x00E8;rer er af tungt fl&#x00F8;iel og silke med guldbroderier. I de store sale er lysekroner og lysestager af massivt guld. Denne pragt gjengives af flere hundrede store speile.</p>
+<p>Bygningen er omgivet af blomsteranl&#x00E6;g og terrasser. Mellem tr&#x00E6;er og busketter staar buster og gudebilleder paa h&#x00F8;ie s&#x00F8;iler. I Ludwigs levetid kastede et springvand sine straaler femti meter i veiret.</p>
+<p>T&#x00E6;t ved Linderhof ligger &#x00AB;Den blaa grotte&#x00BB;, en kopi af grotten paa Capri, samt &#x00AB;Hundingshytten&#x00BB;, som blev indrettet efter Richard Wagners &#x00F8;nske.</p>
+<p>Kong Maximilians j&#x00E6;gerhus blev flyttet; men et gammelt lindetr&#x00E6;, der havde staaet i n&#x00E6;rheden, fik lov til at beholde sin plads.</p>
+<p>En trappe f&#x00F8;rte op i tr&#x00E6;ets krone; her var der anbragt et lysthus, hvorfra der var en herlig udsigt <pb n="65"/>over egnen. Naar kongen opholdt sig paa Linderhof, tilbragte han mange timer af sin dag i dette tr&#x00E6;. &#x2013;</p>
+<p>Senere fordybede han sig i Ludwig den fjortendes kunstperiode. Han opf&#x00F8;rte det kj&#x00E6;mpem&#x00E6;ssige pragtslot Herrenchiemsee, som er en kopi af Versailles, og som slugte mangfoldige millioner, endskj&#x00F8;nt det aldrig blev f&#x00E6;rdigt.</p>
+<p>Da han lagde planen til dette, var hans byggelyst ikke l&#x00E6;nger et lune, som han kunde t&#x00E6;mme; den udsprang fra en syg hjerne, hvor viljekraft og d&#x00F8;mmekraft havde taget skade.</p>
+<p>Paa grund af sin byggevirksomhed foretog han flere reiser til Frankrige. Opholdene var hver gang meget korte; den feberagtige uro, der drev ham afsted, f&#x00F8;rte ham n&#x00E6;sten ligesaa hurtig tilbage igjen til Bayern.</p>
+<p>Neppe et aar efter at Versailles havde gjenlydt af de tyske fyrsters leveraab for den nyvalgte keiser, reiste han, uden at give sine ministre nogensomhelst oplysning, i dybeste incognito til Paris. Han tilbragte flere dage i Versailles. Det f&#x00F8;lgende aar kom han atter did; denne gang bes&#x00F8;gte han tillige kroningsstaden Rheims.</p>
+<p>Chiemsee, der ogsaa kaldes &#x00AB;det bayerske hav&#x00BB;, omslutter tre &#x00F8;er: Herrenchiemsee, Frauenchiemsee og den ubeboede Krautinsel.</p>
+<p><pb n="66"/>Herrenchiemsee, eller &#x00AB;Herrenw&#x00F6;rth&#x00BB;, var oprindelig et munkes&#x00E6;de; da munkeklostrene blev oph&#x00E6;vede, gik det over i private h&#x00E6;nder. 1868 eiedes det af nogle forretningsm&#x00E6;nd, der solgte det til kong Ludwig. Han valgte &#x00F8;en til plads for sit Versailles.</p>
+<p>Kongens raadgivere gjorde indvendinger; men dette fremkaldte hans trods. Han sendte sagkyndige afsted og kastede sig med al kraft ind i foretagendet.</p>
+<p>Otte aar gik alligevel hen, f&#x00F8;r planerne blev f&#x00E6;rdige.</p>
+<p>Herrenchiemsee bestaar af en mellembygning, der er hundrede og tre meter lang, samt af to fl&#x00F8;ibygninger, der omslutter gaardspladsen, som er helt belagt med sorte og hvide marmorplader.</p>
+<p>Overalt i slottet ser man billeder af de franske konger og dronninger og Bourbonernes liljevaaben.</p>
+<p>De seksten beboelsesgemaker er opkaldte efter de tilsvarende sale i Versailles. Det pr&#x00E6;gtigste af disse er speilgaleriet, der er fem og sytti meter langt, elleve meter bredt og tretten meter h&#x00F8;it. Paa den ene langv&#x00E6;g er der syv og tyve h&#x00F8;ie buevinduer, paa den anden staar der ligesaa mange store speile. To og femti lysholdere af guld og fem og tretti lysekroner giver plads for to tusinde og fem hundrede vokslys.</p>
+<p><pb n="67"/>Kun faa n&#x00E6;tter br&#x00E6;ndte dette lyshav til &#x00E6;re for kong Ludwig og hans indbildte gjester fra de franske kongers tid!</p>
+<p>Fra aaret 1881 kom han regelm&#x00E6;ssig den ni og tyvende september til Herrenchiemsee og blev der til den ottende oktober. De f&#x00F8;rste aar beboede han de saakaldte fyrstev&#x00E6;relser i et n&#x00E6;rliggende kloster, der med lethed kunde v&#x00E6;re bleven forvandlede til et venligt opholdssted; men kongen havde kun tanke for det nye slot.</p>
+<p>Han pleiede at komme ved midnatstid. Jernbanestationen var n&#x00E6;r ved s&#x00F8;ens bred. En nydelig gondol, som ikke blev brugt til andet, ventede for at f&#x00F8;re ham over til &#x00F8;en; den blev roet af to matroser i neapolitanske dragter.</p>
+<p>Naar han kom, unders&#x00F8;gte han alt. Da han, eksempelvis, opdagede, at nogle grupper i parken var af gibs istedetfor af marmor, som han havde befalet, blev han saa rasende, at han slog dem istykker. &#x2013;</p>
+<p>Linderhof, Neuschwanstein og Herrenchiemsee, som han ofrede saa megen tid og tanke, og som voldte hans &#x00F8;konomiske ruin, er senere bleven midlerne til at betale hans gj&#x00E6;ld.</p>
+<p>Det hemmelighedsfulde sl&#x00F8;r, der omgav hans person, hvilede, saa l&#x00E6;nge han levede, ogsaa over hans slotte.</p>
+<p><pb n="68"/>Men efter hans d&#x00F8;d er disse herligheder, som han &#x00E6;ngstelig vogtede for profane blikke, bleven tilgj&#x00E6;ngelige for almenheden. De betegnes med rette som sev&#x00E6;rdigheder af f&#x00F8;rste rang. Tusinder af bes&#x00F8;gende fra alle lande beundrer aarlig den pragtelskende konges bygninger.</p>
+<p rend="center"><figure><graphic url="Tschudi1906_69.PNG"/></figure></p>
+</div>
+<div type="chapter">
+<head type="main">X. Kong Ludwigs venskaber</head>
+<p rend="noIndent">Under Ludwigs f&#x00F8;rste ophold i Paris<note type="footnote"><hi rend="italic">Forfatternote:</hi> Se: &#x00AB;Ludwig den anden, konge af Bayern&#x00BB;.</note> sendte den for sin skj&#x00F8;nhed og sit letsind meget omtalte Cora Pearl sit billede til den unge konge.</p>
+<p>Ingen af hans omgivelser vovede at overr&#x00E6;kke ham det; thi man vidste, at han ikke f&#x00F8;lte sig tiltrukken af kvinder.</p>
+<p>Paa Hohenschwangau modtog han aar senere sin kabinetssekret&#x00E6;r med f&#x00F8;lgende ord: &#x00AB;Jeg har idag seet Deres hustru!&#x00BB; Sekret&#x00E6;ren bukkede taus; han var ikke paa det rene med, hvad denne udtalelse havde at betyde.</p>
+<p>&#x00AB;Jeg har idag seet Deres hustru!&#x00BB; gjentog majest&#x00E6;ten i sin strengeste tone.</p>
+<p>Nu gik der et lys op for hans sekret&#x00E6;r, der &#x00E6;rb&#x00F8;dig forsikrede, at han vilde s&#x00F8;rge for, at dette ikke oftere skulde ske.</p>
+<p>Kongens modvilje mod det smukke kj&#x00F8;n kunde <pb n="72"/>ikke undlade at give anledning til, at man ymtede om, at hans f&#x00F8;lelsesliv ikke var normalt. Rygterne bestyrkedes ved den varme interesse, som han lagde for dagen ligeoverfor forskjellige m&#x00E6;nd.</p>
+<p>Den ungarske digter Maurus J&#x00F2;kai har i private kredse fortalt, at han i yngre aar modtog et brev fra en ukjendt, der tilb&#x00F8;d ham rigdom og &#x00E6;resbeviser, alt, hvad en m&#x00E6;gtig herre formaar at skjenke, hvis han vilde forlade sit land og sin familie og leve helt for en ulykkelig og ensom mand.</p>
+<p>Digteren vilde ikke bryde de baand, som bandt ham til hans hjem og hans f&#x00E6;drenejord; men han bevarede i sit hjerte en dyb medf&#x00F8;lelse med den beklagelsesv&#x00E6;rdige brevskriver.</p>
+<p>Ludwigs ensomhedstrang bundede sikkert i gaadefulde dybder i hans natur. Som yngling anede han, og som moden mand f&#x00F8;lte han, at det ikke var muligt for ham at blive andet end en eneboer og fremmed i livet. Trods sin h&#x00F8;ie stilling, trods sin skj&#x00F8;nhed og rige aand, var han i sit dybeste indre hj&#x00E6;lpel&#x00F8;s og livstr&#x00E6;t.</p>
+<p>Hans venskab for Richard Wagner havde v&#x00E6;ret lyspunktet i hans liv. Han havde troet paa den virak, som mesteren i de f&#x00F8;rste stunder af oprigtig taknemmelighed udgj&#x00F8;d over sin beskytter.</p>
+<p><pb n="73"/>Men Wagners stolte hengivenhed var noget ganske andet end den smiger, som m&#x00F8;dte ham fra hofm&#x00E6;nd og senere yndlinge, der kr&#x00F8;b i st&#x00F8;vet for at fremme sin egennytte.</p>
+<p>Kongens naade og hengivenhed kom ligesaa uventet som hans lede og foragt. Hans f&#x00F8;lelser, der fandt udtryk i egenh&#x00E6;ndige breve, overdrevne udtalelser og gaver, pleiede kun at vare en kortere tid.</p>
+<p>Da krigen mod Frankrige br&#x00F8;d ud, var han neppe fem og tyve aar gammel. Paa dette tidspunkt begyndte man at merke hans abnorme sindstilstand; men tidligere havde man allerede seet spor, der tydede i denne retning.</p>
+<p>Fra barndommen havde han f&#x00F8;lt sig s&#x00E6;rlig tiltrukken af smukke ansigter. Ved tronbestigelsen pensionerede han sin faders gamle tjenere og omgav sig udelukkende med unge, vakre m&#x00E6;nd.</p>
+<p>En af hans rideknegte, Joseph V&#x00F6;lkl, indtog 1864 og 1865 en meget misundt stilling ved hans hof. Han ledsagede ham paa hans reiser til Schweiz og fik lov til at kj&#x00F8;re i samme vogn som majest&#x00E6;ten.</p>
+<p>Lidt efter lidt blev han overmodig, og han omtalte sin herre uden respekt. Ludwig fik dette at vide; han degraderede ham &#x00F8;ieblikkelig. V&#x00F6;lkl ved blev imidlertid at sprede upassende sladder ud. Sagen <pb n="74"/>kom ministeriet for &#x00F8;re; han blev afskediget og d&#x00F8;de i stor fattigdom.</p>
+<p>Staldmester Hornig var senere kongens yndling. Han var en smuk og dannet mand med behagelige omgangsformer. Gjennem det lange tidsrum af atten aar fungerede han som hans privatsekret&#x00E6;r og reiseledsager.</p>
+<p>Medens Hornig forberedte reisen til Bayreuth, overfaldtes kongen pludselig af ulyst til at foretage den, skj&#x00F8;nt han var festspillenes officielle beskytter. Han talte l&#x00E6;nge frem og tilbage om sagen. Staldmesteren mente, at det vilde v&#x00E6;kke pinlig opsigt, hvis han pludselig sendte afbud.</p>
+<p>I samtalens hede udbr&#x00F8;d han:</p>
+<p>&#x00AB;Majest&#x00E6;t! Paa den maade gj&#x00F8;r vi os jo latterlige!&#x00BB;</p>
+<p>Ludwig &#x00E6;rgrede sig i saa h&#x00F8;i grad over dette &#x00AB;vi&#x00BB; og &#x00AB;os&#x00BB;, at Hornig fra den dag mistede hans yndest.</p>
+<p>Efter hans afskedigelse indtog hof-fur&#x00E9;r Hesselschwerdt hans plads. Tiltrods for ringe dannelse udf&#x00F8;rte han sin tjeneste til kongens tilfredshed. Han morede ham og formildede ofte hans heftighed ved plumpe l&#x00F8;gne, som Ludwig tilgav, skj&#x00F8;nt han gjennemskuede dem. Han forblev i tjenesten indtil slutningen af hans regjering.</p>
+<p>Bortseet fra Richard Wagner led hans saakaldte <pb n="75"/>venner alle under hans luner. Det afsondrede liv, han f&#x00F8;rte, gav ham tid til at gruble over hver liden udtalelse, som havde mishaget ham. Hans nag var som regel dybt, og hans forstemthed pleiede at vare l&#x00E6;nge.</p>
+<p>De to sidste kabinetssekret&#x00E6;rer, dr. von Ziegler og dr. von M&#x00FC;ller h&#x00F8;rte begge en tid til hans erkl&#x00E6;rede yndlinge.</p>
+<p>I sine sidste aar kunde han endnu bedaare; og han forstod mesterlig at skjule sine sindslidelser. Ziegler, der var en jovial, livsglad natur, havde en god indflydelse paa ham; og han talte med beundring og &#x00E6;rb&#x00F8;dighed om Ludwigs sj&#x00E6;lsadel.</p>
+<p>Kabinetssekret&#x00E6;rens afskedigelse 1883 blev meget beklaget.</p>
+<p>Fra denne dag omgikkes Ludwig n&#x00E6;sten udelukkende med sit tjenerskab; selv hans adjutanter og hans sekret&#x00E6;r blev kun undtagelsesvis modtagne af den h&#x00F8;ie herre.</p>
+<p>Flere aar f&#x00F8;r hans d&#x00F8;d udtalte en af hans varmeste beundrere, kammerherre von Unger:</p>
+<p>&#x00AB;Den mand, der oph&#x00F8;rer at omgaaes dannede kvinder, bliver raa; men naar han tillige skyr omgang med dannede m&#x00E6;nd, er han helt og holdent fortabt!&#x00BB;</p>
+</div>
+<div type="chapter">
+<head type="main">XI. Skuespiller Kainz</head>
+<p rend="noIndent">I begyndelsen af otti-aarene fik den senere ber&#x00F8;mte skuespiller Joseph Kainz engagement i M&#x00FC;nchen; han var dengang tre og tyve aar gammel<note type="footnote"><hi rend="italic">Forfatternote:</hi> Kainz er f&#x00F8;dt i Ungarn. Han havde optraadt i Leipzig og Meiningen, inden han kom til M&#x00FC;nchen.</note>.</p>
+<p>Kongen saa ham f&#x00F8;rste gang i Victor Hugo&#x0027;s drama &#x00AB;Marion de Lorme&#x00BB;, hvor han spillede den hjeml&#x00F8;se Didier. Hans klangfulde organ, hans sv&#x00E6;rmeriske blik og den lidenskabelige varme i hans spil bedaarede Ludwig, der samme aften lod ham overr&#x00E6;kke en v&#x00E6;rdifuld safir-ring.</p>
+<p>Kainz takkede ham i et ildfuldt brev.</p>
+<p>I en haandskrivelse af f&#x00F8;rste mai 1881 forsikrede majest&#x00E6;ten ham derpaa om sine venskabelige f&#x00F8;lelser og om sine oprigtige og hjertelige &#x00F8;nsker for hans vel.</p>
+<p>Han tilf&#x00F8;iede</p>
+<p><pb n="77"/>&#x00AB;Forts&#x00E6;t, som De har begyndt, i Deres tunge og vanskelige, men skj&#x00F8;nne og &#x00E6;refulde kald!&#x00BB;</p>
+<p>&#x00AB;Marion de Lorme&#x00BB; maatte gjentages som separatforestilling den fjerde og tiende mai; og begge gange fik Kainz en ny gave af kongen.</p>
+<p>For at l&#x00E6;re ham personlig at kjende lod han ham kalde til slottet Linderhof, hvor han modtog ham med indtagende elskv&#x00E6;rdighed og beholdt ham hos sig to hele uger; han gjorde udflugter sammen med ham og behandlede ham som en ven.</p>
+<p>Under det f&#x00F8;rste m&#x00F8;de havde han v&#x00E6;ret en smule tilbageholdende og afmaalt. Men da de havde v&#x00E6;ret nogle dage sammen, forsvandt al forlegenhed fra Kainz&#x0027;s side, og Ludwig tillod endog, at han sagde &#x00AB;du&#x00BB; til ham. Skuespilleren deklamerede afvekslende for og sammen med hans majest&#x00E6;t, og deres kunstneriske underholdning pleiede at vare til sent paa nat.</p>
+<p>Kainz fik lov til at v&#x00E6;re tilstede ved separatforestillingerne; kongen tog sig af hans videre uddannelse og brevvekslede stadig med ham.</p>
+<p>Venskabet mellem fyrsten og skuespilleren blev meget omtalt og meget kritiseret.</p>
+<p>&#x00AB;Det gj&#x00F8;r mig saa forstemt, naar jeg ser, at mine uskyldige liebhaberier udbasuneres for hele verden og bliver hadefuldt kritiserede,&#x00BB; sagde <pb n="78"/>Ludwig til sin nye ven. &#x00AB;Man har beredt mig mange tunge timer derved. Jeg begriber ikke, hvorfor man misunder mig mine smaa forn&#x00F8;ielser, da de jo ikke skader noget menneske.&#x00BB;</p>
+<p>Da de en anden gang talte sammen om skuespilkunst, sagde han:</p>
+<p>&#x00AB;Mine idealer vogter jeg &#x00E6;ngstelig. Jeg bemerker ugjerne smaa svagheder; thi jeg vil ikke, at den hele harmoni skal forstyrres.&#x00BB;</p>
+<p>Han fortsatte eftert&#x00E6;nksomt:</p>
+<p>&#x00AB;Med skuespillerne gaar det mig paa samme maade; jeg ser kun mennesket i fremstilleren! Den skuespiller, som udf&#x00F8;rer en &#x00E6;del rolle, t&#x00E6;nker jeg mig som et &#x00E6;delt menneske.&#x00BB;</p>
+<p>Kainz indvendte, at skj&#x00F8;nt han ikke ansaa sig for en nidding, &#x00F8;nskede han dog at spille Franz Moor.</p>
+<p>&#x00AB;Nei, nei,&#x00BB; raabte kongen ivrig, &#x00AB;De maa aldrig fremstille en saa afskylig karakter.&#x00BB;</p>
+<p>Han gik over til at tale om Didiers rolle.</p>
+<p>&#x00AB;Da Marion de Lorme blev gjentaget,&#x00BB; sagde han dadlende, &#x00AB;bar De i f&#x00F8;rste akt min safir-ring. Hvordan kunde den fattige, hjeml&#x00F8;se Didier eie et saa kostbart smykke? Det st&#x00F8;der an mod sandsynlighedens love.&#x00BB;</p>
+<p>Kainz undskyldte sig med, at man havde sagt ham, at hans majest&#x00E6;t syntes om, at hans gaver <pb n="79"/>blev holdte i &#x00E6;re, og at det var derfor, han havde baaret ringen.</p>
+<p>De presenter, som han modtog, var s&#x00E6;rdeles v&#x00E6;rdifulde, og ingen af de roller, som han spillede, blev ubel&#x00F8;nnede. Da han en aften tog afsked og allerede havde den ene fod i vognen, l&#x00F8;ste Ludwig sine egne manchet-knapper og rakte ham dem som sidste gave. Han havde sit eget v&#x00E6;relse staaende paa slottet Linderhof; og han fik lov til at kj&#x00F8;re alene med sin kongelige ven.</p>
+<p>Den unge theaterhelt taalte ikke de naadesbeviser, der i saa rigt maal str&#x00F8;mmede over ham; og han var meget uforsigtig.</p>
+<p>I begyndelsen opfattede Ludwig hans brutalitet som udtryk for hans sandhedskj&#x00E6;rlighed.</p>
+<p>&#x00AB;Hvor velgj&#x00F8;rende det er, naar man h&#x00F8;rer den usminkede sandhed,&#x00BB; sagde han til sin ministerraad B&#x00FC;rckel.</p>
+<p>Denne, som kjendte den nye yndling bedre, svarede kort:</p>
+<p>&#x00AB;Deres majest&#x00E6;t! Sandhed og uforskammethed er to forskjellige ting!&#x00BB; &#x2013;</p>
+<p>Kongen &#x00F8;nskede at gj&#x00F8;re en reise til Spanien sammen med skuespilleren <note type="footnote"><hi rend="italic">Forfatternote:</hi> Ludwig gjorde faa reiser: Han var tre gange i Schweiz, tre gange i Paris samt i Versailles og Rheims; en gang bes&#x00F8;gte han Wartburg. I senere aar havde han til hensigt over Reichenhall og Salzburg at reise til Wien for at bes&#x00F8;ge det &#x00F8;sterrigske keiserpar, men han vendte om i Salzburg. Hans fleste reiser inden Bayerns gr&#x00E6;nser gjaldt slottene Berg, Linderhof, Chiemsee og Neuschwanstein.</note>. Men han maatte <pb n="80"/>opgive dette, fordi B&#x00FC;rckel, der skulde ordne turen, fremholdt at aarstiden var uheldig.</p>
+<p>&#x00AB;Det er skade,&#x00BB; sagde han; &#x00AB;jeg har langt mere lyst til at se Spanien end Italien, der ingen tillokkelse har for mig. Men nu, da jeg vil stille min l&#x00E6;ngsel, kommer B&#x00FC;rckel med sine indvendinger, hvis rigtighed jeg maa anerkjende.&#x00BB;</p>
+<p>&#x00BB;B&#x00FC;rckel er dog kun raadgiver,&#x00BB; indvendte Kainz. &#x00AB;Deres majest&#x00E6;t er herre og konge!&#x00BB;</p>
+<p>&#x00AB;Ja,&#x00BB; sukkede Ludwig, &#x00AB;men at v&#x00E6;re konge er ikke altid saa let, som det ser ud til.&#x00BB;</p>
+<p>&#x00AB;Hvis det falder Deres majest&#x00E6;t besv&#x00E6;rligt, kan De jo overlade sceptret i andre h&#x00E6;nder,&#x00BB; bemerkede skuespilleren.</p>
+<p>Svaret mishagede kongen, der reiste sig og gav ham et vink om, at han maatte benytte mere forsigtige udtryk.</p>
+<p>Mindet om hans tidligere schweizerreiser dukkede op i hans sind. Han fik lyst til at gjense det idylliske land og de steder, hvor Wilhelm Tell, efter sagnet, f&#x00E6;rdedes.</p>
+<p>Den fem og tyvende juni skrev han til Kainz:</p>
+<quote>
+<p rend="noIndent">&#x00AB;Deres kj&#x00E6;re brev, hvoraf jeg ser, hvor meget De gl&#x00E6;der Dem til vor reise til Schweiz, har beredt mig stor forn&#x00F8;ielse! Den forh&#x00F8;ier i betydelig grad min egen gl&#x00E6;de over de dage, som jeg kommer til at nyde sammen med Dem i det herlige <pb n="81"/>land. Jo mere tiden n&#x00E6;rmer sig, desto ivrigere synes den gode B&#x00FC;rckel at blive. Han bombarderer mig med de besynderligste meldinger og forslag og vil have, at jeg skal tage en adelig kavaller med mig. Skulde vi ikke kunne undv&#x00E6;re en saadan, hvilket for&#x00F8;vrig umuligt kan v&#x00E6;re tilf&#x00E6;ldet, saa vil jeg heller give afkald paa hele reisen! Det er n&#x00F8;dvendigt at undvige den derv&#x00E6;rende reisestr&#x00F8;m og dens taktl&#x00F8;se paatr&#x00E6;ngenhed.</p>
+<p rend="noIndent">Forhaabentlig kan vi faa et beboeligt privathus for os selv ved bredden af den klassiske s&#x00F8;. &#x2013; &#x2013; &#x2013;</p>
+<p rend="noIndent">Jeg har endnu meget at ordne og skynder mig derfor at slutte.</p>
+<p rend="noIndent">Tusinde hjertelige hilsener, elskelige broder, dyrebare Didier, fra Deres venligsindede
+<lb/>Ludwig
+<lb/>(Saverny).&#x00BB;</p>
+</quote>
+</div>
+<div type="chapter">
+<head type="main">XII. En reise til Schweiz</head>
+<p rend="noIndent">For at undgaa at v&#x00E6;kke opsigt havde Ludwig bestemt, at hans ekstratog den 27<hi rend="raised">de</hi> juni om aftenen klokken ti skulde optage ham ved stationen M&#x00FC;hlthal ved Starnberg. Han vilde reise som marquis de Saverny; Kainz skulde f&#x00F8;lge ham som hans ven Didier.</p>
+<p>If&#x00F8;lge den ordre, som han havde modtaget, indfandt skuespilleren sig til fastsat tid ved den lille jernbanestation.</p>
+<p>Dyb stilhed laa over egnen, da hoftoget uden signal og klokkelyd gled ind paa perronen.</p>
+<p>Straks efter kom kongens lysende forspand jagende.</p>
+<p>Ludwig sprang let ud af sin ekvipage og steg ind i salonvognen, der foruden soverum indeholdt en modtagelsessalon, hvori der stod l&#x00E6;nestole, sofaer og et d&#x00E6;kket bord.</p>
+<p>Toget satte sig i bev&#x00E6;gelse i den m&#x00F8;rke nat ligesaa stilf&#x00E6;rdig, som det var kommet.</p>
+<p><pb n="83"/>En af kongens forvaltere, en f&#x00F8;dt schweizer, var reist iforveien for at leie en r&#x00E6;kke v&#x00E6;relser i Grand hotel Axenstein ved Brunnen.</p>
+<p>Desv&#x00E6;rre blev ankomsten til Schweiz bekjendt. Folk ilede til fra alle kanter for at faa et glimt af &#x00BB;romantikeren paa tronen&#x00BB;.</p>
+<p>Da han paa dampskibet &#x00AB;Italia&#x00BB; n&#x00E6;rmede sig Brunnen, var strandbredden oversaaet af mennesker. Ludwig var ikke istand til at undertrykke sit mishag, der voksede, da han opdagede, at alle huse langs s&#x00F8;en var smykkede med flag til hans &#x00E6;re.</p>
+<p>&#x00AB;Her vrimler det af mennesker. Jeg vil leve ukjendt og alene for mig selv!&#x00BB; udbr&#x00F8;d han.</p>
+<p>Ved landgangsbroen holdt hotel Axensteins vogn forsp&#x00E6;ndt med fire heste. Nu saa man ogsaa, at det schweiziske politi var opstillet i anledning af modtagelsen.</p>
+<p>Dette var for meget for den menneskesky monark.</p>
+<p>&#x00AB;Jeg vil aldeles ikke gaa i land her!&#x00BB; raabte han. &#x00AB;Jeg vil ikke gj&#x00F8;re mig til ovations-offer.&#x00BB;</p>
+<p>Han lod dampskibet styre videre til Fl&#x00FC;elen. Paa tilbageveien erkyndigede han sig om der ikke fandtes en anden plads end Brunnen, hvor man kunde lands&#x00E6;tte ham.</p>
+<p><pb n="84"/>Kapteinen n&#x00E6;vnte et lidet sted i n&#x00E6;rheden og satte kursen did.</p>
+<p>Neppe opdagede man dette ved Brunnen, f&#x00F8;r hele massen styrtede efter.</p>
+<p>Landgangsbroen var t&#x00E6;t besat af skarer, der jublede ham im&#x00F8;de; t&#x00F8;rkl&#x00E6;der svingedes og hurraraab fyldte luften, idet hans majest&#x00E6;tiske skikkelse skred gjennem r&#x00E6;kkerne.</p>
+<p>Venlig og elskv&#x00E6;rdig besvarede han folkets hilsener.</p>
+<p>&#x00AB;Jeg maa tilstaa,&#x00BB; sagde han, da han sad i vognen, &#x00AB;at jeg alligevel har gl&#x00E6;det mig over denne varme velkomst; thi den viser rigtig det brave folks hjertelige sindelag. Schweizerne er gode mennesker!&#x00BB;</p>
+<p>Han var dybt greben af den herlige natur, og hans ansigt straalede.</p>
+<p>Men neppe bemerkede han de mange fremmede, som vedblivende tr&#x00E6;ngte sig om ham, f&#x00F8;r han atter begyndte at blive mismodig.</p>
+<p>Han gik op og ned i sine v&#x00E6;relser og sagde gang paa gang:</p>
+<p>&#x00AB;Dette er jo et hotel og ikke et slot; her vil jeg ikke blive!&#x00BB;</p>
+<p>Faa dage efter leiede han den n&#x00E6;rliggende villa &#x00AB;Guttenberg&#x00BB;, hvorfra han gjorde mange smukke udflugter i omegnen. Kantonal-regjeringen stillede <pb n="85"/>et dampskib til hans raadighed, som han meget ofte benyttede. I de smukke, maanelyse n&#x00E6;tter deklamerede Kainz for ham; og fra bredden af Vierwaldst&#x00E4;dters&#x00F8;en h&#x00F8;rte han de glade schweiziske folkesange.</p>
+<p>Hans venlige v&#x00E6;sen vandt megen sympati i egnen. En s&#x00F8;ndag meldte der sig syv unge, smukke schweizerpiger i hans villa; de vilde bede ham om penge til at reise til Amerika. Da han ikke var tilstede, forlangte en af dem pen og bl&#x00E6;k, hvorefter hun paa en original og munter maade gav udtryk for sit eget og venindernes &#x00F8;nske.</p>
+<p>Brevet blev forelagt kongen, som morede sig meget over det. Han svarede imidlertid, at han elskede og &#x00E6;rede det schweiziske folk altfor h&#x00F8;it til at ville medvirke til, at syv af dets yndigste d&#x00F8;tre forlod landet.</p>
+<p>Det fort&#x00E6;lles, at schweizere skal have ytret:</p>
+<p>&#x00AB;Hvis vi skulde v&#x00E6;lge os en konge, kunde valget ikke falde paa nogen anden end paa Ludwig den anden af Bayern.&#x00BB;</p>
+<p>Regelm&#x00E6;ssig bes&#x00F8;gte han det skj&#x00F8;nne R&#x00FC;tli. Han havde en stor forkj&#x00E6;rlighed for dette sted, hvor de gamle schweizere aflagde troskabseden. Kainz pleiede at f&#x00F8;lge ham; de opholdt sig timevis sammen paa udsigtspladsen, hvor den unge skuespiller deklamerede R&#x00FC;tli-sangen:</p>
+<lg>
+<l><pb n="86"/>&#x00AB;Sei, R&#x00FC;tli, mir freundlich gegr&#x00FC;sset,</l>
+<l>Du stilles Gel&#x00E4;nde am See,</l>
+<l>Wo spielend die Welle zerfliesset,</l>
+<l>Gen&#x00E4;hrt vom ewigen Schnee!</l>
+</lg>
+<lg>
+<l>Gepriessen sei, friedliche St&#x00E4;tte,</l>
+<l>Gepriessen sei, heiliges Land,</l>
+<l>Wo sprengten des Sklaventums Kette</l>
+<l>Die V&#x00E4;ter mit kr&#x00E4;ftiger Hand.</l>
+</lg>
+<lg>
+<l>Da standen die V&#x00E4;ter zusammen</l>
+<l>F&#x00FC;r Freiheit und heimisches Gut</l>
+<l>Und schwuren beim heiligsten Namen,</l>
+<l>Zu st&#x00FC;rzen die Zwingherrenbrut!&#x00BB; &#x2013;</l>
+</lg>
+<p>N&#x00E6;sten hver aften gik de til et n&#x00E6;rliggende vertshus for at indtage et maaltid. Kongen var overmaade fordringsl&#x00F8;s og forlangte hverken dug eller serviet paa bordet. Han pleiede at tale livlig med verten, som maatte fort&#x00E6;lle ham om schweizisk folkeliv.</p>
+<p>Forholdet til Kainz blev henimod slutningen af opholdet i Schweiz noget kj&#x00F8;ligere fra Ludwigs side.</p>
+<p>En aften paa R&#x00FC;tli bad han ham om at deklamere en del af Schillers &#x00BB;Wilhelm Tell&#x00BB;. Skuespilleren lovede det, men det blev udsat til senere.</p>
+<p>Klokken to om natten gjentog han sin anmodning. Nu svarede Kainz, at han var for tr&#x00E6;t.</p>
+<p><pb n="87"/>Ludwig betragtede ham forundret og taug et &#x00F8;ieblik. Endelig sagde han:</p>
+<p>&#x00AB;Nu ja, De er tr&#x00E6;t. Hvil Dem ud!&#x00BB;</p>
+<p>Han vendte ham ryggen og gik.</p>
+<p>Hesselschwerdt og verten fulgte ham til skibet.</p>
+<p>Da de kom ombord, sagde verten: &#x00AB;Hr. marquis! Hr. Didier er ikke kommen endnu!&#x00BB;</p>
+<p>&#x00AB;Lad ham hvile ud,&#x00BB; svarede Ludwig; &#x00AB;vi drager videre.&#x00BB;</p>
+<p>Kainz lod sig i hast s&#x00E6;tte over til Brunnen; men kongen var reist derfra, da han kom. Kunstneren fulgte efter til Luzern og b&#x00F8;nfaldt Hesselschwerdt om at melde ham. Denne vendte tilbage og meddelte, at hans majest&#x00E6;t vilde modtage ham i haven, hvis han ikke &#x00F8;nskede at indhente den fors&#x00F8;mte nattero.</p>
+<p>Ludwig indfandt sig kort efter. Kainz fremkom med nogle undskyldninger, som kongen afbr&#x00F8;d. Han forsikrede, at det gl&#x00E6;dede ham at se ham igjen, og at han &#x00E6;rgrede sig over, at han havde vist sig forstemt.</p>
+<p>Om han end omgikkes ham fortrolig, kunde hans udpr&#x00E6;gede selvf&#x00F8;lelse ikke tillade, at den passende gr&#x00E6;nselinje blev overskreden af hans unge ven.</p>
+<p>Efter tilbagekomsten fra Schweiz indb&#x00F8;d han <pb n="88"/>ham ikke mere. Han saa ham heller aldrig mere paa scenen, skj&#x00F8;nt han endnu en kort tid vedblev at brevveksle med ham.</p>
+<p>Det sidste brev, hvori han takker kunstneren for gode &#x00F8;nsker, som denne har sendt ham, slutter med f&#x00F8;lgende ord:</p>
+<quote>
+<p rend="noIndent">&#x00AB;Forhaabentlig t&#x00E6;nker Didier undertiden venlig paa sin Saverny. V&#x00E6;r hjertelig hilset! Alle gode aander velsigne Dem! Dette &#x00F8;nsker af ganske hjerte Deres venligsindede
+<lb/>Ludwig.</p>
+<p rend="noIndent">Schweizerhuset ved Hohenschwangau, den 31te juli 1881 om natten.&#x00BB;</p>
+</quote>
+<p>Kort tid efter fik Kainz pludselig afsked fra hoftheatret i M&#x00FC;nchen.</p>
+<p>Saal&#x00E6;nge kongen levede, haabede han, at han vilde blive kaldt tilbage; men haabet blev ikke opfyldt.</p>
+<p>Naar Ludwig senere h&#x00F8;rte tale om ham, afbr&#x00F8;d han samtalen straks. Naar han l&#x00E6;ste hans navn i avisen, lagde han bladet bort, eller han kastede det i papirkurven.</p>
+<p>Kainz&#x0027;s opf&#x00F8;rsel viste, at han havde v&#x00E6;ret uv&#x00E6;rdig til hans venskab; ingen har vel misbrugt hans tillid i h&#x00F8;iere grad end han. Kongen havde neppe lukket sine &#x00F8;ine, f&#x00F8;r den unge skuespiller solgte alle hans breve til et dagblad i Berlin.</p>
+<p><pb n="89"/>Da Ludwig i disse breve havde givet ham et indblik i sit f&#x00F8;lelsesliv, var offentliggj&#x00F8;relsen straks efter den tidligere velgj&#x00F8;rers d&#x00F8;d ikke blot upassende, men hjertel&#x00F8;s.</p>
+<p>Den almindelige dom om hans optr&#x00E6;den karakteriseres i f&#x00F8;lgende vers:</p>
+<lg>
+<l>&#x00AB;Hat Ludwig dir in k&#x00F6;niglicher Gr&#x00F6;sse</l>
+<l>Gezeigt des Herzens Tiefen ohne Scheu,</l>
+<l>Du warst gewiss, da du sie bloss jetzt legest,</l>
+<l>Dem todten, hohen Freunde wenig treu.&#x00BB;</l>
+</lg>
+</div>
+<div type="chapter">
+<head type="main">XIII. Kong Ludwig og hans tjenere</head>
+<p rend="noIndent">Ludwigs barndomsven, overstaldmesteren grev Holnstein havde gjort sig saagodtsom uundv&#x00E6;rlig ved det bayerske hof. <note type="footnote"><hi rend="italic">Forfatternote:</hi> Se &#x00AB;Ludwig den anden, konge af Bayern&#x00BB;.</note> For end ydermere at for&#x00F8;ge sin magt, havde han besat posterne ved den personlige kammertjeneste hos kongen med chevaux-legers soldater, der h&#x00F8;rte til hans egen etat.</p>
+<p>Dette system blev underst&#x00F8;ttet af den tidligere omtalte staldmester Hornig.</p>
+<p>De fleste staldknegte, som skulde gj&#x00F8;re tjeneste hos ham, manglede kjendskab til de former, der var n&#x00F8;dvendige ved et hof, selv om dette hof var en eneboers og kongen en s&#x00E6;rling.</p>
+<p>Inden deres tiltr&#x00E6;delse fik de derfor anstandsundervisning af den kongelige balletmester og undervisning i smuk udtale og deklamation af hofskuespillere.</p>
+<p><pb n="91"/>Disse u&#x00F8;vede soldater skulde nu opvarte en vanskelig og egensindig monark, servere for ham med anstand og hj&#x00E6;lpe ham med toilettet, skj&#x00F8;nt de neppe kjendte de gjenstande, som han daglig benyttede.</p>
+<p>Deres let forstaalige ubehj&#x00E6;lpsomhed fremkaldte heftige vredesudbrud fra kongens side. Flere gange lod han sig forlede til haandgribeligheder. Han slog til med sin ridepisk; og det fortaltes, at han havde taget sin thekande og h&#x00E6;ldt ud over en tjeners ryg.</p>
+<p>Ubehagelige ansigter var ham en gru. En af hans faders betroede tjenere mishagede ham i hans barndom i den grad ved sit lidet tiltalende ydre, at han altid vendte sig bort, naar han traadte ind, skj&#x00F8;nt kong Maximilian var meget vred derover.</p>
+<p>Og dog havde kammerlakaien Mayr, der l&#x00E6;ngst holdt ud hos ham, et udseende, der var ham h&#x00F8;ist ubehageligt. Hans ansigt skr&#x00E6;mte ham; og han forlangte, at han lange tider ad gangen skulde b&#x00E6;re maske for ansigtet, naar han opvartede ham. Ludwig kunde ikke udstaa denne mand og sagde ofte, at han havde en forudf&#x00F8;lelse af, at Mayr vilde bringe ham ulykke. Alligevel kunde han ikke undv&#x00E6;re ham, fordi han saa godt forstod at opfylde hans &#x00F8;nsker.</p>
+<p><pb n="92"/>En af hans andre lakaier anstillede sig altid meget enfoldig. Kongen trykkede derfor et segllak paa hans pande; og han fik ikke lov til at vise sig for ham uden dette tegn paa sin dumhed.</p>
+<p>Skj&#x00F8;nt tjenerne led under hans heftige v&#x00E6;sen, kunde han til andre tider v&#x00E6;re en altfor mild herre. Han overhobede sine underordnede med for&#x00E6;ringer og velgjerninger, naar han f&#x00F8;lte, at han havde gjort dem uret; og naar han saa sig tvungen til at fjerne en eller anden, pleiede han at s&#x00F8;rge for hans fremtid.</p>
+<p>En af hans kammertjenere blev alvorlig syg. Ludwig bes&#x00F8;gte ham og fandt ikke spor af bekvemmeligheder i hans bolig. Han spurgte ham, hvorfor han ikke flyttede til et bedre og sundere sted. Den syge svarede, at hans midler ikke tillod det. Samme dag sendte han ham en st&#x00F8;rre pengegave, og han sikrede ham h&#x00F8;iere l&#x00F8;n.</p>
+<p>Hellig tre konge-dag pleiede han hvert aar at holde fest for sine tjenere paa jagtslottet Pleckenau. Man har paastaaet, at hver af disse kostede ham op til 40,000 mark, skj&#x00F8;nt de gaver, som han lod uddele, n&#x00E6;sten udelukkende bestod af mad og drikkevarer.</p>
+<p>Alle klasser af tjenerskabet var hans gjester; hele dagen var en fest. Kongen morede sig med <pb n="93"/>at betragte lystigheden og legen, og man fortalte, at han undertiden deltog i forn&#x00F8;ielsen.</p>
+<p>Dette, saavel som flere andre historier fra hans privatliv, var overdrivelse og usandhed.</p>
+<p>I hofholdningen herskede en utrolig ligegyldighed; hans underordnede misbrugte hans godhed og berigede sig paa en rentud haarreisende maade.</p>
+<p>En af hans tjenere skj&#x00F8;d i beruset tilstand en arbeidsmand; dennes pleie paa slottet blev betalt af Ludwigs kasse, skj&#x00F8;nt begivenheden maatte holdes skjult for hans majest&#x00E6;t, der ellers sikkert vilde have afskediget og straffet sin tjener.</p>
+<p>Medens den &#x00AB;allernaadigste&#x00BB; levede i sin dr&#x00F8;mmeverden og ikke bekymrede sig om noget, forlystede hans underordnede sig den hele nat.</p>
+<p>Kongen negtede enhver tilladelse til at bese hans slotte. Man respekterede dog ingenlunde dette forbud; uden hans vidende f&#x00F8;rte man familie og venner rundt overalt. Selv udenforstaaende beh&#x00F8;vede blot at udtale et &#x00F8;nske derom, og tjenerne overtraadte straks sin herres befaling.</p>
+<p>H&#x00F8;rte han larmen af disse fremmede, saa forstod man at overbevise ham om, at han havde taget feil; havde han bemerket ukjendte ansigter, svarede man, at hans n&#x00E6;rsynethed havde vildledet ham.</p>
+<p><pb n="94"/>Han blev tilsidst saa tr&#x00E6;t af sine omgivelser, at han gav sine befalinger gjennem lukkede d&#x00F8;re; en skraben paa v&#x00E6;ggen betegnede, at man havde forstaaet ham. De faa af hans underordnede, som fik lov til at tr&#x00E6;de ind, maatte staa dybt b&#x00F8;iede og afholde sig fra at se paa kongen.</p>
+<p>Ofte gav han ogsaa sine ordrer skriftlig. Han befalede, at disse papirer &#x00F8;ieblikkelig skulde s&#x00F8;nderrives; men tjenerne opbevarede alligevel hver linje fra hans haand og benyttede dem i sin tid som vaaben mod ham.</p>
+<p rend="center"><figure><graphic url="Tschudi1906_95.PNG"/></figure></p>
+</div>
+<div type="chapter">
+<head type="main">XIV. Den sindssyge konge</head>
+<p rend="noIndent">I det skj&#x00F8;nneste af de slotte, som Ludwig har bygget, staar der ved indgangen til den pr&#x00E6;gtige sangerhal et s&#x00E6;lsomt stenbillede, hvortil han selv havde givet ideen: en palme, der strutter af fylde og kraft, rigt bel&#x00E6;sset med gyldne frugter! Ved dens f&#x00F8;dder ligger en h&#x00E6;slig drage med h&#x00F8;it opspilet gab, &#x2013; et sindbillede paa den sygdom, der lurede paa den arvelig belastede konge.</p>
+<p>Hos prins Otto af Bayern var vanviddet udbrudt pludselig; hos Ludwig kom det umerkelig snigende, saa at end ikke de sagkyndige havde &#x00F8;inene helt aabne for faren.</p>
+<p>Utvivlsomt vidste han selv, at han periodisk var sindsforvirret; men han vilde for ingen pris lade omverdenen se sin tilstand.</p>
+<p>I februar 1884 lod han en tandl&#x00E6;ge kalde til sig. Denne har nedskrevet sine erindringer om bes&#x00F8;get hos ham:</p>
+<p><pb n="98"/>Kongen var yderst elskv&#x00E6;rdig. Han talte f&#x00F8;rst om de mange lidelser, som hans t&#x00E6;nder foraarsagede ham. Skj&#x00F8;nt han ikke taalte, at hans tjenere saa paa ham, udholdt han timevis denne fremmede l&#x00E6;ge; ikke et ord eller en mine forraadte det ubehag, som han upaatvivlelig f&#x00F8;lte. Da tandl&#x00E6;gen et par gange modsagde ham, optog han dette rolig og venlig. Han fremf&#x00F8;rte nye grunde for sine egne anskuelser og viste en beundringsv&#x00E6;rdig selvbeherskelse. &#x2013;</p>
+<p>Med hele sin kraft kj&#x00E6;mpede han for at rive sig l&#x00F8;s fra det skjebnesvangre net, der spandt sig t&#x00E6;ttere og t&#x00E6;ttere om ham. Han s&#x00F8;gte at holde sig i ligevegt ved rastl&#x00F8;s virksomhed: Han hyggede paa tre steder. Mange af de gjenstande, som fyldte hans slotte, forf&#x00E6;rdigedes efter hans egne tegninger; og han pr&#x00F8;vede dem omhyggelig og anviste dem deres pladse.</p>
+<p>Den franske literatur interesserede ham s&#x00E6;rlig; han blev greben af et heftigt sv&#x00E6;rmeri for hoffet i Versailles.</p>
+<p>Ludwig den fjortende blev hans ideal. I begyndelsen n&#x00F8;iede han sig med at efterligne hans bygverker. Senere s&#x00F8;gte han at efterabe hans gang, hans holdning og daglige vaner.</p>
+<p>Han omgav sig med billeder af ham og hans hof; han bar manchet-knapper med de franske <pb n="99"/>liljer, og de var broderede i guld paa stole, sofaer og puder i hans sale.</p>
+<p>Han l&#x00E6;ngtede efter at v&#x00E6;re uindskr&#x00E6;nket hersker. De utallige b&#x00F8;ger og skrifter, som han l&#x00E6;ste om Ludwig den fjortende, gav hans vrangforestillinger uafbrudt n&#x00E6;ring.</p>
+<p>I de sidste aar beherskedes han af fuldkommen stormandsgalskab. Han troede, at han modtog bes&#x00F8;g af &#x00AB;le roi soleil&#x00BB;, og at han talte med ham. Tidevis indbildte han sig endog, at han var denne m&#x00E6;gtige enevoldshersker.</p>
+<p>Ogsaa for mindet om Marie Antoinette n&#x00E6;rede han et sygeligt sv&#x00E6;rmeri. Han lod l&#x00E6;se messer paa hendes og Ludwig den sekstendes d&#x00F8;dsdag, og han fordybede sig i dr&#x00F8;mme om den ulykkelige dronning.</p>
+<p>Rundt hans taffel i den store festsal var der stillet stole for herrer og damer fra det franske hof. Undertiden troede han, at de virkelig sad der, og han underholdt sig livlig med dem paa fransk. Tr&#x00E6;ffende, som han ofte kunde v&#x00E6;re i sine udtalelser, ytrede han, at dette selskab var ham saa behageligt; thi &#x00AB;det indfandt sig, naar han &#x00F8;nskede det og forsvandt paa f&#x00F8;rste vink&#x00BB;.</p>
+<p>Altid alene hengav han sig i fuldt maal til sine fantastiske indfald. Naar han ikke kj&#x00F8;rte ud, pleiede <pb n="100"/>han at tilbringe natten paa s&#x00F8;en eller i den oplyste sangerhal paa sit slot.</p>
+<p>Gjennem aarr&#x00E6;kker n&#x00E6;rede han den vanvittige plan at samle m&#x00E6;nd, der skulde liste sig rundt i hans rige og lytte til alle udtalelser om hans person.</p>
+<p>Han var en besynderlig dobbeltnatur: med den st&#x00F8;rste sympati for republiken Schweiz og frihedshelten Wilhelm Tell forenede han &#x00F8;nsket om at eie en bastille, hvor enhver, der vovede at udtale en anden mening end hans, skulde indesp&#x00E6;rres for livstid.</p>
+<p>De gittere og mure, hvormed han omgav sine slotte, viste bedre end alle rygter, at han skyede menneskene.</p>
+<p>En l&#x00E6;rd forsker fik det hverv at s&#x00F8;ge en &#x00F8;de &#x00F8; eller et fjerntliggende land, der kunde bortbyttes mod Bayern, og hvor den absolutistiske stat kunde oprettes, som han dr&#x00F8;mte om.</p>
+<p>Skj&#x00F8;nt han havde en saa h&#x00F8;i mening om sin kongev&#x00E6;rdighed, forglemte han denne ved tusinde leiligheder. Ved hans sidste hofselskab i M&#x00FC;nchen var dette i saa h&#x00F8;i grad tilf&#x00E6;ldet, at hans moder saa sig foranlediget til at h&#x00E6;ve taffelet.</p>
+<p>Hans udbrud af raseri blev hyppigere, hans kamp mod sygdommen svagere. Alt syntes ham tidevis ligegyldigt.</p>
+<p><pb n="101"/>Undertiden h&#x00F8;rte han fodtrin bag sig og vendte sig forskr&#x00E6;kket; men der var ingen at se. Han saa dyr krybe rundt paa gulvet, men opdagede i n&#x00E6;ste &#x00F8;ieblik, at tjeneren, der lydig b&#x00F8;iede sig for at tage det bort, ikke holdt noget i haanden. Han stillede ham paa pr&#x00F8;ve, forlangte, at han skulde se ting, som kongen selv ikke saa, og overfaldt ham med haan og vrede, naar han havde ladet sig forlede til at narre ham.</p>
+<p>Naar Ludwig kj&#x00F8;rte ud, pleiede han at bukke dybt for et enkelt tr&#x00E6; i skoven. I sin kroningsdragt med sceptret i haanden hilste han &#x00E6;rb&#x00F8;dig statuerne af de franske konger. Enkelte gange lod han sneen bed&#x00E6;kke med stene, for at han om vinteren kunde indbilde sig, at det var sommer.</p>
+<p>Tiltrods for alt bevarede han sin skarpe iagttagelsesevne. Han oph&#x00F8;rte aldrig til en vis grad at t&#x00E6;nke logisk og at handle udholdende og konsekvent. Selv i hans allersidste aar var der uger og dage, hvor han var ved fuld bevidsthed.</p>
+<p rend="center"><figure><graphic url="Tschudi1906_103.PNG"/></figure></p>
+</div>
+<div type="chapter">
+<head type="main">XV. De sidste m&#x00F8;der mellem s&#x00F8;n og moder</head>
+<p rend="noIndent">En af de sidste vintre han levede, indb&#x00F8;d Ludwig uventet sin moder til at bes&#x00F8;ge ham paa Neuschwanstein.</p>
+<p>De to f&#x00F8;rste dage rettede han sig efter hendes vaner; de kj&#x00F8;rte ud sammen, og han holdt hende med selskab om aftnerne.</p>
+<p>Men snart vendte han tilbage til sin vante levevis: Naar han havde sagt godnat til hende, gjorde han sine lange kj&#x00F8;reture alene; og han sov langt udover formiddagen, som han ellers pleiede.</p>
+<p>Dette h&#x00E6;ndte uheldigvis ogsaa den dag, da enkedronningen skulde reise.</p>
+<p>Ludwig var f&#x00F8;rst henimod morgenen vendt tilbage fra sin tur, og han havde ikke befalet, at man skulde v&#x00E6;kke ham. Moderens vogn stod over en time forsp&#x00E6;ndt i slotsgaarden; hun selv gik ventende op og ned i den store hal. Hendes nerv&#x00F8;se utaalmodighed gik over til en kraftig <pb n="106"/>vrede, der som et uveir gj&#x00F8;d sig ud over s&#x00F8;nnens hoved, da han omsider viste sig. Et &#x00F8;ienvidne har fortalt, at hun skj&#x00E6;ldte ham ud, som om han fremdeles var den lille Ludwig, der holdt fast i hendes kjoleskj&#x00F8;rt.</p>
+<p>Hvad der var v&#x00E6;rre endnu: Hun skj&#x00E6;ldte ham ud i alle tjeneres paah&#x00F8;r!</p>
+<p>Kongen kyssede sin ophidsede moder gjentagne gange paa haanden og bad hende om undskyldning for, at han havde forsinket sig. &#x00C6;rb&#x00F8;dig f&#x00F8;rte han hende derpaa til hendes vogn, tog plads ved siden af hende og fulgte hende til jernbanestationen.</p>
+<p>Den stemning, hvori han befandt sig, da han vendte tilbage, tydede paa, at han havde f&#x00F8;lt sig dybt kr&#x00E6;nket over hendes tilrettevisning.</p>
+<p>Dette var den sidste gang hun bes&#x00F8;gte ham; men han bes&#x00F8;gte hende en gang senere.</p>
+<p>Den st&#x00F8;rste del af aaret boede enkedronningen paa Elbingen-Alp, der mere lignede et bondehus end en fyrstebolig.</p>
+<p>Beretninger om hendes s&#x00F8;ns uberegnelige opf&#x00F8;rsel tr&#x00E6;ngte ofte frem til hende. Man kan ane, hvad hun led i disse bitre aar.</p>
+<p>Den femtende oktober 1885 opholdt hun sig paa Hohenschwangau; kongen var dengang paa Linderhof.</p>
+<p><pb n="107"/>Det var hendes sekstiende f&#x00F8;dselsdag, og Ludwig fik det indfald personlig at overbringe hende sin lyk&#x00F8;nskning.</p>
+<p>Henimod klokken ti om aftenen kom han til Hohenschwangau. Slotsporten var st&#x00E6;ngt; paa portnerens sp&#x00F8;rgsmaal om, hvem der stod udenfor, l&#x00F8;d svaret at kongen &#x00F8;nskede at tale med sin moder.</p>
+<p>Enkedronningen stod i begreb med at gaa til sengs; s&#x00F8;nnens uventede tilsynekomst bragte hele slotspersonalet i bev&#x00E6;gelse.</p>
+<p>Han blev natten over paa slottet og spiste middag med dronning Marie og hendes damer paa Pleckenau den f&#x00F8;lgende dag.</p>
+<p>Han var fuldst&#x00E6;ndig afvant med at f&#x00F8;re en selskabskonversation.</p>
+<p>Under hele middagen henvendte han ikke et ord til andre end til moderen. Og det paafaldt, at han var langt mere taus, end han tidligere havde pleiet at v&#x00E6;re.</p>
+<p>Samv&#x00E6;ret med enkedronningen var denne gang pr&#x00E6;get af den st&#x00F8;rste hjertelighed. Efter middagen kj&#x00F8;rte han tilbage til Linderhof. Hans moder fulgte ham halvveis; det var det sidste lysglimt i hendes liv.</p>
+<p>Ved hulveien, hvor b&#x00F8;nderne syv maaneder senere samlede sig for at frelse den fangne konge, <pb n="108"/>tog s&#x00F8;n og moder afsked fra hinanden for aldrig mere at sees.</p>
+<p>Et halvt aar efter opfordrede keiseren af &#x00D8;sterrige indtr&#x00E6;ngende dronning Marie til at ops&#x00F8;ge Ludwig for at paavirke ham til at vise sig for verden; thi uhyggelige rygter var i oml&#x00F8;b om hans tilstand.</p>
+<p>Den bekymrede moder henvendte sig skriftlig til sin s&#x00F8;n, der svarede, at han om tre dage vilde modtage hendes majest&#x00E6;t.</p>
+<p>Hendes afreise var fastsat; og hendes ekvipager og tjenerskab indtraf i Hohenschwangau. Men det blev &#x00F8;ieblikkelig sagt dem af Ludwigs rideknegte, at de gjerne kunde reise hjem igjen.</p>
+<p>&#x00AB;Dronningen vil dog ikke komme ind til kongen&#x00BB;, hed det; &#x00AB;han er utilgj&#x00E6;ngelig for alle&#x00BB;.</p>
+<p>Snart efter afgik der et telegram, der indeholdt at &#x00AB;det gjorde kongen meget ondt, men paa grund af tandpine kunde han ikke modtage nogen og altsaa ikke heller sin kj&#x00E6;re fru moder!&#x00BB;</p>
+</div>
+<div type="chapter">
+<head type="main">XVI. Pengen&#x00F8;d</head>
+<p rend="noIndent">Vaaren 1886 hvilede der en trykket stemning over Bayern. Intet personligt foredrag fandt sted hos kongen. Alle statsforretninger blev udf&#x00F8;rte skriftlig; og de befalinger, som kom fra Ludwig, blev overbragte af hans hof-fur&#x00E9;r Hesselschwerdt.</p>
+<p>Indviede havde l&#x00E6;nge vidst, at hans finansielle forhold maatte forbedres, hvis ikke kronens anseelse skulde lide derved. Bladene talte om, at hans helbredstilstand havde forv&#x00E6;rret sig.</p>
+<p>Selv s&#x00F8;gte han at afkr&#x00E6;fte de beretninger, der sneg sig rundt, ved at spadsere midt om dagen og tale venlig med dem, som han m&#x00F8;dte.</p>
+<p>Han havde aldrig kjendt penges v&#x00E6;rd, men betragtet det som ministrenes pligt at skaffe dem, og som sin egen ret at bort&#x00F8;dsle dem.</p>
+<p>1884 havde hans finansminister von Riedel tilveiebragt et laan paa syv og en halv million mark.</p>
+<p><pb n="110"/>Neppe et aar efter modtog samme minister en kongelig haandskrivelse, hvori han blev anmodet om at reise et nyt laan paa seks og en halv million.</p>
+<p>Nu forklarede han kongen aabent, i hvilken yderst vanskelig stilling kabinetskassen befandt sig.</p>
+<p>Efterretningen vakte Ludwigs uro; men han viste sig dog utilgj&#x00E6;ngelig for de forestillinger, som man gjorde ham. Gjennem en underordnet hofembedsmand lod han ministeren tilrettevise, fordi han havde vovet at henvende sig direkte til hans majest&#x00E6;t.</p>
+<p>Riedel svarede med at indsende sin afskedsans&#x00F8;gning. Det &#x00F8;vrige ministerium erkl&#x00E6;rede, at hvis den blev bevilget, vilde de alle tr&#x00E6;de tilbage.</p>
+<p>Ogsaa de andre medlemmer af kongens raad fik nu en reprimande. Samtidig sendte Ludwig imidlertid sin finansminister et naadigt brev, hvori han bad ham om at blive i sin stilling.</p>
+<p>Det ligger klart i dagen, at hans gj&#x00E6;ld ingenlunde var en f&#x00F8;lge af urigtige finansoperationer; ei heller var den en umiddelbar f&#x00F8;lge af hans forbigaaende luner. Kassemangelen skyldtes for en stor del hans um&#x00E6;ttelige byggelyst.</p>
+<p><pb n="111"/>Fuldf&#x00F8;relsen af hans slotte blev forsinket paa grund af de &#x00F8;konomiske vanskeligheder. Alligevel beskjeftigede han sig uafbrudt med fremtidsplaner: Et nyt slot, &#x00AB;Falkenstein&#x00BB;, skulde reises paa en n&#x00E6;sten utilgj&#x00E6;ngelig fjeldtop t&#x00E6;t ved gr&#x00E6;nsen af Tyrol. Et andet og mindre slot skulde opf&#x00F8;res i chinesisk stil i n&#x00E6;rheden af Linderhof.</p>
+<p>Gj&#x00E6;lden voksede fra dag til dag. Forretningsfolk, der tr&#x00E6;ngte penge, ventede utaalmodig paa, at deres regninger skulde blive betalte. Flere kreditorer indsendte retslige klager til et samlet bel&#x00F8;b af en og en halv million.</p>
+<p>En katastrofe syntes uundgaalig. Man talte h&#x00F8;it om, at det var paa tide at stanse kongens byggeforetagender.</p>
+<p>Skj&#x00F8;nt han ikke l&#x00E6;nger modtog sin kabinettsekret&#x00E6;r, gik regjeringsmaskineriet endnu sin vante gang. Han undertegnede de dokumenter, der blev sendte til ham; men selv vigtige statspapirer naaede ham kun gjennem tjenerskabets mellemkomst, og var han i slet lune, lod han dem dagevis sl&#x00E6;nge rundt paa sit bord.</p>
+<p>Hans pengemangel var kjendt langt udenfor Bayerns gr&#x00E6;nser. Ludwig var vred over den haan, hvormed b&#x00F8;rsbladene i Wien og Berlin omtalte den; og det overraskede ham smertelig, at j&#x00F8;derne forfulgte ham mest.</p>
+<p><pb n="112"/>&#x00AB;Ved man ikke&#x00BB;, udbr&#x00F8;d han, &#x00AB;at jeg er den eneste fyrste, der fra begyndelsen af den antisemitiske bev&#x00E6;gelse har truffet strenge forholdsregler for at modarbeide den?&#x00BB;</p>
+<p>Den trykkende pengeforlegenhed gjorde ham tilb&#x00F8;ielig til at betragte hver ukjendt som en rykker.</p>
+<p>&#x00AB;Igaar, da jeg kj&#x00F8;rte ud,&#x00BB; sagde han til sin fris&#x00F8;r, &#x00AB;m&#x00F8;dte jeg en mand, der betragtede mig paa en saa besynderlig maade. Jeg troede virkelig, at han kom for at pants&#x00E6;tte mine heste.&#x00BB;</p>
+<p>Paa en af sine sidste spadsereture i skoven ved Neuschwanstein traf han en fattig gut, der sankede ved. Da han spurgte ham om, hvem hans for&#x00E6;ldre var, svarede gutten, at hans fader havde v&#x00E6;ret stenhugger, men ikke l&#x00E6;nger havde arbeide.</p>
+<p>&#x00AB;Hvorfor beder han ikke kongen om hj&#x00E6;lp?&#x00BB; spurgte Ludwig.</p>
+<p>&#x00AB;Han har selv ingen penge, og ingen vil laane ham mere,&#x00BB; l&#x00F8;d svaret.</p>
+<p>Kongen lo og for&#x00E6;rede ham et fem markstykke; men sikkert var latteren meget bitter.</p>
+<p>Hans gj&#x00E6;ld havde naaet en h&#x00F8;ide af fjorten millioner.</p>
+<p>Den femte mai 1886 forestillede hans ministre ham, at det var absolut n&#x00F8;dvendigt at ordne hans <pb n="113"/>&#x00F8;konomiske forhold og indskr&#x00E6;nke hans udgifter. Maaneder f&#x00F8;r havde de meddelt ham, at enhver udsigt til at aabne nye hj&#x00E6;lpekilder var afskaaret.</p>
+<p>Paa alle opt&#x00E6;nkelige maader arbeidede han nu selv paa at reise penge. Hesselschwerdt blev sendt til Regensburg for om muligt at faa et laan paa tyve millioner hos den grundrige fyrste af Thurn-Taxis. Bismarck blev raadspurgt; og kongen s&#x00F8;gte at skaffe penge fra Amerika.</p>
+<p>En adjutant blev sendt til keiseren af Brasilien, en anden til kongen af Sverige, en tredie til kongen af Belgien.</p>
+<p>Pengefyrsterne Rothschild, Bleichr&#x00F8;der og Erlanger blev anmodede om at bistaa ham. Og han planlagde en henvendelse til den tyrkiske sultan og til shahen af Persien.</p>
+<p>De hj&#x00E6;lpemidler, som han s&#x00F8;gte i n&#x00F8;den, er talende beviser paa, at hans aandelige og s&#x00E6;delige kraft var i hurtig nedgang; thi i sin uro og forvirring gav han endog hemmelig befaling til at verve folk, der skulde gj&#x00F8;re indbrud i bankerne i nogle af Europas hovedst&#x00E6;der.</p>
+<p>To af hans f&#x00E6;ttere tvivlede endnu paa hans sindssygdom; de var derfor villige til at underst&#x00F8;tte ham. De satte ham i forbindelse med huset Orl&#x00E9;ans, der under sin korte herskerperiode <pb n="114"/>havde t&#x00E6;nkt mere paa at fylde sine egne lommer end paa Frankriges vel.</p>
+<p>Denne familie henvendte sig til Rothschild i Paris, som sendte sin sekret&#x00E6;r til M&#x00FC;nchen med fuldmagt til at afslutte et stort laan, hvis de betingelser, som man stillede, blev godkjendte af kongen. Huset Orl&#x00E9;ans skulde overtage garantierne og havde vistnok ogsaa lovet at gj&#x00F8;re dette.</p>
+<p>Forberedende raadslagninger fandt sted. Afgj&#x00F8;relsen strandede efter forlydende, fordi man paa fransk side forlangte, at Ludwig skulde forpligte sig at forblive neutral under udbruddet af en mulig krig mellem Preussen og Frankrige.</p>
+<p>Rothschilds sekret&#x00E6;r reiste tilbage til Paris og meldte sin herre, at han havde lidt nederlag. Kongen vilde visselig udstede et gj&#x00E6;ldsbevis; i politisk henseende vilde han derimod ei give et bindende l&#x00F8;fte.</p>
+<p rend="center"><figure><graphic url="Tschudi1906_115.PNG"/></figure></p>
+</div>
+<div type="chapter">
+<head type="main">XVII. Forr&#x00E6;derske planer</head>
+<p rend="noIndent">Den tidligere omtalte grev Holnsteins indflydelse ved det bayerske hof havde varet lige til 1883, da han var faldet i unaade. Grunden er ikke almindelig bekjendt. Nogle har paastaaet, at han havde negtet at v&#x00E6;re behj&#x00E6;lpelig med et laan; andre har ment, at Ludwig fik meddelelser om neds&#x00E6;ttende udtryk, som greven havde brugt om sin herre.</p>
+<p>Det er klart for enhver, der ved, hvor vanskelig det er at gj&#x00F8;re et menneske umyndigt, at dette skridt, som man nu agtede at foretage, maatte v&#x00E6;re dobbelt vanskeligt, hvor det gjaldt en regjerende hersker.</p>
+<p>Skj&#x00F8;nt personlig paa sp&#x00E6;ndt fod med Ludwig var grev Holnstein bleven staaende i sin stilling som &#x00F8;verste hof-staldsmester.</p>
+<p>Gjennem mange aar havde han n&#x00F8;ie kjendt kongens levevis; og han skaffede et meget stort og <pb n="118"/>vegtigt materiale tilveie, hvormed man kunde naa det &#x00F8;nskede maal.</p>
+<p>Da kongen ikke l&#x00E6;nger omgikkes andre end sine tjenere, var der kun tre eller fire mennesker, af hvem man kunde faa vide kjendsgjerninger vedr&#x00F8;rende hans sidste tid. Holnstein paatog sig at underhandle med disse; og de viste sig villige til at udtale sig i samme aand som han.</p>
+<p>Den personlige tjeneste hos Ludwig blev udf&#x00F8;rt af den tidligere omtalte Mayr samt af en forhenv&#x00E6;rende chevaux-legers soldat Alfons Weber, som blev holdt udenfor den hele sag.</p>
+<p>Mayr stod derimod i uafbrudt forbindelse med de ledende kredse i M&#x00FC;nchen; og det var ham og Hesselschwerdt, der, ved siden af Holnstein, leverede beviserne for, at det var paa tide at stille kongen under formynderskab.</p>
+<p>Fra den f&#x00F8;rste halvdel af mai var de fleste af hans omgivelser forberedte paa, at en katastrofe forestod.</p>
+<p>Hans fordringshavere blev mere og mere paatr&#x00E6;ngende, pengen&#x00F8;den mere og mere truende.</p>
+<p>Da der ikke saaes udsigt til hj&#x00E6;lp fra nogen anden kant, besluttede Ludwig at gjenoptage forhandlingerne med Rothschild.</p>
+<p>Man lovede ham et laan paa tretti eller firti <pb n="119"/>millioner francs mod fire procent renter og betalbart inden en vis tid. I tilf&#x00E6;lde af at Bayern forblev neutralt under en krig mellem Frankrige og Preussen, skulde tilbagebetalingen blive eftergivet tilligemed alle videre renter.</p>
+<p>Paa denne maade ber&#x00F8;vede man overenskomsten den braad, som kunde saare forbundsf&#x00E6;llerne i Tyskland; og man fordrede ikke mere af Bayerns konge, end han til n&#x00F8;d kunde gaa ind paa.</p>
+<p>Hesselschwerdt, der ogsaa tidligere havde v&#x00E6;ret mellemmand mellem Rothschilds secret&#x00E6;r og sin herre, fik af Ludwig ordre til at begive sig til Paris med et kongeligt gj&#x00E6;ldsbevis og at modtage pengefyrstens millioner.</p>
+<p>Nu traadte grev Holnstein pludselig frem. Som chef paa stald-etaten var han Hesselschwerdts overordnede. Han vidste, at Rothschilds sekret&#x00E6;r havde v&#x00E6;ret i M&#x00FC;nchen, og kjendte til de samtaler, som denne havde havt med medlemmer af huset Orl&#x00E9;ans. I paavente af hvad der vilde komme, havde han indskj&#x00E6;rpet Hesselschwerdt, at han intet maatte foretage uden grevens vidende, fordi kong Ludwig i den pinlige stilling, hvori han befandt sig, muligens kunde lade sig forlede til skridt, der kunde have bet&#x00E6;nkelige f&#x00F8;lger for staten.</p>
+<p>Da underhandlingerne gjenoptoges i mai maaned, <pb n="120"/>havde Holnstein paabegyndt en badekur i Karlsbad.</p>
+<p>Inden sin afreise havde han strengt paabudt Hesselschwerdt &#x00F8;ieblikkelig at underrette ham derom, hvis hans reise til Paris ikke kunde forhindres. Greven havde truende tilf&#x00F8;iet:</p>
+<p>&#x00AB;Adlyd mig, Hesselschwerdt, ellers kan det blive Dem en dyr historie!&#x00BB;</p>
+<p>Holnstein havde neppe v&#x00E6;ret otte dage i Karlsbad, f&#x00F8;r han modtog det ventede telegram. Han skyndte sig til M&#x00FC;nchen og lod Hesselschwerdt kalde til sig. Hof-fur&#x00E9;ren medbragte den forseglede skrivelse, der indeholdt gj&#x00E6;ldsbeviset fra Ludwigs haand.</p>
+<p>Uden at bet&#x00E6;nke sig et &#x00F8;ieblik tog greven ham med sig til ministerpr&#x00E6;sidenten dr. von Lutz, og overgav i hans h&#x00E6;nder brevet til Rothschild, der var forsynet med kongens segl. Han ans&#x00F8;gte derefter om audiens hos prins Luitpold, der ved prins Ottos sygdom var bleven den, som stod tronen n&#x00E6;rmest.</p>
+<p>Medens han talte med kongens onkel, meldte man, at det samlede ministerium &#x00F8;nskede foretr&#x00E6;de. Raadslagninger fandt sted. Ludwigs brev blev aabnet; og man forb&#x00F8;d Hesselschwerdt at foretage reisen til Paris. Fire fremragende l&#x00E6;ger blev <pb n="121"/>budsendte. De erkl&#x00E6;rede, at kongen var sindssyg og antog, at hans sygdom var uhelbredelig.</p>
+<p>Man havde nu en gyldig grund til at gj&#x00F8;re ham umyndig.</p>
+<p>Et hemmeligt familieraad traadte sammen i M&#x00FC;nchen. Mod to stemmer besluttede prinserne, at kongen skulde tages i pleie, og at der skulde inds&#x00E6;ttes et regentskab med prins Luitpold som rigsforstander. Ministeriet skulde blive staaende. Man &#x00F8;nskede at gj&#x00F8;re overhofmesteren grev Castell til Ludwigs formynder; men denne afslog det s&#x00F8;rgelige hverv. Grev Holnstein blev derpaa udn&#x00E6;vnt til embedet.</p>
+<p>Prins Luitpold vilde, at kongen skulde underrettes, inden proklamationen fandt sted, for at han, om muligt, kunde give sit samtykke til den nye ordning.</p>
+<p>Dr. von Lutz underrettede samtidig fyrst Bismarck om det paat&#x00E6;nkte laan i Paris og om, at medlemmer af huset Orl&#x00E9;ans havde spillet en rolle i sagen.</p>
+<p>Fyrsten gav den dav&#x00E6;rende franske ministerpr&#x00E6;sident et vink. En debat vedr&#x00F8;rende de Orl&#x00E9;anske prinsers udvisning stod netop paa dagsordenen i det franske senat. Indholdet af Bismarcks telegram lod formode, at prinserne havde &#x00F8;nsket <pb n="122"/>at benytte Ludwigs pengeforlegenhed til at spille en politisk rolle.</p>
+<p>Denne meddelelse skal have v&#x00E6;ret hovedaarsagen til, at familien Orl&#x00E9;ans blev udvist fra Frankrige.</p>
+</div>
+<div type="chapter">
+<head type="main">XVIII. Forberedelser til at f&#x00E6;ngsle kongen. &#x2013; B&#x00F8;nderne samler sig for at frelse ham</head>
+<p rend="noIndent">Hesselschwerdt kunde selvf&#x00F8;lgelig ikke mere vise sig for kongen. Han meldte, at han var bleven syg, og at han derfor var forhindret fra at reise til Paris. Ludwig fik imidlertid vide gjennem sin fris&#x00F8;r, at fur&#x00E9;ren spadserede fuldst&#x00E6;ndig frisk rundt i hovedstadens gader.</p>
+<p>Skj&#x00F8;nt han tidligere af og til havde v&#x00E6;ret en smule mistroisk ligeoverfor ham, kunde han dog ikke t&#x00E6;nke, at han havde givet fra sig det forseglede brev, der var betroet i hans h&#x00E6;nder.</p>
+<p>En saakaldt hof-kommission var imidlertid paa vei til Hohenschwangau for at f&#x00E6;ngsle kongen og tage ham under l&#x00E6;gebehandling. Den bestod af ministeren for det kongelige hus grev Crailshaim, greverne Holnstein og T&#x00F8;rring, hr. von Washington, der skulde v&#x00E6;re kongens kavall&#x00E9;r, samt af direkt&#x00F8;ren for M&#x00FC;nchens offentlige sindssyge-anstalt, <pb n="124"/>dr. von Gudden. Desforuden med fulgte en underl&#x00E6;ge og otte sindssygevogtere.</p>
+<p>Af Ludwigs n&#x00E6;rmeste omgivelser var kammertjeneren Weber og staldpersonalet de eneste, som ikke anede, hvad der forestod.</p>
+<p>Natten til den niende juni kj&#x00F8;rte en r&#x00E6;kke hofvogne op foran det gamle slot Hohenschwangau.</p>
+<p>Grev Holnstein, der sad i den ene af dem, gik straks ned i den kongelige stald for at meddele personalet, at den skulde opl&#x00F8;ses.</p>
+<p>Livkusken Osterholzer sp&#x00E6;ndte netop hestene for Ludwigs vogn; thi kongen vilde, som s&#x00E6;dvanlig, kj&#x00F8;re ud i l&#x00F8;bet af natten.</p>
+<p>Greven befalede, at han straks skulde sp&#x00E6;nde fra, da en anden vogn var sat istand og en anden kusk skulde kj&#x00F8;re.</p>
+<p>Osterholzer paaberaabte sig sin herres befaling.</p>
+<p>&#x00BB;Kongen har intet mere at befale&#x00BB;, svarede Holnstein. &#x00AB;Det er hans kongelige h&#x00F8;ihed prins Luitpold, som nu regjerer!&#x00BB; <note type="footnote"><hi rend="italic">Forfatternote:</hi> Osterholzer blev senere tvungen til offentlig at erkl&#x00E6;re, at Holnstein ikke havde udtalt dette; men ingen troede paa den n&#x00F8;dtvungne tilbagekaldelse.</note></p>
+<p>Kusken forstod, at der var lagt onde raad op mod kongen. Han f&#x00F8;rte hestene tilbage til stalden. <pb n="125"/>Saa hurtig, som hans ben kunde b&#x00E6;re ham, l&#x00F8;b han derpaa ad en steil skovsti op til Neuschwanstein, hvor han meddelte den tjenstgj&#x00F8;rende kammertjener Weber, hvad han havde oplevet.</p>
+<p>Ludwig gik frem og tilbage i den oplyste sangerhal og deklamerede med h&#x00F8;i stemme dele af en opera, som nylig var bleven ham tilegnet.</p>
+<p>Osterholzer styrtede aandel&#x00F8;s ind og kastede sig paa kn&#x00E6; for ham; i sin ophidselse fik han kun fremstammet nogle usammenh&#x00E6;ngende ord.</p>
+<p>Kongen forstod ham ikke; han vinkede Weber hen til sig og spurgte, hvad denne scene skulde betyde. Kammertjeneren forklarede, at grev Holnstein og en del andre herrer var ankomne til Hohenschwangau, og at man havde fiendtlige planer mod hans majest&#x00E6;t.</p>
+<p>Osterholzer b&#x00F8;nfaldt ham om at flygte &#x00F8;ieblikkelig; ogsaa Weber tilb&#x00F8;d at v&#x00E6;re ham behj&#x00E6;lpelig.</p>
+<p>Ludwig tilbageviste tilbudet.</p>
+<p>&#x00AB;Hvorfor skulde jeg flygte?&#x00BB; spurgte han. &#x00AB;Hvis en virkelig fare truede, vilde Karl have skrevet til mig!&#x00BB;</p>
+<p>&#x00AB;Karl&#x00BB; var hof-fur&#x00E9;ren Hesselschwerdt, som han endnu i dette &#x00F8;ieblik n&#x00E6;rede tillid til.</p>
+<p>Efter nogen bet&#x00E6;nkning gav han alligevel befaling til, at hans tjenere skulde samle sig.</p>
+<p><pb n="126"/>&#x00AB;L&#x00F8;b saa hurtig som muligt&#x00BB;, sagde han. &#x00AB;Kald alle tro b&#x00F8;nder hid for at beskytte sin konge!&#x00BB;</p>
+<p>Staldknegte og tjenere ilede afsted og gjorde alarm i de omliggende landsbyer. Neppe en time efter myldrede det i Hohenschwangau af b&#x00F8;nder, som var bev&#x00E6;bnede med knive, og som bar &#x00F8;kser og ljaaer paa nakken.</p>
+<p>Den n&#x00E6;rmestliggende landsby, F&#x00FC;ssen, sendte sine brandm&#x00E6;nd, og den der stationerede politimester indtraf med alle sine folk.</p>
+<p>Da ingen vidste, hvad der var besluttet i M&#x00FC;nchen, havde man grund til at formode, at der forelaa et overfald paa kongens person. Alle var rede til at s&#x00E6;tte sit liv paa spil for at frelse ham.</p>
+<p>Hof-kommissionen var imidlertid i morgend&#x00E6;mringen naaet op til Neuschwansteins port.</p>
+<p>Man havde bestemt, at en af herrerne skulde opl&#x00E6;se prins Luitpolds skrivelse for kongen. Derefter skulde l&#x00E6;gerne f&#x00F8;re ham til Linderhof.</p>
+<p>Til sin overraskelse fandt de slotsporten besat af gendarmer, som i kongens navn negtede dem at tr&#x00E6;de ind.</p>
+<p>De fremviste sin skriftlige fuldmagt. Den vagthavende soldat v&#x00E6;rdigede den end ikke et blik, men svarede paa alle forestillinger og befalinger:</p>
+<p>&#x00AB;Jeg beh&#x00F8;ver intet skriftligt! Jeg kjender kun en befaling, og den kommer fra hans majest&#x00E6;t!&#x00BB;</p>
+<p><pb n="127"/>Nu vilde herrerne tiltvinge sig adgang med vold. Men politisoldaten fastholdt sin bestemte ordre og truede med at skyde enhver ned, der vovede at tr&#x00E6;nge ind i slottet. Han l&#x00F8;ftede sit gev&#x00E6;r, idet han for sidste gang henviste til den regjerende konges befaling.</p>
+<p>Ogsaa de &#x00F8;vrige gendarmer tr&#x00E6;ngte nu frem. Et kolbest&#x00F8;d traf en af sygevogterne, der stod n&#x00E6;rmest.</p>
+<p>&#x00AB;Hvor ubehageligt dette optrin end var&#x00BB;, siger hj&#x00E6;lpel&#x00E6;gen, dr. M&#x00FC;ller, &#x00AB;saa kunde man ikke negte, at disse m&#x00E6;nd optraadte med pligttroskab, naar de, uden hensyn til hof- og statsembedsm&#x00E6;ndenes glimrende uniformer, urokkelig holdt fast ved: Vor konge har befalet det, og vi adlyder ham!&#x00BB;</p>
+<p>Hofkommissionen maatte med uforrettet sag tr&#x00E6;kke sig tilbage til Hohenschwangau.</p>
+<p>Rygtet om at kongen skulde sl&#x00E6;bes bort som fange, havde imidlertid bredt sig over hele egnen. Da herrerne kj&#x00F8;rte ned til det gamle slot, saa de b&#x00F8;nder, vedhuggere og brandm&#x00E6;nd, kvinder og b&#x00F8;rn, der i vild hast styrtede op mod Neuschwanstein.</p>
+<p>Amtmand Sonntag, den &#x00F8;verste embedsmand i F&#x00FC;ssen, fik af Ludwig det hverv at f&#x00E6;ngle kommissionens <pb n="128"/>medlemmer. Han indfandt sig paa Hohenschwangau for at udf&#x00F8;re befalingen.</p>
+<p>Minister Crailshaim for l&#x00F8;s paa ham og foreholdt ham, at han ingensomhelst ret havde til at handle, som han gjorde.</p>
+<p>&#x00AB;Deres excellence&#x00BB;, svarede den h&#x00F8;it agtede gamle mand, &#x00AB;jeg er i en pinlig forlegenhed. Ikke med et ord har man forberedt mig paa det, som skulde ske eller givet mig veiledning om, hvordan jeg havde at forholde mig ligeoverfor min herre! Jeg har tjent ham i saa mange aar, og endnu i denne time er jeg hans embedsmand. Jeg kan ikke paa faa minutter glemme de forl&#x00F8;bne aars kj&#x00E6;rlighed og troskab og beslutte mig til at optr&#x00E6;de som min konges fiende.&#x00BB;</p>
+<p>Han foretog fengslingen og lod under sterk eskorte arrestanterne f&#x00F8;re til Neuschwanstein.</p>
+<p>Grev Holnstein vilde kj&#x00F8;re, men politimesteren tog intet hensyn til hans &#x00F8;nske; herrerne maatte gaa tilfods gjennem den rasende folkemasse, som havde samlet sig. Ogsaa gaardspladsen var overfyldt. Hundreder af m&#x00E6;nd og kvinder truede dem med h&#x00F8;i r&#x00F8;st.</p>
+<p>&#x00AB;Se paa disse m&#x00E6;nd&#x00BB;, raabte en ung kone til sin syvaarige datter; &#x00AB;naar du bliver stor, kan du fort&#x00E6;lle, at du har seet forr&#x00E6;dere!&#x00BB;</p>
+<p>Der udfordredes betydelig energi for at afholde <pb n="129"/>befolkningen fra at forvandle sine trusler til haandgribeligheder. Dr. Gudden viste mindst mod. Folkehoben, som havde h&#x00F8;rt, at han var den, der erkl&#x00E6;rede kongen for sindssyg, styrtede frem mod ham og truede med at kaste ham i den n&#x00E6;rliggende P&#x00F8;llat-fos.</p>
+<p>Et frygteligt had havde lyst ud af Ludwigs &#x00F8;ine, da man havde fortalt ham, at hans barndoms- og ungdomsven grev Holnstein var med blandt forr&#x00E6;derne. Han havde befalet, at alle skulde kastes i m&#x00F8;rkt fengsel.</p>
+<p>Dette blev dog ikke gjort; de blev indesp&#x00E6;rrede i et rum over porthvelvingen.</p>
+<p>Kongens vrede fordunstede snart; efter tre timers forl&#x00F8;b bestemte han, at de igjen skulde s&#x00E6;ttes i frihed.</p>
+<p>Det lykkedes amtmanden at berolige m&#x00E6;ngden udenfor og at bev&#x00E6;ge den til at vende hjem. Dog vovede ingen af herrerne at vise sig i den n&#x00E6;rliggende landsby.</p>
+<p>De tiltraadte sit tilbagetog ad forskjellige veie og skyndte sig uden ophold til M&#x00FC;nchen.</p>
+<p rend="center"><figure><graphic url="Tschudi1906_131.PNG"/></figure></p>
+</div>
+<div type="chapter">
+<head type="main">XIX. En ven i n&#x00F8;den. &#x2013; Ludwigs proklamation til sit folk</head>
+<p rend="noIndent">Alle, som vilde kongens vel, &#x00F8;nskede af varmt hjerte, at han skulde begive sig til sin hovedstad, hvilket upaatvivlelig vilde have v&#x00E6;ret det eneste middel til at frelse ham.</p>
+<p>I l&#x00F8;bet af formiddagen havde han telegraferet efter sin adjutant, grev Alfred D&#x00FC;rckheim.</p>
+<p>&#x00AB;Denne mand er mig hengiven,&#x00BB; sagde han, idet han sendte telegramet afsted.</p>
+<p>Netop som hofkommissionen forlod Neuschwanstein efter sit korte fangenskab, indtraf greven i Hohenschwangau med heste, der var jagede halvd&#x00F8;de for at komme i rette tid.</p>
+<p>Han ilede op til slottet.</p>
+<p>Gendarmerne og brandm&#x00E6;ndene stod endnu opstillede udenfor. D&#x00FC;rckheim udtalte sig anerkjendende om deres optr&#x00E6;den, men sendte dem hjem efter kongens opfordring.</p>
+<p>Den menneskesky Ludwig, som aldrig havde <pb n="134"/>v&#x00E6;ret damernes ven, havde i disse timer en kvindelig gjest paa sit slot. Baronesse Truchsesz &#x2013; spansk af f&#x00F8;dsel, men indgiftet i det bayerske aristokrati &#x2013; havde i den tidlige morgen skyndt sig til Neuschwanstein, da hun h&#x00F8;rte, at hans majest&#x00E6;t skulde fengsles. Hun var styrtet ind i hans sovev&#x00E6;relse uden at lade sig melde og havde gang paa gang forsikret ham om sin hengivenhed.</p>
+<p>Han lod hendes talestr&#x00F8;m glide hen over sig med ro og gav hende haanden.</p>
+<p>&#x00AB;Kj&#x00E6;re baronesse,&#x00BB; sagde han i sin elskv&#x00E6;rdigste tone, &#x00AB;vil De ikke tillade mig at sende bud efter Deres mand, for at De under hans beskyttelse kan vende tilbage til Deres villa?&#x00BB;</p>
+<p>Baronessen vilde ikke gaa ind paa dette, men b&#x00F8;nfaldt Ludwig om uopholdelig at reise til M&#x00FC;nchen.</p>
+<p>&#x00AB;Det vil jeg ogsaa,&#x00BB; sagde han, &#x00AB;om end ikke straks.&#x00BB;</p>
+<p>&#x00AB;Jeg f&#x00F8;lger Deres majest&#x00E6;t!&#x00BB; raabte hun.</p>
+<p>Han gjorde en afv&#x00E6;rgende bev&#x00E6;gelse.</p>
+<p>&#x00AB;Det vil ikke godt gaa an,&#x00BB; svarede han venlig.</p>
+<p>Baronessen tog plads i forv&#x00E6;relset, fast besluttet paa ikke at forlade hans d&#x00F8;rt&#x00E6;rskel.</p>
+<p>&#x00AB;Hvis forholdene ikke var saa alvorlige, vilde jeg f&#x00F8;le mig fristet til at le af den gode baronesse,&#x00BB; <pb n="135"/>sagde Ludwig til grev D&#x00FC;rckheim, som fandt hende der.</p>
+<p>Ogsaa denne sidste ven fastholdt hans afreise til M&#x00FC;nchen som uundgaalig n&#x00F8;dvendig. Om kongen paa dette tidspunkt havde vist sig i sin hovedstad, er det mere end sandsynligt, at hans folk vilde have sluttet sig om ham for at forsvare ham.</p>
+<p>Han erkl&#x00E6;rede imidlertid, at han var aldeles udmattet; dog tilf&#x00F8;iede han, at han vilde reise den f&#x00F8;lgende dag.</p>
+<p>Mellem Ludwig og Bismarck havde der altid hersket et meget venskabeligt forhold.&#x00BB;<note type="footnote"><hi rend="italic">Forfatternote:</hi> Se &#x00AB;Ludwig den anden, konge af Bayern&#x00BB;.</note> Jeg kunde i s&#x00E6;rlig grad gl&#x00E6;de mig ved hans agtelse,&#x00BB; har fyrsten ytret.<note type="footnote"><hi rend="italic">Forfatternote:</hi> Til redakt&#x00F8;r Memminger.</note> &#x00AB;Vi brevvekslede om vigtige politiske forhold indtil de sidste aar af hans liv. Naar han udtalte sine anskuelser, var han lige saa elskv&#x00E6;rdig mod min person som aandfuld i bed&#x00F8;mmelsen af de forskjellige anliggender, der var paa tale.&#x00BB;</p>
+<p>I dette fortvivlede &#x00F8;ieblik t&#x00E6;nkte kongen og grev Durckheim begge paa det tyske riges m&#x00E6;gtige kansler.</p>
+<p>Den mislykkede hofkommission, der havde undladt at give embedsm&#x00E6;ndene i distriktet underretning <pb n="136"/>om det, der var igj&#x00E6;re, havde v&#x00E6;ret forsigtig nok til at meddele den forestaaende omveltning til telegraf-funktion&#x00E6;rerne i Hohenschwangau. Telegramer fra Ludwig kunde derfor ikke ekspederes fra Bayern, men maatte sendes over gr&#x00E6;nsen til det n&#x00E6;rliggende Tyrol.</p>
+<p>D&#x00FC;rckheim anraabte Bismarck om hj&#x00E6;lp.</p>
+<p>Kansleren svarede:</p>
+<p>&#x00AB;Hans majest&#x00E6;t b&#x00F8;r straks kj&#x00F8;re til M&#x00FC;nchen og varetage sine interesser ligeoverfor den samlede rigsdag.&#x00BB;</p>
+<p>Senere fortalte Bismarck: &#x00AB;Jeg t&#x00E6;nkte som saa: Enten er kongen frisk, og da f&#x00F8;lger han mit raad, eller han er virkelig sindssyg!&#x00BB;</p>
+<p>Han tilf&#x00F8;iede:</p>
+<p>&#x00AB;Hans majest&#x00E6;t reiste ikke til M&#x00FC;nchen, han fattede ingen beslutning; han var ikke l&#x00E6;nger i besiddelse af sin aandelige kraft, men lod skjebnen bryde ind over sig.&#x00BB;</p>
+<p>Ludwig og D&#x00FC;rckheim udkastede i forening et l&#x00E6;ngre telegram til keiseren af &#x00D8;sterrige og b&#x00F8;nfaldt ham om at tr&#x00E6;de til.</p>
+<p>&#x00AB;Sp&#x00E6;nd for!&#x00BB; raabte greven ned i stalden, &#x00AB;kj&#x00F8;r til den &#x00F8;sterrigske gr&#x00E6;nseby Reutte saa hurtig, De kan, selv om alle fire heste spr&#x00E6;nges!&#x00BB;</p>
+<p><pb n="137"/>Paa samme tid anstrengte ogsaa keiserinde Elisabeth sig fra Possenhofen til det yderste for at formaa sin gemal til at gribe ind.</p>
+<p>Paa kongens vegne anmodede D&#x00FC;rckheim baron Frankenstein om at danne et nyt ministerium. Og j&#x00E6;gerbataljonen i Kempten blev opfordret til at indfinde sig for at beskytte hans majest&#x00E6;t.</p>
+<p>Denne sidste depeche gik gjennem Mayrs h&#x00E6;nder; kammertjeneren tilf&#x00F8;iede nogle ord, der foranledigede komandanten til at sp&#x00F8;rge krigsministeren, om han skulde efterkomme orderen. Der indtraf et benegtende svar.</p>
+<p>Med bestemthed kan det ikke paavises, hvilke forholdsregler grev D&#x00FC;rckheim for&#x00F8;vrig tog for at frelse sin herre. Man n&#x00E6;vnte ham som forfatter til en proklamation, som den f&#x00F8;lgende dag blev udstedt i kongens navn:<note type="footnote"><hi rend="italic">Forfatternote:</hi> Den blev n&#x00E6;sten &#x00F8;ieblikkelig beslaglagt, men aftryktes i &#x00AB;Bamberger Journal&#x00BB;.</note></p>
+<quote>
+<p rend="noIndent">&#x00AB;<hi rend="italic">Jeg, Ludwig den anden, konge af Bayern</hi>, ser mig foranlediget til at rette f&#x00F8;lgende</p>
+<p rend="center"><hi rend="italic">opraab</hi></p>
+<p rend="noIndent">til mine elskede bayrere og til det samlede tyske folk!</p>
+<p rend="noIndent">Prins Luitpold vil mod min vilje gj&#x00F8;re sig til hersker i mit land. Mit hidtilv&#x00E6;rende ministerium <pb n="138"/>har f&#x00F8;rt mit elskede folk bag lyset ved urigtige meddelelser om min helbred og har lagt h&#x00F8;iforr&#x00E6;derske planer.</p>
+<p rend="noIndent">Jeg f&#x00F8;ler mig legemlig og aandelig saa frisk som hvilkensomhelst anden monark! Det planlagte forr&#x00E6;deri kommer saa overraskende, at der ikke er levnet mig tid til at tilintetgj&#x00F8;re ministeriets nederdr&#x00E6;gtige hensigter.</p>
+<p rend="noIndent">Hvis de forberedte voldshandlinger bliver udf&#x00F8;rte, og prins Luitpold river regjeringsmagten til sig mod min vilje, giver jeg mine trofaste venner det hverv med alle midler og under alle omst&#x00E6;ndigheder at varetage mine rettigheder.</p>
+<p rend="noIndent">Jeg venter af alle bayerske embedsm&#x00E6;nd, fremfor alt af de &#x00E6;rekj&#x00E6;re bayerske officerer og af Bayerns soldater, at de, i erindring om den hellige ed, med hvilken de har svoret mig troskab, forbliver trofaste mod mig og bistaar mig i disse tunge timer.</p>
+<p rend="noIndent">Enhver kongetro borger opfordres til at stemple prins Luitpold og det hidtilv&#x00E6;rende ministerium som h&#x00F8;iforr&#x00E6;dere.</p>
+<p rend="noIndent">Jeg er &#x00E9;t med mit elskede folk og n&#x00E6;rer den faste forvisning om, at det vil beskytte mig!</p>
+<p rend="noIndent">Jeg vender mig samtidig til det &#x00F8;vrige tyske folk og til forbundsfyrsterne.</p>
+<p rend="noIndent"><pb n="139"/>Saa meget som det stod i min magt har jeg bidraget til at bygge det tyske rige. Derfor t&#x00F8;r jeg vente af Tyskland, at det ikke taaler at en tysk fyrste uretf&#x00E6;rdig bliver fortr&#x00E6;ngt.</p>
+<p rend="noIndent">Hvis der ei skjenkes mig tid til at henvende mig direkte til den tyske keiser, n&#x00E6;rer jeg tillid til, at man ikke vil mods&#x00E6;tte sig, at jeg overleverer h&#x00F8;iforr&#x00E6;derne til mit lands ret.</p>
+<p rend="noIndent">Mine brave bayrere vil visselig ikke svigte mig!</p>
+<p rend="noIndent">I det tilf&#x00E6;lde, at man med magt skulde hindre mig fra selv at varetage mine rettigheder, anraaber jeg hver trofast bayrer om at flokke sig rundt mine tilh&#x00E6;ngere og at hj&#x00E6;lpe med til at tilintetgj&#x00F8;re det planlagte forr&#x00E6;deri mod konge og fedreland!</p>
+<p rend="noIndent">Givet paa Hohenschwangau den 9. juni 1886.</p>
+<p rend="noIndent"><hi rend="italic">Ludwig den anden,
+<lb/>Konge af Bayern, Pfalzgreve etc.</hi>&#x00BB;</p>
+</quote>
+<p>Begivenhederne i hovedstaden gik imidlertid sin gang. Den tiende juni offentliggjorde regjeringen den proklamation, som tilkjendegav at kongens onkel var bleven rigsforstander, og at <pb n="140"/>rigsdagen skulde indkaldes for at gj&#x00F8;re Ludwig den anden umyndig.</p>
+<p>I l&#x00F8;bet af natten modtog grev D&#x00FC;rckheim to gange befaling fra krigsministeriet om at indfinde sig i M&#x00FC;nchen.</p>
+<p>Det f&#x00F8;rste telegram lagde han rolig tilside. Det andet forelagde han kongen, idet han tilf&#x00F8;iede, at han desv&#x00E6;rre var n&#x00F8;dsaget til at reise, da han i modsat tilf&#x00E6;lde vilde blive anklaget for subordination.</p>
+<p>Ludwig var meget bedr&#x00F8;vet over at skulle miste ham.</p>
+<p>&#x00AB;De ved, hvor inderlig jeg &#x00F8;nsker, at De skal blive hos mig,&#x00BB; sagde han. &#x00BB;Telegrafer til min onkel og sp&#x00F8;rg ham, om han ikke samtykker i, at jeg beholder Dem.&#x00BB;</p>
+<p>Greven gjorde dette, men svaret l&#x00F8;d kort og bestemt:</p>
+<p>&#x00AB;Det bliver ved krigsministeriets ordre!&#x00BB;</p>
+<p>Dybt bev&#x00E6;get tog greven afsked for aldrig at se sin konge igjen.</p>
+<p>I forv&#x00E6;relset ventede Mayr paa ham. Kammertjeneren, der &#x00F8;nskede den nye regjering held og fremgang, var urolig over de forholdsregler, som D&#x00FC;rckheim havde taget.</p>
+<p>&#x00AB;Tror De, at hans majest&#x00E6;t beslutter at reise til hovedstaden?&#x00BB; spurgte han.</p>
+<p><pb n="141"/>Med tungt hjerte svarede greven:</p>
+<p>&#x00AB;Nei, Mayr, jeg tror det ikke.&#x00BB;<note type="footnote"><hi rend="italic">Forfatternote:</hi> Ved sin ankomst til M&#x00FC;nchen blev grev D&#x00FC;rckheim arresteret og anklaget for h&#x00F8;iforr&#x00E6;deri. Da der ingen beviser fandtes mod ham, blev han dog senere atter sat i frihed. Han var l&#x00E6;nge i unaade hos de nye magthavere, der, blandt andet, afslog hans indtr&#x00E6;ngende b&#x00F8;n om tilladelse til at se kong Ludwig som lig. Grev Alfred D&#x00FC;rckheim er nu general.</note></p>
+</div>
+<div type="chapter">
+<head type="main">XX. Kongens sidste timer paa Neuschwanstein</head>
+<p rend="noIndent">Udover natten afl&#x00F8;stes egnens gendarmer af politisoldater fra M&#x00FC;nchen, der besatte slottet.</p>
+<p>Ludwig, som den foregaaende dag havde beseiret sine fiender, troede i begyndelsen, at de var komne for at beskytte ham. F&#x00F8;rst da man negtede ham at foretage den s&#x00E6;dvanlige natlige kj&#x00F8;retur, forstod han, at han var fange.</p>
+<p>Tidlig om morgenen den ellevte juni bragte posten proklamationen fra den nye regent. De, som vilde redde kongen, udsatte sig fra nu af for at blive straffede som landsforr&#x00E6;dere.</p>
+<p>Yderst faa i Hohenschwangau syntes at t&#x00E6;nke paa dette. Endog paa den anden side af gr&#x00E6;nsen var man rede til at vove alt for ham.</p>
+<p>De nykomne politisoldater var ukjendte i egnen, hvor landbefolkningen kjendte hver sti og sten. Paa mindre end en time kunde man over Kitzberg-stien naa ind i Tyrol; en vogn kunde derfra kj&#x00F8;re Ludwig videre.</p>
+<p><pb n="143"/>I &#x00D8;sterrige var man fuldt forberedt paa, at han vilde ile did; selv keiseren skal have ventet og frygtet dette.</p>
+<p>Et antal modige, trofaste bjergboere var ivrige for at s&#x00E6;tte sit liv paa spil for at forsvare den flygtende monark paa denne farlige reise.</p>
+<p>Hovedvanskeligheden bestod i at f&#x00F8;re ham ubemerket ud af slottet. Udenforstaaende kunde n&#x00E6;sten ikke komme i forbindelse med ham, da Neuschwanstein nu strengt blev bevogtet.</p>
+<p>En dame, der opholdt sig som sommergjest i Hohenschwangau, tilb&#x00F8;d at fors&#x00F8;ge at tr&#x00E6;nge ind til ham, for at lade ham komme til kundskab om planen. Hun forkl&#x00E6;dte sig som bondekone; en rideknegts hustru fulgte med hende.</p>
+<p>Det var d&#x00F8;dsstille overalt. Taagen laa saa t&#x00E6;t, at man neppe kunde se ti skridt foran sig.</p>
+<p>Politisoldaterne havde trukket sig tilbage til det indre af slottet. En h&#x00F8;iere officer stod under porthvelvingen; han spurgte, hvem kvinderne var. Den ene svarede, at hun var gift med kusken, og at hun vilde bes&#x00F8;ge kammerlakaien Mayrs hustru. Officeren betragtede dem mistroisk.</p>
+<p>Nogle tjenere traadte nu frem.</p>
+<p>&#x00AB;Kjender De disse kvinder?&#x00BB; spurgte han &#x00AB;Taler de sandhed?&#x00BB;</p>
+<p><pb n="144"/>De bekr&#x00E6;ftede det; og kvinderne fik lov til at gaa videre.</p>
+<p>Vovestykket f&#x00F8;rte til intet; Mayr, som de henvendte sig til, vilde under ingen omst&#x00E6;ndigheder underst&#x00F8;tte en flugtplan. Han meddelte ikke en gang, at de var komne.</p>
+<p>Alligevel fik kongen underretning om sagen. Hans f&#x00F8;rste sp&#x00F8;rgsmaal gjaldt, om man kunde iverks&#x00E6;tte hans flugt uden at udgyde blod. Da man svarede, at han maatte v&#x00E6;re forberedt paa, at det kom til kamp, afstod han fra at f&#x00F8;lge sine redningsm&#x00E6;nd.</p>
+<p>&#x00AB;Jeg vil ikke, at noget menneskeliv skal ofres for min skyld,&#x00BB; sagde han.</p>
+<p>Han vidste, hvilke midler man havde anvendt for at faa ham afsat fra tronen. Han var ogsaa paa det rene med, hvilke oplysninger der var bleven samlede til dette &#x00F8;iemed, samt hvem der havde forraadt ham.</p>
+<p>&#x00AB;T&#x00E6;nk Dem,&#x00BB; sagde han til sin kammertjener Weber, &#x00AB;disse mennesker, som jeg har vist saa megen godhed, har svigtet mig skammelig; de har udleveret alle mine breve og papirer til mine modstandere.</p>
+<p>&#x00BB;Han havde h&#x00F8;rt, at nye udsendinge den n&#x00E6;ste morgen vilde komme til Neuschwanstein og f&#x00F8;re ham bort ved hj&#x00E6;lp af l&#x00E6;ge og sygevogtere; og <pb n="145"/>han vidste, at han vilde v&#x00E6;re en viljel&#x00F8;s fange i deres h&#x00E6;nder.</p>
+<p>Den ophidsede tilstand, hvori han havde befundet sig den foregaaende dag, var bleven afl&#x00F8;st af ligegyldighed for alt og alle; efter grev D&#x00FC;rckheims afreise syntes han fuldst&#x00E6;ndig brudt.</p>
+<p>Han t&#x00E6;nkte ikke mere paa modstand. En anden tanke beskjeftigede uafladelig hans sind; naar han i l&#x00F8;bet af fredagen viste tilsyneladende ro, var det, fordi selvmordsplaner beherskede ham.</p>
+<p>Rastl&#x00F8;s gik han op og ned i tronsalen og talte h&#x00F8;it om at forkorte sit liv.</p>
+<p>Af og til henvendte han nogle ord til Weber.</p>
+<p>&#x00AB;Tror De paa sj&#x00E6;lens ud&#x00F8;delighed?&#x00BB; spurgte han.</p>
+<p>&#x00AB;Ja,&#x00BB; svarede tjeneren.</p>
+<p>&#x00AB;Ogsaa jeg tror paa den,&#x00BB; sagde Ludwig. &#x00AB;Jeg tror paa sj&#x00E6;lens ud&#x00F8;delighed og paa Guds retferdighed.&#x00BB;</p>
+<p>&#x00AB;Fra livets h&#x00F8;ide at blive slynget ned i et intet!&#x00BB; vedblev han. &#x00AB;Et &#x00F8;delagt liv! Jeg <hi rend="italic">kan</hi> ikke udholde det.</p>
+<p>Jeg kunde finde mig i, at man tog min krone fra mig, men jeg overlever ikke at man erkl&#x00E6;rer mig for sindssyg.</p>
+<p><pb n="146"/>Jeg kan umulig holde ud at blive behandlet som min broder Otto, som enhver vogter t&#x00F8;r befale over, og som man truer med knytn&#x00E6;ven, naar han ikke vil lystre!&#x00BB;</p>
+<p>Tanken paa d&#x00F8;den var med magt brudt frem i hans sj&#x00E6;l. Han bad sine tjenere om cyankalium; de svarede, at de ikke kunde give ham det.</p>
+<p>I den regnfulde nat gik han flere gange ud paa slottets balkon, der h&#x00E6;nger over den svimlende P&#x00F6;llat-afgrund.</p>
+<p>Han befalede Mayr at give ham n&#x00F8;glen til det h&#x00F8;ie taarn paa slottet; men tjeneren foregav, at han ikke kunde finde den.</p>
+<p>Et sprang fra taarnet, og kongen vilde v&#x00E6;re frelst!</p>
+<p>&#x00AB;Naar min fris&#x00F8;r kommer imorgen, kan han s&#x00F8;ge mit hoved i P&#x00F6;llat&#x00BB;, sagde han.</p>
+<p>Han tilf&#x00F8;iede</p>
+<p>&#x00AB;Jeg haaber, at Gud naadig vil tilgive mig dette skridt!&#x00BB;</p>
+<p>&#x00AB;Min moder kan jeg ikke spare for den smerte, jeg kommer til at tilf&#x00F8;ie hende&#x00BB;, vedblev han. &#x00AB;Man driver mig i d&#x00F8;den! Men mit blod komme over alle, som har forraadt mig!&#x00BB;</p>
+<p>Han var navnlig bitter mod sin onkel.</p>
+<p>&#x00AB;En elskelig slegtning, der tilraner sig herskermagten <pb n="147"/>og fengsler mig&#x00BB;, sagde han. &#x00AB;Han er ingen prinsregent, han er en prinsrebel!&#x00BB;</p>
+<p>Baronesse Truchsesz opholdt sig fremdeles i forgemaket; hendes n&#x00E6;rv&#x00E6;relse begyndte at blive ham pinlig. Han &#x00F8;nskede, at hun skulde fjernes, men gav udtrykkelig ordre til, at man skulde gj&#x00F8;re det hensynsfuldt og mildt.</p>
+<p>Kammertjeneren Weber havde to gange v&#x00E6;ret i hans tjeneste. Ludwig for&#x00E6;rede ham en diamantagraf, som han pleiede at b&#x00E6;re paa sin hat.</p>
+<p>&#x00AB;Jeg har ingen penge til at bel&#x00F8;nne Dem&#x00BB;, sagde han. &#x00AB;Modtag istedet min agraf samt dette gj&#x00E6;ldsbevis. Skulde man tvinge Dem til at udlevere diamanterne, saa vil mit dokument sikre Dem en skadeserstatning af 25,000 mark.&#x00BB;</p>
+<p>Endvidere gav han ham sin b&#x00F8;nnebog, der var meget slidt.</p>
+<p>&#x00AB;Bed for mig&#x00BB;, sagde han.<note type="footnote"><hi rend="italic">Forfatternote:</hi> Da Weber efter kongens d&#x00F8;d viste sig i besiddelse af hans diamantagraf, troede man i begyndelsen, at han havde tilvendt sig den paa uredelig maade. Det skriftlige gj&#x00E6;ldsbevis, hvorved han havde forpligtet sig til ikke at udlevere den uden mod en betaling af 25,000 mark, overbeviste myndighederne om, at man havde taget feil. Da diamanterne udgjorde en del af kronjuvelerne, maatte Weber alligevel bekvemme sig til at give dem tilbage. Saavidt vides fik han en mindre penge-erstatning, da man vilde respektere kongens sidste gave.</note></p>
+<p>Det var en skr&#x00E6;kkelig nat. Taagen havde opl&#x00F8;st sig i regn, der faldt i stride str&#x00F8;mme; og stormen hylede rundt Neuschwanstein.</p>
+<p>Ludwig var n&#x00E6;sten alene paa sit slot, som var <pb n="148"/>fuldst&#x00E6;ndig afsp&#x00E6;rret. Atter gik han ud paa balkonen og stirrede ud over landskabet med hovedet st&#x00F8;ttet i sin haand.</p>
+<p>En forferdelig angst kom over ham. Han befalede Weber at lade Osterholzer kalde; maaske kunde den flugtplan endnu gjennemf&#x00F8;res, som man havde foreslaaet ham f&#x00F8;r.</p>
+<p>Men kusken var bleven kaldt til M&#x00FC;nchen; man havde betydet ham, at han vilde blive arresteret, hvis han ikke &#x00F8;ieblikkelig forlod Hohenschwangau.</p>
+<p>&#x00AB;Vil da folket intet gj&#x00F8;re for at befri sin konge?&#x00BB; spurgte Ludwig.</p>
+<p>Hans tjener svarede: &#x00AB;Deres majest&#x00E6;t! Folket har ingen vaaben!&#x00BB; &#x2013;</p>
+<p>Da hofkommissionen f&#x00F8;rste gang havde lidt et saa forsm&#x00E6;deligt nederlag, havde man til nye udsendinge delvis valgt andre m&#x00E6;nd. Men ogsaa denne gang kom dr. Gudden, hj&#x00E6;lpel&#x00E6;gen dr. M&#x00FC;ller og otte vogtere.</p>
+<p>For sin egen sikkerheds skyld havde herrerne desuden taget med sig politichefen fra M&#x00FC;nchen; og de havde forlangt, at rigsforstanderens proklamation skulde v&#x00E6;re offentliggjort i Hohenschwangau, inden de begav sig did.</p>
+<p>Medens den forrige kommission var bleven behandlet <pb n="149"/>som forr&#x00E6;dere og forbrydere, vovede man ikke at optr&#x00E6;de fiendtlig mod de nykomne.</p>
+<p>Kongen var vendt tilbage til spisesalen. Han havde aldrig v&#x00E6;ret dranker; men denne nat drak han cognac og vin for at bed&#x00F8;ve sig.</p>
+<p>Udsendingerne var imidlertid ankomne til Neuschwanstein, hvor de uhindret fik tr&#x00E6;de ind.</p>
+<p>De afventede det &#x00F8;ieblik, da Mayr vilde give dem et vink om, at de kunde hente hans majest&#x00E6;t og kj&#x00F8;re ham til et andet slot.</p>
+<p>Ludwig havde atter forlangt n&#x00F8;glen til slotstaarnet. Tjeneren, som anede, at han vilde styrte sig ned, havde fastholdt, at den var bortkommen.</p>
+<p>For sidste gang gjentog han nu sin befaling.</p>
+<p>I sin angst ilede Mayr til dr. Gudden og spurgte, hvordan han skulde forholde sig.</p>
+<p>Et &#x00F8;ieblik efter gik han ind og meldte, at n&#x00F8;glen var funden.</p>
+<p>Kongen reiste sig og fulgte ham straks.</p>
+<p>De udenforstaaende h&#x00F8;rte faste skridt. En herre af imponerende h&#x00F8;ide viste sig pludselig i d&#x00F8;raabningen; han talte i korte, afbrudte s&#x00E6;tninger til tjeneren, som stod dybt bukkende.</p>
+<p>Man havde foresat sig &#x00F8;ieblikkelig at omringe ham og at f&#x00F8;re ham bort med magt. Men da monarken traadte ud, veg alle sky tilside; ingen vovede at gribe ham.</p>
+<p><pb n="150"/>Dr. Gudden gjenvandt sin fatning f&#x00F8;rst. Han gik frem og sagde:</p>
+<p>&#x00AB;Deres majest&#x00E6;t! Dette er det s&#x00F8;rgeligste hverv, som jeg har paataget mig i mit liv. Fire sindssygel&#x00E6;ger har afgivet en erkl&#x00E6;ring om Deres majest&#x00E6;ts helbred. Som f&#x00F8;lge af denne har prins Luitpold overtaget regentskabet. Jeg har faaet befaling til at ledsage Deres majest&#x00E6;t til slottet Berg endnu i denne nat.&#x00BB;</p>
+<p>Kongen vaklede et &#x00F8;ieblik.</p>
+<p>&#x00AB;Hvad vil De mig?&#x00BB; gjentog han flere gange. &#x00AB;Hvad betyder dette?&#x00BB;</p>
+<p>Sygevogterne n&#x00E6;rmede sig for at gribe ham.</p>
+<p>Han afv&#x00E6;rgede det med en stolt haandbev&#x00E6;gelse og rettede sig op.</p>
+<p>&#x00AB;Det er ikke n&#x00F8;dvendigt&#x00BB;, sagde han; &#x00AB;jeg gaar frivillig.&#x00BB;</p>
+<p rend="center"><figure><graphic url="Tschudi1906_151.PNG"/></figure></p>
+</div>
+<div type="chapter">
+<head type="main">XXI. Paa slottet Berg. &#x2013; Kongens d&#x00F8;d</head>
+<p rend="noIndent">Klokken fire om morgenen drog Ludwig bort fra Neuschwanstein.</p>
+<p>I den f&#x00F8;rste vogn sad dr. M&#x00FC;ller og to syge vogtere. I den n&#x00E6;ste kj&#x00F8;rte kongen ganske alene. Ved siden af kusken sad overvogteren fra sindssygeasylet i M&#x00FC;nchen; og t&#x00E6;t op til vognen red en mand, der havde ordre til skarpt at iagttage hans majest&#x00E6;t og til at give et tegn ved den mindste paafaldende bev&#x00E6;gelse.</p>
+<p>Dr. Gudden, en politiofficer og flere vogtere fulgte efter.</p>
+<p>Da Ludwig havde taget plads i sin ekvipage, sagde han til l&#x00E6;gen:</p>
+<p>&#x00AB;De har vel intet imod, at jeg tager afsked fra min tjener?&#x00BB;</p>
+<p>Mayr traadte hen til ham; men samtalen varede dr. Gudden for l&#x00E6;nge.</p>
+<p>&#x00AB;Skynd Dem, saa at vi kan komme afsted&#x00BB;, gjentog han flere gange.</p>
+<p><pb n="154"/>Mayr hulkede h&#x00F8;it, idet han fjernede sig.</p>
+<p>Enkelte mennesker stod udenfor for at se det s&#x00F8;rgelige tog; kongen besvarede venlig deres hilsener.</p>
+<p>Ved f&#x00F8;rste omdreining af veien aft&#x00F8;rrede han med haanden det fugtige vindu og saa tilbage paa Neuschwanstein, som han havde elsket saa h&#x00F8;it, og som aldrig senere er bleven beboet.</p>
+<p>Han saa syg ud; ansigtsfarven var askegraa, blikket uroligt.</p>
+<p>Man byttede tre gange heste. Ved det sidste skifte, Seeshaupt, traadte vertinden hen og hilste &#x00E6;rb&#x00F8;dig paa hans majest&#x00E6;t. Han bad hende om et glas vand. Da han gav hende det tomme glas tilbage, takkede han hende hjertelig. Gr&#x00E6;dende raabte hun efter vognen:</p>
+<p>&#x00AB;Beh&#x00FC;t Gott, Majest&#x00E4;t!&#x00BB;</p>
+<p>De nye magthavere havde frafaldt den plan at f&#x00F8;re ham til Linderhof; thi man vidste, at en af hans livj&#x00E6;gere samlede folk i Tyrol for at hj&#x00E6;lpe ham over gr&#x00E6;nsen.</p>
+<p>Medens vognen uden forhindringer naaede Berg, stod hundrede og tyve b&#x00F8;nder rede til at frelse ham i n&#x00E6;rheden af Reutte.</p>
+<p>Efter to dages venten erfarede de, at kongen var kj&#x00F8;rt en anden vei.</p>
+<p>Det var dr. Gudden, som havde bestemt slottet <pb n="155"/>Berg til hans fengsel, hvilket var saa meget mere hensynsl&#x00F8;st, som han der havde tilbragt sin lykkelige ungdom.</p>
+<p>Ludwig havde l&#x00E6;rt denne l&#x00E6;ge at kjende, medens han behandlede hans broder, prins Otto; og han n&#x00E6;rede en s&#x00E6;rlig antipati mod ham.</p>
+<p>&#x00AB;Gudden betragter mig paa en saa besynderlig maade&#x00BB;, havde han flere gange tidligere sagt til sin moders overhofmesterinde. &#x00AB;Gid han bare ikke udfinder noget at sige ogsaa om mig.&#x00BB;</p>
+<p>Det var pintseaftens formiddag, da han ankom til sit bestemmelsessted. Elskv&#x00E6;rdig hilste han paa den der stationerede politisoldat:</p>
+<p>&#x00AB;Det gl&#x00E6;der mig, Sauer, at De atter har tjeneste&#x00BB;, sagde han, da han gik ind.</p>
+<p>I en af de f&#x00F8;rste sale faldt hans &#x00F8;ie paa hans eget billede: et stort maleri, der forestillede hans f&#x00F8;rste landstigning ved slottet Berg efter tronbestigelsen. Hvor forskjellig var ikke denne dag fra hin!</p>
+<p>Han fik kun to v&#x00E6;relser til sin afbenyttelse. Vinduerne var i hast bleven forsynede med jerngittere, og man havde boret huller i d&#x00F8;rene, for at han stadig kunde v&#x00E6;re under opsigt. Han betragtede disse forandringer uden at sige et ord.</p>
+<p>L&#x00E6;gen opfordrede ham til at gaa tidlig tilsengs, og han adl&#x00F8;d.</p>
+<p><pb n="156"/>Klokken to om natten vaagnede han og vilde staa op. Vogterne negtede ham det. De havde taget hans kl&#x00E6;der bort; trods hans indst&#x00E6;ndige b&#x00F8;nner udleverede de dem ikke.</p>
+<p>Endelig lod en af dem sig overtale til at give ham hans str&#x00F8;mper. Kun ikl&#x00E6;dt sin natskjorte og str&#x00F8;mperne gik han time efter time urolig op og ned paa gulvet.</p>
+<p>Klokken seks om morgenen bad han vogteren om at hj&#x00E6;lpe ham med et bad. Han lod sig kl&#x00E6;de paa af denne, men opfordrede ham derefter til at hente hans kammertjener og hans fris&#x00F8;r. Vogteren svarede overensstemmende med sandheden, at de ikke var fulgte med til hans nye opholdsted.</p>
+<p>Pintsemorgenen br&#x00F8;d frem. Ludwig &#x00F8;nskede at tage del i gudstjenesten i den n&#x00E6;rliggende kirke. Gudden afslog det, da han frygtede, at folket ikke vilde tro, at kongen var sindssyg, hvis han viste sig.</p>
+<p>I l&#x00F8;bet af formiddagen bad han om en appelsin. Man bragte den, men uden frugtkniv. Han sendte den ud igjen uden at have r&#x00F8;rt den.</p>
+<p>Klokken elleve spadserede dr. Gudden en tur med ham. To vogtere, der fulgte efter, fik et vink om at forl&#x00E6;nge afstanden. Man tog plads paa en b&#x00E6;nk ti&#x2013;femten skridt fra Starnbergers&#x00F8;ens bred. Ludwigs rolige, beherskede optr&#x00E6;den vuggede l&#x00E6;gen <pb n="157"/>ind i en sikkerhed, der skulde blive skjebnesvanger for ham selv.</p>
+<p>Kongen spiste middag alene klokken fire.</p>
+<p>Inden han satte sig tilbords, spurgte han den vogter, som opvartede ham, om Gudden havde r&#x00F8;rt ved hans mad; han frygtede, at denne havde til hensigt at s&#x00E6;tte ham i bevidstl&#x00F8;s tilstand, og at han i denne tilstand vilde vise ham for folket for at fastslaa, at han var gal.</p>
+<p>Han forlangte at faa tale med sin gamle bekjendt stabskontroll&#x00F8;r Zanders, der var paa slottet. Gudden vilde i begyndelsen aldeles ikke h&#x00F8;re tale derom. Omsider gav han dog efter for kongens indtr&#x00E6;ngende b&#x00F8;nner; Zanders fik Lov til at gaa ind en halv times tid, men maatte paa &#x00E6;resord forpligte sig til ikke at v&#x00E6;kke nogetsomhelst haab om, at han kunde gjenvinde sin frihed.</p>
+<p>Ludwig gik ham im&#x00F8;de energisk, livlig, som i sine bedste dage, &#x2013; en ganske anden mand, end han havde v&#x00E6;ret to dage forud. Han viste ham gitteret for vinduerne, hullerne i d&#x00F8;rene, og han fortalte ham, hvorledes han var bleven behandlet.</p>
+<p>&#x00AB;Hvor mange politisoldater er der i parken for at passe paa mig?&#x00BB; spurgte han.</p>
+<p>&#x00AB;Seks eller otte, Deres majest&#x00E6;t!</p>
+<p>&#x00AB;Vil de i paakommende tilf&#x00E6;lde skyde paa mig?&#x00BB;</p>
+<p><pb n="158"/>&#x00BB;Hvordan kan Deres majest&#x00E6;t t&#x00E6;nke noget saadant?&#x00BB; l&#x00F8;d svaret.</p>
+<p>Medens denne samtale fandt sted, telegraferede overl&#x00E6;gen til M&#x00FC;nchen:</p>
+<p>&#x00AB;Her gaar alt vidunderlig godt!&#x00BB;</p>
+<p>Et kvarter efter tiltraadte kongen sin sidste spadseretur med Gudden. Himlen var overskyet, og det regnede lidt.</p>
+<p>To vogtere ledsagede dem.</p>
+<p>L&#x00E6;gen ytrede, at deres n&#x00E6;rv&#x00E6;relse var overfl&#x00F8;dig, og de gik snart efter tilbage til slottet.</p>
+<p>De to herrer slog ind paa den vei, som de havde fulgt samme morgen.</p>
+<p>Fra ungdommen havde Ludwig kjendt Starnbergers&#x00F8;ens bredder, og det er mere end sandsynligt, at han om formiddagen havde valgt den plads, hvor han vilde befri sig for sit liv.</p>
+<p>Overl&#x00E6;gen havde sagt, at han vilde komme tilbage med kongen klokken otte.</p>
+<p>Den blev halv ni og ni; men endnu saa man dem ikke. Paa slottet blev man &#x00E6;ngstelig for, at der kunde v&#x00E6;re tilst&#x00F8;dt dem en ulykke i den m&#x00F8;rke park.</p>
+<p>Underl&#x00E6;gen lod de n&#x00E6;rmeste omgivelser n&#x00F8;iagtig unders&#x00F8;ge. Det f&#x00F8;rte forel&#x00F8;big ikke til noget resultat; thi ingen t&#x00E6;nkte paa Starnbergers&#x00F8;en.</p>
+<p><pb n="159"/>Ikke langt fra den b&#x00E6;nk, paa hvilken Ludwig og Gudden havde siddet om morgenen, fandt man omsider begges paraplyer.</p>
+<p>En fisker blev tilkaldt; man satte ud i hans baad og opdagede ikke langt fra land dr. Guddens lig halvt siddende, med ryggen b&#x00F8;iet under vandet.</p>
+<p>Et par skridt l&#x00E6;ngre ude i s&#x00F8;en fandt man kongens afsj&#x00E6;lede legeme med hovedet ned og armene foroverb&#x00F8;iede. S&#x00F8;en var paa dette sted ikke saa dyb, at han ei skulde kunne have frelst sig, om han havde villet det.</p>
+<p>Hvad der er skeet paa denne plet, vil til evig tid forblive en hemmelighed.</p>
+<p>Den s&#x00F8;rgelige begivenhed var foregaaet uden vidner. Men sporene langs stranden og i s&#x00F8;ens bund, som blev unders&#x00F8;gt, berettiger til f&#x00F8;lgende antagelse:</p>
+<p>Kongen gik paa h&#x00F8;ire side, Gudden paa venstre, indtil de naaede den b&#x00E6;nk, hvor de f&#x00F8;r havde siddet. Da vil kongen have kastet sin paraply og v&#x00E6;re sprungen henimod s&#x00F8;en; thi man kunde se hans spor paa den fugtige, moskl&#x00E6;dte strand.</p>
+<p>Gudden har &#x00F8;ieblikkelig sat efter og grebet ham i frakkekraven. Hans greb maa have v&#x00E6;ret meget haardt; thi neglen paa en af hans fingre var splintret.</p>
+<p>Ludwig maa paa den anden side v&#x00E6;re bleven <pb n="160"/>ved at storme fremad; thi Gudden havde beholdt begge kongens frakker i sin haand.</p>
+<p>Over det h&#x00F8;ire &#x00F8;ie havde l&#x00E6;gen en blaa fl&#x00E6;k, som utvivlsomt skrev sig fra et n&#x00E6;veslag. En frygtelig kamp maa have fundet sted.</p>
+<p>Dr. M&#x00FC;ller gjorde de ih&#x00E6;rdigste fors&#x00F8;g paa at kalde Ludwig tilbage til livet, men alle anstrengelser var unyttige; d&#x00F8;den havde befriet den sindssyge konge for hans kvalfulde tilv&#x00E6;relse.</p>
+</div>
+<div type="chapter">
+<head type="main">XXII. Slutning</head>
+<p rend="noIndent">Anden pintsedags aften blev Ludwig den andens lig f&#x00F8;rt til M&#x00FC;nchen.</p>
+<p>Vognen, der blev trukken af fire heste, og som ledsagedes af hans tjenerskab og af pr&#x00E6;ster, kom til hovedstaden klokken halvfire om natten. Store skarer af landbefolkningen fulgte gr&#x00E6;dende hans kiste. Ingen troede, at han havde v&#x00E6;ret sindssyg, men at han var bleven uskyldig forfulgt. Hos alle levede mindet om den elskede konge, der havde lovet saa meget, hvis egenheder man havde tilgivet, og som, trods alt, var bleven ved at v&#x00E6;re bayrernes stolthed.</p>
+<p>Budskabet om hans tragiske endeligt rystede hele Tyskland.</p>
+<p>Dybt og inderlig s&#x00F8;rgede hans hovedstad, hvor han saa sjelden havde opholdt sig. Og i landdistrikterne fandtes der neppe en hytte, hvor hans billede ikke blev kranset med s&#x00F8;rgeflor.</p>
+<p><pb n="162"/>Den d&#x00F8;de konge blev udstillet paa en h&#x00F8;i katafalk if&#x00F8;rt Hubertus-ordenens ridderdragt med dens gyldne baand om halsen og med et sv&#x00E6;rd af jern hvilende i venstre arm. Paa brystet laa blomster, som keiserinde Elisabeth havde bragt ham.</p>
+<p>Tusinder af alle st&#x00E6;nder tr&#x00E6;ngte ind i det lille kapel for at sige ham det sidste farvel. Sorg pr&#x00E6;gede alle ansigter, medf&#x00F8;lelse fandt udtryk paa alle l&#x00E6;ber. Den ensomme s&#x00E6;rling havde endelig fundet fred.</p>
+<figure rend="asterisk"/>
+<p>Enkedronning Maries kraft var bleven brudt af modgang; kun tre aar overlevede hun sin &#x00E6;ldste s&#x00F8;n.</p>
+<p>&#x00AB;Bayerns ulykkeligste moder&#x00BB; udaandede den syttende mai 1889 paa Hohenschwangau, hvor hun havde levet sine rige og lykkelige ungdomsdage. Med ordene: &#x00AB;Gud bevare Bayern, Gud bevare Preussen!&#x00BB; drog hun sit sidste suk.</p>
+<p>Hertuginden af Alen&#x00E7;on opholdt sig hos sine for&#x00E6;ldre i Possenhofen, da hendes forhenv&#x00E6;rende forlovede fandt d&#x00F8;den i den n&#x00E6;rliggende Starnbergers&#x00F8;. Budskabet greb hende saa dybt, at hun blev sindsforvirret.</p>
+<p>Ludwigs umyndiggj&#x00F8;relse og voldsomme d&#x00F8;d fremkaldte stormende debatter i den bayerske rigsdag.</p>
+<p><pb n="163"/>For at overbevise verden om, at man havde havt ret til at behandle ham, som man gjorde, aabenbarede ministeriet uden skaansel hans sygdoms udviklingsgang. Betydelige sindssygel&#x00E6;ger erkl&#x00E6;rede enstemmig, at hans aand flere aar havde v&#x00E6;ret form&#x00F8;rket.</p>
+<p>Men inden hans folk er der endnu idag mange, som ikke tror derpaa.</p>
+<p>Bayern har ikke glemt kong Ludwig. Med kj&#x00E6;rlighed taler man om de tr&#x00E6;k af godhed og venlighed, hvorved han vandt alle. I de egne, hvor han opholdt sig mest, lever erindringen om &#x00AB;romantikeren paa tronen&#x00BB; frisk og varm i befolkningens hjerter.</p>
+</div>
+<div type="chapter">
+<head type="main">&#x005B;Kilder&#x005D;</head>
+<p rend="noIndent">De kilder, som jeg har benyttet under udarbeidelsen af foranstaaende bog, er hovedsagelig f&#x00F8;lgende:</p>
+<list>
+<item>Professor Dr. C. Beyer: <title rend="italic">Ludwig II, K&#x00F6;nig von Bayern. (Ein Characterbild.)</title></item>
+<item>Brachvogel: <title rend="italic">Ludwig II, K&#x00F6;nig von Bayern</title>.</item>
+<item>I. L. Craemer: <title rend="italic">K&#x00F6;nig Ludwig und Richard Wagner</title>.</item>
+<item>Craemer: <title rend="italic">Die bayerrischen K&#x00F6;nigsschl&#x00F6;sser in Wort und Bild</title>.</item>
+<item><title rend="italic">Das Ministerium Lutzund seine Gegner</title>.</item>
+<item>Dr. Franz Karl: <title rend="italic">Der Character Ludwig II</title>.</item>
+<item>Dr. Karl von Heigel: <title rend="italic">Konig Ludvig II von Bayern. Ein Beitrag zu seiner Lebensgeschichte</title>.</item>
+<item>Lovise von Kobell: <title rend="italic">K&#x00F6;nig Ludwig II von Bayern und die Kunst</title>.</item>
+<item>Lovise von Kobell: <title rend="italic">Unter den vier ersten K&#x00F6;nigen Bayerns</title>.</item>
+<item>Friedrich Lampert: <title rend="italic">Ludwig II, K&#x00F6;nig von Bayern</title>.</item>
+<item>Graser: <title rend="italic">Die letzten Tage Ludwig II</title>.</item>
+<item>Dr. F. C. M&#x00FC;ller: <title rend="italic">Die letzten Tage Konig Ludwig II</title>.</item>
+<item>Otto Gerold: <title rend="italic">Die letzten Tage K&#x00F6;nig Ludwig II</title>.</item>
+<item>Sailer: <title rend="italic">Die Bau und Kunstdenkm&#x00E4;ler Ludwig II</title>.</item>
+<item>Dr. Hans Reidelbach: <title rend="italic">Characterz&#x00FC;ge und Anekdoten aus dem Leben der bayrischen K&#x00F6;nige</title>.</item>
+<item>I. v. T&#x00FC;rk: <title rend="italic">Die K&#x00F6;nigin-Mutter Marie von Bayern</title>.</item>
+<item>Zeiller: <title rend="italic">Enth&#x00FC;llungen &#x00FC;ber die Sektion und die Todesart K&#x00F6;nig Ludwig II</title>.</item>
+<item>Dr. med. W. W. Ireland: <title rend="italic">The blot upon the brain. Studies in history and psychology</title>. etc. etc.</item>
+</list>
+<p rend="noIndent">Bogen hviler endvidere, ligesom &#x00AB;Ludwig den anden, konge af Bayern&#x00BB;, paa personlige erindringer fra mit ophold i M&#x00FC;nchen samt paa mundtlige meddelelser fra tyske venner, der tilbragte sine sommere i Hohenschwangau i sytti- og otti-aarene.</p>
+</div>
+</body>
+</text>
+</TEI>

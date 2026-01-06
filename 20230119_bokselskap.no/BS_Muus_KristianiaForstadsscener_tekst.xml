@@ -1,0 +1,721 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI PUBLIC "-// TEI P5 //EN" "http://www.tei-c.org/release/xml/tei/custom/schema/dtd/tei_all.dtd">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="BS_Muus_Forstadsscener">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>bokselskap.no, Oslo 2019
+<lb/>Rudolf Muus: <hi rend="italic">Kristiania forstadsscener og deres skuespillere</hi>
+<lb/>Teksten i bokselskap.no f&#x00F8;lger 1. utgave, 1924 (Oslo/J. Aass&#x0027; forlag) og er basert p&#x00E5; digital tekstversjon ved &#x00D8;ystein Tvede.
+<lb/>ISBN: 978-82-8319-492-0 (digital, bokselskap.no), 978-82-8319-493-7 (epub), 978-82-8319-494-4 (mobi)
+</title>
+</titleStmt>
+<publicationStmt>
+<p>Publiseres som digital tekst av bokselskap.no.</p></publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Kristiania forstadsscener og deres skuespillere</title>
+<author>Rudolf Muus</author>
+<publisher>J. Aass&#x0027; forlag</publisher>
+<pubPlace>Oslo</pubPlace>
+<date>1924</date>
+<note>Muus_Gamle Kristiania-minder.docx (mottatt fra &#x00D8;ystein Tvede oktober 2019)</note>
+</bibl>
+</sourceDesc>
+</fileDesc>
+<revisionDesc>
+<change who="ENW" when="2019-10-11">Lagt inn ISBN. Koderydding. Sjekket sidereferanser. Lagt inn innholdsfortegnelse og ref-koding. Lagt inn illustrasjoner. Entiteter, kodekontroll og validering. Klar for publisering.</change>
+<change xml:id="ENW" who="ENW" when="2019-10-10">Konvertert Tvedes ferdige tekstfil fra Word -> XML (TEI P5).</change>
+</revisionDesc>
+</teiHeader>
+<text xml:id="BS_Muus_Forstadsscener_tekst" type="collection">
+<front>
+<titlePage type="main">
+<byline><docAuthor>Rudolf Muus</docAuthor></byline>
+<docTitle>
+<titlePart type="main">Kristiania forstadsscener og deres skuespillere</titlePart>
+<titlePart type="sub">Minder fra 70&#x2013;90 aarene</titlePart>
+</docTitle>
+<docDate>bokselskap.no<lb/>Oslo 2019</docDate>
+</titlePage>
+<div xml:id="contents">
+<list type="contents_main">
+<item><ref target="chapter_1" xml:id="contents_1">VETERANER FRA DET F&#x00D8;RSTE NORSKE TEATER</ref></item>
+<item><ref target="chapter_2" xml:id="contents_2">KRISTIANIA F&#x00D8;RSTE ARBEIDERTEATER</ref></item>
+<item><ref target="chapter_3" xml:id="contents_3">FOLKVANG</ref></item>
+<item><ref target="chapter_4" xml:id="contents_4">DET NYE &#x00D8;STRE SAMFUND</ref></item>
+<item><ref target="chapter_5" xml:id="contents_5">OLYMPENS SIDSTE DAGE</ref></item>
+<item><ref target="chapter_6" xml:id="contents_6">VARIETE OG REVY</ref></item>
+<item><ref target="chapter_7" xml:id="contents_7">FORSTADSSCENERNES BETYDNING</ref></item>
+<item><ref target="chapter_8" xml:id="contents_8">TEATERHISTORIER</ref></item>
+</list>
+</div>
+</front>
+<body>
+<div type="chapter" n="1">
+<head type="main"><ref type="contents" target="contents_1" xml:id="chapter_1">VETERANER FRA DET F&#x00D8;RSTE NORSKE TEATER</ref></head>
+<p rend="noIndent"><pb n="5"/>Jeg var vel otte aar, da jeg f&#x00F8;rste gang kom i teatret &#x2013; jeg husker det som det skulde v&#x00E6;ret igaar, antagelig fordi det gjorde saadant et sterkt indtryk paa mig. Det var paa Kristiania Theater, og &#x00AB;Hos kapteinen&#x00BB; og &#x00AB;Tordenskjold&#x00BB; gik. Da fandt jeg, at teatret var det herligste som t&#x00E6;nkes kunde og det at v&#x00E6;re skuespiller maatte v&#x00E6;re det st&#x00F8;rste i verden. Men at komme ofte i teatret kunde ikke v&#x00E6;re tale om for os barn, man fik v&#x00E6;re n&#x00F8;isom i sine fordringer. Jeg for min del gl&#x00E6;det mig ved at studere teaterprogrammer og fors&#x00F8;ke at forestille mig, hvordan det og det stykket kunde v&#x00E6;re. Saa fik jeg dukketeater med et rikt utvalg av kulisser, skrev komedier til det og agerte alle roller. Men snart var ikke dette mig nok, jeg maatte optr&#x00E6; selv. Og vi begyndte forestillinger i barnekammeret, mine br&#x00F8;dre og jeg, tjenestefolkene var tilskuere. Jeg var direkt&#x00F8;r og skrev selv stykker til &#x00AB;Aasens Teater&#x00BB; som jeg kaldte det. Hveranden s&#x00F8;ndag, naar mine for&#x00E6;ldre efter fast takst var paa Keyserl&#x00F8;kken, spillet vi barn. Men dette skulde foregaa i al hemmelighet overfor vore <pb n="6"/>for&#x00E6;ldre. For mig var det bare interesse og begeistring, men for mine skuespillere var det delvis en forretningssak. Jeg gagerte dem med et &#x00F8;re pr. aften, men siden var jeg n&#x00F8;dt til at fordoble gagen, da en av dem gjorde streik og negtet at gaa ind paa &#x00AB;scenen&#x00BB;, f&#x00F8;r han fik sig utbetalt 2 &#x00F8;re kontant. Aar derefter har jeg oplevet noget lignende paa forstadsteatre.</p>
+<p>Naar et st&#x00F8;rre stykke skulde op, maatte personalet rekruteres med kokkepiken, stuepiken, gaardsgutten og sveitseren, hvilket gav anledning til mange l&#x00F8;ierlige scener. De var forresten sterkt interesserte herav.</p>
+<p>En aften vi opf&#x00F8;rte &#x00AB;Jeppe paa Berget&#x00BB; fik vi en celeber gjest i skuespiller Peter Rasmussen fra Kr.a Teater, som kom i geburtsdagsgilde hos husjomfruen. For os barn var det en glansfuld begivenhet at se en skuespiller i vort hjem, og vi n&#x00F8;d samv&#x00E6;ret med denne gemytlige, elskv&#x00E6;rdige mand. Paa Kr.a teater virket han dengang som statistformand. Han hadde selv engang v&#x00E6;ret direkt&#x00F8;r for et omreisende teaterselskap og kom siden til Kr.a teater hvor Bj&#x00F8;rnstjerne Bj&#x00F8;rnson dengang var direkt&#x00F8;r. Da Rasmussen nogen aar efter s&#x00F8;kte posten som overvokter paa Gaustad, gav Bj&#x00F8;rnson ham en glimrende attest for at kunne styre vilde skuespillere. Men Rasmussen fik ikke posten.</p>
+<p>En dag jeg kom ind i dagligstuen, sat far og l&#x00E6;ste h&#x00F8;it for mor noget, som lot til at more dem begge. Det var et av mine egne skuespil, som han hadde fundet. Jeg syntes jeg kunde synke gjennem gulvet av skam og f&#x00E6;ldte mine modige taarer. Men <pb n="7"/>mor tr&#x00F8;stet mig med, at det var en pen og tilladelig lek for barn at spille komedie. Og mange aar senere, nu i vor tid, opfordret presten Herman Lunde l&#x00E6;rere til at la sine elever spille komedie, da dette var en sund, for&#x00E6;dlende og dannende adspredelse.</p>
+<p>Siden da jeg kom ut i livet og blev ribbet for saa mange illusioner, saa jeg vistnok ikke l&#x00E6;nger i skuespillerne halvguder, men dog interessante mennesker, tiltr&#x00E6;kkende ved sin intelligens, behagelige til selskap og hvem man ikke maa ta under samme maal som andet folk.</p>
+<p>De f&#x00F8;rste skuespillere jeg blev kjendt med i Kristiania var veteraner for det norske teater i M&#x00F8;llergaten.</p>
+<div type="uchapter" n="1_1">
+<head type="sub">Olav D&#x00F8;vle</head>
+<p rend="noIndent">Han var f&#x00F8;dt i omegnen av Sandefjord, hvor hans far hadde gaard, gik seminaret og virket siden for en tid som l&#x00E6;rer paa et d&#x00F8;vstuminstitut. I slutningen av 1850-aarene blev han engagert som skuespiller ved det norske teater i M&#x00F8;llergaten med Henrik Ibsen som direkt&#x00F8;r. Her blev han snart en meget anvendt skuespiller. Aaret efter sin ans&#x00E6;ttelse deltok han i det norske studentertog til Upsala. Denne tur h&#x00F8;rte siden til D&#x00F8;vles kj&#x00E6;reste minder. Ved et gilde her drak han dus med en svensk prest. Dette saa professor Monrad, som ogsaa var med, og sa:</p>
+<p>&#x00AB;Nu har jeg aldrig f&#x00F8;r set en skuespiller og en prest v&#x00E6;re venner.&#x00BB;</p>
+<p><pb n="8"/>Hvortil D&#x00F8;vle svarte: &#x00AB;Begge to skuespillere, hr. professor.&#x00BB;</p>
+<p>Paa det norske teater kom for f&#x00F8;rste gang &#x00AB;H&#x00E6;rm&#x00E6;ndene paa Helgeland&#x00BB; til opf&#x00F8;relse, og D&#x00F8;vle spillet &#x00D8;rnulf fra Fjordene. En av hans bedste roller var Thore Hovland i Rolf Olsens &#x00AB;Anne Kolbj&#x00F8;rnsdatter&#x00BB;. Her spiltes oberst L&#x00F8;wen av Andreas Isachsen, med hvem D&#x00F8;vle stod paa en mindre god fot. Han hadde som Thore Hovland en replik saalydende: &#x00AB;Nu sitter oberst L&#x00F8;wen som r&#x00E6;ven i saksen paa Norderhov.&#x00BB;</p>
+<p>Istedet sa D&#x00F8;vle:</p>
+<p>&#x00AB;Nu sitter oberst L&#x00F8;wen som r&#x00E6;ven Isachsen paa Norderhov.&#x00BB;</p>
+<p>Imidlertid var D&#x00F8;vle blit gift med skuespillerinden Amalie Johannesen, der forenet et fordelagtig ydre med en smuk sangstemme. Hendes glansrolle var Sigrid i &#x00AB;Til S&#x00E6;ters&#x00BB;.</p>
+<p>Ved sammenslutningen av de to teatre i 1863 blev fru D&#x00F8;vle engagert til Kr.a teater, mens D&#x00F8;vle trak sig tilbake fra scenen og kastet sig over det juridiske studium.</p>
+<p>Paa Kr.a teater spillet fru D&#x00F8;vle unge pikeroller og gjorde lykke ved sin t&#x00E6;kkelige optr&#x00E6;den og smukke sang. Siden fik hun under Josefson roller i flere av de operaer, som opf&#x00F8;rtes, blandt andet som Zerlina i Don Juan, og skilte sig utmerket herfra.</p>
+<p>Imidlertid tok D&#x00F8;vle juridikum og nedsatte sig i Kristiania som overretssakf&#x00F8;rer. Men skuespiller vedblev han allikevel at v&#x00E6;re baade i privatlivet og i retssalen. Han hadde meget med skilsmissesaker <pb n="10"/>at bestille og f&#x00F8;rte da som oftest den kvindelige parts forsvar, hvorfor assessor, senere sorenskriver, Rdv. M&#x00F8;rch, d&#x00F8;pte ham &#x00AB;Damernes advokat&#x00BB;.</p>
+<p rend="center"><figure><graphic url="Forstadsscener_s9.JPG"/></figure></p>
+<p>Da fru D&#x00F8;vle i 1879 feiret sin avskedsbenefice paa Kr.a teater og &#x00AB;Til S&#x00E6;ters&#x00BB; opf&#x00F8;rtes, spillet hendes mand Per og sekret&#x00E6;r Th. Blanc komplimenterte ham med f&#x00F8;lgende ord:</p>
+<p>&#x00AB;Hvis De, D&#x00F8;vle, skulde lide mangel paa klienter, kan De jo godt vende tilbake til scenen.&#x00BB;</p>
+</div>
+<div type="uchapter" n="1_2">
+<head type="sub">Epilog</head>
+<p rend="noIndent">Forfattet av Henrik Ibsen og fremsagt av fru Amalie D&#x00F8;vle mens Ibsen var direkt&#x00F8;r for det Norske Teater, omkring 1860.</p>
+<lg>
+<l>Minder, som i Dagen dukkes</l>
+<l>Dybt til Bunds i Glemsels V&#x00E6;ld,</l>
+<l>Syner, som i Larmen slukkes</l>
+<l>Maner mig i denne Kv&#x00E6;ld.</l>
+<l>Hvad her inderst inde gror</l>
+<l>Og vil frem til Klarhed famle, &#x2013;</l>
+<l>Vil jeg binde, vil jeg samle</l>
+<l>Til et varmt, et taksomt Ord.</l>
+</lg>
+<lg>
+<l>Fast et Barn jeg pr&#x00F8;ved her</l>
+<l>F&#x00F8;rste Gang de unge Kr&#x00E6;fter;</l>
+<l>Stjernen, som jeg higed efter,</l>
+<l>Tyktes vinke mig saa n&#x00E6;r.</l>
+<l><pb n="11"/>O! Det var et smukt Bedrag,</l>
+<l>Og jeg l&#x00E6;rte Dag for Dag:</l>
+<l>Did er Veien tung og bakket,</l>
+<l>Did er Livet selv for stakket.</l>
+</lg>
+<lg>
+<l>Mig var Verden fjern og fremmed:</l>
+<l>Kunstnertrangens unge Skud</l>
+<l>Fra mit eget sind slog ud,</l>
+<l>Voxte der som B&#x00F8;rn i Hjemmet.</l>
+<l>Livsens glade, tit forfl&#x00F8;ine,</l>
+<l>Ud i Dagen jeg dem jog;</l>
+<l>I dem venlig favnetog,</l>
+<l>Saa paa dem med milde &#x00D8;ine.</l>
+</lg>
+<lg>
+<l>Jentens Sang paa S&#x00E6;tervold,</l>
+<l>Dr&#x00F8;m og deiligst Digt i Dale,</l>
+<l>Skovliv bagom Aas og Koll</l>
+<l>Var det mig saa kj&#x00E6;rt at male.</l>
+<l>Hvis jeg kun et enkelt Drag</l>
+<l>Ud fra Hjertedybden drevet,</l>
+<l>Stilled frem i Lys og Dag,</l>
+<l>Har jeg ei forgj&#x00E6;ves levet.</l>
+</lg>
+<lg>
+<l>Tak for F&#x00F8;lget paa min Vei,</l>
+<l>Tak for alle milde Tanker,</l>
+<l>Tak for Minderne, som ranker</l>
+<l>Sig til Skrud for Livets Hej!</l>
+<l>Bedre vil jeg vel engang</l>
+<l>B&#x00E6;re frem mit Hjertes Trang,</l>
+<l>Trangen til trods Fjeld og Bakke</l>
+<l><hi rend="italic">Ovenfra</hi> ved <hi rend="italic">Daad</hi> at takke.</l>
+</lg>
+</div>
+<div type="uchapter" n="1_3">
+<head type="sub">Gabriel Krohn</head>
+<p rend="noIndent"><pb n="12"/>var ogsaa en av veteranerne fra den f&#x00F8;rste norske scene. Her skulde han efter eget sigende med bravour ha spillet Leif Fjerdinggren i Monsens &#x00AB;Gudbrandsd&#x00F8;lerne&#x00BB;. Egentlig skulde han hete Olsen. Det var en liten, sirlig mand med snehvitt haar og rosenr&#x00F8;tt ansigt.</p>
+<p>&#x00AB;Grunden til at jeg forlot teatret,&#x00BB; sa han, &#x00AB;var at naar jeg kom ind paa scenen, fik jeg anfald av svimmelhet og holdt paa at falde om, hvorfor mine uvenner vilde ha det til at jeg var beruset.&#x00BB;</p>
+<p>For&#x00F8;vrig fors&#x00F8;kte han sig som landskapsmaler. Han hadde formaaende venner i Kristiania, som var villige til at underst&#x00F8;tte ham paa betingelse av at han bosatte sig utenfor hovedstaden. Og Krohn slog sig ned paa Horten for kun av og til at dukke op i Kristiania. Men paa Hortenshotellets restaurant spillet Krohn tragedie. Han fortalte gjesterne helt gripende om sin hustru, som omkom ved en teaterbrand og de fortvilede anstrengelser han gjorde for at redde hende. Dette fortalte han med skj&#x00E6;lvende stemme og under taarer, skj&#x00F8;nt han faktisk aldrig hadde v&#x00E6;ret gift. Og tilh&#x00F8;rerne f&#x00F8;lte en inderlig medynk med den haardt hjems&#x00F8;kte mand, og forpleiet ham rikelig med mat og drammer. Dette holdt han gaaende i aarevis, indtil han en vakker dag blev demaskert.</p>
+</div>
+<div type="uchapter" n="1_4">
+<head type="sub">Henrik N&#x00F8;rgaard</head>
+<p rend="noIndent"><pb n="13"/>var f&#x00F8;dt i Kristiania. Som ung mand engagertes han til Kristiania teater i den danske periode, hvor han og en viss John Andersen var de eneste norske. Her skulde han ha gjort lykke i de mindre roller som blev ham tildelt.</p>
+<p>I 1867 aapnedes i Dramatiken Folketeatret med norske og danske kr&#x00E6;fter, blandt hvilke vi vil n&#x00E6;vne Rosa Baldani, (senere fru Asmundsen), fr&#x00F8;ken Elvig (senere fru Juell) og den evigunge Jakob Lund. Direkt&#x00F8;r var f&#x00F8;rn&#x00E6;vnte Peter Rasmussen. Hertil blev N&#x00F8;rgaard engageret og gjorde lykke baade i alvorlige og komiske roller. Han blev efterhaanden selskapets premierakt&#x00F8;r og b&#x00E6;rende kraft.</p>
+<p>Efter to s&#x00E6;soner oph&#x00F8;rte Folketeatret og N&#x00F8;rgaard kom med endel av personalet til Trondhjems Teater, hvor han var et aars tid. Siden den tid var ikke N&#x00F8;rgaard fast engageret ved noget selskap, men foruten at v&#x00E6;re optat av andre gj&#x00F8;remaal, drog han om i smaabyerne og ga aftenunderholdninger enten alene eller sammen med andre. Jevnlig optraatte han paa markederne, men for at konkurere med j&#x00F8;glerne maatte han gaa ut og holde markskrigerske foredrag og herved lokke folk til forestillingerne.</p>
+<p>Da jeg traf ham i ottiaarene, hadde han vel passeret de seksti og hadde kolonialhandel paa Thorshaug, en munter, gemytlig mand, som hadde meget at fort&#x00E6;lle fra sit reiseliv.</p>
+</div>
+<div type="uchapter" n="1_5">
+<head type="sub">John Andersen</head>
+<p rend="noIndent"><pb n="14"/>En liten, v&#x00E6;ver mand, som bar navnet Little John. Han var utl&#x00E6;rt bokbinder og hadde i l&#x00E6;ngst forsvundne dage virket paa Kristiania Teater som karakterskuespiller. Siden viet han sig utelukkende til sit haandverk og var ivrig godtemplar &#x2013; i visse perioder.</p>
+<p>Efter mange aars frav&#x00E6;r fra bredderne optraatte Little John i nittiaarene paa Eldorado, hvor han utf&#x00F8;rte en mindre rolle anerkjendelsesv&#x00E6;rdig.</p>
+</div>
+</div>
+<div type="chapter" n="2">
+<head type="main"><ref type="contents" target="contents_2" xml:id="chapter_2">KRISTIANIA F&#x00D8;RSTE ARBEIDERTEATER</ref></head>
+<p rend="noIndent"><pb n="15"/>Det var smaat bevendt med folkeforlystelser til langt utover mot syttiaarene. Man hadde lirem&#x00E6;nd og andre musikanter i gaardene ofte i forbindelse med abekatter, bj&#x00F8;rne og j&#x00F8;glere, og omtrent de eneste steder, hvor arbeiderne kunde samles til nogen selskapelighet, var dansebulerne. Her artet livet sig temmelig raat og letsindig. Vistnok bes&#x00F8;kte arbeiderne de cirkusser, som av og til gjestet Kristiania, men den egentlige arbeiderstand, haandverkerne ikke inbefattet, fandt sjelden veien til byens to teatre. De manglet de forn&#x00F8;dne foruts&#x00E6;tninger til at kunne opfatte og nyte komedie og fandt vel ogsaa at de ikke passet blandt beaumondens teaterpublikum. Man maa huske paa, at en almindelig kropsarbeider i de tider av mellem- og overklassen ikke agtedes for noget, men var st&#x00E6;ngt ute paa mange hold. Almueskoleundervisningen stod endnu paa et lavt trin, ingen offentlige biblioteker stod til den store masses raadighet, arbeiderne l&#x00E6;ste litet, deres litteratur var v&#x00E6;sentlig morder- og kj&#x00E6;rlighetsviser og kristelige skrifter, hvilket just ikke skulde bidra til at h&#x00E6;ve nivaaet. Den nyere norske skj&#x00F8;nlitteratur var st&#x00E6;ngt for dem.</p>
+<p rend="center"><figure><graphic url="Forstadsscener_s16.JPG"/></figure></p>
+<p><pb n="17"/>Paa Kaysalen eller Folkvang, hvor der av og til optraadte tryllekunstnere og andre j&#x00F8;glere f&#x00F8;rend dansen begyndte, fandt et par omreisende skuespillere paa at opf&#x00F8;re nogen beskedne smaastykker. Dette var noget ganske nyt her, og det slog utmerket an hos det fordringsl&#x00F8;se publikum. Men det blev bare ved disse faa fors&#x00F8;k.</p>
+<p>I 1881 stiftedes Kristiania &#x00F8;stre arbeidersamfund, som skulde befordre selskapelighet, hygge og oplysning blandt medlemmerne. De hadde sit f&#x00F8;rste lokale i Enebakveien 16, en ganske net sal med galleri. Men det blev nok saa som saa med selskapeligheten, hyggen og oplysningen. Hver s&#x00F8;ndagsaften avholdtes her dans, og ved siden herav diverterte den mindre beh&#x00F8;vlede del av medlemmerne sig med slagsmaal.</p>
+<p>Aaret efter flyttet samfundet til den forhenv&#x00E6;rende Rasmussals lokale paa Gr&#x00F8;nlandsleret.</p>
+<p>Men i dette nye lokale blev s&#x00F8;ndagsunderholdningen den samme: Slagsmaal og dans. Saa kom den mere intelligente del av medlemmerne paa den tanke at oprette en teaterforening inden samfundet. Dette blev vedtat. Blandt grunderne var flere sterkt teaterinteresserte herrer og damer, hvorav nogen hadde spillet komedie f&#x00F8;r, hvilket kom godt med til hj&#x00E6;lp nu da foretagendet skulde startes.</p>
+<p>Foreningens aktive medlemmer var: Malermester Harstad, Hans M&#x00F8;rch, br&#x00F8;drene Oskar og Gustav Leffmann, Thomas Tollefsen, boktrykker Vaaler, Kristian Isachsen og damerne fru Elvina Kj&#x00F8;lstad og hendes s&#x00F8;ster, fr&#x00F8;ken Nielsen. Fru <pb n="19"/>Kj&#x00F8;lstad hadde tidligere spillet privatkomedie. Om de &#x00F8;vrige medlemmer vil vi siden uttale os enkeltvis.</p>
+<p rend="center"><figure><graphic url="Forstadsscener_s18.JPG"/></figure></p>
+<p>Dette selskap begyndte forestillinger med smaastykker paa en liten scene, som var reist i gamle Rasmussalen. Her opf&#x00F8;rtes &#x00AB;Peter og Inger&#x00BB;, &#x00AB;Til S&#x00E6;ters&#x00BB; og andre enakter. De agerende gik med liv og lyst l&#x00F8;s paa sine roller, og deres pr&#x00E6;stationer blev fra f&#x00F8;rste begyndelse av fulgt med varm interesse ikke alene av samfundets medlemmer&#x00BB; men ogsaa en st&#x00F8;rre kreds av &#x00D8;stkantens beboere. Disse forestillinger viste virkelig snart sin foredlende virkning paa samfundsaanden i det hele tat. De agerende hadde et interessert og taknemmelig publikum at spille for og under den paaf&#x00F8;lgende dans avtok slagsmaalene og anden raaskap, og den dramatiske forening befordret kameratslighet og hygge inden samfundet.</p>
+<p>Vi vil nu litt n&#x00E6;rmere omtale de optr&#x00E6;dende dilletanter.</p>
+<div type="uchapter" n="2_1">
+<head type="sub">Hans Henrik M&#x00F8;rch</head>
+<p rend="noIndent">var gammel Kristianiagut. I syttiaarene hadde han v&#x00E6;ret ansat som sufl&#x00F8;r ved det Hafgrenske selskap paa M&#x00F8;llergatens teater, senerehen ved Cettis danske selskap paa samme teater, og ved levningerne av dette under direktion av den evigunge Lund. Med disse selskaper hadde M&#x00F8;rch faret kysten rundt og oplevet mangeslags underlige eventyr. Av og til maatte han forlate sufl&#x00F8;rkassen for at ta smaaroller, og var ellers pot og pande for direkt&#x00F8;ren. <pb n="20"/>Sufl&#x00F8;ren er jo, s&#x00E6;rlig paa mindre teatre, en av de b&#x00E6;rende kr&#x00E6;fter. Og gjennem dette erhvervet M&#x00F8;rch sig et indgaaende kjendskap til scenen.</p>
+<p>Fra sit reiseliv fortalte M&#x00F8;rch en historie.</p>
+<p>Han var med det Lundske selskap tidlig en h&#x00F8;st i Drammen. De hadde daarlig hus, pengepungen var slunken og hum&#x00F8;ret blandt personalet i forhold hertil. Saa kom skuespiller Wantzin &#x2013; han virker endnu i sin fremrykkede alder ved et av Kj&#x00F8;benhavns teatre &#x2013; med den like behagelige som opsigtsv&#x00E6;kkende meddelelse, at grosserer Kj&#x00F8;sterud, en av Drammens magnater, vilde se hele teaterpersonalet hos sig til gilde en fastsat aften. Gl&#x00E6;den blandt skuespillerne var stor, men direkt&#x00F8;ren, der likesom M&#x00F8;rch, antagelig hadde en viss mistro til indbydelsen, sa, at det passet ham ikke. For&#x00F8;vrig hadde Kj&#x00F8;sterud v&#x00E6;ret tilstede ved en av selskapets forestillinger.</p>
+<p>Ved femtiden om eftermiddagen drog skuespillerne ivei i sit bedste puds. Den temmelig korpulente komiske skuespillerinde fru H&#x00F8;ier var ytterst staselig i sj&#x00F8;gr&#x00F8;n silkekjole. De spaserte i sluttet trop et stykke utenfor byen, hvor grossereren hadde sit landsted.</p>
+<p>Da de var like ved landstedet, saa de grossereren og frue komme kj&#x00F8;rende i sin ekvipage ut av porten og passere like forbi dem uten at ta spor av notis av dem. Da gik det op for skuespillerne, at de var tat ved n&#x00E6;sen, og nu r&#x00F8;k de paa Wantzin, som for&#x00F8;vrig hadde t&#x00E6;nkt at bekjende, naar de naadde Kj&#x00F8;steruds port. Fru H&#x00F8;ier kaglet som <pb n="21"/>en h&#x00F8;ne og syntes f&#x00E6;rdig at klore &#x00F8;inene ut paa ham. Nu diktertes han en mulkt av 2 flasker kold punch, som han paa stedet vedtok. Da han var litt bedre beslaat end de andre, utredet han ved deres tilbakekomst mulkten, saa blev det allikevel gilde den aften.</p>
+<p>Som gammel teatermand var naturligvis M&#x00F8;rch til stor hj&#x00E6;lp for den dramatiske forening. Selv viste han sig som en ganske fiks skuespiller og hadde en god sangstemme. Senerehen da foreningen opl&#x00F8;stes, spillet han med de fleste av sine kamerater her og der paa basarer, hvorav de fleste som regel avholdtes paa Victoria teater (gamle Dramatiken). Da her siden blev fast teater under direktion av fru Widgren-Norby, engagertes M&#x00F8;rch hertil. Sin glansrolle hadde han som redakt&#x00F8;r Friele i revyer, og han kopierte denne gamle kjendte Kristianiaoriginal aldeles glimrende.</p>
+<p>Fra denne tid var der en historie, som jeg vil ta med. Direkt&#x00F8;r Jakobsen paa Tivoli hadde engagert en trup vilde Dahomyanere, som optraadte i Florasalonen med sin burleske sang og dans. Som en smart forretningsmand fik Jakobsen truppens leder til at la Dahomyanerne avl&#x00E6;gge en visit i Frelsesarm&#x00E9;en. Her n&#x00F8;d de den mest venskapelige mottagelse. En &#x00E6;ldre fru Hansen, som stod i armeen, var tilstede ved dette optrin, og da hun opfattet det som alle disse vilde mennesker hadde isinde at omvende sig, blev hun heftig begeistret. Nu hadde hun en svigers&#x00F8;n, som het Guller og optraadte blandt skuespillerne paa Victoria.</p>
+<p>M&#x00F8;rch, som var munter og gjerne vilde v&#x00E6;re med <pb n="22"/>paa en god sp&#x00F8;k, sa en dag til mig: &#x00AB;Guller var inat paa maskerade, kom hjem utpaa morgenkvisten og la sig i fuld kostyme til at sove paa sengen. Her overraskedes han av sin svigermor, som kom like fra Frelsesarm&#x00E9;en, og hun overfuset ham med bebreidelser. La os lave en historie av det og faa den ind i en avis.&#x00BB;</p>
+<p>Vi la vore hoder ibl&#x00F8;t, og dagen efter stod det at l&#x00E6;se i &#x00AB;Morgenposten&#x00BB; f&#x00F8;lgende artikkel:</p>
+<p>&#x00AB;En i Brogaten boende danskf&#x00F8;dt blikkenslager var nat til igaar paa kostymebal og da han kom hjem om morgenen la han sig i fuld maskeradedrakt til at sove paa sengen. Utpaa dagen fik han bes&#x00F8;k av sin svigermor, som er oberst i Frelsesarm&#x00E9;en. Hun kom like fra arm&#x00E9;en, hvor hun just hadde v&#x00E6;ret vidne til Dahomyanernes indtog og da hun trodde at disse vilde agtet at omvende sig, faldt hun i henrykkelse. Nu virket synet av hendes verdslige svigers&#x00F8;n, som laa der i dette antr&#x00E6;k, saa ophidsende paa hende, at hun grep en kj&#x00F8;kkenkniv for at skj&#x00E6;re hodet av ham, hvilket ogsaa utvilsomt vilde ha skedd, om ikke hans hustru var kommet til og hadde lagt sig imellem.&#x00BB;</p>
+<p>Da personalet paa Victoria samledes til pr&#x00F8;ve, l&#x00E6;ste de bemeldte avis og moret sig over opsatsen. Saa kom Guller, og de stimlet om ham og ropte: &#x00AB;Nei, er det dig. &#x2013; Er du virkelig ilive?&#x00BB; &#x00AB;Hvad mener Dere?&#x00BB; spurte han. De viste ham bladet.</p>
+<p>Guller lo og undret sig paa, hvad det var for en spasmaker som hadde faret saa ilde med ham i &#x00AB;Morgenposten&#x00BB;. Men da han kom hjem til sin hustru, som nu ogsaa hadde l&#x00E6;st notisen, fik han <pb n="23"/>andet at h&#x00F8;re. Hun ophidset ham til at s&#x00F8;ke &#x00AB;&#x00E6;resopreisning og skadeserstatning&#x00BB;.</p>
+<p>Guller drev ivei til &#x00AB;Morgenposten&#x00BB;, hvor han mottokes av dav&#x00E6;rende redakt&#x00F8;r Elling Kristoffersen. Han pekte paa bemeldte opsats i avisen og sa: &#x00AB;Her staar det skrevet om mig.&#x00BB;</p>
+<p>&#x00AB;Er det den strupen, kniven har v&#x00E6;ret paa,&#x00BB; sa redakt&#x00F8;ren smilende.</p>
+<p>&#x00AB;Nei, det er ikke sandt. Hvem har sat den ind?&#x00BB;</p>
+<p>&#x00AB;Det sier vi ikke.&#x00BB;</p>
+<p>&#x00AB;Jeg vil ha &#x00E6;resopreisning og skadeserstatning,&#x00BB; sa Guller.</p>
+<p>&#x00AB;Det faar De vel neppe. Men De kan jo svare i avisen.&#x00BB;</p>
+<p>Guller, som skj&#x00F8;nte at han ikke vilde vinde noget utbytte ved denne sak, styrte kursen op til Victoria, hvor han henvendte sig til en forfatter med anmodning om at han vilde skrive et tilsvar. Denne satte sig ned og skrev:</p>
+<p>&#x00AB;Jeg skal herved gj&#x00F8;re det &#x00E6;rede publikum opmerksom paa, at det ikke var mig som min svigermor fors&#x00F8;kte at myrde ved at skj&#x00E6;re hodet av mig.
+<lb/>&#x00C6;rb.
+<lb/><hi rend="italic">B. Guller</hi>.</p>
+<lb/>
+<p>&#x00AB;Mange tak,&#x00BB; sa Guller og str&#x00F8;k atter ivei til &#x00AB;Morgenposten&#x00BB;. Men f&#x00F8;r han naadde dit, traf han en ven, hvem han viste dette dokumentet, og denne fraraadet ham bestemt at indlevere det til avisen, hvilket Guller rettet sig efter. Dermed kokte det hele hen.</p>
+<p><pb n="24"/>Hans M&#x00F8;rch hadde en bror, som het Karsten og kaldtes M&#x00F8;rke M&#x00F8;rch efter sin haarfarve, mens hans lyshaarede bror ben&#x00E6;vntes Lyse M&#x00F8;rch. Karsten hadde en meget vakker sangstemme, var en tid ansat ved Mattis Lundstr&#x00F8;ms opera paa Tivoli, men spillet ogsaa paa Viktoria, hvor han blandt andet i en revy gjorde megen lykke som Tr&#x00E6;varehandler Andersen. Siden kom han til Bjarne Lunds omreisende svenske operaselskap. Han d&#x00F8;de i en tidlig alder.</p>
+<p>Mot slutningen av ottiaarene blev Hans M&#x00F8;rch gift med Rolfine Absalonsen fra Bergen, som f&#x00F8;r hadde spillet komedie paa et arbeiderteater dersteds og siden kom paa Viktoria, hvor hun viste sig som en kvik, intelligent skuespillerinde.</p>
+<p>Nogen aar senere blev han engagert som sufl&#x00F8;r paa Kristiania teater, en stilling, som tiltalte ham s&#x00E6;rdeles. Vistnok er en sufl&#x00F8;rs stilling besv&#x00E6;rlig og enerverende, men han er absolut uundv&#x00E6;rlig for skuespillerne, de s&#x00E6;tter pris paa ham og vil gjerne vise sig elskv&#x00E6;rdige mot ham. Her hadde M&#x00F8;rch at bestille med intelligente kunstnere og blev snart som en av deres egne. Ved Kristiania teaters oph&#x00F8;r fulgte han med over til Nationalteatret, hvor han virket i en r&#x00E6;kke av aar, indtil han i 1922 tok avsked.</p>
+</div>
+<div type="uchapter" n="2_2">
+<head type="sub">Gunerius Harstad</head>
+<p rend="noIndent">Han var Kristianiagut, f&#x00F8;dt i Gamlebyen, det hjemkoselige navn, som &#x00D8;stkanten bar i vore bedstefor&#x00E6;ldres dage. Denne bydel elsket han fra <pb n="25"/>barndommen av og kunde hele sit liv siden ikke trives i noget andet str&#x00F8;k. Han var malermester, men malte ogsaa landskaper, sj&#x00F8;billeder og alt mulig mellem himmel og jord liketil Johan Sverdrup.</p>
+<p>Sjelden har jeg truffet en mand med mere gl&#x00F8;dende begeistring for alt skj&#x00F8;nt end Gunerius Harstad. Alt som het kunst, elsket han, om han end selv ikke drev det til at bli kunstner hverken som maler eller skuespiller. Og hans f&#x00E6;drelandskj&#x00E6;rlighet var lysende. Skj&#x00F8;nt han ingen aktiv del tok i politikken, var han venstremand med liv og sj&#x00E6;l. Johan Sverdrup var hans avgud. Han bestr&#x00E6;pte sig efter evne for at v&#x00E6;re med om at h&#x00F8;ine arbeidernes intelligens, og et av de midler, som han trodde vilde virke foredlende paa dem, var skuespilkunsten. Derfor var han ogsaa en av de ivrigste til at stifte &#x00D8;stre Arbeidersamfunds teaterforening.</p>
+<p>Selv hadde han et godt kjendskap til vor litteratur, var en flittig teatergj&#x00E6;nger og omgikkes flere skuespillere. Han og Theodor L&#x00F8;vstad hadde i sin tid opgjort sig imellem planen til oprettelsen av et folketeater paa Gr&#x00FC;nerl&#x00F8;kken, et projekt, som ned gjennem aarenes l&#x00F8;p mange gange senere er kommet frem uten dog at bli realisert.</p>
+<p>Som skuespiller var Harstad overmaate popul&#x00E6;r blandt samfundspublikummet. Hans glansrolle var Nordal i &#x00AB;Til S&#x00E6;ters&#x00BB;. Jeg vil ikke paasta at han paa nogen maate fyldte rollen, der kl&#x00E6;bet sig mange mangler ved hans utf&#x00F8;relse av den, men det <pb n="26"/>glemte man alt for den umiddelbare begeistring og hjertelighet, hvormed han spillet og sang.</p>
+<p>I nogen aar var Harstad formand for &#x00D8;stre Samfund, varetok dettes tarv som bedst og la an paa at befordre hygge og selskapelighet blandt medlemmerne og bila alskens tvistigheter. Man sa at det aldrig siden hadde v&#x00E6;ret saa koselig i &#x00AB;&#x00D8;stre&#x00BB; som i Harstads dage.</p>
+<p>Var ikke Harstad stor hverken som maler eller skuespiller, saa var han stor som menneske.</p>
+<p>F&#x00F8;rste gang jeg bes&#x00F8;kte ham i hans smukke hjem, var han en lykkelig mand, hadde en kj&#x00E6;k hustru og en vakker liten gut, Gunnar.</p>
+<p>Nogen aar efter mistet han sin hustru, det gik ham haardt n&#x00E6;r, men han hadde jo gutten sin at leve for. Da han tre aar efter ogsaa mistet denne, var han saa aldeles fortvilet og opgit, at hans venner trodde han ikke vilde gj&#x00F8;re det l&#x00E6;nge.</p>
+<p>Men snart fik han sig en liten pleies&#x00F8;n, som han kom til at holde av og blev atter livsfrisk og glad.</p>
+<p>Men derefter, da pleies&#x00F8;nnen var voksen og ute i verden, fik Harstad ans&#x00E6;ttelse paa Bodsf&#x00E6;ngslet, hvor han hadde det hverv at undervise fanger i malerhaandverket.</p>
+<p>Her var barn, som holdt av ham og han var glad i. og han var overmaate godt likt av funktion&#x00E6;rerne og sine overordnede, men han fandt ogsaa et videre utslag for sin varme menneskekj&#x00E6;rlighet paa dette dystre sted.</p>
+<p>Den skare av fanger som han daglig gik om iblandt, disse ulykkelige vingeskutte, utst&#x00F8;tte av samfundet og merkede mennesker, opvakte hans <pb n="27"/>inderligste deltagelse og besj&#x00E6;let ham av &#x00F8;nsket at gj&#x00F8;re noget for dem. Han hadde en stor herlig tro paa det gode i mennesket og muligheten for gjenreisning selv hos den dypest sunkne. Den venlighet han viste fangerne, vandt deres hjerter.</p>
+<p>Naar tiden n&#x00E6;rmet sig her, at en ung fange hadde uttjent sin straffetid, henvendte Harstad sig til en haandverksmester og bad ham indtr&#x00E6;ngende at ta denne i sin tjeneste. Man kan vel t&#x00E6;nke sig at en mester n&#x00E6;ret bet&#x00E6;nkeligheter ved at ta til sig en demitert straffange, men som oftest lykkedes det Harstad at beseire disse skrupler. Ved avskeden med en saadan fange talte Harstad inderlige formanende ord til ham. Og hvor stor var ikke hans gl&#x00E6;de, naar han erfarte at bemeldte person i et og alt opfyldte de forhaabninger han stillet til denne. Men ak, kun altfor ofte h&#x00E6;ndte det at en saadan frigit fange en tid efter vendte tilbake til anstalten. Da var Harstad mere bedr&#x00F8;vet ved gjensynet end fangen selv.</p>
+<p>Da han en nytaarsnat skulde hj&#x00E6;lpe til med at f&#x00F8;re en balstyrlig fange ind i cellen, fik han av denne et sp&#x00E6;nd i underlivet, som han siden stadig bar m&#x00E9;n av. Dette blev tilsidst hans d&#x00F8;d.</p>
+<p>Harstads begravelse foregik under stor tilslutning. Ved baaren holdt bodsf&#x00E6;ngslets direkt&#x00F8;r dr. Bugge, en gripende vakker tale, hvori han dv&#x00E6;let ved avd&#x00F8;des storslagne hjertelag og opofrende menneskekj&#x00E6;rlighet.</p>
+</div>
+<div type="uchapter" n="2_3">
+<head type="sub">Hjalmar Andersen</head>
+<p rend="center"><figure><graphic url="Forstadsscener_s28.JPG"/></figure></p>
+<p><pb n="28"/>Han var f&#x00F8;dt i begyndelsen av 1850-aarene. Hans far var fanjunker Andersen i Gamlebyen. Tidlig vaktes hans lyst til scenen og i syttenaarsalderen fremstillet han sig til pr&#x00F8;ve hos direkt&#x00F8;r Borgaard paa Kr.a teater.</p>
+<p>&#x00AB;De er for liten for scenen,&#x00BB; sa Borgaard til ham. &#x00AB;Kom igjen om tre aar, skal vi se.&#x00BB;</p>
+<p>Dypt skuffet gik Hjalmar Andersen tilsj&#x00F8;s &#x2013; var ute og faret i tre aar. Ved dette fik han noget visst jovialt, sj&#x00F8;mandsm&#x00E6;ssig ved sig, som han <pb n="29"/>siden beholdt for hele livet. Han var virkelig, hvad man kalder en glad sj&#x00E6;l.</p>
+<p>I syttiaarene kom han ved det Hafgrenske selskap paa M&#x00F8;llergatens teater, men fik her kun statistroller. Senerehen kom han til Tivander paa Tivoli, men blev ogsaa her kun tildelt smaaroller, hvilke han dog utf&#x00F8;rte ganske kvikt.</p>
+<p>Knut Tivander sa noksaa betegnende om ham:</p>
+<p>&#x00AB;Hjalmar Andersen er den st&#x00F8;rste skuespiller, jeg har kjendt &#x2013; utenfor scenen.&#x00BB;</p>
+<p>Han var selskapsmand og muntrationsraad og kunde v&#x00E6;re baade vittig og slagf&#x00E6;rdig, man kunde ikke faa en hyggeligere kamerat med sig til en s&#x00F8;ndagstrip ut paa Ekeberg, naar man medf&#x00F8;rte en halvflaske og litt at bite i. Men aller hyggeligst var Hjalmar, naar han var fattig og pengel&#x00F8;s. Kom han litt ovenpaa, blev han gjerne stiv i hatten og viste sin krakilske side frem. Da var han ikke god at staa i baas med. Man sa, at man kunde se det utenpaa ham, naar han hadde to kroner i lommen.</p>
+<p>Senerehen fik Hjalmar Andersen ans&#x00E6;ttelse ved Bergens nationale scene, hvor han vistnok heller ikke fik st&#x00F8;rre roller, men dog tilbragte nogen behagelige aar blandt gode kamerater som Bernt Johansen, Garmann, Nikolai Halvorsen o. fl.</p>
+<p>Ut i ottiaarene vendte han tilbake til Kristiania, og nu begyndte en m&#x00F8;rk tr&#x00E6;ngselsperiode for ham, da han intet fast engagement hadde, men maatte sutinere ved at optr&#x00E6; paa basarer og forstadsteatre, og dette var oftest av kort varighet, eftersom han hadde ondt for at kunne stelle sig med folk og ved sin hvasse tunge let &#x00AB;fik sparken&#x00BB;.</p>
+<p><pb n="30"/>En sommer stod han aldeles paa bar bakke. Han hadde en liten hybel i Osterhausgaten for 5 kr. maaneden og lot hente sin middag paa Mangelsgaarden for 25 &#x00F8;re. Hans venner var ikke videre pengesterke, og selv med dette beskedne leves&#x00E6;t kunde han ikke l&#x00E6;nge holde det gaaende. Saa mistet han logiet og maatte ligge ute paa Ekeberg eller &#x00AB;kinese&#x00BB; hos den ene efter den anden av sine venner. Det blev smaat stel med levemaaten, ofte flere fastedage itr&#x00E6;k, men allikevel fors&#x00F8;kte han at vise verden et muntert ansigt.</p>
+<p>&#x00AB;Jeg faar se til at intrigere v&#x00E6;k en middag,&#x00BB; var hans vanlige talemaate. Og engang sa han:</p>
+<p>&#x00AB;Naar jeg tr&#x00E6;ffer venner, er det saa almindelig at de byr mig paa en dram og ikke mat, og naar drammen kommer ned i den fastende mave, tar den til at knurre som om den vilde si: &#x00AB;Hvad ial verden mener han med dette?&#x00BB;</p>
+<p>Da det var kommen dypest ned med Hjalmar Andersen, fik han en dag brev med tilbud om engagement ved Bjarne Lunds omreisende svenske operaselskap. Den, som blev glad, var han. Saa skrev han efter gageforskud, fiffet sig op og reiste. Det fulgte et lykkelig, sorgfrit aar for ham, saa vendte han tilbake til Kristiania og tok en opl&#x00E6;sningsturn&#x00E9; langs kysten like til Hammerfest. Han var flink til at l&#x00E6;se op og slog sig nogenlunde igjennem her ogsaa. Men tidligere hadde ofte hans turn&#x00E9;er faldt saa uheldig ut at han maatte ta landeveien hjem. Men naar han gjestet smaabyerne under markeder, kunde han gj&#x00F8;re det godt.</p>
+<p>Atter fristet han nogen kummerlige aar i Kristiania. <pb n="31"/>Saa oprandt en glansperiode for ham som han aldrig f&#x00F8;r hadde kjendt make til.</p>
+<p>Det var da han fik engagement ved Eldorado, hvor &#x00AB;Tutti Frutti&#x00BB; opf&#x00F8;rtes. Her hadde han som embedsans&#x00F8;keren en rolle, hvori han gjorde stormende lykke. Da stykket hadde gaat over 100 ganger paa Eldorado, og sommeren kom, drog personalet paa turn&#x00E9; langs kysten, hadde overalt fulde hus og h&#x00F8;stet guld og h&#x00E6;der.</p>
+<p>&#x00AB;Det er rart at jeg nu paa mine gamle dage skal komme saa h&#x00F8;it paa straa og gj&#x00F8;re en lykke som aldrig f&#x00F8;r,&#x00BB; sa Hjalmar Andersen.</p>
+<p>Han fortsatte ved Eldorado, indtil det blev fallit og undergang der. Saa var han en tid paa Karl Johansteatret, hvor han blandt andet spillet D&#x00F8;den i &#x00AB;Hannemor&#x00BB;.</p>
+<p>Siden begyndte det at takke av med hans helbred og hum&#x00F8;r, hjertet slog feil hos ham, og i begyndelsen av 1900-aaret d&#x00F8;de han paa Ullevold. Man kan vel neppe t&#x00E6;nke sig et mere broket og omskiftelig liv end hans.</p>
+</div>
+<div type="uchapter" n="2_4">
+<head type="sub">Karl Normann</head>
+<p rend="noIndent">F&#x00F8;rst jeg stiftet hans bekjendtskap, optraadte han under markedet i en j&#x00F8;glerbod i Yongsgaten, som tryllekunstner og la en makel&#x00F8;s fingerf&#x00E6;rdighet for dagen. En kvik, oplagt bergensergut med et rentut pokkerivoldsk hum&#x00F8;r. Carlo Ludvigo Amundsen het han og var paa m&#x00F8;drenes side av italiensk herkomst. For&#x00F8;vrig hadde han gaat i skr&#x00E6;dderl&#x00E6;re en tid, og dette haandverk faldt han <pb n="32"/>altid tilbake paa, naar det blev smaat stel for ham. Han var en fyr, som altid kunde klare sig i en snever vending.</p>
+<p>En sommerdag hadde han med nogen kamerater v&#x00E6;ret en tur ute paa Kavringstranden for at fiske. Da de om s&#x00F8;ndagskvelden vendte tilbake med dampbaaten, var de pengel&#x00F8;se og hang med hoderne alle uten Carlo. T&#x00E6;nk at komme hjem en s&#x00F8;ndagsaften uten et &#x00F8;re i lommen og hverken kunne faa sig &#x00F8;l eller mat!</p>
+<p>Kameraterne var gaat agterut og saa nu, at det blev en sammenstimlen midtskibs. De gik frem for at se efter grunden hertil. Der stod Carlo paa en forh&#x00F8;ining midt i hopen og gjorde tryllekunster for et ytterst taknemmelig publikum. Efter endt optr&#x00E6;den gik han rundt med hatten og gjorde en rik indsamling av s&#x00F8;lv og kobbermynt. Det blev nok baade lunch og &#x00F8;l for ham og kameratene den aften.</p>
+<p>Jeg hadde ikke set ham paa l&#x00E6;nge, da jeg atter st&#x00F8;tte sammen med ham paa Viktoria teater, hvor der var basar og skulde opf&#x00F8;res et nyt stykke. &#x00AB;En sommernat paa Korsvolden&#x00BB;, hvori troldmand, som de kaldte ham, skulde spille elsker. Dette var saa at si hans debut paa scenen.</p>
+<p>En stund f&#x00F8;r teppet skulde gaa, stod han inde paa scenen og &#x00E6;rgret sig over sine noget trasede benkl&#x00E6;r, som han skulde danse med i bengalsk belysning. Dette vilde jo v&#x00E6;re rentut skandal&#x00F8;st. Han tittet gjennem et hul i teppet ut i den fuldt besatte salon og opdaget sin gode ven agent J&#x00F8;rgensen i <pb n="33"/>nye graa spradebukser. Han sendte bud efter agenten, og denne kom op bak scenen.</p>
+<p>&#x00AB;Hvad vil du?&#x00BB; spurte han.</p>
+<p>&#x00AB;Kunsten er i fare,&#x00BB; svarte Carlo patetisk. &#x00AB;Du maa laane mig din benkl&#x00E6;r, jeg gj&#x00F8;r dig den &#x00E6;re at danse i bengalsk ild med dem.&#x00BB;</p>
+<p>&#x00AB;Er du gal, gut!&#x00BB; ropte J&#x00F8;rgensen.</p>
+<p>Men Carlo gav sig ikke saa let. Agenten maatte nok vakkert f&#x00F8;lge ham op i paakl&#x00E6;dningslogen, hvor ombyttet foregik.</p>
+<p>Teppet gik op. Carlo gik med liv og lyst l&#x00F8;s paa sin rolle og gjorde sine saker saa godt, at Hjalmar Andersen om ham citerte en replik av &#x00AB;Kj&#x00E6;rlighet uten str&#x00F8;mper&#x00BB;:</p>
+<p>&#x00AB;En skr&#x00E6;dder som er helt, er ikke l&#x00E6;nger nogen skr&#x00E6;dder.&#x00BB;</p>
+<p>Med basarens damer kom Carlo vel overens. Her var to s&#x00F8;stre Frik, som han s&#x00E6;rlig sv&#x00E6;rmet for. Da han h&#x00F8;rte at deres mor skulde ha f&#x00F8;dselsdagsgilde, gik han ubuden dit og pr&#x00E6;senterte sig. Vist nok fandt man vel dette litt underlig, men han diverterte selskapet med sang, muntre historier og tryllekunster, saa han vandt alle for sig. Siden var han en velset gjest der i huset.</p>
+<p>Senere blev han engagert ved Widgren-Norrbys selskap, som spillet en hel s&#x00E6;song paa Viktoria. Han gjorde lykke i alle de roller, som blev ham til delt, og fulgte siden selskapet paa turn&#x00E9; rundt land og strand.</p>
+<p>Derefter gjorde de et streiftog ind i Sverige. Der gik det hele istykker og man maatte greie sig hjem <pb n="34"/>som en bedst kunde. Da de vilde ha Carlo med sig til Kristiania, svarte han:</p>
+<p>&#x00AB;Nei, min vei gaar frem og ikke tilbake. Hele verden staar mig aapen.&#x00BB; Saa maatte de dra uten ham.</p>
+<p>Det hengik en 3 &#x00E0; 4 aar uten man saa eller h&#x00F8;rte noget til Carlo. Ikke engang hans familie i Bergen visste noget om ham.</p>
+<p>Saa kom cirkus Busch til Kristiania. For min del interesserer jeg mig ikke for cirkus, men gik dog en aften dit for at se vandpantomimen, deres store glansnummer, som kom sidst paa programmet.</p>
+<p>Der avfyrtes et pistolskud og under publikums jubel spr&#x00F8;itet vandet ind paa manegen. Jeg husker ikke alle de l&#x00F8;ier, som blev gjort i vandet. Til sidst kom Henrik Ibsen, Bj&#x00F8;rnstjerne Bj&#x00F8;rnson og andre ber&#x00F8;mtheter frem paa en tribune og gjorde spranget ut i vandet. Det forekom mig at v&#x00E6;re noget eiendommelig bekjendt ved ham, som agerte Ibsen. Da han kom op av vandet faldt paryk og skj&#x00E6;g av ham, og i et nu saa jeg, hvem jeg hadde for mig. Det var min gamle ven Troldmanden.</p>
+<p>Efter endt forestilling m&#x00F8;ttes vi paa Tivoli restaurant og fik os et b&#x00E6;ger sammen.</p>
+<p>&#x00AB;Saa du er blit cirkusmand?&#x00BB; sa jeg. &#x00AB;Hvordan kunde du nu ta dig til det?&#x00BB;</p>
+<p>&#x00AB;Jeg er gammel turner hjemme fra Bergen og kunde slaa saltmortaler og andre kunster, og paa cirkus Busch har jeg gjort spranget over fire hester. Aa du vet ikke, hvad jeg har oplevet i alle disse aar. Du kunde skrive tykke bind om det. I <pb n="35"/>cirkus har jeg v&#x00E6;ret sammen med folk av alle mulige nationaliteter og tilegnet mig adskillige sprogkundskaper.</p>
+<p>En tid efter blev Carlo engagert til det nyoprettede Karljohansteater paa Tivoli. Da direkt&#x00F8;r Jakobsen fandt at Amundsen ikke var noget skuespillernavn, meddelte Carlo at man paa cirkus hadde kaldt ham &#x00AB;Nordmand&#x00BB; efter hans nationalitet. Saa d&#x00F8;ptes han Karl Normann, hvilket navn han siden beholdt for hele livet.</p>
+<p>Nu fik han for f&#x00F8;rste gang optr&#x00E6; paa et velordnet teater og blandt virkelige skuespillere. Lampefeber kjendte han ikke, han bev&#x00E6;get sig like ugenert paa scenen som paa sit eget stuegulv. Han fik kyndig instruktion og gjorde rask fremgang. I alle de roller som Normann optraadte i, gjorde han lykke, han kom til at staa h&#x00F8;it og blev popul&#x00E6;r hos sit publikum. Som kamerat var han s&#x00E6;rdeles hyggelig og elskv&#x00E6;rdig.</p>
+<p>Kun altfor tidlig gik han bort. Han efterlot sine venner utelukkende behagelige minder.</p>
+</div>
+<div type="uchapter" n="2_5">
+<head type="sub">Kristian Isaksen</head>
+<p rend="noIndent">Han var f&#x00F8;dt her i Kristiania, fik en god skoleutdanneise, var fra gut av en ivrig teatergj&#x00E6;nger og interesserte sig for dramatisk kunst. Han blev ansat ved handelen og hadde ord for at v&#x00E6;re en flink forretningsmand. Da &#x00D8;stre samfunds teaterforening begyndte sine forestillinger, var Isaksen en av dem, som gjorde mest lykke. Han hadde et heldig sceneydre, et smukt organ og en dannet optr&#x00E6;den. <pb n="36"/>Hans f&#x00F8;rste glansrolle var Aamund i &#x00AB;Til S&#x00E6;ters&#x00BB; som han leverte meget vakkert, og hvori mange endnu vil erindre ham. Endvidere spillet han Henrik i Holbergs &#x00AB;Abraccadabra&#x00BB;. Han var en flink deklamat&#x00F8;r, skrev kvikke leilighetsdikte og kupletter og hadde som festtaler ordet i sin magt. Intet under at hans selskap var meget s&#x00F8;kt, og hans mange venner gjerne vilde ha ham med ved alle festlige anledninger.</p>
+<p>Tilsidst fandt Isaksen at skuespillerlivet la altfor sterkt beslag paa hans tid, saa trak han sig tilbake fra sin dramatiske virksomhet og viet sig utelukkende til forretningslivet.</p>
+<p>August Blanche sier etsteds omtrent som saa, at den som engang har v&#x00E6;ret ansat ved scenen, vil, naar han har forlatt denne, stedse drages tilbake til bredderne som ved en magisk kraft.</p>
+<p>Saadan gik det nok ogsaa med Isaksen. Han kunde i l&#x00E6;ngden ikke motstaa scenens tillokkelse. Nogen aar efter opgav han sin stilling som handelsbetjent for at bli skuespiller. Om han hadde gaat til Kr.a teater og kommet under kyndig instruktion, vilde han uten tvil kunnet ha blit en dygtig skuespiller, men han gik til Viktoria, hvor ingen skole var, og neppe nogen instruktion. Allikevel maa jeg si, at her fandtes kr&#x00E6;fter, som tilsammen pr&#x00E6;sterte langt bedre komedie, end jeg har set hos omreisende danske selskaper.</p>
+<p>Senerehen fik man her en instrukt&#x00F8;r i kand. filos. og literat Harald Smith, som bragte nogen orden i det hele. Isaksen blev en meget anvendt skuespiller og optraadte med held i karakterfaget. <pb n="37"/>Som Coupean i &#x00AB;Faldgruben&#x00BB; leverte han virkelig en rosv&#x00E6;rdig pr&#x00E6;station.</p>
+<p>Senerehen kom han til Olympen, hvor han virket n&#x00E6;sten til sin d&#x00F8;d i nittiaarene. Han forlot elskerfaget, hvori han med sin tiltagende korpulence egnet sig mindre, og gik over i det komiske fag. Ogsaa her gjorde han adskillig lykke.</p>
+</div>
+<div type="uchapter" n="2_6">
+<head type="sub">Olav Vaaler</head>
+<p rend="noIndent">Han var en dygtig typograf og blev senere faktor i det T&#x00F8;nsberske boktrykkeri. Naar man saa hans gemytlige, joviale ansigt, vilde man ta ham for en skuespiller, og han syntes at ha adskillige betingelser for scenen. Engang var det tale om at han skulde debutere paa Kr.a teater, men det blev ikke til noget. Paa &#x00AB;&#x00D8;stre&#x00BB; gjorde han megen lykke som Departementslars i &#x00AB;Petter og Inger&#x00BB;, men dette blev ogsaa hans eneste rolle. Han skrev en kvik revy for &#x00AB;&#x00D8;stre&#x00BB; og leverte adskillige vittige bidrag til &#x00AB;Vikingen&#x00BB;. Ellers ofret han sig utelukkende for sit fag.</p>
+</div>
+<div type="uchapter" n="2_7">
+<head type="sub">William Iversen</head>
+<p rend="noIndent">Han var bare unge gutten, da han optraadte i &#x00AB;&#x00D8;stre&#x00BB; som skuespiller og visesanger og briljerte mest i det sidste. Reiste siden til Amerika, hvor han ogsaa spillet komedie. Da han efter endel aars frav&#x00E6;r kom tilbake, engagertes han til Karl Johansteatret som skuespiller og dekorationsmaler. Han fik ingen roller av betydning, men blev rosende <pb n="38"/>omtalt i aviserne for sine smukke dekorationer til &#x00AB;Gr&#x00E6;ker og Tyrker&#x00BB;. Siden kom han til Bergens teater, og her slog han igjennem som skuespiller. &#x00AB;Jeppe paa Berget&#x00BB; var hans glansrolle. Ivarsson, som han nu kalder sig, er den dag idag en av de mest fremragende skuespillere ved Bergens teater.</p>
+</div>
+<div type="uchapter" n="2_8">
+<head type="sub">Thomas Tollefsen</head>
+<p rend="noIndent">F&#x00F8;dt i Aas. Faldt som litet barn ved en pikes uforsigtighet utover en laavebro og fik herved legemsskade for livet. Man skulde tro at han som pukkelrygget mand ikke kunde t&#x00E6;nke paa at bli skuespiller, men hans lyst til scenen var saa br&#x00E6;ndende at han overvandt enhver hindring i saa maate og viet sig til Talia. Han var i besittelse av et uomtvistelig komisk talent, og lykke gjorde han fra sin f&#x00F8;rste optr&#x00E6;den i &#x00AB;&#x00D8;stre&#x00BB;. I mange roller var han endog utmerket, som Simson i &#x00AB;Tre forelskede politikonstabler&#x00BB;, Skindfyken i &#x00AB;Bj&#x00F8;rnen i Gjelleraasen&#x00BB;. Han blev ogsaa sat op i gamle koneroller, hvortil hans figur passet aldeles pr&#x00E6;gtig, og han var meget morsom. Utenfor scenen var han gemytlig og smaapussig og vel likt av folk. Og saa beskeden, roste aldrig sig selv, men lastet heller ikke sine kolleger.</p>
+<p>Han danset ikke altid paa roser, ofte var han uten engagement og fik pr&#x00F8;ve sult og n&#x00F8;d. Blev det altfor galt, hadde Tollef, som de kaldte ham, den utvei at dra paa landet, hvor n&#x00E6;re slegtninger <pb n="39"/>mottok ham med aapne arme og stelte pent med ham. Naar han hadde f&#x00F8;rt denne stille, sorgfrie tilv&#x00E6;relse en tid, kom l&#x00E6;ngselen efter Kristiania og forstadsteatrene saa heftig over ham, at han maatte derind.</p>
+<p>En tid var han sufl&#x00F8;r paa Karljohanteatret. Som han sat i luken, &#x00F8;nsket han sig op paa scenen for at medvirke i spillet. Og hans &#x00F8;nske skulde snart opfyldes.</p>
+<p>Gunnar Heibergs &#x00AB;Folkeraadet&#x00BB; skulde opf&#x00F8;res og blev sat iscene av forfatteren. Under f&#x00F8;rste pr&#x00F8;ve kastet Heiberg sine &#x00F8;ine paa Tollefsen og pekte ned i Sufl&#x00F8;rluken og sa: &#x00AB;Der er den mand jeg beh&#x00F8;ver til folkescenen i sidste akt.&#x00BB;</p>
+<p>Og glad blev vel Tollef, da han fik en liten rolle. Dagen efter premieren het det i &#x00AB;Aftenposten&#x00BB;s anmeldelse: &#x00AB;En pukkelrygget mand blev spillet aldeles glimrende av hr. Tollefsen.&#x00BB;</p>
+<p>Det var vel det stolteste &#x00F8;ieblik i Tollefs liv, da han l&#x00E6;ste disse linjer, hvori han ikke saa noget st&#x00F8;tende.</p>
+<p>Han gik med et eksemplar av avisen i lommen og da han traf en f&#x00E6;tter, sa han gl&#x00E6;desstraalende:</p>
+<p>&#x00AB;Har du set, hvad &#x00AB;Aftenposten&#x00BB; skriver om mig.&#x00BB; Og han l&#x00E6;ste det op.</p>
+<p>&#x00AB;Det var ikke daarlig det, Tollef,&#x00BB; sa f&#x00E6;tteren.</p>
+<p>&#x00AB;Naa vet jeg ikke, hvad det skal bli til med mig,&#x00BB; fortsatte den lykkelige mand.</p>
+<p>&#x00AB;Ja, hvad tror du, Tollef?&#x00BB;</p>
+<p>&#x00AB;Enten blir jeg naa en stor mand eller saa blir jeg en stor skidt,&#x00BB; svarte denne h&#x00F8;itidelig.</p>
+<p><pb n="40"/>Siden gik han ut at feste, mistet sufl&#x00F8;rboken til &#x00AB;Folkeraadet&#x00BB; og &#x2013; fik sparken fra Karljohansteatret.</p>
+<p>I 1910 trak Tollefsen sig tilbake fra scenen og blev sufl&#x00F8;r paa Maxim. I over tretti aar hadde han nu virket som skuespiller paa alle smaascener i Kristiania og i smaabyer og forn&#x00F8;iet mange tusener av mennesker.</p>
+<p>Braaten skrev engang i en avis at Tollefsen burde ha statsunderst&#x00F8;ttelse, og han kunde vel ha gjort sig fortjent til det.</p>
+<p>Nogen aar senere n&#x00F8;dte hans sviktende syn ham til at opgi sufl&#x00F8;rposten og en benskade gjorde at han maatte benytte krykker. Det var en ynk at se ham sl&#x00E6;pe sig omkring saadan halvt iblinde, men paa noget aldershjem vilde han ikke, han vilde ta sine turer omkring Yongstorvet og tr&#x00E6;ffe gamle venner og prate med dem. Selv nu i sin s&#x00F8;rgelige stilling bevaret han sit friske hum&#x00F8;r.</p>
+<p>Engang fortalte han mig om sit ophold paa hospitalet for sine &#x00F8;ine, da hadde han sagt til en sykepleierske: &#x00AB;Jeg tror jeg skulde se litt bedre om jeg fik et par briller.&#x00BB;</p>
+<p>Hvortil hun svarte: &#x00AB;Hvad kan det hj&#x00E6;lpe at s&#x00E6;tte briller paa en blind mand?&#x00BB;</p>
+<p>Og Tollef lo hjertelig, som han fortalte mig dette.</p>
+<p>I 1923 kom endelig d&#x00F8;den som en forl&#x00F8;sning for ham.</p>
+</div>
+<div type="uchapter" n="2_9">
+<head type="sub">Rudolf Olsen</head>
+<p rend="center"><figure><graphic url="Forstadsscener_s41.JPG"/></figure></p>
+<p>Han var f&#x00F8;dt og vokste op i en av Enerhaugens snevre bakkegater og syntes tidlig at ha et aapent &#x00F8;ie for den megen komik der kl&#x00E6;bet sig ved folkef&#x00E6;rdet her i str&#x00F8;ket. Han blev typograf. Inden dette fag har der altid v&#x00E6;ret endel, som har produceret sig i literaturen eller vist dramatisk anl&#x00E6;g. Kommer vel av at deres arbeide tjener til at utvide deres aandelige horisont og v&#x00E6;kke deres intelligense.</p>
+<p>I en tidlig alder begyndte Rudolf Olsen at optr&#x00E6; som visesanger og gjorde megen lykke. Han <pb n="42"/>yndet at gaa ned paa bankplassen og se god kunst. S&#x00E6;rlig sv&#x00E6;rmet han for Johannes Brun. Senerehen tok han sig en tur til Kj&#x00F8;benhavn, hvor han l&#x00E6;rte at tumle sig med kupletter.</p>
+<p>I begyndelsen av 1880-aarene begyndte han at spille komedie paa basarer og gjorde megen lykke. Hans komik var bred og saftig og han hadde en smuk sangstemme.</p>
+<p>Han optraatte paa de forskjellige forstadsteatre og mest paa Viktoria, hvor han siden blev engageret ved det Widgren-Norbyske selskap. Her blev han en av de b&#x00E6;rende kr&#x00E6;fter, og fulgte med selskapet paa en turn&#x00E9; hele landet rundt.</p>
+<p>Da selskapet opl&#x00F8;stes, vendte Rudolf Olsen tilbake til Kristiania, optraadte som f&#x00F8;r paa basarer og drog til smaabyerne og gav aftenunderholdninger assisteret av sin hustru fru Selma Olsen, som var en dyktig pianistinde.</p>
+<p>Blandt andet gav han en aftenunderholdning i den gamle dansesal Kasino ved Youngstorvet. Her fik han en upaaregnet assistance, idet den bekjendte tr&#x00E6;varehandler Andersen i en pause optraatte som solodanser. Han danset med en gratie som en elefant, og dette overraskende ekstranummer vandt stormende bifald.</p>
+<p>Rudolf Olsen var paa faa aar blit en popul&#x00E6;r skuespiller. Men intet andet sted var hans popularitet saa stor som paa Gr&#x00F8;nland og &#x00D8;stkanten idet heletat.</p>
+<p>Han aapnet en kaf&#x00E9; i T&#x00F8;iengaten, som blev s&#x00E6;rdeles godt bes&#x00F8;kt. For sine kunder ga han sangnumre, <pb n="43"/>som vandt meget bifald og trak endnu flere gjester til kaf&#x00E9;en.</p>
+<p>Bryggerieier Ytteborg, som interesserte sig for Rudolf Olsen og ansaa ham for den passende mand til at staa i spissen for et folketeater paa Gr&#x00F8;nland, lot nu opf&#x00F8;re en murbygning i dette &#x00F8;iemed. Den fik navnet</p>
+</div>
+<div type="uchapter" n="2_10">
+<head type="sub">Olympen, Gr&#x00F8;nlands folketeater</head>
+<p rend="noIndent">Mot slutningen av forrige aarhundrede indviedes dette med en fest for pressen og andre indbudne og opf&#x00F8;relsen av &#x00BB;Til S&#x00E6;ters&#x00AB;. Forl&#x00E6;ngst avd&#x00F8;de literat Henrik J&#x00E6;ger, som ved denne leilighet holdt indvielsestalen, sendte siden Olsen sin portr&#x00E6;tmedaljong med f&#x00F8;lgende ord: &#x00AB;De beh&#x00F8;ver ikke at tvile om at De er en skuespiller av Guds naade&#x00BB;.</p>
+<p>Dette foretagende blev like fra dets begyndelse omfattet med varm interesse fra publikums side, og bes&#x00F8;ket var stort.</p>
+<p>Rudolf Olsen arbeidet med voldsom kraft baade som skuespiller og instrukt&#x00F8;r og bragte op en hel del stykker, baade enaktere og helaftenstykker, hvori han selv spillet hovedrollerne og det med bravour.</p>
+<p>F&#x00F8;rst kom &#x00AB;Jeppe paa berget&#x00BB; op med Olsen som Jeppe. Her overlot han instruktionen til journalist Thv. Bernhoft. Men naar direkt&#x00F8;ren fandt det n&#x00F8;dvendigt, blandet han sig op i instruktionen og det med megen myndighet.</p>
+<p rend="center"><figure><graphic url="Forstadsscener_s44.JPG"/></figure></p>
+<p><pb n="45"/>Paa f&#x00F8;rste pr&#x00F8;ve kom Olsen saaledes med en replik:</p>
+<p>&#x00AB;Hvorl&#x00E6;nge var Adam i paradiset.&#x00BB;</p>
+<p>&#x00AB;Her staar Abraham, og ikke Adam,&#x00BB; rettet Bernhoft.</p>
+<p>&#x00AB;Ja, men Abraham var jo faktisk ikke i paradiset,&#x00BB; mente Olsen. &#x00AB;Holberg har tat feil her, og da er det jo vor plikt at rette paa det.&#x00BB;</p>
+<p>&#x00AB;Kanske det,&#x00BB; smilte journalisten forstaaelsesfuldt.</p>
+<p>Endvidere opf&#x00F8;rtes av st&#x00F8;rre stykker &#x00AB;Andersen, Pettersen og Lundstr&#x00F8;m&#x00BB; og &#x00AB;Hun skal debutere&#x00BB;. Rudolf Olsens popularitet var i stadig stigende og Gr&#x00F8;nlands folketeater var blit et yndet forlystelsessted. Lompa eller Ulempa het det i folkemunde. Gunstig kritik fik det av den brede masses organ, &#x00AB;Morgenposten&#x00BB;.</p>
+<p>Rudolf Olsen hadde en blomstrende barneflok som aarligaars for&#x00F8;kedes. Denne jul skj&#x00E6;nket fru Selma sin mand ogsaa en ny plante. Anden nytaarsdag gik paa Olympen en revy av Thv. Bern hoft av stabelen. I den spillet Olsen kongen av Kampen. I slutningsscenen skulde han komme ind med det nye aar i form av en spr&#x00E6;lledukke, paa armen. Men i det avgj&#x00F8;rende &#x00F8;ieblik var spr&#x00E6;lledukken intetsteds at finde. Olsen l&#x00F8;p som forstyrret hit og dit og ledte. Tilsidst skar han ind i barnekammeret, fik revebarnet op av vuggen og gik ind paa scenen med det paa armen, og som han sang slutningsvisen, stemte det nye aar i med en gjennemtr&#x00E6;ngende hvinen, der vakte publikums stormende bifald.</p>
+<p><pb n="46"/>Trods det gode bes&#x00F8;k og Olsens popularitet kunde han i l&#x00E6;ngden ikke holde det gaaende med de store utgifter etablissementet kr&#x00E6;vet. Desuten var han ingen god &#x00F8;konom. Efter halvanden s&#x00E6;son maatte Rudolf Olsen fratr&#x00E6;de. Det gik ham n&#x00E6;r at forlate det lille teater, som han hadde viet sine bedste kr&#x00E6;fter og var blit ham saa kj&#x00E6;rt. Ved avskedsforestillingen hyldet publikum ham med begeistrede ovationer og skj&#x00E6;nket ham en laurb&#x00E6;rkrans.</p>
+<p>Det viste sig at Gr&#x00F8;nlandspublikummet savnet ham, ti efter hans fratr&#x00E6;den var det daarligt hus paa Olympen. Hvergang han senerehen optraatte som gjest der, var det en ren folkevandring ut til Olympen.</p>
+<p>Rudolf Olsen optraatte nu igjen paa basarer og reiste hit og dit og gav aftenunderholdninger.</p>
+<p>Saa blev han engageret ved Olaus Olsens omreisende danske teaterselskap. Her fik han gode roller, spillet baade Jeppe og Tanne og gjorde megen lykke hos smaastadspublikummet.</p>
+<p>En hel s&#x00E6;son fulgte han med dette selskap og vendte saa tilbake til Kristiania. Langt om l&#x00E6;nge blev han engageret til Karl Johansteatret paa Tivoli. Han var meget forn&#x00F8;iet med dette engagement, og hans venner spaadde ham en glimrende fremgang her.</p>
+<p>Men disse forventninger blev s&#x00F8;rgelig skuffet. Rudolf Olsen fik kun smaaroller og skj&#x00F8;nt han utf&#x00F8;rte disse tilfredsstillende, hadde han nu et nyt og fremmed publikum her, som ikke paaskj&#x00F8;nnet ham efter fortjeneste. Det var ikke som at spille <pb n="47"/>for Gr&#x00F8;nlandspublikummet, med hvem han stod i den inderligste rapport.</p>
+<p>Nogen aar efter br&#x00F8;t sygdom ham ned, og han d&#x00F8;de i en ung alder.</p>
+</div>
+<div type="uchapter" n="2_11">
+<head type="sub">Olympens senere skjebne</head>
+<p rend="noIndent">Efterat Olsen forlot Olympen, fortsatte selskapet en tid at spille paa deling med Johannes Ottesen som indehaver. Siden fik personalet, hvad de i h&#x00F8;i grad tr&#x00E6;ngte &#x2013; en instrukt&#x00F8;r. Og det var skuespiller Fredrik Garmann.</p>
+<p>Dilletanter har alle de rutinerede skuespilleres feil og unoter, mange av dem lider av altfor store tanker om sig selv.</p>
+<p>&#x00AB;Jeg maa kna mine skuespillere,&#x00BB; sa fru Bosse-Fahlstr&#x00F8;m engang h&#x00F8;ist betegnende til en refferent. Og om nogen tr&#x00E6;ngte til riktig at knaes var det Olympens skuespillere. Saa hadde de nu faat den rette mand dertil. Garmann fordret som en feltherre blind lydighet av sine folk, det nyttet dem ikke at komme og mukke mot ham. Han optraatte som en tyran &#x2013; just hvad her beh&#x00F8;vdes, og likefrem karn&#x00F8;flet brutalt skuespillerne.</p>
+<p>Engang tillot Ottesen sig at gj&#x00F8;re en indvending mot Garmanns instruktion. Da skrek denne med sin gjennemtr&#x00E6;ngende stemme:</p>
+<p>&#x00AB;Johannes, du har intet med scenen at bestille, du har bare at passe din kaf&#x00E9;.&#x00BB;</p>
+<p>For&#x00F8;vrig fik Ottesen snart efter litt med scenen at bestille, idet Garmann gav ham en rolle som &#x00AB;Festkomiteen&#x00BB; i et stykke av Th. L&#x00F8;vstad. Her <pb n="48"/>skulde Ottesen representere en hel festkomit&#x00E9;, og faktisk fyldte han den lille scene med sin dr&#x00F8;ie skikkelse.</p>
+<p>Garmann opnaadde ganske smukke resultater ved sin virksomhet som instrukt&#x00F8;r. Det gamle romantiske stykke &#x00AB;Hulderens hjem&#x00BB; av P. A. Jensen, som tidligere hadde v&#x00E6;ret opf&#x00F8;rt paa M&#x00F8;llergatens teater uten at gj&#x00F8;re synderlig lykke, blev nu paa Olympen en ren sukcess. &#x00AB;Fjeldeventyret&#x00BB; kom ogsaa op og fik en ganske respektabel utf&#x00F8;relse.</p>
+<p>Da Ottesen et aars tid efter d&#x00F8;de, overtok hans enke Olympen, og skuespiller Nikolai Halvorsen blev instrukt&#x00F8;r. Efter ham kom Berent Schancke.</p>
+<p>Fru Ottesen er saavidt vites den f&#x00F8;rste norske teaterdirekt&#x00F8;r. Hun f&#x00F8;rte med kraftig haand t&#x00F8;ilerne over sine skuespillere, n&#x00E6;ret en livlig interesse for sit teater og la sig endog litt op i scenens anliggender.</p>
+<p>Da saaledes en Kristiania-komedie &#x00AB;Paa Menneskefangst&#x00BB; skulde op, kom forfatteren i konflikt med sceneinstrukt&#x00F8;ren, B. Schancke. En frue, som spiltes av Tilla Brun, skulde i en akt faa et anfald av delirium. Denne scene vilde Schancke stryke, hvilket forfatteren motsatte sig. De tvistende parter apellerte til fru Ottesen, som kort og kyndig avgav sin dom:</p>
+<p>&#x00AB;Naar forfatteren har skrevet at Tilla skal ha dilla, saa skal Tilla ha dilla.&#x00BB;</p>
+<p>Og dermed blev det.</p>
+<p>I forbindelse med ovenn&#x00E6;vnte stykke maa jeg n&#x00E6;vne Swebak, som spillet en av skurkene her. <pb n="49"/>Han spillet kanske kvikt og gjorde lykke med sin vakre sangstemme. Nu er han en av de mest fremragende sangere ved Stockholms opera.</p>
+</div>
+<div type="uchapter" n="2_12">
+<head type="sub">Johan Anderson</head>
+<p rend="center"><figure><graphic url="Forstadsscener_s49.JPG"/></figure></p>
+<p>blev f&#x00F8;dt i Bergen 1861. 12 aar gammel kom han i typografl&#x00E6;re i &#x00AB;Bergens Tidende&#x00BB;. Efter han var utl&#x00E6;rt, forlot han sin f&#x00F8;deby og arbeidet en tid i Bamles apatitgruber. I begyndelsen av 80-aarene dukket han op som faktor og redakt&#x00F8;r av &#x00AB;Krager&#x00F8; Tidende&#x00BB;. Omreisende danske teaterselskaper vakte hos ham lyst til scenen. Han stiftet et dramatisk selskap, hvis leder han blev. I 1885 debuterte <pb n="50"/>han i Stavanger som skoleholderen i &#x00AB;Til S&#x00E6;ters&#x00BB; ved Olaus Olsens selskap, hvor han gjorde megen lykke.</p>
+<p>Siden s&#x00F8;kte han ind til Kristiania. Her saa jeg ham for f&#x00F8;rste gang paa en folkelig variet&#x00E9; &#x00AB;Stjernehallen&#x00BB; &#x2013; ikke som skuespiller, men som tryllekunstner, hvorved han forbauset publikum med sin f&#x00E6;nomenale fingerf&#x00E6;rdighet.</p>
+<p>Da Rudolf Olsen i begyndelsen av 90-aarene aapnet Olympen, Gr&#x00F8;nlands Folketeater, var Anderson med og tok publikum ved sin debutrolle, skoleholderen. Siden spillet han baronen i &#x00AB;Jeppe paa Berget&#x00BB; med applomb og var i flere aar knyttet til denne scene, hvor han var en av de b&#x00E6;rende kr&#x00E6;fter. S&#x00E6;rlig mindes jeg hans Mons &#x00D8;stmo i &#x00AB;Fjeldeventyret&#x00BB;, en pr&#x00E6;station han hadde al &#x00E6;re av. Olympen blev ham en god forskole, hvilket viste sig, da han senerehen engagertes til Fahlstr&#x00F8;ms Centralteater. Her gjorde han god fremgang under fru Bosse-Fahlstr&#x00F8;ms kyndige instruktion. Med glans spillet han Jeronimus i &#x00AB;Pernilles korte fr&#x00F8;kenstand&#x00BB; og fik herfor enstemmig ros av pressen.</p>
+<p>Siden optraatte han paa samme teater under Rudolf Rasmussens og Ottos direktion og h&#x00F8;stet laurb&#x00E6;r, likesom paa de fleste av vore revyscener. Anderson elsket avveksling og det fandt han i rikt maal ved at f&#x00F8;lge teaterselskaper paa turn&#x00E9;er rundt land og strand, hvor han overalt vandt nye velyndere og avvekslende dyrket den dramatiske kunst og bedrev sortekunster.</p>
+<p>En vakker dag fyldte han Tivoli Cirkus som <pb n="51"/>Troldmanden Jean Andor. Herefter d&#x00F8;ptes han &#x00AB;Trylleren&#x00BB;, et navn han beholdt siden.</p>
+<p>For et decenium tilbake la Andersen op og vendte tilbake til sin f&#x00F8;rste kj&#x00E6;rlighet typekassen. Ved siden herav har han virket som instrukt&#x00F8;r for Arbeidersamfundets dramatiske Klub, og ved juletider pleier han at holde endel opl&#x00E6;sninger for tusender av barn, som henrykkes ved at h&#x00F8;re denne glade barneven, der fremdeles er i fuldeste vig&#x00F8;r.</p>
+</div>
+<div type="uchapter" n="2_13">
+<head type="sub">Hjalmar Johansen</head>
+<p rend="noIndent">En kvik ung Bergenser, der gjorde sig fordelaktig bemerket i smaaroller paa Karl Johansteatret. Da han siden kom til Olympen, blev han en av de b&#x00E6;rende kr&#x00E6;fter der. Det var noget saa letvindt og spr&#x00E6;ttende over ham, komiker var han baade paa og utenfor scenen og publikum hadde ham at takke for saa mangen god latter. Ganske vist kunde han ha skapt sig en fremtid der. Men det har vist sig paa faa undtagelser n&#x00E6;r, at den som en tid har v&#x00E6;ret knyttet til forstadsteatre, siden blir h&#x00E6;ngende ved dem og aldrig kommer sig h&#x00F8;iere op. Og atmosf&#x00E6;ren ved disse smaa scener vil gjerne virke forsumpende paa unge mennesker. Efter Olympens oph&#x00F8;r virket Hjalmar Johansen ved Nordre teater. Han &#x00F8;dela aldrig nogen rolle og kunde gl&#x00E6;de sig ved en enestaaende popularitet. Hjalle kaldte hans venner ham. En haard brystsygdom rev ham tidlig bort. Sit gode hum&#x00F8;r beholdt han til det sidste.</p>
+<p>Da han, d&#x00F8;dsd&#x00F8;mt av l&#x00E6;gerne, skulde dra hjem <pb n="52"/>til sin f&#x00F8;deby Bergen, sa han med et jovialt smil til de kamerater, som fulgte ham paa bryggen:</p>
+<p>&#x00AB;V&#x00E6;r nu ikke altfor sikker paa, at jeg er f&#x00E6;rdig. Saltbrisen der vesterpaa er frisk og herlig l&#x00E6;gende. Hvem vet, kanske jeg skal lure dem alle sammen og komme tilbake igjen kjek og glad.&#x00BB;</p>
+<p>En ukestid efter kom budskapet om hans d&#x00F8;d og vakte vemod blandt alle hans venner.</p>
+</div>
+<div type="uchapter" n="2_14">
+<head type="sub">Hans Bille</head>
+<p rend="noIndent">kom i en meget ung alder til Olympen, hvor han ikke gjorde nogen synderlig lykke i de roller, som blev ham tildelt. Siden h&#x00F8;rte man ham n&#x00E6;vne som direkt&#x00F8;r for et omreisende selskap, som gjorde en tokt ind i Sverige, hvor de saavisst ikke spandt silke.</p>
+<p>L&#x00E6;nge var det stilt om ham, saa kom han til Trondhjems teater og &#x00AB;slog igjennem&#x00BB; og snart blev en av dets mest fremragende akt&#x00F8;rer og var en tid teaterchef der. Det var navnlig i karakterfaget han udmerket sig. Hans glansrolle var Poul Lange i Bj&#x00F8;rnsons &#x00AB;Thora Parsberg&#x00BB;. Maaske vi engang faar se ham paa Nationalteatret.</p>
+</div>
+<div type="uchapter" n="2_15">
+<head type="sub">Charles Johansen</head>
+<p rend="noIndent">virket frisk og umiddelbar paa scenen. Hans specialitet var Kristiania-gutten. F&#x00F8;rst var han ved Fredriksborg Sommerteater, hvor han gjorde s&#x00E6;rlig lykke i Vikarevyen. Senere var han ved Olympen, hvor han blev meget anvendt og blev h&#x00F8;ist popul&#x00E6;r. Kom aar derefter til Basarhallen, her <pb n="53"/>gjorde han s&#x00E6;rlig lykke ved sin kopiering av Hulda Malmstr&#x00F8;m. Dette gjorde han i den grad tr&#x00E6;ffende, at mange av tilskuerne virkelig tok ham for hende.</p>
+</div>
+<div type="uchapter" n="2_16">
+<head type="sub">Henrik Magnus</head>
+<p rend="noIndent">F&#x00F8;rstegang jeg saa ham med hans vakre, tungsindige Hamletansigt, slog det mig straks at han maatte ha anl&#x00E6;g som skuespiller, dertil var han fra Bergen, saa mange sceniske kunstneres vugge. Da jeg fik tale med ham, h&#x00F8;rte jeg hvor begeistret han var for teatret og hvilken br&#x00E6;ndende l&#x00E6;ngsel han hadde efter bredderne.</p>
+<p>Han blev medlem av Arbeiderpartiets dramatiske klub, her vandt han sine f&#x00F8;rste laurb&#x00E6;r som Nymo i Aaneruds &#x00AB;Storken&#x00BB;, en briljant pr&#x00E6;station.</p>
+<p>Siden kom han til Olympen, hvor han gjorde lykke i det alvorlige rollefag. Ved siden av sin sceniske virksomhet var han forretningsmand, &#x00AB;gjorde i&#x00BB; r&#x00F8;kelaks, skinker og andre delikatesser og man skal ikke laste ham for det. Saa mangen ung mand, der har viet sig til den usikre stilling som forstadsskuespiller, har slaat vrak paa sit gode haandverk og kommen saa langt bort fra det, at han tilsidst ikke kan vende tilbake til det, men har endt som et drivende vrak.</p>
+<p>Magnus har nu forl&#x00E6;ngst trukket sig tilbake fra scenen og vier sig helt og holdent til fedevarebranchen, men interesserer sig fremdeles like varmt for den dramatiske kunst.</p>
+</div>
+<div type="uchapter" n="2_17">
+<head type="sub">Kristian H&#x00F8;iback</head>
+<p rend="noIndent"><pb n="54"/>var maler av profesion og skulde v&#x00E6;re dyktig i sit fag. Da Knut Tivander aapnet Kristiania Tivoli, fik han ans&#x00E6;ttelse her som dekorationsmaler. Han malte en r&#x00E6;kke friluftsbilleder efter norske motiver, som tok sig godt ut &#x2013; paa avstand.</p>
+<p>Ellers var H&#x00F8;iback pot og pande for Tivander. Han optraadte i tablauer, blandt andet som Kristian IV-statuen, og medvirket i optok og var leilighetsvis korist. Siden reiste han til Amerika, hvor han slog sig paa skuespilkunsten. Han raspet sammen et selskap av skandinavier, for hvilket han var direkt&#x00F8;r og drog om og gav forestillinger. Saa skrev han et stykke Gjest Baardsen, som skulde ha gjort megen lykke i Amerika, selv spillet han titelrollen.</p>
+<p>Mot slutningen av ottiaarene vendte H&#x00F8;iback tilbake til sit f&#x00E6;dreland og optraadte nu paa basarer i Victoria og arbeidersamfundet i &#x00AB;den reisende student&#x00BB; og andre stykker. Ikke mange aar efter d&#x00F8;de han.</p>
+</div>
+<div type="uchapter" n="2_18">
+<head type="sub">Kristian Sann&#x00E6;s</head>
+<p rend="noIndent">var f&#x00F8;dt i Kristiania. I 1880 engagertes han til det Cettiske selskap som spillet paa Folketeatret i M&#x00F8;llergaten. Siden var han i en aarr&#x00E6;kke anset ved Olaus Olsens omreisende selskap, hvor han spillet mindre roller og efterhaanden erhvervet sig nogen rutine. I 1889 kom han til Victoria og spillet &#x00AB;Jeppe paa Berget&#x00BB; og andre roller, og han viste sig som en flink sceneinstrukt&#x00F8;r.</p>
+<p>Nogen aar senere drog han til Amerika. Her <pb n="55"/>samlet han selskap, som han reiste rundt med og spandt forvist ikke silke. I en liten by gik det hele istykker og de mandlige skuespillere vilde ikke hat noget at leve av, om direkt&#x00F8;ren ikke hadde v&#x00E6;ret saa heldig at bes&#x00F8;ke dampkj&#x00F8;kkenet dersteds. Da forelsket indehaversken herav sig i Sann&#x00E6;s og rimeligvis han i hende, og giftermaalet fandt sted med amerikansk fart. Saa blev teaterchefen dampkj&#x00F8;kkenchef, og hans skuespillere blev opvartere ved etablissementet. Hermed var al n&#x00E6;ringssorg og sult slukt, og Sann&#x00E6;s skulde v&#x00E6;re meget lykkelig i sin nye stilling.</p>
+</div>
+<div type="uchapter" n="2_19">
+<head type="sub">Adolf &#x00D8;stby</head>
+<p rend="noIndent">var Kristianiagut og utl&#x00E6;rt som barber. Tidlig la man merke til hans vakre sangstemme. Han hadde stor lyst til scenen, og i 1889 da han allerede hadde sin egen barberforretning paa Gr&#x00F8;nland, spillet han en rolle i &#x00AB;Han gaar paa kommers&#x00BB; paa Victoria. Siden optraadte han som sanger paa Eldorado og gjorde lykke. I de f&#x00F8;lgende aar virket han som visesanger paa forskjellige steder og vandt stor popularitet. I de f&#x00F8;lgende aar slog han sig paa revyen og optraadte paa Fredriksborgs og Nordstrands sommerteatre, hvor han s&#x00E6;rlig spillet Kristianiagutter og avleverte sine replikker og kupletter i den bredeste jargon. Ved siden herav bibeholdt han sin barberforretning. Hans navn hadde en god klang, s&#x00E6;rlig i de &#x00F8;stre bydele. Av og til tok han turneer i smaabyerne.</p>
+<p>Nu er Adolf &#x00D8;stby forl&#x00E6;ngst d&#x00F8;d, men hans viser lever endnu i fonografer.</p>
+</div>
+<div type="uchapter" n="2_20">
+<head type="sub">Marguido Samuelsen</head>
+<p rend="center"><figure><graphic url="Forstadsscener_s56.JPG"/></figure></p>
+<p><pb n="56"/>Han var f&#x00F8;dt i Trondhjem, blev engageret til Bergens nationale scene, hvor han virket i nogen aar, kom saa til Kristiania og ansattes ved Eldorado sammen med Bernt Johannesen og nogen andre. Mange vil vistnok endnu erindre ham som narren i &#x00AB;Tutti Frutti&#x00BB;.</p>
+<p>Samuelsen hadde s&#x00E6;rdeles gode betingelser for scenen, et smukt ydre, en fin fremtr&#x00E6;den og en vakker sangstemme. Selv vilde han helst spille <pb n="57"/>komiske roller, men hans anl&#x00E6;g laa nok n&#x00E6;rmest i retning av elsker- og karakterfaget.</p>
+<p>Efter at ha virket nogen aar paa Eldorado, kom han til Karl Johansteatret. Da Gustav Esmanns &#x00AB;Magdalene&#x00BB; opf&#x00F8;rtes blev den mandlige hovedrolle Fionel ved Kally L&#x00F8;kens pludselige d&#x00F8;d ledig, og det saa ut til at stykket, som var en sukcess, maatte strykes av repertoiret, men nu tok Samuelsen med kort varsel rollen og klarte den glimrende. Han var virkelig en stor skuespiller.</p>
+<p>Siden kom han til Olympen, hvor han en tid var sceneinstrukt&#x00F8;r og fik adskillige gode roller. Sin glansrolle hadde han som Anker i Soldaterl&#x00F8;ier. Rigtig popul&#x00E6;r utenfor scenen blev han ikke, dertil hadde han altfor liten livsgl&#x00E6;de. Han var av en stille, indesluttet, melankolsk natur, og det at han aldrig kom til at virke som skuespiller ved en hovedscene bidrog vel til at gj&#x00F8;re ham mismodig og bitter.</p>
+<p>Efter han forlot Olympen, fulgte han forskjellige sammenraspede selskaper paa turn&#x00E9;er. Han d&#x00F8;de pludselig og i en ung alder.</p>
+</div>
+<div type="uchapter" n="2_21">
+<head type="sub">Alexander Zetlitz</head>
+<p rend="noIndent">Han hadde i flere aar v&#x00E6;ret ansat ved Olaus Olsens omreisende selskap og var omtrent ukjendt for Kristiania, da han f&#x00F8;rst kom hit.</p>
+<p>Han kunde virkelig v&#x00E6;re morsom med sit jomfrunalske v&#x00E6;sen og sin noget klissede stemme, men <pb n="58"/>han virket i l&#x00E6;ngden stereotyp. Han n&#x00E6;rmet sig allerede middelalderen, da han blev engagert til Olympen. Han sattes op i &#x00E6;ldre komiske roller. F&#x00F8;rste gang jeg saa ham, moret jeg mig kostelig over ham, men da jeg saa ham i en anden rolle, var han akkurat den samme.</p>
+<p>Senerehen gjensaa jeg Zetlitz som guvernante i en Fredriksborgsrevy. Der var han aldeles grinagtig morsom.</p>
+</div>
+<div type="uchapter" n="2_22">
+<head type="sub">Olav Almkvist</head>
+<p rend="noIndent">var baade forfatter og skuespiller og gjorde en viss lykke i begge fag. Han excellerte i revyer og skrev kvikke kupletter. Flere av hans stykker gik paa Olympen, og han optraadte selv i dem. Hans fag var laps og bonvivant. Siden reiste han med eget selskap, og i Trondhjem gjorde han s&#x00E6;rlig lykke og fik fine kritiker.</p>
+<p>Almkvist&#x0027;s eneste bok, der utkom i trykken, var Johannes Bruns levnetsl&#x00F8;p. Han skrev let og kvikt, og tok ogsaa livet let. I en ung alder avgik han ved en pludselig d&#x00F8;d.</p>
+</div>
+<div type="uchapter" n="2_23">
+<head type="sub">Johannes Falk</head>
+<p rend="noIndent"><pb n="59"/>Han var bergenser, urmaker av profession, men gik senere over til barberfaget. Barberer blir let utsatte for den grasserende sygdom, som kaldes teaterdilla. Saaledes gik det ogsaa med Falk. Han optraadte f&#x00F8;rst som deklamator ute paa Bygd&#x00F8; sj&#x00F8;bad, men fandt en kj&#x00F8;lig mottagelse. Han var saare tragisk i et og alt og hadde bestemt sig for tragedien, en kunstart som just ikke blomstret paa forstadsteatre. Paa Alhambra fik han en rolle som Harald Haardraade i en av Boxruds revyer og spillet med en v&#x00E6;ldig kraft. Siden kom han til Olympen, hvor han spillet presten i &#x00AB;Huldrens Hjem&#x00BB; med stor v&#x00E6;rdighet og hyppige kunstpauser mellem replikkerne, hvilket dog ikke undlot at gj&#x00F8;re et visst indtryk paa en del av publikum.</p>
+<p>En tid var nu Falk ansat ved Boxruds reisende selskap. Siden fulgte han med en bande, som dirigertes av fru Kj&#x00F8;lstad og en ung mand, der het Hansen og almindelig ben&#x00E6;vntes Kongen, eftersom han engang hadde spillet Ekebergkongen i Vikarevyen.</p>
+<p>En s&#x00F8;ndag de skulde spille i Drammen, hadde Falk, som var temmelig distr&#x00E6;t, tat feil tog og reiste istedet til Lillestr&#x00F8;mmen. Da han merket sin feiltagelse, blev han meget lei av sig. Vistnok kunde han endnu naa frem til Drammen f&#x00F8;r forestillingens begyndelse, men der var sat paa programmet en storartet tableau &#x00AB;Dreifusz for krigsretten i Rennes&#x00BB;, hvori Falk naturligvis skulde <pb n="60"/>medvirke og nu vilde han altsaa ikke faa pr&#x00F8;ve paa dette.</p>
+<p>Falk ankom til Drammen i sidste &#x00F8;ieblik og ilet op paa teatret, hvor direktricen m&#x00F8;tte ham yderst nerv&#x00F8;s.</p>
+<p>&#x00AB;Det var godt De kom, hr. Falk,&#x00BB; sa hun. &#x00AB;Vil De tro, politiet har forbudt opf&#x00F8;relsen av vort franske tableau.&#x00BB;</p>
+<p>Forf&#x00E6;rdet saa han paa hende.</p>
+<p>&#x00AB;Naa faar De, som er den eneste repr&#x00E6;sentative av selskapet, gaa ind og annoncere dette.&#x00BB;</p>
+<p>Og Falk gik ind paa scenen og annoncerte med tragisk pathos politiets negtelse av Dreyfustableauet, hvilket syntes at gj&#x00F8;re et dypt indtryk paa publikum.</p>
+<p>Men saken var nok at baade fru Kj&#x00F8;lstad og Kongen hadde indset selskapets absolutte udygtighet til at opf&#x00F8;re dette storartede tableau.</p>
+<p>N&#x00E6;ste dag opkaldtes de til politimesteren, som gav dem en ordentlig skrape og forkyndte dem at hverken fruen eller majest&#x00E6;ten fik lov til at optr&#x00E6; i Drammen mere.</p>
+</div>
+<div type="uchapter" n="2_24">
+<head type="sub">Christian Nielsen</head>
+<p rend="noIndent">Han var f&#x00F8;dt i Haab&#x00F8;l, gik seminariet og blev siden skolel&#x00E6;rer i Kristiania.</p>
+<p>Han forlot nogen aar efter denne stilling da han f&#x00F8;lte sig dragen av den dramatiske kunst, som han selv uttrykte sig. Han kom til Kr.a teater, hvor R. B. var instrukt&#x00F8;r. Ved den tid arvet Nielsen endel penger og fik smak for livets nydelser. <pb n="61"/>Bj&#x00F8;rnson sa til ham, at da han viste mere lyst til skuespillerlivet end interesse for teatret, fik han helst slutte. Og det gjorde han.</p>
+<p>Nogen aar efter tok han plads paa Folketeatret i Dramatiken, hvor han blandt andre spillet sammen med Henrik Klausen.</p>
+<p>Tilsidst rystet han Kristianiast&#x00F8;vet av sine f&#x00F8;tter og drog til Amerika. Hvordan han fristet livet de f&#x00F8;rste aar i Amerika, vet man ikke, men han var senerehen skuespiller derover. Han samlet et selskap av norske, svenske og danske kr&#x00E6;fter i Boston, instruerte dem og opf&#x00F8;rte &#x00AB;Jeppe paa berget&#x00BB; med sig selv i titelrollen. Indt&#x00E6;gterne strak saavidt til at de kunde leve av det. Naar ikke Jeppe trak l&#x00E6;nger drog Nielsen til en anden by og samlet sig nyt selskap og fik atter Jeppe op. Saaledes fortsatte han sin dramatiske omflakken i aarevis og oplevet under dette mangfoldige eventyr. Saa langt om l&#x00E6;nge dukket han op i Kristiania, sv&#x00E6;r, hvithaaret rigtig norsk bondsk at se paa, sandelig om han hadde tilegnet sig nogen politur under sit ophold i utlandet.</p>
+<p>Han holdt foredrag i &#x00D8;stre samfund, hvor han fornektet kristendommen og tordnet mot kapitalismen. Han gjorde ingen videre lykke med dette og for at sutinere maatte han reise rundt land og strand og gi musikalsk-deklamatoriske aftenunderholdninger.</p>
+<p>Derefter optraatte han paa Viktoria som Jeppe. En ganske ny og forskjellig Jeppe fra den man var vant til at se her og en virkelig rosv&#x00E6;rdig pr&#x00E6;station. Hvad kameraterne straks maatte l&#x00E6;gge <pb n="62"/>merke til hos Nielsen, var hans voldsomme appetit. En dampkj&#x00F8;kkenportion var intet for ham. Han klarte saa makelig sine to i et s&#x00E6;t. Og naar han hadde spist sig riktig god og m&#x00E6;t, kunde man h&#x00F8;re ham rape voldsomt. Om nogen bebreidet ham dette, sa han: &#x00AB;Det er en god gammel, norsk skik og paa landet er det simpelthen et h&#x00F8;flighetsbevis mot verten.&#x00BB;</p>
+<p>Hans kamerater d&#x00F8;pte ham Matsvinet. Det navn blev han ikke forn&#x00E6;rmet over, han tok idetheletat alt med en stoisk ro.</p>
+<p>Siden blev han engageret til Eldorado. Her spillet han Jakob skomaker i &#x00AB;Jeppe&#x00BB;. og en stortingsbonde i &#x00AB;Tutti Frutti&#x00BB;. Men det viste sig, at han ikke kunde gj&#x00F8;re noget ut av andre roller end Jeppe.</p>
+<p>En dag, da Nielsen var sykmeldt paa Eldorado, sendtes to av hans kamerater hjem til ham for at se, hvordan det var med ham.</p>
+<p>I sengen laa Nielsen og paa bordet like ved paraderte hans middag, en v&#x00E6;ldig vaskevandsbolle fuld av lapskaus.</p>
+<p>Kameraterne vendte tilbake og meddelte at kunstneren var i god bedring.</p>
+<p>Siden kom Nielsen til Karl Johansteatret. Her fik han en rolle i Magdalena som en s&#x00E6;delighetsbetjent der kom for at arrestere heltinden. Paa en av de f&#x00F8;rste pr&#x00F8;ver l&#x00E6;ste Nielsen sine replikker paa en maate, som fik instrukt&#x00F8;ren Olaf Hanson til at avbryte ham:</p>
+<p>&#x00AB;Men, Nielsen, har De virkelig t&#x00E6;nkt at si replikken saadan?&#x00BB;</p>
+<p><pb n="63"/>&#x00AB;Nei, Hanson, jeg skal faa lov til at tale litt med Dem paa tomandshaand om det,&#x00BB; svarte denne med en forlegen mine.</p>
+<p>&#x00AB;Jeg synes nok, at De kan komme med det De har at si her,&#x00BB; mente den anden.</p>
+<p>&#x00AB;Ja, jeg skal si Dem, Hanson, jeg er en mand med hjerte, derfor kan jeg altsaa ikke spille denne rolle.&#x00BB;</p>
+<p>De andre lo godt, og skuespilleren med hjertet forlot teatret.</p>
+<p>Siden spillet han om sommeren sammen med et selskap i Drammens arbeiderforening, hvor de hadde fuld kost og logis.</p>
+<p>En aften efter endt forestilling kom to av skuespillerne ned i spisesalen hvor aftensbordet stod d&#x00E6;kket og Nielsen sat like ved og l&#x00E6;ste i en avis.</p>
+<p>&#x00AB;Men her er jo ingen mat,&#x00BB; sa den ene, Georg Asmundsen.</p>
+<p>De kaldte paa opvartningspiken.</p>
+<p>&#x00AB;La os faa noget mat.&#x00BB;</p>
+<p>&#x00AB;Jeg har baaret ind et helt fat med kj&#x00F8;tkaker,&#x00BB; sa hun.</p>
+<p>&#x00AB;Men det er jo bare litt sauce i det,&#x00BB; sa den anden skuespiller.</p>
+<p>Som Nielsen idetsamme satte i en dr&#x00F8;nnende ropen, gik der et lys op for dem.</p>
+<p>&#x00AB;Aa, er det dig stygge matsvinet, som har v&#x00E6;ret ute!&#x00BB; sa Asmundsen.</p>
+<p>&#x00AB;Man maa dog tilfredsstille legemets behov,&#x00BB; gryntet Nielsen. Han hadde sat tillivs 20 kj&#x00F8;tkaker.</p>
+<p><pb n="64"/>Senere, da han engagertes til Olympen, b&#x00F8;d fru Ottesen ham en viss gage.</p>
+<p>&#x00AB;Ja,&#x00BB; sa han, &#x00AB;men utenfor det maa jeg ha litt &#x00F8;l og nogen sm&#x00F8;rrebr&#x00F8;d til aftens.&#x00BB;</p>
+<p>&#x00AB;De kan rekvirere ved disken,&#x00BB; sa hun, idet hun vel t&#x00E6;nkte sig en flaske &#x00F8;l og en 4&#x2013;5 sm&#x00F8;rrebr&#x00F8;d.</p>
+<p>Men da det viste sig, at han konsumerte 3 flasker &#x00F8;l og 18 &#x00E0; 20 sm&#x00F8;rrebr&#x00F8;d, kunde hun ikke beholde ham.</p>
+<p>Siden virket Nielsen som overs&#x00E6;tter i et blad, og til hans &#x00E6;re maa sies, at han skilte sig udmerket ved dette hverv. Han var en mand med megen l&#x00E6;sning og utstrakte sprogkundskaper. I denne stilling virket han n&#x00E6;sten like til sin d&#x00F8;d.</p>
+</div>
+<div type="uchapter" n="2_25">
+<head type="sub">Harieth Johnsen</head>
+<p rend="noIndent">optraatte f&#x00F8;rst i sommerrevyen paa Fredriksborg, kom siden til Olympen, hvor hun gjorde lykke som soubrette og ikke mindre i alvorlige roller. Hun var kvik, intelligent og i besiddelse av et heldigt sceneydre.</p>
+</div>
+<div type="uchapter" n="2_26">
+<head type="sub">Augusta Sandwick-Boxrud</head>
+<p rend="noIndent">optraatte f&#x00F8;rst paa Victoria og spillet unge pikeroller. Hun var livlig, indtagende, intelligent og hadde en god sangstemme. Alt, hvad hun blev sat til, klarte hun med glans. Efter at ha v&#x00E6;ret paa turn&#x00E9; med det Widgren-Norbyske selskap drog hun til Amerika og blev gift med Sandwick. Nogen aar senere vendte hun som enke tilbake <pb n="65"/>til Norge, like ung og smuk at se til og var nu i nogen aar primadonna paa Olympen. Hun blev gift med forfatteren Boxrud, og fulgte siden med hans selskap paa turn&#x00E9;. Her spillet hun blandt andet sammen med Hauk Aabel og Stormoen, der optraatte som selskapets gjester. I begyndelsen av dette aarhundrede trak hun sig tilbake fra scenen.</p>
+<p rend="center"><figure><graphic url="Forstadsscener_s65.JPG"/></figure></p>
+</div>
+<div type="uchapter" n="2_27">
+<head type="sub">Matkilde (Tilla) Brun</head>
+<p rend="noIndent"><pb n="66"/>Hun var en s&#x00F8;ster av Anna Brun paa Kristiania teater, senere gift med Kalle L&#x00F8;ken. I begyndelsen av 80-aarene debuterte hun ved M&#x00F8;llergatens teater som den unge pike i &#x00AB;Et eventyr i Rosenborg have&#x00BB;, men gjorde ingen synderlig lykke. Nu trak hun sig tilbake fra scenen for et l&#x00E6;ngere tidsrum, hvori hun ofret sig til anden virksomhet. Saa blev hun i fru Ottesens dage engageret til Olympen, hvor hun med held spillet &#x00E6;ldre komiske roller. Nille i &#x00AB;Jeppe&#x00BB; var en av hendes glansroller. Siden fulgte hun med det Boxrudske selskap og optraatte paa andre forstadsteatre. Hvor hun kom, var hun popul&#x00E6;r og avholdt, baade som skuespillerinde og menneske. Og nogen mere trofast kamerat baade i raad og daad kunde hendes kolleger neppe finde. Alle, som kjendte hende, kaldte hende familiert Tilla, hvilket navn ogsaa publikum benyttet, naar de fremkaldte hende. Ved de selskaper, hvor hun virket, var hun som oftest garderobiere og viste en fiks opfindelsesevne til at skaffe en skuespillerinde et net sceneantr&#x00E6;k ved smaa midler. I Maximes sidste dage var Tilla soufl&#x00F8;se der. Senere optraatte hun paa Theater moderne, hvor hun blandt andet uten forberedelse overtok en rolle ved en skuespillerindes sygdomsforfald og utf&#x00F8;rte den s&#x00E6;rdeles tilfredsstillende.</p>
+<p rend="center"><figure><graphic url="Forstadsscener_s67.JPG"/></figure></p>
+<p>Nu fylder Tilla Brun snart sit 70de aar, men synes ikke at f&#x00F8;le noget alderens tryk. Hun er fremdeles like kjek, livlig, munter og elskv&#x00E6;rdig, tar <pb n="68"/>sine lange spaserturer og omgaaes sine mange venner. Hun kunde saavist, om det knep, endnu ta en rolle.</p>
+</div>
+<div type="uchapter" n="2_28">
+<head type="sub">Fru Martha Holck</head>
+<p rend="noIndent">vil endnu erindres for hendes vakre ydre, kjekke fremtr&#x00E6;den og smukke sangstemme. Oprindelig var hun ved Karl Johansteatret, men kom siden til Olympen, hvor hun briljerte i unge pikeroller.</p>
+</div>
+</div>
+<div type="chapter" n="3">
+<head type="main"><ref type="contents" target="contents_3" xml:id="chapter_3">FOLKVANG</ref></head>
+<p rend="noIndent"><pb n="69"/>Den gamle Kaysal hadde en meget heldig beliggenhet paa skj&#x00E6;ret av Maridalsveien og Dannevigsveien, hvor der var stadig trafik av Akersb&#x00F8;nder og Marid&#x00F8;ler. Stedet oprettedes i slutningen av femtiaarene av restaurat&#x00F8;r Kav, som hadde ind- og utskj&#x00E6;nkning av br&#x00E6;ndevin og dans hver s&#x00F8;ndag. Allerede i syttiaarene blev her som f&#x00F8;r meddelt opf&#x00F8;rt smaa teaterstykker, og her var optr&#x00E6;den av forskjellige slags j&#x00F8;glere. Siden omd&#x00F8;ptes etablissementet til Folkvang, og her opf&#x00F8;rtes et nyt festivitetslokale. Om sommeren hadde man den store vakre have at servere i.</p>
+<p>Langt ut i syttiaarene oprettedes Sagenes Arbeidersamfund, som hadde sit f&#x00F8;rste lokale i en tr&#x00E6;gaard noget ovenfor Folkvang. Her diskutertes politik og var dans hver s&#x00F8;ndag.</p>
+<p>Endel aar senere kj&#x00F8;pte Sagene Arbeidersamfund Folkvang og flyttet ind her. Noksaa betegnende, at her var en anden av byens dansebuler gaat over til arbeidersamfund.</p>
+<p rend="center"><figure><graphic url="Forstadsscener_s70.JPG"/></figure></p>
+<p>Allerede forut var &#x00AB;Vestre samfund&#x00BB; oprettet i Bogstadveien. Her holdtes basarer og spiltes komedie, s&#x00E6;rlig av &#x00D8;stres skuespillere. I Kristiania <pb n="71"/>Arbeidersamfund avholdtes likeledes basarer med komedie. I denne tid graserte jo basaruv&#x00E6;senet over hele byen, og et teaterselskap kunde spille paa to basarer samme aften. Man kj&#x00F8;rte i kostymer fra det ene basarteater til det andet.</p>
+<p>Ogsaa paa Folkvang blev der nu jevnlig basarer og komedie.</p>
+<p>Uti nittiaarene oprettedes &#x00AB;Nordre samfund&#x00BB; i Holsts gate. Her utleiedes lokalet om s&#x00F8;ndagene til teaterforestillinger.</p>
+<p>I 1907 syntes en ny &#x00E6;ra at skulle oprinde i Sagene teaterhistorie. Da leiedes lokalet i Nordre av Sigvart Asker, som i fordums dage hadde v&#x00E6;ret direkt&#x00F8;r paa Kristiania Tivoli. Han hadde til hensikt at grunde fast scene her og mente, at et forstadsteater med denne centrale beliggenhet maatte ha en fremtid for sig.</p>
+<p>Ved aapningsforestillingen var der optr&#x00E6;den av artister, blandt andet av en fru Brunie, hun hadde allerede som halvvoksen pike gjort sig bemerket ved sin smukke sangstemme. Hun var f&#x00F8;dt paa Sagene og fik nogen sangundervisning. Siden drog hun til Amerika, hvor hun optraatte som sangerinde med meget held. Her blev hun gift med en svenske, Brunie, og efter hans d&#x00F8;d vendte hun i slutningen av syttiaarene tilbake til Norge fik engagement ved Askers operetteselskap paa Tivoli og gjorde megen lykke ved sit kvikke spil og sin vel skolerte sangstemme. Boccaccio var hendes glansrolle.</p>
+<p>Nu hadde hun forl&#x00E6;ngst trukket sig tilbake fra scenen og bodde i den gaard i Aasengaten, hvor <pb n="72"/>hun var f&#x00F8;dt, og hadde syetablissement der. Da Nordre teater skulde aapnes, bad hun om at faa opptr&#x00E6; ved aapningsforestillingen hos sin gamle direkt&#x00F8;r og la sig h&#x00F8;re kun en eneste gang. Han tillot det med nogen bet&#x00E6;nkelighet, da hun jo var adskillig tilaars nu, saa det neppe kunde antas at hun hadde synderlig tilbake av sin stemme. Desto st&#x00F8;rre var overraskelsen, da hun kom frem og sang like deiligt og klokkerent som i sine bedste dage. Bestormet av publikums bifald trak hun sig tilbake for aldrig at vise sig paa scenen mere.</p>
+<p>Senerehen begyndte Asker atter med komedie. Det blev spillet hver dag og opf&#x00F8;rt stykker som &#x00AB;Huldrens hjem&#x00BB;, &#x00AB;Han gaar paa kommers&#x00BB;, &#x00AB;V&#x00E6;rml&#x00E6;ndingerne&#x00BB; og &#x00AB;En reisende student&#x00BB;. Blandt skuespillerne var Jean Berg, Hjalmar Johansen, Tilla Brun og en del nye, blandt hvem vi kan n&#x00E6;vne:</p>
+<div type="uchapter" n="3_1">
+<head type="sub">Karl Mathiesen</head>
+<p rend="noIndent">var egentlig musiker og optraatte f&#x00F8;rst paa scenen i &#x00AB;Nordre&#x00BB;, hvor han hurtig visste at finde sig tilrette. Han hadde et heldigt sceneydre og en vakker sangstemme og spillet med en sand f&#x00F8;lelse. Blandt andet hadde han en rolle som ung Kristianiagut i et stykke. Derom han sa til forfatteren:</p>
+<p>&#x00AB;Hver gang jeg er med i den scenen i tredie akt saa maa jeg graate.&#x00BB;</p>
+<p>Efter at ha virket et aar paa Nordre, hvor han i h&#x00F8;i grad vandt publikums yndest, drog han til Amerika for der at bli musiker.</p>
+</div>
+<div type="uchapter" n="3_2">
+<head type="sub">Sverre Brunness</head>
+<p rend="noIndent"><pb n="73"/>var en frisk, ung elsker med god sangstemme. Hans bedste roller var &#x00AB;En reisende student&#x00BB; og Gjest Baardsen i stykket av samme navn. Siden forlot han scenen for at gaa over i anden virksomhet.</p>
+</div>
+<div type="uchapter" n="3_3">
+<head type="sub">Karl Johannesen</head>
+<p rend="noIndent">spillet komiske roller paa Nordre. Siden optraatte han som revyeskuespiller paa Nordstrands bad og i Maxime, hvor han paa sidste sted ogsaa gjorde lykke som visesanger.</p>
+</div>
+<div type="uchapter" n="3_4">
+<head type="sub">Klara D&#x00F8;rum</head>
+<p rend="noIndent">spillet ganske net og kvikt unge pikeroller paa Nordre. Kom siden til Maxime, hvor hun var en av de mest anvendte kr&#x00E6;fter.</p>
+</div>
+<div type="uchapter" n="3_5">
+<figure rend="asterisk"/>
+<p>Skj&#x00F8;nt Nordre l&#x00F8;rdag og s&#x00F8;ndag hadde godt bes&#x00F8;k og omfattedes med interesse fra publikums side, kunde Asker i l&#x00E6;ngden ikke holde det gaaende med at spille hver dag i uken. Han maatte la en basar rykke ind der, og da denne var endt, trak han sig tilbake fra Nordre.</p>
+<p>Hans efterf&#x00F8;lger dersteds var forfatteren P. Lykke-Seest, som gjorde et nyt fors&#x00F8;k paa at grunde en fast scene der, v&#x00E6;sentlig med de samme kr&#x00E6;fter som hadde virket her f&#x00F8;r, og han skrev <pb n="74"/>selv revyer for selskapet. Blandt andre: &#x00AB;Imorra kommer feiern&#x00BB;.</p>
+<p>Efter kort tids forl&#x00F8;p gik det hele istykker. Fra nu av blev der kun tale om at spille l&#x00F8;rdag og s&#x00F8;ndag i Nordre. Dets n&#x00E6;ste direkt&#x00F8;r var:</p>
+</div>
+<div type="uchapter" n="3_6">
+<head type="sub">J. F. Jansen-Fuhr</head>
+<p rend="noIndent">Tidligere hadde han virket som journalist i &#x00AB;Landsbladet&#x00BB;, nu tok han fat som forfatter, direkt&#x00F8;r og akt&#x00F8;r paa &#x00AB;Nordre&#x00BB;. Som skuespiller var han ikke fremragende, men en ganske flink instrukt&#x00F8;r og arrang&#x00F8;r, og en overmaate produktiv scenisk forfatter. Han skrev skuespil, komedier og revyer, som han alle lot opf&#x00F8;re paa Nordre. Blandt dem var &#x00AB;Liket og L&#x00F8;kta&#x00BB;, et sensationsdrama.</p>
+<p>Og ikke nok med det. Selveste &#x00AB;80 dage rundt jorden&#x00BB; drev han frem paa denne forstadsscene. Maskineriet knaket i alle sammenf&#x00F8;iningerne, men Fuhr lot knaldeffekten virke, og skuespillerne gik l&#x00F8;s paa sine roller med d&#x00F8;dsforakt og radbr&#x00E6;kket dem tilgavns. Blandt andre hadde Henrik Magnus den tvilsomme forn&#x00F8;ielse at spille Filias Fog. Men faktum er, at publikum moret sig, baade de kritiske og ukritiske, kanske mest de f&#x00F8;rste.</p>
+<p>En tid efter gjenfinder vi Jansen-Fuhr som direkt&#x00F8;r paa Nordstrands bad. Han var der en s&#x00E6;son, men spandt vistnok ikke silke paa det. Siden vente han sit utaknemmelige f&#x00E6;dreland ryggen og drog til Amerika. Her optraatte han som foredragsholder.</p>
+<p>Blandt hans skuespillere vil vi n&#x00E6;vne:</p>
+</div>
+<div type="uchapter" n="3_7">
+<head type="sub">Oskar Lehrdal</head>
+<p rend="noIndent"><pb n="75"/>var komiker og revyskuespiller, han skrev ogsaa viser. Paa Nordre blev han snart meget popul&#x00E6;r. Siden optraatte han paa revy- og sommerteatre og drog selv paa turn&#x00E9; med selskap, hvor han og hans hustru var de mest fremragende kr&#x00E6;fter og fik de fineste kritiker.</p>
+<p>Ved dette aarhundredes begyndelse blev Lehrdal direkt&#x00F8;r paa gamle Basarhallen, som omd&#x00F8;ptes til Maxim. Dette blev et stedse mere og mere yndet folkeforlystelsessted, om det end hadde sine dystre skyggesider. I de gode tider hadde Lehrdal her en r&#x00E6;kke glimrende s&#x00E6;soner.</p>
+</div>
+<div type="uchapter" n="3_8">
+<head type="sub">Fru Julie Jansen-Fuhr</head>
+<p rend="noIndent">var primadonna ved sin mands selskap. Ung, smuk, scenisk begavet og med en vakker sangstemme, blev hun snart Sagenepublikummets yndling.</p>
+<p>Siden spillet hun paa andre revy- og forstadsteatre og gjorde lykke, hvor hun kom. Tilsidst trak hun sig tilbake fra scenen og aapnet avholdskaf&#x00E9; Idun paa Jernbanetorvet.</p>
+</div>
+<div type="uchapter" n="3_9">
+<head type="sub">Fru Margit Svendsen</head>
+<p rend="noIndent">var ogsaa en meget popul&#x00E6;r skuespillerinde ved Sagene. Megen lykke gjorde hun i titelrollen i det gamle franske stykke &#x00AB;Pariserdrengen&#x00BB;.</p>
+</div>
+<div type="uchapter" n="3_10">
+<figure rend="asterisk"/>
+<p><pb n="76"/>Nogen aar efter Jansen-Fuhrs dage solgtes Nordres gaard i Holsts gate, og da var det forbi med al teatervirksomhet der.</p>
+<p rend="center"><figure><graphic url="Forstadsscener_s76.JPG"/></figure></p>
+<p>Allerede mens Asker drev Nordre, hadde Sagene Arbeidersamfund bygget sig samfundsbygning i Arendalsgaten og flyttet ind der.</p>
+<p><pb n="77"/>Ogsaa efterpaa holdtes basarer og spiltes komedier paa Folkvang. Og i det nye samfundslokale, som hadde en lys, net teatersalon, var man begyndt at spille l&#x00F8;rdage og s&#x00F8;ndage.</p>
+<p>Det var hvad man kalder familiekomedie. De raadende inden selskapet trak venner og slektninger ind til at spille. Man spurte ikke om anl&#x00E6;g eller dyktighet, men bare familieskap og venskap, og saa kan man vel t&#x00E6;nke sig, hvordan spillet blev. Komedier laget de selv, og de blev derefter. Men personalet moret ialfald sig selv med at &#x00AB;leke teater&#x00BB;. Her er ingen navne at n&#x00E6;vne som fortjener at erindres.</p>
+</div>
+</div>
+<div type="chapter" n="4">
+<head type="main"><ref type="contents" target="contents_4" xml:id="chapter_4">DET NYE &#x00D8;STRE SAMFUND</ref></head>
+<p rend="noIndent"><pb n="78"/>Allerede da fru Ottesen dirigerte Olympen hadde &#x00D8;stre samfund forladt sin gamle rede paa Rasmussalen og flyttet ind i sin nyopf&#x00F8;rte murbygning l&#x00E6;nger ind paa &#x00AB;Leret&#x00BB;. Ogsaa her blev spillet komedie, dog kun om s&#x00F8;ndagene, hvorved Olympen fik en konkurrent tversover gaten. I spissen stod:</p>
+<div type="uchapter" n="4_1">
+<head type="sub">M. Martinsen</head>
+<p rend="noIndent">Han var maler av profesjon og virket her som forfatter, sceneinstrukt&#x00F8;r og skuespiller. I det sidste fag utmerket han sig ikke og presterte aldrig noget n&#x00E6;vnev&#x00E6;rdigt, hverken her eller i den tid han var paa Nordre hos Asker. Men som revyforfatter var han en av de bedre og skrev ganske kvikke kupletter. Senerehen skrev han stykker for Vestre samfund og Olympen.</p>
+</div>
+<div type="uchapter" n="4_2">
+<head type="sub">Hjalmar Sundby</head>
+<p rend="noIndent">var vel den eneste skuespiller paa det nye &#x00D8;stre, som nu vil erindres. Han var kvik, flink og viste rutine og sang godt.</p>
+</div>
+</div>
+<div type="chapter" n="5">
+<head type="main"><ref type="contents" target="contents_5" xml:id="chapter_5">OLYMPENS SIDSTE DAGE</ref></head>
+<p rend="noIndent"><pb n="79"/>Stedet hadde i et helt decenium med en viss ret baaret sit navn Gr&#x00F8;nlands folketeater, men siden utartet det litt efter litt. Salonen fyldtes overveiende av et lavstillet publikum, som fik dets gode, gamle stamgjester til at svikte. Drukkenskapen blev overv&#x00E6;ldende og tonen raa.</p>
+<p>Olympen blev et beryktet sted, som &#x00D8;stkantens prester ivret imot. Direktionen fors&#x00F8;kte sig med nye skuespilkr&#x00E6;fter og nye stykker. Garmann blev atter instrukt&#x00F8;r og salonen blev opfiffet. Intet hjalp, nedover bar det.</p>
+<p>Da saa Olympen blev nektet &#x00F8;l og vinret, kunde man ikke holde det gaaende med teater her l&#x00E6;nger. Nu er her kun en almindelig folkerestaurant med musikunderholdning om aftenen.</p>
+<p>Saa mangen aktv&#x00E6;rdig gr&#x00F8;nlandsboer, som passerer Olympen, vil med vemod t&#x00E6;nke paa, hvordan her var i Rudolf Olsens dage, ja, en l&#x00E6;ngere tid utover.</p>
+</div>
+<div type="chapter" n="6">
+<head type="main"><ref type="contents" target="contents_6" xml:id="chapter_6">VARIETE OG REVY</ref></head>
+<p rend="noIndent"><pb n="80"/>Varieteen er nok temmelig gammel her i Kristiania, skj&#x00F8;nt den tidligere ikke kjendtes under dette navn. Allerede i slutningen av 1850-aarene gaves der saadanne forestillinger paa &#x00AB;L&#x00F8;ven&#x00BB; i M&#x00F8;llergaten, hvor det f&#x00F8;rste Norske Teater siden startedes. Paa en annonce herfra l&#x00E6;ses bl. a. at &#x00AB;En liten gut ifra Tistedal&#x00BB; utf&#x00F8;res i kostyme. Ved siden herav var musiknumre og optr&#x00E6;den av j&#x00F8;glere.</p>
+<p>Senerehen gas ned gjennem aarene lignende forestillinger, bl. a. paa Klingenberg og Fredriksborg. De optr&#x00E6;dende var i almindelighet utl&#x00E6;ndinger. F&#x00F8;rst i begyndelsen av 80-aarene begynder man hos os at benytte ben&#x00E6;vnelse variet&#x00E9; paa denne kunstart, og noget senere kommer varieteens blomstringstid i Kristiania.</p>
+<p>F&#x00F8;rst og fremst var det Tivoli Variet&#x00E9;, hvis artister engagertes fra utlandets fineste etablissementer. Det fik snart en konkurent i Eldorado Variet&#x00E9;. Den folkelige og respektable &#x00F8;lhalle, Basarhallen, som til en begyndelse kun hadde budt paa musik, gik nu ogsaa over til variet&#x00E9;. Gamle Centralhallen i Pultostens kjelder likervis. Kan vel <pb n="81"/>h&#x00E6;nde, at nydelsen av toddy og sterkere drikkevarer passet bedst til den slags underholdning. Hele Kristiania vugget sig i en passioneret variet&#x00E9;stemning og de popul&#x00E6;re favoritmelodier, som tonet ut fra variet&#x00E9;erne, blev spillet og sunget i husene, serveret av lirem&#x00E6;ndene i gaardene, og nye varieteer skj&#x00F8;t som paddehatter op av jorden. Paa de gamle dansebuler Frisju Hall og Kasino kom der variet&#x00E9;, likeledes paa et sted i Strandgaten, som nu fik navnet Stjernehallen, og den gamle Appollosal paa Tivoli, som nu omd&#x00F8;ptes til Flora salonnen, b&#x00F8;d paa en lignende underholdning. Sidstn&#x00E6;vnte etablissementer hentet sine artister tra Kj&#x00F8;benhavns sangerindebuler, og prestationerne var derefter. Ingen tvil om at variet&#x00E9;erne var farlige konkurenter til byens teatre, men flere av disse undsaa sig heller ikke for at bedrive en smule variet&#x00E9;. Saaledes opf&#x00F8;rtes paa Kristiania Teater en operette av Mill&#x00F8;cker &#x2013; navnet har jeg desv&#x00E6;rre glemt &#x2013; hvor Vilh. Kloed leverte en hel revyscene med sangen &#x00AB;En bataljon tilfots og en bataljon tilhest&#x00BB;.</p>
+<p>Mer og mer begyndte norske dilletanter at fors&#x00F8;ke sig som varietister. De vilde gjerne kalde sig komikere, men flertallet virket nok alt andet end komiske. I vore dage kalder saadanne optr&#x00E6;dende sig for artister. En noksaa pretenti&#x00F8;s titel. Hvilkensomhelst ung gut, der kan prestere en vise paa en basar, vil gjerne smykke sig med titelen artist, som jo egentlig betyr kunstner.</p>
+<p>Efterat variet&#x00E9;interessen her i Kristiania hadde kulmineret, blev det revyen, som kom i h&#x00F8;is&#x00E6;tet.</p>
+<div type="uchapter" n="6_1">
+<head type="sub">Kristiania f&#x00F8;rste revy</head>
+<p rend="noIndent"><pb n="82"/>opf&#x00F8;rtes nytaar 1868 paa Folketeatret i gamle Dramatiken av et selskap av norske og danske kr&#x00E6;fter. Blandt andre kjendte st&#x00F8;rrelser fremf&#x00F8;rtes her &#x00AB;Aftenposten&#x00BB;s dav&#x00E6;rende redakt&#x00F8;r, Zakken kaldet, fulgt av sin uadskillelige hund. Stykket gjorde megen lykke.</p>
+<p>Siden opf&#x00F8;rtes hvert nytaar en revy her og der, men den f&#x00F8;rste bemerkelsesv&#x00E6;rdige av dem var &#x00AB;Nytaarsfantasier 1870&#x00BB;, som opf&#x00F8;rtes paa M&#x00F8;llergatens Teater, hvor et selskap av norske, svenske og danske kr&#x00E6;fter virket under direktion av J. E. Hafgren. Det var forfattet av et helt konsortium av literater med Thomas Thoresen som leder. Tidligere hadde han skrevet den morsomme enakter &#x00AB;Hos kapteinen&#x00BB;.</p>
+<p>&#x00AB;Nytaarsfantasier 1870&#x00BB; gjorde en voldsom lykke og gik for fulde hus over 100 gange en suite, en rekord, som i Kristiania ikke tidligere hadde v&#x00E6;ret slaat av noget stykke.</p>
+<p>&#x00AB;Nytaarsfantasier 1871&#x00BB; av en anden forfatter, som opf&#x00F8;rtes aaret efter, blev temmelig kj&#x00F8;ligt mottat av publikum, hvorfor man tok sukcessen fra 1870 op igjen, den viste sig fremdeles at tr&#x00E6;kke hus.</p>
+<p>Senerehen blev der jevnlig spillet nytaarsstykker paa M&#x00F8;llergatens og Tivoli teatre, likesom paa forstadsteatrene, eftersom disse begyndte sin virksomhet, og interessen herfor var i stadig tiltagende. Man opf&#x00F8;rte ogsaa sommer og h&#x00F8;strevyer.</p>
+<p><pb n="83"/>De fleste av disse revyer var saa n&#x00F8;ie knyttet til dagens begivenheter, at de kun inden et snevert tidsrum holdt sig aktuelle og interessen for dem snart fortr&#x00E6;ngtes av andre, nye; de var ikke levedyktige, men henlagdes efter et kort d&#x00F8;gnflueliv. Men saa fremkom et stykke, som dannet et glansavsnit i revyernes historie:</p>
+</div>
+<div type="uchapter" n="6_2">
+<head type="sub">&#x00AB;Tutti Frutti&#x00BB;</head>
+<p rend="noIndent">av Wiers-Jensen, som opf&#x00F8;rtes av norske kr&#x00E6;fter paa Eldorado Teater. Jeg var tilstede ved en av de sidste pr&#x00F8;ver, og jeg maa si, at jeg blev helt begeistret. Dette var etwas noch nie dagewesen.</p>
+<p>Tutti Frutti blev en enestaaende sukcess, og der var en jubel uten like. De morsomme viser og vittige replikker kom pr&#x00E6;ktig til sin ret ved den utmerkede fremf&#x00F8;relse av de dyktige skuespillet. Folk gik paa Eldorado aften efter aften og saa det uten at bli kjed av det, og de glade viser blev sunget over hele byen. Specielt popul&#x00E6;r var Kanonvisen.</p>
+<p>Over 100 gange gik &#x00AB;Tutti Frutti&#x00BB;, saa henlagdes det, skj&#x00F8;nt det vistnok kunde ha trukket fremdeles.</p>
+<p>N&#x00E6;ste s&#x00E6;son opf&#x00F8;rtes et nyt stykke av Wiers-Jensen &#x00AB;Haremsliv&#x00BB;. Det slog godt an, men gjorde ikke tiln&#x00E6;rmelsesvis den lykke som &#x00AB;Tutti Frutti&#x00BB;. Dette stykke vilde direktionen ta op igjen, men forfatteren sa tvert nei. Og det gjorde han ret i. Vistnok vilde &#x00AB;Tutti Frutti&#x00BB; endnu ha trukket en r&#x00E6;kke fulde hus, men herved vilde det bli forslidt <pb n="84"/>og banalt. Nu lever det fremdeles like friskt og glansfuldt i deres erindring, som saa det, og tilh&#x00F8;rer minder, som man med gl&#x00E6;de vil dv&#x00E6;le ved.</p>
+<p>For at komme til det n&#x00E6;ste glansavsnit i revyernes historie vil vi nu n&#x00E6;rmere omtale en literat:</p>
+</div>
+<div type="uchapter" n="6_3">
+<head type="sub">Theodor L&#x00F8;vstad</head>
+<p rend="noIndent">Hans far, &#x00AB;gamle L&#x00F8;vstad&#x00BB;, som spillet en flot fiolin tilbals, var en munter og jovial mand og hadde mange morsomme historier at fort&#x00E6;lle.</p>
+<p>Theodor var baade liter&#x00E6;rt og musikalsk begavet. I nittenaarsalderen spillet han fiolin paa Det norske Teater i M&#x00F8;llergaten sammen med den senere saa ber&#x00F8;mte Johan Svendsen under Speratis taktstok. Samtidig l&#x00E6;ste han til artium og bestod den med glans. Senerehen kastet han sig over dramatisk forfatterskap. Fra hans pen har vi farcen &#x00AB;En nat paa Jerkin&#x00BB;, en nytaarsrevy, &#x00AB;Elskeren paa Kvisten&#x00BB; og &#x00AB;Tre forelskede politikonstabler&#x00BB;, lokaliseret fra svensk, alle opf&#x00F8;rt paa M&#x00F8;llergatens teater, hvor de gjorde megen lykke. Saa begyndte han utgivelsen av et litet vittighetsblad Bakus, som var noget enestaaende i sit slags og blev meget popul&#x00E6;rt blandt det brede publikum. I Bakus leverte han smaa Kristianiaskisser, som r&#x00F8;bet et opladt blik for det komiske og et indgaaende kjendskap til samfundets lavere lag, pr&#x00E6;get av al den jevne, elskv&#x00E6;rdige gemytlighet som karakteriserte Kristianiasmaafolk i syttiaarene. Ved siden herav ekscellerte L&#x00F8;vstad i at skrive formfuldendte vers.</p>
+<p><pb n="85"/>Selv bes&#x00F8;rget han baade redaktionen og ekspeditionen av Bakus.</p>
+<p>Efter at ha oplevet fem aargange, gik Bakus ind. Nu overtok L&#x00F8;vstad redaktionen av &#x00AB;Vikingen&#x00BB; og redigerte dette gamle vittighetsblad med megen dyktighet. Samtidig var han kapelmester, f&#x00F8;rst i Centralhallen, saa i Basarhallen, og hans orkester var s&#x00E6;rdeles anerkjendt.</p>
+<p>Vikingen fik snart et ekstra tr&#x00E6;kplaster i avdelingen &#x00AB;Kj&#x00E6;ftausa&#x00BB;, redigert av Kal fra Vika, hvori L&#x00F8;vstad i bred vikadialekt polemiserte over dagens begivenheter og paa en saa komisk maate at mangen en fik sig en god latter. Hermed fortsatte han aar efter aar, og Kal fra Vika, Indiana, Kanelius og &#x00AB;kornsorter&#x00BB; blev litt efter litt som gode kjendinger av det store publikum.</p>
+<p>Saa fik L&#x00F8;vstad den heldige id&#x00E9; at benytte hele dette galeri av personer til en revy.</p>
+<p>&#x00AB;Fra Vika til Ekebergtoppen&#x00BB; blev opf&#x00F8;rt paa Fredriksborg som sommerrevy og gjorde fra f&#x00F8;rste aften en rent ustyrtelig lykke, hvortil det fortrinlige spil ogsaa bidrog sit. Paa Fredriksborg spiltes det over hundrede ganger. Siden drog personalet paa turn&#x00E9; med stykket og i smaabyerne slog det like godt an og trak fulde hus, hvor de kom. Av de optr&#x00E6;dende vil vi s&#x00E6;rlig n&#x00E6;vne</p>
+</div>
+<div type="uchapter" n="6_4">
+<head type="sub">Johannes Dehn</head>
+<p rend="noIndent"><pb n="86"/>Han var typograf av profesion. Paa Victoria teater gjorde han sig s&#x00E6;rlig bemerket ved sin utf&#x00F8;relse av Gougets rolle i &#x00AB;Faldgruben&#x00BB;. Han var en flink opl&#x00E6;ser og optraatte som saadan i og utenfor Kristiania og gjorde lykke. Som Kal fra Vika var han fortrinlig, en Kristianiagut av reneste vand. Senerehen var han en tid ansat ved Karl Johansteatret. Siden drog han i aarr&#x00E6;kker om som direkt&#x00F8;r for revyselskaper, spillet ogsaa av og til i Kristiania, bl. a. paa Eldorado og i Kristiania arbeidersamfund. I 1916 vendte han tilbake til typekassen.</p>
+<p>Vikarevyen har opnaadd utallige opf&#x00F8;relser inden og utenbys ned gjennem aarene og virker den dag idag like frisk og morsom. Den har det fortrin fremfor andre revyer, at den eier kulturhistorisk v&#x00E6;rdi, er noget av et folkelivsbillede fra det Kristiania som gik.</p>
+<p>L&#x00F8;vstad fortsatte sin travle virksomhet, skrev endnu flere revyer, redigerte Vikingen, var en tid kapelmester paa Eldorado og kom siden til Dovrehallen, og i &#x00AB;sommerferierne&#x00BB; f&#x00F8;rte han taktstokken paa Kongshavn Bad.</p>
+<p>Et makel&#x00F8;st rikt arbeidsliv, og dog saa det aldrig ut som han gik tr&#x00E6;t. Han kunde gl&#x00E6;de sig ved en popularitet som faa, ogsaa blandt barn. Det viste sig ved barneforestillingerne i Dovrehallen, naar han gemytlig underholdt sig med de smaa, gav dem gaader, utdelte gevinster til dem og fik dem <pb n="87"/>til unisont at synge f&#x00E6;drelandssangen. Barna var glade i den blide, elskv&#x00E6;rdige gamle herre.</p>
+<p>I sin fremrykkede alder skrev han sammen med sin s&#x00F8;n, Brink L&#x00F8;vstad revyen &#x00AB;Mor Andersens bryllup&#x00BB;, som oplevet et stort antal opf&#x00F8;relser paa Maxim.</p>
+<p>Med Theodor L&#x00F8;vstad forsvandt en kjendt Kristianiaskikkelse.</p>
+<p>Revyerne vedblev at blomstre. En revy kan ha sin betydning som satire ved at faa folk til at le av sine egne dumheter, virke som attisk salt, men i mange av disse produkter fisket man i plathet, slibrighet og aandsfort&#x00E6;rende vr&#x00F8;vl. Igrunden viste kritiken sig i det store og hele tat altfor overb&#x00E6;rende med denslags komedie. Forstads og sommerteatre opf&#x00F8;rte ofte flere revyer paa en aften.</p>
+<p>Indr&#x00F8;mmes skal det, at der opf&#x00F8;rtes en hel del gode revyer, men ak, saadan m&#x00E6;ngde daarlige.</p>
+</div>
+</div>
+<div type="chapter" n="7">
+<head type="main"><ref type="contents" target="contents_7" xml:id="chapter_7">FORSTADSSCENERNES BETYDNING</ref></head>
+<p rend="noIndent"><pb n="88"/>Nu findes der ikke l&#x00E6;nger nogen egentlige forstadsteatre i Kristiania, skj&#x00F8;nt der her og der eksisterer dramatiske klubber og av og til spilles litt komedie i arbeidersamfundene, og det kan v&#x00E6;re av interesse at se tilbake paa hvilke virkninger disse smaascener kan ha hat for sit publikum i det store og hele tat.</p>
+<p>&#x00D8;stre samfunds hensigt, at virke foredlende paa sit publikum blev til en viss grad opnaadd. Folk moret sig paa en t&#x00E6;kkelig maate og v&#x00E6;nnet sig til at se og forstaa komedie. Disse forstadsteatre har hos den brede masse dannet et overgangsled til at kunne forstaa og nyte virkelige skuespilleres kunst paa st&#x00F8;rre teatre. Man kan bare se paa det interesserte og forstaaelsesfulde publikum som fylder Nationalteatret ved arbeiderforestillingerne. Skuespillerne erkl&#x00E6;rer selv, at det er en sand forn&#x00F8;ielse at spille for dem.</p>
+<p>Nu vilde et forstadsteater av den gamle art neppe komme til at tr&#x00E6;kke hus.</p>
+<p>Men om nu forstadsscenerne har v&#x00E6;ret til gavn for deres skuespillere, er et andet sp&#x00F8;rsmaal.</p>
+<p>Vistnok er et litet faatal av dem, som virket paa <pb n="89"/>forstadsbredderne blit dygtige, ja, store skuespillere, men for mange virkelige begavelser har de vist sig som en farlig planteskole, hvor de er blit forsumpet, &#x00F8;delagt og har gaat tilgrunde. Mange bra folk har medvirket i saadan komedie blot av forn&#x00F8;ielse, men dog ikke opgit sit gode haandverk. Men hvor mange har ikke forladt og opgit sit gode &#x00E6;rlige erhverv, som vilde ha beredt dem en behagelig og lykkelig fremtid, kun for at gi efter for den usalige tilb&#x00F8;ielighet, som kaldes teaterdilla, og ikke har indbragt dem andet end ulykke og ford&#x00E6;rvelse. Og er de f&#x00F8;rst kommen ind paa den bane, vil de gjerne tape lysten paa almindeligt arbeide.</p>
+<p>Man har kun altfor mange eksempler paa dette. Med dilitantismens lediggang f&#x00F8;lger drukkenskap og andre laster.</p>
+<p>Mangen ung kj&#x00E6;k gut har jeg set gaa i en tidlig grav ved dette forsumpende liv. Og for den unge pike som gjerne av forf&#x00E6;ngelighet vilde spille forstadskomedie, var ikke denne atmosf&#x00E6;re mindre farlig. I den blomstrende alder er de blit s&#x00F8;rgelig &#x00F8;delagt paa legeme og sj&#x00E6;l.</p>
+</div>
+<div type="chapter" n="8">
+<head type="main"><ref type="contents" target="contents_8" xml:id="chapter_8">TEATERHISTORIER</ref></head>
+<div type="uchapter" n="8_1">
+<head type="sub">Da b&#x00F8;lgerne streiket</head>
+<p rend="noIndent"><pb n="90"/>Da Peer Gynt gik paa Kristiania Teater i 1870-aarene under Josefsons direktion benyttet man i scenen paa havet i sidste akt smaagutter til at fremstille b&#x00F8;lger ved at ligge og sparke under et teppe og disse betaltes hver med 12 skilling pr. aften. Senerehen da tilstr&#x00F8;mningen til stykket blev mindre, slog Josefson betalingen ned til seks skilling pr. aften. &#x00C6;rgerlige herover besluttet b&#x00F8;lgerne at streike.</p>
+<p>Da teppet gik for bemeldte akt, hvinet stormen, orkanen raste og tordenen dr&#x00F8;nnet, men sj&#x00F8;en laa blikstille og glat som et speil. Josefson ropte ned til gutterne, som laa under teppet, h&#x00F8;it, saa det h&#x00F8;rtes op blandt publikum:</p>
+<p>&#x00AB;Hvorfor gj&#x00F8;r dere ikke b&#x00F8;lger?&#x00BB;</p>
+<p>Da svarte en gneldrende guttestemme: &#x00AB;Skal det v&#x00E6;re sekskillings eller tolvskillings b&#x00F8;lger?&#x00BB;</p>
+<p>&#x00AB;Tolvskillings, I slyngler!&#x00BB; br&#x00F8;lte Josefson.</p>
+<p>I n&#x00E6;ste &#x00F8;ieblik r&#x00F8;rtes sj&#x00F8;en op og b&#x00F8;lgerne slog h&#x00F8;it i veiret.</p>
+</div>
+<div type="uchapter" n="8_2">
+<head type="sub">Reiseakkreditivet</head>
+<p rend="noIndent"><pb n="91"/>Arnoldus Reimers hadde faat et stipendium og var bestemt paa at reise til Paris og studere scenekunsten paa teatrene der. Men f&#x00F8;r han kom avsted, str&#x00F8;k pengene med. Han beklaget sig herover til Johannes Brun.</p>
+<p>&#x00AB;Nu kommer jeg ikke avsted, hvad skal jeg gj&#x00F8;re ved det?&#x00BB; sa han.</p>
+<p>&#x00AB;Du kan gaa ned til Heftye og faa dig et reiseakkreditiv paa Paris, la os si paa 1000 kroner. Saa h&#x00E6;ver du pengene i en bank der.&#x00BB;</p>
+<p>&#x00AB;Hvordan skal jeg faa det?&#x00BB; spurte Reimers, som var h&#x00F8;ist uvidende i saadanne ting.</p>
+<p>&#x00AB;Ved bare at gaa ned og forlange det.&#x00BB;</p>
+<p>Reimers gik ned til bankier Heftye og sa:</p>
+<p>&#x00AB;Jeg skal til Paris. Kan jeg faa et reiseakkreditiv?&#x00BB;</p>
+<p>&#x00AB;Ja, bevares. Hvor stort skal det v&#x00E6;re?&#x00BB;</p>
+<p>&#x00AB;Tak, tusen kroner.&#x00BB;</p>
+<p>&#x00AB;Joda, det skal vi ordne. De har bare at betale pengene ind her.&#x00BB;</p>
+<p>&#x00AB;Pengene?&#x00BB; utbr&#x00F8;t Reimers med en forf&#x00E6;rdet mine. &#x00AB;Skal det penger til?&#x00BB;</p>
+<p>&#x00AB;Ja, hvordan hadde De ellers t&#x00E6;nkt det?&#x00BB;</p>
+<p>&#x00AB;Johannes Brun sa &#x2013; &#x2013;&#x00BB; Han meddelte sig herom.</p>
+<p>&#x00AB;Johannes Brun er en stor sk&#x00F8;ier,&#x00BB; lo Heftye, &#x00AB;og han vilde holde Dem for nar. Men vi skal holde ham for nar istedet. De skal faa akkreditivet allikevel.</p>
+<p><pb n="92"/>Man kan t&#x00E6;nke sig, hvilket ansigt Johannes satte op, da Reimers kom ned til Ingebret og viste ham reiseakkreditivet paa 1000 kroner.</p>
+</div>
+<div type="uchapter" n="8_3">
+<head type="sub">Et vigtig sp&#x00F8;rsmaal</head>
+<p rend="noIndent">Reimers hadde for vane at holde sine benkl&#x00E6;r oppe ved baand, sikkerhetsnaaler eller andre remedier, hvorfor en ven en dag sa til ham:</p>
+<p>&#x00AB;Du skulde anskaffe dig et par bukses&#x00E6;ler.&#x00BB;</p>
+<p>&#x00AB;Hvor faar man kj&#x00F8;pt dem?&#x00BB; spurte Reimers.</p>
+<p>&#x00AB;Hos Dobloug i Storgaten.&#x00BB;</p>
+<p>Reimers saa grundende paa ham og spurte forsigtig:</p>
+<p>&#x00AB;Er det et solid firma det?&#x00BB;</p>
+</div>
+<div type="uchapter" n="8_4">
+<head type="sub">Da holdt han op at graate</head>
+<p rend="noIndent">&#x00AB;Aksel og Valborg&#x00BB; opf&#x00F8;rtes paa Kristiania Teater med Gundersen og frue i titelrollen. Bak kulisserne stod en ung mand og fulgte handlingen i sterk bev&#x00E6;gelse. I slutningsakten graat han, saa taarerne strirandt.</p>
+<p>Som de elskende laa d&#x00F8;de side om side paa scenen, h&#x00F8;rte han Aksel hviske til Valborg:</p>
+<p>&#x00AB;Hvad har du tilaftens idag?&#x00BB;</p>
+<p>&#x00AB;Lapskaus,&#x00BB; svarte hun.</p>
+<p>&#x00AB;Da gaar jeg heller til Engebret,&#x00BB; erkl&#x00E6;rte den djerve helt.</p>
+<p>&#x00D8;ieblikkelig holdt den unge mand op at graate.</p>
+</div>
+<div type="uchapter" n="8_5">
+<head type="sub">Et nyt land</head>
+<p rend="noIndent"><pb n="93"/>Henrik Klausen var i sin gr&#x00F8;nne ungdom ansat ved Trondhjems teater sammen med Andreas Isachsen. Den sidste vilde gjerne ha sin kamerat tilbedste.</p>
+<p>Saa var der pr&#x00F8;ve paa et stykke av Öhlenschl&#x00E4;ger, hvori Klausen hadde en replik saalydende: &#x00AB;Han drog til Serkland for fjorten aar siden.&#x00BB;</p>
+<p>&#x00AB;Vet du hvad,&#x00BB; sa Isachsen til ham, &#x00AB;det gaar ikke an at si saadant noget som serk paa scenen.&#x00BB;</p>
+<p>Og paavirket av denne sin &#x00E6;ldre kollega, sa Klausen ved premieren:</p>
+<p>&#x00AB;Han drog til Skjorteland for fjorten aar siden.&#x00BB;</p>
+</div>
+<div type="uchapter" n="8_6">
+<head type="sub">Slagf&#x00E6;rdig</head>
+<p rend="noIndent">Johannes Brun sat ved sin toddy paa d&#x0027;Angleterre sammen med gode venner. Da kom verten, gamle Nibbe og sa:</p>
+<p>&#x00AB;Undskyld mine herrer, klokken er tolv.&#x00BB;</p>
+<p>&#x00AB;Aa, klokken er for skr&#x00E6;dder og skomaker,&#x00BB; svarte Brun.</p>
+<p>Nu reiste sig en &#x00E6;ldre mand fra et bord ved siden av og sa indigneret:</p>
+<p>&#x00AB;Undskyld, jeg er skomaker Olsen fra Drammen og skj&#x00F8;nner nok at De vil harselere mig, men det skal jeg frabe mig.&#x00BB;</p>
+<p>&#x00AB;Er De fra Drammen?&#x00BB; ropte Johannes. &#x00AB;Jeg trodde De var fra forstanden jeg, far.&#x00BB;</p>
+</div>
+<div type="uchapter" n="8_7">
+<head type="sub">I originalsproget</head>
+<p rend="noIndent"><pb n="94"/>Skuespiller K. som ikke skulde v&#x00E6;re i besiddelse av nogen videre almendannelse, sa til en kollega:</p>
+<p>&#x00AB;Jeg fik Shakespeares verker i for&#x00E6;ring av Josefson, og jeg synes det er saa interessant at l&#x00E6;se ham i originalsproget.&#x00BB;</p>
+<p>&#x00AB;Kan du engelsk, da K?&#x00BB; spurte kollegen.</p>
+<p>&#x00AB;Nei, men jeg l&#x00E6;ser ham paa svensk, forstaar du.&#x00BB;</p>
+<p>En aften holdt K. toddylag for sine venner. &#x00AB;Der staar kognak vieux paa flasken,&#x00BB; sa han, &#x00AB;men den har pined&#x00F8;d aldrig sett Vieux engang.&#x00BB; Han trodde at Vieux var en by i Frankrike.</p>
+</div>
+<div type="uchapter" n="8_8">
+<head type="sub">Kongen moret sig</head>
+<p rend="noIndent">En av de mest bekjendte Stockholmsoriginaler i 1880-aarene var den spanske gesandt Soto Major ad jundas. Det var en liten mand, stadig kl&#x00E6;dt efter sidste mode og med den mest uts&#x00F8;kte eleganse. Trods sine sytti aar og sit kridthvite skjeg var Soto Major en lidenskapelig tilbeder av det smukke kj&#x00F8;n og skulde endnu gj&#x00F8;re lykke hos visse damer. Hele Stockholm kjendte ham og hans eventyr.</p>
+<p>En aften var kong Oscar II i teatret og saa et stykke som kjedet ham trods den glimrende ops&#x00E6;tning og balletten. Huset var fuldt besat.</p>
+<p>Da teppet gik for sidste akt, saa kongen pludselig op.</p>
+<p><pb n="95"/>Ind mot rampen stod gamle Soto Major med armen om livet paa en ung, smuk balletdanser inde. Som han skr&#x00E6;kslagen vaklet ind mellem kulisserne, runget salonen under applaus og latter, og Oscar dukket ansigtet bak kongelogens portiere, mens han lo saa han rystet.</p>
+</div>
+<div type="uchapter" n="8_9">
+<head type="sub">Uddmanns villa</head>
+<p rend="noIndent">I Stockholm var i 1860-aarene en skuespiller Uddmann, en sv&#x00E6;r, tyk, bredskuldret herre, blottet for alt scenisk talent og han vilde saavist ikke erindres av efterverdenen, om det ikke var for den historie, der er knyttet til hans navn.</p>
+<p>En dag avla han en visit hos mangemillion&#x00E6;ren, friherre Oscar Dickson og anholdt om hj&#x00E6;lp hos ham til at bygge sig en villa paa Djursholm.</p>
+<p>Dickson sa tvert nei, men da skuespilleren vilde fjerne sig og formedelst sin dr&#x00F8;ie bredde ikke kunde komme gjennem d&#x00F8;ren, saa han i den grad uforlignelig komisk ut, at Dickson brast i latter og kaldte ham tilbake.</p>
+<p>&#x00AB;Hr. Uddmann, ni skall f&#x00E5; Er villa,&#x00BB; sa han.</p>
+<p>Naar en fremmed den dag idag bes&#x00F8;ker Djurg&#x00E5;rden, kan hvilkensomhelst Stockholmer vise ham Uddmanns villa.</p>
+</div>
+</div>
+</body>
+</text>
+</TEI>

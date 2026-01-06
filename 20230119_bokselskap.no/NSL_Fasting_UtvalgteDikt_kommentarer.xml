@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI PUBLIC "-// TEI P5 //EN" "http://www.tei-c.org/release/xml/tei/custom/schema/dtd/tei_all.dtd">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="NSL_Fasting_UtvalgteDikt">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Det norske spr&#x00E5;k- og litteraturselskap/bokselskap.no, 2012
+<lb/>Claus Fasting: <hi rend="italic">Utvalgte dikt</hi>. Kommentarer ved Aina N&#x00F8;ding.</title>
+</titleStmt>
+<publicationStmt><p>Publiseres som digital tekst av Det norske spr&#x00E5;k- og litteraturselskap/bokselskap.no.</p></publicationStmt>
+<sourceDesc>
+ <bibl>
+  <title>Dikt</title>
+  <author>Claus Fasting</author>
+  <date>1769-1779</date>
+  <note>Kommentarer_dikt (Aina N&#x00F8;ding 16.02.2012)</note>
+ </bibl>
+</sourceDesc>
+</fileDesc>
+<revisionDesc>
+<change xml:id="ENW" who="ENW" when="2012-03-06">Kodet om filen til xml.</change>
+</revisionDesc>
+</teiHeader>
+<text xml:id="NSL_Fasting_UtvalgteDikt_kommentarer">
+<front>
+<titlePage type="main">
+<docTitle>
+<titlePart type="main">Kommentarer til Utvalgte dikt av Claus Fasting</titlePart>
+</docTitle>
+</titlePage>
+</front>
+<body>
+<div>
+<head>Kommentarer til Claus Fasting, Utvalgte dikt, bokselskap.no</head>
+<p>Aina N&#x00F8;ding</p>
+<div type="chapter" subtype="intro">
+<head>Introduksjon til Fastings dikt</head>
+<p>Fastings dr&#x00F8;m var &#x00E5; arbeide for teateret og skrive dramatikk. I stedet ble det poesien og tidsskriftarbeidet som ble hans fremste litter&#x00E6;re karriere. Fastings poesiproduksjon er omfattende og spenner over en rekke diktsjangre og mange &#x00E5;r av hans liv. I alt kjenner vi til over 170 dikt fra hans h&#x00E5;nd. 55 av disse har aldri v&#x00E6;rt trykt. I tillegg kjenner vi til over 30 som er tapt eller hvor det er usikkert hvem som er forfatteren. Blant Fastings dikt finner vi epigrammer, leilighetsdikt (dikt skrevet til en spesiell anledning), naturlyrikk, satirer, fabler, avis p&#x00E5; vers, drikke- og selskapsviser.</p>
+<p>De tidligste diktene vi kjenner til, skrev han omkring 1765, alts&#x00E5; som 18-19-&#x00E5;ring. Det siste med sikker datering er fra 1790, &#x00E5;ret f&#x00F8;r han d&#x00F8;de. Han skrev dikt hele sitt voksne liv, men hovedtyngden skrev han i 1770-&#x00E5;rene, da han var medlem av Det norske Selskab i K&#x00F8;benhavn. Drikkeviser, sanger og epigrammer var del av selskapets samv&#x00E6;rsform. I tillegg utfordret de hverandre til &#x00E5; skrive dikt over ulike temaer eller hendelser. </p>
+<p>Fasting oversatte dessuten dikt fra latin, engelsk, fransk og tysk, hvorav vi kjenner til 25-30 titler (enkelte er det usikkert om Fasting forfattet selv eller ikke). Noen er av kjente forfattere som Voltaire, Rousseau, Lessing og Horats, mens andre er hentet fra popul&#x00E6;re diktantologier. De fleste av dem ble publisert i hans tidsskrift <title>Provinzialblade</title> 1778-79. Til hans st&#x00F8;rre oversetterarbeider h&#x00F8;rer C.M. Wielands <title>Musarion, eller Gratiernes Philosophie</title>, som ble utgitt i bokform i 1776. </p>
+<p>Noen foregangsperson for nymotens lyrikk var Fasting ikke. Han hold fast p&#x00E5; de klassiske idealene fra antikken og den franske klassisismen. Dette var idealer han delte med de andre medlemmene av Det norske Selskab. Fastings dikt ble derfor fort regnet som gammeldags. Bare i epigramformen beholdt han et ry som skarp og vittig poet utover sin egen tid. </p>
+<p>Fasting utga aldri noen diktsamling. Diktene hans ble utgitt i mange ulike medier og sammenhenger, noe som var helt vanlig i perioden. De ble trykt i aviser og tidsskrifter, de ble fremf&#x00F8;rt, med og uten musikk, i selskaper og klubber han deltok i. Dikt om avd&#x00F8;de personer ble trykt, fremf&#x00F8;rt og sirkulert som del av tidens begravelsesskikker. En del dikt sirkulerte kun som manuskripter blant venner. Fasting var med andre ord en dikter for b&#x00E5;de private og mer offentlige anledninger, s&#x00E5; vel som av hva vi kan kalle kunstpoesi. I sin hjemby Bergen levde hans diktning videre i mange ti&#x00E5;r, b&#x00E5;de gjennom Det harmoniske selskaps sang, som ble sunget til langt ut p&#x00E5; 1800-tallet, og hans vektervers til klokken ti, som vekterne sang hver kveld i Bergens gater. Ogs&#x00E5; noen av hans epigrammer var vittige formuleringer som folk kunne utenat. </p>
+<p>En del av Fastings dikt ble samlet av hans gudbarn og biograf, Lyder Sagen, i hans utgivelse <title>Udvalg af Claus Fasting forhen trykte og utrykte Skrifter</title> (1837). Da hadde Sagen lenge planlagt en utgave av Fastings samlede dikt, i samarbeid med den danske litteraten Knut Lyhne Rahbek, men en slik samling utkom aldri. En avskrift av Sagens manuskript til samlingen befinner seg i Nasjonalbiblioteket (Ms 4to 2580). </p>
+<p>Diktene til Fasting var kjent og mye lest (og sunget) i hans samtid. Hans store produksjon gir et godt bilde av bredden i 1700-tallets poesi, b&#x00E5;de hva gjelder sjangre, men ogs&#x00E5; bruksomr&#x00E5;der og utbredelse. Gjennom diktene hans blir vi kjent med tidens personer, selskapskultur, musikk, skikker, kunstsyn og ikke minst humor. </p>
+<p>Tekstene i dette utvalget av Fasting-dikt er med ett unntak hentet fra bind 1 og 2 av Sverre Flugsruds utgave av Fastings <title>Samlede skrifter</title> (3 bind utgitt 1963-1979 av Norsk Spr&#x00E5;k- og Litteraturselskap/Gyldendal norsk Forlag). Et fjerde bind med flere Fasting-tekster, samt kommentarer, var planlagt, men ble aldri utgitt. De f&#x00F8;lgende kommentarene er et f&#x00F8;rste fors&#x00F8;k p&#x00E5; &#x00E5; b&#x00F8;te p&#x00E5; det. Spr&#x00E5;kkommentarene er i hovedsak basert p&#x00E5; <title>Ordbog for det danske Sprog</title> (Det danske Sprog- og Litteraturselskab, nettutgaven &#x005B;http://ordnet.dk/ods/&#x005D;).</p>
+</div>
+<div type="chapter" subtype="commentary" n="1">
+<head>Det harmoniske Selskabs Sang</head>
+<p>Sangen er skrevet til Det harmoniske Selskab i Bergen. Selskapet ble stiftet 8. oktober 1765 som en musikkforening som ga offentlige konserter, men ble n&#x00E6;rmest startet p&#x00E5; nytt h&#x00F8;sten 1769. Fasting var i perioder fra 1769 et aktivt medlem i foreningen og spilte klaver (Sagen 1837, 12-13; Berg og Mosby 1945, 30). Sangen ble f&#x00F8;rste gang fremf&#x00F8;rt 11. oktober 1769, i anledning selskapets f&#x00F8;rste konsert for sesongen, &#x00AB;hvor der i N&#x00E6;rv&#x00E6;relse af mange fornemme Stands-Personer, blev, foruden anden instrumental og vocal Musik, under Accompagnement af Cithars, opf&#x00F8;rt f&#x00F8;lgende Aria &#x005B;d.e. Fastings sang&#x005D;&#x00BB; (<title>Efterretninger Fra Addresse-Contoiret i Bergen i Norge</title> 16. oktober 1769, s. 3). Hvilken melodi den hadde, opplyses ikke der, men i 1777 trykkes den i antologien <title>Arier og Sange</title> (som nr. 60, bd. 2; Graae, K&#x00F8;benhavn), hvor det st&#x00E5;r at melodien er &#x00AB;Vivo Bacho autor del vino&#x00BB;. Denne sangen stammet fra operaen <title>La cascina</title> (libretto av C. Goldoni, 1755), tonesatt av G. Scoleri, men ogs&#x00E5; andre. </p>
+<p>Sangen er gjengitt her etter <title>Efterretninger Fra Addresse-Contoiret i Bergen i Norge</title> 16. oktober 1769, s. 3. </p>
+<list>
+<item>1.4. Harmonie&#x005D; musikalsk velklang, musikk, jf. navnet <hi rend="italic">Det harmoniske Selskab</hi></item>
+<item>2.1. Damons&#x005D; hyrdenavn fra Vergils <title>Eklóge</title> nr. 8; mye benyttet i hyrdediktning</item>
+<item>2.1. ki&#x00E6;lne&#x005D; &#x00F8;mme; elskovsfulle</item>
+<item>2.2. Cloris&#x005D; Navnet er kjent fra gresk mytologi og forekommer ofte i hyrdediktning. </item>
+<item>3.1. Scener, Verden spiller&#x005D; Verden som en scene eller et teater, <hi rend="italic">theatrum mundi</hi>, var en kjent metafor, som stammer fra antikken. </item>
+<item>3.2. Grillicander&#x005D; ord skapt av Christian B. Tullin (1728-65) i diktet &#x00AB;Grillicander&#x00BB;. Betegner en person som har griller i hodet, er konstant urolig for mulig motgang. </item>
+<item>3.2. driller&#x005D; kan bety enten narre, plage eller irritere i denne sammenhengen</item>
+<item>4.1. Orpheus&#x005D; Orfevs fra Thrakia. Skikkelse fra gresk mytologi, kjent for sine unike ferdigheter som musiker og sanger. If&#x00F8;lge myten dro Orfevs ned til d&#x00F8;dsriket for &#x00E5; hente tilbake sin avd&#x00F8;de hustru, Evrydike. Ved hjelp av sin musikk lyktes han i &#x00E5; overtale guden over d&#x00F8;dsriket til &#x00E5; slippe Evrydike ut, men bare p&#x00E5; betingelse av at Orfevs ikke snudde seg og s&#x00E5; p&#x00E5; henne f&#x00F8;r de var ute. I de tidligste versjonene av myten skal det ha lyktes, men i senere tradisjon snudde han seg da de nesten var kommet ut og tapte Evrydike for alltid. I litteraturen kjennes historien best fra Ovids <title>Metamorfoser</title>, bok 10, v. 1-107 og Vergils <title>Georgica</title>, bok 4, v. 453-558. </item>
+<item>4.1. Plutons&#x005D; Pluton (el. Hades) var gud over underverdenen/d&#x00F8;dsriket. Jf. kommentar til v. 4.1. &#x00AB;Orpheus&#x00BB;.</item>
+<item>4.2. Furierne&#x005D; &#x00C5;nder i kvinneskikkelse i gresk-romersk mytologi, som representerte rettferdighet, straff, hevn/gjengjeldelse. I Vergils <title>Georgica</title>, bok 4, v. 482-83 heter det at ogs&#x00E5; furiene ble grepet av Orfevs' sang i d&#x00F8;dsriket; hos Ovid at furiene gr&#x00E5;t (<title>Metamorfoser</title>, bok 10). Jf. kommentar til v. 4.1. &#x00AB;Orpheus&#x00BB;.</item>
+<item>4.3. Luthes&#x005D; Lutt er et strengeinstrument (forl&#x00F8;per for gitaren), s&#x00E6;rlig brukt i Europa i tidligmoderne tid (1400-1700-tallet) som akkompagnement til sang. I Ovids <title>Metamorfoser </title>akkompagnerer Orfevs sin sang med lyre (bok 11, om Orfevs' d&#x00F8;d). </item>
+<item>5.2. kom da os at h&#x00F8;re&#x005D; Kan leses som en oppfordring til &#x00E5; komme p&#x00E5; Det harmoniske Selskabs kommende konserter. </item>
+<item>5.3. Vi vil udi Skioldet f&#x00F8;re&#x005D; Det harmoniske Selskab har vennskap, dyd og harmoni til hensikt. </item>
+<item>6.3. rygge&#x005D; (kan) rokke (ved), rugge; med andre ord: v&#x00E5;pen som gir d&#x00E5;rene urokkelig motstand  </item>
+<item>6.4. jers&#x005D; deres, alts&#x00E5; tilh&#x00F8;rernes</item>
+</list>
+</div>
+<div type="chapter" subtype="commentary" n="2">
+<head>Da jeg var frisk</head>
+<p>Diktet er et gjensvar til Johannes Ewalds (1743-81) dikt, &#x00AB;Da jeg var syg&#x00BB;, som hadde st&#x00E5;tt p&#x00E5; trykk i K&#x00F8;benhavns adresseavis 25. september 1771, nr. 157 (se diktet &#x005B;http://adl.dk/adl_pub/pg/cv/ShowPgImg.xsql?p_udg_id=201&#x0026;p_sidenr=115&#x0026;hist=fmD&#x0026;nnoc=adl_pub&#x0026;#x005D; i Arkiv for dansk litteratur). Fastings svar sto i samme avis den 27. september, nr. 158, 1771. Diktet synliggj&#x00F8;r og kommenterer konflikten mellom den klassiske og muntre poesien, som Fasting sto for, og den nye personlige, melankolske og f&#x00F8;lsomme diktningen som Ewald innevarslet. </p>
+<p>Diktet ble senere trykt i <title>Kritisk Journal</title> nr. 36 1771, 286-87 og i <title>Det bergenske Magazin</title> for november 1772, jf. Fastings anmeldelse &#x005B;http://www.bokselskap.no/boker/fastingartikler/detbergenskemagazin&#x005D; av dette tidsskriftet i <title>Kritisk Journal</title> nr. 50, 1773, 531. Fastings manuskriptutkast skal finnes i Universitetsbiblioteket i Bergens Spesialsamlinger (Gustav Thomassens gave) (Bull 1915, 167). </p>
+<list>
+<item>1 Philet&#x005D; Johannes Ewald (1743-1781), dansk dikter. Ewald hadde i 16. september 1770 skrevet diktet &#x00AB;Philet en Fort&#x00E6;lning&#x00BB;. Diktet var en klagesang etter at Ewalds mesen, grev Johann Hartwig Ernst von Bernstorff (1712-1772), hadde falt fra makten dagen f&#x00F8;r. I 1771 utga Ewald ogs&#x00E5; &#x00AB;Philets Forslag om Pebersvendene&#x00BB;, en trykkefrihetssatire over synet p&#x00E5; familie og oppdragelse som statens grunnmur. Navnet Philet kan henspille p&#x00E5; den greske dikteren Philitas (el. Philetas) fra Kos (ca. 330-270 f.Kr.) (Kielberg 1998, 229). Det kan ogs&#x00E5; henspille p&#x00E5; betydningen av navnet (Filetos): &#x00AB;den som er verdig &#x00E5; bli elsket&#x00BB;. Jf. ogs&#x00E5; Fastings epigram &#x00AB;Til Philet&#x00BB; (Fasting 1837, 365). </item>
+<item>2 Qv&#x00E6;kers&#x005D; kvekers (medlem av Vennenes Samfunn). &#x00AB;Qv&#x00E6;kers Roes&#x00BB; kan sikte til Ewalds vektlegging av gudsfrykt, stille b&#x00F8;nn og pasifisme i sitt dikt. Jf. ogs&#x00E5; bruk av Ewalds imperativ &#x00AB;skielv!&#x00BB; og opphavet til kvekernes kallenavn &#x00AB;Quakers&#x00BB;, etter verbet &#x00AB;quake&#x00BB; (skjelve &#x005B;for Gud&#x005D;). </item>
+<item>4 Montezumer&#x005D; flertallsform laget av Fasting over navnet Montezuma. Montezuma II (f. ca. 1466), aztekerkonge drept i 1520 av spanierne under deres erobring av Mexico. Montezuma var i litteraturen kjent gjennom bl.a. Voltaires skuespill <title>Alzire</title> (1736) og Holbergs <title>Helte-Historier</title> (1739). Ewald ford&#x00F8;mmer i sitt dikt jakt p&#x00E5; gull. </item>
+<item>9 Ven&#x005D; refererer til Ewalds dikt &#x00AB;Da jeg var syg&#x00BB;, v. 47: &#x00AB;Og Mangel - du som togst min sidste Ven,&#x00BB;. Sikter sannsynligvis til grev Bernstorff, dansk-tysk statsmann og Ewalds mesen, som ble avskjediget av Struensee 15. september 1770, jf. Ewalds dikt &#x00AB;Philet&#x00BB; og kommentar til v.1 &#x00AB;Philet&#x00BB; (over). </item>
+<item>13 Lucindes&#x005D; vanlig navn i hyrdediktningen</item>
+<item>15 Cloer&#x005D; Fastings flertallsform av Khloe, hyrdinne kjent fra Longos' romantiske fortelling <title>Dafnis og Khloe</title> (2. &#x00E5;rh. e.Kr.). </item>
+<item>15 Prosperpiner&#x005D; flertallsform laget av Fasting over navnet Prosperpina, som var romersk gudinne (gr. Persefone) forbundet med v&#x00E5;ren og &#x00E5;rstidenes skiftninger generelt. Som hustru til Pluton (el. Hades), underverdenens hersker, m&#x00E5;tte hun tilbringe halve &#x00E5;ret i d&#x00F8;dsriket. </item>
+<item>16 Horaz&#x005D; Horats (Qvintus Horatius Flaccus, 65-8 f.Kr.), romersk dikter. S&#x00E6;rlig ber&#x00F8;mt for sine oder, som har st&#x00E5;tt som de fremste gjennom Vestens litteraturhistorie. </item>
+<item>17 Lethe&#x005D; i gresk mytologi en elv i d&#x00F8;dsriket. Vannet fikk de d&#x00F8;de til &#x00E5; glemme livet p&#x00E5; jorden. </item>
+<item>19 Antidot&#x005D; motgift </item>
+<item>19 Sonnet&#x005D; lyrisk dikt p&#x00E5; 14 linjer, med fast rimm&#x00F8;nster. Var tradisjonelt en sjanger for kj&#x00E6;rlighetsdikt. </item>
+<item>20 Torrys&#x005D; Kan referere til den danske operaens italienske primadonna, Teresa Torre (Overskou 1856, 408, 444). </item>
+<item>20 dine Vers&#x005D; Ewalds dikt. Uklart om Fasting sikter til noen spesielle. </item>
+<item>21 Rabners&#x005D; Gottlieb Wilhelm Rabener (1714-71), tysk forfatter og satiriker</item>
+<item>21 Skierts&#x005D; skerts, dvs. sp&#x00F8;k</item>
+<item>22 Emilia&#x005D; representerer &#x00AB;venninne&#x00BB; generelt</item>
+<item>24 David&#x005D; en allusjon til den bibelske kongen og salmedikteren David. Kan her sikte til Johann Andreas Kirchhoff (1722-99), nylig ansatt harpist ved hoffet og i Den kongelige danske Skueplads' kapell &#x005B;orkester&#x005D; (DBL). I anmeldelsen av <title>Soleiman II</title> (jf. kommentar til &#x00AB;Roxelanes Dom"), skriver <title>Dramatisk Journal</title> for 24. og 28.10.1771: &#x00AB;&#x2013; vi savnede Hr. Kirkof, hvis Harpe er en uundv&#x00E6;rlig Dyd ved dette Stykke, og som henrykker enhver Tilskuer&#x00BB;. Stykket selv ble hardt bed&#x00F8;mt. Overskou fremhever Kirchhoff som en mesterlig solist, som publikum elsket, og som dermed bidro til at franske syngespill ble foretrukket fremfor opera (1856, 455). </item>
+<item>25 Roxelanes Dom&#x005D; Roxolana, eller Roxelana (f. ca. 1505 i Ukraina, d. 1558. Navnet Roxelana gitt av europeere, henspilte p&#x00E5; russisk herkomst. Het Hürrem i Tyrkia). Suleiman Is favorittkone. Gjenstand for en rekke litter&#x00E6;re verk og musikkstykker p&#x00E5; 1500-, 1600- og 1700-tallet i Europa. Blant de mest kjente f&#x00F8;r 1771 var en fortelling i Montesquieus <title>Lettres persanes</title> (1721) og i Marmontels <title>Contes moreaux</title> (1761), Favarts syngespill <title>Soliman II</title>, <title>Les trois sultanes</title> (1761; basert p&#x00E5; Marmontels fortelling) og operaen av David Perez <title>Solimano</title> (1757/68) (Yermolenko (red.) 2010). Refererer her sannsynligvis til Favarts syngespill (musikk av G. Sarti), som ble satt opp i K&#x00F8;benhavn sesongen 1770-71 og 1771-72 (Overskou 1856, 434ff, 459ff). Stykket oppn&#x00E5;dde stor suksess, f&#x00F8;rst og fremst p&#x00E5; grunn av musikken, jf. kommentar til v. 24 &#x00AB;David&#x00BB;. </item>
+<item>26 Bal <hi rend="italic">par&#x00E9; en Domino</hi>&#x005D; <hi rend="italic">bal par&#x00E9;</hi> (fr.), praktball, gjerne holdt ved hoffet, men kunne v&#x00E6;re &#x00E5;pent for alle stender. <hi rend="italic">Domino</hi> var et stort, kappelignende klesplagg, med hette, som ble b&#x00E5;ret ved <hi rend="italic">bal par&#x00E9;</hi> og maskeball. &#x005B;bilde&#x005D;  </item>
+<item>27 <hi rend="italic">t&#x00EA;te &#x00E0; t&#x00EA;te incognito</hi>&#x005D; hemmelig (romantisk) m&#x00F8;te p&#x00E5; tomannsh&#x00E5;nd</item>
+<item>28 <hi rend="italic">Pas de deux</hi>&#x005D; pardans i klassisk ballett</item>
+<item>28 <hi rend="italic">Du Tellier</hi>&#x005D; en danser ved dette navnet er ikke kjent i K&#x00F8;benhavn i denne perioden. Kan v&#x00E6;re en feilstavelse av navnet til Den kongelige danske Skueplads' (og kongens franske Hoftheaters) f&#x00F8;rstedanserinne, Mad. Mimi Dutillet (f. Prin), som var allment h&#x00F8;yt beundret og bar tilnavnet &#x00AB;den Uforlignelige&#x00BB; (Overskou 1856, 384, 399, 451). Charlotta D. Biehl omtaler henne som Mad. du Tellie (Biehl 1986, 120). </item>
+<item>29 to Parterrer&#x005D; publikum som har plass i parterre (rimelige plasser p&#x00E5; gulvet i teatersalen); publikum generelt. If&#x00F8;lge Henriques &#x005B;1948&#x005D; hadde Den kongelige danske Skueplads mot slutten av 1700-tallet to faste, separate publikumsgrupper i parterre, sm&#x00E5;borgere og studenter/intellektuelle (s. 40-42). Det er uklart der om det ogs&#x00E5; gjaldt begynnelsen av 1770-&#x00E5;rene, men parterre var forbeholdt samfunnets lavere stender. Parterret hadde i 1771 350 plasser, b&#x00E5;de st&#x00E5;- og sitteplasser (Hansen 1889, 177). </item>
+<item>30 Lorgnet&#x005D; brille eller teaterkikkert</item>
+<item>31 Zayre&#x005D; sannsynligvis verstragedien <title>Zaïre</title> (1732) av Voltaire. Stykket ble satt opp p&#x00E5; dansk i K&#x00F8;benhavn 25 ganger fra 1756-57 til 1784-85, oversatt av B.J. Lodde. Var sist satt opp i K&#x00F8;benhavn i november 1770 p&#x00E5; Den kongelige danske Skueplads, kanskje med Fasting til stede, jf. kommentar til &#x00AB;Zaïre&#x00BB; i essayet &#x00AB;&#x005B;Responsum over Skuespil&#x005D;&#x00BB; &#x005B;http://www.bokselskap.no/boker/fastingartikler/responsum&#x005D; (1781). Den ble ogs&#x00E5; satt opp p&#x00E5; fransk av franske trupper og utgitt p&#x00E5; fransk i K&#x00F8;benhavn av byens franske forleggere (Hertel 1997, 337-38; Overskou 1856, 434). </item>
+<item>41 min romanske Elv&#x005D; Sikter sannsynligvis til Fastings forkj&#x00E6;rlighet for den klassiske (latinske) tradisjonen, s&#x00E5; vel som den franske litteraturen. </item>
+<item>45 Gleim&#x005D; Johann Wilhelm Ludwig Gleim (1719-1803), tysk dikter. Kjent for sine sanger om piker og vin, i tradisjonen etter den greske dikteren Anakreon, og for sine oder etter m&#x00F8;nster av den romerske dikteren Horats. </item>
+<item>45 Germaniens&#x005D; Tyskland (Det tysk-romerske riket). </item>
+<item>54 den Gift som raser i din Barm&#x005D; parafrase av verslinjen i Ewalds dikt &#x00AB;Da jeg var syg&#x00BB;: &#x00AB;Velkommen Gift, som raser i mit Bryst!&#x00BB; </item>
+</list>
+</div>
+<div type="chapter" subtype="commentary" n="3">
+<head>Fragment av et Digt om Foraaret, avbrudt i aaret 1774 i Ki&#x00F8;benhavn</head>
+<p>Fasting oppholdt seg i K&#x00F8;benhavn 1770-1777, og var da et sentralt medlem i Det norske Selskab. Diktet er nedtegnet i Det norske Selskabs versprotokoll (etter 30. april 1774; NKS 488e 2°, 101-103), sammen med Petter Brandts v&#x00E5;rdikt. Andre medlemmer av Det norske Selskab skrev tilsvarende dikt: E. Colbi&#x00F8;rnsen &#x00AB;Foraaret&#x00BB; (utgitt i selskapets <title>Poetiske Samlinger</title> 1775) og J.H. Wessel &#x00AB;Vaaren&#x00BB; (fragment). Dikt om v&#x00E5;ren var h&#x00F8;yt aktet i samtidens Europa. I tillegg til klassiske forelegg, som Horats' oder, var J. Thompsons &#x00AB;Spring&#x00BB; i <title>The Seasons</title> (1728), E. von Kleist &#x00AB;Der Frühling&#x00BB; (1749), C.B. Tullins &#x00AB;Majdagen&#x00BB; (1758) og J.-F. Saint-Lamberts &#x00AB;Le printemps&#x00BB; i <title>Les Saisons</title> (1769) viktige forbilder. Fastings dikt er skrevet p&#x00E5; aleksandrinere (jambisk trimeter). </p>
+<p>Diktet ble trykt (med en del endringer) i <title>Provinzialblade</title> nr. 23, 1778, 177-180, som sannsynligvis utkom i mai det &#x00E5;ret. Det er den siste versjonen som er gjengitt her. </p>
+<p> &#x005B;v&#x005D; I versprotokollen har diktet tittel &#x00AB;Foraaret.&#x00BB;. Det har videre et motto av Tullin, fra &#x00AB;Majdagen&#x00BB;: &#x00AB; - men Vaaren, hvad skal den da v&#x00E6;re &#x2013;&#x00BB; (NKS 488e 2°, 101; Norske Selskab 1935, 80). </p>
+<list>
+<item>3.1. mine F&#x00E6;dres Land&#x005D; Norge. I sin anmeldelse &#x005B;www.bokselskap.no/boker/fastingartikler/poetiskesamlinger&#x005D; av Det norske Selskabs <title>Poetiske Samlinger</title> (utgitt 1775), og der av E. Colbi&#x00F8;rnsens dikt &#x00AB;Foraaret&#x00BB;, roser Fasting bruken av den norske naturen som motiv. Liv Bliksrud (1999, 140-143) leser hyllesten av det norske i Colbi&#x00F8;rnsens og Fastings v&#x00E5;rdikt som uttrykk for en forbindelse mellom det erotiske, emosjonelle og det nasjonale, snarere enn uttrykk for en ny gryende nasjonalistisk bevissthet. </item>
+<item>4.8. Orienten&#x005D; &#x00F8;st</item>
+<item>4.13. Honningambra&#x005D; <hi rend="italic">ambra</hi>: velluktende stoff, balsam</item>
+<item>4.14. Daphnes&#x005D; vanlig hyrdinnenavn i pastoraler</item>
+<item>5.5. Atlas Bierg&#x005D; stort fjell. Jf. Atlas-fjellene i Marokko, som har navn etter titanen Atlas ("han som b&#x00E6;rer/utholder"). If&#x00F8;lge myten ble han forvandlet til stein og holder himmelen oppe. </item>
+<item>5.10. Aquiloner&#x005D; nordavinder. Av lat. <hi rend="italic">aquilo</hi>: nordavind. </item>
+<item>5.11. ziiret&#x005D; pyntet </item>
+<item>6.3. alle V&#x00E6;sners Moder&#x005D; Moder Jord</item>
+<item>6.8. Falerners Viin&#x005D; falernovin. Eksklusiv, sterk vin, produsert i romertiden i distriktet Falerno (Campania), ved Napoli. Besynges i Horats' oder. </item>
+</list>
+</div>
+<div type="chapter" subtype="commentary" n="4">
+<head>Den kierlige Mand</head>
+<p>Epigram trykt i <title>Provinzialblade</title> nr. 2, 1778, 16. </p>
+<list>
+<item> &#x005B;v&#x005D; Den kierlige Mand&#x005D; I en avskrift ved Nasjonalbiblioteket av et manuskript til en samleutgave av Fastings dikt (NBO Ms 4to 2580) har diktet tittel &#x00AB;B&#x00F8;nnen&#x00BB;.</item>
+</list>
+</div>
+<div type="chapter" subtype="commentary" n="5">
+<head>Til Skuespilskrivere</head>
+<p>Diktet er skrevet ca 1772-73, som et bidrag i Det norske Selskap til &#x00E5; skrive et dikt over mottoet &#x00AB;Omne tulit punctum, qui miscuit utile dulci&#x00BB; (jf. kommentar til v.1 &#x00AB;nytter og forn&#x00F8;yer&#x00BB; under). Fasting skrev selv og oversatte flere skuespill f&#x00F8;r 1773: I 1767 en oversettelse av Gessners <title>Evander og Alcimna</title>, 1770 <title>Et musicalsk Hyrde-Stykke</title> (<title>Pans Fest</title>), 1771 <title>Hermione. Et S&#x00F8;rgespil i fem Optog</title> og 1773 en oversettelse av Saurins <title>Modens S&#x00E6;der</title>. </p>
+<p>Manuskript (avskrift) fins i Det norske Selskabs versprotokoll (NKS 488e 2°, 79; se ogs&#x00E5; Norske Selskap 1935, 62). De f&#x00F8;rste &#x00E5;tte verslinjene ble trykt i <title>Kritisk Journal</title> nr. 50, 1773, 530, i Fastings anmeldelse &#x005B;http://www.bokselskap.no/boker/fastingartikler/detbergenskemagazin&#x005D; av <title>Det bergenske Magazin</title>. Hele diktet ble trykt i <title>Provinzialblade</title> nr. 41, 1778, 321. </p>
+<list>
+<item> &#x005B;v&#x005D; Til Skuespilskrivere&#x005D; Tittelen fins f&#x00F8;rst i <title>Provinzialblade</title> nr. 41, 1778, 321. </item>
+<item>1 nytter og forn&#x00F8;yer&#x005D; jf. &#x00E5; blande &#x00AB;utile dulci&#x00BB; (det nyttige med det behagelige), idealet for poesi formulert av Horats i <title>Ars Poetica</title>, v. 343 (ca. 18 f.Kr.). </item>
+<item>4 Demants&#x005D; diamant, fra tysk <hi rend="italic">demant</hi> </item>
+<item>6 den blinde Hob&#x005D; (nedsettende om) gruppen av alminnelige mennesker, uten selvstendig kunnskap eller meninger</item>
+<item>7 Voltaire&#x005D; François-Marie Arouet Voltaire (1694-1778), fransk forfatter</item>
+<item> &#x005B;v&#x005D; 8 Klairon&#x005D; i <title>Kritisk Journal</title> skrevet &#x00AB;Clairon&#x00BB;, jf. kommentar til tittel. I <title>Provinzialblade</title> gikk Fasting konsekvent over til &#x00E5; skrive navn p&#x00E5; C med K. </item>
+<item>8 Klairon&#x005D; Sannsynligvis Mlle. Clairon (ogs&#x00E5; kalt La Clairon og Hippolyte Clairon, eg. Claire-Josèphe-Hippolyte L&#x00E9;ris De La Tude), fransk skuespillerinne (1723-1803). Var en av Frankrikes fremste skuespillere frem til hun sluttet i 1766. Spilte i flere stykker av Voltaire, som <title>L'Orphelin de Chine</title> og <title>Tancrède</title>. </item>
+<item>10 Shakspear&#x005D; William Shakespeare (1564-1616), engelsk dramatiker. Fastings stavem&#x00E5;te av navnet var ikke uvanlig p&#x00E5; den tiden. </item>
+<item>10 Moliere&#x005D; Jean-Baptiste Poquelin Molière (1622-1673), fransk komedieforfatter</item>
+</list>
+</div>
+<div type="chapter" subtype="commentary" n="6">
+<head>(Over et Syngespil, hvortil Poesien var av et Fruentimmer)</head>
+<p>Epigram, sannsynligvis skrevet i 1770-&#x00E5;rene. Trykt i <title>Provinzialblade</title> nr. 41, 1778, 322. Det er ikke kjent om epigrammet henviser til virkelige personer. </p>
+</div>
+<div type="chapter" subtype="commentary" n="7">
+<head>Korinna</head>
+<p>Epigram. Trykt i <title>Provinzialblade</title> nr. 41, 1778, 322. </p>
+<list>
+<item>1 Korinna&#x005D; Corinna, navnet p&#x00E5; Ovids kvinnelige muse og kj&#x00E6;rlighetsobjekt i <title>Amores</title> (<title>Kj&#x00E6;rlighetseventyr</title>, gjendiktet til norsk i 2002 av Thea Selliaas Thorsen). </item>
+<item>3 Venus&#x005D; kj&#x00E6;rlighetens gudinne i romersk mytologi; tilsvarer Afrodite i gresk mytologi, som ogs&#x00E5; var knyttet til skj&#x00F8;nnhet og seksualitet. </item>
+</list>
+</div>
+<div type="chapter" subtype="commentary" n="8">
+<head>Til en smuk J&#x00F8;depige</head>
+<p>Diktets &#x00AB;J&#x00F8;depige&#x00BB; skal ha v&#x00E6;rt en Hanne Levy. Diktet kan dateres til omkring 1773-74 (Wessel 1862, 310). J.H. Wessel skrev et dikt om Levy i samme periode, jf. fragmentet &#x00AB;Om en J&#x00F8;depige&#x00BB; (Wessel 1862, 245 og 310; se Arkiv for dansk litteratur &#x005B;http://adl.dk/adl_pub/vaerker/cv/e_vaerk/e_vaerk.xsql?ff_id=15&#x0026;id=927&#x0026;hist=fmO&#x0026;nnoc=adl_pub&#x0026;#x005D;).</p>
+<p>Diktet ble trykt i <title>Provinzialblade</title> 1779, nr. 24, 185-187, i den formen som er gjengitt her. Det nummeret ble ikke redigert av Fasting. Det presenterer en rekke dikt fra Fastings manuskripter, hvorav Fasting hadde planlagt ikke &#x00E5; utgi to av dem (uvisst hvilke) (<title>Provinzialblade</title> 1779, 185). Da Lyder Sagen planla en utgivelse av Fastings dikt i 1809, ble diktet foresl&#x00E5;tt utelatt (NBO Ms 4to 2580, &#x00AB;Anm&#x00E6;rkninger (Til Rahbek)&#x00BB;, &#x005B;1&#x005D;), og det kom ikke med i Sagens utgivelse av Fastings skrifter i 1837.</p>
+<list>
+<item>&#x005B;v&#x005D; Til en smuk J&#x00F8;depige&#x005D; Diktet er f&#x00F8;rst kjent fra Det norske Selskabs versprotokoll, hvor det har tittelen &#x00AB;Til en smuk Israelitinde&#x00BB; (NKS 488e 2°, 81-82; se ogs&#x00E5; Norske Selskab 1935, 64). </item>
+<item>1 Levidatter&#x005D; datter av Levi stamme, dvs. j&#x00F8;de. Levi var tredje s&#x00F8;nn av Jakob og Leah. Hans etterkommere var s&#x00E6;rlig knyttet til prestegjerningen if&#x00F8;lge Det gamle testamentet (4. Mosebok, kapittel 3 og 4). Levitt betegnet derfor s&#x00E6;rlig j&#x00F8;disk prest eller tempeltjener. Henspiller ogs&#x00E5; p&#x00E5; etternavnet til Hanne Levy. </item>
+<item> &#x005B;v&#x005D; 2 munter&#x005D; opprinnelig sto det &#x00AB;vantroe&#x00BB; (NKS 488e 2°; Norske Selskab 1935, 64), dvs. ikke-kristen. Det er ikke kjent hvem som har foretatt endringen, jf. kommentar til tittelen. </item>
+<item>7 Forj&#x00E6;ttelser&#x005D; l&#x00F8;fter, s&#x00E6;rlig i religi&#x00F8;s sammenheng. &#x00AB;Din Sl&#x00E6;gts Forj&#x00E6;ttelser&#x00BB;: Guds l&#x00F8;fter til j&#x00F8;dene. </item>
+<item>15 Luth&#x005D; strengeinstrumentet lutt; forl&#x00F8;per for gitaren, s&#x00E6;rlig brukt i Europa i tidligmoderne tid (1400-1700-tallet). Lutten egner seg for &#x00E5; spille melodilinjer, i likhet med tangentinstrumentene som utover p&#x00E5; 1700-tallet overtok luttens rolle som instrument for akkompagnement av sang. </item>
+<item>25 uomskaaren&#x005D; ikke omsk&#x00E5;ret, dvs. kristen/ikke-j&#x00F8;disk. </item>
+<item>27 Iskariot&#x005D; forr&#x00E6;der. Henspiller p&#x00E5; Jesu disippel Judas Iskariot, som forr&#x00E5;dte Jesus overfor romerne for 30 s&#x00F8;lvpenger, se f.eks. Matteus 10, 4; 26, 14-16 og 47-50; 27, 3-5. I diktet blir det et poeng at &#x00AB;forr&#x00E6;deren&#x00BB; er j&#x00F8;disk (som Judas) og selv er omsk&#x00E5;ret. </item>
+<item>28 a priori vise&#x005D; &#x00AB;fra det som er forut&#x00BB; (lat.); &#x00E5; bevise noe logisk, basert p&#x00E5; gitte &#x00E5;rsaker (viten som er uavhengig av erfaring). </item>
+</list>
+</div>
+<div type="chapter" subtype="litlist" n="1">
+<head>Litteratur</head>
+<list>
+<item>Berg, Adolph og Olav Mosby. 1945. <title>Musikselskabet Harmonien 1765-1945</title>. Bind I. John Griegs boktrykkeri, Bergen. </item>
+<item>Biehl, Charlotta D. 1986. <title>Mit ubetydelige Levnets L&#x00F8;b</title>, udgivet efter originalmanuskript af Marianne Alenius. Museum Tusculanum, K&#x00F8;benhavn</item>
+<item>Bull, F. 1915. &#x00AB;Manuskripter av Claus Fasting&#x00BB;, <title>Edda</title> b. 4, s. 166-168</item>
+<item>DBL - <title>Dansk biografisk Lexikon</title>, red. C.F. Bricka. Gyldendal, K&#x00F8;benhavn (1887-1905) i digital utgave: &#x005B;http://runeberg.org/dbl&#x005D;</item>
+<item>Fasting, Claus. 1837. <title>Udvalg af Claus Fastings forhen trykte og utrykte Skrifter, med Bidrag til hans Biographie af L. Sagen</title>. Chr. Dahl, Bergen. </item>
+<item>Hansen, P. 1889. <title>Den danske Skueplads. 1ste Del</title>. Ernst Bojesens Forlag, K&#x00F8;benhavn</item>
+<item>Henriques, Alf. &#x005B;1948&#x005D; <title>Teatret paa Kongens Nytorv : 1748-1948</title>. Berlingske Forlag, K&#x00F8;benhavn</item>
+<item>Hertel, Hans. 1997. &#x00AB;Den frosne Spottefugl. Voltaire og hans arv i dansk &#x00E5;ndsliv 1740-1870&#x00BB; i <title>Digterens paryk. Studier i 1700-tallet</title>, red. M. Alenius et al. Museum Tusculanums Forlag, K&#x00F8;benhavn</item>
+<item>Kielberg, Esther 1998. &#x00AB;Noter I&#x00BB; i Johannes Ewald, <title>Udvalgte digte</title>, Det danske Sprog- og Litteraturselskab/Borgen, K&#x00F8;benhavn</item>
+<item><title>Latinsk ordbok</title>. 2004. Red. Jan Johanssen et al., 4. reviderte utgave, Cappelen, Oslo. </item>
+<item>Lothe, Jakob et al. 2007. <title>Litteraturvitenskapelig leksikon</title>. Kunnskapsforlaget, Oslo. </item>
+<item><title>Norske Selskabs Vers-Protokol. utgitt i anledning av 150-&#x00E5;rsdagen for Johan Herman Wessels d&#x00F8;d</title>. Norske Selskab, Oslo, 1935</item>
+<item><title>Provinzialblade</title>, 1778-1779. Bergen</item>
+<item>Overskou, Th.1856. <title>Den danske Skueplads, i dens Historie, fra de f&#x00F8;rste Spor af danske Skuespil indtil vor Tid. Anden Deel</title>. K&#x00F8;benhavn, Samfundet til den danske Literaturs Fremme. </item>
+<item>Sagen, Lyder. 1837. &#x00AB;Forerindring&#x00BB; i Claus Fasting, <title>Udvalg af Claus Fastings forhen trykte og utrykte Skrifter, med Bidrag til hans Biographie af L. Sagen</title>. Chr. Dahl, Bergen. </item>
+<item>Yermolenko, Galina (red.) 2010. <title>Roxolana in European Literature, History and Culture</title>. Ashgate, Farnham</item>
+<item>Wessel, Johan Herman 1862. <title>Samlede Digte</title>, udg. I. Levin. K&#x00F8;benhavn, Reitzelske Forl.</item>
+ </list>
+</div>
+<div type="chapter" subtype="litlist" n="2">
+<head>Manuskripter</head>
+<p>Nasjonalbiblioteket i Oslo</p>
+<list>
+<item>Ms 4to 2580: Kyrre Grepps Fastingiana. &#x005B;Avskrift av manuskriptet <title>Fastings Digte. Samlede og udgivne af K.L. Rahbek og L. Sagen. Kj&#x00F8;benhavn 1809</title>.&#x005D;</item>
+</list>
+<p>Kongelige bibliotek, K&#x00F8;benhavn</p>
+<list>
+<item>NKS 488e 2° Det norske Selskabs versprotokoll &#x005B;autorisert avskrift anno 1800&#x005D;.</item>
+</list>
+</div>
+</div>
+</body>
+</text>
+</TEI>

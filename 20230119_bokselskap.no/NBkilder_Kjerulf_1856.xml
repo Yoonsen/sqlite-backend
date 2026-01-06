@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI PUBLIC "-// TEI P5 //EN" "http://www.tei-c.org/release/xml/tei/custom/schema/dtd/tei_all.dtd">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Kjerulf">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Halfdan Kjerulf: <title rend="italic">Dagbok 1856</title>
+<lb/>Utgitt ved Jorid Nordal Baumann og Margrethe St&#x00F8;kken Bue
+<lb/>NB kilder 5:7
+<lb/>Nasjonalbiblioteket/bokselskap.no, Oslo 2020
+<lb/>ISBN: 978-82-7965-444-5 (digital, bokselskap.no), 978-82-7965-445-2 (epub), 978-82-7965-446-9 (mobi)
+</title>
+</titleStmt>
+<publicationStmt>
+<p>Publiseres som digital tekst av Nasjonalbiblioteket/bokselskap.no</p>
+</publicationStmt>
+<sourceDesc>
+    <bibl>
+        <title>Dagbok 1854</title>
+        <author>Halfdan Kjerulf</author>
+        <note>Transkribert ved Nasjonalbiblioteket.</note>
+    </bibl>
+</sourceDesc>
+</fileDesc>
+<revisionDesc>
+<change who="ENW" when="2020-06-04">Lagt inn noen rettelser. Klar for publisering.</change>
+<change who="ENW" when="2020-06-03">Justert koding noe. Lagt inn tittelside og ISBN. Entiteter, kodekontroll og validering.</change>
+<change who="MSB" when="2020-06-02">Koding og redigering ferdig.</change>
+<change who="BN" when="2015-03-13">Oppretta.</change>
+</revisionDesc>
+</teiHeader>
+<text xml:id="HKD_1856" type="diary">
+<front>
+<titlePage type="main">
+<byline><docAuthor>Halfdan Kjerulf</docAuthor></byline>
+<docTitle>
+<titlePart type="main">Dagbok 1856</titlePart>
+<lb/><titlePart type="sub">Utgitt ved Jorid Nordal Baumann og Margrethe St&#x00F8;kken Bue</titlePart>
+</docTitle>
+<lb/><docDate>NB kilder 5:7<lb/>Nasjonalbiblioteket/bokselskap.no<lb/>Oslo 2020</docDate>
+</titlePage>
+<div xml:id="contents">
+<list type="contents_main">
+<item><ref target="chapter_01" xml:id="contents_01">Innledning</ref></item>
+<item><ref target="chapter_02" xml:id="contents_02">Prinsipper for utvalg og transkripsjon</ref></item>
+<item><ref target="chapter_03" xml:id="contents_03">&#x005B;forside&#x005D;</ref></item>
+<item><ref target="chapter_04" xml:id="contents_04">&#x005B;almanakksider&#x005D;</ref></item>
+<item><ref target="chapter_05" xml:id="contents_05">&#x005B;solform&#x00F8;rkelser og markeder&#x005D;</ref></item>
+<item><ref target="chapter_1" xml:id="contents_1">Januar.</ref></item>
+<item><ref target="chapter_2" xml:id="contents_2">Feb.</ref></item>
+<item><ref target="chapter_3" xml:id="contents_3">Marts.</ref></item>
+<item><ref target="chapter_4" xml:id="contents_4">April</ref></item>
+<item><ref target="chapter_5" xml:id="contents_5">Mai.</ref></item>
+<item><ref target="chapter_6" xml:id="contents_6">Juni.</ref></item>
+<item><ref target="chapter_7" xml:id="contents_7">Juli.</ref></item>
+<item><ref target="chapter_8" xml:id="contents_8">Reise til og Ophold i Dresden (29 Juli til 25. August).</ref></item>
+<item><ref target="chapter_9" xml:id="contents_9">August</ref></item>
+<item><ref target="chapter_10" xml:id="contents_10">Septbr.</ref></item>
+<item><ref target="chapter_11" xml:id="contents_11">October.</ref></item>
+<item><ref target="chapter_12" xml:id="contents_12">Nov.</ref></item>
+<item><ref target="chapter_13" xml:id="contents_13">Dec.</ref></item>
+<item><ref target="chapter_14" xml:id="contents_14">L N<hi rend="raised">s</hi> Anmeldelse af mine &#x00AB;6 S&#x00E5;nger&#x00BB; Aftonbladet for 6 August 1856.</ref></item>
+<item><ref target="chapter_15" xml:id="contents_15">&#x005B;solens deklinasjoner&#x005D;</ref></item>
+<item><ref target="chapter_16" xml:id="contents_16">&#x005B;svenske grensemarkeder&#x005D;</ref></item>
+<item><ref target="chapter_17" xml:id="contents_17">&#x005B;notatside&#x005D;</ref></item>
+<item><ref target="chapter_18" xml:id="contents_18">&#x005B;regnskap&#x005D;</ref></item>
+<item><ref target="chapter_19" xml:id="contents_19">&#x005B;utgifter og inntekter&#x005D;</ref></item>
+</list>
+</div>
+</front>
+<body>
+<div type="chapter">
+<head type="main"><ref type="contents" target="contents_01" xml:id="chapter01">Innledning</ref></head>
+<div type="uchapter">
+<head type="sub">Norsk komponist av internasjonalt format</head>
+<p rend="noIndent">Halfdan Kjerulf, f&#x00F8;dt 17. september 1815, var ikke bare den f&#x00F8;rste store, norske komponisten, men ogs&#x00E5; den f&#x00F8;rste norske komponisten av internasjonalt format. Han hadde stor betydning for Rikard Nordraak, Edvard Grieg og andre komponister utover p&#x00E5; 1800-tallet som bygde videre p&#x00E5; det Kjerulf grunnla. Flere av hans verker ble gitt ut i Tyskland, og de ble framf&#x00F8;rt i Sverige, Danmark og Frankrike.</p>
+<p>Studier og opphold bl.a. i K&#x00F8;benhavn, Leipzig og Paris ga ham kjennskap til europeiske str&#x00F8;mninger i kunst og musikk, men norsk folkemusikk inspirerte ham ogs&#x00E5;. Kjerulf kombinerte nasjonale og europeiske elementer i sine komposisjoner, bl.a. arrangerte han norsk folkemusikk for klaver. Han skapte den norske romansen og det norske romantiske, lyriske klaverstykket, og han la grunnlaget for mannskorsangen i Norge. Sanger som &#x00AB;Syng, syng nattergal du&#x00BB;, &#x00AB;Brudef&#x00E6;rden i Hardanger&#x00BB;, &#x00AB;Synn&#x00F8;ves sang&#x00BB; og &#x00AB;Ingrids vise&#x00BB; er velkjente for mange.</p>
+<p>Kjerulf virket ved siden av komponeringen som dirigent, klaverl&#x00E6;rer, redakt&#x00F8;r, journalist og musikk-kritiker i Christiania. Bl.a. var han den f&#x00F8;rste dirigenten til Den norske Studentersangforening, og Agathe Backer Gr&#x00F8;ndahl tok klavertimer hos ham. Hans virksomhet som journalist, flittig brevskriver og dagbokforfatter gir innblikk i hans liv og samtid.</p>
+<p>I dagb&#x00F8;kene skrev Kjerulf om at han var &#x00AB;haardt plaget af Hoste&#x00BB;. Han led av tuberkulose i mange &#x00E5;r, og d&#x00F8;de i en alder av 52 &#x00E5;r den 11. august 1868.</p>
+</div>
+<div type="uchapter">
+<head type="sub">Dagboka fra 1856 (<ref type="external" target="https://urn.nb.no/URN:NBN:no-nb_digimanus_197925">Ms 8&#x00B0; 3103:4</ref>)</head>
+<p rend="noIndent">1856 fremst&#x00E5;r i Halfdan Kjerulfs dagbok som et &#x00E5;r uten de helt store begivenhetene. Han har et n&#x00E6;rt forhold til familien sin og et rikt sosialt liv. Han f&#x00F8;lger n&#x00F8;ye med p&#x00E5; alle slags hendelser i samfunnet, b&#x00E5;de nasjonalt og i Europa. Hans reise til Dresden i juli/august er n&#x00F8;ye dokumentert, men inneholder ikke s&#x00E5; mange meninger om det han opplever.</p>
+<p>Det ene som g&#x00E5;r gjennom hele dagboken, er utgivelsen av hans &#x00AB;Sex S&#x00E5;nger&#x00BB; i Sverige. Kjerulf sender manuskriptet p&#x00E5; sangene til forelegger i Stockholm allerede i januar, men det blir forsinket i posten og ankommer ikke f&#x00F8;r i mai. Dette medf&#x00F8;rer s&#x00E5; stor spenning for Kjerulf at han overhodet ikke klarer &#x00E5; komponere hele p&#x00E5;sken. Ved hjemkomst fra Dresden i slutten av august f&#x00E5;r han sine eksemplarer av utgivelsen. Hans venn Ludvig Norman har skrevet en sv&#x00E6;rt positiv anmeldelse av sangene i Aftonbladet (Stockholm) ved utgivelsen 8. august, og denne har Kjerulf oversatt og gjengitt bakerst i dagboken. Den 10. september trykker Aftenbladet (Kristiania) den samme anmeldelsen, men med en innledning som Kjerulf mener f&#x00F8;lgende om: &#x00AB;&#x2026; en Indledning som viser det Slemme i at Ens Venner skrive Opsatser om En i Bladene. De tar Munden fuld og ved ei hvad de sige.&#x00BB;</p>
+</div>
+<div type="uchapter">
+<head type="sub">Om utgivelsesprosjektet</head>
+<p rend="noIndent">Nasjonalbiblioteket &#x00F8;nsker &#x00E5; utgi Halfdan Kjerulfs dagb&#x00F8;ker og reisejournaler i sin helhet som nedlastbare e-b&#x00F8;ker i serien NB kilder. Dagb&#x00F8;kene gir et unikt innsyn i Halfdan Kjerulfs liv og Christianias og Norges musikkliv og kulturhistorie. Reisejournalene gir oss dertil unike innblikk i europeisk kunst, kultur og historie.</p>
+<p>Planen er &#x00E5; utgi alle Halfdan Kjerulfs dagb&#x00F8;ker i Nasjonalbibliotekets eie. Dagb&#x00F8;kene for 1833, 1840 og 1850 ble utgitt i 2015, og de andre dagb&#x00F8;kene er planlagt utgitt kronologisk de n&#x00E6;rmeste &#x00E5;rene. Fordi det er til dels store sprang i tid mellom de bevarte dagb&#x00F8;kene blir de utgitt hver for seg i kronologisk rekkef&#x00F8;lge.</p>
+<p>Deler av dagb&#x00F8;kene har tidligere blitt publisert. Wladimir Moe utga i 1917 dagboka fra 1833 og utdrag fra dagb&#x00F8;kene 1840 og 1850. I 1990 ble dagb&#x00F8;kene fra 1833, 1840, 1850 og 1851 utgitt av Nils Grinde, &#x00D8;yvind Norheim og B&#x00F8;rre Qvamme.</p>
+<p>Utgangspunktet for den aktuelle utgivelsen er Nils Grindes transkripsjoner gjort i perioden 1988&#x2013;2009. Vi har v&#x00E6;rt s&#x00E5; heldige &#x00E5; f&#x00E5; bruke disse transkripsjonene som grunnlag for v&#x00E5;r utgivelse, og transkripsjonene har blitt redigert slik at de samsvarer med de generelle prinsippene som ligger til grunn for utgivelser i NB kilder. Grinde skrev ut forkortelser, endret i tegnsetting og rettet skrivefeil. I denne utgaven i NB kilder er derimot Kjerulfs egen skrivem&#x00E5;te beholdt. Prinsippene for utgivelsen av dagb&#x00F8;kene er beskrevet n&#x00F8;yere her: &#x00AB;<ref type="external" target="https://www.bokselskap.no/boker/kjerulf1856/prinsipper">Prinsipper for utvalg og transkripsjon</ref>&#x00BB;.</p>
+<p>Dagboken for 1854 er tilrettelagt ved Margrethe St&#x00F8;kken Bue og Jorid Nordal Baumann, og B&#x00F8;rge Nordb&#x00F8; har lest korrektur.</p>
+<p>Utgiver vil s&#x00E6;rlig takke Mette Refslund Witting for r&#x00E5;d i edisjonsfilologiske sp&#x00F8;rsm&#x00E5;l. En stor takk til redakt&#x00F8;r i Bokselskap.no, Ellen Nessheim Wiger, som har bist&#x00E5;tt med gode r&#x00E5;d og stor t&#x00E5;lmodighet.</p>
+</div>
+<div type="uchapter">
+<head type="sub">Om materialet og redigeringen</head>
+<p rend="noIndent">I Nasjonalbiblioteket er det bevart 19 dagb&#x00F8;ker, men man regner med at det ogs&#x00E5; har eksistert dagb&#x00F8;ker for de &#x00E5;rene som mangler, til sammen 17 stykker. &#x00C5;rene de bevarte dagb&#x00F8;kene dekker er: 1851, 1852, 1854, 1856, 1857, 1859, 1860, 1862, 1863, 1864&#x2013;65, 1866&#x2013;67, 1868. I tillegg er det reisejournaler fra &#x00E5;rene 1860, 1865 og 1867. Dagb&#x00F8;kene og reisejournalene er fordelt p&#x00E5; 17 hele b&#x00F8;ker, ett sett med l&#x00F8;sblad (1833) og en del av en dagbok (1840). To av dagb&#x00F8;kene g&#x00E5;r over to kalender&#x00E5;r (1864&#x2013;65 og 1866&#x2013;67). Dagb&#x00F8;kene og reisejournalene ble gitt som gaver til Nasjonalbiblioteket (dengang Universitetsbiblioteket) i tre omganger: Dagb&#x00F8;kene fra 1833, 1840 og 1850 ble gitt av Carl Kjerulf i 1929, dagb&#x00F8;kene fra perioden 1851&#x2013;1868 av Halfdan Kierulf i 1978, og reisejournalene fra 1860, 1865 og 1867 av Christian F. Kierulf i 1988.</p>
+<p>Arbeidet med Halfdan Kjerulfs dagb&#x00F8;ker har budt p&#x00E5; noen problemstillinger. Selv om Halfdan Kjerulfs h&#x00E5;ndskrift er relativt lettlest, er det en del variasjoner i n&#x00F8;yaktighet, blekk og kvalitet p&#x00E5; pennesplitt og papir. Til tross for stort tidsspenn er dagb&#x00F8;kene p&#x00E5; mange m&#x00E5;ter sv&#x00E6;rt like, men det kan synes som det er en klarere struktur og mer ryddig h&#x00E5;ndskrift etter som &#x00E5;rene g&#x00E5;r.</p>
+<p>Rettskrivningen i dagb&#x00F8;kene f&#x00F8;lger ikke alltid datidens norm. Det er mye skrivefeil, slurv og forglemmelser: Ordet &#x00AB;gjorde&#x00BB; staves b&#x00E5;de &#x00AB;giorde&#x00BB; og &#x00AB;gjorde&#x00BB;, det samme gjelder andre gj-ord. Det varieres mellom &#x00AB;Propheten&#x00BB; og &#x00AB;Profeten&#x00BB;, forkortelsen for &#x00AB;Slesvig-Holstein&#x00BB; varierer med &#x00AB;Sl.H.&#x00BB;, &#x00AB;Sles.-Holst.&#x00BB;, &#x00AB;Schl.H.&#x00BB;. Ord og navn staves tidvis feil, ord utelates og ord gjentas, ord strykes ut og legges til. Parenteser startes uten &#x00E5; avsluttes, tekst markeres med ulike understrekninger. Det settes punktum f&#x00F8;r en setning er slutt, og det varierer mellom enkelt ( . ) og dobbelt ( : ) punktum. Ordenstall skrives p&#x00E5; en rekke ulike m&#x00E5;ter, med og uten punktum etter tallet, med og uten hevet endelse og med og uten d, d., den f&#x00F8;r dato. Stor eller liten forbokstav i substantiv varierer. Vi har her valgt &#x00E5; standardisere ordenstall, alt annet er gjengitt slik Kjerulf selv skrev det.</p>
+<p>Noen av dagb&#x00F8;kene er paginert, andre er ikke. Enkelte dagb&#x00F8;ker har feil paginering, og i dagboka fra 1840 er f&#x00F8;rste side paginert 69. Siden dette er dagb&#x00F8;ker, og dermed har naturlige skiller i teksten ved skifte av dato, er det ikke gjengitt eller lagt til paginering.</p>
+<p>Flere av dagb&#x00F8;kene er almanakker med innlagte notatsider. Almanakksidene er tidvis notert p&#x00E5; og alle disse sidene gjengis som faksimiler for &#x00E5; yte dem rettferdighet. Det samme gjelder regnskap, elevlister, timeplaner, lister over musikkverk og forestillinger.</p>
+<p>Dagb&#x00F8;kene er n&#x00E6;rmere 200 &#x00E5;r gamle, og inneholder derfor ord og uttrykk som ikke er i bruk i moderne norsk/dansk, og omtaler personer, steder og hendelser som ikke er allmennkunnskap i dag. Mengden av slike ord og navn er s&#x00E5; stor at det ikke er lagt inn kommentarer eller noter. Mange av personene er identifisert eller fors&#x00F8;kt identifisert i Grindes transkripsjon, som kan sees p&#x00E5; i Nasjonalbiblioteket.</p>
+</div>
+<div type="uchapter">
+<head type="sub">Litteratur</head>
+<p rend="noIndent">Wallem, Fredrik B. (1916): <title rend="italic"><ref type="external" target="https://urn.nb.no/URN:NBN:no-nb_digibok_2006120501101">Det Norske Studentersamfund Gjennem hundrede Aar. F&#x00F8;rste del</ref></title>. H. Aschehoug &#x0026; Co., Kristiania.</p>
+<p rend="noIndent">Moe, Wladimir (1917): <title rend="italic"><ref type="external" target="https://urn.nb.no/URN:NBN:no-nb_digibok_2006083100093">Halfdan Kjerulf. Af hans efterlatte papirer 1831&#x2013;1847</ref></title>. Jacob Dybwads Forlag, Kristiania.</p>
+<p rend="noIndent">Moe, Wladimir (1918): <title rend="italic"><ref type="external" target="https://urn.nb.no/URN:NBN:no-nb_digibok_2017061307022">Halfdan Kjerulf. Af hans efterlatte papirer 1847&#x2013;1868</ref></title>. Jacob Dybwads Forlag, Kristiania.</p>
+<p rend="noIndent">Grinde, Nils, &#x00D8;. Norheim og B. Qvamme (1990): <title rend="italic"><ref type="external" target="https://urn.nb.no/URN:NBN:no-nb_digibok_2010090608076">Halfdan Kjerulfs dagb&#x00F8;ker</ref></title>. Bind 1. Oslo.</p>
+<p rend="noIndent">Grinde, Nils (2003): <title rend="italic"><ref type="external" target="https://urn.nb.no/URN:NBN:no-nb_digibok_2011070808032">Halfdan Kjerulf. Nordmann og europeer: En komponist og hans tid</ref></title>. Musikk-Husets Forlag A/S, Oslo.</p>
+<p rend="noIndent">Qvamme, B&#x00F8;rre (2010): <title rend="italic"><ref type="external" target="http://www.hf.uio.no/imv/forskning/prosjekter/norgesmusikk/musikkhistarkiv/kjerulf/kjerulf_opera.html">Halfdan Kjerulf og operaen</ref></title></p>
+</div>
+</div>
+<div type="chapter">
+<head type="main"><ref type="contents" target="contents_02" xml:id="chapter_02">Prinsipper for utvalg og transkripsjon</ref></head>
+<p rend="noIndent">1. Alle dagb&#x00F8;ker og reisejournaler som befinner seg i Nasjonalbiblioteket, tas med i denne publiseringen. De utgis kronologisk.</p>
+<p rend="noIndent">2. Transkripsjonen er n&#x00F8;yaktig og bokstavrett, det vil si at Halfdan Kjerulfs rettskrivning er beholdt. Skrivefeil er ikke rettet. Dette gjelder ogs&#x00E5; feil i diakritiske tegn, manglende parenteser og anf&#x00F8;rselstegn.</p>
+<p rend="noIndent">3. Regnskap, elevlister, elevtimeplaner og teater- og konsertlister transkriberes ikke, men gjengis som faksimiler.</p>
+<p rend="noIndent">4. H&#x00E5;ndskriften er lett &#x00E5; lese. Noen tvil kan likevel forekomme, og slurvete bokstaver og ord er derfor transkribert velvillig ut fra sammenhengen. Det har i noen tilfeller v&#x00E6;rt n&#x00F8;dvendig &#x00E5; markere usikker lesning med spisse klammer &#x2039;&#x00A0;&#x203A;, og helt uleselig tekst markeres slik: &#x2039;&#x2026;&#x203A;.</p>
+<p rend="noIndent">5. I noen tilfeller er det vanskelig &#x00E5; avgj&#x00F8;re om en bokstav er stor eller liten. Det gjelder spesielt d/D, m/M og k/K. Her velges den form som f&#x00F8;lger normen.</p>
+<p rend="noIndent">6. Tekst som er str&#x00F8;ket, er markert med gjennomstreking.</p>
+<p rend="noIndent">7. Tilf&#x00F8;yd tekst gjengis som plassert i originalen, over eller under linjen. Tekst tilf&#x00F8;yd p&#x00E5; motst&#x00E5;ende side gjengis over linjen i den l&#x00F8;pende teksten.</p>
+<p rend="noIndent">8. N&#x00E5;r tekst er rettet ved at noe er skrevet opp&#x00E5; noe annet slik at opprinnelig tekst er dekket, transkriberes den sist skrevne teksten, mens den opprinnelige gjengis i note.</p>
+<p rend="noIndent">9. Tekst som er understreket eller uthevet p&#x00E5; annet vis, gjengis med kursiv, og det skjelnes ikke mellom typografisk og retorisk utheving. I noen f&#x00E5; tilfeller har utgiverne valgt &#x00E5; bruke fet skrift n&#x00E5;r det er n&#x00F8;dvendig i forhold til Kjerulfs egne markeringer.</p>
+<p rend="noIndent">10. Bindestrek som ser ut som =-tegn gjengis som vanlig bindestrek.</p>
+<p rend="noIndent">11. m/n med nasalstrek (liten strek over bokstaven) gjengis med m<hi rend="italic">m</hi>/n<hi rend="italic">n</hi>. Der hvor nasalstrek er mangler, gjengis det stilltiende som dobbel konsonant.</p>
+<p rend="noIndent">12. Kr&#x00F8;llestreker og andre markeringer i margen er utelatt.</p>
+<p rend="noIndent">13. Ord delt ved linjeslutt uten bindestrek gjengis stilltiende som ett ord.</p>
+<p rend="noIndent">14. Ulike former for avsnittsmarkering gjengis s&#x00E5; n&#x00E6;rt opptil originalen som mulig.</p>
+<p rend="noIndent">15. Sideskift er ikke markert, og gjentagelse av dato ved sideskift er ikke tatt med.</p>
+<p rend="noIndent">16. Paginering er ikke gjengitt eller lagt til.</p>
+<p rend="noIndent">17. Dobbelt punktum ( : ) gjengis som kolon.</p>
+<p rend="noIndent">18. Senere endringer eller tilf&#x00F8;yelser gjort med annen h&#x00E5;nd, transkriberes ikke.</p>
+<p rend="noIndent">19. Ordenstall standardiseres.</p>
+</div>
+<div type="chapter">
+<head type="main"><ref type="contents" target="contents_03" xml:id="chapter03">&#x005B;forside&#x005D;</ref></head>
+<p rend="center"><figure><graphic url="s5_forside.jpeg"/></figure></p>
+</div>
+<div type="chapter">
+<head type="main"><ref type="contents" target="contents_04" xml:id="chapter04">&#x005B;almanakksider&#x005D;</ref></head>
+<p rend="center"><figure><graphic url="s7_alm_forside.jpeg"/></figure>
+<lb/><lb/><figure><graphic url="s8_alm_s2.jpeg"/></figure></p>
+</div>
+<div type="chapter">
+<head type="main"><ref type="contents" target="contents_05" xml:id="chapter05">&#x005B;solform&#x00F8;rkelser og markeder&#x005D;</ref></head>
+<p rend="center">
+<figure><graphic url="s11_solform_og_markeder.jpeg"/></figure>
+</p>
+</div>
+<div type="chapter">
+<head type="main"><ref type="contents" target="contents_1" xml:id="chapter_1">Januar.</ref></head>
+<p rend="center"><figure><graphic url="s12_jan1.jpeg"/></figure>
+<lb/><lb/><figure><graphic url="s15_jan2.jpeg"/></figure></p>
+<p rend="noIndent"><date when="1856-01-01"><hi rend="initial">1.</hi></date> Theodor er paa Kongsvinger; vi Andre hjemme. Juleaften og Nytaarsaften hos Lassons. Vor V&#x00E6;rt har ikke lagt paa med Betalingen for Husleje. Overalt gi&#x00F8;r man det dog. (fks Heiberg med Garbens). Julen har v&#x00E6;ret ganske mild. Paa V&#x00E6;kker&#x00F8; Grevinden syg. Carl Anker blev dog Officier; Bredo Stang ogsaa. Eftr fra Statsraaden var lidt tr&#x00F8;steligere. Fra den arme Marie &#x00D8;rtenblad derimod de mest nedslaaende.</p>
+<p rend="noIndent"><date when="1856-01-05"><hi rend="initial">5.</hi></date> Jeg har componeret lidt i Ferierne men meget lidt. Solen er borte og det gj&#x00F8;r utrolig meget.</p>
+<p rend="noIndent"><date when="1856-01-07"><hi rend="initial">7.</hi></date> <hi rend="italic">Brev fra Berg i Stockholm</hi>; et meget godt Brev. Sagerne gaa godt derinde. Hirsch vil give et Hefte ud saasnart Berg og jeg faar arrangeret Udvalget. 
+<lb/>&#x2013; Theodor kom hjem idag. Han vil leje hos Heiberg til Vaaren. Han har Brev fra Rosing som lever godt og arbeider dygtig nede i Tharand.</p>
+<p rend="noIndent"><date when="1856-01-11"><hi rend="initial">11.</hi></date> Vort Huusbudget gaar nu op til omtr 1000 Sp. Det har Dyrtiden voldt. Axel og jeg bidrager fra d. A af med 18 Sp mdl. Ifjor gav jeg 14. tidligere 12.</p>
+<p rend="noIndent"><date when="1856-01-13"><hi rend="initial">13.</hi></date> Componeret &#x00AB;Hvile i Skoven&#x00BB; af Welhavens nyere Digte (E<hi rend="raised">d</hi>).</p>
+<p rend="noIndent"><date when="1856-01-19"><hi rend="initial">19.</hi></date> <hi rend="italic">Telegrafen iaften</hi> melder at <hi rend="italic">Rusland skal d. 16<hi rend="raised">d</hi> have erkl&#x00E6;ret i Wien at det antager &#x00D8;sterigs nye Fredsforslag</hi> (som de Allierede gav sit Samtykke til at det fremsatte som M&#x00E6;gler) &#x00AB;pure et simple&#x00BB; til Basis for Fredsunderhandlinger. Bekr&#x00E6;fter dette sig da er Efterr vigtig nok.</p>
+<p rend="noIndent"><date when="1856-01-22"><hi rend="initial">22.</hi></date> Carl Arnold den stockholmske Rummlaren og Brel&#x00E6;anen hos Lindorff. (Axel Winge)</p>
+<p rend="noIndent"><date when="1856-01-23"><hi rend="initial">23.</hi></date> <hi rend="italic">Besvaret Hirsch og Bergs Skrivelser</hi>. 
+<lb/>&#x2013; <hi rend="italic">Nedsendt til Cappelen Manuskr. 6 Sange til Hirsch</hi> for at sendes pr Pakkepost over G&#x00F6;theborg. 
+<lb/>&#x2013; <hi rend="italic">Iaften Carl Arnolds Concert</hi>. Den lille Logesal var n&#x00E6;sten fuld, et rent S&#x00E6;rsyn her. Arnold spillede varmt, freidigt, korrekt som en Kunstner af det rette Slag. Bedst foredrog sin Faders ypperlige Cello-Sonate hvoraf Adagio patetico og Rondo scherzando blev udf&#x00F8;rt af begge Arnolder. Disse Satser havde for mig stor Tiltr&#x00E6;kning. Den Beethovenske Aand gaar igjen i dette Arbeide, is&#x00E6;r er Adagioen ypperlig og Cellopartiet har en Klang som mangt et andet Cellostykke savner, nemlig det giver det <hi rend="italic">&#x00E6;dleste</hi> af Celloen. Rondoen er pastoral og humoristisk. Stor Forn&#x00F8;ielse var det ogsaa at h&#x00F8;re gl Arnolds 2<hi rend="raised">de</hi> Lieder f S.A.T og B. af et opus udgivet i 1819. Hvilken s&#x00F8;d frisk ungdommelig Melodi og hvilket rent skj&#x00F8;nt Arbeide! A junior op. 2<hi rend="raised">d</hi> Salon no. af Servais og Schuberth og B. Romberg svenske Capriccio, denne sidste gjorde is&#x00E6;r Lykke. &#x2013;</p>
+<p rend="noIndent"><date when="1856-01-24"><hi rend="initial">24.</hi></date> Et interessant Stykke i Theatret iaften: &#x00AB;En Brud ved Erobring&#x00BB; af Legouv&#x00E8; ved Borgaard. (Wiehe, J&#x00F8;rgensen, M<hi rend="raised">me</hi> Wolf, M<hi rend="raised">m</hi> J&#x00F8;rgensen, M<hi rend="raised">m</hi> Schrumpf. Den Sidste her for f&#x00F8;rste Gang i en st&#x00F8;rre <hi rend="italic">gammel</hi> Damerolle)</p>
+<p rend="noIndent"><date when="1856-01-27"><hi rend="initial">27.</hi></date> <hi rend="italic">Hundreaarsdagen siden Mozarts F&#x00F8;dsel</hi>. Hvor der er et sandt Musikliv vil denne Dag blive feiret paa en v&#x00E6;rdig Vis. Vor Philharmoni giver ogsaa et Kv&#x00E6;k fra sig ianl. af Dagen. D.v.s. der synges urent og ukorrekt Sager hvoraf Halvdelen <hi rend="italic">ikke</hi> er af Mozart (fordi man ei havde Tid til at faa noget andet) <hi rend="italic">Orkester har man ikke</hi> til Disposition. Og Monrad skal ville fremsige et Digt ianl af Dagen (af ham selv naturl). Gubben Arnold stakkel <hi rend="italic">maa</hi> v&#x00E6;re med ogsaa i denne Prostitution! Det er ogsaa Kunstnerskj&#x00E6;bne.</p>
+<p rend="noIndent"><date when="1856-01-30"><hi rend="initial">30.</hi></date> Det var <hi rend="italic">dog</hi> af Mozart hvad der i S&#x00F8;ndags blev udf. i Philharmonien og Arnold medvirkede i en Piano-Kvartett, og M<hi rend="raised">m</hi> Dahl sang Titus-Arien. Monrad reciterede. Alligevel var jeg forn&#x00F8;iet ved min Frav&#x00E6;relse. 
+<lb/>&#x2013; <hi rend="italic">Udbye</hi> er en ganske m&#x00E6;rkelig Musiker. Han har tilsendt Monrad et Manuskr &#x00AB;3 Digte for 1 S<hi rend="raised">t</hi> m Pfte&#x00BB; hvori &#x00AB;Aasgaardsreien&#x00BB; gjennemcomponeret som en grandios Ballade; jeg saa den igjennem iaften Den er vist i mange Hens. vanskelig at praktisere men der er stolte Ting deri. Akk. er <hi rend="italic">for sv&#x00E6;rt</hi>. Sangst. vel dyb men Stemningen er truffet og enkelte af Motiverne ere ypperlige. &#x2013; 
+<lb/>&#x2013; Arnold spillede igaar i Theatret mellem Stykkerne. Imorgen skal han spille to Gange.</p>
+</div>
+<div type="chapter">
+<head type="main"><ref type="contents" target="contents_2" xml:id="chapter_2">Feb.</ref></head>
+<p rend="center"><figure><graphic url="s16_feb1.jpeg"/></figure>
+<lb/><lb/><figure><graphic url="s19_feb2.jpeg"/></figure></p>
+<p rend="noIndent"><date when="1856-02-03"><hi rend="initial">3.</hi></date> Skrevet til Assessor E Bruun og tilstillet ham Attesterne fra Berlin ang. Fr&#x00F8;ken Elise Bruun. 
+<lb/>&#x2013; <hi rend="italic">Feuilletonen som F&#x00F8;lgeblad til Chr.p. &#x00AB;S&#x00F8;ndagsn<hi rend="raised">o</hi>&#x00BB;</hi>. &#x00AB;En Sjel i Vildmarken&#x00BB; af Welhaven.
+<lb/>&#x2013; <hi rend="italic">I Illustr. Nyhedsbl</hi>. af Welhaven &#x00AB;om det norske liter&#x00E6;re Selskab i Kjbhvn&#x00BB;.</p>
+<p rend="noIndent"><date when="1856-02-04"><hi rend="initial">4.</hi></date> Arnold reiste igaar og hans gamle Fader reiste med paa 2 Mdrs Frav&#x00E6;r. De vil give Concerter sammen i G&#x00F6;theborg og Stockholm, hvor gl. A. ogsaa vil see at faa sin ny Symfoni opf&#x00F8;rt.</p>
+<p rend="noIndent"><date when="1856-02-05"><hi rend="initial">5.</hi></date> En m&#x00E6;rkelig Samtale med Assessor Bruun om hans Svigerinde og Broderd&#x00F8;tre i Berlin. 
+<lb/>&#x2013; Fru Hallager d&#x00F8;d i Barselseng.</p>
+<p rend="noIndent"><date when="1856-02-07"><hi rend="initial">7.</hi></date> Tilskrevet Fru Hanna Bruun (Berlin, Behrenstr. 6 <hi rend="raised">3 Tr.</hi>) ianl af hendes Brev af 2<hi rend="raised">de</hi> f M. <hi rend="italic">Attesterne bero hos mig</hi>.</p>
+<p rend="noIndent"><date when="1856-02-10"><hi rend="initial">10.</hi></date> Compt &#x00AB;Alfeland&#x00BB; Romance. 
+<lb/>&#x2013; Kronprindsen er udn&#x00E6;vnt til Vicekonge.</p>
+<p rend="noIndent"><date when="1856-02-16"><hi rend="initial">16</hi></date> Monrad om Mozart i Illustr. Nyhedsblad for idag. 
+<lb/>&#x2013; Der har atter v&#x00E6;ret Pr&#x00E6;stem&#x00F8;de her. Lammers vil have den gamle Kirketugt indf. i al sin Strenghed og savner ikke ganske Tilh&#x00E6;ng hos sine Colleger, som ialfald for endel vil have denne Kirketugt igjen. Monrad talte meget fornuftigt imod disse Paver.</p>
+<p rend="noIndent"><date when="1856-02-19"><hi rend="initial">19.</hi></date> Der er i Politiken Tegn til at Keiser Napoleon virkelig vil Freden om den end skulde bryde det inderlige Baand med England. Thi det er vist at den engelske Nation n&#x00F8;dig vil have Freden <hi rend="italic">nu</hi>. Det synes overh. som Rusland atter spiller et udm&#x00E6;rket diplomatisk Spil. Skulde Napoleon III. til Slut ikke forstaa sin Opgave? Det vil snart vise sig.</p>
+<p rend="noIndent"><date when="1856-02-22"><hi rend="initial">22.</hi></date> Pariser Congressen skal aabnes d 25<hi rend="raised">te</hi> For Rusland m&#x00F8;der Brunnow og Orloff. 
+<lb/>&#x2013; I Tirsdags fik vi Efterr. om at Cathrine Welhaven er bleven forlovet med Doktor Peter Winge der i flere Aar har i al Stilhed holdt af hende.</p>
+<p rend="noIndent"><date when="1856-02-26"><hi rend="initial">26.</hi></date> En morsom Aften hos Dr Schj&#x00F8;tt. &#x00AB;Concert dansant&#x00BB; som F&#x00E6;tter Christian i sit Program kaldte den. Sextetten af Cosi fan tutte blev udf (Fru Kjerulf, Fr&#x00F8;ken Schj&#x00F8;tt, Jfr Binneballe, Wolf, J Nicolaysen. Falck) og min Quartett (Hjort, Nicolaysen, Ziesler, Meyer og C. Lasson) gjorde Lykke. &#x2013; Cathrine W. var der med sin Forlovede. 
+<lb/>&#x2013; H. Heine er nu endelig d&#x00F8;d i d. M. i Paris.
+</p>
+</div>
+<div type="chapter">
+<head type="main"><ref type="contents" target="contents_3" xml:id="chapter_3">Marts.</ref></head>
+<p rend="center"><figure><graphic url="s20_mars1.jpeg"/></figure>
+<lb/><lb/><figure><graphic url="s23_mars2.jpeg"/></figure></p>
+<p rend="noIndent"><date when="1856-03-01"><hi rend="initial">1.</hi></date> Agnes kom i Eftm. og bor hos Lina. 
+<lb/>&#x2013; Kvartetten samlet ude paa Munkedammen. Den sang godt. Der var Flere der. bl.A Marie Garben som jeg nu seer et Par Gange om Aaret.</p>
+<p rend="noIndent"><date when="1856-03-02"><hi rend="initial">2.</hi></date> Marie L. hos mig iaften. Hun sang. Tandem aliquando! Hun sang mine nye: Alfeland og Hvile i Skoven. Item flere kostelige Lieder af Mendelssohn.</p>
+<p rend="noIndent"><date when="1856-03-03"><hi rend="initial">3.</hi></date> Idag atter Fredsrygter fra Conferentserne. Igaar var derimod Telegr. krigersk. <add place="below">P.S. Keiser Napoleon holder dog oprigtig med England. Cf Hans Tale til <del rend="overstrike">Kamrene</del> den lovg Forsamling.</add> 
+<lb/>&#x2013; Axel var L&#x00F8;rdag og S&#x00F8;ndag en Tour paa Karlberg. 
+<lb/>&#x2013; Streng Kritik idag i Mgbl over W<hi rend="raised">s</hi> &#x00AB;En Sjel i Vildmarken&#x00BB;. 
+<lb/>&#x2013; <hi rend="italic">Sendelsen fra Hirsch</hi> kom endelig idag. Den indeholdt Aargangen 1855 af &#x00AB;Ny Tidning for Musik&#x00BB; og 2<hi rend="raised">d</hi> Pris-Compositioner af P.U. Stenhammar og H. Berens. Ligeledes et Hefte Sanger af F&#x00F8;rstn&#x00E6;vnte og et d<hi rend="raised">o</hi> (det 12<hi rend="raised">te</hi>) af Dannstr&#x00F6;m. Det Meste af dette synes ved l&#x00F8;st Gjennemsyn at v&#x00E6;re gode Sager. &#x2013; 
+<lb/>&#x2013; <hi rend="italic">Den Concert som Josephson</hi> d 3 Dec. holdt i Upsala bestod af lutter Comp af skandin. Musikere. Gades Ossiansouverture, af en Ouv af Kraus Sonate f Piano og Violin af Lindblad, og bl. Chorsangene en af Norman, S&#x00E6;terjentens Sang af Ole Bull (Reissigers Arr.) et Chor af Hartman og &#x00AB;Den blide Dag af mig&#x00BB;.</p>
+<p rend="noIndent"><date when="1856-03-05"><hi rend="initial">5.</hi></date> <hi rend="italic">Stort Bal paa Bogstad</hi>, ved hvilket da Baronen indviede sine restaurerede V&#x00E6;relser. Alt var i Hovedsagen som i gamle Dage, kun de daglige Beboelsesrum er omformede. Billarden under Salen er kasseret hvorved Salen er bleven skikket til at taale et Bal. Ballet var splendid i alle Maader. De oplyste herregaardsm&#x00E6;ssige Rum tog sig ypperligt ud. Et Par Hundrede var indbudne. 
+<lb/>&#x2013; Rigsretten i Danmark frikjendte Minist<hi rend="raised">t</hi> &#x00D8;rsted. Pressen dadler is&#x00E6;r H&#x00F8;iesteret for at have bevirket dette Resultat.</p>
+<p rend="noIndent"><date when="1856-03-09"><hi rend="initial">9.</hi></date> <hi rend="italic">Jens Magnus</hi> ankom hertil igaar aftes; han blir paa et l&#x00E6;ngre Bes&#x00F8;g her i Byen. 
+<lb/>&#x2013; <hi rend="italic">Skrevet til Hirsch</hi> (<hi rend="italic">Adr.</hi> <hi rend="italic">Stora Nygatan N<hi rend="raised">o</hi> 12</hi>) ang Modtagelsen af Pakken fra G&#x00F6;theborg, og om Rettelse i Akk til Hvile i Skoven.</p>
+<p rend="noIndent"><date when="1856-03-16"><hi rend="initial">16.</hi></date> Keiserinden af Frankrig f&#x00F8;dte idag morges en S&#x00F8;n. 
+<lb/>&#x2013; I Torsd<hi rend="raised">s</hi> i Theatret Ibsens Drama &#x00AB;Gildet paa Solhaug&#x00BB;. <del rend="overstrike"><gap/></del> S&#x00F8;d, lidt mat, sentimental Lyrik med mange Reminiscentser af Stilen i Svend Dyring. Lidet motiveret dramat. Udvikling. Musik af Sperati. &#x2013; 
+<lb/>Fors&#x00F8;g paa at skrive <hi rend="italic">nordiske</hi> Sange og Chor. Men Sperati er Sperati. 
+<lb/>&#x2013; Milit&#x00E6;rconcert af J&#x00E6;germusikcorpset under Sperati <hi rend="italic">igaar</hi>. 
+<lb/>&#x2013; Iaften i Stockholm Concert i det kgl Th. af Arnold sen. C<hi rend="raised">mol</hi> Concert af Beethoven. Hummels Fantasi op 18. Adagio for 5 Celli. Ny Symfoni af Arnold. (Foroni Dirigent.)</p>
+<p rend="noIndent"><date when="1856-03-16"><hi rend="initial">16.</hi></date> Compt. &#x00AB;Vesperhymne&#x00BB; af Th. Moore og Freiligrath (4<hi rend="raised">st</hi> Mandschor). Nylig forud compt. &#x00AB;Der Wald&#x00BB; af Geibel.</p>
+<p rend="noIndent"><date when="1856-03-14"><hi rend="initial">14</hi></date> Axels Geb<hi rend="raised">d</hi>. Welhaven og Camilla Collett var her samme Aften &#x2013; et hidtil useet Sammentr&#x00E6;f.</p>
+<p rend="noIndent"><date when="1856-03-19"><hi rend="initial">19.</hi></date> Grevinde Hedevigs Geburtsdag. Hun er endnu lidende men har dog v&#x00E6;ret ude at kj&#x00F8;re de sidste Par Dage. Jeg var til Middag paa V&#x00E6;kker&#x00F8; med Carl Anker og Dr Egeberg. Ellers var ingen Gj&#x00E6;ster. <del rend="overstrike">Af</del> Grevinden saa jeg blot nogle faa Minutter henimod Aftenen. 
+<lb/>&#x2013; Isen er endnu st&#x00E6;rk men Solen smelter st&#x00E6;rkt ved Middagstid. Man begynder at v&#x00E6;kke Dampskibene ind nu.</p>
+<p rend="noIndent"><date when="1856-03-20"><hi rend="initial">20.</hi></date> <hi rend="italic">M&#x00E6;rk</hi> George Sands Charakteristik af Chopin i 11<hi rend="raised">te</hi> B af &#x00AB;Hist. de ma vie&#x00BB;. 
+<lb/>&#x2013; L<hi rend="raised">t</hi> Axel Kaltenborn d&#x00F8;de iforgaars. Dette D&#x00F8;dsfald beklages meget. Han var gift og havde det meget knapt; hans Frues For&#x00E6;ldre (Com. Louis?) ere h&#x00F8;ist forgj&#x00E6;ldede. K. var i sin f&#x00F8;rste Ungdom en lystig Krabat men forandredes meget. Han var nu h&#x00F8;ist solid, streng, arbeidsom og jeg tror ogsaa religi&#x00F8;s. Han var en flink Heraldiker; forresten Officier ved Kadetskolen. S&#x00F8;steren Julie Knuth, som er aldeles nedsynket i Sorg over sin Broder Grev Knuths tidlige D&#x00F8;d, faar nu atter en ny, stor Sorg.</p>
+<p rend="noIndent"><date when="1856-03-24"><hi rend="initial">24.</hi></date> Paasken har v&#x00E6;ret klar og solfuld. Frost om Natten; Smelten om Dagen. &#x00AB;Courier&#x00BB; og det ny pr&#x00E6;gtige Dampsk. &#x00AB;GangerRolf&#x00BB; ligge i &#x00AB;Raaken&#x00BB; bag Hoved&#x00F8;en, men kan ei komme l&#x00E6;nger ind de f&#x00F8;rste Dage da Resten af Raaken er tilfrossen. &#x00AB;Lindesn&#x00E6;s&#x00BB; ligger l&#x00E6;nger ude og gaar til Kiel imorgen. 
+<lb/>&#x2013; Jeg skulde componeret i Feriedagene &#x2013; men Fantasien kom ikke til Hj&#x00E6;lp. Imidlertid gj&#x00F8;r Ro godt. &#x2013; 1<hi rend="raised">ste</hi> Paaskedag Middagselskab hos Peter Petersen hvor jeg morede mig, spiste, drak og var glad og fidel. J&#x00F8;rgensen, M<hi rend="raised">d</hi> Ursin, Wolf og Mad<hi rend="raised">m</hi> Wolf var der bl. A. M<hi rend="raised">m</hi> W. er virkelig h&#x00F8;ist t&#x00E6;kkelig og naturlig. J&#x00F8;rgensen (Kean!) var grandios, lidt primer &#x2013; talte med mig om &#x00AB;f&#x00F8;r og nu&#x00BB; om Ebbell, Betty S., om Fader som Theaterdirekt&#x00F8;r (et Ideal af en Theaterd. sa’e han) om <hi rend="italic">min</hi> magel&#x00F8;se Pen, om hans egen magel&#x00F8;se Storhed o.s.v. o.s.v. &#x2013;</p>
+<p rend="noIndent"><date when="1856-03-26"><hi rend="initial">26.</hi></date> Jeg venter Svar fra Stockholm &#x2013; er det derfor jeg ikke kan komponere i disse Fridage? Igaar og idag l&#x00E6;ste jeg mange gamle Breve og Optegnelser igjennem. &#x2013; Saadant er godt imellem &#x2013; man lever sig en Stund ind i det Svundne, om ei Glemte saa dog overskyggede. Breve fra de kj&#x00E6;re Afd&#x00F8;de &#x2013; fra andre glemte, anderledes Tabte, utroligt Forandrede &#x2013; Optegnelser af En selv &#x2013; selv forandret i saameget, saameget! &#x2013; 
+<lb/>&#x2013; F&#x00E6;tter Richard bragte mig en Hilsen fra hvem? Fra Kongen. Jo paa Slottet havde nylig v&#x00E6;ret Musik. Romancer af mig blev bl. A. sungne (af Helene??) Kongen fandt saa meget Behag i dem at han bad Statsraad Petersen (?) formelde den stakkels Comp. sit naadige Bifald. Statsraaden hilste fra Fruen, Fruen traf En af Damerne i Torvefamilien, Damen hilste R., R hilste mig &#x2013; fra Kongen? Eller var det blot Petersens egen Hilsen at Kongen maaskee havde nikket paa Hovedet da Visen blev sjungen? Attendons! &#x2013; <hi rend="italic">P.S.</hi> Jo, det skal virkelig have v&#x00E6;ret en Hilsen fra Allerh&#x00F8;istsamme. 
+<lb/>&#x2013; Grevens lille Ida har v&#x00E6;rt farlig syg i Paasken. Atter en ny Smerte for den kj&#x00E6;re Hedchen. 
+<lb/>&#x2013; <hi rend="italic">I udenl. Aviser Detailler om den franske Prinds’ F&#x00F8;dsel.</hi> Han er d&#x00F8;bt Nap. L. Eugen Jean Joseph. De to sidste Navne efter Fadderne <hi rend="italic">Paven</hi> (Jean Mastai Pio IX) og <hi rend="italic">vor Dronning</hi>, Keiserens Cousine. Item om Duellen mellem v Hinckeldey og L<hi rend="raised">t</hi> v Rochow i Berlin.</p>
+<p rend="noIndent"><date when="1856-03-26"><hi rend="initial">26.</hi></date> <hi rend="italic">Raadmandens Soir&#x00E8;e musicale</hi>, ad modum Schj&#x00F8;tte, men ikke <hi rend="italic">n&#x00E6;r</hi> saa morsom og udstyret med mange fatalia. (Meyers pr&#x00E6;gtige Bas i Trioen af Lucretia).</p>
+<p rend="noIndent"><date when="1856-03-28"><hi rend="initial">28.</hi></date> <hi rend="italic">Brev fra Gude</hi> (om at der atter skal blive Musikfest i D.f i Pintsen. &#x2013;)</p>
+<p rend="noIndent"><date when="1856-03-30"><hi rend="initial">30.</hi></date> Th.s &amp; E.<hi rend="raised">s</hi> Geb. (Grevinden og lille Ida bedre) Soir&#x00E9; hos Wessels (Marie Garben).</p>
+<p rend="noIndent"><date when="1856-03-31"><hi rend="initial">31.</hi></date> <hi rend="italic">Telegraf om Fredens Afslutning</hi>. F&#x00F8;rste ankomne Kielerdampskib.</p>
+</div>
+<div type="chapter">
+<head type="main"><ref type="contents" target="contents_4" xml:id="chapter_4">April</ref></head>
+<p rend="center"><figure><graphic url="s24_april1.jpeg"/></figure>
+<lb/><lb/><figure><graphic url="s27_april2.jpeg"/></figure></p>
+<p rend="noIndent"><date when="1856-04-01"><hi rend="initial">1.</hi></date> Med Posten igaar modtog jeg atter et Brev (N<hi rend="raised">o</hi> 3) fra Fru Bruun i Berlin. Jeg sender Brevet imorgen med hosf. Skrivelse til Assessoren.</p>
+<p rend="noIndent"><date when="1856-04-02"><hi rend="initial">2</hi></date> Svar fra Assessor Bruun (Fru B<hi rend="raised">s</hi> S&#x00F8;ster Jfr Bruun paa Kongsvinger er tilstillet 25 Sp af de omtalte 50.) Fru B<hi rend="raised">s</hi> Brev til mig tilbagesendt. 
+<lb/>&#x2013; F&#x00E6;tter Christian Lasson gik d 29<hi rend="raised">de</hi> f M. som Postexpedit&#x00F8;r med Kj&#x00F8;benhavnsdampskibet.</p>
+<p rend="noIndent"><date when="1856-04-03"><hi rend="initial">3.</hi></date> <hi rend="italic">Skrevet til Berg i Stockholm</hi> ianl af Gudes Ytring at B. havde forundret sig over intet at have h&#x00F8;rt fra mig om Sangene.</p>
+<p rend="noIndent"><date when="1856-04-05"><hi rend="initial">5.</hi></date> <hi rend="italic">Arnold</hi> kom hjem med Dampskib fra G&#x00F6;theborg igaar. &#x00AB;Reich bin ich freilich nicht geworden, sagde han med sin vante Freidighed, aber auch nicht arm. Sonst ging alles recht sch&#x00F6;n&#x00BB;. 
+<lb/>&#x2013; Statsraad Erichsen er gaaet af og Hagerup er blevet hans Eftermand. 
+<lb/>&#x2013; Theodors Univ.<hi rend="raised">s</hi> program om Christdalens geogr. Forh. er blevet h&#x00E6;drende omtalt i en Naturforskersamling i Bonn (eller var det C&#x00F6;ln).</p>
+<p rend="noIndent"><date when="1856-04-06"><hi rend="initial">6.</hi></date> <hi rend="italic">Arnold bragte mig Brev fra Ludvig Norman</hi> &#x2013; et ganske m&#x00E6;rkeligt Brev til Belysning af Musiktilstandene i Stockholm. N. siger om sig selv at han er utilfreds og vil for Alvor gaa til Tydskland. Lindhult skal v&#x00E6;re i Paris. Om Berg mener han at det er en Lykke at protegeres af ham da han har Indflydelse bl. de Fornemme og godt veed at &#x00AB;tala f&#x00F6;r varen&#x00BB;.</p>
+<p rend="noIndent"><date when="1856-04-07"><hi rend="initial">7.</hi></date> Musiksoireerne fik idag en Forts&#x00E6;ttelse ved Dahls store Tilstelning som ellers var ganske anderledes heldig end J&#x00FC;rgensens. Man skreg rigtignok mere end man sang, men det kan jo ikke v&#x00E6;re andet at vente. Min Bassist Meyer var den eneste som har en virkelig Klangbund i Stemmen. Sperati har utrolig Routine som Dirigent for italienske Sager. Med Mozart farer han derimod noget for plumpt. Marie Manthey havde Zerlinas Parti i Septetten af d. J. Sestetto finale af 2<hi rend="raised">den</hi> A af Lucia gaves ogsaa bl. m. A. Fru Sars straalede i Deilighed.</p>
+<p rend="noIndent"><date when="1856-04-11"><hi rend="initial">11.</hi></date> <hi rend="italic">&#x00AB;Lucile&#x00BB; eller &#x00AB;Tag og L&#x00E6;r&#x00BB; af Monod.</hi> (Om Bibelens Guddommelighed og om dens Fortolkning. En m&#x00E6;rkelig Bog.) &#x2013; (Monod er nylig d&#x00F8;d i Paris. &#x2013; i disse Dage.)</p>
+<p rend="noIndent"><date when="1856-04-14"><hi rend="initial">14.</hi></date> <hi rend="italic">Brev fra Berg i Stockholm</hi> med den s&#x00F8;rgelige Melding at Musikalierne som blev sendt med Pakkepost d 23<hi rend="raised">de</hi> Jan. <hi rend="italic">slet ikke er komne til</hi> S. Naar de saasandt komme skal Trykningen gaa for sig. <hi rend="italic">Det var Prinds Oskar der den 14<hi rend="raised">de</hi> Marts paa Slottet i S. sang mine Sange.</hi> Berg er spendabel med Ros. &#x00AB;Disse Sange er virkelig saa smukke at de med et &#x00E6;delt og varmt Foredrag aldrig vil forfeile at interessere hvert mus. Hjerte&#x00BB; o.s.v.</p>
+<p rend="noIndent"><date when="1856-04-16"><hi rend="initial">16.</hi></date> <hi rend="italic">Brev fra Fr&#x00F8;ken L&#x00F6;vgr&#x00E9;n</hi> i Stockholm. (<hi rend="italic">Maa besvares</hi>)</p>
+<p rend="noIndent"><date when="1856-04-17"><hi rend="initial">17</hi></date> Isen er idag borte fra Havnen men ikke ganske mellem &#x00D8;erne og Piperviken.</p>
+<p rend="noIndent"><date when="1856-04-18"><hi rend="initial">18.</hi></date> Betty Smidth er nu siden f. H&#x00F8;st Skuespillerinde ved Casino i Kbhvn. Hendes Mand (som atter er hendes Mand) er ogsaa ansat der. Christian Lasson saa hende spille nylig &#x2013; hun ansaaes som en af de bedste ved Casino. Hun saa endnu godt ud skj. naturl. &#x00E6;ldre &#x2013; men Blikket sagde han var noget stift, mat, slukket.</p>
+<p rend="noIndent"><date when="1856-04-20"><hi rend="initial">20.</hi></date> I disse Dage comp<hi rend="raised">t</hi> et Klaverstykke, et Slags Vaar Idyl A<hi rend="raised">dur</hi>.</p>
+<p rend="noIndent"><date when="1856-04-23"><hi rend="initial">23.</hi></date> &#x00AB;Jernmasken&#x00BB; musik. Pasticcio &#x2013; i 3 Akter. bearb af Borgaard og Sperati. Wolff og M<hi rend="raised">me</hi> Ursin sang ganske godt. Der var en stor Masse Musik, ligesaameget som i en Opera.</p>
+<p rend="noIndent"><date when="1856-04-26"><hi rend="initial">26.</hi></date> Jfr Ursin spillede iaften paa Jfr Klingenbergs Aftenunderholdning i det n. Th. Mendelssohns g<hi rend="raised">m</hi> Concert. Orkestret gik meget maadeligt men hun holdt sig tappert desuagtet. Hun sp. naturligvis &#x00E6;ngsteligt, uden Liv og Fylde men man m&#x00E6;rkede dog baade Studiet og Anl&#x00E6;gget trods Frygten. 
+<lb/>&#x2013; Erika Anker kom fra Df i Tirsdags. Hendes Forlovelse med L<hi rend="raised">t</hi> Riis er nu publik.</p>
+<p rend="noIndent"><date when="1856-04-27"><hi rend="initial">27.</hi></date> Fadder til Lindorfs Barn (Helene Mathilde).</p>
+<p rend="noIndent"><date when="1856-04-28"><hi rend="initial">28.</hi></date> <hi rend="italic">Skrevet til Hirsch og til Ida L&#x00F6;vgr&#x00E9;n</hi> (indl. i H.<hi rend="raised">s</hi> Brev)</p>
+</div>
+<div type="chapter">
+<head type="main"><ref type="contents" target="contents_5" xml:id="chapter_5">Mai.</ref></head>
+<p rend="center"><figure><graphic url="s28_mai1.jpeg"/></figure>
+<lb/><lb/><figure><graphic url="s31_mai2.jpeg"/></figure>
+</p><p rend="noIndent"><date when="1856-05-01"><hi rend="initial">1.</hi></date> Moder 64 Aar gl. &#x2013; Gratulationsbes&#x00F8;gene af Familien en gros. &#x2013; En stor Nyhed bragtes &#x2013; nemlig F&#x00E6;tter <hi rend="italic">Richards Forlovelse med Ida Bertelsen</hi>. 
+<lb/>&#x2013; Skrevet en 4<hi rend="raised">st</hi> Serenade (Text af Geibel).</p>
+<p rend="noIndent"><date when="1856-05-04"><hi rend="initial">4.</hi></date> Kolde, kolde Maidage! &#x2013; Paa V&#x00E6;kker&#x00F8; idag var L<hi rend="raised">t</hi> Riis og hans Erika. Fr&#x00F8;ken Marie Sneedorff var kommet fra Helsing&#x00F8;r ianl af Agnes’ Bryllup. 
+<lb/>&#x2013; Igaar i det phil. Lokale gav den belgiske <hi rend="italic">Violinspiller M. Leenders en Concert for</hi> faa men meget taknemmelige Tilh&#x00F8;rere. Han er en Elev af Leonard, spiller elegant, kraftigt, nydeligt; &#x00E6;gte fint Salonspil. Men nogen indre R&#x00F8;relse frembringer han ikke. Han sp. Beriot, Artot, Bazzini m m. Deiligt sp sordino en Berceuse af Reber og endte med en h&#x00F8;ist virksom Hexedans af Bazzini. &#x2013; Sperati akkompagnerede.</p>
+<p rend="noIndent"><date when="1856-05-05"><hi rend="initial">5.</hi></date> <hi rend="italic">Brev til Gude</hi>.</p>
+<p rend="noIndent"><date when="1856-05-08"><hi rend="initial">8.</hi></date> <hi rend="italic">Brev fra Stockholm fra Hirsch<hi rend="raised">s</hi> Forretningsf&#x00F8;rer Schildknecht</hi> at Sangene virkelig er ankomne og at Trykningen vil paabegyndes saasnart Svar fra Hirsch selv er indl&#x00F8;bet til hvem han strax skrev Brev. H. er neml paa en udenl. Reise og for &#x00D8;iebl i Leipzig.</p>
+<p rend="noIndent"><date when="1856-05-09"><hi rend="initial">9.</hi></date> <hi rend="italic">Leenders 2<hi rend="raised">den</hi> Concert</hi> i Logen. Tyndt men dog ikke aldeles slet Huus; stor Enthusiasme. Anna Ursin maatte dennegang assistere med et Pfte N<hi rend="raised">o</hi> neml Talbergs Straniera-Fantasi. Hun var for r&#x00E6;d og kom derfor et Par Gange slemt ud af det men hun spillede forresten med Foredrag, Rundhed og selv ikke uden en vis Noblesse i Foredraget. Jeg t&#x00F8;r vel sige at jeg har l&#x00E6;rt hende <hi rend="italic">meget</hi>. Fru Petersen sang &#x2013; ak, saa fladt, saa fladt!</p>
+<p rend="noIndent"><date when="1856-05-10"><hi rend="initial">10.</hi></date> <hi rend="italic">Pintseaften: Theodor og Agnes Ankers Bryllup</hi>. De viedes kl 8 Aften paa Kongsvinger i Commandantboligen af Provst Rynning en overmaade ugeistlig Pastor og skammelig slet og sjusket Taler. Men der var Ingen anden at faa deroppe. Ellers var Festen nok saa smuk. Agnes var inderlig s&#x00F8;d. Axel og jeg var Forlovere. Marie Sneedorf og Emilie Lasson Brudepiger. N&#x00E6;rv&#x00E6;rende ved Vielsen var: General og Generalinde Anker, Grev P. Wedel, Fr&#x00F8;kenerne Karen og Erica; Emilie L og Marie S.; A og jeg; Lieutn A. Riis, Carsten Anker, Provstens D&#x00F8;tre og den ene af disses Forlovede L<hi rend="raised">t</hi> Rosenquist. - Capt V&#x00E6;renskjold m. Frue og Svigerinde. Vi (Greven, Emilie og A og jeg) ankom kl 6. efter en temmelig rap Reise i blankt smukt Veir paa st&#x00F8;vet Vei. S&#x00E6;rdeles vakker er Veien fra Vormsund til Vinger og F&#x00E6;stningen ligger pragtfuldt. (M&#x00E6;rk den nye store Bue bro over Glommen lige under F&#x00E6;stningen og Byen).</p>
+<p rend="noIndent"><date when="1856-05-11"><hi rend="initial">11</hi></date> Paa Kongsvinger og</p>
+<p rend="noIndent"><date when="1856-05-12"><hi rend="initial">12.</hi></date> Hjemreise (Greven og Axel og jeg). De Nygifte blive Ugen ud deroppe. &#x2013; 
+<lb/>&#x2013; Thorvald K<hi rend="raised">s</hi> Frue Mathilde fik en S&#x00F8;n Pintseaften. Mama og Lina h&#x00F8;itideligholdt Bryllupsdagen ude hos Grevinden paa V&#x00E6;kker&#x00F8;. N&#x00E6;ste Dag havde Tante S. Forlovelsesmiddag for Richard og Ida Bertelsen.</p>
+<p rend="noIndent"><date when="1856-05-13"><hi rend="initial">13.</hi></date> Leenders sp. i Theatret 3 N<hi rend="raised">o</hi> bl. a. Carneval de Venise ganske fortr&#x00E6;ffeligt. Fru Lundahl (f&#x00F8;r Jfr Hardenberg) sang et Par Arier. 
+<lb/>&#x2013; Kl 10 om aft kom Sangerne tilbage fra Frhald. Festen har v&#x00E6;ret meget pr&#x00E6;gtig, og alt gik godt.</p>
+<p rend="noIndent"><date when="1856-05-14"><hi rend="initial">14.</hi></date> F&#x00F8;rste virkelige Vaar Regn. Marken er gr&#x00F8;n og L&#x00F8;vet spirer. Luften er mild.</p>
+<p rend="noIndent"><date when="1856-05-15"><hi rend="initial">15.</hi></date> <del rend="overstrike"><hi rend="italic">Skrevet til Hirsch</hi>. (Schildknecht)(2 rettelser i Sangene)</del></p>
+<p rend="noIndent"><date when="1856-05-20"><hi rend="initial">20.</hi></date> Theodor og Agnes kom igaaraftes fra Kongsvinger, men for sent til at kunne gaa med Banetoget kl 4. De maatte derfor tage Skyds ogsaa de sidste tre Mil. A. er meget glad i sin lille Bolig og ikke mindst i den virkelig nydelige Dagligstue. 
+<lb/>&#x2013; Geo. Sibbern er ank. hertil fra Amerika for som man siger at blive Kabinetssekret&#x00E6;r hos Vicekongen.</p>
+<p rend="noIndent"><date when="1856-05-22"><hi rend="initial">22.</hi></date> <hi rend="italic">Kronprindsen med Gemalinde kom <del rend="overstrike">idag</del> igaar</hi>. 
+<lb/>&#x2013; <hi rend="italic">Skrevet til Hirsch (Schildknecht) og til L. Norman</hi>.</p>
+<p rend="noIndent"><date when="1856-05-25"><hi rend="initial">25.</hi></date> Kaja M<hi rend="raised">s</hi> Geburtsd. og Bryllupsdag. Selskab hos Lassons for Agnes og Theodor. Marie Sneedorff og Marie Garben var der. &#x2013; Wilhelm Nicolaysen er forlovet med Marie Cappelen i Kbhvn.</p>
+<p rend="noIndent"><date when="1856-05-31"><hi rend="initial">31.</hi></date> Marie Lasson reist til Kbhvn. Tante S. og Kathinka til Sandefjord.</p>
+</div>
+<div type="chapter">
+<head type="main"><ref type="contents" target="contents_6" xml:id="chapter_6">Juni.</ref></head>
+<p rend="center"><figure><graphic url="s32_juni1.jpeg"/></figure>
+<lb/><lb/><figure><graphic url="s35_juni2.jpeg"/></figure>
+</p><p rend="noIndent"><date when="1856-06-07"><hi rend="initial">7.</hi></date> <hi rend="italic">Iaften kl 9. afgaa Upsalafarerne med Gangerrolf</hi>. (Welhaven, A. Munch, C. Boeck, Monrad. <del rend="overstrike">er med af Profess</del>.). 
+<lb/>&#x2013; Greven og Grevinden til Jarlsberg. 
+<lb/>&#x2013; I Onsdags d 4<hi rend="raised">de</hi> var Borgerbal for Vicekongen og Kronprindsessen.</p>
+<p rend="noIndent"><date when="1856-06-12"><hi rend="initial">12</hi></date> Igaar kom Studenterne til Stockholm og skulde derfra strax til Upsala 
+<lb/>Paa L&#x00F8;rdag tilbage til Stockholm. Tirsdag Morgen fra S. 
+<lb/>&#x2013; I Tirsdags stort Middagsgilde hos Hr P. Petersen hvor v. Hanno benyttede Stemningen til at anbringe Planen til Aktietegning for en Turn-Bygning. Jeg tegnede 5 og troede dermed at have sat 5 Spd., men 5 skulde sige 5 Aktier a 10 Sp = 50 Sp. Jeg har derfor idag tilskrevet v. Hanno om Feiltagelsen og bedet mig antegnet for 1 Aktie. a 10 Sp. hv endda ikke havde v&#x00E6;ret gjort hvis ei P. Petersen havde gjort Middagsgilde. 
+<lb/>&#x2013; <hi rend="italic">Cappelens Pftelager</hi> er nu ganske remarkabelt. Pleyel, Erard og en ny: Souffleto hvis Pianinos er ret vakre. Men to Erardske Flygler staa der af herlig Klang og prima Qualitet is&#x00E6;r det korte. 
+<lb/>&#x2013; <hi rend="italic">Paa L&#x00F8;rdag d 14<hi rend="raised">de</hi> reiser Axel til Sandefjord; Theodor ud paa vidensk. Forskning og Agnes til Jarlsberg</hi>. 
+<lb/>d 14<hi rend="raised">de</hi> Den franske Keiserprinds’ Daab. Pr. Oscar repr&#x00E6;s. Dronningen som Fadder. En Cardinal Paven. d 15<hi rend="raised">de</hi> skulde Pr. Napoleon afgaa paa en vidensk. Expedition til Island og Skandinavien. 
+<lb/>d 15<hi rend="raised">de</hi> Storartet Fest paa Drottningholm givet Studenterne af Kong Oscar (Aftonbl. f. 16<hi rend="raised">de</hi>). 
+<lb/>&#x2013; Marie Lasson kom tilbage d 13<hi rend="raised">de</hi> Hun var ikke til at bev&#x00E6;ge til at blive der l&#x00E6;nger. Dette ligner hende ogsaa ganske.</p>
+<p rend="noIndent"><date when="1856-06-18"><hi rend="initial">18.</hi></date> Mad Kj&#x00F8;ls Uheld med sine H&#x00E6;nder.</p>
+<p rend="noIndent"><date when="1856-06-19"><hi rend="initial">19.</hi></date> Brev fra Due med Tak paa D&#x00F8;trenes Vegne.</p>
+<p rend="noIndent"><date when="1856-06-22"><hi rend="initial">22</hi></date> <hi rend="italic">Kl 9 iaften kom Ganger Rolf tilbage med Studenterne</hi>. Ikke Faa skal v&#x00E6;re tilbage i Stockholm, <del rend="overstrike"><gap/></del> og is&#x00E6;r i Danmark. Welhaven skal have v&#x00E6;ret syg den sidste Dag i Upsala og den Dag da Festen paa Drotningholm fandt Sted. Jeg talte iaften med Henrik Meyer som n&#x00E6;rede en Tvivl om Sygdommens Sandhed da han havde h&#x00F8;rt ymte om Rivninger mellem den norske og danske Bestyrelse. Nok er det norske Talere savnedes i Stockolm. Men i Upsala i den bot. Have skal Welhaven have talt fortr&#x00E6;ffeligt. Ploug talte rent ud politisk-skandinavisk baade i U. og S. Meyer havde det bedste Indtryk fra Upsala. I Stockholm syntes det mere tilstelt undtagen hos Kongen hvor Modtagelsen var storartet og Enthusiasmen uhyre. 
+<lb/>Lidt smertefuldt var det mig at h&#x00F8;re at <hi rend="italic">Berg og Helene endnu var i S</hi>. og at jeg hvis jeg var reist med altsaa havde truffet dem. Hjort havde talt med Bergs l&#x00E6;nge og meget siger M. Meyer hilste mig fra Josephsons og fra <hi rend="italic">Abr. Hirsch</hi>. <hi rend="italic">Sangene var nu under Trykning</hi> &#x2013; altsaa ikke f&#x00E6;rdige &#x2013; nu det havde jeg jo heller ikke saa ganske ventet. Fagerlin havde ogsaa M. talt med. Festen i Kbhvn (Eremitagen) var noget vel i Hui og Hast mente M. og Kongen af Danmark kunde paa langt n&#x00E6;r ikke ved sin Fremtr&#x00E6;den komme op mod K. Oskar. Bev&#x00E6;rtningen havde imidlertid v&#x00E6;ret kongelig. &#x2013; Upsalasangerne havde v&#x00E6;ret pr&#x00E6;gtige, is&#x00E6;r Tenoristerne hvis M&#x00E6;ngde og Dygtighed havde frapperet Meyer. &#x2013; Anker var ogsaa fremdeles i S. &#x2013; kort; jeg burde have v&#x00E6;ret med. 
+<lb/>&#x2013; Hjort havde mange Hilsener til mig fra Bergs for hvem han blev forestillet af Fagerlin ved Festen paa Hasselbakken. Helene fandt han ganske bedaarende. F&#x00E6;tter Carl som i Upsala boede hos Josephson sammen med Prof Hartman havde ogsaa venligste Hilsener. Med Hirsch talte han i Stockholm; og H. ytrede sig meget fordelagtigt om mig.</p>
+<p rend="noIndent"><date when="1856-06-23"><hi rend="initial">23.</hi></date> S<hi rend="raised">t</hi> Hansaften paa B&#x00E6;rum hos Baronen hvor der var mange Gj&#x00E6;ster. bl. a. Chr D&#x00F8;derlein som nu er Capellan paa Bjerke, og hans Malvina.</p>
+<p rend="noIndent"><date when="1856-06-24"><hi rend="initial">24.</hi></date> <hi rend="italic">Sexa i Studenterlunden</hi> for de hjemkomne Upsalafarere. Richter, Welhaven, Gjertsen, Friis m.m.fl talte. <hi rend="italic">Kronprindsen</hi> indfandt sig af egen Drift senere ud paa Aftenen og sagde nogle varme kraftigt udtalte Ord &#x2013; paa ret godt norsk. &#x2013; <hi rend="italic">Carsten Anker</hi> er blevet Kammerherre hos Kronprindsen.</p>
+<p rend="noIndent"><date when="1856-06-28"><hi rend="initial">28.</hi></date> Kronprindsessen reiser idag med Dampsk &#x00AB;Louise&#x00BB; til Kbhvn og videre til Haag. Karen Anker er med men gaar af i D&#x00FC;sseldorf. Oscar M* er i hendes F&#x00F8;lge. &#x2013; Marie Garben reiste til Sandefjord.</p>
+<p rend="noIndent"><date when="1856-06-29"><hi rend="initial">29.</hi></date> I de sidste Morgenblade er indf de to f&#x00F8;rste Afd. af en ganske velskreven Opsats om Studentertoget; (rimeligvis Bj&#x00F8;rnson). Illustr. Nyhedsbl. har ogsaa paabegyndt en d<hi rend="raised">o</hi> &#x2013; I Mgbl for igaar stod Welhavens Tale i Studenterlunden. 
+<lb/>&#x2013; <hi rend="italic">Brev fra Schildknecht</hi> i S. om Sangenes snare Udgivelse modt. d. 27<hi rend="raised">de</hi> dat d. 23<hi rend="raised">de</hi>. 
+<lb/>&#x2013; <hi rend="italic">Idag skrevet til Schildknecht med indlagt Dedikationsskr. til Berg.</hi></p>
+</div>
+<div type="chapter">
+<head type="main"><ref type="contents" target="contents_7" xml:id="chapter_7">Juli.</ref></head>
+<p rend="center"><figure><graphic url="s36_juli1.jpeg"/></figure>
+<lb/><lb/><figure><graphic url="s39_juli2.jpeg"/></figure>
+</p><p rend="noIndent"><date when="1856-07-03"><hi rend="initial">3.</hi></date> Ogsaa Juli kold og vindig, lader det til. Igaar afskyelig surt iformiddags virkelig sommervarmt, iaften atter kold Vind. Jeg har endnu ikke badet. 
+<lb/>&#x2013; Theodor som kom hjem igaar havde idag Audients hos Vicekongen som lod til fra G. Sibbern at kjende til hans Forholde og som var h&#x00F8;ist elskv&#x00E6;rdig og med Deltagelse h&#x00F8;rte paa de Planer Th. havde for Landets geologiske Unders&#x00F8;gelse, og lovede ham sin bedste Hjelp til at faa denne Plan for Storthinget.</p>
+<p rend="noIndent"><date when="1856-07-04"><hi rend="initial">4.</hi></date> Til den Soupee som Vicekongen giver idag paa Ladegaards&#x00F8;en er ogsaa Theodor indbuden. 
+<lb/>&#x2013; <hi rend="italic">Brev fra Gude</hi> (Df d. 29<hi rend="raised">de</hi>) Han reiser om 3 Uger til M&#x00FC;nchen, Tyrol, Wien Prag, Dresden, Berlin for at studere Vegetation og se Gallerierne. Betsy og B&#x00F8;rnene skal imidlertid bo i Oberwesel. 
+<lb/><hi rend="italic">Gude bringer mig en Hilsen fra Pr. Oscar</hi> som han paalagde ham da han paa Reisen til Paris var i Df. Det var da naturl Complimenter for mine Sange som han alle kunde og interesserede sig meget for! 
+<lb/><hi rend="italic">Om Musikfesten</hi> skr. G. at Orkestret blev bedre ledet af Rietz end af Hiller ifjor; at Primadonna ingen Lykke gjorde men at Baritonisten Stockhausen var aldeles ypperlig.</p>
+<p rend="noIndent"><date when="1856-07-06"><hi rend="initial">6.</hi></date> For 4<hi rend="raised">de</hi> Gang comp<hi rend="raised">t</hi> &#x00AB;Hvad mon jeg har andet villet&#x00BB;. Er det nu den sidste?</p>
+<p rend="noIndent"><date when="1856-07-07"><hi rend="initial">7</hi></date> Hos Fru Due. (Augusta Sibbern syg.).</p>
+<p rend="noIndent"><date when="1856-07-08"><hi rend="initial">8</hi></date> Lina reiser idag over Frhald til &#x00D8;r i Sverige. 
+<lb/>&#x2013; Agnes tilbage. 
+<lb/>&#x2013; S&#x00F8;ndag Aften kom Prindsen af Oranien hertil; han er 16 a 17 Aar og reiser med sin Gouvern&#x00F8;r og Adjutant paa Dampsk Merapi. 
+<lb/>&#x2013; Efter den megen Bl&#x00E6;st og T&#x00F8;rhed, idag en gevaltig Regndag, men ogsaa lidt sur.</p>
+<p rend="noIndent"><date when="1856-07-09"><hi rend="initial">9.</hi></date> <hi rend="italic">Augusta Sibbern skal v&#x00E6;re d&#x00F8;d inat</hi>. (Sygdommen var kort men heftig. Obduktionen viste en Forstoppelse i en Tarm.)</p>
+<p rend="noIndent"><date when="1856-07-12"><hi rend="initial">12.</hi></date> Idag blev hun begravet. &#x2013; Agnes Sibberns Sygdom skal ikke v&#x00E6;re uden Fare. 
+<lb/>&#x2013; Naturforskerm&#x00F8;det begyndte idag. I den geologiske Sektion hvor Forchhammer pr&#x00E6;siderer, er Theodor Sekret&#x00E6;r.</p>
+<p rend="noIndent"><date when="1856-07-14"><hi rend="initial">14.</hi></date> <hi rend="italic">Pr. af Oranien</hi> reiste ifm<hi rend="raised">d</hi> paa sin Damper &#x00AB;Merapi&#x00BB;. <hi rend="italic">Kronprindsen</hi> reiste paa &#x00AB;Vidar&#x00BB; kl 9 iaften. Iforveien havde han paa Hovedgaarden Middag for Naturforskerne. Han var yderst fidel og gjorde stormende Lykke med sine Toaster. <hi rend="italic">Theodor var ogsaa buden og Vicekongen viste ham ogsaa dennegang paafaldende Opm&#x00E6;rksomhed</hi>, talte med ham, anbefalede Forchhammer at skrive om ham og puffe ham frem osv, bad ham hilse Agnes, kort var aimabel. Der herskede stor Gemytlighed. Hansteen, Admiral Bille, Retzius, Forchhammer, Faye mfl talte. Den Sidste paa Esplanaden foran Oskarshall hvorhen man spadserede. &#x2013; Imorgen skal Theodor holde sit Foredrag. Naturf. reiste frem og tilbage med &#x00AB;Viken&#x00BB;. 
+<lb/>&#x2013; <hi rend="italic">Skrevet til Gude</hi> ang. &#x00D8;stgaards Obligation.</p>
+<p rend="noIndent"><date when="1856-07-17"><hi rend="initial">17.</hi></date> De sidste Dage har v&#x00E6;ret milde og varme, virkelig Sommerdage. 
+<lb/>&#x2013; <hi rend="italic">Iaften gav Prof Nielsen fra Kbhvn</hi> et Deklamatorium i Theatret. 
+<lb/>&#x2013; Welhavens ypperlige Tale i Upsala staar i Xaniaposten for idag.&#x00A0;&#x2013;</p>
+<p rend="noIndent"><date when="1856-07-19"><hi rend="initial">19.</hi></date> <hi rend="italic">Stang</hi> skal nu v&#x00E6;re kommet til Christiansand.</p>
+<p rend="noIndent"><date when="1856-07-20"><hi rend="initial">20.</hi></date> Idag forlader Axel Sandefjord. Kommer dog hjem f&#x00F8;rst d. 1<hi rend="raised">ste</hi> Aug. 
+<lb/>&#x2013; Theodor og Agnes reiser imorgen. 
+<lb/>&#x2013; <hi rend="italic">Idag paa en S&#x00E6;tertour</hi>; inviteret af <hi rend="italic">Th<hi rend="raised">r</hi> Heftye til hans Ejendom Sarasbraaten</hi> ved N&#x00F8;klevandet omtr en kort Mil fra Byen i Retningen mellem Sch&#x00F8;yen og Abilds&#x00F8;. Afreise if. trykt Program. Kl 9 fra Samlingspladsen Oslo Ladegaard. Jeg kj&#x00F8;rte med Friele i Heftyes egen Gigh som hentede mig. Siden kj&#x00F8;rte F og jeg med Sorenskr. Egeberg. Frokost kl 12 paa S&#x00E6;teren (Fjeldstue bygget af Schirmer) Schweitzeren Hiesland og hans Ost. Vandring til H&#x00F8;jaasen. Herlig Udsigt deroppe over det vide Skovlandskab i Christianiadalen. Man skal kunne se Gausta men Luften var ei saa klar skj Veiret ellers var udm&#x00E6;rket; Solskin og Varme. Middag kl 4. God Stemning. Dog lidt Kvakel foranl af Welhaven formedelst hans noget for vidt drevne Fritalenhed. Mod Aften opbr&#x00E6;ndes en gl. Hytte paa N&#x00F8;klevandsbraaten. Albumet (Kronprindsens Vers). Retour kl 9. Bl. Gj&#x00E6;sterne: Prof Worsaae fra Kbhvn, R. Keyser, Welhaven, Conradi, Fougstad, Borgaard, 3 Hrr Rosenberg, 2 Heftyer, Ingier, 2 Hrr Andresen, Meltzer, S. L&#x00F8;venskjold, Harald Knudtzon, Sorenskr Egeberg, Graah jun, Fleischer, Brandt, v Hanno, Friele Halvor Schou, Kloed, Lars Lassen.</p>
+<p rend="noIndent"><date when="1856-07-21"><hi rend="initial">21.</hi></date> Vidunderligt deiligt Sommerveir. En dunkel, mild Aften. Badet 1<hi rend="raised">ste</hi> Gang iaar.</p>
+<p rend="noIndent"><date when="1856-07-23"><hi rend="initial">23.</hi></date> <hi rend="italic">Svar fra Julius Gude</hi> om Obligationen.</p>
+<p rend="noIndent"><date when="1856-07-24"><hi rend="initial">24.</hi></date> <hi rend="italic">Breve fra Stockholm af 21<hi rend="raised">te</hi> fra Berg og Schildknecht melde at mine Sange nu endelig er udkomne. Expl er afgivne til Berg, Josephson, Norman, Hallstr&#x00F6;m og Fru Due og jeg faar her 10 Expl</hi>. 
+<lb/>&#x2013; Skuespillerinden <hi rend="italic">Anna Nielsen</hi> (Wexschall) <hi rend="italic">d&#x00F8;d</hi> d 21<hi rend="raised">te</hi> i Kj&#x00F8;bhvn.</p>
+<p rend="noIndent"><date when="1856-07-28"><hi rend="initial">28.</hi></date> I Aftonbl og Sv. Tidn for 24<hi rend="raised">de</hi> annonceres mit Sanghefte saal: hos Abr. Hirsch udk: &#x00AB;<hi rend="italic">Sex S&#x00E5;nger med Accomp. af Piano Kgl Hofsangaren Hr I.A. Berg tilegnade af Halfdan Kjerulf</hi>. Pr 1 Rd. 16 sk. Bco.
+<lb/>
+<lb/>&#x271D; <hi rend="italic">Robert Schumann d&#x00F8;de den 29. i Endenich ved Bonn</hi>. Han hensov blidt og stille. Clara og Vennerne Joachim, Brahms og Dietrich var n&#x00E6;rv&#x00E6;rende.</p>
+</div>
+<div type="chapter">
+<head type="main"><ref type="contents" target="contents_8" xml:id="chapter_8">Reise til og Ophold i Dresden (29 Juli til 25. August).</ref></head>
+<p rend="noIndent"><date when="1856-08-02"><hi rend="initial">29<hi rend="raised">de</hi></hi></date> Juli med <hi rend="italic">Viken</hi>. I Kiel d 31<hi rend="raised">ste</hi> Fm. I Hamburg kl 8 om Aftenen. Luften mild og Veiret det allerdeiligste. (Prof Boeck (W) og S&#x00F8;n. Nickelsen og Kone. Sinding. Krohn, finsk Student. David Hanson. Faye. M&#x00F6;lback. L<hi rend="raised">t</hi> Otto. Th. Thoresen) R&#x00F8;sholm (NB).</p>
+<p rend="noIndent"><date when="1856-08-02"><hi rend="initial">2<hi rend="raised">dre</hi> August</hi>.</date> L&#x00E6;st i Aviserne om Schumans D&#x00F8;d. &#x2013; I Hamburgs restaurerede Stadttheater <hi rend="italic">Wagners Tannh&#x00E4;user</hi> under Ignaz Lachners Direktion. Trods al Modstr&#x00E6;ben maa jeg indr&#x00F8;mme at denne Opera har meget for sig. Texten er ypperlig; Musiken, trods sin Mangel paa melodiske Motiver og afsluttede dramat. Former, har megen Schwung. Tannh&#x00E4;user: Hr <hi rend="italic">Humtzer</hi>. Wolfram Hr <hi rend="italic">Hardmuth</hi> (god Bariton) Venus: Fru Hardmuth. De &#x00D8;vrige slette. Mens mise en scene ret god. Orkester taaleligt. Chor ditto. &#x2013; Zings Kaffe og de s&#x00E6;dvanl hamburgske Aftensurser.</p>
+<p rend="noIndent"><date when="1856-08-03"><hi rend="initial">3<hi rend="raised">die</hi></hi></date> <hi rend="italic">Med Morgentoget til Berlin</hi> (II Cl). Trykkende Hede og kjedeligt Selskab. (Just med S&#x00F8;n). <hi rend="italic">Hotel Rother Adler</hi>: temmelig slet. 
+<lb/>Operahuset: <hi rend="italic">Thea, die Blumenfee</hi> Ballet, h&#x00F8;ist bl&#x00E6;ndende Sceneri og Corps de ballet. Godt Orkester; deilig Harpe. Brillant Gasbelysning i <hi rend="italic">Krolls</hi> Garten. Elegant Publikum. Gungls Orkester.</p>
+<p rend="noIndent"><date when="1856-08-04"><hi rend="initial">4<hi rend="raised">de</hi></hi></date> Tordenluft. &#x2013; Neues Museum. &#x2013; <hi rend="italic">Theatret i Krolls Sal</hi>. (Fr. Braunecke-Sch&#x00E4;fer som &#x00AB;Therese Krones&#x00BB; meget god.)</p>
+<p rend="noIndent"><date when="1856-08-05"><hi rend="initial">5<hi rend="raised">te</hi></hi></date> <hi rend="italic">Til Dresden</hi> over R&#x00F6;derau (&#x00BE;7 til 12&#x00BC;). Heinemans Hotel &#x2013; kj&#x00E6;rt Gjensyn; kjendte Ansigter. Udstilling paa Br&#x00FC;hl. &#x2013; <hi rend="italic">Theatret</hi>: <hi rend="italic">Nicolais</hi> Lust. Weiber in Windsor. (Tynd og let) <hi rend="italic">Jenny Ney-B&#x00FC;rde</hi> og R&#x00E6;der. (Th. Thoresen).</p>
+<p rend="noIndent"><date when="1856-08-06"><hi rend="initial">6.</hi></date> St&#x00E6;rk Sommervarme. Waldschl&#x00F6;sschen. Theatret: <hi rend="italic">Shakesp: Romeo u Julie</hi>. H&#x00F8;ist interessant (Julie: <hi rend="italic">Frl Seebach</hi> fra Wien. Mercutio: <hi rend="italic">Dawison</hi>.)</p>
+<p rend="noIndent"><date when="1856-08-07"><hi rend="initial">7<hi rend="raised">de</hi></hi></date> <hi rend="italic">Indtryk af det ny Mus&#x00E6;um</hi> og Zwingers Restauration. Billedernes ny Opstilling. Den sixt. Madonna i eget Rum og i en altarm&#x00E6;ssig Indfatning. Canalettis arch. Billeder og endel levende sachs. Kunstn. V&#x00E6;rker er indl. i Galleriet. Theater: Scribes <hi rend="italic">Adrienne Lecouvreur</hi>. Titelrollen: <hi rend="italic">Seebach</hi>. Michonnel, Under-Regiss&#x00F8;ren: <hi rend="italic">Dawison</hi>. Begge udm&#x00E6;rkede, is&#x00E6;r D. (Den smukke Marie Michalesi).</p>
+<p rend="noIndent"><date when="1856-08-08"><hi rend="initial">8.</hi></date> <hi rend="italic">Bes&#x00F8;gt Rosing i Tharand</hi>. (pr Albertsbanen i &#x00BD; Time) Overnattet hos ham.</p>
+<p rend="noIndent"><date when="1856-08-09"><hi rend="initial">9<hi rend="raised">de</hi></hi></date> Morgenspads. med R. (Thalm&#x00FC;hle). Retour kl 9&#x00BD;. Sjelemesse i Kath Kirke ianl af Fr. Aug D&#x00F8;dsdag. Kong Johan n&#x00E6;rv&#x00E6;rende. 
+<lb/><hi rend="italic">Damptour til Meissen</hi> med 3 Landsm&#x00E6;nd. (Dens herlige Dom og Slottet).</p>
+<p rend="noIndent"><date when="1856-08-10"><hi rend="initial">10<hi rend="raised">de</hi></hi></date> Th: Meyerbeers <hi rend="italic">Nordstern</hi>. Effektmusik, ypperlig instrumenteret. Udm&#x00E6;rket Sang og Spil af Jenny Ney. (Tikatschek. Mitterw&#x00FC;rzer. Agnes Bunke. Weixthorfer. R&#x00E6;der (&#x00AB;Satschinka&#x00BB;!)</p>
+<p rend="noIndent"><date when="1856-08-11"><hi rend="initial">11.</hi></date> Spist hos Felsner. Vandret til Loschwitz. Retour pr Dampb. <hi rend="italic">Theater</hi>: <hi rend="italic">Othello</hi> af Shakespeare. Her straalte <hi rend="italic">Dawison</hi> ved et sandt Pragtspil. Og Desdemona, <hi rend="italic">Bayer B&#x00FC;rk</hi>, var inderlig s&#x00F8;d og nobel. Quanter gav Jago ret godt.</p>
+<p rend="noIndent"><date when="1856-08-12"><hi rend="initial">12.</hi></date> Heden vedvarer. (Normanden Lange og Bohmann L&#x00E0;ska fra Tharand) Theater: <hi rend="italic">Meyerbeers Robert</hi>. Hastv&#x00E6;rksforestilling. Robert god (Tikatschek) Alice og Isabella maadelige (Bunke og Frl Brunner).</p>
+<p rend="noIndent"><date when="1856-08-13"><hi rend="initial">13.</hi></date> Til Tharand og strax atter retour med Asbj&#x00F8;rnsen, Rosing, Scheen og Lange og Ungareren Voy.</p>
+<p rend="noIndent"><date when="1856-08-14"><hi rend="initial">14.</hi></date> <hi rend="italic">Dampbaadsfart til Aussig</hi>. Maatte dog iland en Station f&#x00F8;r for at naa Trainet i rette Tid. Smukt Veir med et Par Tordenbyger. Deilig Natur is&#x00E6;r i B&#x00F6;hmen. 
+<lb/><hi rend="italic">Meget smuk Banefart til Prag</hi>. Ankomst i denne besynderlige gamle Stad mod 8 om Aftenen. Godt Logis i Goldener Engel. Moldaubroen og Hradschin i oversl&#x00F8;ret Maaneskinslys.</p>
+<p rend="noIndent"><date when="1856-08-15"><hi rend="initial">15</hi></date> <hi rend="italic">En Dag i Prag</hi>. Alting nyt og ejendommeligt. Katholsk Helligdag. Kirke-Taarne, gamle Bygninger. Begge Broerne. Hradschin. Slottet. Domen. Kaisergarten og Volksgarten. Lorettenplatz. Capucinerkloster. S<hi rend="raised">t</hi> Laurentsberg. Lobkowitz Palais. Over H&#x00E6;ngebroen til Sophieninsel (Musik der) Promenaderne. Restaurationen. &#x2013; Theater: <hi rend="italic">Verdis Rigoletto</hi> (Bianca <hi rend="italic">Frl Rotter</hi> fra Darmstadt.) &#x2013;</p>
+<p rend="noIndent"><date when="1856-08-16"><hi rend="initial">16<hi rend="raised">de</hi></hi></date> Fremdeles herligt Veir. Afsted igjen kl 8 &#x00BC;. Smukke Damer i Wagonen. I Aussig kl 11. (Borgruin og deilig Omegn). Med Dampb. tilbage forbi Tetschen, K&#x00F6;nigstein, Bastei o.s.v. til Dresden kl mod 6. 
+<lb/>Theater: <hi rend="italic">Spohrs Jessonda</hi>. En virkelig skj&#x00F8;n, elegant bl&#x00F8;d Musik. Meget god Udf. Is&#x00E6;r Titelrollen: Jenny Ney, som her viste sig som en stor Sangerinde. (Engels Restauration).</p>
+<p rend="noIndent"><date when="1856-08-17"><hi rend="initial">17<hi rend="raised">de</hi></hi></date> Talt med Brun i Kath. Kirke. Senere Rosing og Franskmanden Moychon. Volkstheater i Grosser Garten. 
+<lb/>Opgivet Reisen til Leipzig is&#x00E6;r af Pengehensyn.</p>
+<p rend="noIndent"><date when="1856-08-18"><hi rend="initial">18.</hi></date> Schirmers bibelske Kultegninger. (Hun, gegen&#x00FC;ber!) 
+<lb/><hi rend="italic">Th. Shaksp. Richard den Tredie</hi> (<hi rend="italic">Dawison</hi>). Bekjendte Ansigter i Parterret.</p>
+<p rend="noIndent"><date when="1856-08-19"><hi rend="initial">19.</hi></date> Sidste Dag i Dresden. Slet, improviseret Opf af <hi rend="italic">Aubers Stumme</hi>. (Skulde v&#x00E6;ret Norma) Tikatschek god. Resten ikke. Dog godt Chor i B&#x00F8;nnen. &#x2013;</p>
+<p rend="noIndent"><date when="1856-08-20"><hi rend="initial">20</hi></date> <hi rend="italic">Afreise i Regnveir</hi>. I <hi rend="italic">Berlin</hi> kl 3. (atter opklaret.) Scheibles Hotel ved Gendarmenmarkt. Meget smukt Logis. 
+<lb/><hi rend="italic">Baletten Aladin i Operahuset</hi>. Uhyre Tr&#x00E6;ngsel, da Militairet havde fri Entr&#x00E8;.</p>
+<p rend="noIndent"><date when="1856-08-21"><hi rend="initial">21.</hi></date> Regn om Morgenen. &#x2013; Billedgalleriet og den kolossale Parade u. d. Linden (Kongen og de fremmede Prindser). Billig Middag hos Heun (Linden 47). &#x2013; Operahuset <hi rend="italic">Halevys J&#x00FC;din</hi>. Kom f&#x00F8;rst i Sl. af 1<hi rend="raised">ste</hi> Akt. Interessant men formegen Larm og Effektjageri. Judin: <hi rend="italic">Frl Carl</hi> fra K&#x00F6;nigsberg ret god. Eleazar: <hi rend="italic">Formes</hi> ganske fortr&#x00E6;ffelig.</p>
+<p rend="noIndent"><date when="1856-08-22"><hi rend="initial">22.</hi></date> Kjedsommelig, fatigerende Reise til Hamburg (tildels i Regn). Ankom kl &#x00BD; 4. Atter <hi rend="italic">Tannh&#x00E4;user</hi> i Theatret.</p>
+<p rend="noIndent"><date when="1856-08-23"><hi rend="initial">23.</hi></date> Kl &#x00BE;8 til Kiel. Kl. 12 paa Viken (Schirmer. E. Tidemand. Mallings, Fru Heyerdal, Chefens Frue.)</p>
+<p rend="noIndent"><date when="1856-08-25"><hi rend="initial">25</hi></date> Kl 8 Morgen hjemme. <hi rend="italic">Reisen kostede temmelig rundt 100 Daler</hi>. Logis og Mad er betydelig dyrere end da jeg reiste i 53.</p>
+<figure rend="longHorizRule"/>
+</div>
+<div type="chapter">
+<head type="main"><ref type="contents" target="contents_9" xml:id="chapter_9">August</ref></head>
+<p rend="center"><figure><graphic url="s40_aug1.jpeg"/></figure>
+<lb/><lb/><figure><graphic url="s43_aug2.jpeg"/></figure></p>
+<p rend="noIndent"><date when="1856-08-25"><hi rend="initial">25.</hi></date> Ved Hjemkomsten fandt jeg hos Lindorf mine hos Hirsch udk Sex S&#x00E5;nger smukt udstyrede med svensk Overs. til Texterne. 
+<lb/>I Chr posten stod en Overs. af en kort Anm. i Aftonbl som var meget rosende. x) <add place="below"><hi rend="italic">af Aftonbl</hi> &#x00AB;der ligger en Poesi og Friskhed i disse Sange der n&#x00F8;dvendig maa anslaa den aabne Musiksands, en Karakteristik som baade er sand og us&#x00E6;dvanlig; noble og indtagende Melodier, samt en harmonisk Behandling af stedse vakre, ofte fine og ejendommelige Tr&#x00E6;k. 
+<lb/><hi rend="italic">Artikelen i sin Helhed se sidst i denne dagbog.</hi></add> 
+<lb/>&#x2013; Pr&#x00F8;vet et Pianino af W&#x00F6;lfl i S. Rosenbergs Bolig (der hvor Garbens bo). 
+<lb/>&#x2013; Stangs L&#x00F8;kke er solgt til Treschow i Laurvig. 
+<lb/>Moder gjorde i S&#x00F8;ndags med F&#x00E6;tter Carl og Kaja Touren til Svangstranden. &#x2013; Lina er endnu i Sverige. Th. oppe ved Mj&#x00F8;sen. Agnes paa Kongsvinger. Grevinden har M&#x00E6;slinger. Marie Snedorf er reist hjem til Helsing&#x00F8;r. &#x2013;</p>
+<p rend="noIndent"><date when="1856-08-30"><hi rend="initial">30.</hi></date> Vicekongen kom tilbage idag efterat have bereist dels Kysten, gjort besv&#x00E6;rlig Fjeldreise gj Romsdalen til Gudbrandsdalen, ligget i Lejr paa St&#x00F8;rdalshalsen o.s.v. &#x2013; 
+<lb/>&#x2013; F&#x00E6;tter Carl er nu bleven Bureauchef i Marinedept.</p>
+<p rend="noIndent"><date when="1856-08-31"><hi rend="initial">31.</hi></date> Idag kl omtr 12&#x00BD; kom Prinds Napoleon hertil paa Dampcorvetten &#x00AB;Reine Hortense&#x00BB;. Han blev modtagen paa Bryggen af Kronprindsen. Han er corpulent og ligner sin Onkel dog lidt i Karrikatur. W. Erichsen og jeg saa ham fra en Baad paa Havnen meget godt.</p>
+</div>
+<div type="chapter">
+<head type="main"><ref type="contents" target="contents_10" xml:id="chapter_10">Septbr</ref></head>
+<p rend="center"><figure><graphic url="s44_sept1.jpeg"/></figure>
+<lb/><lb/><figure><graphic url="s47_sept2.jpeg"/></figure>
+</p><p rend="noIndent"><date when="1856-09-04"><hi rend="initial">4.</hi></date> De sidste Dage har Veiret v&#x00E6;ret udm&#x00E6;rket; Luften klar, varmt midt paa Dagen. 
+<lb/>Prinds Napoleon reiste med Vicekongen igaar til Svangstranden og Kongsberg og kommer igjen imorgen. Igaar var Alverden ombord i &#x00AB;Reine Hortense&#x00BB;. Jeg var der med Mama, som mest gl&#x00E6;dede sig over et Billede af Keiserinden i Legemsst. som hang tillg Keiserens i Prindsens Salon. Tirsd Aften var Soupe paa Ladegaards&#x00F8;en. I Bergen skal Pr. N. have fundet stort Behag. <del rend="overstrike">Han gav et Bal paa</del> for Bergenserne <add place="above">gav Bal; han</add> bes&#x00F8;gte Theatret, gav Skuesp. Presenter og bestilte Costumerne og Musiken til Stykket. 
+<lb/>Christ. Theater begyndte i Tirsdags. Meyer og Heftye er fratraadte Direktionen og to andre er i deres Sted hvoraf den Ene er J&#x00FC;rgensen. Fougstad vedblir fremdeles og Borgaard sidder endnu i Sadlen men der synes at drage stygge Uveir op for ham.</p>
+<p rend="noIndent"><date when="1856-09-05"><hi rend="initial">_5.</hi></date> En uventet Begivenhed! Axel er forlovet med Marie Snedorff. Man bader sig ikke forgj&#x00E6;ves i Sandefjord.</p>
+<p rend="noIndent"><date when="1856-09-06"><hi rend="initial">6.</hi></date> <hi rend="italic">Concert af Ursin</hi>. Han har vundet meget ved sit Ophold i Br&#x00FC;ssel hos Leonard. Spiller friere, mere artistisk, med fuldere Tone, kraftigere Str&#x00F8;g. Han sp. en Concert af Leonard (N<hi rend="raised">o</hi> 3) m. Orkester. En Fantaisie Slave af Vieuxtemps, meget effektfuld og smukt instrumenteret, og til S&#x00F8;sterens Akk. paa Piano, Leonards Souvenir de Haydn. Han assist. af sin Kone og af Joach. Welhaven som deklamerede et Par N<hi rend="raised">o</hi>. Tilh&#x00F8;rerne var som s&#x00E6;dv. for st&#x00F8;rsteparten Folk som ikke have &#x00C6;ren at regnes bl. Byens fine Folk. &#x2013;</p>
+<p rend="noIndent"><date when="1856-09-08"><hi rend="initial">8.</hi></date> Pr. Napolon reiste Fredag Aften kl. 10&#x00BD; til G&#x00F6;theborg; derfra gaar han overland til Stockholm. Prinds Albrecht af Preussen var her ogsaa Fredag og L&#x00F8;rdag. Han har bereist Landet i str&#x00E6;ngt Incognito. 
+<lb/>&#x2013; Fru Kjerulf fra Kj&#x00F8;benhavn talte jeg med idag om Holms som har haft den Sorg at miste Oline. Hun d&#x00F8;de i Juli. &#x2013;</p>
+<p rend="noIndent"><date when="1856-09-10"><hi rend="initial">10.</hi></date> Theodor og Agnes kom hjem igaar. 
+<lb/>&#x2013; Idag viedes P. Winge og Kathrine Welhaven. 
+<lb/>&#x2013; Bodom er her nu og bringer Studier med fra Svangstranden og Kongsberg. 
+<lb/>&#x2013; <hi rend="italic">Aftenbl. har idag den svenske Aftonbl Art om mig</hi> in extenso. Leds. af en Indledning som viser det Slemme i at Ens Venner skrive Opsatser om En i Bladene. De tar Munden fuld og ved ei hvad de sige. Men hvad siger t Ex Lindeman naar denne gode Ven om mig siger at jeg er det mest videnskabelig uddannede Talent som vi i musik Retning her besidde (neml af Indf&#x00F8;dte.)? &#x2013;</p>
+<p rend="noIndent"><date when="1856-09-12"><hi rend="initial">12</hi></date> Idag Eftm kom Lina hjem fra Sverige. Paa Baldersn&#x00E4;s havde hun truffet Josephson som havde bedet hende hilse mig og sige at jeg ikke beh&#x00F8;vede at gj&#x00F8;re to Skridt for at vinde Berg &#x00AB;den forf&#x00E6;ngelige Nar&#x00BB; &#x2013; ja det forekom mig som det var saa. Imidl har Berg bistaaet mig med mine Sanges Udgivelse &#x2013; det havde J. neppe gjort.</p>
+<p rend="noIndent"><date when="1856-09-13"><hi rend="initial">13.</hi></date> <hi rend="italic">Axel er idag reist til Helsing&#x00F8;r</hi>. Familien dernede er i Henrykkelse over Forlovelsen. Anderledes var det i sin Tid paa Kongsvinger!</p>
+<p rend="noIndent"><date when="1856-09-17"><hi rend="initial">17.</hi></date> Jeg havde Kvartetten hos mig iaften og den gav mig en Present i den groteskeste Art. Christian L og J. Nicolaysen var naturl Mesterne for det. De havde ladet Arbo og Bodom tegne en Karrikatur af mig i Form af en laurb&#x00E6;rkrandset Buste og da vi havde spist og vi skulde ind i mit V&#x00E6;relse hang den kultegnede Kolos paa V&#x00E6;ggen st&#x00E6;rkt belyst og Chr. holdt Talen som virkelig var fuld af Smaavittigheder. Alle Lassons var her, Emilie Hjelm, Lina, Th. (Agnes var hjemme fordi hun ei maa gaa ud) desuden Bodom, Arbo og Wilhelm Due.</p>
+<p rend="noIndent"><date when="1856-09-22"><hi rend="initial">22</hi></date> Klaverspilleren Anton Door fra Wien. Han er ung, ser frisk og forn&#x00F8;iet ud og lader til at v&#x00E6;re en hel Karl paa Pianoet ligesom han under vor Samtale ved Cappelens Erardske Flygel strax viste sig som en meget dannet Musiker.</p>
+<p rend="noIndent"><date when="1856-09-24"><hi rend="initial">24.</hi></date> Med Door hos Kherre M*.</p>
+<p rend="noIndent"><date when="1856-09-27"><hi rend="initial">27.</hi></date> Josephsson skriver til Carl og sender mig ogsaa her en Hilsen lignede den antibergske som Lina fik. Jeg faar da vel skrive til ham. 
+<lb/>&#x2013; <hi rend="italic">Doors Concert</hi>. Fant. af L.v Meyer (erster Paradenpferd!). Chopin S&#x00F8;rgemarsch og Scherzo B<hi rend="raised">m</hi>. Lied a la Mendelss. af Door. &#x00AB;Feu follet&#x00BB; af Prudent, &#x00AB;Si oiseau&#x00BB; af Henselt. Concertpolka af Wallace og efter Fremkaldelsen en Mazurka-Polka a la Concert af Wollenhaupt. Han sp. alt dette ubetinget udm&#x00E6;rket; sikkert, friskt, fint, fuldt gemytligt, forstaaeligt. Ingen Pretensioner, ingen Sygelighed, ikke Spor af Blasur; men dog viser han sig som Spiller mere som en udm. musikalsk Reproducent. Hans Spil har t. Ex ikke det Ejendommelige som Tellefsens. Pr&#x00E6;gtig Hukommelse har han ogsaa; han kjender fast alt og spiller det meste. &#x2013; Publ. var taknemmeligt, glad, ikke stormende; men det var ogsaa mest Damer. Hele B&#x00E6;nke af Elever havde jeg. &#x2013; Ursin sp. Leonards Haydnske Fantasi. Jfr Anna akk. og var &#x00AB;r&#x00E6;d&#x00BB;. M<hi rend="raised">me</hi> Lindorff og en Hr Sahlertz jun sang et Par Duetter og M<hi rend="raised">m</hi> L. et Par Lieder som hun selv akk.</p>
+<p rend="noIndent"><date when="1856-09-30"><hi rend="initial">30.</hi></date> Door sp. idag hos Cappelen Gades m&#x00E6;rkelige E<hi rend="raised">m</hi> Sonate. 
+<lb/>&#x2013; Den sidste Del af Maaneden har v&#x00E6;ret fuld af Regn og Vind; is&#x00E6;r de sidste Dage fra S&#x00F8;ndag af, afskyelige. 
+<lb/>&#x2013; Grevinden kom fra Kongsvinger og boede igaar og idag hos Diriks hvor jeg iaften saa hende og sagde hende Farvel; hun og Greven og de fleste af B&#x00F8;rnene reiser til Udl. og <add place="above">de</add> skal rimel. tilbringe Vinteren i Nizza. 
+<lb/>&#x2013; Vicekongen havde igaar &#x00AB;Kvartetten&#x00BB; hos sig. Jeg gik ikke med da det ingen ordentlig Tilsigelse var saa jeg ingenlunde var n&#x00F8;dt til at regne mig med. &#x2013; Der havde v&#x00E6;ret h&#x00F8;ist gemytlig. H.K.H. var senere gaaet ned i Stiftsgaarden og hos C. Anker havde man r&#x00F8;get Cigar og sunget til langt ud paa Natten.</p>
+</div>
+<div type="chapter">
+<head type="main"><ref type="contents" target="contents_11" xml:id="chapter_11">October.</ref></head>
+<p rend="center"><figure><graphic url="s48_okt1.jpeg"/></figure>
+<lb/><lb/><figure><graphic url="s51_okt2.jpeg"/></figure>
+</p><p rend="noIndent"><date when="1856-10-02"><hi rend="initial">2.</hi></date> Endelig atter Sol. 
+<lb/>&#x2013; Prinds Oscar skal if. Tel. Eftrr. v&#x00E6;re forlovet med Prindsesse Sofie af Nassau.</p>
+<p rend="noIndent"><date when="1856-10-03"><hi rend="initial">3.</hi></date> Axel kom hjem sent igaaraftes, meget forn&#x00F8;iet over Opholdet i Helsing&#x00F8;r. Han havde v&#x00E6;ret 2 Gange i Kbhvn og endog med Marie S. bes&#x00F8;gt Tante Thea i Roskilde. 
+<lb/>&#x2013; <hi rend="italic">Doors 2<hi rend="raised">den</hi> Concert</hi>, temmel tyndt bes&#x00F8;gt, maaske lidt foranlediget af en stor Soir&#x00E8; hos Kronprindsen samme Aften. Han sp. Beethovens Cis moll Sonate. Capricen op 16, C moll af Mendelssohn, Des d. Valsen af Chopin &#x00AB;Terpsichore&#x00BB; Etude af Moscheles. Sonnambulafantasien af Thalberg. En meget smuk Barcarolle venitienne af sig selv; og de to forrige Gang udf.Stykker af Vallace og Vollenhaupt. &#x2013; Kellermann er kommen og var i Concerten.</p>
+<p rend="noIndent"><date when="1856-10-05"><hi rend="initial">5.</hi></date> Door hos mig. Schumans &#x00AB;Kreisleriana&#x00BB;. Et Par St. af Norman og min lille Scherzo. 
+<lb/>&#x2013; Aften grande Soir&#x00E8;e hos Wessells. (Confirmation og Fruens Geburtsdag.) Marie Garben, s&#x00F8;d og yndefuld.</p>
+<p rend="noIndent"><date when="1856-10-06"><hi rend="initial">6.</hi></date> Skuesp. J&#x00F8;rgensens Benefice ianl af h<hi rend="raised">s</hi> Jubil&#x00E6;um. (Sexaen i Logen og Hr Skjelderups og Fougstads mindev&#x00E6;rdige Taktl&#x00F8;shed)</p>
+<p rend="noIndent"><date when="1856-10-07"><hi rend="initial">7.</hi></date> <hi rend="italic">Kellerman og Door sp i Theatret</hi>. Halvt Hus men stort Bifald.</p>
+<p rend="noIndent"><date when="1856-10-08"><hi rend="initial">8.</hi></date> Soir&#x00E8;e hos Kammerherre Morgenstjerne (K. &amp; Door. bl. m. A.) 
+<lb/>&#x2013; Agnes ligger endnu Stakkel! Karen reiser med Hoffet til Stockholm og Grevinden reiser snart til Udlandet.</p>
+<p rend="noIndent"><date when="1856-10-10"><hi rend="initial">10.</hi></date> <hi rend="italic">Hos J&#x00FC;rgensens var Kellerman og Door og Ursin</hi>. De udf. Beeth. Trio op 1 i G. og ganske pr&#x00E6;gtigt, i livlige Tempi. K. spillede Gounods Meditation over Bachs 1<hi rend="raised">ste</hi> Prelude, et ganske ejendommeligt Stykke Arbeide; ligeledes et smukt Reverie du soir af Karasowsky. Door sp. bl. A. Mendelssohns Rondo cappriccioso op 14. og akk. Fru J. til Schubertske Lieder og 3 af mine.</p>
+<p rend="noIndent"><date when="1856-10-11"><hi rend="initial">11</hi></date> Kvartetten i Cavallerikasernen.</p>
+<p rend="noIndent"><date when="1856-10-12"><hi rend="initial">12</hi></date> <hi rend="italic">Door sp. hos mig flere af mine Stykker</hi> og &#x00F8;nskede at beholde tre af dem Vuggevise, &#x00AB;Salon&#x00BB; og Idylle. Kellerman vilde skaffe mig dem forlagte, men det er vel ei at lide paa. Jeg comp. idag af spanisch Liederbuch Ich fuhr &#x00FC;ber Meer. Nylig comp jeg en anden i Boleroform af samme V&#x00E6;rk &#x00AB;Treibe nur mit Lieben Spott&#x00BB;.</p>
+<p rend="noIndent"><date when="1856-10-13"><hi rend="initial">13</hi></date> Emilie Hjelms Forlovelse med Georg Bull er nu deklareret. 
+<lb/>&#x2013; <hi rend="italic">Concert af Kellermann og Door i Logesalen</hi> (fuld). <hi rend="italic">Beeth<hi rend="raised">s</hi> Trio op 1 G<hi rend="raised">d</hi></hi> med Ursin. Is&#x00E6;r Adagioen gik fortr&#x00E6;ffeligt. Sang af Fru Lindorf: Cavatine af Robert. Erlk&#x00F6;nig. &#x00AB;Evening bells&#x00BB; Lied af Door. (ret smuk) &#x2013; Door akk. Sangen og Celloen hele Tiden. Door spillede en Lucretia-Fantasi af Asher, Kreisleriana (sidste N<hi rend="raised">o</hi>) af Schuman (ypperlig) Concert Etude af Billiet (lidt t&#x00F8;r). Polka af Dreyshok (praftfuldt udf&#x00F8;rt). K. spillede Adagio af Romberg. Caprice over ungarske Melodier af K. Gounods Meditation over Prel. af Bach. Romanesca. Rondoletto gracioso og Divertiss over wallachiske Melodier. Applausen h&#x00F8;rtes mattere end tilb&#x00F8;rligt, maaske paa Gr af Heden. Thi sjelden h&#x00F8;rer man her sligt Spil forenet.</p>
+<p rend="noIndent"><date when="1856-10-20"><hi rend="initial">20.</hi></date> <hi rend="italic">Door &amp; Kellermann. Concert i Theatret</hi>. Over al Forventning godt Hus; meget livligt Bifald is&#x00E6;r til Door, thi K. fremtvang sit paa den slette Vei og sp. ofte virkelig nederdr&#x00E6;gtigt, d.v.s. som en Flegel af en Virtuos. Men ogsaa ret smukt f.Ex Adagioen af Mozart G<hi rend="raised">m</hi> Quintett (B<hi rend="raised">d</hi>) den samme som Ole Bull oftere spillede. Item en Serenade og en Andante af Fr Lachner f. 4 Celli (K. R&#x00F8;sholm. Ibsen og Hennig.) <hi rend="italic">Door</hi> sp. Webers Concertst&#x00FC;ck friskt og indtr&#x00E6;ngende, kun Finalen for hurtigt. &#x2013; Fremdeles Schulhoffs smukke B&#x00F6;hmiske Fantasi, 2 Etuder af Henselt, Scherzo af Mendelssohn (op 16) 2 Concertdandse af Wollenhaupt. 
+<lb/>&#x2013; Statsraad Krog blev begravet idag.</p>
+<p rend="noIndent"><date when="1856-10-21"><hi rend="initial">21.</hi></date> Bodom reiste idag. Arbo som medtog de to Portr&#x00E6;ter, ogsaa. Herman Jarlsberg ogsaa for at m&#x00F8;de Greven og Grevinden i Vall&#x00F8; og med dem reise til Udlandet. 
+<lb/>&#x2013; <hi rend="italic">Brev fra Hirsch</hi>. Nyt Tilbud om at forl&#x00E6;gge et Sanghefte a 1 Rbd Brev dat. <hi rend="italic">Stockholm d 13<hi rend="raised">de</hi> Oct</hi>. 
+<lb/>Eftrr i Brevet om at L Norman er reist til Leipzig maaske for bestandig. I et Brev til Axel fra Gude siger han at Norman har v&#x00E6;ret i Df. og at han synes meget godt om ham. 
+<lb/>&#x2013; Door forsp. mig idag paa et godt Pianino af W&#x00F6;lfel nogle Compp af Julius Sch&#x00E4;ffer og Ve&#x00EE;t. Is&#x00E6;r den sidste behagede mig meget op. 34 og 39, to Scherzi; ildfulde, poetiske, godt satte.</p>
+<p rend="noIndent"><date when="1856-10-22"><hi rend="initial">22</hi></date> Atter en hemmelig Forlovelse som er bleven offentlig &#x2013; Christian Lasson og Alexandra Morgenstjerne. 
+<lb/>&#x2013; <hi rend="italic">Hos J&#x00FC;rgensens Musiksoir&#x00E8;e</hi>. Kellermann og Door sp. Mendels<hi rend="raised">s</hi> B<hi rend="raised">d</hi> Sonate. K. sp. 1<hi rend="raised">ste</hi> Allegro tem<hi rend="italic">m</hi>elig slet; bedre de to sidste Satser. K. kan sjelden sp. rigtig nobelt; han er formeget Virtuos-Farceur. Ursin sp. med Door Beeth<hi rend="raised">s</hi> F<hi rend="raised">d</hi> Sonate som gik med Liv og Lyst. K og D sp. en Adagio af en Violinconcert af Molique. Fru J. sang nogle Schumannske Lieder og en med Cello af Proch. &#x00AB;Kvartetten&#x00BB; sang. 
+<lb/>&#x2013; Sibbern og Agnes S. er kommet ind og bor ved Torvet. Stangs bor i Heibergs Gaard her n&#x00E6;rved. 
+<lb/>&#x2013; <hi rend="italic">Door fik if sit &#x00D8;nske tre Klaverstykker af mig: Wiegenlied, &#x00AB;Idyl&#x00BB; u. &#x00AB;Salon&#x00BB;</hi>.</p>
+<p rend="noIndent"><date when="1856-10-25"><hi rend="initial">25.</hi></date> <hi rend="italic">Phil.</hi> S. 1<hi rend="raised">ste</hi> Samling. Arnold, Ursin og A Winge sp. Beeth Trio op 1 N<hi rend="raised">o</hi> 1 Es dur godt sammen. Fru Jurgensen sang til mit Akk. 3 Lieder af Schuman. &#x2013; Lindeman anf&#x00F8;rte 2 Kvartetter af sig og Fr. Egeberg. II. Strygekvartet af Mozart A dur. Sjeldent Samspil for her at v&#x00E6;re (Ursin, Hansen, Zeller og Winge) &#x2013; 4<hi rend="raised">ste</hi> Ballade m. Klaverakk af Lindeman (Erik Blod&#x00F8;xe) godt compt lidt lang og haard, men charakteristisk. &#x2013; 1<hi rend="raised">ste</hi> Afd af Gades poetiske deilige Ballade f Soli Chor og Orkester (<hi rend="italic">her</hi> Klaver) Elverskud (Erlk&#x00F6;nigs Tochter) Wolf og Mad Ursin sang Soli. W. meget godt.</p>
+<p rend="noIndent"><date when="1856-10-30"><hi rend="initial">30.</hi></date> <hi rend="italic">Skrevet til Hirsch</hi> (Sangene<add place="above">1 Tydsk. 1 Th K. 5 Welh. 2 Chr. Winther.</add> sendes med Door) 
+<lb/>&#x2013; Fr&#x00F8;ken Fougstad er nu ogsaa forlovet, nemlig med Cand. Nils Nicolaysen. 
+<lb/>&#x2013; Kellermann og Door gav Concerter i Drammen, Horten, Krager&#x00F8; o.s.v og reise rimeligvis til G&#x00F6;teborg d 1<hi rend="raised">ste</hi> Nov. 
+<lb/>&#x2013; <hi rend="italic">Clara Schumann</hi> skal spille i Musikf<hi rend="raised">s</hi> Concerter i Kj&#x00F8;benhavn i denne 1<hi rend="raised">ste</hi> Saison. 
+<lb/>Der stiftes nu et H&#x00E4;ndel-Selskab i Lighed med Bachverein &#x2013; (Chef. Br &amp; H&#x00E4;rtel).</p>
+</div>
+<div type="chapter">
+<head type="main"><ref type="contents" target="contents_12" xml:id="chapter_12">Nov.</ref></head>
+<p rend="center"><figure><graphic url="s52_nov1.jpeg"/></figure>
+<lb/><lb/><figure><graphic url="s55_nov2.jpeg"/></figure>
+</p><p rend="noIndent"><date when="1856-11-01"><hi rend="initial">1.</hi></date> October var i det Hele pr&#x00E6;gtig. Mildt og klart som oftest; der var mod Enden af M<hi rend="raised">dn</hi> Dage varme som ved Sommertid med svale Aftener. Nu er Taagen tyk og vaad men mildt er det endnu. &#x2013; 
+<lb/>&#x2013; Mk. <hi rend="italic">Herman Grimms &#x00AB;Novellen&#x00BB;.</hi> (Das Kind u. der Landschaftsmaler.)</p>
+<p rend="noIndent"><date when="1856-11-04"><hi rend="initial"><del rend="overstrike">2.</del>4.</hi></date> I S&#x00F8;ndags kom <hi rend="italic">Door og K-n</hi> fra den vestlandske Reise som havde v&#x00E6;ret &#x00AB;efter Omst.&#x00BB; heldig. Igaar spiste vi sammen hos J&#x00FC;rgensens og var samlet til Aften hos Wolfs hvor der var formelig Soupee (blot Herrer). Her sp. K. en Sats af Servais E<hi rend="raised">m</hi> Fantasi. <hi rend="italic">Idag morges reiste de til Fhald</hi> hvorfra det gaar videre til G&#x00F6;theborg og Stockholm. Door vil jeg savne da han var en meget begavet, livlig, meget kundskabsrig og alsidig Musiker. (Doors mystiske &#x00AB;ich bin ein Esel gewesen&#x00BB; og &#x00AB;est ist heute Abend was unangenehmes passirt&#x00BB; o.s v. forstod jeg idag da den deilige Fr&#x00F8;ken Sandborg fremstillede sig som forlovet med Consul Fabre hvem D. havde fundet h&#x00F8;ist ubetydelig og sagt det i god Tro til hende.). 
+<lb/>&#x2013; Fra Paris har jeg <hi rend="italic">faaet af Tellefsen</hi> mig tilsendt 3 St. Hans Udgave af 6 af Em. Bachs Klaverstykker og af ham selv Sonate i G for Pfte og Violin op 19 (tilegnet Kongen af Holland.) og Allegretto (A<hi rend="raised">d</hi>) op 20. &#x2013; Lykkelige T. som er kommet alt til op 20 &#x2013; og jeg!! &#x2014;</p>
+<p rend="noIndent"><date when="1856-11-07"><hi rend="initial">7.</hi></date> Coll. Acad. skal have besluttet at foreslaa en Lektorgage for Theodor. Keilhau syntes nok han burde have mere at leve af men protest. skriftligt mod nogen ny Lektorpost. Alt h&#x00E6;nger da vel nu af Storthinget. 
+<lb/>Agnes &#x2013; Stakkel &#x2013; ligger endnu paa ottende Ugen! 
+<lb/>I Politiken som jeg lang Tid ikke har skj&#x00E6;nket videre Opm&#x00E6;rksomhed, ser det ud som den fr-engelske Alliance snart vil revne. L. Nap. koketterer med Keiser Alexander og England holder med &#x00D8;sterig.</p>
+<p rend="noIndent"><date when="1856-11-09"><hi rend="initial">9.</hi></date> Dyb Sne falder idag! &#x2013; Fors&#x00F8;gt at skrive en Halling for Kvartetten. Det faldt vanskeligere end jeg havde t&#x00E6;nkt.</p>
+<p rend="noIndent"><date when="1856-11-10"><hi rend="initial">10.</hi></date> Byfoged Thrap pludselig d&#x00F8;d.</p>
+<p rend="noIndent"><date when="1856-11-13"><hi rend="initial">13.</hi></date> <hi rend="italic">NB</hi> det som Cand. jur. Lie fortalte om Rosenkrones Modt. af Vicekongen. Om hvad B&#x00F8;nderne syntes om R. m.m.</p>
+<p rend="noIndent"><date when="1856-11-15"><hi rend="initial">15</hi></date> Bredo L. indtr&#x00E6;der i <hi rend="italic">Kvartetten</hi> da J Nicolaysen rimel kommer til at faa Ans&#x00E6;ttelse som L&#x00E6;ge ved Fiskerie<del rend="overstrike">rne</del>fart&#x00F8;ierne.</p>
+<p rend="noIndent"><date when="1856-11-16"><hi rend="initial"><del rend="overstrike">16.</del></hi></date> Tante Otilie <add place="above">fremdeles</add>syg. &#x2013; Agnes sidder lidt oppe. <hi rend="italic">St&#x00E6;rk Kulde iaften</hi>. 
+<lb/>&#x2013; <hi rend="italic">Klaverudt. af Tannh&#x00E4;user</hi>. (Marschen i 2<hi rend="raised">den</hi> Akt er dog pr&#x00E6;gtig!)&#x00A0;&#x2013;</p>
+<p rend="noIndent"><date when="1856-11-20"><hi rend="initial">20.</hi></date> Progr. for Vinterconcerterne i Musikfgn i Kbhvn viser bl. A. at Gade har compt sin 6<hi rend="raised">te</hi> Sinfoni (G.moll.) &#x2013; Og Hartman et Slags Vaar-Idyl for Soli, Chor og Orchester. Clara Schumann skal sp. Beethoven, Schuman, Schubert, o.s.v.</p>
+<p rend="noIndent"><date when="1856-11-18"><hi rend="initial">18.</hi></date> <hi rend="italic">Ph S.</hi> 2<hi rend="raised">den</hi> Saml. Beeth. Es dur Sonate for Pfte og Violin. (Ursin og S&#x00F8;ster). Fru Antonie Lassen (Elev af Berg) sang en fransk Arie af Concone og Pacius<hi rend="raised">s</hi> Ballade; hun har Tilb&#x00F8;iel til at synge falsk og affektert men var iaften ualmin. heldig og havde flere Tr&#x00E6;k af en udm&#x00E6;rket Instruktion. 
+<lb/><hi rend="italic">Gades Elverskud</hi> gik dennegang helt, men med Pfte! Arnold sp. skammelig negligent Klaverudtoget og Sangen var elendig nok med Undt af Wolf. Denne Comp er deilig &#x2013; ganske nordisk, dansk, romantisk. Mendelsohns Skole anvendt paa Motiver af nordisk K&#x00E6;mpevisecharakter.</p>
+<p rend="noIndent"><date when="1856-11-21"><hi rend="initial">21.</hi></date> En m&#x00E6;rkelig Kvartet-aften (S&#x00F8;lieutn. Lund!!).</p>
+<p rend="noIndent"><date when="1856-11-23"><hi rend="initial">23.</hi></date> <hi rend="italic">Kunstfgn</hi>. Morten M&#x00F8;ller store Landskab (det som var udst. i Paris 1855.) 
+<lb/>&#x2013; Agnes var idag lidt ude og herover hos os. Men hun ser lidende ud. Og Theodor er heller ikke frisk. For otte Dage siden havde han et lidet Anfald af Blodspytning og dette maner om Forsigtighed. Men Th, og forsigtig! &#x2013; &#x2013;. Collegiet havde dog ei Mod til at foreslaa Kirkedpt. en Lektorpost for Theodor. Alle dernede er vist enige i at Keilhau nu burde vige men Ingen vil v&#x00E6;re den f&#x00F8;rste til at sige ham det ligeud. Og hvor l&#x00E6;nge skal da denne Tilstand vare? Gud give dem Helbred, ham og hende.</p>
+<p rend="noIndent"><date when="1856-11-26"><hi rend="initial">26</hi></date> Streng Vinter! Formegen &#x00AB;Kavalleri&#x00BB; indkvartering i Kvartetaftenerne. 
+<lb/>&#x2013; Tante Sophie har leiet Stue-Etagen paa S&#x00F8;renssens L&#x00F8;kke (fd. Balle Thoresen) for sig og Erichsen som virkelig altsaa til Vaaren vil gifte sig med Kathinka &#x2014;.</p>
+<p rend="noIndent"><date when="1856-11-30"><hi rend="initial">30.</hi></date> Agnes spiste Middag her idag. Th. er ogsaa lidt bedre skj. Hosten vedvarer. 
+<lb/>&#x2013; I Thorsdags br&#x00E6;ndte Thaulows Gaard for st&#x00F8;rstedelen og hans Apoth. labor. Tabet er meget stort. Familien bor hos Heibergs til videre.</p>
+<p rend="noIndent"><date when="1856-11-30"><hi rend="initial">30.</hi></date> <hi rend="italic">Skrevet til Hirsch</hi> om at jeg ikke ved hvor Door er og derfor er meget bekymret for mine Musik-Manuskripters Skj&#x00E6;bne. 
+<lb/>&#x2013; Imorgen skriver jeg til Kellemanns Kone i sam<hi rend="italic">m</hi>e Anl.&#x00A0;&#x2013;</p>
+</div>
+<div type="chapter">
+<head type="main"><ref type="contents" target="contents_13" xml:id="chapter_13">Dec.</ref></head>
+<p rend="center"><figure><graphic url="s56_des1.jpeg"/></figure>
+<lb/><lb/><figure><graphic url="s59_des2.jpeg"/></figure>
+</p><p rend="noIndent"><date when="1856-12-08"><hi rend="initial">8.</hi></date> F&#x00F8;rst i Ugen en Kulde paa 16 til 18&#x00B0;. Saa fuldst. Omslag igaar og idag. Jeg har v&#x00E6;ret og er forkj&#x00F8;let. Axels Marie har v&#x00E6;ret heftig syg men var bedre da hun skrev. Th. hoster vel men er ikke syg og synes freidigere siden Indre Dept. har indst. hans Forslag om den geologiske Unders&#x00F8;gelse af Landet til Regjeringen. Grev P. og Hedchen var endnu for ganske nylig i D&#x00FC;sseldorf. Sohn havde malet Greven. &#x2013; 
+<lb/>&#x2013; <hi rend="italic">Idag Brev fra Hirsch</hi> med god Besked ang. Door og Noderne; neml at Ingen af dem just var kommet men at de daglig ventedes. Kellerman og Door har ganske rigtig drevet om i Sverige siden de forlod Fhald. Sidst havde de v&#x00E6;ret i J&#x00F6;nk&#x00F6;ping og skulde derfra til Norrk&#x00F6;ping og Stockholm. 
+<lb/><hi rend="italic">Ludvig Norman er atter i Stockholm</hi>.<lb/> Hirsch sendte <hi rend="italic">Lindblads Musik til F&#x00E4;nrik St&#x00E5;ls S&#x00E4;gner</hi> &#x2013; (17 N<hi rend="raised">o</hi> for en R&#x00F8;st og Pfte. N<hi rend="raised">o</hi> 1 <del rend="overstrike">og 4 er fa</del>er ogsaa 4<hi rend="raised">st</hi> og N<hi rend="raised">o</hi> 4 Duett. Ved f&#x00F8;rste Gjennemsyn findes pragtfulde Sager i dette V&#x00E6;rk.). Desuden sendte Hirsch <hi rend="italic">Musiktidning for 1856</hi>. (hvori hidtil dog ingen Anm. findes af mine Sange.). 
+<lb/><hi rend="italic">Item</hi>: Hymn til natten af S&#x00F6;derman.</p>
+<p rend="noIndent"><date when="1856-12-10"><hi rend="initial">10.</hi></date> Agnes’ Pige Malthea er kommet paa Hospitalet for &#x00D8;iensygdom og Agnes er derfor kommet hjem til os for at faa det lidt godt og ikke undv&#x00E6;re al Pleje. Axel har overladt hende sit V&#x00E6;relse og bor selv hos Theodor.</p>
+<p rend="noIndent"><date when="1856-12-13"><hi rend="initial">13.</hi></date> Julius Nicolaysen er nu f&#x00E6;rdig med Examen (Laud) og med det Samme er hans Forlovelse med Bolette offentlig. 
+<lb/>&#x2013; Kvartettens forr Tenor L<hi rend="raised">t</hi> Carl Svendsen er kommet tilbage fra Udlandet hvor han har gjort Tjeneste i Fremmedlegionen (i Scutari?). 
+<lb/>&#x2013; <hi rend="italic">Ph. S</hi>. Bl. A. Beethovens C<hi rend="raised">m</hi> Quartett udf af Ursin, Hansen, Zeller og Winge. En Musik fuld af Kraft og Skj&#x00F8;nhed. Is&#x00E6;r er Andante &#x215C; C<hi rend="raised">m</hi> uimodstaaelig. Hvilken melodisk Ynde under den strengeste thematiske Behandl. Beg. er ganske canonisk. 
+<lb/>&#x2013; F&#x00E6;rdig comp<hi rend="raised">t</hi> Chanson de Victor Hugo &#x00AB;Si vous n’avez rien a me dire&#x00BB; &#x2013;</p>
+<p rend="noIndent"><date when="1856-12-22"><hi rend="initial">22.</hi></date> Julius Nicolaysen er idag reist til Bergens Stift hvor han skal v&#x00E6;re L&#x00E6;ge ved Vaarsildefiskerierne. Kvartetten holdt Lag for ham i L&#x00F8;rdags i Logen. Lieut. Svendsen var ogsaa inviteret. Meyer var desv&#x00E6;rre alt reist bort til Jul. &#x2013;</p>
+<p rend="noIndent"><date when="1856-12-24"><hi rend="initial">24.</hi></date> Juleaften tilbragtes dennegang herhjemme med Mama, Agnes og Br&#x00F8;drene og Lina.</p>
+<p rend="noIndent"><date when="1856-12-28"><hi rend="initial">28.</hi></date> I Juledagene componeret to Lieder af Spanisch. Liederbuch og et lille Klaverstykke. 
+<lb/>&#x2013; Hirsch lader mig ved Lindorff vide at mine Manuscripti endelig omsider er i hans H&#x00E6;nder. 
+<lb/>&#x2013; Agnes flyttede tilbage igaar men ligger idag tilsengs. 
+<lb/>&#x2013; Iaften stor Soir&#x00E8;e hos Kherre Morgenstjerne. Familie en masse. Fru M&#x2A; er en ganske aimabel V&#x00E6;rtinde. Af Fremmede var flere fex Sch&#x00F8;yens, Wegeners, Mechelins. Den russiske Consul indviklede sig i en m&#x00E6;rkelig Samtale med mig om Musiken til F&#x00E4;nrik St&#x00E5;ls S&#x00E4;gner. Han er paa engang dum, hovmodig, nedladende, skr&#x00F8;neagtig og naiv. Han diletterer naturl i Composition!</p>
+<p rend="noIndent"><date when="1856-12-29"><hi rend="initial">29.</hi></date> <hi rend="italic">Hos Arnold</hi> hvor A Munch og Lindorfs var. Arnold forespillede os 4/m med Datteren Elise sin Symfoni i D dur i 4 store, brede Satser. Den er efter en saadan Anh&#x00F8;ren klar, kraftig, velklingende, en smuk Blanding af Pathos og Humor som oftere hos Arnold. Og over det Hele virkelig en vis plastisk Ro. Dog altsammen lidt vel bredt og visselig &#x00AB;gar nicht romantische Musik&#x00BB; som er A. en Gru. Ikke en Akkord, ikke en Vending fra den Epoke <del rend="overstrike">som</del> <add place="above">hvor</add> Mendelssohn, Spohr, <add place="above">Gade</add> Schuman og for en Del ogsaa Schubert er de toneangivende. Arnolds Musik har i vante Former, vante Vendinger, dog megen Originalitet nemlig det Heles Charakter, Aanden, Farven. 1<hi rend="raised">ste</hi> Sats er lidt t&#x00F8;r men dog ofte pr&#x00E6;gtig. Scherzo og Finale kanske mest slaaende. &#x2013; Men hele denne Symfoni blir dog et svagere V&#x00E6;rk mod den herlige G<hi rend="raised">m</hi> Sonate som han comp for Pfte og Cello for sin S&#x00F8;n Carl. Han sp. denne helt igaar med Datteren 4/m. Den er helt igjennem stor og skj&#x00F8;n. Det er min Overbevisning at denne Sonate vilde hvis den var trykt og bekjendt blive anseet som en af skj&#x00F8;nneste der er udgaaet fra Epoken efter Beethoven og f&#x00F8;r Mendelssohn. &#x2013; Men om den nyere Musik kan man sagtens ikke tale med Arnold. Han sagde om Schumanns Kritiker; han havde ikke forstaaet dem. Sch. havde forvildet sig ved at tage Ordet for den romantiske Musik o.s.v.</p>
+<p rend="noIndent"><date when="1856-12-30"><hi rend="initial">30.</hi></date> <hi rend="italic">Brev fra Door</hi> (Stockholm d 25.<hi rend="raised">de</hi>) hvor han fort&#x00E6;ller at han efter lang Omflakken i nederdr&#x00E6;gtigt Veir og F&#x00F8;re og Concerterne sammen med Kellermann i endel Smaabyer, endelig for 8 Dage siden er kommet til S. hvor han dog ikke i de f&#x00F8;rste 3 Uger t&#x00F8;r t&#x00E6;nke paa at optr&#x00E6;de. Kellermann skiltes fra Door i Vexi&#x00F8; og tog tilbage til Danmark 
+<lb/>Door skriver at Josephson ogsaa dennegang ved en Concert i Upsala har ladet udf. Mandskvartetter af mig som vandt Bifald.</p>
+<figure rend="shortHorizRule"/>
+<p rend="noIndent"><date when="1856-12-31"><hi rend="initial">31.</hi></date> Nytaarsaften; alene hjemme med Mama og Axel. &#x2013; Agnes ligger. Theodor kom over og Samtalen var om Tidens Tryk. Nytaarsaften er en tung Aften for mangen ubemidlet som skal betale sin Bolig dyrere og dyrere, thi idag l&#x00E6;gges atter paa rundt om. Theodors har faaet et Paal&#x00E6;g af 80 Sp for sin ikke rare Leilighed. Meltzer er opsagt eller maa betale 100 Sp mer. Og saaledes videre. Hvor er nu Enden og hvem kan til Slut holde ud her? Eller hvor skal man vende sig hen?
+<lb/>
+<figure rend="shortHorizRule"/>
+<lb/>I hele Dag har jeg arbeidet med det lille Klaverstykke. Jeg faar aldrig noget istand uden Omarbeiden! &#x2013; Den spanske Liederbuch interesserer mig. Jeg har nu faaet fat paa endel spansk Folkemusik. Jeg synes endda saa nogenlunde at have truffet Tonen i mine. Dog langtfra rigtig slaaende.
+<lb/>
+<figure rend="shortHorizRule"/>
+<lb/>Og nu atter et Aar forbi &#x2013; hvor de gaar, hvor de gaar!!</p>
+</div>
+<div type="chapter">
+<head type="main"><ref type="contents" target="contents_14" xml:id="chapter_14">L N<hi rend="raised">s</hi> Anmeldelse af mine &#x00AB;6 S&#x00E5;nger&#x00BB; 
+<lb/>Aftonbladet for 6 August 1856.</ref></head>
+<p rend="noIndent">Jo sjeldnere det er bl. de fra den svenske Musikpresse udgaaende Musikalier at finde noget af h&#x00F8;iere Kunstv&#x00E6;rd desto mere b&#x00F8;r det v&#x00E6;re en Pligt for den sande Kunstven at s&#x00F8;ge at udh&#x00E6;ve <del rend="overstrike">den</del> de enkelte v&#x00E6;rdifulde Foreteelser som vise sig is&#x00E6;r <del rend="overstrike">hvis</del> <add place="above">naar</add> man dermed kan forene Fremf&#x00F8;relsen af et nyt Navn som ellers af en st&#x00F8;rre Almenhed let kunde oversees. Det er i den Anl at Forf. af disse Linjer tager sig den Frihed paa det varmeste at anbefale det syngende Publ &#x00AB;Sex S&#x00E5;nger &amp;c af H. K&#x00BB;. 
+<lb/>Komponisten som er f&#x00F8;d Normand har i sit F&#x00E6;dreland udgivet 2<hi rend="raised">d</hi> forudgaaende Sanghefter foruden endel spredte Sange for en el flere Stemmer hvilke Compp. dersteds saavidt man ved alligevel ikke ere saal skattede som de fortjene, is&#x00E6;r naar man tager i Betragtning at de staa h&#x00F8;it over de faa Arbeider i denne Retning som der ere skrevne. &#x2013; Det Betydeligste som Hr K. har udgivet og som vidner om en stigende Produktionsevne er nu udgivne Sange. Der ligger en Poesi og en Friskhed i dem som uvilkaarlig maa anslaa den aabne Musiksands; en Charakteristik som er baade sand og us&#x00E6;dvanlig, noble og indtagende Melodier, samt en harmonisk Behandlig af altid vakre og ofte fine og ejendommelige Tr&#x00E6;k. &#x2013; &#x00D8;verst staar unegtelig N<hi rend="raised">o</hi> 5 (Vidste du) en Comp der er skrevet i det lykkeligste &#x00D8;ieblik og som er fuld af interessante Enkeltheder. Smuk og lidt i Lindblads Maner er N<hi rend="raised">o</hi> 3 (Du fragst mich), godt opfattet og af en original Colorit er Runebergs &#x00AB;Det var d&#x00E5;&#x00BB; &#x2013; &#x00AB;Lokkende Toner&#x00BB; er holdt i Folkevisetonen hvortil Texten ogsaa giver Anl og gj&#x00F8;r en h&#x00F8;ist ejendommeligt smukt Indtryk. Behagelig skj ikke just noget Nyt sigende er N<hi rend="raised">o</hi> 1 (Min Elskte) I Sam<hi rend="italic">m</hi>enl med de andre forekommer den tilbagestaaende N<hi rend="raised">o</hi> 2 (L&#x00E6;ngsel) mindre betydende og har maaske ogsaa blot faaet Plads i Heftet som et Udfyldningsnummer. De norske og tydske Texter (af W. G. o fl) findes baade i Grundsproget og i svensk Overs. Udstyret er fra Forl<hi rend="raised">s</hi> Side omhyggeligt og ingen Trykfeil forekomme (?) Sikkert vil dette Sanghefte sent eller tidligt vinde Indgang hos det svenske syngende Publ og har Forf. hertil kunnet bidrage, er Hensigten med disse Linier opfyldt.&#x00BB;</p>
+<figure rend="longHorizRule"/>
+</div>
+<div type="chapter">
+<head type="main"><ref type="contents" target="contents_15" xml:id="chapter_15">&#x005B;solens deklinasjoner&#x005D;</ref></head>
+<p rend="center"><figure><graphic url="s60_solens_dekl1.jpeg"/></figure>
+<lb/><lb/><figure><graphic url="s63_solens_dekl2.jpeg"/></figure>
+<lb/><lb/><figure><graphic url="s64_solens_dekl3.jpeg"/></figure>
+</p></div>
+<div type="chapter">
+<head type="main"><ref type="contents" target="contents_16" xml:id="chapter_16">&#x005B;svenske grensemarkeder&#x005D;</ref></head>
+<p rend="center"><figure><graphic url="s67_svenske_grensemarkeder1.jpeg"/></figure>
+<lb/><lb/><figure><graphic url="s68_svenske_grensemarkeder2.jpeg"/></figure>
+</p></div>
+<div type="chapter">
+<head type="main"><ref type="contents" target="contents_17" xml:id="chapter_17">&#x005B;notatside&#x005D;</ref></head>
+<p rend="center"><figure><graphic url="s70_notatside.jpeg"/></figure></p>
+</div>
+<div type="chapter">
+<head type="main"><ref type="contents" target="contents_18" xml:id="chapter_18">&#x005B;regnskap&#x005D;</ref></head>
+<p rend="center"><figure><graphic url="s71_regnskap1.jpeg"/></figure>
+<lb/><lb/><figure><graphic url="s72_regnskap2.jpeg"/></figure>
+<lb/><lb/><figure><graphic url="s73_regnskap3.jpeg"/></figure></p>
+</div>
+<div type="chapter">
+<head type="main"><ref type="contents" target="contents_19" xml:id="chapter_19">&#x005B;utgifter og inntekter&#x005D;</ref></head>
+<p rend="center"><figure><graphic url="s76_utgifter.jpeg"/></figure>
+<lb/><lb/><figure><graphic url="s77_utgifter2.jpeg"/></figure>
+<lb/><lb/><figure><graphic url="s78_inntekter.jpeg"/></figure></p>
+</div>
+</body>
+</text>
+</TEI>

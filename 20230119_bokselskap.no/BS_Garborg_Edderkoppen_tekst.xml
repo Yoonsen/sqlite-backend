@@ -1,0 +1,4066 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI PUBLIC "-// TEI P5 //EN" "http://www.tei-c.org/release/xml/tei/custom/schema/dtd/tei_all.dtd">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="BS_Garborg_Edderkoppen">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>bokselskap.no, Oslo 2020
+<lb/>Hulda Garborg: <hi rend="italic">Edderkoppen</hi>
+<lb/>Teksten i bokselskap.no f&#x00F8;lger 1. utgave, 1904 (Kristiania/Aschehoug). Digitaliseringen er basert p&#x00E5; fil mottatt fra Nasjonalbiblioteket (nb.no)
+<lb/>ISBN: 978-82-8319-570-5 (digital, bokselskap.no), 978-82-8319-571-2 (epub), 978-82-8319-572-9 (mobi)
+</title>
+</titleStmt>
+<publicationStmt>
+<p>Publiseres som digital tekst av bokselskap.no.</p></publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Edderkoppen</title>
+<author>Hulda Garborg</author>
+<publisher>Aschehoug</publisher>
+<pubPlace>Kristiania</pubPlace>
+<date>1904</date>
+<note>digibok_2008040204065 (mottatt fra Nasjonalbiblioteket 2014)</note>
+</bibl>
+</sourceDesc>
+</fileDesc>
+<revisionDesc>
+<change who="ENW" when="2020-09-15">Lagt inn ISBN. Standardisert "hellip" (to og tre prikker med og uten mellomrom). Entiteter, kodekontroll, validering.</change>
+<change who="ENW" when="2020-09-04">Lagt inn korrekturrettelser (SSE).</change>
+<change xml:id="ENW" who="ENW" when="2020-08-05">XML-koding. Entiteter, kodekontroll og validering. Klar for korrektur.</change>
+</revisionDesc>
+</teiHeader>
+<text xml:id="BS_Garborg_Edderkoppen_tekst" type="drama">
+<front>
+<titlePage type="main">
+<byline><docAuthor>Hulda Garborg</docAuthor></byline>
+<docTitle>
+<titlePart type="main">Edderkoppen</titlePart>
+<titlePart type="sub">Drama i fire Akter</titlePart>
+</docTitle>
+<docDate>bokselskap.no<lb/>Oslo 2020</docDate>
+</titlePage>
+</front>
+<body>
+<div type="chapter" subtype="castlist">
+<head type="main">Personerne</head>
+<castList>
+<castItem><role>Jomfru Linde.</role></castItem>
+<castItem><role>Bertha Hald,</role> <roleDesc>hendes Pleiedatter.</roleDesc></castItem>
+<castItem><role>Fanny Hald.</role></castItem>
+<castItem><role>Fru Hald.</role></castItem>
+<castItem><role>Fru Jul.</role></castItem>
+<castItem><role>Tora,</role> <roleDesc>hendes Datter.</roleDesc></castItem>
+<castItem><role>Fru Rask.</role></castItem>
+<castItem><role>Fru Klem.</role></castItem>
+<castItem><role>Gamle Marja.</role></castItem>
+<castItem><role>Maren Kokke,</role> <roleDesc>i Tjeneste hos Jomfru Linde.</roleDesc></castItem>
+<castItem><role>Lisa og Trine,</role> <roleDesc>i Tjeneste hos Fru Jul.</roleDesc></castItem>
+<castItem><role>Kandidat Henriksen.</role></castItem>
+<castItem><role>Alf Jul.</role></castItem>
+<castItem><role>Pastoren.</role></castItem>
+<castItem><role>Nils-Petter,</role> <roleDesc>Gaardsfuldm&#x00E6;gtig hos Jomfru Linde.</roleDesc></castItem>
+<castItem><role>Doktoren.</role></castItem>
+<castItem><role>Adjunkten.</role></castItem>
+<castItem><role>Sagf&#x00F8;rer Klem.</role></castItem>
+</castList>
+<p>1ste Akt foregaar i Fru Juls Pensionat i Byen, 2den og 4de paa Jomfru Lindes Gaard Raby og 3dje i gamle Marjas Hytte. Tid: 1870-Aarene.</p>
+</div>
+<div type="chapter" subtype="act" n="1">
+<head type="main">F&#x00F8;rste Akt</head>
+<stage>Salon i Fru Juls Pensionat. Hyggeligt og velstelt med mange Blomster. Mellem Vinduerne paa venstre V&#x00E6;g stort Speil. I Forgrunden tilh&#x00F8;ire Chaiselongue. M&#x00F8;blerne solide og bekvemme.</stage>
+<stage>Lisa gaar omkring og t&#x00F8;rrer St&#x00F8;v og d&#x00E6;nger M&#x00F8;blerne med et Haandkl&#x00E6;de.</stage>
+<sp>
+<speaker>Fru Rask</speaker>
+<stage>(30-aarig, kraftig, velbygget Dame, praktisk og enkelt kl&#x00E6;dt, men ikke uden et vist Koketteri. Soigneret, sund og frisk. Det rige, brune Haar ligger i Fletninger om Hovedet)</stage>
+<p>Har De ikke fundet mit Lommet&#x00F8;rkl&#x00E6;de, Lisa? Det laa her, hvor jeg sad igaaraftes. <stage>(L&#x00F8;fter paa Puderne i Sofaen.)</stage></p>
+</sp>
+<sp>
+<speaker>Lisa</speaker>
+<p>Nei, langtifra, jeg har ikke set noe Lommet&#x00F8;rkl&#x00E6;de.</p>
+</sp>
+<sp>
+<speaker>Fru Jul</speaker>
+<stage>(50-aarig, f&#x00F8;rladen, sund og munter. Morgenkjole. Raskt ind)</stage>
+<p>Godmorgen, Fru Rask! &#x2013; Huh da, Lisa, hvor det st&#x00F8;ver af Dem &#x2013;, s&#x00E6;t da Vinduerne op. <stage>(Gj&#x00F8;r det selv med energiske Bev&#x00E6;gelser.)</stage></p>
+</sp>
+<sp>
+<speaker><pb n="2"/>Fru Rask</speaker>
+<p>Godmorgen, Fru Jul. Naturligvis har jeg mistet et Lommet&#x00F8;rkl&#x00E6;de igjen.</p>
+</sp>
+<sp>
+<speaker>Fru Jul</speaker>
+<p>Det var da leit. Er Jomfru Linde staaet op, Lisa?</p>
+</sp>
+<sp>
+<speaker>Lisa</speaker>
+<p>Det kjender jeg ikke til.</p>
+</sp>
+<sp>
+<speaker>Fru Jul</speaker>
+<stage>(steller med Blomsterne)</stage>
+<p>Det kommer nok til sig igjen, Fru Rask. <stage>(Til Lisa.)</stage> Se nu til at rappe dig lidt. <stage>(Til Fru Rask.)</stage> Var der Navn paa det?</p>
+</sp>
+<sp>
+<speaker>Fru Rask</speaker>
+<p>Nei, men det var af dem med Hulfald.</p>
+</sp>
+<sp>
+<speaker>Fru Jul</speaker>
+<p>Aa ja, det kommer nok til sig. <stage>(Ud.)</stage></p>
+</sp>
+<sp>
+<speaker>Fru Rask</speaker>
+<p>Nei, l&#x00E6;gger man en Ting fra sig her, saa er man fri for at se det mer.</p>
+</sp>
+<sp>
+<speaker>Lisa</speaker>
+<p>De gaar jo og dr&#x00F8;sser Lommet&#x00F8;rkl&#x00E6;der etter Dere alle Steder, saa det kan De vel liksaa gjerne leite paa Gata etter som her, t&#x00E6;nker jeg.</p>
+</sp>
+<sp>
+<speaker><pb n="3"/>Fru Rask</speaker>
+<stage>(tr&#x00E6;kker paa Skuldrene)</stage>
+<p>&#x2013; H&#x00F8;r, vil De si til Jomfru Linde, at jeg maatte gaa; men vi kommer til Raby imorgen Kl. 5 hele Barnehjemskomiteen, sig! Glem nu ikke det. <stage>(Ud.)</stage></p>
+</sp>
+<sp>
+<speaker>Trine</speaker>
+<stage>(kommer fra H&#x00F8;ire med et Br&#x00E6;t; sp&#x00E6;nder D&#x00F8;ren op)</stage>
+<p>Isch, disse Filled&#x00F8;rene! &#x2013; Hvem var det som gik? <stage>(Nikker mod Baggrundsd&#x00F8;ren, hvor Fru Rask netop forsvinder.)</stage></p>
+</sp>
+<sp>
+<speaker>Lisa</speaker>
+<stage>(holder i D&#x00F8;ren)</stage>
+<p>Aa, det var denne halvg&#x00E6;lne Fru Rask. Hu leita etter noe igjen, som hu pleier.</p>
+</sp>
+<sp>
+<speaker>Trine</speaker>
+<stage>(ler)</stage>
+<p>Etter Manden sin, kanske?</p>
+</sp>
+<sp>
+<speaker>Lisa</speaker>
+<p>Aa nei, han er a vel blaa for aa finne igjen, er'n f&#x00F8;rst kommen laus, saa &#x2026; Kom du ikke ind med Chokoladen naa heller?</p>
+</sp>
+<sp>
+<speaker>Trine</speaker>
+<stage>(s&#x00E6;tter Br&#x00E6;ttet paa Bordet)</stage>
+<p>T&#x00E6;nk komme ind! Nei da! Endda hu har bestelt'n til Kl. 8.</p>
+<stage>(Gaar til Speilet og retter paa sin Frisure.)</stage>
+</sp>
+<sp>
+<speaker>Lisa</speaker>
+<stage><pb n="4"/>(tar en Kavring paa Br&#x00E6;ttet og knasker)</stage>
+<p>Naar en har Penger nok, saa kan en gj&#x00F8;re det en vil, da. Hu kunde vel gjerne ligge rundt, hu, hvis a vilde.</p>
+</sp>
+<sp>
+<speaker>Trine</speaker>
+<p>Ved du, aa jeg trur?</p>
+</sp>
+<sp>
+<speaker>Lisa</speaker>
+<p>Naa?</p>
+</sp>
+<sp>
+<speaker>Trine</speaker>
+<p>Jeg trur hu har havt Visitter.</p>
+</sp>
+<sp>
+<speaker>Lisa</speaker>
+<p>Jomfrua?</p>
+</sp>
+<sp>
+<speaker>Trine</speaker>
+<p>Ja netop &#x00AB;Jomfrua&#x00BB;, ja. Har ikke du merka noe?</p>
+</sp>
+<sp>
+<speaker>Lisa</speaker>
+<p>Gid! <stage>(Dytter Trine i Siden.)</stage> Fuldm&#x00E6;gtigen?</p>
+</sp>
+<sp>
+<speaker>Trine</speaker>
+<p>Hys da, skrig ikke saa. Men derude paa Raby, der gaar det for sig, siger jeg. <stage>(D&#x00E6;mpet.)</stage> Han reiste, f&#x00F8;r Fa'n fik Skoa paa sig idag.</p>
+</sp>
+<sp>
+<speaker>Lisa</speaker>
+<p>Gaardsgutten hendes! Kors bevare dig for ei &#x00AB;Jomfru&#x00BB;!</p>
+</sp>
+<sp>
+<speaker><pb n="5"/>Trine</speaker>
+<p>Du da; han er &#x00AB;Fuldm&#x00E6;gtig&#x00BB; blit naa, veit du?
+<stage>(De storler. Trine tar Br&#x00E6;ttet og gaar mod D&#x00F8;ren; snur sig.)</stage> Pas naa paa, naa kommer det ei feit Gaas til Frua en af Dagene, det kan du bande paa!</p>
+</sp>
+<sp>
+<speaker>Lisa</speaker>
+<p>V&#x00E6;r sikker!</p>
+</sp>
+<stage>(Trine ud)</stage>
+<sp>
+<speaker>Tora</speaker>
+<stage>(16 Aar, brunet og vakker, lidt s&#x00F8;gt i sin Kl&#x00E6;dedragt, kommer fra H&#x00F8;ire)</stage>
+<p>Uf, er du ikke f&#x00E6;rdig endda?</p>
+</sp>
+<sp>
+<speaker>Lisa</speaker>
+<stage>(st&#x00F8;ver)</stage>
+<p>F&#x00E6;rdig! Nei, det er leit, at en ikke har mere end to H&#x00E6;nder! Her i Huset kunde en saavist beh&#x00F8;ve fire.</p>
+</sp>
+<sp>
+<speaker>Tora</speaker>
+<p>Ikke v&#x00E6;r saa sint da, Lisa; det kl&#x00E6;r dig ikke det.</p>
+</sp>
+<sp>
+<speaker>Lisa</speaker>
+<stage>(pudser n&#x00E6;sen)</stage>
+<p>Jeg er snart tr&#x00F8;t og lei af hele Pensionsv&#x00E6;senet, jeg.</p>
+</sp>
+<sp>
+<speaker>Tora</speaker>
+<stage>(beroligende)</stage>
+<p>Naa da, Lisa! &#x2013; Nei se, for et nydeligt Lommet&#x00F8;rkl&#x00E6;de du har! Hulfald og alting &#x2026;</p>
+</sp>
+<sp>
+<speaker><pb n="6"/>Lisa</speaker>
+<stage>(putter hurtig Lommet&#x00F8;rkl&#x00E6;det i Lommen igjen)</stage>
+<p>Ja, kanske en ikke skulde faa ha et ordentligt Lommet&#x00F8;rkl&#x00E6;de engang, fordi om man er en Tjener.</p>
+</sp>
+<sp>
+<speaker>Tora</speaker>
+<p>Jo, kj&#x00E6;re dig da, Lisa &#x2026;</p>
+</sp>
+<sp>
+<speaker>Lisa</speaker>
+<stage>(kneisende; n&#x00E6;bbet)</stage>
+<p>Jeg har Mellemverk og Silkeband paa Bukserne ogsaa, jeg, hvis De vil vite det, akkurat som Fr&#x00F8;kna &#x2026; <stage>(Hurtig ud.)</stage></p>
+</sp>
+<sp>
+<speaker>Tora</speaker>
+<p>Gudskelov! <stage>(Gaar foran Speilet, l&#x00F8;ser sit lange Haar, tar en Krans af hvide Evighedsblomster, som h&#x00E6;nger paa Ovnen, og gaar langsomt som i Dr&#x00F8;mme mod Speilet igjen; h&#x00E6;nger Kransen paa Kandelabren og siger.)</stage> Jeg hilser dig, min Kj&#x00E6;rlighed, Godmorgen!
+<stage>(Det banker paa D&#x00F8;ren til Venstre.)</stage></p>
+</sp>
+<sp>
+<speaker>Tora</speaker>
+<stage>(snur hurtig Ryggen mod Speilet)</stage>
+<p>Kom ind!</p>
+</sp>
+<sp>
+<speaker>En ung Student</speaker>
+<p>Godmorgen, Fr&#x00F8;ken Tora!</p>
+</sp>
+<sp>
+<speaker>Tora</speaker>
+<p>Godmorgen!</p>
+</sp>
+<sp>
+<speaker><pb n="7"/>Studenten</speaker>
+<stage>(ser paa hende)</stage>
+<p>Hvor De ser &#x2013; frav&#x00E6;rende ud, Fr&#x00F8;ken Tora. Jeg forstyrrer vist &#x2013; det var bare en Bog, jeg glemte her igaaraftes.</p>
+</sp>
+<sp>
+<speaker>Tora</speaker>
+<p>Aa naa!</p>
+</sp>
+<sp>
+<speaker>Studenten</speaker>
+<stage>(mod Speilbordet)</stage>
+<p>Se, der ligger den. Omforladelse. <stage>(Tar efter Bogen; faar fat i en Lok af hendes Haar.)</stage></p>
+</sp>
+<sp>
+<speaker>Tora</speaker>
+<stage>(rykker til og sl&#x00E6;nger Haaret om paa Siden)</stage>
+<p>Uf!</p>
+</sp>
+<sp>
+<speaker>Studenten</speaker>
+<p>Hvad var det?</p>
+</sp>
+<sp>
+<speaker>Tora</speaker>
+<stage>(koket)</stage>
+<p>Aa, det ved De godt. Skynd Dem og gaa.</p>
+</sp>
+<sp>
+<speaker>Studenten</speaker>
+<p>Eva! <stage>(Stirrer paa hende.)</stage> Det er <emph>en</emph> Ting i Verden, som er deilig! Eva, Eva!</p>
+</sp>
+<sp>
+<speaker>Tora</speaker>
+<p>Uf! Gaa, h&#x00F8;rer De.</p>
+</sp>
+<stage>(Det banker.)</stage>
+<sp>
+<speaker>Studenten</speaker>
+<stage>(ser paa hende, som han var hypnotiseret)</stage>
+<p>Godmorgen, Fr&#x00F8;ken Eva! <stage>(Gaar bagl&#x00E6;ngs mod Baggrunden.)</stage></p>
+</sp>
+<sp>
+<speaker><pb n="8"/>Tora</speaker>
+<p>Kom ind!</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<stage>(13 Aar, lyst Haar i viltre Kr&#x00F8;ller om Hovedet. Opl&#x00F8;ben og tynd, blegt, vakkert Ansigt, store, forundrede &#x00D8;ine; hun stikker Hovedet ind)</stage>
+<p>Goddag!</p>
+</sp>
+<sp>
+<speaker>Studenten</speaker>
+<stage>(forbi hende)</stage>
+<p>Omforladelse!</p>
+</sp>
+<sp>
+<speaker>Tora</speaker>
+<stage>(fremmed)</stage>
+<p>Goddag!</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<p>Du kjender mig nok ikke igjen. <stage>(Smiler; ser efter Studenten.)</stage> Gid, saa rar han var &#x2026; Jeg er Fanny &#x2013; husker du ikke &#x2013;? Fra Badehuset.</p>
+</sp>
+<sp>
+<speaker>Tora</speaker>
+<p>Jovist! Nu husker jeg godt &#x2026; Det var saan Sommel dernede paa Badehuset. Og saa havde du ingen Kl&#x00E6;r paa dig da &#x2026;</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<p>Nei, og saa var det saa kort. Men du sa, at jeg maatte bes&#x00F8;ge dig, og det vilde jeg saa gjerne, for &#x2013; ja, for jeg kjender ingen herinde endda &#x2013; jo noen kjender jeg nok; men ingen, som jeg bryr mig om.</p>
+</sp>
+<sp>
+<speaker><pb n="9"/>Tora</speaker>
+<p>Ja, det var da morsomt, at du kom! Vil du ikke ta Hatten af og bli en Stund?</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<stage>(ser paa de to Pakker, hun har under Armen)</stage>
+<p>Tak, jeg ved ikke &#x2026; Egentlig gaar jeg &#x00C6;rind for Mor. Men jeg var lige her i N&#x00E6;rheden, og saa &#x2026;</p>
+</sp>
+<sp>
+<speaker>Tora</speaker>
+<p>Aa, det haster da vel ikke saa sv&#x00E6;rt!</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<p>Aa nei. <stage>(Ser mod D&#x00F8;ren.)</stage> Var det din Bror, han som gik?</p>
+</sp>
+<sp>
+<speaker>Tora</speaker>
+<p>Nei da. Det var bare en Student, som bor her. Vi har Pensionat, ser du, for Mama liker at ha det lidt livligt omkring sig.</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<p>Hvorfor gik han bagl&#x00E6;ngs?</p>
+</sp>
+<sp>
+<speaker>Tora</speaker>
+<p>Aa pyt, han er gal, han, ser du. Han er forelsket i mig, Mor!</p>
+</sp>
+<sp>
+<speaker><pb n="10"/>Fanny</speaker>
+<p>Au! <stage>(Lidt forlegen.)</stage> Er ikke det grulig &#x2026; grulig morsomt, saan &#x2026;</p>
+</sp>
+<sp>
+<speaker>Tora</speaker>
+<p>Pyt, han! Jeg bryr mig ikke en D&#x00F8;it om ham &#x2013; det er jo en Evighed, til han blir noget. <stage>(Fanny ser paa hende.)</stage> Men nu maa du sandelig ta af dig og bli! Jeg fik saadan Lyst til at snakke med dig dernede paa Badehuset i Formiddag &#x2026; <stage>(Vil ta Pakkerne fra Fanny.)</stage></p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<stage>(n&#x00F8;ler med at slippe dem)</stage>
+<p>Tak, men &#x2026;</p>
+</sp>
+<sp>
+<speaker>Tora</speaker>
+<stage>(tar dem uden videre)</stage>
+<p>Jovist! &#x2013; Sandelig tror jeg ikke det er Br&#x00F8;d! Og Sm&#x00F8;r! Ha, ha, jeg mener sandt for Dyden du er huslig!</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<stage>(vil hurtig ta Pakkerne igjen)</stage>
+<p>Nei da &#x2026; det er bare noe &#x2026; nei, t&#x00E6;nk jeg tror, jeg maa gaa alligevel.</p>
+</sp>
+<sp>
+<speaker>Tora</speaker>
+<stage>(afv&#x00E6;rgende)</stage>
+<p>Sludder. Nei da, nu skal du bli! <stage>(Tar Fannys Hat af hende og l&#x00E6;gger den paa Sofaen.)</stage> Ved du, jeg likte dig saa godt med det samme. <stage>(Tr&#x00E6;kker hende med sig ned paa <pb n="11"/>Chaiselonguen.)</stage> Du var saa s&#x00F8;d, da du stod der paa Bassintrappen i det altfor korte Linnedet dit med den troskyldige hjemmesyede Borden paa &#x2013; og saa Kr&#x00F8;llerne saan vildt om Hovedet &#x2013; akkurat som en af Rafaels Engle! Du ved Rafael, han med alle de smaa, s&#x00F8;de Englene!</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<stage>(i Begyndelsen usikker og genert)</stage>
+<p>Ja da. T&#x00E6;nk saa rart, for jeg syntes ogsaa noe om dig. Du saa ud som &#x2026; <stage>(stanser genert.)</stage></p>
+</sp>
+<sp>
+<speaker>Tora</speaker>
+<p>Hvad som? Sig det!</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<p>Du saa ud som en Brud.</p>
+</sp>
+<sp>
+<speaker>Tora</speaker>
+<stage>(ler)</stage>
+<p>Aa gid, saa snodig! En Brud! Det var det, at jeg var hvid. Ellers pleier alle si, at jeg ser ud som en Skuespillerinde; er det ikke v&#x00E6;mmeligt? T&#x00E6;nk en Brud!</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<p>Ja, du havde bare Badelagenet paa dig; og saa gik du saa &#x2026;</p>
+</sp>
+<sp>
+<speaker>Tora</speaker>
+<p>Hvordan gik jeg? Sig det! &#x2013; Du saa altsaa paa mig; det var det jeg syntes. Jeg la Merke til <pb n="12"/>dig, fordi du var fremmed, ser du. Ikke ligned du de andre heller. Hvordan gik jeg?</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<stage>(tryggere)</stage>
+<p>Jo, det sl&#x00E6;bte efter dig, som Sl&#x00E6;bet paa en lang, hvid Brudekjole &#x2013; Badelagenet &#x2013; og saa gik du saa alvorlig bortover den lange Gangen &#x2013; med b&#x00F8;iet Hoved <stage>(reiser sig og gaar bortover Gulvet)</stage> &#x2013; saan. Og saa t&#x00E6;nkte jeg, at hvis hun der havde havt Krans paa Hovedet, saa havde hun set ud akkurat som en Brud i Kirken &#x2013; saan langsomt opover mod Alteret. <stage>(S&#x00E6;tter sig, pludselig forlegen, da Tora ler.)</stage> &#x2013; Ja, det var bare noe T&#x00F8;v, skj&#x00F8;nner du.</p>
+</sp>
+<sp>
+<speaker>Tora</speaker>
+<p>Saa rar som du er. Er det ikke komisk, at vi to straks skulde l&#x00E6;gge Merke til hverandre. Ved du, hvad jeg t&#x00E6;nkte? <stage>(Som hun l&#x00E6;ser af en Bog.)</stage> Vi to kommer til at spille en Rolle i hverandres Liv, t&#x00E6;nkte jeg.</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<p>Nei, saa rart; for <emph>jeg</emph> t&#x00E6;nkte, at jeg vilde &#x00F8;nske, jeg kunde bli Veninde med den Pigen med det lange Haaret, fordi &#x2026;</p>
+</sp>
+<sp>
+<speaker>Tora</speaker>
+<stage>(ler)</stage>
+<p>&#x2013; Fordi jeg saa ud som en Brud!</p>
+</sp>
+<sp>
+<speaker><pb n="13"/>Fanny</speaker>
+<stage>(smiler forlegen)</stage>
+<p>Nei, men &#x2026;</p>
+</sp>
+<sp>
+<speaker>Tora</speaker>
+<p>Men?</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<p>Jo, det var ligesom jeg kom til at t&#x00E6;nke paa saa meget, jeg havde l&#x00E6;st om. Haremskvinder og Nonner og alt saadant &#x2026;</p>
+</sp>
+<sp>
+<speaker>Tora</speaker>
+<p>Nei, saa morsomt, sv&#x00E6;rmer du ogsaa for Haremskvinder?</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<stage>(begeistret)</stage>
+<p>Ja, ogsaa for Nonner! Hvide Nonner! Og Haremskvinder <stage>(udtaler Ordet med h&#x00F8;itideligt Alvor)</stage> i lange, gule Silkekjoler, og Guld og Diamanter, saa det drysser. Og ingen faar se dem uden han &#x2013;</p>
+</sp>
+<sp>
+<speaker>Tora</speaker>
+<p>Huf, du snakker, saa det krisler i mig. Hvor gammel er du, Fanny?</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<p>Tretten Aar.</p>
+</sp>
+<sp>
+<speaker>Tora</speaker>
+<p>Jeg er seksten.</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<p>Aa t&#x00E6;nk; da er du vel konfirmeret da?</p>
+</sp>
+<sp>
+<speaker><pb n="14"/>Tora</speaker>
+<p>Nei. Bedre Mands B&#x00F8;rn gaar ikke saa tidlig her. Men jeg gaar og l&#x00E6;ser, og i Oktober skal jeg konfirmeres.</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<stage>(dr&#x00F8;mmende hen for sig)</stage>
+<p>Er ikke det rart at t&#x00E6;nke paa. N&#x00E6;ste Aar skal jeg.</p>
+</sp>
+<sp>
+<speaker>Tora</speaker>
+<p>Gid, saa tidlig!</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<p>Ja, de brugte det der, hvor vi bodde f&#x00F8;r, og saa &#x2026; Ja, og saa er det bedre for Mor, at jeg blir voksen.</p>
+</sp>
+<sp>
+<speaker>Tora</speaker>
+<p>Ja, det er sandt, din Far er jo d&#x00F8;d. Har du ingen S&#x00F8;sken da?</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<p>Jo, en S&#x00F8;ster. Men hun er ikke hos Mor.</p>
+</sp>
+<sp>
+<speaker>Tora</speaker>
+<p>Hvor er hun, da?</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<stage>(f&#x00F8;rst famlende, saa modig og kry)</stage>
+<p>Aa &#x2013; hun er paa en &#x2013; et forf&#x00E6;rdelig stort Gods &#x2026; hos en forf&#x00E6;rdelig rig Dame &#x2013; en Slegtning af Far &#x2026; <stage>(Stanser og ser ned.)</stage></p>
+</sp>
+<sp>
+<speaker><pb n="15"/>Tora</speaker>
+<p>Nei fort&#x00E6;l!</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<stage>(lader Fantasien l&#x00F8;be)</stage>
+<p>Og t&#x00E6;nk, hun har Ridehest &#x2013; min S&#x00F8;ster &#x2013; deilig, sort Ridehest og gaar med tykt Guldarmbaand til hverdags, og nu er hun blit forlovet med en Professor eller noe saant er han vist. Han er i Slegt med den gamle Damen.</p>
+</sp>
+<sp>
+<speaker>Tora</speaker>
+<p>Saa er han jo i Slegt med dig og din S&#x00F8;ster ogsaa da jo.</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<stage>(rister forvirret paa Hovedet)</stage>
+<p>Nei da.</p>
+</sp>
+<sp>
+<speaker>Tora</speaker>
+<p>Men du sa jo, den Damen var en Slegtning af din Far jo!</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<stage>(r&#x00F8;d)</stage>
+<p>Aa ja, men det er saa grulig langt ude, det.</p>
+</sp>
+<sp>
+<speaker>Tora</speaker>
+<p>Aa naa! Det var did du skulde reise da?</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<p>Ja. Jeg skulde faa komme did, jeg ogsaa. For Mama var saa syg. Hun har skrevet noe hemmeligt til Mama &#x2013; min S&#x00F8;sters Pleiemor. For naar Mama er syg, saa tjener hun ikke noe da, og da &#x2026;</p>
+</sp>
+<sp>
+<speaker><pb n="16"/>Tora</speaker>
+<p>Maa din Mor tjene Penge selv? <stage>(Ser nedover Fannys tarvelige Dragt.)</stage></p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<p>Ja. Mor broderer saa nydelig. Men nu, naar jeg er blit saa stor, saa er det saa dyrt med Kjoler og St&#x00F8;vler og saant &#x2026;</p>
+</sp>
+<sp>
+<speaker>Tora</speaker>
+<p>Aa ja. Du vil vel gjerne reise, da?</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<p>Aa ja, bare ikke Mor graat saa &#x2013; det er jo saa sv&#x00E6;rt stille hjemme hos Mor &#x2026;</p>
+</sp>
+<sp>
+<speaker>Tora</speaker>
+<p>Hvorfor graater din Mor for det, da? Du faar det jo deiligt, da jo!</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<p>Ja, og saa l&#x00E6;ngter min S&#x00F8;ster saa efter at se mig, skriver hun.</p>
+</sp>
+<sp>
+<speaker>Tora</speaker>
+<p>Har hun ikke set dig, da?</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<p>Nei, ikke siden jeg var liden. Du kan tro, hun skriver alvorlige, rare Breve &#x2013; akkurat som en gammel Dame. Og det synes Mor er saa rart, for da hun var hjemme, var hun ligesaa vilter som jeg, siger Mor.</p>
+</sp>
+<sp>
+<speaker><pb n="17"/>Tora</speaker>
+<p>Er du saa vilter du, da?</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<p>Mor sier det. Men du ved ikke, hvor ofte jeg graater.</p>
+</sp>
+<sp>
+<speaker>Tora</speaker>
+<p>Gj&#x00F8;r du? Hvad graater du for, da?</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<stage>(ser ned)</stage>
+<p>Aa &#x2013; jeg ved ikke &#x2013; det er saa meget det &#x2026; Men det faar ikke Mor se.</p>
+</sp>
+<sp>
+<speaker>Tora</speaker>
+<stage>(pludselig)</stage>
+<p>Du? Hvad heder din S&#x00F8;ster?</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<p>Bertha.</p>
+</sp>
+<sp>
+<speaker>Tora</speaker>
+<stage>(slaar Armene om hende)</stage>
+<p>Ja, var det ikke det jeg syntes, at det ligned saa altsammen! Da er du Fanny Hald, den lille S&#x00F8;steren til Bertha, som er hos Jomfru Linde. Gid, dette var romantisk! Det er jo min Bror, hun er forlovet med! Professor han! Nu maa jeg le! Og Bertha alvorlig! Jo, du er en god Sk&#x00F8;ier! Nei, at vi skulde tr&#x00E6;ffes saan; det er rent som i en Roman &#x2026;</p>
+</sp>
+<sp>
+<speaker><pb n="18"/>Fanny</speaker>
+<stage>(r&#x00F8;d igjen)</stage>
+<p>Ja, t&#x00E6;nk &#x2026; men &#x2026;</p>
+</sp>
+<sp>
+<speaker>Tora</speaker>
+<stage>(munter)</stage>
+<p>Og saa Gods! Raby er da bare en stor Gaard. Og du maa ikke tro Bertha har egen Ridehest og rider ordentlig. Hun lurer sig til at ride, uden Sadel, akkurat som en Gut. Og t&#x00E6;nk hun skyder Fuglene i Flugten. Din Far l&#x00E6;rte hende at skyde, t&#x00E6;nk. Min Bror er saa fortvilet over det, kan du vide. Men Penge faar hun!</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<p>Nei, t&#x00E6;nk kan hun skyde?</p>
+</sp>
+<sp>
+<speaker>Tora</speaker>
+<p>Ja da, og en fin Revolver fik hun af din Far, f&#x00F8;r han d&#x00F8;de. Han har selv ladet den, og ingen har r&#x00F8;rt den siden. Den h&#x00E6;nger endda over Portr&#x00E6;ttet hans i Dagligstuen paa Raby. Men ved du hvad &#x2013; Tante Linde er jo i Byen idag, saa kan du jo tr&#x00E6;ffe hende &#x2026;</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<stage>(&#x00E6;ngstelig, tar sin Hat)</stage>
+<p>Aa nei, jeg maa nok skynde mig. Jeg har v&#x00E6;ret saa rent for l&#x00E6;nge borte.</p>
+</sp>
+<sp>
+<speaker><pb n="19"/>Tora</speaker>
+<p>Jovist, maa du hilse paa hende &#x2026;</p>
+</sp>
+<sp>
+<speaker>Jomfru Linde</speaker>
+<stage>(45 Aar, f&#x00F8;rladen, staut Figur; smaa, hvide, lidt fede H&#x00E6;nder. Smaa velformede F&#x00F8;dder. Farvel&#x00F8;st, bredt Ansigt med smaa, graa &#x00D8;ine, som ser godt. Haaret lyst, glat tilbagestr&#x00F8;get. Sort Kjole af strengt Snit, T&#x00F8;ist&#x00F8;vler, hvide Str&#x00F8;mper og Skj&#x00F8;rter, som skimtes, naar hun indtager sin Yndlingsstilling &#x2013; tilbagel&#x00E6;net i en Stol og F&#x00F8;dderne paa en Skammel. Guldnaal og tykt Guldkj&#x00E6;de. Hun kommer ind fra Venstre)</stage>
+<p>Godmorgen, Tora!</p>
+</sp>
+<sp>
+<speaker>Tora</speaker>
+<p>Godmorgen, Tante! Ser du her!</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<p>Har du Bes&#x00F8;g?</p>
+</sp>
+<sp>
+<speaker>Tora</speaker>
+<p>Ja, og t&#x00E6;nk du, det er jo Fanny &#x2013; Fanny Hald!</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<stage>(med et hurtigt Blik)</stage>
+<p>Saa? Ja, det burde jeg straks ha set. Du ligner hende &#x2013; din Mor.</p>
+</sp>
+<stage>(Fanny ser forlegen ned for sig.)</stage>
+<sp>
+<speaker>Tora</speaker>
+<p>Vi er blit kjendt paa Badehuset, t&#x00E6;nk. Men jeg vidste jo ikke, at det var den Fanny.</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<p>Vil du ikke hilse paa mig, Barn? <stage>(Fanny neier taus.)</stage> Det var et underligt Tr&#x00E6;f. Jeg har ventet at h&#x00F8;re fra din Mor. <stage>(R&#x00E6;kker hende Haanden.)</stage></p>
+</sp>
+<sp>
+<speaker><pb n="20"/>Fanny</speaker>
+<stage>(r&#x00E6;kker sin igjen forlegen)</stage>
+<p>Mor er saa sv&#x00E6;rt daarlig. Men vi skulde nok kommet imorgen.</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<stage>(slipper hende)</stage>
+<p>Vi. Hm. &#x2013; Tora, gaa ind paa mit V&#x00E6;relse; der ligger Berthas Sager; saa faar jeg h&#x00F8;re, om du synes, det er Stedmoderudstyr, hun faar. <stage>(Tora gaar, idet hun nikker forstaaelsesfuldt.)</stage> Jasaa, saa du vilde da komme til Jomfru Linde! <stage>(Smiler.)</stage> Endda du vel har h&#x00F8;rt lidt af hvert om hende? &#x2013; Naa, du ser ud, som du er r&#x00E6;d jeg skal spise dig. <stage>(S&#x00E6;tter sig.)</stage> Vil du gi mig den Fodskammelen der? <stage>(Fanny skynder sig at s&#x00E6;tte Skammelen under hendes F&#x00F8;dder med et sagte: v&#x00E6;rsaagod!)</stage> Tak, Barn. <stage>(Tar Fannys Haand.)</stage> Lad mig tale lidt med dig, Vennen min &#x2013; Det er saa meget, du endnu ikke kan forstaa; men tro ikke alt, hvad Folk siger dig! En gang vil du ogsaa l&#x00E6;re, at Uretf&#x00E6;rdigheden er stor i Verden &#x2013; og Utaknemmeligheden! <stage>(Fanny b&#x00F8;ier forknyt Hovedet.)</stage> Du ved, jeg har kjendt din ulykkelige Far, og jeg siger dig nu &#x2013; og Gud i Himmelen skal v&#x00E6;re mit Vidne &#x2013;: stor Barmhjertighed har jeg &#x00F8;vet mod ham, lige fra jeg tog ham og hans nakne Barn op fra Gaden og til den Dag, han d&#x00F8;de i mit Hus. <stage>(Fanny begynder at gr&#x00E6;de.)</stage> Ja, du kan nok gr&#x00E6;de, Barn. Han var en hjeml&#x00F8;s Mand, han; men jeg siger dig: ikke hans var Skylden! Tro du <pb n="21"/>mig, hvad du saa end har h&#x00F8;rt af &#x2013; af andre, af dem, som haded ham.</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<stage>(higstende)</stage>
+<p>Aa, stakkars Far!</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<p>Ja, jeg syntes ogsaa Synd paa ham; det var det. Og jeg raadf&#x00F8;rte mig med Gud og min Samvittighed og gjorde, hvad jeg trodde var min Pligt. Ikke sandt, Vennen min, naar et Menneske er if&#x00E6;rd med at drukne, saa er det simpel Menneskepligt at redde det, hvis man kan.</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<p>Jo.</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<p>Men hvad tror du, jeg har havt igjen for det? Naa, naa, Barn, det kan du ikke forstaa. Jeg siger bare: Gud v&#x00E6;re lovet, som l&#x00E6;rte mig at samle gloende Kul paa deres Hoveder, som vilde mig Ondt. <stage>(T&#x00F8;rrer en Taare af &#x00D8;iet. Tar en Guldknap ud af sin Halslinning.)</stage> Se her, Barn. Denne Guldknap har din Far baaret. Han fik den paa sin Konfirmationsdag, og i sin D&#x00F8;dsstund gav han den til mig. Det var hans hele Eie her i Verden. Nu vil jeg <emph>du</emph> skal ha den. <stage>(B&#x00F8;ier Fanny ned til sig og kysser hende.)</stage> Lad saa Mindet om ham, som eied den, v&#x00E6;re dig helligt.</p>
+</sp>
+<sp>
+<speaker><pb n="22"/>Fanny</speaker>
+<stage>(kaster sig pludselig om hendes Hals; r&#x00F8;rt)</stage>
+<p>Aa tusen Tak!</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<p>Saa, saa, Barn. Fra imorgen er du altsaa min! <stage>(Reiser sig; maaler Fanny fra Top til Taa med inspicerende Blik)</stage> Saa kaster vi Kordskjolen og de lappede Sko, hvad? Og faar os en anst&#x00E6;ndig Hat.</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<stage>(forlegen)</stage>
+<p>Ja, tak!</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<stage>(gaar op og ned)</stage>
+<p>Bertha venter paa dig. Hun har v&#x00E6;ret rent lang i Ansigtet, fordi vi ingenting h&#x00F8;rte.</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<p>Aa ja, jeg gl&#x00E6;der mig ogsaa forf&#x00E6;rdelig til at se Bertha. Hun er vel sv&#x00E6;rt stor og &#x2013; pen.</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<p>Ja, du kan tro. Men saa lever vi ikke af Kaffe og Sirupkage heller paa Raby, ser du.</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<stage>(alvorlig)</stage>
+<p>Det blir jo meget lettere for Mor ogsaa da. Og saa kan jeg jo bes&#x00F8;ge Mor, naar jeg vil. <stage>(Ser sp&#x00E6;ndt paa Jomfruen, som vender sig bort uden at svare.)</stage></p>
+</sp>
+<sp>
+<speaker><pb n="23"/>Fanny</speaker>
+<stage>(forts&#x00E6;tter i halv Forstaaelse, ivrigt overbevisende)</stage>
+<p>Aa &#x2013; aa De maa ikke v&#x00E6;re vond paa Mor &#x2026; Mor har v&#x00E6;ret saa syg, kan De tro! Og saa har det &#x2013; &#x2013; &#x2013; ja det har v&#x00E6;ret saa sv&#x00E6;rt vanskeligt for Mor &#x2026; <stage>(Holder pludselig inde og t&#x00F8;rrer bort de frembrydende Taarer.)</stage></p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<p>Du har din Frihed. Jeg har aldrig forbudt Bertha at bes&#x00F8;ge hende. Forstaar du?</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<stage>(forknyt, tr&#x00E6;kker sig lidt tilbage)</stage>
+<p>Ja.</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<p>Og saa se her. Det koster lidt at komme afsted.
+<stage>(Gir hende nogle Penge.)</stage></p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<stage>(neier sagte)</stage>
+<p>Tak!</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<p>Og saa adj&#x00F8;, min Ven. Gud velsigne dig. <stage>(Kysser Fanny paa Panden og gaar raskt ud til H&#x00F8;ire. Fanny staar og ser efter hende med Pengene i den lukkede Haand. Aabner saa Haanden og ser ligesom raadvild paa dem.)</stage></p>
+</sp>
+<sp>
+<speaker>Tora</speaker>
+<stage>(kommer fra Venstre)</stage>
+<p>Naa, hvordan gik det</p>
+</sp>
+<sp>
+<speaker><pb n="24"/>Fanny</speaker>
+<stage>(i Tanker)</stage>
+<p>Aa jo &#x2026; hun var sv&#x00E6;rt snil &#x2026; men &#x2026; men &#x2026; det var noe alligevel. Det var saa meget, jeg ikke forstod rigtig. &#x2013; Aa, men se denne Knappen fik jeg. T&#x00E6;nk, den har v&#x00E6;ret Fars. Han har baaret den paa sin Konfirmationsdag. Den er jeg saa forf&#x00E6;rdelig glad i!</p>
+</sp>
+<sp>
+<speaker>Tora</speaker>
+<p>Ja, hun er sv&#x00E6;r til at gi bort. <stage>(Ser ligegyldig paa Knappen.)</stage> Hvad skal du egentlig med den forresten?</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<p>Gjemme den, kan du vide!</p>
+</sp>
+<sp>
+<speaker>Tora</speaker>
+<p>Faa se, fik du Penger ogsaa?</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<stage>(r&#x00F8;dmende)</stage>
+<p>Ja &#x2013; til Reisen. <stage>(Putter Pengene i Lommen; ser tankefuld frem for sig.)</stage></p>
+</sp>
+<sp>
+<speaker>Tora</speaker>
+<p>Naa da; hvad t&#x00E6;nker du paa?</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<p>Hun var saa rar. &#x2013; Tror du, hun er bedr&#x00F8;vet?</p>
+</sp>
+<sp>
+<speaker>Tora</speaker>
+<p>Hvem?</p>
+</sp>
+<sp>
+<speaker><pb n="25"/>Fanny</speaker>
+<p>Jomfru Linde. Saan indvendig. Hun fik lige som saa ofte Taarer i &#x00D8;inene.</p>
+</sp>
+<sp>
+<speaker>Tora</speaker>
+<p>Pyt ja, hun har det med det. Hvad skulde hun v&#x00E6;re bedr&#x00F8;vet for; hun har jo en Masse Penge og kan gj&#x00F8;re, hvad hun vil. <stage>(Kniser)</stage> Ved du, hun er saa sv&#x00E6;rt gudelig ogsaa.</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<p>Hvorfor ler du af det?</p>
+</sp>
+<sp>
+<speaker>Tora</speaker>
+<p>Jo, for jeg synes saanne gudelige gamle Damer er saa rare. Indimellem bander hun alligevel, men det maa du ikke si, jeg har sagt.</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<p>Fy, snakker du saan om Tanten din!</p>
+</sp>
+<sp>
+<speaker>Tora</speaker>
+<p>Hun er ikke min rigtige Tante, ser du. Mama og hun er bare saa gode Venner. Forresten beh&#x00F8;ver da ikke du at slaa dig saa hellig &#x2013; husk bare, hvor du l&#x00F8;i isted.</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<p>Det var jo bare for Moro, det, kan du vide.</p>
+</sp>
+<sp>
+<speaker><pb n="26"/>Tora</speaker>
+<p>Pyt ja, er det noe at bli saa r&#x00F8;d for, det da! Hvad gj&#x00F8;r det, om man skr&#x00F8;ner lidt. Ved du, det gj&#x00F8;r Bertha ogsaa &#x2013; gyselig! Men Mama siger, at det gj&#x00F8;r altid saanne Barn, som har saanne &#x2013; ja saanne skilte For&#x00E6;ldre, som du og Bertha, stakkar. Pyt, du bryr dig da ikke om det <stage>(klapper hende)</stage>, vi er jo gode Venner nu vel &#x2026; for da blir det saa meget rart, siger Mama &#x2026; Hys, der kommer Tante igjen. Lad os gaa ind til mig. <stage>(L&#x00E6;gger Armen om den nedslagne Fannys Hals og tr&#x00E6;kker hende med sig.)</stage></p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<stage>(kommer fulgt af Alf Jul. Han er i 28-aars Alderen, tynd og skranglet. N&#x00E6;sten pedantisk, soigneret og velkl&#x00E6;dt)</stage>
+<p>Ja, ja, min Ven, alt er ordnet, som jeg haaber til din Tilfredshed.</p>
+</sp>
+<sp>
+<speaker>Alf</speaker>
+<p>Du er saa god; jeg ved ikke, hvordan jeg skal takke dig.</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<p>Naa, til Tak blir der altid Tid. Snart blir jeg gammel; saa faar Dere s&#x00F8;rge for, at jeg ikke ogsaa blir ensom. Anden Tak forlanger jeg ikke.</p>
+</sp>
+<sp>
+<speaker>Alf</speaker>
+<p>Gammel! Du er jo ung som vi!</p>
+</sp>
+<sp>
+<speaker><pb n="27"/>Jomfruen</speaker>
+<p>Ak nei, min Ven, jeg <emph>er</emph> gammel; jeg <emph>ved</emph> at jeg er gammel. Men det er sandt &#x2013; jeg f&#x00F8;ler det ikke.</p>
+</sp>
+<sp>
+<speaker>Alf</speaker>
+<p>Nei, ikke sandt. Og ikke vi andre heller. <stage>(Kysser hendes Haand.)</stage> Du virker &#x2013; det er Gudsens Sandhed &#x2013; saa forvirrende ung &#x2026; Ja, saadan, at det er saa vanskeligt at betragte dig som &#x00AB;Mor&#x00BB;.</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<stage>(smiler)</stage>
+<p>Det v&#x00E6;nner du dig snart til, Gutten min. <stage>(S&#x00E6;tter sig med Foden fremstrakt paa Skammelen. L&#x00F8;fter Kjolen en Smule.)</stage> Aa, min Ven, Skobaandet. Vil du hj&#x00E6;lpe mig?</p>
+</sp>
+<sp>
+<speaker>Alf</speaker>
+<stage>(straks paa Kn&#x00E6;)</stage>
+<p>Skal jeg knytte?</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<p>Tak! &#x2013; Nu, Barn, jeg synes du skj&#x00E6;lver paa Haanden?</p>
+</sp>
+<sp>
+<speaker>Alf</speaker>
+<p>Jeg blir saa let svimmel. <stage>(Reiser sig.)</stage></p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<stage>(v&#x00E6;rdig og strengt)</stage>
+<p>Daarlig Slegt!</p>
+</sp>
+<sp>
+<speaker><pb n="28"/>Alf</speaker>
+<stage>(stryger sig over Panden)</stage>
+<p>Jeg er saa tr&#x00E6;t; jeg ved ikke &#x2026; men det er ogsaa altfor enerverende dette med Bertha. Hvordan skal det gaa. Hun blir v&#x00E6;rre og v&#x00E6;rre. Mer og mer mist&#x00E6;nksom og kold. Hun ligefrem r&#x00F8;mmer for mig; og jeg siger dig, hun kan undertiden se paa mig med et Blik, som &#x2013; ja, som ligefrem er hadefuldt.</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<stage>(utaalmodig op og ned)</stage>
+<p>Jeg forstaar ikke, hvad du mener! Hold nu op med den Jammer; det er da for elendigt!</p>
+</sp>
+<sp>
+<speaker>Alf</speaker>
+<p>Men saa sig mig da, om du tror, det blir anderledes siden. Du kjender hende jo bedre. Vort Bryllup n&#x00E6;rmer sig; men jeg f&#x00F8;ler mig aldrig tryg &#x2013; hvad kan hun ikke finde paa? Jeg forsikrer dig, min Stilling er pinlig!</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<stage>(stanser op foran ham)</stage>
+<p>H&#x00F8;r nu her! Alt har jeg lagt tilrette for dig; ikke en Finger har du r&#x00F8;rt for at ordne eders Aff&#x00E6;rer &#x2013; men gifte mig for dig, det kan jeg ved Gud ikke! <stage>(Snur ham Ryggen og gaar opover; vender om, stanser og slaar Haanden haardt i Bordet.)</stage> Vis, at du er en Mand, for Pokker!</p>
+</sp>
+<sp>
+<speaker><pb n="29"/>Fru Jul</speaker>
+<stage>(fra H&#x00F8;ire, munter)</stage>
+<p>Naa, se der har vi Offerlammet. <stage>(Klapper Alf paa Kindet)</stage> Er det daarligt med dig, Gutten min? Har du faat Suppen din?</p>
+</sp>
+<sp>
+<speaker>Alf</speaker>
+<stage>(med en utaalmodig Bev&#x00E6;gelse)</stage>
+<p>Ja da! <stage>(Ud i Baggrunden.)</stage></p>
+</sp>
+<sp>
+<speaker>Fru Jul</speaker>
+<stage>(efter ham)</stage>
+<p>Og saa tag dig en Chininkapsel. <stage>(Til Jomfruen.)</stage> Huf, disse Bogmenneskene! Og denne Gutten, som jeg har pleiet og stoppet som en Strassburgergaas, helt fra han kom til Verden.</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<p>Ja, og saa slig en kraftig Mor som du.</p>
+</sp>
+<sp>
+<speaker>Fru Jul</speaker>
+<stage>(mens hun flytter og steller med Blomsterne)</stage>
+<p>Hm, vi var to om ham, ser du!</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<stage>(smiler)</stage>
+<p>Naa, Landluften vil styrke ham, skal du se &#x2013; og det regelm&#x00E6;ssige Liv. <stage>(S&#x00E6;tter sig.)</stage> Saa du Ungen?</p>
+</sp>
+<sp>
+<speaker>Fru Jul</speaker>
+<p>Javist. Tora havde jo truffet hende paa Badehuset. Moderen er nok rent nedfor nu.</p>
+</sp>
+<sp>
+<speaker><pb n="30"/>Jomfruen</speaker>
+<p>Ja, endelig har vel den stolte Nakken faat b&#x00F8;ie sig. Stakkars Unge, hun var vist forn&#x00F8;iet af at suge paa Labben.</p>
+</sp>
+<sp>
+<speaker>Fru Jul</speaker>
+<p>Aa ja, der har vel ikke v&#x00E6;ret fedt netop derhjemme. Nu t&#x00E6;nker jeg Dronningen til S&#x00F8;gaard snart er glad hun s&#x00F8;ber den Kaal, hun har spyttet i, og takker dig til, at du tar Ungen, f&#x00F8;r hun rent forkommer.</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<p>Takker! Aa nei, saa meget forlanger jeg ikke. Men det er jo ganske morsomt.</p>
+</sp>
+<sp>
+<speaker>Fru Jul</speaker>
+<stage>(s&#x00E6;tter sig; ordner en Del Hefter og Aviser)</stage>
+<p>Hun spaadde dig saa grusom en Alderdom i Ensomhed og Anger og Ruelse. Ha, ha!</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<p>Ja, jeg angrer, det er sandt. Jeg angrer paa meget. Jeg angrer paa alle de Timer, jeg har sovet v&#x00E6;k!</p>
+</sp>
+<sp>
+<speaker>Fru Jul</speaker>
+<stage>(ler)</stage>
+<p>Du! Har du nogensinde sovet, havde jeg n&#x00E6;r sagt?</p>
+</sp>
+<sp>
+<speaker><pb n="31"/>Jomfruen</speaker>
+<p>Jeg angrer paa hvert Minut, jeg ikke har kjendt Livet piske mig i Ansigtet som en frisk, fygende Vestenvind. Der blir sagtens Tid til at sove. Alderdommen ligger paa Lur. &#x00C6;sch!</p>
+</sp>
+<sp>
+<speaker>Fru Jul</speaker>
+<p>Ja, Alderdommen er haard at gaa paa.</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<p>Jeg hader Tanken paa den. Kan ikke faa den ind i min Bevidsthed. Som en M&#x00E6;rkv&#x00E6;rdighed f&#x00F8;ler jeg mine Aar. Naar jeg ser mine Rynker i Speilet, roper det h&#x00F8;it i mig, at dette er Snyderi og Bedrag! Jeg har jo aldrig v&#x00E6;ret st&#x00E6;rkere, sundere, klogere!</p>
+</sp>
+<sp>
+<speaker>Fru Jul</speaker>
+<p>Man skal ha Barn, Alvilda; da er det anderledes. Du l&#x00E6;ngter efter et Barn.</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<p>Jeg pr&#x00F8;ved med hans. Men det var ogsaa hendes &#x2013; det var Ulykken. Og hende elsked han trods alt.</p>
+</sp>
+<sp>
+<speaker>Fru Jul</speaker>
+<p>Du har v&#x00E6;ret saa altfor snil, Alvilda.</p>
+</sp>
+<sp>
+<speaker><pb n="32"/>Jomfruen</speaker>
+<stage>(utaalmodig)</stage>
+<p>Snil! En negativ Dyd! Et &#x00E6;kkelt Ord, som jeg hader, det ved du! Jeg gj&#x00F8;r, hvad jeg har Brug for, selv om det er godt. Herinde hos dig beh&#x00F8;ver man da vel ikke at skabe sig, ved jeg.</p>
+</sp>
+<sp>
+<speaker>Fru Jul</speaker>
+<p>Du lyver paa dig selv, Alvilda.</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<p>Man lyver jo altid. Som vel er. Det skulde bare mangle, vi ikke det gjorde. Skulde Menneskene begynde at slaa D&#x00F8;rene paa vid V&#x00E6;g til sit allerinderste V&#x00E6;sen og la &#x00AB;Sandheden&#x00BB; str&#x00F8;mme ud, da skulde her bli nydeligt! Gud bevare os! Og endda er jo ogsaa alle disse &#x00AB;Sandhederne&#x00BB; til syvende og sidst saa smaa og ynkelige &#x2013; det er det aller latterligste!</p>
+</sp>
+<sp>
+<speaker>Fru Jul</speaker>
+<p>Men det er det, du gj&#x00F8;r af og til, du, Vennen min; du tar simpelthen D&#x00F8;rene af H&#x00E6;ngslerne du, naar det falder dig ind; og det gaar ikke an!</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<p>Nei, det gj&#x00F8;r ikke det &#x2013; selv med min Formue; det er sandt. Men sommetider maa en spendere en liden Aareladning, ellers <stage>(reiser sig, hidsig)</stage> spr&#x00E6;kker en Gud hj&#x00E6;lpe mig! <stage>(Gaar et Slag bortover Gulvet; s&#x00E6;tter sig <pb n="33"/>igjen. Alvorlig.)</stage> Den, som er f&#x00F8;dt saadan ved Samfundets Gr&#x00F8;ftekant, har set for meget. Men v&#x00E6;rst af alt er Nederlagene, hver Gang man i et Anfald af Sentimentalitet r&#x00E6;kker Haanden ud og vil v&#x00E6;re god! Ha, ha, man l&#x00E6;rer.</p>
+</sp>
+<sp>
+<speaker>Fru Jul</speaker>
+<p>Der var ialfald en, som l&#x00F8;nned dig ilde.</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<p>Du tar feil! <emph>Han</emph> l&#x00F8;nned mig kongelig! Naar jeg pleier at sige det modsatte, saa lyver jeg af Vane!</p>
+</sp>
+<sp>
+<speaker>Fru Jul</speaker>
+<p>Hm. Sagf&#x00F8;rer Hald var nu vel en vanskelig Floke at greie &#x2013; selv for dig.</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<p>Det var en Kamp fra f&#x00F8;rst til sidst, det var det. Men jeg kjendte da, jeg leved dengang. Det var at sp&#x00E6;nde hver Nerve, saa det knaged i Maskineriet, for at naa til. Og samme Sp&#x00E6;ndingen, samme Angsten og samme Fryden hver Dag lige til den sidste.</p>
+</sp>
+<sp>
+<speaker>Fru Jul</speaker>
+<stage>(sukker; lukker &#x00D8;inene)</stage>
+<p>Ja, slig var det. Slig var den netop, den Tvekampen, som vi kaldte Kj&#x00E6;rligh &#x2026;</p>
+</sp>
+<sp>
+<speaker><pb n="34"/>Jomfruen</speaker>
+<p>Ordet kl&#x00E6;r ikke gamle Damer, du &#x2026; &#x2013; Og saa, netop naar man staar der fuldt f&#x00E6;rdig, med alle Vaaben blanke og skarpe, saa er der ingenting mer! <stage>(Kort Pause; sagte.)</stage> Og saa gaar man der og leder og s&#x00F8;ger &#x2026;</p>
+</sp>
+<sp>
+<speaker>Fru Jul</speaker>
+<p>En ny Modstander &#x2013; ja, ja du! Livet er rart.</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<p>Livet er jo bare denne Tvekampen, som du kaldte &#x2026;</p>
+</sp>
+<sp>
+<speaker>Fru Jul</speaker>
+<p>Hys! &#x2013; Husk Ordet kl&#x00E6;r ikke gamle Damer. <stage>(Jomfruen gj&#x00F8;r en slap Haandbev&#x00E6;gelse og falder ligesom sammen et &#x00D8;ieblik. Fru Jul gaar hen og l&#x00E6;gger Haanden paa hendes Skulder.)</stage> Hvor bittert du savner ham, Alvilda.</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<p>Han var en Mand; det var bare det!</p>
+</sp>
+</div>
+<div type="chapter" subtype="act" n="2">
+<head type="main">Anden Akt</head>
+<stage>Paa Raby, Jomfru Lindes Gaard. Parti af en gammel Have. Til Venstre Fa&#x00E7;aden af det hvidmalte Vaaningshus. Stor Veranda, t&#x00E6;t bevokset med Vildvin. Arkvinduer paa Taget. I Baggrunden hvidt Stakit med Grind til Veien. Bag denne Skog. Haven forts&#x00E6;tter indover mod H&#x00F8;ire.</stage>
+<stage>Bertha, 18 Aar, blond, vakker og staut med kj&#x00E6;kt, uforf&#x00E6;rdet V&#x00E6;sen, d&#x00E6;kker Kaffebord under et stort Lindetr&#x00E6;. Hun er rask i sine Bev&#x00E6;gelser og hurtig vekslende i Udtryk. Hendes Dragt er skj&#x00F8;desl&#x00F8;s, men kl&#x00E6;delig. Pludselig springer hun hen til Grinden og vinker paa en gammel Kone med Kurv paa Armen, som kommer paa Veien fra H&#x00F8;ire.</stage>
+<sp>
+<speaker>Bertha</speaker>
+<stage>(gutteagtig)</stage>
+<p>Marja! Pst!</p>
+</sp>
+<sp>
+<speaker>Marja</speaker>
+<p>Aha, er det Fr&#x00F8;ken Bertha. Goddag, Fr&#x00F8;ken!</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<p>Goddag! Kom herind lidt.</p>
+</sp>
+<sp>
+<speaker><pb n="36"/>Marja</speaker>
+<stage>(kommer indenfor)</stage>
+<p>Ei, ei, Kaffeslabberas!</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<p>Jo, jeg skulde mene! Tre Fruer med M&#x00E6;nd og selve Presten, Mor! De skal ha et Barnehjem naa &#x2013; for saanne Barn, som &#x2013; aa ja, du skj&#x00F8;nner det vel &#x2026; Du &#x2013; m&#x00F8;dte du nogen Hest paa Veien?</p>
+</sp>
+<sp>
+<speaker>Marja</speaker>
+<p>Hest! Jo, jeg skulde tru det. Og han var ikke alene heller.</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<p>Du da! Det ved jeg vel, at Hestene ikke l&#x00F8;ber alene paa Landeveien. Var det Folen, han red?</p>
+</sp>
+<sp>
+<speaker>Marja</speaker>
+<p>Sku' tru! Eia mig, for et staseligt Par! Svart-Folen og Fuldm&#x00E6;gtigen, ja.</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<stage>(stamper med foden)</stage>
+<p>Uf, for noe Filleri!</p>
+</sp>
+<sp>
+<speaker>Marja</speaker>
+<p>Hvafornoe?</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<p>Aa, alle disse v&#x00E6;mmelige Gj&#x00E6;sterne!</p>
+</sp>
+<sp>
+<speaker><pb n="37"/>Marja</speaker>
+<p>J&#x00F8;ss, Fr&#x00F8;kna maa da ikke snakke slig. Han kommer vel Kj&#x00E6;resten og?</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<p>Ja da &#x2013; jeg mener ikke ham, naturligvis. Og ikke de andre heller &#x2013; naturligvis. <stage>(Hidsig.)</stage> Men idag skulde vi havt den f&#x00F8;rste Langtur med Folen, ser du! Nu taaler den S&#x00E6;len, men du kan tro, vi har havt Sjau med at t&#x00E6;mme den, Nils &#x2013; Fuldm&#x00E6;gtigen og jeg. Han skulde tat den og jeg Raven. Hutetu, slig som vi skulde raset gjennem hele Gillestad Sogn! Redet overende baade fine Fruer og Klokkerer og Prester! <stage>(Tar Marja om Livet og svinger hende rundt.)</stage> Men ikke snille, gamle Kj&#x00E6;rringer!</p>
+</sp>
+<sp>
+<speaker>Marja</speaker>
+<stage>(frigj&#x00F8;r sig og retter paa Skautet)</stage>
+<p>Men Gud velsigne Dem, Fr&#x00F8;ken, er De reint g&#x00E6;len, t&#x00E6;nk om Kj&#x00E6;resten eller Jomfrua h&#x00F8;rte og saa Dere? Dom vil nok Fr&#x00F8;kna skal v&#x00E6;re lidt adstadigere naa, hu snart skal bli Frue &#x2026; <stage>(Bertha l&#x00E6;gger Haanden over Marjas Mund. Marja rister Haanden af sig.)</stage> Naada, det er vel ikke farligt at n&#x00E6;vne det. Er det ikke alt lyst i Kj&#x00E6;rka baade en og to Ganger?</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<p>Du er slem, Marja! Ta Kurven din og gaa ind i Kj&#x00F8;kkenet, saa faar jeg vel komme alligevel. <pb n="38"/>Jomfruen tr&#x00E6;ffer du ikke idag, hun har vondt i Maven; men jeg skal nok greie det. <stage>(N&#x00E6;rmere.)</stage> Og saa du &#x2013; ikv&#x00E6;ld, naar Gj&#x00E6;sterne er gaat &#x2026;</p>
+</sp>
+<sp>
+<speaker>Marja</speaker>
+<stage>(alvorlig)</stage>
+<p>Fr&#x00F8;kna skulde v&#x00E6;re lidt forsigtig.</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<stage>(utaalmodig)</stage>
+<p>T&#x00F8;v Marja; en kan da ikke la den deilige Septembermaanen skinne til ingen Verdens Nytte!</p>
+</sp>
+<sp>
+<speaker>Marja</speaker>
+<p>Ja, ikke er det mig imod aa se Fr&#x00F8;kna i Hytta mi &#x2026; det er st&#x00F8;rste Hygga hu gamle Marja har det, men &#x2026;</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<p><emph>Men, men</emph> &#x2013; v&#x00E6;r nu ikke dum da, Marja! Skj&#x00F8;nner du ikke, at du skal ikke v&#x00E6;re slem mod mig nu &#x2026; nu er det jo snart forbi, saa &#x2013; <stage>(snur sig bort og river hidsig et Par Kvister af en Busk)</stage> &#x2013; saa kan jeg vel faa lov at r&#x00F8;re mig lidt &#x2026; disse Par Dagene &#x2026;</p>
+</sp>
+<sp>
+<speaker>Marja</speaker>
+<p>Javist da, Fr&#x00F8;kna mi! &#x2013; Men det er liksom jeg er saa r&#x00E6;d &#x2013; &#x2013; det er liksom jeg kjenner det paa mig, at &#x2026;</p>
+</sp>
+<sp>
+<speaker><pb n="39"/>Bertha</speaker>
+<stage>(hurtig)</stage>
+<p>Ja da, det blir Uveir, Marja! Det er det du kjender paa dig! <stage>(Gaar mut til Bordet.)</stage></p>
+</sp>
+<sp>
+<speaker>Marja</speaker>
+<stage>(ryster paa Hovedet)</stage>
+<p>Det er som jeg skulde se Far hendes! Aldrig kunde en faa snakke et Alvorsord med ham heller &#x2013; f&#x00F8;r det var for sent. Han sp&#x00F8;ger noe hver Steds her paa Gaarden, han. <stage>(Gaar.)</stage></p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<stage>(efter hende, tar hende om Skuldrene og snur hende rundt)</stage>
+<p>Du er vel ikke sint, Marja?</p>
+</sp>
+<sp>
+<speaker>Marja</speaker>
+<stage>(ser godslig paa hende)</stage>
+<p>P&#x00F8;h, sint! Akkurat saa sa'n Prokuratoren au. Men det var akkurat som med Fr&#x00F8;kna, det &#x2013; bare han saa paa en, han, saa &#x2026;</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<p>Der kan du se!</p>
+</sp>
+<sp>
+<speaker>Marja</speaker>
+<p>Men uv&#x00F8;rn var'n, stygt uv&#x00F8;rn, og derfor saa fik ingen rigtig greie paa'n &#x2026; og derfor saa &#x2026; men l&#x00F8;ien og morosam var'n, og saa er det med Dere og, Fr&#x00F8;kna mi &#x2013; stygt uv&#x00F8;rn &#x2013; det er heller, som De skulde v&#x00E6;rt mynta til Gut.</p>
+</sp>
+<sp>
+<speaker><pb n="40"/>Bertha</speaker>
+<stage>(ler)</stage>
+<p>Ja, det var jeg ogsaa, det, ved du, Marja! Far vilde endelig, jeg skulde v&#x00E6;ret Gut. Kan du ikke huske, da jeg kom fra Kj&#x00F8;benhavn med Far &#x2013; nei, der er sandt, det var &#x2013; f&#x00F8;r jeg kom hid, det. Men da gik jeg i nydelige Fl&#x00F8;ielskl&#x00E6;r, som han havde kj&#x00F8;bt til mig. <stage>(Pludselig alvorlig.)</stage> Jeg husker godt, hvor Mor var fortvilet. <stage>(Ryster Tankerne af sig.)</stage> Jeg var saa vild og gutteagtig, ser du &#x2026;</p>
+</sp>
+<sp>
+<speaker>Marja</speaker>
+<p>Skulde du h&#x00F8;rt sligt syndigt Indfald!</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<p>Og saa l&#x00E6;rte han mig at spytte og sige &#x00AB;D&#x00F8;d og P&#x00F8;lse&#x00BB;. Da graat Mor.</p>
+</sp>
+<sp>
+<speaker>Marja</speaker>
+<p>Ja, det var ikke til at undres paa.</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<p>Og ved du, Marja, at det har jeg endda mangen Gang saan rivende Lyst til.</p>
+</sp>
+<sp>
+<speaker>Marja</speaker>
+<p>Til hvad?</p>
+</sp>
+<sp>
+<speaker><pb n="41"/>Bertha</speaker>
+<p>Til at spytte og sige noget rigtig stygt.</p>
+</sp>
+<sp>
+<speaker>Marja</speaker>
+<p>J&#x00F8;ss!</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<p>Og saa til at gaa i Bukser. Da kunde en da komme afsted! Du aner ikke, hvor deiligt det er at gaa i Bukser, Marja! Har du pr&#x00F8;vet det noen Gang? <stage>(Tar kaad omkring Marja.)</stage></p>
+</sp>
+<sp>
+<speaker>Marja</speaker>
+<p>Nei, det Plagget har jeg da saavist aldrig havt paa min syndige Krop. J&#x00F8;sses for G&#x00E6;lenskab! Ja, naar jeg t&#x00E6;nker paa, aassen han var! Stakkars Prokuratoren! Jeg skal ikke glemme sidste Gangen han var nere hos mig. Det var Tufs med'n da, stakkar &#x2013; det var nok en Knute paa Traaden <stage>(nikker mod Huset)</stage> &#x2013; saa hadde'n v&#x00E6;rt indom og faat sig en Kaffikop, som'n ofte gjorde, naar'n var ute og rei. Saa stod'n og holdt i Bidslet paa Hesten og skulde afsted, og saa sa'n: &#x00AB;Se her, Marja,&#x00BB; sa'n, og saa tog'n op en Bukseknap tur Lomma og slog i N&#x00E6;ven paa mig; &#x00AB;du faar greie dig med den idag,&#x00BB; sa'n, &#x00AB;for har jeg en Halvskilling, har jeg st&#x00F8;li'n,&#x00BB; sa'n. Ha, ha, ha!</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<p>Ja, det ligned ham, det.</p>
+</sp>
+<sp>
+<speaker><pb n="42"/>Marja</speaker>
+<p>Ja, han var ikke af dom, som bar Suta mye tilskue, han san! Men synd var det i'n. D&#x00F8;d og snyte &#x2013; forlate mi Synd &#x2013;; men jamen kan en ikke mange Ganger bli saa hakkende sint paa disse Kvindfolka &#x2026;</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<stage>(nerv&#x00F8;s)</stage>
+<p>Ja, ja, ja &#x2013; det er ikke noe at snakke om alt dette gamle, Marja.</p>
+</sp>
+<sp>
+<speaker>Marja</speaker>
+<p>Nei, nei, jeg sier bare, at Livet lager sig rart for mange, sier jeg.</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<p>Det gj&#x00F8;r vist det, Marja. Nei, nu maa du gaa, Marja; jeg maa gj&#x00F8;re f&#x00E6;rdigt her &#x2026;</p>
+</sp>
+<sp>
+<speaker>Marja</speaker>
+<p>Det er vel saa. Ja, ja, jeg rusler ind i Kj&#x00F8;kkenet, jeg da. Men &#x2026;</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<p>Naa?</p>
+</sp>
+<sp>
+<speaker>Marja</speaker>
+<stage>(n&#x00E6;rmere igjen)</stage>
+<p>Han er stygt vild Svart-Folen endda.</p>
+</sp>
+<sp>
+<speaker><pb n="43"/>Bertha</speaker>
+<stage>(i utaalmodigt Udbrud)</stage>
+<p>Huf nei, Marja, nu er jeg saa ludende lei af de tamme Hestene!</p>
+</sp>
+<sp>
+<speaker>Marja</speaker>
+<p>J&#x00F8;sses! Prokuratoren sj&#x00F8;l op af Dage! Ja, ja &#x2013; ja, ja! &#x2013; <stage>(Gaar.)</stage></p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<stage>(fra Verandaen. Hun er if&#x00F8;rt Slaabrok og T&#x00F8;fler)</stage>
+<p>Se her er S&#x00F8;lvt&#x00F8;iet. Gj&#x00F8;r nu ordentlig istand. Jeg f&#x00F8;ler mig saa tr&#x00E6;t og klein.</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<p>Men skal du ikke kl&#x00E6; paa dig, da? Klokken er mange. T&#x00E6;nk om Presten kom; du ved, han pleier komme saa tidlig. Han er r&#x00E6;d, Vaflerne skal bli kolde.</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<stage>(strengt)</stage>
+<p>Der findes da ikke Alvor skabt i dig! Jeg synes, du skulde ha andet at t&#x00E6;nke paa i denne Tid end Sk&#x00F8;i og Galskab!</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<p>Jeg siger jo bare, at Klokken er mange. Og du pleier da aldrig ta imod i Slaabrok &#x2013; uden naar du ligger paa Sofaen og er daarlig.</p>
+</sp>
+<sp>
+<speaker><pb n="44"/>Jomfruen</speaker>
+<stage>(ophidset)</stage>
+<p>Ikke et Menneske har man at snakke et alvorligt Ord med. &#x00C6;rgrelser og Bekymringer paa alle Kanter. Utak og leit og vondt! <stage>(Paa Verandatrappen; raaber.)</stage> Henriksen! Henriksen! <stage>(Et af Arkvinduerne aabnes.)</stage></p>
+</sp>
+<sp>
+<speaker>Henriksens</speaker>
+<stage>(Stemme h&#x00F8;res)</stage>
+<p>Hallo! <stage>(Vinker ud med en lang Pibe; forsvinder.)</stage></p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<p>Kunde du ikke gj&#x00F8;re saa meget som at b&#x00E6;re B&#x00E6;nkene ud! Overhovedet hj&#x00E6;lpe til en Smule. Her maa jeg gaa alene med alt, klein som jeg er! Hvad har en igjen, fordi en tar Folk op fra Gaden og gj&#x00F8;der dem og f&#x00F8;der dem! <stage>(Utaalmodig op og ned.)</stage> Nils-Petter lader, som der ikke er andet at gj&#x00F8;re paa en Gaard end t&#x00E6;mme Hester; alt andet bryr han sig Pokker om! Og du, du bare fordreier Hodet paa dem alle med Galskaben din! <stage>(Ind paa hende.)</stage> Hvad tror du Alf vilde sige, dersom han vidste, at du streifer i Skog og Mark Nattes Tider med Nils-Petter?</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<p>Jeg?</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<p>Jeg er ikke saa let at narre. Jeg sover meget lidet; ta dig i Agt!</p>
+</sp>
+<sp>
+<speaker><pb n="45"/>Bertha</speaker>
+<p>Men du store min &#x2013; jeg &#x2026;</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<p>Ti! Jeg kjender Arten. Ogsaa for ham &#x2013; din letsindige Far, har jeg vaaget mangen Nat.</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<stage>(stamper gr&#x00E6;dende i Bakken)</stage>
+<p>Fy!</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<p>Ti, siger jeg! Du er en n&#x00E6;svis, utaknemmelig Unge! Du lyver for mig og bedrager mig &#x2013; som han! Han, som jeg tog op af Rendestenen!</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<stage>(i Vrede)</stage>
+<p>Det har du sagt mig ofte, det om Far og Rendestenen; men endda er jeg ikke sikker paa, at det er sandt, t&#x00E6;nk!</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<stage>(med himmelvendt Blik)</stage>
+<p>Du himmelske Fader! Er det ikke, som du samler al din medf&#x00F8;dte Fr&#x00E6;khed og kaster i Ansigtet paa mig &#x2013; netop i disse Dage, da jeg sandelig mer end nogensinde havde fortjent andet af dig! N&#x00E6;svis og uforskammet er du! istedetfor at du skulde takke mig paa dine Kn&#x00E6;!</p>
+</sp>
+<sp>
+<speaker><pb n="46"/>Bertha</speaker>
+<stage>(i Udbrud)</stage>
+<p>Tag det igjen altsammen &#x2013; altsammen, saa skal jeg takke dig!</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<stage>(som ser Alf komme &#x2013; nu med en Gang h&#x00F8;i og v&#x00E6;rdig)</stage>
+<p>L&#x00E6;g Baand paa dig, Barn; du er nerv&#x00F8;s. <stage>(Sagte.)</stage> Der kommer Alf. Gransk nu din Samvittighed.</p>
+</sp>
+<sp>
+<speaker>Alf</speaker>
+<stage>(gjennem Grinden)</stage>
+<p>Goddag Bett! Goddag Tante! <stage>(Nedover Havegangen.)</stage> Hvordan har du det?</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<p>Goddag. Daarligt har jeg det, Gutten min. Der er nok af dem, som s&#x00F8;rger for det. <stage>(Ind.)</stage></p>
+</sp>
+<sp>
+<speaker>Alf</speaker>
+<p>Hvad skal dette betyde! Har du nu v&#x00E6;ret lei mod Tante igjen, Bertha? <stage>(Mod hende.)</stage></p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<stage>(viger unna)</stage>
+<p>Lad mig v&#x00E6;re! <stage>(Vil gaa.)</stage></p>
+</sp>
+<sp>
+<speaker>Alf</speaker>
+<p>Gaar du? Men Bertha, hvad mener du med dette? Hvad er der i Veien, sp&#x00F8;r jeg?</p>
+</sp>
+<sp>
+<speaker><pb n="47"/>Bertha</speaker>
+<p>Ingenting. Jeg skal bare d&#x00E6;kke Kaffebordet. Tante skj&#x00E6;ndte, for det ikke var f&#x00E6;rdigt.</p>
+</sp>
+<sp>
+<speaker>Alf</speaker>
+<p>Aa, ikke andet; men saa vent da!</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<p>Jeg gaar ikke langt.</p>
+</sp>
+<sp>
+<speaker>Alf</speaker>
+<stage>(efter hende; tar hende om Livet)</stage>
+<p>Lad mig f&#x00F8;lge dig! Idag maa vi v&#x00E6;re sammen hele Tiden.</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<p>Nei &#x2013; nei, du kan ikke f&#x00F8;lge mig.</p>
+</sp>
+<sp>
+<speaker>Alf</speaker>
+<stage>(&#x00F8;mt)</stage>
+<p>Men hvorfor ikke da?</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<stage>(river sig utaalmodig l&#x00F8;s)</stage>
+<p>Du maa da ikke sp&#x00F8;rge om det! <stage>(L&#x00F8;ber ud. Alf ryster paa Hovedet, gaar langsomt ind mellem Tr&#x00E6;rne til H&#x00F8;ire.)</stage></p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<stage>(kommer ud paa Verandaen fulgt af Kandidat Henriksen. Han er en Mand paa nogle og firti Aar, r&#x00F8;d og veirbidt. Haaret tyndt og graaspr&#x00E6;ngt om den h&#x00F8;ie Pande. Hans Smil er ironisk, og han beholder altid en vis overlegen, halvt spottende Ro, som en der ikke l&#x00E6;nger tar Verden au serieux)</stage>
+<p>Hvad det er? Naa, jeg siger bare: Gud v&#x00E6;re lovet, at det ikke er mange Skridt igjen til Graven.</p>
+</sp>
+<sp>
+<speaker><pb n="48"/>Kandidaten</speaker>
+<stage>(rolig dampende paa sin Pibe)</stage>
+<p>Ak, Vennen min, du overlever os alle.</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<stage>(ned i Haven; ser paa Kaffebordet; retter paa et og andet)</stage>
+<p>Dere er to Alen af et Stykke, Bertha og du. Der er ikke Alvor i nogen af dere. <stage>(Tr&#x00E6;t.)</stage> Jeg er for gammel til at more mig over Vr&#x00F8;vl l&#x00E6;nger.</p>
+</sp>
+<sp>
+<speaker>Kandidaten</speaker>
+<stage>(paa hvem det mer og mer m&#x00E6;rkes, at han har drukket)</stage>
+<p>Du gammel! Nei Jomfru, du blir aldrig gammel, for du er et Element, du, ser du! Men hvad var det nu, som stod paa, mon Amie?</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<p>Ingenting staar paa. Men din uendelige Sindsro irriterer mig. Kan du ikke ialfald vise, at du er til! Om man tog Livet af mig, du r&#x00F8;rte ikke en Finger. <stage>(S&#x00E6;tter sig; forandret.)</stage> Ja, du smiler du! Aa Henrik, jeg er saa tr&#x00E6;t.</p>
+</sp>
+<sp>
+<speaker>Kandidaten</speaker>
+<stage>(l&#x00E6;gger Haanden beroligende paa hendes Skulder; hun l&#x00E6;ner Hovedet et &#x00D8;ieblik mod hans Arm)</stage>
+<p>Ja, ja, Elementerne maa ogsaa hvile af og til, ser du.</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<stage>(retter sig)</stage>
+<p>Aa, du er lig dig selv. Det er forresten sandt, der er Tider, da jeg f&#x00F8;ler uendelige Kr&#x00E6;fter i mig; <pb n="49"/>men alt jeg r&#x00F8;rer ved, er saa skj&#x00F8;rt. Alting viger unna og gaar istykker. Hvad skal man bruge sine Kr&#x00E6;fter til. Der er ingen Trold med ti Hoveder l&#x00E6;nger!</p>
+</sp>
+<sp>
+<speaker>Kandidaten</speaker>
+<p>Nei, nu n&#x00F8;ier vi os med mindre.</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<p>Nu du, f. Eks.! Naa, overhodet dere M&#x00E6;nd &#x2013; ak, dere er saa snille, og saa f&#x00F8;ielige og saa skj&#x00F8;re! Huttetu!</p>
+</sp>
+<sp>
+<speaker>Kandidaten</speaker>
+<stage>(smilende)</stage>
+<p>Min Ven, du skulde ta et beroligende Pulver. Men det var altsaa B&#x00E6;nkene &#x2013; Komiteen kommer vel snart. Men h&#x00F8;r du &#x2013; dette Barnehjemmet &#x2013; naa ja, det er allright; men, gj&#x00F8;r os for Himlens Skyld ikke fattige! Ingen fattig kommer ind i Valhal, ved du. Odin er streng i saa Maade. Praktisk Religion det, hvad? &#x2013; for saa var der ingen fattige, dengang man trodde paa Odin, ser du.</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<p>Din Hedning! Ved du ikke, at det er ligesaa vanskeligt for en rig at komme ind i Guds Rige, som for en Kamel at komme gjennem et Naale&#x00F8;ie.</p>
+</sp>
+<sp>
+<speaker><pb n="50"/>Kandidaten</speaker>
+<p>Nei, den Tr&#x00F8;st havde de da paa rede Haand de gode Kristne, da de gjorde Slaverne til Tiggere! Men tag det ikke saa bogstavelig, du &#x2013; ikke rigtig saa bogstavelig, hvad &#x2026;</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<p>Det gj&#x00F8;r jeg heller ikke; for det siger Presten ogsaa. Men skal man kanske ikke gj&#x00F8;re godt &#x2026;</p>
+</sp>
+<sp>
+<speaker>Kandidaten</speaker>
+<p>Hvis man r&#x00E6;kker det &#x2013; bien! Men Hovedsagen er: Mindst muligt Vr&#x00F8;vl. Og fremfor alt: gj&#x00F8;r ikke af Humanitet Slaverne til Tiggere.</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<p>Spot ikke! Er det som Konsulent eller &#x2013; Arving, du er bekymret?</p>
+</sp>
+<sp>
+<speaker>Kandidaten</speaker>
+<p>Pardon! Men der er noget ved at ha Br&#x00F8;d, mener jeg; og det at v&#x00E6;re Slave, det ved du, jeg har en vis Svaghed for. Jeg er skabt til det jeg, ser du! Jeg er doven, og der er mange, som er det. Men du Alvilda, du er skabt til at v&#x00E6;re Herre du, for din Hjerne hviler aldrig. Du fordobler din Formue hvert tiende Aar &#x2013; jeg blir tr&#x00E6;t bare af at t&#x00E6;nke paa det! Jeg beundrer dig, for ingen kan <pb n="51"/>binde dig, hverken Prester eller Profeter! Jeg beundrer dig og kysser din smukke Fod; hvor den tr&#x00E6;der, der er mit <emph>terra patria</emph>!</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<p>Bevares, hvor du er galant.</p>
+</sp>
+<sp>
+<speaker>Kandidaten</speaker>
+<stage>(hed)</stage>
+<p>Og tro du mig, naar ikke Tusender gj&#x00F8;r som jeg, saa er det, fordi du er f&#x00F8;dt i en gal Tid; for du har den kolde, klare Hjerne og den store Graadighed, som skaber de store Mordere &#x2013; de store Verdenseventyr &#x2013;</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<stage>(reiser sig)</stage>
+<p>Er du blit gal?</p>
+</sp>
+<sp>
+<speaker>Kandidaten</speaker>
+<p>Tilgivelse! Men vi blir saa dumme alle ved Siden af dig. Jeg er stolt af dig! Om Jalousi kan der ikke v&#x00E6;re Tale! Ja, du er stor; men du mangler den sidste Tomme. <stage>(Knipser sig paa Panden.)</stage> Aa Herregud, det er bra, saa blir der Rum for Presten.</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<p>Sludder! Lad mig komme ind og kl&#x00E6; mig; her kommer jo Gj&#x00E6;ster.</p>
+</sp>
+<sp>
+<speaker><pb n="52"/>Kandidaten</speaker>
+<p>Ja, det er <emph>det</emph>. Og oprigtig talt du &#x2013; mellem os &#x2013; saan &#x00D8;ie mod &#x00D8;ie: jeg befinder mig ikke rigtig vel i al denne Velgj&#x00F8;renheden. <stage>(B&#x00F8;ier sig mod hende.)</stage> Det kl&#x00E6;r os ikke du!</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<p>Du har drukket. Det var tidligt.</p>
+</sp>
+<sp>
+<speaker>Kandidaten</speaker>
+<p>Jagu har jeg saa! Det er saa meget saant <stage>(med nerv&#x00F8;se Fingerbev&#x00E6;gelser)</stage> saant Fedt, som maa sv&#x00E6;lges ned! Tilgivelse for Slaven, hvad? &#x2013; Nu skal vi ta B&#x00E6;nkene.</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<stage>(mod Huset)</stage>
+<p>Ah, lad B&#x00E6;nkene v&#x00E6;re. Kom og hj&#x00E6;lp mig!</p>
+</sp>
+<sp>
+<speaker>Kandidaten</speaker>
+<p>Med St&#x00F8;vlerne, hvad?</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<stage>(snur sig, smiler)</stage>
+<p>Uforbederlig er du, Henrik. Nu, ja, med St&#x00F8;vlerne; du ved jo min Ryg er elendig!</p>
+</sp>
+<sp>
+<speaker>Kandidaten</speaker>
+<stage>(truer)</stage>
+<p>Alvilda, Alvilda, aldrig glemmer du, at den Fod engang er hugget i Marmor!</p>
+</sp>
+<sp>
+<speaker><pb n="53"/>Jomfruen</speaker>
+<stage>(kneisende, idet hun gaar foran ham)</stage>
+<p>Nei, saa ofte har du da sagt mig, at dertil var den formet i Himlen. <stage>(Han f&#x00F8;lger efter hende.)</stage></p>
+</sp>
+<stage>(Bertha kommer med et Blomsterglas fuldt af Roser og s&#x00E6;tter det paa Kaffebordet.)</stage>
+<sp>
+<speaker>Alf</speaker>
+<stage>(frem fra H&#x00F8;ire)</stage>
+<p>Naa er du der, Sk&#x00F8;ierunge! <stage>(Vil ta hende om Halsen.)</stage></p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<stage>(vrir sig fra ham)</stage>
+<p>Jeg har saa travlt.</p>
+</sp>
+<sp>
+<speaker>Alf</speaker>
+<p>Det har du altid, naar jeg vil tale med dig. Du formelig flygter for mig. Og vi har da saa meget at tale sammen om nu, da vi snart skal sammen for altid &#x2013; i det intimeste af alle Forhold &#x2026; Bertha &#x2026;</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<stage>(hj&#x00E6;lpel&#x00F8;st)</stage>
+<p>Ja siden, siden.</p>
+</sp>
+<sp>
+<speaker>Alf</speaker>
+<p>Det siger du altid. Men naar? Kom! V&#x00E6;r snil! <stage>(Tr&#x00E6;kker hende med sig ned paa B&#x00E6;nken.)</stage> Jeg s&#x00F8;gte dig igaaraftes; da havde jeg et Par gode Aftentimer ledige, og hvad var naturligere, end at jeg gjerne vilde tilbringe dem sammen med dig. Vi maa pr&#x00F8;ve at forstaa hverandre, Bertha, fuldt ud, nu, da &#x2026;</p>
+</sp>
+<sp>
+<speaker><pb n="54"/>Bertha</speaker>
+<stage>(vil l&#x00F8;s)</stage>
+<p>Nei, &#x2013; de kan jo komme hvert &#x00D8;ieblik. Slip!</p>
+</sp>
+<sp>
+<speaker>Alf</speaker>
+<stage>(slipper hende)</stage>
+<p>Dette er stygt og utaknemmeligt af dig, Bertha. Jeg har jo n&#x00E6;sten ikke talt med dig, siden vi blev forlovet. Og din gode Pleiemor, som har ordnet alt for os, saa vi kan gifte os nu og faa et godt Hjem &#x2013; er dette Taknemmelighed mod hende, synes du? Vi holder jo alle saa meget af dig, og vil dig saa vel; men du er kold og mistroisk. <stage>(Vil ta hendes Haand igjen.)</stage> Husk du har bundet dig til mig for Livet, Bertha.</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<stage>(som har plukket Blomster af en Zirbusk; stanser pludselig og snur sig hurtig om mod ham)</stage>
+<p>Jeg! Nei du; t&#x00E6;nk dig om! Jeg er aldrig blit spurgt jeg, du!</p>
+</sp>
+<sp>
+<speaker>Alf</speaker>
+<p>Bertha! Lad ikke et tilf&#x00E6;ldigt daarligt Hum&#x00F8;r l&#x00F8;be af med dig. Du vil angre det. Jeg ved jo, du mener det ikke slig. Jeg er jo saa glad i dig, du store, uskikkelige, s&#x00F8;de Unge! <stage>(Tar hende hurtig ind til sig og kysser hende.)</stage></p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<stage>(blussende r&#x00F8;d)</stage>
+<p>Huf, nei da! Pas det hvide Skjortebrystet dit!
+<stage>(River sig voldsomt l&#x00F8;s.)</stage></p>
+</sp>
+<sp>
+<speaker><pb n="55"/>Kandidaten</speaker>
+<stage>(paa Verandaen; lader som han ikke ser)</stage>
+<p>Bertha! Bertha!</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<p>Aa du da, du har da Brillerne paa N&#x00E6;sen, ser jeg.</p>
+</sp>
+<sp>
+<speaker>Alf</speaker>
+<stage>(kr&#x00E6;nket og vred)</stage>
+<p>Naar Gj&#x00E6;sterne er gaat, vil jeg tale med dig! Forstaar du! <stage>(Hurtig ud)</stage></p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<stage>(tr&#x00E6;kker paa Skulderen. Saasnart Alf er borte, gaar hun hurtig Kandidaten im&#x00F8;de og griber fat i hans Arm. I Opr&#x00F8;r)</stage>
+<p>Du, Kandidat, du kan jo Loven saa godt, du.</p>
+</sp>
+<sp>
+<speaker>Kandidaten</speaker>
+<p>Naada, skal du anl&#x00E6;gge Proces?</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<p>Vil du si mig en Ting?</p>
+</sp>
+<sp>
+<speaker>Kandidaten</speaker>
+<p>Hvis jeg kan.</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<stage>(ophidset)</stage>
+<p>Naar en Pige er forlovet, og det er lyst i Kirken, og Brudekjolen n&#x00E6;sten er f&#x00E6;rdig &#x2013; blir hun straffet, hvis hun slaar op da?</p>
+</sp>
+<sp>
+<speaker><pb n="56"/>Kandidaten</speaker>
+<p>Men Gud bevare dig vel, Barn &#x2026;</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<p>Hys! Fly nu ikke og sp&#x00F8;r Jomfrua, som du pleier at gj&#x00F8;re &#x2013; svar mig, hvordan tror du det gik?</p>
+</sp>
+<sp>
+<speaker>Kandidaten</speaker>
+<p>Er du splitter pinegal, Barn! <stage>(Hj&#x00E6;lpel&#x00F8;s.)</stage> Den &#x2026; den &#x2013; pene, brave Gutten, og &#x2026; og &#x2026;</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<p>Huf, snak ikke saan &#x2026; jeg ved godt, hvad du synes.</p>
+</sp>
+<sp>
+<speaker>Kandidaten</speaker>
+<p>Ja, ja, Herregud, han er en smule pedantisk og lidt sygelig og saan, men &#x2026; men t&#x00E6;nk paa Stillingen da, Barn. Vor f&#x00E6;lles Jomfru Moder vil jo s&#x00F8;rge for dere, og &#x2026;</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<p>Ikke t&#x00F8;v nu! Du maa hj&#x00E6;lpe mig! Du maa, h&#x00F8;rer du! Heller vil jeg gifte mig med dig, saa styg som du er &#x2013; nu ved du det!</p>
+</sp>
+<sp>
+<speaker>Kandidaten</speaker>
+<stage>(urolig)</stage>
+<p>Tak skal du ha. Men &#x2026; men snille Barn &#x2026; det er lovlig sent dette du &#x2026; hvorfor i Alverden har du &#x2026;</p>
+</sp>
+<sp>
+<speaker><pb n="57"/>Bertha</speaker>
+<p>Ja, ja, ja, jeg ved jo alt det der. Jeg har jo hundrede Gange fors&#x00F8;gt at sige det; men jeg faar aldrig Lov at snakke ud. Alf ved godt, at jeg ikke kan dette her, og du ogsaa &#x2013; fy, det er stygt af dere allesammen! <stage>(Slaar H&#x00E6;nderne for Ansigtet og gr&#x00E6;der.)</stage></p>
+</sp>
+<sp>
+<speaker>Kandidaten</speaker>
+<stage>(klapper hende klodset paa Skulderen)</stage>
+<p>Men kj&#x00E6;re, Barn &#x2026; du skulde da f&#x00F8;r &#x2026; hvorfor har du ikke alvorlig &#x2013;</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<stage>(hidsig)</stage>
+<p>Jeg har ikke <emph>turdet</emph>; nu ved du det. For jeg har ogsaa v&#x00E6;ret r&#x00E6;d hende &#x2013; akkurat som du &#x2013; og alle de andre. Men nu er jeg lige glad &#x2026; jeg <emph>kan</emph> ikke, jeg <emph>vil</emph> ikke! Hun kan slaa mig og hvad hun vil &#x2026; jeg vil heller d&#x00F8;.</p>
+</sp>
+<sp>
+<speaker>Kandidaten</speaker>
+<p>Du har Feber, Barn, du raser &#x2026;</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<p>Aa, du ved godt, at jeg mener, hvad jeg siger.</p>
+</sp>
+<sp>
+<speaker>Kandidaten</speaker>
+<p>Ja, du siger hvad du mener forholdsvis ugeneret ialfald, det er vist.</p>
+</sp>
+<sp>
+<speaker><pb n="58"/>Bertha</speaker>
+<stage>(fast)</stage>
+<p>Ja, du kan tro, det er Alvor. <stage>(Knytter Haanden.)</stage> Det <emph>maa</emph> ske, forstaar du! Og du kunde godt hj&#x00E6;lpe mig du, og snakke med hende og si det, du rigtig mener &#x2013; men du er r&#x00E6;d, stakkar! Fy, det er stygt af dig! Dere er imod mig alle &#x2013; ingen, ingen vil hj&#x00E6;lpe mig! <stage>(Graater igjen; men tar sig sammen.)</stage> Fy, for en R&#x00E6;dhare! <stage>(Stamper med Foden, snur sig og gaar.)</stage></p>
+</sp>
+<sp>
+<speaker>Pastoren</speaker>
+<stage>(er under sidste Replik kommet gjennem Grinden)</stage>
+<p>Goddag, Goddag, Hr. Kandidat, Goddag Fr&#x00F8;ken Bertha. <stage>(Bertha med et Kniks hurtig forbi ham og ud Grinden.)</stage></p>
+</sp>
+<sp>
+<speaker>Kandidaten</speaker>
+<stage>(forvirret)</stage>
+<p>Goddag, Hr. Pastor &#x2013; velkommen! Nu skal jeg straks si Jomfruen til.</p>
+</sp>
+<sp>
+<speaker>Pastoren</speaker>
+<p>Nei, nei, jeg ber Dem; jeg er saa tidlig. Kommer lige fra Sygebes&#x00F8;g, og min Vei faldt her forbi. &#x2013; Det er nok en vanskelig liden Dame, Frk. Bertha. Jeg maa i Sandhed beundre vor gode Venindes Taalmodighed. <stage>(Nysgjerrig.)</stage> Hun skal jo ligne Faderen? Der gaar Rygter om, at han ogsaa i sin Tid beredte Jomfruen adskillige Vanskeligheder? Kjendte De Sagf&#x00F8;rer Hald, Hr. Kandidat? &#x2013; De ved, det var <pb n="59"/>f&#x00F8;r min Tid. Han d&#x00F8;de nok Aaret f&#x00F8;r jeg kom hid til Bygden. Og Folk snakker saa meget &#x2026;</p>
+</sp>
+<sp>
+<speaker>Kandidaten</speaker>
+<stage>(smilende)</stage>
+<p>Nei, jeg havde ikke den Forn&#x00F8;ielse at kjende Hr. Sagf&#x00F8;reren; det var ogsaa f&#x00F8;r min Tid, Hr. Pastor.</p>
+</sp>
+<sp>
+<speaker>Pastoren</speaker>
+<p>Saa! En smuk Mand har han v&#x00E6;ret efter Billedet at d&#x00F8;mme. Folk vil vide, at Jomfru Linde s&#x00F8;rged &#x2026; <stage>(stanser pludselig forlegen, da Kandidaten ser ham med et sk&#x00F8;ieragtigt Smil i &#x00D8;inene, mens han damper energisk.)</stage></p>
+</sp>
+<stage>(Fru Jul, Fru Rask og Fru Klem kommer i livlig Passiar gjennem Grinden.)</stage>
+<sp>
+<speaker>Fru Jul</speaker>
+<stage>(viftende med Haanden)</stage>
+<p>Goddag, Henriksen! Goddag, Hr. Pastor!</p>
+</sp>
+<sp>
+<speaker>Kandidaten</speaker>
+<stage>(vifter med Piben)</stage>
+<p>Aha! Velkommen!</p>
+</sp>
+<sp>
+<speaker>Pastoren</speaker>
+<p>Goddag, Frue! <stage>(Gir Fru Jul Haanden.)</stage> Goddag, mine Damer!</p>
+</sp>
+<sp>
+<speaker>Fru Jul</speaker>
+<p>Hvor er Alvilda?</p>
+</sp>
+<sp>
+<speaker><pb n="60"/>Kandidaten</speaker>
+<p>Hun kommer vist straks. Nu, skal De ogsaa i Barnehjemmet, Fru Klem?</p>
+</sp>
+<sp>
+<speaker>Fru Klem</speaker>
+<stage>(ung og smilende)</stage>
+<p>Ja, De kan nok sp&#x00F8;rge om det, slig en Klods som jeg er.</p>
+</sp>
+<sp>
+<speaker>Fru Jul</speaker>
+<stage>(betragter Kaffebordet)</stage>
+<p>Det var greie Mandfolk, som har Kaffebordet istand. <stage>(Slaar ud med Haanden)</stage> Slig skal det v&#x00E6;re! Ha, ha!</p>
+</sp>
+<sp>
+<speaker>Pastoren</speaker>
+<p>Altid lige sp&#x00F8;gefuld, Frue. Hvordan lever Gemalen?</p>
+</sp>
+<sp>
+<speaker>Fru Jul</speaker>
+<p>Tak, som sp&#x00F8;r; jeg synes ligesom han er kommet sig lidt, siden jeg satte ham paa Havrevelling.</p>
+</sp>
+<sp>
+<speaker>Kandidaten</speaker>
+<stage>(gr&#x00F8;sser)</stage>
+<p>Huf, stakkars Mand. Vil De ikke ta Plads, mine Damer. <stage>(Fru Klem og Fru Rask s&#x00E6;tter sig paa en B&#x00E6;nk, Kandidaten staar foran dem; konverserende:)</stage> Deres Mand kommer vel, Fru Klem?</p>
+</sp>
+<sp>
+<speaker>Fru Klem</speaker>
+<p>Jo da, men ikke til Kaffe &#x2013; han taaler ikke Kaffe.</p>
+</sp>
+<sp>
+<speaker><pb n="61"/>Fru Rask</speaker>
+<stage>(med et Blik paa Pastoren)</stage>
+<p>Jeg trodde, det var bare Damerne, som skulde komme til Kaffe.</p>
+</sp>
+<sp>
+<speaker>Pastoren</speaker>
+<p>Ja, jeg ber Damerne undskylde; jeg kom fra Sygebes&#x00F8;g, og min Vei faldt her forbi.</p>
+</sp>
+<sp>
+<speaker>Kandidaten</speaker>
+<stage>(ler)</stage>
+<p>Og saa er Pastoren en Skj&#x00E6;lm efter varme Vafler.</p>
+</sp>
+<sp>
+<speaker>Fru Jul</speaker>
+<stage>(som har plukket en Rose og sat i Brystet)</stage>
+<p>Vafler! Er De gal Mand, De som har daarlig Mave. De har vel pr&#x00F8;vet det varme Omslag, vi snakked om?</p>
+</sp>
+<sp>
+<speaker>Pastoren</speaker>
+<p>Det har jeg, Frue, og jeg har takket Dem i mit stille Sind. Nu har jeg stadig vaadt om Maven &#x2013; Dag og Nat. <stage>(Fru Rask gr&#x00F8;sser.)</stage> Og det er forbausende, hvor det har virket <stage>(pludselig forlegen)</stage> forbausende, ja, hm &#x2026;</p>
+</sp>
+<sp>
+<speaker>Fru Jul</speaker>
+<stage>(gemytlig)</stage>
+<p>Der kan De se; det er ikke v&#x00E6;rst at v&#x00E6;re Venner med gamle erfarne Fruer. <stage>(Til Kandidaten.)</stage> Men hvor blir Alvilda af?</p>
+</sp>
+<sp>
+<speaker><pb n="62"/>Kandidaten</speaker>
+<p>Hun har saa meget at staa i. Har vist saavidt faat Tid til at kl&#x00E6; sig.</p>
+</sp>
+<sp>
+<speaker>Fru Rask</speaker>
+<p>Ja, hun er storartet! Slig som hun styrer og steller hele denne store Bedriften. Der kan man se, hvor overfl&#x00F8;dige dere Mandfolk igrunden er! <stage>(Kandidaten smiler og bukker.)</stage></p>
+</sp>
+<sp>
+<speaker>Pastoren</speaker>
+<p>Og dog er hun Kvinde fuldt ud. Ydmyg i sit Gudsforhold, og saa beskeden og enkel i al sin F&#x00E6;rd. Bare dette, at hun ret og slet &#x00F8;nsker at kaldes &#x00AB;Jomfruen&#x00BB; &#x2013; der er noget stort i det.</p>
+</sp>
+<sp>
+<speaker>Kandidaten</speaker>
+<p>Jagu &#x2013; omforladelse, ja, det er stort, mener jeg, sandelig!</p>
+</sp>
+<sp>
+<speaker>Fru Jul</speaker>
+<p>Se der har vi hende. Goddag, Alvilda! <stage>(Imod hende.)</stage></p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<stage>(kommer enkelt og strengt kl&#x00E6;dt som i f&#x00F8;rste Akt)</stage>
+<p>Velkommen, mine Damer! Goddag og velkommen, Hr. Pastor! <stage>(Gir ham Haanden; kysser Fru Jul og haandhilser saa paa de andre.)</stage></p>
+</sp>
+<sp>
+<speaker>Fru Jul</speaker>
+<p>Alf er her vel?</p>
+</sp>
+<sp>
+<speaker><pb n="63"/>Jomfruen</speaker>
+<p>Han var her netop. <stage>(En Pige med Kaffekanden.)</stage> V&#x00E6;rsaagod! <stage>(De s&#x00E6;tter sig om Kaffebordet.)</stage></p>
+</sp>
+<sp>
+<speaker>Pastoren</speaker>
+<p>Vi talte netop om det store i at ha Hoved som en Mand og dog Hjerte som en sand Kvinde, slig som De, bedste Jomfru Linde.</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<stage>(smiler)</stage>
+<p>De er fra en Tid, da M&#x00E6;ndene endnu var galante, De Pastor. &#x2013; V&#x00E6;rsaagod, mine Damer! <stage>(Skj&#x00E6;nker Kaffe.)</stage> En herlig Eftersommer vi har. Varmt som ved Sankte Hans.</p>
+</sp>
+<sp>
+<speaker>Pastoren</speaker>
+<p>Jah! Og er Eftersommeren f&#x00F8;rst god, saa er den skj&#x00F8;nnere end alle andre Aarstider.</p>
+</sp>
+<stage>(Bertha kommer; hilser.)</stage>
+<sp>
+<speaker>Damerne</speaker>
+<p>Goddag, Frk. Bertha! &#x2013; Aha, der har vi Bruden! &#x2013; Goddag, Goddag!</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<p>Kom her, Bertha og byd omkring!</p>
+</sp>
+<stage>(Bertha gj&#x00F8;r saa.)</stage>
+<sp>
+<speaker><pb n="64"/>Fru Jul</speaker>
+<stage>(kysser Bertha flyktig)</stage>
+<p>Hvor har du gjort af Alf?</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<p>Jeg ved ikke &#x2013; han var her netop.</p>
+</sp>
+<sp>
+<speaker>Fru Rask</speaker>
+<p>Hvordan staar det til med den blege Kj&#x00E6;resten, da, Fr&#x00F8;ken; vi ser ham aldrig mer inde i Byen.</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<p>Tak &#x2013; han er vist &#x2013; noksaa bra.</p>
+</sp>
+<sp>
+<speaker>Fru Rask</speaker>
+<stage>(ler)</stage>
+<p>Ja, mer skal man da ikke forlange af et Mandfolk. Jeg tror, de gaar med Mavebind allesammen snart.</p>
+</sp>
+<stage>(Alle ler med Undtagelse af Pastoren og)</stage>
+<sp>
+<speaker>Jomfruen</speaker>
+<stage>som bare smiler diskret med et lidet Glimt af Humor i Blikket, idet hun siger)</stage>
+<p>Bedste Fru Rask, en Kop Kaffe til?</p>
+</sp>
+<sp>
+<speaker>Fru Rask</speaker>
+<p>Ja, tak, en fuld Kop, er De snil!</p>
+</sp>
+<sp>
+<speaker><pb n="65"/>Pastoren</speaker>
+<p><emph>Prenez garde aux enfants</emph>, mine Damer.</p>
+</sp>
+<sp>
+<speaker>Fru Rask</speaker>
+<p>Gud hj&#x00E6;lpe den, som er Barn, naar hun skal gifte sig!</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<stage>(afv&#x00E6;rgende)</stage>
+<p>En Vaffel, Hr. Pastor! De er varme.</p>
+</sp>
+<sp>
+<speaker>Pastoren</speaker>
+<p>Tak. Tusen Tak! Deiligt!</p>
+</sp>
+<sp>
+<speaker>Kandidaten</speaker>
+<p>Jeg maa gi Fru Rask Ret. Vi er en daarlig Race vi Mandfolk nu for Tiden. Vi fortjener sgu, saa inderlig vel alle de saltlagede Ris, vi har lavet til vore respektive &#x2026;</p>
+</sp>
+<sp>
+<speaker>Pastoren</speaker>
+<p>Naa, naa Kandidat! Vi! De og jeg, to gamle Ungkarle, vi &#x2026;</p>
+</sp>
+<sp>
+<speaker>Kandidaten</speaker>
+<p>Aah, aah, Hr. Pastor!</p>
+</sp>
+<sp>
+<speaker>Fru Jul</speaker>
+<p>Det er ingen Sag at v&#x00E6;re Ungkarl, naar man er saa heldig som du, Henriksen. Langkogt Mad <pb n="66"/>og huslig Hygge, naar du har Lyst paa <emph>det</emph>, og fri Fugl, naar du har Lyst paa <emph>det</emph>. Og saa Burd&#x00F8;ren paa Gl&#x00F8;t bestandig, saa du kan flyve ind igjen, naar du blir &#x2013; sulten, havde jeg n&#x00E6;r sagt. Ha, ha!</p>
+</sp>
+<sp>
+<speaker>Pastoren</speaker>
+<p>Ja, naar man er saa lykkelig at v&#x00E6;re Jomfru Lindes Pleiebarn!</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<p>S&#x00E6;t, der var Plads for et til, Pastor!</p>
+</sp>
+<sp>
+<speaker>Pastoren</speaker>
+<p>Ak, hvor er der Plads for den Graahaarede! Snart er det vel bare paa Kirkegaarden, det.</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<p>Ak, Pastor, paa Kirkegaarden har jeg 7 Grave. Snak nu ikke om den ottende. Ja, for ogsaa Deres Grav blir min, Pastor.</p>
+</sp>
+<sp>
+<speaker>Pastoren</speaker>
+<p>Tak, bedste Veninde, det var smukt sagt af Dem! Jeg er en ensom Mand.</p>
+</sp>
+<sp>
+<speaker>Kandidaten</speaker>
+<stage>(mer og mer lystig)</stage>
+<p>Ja, ja, Hr. Pastor, kanske vi kan ende som Br&#x00F8;dre. Ha, ha, ha; Burd&#x00F8;ren paa Gl&#x00F8;t, som Fru <pb n="67"/>Jul siger &#x2013; naar jeg fl&#x00F8;i ud, saa fl&#x00F8;i De ind; ha, ha, ha!</p>
+</sp>
+<sp>
+<speaker>Pastoren</speaker>
+<p>De har altid en Skj&#x00E6;lm bag &#x00D8;ret, De, Kandidat!</p>
+</sp>
+<sp>
+<speaker>Kandidaten</speaker>
+<p>Nei, nei, jeg er umulig, jeg, ser De. Det har sine gode Grunde, at jeg ikke har giftet mig.</p>
+</sp>
+<sp>
+<speaker>Fru Rask</speaker>
+<p>Det pleier gjerne ha det.</p>
+</sp>
+<sp>
+<speaker>Kandidaten</speaker>
+<p>Jeg taaler ikke at v&#x00E6;re sammen med et Menneske mer end h&#x00F8;ist to Dage ad Gangen. Jeg blir syg. Jeg skal aldrig glemme, da jeg engang gik med min bedste Ven over Fjeldet i tre Dage. Jeg haded ham!</p>
+</sp>
+<sp>
+<speaker>Fru Klem</speaker>
+<p>Fy da, Kandidat!</p>
+</sp>
+<sp>
+<speaker>Kandidaten</speaker>
+<p>De eneste lyse &#x00D8;ieblikke var om Kvelden, da han sa Godnat; men saa fik jeg ikke sove, fordi jeg hele Tiden laa og grued for det gr&#x00E6;sselige &#x00D8;ieblik, da han den n&#x00E6;ste Morgen skulde komme blid og udsovet og si Godmorgen, som om ingenting var.</p>
+</sp>
+<sp>
+<speaker><pb n="68"/>Fru Rask</speaker>
+<p>Aa, hvor jeg forstaar Dem! Man blir styg indvendig.</p>
+</sp>
+<sp>
+<speaker>Kandidaten</speaker>
+<p>Styg! Gudbevare Dere vel; jeg skulde med den st&#x00F8;rste Sindsro stegt ham over en langsom Ild.</p>
+</sp>
+<sp>
+<speaker>Fru Klem</speaker>
+<p>Naa, det maa jeg sige!</p>
+</sp>
+<sp>
+<speaker>Kandidaten</speaker>
+<p>Jeg gjorde det ikke, snille Frue. Nei; for der er Straf for alt Selvforsvar her i Landet, ser De! Jeg knytted pent N&#x00E6;verne i Bukselommerne og tordned og lynte paa Latin, for det forstod han ikke, Dyret!</p>
+</sp>
+<sp>
+<speaker>Pastoren</speaker>
+<p>De forkj&#x00E6;ler vist ikke Deres Venner, Kandidat. Nei, saa kan jeg nok forstaa, at De ikke har giftet Dem. Og Fru Rask synes mig ogsaa &#x2013;</p>
+</sp>
+<sp>
+<speaker>Fru Rask</speaker>
+<stage>(overgivent)</stage>
+<p>Aa, Hr. Pastor, der er mange Grunde til at gifte sig!</p>
+</sp>
+<sp>
+<speaker>Pastoren</speaker>
+<p>Saa &#x2013; aa?</p>
+</sp>
+<sp>
+<speaker><pb n="69"/>Fru Rask</speaker>
+<p>Ja da; det er ikke bare Moro at gaa hjemme og v&#x00E6;re pen Pige bestandig heller. Vi faar ogsaa Lyst til at spise Brystet paa Kyllingen engang, ser De.</p>
+</sp>
+<stage>(Bertha ler h&#x00F8;it, blir forlegen og gaar ud.)</stage>
+<sp>
+<speaker>Pastoren</speaker>
+<p>Bevares vel! Jeg er forf&#x00E6;rdet over Dem, Frue. Men et Sp&#x00F8;g, et andet Alvor: hvordan skal det gaa, naar Kvinderne mister Evnen og Viljen til at elske &#x2026;</p>
+</sp>
+<sp>
+<speaker>Fru Rask</speaker>
+<stage>(ler)</stage>
+<p>Velsigne Dem &#x2013; er det noe andet vi vil da! Men hvem skal vi elske?</p>
+</sp>
+<sp>
+<speaker>Kandidaten</speaker>
+<p>Hvad siger De om at indf&#x00F8;re nogen Zulukaffere, Frue.</p>
+</sp>
+<sp>
+<speaker>Fru Rask</speaker>
+<p>Det var ikke daarligt; men da maa vi ta dem, f&#x00F8;r Kulturen faar Tag i dem.</p>
+</sp>
+<sp>
+<speaker>Pastoren</speaker>
+<stage>(reiser sig demonstrativt)</stage>
+<p>Skal vi saa sige vor gode V&#x00E6;rtinde Tak? Tusen Tak!</p>
+</sp>
+<sp>
+<speaker><pb n="70"/>Kandidaten</speaker>
+<p>Og saa kanske en Pibe &#x2013; til at sv&#x00E6;lge ned med, Pastor, hvad?</p>
+</sp>
+<sp>
+<speaker>Pastoren</speaker>
+<p>Jeg siger Tak. <stage>(De gaar)</stage></p>
+</sp>
+<stage>(Damerne takker leende og snakkende for Kaffen. Bertha kommer fra Verandaen.)</stage>
+<sp>
+<speaker>Nils-Petter</speaker>
+<stage>(samtidig gjennem Grinden. De veksler et Blik. Han gaar fremover og bukker for Damerne.)</stage>
+<p>Undskyld.</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<p>Aha! De lar vente paa Dem, Fuldm&#x00E6;gtig.</p>
+</sp>
+<sp>
+<speaker>Nils-Petter</speaker>
+<p>Der er et og andet paa en Gaard, som ikke kan ops&#x00E6;ttes, Jomfru &#x2026;</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<p>Skj&#x00E6;nk Kaffe for Fuldm&#x00E6;gtigen, Bertha. Tag Plads!</p>
+</sp>
+<sp>
+<speaker>Nils-Petter</speaker>
+<p>Jeg har ikke Tid, ellers Tak. Det var bare en Besked til Gartneren, jeg skulde &#x2026;</p>
+</sp>
+<stage>(Bertha gaar.)</stage>
+<sp>
+<speaker><pb n="71"/>Jomfruen</speaker>
+<stage>(reiser sig)</stage>
+<p>Ja, mine Damer, er Dere forsynte, saa foreslaar jeg, at I tar en Tur i Drivhuset, mens jeg afgj&#x00F8;r mine Forretninger.</p>
+</sp>
+<stage>(Alle reiser sig og takker.)</stage>
+<sp>
+<speaker>Fru Jul</speaker>
+<p>Ja, Blomster er deiligt! Kom!</p>
+</sp>
+<sp>
+<speaker>Fru Rask</speaker>
+<stage>(tar Fru Jul og Fru Klem under Armen)</stage>
+<p>Ja, i det hele taget alt, som gror! Alt som spr&#x00E6;tter og springer ud og vokser. <stage>(De gaar henover.)</stage> Der er ingenting i Verden saa tarveligt som Ufrugtbarhed.</p>
+<stage>(Jomfruen gaar opover nogle Skridt med Nils-Petter. Hun slaar ud med Haanden, siger noget sagte; men Nils-Petter tr&#x00E6;kker paa Skuldrene. Fru Rask (s&#x00E6;nker Stemmen.)</stage>
+<p>Derfor synes jeg ogsaa, det er for galt med slig en velskabt Jomfru!</p>
+</sp>
+<sp>
+<speaker>Fru Jul</speaker>
+<p>Hys, er De gal! <stage>(De gaar ud mellem Tr&#x00E6;rne.)</stage>
+</p>
+</sp>
+<stage>(Jomfruen og Nils-Petter snur og kommer nedover; stanser.)</stage>
+<sp>
+<speaker>Jomfruen</speaker>
+<p>Hvor var Hestene inat? Tror du jeg sov?</p>
+</sp>
+<sp>
+<speaker>Nils-Petter</speaker>
+<p>Hestene var paa Stalden i god Tid.</p>
+</sp>
+<sp>
+<speaker><pb n="72"/>Jomfruen</speaker>
+<stage>(i lynende Vrede)</stage>
+<p>Husk, hvem du er, du S&#x00F8;n af min Husmand! Du, som ikke havde det du kunde skjule Skammen din med, da jeg tog dig op her paa Gaarden! Du &#x2013; min Gaardsgut &#x2013; <emph>du</emph> &#x2026; <emph>du</emph> lar mig &#x2013; vente!</p>
+</sp>
+<sp>
+<speaker>Nils-Petter</speaker>
+<stage>(f&#x00F8;rst spagt)</stage>
+<p>Herregud jeg &#x2026; ja jeg &#x2013; <stage>(modigere)</stage> jeg ved ogsaa en, som har faat vente af og til! I det hele saa &#x2013; er jeg kjed af at la mig kommandere. Du kunde ladt mig v&#x00E6;re ifred derover &#x2013; &#x2013; &#x2013;</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<p>Ti!</p>
+</sp>
+<sp>
+<speaker>Nils-Petter</speaker>
+<stage>(hidsig; fr&#x00E6;kt)</stage>
+<p>Nei jeg gj&#x00F8;r ikke det &#x2013; siden vi naa er kommet ind paa det, saa &#x2026;</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<stage>(afbrydende)</stage>
+<p>Nu er det paa Tide du gaar; men f&#x00F8;rst vil jeg si dig, at Hestene skal v&#x00E6;re paa Stalden Kl. 8, forstaar du. Og saa en Ting til. Jeg ber dig huske paa, at Bertha skal ha Bryllup om 14 Dage.</p>
+</sp>
+<sp>
+<speaker>Nils-Petter</speaker>
+<p>Sludder og Vr&#x00F8;vl farer du med, siger jeg! Hvad har jeg med Fr&#x00F8;ken Berthas Bryllup at gj&#x00F8;re! <pb n="73"/>Nu er jeg lei af dette. <stage>(Fr&#x00E6;kt.)</stage> La mig faa de 20 000, du vilde sikre mig, naar jeg kom tilbage &#x2013; saa er vi kvit. &#x2013; Lad mig faa mit, saa reiser jeg.</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<stage>(hvid af Sinne, lige ind paa ham)</stage>
+<p>Dit! Ha, ha! Hvem eier Skjorten paa din Bag, du Stymper? <stage>(Pastoren er under sidste Replik kommet ud paa Verandaen, stanser; slipper Piben i Gulvet af Forf&#x00E6;rdelse. Nils-Petter ser Pastoren og gaar med et haanligt Smil gjennem Grinden. Jomfruen st&#x00F8;tter sig mod en B&#x00E6;nkeryg, tar sig til Hjertet.)</stage> Ah!</p>
+</sp>
+<sp>
+<speaker>Pastoren</speaker>
+<stage>(med let skj&#x00E6;lvende Stemme)</stage>
+<p>Men &#x2026; men Jomfru Linde &#x2026; hvad &#x2026; <stage>(hen til hende)</stage> De er Syg.</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<stage>(med brudt R&#x00F8;st)</stage>
+<p>Ja, Pastor, jeg er syg &#x2026; Hvis De vidste, hvad man maa taale, Hr. Pastor &#x2026; <stage>(halvt gr&#x00E6;dende)</stage> og det af dem, man har gjort de st&#x00F8;rste Velgjerninger imod. <stage>(Lar sig glide ned paa B&#x00E6;nken.)</stage></p>
+</sp>
+<sp>
+<speaker>Pastoren</speaker>
+<stage>(s&#x00E6;tter sig hos hende)</stage>
+<p>Dersom jeg forstaar Dem ret, er det ham &#x2013; Deres Fuldm&#x00E6;gtig, som &#x2026; Og &#x2013; bedste Jomfru Linde &#x2013; det gir mig Anledning til &#x2026; jeg vilde saa gjerne som Deres Ven &#x2026; De ved, alting misforstaaes i Verden. Har De ikke v&#x00E6;ret en Smule <pb n="74"/>uforsigtig? Jeg mener &#x2013; ja netop ligeoverfor ham. Det er jo saa, at Folk paa hans Dannelsesniveaa, <emph>maa</emph> man holde en Smule paa Afstand. &#x2013; De er for <emph>god</emph>, bedste Veninde.</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<p>Aa, Pastor &#x2013; god! En Nar har jeg v&#x00E6;ret! Jeg haabede, at i ham skulde jeg faa en &#x00E6;rlig Tjener; det var dog et ganske rimeligt Haab, Hr. Pastor! Et Menneske, man har hjulpet op af den sorteste Elendighed. Men hvad har man igjen? Og det er ikke bare ham! <stage>(Reiser sig.)</stage> Her spilles fr&#x00E6;kt bag min Ryg, Hr. Pastor! <stage>(Atter svag.)</stage> Naa; lad os ikke tale mer om det idag; jeg f&#x00F8;ler mig altfor syg og tr&#x00E6;t. Men en anden Gang, Hr. Pastor, vilde jeg saa gjerne tale med Dem. Jeg tr&#x00E6;nger Raad. Tro mig, det er ikke let for en enlig Kvinde. <stage>(R&#x00E6;kker ham Haanden med et smerteligt Smil.)</stage> Vil De snart komme igjen, Hr. Pastor? &#x2013; De er jo min Sj&#x00E6;les&#x00F8;rger og &#x2013; min Ven.</p>
+</sp>
+<sp>
+<speaker>Pastoren</speaker>
+<p>Det er jeg, og intet skal v&#x00E6;re mig kj&#x00E6;rere, Jomfru Linde. Men lad mig blot faa Lov &#x2026; bare et Ord; det er mig saa magtpaaliggende at faa sagt Dem det. Denne Fru Rask &#x2013; ja lad mig sige det rent ud: det er mig en Pine at se Dem i hendes Selskab. Og i Barnehjemskomiteen <emph>kan</emph> hun dog umulig sidde. Det gir det hele et falskt Skj&#x00E6;r af <pb n="75"/>noget &#x2013; noget. Ja, De ved, den Slags l&#x00F8;se Existenser bringer ingen sund Atmosf&#x00E6;re med sig. Man m&#x00E6;rker jo saa pinlig, hvor hun stadig synker dybere og dybere. Hun taler jo ikke engang dannet om Tingene l&#x00E6;nger &#x2013; &#x2013;. Denne lystige, frivole Tone &#x2013; &#x2013; &#x2013; kan man ha Medlidenhed med saadant &#x2026;</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<p>Det er sandt; hun generer ogsaa mig selvf&#x00F8;lgelig! &#x2013; Men hun er saa dygtig, Pastor, og saa skikkelig; det er bare Munden, hun ikke kan styre. Og hun har havt det vanskeligt, kan De tro.</p>
+</sp>
+<sp>
+<speaker>Pastoren</speaker>
+<p>Saa &#x2013; aa?</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<p>Da hun var f&#x00E6;rdig til at begynde &#x2013; fik hun en Mand, som var f&#x00E6;rdig til at slutte.</p>
+</sp>
+<sp>
+<speaker>Pastoren</speaker>
+<stage>(ser forbauset paa hende)</stage>
+<p>Jeg &#x2026; jeg forstaar ikke &#x2026;</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<stage>(glemmer sin Svaghed; med slet dulgt Utaalmodighed)</stage>
+<p>Og saa ved jeg ikke, jeg, Pastor; det kan v&#x00E6;re godt og bra nok med al den Dannelsen; men af og til synes jeg, at Folk &#x00AB;danner&#x00BB; ud baade F&#x00F8;lelse og Natur i sig!</p>
+</sp>
+<sp>
+<speaker><pb n="76"/>Pastoren</speaker>
+<stage>(usikker)</stage>
+<p>Men bedste Jomfru Linde, De kan ikke mene, hvad De der siger. Det er jo en Uhyrlighed! Jeg har stundom saa vanskelig for at f&#x00F8;lge Deres Tankegang, skj&#x00F8;nt jeg jo f&#x00F8;ler, at den bunder i det samme som min.</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<stage>(r&#x00E6;kker ham smilende Haanden)</stage>
+<p>Naa, Pastor, De skal ikke ta saa alvorlig alt, hvad en dum Kvinde kan finde paa at si &#x2026; <stage>(Med mildt Koketteri.)</stage> Vi er uskikkelige, vi Kvinder, Pastor; men saa tar vi saa gjerne den Revselse, vi fortjener. Ja, kj&#x00E6;re Pastor, saa venter jeg Dem <emph>snart</emph>.</p>
+</sp>
+<sp>
+<speaker>Pastoren</speaker>
+<p>Saa gjerne! Det skal jeg &#x2026; men dette maa vi tilbage til.</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<p>Siden Pastor. Nu er jeg saa tr&#x00E6;t.</p>
+</sp>
+<sp>
+<speaker>Pastoren</speaker>
+<p>Javist, javist. Ja, ja, saa gaar jeg op til Kandidaten saa l&#x00E6;nge og faar stoppet min Pibe. Farvel saa l&#x00E6;nge, kj&#x00E6;re Jomfru Linde!</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<p>Paa Gjensyn!</p>
+</sp>
+<sp>
+<speaker><pb n="77"/>Maren Kokke</speaker>
+<stage>(kommer, t&#x00F8;rrer H&#x00E6;nderne paa sit store, hvide Forkl&#x00E6;de)</stage>
+<p>Ja, naa er Gj&#x00F8;dkalven flaad og fiks f&#x00E6;rdig, Jomfru. Skal&#x0027;n hel til Byen?</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<stage>(utaalmodig)</stage>
+<p>Ja, afsted med den! Nu er jeg lei af Kalv &#x2013; baade stegt og kogt.</p>
+</sp>
+<sp>
+<speaker>Maren</speaker>
+<p>Jaja. <stage>(Vil gaa)</stage></p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<stage>(reiser sig)</stage>
+<p>Nei! H&#x00F8;r her, Maren, &#x2013; send Bagparten til Presten. Men idag! Forstaar du?</p>
+</sp>
+<sp>
+<speaker>Maren</speaker>
+<p>Aa, saa naa! Ja vel. Skal saa. <stage>(Ud Grinden.)</stage></p>
+</sp>
+<stage>(Jomfruen ind over Verandaen.)</stage>
+<stage>(Scenen staar tom nogle &#x00D8;ieblikke, saa kommer Fru Jul, Fru Rask og Fru Klem fra H&#x00F8;ire.)</stage>
+<sp>
+<speaker>Fru Klem</speaker>
+<p>Ja, jeg skj&#x00F8;nner mig ikke noget videre paa det, jeg; men dette at vi skulde opmuntre Us&#x00E6;deligheden med at bygge et Barnehjem &#x2026;</p>
+</sp>
+<sp>
+<speaker>Fru Rask</speaker>
+<p>Om nu saa var, havde jeg n&#x00E6;r sagt.</p>
+</sp>
+<sp>
+<speaker><pb n="78"/>Fru Klem</speaker>
+<p>Nei, ved De hvad, Fru Rask &#x2026;</p>
+</sp>
+<sp>
+<speaker>Fru Rask</speaker>
+<p>Ja, skulde ikke en sterk, frisk Kvinde kunne faa et Barn uden saa meget Vr&#x00F8;vl da! Mange kan godt undv&#x00E6;re en Mand; men ingen kan undv&#x00E6;re et Barn.</p>
+</sp>
+<sp>
+<speaker>Fru Jul</speaker>
+<p>Fy da, som De snakker! Sandelig om jeg vilde undv&#x00E6;re Manden min for alt i Verden, saa skral som han er.</p>
+</sp>
+<sp>
+<speaker>Fru Rask</speaker>
+<p>Nei, <emph>han</emph> gj&#x00F8;r da vist akkurat hvad De vil.</p>
+</sp>
+<sp>
+<speaker>Fru Jul</speaker>
+<stage>(muntert)</stage>
+<p>Ja, stakkar, hvad skulde han ellers gj&#x00F8;re. For Tiden er han paa Havresuppe. Huh, den blege Suppetallerkenen paa Sengen om Morgenen! <stage>(Fortrolig.)</stage> Ved Dere hvad? Jeg faar saa frygtelig Lyst paa Bif, jeg &#x2013; <stage>(ler)</stage> med dygtig Peber paa! Ha, ha, ha! Apropos Suppe forresten! Dere kan tro, jeg har en ekstra Opskrift paa Fuglesuppe, som Dere &#x2013; unter uns &#x2013; kan koge paa Kanin. Bare et stort Glas gammel Graves tilslut, <stage>(smatter)</stage> saa er det ikke <emph>en</emph>, som skj&#x00F8;nner det.</p>
+</sp>
+<sp>
+<speaker><pb n="79"/>Fru Rask</speaker>
+<p>Graves! Det taaler vel ikke Deres Mand?</p>
+</sp>
+<sp>
+<speaker>Fru Jul</speaker>
+<p>Nei, stakkar; overhovedet ikke Vin! Han er en Helgen!</p>
+</sp>
+<sp>
+<speaker>Fru Rask</speaker>
+<stage>(smiler)</stage>
+<p>En tr&#x00E6;t Helgen! Aa Gud, for en Komedie Dere! Vi gaar og sparer og sparer op vor Ungdom og Kraft, til den store Dag kommer &#x2013; og saa! &#x2013; Ak nei, vi var dumme, som ikke moret os i vor Ungdom, som vore Br&#x00F8;dre og F&#x00E6;dre!</p>
+</sp>
+<sp>
+<speaker>Fru Klem</speaker>
+<p>Aa fy, hvor Dere snakker. Om ikke Manden min havde et Haar paa Hodet, om han var aldrig saa tr&#x00E6;t og aldrig saa meget saan Helgen, som Dere kalder det, saa var han det deiligste paa Jorden! Han er som et lidet Barn og alligevel som et stort, stort, deiligt Menneske! Aa, Dere har aldrig elsket! For da er man bare, bare ydmyg!</p>
+</sp>
+<sp>
+<speaker>Fru Jul</speaker>
+<p>Saan skal det v&#x00E6;re, ja. Der kan De h&#x00F8;re, Fru Rask!</p>
+</sp>
+<sp>
+<speaker><pb n="80"/>Fru Klem</speaker>
+<p>Helt fra det vidunderlige &#x00D8;ieblik, da han blev <emph>min Mand</emph>, har jeg bare Lyst til at ligge paa Kn&#x00E6; og takke. For jeg elsker, elsker, elsker den s&#x00F8;de Manden min!</p>
+</sp>
+<sp>
+<speaker>Fru Rask</speaker>
+<p>Hvor l&#x00E6;nge har De v&#x00E6;ret gift, Fru Klem?</p>
+</sp>
+<sp>
+<speaker>Fru Klem</speaker>
+<p>Ti Uger akkurat. Og jeg er saa lykkelig! Det er som en Rus!</p>
+</sp>
+<sp>
+<speaker>Fru Rask</speaker>
+<p>Ak ja! De ti f&#x00F8;rste Uger er en Rus, de ti f&#x00F8;rste Aar en Kamp &#x2013;</p>
+</sp>
+<sp>
+<speaker>Fru Jul</speaker>
+<p>Og de n&#x00E6;ste ti Aar sover man ud.</p>
+</sp>
+<sp>
+<speaker>Fru Rask</speaker>
+<p>Ja, da lyder formodentlig den daglige Bulletin: Rolig S&#x00F8;vn med normale Dr&#x00F8;mme!</p>
+</sp>
+<sp>
+<speaker>Fru Klem</speaker>
+<p>Aa fy, hvor stygt Dere snakker! Nei, aldrig, aldrig har Dere elsket!</p>
+</sp>
+<sp>
+<speaker>Fru Rask</speaker>
+<p>Der er Undtagelser, Fru Klem &#x2026;</p>
+</sp>
+<sp>
+<speaker><pb n="81"/>Fru Jul</speaker>
+<p>Ja, da er vi Undtagelse! For om vi blir hundrede Aar, saa blir det ikke anderledes.</p>
+</sp>
+<sp>
+<speaker>Fru Rask</speaker>
+<p>Lad os haabe det, lille, s&#x00F8;de Fru Klem! Ak! Man skal ha Barn i sin Ungdom, mens man er dum og forelsket og siden &#x2026;</p>
+</sp>
+<sp>
+<speaker>Fru Klem</speaker>
+<p>Aa gid, t&#x00E6;nk om nogen h&#x00F8;rte Dem!</p>
+</sp>
+<sp>
+<speaker>Fru Rask</speaker>
+<p>&#x2013; Siden, naar man blir gammel og klok, kan man ta sig en gammel, klok Ven. En for Aanden og en for Haanden. Hvad ved M&#x00E6;ndene om sine B&#x00F8;rn andet, end at de skriger og koster Penge. Og saan en &#x00E6;ldre, hyggelig Ven er det deiligste paa Jorden n&#x00E6;sten; men de er ikke til at faa Smaabarn med.</p>
+</sp>
+<sp>
+<speaker>Fru Jul</speaker>
+<p>Hys, hys &#x2013; nei, det er i det hele sv&#x00E6;rt indviklet. &#x2013; Men hvor blir Herrerne af?</p>
+</sp>
+<sp>
+<speaker>Fru Rask</speaker>
+<stage>(uvorren)</stage>
+<p>Se paa alle os sterke, vakre Kvinder &#x2013; ja, jeg siger vakre uden at blunke &#x2013;; vi har da Haar paa <pb n="82"/>Hode, og Blod i Aarerne! Se paa os, naar vi unge og forventningsfulde staar og gaber som graadige Spurvunger ud mod det forj&#x00E6;ttede Land &#x2026;</p>
+</sp>
+<sp>
+<speaker>Fru Jul</speaker>
+<stage>(leende)</stage>
+<p>Og hvad er det saa, vi faar i N&#x00E6;bbet mener De? Nei De er udmerket.</p>
+</sp>
+<sp>
+<speaker>Fru Klem</speaker>
+<p>Gid nei, nu gaar jeg. S&#x00E6;t, at nogen lurte bag Buskene her!</p>
+</sp>
+<sp>
+<speaker>Fru Rask</speaker>
+<stage>(kaad)</stage>
+<p>Og se paa Manden &#x2013; vort forj&#x00E6;ttede Land, ha, ha! Ak, mine Venner, den som fik opleve Reaktionen!</p>
+</sp>
+<sp>
+<speaker>Fru Klem</speaker>
+<p>Fy, for en r&#x00E6;dsomt uskikkelig Dame!</p>
+</sp>
+<sp>
+<speaker>Fru Jul</speaker>
+<stage>(t&#x00F8;rrer &#x00D8;inene)</stage>
+<p>Ha, ha; fy skamme Dem forresten! <stage>(De f&#x00F8;lges under det sidste ind over Verandaen.)</stage>
+</p>
+</sp>
+<stage>(Sagf&#x00F8;rer Klem, Doktoren og Adjunkten kommer gjennem Grinden.)</stage>
+<sp>
+<speaker>Doktoren</speaker>
+<p>Gud ved, hvor vore Damer er!</p>
+</sp>
+<sp>
+<speaker><pb n="83"/>Klem</speaker>
+<p>Ja, min Kone er sikkert paa Pletten; hun f&#x00F3;r ud, f&#x00F8;r en vis Mand fik Skoene paa sig idag.</p>
+</sp>
+<sp>
+<speaker>Doktoren</speaker>
+<p>Ja, dersom Deres Kone har Halvparten saa godt Sovehjerte som min, Sagf&#x00F8;rer Klem, saa kan hun sgu gjerne staa tidlig op. Min Kone sover den ganske Nat, saa Gud sig forbarme.</p>
+</sp>
+<sp>
+<speaker>Klem</speaker>
+<p>Min ogsaa!</p>
+</sp>
+<sp>
+<speaker>Adjunkten</speaker>
+<stage>(meget n&#x00E6;rsynt)</stage>
+<p>End min da! Hun sover som et Murmeldyr, mens jeg &#x2026;</p>
+</sp>
+<sp>
+<speaker>Doktoren</speaker>
+<p>End jeg da!</p>
+</sp>
+<sp>
+<speaker>Klem</speaker>
+<p>Og jeg! Mine Herrer, jeg sover simpelthen aldrig; det er det rene Martyrium.</p>
+</sp>
+<sp>
+<speaker>Doktoren</speaker>
+<p>Min Kone har maattet flytte sin Seng ud i et andet V&#x00E6;relse. <stage>(Holder Haanden for Munden; fortrolig.)</stage> Hun snorker nemlig.</p>
+</sp>
+<sp>
+<speaker><pb n="84"/>Adjunkten</speaker>
+<p>Det var da m&#x00E6;rkeligt, som det stemmer; det gj&#x00F8;r min ogsaa! Men hun paastaar naturligvis, at det er mig!</p>
+</sp>
+<sp>
+<speaker>Doktoren</speaker>
+<p>Naturligvis!</p>
+</sp>
+<sp>
+<speaker>Adjunkten</speaker>
+<p>Det var da m&#x00E6;rkv&#x00E6;rdigt, som det stemmer det er &#x2026; der er &#x2026; noget saa irriterende ved slig Sundhed &#x2026; Aha, der har vi Jomfruen.</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<stage>(ud paa Verandaen)</stage>
+<p>Velkommen, mine Herrer! V&#x00E6;r saa god; &#x2013; Retten er sat, vi venter bare paa Herrerne. Hvad kan vi stakkels Kvinder gj&#x00F8;re!</p>
+</sp>
+<stage>(Herrerne gaar hilsende op paa Verandaen.)</stage>
+<sp>
+<speaker>Klem</speaker>
+<p>Naa, naa &#x2026; men Sp&#x00F8;g tilside, Sagen er jo i god Gj&#x00E6;nge?</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<p>Jeg tror nok, at Hjemmet er sikret, mine Herrer &#x2013; med Deres Tilladelse.</p>
+</sp>
+<sp>
+<speaker>Doktoren</speaker>
+<p>Ser vi det! Gratulerer, gratulerer! <stage>(Gaar ind.)</stage></p>
+</sp>
+<sp>
+<speaker><pb n="85"/>Adjunkten</speaker>
+<stage>(idet han bukker dybt)</stage>
+<p>Jomfru Lindes Minde &#x2013; hvad?</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<stage>(smilende med en Haandbev&#x00E6;gelse mod D&#x00F8;ren)</stage>
+<p>Mine Herrer!</p>
+</sp>
+<stage>(Alle ind.)</stage>
+<sp>
+<speaker>Henriksen</speaker>
+<stage>(kommer med et Papir i Haanden)</stage>
+<p>Aa du, et &#x00D8;ieblik. Undskyld, mine Herrer. En Smule Forretningskonference &#x2026;</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<stage>(blir tilbage med ham; efter Herrerne)</stage>
+<p>Undskyld mig et &#x00D8;ieblik. <stage>(Til Henriksen.)</stage> Naa?</p>
+</sp>
+<sp>
+<speaker>Henriksen</speaker>
+<p>Det er Bud paa Skogen. Godt Bud. Godseier Birk.</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<p>Hvor meget?</p>
+</sp>
+<sp>
+<speaker>Henriksen</speaker>
+<p>Seksti Tusen.</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<stage>(ser op)</stage>
+<p>Ja, det var godt.</p>
+</sp>
+<sp>
+<speaker><pb n="86"/>Henriksen</speaker>
+<p>Storartet. Vi slaar selvf&#x00F8;lgelig til.</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<stage>(grunder)</stage>
+<p>Da har Skogen st&#x00F8;rre V&#x00E6;rd. Han ved, hvad gj&#x00F8;r.</p>
+</sp>
+<sp>
+<speaker>Henriksen</speaker>
+<p>Selvf&#x00F8;lgelig har den V&#x00E6;rd; men &#x2026;</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<p>Langt st&#x00F8;rre end den budte Sum &#x2026; Selvf&#x00F8;lgelig.</p>
+</sp>
+<sp>
+<speaker>Henriksen</speaker>
+<p>Men kontante Penge. Og husk den besv&#x00E6;rlige Drift. Dette er enestaaende heldigt.</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<stage>(ser overlegen paa ham)</stage>
+<p>Jeg kj&#x00F8;bte Skogen mod dit Raad.</p>
+</sp>
+<sp>
+<speaker>Henriksen</speaker>
+<p>Ja, det ved Gud.</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<stage>(afgj&#x00F8;rende)</stage>
+<p>Jeg beholder den ogsaa mod dit Raad.</p>
+</sp>
+<sp>
+<speaker><pb n="87"/>Henriksen</speaker>
+<p>Du er gal. Husk det anstrengende og vanskelige Bestyr! Du kjender jo ikke engang Skogen.</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<p>Men jeg vil l&#x00E6;re den at kjende. Kan Birk kj&#x00F8;be den, saa kan jeg beholde den, det er klart. Telegrafer: <emph>Jomfru Linde s&#x00E6;lger ikke.</emph> <stage>(Fra ham.)</stage></p>
+</sp>
+<sp>
+<speaker>Henriksen</speaker>
+<p>Er det dit sidste Ord?</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<p>Ja, det kan du bande paa. <stage>(Ind.)</stage></p>
+</sp>
+<stage>(Henriksen tr&#x00E6;kker paa Skuldrene og f&#x00F8;lger hende.)</stage>
+</div>
+<div type="chapter" subtype="act" n="3">
+<head type="main">Tredje Akt</head>
+<stage>Gamle Marjas Hytte. T&#x00F8;mmerv&#x00E6;gge. D&#x00F8;r til Svalen i Baggrunden. Til Venstre D&#x00F8;r til Kj&#x00F8;kkenet. Midt paa venstre V&#x00E6;g stor Jernovn. I Ovnens nederste Etage staar en Kobberkaffekjedel. I h&#x00F8;ire Hj&#x00F8;rne bred Seng med hjemmev&#x00E6;vet, blaat Omh&#x00E6;ng. L&#x00E6;ngere fremme paa h&#x00F8;ire V&#x00E6;g firkantet Vindu med simpelt Halvgardin og Blomster. Under Vinduet en blaamalet &#x00AB;Slagb&#x00E6;nk&#x00BB; med Pinderyg; foran denne Klaffebord med slidt, blaa Maling. Under Ovnen Ved og Kvist. Ved Ovnen sidder Marja og karer Uld.</stage>
+<sp>
+<speaker>Marja</speaker>
+<stage>(synger til en enstonig, gammel Melodi)</stage>
+<lg>
+<l>Ved Vintertide,</l>
+<l>da ondt maa lide</l>
+<l>den Fattigmand.</l>
+<l>Ei Uld at slide,</l>
+<l>ei Br&#x00F8;d at bide,</l>
+<l>saa haver han.</l>
+</lg>
+<lg>
+<l>Men paa Gud Fader</l>
+<l>sig trygt forlader</l>
+<l>den Fatigmand,</l>
+<l><pb n="89"/>og tr&#x00F8;stig venter</l>
+<l>til Gud ham henter</l>
+<l>fra Armods Land.</l>
+</lg>
+<stage>(Det banker. Marja snur sig mod D&#x00F8;ren.)</stage>
+<p>Aa, v&#x00E6;rsaagod.</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<stage>(ind. Hun er if&#x00F8;rt en m&#x00F8;rk, sid Kaabe og en sort, liden Hat)</stage>
+<p>Gokv&#x00E6;ld, Marja!</p>
+</sp>
+<sp>
+<speaker>Marja</speaker>
+<stage>(reiser sig; gaar imod Bertha)</stage>
+<p>Aanei, Gokv&#x00E6;ld! Er det Fr&#x00F8;kna? Det blei saa seint. Er De &#x2013; aleine? Og gaaendes, mener jeg?</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<stage>(stille og bleg)</stage>
+<p>Ja.</p>
+</sp>
+<sp>
+<speaker>Marja</speaker>
+<stage>(med et hurtigt Blik)</stage>
+<p>Han var vel for vild Svarte-Folen ligevel, kanske?</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<p>Aa, det var jo bare Galskab det. &#x2013; Huf, jeg er saa forf&#x00E6;rdelig tr&#x00E6;t, Marja. <stage>(S&#x00E6;tter sig paa Krakken ved Ovnen.)</stage></p>
+</sp>
+<sp>
+<speaker>Marja</speaker>
+<p>Ja sandelig, ser ikke Fr&#x00F8;kna reint tufs ud. Det er saa surt ikv&#x00E6;ld ogsaa, saa. Jeg har holdt Kjedlen varm paa Vona.</p>
+</sp>
+<sp>
+<speaker><pb n="90"/>Bertha</speaker>
+<p>Det var deiligt, Marja. Jeg forstaar ikke &#x2013; jeg fryser formelig.</p>
+</sp>
+<sp>
+<speaker>Marja</speaker>
+<stage>(s&#x00E6;tter frem paa Bordet)</stage>
+<p>Ja, se det. Jeg har sandelig lagt en Pinde i Ovnen, jeg; det faar ikke hj&#x00E6;lpe, om det bare er September Maaned aldrig saa mye.</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<p>Aa ja, her er saa godt og lunt hos dig, Marja &#x2026; jeg tror, jeg faar ta af mig lidt.</p>
+</sp>
+<sp>
+<speaker>Marja</speaker>
+<p>Ja, kom naa her med Kaapa. <stage>(Tar Kaaben fra hende og l&#x00E6;gger den paa Sengen.)</stage> Men aassen er det med F&#x00F8;tterne? Dere er naa vel endelig ikke vaat paa F&#x00F8;tterne? La mig kjende. <stage>(Vil ha fat i Berthas ene Fod.)</stage></p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<p>Nei tak da, Marja, det er jo ganske t&#x00F8;rt ude.</p>
+</sp>
+<sp>
+<speaker>Marja</speaker>
+<p>Ja, ja. <stage>(Putter et Par Vedtr&#x00E6;r i Ovnen.)</stage></p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<stage>(ser paa Marja)</stage>
+<p>Hvor deiligt det var at komme ind til dig lidt, Marja. Naar jeg sidder her paa denne Krakken og ser dig gaa slig og smaastelle, da er det, som <pb n="91"/>jeg var barn igjen. Kan du huske, hvor ofte jeg sad her og legte med Spolekurven din.</p>
+</sp>
+<sp>
+<speaker>Marja</speaker>
+<stage>(vugger paa Hovedet)</stage>
+<p>Om jeg huser det? <stage>(S&#x00E6;tter sig paa Stolen sin.)</stage></p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<p>Og saa sang du saanne gamle, rare Viser for mig. <stage>(Varmt og vemodig.)</stage> Det var det bedste, jeg vidste, at v&#x00E6;re her hos dig, Marja.</p>
+</sp>
+<sp>
+<speaker>Marja</speaker>
+<stage>(ser paa hende)</stage>
+<p>Ja, st&#x00F8;rre Hygge hadde ikke jeg heller, Fr&#x00F8;ken, end naar Vesle-Bertha kom og vilde h&#x00F8;re Eventyr og Viser.</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<p>Hvorfor kan du ikke sige Bertha, nu som dengangen, Marja. Det er ligesom du slet ikke bryr dig om mig l&#x00E6;nger, naar du siger Fr&#x00F8;ken &#x2013; og det <emph>maa</emph> du, Marja.</p>
+</sp>
+<sp>
+<speaker>Marja</speaker>
+<p>Men &#x2026; men &#x2026; ja, saa d&#x00F8;d og snyte &#x2013; forlate mi Synd &#x2013; trur jeg ikke hu graater. <stage>(Reiser sig.)</stage> Men Herregud, De er ikke lik Dere ikv&#x00E6;ld &#x2026; <stage>(gaar hen og l&#x00E6;gger Handen paa hendes Hoved)</stage> &#x2026; Du er naa vel aldrig klein Berthamor.</p>
+</sp>
+<sp>
+<speaker><pb n="92"/>Bertha</speaker>
+<p>Nei da, Marja &#x2026; det er ingenting; jeg er bare saa &#x2013; &#x2013;. Aa, hvor jeg gl&#x00E6;der mig til den Kaffen. <stage>(Reiser sig.)</stage></p>
+</sp>
+<sp>
+<speaker>Marja</speaker>
+<stage>(ivrig)</stage>
+<p>Nei, naa trur jeg det sp&#x00F8;ger; sidder jeg ikke her og glemmer hele Kaffen igjen.</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<stage>(gaar hen og s&#x00E6;tter sig paa B&#x00E6;nken)</stage>
+<p>Ved du hvad jeg vilde &#x00F8;nske, Marja?</p>
+</sp>
+<sp>
+<speaker>Marja</speaker>
+<stage>(steller med Kaffen)</stage>
+<p>Aa, det kunde vel v&#x00E6;re mangt det; men jamen &#x2013; &#x2013; &#x2013;</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<p>Jeg vilde &#x00F8;nske, at jeg var <emph>dit</emph> Barn; at du var min rigtige Mor, og vi kunde leve sammen alene; men da maatte Stuen din ligge langt, langt herfra, saa ingen anden kunde finde os, end de vi selv vilde &#x2026; <stage>(smiler)</stage> i Blaaland, Marja.</p>
+</sp>
+<sp>
+<speaker>Marja</speaker>
+<p>Aa du og du &#x2013; i Blaaland ja; det var et Land du snakked mye om, det, da du var liden. Ja, ja, ja, det var dengangen det. Drik naa, mens han er god og varm.</p>
+</sp>
+<sp>
+<speaker><pb n="93"/>Bertha</speaker>
+<p>Tak. Ja, did kunde jeg komme naar jeg vilde, dengang. Jeg bare satte Tommeltotterne i &#x00D8;rene og Pegefingeren paa &#x00D8;inene og snudde mig i Ring &#x2013; fort, fort, fort; og saa kasted jeg mig ende ned og sa exe, vexe, hex, pex, og saa var jeg i Blaaland.</p>
+</sp>
+<sp>
+<speaker>Marja</speaker>
+<p>Aa ja, jeg maatte vel sidde og h&#x00F8;re lange Stunder paa Eventyr fra Blaaland.</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<stage>(smager paa Kaffen og glemmer den igjen)</stage>
+<p>Jeg kaldte det saa, fordi alt blev blaat for &#x00D8;inene mine, ser du, Skogen og Fjeldene og Sj&#x00F8;en. Jeg lukked ikke &#x00D8;inene op; men jeg saa det alligevel; &#x2013; aa ja, hvor glad jeg var, naar de voksne glemte mig, og det gjorde de ofte &#x2013; lange Tider; og da reiste jeg til Blaaland.</p>
+</sp>
+<sp>
+<speaker>Marja</speaker>
+<p>Spis naa, og drik.</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<stage>(tar distait en Vaffel)</stage>
+<p>Nam, nam, deilige Marjavafler! Og saa du; husker du S&#x00F8;rensen, den vesle Kalven min, som jeg opkaldte efter Schweizer-S&#x00F8;rensen. Du ved, jeg s&#x00F8;rged saa, da Schweizer-S&#x00F8;rensen reiste til <pb n="94"/>Danmark igjen; for i Fj&#x00F8;set hos ham var det eneste Sted, det var deiligt at v&#x00E6;re foruden i Blaaland &#x2013; ja, og saa her hos dig.</p>
+</sp>
+<sp>
+<speaker>Marja</speaker>
+<stage>(rugger)</stage>
+<p>Ja, ja, du!</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<p>Og saa laa vi ude i Engen, og saa bandt jeg Kranser af blaa Blomster og satte om Halsen paa Kalven min &#x2013; <stage>(smiler)</stage> Kalve-S&#x00F8;rensen kaldte vi ham, kan du huske! Og saa satte den Mulen op i Ansigtet mit og pusted, saa det krisled mig, og saa lo vi, og saa reiste vi til Blaaland sammen. Men S&#x00F8;rensen sovned gjerne paa den lange Reisen, han Stakkar.</p>
+</sp>
+<sp>
+<speaker>Marja</speaker>
+<p>Aa du og du for Eventyr!</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<stage>(hviler Hovedet tr&#x00E6;t i H&#x00E6;nderne)</stage>
+<p>Nu kan jeg aldrig reise til Blaaland l&#x00E6;nger, Marja!</p>
+</sp>
+<sp>
+<speaker>Marja</speaker>
+<stage>(l&#x00E6;gger sin Haand paa Berthas Arm)</stage>
+<p>H&#x00F8;r naa her. &#x2013; Trur du kanske ikke jeg ser, at &#x2013; &#x2013; jeg ser nok, at det er noe, som er vondt for Berthamor naa &#x2026;</p>
+</sp>
+<sp>
+<speaker><pb n="95"/>Bertha</speaker>
+<stage>(klynger sig nerv&#x00F8;st til Marjas Haand)</stage>
+<p>Aa, sp&#x00F8;r mig ikke, Marja. <stage>(Pludselig.)</stage> Aa, s&#x00E6;t dig bort til Ovnen og syng den gamle Visen for mig, Marja &#x2026; den, som du l&#x00E6;rte, da du var ung, deroppe i Fjeldbygden! Det er saa l&#x00E6;nge, siden du sang for mig, Marja &#x2013; aa gj&#x00F8;r det! Vil du?</p>
+</sp>
+<sp>
+<speaker>Marja</speaker>
+<stage>(sukker og gaar fra hende)</stage>
+<p>Kan sagtens freste. Men det blir saa skralt med Maalet mit naa. <stage>(T&#x00F8;rrer &#x00D8;inene med Forkl&#x00E6;desnippen.)</stage> Det er liksom det ruster bort.</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<p>Aa nei da, Marja. Ingen synger slig som du. Det er ligesom langt, langt bortefra.</p>
+</sp>
+<sp>
+<speaker>Marja</speaker>
+<stage>(ryster paa Hovedet)</stage>
+<p>Aa Gud beres!</p>
+<stage>(S&#x00E6;tter sig; karer og synger stille, stemningsfuldt med uforanderligt Ansigtsudtryk.)</stage>
+<lg>
+<l>Liti Kersti ho var seg so liti eit Viv,</l>
+<l>Bronfolen rinder lett.</l>
+<l>Ho kunne 'kje raade sit unge Liv,</l>
+<l>med' det regner og det bl&#x00E6;s.</l>
+<l>For nordan under Fj&#x00F8;llo</l>
+<l>der leikar det.</l>
+</lg>
+<lg>
+<l><pb n="96"/>Liti Kersti ho var seg so liti ei Brur,</l>
+<l>Bronfolen rinder lett.</l>
+<l>Ho kunne 'kje Nyklam i Laasanne snu,</l>
+<l>med' det regner og det bl&#x00E6;s.</l>
+<l>For nordan under Fj&#x00F8;llo</l>
+<l>der leikar det.</l>
+</lg>
+<lg>
+<l>Liti Kersti ho sat seg i Veven saa fin,</l>
+<l>Bronfolen rinder lett.</l>
+<l>Kvi renne det Mj&#x00F8;lk utor Brystine din',</l>
+<l>med' det regner og det bl&#x00E6;s.</l>
+<l>For nordan under Fj&#x00F8;llo</l>
+<l>der leikar det.</l>
+</lg>
+<lg>
+<l>Aa d' er no ikkje Mj&#x00F8;lk, om det synest so,</l>
+<l>Bronfolen rinder lett.</l>
+<l>Men det er den Mj&#x00F8;den eg drak igaar,</l>
+<l>med' det regner og det bl&#x00E6;s.</l>
+<l>For nordan under Fj&#x00F8;llo</l>
+<l>der leikar det.</l>
+</lg>
+<lg>
+<l>Dei tvo Ting dei er no kvora're olik,</l>
+<l>Bronfolen rinder lett.</l>
+<l>For Mj&#x00F8;den er bron, men Mj&#x00F8;lki er kvit</l>
+<l>med' det regner og det bl&#x00E6;s.</l>
+<l>For nordan under Fj&#x00F8;llo</l>
+<l>der leikar det.</l>
+</lg>
+<lg>
+<l><pb n="97"/>Aa det nyttar ikkje lenger aa dylja for deg;</l>
+<l>Bronfolen rinder lett.</l>
+<l>Bergekongen nord han hev lokka meg,</l>
+<l>med' det regner og det bl&#x00E6;s.</l>
+<l>For nordan under Fj&#x00F8;llo,</l>
+<l>der leikar det.</l>
+</lg>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<stage>(afbryder Marja)</stage>
+<p>Aa nei &#x2026; aa nei, ikke idag alligevel, Marja. <stage>(Brister i Graad.)</stage></p>
+</sp>
+<sp>
+<speaker>Marja</speaker>
+<stage>(stanser forf&#x00E6;rdet; op)</stage>
+<p>Men J&#x00F8;ssenam! Aa nei kj&#x00E6;re, vene, aassen er det med dig? <stage>(Gaar bort og l&#x00E6;gger Haanden paa hendes Skulder og s&#x00F8;ger at faa se hende i &#x00D8;inene.)</stage></p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<stage>(tar pludselig Marjas Haand)</stage>
+<p>Aa ja, Marja, det er det, ser du, at &#x2026; Jeg t&#x00F8;r n&#x00E6;sten ikke si det h&#x00F8;it, ser du, for jeg ved ikke ud og ind l&#x00E6;nger; men hvis jeg bare kunde slippe at gaa derop mer! <stage>(B&#x00F8;ier sig over Marjas Haand og gr&#x00E6;der.)</stage></p>
+</sp>
+<sp>
+<speaker>Marja</speaker>
+<p>Men J&#x00F8;ssenam &#x2026;</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<stage>(bekj&#x00E6;mper sig)</stage>
+<p>Det er saa galt som det kan v&#x00E6;re, Marja; for det er jo lyst i Kirken og alting; men jeg kan ikke &#x2026;</p>
+</sp>
+<sp>
+<speaker><pb n="98"/>Marja</speaker>
+<stage>(st&#x00F8;tter sig mod Bordkanten)</stage>
+<p>Aa kors, aa kors &#x2026;</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<p>Og saa har jeg ingen at snakke med; der er ingen, som kan hj&#x00E6;lpe mig, for de er saa r&#x00E6;dde allesammen. Men nu er det gjort. Og nu er det saa forf&#x00E6;rdeligt at gaa derop igjen &#x2026; Der er nogen i Svalen! Aa lad mig gaa ind i Kammerset, Marja &#x2026; <stage>(Idetsamme aabnes D&#x00F8;ren paa Glytt og Fanny stikker Hovedet ind.)</stage></p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<p>Goddag. Omforladelse, men er dette den rette Veien til Raby?</p>
+</sp>
+<sp>
+<speaker>Marja</speaker>
+<p>Jo-o &#x2013; det er da det &#x2026;</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<stage>(stirrer paa Bertha, som netop har reist sig og har seet sp&#x00E6;ndt mod D&#x00F8;ren med Angst i alle Miner)</stage>
+<p>Aa! Bertha!</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<stage>(mod hende)</stage>
+<p>Fanny!</p>
+</sp>
+<stage>(Fanny kaster sig voldsomt om Berthas Hals og hulker. Bertha gr&#x00E6;der stille.)</stage>
+<sp>
+<speaker>Marja</speaker>
+<p>Aa nei, aa nei! <stage>(T&#x00F8;rrer &#x00D8;inene med Forkl&#x00E6;desnippen.)</stage> Aa nei, aa nei! <stage>(Tr&#x00E6;kker sig bortover mod Kammersd&#x00F8;ren.)</stage> Aa Herregud! <stage>(Gaar sagte ud, uden at de to l&#x00E6;gger M&#x00E6;rke til hende.)</stage></p>
+</sp>
+<sp>
+<speaker><pb n="99"/>Bertha</speaker>
+<stage>(efter nogle Sekunder; sagte med let dirrende Stemme)</stage>
+<p>Men kj&#x00E6;re &#x2013; kommer du nu &#x2013; saa sent <stage>(Fanny bare nikker og gr&#x00E6;der.)</stage> Vi vented dig i Formiddag.</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<p>Ja, men &#x2026;</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<p>Nei kj&#x00E6;re, du maa ikke &#x2026; aa nei, hvor stor du er blit. Hvorfor kommer du saa sent.</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<stage>(pr&#x00F8;ver at stanse sin Graad)</stage>
+<p>Jeg blev ikke &#x2013; f&#x00E6;rdig.</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<p>Har du gaat hele veien?</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<p>Ja.</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<p>Ganske alene?</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<p>Nei &#x2013; Mor fulgte mig &#x2013; til Korsveien; og der blev vi saa l&#x00E6;nge. <stage>(Graater igjen.)</stage></p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<stage>(sky)</stage>
+<p>Mor?</p>
+</sp>
+<sp>
+<speaker><pb n="100"/>Fanny</speaker>
+<stage>(ser paa Bertha)</stage>
+<p>Jeg tror n&#x00E6;sten hun sidder der endda.</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<stage>(snur sig bort)</stage>
+<p>Saa.</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<stage>(pludselig indtr&#x00E6;ngende)</stage>
+<p>Aa, Bertha, bli med til Mor! Jeg &#x2013; &#x2013; jeg &#x2013; &#x2013; aa, jeg kan ikke gaa fra Mor alligevel!</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<stage>(hvisker)</stage>
+<p>Mor! Nei, nei, v&#x00E6;r nu fornuftig! &#x2026; Det vil bare bli vondt, det, ved du. <stage>(Gaar fra hende; nerv&#x00F8;st.)</stage> Imorgen skj&#x00F8;nner du nok det. <stage>(Hen til hende igjen.)</stage> Da skal vi ud og se paa Hestene, ser du, og Fj&#x00F8;set med de fyrretyve fede Kj&#x00F8;rene, og Kalvene, som danser i Bingen, saa du kan spr&#x00E6;kke af Latter! Herregud, du er da ikke noe Pattebarn, vel!</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<p>Aa, men du ved ikke, hvor vondt det er.</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<stage>(med en utaalmodig Bev&#x00E6;gelse; ophidset)</stage>
+<p>Sludder &#x2026; Mor vil det jo selv! du r&#x00F8;mmer jo ikke &#x2026; Mor vilde jo bli fortvilet, kan du vide, hvis du nu kom tilbage; hun har jo mere end <pb n="101"/>nok med sig selv, Mor. Husk paa, en saan stor, lang Pige som du skal ha baade Mad og Kl&#x00E6;r og &#x2026; og det er da vist l&#x00E6;nge til du selv kan skaffe dig noget &#x2026;</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<stage>(spag)</stage>
+<p>Ja, det er det nok.</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<p>Ja, der kan du se. Saa er du bare til Byrde for Mor, da, skj&#x00F8;nner du. Og kommer du til Jomfruen, saa blir du <emph>vel</emph> fors&#x00F8;rget, det kan du bande paa.</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<stage>(tr&#x00E6;kker sig tilbage)</stage>
+<p>Du er saa underlig. <stage>(Ser paa Bertha; i pludseligt Udbrud.)</stage> Aa, hun har v&#x00E6;ret slem imod dig, Bertha!</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<stage>(gaar op og ned)</stage>
+<p>Nei da, hun har aldrig slaat mig, og aldrig har jeg sultet heller.</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<p>Aa nei, men &#x2026;</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<stage>(febrilsk)</stage>
+<p>Og Kl&#x00E6;r har jeg, og de som solide er! &#x2013; Du skulde se Brudekjolen!</p>
+</sp>
+<sp>
+<speaker><pb n="102"/>Fanny</speaker>
+<stage>(n&#x00E6;rmer sig og ser paa hende; bl&#x00F8;dt)</stage>
+<p>Aa ja, t&#x00E6;nk du, som &#x2026;</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<p>Den er af Silke, og saa tyk, at den staar af sig Selv. <stage>(Fanny tr&#x00E6;kker sig st&#x00F8;dt tilbage uden rigtig at forstaa. Bertha forandret; tar Fannys Haand.)</stage> Bry dig ikke om mig, Fanny; jeg er saan jeg, ser du &#x2026; <stage>(sv&#x00E6;lger Graaden)</stage> jeg er blit saan. <stage>(Ligesom undskyldende.)</stage> Jeg har v&#x00E6;ret saa alene &#x2013; helt siden den Dagen &#x2026; den Dagen &#x2013; jeg husker den Dagen, de tog mig fra Mor, jeg, ser du &#x2026; men is&#x00E6;r siden Far d&#x00F8;de, har jeg &#x2026; <stage>(Gr&#x00E6;der stille.)</stage></p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<p>Aa stakkars Bertha!</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<p>Du var saa liden du da. <stage>(Pause.)</stage> Men kj&#x00E6;re, du er da vist tr&#x00E6;t. Kom og s&#x00E6;t dig. <stage>(De s&#x00E6;tter sig. Bertha ser paa Fanny.)</stage> Husker du Far, Fanny?</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<stage>(ivrig)</stage>
+<p>Ja, fra en Gang &#x2013; en Gang, han var hjemme hos Mor og mig.</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<stage>(som holder Fannys Haand)</stage>
+<p>Det er l&#x00E6;nge, l&#x00E6;nge siden!</p>
+</sp>
+<sp>
+<speaker><pb n="103"/>Fanny</speaker>
+<p>Ja, jeg var vist bare fem Aar; men jeg husker det saa godt. Han var kommet reisende og bodde paa Havanders Hotel, og saa kom han hjem &#x2013; aa, saa underlig, som han var, da han hilste paa mig; han kyssed mig ikke; men bare dasked mig paa Kindet og sa jeg var blit stor. Og saa blev jeg sendt ud.</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<p>Saa snakked han med Mor da?</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<p>Ja, l&#x00E6;nge. Og da jeg kom ind igjen, saa &#x2013;</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<p>Saa?</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<p>Saa graat Mor &#x2026; <stage>(snufser)</stage> og saa gik hun ud.</p>
+</sp>
+<stage>(Liden Pause.)</stage>
+<sp>
+<speaker>Bertha</speaker>
+<stage>(stille)</stage>
+<p>Hvad sa Far til dig da?</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<p>Han sa ingenting straks. Han bare str&#x00F8;g mig over Panden og b&#x00F8;ied Hode mit bagover og saa paa mig, og saa sa han: du ligner din Mor, sa han, <stage>(med myg, bristende Stemme)</stage> og da var han saa bedr&#x00F8;vet i &#x00D8;inene, &#x2026; aassaa begyndte jeg at graate &#x2026; <stage>(T&#x00F8;rrer &#x00D8;inene og pudser N&#x00E6;sen. Bertha stryger Fanny over Haaret, mens Taarerne triller nedover hendes Ansigt. Efter en Pause.)</stage> <pb n="104"/>Men saa med engang, saa sa han &#x2013; akkurat saan som du for lidt siden: nei, nei, nei, ikke noe Sludder &#x2013; sa han; og saa spurgte han, hvordan det gik paa Skolen.</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<stage>(om lidt)</stage>
+<p>Og saa?</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<p>Saa gik han saa sv&#x00E6;rt fort.</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<p>Og du traf ham ikke mer.</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<p>Nei, aldrig. Men da han var d&#x00F8;d, da dr&#x00F8;mte jeg saa ofte, at jeg saa ham paa Ligstraa; og altid laa han med den store, sorte Floshatten paa, som han havde dengang jeg saa ham; og saa var &#x00D8;inene aabne og sorte som Kul. <stage>(Stirrer frem for sig.)</stage></p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<stage>(reiser sig)</stage>
+<p>Huf, nei da. <stage>(Gaar taus op og ned.)</stage> Du &#x2026; jeg tror alligevel &#x2026;</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<stage>(ser paa hende)</stage>
+<p>Hvad mener du?</p>
+</sp>
+<sp>
+<speaker><pb n="105"/>Bertha</speaker>
+<p>Jeg tror ikke du passer her alligevel. Jeg tror &#x2026; jeg tror alligevel, du maa tilbage til Mor!</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<stage>(op)</stage>
+<p>Aa ja &#x2026; aa ja, lad mig faa Lov til det!</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<p>Det er saa meget rart her, ser du, og &#x2013; netop i disse Dagene &#x2026; Ingen har jo set dig; du har jo ikke endnu faat L&#x00F8;kken om Halsen, du.</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<stage>(tar &#x00F8;mt omkring hende)</stage>
+<p>Aa, Bertha!</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<p>Saanne Barn som vi, ser du &#x2026; vi h&#x00F8;rer intetsteds hjemme vi!</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<p>Du skulde v&#x00E6;rt hos Mor, du!</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<p>Aa nei da. Der var jo ikke Far, der.</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<p>Aa, hvorfor tror du ikke Mor og Far kunde v&#x00E6;re sammen, Bertha.</p>
+</sp>
+<sp>
+<speaker><pb n="106"/>Bertha</speaker>
+<p>Snak aldrig om det. <stage>(Febrilsk.)</stage> Men den, som gifter sig, naar han ikke elsker slig at han aldrig, aldrig kan skilles, maa d&#x00F8;. Husk paa det &#x2026; men nu skal jeg bede gamle Marja gjemme dig inat; og saa skal du faa sidde paa indover med Melkemanden imorgen, og ingen skal faa vide, du har v&#x00E6;ret her. For Melkemanden er min Ven, han, ser du.</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<p>Naar du bare kunde bli med, Bertha?</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<p>Jeg! Aa nei. Men kanske &#x2013; kanske jeg snart skal bes&#x00F8;ge dig.</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<p>Aa ja, kj&#x00E6;re, gj&#x00F8;r det! Er det sikkert, at du gj&#x00F8;r det? Nu er det saa vondt at gaa fra dig ogsaa, ser du.</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<stage>(halvt bortvendt)</stage>
+<p>Ja det &#x2026; det er ikke morsomt, men &#x2013; du ved, vi sees nok igjen &#x2026; Jeg vilde jo saa gjerne, ser du, men &#x2013; Mor, hun kjender jo ikke mig, og &#x2013; jeg kjender jo ikke hende, jeg heller &#x2026;</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<p>Aa stakkars Mor, hun har l&#x00E6;ngtet saa efter dig, kan du tro. Hun er mere glad i dig end i mig &#x2013; ja sommetider har jeg v&#x00E6;ret rent jaloux.</p>
+</sp>
+<sp>
+<speaker><pb n="107"/>Bertha</speaker>
+<p>Mor? Hm, jeg t&#x00E6;nkte hun var glad, hun var kvit mig, jeg.</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<p>Aa fy, Bertha! Og Mor, som har gr&#x00E6;dt saa meget, fordi du var borte.</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<stage>(ophidset)</stage>
+<p>Men hvorfor tog hun mig ikke med sig, den Gangen jeg var liden da, &#x2013; den Gangen hun var her og vilde se mig. Slig som jeg tigged &#x2026; <stage>(Graaden vil op.)</stage></p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<p>Aa du ved ikke, hvordan vi har havt det, du. Vi havde bare &#x00E9;n Seng, ser du, og mange Gange saa &#x2026; saa var det saa sv&#x00E6;rt vanskeligt, ser du; for Far sendte os ingenting, og Mor var saa syg. &#x2013; Du maa ikke tro det om Mor, Bertha!</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<p>Da Mor var reist den Gangen, vilde jeg kaste mig i Dammen. Jeg var rasende af Sorg. Aldrig, aldrig kan jeg glemme det. Og da de andre sa, at Mor var kold og &#x2013; meget andet ogsaa, &#x2013; saa trodde jeg det &#x2013; Hys der er nogen udenfor, kom! <stage>(Tar Fannys Haand.)</stage> Ingen maa se dig. Vi gaar ind i <pb n="108"/>Kj&#x00F8;kkenet til Marja; du kan tr&#x00E6;nge lidt Mad ogsaa. <stage>(Hurtig ud til Venstre med Fanny.)</stage></p>
+</sp>
+<stage>(Scenen staar tom nogle &#x00D8;ieblikke. Der bankes en og to Gange, saa aabnes D&#x00F8;ren og Nils-Petter kommer ind. Han er jagtkl&#x00E6;dt. Kraftig, staut Skikkelse. M&#x00F8;rkt Haar og Skj&#x00E6;g.)</stage>
+<sp>
+<speaker>Bertha</speaker>
+<stage>(ser ind fra Venstre. Saa hurtig frem og lukker D&#x00F8;ren efter sig)</stage>
+<p>Aa Gudskelov! Jeg har ventet saa! <stage>(Mod ham.)</stage> Nu er det gjort. Jeg er fri! <stage>(Da han ikke straks svarer.)</stage> Jeg er <emph>fri</emph>, forstaar du!</p>
+</sp>
+<sp>
+<speaker>Nils-Petter</speaker>
+<p>Men har du virkelig &#x2026;</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<stage>(jublende)</stage>
+<p>Endelig! Tror du jeg er r&#x00E6;d! Ikke for noget i Verden, ikke for noget, naar jeg bare er hos dig! Nu vil vi glemme alting, glemme, glemme; for det <emph>kan</emph> vi, naar vi <emph>vil</emph>! &#x2013; Men hvorfor &#x2026; Du ser jo n&#x00E6;sten forskr&#x00E6;kket ud? Forstaar du mig ikke? Jeg har skrevet til Alf, skj&#x00F8;nner du, at jeg aldrig kan gifte mig med ham, at de heller skal faa ta mit Liv! Forstaar du mig ikke, Nils-Petter? <stage>(Ser r&#x00E6;d paa ham.)</stage></p>
+</sp>
+<sp>
+<speaker>Nils-Petter</speaker>
+<p>Jo, &#x2013; jo, men &#x2026;</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<p>Der er ikke noe men, da, skj&#x00F8;nner du! Det er bare dig i hele Verden! Hj&#x00E6;lp mig da, Nils-Petter! <pb n="109"/>Lad os glemme! <stage>(Voldsomt ind til ham.)</stage> Jeg er din! &#x2026; Aa tag mig med dig langt, langt bort!</p>
+</sp>
+<sp>
+<speaker>Nils-Petter</speaker>
+<stage>(tar fast omkring hende)</stage>
+<p>Aa ja, naar vi bare kunde storme over Pr&#x00E6;rierne sammen!</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<p>Det skal vi! Der er ingen Hindring i Verden for dig, naar du vil. Tag mig, gjem mig hos dig; du er saa sterk!</p>
+</sp>
+<sp>
+<speaker>Nils-Petter</speaker>
+<p>Det er en, som er sterkere, og hun &#x2026;</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<stage>(fra ham)</stage>
+<p>Hun? Tror du vi sp&#x00F8;r! Jeg kjender dig ikke igjen!</p>
+</sp>
+<sp>
+<speaker>Nils-Petter</speaker>
+<p>Nei, nei; men du ved &#x2026;</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<p>Du store Gud, er det ikke du, som har sagt, at <emph>bare</emph>, <emph>bare</emph> jeg var fri, saa skulde du ta mig paa Armene dine og slaa dig frem, om saa tusen Dj&#x00E6;vle stod iveien!</p>
+</sp>
+<sp>
+<speaker><pb n="110"/>Nils-Petter</speaker>
+<p>Det skal jeg ogsaa &#x2013; det vil jeg ogsaa; men jeg mener bare, der maa t&#x00E6;nkes paa Udvei, paa Raad. <stage>(Famlende.)</stage> Men &#x2013; naar du staar fast &#x2013; naar du vil vente &#x2026;</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<p><emph>Maa</emph> jeg vente?</p>
+</sp>
+<sp>
+<speaker>Nils-Petter</speaker>
+<p>Ja.</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<p>Saa skal jeg det. Jeg skal lukke &#x00D8;ine og &#x00D8;ren og lade mig sparke paa og spytte paa, la mig slaa! Hvad gj&#x00F8;r det altsammen! Nu reiser jeg snart til Blaaland. <stage>(Slaar Armene om hans Hals. Han l&#x00F8;fter hende op til sig og kysser hende. Bertha glider sagte ud fra ham; ser ham ind i &#x00D8;inene.)</stage></p>
+</sp>
+<sp>
+<speaker>Nils-Petter</speaker>
+<stage>(tar hende atter heftig ind til sig)</stage>
+<p>Kom!</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<stage>(varm og vild)</stage>
+<p>Storme over Pr&#x00E6;rierne sammen! Ikke se os tilbage! Glemme!</p>
+</sp>
+<sp>
+<speaker>Nils-Petter</speaker>
+<p>Kom! Det er m&#x00F8;rkt alt! Ingen ser os her i Skogen!</p>
+</sp>
+<sp>
+<speaker><pb n="111"/>Bertha</speaker>
+<stage>(hvisker)</stage>
+<p>Vent derude!</p>
+</sp>
+<sp>
+<speaker>Nils-Petter</speaker>
+<p>Som du vil.</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<stage>(folder H&#x00E6;nderne fast og r&#x00E6;kker dem op i Fryd)</stage>
+<p>Din!</p>
+</sp>
+<sp>
+<speaker>Nils-Petter</speaker>
+<stage>(hviskende)</stage>
+<p>Snart! <stage>(Kysser hende igjen nede ved D&#x00F8;ren og gaar.)</stage></p>
+<stage>(Bertha staar et &#x00D8;ieblik ganske stille; gaar derpaa sagte med b&#x00F8;iet Hoved ud til Venstre. Lidt efter kommer hun tilbage med)</stage>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<stage>(som siger i D&#x00F8;ren)</stage>
+<p>Ja, er det for m&#x00F8;rkt at gaa da, tror du?</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<p>Ja, du maa bli. Marja steller saa godt med dig, skal du se. Men nu maa jeg afsted.</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<p>Aa nei, ikke endda!</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<p>Men Stol paa det, jeg loved. <stage>(Med straalende &#x00D8;ine.)</stage> Jeg kommer du; jeg kommer!</p>
+</sp>
+<sp>
+<speaker><pb n="112"/>Fanny</speaker>
+<p>Nu er du saa rar igjen. <stage>(Hurtig.)</stage> Var det Bud efter dig? Marja sa det var en fra Gaarden, som ikke maatte se mig.</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<p>Ja, det var Bud efter mig, og derfor maa jeg gaa fra dig. Farvel da, du rare Fanny! <stage>(Kysser hende.)</stage> Farvel da &#x2013; saal&#x00E6;nge!</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<stage>(halvt forn&#x00E6;rmet og halvt bedr&#x00F8;vet)</stage>
+<p>Du ser saa glad ud &#x2013; nu da vi skal skilles igjen.</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<stage>(tar omkring hende)</stage>
+<p>Aa, det er ikke derfor; men jeg er glad, fordi &#x2026; fordi at nu kan jeg snart komme, ser du. Aa, du rare, kj&#x00E6;re Fanny, jeg er saa glad, fordi jeg har set dig! Paa Gjensyn &#x2013; <emph>snart</emph> du. <stage>(Omfavner hende.)</stage></p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<stage>(med Besv&#x00E6;r; sv&#x00E6;lger Graaden)</stage>
+<p>Farvel. Men &#x2026; men kan jeg ikke f&#x00F8;lge dig &#x2013; bare et lidet Stykke.</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<p>Nei, nei &#x2026; ikke ud af D&#x00F8;ren maa du. T&#x00E6;nk om Jomfruen fik vide, at du var her. Farvel igjen. Marja er snil, hun vil nok stelle godt for dig.</p>
+</sp>
+<sp>
+<speaker><pb n="113"/>Fanny</speaker>
+<stage>(nikker, t&#x00F8;rrer Taarer fort v&#x00E6;k)</stage>
+<p>Kom snart!</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<stage>(kysser paa Fingrene, idet hun gaar)</stage>
+<p>Snart. Stol paa det. <stage>(Gaar.)</stage></p>
+</sp>
+<stage>(Fanny staar igjen smaasnufsende og raadl&#x00F8;s. Ser sig om; gr&#x00E6;de igjen stille.)</stage>
+<sp>
+<speaker>Marja</speaker>
+<stage>(kommer)</stage>
+<p>Naa skal jeg komme med nogle Vafler og lidt Lefse. Men det sp&#x00F8;rs, om du kan spise Lefse, du, som er fra Byen?</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<p>Jo tak, men &#x2026;</p>
+</sp>
+<sp>
+<speaker>Marja</speaker>
+<stage>(hen til hende)</stage>
+<p>Nei, naa maa du ikke graate lel! Du maa ikke &#x2026; Du faar snart se Bertha igjen, skal du se.</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<stage>(forlegen)</stage>
+<p>Ja, men &#x2026; men t&#x00E6;nk jeg tror n&#x00E6;sten ikke jeg kan bli her alligevel &#x2026;</p>
+</sp>
+<sp>
+<speaker>Marja</speaker>
+<p>J&#x00F8;ss, du vil vel ikke ud naa m&#x00F8;rke H&#x00F8;stkv&#x00E6;lden alene.</p>
+</sp>
+<sp>
+<speaker><pb n="114"/>Fanny</speaker>
+<p>Det er ikke rigtig m&#x00F8;rkt endda ude, og saa er det det, at &#x2026; det var en Dame, som fulgte mig lige til Korsveien hernede. Og der vilde hun sidde og hvile en god Stund, for hun var saa tr&#x00E6;t &#x2026;</p>
+</sp>
+<sp>
+<speaker>Marja</speaker>
+<p>Aa, men du kan t&#x00E6;nke hu sitter ikke der naa &#x2026;</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<p>Jo kanske hun gj&#x00F8;r det. For kanske hun ikke orker &#x2026; Det er en lidt &#x00E6;ldre Dame, som &#x2026;</p>
+</sp>
+<sp>
+<speaker>Marja</speaker>
+<stage>(ser paa hende)</stage>
+<p>Aa, saa &#x2026;</p>
+</sp>
+<sp>
+<speaker>Fanny</speaker>
+<p>Ja, og derfor saa &#x2026;</p>
+</sp>
+<stage>(Det banker.)</stage>
+<sp>
+<speaker>Marja</speaker>
+<p>Hys, der er nogen &#x2013; gaa ud i Kammerset du saal&#x00E6;nge; kan h&#x00E6;nde det er nogen fra Gaarden &#x2026; <stage>(Fanny hurtig ud til Venstre. Marja gaar til D&#x00F8;ren og lukker op.)</stage> Hvem er det? <stage>(Viger tilbage for)</stage></p>
+</sp>
+<sp>
+<speaker><pb n="115"/>Fru Hald</speaker>
+<stage>(som staar i D&#x00F8;ren, sortkl&#x00E6;dt, bleg og tr&#x00E6;t. Hun er omkring 50 Aar, endnu smuk)</stage>
+<p>Undskyld!</p>
+</sp>
+<sp>
+<speaker>Marja</speaker>
+<stage>(ser paa hende og folder uvilkaarlig H&#x00E6;nderne; usikker)</stage>
+<p>V&#x00E6;rsaagod. Er det &#x2013; Langfarendes!</p>
+</sp>
+<sp>
+<speaker>Fru Hald</speaker>
+<stage>(ind; ser sig om)</stage>
+<p>Det var bare &#x2026; jeg vilde bare bede, om jeg maatte faa hvile lidt hos Dem; jeg har gaat saa langt &#x2026; jeg blev saa tr&#x00E6;t &#x2026;</p>
+</sp>
+<sp>
+<speaker>Marja</speaker>
+<stage>(s&#x00E6;tter frem en Stol)</stage>
+<p>Aa, ja men &#x2026; v&#x00E6;rsaagod &#x2026; Landeveien tar paa &#x2013; helst naar en er lite vant med aa gaa &#x2026; Frua er vel fra Byen, og der gaar ikke Folk saa mye.</p>
+</sp>
+<sp>
+<speaker>Fru Hald</speaker>
+<p>Aa nei. Tak. Sig mig, her har vel ikke nylig v&#x00E6;ret en liden Pige, som spurgte efter Veien til Raby? <stage>(Ser sp&#x00E6;ndt paa hende.)</stage></p>
+</sp>
+<sp>
+<speaker>Marja</speaker>
+<stage>(tr&#x00E6;der uvilkaarlig et Skridt tilbage og stirrer paa Fru Hald)</stage>
+<p>Jo-o &#x2026; jo &#x2026; Aa nei &#x2026; aa nei, var det ikke det jeg syntes &#x2026; <stage>(skj&#x00E6;lvende)</stage> er det ikke Frua til Prokurator'n! Aa, Herregud!</p>
+</sp>
+<sp>
+<speaker><pb n="116"/>Fru Hald</speaker>
+<stage>(sagte)</stage>
+<p>Kjender De mig?</p>
+</sp>
+<sp>
+<speaker>Marja</speaker>
+<p>Ja, jeg har set Frua en Gang f&#x00F8;r, jeg. Det var engang De var paa Raby, mens Bertha var lita &#x2026; <stage>(T&#x00F8;rrer &#x00D8;inene.)</stage></p>
+</sp>
+<sp>
+<speaker>Fru Hald</speaker>
+<p>Dengang. Det er l&#x00E6;nge siden, det. Og man blir saa tr&#x00E6;t af at t&#x00E6;nke tilbage. <stage>(Stryger sig over Panden.)</stage> Er hun gaat?</p>
+</sp>
+<sp>
+<speaker>Marja</speaker>
+<stage>(staar og rugger)</stage>
+<p>Aa, ja, ja, det er l&#x00E6;nge siden, det.</p>
+</sp>
+<sp>
+<speaker>Fru Hald</speaker>
+<stage>(reiser sig, angst og ivrig)</stage>
+<p>Er hun gaat? Er Fanny gaat derop? <stage>(St&#x00F8;tter sig til Stolryggen.)</stage></p>
+</sp>
+<sp>
+<speaker>Marja</speaker>
+<p>Aa nei, kj&#x00E6;re Dere Frue &#x2026; nei, hu er nok her &#x2026; men kj&#x00E6;re Dere. De er nok ikke bra, De &#x2026; Jo, naa skal De nok faa F&#x00F8;lge til Byen; for hu har snakka med Bertha, ser De &#x2026; Aa kj&#x00E6;re bli naa her og kvil Dere til Maarradagen &#x2026; <stage>(L&#x00E6;gger Haanden paa Fru Halds Skulder og faar hende til at s&#x00E6;tte sig igjen.)</stage></p>
+</sp>
+<sp>
+<speaker><pb n="117"/>Fanny</speaker>
+<stage>(kommer)</stage>
+<p>Mor! <stage>(Springer hen til hende, kaster sig ned med Hovedet i hendes Fang.)</stage> Mor, jeg kommer igjen! Jeg h&#x00F8;rte Stemmen din! Og Bertha kommer ogsaa snart!</p>
+</sp>
+<sp>
+<speaker>Fru Hald</speaker>
+<stage>(griber nerv&#x00F8;st fast om Fannys Hoved. B&#x00F8;ier sig ned over hende)</stage>
+<p>Gud v&#x00E6;re lovet!</p>
+</sp>
+</div>
+<div type="chapter" subtype="act" n="4">
+<head type="main">Fjerde Akt</head>
+<stage>Eftermiddag n&#x00E6;ste Dag. Stor, lys Dagligstue paa Raby. I Forgrunden til Venstre Sofa med Kaffebord foran. Paa h&#x00F8;ire V&#x00E6;g to Vinduer; mellem disse taffelformigt Piano. Over Pianoet h&#x00E6;nger Portr&#x00E6;tet af en smuk middelaldrende Mand med Fadermordere og sort Halsbind. I venstre Hj&#x00F8;rne bred Jernovn; i h&#x00F8;ire Hj&#x00F8;rne Blomstertrappe. D&#x00F8;re paa begge Sidev&#x00E6;gge og i Baggrunden.</stage>
+<stage>Ved Bordet sidder Jomfruen og Henriksen og spiller Kort. De har hver sit dampende Toddyglas foran sig.</stage>
+<sp>
+<speaker>Jomfruen</speaker>
+<p>Spil ud! Du er distrait.</p>
+</sp>
+<sp>
+<speaker>Henriksen</speaker>
+<stage>(med et lidet Buk)</stage>
+<p>Du behersker Situationen som altid.</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<stage>(stikker)</stage>
+<p>Det skal der ikke meget til for det meste. Det er forresten to Ting i Verden, jeg liker. <stage>(L&#x00E6;ner sig tilbage et &#x00D8;ieblik; retter sig atter op.)</stage> Stik den!</p>
+</sp>
+<sp>
+<speaker><pb n="119"/>Henriksen</speaker>
+<p>T&#x00F8;r man vide?</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<stage>(opr&#x00F8;mt)</stage>
+<p>F&#x00F8;le sig alm&#x00E6;gtig. Overlegen dygtig. Se Menneskene visne under sin Kraft &#x2013; <stage>(ler)</stage> slik som du idag paa Hesteryggen deroppe i Skogen! Huh, saa bleg som du var i Graalysningen, da du sad der og dinglet i Sadlen &#x2026; <stage>(De spiller.)</stage></p>
+</sp>
+<sp>
+<speaker>Henriksen</speaker>
+<stage>(afbrydende)</stage>
+<p>Det andet?</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<p>Hvilket andet?</p>
+</sp>
+<sp>
+<speaker>Henriksen</speaker>
+<p>Der var to Ting i Verden, som &#x2026;</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<stage>(smiler)</stage>
+<p>Hm. Det andet? Det er forresten det f&#x00F8;rste.</p>
+</sp>
+<sp>
+<speaker>Henriksen</speaker>
+<p>Og dette f&#x00F8;rste &#x2026;</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<p>Det er at f&#x00F8;le Mandsvilje over sig, du! F&#x00F8;le sig afm&#x00E6;gtig. <stage>(L&#x00E6;ner sig atter tilbage og lukker &#x00D8;inene et &#x00D8;ieblik.)</stage></p>
+</sp>
+<sp>
+<speaker><pb n="120"/>Henriksen</speaker>
+<stage>(med et fint Smil)</stage>
+<p>Nu er det nok du, som er distrait.</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<stage>(retter sig; drikker)</stage>
+<p>Man maa jo sovne ved sligt Spil! Nei, i Kortene er og blir du en Stakkar.</p>
+</sp>
+<sp>
+<speaker>Henriksen</speaker>
+<stage>(drikker)</stage>
+<p>Ja, du har nok v&#x00E6;ret vant til andre Makkere du. Prokurator Hald var ber&#x00F8;mt, han. <stage>(Hed.)</stage> En allerhelvedes Kar, baade i Kortene og i Toddyglasset.</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<p>Aa, i Toddyglasset gir du ham vist intet efter. <stage>(Kaster et Kort paa Bordet.)</stage> V&#x00E6;rs'aagod! <stage>(Hensynsl&#x00F8;s.)</stage> Men ellers er der ikke nogen Lighed mellem dere, det er sandt. Min nuv&#x00E6;rende juridiske Konsulent fortar sig ikke.</p>
+</sp>
+<sp>
+<speaker>Henriksen</speaker>
+<stage>(smiler, drikker)</stage>
+<p>Tak!</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<stage>(mens de spiller)</stage>
+<p>Der er en Ting i Verden, jeg ikke kan begribe, og det er Dovenskab. Jeg synes der skal &#x2013; naa, naa, spil ud &#x2013; <emph>meget</emph> Arbeide til, jeg, for at greie det &#x2026;</p>
+</sp>
+<sp>
+<speaker><pb n="121"/>Henriksen</speaker>
+<p>Greie, hvad?</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<p>Livet, Livet! Dette seige Livet. Og saa gaar Folk bare der og spekulerer paa, hvordan de skal faa lure sig unna alt, som der skal lidt Vilje til.</p>
+</sp>
+<sp>
+<speaker>Henriksen</speaker>
+<p>Tja. Menneskene er ikke som de skulde v&#x00E6;re.</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<p>Er der en, som sidder med et Par gode Kort paa Haanden, saa skynder han sig at bli dem kvit. Det er saa anstrengende at spille med store Kort. S&#x00E6;t at man vandt! Saa blev der ikke Tid til at sove. Huh!</p>
+</sp>
+<sp>
+<speaker>Henriksen</speaker>
+<p>Hids dig ikke op. Der er mange Maader at slaa Livet ihjel paa, grande Mademoiselle!</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<p>Men der skal da leves, for Pokker! Og det forstod Hald. Han sov ikke Livet bort, han. Hver Dag havde han nye Tanker og Planer, hver Dag en ny Maade at stormleve Livet paa &#x2026; Og ingen har jeg kjendt, som vidste mer, og som alligevel saa ofte sa: jeg ved ikke!</p>
+</sp>
+<sp>
+<speaker><pb n="122"/>Henriksen</speaker>
+<p>Tror gjerne det. Men arbeided han saa meget, du?</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<p>Nei, men det gjorde jeg. Han gjorde mig sterk og klok. Men alle dere andre, dere suger Kr&#x00E6;fterne ud af mig igjen! Dig kan man gi H&#x00E6;nderne fulde; du gidder ikke lukke dem igjen og holde fast paa det. Du gaar der og drikker dig s&#x00F8;vnig og snakker i Gaader. <stage>(De spiller hidsig)</stage> En Mand, vi begge kjendte, sa engang: En dannet Mand drikker til han vaagner, Barbaren til han sovner. Men dere dannede Mandfolk nu for Tiden, dere kan ikke engang drikke.</p>
+</sp>
+<sp>
+<speaker>Henriksen</speaker>
+<p>H&#x00E6;! Vi dannede Mandfolk! <stage>(Mod hende.)</stage> Du og jeg, Alvilda, vi ved, at vi dannede Mandfolk, vi drikker og lyver og bedrager og bedriver Hor akkurat som de andre &#x2013; som Barbaren. Men vi spytter ikke paa Gulvet, og det er sgu Hovedsagen!</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<p>Nei, gaa og l&#x00E6;g dig; du ser jo ikke Forskjel paa sort og r&#x00F8;dt l&#x00E6;nger!</p>
+</sp>
+<sp>
+<speaker>Henriksen</speaker>
+<stage>(smiler)</stage>
+<p>Hm. Er Tiden kommet?</p>
+</sp>
+<sp>
+<speaker><pb n="123"/>Jomfruen</speaker>
+<stage>(utaalmodig)</stage>
+<p>Hvad mener du?</p>
+</sp>
+<sp>
+<speaker>Henriksen</speaker>
+<stage>(drikker sterkt)</stage>
+<p>Jeg er dig ikke anstrengende nok l&#x00E6;nger. Din Hjerne tr&#x00E6;nger nye Problemer. Nye Stimulanser. Stakkars dig! Den dybe Religi&#x00F8;sitet forslaar heller ikke! Det er trist.</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<stage>(kaster Kortene)</stage>
+<p>Nu t&#x00E6;nker jeg vi slutter. Du har vist faat nok.</p>
+</sp>
+<sp>
+<speaker>Henriksen</speaker>
+<p>Du minder mig om en skj&#x00F8;n Kvinde fra de glade Hoffers Tid.</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<stage>(samler Kortene)</stage>
+<p>Vr&#x00F8;vl! Se at komme i Seng!</p>
+</sp>
+<sp>
+<speaker>Henriksen</speaker>
+<p>Hun var saa Gud hengiven, at hun leiede en Celle i et Kloster for uforstyrret at kunne forrette sin Andagt. I dagevis laa den fromme paa sine skj&#x00F8;nne, hvide Kn&#x00E6; paa det haarde Stengulv og bad. Og hendes Godgj&#x00F8;renhed vokste, men mest imod <emph>M&#x00E6;nd</emph>! Og saa vidt strakte den sig tilslut &#x2013; ja du, saa vidt, at hun &#x2013; ha, ha, ha &#x2013; <emph>r&#x00F8;mte med sin Stalddreng!</emph></p>
+</sp>
+<sp>
+<speaker><pb n="124"/>Jomfruen</speaker>
+<stage>(reiser sig)</stage>
+<p>Du er drukken. <stage>(Vil gaa.)</stage></p>
+</sp>
+<sp>
+<speaker>Henriksen</speaker>
+<p>Nei, vent nu lidt &#x2026; vent nu lidt. Lad os snakkes ved. Imorgen er jeg kan h&#x00E6;nde ikke l&#x00E6;nger i disse hellige Haller.</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<stage>(haanlig)</stage>
+<p>Saa&#x2013;aa.</p>
+</sp>
+<sp>
+<speaker>Henriksen</speaker>
+<stage>(reiser sig, slaar Haanden haardt i Bordet og b&#x00F8;ier sig over mod hende)</stage>
+<p>Hvorfor lod du mig ikke i Fred? Hvorfor grov du mig op af den Grav, jeg lykkelig og vel havde fundet mig?</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<stage>(bleg)</stage>
+<p>Er det Takken?</p>
+</sp>
+<sp>
+<speaker>Henriksen</speaker>
+<p>Du snakker om Tak! Ja, Bluf&#x00E6;rdighed har aldrig v&#x00E6;ret din sterke Side. Er det, fordi du fik sparket mig ud af Onkels Hus, dengang jeg var ung og dum, at du vil jeg skal takke dig? Fordi du spilled og drak og elsked dig til den Formue, som ellers var blit min, og som du nu har den Elskelighed at &#x00F8;ve Godgj&#x00F8;renhed med, ogsaa mod mig? Er det, <pb n="125"/>fordi du forf&#x00F8;rte mig og gjorde mig til en Drukkenbolt, du vil jeg skal takke dig? Ja, for det var <emph>du</emph> &#x2013; <emph>du</emph> altsammen!</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<stage>(griber om Stolryggen)</stage>
+<p>Dersom du ikke var drukken og gal, saa skulde jeg kanske svare dig. Der var vist blit meget igjen af den Formue, du havde faat mellem H&#x00E6;nderne &#x2026; Gaa og sov dig &#x00E6;dru, saa tr&#x00E6;ffes vi.</p>
+</sp>
+<sp>
+<speaker>Henriksen</speaker>
+<p>Ja, jeg skal gaa &#x2013; og overlade Pladsen til Stalddrengen!</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<p>Hvad vover du? Du, som jeg har trukket op af den dybeste Fornedrelse &#x2026;</p>
+</sp>
+<sp>
+<speaker>Henriksen</speaker>
+<stage>(ler)</stage>
+<p>Det begyndte at tyndes i R&#x00E6;kkerne. Da var jeg god nok. Et v&#x00E6;rdigt Objekt for kristelige Barmhjertighedsgjerninger, hvad? Man &#x00E6;ldes og Samvittigheden blir skral af og til. Og jeg, din allerv&#x00E6;rdigste Arving, jeg kom. Ja sandelig, du er stor! Har du set n&#x00F8;ie paa saan en tyk, graa Edderkop, som lurer og spinder og spinder? Bare en eneste stor, bred, graadig Mund &#x2026;</p>
+</sp>
+<sp>
+<speaker><pb n="126"/>Jomfruen</speaker>
+<p>Gaar du, eller vil du jeg skal ringe og la dig jage som en Hund af Gaarden? <stage>(Gaar i Opr&#x00F8;r mod Baggrunden og vil tr&#x00E6;kke i Klokkestrengen.)</stage></p>
+</sp>
+<sp>
+<speaker>Henriksen</speaker>
+<p>Saa sagte, saa sagte Madame! Jeg t&#x00E6;nker ikke det er v&#x00E6;rdt, at der ringes for meget med Klokker her i Huset! Rul alle Gardiner ned og sluk alle Lys; det tjener dig bedst &#x2013; Vampyr! <stage>(Hurtig ud til H&#x00F8;ire.)</stage></p>
+</sp>
+<stage>(Jomfruen ringer, tar et Par Skridt ind i V&#x00E6;relset igjen med H&#x00E6;nderne krampagtig knyttet. Maren kommer.)</stage>
+<sp>
+<speaker>Jomfruen</speaker>
+<stage>(uden at se paa hende)</stage>
+<p>Lad Gutten sp&#x00E6;nde for! &#x2013; Kariolen! Og meld til Kandidaten, naar han er f&#x00E6;rdig. Men straks, straks! Og saa ryd her &#x2013; ryd af Bordet <stage>(Hurtig ud til Venstre.)</stage></p>
+</sp>
+<sp>
+<speaker>Maren</speaker>
+<stage>(ser efter hende)</stage>
+<p>Aa, haa! er det slig fat naa igjen!</p>
+<stage>(Samler Kortene sammen og l&#x00E6;gger dem paa Sekret&#x00E6;ren. Tar Glassene paa Br&#x00E6;ttet og gaar samme Vei som Jomfruen.)</stage>
+</sp>
+<stage>(Bertha kommer fra H&#x00F8;ire, gaar listende over Rummet og lytter ved D&#x00F8;ren til Venstre. Derpaa urolig op og ned; stanser foran Halds Portr&#x00E6;t, folder H&#x00E6;nderne og s&#x00E6;tter sig derpaa hulkende paa Pianostolen med Hovedet hvilende paa Pianoet. Det banker paa D&#x00F8;ren i Baggrunden.)</stage>
+<sp>
+<speaker>Bertha</speaker>
+<stage>(op, tr&#x00E6;kker sig &#x00E6;ngstelig over mod Venstre)</stage>
+<p>Kom ind!</p>
+</sp>
+<sp>
+<speaker><pb n="127"/>Tora</speaker>
+<stage>(i Spadserdragt, buser frem mod Bertha uden at hilse)</stage>
+<p>Det er godt &#x2013; det er dig jeg leder efter. Er du gaat fra Forstanden, du? Er du blit gal, sp&#x00F8;r jeg dig? <emph>Ved</emph> du, hvad du har gjort &#x2026;</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<stage>(rolig og fast)</stage>
+<p>Ja.</p>
+</sp>
+<sp>
+<speaker>Tora</speaker>
+<p>Nei, du kan ikke vide, hvad du har gjort &#x2013; det er alt, alt for skammeligt! Ved du, at du har myrdet Alf! <stage>(Bertha smiler.)</stage> To Gange er han faldt i Besvimelse; &#x2013; og Mor; &#x2013; og Skandalen, da! Det er jo lyst i Kirken! Fins der ikke Skam i dig? Aa, fy! <stage>(Gr&#x00E6;der i Sinne.)</stage></p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<p>Er du f&#x00E6;rdig? Hvis ikke, saa v&#x00E6;r saa god &#x2013;</p>
+</sp>
+<sp>
+<speaker>Tora</speaker>
+<p>Jeg sp&#x00F8;r dig, om du er blit forhekset? Tante kan ikke vide noget om dette &#x2026; Nu ber jeg dig, at du straks paa Flekken blir med ind til Byen og ber Alf og Mor Omforladelse, saa skal vi la Naade gaa for Ret, sa Mor, og ingen skal faa vide noget, skj&#x00F8;nt du havde fortjent, at &#x2026; for nu er du forhaabentlig kommet til Besindelse &#x2026;</p>
+</sp>
+<sp>
+<speaker><pb n="128"/>Bertha</speaker>
+<p>Du skal slet ikke anstrenge dig; min Beslutning staar fast. Jeg sa jo Alf, <emph>hvorfor</emph> jeg ikke kunde. Det er vel ikke ham, som har sendt dig? Saa megen &#x00C6;resf&#x00F8;lelse har han vel i Livet.</p>
+</sp>
+<sp>
+<speaker>Tora</speaker>
+<p>Nei, dette er Topmaalet af Uforskammethed! Jo, der kan man se, hvad vi har igjen, fordi vi blanded os oppi slig en fin Familie! Din Far og Mor sloges jo! Tror du ikke vi kjender hele Herligheden? Og din Far forf&#x00F8;rte Pigerne her paa Gaarden, saa Tante holdt paa at maatte jage ham; &#x2013; jo &#x2013; nu ser vi, at du er samme Slags!</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<stage>(griber krampagtig om Stolryggen, bleg)</stage>
+<p>Er du nu f&#x00E6;rdig?</p>
+</sp>
+<sp>
+<speaker>Tora</speaker>
+<p>Ja, jeg skal vist ikke nedv&#x00E6;rdige mig til at tigge dig &#x2013; Alf er sandelig for god til at tigge dig! Hvor er Tante? <stage>(Slaar D&#x00F8;ren til Venstre heftig op og farer ud.)</stage></p>
+</sp>
+<stage>(Bertha kaster sig ned i Stolen i voldsom Graad. Nils-Petter kommer fra Baggrunden og vil over mod Venstre.)</stage>
+<sp>
+<speaker>Bertha</speaker>
+<stage>(op, tar sig sammen; mod ham)</stage>
+<p>Er det dig? Aa hvor forf&#x00E6;rdeligt dette blir du! <stage>(L&#x00E6;ner sig mod hans Skulder og gr&#x00E6;der igjen.)</stage> Tora har v&#x00E6;ret <pb n="129"/>her. Det var det f&#x00F8;rste. <stage>(Ser op paa ham.)</stage> Men jeg stod fast, Nils-Petter! Det var bare saa stygt, saa stygt &#x2026;</p>
+</sp>
+<sp>
+<speaker>Nils-Petter</speaker>
+<p>Hys!</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<p>Aa, men jeg er saa lykkelig, du! Saa glad, saa glad! Det er som jeg er vaagnet af en f&#x00E6;l, f&#x00E6;l Dr&#x00F8;m! Som jeg var lukket inde i en m&#x00F8;rk Kj&#x00E6;lder, og D&#x00F8;ren holdt paa at st&#x00E6;nges for altid, saa jeg aldrig mer skulde leve og bli glad! Du ved ikke, hvor forf&#x00E6;rdeligt det var, Nils-Petter. Men nu er jeg sluppet ud alligevel, er det ikke vidunderligt. <stage>(Klynger sig til ham.)</stage></p>
+</sp>
+<sp>
+<speaker>Nils-Petter</speaker>
+<p>Jo, jo. Vist er det saa.</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<p>Alt det vonde blir saa smaat. Jeg t&#x00F8;r alt! Midt op i &#x00D8;inene paa dem allesammen skal jeg si, at jeg elsker dig! <stage>(Gjemmer sit Ansigt hos ham.)</stage></p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<stage>(i Slobrok og T&#x00F8;fler, kommer lydl&#x00F8;st fra Venstre)</stage>
+<p>Saa, det gj&#x00F8;r du!</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<stage>(skriger og holder for &#x00D8;inene)</stage>
+<p>Hj&#x00E6;lp mig, Nils-Petter!</p>
+</sp>
+<sp>
+<speaker><pb n="130"/>Jomfruen</speaker>
+<stage>(v&#x00E6;rdig til Bertha)</stage>
+<p>Gaa ind paa dit V&#x00E6;relse. <stage>(Bertha gaar til H&#x00F8;ire. Til Nils-Petter, som har lagt H&#x00E6;nderne paa Ryggen og pr&#x00F8;ver at se ligeglad ud.)</stage> Nu, H&#x00F8;ist&#x00E6;rede?</p>
+</sp>
+<sp>
+<speaker>Nils-Petter</speaker>
+<p>Tja, jeg kan virkelig ikke gj&#x00F8;re noget ved det. Det er ikke min Skyld; du saa jo selv &#x2026;</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<p>Ti stille. Feig er du, som alle Mandfolk!</p>
+</sp>
+<sp>
+<speaker>Nils-Petter</speaker>
+<stage>(med Trods)</stage>
+<p>Tro hvad du vil &#x2026;</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<stage>(s&#x00E6;tter sig)</stage>
+<p>Ti, siger jeg! S&#x00E6;t dig, R&#x00E6;dhare! <stage>(Han blir staaende.)</stage>, Jeg vil ingen Scener ha. Jeg skal snakke rent ud &#x2013; i al Ro! Lad os se hverandre i &#x00D8;inene! Vi to beh&#x00F8;ver jo ikke at genere os for hinanden. <stage>(Nils-Petter tr&#x00E6;kker paa Skuldrene.)</stage> Dette med Bertha og dig, det kom mig ganske tilpas. Du ser paa mig. Det kom mig ganske tilpas, siger jeg. Der sladres endel, og det har jeg ikke Brug for &#x2013; du forstaar: min Gaardsgut, det &#x2026; nei, nei, ikke et Ord vil jeg h&#x00F8;re!</p>
+</sp>
+<sp>
+<speaker>Nils-Petter</speaker>
+<stage>(hidsig)</stage>
+<p>Hvad skal dette bety, siger jeg?</p>
+</sp>
+<sp>
+<speaker><pb n="131"/>Jomfruen</speaker>
+<p>Det skal betyde, at du er mig en lidt for tarvelig Person til, at jeg vil der skal sladres om os. Forstaar du? Ikke det, at du har <stage>(smiler)</stage> bedraget mig; det vidste jeg forl&#x00E6;ngst, at du vilde; men mod <emph>hende</emph> har du v&#x00E6;ret en Stymper! Havde du v&#x00E6;ret en Mand, saa havde du sagt mig Sandheden og bedt mig reise Pokker i Vold.</p>
+</sp>
+<sp>
+<speaker>Nils-Petter</speaker>
+<p>Sindssvagt Vr&#x00F8;vl. <stage>(Vil gaa.)</stage></p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<p>Nei, stop nu lidt; nu er jeg straks f&#x00E6;rdig. Jeg har altsaa Brug for dig. Siger du ikke Tak? Hm. Men jeg ser paa dig, at du takker alligevel, Kujon! Bertha er selvf&#x00F8;lgelig nu fri. Jul vil vist betakke sig. Og saa har dere bare <emph>et</emph> at gj&#x00F8;re, og det skal jeg ordne. Derpaa reiser du bort f. Eks. for at studere Forstv&#x00E6;sen. Men f&#x00F8;rst fort&#x00E6;ller vi vore Venner, <emph>at jeg vil hj&#x00E6;lpe eder til at komme sammen</emph>, naar en rimelig Tid er gaaet.</p>
+</sp>
+<sp>
+<speaker>Nils-Petter</speaker>
+<p>Ja, er det Alvoret dit, saa gjerne for mig! Men det er ingen Grund til sligt Hastverk, synes jeg; det er jo ingenting galt sket. Jeg kan jo ikke gj&#x00F8;re for at &#x2026;</p>
+</sp>
+<sp>
+<speaker><pb n="132"/>Jomfruen</speaker>
+<p>Skulde n&#x00E6;sten tro du vilde luske unda.</p>
+</sp>
+<sp>
+<speaker>Nils-Petter</speaker>
+<p>Nei, nei, Fr&#x00F8;ken Bertha er vist mye for god til mig; men sligt Opstyr, det &#x2013; ja, det passer ikke for mig. Jeg kan reise uden sligt T&#x00F8;is!</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<stage>(med gjennemborende Blik)</stage>
+<p>Og ta hende med, mener du?</p>
+</sp>
+<sp>
+<speaker>Nils-Petter</speaker>
+<p>Ja det &#x2026; det fik da bli som &#x2013; som du vilde det, da.</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<stage>(r&#x00E6;kker H&#x00E6;nderne mod Himlen)</stage>
+<p>Du Himmel! Findes der da ikke et Menneske med Kj&#x00F8;d og Blod l&#x00E6;nger! Som Vaskefiller er dere alle!</p>
+</sp>
+<sp>
+<speaker>Nils-Petter</speaker>
+<p>Nu kan det Fanden gale mig v&#x00E6;re nok! <stage>(Vil gaa.)</stage></p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<p>Vent!</p>
+</sp>
+<sp>
+<speaker>Nils-Petter</speaker>
+<p>Saa se at faa en Ende paa dette Vr&#x00F8;vlet! Hvad vil du?</p>
+</sp>
+<sp>
+<speaker><pb n="133"/>Jomfruen</speaker>
+<stage>(fra ham)</stage>
+<p>Jeg er ikke vant til at gj&#x00F8;re saa mange Omveie, som du ved &#x2026;</p>
+</sp>
+<sp>
+<speaker>Nils-Petter</speaker>
+<stage>(brutalt)</stage>
+<p>Hvad vil du, sp&#x00F8;r jeg?</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<p>Jeg vilde, at du skal komme tilbage. Siden. Jeg indreder for eder her paa Gaarden. <stage>(Fremdeles uden at se paa ham; flytter paa en Blomsterpotte.)</stage> Jeg &#x2026; jeg kan saa vanskelig undv&#x00E6;re dig, Nils-Petter. <stage>(Snur sig; forandret Tone.)</stage> Naa, saa kan jo Bertha komme. <stage>(Raaber ud til Venstre.)</stage> Bertha! <stage>(Nils-Petter har med et Smil trukket paa Skulderen; kaster nu H&#x00E6;nderne paa Ryggen og plystrer. Bertha kom mer stiv og kold.)</stage> Jeg ved alt. Og jeg haaber, du indser, at jeg vilde v&#x00E6;re retf&#x00E6;rdig, om jeg sparked dig ud af mit Hus.</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<p>Ja. Kan jeg gaa?</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<p>Nei, du kan ikke. Kom herhen. <stage>(Bertha ser paa Nils-Petter og tar et Skridt fremover.)</stage> Jeg skal ordne alt med Alf. <stage>(Bertha ser sp&#x00F8;rgende og uforstaaende paa hende.)</stage> Du ser paa mig. H&#x00F8;r ogsaa paa, hvad jeg siger. Dit Forhold til Nils-Petter kjender jeg.</p>
+</sp>
+<sp>
+<speaker><pb n="134"/>Bertha</speaker>
+<stage>(tar et Skridt mod hende)</stage>
+<p>Men &#x2026;</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<p>Ti! Jeg siger, dit Forhold til Nils-Petter kjender jeg. Alf vil selvf&#x00F8;lgelig efter dette ikke mere sp&#x00F8;rge efter dig. Du er fri, og Nils-Petter og du har <emph>et</emph> at gj&#x00F8;re.</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<stage>(ser fra den ene til den anden)</stage>
+<p>Hvad mener du &#x2026;?</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<stage>(med Ro og V&#x00E6;rdighed)</stage>
+<p>Dere har <emph>et</emph> at gj&#x00F8;re, og jeg skal hj&#x00E6;lpe eder!</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<stage>(mod hende)</stage>
+<p>Aa men &#x2026; aa men er det sandt?</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<stage>(Afv&#x00E6;rgende)</stage>
+<p>Jeg vil ingen Tak ha. <stage>(Gaar majest&#x00E6;tisk mod Venstre.)</stage> Jeg er ikke vant til Tak. <stage>(Ud.)</stage></p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<stage>(ser usikkert paa Nils-Petter)</stage>
+<p>Nils Petter, hvad skal dette betyde? Der er noget under, Nils Petter &#x2026; jeg kjender hende &#x2013; naar hun er god, da er jeg r&#x00E6;d.</p>
+</sp>
+<sp>
+<speaker><pb n="135"/>Nils-Petter</speaker>
+<p>Ja, Gud ved, hvad en skal t&#x00E6;nke. Men blaas i det altsammen; vil hun testamentere os Raby, saa kan vi altid gj&#x00F8;re hende den Tjenesten at gifte os. <stage>(Tar Bertha freidig og lidenskabelig ind til sig.)</stage></p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<stage>(slaar Armene om ham)</stage>
+<p>Nei, nei, uden det! Bort, bort herfra! Du beh&#x00F8;ver ikke det, du er sterk og modig, og jeg er ogsaa flink, naar jeg vil, kan du tro! Aa, Nils-Petter! <stage>(Klynger sig til ham.)</stage></p>
+</sp>
+<sp>
+<speaker>Kandidaten</speaker>
+<stage>(kommer hurtig ind Baggrundsd&#x00F8;ren)</stage>
+<p>D&#x00F8;d og Helvede! Omforladelse &#x2026; <stage>(Tar sig sammen.)</stage></p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<stage>(mod ham)</stage>
+<p>Aa, Kandidat, du maa vide det straks! Jeg er fri, fri og lykkelig!</p>
+</sp>
+<sp>
+<speaker>Kandidaten</speaker>
+<stage>(gaar lige hen til Nils-Petter og knytter N&#x00E6;ven op i hans Ansigt)</stage>
+<p>Pjalt!</p>
+</sp>
+<sp>
+<speaker>Nils-Petter</speaker>
+<stage>(bleg)</stage>
+<p>Er De &#x2026; er De gal?</p>
+</sp>
+<sp>
+<speaker>Kandidaten</speaker>
+<stage>(raaber)</stage>
+<p>Pjalt! Vil De se at komme ud af D&#x00F8;ren i en vis Fart, for jeg f&#x00F8;ler i dette &#x00D8;ieblik en uhyggelig M&#x00E6;ngde Kr&#x00E6;fter i mig!</p>
+</sp>
+<sp>
+<speaker><pb n="136"/>Nils-Petter</speaker>
+<stage>(tr&#x00E6;kker paa Skulderen og gaar mod D&#x00F8;ren)</stage>
+<p>En skulde tro, en var paa et Daarehus. <stage>(Gaar hurtig og smelder D&#x00F8;ren efter sig.)</stage></p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<stage>(har slaat H&#x00E6;nderne sammen og surrer i Angst paa dem; tar et Skridt efter ham og raaber)</stage>
+<p>Nils-Petter!</p>
+</sp>
+<sp>
+<speaker>Kandidaten</speaker>
+<stage>(tar Bertha om Haandleddet)</stage>
+<p>Nei, nei &#x2026; h&#x00F8;r her Barn &#x2026; h&#x00F8;r nu her. Du har jo n&#x00E6;sten lige saa meget Vet som et almindeligt Mandfolk &#x2026; du har set lidt af Verden f&#x00F8;r &#x2026; du vil jo v&#x00E6;re fornuftig. Du ved &#x2013; Livet er ikke saa enkelt. <stage>(Hidsig.)</stage> Stygt er det; stygt Bertha!</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<stage>(bleg og skj&#x00E6;lvende; neppe h&#x00F8;rlig)</stage>
+<p>Sig mig, hvad det er?</p>
+</sp>
+<sp>
+<speaker>Kandidaten</speaker>
+<p>Ja, det <emph>maa</emph> jeg &#x2013; der er Gr&#x00E6;nser! Du er for god til det! En Pjalt er han!</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<stage>(bleg)</stage>
+<p>Hvad mener du?</p>
+</sp>
+<sp>
+<speaker>Kandidaten</speaker>
+<p>Fra hendes Arme kom han i dine!</p>
+</sp>
+<sp>
+<speaker><pb n="137"/>Bertha</speaker>
+<stage>(kv&#x00E6;ler et Skrig og holder Armene op for Ansigtet, som hun vil afv&#x00E6;rge et Slag)</stage>
+<p>Sig det ikke &#x2026; sig det ikke!</p>
+</sp>
+<sp>
+<speaker>Kandidaten</speaker>
+<p>Forpestet er dette Huset! &#x2013; Tag dig sammen, Barn! Saa langt jeg kan, skal jeg hj&#x00E6;lpe dig, saasandt de gamle Romere staar mig bi endnu engang. Jeg er en Drukkenbolt og en ynkelig Person; Gud hj&#x00E6;lpe mig saasandt; men jeg er da ingen Pjalt. At hj&#x00E6;lpe dig som en gammel, faderlig Ven maa jeg da turde byde dig! Jeg pakker mine B&#x00F8;ger &#x2013; dem har jeg S&#x00E6;reie paa, ser du &#x2026; du maa ud af denne Pesthulen! Kom! <stage>(Bertha er sunket ned paa en Stol, hvid og stirrende stift frem for sig. Kandidaten l&#x00E6;gger Haanden paa hendes skulder.)</stage> Tag dig sammen, Barn! Hys &#x2013; hun kommer! Kom! Du er jo saa klok og sterk! Dette kommer du over, skal du se! V&#x00E6;r nu snil og kom med. Jeg har en gammel S&#x00F8;ster etsteds i Verden. Hun vil ta vare paa dig saal&#x00E6;nge. Og jeg er jo en gammel durchdreven Jurist; det maatte da v&#x00E6;re som Pokker, om jeg ikke skulde holde Liv i dig, til du selv kan l&#x00E6;re noget &#x2013; kom nu, Barn!</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<stage>(ser paa ham)</stage>
+<p>Tak. Men jeg vil se hende f&#x00F8;rst.</p>
+</sp>
+<sp>
+<speaker><pb n="138"/>Kandidaten</speaker>
+<p>Saa venter jeg paa dig. <stage>(Gaar.)</stage></p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<stage>(kommer langsomt, med lidende Udtryk; stopper op et &#x00D8;ieblik og ser paa Bertha, som har reist sig og bare ser paa hende; gaar saa fremover mod Chaiselonguen. Med tr&#x00E6;t Stemme)</stage>
+<p>Kanske du nu kunde l&#x00E6;se Dagens Tekst for mig &#x2013; hvis du da har saa megen Tid tilovers for mig. <stage>(R&#x00E6;kker hende Bibelen, som hun har med sig &#x2013; uden at se paa hende.)</stage> Her er Bogen. <stage>(S&#x00E6;tter sig paa Chaiselonguen og vil l&#x00E6;gge sig.)</stage></p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<stage>(gaar stiv mod hende; tar Bogen; skriger saa i Smerte)</stage>
+<p>Jeg ved alt! Nu forstaar jeg alt &#x2013; det med Far ogsaa! Fy! <stage>(Kaster Bogen voldsomt for hendes F&#x00F8;dder.)</stage></p>
+</sp>
+<sp>
+<speaker>Pastoren</speaker>
+<stage>(som har banket, uden at de har h&#x00F8;rt, aabner sagte D&#x00F8;ren og kommer)</stage>
+<p>Omforladelse &#x2013; jeg banked, men &#x2026; &#x2013; &#x2013; &#x2013; Men hvad er dette, Fr&#x00F8;ken Bertha!</p>
+</sp>
+<stage>(Bertha kj&#x00E6;mper med sig selv, retter sig og ser trodsig paa Presten.)</stage>
+<sp>
+<speaker>Jomfruen</speaker>
+<p>Nu kom De tilpas, Pastor &#x2026;</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<stage>(med Styrke, i Haan og Smerte og n&#x00E6;svis)</stage>
+<p>Ja, ha &#x2013; nu kom De tilpas hr. Pastor &#x2013; nu skulde vi netop til at l&#x00E6;se Pr&#x00E6;ken, min &#x00AB;gode Pleiemor&#x00BB; og jeg.</p>
+</sp>
+<stage>(Jomfruen viser med en Haandbev&#x00E6;gelse Bertha D&#x00F8;ren. Bertha ser paa hende, gaar saa hurtig ud til Venstre med den ene Haand presset mod sin Pande.)</stage>
+<sp>
+<speaker><pb n="139"/>Jomfruen</speaker>
+<stage>(med tilkj&#x00E6;mpet Ro)</stage>
+<p>Hr. Pastor! Hvad maa De tro! Jeg &#x2026; det er for meget hr. Pastor; hun tar Livet af mig!</p>
+</sp>
+<sp>
+<speaker>Pastoren</speaker>
+<p>Ja, der har De nok et tungt Kors at b&#x00E6;re, bedste Jomfru Linde.</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<stage>(kr&#x00E6;nket; opr&#x00F8;rt)</stage>
+<p>Lad mig fort&#x00E6;lle Dem, hvordan jeg blir behandlet i mit eget Hus af denne &#x2013; denne T&#x00F8;ite! Her &#x2013; her i min egen Stue, saa at sige lige for mine &#x00D8;ine, kaster hun sig i Armene paa min Gaardsgut, Hr. Pastor!</p>
+</sp>
+<sp>
+<speaker>Pastoren</speaker>
+<p>Men bedste Veninde &#x2013; jeg er maall&#x00F8;s af Forf&#x00E6;rdelse. Nu &#x2013; fjorten Dage f&#x00F8;r sit Bryllup, og &#x2026;</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<p>Fjorten Dage f&#x00F8;r sit Bryllup! Og naar jeg foreholder hende hendes Skaml&#x00F8;shed, saa svarer hun mig med at kaste Bibelen &#x2013; Guds hellige Ord &#x2013; lige i mine &#x00D8;ine! Det er for meget!</p>
+</sp>
+<sp>
+<speaker>Pastoren</speaker>
+<stage>(tar hendes Haand)</stage>
+<p>Forf&#x00E6;rdeligt!</p>
+</sp>
+<sp>
+<speaker><pb n="140"/>Jomfruen</speaker>
+<p>De vil forstaa &#x2026; Jeg tr&#x00E6;nger Raad. Har De en Stund tilovers for mig, Pastor? Jeg vilde saa gjerne tale helt ud med Dem.</p>
+</sp>
+<sp>
+<speaker>Pastoren</speaker>
+<p>Intet er mig kj&#x00E6;rere. Forf&#x00E6;rdelige Ting har De taalt og tiet med, kj&#x00E6;re Jomfru Linde. Sandelig, det skal bli bekjendt.</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<p>Nei, nei, kj&#x00E6;re Ven, jeg beder Dem &#x2026; men til Dem &#x2026; det vil v&#x00E6;re mig en Lettelse og en Tr&#x00F8;st. Og saa vilde jeg takke Dem, om De, f&#x00F8;r jeg pr&#x00F8;ver at gaa til Ro, vilde l&#x00E6;se lidt for mig. <stage>(Mild.)</stage> Der er Hvile i Guds Ord, Pastor.</p>
+</sp>
+<sp>
+<speaker>Pastoren</speaker>
+<p>Saa inderlig gjerne. <stage>(T&#x00F8;rrer en Taare af &#x00D8;iet.)</stage> Jeg kan ikke hj&#x00E6;lpe for det, Jomfru Linde, &#x2013; jeg er r&#x00F8;rt over Deres Langmodighed. Og naar jeg t&#x00E6;nker paa, hvor Verden er uretf&#x00E6;rdig &#x2013; ubarmhjertig. Netop idag kom jeg for aabent at tale med Dem om et Rygte &#x2013; et stygt, afskyligt Rygte, som jeg, jeg beder Dem tro mig, aldrig et &#x00D8;ieblik har tvilet paa var falskt. Men jeg f&#x00F8;lte det som min Pligt, jeg, som faar Lov at kalde mig Deres Ven og Sj&#x00E6;les&#x00F8;rger. Jeg ber&#x00F8;rte det allerede igaar.</p>
+</sp>
+<sp>
+<speaker><pb n="141"/>Jomfruen</speaker>
+<stage>(smiler mat)</stage>
+<p>Ak Pastor, har nogensinde en enlig Kvinde gaat fri? Men jeg ber Dem &#x2026; jeg f&#x00F8;ler mig saa tr&#x00E6;t &#x2026;</p>
+</sp>
+<sp>
+<speaker>Pastoren</speaker>
+<p>Dersom det letter Dem, saa tal. <stage>(Har sat sig ned ved Siden af hende.)</stage> Stol paa mig.</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<p>Tak, det vil jeg. Men &#x2013; her er saa utrygt. Inde hos mig, Hr. Pastor, der er Ro, og jeg har saa meget, saa meget at tale med Dem om. <stage>(Ser paa ham.)</stage></p>
+</sp>
+<sp>
+<speaker>Pastoren</speaker>
+<p>Som De vil, kj&#x00E6;re, som De vil.</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<stage>(reiser sig)</stage>
+<p>Tak. <stage>(De gaar mod Venstre; hun snur sig i D&#x00F8;ren.)</stage> Og imorgen kj&#x00F8;rer vi sammen ud til B&#x00F8;rnehjemstomten, ikke sandt, Pastor. <stage>(R&#x00E6;kker ham Haanden, som han kysser.)</stage></p>
+</sp>
+<sp>
+<speaker>Pastoren</speaker>
+<stage>(idet han lukker D&#x00F8;ren op for hende)</stage>
+<p>Det gj&#x00F8;r vi. Det gl&#x00E6;der jeg mig til.</p>
+</sp>
+<sp>
+<speaker><pb n="142"/>Jomfruen</speaker>
+<stage>(ser paa ham)</stage>
+<p>Tak! <stage>(Begge ud.)</stage></p>
+</sp>
+<stage>(Det m&#x00F8;rkner. Scenen staar tom nogle &#x00D8;ieblikke, saa kommer Bertha varsomt speidende ind. Lytter. Saa hurtig hen foran Halds Portr&#x00E6;t med opstrakte H&#x00E6;nder og derpaa hurtig mod Baggrunden, st&#x00F8;der D&#x00F8;ren op og m&#x00F8;des af Fru Hald, som staar tilsl&#x00F8;ret derude. Nu kommer hun indenfor.)</stage>
+<sp>
+<speaker>Bertha</speaker>
+<stage>(tilbage, hvisker)</stage>
+<p>Mor?</p>
+</sp>
+<sp>
+<speaker>Fru Hald</speaker>
+<stage>(r&#x00E6;kker Armene mod hende)</stage>
+<p>Barn! Kj&#x00E6;re, kj&#x00E6;re &#x2026;</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<stage>(kaster sig i voldsom Graad om hendes Hals)</stage>
+<p>Aa, Mor!</p>
+</sp>
+<sp>
+<speaker>Fru Hald</speaker>
+<stage>(smertelig)</stage>
+<p>&#x2013; &#x2013; Kj&#x00E6;re, kj&#x00E6;re &#x2026; <stage>(klapper hende paa Hovedet, over Skulder og Ryg; tar saa tilsidst hendes Hoved mellem sine H&#x00E6;nder.)</stage> Lad mig se dig. <stage>(Bertha slaar sine bedr&#x00F8;vede &#x00D8;ine op mod hende. Fru Hald med lav Stemme.)</stage> Ja &#x2013; nu ser jeg det &#x2026; <stage>(Griber efter St&#x00F8;tte.)</stage> Aa, lad mig s&#x00E6;tte mig et &#x00D8;ieblik.</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<stage>(st&#x00F8;tter hende. Faar hende ned paa en Stol)</stage>
+<p>Du er syg &#x2026; aa kj&#x00E6;re &#x2026; Men, aa kj&#x00E6;re ikke her &#x2026;</p>
+</sp>
+<sp>
+<speaker><pb n="143"/>Fru Hald</speaker>
+<stage>(holder Berthas Haand)</stage>
+<p>Jeg maatte, jeg maatte. Jeg sad ved Landeveien igaar og saa Fanny gaa bort &#x2013; alt var Taage &#x2013; jeg kunde slet ikke mere t&#x00E6;nke. Jeg havde vaaget saa meget, ser du. Men saa maatte jeg efter &#x2013; faa hende tilbage for enhver Pris. Saa langt var det kommet med mig, at jeg sad rolig og saa paa, at Fanny gik &#x2013; hun ogsaa! Men saa &#x2026; saa blev jeg saa sterk og saa traf jeg hende igaar i Hytten &#x2013; og saa blev vi der. Fik ikke Lov at gaa f&#x00F8;r nu, det blev m&#x00F8;rkt igjen. Dagen har v&#x00E6;ret saa lang, saa lang. Du havde sendt hende til mig igjen &#x2013; da vidste jeg med en Gang, at du &#x2013; Jeg maatte se dig! <stage>(B&#x00F8;ier sig mod hende.)</stage> Ondt har du havt det!</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<stage>(kaster sig paa Kn&#x00E6; med Hovedet i Moderens Skj&#x00F8;d)</stage>
+<p>Aa, tag mig med dig, Mor!</p>
+</sp>
+<sp>
+<speaker>Fru Hald</speaker>
+<p>Ondt, ondt har de gjort dig! Pint dig har de! Aa, for en Jammer. Jeg har vidst det i de lange, lange N&#x00E6;tter! Hver Nerve i mig har krympet sig i Smerte for din Skyld. Savnet og L&#x00E6;ngselen og Angsten har skreget i mig! Hvor kunde det ske! Hvordan kunde Vorherre se paa det! De tog dig jo fra mig! Og siden har de pint dig! <stage>(Slaar H&#x00E6;nderne for Ansigtet.)</stage> Aa, det gj&#x00F8;r saa ondt, saa ondt herinde!</p>
+</sp>
+<sp>
+<speaker><pb n="144"/>Bertha</speaker>
+<stage>(reiser sig angst)</stage>
+<p>Aa nei &#x2026; aa nei, Mor! Ikke her! Kom!</p>
+</sp>
+<sp>
+<speaker>Fru Hald</speaker>
+<p>Alle sa mig, du havde det godt. Og du sa det jo selv i dine Breve &#x2013; dine korte &#x2013; kolde Breve! Og hos mig &#x2013; jeg kunde jo ikke &#x2026; jeg <emph>fik</emph> jo heller ikke ta dig, og de sa du havde det godt &#x2026; og jeg &#x2013; &#x2013; <stage>(Tar sig forvirret til Panden.)</stage></p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<stage>(tar angst omkring hende)</stage>
+<p>Mor! Kom! Aa kom! Ikke her! Jeg blir med dig! Jeg blir hos dig og Fanny! Jeg er saa sterk, kan du tro, og du skal l&#x00E6;re mig at arbeide!</p>
+</sp>
+<sp>
+<speaker>Fru Hald</speaker>
+<stage>(ser uforstaaende paa hende)</stage>
+<p>Du? Men du &#x2026; du er jo &#x2026; du skal jo &#x2026;</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<p>Nei nei &#x2013; aa sp&#x00F8;r ikke Mor! Siden! Tag mig med dig! Aa, kj&#x00E6;re, kj&#x00E6;re Mor!</p>
+</sp>
+<sp>
+<speaker>Fru Hald</speaker>
+<stage>(hviskende)</stage>
+<p>Er det sandt, Barn? Kan jeg tro, at det er sandt?</p>
+</sp>
+<sp>
+<speaker><pb n="145"/>Bertha</speaker>
+<p>Jeg har saa meget, saa meget at si dig, Mor! Aa, saa forf&#x00E6;rdelig meget!</p>
+</sp>
+<sp>
+<speaker>Fru Hald</speaker>
+<stage>(klagende)</stage>
+<p>Men nu er det jo forsent. Jeg kan jo ingenting mer. Ikke noget godt kan jeg gj&#x00F8;re dig mer! Med mig er det forbi &#x2013; aa for l&#x00E6;nge, l&#x00E6;nge siden &#x2013; lad mig bare faa gr&#x00E6;de &#x2013; gr&#x00E6;de! <stage>(Ser sig om med angstfuldt, forvildet Blik.)</stage> Her i denne Stuen &#x2026; <stage>(D&#x00E6;kker atter &#x00F8;inene.)</stage> Aa, lad mig gr&#x00E6;de, gr&#x00E6;de &#x2026; Det gj&#x00F8;r saa ondt. <stage>(Det m&#x00F8;rkner.)</stage></p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<p>Jeg ber dig saa inderlig Mor, kom!</p>
+</sp>
+<sp>
+<speaker>Fru Hald</speaker>
+<stage>(reiser sig med Besv&#x00E6;r)</stage>
+<p>Ja, og jeg skal aldrig sp&#x00F8;rge. Lad os dele. V&#x00E6;re sammen! Gud velsigne dig!</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<p>Tak, tak &#x2013; kom. Der er nogen udenfor! Kom! Denne Vei! <stage>(Fru Hald vender sig, faar &#x00D8;ie paa Halds Portr&#x00E6;t. Det gaar en Skj&#x00E6;lven gjennem hendes Legeme.)</stage> Aa, Mor!</p>
+</sp>
+<sp>
+<speaker>Fru Hald</speaker>
+<p><emph>Hun</emph> har gjort det! Med mig er det forbi! <emph>Hun</emph>, hun &#x2026; <stage>(vakler.)</stage></p>
+</sp>
+<sp>
+<speaker><pb n="146"/>Bertha</speaker>
+<stage>(tar omkring hende)</stage>
+<p>Aa, Mor, nu forstaar jeg alt, hvad du har lidt, Mor! Nu kan jeg forstaa det! <stage>(Fru Hald svarer ikke; st&#x00F8;tter sig tungt paa Berthas Skulder. Bertha i Angst.)</stage> Mor! Kom! Herinde paa min Seng! Du maa hvile. <stage>(Tar hende med et fast Tag om Livet og f&#x00F8;rer hende ud.)</stage></p>
+</sp>
+<sp>
+<speaker>Fru Hald</speaker>
+<stage>(med skj&#x00E6;lvende, svag Stemme)</stage>
+<p>Riv det &#x2026; riv det ned &#x2026;</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<stage>(sagte)</stage>
+<p>Fars Billede? <stage>(Fru Hald nikker.)</stage> Ja, ja; men f&#x00F8;rst maa du hvile. <stage>(Ud med Fru Hald.)</stage></p>
+</sp>
+<stage>(Scenen staar tom nogle &#x00D8;ieblikke, saa kommer Bertha listende tilbage; springer op paa Pianostolen, tar forsigtig Revolveren og l&#x00E6;gger den paa Pianoet og tar derpaa Billedet med sig og springer ud.)</stage>
+<stage>(Stemmer h&#x00F8;res udenfor til Venstre.)</stage>
+<sp>
+<speaker>Jomfruen</speaker>
+<stage>(med Lys i Haanden, lyser Pastoren, som f&#x00F8;lger efter hende)</stage>
+<p>Her er m&#x00F8;rkt og stille overalt. I mit Hus er der tidlig Ro.</p>
+</sp>
+<sp>
+<speaker>Pastoren</speaker>
+<p>Det er en god Skik. Ja, nu Godnat og Tak for den Tillid De har vist mig.</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<p>Takken er alene paa min Side, Pastor! Nu ved De, hvor saart jeg tr&#x00E6;nger en Ven. Paa Gjensyn imorgen!</p>
+</sp>
+<sp>
+<speaker><pb n="147"/>Pastoren</speaker>
+<p>Ja, kj&#x00E6;re, det ved jeg. Ja, paa godt Gjensyn imorgen da! <stage>(Kysser hendes Haand og gaar.)</stage></p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<stage>(staar et &#x00D8;ieblik; puster ud)</stage>
+<p>Ah!</p>
+<stage>(Gaar fremover. Hendes Blik s&#x00F8;ger Halds Portr&#x00E6;t; da hun ser det er borte, farer hun sammen, viger et Skridt tilbage og griber famlende om Stolryggen, hvor hun faar Fru Halds Sl&#x00F8;r mellem Fingrene. Lyset falder hende af Haanden, idet hun stirrende paa Sl&#x00F8;ret farer tilbage. Bleg skynder hun sig derpaa hen og ringer.)</stage>
+</sp>
+<sp>
+<speaker>Maren</speaker>
+<stage>(kommer)</stage>
+<p>Hvad er det?</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<stage>(med Ryggen mod hende; i nerv&#x00F8;s Hast)</stage>
+<p>Lys. T&#x00E6;nd Lys for Pokker! <stage>(St&#x00F8;tter sig stiv mod Bordpladen.)</stage></p>
+</sp>
+<sp>
+<speaker>Maren</speaker>
+<p>Ja, ja, da! De ringer jo, som det stod om Livet! <stage>(Ud.)</stage></p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<stage>(kommer h&#x00E6;ndervridende fra H&#x00F8;ire)</stage>
+<p>Maren! Aa Maren, hj&#x00E6;lp Mor! Hj&#x00E6;lp Mor! <stage>(Faar se Jomfruen, som idetsamme vender sig mod hende. Hun skriger som i R&#x00E6;dsel og l&#x00F8;ber hen til Pianoet, griber vildt Revolveren og l&#x00F8;sner et Skud mod Jomfruen; raaber.)</stage> Det er fra Mor! <stage>(Slaar H&#x00E6;nderne for Ansigtet. Overv&#x00E6;ldet.)</stage> Og fra mig!</p>
+</sp>
+<sp>
+<speaker><pb n="148"/>Henriksen</speaker>
+<stage>(river D&#x00F8;ren op)</stage>
+<p>Hvad er det! <stage>(Mod Jomfruen)</stage> Du! <stage>(Derpaa hurtig hen til Bertha, der staar som fra sig selv med tungt arbeidende Bryst.)</stage> Bertha! Hvad er det?</p>
+</sp>
+<sp>
+<speaker>Jomfruen</speaker>
+<stage>(st&#x00F8;tter sig bleg til Bordet. Med tilkj&#x00E6;mpet Ro)</stage>
+<p>Det er Bertha, som morer sig med at pudse sin rustne Revolver, og saa var det n&#x00E6;r gaat galt.</p>
+</sp>
+<sp>
+<speaker>Henriksen</speaker>
+<stage>(ser Revolveren, som Bertha har sluppet)</stage>
+<p>Aa nei, Fanden frir sine; men m&#x00E6;rket er du, husk paa det! <stage>(Til Bertha som hj&#x00E6;lpel&#x00F8;s r&#x00E6;kker H&#x00E6;nderne mod ham.)</stage> Kom Barn! Det Skud har renset Luften omkring dig.</p>
+</sp>
+<sp>
+<speaker>Bertha</speaker>
+<stage>(idet Henriksen f&#x00F8;rer hende ud)</stage>
+<p>Hj&#x00E6;lp Mor!</p>
+</sp>
+<stage>(Maren kommer i den aabne D&#x00F8;r med Lampen mellem de skj&#x00E6;lvende H&#x00E6;nder.)</stage>
+<sp>
+<speaker>Jomfruen</speaker>
+<stage>(slaar pludselig Haanden tungt i Bordet og raaber)</stage>
+<p>Lys! Lys for Pokker! <stage>(Snur sig mod Maren.)</stage> Er du d&#x00F8;v? Eller traf den dig, den Kuglen! Ha-ha!</p>
+</sp>
+</div>
+</body>
+</text>
+</TEI>

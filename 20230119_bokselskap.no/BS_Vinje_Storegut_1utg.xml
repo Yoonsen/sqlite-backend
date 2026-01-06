@@ -1,0 +1,3331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI PUBLIC "-// TEI P5 //EN" "http://www.tei-c.org/release/xml/tei/custom/schema/dtd/tei_all.dtd">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="NSL_Vinje_Storegut_1utg">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>bokselskap.no, Oslo 2019
+<lb/>A. O. Vinje: <hi rend="italic">Storegut</hi>
+<lb/>Teksten i bokselskap.no f&#x00F8;lger 1. utgave, 1866 (Christiania/&#x00AB;Eiget Forlag&#x00BB;/Carl Wang).
+<lb/>ISBN: 978-82-8319-450-0 (digital, bokselskap.no), 978-82-8319-451-7 (epub), 978-82-8319-452-4 (mobi)
+</title>
+</titleStmt>
+<publicationStmt>
+<p>Publiseres som digital tekst af bokselskap.no.</p></publicationStmt>
+<sourceDesc>
+    <bibl>
+        <title>Storegut</title>
+        <author>A. O. Vinje</author>
+        <pubPlace>Christiania</pubPlace>
+        <date>1866</date>
+        <note>Fil opprettet mai 2018 med utgangspunkt i 2. utgavens tekst (NSL_Vinje_Storegut_2utg.xml)</note>
+    </bibl>
+</sourceDesc>
+</fileDesc>
+<revisionDesc>
+<change who="ENW" when="2019-02-07">Lagt inn innholdsfortegnelse og ref-koding. Lagt inn ISBN. Klar for publisering.</change>
+<change who="ENW" when="2019-01-02">Lagt inn rettelser etter ekstra korrektur.</change>
+<change who="ENW" when="2018-08-30">Entiteter, kodekontroll og validering. B&#x00F8;r gjennom en ekstra gjenneomlesning/korrektur.</change>
+<change xml:id="MS" who="MS" when="2018-07-20">Lagt inn korrekturrettelser.</change>
+<change who="ENW" when="2018-05-16">XML-koding forts. Entiteter og validering. Klar for korrektur.</change>
+<change xml:id="ENW" who="ENW" when="2018-05-14">XML-koding.</change>
+</revisionDesc>
+</teiHeader>
+<text xml:id="NSL_Vinje_Storegut_1utg_tekst" type="poems">
+<front>
+<titlePage type="main">
+<byline><docAuthor>Aasmund Olavsson Vinje</docAuthor></byline>
+<docTitle>
+<titlePart type="main">Storegut</titlePart>
+</docTitle>
+<docDate>bokselskap.no<lb/>Oslo 2019</docDate>
+</titlePage>
+<div xml:id="contents">
+<list type="contents_main">
+<item><ref target="chapter_1" xml:id="contents_1">&#x005B;FORORD&#x005D;</ref></item>
+<item><ref target="chapter_2" xml:id="contents_2">OLAFARNE</ref></item>
+<item><ref target="chapter_3" xml:id="contents_3">OLAF SJ&#x00D8;LV</ref></item>
+<item><ref target="chapter_4" xml:id="contents_4">STOREGUT</ref></item>
+<item><ref target="chapter_5" xml:id="contents_5">&#x005B;TYDINGAR&#x005D;</ref></item>
+</list>
+</div>
+</front>
+<body>
+<div type="chapter" subtype="preface">
+<head type="main"><ref type="contents" target="contents_1" xml:id="chapter_1">&#x005B;FORORD&#x005D;</ref></head>
+<p>Det er ei sann Soga det, som stend i denne Boki, so n&#x00E6;r som det, at Navnet paa ein og annan Mannen og Garden ero ombytte; for der liver enno N&#x00E6;rskyldingar af some af desse Folk, og det trengst ikki om at saara desse Uskuldige. Derimot er Storegut og Fader hans sette, som dei vaaro til, med rette Navnet og Alt; og Fader min kunde minnast deim baade tvo. Mangt er ellers forgylt og gjort st&#x00F8;rre eller mindre, en det var. Der er nokot idealiserat; men Tilmaalet og Samh&#x00F8;vet eller Proportionarne er det str&#x00E6;vat efter, liksom naar Maalaren gjerer Mannen st&#x00F8;rre eller mindre, en han er skapt. Dette, at Soga er sann i sine store Drag, er det, som efter mi Meining maa gjeva Diktet sitt meste Verd; for Smak og Stil skifta om, men det historiske Grunnemne var. Dette, som eg med eit Kunstord vil kalla den ethnographiske Beingrind, maa kver Diktning og daa mest den sokallade &#x00AB;folkelige&#x00BB; hava, om den skal liva lenger en den ofte falske Tidarsmak, som skapte <pb n="II"/>den. Det er denne folkelege eller historiske Beinbygning, som me finna i alle poetiske Verk, som liva lenge, alt fraa Homer og vaare gamle Sogor ned til Walter Scott. Det er den, som stend atter, naar alt det andre er d&#x00F8;ytt burt. Det er af Livet sj&#x00F8;lv, me maa faa vaare Grunndrag; det er det, som lyt dikta for os; og Aalmugen har derfor i Grunnen Rett, naar han segjer om ei Soga eller eit Dikt: &#x00AB;Ja, ja, det kann vera godt og vel altsaman, men det er ikki sannt; ho lyg den Boki og ferer med Fantesi.&#x00BB; &#x2013; At eg ellers ikki tek denna Synsmaaten reint paa Ordet, maa ganga fram af det, som her uppe er sagt.</p>
+<p>Det er no ellers ikki verdt at gilda seg meir af si historiske Sanning, en godt gjerer; for det er ikki sagt, at eg skirt og klaart kann setja fram dette Folkeliv, med alt det, at eg er upf&#x00F8;dd i det og h&#x00F8;yrde det utmaalat af Fader min og andre gamle Folk; men at den utvordes Historie er sann, det veit eg.</p>
+<p>Ja, slikt var Livet up i Thelemorki og vaare fleste Fjelldalar alt til 1814. Det var i Grunnen ei Nevarettens Tid, og derfor var Styrke og Mannamod det, som stod i st&#x00F8;rste Pris. Det menneskelige Samfund er so klokt, at det altid &#x00E6;rar mest det, som det har st&#x00F8;rst Bruk for. Med vaart nye Riksstell kom betre Rettargong, og ved ein st&#x00F8;rre Lesnad og alt kom ein annan Tenkemaate <pb n="III"/>in i Samfundet. Dette Gamle d&#x00F8;yr meir og meir ut. Me kunna ynskja, at den gamle Visediktning f. Ex. livde enno, men det er raadlaust med det. Og her er Bot for det. Det er liksom med Maanen: han n&#x00F8;rer seg i den andre Enden, naar han sloknar i hin. Menn, som no ero uppe i Tanken af si Tid, dei setja i Likning med Guden Thor Enden af Hornet i dette Folkehav og sl&#x00F8;kkja Torsten sin efter eit meir folkelegt Maal og eit sterkare og meir poetisk Liv i det Heile.</p>
+<p>Eg var fraa fyrst af meint paa at hanka mange Songar in paa Sambandstraaden i denne Soga, men eg vardt under Verket r&#x00E6;dd for, at den &#x00AB;episke&#x00BB; Samanheng ved dette skulde slakna vel myket; og det er ikki fritt for, at den har gjort det og i fyrste Halvparten af Diktet. Men seer eg, at eg kunde hava gjort meir af dette, so skal eg sidan gjera det; for det vilde vera likso historisk sannt, som h&#x00F8;velegt for meg, at leggja mange Visor og Stev i Munnen paa han &#x00AB;Olaf sj&#x00F8;lv,&#x00BB; som efter alt det, eg h&#x00F8;yrde gjetet og kjenner, var ein af dei siste kringfarande Visediktarar og Songarar i det visorike Thelemork. Eg maa tru, at der er some af hans Visor i <hi rend="italic">Landstads</hi> og <hi rend="italic">Bugges</hi> Samlingar, og der er likeins ei om, daa Huldra kom til Storegut paa Felegret, men den er vist af ein annan; truleg af ein Skulemeistare i den seinare Tid.</p>
+<p>F&#x00F8;rste Halvpart og der utover af denne Storeguten <pb n="IV"/>kom ut i D&#x00F8;len; men eit og annat af dette er omgjort og omsett og javnat til ein betre Samanheng.</p>
+<p>Eg torde ikki annat en setja some Ordtydningar her sist i Boki. Eg har sovidt mogelegt gjengjet af Vegen for Ord og Talemaatar, som kunde vera mindre kjende i By og paa Flatbygd: men det var raadlaust overalt at gjera dette, helst naar der maatte koma fram Navn paa Landel&#x00E6;ge (geographiske Ben&#x00E6;vnelser), sosom i &#x00AB;J&#x00F8;tunheimen&#x00BB;. Dette har lagt mange Baand paa meg, dette, at gjera Maalet tydeligt, og det har ofte og tekjet burt det mest sermerkte eller karakteristiske ved Tanken. Men, me &#x00AB;Maalmenn&#x00BB; maa fara smaatt fram enno so tidleg Dags. Det er med os som med Organisten, naar han i sit Fyrespil eller Pr&#x00E6;ludium spilar med faae &#x00AB;Stemmer.&#x00BB; Folk efter os faa f&#x00F8;rst den Lykka at kunna draga ut alle &#x00AB;Stemmer&#x00BB; og spila med fullt Verk.</p>
+<p><hi rend="italic">Christiania</hi> i Decbr. 1866.</p>
+</div>
+<div type="chapter">
+<head type="main"><ref type="contents" target="contents_2" xml:id="chapter_2">OLAFARNE</ref></head>
+<lg>
+<l>Og Olaf het Son, og Olaf het Fa&#x0027;r.</l>
+<l rend="indent_1">Det Olaf paa Olaf var,</l>
+<l>solenge som det var spurt til Mann</l>
+<l rend="indent_1">som Eigar af Nordigard.</l>
+</lg>
+<lg>
+<l>Det er som med Lauvet, du seer i Skog:</l>
+<l rend="indent_1">Det rotnar i Flo paa Flo,</l>
+<l>om Vaaren gr&#x00F8;nt og om Hausten gult,</l>
+<l rend="indent_1">og svart under kvite Snjo.</l>
+</lg>
+<lg>
+<l>Og Olaf var stor og Olaf var sterk,</l>
+<l rend="indent_1">og Olaf var spr&#x00E6;ker Kar.</l>
+<l>Men endaa so vardt det altid sagt,</l>
+<l rend="indent_1">at betre var gamle Fa&#x0027;r.</l>
+</lg>
+<lg>
+<l><pb n="2"/>Det myrknar ikring deg, naar so du kjem</l>
+<l rend="indent_1">framefter imot di Grav;</l>
+<l>og derfor so hava dei Gamle for Tru,</l>
+<l rend="indent_1">at Folket det minkar af.</l>
+</lg>
+<lg>
+<l>Men det er med Mannen og Manna&#x00E6;tt,</l>
+<l rend="indent_1">som Gr&#x00F8;nska paa Skog og Jord:</l>
+<l>Det er liksom Lauv og Gras iaar</l>
+<l rend="indent_1">er gr&#x00F8;nare en ifjor.</l>
+</lg>
+<lg>
+<l>Slikt var det med desse Olafar:</l>
+<l rend="indent_1">der Styrken ei d&#x00F8;ydde ut;</l>
+<l>for af denne store Olafs-&#x00C6;tt</l>
+<l rend="indent_1">den siste var &#x00AB;Storegut&#x00BB;.</l>
+</lg>
+<lg>
+<l>Ja, det var med dette, som naar du rett</l>
+<l rend="indent_1">vil ut over Sj&#x00F8;en sjaa:</l>
+<l>den store Bylgja kjem altid fram</l>
+<l rend="indent_1">som f&#x00F8;dd af dei mange smaa.</l>
+</lg>
+<lg>
+<l>Men sist af den st&#x00F8;rste Bylgja verdt f&#x00F8;dd</l>
+<l rend="indent_1">fraa Rulling so breid og rund</l>
+<l>den Brotsj&#x00F8;, som velter med kvite Foss</l>
+<l rend="indent_1">og sl&#x00E6;r seg paa Sanden sund.</l>
+</lg>
+<lg>
+<l><pb n="3"/>Og likeins du ut paa den opne Sj&#x00F8;</l>
+<l rend="indent_1">det vanlege Synet f&#x00E6;r</l>
+<l>fraa slikteit fossande Bylgjedrag,</l>
+<l rend="indent_1">at sunder seg sj&#x00F8;lv det sl&#x00E6;r.</l>
+</lg>
+<lg>
+<l>So verdt der som stilt, der Baara brast,</l>
+<l rend="indent_1">med Bylgjor so smaa i Kross,</l>
+<l>til dess der seg lyfter eit Bylgjedrag,</l>
+<l rend="indent_1">som vekser seg til ein Foss.</l>
+</lg>
+<lg>
+<l>Og derfor kjem Fader til &#x00AB;Storegut&#x00BB;</l>
+<l rend="indent_1">paa Tale somangein Gong.</l>
+<l>Ja, han verdt den Mannen i denne Segn,</l>
+<l rend="indent_1">som synger den heile Song.</l>
+</lg>
+<lg>
+<l>Og han er ein Mann med dei gamle Drag</l>
+<l rend="indent_1">ein underleg gamal D&#x00F8;l,</l>
+<l>som Visor kann dikta af gamle Slag,</l>
+<l rend="indent_1">og han heiter &#x00AB;Olaf sj&#x00F8;l&#x00BB;.</l>
+</lg>
+</div>
+<div type="chapter">
+<head type="main"><ref type="contents" target="contents_3" xml:id="chapter_3">OLAF SJ&#x00D8;LV</ref></head>
+<lg>
+<l><pb n="4"/>D&#x0027;er Olaf, som ut denne Bodi ber;</l>
+<l>d&#x0027;er han, som fortel denne Soga her.</l>
+<l>Han diktar og kved desse Visor ut,</l>
+<l>fraa fyrst om seg sj&#x00F8;lv, so om Storegut.</l>
+</lg>
+<div type="uchapter">
+<head type="sub">Daa Olaf l&#x00E6;rde lesa</head>
+<lg>
+<l><pb n="5"/>Dei segja, at Livet det lid og det strid</l>
+<l>og fram mot eit betre seg s&#x00F8;ker.</l>
+<l>Min Ungdom fall in i den underleg&#x0027; Tid,</l>
+<l>daa fyrst up til os det kom B&#x00F8;ker.</l>
+</lg>
+<lg>
+<l>Daa vardt det forlitet, at Mannen var klok,</l>
+<l>og Tankar i Mengd kunde hava.</l>
+<l>Nei, Visdomen maatte han finna i Bok,</l>
+<l>og Folk skulde l&#x00E6;ra at stava.</l>
+</lg>
+<lg>
+<l>Ei Bok var ei &#x00C6;ra: eg minnest det tidt,</l>
+<l>i H&#x00F8;gs&#x00E6;tet sat ho som Gjesten.</l>
+<l>For det var med L&#x00E6;rdomen komet sovidt,</l>
+<l>at Folk skulde ganga for Presten.</l>
+</lg>
+<lg>
+<l><pb n="6"/>Eg l&#x00E6;rde at lesa. Eg fekk meg ei Bok.</l>
+<l>Og raude Bokstavar var Dygdi.</l>
+<l>For endefram var det, han laut vera klok,</l>
+<l>ein Son af dei beste i Bygdi.</l>
+</lg>
+<lg>
+<l>Men so sagde Fa&#x0027;r: &#x00AB;Det er alt utan Naud!</l>
+<l>Verdt lik meg og fylg meg paa Ferdom!</l>
+<l>Kast Boki, min Gut; eg gjev Presten ein Saud:</l>
+<l>so slepp du fraa all denne L&#x00E6;rdom.&#x00BB;</l>
+</lg>
+<lg>
+<l>&#x00AB;Eg leser om Kvelden&#x00BB;, eg sagde til Fa&#x0027;r,</l>
+<l>&#x00AB;so<note type="footnote">&#x00AB;so] <hi rend="italic">rettet fra:</hi> so <hi rend="italic">(trykkfeil)</hi></note> fer eg om Dagen paa Ferdom.</l>
+<l>Af<note type="footnote">Af] <hi rend="italic">rettet fra:</hi> &#x00AB;Af <hi rend="italic">(trykkfeil)</hi></note> Presten eg &#x0027;Spurningar&#x0027;<note type="footnote"><hi rend="italic">Forfatternote:</hi> eller &#x00AB;dei skrivne Spurningarne&#x00BB;, var Spursmaal og Svar, som Presten skreiv up med Fracturskrift og gav ut til Ungdomen, for Pontoppidans Forklaring var for stor at l&#x00E6;ra. Det var so ei fire fem Blad. Eg minnes Folk, som ikki havde l&#x00E6;rt meir.</note> fekk for mitt Svar,</l>
+<l>so no skal du sjaa her verdt L&#x00E6;rdom.&#x00BB;</l>
+</lg>
+<lg>
+<l>&#x00AB;So f&#x00E6;r han ein Bukk denne Mann, som er halt,&#x00BB;</l>
+<l>&#x00AB;eg meinar,&#x00BB; sa&#x0027; Fa&#x0027;r, &#x00AB;denne Gunnar.</l>
+<l>So gjev han deg L&#x00E6;rdom: han kjenner til alt</l>
+<l>og st&#x00F8;dt kjem or B&#x00F8;ker med Grunnar.&#x00BB;</l>
+</lg>
+<lg>
+<l><pb n="7"/>Ja, Gunnar var klok, om han endaa var halt.</l>
+<l>Og Gunnar var komen fraa Froland.</l>
+<l>Han l&#x00E6;rde meg myket og l&#x00E6;rde meg alt</l>
+<l>om Goliath, Samson og Roland.</l>
+</lg>
+<lg>
+<l>&#x00AB;Og Sj&#x00F8;en,&#x00BB; sa&#x0027; Gunnar, &#x00AB;er f&#x00E6;lande stor,</l>
+<l>so Bandak ein Dam er imot&#x0027;n.</l>
+<l>Og Kongerik&#x0027; store her finnst paa vaar Jord,</l>
+<l>tenk Russland og Halland og Toten!</l>
+</lg>
+<lg>
+<l>Og langt imot Gud der ei Slett er so vid,</l>
+<l>&#x2013; sosannt som ei B&#x00F8;kerna ljuge, &#x2013;</l>
+<l>at der du kann sjaa over Kongerik&#x0027; ni,</l>
+<l>og Kyrkjor somange som tjuge.</l>
+</lg>
+<lg>
+<l>Her heime er smaatt: det er alt som ei Mus</l>
+<l>mot f&#x00E6;laste Oksen, som olmar;</l>
+<l>for Dyr er at finna so store som Hus,</l>
+<l>og Fiskar so store som Holmar.</l>
+</lg>
+<lg>
+<l>Og Mimring var slik, han var st&#x00F8;rre en tri,</l>
+<l>og stor som ei Tunna var Hatten.</l>
+<l>Seks Alner var Goliath, Nimrod var ni,</l>
+<l>og Viderik V&#x00E6;rlandson atten.</l>
+</lg>
+<lg>
+<l><pb n="8"/>I Hornet bles Roland, der saarat han laag,</l>
+<l>so hardt, at det huskad i Haugom.</l>
+<l>Og Mannen, som Mahomet sagde han saag,</l>
+<l>var tusund af Mil millom Augom.</l>
+</lg>
+<lg>
+<l>Fraa Serkland til Valland sprang Rolf i eit Laup</l>
+<l>med tusund af Stridsmenn paa Skjoldet.</l>
+<l>&#x00AB;Om Gauksto var Graut og om Tinsj&#x00F8; var Gaup,</l>
+<l>eg aat meg ei mett,&#x00BB; sagde Trollet.</l>
+</lg>
+<lg>
+<l>Med Staven sin Gunnar ein Aftan os slo.</l>
+<l>Eg Spurning og Svar lyt fortelja:</l>
+<l>Han spurde, om me af dei Vegjerne tvo</l>
+<l>den breide ell&#x0027; smale b&#x00F8;r velja?</l>
+</lg>
+<lg>
+<l>&#x00AB;Me unge og spr&#x00E6;ke, i varmt som i kaldt,</l>
+<l>kann ganga den smale og leide.</l>
+<l>Men du, stakkars Krok, som er gamal og halt,</l>
+<l>b&#x00F8;r vandra den gode og breide.&#x00BB;</l>
+</lg>
+<lg>
+<l>Smaaguten er gapen; men der leikar Liv;</l>
+<l>og Gamlen er glad i den unge.</l>
+<l>Han biter ifraa seg som kvassaste Kniv,</l>
+<l>og Vit sprakar lett fraa hans Tunge.</l>
+</lg>
+<lg>
+<l><pb n="9"/>Om Gunnar var gamal, han endaa var glad</l>
+<l>og snillaste Mannen, eg kjende.</l>
+<l>Han l&#x00E6;rde os lesa og Visor han kvad,</l>
+<l>og Rispor han fann utan Ende.</l>
+</lg>
+<lg>
+<l>Kvar Bok las eg ut. Eg i Boki var glad,</l>
+<l>men gladare endaa i Hesten.</l>
+<l>Og naar me kom up og vardt stelte i Rad,</l>
+<l>so vardt eg den fremste for Presten.</l>
+</lg>
+</div>
+<div type="uchapter">
+<head type="sub">Daa Olaf vardt bergtekjen</head>
+<lg>
+<l><pb n="10"/>Det var meg ein Kveld i Grunge-Nut,</l>
+<l>han Gjeiterna skulde henta.</l>
+<l>Eg var so ikring ein vaksen Gut,</l>
+<l>og tenkte paa Nordgards-Gjenta.</l>
+<l>Eg gjekk der og leitad in og ut.</l>
+</lg>
+<lg>
+<l>Der bita Bukkarne mangein Blom,</l>
+<l>og sjaa ned i Fossen under.</l>
+<l>Det l&#x00E6;gste Ljodet kjem att med Ljom.</l>
+<l>Det er dette gamle Under.</l>
+<l>Den Nuten er kjend for Tussedom.</l>
+</lg>
+<lg>
+<l>So strauk eg Blaamann i lange Skjegg,</l>
+<l>og sagde: &#x00AB;Me heim maa fara!&#x00BB;</l>
+<l>Det var so eg skalv i Led og Legg.</l>
+<l>Daa var det som nokot svarad;</l>
+<l>og Berget sprang up paa vidan Vegg.</l>
+</lg>
+<lg>
+<l><pb n="11"/>Det urd&#x0027; og krudde med B&#x00F8;yg og Bukk</l>
+<l>af Folk utor Berg og Haugom.</l>
+<l>So h&#x00F8;yrd&#x0027; eg imillom som Klynk og Klukk.</l>
+<l>Det svartnad med eit for Augom.</l>
+<l>Eg fekk ei for meg til Gud ein Sukk.</l>
+</lg>
+<lg>
+<l>Det skok og dunde og var slik Sus,</l>
+<l>som f&#x00E6;laste Fossen fl&#x00F8;ymer.</l>
+<l>So kvarv eg som burt i all den Brus.</l>
+<l>Det var, liksom naar du dr&#x00F8;ymer</l>
+<l>og fell ifraa Fjell og store Hus.</l>
+</lg>
+<lg>
+<l>So saag eg ein Skog af Glas i Krull,</l>
+<l>sovidt han minnest og meinar.</l>
+<l>Af finaste Silke var Salen full,</l>
+<l>og Stjernor var Glimesteinar,</l>
+<l>og Maanen var Sylv og Soli Gull.</l>
+</lg>
+<lg>
+<l>Det glimde og glodde af alle Ting,</l>
+<l>som Folk kunna gjera s&#x00E6;le.</l>
+<l>Det druste af Rikdom rundt ikring;</l>
+<l>men Folk var furtne og f&#x00E6;le</l>
+<l>og gjerde meg inne i ein Ring.</l>
+</lg>
+<lg>
+<l><pb n="12"/>So sprang dei ikring meg hovudstup</l>
+<l>og spente med H&#x00E6;l og Hasar;</l>
+<l>og lo, so dei stod i Kruk og Krup,</l>
+<l>og kr&#x00F8;kte paa lange Nasar</l>
+<l>og var, som dei vilde meg eta up.</l>
+</lg>
+<lg>
+<l>Med eit ei Gjente eg fekk at sjaa:</l>
+<l>ho lyste som ljose Dagen.</l>
+<l>Og alle dei Troll dei r&#x00F8;mde daa,</l>
+<l>som slegne af all den Agen.</l>
+<l>So leikar ho kring meg til og fraa.</l>
+</lg>
+<lg>
+<l>So saag ho paa meg og skifte Lit;</l>
+<l>og endeleg slikt ho talar:</l>
+<l>&#x00AB;Eg takkar deg, Mann, for du kom hit:</l>
+<l>her sviv eg i desse Salar,</l>
+<l>i Glans af Gull utan Mannavit.</l>
+</lg>
+<lg>
+<l>No verdt det kring tusund Aar til Jol,</l>
+<l>fraa eg kom i Haug og Hamrar.</l>
+<l>Ei Dronning eg er paa Silkestol</l>
+<l>og midt i mit Gull meg jamrar,</l>
+<l>og lengtar so saart efter Folk og Sol.</l>
+</lg>
+<lg>
+<l><pb n="13"/>Det skjek vel i deg, som i meg det skok,</l>
+<l>daa Dag imot Nott eg skifte?</l>
+<l>Eg tok ein Mann som var litet klok.</l>
+<l>For Gull det var eg meg gifte.</l>
+<l>So vardt han Troll og til Bergs meg tok.</l>
+</lg>
+<lg>
+<l>Eg trappar i Golv, og alting sker.</l>
+<l>Dei Troll ifraa meg eg jagar.</l>
+<l>Men Livet meg drep, for det st&#x00F8;dt seg teer</l>
+<l>i &#x00E6;veleg&#x0027; Ungdomsdagar.</l>
+<l>Eg f&#x00E6;r ikki d&#x00F8;y, fyrr Sol eg seer.</l>
+</lg>
+<lg>
+<l>Det var meg for trongt paa Heimsens &#x00D8;y,</l>
+<l>og alting eg vilde hava.</l>
+<l>Eit Merke eg stend for Mann og M&#x00F8;y,</l>
+<l>som alting vil til seg grava.</l>
+<l>Aa, elsk meg sovidt, at eg kann faa d&#x00F8;y!&#x00BB;</l>
+</lg>
+<lg>
+<l>&#x00AB;D&#x0027;er Raad til dess at Ein kann faa d&#x00F8;y,&#x00BB;</l>
+<l>han svarar med Taar paa Kinnar,</l>
+<l>&#x00AB;for Folk dei liva som Gras og H&#x00F8;y,</l>
+<l>og fara som Lauv for Vindar.</l>
+<l>Men du skal vera mi Festarm&#x00F8;y.&#x00BB;</l>
+</lg>
+<lg>
+<l><pb n="14"/>Eg slengde Kniv under gylde Tak,</l>
+<l>og Soli af Gull seg gj&#x00F8;ymde.</l>
+<l>Daa vardt der Skjelv og daa vardt der Skak,</l>
+<l>og Fossar ikring meg fl&#x00F8;ymde;</l>
+<l>for Berget rivnad med Torebrak.</l>
+</lg>
+<lg>
+<l>I Dagen mi Dronning fraa meg foor</l>
+<l>og glapp or dei heppne Hender,</l>
+<l>lik Dogg for Sol fraa den gr&#x00F8;ne Jord,</l>
+<l>som burt up i Lufti renner</l>
+<l>og legg seg for Sol som gylde Flor.</l>
+</lg>
+<lg>
+<l>Det var som ein Svevn, det eg fekk sjaa,</l>
+<l>og up eg vaknad som valen.</l>
+<l>Naar eg det minnest, &#x2013; det tidt kjem paa &#x2013;,</l>
+<l>eg stend og stirer som galen.</l>
+<l>Du seer og dr&#x00F8;ymer, men ei kann faa.</l>
+</lg>
+</div>
+<div type="uchapter">
+<head type="sub">Olaf verdt H&#x00E6;rmann</head>
+<lg>
+<l><pb n="15"/>Ved tjug&#x0027; Aars Aldren var det eg vardt skriven,</l>
+<l>og vardt til det, me kalla Kongens Kar.</l>
+<l>D&#x0027;er hardt, naar slikt du fraa din Heim verdt driven.</l>
+<l>Men glad eg gjekk i Fa&#x0027;r mins Fotafar;</l>
+<l>og <hi rend="italic">daa</hi> eg kjende, at ein Mann eg var,</l>
+<l>naar ut mot Fienden eg skulde fara,</l>
+<l>og slikt med Haand og Foten vera snar,</l>
+<l>som naar du Eld og Glod vil af deg kara:</l>
+<l>Det er for Land og Folk og Konge du skal svara.</l>
+</lg>
+<lg>
+<l>Til Kongens Kj&#x00F8;benhavn det maatte bera;</l>
+<l>for tvo og sjutti Tumar var eg haag.</l>
+<l>Og slike Stormenn laut kring Kongen vera;</l>
+<l>og so eg aarevis dernede laag.</l>
+<l>Og mange store, gj&#x00E6;ve Ting eg saag,</l>
+<l>som ikki her so rett eg om kann syngja.</l>
+<l><pb n="16"/>Men Kongen saag eg og hans Son og Maag.</l>
+<l>Eit Syn det er, som Gamlen up kann yngja.</l>
+<l>Og der eg pr&#x00F8;vad gamalt Sverd og Hjelm og Brynja.</l>
+</lg>
+<lg>
+<l>Og ned til Holstein og me maatte draga;</l>
+<l>for Krig mot Russen var det meint at faa.</l>
+<l>Men anderleides skulde det seg laga,</l>
+<l>og andre Karar var det eg fekk slaa.</l>
+<l>Eg synes enno digre Tysken sjaa,</l>
+<l>som tidt eg smurde up paa Dansesalar;</l>
+<l>men mest den Fleskesluggen r&#x00F8;mde fraa,</l>
+<l>med alt det store Skryt og Kyt han pralar</l>
+<l>og med sit Skum i Munn og Grautem&#x00E6;le talar.</l>
+</lg>
+<lg>
+<l>Den snille Dansken ingen Mann skal vraka.</l>
+<l>Men Munnen han er full af Vrid og Vraal.</l>
+<l>Og heile Tylvter Danskar skal eg taka;</l>
+<l>&#x2013; det gjeng som naar du bryter gr&#x00F8;ne Kaal &#x2013;.</l>
+<l>Du kjenner Dansken paa hans mjuke Maal</l>
+<l>med Ord og Ordalag som Tvaatteklutar.</l>
+<l>Ja, der er litet af det Norske Staal</l>
+<l>med all den Sprett og Spenn i Norske Gutar.</l>
+<l>Her dansa Ord som Bekkebaand fraa Fjell og Nutar.</l>
+</lg>
+<lg>
+<l>Men endaa likar eg den gode Dansken;</l>
+<l>for betre Hjartalag eg sjeldan fann;</l>
+<l>og aldri skal du sjaa eg kastar Handsken</l>
+<l><pb n="17"/>til Strid paa Odd og Egg med denne Mann.</l>
+<l>Og slike fagre D&#x00F8;tter eiger han!</l>
+<l>Du veit, at Hermod Aaland tok a&#x0027; Mette.</l>
+<l>Den Blomen i sit Gardeliv han vann.</l>
+<l>Han elskad mange; men ho var den rette.</l>
+<l>Ifjor ho atter fekk ein Son, &#x2013; det var den sette.</l>
+</lg>
+<lg>
+<l>Me arme Menn om fagre Gjentor dr&#x00F8;yma;</l>
+<l>og denne Draumen varer mange Aar.</l>
+<l>Somange slike Minne paa meg str&#x00F8;yma,</l>
+<l>at tidt eg gjeng, som eg var sjuk og saar.</l>
+<l>Ja, naar ihug me koma Elsken vaar,</l>
+<l>so er det so i Merg og Bein det silar.</l>
+<l>Som svarte Skuggen kring du gaar og gaar;</l>
+<l>du lengtar, trur og trur, og so du tvilar,</l>
+<l>og liksom Orren blundande paa Leiken spilar.</l>
+</lg>
+</div>
+<div type="uchapter">
+<head type="sub">Olaf f&#x00E6;r pr&#x00F8;va mangt</head>
+<lg>
+<l><pb n="18"/>Til Kj&#x00F8;benhavn eg laut, som sagt,</l>
+<l>so var det i min Lagnad lagt,</l>
+<l>for slikt i Kongens Bod det het.</l>
+<l>Men dei, som heime sat, dei gret.</l>
+</lg>
+<lg>
+<l>Men mest gret Anne, arme M&#x00F8;y.</l>
+<l>Eg trudde plent ho skulde d&#x00F8;y.</l>
+<l>Me var trulovad nettup daa.</l>
+<l>Og ut eg laut so langt ifraa!</l>
+</lg>
+<lg>
+<l>Me unge tvo, me lovad heitt,</l>
+<l>at me skuld&#x0027; vera liksom eitt.</l>
+<l>Og so for Gud me &#x00E6;rlegt svor,</l>
+<l>at me skuld&#x0027; trugne halda Ord.</l>
+</lg>
+<lg>
+<l><pb n="19"/>Men eg vardt burte mange Aar.</l>
+<l>Og Tidi l&#x00E6;kjer alle Saar.</l>
+<l>Eg sende Bod og Bod ho gav,</l>
+<l>Men sist eg fann, ho dovnad af.</l>
+</lg>
+<lg>
+<l>Det kom ein Gut med st&#x00F8;rre Gard.</l>
+<l>Og trugad vardt ho af sin Fa&#x0027;r.</l>
+<l>Det Bodskap var mitt fyrste Slag.</l>
+<l>Eg trudde det var Domedag.</l>
+</lg>
+<lg>
+<l>Eg gjekk og hatad Kver og Ein</l>
+<l>og flaug som Troll i Berg og Stein.</l>
+<l>Eg ingen saag i Hugen glad;</l>
+<l>eg minnest enno det eg kvad:</l>
+</lg>
+<lg>
+<l>&#x00AB;Her er so tungt for Mann og M&#x00F8;y</l>
+<l>i dette Liv so sjukt og saart.</l>
+<l>Me slita stridt, fyrr me faa d&#x00F8;y</l>
+<l>og sleppa dette Livet vaart.</l>
+<l>Ja, Livet er ein Klagesong,</l>
+<l>og Ljoset sloknar for vaar Fot.</l>
+<l>Her er slik Armod, Naud og Trong,</l>
+<l>at Blodet spring fraa Naglarot.</l>
+</lg>
+<lg>
+<l><pb n="20"/>Dei ljose Stundar i vaar Sorg,</l>
+<l>naar Livet liksom lyser klaart,</l>
+<l>me taka Himilen paa Borg.</l>
+<l>Men me faa svida for det saart.</l>
+<l>Det spring fraa Smil til Auga vaatt,</l>
+<l>der Lik kjem in i Brudlaups Lag;</l>
+<l>og Notti kjem med graatt i graatt,</l>
+<l>og svarte Sky med Toreslag.</l>
+</lg>
+<lg>
+<l>So ilt det heile Livet l&#x00E6;t</l>
+<l>og sveiper seg i svarte Sut.</l>
+<l>Det er, som Jord og Himil gr&#x00E6;t</l>
+<l>og lengtar efter L&#x00F8;ysning ut.</l>
+<l>Kver Drope Dogg er som ei Taar.</l>
+<l>Med takka maa, med Kjelda fann,</l>
+<l>so me faa dogga Sorgi vaar,</l>
+<l>og med i alt me graata kann.</l>
+</lg>
+<lg>
+<l>Ein Krig det heile Livet er:</l>
+<l>Kver river aat seg olm og yr</l>
+<l>og spenner, h&#x00F8;gg og sting og sl&#x00E6;r,</l>
+<l>og biter som eit annat Dyr.</l>
+<l>Ein eta vil den andre up</l>
+<l>og svelgja alt, han veit og kann.</l>
+<l>Det gjeng paa Plunder hovudstup</l>
+<l>fraa Makk i Mold og up til Mann.</l>
+</lg>
+<lg>
+<l><pb n="21"/>Det er slikt Bit og Slit, at du</l>
+<l>kann missa baade Vit og Sans,</l>
+<l>naar du skal leika deg og snu</l>
+<l>i denne ville Drauge-Dans.</l>
+<l>So up og ned og paa og af</l>
+<l>me storma denne Dansen lang,</l>
+<l>til dess paa Slutt den opne Grav</l>
+<l>os teker i sit svarte Fang.&#x00BB;</l>
+</lg>
+</div>
+<div type="uchapter">
+<head type="sub">Olaf maa elska</head>
+<lg>
+<l><pb n="22"/>Aldri lenge kann han vera</l>
+<l>vond og myrk den gode Mannen:</l>
+<l>kann han ei den eine elska,</l>
+<l>maa han elska strax ein annan.</l>
+</lg>
+<lg>
+<l>Anne sveik meg. Store Under,</l>
+<l>at eg dette kunde bera!</l>
+<l>Men paa Slutten so eg tenkte:</l>
+<l>&#x00AB;Slikt kann mangei Anne gjera.</l>
+</lg>
+<lg>
+<l>Millom alt det gode varme</l>
+<l>tidt du maa i kaldt deg lauga.</l>
+<l>Slikt aa S&#x00E6; kjem tidt, sa&#x0027; S&#x00E6;len,</l>
+<l>daa han skoten vardt i Auga.</l>
+</lg>
+<lg>
+<l><pb n="23"/>Anne sveik meg! arme Gjenta!</l>
+<l>Nei eg viste det var Fa&#x0027;ren.</l>
+<l>Han som mange gode Gamle</l>
+<l>elskad mest den st&#x00F8;rste Garden.</l>
+</lg>
+<lg>
+<l>Gjenta lik dei gode Gamle</l>
+<l>tidt paa gilde Garden tenker.</l>
+<l>Gjenta, er det sagt, som Fluga</l>
+<l>leikar best kring det, som blenker.</l>
+</lg>
+<lg>
+<l>Efter det, som gloor, me alle</l>
+<l>laupa, so me litet sansa.</l>
+<l>Liksom J&#x00F8;darne i Morki,</l>
+<l>kring ein Kalv af Gull me dansa.</l>
+</lg>
+<lg>
+<l>Kanske Anne var so lagad,</l>
+<l>at ho st&#x00F8;rre Stasen turfte?</l>
+<l>Og vil ho med ikki hava,</l>
+<l>er det best, at ho verdt burte.</l>
+</lg>
+<lg>
+<l>Efter Skatten, som seg gj&#x00F8;ymer,</l>
+<l>kloke Mann skal aldri grava.</l>
+<l>Gjenta, som ifraa deg r&#x00F8;mer,</l>
+<l>v&#x00F8;re st&#x00F8;rste Pest at hava.</l>
+</lg>
+<lg>
+<l><pb n="24"/>Gjord ho er af annat Virke,</l>
+<l>vilde Verk og Vaa deg gjera.</l>
+<l>Dersom ho er skapt for nokon,</l>
+<l>maa det for ein annan vera.&#x00BB;</l>
+</lg>
+<lg>
+<l>Slikt til Liv eg up meg mannad,</l>
+<l>men eg stundom sat og sturde.</l>
+<l>Slikt med gamal Visdomsl&#x00E6;ra</l>
+<l>mine arme Saar eg smurde.</l>
+</lg>
+<lg>
+<l>Maren fann eg daa den beste.</l>
+<l>Stundom gjekk eg reint som tufsen.</l>
+<l>Men eg endaa fann, at Elsken</l>
+<l>vantad liksom rette Gufsen.</l>
+</lg>
+<lg>
+<l>So ein Kveld, me Kongens Karar,</l>
+<l>drukko &#x00D8;l og Danske Drammar,</l>
+<l>og kom snart om det at tala,</l>
+<l>som paa Dansk verdt kallat &#x00AB;Flammer.&#x00BB;</l>
+</lg>
+<lg>
+<l>&#x00AB;For mi Maren,&#x00BB; skreik den eine,</l>
+<l>&#x00AB;for mi Maren skal eg borge.</l>
+<l>Ho er rein og kvit den Gjenta</l>
+<l>liksom Snjoen up i Norge.&#x00BB;</l>
+</lg>
+<lg>
+<l><pb n="25"/>&#x00AB;For mi Maren,&#x00BB; skreik den andre;</l>
+<l>&#x00AB;Festarm&#x00F8;yi mi er Maren.&#x00BB;</l>
+<l>&#x00AB;Maren di!&#x00BB; skreik den tridje;</l>
+<l>&#x00AB;meinar Fa&#x0027;n er i deg faren!&#x00BB;</l>
+</lg>
+<lg>
+<l>Det vardt Slagsmaal, og den eine</l>
+<l>hit og dit den andre slengde;</l>
+<l>og i denne Leik eg alle</l>
+<l>Festarmenn til Maren dengde.</l>
+</lg>
+<lg>
+<l>Sistpaa alle Mann i Ringen</l>
+<l>up dei reis og heim seg stavad.</l>
+<l>Men ho Maren, ho fekk ingen;</l>
+<l>for ho vilde alle hava.</l>
+</lg>
+</div>
+<div type="uchapter">
+<head type="sub">Olaf h&#x00F8;yrer Musik og Song i Byen</head>
+<lg>
+<l><pb n="26"/>Den fyrste Gong eg kom til Byen,</l>
+<l>daa var eg alt ein vaksen Gut.</l>
+<l>Fraa Fjell, som stinga up mot Skyen&#x0027;,</l>
+<l>lik Bekk mot Fjorden rann eg ut.</l>
+<l>I Dalen der og up paa Flyen&#x0027;</l>
+<l>eg las og kvad somangteit Dikt,</l>
+<l>og havde myket h&#x00F8;yrt om Byen,</l>
+<l>men trudde aldri det var slikt.</l>
+</lg>
+<lg>
+<l>Daa fann eg det, som fyrst eg dr&#x00F8;ymde,</l>
+<l>daa eg til Kyrkja havde k&#x00F8;yrt.</l>
+<l>Daa h&#x00F8;yrd&#x0027; eg klaart det, tidt eg gl&#x00F8;ymde</l>
+<l>og havde som i Berget h&#x00F8;yrt.</l>
+<l>Daa var det slikt, at Taarer str&#x00F8;ymde;</l>
+<l>for alt forklaarat daa eg fann.</l>
+<l>Og i mit Minne det eg gj&#x00F8;ymde,</l>
+<l>so eg det aldri gl&#x00F8;yma kann.</l>
+</lg>
+<lg>
+<l><pb n="27"/>Om Fossegrimen mangein talar;</l>
+<l>men han fekk aldri Hugen min. &#x2013;</l>
+<l>Aa ja! naar Hyrding-Gjenta jalar,</l>
+<l>det kann vel vekkja Hugen din,</l>
+<l>og likeins, naar i djupe Dalar</l>
+<l>det kjem af Tonar som ei Flod.</l>
+<l>Men annat er i desse Salar</l>
+<l>med Tonar utaf Eld og Glod.</l>
+</lg>
+<lg>
+<l>Det Tonar er paa annan Maaten,</l>
+<l>en dei som vekte fyrst mit Mod.</l>
+<l>Det annat er, en daa i Baaten</l>
+<l>fraa Lid eg h&#x00F8;yrde Ludrens Ljod.</l>
+<l>Aa&#x2013;haa! ja det er annan Laaten!</l>
+<l>&#x2013; Nei aldri det eg gl&#x00F8;yma skal &#x2013;;</l>
+<l>for slikt det er, at jamv&#x00E6;l Graaten</l>
+<l>kjem fram i reine Tonefall.</l>
+</lg>
+</div>
+<div type="uchapter">
+<head type="sub">Det gjeng godt for&#x0027;n Olaf</head>
+<lg>
+<l><pb n="28"/>D&#x0027;er litet atter af ein Kar,</l>
+<l>som i sin Elsk er sviken.</l>
+<l>Han gjeng, som han ein Skugge var,</l>
+<l>og aldri saag du Liken:</l>
+<l>Han hatar Mann, han hatar M&#x00F8;y,</l>
+<l>og flyg som Skodd paa Heidar.</l>
+<l>Han ynskjer, snart han maatte d&#x00F8;y</l>
+<l>Og sleppa falske Eidar.</l>
+</lg>
+<lg>
+<l>Eg visst&#x0027; ei, om eg Sud ell&#x0027; Nord</l>
+<l>ell&#x0027; Aust ell&#x0027; Vest var faren,</l>
+<l>for sviket havde dei sit Ord,</l>
+<l>ho Anne og ho Maren.</l>
+<l>Eg trudde vel, at Maren var</l>
+<l>so heiltupp ei den sanne.</l>
+<l>So det, som mest til Hjarta skar,</l>
+<l>var Lygni hennes Anne.</l>
+</lg>
+<lg>
+<l><pb n="29"/>Men rett som slik i Sorg eg gjekk</l>
+<l>og hatad heile Verdi,</l>
+<l>ei Bod ifraa ein Norsk eg fekk,</l>
+<l>at Anne var paa Ferdi.</l>
+<l>Ho havde reist fraa Fa&#x0027;r og Mo&#x0027;r</l>
+<l>og vilde up meg s&#x00F8;kja.</l>
+<l>Og gjenom heile Sverge foor</l>
+<l>den stakkars vesle Kr&#x00F8;kja.</l>
+</lg>
+<lg>
+<l>So var ein Dag eg stod paa Vakt,</l>
+<l>&#x2013; den Vakt tek ingen Ende &#x2013;</l>
+<l>det til meg af ein Mann vardt sagt:</l>
+<l>&#x00AB;Her kjem til deg eit Kvende.</l>
+<l>Ho er fraa Norge, h&#x00F8;yrer eg,</l>
+<l>Ein Kj&#x00E6;rast&#x0027;, kann eg banne.</l>
+<l>Med Graat og Laat ho s&#x00F8;kjer deg.&#x00BB;</l>
+<l>Aa, jau, det var ho Anne.</l>
+</lg>
+<lg>
+<l>Daa fekk eg sjaa det falske Spil;</l>
+<l>daa kom det heile Ordet,</l>
+<l>at Anne n&#x00E6;r var trugad til</l>
+<l>at taka Gjermund Jordet.</l>
+<l>Men daa det galdt, vardt Anne &#x00F8;r</l>
+<l>og vilde up meg finne</l>
+<l>og gjorde det, som aldri f&#x00F8;r</l>
+<l>var gjort i Manna-Minne.</l>
+</lg>
+<lg>
+<l><pb n="30"/>Ho kvad (Aa nei! i Sorg du kann</l>
+<l>ei kveda, so det h&#x00F8;ver;</l>
+<l>for fagre Ord du aldri fann,</l>
+<l>naar Tvivl og Elsk deg kj&#x00F8;ver.</l>
+<l>D&#x0027;er fyrst, naar up du vakna f&#x00E6;r</l>
+<l>ifraa den vonde Draumen,</l>
+<l>at i din Song om den der er</l>
+<l>den rette fulle Flaumen):</l>
+</lg>
+<lg>
+<l>&#x00AB;Aa hjelp&#x0027; og tr&#x00F8;ste meg! min Olaf kann</l>
+<l>du gl&#x00F8;yma, at eg liksom up deg gav?</l>
+<l>Eg efter gav ei Stund, men Ro ei fann.</l>
+<l>Det var som ned eg stirde i mi Grav.</l>
+</lg>
+<lg>
+<l>For veik eg var, og er deg aldri verd.</l>
+<l>Eg gjorde Synd, og efter Synd kom Sut.</l>
+<l>Det bit og brenn og ingen Ende f&#x00E6;r:</l>
+<l>Den Orm ei d&#x00F8;yr, den Eld ei sloknar ut.</l>
+</lg>
+<lg>
+<l>Du burte var; eg fekk ei Ord til deg</l>
+<l>og segja Blomen din var frisk i Rot.</l>
+<l>Eg fann ei Fred, fyrr eg den lange Veg</l>
+<l>fekk fara paa min arme nakne Fot.</l>
+</lg>
+<lg>
+<l><pb n="31"/>Eg ventar Svar og ser paa Munnen din.</l>
+<l>Kom med eit Ord, og gjev mit hjarta Ro!</l>
+<l>Ver naadig og deg tenk i Staden min:</l>
+<l>Eg stod og brann imillom Eldar tvo.</l>
+</lg>
+<lg>
+<l>So svar meg godt! Du er so klok og blid.</l>
+<l>Der heime foor eg kring so tr&#x00F8;ytt og vaat,</l>
+<l>og spurde Berg og Stein og Fjell og Lid.</l>
+<l>Men alting svarad med min eigen Graat.&#x00BB;</l>
+</lg>
+</div>
+<div type="uchapter">
+<head type="sub">Det gjeng &#x0027;n Olaf baade godt og vondt</head>
+<lg>
+<l><pb n="32"/>At med mi Anne snart eg vardt forlikt,</l>
+<l>veit Alle, som med meg hev&#x0027; pr&#x00F8;vat slikt.</l>
+<l>Mi Tid var ute, L&#x00F8;ysepas eg fekk,</l>
+<l>og heim til Norge eg med Anne gjekk.</l>
+<l>Daa gjekk det lett, om Foten tidt var saar.</l>
+<l>Og med vardt endaa vigde same Vaar.</l>
+<l>Det var den Vaaren, Grungebru vardt bygd.</l>
+<l>Og Brudlaupet vardt spurt fraa Bygd til Bygd;</l>
+<l>for det var der, at gamle Olaf Bjaaland,</l>
+<l>den Kj&#x00E6;mpekaren, dengde Hermod Aaland.</l>
+</lg>
+<lg>
+<l rend="indent_1">So Garden efter Fa&#x0027;r min daa eg fekk,</l>
+<l>og so ei Stund framefter godt det gjekk.</l>
+<l>&#x00AB;D&#x0027;er godt at faa,&#x00BB; so sagde tidt han Fa&#x0027;r,</l>
+<l>&#x00AB;ei unger Kone og ein gamal Gard.</l>
+<l>D&#x0027;er lett med desse tvo at liva vel;</l>
+<l>og Skam faa den, som ei med det er s&#x00E6;l.&#x00BB;</l>
+</lg>
+<lg>
+<l rend="indent_1"><pb n="33"/>Eg livde vel, men Lykka med meg braut:</l>
+<l>For kvert ein Barn eg fekk, eg mist&#x0027; eit Naut.</l>
+<l>Tidt gjekk det paa: det jamleg var kver Vaar,</l>
+<l>og i det mindste eit kvart-annat Aar.</l>
+<l>Slikt var paatverke, og eg sleit meg sliten.</l>
+<l>Min Barnaflokk vardt stor og Buskap liten.</l>
+<l>Der mange Gjester kom kring vesle Fat.</l>
+<l>Til fleire Munnar vardt der mindre Mat.</l>
+</lg>
+<lg>
+<l>Vaar Lagnad, sagde Folk, slikt ut vardt skift,</l>
+<l>for me af berre Elsk os havde gift,</l>
+<l>og aldri vilde slaa det mindste af,</l>
+<l>og tru paa det, som mest i Pungen gav.</l>
+</lg>
+<lg>
+<l>Men Tingen var, sovidt eg no kann sjaa,</l>
+<l>at Feet vaart me godt ei passad paa.</l>
+<l>Og naar som tidt eg Hestar havde bytt,</l>
+<l>eg attpaa merkte at eg st&#x00F8;dt var snytt.</l>
+<l>Eg trodde Livet ei med Heste-Hov,</l>
+<l>og aldri aat meg som eit Klodyr grov.</l>
+<l>Kring Born og Kona sat eg altfor glad</l>
+<l>og altfor myket las i Bok og kvad.</l>
+<l>Og Anne var paa sama Gjerd som eg,</l>
+<l>og tenkte meir paa andre en paa seg.</l>
+<l>Naar Fatikmann med Posen tryglad paa,</l>
+<l>ho tidt gav burt det Korn, eg skulde saa.</l>
+<l><pb n="34"/>Og slikt me gl&#x00F8;ymde burt vaar eigen Munn,</l>
+<l>til me paa Slutten gjekk fraa Gard og Grunn.</l>
+<l>Og det, me fekk til L&#x00F8;n, var litet godt:</l>
+<l>Det var, som kver kann vita, Spe og Spott.</l>
+<l>For Folk er kloke, og som Isen haale:</l>
+<l>Eg gjekk for Galning, Anne for ei Jaale.</l>
+</lg>
+<lg>
+<l rend="indent_1">Men Born me havde som det gode Gull.</l>
+<l>Sovidt eg minnest, var det Tylvti full.</l>
+<l>Og derfor saag eg ingen Mann meg lik.</l>
+<l>Den, som hev&#x0027; mange gode Born, er rik.</l>
+<l>Som Blomen gro dei up og faa si Tid,</l>
+<l>og Verdi er for alle stor og vid,</l>
+<l>so kver, som brukar seg, vil finna Braud:</l>
+<l>du aldri saagst den Gode lida Naud.</l>
+</lg>
+<lg>
+<l>I denne Tylvt af Born var Gjentor tri,</l>
+<l>og so ialt eg havde Gutar ni.</l>
+<l>Bland desse nie Gutar var der ein,</l>
+<l>som mot dei andre var som Flint mot Stein,</l>
+<l>som Hallingj&#x00F8;kulen mot Veslebr&#x00E6;,</l>
+<l>som heile Nordsjaa imot Langes&#x00E6;,</l>
+<l>som Gautstod er mot runde Raudbergnut,</l>
+<l>og derfor var han kallad &#x00AB;<hi rend="italic">Storegut</hi>&#x00BB;.</l>
+<l rend="indent_1">Om du er vreid, paa Born du seer deg blid.</l>
+<l>Dei spring&#x0027; og dansa liksom Bukkekid.</l>
+<l><pb n="35"/>Dei kvittra liksom Fugl mot ljose Dag.</l>
+<l>Der sprakar Liv i kvert eit Andlitsdrag.</l>
+<l>Ho blenker kvit og kvass den unge Tann.</l>
+<l>Det er, som Mat og Kl&#x00E6;de af deim brann.</l>
+<l>At vera arm og eiga slike smaa,</l>
+<l>det gjer deg tankefull og leitar paa.</l>
+<l>Eg om vardt skapt, eg skifte Sinn og Aand,</l>
+<l>og Staven tok eg i den andre Haand.</l>
+<l>Eg drog til Huset godt af alle Slag.</l>
+<l>Eg &#x00AB;Kj&#x00F8;kemeistar&#x00BB; var i Leik og Lag.</l>
+<l>Eg fangad Fugl og Fisk, skaut Rev og Rein,</l>
+<l>og dreiv med Hest og Skinn og Brynestein.</l>
+<l>So ut paa Bygdi eg som Doktar drog</l>
+<l>og sette mangein Kopp og Aadrer slog.</l>
+</lg>
+<lg>
+<l>Eg visste Raad, og Bot eg kunde te,</l>
+<l>naar nokon Trollskap kom paa Folk og Fe;</l>
+<l>so mange Folk meg for ein Trollmann tok,</l>
+<l>og krossad seg og so med Hovud skok</l>
+<l>og trudd&#x0027; eg gjekk med &#x00AB;stygge Svartebok&#x00BB;.</l>
+<l>For det, eg gjorde, var eg aldri dyr.</l>
+<l>Og so fortald&#x0027; eg gamle Eventyr,</l>
+<l>og diktad Stev, naar gode Folk meg bad,</l>
+<l>og so imillom gamle Visor kvad.</l>
+<l>So laut eg atter ut i lange Sving,</l>
+<l>som Fuglen fraa sit Reide fyk ikring</l>
+<l><pb n="36"/>og pikkar der, han seer det mindste Grand,</l>
+<l>han til dei Smaa i Nebben sleppa kann,</l>
+<l>til dess dei Dun og fulle Vengjer faa,</l>
+<l>so dei som han kann leika til og fraa.</l>
+<l rend="indent_1">So sleit eg fram, var glad og godt kom ut.</l>
+<l>Og no de h&#x00F8;yra skal om &#x00AB;Storegut&#x00BB;.</l>
+</lg>
+</div>
+</div>
+<div type="chapter">
+<head type="main"><ref type="contents" target="contents_4" xml:id="chapter_4">STOREGUT</ref></head>
+<div type="uchapter">
+<head type="sub">Upvokstren hans</head>
+<lg>
+<l><pb n="39"/>Han liten var, fyrr han vardt stor.</l>
+<l>Det er den gamle Laaten.</l>
+<l>Og fyrr han havde l&#x00E6;rt eit Ord,</l>
+<l>han altid tok til Graaten.</l>
+</lg>
+<lg>
+<l>Som Katten r&#x00E6;dd den vaate Laug,</l>
+<l>kring Mor han vilde hanga.</l>
+<l>Han fyrst ikring paa Fire flaug,</l>
+<l>fyrr rett han l&#x00E6;rde ganga.</l>
+</lg>
+<lg>
+<l>Fraa han fik Foten under seg,</l>
+<l>han sprang paa Berg og Nutar,</l>
+<l>og up han voks som du og eg,</l>
+<l>og andre slike Gutar.</l>
+</lg>
+<lg>
+<l><pb n="40"/>Ho Anne skulde eingong ut</l>
+<l>&#x2013; han var vel lang ei Alen &#x2013;</l>
+<l>daa stengd&#x0027; ho inne Veslegut,</l>
+<l>som skreik som han var galen.</l>
+</lg>
+<lg>
+<l>Han flaug det heile Hus ikring,</l>
+<l>solenge til han dovnad,</l>
+<l>og skreik og skreik, det arme Ting,</l>
+<l>til han i Oska sovnad.</l>
+</lg>
+<lg>
+<l>Til Mo&#x0027;r hans daa for slikei Ferd</l>
+<l>eg sagde mest i Sinne:</l>
+<l>&#x00AB;Eg meinar du fraa Vitet er,</l>
+<l>som stenger Guten inne.&#x00BB;</l>
+</lg>
+<lg>
+<l>Hans fyrste Ungdom dreiv som Dogg,</l>
+<l>som Morgonsoli jagar.</l>
+<l>Og berre eingong fekk han Hogg</l>
+<l>i alle sine Dagar:</l>
+</lg>
+<lg>
+<l>Det var, for han den Vanen fekk</l>
+<l>at fanta kring og fljuga,</l>
+<l>og eingong, som det galet gjekk,</l>
+<l>han burt det vilde ljuga.</l>
+</lg>
+<lg>
+<l><pb n="41"/>Han Hyrding var og sprang og sleit</l>
+<l>paa gamle Gute-Visen.</l>
+<l>Han gj&#x00E6;tte Ku og Saud og Gjeit</l>
+<l>og stundom jamvel Grisen.</l>
+</lg>
+<lg>
+<l>Han maatte varna Aakrens Bar</l>
+<l>med all den Magt, han aatte.</l>
+<l>Om Tora slog, som r&#x00E6;dd han var,</l>
+<l>til Skogs han endaa maatte.</l>
+</lg>
+<lg>
+<l>Naar Ku til Skogs for Kleggen flaug</l>
+<l>og sprengde Grindefalsen,</l>
+<l>han sprang som i ei Sveite-Laug,</l>
+<l>og Blodet brann i Halsen.</l>
+</lg>
+<lg>
+<l>I Regn og Kj&#x00F8;ld, naar han var vaat,</l>
+<l>og Snjoen laag paa Nuten,</l>
+<l>det Tuttring var og stakkars Graat</l>
+<l>paa vesle frosne Guten.</l>
+</lg>
+<lg>
+<l>Og naar so &#x00AB;Blaamann&#x00BB; burte var,</l>
+<l>og Reven attaat gj&#x00F8;ydde,</l>
+<l>og so han saag eit Skrubbe-Far,</l>
+<l>han trudde plent, han d&#x00F8;ydde.</l>
+</lg>
+<lg>
+<l><pb n="42"/>Og tr&#x00F8;ytt han skalv som Ospeblad</l>
+<l>og sat paa Bj&#x00F8;rkestubben.</l>
+<l>Til Gud for Bukken sin han bad,</l>
+<l>og bannad so paa Skrubben.</l>
+</lg>
+<lg>
+<l>Og naar han vardt fraa Gj&#x00E6;ting laus,</l>
+<l>han sprang og klappad Hender</l>
+<l>og efter Fisken flaug og fraus</l>
+<l>og Trastar skaut og Ender.</l>
+</lg>
+<lg>
+<l>Du vyrder litet, om du slit,</l>
+<l>og frys, til du verdt valen;</l>
+<l>for naar fyrst Fisken viljugt bit,</l>
+<l>so verdt du mest som galen.</l>
+</lg>
+<lg>
+<l>Naar Snjo vardt djup i Dal og Lid,</l>
+<l>daa sat han litet inne,</l>
+<l>men rende kring paa gode Skid</l>
+<l>i Skog og Fjell og Finne.</l>
+</lg>
+<lg>
+<l>Det var vel gildt, naar Reven laag</l>
+<l>i Saksi der og baksad,</l>
+<l>og gildt, naar Rjupa kvit han saag</l>
+<l>i Snora flaug og flaksad.</l>
+</lg>
+<lg>
+<l><pb n="43"/>Det var eigong om Vetren daa</l>
+<l>me miste Vega-Leidi.</l>
+<l>For Fok me inkje kunde sjaa,</l>
+<l>men sat i Snjo paa Heidi.</l>
+</lg>
+<lg>
+<l>Han fraus; men Raad laut finnast paa &#x2013;</l>
+<l>eg maatte Frosten tvinga &#x2013;</l>
+<l>so vermde eg han F&#x00F8;ter smaa</l>
+<l>imot mi berre Bringa.</l>
+</lg>
+<lg>
+<l>I Hola der af Snjo med sat;</l>
+<l>daa snart han kjende Varmen,</l>
+<l>so drog eg up af Lomma Mat</l>
+<l>og tok&#x0027;n in mot Barmen.</l>
+</lg>
+<lg>
+<l>Det klaarnad up; og so paa Skid</l>
+<l>me rende fort som Elden</l>
+<l>framover Fjell og bratte Lid,</l>
+<l>og kom so heim om Kvelden.</l>
+</lg>
+<lg>
+<l>Daa Anne kom med &#x00F8;l i Gaus,</l>
+<l>eg sagde daa om Kvelden:</l>
+<l>&#x00AB;Sosnart eg saag, at Guten fraus,</l>
+<l>eg vardt so heit som Elden.</l>
+</lg>
+<lg>
+<l><pb n="44"/>Han enno er forliten, han,</l>
+<l>til slikt med meg at vera.</l>
+<l>Det vera maa den vaksne Mann</l>
+<l>til vaksne Verk at gjera.&#x00BB;</l>
+</lg>
+</div>
+<div type="uchapter">
+<head type="sub">Storegut tek imot sine H&#x00E6;rkl&#x00E6;de</head>
+<lg>
+<l><pb n="45"/>Til ein H&#x00E6;rmann vardt Storegut skriven,</l>
+<l>og i attande Aaret var han.</l>
+<l>So han fyrst ut i Verdi vardt driven,</l>
+<l>til at tena fyr Konge og Land.</l>
+<l>Det var Gut, som i Haand ei var valen,</l>
+<l>men til alting at gjera var f&#x00F8;r.</l>
+<l>So i Telthuset m&#x00F8;tt&#x0027; han paa &#x00AB;Dalen,&#x00BB;</l>
+<l>aa taka imot sin &#x00AB;Mundeur&#x00BB;.</l>
+</lg>
+<lg>
+<l>Men til Guten so stor og so fager</l>
+<l>var dei Kl&#x00E6;dningar alle for smaa:</l>
+<l>Af dei hundrade Gangar paa &#x00AB;Lager&#x00BB;</l>
+<l>var der ingen, han kunde faa paa</l>
+<l>utan T&#x00F8;yging i Ty, so det brakad</l>
+<l>i dei st&#x00F8;rste, han kunde faa fatt,</l>
+<l>og med Spaning og Slit, so det knakad,</l>
+<l>og Saumarne rivnad og spratt.</l>
+</lg>
+<lg>
+<l><pb n="46"/>Slikt han kl&#x00E6;dde seg b&#x00F8;ygd imot Veggen</l>
+<l>og so raud utaf Hite og Harm;</l>
+<l>for den Broki rakk midt ned paa Leggen</l>
+<l>og den Tr&#x00F8;ya til midt fram paa Arm.</l>
+<l>Han i Ryggen stod krokutt som Krakken;</l>
+<l>for af Tr&#x00F8;ya si bunden han er.</l>
+<l>Som ein Knapp siter Huva paa Nakken,</l>
+<l>og Vesten ihop han ei f&#x00E6;r.</l>
+</lg>
+<lg>
+<l>So han sprengde si &#x00AB;Uniform&#x00BB; sunder.</l>
+<l>Og den aldri var gjord fyr ein slik.</l>
+<l>So han gjekk der til Spott og til Under.</l>
+<l>Det var ingen kjend Storegut lik.</l>
+<l>For sin Storleik han gjekk der so sliten,</l>
+<l>og som Tullingen kringom han foor.</l>
+<l>Det er vondt nok at vera forliten,</l>
+<l>men verre at vera for stor.</l>
+</lg>
+<lg>
+<l>Og naar Maurar af Smaafolk dei logo,</l>
+<l>han som Ungar deim slengde ifraa.</l>
+<l>Det var Barnet, som sl&#x00E6;r, naar <hi rend="italic">dei</hi> slogo:</l>
+<l>Han var vaksen og slog ei dei Smaa.</l>
+<l>Slikt han gjekk der som Frikar paa &#x00AB;Dalen,&#x00BB;</l>
+<l>og var framifraa makalaus Gut.</l>
+<l>Men, so sagde dei Mannen var galen,</l>
+<l>som slikt bar seg aat og saag ut.</l>
+</lg>
+<lg>
+<l><pb n="47"/>Men, den Kaptein var betre en Andre.</l>
+<l>Han var glad slik ein Storing at sjaa.</l>
+<l>Og han sa&#x0027;: &#x00AB;No du heimatt kann vandre,</l>
+<l>til me Uniform aat deg kann faa.</l>
+<l>Det er godt, at me stundom faa sprengja</l>
+<l>denne Tr&#x00F8;ya, dei fleste faa paa.</l>
+<l>Til det store me hjarteleg trengja</l>
+<l>bland alt dette stakarsleg smaa.&#x00BB;</l>
+</lg>
+</div>
+<div type="uchapter">
+<head type="sub">Storegut i si nye Uniform</head>
+<lg>
+<l><pb n="48"/>&#x00AB;No er eg ny fraa Topp til Taa</l>
+<l>den fyrste Gong i mine Dagar.</l>
+<l>No Kjolen min det gl&#x00F8;ser fraa,</l>
+<l>og blenker kvitt fraa mine Kragar.</l>
+</lg>
+<lg>
+<l>No er eg ny, og Rum eg f&#x00E6;r.</l>
+<l>No kann eg fri og frank meg kjenna.</l>
+<l>No skal de sjaa, at Gut her er,</l>
+<l>som haagt i Hallingdans kann spenna.</l>
+</lg>
+<lg>
+<l>No er eg ny. Kom paa, kom paa</l>
+<l>og pr&#x00F8;v, om du meg godt kann skaka.</l>
+<l>Vel det du vil, om du vil slaa,</l>
+<l>ell&#x0027; du vil Tak kring Ryggen taka!</l>
+</lg>
+<lg>
+<l><pb n="49"/>Kom Guten min, om du hev&#x0027; Mod!</l>
+<l>Det gjelder inkje, fyrr du freistar.</l>
+<l>Eg ferdug er: kver Drope Blod</l>
+<l>i Livet kringom flyg og gneistar.&#x00BB;</l>
+</lg>
+<lb/>
+<lg>
+<head>Dragsmaalet.</head>
+<l>Ingen af alle dei tusunde Mann</l>
+<l>til dette seg gl&#x00E6;dde.</l>
+<l>Ingen, som meldte seg, Storegut fann;</l>
+<l>for alle var r&#x00E6;dde.</l>
+<l>Sist sagde Kapteinen: &#x00AB;Skjemme deg Knut!</l>
+<l>kan du og deg idra?</l>
+<l>Du var den Mannen, som st&#x00F8;dt rykte ut,</l>
+<l>og vilde ei fira.</l>
+<l>Var du paa Dansar, so altid du var</l>
+<l>den beste i Salen.</l>
+<l>Her gjekk du fri, og var makalaus Kar,</l>
+<l>og kytte paa &#x00AB;Dalen.&#x00BB;</l>
+<l>No lyt du fram, og eg seer du er heit,</l>
+<l>og Dragsmaal du venter.</l>
+<l>Frikaren var du, sovidt som eg veit</l>
+<l>i tri &#x0027;Regimenter&#x0027;&#x00BB;</l>
+<l rend="indent_1">Knut skifter Lit, no er bleik, no er gl&#x00F8;dd,</l>
+<l>den Mann utan Make!</l>
+<l>Knut var fraa Mo og paa Byrte var f&#x00F8;dd,</l>
+<l>og Fa&#x0027;r hans het Hake.</l>
+<l><pb n="50"/>Knut var no ikki so framifraa stor,</l>
+<l>men tett var den Guten.</l>
+<l>Aldri slik Bringa du saag, der du foor,</l>
+<l>som paa denne Knut&#x0027;en.</l>
+<l>Steinen paa Vistad &#x2013; mot Endarne sneidd, &#x2013;</l>
+<l>han tok up i Fanget.</l>
+<l>Finnabu-Laupet, tolv Alner i Breidd,</l>
+<l>det tok han i Spranget.</l>
+<l>Karen han lyste med Armen sin strak.</l>
+<l>Den Gut kunde skaka.</l>
+<l>Endaa han skalv, daa han skulde eit Tak</l>
+<l>med Storegut taka.</l>
+<l>Men han laut til; for det var slik ei Skam</l>
+<l>seg over at gjeva.</l>
+<l>Folk ventad slikt paa dei tvo, som steig fram,</l>
+<l>at knapt dei fekk teva.</l>
+<l rend="indent_1">So desse tvo foor kverandre imot</l>
+<l>og smilte og logo,</l>
+<l>Gingo so fram paa sin dansande Fot</l>
+<l>og Hallingskast slogo,</l>
+<l>gripo kverandre kring Armarne fast</l>
+<l>og reidde og skoko,</l>
+<l>so efterpaa til det gamledags Kast</l>
+<l>kring Ryggen dei toko.</l>
+<l>Som til eit Toug dei seg tvinnad ikring,</l>
+<l>lik Traaden fraa Nokken;</l>
+<l>svivo so kringom i Ring og i Ring,</l>
+<l>som Hjulet paa Rokken.</l>
+<l><pb n="51"/>Smaastein du h&#x00F8;yrde fraa alt deira Spenn</l>
+<l>kring &#x00D8;yrom at driva,</l>
+<l>endaa paa Jordi dei syntest ei, men</l>
+<l>i Lufti at sviva.</l>
+<l>Men so paa Slut tok han Storegut Tak,</l>
+<l>so Mun det mund&#x0027; taka,</l>
+<l>slikt at i Bein og i Bonor eit Brak</l>
+<l>du h&#x00F8;yrde at knaka.</l>
+<l>Liksom du fossande Baaten ikring</l>
+<l>kann snu med eit Styre,</l>
+<l>sender han Knut utom ingjerde Ring</l>
+<l>med Hovudet fyre.</l>
+</lg>
+</div>
+<div type="uchapter">
+<head type="sub">Eivind Aalandslid</head>
+<lg>
+<l><pb n="52"/>Eivind Aalandslid det var ein spretten Kar:</l>
+<l>under Bjelken godt han slengde.</l>
+<l>Mangt eit Taket tok han, og so seig han var,</l>
+<l>at han beste Karen sprengde.</l>
+<l>Eivind ute var, naar nokon var i Naud,</l>
+<l>kaupte Garden hans og Hest og Fe og Saud.</l>
+<l rend="indent_1">Kunde han ei daa.</l>
+<l rend="indent_1">beste Kaupet faa,</l>
+<l>Mannen smurd&#x0027; han up og dengde.</l>
+</lg>
+<lg>
+<l>Eivind var imillom Skiens By og Mo</l>
+<l>rikaste og &#x00AB;beste&#x00BB; Karen.</l>
+<l>Og den stakkars Krok, som kom i Eivinds Klo,</l>
+<l>han var seld og fantefaren.</l>
+<l>Gjeva nokre Pengar, det var Eivinds Vis,</l>
+<l>og so Hest og Sm&#x00F8;r og Skinn til dubbelt Pris.</l>
+<l rend="indent_1">So paa alt, den Fant,</l>
+<l rend="indent_1">tok i Garden Pant.</l>
+<l>Slog so til seg heile Garden.</l>
+</lg>
+<lg>
+<l><pb n="53"/>St&#x00F8;dt so er det slikt, dei hava f&#x00E6;lt til Vinst</l>
+<l>slike sterke rike Karar.</l>
+<l>Eivind lagde up, so Kaksen havde minst</l>
+<l>fem og tjuge gode Gardar.</l>
+<l>Kaupte han ein Hest, ell&#x0027; om det var ein Gard,</l>
+<l>stelte han seg slikt, at somt han skuldig var.</l>
+<l rend="indent_1">Kom so Folk med Krav,</l>
+<l rend="indent_1">bankad han deim af.</l>
+<l>Slikt med Hogg og Slag han svarar.</l>
+</lg>
+<lg>
+<l>Ingen kunde s&#x00F8;kja Eivind for ein Rett.</l>
+<l>Alle t&#x00F8;mde vardt og tvegne.</l>
+<l>Futen, Skrivaren og Prokurator lett</l>
+<l>vordo til hans Side dregne.</l>
+<l>Saki vreid dei burt og up og up den skaut:</l>
+<l>Han deim Hestar gav og store feite Naut.</l>
+<l rend="indent_1">Folk slik Urett bar,</l>
+<l rend="indent_1">daa dei r&#x00E6;dde var</l>
+<l>for at verda helseslegne.</l>
+</lg>
+<lg>
+<l>Men so var det eingong gamle Ivar Aa</l>
+<l>slikt til Storegut&#x0027;en talar:</l>
+<l>&#x00AB;Vil du krevja Eivind, skal ein Bukk du faa.</l>
+<l>Han meg eiger hundrad Dalar.</l>
+<l>Naar du skr&#x00E6;mer Eivind, som eg veit du kann,</l>
+<l>verdt du for det attaat til ein Fr&#x00E6;gdamann.&#x00BB;</l>
+<l rend="indent_1"><pb n="54"/>Storegut vardt glad.</l>
+<l rend="indent_1">Fort han foor afstad.</l>
+<l>Spr&#x00E6;ke Gut ei lenge sadlar.</l>
+</lg>
+<lg>
+<l>Naar so Storegut&#x0027;en kjem til Eivind daa,</l>
+<l>han for honom liksom kj&#x00E6;ler.</l>
+<l>&#x00AB;Eg skal krevja deg fraa honom Ivar Aa,&#x00BB;</l>
+<l>muslar han for seg og m&#x00E6;ler.</l>
+<l>&#x00AB;Kom i Loftet up, skal du Bitaling faa</l>
+<l>til den gamle Skarven, denne Ivar Aa,&#x00BB;</l>
+<l rend="indent_1">Eivind gjev til Svar;</l>
+<l rend="indent_1">for han er den Kar,</l>
+<l>at for Bank han aldri f&#x00E6;ler.</l>
+</lg>
+<lg>
+<l>Naar dei kom i Loftet, Laasen med eit Slag</l>
+<l>slo han i, so Huset riste.</l>
+<l>Og han segjer: &#x00AB;No du l&#x00E6;ra skal i Dag</l>
+<l>det, som aldri fyrr du visste.</l>
+<l>No skal du for gamle Skarven Ivar Aa</l>
+<l>di Bitaling her paa reide Haandi faa.</l>
+<l rend="indent_1">Men eg trur med meg,</l>
+<l rend="indent_1">dette Krav af deg</l>
+<l>jamen verdt paa meg dit siste.&#x00BB;</l>
+</lg>
+<lg>
+<l>Men han Storegut han stod og flirde kaldt.</l>
+<l>Varme Ord han ikki trengde.</l>
+<l><pb n="55"/>Med den vinstre Haand ein Tunnesekk med Salt</l>
+<l>tok han og paa Oksli slengde;</l>
+<l>svingad Sekken up til Munnen som ein Dram,</l>
+<l>leikad der paa Golvet med den att og fram.</l>
+<l rend="indent_1">Daa vardt Eivind bleik,</l>
+<l rend="indent_1">og paa Folk han skreik.</l>
+<l>Her var den, som Eivind dengde.</l>
+</lg>
+<lg>
+<l>Svint af Kista si han hundrad Kronor tok,</l>
+<l>&#x2013; Pengar tunge er at bera &#x2013;</l>
+<l>Og han Storegut&#x0027;en varmt i Haandi skok,</l>
+<l>sagde: &#x00AB;Me skal Viner vera!&#x00BB;</l>
+<l>Men han Storegut&#x0027;en svarar: &#x00AB;No skal du</l>
+<l>om fraa alle dine vonde Vegjer snu!</l>
+<l rend="indent_1">Ser eg ikki, fort</l>
+<l rend="indent_1">det af deg verdt gjort,</l>
+<l>skal med meg du faa at gjera!&#x00BB;</l>
+</lg>
+</div>
+<div type="uchapter">
+<head type="sub">Det stend Age af Kongens Umbodsmenn</head>
+<lg>
+<l><pb n="56"/>So var det eingong han Kaptein Riis</l>
+<l>&#x2013; det Navnet til Mannen svarar &#x2013;</l>
+<l>foor Bygderna kringom paa gamal Vis</l>
+<l>og saag efter Kongens Karar.</l>
+</lg>
+<lg>
+<l>Han aat og han drakk og han livde vel,</l>
+<l>&#x2013; den Tunna var traa at teppa &#x2013;.</l>
+<l>Og den, som var riker, han var so s&#x00E6;l,</l>
+<l>at H&#x00E6;rmann han kunde sleppa.</l>
+</lg>
+<lg>
+<l>Som ventande var, so tok han in</l>
+<l>til Lag paa dei st&#x00F8;rste Gardar.</l>
+<l>D&#x0027;er Gjestebodskost, med Kropp og Skinn</l>
+<l>at eta up Kongens Karar.</l>
+</lg>
+<lg>
+<l>Og so fekk han Pengar og Fugl og Fisk</l>
+<l>og stundom den st&#x00F8;rste Stuten.</l>
+<l>So stakk han i Pung, og lagde paa Disk</l>
+<l>den rikaste Gardeguten.</l>
+</lg>
+<lg>
+<l><pb n="57"/>So tok han istaden ein Husmanns-Son,</l>
+<l>om det var den l&#x00E6;gste Karen.</l>
+<l>For Stakkaren var der ei mindste Von</l>
+<l>at sleppa fraa &#x00AB;Lange-Maren.&#x00BB;</l>
+</lg>
+<lg>
+<l>Med &#x00AB;Sjersantar&#x00BB; tvo slikt foor han kaut</l>
+<l>ikringom med all den Stasen.</l>
+<l>Og dei fekk ein Saud, naar han fekk eit Naut.</l>
+<l>For Kapteinen han er Basen.</l>
+</lg>
+<lg>
+<l>Slikt var det med Sm&#x00F8;r og annat Verd</l>
+<l>for Guten, som laus seg falar.</l>
+<l>For &#x00AB;Sjersanten&#x00BB; veit du Skillingen er,</l>
+<l>og Kapteinen han er Dalar.</l>
+</lg>
+<lg>
+<l>So foro dei kringom fraa Hus til Hus</l>
+<l>med Alvor men og med Lentor.</l>
+<l>So livde dei dagleg i Drykk og Dus</l>
+<l>og flaug efter fagre Gjentor.</l>
+</lg>
+<lg>
+<l>Slikt fara dei kringom som Skrubb og Ravn,</l>
+<l>og alle dei Knokar gnaga.</l>
+<l>Men daa dei var ute i Kongens Navn,</l>
+<l>so torde ei Folk deim jaga.</l>
+</lg>
+<lg>
+<l><pb n="58"/>So foro dei Bygderna up og ut</l>
+<l>til Alle med vondt at venja,</l>
+<l>og Ingen fekk eingong han Storegut</l>
+<l>til desse Fantar at dengja.</l>
+</lg>
+<lg>
+<l>Eg sagde til honom: &#x00AB;No f&#x00E6;r du sjaa,</l>
+<l>for alt den Urett me lida.</l>
+<l>Du saag, at du maatte for Ivar Aa</l>
+<l>om Retten med Neven strida.</l>
+</lg>
+<lg>
+<l>Eg Christian Lofthus ved Lillesand</l>
+<l>paa Ferderna mine raakad.</l>
+<l>Og der eg daa med denne kloke Mann</l>
+<l>om alt dette vonde spraakad.</l>
+</lg>
+<lg>
+<l>Eg ferer med honom til Kj&#x00F8;benhavn</l>
+<l>og over slik vonde klagar.</l>
+<l>Me tala til Kongen i Landsens Navn,</l>
+<l>so verdt det vel betre Dagar.</l>
+</lg>
+<lg>
+<l>At klaga for Kongen er aldri Skam,</l>
+<l>for det skal eg tryggt deg borge.</l>
+<l>So visa me deg for Kongen fram,</l>
+<l>at Karar her finnst i Norge.</l>
+</lg>
+</div>
+<div type="uchapter">
+<head type="sub">Storegut er med til Kongen</head>
+<lg>
+<l><pb n="59"/>So til Kongen me foor, og var elleve Mann,</l>
+<l>og han Christian Lofthus var Styraren, han.</l>
+<l>Det var fram me laut f&#x00F8;ra den Urett, me bar;</l>
+<l>afdi Folket er Barnet og Kongen er Fa&#x0027;r.</l>
+</lg>
+<lg>
+<l>Gjenom Sverge me foor og med Skreppa paa Rygg.</l>
+<l>Det var Veg, som var lang; der var Skog, som var stygg.</l>
+<l>Men me trygge foor fram: der stod af os ein Kvekk.</l>
+<l>So den Vegen gjekk snart: det var Gutar, som gjekk.</l>
+</lg>
+<lg>
+<l>Me ein Lax havde med ifraa Lovdalens Fjord.</l>
+<l>Det var Gut, som var feit og so ovende stor!</l>
+<l>Det var Skjenken, me havde til Kongen, han Fa&#x0027;r.</l>
+<l>Og han Storegut Laxen i Skreppa si bar.</l>
+</lg>
+<lg>
+<l><pb n="60"/>Me til Kongsgarden kom. Aa ja der var vel gildt!</l>
+<l>Og imot os dei toko so framifraa snilt.</l>
+<l>Der af Folk kver ein Kroken i Garden var full.</l>
+<l>Og dei skein utaf Sylv, og dei gl&#x00F8;ste af Gull.</l>
+</lg>
+<lg>
+<l>Og mot Laxen i Skreppa ein Tenare tok.</l>
+<l>Han i Gaava var glad og i Haandi os skok.</l>
+<l>&#x00AB;No i Kveld&#x00BB;, sa&#x0027; han, &#x00AB;kjem han for Kongen paa Disk.</l>
+<l>Det er sjeldfengt her nede at faa slik ein Fisk.&#x00BB;</l>
+</lg>
+<lg>
+<l>So til Kongen me kom; det var Gut, som var gild!</l>
+<l>Han tok mot os so vel: det var Mann som var snil!</l>
+<l>Og han helsad so varmt, og so sagde han daa:</l>
+<l>&#x00AB;Eg er glad, naar eg f&#x00E6;r mine Nordmenn at sjaa.</l>
+</lg>
+<lg>
+<l>Eg til Lands eller Vands slike H&#x00E6;rmenn ei fann.</l>
+<l>Dei er trugne mot Kongen og trugne mot Land.</l>
+<l>Slikein Vokster paa Karar du aldri skal sjaa.&#x00BB;</l>
+<l>&#x2013; Det var Storegut daa han sett&#x0027; Augo si paa.</l>
+</lg>
+<lg>
+<l>Daa so Lofthus&#x0027;en maalad vaar Urett og Sut,</l>
+<l>&#x2013; det var Guten sin det til at leggja det ut! &#x2013;</l>
+<l>daa sa&#x0027; Kongen: &#x00AB;Nei, det er daa &#x00E6;veleg Skam,</l>
+<l>at mot Aalmugen Umbodsmenn slikt fara fram!</l>
+</lg>
+<lg>
+<l><pb n="61"/>Gjev meg Tid, skal eg snart til det beste det snu.</l>
+<l>Eg skal l&#x00E6;ra dei Kararne til, kann de tru!</l>
+<l>Som eg refser, eg l&#x00F8;ner det &#x00E6;rlige Str&#x00E6;v.</l>
+<l>Og i Morgon de heim atter med skal faa Brev.&#x00BB;</l>
+</lg>
+<lg>
+<l>Og so gjekk me med Tru paa det kongeleg&#x0027; Ord.</l>
+<l>Men til Kvelds vardt me bodne til kongelegt Bord.</l>
+<l>So hjaa Kongen til Gjestebods var me den Kveld.</l>
+<l>Og der lyst&#x0027; i dei Salar som Straumar af Eld.</l>
+</lg>
+<lg>
+<l>Det var Stas, kann du tru, som var framifraa fin.</l>
+<l>Det var endelaust, var det, med Mat og med Vin.</l>
+<l>Det var Folk, som var fine og kunde seg snu.</l>
+<l>Det var slikt, du i Paradis maatte deg tru.</l>
+</lg>
+<lg>
+<l>Det vardt talat somyket til Nordmannens Pris.</l>
+<l>Og dei spurd&#x0027; efter Norge og Skikkar og Vis,</l>
+<l>Og me sa&#x0027;, daa dei Storegut makalaus fann:</l>
+<l>&#x00AB;Der er fullt up der heima af Karar som han.&#x00BB;</l>
+</lg>
+</div>
+<div type="uchapter">
+<head type="sub">Storegut er landlyst</head>
+<lg>
+<l><pb n="62"/>Det litet vardt af Kongens fagre Ord;</l>
+<l>for alle Kongens Umbodsmenn her Nord,</l>
+<l>dei alt det gamle munde halda paa,</l>
+<l>so der var ingen Rett for os at faa.</l>
+<l>I Fengsel Lofthus&#x0027;en vardt kastad, han,</l>
+<l>og der vardt drepen af ein Tilsynsman.</l>
+<l>Og me dei andre, som var med derned,</l>
+<l>me miste Guds og Folks og Kongens Fred</l>
+<l>og skalv for kver ein Skarve-Mann me saag,</l>
+<l>og rett som ville Dyr paa Skogen laag.</l>
+</lg>
+<lg>
+<l>Kvast biter det i Snjo og Frost og Vind</l>
+<l>at stengjast ut&#x0027; og ikki koma in</l>
+<l>og h&#x00F8;yra Laasen i for seg at slaa.</l>
+</lg>
+<lg>
+<l>Du gjeng og dreg paa siste Andadrag,</l>
+<l>naar tr&#x00F8;ytt du gjeng ikringom Dag paa Dag</l>
+<l>og aldri minste Biten Mat kann faa.</l>
+</lg>
+<lg>
+<l><pb n="63"/>Det gjeng paa Livet, naar du frys og svelt;</l>
+<l>men endaa er du verre kringom elt,</l>
+<l>naar du eit venlegt Aasyn ei f&#x00E6;r sjaa:</l>
+</lg>
+<lg>
+<l>naar slike Folk, som f&#x00F8;r du kjende best,</l>
+<l>ifraa deg r&#x00F8;ma, som du havde Pest,</l>
+<l>og dit du seer, dei vende Augo fraa.</l>
+</lg>
+<lg>
+<l>Som naar du i den myrke Haustens Kveld</l>
+<l>din Laava seer at loga up i Eld</l>
+<l>med alt det H&#x00F8;y og Korn, som i den er;</l>
+</lg>
+<lg>
+<l>so er det, naar du seer, at kver og Ein</l>
+<l>er hard imot deg liksom Stokk og Stein</l>
+<l>og burt di Haand til Helsing fraa seg sl&#x00E6;r,</l>
+</lg>
+<lg>
+<l>og i di Sorg sin Hevn og Glede finn,</l>
+<l>og aat kver Sukk og all den Graaten din</l>
+<l>stend berre kald og flirer der og l&#x00E6;r.</l>
+</lg>
+<lg>
+<l>Det svartnar for deg. Du er n&#x00E6;r at d&#x00F8;y.</l>
+<l>Det brenner up dit heile Korn og H&#x00F8;y.</l>
+<l>Du vilde d&#x00F8;y, men d&#x00F8;y du ikki f&#x00E6;r.</l>
+</lg>
+</div>
+<div type="uchapter">
+<head type="sub">Storegut med Fa&#x0027;r sin verdt fredlyst</head>
+<lg>
+<l><pb n="64"/>Slikt ikring med Foten saar</l>
+<l>ifraa Gard til Gard me r&#x00F8;mde,</l>
+<l>beiske Drykken ut me t&#x00F8;mde</l>
+<l>til den siste Dogg og Taar.</l>
+<l>So paa Skogen der me laago,</l>
+<l>og naar Eld me tende, daa</l>
+<l>Folk der heim&#x0027; i Bygdi saago</l>
+<l>up mot Himlen R&#x00F8;yken blaa.</l>
+<l>Naar so R&#x00F8;yken ropad ned,</l>
+<l>sagde Folk paa kver ein Hause:</l>
+<l>&#x00AB;Det er fraa dei Fredalause.</l>
+<l>Lat deim liva der i Fred!&#x00BB;</l>
+</lg>
+<lg>
+<l rend="indent_1">Naar det leitar paa, det sanne</l>
+<l>f&#x00E6;r tilgagns du fyrst at sjaa;</l>
+<l>for den beste Hjelpi daa</l>
+<l>kom ifraa mi snille Anne.</l>
+<l>Ho til Mann og Sonen sin</l>
+<l>kom med Fred og annan Fagnad,</l>
+<l>so i all den Striden min</l>
+<l>endaa var ein Herrens Lagnad.</l>
+<l><pb n="65"/>Mine andre S&#x00F8;ner var</l>
+<l>likeins meg til Fred og Glede:</l>
+<l>med si Mo&#x0027;r til Bro&#x0027;r og Fa&#x0027;r</l>
+<l>fylgde dei med Mat og Kl&#x00E6;de.</l>
+<l>Modlaus den, som vel seg lagar,</l>
+<l>tyngste Lagnad aldri slog:</l>
+<l>Sams me Livsens-Lasset drog</l>
+<l>gjenom desse tunge Dagar.</l>
+<l>Eftersom so Tidi skreid,</l>
+<l>totte Folk, det var for ille</l>
+<l>slikt at jaga os som Ville,</l>
+<l>og at me uskuldigt leid.</l>
+<l>Likeins Kongens Umbodsmenn</l>
+<l>tok paa Slutten til at f&#x00E6;le,</l>
+<l>at det kj&#x00F8;vde Klage-M&#x00E6;le</l>
+<l>skulde Kongen naa igjen.</l>
+<l>So med Skrivaren og Futen</l>
+<l>ikki lenger f&#x00E6;la turfte.</l>
+<l>Men den drepne Lofthus-Guten,</l>
+<l>han, den Gj&#x00E6;ving, han var burte.</l>
+</lg>
+<lg>
+<l>Sorg renn burt som Barnataar;</l>
+<l>Alle Sorger me fekk slite,</l>
+<l>sat i Minnet atter kvite,</l>
+<l>liksom attergrodde Saar.</l>
+</lg>
+</div>
+<div type="uchapter">
+<head type="sub">Storegut med seks Br&#x00F8;der gjeng i Krig</head>
+<lg>
+<l><pb n="66"/>Her kom til Krig med Svensken att&#x0027;.</l>
+<l>Det er den gamle Song.</l>
+<l>Det altid kjem til Slagsmaal radt,</l>
+<l>naar kver er vond og vrong.</l>
+</lg>
+<lg>
+<l>Til Krig eg var for gamal, eg.</l>
+<l>Eg vardt so smaat alt snaud.</l>
+<l>Men so i Striden ut for meg</l>
+<l>og havde S&#x00F8;ner sjau.</l>
+</lg>
+<lg>
+<l>Det Olaf, Ivar, Hermod var</l>
+<l>og Sigurd, Svein og Knut,</l>
+<l>og for deim alle som ein Fa&#x0027;r</l>
+<l>var Kulten, Storegut.</l>
+</lg>
+<lg>
+<l><pb n="67"/>Eg gjorde det, som kom paa meg,</l>
+<l>til at faa H&#x00E6;ren full.</l>
+<l>Eg havde mange S&#x00F8;ner, eg,</l>
+<l>men litet Gods og Gull.</l>
+</lg>
+<lg>
+<l>I Striden Husmanns-Sonen laut</l>
+<l>og fekk ei vera lat.</l>
+<l>Men Gardemannen gav eit Naut</l>
+<l>og Son hans heime sat.</l>
+</lg>
+<lg>
+<l>Det er dei tronge, tunge Kor</l>
+<l>i denne Striden vaar:</l>
+<l>Den, som hev&#x0027; minst at strida for,</l>
+<l>han f&#x00E6;r dei st&#x00F8;rste Saar.</l>
+</lg>
+<lg>
+<l>Den Krig er ingen Barnaleik:</l>
+<l>det tek i kver ein Led,</l>
+<l>so Mannen som er sjuk ell&#x0027; veik,</l>
+<l>han siger ende ned.</l>
+</lg>
+<lg>
+<l>I Torst&#x0027; og Sult med Skreppa stor,</l>
+<l>af Regn og Sveite bl&#x00F8;ytt,</l>
+<l>du gjeng, til paa den kalde Jord</l>
+<l>du sovnar armodstr&#x00F8;ytt.</l>
+</lg>
+<lg>
+<l><pb n="68"/>Du vekkjes up mot Gry af Dag</l>
+<l>i kver ein Leden stiv.</l>
+<l>Af Livet leid, du ynskjer Slag</l>
+<l>mot slikteit Illmannsliv.</l>
+</lg>
+<lg>
+<l>Det tok for hardt paa Guten min,</l>
+<l>han stakkars yngste Knut.</l>
+<l>Han i eit Sjukehus kom in,</l>
+<l>men aldri atter ut.</l>
+</lg>
+<lg>
+<l>Og Svein og Sigurd sidan vardt</l>
+<l>og sjuke ein for ein.</l>
+<l>Det Liv og Arbeid var for hardt</l>
+<l>for slike unge Bein.</l>
+</lg>
+<lg>
+<l>Det altid fullt af Sjukdom er</l>
+<l>paa slikei Stridens Leid.</l>
+<l>Det fylgjer Pest ei Krigerh&#x00E6;r,</l>
+<l>som Ravn i Skrubbe-Skreid.</l>
+</lg>
+<lg>
+<l>So kom det daa paa Slutt til Slag</l>
+<l>med Blink af Sverd og Eld.</l>
+<l>Me h&#x00F8;yrde Dur den heile Dag</l>
+<l>her paa dei haage Fjell.</l>
+</lg>
+<lg>
+<l><pb n="69"/>Det minst var tjuge Mil fraa os</l>
+<l>der aust der Slaget stod;</l>
+<l>men endaa dunde som ein Foss</l>
+<l>mot Fjellom Slagets Ljod.</l>
+</lg>
+<lg>
+<l>&#x00AB;Aa, Gud!&#x00BB; sa&#x0027; Anne, &#x00AB;h&#x00F8;yrer Du</l>
+<l>det Ljom med Vindens Drag?</l>
+<l>Og vaare S&#x00F8;ner, maa me tru,</l>
+<l>er med i dette Slag!&#x00BB;</l>
+</lg>
+<lg>
+<l>&#x00AB;Aa! h&#x00F8;yrde du den Dynen her,</l>
+<l>som up i Nuten let?&#x00BB;</l>
+<l>So sette ho med Sukk seg der</l>
+<l>paa Steinen ned og gret.</l>
+</lg>
+<lg>
+<l>Ja, vaare S&#x00F8;ner med dei var</l>
+<l>i dette f&#x00E6;le Slag.</l>
+<l>Det gl&#x00F8;ymer aldri arme Fa&#x0027;r</l>
+<l>i all sin Livedag.</l>
+</lg>
+<lg>
+<l>Dei havde d&#x00F8;ytt dei andre tri;</l>
+<l>og tri fall denne Dag.</l>
+<l>Berr&#x0027; Storegut var Livet i.</l>
+<l>Det var eit Sonar- Slag.</l>
+</lg>
+<lg>
+<l><pb n="70"/>Men godt dei slog; og Norsken vann;</l>
+<l>og Svensken r&#x00F8;mde radt.</l>
+<l>Eg endaa var ein heppen Mann,</l>
+<l>at Storegut var att&#x0027;.</l>
+</lg>
+<lg>
+<l>Dei sagde, han for tjuge slog</l>
+<l>og skaut og stakk og skar.</l>
+<l>Og fram ei stor Kanon&#x0027; han drog,</l>
+<l>daa Hestann&#x0027; skotne var.</l>
+</lg>
+<lg>
+<l>Daa Br&#x00F8;drann&#x0027; fall, i Skum han svamm,</l>
+<l>so harm han skalv og skok,</l>
+<l>og dreiv som Fe dei R&#x00E6;dde fram,</l>
+<l>og so til Kniven tok.</l>
+</lg>
+<lg>
+<l>Som Kyrkjeklokka ropar han:</l>
+<l>&#x00AB;Hau, Gutar! dette h&#x00F8;yr!</l>
+<l>Den Guten, som er rette Mann,</l>
+<l>han vinner eller d&#x00F8;yr!&#x00BB;</l>
+</lg>
+</div>
+<div type="uchapter">
+<head type="sub">Storegut paa Marknaden</head>
+<lg>
+<l><pb n="71"/>Til Marknads kjem Karen, som Styrken er i.</l>
+<l>Han er den, som er stor, han er den som er fri.</l>
+<l>Om han kjem utan Hest, utan Sm&#x00F8;r, utan Skinn,</l>
+<l>han er den, som f&#x00E6;r Hus, han er den, som kjem in.</l>
+</lg>
+<lg>
+<l>Til Marknads foor Storegut eingong eit Aar.</l>
+<l>Det var endaa det Aaret, her var slikein Vaar:</l>
+<l>Daa me rodde til Kyrkje om Tjugondag Jol;</l>
+<l>og ved Sumarn&#x00E6;tt Gauken i Liderna gol.</l>
+</lg>
+<lg>
+<l>Han Numd&#x00F8;len Ramberg laut finna seg ut;</l>
+<l>for han Ramberg&#x0027;en var slikein makalaus Gut.</l>
+<l>Han gjekk der, om stundom han tok seg ei Taar,</l>
+<l>som Frikar paa Marknaden Aar efter Aar.</l>
+</lg>
+<lg>
+<l><pb n="72"/>Han Heidd&#x00F8;len Fl&#x00F8;ran og Hallingen Fl&#x00F8;,</l>
+<l>og so Eyvind af Eikja, den Kjempa fraa B&#x00F8;,</l>
+<l>og Vossingen Sigurd og Valdrisen Svein,</l>
+<l>deim tok han paa Marknaden Ein efter Ein.</l>
+</lg>
+<lg>
+<l>Den Ramberg&#x0027;en Kararne fyre seg tok,</l>
+<l>og so skaut han paa Oksli og riste og skok,</l>
+<l>og slengde i Dansen paa Golv eller Voll</l>
+<l>med Foten og slog deim som Koglar ikoll.</l>
+</lg>
+<lg>
+<l>Men daa han i Dansen fekk Storegut fatt,</l>
+<l>ja daa fann han vel den, som so lett ikki datt;</l>
+<l>for daa han flaug til som paa annan ein Kar,</l>
+<l>han skvatt ned paa Golvet so lang, som han var.</l>
+</lg>
+<lg>
+<l>Som Katten han kunde paa Foten seg snu.</l>
+<l>Som ein Eld spratt han up og skreik i: &#x00AB;Kven er du? &#x2013;</l>
+<l>Ver kven som du vil; men ein Frikar som eg</l>
+<l>vil st&#x00F8;dt vera Vin med ein Storkar som deg.&#x00BB;</l>
+</lg>
+<lg>
+<l>Han lyfter sitt Glas og kved i med eit Rop:</l>
+<l>&#x00AB;Me dei store og sterke skal halda ihop.</l>
+<l>Kver god er for seg utan Aabry og Harm:</l>
+<l>Ein sterk er i Ryggen, ein annan i Arm.</l>
+</lg>
+<lg>
+<l><pb n="73"/>Aat dette han Storegut lo, der han stod;</l>
+<l>for han sj&#x00F8;lv var so sterk, at han attaat var god.</l>
+<l>So drakk han med Ramberg&#x0027;en hugheilt ein Dram.</l>
+<l>So gjekk dei som Br&#x00F8;der paa Marknaden fram.</l>
+</lg>
+<lg>
+<l>So foro dei kringom i Storleiken sin.</l>
+<l>Der vardt stilt, som naar Katten til Musi kjem in.</l>
+<l>Ein Fagnad dei fingo som gj&#x00E6;vaste Gjest.</l>
+<l>Men Storegut, sagde dei Alle, var best.</l>
+</lg>
+</div>
+<div type="uchapter">
+<head type="sub">Det syng for Storegut</head>
+<lg>
+<l><pb n="74"/>Han gjekk i Skogen Storegut</l>
+<l>ein Dag up under Breito-Nut,</l>
+<l>og som han gjekk der up og ned</l>
+<l>og leitad efter Emnings-Tre,</l>
+<l>med eit som naglad fast han stod:</l>
+<l>for mot&#x0027;n kom eit Gjente-Ljod,</l>
+<l>som lokkkar Geit og Saud og Ku</l>
+<l>mot Kvelden heim til S&#x00E6;terbud</l>
+<l>og beder fraa seg Bj&#x00F8;rn og Skrubb;</l>
+<l>og naar ho dette her song paa,</l>
+<l>som Taarer kom i M&#x00E6;let daa:</l>
+</lg>
+<lg>
+<l>&#x00AB;Den Dag kjem aldri, at eg deg gl&#x00F8;ymer;</l>
+<l>for om eg s&#x00F8;ver, eg om deg dr&#x00F8;ymer.</l>
+<l>Om Nott og Dag er du like n&#x00E6;r,</l>
+<l>og best eg seer deg, naar myrkt det er.</l>
+</lg>
+<lg>
+<l><pb n="75"/>Du leikar kringom meg, der eg vankar.</l>
+<l>Eg h&#x00F8;yrer deg, naar mitt Hjarta bankar.</l>
+<l>Du st&#x00F8;dt meg fylgjer paa Ferdi mi,</l>
+<l>som Skuggen gjeng efter Soli si.</l>
+</lg>
+<lg>
+<l>Naar nokon kjem og i Klinka rykker,</l>
+<l>d&#x0027;er du, som kjem in til meg, eg tykker:</l>
+<l>Eg sprett fraa Stolen og vil meg te,</l>
+<l>men snart eg sig atter ende ned.</l>
+</lg>
+<lg>
+<l>Naar Vinden sagte i Lauvet ruslar,</l>
+<l>eg trur det er du, som gjeng der og tusslar;</l>
+<l>naar somt der burte eg seer seg snu,</l>
+<l>eg kvekk og trur, det maa vera du.</l>
+</lg>
+<lg>
+<l>I kver som gjeng og som rid og kj&#x00F8;yrer,</l>
+<l>d&#x0027;er du, eg seer; deg i alt eg h&#x00F8;yrer:</l>
+<l>i Song og Fl&#x00F8;yte- og Fele-Laat,</l>
+<l>men endaa best i min eigen Graat.&#x00BB;</l>
+</lg>
+</div>
+<div type="uchapter">
+<head type="sub">Storegut er med som Skattegravar</head>
+<lg>
+<l><pb n="76"/>Hev&#x0027; ved Grungebru du voret</l>
+<l>millom Fjell paa baade Sider</l>
+<l>og som Baand seet kvite Bekker</l>
+<l>fyssa gjenom gr&#x00F8;ne Lider?</l>
+</lg>
+<lg>
+<l>Og seet Sol og svarte Skuggen,</l>
+<l>som paa Vatnet der seg huskar,</l>
+<l>og som andre unge Gjentor</l>
+<l>spegla seg dei Bj&#x00F8;rkebuskar?</l>
+</lg>
+<lg>
+<l>Der ein Skatt var sagd at liggja,</l>
+<l>Baand af Gull og mangein Ringen,</l>
+<l>der paa denne s&#x00F8;ndre Sida</l>
+<l>under Nuten der i Svingen.</l>
+</lg>
+<lg>
+<l><pb n="77"/>Nettup der, som Straumen syger</l>
+<l>aat seg heile Grunge-Vatten,</l>
+<l>der laag i ei klinkad Kiste</l>
+<l>denne store gamle Skatten.</l>
+</lg>
+<lg>
+<l>Ikring Kista laag der Ormar,</l>
+<l>bitande i sine Sporder,</l>
+<l>so det var som ikring Tunna</l>
+<l>Ring i Ring med alle Gjorder.</l>
+</lg>
+<lg>
+<l>Under laag den st&#x00F8;rste Ormen,</l>
+<l>slik, at ingen saag hans Make.</l>
+<l>Rundt ikring var Orm og &#x00D8;dlor,</l>
+<l>og paa Loket sat ein Drake.</l>
+</lg>
+<lg>
+<l>Kvite Draug i svarte Notti</l>
+<l>drog der Bolt og Baand og Hakar;</l>
+<l>og fraa Ruds- til Kilarnuten</l>
+<l>flaug med Gl&#x00F8;s og Gneisting Drakar.</l>
+</lg>
+<lg>
+<l>Tind fraa Tind dei soleids fjuka</l>
+<l>over Foss og Grunge-Vatten</l>
+<l>og so under Hagl af Gneistar</l>
+<l>stundom dala ned mot Skatten.</l>
+</lg>
+<lg>
+<l><pb n="78"/>Fram i Fossen og i Osen</l>
+<l>Fossegrimen daa seg laugar,</l>
+<l>og som Sky for Vinden flaksa</l>
+<l>fjellamillom kvite Draugar.</l>
+</lg>
+<lg>
+<l>Ridande kjem Aasgard-Reidi</l>
+<l>fast paa Sky, som du paa Steinen:</l>
+<l>fremst i Ferd er Rove-Guro</l>
+<l>med sin Brudgom Sigurdsveinen.</l>
+</lg>
+<lg>
+<l>Dottar detta ned som Fuglar</l>
+<l>utaf Skum, fyrr ned ho dalar;</l>
+<l>so ei Stund der midt paa Notti</l>
+<l>ned paa Skatten af ho sadlar.</l>
+</lg>
+<lg>
+<l>Er ho reist, du der i Dalen</l>
+<l>h&#x00F8;yrer alt det f&#x00E6;le laata:</l>
+<l>Kar og Kvende hovudlause</l>
+<l>rundt ikringom Skatten graata.</l>
+</lg>
+<lg>
+<l>Dei som r&#x00F8;va, dei som myrda,</l>
+<l>kringom der i Myrkret smjuga.</l>
+<l>Der er alle vonde Aander;</l>
+<l>dei som stela, dei som ljuga.</l>
+</lg>
+<lg>
+<l><pb n="79"/>Dei som Tru og Lov kann svikja,</l>
+<l>naar dei tru, det Gagn vil vera;</l>
+<l>dei som kring lik Katten snikja,</l>
+<l>dei som alt for Pengar gjera.</l>
+</lg>
+<lg>
+<l>Eg og Son min Storegut&#x0027;en,</l>
+<l>me som dette f&#x00E6;le visste,</l>
+<l>me eingong os sette fyre</l>
+<l>up at grava denne Kiste.</l>
+</lg>
+<lg>
+<l>Den, som framifraa seg kjenner,</l>
+<l>efter nokot stort han verker:</l>
+<l>Eg var Mann, som mangt ha&#x0027; pr&#x00F8;vat,</l>
+<l>han var god og attaat sterker.</l>
+</lg>
+<lg>
+<l>So me trudd&#x0027; at kunna ganga</l>
+<l>gjenom Lufti, Vatnet, Elden.</l>
+<l>So me grov, men fyrst det leitad</l>
+<l>paa den tridje Thorsdagskvelden.</l>
+</lg>
+<lg>
+<l>Kvelden kom so svart som Ravnen,</l>
+<l>og i alt det godt seg lagad;</l>
+<l>og me grov den fyrste Favnen.</l>
+<l>Men daa kann du tru, det dagad!</l>
+</lg>
+<lg>
+<l><pb n="80"/>Tora slog, og Fjellet riste,</l>
+<l>Drakar gl&#x00F8;ste, Draugar gl&#x00F8;mde.</l>
+<l>So med Sus kom Aasgard-Reidi.</l>
+<l>Men ho saag oss, og ho r&#x00F8;mde.</l>
+</lg>
+<lg>
+<l>Som utor ein Sekk det druste</l>
+<l>alt det verste, som eg minnest.</l>
+<l>Det kom Stutar, Hestar, Griser</l>
+<l>og det Styggaste, som finnest.</l>
+</lg>
+<lg>
+<l>Og so kom det daa ein Krypling,</l>
+<l>akande i S&#x00E6;ngekarmen,</l>
+<l>so ein Mann med Skyrta blodug</l>
+<l>og sitt Hovud under Armen.</l>
+</lg>
+<lg>
+<l>Up i Fjellet, so det svarad,</l>
+<l>Tussar taut imillom Dvergom.</l>
+<l>Gasten lo, og so han kneggad,</l>
+<l>so det ljomad millom Bergom.</l>
+</lg>
+<lg>
+<l>Lik til Kyrkja om os kj&#x00F8;yrde,</l>
+<l>Rundt ikring os Ormar laago.</l>
+<l>Men me grovo, spadde, st&#x00F8;yrde,</l>
+<l>som me inkje h&#x00F8;yrd&#x0027; ell&#x0027; saago.</l>
+</lg>
+<lg>
+<l><pb n="81"/>Vil du efter Skattar grava,</l>
+<l>maa du tru og aldri tvila,</l>
+<l>ikki furta, ikki f&#x00E6;la,</l>
+<l>ikki graata, ikki smila.</l>
+</lg>
+<lg>
+<l>Men som der eg grov og manad,</l>
+<l>so med eitt eg Sansen miste,</l>
+<l>nettup daa eg h&#x00F8;yrde Klangen</l>
+<l>af min Staur mot Skattens Kiste.</l>
+</lg>
+<lg>
+<l>&#x00AB;J&#x00F8;su Navn!&#x00BB; eg Syndar sagde,</l>
+<l>og med Fingren slog eg Krossen.</l>
+<l>So med Eit skrapp Kista undan</l>
+<l>ramlande i gule Fossen.</l>
+</lg>
+</div>
+<div type="uchapter">
+<head type="sub">Storegut paa Thinget</head>
+<lg>
+<l><pb n="82"/>So var det paa Thinget paa Dalen den Haust,</l>
+<l>daa her var den f&#x00E6;lande Flaumen,</l>
+<l>at so det bar atter med Storegut laust,</l>
+<l>som Folen du slepper or Taumen:</l>
+<l>Han kimsar med Hovud og traavar so baust.</l>
+</lg>
+<lg>
+<l>De vita, at Knoda paa Vistad er tung.</l>
+<l>Det Grjotet, det er af det tunge.</l>
+<l>Det gjelder for meir, en ha&#x0027; Pengar i Pung,</l>
+<l>at lyfta den Stein for dei Unge.</l>
+<l>Eg lyft&#x0027;a til Knes, daa eg enno var ung.</l>
+</lg>
+<lg>
+<l>Men Storegut tok&#x0027;a, som ingenting var,</l>
+<l>og lyft&#x0027;a der uppaa den Krakken;</l>
+<l>so tok han, den Kulten, og gjekk han og bar</l>
+<l>&#x0027;a burt paa den n&#x00E6;raste Bakken.</l>
+<l>Det kvakk i dei Alle for slikein ein Kar.</l>
+</lg>
+<lg>
+<l><pb n="83"/>So kom dei paa Thinget. Der, vita de, er</l>
+<l>dei beste af Bygdanna Karar.</l>
+<l>Han manar deim ut, og han Hallingen sl&#x00E6;r.</l>
+<l>Men ingen der finnest, som svarar.</l>
+<l>Kver Mannen veit med seg, at Juling han f&#x00E6;r.</l>
+</lg>
+<lg>
+<l>Men rett som det var, so skreik i der ein Mann:</l>
+<l>&#x00AB;Kvi fara med slikt, som me f&#x00E6;la!</l>
+<l>Lat alt vera Fred, og kom hit med eit Band,</l>
+<l>so me kann vaar F&#x00F8;rleik faa m&#x00E6;la.</l>
+<l>Den best bygde Mannen, er sterkaste, han.&#x00BB;</l>
+</lg>
+<lg>
+<l>Dei m&#x00E6;lte, som Skraddaren m&#x00E6;ler sin Mann</l>
+<l>til Klypning af Kufte og Br&#x00F8;ker.</l>
+<l>Han t&#x00F8;ygjer og m&#x00E6;ler, og Maalet han fann,</l>
+<l>verdt teiknat med Tal ned i B&#x00F8;ker.</l>
+<l>Den Skraddaren best kjenner Mannen sin, han.</l>
+</lg>
+<lg>
+<l>Det fannst ingen Mannen som Storegut stor.</l>
+<l>Paa Bringa og Armar og Legger</l>
+<l>var Knuten paa Knut, som paa Fura det gror,</l>
+<l>og Nevar so tunge som Sleggjor.</l>
+<l>D&#x0027;er Synd at slik Styrke skal rotna til Jord!</l>
+</lg>
+<lg>
+<l><pb n="84"/>Og som dei so der kring om Storegut dreiv,</l>
+<l>som skulde ein Konge dei hylla,</l>
+<l>so kom med ein Stol han der fram Thorgeir Kleiv,</l>
+<l>som Ingen var Mann til at fylla.</l>
+<l>Men han med den Stolen paa Mj&#x00F8;dnerna sveiv.</l>
+</lg>
+<lg>
+<l>At Nokon den Stolen paa Mj&#x00F8;dnerna bar,</l>
+<l>at Nokon den up kunde letta,</l>
+<l>det vide vardt spurt, og det makalaust var,</l>
+<l>og Thorgeir var Stormann for detta.</l>
+<l>Ja, der kann Du tru det var Lender paa Kar!</l>
+</lg>
+<lg>
+<l>Paa Stolen saag Storegut liksom litt vrong;</l>
+<l>og so han seg ned i den slengde.</l>
+<l>Men den var for honom so kavende trong,</l>
+<l>at fort han i Fliser den sprengde.</l>
+<l>Den Stolen saag Soli for siste sin Gong.</l>
+</lg>
+<lg>
+<l>At missa sin Stol var for Thorgeir ei Sut;</l>
+<l>men han lest som ingenting vera.</l>
+<l>Og Alle vild&#x0027; sjaa slik ein framifraa Gut,</l>
+<l>som kunde slikt makalaust gjera.</l>
+<l>Ja, Futen og Skrivaren jamvel kom ut.</l>
+</lg>
+</div>
+<div type="uchapter">
+<head type="sub">Storegut er med til R&#x00F8;ldalsmessa</head>
+<lg>
+<l><pb n="85"/>I Kyrkja til R&#x00F8;ldal eit Bil&#x00E6;t hekk</l>
+<l>so mangein S&#x00E6;ling til Frelse;</l>
+<l>for Sjuke og Saare til dette gjekk</l>
+<l>og fingo atter si Helse.</l>
+<l>Og funnet det var paa Jelse.</l>
+</lg>
+<lg>
+<l>Det Bil&#x00E6;tet, det var ein Undramann;</l>
+<l>for helst so ved Jonsoktider</l>
+<l>det var soat Sveitten silad og rann</l>
+<l>ifraa det paa alla Sider.</l>
+<l>Det er som for os det lider.</l>
+</lg>
+<lg>
+<l>Fekk Nokon af Sveitten den mindste Dogg,</l>
+<l>var Sjukdomen overvunnen;</l>
+<l>om sjuk eller halt eller saar af Hogg,</l>
+<l>han var som til Livet funnen</l>
+<l>med Lovord i s&#x00E6;le Munnen.</l>
+</lg>
+<lg>
+<l><pb n="86"/>Vardt Saaringen l&#x00E6;kt med Kniven so kvass</l>
+<l>han Bindet sprette og sprengde.</l>
+<l>I Kyrkja laag hundrade Hestelass</l>
+<l>med Krykkjor, som burt var slengde,</l>
+<l>og ingen Haltemenn trengde.</l>
+</lg>
+<lg>
+<l>Kver str&#x00E6;vad so godt som han kunde best;</l>
+<l>for Ingen vil Boti gleppa.</l>
+<l>So samlas dei der ifraa Aust og Vest,</l>
+<l>og trengjas om in at sleppa.</l>
+<l>Den Tunna er traa at teppa</l>
+</lg>
+<lg>
+<l>Kvert Bygdarlag hev&#x0027; som sitt Folkaslag</l>
+<l>og trur seg i Alt det beste,</l>
+<l>det hermer og gjev sine Nakkadrag</l>
+<l>og lastar Grannen det meste.</l>
+<l>So gjera dei allerfleste.</l>
+</lg>
+<lg>
+<l>Her austfraa var Storegut med ein Gong</l>
+<l>til Kyrkjevegen at rydda;</l>
+<l>for om han var aldri so stengd og trong,</l>
+<l>dei kunde paa honom byggja</l>
+<l>og mot den Kulten seg stydja.</l>
+</lg>
+<lg>
+<l><pb n="87"/>Han rudde deim Vegen, og in dei foor,</l>
+<l>og Bil&#x00E6;tet kring dei hingo,</l>
+<l>og Alle kom fram med sit B&#x00F8;narord,</l>
+<l>og Helsa dei atter fingo</l>
+<l>og heim atter friske gingo.</l>
+</lg>
+<lg>
+<l>Og daa dei so kom fram i Dyreskard,</l>
+<l>dei song under store Urden;</l>
+<l>og Storeguts M&#x00E6;le det st&#x00F8;rste var,</l>
+<l>so klaart som den beste Ludren</l>
+<l>og djupt liksom Fosseduren:</l>
+</lg>
+<lg>
+<l>Og det, som der vardt sunget daa af deim,</l>
+<l>det var den gamle Song om</l>
+</lg>
+<lb/>
+<lg>
+<head>J&#x00F8;tunheim.</head>
+<l>Me standa her som paa eit storknat Hav;</l>
+<l>som Lakan Snjoen ligg paa denne Grav.</l>
+<l>Dei Toreslag, som rulla Nord og Sud,</l>
+<l>er Kyrkjeklokka lenger up mot Gud.</l>
+</lg>
+<lg>
+<l>Dei bratte Nutar af den svarte Stein</l>
+<l>er liksom Knokar efter Kjempebein.</l>
+<l>Kver Nut og Nubb med millom Skard i Skard</l>
+<l>er Kross i Kross paa denne Kyrkjegard.</l>
+</lg>
+<lg>
+<l><pb n="88"/>Den Egg, den Tind, den Pigg, den Klo, den Kniv,</l>
+<l>d&#x0027;er Skip og Baatar, som for Vinden driv;</l>
+<l>med sine kvite Segl dei sigla paa</l>
+<l>og dansa kring og duva i det Blaa.</l>
+</lg>
+<lg>
+<l>Den Tind som unge Kona er at sjaa;</l>
+<l>ho siter der med kvite Kaapa paa;</l>
+<l>det graae Flor sl&#x00E6;r Krull for vesle Vind.</l>
+<l>Nei sjaa, nei sjaa paa denne Glitretind!</l>
+</lg>
+<lg>
+<l>Dei Flug og Stup i denne blaae Eim</l>
+<l>med svarte Portar in til J&#x00F8;tunheim</l>
+<l>dei klumsa seg, du stend som gjord til Stein</l>
+<l>med Rys og Risling gjenom Merg og Bein.</l>
+</lg>
+<lg>
+<l>Den Fossen, bunden der og storknad stiv,</l>
+<l>er gr&#x00F8;ne Br&#x00E6;, som dreper Alt med Liv;</l>
+<l>den str&#x00F8;ymer gjenom desse ville Glup</l>
+<l>og fell med Skak og Brak i svarte Djup.</l>
+</lg>
+<lg>
+<l>Dei svarte Ringar over Fjell og Fly,</l>
+<l>som jaga paa, det Skuggar er af Sky,</l>
+<l>Dei koma fram og kverva sama Stund,</l>
+<l>og sigla kring paa denne Solskinsgrunn.</l>
+</lg>
+<lg>
+<l><pb n="89"/>Aa nei for Fjell med Stup og Kverve-Staup,</l>
+<l>og kvita Stripor efter Skridulaup!</l>
+<l>Der sitja dei med Skoddehatten paa</l>
+<l>og kvite Render uti Kaapa blaa.</l>
+</lg>
+<lg>
+<l>Som kvelvde store Skip paa skumsprengt Hav</l>
+<l>med Folk, som krabba up og skylast af,</l>
+<l>so driva Knatt i Knatt paa H&#x00F8; paa H&#x00F8;</l>
+<l>i Bylgjedrag paa denne storknad&#x0027; Sj&#x00F8;.</l>
+</lg>
+<lg>
+<l>I Soleglittret fraa den kvite Snjo</l>
+<l>sting her og der seg fram ei &#x00D8;rneklo,</l>
+<l>og Tinden spanar seg som til eit Sprang</l>
+<l>aat Fjorden ned i Dalens gr&#x00F8;ne Fang.</l>
+</lg>
+<lg>
+<l>Den lange Stripa ned i blaae Eim</l>
+<l>er djupe Dalen med sin Mannaheim;</l>
+<l>han er so smal som Sprekk i Husavegg</l>
+<l>og Hogg i Fjellet efter &#x00D8;kse-Egg.</l>
+</lg>
+<lg>
+<l>Det kj&#x00E6;re Liv i Alting er at sjaa:</l>
+<l>det sl&#x00E6;r seg ned, sosnart det finnst eit Straa.</l>
+<l>Og jamvel her in med den kalde Snjo</l>
+<l>stend Blomen med sin Livsens Glans og Glod.</l>
+</lg>
+<lg>
+<l><pb n="90"/>Dei Toppar der af Is og Steinen stiv,</l>
+<l>dei risa up og lyfta seg til Liv.</l>
+<l>Sjaa Tindarne med all si Jomfruform,</l>
+<l>som liksom taka Himilen med Storm!</l>
+</lg>
+</div>
+<div type="uchapter">
+<head type="sub">Gunnstein Grytebekk</head>
+<lg>
+<l><pb n="91"/>Den Grytebekken var ein Mann;</l>
+<l>som fram i Livet langt seg karad;</l>
+<l>for Liken sin han aldri fann</l>
+<l>til Skillingen at snu og spara.</l>
+</lg>
+<lg>
+<l>Han kunde godt seg snu og te</l>
+<l>og utor Knipa lett seg smetta.</l>
+<l>Han handlad Suad og sidan Fe,</l>
+<l>og tente altid litet vetta.</l>
+</lg>
+<lg>
+<l>Som Mus i Matbur kring han smaug,</l>
+<l>og fint seg sm&#x00F8;ygde fram og snudde;</l>
+<l>og ikki meir den Skalken laug,</l>
+<l>en nettup so dei honom trudde.</l>
+</lg>
+<lg>
+<l><pb n="92"/>Og naar so Pungen full han fekk,</l>
+<l>det ikki altid var for Dygdi.</l>
+<l>Han kaupte Garden Grytebekk,</l>
+<l>og sat som Biksen der i Bygdi.</l>
+</lg>
+<lg>
+<l>Og daa han var ein Kakse slik,</l>
+<l>han og ei Kjempe vilde vera;</l>
+<l>for den, som f&#x00F8;rst hev&#x0027; gjort seg rik,</l>
+<l>han trur, han alting lett kann gjera.</l>
+</lg>
+<lg>
+<l>Eingong paa Storegut han tok</l>
+<l>so smaat og liksom fram seg kjende;</l>
+<l>men Storegut i honom skok,</l>
+<l>so aldri meir han der seg brende.</l>
+</lg>
+<lg>
+<l>I Grytebekken som ein Tagg</l>
+<l>det stakk seg in, at slikt han tapad.</l>
+<l>Til Storegut han fekk ein Agg,</l>
+<l>men endaa like blid seg skapad.</l>
+</lg>
+<lg>
+<l>Og altid lenger in og in</l>
+<l>han stakk og stakk seg denne Taggen.</l>
+<l>Og i det hevnefuse Sinn</l>
+<l>han aat ikring seg denne Aggen.</l>
+</lg>
+<lg>
+<l><pb n="93"/>Naar du i Stein ein Sprekk f&#x00E6;r sjaa,</l>
+<l>han aukar Aar for Aar den Sprekken;</l>
+<l>for Frost og Vatten sprengja paa.</l>
+<l>Og slikt det var med Grytebekken.</l>
+</lg>
+<lg>
+<l>Med desse Ord han dreiv ein Bl&#x00F8;yg,</l>
+<l>han Storegut, i denne Sprekken:</l>
+<l>&#x00AB;Som Bundingsband han gjever T&#x00F8;yg</l>
+<l>i &#x00C6;rligdom, den Grytebekken.&#x00BB;</l>
+</lg>
+<lg>
+<l>Og Bl&#x00F8;ygen dreiv han reint i Kav,</l>
+<l>daa attaat dette Slengeordet</l>
+<l>han skildrad Grytebekken af</l>
+<l>med Kol eingong paa Eldhusbordet.</l>
+</lg>
+<lg>
+<l>Du saag&#x0027;n der i Svart paa Kvitt</l>
+<l>med Osteklyv paa Merr med Folen.</l>
+<l>Og det var verst, det var ei fritt,</l>
+<l>at Osten var paa St&#x00F8;jlen stolen.</l>
+</lg>
+<lg>
+<l>Den Skildring vardt eit Bygdarord;</l>
+<l>for snart det likso fort som Posten</l>
+<l>ikring paa Mannatunga foor:</l>
+<l>&#x00AB;Sjaa Grytebekk&#x0027;en der med Osten!&#x00BB;</l>
+</lg>
+<lg>
+<l><pb n="94"/>Men det var Grytebekkens Lag</l>
+<l>paa Vigti vondt mot vondt at vega.</l>
+<l>Han sa&#x0027;: &#x00AB;det kjem vel snart den Dag,</l>
+<l>daa Storegut paa det skal trega.&#x00BB;</l>
+</lg>
+<lg>
+<l>&#x00AB;Han trur, han er den beste han,</l>
+<l>og Liken sin kan aldri finna.</l>
+<l>Han harmat hev&#x0027; somangein Mann</l>
+<l>ved uti Dragsmaal st&#x00F8;dt at vinna.</l>
+</lg>
+<lg>
+<l>Den Mann, som st&#x00F8;rst vil vera, han</l>
+<l>i Livet venta maa det verste;</l>
+<l>for Ingen er so leid ein Mann,</l>
+<l>som den, som vera vil den beste.&#x00BB;</l>
+</lg>
+</div>
+<div type="uchapter">
+<head type="sub">Storegut fell i Giftetankar</head>
+<lg>
+<l><pb n="95"/>&#x00AB;I Livet hev&#x0027; det so som so meg gjengjet:</l>
+<l>med alt det Lov eg stridde for og vann,</l>
+<l>eg sviv og driv og verdt ein aldrug Mann,</l>
+<l>og enno hev&#x0027; eg ingjo Kone fengjet.</l>
+</lg>
+<lg>
+<l>Mot Giftermaalet Alle fram seg stava.</l>
+<l>Det kann vel henda, det er stundom leidt,</l>
+<l>og at af det ei dryper myket Feitt;</l>
+<l>men det er nokot alle Mann vil hava.</l>
+</lg>
+<lg>
+<l>Men liten Glede vist for meg vardt vunnen:</l>
+<l>Eg h&#x00F8;yrd&#x0027; eit Ord af Presten,<note type="footnote"><hi rend="italic">Forfatternote:</hi> Denne Presten, som han hever desse Ord og Vers ifraa, maa hava voret gamle Storm i Nissedal, som var ein l&#x00E6;rd og klok Mann, men ein Sveinkall og ein rein Raring.</note> godt som Korn:</l>
+<l>&#x00AB;Dei st&#x00F8;rste Menn hev&#x0027; altid mindste Born;</l>
+<l>for &#x00C6;ttartraaden ut med deim er spunnen.</l>
+</lg>
+<lg>
+<l><pb n="96"/>Og Livet godt sin Lagnad ut kann skifta;</l>
+<l>so kverein f&#x00E6;r det, han i Grunnen vil:</l>
+<l>Denn Mann, som inkje st&#x00F8;rre duger til,</l>
+<l>han duger daa til dess, han kann seg gifta.</l>
+</lg>
+<lg>
+<l>D&#x0027;er slike Folk, som skal i Muddret kava;</l>
+<l>for der til Grunns gjeng ikke store Aand,</l>
+<l>men det er nettup denne Tr&#x00E6;lehaand,</l>
+<l>som skapt er berre til i Mold at grava.</l>
+</lg>
+<lg>
+<l>Og godt det er, at slike Folk me hava,</l>
+<l>som finna Livsens Maal i Gods og Gull,</l>
+<l>og mettast ei, f&#x00F8;r Munn af Mold verdt full,</l>
+<l>og Bork af Livsens Tre med Tenner skava.&#x00BB;</l>
+<l>&#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013; &#x2013;</l>
+</lg>
+<lg>
+<l>Men, l&#x00E6;r det friske Lauv den vise Leksa:</l>
+<l>&#x00AB;stans Vokstren din, du berre visnar burt</l>
+<l>og fell til Jordi skruknat, svart og turrt!&#x00BB;</l>
+<l>Sjaa, om for det det sluttar med at veksa?</l>
+</lg>
+<lg>
+<l>Eg elskar alt, og h&#x00F8;yrer Folk at herma,</l>
+<l>at kver ei fager Gjente er meg kj&#x00E6;r,</l>
+<l>og at eg stakkar liksom Soli er,</l>
+<l>som over Alle lysa vil og verma.</l>
+</lg>
+<lg>
+<l><pb n="97"/>Eg seer det greidt: den, som seg sj&#x00F8;lv vil mata,</l>
+<l>han alting aat seg sj&#x00F8;lv skal kara blindt,</l>
+<l>og kora ut for seg ei Gjente svint,</l>
+<l>og elska hena og dei Andre hata.</l>
+</lg>
+<lg>
+<l>Af Grytebekkens Dotter stend der Agen,</l>
+<l>og ho eg veit det var, som her eingong</l>
+<l>so leikande for meg i Skogen song.</l>
+<l>Med Ljos og Liv og Song ho kjem som Dagen.</l>
+</lg>
+<lg>
+<l>Eg syndar vist, men endaa ei kann dylja,</l>
+<l>at ho er Dotter til den vonde Mann,</l>
+<l>som inkje Godt ifraa der koma kann,</l>
+<l>so Vondt det vil i Livet hena fylgja.</l>
+</lg>
+<lg>
+<l>Den rike Aab&#x00F8;-Gjenta kann du velja,</l>
+<l>og efter hena spring det mangein Kar.</l>
+<l>Yt fraa deg alt, om so deg sj&#x00F8;lv det var!</l>
+<l>men Elsken din, den kann du aldri selja.</l>
+</lg>
+<lg>
+<l>Ved Kyrkja Aalandsgjenta fint kann blenkja.</l>
+<l>Det kjem ein Gufs; men so eg, Fanten, veit,</l>
+<l>at ho som eg knapt eig ei skarve Gjeit.</l>
+<l>Det er for seint: eg byrjar alt at tenkja.&#x00BB;</l>
+</lg>
+</div>
+<div type="uchapter">
+<head type="sub">Storegut er bukj&#x00E6;r</head>
+<lg>
+<l><pb n="98"/>Han Storegut ingenting drog seg fraa;</l>
+<l>i Elsk han til Alt var bunden,</l>
+<l>baad&#x0027; Folk og Fe, baade store og smaa,</l>
+<l>ja endaa Katten og Hunden.</l>
+<l>Det Hjarta, som elskar, for alt maa slaa.</l>
+</lg>
+<lg>
+<l>Han vaksen var up baad&#x0027; med Saud og Gjeit</l>
+<l>og Bukken med Skjegget lange.</l>
+<l>Han saag det, at B&#x00F8;lingen myket veit</l>
+<l>og gjeng der med Tankar mange;</l>
+<l>sj&#x00F8;lv Grisen er klok, om han enn er feit.</l>
+</lg>
+<lg>
+<l>I Fe som i Folk er eit Hjartalag;</l>
+<l>dei kunna i Elsk seg gilda.</l>
+<l>Du seer, at dei hava eit Mannadrag</l>
+<l>og graata, so Taarer trilla</l>
+<l>I alt, som hev&#x0027; Liv, er det sama Slag.</l>
+</lg>
+<lg>
+<l><pb n="99"/>Som Smaagut han gj&#x00E6;tte; daa l&#x00E6;rde han</l>
+<l>med B&#x00F8;lingen st&#x00F8;dt at spraaka.</l>
+<l>Og altid det sama so gjorde han,</l>
+<l>naar sidan eit Naut han raakad.</l>
+<l>Med alting han talar den gode Mann.</l>
+</lg>
+<lg>
+<l>Og Vyrdnad han l&#x00E6;rde af velverd Ku,</l>
+<l>af Hesten han l&#x00E6;rde sansa,</l>
+<l>af Lambet han l&#x00E6;rde seg lett at snu,</l>
+<l>af Bukken at hallingdansa.</l>
+<l>Sjaa Livet ikring deg, so dansar du!</l>
+</lg>
+<lg>
+<l>Og raakad det til, han ein Mann fekk sjaa,</l>
+<l>som Hesten sin slog og plagad,</l>
+<l>so kunde han Hesten spretta ifraa,</l>
+<l>og Lasset i Kneiken draga.</l>
+<l>Den Veike skal Hjelp af den Sterke faa.</l>
+</lg>
+<lg>
+<l>Og gj&#x00E6;tt&#x0027; han om Vaaren, naar Snjoen gauv,</l>
+<l>og B&#x00F8;lingen solten stunde,</l>
+<l>so braut han af Raunen det vesle Lauv</l>
+<l>til Kui, som stod og drunde.</l>
+<l>Mot B&#x00F8;n af den Soltne ver aldri dauv!</l>
+</lg>
+<lg>
+<l><pb n="100"/>Og glad var hans B&#x00F8;ling i Guten sin,</l>
+<l>og rundt seg kring honom kransad,</l>
+<l>og kyste hans Hender og Blomekinn</l>
+<l>og up efter honom dansad.</l>
+<l>Det Hjarta, som elskar, kver Skapnad finn.</l>
+</lg>
+<lg>
+<l>Han livnad vardt up kverein einast Vaar,</l>
+<l>naar Kid han seg saag at kj&#x00E6;ta.</l>
+<l>Dei Sumrar han gjekk liksom sjuk og saar</l>
+<l>naar ikki han Fe fekk gj&#x00E6;ta.</l>
+<l>I Borddalen gj&#x00E6;tt&#x0027; han det siste Aar.</l>
+</lg>
+</div>
+<div type="uchapter">
+<head type="sub">Storegut verdt vitja af Huldra eller Rove-Guro</head>
+<lg>
+<l><pb n="101"/>Han Storegut laag seg i Borddals-Bud,</l>
+<l>og einsam han sat ved Elden;</l>
+<l>so kom der ei Gjente som beste Brud</l>
+<l>til honom der seint om Kvelden.</l>
+<l>Det hender somangt i Verdi.</l>
+</lg>
+<lg>
+<l>Han tenkte, at Livet i einsam Strid</l>
+<l>for Mannen er tungt at bera.</l>
+<l>Han sat og han tenkte, om all si Tid</l>
+<l>ein Sveinkall han skulde vera.</l>
+<l>Slikt tenkja dei paa dei Gutar.</l>
+</lg>
+<lg>
+<l>So fager ho var, at du Vondt kund&#x0027; faa;</l>
+<l>og fint ho seg snur og lagar.</l>
+<l>Det var so du aldri slikt Syn skuld&#x0027; sjaa</l>
+<l>i all&#x0027; dine Levedagar.</l>
+<l>Dei Gjentor kann vera fine!</l>
+</lg>
+<lg>
+<l><pb n="102"/>Ho blidt baud Godkveld og i Kne ho neig,</l>
+<l>og sa&#x0027;, han ei turvte f&#x00E6;le.</l>
+<l>Men endaa mest ned han af Krakken seig</l>
+<l>og miste baad&#x0027; Munn og M&#x00E6;le.</l>
+<l>D&#x0027;er grovt med det f&#x00E6;lt til Fine.</l>
+</lg>
+<lg>
+<l>Ho stansad og djupt efter Anden saup,</l>
+<l>og Blomen paa Kinn seg tende.</l>
+<l>Det var so der Elsk utor Augom draup,</l>
+<l>og heite som Glod dei brende.</l>
+<l>Dei elska med Eld dei Kvende.</l>
+</lg>
+<lg>
+<l>Ho smeikte seg in med eit M&#x00E6;le mjukt,</l>
+<l>og lett ho leikad og dansad.</l>
+<l>Og Storegut kjende sit hjarta sjukt,</l>
+<l>og kunde ei lenger sansa.</l>
+<l>D&#x0027;er Trollmenn dei fagre Gjentor.</l>
+</lg>
+<lg>
+<l>So reidde ho S&#x00E6;ngi og sagde daa:</l>
+<l>&#x00AB;Du ligg her paa Lakan grove.&#x00BB;</l>
+<l>Men rett som ho snudde seg, fekk han sjaa,</l>
+<l>ho efter seg drog ei Rove.</l>
+<l>D&#x0027;er godt at sjaa slikt i Tide.</l>
+</lg>
+<lg>
+<l><pb n="103"/>&#x00AB;So, Rove-Guro, d&#x0027;er du ditt Slarv,</l>
+<l>som sm&#x00F8;ygde deg in som Katten.&#x00BB;</l>
+<l>Og som han det sagde, so burt ho kvarv,</l>
+<l>som l&#x00F8;ynd under Huldrehatten.</l>
+<l>Og Storegut sat og dr&#x00F8;ymde.</l>
+</lg>
+</div>
+<div type="uchapter">
+<head type="sub">Storegut gjeng med Otte</head>
+<lg>
+<l><pb n="104"/>Her einsam eg gj&#x00E6;ter i Hugen heit</l>
+<l>og maa paa so mangt meg minna:</l>
+<l>Om eg skulde d&#x00F8;y, det Ingen veit,</l>
+<l>kvar atter dei skal meg finna,</l>
+<l>og fram til Kyrkja meg vinna.</l>
+</lg>
+<lg>
+<l>Det lokkar og dreg, so eg knapt meg tem:</l>
+<l>eg h&#x00F8;yrer som nokot laata.</l>
+<l>Eg veit ikki, kvat det er paa meg kjem.</l>
+<l>Det er so eg mest maa graata</l>
+<l>og kan ikki sj&#x00F8;lv meg maata.</l>
+</lg>
+<lg>
+<l>Kvereinaste Striden eg stridd&#x0027; og stod,</l>
+<l>til Siger eg snudd&#x0027; og vende.</l>
+<l>Men no er som burte baad&#x0027; Magt og Mod,</l>
+<l>so Maken meg f&#x00F8;r ei hende.</l>
+<l>Nei aldri til slikt eg kjende.</l>
+</lg>
+<lg>
+<l><pb n="105"/>Kver Stytta mi er som eg Staven skj&#x00F8;yr</l>
+<l>af morkne Ved skulde skjera.</l>
+<l>Det tynger og tynger, f&#x00F8;r Mannen d&#x00F8;yr:</l>
+<l>han kann ikki Byrdi bera.</l>
+<l>Det er vel, eg feig maa vera.</l>
+</lg>
+<lg>
+<l>Det hende meg ofta eg sat i Sut</l>
+<l>med storknat M&#x00E6;le i Munnen,</l>
+<l>og ofta det var, at eg vilde ut,</l>
+<l>men Vegen vardt aldri funnen,</l>
+<l>og altid eg stod som bunden.</l>
+</lg>
+<lg>
+<l>Som Barnet mot Fanget til Mo&#x0027;r kan traa,</l>
+<l>so fraa meg eg vilde springa.</l>
+<l>Men aldri som dette det trengde paa;</l>
+<l>og aldri det slikt meg tvingad.</l>
+<l>Det ligg som ein Stein for Bringa.</l>
+</lg>
+<lg>
+<l>Her hev&#x0027; eg ikringom meg Foss og Fjell</l>
+<l>og heile min B&#x00F8;ling trugen,</l>
+<l>men endaa det svider som Glod og Eld:</l>
+<l>Det er &#x0027;ki den rette Dugen</l>
+<l>og kann ikki metta Hugen.</l>
+</lg>
+<lg>
+<l><pb n="106"/>At n&#x00F8;gjast med Fjell og med Gras og Tre</l>
+<l>er berre i Mold at grava,</l>
+<l>og sj&#x00F8;lv med det snille og kloke Fe</l>
+<l>me fullt os ei fram kann stava.</l>
+<l>Me Mannatanken maa hava.</l>
+</lg>
+<lg>
+<l>Men arm er Tanken hjaa Kvinna og Mann;</l>
+<l>for Alle i Synd er&#x0027; sakad.</l>
+<l>Me lengta so saart efter Gud, som kann</l>
+<l>i Livet over os vaka,</l>
+<l>og sist os i Fanget taka.</l>
+</lg>
+</div>
+<div type="uchapter">
+<head type="sub">Grytebekk&#x0027;en er ute og skyter</head>
+<lg>
+<l><pb n="107"/>Han Grytebekken slengde burt</l>
+<l>ein Dag sin kvasse Ljaa</l>
+<l>og gjekk og sveiv, som nokot vondt</l>
+<l>han skulde tenkja paa.</l>
+</lg>
+<lg>
+<l>&#x00AB;Med Slaatten&#x00BB;, sa&#x0027; han, &#x00AB;gjeng det smaat:</l>
+<l>eg hev&#x0027; eit Hjarte-Mein</l>
+<l>eg lyt til Fjells til lette Luft</l>
+<l>og skjota meg ein Rein.</l>
+</lg>
+<lg>
+<l>No hev&#x0027; det lenge voret Regn,</l>
+<l>so Reinen dreg mot Gud.</l>
+<l>Eg raakar vist ein Dyrehop</l>
+<l>alt nord med Flotubud.&#x00BB;</l>
+</lg>
+<lg>
+<l><pb n="108"/>So stelte han med Rifla si</l>
+<l>den Dagen heilt til Kvelds.</l>
+<l>Han litet sov og andre Dag</l>
+<l>han tidleg strauk til Fjells.</l>
+</lg>
+<lg>
+<l>Han kom til Borddals n&#x00E6;ste Dag</l>
+<l>so over Middagstid</l>
+<l>og under Fjellet fram seg drog</l>
+<l>der up i bratte Lid.</l>
+</lg>
+<lg>
+<l>So sveiv han under Nuten der</l>
+<l>som over Rjupa Hauk.</l>
+<l>Og Storegut paa Legret var;</l>
+<l>for der fraa Budi rauk.</l>
+</lg>
+<lg>
+<l>Og B&#x00F8;lingen ved Legret gjekk</l>
+<l>ikringom der og dreiv</l>
+<l>og tidleg in paa B&#x00F8;en kom</l>
+<l>og kringom Budi sveiv.</l>
+</lg>
+<lg>
+<l>So saag han efter, Storegut,</l>
+<l>om heilt han havde alt;</l>
+<l>so mjolkad han til Kvelds, og so</l>
+<l>han B&#x00F8;lingen gav Salt.</l>
+</lg>
+<lg>
+<l><pb n="109"/>Og so god Natt med den han tok</l>
+<l>og om iblandt den foor;</l>
+<l>til kver han havde Smeik og Klapp</l>
+<l>og so eit kj&#x00E6;rligt Ord.</l>
+</lg>
+<lg>
+<l>Men rett som B&#x00F8;lingen der gjekk</l>
+<l>og sveiv og stod og laag,</l>
+<l>so fekk med Eit den som ein Kvekk</l>
+<l>og up mot Nuten saag.</l>
+</lg>
+<lg>
+<l>Paa Ryggen Bukken reiste Ragg,</l>
+<l>som var det verst han fraus;</l>
+<l>og Hest og Ku med Foten grov</l>
+<l>og snyftad paa og naus.</l>
+</lg>
+<lg>
+<l>&#x00AB;Tru Bj&#x00F8;rnen ute er i Kveld?&#x00BB;</l>
+<l>sa&#x0027; med seg Storegut,</l>
+<l>so strauk han beint i Budi in</l>
+<l>og kom med Rifla ut.</l>
+</lg>
+<lg>
+<l>So gjekk han efter B&#x00F8;en up</l>
+<l>og Feet fylgde paa.</l>
+<l>Han saag og saag, men Ingenting</l>
+<l>der uppe var at sjaa.</l>
+</lg>
+<lg>
+<l><pb n="110"/>Han saag det, tidt paa Fjell han saag,</l>
+<l>som spaar ein Morgon god:</l>
+<l>han saag den raude Kveldsol skein</l>
+<l>og gl&#x00F8;ste med sin Glod.</l>
+</lg>
+<lg>
+<l>So kom han til den store Urd,</l>
+<l>som ligg der som ein Tramm.</l>
+<l>Der stansar B&#x00F8;lingen og kann</l>
+<l>ei lenger koma fram.</l>
+</lg>
+<lg>
+<l>Men &#x00AB;Blaamann&#x00BB; med sit lange Skjegg</l>
+<l>og Klauv paa spr&#x00E6;ke Bein</l>
+<l>han fylgde med sin Gjeitelegg</l>
+<l>i Hopp fraa Stein til Stein.</l>
+</lg>
+<lg>
+<l>So bar det up mot Borddals-Nut</l>
+<l>i denne Kveldens Fred.</l>
+<l>Med Eit det smaall, og Storegut</l>
+<l>i Urdi stupad ned.</l>
+</lg>
+<lg>
+<l>Og B&#x00F8;lingen den beljar i,</l>
+<l>der nedanfor den stod:</l>
+<l>den h&#x00F8;yrde Smell og R&#x00F8;yken saag</l>
+<l>og kjende Lukt af Blod.</l>
+</lg>
+<lg>
+<l><pb n="111"/>Den slapp ei up, so Mordets Mann</l>
+<l>fekk Tid og Stund og Fred,</l>
+<l>til Storegut at mura vel</l>
+<l>der kav i Urdi ned.</l>
+</lg>
+<lg>
+<l>Han kverteit Liv, som kom der up,</l>
+<l>af Vegen rydja laut:</l>
+<l>Han ladde Rifla si paany</l>
+<l>og likeins Blaamann skaut.</l>
+</lg>
+<lg>
+<l>Den heile Nott stod B&#x00F8;lingen</l>
+<l>og ventad Storegut,</l>
+<l>og daa han so ei kom, den tok</l>
+<l>ved Sole-Koma ut.</l>
+</lg>
+<lg>
+<l>Den kom so sveitt, at kring den stod</l>
+<l>der tykke Toku-Eim,</l>
+<l>so kom den fram mot Middagstid</l>
+<l>til Havradalen heim.</l>
+</lg>
+<lg>
+<l>Det fyrste den fekk Folk at sjaa,</l>
+<l>den Hovud rist&#x0027; og skok;</l>
+<l>og bar med Bur og Beljing paa,</l>
+<l>som ingen Ende tok.<note type="footnote">tok.] <hi rend="italic">rettet fra:</hi> tok, <hi rend="italic">(trykkfeil)</hi></note></l>
+</lg>
+<lg>
+<l><pb n="112"/>Og daa so Folk fekk dette sjaa,</l>
+<l>som var eit Under stort,</l>
+<l>so bar dei til at skyna paa,</l>
+<l>at nokot Vondt var gjort.</l>
+</lg>
+<lg>
+<l>Til Borddals B&#x00F8;lingen vardt fylgd.</l>
+<l>Den up mot Urdi saag,</l>
+<l>og merkte ut, at det var der,</l>
+<l>som Storegut&#x0027;en laag.</l>
+</lg>
+<lg>
+<l>Men Ingenting der funnet vardt</l>
+<l>med alt det, leitad&#x0027; var. &#x2013;</l>
+<l>So kom den Uferds-Bod til meg,</l>
+<l>som var hans gamle Fa&#x0027;r.</l>
+</lg>
+<lg>
+<l>Det fyrste, som eg kom til meg</l>
+<l>fraa slikt eit Svimeslag,</l>
+<l>so saag eg alt, so tenkte eg</l>
+<l>paa Rettens store Dag.</l>
+</lg>
+<lg>
+<l>Eg Grytebekken visste vel,</l>
+<l>var Son mins Banemann,</l>
+<l>og at det ingen Annan var</l>
+<l>en nettup, nettup han.</l>
+</lg>
+<lg>
+<l><pb n="113"/>Eg kjende deira gamle Strid</l>
+<l>og visst&#x0027; han var ein Hein,</l>
+<l>og spurde, han paa sama Tid</l>
+<l>ha&#x0027; gjenget efter Rein.</l>
+</lg>
+<lg>
+<l>Eg ikki denne Udaadsmann</l>
+<l>gav minste Ro ell&#x0027; Rist.</l>
+<l>Der Aalvor var, som hjaa ein Mann,</l>
+<l>som Son sin hever mist.</l>
+</lg>
+<lg>
+<l>Den heile Bygd eg foor ikring,</l>
+<l>og med meg fekk eg Folk.</l>
+<l>Til Fjells me Grytebekk&#x0027;en dreiv</l>
+<l>framfyre os med Svolk.</l>
+</lg>
+<lg>
+<l>Daa B&#x00F8;lingen fekk honom sjaa,</l>
+<l>der Aalvor vardt i Lag;</l>
+<l>den burad og den beljad paa</l>
+<l>som det var Domedag.</l>
+</lg>
+<lg>
+<l>For os at varna om hans Liv</l>
+<l>det reint me faafengt saag.</l>
+<l>Han maatte r&#x00F8;ma til den Urd,</l>
+<l>der Storegut&#x0027;en laag.</l>
+</lg>
+<lg>
+<l><pb n="114"/>Men Ingenting om Storegut</l>
+<l>fortel den Syndens Mann;</l>
+<l>med Ingenting han vilde ut,</l>
+<l>og Ingenting me fann.</l>
+</lg>
+<lg>
+<l>Og ingen Rett der var at faa;</l>
+<l>for slikt var Retten fest,</l>
+<l>at altid den fekk st&#x00F8;rste Rett,</l>
+<l>som kunde muta mest.</l>
+</lg>
+<lg>
+<l>Si Tid han livde som eit Vrak,</l>
+<l>og mangein Gong vardt dengd.</l>
+<l>Men, Huset stend forutan Tak,</l>
+<l>naar Retten den er stengd.</l>
+</lg>
+<lg>
+<l>Men, daa han skulde anda ut,</l>
+<l>og b&#x00F8;ygja sine Bein,</l>
+<l>han sa&#x0027;: &#x00AB;no ligg han Storegut</l>
+<l>paa Bringa mi som Stein.&#x00BB;</l>
+</lg>
+<lg>
+<l>Me efter Rett og Rettferd sjaa;</l>
+<l>me leita Nord og Sud;</l>
+<l>og sviktar Mann, tilslutt so faa</l>
+<l>med Retten vaar af Gud.</l>
+</lg>
+</div>
+<div type="uchapter">
+<head type="sub">Storegut verdt atterfunnen</head>
+<lg>
+<l><pb n="115"/>Om nokre Aar der und ein Stein</l>
+<l>der fann dei Storegut&#x0027;ens Bein.</l>
+<l>Der uppe i den store Urd</l>
+<l>der laag dei innanfor ein Mur,</l>
+<l>som Lik paa Straa i Heimebur,</l>
+<l>vel skavne af men utan Mein.</l>
+</lg>
+<lg>
+<l>Eg maatte, om eg gamal var,</l>
+<l>deim henta eg, som var hans Fa&#x0027;r.</l>
+<l>Eg maatte slita tyngste Mon</l>
+<l>og faa mi sidste Livsens Von,</l>
+<l>dei Beini af min store Son,</l>
+<l>til kristnad Jord i Kyrkjegard.</l>
+</lg>
+<lg>
+<l>Eg syntes siga ned i Jord,</l>
+<l>for Augom svarte Skuggar foor,</l>
+<l>der over Fjellet, som eg gjekk</l>
+<l>med Son mins Bein paa Rygg i Sekk.</l>
+<l><pb n="116"/>Og somt, eg tenkte daa, eg fekk</l>
+<l>sett ut i Song med desse Ord:</l>
+</lg>
+<lg>
+<l>Eg stend som paa Roti eit turkat Tre,</l>
+<l>naar det er kvistat og kartat;</l>
+<l>so flekker det Borken og rotnar ned</l>
+<l>og ligg der soppat og svartat;</l>
+<l>so gjeng det i Mold som ein morken Ved.</l>
+</lg>
+<lg>
+<l>Ja dei, som eg elskad, dei d&#x00F8;ydde af,</l>
+<l>den eine efter den annan.</l>
+<l>Han Gleden tok atter, som Gleden gav.</l>
+<l>Men underligt er for Mannen</l>
+<l>at ganga som eg paa si eigi Grav.</l>
+</lg>
+<lg>
+<l>For sonalaus Mann er einsamt og audt,</l>
+<l>der vonlaus han gjeng og veiknar.</l>
+<l>Alt ligg her ikringom meg svart og snaudt.</l>
+<l>For blekkrande Blad eg bleiknar.</l>
+<l>Eg f&#x00E6;ler eit Liv, som for meg er daudt.</l>
+</lg>
+<lg>
+<l>Og Soli er kald og Maanen er varm.</l>
+<l>&#x2013; Dei Straalarne ei meg h&#x00F8;va &#x2013;</l>
+<l>Framfyre meg seer eg min Likferdskarm,</l>
+<l>og gamle Minne meg kj&#x00F8;va,</l>
+<l>og Staven ei styrker min gamle Arm.</l>
+</lg>
+<lg>
+<l><pb n="117"/>I mindste Straaet eg snaavar ikoll,</l>
+<l>so valne er&#x0027; F&#x00F8;terne mine.</l>
+<l>Og Tanken flyt burt som Vatten i Sold</l>
+<l>den eine og alle hine.</l>
+<l>Og Maten i Munnen verdt som til Mold.</l>
+</lg>
+<lg>
+<l>So ber eg paa Son min med Skjelv i Kne</l>
+<l>og dimmande Auga taaret.</l>
+<l>So firar i Gravi eg Beini ned,</l>
+<l>og leser so Fadervaaret.</l>
+<l>So kjem eg snart efter i Herrens Fred.</l>
+</lg>
+</div>
+<div type="uchapter">
+<head type="sub">Gaml&#x0027; Olaf paa Legd</head>
+<lg>
+<l><pb n="118"/>Paa Legd eg ligg. So dit det bar!</l>
+<l>Eg miste Born, eg miste Gard.</l>
+<l>Med alt gjekk ut.</l>
+<l>Eg miste Alt, som kj&#x00E6;rt meg var,</l>
+<l>ja, Storegut.</l>
+</lg>
+<lg>
+<l>Men, Hausten betre er end<note type="footnote">end] <hi rend="italic">rettet fra:</hi> en <hi rend="italic">(trykkfeil)</hi></note> Vaar.</l>
+<l>I mine siste Liveaar</l>
+<l>no finn eg Ro.</l>
+<l>Og Gud ske Lov, at alle Saar</l>
+<l>dei atter gro.</l>
+</lg>
+<lg>
+<l>Dei fleste Folk eg snille fann.</l>
+<l>Og enno ynsker ingen Mann,</l>
+<l>at eg skal d&#x00F8;y.</l>
+<l>Eg Visor kved og gleda kann</l>
+<l>baad&#x0027; Mann og M&#x00F8;y.</l>
+</lg>
+<lg>
+<l><pb n="119"/>Mot Lygn og List eg altid stod.</l>
+<l>Med all mi Synd det gjev meg Mod</l>
+<l>og tr&#x00F8;star mest.</l>
+<l>For Mannen det at vera god</l>
+<l>til Slutt er best.</l>
+</lg>
+<lg>
+<l>For alle mine tunge Slag</l>
+<l>eg havde fulle Vederlag,</l>
+<l>naar Alt kjem in;</l>
+<l>verdt alt gjort up til siste Dag,</l>
+<l>eg endaa vinn.</l>
+</lg>
+<lg>
+<l>Daa Storegut til Jords eg bar,</l>
+<l>var dette for den gamle Fa&#x0027;r</l>
+<l>vel helder kaldt.</l>
+<l>Men Minnet mit om det, han var,</l>
+<l>det sonar alt.</l>
+</lg>
+<lg>
+<l>Eg enno seer hans Anlitsdrag.</l>
+<l>At st&#x00F8;rst han gjekk i alle Lag,</l>
+<l>er st&#x00F8;dt meg n&#x00E6;r.</l>
+<l>Eg dr&#x00F8;ymer om&#x0027;n Nott og Dag:</l>
+<l>mitt Liv det er.</l>
+</lg>
+<lg>
+<l><pb n="120"/>Det Mannen ynskjer mest eg vann,</l>
+<l>at efter seg eit Minne han</l>
+<l>i Livet f&#x00E6;r.</l>
+<l>Det einaste eg gjera kann,</l>
+<l>det syngja er.</l>
+</lg>
+<lg>
+<l>Eg seer og syng, om eg verdt blind,</l>
+<l>om Gr&#x00F8;nelid og Glittretind</l>
+<l>og Borddals-Nut.</l>
+<l>Eg syng til dess eg sovnar in</l>
+<l>og andar ut.</l>
+</lg>
+<lg>
+<l>Eg syng for Folk i Haug og Horg,</l>
+<l>at Gut for Gjenta gjekk i Borg</l>
+<l>og fridd&#x0027;a ut.</l>
+<l>Eg syng for deim om Elsk og Sorg</l>
+<l>og Storegut.</l>
+</lg>
+<lg>
+<l>Det vermer meg, om eg er graa,</l>
+<l>naar eg for Songen min kann faa</l>
+<l>ein Gledarlaat.</l>
+<l>Men ingenting slikt biter paa</l>
+<l>som Gjentegraat.</l>
+</lg>
+<lg>
+<l><pb n="121"/>Mot Tungsinn altid Gjenta traar.</l>
+<l>Ein Song om Sorg og Hjartasaar</l>
+<l>ho likar best.</l>
+<l>Til Graaten tek ho altid, naar</l>
+<l>ho elskar mest.</l>
+</lg>
+<lg>
+<l>Det Bakken up for Alle ber,</l>
+<l>og Vegen er for Alle her</l>
+<l>so smal og trong.</l>
+<l>I Livet er slik Sorg, at der</l>
+<l>er nok for Song.</l>
+</lg>
+</div>
+</div>
+<div type="chapter">
+<head type="main"><ref type="contents" target="contents_5" xml:id="chapter_5">&#x005B;TYDINGAR&#x005D;</ref></head>
+<div type="uchapter">
+<head type="sub">A.</head>
+<list>
+<item><hi rend="italic">Age</hi>, Ave</item>
+<item>Ei <hi rend="italic">Aader</hi>, Aare. Pl. Aadrar.</item>
+<item><hi rend="italic">Aa</hi>, paa.</item>
+<item>Eit <hi rend="italic">Auga</hi>, &#x00D8;ie.</item>
+<item><hi rend="italic">Att&#x0027;</hi>, atter, igjen.</item>
+<item>Eit <hi rend="italic">Aabry</hi>, ogsaa ein Aabryskap, Jalousi, at <hi rend="italic">aabry</hi> Ein, v&#x00E6;re jaloux, aabryen, jaloux.</item>
+<item><hi rend="italic">Aat</hi>, ad, til.</item>
+<item>Ein <hi rend="italic">Agg</hi>, noget som stadigt &#x00E6;rgrer og ophidser.</item>
+<item><hi rend="italic">Audt</hi>, &#x00F8;de</item>
+<item><hi rend="italic">Andlit</hi>, Ansigt.</item>
+</list>
+</div>
+<div type="uchapter">
+<head type="sub">B.</head>
+<list>
+<item>Ei <hi rend="italic">Baara</hi>, omtrent det samme som B&#x00F8;lge, en skarp B&#x00F8;lge.</item>
+<item>Ein <hi rend="italic">B&#x00F8;yg</hi>, B&#x00F8;ining.</item>
+<item><hi rend="italic">Berre</hi>, bare.</item>
+<item>Eit <hi rend="italic">Bit</hi>, Bidning.</item>
+<item>Ein <hi rend="italic">Bar</hi>, egentlig Bord, Udkant, Skranke. Eng. bar.</item>
+<item>Ei <hi rend="italic">Bj&#x00F8;rk</hi>, Birk.</item>
+<item>Eit <hi rend="italic">Braud</hi>, Br&#x00F8;d.</item>
+<item>Ei <hi rend="italic">Bona</hi>, det hule Been. &#x00AB;Bein og Bonor&#x00BB;, faste og hule Been.</item>
+<item><hi rend="italic">Baust</hi>, staseligt, st&#x00E6;rk.</item>
+<item>Ein <hi rend="italic">Bl&#x00F8;yg</hi>, en Kile.</item>
+<item><hi rend="italic">Bukj&#x00E6;r</hi>, kj&#x00E6;r, glad i Bu eller Buskap, F&#x00E6;.</item>
+<item>Ein <hi rend="italic">B&#x00F8;ling</hi>, den hele Samling af Bof&#x00E6; paa en Gaard, ei Drift, stor Samling af F&#x00E6;.</item>
+<item>Ei <hi rend="italic">Bringa</hi>, Brystet.</item>
+<item>Ein <hi rend="italic">B&#x00F8;</hi>, en Slettemark med Gr&#x00E6;s, et Jorde; det samme som By.</item>
+<item>&#x00AB;<hi rend="italic">Blaamann</hi>&#x00BB;, en Buk med det Navn.</item>
+<item><hi rend="italic">Belja</hi>, br&#x00F8;le.</item>
+<item>Ein <hi rend="italic">Bur</hi> langt u,<note type="footnote">u,] <hi rend="italic">rettet fra:</hi> u <hi rend="italic">(trykkfeil)</hi></note> af bura, dump Br&#x00F8;len.</item>
+<item><hi rend="italic">Blekrande</hi> ogsaa <hi rend="italic">blakrande</hi>, blafrende.</item>
+<item><hi rend="italic">Bleikna</hi>, blive bleg.</item>
+<item><hi rend="italic">Ber</hi> og berer, Pr&#x00E6;sens af bera, b&#x00E6;re.</item>
+</list>
+</div>
+<div type="uchapter">
+<head type="sub">D.</head>
+<list>
+<item>Ei <hi rend="italic">Dygd</hi>, Dyd.</item>
+<item><hi rend="italic">Dunde</hi>, Impf. af dynja, d&#x00F8;nne.</item>
+<item><hi rend="italic">Druste</hi>, Impf. af drysja, drysse.</item>
+<item><hi rend="italic">Drep</hi>, Pr&#x00E6;s. af drepa, dr&#x00E6;be, Impf. drap, eit <hi rend="italic">Draap</hi>.</item>
+<item>Ein <hi rend="italic">Draug</hi>, Gjenganger.</item>
+<item>Ein <hi rend="italic">Dur</hi>, dump Larm.</item>
+<item>Ein <hi rend="italic">Dyn</hi>, D&#x00F8;nnen.</item>
+<item>Ei <hi rend="italic">Dogg</hi>, Dug, liden Draabe.</item>
+<item>Eit <hi rend="italic">Djup</hi>, Dyb.</item>
+<item><hi rend="italic">Drunde</hi>, Impf. af drynja, dr&#x00F8;nne.</item>
+<item>Ein <hi rend="italic">Dug</hi>, det som duger, duer.</item>
+<item><hi rend="italic">Daudt</hi>, d&#x00F8;dt.</item>
+</list>
+</div>
+<div type="uchapter">
+<head type="sub">E.</head>
+<list>
+<item><hi rend="italic">Eid</hi>, Ed.</item>
+<item><hi rend="italic">Elt</hi>, jaget, af elta, &#x00AB;svelt og elt,&#x00BB; forhungret og jaget.</item>
+<item>Ein <hi rend="italic">Eim</hi>, Damp, og halvtaaget Luft.</item>
+<item><hi rend="italic">Eiger</hi>, Pr&#x00E6;s. af eiga, egentlig eie, men ogsaa skylder: &#x00AB;han eiger meg det og det,&#x00BB; han skylder mig det.</item>
+</list>
+</div>
+<div type="uchapter">
+<head type="sub">F.</head>
+<list>
+<item><hi rend="italic">Flo</hi>, Lag.</item>
+<item><hi rend="italic">Ferdom</hi>, F&#x00E6;rderne. Endelsen <hi rend="italic">om</hi> dativ Plur. saasom Haugom, H&#x00F8;iderne, Fingrom, Augom, &#x00D8;inene, Haandom, H&#x00E6;nderne osv.</item>
+<item><hi rend="italic">Furten</hi>, En som lett bliver vred, at furta, blusse op i Vrede.</item>
+<item><hi rend="italic">Fotafar</hi>, Fodspor.</item>
+<item><hi rend="italic">Fly</hi>, Fjeldslette.</item>
+<item><hi rend="italic">Fossegrimen</hi>, en Aand som en Dverg, der lever i Fossen og l&#x00E6;rer Folk at spille.</item>
+<item>Eit <hi rend="italic">Finne</hi>, der hvor Fingraset voxer til Fjelds. &#x00AB;Fjell og Finne,&#x00BB; egentlig baade h&#x00F8;iere og lavere til Fjelds.</item>
+<item><hi rend="italic">Fljuga</hi>, flyve.</item>
+<item><hi rend="italic">Fyre</hi>, foran.</item>
+<item>Ein <hi rend="italic">Fr&#x00E6;gdamann</hi>, en ber&#x00F8;mmelig mann, af <hi rend="italic">Fr&#x00E6;gd</hi>, Ber&#x00F8;mmelse.</item>
+<item>Ein <hi rend="italic">Fagnad</hi>, Ros, Kj&#x00E6;ling for.</item>
+<item>Eit <hi rend="italic">Flug</hi> eller <hi rend="italic">Fljug</hi>, en brat Fjeldstyrtning.</item>
+<item><hi rend="italic">F&#x00E6;la</hi>, frygte, <hi rend="italic">f&#x00E6;len</hi>, frygtsom.</item>
+<item><hi rend="italic">Feig</hi>, som snart skal d&#x00F8;. Bogsprogets <hi rend="italic">feig</hi> haves ikke i den Betydning, livr&#x00E6;dd, f&#x00E6;len.</item>
+</list>
+</div>
+<div type="uchapter">
+<head type="sub">G.</head>
+<list>
+<item><hi rend="italic">Glimde</hi>, Impf. af glima, glimre.</item>
+<item><hi rend="italic">Glodde</hi>, Impf. af glo, see, lyse, glimte.</item>
+<item><hi rend="italic">Galt</hi>, kort a, Impf. af gjelda, &#x00AB;daa det galt paa&#x00BB;, kneb.</item>
+<item><hi rend="italic">Gret</hi>, Pr&#x00E6;sens af graata.</item>
+<item>Ein <hi rend="italic">Gufs</hi>, egentlig st&#x00E6;rk Pust.</item>
+<item><hi rend="italic">Galet</hi>, galt, daarligt.</item>
+<item>Ein <hi rend="italic">Gaus</hi>, Skummen, Opbrustning.</item>
+<item><hi rend="italic">Gl&#x00F8;ser</hi>, gl&#x00F8;der.</item>
+<item><hi rend="italic">Gool</hi>, Impf. af gala.</item>
+<item><hi rend="italic">Gl&#x00F8;mde</hi>, Impf. af gl&#x00F8;ma, see m&#x00F8;rk og truende ud, ein Gl&#x00F8;m, Eng. gloom.</item>
+<item><hi rend="italic">Gasten</hi>, en fabelagtig Fugl, ogsaa Dj&#x00E6;velen.</item>
+<item>Eit <hi rend="italic">Grjot</hi>, egentlig Stoffet i en Steen, ogsaa Steen.</item>
+<item><hi rend="italic">Glittretind</hi>, en Tind som glittrer, ogsaa en Tind af det Navn, en som s&#x00E6;rskilt glittrer.</item>
+<item>Eit <hi rend="italic">Glup</hi>, et Sv&#x00E6;lg, en Tragt.</item>
+<item><hi rend="italic">Gilda</hi> seg, gjera seg gild, gj&#x00E6;v, gj&#x00F8;re sig til af noget.</item>
+<item><hi rend="italic">Gj&#x00E6;tt&#x0027;</hi> gj&#x00E6;tte, Impf. af gj&#x00E6;ta, vogte F&#x00E6;.</item>
+<item>Ein <hi rend="italic">Gledarlaat</hi>, Gl&#x00E6;deslyd.</item>
+</list>
+</div>
+<div type="uchapter">
+<head type="sub">H.</head>
+<list>
+<item><hi rend="italic">Het</hi>, langt e, Impf. af heita, hedde.</item>
+<item>Ein <hi rend="italic">Heim</hi>, egentlig et Hjem, men ogsaa hele Verden, hvor man er heime, hjemme.</item>
+<item><hi rend="italic">Heppen</hi>, heldig, eit Hepp, et lykkeligt Tr&#x00E6;f.</item>
+<item><hi rend="italic">Haag</hi>, h&#x00F8;i.</item>
+<item><hi rend="italic">Hjaa</hi>, hos.</item>
+<item>Ei <hi rend="italic">Heid</hi>, Hede, Plateau.</item>
+<item>Ei <hi rend="italic">Hola</hi>, Hule.</item>
+<item><hi rend="italic">Haal</hi>, glat.</item>
+<item>Ein <hi rend="italic">Hause</hi>, en rund Bjergkolle.</item>
+<item><hi rend="italic">Hugheilt</hi>, fortr&#x00F8;stningsfuldt; <hi rend="italic">med heile Hugen</hi>, af fuldt Hj&#x00E6;rte.</item>
+<item><hi rend="italic">Huska</hi> seg, gynge sig.</item>
+<item>Eit <hi rend="italic">Hogg</hi>, Hug.</item>
+<item>Ei <hi rend="italic">H&#x00F8;</hi>, en H&#x00F8;ide, en s&#x00E6;regen Form af Fjeldh&#x00F8;ider.</item>
+<item><hi rend="italic">Hevnefus</hi>, hevnlysten. <hi rend="italic">Fus</hi>, langt u, kj&#x00E6;r, lysten paa noget.</item>
+<item><hi rend="italic">Herma</hi>, abe efter, gjentage</item>
+<item>Ei <hi rend="italic">Huldre</hi>, en Slags Elle eller Alfekvinde; antagelig af <hi rend="italic">hylja</hi>, <hi rend="italic">hulde</hi>, <hi rend="italic">hult</hi>, hylle, indhylle. <hi rend="italic">Huldrehatt</hi>, en Hat, som gj&#x00F8;r En usynlig, hyller En ind.</item>
+<item>Ein <hi rend="italic">Hein</hi>, haard Steen.</item>
+<item><hi rend="italic">H&#x00F8;va</hi>, ramme.</item>
+<item><hi rend="italic">Helder</hi>, egentlig heller; men forst&#x00E6;rkende &#x00AB;det er helder kaldt,&#x00BB; overordentlig koldt.</item>
+<item>Ei <hi rend="italic">Horg</hi>, en stor Forsamling. &#x00AB;Haug og Horg,&#x00BB; egentlig det samme, i store Forsamlinger.</item>
+</list>
+</div>
+<div type="uchapter">
+<head type="sub">J.</head>
+<list>
+<item><hi rend="italic">Jala</hi>, lokke og synge som Hyrdepige.</item>
+<item><hi rend="italic">Jol</hi>, Jul.</item>
+<item><hi rend="italic">Jamvel</hi>, endogsaa.</item>
+<item><hi rend="italic">Idra</hi>, tvivle, bet&#x00E6;nke sig.</item>
+<item><hi rend="italic">Jonsok</hi>, St. Hans.</item>
+<item><hi rend="italic">J&#x00F8;tunheim</hi>, J&#x00F8;tnernes Hjem, det h&#x00F8;ieste Fjeldparti.</item>
+</list>
+</div>
+<div type="uchapter">
+<head type="sub">K.</head>
+<list>
+<item><hi rend="italic">Krudde</hi>, Impf. af kry, vrimle, kry, kryr, krudde, krutt, noget saan&#x00E6;r synonymt med <hi rend="italic">yrja</hi>, skj&#x00F8;nt dette udtrykker en st&#x00F8;rre Vrimlen. &#x00AB;Det yr og det kryr, og det urde og krudde.&#x00BB;</item>
+<item><hi rend="italic">Kvarv</hi>, Impf. af <hi rend="italic">kverva</hi>, svinde, sno sig, komme bort.</item>
+<item><hi rend="italic">Krull</hi>, egentlig Kr&#x00F8;l, stor Samling.</item>
+<item><hi rend="italic">Kruk</hi>, Krumning.</item>
+<item><hi rend="italic">Krupp</hi>, en B&#x00F8;ining.</item>
+<item><hi rend="italic">Kr&#x00F8;kte</hi>, Impf. af kr&#x00F8;kja, gj&#x00F8;re Krok paa, b&#x00F8;ie.</item>
+<item><hi rend="italic">Kjelda</hi>, Kilde.</item>
+<item>Eit <hi rend="italic">Kvende</hi>, et Kvindfolk.</item>
+<item><hi rend="italic">Kar</hi>, Karl.</item>
+<item><hi rend="italic">Kr&#x00F8;kja</hi>, Fem. af Krok, Krog, en Stakkel.</item>
+<item><hi rend="italic">Kj&#x00F8;ver</hi>, qv&#x00E6;ler, af kjova.</item>
+<item><hi rend="italic">Kaut</hi>, rask paa det.</item>
+<item><hi rend="italic">Kongens Karar</hi>, Soldaterne.</item>
+<item>Ein <hi rend="italic">Kvekk</hi>, R&#x00E6;dsel, af kvekkja, skr&#x00E6;kkes pludseligt.</item>
+<item>Ein <hi rend="italic">Kult</hi>, egentlig en H&#x00F8;i, en stor Mand.</item>
+<item>Eit <hi rend="italic">Kor</hi>, Kaar, aabent o.</item>
+<item>Ei <hi rend="italic">Knoda</hi>, Deigklumpen, en Steen som seer sligt ud.</item>
+<item><hi rend="italic">Klumsa</hi>, hexe fast.</item>
+<item><hi rend="italic">Kvelvde</hi>, Impf. af kvelva, hv&#x00E6;lve.</item>
+<item>Ein <hi rend="italic">Knatt</hi>, en afstumpet Fjeldspids.</item>
+<item><hi rend="italic">Kav</hi>, i kav, ganske ned, under.</item>
+<item>Ei <hi rend="italic">Klyv</hi>, Kl&#x00F8;v.</item>
+<item><hi rend="italic">Kora</hi>, aabent o, kaare.</item>
+<item>Ein <hi rend="italic">Kneik</hi>, en tv&#x00E6;rbrat Bakke.</item>
+<item><hi rend="italic">Kj&#x00E6;ta</hi> seg, hoppe af Lystighed.</item>
+<item><hi rend="italic">Kvar</hi>, hvor.</item>
+<item>Ei <hi rend="italic">Klauv</hi>, Klov.</item>
+<item><hi rend="italic">Kartat</hi>, afhugget Kvisteknuderne.</item>
+<item><hi rend="italic">Koll</hi>, <hi rend="italic">ikoll</hi>, omkuld.</item>
+</list>
+</div>
+<div type="uchapter">
+<head type="sub">L.</head>
+<list>
+<item><hi rend="italic">Ljod</hi>, Lyd.</item>
+<item><hi rend="italic">Ljom</hi>, Lyd langt borte, Ekko.</item>
+<item><hi rend="italic">Lit</hi>, dansk L&#x00F8;d, naturlig Farve.</item>
+<item><hi rend="italic">L&#x00E6;t</hi>, Pres. af laata, give Laat, Lyd.</item>
+<item><hi rend="italic">Lauga</hi>, bade.</item>
+<item><hi rend="italic">Ludren</hi>, <hi rend="italic">Lur</hi>, et langt Bl&#x00E6;seinstrument af Tr&#x00E6;, som Hyrderne mest bruge.</item>
+<item><hi rend="italic">Langemaren</hi>, Gev&#x00E6;ret.</item>
+<item>Ei <hi rend="italic">Lente</hi>, Sp&#x00F8;g, ein <hi rend="italic">Lentekrok</hi>, Humorist.</item>
+<item>Ein <hi rend="italic">Lagnad</hi>, Skj&#x00E6;bne.</item>
+<item><hi rend="italic">Laut</hi>, Impf. af ljota, maatte, ljota, lyt, laut, lotet.</item>
+<item><hi rend="italic">Litevetta</hi>, lidet Grand, egentlig lidet V&#x00E6;sen.</item>
+<item>Ein <hi rend="italic">Ljaa</hi> og <hi rend="italic">Ljaar</hi>, Le.</item>
+<item>Eit <hi rend="italic">Leger</hi>, hvor man ligger.</item>
+<item><hi rend="italic">Lik paa Straa</hi>, Lig paa Parade.</item>
+</list>
+</div>
+<div type="uchapter">
+<head type="sub">M.</head>
+<list>
+<item><hi rend="italic">Me</hi>, vi.</item>
+<item>Ein <hi rend="italic">Maag</hi>, Svigers&#x00F8;n og Svoger, bruges om alt Slags Svogerskab.</item>
+<item>Ei <hi rend="italic">Mold</hi>, Muld.</item>
+<item>Ein <hi rend="italic">Makk</hi>, Maddikke.</item>
+<item>Ei <hi rend="italic">Mork</hi>, Skovhede og Fjeldland, ogsaa en Mark (Vegt).</item>
+<item>Ein <hi rend="italic">Maur</hi>, Myre.</item>
+<item><hi rend="italic">Musla</hi>, fara smaatt fram, ein <hi rend="italic">Musling</hi>.</item>
+<item><hi rend="italic">Munde</hi>, monne, Impf.</item>
+<item><hi rend="italic">Mj&#x00F8;dnerna</hi>, Plur. af Mj&#x00F8;dn, Hofte. Oldn. Mj&#x00F8;dm. Gothisk Miduma af Mid, paa Midten.</item>
+<item><hi rend="italic">Mjukt</hi>, mygt.</item>
+<item><hi rend="italic">Morken</hi>, murknet, raadden i Porerne.</item>
+<item>Eit <hi rend="italic">Mein</hi>, Meen, Skade.</item>
+<item><hi rend="italic">Muta</hi>, beskikke.</item>
+</list>
+</div>
+<div type="uchapter">
+<head type="sub">N.</head>
+<list>
+<item><hi rend="italic">Naud</hi>, N&#x00F8;d.</item>
+<item><hi rend="italic">Nasar</hi>, Plur. af Nos, N&#x00E6;se.</item>
+<item>Ein <hi rend="italic">Nut</hi>, egentlig Knut, en rundagtig Fjeldh&#x00F8;i.</item>
+<item>Ein <hi rend="italic">Nubb</hi>, egentl. Knubb, det samme, men noget mindre.</item>
+<item><hi rend="italic">Neig</hi>, Impf. af niga, knixe, bukke.</item>
+</list>
+</div>
+<div type="uchapter">
+<head type="sub">O.</head>
+<list>
+<item>Ein <hi rend="italic">Orre</hi>, Urhane.</item>
+<item>Ein <hi rend="italic">Otte</hi>, Anelse, hemmelighedsfuld Frygt, af <hi rend="italic">otta</hi>, ane. Det Modsatte er <hi rend="italic">Von</hi>, Haab.</item>
+<item><hi rend="italic">Olm</hi>, vred (om Dyr).</item>
+</list>
+</div>
+<div type="uchapter">
+<head type="sub">R.</head>
+<list>
+<item><hi rend="italic">Rispe</hi>, morsom Fort&#x00E6;lling.</item>
+<item><hi rend="italic">Radt</hi>, ligefrem.</item>
+<item>Ei <hi rend="italic">Rove</hi>, Hale. Rove-Guro, Gudrun med Halen og Sigurd-Sveinen. Levninger af Sagnet om Sigurd Fafnisbane. Den F&#x00E6;rd disse to anf&#x00F8;re er Aasgaard-Reidi.</item>
+<item>Ein <hi rend="italic">Rys</hi>, Skudren.</item>
+</list>
+</div>
+<div type="uchapter">
+<head type="sub">S.</head>
+<list>
+<item>Ei <hi rend="italic">Segn</hi>, Sogn og <hi rend="italic">Soga</hi>, Saga.</item>
+<item>Ei <hi rend="italic">Stova</hi>, ogsaa Stogu og Stuegu, Stue.</item>
+<item>Eit <hi rend="italic">Soup</hi>, Kjernem&#x00E6;lk.</item>
+<item><hi rend="italic">Skjek</hi> af <hi rend="italic">skaka</hi>, ryste, eit Skak, langt a, en Rystelse.</item>
+<item>Ein <hi rend="italic">Slugg</hi>, en meget stor Mand; foragteligt, Fleskeslugg, en Forst&#x00E6;rkning af det samme.</item>
+<item><hi rend="italic">S&#x00E6;l</hi>, egentlig salig, lykkelig.</item>
+<item>Ein <hi rend="italic">Sprett</hi>, det som spretter. Sprett og Spenn, Elasticitet.</item>
+<item><hi rend="italic">Sette</hi>, sjette.</item>
+<item><hi rend="italic">Smurde</hi>, Impf. af smyrja, sm&#x00F8;re.</item>
+<item>Ei <hi rend="italic">Sut</hi>, Sorg.</item>
+<item>Ein <hi rend="italic">S&#x00E6;</hi>, S&#x00F8;.</item>
+<item>Ein <hi rend="italic">Snjo</hi>, Sne.</item>
+<item>Ei <hi rend="italic">Skodd</hi>, Taage.</item>
+<item>Ein <hi rend="italic">Skrubb</hi>, Ulv.</item>
+<item>Ein <hi rend="italic">Saum</hi>, S&#x00F8;m.</item>
+<item>Ei <hi rend="italic">Skreid</hi>, en stor Flok. Skubbe-Skreid, Ulveflok.</item>
+<item><hi rend="italic">Svamm</hi>, Impf. af symja, sv&#x00F8;mme.</item>
+<item>Ein <hi rend="italic">Storleike</hi>, St&#x00F8;rrelse. Endelsen leik og leike, else.</item>
+<item><hi rend="italic">Seig</hi> og siger, Pr&#x00E6;s. af siga, segne.</item>
+<item>Ein <hi rend="italic">Spord</hi>, Halen paa en Fisk, Orm osv., en Ende.</item>
+<item>Eit <hi rend="italic">Stup</hi>, eit Berg, som stupor af, brat Fjeldv&#x00E6;g.</item>
+<item>Eit <hi rend="italic">Staup</hi>, en rund Fordybning; Kverve-Staup, en Neds&#x00E6;nkning i Fjeldet, som et Amphitheater.</item>
+<item>Eit <hi rend="italic">Skridulaup</hi>, et L&#x00F8;b efter ei Skrida, et Skred.</item>
+<item>Eit <hi rend="italic">Skak</hi>, Skakning.</item>
+<item><hi rend="italic">Smetta</hi>, smutte.</item>
+<item>Ein <hi rend="italic">St&#x00F8;il</hi>, St&#x00F8;dl, S&#x00E6;ter.</item>
+<item>Ein <hi rend="italic">Sveinkall</hi>, en Pebersvend.</item>
+<item><hi rend="italic">Stunde</hi>, Impf. af stynja, st&#x00F8;nne.</item>
+<item><hi rend="italic">Saup</hi>, Impf. af supa, egentlig s&#x00F8;be, drage tungt efter noget.</item>
+<item><hi rend="italic">Smeikte</hi>, Impf. af smeikja, s&#x00F8;dt indsmigre sig, ein Smeik.</item>
+<item>Ein <hi rend="italic">Siger</hi>, Seier.</item>
+<item><hi rend="italic">Skj&#x00F8;yr</hi>, skj&#x00F8;r.</item>
+<item>Ei <hi rend="italic">Solekoma</hi>, naar Solen kommer, staar op.</item>
+<item>Eit <hi rend="italic">Svolk</hi>, Slag med Stave, Prygl.</item>
+<item><hi rend="italic">Soppat</hi>, med Sop paa.</item>
+<item><hi rend="italic">Snaudt</hi>, bart.</item>
+</list>
+</div>
+<div type="uchapter">
+<head type="sub">T.</head>
+<list>
+<item>Ei <hi rend="italic">Tunna</hi>, T&#x00F8;nde.</item>
+<item>Ein <hi rend="italic">Tussedom</hi>, af Tusse, en Bjergbeboer.</item>
+<item><hi rend="italic">Trappa</hi>, trampe.</item>
+<item>Ei <hi rend="italic">Tora</hi>, Torden.</item>
+<item><hi rend="italic">Turfte</hi>, Impf. af turva, beh&#x00F8;ve.</item>
+<item><hi rend="italic">Tvaa</hi>, vaske. Tvaatteklut, Vaskeklud.</item>
+<item><hi rend="italic">Tussen</hi>, forvirret, dum.</item>
+<item><hi rend="italic">Tek</hi>, Pr&#x00E6;s. af taka, tage, ogsaa teker. De st&#x00E6;rke Verber have baade denne kortere og l&#x00E6;ngere Form, saasom gjev og gjever, kjem og kjemer, ber og berer, biit og biter, bider osv.</item>
+<item><hi rend="italic">Trodde</hi>, Impf. af troda, tr&#x00E6;de.</item>
+<item>Eit <hi rend="italic">Ty</hi>, T&#x00F8;i.</item>
+<item><hi rend="italic">Teva</hi>, puste, aande.</item>
+<item><hi rend="italic">Tvegne</hi>, vaskede af tvaa.</item>
+<item><hi rend="italic">Traa</hi>, seen, som Verbum <hi rend="italic">traa</hi>, l&#x00E6;nges meget.</item>
+<item><hi rend="italic">Teppa</hi>, s&#x00E6;tte Tappen i.</item>
+<item><hi rend="italic">Totte</hi>, Impf. af tykkja, synes, tykkes.</item>
+<item>Ein <hi rend="italic">Torste</hi>, T&#x00F8;rst.</item>
+<item>At <hi rend="italic">Te</hi> seg, vise sig.</item>
+<item><hi rend="italic">T&#x00F8;yg</hi>, Elasticitet, gjeva T&#x00F8;yg, v&#x00E6;re elastisk.</item>
+<item><hi rend="italic">Trega</hi>, angre.</item>
+<item><hi rend="italic">Tem</hi>, aaben e, Pr&#x00E6;sens af temja, t&#x00E6;mme.</item>
+<item>Ein <hi rend="italic">Tramm</hi>, en Skranke, ogsaa en Platform.</item>
+<item><hi rend="italic">Trong</hi>, trang.</item>
+</list>
+</div>
+<div type="uchapter">
+<head type="sub">U.</head>
+<list>
+<item><hi rend="italic">Urde</hi>, Impf. af yrja, vrimle mangfoldigt, yrja, yr, urder, urt.</item>
+<item><hi rend="italic">Undramann</hi>, en Underrets Mand.</item>
+<item>Ei <hi rend="italic">Urd</hi>, Ur.</item>
+</list>
+</div>
+<div type="uchapter">
+<head type="sub">V.</head>
+<list>
+<item><hi rend="italic">Vraal</hi>, egentlig Skrig, ogsaa Vr&#x00F8;vl.</item>
+<item><hi rend="italic">Vrid</hi>, Vridning.</item>
+<item><hi rend="italic">Vit</hi>, langt i, Vid</item>
+<item><hi rend="italic">V&#x00F8;re</hi>, Conjunctiv af vera, vilde v&#x00E6;re.</item>
+<item><hi rend="italic">Virke</hi>, Stof.</item>
+<item>Ei <hi rend="italic">Vegaleid</hi>, ei Leid, Led, Retning for Veien.</item>
+<item><hi rend="italic">Vaa</hi>, Vaade, Ulykke.</item>
+<item><hi rend="italic">Vel</hi>, langt e, Impf. af velja, v&#x00E6;lge.</item>
+<item>Ein <hi rend="italic">Vinst</hi>, Gevinst.</item>
+<item>Ein <hi rend="italic">Vyrdnad</hi>, V&#x00E6;rdighed.</item>
+<item><hi rend="italic">Velv&#x00E6;rd</hi>, v&#x00E6;rdt det, som vel, godt er, fordringsfuld.</item>
+<item><hi rend="italic">Varna</hi>, v&#x00E6;rge, holde borte fra.</item>
+<item>Ei <hi rend="italic">Von</hi>, Forhaabning; vonlaus, haabl&#x00F8;s.</item>
+<item><hi rend="italic">Veiknar</hi>, bliver mere og mere veg, svag.</item>
+<item><hi rend="italic">Vitja</hi>, bes&#x00F8;ge.</item>
+</list>
+</div>
+<div type="uchapter">
+<head type="sub">Y.</head>
+<list>
+<item><hi rend="italic">Yr</hi> og <hi rend="italic">&#x00F8;r</hi>, rasende, forvirret.</item>
+<item><hi rend="italic">Yt</hi>, Impf. af yta, yde.</item>
+</list>
+</div>
+<div type="uchapter">
+<head type="sub">&#x00C6;.</head>
+<list>
+<item><hi rend="italic">&#x00C6;veleg</hi>, evig, eit &#x00C6;ve, lang Tid. &#x00C6;vorstid.</item>
+</list>
+</div>
+</div>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,3780 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI PUBLIC "-// TEI P5 //EN" "http://www.tei-c.org/release/xml/tei/custom/schema/dtd/tei_all.dtd">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="BS_Munch_Vesla">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>bokselskap.no, Oslo 2022
+<lb/>Anna Munch: <hi rend="italic">Vesla</hi>
+<lb/>Teksten i bokselskap.no f&#x00F8;lger 1. utgave, 1909 (Kristiania/K&#x00F8;benhavn/Gyldendal). Digitaliseringen er basert p&#x00E5; fil mottatt fra Nasjonalbiblioteket (nb.no)
+<lb/>ISBN: 978-82-8319-669-6 (bokselskap.no), <lb/>978-82-8319-670-2 (epub), 978-82-8319-671-9 (mobi)
+</title>
+</titleStmt>
+<publicationStmt>
+<p rend="noIndent">Publiseres som digital tekst av bokselskap.no.</p></publicationStmt>
+<sourceDesc>
+    <bibl facs="https://urn.nb.no/URN:NBN:no-nb_digibok_2013070308039" rend="antikva">
+<title>Vesla</title>
+<author>Anna Munch</author>
+<publisher>Gyldendal</publisher>
+<pubPlace>Kristiania/K&#x00F8;benhavn</pubPlace>
+<date>1909</date>
+<note>digibok_2013070308039 (Nasjonalbiblioteket 2022)</note>
+</bibl>
+</sourceDesc>
+</fileDesc>
+<revisionDesc>
+<change who="ENW" when="2022-07-08">F&#x00F8;rt inn korrekturrettelser (IK). Lagt inn ISBN. Entiteter, kodekontroll og validering.</change>
+<change xml:id="ENW" who="ENW" when="2022-04-12">XML-koding. Entiteter, kodekontroll og validering. Klar for korrektur.</change>
+</revisionDesc>
+</teiHeader>
+<text xml:id="BS_Munch_Vesla_tekst" type="drama">
+<front>
+<titlePage type="main">
+<byline><docAuthor>Anna Munch</docAuthor></byline>
+<docTitle>
+<titlePart type="main">Vesla</titlePart>
+<titlePart type="sub">Skuespill i fem billeder</titlePart>
+</docTitle>
+<docDate>bokselskap.no<lb/>Oslo 2022</docDate>
+</titlePage>
+</front>
+<body>
+<div type="chapter" subtype="preface">
+<head type="main">Forbem&#x00E6;rkning</head>
+<p rend="noIndent">Enkelte momenter ved stykkets ydre handling grunder sig paa en sandsynlig faktisk begivenhed, fortalt i form af dagbogsoptegnelser. Den unge kvinde, som gaar tilbunds, fordi hun ikke <emph>fatter</emph> aarenes og is&#x00E6;r nutidens evig omskiftende forhold og &#x00AB;forvandlinger&#x00BB;, er for&#x00F8;vrigt ingen altfor sjelden foreteelse.
+<lb/>FORF.</p>
+</div>
+<div type="chapter" subtype="castList">
+<head type="main">Personer</head>
+<castList>
+<castItem>TONI, bogbinder Guldbrandsens hustru</castItem>
+<castItem>ELISABETH, kaldet Vesla, hendes steddatter</castItem>
+<castItem>MADAM KARLSEN</castItem>
+<castItem>SVEN</castItem>
+<castItem>BYGNINGSDIREKT&#x00D8;R BRYDE</castItem>
+<castItem>ALFRED WENTZEL, arkitekt</castItem>
+<castItem>BJ&#x00D8;RN BRAGER, stud. med.</castItem>
+<castItem>ERIK REIN, en ung forfatter</castItem>
+<castItem>FRK. ARNESTAD</castItem>
+<castItem>EN UNDERLIG MAND</castItem>
+<castItem>YNGVAR OG FLERE BARN</castItem>
+</castList>
+</div>
+<div type="chapter" subtype="act" n="1">
+<head type="main">I. billede</head>
+<stage>Eftermiddag i juni. Omkring St. Hans.</stage>
+<stage>Udenfor et noget afsides liggende, forfaldent hus i forstaden. Huset ligger tilh&#x00F8;ire, en birkelund og et par b&#x00E6;nke tilvenstre. En bred landevei f&#x00F8;rer ind til byen, som ses i baggrunden.</stage>
+<stage><hi rend="bold">Toni</hi>, et baust kvindemenneske i 33 aars alderen, if&#x00F8;rt lys kaabe og en forholdsvis elegant sommerhat, og madam <hi rend="bold">Karlsen</hi>, &#x00E6;ldre, rynket, kraftig, sidder paa den n&#x00E6;rmeste b&#x00E6;nk. Nogen barn gaar og leger omkring huset og i sandet.</stage>
+<sp>
+<speaker>Toni.</speaker>
+<p rend="noIndent">Det er t&#x00F8;is og tull, siger jeg, madam Karlsen. Har nogen h&#x00F8;rt sligt. Den lange ungen. Hvad andet har hun at g&#x00F8;re?</p>
+</sp>
+<sp>
+<speaker>Mdm. Karlsen.</speaker>
+<p rend="noIndent">Nei, det er det jeg siger. Hun har ikke andet at g&#x00F8;re. Det var sandt, san.</p>
+</sp>
+<sp>
+<speaker><pb n="2"/>Toni.</speaker>
+<p rend="noIndent">Og ikke skal nogen si om mig, at jeg har v&#x00E6;ret en slem stedmor. Tror De kanske, at det er let at v&#x00E6;re stedmor? Bare navnet. Har jeg ikke gaat og varet mig alle disse aarene? Og aldrig har nogen sagt mig noget paa.</p>
+</sp>
+<sp>
+<speaker>Mdm. Karlsen.</speaker>
+<p rend="noIndent">Det mener jeg heller ikke, fru Guldbrandsen. Alle kender Deres gode hjerte.</p>
+</sp>
+<sp>
+<speaker>Toni.</speaker>
+<p rend="noIndent">Godmodig er jeg, gudskelov.</p>
+<stage>Hun ler.</stage>
+</sp>
+<sp>
+<speaker>Mdm. Karlsen.</speaker>
+<p rend="noIndent">Godmodig og munter og livsglad. De har jo saan rigtig bragt hum&#x00F8;ret op i Guldbrandsen.</p>
+</sp>
+<sp>
+<speaker>Toni.</speaker>
+<p rend="noIndent">Aa ja. Endda det gaar nedover. Men det er jo ikke hans skyld. Slige tider. Der er ikke meget at fortjene. Ikke har vi raad til at holde saameget som en pige. En kan snart ikke ta sig en udgangstur i byen engang.</p>
+</sp>
+<sp>
+<speaker>Mdm. Karlsen.</speaker>
+<p rend="noIndent">Nei, det er det, jeg siger. Lidt gl&#x00E6;de maa et menneske ha. &#x2013; Men snil er han nu mod Dem.</p>
+</sp>
+<sp>
+<speaker>Toni.</speaker>
+<p rend="noIndent">Snil? Det skulde bare mangle, at han ikke var snil. Tosken, siger jeg. G&#x00F8;re en til kone og skaffe en tre barn, i hans alder.</p>
+</sp>
+<sp>
+<speaker><pb n="3"/>Mdm. Karlsen.</speaker>
+<p rend="noIndent">Han er nu ikke saa gammel.</p>
+</sp>
+<sp>
+<speaker>Toni.</speaker>
+<p rend="noIndent">Han er 16 aar &#x00E6;ldre end jeg.</p>
+</sp>
+<sp>
+<speaker>Mdm. Karlsen.</speaker>
+<p rend="noIndent">Ja, han giftet sig sent f&#x00F8;rste gangen</p>
+</sp>
+<sp>
+<speaker>Toni.</speaker>
+<p rend="noIndent">Saa gjorde han det desto snarere om igen.</p>
+<stage>Hun ler.</stage>
+<p rend="noIndent">Det blev ikke stor sorg efter den f&#x00F8;rste&#x2026;</p>
+</sp>
+<sp>
+<speaker>Mdm. Karlsen.</speaker>
+<p rend="noIndent">Nei, det var Deres muntre sind, som tog ham. Vesla var ikke mere end 4 aar.</p>
+<stage>Halvt for sig.</stage>
+<p rend="noIndent">Stakkars liten.</p>
+</sp>
+<sp>
+<speaker>Toni.</speaker>
+<p rend="noIndent">Og var jeg ikke glad i Vesla? Naar han kom med hende i konditoriet, det snaale, ensomme mennesket. For&#x00E6;rte jeg ikke barnet store poser med sukkert&#x00F8;i. Og 10 &#x00F8;res kager?</p>
+</sp>
+<sp>
+<speaker>Mdm. Karlsen.</speaker>
+<p rend="noIndent">Ja, det var vel det, som tog ham. For han var glad i Vesla, dengangen.</p>
+</sp>
+<sp>
+<speaker>Toni.</speaker>
+<p rend="noIndent">Gik jeg ikke der og stelte med hende og lived ham op &#x2013; den raringen &#x2013; saa han tilsidst sa det til mig en dag: &#x00AB;De kunde passe til at bli en god mor for den tingen, De&#x00BB;, sa han.</p>
+</sp>
+<sp>
+<speaker><pb n="4"/>Mdm. Karlsen.</speaker>
+<p rend="noIndent">Ja, ser De. Han mente vel helst at De kunde bli en god kone for <emph>ham</emph>. For saadan er m&#x00E6;ndene. De slaar paa l&#x00E6;sset og mener manden. Eller pigen.</p>
+</sp>
+<sp>
+<speaker>Toni.</speaker>
+<p rend="noIndent">Tror De det?</p>
+<stage>Smaaler.</stage>
+<p rend="noIndent">Den tosken. Han kan g&#x00F8;re, hvad han vil. Jeg kan vri ham om en finger&#x2026;</p>
+</sp>
+<sp>
+<speaker>Mdm. Karlsen</speaker>
+<stage>halvt for sig og tankefuld.</stage>
+<p rend="noIndent">Det kan De nok, fru Guldbrandsen.</p>
+</sp>
+<sp>
+<speaker>Toni.</speaker>
+<p rend="noIndent">Han er en snaal en. Kan ikke v&#x00E6;re fra mig. Og han gaar og tuller med de boggreierne sine. Hvad er det for slag? Jeg kunde gjort det meget bedre.</p>
+</sp>
+<sp>
+<speaker>Mdm. Karlsen.</speaker>
+<p rend="noIndent">Men det var nu ham, som kom dengangen. Og en mand vokser ikke paa tr&#x00E6;r heller. De var en fattig pige og maatte tjene for Deres br&#x00F8;d. Og gifte sig, det skal en jo.</p>
+</sp>
+<sp>
+<speaker>Toni.</speaker>
+<p rend="noIndent">Pyh! &#x2013; De skulde bare vide. Men der siger De det jo selv, madam Karlsen. Maatte ikke <emph>jeg</emph> tjene, maatte ikke jeg arbeide. Faar vi ikke arbeide allesammen. Ja, fra en er saa liden som saa. Og saa siger De alligevel, at Vesla, at Elisabeth&#x2026;</p>
+</sp>
+<sp>
+<speaker><pb n="5"/>Mdm. Karlsen.</speaker>
+<stage>Glemmer sig.</stage>
+<p rend="noIndent">Det var det konditoriet. De havde det ikke slemt der. De havde Deres egen mor og et godt hjem.</p>
+</sp>
+<sp>
+<speaker>Toni.</speaker>
+<p rend="noIndent">Aa &#x2013;.</p>
+<stage>Koldere.</stage>
+<p rend="noIndent">Elisabeth kan ikke klage over mig som mor.</p>
+</sp>
+<sp>
+<speaker>Mdm. Karlsen.</speaker>
+<p rend="noIndent">Det g&#x00F8;r hun heller ikke. Det har jeg aldrig h&#x00F8;rt, fru Guldbrandsen. Men ser De, det er alligevel saa rart, naar barna kommer&#x2026; Ens egne.</p>
+</sp>
+<sp>
+<speaker>Toni</speaker>
+<stage>hurtig til en af barna, som roder og leger i sandet.</stage>
+<p rend="noIndent">Vil du la v&#x00E6;re at grise dig til, Yngvar. Jeg skal komme paa dig, jeg. Husk paa de nye bukserne dine.</p>
+<stage>Til <hi rend="bold">Mdm. Karlsen</hi> halvt fortrydelig</stage>
+<p rend="noIndent">Er det noget galt i d&#x00E9;t, at Elisabeth g&#x00F8;r nytte i huset, kanske?</p>
+</sp>
+<sp>
+<speaker>Mdm. Karlsen.</speaker>
+<p rend="noIndent">Nei, det v&#x00E6;re saa langt fra mig at si, at ikke ungdommen skal g&#x00F8;re sin nytte.</p>
+<stage>Trohjertig, med haanden paa <hi rend="bold">Tonis</hi> kn&#x00E6;.</stage>
+<p rend="noIndent">Men jeg skal si, det er saa rart med det. Jeg var nu tilstede, da den lille tingen kom til verden, jeg. Ja, det var vist. Jormoren kom ikke. <pb n="6"/>Men det gik saa godt, og jeg stelte med hende de f&#x00F8;rste otte dagene. Og mangen gang siden ogsaa.</p>
+</sp>
+<sp>
+<speaker>Toni.</speaker>
+<p rend="noIndent">Ja, var det noget rart i det. De tjente jo i huset som pige. De bedre tiderne, dem opleved ikke <emph>jeg</emph>.</p>
+</sp>
+<sp>
+<speaker>Mdm. Karlsen</speaker>
+<stage>f&#x00F8;lger erindringen.</stage>
+<p rend="noIndent">Gulle! Det lille Gulle. Moren var syg l&#x00E6;nge. Og som et lite alfebarn var hun deilig, et lite febarn&#x2026; De sa det allesammen. Trolle mit! Maatte jeg ikke indom og se hvordan hun hadde det. Det var lang reise til byen, men&#x0027;n Sigvart sa, at jeg kunde bli med denne gangen. Gulle mit!</p>
+</sp>
+<sp>
+<speaker>Toni.</speaker>
+<p rend="noIndent">Ja, nu har De jo v&#x00E6;ret her baade fra og til i disse dagene. Og De har vel ikke set noget galt, skal jeg tro.</p>
+</sp>
+<sp>
+<speaker>Mdm. Karlsen.</speaker>
+<p rend="noIndent">Nei, galt, nei. Og De har jo v&#x00E6;ret saa snil og venlig, fru Guldbrandsen, og trakteret kaffe paa mig og alting. Jeg kendte jo Dem fra f&#x00F8;r, jeg. Det var ikke noget ondt i Dem de f&#x00F8;rste aarene De var gift, og det er det vist ikke nu heller. De har oplivet Guldbrandsen med Deres muntre sind, ja, De har gjort ham til en anden mand. Det har jeg sagt, og det staar jeg ved. Han er nu vel bare altfor optat af Dem, kanske&#x2026;</p>
+</sp>
+<sp>
+<speaker><pb n="7"/>Toni.</speaker>
+<stage>blaaser.</stage>
+<p rend="noIndent">Pyh. Nei, jeg venter paa, at de bedre tiderne skal komme igen, jeg. Saa kunde vi v&#x00E6;re lidt med, vi ogsaa. Saa flinke barn, som vi har.</p>
+</sp>
+<sp>
+<speaker>Mdm. Karlsen</speaker>
+<stage>tankefuld.</stage>
+<p rend="noIndent">Ja, De er kry af dem. Og det er flinke barn, og pene barn. En ser det.</p>
+</sp>
+<sp>
+<speaker>Toni.</speaker>
+<p rend="noIndent">Saa kunde vi faa dem frem. Men han har slet ikke noget praktisk sk&#x00F8;n paa det. Han gaar og tuller med de boggreierne sine. Og h&#x00E6;nger i sk&#x00F8;rterne paa mig.</p>
+</sp>
+<sp>
+<speaker>Mdm. Karlsen.</speaker>
+<p rend="noIndent">Ja, en ser det&#x2026;</p>
+</sp>
+<sp>
+<speaker>Toni</speaker>
+<stage>lidt hvast.</stage>
+<p rend="noIndent">Vilde De sagt noget, madam Karlsen? Hvis det er noget mere om Elisabeth&#x2026; For nu skal De jo reise iaften.</p>
+</sp>
+<sp>
+<speaker>Mdm. Karlsen</speaker>
+<p rend="noIndent">Ja, jeg skal det. Og derfor var det jo det, at jeg vilde l&#x00E6;gge et godt ord ind for hende, fru Guldbrandsen. Om De vil h&#x00F8;re paa mig da. For ser De &#x2013; naar det nu er saa, at De har Deres egne, og manden h&#x00E6;nger i sk&#x00F8;rterne paa <pb n="8"/>Dem, som De siger. Ja, jeg mener, da er det vel saa, at &#x2013; at det ikke blir saa stor plads for lille Gulle her i hendes eget hjem.</p>
+</sp>
+<sp>
+<speaker>Toni.</speaker>
+<p rend="noIndent">Jeg sk&#x00F8;nner ikke, hvad De mener nu, madam Karlsen.</p>
+</sp>
+<sp>
+<speaker>Mdm. Karlsen</speaker>
+<stage>tar mod til sig.</stage>
+<p rend="noIndent">Jo, jeg mener nu d&#x00E9;t &#x2013; at hun blir ligesom lidt fremmed saan, i sit eget hjem.</p>
+</sp>
+<sp>
+<speaker>Toni.</speaker>
+<p rend="noIndent">Nei, nu har jeg&#x2026; Har en h&#x00F8;rt paa magen?</p>
+</sp>
+<sp>
+<speaker>Mdm. Karlsen</speaker>
+<stage>ivrig optat af emnet, l&#x00E6;gger igen sin haand paa <hi rend="bold">Tonis</hi> kn&#x00E6;.</stage>
+<p rend="noIndent">Barnet er i en vanskelig alder, husk paa det! Hun gaar og feier og vasker og g&#x00F8;r rent og steller med barna.</p>
+</sp>
+<sp>
+<speaker>Toni.</speaker>
+<p rend="noIndent">Ja, vi har ingen pige; husk d&#x00E9;t! Og jeg g&#x00F8;r sandelig mit.</p>
+</sp>
+<sp>
+<speaker>Mdm. Karlsen.</speaker>
+<p rend="noIndent">Ja, De laver maden, og De gaar i byen til manden, og De liver ham op, og det blir ikke anderledes&#x2026; De maa ikke fortryde, fru Guldbrandsen. <pb n="9"/>Elisabeth! Hun som er saa st&#x00E6;rk, hun skulde vel ha skade af d&#x00E9;t. Lidt arbeide, &#x2013; pyh.</p>
+</sp>
+<sp>
+<speaker>Mdm. Karlsen.</speaker>
+<p rend="noIndent">Vesle Gulle er st&#x00E6;rk, men hun er fin og tander, og hun er saa <emph>snil</emph>. Hun lar sig bruke taalmodig&#x2026; Jeg ber nu for hende, fru Guldbrandsen.</p>
+</sp>
+<sp>
+<speaker>Toni.</speaker>
+<p rend="noIndent">Javist er hun snil, men hun er stri ogsaa. Jeg kender hende, jeg. Bedre end De kanske, madam Karlsen. Hun maa holdes med stram t&#x00F8;ile, ellers gaar hun sine egne veie.</p>
+</sp>
+<sp>
+<speaker>Mdm. Karlsen.</speaker>
+<p rend="noIndent">Aldrig var det n&#x00F8;dvendig at holde Vesla med stram t&#x00F8;ile dengang, nei. Gud velsigne hende! Det, De siger, g&#x00F8;r hun lettere, hvis hun ikke har lidt gl&#x00E6;de saan i det daglige. Nu har hun stelt og rullet i hele eftermiddag, ja, idag som igaar og alle dagene. Hun vasker og drar med b&#x00F8;tter og syr og lapper. N&#x00E6;sten ikke har jeg faat se paa hende og frydet mine &#x00F8;ine og talt med hende, Vesla. Og nu skal jeg afsted&#x2026; Men der er hun.</p>
+</sp>
+<stage><hi rend="bold">Vesla</hi> kommer fra huset. En 14&#x2013;15 aars pige med fine og sj&#x00E6;lfulde tr&#x00E6;k, noget blodfattig og bleg af hud. M&#x00F8;rkblondt haar med lidt r&#x00F8;dsk&#x00E6;r i en tyk flette nedad ryggen. Barnlig t&#x00E6;nksomt fysiognomi. &#x00D8;inene har et stundom vemodigt, men straalende og uskyldigt udtryk. Hun er tarveligt, n&#x00E6;sten fattigt kl&#x00E6;dt.</stage>
+<sp>
+<speaker><pb n="10"/>Mdm. Karlsen</speaker>
+<stage>tar <hi rend="bold">Toni</hi> i armen, sagte.</stage>
+<p rend="noIndent">Ja, se nu. Staar der ikke ligesom en lysglans om det barnet&#x2026; synes jeg.</p>
+</sp>
+<sp>
+<speaker>Toni.</speaker>
+<p rend="noIndent">Aa. Hun er saamen ganske almindelig.</p>
+<stage>Til <hi rend="bold">Vesla</hi>.</stage>
+<p rend="noIndent">Er du f&#x00E6;rdig med t&#x00F8;iet?</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Ja. Nu er det lagt sammen.</p>
+</sp>
+<sp>
+<speaker>Toni</speaker>
+<stage>til <hi rend="bold">Mdm. Karlsen</hi>.</stage>
+<p rend="noIndent">Det var ikke storrulling idag. Ellers hadde jeg nok v&#x00E6;ret med, kan De tro.</p>
+<stage>Til <hi rend="bold">Vesla</hi>.</stage>
+<p rend="noIndent">Nu faar du si adj&#x00F8; til madam Karlsen da. Og saa derefter maa du se at faa lagt barna og passe huset. For jeg og Guldbrandsen blir i byen iaften. Jeg skal tr&#x00E6;ffe ham i butiken.</p>
+<stage>Til <hi rend="bold">Mdm. Karlsen</hi>.</stage>
+<p rend="noIndent">Ja, vi gaar jo sammen indover.</p>
+<stage>Hun gaar hen til barna og styrer med dem. Gaar ud og ind i huset.</stage>
+</sp>
+<sp>
+<speaker>Mdm. Karlsen</speaker>
+<stage>staar og ser paa <hi rend="bold">Vesla</hi>.</stage>
+<p rend="noIndent">Gulle mit! Du er blit stor og pen&#x2026; Ja, pen var du, da du var liten ogsaa. Og saa snil bestandig. Du vilde nu saa gerne g&#x00F8;re det, som ret var.</p>
+</sp>
+<sp>
+<speaker><pb n="11"/>Vesla</speaker>
+<stage>ler.</stage>
+<p rend="noIndent">Det er du, som siger det, Anne. Du tror saa godt om mig. Jeg er slet ikke saa snil bestandig, jeg.</p>
+</sp>
+<sp>
+<speaker>Mdm. Karlsen.</speaker>
+<p rend="noIndent">Er ikke <emph>du</emph>? H&#x00F8;r paa den stemmen hendes, er det ikke som Guds solstraaler. Jo, Vesla mi, du var snil, og du vilde gerne g&#x00F8;re det, som ret var. Straks en bare stelte lidt med dig. Du var villig og let at lede som en liten Gudsengel. Og du vilde gerne v&#x00E6;re virksom med h&#x00E6;nderne dine, og du sydde til dukkerne dine fra du var fire aar, og du var lystig og fuld af moro. Hadde ikke <emph>vi</emph> moro?</p>
+<stage>Hen for sig, tankefuld.</stage>
+<p rend="noIndent">Men siden blev det ingen, som stelte med lille Gulle mit.</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Anne, det var <emph>du</emph>, som var snil. Hvor mange gange jeg l&#x00E6;ngtes efter dig, du.</p>
+</sp>
+<sp>
+<speaker>Mdm. Karlsen.</speaker>
+<p rend="noIndent">Jeg skulde jo gifte mig, jeg. Saa dum var jeg. Endda han Sigvart er bra nok mand, han. En kan ikke andet si. Og Guldbrandsen, han giftet sig ogsaa. Saa blev Gulle alene.</p>
+<stage>Hun tar sig i det, t&#x00F8;rrer hastig &#x00F8;inene.</stage>
+<p rend="noIndent">Nei, en skal nu ikke g&#x00F8;re det saa s&#x00F8;rgelig heller. Det blir nok godt for Vesla mi. For hun er en af <emph>hans</emph> egne, hun&#x2026;</p>
+</sp>
+<sp>
+<speaker><pb n="12"/>Vesla.</speaker>
+<p rend="noIndent">Uf, Anne, du faar mig jo til at graate.</p>
+<stage>Hun ler.</stage>
+<p rend="noIndent">Og nu skal du reise ogsaa. Og n&#x00E6;sten ikke har jeg faat tale med dig&#x2026;</p>
+</sp>
+<sp>
+<speaker>Mdm. Karlsen.</speaker>
+<p rend="noIndent">Nei, det er ligesom ikke blit stor tid. Det var noget du skulde g&#x00F8;re bestandig.</p>
+<stage>Tar noget op af et knytte.</stage>
+<p rend="noIndent">Men se her, barnet mit, har jeg noget til dig. Ja, det er ikke meget, men &#x2013;. Jeg t&#x00E6;nkte nu det, du skulde ha lidt for dig selv. Saan liten lommeskilling.</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Nei, men Anne. Fem&#x2026; fem kroner&#x2026;? Du vil da vel ikke gi mig alle dem? Nei, k&#x00E6;re, snille Anne, det maa du da ikke. Du er selv fattig, du er ikke rig i alle fald&#x2026;</p>
+</sp>
+<sp>
+<speaker>Mdm. Karlsen.</speaker>
+<p rend="noIndent">Jo. De skillingerne har jeg nu bestemt, at du skal ha. Du og ingen anden. Det er ikke meget, en kan g&#x00F8;re, men &#x2013;. K&#x00F8;b dig noget nyt, pent, Vesla mi.</p>
+</sp>
+<sp>
+<speaker>Vesla</speaker>
+<stage>t&#x00E6;ller.</stage>
+<p rend="noIndent">To, tre &#x2013; fire fem. Men alle de pengene. Jeg har aldrig havt saa mange penge i mit liv. Aa, du snille, snille Anne!</p>
+<stage>Hun flyr hende om halsen.</stage>
+</sp>
+<sp>
+<speaker><pb n="13"/>Mdm. Karlsen.</speaker>
+<p rend="noIndent">Herregud, vesle Gulle mit! Men sig det ikke til nogen. De pengene skal du ha ganske for dig selv, forstaar du. Saan liten lommeskilling er godt at ha. Og k&#x00F8;p dig nu noget nyt, pent&#x2026;</p>
+</sp>
+<sp>
+<speaker>Vesla</speaker>
+<stage>straalende.</stage>
+<p rend="noIndent">Anne, ved du&#x2026; Da vil jeg gi Sven en straahat.</p>
+</sp>
+<sp>
+<speaker>Mdm. Karlsen.</speaker>
+<p rend="noIndent">Sven? Hvem er Sven da, barnet mit?</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Det er den gutten&#x2026; Bogbindergutten, som gaar her.</p>
+<stage>Undselig.</stage>
+<p rend="noIndent">Har du ikke set ham?</p>
+</sp>
+<sp>
+<speaker>Mdm. Karlsen.</speaker>
+<p rend="noIndent">Trykkerigutten, jo. Han kom her og hented b&#x00F8;ger en dag, saa jeg.</p>
+</sp>
+<sp>
+<speaker>Vesla</speaker>
+<stage>nikker.</stage>
+<p rend="noIndent">Ja. Det er ham. Han er saa snil &#x2013; og flink kan du tro. Du skulde se de tegningerne hans. Og han vilde saa gerne l&#x00E6;re at bli arkitekt eller ingeni&#x00F8;r. Men han er <emph>endnu</emph> fattigere end jeg, ser du. Og netop nu en dag sa han, at han &#x00F8;nsked sig saa en straahat. For den han gaar med er bare som en klud. Anne, du kan tro, <pb n="14"/>jeg skal nok k&#x00F8;be noget til mig selv ogsaa. Alle de penge, jeg har&#x2026; Da kan jeg nok gi ham en krone og femti &#x00F8;re til en straahat. Vi kan faa den derhenne i butiken.</p>
+<stage>Peger.</stage>
+<p rend="noIndent">De er saa pene, saa.</p>
+</sp>
+<sp>
+<speaker>Mdm. Karlsen.</speaker>
+<p rend="noIndent">Ja, Vesla mi. Du skal g&#x00F8;re ganske som du vil. Naar det kan gl&#x00E6;de dig, saa.</p>
+</sp>
+<sp>
+<speaker>Toni</speaker>
+<stage>kommer ud af huset.</stage>
+<p rend="noIndent">Naa er dere vel f&#x00E6;rdige med at si adj&#x00F8;. Vi maa gaa, hvis De skal naa toget, madam Karlsen.</p>
+</sp>
+<sp>
+<speaker>Mdm. Karlsen.</speaker>
+<p rend="noIndent">Er klokken saa mange? Ja, manden min venter&#x2026; Jeg faar nok ikke komme for sent. &#x2013;</p>
+</sp>
+<sp>
+<speaker>Toni.</speaker>
+<p rend="noIndent">Og Guldbrandsen venter i butiken, nu lukker de snart. Elisabeth, jeg har git barna mad, de sidder og spiser. Jeg har s&#x00F8;rget for altsammen, for at du kunde si adj&#x00F8; til madam Karlsen. Nu ved du, hvad du skal g&#x00F8;re. Du vasker op og g&#x00F8;r istand til imorgen og l&#x00E6;gger barna. Glem nu ikke noget.</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Nei, jeg skal ikke &#x2013;. Naar kommer far og du hjem?</p>
+</sp>
+<sp>
+<speaker><pb n="15"/>Toni.</speaker>
+<p rend="noIndent">Det blir ikke f&#x00F8;r sent. Det er lyse sommeren nu. Laas nu efter dig, naar du gaar ind. Saa adj&#x00F8;&#x2026;</p>
+</sp>
+<sp>
+<speaker>Vesla</speaker>
+<stage>med armene om <hi rend="bold">Mdm. Karlsen</hi>.</stage>
+<p rend="noIndent">Adj&#x00F8;&#x2026; Farvel, du snille Anne.</p>
+</sp>
+<sp>
+<speaker>Mdm. Karlsen.</speaker>
+<p rend="noIndent">Lille Gulle mit. Vesla mi. Gud signe hende!</p>
+</sp>
+<sp>
+<speaker>Toni.</speaker>
+<p rend="noIndent">Kommer De saa, madam Karlsen. Barna kan gerne lege en liden stund endnu, Elisabeth. Klokken er ikke mere end 7. Husk paa varebindet til Yngvars l&#x00E6;sebog. Og laas, naar du gaar ind, h&#x00F8;rer du.</p>
+</sp>
+<stage>De gaar bortover veien, <hi rend="bold">Mdm. Karlsen</hi> vender sig om, hilser og vinker. <hi rend="bold">Vesla</hi> vinker og ser efter dem.</stage>
+<stage><hi rend="bold">Vesla</hi> vender sig om, gaar nogen skridt. Hun betragter himlen og tr&#x00E6;rne og naturen omkring med et lyst blik. Blir staaende i tanker, l&#x00F8;fter armene op til hodet ligesom i en f&#x00F8;lelse af frihed. Hun g&#x00F8;r et par smaa hop, begynder at plukke en og anden blomst i gr&#x00E6;sset, hele tiden frav&#x00E6;rende og i egne tanker. Gaar ned mod huset. <hi rend="bold">Yngvar</hi>, den &#x00E6;ldste gut, kommer ud.</stage>
+<sp>
+<speaker>Yngvar.</speaker>
+<p rend="noIndent">Vi skal ikke l&#x00E6;gge os endnu. Mor sa, vi kunde v&#x00E6;re oppe. Du skulde l&#x00E6;gge bind om l&#x00E6;sebogen min, sa hun.</p>
+</sp>
+<sp>
+<speaker><pb n="16"/>Vesla.</speaker>
+<p rend="noIndent">Det skal jeg nok g&#x00F8;re, Yngvar.</p>
+</sp>
+<sp>
+<speaker>Yngvar.</speaker>
+<p rend="noIndent">Mor sa til far idag, at du glemmer saa meget&#x2026;</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Sa hun det.</p>
+<stage>Sp&#x00E6;ndt.</stage>
+<p rend="noIndent">Hvad sa far?</p>
+</sp>
+<sp>
+<speaker>Yngvar.</speaker>
+<p rend="noIndent">Aa, han sa ikke noget videre. Du Vesla&#x2026; Er du sv&#x00E6;rt glad i far?</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Du kan vel sk&#x00F8;nne, at jeg er glad i min far.</p>
+</sp>
+<sp>
+<speaker>Yngvar.</speaker>
+<p rend="noIndent">Men han snakker jo ikke noget videre med dig. Han snakker mest med mor.</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Jeg synes ikke, at far snakker videre med nogen. Han er saa stille. Men mor liver ham op. Og det er godt, ser du.</p>
+</sp>
+<sp>
+<speaker>Yngvar.</speaker>
+<p rend="noIndent">Er du mere glad i far end i mor?</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Hvorfor sp&#x00F8;r du om saa meget. Gaa ind og l&#x00E6;s paa leksen din, Yngvar. Eller leg med de andre.</p>
+</sp>
+<stage>Gutten gaar ind. Under det f&#x00F8;lgende gaar han og de andre smaa ud og ind, leger i sandet etc.</stage>
+<stage><pb n="17"/><hi rend="bold">Sven</hi>, en slankbygget, m&#x00F8;rkhaaret 20 aars gut kommer henad veien mod huset. Han ser ud som han vokser endnu eller ikke er fuldt udviklet. De magre, knoklede haandled stikker frem af altfor korte tr&#x00F8;ie&#x00E6;rmer. Kl&#x00E6;&#x0027;rne fattige, men af en vis stil. Udtrykket nerv&#x00F8;stenergisk og mildt. Han b&#x00E6;rer en papirrulle i haanden. Kommer bag paa <hi rend="bold">Vesla</hi>, som staar og ser mod huset, hvor <hi rend="bold">Yngvar</hi> er gaat ind, og holder hende papirrullen for &#x00F8;inene. <hi rend="bold">Vesla</hi> vender sig om.</stage>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Sven! Du skr&#x00E6;mte mig</p>
+<stage>Hun ler og ser paa ham.</stage>
+</sp>
+<sp>
+<speaker>Sven.</speaker>
+<p rend="noIndent">Ja, her er <emph>jeg</emph>, du. Jeg vidste, at din far skulde ud med din mor iaften. Og straks vi hadde lukket butiken tog jeg turen hid. Jeg m&#x00F8;dte dem paa veien, forresten.</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Hvem? Mor?</p>
+</sp>
+<sp>
+<speaker>Sven.</speaker>
+<p rend="noIndent">Ja. Jeg sa til hende, at Guldbrandsen hadde sendt mig hid for at hente pap, og det gjorde han ogsaa &#x2013; igaar eftermiddag. Men da holdt jeg paa med tegningen min, igaar aftes lige til midnat, og da glemte jeg det, ser du. Jeg kunde jo ikke faa talt med dig igaar alligevel, Vesla. Men nu kan vi. Vil du se?</p>
+<stage>Han ruller papiret op og viser hende.</stage>
+</sp>
+<sp>
+<speaker><pb n="18"/>Vesla.</speaker>
+<p rend="noIndent">Huser. Saa vakre huser. Nei, hvordan kan du faa tegnet det, du. D&#x00E9;t &#x2013; og d&#x00E9;t. Se det med g&#x00E6;rde foran. Saa hyggeligt det ser ud der. Jeg skulde gerne bo i et saant hus.</p>
+</sp>
+<sp>
+<speaker>Sven.</speaker>
+<p rend="noIndent">Ja, og her ser du hvordan v&#x00E6;relserne skal ligge. Og her er veranda. Det er en villa. Der skal v&#x00E6;re en balkon i hj&#x00F8;rnet, her udenfor sovekammervinduet. Ovenpaa. Jeg har konstrueret det op. Se her.</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Hvor flink du er, Sven. Bare du kunde faa lov at bygge saanne huser.</p>
+</sp>
+<sp>
+<speaker>Sven.</speaker>
+<p rend="noIndent">Ja, <emph>da</emph> skulde jeg bygge et lidet hus til dig og mig ogsaa. F&#x00F8;rst et lidet et, og siden kunde vi bo i et st&#x00F8;rre. For du skal bli den lille konen min. Du ved nok det.</p>
+</sp>
+<sp>
+<speaker>Vesla</speaker>
+<stage>ler.</stage>
+<p rend="noIndent">Men jeg er ikke voksen. Ikke konfirmeret engang. Vi kan ikke bestemme det endnu.</p>
+</sp>
+<sp>
+<speaker>Sven.</speaker>
+<p rend="noIndent">Jo, dig skal det v&#x00E6;re. Dig og ingen anden. Det er jeg bestemt paa. For du er den s&#x00F8;teste og bedste jeg kender, du, Vesla. Ja, jeg er saa <pb n="19"/>glad i dig, at &#x2013;. Du er den eneste lysstraalen jeg har, du velsignede ungen min. Nei, kan du se, hvor vakkert det er her nu, solen gaar ned. Jeg blir saa glad, at &#x2013;. Endda saa tr&#x00E6;t jeg er.</p>
+<stage>Han tar huen af og t&#x00F8;rker panden.</stage>
+<p rend="noIndent">Idag kan du tro, jeg har travet.</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Rundt med b&#x00F8;ger. Og nu har du vel ikke faat nogen middag idag heller.</p>
+</sp>
+<sp>
+<speaker>Sven.</speaker>
+<p rend="noIndent">Nei, de faa pengene mine maa jeg bruge til andre ting, ser du.</p>
+<stage>Frydefuld.</stage>
+<p rend="noIndent">Vesla, nu har jeg snart lagt op til et helt bestik.</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Bestik. Hvad er det for noget?</p>
+</sp>
+<sp>
+<speaker>Sven.</speaker>
+<p rend="noIndent">Det er v&#x00E6;rkt&#x00F8;i, som bruges til konstruktionerne. Med passer og saant. Det skal jeg nok l&#x00E6;re dig, du. Saa skal du hj&#x00E6;lpe mig.</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Tror du, jeg kan det, da?</p>
+</sp>
+<sp>
+<speaker>Sven</speaker>
+<stage>nikker.</stage>
+<p rend="noIndent">Hj&#x00E6;lpe mig, ja. Du Vesla, kan du t&#x00E6;nke dig noget saa vakkert som at to hj&#x00E6;lper hinanden. Hele livet igennem.</p>
+</sp>
+<sp>
+<speaker><pb n="20"/>Vesla</speaker>
+<stage>t&#x00E6;nker paa det.</stage>
+<p rend="noIndent">Jo&#x2026; Det synes jeg maatte v&#x00E6;re vakkert. Hele livet. T&#x00E6;nk helt til vi blir gamle. Da vilde vi v&#x00E6;re trofaste, du.</p>
+</sp>
+<sp>
+<speaker>Sven.</speaker>
+<p rend="noIndent">Ja, det vilde vi. Vi vilde dele godt og ondt. Og aldrig gaa fra hverandre.</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Nei, aldrig.</p>
+</sp>
+<sp>
+<speaker>Sven.</speaker>
+<p rend="noIndent">Men det er skr&#x00E6;kkelig, hvor jeg er sulten.</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Du kan faa havregr&#x00F8;den min. Jeg har en hel tallerken fuld.</p>
+</sp>
+<sp>
+<speaker>Sven</speaker>
+<stage>r&#x00F8;rt.</stage>
+<p rend="noIndent">Nei, Vesla. Den skal du ha selv.</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Nei, jeg bryr mig ikke om den. Ikke det gran. Det er sandt, h&#x00F8;rer du. Jeg har faat middag, jeg. Og madam Karlsen var her, og da fik vi kaffe. Nu skal jeg gaa ind efter den.</p>
+</sp>
+<sp>
+<speaker>Sven.</speaker>
+<p rend="noIndent">Saa moro, at jeg traf dig alene. Jeg er ligesom saa glad ikveld. Det blir nu vist en raad for mig ogsaa&#x2026; Fattiggutten jeg er.</p>
+<stage>Han sl&#x00E6;nger huen sin og s&#x00E6;tter sig tankefuld paa b&#x00E6;nken.</stage>
+</sp>
+<sp>
+<speaker><pb n="21"/>Vesla.</speaker>
+<p rend="noIndent">Ja, du Sven. Du, som hverken har far eller mor. Dig synes jeg synd paa.</p>
+</sp>
+<sp>
+<speaker>Sven.</speaker>
+<p rend="noIndent">Du skal ikke synes synd. Pyt san. Du skal se.</p>
+<stage>Knytter haanden.</stage>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Og saa har jeg noget andet til dig, som du vil bli glad for. Nu kan du g&#x00E6;tte, mens jeg er inde.</p>
+<stage>Hun gaar ind efter gr&#x00F8;den og kommer straks ud med den og en kop melk.</stage>
+<p rend="noIndent">Saa, spis nu.</p>
+</sp>
+<sp>
+<speaker>Sven</speaker>
+<stage>begynder at spise.</stage>
+<p rend="noIndent">Men skal du slet ikke ha noget? En liten ske imellem. Jo, naar du er konen min. Se her, kom nu&#x2026;</p>
+<stage>Han gir hende en ske af gr&#x00F8;den, de ler.</stage>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Nei, jeg vil ikke ha. Du skal spise op alt&#x2026;</p>
+</sp>
+<sp>
+<speaker>Sven.</speaker>
+<p rend="noIndent">Ja, du kan tro, det smager. Hvad var det for noget rart?</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Jo. Nu kan du kaste luen din.</p>
+<stage>Hun sl&#x00E6;nger den overgivent l&#x00E6;nger hen i gr&#x00E6;sset.</stage>
+</sp>
+<sp>
+<speaker><pb n="22"/>Sven.</speaker>
+<stage>ler.</stage>
+<p rend="noIndent">Er du gal? Luen min. Jeg kan da ikke gaa uden lue&#x2026;</p>
+</sp>
+<sp>
+<speaker>Vesla</speaker>
+<p rend="noIndent">Jo, for nu faar du en straahat. Se her, <stage>viser</stage> jeg har mange penge, jeg. En krone og femti &#x00F8;re koster en hat til dig. Og de andre&#x2026; Dem kan vi l&#x00E6;gge op, du. Vi kan k&#x00F8;be noget til huset for dem. Engang, senere&#x2026;</p>
+</sp>
+<sp>
+<speaker>Sven.</speaker>
+<p rend="noIndent">Men hvem har git dig penge, Vesla? Det er da vel aldrig <stage>bet&#x00E6;nksom</stage> aldrig en tilbeder, vel?</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Du da. Dem har jeg faat af Anne.</p>
+</sp>
+<sp>
+<speaker>Sven.</speaker>
+<p rend="noIndent">Hvem er Anne?</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Min gamle barnepige. Hun, som gik herfra for lidt siden, ved du.</p>
+</sp>
+<sp>
+<speaker>Sven.</speaker>
+<p rend="noIndent">Aa, madam Karlsen. Nei, men vil du gi mig den straahatten? Det er storartet &#x2013; hurra!</p>
+<stage>Han reiser sig.</stage>
+<p rend="noIndent"><pb n="23"/>Og t&#x00E6;nk, nu har jeg spist op altsammen!</p>
+<stage>Han s&#x00E6;tter tallerkenen bort.</stage>
+<p rend="noIndent">Ja, du er en liten kone, du. Den eneste, jeg vil ha. Vesla!</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Og da skal vi aldrig gaa fra hverandre?</p>
+</sp>
+<sp>
+<speaker>Sven.</speaker>
+<p rend="noIndent">Nei, aldrig.</p>
+</sp>
+<stage><hi rend="bold">En mand</hi> kommer op mod huset. De unge har ikke set ham. En godt udseende &#x00E6;ldre, velkl&#x00E6;dt herre, noget af verdensmanden og levemanden. Han f&#x00F8;rer sig godt, har et ganske velvilligt men samtidig noget koldt udtryk. <hi rend="bold">Herren</hi> stanser, betragter b&#x00F8;rnene et &#x00F8;ieblik med en vis nysgerrighed. De opdager ham, <hi rend="bold">Sven</hi> forundret, <hi rend="bold">Vesla</hi> med ligesom et gys.</stage>
+<sp>
+<speaker>Herren</speaker>
+<p rend="noIndent">tar sin Hat af og s&#x00E6;tter den paa igen.</p>
+<p rend="noIndent">T&#x00F8;r jeg sp&#x00F8;rge: Bor her en bogbinder Guldbrandsen?</p>
+</sp>
+<sp>
+<speaker>Sven.</speaker>
+<p rend="noIndent">Jo. Det er huset der.</p>
+<stage>Peger.</stage>
+<p rend="noIndent">Men han er nok ikke hjemme iaften</p>
+</sp>
+<sp>
+<speaker>Herren.</speaker>
+<p rend="noIndent">Det var uheldigt. Jeg vilde just benytte denne aftenstund.</p>
+<stage>Han ser vist paa <hi rend="bold">Sven</hi>.</stage>
+<p rend="noIndent"><pb n="24"/>Det synes mig forresten, at jeg har set Dem dernede&#x2026; i bogbinderiet.</p>
+<stage>Lidt pause.</stage>
+<p rend="noIndent">Deres principal har enkelte gode gamle sager, og jeg er bogsamler bl. a. Jeg gaar der iblandt.</p>
+</sp>
+<sp>
+<speaker>Sven.</speaker>
+<p rend="noIndent">Jo, jeg kan godt huske Dem, hr&#x2026; hr&#x2026;</p>
+</sp>
+<sp>
+<speaker>Herren.</speaker>
+<p rend="noIndent">Bryde. Bygningsingeni&#x00F8;r Bryde. Ja, administrationschef nu, men det er jo ligegyldigt. Saa. Det var kedeligt, at han ikke var tilstede.</p>
+<stage>Han ser sig om, betragter igen de unge sp&#x00F8;rgende.</stage>
+<p rend="noIndent">Denne pige&#x2026;</p>
+</sp>
+<sp>
+<speaker>Sven.</speaker>
+<p rend="noIndent">Det er hans datter.</p>
+</sp>
+<sp>
+<speaker>Herren.</speaker>
+<p rend="noIndent">Naa, det er datteren.</p>
+<stage>Han vender sig til <hi rend="bold">Sven</hi>.</stage>
+<p rend="noIndent">Bor De her kanske?</p>
+</sp>
+<sp>
+<speaker>Sven.</speaker>
+<p rend="noIndent">Nei, jeg hadde et &#x00E6;rend hid iaften.</p>
+</sp>
+<sp>
+<speaker>Herren.</speaker>
+<p rend="noIndent">Saa. Det var ellers snurrigt nok. <emph>Mit</emph> &#x00E6;rend angaar nemlig&#x2026;</p>
+<stage>stanser, lidt bydende.</stage>
+<p rend="noIndent">H&#x00F8;r. Jeg talte gerne et &#x00F8;ieblik med Dem paa tomandshaand.</p>
+</sp>
+<sp>
+<speaker><pb n="25"/>Vesla</speaker>
+<stage>hastig til <hi rend="bold">Sven</hi>.</stage>
+<p rend="noIndent">Jeg maa gaa og l&#x00E6;gge de smaa.</p>
+<stage>Hun neier for <hi rend="bold">Bryde</hi> og gaar hurtig ned mod huset, hvor hun tar b&#x00F8;rnene med sig ind.</stage>
+</sp>
+<sp>
+<speaker>Bryde</speaker>
+<stage>ser efter hende.</stage>
+<p rend="noIndent">En vakker pige. Naa. De synes at v&#x00E6;re saadan&#x2026; optaget. Ikke noget underligt i det. Ungdommen, vaaren, ja, ja. Og kanske ikke videre gl&#x00E6;de, hvad? Det evige einerlei, l&#x00F8;be rundt med b&#x00F8;ger, lidet at fortjene, lidet til mad og mindre til kl&#x00E6;r. Saa omtrent &#x2013;</p>
+</sp>
+<stage><hi rend="bold">Sven</hi> faar ikke tid til at svare, han ser paa ham, ventende.</stage>
+<sp>
+<speaker>Bryde.</speaker>
+<p rend="noIndent">Hm. Hvorl&#x00E6;nge har De saa v&#x00E6;ret i den den butik derinde?</p>
+</sp>
+<sp>
+<speaker>Sven.</speaker>
+<p rend="noIndent">Omtrent tre aar.</p>
+</sp>
+<sp>
+<speaker>Bryde.</speaker>
+<p rend="noIndent">Og f&#x00F8;r? De har gaat paa folkeskolen. Der er blit betalt for Dem. Ikke sandt?</p>
+</sp>
+<sp>
+<speaker>Sven.</speaker>
+<p rend="noIndent">Jo, det har jeg h&#x00F8;rt. Af min mor.</p>
+</sp>
+<sp>
+<speaker>Bryde.</speaker>
+<p rend="noIndent">Deres far er &#x2013; han er &#x2013;</p>
+</sp>
+<sp>
+<speaker><pb n="26"/>Sven</speaker>
+<stage>m&#x00F8;rk.</stage>
+<p rend="noIndent">Jeg har aldrig kendt nogen far. Det jeg ved.</p>
+</sp>
+<sp>
+<speaker>Bryde</speaker>
+<stage>i tanker.</stage>
+<p rend="noIndent">Sandt. Nei, nei. Ser De, min gut, De&#x2026; Sagen er: Sidder De sommetider og tegner i rummet bag butiken derinde?</p>
+</sp>
+<sp>
+<speaker>Sven.</speaker>
+<p rend="noIndent">Jo, det har jeg gjort. Adskillig.</p>
+</sp>
+<sp>
+<speaker>Bryde.</speaker>
+<p rend="noIndent">De tegninger har jeg set. Nogen af dem. Og disse tegninger har interesseret mig. De viser en speciel evne i en vis retning. Det er ikke alle, som har den, nei ikke alle. Meget faa. Det har interesseret mig, ja. Derfor har jeg besluttet mig til, at jeg vil g&#x00F8;re noget for Dem.</p>
+</sp>
+<sp>
+<speaker>Sven</speaker>
+<stage>ser op forbauset.</stage>
+<p rend="noIndent">For mig&#x2026;?</p>
+</sp>
+<sp>
+<speaker>Bryde.</speaker>
+<p rend="noIndent">Jeg vil &#x2013; paa betingelser &#x2013; hj&#x00E6;lpe Dem frem. Bestride udgifterne ved Deres l&#x00E6;reaar, Deres uddannelse i 5 aar. Lad os sige 5 aar. De skal bli bygmester, &#x2013; arkitekt. Det er d&#x00E9;t, De skal bli. Det du&#x0027;r De til.</p>
+</sp>
+<sp>
+<speaker>Sven,</speaker>
+<stage>med &#x00F8;ine i lysende gl&#x00E6;de.</stage>
+<p rend="noIndent">Men&#x2026; Hvordan skal jeg da takke Dem! Hvad grund&#x2026;?</p>
+</sp>
+<sp>
+<speaker><pb n="27"/>Bryde.</speaker>
+<p rend="noIndent">En stor aarsag og grund. Hvorfor ikke sige den? Jeg kender den dag, da du blev indskrevet i kirkebogen. &#x2013; Jeg er din far, Sven.</p>
+</sp>
+<sp>
+<speaker>Sven</speaker>
+<stage>gentar.</stage>
+<p rend="noIndent">Er De min far&#x2026;</p>
+</sp>
+<sp>
+<speaker>Bryde.</speaker>
+<p rend="noIndent">Sp&#x00F8;r mig ikke. Jeg har l&#x00E6;nge v&#x00E6;ret forhindret. Familieforhold&#x2026; Nu er jeg fri. Hvorfor ikke si det. Takke mig, siger du. Du vil faa anledning til d&#x00E9;t. Jeg er en ensom mand, Sven. Og for alle vil jeg anerkende dig som min s&#x00F8;n, om du i disse 5 aar &#x2013; og senere &#x2013; holder, hvad jeg lover mig af dig.</p>
+</sp>
+<sp>
+<speaker>Sven.</speaker>
+<p rend="noIndent">De &#x2013; kan forlange, hvad De vil og bestemme for mig. Jeg gaar ind paa alt.</p>
+</sp>
+<sp>
+<speaker>Bryde.</speaker>
+<p rend="noIndent">Paa alt. F&#x00F8;rst taushed om, at du er min s&#x00F8;n. Indtil videre.</p>
+</sp>
+<sp>
+<speaker>Sven.</speaker>
+<p rend="noIndent">De kan stole paa mig.</p>
+</sp>
+<sp>
+<speaker>Bryde</speaker>
+<stage>tar et visitkort op og skriver med blyant.</stage>
+<p rend="noIndent">Her er min adresse. Du kommer til mig <pb n="28"/>imorgen formiddag, ved 12 tiden. Saa tales vi ved. Farvel.</p>
+<stage>Han r&#x00E6;kker ham haanden.</stage>
+</sp>
+<sp>
+<stage><hi rend="bold">Sven</hi> tar den, <hi rend="bold">Bryde</hi> vender sig og gaar nedover veien. <hi rend="bold">Sven</hi> ser undrende efter ham. Han blir staaende betaget. Stryger haanden over &#x00F8;inene, siger halvh&#x00F8;it og skj&#x00E6;lvende af fryd.</stage>
+<p rend="noIndent">Er det en dr&#x00F8;m?<note type="footnote">dr&#x00F8;m?] <hi rend="italic">rettet fra:</hi> dr&#x00F8;m <hi rend="italic">(trykkfeil)</hi></note></p>
+</sp>
+<stage><hi rend="bold">Vesla</hi> kommer fra huset. Hun gaar mod <hi rend="bold">Sven</hi> og blir staaende foran ham. <hi rend="bold">Sven</hi> vaagner op.</stage>
+<sp>
+<speaker>Sven.</speaker>
+<p rend="noIndent">Vesla&#x2026; Du Vesla, vi er reddet. H&#x00F8;rer du. Han vil hj&#x00E6;lpe mig, du!</p>
+<stage>Han tar begge hendes h&#x00E6;nder og svinger hende rundt. De stanser.</stage>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Vil han hj&#x00E6;lpe dig. Den manden?</p>
+</sp>
+<sp>
+<speaker>Sven.</speaker>
+<p rend="noIndent">Han vil hj&#x00E6;lpe mig frem. I 5 aar, og siden &#x2013;. Hysch! Jeg t&#x00F8;r ingenting si.</p>
+<stage>Han gaar hen og tar huen sin op fra gr&#x00E6;sset, svinger den og kaster den h&#x00F8;it op i luften.</stage>
+<p rend="noIndent">Hurra! Det er eventyr. Prinsessen og det halve kongerige. Og <emph>du</emph> er med i eventyret Vesla.</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Men jeg var bange for den manden. Han <emph>saa</emph> &#x2013; saa kold ud.</p>
+</sp>
+<sp>
+<speaker><pb n="29"/>Sven.</speaker>
+<p rend="noIndent">Han har set tegningerne mine. Han siger, jeg <emph>kan</emph>. Jeg skal bygge de deiligste villaer &#x2013; og huse og slotte! Og et af dem skal vi to bo i.</p>
+</sp>
+<sp>
+<speaker>Yngvar</speaker>
+<stage>titter ud af d&#x00F8;ren, barbent og i skjorten.</stage>
+<p rend="noIndent">Du skulde l&#x00E6;gge bind om l&#x00E6;sebogen min.</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Yngvar, vil du ind med dig.</p>
+<stage>Hun ler.</stage>
+<p rend="noIndent">Nu kommer jeg. Jeg maa gaa, Sven. Klokken er saa mange.</p>
+</sp>
+<sp>
+<speaker>Sven.</speaker>
+<p rend="noIndent">Set saan p&#x00F8;ik.</p>
+<stage>Til Yngvar.</stage>
+<p rend="noIndent">Vil du se at komme dig ind, gut!</p>
+<stage>Gutten gaar ind.</stage>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Du maa ikke sk&#x00E6;nde. Han siger det til mor. Og da &#x2013;.</p>
+</sp>
+<sp>
+<speaker>Sven.</speaker>
+<p rend="noIndent">Ikke v&#x00E6;r r&#x00E6;d for mor. Nu mere. Jeg kommer og befrir dig, jeg. Akkurat som i eventyret ser du. Naar tiden kommer. Men hysch, jeg t&#x00F8;r ingenting si endda. <emph>Maa</emph> du gaa, da?</p>
+</sp>
+<stage><hi rend="bold">Vesla</hi> nikker, smiler og r&#x00E6;kker ham haanden. Han tar den.</stage>
+<sp>
+<speaker><pb n="30"/>Sven.</speaker>
+<p rend="noIndent">En af de f&#x00F8;rste dagene kommer jeg og snakker med dig. K&#x00E6;re, s&#x00F8;te, velsignede.</p>
+</sp>
+<stage>De slipper hinanden. Han svinger huen igen og gaar henover veien mod byen. <hi rend="bold">Vesla</hi> mod huset, hun vender sig om, skygger for &#x00F8;inene og ser efter ham.</stage>
+</div>
+<div type="chapter" subtype="act" n="2">
+<head type="main">II. billede</head>
+<stage>I vestkanten af byen, hos <hi rend="bold">Frk. Arnestad</hi>, som leier v&#x00E6;relser ud. Et stort rum, halv privat arbeidsv&#x00E6;relse, halv leiesalon. St&#x00F8;rre bord med en bekvem arbeidsstol og plancher tilvenstre. Tegninger, plancher og raderinger paa v&#x00E6;ggene. Samme side d&#x00F8;r med porti&#x00E8;rer til et siderum. Paa baggrundsv&#x00E6;ggen et stort vindu med nedrullede gardiner. D&#x00F8;re til siderne. En gammeldags kommode ved v&#x00E6;ggen tilh&#x00F8;ire.</stage>
+<stage>Julaftens eftermiddag.</stage>
+<stage>Et grantr&#x00E6; midt i v&#x00E6;relset paa en forh&#x00F8;ining, d&#x00E6;kket af draperier. Guldstjerne i toppen og lys f&#x00E6;stede. R&#x00F8;de &#x00E6;bler og forgyldte valn&#x00F8;dder etc. Genstande og &#x00E6;sker paa stole og paa en chaiselongue ved et bord tilh&#x00F8;ire.</stage>
+<stage><hi rend="bold">Vesla</hi>, omkring 20 aar, mere udviklet og straalende frisk, ellers med det samme naturlige og uskyldige udtryk, og <hi rend="bold">frk. Arnestad</hi> er beskj&#x00E6;ftiget med at ordne derinde. To barn, en tarvelig kl&#x00E6;dt gut og pige, springer omkring og ser paa, halv lykkelige, halv undselige.</stage>
+<sp>
+<speaker><pb n="32"/>Frk. Arnestad</speaker>
+<stage>en &#x00E6;ldre pige, oprindelig fra landet, ved lang vane noget af en vis v&#x00E6;rtinde-type: en blanding af godmodighed og fr&#x00E6;khed. Lidt tyk og anstrengt.</stage>
+<p rend="noIndent">Naa sitter Baltsersen og venter. Han skal ha teen sin klokken 7 pr&#x00E6;cis. Naa faar jeg straks ud til&#x0027;en. Han har bod her i 17 aar, han.</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Baltsersen ja, det var synd, om han skulde vente, julaften. Han, som er alene. Bare gaa De, frk. Arnestad.</p>
+</sp>
+<sp>
+<speaker>Frk. Arnestad</speaker>
+<stage>gir sig stunder.</stage>
+<p rend="noIndent">Det er saa rart herinde. Skal De ha rigtig fest iaften?</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Ja, her kommer nogen. Jeg ved ikke, hvor mange det blir.</p>
+</sp>
+<sp>
+<speaker>Frk. Arnestad.</speaker>
+<p rend="noIndent">Flere end ifjor?</p>
+</sp>
+<sp>
+<speaker>Vesla</speaker>
+<stage>ler.</stage>
+<p rend="noIndent">Ifjor. Julaften? Da var det jo bare min &#x2013; jeg mener Sven og jeg.</p>
+</sp>
+<sp>
+<speaker>Frk. Arnestad.</speaker>
+<p rend="noIndent">Ogsaa de barna.</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Ja. Det ved De nok.</p>
+</sp>
+<sp>
+<speaker><pb n="33"/>Frk. Arnestad.</speaker>
+<p rend="noIndent">Men jeg synes, de er kommet lidt fortidlig nu.</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Det er snart aften. Og jeg maatte lukke dem ind af den ene indgang her er.</p>
+<stage>Til b&#x00F8;rnene.</stage>
+<p rend="noIndent">Men h&#x00F8;r, barn, gaa ind med dere i sovekamret f&#x00F8;rst og vask dere. Skinnende rene i ansigtet og paa h&#x00E6;nderne. Ellers blir ikke onkel Sven blid.</p>
+<stage>Hun truer med fingeren og ler, lukker op d&#x00F8;ren tilvenstre og holder den aaben for b&#x00F8;rnene, som gaar ind.</stage>
+</sp>
+<sp>
+<speaker>Frk. Arnestad</speaker>
+<stage>steller og d&#x00E6;kker bord i forgrunden tilh&#x00F8;ire.</stage>
+<p rend="noIndent">Ja, en kan saa si. Det er mye rend. Her gaar&#x0027;n og skal lukke op for baade Peti og Kleti.</p>
+</sp>
+<sp>
+<speaker>Vesla</speaker>
+<stage>ved juletr&#x00E6;et.</stage>
+<p rend="noIndent">K&#x00E6;re frk. Arnestad. Det er den ene gang om aaret.</p>
+</sp>
+<sp>
+<speaker>Frk. Arnestad.</speaker>
+<p rend="noIndent">Naa, her kommer nu saa mange, altid. Baade den og den. Deres, jeg mener, hr. Bryde har sv&#x00E6;rt mange venner.</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Han maa ligesom ha det. Og hans venner er mine venner ogsaa. Men det er nu mest de samme, som kommer. Og er det ikke godt at <pb n="34"/>kunne g&#x00F8;re det lidt hyggelig for dem, som ellers vilde sidde ensomme julaften?</p>
+</sp>
+<sp>
+<speaker>Frk. Arnestad.</speaker>
+<p rend="noIndent">Hvor mange kuverter skal det v&#x00E6;re, da?</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Nei, s&#x00E6;t bare tallerkenerne sammen der ved den ene siden. Og servietter, gafler, knive. Saa kan hver ta sit.</p>
+</sp>
+<sp>
+<speaker>Frk. Arnestad.</speaker>
+<p rend="noIndent">Og maden?</p>
+</sp>
+<sp>
+<speaker>Vesla</speaker>
+<stage>ler.</stage>
+<p rend="noIndent">Den har de med sig. Sven og de andre. &#x2013; Brager sa, at han skulde komme med en hel stegt gaas.</p>
+</sp>
+<sp>
+<speaker>Frk. Arnestad.</speaker>
+<p rend="noIndent">Det maa v&#x00E6;re rart at leve saan feltliv, synes jeg.</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Aa ja. Men De skal se, vi faar nok engang vort eget hjem.</p>
+</sp>
+<sp>
+<speaker>Frk. Arnestad.</speaker>
+<p rend="noIndent">Ja, det maatte v&#x00E6;re bedst, om en kunde gifte sig snart.</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">De ved, vi maa vente taalmodig.</p>
+</sp>
+<sp>
+<speaker><pb n="35"/>Frk. Arnestad.</speaker>
+<p rend="noIndent">Og hadde det ikke v&#x00E6;ret for d&#x00E9;t, at hr. Bryde har bod her hos mig i flere aar, saa hadde jeg nu aldrig gjort ham den tjenesten, jeg.</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">K&#x00E6;re frk. Arnestad. De ved, hvor taknemlige vi er Dem, fordi De tog imod os og lod os faa bo her.</p>
+</sp>
+<sp>
+<speaker>Frk. Arnestad.</speaker>
+<p rend="noIndent">Ja, at jeg lod <emph>Dem</emph> faa bo her, ja. For han bode jo her f&#x00F8;r. Men hr. Bryde, han har nu saant v&#x00E6;sen han, at han faar alting til. Han rent betrode sig til mig, ser De. Han sa, De burde ha en kvinde om Dem &#x2013;. Og s&#x00F8;d og snil, det er De jo. Naar det nu snart kunde bli til noget med det giftermaalet, skulde ingen v&#x00E6;re gladere end jeg. For Dem blir en glad i, saa s&#x00F8;d og snil De er. Men dem, som er gode og snille her i verden, dem gaar det ofte galt. Og ikke sk&#x00F8;nner <emph>jeg</emph>, hvordan De altid kan gaa med det velsignede hum&#x00F8;ret, saa det lyser af Dem.</p>
+</sp>
+<sp>
+<speaker>Vesla</speaker>
+<stage>ved juletr&#x00E6;et</stage>
+<p rend="noIndent">Se. Blir det ikke vakkert? Nu kan vi snart t&#x00E6;nde lysene, saa kan barna komme ind. Det er synd, de skal vente, stakkar. Det er nu for dem. Glad? Hjemme var jeg ogsaa glad mange gange, endda saa trist det var. Og skulde en ikke v&#x00E6;re <pb n="36"/>det, naar alting gaar meget bedre, og naar en holder af sin mand, og han er god og snil&#x2026;</p>
+</sp>
+<sp>
+<speaker>Frk. Arnestad.</speaker>
+<p rend="noIndent">Ja &#x2013; han er nu ikke Deres mand endda da &#x2013; saan rigtig.</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Jeg kalder ham det. For han <emph>er</emph> min mand. Det er helligt for Gud, vi har lovet det. Da er det ikke saa vigtigt med menneskenes form.</p>
+</sp>
+<sp>
+<speaker>Frk. Arnestad.</speaker>
+<p rend="noIndent">Nei, det har han vel faat snakket ind i Dem. Jeg synes nu mangengang virkelig saa synd, jeg.</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Men det blir godt altsammen. Vi maa bare vente lidt taalmodig&#x2026;</p>
+</sp>
+<sp>
+<speaker>Frk. Arnestad.</speaker>
+<p rend="noIndent">Ja, ikke si&#x0027;er jeg noget ondt om hr. Bryde. Men der h&#x00E6;nder saa mangt i verden. En raar ikke for noget. Hans far, det er en haard staur. De skulde ikke flyttet sammen, siger <emph>jeg</emph>. Han skulde ikke faat Dem til det. Ja, jeg synes nu mangengang rigtig saa synd, jeg.</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Hys. Det gaar i gangen. Det er hans skridt, tror jeg&#x2026;</p>
+</sp>
+<sp>
+<speaker>Frk. Arnestad.</speaker>
+<p rend="noIndent">Ja. Og saa siger De til hr. Bryde da, at han <pb n="37"/>ikke snakker for h&#x00F8;it. For han snakker ofte saa sv&#x00E6;rt h&#x00F8;it, at de logerende klager.</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Det skal jeg nok. Hys. Nu skal jeg skr&#x00E6;mme ham.</p>
+<stage>Hun tar i hast en julebukmaske fra forh&#x00F8;iningen og s&#x00E6;tter den for ansigtet. Fra en knag en sort kappe med h&#x00E6;tte og kaster om sig.</stage>
+</sp>
+<sp>
+<speaker>Frk. Arnestad.</speaker>
+<p rend="noIndent">Alle de sk&#x00F8;ierstreger De har fore. Ha ha.</p>
+<stage>Hun gaar ud tilvenstre i baggrunden. Nogen tar i d&#x00F8;ren tilh&#x00F8;ire.</stage>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Kom! Kom, Sven. Ingen hemmeligheder&#x2026;</p>
+</sp>
+<sp>
+<speaker>Erik Rein</speaker>
+<stage>ind af d&#x00F8;ren. Han blir staaende forundret.</stage>
+<p rend="noIndent">Undskyld. Jeg gaar vist feil&#x2026; Det var m&#x00F8;rkt i entr&#x00E9;en &#x2013;</p>
+</sp>
+<sp>
+<speaker>Vesla</speaker>
+<stage>farer tilbage, hun kaster masken og h&#x00E6;tten. Undselig og skamfuld.</stage>
+<p rend="noIndent">Jeg trode&#x2026; Jeg trode, det var&#x2026; <stage>Brister i latter.</stage></p>
+</sp>
+<sp>
+<speaker>Erik Rein,</speaker>
+<stage>ser sig om, ler ogsaa, stanser, ser vedholdende og forundret paa hende. Om lidt.</stage>
+<p rend="noIndent">Gaar jeg feil? Bor ikke hr. Bryde her. Sven Bryde, arkitekten?</p>
+</sp>
+<sp>
+<speaker><pb n="38"/>Vesla.</speaker>
+<p rend="noIndent">Jo, det g&#x00F8;r han. Skulde De tale med ham kanske?</p>
+</sp>
+<sp>
+<speaker>Erik Rein.</speaker>
+<p rend="noIndent">Ja, det var nu&#x2026; Han har indbudt mig iaften, men jeg vidste ikke&#x2026;</p>
+<stage>Smiler.</stage>
+<p rend="noIndent">Mon jeg ikke gaar feil alligevel.</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Nei, langtfra. Det er bare &#x00E9;n Sven Bryde, som jeg kender da. V&#x00E6;rsgo&#x0027; kom! Naar han har bedt Dem, saa er De jo vor g&#x00E6;st.</p>
+</sp>
+<sp>
+<speaker>Erik Rein.</speaker>
+<p rend="noIndent">Mit navn er Erik Rein, og jeg er forfatter. Men&#x2026; men hvem er De da?</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Jeg er &#x2013; Vesla.</p>
+</sp>
+<sp>
+<speaker>Erik Rein.</speaker>
+<p rend="noIndent">Aa, De er Vesla.</p>
+<stage>Besinder sig.</stage>
+<p rend="noIndent">Jo, jeg synes, jeg har h&#x00F8;rt det navnet f&#x00F8;r. Af hans venner &#x2013; eller ham selv.</p>
+</sp>
+<sp>
+<speaker>Vesla</speaker>
+<stage>nikker.</stage>
+<p rend="noIndent">Jeg trode, det var ham, som kom. Nu maa han straks v&#x00E6;re her. Vi skulde t&#x00E6;nde lysene. Vil De kanske hj&#x00E6;lpe mig?</p>
+<stage><pb n="39"/><hi rend="bold">Erik Rein</hi> stiller en firkantet pakke under juletr&#x00E6;et.</stage>
+<p rend="noIndent">Er det present? Cigarer til Sven? Det blir han glad for. Men vi har ingen for&#x00E6;ringer iaar, vi. Det er sandt&#x2026;</p>
+<stage>Hun lukker paa d&#x00F8;ren til siderummet.</stage>
+<p rend="noIndent">Nu skal dere straks faa komme.</p>
+<stage>Til <hi rend="bold">Erik Rein</hi>, mens hun begynder at t&#x00E6;nde lysene.</stage>
+<p rend="noIndent">Vi har barn ogsaa, det h&#x00F8;rer til. Vil De t&#x00E6;nde, saa gaar det fortere.</p>
+<stage>Hun r&#x00E6;kker ham en &#x00E6;ske fyrstikker.</stage>
+</sp>
+<stage><hi rend="bold">Erik Rein</hi> hj&#x00E6;lper at t&#x00E6;nde, ser og h&#x00F8;rer paa <hi rend="bold">Vesla</hi> uden et ord.</stage>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Sven maa straks v&#x00E6;re her. Baade han og de andre. Men det er mine halvs&#x00F8;skende. De to smaa derinde, de venter, stakkar. De har ikke noget juletr&#x00E6; hjemme. Nu er vist alle lysene t&#x00E6;ndt, saa henter jeg <emph>dem</emph>.</p>
+</sp>
+<stage>Hun gaar til d&#x00F8;ren og kommer tilbage med et af b&#x00F8;rnene ved hver haand. I det samme kommer</stage>
+<sp>
+<speaker>Alfred Wentzel</speaker>
+<stage>ind fra h&#x00F8;ire i baggrunden. Omkring 40 aar, &#x00E6;ldre ungkarl, noget lav og unders&#x00E6;tsig, med briller og et altid velvilligt smil. Af jovialt, tildels entusiastisk temperament. Bel&#x00E6;sset med pakker.</stage>
+<p rend="noIndent"><pb n="40"/>Godaften og glad jul! Er ikke Bryde kommet? Godaften, k&#x00E6;re frue, skil mig af med <emph>dem</emph>.</p>
+<stage>Leverer hende pakkerne.</stage>
+<p rend="noIndent">Velkommen i kredsen, Rein! Og smaarollingerne&#x2026;</p>
+<stage>Begynder at danse med dem rundt tr&#x00E6;et. Barna ellevilde og lykkelige.</stage>
+<p rend="noIndent">Jo, nu er vi vant til dere. Husker De ifjor, Vesla?</p>
+</sp>
+<sp>
+<speaker>Vesla</speaker>
+<stage>steller med barna, gir dem gaver, godter o.s. v.</stage>
+<p rend="noIndent">Ja, det er sandt. De var med.</p>
+</sp>
+<sp>
+<speaker>Wentzel.</speaker>
+<p rend="noIndent">Var kanske ikke <emph>jeg</emph> med. Har De glemt det? En glemmer altid mig. Nei, en husker aldrig mig.</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Nei, for De er saa selvf&#x00F8;lgelig. Og dere skal ha nye kl&#x00E6;r, barn. Kjole og str&#x00F8;mper, tr&#x00F8;ie. Kom skal vi gaa ind og bytte.</p>
+<stage>Tar dem med ind i sidev&#x00E6;relset.</stage>
+</sp>
+<sp>
+<speaker>Erik Rein</speaker>
+<stage>til <hi rend="bold">Wentzel</hi>, ser efter hende.</stage>
+<p rend="noIndent">Wentzel&#x2026; Hvem er hun?</p>
+</sp>
+<sp>
+<speaker>Wentzel.</speaker>
+<p rend="noIndent">Hvem? Hun? &#x2013; Vesla? Det er jo &#x2013; hvem hun <emph>er</emph>? Har Bryde ikke talt om &#x2013;?</p>
+</sp>
+<sp>
+<speaker><pb n="41"/>Erik Rein.</speaker>
+<p rend="noIndent">Han har aldrig n&#x00E6;vnt hende. Men jeg hadde vel en anelse om, at der var &#x2013; saan &#x2013; en kvinde med i spillet. Hvem er hun, sp&#x00F8;r jeg&#x2026;</p>
+</sp>
+<sp>
+<speaker>Wentzel.</speaker>
+<p rend="noIndent">Hvem hun <emph>er</emph>? Hm. &#x2013; Et h&#x00F8;iere v&#x00E6;sen. Kommet lige ned &#x2013; <stage>peger</stage> derovenfra &#x2013; for at g&#x00F8;re os mennesker lyksalige og gode.</p>
+</sp>
+<sp>
+<speaker>Erik Rein,</speaker>
+<stage>tvinger sit eget indtryk.</stage>
+<p rend="noIndent">Gud bevar&#x0027; os. Lad os ikke bli sentimentale&#x2026;</p>
+</sp>
+<sp>
+<speaker>Wentzel.</speaker>
+<p rend="noIndent">Nei, lad os ikke det.</p>
+</sp>
+<sp>
+<speaker>Erik Rein.</speaker>
+<p rend="noIndent">Hun virker besynderlig &#x00E6;gte&#x2026;</p>
+</sp>
+<sp>
+<speaker>Wentzel</speaker>
+<stage>nikker.</stage>
+<p rend="noIndent">Og freidig gaar hun gennem al h&#x00F8;itideligheden og komedien. For hende er livet saa enkelt. Hun t&#x00E6;nker ikke ondt. Men de sidder slemt i det.</p>
+</sp>
+<sp>
+<speaker>Erik Rein.</speaker>
+<p rend="noIndent">Hvorledes det?</p>
+</sp>
+<sp>
+<speaker>Wentzel.</speaker>
+<p rend="noIndent">Den gamle gir sig aldrig nu, da han har faat hende til at bo sammen med sig ogsaa.</p>
+</sp>
+<sp>
+<speaker><pb n="42"/>Erik Rein.</speaker>
+<p rend="noIndent">Hvem gir sig ikke?</p>
+</sp>
+<sp>
+<speaker>Wentzel.</speaker>
+<p rend="noIndent">Hans far. Gamle Bryde vel. Traditioner og familie og sligt noget. De lever oppe i de h&#x00F8;iere cirkler. Sven er der meget. Han deler sig mellem dem og hende. Han er halstarrig og &#x00E6;gges af modstanden. Fa&#x0027;ren har jo anerkendt ham. Men aldrig gaar han ind paa, at hans s&#x00F8;n hjemf&#x00F8;rer sin elskerinde som sin hustru. Det er en seig strid. Og vi hans venner gaar og ser paa. Nu i halvandet aar.</p>
+</sp>
+<sp>
+<speaker>Erik Rein.</speaker>
+<p rend="noIndent">Og hun &#x2013; holder saa meget af ham?</p>
+</sp>
+<sp>
+<speaker>Wentzel.</speaker>
+<p rend="noIndent">Ja, d&#x00E9;t g&#x00F8;r hun. Hun er som Vorherre selv. Og han har sat det i hende fra hendes femtende aar. Stakkars Vesla &#x2013; en liten mishandlet pige. Stedmor og saant. Hun hadde det forf&#x00E6;rdeligt. Gaar han fra hende en dag, da &#x2013;. Men det faar vi haabe ikke sker.</p>
+</sp>
+<sp>
+<speaker>Erik Rein.</speaker>
+<p rend="noIndent">Holder han ikke af hende?</p>
+</sp>
+<sp>
+<speaker>Wentzel.</speaker>
+<p rend="noIndent">Han elsker hende. For saa vidt som han kan elske da. Men han er meget kompliceret, Sven Bryde. Endda jeg beundrer ham. Det maa De vel ha m&#x00E6;rket. Naa. Der er han.</p>
+</sp>
+<sp>
+<speaker><pb n="43"/>Sven Bryde</speaker>
+<stage>hurtig ind fra d&#x00F8;ren tilh&#x00F8;ire. Den 20-aarige gut er blit en velvoksen, elegant ung mand. Det samme nerv&#x00F8;st-energiske og milde udtryk med momentan heftighed. For &#x00F8;ieblikket i synlig bev&#x00E6;gelse som efter en oplevelse. Kommer ind i reiset&#x00F8;i, hue og lang overfrak, kaster af sig og h&#x00E6;nger t&#x00F8;iet ud i gangen, mens han taler. Hans fremtr&#x00E6;den har noget bydende, kraftigt og gir indtryk af selvf&#x00F8;lelse.</stage>
+<p rend="noIndent">K&#x00E6;re venner! Goddag, goddag! Velkommen, Erik Rein. Har Vesla tat imod Dem? Hvor er hun henne, den velsignede ungen.</p>
+</sp>
+<sp>
+<speaker>Vesla</speaker>
+<stage>vender tilbage med b&#x00F8;rnene i sit nye t&#x00F8;i.</stage>
+<p rend="noIndent">Jeg h&#x00F8;rte stemmen din.</p>
+</sp>
+<sp>
+<speaker>Sven Bryde</speaker>
+<stage>hen til hende.</stage>
+<p rend="noIndent">Min k&#x00E6;re, elskede pige. <emph>Hun</emph> er underlig. Jo mere en er fra hende, desto mere man l&#x00E6;nges.</p>
+</sp>
+<sp>
+<speaker>Vesla</speaker>
+<stage>smiler.</stage>
+<p rend="noIndent">Jeg l&#x00F8;ber ikke fra dig. Det er dig, som har saa meget at l&#x00F8;be efter.</p>
+</sp>
+<sp>
+<speaker>Sven Bryde.</speaker>
+<p rend="noIndent">Ja. Naar en har krav paa sig. Baade her og der. Og de derude &#x2013;.</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Er der h&#x00E6;ndt noget?</p>
+</sp>
+<sp>
+<speaker><pb n="44"/>Sven Bryde.</speaker>
+<p rend="noIndent">H&#x00E6;ndt. Det g&#x00F8;r ikke andet end h&#x00E6;nde.</p>
+<stage>stryger sig over &#x00F8;inene.</stage>
+<p rend="noIndent">Dere kan forresten tro, at jeg kommer fra en julaften.</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Vilde din far, at du skulde v&#x00E6;re d&#x00E8;r?</p>
+</sp>
+<sp>
+<speaker>Sven Bryde.</speaker>
+<p rend="noIndent">Jeg kunde n&#x00E6;sten ikke komme fra. De vilde paa liv og d&#x00F8;d, jeg skulde bli. Han er ensom, den gamle. Men iaften holder han selskab. Med lys og kandelabrer, med suppe og fisk og steg og is. Og tre vinsorter. Og champagne&#x2026;</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Var hans brordatter der?</p>
+</sp>
+<sp>
+<speaker>Sven Bryde.</speaker>
+<p rend="noIndent">Frk. Olga, ja. Hun var som en maanestraale i sin hvide kjole. En kommer i stemning. De forstaar at g&#x00F8;re det festlig. Saadan i gammel stil, hvor de f&#x00F8;rer hverandre tilbords og konverserer. Og frk. Leangen, hun forstaar at lave mad. Men jeg gik fra baade suppen og fisken. Jeg l&#x00E6;ngtes herhjem.</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Da blev vel din far bedr&#x00F8;vet. Hvis han sk&#x00F8;nte, hvor du gik hen.</p>
+</sp>
+<sp>
+<speaker>Sven Bryde.</speaker>
+<p rend="noIndent">Det sk&#x00F8;nte han vel nok. Jeg gidder ikke disputere med ham. Jeg har tat mit standpunkt. <pb n="45"/>Er han sta, kan jeg ogsaa v&#x00E6;re det. Jeg trodser ham&#x2026; For din skyld, Vesla. Det er min st&#x00F8;rste gl&#x00E6;de. For du ved ikke, &#x2013; nei, du ved ikke, hvor glad jeg er i dig. &#x2013; Men nu har du vel noget mad til os. Jeg er skr&#x00E6;kkelig sulten.</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Men&#x2026; Du sa, at du skulde ta det med.</p>
+</sp>
+<sp>
+<speaker>Sven Bryde.</speaker>
+<p rend="noIndent">Hvad skulde jeg ta med?</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Maden. Du skulde k&#x00F8;be, sa du.</p>
+</sp>
+<sp>
+<speaker>Sven Bryde</speaker>
+<stage>pirrelig.</stage>
+<p rend="noIndent">Hvor skulde jeg ta penge fra? Det er rent slut. Ingen st&#x00F8;tte mere. Han sa det iaften, da jeg ikke vilde bli. Og lidet at fortjene. &#x2013; Har <emph>du</emph> ingenting?</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Sven! Jeg gjorde mig saan umage. Men du ved, juletr&#x00E6;et, barna&#x2026;</p>
+</sp>
+<sp>
+<speaker>Sven Bryde.</speaker>
+<p rend="noIndent">Ja, der har vi nu dine filantropiske ideer.</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Alt t&#x00F8;iet hadde jeg sydd forud. Men det andet gik med.</p>
+</sp>
+<sp>
+<speaker>Sven Bryde.</speaker>
+<p rend="noIndent">Det er en sk&#x00F8;n historie. Skal vi sidde t&#x00F8;rt her. Hvad siger du, Wentzel?</p>
+</sp>
+<sp>
+<speaker><pb n="46"/>Wentzel.</speaker>
+<p rend="noIndent">Jeg siger, at der er noget rart i de pakkerne der.</p>
+</sp>
+<sp>
+<speaker>Sven Bryde.</speaker>
+<p rend="noIndent">Du er en brillant fyr.</p>
+<stage>Pakker op.</stage>
+<p rend="noIndent">Kaviar, konserver, portvin, madeira. Hurra, vi er berget.</p>
+<stage>Han s&#x00E6;tter sagerne paa bordet.</stage>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Br&#x00F8;d og sm&#x00F8;r har vi da. Og frk. Arnestad loved at skaffe &#x00F8;l.</p>
+</sp>
+<sp>
+<speaker>Sven Bryde.</speaker>
+<p rend="noIndent">Jule&#x00F8;llet. Naa, saa er det godt. Vi skal ringe hende op.</p>
+</sp>
+<stage>Han ringer ved den borterste d&#x00F8;r tilvenstre. Han og de andre steller med bordet, aabner konserverne, tr&#x00E6;kker flasker op o.s.v. <hi rend="bold">Vesla</hi> med b&#x00F8;rnene gaar fra og til. <hi rend="bold">Frk. Arnestad</hi> kommer med &#x00F8;l og glas.</stage>
+<sp>
+<speaker>Sven Bryde.</speaker>
+<p rend="noIndent">Kommer De selv, frk. Arnestad?</p>
+</sp>
+<sp>
+<speaker>Frk. Arnestad.</speaker>
+<p rend="noIndent">Maatte &#x00F8;nske gl&#x00E6;delig jul. Naar hr. Bryde kommer hjem, saa. Det er nu min gamle logerende, det. Paa fjerde aaret. For her har De nu bod hvergang De ikke var ude og reise.</p>
+</sp>
+<sp>
+<speaker>Sven Bryde.</speaker>
+<p rend="noIndent">Nu skal De sandelig ha et glas vin.</p>
+<stage>Han sk&#x00E6;nker i glassene.</stage>
+</sp>
+<sp>
+<speaker><pb n="47"/>Frk. Arnestad.</speaker>
+<p rend="noIndent">Tak som byr. Og skaal for v&#x00E6;rt og v&#x00E6;rtinde.</p>
+<stage>De drikker.</stage>
+<p rend="noIndent">Ja, hr. Bryde har kvindelykke, han. Det er sikkert det. Frk. Olga Bryde liker ham ogsaa sv&#x00E6;rt godt. Det saa jeg, dengang hun var her.</p>
+<stage>til <hi rend="bold">Vesla</hi>.</stage>
+<p rend="noIndent">Men det var nu f&#x00F8;r De kom.</p>
+</sp>
+<sp>
+<speaker>Vesla</speaker>
+<stage>ler.</stage>
+<p rend="noIndent">Ja, jeg liker ogsaa Sven.</p>
+</sp>
+<sp>
+<speaker>Sven Bryde</speaker>
+<stage>st&#x00F8;der sit glas mod Frk. Arnestads.</stage>
+<p rend="noIndent">Skaal! &#x2013; Frk. Olga&#x2026;? Nei, indbild Dem bare ikke, at <emph>hun</emph> t&#x00E6;nker paa mig.</p>
+</sp>
+<stage><hi rend="bold">Bj&#x00F8;rn Brager</hi>, med en v&#x00E6;ldig pakke ind af d&#x00F8;ren.</stage>
+<sp>
+<speaker>Wentzel</speaker>
+<stage>til <hi rend="bold">Vesla</hi>.</stage>
+<p rend="noIndent">Der kommer en, som liker <emph>Dem</emph>.</p>
+</sp>
+<sp>
+<speaker>Sven Bryde</speaker>
+<stage>hastig.</stage>
+<p rend="noIndent">Doktoren! Gamle ven&#x2026; og min hustrus gamle ven. Skulde min hustru ikke ha lov at ha venner? Bj&#x00F8;rn Brager, velkommen og gl&#x00E6;delig jul! Husker du St. Hans-festen i birkelunden. Da jeg kom hjem fra udlandet netop som du dansed med hende?</p>
+</sp>
+<sp>
+<speaker><pb n="48"/>Bj&#x00F8;rn Brager</speaker>
+<stage>st&#x00E6;rk og smuk og rolig.</stage>
+<p rend="noIndent">Hvorfor ikke huske? En har vel hukommelse.</p>
+<stage>Han s&#x00E6;tter pakken midt paa bordet.</stage>
+</sp>
+<sp>
+<speaker>Sven Bryde</speaker>
+<stage>sk&#x00E6;nker til <hi rend="bold">Brager</hi>.</stage>
+<p rend="noIndent">Skaal! Maatte du ikke ha lov at danse med hende?</p>
+<stage>Han pakker op.</stage>
+<p rend="noIndent">Jeg ber jer l&#x00E6;gge m&#x00E6;rke til, at det er en virkelig gaas. Delikat stegt. Og gaas er herremandskost her i Norge. De har ikke noget saa fint hos min far engang. Skal De gaa nu, frk. Arnestad?</p>
+</sp>
+<sp>
+<speaker>Frk. Arnestad.</speaker>
+<p rend="noIndent">Ja. Jeg maa ind og stelle med de andre.</p>
+</sp>
+<sp>
+<speaker>Sven Bryde.</speaker>
+<p rend="noIndent">Men imorgen, f&#x00F8;rste juledag, kommer De og drikker et glas med os.</p>
+</sp>
+<sp>
+<speaker>Frk. Arnestad.</speaker>
+<p rend="noIndent">Ja, det var sandt.</p>
+<stage>Ud.</stage>
+</sp>
+<sp>
+<speaker>Wentzel.</speaker>
+<p rend="noIndent">Nu skal doktoren tranchere. Han er ikke stud. med. for ingenting.</p>
+</sp>
+<stage>Allesammen ved bordet. <hi rend="bold">Vesla</hi> gaar fra og til mellem dem og b&#x00F8;rnene, som har sit eget lille bord. Hun s&#x00F8;rger for, at hver faar sit. <hi rend="bold">Erik Rein</hi> iagttar hende skjult.</stage>
+<sp>
+<speaker><pb n="49"/>Sven Bryde</speaker>
+<stage>spiser med stor appetit. Om lidt til <hi rend="bold">Vesla</hi>.</stage>
+<p rend="noIndent">Skal du ikke s&#x00E6;tte dig ned hos os?</p>
+<stage>Han drager hende ned ved siden af sig. <hi rend="bold">Bj&#x00F8;rn Brager</hi> paa den anden side.</stage>
+</sp>
+<sp>
+<speaker>Wentzel.</speaker>
+<p rend="noIndent">Vor dame leve. Hendes skaal</p>
+<stage>De klinker og drikker. <hi rend="bold">Wentzel</hi> vedblir begeistret.</stage>
+<p rend="noIndent">Ja, vor dame. Hun, som aldrig vil noget for sig selv. Hun, som lar sit aasyn lyse over os og bare gir og gir if&#x00F8;lge sin natur&#x2026; K&#x00E6;rligheden, livets opholdende kraft&#x2026;</p>
+</sp>
+<sp>
+<speaker>Sven Bryde</speaker>
+<stage>bev&#x00E6;get.</stage>
+<p rend="noIndent">Vesla! Velsignede ungen. Lille konen min.</p>
+<stage>Drikker med hende.</stage>
+<p rend="noIndent">Det er sandt, Rein. Har De l&#x00E6;st anmeldelsen?</p>
+</sp>
+<sp>
+<speaker>Erik Rein.</speaker>
+<p rend="noIndent">Den som kom til jul. Om Deres plancher og udkast? Jo, den har jeg l&#x00E6;st.</p>
+</sp>
+<sp>
+<speaker>Sven Bryde.</speaker>
+<p rend="noIndent">Hvad synes De?</p>
+</sp>
+<sp>
+<speaker>Erik Rein.</speaker>
+<p rend="noIndent">Ypperlig, selvf&#x00F8;lgelig. Hvem har skrevet den?</p>
+</sp>
+<sp>
+<speaker>Sven Bryde.</speaker>
+<p rend="noIndent">Det ved jeg sandelig ikke. Men i rette tid kom den. Endelig.</p>
+</sp>
+<sp>
+<speaker><pb n="50"/>Wentzel.</speaker>
+<p rend="noIndent">Ja. Begavelsen skal frem!</p>
+</sp>
+<sp>
+<speaker>Sven Bryde</speaker>
+<stage>velvillig og i hum&#x00F8;r.</stage>
+<p rend="noIndent">Hvem der skrev den eller ikke &#x2013; det var en forstaaelsens naadegave. Han fandt de rette ord for mine ideer. Han staar paa h&#x00F8;ide med dem, denne ukendte. Hvor kan en ikke gyse for anmeldelser? Det bedste, h&#x00F8;ieste, en har t&#x00E6;nkt, blir slaat til jorden med platte ord. Selv <emph>ros</emph> kan bli sm&#x00E6;deord. Man vil bare for Guds skyld undv&#x00E6;re den. Heller ties ihjel. Ikke at tale om det at bli affeiet af en uforstaaende og i egen indbildning overlegen. Naar et menneske ikke duer til andet, kan han altid bli kunstkritiker. Fan har skabt dem.</p>
+<stage>Ler.</stage>
+<p rend="noIndent">Men denne var en af Guds naade. Han lod mig bli i min himmel.</p>
+</sp>
+<sp>
+<speaker>Wentzel</speaker>
+<stage>sidder og smiler lykkelig.</stage>
+</sp>
+<sp>
+<speaker>Bj&#x00F8;rn Brager</speaker>
+<stage>smiler ogsaa, godmodig ironisk, han ser forundret paa <hi rend="bold">Sven Bryde</hi>. Gemytlig.</stage>
+<p rend="noIndent">Spil nu ikke komedie, du. Eller hvad? Du vil vel ikke indbilde os, at du ikke ved, hvem der har skrevet den artiklen?</p>
+</sp>
+<sp>
+<speaker>Sven Bryde.</speaker>
+<p rend="noIndent">Ved jeg? Nei, saasandt jeg lever og er til.</p>
+<stage>Mod <hi rend="bold">Brager</hi>.</stage>
+<p rend="noIndent">Hvad mener du?</p>
+</sp>
+<sp>
+<speaker><pb n="51"/>Bj&#x00F8;rn Brager.</speaker>
+<p rend="noIndent">At han ikke er langt borte i alle fald.</p>
+<stage>Med sideblik til <hi rend="bold">Wentzel</hi>.</stage>
+<p rend="noIndent">Se hvor lyksalig han ser ud ved dine lovord. Men det kan da ellers v&#x00E6;re ligegyldigt. Hvem der skrev den, mener jeg. Jeg trode, du vidste det.</p>
+</sp>
+<sp>
+<speaker>Sven Bryde</speaker>
+<stage>nedstemt, pirrelig, efterhaanden ophidset.</stage>
+<p rend="noIndent">Skal nu <emph>denne</emph> aften ogsaa &#x00F8;del&#x00E6;gges for mig. <emph>Du</emph>, Brager. Det kunde du tro. Det kunde du antyde. Og han sidder ved siden af min kone.</p>
+<stage>Idet han staar op og skyder stolen tilside.</stage>
+<p rend="noIndent">Vesla, reis dig. Straks. Han er ikke v&#x00E6;rdig til at v&#x00E6;re i din n&#x00E6;rhed.</p>
+</sp>
+<sp>
+<speaker>Wentzel, Erik Rein</speaker>
+<stage>samtidig.</stage>
+<p rend="noIndent">Bryde! &#x2013; Sven, hvad gaar af dig? &#x2013; Han er syg.</p>
+</sp>
+<sp>
+<speaker>Sven Bryde</speaker>
+<stage>tar sig til hodet.</stage>
+<p rend="noIndent">Ja, jeg er syg kanske. Folk vil mig tillivs. Allesammen. Det str&#x00F8;mmer ind paa mig&#x2026; Ikke paa en aften som denne kan jeg v&#x00E6;re i fred. Selv mine venner&#x2026; Er det sandt, Wentzel? Er det du, som har skrevet artiklen?</p>
+</sp>
+<sp>
+<speaker>Wentzel.</speaker>
+<p rend="noIndent">Ja. Det kan jeg jo ikke negte. Naar du sp&#x00F8;r.</p>
+</sp>
+<sp>
+<speaker><pb n="52"/>Sven Bryde.</speaker>
+<p rend="noIndent">En vennetjeneste altsaa. Og alle ved det. Undtagen jeg&#x2026; Narrestreger.</p>
+</sp>
+<sp>
+<speaker>Bj&#x00F8;rn Brager</speaker>
+<stage>godmodig.</stage>
+<p rend="noIndent">Men k&#x00E6;re, er det noget at ta sig n&#x00E6;r af. Alle kender jo din dygtighed. Din selvst&#x00E6;ndighed i arbeidet.</p>
+</sp>
+<sp>
+<speaker>Sven Bryde.</speaker>
+<p rend="noIndent">Aa. &#x2013; Da burde det komme frem paa en anden maade.</p>
+</sp>
+<sp>
+<speaker>Bj&#x00F8;rn Brager.</speaker>
+<p rend="noIndent">Du er for saar, siger jeg.</p>
+</sp>
+<sp>
+<speaker>Wentzel.</speaker>
+<p rend="noIndent">Eller der ligger noget under.</p>
+<stage>Til de andre.</stage>
+<p rend="noIndent">Han har saa mange bekymringer.</p>
+</sp>
+<sp>
+<speaker>Sven Bryde.</speaker>
+<p rend="noIndent">I skulde vide, hvad jeg har. Selv <emph>hun</emph> ved det ikke.</p>
+<stage>Han tyder mod <hi rend="bold">Vesla</hi>, som er gaat hen til barna. Hun hj&#x00E6;lper dem at samle sine sager.</stage>
+<p rend="noIndent">Nu er da denne aften &#x00F8;delagt.</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Sven, du siger ikke det.</p>
+<stage>Hurtig.</stage>
+<p rend="noIndent">Her er cigarer, deilige cigarer til dig fra hr. Rein.</p>
+<stage>Hun gir ham kassen.</stage>
+</sp>
+<sp>
+<speaker><pb n="53"/>Sven Bryde</speaker>
+<stage>lidt mildere.</stage>
+<p rend="noIndent">Cigarer? For&#x00E6;ring&#x2026; Dem har der ikke v&#x00E6;ret mange af iaften, jeg mener: <emph>Jeg</emph> har ikke kunnet&#x2026; Tak! Tak, Rein.</p>
+<stage>Han t&#x00E6;nder en. Til <hi rend="bold">Vesla</hi>.</stage>
+<p rend="noIndent">Byd de andre.</p>
+</sp>
+<stage><hi rend="bold">Vesla</hi> byr omkring, herrerne t&#x00E6;nder sine cigarer. De har reist sig en efter en. Hun f&#x00F8;lger barna ud i stilhed.</stage>
+<sp>
+<speaker>Sven Bryde,</speaker>
+<stage>vemodig, til de andre.</stage>
+<p rend="noIndent">Ja, det er smaat. Ser jeg omkring her, n&#x00E6;sten bare leiede sager, &#x2013; hotel garni. Vore faa eiendele, dem tar de vel snart fra os. Det var galt af mig, at jeg f&#x00F8;rte <emph>hende</emph> op i altsammen.</p>
+</sp>
+<sp>
+<speaker>Bj&#x00F8;rn Brager.</speaker>
+<p rend="noIndent">Ja. Efterpaa, naar festen er over, da <emph>t&#x00E6;nker</emph> man. Vi raaded dig fra det, vi. Men du var ikke til at styre.</p>
+</sp>
+<sp>
+<speaker>Sven Bryde</speaker>
+<stage>heftig, gaar omkring og slukker &#x00E9;t for &#x00E9;t af julelysene, mens han r&#x00F8;ger st&#x00E6;rkt af cigaren.</stage>
+<p rend="noIndent">Vilde jeg ikke hj&#x00E6;lpe hende ud af det? V&#x00E6;rre end <emph>hun</emph> hadde det kunde det vel ikke bli. Dette frygtelige hjem, denne Toni, som lived manden op til han begyndte at drikke.</p>
+<stage>G&#x00F8;r en bev&#x00E6;gelse.</stage>
+<p rend="noIndent"><pb n="54"/>Helt herunter. En af t&#x00F8;searten, ren demimonde, bedrager sin mand og morer sig. Vesla holdt det nogenlunde oppe den tid hun var der. Men den k&#x00E6;lderagtige m&#x00F8;rke butik, hvor hun stod dagen lang, det bagv&#x00E6;relse, hu! &#x2013; Og du, Brager, du har ikke noget at si. Du vilde nok gerne selv. &#x2013;</p>
+</sp>
+<sp>
+<speaker>Wentzel.</speaker>
+<p rend="noIndent">Aa, hold nu op&#x2026;</p>
+</sp>
+<sp>
+<speaker>Bj&#x00F8;rn Brager</speaker>
+<stage>ler.</stage>
+<p rend="noIndent">Vi har alle samme ret. Du var langt borte, i udlandet. Du skrev ikke. Og ingen vidste, naar du kom igen.</p>
+</sp>
+<sp>
+<speaker>Sven Bryde.</speaker>
+<p rend="noIndent">Og du tror, <emph>hun</emph> var en saan en, som vilde gaat med?</p>
+</sp>
+<sp>
+<speaker>Bj&#x00F8;rn Brager.</speaker>
+<p rend="noIndent">Det siger jeg ikke. Du kom.</p>
+</sp>
+<sp>
+<speaker>Sven Bryde.</speaker>
+<p rend="noIndent">Ja. Det var kanske paatide. Dengang.</p>
+</sp>
+<sp>
+<speaker>Wentzel.</speaker>
+<p rend="noIndent">Aa &#x2013;! Denne gale jalousien. Hvor I er irritable. Bare en gnist, saa f&#x00E6;nger det.</p>
+</sp>
+<sp>
+<speaker>Bj&#x00F8;rn Brager.</speaker>
+<p rend="noIndent">Hun gik jo med <emph>dig</emph>. Jeg siger, pigeb&#x00F8;rn er pigeb&#x00F8;rn. Og at du har forstyrret dine fremtidsmuligheder fordi du ikke kunde vente, det er vi <pb n="55"/>vel alle enige om. Dette er hverken halvt eller helt. Det er roderi.</p>
+</sp>
+<sp>
+<speaker>Sven Bryde</speaker>
+<stage>meget bleg.</stage>
+<p rend="noIndent">Du t&#x00E6;nker kanske at &#x2013; fiske i de r&#x00F8;rte vande.</p>
+</sp>
+<sp>
+<speaker>Bj&#x00F8;rn Brager</speaker>
+<stage>trohjertig og rolig.</stage>
+<p rend="noIndent">Jeg <emph>t&#x00E6;nker</emph> ingenting. Du &#x00E6;rted mig, og jeg svarte, det er det hele. Din kone er godheden selv. Og alle v&#x00E9;d og s&#x00E9;r, at hun er glad i dig. Er det saa godt?</p>
+</sp>
+<sp>
+<speaker>Sven Bryde.</speaker>
+<p rend="noIndent">Naa, saa er det godt. Men nu er stemningen forspildt alligevel. Den ford&#x00F8;mte artiklen.</p>
+<stage>Til <hi rend="bold">Wentzel</hi>.</stage>
+<p rend="noIndent">Ja. Tak for din tjeneste. Jeg ved, du mente det godt. Men nu gaar vi allesammen ud paa en kaf&#x00E9;. &#x2013; Henne hos Barth er der aabent iaften.</p>
+</sp>
+<sp>
+<speaker>Wentzel.</speaker>
+<p rend="noIndent">Skal vi la din hustru sidde alene?</p>
+</sp>
+<sp>
+<speaker>Sven Bryde.</speaker>
+<p rend="noIndent">Det finder hun sig godt i. Det g&#x00F8;r hun saa mangen gang. Aftenen er forbi, lysene nedbr&#x00E6;ndte. Vesla er barn. Hun skal gaa og l&#x00E6;gge sig. Hun blir ikke trist for d&#x00E9;t. Hun er aldrig trist hun. Jeg sk&#x00F8;nner det ikke.</p>
+</sp>
+<sp>
+<speaker>Wentzel.</speaker>
+<p rend="noIndent">Nei, <emph>du</emph> som er sort eller gylden, guld eller aske&#x2026; Du, som svinger i stemninger fra minut <pb n="56"/>til minut, du forstaar ikke <emph>hendes</emph> natur. Det er saa rimeligt det.</p>
+</sp>
+<sp>
+<speaker>Sven Bryde</speaker>
+<stage>h&#x00F8;rer ikke.</stage>
+<p rend="noIndent">Der har vi hende. Ikke sandt, Gulle?</p>
+</sp>
+<sp>
+<speaker>Vesla</speaker>
+<stage>er kommet ind.</stage>
+<p rend="noIndent">Hvilket?</p>
+</sp>
+<sp>
+<speaker>Erik Rein</speaker>
+<stage>som hele tiden har v&#x00E6;ret taus iagttager</stage>
+<p rend="noIndent">At De aldrig er trist. Er det sandt?</p>
+</sp>
+<sp>
+<speaker>Vesla</speaker>
+<stage>smiler.</stage>
+<p rend="noIndent">Jeg ved ikke. Har vist ikke t&#x00E6;nkt videre over det en stund.</p>
+</sp>
+<sp>
+<speaker>Erik Rein.</speaker>
+<p rend="noIndent">Ikke over, om De er glad heller?</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Jeg <emph>er</emph> glad.</p>
+</sp>
+<sp>
+<speaker>Erik Rein.</speaker>
+<p rend="noIndent">Ja, <emph>da</emph> er De glad.</p>
+</sp>
+<sp>
+<speaker>Wentzel.</speaker>
+<p rend="noIndent">Fuglen kvidrer. Den kan ikke andet. Hun er et drypp. Vesla handler, hun. Gaar og steller og lyser op rundt omkring sig og dr&#x00F8;mmer sin vakre dr&#x00F8;m. Maatte hun aldrig vaagne af <emph>den</emph>.</p>
+<stage><pb n="57"/>Halv for sig.</stage>
+<p rend="noIndent">Du Vesla, du Vesla Guldbrand.</p>
+</sp>
+<sp>
+<speaker>Sven Bryde</speaker>
+<stage>halv &#x00E6;rgerlig, mens han og de andre henter sit overt&#x00F8;i i gangen og if&#x00F8;rer sig.</stage>
+<p rend="noIndent">Aa. I er bare saa gale i hende allesammen.</p>
+</sp>
+<sp>
+<speaker>Vesla</speaker>
+<stage>ser paa.</stage>
+<p rend="noIndent">Hvor skal dere hen?</p>
+</sp>
+<sp>
+<speaker>Erik Rein</speaker>
+<stage>hen til hende.</stage>
+<p rend="noIndent">Hr. Bryde vil lidt ud. Han var ikke ganske i hum&#x00F8;r. De ved&#x2026;</p>
+</sp>
+<sp>
+<speaker>Vesla</speaker>
+<stage>nikker.</stage>
+<p rend="noIndent">Ja. Det vil live ham op, kanske.</p>
+</sp>
+<sp>
+<speaker>Erik Rein.</speaker>
+<p rend="noIndent">Men er det rigtigt, at vi gaar fra Dem?</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Det g&#x00F8;r ikke noget. Jeg har saa meget at rydde.</p>
+<stage>Viser omkring.</stage>
+<p rend="noIndent">Men det er blit saa m&#x00F8;rkt her.</p>
+</sp>
+<sp>
+<speaker>Erik Rein.</speaker>
+<p rend="noIndent">Ja, hr. Bryde slukked lysene. Her er<note type="footnote">er] <hi rend="italic">rettet fra:</hi> et <hi rend="italic">(trykkfeil)</hi></note> &#x00E9;t&#x2026; Det holder paa at ta fyr i granen.</p>
+<stage>Han slukker.</stage>
+</sp>
+<sp>
+<speaker><pb n="58"/>Vesla.</speaker>
+<p rend="noIndent">De er ikke br&#x00E6;ndt helt ud. Mange af dem. Da kan vi gemme lidt til en anden gang.</p>
+</sp>
+<sp>
+<speaker>Wentzel</speaker>
+<stage>derhen.</stage>
+<p rend="noIndent">Ja. Lille husmor. Det kan vi.</p>
+<stage>Han gir hende haanden.</stage>
+<p rend="noIndent">Og tak for iaften!</p>
+</sp>
+<sp>
+<speaker>Erik Rein</speaker>
+<stage>med sin haand.</stage>
+<p rend="noIndent">Jeg kommer snart igen. Faar jeg lov?</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Ja, saa gerne. Velkommen!</p>
+</sp>
+<sp>
+<speaker>Bj&#x00F8;rn Brager</speaker>
+<stage>med sin haand.</stage>
+<p rend="noIndent">Godnat, du. Sov nu godt!</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Ja. Naar jeg kommer saa langt. Og tak for gaasen, Bj&#x00F8;rn.</p>
+</sp>
+<sp>
+<speaker>Bj&#x00F8;rn Brager.</speaker>
+<p rend="noIndent">Selv tak.</p>
+<stage>Han trykker hende i haanden.</stage>
+</sp>
+<sp>
+<speaker>Sven Bryde</speaker>
+<stage>i overt&#x00F8;i, staar og venter og ser paa dem i baggrunden.</stage>
+<p rend="noIndent">Blir I f&#x00E6;rdige snart, kanske?</p>
+</sp>
+<sp>
+<speaker>Vesla</speaker>
+<stage>mod ham.</stage>
+<p rend="noIndent">Sven, Du skal vel si adj&#x00F8;</p>
+</sp>
+<sp>
+<speaker><pb n="59"/>Sven Bryde.</speaker>
+<p rend="noIndent">Du er saa optat, synes jeg.</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Har du h&#x00F8;rt magen.</p>
+<stage>Hun smiler et &#x00F8;ieblik, med armene om hans hals, uden et ord.</stage>
+</sp>
+<sp>
+<speaker>Sven Bryde.</speaker>
+<p rend="noIndent">Bli nu ikke siddende for l&#x00E6;nge oppe.</p>
+</sp>
+<sp>
+<speaker>Bj&#x00F8;rn Brager.</speaker>
+<p rend="noIndent">Aa. Hun er vist ikke af dem, som sidder og venter.</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Nei. Jeg skal bare rydde. Og sy lidt til imorgen, det er f&#x00F8;rste juledag.</p>
+<stage>Til <hi rend="bold">Sven</hi>, ler.</stage>
+<p rend="noIndent">Den nye vesten, som sad saa galt.</p>
+</sp>
+<sp>
+<speaker>Sven Bryde.</speaker>
+<p rend="noIndent">Jeg blir ikke l&#x00E6;nge.</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Du maa bare bli saa l&#x00E6;nge du vil.</p>
+</sp>
+<sp>
+<speaker>Erik Rein</speaker>
+<stage>leende.</stage>
+<p rend="noIndent">Gode vilkaar. De blir ikke slem at komme hjem til.</p>
+</sp>
+<sp>
+<speaker>Allesammen.</speaker>
+<p rend="noIndent">Godnat! Godnat!</p>
+</sp>
+<sp>
+<speaker><pb n="60"/>Vesla.</speaker>
+<p rend="noIndent">Godnat!</p>
+</sp>
+<stage>Herrerne gaar. Hun gaar lidt omkring, nynner. Rydder op paa spisebordet. Ringer.</stage>
+<sp>
+<speaker>Frk. Arnestad</speaker>
+<stage>ind.</stage>
+<p rend="noIndent">Faar komme selv. Pigen er gaat hjem hun. Er det de d&#x00E9;r. &#x00D8;lflaskerne?</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Og glassene, ja. Jeg t&#x00E6;nkte, De vilde ha dem tilbage.</p>
+</sp>
+<sp>
+<speaker>Frk. Arnestad</speaker>
+<stage>ser sig omkring.</stage>
+<p rend="noIndent">Er herrerne gaat sin vei? T&#x00E6;nk, saa tidlig de gik.</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Hvad er klokken?</p>
+</sp>
+<sp>
+<speaker>Frk. Arnestad.</speaker>
+<p rend="noIndent">Den er ikke mere end lidt over 10. Skal De nu sidde alene igen?</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Ja. De gik hen paa en kaf&#x00E9;.</p>
+</sp>
+<sp>
+<speaker>Frk. Arnestad.</speaker>
+<p rend="noIndent">Jamen er De taalmodig. T&#x00E6;nk, slippe dem ud saan. De mandfolkene. Kan en vide, hvor de gaar.</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Jeg synes det er deiligt at v&#x00E6;re alene en stund.</p>
+<stage>Hun staar og t&#x00E6;nder en skj&#x00E6;rmlampe.</stage>
+</sp>
+<sp>
+<speaker><pb n="61"/>Frk. Arnestad.</speaker>
+<p rend="noIndent">De er rar De. Som stek om mandagen. Jeg synes det er f&#x00E6;lt trist at v&#x00E6;re alene, jeg.</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Nei, en har da altid noget at t&#x00E6;nke paa. Og en ting til.</p>
+</sp>
+<sp>
+<speaker>Frk. Arnestad</speaker>
+<stage>steller med br&#x00E6;ttet.</stage>
+<p rend="noIndent">Hvad for en ting?</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Jo. Sven siger sommetider, at naar han er borte, saa l&#x00E6;nges han dobbelt. Og det synes jeg er saa forn&#x00F8;ieligt. For det g&#x00F8;r jeg ogsaa.</p>
+</sp>
+<sp>
+<speaker>Frk. Arnestad.</speaker>
+<p rend="noIndent">Sku&#x0027;n ha h&#x00F8;rt sligt. Er det nogen stas i at l&#x00E6;nges, da?</p>
+</sp>
+<stage>Hun gaar med br&#x00E6;ttet. <hi rend="bold">Vesla</hi> smiler og s&#x00E6;tter sig til at sy ved lampen.</stage>
+</div>
+<div type="chapter" subtype="act" n="3">
+<head type="main">III. billede</head>
+<stage>Et V&#x00E6;relse i en restaurant i f&#x00F8;rste etage. Stort vindu i baggrunden med udsigt til gaden. D&#x00F8;re til de andre lokaler paa begge sider. Et st&#x00F8;rre bord, flere smaa med duge. Blomster hist og her etc. En kelner gaar fra og til. Det er tidlig paa vaaren, omkr. midten af marts. Aftenskumring lige f&#x00F8;r lysene t&#x00E6;ndes. Fra gaden skinner de elektriske lygter ind af det store vindu.</stage>
+<stage><hi rend="bold">Alfred Wentzel</hi> og <hi rend="bold">Erik Rein</hi> kommer ind.</stage>
+<sp>
+<speaker>Wentzel.</speaker>
+<p rend="noIndent">Vi tar dette rummet her. Det passer.</p>
+<stage>Til kelneren.</stage>
+<p rend="noIndent">Her kommer snart nogen flere.</p>
+<stage>Til <hi rend="bold">Rein</hi>.</stage>
+<p rend="noIndent">Det skal hj&#x00E6;lpe lidt paa hum&#x00F8;ret.</p>
+</sp>
+<sp>
+<speaker>Erik Rein</speaker>
+<stage>gaar op og ned.</stage>
+<p rend="noIndent">De er et godt menneske, Wentzel. De g&#x00F8;r, hvad De kan. Det vil jeg ogsaa. Lad os v&#x00E6;re to om det.</p>
+</sp>
+<sp>
+<speaker><pb n="63"/>Wentzel.</speaker>
+<p rend="noIndent">K&#x00E6;re, tal ikke om det. Ung forfatter, hvad?</p>
+</sp>
+<sp>
+<speaker>Erik Rein.</speaker>
+<p rend="noIndent">Jeg har v&#x00E6;ret heldig i det sidste.</p>
+</sp>
+<sp>
+<speaker>Wentzel.</speaker>
+<p rend="noIndent">Ja. De begynder at lykkes, tror jeg. De har en fremtid for Dem, De. Pas paa. Men iaften er det mig. N&#x00E6;ste gang Dem, kanske.</p>
+</sp>
+<sp>
+<speaker>Erik Rein.</speaker>
+<p rend="noIndent">Naar det bare kunde hj&#x00E6;lpe.</p>
+</sp>
+<sp>
+<speaker>Wentzel.</speaker>
+<p rend="noIndent">At spille forsyn for to mennesker, som h&#x00F8;rer sammen?</p>
+</sp>
+<sp>
+<speaker>Erik Rein.</speaker>
+<p rend="noIndent">Tror De saa vist, at de g&#x00F8;r d&#x00E9;t? Efter hvad jeg har set vilde jeg si det modsatte.</p>
+</sp>
+<sp>
+<speaker>Wentzel</speaker>
+<stage>gaar, staar, ivrig.</stage>
+<p rend="noIndent">Det har ikke saa meget at si. Livet har sat dem sammen, og det har en mening med det &#x2013; som altid. De faar brydes. Men baandet maa ikke briste. Jeg siger det for hendes skyld.</p>
+</sp>
+<sp>
+<speaker>Erik Rein.</speaker>
+<p rend="noIndent">For hende var der vel andre udveie. Om saa skete.</p>
+</sp>
+<sp>
+<speaker>Wentzel.</speaker>
+<p rend="noIndent">Det gaar ikke, Rein. V&#x00E6;r forsigtig.</p>
+</sp>
+<sp>
+<speaker><pb n="64"/>Erik Rein.</speaker>
+<p rend="noIndent">Jeg? Jeg spiller ikke slangen.</p>
+</sp>
+<sp>
+<speaker>Wentzel.</speaker>
+<p rend="noIndent">Nei. Det vilde ikke gaa Dem bedre end f.ex. Brager f&#x00F8;r i tiden. Hun s&#x00E9;r bare &#x00E9;n. Men k&#x00E6;rligheden til den ene kaster straaler til alle kanter og mod alle.</p>
+</sp>
+<sp>
+<speaker>Erik Rein</speaker>
+<stage>i tanker.</stage>
+<p rend="noIndent">Besynderligt. Som hun kan se ud sommetider. Besynderligt pigebarn&#x2026;</p>
+</sp>
+<sp>
+<speaker>Wentzel.</speaker>
+<p rend="noIndent">Ja. Jeg gamle ungkarl, som blev sveget af min egen pige. &#x2013; Naa, bryd Dem ikke om d&#x00E9;t. Det er mange aar siden og et gammelt gengrod saar. Sk&#x00F8;nt hun var den eneste. Men jeg gamle ungkarl, siger jeg. Jeg er nu og da lige ved at bli vaad i &#x00F8;inene af det.</p>
+</sp>
+<sp>
+<speaker>Erik Rein.</speaker>
+<p rend="noIndent">Hun er for god til ham. Det er sagen.</p>
+</sp>
+<sp>
+<speaker>Wentzel.</speaker>
+<p rend="noIndent">Og hun er ung og barn. En &#x00E6;ldre vilde klaret det.</p>
+</sp>
+<sp>
+<speaker>Erik Rein.</speaker>
+<p rend="noIndent">De mener &#x2013;?</p>
+</sp>
+<sp>
+<speaker>Wentzel.</speaker>
+<p rend="noIndent">Jeg mener, hun er uerfaren i <emph>lovene</emph> for livet. Eller rettere: Lovene her paa vor forbandede <pb n="65"/>klode. For jeg tror, der g&#x00E6;lder en anden lov i himlen. D&#x00E9;r kan en vist trygt vise k&#x00E6;rlighed. <emph>Her</emph>, &#x2013; blandt uvidende og ufuldkomne, ubarmhjertige, egoistiske v&#x00E6;sener, som bare vil &#x00E6;de en, g&#x00E6;lder det: Modstand og ligegyldighed. Men det l&#x00E6;rer en f&#x00F8;rst gennem alle aarene. Naar det er for sent.</p>
+</sp>
+<sp>
+<speaker>Erik Rein.</speaker>
+<p rend="noIndent">De er nu filosof.</p>
+</sp>
+<sp>
+<speaker>Wentzel</speaker>
+<stage>smiler.</stage>
+<p rend="noIndent">Ja. <emph>Nu</emph> skulde jeg klaret min pige.</p>
+</sp>
+<sp>
+<speaker>Erik Rein.</speaker>
+<p rend="noIndent">De kan le.</p>
+</sp>
+<sp>
+<speaker>Wentzel.</speaker>
+<p rend="noIndent">Jeg er kommet over det. Og kan le. Men min dyre erfaring har git mig et hjerte.</p>
+</sp>
+<sp>
+<speaker>Erik Rein.</speaker>
+<p rend="noIndent">De gaar og ser paa de andre.</p>
+</sp>
+<sp>
+<speaker>Wentzel.</speaker>
+<p rend="noIndent">Kommer de bare over det, saa. Det er en fase. Det kan gaa over.</p>
+</sp>
+<sp>
+<speaker>Erik Rein.</speaker>
+<p rend="noIndent">Jeg har aldrig set et mindre behersket menneske. Han er gal.</p>
+</sp>
+<sp>
+<speaker>Wentzel.</speaker>
+<p rend="noIndent">Ja&#x2026; Hvis han da ikke er forelsket.</p>
+</sp>
+<sp>
+<speaker><pb n="66"/>Erik Rein.</speaker>
+<p rend="noIndent">I sin nye kusine? i frk. Olga. Med sin maanestraale og sine kl&#x00E6;debon. Og al herligheden og stilfuldheden og fornemheden. Har vel t&#x00E6;nkt mig det.</p>
+</sp>
+<sp>
+<speaker>Wentzel.</speaker>
+<p rend="noIndent">Nu, det <emph>er</emph> et stilfuldt hus. Og de g&#x00F8;r v&#x00E6;sen af ham. Han er sin fars s&#x00F8;n. Der er saa mange ting. Sven Bryde med sin st&#x00E6;rke &#x00E6;rgerrighed&#x2026;</p>
+</sp>
+<sp>
+<speaker>Erik Rein.</speaker>
+<p rend="noIndent">Lad os si: Med sin utrolige, naive egoisme og ufattelige selvf&#x00F8;lelse.</p>
+</sp>
+<sp>
+<speaker>Wentzel.</speaker>
+<p rend="noIndent">Nei, det er for strengt. Husk han er ung, 25&#x2013;26 aar, den alder, da livet aabner saa mange muligheder og veie. Og det farlige er, han er aandsmenneske, et menneske i forvandling og tilb&#x00F8;ielig til at skifte ham.</p>
+</sp>
+<sp>
+<speaker>Erik Rein.</speaker>
+<p rend="noIndent">Den blege uslingen. Han kan v&#x00E6;re rentud ubehagelig mod hende, &#x2013; som nu i eftermiddag. Jeg &#x00F8;nsked mig langt v&#x00E6;k. Det var pinligt.</p>
+</sp>
+<sp>
+<speaker>Wentzel.</speaker>
+<p rend="noIndent">Hun sk&#x00F8;nner det ikke. Tar ham freidig og glad, med denne uslukkelige godhed.</p>
+</sp>
+<sp>
+<speaker>Erik Rein.</speaker>
+<p rend="noIndent">Som g&#x00F8;r ham sikker. Og som han ikke sk&#x00F8;nner. Ja. Uh, en kunde &#x00E6;rgre sig.</p>
+</sp>
+<sp>
+<speaker><pb n="67"/>Wentzel.</speaker>
+<p rend="noIndent">Det er det godes overlegenhed, ser De. Den lykkelige gudebaarne bevidsthed. Den, som ikke ser faren. Lever i solen og i Gud og den blaa himmel&#x2026; Endog i en skummel butik og et uhumsk hjem. Aner ikke det graa, uhyrlige m&#x00F8;rke med alle de livets uhyggelige fremtoninger, som &#x00E9;n for &#x00E9;n dukker op og griber efter en.</p>
+</sp>
+<sp>
+<speaker>Erik Rein</speaker>
+<stage>i tanker.</stage>
+<p rend="noIndent">Nei, vistnok.</p>
+</sp>
+<sp>
+<speaker>Wentzel.</speaker>
+<stage>gentar</stage>
+<p rend="noIndent">S&#x00E9;r ikke faren. For der er en fare endog i d&#x00E9;t, at faren er over.</p>
+</sp>
+<sp>
+<speaker>Erik Rein.</speaker>
+<p rend="noIndent">Hvorledes det?</p>
+</sp>
+<sp>
+<speaker>Wentzel.</speaker>
+<p rend="noIndent">Gamle Bryde s&#x00E6;tter sig ikke mere imod forholdet. Sven fortalte mig det forleden. De kan gifte sig saa meget de vil.</p>
+</sp>
+<sp>
+<speaker>Erik Rein.</speaker>
+<p rend="noIndent">Og alligevel &#x2013; n&#x00F8;ler han.</p>
+</sp>
+<sp>
+<speaker>Wentzel.</speaker>
+<p rend="noIndent">Den gamle ved nok, hvad han g&#x00F8;r. Han kender ogsaa disse &#x2013; livets love, som jeg talte om f&#x00F8;r. V&#x00E6;r vis paa han g&#x00F8;r.</p>
+</sp>
+<sp>
+<speaker>Erik Rein.</speaker>
+<p rend="noIndent">De mener: Naar han lar s&#x00F8;nnen faa sin vilje&#x2026;</p>
+</sp>
+<sp>
+<speaker><pb n="68"/>Wentzel.</speaker>
+<p rend="noIndent">Haaber han, at alt vil gaa sin sk&#x00E6;ve gang. Regner sikkert med Svens uafh&#x00E6;ngighedsf&#x00F8;lelse og hang til at trodse hindringerne. Den gamle lurifaks under ham ikke l&#x00E6;nger de stjaalne gl&#x00E6;der&#x2026;</p>
+</sp>
+<sp>
+<speaker>Erik Rein.</speaker>
+<p rend="noIndent">Men jeg faar ikke i mit hode, at hun holder saa meget af den &#x2013; den &#x2013;. Naar en kunde faa hende til at kokettere lidt i al uskyldighed. G&#x00F8;re ham skinsyg&#x2026;</p>
+</sp>
+<sp>
+<speaker>Wentzel.</speaker>
+<p rend="noIndent">Hun. Det sandeste, naturligste v&#x00E6;sen paa jord! Desuden: det gir blot ham vaaben ih&#x00E6;nde, mod hende. Pr&#x00F8;v det ikke. Brager er fortiden, De nutiden. De saa, hvordan det gik i eftermiddag. Nei, g&#x00F8;re det hyggeligt, festligt for dem i en vanskelig tid, det er det eneste.</p>
+</sp>
+<sp>
+<speaker>Erik Rein.</speaker>
+<p rend="noIndent">Bli ikke vred. Jeg tror nu ikke saa meget paa Deres velmente fors&#x00F8;g.</p>
+</sp>
+<sp>
+<speaker>Wentzel</speaker>
+<stage>godmodig.</stage>
+<p rend="noIndent">Nei, nei. Men jeg holder af dem begge to.</p>
+</sp>
+<sp>
+<speaker>Erik Rein.</speaker>
+<p rend="noIndent">Og er desuden en selskabelig natur.</p>
+</sp>
+<sp>
+<speaker>Wentzel.</speaker>
+<p rend="noIndent">Ja&#x2026; Noget maa en interessere sig for. Saadan om dagen. <stage>Smiler.</stage> <pb n="69"/>Naar en blir &#x00E6;ldre og ikke har kone og b&#x00F8;rn. Medgir gerne det. H&#x00F8;r, blir De siddende lidt. De andre maa straks v&#x00E6;re her. Jeg skulde l&#x00F8;be det &#x00E6;rend.</p>
+</sp>
+<sp>
+<speaker>Erik Rein.</speaker>
+<p rend="noIndent">Vel. Jeg venter gerne.</p>
+</sp>
+<sp>
+<speaker>Wentzel</speaker>
+<stage>gaar mod h&#x00F8;ire side og m&#x00F8;der <hi rend="bold">Vesla</hi> i d&#x00F8;ren. Hun er i overt&#x00F8;i, rolig og freidig som vanlig. Lidt forpustet. Han stanser, gaar ind med hende et &#x00F8;ieblik.</stage>
+<p rend="noIndent">Men barn. Kommer du alene. Hvor er Sven?</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Han blev opholdt. Der kom en herre til ham, som vilde tale om forretninger. Han bad mig gaa forud. Han skulde komme straks, sa han.</p>
+</sp>
+<sp>
+<speaker>Wentzel.</speaker>
+<p rend="noIndent">Maatte du s&#x00F8;ge efter os her? Det var vel vanskeligt?</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Nei, en af kelnerne sa mig straks besked.</p>
+<stage>Ser sig om.</stage>
+<p rend="noIndent">Er det her, vi skal v&#x00E6;re. Her er hyggeligt.</p>
+</sp>
+<sp>
+<speaker>Wentzel.</speaker>
+<p rend="noIndent">Det er nu alligevel en kaf&#x00E9;. Han burde ikke la dig gaa alene. Nu om aftenen.</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Tror du, jeg er bange for d&#x00E9;t? Det er aldrig <pb n="70"/>nogen, som g&#x00F8;r mig noget. Naar jeg bare gaar ret frem og ganske fort. Jeg har gaat alene gennem gaderne ved 12 tiden. Flere gange. Og aldrig har nogen talt til mig.</p>
+</sp>
+<sp>
+<speaker>Wentzel.</speaker>
+<p rend="noIndent">Hvad tid var nu det? Har du gjort det fornylig?</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Nei, det var &#x2013; f&#x00F8;r i tiden. Mor sendte mig ofte &#x00E6;render.</p>
+</sp>
+<sp>
+<speaker>Wentzel</speaker>
+<stage>ryster paa hodet.</stage>
+<p rend="noIndent">Den lange veien. Til og fra birkelunden.</p>
+</sp>
+<sp>
+<speaker>Erik Rein</speaker>
+<stage>sp&#x00F8;gende.</stage>
+<p rend="noIndent">At jeg ikke m&#x00F8;dte Dem dengang. Skulde fulgt Dem vel hjem jeg. Mig er De ikke r&#x00E6;d for?</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Hvorfor skulde jeg v&#x00E6;re r&#x00E6;d?</p>
+</sp>
+<sp>
+<speaker>Wentzel.</speaker>
+<p rend="noIndent">Nei, r&#x00E6;d er hun ikke. Ikke for d&#x00E9;t, som andre folk er r&#x00E6;d for. Du Vesla. Du Vesla. Gud bevare dig, k&#x00E6;re barnet mit. &#x2013; Nu l&#x00F8;ber jeg det &#x00E6;rendet. Saa sidder du her hos Rein, til Sven og jeg kommer tilbage. Han kommer vel?</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Ja. Han sa det. Sikkert.</p>
+</sp>
+<sp>
+<speaker><pb n="71"/>Wentzel.</speaker>
+<p rend="noIndent">Hvordan var hum&#x00F8;ret?</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Jo. Det er bedre nu. Han var ganske glad. Jeg tror det var en bestilling.</p>
+</sp>
+<stage><hi rend="bold">Wentzel</hi> nikker og gaar.</stage>
+<sp>
+<speaker>Vesla</speaker>
+<stage>tar overt&#x00F8;iet af. Hastig og en smule ivrig til <hi rend="bold">Rein</hi>, mens hun gaar hen imod ham.</stage>
+<p rend="noIndent">De skal ikke v&#x00E6;re vond paa Sven for det i ettermiddag.</p>
+</sp>
+<sp>
+<speaker>Erik Rein.</speaker>
+<p rend="noIndent">Nei, for min skyld. Det g&#x00F8;r ikke noget</p>
+<stage>Ufrivillig.</stage>
+<p rend="noIndent">Men at han var ubehagelig mod Dem. Det kunde jeg ikke taale.</p>
+</sp>
+<sp>
+<speaker>Vesla</speaker>
+<stage>t&#x00E6;nker over.</stage>
+<p rend="noIndent">Det var han nok. Lidt. Men han mener ikke noget med det. Det er over igen straks. Sven er saa heftig.</p>
+</sp>
+<sp>
+<speaker>Erik Rein.</speaker>
+<p rend="noIndent">Naa ja.</p>
+<stage>Uimodstaaeligt.</stage>
+<p rend="noIndent">Mildest talt.</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Han er uberegnelig, det er sandt. Hvorfor negte d&#x00E9;t, som vi alle ser. Men han har saa meget om dagen. Folk opirrer og plager ham&#x2026;</p>
+</sp>
+<sp>
+<speaker><pb n="72"/>Erik Rein.</speaker>
+<p rend="noIndent">Hvilke folk?</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Forretningsfolk og andre. Han siger det.</p>
+</sp>
+<sp>
+<speaker>Erik Rein.</speaker>
+<p rend="noIndent">Er d&#x00E9;t en grund til, at han lar det gaa ud over Dem?</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Aa, lad ham nu v&#x00E6;re i fred. Hvem er n&#x00E6;rmere end jeg til at b&#x00E6;re hans bekymringer. Er det ikke saa at &#x2013; at man tar en hustru, for at hun skal hj&#x00E6;lpe en at b&#x00E6;re d&#x00E9;t, som er for tungt at b&#x00E6;re alene? Og hvor meget har han ikke taalt for min skyld.</p>
+</sp>
+<sp>
+<speaker>Erik Rein.</speaker>
+<p rend="noIndent">H&#x00F8;r frk. Elisabeth. Eller &#x2013; Vesla. K&#x00E6;re Vesla: En har nylig fortalt mig, at de bekymringer han har havt med hensyn til sit forhold til Dem, eksisterer ikke mere.</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Nei, det er sandt. For 14 dage siden kom Sven hjem en aften. Han hadde v&#x00E6;ret derude. Og da fortalte han, at hans far vilde la ham ha sin fri vilje. Da var vi saa glade begge to. Selv om han ikke vil st&#x00F8;tte ham med penge. For Sven er flink. Han vil nok klare det alene. Og jeg skal hj&#x00E6;lpe ham. Arbeide og spare, kan De tro&#x2026;</p>
+</sp>
+<sp>
+<speaker><pb n="73"/>Erik Rein.</speaker>
+<p rend="noIndent">For en s&#x00F8;d liden frue. Jeg kan ikke la v&#x00E6;re&#x2026;</p>
+<stage>Han vil l&#x00E6;gge sin arm om hendes liv.</stage>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Nei&#x2026;</p>
+<stage>Hun forhindrer ham energisk.</stage>
+<p rend="noIndent">Hvorfor g&#x00F8;r De det?</p>
+<stage>Paa graaten. Alvorlig.</stage>
+<p rend="noIndent">Hvorfor skal nogen tro, at jeg er en &#x2013; en let vare. De ved ikke, hvor bedr&#x00F8;vet jeg blir.</p>
+</sp>
+<sp>
+<speaker>Erik Rein.</speaker>
+<p rend="noIndent">Nei. Saa skal jeg ikke g&#x00F8;re det. Men er det virkelig saa &#x2013; jeg kan ikke faa det i mit hode &#x2013; at De holder saa overordentlig meget af den &#x2013; den &#x2013;</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">&#x2026; Han er den eneste. Og endda saa gjorde jeg ham uret en tid. Ja. Det er jeg bedr&#x00F8;vet for nu.</p>
+</sp>
+<sp>
+<speaker>Erik Rein.</speaker>
+<p rend="noIndent">De? Ham?</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Ja. For to&#x2013;tre aar siden. Han var i udlandet. Vi hadde lovet os til hinanden, da vi var to fattige barn. Men jeg vidste ikke, om han t&#x00E6;nkte paa mig. Han skrev ikke paa en stund. Er det ikke underligt. Dengang tog jeg det noksaa rolig, at han kanske ikke t&#x00E6;nkte paa mig. Jeg var vel saa ung&#x2026;</p>
+</sp>
+<sp>
+<speaker><pb n="74"/>Erik Rein</speaker>
+<stage>ler.</stage>
+<p rend="noIndent">Jeg maatte le, undskyld. De er tyve aar nu&#x2026;</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Snart 21. Var yngre, og jeg kendte ham ikke dengang. Ikke som jeg kender ham <emph>nu</emph>! <emph>De</emph> kender ham ikke. Ingen. Alle tar feil af ham. Ved ikke hvordan han kan v&#x00E6;re. Mild som et barn og god og lys som dagen&#x2026;</p>
+</sp>
+<sp>
+<speaker>Erik Rein.</speaker>
+<p rend="noIndent">Ja. Det er nu &#x00E9;n side af ham. Men vi har mindst 7 mennesker i os. Der er skr&#x00E6;kkelige afgrunde i os. N&#x00E6;sten i os allesammen. Ved De ikke det?</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Aa. Det sk&#x00F8;nner jeg godt. For ved De, hvordan jeg var dengang. Saa vild og&#x2026; og jeg holdt rent paa at glemme Sven. Og det var saa trist hjemme. Da var jeg meget sammen med Bj&#x00F8;rn&#x2026;</p>
+</sp>
+<sp>
+<speaker>Erik Rein.</speaker>
+<p rend="noIndent">Brager.</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Ja. De ved. Det er en af Svens f&#x00F8;rste venner, ligesom Wentzel. Og han var hjemme, han. Det var ikke noget galt &#x2013; vi gjorde. Men vi var lige ved at bli glade i hverandre. Og det er saa &#x2013; saart at t&#x00E6;nke paa, at jeg gjorde ham bedr&#x00F8;vet dengang. Kan ligesom aldrig faa gjort det <pb n="75"/><emph>nok</emph> godt igjen. Nei. Synes De, det var hjertel&#x00F8;st?</p>
+</sp>
+<sp>
+<speaker>Erik Rein</speaker>
+<stage>smiler.</stage>
+<p rend="noIndent">Ikke stort mere end at dronning Dagmar satte striger i sine &#x00E6;rmer den s&#x00F8;ndag morgen.</p>
+</sp>
+<sp>
+<speaker>Vesla</speaker>
+<stage>t&#x00E6;nker over.</stage>
+<p rend="noIndent">Det skal De ikke si. Jeg tror, det var det. Men, dengang vidste jeg ikke, nei, jeg vidste ikke &#x2013;. Da han kom igen! Det blev nyt liv. Ja. Jeg husker ikke mere noget <emph>f&#x00F8;r</emph> den dag, da jeg kendte ham. Alt det, han l&#x00E6;rte mig. Verden blev saa stor og ny&#x2026; <emph>Hans</emph> verden. Og jeg vil saa gerne v&#x00E6;re bra. Jeg vil g&#x00F8;re ham det bedste&#x2026; T&#x00E6;nk, hvad der ligger foran os. Kanske et langt liv. Det gode og onde, vi skal dele, men altid ved hinandens side. Det er saa &#x2013; saa stort, at jeg sommetider ikke kan tro paa det og blir angst! Men det er skyggerne&#x2026; Bare minder fra alt det ulykkelige, han tog mig bort fra. Mig, den lille fattige pigen.</p>
+</sp>
+<sp>
+<speaker>Erik Rein</speaker>
+<stage>bev&#x00E6;get mod sin vilje.</stage>
+<p rend="noIndent">Ja, inderlig, af hele mit hjerte &#x00F8;nsker jeg lykken for Dem &#x2013; og ogsaa for ham. K&#x00E6;re Vesla! Er nu ikke <emph>det</emph> underligt. Jeg synes, at jeg har kendt <emph>Dem</emph> bestandig. Husker snart ikke noget f&#x00F8;r jeg kendte Dem.</p>
+</sp>
+<sp>
+<speaker><pb n="76"/>Vesla</speaker>
+<stage>r&#x00E6;kker ham begge h&#x00E6;nder.</stage>
+<p rend="noIndent">De er god. Jeg kan tale saa trygt med Dem.</p>
+</sp>
+<sp>
+<speaker>Erik Rein.</speaker>
+<p rend="noIndent">Det kan De. Men se at faa det i orden da.</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Hvilket?</p>
+</sp>
+<sp>
+<speaker>Erik Rein.</speaker>
+<p rend="noIndent">Jeg mener: Faa kontrakten tingl&#x00E6;st. Om vi skal kalde det saa. Gaa til byfogden med ham. Eller i kirken. Ikke for det: Det er ikke som i gamle dage. &#x00C6;gteskabet er ingen havn. Snarere en udfart i en liden skr&#x00F8;belig baad, som saare let kan strande. Men for &#x00F8;ieblikket vil denne form v&#x00E6;re den mest betryggende for <emph>Dem</emph>.</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Ja. Hvis en betryggelse tr&#x00E6;nges&#x2026;</p>
+<stage>Smiler.</stage>
+<p rend="noIndent">Jeg beh&#x00F8;ver ingen. Maa vente, til han taler om det selv. Og nu har han saa meget at t&#x00E6;nke paa, i denne tid. Jeg ved ikke, hvad det er altid. Han er saa stille iblandt. G&#x00F8;r mig n&#x00E6;sten r&#x00E6;d.</p>
+</sp>
+<sp>
+<speaker>Erik Rein.</speaker>
+<p rend="noIndent">De, som ikke er r&#x00E6;d for noget. Sig mig: Er han ofte hos&#x2026;</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Hos sin far, mener De? Ja. En tur n&#x00E6;sten hver dag. Men nu flytter de ud til Brydes landsgaard. Den ligger flere mil herfra, nordover.</p>
+</sp>
+<sp>
+<speaker><pb n="77"/>Erik Rein.</speaker>
+<p rend="noIndent">Hans niece ogsaa?</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Frk. Bryde? ja, jeg tror det. Og frk. Leangen, husbestyrerinden. Han er kanske bedr&#x00F8;vet for, at de skal reise. Sommetider synes jeg, at han er n&#x00E6;sten mere nedtrykt nu, da hans far har git ham lov, end f&#x00F8;r. Men der er saa mange ting. Jeg ved ikke&#x2026;</p>
+</sp>
+<sp>
+<speaker>Erik Rein</speaker>
+<stage>gaar op og ned, tvinger sig.</stage>
+<p rend="noIndent">Det blir nok godt&#x2026;</p>
+<stage>Peger mod vinduet.</stage>
+<p rend="noIndent">Der kommer han.</p>
+</sp>
+<sp>
+<speaker>Vesla</speaker>
+<p rend="noIndent">Kommer han.</p>
+<stage>Ved vinduet.</stage>
+<p rend="noIndent">Hvor bleg han er?</p>
+</sp>
+<sp>
+<speaker>Erik Rein.</speaker>
+<p rend="noIndent">Det er det elektriske lys.</p>
+</sp>
+<stage>Lidt Taushed.</stage>
+<sp>
+<speaker>Sven Bryde</speaker>
+<stage>ind, noget aandsfrav&#x00E6;rende og stille.</stage>
+<p rend="noIndent">Naa. Her skal jeg finde dere.</p>
+<stage>Med et blik paa <hi rend="bold">Vesla</hi>.</stage>
+<p rend="noIndent">Etsteds maatte du vel v&#x00E6;re.</p>
+<stage>Han h&#x00E6;nger frakken op. Kelneren kommer og t&#x00E6;nder gasblussene i lokalet, gaar igen.</stage>
+<p rend="noIndent">Hvor er Wentzel?</p>
+</sp>
+<sp>
+<speaker><pb n="78"/>Erik Rein.</speaker>
+<p rend="noIndent">Han kommer om et &#x00F8;ieblik.</p>
+</sp>
+<sp>
+<speaker>Sven Bryde</speaker>
+<stage>til <hi rend="bold">Vesla</hi>.</stage>
+<p rend="noIndent">Hvorfor gik du?</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Du bad mig gaa forud.</p>
+</sp>
+<sp>
+<speaker>Sven Bryde.</speaker>
+<p rend="noIndent">Det kan jeg ikke huske, at jeg gjorde. Jeg kunde ikke finde nogenting &#x2013; da jeg skulde gaa. Mangled baade det ene og det andet.</p>
+</sp>
+<sp>
+<speaker>Erik Rein</speaker>
+<stage>ler.</stage>
+<p rend="noIndent">Et bevis paa, hvad en kone er for en uundv&#x00E6;rlig ting.</p>
+</sp>
+<sp>
+<speaker>Sven Bryde</speaker>
+<stage>overh&#x00F8;rer.</stage>
+<p rend="noIndent">Og desuden. Gaa saadan ud og ind, alene paa en kaf&#x00E9;. Det blir en slem vane. Gaa og s&#x00F8;ge og sp&#x00F8;rge efter herrerne. Folk l&#x00E6;gger m&#x00E6;rke til det. Jeg saa det, sidst. Nu har du gjort det flere gange.</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Jeg? Du t&#x00F8;r vel la mig gaa. Wentzel hadde bedt os begge&#x2026; Sven.</p>
+<stage>Ler.</stage>
+<p rend="noIndent">Er du gal?</p>
+</sp>
+<sp>
+<speaker><pb n="79"/>Sven Bryde.</speaker>
+<p rend="noIndent">Jeg vil helst, du skal v&#x00E6;re hjemme, ved du. Ta imod os der. Naa.</p>
+<stage>Stryger sig over &#x00F8;inene, ler halvt.</stage>
+<p rend="noIndent">Du tar vel ingen skade af det, <emph>du</emph> &#x2013; som ikke har skade af noget. For den rene er alting rent. Jeg mener bare &#x2013; altsaa &#x2013; for folks skyld.</p>
+</sp>
+<sp>
+<speaker>Erik Rein</speaker>
+<stage>uvilkaarlig.</stage>
+<p rend="noIndent">Da var det meget, en skulde og burde g&#x00F8;re for folks skyld.</p>
+</sp>
+<sp>
+<speaker>Sven Bryde</speaker>
+<stage>hastig.</stage>
+<p rend="noIndent">Det er jo det, jeg siger.</p>
+<stage>Med overgang.</stage>
+<p rend="noIndent">Men skal det v&#x00E6;re gilde, saa la det v&#x00E6;re gilde.</p>
+<p rend="noIndent">Og nu er jeg i godt hum&#x00F8;r, se her.</p>
+<stage>Viser en tegnebog med sedler.</stage>
+<p rend="noIndent">Ren fortjeneste. Netto.</p>
+</sp>
+<sp>
+<speaker>Vesla</speaker>
+<stage>glad.</stage>
+<p rend="noIndent">Bestillingen? Ja, husker De, Rein, jeg sa det.</p>
+</sp>
+<sp>
+<speaker>Sven Bryde.</speaker>
+<p rend="noIndent">Javel. Men jeg skal bruge saa meget. Kommer kanske til at reise ogsaa.</p>
+</sp>
+<sp>
+<speaker>Vesla</speaker>
+<stage>overrasket.</stage>
+<p rend="noIndent">Reise?</p>
+<stage>Hun forstaar, roligere.</stage>
+<p rend="noIndent">Skal du f&#x00F8;lge dem derop. Kanske.</p>
+</sp>
+<sp>
+<speaker><pb n="80"/>Sven Bryde.</speaker>
+<p rend="noIndent">Jeg ved ikke, naar det blir. Men du kan sk&#x00F8;nne&#x2026; Jeg maa g&#x00F8;re et bes&#x00F8;g der.</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Ja. Du maa kanske det.</p>
+</sp>
+<sp>
+<speaker>Sven Bryde.</speaker>
+<p rend="noIndent"><emph>Kanske</emph>? Det er vel ikke mere end rimeligt, det. Ikke mere end almindelig h&#x00F8;flighed. Det mindste, jeg kan g&#x00F8;re. Som de mennesker har v&#x00E6;ret mod mig. &#x2013; Men hvor blir Wentzel af? Det er ogsaa en v&#x00E6;rt. Kelner! Seidler her.</p>
+<stage>Til <hi rend="bold">Vesla</hi>.</stage>
+<p rend="noIndent">Hvad vil du ha? Ikke &#x00F8;l &#x2013;?</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Tak. Jeg skal ikke ha noget nu.</p>
+</sp>
+<sp>
+<speaker>Sven Bryde.</speaker>
+<p rend="noIndent">Vist skal du. Fort.</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Nei, det er sandt. Jeg vil heller vente.</p>
+</sp>
+<stage>Kelneren kommer med seidler. <hi rend="bold">En liden gut</hi> med forskellige salgbare sager gaar gennem lokalet. Lige derefter <hi rend="bold">en smaapige</hi> med blomster.</stage>
+<sp>
+<speaker>Gutten</speaker>
+<stage>byr nogen tr&#x00E6;sk&#x00E6;rervarer.</stage>
+<p rend="noIndent">Det er min far, som har gjort dem. Her er rammer, skeer, papirkniv. Han er arbeidsl&#x00F8;s.</p>
+</sp>
+<stage><hi rend="bold">Sven Bryde</hi> vinker ham af, taus og adspredt.</stage>
+<sp>
+<speaker><pb n="81"/>Vesla.</speaker>
+<p rend="noIndent">Det var hjemmearbeidede sager, Sven. Kunde du ikke kj&#x00F8;bt noget?</p>
+</sp>
+<sp>
+<speaker>Sven Bryde.</speaker>
+<p rend="noIndent">Vist kunde jeg d&#x00E9;t. Jeg la ikke m&#x00E6;rke til ham engang.</p>
+<stage>Pigen byr sine blomster.</stage>
+</sp>
+<sp>
+<speaker>Erik Rein.</speaker>
+<p rend="noIndent">Her er &#x00E9;n til.</p>
+<stage>Han tar en rose fra hendes kurv og r&#x00E6;kker <hi rend="bold">Vesla</hi> den.</stage>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Tak!</p>
+</sp>
+<sp>
+<speaker>Erik Rein.</speaker>
+<p rend="noIndent">F&#x00E6;st den!</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Ja!</p>
+<stage>Hun f&#x00E6;ster rosen ved sin dragt. Pigen faar sin mynt og gaar.</stage>
+</sp>
+<sp>
+<speaker>Sven Bryde</speaker>
+<stage>mut, ser til.</stage>
+<p rend="noIndent">Forresten er det en uskik. De skulde ikke ha lov at l&#x00F8;be omkring her.</p>
+</sp>
+<sp>
+<speaker>Wentzel</speaker>
+<stage>kommer, forpustet.</stage>
+<p rend="noIndent">Naa. Her sidder dere med &#x00F8;l.</p>
+</sp>
+<sp>
+<speaker>Sven Bryde.</speaker>
+<p rend="noIndent">Ja, her sidder vi med &#x00F8;l. Og Rein g&#x00F8;r kur til min kone. Jeg er snart ked af det.</p>
+</sp>
+<sp>
+<speaker><pb n="82"/>Wentzel.</speaker>
+<p rend="noIndent">Naar du furter saa aabenlyst, gaar det vel ikke saa dybt. Du er ikke af de farlige &#x00E6;gtem&#x00E6;nd, som tier og &#x2013; skyder.</p>
+</sp>
+<sp>
+<speaker>Sven Bryde.</speaker>
+<p rend="noIndent">Nei, i dobbelt forstand ikke. F&#x00F8;rst er jeg ikke &#x00E6;gtemand, ikke endnu, og siden &#x2013;. Det overlader jeg til andre.</p>
+<stage><hi rend="bold">Erik Rein</hi> ser urolig paa <hi rend="bold">Vesla</hi>. Han s&#x00E6;tter sig ned ved siden af hende. <hi rend="bold">Sven Bryde</hi> skyver sin seidel bort. Igen med overgang.</stage>
+<p rend="noIndent">Lad os da faa vin. Af den gode vin, ikke sandt, Wentzel. Champagne gir jeg. En heldig afgjort forretning skal feires.</p>
+</sp>
+<sp>
+<speaker>Wentzel.</speaker>
+<p rend="noIndent">Vinen kommer. Jeg ved, hvad dere vil ha.</p>
+</sp>
+<stage>Kelneren kommer med den. <hi rend="bold">Wentzel</hi> sk&#x00E6;nker i glassene.</stage>
+<sp>
+<speaker>Sven Bryde.</speaker>
+<p rend="noIndent">Og en liden kage til den d&#x00E9;r.</p>
+<stage>Tar <hi rend="bold">Veslas</hi> haand.</stage>
+<p rend="noIndent">Jeg synes, hun ser blegn&#x00E6;bbet ud. Og kold i haanden.</p>
+<stage>Halvsagte, mildt til hende.</stage>
+<p rend="noIndent">K&#x00E6;re, <emph>velsignede</emph>, jeg ved ikke, hvad jeg siger iblandt. Tilgi mig, ungen!</p>
+<stage>Hun ser paa ham, smiler lidt vemodig og nikker taus. Kelneren bringer et fad med kager, gaar. Musik h&#x00F8;res fra salen ved siden af tilvenstre. De drikker med hinanden.</stage>
+<p rend="noIndent"><pb n="83"/>Musik&#x2026;. De spiller Wagner. Bryllupsmarschen af Tannha&#x00FC;ser. Vi burde heller siddet derinde.</p>
+</sp>
+<sp>
+<speaker>Wentzel.</speaker>
+<p rend="noIndent">Der er saa mange folk.</p>
+</sp>
+<sp>
+<speaker>Sven Bryde</speaker>
+<stage>i tanker, ligesom fjernt borte fra.</stage>
+<p rend="noIndent">H&#x00F8;rte den i Tyskland&#x2026; Og forleden aften, paa piano. Nei&#x2026; Ikv&#x00E6;ld vil jeg sidde stille og h&#x00F8;re. Det er hvile. I andre kan bes&#x00F8;rge konversationen. Hys!</p>
+<stage>De lytter til de st&#x00E6;rke toner, marschen ender, musikken tier.</stage>
+<p rend="noIndent">Naa, saa var den herlighed forbi.</p>
+</sp>
+<sp>
+<speaker>Wentzel.</speaker>
+<p rend="noIndent">De begynder snart igen.</p>
+</sp>
+<sp>
+<speaker>Sven Bryde</speaker>
+<stage>t&#x00F8;mmer sit glas. Der blir paany sk&#x00E6;nkt rundt. Han skotter til <hi rend="bold">Vesla</hi>, tar hendes haand engang og slipper den. I snurrigt lune.</stage>
+<p rend="noIndent">Du Wentzel. Siden b&#x00E9;r vi dem spille &#x00AB;Rottefangeren fra Hameln&#x00BB;. Den musiken er besynderlig&#x2026;</p>
+</sp>
+<sp>
+<speaker>Wentzel</speaker>
+<stage>ler</stage>
+<p rend="noIndent">De kan vist ikke spille &#x00AB;Rottefangeren fra Hameln&#x00BB;.</p>
+</sp>
+<sp>
+<speaker>Sven Bryde.</speaker>
+<p rend="noIndent">Ja, hed den ikke det, da. Nei, det er ikke den, jeg mener. Det er d&#x00E9;r, hvor han forekommer, <pb n="84"/>han, troldmanden&#x2026; Besynderligt, at jeg ikke kommer paa det&#x2026;</p>
+</sp>
+<sp>
+<speaker>Wentzel.</speaker>
+<p rend="noIndent">&#x00AB;Freisch&#x00FC;tz&#x00BB;, mener du.</p>
+</sp>
+<sp>
+<speaker>Sven Bryde.</speaker>
+<p rend="noIndent">Nei. En langt nyere. En mere moderne troldmand og en s&#x00E6;lsom handling. Jeg h&#x00F8;rte operaen dernede, pokker, at jeg ikke kan komme paa det&#x2026;</p>
+<stage><hi rend="bold">En liden, underlig mand</hi> med en stor kurv i en rem over skulderen kommer ind fra h&#x00F8;ire og gaar hen mod bordet. Hans ansigt kan ikke ses klart, det er hverken gammelt eller ungt, snarere begge dele. Han har en s&#x00E6;rt sammensat dragt, og luen falder ham nedover &#x00F8;rene.</stage>
+<p rend="noIndent">Der har vi skam en til. Det er den tredie nu iaften.</p>
+<stage>S&#x00E6;tter sin knyttede haand i bordet.</stage>
+<p rend="noIndent">Kan vi faa fred engang for dere!</p>
+</sp>
+<sp>
+<speaker>Manden,</speaker>
+<stage>uforknyt, med lidt fremmed akcent.</stage>
+<p rend="noIndent">Nye opfindelser! Vil herrerne bare se her. Det allernyeste! Patent paa det meste. Nyeste opfindelser!</p>
+<stage>Han tar genstande fra kurven, viser omkring og l&#x00E6;gger paa bordet.</stage>
+<p rend="noIndent">Her. Smaa perspektiver til at kige igennem, bare skrue om, kinematografbilleder. Der er 40 i det, hele pantomimer, en reise til maanen, <pb n="85"/>flammedans, den nyeste Cake Walk. Her mindre, billigere, utrolig billig. 10 i dette, komiske situationer, lefende billeder, bare skrue om&#x2026; snurre rundt&#x2026;</p>
+<stage><hi rend="bold">Herrerne</hi> ser til og kiger gennem kikkerterne, ler stundom.</stage>
+</sp>
+<sp>
+<speaker>Manden</speaker>
+<stage>blir ved at l&#x00E6;gge op og vise frem.</stage>
+<p rend="noIndent">Her&#x2026; Br&#x00E6;ndglas, lysende fyrstik&#x00E6;sker, beh&#x00F8;ver ikke at lede i m&#x00F8;rket, he. En evigvarende guldpen. De kan skrive med den i 7 aar&#x2026;</p>
+</sp>
+<sp>
+<speaker>Sven Bryde.</speaker>
+<p rend="noIndent">Det er noget for Dem, Rein.</p>
+<stage>Leverer ham den.</stage>
+</sp>
+<sp>
+<speaker>Manden</speaker>
+<stage>blir ved.</stage>
+<p rend="noIndent">Her. Spillekort, lommespeil, selvlysende natlamper, bukses&#x00E6;ler, skolidser&#x2026;</p>
+</sp>
+<sp>
+<speaker>Sven Bryde.</speaker>
+<p rend="noIndent">Stop. De beh&#x00F8;ver ikke at t&#x00F8;mme hele kurven, min gode mand. Vi har mere end nok med det, vi har.</p>
+</sp>
+<sp>
+<speaker>Wentzel.</speaker>
+<p rend="noIndent">Synes jeg kender Dem. Set Dem f&#x00F8;r. Er det ikke Dem, som spiller paa lirekasse ogsaa?</p>
+</sp>
+<sp>
+<speaker>Manden.</speaker>
+<p rend="noIndent">Jo. En nidelig lirekasse. Orkestrion. Men blir verbudt her, n&#x00E6;sten alle steder, verdammte land <pb n="86"/>&#x2026; Ikke morsomt her, alt verbudt, verbudt, i udland d&#x00E9;r gl&#x00E6;de, uskyldig smil &#x2013; som unge dame der. &#x2013; Her so alvorlig, og pr&#x00E6;diker &#x2013; og kaffe &#x2013; og skriver om alt, dr&#x00F8;fte, dr&#x00F8;fte sig, og ler ikke&#x2026;</p>
+</sp>
+<sp>
+<speaker>Bryde og Rein.</speaker>
+<p rend="noIndent">Ha, ha!</p>
+</sp>
+<sp>
+<speaker>Wentzel</speaker>
+<stage>smiler ogsaa, peger paa en genstand.</stage>
+<p rend="noIndent">Det k&#x00F8;ber jeg. Perspektivet der.</p>
+</sp>
+<sp>
+<speaker>Manden.</speaker>
+<p rend="noIndent">Wunderfuld pantomime, reizend, blomsterdansen og Serpentine&#x2026;</p>
+<stage>Han kiger selv.</stage>
+<p rend="noIndent">Billig, utrolig billig. En krone og en halv. Um Deres Willen.</p>
+</sp>
+<sp>
+<speaker>Wentzel</speaker>
+<stage>betaler. <hi rend="bold">Erik Rein</hi> k&#x00F8;ber guldpennen.</stage>
+<p rend="noIndent">Blomster har han ogsaa. Roser, violer. Men de er jo halvvisne.</p>
+</sp>
+<sp>
+<speaker>Sven Bryde</speaker>
+<stage>hurtig.</stage>
+<p rend="noIndent">Dem skal vi ikke ha flere af. Alt det, De hober sammen i den kurv.</p>
+<stage>De blir ved at se paa sagerne.</stage>
+</sp>
+<sp>
+<speaker>Vesla,</speaker>
+<stage>som har tittet i kurven med &#x00E9;t til <hi rend="bold">Rein</hi>.</stage>
+<p rend="noIndent">Hvad er d&#x00E9;t? Se d&#x00E9;r &#x2013; &#x2013;</p>
+</sp>
+<sp>
+<speaker><pb n="87"/>Erik Rein.</speaker>
+<p rend="noIndent">Hvilket? Hvor?</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">D&#x00E9;r.</p>
+<stage>Hun peger.</stage>
+<p rend="noIndent">Nederst paa bunden, under roserne &#x2013;? Det er noget levende.</p>
+<stage>Hun tr&#x00E6;kker sig forskr&#x00E6;kket tilbage.</stage>
+</sp>
+<sp>
+<speaker>Erik Rein.</speaker>
+<p rend="noIndent">D&#x00E9;r, &#x2013; ja, hvad er det. En &#x2013; en slange. Hodet paa et dyr &#x2013;?</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Det r&#x00F8;rer sig. Ser De ikke, det r&#x00F8;rer sig.</p>
+<stage>Hun tr&#x00E6;kker sig yderligere bort.</stage>
+</sp>
+<sp>
+<speaker>Manden.</speaker>
+<p rend="noIndent">Ikke bange. K&#x00E6;re unge dame &#x2026; Hvor for bange?</p>
+</sp>
+<sp>
+<speaker>Erik Rein.</speaker>
+<p rend="noIndent">Hvad har De d&#x00E9;r? Underst.</p>
+<stage>Viser.</stage>
+</sp>
+<sp>
+<speaker>Manden.</speaker>
+<p rend="noIndent">Det, &#x2013; den. Gammelt skrab. Ikke s&#x00E6;lgeligt. Ikke tilfals.</p>
+<stage>Han begynder at l&#x00E6;gge genstande tilbage i kurven.</stage>
+</sp>
+<sp>
+<speaker>Sven Bryde</speaker>
+<stage>opm&#x00E6;rksom.</stage>
+<p rend="noIndent">Hvad var det? Vis os, hvad det er. Frem <pb n="88"/>med det! Har vi set alt det andet, hvorfor ikke dette ogsaa.</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Sven. Det ligned en levende slange&#x2026;</p>
+</sp>
+<sp>
+<speaker>Manden,</speaker>
+<stage>tar en genstand op fra bunden.</stage>
+<p rend="noIndent">Den. Denne, som gjorde dem verschrekt. Det er hodet af et dir, ikke lefende&#x2026; Gammel kobber og gul elfenben. Gammelt schrab, ikke s&#x00E6;lgeligt.</p>
+</sp>
+<sp>
+<speaker>Sven Bryde</speaker>
+<stage>tar den fra hans haand.</stage>
+<p rend="noIndent">Et vaaben? En leget&#x00F8;isrevolver. Det er jo nips. En attrap, muligvis.</p>
+<stage>Pr&#x00F8;ver hanen, som ikke bev&#x00E6;ger sig</stage>
+<p rend="noIndent"><emph>Den</emph> gaar ikke l&#x00E6;nger.</p>
+<stage>Lar den gaa rundt til de andre.</stage>
+</sp>
+<sp>
+<speaker>Wentzel</speaker>
+<stage>sender den hastig fra sig.</stage>
+<p rend="noIndent">Fy, den er rusten. Den har vist v&#x00E6;ret brugt&#x2026;</p>
+</sp>
+<sp>
+<speaker>Erik Rein</speaker>
+<stage>betragter den.</stage>
+<p rend="noIndent">Den er skamferet. Men heftet er smukt. Ganske rigtig et dyrehode i elfenben og kobber. En kunstgenstand.</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Faar jeg se den?</p>
+<stage>Hun tar den fra hans haand, betragter og leger med den.</stage>
+</sp>
+<sp>
+<speaker><pb n="89"/>Sven Bryde</speaker>
+<stage>tar den fra hende om lidt.</stage>
+<p rend="noIndent">Det er en kuriositet. Egentlig meget morsom. Der er et par skruer borte&#x2026;</p>
+<stage>Sigter for sp&#x00F8;g skyld paa <hi rend="bold">Wentzel</hi>, som nerv&#x00F8;s holder h&#x00E6;nderne foran sig.</stage>
+</sp>
+<sp>
+<speaker>Wentzel.</speaker>
+<p rend="noIndent">Vil du la v&#x00E6;re! Jeg liker ikke den slags sp&#x00F8;g.</p>
+</sp>
+<sp>
+<speaker>Sven Bryde.</speaker>
+<p rend="noIndent">Haha. Den er jo ikke ladt, menneske. Og fj&#x00E6;ren glipper.</p>
+<stage>L&#x00E6;gger den paa bordet. <hi rend="bold">Vesla</hi> tar og ser paa den igen. Han tar den tilbage.</stage>
+<p rend="noIndent">Den passer ikke for dig. Jeg kunde ha lyst til at k&#x00F8;be den selv.</p>
+<stage>Til Manden.</stage>
+<p rend="noIndent">Hallo. Hvad vil De ha for den d&#x00E9;r?</p>
+</sp>
+<sp>
+<speaker>Manden,</speaker>
+<stage>som har v&#x00E6;ret optat med at ordne genstandene og l&#x00E6;gge dem i kurven, ser op, hastig.</stage>
+<p rend="noIndent">Herren v&#x00E6;re so snil at gi mig min gev&#x00E6;r tilbage. Ikke lege med den. Farligt. Ved ikke, om den er ladt. Kan endnu v&#x00E6;re en kugle eller to igen i l&#x00F8;bet. Det er en ulykkelig historie. Den er ikke tilfals. Den tilh&#x00F8;rer slet ikke mig.</p>
+</sp>
+<sp>
+<speaker>Sven Bryde</speaker>
+<stage>paastaalig.</stage>
+<p rend="noIndent">Hvad vil De ha for den, sp&#x00F8;r jeg.</p>
+</sp>
+<sp>
+<speaker>Manden.</speaker>
+<p rend="noIndent">Jeg t&#x00F8;r &#x2013; t&#x00F8;r aldeles ikke s&#x00E6;lge den.</p>
+</sp>
+<sp>
+<speaker><pb n="90"/>Sven Bryde.</speaker>
+<p rend="noIndent">Og De siger, at den er ladt. Vil De, at jeg skal melde Dem for politiet, naar De streifer omkring her om aftenen med ladte vaaben?</p>
+</sp>
+<sp>
+<speaker>Wentzel.</speaker>
+<p rend="noIndent">Sven! La ham da v&#x00E6;re.</p>
+</sp>
+<sp>
+<speaker>Sven Bryde,</speaker>
+<stage>som har t&#x00F8;mt et par glas hastig efter hinanden.</stage>
+<p rend="noIndent">Han skal ta imod fornuft. Nu har jeg faat lyst til den. Der er mulig en hemmelighed gemt, siden han g&#x00F8;r vanskeligheder.</p>
+</sp>
+<sp>
+<speaker>Manden</speaker>
+<stage>urolig.</stage>
+<p rend="noIndent">Melde mig. Det vil De sikkert ikke g&#x00F8;re. Ikke k&#x00F8;be det daarlige kram.</p>
+</sp>
+<sp>
+<speaker>Sven Bryde.</speaker>
+<p rend="noIndent">Hvormeget vil du altsaa ha for den?</p>
+</sp>
+<sp>
+<speaker>Manden.</speaker>
+<p rend="noIndent">Slet ingenting. Om De la 10 kroner paa bordet, tog jeg den alligevel med mig igen.</p>
+</sp>
+<sp>
+<speaker>Sven Bryde</speaker>
+<stage>ler.</stage>
+<p rend="noIndent">Her har du 15.</p>
+<stage>Han kaster sedlerne til ham.</stage>
+<p rend="noIndent">Nu er den min eiendom. Forstaar du&#x2026;</p>
+</sp>
+<sp>
+<speaker><pb n="91"/>Manden</speaker>
+<stage>kr&#x00F8;ller sedlerne sammen i haanden. &#x00C6;ngstelig, halv klynkende holder han dem mod <hi rend="bold">Sven</hi>.</stage>
+<p rend="noIndent">Jeg vil ikke ha Deres penge. Jeg vil ha min gev&#x00E6;r.</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Gi ham den tilbage, Sven!</p>
+</sp>
+<sp>
+<speaker>Sven Bryde.</speaker>
+<p rend="noIndent">Ingenlunde. Se at komme afsted.</p>
+</sp>
+<stage><hi rend="bold">Manden</hi> skotter til ham med et skulende blik, kaster remmen med kurven over skulderen og gaar et par skridt. Vender om og r&#x00E6;kker endnu engang sedlerne frem med bedende og urolig mine.</stage>
+<sp>
+<speaker>Sven Bryde.</speaker>
+<p rend="noIndent">Gaa Deres vei. Eller jeg melder Dem.</p>
+</sp>
+<stage><hi rend="bold">Manden</hi> gaar.</stage>
+<stage>Musiken har spillet under den sidste del af optrinnet. Den stanser. Flere mennesker, m&#x00E6;nd og kvinder, gaar gennem lokalet.</stage>
+<sp>
+<speaker>Sven Bryde</speaker>
+<stage>synes efterhaanden at bli mere nervesp&#x00E6;ndt, han ser paa revolveren, halvt for sig.</stage>
+<p rend="noIndent">H&#x00F8;rt mage til menneske.</p>
+<stage>Ser sig om, til de andre.</stage>
+<p rend="noIndent">Her kommer saa mange folk.</p>
+</sp>
+<sp>
+<speaker>Bj&#x00F8;rn Brager</speaker>
+<stage>skilles fra en dame ved indgangen til h&#x00F8;ire og kommer bort til dem.</stage>
+<p rend="noIndent">Naa. Er det her, dere sidder.</p>
+</sp>
+<sp>
+<speaker><pb n="92"/>Sven Bryde.</speaker>
+<p rend="noIndent">Ja. Det er her. Vi driver paa kaf&#x00E9;er. Og mennesker kommer og gaar, damer og herrer. Om det er <emph>damer</emph>, det skal jeg ikke kunne si. Hun saa ganske tvilsom ud, din &#x2013;.</p>
+</sp>
+<sp>
+<speaker>Bj&#x00F8;rn Brager.</speaker>
+<p rend="noIndent">Skal du nu forn&#x00E6;rme min dame?</p>
+<stage>Ler.</stage>
+<p rend="noIndent">Kendte du hende ikke, forresten. Minda Sj&#x00F8;str&#x00F8;m.</p>
+</sp>
+<sp>
+<speaker>Sven Bryde.</speaker>
+<p rend="noIndent">Ho, ho! De generer sig ikke.</p>
+</sp>
+<sp>
+<speaker>Bj&#x00F8;rn Brager.</speaker>
+<p rend="noIndent">Nei. Hvorfor skulde de det. Har de ikke ret og lov til at gaa, hvor de vil.</p>
+</sp>
+<sp>
+<speaker>Sven Bryde.</speaker>
+<p rend="noIndent">Jo, inderlig.</p>
+<stage>Med halvt sideblik til <hi rend="bold">Vesla</hi>.</stage>
+<p rend="noIndent">Den ene er snart ligesaa god som den anden. Men det siger jeg dig, at virkelige damer, de gaar her <emph>ikke</emph>.</p>
+</sp>
+<stage>To leende piger gaar gennem salen. De kiger hen paa selskabet i forbigaaende.</stage>
+<sp>
+<speaker>Bj&#x00F8;rn Brager</speaker>
+<stage>godmodig &#x00E6;rtende.</stage>
+<p rend="noIndent">Det var dig, de saa paa, Sven.</p>
+</sp>
+<sp>
+<speaker>Sven Bryde.</speaker>
+<p rend="noIndent">Vi kender arten. Her findes snart ikke anst&#x00E6;ndige piger mere. Dem faar en s&#x00F8;ge andetsteds. Der er nu noget, som heder det gode selskab.</p>
+</sp>
+<sp>
+<speaker><pb n="93"/>Bj&#x00F8;rn Brager.</speaker>
+<p rend="noIndent">Hvad feiler dig nu igen. <emph>Dit</emph> selskab er sandelig godt nok.</p>
+</sp>
+<sp>
+<speaker>Sven Bryde.</speaker>
+<p rend="noIndent">Jeg er mulig forv&#x00E6;nt.</p>
+<stage>Med pludselig trang til at udtale sig.</stage>
+<p rend="noIndent">L&#x00E6;nges did, hvor jeg <emph>ikke</emph> er. Imorges reiste mine bedste venner. Nu f&#x00F8;rst sk&#x00F8;nner jeg, hvad de er. Hvad de har v&#x00E6;ret for mig. Og f&#x00F8;ler mig alene, midt i vrimlen. Man har vel lov at ha en stemning. Her er ligesom ikke <emph>hjem</emph> nogetsteds.</p>
+</sp>
+<sp>
+<speaker>Wentzel</speaker>
+<stage>som har siddet og stirret gennem brillerne.</stage>
+<p rend="noIndent">Egoist. Uforbederlige! Vogt dig. Se&#x2026;</p>
+</sp>
+<stage><hi rend="bold">Vesla</hi> har reist sig. Hun staar lidt usikker, ligesom svaier.</stage>
+<sp>
+<speaker>Sven Bryde</speaker>
+<stage>straks urolig, som han skammer sig.</stage>
+<p rend="noIndent">Hvad feiler <emph>dig</emph>? Er du syg?</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Lidt. Tror, jeg vil gaa hjem. Saa varmt her&#x2026;</p>
+</sp>
+<sp>
+<speaker>Sven Bryde.</speaker>
+<p rend="noIndent">Du, som aldrig er syg. Hvad er det for noget&#x2026; S&#x00E6;t dig ned igen. Vi skal ha champagne.</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Nei, Sven. Jeg maa gaa&#x2026;</p>
+</sp>
+<sp>
+<speaker><pb n="94"/>Sven Bryde.</speaker>
+<p rend="noIndent">Nu &#x2013; saa gaa alene, naar du er saa ufornuftig. Du kunde ha godt af et glas champagne, kunde du. Jeg vil ialfald&#x2026; Kelner!</p>
+<stage>Kelneren kommer.</stage>
+<p rend="noIndent">En champagne. Pommery sec.</p>
+</sp>
+<sp>
+<speaker>Erik Rein</speaker>
+<stage>har reist sig. Til <hi rend="bold">Vesla</hi></stage>
+<p rend="noIndent">Jeg f&#x00F8;lger Dem.</p>
+<stage>Han hj&#x00E6;lper hende med overt&#x00F8;iet.</stage>
+</sp>
+<sp>
+<speaker>Sven Bryde</speaker>
+<stage>reiser sig.</stage>
+<p rend="noIndent">Hvad? Gaar dere virkelig. De ogsaa, Rein? Se, se, min kones ridder. <emph>Du</emph>, Vesla, som aldrig er syg. Ikke hysterisk heller. Du, som er saa fornuftig. Nuvel, saa gaa da. Vi blir her&#x2026;</p>
+</sp>
+<stage>De to gaar.</stage>
+<sp>
+<speaker>Wentzel</speaker>
+<stage>har ogsaa reist sig, bleg, han hvisker lige ved <hi rend="bold">Sven Brydes</hi> &#x00F8;re.</stage>
+<p rend="noIndent">Hvor meget tror du, hun kan taale. Er det nok?</p>
+</sp>
+<sp>
+<speaker>Sven Bryde</speaker>
+<stage>rykker til, s&#x00E6;tter sig ned i en stol, et &#x00F8;ieblik med begge h&#x00E6;nder for &#x00F8;inene. <hi rend="bold">Bj&#x00F8;rn Brager</hi>, som h&#x00F8;rte ordene, gaar stille ud. <hi rend="bold">Sven</hi> tar h&#x00E6;nderne fra.</stage>
+<p rend="noIndent">Det gaar, det gaar &#x2013; &#x2013; den vei, jeg ikke vil. Og vil den endda. Aa&#x2013;h. Hvor jeg er ulykkelig!</p>
+<stage>Han hulker d&#x00E6;mpet. Reiser sig, da kelneren kommer med champagnen, som han tr&#x00E6;kker op.</stage>
+<p rend="noIndent"><pb n="95"/>Tak!</p>
+<stage>Kelneren gaar, <hi rend="bold">Sven</hi> sk&#x00E6;nker i glassene. Tar sit og drikker, haanden dirrer.</stage>
+<p rend="noIndent">Det bar ikke frem. Jeg har draget hende ned. Jeg <emph>kan</emph> ikke reise hende op.</p>
+</sp>
+<sp>
+<speaker>Wentzel.</speaker>
+<p rend="noIndent">Fraser! Hun kan aldrig drages ned.</p>
+<stage>Han lar sit glas staa ur&#x00F8;rt.</stage>
+</sp>
+<sp>
+<speaker>Sven Bryde.</speaker>
+<p rend="noIndent">Hvor gik Bj&#x00F8;rn hen? Gaar I fra mig allesammen. Du ikke, Wentzel, bli her. Vesla&#x2026; Min ungdomsbrud. For svundne dage, for minderne &#x2013;, tak! Men kan ikke stanse. Maa videre&#x2026;</p>
+<stage>St&#x00F8;tter armene paa kn&#x00E6;rne med h&#x00E6;nderne for &#x00F8;inene.</stage>
+</sp>
+<sp>
+<speaker>Wentzel</speaker>
+<stage>hen til ham, haanden paa hans skulder.</stage>
+<p rend="noIndent">Du lar hende ikke tilbage, Sven. Du g&#x00F8;r det ikke. Maa ikke.</p>
+</sp>
+<sp>
+<speaker>Sven Bryde</speaker>
+<stage>ryster paa hodet, i samme stilling.</stage>
+<p rend="noIndent">V&#x00E9;t ingenting mere.</p>
+<stage>Han ser op, tar champagneglasset, drikker. I en tone mellem letsind og patos.</stage>
+<p rend="noIndent">Naar k&#x00E6;rlighed d&#x00F8;r&#x2026; Og banen vinker, og k&#x00E6;rlighed lever &#x2013;!</p>
+</sp>
+</div>
+<div type="chapter" subtype="act" n="4">
+<head type="main">IV. billede</head>
+<stage>Hos <hi rend="bold">Frk. Arnestad</hi>. Tidlig formiddag. Skarp martssolskin. Det store vindu i baggrunden har alle ruderne aabne. Udenfor skimtes et par endnu n&#x00E6;sten n&#x00F8;gne tr&#x00E6;r. <hi rend="bold">Alfred Wentzel</hi> med sin hat i haanden.</stage>
+<sp>
+<speaker>Frk. Arnestad</speaker>
+<stage>st&#x00F8;ver af.</stage>
+<p rend="noIndent">Det er som jeg siger det, hr. arkitekt. Jeg ved ikke mere, jeg. Jeg er ikke den, som snakker om mine logerende. Men vist er det, at det gaar rart til her, paa det sidste.</p>
+</sp>
+<sp>
+<speaker>Wentzel.</speaker>
+<p rend="noIndent">Og nu er hun ude. Ved De ikke, naar hun kommer hjem?</p>
+</sp>
+<sp>
+<speaker>Frk. Arnestad.</speaker>
+<p rend="noIndent">Hun sa ikke noget. Men hun blir aldrig l&#x00E6;nge ude. Gaar ligesom og stunder og t&#x00E6;nker og venter. Fra stuen her og derind <stage>peger tilvenstre og tilbage igen.</stage> Til langt paa natten. Og slig <pb n="97"/>har det v&#x00E6;ret nu &#x2013; ja lad mig se &#x2013; siden sidste torsdag. Det er netop en uge siden idag.</p>
+</sp>
+<sp>
+<speaker>Wentzel.</speaker>
+<p rend="noIndent">Var det den dag, han blev borte. Jeg mener, var det da, han flytted?</p>
+</sp>
+<sp>
+<speaker>Frk. Arnestad.</speaker>
+<p rend="noIndent">Nei, han flytted ikke den dag, det var to dage f&#x00F8;r. Flytted? &#x2013; Jeg ved ikke, om han vil flytte, jeg. Han har ikke sagt noget til <emph>mig</emph>. Det er vel ikke andet end saan liten udflugt. De fleste af tingene er her endnu. Se, paa v&#x00E6;ggene, og d&#x00E9;r paa bordet&#x2026;</p>
+</sp>
+<sp>
+<speaker>Wentzel.</speaker>
+<p rend="noIndent">Undskyld at jeg sp&#x00F8;r, men det er efter et bud, jeg fik igaar: De h&#x00F8;rte ikke, <emph>f&#x00F8;r</emph> han flytted eller hvad De nu vil kalde det &#x2013; at der var noget iveien, paaf&#x00E6;rde? At de, ja f. ex. talte h&#x00F8;it, var lidt uvenner&#x2026;</p>
+</sp>
+<sp>
+<speaker>Frk. Arnestad.</speaker>
+<p rend="noIndent">Aldrig det som <emph>er</emph>, hr. arkitekt. I de dagene, da talte de mest <emph>ikke</emph>, synes jeg. Det var de dagene efter hun var kommet hjem en aften og maatte l&#x00E6;gge sig, og hr. Rein fulgte hende op. Og hr. Rein, han har v&#x00E6;ret her n&#x00E6;sten hver dag siden. Det er en vakker en. Nei, uvenner. Kan nogen v&#x00E6;re uvenner med hende, som har de k&#x00E6;re barne&#x00F8;inene og bare ser paa en. Syns jeg synd paa nogen i verden, da er <pb n="98"/>det hende. Hadde aldrig trod, at jeg skulde komme til at synes saa synd paa nogen, som kvinde er. For jeg liker nu bedst m&#x00E6;ndene, jeg.</p>
+<stage>Ler.</stage>
+<p rend="noIndent">Liker godt hr. Bryde ogsaa. Men en kan jo begribe og sk&#x00F8;nne, at her er ulver i mosen.</p>
+</sp>
+<sp>
+<speaker>Wentzel.</speaker>
+<p rend="noIndent">Hvordan var det da den dag, da han kom tilbage. Nu sidste torsdag.</p>
+</sp>
+<sp>
+<speaker>Frk. Arnestad.</speaker>
+<p rend="noIndent">Hvordan det <emph>var</emph>? Ved jeg noget, jeg. Kan vel ikke se gennem v&#x00E6;ggen. Har andet at bestille end at se efter de logerende, jeg.</p>
+</sp>
+<sp>
+<speaker>Wentzel.</speaker>
+<p rend="noIndent">Men Rein sa, at De stod udenfor d&#x00F8;ren, da han kom. Bryd Dem ikke om d&#x00E9;t, frk. Arnestad. Vi maa vide, hvordan det gik til, ser De. Ellers kan vi ikke hj&#x00E6;lpe. Hun selv siger ingenting.</p>
+</sp>
+<sp>
+<speaker>Frk. Arnestad</speaker>
+<stage>begynder at gr&#x00E6;de og t&#x00F8;rre &#x00F8;inene.</stage>
+<p rend="noIndent">Nei, jamen syntes jeg, at hun blev saadan &#x2013; lidt underlig efter den dagen. Ikke de <emph>aller</emph>sidste dagene, ikke igaar, og ikke imorges, da hun gik ud. Hun var mere som almindelig. Men den eftermiddagen, da kom hr. Rein, netop som han var gaat, og hun laa paa gulvet&#x2026;</p>
+</sp>
+<sp>
+<speaker>Wentzel.</speaker>
+<p rend="noIndent">Det fortalte han.</p>
+</sp>
+<sp>
+<speaker><pb n="99"/>Frk. Arnestad.</speaker>
+<p rend="noIndent">Og han blev her l&#x00E6;nge udover natten. Men det var ligesom hun var borte.</p>
+</sp>
+<sp>
+<speaker>Wentzel</speaker>
+<stage>utaalmodig.</stage>
+<p rend="noIndent">Det fortalte han. Men hvad var der gaat forud? De var jo vidne til det.</p>
+</sp>
+<sp>
+<speaker>Frk. Arnestad.</speaker>
+<p rend="noIndent">Var jeg vidne til det?</p>
+</sp>
+<sp>
+<speaker>Wentzel.</speaker>
+<p rend="noIndent">De stod lige ved d&#x00F8;ren, da Rein kom. De maa ha h&#x00F8;rt&#x2026;</p>
+</sp>
+<sp>
+<speaker>Frk. Arnestad,</speaker>
+<stage>begynder at gr&#x00E6;de igen.</stage>
+<p rend="noIndent">H&#x00F8;rte jeg ikke? Det arme barnet. Han sa &#x2013; han sa, at det var feil altsammen, sa han. En feil&#x2013;ta&#x2013;gel&#x2013;se. Og snakket om, hvordan det var kommet, og at de begge hadde v&#x00E6;ret barn dengang. At det ikke var saa rent alvorlig ment. Og der hadde v&#x00E6;ret saa meget ondt. Og mange ting. Det var &#x2013; det var ligesom en skyder en smaafugl, synes jeg. For med det samme han var i d&#x00F8;ren og gik sin vei, og hun saa, han gik, da seg hun tilgulvs og blev liggende. Og netop som jeg vilde gaa den anden vei og hj&#x00E6;lpe hende, kom hr. Rein.</p>
+</sp>
+<sp>
+<speaker>Wentzel.</speaker>
+<p rend="noIndent">Og saa?</p>
+</sp>
+<sp>
+<speaker><pb n="100"/>Frk. Arnestad.</speaker>
+<p rend="noIndent">La vi hende paa sofaen her. Med t&#x00E6;pper over. Og jeg laved te, men den kunde hun ikke drikke. Hun bare laa stille. Hun sov ikke, og hun var ikke vaagen heller.</p>
+</sp>
+<sp>
+<speaker>Wentzel.</speaker>
+<p rend="noIndent">Til om morgenen?</p>
+</sp>
+<sp>
+<speaker>Frk. Arnestad.</speaker>
+<p rend="noIndent">Ved ikke hvor l&#x00E6;nge det var. Ikke <emph>saa</emph> l&#x00E6;nge. Hr. Rein sa, han hadde lavet te om igen paa apparatet ved 3 om morgenen og git hende. Og vin, noget fin sherry, som jeg hadde ude i skabet, fra min f&#x00F8;dselsdag. Da hadde hun gr&#x00E6;dt saa forf&#x00E6;rdelig. I timevis, og intet kunde hun forklare. Og jeg h&#x00F8;rte igen ved 7 tiden, at hun raabte: Sven. Og hun vilde ud af d&#x00F8;ren, og han maatte holde paa hende. Saa sovned hun ind til udpaa formiddagen.</p>
+</sp>
+<sp>
+<speaker>Wentzel.</speaker>
+<p rend="noIndent">Derefter var det, De m&#x00E6;rked, hun var underlig.</p>
+</sp>
+<sp>
+<speaker>Frk. Arnestad.</speaker>
+<p rend="noIndent">Ja. <emph>Jeg</emph> syntes det. Naar hun gik alene, saan ved dag og ved nat. Men ikke de <emph>aller</emph> sidste dagene, ikke igaar og idag. Hun var roligere og mere som almindelig. Naar jeg nu t&#x00E6;nker paa det, saa syntes jeg hun sa, at hun skulde i en have&#x2026; Imorges, hun gik ud. Maa vel snart komme tilbage. &#x2013;</p>
+<stage>Hun ser ud af vinduet.</stage>
+</sp>
+<sp>
+<speaker><pb n="101"/>Wentzel.</speaker>
+<p rend="noIndent">I en have. Det var besynderligt &#x2026;</p>
+<stage>T&#x00E6;nker over.</stage>
+</sp>
+<sp>
+<speaker>Frk. Arnestad.</speaker>
+<p rend="noIndent">Kan De sk&#x00F8;nne, hvor hr. Bryde er. Flyttet er han ikke. Da hadde han vel sagt noget til <emph>mig</emph>. Reist er han vist heller ikke&#x2026;</p>
+</sp>
+<sp>
+<speaker>Wentzel.</speaker>
+<p rend="noIndent">Bryde er i byen endnu. Jeg ved, hvor han opholder sig og vil tale med ham. Kommer igen senere. Farvel saal&#x00E6;nge, frk. Arnestad. Nytter ikke at vente nu. Tiden er kostbar&#x2026;</p>
+</sp>
+<sp>
+<speaker>Frk. Arnestad.</speaker>
+<p rend="noIndent">Farvel.</p>
+<stage><hi rend="bold">Wentzel</hi> gaar hurtig. Hun st&#x00F8;ver af igen og siger et ord halvh&#x00F8;it iblandt.</stage>
+<p rend="noIndent">Ikke noe paa sit sted. &#x2013; Liksom her er forstyrret. &#x2013; Ligner ikke hende. &#x2013; Hun, som er saa ordentlig&#x2026;</p>
+</sp>
+<sp>
+<speaker>Erik Rein</speaker>
+<stage>fra indgangsd&#x00F8;ren tilh&#x00F8;ire.</stage>
+<p rend="noIndent">Godmorgen, frk. Arnestad.</p>
+</sp>
+<sp>
+<speaker>Frk. Arnestad.</speaker>
+<p rend="noIndent">Godmorgen, hr. Rein.</p>
+</sp>
+<sp>
+<speaker>Erik Rein.</speaker>
+<p rend="noIndent">Har nogen v&#x00E6;ret her?</p>
+</sp>
+<sp>
+<speaker><pb n="102"/>Frk. Arnestad.</speaker>
+<p rend="noIndent">Ikke en sj&#x00E6;l, hr. Rein. Jeg mener &#x2013;. Jo, arkitekt Wentzel, han var da her netop nu. M&#x00F8;dte De ham ikke?</p>
+</sp>
+<sp>
+<speaker>Erik Rein.</speaker>
+<p rend="noIndent">Nei. Han gik kanske den modsatte vei. Det g&#x00F8;r ikke noget forresten. Ikke n&#x00F8;dvendigt&#x2026;</p>
+</sp>
+<sp>
+<speaker>Frk. Arnestad</speaker>
+<stage>hen til ham halvh&#x00F8;it.</stage>
+<p rend="noIndent">Hr. Bryde er ikke reist. Arkitekten ved, hvor han er henne.</p>
+</sp>
+<sp>
+<speaker>Erik Rein.</speaker>
+<p rend="noIndent">Hysch. Ikke n&#x00F8;dvendigt. Hun er rolig nu. Hun er her lige efter &#x2013; i trappen.</p>
+</sp>
+<sp>
+<speaker>Frk. Arnestad.</speaker>
+<p rend="noIndent">K&#x00E6;re. Hvordan gaar det da?</p>
+</sp>
+<sp>
+<speaker>Vesla,</speaker>
+<stage>fra indgangsd&#x00F8;ren. Temmelig bleg, ligesom afmagret, med store rolige &#x00F8;ine. Hun er indhyllet i et sort uldent overstykke og holder det om sig som et sjal. Hun har en buket violer i haanden og nikker taus til <hi rend="bold">Frk. Arnestad</hi>. S&#x00E6;tter sig hen ved bordet tilvenstre.</stage>
+</sp>
+<sp>
+<speaker>Frk. Arnestad.</speaker>
+<p rend="noIndent">Hr. Wentzel har v&#x00E6;ret her. Hvor har De v&#x00E6;ret saa l&#x00E6;nge? Han spurte sv&#x00E6;rt efter det. &#x2013; Er De tr&#x00E6;t?</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Ikke saa tr&#x00E6;t, nu.</p>
+</sp>
+<sp>
+<speaker><pb n="103"/>Erik Rein.</speaker>
+<p rend="noIndent">Jeg blir her lidt, frk. Arnestad.</p>
+</sp>
+<sp>
+<speaker>Frk. Arnestad.</speaker>
+<p rend="noIndent">Skal gaa jeg. Har saa meget at g&#x00F8;re.</p>
+<stage>Hun gaar ud.</stage>
+</sp>
+<sp>
+<speaker>Erik Rein</speaker>
+<stage>derhen.</stage>
+<p rend="noIndent">Vesla.</p>
+</sp>
+<sp>
+<speaker>Vesla</speaker>
+<stage>hurtig.</stage>
+<p rend="noIndent">Tak for violerne. Jeg glemte vist at takke for dem.</p>
+</sp>
+<sp>
+<speaker>Erik Rein</speaker>
+<stage>ler.</stage>
+<p rend="noIndent">Nei, det gjorde De ikke. De sa: mange tak!</p>
+<stage><hi rend="bold">Vesla</hi> smiler. Rein hurtig.</stage>
+<p rend="noIndent">Hvordan gaar det?</p>
+</sp>
+<sp>
+<speaker>Vesla</speaker>
+<stage>om lidt rolig.</stage>
+<p rend="noIndent">De ser, det hj&#x00E6;lper ikke. Nu har vi pr&#x00F8;vet idag og igaar og iforgaars.</p>
+</sp>
+<sp>
+<speaker>Erik Rein.</speaker>
+<p rend="noIndent">Synes, De var sv&#x00E6;rt k&#x00E6;k, jeg. Som da De kom op til mig iforgaars. Ganske af Dem selv.</p>
+</sp>
+<sp>
+<speaker>Vesla</speaker>
+<stage>ser sig om.</stage>
+<p rend="noIndent">Jeg turde ikke bli her. Disse v&#x00E6;ggene og d&#x00F8;rene. Turde ikke stirre paa dem.</p>
+<stage>Hun smiler og tr&#x00E6;kker sjalet t&#x00E6;ttere om sig.</stage>
+</sp>
+<sp>
+<speaker><pb n="104"/>Erik Rein.</speaker>
+<p rend="noIndent">Fryser De?</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Aa ja&#x2026;</p>
+</sp>
+<sp>
+<speaker>Erik Rein.</speaker>
+<p rend="noIndent">Skal vi lukke vinduerne?</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">De maa vist staa aabne. Naar jeg blir alene, lukker jeg dem op igen. For det blir saa indelukket her.</p>
+</sp>
+<sp>
+<speaker>Erik Rein.</speaker>
+<p rend="noIndent">Men dette martssolskinnet er ikke at stole paa.</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Nei, det er det ikke. Det er saa lyst. Det sk&#x00E6;rer i &#x00F8;inene. Men det varmer ikke.</p>
+<stage>Hun reiser sig og r&#x00E6;kker haanden ud til <hi rend="bold">Erik Rein</hi>.</stage>
+<p rend="noIndent">De har v&#x00E6;ret saa god, aa, saa snil. Men alligevel maa De gaa&#x2026;</p>
+</sp>
+<sp>
+<speaker>Erik Rein.</speaker>
+<p rend="noIndent">Hvorfor? &#x2013; Var vi ikke enige om, at vi skulde pr&#x00F8;ve?</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Hvilket?</p>
+</sp>
+<sp>
+<speaker>Erik Rein.</speaker>
+<p rend="noIndent">At klare os uden Sven Bryde.</p>
+</sp>
+<sp>
+<speaker><pb n="105"/>Vesla</speaker>
+<stage>fjern i tankerne, holder stundom violbuketten op til ansigtet, hun ryster paa hodet. Taler stille, med det haabl&#x00F8;ses beherskelse.</stage>
+<p rend="noIndent">De saa det. Vi har pr&#x00F8;vet det &#x2013; idag og igaar og iforgaars. Vi var omkring paa de vakre steder, og vi h&#x00F8;rte musik, det bare minded. I den deilige haven imorges. Der, hvor det var saa koldt endda solen skinte, og saa &#x00F8;de og fremmed og d&#x00F8;dt. Jeg bad Dem v&#x00E6;re taalmodig. Og De <emph>var</emph> taalmodig. Hvorfor kom De ikke f&#x00F8;r? Men da maatte De vel v&#x00E6;re kommet sv&#x00E6;rt tidlig.</p>
+<stage>Hun smiler igen.</stage>
+</sp>
+<sp>
+<speaker>Erik Rein</speaker>
+<stage>taler ude af stand til at styre sig.</stage>
+<p rend="noIndent">Nei, lad v&#x00E6;re! Ved De, at Deres smil er sp&#x00F8;gelseagtigt, uhyggeligt. Vil De gaa tilgrunde? Som De ser ud nu. De, i Deres fagre vaar. De er ikke stort over 20 aar. De sk&#x00F8;nner ikke livet. V&#x00E9;d &#x2013; fatter De ikke, at saa er det for os allesammen. Foranderligt. Det, som var ifjor, for to, tre aar siden, det er ikke altid idag, <emph>nu</emph>. K&#x00E6;re, s&#x00F8;de &#x2013; barn, veninde, jeg vil frelse Dem. Lad Dem frelse. <emph>Trods</emph>, g&#x00F8;r modstand! Begriber De ikke, at det er det eneste, De kan g&#x00F8;re. Svigter en ven &#x2013; De har hundrede igen for &#x00E9;n. Da var De ikke den, De er. Selv sk&#x00E6;lver jeg for Dem, for at miste Dem! Jeg har fundet en skat. Aa Gud &#x2013; hvad taler jeg om. Kunde bli ligedan som De. I det &#x00F8;ieblik en elsker, tror en, <pb n="106"/>at det vil vare bestandig &#x2013; livet ud &#x2013; ak, der er ikke gr&#x00E6;nse&#x2026;</p>
+</sp>
+<sp>
+<speaker>Vesla</speaker>
+<stage>s&#x00F8;ger omkring med vildsomme, bedende &#x00F8;ine.</stage>
+<p rend="noIndent">Og hvorfor kan det ikke vare? Hvorfor kan ikke vi v&#x00E6;re ligesaa trofaste som Gud?</p>
+</sp>
+<sp>
+<speaker>Erik Rein.</speaker>
+<p rend="noIndent">Gud&#x2026; Hm. Er De &#x2013; er De da saa vis paa, at <emph>han</emph> er trofast?</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Ja. Men vi sk&#x00F8;nner ham vel ikke altid, vi. Det er kanske noget &#x2013; vi skal l&#x00E6;re.</p>
+</sp>
+<sp>
+<speaker>Erik Rein.</speaker>
+<p rend="noIndent">Ta da imod l&#x00E6;rdommen. Barn!</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Maa gaa efter det, som er. Det som kommer. Og nu har jeg det saa forf&#x00E6;rdelig ondt igen, at &#x2013; at jeg maa v&#x00E6;re alene.</p>
+</sp>
+<sp>
+<speaker>Erik Rein.</speaker>
+<p rend="noIndent">Og naar De blir alene?</p>
+</sp>
+<sp>
+<speaker>Vesla</speaker>
+<stage>ser sig om.</stage>
+<p rend="noIndent">Blir kanske v&#x00E6;rre. Jeg ved ikke</p>
+</sp>
+<sp>
+<speaker>Erik Rein.</speaker>
+<p rend="noIndent">Tror De, at jeg gaar fra Dem, som De er nu, ikke et minut.</p>
+</sp>
+<sp>
+<speaker><pb n="107"/>Vesla.</speaker>
+<p rend="noIndent">Jo. De kunde g&#x00F8;re en ting.</p>
+</sp>
+<sp>
+<speaker>Erik Rein.</speaker>
+<p rend="noIndent">Hvad for en ting?</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Find Sven. Hent Sven. Sk&#x00F8;nner De &#x2013; jeg maa tale med ham. Jeg v&#x00E9;d ingenting, ingenting. T&#x00F8;r ikke, kan ikke &#x2013;.</p>
+<stage>Hun holder h&#x00E6;nderne for &#x00F8;inene og brister i graad.</stage>
+</sp>
+<sp>
+<speaker>Erik Rein</speaker>
+<stage>uvis.</stage>
+<p rend="noIndent">Og naar han kom?&#x2026; Vilde det bli bedre? Hvad vilde han si til Dem? T&#x00E6;nk over&#x2026;</p>
+</sp>
+<sp>
+<speaker>Vesla</speaker>
+<stage>hulker.</stage>
+<p rend="noIndent"><emph>Jeg</emph> vilde tale. Jeg vilde si til ham&#x2026; Minde ham om meget &#x2013; meget. Om en aften. At han ikke maa g&#x00F8;re det. Jeg har ikke gjort ham noget ondt! At det kan komme over ham selv. For vi maa svare for vore handlinger, det har jeg lagt m&#x00E6;rke til&#x2026; Erik Rein! lad mig faa tale med ham en, en eneste gang! Han er god. Det kommer ikke fra hans inderste hjerte. Sven! han var min kamerat, min ven, min bror&#x2026; Han vil forstaa&#x2026;</p>
+</sp>
+<sp>
+<speaker>Erik Rein</speaker>
+<stage>n&#x00E6;sten overvunden.</stage>
+<p rend="noIndent">Da maatte jeg gaa til Wentzel. Han ved, hvor han er.</p>
+</sp>
+<sp>
+<speaker><pb n="108"/>Vesla.</speaker>
+<p rend="noIndent">Ved han, hvor han er? Her i byen? Han er ikke reist. Nei, det vidste jeg.</p>
+<stage>Hun klarer op.</stage>
+<p rend="noIndent">Han er her. Kanske n&#x00E6;r ved.</p>
+<stage>Trykker h&#x00E6;nderne sammen i gl&#x00E6;de eller befrielse for en stor smerte.</stage>
+</sp>
+<sp>
+<speaker>Erik Rein.</speaker>
+<p rend="noIndent">Vil De da love mig at forbli ganske rolig her, til jeg kommer tilbage?</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">O ja, ja. Sikkert.</p>
+<stage>Med naturlig og freidigt udtryk.</stage>
+<p rend="noIndent">Se! jeg er rolig nu. Jeg er glad. <emph>De</emph> vil finde ham. Det vil De, Erik Rein! og jeg blir Dem taknemlig hele mit liv&#x2026;</p>
+</sp>
+<sp>
+<speaker>Erik Rein</speaker>
+<stage>tar hendes haand.</stage>
+<p rend="noIndent">Jeg vil pr&#x00F8;ve at finde Sven og komme tilbage med eller uden ham. Men lov mig, tro ikke for fast paa det, som mulig er &#x2013; forudbestemt for dere begge at gaa anderledes. Kanske til det gode. Jeg t&#x00F8;r ikke si noget. Om et aar er De kanske lykkelig &#x2013;.</p>
+</sp>
+<sp>
+<speaker>Vesla</speaker>
+<stage>et &#x00F8;ieblik med udtryk af en med magt tilbageholdt r&#x00E6;dsel.</stage>
+<p rend="noIndent">Hvem kommer saa langt som til aar? Kommer ikke engang gennem dage, som de sidste. <pb n="109"/>Det er minutter, sekunder. &#x2013; Men det vil gaa over. Bare en liden stund endnu. <emph>Idag</emph> blir det godt.</p>
+<stage>Hun smiler.</stage>
+</sp>
+<sp>
+<speaker>Erik Rein</speaker>
+<stage>slaat, rykker tilbage.</stage>
+<p rend="noIndent"><emph>Nu</emph> smilte De &#x2013; anderledes end f&#x00F8;r. Barn, hvem er De&#x2026;?</p>
+<stage>Han holder sig for &#x00F8;inene.</stage>
+<p rend="noIndent">De hadde et udtryk&#x2026; som De ikke l&#x00E6;nger tilh&#x00F8;rte os.</p>
+<stage>Tar langsomt h&#x00E6;nderne fra.</stage>
+<p rend="noIndent">Jeg gaar ikke fra Dem.</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">De maa. Og kom tilbage.</p>
+</sp>
+<sp>
+<speaker>Erik Rein.</speaker>
+<p rend="noIndent">Gud bevare Dem! Hj&#x00E6;lpe Dem!</p>
+<stage>Han gaar hurtig.</stage>
+</sp>
+<sp>
+<speaker>Vesla</speaker>
+<stage>gaar lidt frem og tilbage. Ordner hist og her.</stage>
+</sp>
+<sp>
+<speaker>Frk. Arnestad</speaker>
+<stage>titter ind.</stage>
+<p rend="noIndent">Gik han!</p>
+<stage>Ind med et br&#x00E6;t.</stage>
+<p rend="noIndent">Jeg kommer med kaffebr&#x00E6;t, jeg. Og lidt mad til Dem. For De spiste vist ikke, f&#x00F8;r De gik ud imorges. De spiser jo n&#x00E6;sten ikke om dagen.</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Tak. K&#x00E6;re frk. Arnestad, det er snilt af Dem. Nei, det er sandt. Jeg har nok ikke spist idag.</p>
+</sp>
+<sp>
+<speaker><pb n="110"/>Frk. Arnestad.</speaker>
+<p rend="noIndent">Det er vel undt. En faar g&#x00F8;re det, en kan, endda det er ikke meget en kan g&#x00F8;re</p>
+<stage>Hun s&#x00E6;tter br&#x00E6;ttet paa bordet tilvenstre. Staar lidt.</stage>
+</sp>
+<sp>
+<speaker>Vesla</speaker>
+<stage>s&#x00E6;tter sig, sk&#x00E6;nker i koppen og begynder at spise. Ler med lidt af sit forrige, lyse udtryk.</stage>
+<p rend="noIndent">T&#x00E6;nk, jeg er ordentlig sulten&#x2026;</p>
+</sp>
+<sp>
+<speaker>Frk. Arnestad.</speaker>
+<p rend="noIndent">En ved det ikke, f&#x00F8;r en begynder. Spis nu bare. Mad maa vi ha, allesammen. Nytter ikke ellers.</p>
+<stage>Hun gaar ud igen.</stage>
+</sp>
+<sp>
+<speaker>Vesla</speaker>
+<stage>blir siddende ved bordet. Om lidt ringer det. Hun reiser sig halvt, lytter.</stage>
+<p rend="noIndent">Erik Rein alt tilbage? Nei&#x2026;</p>
+</sp>
+<sp>
+<speaker>Sven Bryde</speaker>
+<stage>ind. Han er i ny, elegant vaardres, ser ud til at v&#x00E6;re i hum&#x00F8;r og stemning. Velvillig og forn&#x00F8;iet.</stage>
+<p rend="noIndent">Godmorgen! Det er ret. Der sidder hun ved sin kaffe. Fornuftig. Flink pige&#x2026;</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Sven!</p>
+<stage>L&#x00E6;ner sig et &#x00F8;ieblik tilbage mod stolen, staar op og gaar hen mod ham.</stage>
+</sp>
+<sp>
+<speaker>Sven Bryde</speaker>
+<stage>r&#x00E6;kker hende haanden.</stage>
+<p rend="noIndent">Hvordan har du det? &#x2013; Noksaa godt. Ja, ser du. Jeg vidste vel d&#x00E9;t. Vi skal komme ud af <pb n="111"/>det med hinanden. Du forstod mig nok, sidste torsdag. Netop en uge siden idag&#x2026; Hvorfor er du saa sort, og bleg? Synes, du er blit mager&#x2026; Vesla, k&#x00E6;re! Du tar dig vel ikke saa n&#x00E6;r af det &#x2013;?</p>
+</sp>
+<sp>
+<speaker>Vesla</speaker>
+<stage>staar stille og ser paa ham.</stage>
+<p rend="noIndent">Hvilket?</p>
+</sp>
+<sp>
+<speaker>Sven Bryde.</speaker>
+<p rend="noIndent">At vi maa skilles&#x2026; Jeg mener, at livet skiller os. Det g&#x00F8;r det nu med saa mange, k&#x00E6;re barn. En meget almindelig ting&#x2026; Det sa jeg dig jo. Og du skal se. Bare en liden stund, saa gaar det bedre. For os begge to. For det kan du tro, at det har ikke v&#x00E6;ret let for mig heller.</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Nei&#x2026;</p>
+</sp>
+<sp>
+<speaker>Sven Bryde.</speaker>
+<p rend="noIndent">En vokser sig sammen.</p>
+<stage>Bev&#x00E6;get.</stage>
+<p rend="noIndent">Og aldrig glemmer jeg dig og disse aar. Du Vesla, du Vesla. Du kan tro, jeg skal s&#x00F8;rge for dig. Indtil &#x2013; ja, ialfald saa l&#x00E6;nge du blir alene. Men hvem ved&#x2026;?</p>
+<stage>Ler.</stage>
+<p rend="noIndent">Naa. Ikke sandt? Det var bra, at vi undgik en ubodelig ulykke, som det vilde ha v&#x00E6;ret at binde sig for alvor. Selv om vi engang hadde de barnestreger for.</p>
+<stage><pb n="112"/>Han venter lidt paa svar. Vesla tier fremdeles, som hun er ber&#x00F8;vet evnen. Han ser paa hende.</stage>
+<p rend="noIndent">Du siger ikke noget, du. Men vi skal bare gi lidt tid. Saa kommer vi over det. Kan kanske m&#x00F8;des om et aars tid som de bedste venner. Hvad? &#x2013; Ser du &#x2013; en maa v&#x00E6;nne sig til livet. Det er udvikling, forvandling. Og nu skal du h&#x00F8;re. Det er bare en liden tjeneste, jeg vilde bede dig om. Derfor kom jeg egentlig.</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Hvad er det?</p>
+</sp>
+<sp>
+<speaker>Sven Bryde</speaker>
+<p rend="noIndent">Jo, ser du. Jeg skal afsted i eftermiddag. Op til fars landsgaard. Der blir jeg sandsynlig &#x2013; lad mig se &#x2013; et par maaneder, for det f&#x00F8;rste. Har arbeide nok. Jeg skal planl&#x00E6;gge og udf&#x00F8;re <emph>to</emph> villaer. Sidste bestillinger&#x2026;</p>
+</sp>
+<sp>
+<speaker>Vesla</speaker>
+<stage>f&#x00E6;ster sig ved et ord i hans tale og siger, da<note type="footnote">da] <hi rend="italic">rettet fra:</hi> da da <hi rend="italic">(trykkfeil)</hi></note> han et &#x00F8;ieblik tier og ser lidt bet&#x00E6;nkt paa hende.</stage>
+<p rend="noIndent">Vor villa. Den blev aldrig f&#x00E6;rdig. Vort hus, Sven.</p>
+</sp>
+<sp>
+<speaker>Sven Bryde</speaker>
+<stage>ryster paa hodet, om lidt.</stage>
+<p rend="noIndent">Hm. Som saa meget andet &#x2013; k&#x00E6;re Vesla! K&#x00E6;re barn! Hvor meget bygger vi ikke, hvor tit reiser vi ikke, i fantasien. Bygger luftslotte. <pb n="113"/>Det h&#x00E6;nder alle saa. Og h&#x00F8;r nu, hvad jeg ber dig om&#x2026;</p>
+</sp>
+<stage><hi rend="bold">Vesla</hi> anstrenger sig for at h&#x00F8;re.</stage>
+<sp>
+<speaker>Sven Bryde.</speaker>
+<p rend="noIndent">Du har saa god rede paa alt og ved, hvor mine ting ligger. Du tar nok og pakker haandkufferten min. Den staar derinde, ved du.</p>
+<stage>Peger paa rummet tilvenstre.</stage>
+<p rend="noIndent">Det er undert&#x00F8;i, skjorter, str&#x00F8;mper, alt det, du finder i skufferne. Og kommoden d&#x00E9;r. Papirerne og tingene her paa bordet <stage>gaar derhen</stage> og disse plancherne her.</p>
+<stage>Tar dem ned af v&#x00E6;ggen.</stage>
+<p rend="noIndent">Dem faar jeg brug for. Saa kommer jeg igen om en liden stund og henter dem. Har rent forskr&#x00E6;kkelig mange ting at g&#x00F8;re i formiddag, ser du.</p>
+<stage>Han ser sig om.</stage>
+<p rend="noIndent">Er det mere? Nei, det andet kan v&#x00E6;re, hvor alt er. Og du maa bli boende eller flytte, ganske som du vil. Penge sender jeg dig ved hver maaneds begyndelse. &#x2013; Vil du g&#x00F8;re dette for mig, da?</p>
+</sp>
+<stage><hi rend="bold">Vesla</hi> nikker.</stage>
+<sp>
+<speaker>Sven Bryde.</speaker>
+<p rend="noIndent">Helst nu med det samme. Saa fort du kan. Kommer ind om en timestid igen.</p>
+<stage>Han nikker og gaar.</stage>
+</sp>
+<sp>
+<speaker><pb n="114"/>Vesla</speaker>
+<stage>staar. Stryger sig over panden. Pakke. Pakke kufferten. G&#x00F8;re det straks. Hun gaar ind i siderummet. Det h&#x00F8;res, at hun tr&#x00E6;kker kufferten frem derinde, aabner skuffer o. s. v.</stage>
+</sp>
+<sp>
+<speaker>Frk. Arnestad</speaker>
+<stage>ind, lidt opkavet.</stage>
+<p rend="noIndent">Naa? Var&#x0027;n her? Hvad sa han. Han flytter vel ikke? &#x2013; har havt saa travlt i k&#x00F8;kkenet, jeg. Baltsersen skal ha middagen sin kl. 1 idag.</p>
+<stage>Ved portiererne tilvenstre.</stage>
+<p rend="noIndent">Er det her, De er?</p>
+</sp>
+<sp>
+<speaker>Vesla</speaker>
+<stage>derinde.</stage>
+<p rend="noIndent">Ja, jeg pakker. Sven skal reise.</p>
+</sp>
+<sp>
+<speaker>Frk. Arnestad.</speaker>
+<p rend="noIndent">Skal han reise? Han har ikke sagt noget til <emph>mig</emph>. Det gaar vel ikke an at flytte paa det viset.</p>
+</sp>
+<sp>
+<speaker>Vesla.</speaker>
+<p rend="noIndent">Han ordner det nok, frk. Arnestad.</p>
+<stage>Hun steller derinde.</stage>
+</sp>
+<sp>
+<speaker>Frk. Arnestad.</speaker>
+<p rend="noIndent">Ja, det maa han vel g&#x00F8;re. Har De faat travlt, ja&#x2026; Godt at ha noget at g&#x00F8;re. Arbeide er bra for noget af hvert.</p>
+<stage>Ved kaffebr&#x00E6;ttet.</stage>
+<p rend="noIndent">Men De har ikke spist. Ikke halvparten engang&#x2026;</p>
+</sp>
+<sp>
+<speaker><pb n="115"/>Vesla.</speaker>
+<p rend="noIndent">Tak! k&#x00E6;re snille Dem&#x2026; Jeg skal ikke ha mere.</p>
+</sp>
+<sp>
+<speaker>Frk. Arnestad.</speaker>
+<p rend="noIndent">Saa tar jeg det med igen, jeg.</p>
+<stage>Halvh&#x00F8;it, ser sig om, idet hun gaar.</stage>
+<p rend="noIndent">Bare det ikke er&#x2026; saa rart det gaar til her.</p>
+<stage>Ud med br&#x00E6;ttet.</stage>
+</sp>
+<sp>
+<speaker>Vesla</speaker>
+<stage>ind, gaar hen til kommoden ved v&#x00E6;ggen tilh&#x00F8;ire, aabner et par skuffer, tar sager ud og b&#x00E6;rer dem med sig ind i sidev&#x00E6;relset. Kommer tilbage om lidt og gaar hen til bordet tilvenstre. Hun handler ganske automatisk.</stage>
+<p rend="noIndent">Papirerne&#x2026; Plancherne. Store huser.</p>
+<stage>Tar dem med ind, pakker, kommer ind igen.</stage>
+<p rend="noIndent">Smaatingene. Bestikket. Han har to. Alt dette.</p>
+<stage>Samler sammen.</stage>
+<p rend="noIndent">Den!</p>
+<stage>Hun tar en genstand fra bordet, blir staaende med den i haanden. Ser paa den. Halvsagte.</stage>
+<p rend="noIndent">Dyrehode&#x2026;</p>
+<stage>Steller med den.</stage>
+<p rend="noIndent">Mon den gaar?</p>
+<stage>Hun s&#x00E6;nker haanden med revolveren, raaber med &#x00E9;t h&#x00F8;it:</stage>
+<p rend="noIndent">Anne, &#x2013; Anne &#x2013; du Anne. Kom til Gulle dit!</p>
+<stage>Og tre gange.</stage>
+<p rend="noIndent">Nei! &#x2013; nei! &#x2013; nei!</p>
+<stage><pb n="116"/>Hun tar sagerne fra bordet og gaar ind med altsammen. Man h&#x00F8;rer fremdeles, at hun rumsterer derinde. Med &#x00E9;t h&#x00F8;res et dumpt skud og straks efter et fald, som mod en stolkant.</stage>
+</sp>
+<sp>
+<speaker>Frk. Arnestad,</speaker>
+<stage>kommer. Lige efter hende <hi rend="bold">Pigen</hi>.</stage>
+<p rend="noIndent">Kors, i Kristi navn. Hvad er d&#x00E9;t?</p>
+</sp>
+<sp>
+<speaker>Pigen.</speaker>
+<p rend="noIndent">Det er vist &#x2013; derinde. Ikke t&#x00F8;r jeg gaa.</p>
+</sp>
+<sp>
+<speaker>Frk. Arnestad.</speaker>
+<p rend="noIndent">Vi maa gaa ind, sk&#x00F8;nner du. Ja, saa gaar jeg.</p>
+<stage>Hun gaar, gir et udraab, h&#x00F8;res derinde.</stage>
+<p rend="noIndent">Hj&#x00E6;lp mig, Kristine.</p>
+</sp>
+<stage>Det ringer. Pigen ud og lukker op. Kommer ind igen. Straks efter <hi rend="bold">Erik Rein</hi>. <hi rend="bold">Frk. Arnestad</hi> imod ham.</stage>
+
+<sp>
+<speaker>Erik Rein.</speaker>
+<p rend="noIndent">Det er Bryde og Wentzel, de er lige efter mig. Jeg traf dem et stykke herfra&#x2026;</p>
+</sp>
+<sp>
+<speaker>Frk. Arnestad.</speaker>
+<p rend="noIndent">Der er h&#x00E6;ndt en ulykke&#x2026;</p>
+</sp>
+<sp>
+<speaker>Erik Rein.</speaker>
+<p rend="noIndent">For sent! Jeg ante det.</p>
+<stage>Hurtig ind tilvenstre.</stage>
+</sp>
+<sp>
+<speaker>Frk. Arnestad</speaker>
+<stage>til pigen, som staar raadvild.</stage>
+<p rend="noIndent">Fly efter doktor, Kristine. Den n&#x00E6;rmeste.</p>
+<stage>Ind tilvenstre. Pigen gaar.</stage>
+</sp>
+<stage><pb n="117"/><hi rend="bold">Sven Bryde</hi> og <hi rend="bold">Wentzel</hi> gaar gennem v&#x00E6;relset og lige ind, efter besked af pigen. Sagte tale, puslen, udraab.</stage>
+<sp>
+<speaker>En stemme:</speaker>
+<p rend="noIndent">Trykket den lige mod hjertet. Der er n&#x00E6;sten ikke blod.</p>
+</sp>
+<sp>
+<speaker>Erik Reins stemme:</speaker>
+<p rend="noIndent">Hun d&#x00F8;r, f&#x00F8;r l&#x00E6;gen kommer&#x2026;</p>
+</sp>
+<stage><hi rend="bold">Sven Bryde</hi> ind, han holder revolveren i haanden og sp&#x00E6;nder hanen, ligesom fra sig. <hi rend="bold">Frk. Arnestad</hi> lige efter ham, raaber h&#x00F8;it. <hi rend="bold">Wentzel</hi> og <hi rend="bold">Erik Rein</hi> kommer til hj&#x00E6;lp og vrister den fra ham. Revolveren falder langt hen paa gulvet. <hi rend="bold">Erik Rein</hi> tar den op og kaster den i farten ned i en aaben kommodeskuf. <hi rend="bold">Sven Bryde</hi> kaster sig i <hi rend="bold">Wentzels</hi> arme og hulker.</stage>
+</div>
+<div type="chapter" subtype="act" n="5">
+<head type="main">V. billede</head>
+<stage>Et andet rum hos <hi rend="bold">Frk. Arnestad</hi>. De fleste af de gamle ting, arbeidsbordet, den gammeldags komode, plancher, udkast o. s. v. forefindes i noget forandret ordning. To store aabne kufferter, tildels pakkede, og en tom haandkuffert tilh&#x00F8;ire. Genstande hist og her, som under forberedelserne til en reise.</stage>
+<stage>Tidlig vaar. Vinduerne aabne. Formiddag. Solskin.</stage>
+<stage>Det ringer.</stage>
+<stage>Om lidt arkitekt <hi rend="bold">Wentzel</hi>, <hi rend="bold">Erik Rein</hi> og <hi rend="bold">Frk. Arnestad</hi>.</stage>
+<sp>
+<speaker>Frk. Arnestad.</speaker>
+<p rend="noIndent">Han gik ud et minut. Det var vist noget, han hadde glemt at k&#x00F8;be. Men han bad mig bestille vognen. Den er her straks.</p>
+</sp>
+<sp>
+<speaker>Wentzel</speaker>
+<stage>ser paa kufferterne og andet.</stage>
+<p rend="noIndent">Det er altsaa vist, at han reiser iaften?</p>
+</sp>
+<sp>
+<speaker>Frk. Arnestad.</speaker>
+<p rend="noIndent">Ja da. Nu har den reisen v&#x00E6;ret bestemt l&#x00E6;nge. Og <emph>De</emph> skal jo flytte ind ogsaa, hr. Wentzel. Det er dagen.</p>
+</sp>
+<sp>
+<speaker><pb n="119"/>Wentzel</speaker>
+<stage>lidt adspredt.</stage>
+<p rend="noIndent">Ikke iaften. F&#x00F8;rst imorgen. Idag skriver vi den 29. &#x2013; den 29. marts.</p>
+<p rend="noIndent">Til <hi rend="bold">Erik Rein</hi> i en tone af &#x00E6;ngstelse.</p>
+<p rend="noIndent">Undres om han husker, at det er netop aarsdagen.</p>
+</sp>
+<sp>
+<speaker>Erik Rein.</speaker>
+<p rend="noIndent">Nei. Det er det ikke. Det var igaar. Det er den 30te idag.</p>
+</sp>
+<sp>
+<speaker>Frk. Arnestad.</speaker>
+<p rend="noIndent">Ja, d&#x00E9;t er det. Det er fra den dagen, De har leiet, hr. Wentzel. Og ikke ska&#x0027;n s&#x00F8;rge over det heller. Endda saa hjemmevant det var med hr. Bryde. Men som rimeligt er, at han ikke kunde trives. Selv om han fik et andet rum og alle tingene sine, som han er vant til det.</p>
+<stage>Ud.</stage>
+</sp>
+<sp>
+<speaker>Wentzel</speaker>
+<stage>til <hi rend="bold">Erik Rein</hi>.</stage>
+<p rend="noIndent">Underligt at m&#x00F8;des igen. De har v&#x00E6;ret i udlandet.</p>
+</sp>
+<sp>
+<speaker>Erik Rein.</speaker>
+<p rend="noIndent">Et halvt aar, ja</p>
+</sp>
+<sp>
+<speaker>Wentzel.</speaker>
+<p rend="noIndent">Med statsunderst&#x00F8;ttelse. Jeg saa det i aviserne. Nylig kommet hjem?</p>
+</sp>
+<sp>
+<speaker>Erik Rein.</speaker>
+<p rend="noIndent">For en uge siden. Og igaar m&#x00F8;dte jeg Bryde ganske tilf&#x00E6;ldig. Han foreslog mig at v&#x00E6;re med <pb n="120"/>paa denne lille udflugt. En afskedsfest, sa han, som ungkarl. Det er altsaa saa, at han skal&#x2026;</p>
+</sp>
+<sp>
+<speaker>Wentzel.</speaker>
+<p rend="noIndent">Gifte sig, ja. Med frk. Olga Bryde. Det kunde en vide paa forhaand. Det var saa at si forud givet.</p>
+<stage>Adspredt og tankefuld.</stage>
+<p rend="noIndent">Ja &#x2013; saa er livet. Mangfoldig sammensat. Der er ikke noget at sige til det.</p>
+<stage>Efter en taushed.</stage>
+<p rend="noIndent">Og Dem har vi ikke set siden &#x2013; jeg tror, siden begravelsen.</p>
+</sp>
+<sp>
+<speaker>Erik Rein.</speaker>
+<p rend="noIndent">Nei. Jeg maatte bort. Det var mig pinligt. Jeg begriber ikke Sven Bryde, eller rettere: jeg trode at forstaa. Begynder at bli filosof og menneskekender, som De.</p>
+</sp>
+<sp>
+<speaker>Wentzel</speaker>
+<stage>smiler velvillig overb&#x00E6;rende.</stage>
+<p rend="noIndent">Hvordan?</p>
+</sp>
+<sp>
+<speaker>Erik Rein.</speaker>
+<p rend="noIndent">Husker De ham den dagen og de n&#x00E6;rmest f&#x00F8;lgende? I nye sorte kl&#x00E6;r, som sad udm&#x00E6;rket. Bleg og interessant. Jeg har aldrig set ham saa smuk. Kvinderne &#x2013; iagttog ham med levende interesse. Og det syntes egentlig ikke at v&#x00E6;re ham imod&#x2026;</p>
+</sp>
+<sp>
+<speaker>Wentzel.</speaker>
+<p rend="noIndent">Mon?</p>
+</sp>
+<sp>
+<speaker><pb n="121"/>Erik Rein.</speaker>
+<p rend="noIndent">Naa. En skal vogte sig for at bli bitter.</p>
+</sp>
+<sp>
+<speaker>Wentzel.</speaker>
+<p rend="noIndent">Ja. Og ta menneskene som de er. Der er meget godt ved Sven. Nu f. ex. det, at han er saa &#x2013; saa &#x2013;</p>
+</sp>
+<sp>
+<speaker>Erik Rein</speaker>
+<stage>ler.</stage>
+<p rend="noIndent">Underholdende. For en selskabelig natur. En glemmer at kede sig, hvad?</p>
+</sp>
+<sp>
+<speaker>Wentzel.</speaker>
+<p rend="noIndent">Hm&#x2026; Jeg er skr&#x00E6;kkelig bange for at kede mig. For tomheden hver dag &#x2013;. Jeg liker mennesker, som ikke er af de tretten paa dusinet.</p>
+</sp>
+<sp>
+<speaker>Sven Bryde</speaker>
+<stage>ind med nogen pakker.</stage>
+<p rend="noIndent">Godmorgen!</p>
+<stage>Til <hi rend="bold">Erik Rein</hi>, ryster hans haand.</stage>
+<p rend="noIndent">Velkommen! Ja, nu skal vi straks k&#x00F8;re. Vognen var alt herudenfor. Men jeg sendte den bort paa en halv time. Vi faar vente paa Brager. Han blev opholdt en liden stund, sa han. Jeg m&#x00F8;dte ham.</p>
+</sp>
+<sp>
+<speaker>Wentzel.</speaker>
+<p rend="noIndent">Det skal altsaa bli alvor nu. Du reiser virkelig iaften?</p>
+</sp>
+<sp>
+<speaker>Sven Bryde.</speaker>
+<p rend="noIndent">Ja, du ser.</p>
+<stage><pb n="122"/>Peger omkring.</stage>
+<p rend="noIndent">Her er forberedelser nok. Dette hadde jeg t&#x00E6;nkt at fuldf&#x00F8;re, naar vi kom hjem ved aftenstid. Toget nordover gaar kl. lidt over 11, saa det blir endnu tid. Men nu kan jeg ligesaa godt bli ved til Bj&#x00F8;rn kommer. Her &#x2013; er cigarer, mine venner.</p>
+<stage>Han s&#x00E6;tter en kasse paa bordet.</stage>
+<p rend="noIndent">Og de er ikke daarlige. Ta dere en r&#x00F8;g saal&#x00E6;nge.</p>
+<stage>De t&#x00E6;nder cigarerne. Sven Bryde t&#x00E6;nder selv en.</stage>
+<p rend="noIndent">For&#x00E6;ring fra min far. Han holder bare f&#x00F8;rste klasses. Nu tillader I, at jeg l&#x00E6;gger ned disse sagerne her.</p>
+<stage>Han begynder hurtig at pakke ned genstande, tar fra v&#x00E6;ggene, fra bordet, aabner skuffer etc. Blir ved at tale, mens han pakker.</stage>
+<p rend="noIndent">Du skal jo bo her, Wentzel, efter mig. Ikke saa n&#x00F8;ie, om jeg ikke faar alt med. Ta vare paa det. Det d&#x00E9;r <stage>peger</stage> kan bli h&#x00E6;ngende. Fotografierne? Apropos, har dere set det sidste. Af Olga? Her&#x2026;</p>
+<stage>De betragter fotografiet.</stage>
+<p rend="noIndent">Ganske i stilen, ikke sandt? En rank fuldrigger. Dame til fingerspidserne, hvad?</p>
+</sp>
+<sp>
+<speaker>Wentzel.</speaker>
+<p rend="noIndent">Det er meget godt.</p>
+</sp>
+<sp>
+<speaker>Sven Bryde.</speaker>
+<p rend="noIndent">Ja. Du har set hende. Men et billede siger ingenting. Det er ikke damen, jeg s&#x00E6;tter mest <pb n="123"/>pris paa. Hun har sj&#x00E6;l, du, et hjerte af guld, i sin tilbageholdenhed. En s&#x00F8;dme&#x2026; Et lifligt v&#x00E6;ld af &#x00F8;mhed.</p>
+<stage>Ler.</stage>
+<p rend="noIndent">Hun elsker min lillefinger. Men bevares, fordringer har hun. Livsens fordringer. Det b&#x00F8;r en ogsaa ha. Jeg tr&#x00E6;nger det saagar. Faar opdrages, jeg. Det har de nok forstaat, mine venner deroppe.</p>
+<stage>Bev&#x00E6;get.</stage>
+<p rend="noIndent">Ja, Gud har v&#x00E6;ret naadig mod mig. Jeg kommer til en havn. Og lidt gl&#x00E6;de har jeg da git dem igen. De l&#x00E6;nges efter mig nu. Blir en sk&#x00F8;n tid, mod vaaren og sommeren. Jeg t&#x00F8;r invitere dere alle tre hjem, naar villaen er f&#x00E6;rdig. Den ligger en kilometer fra fars gaard. Men til vinteren t&#x00E6;nker vi at bo i byen.</p>
+<stage>Han blir ved at l&#x00E6;gge sager ned, hurtig og beh&#x00E6;ndig, mens de andre tier og r&#x00F8;ger. Blir staaende med noget i haanden.</stage>
+<p rend="noIndent">Der er minder ved alting. Naar en skal reise og rydde op ide gamle sager. Se denne&#x2026; Barnets, Veslas v&#x00E6;rkt&#x00F8;iv&#x00E6;ske, som hun sydde til mig en formiddagsstund af gamle r&#x00F8;de og sorte kl&#x00E6;desrester, &#x2013; det tog bare et kvarter for hende. Hun var neth&#x00E6;ndt med fingrene sine. Gud velsigne hende&#x2026; Saa fattige vi var. Ja, det var de onde dage. Hadde jeg kunnet gi hende nogen flere af de gode!</p>
+<stage>Han stanser arbeidet, sukker og vedblir t&#x00E6;nksomt at r&#x00F8;ge. Gaar frem og tilbage.</stage>
+<p rend="noIndent"><pb n="124"/>Barnet, ja. Hun kunde endnu v&#x00E6;ret iblandt os. Glad som en fugl. Hun var en god kamerat. Kanske den bedste, jeg har havt og faar. Det var en s&#x00E6;revne hos hende. Men hun forstod ikke livet. Gik bort i en vildfarelse. Aah &#x2013; Jeg ser paa dere, f&#x00F8;ler, at I t&#x00E6;nker paa hende i dette minut, som jeg&#x2026;</p>
+</sp>
+<sp>
+<speaker>Erik Rein.</speaker>
+<p rend="noIndent">Jeg t&#x00E6;nkte &#x2013; paa, hvad De talte om vildfarelse. Hvilken var den? Hvad mener De?</p>
+</sp>
+<sp>
+<speaker>Sven Bryde.</speaker>
+<p rend="noIndent">Jeg mener denne hendes fikse id&#x00E9;. At vi h&#x00F8;rte sammen, for livet. Vi to, som var saa forskellige.</p>
+</sp>
+<sp>
+<speaker>Erik Rein.</speaker>
+<p rend="noIndent">Er De vis paa, at hun ikke hadde ret? De siger, hun var Deres kamerat. Deres veninde som ingen anden.</p>
+</sp>
+<sp>
+<speaker>Sven Bryde.</speaker>
+<p rend="noIndent">En maa f&#x00F8;le en kvinde som sin elskerinde. Ser De&#x2026; Hun passed mulig til en <emph>andens</emph> elskerinde. Ikke til mig. Hadde n&#x00E6;r sagt, hun var for intelligent for mig.</p>
+<stage>Ryster paa hodet.</stage>
+<p rend="noIndent">Jeg forstod hende ikke, altid.</p>
+</sp>
+<sp>
+<speaker>Erik Rein.</speaker>
+<p rend="noIndent">Kanske fordi det at v&#x00E6;re elskerinde ikke var det h&#x00F8;ieste for <emph>hende</emph>. Er De vis paa, at det <pb n="125"/>ikke er <emph>da</emph>, det varer? &#x2013; Jeg har begyndt at forstaa. Hun har l&#x00E6;rt mig meget. Men &#x2013; hvem forstod. Hun var langt borte fra os. Bev&#x00E6;ged sig, saa at si, paa et andet plan&#x2026;</p>
+</sp>
+<sp>
+<speaker>Sven Bryde.</speaker>
+<p rend="noIndent">Det var ikke Jordens, nei. Menneskelivets, med sine forviklinger og sin forandring. Hun var aldrig med paa alle disse knuder. Hvem t&#x00E6;nker det samme naar han er 12 aar, som naar han er 20. Hendes vildfarelse var, at hun ikke kunde f&#x00F8;lge med.</p>
+</sp>
+<sp>
+<speaker>Erik Rein.</speaker>
+<p rend="noIndent">Eller mulig Deres, at <emph>De</emph> ikke kunde f&#x00F8;lge med. Hun talte engang om Gud. Hun sa, at han var trofast. Igennem forvandlingerne, mente hun vel. I onde og gode dage. At vi skulde v&#x00E6;re som han&#x2026;</p>
+</sp>
+<sp>
+<speaker>Sven Bryde.</speaker>
+<p rend="noIndent">Ja. Hun trode paa Gud. Hun var en barnesj&#x00E6;l. Kom egentlig aldrig over 12 aar.</p>
+</sp>
+<sp>
+<speaker>Wentzel.</speaker>
+<p rend="noIndent">Der var magt i den barnesj&#x00E6;l. &#x2013; Trofast? Det er hun endnu, v&#x00E6;r vis paa d&#x00E9;t. Og Gud er med hende. V&#x00E6;r vis paa d&#x00E9;t.</p>
+</sp>
+<sp>
+<speaker>Sven Bryde.</speaker>
+<p rend="noIndent">Hun drager besynderlig&#x2026; Man glemmer hende aldrig. Men os kalder livet nu. Handling, <pb n="126"/>pligter, gl&#x00E6;de. Brudgomsf&#x00E6;rd&#x2026; Det blev nu saa.</p>
+<stage>Han begynder at l&#x00E6;gge ting ned igen. En lirekasse begynder pludselig at spille under de aabne vinduer.</stage>
+<p rend="noIndent">Musik. Sjelden vare herhjemme. Blir snart slut. Jaget bort&#x2026;</p>
+</sp>
+<sp>
+<speaker>Wentzel</speaker>
+<stage>ser ud af vinduet.</stage>
+<p rend="noIndent">Den er ikke af de aller daarligste. Hvad man kalder en orkestron.</p>
+</sp>
+<sp>
+<speaker>Erik Rein</speaker>
+<stage>ogsaa til vinduet, om lidt.</stage>
+<p rend="noIndent">Wentzel&#x2026; Se! De er saa n&#x00E6;rsynt. Det er &#x2013; det er jo manden fra den gang.</p>
+</sp>
+<sp>
+<speaker>Wentzel.</speaker>
+<p rend="noIndent">Hvilken mand?</p>
+</sp>
+<sp>
+<speaker>Erik Rein.</speaker>
+<p rend="noIndent">Manden fra den aften. Ifjor. Paa restauranten</p>
+</sp>
+<sp>
+<speaker>Wentzel.</speaker>
+<p rend="noIndent">Det er det ogsaa.</p>
+</sp>
+<sp>
+<speaker>Sven Bryde</speaker>
+<stage>blir opm&#x00E6;rksom og gaar ogsaa til vinduet. De staar der et &#x00F8;ieblik alle tre. Utaalmodig.</stage>
+<p rend="noIndent">Saa. Nu har han opdaget os. Han hilser. Kommer vist herop.</p>
+<stage>Gaar hastig fra vinduet hen til kufferterne. Det banker.</stage>
+</sp>
+<sp>
+<speaker><pb n="127"/>Manden</speaker>
+<stage>i d&#x00F8;ren.</stage>
+<p rend="noIndent">Undskyld&#x2026; Entr&#x00E9; stod oppe. Hilse paa herrerne en sekund. Kende dem alle tre&#x2026; Reise? Gl&#x00FC;cklig reise. Tak. Mange tak. Bare en sekund&#x2026;</p>
+<stage>De gir ham alle hver en smaamynt.</stage>
+</sp>
+<sp>
+<speaker>Sven Bryde</speaker>
+<stage>siger kort.</stage>
+<p rend="noIndent">Vi har travlt.</p>
+</sp>
+<sp>
+<speaker>Manden.</speaker>
+<p rend="noIndent">Jeg skal go. Herren skal reise. Gl&#x00FC;cklig. Farvel. Manke tak!</p>
+<stage>Han hilser flere gange med luen og svinger den, gaar.</stage>
+</sp>
+<sp>
+<speaker>Sven Bryde.</speaker>
+<p rend="noIndent">Det er en uhyggelig fremtoning. Han g&#x00F8;r en helt nerv&#x00F8;s.</p>
+</sp>
+<sp>
+<speaker>Wentzel</speaker>
+<stage>ser ned.</stage>
+<p rend="noIndent">Nu blev han da &#x00AB;verbudt&#x00BB; som han sa. Og det af selve frk. Arnestad. Hun er <emph>vel</emph> opl&#x00E6;rt.</p>
+</sp>
+<sp>
+<speaker>Sven Bryde.</speaker>
+<p rend="noIndent">Det er ogsaa en man&#x00E9;r. At la entr&#x00E9;en staa aaben.</p>
+<stage>Han gaar mod udgangsd&#x00F8;ren.</stage>
+<p rend="noIndent">Naa. Der har vi Bj&#x00F8;rn. Kom du ogsaa gennem lukte d&#x00F8;re?</p>
+</sp>
+<sp>
+<speaker><pb n="128"/>Bj&#x00F8;rn Brager.</speaker>
+<p rend="noIndent">Frk. Arnestad lukked op for mig. Hun holdt paa at sk&#x00E6;lde ud en mand. Ved ikke, hvem det var.</p>
+</sp>
+<sp>
+<speaker>Sven Bryde.</speaker>
+<p rend="noIndent">Og vognen? Sa du til?</p>
+</sp>
+<sp>
+<speaker>Bj&#x00F8;rn Brager.</speaker>
+<p rend="noIndent">Den er her straks.</p>
+</sp>
+<sp>
+<speaker>Sven Bryde</speaker>
+<stage>har lukket laaget til paa den ene store kuffert og laaser den</stage>
+<p rend="noIndent">Nu er d&#x00E9;t bestilt. Bedst at bli f&#x00E6;rdig med det andet ogsaa. Det er gjort paa to minutter nu, resten.</p>
+<stage>Han ser sig om.</stage>
+</sp>
+<sp>
+<speaker>Bj&#x00F8;rn Brager.</speaker>
+<p rend="noIndent">Skal vi ha alt dette med os paa forn&#x00F8;ielsesturen.</p>
+<stage>Ler.</stage>
+<p rend="noIndent">Det blir ordentlig drass.</p>
+</sp>
+<sp>
+<speaker>Sven Bryde.</speaker>
+<p rend="noIndent">Du kunde heller hj&#x00E6;lpe mig. Eller ta dig en cigar saal&#x00E6;nge.</p>
+</sp>
+<sp>
+<speaker>Bj&#x00F8;rn Brager.</speaker>
+<p rend="noIndent">Tak. Begge dele.</p>
+<stage>Han t&#x00E6;nder en cigar, l&#x00E6;gger den fra sig og tar den igen.</stage>
+<p rend="noIndent">Skal hj&#x00E6;lpe dig, jeg.</p>
+<stage>Begynder at rumstere.</stage>
+</sp>
+<sp>
+<speaker><pb n="129"/>Sven Bryde</speaker>
+<stage>laaser den anden kuffert.</stage>
+<p rend="noIndent">Nu er det bare haandkufferten igen. Min ber&#x00F8;mte haandkuffert. Den har fulgt mig tro i disse aarene. Paa udenlandsturene og hjemme.</p>
+<stage>Til <hi rend="bold">Bj&#x00F8;rn</hi> som roder i kommodeskuffer og andre steder.</stage>
+<p rend="noIndent">Jeg beh&#x00F8;ver ikke alt det, du hober op der. T&#x00F8;iet i den nederste skuffe kan bli liggende. H&#x00F8;rer du.</p>
+</sp>
+<sp>
+<speaker>Bj&#x00F8;rn Brager</speaker>
+<stage>betragter flere genstande.</stage>
+<p rend="noIndent">Her er saa mange rare ting. Gud ved, hvad du har samlet paa i alle disse aarene. Saan er det at v&#x00E6;re fastboende hos frk. Arnestad. Kommer vel til at ende med at flytte hid, jeg ogsaa.</p>
+</sp>
+<sp>
+<speaker>Wentzel.</speaker>
+<p rend="noIndent">Du vilde sikkert bli vel modtat. Men blir I ikke snart f&#x00E6;rdige. Nu har vi vognen. Jeg begynder at l&#x00E6;nges efter&#x2026;</p>
+</sp>
+<sp>
+<speaker>Bj&#x00F8;rn Brager.</speaker>
+<p rend="noIndent">Suppen og fisken?</p>
+</sp>
+<sp>
+<speaker>Sven Bryde.</speaker>
+<p rend="noIndent">Ja, den venter. Deroppe paa h&#x00F8;iden. Men den blir ikke kold.</p>
+</sp>
+<sp>
+<speaker>Wentzel.</speaker>
+<p rend="noIndent">Hvor har jeg nu lagt mine hansker?</p>
+<stage>Gaar og leder efter dem.</stage>
+</sp>
+<sp>
+<speaker><pb n="130"/>Sven Bryde.</speaker>
+<p rend="noIndent">Bj&#x00F8;rn, r&#x00E6;k mig bunken der. Den fra den tredie skuf. Altsammen. Saa.</p>
+</sp>
+<sp>
+<speaker>Bj&#x00F8;rn Brager</speaker>
+<stage>med en genstand.</stage>
+<p rend="noIndent">Hvad er nu dette? Hvad? Et dyrehode i bronce, eller kobber &#x2013; og elfenben. En gammel rusten revolver. Det var snurrigt.</p>
+<stage>Han unders&#x00F8;ger og fingrer med den.</stage>
+<p rend="noIndent"><emph>Den</emph> er jo ubrugelig.</p>
+</sp>
+<sp>
+<speaker>Sven Bryde</speaker>
+<stage>ser op.</stage>
+<p rend="noIndent">Nei. Lad den nu ligge. Hvor fandt du den? Gi mig den hid&#x2026;</p>
+</sp>
+<sp>
+<speaker>Wentzel</speaker>
+<stage>hastig.</stage>
+<p rend="noIndent">Vil du la v&#x00E6;re, Brager. Vil du? Skal vi da aldrig bli den forbandede tingest kvit! Det siger jeg dig, Sven. Du tar den med. Jeg vil ikke ha den her.</p>
+</sp>
+<sp>
+<speaker>Brager</speaker>
+<stage>beroligende.</stage>
+<p rend="noIndent">Men den er ganske uskadelig&#x2026;. Se her. Hanen bev&#x00E6;ger sig ikke, eller fj&#x00E6;ren glipper. Der er et stykke af sk&#x00E6;ftet, og l&#x00F8;bet er itu, og skruer borte. Se selv paa den&#x2026;</p>
+</sp>
+<sp>
+<speaker>Wentzel.</speaker>
+<p rend="noIndent">Jeg vil ikke r&#x00F8;re den med min lillefinger&#x2026;</p>
+</sp>
+<sp>
+<speaker><pb n="131"/>Bj&#x00F8;rn Brager.</speaker>
+<p rend="noIndent">Har I set noget saa gammelt og antikveret. Som fra forrige aarhundrede. En kuriositet, ganske sjelden&#x2026;</p>
+</sp>
+<sp>
+<speaker>Sven Bryde,</speaker>
+<stage>utaalmodig.</stage>
+<p rend="noIndent">Gi den hid, Bj&#x00F8;rn! Selv om du ikke var n&#x00E6;rv&#x00E6;rende, sk&#x00F8;nner du vel&#x2026;</p>
+<stage>Han blir staaende og fikle med vaabenet, ligesom troldbunden.</stage>
+</sp>
+<sp>
+<speaker>Bj&#x00F8;rn Brager</speaker>
+<stage>begriber med &#x00E9;t.</stage>
+<p rend="noIndent">Naa, saa</p>
+</sp>
+<sp>
+<speaker>Erik Rein</speaker>
+<stage>hurtig.</stage>
+<p rend="noIndent">Maa jeg se den?</p>
+<stage>Han tar den fra <hi rend="bold">Sven</hi> med en vis &#x00E6;ngstelse. Unders&#x00F8;ger og pr&#x00F8;ver den med l&#x00F8;bet vendt ud mod v&#x00E6;ggen. Fj&#x00E6;ren glipper gang paa gang.</stage>
+</sp>
+<sp>
+<speaker>Wentzel</speaker>
+<stage>fortvilet og rasende.</stage>
+<p rend="noIndent">Kan I la den v&#x00E6;re! Mandfolk skal fingre ved alting&#x2026;. Den ulyksalige fingringen&#x2026;</p>
+</sp>
+<sp>
+<speaker>Erik Rein.</speaker>
+<p rend="noIndent">De ser, der er ingen fare. Den g&#x00F8;r ingen skade mere.</p>
+</sp>
+<sp>
+<speaker>Sven Bryde,</speaker>
+<stage>ler, tar den tilbage fra <hi rend="bold">Erik Reins</hi> haand.</stage>
+<p rend="noIndent">Du er en k&#x00E6;rring, Wentzel. Se her&#x2026; Det <pb n="132"/>kan g&#x00F8;res gang paa gang, fj&#x00E6;ren virker ikke. Overbevis dig da&#x2026;</p>
+<stage>Han gentar flere gange, unders&#x00F8;ger og holder den i iveren lige mod ansigtet. Pludselig smelder et skud.</stage>
+</sp>
+<stage><hi rend="bold">Sven Bryde</hi> styrter om. Han gribes i faldet af de andre undtagen <hi rend="bold">Wentzel</hi>, som r&#x00E6;dselslagen er veget til side.</stage>
+<sp>
+<speaker>Bj&#x00F8;rn Brager,</speaker>
+<stage>b&#x00F8;ier sig ned over legemet, som stivner til, og unders&#x00F8;ger i hast. Mumler afbrudt.</stage>
+<p rend="noIndent">Gennem kindet&#x2026; Op i hjernen&#x2026;</p>
+</sp>
+<sp>
+<speaker>Erik Rein.</speaker>
+<p rend="noIndent">Forbi &#x2013;?</p>
+</sp>
+<stage><hi rend="bold">Brager</hi> b&#x00F8;ier hodet.</stage>
+<sp>
+<speaker>Wentzel</speaker>
+<stage>l&#x00E6;ngere tilside, st&#x00F8;nner, h&#x00E6;nderne for &#x00F8;inene.</stage>
+<p rend="noIndent">Alm&#x00E6;gtige Gud!</p>
+</sp>
+</div>
+</body>
+</text>
+</TEI>

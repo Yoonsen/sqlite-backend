@@ -1,0 +1,1425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI PUBLIC "-// TEI P5 //EN" "http://www.tei-c.org/release/xml/tei/custom/schema/dtd/tei_all.dtd">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="BS_Zwilgmeyer_AnnikkenPraestgaren">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>bokselskap.no, Oslo 2021
+<lb/>Dikken Zwilgmeyer: <hi rend="italic">Annikken Pr&#x00E6;stgaren</hi>
+<lb/>Teksten i bokselskap.no f&#x00F8;lger 1. utgave, 1900 (Kristiania/Det norske aktieforlag). Digitaliseringen er basert p&#x00E5; fil mottatt fra Nasjonalbiblioteket (nb.no).
+<lb/>ISBN: 978-82-8319-642-9 (bokselskap.no), <lb/>978-82-8319-643-6 (epub), 978-82-8319-644-3 (mobi)
+</title>
+</titleStmt>
+<publicationStmt>
+<p>Publiseres som digital tekst av bokselskap.no.</p></publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Annikken Pr&#x00E6;stgaren</title>
+<author>Dikken Zwilgmeyer</author>
+<publisher>Det norske aktieforlag</publisher>
+<pubPlace>Kristiania</pubPlace>
+<date>1890</date>
+<note>digibok_2013111824001_ocr_xml.txt (mottatt fra Nasjonalbiblioteket 2021)</note>
+</bibl>
+</sourceDesc>
+</fileDesc>
+<revisionDesc>
+<change who="ENW" when="2021-12-28">Lagt inn ISBN.</change>
+<change who="ENW" when="2021-12-17">Lagt inn korrekturrettelser. Sjekket sidereferanser. Sjekket entiteter. Ny kodekontroll og validering.</change>
+<change xml:id="ENW" who="ENW" when="2021-02-23">XML-koding. Entiteter, kodekontroll og validering. Klar for korrektur.</change>
+</revisionDesc>
+</teiHeader>
+<text xml:id="BS_Zwilgmeyer_AnnikkenPraestgaren_tekst" type="collection">
+<front>
+<titlePage type="main">
+<byline><docAuthor>Dikken Zwilgmeyer</docAuthor></byline>
+<docTitle>
+<titlePart type="main">Annikken Pr&#x00E6;stgaren</titlePart>
+</docTitle>
+<docDate>bokselskap.no<lb/>Oslo 2021</docDate>
+</titlePage>
+<div xml:id="contents">
+<list type="contents_main">
+<item><ref target="chapter_1" xml:id="contents_1">Annikkens hjem</ref></item>
+<item><ref target="chapter_2" xml:id="contents_2">Moro</ref></item>
+<item><ref target="chapter_3" xml:id="contents_3">Annikken og br&#x00F8;drene</ref></item>
+<item><ref target="chapter_4" xml:id="contents_4">Lina Gr&#x00E6;svig</ref></item>
+<item><ref target="chapter_5" xml:id="contents_5">Maren Anne og Ebba</ref></item>
+<item><ref target="chapter_6" xml:id="contents_6">Mod</ref></item>
+<item><ref target="chapter_7" xml:id="contents_7">Per Kraffts hjem</ref></item>
+<item><ref target="chapter_8" xml:id="contents_8">Da Lina Gr&#x00E6;svig d&#x00F8;de</ref></item>
+<item><ref target="chapter_9" xml:id="contents_9">Oppe paa Movig</ref></item>
+<item><ref target="chapter_10" xml:id="contents_10">Annikken og Per Krafft</ref></item>
+<item><ref target="chapter_11" xml:id="contents_11">Branden</ref></item>
+<item><ref target="chapter_12" xml:id="contents_12">Brev fra Ebba til Tilda</ref></item>
+<item><ref target="chapter_13" xml:id="contents_13">Brev fra Annikken til Maren Anne</ref></item>
+<item><ref target="chapter_14" xml:id="contents_14">Annikkens konfirmationsdag</ref></item>
+<item><ref target="chapter_15" xml:id="contents_15">Slutning</ref></item>
+</list>
+</div>
+</front>
+<body>
+<div type="chapter">
+<head type="main"><ref type="contents" target="contents_1" xml:id="chapter_1">Annikkens hjem</ref></head>
+<p><pb n="1"/>Der gled en liden sj&#x00E6;gte med storseil og fok oppe sagtelig ind gjennem gabet, der f&#x00F8;rte ret tilhavs. Det hed egentlig Gr&#x00F8;nsundsgabet, men spor af gr&#x00F8;nt var der rigtignok ikke at se.</p>
+<p>Heiene, de runde lave heier, vaskede og slitne af b&#x00F8;lgernes slag, var graa, bare graa, med spr&#x00E6;kker og furer. Ikke var der mose, og ikke var der lav, bare den glatte, n&#x00F8;gne sten. Men tangen, der laa i store vaser indmed holmerne og gyngede saa sagte i d&#x00F8;nningerne ude fra havet, var gyldengul, og himmelen underlig d&#x00E6;mrende blaa i den tidlige junidags aften.</p>
+<p>Og sj&#x00F8;en, den stolte, friske sj&#x00F8;, der klukkede under den tj&#x00E6;rebredde sj&#x00E6;gte og plaskede med et lidet, kj&#x00E6;lent slag om igjen og om igjen opefter de n&#x00F8;gne holmer, den var gr&#x00F8;nlig klar, spillende frisk, skiftende i blaat og i sort. Og l&#x00E6;ngst ude ved den yderste holme var der i den stille aften en fin liden perlende krans af sj&#x00F8;skum.</p>
+<p>Langt derinde laa byen, den lille by, t&#x00E6;t opunder <pb n="2"/>de h&#x00F8;ie heier. Endog langt herude fra sj&#x00F8;en saa man husene, hvide og skarpe, i en runding rundt havnen, men opover heiene laa smaahusene str&#x00F8;ede udover, r&#x00F8;de og gule og graa, med r&#x00F8;gen ret tilveirs i den stille, lyse luft. Indved bryggerne saa man masterne af sj&#x00E6;gter og smaaskuder, en hel liden skov af master der inderst inde.</p>
+<p>Og alting var saa klart og dog saa bl&#x00F8;dt og saa stille.</p>
+<p>Oppe i sj&#x00E6;gten sad der fire barn og en st&#x00F8;rre, ung pige. Det var en bredvokset, ung skikkelse med et stort, lyst ansigt og en bred n&#x00E6;se med fregner. Hun passede roret og seilet paa samme tid, det tynde, lysegule haar viftede hende om kinderne. H&#x00E6;nderne var brede og r&#x00F8;de med kraftige haandled.</p>
+<p>Ret overfor hende paa toften sad s&#x00F8;steren Magna. R&#x00F8;dgul i haaret, bred som s&#x00F8;steren med bitte smaa muset&#x00E6;nder, stort tandkj&#x00F8;d, og leende med sine tolv aar, det var Magna.</p>
+<p>Br&#x00F8;drene Svend, Erik og Nils var ogsaa brede, fregnede og lysegule.</p>
+<p>Svend sad midt i baaden. For &#x00F8;ieblikket underholdt han sig med at gribe efter alle de r&#x00F8;dblaa, slimede manetstraaler, der kom indenfor hans r&#x00E6;kkevidde, medens Erik og Nils spillede femkort om knapper i forenden af baaden.</p>
+<p>For at undgaa, at Erik skulde se hans kort, havde Nils, som var otte aar, indrettet sig paa en, som han selv syntes, overmaade praktisk maade. Han havde nemlig lagt alle sine kort opslagne bag <pb n="3"/>seilet i forenden af baaden. Hver gang, han saa skulde spille ud et kort, maatte han klyve over en tofte, krybe bag seilet, og hente det frem.</p>
+<p>&#x00AB;Det var da en besv&#x00E6;rlig maade at spille kort paa,&#x00BB; sagde Magna voksent.</p>
+<p>Nils dukkede frem under seilet med en hjerterto.</p>
+<p>&#x00AB;Langtifra,&#x00BB; sagde han, &#x00AB;det er saa letvindt saa, &#x2013; Erik er saa grov til at kikke i kortene mine, men nu skal han v&#x00E6;re blaa for at se &#x2013;&#x00BB;</p>
+<p>Han var &#x00F8;iensynlig stolt over denne sin nye opfindelse at spille kort paa.</p>
+<p>To snehvide maager, kredsede, flaksede og kastede sig lynsnart over deres hoveder.</p>
+<p>&#x00AB;Aa se maagerne, Annikken,&#x00BB; raabte Magna.</p>
+<p>&#x00AB;Nei for en diger manet,&#x00BB; raabte Svend, &#x00AB;se der sj&#x00F8;mand R&#x00F8;st.&#x00BB;</p>
+<p>Det lod til, at s&#x00F8;steren ogsaa l&#x00F8;d dette navn, hun saa interesseret efter maneten.</p>
+<p>&#x00AB;Ja den var stor.&#x00BB;</p>
+<p>&#x00AB;Han er lumpen, han fusker,&#x00BB; raabte Nils &#x00AB;&#x2013; han<note type="footnote">&#x00AB;&#x2013; han] <hi rend="italic">rettet fra:</hi> &#x2013; han <hi rend="italic">(trykkfeil)</hi></note> fusker, sj&#x00F8;mand R&#x00F8;st.&#x00BB;</p>
+<p>&#x00AB;Det er skam at fuske,&#x00BB; sagde sj&#x00F8;mand R&#x00F8;st alvorlig.</p>
+<p>&#x00AB;Hvis jeg var dig, vilde jeg ikke hede sj&#x00F8;mand R&#x00F8;st l&#x00E6;ngere,&#x00BB; sa Magna og viste tandkj&#x00F8;d.</p>
+<p>&#x00AB;Det er jo bare gutterne, der gj&#x00F8;r det,&#x00BB; sa Annikken.</p>
+<p>&#x00AB;Nei de kalder dig det i byen ogsaa &#x2013;&#x00BB;</p>
+<p>&#x00AB;Jo hun skal hede sj&#x00F8;mand R&#x00F8;st,&#x00BB; sagde Svend, <pb n="4"/>&#x00AB;for hun er saa flink i baaden og saa grov til at raabe.&#x00BB;</p>
+<p>&#x00AB;Aa gid, ja, slig r&#x00F8;st som Annikken har,&#x00BB; sagde Erik og trumfede i toften.</p>
+<p>Annikken, alias sj&#x00F8;mand R&#x00F8;st, sad aldeles uanf&#x00E6;gtet, som det hele slet ikke angik hende.</p>
+<p>&#x00AB;Bare vi ikke kommer forsent til andagten,&#x00BB; sagde hun pludselig.</p>
+<p>&#x00AB;Gid det var saa vel,&#x00BB; sagde Svend.</p>
+<p>&#x00AB;Fy at snakke saadan,&#x00BB; sagde Annikken.</p>
+<p>De havde ulovendes v&#x00E6;ret en sving udenfor &#x00F8;erne. Egentlig havde de ikke lov at seile andetsteds end inde paa havnen.</p>
+<p>Men iaften havde det v&#x00E6;ret saa altfor fristende, uden at de n&#x00E6;sten vidste af det, var sj&#x00E6;gten gledet udenfor paa de lange, blanke d&#x00F8;nninger.</p>
+<p>Det kneb nu at komme tidsnok hjem. Ingen af dem havde uhr, saa tiden var aldeles i det blaa.</p>
+<p>&#x00AB;Even Flisvika roede hjem, da vi seilede udover,&#x00BB; sagde Erik. Det var &#x00F8;iensynlig en gj&#x00E6;ngs tidsregning.</p>
+<p>&#x00AB;Da kommer vi forsent,&#x00BB; sagde Annikken bet&#x00E6;nkelig, &#x00AB;vi maa ta til aarerne.&#x00BB;</p>
+<p>Erik og Nils snakkede bag seilet om nytten af at holde andagt.</p>
+<p>&#x00AB;Det er nok pent,&#x00BB; sagde Erik med sine ti aar, &#x00AB;men det er saa kjedeligt saa.&#x00BB;</p>
+<p>&#x00AB;Nu snakker du stygt,&#x00BB; sagde Annikken.</p>
+<p>&#x00AB;Ja synes du, det er gjildt da kanske at ha denne andagten over sig bestandig,&#x00BB; sagde Erik.</p>
+<p>&#x00AB;Ja jeg liker det,&#x00BB; sagde hun kort.</p>
+<p><pb n="5"/>&#x00AB;Hvorfor liker du det da,&#x00BB; sagde Erik.</p>
+<p>F&#x00F8;rst intet svar. Erik spurgte igjen.</p>
+<p>&#x00AB;Aa &#x2013; jeg liker at t&#x00E6;nke paa, at det er nogen, der er st&#x00F8;rre end menneskene&#x00BB;. Annikken saa langt ud for sig, vilde ikke m&#x00F8;de nogen af s&#x00F8;skendernes blik, som om hun blev generet for det, hun sagde.</p>
+<p>Der blev en dyb taushed. De var ikke vant til at snakke om religi&#x00F8;se ting sig imellem. Det var ligesom saa rart, at Annikken havde sagt det. Magna skvalpede med h&#x00E6;nderne i sj&#x00F8;en. Det er sandt det, som Annikken sagde, t&#x00E6;nkte hun. Men hun sagde ingenting, hun heller.</p>
+<p>Men lille Nils kunde ikke l&#x00E6;nge vedligeholde den religi&#x00F8;se taushed.</p>
+<p>&#x00AB;Nei igaar julede jeg Peder Even grundig op,&#x00BB; brast det aldeles umotiveret ud af ham.</p>
+<p>&#x00AB;Du da,&#x00BB; sagde Svend.</p>
+<p>&#x00AB;Ja du kan l&#x00E6;gge beg paa, at jeg julede ham,&#x00BB; sagde Nils, &#x00AB;kjend hvor st&#x00E6;rke muskler, jeg har, akkurat som en rund bue, saadan skal &#x00E6;gte muskler v&#x00E6;re, gut &#x2013;&#x00BB;</p>
+<p>&#x00AB;Nei, kjend paa mine muskler,&#x00BB; sagde Erik.</p>
+<p>&#x00AB;Nei, kjend her,&#x00BB; sagde Svend.</p>
+<p>Der blev en almindelig muskelunders&#x00F8;gelse.</p>
+<p>&#x00AB;Jeg har da muskler jeg ogsaa,&#x00BB; sagde Magna og sp&#x00E6;ndte sin brede, lille arm.</p>
+<p>&#x00AB;De er ikke v&#x00E6;rst,&#x00BB; sagde Svend overlegent, &#x00AB;men det er nu bare jentemuskler da,&#x00BB; sagde han henvendt til de &#x00F8;vrige.</p>
+<p>&#x00AB;Ja naturligvis forholdsvis,&#x00BB; sagde Erik.</p>
+<p><pb n="6"/>Naa endelig, der var de ved land. Baaden blev fort&#x00F8;iet i en fart, og allesammen tog paa sprang opigjennem de smaa, stille gader. Smaabarn spillede jeppe og slog bal midt i gaderne, og l&#x00E6;ngere oppe i byen hang store violette syrenklaser udover fortouget gjennem havestakitterne.</p>
+<p>&#x00AB;Kjend, hvor de dufter,&#x00BB; sagde Annikken.</p>
+<p>De andre fire unge n&#x00E6;ser snufsede.</p>
+<p>&#x00AB;Ja her lugtede vist noget.&#x00BB;</p>
+<p>Saa t&#x00E6;nkte de ikke mere paa det.</p>
+<p>&#x2013; Pastoren sad alt ved det runde bord midt i den store sal, med salmebog og testamente og ventede paa sine barn.</p>
+<p>Det var et langt, roligt, alvorligt ansigt, der han sad med foldede h&#x00E6;nder og stirrede ud for sig. Han bar sit hoved h&#x00F8;it og stirrede ud som efter noget fjernt langt borte.</p>
+<p>Hans kone sad paa en r&#x00F8;rstol med den mindste lille gut paa sit skj&#x00F8;d. Borte ved d&#x00F8;ren sad de to tjenestepiger paa rad.</p>
+<p>&#x00AB;Du mor, det er dog for galt, at b&#x00F8;rnene aldrig passer andagten.&#x00BB;</p>
+<p>&#x00AB;Ja.&#x00BB;</p>
+<p>Et &#x00F8;iebliks taushed.</p>
+<p>&#x00AB;Aa ja, der kommer nok den tid, da de ogsaa tr&#x00E6;nger Guds ord,&#x00BB; sagde faderen. Han saa fremdeles langt ud.</p>
+<p>&#x00AB;Ja du kan v&#x00E6;re vis.&#x00BB;</p>
+<p>Der var et slags bred tryghed over moderen, <pb n="7"/>r&#x00F8;dgule farver, lidt sammensunken i figuren, men en kraftig ro over det hele.</p>
+<p>Der fl&#x00F8;i en humle surrende ind af det ene vindu, svirrede rundt i den store sal med de blaablomstrede v&#x00E6;gge og de gule d&#x00F8;re.</p>
+<p>Naa endelig, der h&#x00F8;rte de h&#x00F8;ie guttestemmer ude i gaarden. Annikken var alt i d&#x00F8;ren.</p>
+<p>&#x00AB;Der h&#x00F8;rer jeg lyden til Erik,&#x00BB; sa lille Kristoffer paa moderens skj&#x00F8;d.</p>
+<p>Der kom de allesammen, satte sig paa det yderste af stolekanterne og foldede de brune h&#x00E6;nder. De lignede alle moderen, r&#x00F8;dgule, brede og kraftige.</p>
+<p>&#x00AB;Ja saa er vi jo samlet,&#x00BB; sagde pr&#x00E6;sten</p>
+<p>&#x00AB;Nei &#x2013; Tilda.&#x00BB;</p>
+<p>&#x00AB;Aa Annikken, find Tilda.&#x00BB;</p>
+<p>Atter sank stilhed over den store sal med de blaablomstrede v&#x00E6;gge, over den stille fader der midt ved bordet med det l&#x00F8;ftede aandfulde hoved, og de st&#x00E6;rke, fregnede gutter.</p>
+<p>Annikken sprang gjennem en r&#x00E6;kke v&#x00E6;relser i det lange hus. Der traf hun endelig den &#x00E6;ldste s&#x00F8;ster. Hun kr&#x00F8;llede sig, havde en t&#x00E6;ndt lampe med en kr&#x00F8;ltang sat op i lampeglasset.</p>
+<p>&#x00AB;Tilda, far skal holde andagt.&#x00BB;</p>
+<p>&#x00AB;Alt nu,&#x00BB; sagde den slanke, unge pige med uforstyrrelig ro.</p>
+<p>&#x00AB;Du maa skynde dig.&#x00BB;</p>
+<p>&#x00AB;Ja jeg maa jo f&#x00F8;rst bli f&#x00E6;rdig, du, er ikke <pb n="8"/>denne haarfa&#x00E7;onen nydelig saadan bredt ved &#x00F8;rene.&#x00BB;</p>
+<p>&#x00AB;Aa, jeg ved ikke, jeg.&#x00BB;</p>
+<p>&#x00AB;Du skj&#x00F8;nner dig ikke paa nogen ting, ja jeg er jo n&#x00F8;dt til at v&#x00E6;re f&#x00E6;rdig vel.&#x00BB;</p>
+<p>&#x2013;&#x00AB;Vi synger den gamle salme,&#x00BB; sagde faderen: Hav tak for idag, Gud fader i himlen, der fremmed min sag!&#x00BB;</p>
+<p>Pr&#x00E6;stens h&#x00F8;ie stemme l&#x00F8;d ud i stilheden, de andre stemte lidt efter lidt i med. Tilda h&#x00F8;it og klart, Annikken dybt og alvorlig, medens pigerne borte ved d&#x00F8;ren sl&#x00E6;ngte i med nogen skarpe toner. Gutterne brummede ogsaa lidt, men det var ikke noget at tale om netop.</p>
+<p>Faderen l&#x00E6;ste d&#x00E6;mpet, men naar noget greb ham, s&#x00E6;rlig da noget lyrisk skj&#x00F8;nt, h&#x00E6;vede han stemmen, og r&#x00F8;sten skalv som i r&#x00F8;relse.</p>
+<p>Gutternes jernskoede h&#x00E6;ler klampede atter ud af gangen.</p>
+<p>&#x00AB;Du, mor, skal vi ikke gaa op paa heien i denne deilige aften.&#x00BB;</p>
+<p>&#x00AB;Jo gjerne, naar jeg har faat lille Kristoffer i seng.&#x00BB;</p>
+<p>Gutterne vilde ogsaa v&#x00E6;re med, og Annikken og Magna.</p>
+<p>Men Tilda maatte til byen &#x2013; havde lovet nogen veninder &#x2013; &#x00AB;du Annikken, laan mig hanskerne dine.&#x00BB;</p>
+<p>&#x00AB;Hvorfor det.&#x00BB;</p>
+<p>&#x00AB;Jo mine er saa stygge.&#x00BB;</p>
+<p>&#x00AB;Nei,&#x00BB; sagde Annikken alvorlig.</p>
+<p><pb n="9"/>&#x00AB;Tusind tak, du er forf&#x00E6;rdelig s&#x00F8;d, tusind tak.&#x00BB;</p>
+<p>Tilda tog paa sprang nedover mod byen.</p>
+<p>Veien opover heien gik paa kryds og tvers. Store, l&#x00F8;se stene laa ligesom kastet hen af en kj&#x00E6;mpem&#x00E6;ssig haand hist og her. Hele smaa stenras havde tr&#x00E6;ngt sig nedigjennem de dybe kl&#x00F8;fter, men midt oppe i stenuren, hvor stenene st&#x00E6;ngte, og der ikke var sti at se, der voksede de sirlige m&#x00F8;rkeviolette makrelblomster, og blege nypetorne klyngede sig fast i spr&#x00E6;kkerne.</p>
+<p>Lige i solv&#x00E6;ggen mod syd, hvor solen stegte og stenene kjendtes lunkne at f&#x00F8;le paa, kunde saa en v&#x00E6;ldig berberisbusk brede sig. Her var det sparsomme gr&#x00E6;s stivt og gult og svid af solen.</p>
+<p>Helt op paa h&#x00F8;iden begyndte saa lyngen, den blomstrende violette r&#x00F8;slyng, og tytteb&#x00E6;rlyng, melb&#x00E6;r og kr&#x00E6;kling, men ikke et tr&#x00E6;, ikke en busk engang. Man vassede blot i lyng.</p>
+<p>Stupende brat, dybt dernede laa saa byen med de smaa gader, torvet med bryggerne og skuderne. Seet h&#x00F8;it deroppefra var det hele som en lilleputby rystet ud af et dukkeskrin. I en runding rundt havnen laa saa &#x00F8;erne, n&#x00F8;gne ud mod det store hav.</p>
+<p>V&#x00E6;ldigt, stille, blaat i sommerkv&#x00E6;lden laa det der, langt, langt derude var der seil i seil. En stor damper st&#x00E6;vnede indover. Halvdelen af horizonten var det frie hav, indover mod land paa den anden kant var det blot lyng og fjernt borte fjeld over fjeld.</p>
+<p><pb n="10"/>Nede paa havnen drog en lystjagt med et hvidt skinnende seil udover.</p>
+<p>Pastoren havde sin visse bestemte plads deroppe med ryggen mod en sten, fruen havde strikket&#x00F8;i med, og Annikken laa i lyngen ved siden. Gutterne og Magna var alt i vildt l&#x00F8;b bortover vidden.</p>
+<p>&#x00AB;Det er vist Iversens baad, der seiler udover der,&#x00BB; sagde moderen, &#x00AB;Tilda er vel med der.&#x00BB;</p>
+<p>&#x00AB;Ja,&#x00BB; sagde Annikken, &#x00AB;hun sagde, at de ventede paa hende&#x00BB;.</p>
+<p>&#x00AB;Hvorfor er <emph>du</emph> ikke med da, Annikken,&#x00BB; sagde faderen, &#x00AB;du er jo en stor pige nu, skal konfirmeres om tre maaneder.&#x00BB;</p>
+<p>&#x00AB;Jeg morer mig ikke ved det.&#x00BB;</p>
+<p>&#x00AB;Morer du dig ikke ved at v&#x00E6;re sammen med andre unge;&#x00BB; faderen vendte det stille, vemodige blik mod hende, &#x00AB;ja, men det er galt det, barn.&#x00BB;</p>
+<p>&#x00AB;Forresten er de lige glad, enten jeg er med eller ei,&#x00BB; Annikken rev op lyngdotter, som hun straks igjen kastede.</p>
+<p>&#x00AB;Det er galt dette,&#x00BB; gjentog faderen, &#x00AB;dine veninder er da med, Annikken.&#x00BB;</p>
+<p>Intet svar.</p>
+<p>&#x00AB;Er de ikke vel, Annikken?&#x00BB;</p>
+<p>&#x00AB;Jeg har ingen veninder,&#x00BB; Annikken skalv lidt i stemmen.</p>
+<p>&#x00AB;Hvor kan du sige det,&#x00BB; sagde moderen, &#x00AB;Milly Lund da &#x2013;&#x00BB;</p>
+<p>&#x00AB;Pyt.&#x00BB;</p>
+<p>&#x00AB;Ja dere har da l&#x00E6;nge v&#x00E6;ret venner.&#x00BB;</p>
+<p><pb n="11"/>En lang stilhed, saa kom det langsomt:</p>
+<p>&#x00AB;Hun vil heller gaa med de andre nu.&#x00BB;</p>
+<p>&#x00AB;Ja men Tilda skal ta Annikken med, mor,&#x00BB; sagde faderen.</p>
+<p>&#x00AB;Nei langtfra,&#x00BB; for Annikken op, &#x00AB;jeg vil slet ikke tages med paa naade.&#x00BB;</p>
+<p>Atter en lang pause deroppe mellem himmel og hav. Sommernatten sv&#x00F8;bte sig bl&#x00F8;d og stille om de to &#x00E6;ldre og det unge saare sind.</p>
+<p>&#x00AB;Jo du skal v&#x00E6;re mer mellem ungdom du, Annikken,&#x00BB; sagde faderen igjen, &#x00AB;ungdommen kommer aldrig igjen &#x2013; dina sjutton &#x00E5;r igen f&#x00E5;r du aldrig mera &#x2013;&#x00BB;</p>
+<p>&#x00AB;Jeg &#x2013; jeg gl&#x00E6;der mig ikke til livet,&#x00BB; kom det ligesom trodsig.</p>
+<p>&#x00AB;Hvorfor det, barn,&#x00BB; sagde faderen.</p>
+<p>&#x00AB;Aa &#x2013; jeg tror ikke, det er noget moro &#x2013;&#x00BB;</p>
+<p>&#x00AB;Det er n&#x00E6;sten leit at h&#x00F8;re paa,&#x00BB; sagde moderen og flyttede paa sig.</p>
+<p>&#x00AB;Og du er seksten aar,&#x00BB; sagde faderen &#x2013; &#x00AB;jo livet er rigt, Annikken min, det gj&#x00E6;lder bare at ha &#x00F8;ine at se med, og Gud giver os saa meget mer, end vi aner &#x2013; saa underlig meget mer &#x2013;&#x00BB;</p>
+<p>Atter var der stilt deroppe. Gutternes og Magnas raab og latter h&#x00F8;rtes langt borte fra.</p>
+<p>&#x00AB;Stakkars min pige,&#x00BB; sagde faderen og lagde sin haand kj&#x00E6;rlig paa det lyse hoved derborte i lyngen, &#x00AB;jeg kjender mig selv igjen fra ungdommen, mismod og gl&#x00E6;desl&#x00F8;shed i de aar, livet skulde v&#x00E6;re lysest; men du har et godt hjem, barn, du skal t&#x00E6;nke paa det.&#x00BB;</p>
+<p><pb n="12"/>&#x00AB;Ja,&#x00BB; mumlede Annikken.</p>
+<p>&#x00AB;Aa saadanne luner har alle unge piger,&#x00BB; kom det rolig fra moderens sikre, brede skikkelse. Hun strikkede jevnt og sindig.</p>
+<p>Faderen lod haanden ligge paa Annikkens hoved, str&#x00F8;g af og til langsomt henover det.</p>
+<p>Annikken kjendte en klump i halsen, ligesom hun vilde gr&#x00E6;de.</p>
+<p>Hvor gjerne hun vilde v&#x00E6;ret med paa den seilturen dernede, se nu &#x2013; krydsede det hvide seil udigjennem det s&#x00F8;ndre l&#x00F8;b ret tilhavs. Hvor deiligt at ligge derude og duve paa de lange d&#x00F8;nninger.</p>
+<p>Men aldrig bad nogen af herrerne hende om at v&#x00E6;re med, og ingen af veninderne heller &#x2013; og at v&#x00E6;re atpaasl&#x00E6;ng af Tilda bestandig, nei, nei, nei.</p>
+<p>Og saa blev hun saa r&#x00F8;rt over dette, at faderen str&#x00F8;g hende slig over hovedet &#x2013; nei hun vilde ikke gr&#x00E6;de, det var saa leit.</p>
+<p>Hun reiste sig pludselig og gik henover vidden.</p>
+<p>&#x00AB;Var der noget iveien med Annikken iaften,&#x00BB; spurgte faderen.</p>
+<p>&#x00AB;Nei da, men det er saa kjedeligt, at hun holder sig saa for sig selv bestandig.&#x00BB;</p>
+<p>&#x00AB;Det er en mimosenatur,&#x00BB; sagde faderen.</p>
+<p>&#x00AB;Ja, men denslags skal ikke tages under armene,&#x00BB; sagde moderen, &#x00AB;det gj&#x00E6;lder jo netop at h&#x00E6;rde og staals&#x00E6;tte saadanne naturer.&#x00BB;</p>
+<p>&#x00AB;Annikken mangler ikke kraft,&#x00BB; sagde faderen.</p>
+<p>&#x00AB;Nei hun gj&#x00F8;r ikke det heller,&#x00BB; sa moderen, &#x00AB;hun er al ting paa en gang, sky og saar og villiest&#x00E6;rk <pb n="13"/>ogsaa, trodsig kan hun v&#x00E6;re og bl&#x00F8;d paa samme tid.&#x00BB;</p>
+<p>Annikken havde igjen n&#x00E6;rmet sig for&#x00E6;ldrene borte fra lyngvidden.</p>
+<p>&#x00AB;Annikken min,&#x00BB; begyndte faderen, &#x00AB;du skulde begynde at tegne igjen, du har gode anl&#x00E6;g, jeg skal kj&#x00F8;be dig en skitsebog.&#x00BB;</p>
+<p>&#x00AB;Nei tak, nei jeg har ikke lyst at tegne mere.&#x00BB;</p>
+<p>&#x00AB;Jovist, sig nu ikke nei til alt da,&#x00BB; sagde moderen.</p>
+<p>Det var begyndt at lufte op, friske vindpust for henover lyngen, saa hele vidden var i en eneste b&#x00F8;lgende bev&#x00E6;gelse, og bl&#x00E6;ste pr&#x00E6;stefruens hattefjer ret tilveirs.</p>
+<p>Der blev hujet og raabt efter gutterne og Magna, og de begyndte nedstigningen. Annikken kastede et blik udover efter seilbaaden, det hvide seil havde l&#x00E6;nge ligget nogenlunde stille udenfor &#x00F8;erne, men det friske vindblaf saa ud til at s&#x00E6;tte mere fart i det.</p>
+<p>&#x00AB;Hvis jeg endda havde nogen b&#x00F8;ger,&#x00BB; sagde Annikken pludselig, som hun forfulgte sin egen tankegang.</p>
+<p>&#x00AB;B&#x00F8;ger skal du faa hos mig,&#x00BB; sagde faderen.</p>
+<p>&#x00AB;Aa jeg har l&#x00E6;st alle de, du har, far, Oehlenschl&#x00E6;gers tragedier og alle de paa den &#x00F8;verste hylden din &#x2013;&#x00BB;</p>
+<p>&#x00AB;Ja, ja barn, jeg byr, hvad jeg har &#x2013;&#x00BB;</p>
+<p>&#x2013; &#x00AB;Igrunden kan jeg nu ikke rigtig like,&#x00BB; sagde pr&#x00E6;stefruen, da hun og hendes mand var blevet alene, &#x00AB;at Tilda er ude saa sent hver eneste aften, det er jo <pb n="14"/>gammel skik her i byen, h&#x00F8;rer jeg, at ungdommen er slig ude paa seilturer og baadturer, men &#x2013;&#x00BB;</p>
+<p>&#x00AB;Ungdommen er saa kort, mor &#x2013;&#x00BB;</p>
+<p>Serisserne peb ude i sommernatten. Det var m&#x00F8;rkt og kj&#x00F8;ligt ude under all&#x00E9;ens store l&#x00F8;nnetr&#x00E6;er. Annikken havde vinduet aabent, hun laa vaagen og stirrede med aabne &#x00F8;ine ud i l&#x00F8;nnetr&#x00E6;ernes t&#x00E6;tte kroner.</p>
+<p>Nei, at ikke Tilda endda kom! Saa morsomt hun vist havde havt det iaften! Og altid, altid havde hun det morsomt. T&#x00E6;nk at Tilda kunde le og snakke saadan bestandig! At hun ikke generede sig! Men Tilda er jo ogsaa saa nydelig, ja det var nogen, der havde sagt, at hun var en skj&#x00F8;nhed. Og naar man var en skj&#x00F8;nhed, saa kunde man nok snakke og le. &#x2013;</p>
+<p>Annikken laa l&#x00E6;nge i saare tanker. Nei, sagde hun tilslut halvh&#x00F8;it, saadant er ikke noget for mig. Jeg, som er saa styg. Nei jeg vil omvende mig og leve for Gud, gaa paa bedehuset ofte &#x2013; hver eneste aften vil jeg gjerne gaa did.</p>
+<p>Og saa havde hun v&#x00E6;ret saa tv&#x00E6;r, at hun ikke engang havde villet laane Tilda de stakkars hanskerne!</p>
+<p>Og hun vilde leve for Gud, og saa vilde hun ikke engang gj&#x00F8;re det lille offer!</p>
+<p>Aa Gud, hvor lei jeg er, sukkede hun, Gud hj&#x00E6;lp mig til at blive snil og god &#x2013;</p>
+<p>Hun foldede h&#x00E6;nderne, men i samme &#x00F8;ieblik h&#x00F8;rte hun langt nede i all&#x00E9;en en trillende latter og Tildas stemme.</p>
+<p><pb n="15"/>&#x00AB;Nei, ved De hvad, Iversen &#x2013;&#x00BB;</p>
+<p>Saa en dyb stemme, der sagde noget d&#x00E6;mpet, som hun ikke opfattede, saa igjen Tilda:</p>
+<p>&#x00AB;Ha ha &#x2013; er De gal De.&#x00BB;</p>
+<p>Og saa en stund efter igjen:</p>
+<p>&#x00AB;Godnat da.&#x00BB;</p>
+<p>&#x00AB;Godnat.&#x00BB;</p>
+<p>Der blev raabt mange gange godnat derude.</p>
+<p>Annikken glemte b&#x00F8;nnen, reiste sig op og lyttede.</p>
+<p>Der kom saa Tilda stormende ind i sovev&#x00E6;relset. Hele sommernattens friskhed fulgte hende.</p>
+<p>Annikken lod, som hun sov. Men det pinte hende endda, at hun ikke havde laant Tilda de hanskerne, hun havde bedt om.</p>
+<p>Gang paa gang holdt hun paa at sige, at hun angrede, at hun ikke havde laant hende hanskerne. Men hun kunde ikke faa det til, det var ligesom saa leit.</p>
+<p>Tilda var hurtig i seng, og endda var ikke Annikken kommet sig til at sige noget.</p>
+<p>Endelig kom det med stor anstrengelse:</p>
+<p>&#x00AB;Jeg er saa lei over, at jeg ikke laante dig hanskerne, du kunde saa gjerne faat dem.&#x00BB;</p>
+<p>&#x00AB;Kj&#x00E6;re er du vaagen &#x2013; ja det var ikke meget elskv&#x00E6;rdig gjort just.&#x00BB;</p>
+<p>I samme &#x00F8;ieblik blev Annikken vred, fordi Tilda tog det paa den maade og tiede bomstille.</p>
+<p>&#x00AB;Var dere oppe paa heien,&#x00BB; spurgte Tilda.</p>
+<p><pb n="16"/>&#x00AB;Ja.&#x00BB;</p>
+<p>&#x00AB;Uf, at du kan holde ud at gaa op paa den triste heien.&#x00BB;</p>
+<p>Ikke et ord til svar.</p>
+<p>Og serisserne peb igjen ude i den lyse sommernat.</p>
+</div>
+<div type="chapter">
+<head type="main"><ref type="contents" target="contents_2" xml:id="chapter_2">Moro</ref></head>
+<p><pb n="17"/>Det var eftermiddag. St&#x00E6;rkt solskin over l&#x00F8;nnetr&#x00E6;erne, men skygge bag huset paa den aabne, sandede plads.</p>
+<p>Pr&#x00E6;stefruen sad bred og hyggelig ved det store stenbord og stoppede alle sine guttestr&#x00F8;mper, med brillerne saa langt som muligt ude paa den lillebitte, tykke n&#x00E6;se. Annikken havde ogsaa en lang str&#x00F8;mpe trukket opover den ene arm, men Tilda laa i h&#x00E6;ngek&#x00F8;ien og viftede sig med en Aftenpost.</p>
+<p>&#x00AB;Jeg r&#x00F8;rer mig ikke i denne varme,&#x00BB; sagde Tilda, &#x00AB;aa gyng mig lidt Magna.&#x00BB;</p>
+<p>&#x00AB;Gyng dig selv,&#x00BB; sagde Magna og stoppede fingrene i &#x00F8;rene for at kunne l&#x00E6;se mere uforstyrret.</p>
+<p>Myggene surrede i store flokke der h&#x00F8;it oppe under det t&#x00E6;tte l&#x00F8;v, og luften dirrede af varme over hustaget.</p>
+<p>En frisk ung pigestemme spurgte bag hj&#x00F8;rnet:</p>
+<p>&#x00AB;Er Tilda hjemme.&#x00BB;</p>
+<p>Der kom de op paa gaardspladsen. To unge piger med r&#x00F8;de, friske kinder, kr&#x00F8;llet pandehaar og smaa n&#x00E6;ser.</p>
+<p><pb n="18"/>&#x00AB;Goddag, vil du v&#x00E6;re med paa en tur, Tilda, vi skulde sp&#x00F8;rge fra Iversen.&#x00BB;</p>
+<p>Tilda, der ikke havde giddet r&#x00F8;re sig, var sprunget op i en fart.</p>
+<p>&#x00AB;Ja naturligvis, naar blev det bestemt?&#x00BB;</p>
+<p>&#x00AB;Netop nu, vi traf Iversen, og saa er jo veiret saa vidunderligt.&#x00BB;</p>
+<p>&#x00AB;Gid, saa knagende moro, du altid har,&#x00BB; sagde Magna og tog fingrene ud af &#x00F8;rene. &#x00AB;Vi maatte endelig skynde os, sa Iversen, &#x2013; vi skal ro til Langeland og kanske danse der.&#x00BB;</p>
+<p>Pr&#x00E6;stefruen tog brillerne af:</p>
+<p>&#x00AB;Kan ikke Annikken ogsaa v&#x00E6;re med?&#x00BB;</p>
+<p>&#x00AB;Jo da &#x2013;, det kan hun vist.&#x00BB;</p>
+<p>&#x00AB;Nei, nei, jeg vil ikke,&#x00BB; sagde Annikken.</p>
+<p>&#x00AB;Jovist vil du &#x2013;&#x00BB;</p>
+<p>&#x00AB;Men er Annikken buden da,&#x00BB; spurgte Tilda.</p>
+<p>&#x00AB;Hun &#x2013; kan naturligvis &#x2013; godt v&#x00E6;re med,&#x00BB; Elly Thue drog paa det.</p>
+<p>&#x00AB;Hils fra mig dere,&#x00BB; sagde pr&#x00E6;stefruen afgj&#x00F8;rende, &#x00AB;og sp&#x00F8;rg, om ikke Annikken ogsaa maa v&#x00E6;re med.&#x00BB;</p>
+<p>Annikken havde kastet str&#x00F8;mpen og var l&#x00F8;bet ind i huset, moderen gik efter hende.</p>
+<p>&#x00AB;Nei mor, jeg vil ikke v&#x00E6;re med paa naade,&#x00BB; sagde Annikken.</p>
+<p>&#x00AB;Jo, Annikken, guldet,&#x00BB; sagde moderen, &#x00AB;nu skal du v&#x00E6;re med.&#x00BB;</p>
+<p>&#x00AB;Ja men de har jo ikke bedt mig,&#x00BB; gr&#x00E6;d Annikken.</p>
+<p><pb n="19"/>&#x00AB;Puh, ja det er ogsaa noget at gr&#x00E6;de for, v&#x00E6;r nu med, Annikken min, og gl&#x00E6;d dig med de andre.&#x00BB;</p>
+<p>&#x00AB;Ingen bryr sig om at ha mig med, og jeg vil ikke v&#x00E6;re saadan en atpaasl&#x00E6;ng.&#x00BB;</p>
+<p>Der kom Tilda, Elly og Milly; Annikken flygtede ud i kj&#x00F8;kkenet, for at de ikke skulde se, at hun gr&#x00E6;d.</p>
+<p>&#x00AB;Annikken blir med,&#x00BB; sagde moderen paa sin rolige uomst&#x00F8;delige maade, &#x00AB;du skal ta dig af hende Tilda.&#x00BB;</p>
+<p>&#x00AB;Jeg ved ikke, hvad du mener med, at jeg skal ta mig af hende,&#x00BB; sagde Tilda.</p>
+<p>&#x00AB;Det ved du godt, naar du bare har villien til det.&#x00BB;</p>
+<p>Moderen satte selv hatten paa Annikkens hoved:</p>
+<p>&#x00AB;Se saa, guldet.&#x00BB;</p>
+<p>Der gik de med Annikken midt imellem sig.</p>
+<p>&#x2013; Sol over torvet og de lave hvidmalte, velstelte huse rundt omkring, sol over de gamle haver, der laa lige ud i gaderne, hvor buksbomh&#x00E6;kkene var ganske hvide af gadest&#x00F8;v og t&#x00F8;rke.</p>
+<p>Sol over de gamle brygger, over jagter og prammer og sj&#x00E6;gter, der laa dernede i den lunkne, dovne sj&#x00F8; og svedede tj&#x00E6;re.</p>
+<p>Saalangt man saa opover laa gaderne folketomme i solstegen, husenes skygger tegnede sig skarpt mod de sandede, stille gader.</p>
+<p>Nede ved bryggerne var det lidt mere liv. En politibetjent i hvid st&#x00F8;vfrak og med stor mave, gamle m&#x00E6;gler Tausen med r&#x00F8;d n&#x00E6;se og lang pibe i munden <pb n="20"/>og nogen hundehvalper, som legede og boltrede sig og holdt paa at gaa lige lukt paa vandet.</p>
+<p>Student Rode og Iversen var alt ved bryggen og stelte med sj&#x00E6;gten. Student Rode var en h&#x00F8;i, smal student med vakre &#x00F8;ine, og et langt dv&#x00E6;lende blik, men hans underl&#x00E6;be hang noget slapt ukontrolleret ned paa hans hage. Iversen var en &#x00E6;ldre kavaler, der altid optraadte i selskab med det alleryngste kuld af ungdom, der voksede op i byen. Han var lidt tungh&#x00F8;rt og f&#x00F8;rladen; nu havde han taget plads nede i bryggetrappen og geleidede damerne ombord med en stor, bl&#x00F8;d, omhyggelig haand.</p>
+<p>Elly, Milly og Tilda straalede og snakkede oppe paa bryggen. Karen Jensen, en blegfed, ung pige med hvide &#x00F8;ienbryn, var ogsaa kommet med. De lo af alt. F&#x00F8;rst lo de af, at Mosling endda ikke var kommet, og da de fik se hans lille skikkelse oppe i gaden lo de af, at han kom. Mosling var en ven af Iversen, ogsaa en lidt &#x00E6;ldre t&#x00F8;rkomisk herre, der uundgaaelig h&#x00F8;rte med paa alslags turer.</p>
+<p>Annikken stod for sig selv, flammende r&#x00F8;d i ansigtet med r&#x00F8;dkantede &#x00F8;ine, fordi hun havde gr&#x00E6;dt. Hatten sad lidt ukl&#x00E6;delig paa skj&#x00E6;ve paa det lyse, brede hoved.</p>
+<p>Iversen l&#x00E6;spede og hviskede til damerne efterhvert, som de steg i baaden.</p>
+<p>&#x00AB;Jeg har tat min s&#x00F8;ster Annikken med, Iversen,&#x00BB; raabte Tilda lidt bryd.</p>
+<p>Iversen misforstod og fik det m&#x00E6;rkelig nok til, at hun ikke havde lyst paa denne tur.</p>
+<p><pb n="21"/>&#x00AB;Fy skam Dem,&#x00BB; l&#x00E6;spede han hviskende.</p>
+<p>Men Annikken havde h&#x00F8;rt det, det flammede end st&#x00E6;rkere op i hendes ansigt.</p>
+<p>&#x00AB;Nei, jeg sa, at jeg har tat Annikken med,&#x00BB; br&#x00F8;lte Tilda.</p>
+<p>Annikken vred sig af fortvilelse. Aa om hun kunde l&#x00F8;be sin vei! Men kom hun hjem, saa blev bare mor vred &#x2013;</p>
+<p>&#x00AB;Gl&#x00E6;der mig usigelig,&#x00BB; sagde Iversen, da han endelig forstod, &#x00AB;det er mig en stor &#x00E6;re, jeg tror, det er f&#x00F8;rste gang, fr&#x00F8;kenen gj&#x00F8;r mig den forn&#x00F8;ielse.&#x00BB;</p>
+<p>Og den bl&#x00F8;de haand trykkede Annikkens haand t&#x00E6;t.</p>
+<p>&#x00AB;Alt andet end heldigt ydre,&#x00BB; t&#x00E6;nkte Iversen, og smilede med store, vandblaa &#x00F8;ine til Annikken.</p>
+<p>I sidste &#x00F8;ieblik, de holdt netop paa at st&#x00F8;de fra land, kom Per Krafft l&#x00F8;bende.</p>
+<p>&#x00AB;Skal dere paa tur &#x2013; og ingen har sagt mig til &#x2013; jeg blir naturligvis med &#x2013;&#x00BB;</p>
+<p>Det skarpe, lille ansigt lyste.</p>
+<p>&#x00AB;Vi blir for mange, gut,&#x00BB; raabte Rode.</p>
+<p>&#x00AB;Nei da,&#x00BB; raabte Tilda og Elly i kor. De andre unge piger stemte ogsaa i med. &#x00AB;Vi er slet ikke for mange, Per kan godt v&#x00E6;re med.&#x00BB;</p>
+<p>&#x00AB;Jeg repr&#x00E6;senterer ingen v&#x00E6;gt at tale om i kilo,&#x00BB; sagde Per Krafft og hoppede bardus ned i baaden.</p>
+<p>&#x00AB;Paa denne maaden ser det n&#x00E6;rmest ud til at vi gaar nedenom og hjem hele kodiljen,&#x00BB; sagde Mosling.</p>
+<p><pb n="22"/>&#x00AB;Jeg skal gj&#x00F8;re nytte for mig og ro paa spr&#x00E6;ng,&#x00BB; sagde Per Krafft &#x2013; &#x00AB;hvor gaar turen hen?&#x00BB;</p>
+<p>Det var en liden, sorthaaret student, der studerede theologi. Naar de unge piger var alene sig imellem og kritiserede herrerne, sagde de altid, at Per Krafft saa ud som han lugtede paa den gyseligste gammelost. Forresten var det noget betydeligt og uberegneligt ved ham paa samme tid. Og det var noget i hans ansigt, der trods gammelostsnusingen ikke udelukkede muligheden af, at bispekorset engang kunde komme til at lyse paa hans bryst.</p>
+<p>&#x00AB;At v&#x00E6;re bikje og sidde i forenden, kan jeg da ialfald,&#x00BB; sagde Per Krafft og satte sig paa baadripen.</p>
+<p>&#x00AB;Nei her er udm&#x00E6;rket rum,&#x00BB; raabte Tilda.</p>
+<p>&#x00AB;All right,&#x00BB; sagde Iversen, og baaden gled udover i det blanke vand.</p>
+<p>De unge piger havde faat placeret Annikken l&#x00E6;ngst agter ved roret, indeklemt af alle de andre.<note type="footnote">andre.] <hi rend="italic">rettet fra:</hi> andre <hi rend="italic">(trykkfeil)</hi></note></p>
+<p>Den mest eftertragtede plads var paa midttoften, hvor man var herrerne n&#x00E6;rmest. Der sad Iversen og Tilda.</p>
+<p>&#x00AB;Ah, saa kan man igjen begynde at leve,&#x00BB; l&#x00E6;spede Iversen, da luftningen fra sj&#x00F8;en viftede om dem l&#x00E6;ngere ude.</p>
+<p>&#x00AB;Lever De ikke paa landjorden, De da, Iversen,&#x00BB; smilede Tilda.</p>
+<p>&#x00AB;Nei, jeg forsm&#x00E6;gter,&#x00BB; hviskede Iversen med et dv&#x00E6;lende blik.</p>
+<p>Han bel&#x00F8;nnedes med en trillende latter af alle de unge piger.</p>
+<p><pb n="23"/>T&#x00E6;nk, at de kan synes, at det var saa morsomt sagt, t&#x00E6;nkte Annikken og sad med et stort ubev&#x00E6;geligt ansigt.</p>
+<p>Rode havde gjort forgj&#x00E6;ves anstrengelser for at komme til at sidde ved siden af Tilda, men da Iversen vilde have den plads, det var jo hans baad, maatte han vige. Han sad nu bag hendes ryg og tilkjendegav sin n&#x00E6;rv&#x00E6;relse ved smaa ryk i hendes lange flette.</p>
+<p>&#x00AB;Rode, nu skal De la v&#x00E6;re,&#x00BB; Tilda vendte sig med et straalende ansigt.</p>
+<p>Det var rent en lettelse, naar Rode tog sin underl&#x00E6;be op og snakkede. Da blev han formelig vakker.</p>
+<p>&#x00AB;Jeg er jo n&#x00F8;dt til at tilkjendegive min eksistens, ellers er det jo ingen, der t&#x00E6;nker paa mig,&#x00BB; sagde Rode, og blev vakker.</p>
+<p>&#x00AB;End jeg da,&#x00BB; sagde Mosling med en ynkelig stemme, &#x00AB;hvem t&#x00E6;nker paa mig.&#x00BB;</p>
+<p>&#x00AB;End jeg her i min dystre ensomhed da,&#x00BB; raabte Per Krafft paa baadripen.</p>
+<p>&#x00AB;Du vilde jo selv sidde der,&#x00BB; raabte Tilda.</p>
+<p>&#x00AB;Hur h&#x00E4;r &#x00E4;r sk&#x00F6;nt,&#x00BB; l&#x00E6;spede Iversen.</p>
+<p>&#x00AB;Nei nu begynder han alt at tale svensk saa tidligt paa kv&#x00E6;lden,&#x00BB; raabte Mosling, &#x00AB;gjem det far, saa har du noget til maaneskinnet ogsaa.&#x00BB;</p>
+<p>Per Krafft saa ud, som han lugtede gammelost i h&#x00F8;i grad.</p>
+<p>&#x00AB;Forhindre da ikke manden i at bli elegisk,&#x00BB; raabte han.</p>
+<p><pb n="24"/>Iversen havde intet h&#x00F8;rt og saa rundt med sp&#x00F8;r gende, vandblaa &#x00F8;ine. Saa lo de af det.</p>
+<p>&#x00AB;Hvor har du kj&#x00F8;bt den flotte hat, Iversen,&#x00BB; sagde Mosling.</p>
+<p>&#x00AB;Nei,&#x00BB; sagde Iversen raskt. Han havde igjen misforstaaet, men troede, han dengang havde truffet det rigtige og saa sig veltilfreds omkring. Saa lo de i kor.</p>
+<p>Blev der et &#x00F8;iebliks stilhed, sagde Iversen: &#x00AB;Nei nu faar du til Mosling.&#x00BB;</p>
+<p>Og Mosling holdt det ene t&#x00F8;vede foredrag efter det andet, saa de br&#x00F8;lte af latter.</p>
+<p>&#x00AB;Sandelig min hat gj&#x00F8;r vi Mosling til storthingsmand til h&#x00F8;sten,&#x00BB; raabte Per Krafft, &#x00AB;et sligt herred&#x00F8;mme over ordenes v&#x00E6;ld &#x2013;&#x00BB;</p>
+<p>&#x00AB;Pas dit eget v&#x00E6;ld, du far min,&#x00BB; sagde Mosling og gav Per Krafft et puf, saa han holdt paa at gaa bagl&#x00E6;nds ud i sj&#x00F8;en.</p>
+<p>Saa lo de igjen. Baaden gled henunder i skyggen af fjeldet, der hvor vandet var klart og gr&#x00F8;nt, og den brune tang laa i store vaser.</p>
+<p>Nei, at de kan le saadan af al ting, t&#x00E6;nkte Annikken. Hun havde ikke opladt sin mund, siden de reiste fra bryggen.</p>
+<p>&#x00AB;Lad os ro udenom skj&#x00E6;rene,&#x00BB; raabte Tilda.</p>
+<p>&#x00AB;Ro, ro til fiskeskj&#x00E6;r,&#x00BB; sang Per Krafft.</p>
+<p>Alle sang med, de friske unge stemmer bortover sj&#x00F8;en.</p>
+<p>&#x00AB;Hvad er det, du sidder og funderer paa, Rode,&#x00BB; raabte Per &#x2013; &#x00AB;slaa paa dine strenge og sjung med &#x2013;&#x00BB;</p>
+<p><pb n="25"/>Rode hentede sin underl&#x00E6;be dybt dernedenfra og smilede.</p>
+<p>&#x00AB;Jeg synes, vi har det saa koselig.&#x00BB;</p>
+<p>&#x00AB;Ja manden har ret, vi har det netop koselig,&#x00BB; l&#x00E6;spede Iversen.</p>
+<p>Derborte laa Langeland. En r&#x00F8;dmalet gaard paa en stump gr&#x00F8;nt jorde, smaaheier og l&#x00F8;vskov omkring, en stensat brygge ud i sj&#x00F8;en og et par baader.</p>
+<p>Sj&#x00F8;en gik saa spillende frisk ind mod stranden, h&#x00E6;vede den brune bl&#x00E6;retang op og ned, op og ned og vaskede de rundslidte smaa heier.</p>
+<p>Aarene blev lagt ind, og den hele baad fuld af ungdom skurede mod den primitive brygge. Oppe fra den r&#x00F8;dmalte gaard drog en gammel kal sig langsomt nedover.</p>
+<p>&#x00AB;Naa der har vi jo gamlingen i egen person,&#x00BB; raabte Mosling.</p>
+<p>&#x00AB;Goddag Even Langeland, her er pent folk ude og reiser, ser De.&#x00BB;</p>
+<p>Gamle Even var i bukses&#x00E6;ler og blaa toplue med graa skjeggestubber og buskede &#x00F8;ienbryn.</p>
+<p>&#x00AB;Jeg ser det,&#x00BB; sagde gamle Even.</p>
+<p>&#x00AB;Vi kan vel faa ligge oppe paa jordet dit en stund, komme ind i stuen din ogsaa kanske og hvile os lidt?&#x00BB;</p>
+<p>&#x00AB;Jo det var vel raad til det, naar de vilde t&#x00E6;kkes med bondestel saa.&#x00BB;</p>
+<p>&#x00AB;Du din gamle lurifas,&#x00BB; sagde Mosling og slog ham paa skulderen, &#x00AB;du har flere penge paa kistebunden end hele skokken af os tilsammen.&#x00BB;</p>
+<p><pb n="26"/>&#x00AB;He, he,&#x00BB; lo Even i sine graa skjeggestubber.</p>
+<p>Even Langelands s&#x00F8;n var skipper og for tilsj&#x00F8;s, s&#x00F8;nnekonen og gamle Even styrede saa gaarden hjemme.</p>
+<p>&#x00AB;Her slaar vi os ned,&#x00BB; raabte Per Krafft oppe i et lidet bakkeheld, hvor gr&#x00E6;sset var lyst som en dag i mai.</p>
+<p>&#x00AB;Kan vi faa bragt melk hidop, Even.</p>
+<p>&#x00AB;Ja det var vel raad til det,&#x00BB; sagde Even og stabbede ivei opover mod huset.</p>
+<p>Der slog de sig ned.</p>
+<p>Tildas lyse kjole laa bortover gr&#x00E6;sset. Per Krafft st&#x00F8;ttede albuerne paa den med hagen i h&#x00E6;nderne og laa og stirrede paa Tilda.</p>
+<p>Han havde det i rykkevis med alting. Nu saa han ikke andre end Tilda. Hele verden var bare luft forresten. Tilda straalede og snakkede og var vakker. Mosling vilde have hans plads, men Per Krafft protesterede:</p>
+<p>&#x00AB;Jeg kj&#x00E6;mper som en l&#x00F8;ve,&#x00BB; raabte han.</p>
+<p>Tilda r&#x00F8;dmede, men smilede endda mere. Per er forelsket i Tilda, t&#x00E6;nkte Annikken, det kan jeg godt se.</p>
+<p>Elly laa med h&#x00E6;nderne under hovedet og blev viftet af Iversen med en tom kagepose. Karen Jensen knyttede lykkestraa med Mosling. Ingen tog notits af Annikken, men hendes &#x00F8;ine lyste.</p>
+<p>For dette var igrunden snodigt, saa friskt og saa deiligt.</p>
+<p><pb n="27"/>Pludselig vendte Per Krafft sig helt om mod Annikken.</p>
+<p>&#x00AB;Du er saa stille du &#x2013;,&#x00BB; sagde han skj&#x00E6;lmsk.</p>
+<p>&#x00AB;Ja.&#x00BB; Annikken blev lidt r&#x00F8;d.</p>
+<p>&#x00AB;Hvorfor er du nu egentlig det.</p>
+<p>&#x00AB;Jo for jeg er saadan,&#x00BB; sagde Annikken alvorlig.</p>
+<p>Han saa hende ind i &#x00F8;inene:</p>
+<p>&#x00AB;Jeg er ogsaa saadan,&#x00BB; sagde han, &#x00F8;inene smilede fremdeles.</p>
+<p>&#x00AB;Nei det er du slet ikke,&#x00BB; sagde Annikken. Hun huskede ham nok fra kjelkebakkerne for en to tre aar siden, da Annikkens fader flyttede til byen. Siden havde han fordetmeste v&#x00E6;ret i Kristiania.</p>
+<p>&#x00AB;Jeg taler blot med den st&#x00F8;rste overvindelse,&#x00BB; fortsatte det smilende ansigt.</p>
+<p>Han gj&#x00F8;r bare nar af mig, t&#x00E6;nkte Annikken og saa alvorlig paa ham.</p>
+<p>&#x00AB;Tror du ikke, jeg mener, hvad jeg siger.&#x00BB;</p>
+<p>&#x00AB;Nei,&#x00BB; sagde Annikken kort.</p>
+<p>Han stirrede hende et par sekunder ind i &#x00F8;inene.</p>
+<p>&#x00AB;Du er noget for dig selv, du,&#x00BB; sagde han let.</p>
+<p>Straks efter vendte han sig rundt til de andre, talte og lo, vr&#x00E6;ngede med ord og holdt latteren oppe.</p>
+<p>Gamle Even kom stabbende nedover med en stor bolle melk. Den ene skidne tommelfinger holdt han trov&#x00E6;rdig dybt nede i melken.</p>
+<p>&#x00AB;Nektar og Ambrosia,&#x00BB; raabte Per Krafft, &#x00AB;serveret paa den delikateste maade, du Even, du Even du perle blandt mandkj&#x00F8;n &#x2013;&#x00BB;</p>
+<p>&#x00AB;Nei lad os ikke ligge her og v&#x00E6;re saa tr&#x00E6;ge,&#x00BB; <pb n="28"/>raabte Milly, som ingen for &#x00F8;ieblikket tog nogen videre notis af &#x2013; &#x00AB;lad os lege: Enkemand sidste par ud.&#x00BB;</p>
+<p>Mosling var enkemand, og Annikken og tykke Karen Jensen blev et par. Da der blev raabt: Sidste par ud l&#x00F8;b Annikken alt, hvad hun orkede, hun t&#x00E6;nkte sig ikke andet, end at Karen ogsaa skulde l&#x00F8;be; men denne havde ladt sig meget letvindt fange af Mosling, og langt nede paa jordet stod Annikken mutters alene.</p>
+<p>&#x00AB;Det var fusk det,&#x00BB; sagde hun alvorlig til Karen, da hun kom op til de andre igjen.</p>
+<p>&#x00AB;Fusk, ha, ha,&#x00BB; de storlo allesammen.</p>
+<p>N&#x00E6;ste gang Annikken skulde l&#x00F8;be, var Annikken og Tilda kommet sammen. Rode var enkemand. Han lagde end ikke det ringeste skjul paa, at det var Tilda, han vilde fange, og kastede ikke et blik efter Annikken engang.</p>
+<p>Tilda og Rode sprang nedover paa kryds og tvers, lo og braastansed, sprang igjen, hiksted af bare latter.</p>
+<p>Annikken stod som en st&#x00F8;tte langt oppe ved siden af de andre.</p>
+<p>&#x00AB;Men saa l&#x00F8;b da, Annikken og m&#x00F8;d hende,&#x00BB; raabte de andre.</p>
+<p>&#x00AB;Nei.&#x00BB;</p>
+<p>&#x00AB;Kj&#x00E6;re, hvorfor vil du ikke?&#x00BB;</p>
+<p>&#x00AB;Hun vil jo netop, at han skal fange hende,&#x00BB; sagde Annikken, &#x00AB;dere kan da vel se det.&#x00BB;</p>
+<p>De lo allesammen.</p>
+<p><pb n="29"/>&#x00AB;De er rar, De,&#x00BB; hviskede Iversen.</p>
+<p>Per Krafft var enkemand. Det var atter Annikken og Tilda.</p>
+<p>Ingen bryr sig om at l&#x00F8;be efter mig, t&#x00E6;nkte Annikken, sandelig min hat, om jeg vil l&#x00F8;be heller.</p>
+<p>Der var Per Krafft lige efter hende. Annikken vendte sig forbauset om. &#x00AB;Nei Tilda l&#x00F8;ber jo der,&#x00BB; sagde hun med det alvorlige ansigt.</p>
+<p>&#x00AB;T&#x00E6;nker du ikke, jeg har &#x00F8;ine i hovedet du, nei, det er dig, jeg vil fange.&#x00BB;</p>
+<p>Annikken sprang som for livet. Det var da m&#x00E6;rkeligt, at han vilde l&#x00F8;be efter hende. Men det var lidt morsomt ogsaa. Og hun l&#x00F8;b.</p>
+<p>Men Per Krafft var lige i h&#x00E6;lene paa hende.</p>
+<p>&#x00AB;Du l&#x00F8;ber jo, som jeg vilde myrde dig,&#x00BB; sagde han.</p>
+<p>&#x00AB;Ja det skal man jo,&#x00BB; sagde hun, da han havde fanget hende.</p>
+<p>&#x00AB;Skal man det,&#x00BB; sagde han igjen med sine skj&#x00E6;lmske &#x00F8;ine.</p>
+<p>&#x00AB;Ja,&#x00BB; sagde Annikken troskyldig.</p>
+<p>Men det var alligevel morsomt, at han havde l&#x00F8;bet saadan efter hende.</p>
+<p>Siden blev der drukket kaffe inde i Even Langelands lave stue, hvor der hang skuder for fulde seil langs alle v&#x00E6;gge, og rare konkylier, der var hjemf&#x00F8;rt fra de varme lande, laa til stas allevegne.</p>
+<p>Saa kom maanen op gyldengul bag furutr&#x00E6;erne ind mod land.</p>
+<p>De maatte t&#x00E6;nke paa hjemturen. Og sj&#x00F8;en laa saa bl&#x00F8;d og saa stille, men t&#x00E6;t indved land, hvor <pb n="30"/>furutr&#x00E6;erne skyggede, var sj&#x00F8;en sort og hemmelighedsfuld, og alle omrids var saa dunkle og udviskede. Men midtfjords glimtede maanestriben.</p>
+<p>Og de havde punsch, og der blev drukket og leet. Saa var der en, der sagde:</p>
+<p>&#x00AB;Aa for en aften &#x2013;&#x00BB;</p>
+<p>&#x00AB;Ja har dere seet noget saa vidunderligt &#x2013; vi er i eventyrland.&#x00BB;</p>
+<p>&#x00AB;Vast roet der forud,&#x00BB; l&#x00E6;spede Iversen, &#x00AB;slig en aften faar vi aldrig igjen.&#x00BB;</p>
+<p>Aarene blev dyppet stille og bl&#x00F8;dt, og saa sang de:</p>
+<p>&#x00AB;Vi skilles ved en planke fra vor grav &#x2013;&#x00BB;</p>
+<p>Men ikke en eneste en af dem alle t&#x00E6;nkte hverken paa planken eller graven.</p>
+<p>Det blev kj&#x00F8;ligere. Sj&#x00F8;en skvulpede saa let under baaden.</p>
+<p>&#x00AB;Vast lidt der forud,&#x00BB; raabte Iversen igjen, &#x00AB;vi vil ikke iland ikv&#x00E6;ld.&#x00BB;</p>
+<p>Annikken havde sin gamle plads agter, indeklemt mellem alle de andre. Tilda havde ligesom tabt hum&#x00F8;ret, sad og stirrede ret ned i sj&#x00F8;en. Per Krafft laa i forenden og nynnede noget uforstaaeligt d&#x00E6;mpet noget.</p>
+<p>Den vidunderlige bl&#x00F8;de sommernat derude mellem skj&#x00E6;rene.</p>
+<p>Endelig kom de til land. I skyggen af tr&#x00E6;erne opigjennem de smaa gader var der dobbelt stille, som noget l&#x00F8;nligt, forhekset.</p>
+<p>Men bag de smaa vinduer med de nedrullede <pb n="31"/>gardiner vendte folk sig i sine senge, naar de h&#x00F8;rte de friske, unge stemmer derude i nattestilheden.</p>
+<p>&#x00AB;Nogen af de fine, der har v&#x00E6;ret paa tur igjen, det er maade paa ogsaa, slig er de ude hver eneste kv&#x00E6;ld.&#x00BB;</p>
+<p>Og saa sov byen igjen under de store l&#x00F8;nnetr&#x00E6;er.</p>
+<p>Men idetsamme, de skulde l&#x00E6;gge sig, sagde Tilda saadan l&#x00F8;st henkastet:</p>
+<p>&#x00AB;Uf den Per Krafft. Han l&#x00F8;b efter dig i enkemandslegen bare for at &#x00E6;rte mig, det var noget, vi havde v&#x00E6;ddet om.&#x00BB;</p>
+<p>&#x00AB;Jasaa,&#x00BB; sagde Annikken.</p>
+</div>
+<div type="chapter">
+<head type="main"><ref type="contents" target="contents_3" xml:id="chapter_3">Annikken og br&#x00F8;drene</ref></head>
+<p><pb n="32"/>Nei!</p>
+<p>En ting var Annikken vis paa. V&#x00E6;re med paa saadanne ture mere, det vilde hun ikke.</p>
+<p>Nu havde hun ikke sagt et ord paa hele hjemveien fra Langeland, ingen havde talt til hende heller. Havde det ikke v&#x00E6;ret det, at hun passede roret, saa havde det v&#x00E6;ret akkurat det samme, om hun havde siddet der i agterenden eller ei.</p>
+<p>Kanske hun var saa dum, at det var det, der gjorde det. Om det havde gj&#x00E6;ldt hendes liv, havde hun ikke kunnet tale saa let eller havt saadan en overflod af ord. Den mindste lille s&#x00E6;tning kunde de jo vride og vende i det uendelige.</p>
+<p>Og saa var det jo igrunden ingenting det, de talte om heller.</p>
+<p>Bare noget t&#x00F8;v altsammen, t&#x00E6;nkte Annikken og stirrede uhyre alvorlig frem for sig.</p>
+<p>Den eneste, som ligesom havde givet sig lidt af med hende var jo Per Krafft. Men Annikken var ikke ganske vis paa, om han ikke havde gjort lidt nar af hende.</p>
+<p><pb n="33"/>Jo mere hun t&#x00E6;nkte paa det, des vissere blev hun paa, at han bare havde gjort nar af hende.</p>
+<p>Det havde ikke netop f&#x00F8;ltes saa, da han talte til hende og l&#x00F8;b efter hende i enkemandslegen, men det var bare, fordi hun var saa enfoldig og ikke forstod sig paa herrer.</p>
+<p>Nei hun brydde sig ikke det pluk om at v&#x00E6;re sammen med alle dem, som de kaldte hendes veninder mere.</p>
+<p>Jo det var nogen deilige veninder! De brydde sig jo ikke det spor om hende, nogen af dem.</p>
+<p>Annikken forstod sig ikke selv mere. Hun havde faat saadan l&#x00E6;ngsel i sig efter at folk skulde v&#x00E6;re snilde mod hende og v&#x00E6;re lidt glad i hende.</p>
+<p>Saadan havde hun aldrig havt det f&#x00F8;r. Da havde hun v&#x00E6;ret ligeglad med alt saadant noget, bare l&#x00F8;bet med de yngre br&#x00F8;drene den hele dag, fisket og roet som en kar, og kommanderet og regjeret i baaden. For det kunde hun.</p>
+<p>Derfor var det ogsaa, at hun var blevet hedende sj&#x00F8;mand R&#x00F8;st.</p>
+<p>Men nu var det rare skeet, at sj&#x00F8;mand R&#x00F8;st helt var forsvundet.</p>
+<p>Det var med en eneste gang blevet saa saart og leit, at hun ingen veninder havde, og at ingen brydde sig om hende.</p>
+<p>Aa &#x2013; og saa forf&#x00E6;rdelig leit, det var at bli voksen.</p>
+<p>Ligesom en stor uafvendelig ulykke, som n&#x00E6;rmede sig &#x2013; og n&#x00E6;rmede sig og som hun maatte op i.</p>
+<p><pb n="34"/>At voksne, gamle folk kunde holde ud at leve!</p>
+<p>Nu var hun sytten aar om tre maaneder, du store alverden hvor gammel, hun var.</p>
+<p>T&#x00E6;nk, at Iversen, som var saa gruelig gammel, vist over tredive aar, kunde holde leven og le saadan af ingen ting.</p>
+<p>Og at Elly og Milly og Karen, ja Tilda ogsaa kunde gj&#x00F8;re sig saa til for den gamle Iversen!</p>
+<p>For de <emph>gjorde</emph> sig til!</p>
+<p>De lo ikke saadan af al ting, naar de var alene sammen med de andre unge piger.</p>
+<p>Nei det var saa ufatteligt, altsammen. Bag deres ryg lo de jo forf&#x00E6;rdelig og gjorde nar baade af Iversen og Mosling og Rode og Per Krafft ogsaa. Og, naar de var sammen med dem, saa likte de det, bare nogen af herrerne saa paa dem.</p>
+<p>Annikken funderede st&#x00E6;rkt med det lyse, brede ansigt.</p>
+<p>Ja jeg vil ikke v&#x00E6;re saadan, t&#x00E6;nkte hun. Ikke vil jeg v&#x00E6;re saadan, og ikke kunde jeg heller, om jeg end vilde.</p>
+<p>Nei hun vilde f&#x00F8;lge med gutterne op i heien og lave fos! Det vilde hun, det var da moro, det.</p>
+<p>Grave kanaler og lede alt vandet fra myrene deroppe ned i det basin, de havde gravet ud, bygge d&#x00E6;mninger, og saa, naar hele basinet var fuldt, lade fossen buldre og styrte nedover den stupbratte hei.</p>
+<p>Svend, Erik og Nils forsynede sig med hver sit bogstavelig tommetykke sm&#x00F8;rrebr&#x00F8;d, indpakket i papir og tog paa sprang opover heien.</p>
+<p><pb n="35"/>Idag skulde det rigtignok blive en storartet fos. Regnet havde det gjort, myrene var s&#x00F8;kvaade, og ordentlig spade havde de med sig. Opover heien var det den ivrigste diskussion om den bedste maade at tage sagen paa.</p>
+<p>Annikken var grei og kort. Saadan skulde det v&#x00E6;re og saadan og saadan.</p>
+<p>Gutterne b&#x00F8;iede sig for hende, alle tre. Ja naturligvis, det, som sj&#x00F8;mand R&#x00F8;st sagde, var det rigtigste.</p>
+<p>Himlen var saa lys, og luften var saa let, og alle de fire deroppe arbeidede i sit ansigts sved. Myren var saa vaad, at traadte man feil, sank man i over st&#x00F8;vlerne. Det gjaldt at v&#x00E6;re rask paa foden og let i vendingen. Annikken var ikke egentlig nogen af delene, men hun arbeidede som en kar sammen med de tre hvidhaarede, sveddryppende gutter.</p>
+<p>Dette var moro, det, det var noget andet end turen igaar.</p>
+<p>Kjolekanten og str&#x00F8;mper og sko var dyngvaade, hatten laa langt borte i lyngen, det var et sp&#x00F8;rgsmaal, om gutterne idetheletaget havde havt hatte paa, da de kom herop. lalfald var det lille Nils umuligt at huske det. De tommetykke sm&#x00F8;rrebr&#x00F8;d laa paa stene, hvor det kunde falde sig og blev bidt af nu og da.</p>
+<p>Sandelig var dette godt gjort, om hun selv skulde sige det, t&#x00E6;nkte Annikken, at faa hele basinet fuldt bare af de myrene.</p>
+<p><pb n="36"/>Hun stod som en feltherre og l&#x00E6;nede sig paa spaden, det tynde haar viftede om hende.</p>
+<p>&#x00AB;Det er ikke tale om, at vi lar fossen gaa idag, gutter!&#x00BB;</p>
+<p>&#x00AB;Aa jo da.&#x00BB;</p>
+<p>&#x00AB;Nei vi kan faa meget mer vand, hvis vi graver en rende derbortenfra, skal dere bare se.&#x00BB;</p>
+<p>Ja sandelig havde ikke sj&#x00F8;mand R&#x00F8;st ret denne gang ogsaa. Der kom en pige gaaende borte fra stien, der kom nedefra byen.</p>
+<p>&#x00AB;Hvem er nu det da,&#x00BB; sagde Annikken, &#x00AB;aldrig kan man nu faa v&#x00E6;re i fred heller.&#x00BB;</p>
+<p>Hun vridde lidt vand af sit kjoleskj&#x00F8;rt, og tog sin hat paa, andet toilette var det jo egentlig ikke anledning til at gj&#x00F8;re paa grund af den kommende.</p>
+<p>Da hun kom n&#x00E6;rmere saa de, at det var Lina Gr&#x00E6;svig. En ung pige, som Annikken gik til konfirmation med. De havde gaat paa skole sammen ogsaa, men Lina Gr&#x00E6;svig var blevet tat ud af skolen for et aars tid siden, da moderen, som var enke, ikke havde havt raad til at betale skolepengene. Faderen, der havde v&#x00E6;ret theologisk kandidat, var sygelig hele sit Liv, havde saa giftet sig med en tjenestepige, men var d&#x00F8;d efter et par aars forl&#x00F8;b.</p>
+<p>Moderen syede lins&#x00F8;m for folk, og fors&#x00F8;gte saa godt, hun kunde efter ringe evne, at give datteren en opdragelse, der var den studerede fader v&#x00E6;rdig.</p>
+<p>Det var en h&#x00F8;i, lys, sp&#x00E6;dlemmet skikkelse, den lille Lina Gr&#x00E6;svig, der havde denslags helt blaa &#x00F8;ine, <pb n="37"/>som bringer tanken hen paa violer. Hun mindede forresten om en blomst heltigjennem. En rank, sp&#x00E6;d, uskyldig blomst. Det blev sagt, at Lina Gr&#x00E6;svig havde arvet faderens daarlige helbred. Hun hostede ofte.</p>
+<p>Pyt var det bare Lina Gr&#x00E6;svig, der kom!</p>
+<p>&#x00AB;Vi leder vandet i kanaler, kom her skal du se,&#x00BB; raabte Annikken.</p>
+<p>Lina Gr&#x00E6;svig kom n&#x00E6;rmere med de yndefulde blaa &#x00F8;ine i det stille ansigt. Hun havde en sort straahat med blaat baand.</p>
+<p>&#x00AB;Hvor vaad du er,&#x00BB; sagde hun til Annikken.</p>
+<p>&#x00AB;Ja pyt.&#x00BB;</p>
+<p>&#x00AB;Du kan blive forkj&#x00F8;let.&#x00BB;</p>
+<p>&#x00AB;Puh,&#x00BB; med den dybeste ringeagt &#x2013; &#x00AB;synes du ikke, det ser morsomt ud?&#x00BB; Annikken pegede udover sit eftermiddagsarbeide, de dyngvaade myrer og de smale, sorte gravede render.</p>
+<p>&#x00AB;Aa jeg ved ikke rigtig.&#x00BB;</p>
+<p>&#x00AB;Ingen jenter skj&#x00F8;nner sig paa sligt uden sj&#x00F8;mand R&#x00F8;st,&#x00BB; sagde Erik med sorte svedperler i panden.</p>
+<p>&#x00AB;Gaar du tur,&#x00BB; spurgte Annikken.</p>
+<p>&#x00AB;Ja mor vil, at jeg skal ud i luften.&#x00BB;</p>
+<p>&#x00AB;Er du syg?&#x00BB;</p>
+<p>&#x00AB;Aa nei da, jeg er bare ligesom lidt tr&#x00E6;t.&#x00BB;</p>
+<p>De snakkede videre. Lina Gr&#x00E6;svig slog sig ned i lyngen. Hun fortalte, at hun havde vaaget inat hos en morbror af sig, som var lods, han var d&#x00F8;d udpaa morgenstunden.</p>
+<p>&#x00AB;Var du der, da han d&#x00F8;de?&#x00BB;</p>
+<p><pb n="38"/>&#x00AB;Ja jeg holdt ham i haanden.&#x00BB;</p>
+<p>&#x00AB;Var det ikke rart?&#x00BB;</p>
+<p>&#x00AB;Jo det er ligesom, verden er ingenting, naar man har seet en d&#x00F8;.&#x00BB;</p>
+<p>Det blev en liden pause. &#x00AB;Jeg tror, jeg gjerne vilde v&#x00E6;re tilstede, naar en skulde d&#x00F8;,&#x00BB; sagde Annikken og saa langt ud for sig.</p>
+<p>&#x00AB;Ja en har godt af det, siger mor.&#x00BB;</p>
+<p>&#x00AB;Kan du skj&#x00F8;nne, at menneskene kan le og snakke saa forf&#x00E6;rdelig meget og ligesom v&#x00E6;re saa letsindige, Lina &#x2013;&#x00BB; sagde Annikken.</p>
+<p>&#x00AB;T&#x00E6;nker du ogsaa saadan?&#x00BB; Lina Gr&#x00E6;svigs viol&#x00F8;ine lyste.</p>
+<p>&#x00AB;Ja bestandig.&#x00BB;</p>
+<p>&#x00AB;T&#x00E6;nk, saadan t&#x00E6;nker jeg ogsaa.&#x00BB;</p>
+<p>De slog f&#x00F8;lge sammen nedover. &#x00AB;Jeg har faat piano,&#x00BB; sagde Lina Gr&#x00E6;svig pludselig, &#x00AB;vi har kj&#x00F8;bt madam R&#x00F8;rvigs gamle taffelformede.&#x00BB;</p>
+<p>&#x00AB;Var det dyrt?&#x00BB;</p>
+<p>&#x00AB;Ja sv&#x00E6;rt,&#x00BB; sagde Lina Gr&#x00E6;svig alvorlig, &#x00AB;det kostede fyrretyve kroner. Mor har sparet penge sammen saa l&#x00E6;nge.&#x00BB;</p>
+<p>&#x00AB;Er det pene toner i det da?&#x00BB;</p>
+<p>&#x00AB;Ja det er da en lyd,&#x00BB; sagde Lina Gr&#x00E6;svig paa sin stille maade, &#x00AB;jeg spiller salmer paa det.&#x00BB;</p>
+<p>&#x00AB;Gaar du ofte opover her,&#x00BB; spurgte Annikken.</p>
+<p>&#x00AB;Ja mor siger, det er saa sundt for mig at gaa i h&#x00F8;iden.&#x00BB;</p>
+<p>&#x00AB;Skal vi m&#x00F8;des her imorgen igjen, saa kan vi snakke mere.&#x00BB;</p>
+<p><pb n="39"/>De aftalte, at de skulde m&#x00F8;des og sprang hver til sit.</p>
+<p>Men Annikken var ligesom saa glad, da hun kom hjem. Hun kunde ikke komme fra nogen blaa &#x00F8;ine, der lignede violer, under en sort straahat og en liden s&#x00F8;rgmodig stemme, der talte om d&#x00F8;den.</p>
+<p>&#x00AB;Nei ved du hvad, Annikken,&#x00BB; det var moderen, der talte, &#x00AB;det er dog maade med alt.&#x00BB;</p>
+<p>Hun holdt Annikkens dyngvaade kjole og de bogstavelig gjennembl&#x00F8;dte sko og str&#x00F8;mper fra Annikkens ingeni&#x00F8;rarbeide op i veiret.</p>
+<p>&#x00AB;Var du ti aar, havde du fortjent ris; blir du da aldrig voksen barn.&#x00BB;</p>
+<p>Annikken saa alvorlig paa sin vaade garderobe.</p>
+<p>&#x00AB;Det t&#x00F8;rrer saa fort &#x2013; mor.&#x00BB;</p>
+<p>En times tid efter gik moderen hen og str&#x00F8;g hende over det tynde haar:</p>
+<p>&#x00AB;Stakkars min rare unge.&#x00BB;</p>
+</div>
+<div type="chapter">
+<head type="main"><ref type="contents" target="contents_4" xml:id="chapter_4">Lina Gr&#x00E6;svig</ref></head>
+<p><pb n="40"/>Efter hin eftermiddag kom Annikken og Lina Gr&#x00E6;svig ofte sammen. De m&#x00F8;dtes oppe i heiene, og sad og saa udover havet, eller spadserede oppe i skoven. Helst gik de veie, hvor de vidste, at de ingen m&#x00F8;dte.</p>
+<p>De talte mest om Gud og grundede paa livets store sp&#x00F8;rgsmaal. Lina Gr&#x00E6;svig havde l&#x00E6;st meget i faderens efterladte theologiske b&#x00F8;ger. Annikken havde ikke befattet sig med denslags, hun havde f&#x00F8;rt et friskere barndomsliv end Lina, men der var n&#x00E6;sten ikke gaat en dag i hele hendes liv, uden at hun havde h&#x00F8;rt faderen paa en eller anden maade tale om sin l&#x00E6;ngsel efter det andet liv og frigj&#x00F8;relse fra alt hernede.</p>
+<p>Det var is&#x00E6;r et bibelsprog, han elskede: Borte fra legemet, hjemme hos Herren! Hun havde h&#x00F8;rt ham citere det, atter og atter, inde paa sit kontor, naar han troede sig alene, og ude i haven de lange sommerkv&#x00E6;lder.</p>
+<p>Borte fra legemet, hjemme hos Herren &#x2013;</p>
+<p><pb n="41"/>Denne dybe l&#x00E6;ngsel r&#x00F8;rte ved noget i hendes hjerte, hun ikke kunde forklare sig selv. Og hun m&#x00F8;dte Lina Gr&#x00E6;svigs st&#x00E6;rke religi&#x00F8;se trang i stor forstaaelse.</p>
+<p>&#x00AB;Undertiden sidder jeg paa bedehuset og venter paa, at jeg skal bli vakt,&#x00BB; sagde Lina uskyldig, &#x00AB;jeg tror ligesom, at det er noget, der skal falde ned over mig.&#x00BB;</p>
+<p>Annikken var mere n&#x00F8;gtern. &#x00AB;Nei, det er noget vi maa oparbeide selv i vor egen sj&#x00E6;l,&#x00BB; sagde hun stille.</p>
+<p>Lina Gr&#x00E6;svigs moder var et orakel for datteren i smaat og stort. Datteren lignede hende paafaldende, men hvad der hos Lina var yndefuldt og slankt, var haardt og tarveligt hos moderen. Hun talte lidet, og der var et stort alvor over hende. &#x00D8;inene var store og lysende, men munden streng og kinderne indhule. Hun h&#x00F8;rte til en frimenighed, men hun vilde, at datteren skulde konfirmeres i statskirken, saa kunde hun siden selv v&#x00E6;lge. Mange tause, alvorlige mennesker m&#x00F8;dtes stadig i de lave stuer hos Lina Gr&#x00E6;svigs moder. Udefra gaden h&#x00F8;rte man ofte salmesang derindefra.</p>
+<p>Det var noget nyt for Annikken at komme derned, og hun f&#x00F8;lte sig til en begyndelse ligesom beklemt, men snart v&#x00E6;nnede hun sig til det og likte at komme der.</p>
+<p>Men altid var hun ligesom lidt r&#x00E6;d for Linas moder med det alvorlige s&#x00F8;rgelige ansigt. Det var, som Gud altid sad oppe i himlen med et stort ris. Den Gud, hendes fader l&#x00E6;ngtes til, var ikke saadan. <pb n="42"/>Han gik der altid lys og glad, ofte i r&#x00F8;relse med vakre ord om Guds deilighed og vidunderlighed.</p>
+<p>Naar hun kom fra den lave stue nede hos Gr&#x00E6;svigs, hvor solen tidlig gik bort og kom hjem i den lune, gammeldagse have mellem de h&#x00F8;istammede, m&#x00F8;rker&#x00F8;de roser, hvor reseda og abrod duftede i de lyse sommerkv&#x00E6;lder, og faderen gik med sin lange pibe op og ned ved spereah&#x00E6;kken og citerede digte halvh&#x00F8;it for sig selv &#x2013; der var noget saa lyst over det hele &#x2013; da maatte hun altid t&#x00E6;nke paa Lina Gr&#x00E6;svig, der sad aften efter aften i det m&#x00F8;rke bagv&#x00E6;relse op mod heien. Eller ogsaa paa bedehuset &#x2013; t&#x00E6;tpakket, varmt med tunge b&#x00F8;nner!</p>
+<p>Hun blev saa saar om hjertet, ligesom saa beklemt og vemodig.</p>
+<p>Men den n&#x00E6;ste dag, naar hun traf Lina Gr&#x00E6;svig, kunde denne komme saa gl&#x00E6;desstraalende mod hende:</p>
+<p>&#x00AB;Aa, men igaar l&#x00E6;ste jeg vel noget deiligt i Davids salmer, du maa l&#x00E6;se det du ogsaa &#x2013; er det ikke deiligt?&#x00BB;</p>
+<p>Hvor glad hun ser ud, t&#x00E6;nkte Annikken</p>
+<p>Og Lina talte, medens &#x00F8;inene lyste:</p>
+<p>&#x00AB;T&#x00E6;nk undertiden, du, kan jeg bli saa jublende glad, saa jeg formelig kjender, hvor det triller gjennem mig, fordi at &#x2013; fordi at &#x2013;&#x00BB;</p>
+<p>Med en eneste gang blev hun generet og vilde ikke forts&#x00E6;tte.</p>
+<p>&#x00AB;Sig det da,&#x00BB; bad Annikken.</p>
+<p>&#x00AB;Fordi jeg skal komme til Gud,&#x00BB; sagde Lina sagte og blev r&#x00F8;d over hele ansigtet, &#x00AB;t&#x00E6;nk saadan 
+<pb n="43"/>kunde jeg ikke tale til andre end dig,&#x00BB; vedblev hun hurtig, &#x00AB;ingen andre vilde forstaa det&#x00BB; &#x2013; &#x2013;</p>
+<p>Tilda og alle veninderne havde sin store moro af dette Annikkens nye venskab.</p>
+<p>&#x00AB;Er hun saa morsom,&#x00BB; spurgte Elly.</p>
+<p>&#x00AB;Aa nei,&#x00BB; sagde Annikken.</p>
+<p>&#x00AB;Nei hun ser ikke egentlig ud, som hun kan sige to ord,&#x00BB; sagde Milly.</p>
+<p>&#x00AB;Hun ligner Rafaels madonna,&#x00BB; sagde Tilda.</p>
+<p>&#x00AB;Du mener, at hun er kjedelig, naar du siger, at hun ligner en madonna,&#x00BB; sagde Annikken.</p>
+<p>&#x00AB;Ha ha&#x00BB; lo de alle.</p>
+<p>&#x00AB;Ja for madonnaer er altid ubev&#x00E6;gelige og pene,&#x00BB; sagde Annikken, &#x00AB;men hun er meget mere v&#x00E6;rdt end alle dere tilsammen, det skal jeg bare fort&#x00E6;lle dere.&#x00BB;</p>
+<p>&#x00AB;Ha, ha, ha,&#x00BB; lo de alle igjen.</p>
+<p>En dag Lina Gr&#x00E6;svig og Annikken sad oppe i smaaskoven kom Per Krafft byksende nedover oppe fra heiene.</p>
+<p>&#x00AB;Skal jeg tr&#x00E6;ffe folk her?&#x00BB;</p>
+<p>&#x00AB;Ja vi gaar her ofte,&#x00BB; sagde Annikken, &#x00AB;her er saa hyggeligt.&#x00BB;</p>
+<p>Han slog sig ned paa en sten lige ved. &#x00AB;Ja jeg gaar ogsaa her, naar jeg er tr&#x00E6;t af mennesker,&#x00BB; lo han.</p>
+<p>En liden pause.</p>
+<p>&#x00AB;Hvorfor lyver du saadan?&#x00BB; sagde Annikken pludselig.</p>
+<p>&#x00AB;Lyver,&#x00BB; hans &#x00F8;ine spillede.</p>
+<p><pb n="44"/>&#x00AB;Ja du lyver, naar du siger du er tr&#x00E6;t af mennesker, for det er du slet ikke.&#x00BB;</p>
+<p>Han lo, lo saa han trillede ned i lyngen.</p>
+<p>&#x00AB;Men hvorledes kan nu egentlig du vide, om jeg er tr&#x00E6;t eller ei.&#x00BB;</p>
+<p>&#x00AB;Aa,&#x00BB; Annikken saa ikke paa ham, &#x00AB;du snakker og ler jo bestandig.&#x00BB;</p>
+<p>&#x00AB;Ha ha, du er ingen menneskekjender.&#x00BB;</p>
+<p>&#x00AB;Nei det kan godt h&#x00E6;nde &#x2013; skj&#x00F8;nt&#x00BB; hun gjorde en liden pause, &#x00AB;igrunden ved jeg ogsaa godt, hvad folk t&#x00E6;nker.&#x00BB;</p>
+<p>&#x00AB;Hvad t&#x00E6;nker jeg i dette &#x00F8;ieblik da?&#x00BB;</p>
+<p>&#x00AB;Aa du t&#x00E6;nker: Hvor dum hun er.&#x00BB;</p>
+<p>&#x00AB;Ha, ha &#x2013; ikke mere da,&#x00BB; han stirrede hende ind i ansigtet.</p>
+<p>Annikken saa granskende paa ham igjen: &#x00AB;Og saa t&#x00E6;nker du &#x2013; nei jeg vil ikke sige det &#x2013;&#x00BB; br&#x00F8;d hun af.</p>
+<p>&#x00AB;Jo sig det nu &#x2013;&#x00BB;</p>
+<p>&#x00AB;Nei jeg vil ikke &#x2013;&#x00BB;</p>
+<p>Han tog hende i begge armene, ligesom for at tvinge hende: &#x00AB;Nu skal du sige det.&#x00BB;</p>
+<p>Men der havde han gjort regning uden Annikkens brede arm. I en to tre havde hun ham under sig i lyngen.</p>
+<p>&#x00AB;Kan du tvinge mig nu,&#x00BB; sagde hun over ham.</p>
+<p>Han lo, saa han hiksted: &#x00AB;Skal jeg sige, hvad jeg t&#x00E6;nkte?&#x00BB; &#x00AB;Hun er en raring, men hun er ikke v&#x00E6;rst alligevel.&#x00BB;</p>
+<p>Annikken slap ham &#x00F8;ieblikkelig.</p>
+<p><pb n="45"/>&#x00AB;Gaar dere ofte opover her,&#x00BB; sagde han.</p>
+<p>&#x00AB;Nei langtfra,&#x00BB; sagde Annikken.</p>
+<p>&#x00AB;Du sagde jo netop, at dere gik her ofte.&#x00BB;</p>
+<p>&#x00AB;Ja men vi kommer vist aldrig til at gaa her mere,&#x00BB; sagde Annikken og stirrede ud over hans hoved.</p>
+<p>&#x00AB;Hvorfor det da?&#x00BB;</p>
+<p>&#x00AB;Det er gr&#x00E6;sseligt, som du sp&#x00F8;r om alt,&#x00BB; sagde Annikken.</p>
+<p>&#x00AB;Jeg anbefaler mig,&#x00BB; sagde Per Krafft og bukkede ironisk med sin gammelostn&#x00E6;se.</p>
+<p>Lina Gr&#x00E6;svig havde ikke sagt et ord, f&#x00F8;r han var vel borte.</p>
+<p>&#x00AB;Han er s&#x00F8;d,&#x00BB; sagde hun pludselig.</p>
+<p>&#x00AB;Han er &#x00E6;kkel,&#x00BB; sagde Annikken alvorlig.</p>
+<p>&#x00AB;Du &#x2013; han liker dig sv&#x00E6;rt godt,&#x00BB; vedblev Lina Gr&#x00E6;svig.</p>
+<p>&#x00AB;For noget t&#x00F8;v.&#x00BB;</p>
+<p>&#x00AB;Dere faar vist hverandre,&#x00BB; sagde Lina Gr&#x00E6;svig grundende, hun ligesom stirrede ud i fremtiden &#x2013; &#x00AB;ja t&#x00E6;nk, jeg tror det,&#x00BB; blev hun ved.</p>
+<p>&#x00AB;Uf saadant vaas, han synes netop, jeg er saa f&#x00E6;l &#x2013;&#x00BB;</p>
+<p>&#x00AB;Nei han liker dig &#x2013;&#x00BB;</p>
+<p>&#x00AB;Uf.&#x00BB;</p>
+<p>Siden begyndte Lina Gr&#x00E6;svig altid at tale om Per Krafft, naar de var sammen.</p>
+<p>&#x00AB;Han har saadanne nydelige smilende &#x00F8;ine,&#x00BB; sagde hun, &#x00AB;gid vi m&#x00F8;dte ham igjen.&#x00BB;</p>
+<p>&#x00AB;Nei det vil jeg ikke &#x00F8;nske,&#x00BB; sagde Annikken, &#x00AB;jeg kan ikke udstaa folk, der ler og gj&#x00F8;r nar af alt.&#x00BB;</p>
+</div>
+<div type="chapter">
+<head type="main"><ref type="contents" target="contents_5" xml:id="chapter_5">Maren Anne og Ebba</ref></head>
+<p><pb n="46"/>Det hele hus var i en forventning.</p>
+<p>Der var kommet brev, at to kusiner vilde komme og bade der nogle uger. Maren Anne, hvis fader var embedsmand inde i Kristiania og kusine Ebba fra Stockholm.</p>
+<p>Annikken var den eneste, der kjendte dem. For to&#x2013;tre aar siden havde hun v&#x00E6;ret sammen med dem begge paa Blommedal hos gamle bedstemor. Det var dengang bedstemor d&#x00F8;de, og alt det h&#x00E6;ndte, som Annikken saa ofte havde fortalt om.</p>
+<p>&#x00AB;Er de frygtelig fine,&#x00BB; spurgte Tilda.</p>
+<p>&#x00AB;Ja forf&#x00E6;rdelig,&#x00BB; sagde Annikken, &#x00AB;is&#x00E6;r Ebba.&#x00BB;</p>
+<p>&#x00AB;Og Maren Anne er jo et vidunder af flinkhed, du store alverden, hvor jeg gruer.&#x00BB;</p>
+<p>&#x00AB;Nei de er ikke det pluk at grue for,&#x00BB; sagde Annikken.</p>
+<p>&#x00AB;Du sj&#x00F8;mand R&#x00F8;st,&#x00BB; sagde Svend, &#x00AB;er de noget kj&#x00E6;kke, Maren Anne og Ebba?&#x00BB;</p>
+<p>Sj&#x00F8;mand R&#x00F8;st t&#x00E6;nkte sig om:</p>
+<p>&#x00AB;Aa &#x2013; nei.&#x00BB;</p>
+<p><pb n="47"/>&#x00AB;Det skal du faa mig til at tro,&#x00BB; sagde Svend &#x00AB;det er vist nogen gode sippernipper.&#x00BB;</p>
+<p>&#x00AB;Nei det er de ikke,&#x00BB; sagde Annikken.</p>
+<p>&#x00AB;Uf, Annikken, forklar hvorledes de er da,&#x00BB; sagde Magna.</p>
+<p>&#x00AB;Maren Anne er alvorlig med krum n&#x00E6;se og forf&#x00E6;rdelig skikkelig,&#x00BB; begyndte Annikken.</p>
+<p>&#x00AB;Isch,&#x00BB; raabte alle gutterne og Magna.</p>
+<p>&#x00AB;Dere kan tro, hun er vist bra &#x00E6;kkel,&#x00BB; sagde Tilda og saa rundt paa de andre.</p>
+<p>&#x00AB;Afskyelig naturligvis,&#x00BB; sagde Magna, &#x00AB;jeg hader folk som er skr&#x00E6;kkelig skikkelige.&#x00BB;</p>
+<p>&#x00AB;Men Ebba er ikke saa skikkelig,&#x00BB; sagde Annikken, &#x00AB;for hun er en flyfille og sv&#x00E6;rt pyntet.&#x00BB;</p>
+<p>&#x00AB;Ak,&#x00BB; sagde Tilda, &#x00AB;det er deiligt at h&#x00F8;re.&#x00BB;</p>
+<p>&#x00AB;Bedstemor var vond paa hende mange gange,&#x00BB; sagde Annikken.</p>
+<p>&#x00AB;Uf ja &#x2013; gamle vonde bedstem&#x00F8;dre,&#x00BB; begyndte Tilda.</p>
+<p>&#x00AB;Bedstemor var ikke vond,&#x00BB; sagde Annikken med lynende &#x00F8;ine.</p>
+<p>&#x00AB;Nei naturligvis, for du skal jo ligne hende saa op ad dage,&#x00BB; sagde Tilda.</p>
+<p>Straks Annikken h&#x00F8;rte, at kusinerne skulde komme, havde hun med en gang t&#x00E6;nkt paa Lina Gr&#x00E6;svig.</p>
+<p>At hun kanske ikke kunde v&#x00E6;re saa meget sammen med hende da, og om Lina Gr&#x00E6;svig vilde synes, at det var leit. Maren Anne og Ebba vilde vist ikke like den lille, stille Lina Gr&#x00E6;svig heller. Og jeg er vis paa, at Ebba vil synes, at hun er tarvelig &#x2013;</p>
+<p><pb n="48"/>Men det er det samme, t&#x00E6;nkte Annikken og kneb munden t&#x00E6;t sammen, jeg bryder mig ikke det pluk om Ebbas mening. For Lina er saa usigelig snild.</p>
+<p>&#x2013; Dampskibet med de to kusiner skulde komme tidligt paa morgenen. Tidligere end folk ellers var oppe.</p>
+<p>Alle vinduer i det lange, hvide hus under de gamle l&#x00F8;nnetr&#x00E6;er stod aabne. Solen var endda ikke kommet ind i v&#x00E6;relserne, men den glitrede og lyste paa heiene rundt om og paa toppene af de store lubne tr&#x00E6;er.</p>
+<p>De hvide gardiner viftede i morgenbrisen og udefra kom denne vidunderlige duft af frisk muld, af nattedug og l&#x00F8;vtr&#x00E6;er. Indimellem kunde der saa komme en pludselig tanke om reseda. Maren Kokke havde skuret de afslidte gulve, og i forv&#x00E6;relset prangede alle moders blomster. Der var som et drivhus, hele borde fulde af blomstrende geranier og heliotroper, der duftede tvers gjennem det gamle hus, helt ud af den brunmalede snirklede indgangsd&#x00F8;r paa bagsiden mod gaardspladsen, der var nyraket og endnu vaad af duggen. Inde i h&#x00F8;nsehuset galede hanen, og h&#x00F8;nsene kaglede i morgenstilheden.</p>
+<p>Tilda, Annikken og alle b&#x00F8;rnene havde endelig villet paa bryggen. Men i den stille sommerdags morgen, var dampskibet kommet f&#x00F8;r ruten, og pludselig f&#x00F8;r nogen ventede det, stod der to slanke, unge piger og Kristen Brygga med et l&#x00E6;s af kufferter i den gamle gang.</p>
+<p><pb n="49"/>De kom styrtende fra alle kanter, Annikken f&#x00F8;rst, bred og tung, rutschende nedigjennem den gamle loftstrap.</p>
+<p>&#x00AB;Annikken Pr&#x00E6;stgaren &#x2013; der har vi jo Annikken Pr&#x00E6;stgaren,&#x00BB; raabte en h&#x00F8;i, stilig, ung pige. Det m&#x00F8;rke haar var kj&#x00E6;mmet glat ned paa begge sider af hovedet, og ansigtet bar dette umiskjendelige rolige pr&#x00E6;g af gammel kultur og dannelse sl&#x00E6;gtled opigjennem. Hun var lyskl&#x00E6;dt med l&#x00E6;derbelte og en enkel hvid hat.</p>
+<p>&#x00AB;Aa Maren Anne, velkommen,&#x00BB; raabte Annikken, &#x00AB;aa hvor morsomt, du er akkurat den samme, bare h&#x00F8;iere&#x00BB;.</p>
+<p>Der blev Annikken omfavnet bagfra af den anden unge pige.</p>
+<p>&#x00AB;Goddag, s&#x00F8;deste Annikken Pr&#x00E6;stgaren &#x2013;&#x00BB;</p>
+<p>&#x00AB;Velkommen Ebba, du verden hvor du er blevet h&#x00F8;i &#x2013;&#x00BB;</p>
+<p>&#x00AB;Du er da blevet stor, du ogsaa, Annikken,&#x00BB; sagde Maren Anne muntert, &#x00AB;men &#x00F8;inene er de samme, akkurat lige troskyldige.&#x00BB;</p>
+<p>Der kom Tilda ogsaa, lidt generet og r&#x00F8;d, men forventningsfuld i ansigtet. Hun stirrede is&#x00E6;r paa Ebba. Og moderen endnu i morgentoilette maatte ind og omfavne begge s&#x00F8;sterd&#x00F8;trene.</p>
+<p>Ebba var blevet rent ud nydelig, ung pige, skj&#x00E6;r og fin, men stolt og statelig paa samme tid. Dragten var efter sidste mode og uds&#x00F8;gt kostbar.</p>
+<p>Moderen stod der bred og god i nattr&#x00F8;ie med <pb n="50"/>det pjuskede, r&#x00F8;dgule haar og fandt ligheder med s&#x00F8;strene hos de to unge s&#x00F8;sterd&#x00F8;tre.</p>
+<p>&#x00AB;Du er s&#x00F8;ster Adelheid op ad dage,&#x00BB; til Ebba &#x2013; &#x00AB;og du Maren Anne, ja du er nu bedstemor paa Blommedal, som hun stod og gik.&#x00BB;</p>
+<p>&#x00AB;Nei Annikken Pr&#x00E6;stgaren er lig bedstemor,&#x00BB; sagde Maren Anne.</p>
+<p>&#x00AB;Hun heder ikke Annikken Pr&#x00E6;stgaren, hun heder sj&#x00F8;mand R&#x00F8;st,&#x00BB; sagde Erik.</p>
+<p>&#x00AB;Hvad er det du siger, lille f&#x00E6;tter Erik,&#x00BB; sagde Maren Anne forbauset.</p>
+<p>&#x00AB;Jo hun er saa flink i baad, og saa er hun saa grov til at raabe,&#x00BB; sagde Erik.</p>
+<p>&#x00AB;Kj&#x00E6;rt barn har mange navne,&#x00BB; sagde Maren Anne smilende.</p>
+<p>&#x00AB;Nei det er ikke saa at forstaa,&#x00BB; sagde Annikken bryd, &#x00AB;det er bare gutterne, der kalder mig det dumme navn.&#x00BB;</p>
+<p>&#x00AB;For et deiligt hjem, du har, Annikken,&#x00BB; sagde Maren Anne, &#x00AB;her er ligesom saa frit og fortryllende gammeldags.&#x00BB;</p>
+<p>&#x00AB;Ja her er kanske det,&#x00BB; sagde Annikken troskyldig.</p>
+<p>Kusinerne havde ikke sovet om natten og var tr&#x00E6;tte. Annikken og Tilda fulgte dem op paa kvistv&#x00E6;relset, hvor de skulde ligge.</p>
+<p>Der var den samme friskhed og renhed, hvide broderede omh&#x00E6;ng paa toiletbordet, og et stort blomsterglas ved hver seng. De fine lagen paa de opbrettede senge laa der med de skarpe, snorlige bretter <pb n="51"/>efter rullingen. Og udigjennem det store kvistvindu saa man ret tilhavs, derude hvor morgensolen glitrede.</p>
+<p>Maren Anne var i en begeistring.</p>
+<p>&#x00AB;Aa dette er noget andet end Kristianiav&#x00E6;relser,&#x00BB; sagde Maren Anne, &#x00AB;hvad siger du Ebba?&#x00BB;</p>
+<p>Ebba var noget kj&#x00F8;ligere i sin ros og passede paa at faa den bedste seng for sin part.</p>
+<p>De forsikrede begge to, at de ikke kunde tale ti ord af bare tr&#x00E6;thed, og saa blev dog Tilda og Annikken siddende deroppe under ustanselig passiar i to timer.</p>
+<p>Men gutterne og Magna var udenfor n&#x00F8;glehullet og kikkede og lyttede, da det varede saa altfor evig l&#x00E6;nge, inden de m&#x00E6;rkelige kusiner igjen kom ned.</p>
+<p>Det viste sig temmelig fort, at Tilda og Ebba passede udm&#x00E6;rket sammen. Der var ogsaa en umiskjendelig familielighed mellem dem. Tilda f&#x00F8;lte sig smigret, naar det blev sagt, at de lignede hinanden.</p>
+<p>Der begyndte nogle herlige dage.</p>
+<p>Annikken straalede, travede om med lange skridt, sl&#x00E6;ngte med armene og var henrykt over Maren Anne. De fiskede og badede, laa i lyngen og sov middagss&#x00F8;vn med himmelens skinnende hv&#x00E6;lving til loft og var ellevilde.</p>
+<p>Pastoren saa paa dem paa sin stille maade:</p>
+<p>&#x00AB;Det er deiligt at se paa de unge, mor.&#x00BB;</p>
+<p>Og moderen frydede sig, kanske var det ogsaa nogen forf&#x00E6;ngelighed over de to vakre s&#x00F8;sterd&#x00F8;tre, der gjorde saadan opsigt i byen.</p>
+<p>Men efter nogle dages forl&#x00F8;b blev det Ebba vel <pb n="52"/>langsomt og trivielt, det hele. Hun maatte have noget mere.</p>
+<p>&#x00AB;Findes der ikke en eneste ung herre her i byen,&#x00BB; spurgte hun.</p>
+<p>&#x00AB;Jo naturligvis,&#x00BB; lo Tilda, &#x00AB;det er flere ekstra hyggelige.&#x00BB;</p>
+<p>&#x00AB;De f&#x00F8;rer en usynlig eksistens ialfald,&#x00BB; gabede Ebba.</p>
+<p>Det var en s&#x00F8;ndagseftermiddag. Den lille by havde v&#x00E6;ret som udd&#x00F8;et og sov i solstegen helt siden kirketid. Ikke et liv at se paa gaderne, selv b&#x00F8;rnene havde tyet udenfor byen paa de aabne jorder, eller paa kirkegaarden. M&#x00E6;ndene sad i skjorte&#x00E6;rmer paa d&#x00F8;rhellen udenfor sine smaa huse og r&#x00F8;gte snadde, og der var ikke en lyd i luften.</p>
+<p>Oppe hos pr&#x00E6;sten havde de unge piger ligget ude i haven paa de gr&#x00F8;nne haveb&#x00E6;nke den hele eftermiddag. Myggene surrede i store flokke og tykke, brungule hvepser fl&#x00F8;i ud og kr&#x00F8;b ind i lupinernes aabne blomsterb&#x00E6;gre i de varme, sandede blomsterbed. Der var en ubeskrivelig fred over det hele.</p>
+<p>&#x00AB;Aa for en lang deilig s&#x00F8;ndagseftermiddag,&#x00BB; sagde Maren Anne og strakte sig med en af Dickens&#x0027; romaner i haanden.</p>
+<p>&#x00AB;Ja kjedelig og deilig,&#x00BB; sagde Ebba &#x2013; &#x00AB;nei jeg maa spille en vals.&#x00BB;</p>
+<p>Udigjennem de aabne vinduer bruste der en vals &#x2013; men saa &#x00F8;ieblikket efter kom Ebbas hoved i salsvinduet.</p>
+<p>&#x00AB;Nei &#x2013; vi vil gaa en tur.&#x00BB;</p>
+<p><pb n="53"/>&#x00AB;Vi maa vente,&#x00BB; sagde Tilda, &#x00AB;det er ikke et menneske ude endnu.&#x00BB;</p>
+<p>&#x00AB;Er hele byen ligesom forhekset, fortroldet hver s&#x00F8;ndagseftermiddag,&#x00BB; vedblev Ebba i vinduet, &#x00AB;jeg maa ha liv &#x2013; jeg &#x2013; maa &#x2013; ha &#x2013; liv.&#x00BB;</p>
+<p>&#x00AB;Ingenting er saa morsomt som at gaa alene i skogen,&#x00BB; sagde Annikken.</p>
+<p>&#x00AB;Jeg hader ensomhed, og jeg hader skog,&#x00BB; sagde det kr&#x00F8;llede hoved i vinduet, &#x00AB;hvad moro er der i skogen forresten?&#x00BB;</p>
+<p>&#x00AB;Jeg t&#x00E6;nker saa godt i skogen,&#x00BB; sagde Annikken.</p>
+<p>&#x00AB;Isch &#x2013; t&#x00E6;nker &#x2013;&#x00BB; sagde Ebba.</p>
+<p>Endelig var tidspunktet kommet, da Tilda fandt det passende at spadsere ud. Solen var paa nedgang, og byens folk var ude i flok og f&#x00F8;lge. Adstadige borgerm&#x00E6;nd med sine pyntede madamer gik pent og v&#x00E6;rdig og stirrede ret ud for sig. Hele rader af unge piger arm i arm sp&#x00E6;rrede gaden og lukkede bare &#x00F8;inene, naar folk hilste paa dem. Ud fra bedehuset str&#x00F8;mmede netop massevis af mennesker, hele gaden blev sort i et &#x00F8;ieblik, men om to&#x2013;tre minutter var de alle igjen spredt ad.</p>
+<p>De fire unge piger spadserede videre og tog plads paa en b&#x00E6;nk ud mod sj&#x00F8;en. Det var lige i spadserveien, folk gik ofte forbi.</p>
+<p>&#x00AB;Nu skal jeg gj&#x00F8;re et eksperiment,&#x00BB; sagde Ebba og kastede sin hanske ligesom tilfeldig ned foran b&#x00E6;nken.</p>
+<p>To pyntede handelsbetjente med brogede slips og svingende stokke n&#x00E6;rmede sig. &#x00AB;Nu skal vi se, om de tager hansken op,&#x00BB; hviskede Ebba.</p>
+<p><pb n="54"/>Handelsbetjentene stirrede ud under sine hatteskygger, svingede flot sine stokke og gik forbi.</p>
+<p>&#x00AB;Nei ikke gj&#x00F8;r det,&#x00BB; sagde Annikken.</p>
+<p>&#x00AB;Dette vil jeg rigtignok ikke v&#x00E6;re med paa,&#x00BB; sagde Maren Anne, &#x00AB;jeg vilde holde mig for god.&#x00BB;</p>
+<p>Maren Anne og Annikken reiste sig og satte sig i en bryggetrap l&#x00E6;ngere ude.</p>
+<p>Der kom Tidemandsen paa Samlaget. R&#x00F8;dn&#x00E6;set med stort baghoved. Hansken laa der fremdeles. Tidemandsen hilste stivt og gik forbi.</p>
+<p>&#x00AB;Kan du t&#x00E6;nke dig noget saa nedv&#x00E6;rdigende, som den Ebbas opf&#x00F8;rsel,&#x00BB; fnyste Maren Anne i bryggetrappen.</p>
+<p>Der kom Iversen, hilste forbindtlig med store, vandblaa &#x00F8;ine og gik forbi.</p>
+<p>Ebba og Tilda var i en latter.</p>
+<p>Saa kom Per Krafft spadserende, liden og let. Han saa &#x00F8;ieblikkelig hansken.</p>
+<p>&#x00AB;Tillad mig mine damer &#x2013;&#x00BB; og tog hansken op.</p>
+<p>Endnu f&#x00F8;rend Tilda havde faat presenteret, sagde Ebba:</p>
+<p>&#x00AB;Jeg maa fort&#x00E6;lle Dem, at fire herrer har gaaet forbi uden at ha havt den opf&#x00F8;rsel at ta min hanske op.&#x00BB;</p>
+<p>&#x00AB;Tilslut kom altsaa den barmhjertige samaritan, efter at pr&#x00E6;sten og leviten var gaaet forbi,&#x00BB; sagde Per Krafft.</p>
+<p>Tilda og Ebba saa lidt ubestemt paa ham.</p>
+<p>Gjorde han nar?</p>
+<p><pb n="55"/>&#x00AB;Det havde de godt af,&#x00BB; sagde Maren Anne i bryggetrappen. Der blev den livligste passiar oppe paa b&#x00E6;nken.</p>
+<p>&#x00AB;Han var pikant du,&#x00BB; sagde Ebba senere til Tilda.</p>
+<p>&#x00AB;Ja, ikke sandt,&#x00BB; straalede Tilda, &#x00AB;vi har da herrer her i byen ogsaa.&#x00BB;</p>
+<p>&#x00AB;Ja han var simpelthen ikke v&#x00E6;rst,&#x00BB; udtrykte Ebba sig.</p>
+<p>Men Annikken stod der h&#x00F8;i og bred med sit tynde lyse haar:</p>
+<p>&#x00AB;Det kompletteste fiskeri,&#x00BB; sagde hun stolt.</p>
+<p>Efter den aften var det ligesom, at de delte sig i to partier, Maren Anne og Annikken gik for sig, og Tilda og Ebba sine egne veie.</p>
+</div>
+<div type="chapter">
+<head type="main"><ref type="contents" target="contents_6" xml:id="chapter_6">Mod</ref></head>
+<p><pb n="56"/>Saa kunde Iversen og Mosling ikke l&#x00E6;ngere holde sin nysgjerrighed it&#x00F8;mme med hensyn til de to nydelige unge damer, der var kommet til byen, og som gik der saa sikre og vakre i al sin hovedstadsoverlegenhed.</p>
+<p>Per Krafft, der nu oftere var sammen med de unge piger, blev herrernes talsmand. Om damerne vilde gj&#x00F8;re dem den store &#x00E6;re og forn&#x00F8;ielse at deltage i en kj&#x00F8;retur med paaf&#x00F8;lgende dans oppe paa en bondegaard, hvor de oftere pleiede tage hen.</p>
+<p>Ebba var saa naadig, at invitationen behagede hende. &#x00AB;Lad gaa,&#x00BB; sagde Maren Anne. Og Tilda frydede sig over at vise frem de to fine, nydelige kusiner.</p>
+<p>Men Annikken drog paa det: &#x00AB;Jeg havde t&#x00E6;nkt &#x2013; det er en, jeg gjerne vilde tr&#x00E6;ffe &#x2013; dere kan jo godt reise uden mig.&#x00BB;</p>
+<p>Maren Anne nedlagde en bestemt protest mod, at Annikken skulde blive hjemme.</p>
+<p>&#x00AB;Uf Annikken ikke v&#x00E6;r saa vri&#x0027;en bestandig da,&#x00BB; <pb n="57"/>sagde Tilda. Og Ebba ymtede om, at det simpelthen var uh&#x00F8;fligt at lade sine gjester reise uden hende.</p>
+<p>Annikken havde t&#x00E6;nkt, at hun vilde gaa til Lina Gr&#x00E6;svig, naar de andre var reist.</p>
+<p>&#x00AB;Det var saa &#x00E6;kkelt sidste gang, jeg var paa tur,&#x00BB; sagde Annikken, &#x00AB;ingen snakkede til mig, og ikke et menneske bryr sig om, enten jeg er med eller ei.&#x00BB;</p>
+<p>&#x00AB;Jeg bryr mig om det,&#x00BB; sagde Maren Anne muntert.</p>
+<p>Ja jeg kan jo gjerne v&#x00E6;re med, men nu skal dere bare se, at det er akkurat det samme, enten jeg er med eller ei,&#x00BB; sagde Annikken.</p>
+<p>Ebbas toilette tog meget lang tid deroppe paa kvistv&#x00E6;relset. Maren Anne tog det overordentlig rolig, men Tilda var lidt i en feber, for at kusinerne rigtig skulde tage sig ud til sin fordel, for at Elly og Milly rigtig kunde beundre den fine sl&#x00E6;gt.</p>
+<p>Der var fire vogne i f&#x00F8;lge. De kj&#x00F8;rte chauss&#x00E9;en langsmed fjorden, der skar sig ind i landet.</p>
+<p>Dybt dernede det m&#x00F8;rke stille vand, ret op for veien laa granskogen og susede i havbrisen. Per Krafft kj&#x00F8;rte i vogn med Ebba og Tilda. Maren Anne og Annikken med nogen af de andre damer.</p>
+<p>Der var latter og raab fra den ene vogn til den anden. Per Krafft gik med punscheflaske og skj&#x00E6;nkede, naar hestene skulde hvile.</p>
+<p>Per Krafft og Ebba holdt det gaaende med moro og latter, saa Tilda f&#x00F8;lte sig lidt tilsidesat, men hun vilde jo ikke egentlig lade sig m&#x00E6;rke med det heller. <pb n="58"/>Det var jo, frygtelig morsomt, at de allesammen kunde faa se, hvilke rige, nydelige kusiner, hun havde. For t&#x00E6;nk Ebba havde virkeligt diamantarmbaand!</p>
+<p>Annikken sad der alvorlig og angrede paa, at hun var blevet med paa turen. Nu var det n&#x00E6;sten fjorten dage siden, hun havde seet Lina Gr&#x00E6;svig. Mon hvad hun t&#x00E6;nkte om hende!</p>
+<p>Den lille rare Lina Gr&#x00E6;svig, der sad i bedehuset og ventede paa at blive vakt!</p>
+<p>Annikken var blevet aldeles taus, selv Maren Anne kunde ikke mere faa hende paa glid.</p>
+<p>Der var de fremme paa den gaard, hvor de vilde tage ind. En stor, hvid gaard paa et stort, gr&#x00F8;nt, aabent jorde.</p>
+<p>De fire vogne svingede med en vis elegance op foran indgangsd&#x00F8;ren, og der blev liv og munterhed paa det stille tun.</p>
+<p>Ebba og Maren Anne var gjenstand for den mest uds&#x00F8;gte opm&#x00E6;rksomhed. Ebba trillede og lo og Maren Anne var fornem og nydelig. Iversen, lysegraa kl&#x00E6;dt og letvindt, l&#x00E6;spede og hviskede, og Mosling forsikrede i enrum til de andre herrer om Ebba og Maren Anne: &#x00AB;Super fin vare, f&#x00F8;rste sort, tre stjerner.&#x00BB;</p>
+<p>Men det var nu maade ogsaa paa Ebbas koketteri, t&#x00E6;nkte Tilda. Hun lod jo hverken Per Krafft eller Rode i ro et &#x00F8;ieblik!</p>
+<p>Nei uf! Tilda likte sig ikke. Hvis det endda bare havde v&#x00E6;ret Rode, som saa saa dum ud med sin h&#x00E6;ngende underl&#x00E6;be, men Per Krafft &#x2013;</p>
+<p><pb n="59"/>Hun fors&#x00F8;gte et par gange at faa Per bort til sig, men det lykkedes ikke.</p>
+<p>Idag saa han blot Ebba. Aldeles aabenlyst, at der ikke eksisterede andre end den guldhaarede, unge pige med diamantarmbaandet og de hvide st&#x00F8;vler.</p>
+<p>Tilda huskede paa den sidste tur til Langeland og blev med en eneste gang i det r&#x00E6;dsomste hum&#x00F8;r.</p>
+<p>Den afskyelige Ebba med sine hvide t&#x00E6;nder og de hvide st&#x00F8;vler. Tale svensk, gjorde hun nu bare for at gj&#x00F8;re sig til.</p>
+<p>Tilda slog efter en liden hundehvalp, der kom og vilde lege med hende.</p>
+<p>Og Ebba hviskede til Tilda: &#x00AB;Du har r&#x00E4;tt, han &#x00E4;r fortjusande.&#x00BB;</p>
+<p>&#x00AB;Pyt,&#x00BB; sagde Tilda og kastede paa nakken, &#x00AB;du skulde bare vide, alt det, jeg ved om ham saa &#x2013;&#x00BB;</p>
+<p>Annikken saa alvorlig paa Per Krafft. Han er v&#x00E6;mmelig og lumpen, t&#x00E6;nkte hun, idag snakker han jo ikke et ord med Tilda.</p>
+<p>Solen stegte paa den aabne bakke. &#x00AB;Kom saa l&#x00F8;ber vi op i skogen,&#x00BB; raabte Ebba og saa paa Per.</p>
+<p>Han for op som en raket. Alle de andre blev siddende i ro. Tilda blev med en eneste gang distrait, stirrede ret ud for sig og lo ikke engang af alle Moslings vittigheder.</p>
+<p>Med engang skar et skrig gjennem skogen, oppe fra den kant Per og Ebba var forsvundet.</p>
+<p>&#x00AB;Det var Ebba,&#x00BB; Tilda for op.</p>
+<p>De l&#x00F8;b opover allesammen, men m&#x00F8;dte straks Ebba i fuldt l&#x00F8;b.</p>
+<p><pb n="60"/>&#x00AB;Hj&#x00E6;lp, hj&#x00E6;lp,&#x00BB; skreg hun, &#x00AB;han er bidt af en orm.&#x00BB;</p>
+<p>Han havde ligget paa ryggen oppe i et bakkeheld og strakt armene langt ud fra sig; f&#x00F8;r han vidste ordet af det, havde en hugorm bidt ham i det ene haandled. Han laa sunket tilbage, da de kom derop, havde fors&#x00F8;gt at suge saaret ud selv, men havde ikke magtet det.</p>
+<p>De for om hinanden. &#x00AB;Saaret maa suges ud,&#x00BB; raabte en.</p>
+<p>&#x00AB;Aa Gud t&#x00F8;r nogen gj&#x00F8;re det,&#x00BB; raabte Milly.</p>
+<p>&#x00AB;Jeg t&#x00F8;r ikke,&#x00BB; raabte Ebba.</p>
+<p>&#x00AB;Nei, nei,&#x00BB; raabte Tilda, &#x00AB;jeg t&#x00F8;r ikke heller.</p>
+<p>Herrerne saa raadvilde paa hinanden. Iversen snakkede om at hente doktor.</p>
+<p>&#x00AB;Jeg turde ikke suge ud et ormebid for aldrig det,&#x00BB; sagde Elly.</p>
+<p>&#x00AB;Jeg t&#x00F8;r,&#x00BB; sagde Annikken. Hun var blevet ganske bleg, men hun greb Per Kraffts haand.</p>
+<p>&#x00AB;Nei nei,&#x00BB; sagde han mat.</p>
+<p>&#x00AB;Lig stille,&#x00BB; sagde hun myndig.</p>
+<p>Og hun begyndte at suge saaret ud. Der blev d&#x00F8;dsstille.</p>
+<p>Per Krafft havde lukket &#x00F8;inene, Tilda hikstede, som hun vilde gr&#x00E6;de.</p>
+<p>Men Annikken holdt rolig ved. &#x00AB;Tak nu er det vist nok,&#x00BB; hviskede Per Krafft.</p>
+<p>&#x00AB;Annikken,&#x00BB; sagde Maren Anne uvilkaarlig ligesom i &#x00E6;ngstelse.</p>
+<p><pb n="61"/>Men Annikken holdt paa endnu en stund. Da hun reiste sig op, var hun blodr&#x00F8;d i ansigtet.</p>
+<p>&#x00AB;Nu kan du v&#x00E6;re tryg, Per,&#x00BB; sagde hun paa sin korte, trov&#x00E6;rdige maade.</p>
+<p>Per Krafft aabnede &#x00F8;inene og saa paa hende, men han sagde intet.</p>
+<p>Hele scenen var med et forandret. Ebba havde faat krampegraad, der maatte l&#x00F8;bes efter vand. Iversen stirrede med store, hj&#x00E6;lpel&#x00F8;se, vandblaa &#x00F8;ine og vilde efter doktor hvert &#x00F8;ieblik. Elly og Milly sprang nedover jordet.</p>
+<p>Snart efter kunde Per Krafft st&#x00F8;ttet af Rode gaa nedover.</p>
+<p>Aa for en r&#x00E6;dsom tur, t&#x00E6;nkte Tilda, det er Ebbas skyld altsammen, det var hende, der fik ham op i skogen ogsaa &#x2013;</p>
+<p>Per Krafft vilde kj&#x00F8;re hjem straks. &#x00AB;Hvor er Annikken,&#x00BB; spurgte han.</p>
+<p>Der kom hun med de lyse, alvorlige &#x00F8;ine.</p>
+<p>&#x00AB;Gud, hvor snild du var Annikken,&#x00BB; sagde han sagte.</p>
+<p>&#x00AB;Du er vel ikke daarlig, Annikken,&#x00BB; sagde Maren Anne, hun syntes pludselig, at hun blev saa bleg.</p>
+<p>&#x00AB;Ikke spor.&#x00BB;</p>
+<p>&#x00AB;Hvor kj&#x00E6;k du er,&#x00BB; vedblev Maren Anne.</p>
+<p>&#x00AB;Puh &#x2013; nei.&#x00BB;</p>
+<p>&#x00AB;Vil du kj&#x00F8;re med nedover,&#x00BB; spurgte Per.</p>
+<p>&#x00AB;Ja hvis Maren Anne ogsaa vil,&#x00BB; sagde Annikken. De tre kj&#x00F8;rte straks. Alle de andre vogne kom <pb n="62"/>straks efter, det var ikke to timer siden, de havde kj&#x00F8;rt opover under latter og moro.</p>
+<p>Maren Anne sad stille, kastede bare af og til et blik paa Annikken.</p>
+<p>Aa du stille, alvorlige Annikken Pr&#x00E6;stgaren, t&#x00E6;nkte hun, du er nu basen alligevel du &#x2013; du er ikke pen, det kan jeg godt se &#x2013; men der findes ikke svig i dig, tror jeg &#x2013;</p>
+<p>Per sad med lukkede &#x00F8;ine. En gang saa han paa Annikken og smilte. Men hun smilte ikke igjen, hun bare saa alvorlig paa ham.</p>
+</div>
+<div type="chapter">
+<head type="main"><ref type="contents" target="contents_7" xml:id="chapter_7">Per Kraffts hjem</ref></head>
+<p><pb n="63"/>Per Krafft var en brors&#x00F8;n af gamle madame Tausen og havde v&#x00E6;ret som barn i hendes hus, siden han var ganske liden. Madame Tausen havde rigtignok ogsaa en mand, som var m&#x00E6;gler, men han t&#x00E6;nkte aldrig nogen noget videre paa. Det var ubetinget madame Tausen, der var hovedpersonen.</p>
+<p>Og det uagtet hun intetsomhelst gjorde for at stikke sig frem. Det hele kom blot af, at hun var komplet sig selv og ikke b&#x00F8;iede af for nogen eller noget.</p>
+<p>Styg var hun. Tyk og bred, vagged i hofterne, naar hun gik, lidt r&#x00F8;dspr&#x00E6;ngt i kinderne og alt andet end propert paakl&#x00E6;dt. Hun gik med strikket&#x00F8;rkl&#x00E6;de paa gaden og helst uden hat, men med parasol.</p>
+<p>&#x00AB;Hatten trykker,&#x00BB; sagde madame Tausen, &#x00AB;men parasollen lufter.&#x00BB; Ikke fordi hun havde nok kistekl&#x00E6;der ogsaa og kunde optr&#x00E6;de i plydses kaabe og med blomster paa hatten.</p>
+<p>Men det var ligesom ikke den rigtige madame Tausen.</p>
+<p><pb n="64"/>For den rigtige madame Tausen maatte helst staa og male sit havestakit, eller spade op sin have, akkurat med en arbeidsmands lag. Eller v&#x00E6;re politi i gaden ligeoverfor drukne sj&#x00F8;folk og uskikkelige unger.</p>
+<p>De var ligesaa r&#x00E6;d for madame Tausen som for selve politibetjent Weiby.</p>
+<p>M&#x00E6;gleren gik med r&#x00F8;d n&#x00E6;se og tuslede med lang pibe. Han talte ikke meget, og det beh&#x00F8;vede han jo heller ikke.</p>
+<p>&#x00AB;Han er snild og lydig,&#x00BB; sagde madame Tausen om sin mand, &#x00AB;naar jeg siger noget, saa gj&#x00F8;r han det straks &#x2013; r&#x00F8;d n&#x00E6;se har han, men det er mange bra folk, der har det.&#x00BB;</p>
+<p>De boede i det gamle graa hus med karnapperne og den rare snirklede indgangsd&#x00F8;r oppe i byens hovedgade. Den gammeldagse have fulgte gaden et stykke, der var et lysthus af trallev&#x00E6;rk, og aurikler og abrod og porcel&#x00E6;nsblomster og mange andre gammeldagse urter.</p>
+<p>Inde i huset var der filletepper gjennem gangene, et m&#x00E6;gtigt gammelt slaguhr i forstuen, og en vis frisk renslig duft af kamfer over det hele hus.</p>
+<p>I dette hjem var Per Krafft vokset op. M&#x00E6;gler Tausen og kone var velstaaende, efter smaabyforhold rige folk. De havde selv ingen barn, og da Per Krafft var blevet faderl&#x00F8;s i to&#x2013;tre aars alderen, var tanten kommet reisende og havde taget ham uden videre.</p>
+<p>Moderen havde gjort nogen indvendinger:</p>
+<p>&#x00AB;Tag fornuften fangen,&#x00BB; sagde madame Tausen, <pb n="65"/>&#x00AB;kan du &#x00F8;nske ham noget bedre end at komme til Tausen og mig.&#x00BB;</p>
+<p>Og moderen havde taget fornuften fangen, hun havde ogsaa havt flere barn, og Per Krafft var fulgt med tanten.</p>
+<p>Her udviklede han sig aar efter aar under tantens st&#x00E6;rke haand. De lignede hinanden i meget, og der var et st&#x00E6;rkt hengivenhedsbaand mellem dem.</p>
+<p>Bare det, at andre gutter vilde generet sig, naar de havde seet tanten gribe haandfast ind i gadens ydre liv &#x2013; ruske drukne sj&#x00F8;folk i skulderen &#x2013; for den sags skyld var saam&#x00E6;nd madame Tausen kone for at f&#x00F8;lge dem lige paa raadstuen, om det kneb &#x2013; bare heri lignede Per Krafft ikke andre gutter.</p>
+<p>Alt med tante Tausen morede ham. Han syntes, det var den st&#x00F8;rste komedie af verden, naar hun rigtig holdt en dommedagspr&#x00E6;ken fra sit vindu over en eller anden synder ude paa gaden. Da sparede hun ikke paa kraftudtrykkene, tante Tausen.</p>
+<p>Sandt at sige remenerede hun ogsaa ofte over sin stilf&#x00E6;rdige mand.</p>
+<p>&#x00AB;Han er m&#x00F8;e bra, sagde jeg andet, saa l&#x00F8;i jeg, her jeg sidder en synder for Vorherre, men naar en mand ikke gj&#x00F8;r andet end suger paa en pibe aarelangs, saa er det ligesom en taber taalmodigheden &#x2013; den som skal se paa det &#x2013; staar jeg ikke her for hele sulamitten udend&#x00F8;rs og indend&#x00F8;rs, et stakkars kvindfolk &#x2013;&#x00BB;</p>
+<p>Og det stakkars kvindfolk tog sig en sviptur op <pb n="66"/>paa taget for at gjennemhegle en blikkenslagersvend, der arbeidede paa tagrenden:</p>
+<p>&#x00AB;Saa&#x0027;n skal det v&#x00E6;re, far min, og saa&#x0027;n og saa&#x0027;n &#x2013; og gj&#x00F8;r du ikke likere arbeide, kan du gaa der, du kom ifra.&#x00BB;</p>
+<p>Men naar hun saa kom ind i stuen, var hun henne og klappede Tausen i sofahj&#x00F8;rnet.</p>
+<p>Da Per Krafft var smaagut, havde han en ligesaa st&#x00E6;rk position mellem kameraterne som tanten paa sin maade. Den lille, iltre gut med det misforn&#x00F8;iede tr&#x00E6;k ved n&#x00E6;sen og den lille, sp&#x00E6;nstige krop var ikke grei at binde an med. Det, som de smaa brune n&#x00E6;ver ikke magtede, det greiede den skarpe tunge. Kamerater havde han overalt og venner ogsaa, men egentlig saadan en snild gut var han ikke. En vidste aldrig, hvor man havde ham.</p>
+<p>Det samme pr&#x00E6;g beholdt han nu, han var blevet voksen og nitten aar gammel. Uvorren fremforalt, med stor lystighed, men ogsaa anfald af melankoli og mistro, som gjorde ham vrang og skarp.</p>
+<p>Og alligevel beh&#x00F8;vede han bare at smile, saa likte folk ham. Han havde gaat som en seiersgang de nitten aar, han havde levet, trods det, at n&#x00E6;sen saa ud som den lugtede gammelost.</p>
+<p>Madame Tausen var stolt af sin brors&#x00F8;n, aabenlys stolt, hun skjulte det ikke for noget menneske. Artium og anden eksamen klarte han med glans.</p>
+<p>&#x00AB;Pr&#x00E6;st skal han bli, saasandt jeg heder Maren Tausen,&#x00BB; havde hun sagt, da hun tog ham i to&#x2013;tre aars alderen. Og dermed blev det. Det stak maaske <pb n="67"/>heller en advokat eller en politiker i ham, men tante Tausen havde sagt sit veto, og ingen satte sig op mod det.</p>
+<p>Inde i Kristiania var han oppe i det med den mest moderne ungdom, men hjemme hos tante Tausen spikkede han fliser, huggede ved og sad paa kj&#x00F8;kkenb&#x00E6;nken, spiste munker og fortalte skr&#x00F8;ner og udmalede, hvorledes kj&#x00E6;resten hans skulde v&#x00E6;re.</p>
+<p>&#x00AB;Gyldenr&#x00F8;dt haar skal hun ha, tante Tausen, som h&#x00E6;nger fremfor hele ansigtet n&#x00E6;sten, slank som lillie &#x2013;&#x00BB;</p>
+<p>&#x00AB;Naa jasaa naa,&#x00BB; sagde tante Tausen t&#x00F8;rt.</p>
+<p>&#x00AB;Vild som skovkat,&#x00BB; vedblev Per Krafft.</p>
+<p>&#x00AB;Jasaa naa &#x2013; skal hun klore ogsaa?&#x00BB;</p>
+<p>Per Krafft overh&#x00F8;rte det sidste sp&#x00F8;rgsmaal.</p>
+<p>&#x00AB;Sj&#x00F8;gr&#x00F8;n kjole og guldbelte,&#x00BB; forsatte Per.</p>
+<p>&#x00AB;Ja det siger jeg Per,&#x00BB; afbr&#x00F8;d tanten ham, &#x00AB;at kommer du hjem med en af disse med haaret frem for ansigtet og smale som en tarm, ja saa pisked&#x00F8;d blir jeg saa slem saa &#x2013;&#x00BB;</p>
+<p>Det var om aftenen, samme dag Per var blevet bidt af hugormen. Han var kommet hjem, og doktoren havde v&#x00E6;ret der.</p>
+<p>&#x00AB;Det var sgu kj&#x00E6;kt gjort at suge ud det saaret,&#x00BB; sagde doktoren.</p>
+<p>&#x00AB;Hende vil jeg se,&#x00BB; befalede madame Tausen, &#x00AB;du skal faa hende hid Per &#x2013;&#x00BB;</p>
+<p>&#x00AB;Du har seet hende hundrede gange,&#x00BB; sagde Per.</p>
+<p>&#x00AB;Ja jeg ved godt, at hun er styg,&#x00BB; sagde tante <pb n="68"/>Tausen, &#x00AB;men jeg vil ta hende i handa og takke hende Per &#x2013; du takkede vel pent Per &#x2013;&#x00BB;</p>
+<p>&#x00AB;Jeg ved ikke,&#x00BB; han stirred ud for sig, &#x00AB;kanske gjorde jeg det ikke med ord.&#x00BB;</p>
+<p>Det drog ud, inden madame Tausen fik tale med Annikken. Det var ligesom Per var sky og ikke vilde bede hende. Saa kom der en dag et brev op i pr&#x00E6;stegaarden til Annikken.</p>
+<quote>
+<p rend="noIndent">&#x00AB;Kj&#x00E6;re fr&#x00F8;ken.
+<lb/>Jeg er bare en gammel kone, men endda har jeg ligesom et hjerte, og det hjertet siger mig, at du er guld fremfor andre, og det var ikke andet, end at jeg vilde takke for Per, min skyldige tak, og liker du munker, saa kom ieftermiddag.
+<lb/>Madame Tausen.&#x00BB;</p>
+</quote>
+<p>Da Annikken fik dette brev blev hun saa generet, at hun ikke var at formaa til at gaa derned alene.</p>
+<p>Ja hvis Maren Anne vilde f&#x00F8;lge hende saa &#x2013;.</p>
+<p>Men Maren Anne fulgte hende blot til den gamle snirklede indgangsd&#x00F8;r og puffede hende ind, og der stod madame Tausen og tog imod hende.</p>
+<p>Der kom Per Krafft ogsaa. Annikken havde aldrig seet ham saa underlig generet f&#x00F8;r.</p>
+<p>&#x00AB;Og denne vesla er det, jeg kan takke for gutten min,&#x00BB; sagde madame Tausen og lagde en bred haand paa hver af Annikkens skuldre, &#x00AB;du er en grepa jente er du, der du staar, Vorherre sender slike imellem &#x2013; her har du handa til tak.&#x00BB;</p>
+<p><pb n="69"/>Saa maatte Annikken smile, og saa spiste de munker og syltet&#x00F8;i. Men Annikken talte ikke stort, det var madame Tausen, der holdt samtalen vedlige.</p>
+<p>&#x00AB;Det var pige for dig det Per,&#x00BB; sagde tante Tausen, med det samme Annikken var forsvundet gjennem d&#x00F8;ren.</p>
+<p>&#x00AB;Ja synes du ikke, hun lignede mit ideal, tante Tausen,&#x00BB; sagde Per, &#x00AB;du ved slanke lemmer i sj&#x00F8;gr&#x00F8;n silke &#x2013;&#x00BB;</p>
+<p>&#x00AB;Aa hold munden,&#x00BB; sagde tante Tausen.</p>
+<p>De saa begge efter Annikken, der gik tvert over gaden. Hun havde en storrudet kjole paa, der gjorde hende endda bredere.</p>
+<p>&#x00AB;Det er natur der,&#x00BB; sagde madame Tausen.</p>
+<p>Det var altid det st&#x00F8;rste, madame Tausen kunde sige om et menneske.</p>
+</div>
+<div type="chapter">
+<head type="main"><ref type="contents" target="contents_8" xml:id="chapter_8">Da Lina Gr&#x00E6;svig d&#x00F8;de</ref></head>
+<p><pb n="70"/>Der kom et bud springende op i pr&#x00E6;stehuset.</p>
+<p>Om fr&#x00F8;ken Annikken vilde komme ned til Lina Gr&#x00E6;svig, da hun var saa syg.</p>
+<p>Det var over fjorten dage siden, at Annikken havde seet Lina Gr&#x00E6;svig. Hver dag havde hun t&#x00E6;nkt at gaa derned og hver dag var der noget iveien, moro og turer hid og did. Hun havde stirret ind af vinduerne, naar hun gik forbi Lina Gr&#x00E6;svigs hjem. Men hun saa aldrig nogen. En aften havde hun h&#x00F8;rt salmesang derindefra, da fik hun n&#x00E6;sten som en ond samvittighed, fordi hun ikke var med derinde. Men hun havde ikke egentlig lyst heller.</p>
+<p>Det var meget morsommere at ro Maren Anne over til &#x00F8;erne, ligge og vippe derude i d&#x00F8;nningerne, mens Maren Anne fortalte om alt det, hun havde l&#x00E6;st, og alt det, hun havde t&#x00E6;nkt, og alt det hun vilde blive i verden.</p>
+<p>Det var som et indblik i noget nyt denne Maren Annes tale for Annikken. Det blev saa stort og saa morsomt al ting. Ligesom noget ude i verden, som <pb n="71"/>man kunde naa, hvis man selv vilde, saa meget at bruge sit liv til.</p>
+<p>Det var ikke bare dette, som Elly, Milly og Tilda gik der og morede sig ved, og havde saa forf&#x00E6;rdelig mange hemmeligheder om. Enten Rode gjorde kur til den eller den, eller Per Krafft bare havde stirret paa Tilda, eller Iversen, som havde bandet paa, at Elly var den vakreste unge dame langs kysten &#x2013; nei det var ungdom ude i verden, som arbeidede og vilde frem og gik med store tanker.</p>
+<p>Og Maren Anne talte. Hun vilde naa saa langt som de f&#x00F8;rste kvinder i vor tid, blive noget stort, gj&#x00F8;re gavn, saa folk skulde pege paa det og sige: &#x00AB;Se det har Maren Anne gjort.&#x00BB;</p>
+<p>&#x00AB;Jeg vil ikke d&#x00F8;, f&#x00F8;r alle mennesker skal vide, at jeg har levet,&#x00BB; havde Maren Anne sagt. Saa havde hun h&#x00E6;vet det stolte hoved og seet udover sj&#x00F8;en, saa modig, saa ungt.</p>
+<p>Annikken havde stirret paa hende fuld af beundring. At v&#x00E6;re saa modig og klog, det er det st&#x00F8;rste i verden, t&#x00E6;nkte Annikken, saadan vilde jeg &#x00F8;nske, jeg kunde v&#x00E6;re.</p>
+<p>Ligefra den f&#x00F8;rste dag Maren Anne var kommet, havde Annikken gl&#x00E6;det sig til at fort&#x00E6;lle hende om Lina Gr&#x00E6;svig. Men saa havde hun ligesom ikke faat det til. Is&#x00E6;r efter en dag, hun havde h&#x00F8;rt Elly og Milly fort&#x00E6;lle Maren Anne om en &#x00AB;gyselig gudelig&#x00BB; veninde, som Annikken havde lagt sig til i det sidste.</p>
+<p>&#x00AB;De l&#x00E6;ser i bibelen sammen og sidder saadan,&#x00BB; sagde Milly og vr&#x00E6;ngte &#x00F8;inene mod himmelen.</p>
+<p><pb n="72"/>Saa havde Maren Anne leet, og saa havde det v&#x00E6;ret umuligt for Annikken at sige et ord mere om Lina Gr&#x00E6;svig. For det fandtes jo ikke noget saa forf&#x00E6;rdeligt i verden, som at blive leet af!</p>
+<p>Siden havde hun ikke n&#x00E6;vnt et ord om Lina Gr&#x00E6;svig.</p>
+<p>De sad ved aftensbordet i pr&#x00E6;stehuset, da budet kom, om Annikken vilde se ned til Gr&#x00E6;svigs straks. Budet skulde ogsaa bede, om pr&#x00E6;sten vilde v&#x00E6;re saa snild at se nedom, men det maatte v&#x00E6;re lidt snart.</p>
+<p>&#x00AB;Der maa feile barnet noget alvorligt,&#x00BB; sagde pr&#x00E6;stefruen.</p>
+<p>Annikken l&#x00F8;b afsted, f&#x00F8;r faderen, hun kunde ikke vente.</p>
+<p>Noget alvorligt! Hvad kunde moder mene med det? Hun kunde da ikke mene, at Lina Gr&#x00E6;svig skulde d&#x00F8;.</p>
+<p>D&#x00F8;!</p>
+<p>Nei d&#x00F8;den var noget, der var saa umaadelig langt borte &#x2013; alle mennesker skulde jo d&#x00F8; naturligvis &#x2013; men f&#x00F8;rst, naar de var blevet rigtig, rigtig gamle &#x2013;</p>
+<p>Lina Gr&#x00E6;svig og hun havde talt saa ofte om d&#x00F8;den, og hver dag h&#x00F8;rte hun jo faderen tale om de lyse lande, som vi alle reiste til.</p>
+<p>Men det var noget langt, langt frem i tiden det.</p>
+<p>For to&#x2013;tre aar siden var jo bedstemor paa Blommedal d&#x00F8;d, men hun var jo saa gammel. Ellers kjendte ikke Annikken et eneste menneske, som hun havde kjendt rigtig godt, og som var d&#x00F8;d.</p>
+<p><pb n="73"/>Ingen af hendes n&#x00E6;re bekjendte havde gaaet den underlige, ukjendte vei.</p>
+<p>Lina Gr&#x00E6;svigs moder sad ikke i stuen, som hun pleiede ved den store symaskine. Der var en lugt af eddikke over det hele hus, og d&#x00F8;rene stod aabne. Annikken gik ud i kj&#x00F8;kkenet, d&#x00F8;ren til kammeret stod halvaaben. Der var halvm&#x00F8;rkt derinde, og lugten af eddikke var end st&#x00E6;rkere.</p>
+<p>Den store, graa kat med det bl&#x00F8;de skind hoppede ned fra kj&#x00F8;kkenb&#x00E6;nken, hvor den useet havde delikateret sig i et fad melk. Den str&#x00F8;g sig opad Annikkens kjole.</p>
+<p>Hun h&#x00F8;rte Linas stemme derindefra, hun talte hurtig, som hun var r&#x00E6;d. Der kom moderen i d&#x00F8;ren, ansigtet var roligt, som det pleiede, men hun havde to st&#x00E6;rke, r&#x00F8;de pletter paa de indhule kind.</p>
+<p>Hun aabnede d&#x00F8;ren helt ind til kammeret.</p>
+<p>&#x00AB;Her er hun, Lina,&#x00BB; sagde moderen.</p>
+<p>Der laa Lina Gr&#x00E6;svig i den store seng. Aa saa bleg, saa bleg! Og ligesom saa liden!</p>
+<p>&#x00AB;Er du syg,&#x00BB; sagde Annikken, saa tilf&#x00F8;iede hun n&#x00F8;lende: &#x00AB;jeg vidste det jo ikke.&#x00BB;</p>
+<p>&#x00AB;Hun har v&#x00E6;ret syg i fem dage,&#x00BB; sagde moderen, &#x00AB;det er lungerne.&#x00BB;</p>
+<p>&#x00AB;Men du blir vel snart bra,&#x00BB; sagde Annikken.</p>
+<p>&#x00AB;Det sp&#x00F8;rs, om hun staar det over,&#x00BB; sagde moderen, &#x2013; &#x00AB;han troede det knapt, doktoren.&#x00BB;</p>
+<p>Lina Gr&#x00E6;svigs &#x00F8;ine, der syntes st&#x00F8;rre end ellers, slap ikke Annikkens blik. Det var noget angstfuldt <pb n="74"/>dybest inde i de blaa &#x00F8;ine, som Annikken aldrig f&#x00F8;r havde seet der.</p>
+<p>&#x00AB;Aa, Annikken, t&#x00E6;nk de siger, jeg skal d&#x00F8; &#x2013; aa jeg er saa forf&#x00E6;rdelig r&#x00E6;d.&#x00BB;</p>
+<p>&#x00AB;Nei, nei,&#x00BB; sagde Annikken, uden at vide, hvad hun selv sagde.</p>
+<p>Hun saa forvildet fra det lille lyse hoved paa den brede hovedpude og op paa moderens ubev&#x00E6;gelige ansigt.</p>
+<p>&#x00AB;Ja, han siger det doktoren,&#x00BB; gjentog moderen lavt, &#x00AB;men du ved jo barnet mit, hvem du gaar til.&#x00BB;</p>
+<p>&#x00AB;Ja, men jeg er saa bange mor, hj&#x00E6;lp mig mor, hj&#x00E6;lp mig Annikken &#x2013; aa vi kan nok snakke om det, naar vi er friske, men det er anderledes, naar man virkelig, virkelig skal d&#x00F8;.&#x00BB;</p>
+<p>&#x00AB;Aa bed for mig &#x2013; bed for mig,&#x00BB; raabte lille Lina Gr&#x00E6;svig.</p>
+<p>&#x00AB;Aa Lina, Lina, og jeg som ikke vidste, du var syg,&#x00BB; gr&#x00E6;d Annikken.</p>
+<p>&#x00AB;Jeg troede, du havde glemt mig &#x2013; men det er det samme med det, jeg bryr mig ikke det gran om det mere &#x2013; &#x2013; for jeg skal jo d&#x00F8; &#x2013; de siger jo, at jeg skal d&#x00F8;, kommer ikke din far,&#x00BB; sagde hun pludselig n&#x00E6;sten vildt, &#x00AB;sig han maa komme straks, aa bed pr&#x00E6;sten komme!&#x00BB;</p>
+<p>&#x00AB;Her er han, lille Lina Gr&#x00E6;svig,&#x00BB; sagde pastorens stemme i d&#x00F8;ren, &#x00AB;kj&#x00E6;mper du for din sj&#x00E6;l, du lille,&#x00BB; sagde han mildt.</p>
+<p>&#x00AB;Ja, ja,&#x00BB; sagde Lina Gr&#x00E6;svig.</p>
+<p>Han satte sig ved sengen og tog hendes haand.</p>
+<p><pb n="75"/>Og saa begyndte han at tale sagte.</p>
+<p>&#x00AB;Du tror paa Guds kj&#x00E6;rlighed, du lille barn.&#x00BB;</p>
+<p>&#x00AB;Ja, ja,&#x00BB; sagde Lina Gr&#x00E6;svig igjen.</p>
+<p>&#x00AB;Da har du intet at v&#x00E6;re bange for, du er i Guds haand, du ligger i hans arm, du er en skat for ham, han ikke vil slippe &#x2013;&#x00BB;</p>
+<p>Lina Gr&#x00E6;svigs &#x00F8;ine hang ved hans ansigt.</p>
+<p>Fra det &#x00F8;ieblik, pr&#x00E6;sten var kommet derind, saa hun ikke moderen og Annikken mere.</p>
+<p>&#x00AB;Beh&#x00F8;ver jeg ikke at v&#x00E6;re r&#x00E6;d da, pr&#x00E6;st,&#x00BB; sagde Lina Gr&#x00E6;svig angstfuldt.</p>
+<p>&#x00AB;Ikke mere r&#x00E6;d, end om du skulde lukke op d&#x00F8;ren til et andet v&#x00E6;relse, og du vidste, at din mor var derinde,&#x00BB; sagde pastoren.</p>
+<p>Lina stirrede paa ham, men hun var roligere.</p>
+<p>&#x00AB;Tr&#x00E6;k op gardinet og lad Guds sol faa komme herind,&#x00BB; sagde pastoren.</p>
+<p>Det blev gjort. Annikken saa nu f&#x00F8;rst den store forandring, der var foregaaet med lille Lina. Det var ikke mere den Lina, hun havde kjendt, det var en underlig liden aandeskikkelse fra en anden verden, der laa der.</p>
+<p>Pastoren bad med Linas h&#x00E6;nder i sine. Moderen og Annikken stod ved fodenden af sengen. Der r&#x00F8;rte sig ikke en muskel i moderens indhule, alvorlige ansigt.</p>
+<p>Lidt efter faldt Lina i en d&#x00F8;s og blev liggende saadan l&#x00E6;nge.</p>
+<p>&#x00AB;Det er synd, at pastoren og fr&#x00F8;kenen skal sidde her,&#x00BB; hviskede moderen, &#x00AB;tak for alt, dere maa gaa nu.&#x00BB;</p>
+<p><pb n="76"/>&#x00AB;Jeg blir her endnu en stund,&#x00BB; sagde pastoren, &#x00AB;og Annikken ogsaa, de unge har godt af at se livets alvor &#x2013; saavidt jeg kan se, har ikke lille Lina langt igjen, f&#x00F8;r hun er over i de lyse lande.&#x00BB;</p>
+<p>Annikken bed i sit lommet&#x00F8;rkl&#x00E6;de for ikke at hulke h&#x00F8;it.</p>
+<p>Pludselig begyndte Lina igjen at tale og stirrede op mod loftet.</p>
+<p>&#x00AB;Der er han jo,&#x00BB; sagde hun ganske h&#x00F8;it, &#x00AB;ser dere ham ikke, der er han jo &#x2013; tag ham til mig &#x2013;&#x00BB;</p>
+<p>Hun strakte den tynde arm op i luften, som hun vilde gribe efter noget.</p>
+<p>&#x00AB;Kj&#x00E6;re ser dere ham ikke &#x2013; der er han jo &#x2013;&#x00BB;</p>
+<p>&#x00AB;Hvad billeder ser hun nu,&#x00BB; sagde pastoren.</p>
+<p>Annikken stirrede op mod det gamle, graa loft.</p>
+<p>Lina Gr&#x00E6;svig blev ligesom gladere i stemmen: &#x00AB;T&#x00E6;nk der staar han &#x2013;&#x00BB;</p>
+<p>Atter kom den tynde arm op i luften : &#x00AB;Jeg vilde saa gjerne &#x2013; jeg vilde saa gjerne &#x2013;&#x00BB;</p>
+<p>Hun strakte begge arme op: &#x00AB;Aa kj&#x00E6;re &#x2013;&#x00BB;</p>
+<p>Saa pludselig reiste hun sig helt op: &#x00AB;Nu har jeg ham,&#x00BB; sagde hun jublende.</p>
+<p>I samme &#x00F8;ieblik faldt lille Lina Gr&#x00E6;svig tilbage og d&#x00F8;de.</p>
+<p>Annikken hulkede, som hendes hjerte skulde briste. &#x00AB;Det er ikke muligt,&#x00BB; hulkede hun, &#x00AB;er Lina virkelig d&#x00F8;d.&#x00BB;</p>
+<p>Men moderen gr&#x00E6;d ikke en taare. &#x00AB;Hun har aldrig gjort mig andet end godt,&#x00BB; sagde hun stille, &#x00AB;nu er hun hjemme og fri for alt.&#x00BB;</p>
+<p><pb n="77"/>Saa bad pastoren en b&#x00F8;n over det lille legeme, der saa endda mindre ud i den store gammeldagse seng.</p>
+<p>&#x00AB;Vil De ikke ha nogen hos Dem inat,&#x00BB; spurgte pastoren moderen.</p>
+<p>&#x00AB;Nei da,&#x00BB; og Lina Gr&#x00E6;svigs moder smilte, &#x00AB;tror pastoren, jeg er r&#x00E6;d for Lina.&#x00BB;</p>
+<p>Annikken og hendes fader gik hjem i den dunkle sommernat. Der var lydl&#x00F8;st og stille under tr&#x00E6;erne opigjennem gaderne, og der var blot en eneste stjerne, som blikkede og glitrede paa den underlig blaa, dybe himmel.</p>
+<p>Annikken stirrede paa den ene stjerne, hun tog ikke sine &#x00F8;ine fra den. Det var som den stjerne var Lina Gr&#x00E6;svig n&#x00E6;rmere nu end hun, langt hernede paa jorden.</p>
+<p>Saa begyndte faderen at tale og sagde noget, hun aldrig glemte.</p>
+<p>&#x00AB;Se nu,&#x00BB; sagde han stille, &#x00AB;hvor rart dette liv er, se nu denne lille, ubetydelige Lina Gr&#x00E6;svig, som ikke et menneske ude i verden kjender, og som blot har levet femten korte aar her paa jorden, nu har hun naaet det h&#x00F8;ieste, som et menneske i dette liv kan naa.&#x00BB;</p>
+<p>Annikken stirrede og stirrede paa stjernen, graaden vilde frem, men hun betvang sig.</p>
+<p>&#x00AB;For alt, hvad vi str&#x00E6;ver efter her &#x2013; Annikken &#x2013; du vil se det klarere og klarere, eftersom aarene gaar, det er dog intet altsammen. Det holder ikke, <pb n="78"/>Annikken. Det vinker og lokker, du kan naa, hvad du vil, men altid vil der mangle noget &#x2013; altid &#x2013; Du kan faa kundskab og magt og menneskers &#x00E6;re her paa jorden &#x2013; det giver dig dog ikke, hvad din lille veninde Lina Gr&#x00E6;svig havde i sin sidste stund.&#x00BB;</p>
+<p>Annikken stirrede endda paa stjernen, og faderens ord br&#x00E6;ndte sig ind i hende.</p>
+<p>Der sagde Maren Anne, at kundskab, &#x00E6;re og ber&#x00F8;mmelse var det st&#x00F8;rste, at hun ikke vilde d&#x00F8; f&#x00F8;r alle skulde vide, at hun havde levet &#x2013; og her sagde far, at det altsammen var intet, &#x2013; det vinker og lokker, men altid vil der mangle noget, og intet her paa jorden tilfredsstiller helt &#x2013;</p>
+<p>Og sommernatten var saa bl&#x00F8;d i tausheden under de smaa lubne lindetr&#x00E6;er opigjennem gaderne, og den eneste stjerne blikkede og blikkede.</p>
+<p>Hvor underlig rart, det var at leve.</p>
+</div>
+<div type="chapter">
+<head type="main"><ref type="contents" target="contents_9" xml:id="chapter_9">Oppe paa Movig</ref></head>
+<p><pb n="79"/>Aften efter aften gik Annikken alene op paa heien, satte sig med armene foldet om kn&#x00E6;erne og saa udover.</p>
+<p>Det var sandt, som Lina Gr&#x00E6;svig havde sagt den f&#x00F8;rste aften, hun traf hende, at alting blev saa lidet i verden, naar man havde seet en d&#x00F8;!</p>
+<p>Og saadan som menneskene str&#x00E6;vede og kavede og s&#x00F8;rgede for alt. Om en liden stund skulde vi jo d&#x00F8; allesammen!</p>
+<p>Alt det Maren Anne fortalte om store m&#x00E6;nd og kvinder ude i verden, hvad de t&#x00E6;nkte og gjorde &#x2013; det var nok moro &#x2013; men de skulde jo d&#x00F8; de ogsaa!</p>
+<p>Det gj&#x00E6;lder bare, havde faderen engang sagt, at l&#x00E6;se godt paa leksen sin her paa jorden, saa vi kan blive flyttet op i en h&#x00F8;iere klasse!</p>
+<p>Hvad er min lekse, t&#x00E6;nkte Annikken med sine seksten aar.</p>
+<p>Hun sad l&#x00E6;nge og saa udover, saa sagde hun n&#x00E6;sten h&#x00F8;it for sig selv deroppe under himmelen: &#x00AB;Jeg tror, det er at v&#x00E6;re snild.&#x00BB;</p>
+<p><pb n="80"/>Hun nikkede paa hovedet flere gange: &#x00AB;Ja &#x2013; at v&#x00E6;re god,&#x00BB; sagde hun igjen.</p>
+<p>Hun n&#x00E6;vnte aldrig til nogen, ikke engang til Maren Anne, det hun gik og t&#x00E6;nkte paa om dagen. Men om Lina Gr&#x00E6;svig talte hun ikke mere.</p>
+<p>Nei det var saa leit, at nogen skulde vide, hvad hun t&#x00E6;nkte paa. Det maatte aldrig, aldrig nogen vide, undtagen Lina Gr&#x00E6;svig, og hun havde jo gaaet den underlige ukjendte vei og kom aldrig igjen.</p>
+<p>&#x00AB;Annikken overvandt snart sorgen over Lina Gr&#x00E6;svig,&#x00BB; sagde moderen.</p>
+<p>&#x00AB;Ja hun er jo bare barnet,&#x00BB; sagde faderen.</p>
+<p>&#x2013; Men hver dag var alle de unge sammen, som de pleiede, spillede kroket, roede og seilede. Annikken var altid med i sin storrudede kjole.</p>
+<p>Per Krafft var blevet saa underlig mod hende, siden den dag, hun havde suget ud ormebiddet. Han talte ikke og sp&#x00F8;gte med hende som f&#x00F8;r, fordi hun var saa stille, men alligevel var det ligesom, han altid vidste, at hun var tilstede.</p>
+<p>Pyt, t&#x00E6;nkte Annikken, han kan v&#x00E6;re, som han vil for mig. Da kom det trodsige frem i hendes ansigt.</p>
+<p>Ebba og Per Krafft var nu helt optaget af hinanden. To&#x2013;tre gange havde de listet sig ud og seilede alene i timevis, og naar de var ude og spadserede i flok og f&#x00F8;lge, fik Ebba altid den pludseligste lyst til at l&#x00F8;be op paa alle de udsigter og heier, hun kunde &#x00F8;ine. Og Per Krafft l&#x00F8;b efter. Saadan holdt de det gaaende dag efter dag.</p>
+<p><pb n="81"/>Ude blandt veninderne var Tilda forceret lystig og gjorde nar af de to, der skulde op paa alle udsigtspunkter; men hjemme var hun stille, broderede paa spr&#x00E6;ng og spillede salmer. Men til noget egentligt udbrud var det ikke kommet mellem Tilda og Ebba.</p>
+<p>&#x2013; Saa skulde der en dag gaa en skude af stabelen oppe paa Movig. Der skulde gaa et dampskib derop om formiddagen, og hele ungdommen havde aftalt, at de vilde v&#x00E6;re med.</p>
+<p>Gjennem det speilglatte vand skar det lille dampskibs skarpe boug henimod de gr&#x00F8;nne, skraanende jorder, hvor Movig laa. Der var fuldt af parasoller ombord, r&#x00F8;de og hvide, og skolebarn, der hang udover r&#x00E6;lingen og raabte hurra. Hele forenden af skibet var fuldpakket af folk.</p>
+<p>Et stykke oppe paa jordet laa gaarden. R&#x00F8;dmalet og gammel med vinduer lige under tagkj&#x00E6;gget. Udover tunet var der sat store borde med hvide duge og kaffestel. Folk gik til og fra, det myldrede opigjennem det store jorde. L&#x00E6;ngst nede ved fjorden laa saa skibsv&#x00E6;rftet. Det h&#x00F8;ie, ferdige skrog stod der og lyste. De var alt begyndt at hugge st&#x00F8;tterne. De skarpe, h&#x00F8;ie hug klang udover; folk sad i flisehaugene og rundt paa heierne.</p>
+<p>Og vestenvinden vifted, og harelab og sm&#x00F8;rblomster nikkede i vinden.</p>
+<p>M&#x00E6;gler Tausen var en af rederne, han var i kl&#x00E6;desfrak uden pibe og saa generet og trykket ud. Madame Tausen var der ogsaa med parasol, hatten <pb n="82"/>paa skjeve, og det ene &#x00F8;ie knebet igjen. Det var hendes vane, naar hun iagttog noget n&#x00F8;ie.</p>
+<p>&#x00AB;Ja saa, pisked&#x00F8;d, kommer her ikke fler folk, end vi har kaffe og s&#x00F8;sterkage til,&#x00BB; t&#x00E6;nkte madame Tausen med sit ene igjenknebne &#x00F8;ie &#x2013; &#x00AB;forsyne mig, er ikke bager Halvorsen ogsaa her, jeg troede han laa for d&#x00F8;den, jeg, men naar det er noget at rende efter, stod folk gjerne op af graven.&#x00BB;</p>
+<p>&#x00AB;Tausen,&#x00BB; raabte hun h&#x00F8;it, &#x00AB;du vil da vel ikke staa ombord, naar skuta gaar.&#x00BB;</p>
+<p>Han var begyndt at drage sig saa smaat nedover.</p>
+<p>&#x00AB;Ja, det er jo skikken,&#x00BB; sagde Tausen paa sin bet&#x00E6;nkte maade.</p>
+<p>&#x00AB;Skik mig hid og skik mig did,&#x00BB; sagde madame Tausen, &#x00AB;du er for gammel og tyk Tausen, til at krybe op den bratte ledderen, og det kan inte nytte at ville v&#x00E6;re ung, naar en inte er det Tausen &#x2013;&#x00BB;</p>
+<p>Tausen maatte s&#x00E6;tte sig paa et schawl paa flade marken ved sin kones side.</p>
+<p>&#x00AB;Men sidder du her, Tausen,&#x00BB; sagde kj&#x00F8;bmand Tobiesen i forbifarten, &#x00AB;skal du ikke staa ombord, naar skuta gaar?&#x00BB;</p>
+<p>&#x00AB;Nei han skal inte det,&#x00BB; tog madame Tausen ordet, &#x00AB;og De skal inte komme her og forlokke ham, jeg holdt inte ud at sidde her og se den tykke manden klavre op ad det h&#x00F8;ie skibet det var bedre, jeg gik selv da &#x2013;&#x00BB;</p>
+<p>&#x00AB;Ja, De som er saa ung og letvindt, madame Tausen,&#x00BB; sagde Tobiesen.</p>
+<p><pb n="83"/>&#x00AB;Aa pas de skjeve bena Deres selv, De,&#x00BB; raabte madame Tausen efter ham.</p>
+<p>Der kom hele flokken af ungdom opover jordet. Lyse kjoler, snak og latter.</p>
+<p>Madame Tausen kneb det ene &#x00F8;ie dygtig igjen:</p>
+<p>&#x00AB;Har du seet saadan som de unge damerne steller haaret sit til nu for tiden, Tausen, hvorfor greier de det ikke ligesaagodt frem for hele fj&#x00E6;set, Tausen?&#x00BB;</p>
+<p>Det var et vanskeligt sp&#x00F8;rgsmaal for Tausen at besvare, der han sad paa schawlet.</p>
+<p>&#x00AB;De kunde vel ikke se da,&#x00BB; sagde han tilslut.</p>
+<p>&#x00AB;Aa du da &#x2013; men jeg bare sp&#x00F8;r jeg, om inte Per er basen af dem alle &#x2013; Tausen?&#x00BB;</p>
+<p>&#x00AB;Han er ikke v&#x00E6;rst,&#x00BB; sagde Tausen.</p>
+<p>&#x00AB;Jeg skulde mene det,&#x00BB; sagde madame Tausen, &#x00AB;se hvor letvindt han er, akkurat som jeg skulde se mig selv &#x2013; og allesammen vil de ha fat paa ham, kan du vel se, det er gut det, og ham kan du takke mig for, Tausen &#x2013;&#x00BB;</p>
+<p>&#x00AB;Javel,&#x00BB; sagde Tausen.</p>
+<p>&#x00AB;Der er Annikken ogsaa,&#x00BB; vedblev madame Tausen, &#x00AB;du ser den brede, hun som gaar alene, Pr&#x00E6;st-Annikken, Tausen.&#x00BB;</p>
+<p>&#x00AB;Jeg kjender a nok,&#x00BB; sagde Tausen.</p>
+<p>&#x00AB;Det var hende, som reddet Per, da han blev bidt af hugormen.&#x00BB;</p>
+<p>&#x00AB;Ja, det var jo det.&#x00BB;</p>
+<p>&#x00AB;Hvis hun og Per kunde bli et par, skulde jeg l&#x00E6;gge mig rolig i graven, rigtig inderlig rolig skulde <pb n="84"/>jeg ligge, ellers kommer jeg igjen og klyper dere allesammen,&#x00BB; sluttede madame Tausen.</p>
+<p>Tausen spyttede i gr&#x00E6;sset, men sagde ingenting.</p>
+<p>&#x00AB;Ja, du spytter du, men jeg har nu ret alligevel jeg. For naar du spytter slig, ved jeg godt, hvad du mener &#x2013; du mener, det er noget t&#x00F8;v, det jeg sidder og siger, men jeg vil bare sp&#x00F8;rge dig om, hvorledes det havde gaaet dig, hvis du ikke havde havt slig forstandig kone &#x2013;&#x00BB;</p>
+<p>&#x2013; Alle de unge herrer vilde staa ombord, de unge piger havde leiret sig oppe paa en hei i flok og f&#x00F8;lge. Der var mange smaapiger ogsaa, som syntes, det var kj&#x00E6;kt at v&#x00E6;re med de &#x00E6;ldre, allesammen lo og snakkede.</p>
+<p>Paa hele opturen med dampskibet havde Ebba holdt Per Krafft og Rode borte i det alleryderste af forenden, medens alle de andre havde opholdt sig agterud.</p>
+<p>De unge piger havde skumlet sig imellem noget ganske enormt. De havde igrunden ikke talt om andet hele turen.</p>
+<p>&#x00AB;Det er det v&#x00E6;rste, jeg har oplevet.&#x00BB; havde Elly sagt.</p>
+<p>&#x00AB;Ja det er i den grad,&#x00BB; sagde Milly.</p>
+<p>&#x00AB;T&#x00E6;nk saadan er damerne ude i verden,&#x00BB; sagde Karen Jensen med hvide &#x00F8;ienbryn.</p>
+<p>&#x00AB;Jeg anede ikke,&#x00BB; at der fandtes saadant koketteri, jeg dere,&#x00BB; sagde Elly og saa rundt paa de andre, &#x00AB;gjorde dere?&#x00BB;</p>
+<p><pb n="85"/>&#x00AB;T&#x00E6;nk, jeg er virkelig skamfuld over, at hun er min kusine,&#x00BB; sagde Tilda.</p>
+<p>&#x00AB;Det forstaar jeg saa udm&#x00E6;rket,&#x00BB; sagde Milly.</p>
+<p>&#x00AB;Igrunden bryr ikke herrer sig om den slags damer,&#x00BB; sagde Elly, &#x00AB;det har jeg altid h&#x00F8;rt.&#x00BB;</p>
+<p>&#x00AB;Ja &#x2013; mon det?&#x00BB; sagde Tilda tvilende.</p>
+<p>&#x00AB;De gifter sig ikke med saadanne ialfald,&#x00BB; sagde Elly overlegent.</p>
+<p>&#x00AB;Josaam&#x00E6;nd gj&#x00F8;r de saa,&#x00BB; sagde Karen Jensen.</p>
+<p>&#x2013; Nu sad de der allesammen, Ebba var ogsaa kommet til og skulde se skibet gaa.</p>
+<p>&#x00AB;I det &#x00F8;ieblik, skibet begynder at glide, lukker jeg altid &#x00F8;inene,&#x00BB; sagde Tilda, &#x00AB;saa igrunden har jeg aldrig rigtig seet et skib gaa af stabelen.&#x00BB;</p>
+<p>&#x00AB;Jeg troede ikke, du var saa r&#x00E6;d af dig,&#x00BB; sagde Ebba ligesom spydig.</p>
+<p>Det lille ord bragte Tildas indelukkede &#x00E6;rgrelse og vrede til at flyde over.</p>
+<p>&#x00AB;Aa nei, jeg er ikke saa r&#x00E6;d, at jeg skriger, naar jeg har faat en fisk paa krogen, som visse andre,&#x00BB; sagde Tilda.</p>
+<p>Ebba havde nemlig skreget i vilden sky ved den f&#x00F8;rste fisk, hun havde fisket.</p>
+<p>&#x00AB;Isch kokette damer,&#x00BB; sagde Elly Thue halvh&#x00F8;it.</p>
+<p>&#x00BB;Hvad var det, du sagde, Elly Thue,&#x00BB; spurgte Ebba skarpt.</p>
+<p>&#x00AB;Jeg sagde, at kokette damer var til at faa kvalme af,&#x00BB; sagde Elly modig.</p>
+<p>&#x00AB;Er det mig, den er adresseret til,&#x00BB; spurgte Ebba overlegent.</p>
+<p><pb n="86"/>&#x00AB;Den for tage den, som f&#x00F8;ler sig truffet,&#x00BB; sagde Elly kjapt.</p>
+<p>&#x00AB;Ha, ha, hi, hi,&#x00BB; lo Milly og Karen og Tilda.</p>
+<p>&#x00AB;Puh, dere skal ligesom v&#x00E6;re saa uskyldige,&#x00BB; sagde Ebba, &#x00AB;og saa er dere akkurat ligedan allesammen.&#x00BB;</p>
+<p>&#x00AB;Nei ved du hvad &#x2013;&#x00BB;</p>
+<p>&#x00AB;Nei ved du hvad &#x2013;&#x00BB;</p>
+<p>Nei den var god &#x2013;&#x00BB;</p>
+<p>&#x00AB;Nei tak, mor, dertil s&#x00E6;tter vi os for h&#x00F8;it selv,&#x00BB; sagde Karen Jensen umaadelig oph&#x00F8;iet.</p>
+<p>&#x00AB;Ha ha,&#x00BB; lo Ebba, &#x00AB;tror dere, det var andet end koketteri f. eks., at Annikken sugede ud det ormbid dengang?&#x00BB;</p>
+<p>Annikken havde siddet lidt for sig selv. Hun saa forbauset op.</p>
+<p>&#x00AB;Hvad sagde du Ebba,&#x00BB; spurgte hun.</p>
+<p>&#x00AB;Jeg sagde bare, at du var indtaget i Per Krafft, og derfor sugede du ud det ormbiddet.&#x00BB;</p>
+<p>Det flammede op i Annikkens ansigt, men ikke et ord kom over hendes l&#x00E6;ber.</p>
+<p>&#x00AB;Ja jeg synes, det var ganske naturlig, om du var det,&#x00BB; vedblev Ebba, &#x00AB;men du kan ligesaa gjerne indr&#x00F8;mme, Annikken, at det var af den grund.&#x00BB;</p>
+<p>Ebba havde ikke engang talt ud, f&#x00F8;r et susende &#x00F8;refig fra Annikkens brede haand sad paa hendes fine kind.</p>
+<p>&#x00AB;Det &#x2013; det &#x2013; det er skam,&#x00BB; stammede Annikken blodigr&#x00F8;d i ansigtet.</p>
+<p><pb n="87"/>&#x00AB;Fy, Ebba,&#x00BB; sagde Tilda, &#x00AB;det er rigtignok skam af dig at sige.&#x00BB;</p>
+<p>Ebba havde reist sig. &#x00AB;Det er skandal&#x00F8;st at blive behandlet saadan, jeg vil reise straks &#x2013;&#x00BB;</p>
+<p>&#x00AB;Hurra,&#x00BB; br&#x00F8;lte de rundtom. Der gik skibet, dukkede dybt, duvede op igjen &#x2013;</p>
+<p>&#x00AB;Hurra,&#x00BB; rundt paa alle heier og ombord.</p>
+<p>Flaget ombord viftede i vestenvinden.</p>
+<p>Et eneste &#x00F8;ieblik saa alle de unge piger paa skibet, saa var de igjen optaget af sit. Maren Anne var kommet til, de fortalte i munden paa hinanden alle. Maren Anne rettede sit hoved endnu h&#x00F8;iere.</p>
+<p>&#x00AB;Det var isandhed lumpent,&#x00BB; sagde hun stolt.</p>
+<p>Ebba var l&#x00F8;bet ned til stranden, for at faa fat paa Per Krafft, straks han roede iland fra skibet.</p>
+<p>Kaffescenen var begyndt, det var et rend og en tr&#x00E6;ngsel oppe ved bordet. Piger med store bretter balancerede sig frem, folk havde leiret sig op igjennem trappen til huset og st&#x00E6;ngte veien, og rundt omkring allevegne. Latter og snak, sommersol og vestenvind, st&#x00E6;rk kaffe og s&#x00F8;sterkage &#x2013;</p>
+<p>&#x00AB;Skuta gik inderlig pent, men nu vil jeg ha kaffe,&#x00BB; sagde madame Tausen.</p>
+<p>Hun fik sig fat i en stol, tog hatten af og plantede sig lige ved kaffekjedlen.</p>
+</div>
+<div type="chapter">
+<head type="main"><ref type="contents" target="contents_10" xml:id="chapter_10">Annikken og Per Krafft</ref></head>
+<p><pb n="88"/>Ebba var rasende. Dette gik over alle gr&#x00E6;nser. At give hende et smeldende &#x00F8;refig i alle de menneskers paasyn. Det gik aldeles rundt i hendes hjerne ved tanken paa, hvad hun skulde foretage sig i denne exceptionelle anledning.</p>
+<p>Et &#x00F8;ieblik t&#x00E6;nkte hun paa at leie dampskibet og reise hjem igjen, hun mutters alene. Denne flotte tanke gik dog snart over i den mindre extravagante, om der maaske var en pram at faa laant. For saa vilde hun ro alene tilbage til byen, hun vilde naturligvis faa blodblemmer i h&#x00E6;nderne af at ro, og maaske drukne, men det gjorde ingen ting.</p>
+<p>Hun vilde ikke v&#x00E6;re her et sekund l&#x00E6;ngere, det vilde hun ikke. Hun syntes, folk kniste og lo allevegne, og her gik hun med den ildr&#x00F8;de plet paa sit kind.</p>
+<p>Og hun skulde gjerne lade sit hoved kappe af sig, hvis ikke Annikken var indtaget i Per Krafft, t&#x00E6;nkte Ebba.</p>
+<p>T&#x00E6;nk den stygge trumfedeisen! Ha ha!</p>
+<p><pb n="89"/>Naturligvis var det bare den pure misundelse, at alle de andre saaledes faldt over hende. Bare, fordi hun var saa meget mere chic end dem, kunde konversere og f&#x00F8;re sig &#x2013; for ikke at tale om den formfuldendte profil, hun havde. Hjemme i Stockholm var der en billedhugger, der vilde modellere hendes buste, og hun maatte rigtignok sp&#x00F8;rge, hvem var nogensinde blevet modelleret i denne elendige by?</p>
+<p>Denne tanke tr&#x00F8;stede Ebba i h&#x00F8;i grad. Ja og saa Per Kraffts kurtise.</p>
+<p>For enhver kunde jo se med et halvt &#x00F8;ie, hvor han udm&#x00E6;rkede hende fremfor alle de &#x00F8;vrige smaastadstupper!</p>
+<p>Tilda var jo ikke saa v&#x00E6;rst, fra begyndelsen af deres bekjendtskab is&#x00E6;r, men naar man kom n&#x00E6;rmere ind paa hende, var hun jo saa borneret &#x2013; aa saa snever &#x2013; og om nogen egentlig skj&#x00F8;nhed var det jo ikke tale. Intet undtagen hendes teint, som jo var ganske upaaklagelig &#x2013; men det var saam&#x00E6;nd ingenting at takke alle disse ubetydelige unge piger her i byen for, at de saa godt ud. De havde jo hele friske havet at puste ud over.</p>
+<p>Maren Anne vilde Ebba jo ikke regne med engang, sammen med de andre. Alle kunde jo se, at det var et nydeligt menneske, men uh &#x2013; Ebba trak paa skuldrene, h&#x00F8;isindede mennesker er ikke netop altid behagelige i omgang.</p>
+<p>Saalangt var Ebba kommet i sine betragtninger, da herrerne kom iland fra skibet, og Per Krafft straks kom hen til hende igjen. Der var arrangeret dans <pb n="90"/>borte paa gr&#x00E6;svolden, og Per Krafft og Ebba dansede ud.</p>
+<p>Blinde Tallak spillede harmonika, og ungdommen dansede, medens vinden bl&#x00E6;ste hattene af damerne og ruskede frisuren i uorden, saa haaret f&#x00F8;g dem om ansigtet, og sj&#x00F8;gutter og handelsbetjenter valsede og snublede og kurtiserede.</p>
+<p>Og lo gjorde de alle.</p>
+<p>Bager Halvorsen havde opdaget, at det var godt for gigten at danse. Han slap den ene og tog den anden, og dansede paa liv og d&#x00F8;d, kobberr&#x00F8;d i ansigtet.</p>
+<p>Og Blinde Tallak kilte paa og spillede, og Ebba morede sig kostelig.</p>
+<p>Alle vilde danse med hende; Per Krafft veg ikke fra hendes side, og indtrykket af Annikkens &#x00F8;refig svandt betydelig for hvert minut, der gik.</p>
+<p>Puh! Nei saa sandelig, om hun tog sig noget n&#x00E6;r af, hvad en saadan uopdragen, tilogmed ukonfirmeret, unge kunde finde paa at gj&#x00F8;re.</p>
+<p>Hun bl&#x00E6;ste dem alle et stykke og vilde blive og ikke reise sin vei!</p>
+<p>Hendes papa havde altid sagt, at udannede mennesker var det, ved Jupiter, aldrig v&#x00E6;rd at bryde sig om. Og ethvert menneske kunde da se, at Annikken manglede de simpleste regler for selskabelig dannelse og takt.</p>
+<p>Og for hendes skyld skulde hun afbryde det virkelig overordentlig behagelige bekjendtskab <pb n="91"/>med en saa, ja rent ud sagt, indtagende ung herre, som Per Krafft.</p>
+<p>For han var m&#x00E6;rkelig indtagende og pikant til at opholde sig paa dette lille sted i verden.</p>
+<p>Et &#x00F8;ieblik t&#x00E6;nkte hun paa at fort&#x00E6;lle ham om Annikkens &#x00F8;refig. Men saa lod hun det v&#x00E6;re, hun vidste ikke rigtig selv, hvorfor.</p>
+<p>&#x2013; Men Annikken var fortvilet. Aa for en skam, at nogen kunde tro saadant om hende.</p>
+<p>T&#x00E6;nk det var maaske ude over hele byen, at hun havde suget ud det ormbid, fordi hun var indtaget i Per Krafft og vilde gj&#x00F8;re sig til for ham.</p>
+<p>Aa hvor r&#x00E6;dsomt det var!</p>
+<p>Nei, at Ebba kunde finde paa noget saadant. T&#x00E6;nk at menneskene var saadan, aa hvor leit, det var at leve!</p>
+<p>Og nu var det ikke l&#x00E6;nge til, saa skulde hun blive voksen, hun som de andre og saa skulde hun ud i verden, havde mor sagt.</p>
+<p>Ud mellem menneskene, som var saa leie!</p>
+<p>Hun var indtaget i Per Krafft, havde Ebba sagt. Indtaget! Hvad var det at v&#x00E6;re indtaget, t&#x00E6;nkte Annikken.</p>
+<p>Hun spekulerede med det brede, lyse ansigt. Ja ialfald var det noget, som ikke et menneske nogensinde skulde faa vide.</p>
+<p>Og nu talte de maaske om hende i hele byen paa den maade.</p>
+<p>Jeg holder vist ikke ud at leve, t&#x00E6;nkte Annikken.</p>
+<p><pb n="92"/>&#x2013; Ikke et ord blev der n&#x00E6;vnt om scenen oppe paa Movig, efter de kom hjem. Ebba var bare liv. Vilde hj&#x00E6;lpe tanten i huset, legede med lille Kristoffer og holdt leven med gutterne. Sang i vilden sky og akkompagnerede sig selv, for &#x00F8;ieblikket efter at l&#x00F8;be gjennem alle v&#x00E6;relserne og svinge Magna rundt som en top.</p>
+<p>Tilda og Annikken undgik hun, ikke netop paafaldende for de andre, men dog saa de m&#x00E6;rkede det selv. Men Maren Anne gjorde hun sig til for.</p>
+<p>&#x00AB;Hvor s&#x00F8;d og original du er med det glatte haar, Maren Anne, du ser saa betydelig ud.&#x00BB;</p>
+<p>En aften h&#x00E6;ndte det, at Annikken h&#x00F8;rte en mist&#x00E6;nkelig lyd, ligesom en undertrykt hulken borte fra Tildas seng.</p>
+<p>Hun lyttede ansp&#x00E6;ndt. Jo, Tilda gr&#x00E6;d virkelig.</p>
+<p>Men ialverden, hvad gik der af Tilda? Det var jo et rent s&#x00E6;rsyn at se Tilda gr&#x00E6;de. Hvad havde hun at v&#x00E6;re lei af sig for da. Det var jo ingen som havde sagt noget saa skr&#x00E6;kkeligt om hende, som at hun gjorde sig til og sugede ud ormbid.</p>
+<p>Hvor s&#x00F8;rgeligt det var at h&#x00F8;re Tilda gr&#x00E6;de.</p>
+<p>&#x00AB;Er du syg Tilda?&#x00BB; spurgte Annikken. Et &#x00F8;iebliks taushed.</p>
+<p>&#x00AB;Nei langtfra hvorfor sp&#x00F8;rger du om det?&#x00BB; kom det i en ligegyldig tone fra Tildas seng.</p>
+<p>&#x00AB;Jeg synes, du gr&#x00E6;der.&#x00BB;</p>
+<p>&#x00AB;Er du gal, det var da latterligt.&#x00BB;</p>
+<p>&#x00AB;Det var m&#x00E6;rkeligt&#x00BB;, t&#x00E6;nkte Annikken og lagde <pb n="93"/>sig til at sove. Men n&#x00E6;ste aften h&#x00F8;rte hun akkurat det samme.</p>
+<p>F&#x00F8;rst laa hun l&#x00E6;nge og spekulerede paa, om hun skulde tale til Tilda iaften igjen. Men saa kom en aldeles tydelig hulk. Annikken reiste sig op i sengen.</p>
+<p>&#x00AB;Jo, Tilda, der feiler dig noget.&#x00BB;</p>
+<p>&#x00AB;Uf ja, alting er saa leit,&#x00BB; Tilda gr&#x00E6;d nu aldeles uden sky.</p>
+<p>&#x00AB;Hvad er leit,&#x00BB; spurgte Annikken.</p>
+<p>&#x00AB;Aa alle mulige ting, ingen, ingen ting er morsomt mere, uh uh uh &#x2013;&#x00BB;</p>
+<p>&#x00AB;Jeg troede ikke, du havde noget, der var leit,&#x00BB; sagde Annikken.</p>
+<p>&#x00AB;Jo Ebba er saa afskyelig, hvorfor skulde det afskyelige menneske komme herned og &#x00F8;del&#x00E6;gge al ting, uh uh &#x2013;&#x00BB;</p>
+<p>Ja denne grusomme skj&#x00E6;bnetilskikkelse vidste Annikken ikke at forklare.</p>
+<p>&#x00AB;Jeg troede ikke, at Ebba havde v&#x00E6;ret noget afskyelig mod dig,&#x00BB; sagde Annikken igjen.</p>
+<p>&#x00AB;Mod mig&#x00BB; &#x2013; Tilda reiste sig nu ogsaa op i sengen, &#x00AB;kj&#x00E6;re, hun er jo simpelthen ufordragelig &#x2013; det er jo mig, hun har v&#x00E6;ret afskyelig gyselig mod fra f&#x00F8;rste stund &#x2013; aa de hvide t&#x00E6;nderne hendes og den svenske snakken &#x2013; jeg hader hende, ja det gj&#x00F8;r jeg.&#x00BB;</p>
+<p>&#x00AB;Jeg kan ikke skj&#x00F8;nne det &#x2013;&#x00BB; begyndte Annikken.</p>
+<p>&#x00AB;Nei du skj&#x00F8;nner ingen ting &#x2013; men hvorledes <pb n="94"/>har hun ikke v&#x00E6;ret mod Per Krafft &#x2013; og Rode ogsaa &#x2013; afskyelig &#x2013; det siger Milly og Elly ogsaa &#x2013; aa gid hun bare vilde reise.&#x00BB;<note type="footnote">reise.&#x00BB;] <hi rend="italic">rettet fra:</hi> reise.&#x00AB; <hi rend="italic">(trykkfeil)</hi></note></p>
+<p>&#x00AB;Ja, men hun er jo forf&#x00E6;rdelig blid mod Per Krafft,&#x00BB; sagde Annikken uskyldig.</p>
+<p>&#x00AB;Ja blid ja &#x2013; det er jo netop det &#x2013; det er ikke at holde ud at se paa og i sommer, som vi kunde havt det saa deilig, og saa kommer hun og ford&#x00E6;rver det hele.&#x00BB;<note type="footnote">hele.&#x00BB;] <hi rend="italic">rettet fra:</hi> hele.&#x00AB; <hi rend="italic">(trykkfeil)</hi></note></p>
+<p>&#x00AB;Kan du ikke sige det til hende,&#x00BB; sagde Annikken efter en lang grunden. Det forekom altid Annikken, at naar man bare talte aabent om en ting, saa maatte al ting greie sig.</p>
+<p>&#x00AB;Sige det til hende, nei ved du hvad &#x2013; jeg oplader ikke min mund til det menneske mer, og ikke til Per Krafft heller, som er det indbildskeste menneske paa Guds gr&#x00F8;nne jord.&#x00BB;</p>
+<p>Saa var begge s&#x00F8;strene sovnet, og n&#x00E6;ste morgen begyndte ingen af dem paa det samme thema.</p>
+<p>Men Annikken t&#x00E6;nkte og t&#x00E6;nkte.</p>
+<p>Det var saa m&#x00E6;rkeligt altsammen. Tilda var jaloux, det var hun, det. Saadan som det stod om i romaner om skinsyge fyrstinder. T&#x00E6;nk, hvor rart, at Tilda virkelig var skinsyg! For Per Krafft havde jo f&#x00F8;r bare bryd sig om Tilda, og nu var det ligesom, han ikke saa hende mere.</p>
+<p>Og Tilda, som havde sagt, at Per Krafft var det mest indbildske paa jorden!</p>
+<p>T&#x00E6;nk om han tror det, som Ebba sagde oppe <pb n="95"/>paa Movig. For det kan jo godt h&#x00E6;nde, at Ebba har sagt det til ham ogsaa.</p>
+<p>Ja, det skal han v&#x00E6;re blaa for at tro, t&#x00E6;nkte Annikken, og kneb munden sammen; jeg vil sige det til ham i denne dag.</p>
+<p>Efterat Annikken havde taget denne bestemmelse, gik hun bare og lurede paa en leilighed til at gj&#x00F8;re op regnskab med Per Krafft.</p>
+<p>Nei, aldrig kunde hun tr&#x00E6;ffe ham alene. Hver dag saa hun ham rigtignok paa dampskibsbryggen, hvor de unge pleiede at samles, mest af den kompletteste mangel paa noget andet at foretage sig. Der var jo altid nogen passagerer at kritisere og le ad, og de unge damer syntes ogsaa, det var lidt morsomt at blive seet paa i kikkert af de flotte handelsreisende ombord, der stod en to&#x2013;tre meter fra dem.</p>
+<p>Men Annikken kunde aldrig tr&#x00E6;ffe Per Krafft alene.</p>
+<p>Ja saa gaar jeg op til ham hjemme, t&#x00E6;nkte Annikken.</p>
+<p>Det var en morgen tidlig, hun gik derop. Hun havde ligget vaagen og t&#x00E6;nkt n&#x00F8;ie over alt, hvad hun vilde sige. F&#x00F8;rst vil jeg sige det, og saa vil jeg sige det og det.</p>
+<p>Hun traf madame Tausen ude i haven.</p>
+<p>&#x00AB;Nei, hvor inderlig hyggelig, at De ser indom da, fr&#x00F8;ken Annikken.&#x00BB;</p>
+<p>Annikken blev blodr&#x00F8;d over hele det brede ansigt.</p>
+<p>&#x00AB;Kan jeg faa tale med Per Krafft,&#x00BB; sagde hun generet.</p>
+<p><pb n="96"/>I samme &#x00F8;ieblik angrede hun paa, at hun var gaat derind. Aa hvor hun angrede. Madame Tausen gik ind i gangen, for at raabe paa Per.</p>
+<p>Jeg tror, jeg l&#x00F8;ber &#x2013; t&#x00E6;nkte Annikken &#x2013; jeg l&#x00F8;ber, jeg l&#x00F8;ber &#x2013; men det vilde vist v&#x00E6;re flaut.</p>
+<p>Der var Per alt i d&#x00F8;ren. Madame Tausen ogsaa, hun vilde &#x00F8;iensynlig gjerne vide, hvad det var, der stod paa. Per Krafft saa generet ud, n&#x00E6;sen lugtede ikke det spor gammelost.</p>
+<p>&#x00AB;Kan jeg faa tale med dig,&#x00BB; sagde Annikken blodr&#x00F8;d.</p>
+<p>&#x00AB;Det er mig en gl&#x00E6;de&#x00BB; &#x2013; Per Krafft bukkede.</p>
+<p>Slig, som han kan finde ord, t&#x00E6;nkte madame Tausen og saa beundrende paa Per.</p>
+<p>&#x00AB;V&#x00E6;rsgod s&#x00E6;t dere her,&#x00BB; sagde hun h&#x00F8;it og viste paa en haveb&#x00E6;nk.</p>
+<p>&#x00AB;Jeg tror, vi heller gaar ned i haven,&#x00BB; sagde Per efter et blik paa Annikken.</p>
+<p>&#x00AB;Ja,&#x00BB; sagde hun hurtig.</p>
+<p>Hvis jeg ikke likte a saa godt, vilde jeg tro noget af hvert efter det der, t&#x00E6;nkte madam Tausen. Hun havde sat begge h&#x00E6;nder i siden og stod og saa efter dem.</p>
+<p>Annikken og Per Krafft gik nedigjennem en smal gang med sperrea paa begge sider. Det var ikke rum for mere end en i bredden. Annikken gik f&#x00F8;rst, Per efter. Pludselig vendte Annikken sig om.</p>
+<p>&#x00AB;Nei det kan v&#x00E6;re det samme, det var igrunden ingenting, jeg vilde,&#x00BB; sagde hun hurtig. Hun fors&#x00F8;gte at komme tilbage forbi Per i den smale havegang.</p>
+<p><pb n="97"/>Med en eneste gang var Per igjen overlegen; de smilende &#x00F8;ine saa ret ind i hendes.</p>
+<p>&#x00AB;Nei, nu slipper du ikke, hvad var det, du vilde?&#x00BB;<note type="footnote">vilde?&#x00BB;] <hi rend="italic">rettet fra:</hi> vilde? <hi rend="italic">(trykkfeil)</hi></note></p>
+<p>&#x00AB;Nei, jeg vil ikke,&#x00BB; hun kj&#x00E6;mpede for at komme tilbage.</p>
+<p>&#x00AB;Nei, ved du hvad, nu vil jeg vide det,&#x00BB; han saa smilende paa hende hele tiden.</p>
+<p>Annikken blev pludselig rolig. &#x00AB;Ja jeg kan godt sige det ogsaa,&#x00BB; sagde hun alvorlig.</p>
+<p>&#x00AB;Hvad er det da?&#x00BB;</p>
+<p>&#x00AB;Aa, det er bare det, at hvis du tror, jeg er indtaget i dig, saa tager du skammelig feil.&#x00BB;</p>
+<p>&#x00AB;Hvad &#x2013; hvorledes,&#x00BB; &#x2013; han lo og saa paa hende.</p>
+<p>Annikken saa paa ham et &#x00F8;ieblik:</p>
+<p>&#x00AB;Forresten er du lumpen helt igjennem,&#x00BB; sagde hun uhyre alvorlig.</p>
+<p>&#x00AB;Hvad er det, du siger,&#x00BB; nu var han ogsaa blevet alvorlig.</p>
+<p>Annikken samlede sig og t&#x00E6;nkte efter alt det, hun havde bestemt sig til at sige. Hun huskede ikke en eneste af alle de s&#x00E6;tninger, hun havde lavet sammen i nattens stilhed. Hun stammede og blev endda r&#x00F8;dere.</p>
+<p>&#x00AB;Jo, Ebba sagde, at jeg havde suget ud det ormbiddet, fordi jeg var indtaget i dig, og det er ikke det spor sandt &#x2013; jeg er ikke det pluk indtaget i dig &#x2013; nu ved du det &#x2013; for kanske Ebba har sagt det til dig ogsaa.&#x00BB;</p>
+<p><pb n="98"/>&#x00AB;Nei, du kan vist ikke udstaa mig, Annikken,&#x00BB; han saa hende alvorlig ret ind i &#x00F8;inene, &#x00AB;desto mer taknemmelig maa jeg jo v&#x00E6;re dig.&#x00BB; De m&#x00F8;rke, graa &#x00F8;ine slap ikke hendes et &#x00F8;ieblik.</p>
+<p>Annikken saa bort.</p>
+<p>&#x00AB;Det er saa forf&#x00E6;rdelig leit, at folk skal sige saadant &#x2013; og &#x2013; og &#x2013;&#x00BB;</p>
+<p>&#x00AB;Annikken se paa mig, er det sandt, at du ikke kan udstaa mig?&#x00BB;</p>
+<p>Annikken saa hastig paa ham, men saa straks bort igjen.</p>
+<p>&#x00AB;Jeg synes du er &#x00E6;kkel mange gange,&#x00BB; sagde hun n&#x00F8;lende.</p>
+<p>&#x00AB;Hvorledes det?&#x00BB;</p>
+<p>&#x00AB;Aa &#x2013;&#x00BB;</p>
+<p>&#x00AB;Hvorfor synes du, jeg er lumpen, Annikken?&#x00BB;</p>
+<p>&#x00AB;Jo, fordi du gj&#x00F8;r kur til alle &#x2013; og saa tror allesammen, at du bryr dig bare om den ene, men det er u&#x00E6;rligt og lumpent det, Per Krafft,&#x00BB; sluttede Annikken.</p>
+<p>Per Krafft saa nu ogsaa bort. &#x00AB;Du d&#x00F8;mmer mig for haardt Annikken,&#x00BB; sagde han sagte.</p>
+<p>&#x00AB;Langtifra det gj&#x00F8;r jeg slet ikke, for du gj&#x00F8;r mange mennesker bedr&#x00F8;vet paa den maaden &#x2013; og mange gange har jeg lyst at jule dig op.&#x00BB;</p>
+<p>Det lystige glimt kom igjen i Per Kraffts &#x00F8;ine.</p>
+<p>&#x00AB;Ja jul mig lidt faderlig op, Annikken,&#x00BB; sagde han, &#x00AB;jeg tror, jeg havde godt af det.&#x00BB;</p>
+<p>&#x00AB;Nu holder du bare leven igjen,&#x00BB; sagde Annikken, <pb n="99"/>&#x00AB;men jeg mener det i alvor jeg &#x2013; men nu har jeg sagt det, og nu vil jeg gaa.&#x00BB;</p>
+<p>Hun var kommet et par skridt op.over havegangen, da Per Krafft raabte:</p>
+<p>&#x00AB;Annikken.&#x00BB;</p>
+<p>&#x00AB;Ja.&#x00BB;</p>
+<p>&#x00AB;Ikke v&#x00E6;r vond paa mig, Annikken.&#x00BB;</p>
+<p>Hun saa paa ham en liden stund: &#x00AB;Det kommer akkurat an paa dig selv det,&#x00BB; sagde hun med tyk stemme.</p>
+<p>Dermed gik den brede, trauste Pr&#x00E6;st-Annikken langtsomt opover og ud af haven.</p>
+<p>&#x00AB;Hvad var det, hun vilde,&#x00BB; sagde madame Tausen til Per.</p>
+<p>&#x00AB;Aa, hun holdt en pr&#x00E6;ken for mig, tante Tausen.&#x00BB;</p>
+<p>&#x00AB;En pr&#x00E6;ken?&#x00BB;</p>
+<p>&#x00AB;Ja, og det en, jeg kommer til at huske, tror jeg.&#x00BB;</p>
+<p>Madame Tausen saa efter ham, da han sprang ind af gangd&#x00F8;ren.</p>
+<p>Hvad var nu det for noget da &#x2013; pisked&#x00F8;d &#x2013; skal jeg ikke faa vide det, saasandt jeg heder Maren Tausen.</p>
+</div>
+<div type="chapter">
+<head type="main"><ref type="contents" target="contents_11" xml:id="chapter_11">Branden</ref></head>
+<p><pb n="100"/>Da Annikken kom hjem fra hin visit hos Per Krafft, angrede hun forf&#x00E6;rdelig paa det hele.</p>
+<p>Hvor kunde hun dog v&#x00E6;re saa dum, som at gj&#x00F8;re saadant noget.</p>
+<p>Saadan gjorde vist aldrig nogen andre &#x2013; og bare nu ikke Per Krafft gik rundt og fortalte det. &#x2013; Aa Gud, hvorfor skulde hun altid v&#x00E6;re saa dum, aa, hvor Elly og Milly vilde le, og hvor de vilde have moro af det i lange tider og aldrig glemme det.</p>
+<p>Bare hun kunde betro sig til Maren Anne og fort&#x00E6;lle hende det! Men saa vilde formodentlig Maren Anne sige, at det ikke var ladylike, men ufint gjort af hende; naar Maren fandt noget, der ikke var fornemt, aandelig talt, slog hun stregen over det med en eneste gang &#x2013; saa hende turde hun slet ikke fort&#x00E6;lle det.</p>
+<p>Og ikke kunde hun tale om det til Tilda, for hun vilde blot sige:</p>
+<p>&#x00AB;Altid gj&#x00F8;r du noget, der er rart, Annikken.&#x00BB;</p>
+<p>Og nu var hun saa inderlig kjed og tr&#x00E6;t af det, at alle mennesker sagde, at hun var saa rar.</p>
+<p><pb n="101"/>Naar jeg ingenting siger, saa beh&#x00F8;ver da ikke folk at sige, jeg er rar, t&#x00E6;nkte Annikken ofte.</p>
+<p>I denne tid var hun endda stillere, end hun pleiede, sad og saa langt ud for sig.</p>
+<p>Men eftersom dagene gik, m&#x00E6;rkede hun, at Per Krafft intet maatte have sagt. Og hun fik en stor taknemmelighedsf&#x00F8;lelse indi sig mod ham derfor.</p>
+<p>Det var snildt af ham det, at han intet sagde, endda han altid gik paa jagt efter noget moro og noget at le ad.</p>
+<p>Kanske han alligevel var at stole paa. &#x2013;</p>
+<p>Det var i hedeste middagsstunden. Aabne d&#x00F8;re og vinduer over det hele hus, ikke et tr&#x00E6;k i luften. Solen stegte paa heierne og gjorde dem formelig gl&#x00F8;dende at kjende paa; ude i de smaa, opmurede haver med den t&#x00F8;rre sandjord hang blomsterne slappe og visne, men opover husv&#x00E6;ggen frydede den lille vinranke, der hver sommer bar to klaser druer, sig i den varme sol.</p>
+<p>Annikken laa paa en haveb&#x00E6;nk i det lille koghede syrenlysthus med svedperler paa den brede n&#x00E6;se. En humle surrede i det fjerne, kom n&#x00E6;rmere, fjernede sig igjen &#x2013; al ting var saa underlig langt borte. Annikken holdt paa at sove.</p>
+<p>Med en gang var der nogen, der raabte noget nede i den smale gade, Annikkens lyse &#x00F8;ine aabnede sig hurtig &#x2013; havde de ikke raabt: &#x00AB;Varmel&#x00F8;s &#x2013;&#x00BB;</p>
+<p>Der raabte de igjen; Annikken var oppe og ud haveveien, f&#x00F8;r hun egentlig havde t&#x00E6;nkt sig om, da <pb n="102"/>hun kom ned i gaden, m&#x00E6;rkede hun f&#x00F8;rst, at hun ikke havde hat paa.</p>
+<p>&#x00AB;Br&#x00E6;nder det,&#x00BB; spurgte hun en kone, der gl&#x00F8;ttede i et vindu.</p>
+<p>&#x00AB;Ja, hos d&#x00F8;ve Kjerstine siger dem, altid skal naa ul&#x00F8;kka v&#x00E6;re ude ogsaa.&#x00BB;</p>
+<p>Annikken tog paa sprang bortigjennem de smale gader. D&#x00F8;ve Kjerstine pleiede luge i haverne hjemme, hun havde ofte v&#x00E6;ret inde i d&#x00F8;ve Kjerstines bittelille hus, der det laa plat ned i gaden uden grundmur og med det &#x00E6;ldgamle tag. Der var fuldt af folk alt, der sp&#x00E6;rrede den lille gade; selv oppe i d&#x00F8;ve Kjerstines lille, sandede have med de eneste to stokroser stod der folk og kikkede ind af vinduerne. Men oppe fra m&#x00F8;net paa den ene side af taget steg der en m&#x00F8;rk, ulden r&#x00F8;g tilveirs og rundt den br&#x00F8;stf&#x00E6;ldige skorstenspibe, piblede der smaa flammer frem mellem de gamle tagsten.</p>
+<p>Og de raabte, barn gr&#x00E6;d, og der var et snak i munden paa hinanden om hvem, der havde seet r&#x00F8;gen f&#x00F8;rst, og brandvognen, som ikke kom!</p>
+<p>&#x00AB;Men, Jesse navn, hvor er d&#x00F8;ve Kjerstine henne,&#x00BB; var det en, der sagde.</p>
+<p>Ingen havde seet hende, og ingen vidste om nogen ting, f&#x00F8;r det begyndte at ryge af taget.</p>
+<p>Det var nogen, der havde v&#x00E6;ret inde i kj&#x00F8;kkenet og det eneste v&#x00E6;relse nedenunder, men der havde ingen d&#x00F8;ve Kjerstine v&#x00E6;ret.</p>
+<p>&#x00AB;Kanske d&#x00F8;ve Kjerstine er paa loftet,&#x00BB; var det <pb n="103"/>en kone, der sagde, &#x00AB;for hun sover paa loftet nu sommertiden.&#x00BB;</p>
+<p>Der blev stilt et &#x00F8;ieblik, saa stilt, at en h&#x00F8;rte flammen oppe fra piben knitre ganske svagt, saa skreg de og raabte:</p>
+<p>&#x00AB;Herre Gud, hun br&#x00E6;nder inde, hun er deroppe, hun sover og h&#x00F8;rer ingenting.&#x00BB;</p>
+<p>Et eneste &#x00F8;ieblik for det rundt i Annikkens hoved. Saa banede hun sig vei med de brede arme:</p>
+<p>&#x00AB;Lad mig komme frem!&#x00BB;</p>
+<p>Allesammen veg undaf, det var ligesom en magt i det brede, lyse menneske.</p>
+<p>Hun var alt inde i d&#x00F8;ren. &#x00AB;Hvad vil De, fr&#x00F8;ken,&#x00BB; det var en kone, der holdt hende igjen.</p>
+<p>&#x00AB;Jeg vil op paa loftet efter d&#x00F8;ve Kjerstine.&#x00BB;</p>
+<p>&#x00AB;Nei, nei, nei &#x2013; gj&#x00F8;r det ikke &#x2013; De kommer inte ned igjen.&#x00BB;</p>
+<p>&#x00AB;Jo jeg vil, slip mig.&#x00BB;</p>
+<p>R&#x00F8;gen slog imod hende tyk og kv&#x00E6;lende opigjennem den smale trap. Hun b&#x00F8;iede hovedet og gik paa. Det var nogen skridt hen til loftskammerd&#x00F8;ren, men hun vidste, hvor den var. R&#x00F8;gen var alt saa t&#x00E6;t, at hun intet saa. Hun famlede efter klinken. Endelig der fik hun d&#x00F8;ren op, der laa d&#x00F8;ve Kjerstine og sov paa sin seng.</p>
+<p>I et nu havde de brede, st&#x00E6;rke armene lille d&#x00F8;ve Kjerstine oppe af sengen, men hun var aldeles fortumlet, kunde ikke staa paa benene og ynkede sig h&#x00F8;it. Annikken tog hende om livet og bar eller sl&#x00E6;bte hende de par skridt over loftet og trak hende <pb n="104"/>bagl&#x00E6;nds ned af trappen. Altsammen uden et eneste ord. Trappen var lige ved d&#x00F8;ren; der tog folk sig straks af hende og bar hende bort. Annikken skalv lidet gran, ligesom noget i brystet, der r&#x00F8;rte sig.</p>
+<p>&#x00AB;Aa fr&#x00F8;ken, fr&#x00F8;ken,&#x00BB; en gammel kone storgraat og klappede hende paa skuldrene og paa det bare hoved uden hat, &#x00AB;at Dere turde det &#x2013; at Dere kunde gaa ind i det br&#x00E6;ndendes hus.&#x00BB;</p>
+<p>&#x00AB;Aa, se, se,&#x00BB; raabte folk. Der slog r&#x00F8;gen tyk og sort ud af loftsvinduet, hvor d&#x00F8;ve Kjerstine netop havde ligget.</p>
+<p>&#x00AB;Det er stort at redde menneskeliv,&#x00BB; graat en kone.</p>
+<p>&#x00AB;Det var tak v&#x00E6;rdt det,&#x00BB; sagde en rystende gammel mand.</p>
+<p>Pludselig saa Annikken Per Kraffts ansigt indimellem alle de andre.</p>
+<p>&#x00AB;Du er gjild jente, du,&#x00BB; sagde gamle Tallak vedhugger, rystede paa hovedet og smilte til Annikken.</p>
+<p>&#x00AB;Det var et sandt ord det, Tallak,&#x00BB; sagde Per Krafft.</p>
+<p>&#x00AB;Nei,&#x00BB; sagde Annikken hastig, &#x00AB;kj&#x00E6;re, det er da ingenting at tale om, nei da!&#x00BB;</p>
+<p>Der kom endelig brandvognen ramlende, unger og folk for tilside.</p>
+<p>&#x00AB;Afveien folk,&#x00BB; brandmajoren travede med, spr&#x00E6;ngr&#x00F8;d i ansigtet.</p>
+<p>&#x00AB;Det er vel ikke folk inde i huset,&#x00BB; raabte han.</p>
+<p>&#x00AB;Pr&#x00E6;st-Annikken bar a ud,&#x00BB; raabte en gutunge.</p>
+<p><pb n="105"/>&#x00AB;Det maa siges at v&#x00E6;re efter omst&#x00E6;ndighederne godt gjort,&#x00BB; udtrykte brandmajoren sig.</p>
+<p>Alt mandfolk blev sat til at pumpe, Per Krafft var ogsaa med. Alle konerne flokkede sig om Annikken og sagde om igjen og om igjen det samme og undrede sig.</p>
+<p>Inden de vidste ordet af det, gjorde Annikken helt om og l&#x00F8;b hjem. Svend havde alt v&#x00E6;ret i forveien og berettet det hele.</p>
+<p>&#x00AB;Aa gid, dere skulde seet sj&#x00F8;mand R&#x00F8;st, da hun kom tr&#x00E6;kkendes med d&#x00F8;ve Kjerstine &#x2013; aa gid &#x2013; hvor st&#x00E6;rk du var, Annikken &#x2013;&#x00BB;</p>
+<p>&#x00AB;Kj&#x00E6;re barn &#x2013; fort&#x00E6;l,&#x00BB; sagde faderen.</p>
+<p>&#x00AB;Det er ikke noget at fort&#x00E6;lle,&#x00BB; sagde Annikken bryd, &#x00AB;hun sov ovenpaa og h&#x00F8;rte ingen ting, og saa gik jeg derop og fik hende ned.&#x00BB;</p>
+<p>&#x00AB;Medens det br&#x00E6;ndte i huset?&#x00BB;</p>
+<p>&#x00AB;Ja lidt.&#x00BB;</p>
+<p>&#x00AB;Var der ikke r&#x00F8;g da?&#x00BB;</p>
+<p>&#x00AB;Jo lidt.&#x00BB;</p>
+<p>&#x00AB;Aa gid da, r&#x00F8;gen var svart som beg,&#x00BB; sagde Svend, &#x00AB;og der var varme i taget, da Annikken gik op.&#x00BB;</p>
+<p>&#x00AB;Aa du Annikken, du Annikken,&#x00BB; sagde Maren Anne med lysende &#x00F8;ine og tog hende om halsen.</p>
+<p>&#x00AB;Jeg forsikrer dere paa, at det var ingenting at tale om,&#x00BB; sagde Annikken, &#x00AB;jeg gik bare ret op ad trappen &#x2013;&#x00BB;</p>
+<p>&#x00AB;Bare gaa ind i et br&#x00E6;ndende hus ja,&#x00BB; fortsatte Maren Anne &#x2013; &#x00AB;aa Annikken, jeg misunder dig &#x2013; her l&#x00E6;ser og str&#x00E6;ver og t&#x00E6;nker og arbeider jeg for <pb n="106"/>at naa noget i verden, gj&#x00F8;re noget gavn, blive til noget stort og saa gaar du her ganske stilf&#x00E6;rdig og gj&#x00F8;r det store uden tanke paa selv, at det er noget.&#x00BB;<note type="footnote">noget.&#x00BB;] <hi rend="italic">rettet fra:</hi> noget.&#x00AB; <hi rend="italic">(trykkfeil)</hi></note></p>
+<p>&#x00AB;Ikke sig saadant,&#x00BB; sagde Annikken bedende.</p>
+<p>&#x00AB;Jo,&#x00BB; sagde Maren Anne, &#x00AB;at glemme sig helt selv, det er stort.&#x00BB;</p>
+<p>Nei, at folk kunde gj&#x00F8;re saadant v&#x00E6;sen af det, t&#x00E6;nkte Annikken.</p>
+<p>Ude i byen ogsaa, hun kunde ikke gaa paa gaden de f&#x00F8;rste dage, uden at folk kom hen og vilde have greie paa, hvorledes det var gaaet for sig. Det generede hende, saa hun gik baggaderne.</p>
+<p>Uf, sagde Annikken og satte nyver i panden, jeg er saa kjed af det saa.</p>
+<p>Det var en aften nogle &#x0027;dage efter. Solen stod gyldengul over heierne l&#x00E6;ngst i vest, solgangsvinden var l&#x00F8;iet af, og sj&#x00F8;en laa blank, speilende i gult og og r&#x00F8;dt mod de m&#x00F8;rke heier.</p>
+<p>Annikken havde taget en pram og roet udover. Hun roede hurtig, prammen skar en hvid stribe i det speilglatte vand.</p>
+<p>Hun havde ofte trang til at v&#x00E6;re alene, og da var sj&#x00F8;en den bedste. Der kom en seilbaad udenfra med topseil og fokken spilt, som en stor snehvid fugl med spilte vinger paa det skinnende vand. Annikken str&#x00F8;g lige t&#x00E6;t forbi den i sin pram. Da hun skulde se til, sad Per Krafft alene ved roret. Han var i skjorte&#x00E6;rmer, og hatten langt bag i nakken.</p>
+<p>&#x00AB;Nei er det dig,&#x00BB; raabte han, &#x00AB;hvor skal du hen?&#x00BB;</p>
+<p><pb n="107"/>&#x00AB;Aa &#x2013; ingensteder &#x2013;&#x00BB;</p>
+<p>&#x00AB;Skal jeg tage dig paa sl&#x00E6;b &#x2013;&#x00BB;</p>
+<p>&#x00AB;Det var bedre, jeg tog dig da,&#x00BB; sagde Annikken, &#x00AB;du kommer jo ikke af fl&#x00E6;kken.&#x00BB;</p>
+<p>&#x00AB;Kom op her, saa tager vi prammen paa sl&#x00E6;b,&#x00BB; sagde han igjen.</p>
+<p>Annikken t&#x00E6;nkte sig om. &#x00AB;Aa nei, sagde hun tilslut.&#x00BB;</p>
+<p>Han bad hende igjen. &#x00AB;Nei jeg har roet ud for at v&#x00E6;re alene,&#x00BB; sagde hun langsomt. I samme &#x00F8;ieblik hun havde sagt det, angrede hun det, det var vist uh&#x00F8;fligt.</p>
+<p>&#x00AB;Aa pyt,&#x00BB; han lo &#x2013; &#x00AB;jeg er da n&#x00E6;sten ingen jeg.&#x00BB;</p>
+<p>Uf nei, t&#x00E6;nkte Annikken, jeg vil ikke op i baaden hans, for jeg ved ikke, hvad jeg skal snakke om. &#x00AB;Farvel da,&#x00BB; sagde hun h&#x00F8;it.</p>
+<p>&#x00AB;Du Annikken,&#x00BB; han l&#x00E6;nede sig udover r&#x00E6;lingen &#x00AB;er du vond paa mig?&#x00BB;</p>
+<p>&#x00AB;Nei.&#x00BB;</p>
+<p>&#x00AB;Du &#x2013; har du syntes, jeg har v&#x00E6;ret lumpen i den sidste tid ogsaa?&#x00BB;</p>
+<p>&#x00AB;Nei, hun skaatede og vilde ikke se paa ham, saa saa hun hurtig bort paa det brune, ivrige ansigt mod det hvide seil, &#x00AB;jeg har angret forferdelig paa, at jeg gik op til dig dengang,&#x00BB; sagde hun stille.</p>
+<p>&#x00AB;Det skal du ikke angre paa,&#x00BB; sagde han. Saa vilde ikke han se paa hende heller. Baadene fjernede sig mere og mere fra hinanden.</p>
+<p>&#x00AB;Du Annikken,&#x00BB; sagde han igjen &#x2013;</p>
+<p>&#x00AB;Ja &#x2013;&#x00BB;</p>
+<p><pb n="108"/>&#x00AB;Nei, det kan v&#x00E6;re det samme &#x2013;&#x00BB;</p>
+<p>Annikken saa paa ham, al hendes generthed var et &#x00F8;ieblik ligesom str&#x00F8;get af hende ligeoverfor ham. Hun smilte og saa ham helt ind i &#x00F8;inene, hvad hun ellers ikke kunde.</p>
+<p>&#x00AB;Skal jeg hilse i byen,&#x00BB; sagde hun muntert, &#x00AB;du kommer ikke ind f&#x00F8;r midnat du paa denne maaden.&#x00BB;</p>
+<p>Han svarede ikke, bare saa paa hende. Annikken tog sp&#x00E6;ndtag mod prammens bund og roede, saa det fossede indover. Hun blev saa glad med en gang. Du, hvor godt, hun likte Per Krafft &#x2013; n&#x00E6;sten bedst af alle mennesker &#x2013; men det maatte ingen i hele verden vide.</p>
+</div>
+<div type="chapter">
+<head type="main"><ref type="contents" target="contents_12" xml:id="chapter_12">Brev fra Ebba til Tilda</ref></head>
+<quote>
+<p rend="noIndent"><pb n="109"/>Kj&#x00E6;reste Tilda!</p>
+<p>Du har maaske ventet paa brev &#x2013; t&#x00E6;nk naar jeg t&#x00E6;nker efter, er det snart en maaned siden jeg reiste fra dit yndige hjem ved havet. Men jeg skal sige dig, at jeg har v&#x00E6;ret, er, og vil blive umaadelig optaget i lange tider &#x2013; og at skrive breve er og forbliver min pest. Jeg skulde altsaa takke for mig, siger min mama, min bedste tak sender jeg onkel og tante og alle b&#x00F8;rnene. Og &#x2013; elskede Tilda &#x2013; du forstod mig vist ikke i det sidste. Det var ligesom en sky mellem os &#x2013; men nu er skyen borte. For du troede kanske, at jeg var indtaget i den afskyelige student Krafft. Ikke mer end som saa &#x2013; forsikrer jeg paa mit &#x00E6;resord. For paa jernbanen hjemover, nei &#x2013; der traf jeg mit ideal! Aa hvad det er for en f&#x00F8;lelse Tilda! Altfort&#x00E6;rende vil jeg kalde den! Han er lys som en gud og tilogmed officer! Og han kjender min tante her i Stockholm, saa vi vil m&#x00F8;des ofte! D&#x00F8;m saa om hvilken vinter, jeg gaar <pb n="110"/>im&#x00F8;de! Jeg saa ham alt paa perronen i Kristiania, og han saa paa mig ja du gj&#x00F8;r dig ikke id&#x00E9; om hvorledes &#x2013; idetheletaget ved du vist slet ikke, hvorledes en officer kan se! Studenter er intet, kj&#x00E6;reste Tilda, det ved jeg nu. En gang aabnede han d&#x00F8;ren for mig ind til ventesalen, og saa mig dybt ind i &#x00F8;inene. Det var begyndelsen. Siden havde jeg en himmelsk, rent ud himmelsk jernbanetur!</p>
+<p>Student Krafft er visket ud, som med et viskel&#x00E6;r, af mit hjerte &#x2013; aldeles &#x2013; forsikrer jeg dig. Jeg t&#x00E6;nker aldrig paa ham mere, og jeg har aldeles ikke isinde at sende ham mit fotografi. Han er ikke pikant engang! Nei <emph>han</emph> er pikant du! Han snor sine moustacher overv&#x00E6;ldende. Elskede, kj&#x00E6;reste Tilda, jeg skriver snart til dig igjen og fort&#x00E6;ller dig videre, hvorledes dette henrivende bekjendtskab udvikler sig. T&#x00E6;nk han har seet mig i vinter engang &#x2013; i theatret &#x2013; og han har siden den tid ikke kunnet glemme min profil. Jeg lignede en gr&#x00E6;sk gudinde, sagde han, men navnet sagde han saa tort, at jeg ikke opfattede det &#x2013; sandt at sige har jeg aldrig h&#x00F8;rt det gudindenavn f&#x00F8;r heller &#x2013; men jeg blottede mig ikke &#x2013; men hvad synes du om den tanke, at jeg ligner en gudinde! Kj&#x00E6;reste Tilda &#x2013; aa hvor jeg likte dig godt. Kj&#x00E6;m altid dit haar nedover &#x00F8;rene, for da er du mildest talt henrivende.</p>
+<p>N&#x00E6;ste gang, du skriver, er du maaske forlovet med student Krafft. Han beundrede dig &#x2013; men o &#x2013; hvor min officer er millioner gange stateligere. For hos Per Krafft var det jo ikke tale om figur. <pb n="111"/>Hils Iversen og bed ham snarest mulig gjennemgaa et stammekursus, og bed ogsaa Rode huske paa, at han har en underl&#x00E6;be! Hils den pr&#x00E6;gtige Annikken og dine yndige br&#x00F8;dre, og den s&#x00F8;de Magna. Jeg skal faa lys blaa silkekjole, og min papa overraskede mig igaar med et vidunder af en vifte! Jeg har fotograferet mig ogsaa, jeg kommer ligesom ud af en sky &#x2013; jeg er deilig der &#x2013; men det er vistnok en smule flatteret. T&#x00E6;nk om jeg kunde blive gift med <emph>ham!</emph> De, der er gifte, har vist ingen sorger mer, tror du vel Tilda.</p>
+<p>Din altid elskede kusine som fortiden er i den syvende himmel tra la tra la.</p>
+<p rend="noIndent">Din
+<lb/>umaadelig hengivne
+<lb/>Ebba</p>
+</quote>
+</div>
+<div type="chapter">
+<head type="main"><ref type="contents" target="contents_13" xml:id="chapter_13">Brev fra Annikken til Maren Anne</ref></head>
+<quote>
+<p rend="noIndent"><pb n="112"/>Kj&#x00E6;re Maren Anne!</p>
+<p>Mange tak for dit brev. Du sp&#x00F8;rger, hvorledes jeg har det. Jo jeg har det bra, men nu er her stille. Jeg gaar lange turer alene og t&#x00E6;nker paa meget. Mest paa det, at jeg gjerne vil gj&#x00F8;re noget nyttigt i verden, ja jeg mener at hj&#x00E6;lpe andre.</p>
+<p>Det er nu ikke mere end fjorten dage til min konfirmation, og det er meget alvorligt efter min mening. Mest gruer jeg for at gaa til alters, fordi om jeg ikke er beredt. Og jeg har ogsaa meget at sy. Men jeg maa dog fort&#x00E6;lle dig noget rart. En dag kom Svend l&#x00F8;bende ind og sagde, at det var en ustyrtelig fin dame ude i gangen, som spurgte efter mig. Du kan tro, jeg blev forbauset over, at en fin dame skulde sp&#x00F8;rge efter mig. Og da jeg kom ud i gangen, stod der en liden tyk udenlandsk dame, som smilte til begge &#x00F8;rene. Vil du tro, jeg kjendte hende ikke. Og t&#x00E6;nk, saa var det Hilleborg, som vi var sammen med paa Blommedal. Hun kom lige fra <pb n="113"/>Paris, hvor hun har v&#x00E6;ret for at synge, ved du jo. Hun var i f&#x00F8;lge med en musiker, som saa elendig ud med sort langt haar, og de vilde have koncert i byen. Og t&#x00E6;nk saa havde de koncert paa Raadstusalen. Musikeren dundrede paa pianoet, og Hilleborg sang forf&#x00E6;rdelig h&#x00F8;it og klart og nydelig &#x2013; det rislede mig ned ad ryggen som koldt vand, saa deiligt var det, hun sang baade fransk og italiensk, og de smaa &#x00F8;inene sine kastede hun til alle kanter. Men hun var lige snild som paa Blommedal. Og hun sagde, at hun skyldte dig sin lykke! Og hun sagde ogsaa, at hun skulde blive en stjerne &#x2013; det synes jeg for mit vedkommende maatte v&#x00E6;re grusomt &#x2013; men hun straalede forf&#x00E6;rdelig i &#x00F8;inene. Hun boede hos os, og hun sang salmer for papa, saa han gr&#x00E6;d. T&#x00E6;nk hun havde en virkelig diamantnaal, som hun havde faat af en grevinde, og hun sagde, at hun vist fik forf&#x00E6;rdelig mange diamanter til i sit liv. Er det ikke rart. T&#x00E6;nk jeg vilde ikke bryde mig det mindste om at faa en diamantnaal, men alle mennesker siger jo ogsaa, at jeg er saa rar. Du sp&#x00F8;rger efter Per Krafft. Han er reist, han ogsaa. Du sp&#x00F8;rger, om jeg traf ham siden. Ja en gang. Da sagde han bare, at han kom hjem til jul. Du kan tro, her er stille nu, og ingen gaar noget videre paa gaden, og aldrig er jeg paa dampskibsbryggen mere. Ingen er der. Du sp&#x00F8;rger ogsaa, om jeg t&#x00E6;nker paa Per Krafft. Og det maa jeg svare ja til, for du ved, at der kan komme mange tanker gjennem ens hoved. Du l&#x00E6;ser vel og studerer, og jeg gaar her og gj&#x00F8;r <pb n="114"/>ingen ting, og det er ondt. Men jeg har bestemt mig til, at jeg vil l&#x00E6;se hele det nye testamente igjennem, inden jeg blir konfirmeret. For det tror jeg, kanske vil hj&#x00E6;lpe mig til at blive mere forberedt. T&#x00E6;nk, du kan tro, Tilda er snild, hun syr en nydelig toiletpude til mig. Og mor giver mig meget pent, nydelige knapst&#x00F8;vler fik jeg igaar. Ellers har jeg bare havt sn&#x00F8;resko. Til de andre herrer ser jeg ingen ting, og ikke bryder jeg mig om det heller. Elly og Milly spadserer med Tilda hver dag, men jeg gaar meget alene, for du ved, jeg er ikke som de andre. Kj&#x00E6;re Maren Anne, du maa ikke glemme mig, fordi om jeg er rar og ingenting l&#x00E6;rer.</p>
+<p rend="noIndent">Din
+<lb/>Annikken.</p>
+<p>Es.
+<lb/>Du maa ikke fort&#x00E6;lle nogen, at jeg sagde, at jeg t&#x00E6;nker lidt paa Per Krafft undertiden.</p>
+</quote>
+</div>
+<div type="chapter">
+<head type="main"><ref type="contents" target="contents_14" xml:id="chapter_14">Annikkens konfirmationsdag</ref></head>
+<p><pb n="115"/>Konfirmationsdagen n&#x00E6;rmede sig, og Annikken gruede ikke l&#x00E6;ngere saa meget, som hun f&#x00F8;r havde gjort.</p>
+<p>Det var jo ikke noget leit, at hun skulde love at holde sig til Gud. For det vilde hun gj&#x00F8;re hele sit liv, ja hele sit liv. Fra hun var liden pige havde hun altid villet det, men nu siden Lina Gr&#x00E6;svigs d&#x00F8;d, vidste hun det saa soleklart, at hun vilde det. Det er da bedre at v&#x00E6;lge det, som er noget, end det som intet er, t&#x00E6;nkte Annikken.</p>
+<p>Og Maren Anne havde sagt, at hun nok skulde greie for hende, saa hun kunde komme ud og l&#x00E6;re noget i verden og blive til gavn for andre.</p>
+<p>Men hvad det skulde v&#x00E6;re, spekulerede Annikken paa hver eneste dag.</p>
+<p>Jeg passer ikke til at lave mad, t&#x00E6;nkte hun, for jeg er saa slumset, at jeg vilde slaa itu alt det stent&#x00F8;i og glas, jeg fik fat i. Og ikke passer jeg til at lave saucer eller cr&#x00E9;mer heller, for saadan fin mad kan jeg<note type="footnote">jeg] <hi rend="italic">rettet fra:</hi> eg <hi rend="italic">(trykkfeil)</hi></note> ikke like.</p>
+<p><pb n="116"/>Og ikke passer jeg til at sidde og skrive paa et kontor, for da er jeg sikker paa, jeg ikke kunde puste tilslut. Og l&#x00E6;se med smaabarn er jeg ikke taalmodig nok til, jeg kom til at jule dem op fort v&#x00E6;k allesammen.</p>
+<p>Og blive student som Maren Anne er komplet umuligt, for jeg har jo ikke hoved.</p>
+<p>Nei Annikken vidste ingen ting, hun passede til.</p>
+<p>Havde jeg v&#x00E6;ret gut, t&#x00E6;nkte Annikken mismodig, saa vilde jeg blevet sj&#x00F8;mand. Ja enten sj&#x00F8;mand eller pr&#x00E6;st. For det maatte v&#x00E6;re deiligt ligesom far, at gaa rundt og tr&#x00F8;ste og hj&#x00E6;lpe alle dem, der var syge og r&#x00E6;dde og skulde d&#x00F8;. Forresten maatte det v&#x00E6;re noksaa gjildt at staa og pr&#x00E6;ke paa pr&#x00E6;dikestolen ogsaa, t&#x00E6;nkte Annikken.</p>
+<p>Men det er jo noget t&#x00F8;v, for jeg er jo bare en pige. Og Annikken t&#x00E6;nkte efter, hvad det var, hun kunde bedst i verden, og det var at ro, sage ved og l&#x00E6;re digte udenad.</p>
+<p>Men ingen af de tre ting, kunde jo hj&#x00E6;lpe hende til at blive noget i verden.</p>
+<p>Det var l&#x00F8;rdagen f&#x00F8;r konfirmationsdagen. Alle de yngre s&#x00F8;skenderne var umaadelig interesserede i alle de buketter og presenter, der lidt efter lidt arriverede. Alle gutterne havde sin faste udkigsplads paa hj&#x00F8;rnet af huset, hvis de saa nede i gaden, saa en buket i det fjerne, l&#x00F8;b de hovedkuls over hinanden ind for at melde dens ankomst.</p>
+<p>&#x00AB;Buket fra Svendsens, Annikken.&#x00BB;</p>
+<p>&#x00AB;Du, en diger buket fra fru Holm, Annikken.&#x00BB;</p>
+<p><pb n="117"/>&#x00AB;En pige med en hvid pakke, Annikken, present kan du vide.&#x00BB;</p>
+<p>Og Magna holdt alle veninderne nedigjennem gaderne &#x00E0; jour med, hvor mange broscher Annikken havde faat.</p>
+<p>&#x00AB;Nu har hun faat tre,&#x00BB; meldte Magna.</p>
+<p>&#x00AB;Nu har hun faat fem.&#x00BB;</p>
+<p>Tilslut laa hun flad nedover gaden for at melde, at nu var den ottende brosche ankommet.</p>
+<p>&#x00AB;Aa gid,&#x00BB; sagde alle Magnas veninder.</p>
+<p>Der var kommet guldarmbaand fra Ebbas for&#x00E6;ldre og koraller fra Maren Anne.</p>
+<p>&#x00AB;Det er saa altfor fint, hvad skal jeg med denslags,&#x00BB; sagde Annikken.</p>
+<p>Der blev bagt og stegt i kj&#x00F8;kkenet, og der lugtede rent og festligt over det hele hus med rene gardiner og blankpudsede ovne. Og Tilda lukkede sig inde paa sit v&#x00E6;relse for at sy paa spr&#x00E6;ng paa den nydelige toiletpude til Annikken.</p>
+<p>Annikken f&#x00F8;lte sig saa besynderlig rar, ligesom det slet ikke var hende, der gik omkring og var hovedpersonen, men et andet uf&#x00F8;lsomt menneske, der idag var stukket i den storrudede kjole. Ikke gruede hun mere, ikke var hun glad, og ikke bedr&#x00F8;vet heller, det var ligesom det hele slet ikke angik hende. Men skulde hun valgt, saa vilde hun igrunden n&#x00F8;dig have undv&#x00E6;ret det ogsaa.</p>
+<p>Om aftenen ved husandagten bad faderen s&#x00E6;rskilt for hende, som imorgen skulde afl&#x00E6;gge det alvorlige l&#x00F8;fte. Og det likte hun nok godt, men det var saa <pb n="118"/>leit, at alle br&#x00F8;drene og Magna stirrede paa hende for at se, hvorledes hun tog det.</p>
+<p>Og faderen klappede hende paa hovedet, da hun sagde godnat og sagde: &#x00AB;Gud velsigne dig&#x00BB; &#x2013; og det var ogsaa saa rart.</p>
+<p>Den n&#x00E6;ste dag var det stygt veir, graa, drivende skyer, regnslabs og s&#x00F8;le og gule nedfaldne blade. En for en kom konfirmanderne gaaende til kirken. Smaa gutter i altfor store kl&#x00E6;der med hansker paa h&#x00E6;nderne, som de aldrig f&#x00F8;r havde havt. Smaapigerne var gjennemgaaende st&#x00F8;rre med sorte kjoler og hvide skj&#x00F8;rter, som bragede, naar de gik, kr&#x00F8;llet og m&#x00E6;rkelig udpyntet paa hovedet. Havde de baade fader og moder gik de midt imellern begge for&#x00E6;ldrene. Var faderen tilsj&#x00F8;s, kom moderen alene pyntet i schawl og forkavet, men h&#x00F8;itidens pr&#x00E6;g var der dog. Alle saa paa konfirmanderne, naar de kom ind i den t&#x00E6;tpakkede kirke. Men konfirmanderne saa straks ned i sine nye salmeb&#x00F8;ger.</p>
+<p>Annikken havde ikke faat ny salmebog. Moderen fandt nemlig, at Tildas fra ifjor sandelig var akkurat som ny. Tilda havde rigtignok revet sp&#x00E6;nden af den og sat den paa igjen med en knappenaal, men det var n&#x00E6;sten umuligt at se. Ikkedestomindre plagede den knappenaal Annikken. Hun vilde ikke t&#x00E6;nke paa den, men naar hun aabnede salmebogen, var tanken paa knappenaalen der straks igjen.</p>
+<p>Og salmerne bruste henover de t&#x00E6;tpakkede hoveder.</p>
+<p><pb n="119"/>Og de sang: Engang de ud fra f&#x00E6;drebo skal om i verden vanke &#x2013;</p>
+<p>Da gr&#x00E6;d alle for&#x00E6;ldrene, men konfirmanderne gr&#x00E6;d ikke, for de vidste jo endda ikke, hvad det var at vanke om i verden.</p>
+<p>Og Annikken sad der med de troskyldige &#x00F8;ine og det brede ansigt og bad: Hj&#x00E6;lp mig Gud &#x2013; hj&#x00E6;lp mig! For hun syntes, hun var saa uv&#x00E6;rdig og saa liden.</p>
+<p>Hun sad &#x00F8;verst af konfirmanderne, og allesammen saa paa hende, og de fleste t&#x00E6;nkte: Hun er lidet pen &#x2013; men det var dog ogsaa nogle, der t&#x00E6;nkte: Hun er ikke v&#x00E6;rst den der, hun reddede d&#x00F8;ve Kjerstine fra at br&#x00E6;nde inde her nylig. Og pastoren talte. Og han talte om det, som han havde sagt til Annikken hin aften, Lina Gr&#x00E6;svig d&#x00F8;de.</p>
+<p>&#x00AB;Hold eder til Gud, for alt andet svinder!&#x00BB;</p>
+<p>Han havde evne til at gribe og r&#x00F8;re sindene, det var som en bev&#x00E6;gelse i kirken af graad, af suk, af betagethed.</p>
+<p>Men oppe paa koret sad Magna med en jevnaldrende veninde; da der engang var en liden pause i faderens pr&#x00E6;ken, hviskede hun hastig:</p>
+<p>&#x00AB;Hun har faat uhr.&#x00BB;</p>
+<p>Det havde nemlig v&#x00E6;ret et meget omtvistet sp&#x00F8;rgsmaal, om hvorvidt Annikken skulde faa uhr eller ei til konfirmationen.</p>
+<p>F&#x00F8;rst da de kom op til alteret, begyndte konfirmanderne <pb n="120"/>at gr&#x00E6;de, t&#x00E6;tpakkede, opl&#x00F8;ste af varme og graad og &#x00F8;ieblikkets stemning.</p>
+<p>&#x00AB;Saa giv nu da Gud dit hjerte og mig din haand,&#x00BB; sagde faderen, og Annikken b&#x00F8;iede kn&#x00E6; ved alteret, saa underlig betaget. Alting var saa stort og saa rart og saa deiligt. Da hun reiste sig op, saa hun glad henover alle de andre.</p>
+<p>T&#x00E6;nk, at hun havde gruet for dette, som var det deiligste, hun endda havde oplevet!</p>
+<p>Hjemme var der saa stille og saa h&#x00F8;itideligt og alle tog hende i haanden, pigerne ogsaa. Hun sad ved siden af faderen ved bordenden, og smaas&#x00F8;skenderne talte sagte ved bordet, af bare h&#x00F8;itidelighed.</p>
+<p>Om eftermiddagen kom visitterne. Den halve by kom der. Annikken var fortvilet over at v&#x00E6;re hovedpersonen og stod flammende r&#x00F8;d og generet midt paa gulvet. Folk trykkede og tr&#x00E6;ngte, pigerne svingede sig frem med store chokoladebretter, og der var et sur og et snak og en latter &#x2013;</p>
+<p>Udenfor silede regnen ned, men vinduerne var duggede indenfor af varmen, hele den store gang var fuld af drivvaade paraplyer, af vaade ben og galoscher.</p>
+<p>I sofaerne tronede byens fineste fruer i visithatte og hansker. Pludselig saa Annikken madame Tausen i d&#x00F8;ren. Hatten sad paa skjeve, og det ene &#x00F8;ie knebet igjen.</p>
+<p>Hun vakte en del forbauselse, hun var ellers sjelden at se ved denslags anledninger.</p>
+<p>&#x00AB;Hvor er konfirmanden, hvor er min egen jente,&#x00BB; raabte madame Tausen.</p>
+<p><pb n="121"/>Passiaren tystnede af, for at de bedre kunde h&#x00F8;re, hvad madame Tausen sagde.</p>
+<p>&#x00AB;Gratulerer med handlingen,&#x00BB; sagde madame Tausen, &#x00AB;og Guds velsignelse paa veien, kraft og mod og hjertelag har Han givet dig paa vuggen &#x2013; hvad vil du saa mer?&#x00BB;</p>
+<p>Madame Tausen klappede Annikken paa skulderen:</p>
+<p>&#x00AB;Og hilsen fra Per! Han skriver til mig: Tante, skriver han, kj&#x00F8;b en ting til Annikken, det peneste, du finder, skriver han. Og jeg har v&#x00E6;ret i begge guldsmedbuerne &#x2013; og her har du det fineste, jeg fandt!&#x00BB;</p>
+<p>Annikken var blevet blodr&#x00F8;d under denne madame Tausens tale, og saa for sine &#x00F8;ine en tyk guldring med en blaa sten. Den var smagl&#x00F8;s, men Annikken fandt den nydelig.</p>
+<p>&#x00AB;S&#x00E6;t den paa dig straks,&#x00BB; sagde madame Tausen, &#x00AB;jeg tog den stor,&#x00BB; vedblev hun, &#x00AB;for jeg ved, du har store h&#x00E6;nder, ikke noget pjankeri.&#x00BB;</p>
+<p>Saa kom madame Tausen tils&#x00E6;de mellem fruerne og blev med en eneste gang dame.</p>
+<p>Det kunde stikke hende undertiden, og der sad hun og talte fint. Men ret, som det var, dumpede hun uforvarende tilbage igjen.</p>
+<p>Hun fortalte den lyttende kreds af damer, to konsulsfruer med stanglorgnetter om et barn, der nylig var d&#x00F8;d meget pludselig.</p>
+<p>&#x00AB;Barnet lagde sig friskt og raskt om aftenen,&#x00BB; fortalte madame Tausen meget pyntelig, men her blev hun grebet af sit emne &#x2013; &#x00AB;aa om maaraen, <pb n="122"/>saa laa ungen dau,&#x00BB; fortsatte madame Tausen med den st&#x00F8;rste freidighed. Stanglorgnetterne viftede sig nerv&#x00F8;st og borte i krogen knisede gutterne.</p>
+<p>Svend, Erik og Nils havde v&#x00E6;ddet om, hvor mange kopper chokolade og glas vin, de kunde drikke, de havde sine egne private oplag af kransekage bag blomsterpotterne i vinduskarmene og syntes, at konfirmation var den st&#x00F8;rste moro, som fandtes i verden.</p>
+<p>&#x00AB;Skynd dig og konfirmer dig, du ogsaa snart,&#x00BB; sagde Svend til Magna.</p>
+<p>&#x00AB;Ja, gid det var saa vel,&#x00BB; sagde Magna. Hun eiede aldeles ikke Annikkens sky for at blive voksen. &#x00AB;Aa gid, t&#x00E6;nk at faa uhr og egen paraply!&#x00BB; sagde Magna.</p>
+<p>Og lidt efter lidt t&#x00F8;mtes v&#x00E6;relserne for de fremmaede, der blev ikke andre igjen end gamle fr&#x00F8;ken Weyergang med falskt pandehaar og strikkepose, hun skulde v&#x00E6;re til aftens.</p>
+<p>&#x00AB;Ja nu er du voksen, barn,&#x00BB; sagde gamle fr&#x00F8;ken Weyergang til Annikken, &#x00AB;og nu begynder moroen, men nu begynder ogsaa sorgerne, og jo &#x00E6;ldre du blir, blir det mere af det sidste og mindre af det f&#x00F8;rste &#x2013; men endda vilde jeg ikke v&#x00E6;re paa din alder, barn,&#x00BB; fr&#x00F8;ken Weyergang slog fra sig med begge h&#x00E6;nder:</p>
+<p>&#x00AB;Bevare mig vel &#x2013; nei nei &#x2013;&#x00BB;</p>
+<p>Saa var Annikken konfirmeret og gik ud i livet.</p>
+</div>
+<div type="chapter">
+<head type="main"><ref type="contents" target="contents_15" xml:id="chapter_15">Slutning</ref></head>
+<p><pb n="123"/>Tiden var gaaet sin gang dernede i den lille by mellem de graa heier. Havet havde dundret i vinterstormene, kastet taarnh&#x00F8;ie skumspr&#x00F8;it over de yderste skj&#x00E6;r og stormen revet i de store l&#x00F8;nnetr&#x00E6;er rundt Annikkens hjem, saa de klagede og vred sig, medens de smaa gader var endda tommere for folk end ellers, og alle skipperkonerne, og de, der havde nogen paa havet, vandrede oppe om n&#x00E6;tterne og saa paa sj&#x00F8;en, naar den rasede som v&#x00E6;rst.</p>
+<p>Naar vestenvinden bl&#x00E6;ste, og solen skinnede, vandrede Elly og Milly og Karen og alle de andre unge piger arm i arm rundt i de smaa gader, st&#x00E6;ngte veien, saa mange gik de i bredden og lukkede bare &#x00F8;ienlaagene igjen, naar nogen hilste paa dem. Men sig imellem havde de megen moro med hvisk og tisk og store hemmeligheder, og mange kokette &#x00F8;iekast blev kastet ind til handelsbetjentene, der kikkede efter dem mellem de sirlig foldede t&#x00F8;ier og bundter af skinnende galoscher i butiksvinduerne.</p>
+<p>Tilda var kommet til Kristiania for at l&#x00E6;re noget <pb n="124"/>og se sig om ude i verden. Svend var ogsaa kommet derind paa skole. Pr&#x00E6;sten havde ondt for at klare de store udgifter, sukkede ofte og stirrede langt ud for sig med det lange, vemodige ansigt.</p>
+<p>Moderen gik bred og tryg: &#x00AB;Det klarer sig nok, far, tag dig ikke n&#x00E6;r af det.&#x00BB;</p>
+<p>Der var stille og lyst i de store stuer, gutterne og Magna tegnede hoveder i de gamle, afslidte vinduskarmer i barnev&#x00E6;relserne og spikkede i dem ogsaa &#x2013; bare for at pr&#x00F8;ve knivene &#x2013; og sloges i spisestuen, luggede hinanden, og var lige gode venner to sekunder efter.</p>
+<p>Men aldrig i faderens n&#x00E6;rv&#x00E6;relse. Der var der altid ro. Det var som en luftning af noget stille, godt, der altid fulgte ham. Inderst inde i de viltre, vilde barn var der altid et saart punkt for faderen. De stod paa vagt som en mur, naar det var noget, der gjaldt ham, naar nogen havde smilet af hans underlige v&#x00E6;sen, eller bare trukket paa skuldrene.</p>
+<p>Annikken is&#x00E6;r, da kunde det flamme op i de lyse &#x00F8;ine, og der r&#x00F8;rte sig noget for hendes bryst, som noget levende.</p>
+<p>Hun var endda hjemme, turen til at komme ud, var endda ikke rukket saa langt som til hende. Annikken spekulerede undertiden paa, om den ogsaa nogengang vilde komme.</p>
+<p>Erik og Nils voksede til og maatte jo ud og l&#x00E6;re noget. Og mor tr&#x00E6;ngte ogsaa nogen til at v&#x00E6;re hjemme og hj&#x00E6;lpe hende i det store hus.</p>
+<p><pb n="125"/>Maren Anne havde skrevet og skrevet om, at Annikken maatte faa komme ud, se livet og l&#x00E6;re.</p>
+<p>Da havde faderen klappet hende paa hovedet:</p>
+<p>&#x00AB;Ja ja, Annikken, det blir nok en raad &#x2013;&#x00BB;</p>
+<p>Annikken sv&#x00E6;lgte noget tykt i halsen, og kunde ikke se op.</p>
+<p>Igrunden var det jo skam af hende, at hun gik saadan og l&#x00E6;ngtes ud. Hun havde jo et deiligt hjem. I og for sig var det ikke egentlig det at komme ud heller, Annikken l&#x00E6;ngtes efter. Det var blot for at l&#x00E6;re og blive nyttig.</p>
+<p>Naar saa moderen en dag kunde sige: &#x00AB;Hvorledes skulde jeg hj&#x00E6;lpe mig uden dig, Annikken.&#x00BB;</p>
+<p>Saa f&#x00F8;lte Annikken sig lykkelig, til atter de saare tanker kom tilbage.</p>
+<p>Per Krafft havde blot en gang v&#x00E6;ret hjemme siden hin sommer. Annikken havde gl&#x00E6;det sig til, han skulde komme. Hun regnede: Nu er det fire og tre og to uger, til han kommer. Saa blev det bare en dag, og saa kom han.</p>
+<p>Den f&#x00F8;rste gang Annikken saa ham, vendte hun lynsnart om og pilede opover en anden gade. For det var saa forferdelig leit at m&#x00F8;de ham.</p>
+<p>Den n&#x00E6;ste gang, hun traf ham, kunde hun ikke se sikkert paa ham. For han var saa smilende i &#x00F8;inene og saa l&#x00E6;nge paa hende.</p>
+<p>&#x00AB;Saadan er det altsaa, du ser ud,&#x00BB; sagde han, &#x00AB;jeg kunde ikke faa fat paa dit ansigt, naar jeg t&#x00E6;nkte paa dig.&#x00BB;</p>
+<p><pb n="126"/>Aa, at han havde t&#x00E6;nkt paa hende, og t&#x00E6;nk, at han havde sagt det!</p>
+<p>Annikken straalede. Om aftenen havde hun fremme den store ring med den blaa sten. Hun satte den paa fingeren og havde den paa, medens hun kl&#x00E6;dte sig af. Hun brugte den ellers aldrig. En gang, hun havde den paa, havde Elly og Milly og Tilda leet og &#x00E6;rtet hende.</p>
+<p>Dagen efter kom den ikke paa, men blev lagt i r&#x00F8;d bomuld inderst i hendes skuffe.</p>
+<p>&#x00AB;Hvorfor bruger du ikke ringen, Annikken,&#x00BB; sagde saa Per Krafft en dag.</p>
+<p>&#x00AB;Aa &#x2013;&#x00BB;</p>
+<p>Han gjentog sit sp&#x00F8;rgsmaal, ivrig, han vilde vide det.</p>
+<p>&#x00AB;Det passer mig ikke at gaa med ring.&#x00BB;</p>
+<p>&#x00AB;For noget t&#x00F8;v, skal jeg tage den igjen kanske?&#x00BB;</p>
+<p>&#x00AB;Nei,&#x00BB; sagde hun og smilte. Saa kunde hun igjen se ham lige ind i &#x00F8;inene.</p>
+<p>Han var anderledes mod hende end mod de andre unge piger. Han holdt aldrig sk&#x00F8;i med hende.</p>
+<p>&#x00AB;Det er blot, fordi jeg ikke er morsom,&#x00BB; t&#x00E6;nkte Annikken mismodig.</p>
+<p>Men han s&#x00F8;gte hendes selskab alligevel, laante hende b&#x00F8;ger, og da han reiste den gang, bad han om hendes billede.</p>
+<p>Annikken blev blodr&#x00F8;d. Aa &#x2013; hun havde bare et grusomt et, fra f&#x00F8;r hun blev konfirmeret, med stramt haar og en liden flette.</p>
+<p>&#x00AB;Lad mig bare faa det, sagde Per Krafft. Da <pb n="127"/>Annikken saa, at han lagde det gamle barnebillede i sin tegnebog, kom der en saadan underlig tryg f&#x00F8;lelse over hende.</p>
+<p>&#x00AB;T&#x00E6;nk, jeg tror, han liker mig,&#x00BB; hviskede hun sagte til sig selv, naar hun gik alene oppe i heien.</p>
+<p>Men da maatte hun v&#x00E6;re rigtig, rigtig langt fra folk.</p>
+<p>En stund efter han var reist, sendte han hende sit billede igjen med sit skarpe, kloge ansigt og de smilende &#x00F8;ine.</p>
+<p>Det blev lagt inderst i Annikkens skuffe sammen med ringen i den r&#x00F8;de bomuld.</p>
+<p>Men naar de unge piger var sammen og spillede femkort om herrer, og det var Annikkens tur, raabte de alle i kor:</p>
+<p>&#x00AB;Per Krafft &#x2013; Per Krafft.&#x00BB;</p>
+<p>Men altid med latter, ligesom de undrede sig og gjorde nar.</p>
+<p>Annikken blev r&#x00F8;d og saa saa underlig generet paa dem alle.</p>
+<p>&#x2013; Saa var det en dag i slutten af september. Det havde sat ind med regn, den ene dag efter den anden det samme tungsindige veir, skyerne hang lavt og regnet silede ned i skraa str&#x00F8;mme.</p>
+<p>Der skulde bestilles nogen &#x00E6;bler paa en gaard, der laa lidt op i fjorden. Men naar man gik over heierne, var det kun et ganske kort stykke at ro.</p>
+<p>Annikken bad om at faa ro afsted. &#x00AB;Jeg l&#x00E6;nges efter at komme ud og r&#x00F8;re armene mine,&#x00BB; sagde hun.</p>
+<p><pb n="128"/>&#x00AB;Ja, ja da,&#x00BB; sagde moderen, &#x00AB;men kom hjem, f&#x00F8;r det m&#x00F8;rkner.&#x00BB;</p>
+<p>&#x2013; Men den aften m&#x00F8;rknede aldrig for Annikken Pr&#x00E6;stgaren.</p>
+<p>Hun blev borte paa sj&#x00F8;en paa det lille stykke vei over til Vasviggaardene. Det var sj&#x00F8;, men ikke noget at tale om. Omtrent midtfjords fik hun se en liden fillepram, der arbeidede sig op mod sj&#x00F8;erne l&#x00E6;nger ude. Der var en kone og et barn i prammen, og det saa ud, som de ikke godt kunde klare sig. Annikken holdt ned mod dem. De raabte, da hun kom n&#x00E6;rmere. Prammen var halvfuld af vand, og de havde en stor b&#x00F8;r med flis agter, og konen orkede ikke at ro l&#x00E6;nger.</p>
+<p>F&#x00F8;r Annikken naaede dem, gik prammen rundt, og konen og barnet laa begge i vandet. Hun fik forholdsvis fort gutten trukket op, men konen var det hende ikke mulig at faa tag i.</p>
+<p>&#x00AB;Ro efter mig,&#x00BB; sagde hun til gutten. Og saa sprang Annikken paa sj&#x00F8;en.</p>
+<p>Hvorledes det gik for sig ved ingen, men Annikken og konen blev begge borte.<note type="footnote">borte] <hi rend="italic">rettet fra:</hi> horte <hi rend="italic">(trykkfeil)</hi></note></p>
+<p>Gutten i baaden blev seet fra Vasviggaardene og fik hi&#x00E6;lp der. Han fortalte.</p>
+<p>&#x00AB;Hun sprang lige lukt paa sj&#x00F8;en og sv&#x00F8;mmede efter a mor,&#x00BB; gr&#x00E6;d gutten, &#x00AB;siden saa jeg bare fletten paa hende Annikken en gang.&#x00BB;</p>
+<p>Manden paa Vasvig kom med budskabet op paa pr&#x00E6;stens kontor. Han stod saa stilt indfor d&#x00F8;ren.</p>
+<p>&#x00AB;Jeg har nok en ting at melde,&#x00BB; sagde han lavt.</p>
+<p><pb n="129"/>&#x00AB;Sid ned, sid ned Anton Vasvig,&#x00BB; sagde pr&#x00E6;sten venlig.</p>
+<p>&#x00AB;Pr&#x00E6;sten faar tage det rolig, for en ved jo, hvem der sender d&#x00F8;den.&#x00BB;</p>
+<p>&#x00AB;Hvem er det, Anton Vasvig?&#x00BB; Pr&#x00E6;stens stemme var klar, men den skalv.</p>
+<p>&#x00AB;Det er dattera Deres, hende Annikken, dem kalder.&#x00BB;</p>
+<p>&#x00AB;Er hun d&#x00F8;d?&#x00BB;</p>
+<p>&#x00AB;Ja &#x2013; hun ligger i sj&#x00F8;en ret ud for Vasviggaardene.</p>
+<p>Det var akkurat to timer efter, hun var roet afsted for at r&#x00F8;re paa de kraftige armene sine.</p>
+<p>Det hele hus var i en jammer. Gutterne og Magna gr&#x00E6;d ikke, de hylte, kastede sig over moderen og faderen:</p>
+<p>&#x00AB;Det er ikke sandt, sig at det ikke er sandt, Annikken som var saa gr&#x00E6;sselig snild.&#x00BB;</p>
+<p>Faderen str&#x00F8;g dem stilt over haaret, men indi sig t&#x00E6;nkte han:</p>
+<p>Og altid skal man ofre det kj&#x00E6;reste.</p>
+<p>Der blev soknet efter hende, og hun blev straks fundet. Hun stod n&#x00E6;sten ret op og ned i vandet indved et lidet skj&#x00E6;r med fast foldede h&#x00E6;nder. Konen, hun havde ofret sit liv for at redde, fandt de ikke. Hun var taget af str&#x00F8;mmen og f&#x00F8;rt tilhavs.</p>
+<p>Det var et stort f&#x00F8;lge, der fulgte Annikken Pr&#x00E6;stgaren. Koner og barn og sj&#x00F8;folk, og foran kisten blev der baaret to store flag.</p>
+<p><pb n="130"/>Det var ikke netop saa mange, der havde kjendt hende, men det var jo det, hun havde ofret sit liv.</p>
+<p>Faderen og moderen og alle s&#x00F8;skenderne gik lige efter kisten, de kunde ikke fatte, at det var deres st&#x00E6;rke Annikken, der blev baaret foran dem i den trange kiste.</p>
+<p>Langt bag i f&#x00F8;lget blev folk forbauset over at se Per Krafft. Var da han hjemme paa denne tid af aaret. Han talte ikke med nogen, og natten efter reiste han igjen.</p>
+<p>Nede paa den dybe, bortgjemte kirkegaard, hvor det susede saa stilt i de store, afbladede tr&#x00E6;er, der blev Annikken s&#x00E6;nket ned.</p>
+<p>Og faderen stod der med det vemodige blik og talte: &#x00AB;Hun har altsaa alt gjort sin gjerning her paa jorden og er gaaet bort til de lyse lande. Det store ord skal siges om hende, der fandtes ikke svig i hendes sj&#x00E6;l! I d&#x00F8;den var h&#x00E6;nderne foldet til b&#x00F8;n &#x2013; nu seiren er vunden &#x2013; og himlen i eie.&#x00BB;</p>
+<p>De gule aspeblade dalede saa bl&#x00F8;dt og sagte, medens salmen blev sunget.</p>
+<p>&#x2013; Det var Annikken Pr&#x00E6;stgarens korte livs saga.</p>
+</div>
+</body>
+</text>
+</TEI>

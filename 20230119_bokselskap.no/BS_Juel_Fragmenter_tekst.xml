@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI PUBLIC "-// TEI P5 //EN" "http://www.tei-c.org/release/xml/tei/custom/schema/dtd/tei_all.dtd">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="BS_Juel_Fragmenter">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>bokselskap.no, Oslo 2017
+<lb/>Dagny Juel: <hi rend="italic">Fragmenter</hi>
+<lb/>Teksten i bokselskap.no f&#x00F8;lger teksten i Samtiden, 1900, Vol. 11 (Oslo/Aschehoug). Digitaliseringen er basert p&#x00E5; fil hentet fra Nasjonalbiblioteket (nb.no)
+<lb/>ISBN: 978-82-8319-369-5 (digital, bokselskap.no), 978-82-8319-370-1 (epub), 978-82-8319-371-8 (mobi)
+</title>
+</titleStmt>
+<publicationStmt>
+<p>Publiseres som digital tekst av bokselskap.no.</p></publicationStmt>
+<sourceDesc>
+    <bibl>
+        <title>Fragmenter I: Samtiden, Vol. 11</title>
+        <author>Dagny Juel</author>
+        <publisher>Aschehoug</publisher>
+        <pubPlace>Oslo</pubPlace>
+        <date>1900</date>
+        <note>alle prosadikt ren tekst.doc (mottatt fra Anne Birgitte R&#x00F8;nning 2017)</note>
+    </bibl>
+</sourceDesc>
+</fileDesc>
+<revisionDesc>
+<change who="ENW" when="2018-01-24">Lagt inn noen rettelser.</change>
+<change who="ENW" when="2017-10-18">Entiteter, kodekontroll og validering. Klar for korrektur.</change>
+<change xml:id="ENW" who="ENW" when="2017-10-17">XML-koding: Word -> TEI P5.</change>
+</revisionDesc>
+</teiHeader>
+<text xml:id="BS_Juel_Fragmenter_tekst" type="collection">
+<front>
+<titlePage type="main">
+<byline><docAuthor>Dagny Juel</docAuthor></byline>
+<docTitle>
+<titlePart type="main">Fragmenter</titlePart>
+</docTitle>
+<docDate>bokselskap.no<lb/>Oslo 2017</docDate>
+</titlePage>
+<div xml:id="contents">
+<list type="contents_main">
+<item><ref target="chapter_1" xml:id="contents_1">&#x005B;Sing mir das Lied vom Leben und vom Tode &#x2026;&#x005D;</ref></item>
+<item><ref target="chapter_2" xml:id="contents_2">&#x005B;Et la tristesse de tout cela, oh, mon &#x00E2;me &#x2026;&#x005D;</ref></item>
+<item><ref target="chapter_3" xml:id="contents_3">&#x005B;I tusm&#x00F8;rket.&#x005D;</ref></item>
+<item><ref target="chapter_4" xml:id="contents_4">&#x005B;In questa tomba oscura &#x2026;&#x005D;</ref></item>
+</list>
+</div>
+</front>
+
+<body>
+<div type="chapter" n="1">
+<head type="main"><ref type="contents" target="contents_1" xml:id="chapter_1">&#x005B;Sing mir das Lied vom Leben und vom Tode &#x2026;&#x005D;</ref></head>
+<lb/>
+<quote><p rend="center"><hi rend="italic">Sing mir das Lied vom
+<lb/>Leben und vom Tode &#x2026;</hi></p></quote>
+<lb/>
+<p>Nu var han d&#x00F8;d.</p>
+<p>Hun sad ubev&#x00E6;gelig og saa nysgjerrig ned paa det blege ansigt med de lukkede &#x00F8;ine.</p>
+<p>Hvor han havde elsket hende! Hans kj&#x00E6;rlighed havde hyllet hende i dronningskrud, havde sat en usynlig dronningkrone paa hendes hoved, en krone, som alle f&#x00F8;lte, alle b&#x00F8;iede sig for. Hans &#x00F8;ines lysende straaler havde spundet et diadem om hendes pande, stoltere end nogen kongelig herskerinde havde baaret det. Hun havde v&#x00E6;ret dronning i kj&#x00E6;rlighedens rige, thi aldrig havde nogen mand elsket en kvinde h&#x00F8;iere end han hende.</p>
+<p>Og nu var han d&#x00F8;d.</p>
+<p>Aldrig mere skulde hun l&#x00E6;se i hans &#x00F8;ine, at hun var solen, hvorom jorden dreied sig. Aldrig mere skulde hun f&#x00F8;le duften af de blomster, hans kj&#x00E6;rlighed avlede frem omkring hende. Blomsterne var nu visnede, og dronningkronen havde d&#x00F8;dens knokkelhaand revet af hendes hoved.</p>
+<p>Hun sad og saa paa den d&#x00F8;des stille ansigt og t&#x00E6;nkte paa alt, han havde givet hende og &#x2013; hvor lidet hun havde givet igjen.</p>
+<p>Han var d&#x00F8;d og hun sad uden taarer og betragted hans stivnede ansigt, som f&#x00F8;r havde straalet af lykke over hende. Hun f&#x00F8;lte sig rolig, lettet, n&#x00E6;sten glad. Hun strakte armene ud og aandede dybt, som befriet fra en pinlig tanke.</p>
+<p>Ah, blomsterne i hans kj&#x00E6;rligheds have havde vokset for yppigt omkring hende, duften havde betaget hende aandedr&#x00E6;ttet, blomsterrankerne havde slynget sig omkring hendes liv, til hun havde f&#x00F8;lt sig bunden paa h&#x00E6;nder og f&#x00F8;dder.</p>
+<p>I hans &#x00F8;ine laa altid tusinde sp&#x00F8;rgsmaal: elsker du mig? Elsker du mig nu? Elsker du mig saadan? &#x2026; Hun havde f&#x00F8;lt sig som en skyldner, der ikke kan indfri sin gj&#x00E6;ld. Hun havde f&#x00F8;lt sig ydmyget, beskj&#x00E6;mmet af denne store, uudgrundelige lidenskab, som hun selv ingen evne havde til at f&#x00F8;le.</p>
+<p>Og nu var han d&#x00F8;d, og hun strakte armene ud i velv&#x00E6;re som en, der vaagner af et mareridt.</p>
+<p>Han havde sat en efeukranset mur for hendes liv for at tvinge hende kun at se ham, ham, ham. Den vilde hun nu rive ned og aabne for alle vinde.</p>
+<lb/>
+<p>Og tiden gik.</p>
+<p>Hun t&#x00E6;nkte sjelden paa ham, som var d&#x00F8;d og l&#x00E6;ngtes ikke tilbage. Hun var ung, og hendes skj&#x00F8;nhed var af den mangfoldige og vekslende art, der f&#x00E6;ngsler og fanger fantasien. Hendes smil var fuldt af gaader, og mange var de, der &#x00F8;nsked at tyde dem.</p>
+<p>Men hendes l&#x00E6;ngsler gik vide veie, og hendes smil gjaldt hendes egne tankers ekko. Hun n&#x00F8;d sine f&#x00F8;lelsers ubundne ubestemmelighed, sine tankers evige ebbe og flod.</p>
+<p>Hun &#x00F8;nsked ingen &#x00F8;rn, hvis stolte vinger kunde f&#x00F8;re hende mod skyerne, og heller ingen nattergal til at synge sin skj&#x00F8;nheds pris. Hun vilde fylde sit liv med sine egne dr&#x00F8;mmes regnbuefarvede spindelv&#x00E6;v.</p>
+<lb/>
+<p>Og tiden gik.</p>
+<p>Og en dag kom, da hendes l&#x00E6;ngsel begyndte at s&#x00F8;ge et maal, en afgrund, den kunde dukke tilbunds i. En dag kom, da hendes hjerte begyndte at l&#x00E6;nges efter et andet hjertes st&#x00E6;rke slag. Og hun begyndte med l&#x00E6;ngselsfuld angst at se ind i de &#x00F8;ine, der s&#x00F8;gende m&#x00F8;dte hendes.</p>
+<p>Da traf hende en dag et blik. Det br&#x00E6;ndte hende som en flamme. Hun lukked &#x00F8;inene fortumlet, bl&#x00E6;ndet.</p>
+<p>Hun kjendte dette blik, der tvang hende i kn&#x00E6; med sin m&#x00E6;gtige &#x00F8;mhed. Hun havde f&#x00F8;r f&#x00F8;lt denne flamme slaa omkring sit hjerte.</p>
+<p>Men hvor? Naar?</p>
+<p>Og hun gik dage og n&#x00E6;tter og grubled over denne gaade, over disse &#x00F8;ine, der fyldte hende med gru, men tillige med en syg l&#x00E6;ngsel, hun aldrig f&#x00F8;r havde kjendt.</p>
+<p>Og med et vidste hun det &#x2026; Det var hans &#x00F8;ine! Hans! Den d&#x00F8;des! Det var den mands &#x00F8;ine, der havde elsket hende saa h&#x00F8;it, at hans kj&#x00E6;rligheds vingeslag selv etter d&#x00F8;den fulgte hendes liv.</p>
+<p>Kom han for at sp&#x00F8;rge, om hun virkelig havde ladet ham falde som et vissent blad, om hun havde begravet erindringen om ham og hans elskov med hans stivnede legeme?</p>
+<p>Nei, hun vilde ikke se disse fordrende &#x00F8;ine, hun vilde ikke nu mindes om sin gj&#x00E6;ld. Og hun undveg alle blikke for kun ikke at m&#x00F8;de dette ene med dets flammesp&#x00F8;rgsmaal, hun ikke vilde s&#x00F8;ge svar paa.</p>
+<p>Og tiden gik.</p>
+<p>De sp&#x00F8;rgende &#x00F8;ine var atter forsvundne af hendes liv. De havde atter lukket sig for livets sorg og vrede. Hun grunded ikke mere over disse &#x00F8;ines s&#x00F8;rgmodige anklage.</p>
+<p>Da h&#x00F8;rte hun en dag hans stemme.</p>
+<p>Hun blegned i r&#x00E6;dsel. Hvorfra kom denne stemme? Hans stemme?</p>
+<p>Nei, nei, det var ikke sandt. Det var havets dunkle sange, der havde vakt en erindring tillive i hendes sj&#x00E6;l. Hun havde saa ofte gaaet med ham langs havstranden, hun havde saa ofte h&#x00F8;rt hans stemme tale om sin kj&#x00E6;rlighed i rytme med b&#x00F8;lgernes stigen og falden &#x2026; Men nei, nu h&#x00F8;rte hun den atter &#x2026; det var ikke havet, det var ham, ham der hvisked hende i &#x00F8;ret, at han ikke var d&#x00F8;d, at han aldrig kunde d&#x00F8;, da hans kj&#x00E6;rlighed var st&#x00E6;rkere end liv og d&#x00F8;d, da hans kj&#x00E6;rlighed var ud&#x00F8;delig.</p>
+<p>Hun flygtede af angst for denne r&#x00F8;st fra de d&#x00F8;des rige. Hun reiste over have og lande for ikke at mindes om ham, om hans blik, om hans kj&#x00E6;rlighed, som var st&#x00E6;rkere end liv og d&#x00F8;d.</p>
+<p>Hun forh&#x00E6;rded sit hjerte, og en dag kasted hun leende hans ring i havet.</p>
+<p>Da h&#x00F8;rte hun hans hjerte banke. Hun lytted. Hun kjendte dette feberhede hjerteslag. Hun skj&#x00E6;lved.</p>
+<p>Hvor det slog dette store, uudgrundelige hjerte, der kun havde banket for hende! Hun h&#x00F8;rte det i havet, i jorden under sine f&#x00F8;dder, i de store, sorte fjelde. Og nu h&#x00F8;rte hun hans syge hjerte fuldt af elskov banke inde i sit eget. Og hun f&#x00F8;lte, hvordan han lagde sine arme omkring hende og trykked hende til dette hjerte, som ikke kunde d&#x00F8;, da det var saa fuldt af kj&#x00E6;rlighed.</p>
+<p>Og nu h&#x00F8;rte hun kun ham, saa hun kun ham, ham overalt. Hun f&#x00F8;lte hans haand omklamre sin, hun h&#x00F8;rte hans stemme hviske om og om igjen, hvor han elsked hende, at hun var alt for ham, at ingen d&#x00F8;d, ingen grav kunde hindre ham i at f&#x00F8;lge hende altid, i tid og evighed.</p>
+<p>Hun havde seet ind i disse &#x00F8;ine, der altid hos hende havde s&#x00F8;gt en gl&#x00F8;d, en hengivelse, de aldrig havde fundet. Hun havde f&#x00F8;lt hans feberhede pulsslag i sine egne aarer, hans vildtbankende hjerte i sit eget bryst &#x2013; og nu grebes hun selv af den samme syge, haabl&#x00F8;se l&#x00E6;ngsel efter ham, efter hans legemlige n&#x00E6;rhed, hans lidenskab, hun grebes af den samme ustillelige l&#x00E6;ngsel, der havde forgiftet hele hans liv.</p>
+<p>Da b&#x00F8;ied hun kn&#x00E6; for mindet om ham, for mindet om hans store kj&#x00E6;rlighed. Hun bygged et tempel for ham i sit hjerte, og alle sine dr&#x00F8;mme, sin smerte og sin l&#x00E6;ngsel lod hun lig virak omb&#x00F8;lge hans billede, den mands billede, hvis kj&#x00E6;rlighed efter d&#x00F8;den havde beseiret hendes hjerte, der efter d&#x00F8;den havde skj&#x00E6;nket hende sin egen l&#x00E6;ngsels skj&#x00E6;bnesvangre gave.</p>
+</div>
+
+<div type="chapter" n="2">
+<head type="main"><ref type="contents" target="contents_2" xml:id="chapter_2">&#x005B;Et la tristesse de tout cela, oh, mon &#x00E2;me &#x2026;&#x005D;</ref></head>
+<lb/>
+<quote><p rend="center"><hi rend="italic">Et la tristesse de tout cela,
+<lb/>oh, mon &#x00E2;me &#x2026;</hi></p></quote>
+<lb/>
+<p>Hun staar ved flygelet og synger.</p>
+<p>Han sidder magelig tilbagel&#x00E6;net og lytter.</p>
+<p>Hun staar og synger, indadvendt, druknet i denne ene, eneste f&#x00F8;lelse, som h&#x00E6;ver hendes sj&#x00E6;l op i skyen, ind i solen. Tiden og rummet svinder hen i en lysende taage, fortid og fremtid m&#x00F8;des paa evighedens blaanende tinde.</p>
+<p>Og tonen l&#x00F8;fter sine bl&#x00F8;de vinger, og flagrer dr&#x00F8;mmende ud i rummet, den s&#x00F8;ger, s&#x00F8;ger, og vender med et suk tilbage.</p>
+<p>Atter h&#x00E6;ver den sine hvide vinger, og let som et solst&#x00F8;v flyver den op mellem stjernerne og s&#x00E6;tter sig blandt dem, selv en stjerne.</p>
+<p>Og nu l&#x00F8;fter tonen sine brede vinger og majest&#x00E6;tisk seiler den ud over vide, vide have, over bjerge og tinder, h&#x00F8;iere, h&#x00F8;iere, svimlende, altforglemmende, ah &#x2013; nu fl&#x00F8;i den ind i solen!</p>
+<p>Sangen er forstummet, hun staar bleg og ser paa ham med r&#x00E6;dde &#x00F8;ine. Hun f&#x00F8;ler, hun ved, hun har forraadt sig, hun har sunget sig n&#x00F8;gen. Sin smerte, sine l&#x00E6;ngsler, som skyder sine pile saa langt, langt udover ham.</p>
+<p>Men han er ikke bleg, &#x00AB;du har sunget brilliant&#x00BB;, siger han tilfreds, &#x00AB;saa godt har du aldrig f&#x00F8;r taget det h.&#x00BB;</p>
+</div>
+
+<div type="chapter" n="3">
+<head type="main"><ref type="contents" target="contents_3" xml:id="chapter_3">&#x005B;I tusm&#x00F8;rket.&#x005D;</ref></head>
+<lb/>
+<quote><p rend="center"><hi rend="italic">I tusm&#x00F8;rket.</hi></p></quote>
+<lb/>
+<p>Denne blomst, denne underlige blomst &#x2026; Hun satte sig t&#x00E6;t hen til den og lod dens fine, lange st&#x00E6;ngel kj&#x00E6;rtegne sit kn&#x00E6;.</p>
+<p>Dens duft fyldte hende med en hemmelig lykke. Hun l&#x00E6;ste sin egen l&#x00E6;ngsel i blomstens store, bl&#x00F8;de &#x00F8;ine. Hun havde fundet noget igjen i den, noget hun havde mistet, en klang, en tone i sin sj&#x00E6;l. Den sang en hymne, hun havde glemt. Oh, det smerted som en kr&#x00E6;nkelse, naar en af de store, hvide &#x00F8;ine visned bort og faldt!</p>
+<p>Og hun t&#x00E6;nkte paa alle sit livs brogede, duftende blomster. Hun f&#x00F8;lte dem flagre omkring sig lig tusindvingede, tusindfarvede fugle. Alle melodier havde de sunget, alle farver havde de spundet over hendes nat og dag.</p>
+<p>Men denne ene, eneste blomst, som hun aldrig f&#x00F8;r havde seet, som en morgen stod i hendes stue un&#x00E6;rmelig og tankefuld, med en krans af lysende stjerner om sit hoved, sang hendes sj&#x00E6;ls farve og l&#x00E6;ngsel. Og naar en b&#x00F8;lge af dens aande traf hende, f&#x00F8;lte hun, at hun skj&#x00E6;lved og blev hed af lykke.</p>
+<p>Mange stjerner havde danset om i hendes liv, glitrende som rimfrost i en granskov, dansende som stjernerne paa bunden af en s&#x00F8;. Men denne ene, ensomme stjerne var den eneste hellige stjerne i hendes liv, stjernen over hendes Bethlehem &#x2026;</p>
+<p>Hvor ung hun dengang var og hvor fjern fra livet! Saa fjern, at selv hendes l&#x00E6;ngsel neppe naaed det. Hun saa sig selv med favnen fuld af blomster, kornblomster, blaa som hendes eget sind, blaa som hendes tankelette foraarssj&#x00E6;l. Og hun kasted og str&#x00F8;ed blomsterne omkring sig, str&#x00F8;ed og samled &#x2026; gule i haaret, r&#x00F8;de om armene, blaa og hvide &#x2026; tulipaner, fioler, syringer &#x2026; Og duften fyldte hendes sind, men sj&#x00E6;len sov.</p>
+<p>Saa kom rosernes dage. Bare roser, fulde, tunge, flammende roser &#x2026; Hele livet var en rosenh&#x00E6;k, og hun suged duften ind med alle porer.</p>
+<p>Men da roserne visned, gl&#x00E6;ded hun sig. Hun n&#x00F8;d at se bladene gulne i randen. Hun tog begge h&#x00E6;nder fuld og lod dem falde, et for et. Hun rysted h&#x00E6;kken, saa en regn af matte, blege blade risled over hendes hoved. Og hun saa, at roserne var sorte med forkullede blade</p>
+<p>Da gik hun langsomt langs b&#x00E6;kke og myrer, og hun samled myrens blege voksblomster med de dunede st&#x00E6;ngler, hun samled b&#x00E6;kkens hvide kalablomster med de gyldne munde, hun samled s&#x00F8;ens matlysende stjerner og roser med de kolde, vaade arme, og snigende voksed de ind i hendes hjerte og suged sig fast derinde.</p>
+<p>Men hun fr&#x00F8;s, og en morgen f&#x00F8;lte hun sit hjerte som en hvid og kold krystal. Glansen skar hende i &#x00F8;inene, og hun l&#x00E6;ngtes efter hemmelige blomster, som ingen sol havde skinnet paa, farlige blomster, som bar gift i sine aarer, bed&#x00F8;vende og uforstaaelige.</p>
+<p>Og en nat fandt hun dybt inde i skoven, inde i skyggen, hvor ingen solstraale kunde naa frem, en m&#x00F8;rk og skj&#x00E6;bnesvanger plante med laadne blade og tungsindige klokker af farve hentet fra himmelen og fra jorden. Hun l&#x00E6;ste graadig i dens sl&#x00F8;rede &#x00F8;ine, hun pressed den til sit hjerte, og hun f&#x00F8;lte, at hun elsked dens giftige aande.</p>
+<p>Stille tog hun den med til sit hjem, triumferende satte hun den i h&#x00F8;ialteret og ofred til den. Og en gysende gl&#x00E6;de fyldte hende ved at se giften dryppe ned, draabe for draabe dryppe over sit allerhelligste &#x2026;</p>
+<p>Men ogsaa hendes stolte giftblomst visned, og da den tr&#x00E6;t folded sine blade sammen, rev hun den rasende ned fra sin helligdom og kasted den ud paa gaden.</p>
+<p>Nu vilde hun ingen blomster mere &#x2026; Men de kom, de voksed op allevegne, de myldred omkring hende, flagred omkring i hendes stue som tusindvingede, tusindfarvede fugle. Skinnende liljer slikked efter hende med gl&#x00F8;dende mennesketunger, orchideer, chrysantemer, kaktus, orleander &#x2026; brune, gule, underlig r&#x00F8;de, blaa som eventyrets lysende grotte. Duften fortumled hende &#x2026; hun h&#x00F8;rte deres hvisken &#x2026; nu saa hun hele blomsterskaren skride imod sig &#x2026; de trykked hende, pressed hende, de pusted hende sin skr&#x00E6;kkelige aande ind i ansigtet &#x2026; hun kvaltes &#x2026; hun kvaltes &#x2026; oh!</p>
+<p>Hun var jo alene og kun en blomst, hendes sj&#x00E6;ls blomst stod ved hendes side. Den kj&#x00E6;rtegned hende med sin lange, fine st&#x00E6;ngel og saa paa hende med de store, hvide stjerne&#x00F8;ine.</p>
+<p>Da f&#x00F8;lte hun sit hjerte banke af en ny lykke, hun f&#x00F8;lte dets strenge klinge under blomstens blik: min stjerne, stjernen over min sj&#x00E6;l!</p>
+<p>Og sangen steg og fyldte rummet, og hun vidste, at hendes lykke boed i den: min stjerne, stjernen over min sj&#x00E6;l &#x2026;</p>
+</div>
+
+<div type="chapter" n="4">
+<head type="main"><ref type="contents" target="contents_4" xml:id="chapter_4">&#x005B;In questa tomba oscura &#x2026;&#x005D;</ref></head>
+<lb/>
+<quote><p rend="center"><hi rend="italic">In questa tomba oscura &#x2026;</hi></p></quote>
+<lb/>
+<p>Hun iled med b&#x00F8;iet hoved gade op og gade ned.</p>
+<p>Det var m&#x00F8;rkt og vinden peb imellem de h&#x00F8;ie, dystre huse. Den drev hende fremad som et skib for fulde seil. Hun vidste, det nytted ikke at stritte imod, hun vidste, hun maatte fremad, fremad, til hun naaed sit maal.</p>
+<p>Hvad s&#x00F8;gte hun? Hvor vilde hun hen i denne skr&#x00E6;kkelige nat? Hun vidste det ikke selv. Hun lukked &#x00F8;inene og lod sig viljel&#x00F8;st drive med.</p>
+<p>Hun kjendte ikke veien. Hun kjendte ingen af disse tause, m&#x00F8;rke vidner om menneskernes sorger og gl&#x00E6;der. Hun saa med angst ind i disse ensomme lys, som flammed feberhedt ud i natten og talte om sygdom &#x2013; om elskov.</p>
+<p>Disse hemmelige lys bag h&#x00F8;ie, m&#x00F8;rke mure, mellem havernes hviskende gr&#x00F8;nne, minded hende om noget i hendes eget liv, om den feber, som havde drevet hende ud inat.</p>
+<p>Hvad vilde hun? Hvad vented hende?</p>
+<p>Hun vidste kun, at i denne nat skulde hendes livsgaade l&#x00F8;ses, at hun i denne nat skulde staa ansigt til ansigt med sit livs lykke, eller &#x2013; var det en forbrydelse, hun havde begaaet?</p>
+<p>Hun gj&#x00F8;s. Hun havde glemt det for saa mange aar tilbage. Hun havde troet det glemt og gjemt, men nu i denne sorte nat, medens stormen hvinende drev hende mod dette ukjendte maal, nu f&#x00F8;lte hun st&#x00E6;rkere og pinefuldere med hvert angstens sekund, at dette ene havde levet i hendes sj&#x00E6;l, havde levet sit eget underjordiske liv, havde vokset sig til et flammende, blodr&#x00F8;dt sp&#x00F8;rgsmaal, som skreg efter svar, efter forl&#x00F8;sning.</p>
+<p>Og i denne nat skulde hun staa over for skj&#x00E6;bnens ene &#x00F8;ie og faa svaret, svaret.</p>
+<p>Med et blev hun staaende. Hun lytted angstfuldt. Det var blevet saa stille omkring hende og saa m&#x00F8;rkt, saa bundl&#x00F8;st m&#x00F8;rkt som i hendes egen sj&#x00E6;l. Hvor var hun? Hun befandt sig ikke mere paa gaden. Hun skalv af forventning, hun f&#x00F8;lte, hun havde naaet sit maal, at afgrunden aabned sig foran hende. Og hun sitred af attraa efter at se ned i denne afgrund, som hun vidste vilde opsluge hende.</p>
+<p>Det lysned svagt og hun saa, at hun befandt sig i en kj&#x00E6;mpestor hal. Loftet var h&#x00F8;it som en himmelhv&#x00E6;lving, og foran d&#x00F8;ren, hvorfra lysningen kom, hviled en sovende sfinx af sten.</p>
+<p>Hun gik langsomt mod den aabne d&#x00F8;r, bag hvilken hun vidste, at hendes skj&#x00E6;bne lured paa hende for at gribe hende i sine arme og suge ud hendes blod draabe for draabe.</p>
+<p>Hun stod foran en korridor, fyldt af en lysning saa st&#x00E6;rk, at den i f&#x00F8;rste &#x00F8;ieblik blinded og fortumled hende. Og da hun atter aabned sine &#x00F8;ine, saa hun, at korridorens begge v&#x00E6;gge var bed&#x00E6;kket med h&#x00F8;ie, m&#x00F8;rke billeder af mennesker, m&#x00E6;nd og kvinder, og alle vendte de sine truende, spottende og s&#x00F8;rgmodige &#x00F8;ine mod hende, og hun l&#x00E6;ste i alle disse gravgustne ansigter en hilsen, et frygteligt velkommen. Hun saa dem nikke afmaalt med de blege hoveder, og hun l&#x00E6;ste i disse mange uudgrundelige &#x00F8;ine: kom, kom n&#x00E6;rmere! Endnu er du ikke fremme. Vi bringer kun en hilsen fra det maal, som vinker dig.</p>
+<p>Hun gj&#x00F8;s tilbage for denne r&#x00E6;kke af levende d&#x00F8;de. Gangen var saa smal, at de havde kunnet slaa hende i ansigtet med sine ligkolde h&#x00E6;nder, om de vilde r&#x00E6;kke dem frem. Hun havde nu givet sit liv for at kunne vende tilbage ud i natten og stormen, men det, som tvang hende fremad, var st&#x00E6;rkere end hendes skj&#x00E6;lvende d&#x00F8;dsangst.</p>
+<p>Frem maatte hun gjennem den m&#x00F8;rke ild fra disse tomme &#x00F8;ine, frem maatte hun til nye, uanede r&#x00E6;dsler.</p>
+<p>Med et stod hun ved gangens anden aabning. Hun stod foran en dyb og gravm&#x00F8;rk hv&#x00E6;lving. Kun fra taget str&#x00F8;mmed mat et irgr&#x00F8;nt lys, som blegt og uheldspaaende b&#x00F8;lged om en katafalk paa h&#x00F8;ie, sorte s&#x00F8;iler.</p>
+<p>Og nu saa hun, at der paa baaren, ubev&#x00E6;gelig og ventende, der laa en d&#x00F8;d, en mand.</p>
+<p>Og nu stod hun ved baaren og betragted hans ansigt, det ansigt, hvis mund skulde givet hende svaret, den eneste, eneste, som kjendte det.</p>
+<p>Og den var d&#x00F8;d og stum for evigt, og de &#x00F8;ine, hun vilde trodset alle gravens r&#x00E6;dsler for at kunne l&#x00E6;se i en gang til, en eneste gang, de var lukkede, lukkede for tid og evighed.</p>
+<p>Og medens hun laa der, kastet til jorden, og vred sine h&#x00E6;nder i magtesl&#x00F8;s angst, h&#x00F8;rte hun bag sig skridt, skridt, som hun kjendte, skridt, hun havde elsket. Og da hun nu sprang op og vendte sig om, stod han foran hende, han, som laa paa baaren, han, som eied svaret. Og han saa paa hende med store, levende, gl&#x00F8;dende &#x00F8;ine.</p>
+<p>Og hun lagde sine h&#x00E6;nder i hans og saa ham graadig ind i de aabne &#x00F8;ine. Og hun hvisked skj&#x00E6;lvende, aandel&#x00F8;s: Svaret, svaret, giv mig nu svaret!</p>
+<p>Da f&#x00F8;lte hun hans h&#x00E6;nder paany blive kolde, hans ansigt stivne i d&#x00F8;dens bleghed, og hans &#x00F8;ine lukked sig tungt under hendes fortvilede blik.</p>
+<p>Kun hans h&#x00E6;nder pressed hendes fast og ub&#x00F8;nh&#x00F8;rligt, og hun f&#x00F8;lte, hvordan hun visned under deres greb, under hans d&#x00F8;de blik, hvordan hun visned som et tr&#x00E6; om h&#x00F8;sten, medens atter stormen sang sin vilde d&#x00F8;dspsalme omkring hende og nattens sorte hylled hende ind for evigt.</p>
+</div>
+</body>
+</text>
+</TEI>

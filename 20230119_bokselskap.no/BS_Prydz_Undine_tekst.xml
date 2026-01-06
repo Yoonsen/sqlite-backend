@@ -1,0 +1,4015 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI PUBLIC "-// TEI P5 //EN" "http://www.tei-c.org/release/xml/tei/custom/schema/dtd/tei_all.dtd">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="BS_Prydz_Undine">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>bokselskap.no, 2018
+<lb/>Alvilde Prydz: <hi rend="italic">Undine</hi>
+<lb/>Teksten i bokselskap.no f&#x00F8;lger 1. utgave, 1904 (K&#x00F8;benhavn/Kristiania, Nordisk Forlag). Digitaliseringen er basert p&#x00E5; fil mottatt fra Nasjonalbiblioteket (nb.no)
+<lb/>ISBN: 978-82-8319-417-3 (digital, bokselskap.no), 978-82-8319-418-0 (epub), 978-82-8319-419-7 (mobi)
+</title>
+</titleStmt>
+<publicationStmt>
+<p>Publiseres som digital tekst av bokselskap.no.</p></publicationStmt>
+<sourceDesc>
+    <bibl>
+        <title>Undine</title>
+        <author>Alvilde Prydz</author>
+        <publisher>Nordisk Forlag</publisher>
+        <pubPlace>K&#x00F8;benhavn/Kristiania</pubPlace>
+        <date>1904</date>
+        <note>digibok_2010063006127-1904-nob-966-Prydz_Alvilde-Undine_et_Interieur.html (fra Nasjonalbiblioteket 2016)</note>
+    </bibl>
+</sourceDesc>
+</fileDesc>
+<revisionDesc>
+<change who="ENW" when="2018-07-09">Lagt inn ISBN.</change>
+<change who="ENW" when="2017-11-16">F&#x00F8;rt inn korrekturrettelser. Entiteter, kodekontroll og validering.</change>
+<change xml:id="ENW" who="ENW" when="2017-01-20">XML-koding. Validering. Klar for korrektur.</change>
+</revisionDesc>
+</teiHeader>
+<text xml:id="BS_Prydz_Undine_tekst" type="drama">
+<front>
+<titlePage type="main">
+<byline><docAuthor>Alvilde Prydz</docAuthor></byline>
+<docTitle>
+<titlePart type="main">Undine</titlePart>
+<titlePart type="sub">Et Interieur</titlePart>
+</docTitle>
+<docDate>bokselskap.no<lb/>2018</docDate>
+</titlePage>
+</front>
+<body>
+<div type="chapter" subtype="quote">
+<p rend="center">Hvor kommer du fra? <lb/>&#x2013; Jeg kommer fra Ensomhedens Land!</p>
+</div>
+<div type="chapter" subtype="castList">
+<head type="main">Personerne</head>
+<castList>
+<castItem><role>Bodil Herwell,</role> <roleDesc>Adoptivdatter og Ni&#x00E8;ce af Konsul Herwell. 21 Aar.</roleDesc></castItem>
+<castItem><role>Tante Cara,</role> <roleDesc>S&#x00F8;ster af Konsul Herwells afd&#x00F8;de Hustru.</roleDesc></castItem>
+<castItem><role>Sophie Hess,</role> <roleDesc>Bodils Kusine.</roleDesc></castItem>
+<castItem><role>Kai Odner,</role> <roleDesc>Distriktsl&#x00E6;ge og Botaniker</roleDesc></castItem>
+<castItem><role>Vivi Odner,</role> <roleDesc>hans Hustru.</roleDesc></castItem>
+<castItem><role>Fin,</role> <roleDesc>deres lille S&#x00F8;n.</roleDesc></castItem>
+<castItem><role>Herluf &#x00D8;rn,</role> <roleDesc>norsk Professor i Amerika. Hjemme i Bes&#x00F8;g</roleDesc></castItem>
+<castItem><role>Lindendahl,</role> <roleDesc>Kammerherre. Godsejer.</roleDesc></castItem>
+<castItem><role>Madam H&#x00F8;ye,</role> <roleDesc>Husholderske hos Konsul Herwell.</roleDesc></castItem>
+<castItem><role>Kari</role>, <roleDesc>en gammel Kone.</roleDesc></castItem>
+<castItem><role>En Pige hos Herwells.</role></castItem>
+<castItem><role>Balgjester. Sanatoriegjester.</role></castItem>
+</castList>
+</div>
+<div type="chapter" subtype="act" n="1">
+<head type="main">&#x005B;Akt 1&#x005D;</head>
+<stage><pb n="9"/>Elegant Salon ud mod en Veranda. Mellem de h&#x00F8;je Vinduer den aabentstaaende Verandad&#x00F8;r. Udsigt over Fjorden med Landtunger og smaa Holmer. Verandaen d&#x00E6;kket af blegblaa Syrener, der yppigt h&#x00E6;nger ned omkring Vinduer og D&#x00F8;raabninger. Over Pianoet et Billede af en 17-aars Pige. Det er omvundet med S&#x00F8;rgeflor. I et Hj&#x00F8;rne en Gruppe blegblaa Lillier mellem Sivplanter. Alle Farver douce. Tapet, Tepper, Portierer o. s. v. i blegblaat. Til begge Sider D&#x00F8;re til de tilst&#x00F8;dende V&#x00E6;relser. Det er Forsommer. Midt paa Formiddagen.</stage>
+<stage>(Der kommer nogle talende og leende op fra Haven, over Verandaen og ind. Det er Fru Hess, fulgt af Madam H&#x00F8;ye.)</stage>
+<sp>
+<speaker>Sophie Hess.</speaker>
+<p>Saa Onkel Bernhard er bortrejst igjen! &#x2013; Og Tante Dora her og passer paa hende. &#x2013; Naa, dette er den omtalte blaa Salon &#x2013;.</p>
+<stage>(muntert.)</stage>
+<p>Jo, jeg kjender den! Hvor er hun saa selv! Ikke staat op? Jo, jeg kjender hende!</p>
+</sp>
+<sp>
+<speaker>Madam H&#x00F8;ye</speaker>
+<stage>(midaldrende, med spillende &#x00D8;jne, og en vis V&#x00E6;rdighed over sig. Hun er lidt gammeldags, ganske staselig kl&#x00E6;dt paa).</stage>
+<p>Aa ja saamen, Fr&#x00F8;kenen laa dernede og sv&#x00F8;mmed for en Stund siden &#x2013; om jeg saa maa sige, et rent <pb n="10"/>Vandmenneske! &#x2013; Nej. saa rart at se Fruen igjen, Herregud lel!</p>
+<stage>(staar med H&#x00E6;nderne i Siden og betragter hende.)</stage>
+</sp>
+<sp>
+<speaker>Sophie Hess</speaker>
+<stage>(tar Hatten af og Hanskerne, s&#x00E6;tter sig mageligt ned).</stage>
+<p>Varmt at gaa! &#x2013; &#x2013; &#x2013; Jo, nu er jeg kommet nedover til Mor og Far paa Bes&#x00F8;g &#x2013; og har Smaaene med mig &#x2013; men saa maatte jeg jo ud her idag, som her er F&#x00F8;dselsdag &#x2013;</p>
+</sp>
+<sp>
+<speaker>Madam H&#x00F8;ye</speaker>
+<stage>(forsigtig).</stage>
+<p>Ved ikke Fruen, Fr&#x00F8;kenen liker ikke nogen ved det? Det or knapt Konsulen t&#x00F8;r gratulere &#x2013; men jeg har saamen trukket i Stasen ligevel jeg! &#x2013; Ja, som der er mange Slags Villier og Sind!</p>
+</sp>
+<sp>
+<speaker>Sophie Hess.</speaker>
+<p>Saa &#x2013; aah? Hvordan har saa De det, Madam H&#x00F8;ye? L&#x00E6;nge siden jeg saa Dem nu! &#x2013; Det var dengang, De t&#x00E6;nkte paa at gifte Dem op igjen &#x2013; husker De det?</p>
+</sp>
+<sp>
+<speaker>Madam H&#x00F8;ye</speaker>
+<stage>(med H&#x00E6;nderne i Siden).</stage>
+<p>Vorherre vilde det bedre, Frue, for Mandfolk er en vanskelig Branche, og &#x00C6;gteskabet har sine Kontraster, skj&#x00F8;nt da Hansen var blet Enkemand, var han nok saa ilde ude. Et Mandfolk kan ikke godt ern&#x00E6;re <pb n="11"/>sig maatro. Men Hansen havde alletider v&#x00E6;ret udannet i Munden, og Flasken kunde han umulig lade v&#x00E6;re &#x2013; saa sagde jeg, som ret var, Hansen, sagde jeg, jeg har havt en Mor, som har l&#x00E6;rt mig Opdragelse, men det har vist ikke De, sagde jeg &#x2013; Du er et Fandens Skaft, sagde han og gik. &#x2013; Han havde alletider v&#x00E6;ret styg i Munden, Hansen, og saa da Konsulen blev Enkemand, blev jeg anderledes pent bes&#x00F8;rget &#x2013; Konsulen ogsaa da, ikke for det &#x2013; og Fr&#x00F8;ken ogsaa da, ikke for det, som nu har v&#x00E6;ret her i 3 Aar og aldrigen tr&#x00E6;ngt at ta sine Fingre i noget af det, som eksisteres! &#x2013;</p>
+</sp>
+<sp>
+<speaker>Sophie Hess</speaker>
+<stage>(rejser sig).</stage>
+<p>Jeg kunde gaa ind til Fr&#x00F8;kenen kanske?</p>
+</sp>
+<sp>
+<speaker>Madam H&#x00F8;ye.</speaker>
+<p>Aa nej da! Det faar nok Fruen la v&#x00E6;re! Men jeg t&#x00E6;nker i Herrens den n&#x00E6;ste Stund er hun her.</p>
+</sp>
+<sp>
+<speaker>Sophie Hess.</speaker>
+<p>Er det sandt, Tante Cara kommer herned &#x2013; at de venter hende idag? &#x2013;</p>
+</sp>
+<sp>
+<speaker>Madam H&#x00F8;ye</speaker>
+<stage>(nikker hemmelighedsfuldt).</stage>
+<p>Fr&#x00F8;kenen ved det ikke! Men aldrig var Fruen kommet til dette Huset, uden for Fr&#x00F8;kenens Skyld &#x2013; og saa for det, at Konsulen er ude og rejser da &#x2013;</p>
+</sp>
+<sp>
+<speaker><pb n="12"/>Sophie Hess.</speaker>
+<p>Ja, hvad var det egentlig med det, Madam H&#x00F8;ye? De var jo paa Chefsgaarden dengang? Var ikke Tante Cara forlovet med Konsulen, men saa da S&#x00F8;steren Alette kom hjem, blev det hende som holdt Bryllup med ham. &#x2013; Sligt kunde Onkel Bernhard gj&#x00F8;re!</p>
+</sp>
+<sp>
+<speaker>Madam H&#x00F8;ye</speaker>
+<stage>(energisk).</stage>
+<p>Ingen faar sige noget paa Konsulen! Skj&#x00F8;nt det endda var den Tiden, Mandfolkene regjerte saa sv&#x00E6;rt, saa var han slettes inte som de andre. Aldrigen t&#x00E6;nkte Konsulen, det skulde snudd sig paa den Visen &#x2013; inte var han glad heller efter den Dagen. &#x2013; Han fik det Sindet dentid, som han gaar med nu! &#x2013;</p>
+</sp>
+<sp>
+<speaker>Sophie Hess</speaker>
+<p>Naa, det er jo mange Aar siden &#x2013;</p>
+</sp>
+<sp>
+<speaker>Madam H&#x00F8;ye</speaker>
+<stage>(stiller sig op med H&#x00E6;nderne i Siden).</stage>
+<p>Det er, som kunde det v&#x00E6;ret igaar: Vi laged til Bryllup, men lige som der skulde tas ud Lysing, skj&#x00F8;nte jeg, det var noget lejt, som skulde komme. Og tidlig en Morgen var Fr&#x00F8;ken Cara rejst &#x2013; Majorinden havde v&#x00E6;ret inde om Natten og bedt om det, for Fr&#x00F8;ken Alette drev som uvittig udover Vejene &#x2013; det var nu altid slig, at hun maatte ha sin Villie &#x2013;</p>
+</sp>
+<sp>
+<speaker>Sophie Hess.</speaker>
+<p>Aa, det var nu vel Onkel Bernhards Villie ogsaa &#x2013;</p>
+</sp>
+<sp>
+<speaker><pb n="13"/>Madam H&#x00F8;ye</speaker>
+<stage>(skarpt).</stage>
+<p>Kan h&#x00E6;nde! Men hvad som er, saa fik Fru Alette en Samvittighed, som var lej at drages med tilslut &#x2013;</p>
+<stage>(viser ind mod det n&#x00E6;ste Rum.)</stage>
+<p>Derinde d&#x00F8;de hun i sin D&#x00F8;dsens Angst &#x2013; og her sad han og h&#x00F8;rte alt det, hun anklaged sig selv for &#x2013; han aarked ikke sidde derinde, han havde vel sit. &#x2013; Aa ja, en har hver sin M&#x00F8;je her i Verden, ellers blev det vel for godt at v&#x00E6;re her ja!</p>
+<stage>(Til Fru Hess, som atter har rejst sig.)</stage>
+<p>Nu skal jeg gaa og sige det, for jeg ser Fr&#x00F8;kenen i Haven &#x2013;</p>
+</sp>
+<sp>
+<speaker>Sophie Hess</speaker>
+<p>Tak, det beh&#x00F8;ves ikke nu!</p>
+<stage>(nikker smilende til Madam H&#x00F8;ye, der gaar ud tilvenstre.)</stage>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(kommer fra Haven, op Verandatrappen og ind. Hun har sin Hat og nogle Blomster i Haanden. Hun er kl&#x00E6;dt med elegant Simpelhed, i blegblaat. Hendes V&#x00E6;sen er livfuldt, kaprici&#x00F8;st, lattermildt. Hun kommer ind halvt nynnende):</stage>
+<p>Alle ordentlige Mennesker, dem hader jeg rigtignok!</p>
+</sp>
+<sp>
+<speaker>Sophie Hess</speaker>
+<stage>(kommer smilende hen og slaar Armene om hende).</stage>
+<p>Selvf&#x00F8;lgelig! For du er jo ikke noget ordentligt Menneske! Hele Byen kalder dig Undine siden Ballet <pb n="14"/>hos Bratts. Og kommer jeg herud, h&#x00F8;rer jeg straks Madam H&#x00F8;ye titulere dig for et Vandmenneske!</p>
+<stage>(ser op og ned ad hende.)</stage>
+<p>Der er forresten noget i det!</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(d&#x00E6;mpet leende).</stage>
+<p>Det er jeg saamen glad for!</p>
+<stage>(trykker hendes H&#x00E6;nder.)</stage>
+<p>Nej, saa du er kommet herned igjen, du gamle!</p>
+<stage>(tr&#x00E6;kker hende hen til den lille Hj&#x00F8;rnesofa, tar selv Plads i en liden Kamingyngestol foran hende.)</stage>
+</sp>
+<sp>
+<speaker>Sophie Hess</speaker>
+<stage>(ser paa hende).</stage>
+<p>Du er forandret! Hvordan har du det? Du har jo ligget tilsengs i flere Dage, h&#x00F8;rte jeg &#x2013;</p>
+</sp>
+<sp>
+<speaker>Bodil.</speaker>
+<p>Jeg har det! Naar jeg kjeder mig, gaar jeg tilsengs. Hvorfor skulde jeg ikke det?</p>
+</sp>
+<sp>
+<speaker>Sophie Hess.</speaker>
+<p>Nej, naturligvis. &#x2013; Du holder vel Fest idag?</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(i pludselig forandret Tone).</stage>
+<p>Det var f&#x00F8;r det &#x2013; i gamle Dage!</p>
+</sp>
+<sp>
+<speaker>Sophie Hess.</speaker>
+<p>Er det ikke vel tidligt at afskaffe F&#x00F8;dselsdage? Saadan midt i ens lyse Sommer skal man ha Gl&#x00E6;de af dem, har jeg h&#x00F8;rt.</p>
+</sp>
+<sp>
+<speaker><pb n="15"/>Bodil</speaker>
+<stage>(irriteret).</stage>
+<p>Hvor jeg hader den Maner at klippe Tiden op i Smaastykker og sige: Se saa, nu er de forbi de Dage, aldrig ser du dem mere &#x2013; synes du, det passer for Ungdommen at stanses slig ved hver Drejning af Vejen, det er som t&#x00F8;rre Knokkelh&#x00E6;nder griber fat og holder igjen. &#x2013; Aa Gud, slip, siger jeg, lad mig komme afsted! Livet skal v&#x00E6;re som en eneste lang Flugt, til det er forbi!</p>
+</sp>
+<sp>
+<speaker>Sophie Hess</speaker>
+<stage>(rolig, forskende).</stage>
+<p>Hvad for et Lune holder du idag? For du holder jo Luner?</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(ler. Hendes Latter er d&#x00E6;mpet, langsom).</stage>
+<p>Hvorfor ikke? Du ved, Onkel gir mig Lov til alt muligt!</p>
+</sp>
+<sp>
+<speaker>Sophie Hess.</speaker>
+<p>Men jeg trodde &#x2013; nu maatte du da vel egentlig v&#x00E6;re perleglad!</p>
+</sp>
+<sp>
+<speaker>Bodil.</speaker>
+<p>Glad? For et underligt Ord! &#x2013; &#x2013; Tror du, Gud er glad?</p>
+</sp>
+<sp>
+<speaker>Sophie Hess</speaker>
+<stage>(uden at h&#x00F8;re).</stage>
+<p>Det er ialfald vist, at vi gl&#x00E6;ded os, hele Familien, over din Lykke. For det maa da v&#x00E6;re dejligt for dig <pb n="16"/><emph>virkelig</emph> at v&#x00E6;re blet en saadan liden Prinsesse, som du altid har havt Anl&#x00E6;g for.</p>
+</sp>
+<sp>
+<speaker>Bodil.</speaker>
+<p>Dejligt? <stage>(ler)</stage> Lykke?</p>
+</sp>
+<sp>
+<speaker>Sophie Hess.</speaker>
+<p>Ja, kaldes det ikke saa? Fra en utfattig ung Pige med en M&#x00E6;ngde uhonorerede Fordringer at blive forvandlet til en rig Onkels Adoptivdatter og Afgud. &#x2013; Hvorfor ser du saa forbauset ud?</p>
+</sp>
+<sp>
+<speaker>Bodil.</speaker>
+<p>Langtfra! Bare nysgjerrig! Jo, det interesserer mig at h&#x00F8;re om, hvordan jeg har det. Det kan v&#x00E6;re nyttigt ogsaa &#x2013; at faa vide lidt om det!</p>
+<stage>(ser hen for sig.)</stage>
+<p>Jo, jeg er saamen lykkelig. Det er baade vist og sandt! Jeg skynder mig med at v&#x00E6;re det. Det maa man!</p>
+</sp>
+<sp>
+<speaker>Sophie Hess</speaker>
+<stage>(ser sig om).</stage>
+<p>Men hvorfor indfatter du din &#x2013; Lykke i slig en M&#x00E6;ngde blegblaat? Den Farven &#x2013; det er ligesom der bor en Sorg langt inde i den.</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(l&#x00E6;gger sig helt tilbage, gynger, ler sagte).</stage>
+<p>Og du! Du er sligt et S&#x00F8;ndagsbarn. Jo, alle Tanter siger det &#x2013; Du fik den Mand, du vilde. Det er jo da, man blir lykkelig!</p>
+<stage>(slaar om i en anden Tone.)</stage>
+<p><pb n="17"/>Sig mig, hvordan er Lykken? Hvor er den? Sommetider indbilder jeg mig, at den er en &#x00D8;. Og Havet er stort &#x2013; ingen Baad gaar did!</p>
+<stage>(Stemmen skifter over igjen.)</stage>
+<p>Kl&#x00E6;d dig i r&#x00F8;dt, saa meget du vil! Du narrer ikke mig! Der bodde en N&#x00F8;k i dig engang &#x2013; en, som ikke taaler r&#x00F8;dt! Han kunde sidde og synge derinde stille, saa det suged under Brystet. &#x2013; Jo, han bor der endnu, han lader bare, som han sover. &#x2013; Det er derfor, jeg ikke har kunnet bli ferdig med dig som med de andre.</p>
+</sp>
+<sp>
+<speaker>Sophie Hess</speaker>
+<stage>(ler).</stage>
+<p>Du taler som en &#x00E6;gte Undine! Det maa ha v&#x00E6;ret dig en ren Naturtrang at optr&#x00E6;de som du gjorde der paa Ballet! Lang Atlask i B&#x00F8;lgens blegeste blaat, Siv, Perler som Vanddraaber over det hele, har jeg h&#x00F8;rt. &#x2013; Og du kom glidende saa s&#x00E6;lsomt fremmed mellem dem alle! Du saa ikke, du bare vandt. &#x2013; Sig mig, hvorfor h&#x00F8;rer du ikke lidt paa de overvundne? Man siger, du maa ha Kurve paa Lager!</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(ligegyldig).</stage>
+<p>Aldeles ikke! For M&#x00E6;nd beh&#x00F8;ver ikke gaa og sp&#x00F8;rge. Det, de sp&#x00F8;rger om, skal de vide &#x2013; og ved de det ikke, er der ingenting at sp&#x00F8;rge om. &#x2013; I al Verden, hvordan kommer vi ind paa sligt T&#x00F8;v?</p>
+<stage>(surmulende).</stage>
+<p>Fordi du ikke liker alt mit dejlige blaat!</p>
+<stage>(ser sig om.)</stage>
+<p><pb n="18"/>Det er jo netop slig, jeg maa ha det! &#x2013; Hvis du ikke havde N&#x00F8;kken derinde som Modv&#x00E6;gt, vilde du umulig holde ud i alt det r&#x00F8;de! Liker din Mand saa godt r&#x00F8;dt?</p>
+</sp>
+<sp>
+<speaker>Sophie Hess.</speaker>
+<p>Det gj&#x00F8;r han ogsaa! &#x2013; Men det var noget andet, jeg vilde talt om idag. Jeg har med nogle gode Raad til dig &#x2013; fra de andre og mig selv!</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(utaalmodig).</stage>
+<p>Ved du ikke, Tante Dora er flyttet ud her &#x2013; bare for at holde mig med gode Raad? Jeg tr&#x00E6;nger forresten ingen &#x2013; har det utrolig godt som jeg har det &#x2013;</p>
+</sp>
+<sp>
+<speaker>Sophie Hess.</speaker>
+<p>&#x2013; og er utrolig &#x2013; saadan mindre forsigtig! Folk tror ikke rigtig paa dette kj&#x00F8;lige blaa &#x2013; man snakker. Og det er blet til noget kjedeligt! Undgaa det &#x2013; gift dig for eksempel!</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(folder H&#x00E6;nderne).</stage>
+<p>Jeg, som har det slig! Fri som en Undine, der kan stige frem og forlokke hvem, hun vil!</p>
+<p>Og du vil s&#x00E6;tte mig fast, komme og kaste Staal over mig og gj&#x00F8;re mig til en almindelig tam Madam! Kj&#x00E6;re Siss, naar begyndte dit Hjerte at bli haardt?</p>
+<stage>(s&#x00E6;tter sig hen til hende.)</stage>
+<p><pb n="19"/>Hvordan skal jeg kunne gifte mig? Jeg elsker jo alle Mandfolk! Jo, det ved Gud!</p>
+<p>Men sligt kan man ikke v&#x00E6;re bekjendt af at sige. Fort&#x00E6;ller du nogengang, jeg har sagt det, gaar jeg fra det igjen!</p>
+</sp>
+<sp>
+<speaker>Fru Hess</speaker>
+<stage>(ler tvungent).</stage>
+<p>Du har nu en vist Lyst til at gj&#x00F8;re dig anderledes end du er! Jo, du vil gjerne indbilde os en hel Del om dig selv!</p>
+<stage>(rejser sig, gaar omkring.)</stage>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(vedblir paa samme Vis).</stage>
+<p>Sig du, som er saa klok &#x2013; hvormange kan man vel egentlig elske, saadan paa en Gang?</p>
+<stage>(ler.)</stage>
+<p>Jo, for du er saa komisk!</p>
+<stage>(pludselig alvorlig.)</stage>
+<p>Jeg skal sige dig, <emph>elske</emph>, det kan ingen!</p>
+</sp>
+<sp>
+<speaker>Sophie Hess</speaker>
+<stage>(muntert).</stage>
+<p>Ja ja, vent bare &#x2013; til du m&#x00F8;der den rette, som Madam H&#x00F8;ye siger. &#x2013;</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<p>Om et saadant V&#x00E6;sen eksisterer, kan man v&#x00E6;re overbevist om aldrig at tr&#x00E6;ffe ham. Ikke om man <pb n="20"/>rejste Verden rundt efter hinanden. Skulde man komme til at ta ind i samme Hotel, sidde ved samme Bord &#x2013; man vilde ikke opdage hinanden!</p>
+<p>Saa du faar hilse alle Tanter, at det ikke nytter</p>
+</sp>
+<sp>
+<speaker>Sophie Hess</speaker>
+<stage>(b&#x00F8;jer sig frem mod hende).</stage>
+<p>Hvorfor? Alvorlig talt!</p>
+</sp>
+<sp>
+<speaker>Bodil.</speaker>
+<p>Du ser ud som bare N&#x00F8;k! &#x2013; Jo, for jeg har ikke Tid! Hvo, som ikke vil drikke Vin, er en Synder, staar det. Jeg drikker al den, jeg kommer over!</p>
+</sp>
+<sp>
+<speaker>Sophie Hess</speaker>
+<stage>(bestemt)</stage>
+<p>Du skulde drikke den paa en anden Maade</p>
+</sp>
+<sp>
+<speaker>Bodil.</speaker>
+<p>&#x2013; som Tante Dora, afbr&#x00E6;ndt eller med Malurt? &#x2013; Gaa bort og forklar den Sommerfuglen, hvad du synes, den burde gj&#x00F8;re!</p>
+<stage>(gaar hen, s&#x00E6;tter sig ved Pianoet og synger):</stage>
+<p>Sol, giv mig en Dag til!</p>
+</sp>
+<sp>
+<speaker>Sophie Hess</speaker>
+<stage>(gaar hen til hende, siger mildt, indtr&#x00E6;ngende).</stage>
+<p>Bodil, det er Alvor! Jeg <emph>maa</emph> sige dig det! Der gaar nogle Historier om dig, som slet ikke er bra. Og saa er der en, hvad der er endnu v&#x00E6;rre! <pb n="21"/>For din Families Skyld skulde du pr&#x00F8;ve at besv&#x00E6;rge den. &#x2013;</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(rejser sig, iler op og ned. Stanser foran hende).</stage>
+<p>Lad mig sige dig det, Siss! Dersom jeg kom til at holde af nogen Mand, vilde jeg hade mig selv. Siss, lad mig sige dig det, jeg <emph>har</emph> engang gjort det &#x2013; &#x2013; &#x2013;</p>
+<p>Det mored <emph>ham</emph> en Maaneds Tid &#x2013; det var ikke mer, han havde villet. Men jeg &#x2013; &#x2013; Noget blev dr&#x00E6;bt i mig dengang &#x2013; det var, som kom et andet Menneske til Verden &#x2013; &#x2013; gammelklok, kold, En, som morer sig. Og er lykkelig. Det ved du da! Du har selv fortalt mig det!</p>
+</sp>
+<sp>
+<speaker>Sophie Hess.</speaker>
+<p>Bodil! Du skulde ligevel t&#x00E6;nke paa, hvad jeg sagde dig!</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(som mere hen for sig selv).</stage>
+<p>Jeg t&#x00E6;nker ikke &#x2013; har bare ondt af den unge Pigen! Af ham ogsaa &#x2013; den Fremmede, som saa paa det hele &#x2013; og forstod det. Og maatte lade det ske!</p>
+</sp>
+<sp>
+<speaker>Sophie Hess.</speaker>
+<p>Hvilken Fremmed?</p>
+</sp>
+<sp>
+<speaker><pb n="22"/>Bodil</speaker>
+<stage>(h&#x00F8;rer ikke, vedblir som f&#x00F8;r).</stage>
+<p>Vi m&#x00F8;dte ham hver en Dag. Han sagde aldrig noget. Han bare saa paa os &#x2013;</p>
+<p>Men dengang tilsist, den forf&#x00E6;rdelige Nat, da jeg gik derude langs Sj&#x00F8;en &#x2013; og Stormen kom. Jeg syntes, den haante mig og lo &#x2013; jeg syntes, jeg aldrig kunde gaa ind mere &#x2013;</p>
+<p>Da kom han, den Fremmede, som havde set det hele. Han kom ud efter mig. Han sagde ingenting.</p>
+</sp>
+<sp>
+<speaker>Sophie Hess</speaker>
+<p>Hvem var han?</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(svarer ikke, vedblir).</stage>
+<p>Jeg blev saa kold den Nat. Jeg har aldrig siden kunnet blive rigtig varm og levende igjen &#x2013;</p>
+<stage>(holder H&#x00E6;nderne op for &#x00D8;jnene, som t&#x00E6;nker hun sig om.)</stage>
+<p>Undertiden i Dr&#x00F8;mme er det, som hv&#x00E6;lver der sig op om mig en ny Verden &#x2013; hellig, saa jeg maa synke i Kn&#x00E6;! Saa vaagner jeg ved, at jeg ligger og gr&#x00E6;der is&#x00F8;vne &#x2013; for jeg kom ikke ind der alligevel!</p>
+<stage>(med rask Overgang.)</stage>
+<p>Men hvorfor skal man ta det h&#x00F8;jtideligt? Det skal man netop ikke!</p>
+<stage>(gaar l&#x00E6;nger hen i Stuen, s&#x00E6;tter sig med en tr&#x00E6;t Bev&#x00E6;gelse, l&#x00E6;gger Hodet ned mod Bordkanten.)</stage>
+</sp>
+<sp>
+<speaker>Sophie Hess</speaker>
+<stage>(gaar hen, l&#x00E6;gger Haanden paa hendes Hode. Siger sagte noget til hende).</stage>
+</sp>
+<sp>
+<speaker><pb n="23"/>Bodil</speaker>
+<stage>(uden at se op).</stage>
+<p>Hvem den Fremmede var? Jo, gjerne! Det var en Dr. Odner. Han laa deroppe og botaniserte om Sommeren! &#x2013; &#x2013; Engang lo jeg af ham &#x2013; jeg syntes, han var saa besynderlig. Det var han jo slet ikke.</p>
+<stage>(har rejst sig. Blir staaende som fortabt i noget.)</stage>
+</sp>
+<sp>
+<speaker>Sophie Hess</speaker>
+<stage>(muntert).</stage>
+<p>Naa, her skal jo v&#x00E6;re Fest om nogle Dage!</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(tar sig sammen).</stage>
+<p>Ja, det er Onkel Bernhards fikse Ide, at jeg skal ha mit Sommerbal. Tante Dora har det travlt, Familien gl&#x00E6;der sig. Jeg ogsaa &#x2013; Taarer slukker ingenting ud. De &#x00F8;del&#x00E6;gger bare &#x00D8;jnene.</p>
+<stage>(nynner.)</stage>
+</sp>
+<sp>
+<speaker>Sophie Hess</speaker>
+<stage>(staar lidt og ser hen paa hende. Siger saa langsomt og med Eftertryk paa Ordene).</stage>
+<p>Der er en ung Mand &#x2013;</p>
+</sp>
+<sp>
+<speaker>Bodil.</speaker>
+<p>&#x2013; der er mange &#x2013;</p>
+</sp>
+<sp>
+<speaker>Sophie Hess.</speaker>
+<p>&#x2013; som Tante Dora taler saa meget om. Han er jo saadant udmerket Parti &#x2013;</p>
+</sp>
+<sp>
+<speaker><pb n="24"/>Bodil.</speaker>
+<p>Han var her igaar! &#x2013; Han ser slig paa Tante Dora, at hun finder det passende at gaa i Haven! Kanske kommer han idag ogsaa, det er nemlig umuligt at faa ham til at forstaa &#x2013;</p>
+</sp>
+<sp>
+<speaker>Sophie Hess</speaker>
+<stage>(munter).</stage>
+<p>Ja, isaafald gaar jeg i Haven!</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(gaar hen, s&#x00E6;tter sig i en liden Stol ved Kaminen, siger lavt, langsomt).</stage>
+<p>Der var engang en anden &#x2013; han sagde ingenting! Er det ikke guddommeligt, at der findes nogen, som ikke siger noget &#x2013;</p>
+</sp>
+<sp>
+<speaker>Sophie Hess.</speaker>
+<p>&#x2013; At han talte saa meget den unge Mand, det var nu Tante Doras Skyld. Jeg ved, hun har bedt ham tale lidt n&#x00E6;rmere med dig om alt dette, som piner hende &#x2013; og os andre!</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(ligegyldig).</stage>
+<p>Jeg aner ikke, hvor han vilde hen med alt det, han sa. Han vidste det vel ikke selv.</p>
+</sp>
+<sp>
+<speaker>Sophie Hess.</speaker>
+<p>Det vidste han nok! Og jeg kunde merke det endogsaa paa Madam H&#x00F8;ye, da jeg kom &#x2013;</p>
+<stage>(n&#x00E6;rmere, indtr&#x00E6;ngende.)</stage>
+<p><pb n="25"/>Bodil, du kan umulig selv synes om, slig som Folk taler om dig!</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(som f&#x00F8;r).</stage>
+<p>Jo, hvis det kan more dem!</p>
+</sp>
+<sp>
+<speaker>Sophie Hess.</speaker>
+<p>Du skulde t&#x00E6;nke lidt paa din Familie ogsaa. De morer sig ikke.</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(ler).</stage>
+<p>Nej, de er skr&#x00E6;kkelige! Tante Dora!</p>
+</sp>
+<sp>
+<speaker>Sophie Hess</speaker>
+<stage>(pludselig bestemt og i en anden Tone).</stage>
+<p>Kammerherre Lindendal er jo kommet til Byen igjen! Han tr&#x00E6;nger Penge. Han vil gj&#x00F8;re et rigt Parti. Man siger, han h&#x00F8;jmodig skal ha bestemt sig for dig!</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(blir bleg. Gj&#x00F8;r en heftig Bev&#x00E6;gelse, men tier).</stage>
+</sp>
+<sp>
+<speaker>Sophie Hess</speaker>
+<stage>(vedblir).</stage>
+<p>Du traf ham jo paa Ballet hos Bratts! Du tr&#x00E6;ffer ham vel imorgen ogsaa?</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(fatter sig).</stage>
+<p>Kjender <emph>du</emph> ham?</p>
+</sp>
+<sp>
+<speaker><pb n="26"/>Sophie Hess</speaker>
+<stage>(paatat ligegyldig).</stage>
+<p>Lidt saa &#x2013; end du?</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(ligesaa).</stage>
+<p>Ja, jeg ogsaa!</p>
+</sp>
+<sp>
+<speaker>Sophie Hess</speaker>
+<stage>(stirrer paa hende).</stage>
+<p>Saa?</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(tier, men ser paa hende).</stage>
+</sp>
+<sp>
+<speaker>Sophie Hess</speaker>
+<stage>(nikker betydningsfuldt).</stage>
+<p>N&#x00F8;kken har fortalt mig noget!</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(koldt).</stage>
+<p>&#x2013; og kanske gamle Tone &#x2013;</p>
+</sp>
+<sp>
+<speaker>Sophie Hess</speaker>
+<stage>(rejser sig).</stage>
+<p>Men nu maa jeg gaa. F&#x00F8;lg mig ned gjennem Haven!</p>
+<stage>(De gaar.)</stage>
+</sp>
+<stage>(Bodil stanser hende i Verandad&#x00F8;ren. De blir staaende et &#x00F8;jeblik.)</stage>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(er pludselig kommet i anden Stemning).</stage>
+<p>Jeg skal fort&#x00E6;lle dig noget!</p>
+<stage>(Hendes R&#x00F8;st blir bl&#x00F8;d, tilsl&#x00F8;ret.)</stage>
+<p><pb n="27"/>Det var engang &#x2013; som der laa Sne i vor Have: Det var &#x00C6;bleblomstens Blade! &#x2013; Og Vinden tog i de hvide Grenene, de lagde sig ned om mig. Jeg h&#x00F8;rte, hvad de sagde, de hvisked mig i &#x00D8;ret! Da fik jeg slig L&#x00E6;ngsel, at Hjertet det br&#x00E6;ndte! &#x2013; Saa fandt jeg en Blomst med syv Blade. Jeg t&#x00E6;nkte: Du er min Lykkeblomst!</p>
+<stage>(heftig.)</stage>
+<p>Men jeg gav den til Vinden: der, tag den! Den falder imorgen! Det er Blomsters Skik!</p>
+<stage>(ler.)</stage>
+<p>Kj&#x00E6;re, i alverden for et Ansigt du s&#x00E6;tter! Kom saa!</p>
+<stage>(De gaar over Verandaen ned i Haven.)</stage>
+</sp>
+<stage>(Der bankes gjentagne Gange sagte paa en D&#x00F8;r, der f&#x00F8;rer fra Entreen ind til Forstuen. Den aabnes. Der kommer nogen gjennem Forv&#x00E6;relset ind i Salonen. Det er en Mand omkring 30 Aar, fint bygget med et tankefuldt stille Ansigt og dybe &#x00D8;jne. Hans Bev&#x00E6;gelser er lette, varsomme. Han ser sig om. Blir staaende tvivlraadig.)</stage>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(kommer tilbage fra Haven. Hun har et Kort i Haanden. Ser ligegyldig paa det. Men hendes Udtryk forandres. Hun l&#x00E6;ser det om igjen, som om hun ikke forstaar det).</stage>
+<p>Dr. Kai Odner? Odner!</p>
+</sp>
+<sp>
+<speaker>Dr. Kai Odner</speaker>
+<stage>(har trakket sig tilbage, hen mod D&#x00F8;ren han kom ind af).</stage>
+</sp>
+<sp>
+<speaker>Bodil.</speaker>
+<stage>(faar &#x00D8;je paa ham, siger hurtig, forlegen).</stage>
+<p>Aa, der er jo Doktoren! De vil da ikke gaa igjen?</p>
+<stage>(ler lidt, men der er kommet noget tvungent over hende.)</stage>
+</sp>
+<sp>
+<speaker><pb n="28"/>Kai Odner</speaker>
+<stage>(stadig mere forlegen, hilser igjen).</stage>
+<p>Der var ingen her, saa jeg vidste ikke &#x2013;</p>
+</sp>
+<sp>
+<speaker>Bodil.</speaker>
+<p>Det var da underligt &#x2013; jo, det er saa underligt at se Dem hernede &#x2013;</p>
+</sp>
+<sp>
+<speaker>Kai Odner</speaker>
+<stage>(kommer n&#x00E6;rmere).</stage>
+<p>Det er kanske det! Jeg blir her nogle Dage over &#x2013; saa vilde jeg gjerne se Dem. &#x2013; &#x2013; Vi ligger her paa Gjennemrejse &#x2013;</p>
+</sp>
+<sp>
+<speaker>Bodil.</speaker>
+<p>Det er jo sandt! De ved, min Bror er Prest deroppe. Han er saa glad ved at faa Dem til Nabo. Og saa det nye Sanatorium &#x2013; De faar det nok hyggeligt &#x2013;</p>
+</sp>
+<sp>
+<speaker>Kai Odner.</speaker>
+<p>Ja, i Berg og Skog!</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(ler).</stage>
+<p>Saa faar vel vi Mennesker se at holde os afvejen! Eller det er kanske ikke engang n&#x00F8;dvendigt, for De ser bare Deres Moser og alt saadant, som er skjult for andres &#x00D8;jne &#x2013;</p>
+</sp>
+<sp>
+<speaker>Kai Odner</speaker>
+<stage>(smiler).</stage>
+<p>Engang saa jeg Dem!</p>
+</sp>
+<sp>
+<speaker><pb n="29"/>Bodil.</speaker>
+<p>&#x2013; i et &#x00D8;jebliks Distraktion!</p>
+</sp>
+<sp>
+<speaker>Kai Odner</speaker>
+<stage>(hen mod hende livfuldt).</stage>
+<p>Kommer De derop?</p>
+</sp>
+<sp>
+<speaker>Bodil.</speaker>
+<p>Jeg plejer v&#x00E6;re der om Sommeren en Stund hos min Bror!</p>
+</sp>
+<sp>
+<speaker>Kai Odner</speaker>
+<stage>(n&#x00E6;rmere hen, forlegen).</stage>
+<p>Jeg bor lige i N&#x00E6;rheden her, hos en Ven &#x2013; inde i den store Rosenhaven der! <stage>(peger ud.)</stage> &#x2013; &#x2013; Saa kom jeg til at huske paa, det er Deres F&#x00F8;dselsdag. Deroppe &#x2013; jeg husker, De holdt saa meget af Roser &#x2013; jeg &#x2013; hvis jeg turde &#x2013;</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(afbryder leende).</stage>
+<p>Hvor heldigt, at De ikke turde, for jeg liker ikke Roser mere &#x2013;</p>
+<stage>(sp&#x00F8;gefuldt klagende.)</stage>
+<p>For de er saa r&#x00F8;de! Og naar de ikke er r&#x00F8;de, saa er de noget andet! Jeg kan ikke taale dem!</p>
+</sp>
+<sp>
+<speaker>Kai Odner</speaker>
+<stage>(Hans Ansigt form&#x00F8;rkes som ved en ubehagelig Erindring. Han kommer til at t&#x00E6;nke paa noget, som forvirrer ham. Han ser paa hende frygtsomt, afbedende).</stage>
+<p>Undskyld mig da! For jeg kom vist alligevel til Ulejlighed her nu! &#x2013; &#x2013; Faar jeg Lov at se ind engang siden?</p>
+<stage>(Han hilser og gaar.)</stage>
+</sp>
+<sp>
+<speaker><pb n="30"/>Bodil</speaker>
+<stage>(blir staaende og se efter ham)</stage>
+<p>Gik han igjen! &#x2013; Hvorfor siger han det: Vi ligger paa Flytning? Det er jo bare ham?</p>
+</sp>
+<stage>(Der h&#x00F8;res glade, forundrede Stemmer ude fra Entreen og Forv&#x00E6;relset, deriblandt Madam H&#x00F8;yes. Tante Cara kommer ind rejsekl&#x00E6;dt, fulgt af Madam H&#x00F8;ye.)</stage>
+<sp>
+<speaker>Tante Cara</speaker>
+<stage>(er en midaldrende Dame med et mildt, lyst Ansigt. Tarveligt, gammeldags kl&#x00E6;dt. Hun aabner Armene. Bodil springer hen og gjemmer sig hos hende. Madam H&#x00F8;ye staar og ser forn&#x00F8;jet paa dem, gir sig til at rydde lidt op og gaar ud).</stage>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(efter den f&#x00F8;rste Overraskelse).</stage>
+<p>Guldmor! For det er du! Er det sandt, at du er her &#x2013; at det er dig? Hvordan kommer du her? Jeg vidste jo ingenting!</p>
+<stage>(tar gl&#x00E6;destraalende af hende T&#x00F8;jet, som Madam H&#x00F8;ye kommer og tar ud.)</stage>
+</sp>
+<sp>
+<speaker>Tante Cara</speaker>
+<stage>(hemmelighedsfuldt d&#x00E6;mpet)</stage>
+<p>Ser du, jeg vilde overraske dig! Jeg synes, det er saa morsomt med Overraskelser!</p>
+<stage>(bliver staaende og se sig om, stille bev&#x00E6;get. Gaar omkring. Vender sig mod Bodil.)</stage>
+<p>Og du, mit Barn! Hvor du er lys og glad! Ja, du er jo saa lys og glad!</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(muntert forsikrende).</stage>
+<p>Bestandig! Du ved, jeg er hos Onkel Bernhard!</p>
+</sp>
+<sp>
+<speaker><pb n="31"/>Tante Cara</speaker>
+<stage>(stille smilende).</stage>
+<p>Ja, jeg ved det!</p>
+</sp>
+<sp>
+<speaker>Bodil.</speaker>
+<p>Se, nu s&#x00E6;tter vi os her! Rigtig godt! For du maa v&#x00E6;re tr&#x00E6;t! Nu faar vi straks Frokost. Jeg er vist paa, Madam H&#x00F8;ye finder paa noget delikat til dig. &#x2013; &#x2013; Sig mig, hvordan gik det til, at du kom?</p>
+</sp>
+<sp>
+<speaker>Tante Cara</speaker>
+<stage>(der sidder og ser sig omkring, vender sig nu mod Bodil).</stage>
+<p>Det var Onkel Bernhard, Barn. Han skrev til mig. Han har saa tidt bedt mig komme, siden han blev alene. Du ved, han var gift med min S&#x00F8;ster Alette &#x2013; men det var ikke saa nemt &#x2013;</p>
+<stage>(ryster paa Hodet.)</stage>
+<p>det var det ikke! &#x2013; &#x2013; Siden da du kom her, skrev han igjen, men saa kunde jo din Tante Dora komme og saa &#x2013; men nu da hun maa ned til sin Datter, og han selv ogsaa maatte rejse bort &#x2013; han vilde ikke, du skulde v&#x00E6;re alene saa l&#x00E6;nge, siger han &#x2013;</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(overrasket).</stage>
+<p>Hvorfor maa Onkel Bernhard bli saa l&#x00E6;nge? &#x2013; Han er ikke som de andre! Derfor elsker jeg ham! Gj&#x00F8;r ikke du, Tante Cara?</p>
+</sp>
+<sp>
+<speaker><pb n="32"/>Tante Cara</speaker>
+<stage>(svarer ikke. vender sig bort. Ser sig om).</stage>
+</sp>
+<sp>
+<speaker>Bodil.</speaker>
+<p><emph>Han</emph> er ikke glad! Hvorfor er han ikke? Ved du det?</p>
+</sp>
+<sp>
+<speaker>Tante Cara</speaker>
+<stage>(som f&#x00F8;r).</stage>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(vedblir).</stage>
+<p>Jeg kan se det paa ham iforvejen, naar han maa ud og gjemme sig v&#x00E6;k en Stund. Naar han kommer tilbage, er han sterk igjen. Der er nu gaat ham noget imod, engang!</p>
+</sp>
+<sp>
+<speaker>Tante Cara</speaker>
+<stage>(fast).</stage>
+<p>Der kan gaa En saa mange Ting imod! Men din Onkel fik det nu, som han vilde. &#x2013;</p>
+<stage>(mildt)</stage>
+<p>Vil du saa ha mig her, til Onkel Bernhard kommer hjem?</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<p>Du! Du kommer aldrig herfra!</p>
+</sp>
+<sp>
+<speaker>Tante Cara</speaker>
+<stage>(ryster paa Hodet).</stage>
+<p>Som du spaar, mit Barn!</p>
+<stage>(gaar hen, ser ind i det n&#x00E6;ste V&#x00E6;relse. Hendes &#x00D8;jne staar fulde af Taarer.)</stage>
+<p><pb n="33"/>Ser du, her er nogle Ting fra f&#x00F8;r, som jeg kjender &#x2013; og her &#x2013; det gamle Billede af Onkel Bernhard!</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(ind til hende)</stage>
+<p>Kan du huske, da du var hos os, dengang vi var smaa? Og den spanske Dansen &#x2013; vi kaldte den endda Vilddansen &#x2013; naar du spilte den for mig og jeg dansed, blev jeg altid saa snil efterpaa, husker jeg.</p>
+<stage>(ler.)</stage>
+<p>Undres om sligt kunde hjelpe nu &#x2013; ja, du <emph>skal</emph> nu spille den for mig engang, saa vil jeg se, om jeg kan mindes den.</p>
+</sp>
+<sp>
+<speaker>Tante Cara</speaker>
+<stage>(ler).</stage>
+<p>Du vil da vel ikke til med den igjen? Det var mest, naar du var i et skr&#x00E6;kkeligt Lune, det Barn, og du maatte rase fra dig!</p>
+</sp>
+<sp>
+<speaker>Bodil.</speaker>
+<p>Ja, jeg husker det. Og det var storartet, saa det hjalp! &#x2013; Nu h&#x00F8;rer jeg, T&#x00F8;jet kommer! Nu skal vi pakke op, forstaar du!</p>
+<stage>(tr&#x00E6;kker hende muntert med sig ud.)</stage>
+</sp>
+</div>
+<div type="chapter" subtype="act" n="2">
+<head type="main">&#x005B;Akt 2&#x005D;</head>
+<stage><pb n="34"/>Den samme Salon. Kun mere festlig dekoreret. Gjennem de aabne Verandad&#x00F8;re ser man ud i Haven, hvor kul&#x00F8;rte Lamper h&#x00E6;nger i Tr&#x00E6;r og Lysthuse.</stage>
+<stage>Lyd af Dansemusik og glade, overgivne Stemmer.</stage>
+<sp>
+<speaker>Tante Cara</speaker>
+<stage>(gaar omkring og ordner lidt. Blir staaende foran Konsul Herwells Billede.)</stage>
+</sp>
+<sp>
+<speaker>Sophie Hess</speaker>
+<stage>(kommer ind).</stage>
+</sp>
+<sp>
+<speaker>Tante Cara</speaker>
+<stage>(vender sig hastig om og gir sig noget at stelle med).</stage>
+<p>Er det dig, Sophie, jeg syntes, det var Bodil.</p>
+</sp>
+<sp>
+<speaker>Sophie Hess</speaker>
+<p>Nej, Bodil danser!</p>
+</sp>
+<sp>
+<speaker>Tante Cara</speaker>
+<stage>(livfuldt).</stage>
+<p>Ja, hvor hun danser! Morer sig, alle morer sig. Det gaar udmerket! Men hvor du er nydelig iaften</p>
+</sp>
+<sp>
+<speaker><pb n="35"/>Sophie Hess.</speaker>
+<p>Det siger Einar ogsaa! Men sig mig &#x2013; det undrer mig, at Kammerherre Lindendal er her iaften! Jeg saa Bodil bli overrasket ved det!</p>
+</sp>
+<sp>
+<speaker>Tante Cara.</speaker>
+<p>Ja, kj&#x00E6;re! Han havde nok truffet Tante Dora inde hos Admiralens og havde sagt &#x2013; ja, Tante Dora blev rent indtat i ham &#x2013; og vilde overraske Bodil, kan jeg t&#x00E6;nke.</p>
+</sp>
+<sp>
+<speaker>Sophie Hess</speaker>
+<stage>(langsomt).</stage>
+<p>Ja, det er morsomt med saadanne Overraskelser</p>
+</sp>
+<sp>
+<speaker>Tante Cara</speaker>
+<stage>(livlig).</stage>
+<p>Ja, er det ikke? T&#x00E6;nk, og det var ligedan med Odners. De ligger her paa Gjennemrejse, han er blet Distriktsl&#x00E6;ge oppe hos Carl, ved du. Saa traf Tante Dora dem ogsaa og bad dem, mest for Carls Skyld t&#x00E6;nker jeg &#x2013; &#x2013; Ja, og saa blev hun saa indtat i Fruen!</p>
+</sp>
+<sp>
+<speaker>Sophie Hess.</speaker>
+<stage>(forbauset).</stage>
+<p>Fruen? Er der en Fru Odner?</p>
+</sp>
+<sp>
+<speaker>Tante Cara</speaker>
+<stage>(ler).</stage>
+<p>Ja, du kan t&#x00E6;nke dig, hvor Bodil blev forbauset! For det ene t&#x00E6;nkte hun, Doktoren allerede var rejst. <pb n="36"/>For det andet ante hun ikke, han var gift. Og for det tredie vidste hun slet ikke, de var budne!</p>
+</sp>
+<sp>
+<speaker>Sophie Hess</speaker>
+<stage>(i Sp&#x00E6;nding).</stage>
+<p>Hvad siger du?? Og Bodil?</p>
+</sp>
+<sp>
+<speaker>Tante Cara.</speaker>
+<p>Bodil, kj&#x00E6;re, &#x2013; hun har saadan Takt! Det gik rigtig nydeligt! Og det kan v&#x00E6;re morsomt med saadanne Overraskelser!</p>
+<stage>(Der kommer flere tilsyne i D&#x00F8;raabningerne og ude paa Verandaen.)</stage>
+</sp>
+<sp>
+<speaker>Sophie Hess.</speaker>
+<p>Ja, det skal v&#x00E6;re vist! Det synes Einar ogsaa, han har bedt mig om en Dans. Der kommer han!</p>
+<stage>(Gaar.)</stage>
+</sp>
+<sp>
+<speaker>Professor Herluf &#x00D8;rn</speaker>
+<stage>(kommer ind. Ser sig om. Der er noget energisk hastigt over hele hans Person. Livfulde, sterke &#x00D8;jne, m&#x00F8;rkt Haar og Skj&#x00E6;g. Han bukker &#x00E6;rb&#x00F8;dig for Tante Cara).</stage>
+<p>Undskyld! Jeg ser efter Fr&#x00F8;ken Herwell. Jeg er lovet en Dans!</p>
+</sp>
+<sp>
+<speaker>Tante Cara.</speaker>
+<p>Er det Bodil? Er hun ikke derude? Jeg skal hjelpe Dem!</p>
+<stage>(De gaar.)</stage>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(kommer ind et &#x00D8;jeblik efter. Hun er i et elegant Baltoilette i blegblaat. Hun blir staaende, som om hun t&#x00E6;nker sig om, lytter, udbryder sagte):</stage>
+<p>Musik er skr&#x00E6;kkelig!</p>
+<stage><pb n="37"/>(gaar hen, slipper Portiererne ned. Som hun staar for den siste D&#x00F8;r, kommer Sophie Hess lige mod hende.)</stage>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(kort).</stage>
+<p>Jeg vil v&#x00E6;re alene &#x2013; to Minutter</p>
+</sp>
+<sp>
+<speaker>Sophie Hess</speaker>
+<p>Et Ord bare! Hvorfor har du ikke sagt mig, at Dr. Odner var gift? Naturligvis vidste du det!</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(ler).</stage>
+<p>Simpelthen vidste jeg det ikke! Han sagde n&#x00E6;sten aldrig noget.</p>
+</sp>
+<sp>
+<speaker>Sophie Hess.</speaker>
+<p>Han laa deroppe og botaniserte, mens hans Frue var ved Bad, fortalte han mig nu derinde &#x2013;</p>
+<stage>(hastig.)</stage>
+<p>Ja ja, jeg skal gaa. Men et maa jeg bede dig om &#x2013; kanske vi ses ikke mer alene, jeg drager jo inat! Rejs ikke op til Carl isommer! Leg ikke med Ild!</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(mod hende i en sp&#x00F8;gende Trods).</stage>
+<p>&#x2013; Det elsked jeg som Barn! Jeg gj&#x00F8;r saa endnu!</p>
+</sp>
+<sp>
+<speaker>Sophie Hess.</speaker>
+<p>Kom heller til os! Lov mig det, <emph>nu</emph>!</p>
+</sp>
+<sp>
+<speaker><pb n="38"/>Bodil.</speaker>
+<p>Haster det saa?</p>
+<stage>(henkastet.)</stage>
+<p>Du ved, Carl venter paa mig! Men jeg kan godt la&#x0027; v&#x00E6;re!</p>
+<stage>(blidt)</stage>
+<p>Bare gaa, saa lover jeg, at jeg ikke skal gj&#x00F8;re det.</p>
+<stage>(efter hende.)</stage>
+<p>Skj&#x00F8;nt jeg gj&#x00F8;r det vist alligevel!</p>
+<stage>(Hun s&#x00E6;tter sig ned, stirrer frem for sig.)</stage>
+</sp>
+<stage>(En liden kort Banken paa en lukket D&#x00F8;r tilh&#x00F8;jre.)</stage>
+<sp>
+<speaker>Kammerherre Lindendahl</speaker>
+<stage>(kommer ind. Det er en statelig, elegant, vakker Mand omkring 36 Aar. Hans V&#x00E6;sen er smilende, sikkert. Han hilser og ser sig om.)</stage>
+<p>Jo, dette er Undines Rige!</p>
+<stage>(bedende mod Bodil, der vil gaa.)</stage>
+<p>Bare et &#x00D8;jeblik!</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(afvisende).</stage>
+<p>Hvor elskv&#x00E6;rdigt af Dem &#x2013; men der er virkelig ingen Tid. Vi danser her iaften!</p>
+</sp>
+<sp>
+<speaker>Kammerherre Lindendahl.</speaker>
+<p>Hvor jeg skulde &#x00F8;nske Alverden vilde danse v&#x00E6;k, og jeg var alene med Dem paa hele den vide Jord! Faar jeg Lov at minde Dem om, at De loved mig Menuetten?</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(koldt).</stage>
+<p>De tar Feil!</p>
+</sp>
+<sp>
+<speaker><pb n="39"/>Kammerherre Lindendal</speaker>
+<stage>(gaaer hen til Bodil, b&#x00F8;jer et Kn&#x00E6;, ser hende op i &#x00D8;jnene, siger d&#x00E6;mpet).</stage>
+<p>Om jeg var Konge til Jorden, jeg vilde alligevel v&#x00E6;re paa Kn&#x00E6; for Dem! &#x2013; &#x2013;</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(med vrede &#x00D8;jne).</stage>
+<p>Rejs Dem! Det plager mig!</p>
+</sp>
+<sp>
+<speaker>Kammerherre Lindendahl</speaker>
+<stage>(rejser sig).</stage>
+<p>Saa faar jeg vel Lov?</p>
+<stage>(Han tar Plads. Hun tar en Bog, blader i den.)</stage>
+<p>Fr&#x00F8;ken Bodil! Vend Dem ikke bort! Nu skal De gi mig Lov at tale med Dem! Det er n&#x00F8;dvendigt, at vi taler sammen!</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(som f&#x00F8;r).</stage>
+<p>Det finder jeg ikke!</p>
+</sp>
+<sp>
+<speaker>Kammerherre Lindendahl.</speaker>
+<p>Jo! Om min store Oplevelse &#x2013; at jeg kom ned her og fandt Dem forvandlet til den vidunderligste Undine, Vorherre har skabt! &#x2013; Da jeg saa Dem paa Ballet hos Bratts &#x2013;, saa anderledes end f&#x00F8;r, saa souverain i Deres h&#x00F8;jrejste Ynde &#x2013; da gjemte jeg mig, som man i fordums Tid gjemte sig for at betragte de dejlige Najader. Illusionen greb mig. For <pb n="40"/>De er anderledes end alle! Der er Mystik i Luften om Dem!</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(gj&#x00F8;r en Bev&#x00E6;gelse for at rejse sig).</stage>
+</sp>
+<sp>
+<speaker>Kammerherre Lindendahl</speaker>
+<stage>(n&#x00F8;der hende til at bli siddende. Han vedblir).</stage>
+<p>V&#x00E6;r mere mild end De var det sist!</p>
+<stage>(d&#x00E6;mpet.)</stage>
+<p>For De har ingenting glemt i disse tre Aar, det ser jeg!</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(betragter ham stivt, taus).</stage>
+</sp>
+<sp>
+<speaker>Kammerherre Lindendahl.</speaker>
+<p>Hvem er det, som siger, at af de himmelske Skabninger er Kvinderne de, hvis Baner er mest usikre? Det er ikke sandt! &#x2013; For alt, hvad De sidder og t&#x00E6;nker nu, det har jeg netop selv t&#x00E6;nkt paa. Fr&#x00F8;ken Bodil, jeg forstaar Dem bedre, end De forstaar Dem selv! Lad os tales ved og faa klaret alting!</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(rejser sig. Gaar hen og s&#x00E6;tter sig ned ved et Bord l&#x00E6;nger hen, siger ironisk).</stage>
+<p>Ja, denne Trofasthed for Eksempel, som saa pludselig er staat op fra de D&#x00F8;de!</p>
+<stage>(med en pludselig Beslutning.)</stage>
+<p>Hvad vil De? Jeg vil ikke Dem nogenting!</p>
+</sp>
+<sp>
+<speaker><pb n="41"/>Kammerherre Lindendahl</speaker>
+<p><emph>Vil</emph>? V&#x00E6;r ikke saa haardh&#x00E6;ndt! Og v&#x00E6;r ikke noget Barn? &#x2013; &#x2013; &#x2013; Bodil, jeg elsker Dem!</p>
+<stage>(gaar hen til hende, d&#x00E6;mpet overtalende.)</stage>
+<p>Bodil, De maa h&#x00F8;re paa mig &#x2013;</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(afbryder).</stage>
+<p>Det skulde jeg aldrig ha gjort. Jeg har ikke havt godt af det Bekjendtskab med Dem. For siden &#x2013; har jeg faat Lyst til at gj&#x00F8;re M&#x00E6;nd ondt!</p>
+</sp>
+<sp>
+<speaker>Kammerherre Lindendahl</speaker>
+<stage>(uden at &#x00E6;nse hendes Ord, tar Plads n&#x00E6;r hende. Siger indtr&#x00E6;ngende)</stage>
+<p>Bodil! Hvad gjorde det, om vor Lykke dengang gik &#x2013; der er blet Plads for en st&#x00F8;rre!</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(gjentar som dr&#x00F8;mmende).</stage>
+<p>&#x2013; en st&#x00F8;rre?</p>
+</sp>
+<sp>
+<speaker>Kammerherre Lindendahl.</speaker>
+<p>Nu er De i Stemning! Faar jeg Lov at fort&#x00E6;lle Dem noget &#x2013; som i gamle Dage?</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(tier. Sidder som fortabt i noget).</stage>
+</sp>
+<sp>
+<speaker>Kammerherre Lindendahl</speaker>
+<stage>(flytter en Stol, s&#x00E6;tter sig ganske n&#x00E6;r hen).</stage>
+<p>Der var engang en liden ung Pige. Alt havde de gode Feer git hende. Naar hun kom, strakte <pb n="42"/>Blomsterne sig frem og bad: tr&#x00E6;d paa os, lad os leve og d&#x00F8; for dig! Og der kom et Menneske. Han lagde sig for hendes Fod og bad som Blomsterne! Og hun? &#x2013; Hvad siger De?</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(ser paa ham, siger rolig).</stage>
+<p>Sansynligvis var hun tosset den unge Pigen!</p>
+</sp>
+<sp>
+<speaker>Kammerherre Lindendahl</speaker>
+<stage>(ivrig).</stage>
+<p>Ja, synes De ikke? Manden er nu engang som han er, har en fornuftig Dame engang sagt. Og det b&#x00F8;r en vidunderlig Undine ogsaa indse! &#x2013; Det b&#x00F8;r huskes, at for ham er der &#x2013; Episoder, der f&#x00F8;rer ham lutret og modnet tilbage, hvor hun sidder ren og skj&#x00E6;r og venter &#x2013;</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(ser paa ham taus).</stage>
+</sp>
+<sp>
+<speaker>Kammerherre Lindendahl</speaker>
+<stage>(vedblir).</stage>
+<p>Husk de gamle Sagn! Altid kom Helten tilbage, sterkere end han drog ud. Brandt der en Ild, vandt sig en Orm om Fruerburet &#x2013; saa red han sig gjennem Ilden, saa vog han Ormen &#x2013;</p>
+</sp>
+<sp>
+<speaker>Bodil.</speaker>
+<p>Er De saa sikker paa, hun sad der &#x2013; og vented?</p>
+</sp>
+<sp>
+<speaker><pb n="43"/>Kammerherre Lindendahl</speaker>
+<stage>(griber hendes Haand).</stage>
+<p>Hvorfor vil De, jeg skal tvile? Min var hver Tanke i Deres Sind. Hvordan vil De faa tat alt det tilbage? Det lader sig ikke gj&#x00F8;re &#x2013;</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(har st&#x00F8;dt ham fra sig. Siger koldt).</stage>
+<p>De gjorde det selv! &#x2013; Netop idag for tre Aar &#x2013; &#x2013; siden &#x2013; &#x2013;</p>
+<stage>(haardt.)</stage>
+<p>Der er lukket og st&#x00E6;ngt &#x2013; den unge Pigen hun &#x2013;</p>
+</sp>
+<sp>
+<speaker>Kammerherre Lindendahl</speaker>
+<stage>(har rejst sig og blir staaende foran hende. Afbryder hende varmt og heftig).</stage>
+<p>Hun har ventet &#x2013; og Vejen er ikke st&#x00E6;ngt! En Kvinde er trofast. Hun kaster ikke bort saadan sit bedste selv!</p>
+<stage>(b&#x00F8;nlig.)</stage>
+<p>De maa finde hende igjen, den unge Pigen, De maa sige hende &#x2013;</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(hvid i sit Ansigt).</stage>
+<p>Den Vej, som gik fra hende over til mig &#x2013; den gaar ikke et Menneske to Gange i sit Liv.</p>
+<stage>(rejser sig, siger stolt)</stage>
+<p>Ja, jeg tilstaar! Der var en Tid, da jeg havde ingen Tid at se paa Himmel eller Jord. Paa Kn&#x00E6; laa jeg for et Alter.<note type="footnote">Alter] <hi rend="italic">rettet fra:</hi> Altar <hi rend="italic">(trykkfeil)</hi></note> Der br&#x00E6;ndte en hellig Ild. Alle <pb n="44"/>mine Blomster ofred jeg der! &#x2013; &#x2013; Der er intet Alter mer, Ilden er slukt!</p>
+<stage>(gaar, stanser foran ham.)</stage>
+<p>Det var heller ikke Dem, jeg t&#x00E6;nkte paa dengang, jeg indbildte mig, at De var en anden end den, De er! Dem &#x2013; har jeg aldrig villet nogenting!</p>
+</sp>
+<sp>
+<speaker>Kammerherre Lindendahl.</speaker>
+<p>Tro ikke, hvad De selv siger! Kvindekj&#x00E6;rlighed forgaaer ikke paa den Maade. De kjender ikke Deres eget V&#x00E6;sen!</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(ler).</stage>
+<p>Jo! Vi Modedamer indlader os ikke paa nogenslags Sentimentalitet. Vi nyder Livet. Og saa &#x2013; <emph>hevner vi den unge Pige</emph>.</p>
+</sp>
+<sp>
+<speaker>Kammerherre Lindendahl</speaker>
+<stage>(sp&#x00F8;gende, uden at forstaa).</stage>
+<p>&#x2013; Og saa &#x2013; naar man er ferdig med det &#x2013; tilgir man!</p>
+<stage>(n&#x00E6;rmere, i en anden Tone.)</stage>
+<p>Husker De den unge Pigen, den Kveld hun gik med mig over Stenten? &#x2013; Sligt glemmes ikke!</p>
+</sp>
+<sp>
+<speaker>Bodil.</speaker>
+<p>Jo! &#x2013; For siden kom den Dag, da hun blev forraadt! De kunde ikke gjemme det for hende, hvor Deres Hjerte var blet koldt. Hun kunde se det paa Deres &#x00D8;jne!</p>
+</sp>
+<sp>
+<speaker><pb n="45"/>Kammerherre Lindendahl.</speaker>
+<p>H&#x00F8;r, Bodil, og De vil bedre forstaa det &#x2013; &#x2013; Hvad t&#x00E6;nker De paa?</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(langsomt).</stage>
+<p>Paa det, De fortalte Tante Dora derinde: at H&#x00F8;ken sidder og vogter paa tr&#x00E6;tte Fugle &#x2013; tror De ikke, at undertiden tar den Fejl?</p>
+</sp>
+<sp>
+<speaker>Kammerherre Lindendahl.</speaker>
+<p>Lad os haabe det &#x2013; og holde os til Sagen.</p>
+<stage>(d&#x00E6;mpet, bestemt.)</stage>
+<p>Fr&#x00F8;ken Bodil! Ikke skulde De agte saa ringe, at jeg nu kommer og ber Dem bli min Hustru. Jeg blir n&#x00F8;dt til at sige Dem noget. Det har v&#x00E6;ret n&#x00E6;vnt her i Byen som noget almindelig kjendt, at dengang De var L&#x00E6;rerinde deroppe paa Nabogaarden til Lindendal &#x2013; Deres Navn blev allerede dengang sat i Forbindelse med en andens paa en Maade, som ikke var bra for Dem!</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(tvinger sig til at tale rolig).</stage>
+<p>Og denne anden &#x2013; lad os kalde ham Herren til Lindendal &#x2013; har han ikke f&#x00F8;lt sig opfordret til at modsige den for mig saa ubehagelige Historie?</p>
+</sp>
+<sp>
+<speaker>Kammerherre Lindendahl</speaker>
+<stage>(undvigende).</stage>
+<p>Ganske vist fandt jeg Dem ogsaa &#x2013; yderst uforsigtig dengang &#x2013; &#x2013; Men Bodil, som min <pb n="46"/>Hustru &#x2013; hvor vil De kunne finde en Oprejsning som den?</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(dirrer lidt i Stemmen).</stage>
+<p>Jeg begynder at forstaa &#x2013; endelig begynder jeg at faa fat paa dette, som sniger sig saa klamt omkring mig.</p>
+<stage>(rolig, om mod ham.)</stage>
+<p>Ja, for det <emph>kunde</emph> jo saa let v&#x00E6;ret sandt, mener De? Dengang var jeg en fattig, ubetydelig ung Pige. Det vilde daarligt passet for Herren til Lindendal, at &#x2013; &#x2013;</p>
+<stage>(lige hen til ham, trodsig.)</stage>
+<p>S&#x00E6;t om det nu var, som Folk mener &#x2013;, det kunde det jo saa let, ikke sandt?</p>
+</sp>
+<sp>
+<speaker>Kammerherre Lindendahl</speaker>
+<stage>(bebrejdende).</stage>
+<p>Bodil!</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(staar for ham, h&#x00F8;jrejst, rolig).</stage>
+<p>Lad os bare gaa ud fra, at det er sandt &#x2013; ikke saa sikker er jeg, at den unge Pigen vilde sat &#x00C6;ren til, som jeg er viss paa, at den Riddersmand til Lindendal vilde ha mistet sin! &#x2013;</p>
+</sp>
+<sp>
+<speaker>Kammerherre Lindendahl</speaker>
+<stage>(stirrer paa hende taus. Betaget af hende som hun staar der).</stage>
+</sp>
+<sp>
+<speaker><pb n="47"/>Bodil</speaker>
+<p>De talte om gamle Dage &#x2013; i gamle Dage, den Ridder der havde forn&#x00E6;rmet en Kvinde, &#x2013; hans Sporer blev knust paa hans H&#x00E6;le!</p>
+<stage>(gaar igjen hen foran ham.)</stage>
+<p>Hvor er den saa kommet fra, den Historie, som De ikke har modsagt &#x2013; fordi nu havde De Brug for den.</p>
+<stage>(da han ikke svarer, tilf&#x00F8;jer hun langsomt.)</stage>
+<p>De vilde tvinge mig med dette! &#x2013; De har Deres Grunde, nu som jeg ikke l&#x00E6;nger er den unge Pige, som var saa lidet v&#x00E6;rd!</p>
+<stage>(synker ned over en Stol.)</stage>
+</sp>
+<sp>
+<speaker>Kammerherre Lindendahl</speaker>
+<stage>(heftig).</stage>
+<p>Giv mig Lov at vinde Dem tilbage! Bodil, De maa ikke s&#x00F8;rge over dette!</p>
+</sp>
+<sp>
+<speaker>Bodil.</speaker>
+<p>Ikke over dette &#x2013; men over, at det kommer til at v&#x00E6;re saa l&#x00E6;nge til &#x2013; at der ikke findes mer paa Jorden &#x2013; M&#x00E6;nd som Dem!</p>
+</sp>
+<sp>
+<speaker>Fru Hess</speaker>
+<stage>(kommer ind fra Verandaen).</stage>
+<p>Er du her endda, Bodil? Du har vist glemt, hvad du loved Professor &#x00D8;rn? Har ikke Doktor Odner v&#x00E6;ret herinde? Han s&#x00F8;ger dig nemlig ogsaa!</p>
+</sp>
+<sp>
+<speaker><pb n="48"/>Kammerherre Lindendahl</speaker>
+<stage>(studsende).</stage>
+<p>Dr. Odner?</p>
+</sp>
+<sp>
+<speaker>Fru Hess</speaker>
+<stage>(smiler).</stage>
+<p>Ja, har ikke Kammerherren set ham her iaften? Husker ikke Kammerherren ham? &#x2013; den tause Manden, som var ivejen allesteder deroppe, dengang &#x2013;</p>
+<stage>(Hun gaar ud igjen paa Verandaen.)</stage>
+</sp>
+<sp>
+<speaker>Kammerherre Lindendahl</speaker>
+<stage>(hen mod Bodil).</stage>
+<p>Har De ikke et Ord for mig? Lad ikke dette stille sig mellem os!</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(rejser sig langsomt, gaar hen og tar ned fra V&#x00E6;ggen over Pianoet det floromvundne Billede, der forestiller hende selv som 17-aara Pige. Hun ser paa det, viser ham det, siger stille).</stage>
+<p>Det, som har stillet sig mellem os, er D&#x00F8;den! Den unge Pige her, som De kommer for at s&#x00F8;ge &#x2013; jeg b&#x00E6;rer Sorg for hende. &#x2013; Hun d&#x00F8;de dengang!</p>
+</sp>
+<sp>
+<speaker>Kammerherre Lindendahl</speaker>
+<stage>(gaar med en taus Hilsen).</stage>
+</sp>
+<sp>
+<speaker>Fru Hess</speaker>
+<stage>(kommer ind igjen, gaar hen til Bodil, der sidder sammensunken. L&#x00E6;gger Haanden over hendes Hode).</stage>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(farer sammen, vender sig om mod hende, siger svagt).</stage>
+<p>Hvem sagde du? Hvem kommer?</p>
+</sp>
+<sp>
+<speaker><pb n="49"/>Fru Hess.</speaker>
+<p>Jeg vilde bare ha den Mand paa D&#x00F8;r.</p>
+<stage>(b&#x00F8;jer sig ned over hende.)</stage>
+<p>Du blir saa bleg! Hvad vilde du, om du kunde &#x00F8;nske dig noget?</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(med Hodet hvilende mod Armen. Ser op langt).</stage>
+<p>Det Liv her blir Plads til at leve, &#x2013; &#x2013; naar jeg l&#x00E6;ngesiden er d&#x00F8;d!</p>
+</sp>
+<sp>
+<speaker>Fru Hess</speaker>
+<p>Se paa mig, Bodil, og tro hvad jeg siger. Den unge Pigen, hun er ikke d&#x00F8;d, hun bare sover. N&#x00F8;kken har sagt mig det.</p>
+<stage>(henter ind en Kurv fra Verandaen.)</stage>
+<p>Der staar nogle Roser herude. Jeg ved, de er til dig! Du undgaar dem ikke! Og jeg skulde tro, her tr&#x00E6;nges en Rosenskur over alt dette blege blaa.</p>
+<stage>(Holder Kurven op og lader Roserne falde som en Regn. B&#x00F8;jer sig nedover hende, siger hemmelighedsfuldt.)</stage>
+<p>De kommer allesammen med Bud! Hvorfor har du ikke lagt Merke til den sorte &#x00D8;rn, som er kommet over Havet hid? Der ser jeg Tante Cara! Jeg ber hende gaa ind til dig!</p>
+<stage>(gaar.)</stage>
+</sp>
+<sp>
+<speaker>Tante Cara</speaker>
+<stage>(kommer ind, mild, munter. Gaar hen og l&#x00E6;gger sin Haand paa Bodils Skulder).</stage>
+<p>Du har faat hvilt dig lidt, mit Barn? Nu kommer du vel ind? &#x2013; Tante Dora er en udmerket V&#x00E6;rtinde. <pb n="50"/>Og Sophie vikarierer med Talent, men du savnes alligevel. Og du holder jo saa af at danse! Men, kj&#x00E6;re Barn, hvad er dette &#x2013; <stage>(samler op nogle af Roserne.)</stage></p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(hvisker).</stage>
+<p>Tante Cara &#x2013; jeg er angst for Menneskene!</p>
+</sp>
+<sp>
+<speaker>Tante Cara</speaker>
+<stage>(stirrer paa hende i Forundring).</stage>
+<p>Men, Barn &#x2013;</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(rejser sig, gaar hen i den aabne Verandad&#x00F8;r).</stage>
+<p>Se Spurvene &#x2013; at de kan s&#x00E6;tte sig saa trygt tilro!</p>
+<stage>(ler pludselig.)</stage>
+<p>Aa, jeg bare siger saadant! Du husker da det fra f&#x00F8;r, at jeg bruger at t&#x00F8;ve og sludre.</p>
+</sp>
+<sp>
+<speaker>Tante Cara</speaker>
+<stage>(ler, tar hendes H&#x00E6;nder).</stage>
+<p>Javist t&#x00F8;ver du, Barn. Men kom nu med ind! For hvad tar du dig vel til her alene?</p>
+</sp>
+<sp>
+<speaker>Bodil.</speaker>
+<p>Tante Cara, den lange, lange L&#x00E6;ngsel, som l&#x00E6;nges forbi alting &#x2013; kjender du den?</p>
+<p>Har du gr&#x00E6;dt l&#x00E6;nge nogengang?</p>
+</sp>
+<sp>
+<speaker>Tante Cara</speaker>
+<stage>(svarer ikke, men ser mildt paa hende i uvis Forundring).</stage>
+</sp>
+<sp>
+<speaker><pb n="51"/>Bodil</speaker>
+<stage>(ler igjen, tar og svinger hende rundt).</stage>
+<p>Aa, du dejlige Guldmor! Du skj&#x00F8;nner da, jeg sp&#x00F8;rger bare saadan, fordi det morer mig!</p>
+</sp>
+<sp>
+<speaker>Tante Cara</speaker>
+<stage>(som f&#x00F8;r).</stage>
+<p>Du gj&#x00F8;r vel det, mit Barn! Men jeg kan ikke f&#x00F8;lge med.</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(i stigende Uro).</stage>
+<p>Tror du, jeg har kjendt Lykken nogengang? Og at jeg alt har mistet den? &#x2013; Eller har jeg aldrig vidst noget om den? Kommer den &#x2013; eller kommer den aldrig? &#x2013;</p>
+</sp>
+<sp>
+<speaker>Tante Cara.</speaker>
+<p>Lykkelige Barn, for alt du har at sp&#x00F8;rge om! Det gaar altsammen iorden, skal du faa se. Men nu maa vi gaa ind. Det er jo dig, som holder af at danse!</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(der kommer en jagende Livlighed over hende)</stage>
+<p>Javist! Spil, saa vil jeg danse. Jo, jo, Dansen min! Vilddansen, forstaar du vel &#x2013; den, som altid hjalp saa godt. Jo, nu skal du bare se!</p>
+<stage>(ler, tr&#x00E6;kker hende med sig til Pianoet, lukker Verandad&#x00F8;rene.)</stage>
+</sp>
+<sp>
+<speaker>Tante Cara</speaker>
+<stage>(modstr&#x00E6;bende).</stage>
+<p>Kj&#x00E6;re dig, &#x2013; kunde vi ikke vente til imorgen?</p>
+</sp>
+<sp>
+<speaker><pb n="52"/>Bodil.</speaker>
+<p>Kj&#x00E6;re Guldmor! Det kan jeg virkelig ikke!</p>
+<stage>(Tar det hvide Silkesjal af hende.)</stage>
+<p>Husker du, naar du var rigtig forf&#x00E6;rdelig snil, laante du mig altid det!</p>
+</sp>
+<sp>
+<speaker>Tante Cara</speaker>
+<stage>(smiler, gir efter).</stage>
+<p>Hvor kan du huske alting?</p>
+<stage>(s&#x00E6;tter sig til, spiller Cachuchaen.)</stage>
+</sp>
+<stage>(Bodil danser. Langsomt. Siden mer og mer heftig. D&#x00F8;rene aabnes sagte. Der kommer efterhaanden flere af Gjesterne. De staar og ser paa.)</stage>
+<stage>(Bodil stanser forpustet. Alle klapper i H&#x00E6;nderne med Udraab.)</stage>
+<stage>(Bodil staar taus, som om hun ikke l&#x00E6;gger Merke til det.)</stage>
+<stage>(Under den paaf&#x00F8;lgende Scene begynder Musiken indenfor igjen.)</stage>
+<stage>(D&#x00F8;raabningerne blir lidt efter lidt tomme. Man gaar igjen ind mod Dansesalen.)</stage>
+<sp>
+<speaker>Tante Cara</speaker>
+<stage>(rejser sig livlig).</stage>
+<p>Naa, der er jo Professor &#x00D8;rn! Ja, nu maa De selv gj&#x00F8;re Deres Krav gjeldende, Hr. Professor! &#x2013; Men lov os nu, at De ikke rejser tilbage til Amerika! Her er da ogsaa Mennesker!</p>
+</sp>
+<sp>
+<speaker>Professor &#x00D8;rn</speaker>
+<stage>(smiler, bukker. N&#x00E6;rmer sig)</stage>
+<p>Ja, nogle!</p>
+<stage>(hen mod Bodil.)</stage>
+<p>De har lovet mig en Menuet &#x2013; helt siden den Aften hos Bratts!</p>
+</sp>
+<sp>
+<speaker><pb n="53"/>Bodil</speaker>
+<stage>(lystig.)</stage>
+<p>Og det husker man endda!</p>
+</sp>
+<sp>
+<speaker>Herluf &#x00D8;rn</speaker>
+<p>Kan det glemmes, naar man har set Dem danse den? Men De ser tr&#x00E6;t ud. Skal vi heller tale lidt sammen?</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<p>Aa, den Musik!</p>
+<stage>(gaar hen og lukker D&#x00F8;ren, der f&#x00F8;rer ind mod Dansesalen.)</stage>
+</sp>
+<sp>
+<speaker>Herluf &#x00D8;rn</speaker>
+<p>De holder ikke af Musik? Nej, den kan v&#x00E6;re slem!</p>
+</sp>
+<sp>
+<speaker>Bodil.</speaker>
+<p>Nej, jeg mener egentlig, at jeg elsker den! Jeg har h&#x00F8;rt, den skal v&#x00E6;re opfundet for at overd&#x00F8;ve de menneskelige Lidelser &#x2013; is&#x00E6;r Tromme! Hvorfor har man ikke Tromme her iaften?</p>
+<stage>(ler.)</stage>
+<p>De staar vist og t&#x00E6;nker paa noget rent andet?</p>
+</sp>
+<sp>
+<speaker>Herluf &#x00D8;rn</speaker>
+<stage>(livfuldt, hastig).</stage>
+<p>Ja, for jeg har saameget at sige Dem. De ved jo, jeg rejser tilbage igjen? &#x2013; &#x2013; &#x2013;</p>
+<p>Jeg ved et Land for Dem! Det er vor nye Koloni derover &#x2013; Eventyret, som skal bli Virkelighed! Faar jeg Lov at fort&#x00E6;lle Dem lidt om det?</p>
+</sp>
+<sp>
+<speaker><pb n="54"/>Bodil</speaker>
+<stage>(sp&#x00F8;gefuldt bedende).</stage>
+<p>Kan det ikke v&#x00E6;re til en anden Gang?</p>
+</sp>
+<sp>
+<speaker>Herluf &#x00D8;rn.</speaker>
+<p>Jeg rejser jo imorgen tidlig. Tr&#x00E6;ffer jeg Dem kanske hos Deres Bror?</p>
+</sp>
+<sp>
+<speaker>Bodil.</speaker>
+<p>Min Bror??</p>
+</sp>
+<sp>
+<speaker>Herluf &#x00D8;rn.</speaker>
+<p>Ja, Deres Bror Carl! Det er ham, jeg vil bes&#x00F8;ge. Ham og Dr. Odner, som er blet Distriktsl&#x00E6;ge deroppe nu. Vi er alle tre Studenter sammen. Jeg blir deroppe nogle Uger paa Sanatoriet.</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(ser paa ham aandsfrav&#x00E6;rende, fatter sig. Smiler).</stage>
+<p>Skal vi ikke heller danse Menuetten?</p>
+<stage>(Hun tar hans Arm. De gaar.)</stage>
+</sp>
+</div>
+<div type="chapter" subtype="act" n="3">
+<head type="main">&#x005B;Akt 3&#x005D;</head>
+<stage><pb n="55"/>Oppe i en Fjelddal. Distriktsl&#x00E6;ge Odners Kontor. Det er en stor Bjelkestue. I Baggrunden en D&#x00F8;r aaben ud til en liden Svalgang. Gjennem den aabne D&#x00F8;r ser man over et Vand, indrammet af Skoglier og Fjeld.</stage>
+<stage>Den venstre Side af V&#x00E6;relset er m&#x00F8;bleret med indflyttede M&#x00F8;bler fra Dagligstuen, der er under Oppudsning. Tilh&#x00F8;jre er Kontorm&#x00F8;blerne flyttet sammen: En voksdugbetrukken Chaiselongue, Doktorens Skrivebord med B&#x00F8;ger og Papirer, smaa Flasker, forskjellige Pr&#x00E6;parater og Instrumenter. Ved Siden et andet Bord med Elektriserapparat, Forst&#x00F8;rrelsesglas, smaa Glaskrukker med Planter i Spiritus og andre Gjenstande til medicinsk eller botanisk Brug. I Hylder langs V&#x00E6;ggene medicinsk og botanisk Literatur. I s&#x00E6;rskilt dertil indrettede Hylder Doktorens Herbarium. &#x00D8;verst tilh&#x00F8;jre D&#x00F8;r ud til Ventev&#x00E6;relse og Entr&#x00E9;. Tilvenstre D&#x00F8;re til de andre V&#x00E6;relser. Det er en varm solfyldt Formiddag i Juli Maaned.</stage>
+<sp>
+<speaker>Fru Vivi Odner</speaker>
+<stage>(kommer ind i en elegant lys Husdragt).</stage>
+<p>Hvor er Tyrannen? Er du ikke her, Kai?</p>
+<stage>(ser sig om.)</stage>
+<p>Aa, naa!</p>
+<stage>(med et misforn&#x00F8;jet Kast med Hodet, lukker op D&#x00F8;ren til Ventev&#x00E6;relset, ser ind, gaar tilbage til den nederste D&#x00F8;r tilvenstre, aabner den, blir staaende paa T&#x00E6;rskelen og tale ud i det tilst&#x00F8;dende V&#x00E6;relse.)</stage>
+<p><pb n="56"/>Hvor er Frk. Dagny? Aa, er du der! Hvor ialverden er Tyrannen? &#x2013; Denne Malingen er til at d&#x00F8; af! Om endda Kai skj&#x00F8;nte paa, hvad det er for et uhyre Offer for mig, slig Oppudsning over hele Huset.</p>
+<stage>(skarpt.)</stage>
+<p>Hvad behager? &#x2013; At det var mig selv, som vilde ha det? &#x2013; &#x2013; Ja, naturligvis!! Man maa da bo som et Menneske!</p>
+<stage>(gaar indover i Stuen, vender og gaar tilbage igjen.)</stage>
+<p>Hvor er Fin? Hvad? Ikke set ham siden Kl. 8.<note type="footnote">8.] <hi rend="italic">rettet fra:</hi> 8 <hi rend="italic">(trykkfeil)</hi></note> Pyt, saa er han hos Kari! Sig ikke et Ord om det til Kai! Naar det gj&#x00E6;lder den Gutten er han &#x00E6;ngstelig nok! &#x2013; &#x2013;</p>
+<p>Naa, han skal vel faa, naar han kommer!</p>
+<stage>(lukker D&#x00F8;ren haardt igjen, aabner den atter.)</stage>
+<p>Dagny! Kommer her nogle Sanatoriedamer, min Svigerinde for Eksempel, saa er jeg ikke hjemme. Jeg er syg!</p>
+<stage>(gaar hen, l&#x00E6;gger sig ned paa Chaiselonguen tilvenstre. Rejser sig gaar igjen hen og taler ud.)</stage>
+<p>Giv mig det hvide Kniplingsjalet &#x2013; jeg er slet ikke bra &#x2013; &#x2013; fryser i denne rasende Heden &#x2013; &#x2013; det er sandt, skulde L&#x00F8;jtnant Stjernblad komme, saa er jeg hjemme, &#x2013; loved desv&#x00E6;rre igaar jeg skulde vise ham Udsigten.</p>
+<stage>(faar Sjalet, gaar, vender tilbage igjen.)</stage>
+<p>Det er sandt, kommer Kandidat Thoren, er jeg ogsaa hjemme. For ingen anden!</p>
+<stage>(Gaar hen, l&#x00E6;gger sig ned paa Chaiselonguen. Men staar et &#x00D8;jeblik efter op igjen, gaar hen, aabner D&#x00F8;ren halvt, taler ind til sin S&#x00F8;ster Dagny.)</stage>
+<p><pb n="57"/>Du kan tro, jeg var rasende paa Tyrannen idag! Han maatte gaa sin Vej! Han var nemlig morgengr&#x00E6;tten!</p>
+<stage>(&#x00E6;rgerlig.)</stage>
+<p>Var han ikke? Jovist var han! Saa vilde jeg naturligvis ha ham til at erkjende det, jo, jeg syntes han skulde kysse min Haand og tilstaa, han ikke havde v&#x00E6;ret, som han skulde. Men han <emph>vilde</emph> ikke!!!</p>
+<stage>(gaar lidt henover og tilbage igjen.)</stage>
+<p>Hvad siger du? Var han optat? Naar jeg kommer ind paa Kontoret, <emph>skal</emph> han simpelthen ikke v&#x00E6;re optat!</p>
+<stage>(heftig.)</stage>
+<p>Tak, du beh&#x00F8;ver aldeles ikke at forsvare ham; det skal jeg gj&#x00F8;re selv!</p>
+<stage>(gaar nogle Skridt og tilbage igjen.)</stage>
+<p>Og saa de to Knapperne i Vesten, som han aldrig vil knappe, endda han ved, jeg ikke udstaar, de er oppe! Og jeg gir mig aldrig paa det, &#x2013; han <emph>skal</emph> knappe dem! &#x2013; Du Verden, jeg som igrunden er saa god af mig &#x2013; det siger alle Mennesker! Men han ejer ikke Hjerte!</p>
+<stage>(skarpt.)</stage>
+<p>Hvad siger du? &#x2013; &#x2013; Ja, det gjorde jeg netop i S&#x00F8;ndags, jeg sendte Holst ind i Kirken efter ham for at knappe dem &#x2013;</p>
+<stage>(h&#x00F8;jere.)</stage>
+<p>Det ved Gud, jeg gjorde! Og jeg vil sige, det er stort af mig, at jeg ikke mister Taalmodigheden!</p>
+<stage><pb n="58"/>(Hun lukker D&#x00F8;ren med et Smeld, gaar hen og l&#x00E6;gger sig ned paa Chaiselonguen.)</stage>
+</sp>
+<stage>(Der kommer nogen fra Entreen ind i Ventev&#x00E6;relset. Hun rejser sig lidt op og lytter. Drapperer sig med det hvide Sjal, l&#x00E6;gger sig tilbage med et lidende Udtryk og lukker &#x00D8;jnene.)</stage>
+<sp>
+<speaker>Doktor Odner</speaker>
+<stage>(kommer stilferdig ind. Han har en overfyldt Botaniserkasse i en Rem over Skulderen og i Haanden en Kurv med Moser. Han s&#x00E6;tter Kurven paa Gulvet og l&#x00E6;gger fra sig Botaniserkassen. Faar &#x00D8;je paa sin Hustru, lister sagte hen og ser paa hende. B&#x00F8;jer sig ned.)</stage>
+<p>Vivi, hvordan har du det?</p>
+</sp>
+<sp>
+<speaker>Fru Vivi</speaker>
+<stage>(lader ham sp&#x00F8;rge flere Gange. Slaar tilsist &#x00D8;jnene op. Hendes Tone er lidende, bebrejdende.)</stage>
+<p>Hvor har du v&#x00E6;ret i al den Tid?</p>
+</sp>
+<sp>
+<speaker>Dr. Odner.</speaker>
+<p>Kj&#x00E6;re, du bad mig selv om at gaa! Du vilde hvile, sagde du!</p>
+</sp>
+<sp>
+<speaker>Fru Vivi.</speaker>
+<p>Jeg var saamen glad, da du gik, skj&#x00F8;nt jeg har savnet dig rasende!</p>
+</sp>
+<sp>
+<speaker>Dr. Odner</speaker>
+<stage>(tar en Blomst af sit Knaphul og r&#x00E6;kker hende).</stage>
+</sp>
+<sp>
+<speaker>Fru Vivi</speaker>
+<stage>(vender sig bort).</stage>
+<p>Hvad skal jeg med den? Jeg raaa ha dem <emph>en masse</emph>. Da er de jo nydelige!</p>
+</sp>
+<sp>
+<speaker><pb n="59"/>Dr. Odner</speaker>
+<stage>(s&#x00E6;tter sig hos hende og siger mildt).</stage>
+<p>Vivi, hvordan har du det?</p>
+</sp>
+<sp>
+<speaker>Fru Vivi</speaker>
+<p>Uh! Hvor du kjeder mig, du siger bestandig det samme! Og du ser aldrig, hvordan jeg har det &#x2013; jo, du ser det, men du er lige glad &#x2013;</p>
+</sp>
+<sp>
+<speaker>Dr. Odner.</speaker>
+<p>Men, Vivi!</p>
+</sp>
+<sp>
+<speaker>Fru Vivi</speaker>
+<stage>(som f&#x00F8;r).</stage>
+<p>&#x2013; Om der var en anden L&#x00E6;ge her &#x2013; &#x2013; &#x2013; jeg siger bare, om der var en anden L&#x00E6;ge her &#x2013; skulde jeg da vist! Hysch da, hysch da, jeg ved, hvad du mener!</p>
+</sp>
+<sp>
+<speaker>Dr. Odner.</speaker>
+<p>Ja, Vivi, ja! Jeg skal t&#x00E6;nke paa, om vi ikke kunde finde paa noget!</p>
+</sp>
+<sp>
+<speaker>Fru Vivi</speaker>
+<p>Nej, virkelig!</p>
+<stage>(skj&#x00E6;rende om mod ham.)</stage>
+<p>Om jeg nu for Eksempel d&#x00F8;de, f&#x00F8;r du fik t&#x00E6;nkt paa, &#x00AB;om vi kunde finde paa noget&#x00BB; &#x2013; &#x2013; ja, jeg siger bare, om jeg pludselig gaar hen og d&#x00F8;r for dig &#x2013; for det kunde da let h&#x00E6;nde, ikke sandt, Kai? Men vilde det v&#x00E6;re hyggeligt for dig det, at v&#x00E6;re min Morder?</p>
+</sp>
+<sp>
+<speaker><pb n="60"/>Dr. Odner</speaker>
+<stage>(taalmodig).</stage>
+<p>Vivi! Hvad er det egentlig, du mener?</p>
+</sp>
+<sp>
+<speaker>Fru Vivi</speaker>
+<stage>(henkastet).</stage>
+<p>For det ene har du sendt mig to r&#x00E6;dsomme Sanatoriedamer paa Halsen &#x2013; jeg kan ikke udstaa gamle Damer!</p>
+</sp>
+<sp>
+<speaker>Dr. Odner.</speaker>
+<p>Kj&#x00E6;re dig! Det var mine to Tanter! De var saa lykkelige over at kunne faa hilse paa dig!</p>
+</sp>
+<sp>
+<speaker>Fru Vivi</speaker>
+<stage>(leende).</stage>
+<p>De lyver bare! &#x2013; Jeg lyver fordetmeste selv, men jeg kan ikke fordrage at v&#x00E6;re sammen med Folk, som lyver! &#x2026; Kj&#x00E6;re, hvorfor kan de ikke sige sandt? Ikke sandt?</p>
+<stage>(falder tilbage, lukker &#x00F8;jnene.)</stage>
+<p>Du skulde fare lidt varligt med mig, Kai! Jeg fryser!</p>
+</sp>
+<sp>
+<speaker>Dr. Odner</speaker>
+<stage>(beroligende).</stage>
+<p>Du skal se, det blir nok bedre &#x2013; jeg skal hente et Uldteppe!</p>
+</sp>
+<sp>
+<speaker>Fru Vivi</speaker>
+<stage>(idet hun tr&#x00E6;kker sammen om sig Kniplingsjalet).</stage>
+<p>Et <emph>Uldteppe</emph>! Kai, du er dum! Det kommer af denne v&#x00E6;mmelige Botaniken!</p>
+</sp>
+<sp>
+<speaker><pb n="61"/>Dr. Odner</speaker>
+<stage>(livlig).</stage>
+<p>Aa, Vivi, du skulde v&#x00E6;ret med i Skogen idag &#x2013; du skulde set en Naturens &#x00D8;dselhed, ja, slig som det drev fra Furublomsten i lange, gyldne Skyer &#x2013; men, Vivi, husker du ikke, hvor du engang interesserte dig for Botanik?</p>
+</sp>
+<sp>
+<speaker>Fru Vivi.</speaker>
+<p>Du er dum, Kai! Det var jo dengang, f&#x00F8;r vi blev forlovet det. Botanik kan v&#x00E6;re bra nok, men jeg synes ikke, den er saadan til at holde paa med. Jeg er saa tr&#x00E6;t af Moserne dine, at du ved det ikke!</p>
+<stage>(rejser sig, knapper hurtigt igjen de to Knapper i Vesten.)</stage>
+<p>Hvad er Aarsagen til det, at du skal ta Livet af mig med de to Knapperne?</p>
+</sp>
+<sp>
+<speaker>Dr. Odner</speaker>
+<stage>(ler lidt, siger sagtferdig).</stage>
+<p>Ja, du havde jo klaget til Tanterne ogsaa &#x2013; over de Vesteknapperne! Forstaar du ikke, Vivi, at det generer mig &#x2013; is&#x00E6;r nu i Heden &#x2013; det er, som jeg ikke kan faa Luft &#x2013; &#x2013; jeg skal forklare dig hvorfor &#x2013;</p>
+</sp>
+<sp>
+<speaker>Fru Vivi</speaker>
+<stage>(afbryder).</stage>
+<p>Hysch da, jeg ved, hvad du mener! Du fejler saamen ingenting! &#x2013; Men du holder ikke mere af mig &#x2013; ikke som f&#x00F8;r!</p>
+<stage>(vipper med Foden. Hendes guldbroderede Sko falder af.)</stage>
+</sp>
+<sp>
+<speaker><pb n="62"/>Dr. Odner</speaker>
+<stage>(tar den op og s&#x00E6;tter den paa).</stage>
+<p>Den er saa liden &#x2026; Maria Guldsko! Du kan tro, jeg har gjort et interessant Fund idag &#x2013; en ganske ny Hypnum! Her skal du se!</p>
+<stage>(vil gaa og hente Kurven.)</stage>
+</sp>
+<sp>
+<speaker>Fru Vivi</speaker>
+<stage>(st&#x00F8;dt).</stage>
+<p>Naa, det er derfor, du er saa glad &#x2013; jeg saa det straks paa dig!</p>
+<stage>(holder ham tilbage.)</stage>
+<p>Aa, lad v&#x00E6;r! For du er saa gyselig, naar du begynder med dine Varianter og Synonymer og Gud ved, hvad den Stas heder!</p>
+</sp>
+<sp>
+<speaker>Dr. Odner</speaker>
+<stage>(gaar alligevel efter Kurven).</stage>
+<p>Men, Vivi, du skulde se lidt mere paa Moserne her i Skogen &#x2013; aldrig saa jeg en Pragt som her &#x2013; &#x2013; og som de kan komme krybende imod en inde i Skyggen med vredne Spidser, som vilde de helst smyge sig unna &#x2013; se her, du maa se!</p>
+</sp>
+<sp>
+<speaker>Fru Vivi</speaker>
+<stage>(vender sig fra ham, vil ikke h&#x00F8;re).</stage>
+<p>At du gider bry dig med alt det smaa! &#x2013; Store Tr&#x00E6;r maatte da v&#x00E6;re bedre. &#x2013; &#x2013; Nej, da har din Bror Just v&#x00E6;ret klokere! Gud, det er da noget, som gir af sig! Hvor mange Ordener har Just?</p>
+</sp>
+<sp>
+<speaker><pb n="63"/>Dr. Odner</speaker>
+<stage>(s&#x00E6;tter Kurven tilbage igjen)</stage>
+<p>Har du l&#x00E6;st Aviserne idag?</p>
+</sp>
+<sp>
+<speaker>Fru Vivi.</speaker>
+<p>Der staar aldrig noget!</p>
+</sp>
+<sp>
+<speaker>Dr. Odner.</speaker>
+<p>Der staar en hel Del fra Udlandet om den Afhandling, jeg vandt Prisen for. Jeg t&#x00E6;nkte, det kunde more dig!</p>
+</sp>
+<sp>
+<speaker>Fru Vivi</speaker>
+<stage>(trommer utaalmodig paa Bordet)</stage>
+<p>Det morer mig ikke! &#x2013; &#x2013; Har du glemt det, jeg &#x00F8;nsked mig idagmorges?</p>
+<stage>(t&#x00E6;ller paa Fingrene.)</stage>
+<p>Fem Ting fra Printemps &#x2013; &#x2013;</p>
+<stage>(Hun l&#x00E6;gger sine Arme om ham. Leger med hans Urkjede.)</stage>
+</sp>
+<sp>
+<speaker>Dr. Odner</speaker>
+<stage>(stille sp&#x00F8;gende).</stage>
+<p>Ja, Vivi, ja! Men jeg synes, du er saa nydelig, som du er! Og du ved &#x2013; nu netop har vi det lidt smaat &#x2013;</p>
+</sp>
+<sp>
+<speaker>Fru Vivi.</speaker>
+<p>&#x2013; for det du aldrig kan ta dig betalt, ja &#x2013; hysch da, jeg ved, hvad du vil sige! Det faar sandelig ikke hjelpe, om Folk er fattige! Om du vidste, hvor rasende uhyggeligt det er for mig, at vi aldrig har Raad til nogenting. Og du ved, Kai, jeg taaler ikke at &#x00E6;rgre mig!</p>
+</sp>
+<sp>
+<speaker><pb n="64"/>Dr. Odner</speaker>
+<stage>(eftert&#x00E6;nksomt).</stage>
+<p>Ja, Vivi, ja &#x2013;</p>
+</sp>
+<sp>
+<speaker>Fru Vivi</speaker>
+<stage>(afbryder harmende).</stage>
+<p>&#x00AB;Ja, Vivi, ja!&#x00BB; Jeg h&#x00F8;rer aldrig andet. Det er blet kronisk!</p>
+</sp>
+<sp>
+<speaker>Dr. Odner</speaker>
+<stage>(langsomt)</stage>
+<p>Hvis det er dig saameget om at gj&#x00F8;re, saa ved du &#x2013;</p>
+</sp>
+<sp>
+<speaker>Fru Vivi</speaker>
+<stage>(kommer pludselig i Tanker om noget andet. Hun fikserer ham).</stage>
+<p>Traf du saa hendes Naade i Skogen idag? Jeg skj&#x00F8;nner ikke &#x2013; du, som vil ha Folk saa begavede &#x2013; <emph>hun</emph> er da ikke begavet. Ikke det mindste!</p>
+</sp>
+<sp>
+<speaker>Dr. Odner.</speaker>
+<p>Hvoraf ved du det?</p>
+</sp>
+<sp>
+<speaker>Fru Vivi.</speaker>
+<p>Jo, hun er saa ufordragelig &#x2013; uh! &#x2013; &#x2013;</p>
+</sp>
+<sp>
+<speaker>Dr. Odner</speaker>
+<stage>(smiler).</stage>
+<p>Dine s&#x00E6;dvanlige gode Grunde.</p>
+</sp>
+<sp>
+<speaker><pb n="65"/>Fru Vivi</speaker>
+<stage>(rejser sig helt op. Stirrer paa ham).</stage>
+<p>Kai, jeg siger det rent ud &#x2013; jeg gifted mig med dig, for at jeg skulde faa det godt, man gifter sig da ved Gud sandelig ikke for at &#x2013;</p>
+<stage>(gr&#x00E6;der.)</stage>
+<p>Ikke andet jeg ved, mente du ogsaa selv at &#x2013;</p>
+</sp>
+<sp>
+<speaker>Dr. Odner.</speaker>
+<p>Men, Vivi. du ved jo, jeg vil gj&#x00F8;re alt for dig!</p>
+</sp>
+<sp>
+<speaker>Fru Vivi</speaker>
+<stage>(h&#x00E6;rmende).</stage>
+<p>Ja, Tak, Alt! Bare ikke lade v&#x00E6;re og gaa og rode med alt det der!</p>
+</sp>
+<sp>
+<speaker>Dr. Odner.</speaker>
+<p>Det der??</p>
+</sp>
+<sp>
+<speaker>Fru Vivi</speaker>
+<stage>(bestemt).</stage>
+<p>Ja, det er det, som er Fejlen! Indr&#x00F8;m det, Kai, Videnskab og alt sligt, det er igrunden bare en Maade at v&#x00E6;re vigtig paa &#x2013; t&#x00E6;nk, det tror jeg! &#x2013; &#x2013; Det er derfor, du s&#x00E6;tter dig til i denne Fjelddalen ogsaa, du <emph>kunde</emph> kommet til en By, det ved jeg!</p>
+</sp>
+<sp>
+<speaker>Dr. Odner</speaker>
+<stage>(svarer ikke).</stage>
+</sp>
+<sp>
+<speaker>Fru Vivi</speaker>
+<stage>(hen til ham).</stage>
+<p>Du snakker saa meget om Pligt &#x2013; og at man skal holde, hvad man lover &#x2013; &#x2013; det er da vel ikke <pb n="66"/>bare de fattige, det gjelder? Og alle mulige andre Mennesker?</p>
+</sp>
+<sp>
+<speaker>Dr. Odner</speaker>
+<stage>(ser sky paa hende).</stage>
+</sp>
+<sp>
+<speaker>Fru Vivi</speaker>
+<stage>(leende).</stage>
+<p>Det er nemlig din Pligt at elske mig &#x2013; over Moser og Mennesker!</p>
+</sp>
+<sp>
+<speaker>Dr. Odner</speaker>
+<stage>(sagtferdig).</stage>
+<p>Ja, Vivi, ja! Jeg skal se at forbedre mig!</p>
+</sp>
+<sp>
+<speaker>Fru Vivi</speaker>
+<stage>(ind til ham)</stage>
+<p>Saa tilgir jeg dig! Er det ikke stort af mig, at jeg gj&#x00F8;r det. Sagde du ikke, du vilde skrive straks?</p>
+<stage>(Man h&#x00F8;rer nogen udenfor. Det banker paa D&#x00F8;ren.)</stage>
+</sp>
+<sp>
+<speaker>Dr. Odner</speaker>
+<stage>(skyndsomt).</stage>
+<p>Det er Herluf! Jeg skal gaa og tale med ham derude. Du kan jo ikke ta mod ham, naar du ikke er bra.</p>
+</sp>
+<sp>
+<speaker>Fru Vivi</speaker>
+<stage>(fortrydelig, idet hun hastigt retter paa sit Toilette.)</stage>
+<p>Det ligner dig at lade Professoren bli staaende udenfor.</p>
+<stage>(l&#x00E6;gger sig tilbage, roper i en lys, munter Tone.)</stage>
+<p>Kom ind! Stig paa!</p>
+</sp>
+<sp>
+<speaker><pb n="67"/>Herluf &#x00D8;rn</speaker>
+<stage>(kommer, stanser i D&#x00F8;ren, hilser).</stage>
+<p>&#x00C6;rb&#x00F8;digst Godmorgen! Undskyld, Madame er vist ikke rask?</p>
+<stage>(Fru Vivi rejser sig halvt, str&#x00E6;kkor Haanden ud mod ham.)</stage>
+</sp>
+<stage>(Han kommer hen, kysser den &#x00E6;rb&#x00F8;dig.)</stage>
+<sp>
+<speaker>Fru Vivi.</speaker>
+<p>Jeg er bedre! Det gl&#x00E6;der mig at se Dem. Trodde n&#x00E6;sten De var d&#x00F8;d.</p>
+</sp>
+<sp>
+<speaker>Herluf &#x00D8;rn.</speaker>
+<stage>(smilende).</stage>
+<p>Endnu ikke.</p>
+</sp>
+<sp>
+<speaker>Fru Vivi.</speaker>
+<p>Men der skal gaa slig Kjedsomhedsepidemi paa Sanatoriet?</p>
+</sp>
+<sp>
+<speaker>Herluf &#x00D8;rn.</speaker>
+<p>Jeg er ikke modtagelig, Frue!</p>
+</sp>
+<sp>
+<speaker>Fru Vivi</speaker>
+<stage>(rejser sig helt).</stage>
+<p>Der kommer noget saa friskt med Dem. Jeg f&#x00F8;ler mig formelig bedre af det. Mandfolk er nu interessante, det har jeg bestandig sagt &#x2013; ikke sandt, Kai?</p>
+</sp>
+<sp>
+<speaker>Dr. Odner</speaker>
+<stage>(ler).</stage>
+<p>Jo, det er aldeles rigtig, som Vivi siger. Naar du kommer &#x2013; der er noget ved dig, som skulde du gj&#x00F8;re en hel Verdenserobring, vinde nyt Land!</p>
+</sp>
+<sp>
+<speaker><pb n="68"/>Herluf &#x00D8;rn</speaker>
+<p>Det skal jeg ogsaa!</p>
+</sp>
+<sp>
+<speaker>Fru Vivi</speaker>
+<stage>(ser langt paa ham).</stage>
+<p>De vil altid komme til at sejre! Men se nu f&#x00F8;rst, om De kan hjelpe mig at forbedre denne Tyrannen lidt!</p>
+</sp>
+<sp>
+<speaker>Herluf &#x00D8;rn</speaker>
+<stage>(smilende).</stage>
+<p>Det falder Dem neppe vanskelig, Frue, at afs&#x00E6;tte Tyranner!</p>
+</sp>
+<sp>
+<speaker>Fru Vivi.</speaker>
+<p>Jeg har jo faat ham bedre &#x2013; og kj&#x00E6;re, man <emph>maa</emph> jo ha nogle Scener imellem! Men da gaar han, han siger aldrig nogenting &#x2013; men det er da det eneste hyggelige, synes jeg, at kunne ta lidt fra sig.</p>
+</sp>
+<sp>
+<speaker>Herluf &#x00D8;rn</speaker>
+<stage>(stanser foran hende, smiler, ser paa hende).</stage>
+</sp>
+<sp>
+<speaker>Fru Vivi</speaker>
+<stage>(leende, ivrig).</stage>
+<p>Han er igrunden forf&#x00E6;rdelig rasende rar &#x2013; og komisk! Han vil, jeg skal v&#x00E6;re forn&#x00F8;jet bestandig! Det er jo umuligt!</p>
+</sp>
+<sp>
+<speaker>Herluf &#x00D8;rn.</speaker>
+<p>Vist er det saa! Verdens Fremgang skyldes de misforn&#x00F8;jede.</p>
+</sp>
+<sp>
+<speaker><pb n="69"/>Fru Vivi</speaker>
+<stage>(som f&#x00F8;r).</stage>
+<p>Vi har en Brevkasse her i Huset, se her! Naar jeg er rigtig ordentlig rasende, da taler jeg ikke med ham, jeg skriver. Men det, som er det v&#x00E6;rste med Kai &#x2013; han har ikke nogen Samvittighed &#x2013;</p>
+</sp>
+<sp>
+<speaker>Herluf &#x00D8;rn</speaker>
+<stage>(som f&#x00F8;r).</stage>
+<p>Samvittighed betegner en Mellemtilstand i ens Udvikling, Frue. Der er Mennesker saa gode, at de ingen beh&#x00F8;ver &#x2013;</p>
+</sp>
+<sp>
+<speaker>Fru Vivi</speaker>
+<p>Jeg har ikke Spor! Men sig mig, Professor, hvad skal man egentlig finde paa for at gj&#x00F8;re Livet behageligt for sig?</p>
+</sp>
+<sp>
+<speaker>Herluf &#x00D8;rn.</speaker>
+<p>Kjender De den store Zadig, Frue? Han siger: Store Gud, hvor det er farligt at s&#x00E6;tte sig ved Vinduet, og hvor det er vanskeligt at leve behageligt i dette Liv. Han har naturligvis ikke Ret.</p>
+</sp>
+<sp>
+<speaker>Fru Vivi</speaker>
+<stage>(pludselig mod ham).</stage>
+<p>Ved De, hvad man siger om Dem paa Sanatoriet? Nej, jeg siger det ikke. Jeg er forn&#x00E6;rmet. Hvorfor m&#x00F8;dte De os ikke i Skogen igaar? Naar De gaar og leder efter Tyrannen, som De aldrig kan finde, saa plejer De komme farende mod Dagny og mig og <pb n="70"/>skr&#x00E6;mme Livet af os. Hvorfor gjorde De ikke det igaar?</p>
+</sp>
+<sp>
+<speaker>Dr. Odner</speaker>
+<stage>(gaar hen til sin Hustru, gnider sig i H&#x00E6;nderne som han gj&#x00F8;r, naar han er i godt Hum&#x00F8;r).</stage>
+<p>Jeg ser det paa Herluf, at han vil ha Kaffe.<note type="footnote">Kaffe.] <hi rend="italic">rettet fra:</hi> Kaffe <hi rend="italic">(trykkfeil)</hi></note></p>
+</sp>
+<sp>
+<speaker>Fru Vivi.</speaker>
+<p>Det skal han faa &#x2013; og Dagnys ber&#x00F8;mte Vafler! Vi skal drikke ude paa Pynten under den store Granen vor!</p>
+<stage>(Idet hun gaar forbi, vender hun sig mod Herluf &#x00D8;rn, &#x00E6;rtende.)</stage>
+<p>Er det sandt, Jorden er saa aldeles liden for Dem, at De bestandig gaar med de andre Kloder i Tankerne? Naar De vandrer over til en af dem, saa sig mig til!</p>
+<stage>(Hun gaar ud.)</stage>
+</sp>
+<stage>(De to M&#x00E6;nd blir alene. Herluf &#x00D8;rn gaar omkring paa sin hurtige Vis. Vanem&#x00E6;ssig bev&#x00E6;ger han Armene, knytter af og til H&#x00E6;nderne som i et Overmaal af vital Kraft.)</stage>
+<sp>
+<speaker>Dr. Odner</speaker>
+<stage>(ser paa ham, ler, stille lunt. Siger tilsist).</stage>
+<p>Du er akkurat, som da du var Gut! Altid var det noget, du skulde til med. Hvad er det nu?</p>
+</sp>
+<sp>
+<speaker>Herluf &#x00D8;rn</speaker>
+<stage>(stanser, ser paa ham).</stage>
+<p>Du er igrunden ogsaa den samme. Du havde en slig utrolig Taalmodighed med os allesammen &#x2013; du har vel den endda? &#x2013; <pb n="71"/>Hvor hun er nydelig, din Kone! Slemt at hun er saa svag. Hun ser ellers sterkere ud, end du gj&#x00F8;r.</p>
+</sp>
+<sp>
+<speaker>Dr. Odner.</speaker>
+<p>Ja, hun blir saa livlig, naar der kommer nogen &#x2013; du skulde komme her oftere!</p>
+</sp>
+<sp>
+<speaker>Herluf &#x00D8;rn</speaker>
+<stage>(ler).</stage>
+<p>For at du tryggere kan ligge ude og rode! Du er liberal!</p>
+<stage>(Under det etterf&#x00F8;lgende gaar han bestandig eller staar. Han taler ligesom med hele Legemet. Det er, som Linierne b&#x00F8;jer sig, tar Form efter Tanken.)</stage>
+</sp>
+<sp>
+<speaker>Dr. Odner</speaker>
+<stage>(s&#x00E6;tter sig ned. Han ser tr&#x00E6;t ud. Og han ser efter Vennen, som driver frem og tilbage).</stage>
+<p>Du kommer til at bli gammel du, uden nogensinde at ha siddet ned &#x2013;</p>
+</sp>
+<sp>
+<speaker>Herluf &#x00D8;rn.</speaker>
+<p>Men du &#x2013; slig som du kan sidde &#x2013; stille, som en Kvinde.</p>
+</sp>
+<sp>
+<speaker>Dr. Odner</speaker>
+<stage>(smilende).</stage>
+<p>Og du! Du har en Opsamling af motorisk Energi, som er rent merkelig!</p>
+</sp>
+<sp>
+<speaker><pb n="72"/>Herluf &#x00D8;rn</speaker>
+<stage>(stanser foran ham).</stage>
+<p>Og du! Du ser ud, som du lever endda paa dine stille, fine Idealer. Har du faat omdannet alt det til Realiteter, saa er det godt gjort!</p>
+</sp>
+<sp>
+<speaker>Dr. Odner</speaker>
+<stage>(forlegen).</stage>
+<p>Jeg gaar saa meget ude &#x2013;</p>
+</sp>
+<sp>
+<speaker>Herluf &#x00D8;rn.</speaker>
+<p>Ja og roder &#x2013; og laver Teorier &#x2013;</p>
+</sp>
+<sp>
+<speaker>Dr. Odner</speaker>
+<stage>(livlig).</stage>
+<p>Ja, det gaar godt en Stund &#x2013; men saa kommer Naturen med sine Indfald &#x2013; en Form, som slet ikke skulde v&#x00E6;re der &#x2013; og &#x00F8;del&#x00E6;gger hele Artsbegrebet for en. Men det, som ikke &#x00F8;del&#x00E6;gges, er, at man ved intet.</p>
+</sp>
+<sp>
+<speaker>Herluf &#x00D8;rn</speaker>
+<stage>(sp&#x00F8;gende).</stage>
+<p>Hav Respekt for Intet &#x2013; af det blev jo alting skabt. Og din Uvidenhed holder paa at gj&#x00F8;re dig verdensber&#x00F8;mt!</p>
+</sp>
+<sp>
+<speaker>Dr. Odner</speaker>
+<stage>(stille henrevet).</stage>
+<p>Det er det, du &#x2013; &#x2013; den uhyre Gl&#x00E6;de ved at finde Aarsagerne &#x2013; &#x2013; det er ligesom &#x2013; du ved, i Asien, disse merkelige Fodspor, som man indbildte <pb n="73"/>sig var Buddhas, <emph>Skaberens</emph> &#x2013; &#x2013; &#x2013; det er det, overalt har vi hans Fodspor! Det er dem, jeg ligger og ser efter inde i Moserne ogsaa.</p>
+</sp>
+<sp>
+<speaker>Herluf &#x00D8;rn</speaker>
+<stage>(muntert).</stage>
+<p>Ja, slig Moro det er at komme listende over dig &#x2013; se dig sidde paa Huk og stirre &#x2013; eller gaa forsigtig, med sagte Skridt, som var du r&#x00E6;d for at forstyrre &#x2013;</p>
+</sp>
+<sp>
+<speaker>Dr. Odner.</speaker>
+<p>Det er jeg ogsaa!</p>
+</sp>
+<sp>
+<speaker>Herluf &#x00D8;rn.</speaker>
+<p>Hvor heldigt, at din lille Kone er saa interesseret for dit Studium! Jeg husker det henrykte Brev, du skrev til mig om det.</p>
+</sp>
+<sp>
+<speaker>Dr. Odner</speaker>
+<stage>(undvigende).</stage>
+<p>Fort&#x00E6;l nu lidt om dig selv!</p>
+</sp>
+<sp>
+<speaker>Herluf &#x00D8;rn</speaker>
+<stage>(vedblir).</stage>
+<p>I arbejder jo sammen, skrev du! &#x2013; Jeg blev alligevel forundret, da jeg h&#x00F8;rte, det var hende. Jeg husker hende jo lidt fra f&#x00F8;r!</p>
+</sp>
+<sp>
+<speaker>Dr. Odner</speaker>
+<p>Hvad er dine Planer? Gaar du tilbage til Universitetet derover, eller blir du her?</p>
+</sp>
+<sp>
+<speaker><pb n="74"/>Herluf &#x00D8;rn</speaker>
+<stage>(driver omkring).</stage>
+<p>Ingen af Delene! Ser du, jeg maa til med noget andet end du! Jeg kan ikke gaa saa stille med mit &#x2013; jeg vil v&#x00E6;re med at v&#x00E6;kke den Storm, som skal rense Luften &#x2013;</p>
+<stage>(stanser foran ham.)</stage>
+<p>I disse Aar, ser du &#x2013; &#x2013; jeg har gaat og samlet Materiale til min store Bog &#x2013; men jeg vil ogsaa skrive den i det levende Liv &#x2013; &#x2013; en ny Guds Stad maa bygges paa Jorden. Vi begynder straks!</p>
+</sp>
+<sp>
+<speaker>Dr. Odner</speaker>
+<stage>(smilende).</stage>
+<p>De Stille i Landet kan da ogsaa v&#x00E6;re med paa det!</p>
+</sp>
+<sp>
+<speaker>Herluf &#x00D8;rn.</speaker>
+<p>Javist! Og Lovgiverne, V&#x00E6;rdiskaberne, det skal ikke l&#x00E6;nger v&#x00E6;re dem, der bygger med en Haand og &#x00F8;der med den anden. Godheden udviklet til Verdensaand, til den store, drivende Kraft &#x2013; det er Fremtidens Program.</p>
+</sp>
+<sp>
+<speaker>Dr. Odner</speaker>
+<stage>(ser smilende paa ham).</stage>
+<p>Hvor du er ung! Dine Ord lokker som Eventyr, som aabent Hav! Send dine Skibe ud!</p>
+</sp>
+<sp>
+<speaker>Herluf &#x00D8;rn.</speaker>
+<p>Det skal jeg! Jeg vil l&#x00E6;gge ud mod lukkede Land. Men der er saa meget, der maa forberedes <pb n="75"/>&#x2013; &#x2013; der maa nye Mennesker til, ny Moral &#x2013; vi har jo ingen! Og vi maa begynde at samle Sten til Fremtidsreligionens store Katedral. Der er Religioner med 13,000 guddommelige Bud. Vi skal forbi alt dette &#x2013; frem gjennem Kj&#x00E6;rlighed og Retf&#x00E6;rdighed ind til den store Enkelhed. Der finder man Gud!</p>
+</sp>
+<sp>
+<speaker>Dr. Odner.</speaker>
+<p>Hvor du er ung! Det er. som h&#x00F8;rer jeg det suse i ny Vin! Men jeg er r&#x00E6;d, du er kommet for tidligt til Verden!</p>
+</sp>
+<sp>
+<speaker>Herluf &#x00D8;rn.</speaker>
+<p>Nu vil jeg netop helst! De fineste Kr&#x00E6;fter, netop nu er de begyndt at l&#x00F8;fte sig ind i Dagslyset. Jeg vil v&#x00E6;re med om at skabe &#x2013; &#x2013; jeg vil &#x2013; &#x2013;</p>
+<stage>(stanser, tier, fors&#x00F8;ger at udtrykke sig videre ved Gestus. Det lyser, glimter af ham. Han stormer igjen omkring.)</stage>
+</sp>
+<sp>
+<speaker>Dr. Odner</speaker>
+<stage>(ler, men der kommer paa samme Tid noget vemodigt over ham).</stage>
+<p>Prometeus, vogt dig! Stj&#x00E6;l ikke for meget! Vi taaler ikke stort af Gangen!</p>
+</sp>
+<sp>
+<speaker>Herluf &#x00D8;rn.</speaker>
+<p>Ser du, den store Revolution lykkedes ikke! De tog for lidet med og f&#x00F3;r for fort frem. Man maa l&#x00E6;re af Tiden: den &#x00F8;del&#x00E6;gger langsomt, sikkert &#x2013; og bygger op paa samme Vis!</p>
+</sp>
+<sp>
+<speaker><pb n="76"/>Dr. Odner.</speaker>
+<p>Ja, det er det. Alting maa gro sagte, men jeg synes, du har det saa braadt!</p>
+</sp>
+<sp>
+<speaker>Herluf &#x00D8;rn</speaker>
+<stage>(uden at h&#x00F8;re).</stage>
+<p>Ser du, min Dr&#x00F8;m, det er at aabne stor Vej &#x2013; for store Vinger &#x2013; for de smaa ogsaa!</p>
+<stage>(blir staaende taus).</stage>
+</sp>
+<sp>
+<speaker>Dr. Odner</speaker>
+<stage>(ser op. Siger lunt).</stage>
+<p>Her blev saa stilt med et. N&#x00E6;sten som kunde En h&#x00F8;re de fjerne Skridt af Fremtiden, du!</p>
+</sp>
+<sp>
+<speaker>Herluf &#x00D8;rn</speaker>
+<stage>(er blet staaende og se paa ham skarpt. Siger pludselig).</stage>
+<p>Jeg liker dig ikke! Du ser ud, som du har noget, du gaar og kj&#x00E6;mper med! Du, som har alt muligt &#x2013; det siger du jo selv, Gut!</p>
+</sp>
+<sp>
+<speaker>Dr. Odner</speaker>
+<stage>(ser overrasket paa ham. Siger paa sin stille Maade).</stage>
+<p>Ja, du, jeg har saa meget mere, end jeg fortjener. &#x2013; Hvis du ikke kan se det paa mig, saa er det &#x2013; &#x2013; ja, saa er det min egen Skyld. Det siger Vi vi ogsaa, og Vivi har Ret! Men lad os tale lidt mere om dig. Du er mer interessant. Det siger Vivi ogsaa, og Vivi har Ket.</p>
+<stage>(rejser sig, gaar hen og l&#x00E6;gger sin Haand paa hans Skulder.)</stage>
+<p>Du vil l&#x00E6;re Menneskene noget nyt. Menneskene har vidst saameget, du, men de glemmer det bestandig <pb n="77"/>igjen! Du vil l&#x00E6;re dem at elske Retf&#x00E6;rdighed. Hvorledes skal du faa gjort det? De korsf&#x00E6;ster &#x2013;</p>
+</sp>
+<sp>
+<speaker>Herluf &#x00D8;rn</speaker>
+<stage>(energisk afbrydende).</stage>
+<p>De skal v&#x00E6;nne sig af med det. Lyt! Det arbejder i Tiden. Og Menneskeheden maa lystre! &#x2013; Det er, som et dybt &#x00D8;je stirrer paa den og befaler: Fremad! &#x2013; Der er en Tanke, som faa ved om endda, men med brede Vingeslag vil den fare Verden over. Den er: I dit eget Liv ligger Skatten gjemt. Vogt det hellige i dig selv!</p>
+</sp>
+<sp>
+<speaker>Dr. Odner.</speaker>
+<p>Ja, alting &#x00E6;ndres jo! Lad os haabe paa en mere vellykket Menneskehed end vor!</p>
+</sp>
+<sp>
+<speaker>Herluf &#x00D8;rn</speaker>
+<stage>(hen foran ham, sterkt besluttet).</stage>
+<p>Jeg gaar derover &#x2013; nu snart! Jeg har stillet mig i Spidsen for en Indvandring, sat mig i Forbindelse med den amerikanske Regjering og andre. Paa en af de herlige, tomme Sletter ved Misissippi bygger vi nyt Samfund. &#x2013; Der skal man ikke beh&#x00F8;ve at maatte rejse sig og gaa sulten fra Livets Bord! &#x2013;</p>
+<p>Bliv med! Det vil passe for dig!</p>
+</sp>
+<sp>
+<speaker>Dr. Odner.</speaker>
+<p>For mig kanske! Ikke for Vivi!</p>
+</sp>
+<sp>
+<speaker><pb n="78"/>Herluf &#x00D8;rn.</speaker>
+<p>Hun? Hun lever jo bare for dig! Det binder jo dobbelt, et saadant Forhold.</p>
+</sp>
+<sp>
+<speaker>Dr. Odner.</speaker>
+<p>Naar drager du saa?</p>
+</sp>
+<sp>
+<speaker>Herluf &#x00D8;rn</speaker>
+<stage>(hen til ham. I en anden, fortrolig Tone).</stage>
+<p>Jeg havde igrunden gl&#x00E6;det mig til at se din Henrykkelse paa n&#x00E6;rt Hold!</p>
+<stage>(sp&#x00F8;gende.)</stage>
+<p>For den er da vel ikke bare skriftlig? Den er saa stille!</p>
+</sp>
+<sp>
+<speaker>Dr. Odner</speaker>
+<stage>(pr&#x00F8;ver ogsaa at ta det sp&#x00F8;gende)</stage>
+<p>Ja, den er det!</p>
+<stage>(pludselig ind mod ham.)</stage>
+<p>Du var altid min Bror! Jeg vil fort&#x00E6;lle dig, hvordan det kom: Vi var saa unge! Vi var i Kirke sammen til Bryllup. Og hun bad mig: Gaa Kirkegulvet op sammen med mig! Jeg gjorde det. Og det var som for Guds Ansigt! &#x2013; &#x2013; Da blev vi bundet til hinanden.</p>
+<stage>(Han blir staaende og stirre som ind i noget.)</stage>
+</sp>
+<stage>(Der kommer nogen syngende ud fra Skogen, op mod Huset.)</stage>
+<sp>
+<speaker>Dr. Odner</speaker>
+<stage>(tar sig sammen med en pludselig Bev&#x00E6;gelse. Gaar hen, ser ud af den aabne D&#x00F8;r og blir staaende).</stage>
+</sp>
+<sp>
+<speaker><pb n="79"/>Herluf &#x00D8;rn</speaker>
+<stage>(kommer ogsaa hen og blir staaende).</stage>
+<p>Der er det ved hende, at man maa se efter hende!</p>
+</sp>
+<sp>
+<speaker>Dr. Odner</speaker>
+<stage>(svarer ikke).</stage>
+</sp>
+<sp>
+<speaker>Herluf &#x00D8;rn.</speaker>
+<p>Der staar Straaler om hende &#x2013; som af en fin, mangestrenget Klang &#x2013; &#x2013; det er ikke Stemmen bare, det er Gangen og det hele.</p>
+</sp>
+<sp>
+<speaker>Dr. Odner</speaker>
+<stage>(stille, uden at h&#x00F8;re den siste Replik).</stage>
+<p>Ja, de gj&#x00F8;r det! Alle ser efter hende!</p>
+<stage>(De blir staaende og f&#x00F8;lge med &#x00D8;jnene Bodil, der med Doktorens lille S&#x00F8;n, Fin, ved Haanden og stadig syngende stiger op mod Huset ad den slyngede Sti, snart skjult af Tr&#x00E6;r, snart igjen synlig.)</stage>
+</sp>
+<sp>
+<speaker>Fru Vivi</speaker>
+<stage>(er under dette ubemerket kommet ind fra den &#x00F8;verste D&#x00F8;r tilvenstre. Hun h&#x00F8;rer sin Mands og Professorens siste Ord. Hun blir staaende, ser fra den ene til den anden, gjentar i undertrykt Vrede).</stage>
+<p>&#x00AB;Alle ser efter hende!&#x00BB; Det er det, som er rasende &#x00E6;rgerligt!</p>
+</sp>
+<sp>
+<speaker>Dr. Odner</speaker>
+<stage>(vender sig om).</stage>
+<p>Vivi, hvad er det?</p>
+</sp>
+<sp>
+<speaker><pb n="80"/>Fru Vivi</speaker>
+<p>Ingenting! Du ved, jeg har saa let for at ta mig n&#x00E6;r af alting! Det er bare Sultan, han har spist alle Vaflerne!</p>
+</sp>
+<sp>
+<speaker>Dr. Odner</speaker>
+<p>Den maa ikke faa saadane Vaner!</p>
+<stage>(gaar hurtigt ud.)</stage>
+</sp>
+<sp>
+<speaker>Fru Vivi</speaker>
+<stage>(efter ham).</stage>
+<p>Slaa den ikke &#x2013; for det er ikke sandt!</p>
+<stage>(&#x00E6;rtende.)</stage>
+<p>Eller slaa den bare du, for du kan ikke!</p>
+</sp>
+<sp>
+<speaker>Dr. Odner</speaker>
+<stage>(kommer tilbage igjen, ser forundret paa sin Hustru, men siger ikke noget).</stage>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(kommer idetsamme frem foran den aabne D&#x00F8;r. Hun er sommerligt kl&#x00E6;dt, ganske enkelt og tarveligt &#x005B;et sort Skj&#x00F8;rt og en lyseblaa Vasket&#x00F8;js Blouse&#x005D;. Hun har Fin ved Haanden. Hun hilser smilende til alle).</stage>
+<p>Her er en liden Mand, som gik sig vild udi Skogen. Han er sulten som en Skrub. Jeg maatte synge for ham, at han skulde glemme, hvor tr&#x00E6;t han var.</p>
+</sp>
+<sp>
+<speaker>Fin</speaker>
+<stage>(springer hen og kaster sig i Armene paa sin Far. Klynger sig til ham, idet han ser sky hen til sin Mor).</stage>
+<p>Mest r&#x00E6;d var jeg, der skulde komme en Bj&#x00F8;rn!</p>
+<stage><pb n="81"/>(Han har en liden fyldt Botaniserkasse over Skulderen og Lommerne struttende fulde af Moser.)</stage>
+<p>Se, her har jeg fundet nogle nye Moser til dig. Papa &#x2013; &#x2013; er&#x0027;ke det no&#x0027;en orntli&#x0027;e Arter, syns du?</p>
+</sp>
+<sp>
+<speaker>Fru Vivi</speaker>
+<stage>(kommer hen, griber ham heftig i Armen).</stage>
+<p>Og du har vovet at gaa uden Lov?</p>
+</sp>
+<sp>
+<speaker>Fin</speaker>
+<stage>(ser paa hende sky).</stage>
+<p>Du sagde, jeg skulde finde Kari! Men saa var Vejen jo borte!</p>
+<stage>(gr&#x00E6;dende.)</stage>
+<p>Uff, du tar saa hardt, jeg vil gaa med Bodil!</p>
+</sp>
+<sp>
+<speaker>Fru Vivi</speaker>
+<stage>(tr&#x00E6;kker ham ophidset med sig hen mod D&#x00F8;ren. Siger lavt).</stage>
+<p>Dersom du nogensinde gaar med det Menneske mer &#x2013;</p>
+</sp>
+<sp>
+<speaker>Fin</speaker>
+<stage>(h&#x00F8;jt, trodsig).</stage>
+<p>De&#x0027;rke no&#x0027;et Menske, det er Bodil!</p>
+</sp>
+<sp>
+<speaker>Fru Vivi.</speaker>
+<p>Du er en Skurk!</p>
+<stage>(st&#x00F8;der ham heftig ud af D&#x00F8;ren og lukker af.)</stage>
+</sp>
+<stage>(Doktoren, der har syslet med noget henne ved sit Skrivebord, ser bekymret efter ham.)</stage>
+<sp>
+<speaker><pb n="82"/>Fru Vivi</speaker>
+<stage>(gaar smilende tilbage til Bodil, der under Latter og Sp&#x00F8;g er blet staaende og tale med Professoren. Hun ser paa hende med kolde &#x00D8;jne og et blidt, venskabeligt Smil).</stage>
+<p>Vi er Dem saa takskyldig, fordi De kom med vor lille Skurk! &#x2013; Men min S&#x00F8;ster var gaat ud for at hente ham ind, saa De skulde ikke ulejliget Dem bare med det.</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(ser paa hende lidt. Saa gjentar hun)</stage>
+<p>Bare med det? &#x2013; &#x2013; Jeg skulde hente lidt Medicin ogsaa til vesle Ejvind!</p>
+</sp>
+<sp>
+<speaker>Dr. Odner</speaker>
+<stage>(ivrig mod hende).</stage>
+<p>Men vil De da ikke sidde ned? Den er ikke ferdig!</p>
+<stage>(gaar hen igjen til sit Skrivebord.)</stage>
+<p>Og saa drikker De Kaffe med os. Ikke sandt, Vivi, vi skal ha Kaffe!</p>
+</sp>
+<sp>
+<speaker>Fru Vivi.</speaker>
+<p>Det maa De da endelig. Doktoren ber Dem. Han, som aldrig inviterer Folk til nogenting!</p>
+<stage>(tar Plads ved Siden af hende. Hendes &#x00D8;jne vogter hende.)</stage>
+<p>De ser saa lykkelig ud!</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(ler).</stage>
+<p>Det er man jo bare, naar man har tabt sin Forstand &#x2013; eller naar man aldrig har havt nogen!</p>
+</sp>
+<sp>
+<speaker><pb n="83"/>Herluf &#x00D8;rn.</speaker>
+<stage>(hen foran hende).</stage>
+<p>Og det ler De af!</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(leende).</stage>
+<p>Ler jeg? Det vidste jeg ikke!</p>
+</sp>
+<sp>
+<speaker>Herluf &#x00D8;rn.</speaker>
+<p>Jeg har lagt Merke til, De ler n&#x00E6;sten bestandig &#x2013; eller synger!</p>
+</sp>
+<sp>
+<speaker>Bodil.</speaker>
+<p>Jo, tak, jeg morer mig om Dagen! Husk, et Menneske skal afl&#x00E6;gge Regnskab for alt, hvad det ikke har nydt af, hvad dets &#x00D8;je har set!</p>
+</sp>
+<sp>
+<speaker>Fru Vivi.</speaker>
+<p>Ja, og saa i dette dejlige Vejr, is&#x00E6;r om Morgenen. M&#x00F8;dte De ikke min Mand i Skogen idag?</p>
+</sp>
+<sp>
+<speaker>Bodil.</speaker>
+<p>Jo!</p>
+</sp>
+<sp>
+<speaker>Fru Vivi.</speaker>
+<p>Og vist igaar ogsaa!</p>
+</sp>
+<sp>
+<speaker>Bodil.</speaker>
+<p>Vi m&#x00F8;der ofte Doktoren, min Bror og jeg paa vore Morgenture.</p>
+</sp>
+<sp>
+<speaker><pb n="84"/>Fru Vivi</speaker>
+<p>Og saa om Aftenen! Den dejlige Tur forleden, med Stjerneskud! Hvad &#x00F8;nsked De Dem, mens de faldt? Et langt Liv? Eller kanske bare &#x2013;</p>
+</sp>
+<sp>
+<speaker>Herluf &#x00D8;rn</speaker>
+<stage>(lystig).</stage>
+<p>&#x2013; eller kanske bare leve med Sommeren og d&#x00F8; med Roserne. &#x2013; Det skal v&#x00E6;re det bedste, har jeg h&#x00F8;rt.</p>
+</sp>
+<sp>
+<speaker>Dr. Odner</speaker>
+<stage>(er blet staaende henne ved sit Bord. Han flytter paa nogle Flasker. Han f&#x00F8;lger Ordskiftet. Hans &#x00D8;jne er melankolske. De flammer op og spiller. Lidt efter er de stille igjen. Han gj&#x00F8;r af og til en uvilkaarlig Bev&#x00E6;gelse hen mod Bodil).</stage>
+</sp>
+<sp>
+<speaker>Fru Vivi</speaker>
+<stage>(gaar hen til sin Mand).</stage>
+<p>Men snille dig, Kai, hvad roder du efter?</p>
+</sp>
+<sp>
+<speaker>Dr. Odner.</speaker>
+<p>Jeg skulde lave noget Medicin.</p>
+</sp>
+<sp>
+<speaker>Fru Vivi</speaker>
+<stage>(taler til ham i en lav, ophidset Tone).</stage>
+</sp>
+<sp>
+<speaker>Herluf &#x00D8;rn</speaker>
+<stage>(hen til Bodil).</stage>
+<p>Har De t&#x00E6;nkt over, hvad jeg foreslog Dem igaar?</p>
+</sp>
+<sp>
+<speaker><pb n="85"/>Bodil</speaker>
+<stage>(leende).</stage>
+<p>Nej! For jeg vilde fryse bare af at t&#x00E6;nke paa de H&#x00F8;jder, hvor De f&#x00E6;rdes! Jeg maa ha det varmt omkring mig. Mon det ikke er bedst hernede paa Jorden?</p>
+</sp>
+<sp>
+<speaker>Herluf &#x00D8;rn.</speaker>
+<p>Hvad var det, De nynned, da De kom her? &#x2013; Det samme, som ude paa Trappen idag tidlig!</p>
+</sp>
+<sp>
+<speaker>Bodil.</speaker>
+<p>Det var en Stub, jeg har l&#x00E6;rt af Kari.</p>
+<stage>(citerer.)</stage>
+<lg>
+<l>Aa du! Kor Steinen er hard,</l>
+<l>Soli smelt den inkje,</l>
+<l>inkje eingong Maanen.</l>
+</lg>
+<stage>(ser hen paa Fru Odner, der fremdeles taler ivrig og d&#x00E6;mpet.)</stage>
+</sp>
+<sp>
+<speaker>Herluf &#x00D8;rn.</speaker>
+<p>Men der var mere!</p>
+</sp>
+<sp>
+<speaker>Bodil.</speaker>
+<lg>
+<l>Kvar ein, som b&#x00E6;r paa Elskhug,</l>
+<l>hev funni si Livsens Tyngd!</l>
+</lg>
+<p>Her skal De se en, jeg har skrevet af &#x2013; nej, nu har jeg mistet den &#x2013; den maa ligge udenfor.</p>
+<stage>(De gaar for at s&#x00F8;ge den, idet de muntert forts&#x00E6;tter Samtalen.)</stage>
+</sp>
+<sp>
+<speaker><pb n="86"/>Fru Vivi</speaker>
+<stage>(der er gaat nogle Skridt hen mod dem, vender om igjen og gaar tilbage til sin Mand. N&#x00E6;r ind til ham, d&#x00E6;mpet rasende).</stage>
+<p>Jo, Kai, jeg hader dig &#x2013; &#x2013; og jeg siger &#x2013; &#x2013; jeg siger &#x2013;</p>
+</sp>
+<sp>
+<speaker>Dr. Odner</speaker>
+<stage>(sagtferdig).</stage>
+<p>Vivi, der er ingen Mening i, hvad du siger.</p>
+</sp>
+<sp>
+<speaker>Fru Vivi</speaker>
+<stage>(harmfuld).</stage>
+<p>Du ved, du piner mig. Men det skal ikke lykkes &#x2013;</p>
+</sp>
+<sp>
+<speaker>Dr. Odner</speaker>
+<stage>(tar hende om Armen).</stage>
+<p>Hvilket, Vivi?</p>
+<stage>(stille.)</stage>
+<p>T&#x00E6;nker aldrig <emph>du</emph> paa, om du piner mig?</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(kommer ind igjen).</stage>
+</sp>
+<sp>
+<speaker>Herluf &#x00D8;rn</speaker>
+<stage>(kommer efter hende. Han gaar hen og slaar Doktoren paa Skulderen og siger sp&#x00F8;gende).</stage>
+<p>Du har altid saa god Hjelp til, hvad du tar dig for. Andre maa gaa med sit alene. Jeg er misundelig paa Deres Mand, Frue!</p>
+</sp>
+<sp>
+<speaker><pb n="87"/>Fru Vivi</speaker>
+<stage>(smilende om mod ham).</stage>
+<p>Det maa De ikke v&#x00E6;re! Jeg kan ikke fordrage misundelige Folk. Ikke sandt, Kai, jeg vil ha alt mit ifred!</p>
+</sp>
+<sp>
+<speaker>Herluf &#x00D8;rn</speaker>
+<p>Det kan ingen, Frue! &#x2013; &#x2013; Men er du ikke rask, Kai?</p>
+</sp>
+<sp>
+<speaker>Fru Vivi.</speaker>
+<p>Gud, jo! Kai fejler saamen ingenting!</p>
+<stage>(om mod ham, elskv&#x00E6;rdig.)</stage>
+<p>De ser, jeg l&#x00E6;rer af min Mand at lave Mavedraaber! Forresten staar vi og disputerer, om vi skal ta vor Kaffe her paa Udsigten eller langt ind i Skogen. Kai har nogle Yndlingssteder, hvor han tr&#x00E6;ffer Mosekoner og Skogprinsesser. &#x2013; &#x2013; S&#x00F8;de Kai, hvad er det, du leder efter igjen, lad mig hj&#x00E6;lpe dig!</p>
+</sp>
+<sp>
+<speaker>Herluf &#x00D8;rn</speaker>
+<stage>(hen igjen til Bodil).</stage>
+<p>Mente De alt, hvad De sagde igaar?</p>
+</sp>
+<sp>
+<speaker>Bodil.</speaker>
+<p>Jeg mener aldrig noget.</p>
+</sp>
+<sp>
+<speaker>Herluf &#x00D8;rn.</speaker>
+<p>De skulde alligevel t&#x00E6;nke lidt paa, hvad jeg har foreslaat for Dem. De skulde rejse saa langt, at de <pb n="88"/>Stjerner, De kjender, synker og forsvinder &#x2013; og andre gaar op.</p>
+</sp>
+<sp>
+<speaker>Bodil.</speaker>
+<stage>(ryster paa Hodet).</stage>
+<p>De skulde tale med nogen anden om dette! De ser jo, jeg forstaar ikke noget af det!</p>
+<stage>(mod ham &#x00E6;rtende.)</stage>
+<p>Jeg er glad for, at det ikke er mig, der skal s&#x00F8;rge for Verdensudviklingcn!</p>
+</sp>
+<sp>
+<speaker>Herluf &#x00D8;rn</speaker>
+<p>De er kommet til at b&#x00E6;re Deres Hode saa h&#x00F8;jt! Det er derfor, vi har Brug for Dem ogsaa &#x2013; til vort store, kongelige Arbejde.</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(rejser sig med et Smil).</stage>
+<p>Man er forpligtet til at tro noget af det, Folk siger &#x2013; ikke alt! Nu maa jeg gaa.</p>
+</sp>
+<sp>
+<speaker>Herluf &#x00D8;rn</speaker>
+<p>Hvorhen?</p>
+</sp>
+<sp>
+<speaker>Bodil.</speaker>
+<p>Det &#x2013; ved jeg ikke!</p>
+</sp>
+<sp>
+<speaker>Herluf &#x00D8;rn</speaker>
+<stage>(muntert).</stage>
+<p>Ja, De er jo Undine, Fyrstedatter til Jord og Hav &#x2013; Barn af Alnaturen, Uudgrundeligheden mer end vi andre &#x2013;</p>
+</sp>
+<sp>
+<speaker><pb n="89"/>Bodil.</speaker>
+<p>Ja, det er vi Kvinder &#x2013; mer end I andre.</p>
+<stage>(lystig truende.)</stage>
+<p>Derfor, naar I ikke str&#x00E6;kker til for os, gaar vi vor Vej derind i Dybet, ind i Vildheden &#x2013;</p>
+</sp>
+<sp>
+<speaker>Herluf &#x00D8;rn</speaker>
+<stage>(ogsaa lystig).</stage>
+<p>&#x2013; ind til det inderst oprindelige, til Altets skjulte, evige Kildespring &#x2013; men bliv nu f&#x00F8;rst her og drik Kaffe!</p>
+</sp>
+<sp>
+<speaker>Fru Vivi</speaker>
+<stage>(hen mod hende, elskv&#x00E6;rdig).</stage>
+<p>Fr&#x00F8;ken Herwell ser ud, som hun ikke vil v&#x00E6;re her! Har Professoren gjort Dem Fortr&#x00E6;d?</p>
+</sp>
+<sp>
+<speaker>Bodil.</speaker>
+<p>Mig kan ingen gj&#x00F8;re Fortr&#x00E6;d! Nej, ingen kan gj&#x00F8;re mig noget!</p>
+</sp>
+<sp>
+<speaker>Dr. Odner</speaker>
+<stage>(kommer bort, r&#x00E6;kker hende Medicinen, ser bedende paa hende).</stage>
+<p>De loved, De vilde drikke Kaffe med os ude under Granerne. Jovist er den ferdig! H&#x00F8;r Dagny med Gongongen!</p>
+</sp>
+<sp>
+<speaker>Fru Vivi</speaker>
+<p>De maa endelig hilse til Prestegaarden!</p>
+</sp>
+<sp>
+<speaker>Bodil.</speaker>
+<p>Tak! Jeg blir med ud under Granerne!</p>
+</sp>
+<sp>
+<speaker><pb n="90"/>Fru Vivi</speaker>
+<stage>(leende).</stage>
+<p>T&#x00E6;nk om De nu angrer det igjen!</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(ler ogsaa).</stage>
+<p>Jeg angrer bestandig alting!</p>
+</sp>
+<sp>
+<speaker>Dr. Odner</speaker>
+<stage>(blir pludselig som ellevild. Han tar Herluf &#x00D8;m om Skulderen svinger ham rundt og drager ham med sig).</stage>
+<p>Ud alle Mand &#x2013; under Granerne!</p>
+</sp>
+</div>
+<div type="chapter" subtype="act" n="4">
+<head type="main">&#x005B;Akt 4&#x005D;</head>
+<stage><pb n="91"/>Fjorten Dage senere. Inde i Skogen, som er sv&#x00E6;r, rankvoksen, med tungt h&#x00E6;ngende Grene. Indimellem slynger sig Skogstier. Vakker Skogbund med Lyng og fine Blomster over moskl&#x00E6;dte Sten og Smaaberg. I Baggrunden en bredere Skogvej. Mellem Tr&#x00E6;erne ser man Sj&#x00F8;en glimte frem flere Steder. Og yderst ude, paa den anden Side Vandet, ser man af og til Sanatoriegjester.</stage>
+<stage>Det er Sommeraften.</stage>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(kommer gaaende paa en Sti inde mellem Tr&#x00E6;erne. Stanser op mod et Tr&#x00E6;).</stage>
+<p>Jeg saa ham idagmorges, da han gik &#x2013; &#x2013; naar vi m&#x00F8;des, har jeg Lov at sp&#x00F8;rge, hvordan han har sovet &#x2013; om han har det godt &#x2013;</p>
+<stage>(ler.)</stage>
+<p>Det kan man sige er at indrette sit Liv hehageligt.</p>
+<stage>(synger op idet hun gaar videre henover, tar nogle Blomster.)</stage>
+<p>Inat dr&#x00F8;mte jeg, jeg var Skyen &#x2026; at jeg var Vinden, som kom &#x2013; at jeg var Skogen selv!</p>
+<stage>(Hun blir staaende igjen. Falder i Tanker.)</stage>
+<p>Der er slig Hvile i hans &#x00D8;jne! &#x2013; &#x2013; &#x2013;</p>
+<stage>(Efter en Stund siger hun d&#x00E6;mpet.)</stage>
+<p>Jeg vil ikke dette l&#x00E6;nger!</p>
+</sp>
+<sp>
+<speaker><pb n="92"/>Kari</speaker>
+<stage>(kommer frem paa en liden Sti, der b&#x00E6;rer ud paa Vejen. Hun er meget gammel, fattigt kl&#x00E6;dt og gaar tungt, st&#x00F8;ttet til sin Stok. Hun b&#x00E6;rer et tomt Blikspand over Armen. Da hun ser Bodil, smiler hun bredt op).</stage>
+<p>Aa nej! Va det likt!</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(n&#x00E6;rmere)</stage>
+<p>Godkvel, Kari! Hvordan har du det?</p>
+</sp>
+<sp>
+<speaker>Kari.</speaker>
+<p>Aa jau, saa lideleg!</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(munter).</stage>
+<p>Hvorfor glor du paa mig slig, Kari?</p>
+</sp>
+<sp>
+<speaker>Kari.</speaker>
+<p>Al jordisk Lykka &#x00E6; arm og grund! Men likv&#x00E6;l saa undrast eg, n&#x00E6;r eg ser slikt Folk, som aldri hev sliti vondt! Og eg tenkjer, du undrast paa meg, slikt gamalt Skrap!</p>
+</sp>
+<sp>
+<speaker>Bodil.</speaker>
+<p>Du er gammel og god, du Kari! Du er kommet l&#x00E6;nger end vi andre. Du kjender Vejen. Jeg tar mig ikke engang frem her i Skogen!</p>
+</sp>
+<sp>
+<speaker>Kari.</speaker>
+<p>Aa, jau vel! Eg kjenn&#x0027; no Skogen! Daa eg livde, va den myrkare og Soli meire varm! Kvifyrr gjeng du einsam, kor &#x00E6; den, som ska bliva din Mann?</p>
+</sp>
+<sp>
+<speaker><pb n="93"/>Bodil</speaker>
+<stage>(ler).</stage>
+<p>Det vet jeg ikke, hvor det er, han farer</p>
+</sp>
+<sp>
+<speaker>Kari</speaker>
+<stage>(listig smilende).</stage>
+<p>Aa, jou vel! Du veit, kor lejt det &#x00E6; og klara seg fyr dei, som kjem fraa Amerika &#x2013; saa slug og vaken En blir der &#x2013;</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(nikker).</stage>
+<p>Om du gaar hjem til Prestgarden, Kari, faar du noget i Spandet dit.</p>
+</sp>
+<sp>
+<speaker>Kari</speaker>
+<stage>(nejer).</stage>
+<p>&#x00C6;re og Pris!</p>
+<stage>(gaar videre henover Vejen.)</stage>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(blir staaende).</stage>
+</sp>
+<sp>
+<speaker>Dr. Odner</speaker>
+<stage>(kommer. Han har nogle Vandlillier i Haanden).</stage>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(skimter ham mellem Tr&#x00E6;erne, gaar ind paa den Sti, hvor han kommer).</stage>
+<p>Jeg t&#x00E6;nkte mig, De kom denne Vej. Har De v&#x00E6;ret paa Sygebes&#x00F8;g helt til nu? &#x2013; Hilste De Sj&#x00F8;en derinde?</p>
+</sp>
+<sp>
+<speaker><pb n="94"/>Dr. Odner</speaker>
+<stage>(skynder sig mod hende. Hilser).</stage>
+<p>Hvorfor kom I ikke? Jeg laa og vented med Baaden, til det blev Kvelden derinde i Skogen og de hvide Lillier gik til Ro.</p>
+<stage>(r&#x00E6;kker hende Blomsterne.)</stage>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(tar dem. Gjentar dr&#x00F8;mmende).</stage>
+<p>Ja, naar det blir Kvelden derinde i Skogen og Lillierne lukker sig &#x2013;</p>
+<stage>(i en anden Tone.)</stage>
+<p>Min Bror kunde ikke &#x2013;</p>
+</sp>
+<sp>
+<speaker>Dr. Odner</speaker>
+<stage>(frygtsomt).</stage>
+<p>De kunde kommet?</p>
+</sp>
+<sp>
+<speaker>Bodil.</speaker>
+<p>Jeg bet&#x00E6;nkte mig. Saa kom jeg hid for at sige det.</p>
+</sp>
+<sp>
+<speaker>Dr. Odner</speaker>
+<stage>(idet de gaar sammen henad Stien).</stage>
+<p>Jeg havde n&#x00E6;r tat en anden Vej. Godt at vi m&#x00F8;dtes!</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(i en let Tone).</stage>
+<p>Et rent Tilf&#x00E6;lde! At vi idetheletat m&#x00F8;dtes, det er da et Tilf&#x00E6;lde, som ikke har hjemme nogen Steder.</p>
+</sp>
+<sp>
+<speaker><pb n="95"/>Dr. Odner</speaker>
+<stage>(ser paa hende, uvis).</stage>
+<p>Hvad Sind har De ikveld? &#x2013; Hver Gang vi m&#x00F8;dtes &#x2013; det var, som fandt jeg hver Gang en ny Blomst paa min Vej!</p>
+</sp>
+<sp>
+<speaker>Bodil.</speaker>
+<p>Presser De dem? Saa har De vel et helt Herbarium?</p>
+</sp>
+<sp>
+<speaker>Dr. Odner</speaker>
+<stage>(forlegen).</stage>
+<p>Det ved jeg ikke, nej, det ved jeg ikke. De ligner heller ikke en Blomst. Sommetider synes jeg, De er som et Opkom inde i Skogen.</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(sukker).</stage>
+<p>Ja, jeg gj&#x00F8;r altid St&#x00F8;j &#x2013; og Uro. Det er min Natur. Men jeg elsker det, som er stilt.</p>
+<stage>(hytter op.)</stage>
+<p>Rolig, du Fugl med dine brusende Vinger!</p>
+</sp>
+<sp>
+<speaker>Dr. Odner.</speaker>
+<p>De elsker ikke bare det, som er stilt. De er selv en vild Fugl med brusende Vinger. En vakker Dag farer De herfra!</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(siger intet. Gaar og nynner sagte).</stage>
+</sp>
+<sp>
+<speaker><pb n="96"/>Dr. Odner.</speaker>
+<p>Lad os ta denne Sti. Lad os gaa varligt! Her er saa meget fint Spind! Har De nogengang t&#x00E6;nkt paa, at Blomsterne ogsaa har Nerver &#x2013; &#x00F8;mtaaligere end vore?</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(svarer ikke, men ler af ham).</stage>
+</sp>
+<sp>
+<speaker>Dr. Odner</speaker>
+<stage>(ser op mellem Tr&#x00E6;erne)</stage>
+<p>H&#x00F8;r, som her suser ikveld &#x2013; og smelter hen!</p>
+</sp>
+<sp>
+<speaker>Bodil.</speaker>
+<p>Ja, slig stille Sang! &#x2013; &#x2013; Harper, som toner af sig selv &#x2013; eller myge Horn!</p>
+</sp>
+<sp>
+<speaker>Dr. Odner</speaker>
+<stage>(ser paa hende, undrende, frygtsomt.)</stage>
+</sp>
+<sp>
+<speaker>Bodil.</speaker>
+<p>Men det er ikke bare godt herinde i Skogen. Her er Angst &#x2013; &#x2013; ja, ligesom noget af Livets dybe Angst. &#x2013; Se, udover der &#x2013; et stort, gr&#x00F8;nt Hav, som skj&#x00E6;lver! &#x2013; Her skal h&#x00E6;nde noget ikvel!</p>
+<stage>(ler.)</stage>
+<p>Jo, Vinden hvisker det, Skogen siger det ganske tydeligt!</p>
+<stage>(De blir staaende.)</stage>
+</sp>
+<sp>
+<speaker>Dr. Odner</speaker>
+<stage>(vil sige noget, men det blir ingenting).</stage>
+</sp>
+<sp>
+<speaker><pb n="97"/>Bodil</speaker>
+<stage>(muntert).</stage>
+<p>Men nu flytter jeg jo ogsaa fra denne Skogen her.</p>
+</sp>
+<sp>
+<speaker>Dr. Odner</speaker>
+<stage>(overrasket).</stage>
+<p>Det havde jeg ikke t&#x00E6;nkt mig &#x2013; at De skulde rejse saa snart.</p>
+</sp>
+<sp>
+<speaker>Bodil.</speaker>
+<p>De t&#x00E6;nker jo aldrig paa, at Sommeren er kort.</p>
+</sp>
+<sp>
+<speaker>Dr. Odner.</speaker>
+<p>For det, at hver Dag har v&#x00E6;ret lys og lang!</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(siger intet).</stage>
+</sp>
+<sp>
+<speaker>Dr. Odner</speaker>
+<p>Nej, jeg forstaar ikke! Det er vist ikke sandt, hvad De siger. Aa, sid her!</p>
+<stage>(De s&#x00E6;tter sig begge paa et lidet, moskl&#x00E6;dt Berg.)</stage>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(ler.)</stage>
+<p>Hvorl&#x00E6;nge?</p>
+</sp>
+<sp>
+<speaker>Dr. Odner</speaker>
+<stage>(overtalende).</stage>
+<p>L&#x00E6;nge! Kjender De Lyngens bl&#x00F8;de Ange? H&#x00F8;r, hvor det hvisker over gjemt Vej! &#x2013; De, De h&#x00F8;rer til herinde, sammen med de hvide Skogfruer &#x2013;</p>
+</sp>
+<sp>
+<speaker><pb n="98"/>Bodil</speaker>
+<stage>(ryster paa Hodet).</stage>
+<p>&#x2013; men jeg ligner jo ingen Blomst. &#x2013; &#x2013; Men jeg ved om en Mand, som kan ligne en Blomst &#x2013; af dem, der vokser med dybe R&#x00F8;dder, inde hvor Skogen er stille. Og han er selv stille, fordi han lytter og kan h&#x00F8;re. Han ved, hvad de siger allesammen. &#x2013; &#x2013; Jeg h&#x00F8;rer ingenting, ikke engang hvad jeg selv siger.</p>
+</sp>
+<sp>
+<speaker>Dr. Odner</speaker>
+<stage>(sidder og ser hen for sig, smiler tankefuldt).</stage>
+<p>De gamle Germaner &#x2013; naar de kom til et fremmed Land og havde drukket af Landets Vin, da oplodes deres &#x00D8;jne. De saa, hvor de var. Da rejste de et Alter for den ukjendte Gud. Og deres Tempel var en Plet inde i Skogen.</p>
+<stage>(ser op paa hende dv&#x00E6;lende.)</stage>
+<p>Skogen er et fremmed Land. Man kjender den ikke, f&#x00F8;r man har ofret til den ukjendte Gud og drukket af Landets Vin. &#x2013; Hvorfor er De saa urolig?</p>
+<stage>(De staar begge op og gaar.)</stage>
+</sp>
+<sp>
+<speaker>Dr. Odner.</speaker>
+<p>Hvor vil De gaa hen?</p>
+</sp>
+<sp>
+<speaker>Bodil.</speaker>
+<p>Det ved jeg ikke. Bare at jeg gaar her og blir melankolsk.</p>
+</sp>
+<sp>
+<speaker><pb n="99"/>Dr. Odner.</speaker>
+<p>De tar Feil! Her i Skogen, det er som at gaa under en Velsignelse. Og nu ikveld! Her er slig som fine Blomster kan faa mig til at dr&#x00F8;mme &#x2013;</p>
+<p>Lad os s&#x00E6;tte os her. Plejer vi ikke at sidde her?</p>
+<stage>(Bodil s&#x00E6;tter sig paa en Sten, han paa en anden i N&#x00E6;rheden.)</stage>
+</sp>
+<sp>
+<speaker>Bodil.</speaker>
+<p>Nu blir det Kvelden ogsaa, og alt Troldpakket kommer ud. Det elsker jeg &#x2013; og den L&#x00E6;ngsel, som kommer, naar alle de smaa Stier blir til store Veje, som gaar.</p>
+<stage>(rejser sig i Uro.)</stage>
+<p>Naar jeg er her i Skogen alene, kan jeg s&#x00E6;tte mig til at vente, og jeg synes Tr&#x00E6;rne og alt det, som er her, venter med mig. &#x2013; &#x2013; Og der kommer noget langt borte fra &#x2013; som et Pust &#x2013; og r&#x00F8;rer ved mig. Og jeg bliver angst, for det er noget m&#x00E6;gtigt, som kommer mig n&#x00E6;r!</p>
+</sp>
+<sp>
+<speaker>Dr. Odner</speaker>
+<stage>(der f&#x00F8;lger hende med &#x00D8;jnene).</stage>
+<p>Kom nu her og v&#x00E6;r lidt rolig. Ser De den fine Maanen over Skogen?</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(ser op).</stage>
+<p>N&#x00E6;sten som har den Vinger &#x2013; &#x2013; slig en hvid, underlig Fugl &#x2013; en himmelsk Svane &#x2013;</p>
+<stage>(gaar nerv&#x00F8;st omkring.)</stage>
+</sp>
+<sp>
+<speaker><pb n="100"/>Dr. Odner</speaker>
+<stage>(undrende over hendes Uro).</stage>
+<p>Hvad ser De efter?</p>
+</sp>
+<sp>
+<speaker>Bodil.</speaker>
+<p>Noget, som ikke gror her &#x2013;</p>
+</sp>
+<sp>
+<speaker>Dr. Odner</speaker>
+<p>Husk nu &#x2013; den Stund her ikveld kommer aldrig mer!</p>
+</sp>
+<sp>
+<speaker>Bodil.</speaker>
+<p>Ikke den igaar heller &#x2013; ingen af de andre heller!</p>
+<stage>(Hun s&#x00E6;tter sig hen lige ved Siden af ham.)</stage>
+</sp>
+<sp>
+<speaker>Dr. Odner</speaker>
+<stage>(ser sig i Velbehag om til alle Sider)</stage>
+<p>Her i Skogen er man da f&#x00F8;rst rigtig hjemme hos sig selv. Er det ikke sandt?</p>
+<stage>(b&#x00F8;jer sig frem, ser dv&#x00E6;lende paa hende.)</stage>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(svarer ikke).</stage>
+</sp>
+<sp>
+<speaker>Dr. Odner</speaker>
+<stage>(vedblir langsomt, dr&#x00F8;mmende).</stage>
+<p>Her inde i Skogen &#x2013; alt, hvad jeg engang ante dybest &#x2013; herinde er det kommet mig saa n&#x00E6;r &#x2013; &#x2013; Hvad, har De det ikke godt?</p>
+</sp>
+<sp>
+<speaker>Bodil.</speaker>
+<p>Jo! N&#x00E6;sten som var jeg alt d&#x00F8;d!</p>
+</sp>
+<sp>
+<speaker><pb n="101"/>Dr. Odner.</speaker>
+<p>Hvor var det saa, De skulde hen?</p>
+</sp>
+<sp>
+<speaker>Bodil.</speaker>
+<p>Det har jeg glemt.</p>
+</sp>
+<sp>
+<speaker>Dr. Odner.</speaker>
+<p>Hvad er det saa, De husker?</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(ler).</stage>
+<p>At De sidder der!</p>
+</sp>
+<sp>
+<speaker>Dr. Odner</speaker>
+<stage>(muntert. Legende med Ordene).</stage>
+<p>Nu var De god! Jeg takker Sol og Maane og alle Stjerner smaa, fordi jeg fandt Dem her ikveld!</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(ligesaa)</stage>
+<p>Hvem skal jeg saa takke, fordi jeg fandt Dem &#x2013; mens jeg gik og ledte efter det, jeg ikke kunde finde &#x2013;</p>
+</sp>
+<sp>
+<speaker>Dr. Odner.</speaker>
+<p>Da jeg fandt Dem &#x2013; glemte jeg det, jeg ikke kunde finde. Jeg mener &#x2013; det kom for mig, som havde jeg fundet det!</p>
+<stage>(Han sidder med Albuen st&#x00F8;ttet mod en Stubbe. Saa rejser han sig og gaar omkring. Hans Stemme slaar om.)</stage>
+<p>Bodil, De ved ikke, hvor jeg maa forsvare mig mod Dem &#x2013; hvad jeg har at overvinde! For jeg ved jo, snart gaar De herfra med den, De har kaaret Dem!</p>
+</sp>
+<sp>
+<speaker><pb n="102"/>Bodil</speaker>
+<stage>(smiler lidt).</stage>
+<p>Hvem gaar jeg med?</p>
+</sp>
+<sp>
+<speaker>Dr. Odner</speaker>
+<stage>(tvinger sin Bev&#x00E6;gelse ned).</stage>
+<p>Jeg ved jo, det er Herluf! Jeg har hele Tiden vidst, at det maatte blive ham!</p>
+<stage>(stanser foran hende.)</stage>
+<p>Det er med mig som med Planterne her og Tr&#x00E6;rne. &#x2013; &#x2013; Det h&#x00E6;nder, de har sin store Sommer, hvor alt ser i Naade til dem! Dette har v&#x00E6;ret min store Sommer!</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(ser stivt paa ham).</stage>
+</sp>
+<sp>
+<speaker>Dr. Odner</speaker>
+<stage>(efter en Stilhed).</stage>
+<p>Ser De, hvor Himlen er som Rosenblade &#x2013; og Skogen fuld af deres Glans! Hvem vover at klage? Kan jeg faa Lov at sidde her?</p>
+<stage>(Han s&#x00E6;tter sig paa en Tue ved hendes Fod.)</stage>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(vedblir at v&#x00E6;re taus).</stage>
+</sp>
+<sp>
+<speaker>Dr. Odner</speaker>
+<stage>(idet han stirrer op).</stage>
+<p>Under Hv&#x00E6;lvene driver her Dr&#x00F8;m &#x2013; saa skj&#x00E6;r, at der findes ikke Navn &#x2013;</p>
+</sp>
+<sp>
+<speaker><pb n="103"/>Bodil</speaker>
+<stage>(bryder kort af).</stage>
+<p>Sligt siger en Dr&#x00F8;mmer. Naar han v&#x00E6;kkes, finder han Navnet.</p>
+</sp>
+<sp>
+<speaker>Dr. Odner</speaker>
+<stage>(ser uvis paa hende. Der kommer noget kj&#x00E6;mpende, usikkert over ham. Han siger sagte).</stage>
+<p>En Dr&#x00F8;mmer maa ikke v&#x00E6;kkes. Da styrter han ned &#x2013;</p>
+</sp>
+<sp>
+<speaker>Bodil.</speaker>
+<p>En Dr&#x00F8;mmer maa v&#x00E6;kkes!</p>
+<stage>(springer op, gaar nogle Skridt, kommer langsomt tilbage, ler nerv&#x00F8;st.)</stage>
+<p>Som Barn &#x00F8;nsked jeg mig fire vilde, arabiske Heste &#x2013; &#x2013; nu ved jeg, det nytter lidet at kj&#x00F8;re saa fort &#x2013; En naar ikke frem endda!</p>
+</sp>
+<sp>
+<speaker>Dr. Odner</speaker>
+<stage>(s&#x00F8;ger at d&#x00E6;kke over sin Bev&#x00E6;gelse).</stage>
+<p>Som idag har De aldrig v&#x00E6;ret!</p>
+<stage>(b&#x00F8;nligt.)</stage>
+<p>Her er jo Sommer endnu! Ingen Fugl er rejst fra Skogen. De maa ikke heller!</p>
+<stage>(Han venter, at hun skal sige noget, men hun tier. Han vedblir sagtere.)</stage>
+<p>Herinde &#x2013; dybe Kilder springer her. Alt er anderledes end derude. Alt derudefra blir v&#x00E6;k herinde. Man lever et andet Liv! &#x2013;</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(slaar over i en ligegyldig Tone).</stage>
+<p>&#x2013; Ja, det, som der ikke er Plads til derude. For Bekvemmeligheds Skyld har De flyttet det ind her i Skogm&#x00F8;rket.</p>
+<stage>(n&#x00E6;rmere.)</stage>
+<p><pb n="104"/>Dybe Kilder springer her, siger De &#x2013; her sniger en Angst! Den v&#x00E6;lder fra de dybe Kilder! Den blir til Livsfare!</p>
+<stage>(s&#x00E6;tter sig ned som udmattet.)</stage>
+<p>Nu blir det H&#x00F8;st ogsaa. &#x2013; Det, De leved her i Skogen &#x2013; De faar ta det med Dem hjem nu &#x2013; til Stuerne paa Hougen.</p>
+</sp>
+<sp>
+<speaker>Dr. Odner</speaker>
+<stage>(sagte).</stage>
+<p>Bodil, hvad mener De?</p>
+</sp>
+<sp>
+<speaker>Bodil.</speaker>
+<p>At jeg har m&#x00F8;dt en Mand i Skogen her. Jeg vil ikke m&#x00F8;de ham mer.</p>
+</sp>
+<sp>
+<speaker>Dr. Odner.</speaker>
+<p>Nu skal De sige hvorfor!</p>
+</sp>
+<sp>
+<speaker>Bodil.</speaker>
+<p>Skal jeg?</p>
+<stage>(langsomt, i en anden Tone.)</stage>
+<p><emph>Fordi jeg ved det!</emph></p>
+</sp>
+<sp>
+<speaker>Dr. Odner</speaker>
+<stage>(har hurtig rejst sig. Han gj&#x00F8;r en Bev&#x00E6;gelse hen mod hende, men blir staaende med b&#x00F8;jet Hode som om han grubler. Saa ser han op og siger sagte).</stage>
+<p>De skal sige, hvad det er, De ved!</p>
+</sp>
+<sp>
+<speaker>Bodil.</speaker>
+<p>Aa, det er bare noget om den Manden. Aldrig sagde han et Ord. Men jeg ved det &#x2013; for det at <pb n="105"/>ingen Mand kan d&#x00F8;lge sig for den Kvinde, som &#x2013; &#x2013; for det at der er En, der har set hans &#x00D8;jne skinne, som de aldrig har skinnet &#x2013; i Stuerne paa Hougen!!</p>
+</sp>
+<sp>
+<speaker>Dr. Odner</speaker>
+<stage>(gj&#x00F8;r igjen en Bev&#x00E6;gelse hen mod hende, men stanser. Han pr&#x00F8;ver paa at tale, men kan ikke. Han s&#x00E6;tter sig langsomt ned igjen paa Stenen og gjemmer for sit Ansigt<note type="footnote">Ansigt] <hi rend="italic">rettet fra:</hi> Antigt <hi rend="italic">(trykkfeil)</hi></note> med H&#x00E6;nderne).</stage>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(langsomt og haardt).</stage>
+<p>De vil, alt skal v&#x00E6;re som f&#x00F8;r! Jeg tr&#x00E6;nger til at vaagne, De til at dr&#x00F8;mme!</p>
+</sp>
+<sp>
+<speaker>Dr. Odner</speaker>
+<stage>(rejser sig. Han er meget bleg. Der er kommet et nyt Udtryk over ham, en rolig, samlet Bestemthed, og hans Stemme er fast).</stage>
+<p>De har v&#x00E6;kket en Dr&#x00F8;mmer! Han er styrtet ned!</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(stirrer paa ham taus, skj&#x00E6;lvende).</stage>
+</sp>
+<sp>
+<speaker>Dr. Odner</speaker>
+<stage>(gaar hen til hende).</stage>
+<p>Jeg har ikke villet dette, Bodil!!</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(gj&#x00F8;r en Bev&#x00E6;gelse som for at afbryde ham).</stage>
+</sp>
+<sp>
+<speaker>Dr. Odner.</speaker>
+<p>Fordi det var saa anderledes end alt fra f&#x00F8;r, gik jeg saa tryg i det. At kunne tale til nogen med den inderste Hjerted&#x00F8;r aaben, det var som at naa frem til en h&#x00F8;jere Livsform. &#x2013; &#x2013; Og netop det, at ingen <pb n="106"/>derhjemme kunde v&#x00E6;re med om sligt &#x2026; gjorde mig tryg for at der skede ingen Uret &#x2013;</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(gj&#x00F8;r en Bev&#x00E6;gelse, stirrer paa ham).</stage>
+</sp>
+<sp>
+<speaker>Dr. Odner</speaker>
+<stage>(rystet).</stage>
+<p>Ved Gud! Jeg t&#x00E6;nkte ikke, der skulde v&#x00E6;re nogen Br&#x00F8;de i det &#x2013; &#x2013; slig Gl&#x00E6;de fra Livets dybe Grund!!</p>
+<stage>(Gaar omkring i sterk Bev&#x00E6;gelse. Der blir en Stilhed.)</stage>
+</sp>
+<sp>
+<speaker>Dr. Odner</speaker>
+<stage>(knuger H&#x00E6;nderne i vaandefuld Uro).</stage>
+<p>Og det vidste jeg heletiden, at det var nogle Dage bare &#x2013; &#x2013; at De vilde gaa igjen, langt v&#x00E6;k fra mig, til et Liv, som var stort, herligt nok for Dem! &#x2013; til en Lykke, som var Dem v&#x00E6;rdig!!</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(staar stiv, bleg, uden at se paa ham).</stage>
+</sp>
+<sp>
+<speaker>Dr. Odner</speaker>
+<stage>(knuger H&#x00E6;nderne i vaandefuld Uro).</stage>
+<p>Og jeg vidste, at jeg selv havde mit lille Liv at leve &#x2013; og saa godt jeg kunde det min Pligt at fylde mod &#x2013; Vivi og Fin og mig selv.</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(vender sig bort fra ham, taus)</stage>
+</sp>
+<sp>
+<speaker><pb n="107"/>Dr. Odner</speaker>
+<stage>(n&#x00E6;rmere hen, b&#x00F8;nlig, hastig).</stage>
+<p>Bodil, jeg klager ikke, at De vil gaa! De Stunder her &#x2013; de vil skinne over Dagene siden! Og naar De gaar herfra med Deres Ven, da siger jeg Tak for mig &#x2013; fordi det h&#x00E6;ndte mig, at jeg fik min store Sommer!</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(staar lidt. Saa siger hun)</stage>
+<p>Hvem gaar jeg bort med?</p>
+</sp>
+<sp>
+<speaker>Dr. Odner</speaker>
+<stage>(studser).</stage>
+<p>Det er jo Herluf! Er det ikke Herluf?</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(staar uden at svare. Vender sig om, ser bare paa ham).</stage>
+</sp>
+<sp>
+<speaker>Dr. Odner</speaker>
+<stage>(viger tilbage, siger sagte, sky).</stage>
+<p>Har jeg gjort Dem ondt?</p>
+</sp>
+<sp>
+<speaker>Bodil.</speaker>
+<p>T&#x00E6;nker De paa, hvad det betyder, De sp&#x00F8;rger om der?</p>
+</sp>
+<sp>
+<speaker>Dr. Odner</speaker>
+<stage>(endnu mere bev&#x00E6;get).</stage>
+<p>Har jeg gjort Dem ondt?</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(ser paa ham, smiler svagt, hvisker).</stage>
+<p>Sligt er aldrig ondt!!</p>
+</sp>
+<sp>
+<speaker><pb n="108"/>Dr. Odner</speaker>
+<stage>(l&#x00E6;gger sig ned for hendes Fod).</stage>
+<p>Hvorfor kom De herop?</p>
+</sp>
+<sp>
+<speaker>Bodil.</speaker>
+<p>Jeg kunde vel ikke for det?</p>
+</sp>
+<sp>
+<speaker>Dr. Odner</speaker>
+<stage>(henrevet).</stage>
+<p>Hvorfra kom De?</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(stille).</stage>
+<p>Fra Ensomhedens Land!</p>
+</sp>
+<sp>
+<speaker>Dr. Odner</speaker>
+<stage>(i et &#x00D8;jebliks br&#x00E6;ndende Gl&#x00E6;de).</stage>
+<p>Lad os tales ved &#x2013; denne ene Gang!</p>
+<stage>(griber hendes H&#x00E6;nder, l&#x00E6;gger sit Ansigt ned over dem.)</stage>
+<p>Det var derfor, at de Dage, du ikke var her &#x2013; &#x2013; alting hvisked dit Navn! &#x2013; Men naar du kom, da tonte det og sang &#x2013; det var som en Fanfare i Skogen!</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(tier, ler sagte).</stage>
+</sp>
+<sp>
+<speaker>Dr. Odner</speaker>
+<stage>(med lysende &#x00F8;jne).</stage>
+<p>Det er, som vi er flyttet tusind Mil v&#x00E6;k fra alt. Bare Solen ser jeg. Den spinder Guld!</p>
+</sp>
+<sp>
+<speaker>Bodil.</speaker>
+<p>Jeg synes, jeg ser Stjerner &#x2013; fler og fler!</p>
+</sp>
+<sp>
+<speaker><pb n="109"/>Dr. Odner</speaker>
+<stage>(ser paa hende som i en Ekstase).</stage>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<p>Bare der ikke var noget mer end dette!</p>
+</sp>
+<sp>
+<speaker>Dr. Odner</speaker>
+<stage>(heftig, br&#x00E6;ndende)</stage>
+<p>Gaa fra mig! Men sig det bare en Gang, at du har mig kj&#x00E6;r!</p>
+<stage>(b&#x00F8;nlig hastig.)</stage>
+<p>Gj&#x00F8;r det! Fyld mit Hjerte med din R&#x00F8;st. Men se ikke paa mig!</p>
+<stage>(vender sig fra hende.)</stage>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(tier, men vender sagte hans Hode mod sig og ser ind i hans &#x00D8;jne.)</stage>
+</sp>
+<sp>
+<speaker>Dr. Odner</speaker>
+<p>Tilgiv mig! Dette var det h&#x00F8;jeste! &#x2013; Aa, Solskin over dine Veje!</p>
+<stage>(Klokker kimer fjernt. De rejser sig begge, staar og lytter. Der falder Glans af Aftensolen om dem.)</stage>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(pludselig, heftig, hvisker.)</stage>
+<p>Jo, jeg skulde &#x00F8;nske, alting nu kunde v&#x00E6;re slut!</p>
+</sp>
+<sp>
+<speaker>Dr. Odner</speaker>
+<stage>(glider stille ned foran hende, ser hende &#x00E6;ngstelig sp&#x00F8;rgende ind i &#x00D8;jnene).</stage>
+</sp>
+<sp>
+<speaker>Bodil.</speaker>
+<stage>(der igjen er Herre over sig selv, s&#x00E6;tter sig ned igjen og stryger ham lindt over Haaret).</stage>
+</sp>
+<sp>
+<speaker><pb n="110"/>Dr. Odner.</speaker>
+<p>Hvad er der i dit &#x00D8;je? &#x2013; det, som glider om derinde og gj&#x00F8;r det saa m&#x00F8;rkt?</p>
+</sp>
+<sp>
+<speaker>Bodil.</speaker>
+<p>Det er vel Skyggen af vor Sk&#x00E6;bne &#x2013; den, som fuldbyrder sig nu, mens vi sidder her!!</p>
+</sp>
+<sp>
+<speaker>Dr. Odner</speaker>
+<stage>(blir taus).</stage>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(idet hun b&#x00F8;jer sig ned over ham).</stage>
+<p>Du blev saa stille, som du alt var d&#x00F8;d! &#x2013; Hvad t&#x00E6;nker du paa?</p>
+</sp>
+<sp>
+<speaker>Dr. Odner</speaker>
+<stage>(l&#x00E6;gger sin Kind ned mod hendes Haand).</stage>
+<p>Paa, at du er saa herlig &#x2013; &#x2013; paa, hvor vidunderlig du var, som du kom mod mig ikveld, ud fra det brusende Skogm&#x00F8;rke! &#x2013; &#x2013;</p>
+<p>Aa, tag ingenting fra mig! Tiden er saa kort!!</p>
+</sp>
+<sp>
+<speaker>Bodil.</speaker>
+<p>Ja, se, hvor Skyggerne blir lange!</p>
+</sp>
+<sp>
+<speaker>Dr. Odner.</speaker>
+<p>Jeg ser dem ikke. Verden er fuld af dig!</p>
+</sp>
+<sp>
+<speaker><pb n="111"/>Bodil</speaker>
+<stage>(ler).</stage>
+<p>Nej, af Mennesker som h&#x00F8;rer sammen, men som vender hinanden Ryggen og gaar hver sin Vej.</p>
+<stage>(vender sig bort, gir ham Haanden, siger utydeligt)</stage>
+<p>Ja, saa vilde jeg bare sige dig Tak! &#x2013;</p>
+</sp>
+<sp>
+<speaker>Dr. Odner</speaker>
+<p>Al Gave kom fra dig!! Men du vil da vel ikke gaa?</p>
+<stage>(nerv&#x00F8;st.)</stage>
+<p>Lad os tales ved om tusind Ting! Vi vil tale sammen. Du skal fort&#x00E6;lle mig om Gl&#x00E6;den, f&#x00F8;r den gaar &#x2013; &#x2013; om vor Lykke!</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(stille.)</stage>
+<p>Den var her &#x2013; men den er ustadig som den vilde Svale, snar som Stormen!!</p>
+<stage>(ler lidt.)</stage>
+<p>Men du h&#x00F8;rer ikke paa mig &#x2013; &#x2013; du dr&#x00F8;mmer endda!</p>
+</sp>
+<sp>
+<speaker>Dr. Odner</speaker>
+<stage>(sagte).</stage>
+<p>Kj&#x00E6;re, v&#x00E6;k mig ikke!</p>
+</sp>
+<sp>
+<speaker>Bodil.</speaker>
+<p>Jeg maa!</p>
+<stage>(rejser sig.)</stage>
+<p>Det er Kvelden. Solen spinder ikke l&#x00E6;nger Guld. Vor gr&#x00F8;nne Sal blir lukket. Og vi er ikke saa langt v&#x00E6;k fra &#x2013; Doktorhuset paa Hougen!</p>
+</sp>
+<sp>
+<speaker><pb n="112"/>Dr. Odner</speaker>
+<stage>(springer op. Ser et &#x00D8;jeblik hjelpel&#x00F8;st paa hende. Bodil holder Haanden op for sine &#x00D8;jne. Da hun tar den bort, ser han, hvor bleg hun er blet. Og han skj&#x00E6;lver ved det).</stage>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(bittert).</stage>
+<p>Du har et Hjerte, som ingenting vover!</p>
+</sp>
+<sp>
+<speaker>Dr. Odner</speaker>
+<stage>(sagte).</stage>
+<p>Og du?</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(vedblir haardt).</stage>
+<p>Du tr&#x00E6;ller i et fremmed Land! Du rejser dig aldrig og gaar derfra! Jeg kjender dig, du gj&#x00F8;r det aldrig!</p>
+<stage>(gaar heftig henover. Kommer tilbage.)</stage>
+<p>Du lider ikke som jeg. Du har saa rolige &#x00D8;jne!</p>
+<stage>(Stilhed.)</stage>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(heftig).</stage>
+<p>Tilgiv, tilgiv mig!!</p>
+</sp>
+<sp>
+<speaker>Dr. Odner</speaker>
+<stage>(stille).</stage>
+<p>Tilgiv du &#x2013; at jeg kom i din Vej! At jeg har vovet at ville eje i nogle Minutter, hvad jeg stunded mod hele mit Liv!</p>
+</sp>
+<sp>
+<speaker><pb n="113"/>Bodil</speaker>
+<stage>(smiler bittert)</stage>
+<p>Jeg har ogsaa stundet hele mit Liv efter noget. Men for at naa det maatte jeg f&#x00F8;rst finde en Mand, som ikke kunde glemme, En, som altid var tilstede bag sit Ord &#x2013;</p>
+<stage>(stanser et &#x00D8;jeblik, vedblir.)</stage>
+<p>Jeg har fundet en slig Mand. Men fordi han ikke kan glemme, fordi han altid blir staaende bag sit Ord &#x2013; derfor kan jeg ikke finde det, jeg ledte efter. Det er n&#x00E6;sten morsomt sligt noget!</p>
+</sp>
+<sp>
+<speaker>Dr. Odner</speaker>
+<stage>(ser b&#x00F8;nligt paa hende).</stage>
+</sp>
+<sp>
+<speaker>Bodil.</speaker>
+<p>Det er morsomt! Jeg ledte efter et Sind, som var dybt &#x2013; og jeg fandt et saa dybt, at det kan ikke glemme, selv naar der intet er at mindes mer!</p>
+<stage>(n&#x00E6;rmere.)</stage>
+<p>Vil du, jeg skal sige dig, hvem det er, du elsker? Du elsker den Kj&#x00E6;rlighed, du engang havde for hende, din egen fine, unge Elskov elsker du! Den er d&#x00F8;d, men den binder dig, fortryller dig endda. Du vil v&#x00E6;re den tro til dit siste Blod! &#x2013; &#x2013;</p>
+<p>Kj&#x00E6;re, jeg har jo faat det, som jeg vilde ha det! Det, jeg ledte efter, har jeg fundet!</p>
+</sp>
+<sp>
+<speaker>Dr. Odner</speaker>
+<stage>(staar foran hende med rank Rejsning og l&#x00F8;ftet Hode).</stage>
+<p>Bodil! Det, som er gjort &#x2013; hvem kan gj&#x00F8;re det ugjort? Det er sandt, at jeg gik fejl! Det var <pb n="114"/>ikke Tiden endda, dengang &#x2013; og siden &#x2026; var Tiden forbi!</p>
+<stage>(aander tungt som under en Byrde.)</stage>
+<p>Nu har jeg at gj&#x00F8;re, saa godt jeg kan det, hvad jeg ser paa som min Skyldighed. Der er i mig selv noget, der ikke maa ta Skade, et fint Spind om du vil &#x2013; noget, jeg ikke kan leve foruden. &#x2013; Du synes, jeg gaar for tungt i det. Og jeg gj&#x00F8;r det! Men jeg kan det ikke anderledes &#x2013;</p>
+<stage>(n&#x00E6;rmere, indtr&#x00E6;ngende.)</stage>
+<p>Om jeg rev alt istykker omkring mig &#x2013; hvordan turde jeg vove mig frem til dig, <emph>utryg</emph>!!</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(b&#x00F8;jer Hodet, staar taus).</stage>
+</sp>
+<sp>
+<speaker>Dr. Odner.</speaker>
+<p>Du t&#x00E6;nker, jeg er svag, at jeg har ingen Villie. Jeg tr&#x00E6;nger en Villie for ikke at vige her &#x2013;</p>
+</sp>
+<sp>
+<speaker>Bodil.</speaker>
+<p>Du? Det er dig, som er sterk!</p>
+</sp>
+<sp>
+<speaker>Dr. Odner</speaker>
+<stage>(sagte, men med Eftertryk paa Ordene).</stage>
+<p>Den Lykke, der skulde v&#x00E6;re Lykke for <emph>dig</emph>! &#x2013; og mig! jeg ved det, uden Brist maatte den v&#x00E6;re, stor, stolt, i Fred og Lys! Der f&#x00F8;lger mig en Skygge &#x2013;</p>
+<stage>(n&#x00E6;r hen.)</stage>
+<p>Og det har jeg altid vidst: Jeg holder ikke Maal, jeg vilde aldrig v&#x00E6;re dig nok! Der er mere i din Natur, end det der kunde finde Hjem hos mig.</p>
+</sp>
+<sp>
+<speaker><pb n="115"/>Bodil</speaker>
+<stage>(ser stivt stirrende paa ham).</stage>
+<p>Sligt siger du mig! Og du har Ret! &#x2013; Men den Mand, som siger mig dette og som har Ret &#x2013; <emph>ham elsker jeg over alt, hvad jeg har elsket</emph>!</p>
+</sp>
+<sp>
+<speaker>Dr. Odner</speaker>
+<stage>(ligbleg, taler med Anstrengelse).</stage>
+<p>Som du staar der og straaler &#x2013; du bl&#x00E6;nder mit Syn! Gaa ud af mit Liv! Gaa til Herluf! Han er mere end jeg. Han elsker dig!</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(med et forvildet Smil).</stage>
+<p>Sligt ber du mig om!</p>
+<stage>(ler.)</stage>
+<p>Du svag! Du er den sterkeste, jeg har m&#x00F8;dt. Du viger ikke et Haarsbred fra, hvad du vil. Du vil holde din Sti klar af alt, som er ugrejt, og du kan. Du bryr dig ikke engang om at v&#x00E6;re lykkelig. Sligt er bare for os Smaafolk. Undskyld at jeg kom ivejen for dig. Men nu gaar jeg ogsaa.</p>
+</sp>
+<sp>
+<speaker>Dr. Odner</speaker>
+<stage>(b&#x00E6;vende).</stage>
+<p>Bodil, hvad vilde du, jeg skulde gj&#x00F8;re?</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(stolt).</stage>
+<p>Ingenting! For du har Ret. Jeg vilde ikke ha en Brist paa min Lykke, ikke en Plet, ikke en eneste liden Skygge maatte komme den n&#x00E6;r &#x2013; <stage>(vakler.)</stage></p>
+</sp>
+<sp>
+<speaker><pb n="116"/>Dr. Odner</speaker>
+<stage>(griber om hende).</stage>
+<p>Bodil!</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(gj&#x00F8;r sig l&#x00F8;s).</stage>
+<p>Det var ikke noget</p>
+</sp>
+<sp>
+<speaker>Dr. Odner</speaker>
+<stage>(med kvalt Stemme).</stage>
+<p>Hvad vil du, at jeg skal gj&#x00F8;re?</p>
+</sp>
+<sp>
+<speaker>Bodil.</speaker>
+<p>V&#x00E6;re rolig! Vi er jo enige!</p>
+<stage>(ser ham ind i &#x00D8;jnene, siger d&#x00E6;mpet, med Beslutning.)</stage>
+<p>Du har jo selv l&#x00E6;rt mig, at man skal fare varligt, ikke rive over noget fint Spind. Og det ved jeg: ikke vil jeg v&#x00E6;re med til at b&#x00F8;je et Sind saa fint og stolt! Du skal ikke skylde mig noget ondt i dit Liv. Noget godt vilde jeg git, om jeg havde kunnet.</p>
+</sp>
+<sp>
+<speaker>Dr. Odner.</speaker>
+<p>Du har kunnet. Dette blir til at stige paa.</p>
+<stage>(Han har M&#x00F8;je med at beherske sig.)</stage>
+<p>For det var ikke Dr&#x00F8;m bare, men en Virkelighed, m&#x00E6;gtig til at styrke Sjele!</p>
+<stage>(staar, ser sig om.)</stage>
+<p>Her er saa forunderlig h&#x00F8;jtideligt! &#x2013; &#x2013; som noget af Evighed er os n&#x00E6;r &#x2013; som var her et Altar rejst!</p>
+<stage>(Han kn&#x00E6;ler ned, gjemmer for sit Ansigt)</stage>
+</sp>
+<sp>
+<speaker><pb n="117"/>Bodil</speaker>
+<stage>(med stille H&#x00F8;jhed).</stage>
+<p>Det er her ogsaa &#x2013; for ham, hvis Fodspor ikke l&#x00E6;nger ses paa Jorden &#x2013; for den store, ukjendte Gud! Hans Vingeslag har strejfet os &#x2013; mere kunde det ikke blive!</p>
+</sp>
+<sp>
+<speaker>Dr. Odner</speaker>
+<stage>(det str&#x00F8;mmer br&#x00E6;ndende gjennem ham).</stage>
+<p>Bodil!</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(stille, smertefyldt.)</stage>
+<p>Naar kommer den Dagen, vi Mennesker kan overtale ham til at ta ind til os?</p>
+<stage>(plukker aandsfrav&#x00E6;rende nogle Blomster omkring. Vender sig saa rask omkring mod Odner. Siger med paatat Frejdighed).</stage>
+<p>Jeg synes, De skulde rejse Dem og gaa. Det er Kveld, det er Natten.</p>
+</sp>
+<sp>
+<speaker>Dr. Odner</speaker>
+<stage>(rejser sig langsomt, besv&#x00E6;rligt).</stage>
+<p>Det er H&#x00F8;sten, der kommer.</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(hen til ham. Hendes Stemme blir bl&#x00F8;d, varm).</stage>
+<p>Naar du gaar her og h&#x00F8;rer det bruse inde i Skogm&#x00F8;rket, da er det mig, som kommer! Se den Stjernen &#x2013; naar du ser den igjen &#x2013; da t&#x00E6;nk paa her!</p>
+<stage>(i en anden skarp Tone.)</stage>
+<p>Nu skal De gaa!</p>
+</sp>
+<sp>
+<speaker><pb n="118"/>Dr. Odner</speaker>
+<stage>(ser omkring og op gjennem Tr&#x00E6;erne, hvisker).</stage>
+<p>Farvel her i Skog!</p>
+</sp>
+<sp>
+<speaker>Fin</speaker>
+<stage>(kommer springende, griber om sin Far).</stage>
+<p>Mama kommer, skynt dig, lad os gjemme os!</p>
+<stage>(faar &#x00D8;je paa Bodil, springer hen.)</stage>
+<p>Men du har jo Taarer i &#x00D8;jnene &#x2013; de falder, de falder!</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(tar om ham, trykker ham ind til sig).</stage>
+<p>Det er for det &#x2013; jeg har stirret paa Solen!</p>
+</sp>
+<sp>
+<speaker>Fin.</speaker>
+<p>Ja, men den er v&#x00E6;k den &#x2013; <emph>nu</emph> maa vi skynte os!</p>
+<stage>(tr&#x00E6;kker hende med sig.)</stage>
+</sp>
+<sp>
+<speaker>Dr. Odner</speaker>
+<stage>(blir staaende og se op gjennem Tr&#x00E6;erne).</stage>
+</sp>
+<sp>
+<speaker>Fru Vivi</speaker>
+<stage>(kommer kvidrende, i et ypperligt Hum&#x00F8;r).</stage>
+<p>Hvor er Tyrannen? Fin! Hvor er han, siger du!</p>
+<stage>(stanser, ler.)</stage>
+<p>Naa, saa der er han! Er du nu begyndt slig? Ellers ligger du i Mosen og roder. Er <emph>det</emph> den h&#x00F8;jere Botanik kanske?</p>
+<stage>(kommer hen. Vedblir lystig uden at stanse.)</stage>
+<p>Kai, du, som ved alting, hvem talte f&#x00F8;rst, Adam eller Eva? T&#x00E6;nk, det spurgte Kaptein Lynn mig om idag!</p>
+<stage>(indsmigrende koket, l&#x00E6;gger sit Hode op til ham.)</stage>
+<p><pb n="119"/>Ved du, du maa f&#x00F8;lge mig til Stationen imorgen? Jeg vil til Byen, hvis Tyrannen gir mig Lov! &#x2013; Man <emph>maa</emph> da ha det lidt livligt, mens man er her i Verden! Og jeg skal sige dig, det skal ikke v&#x00E6;re bra for Forstanden at v&#x00E6;re for l&#x00E6;nge paa Landet. Det paastaar Kaptein Lynn. Man b&#x00F8;r da vedligeholde sin Forstand!</p>
+</sp>
+<sp>
+<speaker>Dr. Odner</speaker>
+<stage>(tier, undviger hendes Blik).</stage>
+</sp>
+<sp>
+<speaker>Fru Vivi</speaker>
+<stage>(merker det ikke, optat af sit eget. Hun vedblir straalende hemmelighedsfuld).</stage>
+<p>Kaj! Jeg har faat Brev fra Just! Han siger, at n&#x00E6;ste Stjernefald &#x2013; da sp&#x00F8;ger det for os! Du ved, jeg elsker Stjerneskud! Aa, vi er da lykkelige, vi to! Du skj&#x00F8;nner da vel det, Kai!</p>
+</sp>
+<sp>
+<speaker>Dr. Odner</speaker>
+<stage>(vender sig fra hende, gaar bort nogle Skridt).</stage>
+</sp>
+<sp>
+<speaker>Fru Vivi</speaker>
+<stage>(merker fremdeles ikke hans Taushed, men f&#x00F8;lger eiter. Kaster med Nakken, ler lystigt).</stage>
+<p>Og ved du, Kai, din elskelige Veninde, hun er aldeles &#x00E0; la jeg ved ikke hvem &#x2013; for nu interesserer hun sig for Professoren ogsaa. Men han rejser til Byen imorgen. Vi faar F&#x00F8;lge, det er heldigt, siden du ikke kan &#x2013;</p>
+<stage>(merker tilsist hans Taushed og Fortabthed, ser sig om.)</stage>
+<p>Ja, her er dejligt! Men man kan da ikke altid <pb n="120"/>holde paa at v&#x00E6;re poetisk! Nu blir der kj&#x00F8;ligt. Det taaler jeg ikke! Kom nu, Kai!</p>
+<stage>(Hun l&#x00E6;gger sin Arm i hans og vil drage ham med sig.)</stage>
+</sp>
+<sp>
+<speaker>Dr. Odner</speaker>
+<stage>(l&#x00F8;ser sig ud, siger stille, bestemt).</stage>
+<p>Gaa foran, Vivi! Jeg kommer snart efter!</p>
+<stage>(Han gaar ind en Skogsti tilh&#x00F8;jre.)</stage>
+<stage>(Hun ser forundret efter ham og gaar.)</stage>
+</sp>
+<sp>
+<speaker>Fin</speaker>
+<stage>(kommer fra venstre ind paa Vejen. Man ser ham under det f&#x00F8;lgende af og til mellem Tr&#x00E6;erne, ridende paa en Kjep. Bodil kommer langsomt efter ham)</stage>
+</sp>
+<sp>
+<speaker>Kari</speaker>
+<stage>(kommer fra den anden Side, tungt gaaende.)</stage>
+<p>Det ringer fyr &#x00D8;ira mine. Eg trur v&#x00E6;l, eg ska faa spurt nyt!</p>
+</sp>
+<sp>
+<speaker>Bodil.</speaker>
+<p>Godkvel igjen, Kari. Du fik vel fuldt Spandet dit?</p>
+</sp>
+<sp>
+<speaker>Kari</speaker>
+<stage>(s&#x00E6;tter Spandet fra sig, nejer).</stage>
+<p>Jau daa! Tak, &#x00C6;re og Pris!</p>
+<stage>(Hun ser Professor &#x00D8;rn komme, skynder sig, tar op Spandet, guar langsomt, stanser, puster i Bakken, ser sig tilbage.)</stage>
+</sp>
+<sp>
+<speaker>Herluf &#x00D8;rn</speaker>
+<stage>(kommer hurtig, med sine s&#x00E6;dvanlige livlige Armbev&#x00E6;gelser).</stage>
+<p>Voil&#x00E0;! Jeg har s&#x00F8;gt Dem. Deres Bror s&#x00F8;ger Dem ogsaa. Han vil ha os allesammen ud paa Vandet ikveld.</p>
+</sp>
+<sp>
+<speaker><pb n="121"/>Bodil</speaker>
+<stage>(blir staaende, som l&#x00E6;gger hun ikke Merke til noget omkring sig).</stage>
+</sp>
+<sp>
+<speaker>Herluf &#x00D8;rn.</speaker>
+<p>Som De staar der &#x2013; og ikke ser mig! Hvad er der over Dem ikveld?</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(med svag Stemme).</stage>
+<p>Ja, det ved jeg ikke!</p>
+</sp>
+<sp>
+<speaker>Herluf &#x00D8;rn</speaker>
+<stage>(stirrer paa hende).</stage>
+<p>Hvordan blev De slig? Dronning saa stilferdig, uden Kroning!</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(ser paa ham med et tungt Blik, men siger ingenting).</stage>
+</sp>
+<sp>
+<speaker>Herluf &#x00D8;rn.</speaker>
+<p>De har M&#x00F8;rke i &#x00D8;jet &#x2013; men der straaler af det. Det er Livet, som sover; der er Magt i det fra dybe Dybder!</p>
+<stage>(gaar hen til hende, siger d&#x00E6;mpet, ildfuldt.)</stage>
+<p>Noget maa jeg sp&#x00F8;rge Dem om nu, nu! Vil De blive min Hustru, gaa med mig derover! Over Havet kom jeg hid efter Dem!</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(ryster paa Hodet).</stage>
+</sp>
+<sp>
+<speaker><pb n="122"/>Herluf &#x00D8;rn</speaker>
+<stage>(indtr&#x00E6;ngende).</stage>
+<p>Jeg vil, De skal se, hvor Livet er skj&#x00F8;nt og rigt, hvor det fornyer sig. Hvor det er helligt! &#x2013; Saa vil jeg, De skal se, at der er en Mand, der er skabt for Dem, der har s&#x00F8;gt Dem af hele sit Hjertes Dyb. Og at det er den Mand, De selv s&#x00F8;ger!</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(ler nerv&#x00F8;st)</stage>
+<p>Og jeg! Jeg siger som &#x2013; jeg husker ikke, hvem det er &#x2013; men den Mand, De taler om &#x2013; nej, han er vist ikke f&#x00F8;dt endnu &#x2013; kanske blir han det ikke f&#x00F8;r om hundrede Aar eller mer &#x2013;</p>
+<stage>(l&#x00F8;fter Armene op.)</stage>
+<p>Aa, du Skog! Kommer han her nogengang, saa hils ham fra mig!</p>
+</sp>
+<sp>
+<speaker>Herluf &#x00D8;rn</speaker>
+<stage>(heftig).</stage>
+<p>De er blind!</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(ser op paa ham, stille).</stage>
+<p>Det er man jo altid. De ogsaa!</p>
+</sp>
+<sp>
+<speaker>Herluf &#x00D8;rn</speaker>
+<stage>(fast).</stage>
+<p>Nej! Og De skulde vogte Dem for at st&#x00F8;de mig v&#x00E6;k!</p>
+</sp>
+<sp>
+<speaker>Bodil.</speaker>
+<p>Ja, naturligvis! Men naar jeg nu er blind &#x2013;</p>
+</sp>
+<sp>
+<speaker><pb n="123"/>Herluf &#x00D8;rn</speaker>
+<stage>(smerteligt).</stage>
+<p>Skal vi ogsaa v&#x00E6;re blandt dem, der gaar hinanden forbi? &#x2013; De lever og er ung! Hvorfor vil De ikke se mig?</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(ser paa ham med et forvildet Udtryk).</stage>
+<p>Javist! Jeg lever og er ung! Det er vel derfor, jeg ikke kan &#x2013;</p>
+<stage>(svagt.)</stage>
+<p>Sagde jeg ikke, jeg vilde v&#x00E6;re alene?</p>
+</sp>
+<sp>
+<speaker>Herluf &#x00D8;rn.</speaker>
+<p>Vel! Men vi to er ikke ferdige! Imorgen rejser jeg herfra. De kommer jo nedover igjen? Saa tales vi ved en Gang endnu!</p>
+</sp>
+<sp>
+<speaker>Bodil.</speaker>
+<p>Vil De sige til min Bror, jeg blir ikke med!</p>
+</sp>
+<sp>
+<speaker>Herluf &#x00D8;rn.</speaker>
+<p>Vel!</p>
+<stage>(ser dybt paa hende og gaar.)</stage>
+</sp>
+<sp>
+<speaker>Kari</speaker>
+<stage>(der er blet staaende inde mellem Tr&#x00E6;erne, kommer nu frem. Hun ser bekymret fra ham, der gaar, og hen til Bodil).</stage>
+<p>Det er all Tid det sama, difyrr at det er all Tid det sama!</p>
+</sp>
+<sp>
+<speaker><pb n="124"/>Bodil</speaker>
+<stage>(faar &#x00D8;je paa Kari og gaar frem mod hende).</stage>
+<p>Staar du der og kviler. Du er jo naadd frem, du Kari! Gaa nu og l&#x00E6;g dig!</p>
+</sp>
+<sp>
+<speaker>Kari</speaker>
+<stage>(ser bekymret hen).</stage>
+<p>Du det sama!</p>
+<stage>(tar op Spandet, skynder sig, gaar, vender sig om og siger).</stage>
+<p>Du lyt sova v&#x00E6;l!</p>
+<stage>(gaar videre ind paa Stien.)</stage>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(der er blet staaende, st&#x00F8;ttet op mod et Tr&#x00E6;).</stage>
+<p>Ja, jeg skal det! &#x2013; &#x00AB;Sove l&#x00E6;nge! For Dagen har v&#x00E6;ret haard!&#x00BB;</p>
+</sp>
+</div>
+<div type="chapter" subtype="act" n="5">
+<head type="main">&#x005B;Akt 5&#x005D;</head>
+<stage><pb n="125"/>Den samme Salon som i f&#x00F8;rste Handling. Ind fra Entreen gjennem Forv&#x00E6;relset kommer Bodil rejsekl&#x00E6;dt, med en V&#x00E6;ske i Haanden. Begynder langsomt at ta af sig. En Pige kommer, b&#x00E6;rer T&#x00F8;jet ud.</stage>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(blir staaende midt paa Gulvet).</stage>
+<p>Naa, saa slig ser her ud! Jeg havde n&#x00E6;sten glemt det!</p>
+<stage>(gaar hen og ser udover Fjorden og Aaserne, der skinner i Eftersommerens Pragt Mumler heftig.)</stage>
+<p>Du dejlige Liv, du tunge Liv!</p>
+<stage>(gaar v&#x00E6;k fra Vinduet.)</stage>
+<p>Jo tak, jeg er ikke r&#x00E6;d; jeg tar imod det, du kommer med &#x2013; &#x2013; men &#x2013; du s&#x00E6;lger alting saa dyrt!</p>
+<stage>(blir staaende et &#x00D8;jeblik med Haanden over &#x00D8;jnene. Gaar videre og nynner, stanser, lytter som til sig selv.)</stage>
+<p>Det er, som nogenting er mig n&#x00E6;r &#x2013; store, hvide Svanefugl, susende fra ukjendte Land &#x2013; r&#x00F8;rer mig med myge Vinger &#x2013;</p>
+<stage>(tramper med Foden.)</stage>
+<p>Jeg vil more mig; jeg vil ha noget nyt, noget, som aldrig f&#x00F8;r har v&#x00E6;ret til! Haha, En maa ha Lov til at le af sig selv!</p>
+</sp>
+<sp>
+<speaker><pb n="126"/>Madam H&#x00F8;ye</speaker>
+<stage>(kommer farende ind, straalende forn&#x00F8;jet).</stage>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(smilende mod hende).</stage>
+<p>Naa, det var morsomt at se Dem igjen, Madam H&#x00F8;ye!</p>
+</sp>
+<sp>
+<speaker>Madam H&#x00F8;ye</speaker>
+<stage>(nejer).</stage>
+<p>Men, Herregud, at Fr&#x00F8;kenen er her, uden at nogen tar imod Dem! Fr&#x00F8;kenen har da vel havt det godt?</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(muntert).</stage>
+<p>Saa godt, at jeg blev tr&#x00E6;t af al den Sommer og Sol og alle de Blomster! Uh! Det skal bli godt at faa Vinter nu &#x2013; og koldt og m&#x00F8;rkt!!</p>
+<stage>(gaar hen til Vinduet, ser ud.)</stage>
+<p>Og Bedehuset, som er blet ferdigt ogsaa. &#x2013; Saa n&#x00E6;r det staar!</p>
+</sp>
+<sp>
+<speaker>Madam H&#x00F8;ye</speaker>
+<p>Ja, naar D&#x00F8;ren gaar op, staar Orgelsangen helt ind her. Idag er der Fest.</p>
+</sp>
+<sp>
+<speaker>Bodil.</speaker>
+<p>Hvor er min Tante?</p>
+</sp>
+<sp>
+<speaker>Madam H&#x00F8;ye</speaker>
+<p>Jo, Fruen er inde hos Admiralinden.</p>
+</sp>
+<sp>
+<speaker><pb n="127"/>Bodil</speaker>
+<stage>(ligegyldig).</stage>
+<p>Hvad er der ivejen med hende?</p>
+</sp>
+<sp>
+<speaker>Madam H&#x00F8;ye.</speaker>
+<p>Jo, det er Admiralindens F&#x00F8;dselsdag.</p>
+</sp>
+<sp>
+<speaker>Bodil.</speaker>
+<p>Bevares, saa Tante Betty holder F&#x00F8;dselsdag</p>
+<stage>(utaalmodig.)</stage>
+<p>Men kommer ikke Tante Cara hjem igjen?</p>
+</sp>
+<sp>
+<speaker>Madam H&#x00F8;ye</speaker>
+<stage>(beroligende).</stage>
+<p>Jeg t&#x00E6;nker straks. Men der var jo heller ingen, som vidste, at Fr&#x00F8;kenen kom.</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(n&#x00E6;rmere).</stage>
+<p>Har Tante Cara det godt?</p>
+</sp>
+<sp>
+<speaker>Madam H&#x00F8;ye</speaker>
+<stage>(forsigtig).</stage>
+<p>Jo, Gud ske Tak! Det er bare disse Mindedagene, hvor Fruen ikke har Ro til at sidde paa en Stol, men gaar ud og ind &#x2013; i disse Stuerne her.</p>
+</sp>
+<sp>
+<speaker>Bodil.</speaker>
+<p>De siger det saa underligt</p>
+</sp>
+<sp>
+<speaker><pb n="128"/>Madam H&#x00F8;ye</speaker>
+<stage>(peger ud i Forv&#x00E6;relset)</stage>
+<p>Derude staar jo de gamle Ting fra Chefsgaarden &#x2013; og Fru Alette, hun d&#x00F8;de herinde &#x2013;</p>
+</sp>
+<sp>
+<speaker>Bodil.</speaker>
+<p>Hvorfor siger De det saa underligt, Madam H&#x00F8;ye?</p>
+</sp>
+<sp>
+<speaker>Madam H&#x00F8;ye</speaker>
+<stage>(forsigtig).</stage>
+<p>For hun gjorde det selv! Det var blet for lejt for hende, da hun saa, at ingen af dem kom over det. Hun kunde ikke staa det.</p>
+</sp>
+<sp>
+<speaker>Bodil.</speaker>
+<p>Og Tante Cara?</p>
+</sp>
+<sp>
+<speaker>Madam H&#x00F8;ye</speaker>
+<stage>(vedblir).</stage>
+<p>Nu har jeg t&#x00E6;nkt som saa: Om Konsulen nu kom &#x2013; det kunde vel v&#x00E6;re, Vorherre syntes, de to burde snakkes ved &#x2013;</p>
+<stage>(mod D&#x00F8;ren, der aabnes.)</stage>
+<p>Ja, nu kommer jeg! Der ser jeg Fruen ogsaa!</p>
+<stage>(skynder sig ud.)</stage>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(blir staaende og se fremfor sig).</stage>
+<p>Det er vel derfor, Onkel Bernhard er saa saar i &#x00D8;jnene &#x2013; som en Kvinde!</p>
+<stage>(kaster det fra sig.)</stage>
+<p>Hold dig glad, du <emph>maa</emph> holde dig glad, ellers blir det saa ondt!</p>
+</sp>
+<sp>
+<speaker><pb n="129"/>Tante Cara</speaker>
+<stage>(kommer ind, mild og lys. Under det f&#x00F8;lgende merker hun ikke Bodils Sindsstemning og hendes s&#x00E6;lsomme Maade at sige alting paa).</stage>
+<p>Naa, er du der, mit Barn! Hvorfor lod du mig ikke vide, at du kom?</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(mod hende, ind i hendes Favn).</stage>
+<p>Du liker jo saa godt Overraskelser!</p>
+</sp>
+<sp>
+<speaker>Tante Cara</speaker>
+<p>Jeg vilde tat mod dig, mit Barn, det vilde jeg!</p>
+<stage>(s&#x00E6;tter sig ned i sin Stol.)</stage>
+<p>Du maa tro, jeg er tr&#x00E6;t!</p>
+</sp>
+<sp>
+<speaker>Bodil.</speaker>
+<p>Ja, efter Chokoladen hos Admiralinden! &#x2013; Men ellers er du jo aldrig tr&#x00E6;t, det har jeg lagt Merke til. Du maa ta os andre ved Haanden og hj&#x00E6;lpe os! Det er, fordi du ved saa godt, hvordan alting er!</p>
+<stage>(glider ned paa Skamlen ved hendes Fod.)</stage>
+</sp>
+<sp>
+<speaker>Tante Cara</speaker>
+<stage>(ler).</stage>
+<p>Det er noget godt Snak, Barn! Men nu skal man vide, hvordan vor lille Prinsesse har havt det?</p>
+</sp>
+<sp>
+<speaker>Bodil.</speaker>
+<p>Udmerket! Men Admiralinden var vel melankolsk over, at jeg ikke er gift endda?</p>
+</sp>
+<sp>
+<speaker><pb n="130"/>Tante Cara</speaker>
+<stage>(ryster smilende paa Hodet, stryger hende over Haaret).</stage>
+<p>Hvordan har du nu havt det, mit Barn?</p>
+</sp>
+<sp>
+<speaker>Bodil.</speaker>
+<p>Aa, saa godt &#x2013; at jeg er ligesom rent ferdig! Jeg synes, jeg har levet det altsammen!</p>
+</sp>
+<sp>
+<speaker>Tante Cara</speaker>
+<stage>(ler).</stage>
+<p>Du er jo knap f&#x00F8;dt, min Ven! Du skulde ikke skynde dig saa.</p>
+<stage>(vemodig.)</stage>
+<p>Det h&#x00E6;nder saa tidt, man kommer tidsnok.</p>
+<stage>(i en anden Tone.)</stage>
+<p>Ja, t&#x00E6;nk for alt, du har at v&#x00E6;re glad for. Lykken har forfulgt dig, siger Tante Betty.</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(muntert).</stage>
+<p>Nej, men jeg m&#x00F8;dte ham forleden i Skogen. Du maa vide, det er ikke nogen Gudinde. Det er en gammel, blind Mand. &#x2013;</p>
+<p>Han kom lige for mig paa Stien. Gaa afvejen, sagde han, jeg er Lykken. Jeg gaar og deler ud. Saa faar du vel gi mig min Del ogsaa da, mente jeg. Nej, nu har jeg v&#x00E6;ret uvorren saa l&#x00E6;nge, sagde han, nu faar jeg nok spare. Det Grand, jeg har her, skal r&#x00E6;kke langt!</p>
+<p>Ja, men pas paa at gi til dem, som fortjener det, ropte jeg efter ham. Da vendte han sig og lo: Det faar gaa, som det kan med det!</p>
+<p><pb n="131"/>Da saa jeg f&#x00F8;rst, han famled sig frem: &#x2013; en gammel, blind Mand, med en liden S&#x00E6;k paa Ryggen!</p>
+</sp>
+<sp>
+<speaker>Tante Cara</speaker>
+<stage>(smilende.)</stage>
+<p>Hvor tar du slige Historier fra? Men hvordan har du det saa, Barn?</p>
+</sp>
+<sp>
+<speaker>Bodil.</speaker>
+<p>Godt, naar jeg er hos dig! Du er som en dejlig, gammel Mor, som tar og b&#x00F8;jer alting ind til Fred &#x2013; men det var noget, jeg kom til at t&#x00E6;nke paa: Hvorfor d&#x00F8;de jeg ikke dengang jeg var liden og var saa syg?</p>
+</sp>
+<sp>
+<speaker>Tante Cara</speaker>
+<stage>(vender sig om mod hende, men kan ikke se hendes Ansigt).</stage>
+<p>H&#x00F8;r, min Ven, jeg liker ikke, du kommer med sligt! &#x2013; Det var da vel godt for dig deroppe?</p>
+</sp>
+<sp>
+<speaker>Bodil.</speaker>
+<p>Vist var det saa! Jeg synes bare, det er morsomt at sidde og t&#x00F8;ve. Det ved du jo! Man kan da v&#x00E6;re glad for det!</p>
+</sp>
+<sp>
+<speaker>Tante Cara</speaker>
+<stage>(beroliget, forn&#x00F8;jet).</stage>
+<p>Ja, nu skal vi ha det godt sammen &#x2013; skal vi ikke?</p>
+</sp>
+<sp>
+<speaker><pb n="132"/>Bodil.</speaker>
+<p>Jo, som i gamle Dage &#x2013; og tale om alting, om dig f&#x00F8;rst! Du ved ikke for en inderlig &#x00C6;rb&#x00F8;dighed, jeg har for dig, Guldmor!</p>
+<stage>(kysser hendes Haand.)</stage>
+<p>Jo, for du har vandret den lange Dag uden Hvile, uden Fest. Og du blev ikke bitter, ikke tr&#x00E6;t!</p>
+</sp>
+<sp>
+<speaker>Tante Cara</speaker>
+<stage>(slaar afv&#x00E6;rgende med Haanden).</stage>
+<p>Det er noget godt Snak, min Ven. Det har ikke v&#x00E6;ret nogenting!</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(priber hendes Haand).</stage>
+<p>Jo, nu vil jeg synge din Pris! Alt, hvad du r&#x00F8;rer ved, bliver velsignet. Du gir med tause, rige H&#x00E6;nder og ved ikke af det selv!!</p>
+</sp>
+<sp>
+<speaker>Tante Cara</speaker>
+<stage>(l&#x00E6;gger sin Haand paa hendes Hode)</stage>
+<p>Mit Barn! Jeg ved bare en Ting: Vi maa skynde os og v&#x00E6;re gode. Tiden er saa kort!</p>
+</sp>
+<sp>
+<speaker>Bodil.</speaker>
+<p>Du har havt det ondt! Jeg ved det!</p>
+</sp>
+<sp>
+<speaker>Tante Cara</speaker>
+<stage>(mildt).</stage>
+<p>At man l&#x00E6;rte at lide fra Ungdommen, har v&#x00E6;ret nyttigt &#x2013; for nogle. For siden &#x2013; saa kunde man bedre &#x2013;<note type="footnote">bedre &#x2013;] <hi rend="italic">rettet fra:</hi> bedre <hi rend="italic">(trolig trykkfeil i 1. utgave)</hi></note> <pb n="133"/>Og dersom nogen har en Sorg, faar man ta den med sig ind i Gl&#x00E6;den, lade Solen skinne paa den!</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(heftig).</stage>
+<p>Du skulde v&#x00E6;ret lykkelig!</p>
+</sp>
+<sp>
+<speaker>Tante Cara</speaker>
+<p>Det er jeg ogsaa, mit Barn! Og brister det nogengang for mig, da siger jeg til Gud: Undskyld, at jeg ikke kunde gj&#x00F8;re det bedre!</p>
+</sp>
+<sp>
+<speaker>Bodil.</speaker>
+<p>Selv om du gaar paa m&#x00F8;rke Veje &#x2013; altid skinner Stjerner hos dig!</p>
+</sp>
+<sp>
+<speaker>Tante Cara</speaker>
+<stage>(ryster sit Hode).</stage>
+<p>Barn, det er ikke, som du t&#x00E6;nker, nogenting!</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(retter sig op. Hendes Tone skifter om).</stage>
+<p>Tante Cara! Hvad ved du om Sorg og Sjelens Piner? Ikke de, som br&#x00E6;nder, men de, som isner og gj&#x00F8;r koldt. Kjender du dem?</p>
+</sp>
+<sp>
+<speaker>Tante Cara</speaker>
+<p>Lille Ven, hvad kommer saadant dig ved?</p>
+</sp>
+<sp>
+<speaker>Bodil.</speaker>
+<p>Aa, jeg sp&#x00F8;rger bare saadan! Du siger aldrig noget, som er slemt. Hvad for en List har du fundet paa for at synes, at alting er godt?</p>
+</sp>
+<sp>
+<speaker><pb n="134"/>Tante Cara</speaker>
+<stage>(bekymret).</stage>
+<p>Du br&#x00E6;nder, du har ondt i dit Hode?</p>
+</sp>
+<sp>
+<speaker>Bodil.</speaker>
+<p>Heller i Sjelen da, ellers har jeg det rigtig godt. Men jeg er lidt tr&#x00E6;t. Var saa tidlig oppe, f&#x00F8;r Daggry. &#x2013; Som det var koldt og trist! &#x2013; Jeg maatte t&#x00E6;nke paa de D&#x00F8;ende, som lukked sine &#x00D8;jne &#x2013; &#x2013; saa kom jeg til at t&#x00E6;nke paa saa meget andet &#x2013; paa Fuglene der nord, husker du det? &#x2013; Naar de var saarvingede, gjemte de sig v&#x00E6;k! De vidste, at de kunde ikke flyve, ikke ta fra sig! Saa gjemte de sig bort, til de kunde ta fat igjen!</p>
+<p>Slig er det med Onkel Bernhard ogsaa &#x2013;</p>
+<stage>(ler lidt)</stage>
+<p>Mon ikke jeg burde ta mig en Tur?</p>
+</sp>
+<sp>
+<speaker>Tante Cara</speaker>
+<stage>(rejser sig urolig).</stage>
+<p>Du taler om, hvad du ikke forstaar, Barn!</p>
+</sp>
+<sp>
+<speaker>Bodil.</speaker>
+<p>Du maa undskylde mig, Tante Cara! Jeg mente bare: Gid jeg var rigtig gammel &#x2013; nej, det mente jeg heller ikke &#x2013; for du store Gud, hvor alting er besv&#x00E6;rligt! &#x2013; &#x2013; &#x2013;</p>
+<p>Lille Guldmor, du maa undskylde mig. Jeg morer mig bare med at sige saadant!</p>
+</sp>
+<sp>
+<speaker><pb n="135"/>Tante Cara</speaker>
+<stage>(rejser sig. Gaar hen til Vinduet).</stage>
+<p>Javist, det ved jeg jo nok. Det blir nok godt altsammen. &#x2013; &#x2013; Der skal du se, der kommer Professor &#x00D8;rn. Jeg t&#x00E6;nker, det er ham, som tr&#x00E6;nges her! Nu gaar jeg ind og hviler lidt. Saa faar I tales ved!</p>
+<stage>(nikker mildt, gaar ind tilvenstre.)</stage>
+</sp>
+<sp>
+<speaker>Herluf &#x00D8;rn</speaker>
+<stage>(kommer fra Haven, op Verandaen. Blir staaende udenfor den aabne D&#x00F8;r. Hilser).</stage>
+<p>Man sagde, jeg kunde gaa denne Vej!</p>
+<stage>(Han blir staaende og se forskende paa hende. Han l&#x00E6;gger Merke til, hvor bleg hun er og bev&#x00E6;ges ved det.)</stage>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(gjemmer sin Sindsstemning under en forceret Lystighed. Hun hilser ham med en indbydende Haandbev&#x00E6;gelse).</stage>
+<p>Hr. Professor!</p>
+<stage>(Han tr&#x00E6;der ind &#x2013; er et &#x00D8;jeblik taus.)</stage>
+</sp>
+<sp>
+<speaker>Bodil.</speaker>
+<p>Hvorfor kan De ikke finde paa noget at sige, naar De f&#x00F8;rst er her?</p>
+</sp>
+<sp>
+<speaker>Herluf &#x00D8;rn.</speaker>
+<p>Fordi der er saa meget!</p>
+</sp>
+<sp>
+<speaker>Bodil.</speaker>
+<p>Det er Synd! For jeg ved, De altid har Hastv&#x00E6;rk. Og nu skal De jo rejse over igjen? Vil De ikke ta Plads?</p>
+<stage>(Hun tar selv Plads.)</stage>
+</sp>
+<sp>
+<speaker><pb n="136"/>Herluf &#x00D8;rn</speaker>
+<stage>(tar ikke den tilbudte Stol, men bliver staaende foran hende).</stage>
+<p>Heldigvis traf jeg Dem!</p>
+</sp>
+<sp>
+<speaker>Bodil.</speaker>
+<p>Uheldigvis! De ved, mod Dem er jeg oprigtig. De ser forresten ud, som kom De med Bud fra syv vise Mandfolk!</p>
+</sp>
+<sp>
+<speaker>Herluf &#x00D8;rn</speaker>
+<stage>(ser skarpt paa hende).</stage>
+<p>Hvordan har De det? Stusle?</p>
+</sp>
+<sp>
+<speaker>Bodil.</speaker>
+<p>Nej, udmerket! Men det er jo altid lidt anstrengende, ved De, at v&#x00E6;re til, selv om man har det saa udmerket som jeg!</p>
+</sp>
+<sp>
+<speaker>Herluf &#x00D8;rn.</speaker>
+<p>De kan ikke gjemme Dem for mig! Lad Deres Natur bryde gjennem og sejre over Dagenes smaa Ting. At lide kan v&#x00E6;re Svaghed.</p>
+</sp>
+<sp>
+<speaker>Bodil.</speaker>
+<p>Ja, naturligvis, men det gaar over, som naar man sulter for Eksempel. Man skal jo f&#x00F8;le det de tre f&#x00F8;rste Dagene, siden merker man ikke mere til det. Ved De noget mer, som er morsomt?</p>
+</sp>
+<sp>
+<speaker><pb n="137"/>Herluf &#x00D8;rn</speaker>
+<stage>(n&#x00E6;rmere).</stage>
+<p>De beh&#x00F8;ver ikke forskanse Dem! Hvad jeg talte om sist &#x2013; det er ikke det! Jeg sp&#x00F8;rger ikke om sligt mer end en Gang. L&#x00E6;nge har jeg ventet paa den Kvinde, som var istand til at ta mig. De <emph>kunde</emph>, De vilde ikke. Vel, vi gaar over til noget andet!</p>
+</sp>
+<sp>
+<speaker>Bodil.</speaker>
+<p>Ja, skal vi ikke det!</p>
+</sp>
+<sp>
+<speaker>Herluf &#x00D8;rn.</speaker>
+<p>De er saa lattermild. Men der staar M&#x00F8;rke omkring Dem!</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<p>Om det nu lyster mig at f&#x00E6;rdes derinde &#x2013; i M&#x00F8;rket?</p>
+</sp>
+<sp>
+<speaker>Herluf &#x00D8;rn.</speaker>
+<p>Det mener jeg ogsaa, De b&#x00F8;r. Man beh&#x00F8;ver M&#x00F8;rke for at se, at der er Stjerner. I Lidelsens Nat bygger man sin Skj&#x00E6;bne.</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(haanlig).</stage>
+<p>Min Skj&#x00E6;bne! Jeg bryr mig ikke om at flikke paa den! Jeg tar den, som den er! Og imens &#x2013; gaar Tiden.</p>
+</sp>
+<sp>
+<speaker><pb n="138"/>Herluf &#x00D8;rn</speaker>
+<stage>(igjen n&#x00E6;rmere, vedblir).</stage>
+<p>Der findes forresten ikke helt M&#x00F8;rke! Overalt er der Lys! Der er igrunden heller ingen Sorg &#x2013; naar vi ikke skaber den selv!</p>
+</sp>
+<sp>
+<speaker>Bodil.</speaker>
+<p>Nej, der er vel ikke det! Har De h&#x00F8;rt hvad den gamle Konen sagde, da Presten vilde tr&#x00F8;ste hende med den evige Salighed: Kan Gud selv gj&#x00F8;re, at jeg ikke har gr&#x00E6;dt?</p>
+<stage>(tr&#x00E6;kker paa Skuldrene).</stage>
+<p>Hvorfor skal man plage sig? Ved De ikke, at vi skal d&#x00F8; om en liden Stund?</p>
+</sp>
+<sp>
+<speaker>Herluf &#x00D8;rn.</speaker>
+<p>F&#x00F8;rst noget andet!</p>
+<stage>(indtr&#x00E6;ngende.)</stage>
+<p>Vaagn ind til den vidunderlige Virkelighed, st&#x00F8;rre end alle Eventyr, rigere end al Dr&#x00F8;m! Der er et Arbejde, De aldrig har gjort f&#x00F8;r. De skulde begynde at t&#x00E6;nke paa andre! Tag det roligt, se Dem l&#x00E6;nger omkring!</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(aandsfrav&#x00E6;rende).</stage>
+<p>Nej, virkelig!</p>
+</sp>
+<sp>
+<speaker>Herluf &#x00D8;rn</speaker>
+<p>Man er ikke her paa Jorden for at ligge under! Rejs Dem! Og lukkede D&#x00F8;re vil aabne sig!</p>
+</sp>
+<sp>
+<speaker><pb n="139"/>Bodil.</speaker>
+<p>Det er sandelig pent af Dem at bry Dem med alt dette for min Skyld &#x2013; men jeg tror, jeg maa stelle mig selv. Kanske hvile mig lidt f&#x00F8;rst!</p>
+</sp>
+<sp>
+<speaker>Herluf &#x00D8;rn.</speaker>
+<p>Jeg vil svare Dem med et Citat: &#x00AB;Men Zenophon var stolt over at se Hellenerne l&#x00F8;fte sig selv op til mere &#x00E6;dle Ting end Sorg over N&#x00F8;den og ikke som Barbarer b&#x00F8;je sig i Skr&#x00E6;k&#x00BB; &#x2013;</p>
+</sp>
+<sp>
+<speaker>Bodil.</speaker>
+<p>Men le af det hele! Ja, kj&#x00E6;re, jeg er jo enig med Hellenerne!</p>
+</sp>
+<sp>
+<speaker>Herluf &#x00D8;rn</speaker>
+<stage>(sterkt).</stage>
+<p>Red Dem saa over Vandene, som stiger op om Dem. Tag Kjenning af Livets Land!</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(opbrusende).</stage>
+<p>Forstaar De ikke, hvor De piner mig? Er det aldrig faldt Dem ind, hvor De kan plage Folk &#x2013; &#x2013;</p>
+<stage>(langsomt, sagte.)</stage>
+<p>at der kan v&#x00E6;re noget i et Menneske, ingen maa r&#x00F8;re ved. Ved De ikke det?</p>
+</sp>
+<sp>
+<speaker>Herluf &#x00D8;rn</speaker>
+<p>Ved ikke De, at af hvert Menneskes Kamp gror der noget!</p>
+<stage>(varmt).</stage>
+<p>Tilgiv mig!</p>
+</sp>
+<sp>
+<speaker><pb n="140"/>Bodil</speaker>
+<stage>(stirrer frem for sig, som h&#x00F8;rer hun ham ikke)</stage>
+</sp>
+<sp>
+<speaker>Herluf &#x00D8;rn</speaker>
+<stage>(varsomt).</stage>
+<p>Ikke mange ved, hvad det er at leve sit Liv. De skal vide det. Vov at leve det! Hjelp os derover, frem mod lykkeligere Skj&#x00E6;bner. Og skab Deres egen &#x2013; stor og Dem v&#x00E6;rdig!</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(rejser sig, gaar lidt omkring, flytter aandsfrav&#x00E6;rende paa forskjellige Ting, vender sig om, maaler ham med &#x00D8;jnene).</stage>
+<p>Igrunden er De morsom! For, du store Gud, hvor De har det langt ude alting &#x2013; &#x2013; jo, De maaler med disse lange Maal, som faar alt til at svinde ind til ingenting. Naar man taler med Dem, kommer man pludselig t&#x00EA;te-&#x00E0;-t&#x00EA;te med Uendeligheden og alt det der &#x2013;</p>
+<stage>(s&#x00E6;tter sig ned igjen, ser paa ham)</stage>
+<p>Saadan at gribe ind i Verdensstyrelsen! Jo, tak for Indbydelsen! Men jeg tror, jeg vil vente lidt.</p>
+<stage>(l&#x00F8;fter H&#x00E6;nderne, som vil hun v&#x00E6;rge for sig.)</stage>
+<p>At jeg fryser af det, har jeg jo sagt; Kulden gaar igjennem mig, som var det Vinter.</p>
+</sp>
+<sp>
+<speaker>Herluf &#x00D8;rn.</speaker>
+<p>Det er ikke sandt. De ejer i Dem af Himmelens Ild. Og det er I Kvinder, som skal ha Livs varmen med til os! Hor mig! Som en h&#x00F8;jrejst, hellig Terese skal De indvie vort Arbejde og f&#x00F8;re det til Sejer. Husk et gammelt Ord: &#x00AB;Kvinder, som vil, er sterke. <pb n="141"/>I Fligen af sin Kappe b&#x00E6;rer de Lykken eller Fortabelsen!</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(st&#x00F8;tter Hodet i H&#x00E6;nderne, ser paa ham mod et opgit Udtryk).</stage>
+</sp>
+<sp>
+<speaker>Herluf &#x00D8;rn</speaker>
+<stage>(varmt indtr&#x00E6;ngende)</stage>
+<p>De blir med? Vi kan ikke undv&#x00E6;re Dem! Vi bygger derover vor nye Guds Stad, vort nye Retf&#x00E6;rdighedens Land. Hjelp os at bygge det bedre end de store Riger paa Jorden. Naturen har lagt af sin hemmelighedsfulde Magt i Deres Sind, den har skrevet Deres Adelsbrev. Vi l&#x00F8;fter Dem h&#x00F8;jt paa vor H&#x00F8;vdingstol, vor unge Mater civitatis.</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(blir siddende som f&#x00F8;r).</stage>
+</sp>
+<sp>
+<speaker>Herluf &#x00D8;rn</speaker>
+<stage>(hen til hende).</stage>
+<p>Hvad siger De?</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(svagt).</stage>
+<p>Skulde man ikke heller se at more sig. Det er jo bare nogle &#x00D8;jeblik &#x2013;</p>
+</sp>
+<sp>
+<speaker>Herluf &#x00D8;rn.</speaker>
+<p>&#x2013; som h&#x00F8;rer til Evigheden. Tiden gaar sin Gang, frelser og taber Liv.</p>
+</sp>
+<sp>
+<speaker><pb n="142"/>Bodil.</speaker>
+<p>Ja, det er n&#x00E6;sten, som kan En merke, hvor det lever og d&#x00F8;r omkring En. &#x2013; Og <emph>alt</emph> det, man skal friste! Der sidder En og holder Livstraaden og klipper af &#x2013; &#x2013; der sidder En i V&#x00E6;ven. Hun v&#x00E6;ver underlige M&#x00F8;nstre, med dristig F&#x00E6;rd og listig Leg. Det er frygtelig interessant!</p>
+</sp>
+<sp>
+<speaker>Herluf &#x00D8;rn</speaker>
+<stage>(skarpt).</stage>
+<p>Det er Dem selv, som spinder Deres Traad, Dem selv, der l&#x00E6;gger M&#x00F8;nstret ind i V&#x00E6;ven &#x2013; med dristig F&#x00E6;rd og listig Leg! Dem selv, som raader for, hvad De maa friste! Nu, nu, i denne Stund &#x2013; vogt Dem!</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(stirrer paa ham et &#x00D8;jeblik som i Anelse. Viger tilbage, rejser sig, gaar hen til Vinduet, kommer igjen hen foran ham).</stage>
+<p>De mener der kanske kan bli et lidet Menneske af mig engang! &#x2013; &#x2013; Men, forstaar De, min Opdragelse er fors&#x00F8;mt. Jeg har aldrig l&#x00E6;rt at regne med Br&#x00F8;k.</p>
+</sp>
+<sp>
+<speaker>Herluf &#x00D8;rn</speaker>
+<stage>(blir staaende taus foran hende. Han blir mer og mer bev&#x00E6;get ved hendes Udtryk).</stage>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(gaar nogle Skridt, kommer hen igjen, i leende Trods).</stage>
+<p>Og hvis det nu falder mig ind &#x2013; &#x2013; hvis jeg ikke l&#x00E6;nger har Ord for, hvad der lever i mig, ingen <pb n="143"/>Stemme at sige det med &#x2013; ja, om jeg faar Lyst at gaa min Vej, v&#x00E6;k fra hvert levende Menneske &#x2013; ind til min Mor &#x2013; ind, hvor der er vildt &#x2013; dybt ind i det stille evige, hvor jeg henter min Magt! &#x2013; &#x2013; For jeg er jo Undine!</p>
+<stage>(synker ned paa en Stol i Hulken.)</stage>
+<p>Forstaar De ikke, <emph>De skulde ikke</emph>, De skulde ikke sige noget til mig nu &#x2013; <emph>ikke nu</emph>! Forstaar De, at De maa gaa, at De maa rejse Deres Vej!!</p>
+</sp>
+<sp>
+<speaker>Herluf &#x00D8;rn</speaker>
+<stage>(grebet).</stage>
+<p>Ja! Tilgiv mig!</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(rejser sig igjen. Hun gir ham Haanden og nikker langsomt).</stage>
+<p>Lykke til!</p>
+</sp>
+<sp>
+<speaker>Herluf &#x00D8;rn</speaker>
+<stage>(blir staaende ubev&#x00E6;gelig et &#x00D8;jeblik. Han ser fast paa hende).</stage>
+<p>Vel m&#x00F8;dt igjen engang!</p>
+<stage>(tilf&#x00F8;jer sagte.)</stage>
+<p>Og der gives Blinde, som faar Synet igjen!</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(svagt).</stage>
+<p>&#x2013; ikke mange.</p>
+</sp>
+<sp>
+<speaker>Herluf &#x00D8;rn</speaker>
+<stage>(kysser hendes Haand og gaar hurtigt).</stage>
+</sp>
+<sp>
+<speaker><pb n="144"/>Bodil</speaker>
+<stage>(blir staaende og se efter ham, stryger H&#x00E6;nderne over Panden som for at vaagne. Ser sig om).</stage>
+<p>Her i disse Stuerne &#x2013; her er da udmerket, skulde jeg tro!</p>
+</sp>
+<sp>
+<speaker>Tante Cara</speaker>
+<stage>(kommer ind forn&#x00F8;jet).</stage>
+<p>Jeg er glad over, du fik tale saa uforstyrret med ham. Blev alt godt?</p>
+<stage>(med et pr&#x00F8;vende Blik, afledende.)</stage>
+<p>Jeg mener, havde I det hyggeligt sammen?</p>
+<stage>(s&#x00E6;tter sig ned i sin Stol, tar igjen sit Strikket&#x00F8;j.)</stage>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(gaar hen til hende. Blir staaende med Armen om Stoleryggen)</stage>
+</sp>
+<sp>
+<speaker>Tante Cara</speaker>
+<stage>(der ikke ser hendes Ansigt, siger venlig)</stage>
+<p>Jeg syntes, I var saa muntre herinde &#x2013;</p>
+</sp>
+<sp>
+<speaker>Bodil.</speaker>
+<p>Ja, vi havde det &#x2013; muntert! &#x2013; Men saa med <emph>en</emph> Gang nu, det var, som jeg dr&#x00F8;mte! For jeg syntes, jeg ropte paa Mor! Men saa husker jeg: Mor er jo d&#x00F8;d!</p>
+</sp>
+<sp>
+<speaker>Tante Cara</speaker>
+<stage>(studser. Siger mildt bebrejdende).</stage>
+<p>Min Ven, du taler saa underlig imellem. Hvad skal vi gj&#x00F8;re ved det?</p>
+<stage>(d&#x00E6;mpet).</stage>
+<p>Var det noget kjedeligt, I talte om?</p>
+</sp>
+<sp>
+<speaker><pb n="145"/>Bodil.</speaker>
+<p>Nej, kj&#x00E6;re! Guldmor, ved du, der er Mennesker, som af og til er sindssyge? Jo, nogle &#x00D8;jeblik, de kan v&#x00E6;re aldeles rasende &#x2013; og saa om en liden Stund er det over. Det skal v&#x00E6;re saadan Lettelse!</p>
+<stage>(ler.)</stage>
+<p>Jeg kom bare saadan til at t&#x00E6;nke paa det.</p>
+</sp>
+<sp>
+<speaker>Tante Cara</speaker>
+<stage>(vender sig om og ser paa hende, siger sagtmodig).</stage>
+<p>Barn, s&#x00E6;t dig her hos mig! Du gj&#x00F8;r mig ganske uhyggelig tilmode. Det er, som du var rent fortvilet &#x2013; det ved jeg da Gudskelov, at du ikke er! &#x2013; Men jeg maa t&#x00E6;nke paa, hvad Tante Dora siger. Du er ikke som de andre, siger hun. Kj&#x00E6;re Barn, du skulde se at bli som de andre. Det vilde v&#x00E6;re bedre for dig!</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(der igjen har sat sig ned paa Skamlen hos hende).</stage>
+<p>Du ved, i vor Sl&#x00E6;gt har der tidt v&#x00E6;ret nogen, som ikke var som de andre &#x2013; &#x2013; slige nogle underlig fordringsfulde nogle, med sin uhelbredelige Kj&#x00E6;rligh&#x00E6;d til det de ikke kunde finde.</p>
+</sp>
+<sp>
+<speaker>Tante Cara.</speaker>
+<p>Barn! Hvad skal jeg finde paa for at muntre dig op?</p>
+</sp>
+<sp>
+<speaker>Bodil.</speaker>
+<p>Du skal t&#x00E6;nke paa alle dem, som ikke er som de andre! T&#x00E6;nk paa dem med din gode Tanke! Se paa dem, naar du gaar forbi. Du ser saa mildt!</p>
+</sp>
+<sp>
+<speaker><pb n="146"/>Tante Cara</speaker>
+<stage>(varsomt).</stage>
+<p>Var det noget kjedeligt, I talte om?</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(svarer ikke, stirrer hen for sig).</stage>
+<p>Jeg dr&#x00F8;mte inat, at Jorden var tom. Jeg gik der alene!</p>
+</sp>
+<sp>
+<speaker>Tante Cara</speaker>
+<stage>(opmuntrende).</stage>
+<p>H&#x00F8;r, Barn! T&#x00E6;nk heller paa det, du har at v&#x00E6;re glad for.</p>
+</sp>
+<sp>
+<speaker>Bodil.</speaker>
+<p>Jeg t&#x00E6;nker paa noget, jeg h&#x00F8;rte engang: &#x2013; Naar de ligger ude paa Slagmarken, de, som er skudt s&#x00F8;nder &#x2013; og Feberen br&#x00E6;nder, og D&#x00F8;den iser dem i Blodet &#x2013; &#x2013; det, som er det v&#x00E6;rste, er ikke det, de lider, det er at ligge og rope, uden der er nogen, som svarer, det er Skr&#x00E6;kken for at d&#x00F8; derude alene mellem de andre, som d&#x00F8;r &#x2013;</p>
+</sp>
+<sp>
+<speaker>Tante Cara</speaker>
+<stage>(bekymret).</stage>
+<p>Du skulde slet ikke t&#x00E6;nke paa slige uhyggelige Ting!</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(vedblir sagtere).</stage>
+<p>Naar de ligger demde, de, som lider de store Pinsler &#x2013; om man sp&#x00F8;rger dem, saa ved de ikke <pb n="147"/>andet, end at de er saa t&#x00F8;rst &#x2013; &#x2013; en T&#x00F8;rst, som br&#x00E6;nder og suger, som om alle Livets Safter var v&#x00E6;k &#x2013; &#x2013; &#x2013;</p>
+<p>Saa underlig du &#x2013; jeg blir saa t&#x00F8;rst som de derude! &#x2013;</p>
+<stage>(falder sammen.)</stage>
+</sp>
+<sp>
+<speaker>Tante Cara</speaker>
+<stage>(har f&#x00F8;rst ikke villet lade sig merke med noget, men nu bryder hendes &#x00C6;ngstelse frem. Hun skynder sig efter Vand, kj&#x00E6;rtegner hende mildt, taler til hende som til et lidet Barn).</stage>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(kommer til sig selv igjen, rejser sig helt op, stryger Haaret tilbage).</stage>
+<p>Det er du, som har Ret, Tante Cara. Jeg skal se at v&#x00E6;re glad. Jeg er jo glad!</p>
+</sp>
+<sp>
+<speaker>Tante Cara</speaker>
+<stage>(anstrenger sig for at v&#x00E6;re munter).</stage>
+<p>Husker du, da du var liden. Da var det saa let at faa dig i Hum&#x00F8;r igjen. Om du var aldeles vild og gal, beh&#x00F8;ved jeg bare spille Cachuchaen for dig! Men det var ogsaa det eneste, som kunde greje dig!</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(pludselig mod hende).</stage>
+<p>Saa er det vist endda du! Pr&#x00F8;v skal du se! Nu er jeg for Eksempel aldeles vild og gal!</p>
+</sp>
+<sp>
+<speaker>Tante Cara</speaker>
+<stage>(livlig).</stage>
+<p>Ja, kan du huske, hvor du dansed Hum&#x00F8;ret op?</p>
+</sp>
+<sp>
+<speaker><pb n="148"/>Bodil.</speaker>
+<p>Spil! Du skal se, jeg skal gj&#x00F8;re det igjen. Du skal se, jeg blir nok snart aldeles &#x2013; som de andre!</p>
+</sp>
+<sp>
+<speaker>Tante Cara</speaker>
+<stage>(rejser sig for at gaa til Pianoet, men stanser og ser paa hende tvivlraadig).</stage>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(ler).</stage>
+<p>Naa? Du ved jo, det er den eneste Maade, du kan greje mig paa! Spil! Jeg skal danse, h&#x00F8;rer du!</p>
+</sp>
+<sp>
+<speaker>Tante Cara</speaker>
+<stage>(s&#x00E6;tter sig hen til Pianoet, men vender sig om og ser bekymret paa hende).</stage>
+</sp>
+<sp>
+<speaker>Bodil.</speaker>
+<p>Hvorfor ser du slig paa mig? Du skulde jo faa mig i Hum&#x00F8;r! Spil bare! Rigtig vildt og galt! Vi leker igjen, at jeg er liden!</p>
+</sp>
+<sp>
+<speaker>Madam H&#x00F8;ye</speaker>
+<stage>(kommer ind med et Telegram, som hun hemmeligt stikker hen til Bodil).</stage>
+</sp>
+<sp>
+<speaker>Tante Cara.</speaker>
+<p>Var det et Brev? Det er sandt, jeg har et Brev til dig fra Tante Betty. Jeg tror, det er en Indbydelse. Den kom her igaar, da var du ikke her, Barn. Saa glemte jeg den. Nu skal jeg hente det.</p>
+<stage>(gaar.)</stage>
+</sp>
+<sp>
+<speaker><pb n="149"/>Bodil</speaker>
+<stage>(l&#x00E6;ser langsomt Telegrammet).</stage>
+<p>Onkel Bernhard &#x2013; han kommer! &#x2013; &#x2013;</p>
+<stage>(staar som hun grubler.)</stage>
+<p>Han har slige underlige, stille &#x00D8;jne! Jeg kan ikke ha ham til at se paa mig &#x2013;</p>
+<stage>(gaar, ser sig omkring.)</stage>
+<p>Her i disse Stuerne &#x2013; &#x2013; alt det tunge, som er levet her &#x2013; &#x2013;og ligger og hvisker fra Krokerne, ligger som Rovdyr og venter &#x2013;</p>
+<stage>(stanser ved T&#x00E6;rskelen til n&#x00E6;ste V&#x00E6;relse, ser ind. Pludselig heftig, hvisker.)</stage>
+<p>Jeg kan ikke v&#x00E6;re her, ikke ha nogen n&#x00E6;r mig! Jo, jeg ved, hvad jeg vil &#x2013; langt, langt ud et Sted, hvor Mennesker ikke har gr&#x00E6;dt, ikke har syndet og gr&#x00E6;dt &#x2013;</p>
+<stage>(gaar hen, ringer heftig.)</stage>
+</sp>
+<sp>
+<speaker>Madam H&#x00F8;ye</speaker>
+<stage>(kommer forskr&#x00E6;kket ind).</stage>
+<p>Konsulen? Jeg har kjendt det paa mig i hele Dag!</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(langsomt, rolig).</stage>
+<p>Onkel Bernhard kommer om en halv Time. De, som <emph>ved</emph> &#x2013; &#x2013; pas nu paa, at de to faar tales ved! Jeg rejser med Hurtigtoget, som gaar nu. S&#x00F8;rg for alt! Skynd Dem! Sp&#x00F8;rg ikke!</p>
+</sp>
+<sp>
+<speaker><pb n="150"/>Madam H&#x00F8;ye</speaker>
+<stage>(Taarer kommer hende i &#x00D8;jnene).</stage>
+<p>Gud velsigne Dem! Skal det v&#x00E6;re Snartur?</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(l&#x00E6;gger Haanden paa hendes Skulder).</stage>
+<p>Kj&#x00E6;re, det ved jeg ikke! Sig ingenting!</p>
+</sp>
+<sp>
+<speaker>Madam H&#x00F8;ye</speaker>
+<stage>(skynder sig ud gjennem Verandaen).</stage>
+</sp>
+<sp>
+<speaker>Tante Cara</speaker>
+<stage>(kommer ind fra venstre. Ser sig mist&#x00E6;nksomt om).</stage>
+<p>Var her nogen?</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(stanser midt paa Gulvet).</stage>
+<p>Det er mig, Tante. Jeg &#x00F8;ver mig. Her skal jo danses!</p>
+<stage>(tar mod Brevet, l&#x00E6;ser det)</stage>
+<p>Tak, det var pent af Tante Betty! Det er til Bal! Nu mangler bare Hum&#x00F8;ret. Spil, Tante Cara!</p>
+</sp>
+<sp>
+<speaker>Tante Cara</speaker>
+<stage>(betragter hende).</stage>
+<p>Ved du &#x2013; &#x2013; idag ligner du dig virkelig som du var, da du var liden! &#x2013; &#x2013; Naa ja, skal vi saa <pb n="151"/>leke, at vi er smaa? Nu spiller jeg, som om du er aldeles vild og gal!</p>
+<stage>(begynder.)</stage>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(danser).</stage>
+</sp>
+<stage>(D&#x00F8;ren til Bedehuset gaar op. Vinden b&#x00E6;rer paa. Det halvaabne Vindu st&#x00F8;des op. Orgeltoner str&#x00F8;mmer ind. Tante Cara afbryder, folder sine H&#x00E6;nder og lytter. Bodil stanser som stivnet. Armene synker langsomt.)</stage>
+<sp>
+<stage>(Sang fra et flerstemmigt Kor lyder ind.)</stage>
+<lg>
+<l>Den Tr&#x00F8;st er stor:</l>
+<l>De ere salige,</l>
+<l>som h&#x00F8;re, tror</l>
+<l>og f&#x00F8;lge dine Ord &#x2013;</l>
+</lg>
+<stage>(D&#x00F8;ren blir igjen lukket, Resten af Melodien h&#x00F8;res d&#x00E6;mpet.)</stage>
+</sp>
+<sp>
+<speaker>Tante Cara</speaker>
+<stage>(rejser sig, gaar hen og lukker Vinduet. Gaar hen til Bodil. Siger stille bev&#x00E6;get).</stage>
+<p>Er ikke dette bedre, mit Barn? Dette er bedre!</p>
+</sp>
+<sp>
+<speaker>Bodil</speaker>
+<stage>(synker paa Kn&#x00E6; foran hende, l&#x00E6;gger sit Hode op til hendes Kn&#x00E6;, siger med rystende Stemme).</stage>
+<p>Tak &#x2013; for det du altid var saa snil mod mig!</p>
+</sp>
+<sp>
+<speaker>Tante Cara</speaker>
+<stage>(viger tilbage, skr&#x00E6;mt ved Udtrykket i hendes Ansigt. Siger sagte, i smertelig Anen).</stage>
+<p>Barn! <emph>Saarvingede Fugl</emph>!</p>
+</sp>
+<sp>
+<speaker><pb n="152"/>Madam H&#x00F8;ye</speaker>
+<stage>(kommer ind med en Rejsekaabe over Armen og en liden V&#x00E6;ske i Haanden. Hun blir staaende taus ved D&#x00F8;ren).</stage>
+</sp>
+<sp>
+<speaker>Tante Cara</speaker>
+<stage>(bryder ud i Angst).</stage>
+<p>Hvor skal du hen? Du kommer da vel igjen, mit Barn? Du kommer da vel igjen!!</p>
+</sp>
+</div>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,2091 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI PUBLIC "-// TEI P5 //EN" "http://www.tei-c.org/release/xml/tei/custom/schema/dtd/tei_all.dtd">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="BS_Wessel_Kierlighed">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Johan Herman Wessel: <hi rend="italic">Kierlighed uden Str&#x00F8;mper</hi>
+<lb/>Utgave ved Henrik Blicher, Det Danske Sprog- og Litteraturselskab/Det norske spr&#x00E5;k- og litteraturselskap/bokselskap.no, Oslo 2020.
+<lb/><lb/>Teksten i bokselskap.no f&#x00F8;lger f&#x00F8;rsteutgaven fra 1772. Inkonsekvent ortografi og tegnsetting er ikke rettet, men trykkfeil oppf&#x00F8;rt i trykkfeilslisten bakerst i f&#x00F8;rsteutgaven er rettet. Digitaliseringen er basert p&#x00E5; fil mottatt fra Nasjonalbiblioteket.
+<lb/><lb/>ISBN: 978-82-8319-579-8 (digital, bokselskap.no), <lb/>978-82-8319-580-4 (epub), 978-82-8319-581-1 (mobi)
+</title>
+</titleStmt>
+<publicationStmt><p>Publiseres som digital tekst av bokselskap.no.</p></publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Kierlighed uden Str&#x00F8;mper</title>
+<author>Johan Herman Wessel</author>
+<date>1772</date>
+<note>digibok_2006091500014 (mottatt fra Nasjonalbiblioteket/Bokhylla.no 2010), Kierlighed integreret.docx (mottatt fra Henrik Blicher 2020), UTKAST TIL FORORD.docx (mottatt fra Liv Bliksrud 2020), Andersson_Wessel_HB.xml (mottatt fra DSL/ADL 2020)</note>
+</bibl>
+</sourceDesc>
+</fileDesc>
+<revisionDesc>
+<change who="ENW" when="2020-12-22">Rettet et par sm&#x00E5;feil.</change>
+<change who="ENW" when="2020-12-16">Lagt inn forord og innledning. Validering.</change>
+<change who="ENW" when="2020-12-02">Lagt inn illustrasjon. Sjekket noter. Sjekket entiteter. Kodekontroll og validering.</change>
+<change who="ENW" when="2020-09-02">Lagt inn korrekturrettelser (SD).</change>
+<change who="ENW" when="2020-09-02">Ferdig med innlegging og koding av Blichers kommentarer.</change>
+<change who="ENW" when="2020-08-31">&#x00AB;Oppgradering&#x00BB; til tekstkritisk utgave 2020: Begynt innlegging og koding av Blichers kommentarer. Oppdatert TEI-header.</change>
+<change who="ENW" when="2011-08-08">F&#x00F8;rt inn korrekturresultatene. Kodekontroll.</change>
+<change xml:id="ENW" who="ENW" when="2011-03-08">Kodet grunnstruktur i xml.</change>
+</revisionDesc>
+</teiHeader>
+<text xml:id="BS_Wessel_Kierlighed_tekst" type="drama">
+<front>
+<titlePage type="main">
+<byline><docAuthor>Johan Herman Wessel</docAuthor></byline>
+<docTitle>
+<titlePart type="main">Kierlighed uden Str&#x00F8;mper</titlePart>
+<titlePart type="sub">Et S&#x00F8;rge-Spil i Fem Optog</titlePart>
+<lb/>
+<titlePart type="sub">Utgave ved Henrik Blicher</titlePart>
+</docTitle>
+<docDate>Det Danske Sprog- og Litteraturselskab/Det norske spr&#x00E5;k- og litteraturselskap<lb/>bokselskap.no<lb/>Oslo 2020</docDate>
+</titlePage>
+<div xml:id="contents">
+<list type="contents_main">
+<item><ref target="chapter_01" xml:id="contents_01">Forord</ref></item>
+<item><ref target="chapter_02" xml:id="contents_02">Innledning</ref></item>
+<item><ref target="chapter_03" xml:id="contents_03">Personerne</ref></item>
+<item><ref target="chapter_1" xml:id="contents_1">F&#x00F8;rste Optog</ref></item>
+<item><ref target="chapter_2" xml:id="contents_2">Andet Optog</ref></item>
+<item><ref target="chapter_3" xml:id="contents_3">Tredie Optog</ref></item>
+<item><ref target="chapter_4" xml:id="contents_4">Fierde Optog</ref></item>
+<item><ref target="chapter_5" xml:id="contents_5">Femte Optog</ref></item>
+</list>
+</div>
+<div type="chapter" subtype="preface">
+<head type="main"><ref type="contents" target="contents_01" xml:id="chapter_01">Forord</ref></head>
+<p rend="noIndent">Det er en glede for Det norske spr&#x00E5;k- og litteraturselskap (NSL) &#x00E5; kunne presentere Johan Herman Wessels hovedverk <title rend="italic">Kierlighed uden Str&#x00F8;mper</title> i en tekstkritisk og kommentert utgave. Som det vil fremg&#x00E5; av den instruktive innledningen til verket, representerer <title rend="italic">Kierlighed uden Str&#x00F8;mper</title> et h&#x00F8;ydepunkt i 1700-tallets dansk-norske felleslitteratur. Kommenterte Wessel-utgivelser har lenge v&#x00E6;rt mangelvare, og det er p&#x00E5; h&#x00F8;y tid at denne klassikeren blir gjort tilgjengelig for moderne lesere, b&#x00E5;de i Norge og Danmark.</p>
+<p rend="noIndent">Utgaven er et samarbeidsprosjekt mellom NSL og Det Danske Sprog- og Litteraturselskab (DSL), og den er samtidig tenkt som en integrert del av en fremtidig utgave av Johan Herman Wessels samlede skrifter.</p>
+    <p rend="noIndent">Kommentarene er utarbeidet av lektor ved K&#x00F8;benhavns Universitet Henrik Blicher, som overtok oppgaven fra den foreg&#x00E5;ende utgiver Henrik Andersson.<note type="footnote">Henrik Andersson (1959&#x2013;2017) var cand.mag. i dansk og latin og seniorredakt&#x00F8;r ved Det Danske Sprog- og Litteraturselskab. Han var ledende redakt&#x00F8;r for <title rend="italic">Supplement til Ordbog over det danske Sprog</title> og medlem av redaksjonene for <title rend="italic">Den Danske Ordbog</title> og <title rend="italic">Ludvig Holbergs Skrifter</title>. Samtidig forberedte Andersson en utgave av J.H. Wessels samlede skrifter, som han hadde overtatt fra dosent, dr. phil. Anne E. Jensen (1922&#x2013;1999).</note> Det er f&#x00F8;rsteutgaven fra 1772 som ligger til grunn for tekstetableringen og kommentarene. Etter Anderssons bortgang i 2017 har Blicher hatt det redaksjonelle ansvar for denne utgaven.</p> 
+<p rend="noIndent">Redakt&#x00F8;r Ellen Nessheim Wiger har tilrettelagt utgivelsen til publisering p&#x00E5; bokselskap.no. Innledningen om <title rend="italic">Kierlighed uden Str&#x00F8;mper</title> er et utdrag av Henrik Anderssons omfattende forfatterskapsportrett av Wessel fra 2002, som han skrev til <title rend="italic">Arkiv for Dansk Litteratur</title> (<ref type="external" target="http://adl.dk/">adl.dk</ref>).</p>
+<p rend="noIndent">Oslo og K&#x00F8;benhavn i desember 2020
+<lb/>Liv Bliksrud (NSL)&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;Finn Gredal Jensen (DSL)</p>
+</div>
+
+<div type="chapter" subtype="intro">
+<head type="main"><ref type="contents" target="contents_02" xml:id="chapter_02">Innledning</ref></head>
+<p rend="center">Henrik Andersson<note type="footnote">Henrik Andersson (1959&#x2013;2017) var cand.mag. i dansk og latin og seniorredakt&#x00F8;r ved Det Danske Sprog- og Litteraturselskab. Han var ledende redakt&#x00F8;r for <title rend="italic">Supplement til Ordbog over det danske Sprog</title> og medlem af redaktionerne for <title rend="italic">Den Danske Ordbog</title> og <title rend="italic">Ludvig Holbergs Skrifter</title>. Samtidig forberedte Andersson en udgave af J.H. Wessels samlede skrifter, som han havde overtaget fra docent, dr.phil. Anne E. Jensen (1922&#x2013;99). Til <title rend="italic">Arkiv for Dansk Litteratur</title> (adl.dk) skrev han i 2002 et omfattende forfatterskabsportr&#x00E6;t af Wessel, hvoraf der her bringes et uddrag, afsnittet om Kierlighed uden Str&#x00F8;mper.</note></p>
+<p rend="noIndent"><title rend="italic">Kierlighed uden Str&#x00F8;mper</title> blev skrevet i l&#x00F8;bet af for&#x00E5;ret 1772 og udgivet anonymt september samme &#x00E5;r. Forfatteren havde f&#x00F8;r sin debut ikke p&#x00E5; nogen m&#x00E5;de gjort sig offentligt bem&#x00E6;rket. Jacob Baden bem&#x00E6;rkede i <title rend="italic">Ki&#x00F8;benhavns Kongelig privilegerede Adresse-Contoirs Kritiske Journal for Aar 1772. No. 36</title>: &#x00AB;Forf. skal efter Rygtet v&#x00E6;re Hr. Wessel, en Normand&#x00BB; (s. 288). Nu kom det til at g&#x00E5; st&#x00E6;rkt. <title rend="italic">Kierlighed uden Str&#x00F8;mper</title> blev uropf&#x00F8;rt i december af en flok amat&#x00F8;rer fra studenterklubben &#x00AB;Det Ski&#x00F8;nnes muntre Dyrkere&#x00BB;. De optr&#x00E6;dende skal have haft store problemer med at holde masken under fremf&#x00F8;relsen. Stykket blev antaget af Det Kongelige Teater til opf&#x00F8;relse i marts 1773 med musik af kapelmester Paolo Scalabrini. Det udkom &#x2013; stadig uden Wessels navn p&#x00E5; titelbladet, sk&#x00F8;nt han i mellemtiden var blevet verdensber&#x00F8;mt i Danmark &#x2013; i 2. udgave 1774, denne gang forsynet med en epilog. F&#x00F8;rst 3. udgave fra 1776 havde forfatterens navn p&#x00E5; titelbladet. P&#x00E5; dette tidspunkt var den nu ber&#x00F8;mte dramatiker til geng&#x00E6;ld allerede n&#x00E6;sten br&#x00E6;ndt ud.</p>
+<p rend="noIndent"><title rend="italic">Kierlighed uden Str&#x00F8;mper</title> er en parodikomedie. Handlingen er kort fortalt, at Grete vil giftes med skr&#x00E6;dderen Johan von Ehrenpreis. En ond dr&#x00F8;m indgiver hende den id&#x00E9;, at det m&#x00E5; ske, inden dagen er omme. Den elskede skr&#x00E6;dder er imidlertid bortrejst, s&#x00E5; hun beslutter at tage til takke med skomageren Mads, som hun tidligere har forsm&#x00E5;et. Johan kommer uventet hjem, og Grete tr&#x00E6;kker sit l&#x00F8;fte tilbage, s&#x00E5; Mads endnu en gang st&#x00E5;r med h&#x00E5;ret ned ad nakken. Nu havde de elskende kunnet f&#x00E5; hinanden, hvis ikke Johan havde manglet et par hvide str&#x00F8;mper at tage p&#x00E5; til brylluppet. Mette, Gretes fortrolige, foresl&#x00E5;r Mads, at han stiller sine str&#x00F8;mper til r&#x00E5;dighed for rivalen, hvad Mads forst&#x00E5;eligt nok afviser. Johan er n&#x00F8;dt til at stj&#x00E6;le str&#x00F8;mperne. Herved er han stillet i den klassiske tragedies konflikt mellem dyd og elskov eller pligt og tilb&#x00F8;jelighed. Efter h&#x00E5;rd indre kamp vinder tilb&#x00F8;jeligheden. Johan stj&#x00E6;ler str&#x00F8;mperne, hvorved han p&#x00E5;drager sig en tragisk skyld, som kun kan sones med d&#x00F8;den &#x2013; hvis den alts&#x00E5; afsl&#x00F8;res! Afsl&#x00F8;ret bliver ud&#x00E5;den, da Mads af <hi rend="italic">sin</hi> fortrolige, Jesper, er blevet mindet om, at han kan bevise, at han er str&#x00F8;mpernes ejermand. To <hi rend="italic">M</hi>&#x0027;er, som Grete syede p&#x00E5; Mads Madsens str&#x00F8;mper, dengang han var inde i varmen, vil afsl&#x00F8;re, at de nu befinder sig p&#x00E5; de forkerte ben. Br&#x00F8;debetynget vedg&#x00E5;r Johan sin skyld og beg&#x00E5;r selvmord. S&#x00E5; vidt f&#x00F8;lger <title rend="italic">Kierlighed uden Str&#x00F8;mper</title> den klassiske tragedie. Men til forskel fra forbillederne tager fanden ved akt&#x00F8;rerne, som nu stikker sig ihjel efter tur, s&#x00E5; at scenen ved t&#x00E6;ppefald flyder med bl&#x00F8;dende lig!</p>
+<p rend="noIndent">I en epilog, et efterspil, der alts&#x00E5; ikke var med i originaludgaven, lader Wessel guden Merkur genopv&#x00E6;kke de d&#x00F8;de.</p>
+<p rend="noIndent"><title rend="italic">Kierlighed uden Str&#x00F8;mper</title> er en k&#x00E6;rlig parodi p&#x00E5; en genre, Wessel elskede: Den klassiske franske tragedie. Satiren har flere lag. Dels er den specielt rettet mod en r&#x00E6;kke genrekonventioner, dels har den et mere universelt sigte: latterligg&#x00F8;relse af hykleri, indbildsk heroisme og forloren selvh&#x00F8;jtidelighed.</p>
+<p rend="noIndent">Wessel har gjort sig stor umage med at overholde den franske tragedies strenge krav om tidens, stedets og handlingens enhed. Stedets enhed &#x2013; alts&#x00E5; at handlingen udspilles i &#x00E9;n kulissedekoration &#x2013; er det krav, der er lettest at opfylde. I 1700-tallet har publikum ikke ladet sig forstyrre af, at nogle scener foreg&#x00E5;r hos Grete, andre hos Mads, uden kulisseskift. Det er is&#x00E6;r overholdelsen af tidens og handlingens enhed, som kr&#x00E6;ver teknisk h&#x00E5;ndelag. Og her viser Wessel sig som en sand mester.</p>
+<p rend="noIndent">Reglen om tidens enhed siger, at tragedien skal foreg&#x00E5; inden for &#x00E9;t d&#x00F8;gn. Allerede Gretes f&#x00F8;rste replik, der refererer den sorte gejsts f&#x00E6;le formaning: &#x00AB;Du aldrig bliver gift, hvis det i Dag ei skeer!&#x00BB;, integrerer opfyldelsen af den dramaturgiske teoris formelle krav i selve handlingsgangen. Stykkets personer har hele tiden den hede &#x00E5;nde fra den sorte gejst i nakken, de bliver hele tiden mindet om, at de skal skynde sig, hvis de skal n&#x00E5; at fuldbyrde sk&#x00E6;bnens krav, inden dagen er omme. Herved bliver overholdelsen af formelle genrekonventioner som fx de store monologer, hvor personerne med hele udtr&#x00E6;kket af retoriske figurer tolker deres sj&#x00E6;lelige konflikter, til en del af handlingen. Fx i 4. akt, 1. scene, hvor Mette opfordrer Johan til at stj&#x00E6;le str&#x00F8;mperne. Mopset og emsig, som hun er, forarges hun over, at en helt s&#x00E5; let lader sig overtale:</p>
+<lg>
+<l>Min Helt! for alle Ting mod Dyd lad Elskov stride!</l>
+<l>Viis ikke Lasten frem paa dens luslidte &#x005B;dvs. luvslidte&#x005D; Side.</l>
+<l>De Store synde vel i Grunden som de Smaa,</l>
+<l>Men Maaden, som enhver sin Synd ud&#x00F8;ver paa,</l>
+<l>Den eene gi&#x00F8;r til Helt, den anden til en Staader</l>
+</lg>
+<p rend="noIndent">Dyd og elskov m&#x00E5; veksle med hinanden 11&#x2013;12 gange, hvis synden skal v&#x00E6;re en heltegerning. Men det er der ikke tid til, protesterer Johan:</p>
+<lg>
+<l>Tolv Gange Mette? nei, det vil for l&#x00E6;nge vare,</l>
+<l>Det er den h&#x00F8;ie Tiid &#x005B;dvs. det er p&#x00E5; h&#x00F8;je tid&#x005D;</l>
+</lg>
+<p rend="noIndent">Det tjener til karakteristikken af Johan og de andre personer, at hensynet til tomme konventioner hele tiden vejer tungere end de p&#x00E5;tr&#x00E6;ngende realiteter. S&#x00E5; han g&#x00F8;r, som Mette siger, og tolker sit moralske dilemma i en monolog, hvor han udpensler sin indre kamp inden tyveriet, og slutter s&#x00E5; med den stressede replik: &#x00AB;Kan jeg nu gaae?&#x00BB; &#x2013; her er teatret altid ved at synke i jorden af grin. Mette stiller ogs&#x00E5; store krav til sig selv. Ansigt til ansigt med d&#x00F8;den i den tragiske slutscene er hendes eneste tanke, at hun ikke kan finde p&#x00E5; et sidste fyndord, et &#x00AB;Sprikvort&#x00BB;, inden hun stikker sig.</p>
+<p rend="noIndent">Wessel har som en s&#x00E6;rlig komisk effekt indlagt elleve lyriske sangnumre (9 soloarier, en duet og et ensemblenummer), som uafladelig s&#x00E6;tter handlingen i st&#x00E5;. Herved opn&#x00E5;r digteren flere ting p&#x00E5; &#x00E9;n gang: Dels f&#x00E5;r han ram p&#x00E5; en anden af tidens yndede genrer: operaen og det alvorlige syngespil, dels demonstrerer han en raffineret kontrast mellem statisk-lyriske og dynamisk-dramatiske optrin. Med for- og mellemspil, melismer (det, at en enkelt stavelse str&#x00E6;kker sig over flere toner), repriser osv. tager arierne l&#x00E6;ngere tid at afvikle, end man almindeligvis g&#x00F8;r sig det klart, hvis man kun l&#x00E6;ser stykket. Der kan ligge en pointe i, at Mads som den person, der indlysende har den st&#x00F8;rste personlige interesse i at tr&#x00E6;kke handlingen i langdrag, har hele fem af de i alt elleve arier (den ene som duet med Jesper, der i &#x00F8;vrigt ikke rigtig forst&#x00E5;r, hvad der foreg&#x00E5;r), mens Johan kun har &#x00E9;n. Arierne er ren sproglig tomgang, der som regel g&#x00E5;r ud p&#x00E5;, at den syngende udl&#x00E6;gger subjektive, banale f&#x00F8;lelser i et billedsprog, der enten er forskruet pretenti&#x00F8;st eller plat eller begge dele. Arierne er samtidig med til at understrege karakterforskellene hos personerne: Den frodige, altid sultne og giftelystne (for nu at udtrykke det diplomatisk) Grete sammenligner valget mellem de to bejlere med et valg mellem karper og t&#x00F8;rre jyder (dvs. mellem festmad og j&#x00E6;vn hverdagskost). Da knuden strammes og katastrofen, afsl&#x00F8;ringen af Johans formastelige tyveri, truer i 5. akts 4. scene, f&#x00E5;r hun bange anelser. Den bogholderagtigt n&#x00F8;jeregnende Mette protesterer: Det er imod reglerne, at heltinder p&#x00E5; &#x00E9;n dag b&#x00E5;de har onde dr&#x00F8;mme og bange anelser, men Johan beroliger hende: Hun har nok bare luft i maven af alle de &#x00E6;rter, hun har spist, is&#x00E6;r fordi hun har drukket nybrygget &#x00F8;l til (efter &#x00E6;rter kommer fj&#x00E6;rter, som ordsproget siger). Grete sammenligner sine mavekneb med tilstanden i en skoleklasse f&#x00F8;r og efter l&#x00E6;reren kommer ind, igen et billede fra hverdagslivet, som alle genkender:</p>
+<lg>
+<l>Saa B&#x00F8;rne-Sv&#x00E6;rmen i en Skole</l>
+<l>Bestige Borde, B&#x00E6;nke, Stole,</l>
+<l>Og skrige h&#x00F8;it, og skogger lee,</l>
+<l>Naar de ei Skolemester see;</l>
+<l>Men naar han kun ved D&#x00F8;ren r&#x00F8;rer,</l>
+<l>Hver paa sit Sted strax Pokker f&#x00F8;rer;</l>
+<l>Han neppe faaer &#x00AB;I Esler&#x00BB; sagt,</l>
+<l>F&#x00F8;r alting er i Orden bragt.</l>
+</lg>
+<p rend="noIndent">Jo mere j&#x00E6;vne personerne er, desto tilb&#x00F8;jeligere er de til at overs&#x00E6;tte de platte billeder til bogstaveligt sprog: &#x00AB;Jeg meener Dunsterne ved denne B&#x00F8;rne-Flok, / Og &#x2026;&#x00BB; &#x2013; Nu har den an&#x00E6;miske Johan f&#x00E5;et nok: &#x00AB;Tal ey meer herom, jeg dig begriber nok; / Din Kompliment er smuk og Lignelsen er vakker &#x005B;!&#x005D;, / Men skal vi ikke gaae?&#x00BB;</p>
+<p rend="noIndent">Tilsvarende platte, men alligevel pr&#x00E6;gnante er Mads&#x0027; lignelser, fx i den ber&#x00F8;mte arie, der udg&#x00F8;r 3. akts 3. scene. Samme omst&#x00E6;ndelige, pedantiske stil, samme opbl&#x00E6;ste tro p&#x00E5;, at man udtrykker sig hinsides publikums fatteevne:</p>
+<lg>
+<l>Paa mit Hiertes Skorsteen br&#x00E6;nder</l>
+<l>En Harpixet Elskovs Brand,</l>
+<l>Som er t&#x00E6;ndt i begge Ender,</l>
+<l>Elskovs Gud den t&#x00E6;ndte an.</l>
+<l>Hver som R&#x00F8;gen seer opstige</l>
+<l>(R&#x00F8;gen er min Aria),</l>
+<l>T&#x00E6;nke maae om ikke sige,</l>
+<l>Der er heedt, hvor den kom fra.</l>
+</lg>
+<p rend="noIndent">Den stilistiske lighed i arierne antyder, hvad der ogs&#x00E5; er andet, der tyder p&#x00E5;, at det i virkeligheden er Grete og Mads, ikke Grete og Johan, der passer sammen.</p>
+<p rend="noIndent">Mette, som er den, der bedst er inde i de indviklede regler for heroisk etikette, hvad hendes omgivelser uafladeligt f&#x00E5;r at f&#x00F8;le, har konsekvent nok de mest indviklede metaforudviklinger. Tag denne arie fra 3. akts 6. scene:</p>
+<lg>
+<l>Saa &#x00E6;ltes Blye med vrede T&#x00E6;nder,</l>
+<l>I Heltes Mund; hvis blotte Rygge,</l>
+<l>Ey for at svales, s&#x00F8;ge Skygge</l>
+<l>I en Alle&#x00E9; gevorbne &#x005B;dvs. hvervede&#x005D; Venner,</l>
+<l>Som bleve B&#x00F8;ddeler af Tvang,</l>
+<l>Og under spiilte Huders Klang,</l>
+<l>Dem vifte Ild med smidig Green</l>
+<l>Paa nys afkl&#x00E6;dte Rygge-Been.</l>
+<l>De pr&#x00E6;ge deres bittre Qval,</l>
+<l>I det uskyldige Metal,</l>
+<l>Og glemme al den Tieneste,</l>
+<l>Det dem i Krigen lader see,</l>
+<l>Som dog er overmaade vigtig,</l>
+<l>At sige: Naar de sigte rigtig.</l>
+</lg>
+<p rend="noIndent">Her f&#x00E5;r man ikke en overs&#x00E6;ttelse af billedet, sk&#x00F8;nt de fleste godt kunne bruge en. Det, Mette vil udtrykke, er, at hun som den uligev&#x00E6;gtige Gretes r&#x00E5;dgiver er i samme utaknemmelige situation som det stykke bly, en soldat, der l&#x00F8;ber spidsrod, f&#x00E5;r i munden for ikke at bide tungen i stykker.</p>
+<p rend="noIndent">P&#x00E5; baggrund af kvindernes og rivalens udfoldelser er Johans ene fork&#x00F8;lede arie, der afslutter 2. akt med til at tegne billedet af en an&#x00E6;misk blegfis. Manglen p&#x00E5; str&#x00F8;mper g&#x00F8;r, at han har valget mellem to onder: Enten at blive til grin ved at optr&#x00E6;de i st&#x00F8;vler til sit bryllup eller at miste Grete ved at udskyde brylluppet til n&#x00E6;ste dag. Johan v&#x00E6;lger periodens mest fladtr&#x00E5;dte klich&#x00E9; hugget fra Metastasio (1698&#x2013;1782), tidens mest yndede librettist, til at udtrykke sit dilemma: &#x00AB;Som en uheldig Skipper, / Der forud seer, han strande maa / Paa en af tvende Klipper, / Ei nogen vis at strande paa / T&#x00F8;r v&#x00E6;lge sig,/ Saa gaaer det mig&#x00BB;.</p>
+<p rend="noIndent">Den strenge overholdelse af handlingens enhed er en anden af stykkets fornemme kvaliteter. De ulyksalige str&#x00F8;mper er hele stykkets krumtap. De s&#x00E6;tter handlingen i gang, de er &#x00E5;rsag til heltens fald, de er i centrum ved katastrofen, hvor de med de to p&#x00E5;syede <hi rend="italic">M</hi>&#x0027;er &#x2013; hvor s&#x00F8;dt! &#x2013; ligefrem f&#x00E5;r konkret funktion som <hi rend="italic">corpus delicti</hi>, forbrydelsens genstand. <title rend="italic">Kierlighed uden Str&#x00F8;mper</title> er komponeret af en sand virtuos. Dertil kommer, at str&#x00F8;mperne ud over at v&#x00E6;re en konkret rekvisit ogs&#x00E5; har et vigtigt symbolindhold. Det er jo helt i pagt med stykkets id&#x00E9;, at en banal hverdagsting som et par hvide str&#x00F8;mper, kan f&#x00E5; s&#x00E5; stor betydning og afstedkomme s&#x00E5; stor fortr&#x00E6;d. Johan kunne jo have f&#x00E5;et Grete, hvis han havde optr&#x00E5;dt som en rigtig mand og set stort p&#x00E5;, at folk grinede ad ham, fordi han var if&#x00F8;rt st&#x00F8;vler under vielsen. Men Johan er netop ikke en rigtig mand, antydes det flere steder. For det f&#x00F8;rste er der en gammel fordom, der siger, at skr&#x00E6;ddere er sm&#x00E5; og utrivelige &#x2013; krummer er ogs&#x00E5; br&#x00F8;d, sagde fanden, han slugte en skr&#x00E6;dder &#x2013; og netop derfor fors&#x00F8;ger Jesper at indgyde Mads mod ved at minde om rivalens erhverv: Johan er efter Jespers mening &#x00AB;Skredder meer end Helt; det viser noksom Huden, / Saa l&#x00E6;nge som han har en Skredder-Plet paa den, / Jeg Helten mindre seer, i ham end Skredderen.&#x00BB; De omtalte skr&#x00E6;dderpletter, en slags udsl&#x00E6;t, antoges at v&#x00E6;re en erhvervsbetinget skavank ved skr&#x00E6;dderbranchen. For det andet har Johan tynde l&#x00E6;gge, hvad 1700-tallets publikum let har kunnet afkode som et tegn p&#x00E5; seksuel utilstr&#x00E6;kkelighed. Da Mads af et godt hjerte sp&#x00F8;rger Jesper, om rivalens pludselige erhvervelse af str&#x00F8;mperne ikke kan skyldes, at han har l&#x00E5;nt et par af Grete eller Mette, svarer Jesper (ikke s&#x00E6;rlig galant): &#x00AB;Saa bilder du dig ind, han deres kunde bruge? / Af deres Str&#x00F8;mper een sex Skredder Been kan sluge&#x00BB;. Det er p&#x00E5; denne baggrund, man skal opfatte 5. akts 4. scene. Grete lader vide, at hun ser frem til nydelse nonstop af &#x00E6;gteskabets lyksaligheder. Johan mumler skr&#x00E6;mt: &#x00AB;jeg ikke just i L&#x00E6;gge / Min st&#x00F8;rste Force har&#x00BB;. Grete reagerer med skuffelse, og Johan siger kryptisk:</p>
+<lg>
+<l>Selv Elskov os, Madam! en Bane skal berede,</l>
+<l>Selv plantede han der de Roser, vi betr&#x00E6;de. &#x2013;</l>
+<l>Ved Roserne forstaae Elskovs Henrykkelser</l>
+<l>Sp&#x00F8;rg saa ey, om de staae hinanden gandske n&#x00E6;r.</l>
+<l>De st&#x00E6;rke Farvers Skin tilsidst vort Syn form&#x00F8;rke,</l>
+<l>Men derimod paa Gr&#x00F8;nt vort &#x00D8;ye samler Styrke;</l>
+<l>Det vidste Elskovs Gud, og Rum lod aabent staae</l>
+<l>Imellem Roserne, at stilte L&#x00E6;ngsler maae</l>
+<l>Den Afstand fylde op med evig gr&#x00F8;nne Blade.</l>
+</lg>
+<p rend="noIndent">Johan gl&#x00E6;der sig rent ud sagt mest til pauserne mellem de erotiske udfoldelser, og da Grete uanf&#x00E6;gtet bliver ved med at tale om alle de sm&#x00E5; Ehrenpreiser, de skal avle, svarer han ganske vist: &#x00AB;Vi Afkom nok skal faae, Madam! i Hobetal&#x00BB;, men Wessel forsyner replikken med en vigtig regibem&#x00E6;rkning: <hi rend="italic">Grete neier, og Mette seer paa hans Been</hi>.</p>
+<p rend="noIndent"><title rend="italic">Kierlighed uden Str&#x00F8;mper</title> genrebestemmes traditionelt som en parodikomedie. Selv kaldte Wessel stykket &#x00AB;et S&#x00F8;rge-Spil&#x00BB;. Ordet <hi rend="italic">parodi</hi> betyder efterligning med komisk-satirisk hensigt af et foreliggende v&#x00E6;rk (genre, anskuelse, person, skik, begivenhed). Den komiske virkning kan enten opn&#x00E5;s ved at oph&#x00F8;je et trivielt emne (egentlig parodi) eller ved at trivialisere et oph&#x00F8;jet (travesti). <title rend="italic">Kierlighed uden Str&#x00F8;mper</title> har elementer af begge dele. Stykkets komik beror hovedsagelig p&#x00E5; latterligg&#x00F8;relsen af opstyltethed, falsk patos og illusoriske forestillinger som ideelle bev&#x00E6;ggrunde for handlinger, der i bund og grund udspringer af egoistiske, men s&#x00E5;re menneskelige drifter (sult og liderlighed). Det universelle sigte og den sikkerhed, hvormed Wessel lader h&#x00F8;je og lave stilniveauer glide ud og ind i hinanden, har gjort stykket til en klassiker i genren uden sidestykke, det v&#x00E6;re sig i dansk, norsk eller anden litteratur. De eneste v&#x00E6;rker, der fortjener at n&#x00E6;vnes i samme &#x00E5;ndedrag som <title rend="italic">Kierlighed uden Str&#x00F8;mper</title>, er Cervantes&#x0027; <title rend="italic">Don Quixote</title> og Holbergs <title rend="italic">Peder Paars</title>, men de tilh&#x00F8;rer jo den episke genre. Wessel er for resten en langt mere virtuos versifikator og rimsmed end Holberg. Litteraturhistorikerne er enige om, at <title rend="italic">Kierlighed uden Str&#x00F8;mper</title>s aleksandrinere er blandt de bedste, der er skrevet p&#x00E5; dansk. En aleksandriner er et rimvers p&#x00E5; 12&#x2013;13 stavelser med c&#x00E6;sur (rytmisk indsnit, der deler verset) efter 6. stavelse. Den s&#x00E5;kaldt heroiske aleksandriner, som Wessel benytter i <title rend="italic">Kierlighed uden Str&#x00F8;mper</title>, har skiftende mandlige (betonede) og kvindelige (ubetonede) udgange. Den jambiske gangart (dadum dadum) kan give dette metrum et stift pr&#x00E6;g (som fx i <title rend="italic">Peder Paars)</title>, men hos Wessel h&#x00E5;ndteres den s&#x00E5; elegant, at den n&#x00E6;rmer sig naturlig diktion, jf. de mange hurtige replikskifter.</p>
+<p rend="noIndent">Parodier har sj&#x00E6;ldent lang levetid; de d&#x00F8;r, n&#x00E5;r deres genstand synker i glemsel. Wessels parodi er en undtagelse, ogs&#x00E5; fordi den rummer elementer, der synes at h&#x00F8;re en senere tid til, s&#x00E5;som de illusionsbrud, der opst&#x00E5;r, n&#x00E5;r personerne kommenterer deres egne arievers og replikker. Et eksempel p&#x00E5; det sidste er Mettes replik i 3. akts 5. scene, hvor hun og Mads har en uoverensstemmelse, fordi sidstn&#x00E6;vnte ikke vil afhj&#x00E6;lpe rivalens str&#x00F8;mpel&#x00F8;shed. Mette sammenligner de uenige med to kugler, der st&#x00F8;der sammen p&#x00E5; en j&#x00E6;vn flade: &#x00AB;En tosset Jyde-Dreng maaskee vel turde meene, / De l&#x00E6;ngtes efter sig for evig at foreene: / Ney, ki&#x00E6;re Jyde! ney! De f&#x00F8;r sig r&#x00F8;re ey, / F&#x00F8;r med en lige Fart, hver Kugle gaaer sin Vey. / At jeg med Kuglerne her mener Mads og Mette / Derom det tosset var mig selv at underrette, / Thi jeg jo eene er, og ingen har mig h&#x00F8;rt&#x00BB;.</p>
+<p rend="noIndent">Karaktertegningen har ogs&#x00E5; en dybere resonansbund, end man forventer at finde i en parodi. Ligesom hos Cervantes, hvis <title rend="italic">Don Quixote</title> er alle fantasters fader, kan man ikke lade v&#x00E6;re med at have lidt medf&#x00F8;lelse med disse banale hverdagsmennesker, der fors&#x00F8;ger at f&#x00E5; lidt form og stil p&#x00E5; deres tarvelige liv. Tydeligst m&#x00E5;ske i Jespers replik, lige inden han beg&#x00E5;r selvmord. Den er n&#x00E6;sten blevet det &#x00AB;Sprikvort&#x00BB;, som Mette manglede:</p>
+<lg>
+<l>Hvi skulde Mette d&#x00F8;e? Jeg ey Aarsagen veed; &#x2013;</l>
+<l>Men naar de alle d&#x00F8;e, saa maa jeg og afsted.</l>
+</lg>
+</div>
+<div type="chapter" subtype="illustration">
+<p rend="center"><figure><graphic url="Tittelside_1utg_1772.png"/></figure></p>
+</div> 
+<div type="chapter" subtype="castlist">
+<castList>
+<head type="main"><ref type="contents" target="contents_03" xml:id="chapter_03">Personerne.</ref></head>
+<castItem xml:id="JOHAN"><role>Johan von Ehrenpreis,<note type="commentary"><hi rend="italic">Johan von Ehrenpreis</hi>: det adeligt klingende efternavn er us&#x00E6;dvanligt for en skr&#x00E6;ddersvend; der sigtes formentlig til nordmanden <hi rend="italic">Johan</hi> Nordal Brun (1745-1816), der i 1772 havde vundet en konkurrence om en original dansk tragedie og dermed en <hi rend="italic">&#x00E6;respris</hi> (ty. Ehrenpreis) med s&#x00F8;rgespillet <title rend="italic"><ref target="https://www.bokselskap.no/boker/zarine/tittelside">Zarine</ref></title>. Brun blev hyldet af de norske studenter i K&#x00F8;benhavn, og begivenheden gav anledning til etableringen af Det Norske Selskab senere p&#x00E5; &#x00E5;ret. <title rend="italic">Zarine</title> er et k&#x00E6;rlighedsdrama p&#x00E5; danske aleksandrinere (et 6-fodet jambisk versem&#x00E5;l med c&#x00E6;sur i midten) efter fransk-klassicistisk m&#x00F8;nster. Wessels parodi f&#x00F8;lger dette og andre formkrav.</note></role> <roleDesc>Skredder-Svend.</roleDesc></castItem>
+<castItem xml:id="GRETE"><role>Grete,</role> <roleDesc>Johans Forlovede.</roleDesc></castItem>
+<castItem xml:id="METTE"><role>Mette,</role> <roleDesc>Gretes Fortroelige.<note type="commentary"><hi rend="italic">Fortroelige</hi>: en betroet ven, der l&#x00E6;gger &#x00F8;re til centralt placerede helte og heltinders medgang og modgang, h&#x00F8;rer med til den klassiske tragedies faste persongalleri (fr. confident, confidente).</note></roleDesc></castItem>
+<castItem xml:id="MADS"><role>Mads,</role> <roleDesc>Gretes ulykkelig Elsker.</roleDesc></castItem>
+<castItem xml:id="JESPER"><role>Jesper,</role> <roleDesc>Madses Fortroelige.</roleDesc></castItem>
+</castList>
+</div>
+</front>
+<body>
+<div type="chapter" subtype="act" n="1">
+<head type="main"><ref type="contents" target="contents_1" xml:id="chapter_1">F&#x00F8;rste Optog.</ref></head>
+<note type="commentary"><hi rend="italic">Optog</hi>: akt. Inddelingen af dramaet i 5 afsnit blev allerede anbefalet af den romerske digter Horats i hans <hi rend="italic">Ars Poetica,</hi> vers 189-190, men bliver tragediekompositionens norm i den franske klassik i 1600-tallet.</note>
+<div type="uchapter" subtype="scene" n="1">
+<head type="sub"><pb n="3"/>F&#x00F8;rste Optrin.</head>
+<note type="commentary"><hi rend="italic">Optrin</hi>: scene. Underinddeling af akten er typisk bestemt ved personers exit eller indtr&#x00E6;den.</note>
+<sp who="GRETE"><speaker>Grete</speaker>
+<stage>allene, sovende paa en Stoel, vogner<note type="commentary"><hi rend="italic">vogner</hi>: v&#x00E5;gner.</note> op, og siger:</stage>
+<l>&#x00AB;Du aldrig bliver gift, hvis det i Dag ey skeer!&#x00BB;</l>
+<l>O! alt for f&#x00E6;le Dr&#x00F8;m! mig synes, at jeg seer</l>
+<l>Endnu den sorte Geist,<note type="commentary"><hi rend="italic">Geist</hi>: &#x00E5;nd, genf&#x00E6;rd, sp&#x00F8;gelse.</note> at jeg ham h&#x00F8;rer true</l>
+<l>Med samme Torden-R&#x00F8;st, &#x2013; Saa skal jeg aldrig skue</l>
+<l><pb n="4"/>Det Haab opfyldt, hvorpaa jeg byggede saa tryg,</l>
+<l>Da paa min Skredders Ski&#x00F8;d, med Haanden om hans Ryg,</l>
+<l>Jeg h&#x00F8;rte ham saa tidt med ki&#x00E6;len Stemme sige,</l>
+<l>Jeg var hans eeneste, hans allerbeste Pige,</l>
+<l>At mine &#x00D8;yekast sig tr&#x00E6;ngte til<note type="commentary"><hi rend="italic">sig tr&#x00E6;ngte til</hi>: tr&#x00E6;ngte ind i.</note> hans Si&#x00E6;l,</l>
+<l>Og at han uden mig ey kunde lide<note type="commentary"><hi rend="italic">lide</hi>: befinde sig.</note> vel.</l>
+<l>(Troel&#x00F8;se! jeg gad vidst, hvordan du nu maa lide)</l>
+<l>En Di&#x00E6;vel skulde dig ey kunde fra mig slide,</l>
+<l>Min Smiil<note type="commentary"><hi rend="italic">Min Smiil</hi>: mit smil.</note> din Vellyst<note type="commentary"><hi rend="italic">Vellyst</hi>: fryd.</note> var, og mine Vink din Lov:</l>
+<l>Det svoer du paa, og l&#x00F8;y, og denne L&#x00F8;gn var grov;</l>
+<l>Thi over Tiden nu det er alt<note type="commentary"><hi rend="italic">alt</hi>: allerede.</note> otte Dage,</l>
+<l>Som du mig lovede at komme her tilbage &#x2013;</l>
+<l>Forbandet den Major! hvis Buxer gik i tu;</l>
+<l>Dog ney &#x2013; utroe Johan, forbandet v&#x00E6;re du!</l>
+<l>Det Bud som foregav,<note type="commentary"><hi rend="italic">foregav</hi>: lod som om.</note> at en Major ham sendte,</l>
+<l>For at berette dig,<note type="commentary"><hi rend="italic">berette dig</hi>: give dig besked om.</note> de Buxer, som du vendte<note type="commentary"><hi rend="italic">vendte</hi>: syede om, s&#x00E5;ledes at den hidtidige vrangside kom til at vende udad.</note></l>
+<l>I Fior, var nu i tu, og at et andet Par</l>
+<l>Ham maatte gi&#x00F8;res strax, thi han i Knibe var,</l>
+<l>Han for at skuffe<note type="commentary"><hi rend="italic">skuffe</hi>: bedrage.</note> mig med dig var sammensvoren,</l>
+<l>I ki&#x00F8;rte Pokker I! og ikke til Majoren. &#x2013;</l>
+<l>Hvor kunde vel hos mig Mistanke finde Sted?</l>
+<l>Jeg var godtroende og blind af Kierlighed;</l>
+<l><pb n="5"/>Stokblind jeg vist nok<note type="commentary"><hi rend="italic">vist nok</hi>: helt sikkert.</note> var, som kunde ey begribe,</l>
+<l>At aldrig saadan Mand, en reen<note type="commentary"><hi rend="italic">reen</hi>: virkelig.</note> Major, i Knibe</l>
+<l>For Buxer v&#x00E6;re kand; jeg nu for silde<note type="commentary"><hi rend="italic">for silde</hi>: for sent.</note> seer &#x2013;</l>
+<stage>(efter nogen Taushed.)</stage>
+<l>&#x00AB;Du aldrig bliver gift, hvis det i Dag ey skeer!&#x00BB;</l>
+<l>Viig fra mig sorte Aand! som tordner i mit &#x00D8;re &#x2013;</l>
+<l>Dog ney &#x2013; Jeg h&#x00F8;rer ey &#x2013; Jeg synes kun at h&#x00F8;re.</l>
+</sp>
+<figure rend="shortHorizRule"/>
+</div>
+<div type="uchapter" subtype="scene" n="2">
+<head type="sub">Andet Optrin.</head>
+<stage>Mette, Grete.</stage>
+<sp who="METTE"><speaker>Mette.</speaker>
+<l>Hvad nye Fortr&#x00E6;d Mas&#x00F8;r!<note type="commentary"><hi rend="italic">Mas&#x00F8;r</hi>: ma soeur (fr.), min s&#x00F8;ster, veninde.</note> forvolder<note type="commentary"><hi rend="italic">forvolder</hi>: er &#x00E5;rsagen til, skyldes.</note> disse Skriig?</l>
+<l part="I">Hvor &#x00E6;ngste de min Si&#x00E6;l!</l>
+</sp>
+<sp who="GRETE"><speaker>Grete.</speaker>
+<l part="F">Jeg er ulykkelig!</l>
+<l>Veninde h&#x00F8;r og skielv! et f&#x00E6;lt sortagtigt V&#x00E6;sen,</l>
+<l>En Di&#x00E6;vel uden Tvivl med sorte Haar paa N&#x00E6;sen,</l>
+<l><pb n="6"/>Mig nu, jeg sad og sov, i Dr&#x00F8;mme forekom,<note type="commentary"><hi rend="italic">Mig &#x2026; forekom</hi>: viste sig for mig.</note></l>
+<l>Og grumt og br&#x00F8;lende afsagde denne Dom:</l>
+<l>&#x00AB;Du bliver gift i Dag, skal du det eengang blive!&#x00BB;</l>
+</sp>
+<sp who="METTE"><speaker>Mette.</speaker>
+<l>Man b&#x00F8;r ey altid troe, hvad Dr&#x00F8;mme os indgive,</l>
+</sp>
+<sp who="GRETE"><speaker>Grete.</speaker>
+<l>Du veed, en Heltes Dr&#x00F8;m<note type="commentary"><hi rend="italic">Heltes Dr&#x00F8;m</hi>: hvis der indg&#x00E5;r dr&#x00F8;mme i tragedier, vil de helt typisk g&#x00E5; i opfyldelse; det er en genrekonvention.</note> har aldrig feilet f&#x00F8;r.</l>
+</sp>
+<sp who="METTE"><speaker>Mette.</speaker>
+<l>Lad det end v&#x00E6;re saa, du dog bet&#x00E6;nke b&#x00F8;r,</l>
+<l>At til en rigtig Dr&#x00F8;m der Seng og Nat udkr&#x00E6;ves;</l>
+<l part="I">Om Dagen i en Stoel &#x2013; &#x2013;</l>
+</sp>
+<sp who="GRETE"><speaker>Grete.</speaker>
+<l part="F">Du tr&#x00F8;ster mig forgieves.</l>
+<l>Det Indtryk, som min Dr&#x00F8;m har giort udi mit Br&#x00F8;st,</l>
+<l>Desv&#x00E6;rre trodser din og heele Verdens Tr&#x00F8;st.</l>
+<l part="I">Jeg seer min visse D&#x00F8;d &#x2013; &#x2013;</l>
+</sp>
+<sp who="METTE"><speaker>Mette.</speaker>
+<l part="F">Men den seer ikke Mette.</l>
+<l>Din Dr&#x00F8;m var den end sand, den siger kun dette:</l>
+<l part="I">Du aldrig giftes skal.</l>
+</sp>
+<sp who="GRETE"><speaker><pb n="7"/>Grete.</speaker>
+<l part="F">Og den, som siger det</l>
+<l>Han siger, jeg skal d&#x00F8;e. Thi jeg har nogen Ret,</l>
+<l>Hvis tusind Vidnesbyrd mig nogen Ret kand give</l>
+<l>At troe jeg ikke b&#x00F8;r blant Grimme regnet blive,</l>
+<l>Og naar man ey er grim og er ey heller d&#x00F8;d,</l>
+<l>Man for at blive gift ey pleyer lide N&#x00F8;d.<note type="commentary"><hi rend="italic">lide N&#x00F8;d</hi>: have sv&#x00E6;rt ved.</note></l>
+</sp>
+<sp who="METTE"><speaker>Mette.</speaker>
+<l>Forlad mig,<note type="commentary"><hi rend="italic">Forlad mig</hi>: tilgiv mig.</note> jeg tilstaaer, at jeg mig har forl&#x00F8;bet.<note type="commentary"><hi rend="italic">jeg mig har forl&#x00F8;bet</hi>: jeg er g&#x00E5;et for langt.</note></l>
+</sp>
+<sp who="GRETE"><speaker>Grete.</speaker>
+<l>Du ved din Tale<note type="footnote"><hi rend="italic">Rettet fra</hi> Du veed, din Tale <hi rend="italic">i tr&#x00E5;d med trykkfeilslisten bakerst i f&#x00F8;rstetrykket</hi>.</note> kun Eenfoldighed har r&#x00F8;bet,</l>
+<l part="I">Og den er alt<note type="commentary"><hi rend="italic">alt</hi>: allerede.</note> forladt.</l>
+</sp>
+<sp who="METTE"><speaker>Mette.</speaker>
+<l part="F">Forlad da ligesaa,</l>
+<l>At jeg dig endnu t&#x00F8;r et Middel foreslaae,</l>
+<l>Hvorved du lykkelig, og Dr&#x00F8;mmen sand kand blive:</l>
+<l part="I">Gift dig i Dag med Mads &#x2013; &#x2013;</l>
+</sp>
+<sp who="GRETE"><speaker>Grete.</speaker>
+<l part="F">Min Haand jeg skulde give</l>
+<l>Til den jeg f&#x00F8;r forski&#x00F8;d.<note type="commentary"><hi rend="italic">forski&#x00F8;d</hi>: afviste.</note> Den Kaal jeg sp&#x00F8;tted&#x0027; i</l>
+<l part="I">Jeg skulde spise selv. Gid f&#x00F8;r &#x2013; &#x2013;</l>
+</sp>
+<sp who="METTE"><speaker><pb n="8"/>Mette.</speaker>
+<l part="F">For alting tie!</l>
+<l>En ubet&#x00E6;nksom Eed man ofte maa fortryde,<note type="commentary"><hi rend="italic">fortryde</hi>: &#x00E6;rgre sig over over.</note></l>
+<l>Og mine Grunde<note type="commentary"><hi rend="italic">Grunde</hi>: argumenter.</note> dig maaskee kand overtyde,<note type="commentary"><hi rend="italic">overtyde</hi>: overbevise.</note></l>
+<l>Du ey forsv&#x00E6;rge<note type="commentary"><hi rend="italic">forsv&#x00E6;rge</hi>: ben&#x00E6;gte, afvise h&#x00F8;jtideligt el. ved ed.</note> b&#x00F8;r at blive Madses Brud.</l>
+<l>Sandt nok ved saadan Eed en Si&#x00E6;l sig m&#x00E6;rker ud,<note type="commentary"><hi rend="italic">sig m&#x00E6;rker ud</hi>: udm&#x00E6;rker sig. At sv&#x00E6;rge kategorisk h&#x00F8;rer til tragediekonventionen.</note></l>
+<l>Som ikke t&#x00E6;nker lavt, men jeg t&#x00F8;r endnu<note type="commentary"><hi rend="italic">endnu</hi>: yderligere.</note> sige:</l>
+<l>Den Si&#x00E6;l hveranden<note type="commentary"><hi rend="italic">hveranden</hi>: enhver.</note> maa i H&#x00F8;yde overstige,</l>
+<l>Som kun<note type="commentary"><hi rend="italic">kun</hi>: ene og alene.</note> af Lydighed imod sit Kald og Pligt</l>
+<l>Nedlader sig til det, som den er v&#x00E6;mmeligt.</l>
+<l>Men vores Kald og Pligt, saa mange, som vi ere,</l>
+<l>Er at udv&#x00E6;lge os en Mand i Tugt<note type="commentary"><hi rend="italic">Tugt</hi>: dyd, &#x00E6;rbarhed.</note> og &#x00C6;re.</l>
+</sp>
+<sp who="GRETE"><speaker>Grete.</speaker>
+<l>Hvo kand vel staae imod den rene Sandheds Sprog,</l>
+<l>Det har udi min Si&#x00E6;l oplyst den m&#x00F8;rke Krog.</l>
+<l>Fornuften i dit Raad er villig at samtykke,<note type="commentary"><hi rend="italic">Fornuften i dit Raad er villig at samtykke</hi>: Fornuften (opfattet som person) er indstillet p&#x00E5; at tage imod dit r&#x00E5;d.</note></l>
+<l>Kun maatte Hiertet<note type="commentary"><hi rend="italic">maatte Hiertet</hi>: gid hjertet m&#x00E5;tte.</note> ey Fornuften undertrykke!</l>
+<l>Der dog endnu en Ting for Hovedet mig staaer;<note type="commentary"><hi rend="italic">for Hovedet mig staaer</hi>: ligger mig st&#x00E6;rkt p&#x00E5; sinde, bekymrer mig.</note></l>
+<l>Om jeg dig lyde vil, hvem staaer mig inde for,<note type="commentary"><hi rend="italic">staaer mig inde for</hi>: garanterer mig.</note></l>
+<l>At Mads foragter ey, den ham har f&#x00F8;r foragtet?</l>
+</sp>
+<sp who="METTE"><speaker>Mette.</speaker>
+<l>Du hans H&#x00F8;yagtelse for evig har forpagtet,<note type="commentary"><hi rend="italic">har forpagtet</hi>: har lagt beslag p&#x00E5;, har eneret til.</note></l>
+<l>Det staaer jeg inde for og til Beviis herpaa</l>
+<l><pb n="9"/>For<note type="commentary"><hi rend="italic">For</hi>: f&#x00F8;r.</note> Solens Opgang han for mine F&#x00F8;dder laae</l>
+<l>I Morges Taarefuld, og med en ydmyg Mine</l>
+<l>Bad om Tilladelse at kaste sig for dine.</l>
+<l>Han har en vigtig Sag at foredrage<note type="commentary"><hi rend="italic">foredrage</hi>: forel&#x00E6;gge, fremstille for.</note> dig</l>
+<l>Som han fandt raadeligt<note type="commentary"><hi rend="italic">raadeligt</hi>: tilr&#x00E5;deligt, klogt.</note> at holde skiult for mig.</l>
+<l>Hvis du tilsteder<note type="commentary"><hi rend="italic">tilsteder</hi>: tillader.</note> det, og du det b&#x00F8;r tilstede,</l>
+<l part="I">Jeg strax vil hente ham &#x2013; &#x2013;</l>
+</sp>
+<sp who="GRETE"><speaker>Grete.</speaker>
+<l part="F">Lad din Forstand mig lede,</l>
+<l>Gi&#x00F8;r hvad dig synes best, min Si&#x00E6;l indviklet er</l>
+<l>I Sorgers m&#x00F8;rke Skye, du dens Veyleder v&#x00E6;r.</l>
+</sp>
+<stage>(Mette gaaer.)</stage>
+<figure rend="shortHorizRule"/>
+</div>
+<div type="uchapter" subtype="scene" n="3">
+<head type="sub">Tredie Optrin.</head>
+<sp who="GRETE"><speaker>Grete</speaker> <stage>allene.</stage>
+<l>Saa er jeg da ford&#x00F8;mt til Madses Brud at blive,</l>
+<l>Jeg give skal min Haand, og kand ey Hjertet give;</l>
+<l>De skulde begge to saa deylig fulgtes ad,</l>
+<l>Hvis den utroe Johan ey v&#x00E6;rdig var mit Had.</l>
+</sp>
+<figure rend="shortHorizRule"/>
+</div>
+<div type="uchapter" subtype="scene" n="4">
+<head type="sub"><pb n="10"/>Fierde Optrin.</head>
+<stage>Grete, Mads.</stage>
+<sp who="GRETE"><speaker>Grete.</speaker>
+<l>Seigneur!<note type="commentary"><hi rend="italic">Seigneur</hi>: (fr.) herre; alm. tiltaleform i fransk-klassisk tragedie.</note> Indgangen hid jeg vilde dig ey hindre;</l>
+<l>Thi af en Mand, som du, jeg venter intet mindre,<note type="commentary"><hi rend="italic">intet mindre</hi>: alt andet.</note></l>
+<l>End smaa Bebreydelser, som gi&#x00F8;r os begge Skam.</l>
+</sp>
+<sp who="MADS"><speaker>Mads.</speaker>
+<l>Enhver, som kiender Mads, b&#x00F8;r t&#x00E6;nke saa om ham.</l>
+<l>Vel sandt du mig forski&#x00F8;d,<note type="commentary"><hi rend="italic">forski&#x00F8;d</hi>: afviste.</note> men det er kun en Ski&#x00E6;bne,</l>
+<l>Mod hvilken du omsonst, og jeg, mig vilde v&#x00E6;bne:<note type="commentary"><hi rend="italic">en Ski&#x00E6;bne &#x2026; vilde v&#x00E6;bne</hi>: en forudbestemt udvikling, som du og jeg forg&#x00E6;ves pr&#x00F8;ver at forsvare os imod. I Holbergs <hi rend="italic">Peder Paars</hi> er hovedpersonen midlertidigt strandet p&#x00E5; Anholt og beklager sin sk&#x00E6;bne i tilsvarende vendinger: &#x00AB;&#x2026; min Ski&#x00E6;bne, / Mod hvilken man omsonst sig str&#x00E6;ber at bev&#x00E6;bne&#x00BB; (1. bog, 5. sang, vers 337-38).</note></l>
+<l>Det ingens Br&#x00F8;de<note type="commentary"><hi rend="italic">Br&#x00F8;de</hi>: skyld.</note> er og altsaa ikke din.</l>
+<l>En Br&#x00F8;de veed jeg af, og denne bliver min:</l>
+<l>Jeg en Misd&#x00E6;ders<note type="commentary"><hi rend="italic">Misd&#x00E6;ders</hi>: forbryders.</note> Navn med Rette burde b&#x00E6;re,</l>
+<l>Jeg har fordristet mig din Ski&#x00F8;nhed at van&#x00E6;re;</l>
+<l>Du tog din Haand igien og jeg har endnu Liv</l>
+<l>Jeg ey mit Hierte strax hiems&#x00F8;gte<note type="commentary"><hi rend="italic">hiems&#x00F8;gte</hi>: straffede.</note> med en Kniv;</l>
+<l>Din Ski&#x00F8;nhed jeg til Trods endnu t&#x00F8;r drage Aande;</l>
+<l>Du Aarsag har om mig at t&#x00E6;nke allehaande,<note type="commentary"><hi rend="italic">allehaande</hi>: alt muligt.</note></l>
+<l><pb n="11"/>Men tager jeg ey feyl, en Ski&#x00E6;bne eller Aand,</l>
+<l>Jeg veed ey hvem af to, tilbageholdt min Haand,</l>
+<l>Da jeg Madam<note type="commentary"><hi rend="italic">Madam</hi>: madame, frue; konsekvent brugt tiltaleform til kvinder i fransk-klassisk tragedie.</note> forladt og straffet med din Vrede</l>
+<l>Besluttede at d&#x00F8;e, min Kniv var af sin Skede,</l>
+<l>Min Arm alt udstrakt var, jeg manglede ey Mod,</l>
+<l>D&#x00F8;e var min fulde Agt, flyd! raabte jeg, mit Blod!</l>
+<l>Men ingen Draabe fl&#x00F8;d, man er som uden Sandser,</l>
+<l>Naar man sig dr&#x00E6;be vil, &#x2013; Om derfor med et Pandser<note type="commentary"><hi rend="italic">Pandser</hi>: fast bestanddel af heltekostumet i fransk-klassisk tragedie.</note></l>
+<l>Mod dette grumme St&#x00F8;d een d&#x00E6;kkede min Barm,</l>
+<l>Hvad heller<note type="commentary"><hi rend="italic">Hvad heller</hi>: eller om.</note> nogen Geist tilbageholdt min Arm,</l>
+<l>I den Forvirrelse jeg kunde ey erfare.</l>
+</sp>
+<sp who="GRETE"><speaker>Grete.</speaker>
+<l>Nu min Beskedenhed befaler mig at svare:</l>
+<l>Jeg kiender mig for vel til mig at bilde ind,</l>
+<l>At hele Verden var udi et Kalve-Skind,<note type="commentary"><hi rend="italic">var udi et Kalve-Skind</hi>: kom i krig.</note></l>
+<l>Fordi jeg byttet bort en Elsker for en anden;</l>
+<l>Vel har jeg ofte h&#x00F8;rt, naar jeg skal sige sanden,<note type="commentary"><hi rend="italic">sige sanden</hi>: tale sandt, sige sandheden.</note></l>
+<l>At nogle Ski&#x00F8;nheds Tr&#x00E6;k mig gunstig Ski&#x00E6;bne gav,</l>
+<l>Men saa hovmodig jeg dog aldrig blev deraf,</l>
+<l>At mig i Sinde kom at holde for en Br&#x00F8;de,</l>
+<l>Om ved mit Hiertes Tab min Elsker strax ey d&#x00F8;de.</l>
+</sp>
+<sp who="MADS"><speaker><pb n="12"/>Mads.</speaker>
+<l>Ved din Beskedenhed, min Br&#x00F8;de voxer meer,</l>
+<l>Jo meere jeg dit V&#x00E6;rd ved den for&#x00F8;get seer.</l>
+</sp>
+<sp who="GRETE"><speaker>Grete.</speaker>
+<l>Nu nok om dette talt, vend dig igien til Sagen.</l>
+</sp>
+<sp who="MADS"><speaker>Mads.</speaker>
+<l>Jeg har da tydelig, mig synes, lagt for Dagen,</l>
+<l>Hvorlunde<note type="commentary"><hi rend="italic">Hvorlunde</hi>: hvordan.</note> at en Aand, en Ski&#x00E6;bne eller sligt,</l>
+<l>Var Aarsag at jeg f&#x00F8;r ey efterkom min Pligt.</l>
+<l>Men Ski&#x00E6;bne Aand og sligt gi&#x00F8;r intet hen i Taaget,<note type="commentary"><hi rend="italic">hen i Taaget</hi>: uden klar hensigt.</note></l>
+<l>Og med at frelse mig de vist nok<note type="commentary"><hi rend="italic">vist nok</hi>: helt sikkert.</note> meente noget;</l>
+<l>Det noget gietter jeg, men om jeg gietter ret,</l>
+<l>Et Ja, et Ney af dig skal snart afgi&#x00F8;re det.</l>
+<l>Jeg troer, min gode Aand mit Liv har vildet spare,</l>
+<l>Fordi den saae min N&#x00F8;d ey skulde evig vare,</l>
+<l>Fordi den saae, Johan tilsidst ved nedrig Sviig<note type="commentary"><hi rend="italic">nedrig Sviig</hi>: usselt bedrag.</note></l>
+<l>Dig skulde l&#x00E6;re ret at sette Priis paa mig.</l>
+<l>Herom at sige meer var kun at spilde Tiden,</l>
+<l>Og at forn&#x00E6;rme dig, som alt<note type="commentary"><hi rend="italic">alt</hi>: allerede.</note> for l&#x00E6;nge siden</l>
+<l>Min Meening fattet har; be&#x00E6;r mig med et Svar,</l>
+<l part="I">Hvoraf jeg fatter din.</l>
+</sp>
+<sp who="GRETE"><speaker><pb n="13"/>Grete.</speaker>
+<l part="F">Hvad Ski&#x00E6;bnen bydet<note type="commentary"><hi rend="italic">bydet</hi>: p&#x00E5;budt<hi rend="italic">,</hi> bestemt.</note> har,</l>
+<l>Var en Forvovenhed al mig at vilde hindre;</l>
+<l>Jeg har i denne Sag kun dette at erindre,<note type="commentary"><hi rend="italic">erindre</hi>: bem&#x00E6;rke.</note></l>
+<l>I Fald jeg giftes skal, da maa det skee i Dag,</l>
+<l part="I">Det ellers aldrig skeer &#x2013; &#x2013; &#x2013;</l>
+</sp>
+<sp who="MADS"><speaker>Mads.</speaker>
+<l part="F">Min Tunge er for svag</l>
+<l>Til min Erkiendtlighed<note type="commentary"><hi rend="italic">Erkiendtlighed</hi>: taknemmelighed.</note> og Gl&#x00E6;de at udtrykke;</l>
+<l>L&#x00E6;s af mit &#x00D8;ye-Syn min Elskov og min Lykke</l>
+<l>Jeg galopperer hen, at tage Kl&#x00E6;der paa</l>
+<l>Hvormed jeg v&#x00E6;rdigen kand som din Brudgom staae.</l>
+<stage>(Han gaaer.)</stage>
+</sp>
+<figure rend="shortHorizRule"/>
+</div>
+<div type="uchapter" subtype="scene" n="5">
+<head type="sub">Femte Optrin.</head>
+<sp who="GRETE"><speaker>Grete</speaker> <stage>allene.</stage>
+<lb/>
+<l rend="indent_2"><hi rend="italic">Aria.<note type="commentary"><hi rend="italic">Aria</hi>: solosangstykke.</note></hi></l>
+<l rend="indent_2">Ski&#x00E6;bnen b&#x00F8;d mig f&#x00F8;rst Johan,</l>
+<l rend="indent_2">Nu mig giver Mads til Mand.</l>
+<l rend="indent_2"><pb n="14"/>Naar dig nogen Karper byder,</l>
+<l rend="indent_2">Og du faaer kun t&#x00F8;rre Jyder,<note type="commentary"><hi rend="italic">t&#x00F8;rre Jyder</hi>: vindt&#x00F8;rrede og saltede sild og fladfisk, (no.) flyndre, der var ordin&#x00E6;r kost p&#x00E5; Wessels tid.</note></l>
+<l rend="indent_2">Bliver du lidt flau<note type="commentary"><hi rend="italic">flau</hi>: flov, dvs. skuffet.</note> derved;</l>
+<l rend="indent_2">Men har du en sulten Mave,</l>
+<l rend="indent_2">Og ey anden Mad kand have,</l>
+<l rend="indent_2">Gaaer den t&#x00F8;rre Jyde ned.</l>
+<l rend="indent_2">Ski&#x00E6;bnen b&#x00F8;d mig f&#x00F8;rst Johan,</l>
+<l rend="indent_2">Nu mig giver Mads til Mand.</l>
+<lb/>
+<l>Hvor n&#x00F8;dig Hiertet vil dog for Fornuften vige!</l>
+<l>Jeg h&#x00F8;rer dennes<note type="commentary"><hi rend="italic">dennes</hi>: sidstn&#x00E6;vntes, dvs. fornuftens.</note> R&#x00F8;st alvorligen at sige:</l>
+<l>Mads blive skal din Mand, men Hiertet siger: Ney &#x2013;</l>
+<l>Dog, hvorom alting er, saa gaaer jeg nu min Vey.</l>
+</sp>
+<stage>Ende paa f&#x00F8;rste Optog.</stage>
+<figure rend="shortHorizRule"/>
+</div>
+</div>
+<div type="chapter" subtype="act" n="2">
+<head type="main"><ref type="contents" target="contents_2" xml:id="chapter_2">Andet Optog.</ref></head>
+<div type="uchapter" subtype="scene" n="1">
+<head type="sub"><pb n="15"/>F&#x00F8;rste Optrin.</head>
+<stage>Mads, Jesper.</stage>
+<sp who="MADS"><speaker>Mads.</speaker>
+<l>Hvor hopper ey min Si&#x00E6;l! Hvor skynder sig mit Blod,</l>
+<l>At raabe: Fryder jer<note type="commentary"><hi rend="italic">Fryder jer</hi>: fryd jer.</note> til hvert et Ledemod.<note type="commentary"><hi rend="italic">Ledemod</hi>: led, kropsdel.</note></l>
+</sp>
+<sp who="JESPER"><speaker>Jesper.</speaker>
+<l>Du taler som du var, min Ven! lidt Hoved-Svimmel.</l>
+</sp>
+<sp who="MADS"><speaker>Mads.</speaker>
+<l>Fa&#x00EA;r fra et Helvede med et op i en Himmel,</l>
+<l>Og vi vil faae at see, om du det bedre gi&#x00F8;r.</l>
+<l>Saa lykkelig en Hest,<note type="commentary"><hi rend="italic">Saa lykkelig en Hest</hi>: &#x00AB;s&#x00E5; heldigt et asen&#x00BB;; <hi rend="italic">hestelykke</hi> bet&#x00F8;d &#x0027;uventet, ufortjent held; svineheld&#x0027;.</note> som jeg var aldrig f&#x00F8;r.</l>
+<l>Kom kys mig s&#x00F8;de Broer! Lad os en Sang istemme,</l>
+<l>Hvoraf den hele Jord min Gl&#x00E6;de kand fornemme.</l>
+<l><pb n="16"/>For evig evig Tiid er Mads nu lykkelig!</l>
+<l>Min Jesper! hielp mig at udst&#x00F8;de Fryde-Skrig,</l>
+<l>H&#x00F8;r! af min Fryds-Basun faer ud en Gl&#x00E6;des Torden</l>
+<l>Langt ned til dem som boe, &#x2013; &#x2013; der boer jo under Jorden</l>
+<l>En Hoben<note type="commentary"><hi rend="italic">Hoben</hi>: gruppe, m&#x00E6;ngde.</note> smukke Folk.<note type="commentary"><hi rend="italic">smukke Folk</hi>: respektable, ansete folk (fr. <hi rend="italic">beaumonde</hi>).</note> Den hele Jordens Kreds<note type="commentary"><hi rend="italic">hele Jordens Kreds</hi>: hele verden (lat. <hi rend="italic">orbis terrarum</hi>).</note></l>
+<l>Skal vide jeg er glad, f&#x00F8;r er jeg ey tilfreds.</l>
+<lb/>
+<l rend="indent_2"><hi rend="italic">Aria.</hi></l>
+<l rend="indent_2">Underjordiske som sover,</l>
+<l rend="indent_2">Du maae ikke undres over,</l>
+<l rend="indent_2">At min Sang dig v&#x00E6;kker op</l>
+<l rend="indent_2">Til at gi&#x00F8;re Gl&#x00E6;des Hop.</l>
+<l rend="indent_2">Du det ikke skal fortryde;<note type="commentary"><hi rend="italic">fortryde</hi>: tage ilde op.</note></l>
+<l rend="indent_2">Thi min Sang kun Fryd skal byde:</l>
+<l rend="indent_2">Under Jorden gi&#x00F8;r et Hop!</l>
+<l rend="indent_2">Naar min Sang dig v&#x00E6;kker op.</l>
+<l rend="indent_2">Mads i Dag har vundet Seyer;</l>
+<l rend="indent_2">Mads i Dag sin Grete eyer,</l>
+<l rend="indent_2">Ja med Hud og Haar og Krop.</l>
+<l rend="indent_2">Under Jorden gi&#x00F8;r et Hop!</l>
+</sp>
+<sp who="JESPER"><speaker><pb n="17"/>Jesper.</speaker>
+<l>Har du nu skreget ud din Gl&#x00E6;des Raserie.<note type="commentary"><hi rend="italic">Raserie</hi>: vanvid.</note></l>
+</sp>
+<sp who="MADS"><speaker>Mads.</speaker>
+<l>En Zephyr<note type="commentary"><hi rend="italic">Zephyr</hi>: i gr&#x00E6;sk og romersk mytologi navn p&#x00E5; (guden for) den blide vestenvind.</note> bl&#x00E6;ser nu, og Stormen er forbie,</l>
+<l>Det var en Fryds Orkan, som foer udaf sit F&#x00E6;ngsel,</l>
+<l>Og havde F&#x00E6;ngslets D&#x00F8;r n&#x00E6;r l&#x00F8;ftet af dens H&#x00E6;ngsel,</l>
+<l>Saa voldsom var dens Fart. En Si&#x00E6;l er dobbelt glad,</l>
+<l>Jo l&#x00E6;ngere den f&#x00F8;r i Sorgens F&#x00E6;ngsel sad.</l>
+<lb/>
+<l rend="indent_2"><hi rend="italic">Aria.</hi></l>
+<l rend="indent_2">Min Gl&#x00E6;de er som Bekken;</l>
+<l rend="indent_2">Den Bek, som sagte fl&#x00F8;d,</l>
+<l rend="indent_2">F&#x00F8;r den en Demning b&#x00F8;d,<note type="commentary"><hi rend="italic">b&#x00F8;d</hi>: befalede.</note></l>
+<l rend="indent_2">Ey r&#x00F8;re sig af Flekken;</l>
+<l rend="indent_2">Da Demningen kom bort,</l>
+<l rend="indent_2">Fl&#x00F8;d Bekken dobbelt fort.<note type="commentary"><hi rend="italic">dobbelt fort</hi>: dobbelt s&#x00E5; hurtigt.</note></l>
+<l rend="indent_2">Min Gl&#x00E6;de er som Bekken.</l>
+</sp>
+<sp who="JESPER"><speaker><pb n="18"/>Jesper.</speaker>
+<l>Jeg Grete komme seer, hun vist den Slutning drager:</l>
+<l>At du af Lunkenhed dig gode Stunder tager<note type="commentary"><hi rend="italic">du &#x2026; dig gode Stunder tager</hi>: du tager dig god tid.</note></l>
+<l>Ifald hun faaer at see dit end ukiemte<note type="commentary"><hi rend="italic">end ukiemte</hi>: endnu uredte.</note> Haar;</l>
+<l>Det bliver derfor best, at du afsides gaaer.</l>
+</sp>
+<figure rend="shortHorizRule"/>
+</div>
+<div type="uchapter" subtype="scene" n="2">
+<head type="sub">Andet Optrin.</head>
+<stage>Grete, Mette.</stage>
+<sp who="METTE"><speaker>Mette.</speaker>
+<l>Saa var mit Haab omsunst,<note type="commentary"><hi rend="italic">omsunst</hi>: forg&#x00E6;ves.</note> du syntes at samtykke</l>
+<l>I dette &#x00C6;gteskab, jeg holdt det for min Lykke,</l>
+<l>At ved mit ringe Raad jeg kunde fremme din,</l>
+<l>Og skrekkes<note type="commentary"><hi rend="italic">skrekkes</hi>: frygter.</note> nu du slaaer det hen i Veyr og Vind.</l>
+</sp>
+<sp who="GRETE"><speaker>Grete.</speaker>
+<l>Jeg dig forbunden er, som vil min Smerte lindre,</l>
+<l>Og &#x00E6;rer dine Raad, men ikke destomindre</l>
+<l>Mit Hierte siger mig, at tusind Plagers H&#x00E6;r</l>
+<l>Med L&#x00E6;ngsel venter paa, at see min Brudef&#x00E6;r.</l>
+<l><pb n="19"/>F&#x00F8;r var jeg angestfuld, men tusind gange meere,</l>
+<l>Saasnart jeg t&#x00E6;nker paa, at Mads min Mand skal v&#x00E6;re,</l>
+<l part="I">Jeg veed ey selv, hvorfor. &#x2013; &#x2013;</l>
+</sp>
+<sp who="METTE"><speaker>Mette.</speaker>
+<l part="F">Man vel hos visse Folk</l>
+<l>Paa visse Tider b&#x00F8;r ansee, som Sandheds Tolk<note type="commentary"><hi rend="italic">Sandheds Tolk</hi>: talsmand for sandhed.</note></l>
+<l>En riktig Ahnelse, men du dig kand bedrage</l>
+<l>Og for en Ahnelse maaskee den Afskye tage,</l>
+<l>Som f&#x00F8;les af enhver ved slige Bryllupper,</l>
+<l>Hvor man skal &#x00E6;gte een og har en anden ki&#x00E6;r.</l>
+<l>Din Ahnelse maaskee af sidste Slags kan v&#x00E6;re,</l>
+<l part="I">Hvem veed &#x2013; &#x2013; &#x2013;</l>
+</sp>
+<sp who="GRETE"><speaker>Grete.</speaker>
+<l part="F">Du er for kort<note type="commentary"><hi rend="italic">for kort</hi>: ikke kompetent til.</note> til mig at kunde l&#x00E6;re</l>
+<l>At kiende Ahnelser; hvis min ey &#x00E6;gte er,</l>
+<l part="I">Saa maa du frit. &#x2013; &#x2013; &#x2013;</l>
+</sp>
+<sp who="METTE"><speaker>Mette.</speaker>
+<l part="F">Men h&#x00F8;r! hvem mon der banker der?</l>
+<l part="I">Jeg gaaer at lukke op.</l>
+</sp>
+<figure rend="shortHorizRule"/>
+</div>
+<div type="uchapter" subtype="scene" n="3">
+<head type="sub"><pb n="20"/>Tredie Optrin.</head>
+<sp who="GRETE"><speaker>Grete</speaker> <stage>allene.</stage>
+<l part="F">Hvem mon der vel kan banke?</l>
+<l>Maaskee &#x2013; &#x2013; dog ney &#x2013; &#x2013; det var for smiggrende en Tanke,<note type="commentary"><hi rend="italic">det var for smiggrende en Tanke</hi>: det t&#x00F8;r jeg ikke vente.</note></l>
+<l>Og den troel&#x00F8;se Skurk vist havde kommet f&#x00F8;r.</l>
+<l>Hvis ey; &#x2013; &#x2013; Men Himmel! Jord! det er Johan! &#x2013; &#x2013; Jeg d&#x00F8;er.</l>
+</sp>
+<figure rend="shortHorizRule"/>
+</div>
+<div type="uchapter" subtype="scene" n="4">
+<head type="sub">Fierde Optrin.</head>
+<stage>Johan, Grete.</stage>
+<sp who="JOHAN"><speaker>Johan.</speaker>
+<l>Hvor seer jeg glad igien de mange Yndigheder</l>
+<l>Som den maa v&#x00E6;re blind, der kan ey see hos eder.</l>
+</sp>
+<sp who="GRETE"><speaker>Grete.</speaker>
+<l>Jeg dig forn&#x00E6;rmet har min allerbeste Ven!</l>
+<l part="I">Jeg t&#x00E6;nkte du var Skielm.<note type="commentary"><hi rend="italic">Skielm</hi>: bedrager.</note> &#x2013; &#x2013;</l>
+</sp>
+<sp who="JOHAN"><speaker><pb n="21"/>Johan.</speaker>
+<l part="F">Saa t&#x00E6;nk nu om igien.</l>
+</sp>
+<sp who="GRETE"><speaker>Grete.</speaker>
+<l>Mit eget Hierte sig nu f&#x00E6;rdig er<note type="commentary"><hi rend="italic">f&#x00E6;rdig er</hi>: er lige ved.</note> at hade</l>
+<l part="I">Som dig mist&#x00E6;nkte saa.</l>
+</sp>
+<sp who="JOHAN"><speaker>Johan.</speaker>
+<l part="F">Jeg kan dig let forlade;<note type="commentary"><hi rend="italic">forlade</hi>: tilgive.</note></l>
+<l>En Tvivl saa rimelig for dig at falde paa,<note type="commentary"><hi rend="italic">falde paa</hi>: f&#x00E5;.</note></l>
+<l>Du er undskyldelig og jeg er ligesaa.</l>
+<l>Du de Forhindringer behager at anh&#x00F8;re<note type="commentary"><hi rend="italic">anh&#x00F8;re</hi>: h&#x00F8;re p&#x00E5;.</note></l>
+<l part="I">Som vare Aarsag i &#x2013; &#x2013; &#x2013;</l>
+</sp>
+<sp who="GRETE"><speaker>Grete.</speaker>
+<l part="F">Dig at retf&#x00E6;rdiggi&#x00F8;re</l>
+<l>Er kun til Overflod,<note type="commentary"><hi rend="italic">til Overflod</hi>: overfl&#x00F8;digt.</note> dit Forsvar ligger her.</l>
+<stage>(peger paa Hiertet.)</stage>
+<l>Med Ild-Bogstaver trykt. Det kort forfattet<note type="commentary"><hi rend="italic">kort forfattet</hi>: kort udtrykt.</note> er:</l>
+<l>Johan, som elsker mig, kan ey strafv&#x00E6;rdig v&#x00E6;re.</l>
+</sp>
+<sp who="JOHAN"><speaker>Johan.</speaker>
+<l>Hvor taler du ey smukt, jeg vilde paa min &#x00C6;re,</l>
+<l>Nu Turen er til mig, og sige smukke Ting;</l>
+<l>Men Kierligheden har med t&#x00E6;tte Atter-Sting<note type="commentary"><hi rend="italic">Atter-Sting</hi>: dvs. bagsting eller stikkesting, alts&#x00E5; sting anbragt t&#x00E6;t bag hinanden. Ordets rigssprogsform var <hi rend="italic">Agtersting</hi>; formen <hi rend="italic">Atter-</hi> skyldes sandsynligvis Wessels norske baggrund.</note></l>
+<l><pb n="22"/>Saa sy&#x00EA;d mit Hierte ind, at om jeg skulde henge,</l>
+<l>Dets &#x00F8;mme F&#x00F8;lelser sig dog ey kunde tr&#x00E6;nge</l>
+<l part="I">Op til min Mund, Madam! &#x2013; &#x2013; &#x2013;</l>
+</sp>
+<sp who="GRETE"><speaker>Grete.</speaker>
+<l part="F">Jeg tvivler ikke paa,</l>
+<l>Du mig jo elsker h&#x00F8;yt,<note type="commentary"><hi rend="italic">Jeg tvivler ikke paa, / Du mig jo elsker h&#x00F8;yt</hi>: jeg tvivler ikke p&#x00E5;, at du elsker mig h&#x00F8;jt. Partiklen <hi rend="italic">jo</hi> (ikke) kunne i &#x00E6;ldre dansk bruges overfl&#x00F8;digt i leds&#x00E6;tninger, der som her knytter sig til hoveds&#x00E6;tninger, som udtrykker tvivl.</note> naar du mig elsker saa.</l>
+</sp>
+<sp who="JOHAN"><speaker>Johan.</speaker>
+<l>Mig Timer synes Aar, og &#x00D8;yeblik som Dage,</l>
+<l>Indtil jeg bliver din og du min &#x00C6;gte-Mage.</l>
+</sp>
+<sp who="GRETE"><speaker>Grete.</speaker>
+<l>Ney see den lille Skalk,<note type="commentary"><hi rend="italic">Skalk</hi>: filur, luring, sk&#x00F8;yer.</note> hvor han gi&#x00F8;r h&#x00F8;ye Sving,<note type="commentary"><hi rend="italic">gi&#x00F8;r h&#x00F8;ye Sving</hi>: udtrykker sig beh&#x00E6;ndigt i den h&#x00F8;je stil.</note></l>
+<l>Og det er dig, som ey kan sige smukke Ting.</l>
+</sp>
+<sp who="JOHAN"><speaker>Johan.</speaker>
+<l>N&#x00E6;rv&#x00E6;relsen af den, hvis &#x00D8;yne vi tilbede,</l>
+<l>Det &#x00F8;mme Hierte tidt kan komme til<note type="commentary"><hi rend="italic">komme til</hi>: f&#x00E5; til.</note> at svede;<note type="commentary"><hi rend="italic">at svede</hi>: kropsv&#x00E6;sker var i det hele taget bandlyst i fransk-klassisk tragedie.</note></l>
+<l>Og denne Sveed Madam! Som er snart<note type="commentary"><hi rend="italic">snart</hi>: n&#x00E6;sten.</note> ingen Ting,</l>
+<l>Din Godhed falder paa at kalde h&#x00F8;ye Sving.</l>
+<l part="I">Du alt for gunstig er.<note type="commentary"><hi rend="italic">Du alt for gunstig er</hi>: du viser mig alt for stor gunst, dvs. behandler mig meget p&#x00E6;nere, end jeg har fortjent.</note> &#x2013; &#x2013; &#x2013;</l>
+</sp>
+<sp who="GRETE"><speaker>Grete.</speaker>
+<l part="F">Med Ret maaskee du venter</l>
+<l>Den Roes du n&#x00E6;gter dig, at faae igien med Renter,</l>
+<l><pb n="23"/>Fortryd dog ikke paa,<note type="commentary"><hi rend="italic">Fortryd dog ikke paa</hi>: det skal du dog ikke &#x00E6;rgre dig over.</note> der bliver intet af</l>
+<l>For den gang, men du er endnu ey i din Grav;</l>
+<l>Ney bie<note type="commentary"><hi rend="italic">bie</hi>: vent.</note> kun til vi f&#x00F8;rst er bleven Mand og Kone,</l>
+<l>Saa kan du lide paa,<note type="commentary"><hi rend="italic">lide paa</hi>: stole p&#x00E5;.</note> jeg skal tilgavns forsone<note type="commentary"><hi rend="italic">forsone</hi>: g&#x00F8;re god igen.</note></l>
+<l>Den Forurettelse, jeg nu bli&#x00EA;r skyldig i.</l>
+</sp>
+<sp who="JOHAN"><speaker>Johan.</speaker>
+<l>Jeg var tilfreds, Madam! vort Bryllup var forbi.</l>
+</sp>
+<sp who="GRETE"><speaker>Grete.</speaker>
+<l>I Dag, i denne Dag, jeg dig min Haand vil give.</l>
+</sp>
+<sp who="JOHAN"><speaker>Johan.</speaker>
+<l part="I">Er det alvorlig talt?</l>
+</sp>
+<sp who="GRETE"><speaker>Grete.</speaker>
+<l part="F">Din L&#x00E6;ngsel vist<note type="commentary"><hi rend="italic">vist</hi>: med sikkerhed.</note> skal blive</l>
+<l>Opfyldt f&#x00F8;r Aftenen. I Dag er Grete din,</l>
+<l>Og din for evig Tiid. Jeg strax vil l&#x00F8;be ind</l>
+<l>At kl&#x00E6;de mig,<note type="commentary"><hi rend="italic">kl&#x00E6;de mig</hi>: tage brudet&#x00F8;j p&#x00E5;.</note> gaae hen, og gi&#x00F8;r nu du det samme:</l>
+<l part="I">Du studser &#x2013; bliver bleeg. &#x2013; &#x2013;</l>
+</sp>
+<sp who="JOHAN"><speaker>Johan.</speaker>
+<l part="F">Gid mig alt Ont maae ramme!</l>
+<l>Hvis der er nogen Ting mit Hierte &#x00F8;nsker meer</l>
+<l>End det, at blive din, men jeg mig tvungen seer</l>
+<l><pb n="24"/>En Dags Opsettelse mig ikkun<note type="commentary"><hi rend="italic">ikkun</hi>: kun.</note> at udbede;</l>
+<l part="I">En umild Skiebnes Dom. &#x2013; &#x2013; &#x2013;</l>
+</sp>
+<sp who="GRETE"><speaker>Grete.</speaker>
+<l part="F">Med et din Elskovs Hede</l>
+<l>Nu ki&#x00F8;lnet har? Utroe!<note type="commentary"><hi rend="italic">Utroe!</hi>: trol&#x00F8;se!</note> saa t&#x00E6;nkte jeg dog ret.</l>
+</sp>
+<sp who="JOHAN"><speaker>Johan.</speaker>
+<l>Mit Hierte sidder der, du maa udrive det,</l>
+<l part="I">Hvis det ey br&#x00E6;nder heelt. &#x2013; &#x2013;</l>
+</sp>
+<sp who="GRETE"><speaker>Grete.</speaker>
+<l part="F">Troel&#x00F8;se! jo det br&#x00E6;nder</l>
+<l>Af een uteerlig<note type="commentary"><hi rend="italic">uteerlig</hi>: upassende.</note> Ild, som &#x00C6;rens Love ski&#x00E6;nder,<note type="commentary"><hi rend="italic">ski&#x00E6;nder</hi>: kr&#x00E6;nker, besudler.</note></l>
+<l>Som al sin N&#x00E6;ring har fra Dyds og &#x00C6;rens Tab;<note type="commentary"><hi rend="italic">Dyds og &#x00C6;rens Tab</hi>: tab af dyd og &#x00E6;re.</note></l>
+<l>Og slukkes ud saasnart man n&#x00E6;vner &#x00C6;gteskab.</l>
+<l>Og saadan Kierlighed du t&#x00F8;r din Grete byde?</l>
+<l>Forr&#x00E6;der! jeg forstaaer, hvad det har at betyde,</l>
+<l>Naar f&#x00F8;rst Opsettelser<note type="commentary"><hi rend="italic">Opsettelser</hi>: uds&#x00E6;ttelser.</note> en Elsker foreslaaer.</l>
+</sp>
+<sp who="JOHAN"><speaker>Johan.</speaker>
+<l>Jeg staaer det ikke ud, det over Skr&#x00E6;vet gaaer!<note type="commentary"><hi rend="italic">det over Skr&#x00E6;vet gaaer</hi>: det g&#x00E5;r for vidt, det er for galt.</note></l>
+<l>Jeg aabenbare maa, hvorfore jeg mig krymper,<note type="commentary"><hi rend="italic">jeg mig krymper</hi>: jeg kvier mig.</note></l>
+<l part="I">Du n&#x00F8;der mig, viid da &#x2013; &#x2013; &#x2013;</l>
+</sp>
+<sp who="GRETE"><speaker>Grete.</speaker>
+<l part="M">Hvad? snart!<note type="commentary"><hi rend="italic">snart</hi>: skynd dig!</note></l>
+</sp>
+<sp who="JOHAN"><speaker><pb n="25"/>Johan.</speaker>
+<l part="F">At mine Str&#x00F8;mper<note type="commentary"><hi rend="italic">mine Str&#x00F8;mper</hi>: p&#x00E5; Wessels tid var sko, kn&#x00E6;bukser og hvide silkestr&#x00F8;mper til at skjule det bare stykke fra kn&#x00E6;et ned til foden faste bestanddele af m&#x00E6;nds selskabsdragt. Til daglig gik j&#x00E6;vne folk enten med langskaftede st&#x00F8;vler eller lange bukser og uldsokker.</note> &#x2013;</l>
+</sp>
+<sp who="GRETE"><speaker>Grete.</speaker>
+<l part="I">Og de?</l>
+</sp>
+<sp who="JOHAN"><speaker>Johan.</speaker>
+<l part="M">De er&#x0027; ey til.</l>
+</sp>
+<sp who="GRETE"><speaker>Grete.</speaker>
+<l part="F">Nu fik jeg Hierte-St&#x00F8;d:<note type="commentary"><hi rend="italic">Hierte-St&#x00F8;d</hi>: stor sorg el. skuffelse.</note></l>
+<l>Det alt for gruesomt er, det bliver vist<note type="commentary"><hi rend="italic">vist</hi>: med sikkerhed.</note> min D&#x00F8;d.</l>
+<stage>(efter en kort Besvimelse.)</stage>
+<l>Forvovne! som saa frek t&#x00F8;r uden Str&#x00F8;mper tale</l>
+<l>Om Bryllup, veed du vel, jeg det ey vil forhale;</l>
+<l>Men skal du blive min, jeg sv&#x00E6;rger at du maae</l>
+<l>Som Brudgom da i Dag, om uden Str&#x00F8;mper<note type="commentary"><hi rend="italic">om uden Str&#x00F8;mper</hi>: om det s&#x00E5; skal v&#x00E6;re uden str&#x00F8;mper.</note> staae.</l>
+</sp>
+<figure rend="shortHorizRule"/>
+</div>
+<div type="uchapter" subtype="scene" n="5">
+<head type="sub">Femte Optrin.</head>
+<sp who="JOHAN"><speaker>Johan,</speaker> <stage>allene.</stage>
+<l>Skal jeg som Brudgom staae i Dag foruden Str&#x00F8;mper?</l>
+<l>Hvo giver beste Raad til en uh&#x00E6;ldig<note type="commentary"><hi rend="italic">uh&#x00E6;ldig</hi>: ulykkelig.</note> St&#x00F8;mper?<note type="commentary"><hi rend="italic">St&#x00F8;mper</hi>: stymper, dvs. stakkel.</note></l>
+<l><pb n="26"/>Som &#x00C6;ren byder<note type="commentary"><hi rend="italic">byder</hi>: befaler.</note> et, et andet Elskovs Gud?</l>
+<l>Hvis du i St&#x00F8;vler staaer, saa leer dig Folket ud,</l>
+<l>Det &#x00C6;rens Stemme er. Du miste skal din Brud</l>
+<l>Ved en Opsettelse, saaledes Elskov truer.</l>
+<l>Mit Hierte for et Valg paa begge Sider gruer.</l>
+<lb/>
+<l rend="indent_2"><hi rend="italic">Aria.</hi></l>
+<l rend="indent_2">Som en uheldig<note type="commentary"><hi rend="italic">uheldig</hi>: ulykkelig.</note> Skipper,</l>
+<l rend="indent_2">Der forud seer, han strande maa</l>
+<l rend="indent_2">Paa en af tvende Klipper,</l>
+<l rend="indent_2">Ey nogen vis at strande paa</l>
+<l rend="indent_2">T&#x00F8;r v&#x00E6;lge sig,</l>
+<l rend="indent_2">Saa gaaer det mig.</l>
+</sp>
+<stage>Ende paa andet Optog.</stage>
+<figure rend="shortHorizRule"/>
+</div>
+</div>
+<div type="chapter" subtype="act" n="3">
+<head type="main"><ref type="contents" target="contents_3" xml:id="chapter_3">Tredie Optog.</ref></head>
+<div type="uchapter" subtype="scene" n="1">
+<head type="sub"><pb n="27"/>F&#x00F8;rste Optrin.</head>
+<sp who="MADS"><speaker>Mads</speaker> <stage>allene.</stage>
+<l>Hvor er min Skiebne grum og umanneerlig stiv!<note type="commentary"><hi rend="italic">umanneerlig stiv</hi>: som kr&#x00E6;ver udholdenhed, t&#x00E5;lmodighed i um&#x00E5;delig grad.</note> &#x2013;</l>
+<l>Den, paa min &#x00C6;re, har ey i sit hele Liv</l>
+<l>Det allermindste Gran af Medynk for et Hierte,</l>
+<l>Den nu saa lang en Tiid hiems&#x00F8;gede med Smerte &#x2013;</l>
+<l>Hvor skuffedes mit Haab! hvor varede det kort! &#x2013;</l>
+<l>Jeg t&#x00E6;nkte: Gud skee Lov! da Skredderen gik bort,</l>
+<l>Og da han t&#x00F8;vede<note type="commentary"><hi rend="italic">t&#x00F8;vede</hi>: n&#x00F8;lte.</note> at komme her tilbage,</l>
+<l>Jeg min Forhaabning saae med hver en Dag tiltage;</l>
+<l>I otte Dages Tiid mit Haab steeg otte Trin,</l>
+<l>Jeg Trappen var forbi og netop kommen ind</l>
+<l><pb n="28"/>I Lykkens Forgemak,<note type="commentary"><hi rend="italic">Forgemak</hi>: forv&#x00E6;relse.</note> hvor jeg knap kunde sande</l>
+<l>For Fryd. Jeg faaer en Puf,<note type="commentary"><hi rend="italic">en Puf</hi>: et puf.</note> og Hovedkulds maa dandse</l>
+<l>Af Trappen ned igien &#x2013; jeg ligger endnu der</l>
+<l>Forslagen<note type="commentary"><hi rend="italic">Forslagen</hi>: forsl&#x00E5;et.</note> og forknust.<note type="commentary"><hi rend="italic">forknust</hi>: helt knust, m&#x00F8;rbanket.</note> Det l&#x00E6;re skal enhver,</l>
+<l>At han maa aldrig troe sin Skiebne paa Geberden.<note type="commentary"><hi rend="italic">Geberden</hi>: minespil, fagter.</note></l>
+<l>Min gav mig nys et Vink, det mildeste af Verden,</l>
+<l>Tilb&#x00F8;d mig Gretes Haand &#x2013; Hvor frydedes mit Sind! &#x2013;</l>
+<l>Rivalen kom igien, og alt mit Haab var Vind.<note type="commentary"><hi rend="italic">var Vind</hi>: blev til intet.</note></l>
+<l>Saaledes seer man B&#x00F8;rn et Huus af Kort at bygge,</l>
+<l>Og deres H&#x00E6;nders Verk beskue gandske trygge;</l>
+<l>Men kun et Pust &#x2013; et St&#x00F8;d &#x2013; og Huuset ligger der.</l>
+<l>Men &#x2013; Staae<note type="commentary"><hi rend="italic">Staae</hi> &#x2026; <hi rend="italic">an</hi>: anst&#x00E5;, s&#x00F8;mme sig.</note> mig ogsaa an deslige Lignelser?</l>
+<l>Ney, om mig synes Ret, saa er jeg alt for roelig</l>
+<l>For een, hvis piinte Si&#x00E6;l er alle Plagers Boelig.</l>
+<l>Her frem I Furier!<note type="commentary"><hi rend="italic">Furier</hi>: onde &#x00E5;nder i kvindeskikkelse, der h&#x00F8;rer hjemme i d&#x00F8;dsriget i rom. mytologi.</note> &#x2013; hvor mange er I? &#x2013; Tre?<note type="commentary"><hi rend="italic">Hvor mange er I? &#x2013; Tre</hi>: nemlig Tisifone (blodh&#x00E6;vnersken), Alekto (den hvilel&#x00F8;se) og Megaira (den misundelige).</note></l>
+<l>Det vil ey langt forslaae,<note type="commentary"><hi rend="italic">forslaae</hi>: v&#x00E6;re nok, tilstr&#x00E6;kkelig.</note> kom hele Helvede!</l>
+<l>Med Afgrund, Jordski&#x00E6;lv, Ild, med Lynild og med Torden,</l>
+<l>Vek svage Billeder! med ingen Ting paa Jorden</l>
+<l>Jeg male kan min Qval, og ikke heller vil.</l>
+<l>Der maa, som f&#x00F8;r er sagt, et Helvede dertil. &#x2013;</l>
+<l><pb n="29"/>Jeg seer en Di&#x00E6;vle-H&#x00E6;r opstillet i Gelider,<note type="commentary"><hi rend="italic">Gelider</hi>: geledder.</note></l>
+<l>Som ak Forbittrelse i egne Tunger bider,</l>
+<l>Og spyer Forbandelser mod deres General,</l>
+<l>For han dem endnu ey til Angreb gav Signal. &#x2013;</l>
+<l>Jeg seer en Furie, af hvis fortvivlet &#x00D8;ye</l>
+<l>En Skye af Gnister faer,<note type="commentary"><hi rend="italic">faer</hi>: farer, slynges.</note> sig give st&#x00F8;rre M&#x00F8;ye,</l>
+<l>Sig strekke voldsom ud, men netop ey kan naae</l>
+<l part="I">Mit Hierte. &#x2013; &#x2013; &#x2013;</l>
+</sp>
+<figure rend="shortHorizRule"/>
+</div>
+<div type="uchapter" subtype="scene" n="2">
+<head type="sub">Andet Optrin.</head>
+<stage>Mads, Jesper.</stage>
+<sp who="JESPER"><speaker>Jesper.</speaker>
+<l part="M">Her er jeg.</l>
+</sp>
+<sp who="MADS"><speaker>Mads.</speaker>
+<l part="F">Og jeg er ligesaa.</l>
+<l>Hvor er jeg ikke mat! og hvor har du giort ilde,</l>
+<l>Som min Forfatning veed og kommer dog saa silde.</l>
+<l>Naar man dog har en Ven, som man kan tale med,</l>
+<l>Man Kr&#x00E6;fter samle kan ved et og andet Sted,</l>
+<l><pb n="30"/>Og hvile, medens man den Vens Bet&#x00E6;nkning<note type="commentary"><hi rend="italic">Bet&#x00E6;nkning</hi>: mening.</note> h&#x00F8;rer;</l>
+<l>Men jeg et stivt Qvarteer<note type="commentary"><hi rend="italic">stivt (Qvarteer)</hi>: langtrukkent.</note> her Talen eene f&#x00F8;rer,</l>
+<l>Saa jeg er bleven h&#x00E6;s, som ingen Under<note type="commentary"><hi rend="italic">ingen Under</hi>: intet under.</note> er.</l>
+<l>Fortvivlet, rasende, og dette Svelg saa n&#x00E6;r,</l>
+<l>Som inden stakket Tid<note type="commentary"><hi rend="italic">stakket (Tid)</hi>: kort.</note> mig gandske skal opsluge,</l>
+<l>Jeg en fortvivlet R&#x00F8;st har ogsaa maattet bruge,</l>
+<l>Og dette veed du selv mangfoldig<note type="commentary"><hi rend="italic">mangfoldig</hi>: i h&#x00F8;j grad.</note> lider paa.<note type="commentary"><hi rend="italic">lider paa</hi>: (no.) tager p&#x00E5; kr&#x00E6;fterne.</note></l>
+</sp>
+<sp who="JESPER"><speaker>Jesper.</speaker>
+<l>En Udeblivelse<note type="commentary"><hi rend="italic">Udeblivelse</hi>: ikke at v&#x00E6;re til stede, v&#x00E6;re borte.</note> du mig tilgive maa,</l>
+<l>Som Omsorg for dit Vel har eene foraarsaget.</l>
+<l>I min Frav&#x00E6;relse jeg h&#x00E6;ldig har opdaget,</l>
+<l>At der maaskee endnu er Redning for min Ven.</l>
+</sp>
+<sp who="MADS"><speaker>Mads.</speaker>
+<l part="I">Hvad Redning? Jesper tael!</l>
+</sp>
+<sp who="JESPER"><speaker>Jesper.</speaker>
+<l part="F">Viid da, at Skredderen,</l>
+</sp>
+<sp who="MADS"><speaker>Mads.</speaker>
+<l part="I">Jeg veed alt<note type="commentary"><hi rend="italic">alt</hi>: allerede.</note> nok om ham,</l>
+</sp>
+<sp who="JESPER"><speaker>Jesper.</speaker>
+<l part="F">Ney du maa vide meere,</l>
+<l>I Dag, i denne Dag han Gretes Mand skal v&#x00E6;re;</l>
+<l part="I">Men han har &#x2013;</l>
+</sp>
+<sp who="MADS"><speaker><pb n="31"/>Mads.</speaker>
+<l part="F">Holdt min Haand! jeg ellers myrder dig,</l>
+<l>Er jeg ey martret nok om du ey spotter mig?</l>
+<stage>(Han tager forbittret en Kniv op af Lommen.)</stage>
+</sp>
+<sp who="JESPER"><speaker>Jesper.</speaker>
+<l part="I">Han ingen Str&#x00F8;mper har.</l>
+</sp>
+<sp who="MADS"><speaker>Mads.</speaker>
+<l part="F">L&#x00E6;s<note type="commentary"><hi rend="italic">L&#x00E6;s</hi>: fremsig en b&#x00F8;n, bed fadervor.</note> f&#x00F8;r du d&#x00F8;er Misd&#x00E6;der,<note type="commentary"><hi rend="italic">Misd&#x00E6;der</hi>: forbryder.</note></l>
+</sp>
+<sp who="JESPER"><speaker>Jesper.</speaker>
+<l part="I">Han ingen Str&#x00F8;mper har.</l>
+</sp>
+<sp who="MADS"><speaker>Mads.</speaker>
+<l part="F">Jeg siger l&#x00E6;s Forr&#x00E6;der,</l>
+</sp>
+<sp who="JESPER"><speaker>Jesper.</speaker>
+<l part="I">Han ingen Str&#x00F8;mper har.</l>
+</sp>
+<sp who="MADS"><speaker>Mads.</speaker>
+<l part="F">Endnu har du ey l&#x00E6;st.</l>
+</sp>
+<sp who="JESPER"><speaker>Jesper.</speaker>
+<l part="I">Han ingen Str&#x00F8;mper har.</l>
+</sp>
+<sp who="MADS"><speaker>Mads.</speaker>
+<l part="F">Saa d&#x00F8;e da som et B&#x00E6;st.<note type="commentary"><hi rend="italic">B&#x00E6;st</hi>: dyr.</note></l>
+</sp>
+<sp who="JESPER"><speaker><pb n="32"/>Jesper.</speaker>
+<l>Han ingen Str&#x00F8;mper har. For Pokker kan du h&#x00F8;re?</l>
+<l>Og denne Mangel maa du dig til Nytte f&#x00F8;re;<note type="commentary"><hi rend="italic">dig til Nytte f&#x00F8;re</hi>: udnytte til din fordel.</note></l>
+<l>Du Grete veed i Dag vil giftes absolut,</l>
+<l>Jeg veed hun kommer hid, siig da: Min s&#x00F8;de Snut,</l>
+<l>Hvis Snut er for gemeent,<note type="commentary"><hi rend="italic">gemeent</hi>: simpelt.</note> kald hende noget andet,</l>
+<l>Nok, siig: Du Str&#x00F8;mper har, og see, du kan faae blandet</l>
+<l>Din Tale hist og her med Haanheds<note type="commentary"><hi rend="italic">Haanhed(s)</hi>: ringeagt, foragt.</note> Tr&#x00E6;k mod ham,</l>
+<l>Som ikkun St&#x00F8;vler har. Tael om den store Skam,</l>
+<l>En st&#x00F8;vlet Brudgom vil blant Folk paaf&#x00F8;re hende,</l>
+<l>Gi&#x00F8;r dette, og jeg troer at Bladet sig skal vende.<note type="commentary"><hi rend="italic">Bladet sig skal vende</hi>: forholdene skal &#x00E6;ndre sig.</note></l>
+<l part="I">Du svarer intet Mads?</l>
+</sp>
+<sp who="MADS"><speaker>Mads.</speaker>
+<l part="F">Jeg taus beundrer dig,</l>
+<l>Som glemmer saa dig selv af Kierlighed til mig,</l>
+<l>Du n&#x00E6;vner ey engang; det Mord, jeg nylig vilde &#x2013;</l>
+<l part="I">Kan du tilgive det?</l>
+</sp>
+<sp who="JESPER"><speaker>Jesper.</speaker>
+<l part="F">Det lader meget ilde<note type="commentary"><hi rend="italic">Det lader &#x2026; ilde</hi>: det er upassende.</note></l>
+<l>At huske smaa Ting nu, da jeg dig giver Haab</l>
+<l><pb n="33"/>At blive Gretes Mand; med Fryd og Elskovs Raab</l>
+<l>Du burde svare mig; er Kulde her anst&#x00E6;ndig?</l>
+<l>Du er indvendig heed, viis dig og<note type="commentary"><hi rend="italic">og</hi>: ogs&#x00E5;.</note> heed udvendig.</l>
+</sp>
+<sp who="MADS"><speaker>Mads.</speaker>
+<l>Om i en Arie jeg bragte Heeden frem?</l>
+<l>Den Maade synes mig var ikke ubeqvem.<note type="commentary"><hi rend="italic">ubeqvem</hi>: upassende.</note></l>
+<stage>(Jesper gaaer.)</stage>
+</sp>
+<figure rend="shortHorizRule"/>
+</div>
+<div type="uchapter" subtype="scene" n="3">
+<head type="sub">Tredie Optrin.</head>
+<sp who="MADS"><speaker>Mads</speaker> <stage>allene.</stage>
+<lb/>
+<l rend="indent_2"><hi rend="italic">Aria.</hi></l>
+<l rend="indent_2">Paa mit Hiertes Skorsteen<note type="commentary"><hi rend="italic">Skorsteen</hi>: ildsted.</note> br&#x00E6;nder</l>
+<l rend="indent_2">En Harpixet<note type="footnote"><hi rend="italic">Rettet fra</hi> Harpixes <hi rend="italic">i tr&#x00E5;d med trykkfeilslisten bakerst i f&#x00F8;rstetrykket</hi>.</note><note type="commentary"><hi rend="italic">Harpixet</hi>: besmurt med harpiks, dvs. et brunligt stof, der udskilles fra fx fyrretr&#x00E6;er og er uopl&#x00F8;seligt i vand; indholdet af olie g&#x00F8;r harpiks st&#x00E6;rkt br&#x00E6;ndbar.</note> Elskovs Brand,</l>
+<l rend="indent_2">Som er t&#x00E6;ndt i begge Ender,</l>
+<l rend="indent_2">Elskovs Gud<note type="commentary"><hi rend="italic">Elskovs Gud</hi>: Cupido el. Amor, romernes k&#x00E6;rlighedsgud.</note> den t&#x00E6;ndte an.</l>
+<l rend="indent_2">Hver som R&#x00F8;gen seer opstige,</l>
+<l rend="indent_2">(R&#x00F8;gen er min Aria,)</l>
+<l rend="indent_2">T&#x00E6;nke maae om ikke sige</l>
+<l rend="indent_2">Der er heedt hvor den kom fra.<note type="commentary"><hi rend="italic">hvor den kom fra</hi>: anden halvdel af arien er opbygget over talem&#x00E5;den: der g&#x00E5;r ikke r&#x00F8;g af en brand uden at der er ild i den; ingen r&#x00F8;g uden ild.</note></l>
+<lb/>
+<l><pb n="34"/>Der kommer den hvis Ord hos Grete meget gielde,<note type="commentary"><hi rend="italic">meget gielde</hi>: har stor indflydelse.</note></l>
+<l>Hvis Raad hos hende mig kan reise eller f&#x00E6;lde.</l>
+<l>Jeg Mette bede vil med Forb&#x00F8;n<note type="commentary"><hi rend="italic">Forb&#x00F8;n</hi>: b&#x00F8;n til gunst for en anden.</note> tiene mig.</l>
+</sp>
+<figure rend="shortHorizRule"/>
+</div>
+<div type="uchapter" subtype="scene" n="4">
+<head type="sub">Fierde Optrin.</head>
+<stage>Mads, Mette.<lb/>(De l&#x00F8;be hinanden im&#x00F8;de.)</stage>
+<sp who="METTE"><speaker>Mette.</speaker>
+<l part="I">Seigneur!<note type="commentary"><hi rend="italic">Seigneur</hi>: (fr.) herre; alm. tiltaleform i fransk-klassisk tragedie.</note></l>
+</sp>
+<sp who="MADS"><speaker>Mads.</speaker>
+<l part="M">Madam!<note type="commentary"><hi rend="italic">Madam</hi>: madame, frue; konsekvent brugt tiltaleform til kvinder i fransk-klassisk tragedie.</note></l>
+</sp>
+<sp who="METTE"><speaker>Mette.</speaker>
+<l part="F">Jeg har en B&#x00F8;n at gi&#x00F8;re dig,</l>
+<l>En saadan B&#x00F8;n Seigneur, som jeg ey vilde vove,</l>
+<l>Hos een som styredes af Egennyttens Love,</l>
+<l>Som Had og Lyst til H&#x00E6;vn, har giort til Dyden feyg,<note type="commentary"><hi rend="italic">feyg</hi>: uden handlekraft el. vilje.</note></l>
+<l>En saadan nedrig<note type="commentary"><hi rend="italic">nedrig</hi>: u&#x00E6;del.</note> Siel b&#x00F8;nh&#x00F8;rte mig vist<note type="commentary"><hi rend="italic">vist</hi>: med sikkerhed.</note> ey:</l>
+<l>Jeg for at bede ham gik heller ey af Pladsen,<note type="commentary"><hi rend="italic">gik &#x2026; ey af Pladsen</hi>: r&#x00F8;rte mig ikke af stedet.</note></l>
+<l><pb n="35"/>Ney, Hierter kun, som det der pikker<note type="commentary"><hi rend="italic">pikker</hi>: banker.</note> i Mads Madsen</l>
+<l>Formaae at vise mig en saa udmerket Gunst,</l>
+<l>Hvorom en mindre Si&#x00E6;l anmodedes omsunst.<note type="commentary"><hi rend="italic">omsunst</hi>: forg&#x00E6;ves.</note></l>
+<l>Jeg beder for Johan; fra Kn&#x00E6;et ned til Foden,<note type="footnote"><hi rend="italic">Rettet fra</hi> Johan fra Kn&#x00E6;et indtil Foden, <hi rend="italic">i tr&#x00E5;d med trykkfeilslisten bakerst i f&#x00F8;rstetrykket</hi>.</note></l>
+<l>Hans Ski&#x00E6;bne negter ham i Dag at lyde Moden,</l>
+<l>D&#x00F8;m selv hvor Himmel-h&#x00F8;yt Seigneur jeg agter dig</l>
+<l>Naar jeg dig bede t&#x00F8;r at gi&#x00F8;re lykkelig;</l>
+<l part="I">At laane Str&#x00F8;mper til. &#x2013; &#x2013;</l>
+</sp>
+<sp who="MADS"><speaker>Mads.</speaker>
+<l part="F">Jeg knap af Sands og M&#x00E6;le</l>
+<l>Saa meget har igien, at jeg dig kan fort&#x00E6;lle,</l>
+<l>At den som saadan Gunst beviste sin Rival,</l>
+<l>Ey &#x00E6;delmodig var, men Daare-Kiste Gal.<note type="commentary"><hi rend="italic">Daare-Kiste Gal</hi>: splitterravende tosset (d&#x00E5;rekiste var betegnelse for forvaringssted for sindssyge).</note></l>
+<l>Jeg havde da du nys<note type="commentary"><hi rend="italic">nys</hi>: for ganske kort tid siden.</note> mig Ordet tog af Munden</l>
+<l>En anden B&#x00F8;n til dig, hvortil Fornuft var Grunden,</l>
+<l>Og Billighed,<note type="commentary"><hi rend="italic">Billighed</hi>: rimelighed.</note> og Dyd; Jeg vilde bedet dig</l>
+<l>Ved Forb&#x00F8;n og ved Raad hos Grete tiene mig.</l>
+<l>Johan er Str&#x00F8;mpel&#x00F8;s og Gretes Haand uv&#x00E6;rdig,</l>
+<l>Hun giftes vil i Dag og han er ikke f&#x00E6;rdig;<note type="commentary"><hi rend="italic">f&#x00E6;rdig</hi>: klar, rede.</note></l>
+<l>Hvor let en Sag for dig ved denne Leylighed,</l>
+<l><pb n="36"/>At skaffe mig igien den Str&#x00F8;mpel&#x00F8;ses Sted.<note type="commentary"><hi rend="italic">Sted</hi>: stilling, situation (som acceptabel bejler).</note></l>
+<l part="I">Hvor billigt<note type="commentary"><hi rend="italic">billigt</hi>: rimeligt.</note> og hvor ret! &#x2013; &#x2013;</l>
+</sp>
+<sp who="METTE"><speaker>Mette.</speaker>
+<l part="F">Jeg ret og billigt kalder</l>
+<l>I Verden ingen Ting, som Grete ey bifalder,</l>
+<l>Det er min Lidenskab, jeg har ey anden Drift,</l>
+<l>Og Grete ynsker ey med dig at blive gift:</l>
+<l>Der er mit Svar. Farvel!</l> <stage>(siger de begge paa eengang.)</stage>
+<stage>(Mads gaaer.)</stage>
+</sp>
+<figure rend="shortHorizRule"/>
+</div>
+<div type="uchapter" subtype="scene" n="5">
+<head type="sub">Femte Optrin.</head>
+<sp who="METTE"><speaker>Mette</speaker> <stage>allene.</stage>
+<l part="F">Vi begge L&#x00E6;ngselsfulde</l>
+<l>Nys mod hverandre gik, som om den eene skulde</l>
+<l>Den andens Lykke giort; men neppe faaer vi Tid</l>
+<l>At aabne Munden ret, f&#x00F8;r vi en heftig Strid</l>
+<l>Blant vore &#x00D8;nsker see. Naar paa den jevne Skive<note type="commentary"><hi rend="italic">Skive</hi>: plade i et billardbord.</note></l>
+<l>Man tvende Kugler Fart vil mod hinanden give,</l>
+<l>De skynde sig afsted, med samme Hurtighed,</l>
+<l>Som &#x00F8;mme<note type="commentary"><hi rend="italic">&#x00F8;mme</hi>: f&#x00F8;lsomme, k&#x00E6;rlige.</note> Elskere til deres Samlings Sted.</l>
+<l><pb n="37"/>En tosset Jyde-Dreng<note type="commentary"><hi rend="italic">Jyde-Dreng</hi>: jyder bruges af og til af Wessel som indbegrebet af den enfoldige dansker.</note> maaskee vel turde meene,</l>
+<l>De l&#x00E6;nges efter sig for evig at foreene;</l>
+<l>Ney ki&#x00E6;re Jyde! ney! De f&#x00F8;r sig r&#x00F8;re<note type="commentary"><hi rend="italic">sig r&#x00F8;re</hi>: ber&#x00F8;rer hinanden.</note> ey</l>
+<l>F&#x00F8;r med en lige Fart, hver Kugle gaaer sin Vey.</l>
+<l>At jeg med Kuglerne her meener Mads og Mette</l>
+<l>Derom det tosset var mig selv at underrette,</l>
+<l>Thi jeg jo eene er og ingen har mig h&#x00F8;rt.</l>
+</sp>
+<figure rend="shortHorizRule"/>
+</div>
+<div type="uchapter" subtype="scene" n="6">
+<head type="sub">Siette Optrin.</head>
+<stage>Grete, Mette,</stage>
+<sp who="METTE"><speaker>Mette.</speaker>
+<l>Mit &#x00C6;rende kun slet Veninde er udf&#x00F8;rt;</l>
+<l part="I">Mads ubev&#x00E6;gelig &#x2013; &#x2013; &#x2013;</l>
+</sp>
+<sp who="GRETE"><speaker>Grete.</speaker>
+<l part="F">Det viser mig tilfulde,</l>
+<l>At i en andens Sag man taler kun med Kulde.</l>
+<l>O at min &#x00C6;re dog mig ey i Veyen stod,</l>
+<l>Jeg skulde kaste mig for den Gruesommes Fod;</l>
+<l>Jeg skulde vise dig hvad B&#x00F8;nner kan udrette</l>
+<l>Naar man er heed som jeg, og ikke kold som Mette.</l>
+</sp>
+<sp who="METTE"><speaker><pb n="38"/>Mette.</speaker>
+<l>Er slig Bebreydelse da L&#x00F8;n for al min Fliid?</l>
+<l>Men jeg dig ynker<note type="commentary"><hi rend="italic">dig ynker</hi>: har medlidenhed med dig.</note> kun. Dit Hierte er i Striid,</l>
+<l>Og Piinsler ofte kan den st&#x00F8;rste Si&#x00E6;l forlede,</l>
+<l>Til paa sin beste Ven at h&#x00E6;vne Ski&#x00E6;bnens Vrede.</l>
+<lb/>
+<l rend="indent_2"><hi rend="italic">Aria.</hi></l>
+<l rend="indent_2">Saa &#x00E6;ltes Blye med vrede T&#x00E6;nder,</l>
+<l rend="indent_2">I Heltes Mund; hvis blotte<note type="commentary"><hi rend="italic">blotte</hi>: blottede, n&#x00F8;gne.</note> Rygge,</l>
+<l rend="indent_2">Ey for at svales, s&#x00F8;ge Skygge,</l>
+<l rend="indent_2">I en Alle&#x00E8; gevorbne<note type="commentary"><hi rend="italic">gevorbne</hi>: hvervede.</note> Venner,</l>
+<l rend="indent_2">Som bleve B&#x00F8;ddeler af Tvang,</l>
+<l rend="indent_2">Og under spiilte Huders<note type="commentary"><hi rend="italic">spiilte Huder(s)</hi>: udspilede huder, dvs. trommeskind.</note> Klang,</l>
+<l rend="indent_2">Dem vifte Ild med smidig Green</l>
+<l rend="indent_2">Paa nys afkl&#x00E6;dte Rygge-Been.</l>
+<l rend="indent_2">De pr&#x00E6;ge<note type="commentary"><hi rend="italic">De (pr&#x00E6;ge)</hi>: dvs. t&#x00E6;nderne.</note> deres bittre Qval,</l>
+<l rend="indent_2">I det uskyldige Metal,</l>
+<l rend="indent_2">Og glemme al den Tieneste,</l>
+<l rend="indent_2">Det dem i Krigen lader see,</l>
+<l rend="indent_2">Som dog er overmaade vigtig,</l>
+<l rend="indent_2">At sige: Naar de sigte rigtig.<note type="commentary"><hi rend="italic">Saa &#x00E6;ltes Blye &#x2026; sigte rigtig</hi>: arien er en allegori over den &#x00E6;ldre milit&#x00E6;re afstraffelsesform at l&#x00F8;be spidsrod. Delinkventen blev kommanderet til med n&#x00F8;gen ryg at marchere gennem to r&#x00E6;kker af soldaterkammerater, der slog l&#x00F8;s p&#x00E5; ham med k&#x00E6;ppe, mens en trommeslager gik foran for at angive tempoet. Den straffede soldat fik lov til at tage en gev&#x00E6;rkugle i munden for at bide smerten i sig uden at beskadige tungen.</note></l>
+</sp>
+<sp who="GRETE"><speaker><pb n="39"/>Grete.</speaker>
+<l>Hvor er jeg lykkelig at du holdt op engang.</l>
+<l>Jeg tager samme Deel udi din smukke Sang</l>
+<l>Som din besiungne Helt i Pibers<note type="commentary"><hi rend="italic">Piber(s)</hi>: lille milit&#x00E6;r fl&#x00F8;jte med skinger lyd.</note> Lyd og Trommen.</l>
+<l part="I">Var her vel Sted og Tiid &#x2013; &#x2013; &#x2013;</l>
+</sp>
+<sp who="METTE"><speaker>Mette.</speaker>
+<l part="F">Min Tiid var f&#x00F8;r ey kommen,</l>
+<l>Jeg vidste intet Raad og meget bange var,</l>
+<l>For at bedr&#x00F8;ve dig med et mistr&#x00F8;stig<note type="commentary"><hi rend="italic">mistr&#x00F8;stigt</hi>: nedsl&#x00E5;ende.</note> Svar.</l>
+<l>Jeg ved min Arie kun s&#x00F8;gte Tiid at vinde,</l>
+<l>Og under Sangen var saa lykkelig at finde</l>
+<l>Et Middel, som jeg troer du vist skal frelses ved,</l>
+<l>Du det ey vide b&#x00F8;r; thi saadan Kundskab streed</l>
+<l part="I">Mod &#x00C6;ren, mod din Stand, og mod &#x2013; &#x2013;</l>
+</sp>
+<sp who="GRETE"><speaker>Grete.</speaker>
+<l part="F">Holt inde<note type="commentary"><hi rend="italic">Holt inde</hi>: stop, ti stille.</note> Mette!</l>
+<l>Jeg frygter meget for at jeg det skulde giette,</l>
+<l>Du veed jeg er ey dum, du veed jeg dydig er,</l>
+<l>Du veed hvor h&#x00F8;yligen<note type="commentary"><hi rend="italic">hvor h&#x00F8;yligen</hi>: i hvor h&#x00F8;j grad</note> mig Skredderen er kier.</l>
+<l>Jeg Dyd og &#x00C6;re dog for Elskov Fortrin giver;</l>
+<l>Men hvad jeg ikke veed mig ey tilregnet bliver,<note type="commentary"><hi rend="italic">mig ey tilregnet bliver</hi>: kan jeg ikke tage ansvar for.</note></l>
+<l>Saa meget troer jeg dog at du mig sige b&#x00F8;r:</l>
+<l><pb n="40"/>Om du i dette Raad Johan deelagtiggi&#x00F8;r:</l>
+<l>Om Skredderen derved kan blive mig uv&#x00E6;rdig;</l>
+<l>Men frem for alle Ting, om han snart bliver f&#x00E6;rdig.<note type="commentary"><hi rend="italic">f&#x00E6;rdig</hi>: klar (til at blive gift).</note></l>
+</sp>
+<sp who="METTE"><speaker>Mette.</speaker>
+<l>Af disse Sp&#x00F8;rgsmaal nu kun et besvares kan,</l>
+<l>Johan i denne Dag vist blive skal din Mand.</l>
+<stage>(Grete gaaer).</stage>
+</sp>
+<figure rend="shortHorizRule"/>
+</div>
+<div type="uchapter" subtype="scene" n="7">
+<head type="sub">Syvende Optrin.</head>
+<sp who="METTE"><speaker>Mette</speaker> <stage>allene.</stage>
+<l>I Dag skal Elskovs Gud udmerke sig ved Seyer,</l>
+<l>En h&#x00F8;y, en &#x00E6;del Si&#x00E6;l skal fra sin rette Eyer,</l>
+<l>Af Kierlighed forf&#x00F8;rt to Str&#x00F8;mper tage bort,</l>
+<l>Dyd kom vel tidt tilforn,<note type="commentary"><hi rend="italic">tilforn</hi>: tidligere.</note> men aldrig saa tilkort,</l>
+<l>Naar den i Heltes Bryst mod Elskov turde<note type="commentary"><hi rend="italic">turde</hi>: m&#x00E5;tte, var n&#x00F8;dt til.</note> stride</l>
+<l>Man Elskovs Heftighed, af Dydens Tab maa vide.<note type="commentary"><hi rend="italic">vide</hi>: kende, dvs. man kan kende k&#x00E6;rlighedens styrke p&#x00E5; dens evne til at overvinde moralen.</note></l>
+</sp>
+<stage>Ende paa tredie Optog.</stage>
+<figure rend="shortHorizRule"/>
+</div>
+</div>
+<div type="chapter" subtype="act" n="4">
+<head type="main"><ref type="contents" target="contents_4" xml:id="chapter_4">Fierde Optog.</ref></head>
+<div type="uchapter" subtype="scene" n="1">
+<head type="sub"><pb n="41"/>F&#x00F8;rste Optrin.</head>
+<stage>Johan, Mette.</stage>
+<sp who="JOHAN"><speaker>Johan.</speaker>
+<l>Besti&#x00E6;le min Rival? det er for farligt Mette.</l>
+</sp>
+<sp who="METTE"><speaker>Mette.</speaker>
+<l>Jeg veed det eene Raad, og intet uden dette,</l>
+<l>Som til dit Beste mig Cupido<note type="commentary"><hi rend="italic">Cupido</hi>: Amor, romersk elskovsgud med vinger, bue og pil.</note> selv indgav,</l>
+<l>Skielv du! i fald du ey benytter dig deraf.</l>
+<l>En Si&#x00E6;l, som Gretes Si&#x00E6;l for &#x00C6;ren meget vover,</l>
+<l>Og ski&#x00F8;nt hun sig med Mads kun liden Lykke lover,</l>
+<l>Saa troer jeg dog, hun f&#x00F8;r sin Haand vil give ham,</l>
+<l>End een, hvis st&#x00F8;vlet Fod<note type="commentary"><hi rend="italic">st&#x00F8;vlet Fod</hi>: p&#x00E5; Wessels tid var sko, kn&#x00E6;bukser og hvide silkestr&#x00F8;mper til at skjule det bare stykke fra kn&#x00E6;et ned til foden faste bestanddele af m&#x00E6;nds selskabsdragt. Til daglig gik j&#x00E6;vne folk enten med langskaftede st&#x00F8;vler eller lange bukser og uldsokker.</note> skal gj&#x00F8;re hende Skam.</l>
+</sp>
+<sp who="JOHAN"><speaker>Johan.</speaker>
+<l>Det alt<note type="commentary"><hi rend="italic">alt</hi>: allerede.</note> besluttet er, jeg dine Raad vil f&#x00F8;lge.</l>
+</sp>
+<sp who="METTE"><speaker><pb n="42"/>Mette.</speaker>
+<l>Du gaaer saa snart Johan? jeg kan dig ikke d&#x00F8;lge,<note type="commentary"><hi rend="italic">d&#x00F8;lge</hi>: skjule.</note></l>
+<l>Jeg havde ikke t&#x00E6;nkt, det kostede saa lidt</l>
+<l>For en oph&#x00F8;yet Si&#x00E6;l at gi&#x00F8;re saadant Skridt.</l>
+<l>Min Helt! for alle Ting<note type="commentary"><hi rend="italic">for alle Ting</hi>: frem for alt.</note> mod Dyd lad Elskov stride!</l>
+<l>Viis ikke Lasten frem paa dens luslidte<note type="commentary"><hi rend="italic">luslidte</hi>: luvslidte.</note> Side.</l>
+<l>De Store synde vel i Grunden som de Smaa,</l>
+<l>Men Maaden, som enhver sin Synd ud&#x00F8;ver paa,</l>
+<l>Den eene gi&#x00F8;r til Helt, den anden til en Staader;<note type="commentary"><hi rend="italic">Staader</hi>: stodder, ussel stakkel.</note></l>
+<l>Du ey Forskiellen veed, Seigneur! paa disse Maader,</l>
+<l>Saa smuk Opdragelse, du end for Resten har,</l>
+<l>Du har i denne Sag opf&#x00F8;rt dig som en Nar.</l>
+<l>B&#x00F8;r du ey sige f&#x00F8;rst, hvordan dit Hierte splittes?</l>
+<l>Snart sv&#x00E6;rge: At det ey ved Laster skal besmittes?</l>
+<l>Snart raabe! Elskovs Gud din Gud allene er?</l>
+<l>Og efter elleve til tolv Omvexlinger,</l>
+<l>Hvorved nu Kierlighed, nu Dyden Seyer vinder,</l>
+<l>Mag saa,<note type="commentary"><hi rend="italic">Mag saa</hi>: indret det s&#x00E5;ledes.</note> at Elskov dig den tolvte gang forblinder,</l>
+<l>Vr&#x00E6;ng Munden, vrie<note type="commentary"><hi rend="italic">vrie</hi>: vrid.</note> din Krop, b&#x00E6;r dig<note type="commentary"><hi rend="italic">b&#x00E6;r dig</hi>: b&#x00E6;r dig ad, opf&#x00F8;r dig.</note> som du var gal,</l>
+<l>Og naar du det har giort, besti&#x00E6;l saa din Rival.</l>
+</sp>
+<sp who="JOHAN"><speaker><pb n="43"/>Johan.</speaker>
+<l>Tolv gange Mette? ney, det vil for l&#x00E6;nge vare.</l>
+<l part="I">Det er den h&#x00F8;ye Tiid.<note type="commentary"><hi rend="italic">Det er den h&#x00F8;ye Tiid</hi>: tiden er knap.</note></l>
+</sp>
+<sp who="METTE"><speaker>Mette.</speaker>
+<l part="F">For Tiden da at spare,</l>
+<l>Gi&#x00F8;r her Pr&#x00E6;ludium,<note type="commentary"><hi rend="italic">Pr&#x00E6;ludium</hi>: indledning, de indledende man&#x00F8;vrer.</note> og gaae saa strax derhen,</l>
+<l>Hvor Madses Kiste staaer, saa vil ki&#x00E6;rligen</l>
+<l>Troe, at du underveys har giort det af med Resten;</l>
+<l>Det er jo vores Pligt, at t&#x00E6;nke vel om N&#x00E6;sten.</l>
+</sp>
+<sp who="JOHAN"><speaker>Johan</speaker> <stage>(Setter sig i en &#x00E6;gte tragisk Postyr.)<note type="commentary"><hi rend="italic">Postyr</hi>: positur.</note></stage>
+<l>O! hvilken Qval og Striid &#x2013; &#x2013; Mit Hierte splittes ad &#x2013;</l>
+<l>Dyd! Elskov! kan I to ey s&#x00F8;be af et Fad? &#x2013;</l>
+<l>En af jer vinde maa, den anden maa ford&#x00F8;mmes,</l>
+<l>To Store i en S&#x00E6;k kan ingenlunde r&#x00F8;mmes,<note type="commentary"><hi rend="italic">r&#x00F8;mmes</hi>: rummes.</note></l>
+<l>Men S&#x00E6;kken som I to kan ikke r&#x00F8;mmes i,</l>
+<l>Tilgavns<note type="commentary"><hi rend="italic">Tilgavns</hi>: fuldt ud.</note> undgielde maae for eders Klammerie,</l>
+<l>Mit Hierte revner snart, &#x2013; jeg elsker eder begge &#x2013;</l>
+<l>Du, Elskov er mit Liv &#x2013; Du Dyd min Ki&#x00E6;le-Degge! &#x2013;</l>
+<l><pb n="44"/>Jeg pleyer ellers gaae derfra, hvor Slagsmaal er,</l>
+<l>Men jeg de Stridende med mig i Hiertet b&#x00E6;r. &#x2013;</l>
+<l>Omsonst af flye, omsonst at vilde dem forlige, &#x2013;</l>
+<l>Her er ey andet for, jeg Dommen maa afsige: &#x2013;</l>
+<l>Min Ki&#x00E6;le-Degge Dyd, ja Seyeren er din,</l>
+<l>Du eene herske b&#x00F8;r i stolte Heltes Sind.</l>
+<l>Viig lille snottede!<note type="commentary"><hi rend="italic">lille snottede</hi>: Amor eller Cupido blev typisk fremstillet som en lille dreng med vinger, bue og pil; her fremstilles han respektl&#x00F8;st med l&#x00F8;bende n&#x00E6;se, p&#x00E5; norsk: sn&#x00F8;rret.</note> som skyder Folk med Pile,</l>
+<l>Som til min Uh&#x00E6;ld har min Grete l&#x00E6;rt at smile,</l>
+<l>Min Grete? Ney &#x2013; hvis da? maaskee Mads Madsens? ja! &#x2013;</l>
+<l>Jeg skielver for min Dyd, og skynder mig herfra.</l>
+<stage>(Til Mette)</stage>
+<l part="I">Kan jeg nu gaae?</l>
+</sp>
+<sp who="METTE"><speaker>Mette.</speaker>
+<l part="M">Ja vist.</l>
+</sp>
+<figure rend="shortHorizRule"/>
+</div>
+<div type="uchapter" subtype="scene" n="2">
+<head type="sub">Andet Optrin.</head>
+<sp who="METTE"><speaker>Mette</speaker> <stage>allene.</stage>
+<l part="F">Naar Dyd og Elskov stride,</l>
+<l>Ski&#x00F8;nt man som ofteste kan see, til hvilken Side</l>
+<l><pb n="45"/>Sig Lykken helde vil, saa f&#x00F8;ler man endda</l>
+<l>En tvivlsom<note type="commentary"><hi rend="italic">tvivlsom</hi>: tvivlblandet.</note> Frygt, jeg veed ey, hvor den kommer fra.</l>
+<lb/>
+<l rend="indent_2"><hi rend="italic">Aria.</hi></l>
+<l rend="indent_2">Saaledes kan en Skyldner b&#x00E6;ve,</l>
+<l rend="indent_2">Naar paa hans D&#x00F8;r med ivrig N&#x00E6;ve,</l>
+<l rend="indent_2">Der pikkes<note type="commentary"><hi rend="italic">pikkes</hi>: bankes.</note> af en Creditor; &#x2013;</l>
+<l rend="indent_2">Ski&#x00F8;nt Slaaen lukker inden for,</l>
+<l rend="indent_2">Ski&#x00F8;nt Pokker<note type="commentary"><hi rend="italic">Pokker</hi>: fanden.</note> sielden pleyer f&#x00F8;re</l>
+<l rend="indent_2">Folk ind igjennem lukte D&#x00F8;re,</l>
+<l rend="indent_2">Saa skielver Skyldneren endda;</l>
+<l rend="indent_2">Gud veed, hvor saadant kommer fra.</l>
+</sp>
+<figure rend="shortHorizRule"/>
+</div>
+<div type="uchapter" subtype="scene" n="3">
+<head type="sub">Tredie Optrin.</head>
+<stage>Mette, Johan (med Str&#x00F8;mper i Haanden.)</stage>
+<sp who="JOHAN"><speaker>Johan.</speaker>
+<l>Nu er der intet meer, som kan min Lykke hindre.</l>
+</sp>
+<sp who="METTE"><speaker><pb n="46"/>Mette.</speaker>
+<l>Du har vel ey fors&#x00F8;mt hvad jeg dig bad erindre,</l>
+<l part="I">Formaliteterne. &#x2013; &#x2013; &#x2013;</l>
+</sp>
+<sp who="JOHAN"><speaker>Johan.</speaker>
+<l part="F">Jeg alting haver giort,</l>
+<l>Som du mig foreskrev; thi det ey siger stort,</l>
+<l>At jeg kun haver brugt en middelmaadig<note type="commentary"><hi rend="italic">middelmaadig</hi>: halvh&#x00F8;j.</note> Stemme;</l>
+<l>Jeg var saa bange for, man skulde mig fornemme,<note type="commentary"><hi rend="italic">mig fornemme</hi>: fornemme min tilstedev&#x00E6;relse.</note></l>
+<l part="I">I fald, som du mig b&#x00F8;d, jeg havde skreget &#x2013; &#x2013;</l>
+</sp>
+<sp who="METTE"><speaker>Mette.</speaker>
+<l part="F">Ney!</l>
+<l part="I">Det intet skade kan. &#x2013; &#x2013; &#x2013;</l>
+</sp>
+<sp who="JOHAN"><speaker>Johan.</speaker>
+<l part="F">Saa er der heller ey</l>
+<l>Det ringeste fors&#x00F8;mt, thi hvad vil det vel sige</l>
+<l>At Tiden ikke just afpasset blev saa lige?</l>
+<l>Det er en ringe Ting, ey v&#x00E6;rd at tale om.</l>
+</sp>
+<sp who="METTE"><speaker>Mette.</speaker>
+<l part="I">Hvad meener du?</l>
+</sp>
+<sp who="JOHAN"><speaker>Johan.</speaker>
+<l part="F">At jeg til Madses Kiste kom.</l>
+<l>Just da udi min Si&#x00E6;l Dyd f&#x00F8;rte Regimente;<note type="commentary"><hi rend="italic">f&#x00F8;rte Regimente</hi>: havde herred&#x00F8;mmet.</note></l>
+<l><pb n="47"/>Det var ey raadeligt et &#x00D8;yeblik at vente,</l>
+<l>Til Elskov Seyer vandt, og reent at bryde af</l>
+<l>Den nys begyndte Roes som jeg til Dyden gav,</l>
+<l>Var alt for latterligt; jeg desforuden vidste,</l>
+<l>At inden stakket Tiid<note type="commentary"><hi rend="italic">inden stakket Tiid</hi>: inden l&#x00E6;nge, (no.) innen kort tids.</note> mig Elskov skulde friste,</l>
+<l>Og st&#x00E6;rkere end Dyd, mig gi&#x00F8;re til en Tyv;</l>
+<l>At sti&#x00E6;le Klokken Sex og sti&#x00E6;le Klokken Syv</l>
+<l>Det kommer ud paa et; jeg altsaa strax udf&#x00F8;rte</l>
+<l>Mit Foretagende, og da mig ingen h&#x00F8;rte,</l>
+<l>Det ligegyldigt var, om Elskovs Raserie,<note type="commentary"><hi rend="italic">Raserie</hi>: vanvid.</note></l>
+<l>Som mig forledede til dette Tyverie,</l>
+<l>Kom to Minuter f&#x00F8;r, kom to Minuter siden;</l>
+<l>Og overalt<note type="commentary"><hi rend="italic">overalt</hi>: i det hele taget.</note> en Helt ey Slave er af Tiden,</l>
+<l>Thi Klokken er kun for Skoemagere og Skr&#x00E6;d &#x2013;</l>
+</sp>
+<sp who="METTE"><speaker>Mette.</speaker>
+<l>Tal du kun Ordet ud, og blues<note type="commentary"><hi rend="italic">blues</hi>: skam dig.</note> ey derved.</l>
+<l>En Skredder, som er Helt, er ikke Skredder meere:</l>
+<l>Den Titel som er st&#x00F8;rst tilkommer os blant fleere.<note type="footnote">Verslinjen er lagt til i tr&#x00E5;d med trykkfeilslisten bakerts i f&#x00F8;rsteutgaven.</note></l>
+<l>I &#x00F8;vrigt finder jeg, Seigneur, at du har Ret;</l>
+<l>En Helt hvert &#x00D8;yeblik afpasser ey saa net;<note type="commentary"><hi rend="italic">net</hi>: n&#x00F8;je, n&#x00F8;jagtigt.</note></l>
+<l part="I">Men Grete n&#x00E6;rmer sig &#x2013; &#x2013; &#x2013;</l>
+</sp>
+<sp who="JOHAN"><speaker><pb n="48"/>Johan.</speaker>
+<l part="F">Jeg vil afsides tr&#x00E6;de,</l>
+<l>If&#x00F8;re Str&#x00F8;mperne,<note type="commentary"><hi rend="italic">If&#x00F8;re Str&#x00F8;mperne</hi>: if&#x00F8;re mig str&#x00F8;mperne.</note> og v&#x00E6;re her tilst&#x00E6;de</l>
+<l part="I">Om et Minut igien.</l>
+</sp>
+<figure rend="shortHorizRule"/>
+</div>
+<div type="uchapter" subtype="scene" n="4">
+<head type="sub">Fierde Optrin.</head>
+<stage>Grete, Mette.</stage>
+<sp who="GRETE"><speaker>Grete.</speaker>
+<l part="F">Hvor er min Ski&#x00E6;bne haard!</l>
+<l>Fra et til andet Sted jeg i den Tanke gaaer,</l>
+<l>At min Forfatning<note type="commentary"><hi rend="italic">Forfatning</hi>: tilstand, is&#x00E6;r s&#x00F8;rgelig.</note> sig med Stedet skal forandre;</l>
+<l>Men Sorgen f&#x00F8;lger mig, ihvor<note type="commentary"><hi rend="italic">ihvor</hi>: hvor.</note> jeg end vil vandre.</l>
+<l>Jeg ned i Haven gik, min Sorg spadserte med,</l>
+<l>I Gyngen satte mig, min Sorrig op og ned</l>
+<l>Sig gyngede med mig. Ja i vort Spise-Kammer,</l>
+<l>Hvor jeg saa tidt tilforn fandt Raad mod al Slags Jammer,</l>
+<l>Omsonst jeg s&#x00F8;ger nu en Lindring for mit Sind,</l>
+<l>Min Sorg med lige Skridt<note type="commentary"><hi rend="italic">med lige Skridt</hi>: i samme tempo.</note> ledsager mig derind.</l>
+<l><pb n="49"/>Jeg t&#x00E6;nkte r&#x00F8;get Flesk kan hielpe, hvem kan vide?</l>
+<l>Men f&#x00F8;lte Flesk og Sorg i Halsen fast at sidde.</l>
+</sp>
+<sp who="METTE"><speaker>Mette.</speaker>
+<l part="I">Slaae dig til Roelighed.</l>
+</sp>
+<sp who="GRETE"><speaker>Grete.</speaker>
+<l part="F">Jeg finder ingen Roe</l>
+<l>Veninde! f&#x00F8;r du mig har sagt, hvad jeg kan troe</l>
+<l>Om dette Haab, hvormed du smigrede mit Hierte;</l>
+</sp>
+<sp who="METTE"><speaker>Mette.</speaker>
+<l>Troe, at du snart skal faae alt, hvad din Siel begierte,</l>
+<l>Troe, du er lykkelig, troe al din Sorg og Vee</l>
+<l>Nu Ende har; ja troe &#x2013; ney troe ey meer, men see!</l>
+</sp>
+<figure rend="shortHorizRule"/>
+</div>
+<div type="uchapter" subtype="scene" n="5">
+<head type="sub">Femte Optrin.</head>
+<stage>Grete, Mette, Johan.</stage>
+<sp who="GRETE"><speaker>Grete.</speaker>
+<l>Johan med Str&#x00F8;mper paa! &#x2013; Tvivl, Haab og Frygt &#x2013; og Gl&#x00E6;de</l>
+<l>Betage<note type="commentary"><hi rend="italic">Betage</hi>: overv&#x00E6;lder.</note> mig, og knap at aande mig tilst&#x00E6;de.<note type="commentary"><hi rend="italic">tilst&#x00E6;de</hi>: tillader.</note></l>
+<stage><pb n="50"/>(Til Mette, som tier.)</stage>
+<l part="I">Hvor fik han dem? siig snart.</l>
+<stage>(Til Johan.)</stage>
+<l part="F">Johan, jeg har en Tvivl.</l>
+</sp>
+<sp who="METTE"><speaker>Mette</speaker> <stage>(Til Johan.)</stage>
+<l>Svar hende som en Helt, tael i den h&#x00F8;ye Stiil!</l>
+</sp>
+<sp who="GRETE"><speaker>Grete.</speaker>
+<l>Johan, jeg har en Tvivl, den kan du mig betage;<note type="commentary"><hi rend="italic">mig betage</hi>: befri mig for.</note></l>
+<l>Jeg veed, man intet faaer omsonst<note type="commentary"><hi rend="italic">omsonst</hi>: gratis.</note> i vore Dage;</l>
+<l part="I">Hvor fik du Str&#x00F8;mper fra?</l>
+</sp>
+<sp who="JOHAN"><speaker>Johan.</speaker>
+<l part="F">Hvis dette Sp&#x00F8;rgsmaal gik</l>
+<l>Udaf en anden Mund; i dette &#x00D8;yeblik,</l>
+<l>Han for sin Dristighed med Livet skulde b&#x00F8;de;<note type="commentary"><hi rend="italic">Hvis dette Sp&#x00F8;rsmaal &#x2026; b&#x00F8;de</hi>: denne og den foreg&#x00E5;ende replik har forbillede i et ber&#x00F8;mt replikskifte i Pierre Corneilles tragedie <hi rend="italic">Le Cid</hi> (1637), hvor helten Rodrigues fader sp&#x00F8;rger: &#x00AB;Rodrigue, har du mod&#x00BB; (<hi rend="italic">Rodrigue, as-tu du coeur?</hi>) og f&#x00E5;r det indignerede svar: &#x00AB;Enhver anden end min fader skulle straks f&#x00E5; det at f&#x00F8;le&#x00BB; (<hi rend="italic">Tout autre que mon p&#x00E8;re / L&#x0027;&#x00E9;prouverait sur l&#x0027;heure</hi>).</note></l>
+<l>Den som formaster sig, at gi&#x00F8;re Kinder r&#x00F8;de,</l>
+<l>Som Ski&#x00E6;bnen har udseet til Kinder for en Helt,</l>
+<l>Hvor f&#x00E6;lt han straffes end, dog straffes ey for f&#x00E6;lt.</l>
+</sp>
+<sp who="GRETE"><speaker>Grete.</speaker>
+<l part="I">Saa r&#x00F8;dmer du?</l>
+</sp>
+<sp who="JOHAN"><speaker>Johan.</speaker>
+<l part="F">Madam! ja, men paa eders Vegne,</l>
+<l>Saa lav Mistanke kan ey h&#x00F8;ye Siele egne,<note type="commentary"><hi rend="italic">egne</hi>: passe sig for.</note></l>
+<l part="I">Men eders Siel er lav. &#x2013; &#x2013; &#x2013;</l>
+</sp>
+<sp who="GRETE"><speaker><pb n="51"/>Grete.</speaker>
+<l part="F">Seigneur! h&#x00F8;y eller lav,</l>
+<l>Jeg beder dig, besvar det Sp&#x00F8;rgsmaal jeg dig gav.</l>
+</sp>
+<sp who="JOHAN"><speaker>Johan.</speaker>
+<l>Mindst dr&#x00F8;mte jeg Madam! at I mig skulde n&#x00F8;de</l>
+<l>Til at fralegge mig en saadan nedrig<note type="commentary"><hi rend="italic">nedrig</hi>: u&#x00E6;del.</note> Br&#x00F8;de.</l>
+<l>Jeg Maalet,<note type="commentary"><hi rend="italic">Maalet</hi>: genstanden.</note> sagde I, for eders Elskov var,</l>
+<l>Ney Maal for jer Foragt, den Sag er alt for klar.</l>
+<l>Forgieves s&#x00F8;gte man paa heele Jorderige</l>
+<l>En Elskerinde, som sin Elsker vilde sige:</l>
+<l>De Str&#x00F8;mper som du b&#x00E6;r, du stiaalet har, min Ven!</l>
+<l>(Af hvad I sagde f&#x00F8;r, det var dog Meeningen:)</l>
+<l>Jeg lod ved Paaske-Tiid mit Hoved-Haar afrage,<note type="commentary"><hi rend="italic">Jeg lod &#x2026; mit Hoved Haar afrage</hi>: folk, der gik med paryk, lod sig kronrage eller klippe meget t&#x00E6;t, for at deres naturlige h&#x00E5;r ikke skulle hindre parykken i at sidde fast.</note></l>
+<l>Af Skrek sig reyser nu den Stump som er tilbage,</l>
+<l>Og l&#x00F8;fter min Paryk en Tomme fra sit Sted &#x2013;</l>
+<l>Hvem bliver skieldt for Tyv,<note type="commentary"><hi rend="italic">skieldt for Tyv</hi>: udsk&#x00E6;ldt for at v&#x00E6;re tyv.</note> og gyser ey derved?</l>
+<l>Dog Skredderen Johan har Aarsag til at meene,</l>
+<l>At han frikiendes ved sit blotte Navn allene:</l>
+<l>Johan von Ehrenpreis,<note type="commentary"><hi rend="italic">Ehrenpreis</hi>: (ty.) &#x00C6;renpris, dvs. den der tager prisen som den mest &#x00E6;refulde.</note> viid naar man heder saa,</l>
+<l>Man da umuelig kan et Tyverie begaae.</l>
+<l>Madam! I maatte dog min &#x00F8;mme<note type="commentary"><hi rend="italic">&#x00F8;mme</hi>: fintf&#x00F8;lende.</note> Siel forskaane</l>
+<l>Den har endnu ey l&#x00E6;rt, at lade sig forhaane;</l>
+<l><pb n="52"/>Jeg f&#x00F8;r i L&#x00E6;re stod, min Mester var en Stud,</l>
+<l>For ikke smukke Ting han tidt mig skieldte ud,</l>
+<l>Jeg d&#x00F8;lger ey derfor, han tidt, din Esel! sagde,</l>
+<l>Men Tyve-Navn, Madam! han aldrig mig tillagde,</l>
+<l>Det var mig forbeholdt at h&#x00F8;re det af Een</l>
+<l>Som jeg tilbad, Som var min tredie &#x00D8;yesteen.</l>
+<l part="I">I gr&#x00E6;der Grete?</l>
+</sp>
+<sp who="GRETE"><speaker>Grete.</speaker>
+<l part="M">Ney!</l>
+</sp>
+<sp who="JOHAN"><speaker>Johan.</speaker>
+<l part="F">Da burde I dog gr&#x00E6;de.</l>
+</sp>
+<sp who="GRETE"><speaker>Grete.</speaker>
+<l>Ifald jeg gr&#x00E6;d, Seigneur! da skeede det af Gl&#x00E6;de.</l>
+<l>Nu kiender jeg Johan, hvor er jeg lykkelig, &#x2013;</l>
+<l>Hvor er du dyrebar &#x2013; du vist<note type="commentary"><hi rend="italic">vist</hi>: bestemt, helt sikkert.</note> tilgiver mig</l>
+<l>At jeg din Helte-Si&#x00E6;l saa haardt paa Pr&#x00F8;ve satte,</l>
+<l>Ifald du fatte kan &#x2013; &#x2013; dog ingen Siel kan fatte,</l>
+<l>Hvor min H&#x00F8;yagtelse h&#x00F8;yt til Beundring steeg,</l>
+<l>Og steeg alt h&#x00F8;yere, jo meer du bister skreeg.</l>
+<l>Min Elskov og min Agt,<note type="commentary"><hi rend="italic">Agt</hi>: agtelse.</note> du kaldte tidt din Lykke,</l>
+<l>L&#x00E6;s i mit Hierte nu, see hvilket Fandens Stykke</l>
+<l><pb n="53"/>Din Lykke voxet har ved denne Leylighed.</l>
+<l>Og jeg skal vove for<note type="commentary"><hi rend="italic">jeg skal vove for</hi>: jeg vil v&#x00E6;dde p&#x00E5;.</note> du er ey l&#x00E6;nger vred.</l>
+</sp>
+<sp who="JOHAN"><speaker>Johan.</speaker>
+<l>Jeg, v&#x00E6;re l&#x00E6;nger vred? Ney Uforlignelige!</l>
+<l part="I">Jeg sige maa &#x2013; &#x2013; &#x2013;</l>
+</sp>
+<sp who="METTE"><speaker>Mette.</speaker>
+<l part="F">Her er ey Tiid til meer at sige,</l>
+<l>I begge n&#x00F8;ye viist jer Ret til Helte-Rang,</l>
+<l>Og eder n&#x00F8;ye b&#x00F8;r hermed for denne gang.</l>
+<l>Hvert &#x00D8;yeblik er dyrt og I beh&#x00F8;ve begge</l>
+<l>Paa eders Bryllups-Pynt den sidste Haand at l&#x00E6;gge.</l>
+</sp>
+<stage>Ende paa fierde Optog.</stage>
+<figure rend="shortHorizRule"/>
+</div>
+</div>
+<div type="chapter" subtype="act" n="5">
+<head type="main"><ref type="contents" target="contents_5" xml:id="chapter_5">Femte Optog.</ref></head>
+<div type="uchapter" subtype="scene" n="1">
+<head type="sub"><pb n="54"/>F&#x00F8;rste Optrin.</head>
+<stage>Mads, Jesper.</stage>
+<sp who="MADS"><speaker>Mads.</speaker>
+<l>Du paa Rivalens Been to hvide Str&#x00F8;mper saae?</l>
+<l>Saa Skiebnen altid skal for ham paa Pinde staae!</l>
+<l>Ja Skiebne! troe, jeg seer alt<note type="commentary"><hi rend="italic">alt</hi>: allerede.</note> hvad du har for &#x00D8;ye;</l>
+<l>Men jeg har Arm og Kniv, og du har spildt din M&#x00F8;ye;</l>
+<l>Du forud f&#x00F8;ler alt (du maatte skamme dig)</l>
+<l>En Vellyst i den Qval, som vil fort&#x00E6;re mig,</l>
+<l>Naar jeg et Vidne skal til den Foreening v&#x00E6;re,</l>
+<l>Som skiller mig ved alt, ved Grete og min &#x00C6;re;</l>
+<l><pb n="55"/>Men naar jeg ikke meer seer denne Verdens Dag,</l>
+<l>Skal Skiebnen med sit Had vel gi&#x00F8;re mig en Smag.<note type="commentary"><hi rend="italic">Smag</hi>: (no.) mundsmag, en lille smule mad. Mads beklager i dette og de foreg&#x00E5;ende vers sin h&#x00E5;rde sk&#x00E6;bne og fremh&#x00E6;ver, hvordan han ikke blot, som sagen st&#x00E5;r, har udsigt til at miste b&#x00E5;de sin k&#x00E6;reste og sin borgerlige &#x00E6;re, men endda efter livet (n&#x00E5;r han ikke l&#x00E6;ngere ser verdens dag) ikke kan forvente andet end en mundsmag. Udtrykket er g&#x00E5;defuldt; det kan s&#x00E5;ledes ogs&#x00E5; betyde, at Mads&#x0027; sk&#x00E6;bne er s&#x00E5; grum, at han kun kan f&#x00E5; sine &#x00F8;nsker opfyldt i det hinsides (hvor muligheden for at v&#x00E6;rds&#x00E6;tte dem sanseligt velsagtens er begr&#x00E6;nsede).</note></l>
+</sp>
+<sp who="JESPER"><speaker>Jesper.</speaker>
+<l>D&#x00F8;e er din Pligt, naar du paa ingen anden Maade</l>
+<l>Veed dig at redde ud; men torde jeg dig raade,</l>
+<l>Du skulde s&#x00E6;tte op<note type="commentary"><hi rend="italic">s&#x00E6;tte op</hi>: ops&#x00E6;tte, uds&#x00E6;tte.</note> endnu et &#x00D8;yeblik,</l>
+<l>Dit Fors&#x00E6;t: vi maaskee en bedre Tilflugt<note type="commentary"><hi rend="italic">Tilflugt</hi>: hj&#x00E6;lpemiddel, forholdsregel.</note> fik.</l>
+</sp>
+<sp who="MADS"><speaker>Mads.</speaker>
+<l>En Tilflugt er der kun, en eneste tilbage:</l>
+<l>Med Skiebne, Grete, Liv jeg strax maa Afskeed tage.</l>
+</sp>
+<sp who="JESPER"><speaker>Jesper.</speaker>
+<l>Det ahner mig, min Ven, at det for tilig<note type="commentary"><hi rend="italic">tilig</hi>: tidlig.</note> er.</l>
+</sp>
+<sp who="MADS"><speaker>Mads.</speaker>
+<l>Men Helte, som vil d&#x00F8;e, foragte Ahnelser.</l>
+<stage>(Han tager sin Kniv op.)</stage>
+<l>V&#x00E6;r st&#x00E6;rk min Arm og troe! v&#x00E6;r skarp min Kniv og sikker!</l>
+<l>Min Jesper! Liv! Farvel! &#x2013; &#x2013; Dog, f&#x00F8;rend jeg mig stikker,</l>
+<l><pb n="56"/>Ifald du haver kier din Kalemankes<note type="commentary"><hi rend="italic">Kalemankes</hi>: halvuldent, typisk stribet stof med silkeagtig overflade, ofte brugt til veste el. m&#x00F8;belbetr&#x00E6;k. At en kalemankesvest i 1700-tallet m&#x00E5; have h&#x00F8;rt til j&#x00E6;vne folks dyrebareste ejendele, fremg&#x00E5;r ogs&#x00E5; af Holbergs <hi rend="italic">Peder Paars</hi> (1719): &#x00AB;Man siden &#x005B;efter skibbruddet&#x005D; ligerviis fandt gandske t&#x00F8;r hans Vest, / For hvilken Peder Paars var bange allermest; / Thi den af Kalemanck var giort med Silcke Knapper&#x00BB; (1. bog, 2. sang, vers 167-169).</note> Vest,</l>
+<l>Saa staae mig ey saa n&#x00E6;r, den ellers faaer sin Rest.<note type="commentary"><hi rend="italic">faaer sin Rest</hi>: bliver &#x00F8;delagt (af spr&#x00F8;jtende blod).</note></l>
+<lb/>
+<l rend="indent_2"><hi rend="italic">Aria.</hi></l>
+<l rend="indent_2">Naar, som desverre ofte h&#x00E6;nder,</l>
+<l rend="indent_2">Ulykken muntre Fluer sender</l>
+<l rend="indent_2">I tomme, klare Flasker ned,</l>
+<l rend="indent_2">Den heftigste Uroelighed</l>
+<l rend="indent_2">Man tydeligen kan fornemme,</l>
+<l rend="indent_2">Af deres L&#x00F8;ben, Flugt og Stemme.</l>
+<lb/>
+<l rend="indent_2">Hvis Hud og Glas var lige klare,</l>
+<l rend="indent_2">Jeg kunde mig den M&#x00F8;ye spare</l>
+<l rend="indent_2">At sige dig: Mit Blod faer om,</l>
+<l rend="indent_2">Som Fluen der i Flasken kom.</l>
+<l rend="indent_2">Jeg ydermeere for mit &#x00D8;re</l>
+<l rend="indent_2">Kan som en Lyd af Fluer h&#x00F8;re.</l>
+<lb/>
+<l>Mit Blod tilf&#x00E6;lles har saa mange Ting med Fluer,</l>
+<l>Som ere f&#x00E6;ngslede, at jeg med Rette gruer,</l>
+<l>Det og vil ligne dem, som slippe ud igien,</l>
+<l>Og synes, at de ey kan komme langt nok hen</l>
+<l><pb n="57"/>Fra en forhadt Arrest.<note type="commentary"><hi rend="italic">Arrest</hi>: indesp&#x00E6;rring.</note> &#x2013; Min beste Ven i Live!</l>
+<l>Dig maatte allermindst min D&#x00F8;d til Skade blive.</l>
+</sp>
+<sp who="JESPER"><speaker>Jesper.</speaker>
+<l>Endog paa Gravens Pynt<note type="commentary"><hi rend="italic">paa Gravens Pynt</hi>: p&#x00E5; gravens rand.</note> erindrer du min Tarv!<note type="commentary"><hi rend="italic">min Tarv</hi>: hvad der er til gavn for mig, mit bedste.</note></l>
+<l>Jeg haver intet Been, jeg haver ingen Marv,</l>
+<l>Som jo<note type="commentary"><hi rend="italic">jo</hi>: ikke.</note> Erkiendtlighed<note type="commentary"><hi rend="italic">Erkiendtlighed</hi>: taknemmelighed.</note> og Medynk giennemtr&#x00E6;nge;</l>
+<l>Men at du ey skal troe, jeg stod omsonst<note type="commentary"><hi rend="italic">omsonst</hi>: til ingen nytte.</note> saa l&#x00E6;nge,</l>
+<l>Som du sang Arien om Fluer og dit Blod,</l>
+<l>Saa faldt jeg, eller og<note type="commentary"><hi rend="italic">og</hi>: ogs&#x00E5;.</note> min Geist<note type="commentary"><hi rend="italic">Geist</hi>: &#x00E5;nd, t&#x00E6;nkeevne.</note> mig falde lod</l>
+<l>Paa en Mistanke; hvad, om du den rette Eyer</l>
+<l>Til disse Str&#x00F8;mper er, som krone skal med Seyer</l>
+<l part="I">En lykkelig Rival?</l>
+</sp>
+<sp who="MADS"><speaker>Mads.</speaker>
+<l part="F">Den Grete haver kier,</l>
+<l>Og &#x00E6;rer med sit Valg, For smaae Forbrydelser</l>
+<l>Jeg ey mist&#x00E6;nke b&#x00F8;r. Han er jo Helt desuden.</l>
+</sp>
+<sp who="JESPER"><speaker>Jesper.</speaker>
+<l>Men Skredder meer end Helt; det viser noksom<note type="commentary"><hi rend="italic">noksom</hi>: tiltr&#x00E6;kkeligt, mere end nok.</note> Huden.</l>
+<l>Saa l&#x00E6;nge som han har en Skredder-Plet<note type="commentary"><hi rend="italic">Skredder-Plet</hi>: udsl&#x00E6;t for&#x00E5;rsaget af, at giftigt farvestof fra tr&#x00E5;den var tr&#x00E6;ngt ind i s&#x00E5;r, hvor skr&#x00E6;ddere havde stukket sig med n&#x00E5;len, og hvorfra det kunne sprede sig til andre steder p&#x00E5; hudens overflade.</note> paa den,</l>
+<l>Jeg Helten mindre seer, i ham end Skredderen.</l>
+</sp>
+<sp who="MADS"><speaker><pb n="58"/>Mads.</speaker>
+<l>See i ham hvad du vil; jeg seer kun paa min &#x00C6;re,</l>
+<l>Jeg maa ey i mit Br&#x00F8;st saa lav Mistanke n&#x00E6;re.</l>
+</sp>
+<sp who="JESPER"><speaker>Jesper.</speaker>
+<l>Men siig! hvor skulde han her faaet Str&#x00F8;mper fra?</l>
+<l part="I">Hvor ingen uden du &#x2013; &#x2013; &#x2013;</l>
+</sp>
+<sp who="MADS"><speaker>Mads.</speaker>
+<l part="F">End Grete, Mette da?</l>
+</sp>
+<sp who="JESPER"><speaker>Jesper.</speaker>
+<l>Saa bilder du dig ind, han deres kunde bruge?</l>
+<l>Af deres Str&#x00F8;mper een sex Skredder Been kan sluge.<note type="commentary"><hi rend="italic">sluge</hi>: rumme.</note></l>
+</sp>
+<sp who="MADS"><speaker>Mads.</speaker>
+<l>Jeg var tilfreds, min Ven, den kunde sluge syv,</l>
+<l>Saa er Johan en Helt, og kan ey v&#x00E6;re Tyv,</l>
+<l>Og du til Nedrighed<note type="commentary"><hi rend="italic">Nedrighed</hi>: lav tankegang.</note> forgi&#x00E6;ves mig skal friste.</l>
+</sp>
+<sp who="JESPER"><speaker>Jesper.</speaker>
+<l>Taal i det mindste, Mads, at jeg udi din Kiste</l>
+<l part="I">Min Tvivl maae opl&#x00F8;st<note type="commentary"><hi rend="italic">opl&#x00F8;st</hi>: fjernet.</note> faae!</l>
+</sp>
+<sp who="MADS"><speaker><pb n="59"/>Mads.</speaker>
+<l part="F">Du kan den bringe ind,</l>
+<l>Ey for at rydde ud Mistanken af mit Sind,</l>
+<l>Thi jeg mist&#x00E6;nker ey, men at endnu i Live</l>
+<l>Mit Efterladenskab jeg dig kan overgive.</l>
+</sp>
+<stage>(Jesper gaaer.)</stage>
+<figure rend="shortHorizRule"/>
+</div>
+<div type="uchapter" subtype="scene" n="2">
+<head type="sub">Andet Optrin.</head>
+<sp who="MADS"><speaker>Mads</speaker> <stage>allene.</stage>
+<l>Nu var det Tiid at d&#x00F8;e, nu ingen hindrer mig,</l>
+<l>Men jeg koldsindig<note type="commentary"><hi rend="italic">koldsindig</hi>: velovervejet, koldblodig.</note> er og alt for magelig,</l>
+<l>Og Helten naar han d&#x00F8;er, b&#x00F8;r heed og virksom v&#x00E6;re;</l>
+<l>Men hvorfor jeg er kold, det veed &#x2013; &#x2013; det veed vor Herre.</l>
+</sp>
+<figure rend="shortHorizRule"/>
+</div>
+<div type="uchapter" subtype="scene" n="3">
+<head type="sub"><pb n="60"/>Tredie Optrin.</head>
+<stage>Mads, Jesper. (med Kisten.)</stage>
+<sp who="JESPER"><speaker>Jesper.</speaker>
+<l part="I">Kom lad os eftersee.</l>
+</sp>
+<sp who="MADS"><speaker>Mads.</speaker>
+<l part="F">Her er Fortegnelsen;</l>
+<l>Vi der vil l&#x00E6;se f&#x00F8;rst, hvad er i Leddiken.<note type="commentary"><hi rend="italic">Leddiken</hi>: l&#x00E6;dike, lille aflukket rum foroven i den ende af en kiste, der blev brugt som opbevaringssted for v&#x00E6;rdifulde sm&#x00E5;ting s&#x00E5;som penge, smykker m.m.</note></l>
+<stage>(De l&#x00E6;se begge.)</stage>
+<lb/>
+<l rend="indent_2"><hi rend="italic">Duo.</hi></l>
+<l rend="indent_2">Fem Knapper til en Tr&#x00F8;ye,</l>
+<l rend="indent_2">En Syenaal uden &#x00D8;ye,</l>
+<l rend="indent_2">Et bruunr&#x00F8;dt Syleskaft,<note type="commentary"><hi rend="italic">Syleskaft</hi>: h&#x00E5;ndtag til en syl.</note></l>
+<l rend="indent_2">En gammel Strimmel Taft,<note type="commentary"><hi rend="italic">Taft</hi>: t&#x00E6;tv&#x00E6;vet glat og blankt (silke)stof.</note></l>
+<l rend="indent_2">En Stump Meloten-Plaster,<note type="commentary"><hi rend="italic">Meloten-Plaster</hi>: plastre og forbindinger pr&#x00E6;pareret med udtr&#x00E6;k af melot (plante af sl&#x00E6;gten Melilotus), i dag bedre kendt under navnet stenkl&#x00F8;ver, var et meget udbredt l&#x00E6;gemiddel p&#x00E5; Wessels tid.</note></l>
+<l rend="indent_2">Et Brev fra salig Faster,<note type="commentary"><hi rend="italic">salig Faster</hi>: afd&#x00F8;de faster.</note></l>
+<l rend="indent_2">En Daase uden Laag,</l>
+<l rend="indent_2">Den nye Psalmebog.<note type="commentary"><hi rend="italic">Den nye Psalmebog</hi>: <hi rend="italic">Den Nye Psalme-Bog</hi> eller Pontoppidans salmebog (1740) var pietistisk orienteret og afl&#x00F8;ste <hi rend="italic">Dend Forordnede Ny Kirke-Psalme-Bog,</hi> ogs&#x00E5; kaldet Kingos salmebog (1699).</note></l>
+</sp>
+<sp who="JESPER"><speaker><pb n="61"/>Jesper.</speaker>
+<l>Alt nok om Leddiken, jeg l&#x00E6;nges efter Kisten.</l>
+</sp>
+<sp who="MADS"><speaker>Mads.</speaker>
+<l>See T&#x00F8;yet efter du, saa skal jeg l&#x00E6;se Listen.</l>
+</sp>
+<sp who="JESPER"><speaker>Jesper.</speaker>
+<l part="I">Begynd paa Str&#x00F8;mperne.</l>
+</sp>
+<sp who="MADS"><speaker>Mads.</speaker>
+<l part="F">F&#x00F8;rst findes tvende Par</l>
+<l>Saa hvide som en Snee, hvori f&#x00F8;r Grete har</l>
+<l part="I">Med Silke syed mit Navn &#x2013; &#x2013; &#x2013;</l>
+</sp>
+<sp who="JESPER"><speaker>Jesper.</speaker>
+<l part="F">Jeg seer kun et Par hvide.</l>
+</sp>
+<sp who="MADS"><speaker>Mads.</speaker>
+<l>Det andet uden Tvivl sig skiuler ved en Side;</l>
+<l part="I">S&#x00F8;g med Alvorlighed.<note type="commentary"><hi rend="italic">med Alvorlighed</hi>: energisk, &#x0027;ordentligt&#x0027;.</note></l>
+</sp>
+<sp who="JESPER"><speaker>Jesper.</speaker>
+<l part="F">Al S&#x00F8;gen er omsonst;<note type="commentary"><hi rend="italic">omsonst</hi>: forg&#x00E6;ves.</note></l>
+<l part="I">S&#x00F8;g selv.</l>
+</sp>
+<sp who="MADS"><speaker>Mads</speaker> <stage>(Efter at have s&#x00F8;gt.)</stage>
+<l part="F">De findes ey. Min Ski&#x00E6;bne al sin Kunst</l>
+<l>Udt&#x00F8;mmer for mig ret ulykkelig at gi&#x00F8;re,</l>
+<l><pb n="62"/>Og alle &#x00D8;yeblik mig nye Sorger f&#x00F8;re.<note type="commentary"><hi rend="italic">f&#x00F8;re</hi>: bringer.</note></l>
+<l>Jeg undres endnu paa,<note type="commentary"><hi rend="italic">undres endnu paa</hi>: undrer mig stadig over.</note> den sparede min Stok,<note type="commentary"><hi rend="italic">den sparede min Stok</hi>: den h&#x00E5;rde sk&#x00E6;bne har ikke forgrebet sig p&#x00E5; hans stok.</note></l>
+<l>Hvis Knap af Perlemor, Gud veed, har kostet nok;</l>
+<l>Hvis Tab meer vigtigt var, meer smerteligt end dette.</l>
+</sp>
+<sp who="JESPER"><speaker>Jesper.</speaker>
+<l>Maaskee af denne Sorg en Nedrig skulde giette,</l>
+<l>At D&#x00F8;den ikke just var det, du t&#x00E6;nkte paa;</l>
+<l>Men Jesper kiender dig, og dig beundre maa.</l>
+<l>Du har behaget mig til Arving at udn&#x00E6;vne</l>
+<l>Af al din Eyendom, du havde t&#x00E6;nkt at levne</l>
+<l>Mig et Par Str&#x00F8;mper meer; sin Vens Forliis og sit,<note type="commentary"><hi rend="italic">sin Vens Forliis og sit</hi>: tabet af sin ven og (tabet af) sig selv.</note></l>
+<l>En Siel saa h&#x00F8;y, saa stoer som din, anseer for et;</l>
+<l>Og herfra denne Sorg &#x2013; &#x2013; men nu til noget andet:</l>
+<l>Det skulde synes mig, dog v&#x00E6;re reent forbandet,</l>
+<l>Om Skredderen Johan, med dine Str&#x00F8;mper paa,</l>
+<l>Til Brudeskammelen<note type="commentary"><hi rend="italic">Brudeskammelen</hi>: den skammel, som brudeparret kn&#x00E6;ler p&#x00E5; under vielsen; &#x00E6;gteskab.</note> ustraffet skulde gaae.</l>
+<l>Jeg skulde dog vel troe, du ham vil forekomme;<note type="commentary"><hi rend="italic">du ham vil forekomme</hi>: du vil forhindre ham i hans forehavende.</note></l>
+<l>Han her indfinder sig f&#x00F8;r et Qvarteer er omme;</l>
+<l>At f&#x00F8;lge Grete did<note type="commentary"><hi rend="italic">did</hi>: derhen.</note> hvor Baandet knyttes skal,</l>
+<l part="I">Som ey kan l&#x00F8;ses meer.</l>
+</sp>
+<sp who="MADS"><speaker><pb n="63"/>Mads.</speaker>
+<l part="F">Mod en forhadt Rival</l>
+<l>Jeg maa udrustes f&#x00F8;rst med h&#x00F8;yst forn&#x00F8;dne Vaaben.</l>
+<l>Jeg har ey Bidden<note type="commentary"><hi rend="italic">Bidden</hi>: en mundfuld.</note> smagt, jeg har ey drukket Draaben</l>
+<l>I denne gandske Dag, og uden &#x00D8;l og Mad</l>
+<l part="I">Er Helten ingen Ting.</l>
+</sp>
+<sp who="JESPER"><speaker>Jesper.</speaker>
+<l part="F">Derinde staaer et Fad,</l>
+<l>Som ved sin vide Kreds og Dybhed sig udmerker,</l>
+<l>Til Bredden<note type="commentary"><hi rend="italic">Til Bredden</hi>: til randen.</note> fyldt med Kaal. Du gi&#x00F8;r<note type="commentary"><hi rend="italic">gi&#x00F8;r</hi>: udretter.</note> vist<note type="commentary"><hi rend="italic">vist</hi>: med sikkerhed.</note> Underverker,</l>
+<l part="I">Hvis du det t&#x00F8;mme kan.</l>
+</sp>
+<sp who="MADS"><speaker>Mads.</speaker>
+<l part="F">Jeg skal fors&#x00F8;ge det.</l>
+<l>Vee dig, Johan! vee dig! naar Mads er bleven m&#x00E6;t.</l>
+<stage>(De gaaer.)</stage>
+</sp>
+<figure rend="shortHorizRule"/>
+</div>
+<div type="uchapter" subtype="scene" n="4">
+<head type="sub"><pb n="64"/>Fierde Optrin.</head>
+<stage>Grete, Mette, Johan.</stage>
+<sp who="GRETE"><speaker>Grete</speaker> <stage>(med Johan ved Haanden.)</stage>
+<l>Saa blev det Sandhed dog, som i et Ordsprog staaer,</l>
+<l>At efter Regn og Slud man blide Soelskin faaer.</l>
+<l>I otte Dage var min Siel et Rov<note type="commentary"><hi rend="italic">Rov</hi>: bytte.</note> for Smerter,</l>
+<l>Jeg ingen F&#x00F8;de n&#x00F8;d, jeg v&#x00E6;mmedes ved Erter;</l>
+<l>Min Syster,<note type="commentary"><hi rend="italic">Min Syster</hi>: min veninde, (fr.) ma soeur.</note> du det veed, det var min beste Mad,<note type="commentary"><hi rend="italic">min beste Mad</hi>: min livret.</note></l>
+<l>Og naar jeg Erter selv og Flesk ey spise gad,</l>
+<l>Enhver kan slutte let, hvor stoer min N&#x00F8;d har v&#x00E6;ret.</l>
+</sp>
+<sp who="JOHAN"><speaker>Johan.</speaker>
+<l>Jeg tvivler ikke paa, at Sorg dig har fort&#x00E6;ret;</l>
+<l>Men nu til Klagemaal du ingen Aarsag har,</l>
+<l>Nu er du lykkelig, forglem saa hvad du var.</l>
+</sp>
+<sp who="GRETE"><speaker>Grete.</speaker>
+<l>Jeg mig erindrer kun de kummerfulde<note type="commentary"><hi rend="italic">kummerfulde</hi>: fulde af modgang, sorg og besv&#x00E6;r.</note> Dage,</l>
+<l>Som, Himmelen skee Tak, jeg haver lagt tilbage,</l>
+<l>At jeg desbedre maa forn&#x00F8;yes ved de Kaar</l>
+<l>Og den Lyksalighed, som mig Fremtiden spaaer &#x2013;</l>
+<l><pb n="65"/>Da endnu et Qvarteer vi kunde her forhale,<note type="commentary"><hi rend="italic">forhale</hi>: vente.</note></l>
+<l>Saa lad os vexelviis vort Haab, vor Fryd afmale.</l>
+</sp>
+<sp who="JOHAN"><speaker>Johan.</speaker>
+<l>Begynd min Grete f&#x00F8;rst, dig falder<note type="commentary"><hi rend="italic">falder</hi> &#x2026; <hi rend="italic">til</hi>: tilfalder, tilkommer.</note> &#x00C6;ren til;</l>
+<l>Saasnart du f&#x00E6;rdig er, jeg dig afl&#x00F8;se vil.</l>
+</sp>
+<sp who="GRETE"><speaker>Grete.</speaker> <stage>(Bev&#x00E6;geligen).<note type="commentary"><hi rend="italic">Bev&#x00E6;geligen</hi>: med bev&#x00E6;gelse, r&#x00F8;rt.</note></stage>
+<l>Jeg i min Elskers Arm, jeg ved min Heltes Side,</l>
+<l>Af s&#x00F8;de F&#x00F8;lelser skal ene kunde vide</l>
+<l>At jeg er til. Mig skal ey nogen indbildt Frygt</l>
+<l>Af S&#x00F8;vne vekke meer. Ney jeg skal hvile trygt,</l>
+<l>Og vogne smilende; Og Hiertet dig skal sige:</l>
+<l>&#x00AB;Nu vognede din Glut,<note type="commentary"><hi rend="italic">Glut</hi>: ung kvinde, i k&#x00E6;len tiltale: &#x0027;skat&#x0027;.</note> nu smilede din Pige.&#x00BB;</l>
+<l>Og du skal vogne glad og smilende som jeg &#x2013;</l>
+<l part="I">Og &#x2013; &#x2013; &#x2013;</l>
+</sp>
+<sp who="METTE"><speaker>Mette.</speaker>
+<l part="F">Gaa ey videre; Thi det anstaaer dig<note type="commentary"><hi rend="italic">anstaaer dig</hi>: er ikke passende, s&#x00F8;mmeligt for dig.</note> ey.</l>
+<stage>(Der bliver en kort Taushed.)</stage>
+</sp>
+<sp who="GRETE"><speaker>Grete.</speaker> <stage>(Til Johan.)</stage>
+<l>H&#x00F8;r her engang, Seigneur! du falder jo i Staver:</l>
+<l part="I">Nu Turen er til dig.</l>
+</sp>
+<sp who="JOHAN"><speaker><pb n="66"/>Johan.</speaker>
+<l part="F">St! St!<note type="commentary"><hi rend="italic">St! St!</hi>: stille! tys!</note> jeg mig belaver<note type="commentary"><hi rend="italic">belaver</hi>: forbereder.</note></l>
+<l>Paa et anst&#x00E6;ndigt Svar &#x2013; &#x2013; og &#x2013; &#x2013; Svaret lyder saaa &#x2013; &#x2013;</l>
+<stage>(Han stammer.)</stage>
+<l>Jeg &#x2013; &#x2013; neppe veed for Fryd &#x2013; &#x2013; paa hvilken Foed at staae &#x2013; &#x2013;</l>
+<l>Og &#x2013; &#x2013; for en Sikkerhed saa staaer jeg paa dem begge &#x2013; &#x2013;</l>
+<l>Og &#x2013; &#x2013; &#x00E0; propos<note type="commentary"><hi rend="italic">&#x00E0; propos</hi>: hvad ang&#x00E5;r.</note> om Been, jeg ikke just i L&#x00E6;gge<note type="commentary"><hi rend="italic">L&#x00E6;gge</hi>: p&#x00E5; Wessels tid regnedes kraftige l&#x00E6;gge for et tegn p&#x00E5; stor potens.</note></l>
+<l part="I">Min st&#x00F8;rste Force<note type="commentary"><hi rend="italic">Force</hi>: styrke.</note> har; men Skabningen?</l>
+</sp>
+<sp who="GRETE"><speaker>Grete.</speaker>
+<l part="F">Er net;</l>
+<l>Det vil jeg dig tilstaae. &#x2013; Men om jeg t&#x00E6;nker ret,</l>
+<l>Saa er ey dette Svar aldeles saa anst&#x00E6;ndigt,<note type="commentary"><hi rend="italic">anst&#x00E6;ndigt</hi>: passende.</note></l>
+<l part="I">Som du det lovede.</l>
+</sp>
+<sp who="JOHAN"><speaker>Johan.</speaker>
+<l part="F">Jeg haver et indvendigt</l>
+<l>Og et udvendigt Pund,<note type="commentary"><hi rend="italic">Pund</hi>: talent, begavelse, jf. Luk 19,11 ff. (lignelsen om de betroede pund).</note> Madam; det f&#x00F8;rste ikke staaer</l>
+<l>Det andet altid bi &#x2013; Der i min Hierne gaaer</l>
+<l><pb n="67"/>Udaf de smukkeste og meest uds&#x00F8;gte Tanker</l>
+<l>En utaalmodig Sv&#x00E6;rm, som inden Hiernens Planker</l>
+<l>Indsluttes ynkelig, fordi jeg ikke kan</l>
+<l>I Gang min Tunge faae; &#x2013; &#x2013; men tys, nu gaaer det an.<note type="commentary"><hi rend="italic">nu gaar det an</hi>: nu g&#x00E5;r det l&#x00F8;s.</note></l>
+<stage>(Han gi&#x00F8;r sig kostbar.)<note type="commentary"><hi rend="italic">gi&#x00F8;r sig kostbar</hi>: enten i den nu g&#x00E6;ldende betydning &#x0027;mods&#x00E6;tter sig p&#x00E5; skr&#x00F8;mt noget, han egentlig &#x00F8;nsker at g&#x00F8;re&#x0027; eller, vist mere sandsynligt, &#x0027;griber til en preci&#x00F8;s el. affekteret udtryksm&#x00E5;de&#x0027;.</note></stage>
+<l>Selv Elskov os, Madam, en Bane skal berede,</l>
+<l>Selv plantede han der de Roser, vi betr&#x00E6;de &#x2013;</l>
+<l>Ved Roserne forstaae Elskovs Henrykkelser,</l>
+<l>Sp&#x00F8;rg saa ey, om de staae hinanden gandske n&#x00E6;r.</l>
+<l>De st&#x00E6;rke Farvers Skin tilsidst vort Syn form&#x00F8;rke,</l>
+<l>Men derimod paa Gr&#x00F8;nt vort &#x00D8;ye samler Styrke;</l>
+<l>Det vidste Elskovs Gud, og Rum lod aabent staae</l>
+<l>Imellem Roserne, at stilte L&#x00E6;ngsler maae</l>
+<l>Den Afstand fylde op med evig gr&#x00F8;nne Blade.</l>
+</sp>
+<sp who="METTE"><speaker>Mette.</speaker> <stage>(Til Grete.)</stage>
+<l>Han taler som en Helt, det maa enhver ham lade.</l>
+</sp>
+<sp who="GRETE"><speaker>Grete.</speaker>
+<l>Hvor h&#x00E6;ves ey<note type="commentary"><hi rend="italic">h&#x00E6;ves ey</hi>: forsvinder ikke.</note> mit Mod, naar jeg bet&#x00E6;nker kun,</l>
+<l>At det min Elsker er som har saa s&#x00F8;d en Mund;<note type="commentary"><hi rend="italic">som har saa s&#x00F8;d en Mund</hi>: som udtrykker sig s&#x00E5; smukt.</note></l>
+<l><pb n="68"/>Men det er endnu lidt, jeg f&#x00F8;rst for Alvor kneiser,</l>
+<l>Naar jeg af mange smaae, men kiekke Ehrenpreiser</l>
+<l>Kun forestiller mig, hvor jeg omringes<note type="commentary"><hi rend="italic">omringe(s)</hi>: omgive, omslutte.</note> skal.</l>
+</sp>
+<sp who="JOHAN"><speaker>Johan.</speaker>
+<l>Vi Afkom vist nok faae, Madam, i Hobetal.</l>
+<stage>(Grete neyer, og Mette seer paa hans Been.)</stage>
+</sp>
+<sp who="GRETE"><speaker>Grete.</speaker>
+<l>Hvor fyndigt er hans Sprog! Hvor st&#x00E6;rke hans Udtrykke! &#x2013;</l>
+<l>Hvormed har jeg fortient for andre<note type="commentary"><hi rend="italic">for andre</hi>: frem for andre.</note> saadan Lykke? &#x2013;</l>
+<l part="I">Elskv&#x00E6;rdig Helt! &#x2013; &#x2013; au! au!</l>
+</sp>
+<sp who="METTE"><speaker>Mette.</speaker>
+<l part="F">Hvad fattes, Pige, dig?<note type="commentary"><hi rend="italic">Hvad fattes &#x2026; dig?</hi>: hvad er der i vejen med dig?</note></l>
+</sp>
+<sp who="GRETE"><speaker>Grete.</speaker>
+<l part="I">Au! au!</l>
+</sp>
+<sp who="JOHAN"><speaker>Johan.</speaker>
+<l part="M">Heltinde &#x2013; &#x2013;</l>
+</sp>
+<sp who="GRETE"><speaker>Grete.</speaker>
+<l part="M">Au!</l>
+</sp>
+<sp who="JOHAN"><speaker><pb n="69"/>Johan.</speaker>
+<l part="F">Betroe din Sorg til mig.</l>
+</sp>
+<sp who="GRETE"><speaker>Grete.</speaker>
+<l>Jeg fik en Ahnelse. O! alt for ki&#x00E6;re Skredder!</l>
+<stage>(Gr&#x00E6;dende.)</stage>
+<l part="I">Den spaaer mig din Ruin.<note type="commentary"><hi rend="italic">Ruin</hi>: &#x00F8;del&#x00E6;ggelse.</note></l>
+</sp>
+<sp who="METTE"><speaker>Mette.</speaker>
+<l part="F">Veed du, du Overtr&#x00E6;der</l>
+<l>Heltinders str&#x00E6;nge Lov? hvor har du h&#x00F8;rt, hvor l&#x00E6;st,</l>
+<l>At en Heltinde var af Ahnelser indbl&#x00E6;st<note type="commentary"><hi rend="italic">indbl&#x00E6;st</hi>: opfyldt, inspireret.</note></l>
+<l>To gange paa en Dag? Du f&#x00F8;rst i Morges dr&#x00F8;mmer,</l>
+<l>Faaer derpaa Ahnelse. &#x2013; Heltinders Lov indr&#x00F8;mmer</l>
+<l>Dig knap saa stor Portion;<note type="commentary"><hi rend="italic">Portion</hi>: andel.</note> og endda vover du</l>
+<l>Paa nye af Ahnelse at faae et Anst&#x00F8;d<note type="commentary"><hi rend="italic">Anst&#x00F8;d</hi>: anfald.</note> nu;</l>
+<l part="I">Det gaaer, min Troe, for vidt.</l>
+</sp>
+<sp who="JOHAN"><speaker>Johan.</speaker>
+<l part="F">Mit Hiertes Herskerinde!</l>
+<l>Lad onde Dunsters Magt ey din Forstand forblinde,</l>
+<l part="I">Hvad du har spiist i Dag?</l>
+</sp>
+<sp who="GRETE"><speaker><pb n="70"/>Grete.</speaker>
+<l part="F">En ringe Bagatel,</l>
+<l part="I">Fem Sild, lidt Erter, Flesk &#x2013; &#x2013; &#x2013;</l>
+</sp>
+<sp who="JOHAN"><speaker>Johan.</speaker>
+<l part="F">Ja jeg det t&#x00E6;nkte vel,<note type="commentary"><hi rend="italic">t&#x00E6;nkte vel</hi>: t&#x00E6;nkte det nok.</note></l>
+<l>Man faaer som ofteste<note type="commentary"><hi rend="italic">som ofteste</hi>: som oftest, som regel.</note> den ugemene<note type="commentary"><hi rend="italic">ugemene</hi>: ualmindelige, us&#x00E6;dvanlige.</note> Gave,</l>
+<l>At have Ahnelser af en bed&#x00E6;rvet<note type="commentary"><hi rend="italic">bed&#x00E6;rvet</hi>: ford&#x00E6;rvet, &#x00F8;delagt, beskadiget.</note> Mave,</l>
+<l>Troe du paa mine Ord, at Erter, Flesk og Sild,</l>
+<l>Helst<note type="commentary"><hi rend="italic">Helst</hi>: is&#x00E6;r.</note> om nye brygget &#x00D8;l man drikke vil dertil,</l>
+<l>Saa god en Ahnelse, som &#x00F8;nskes kan, frembringer.</l>
+</sp>
+<sp who="GRETE"><speaker>Grete.</speaker>
+<l>Seigneur! du talede, strax fik min Angest Vinger.</l>
+<l>Af Erter, Flesk og Sild (thi jeg nu troer med dig</l>
+<l>At denne Ahnelse kun de forvoldte mig)</l>
+<l>Urolig Dunst ey meer til qvalte<note type="commentary"><hi rend="italic">qvalte</hi>: pinte.</note> Hierte stiger.</l>
+<l>Hvad i min Heltes Ord der dog ey Kr&#x00E6;fter ligger!</l>
+<lb/>
+<l rend="indent_2"><hi rend="italic">Aria.</hi></l>
+<l rend="indent_2">Saa B&#x00F8;rne-Sv&#x00E6;rmen<note type="commentary"><hi rend="italic">Saa B&#x00F8;rne-Sv&#x00E6;rmen</hi>: fort&#x00E6;llingen om de fr&#x00E6;kke elever, der dog retter ind efter skolel&#x00E6;reren, stammer fra den franske klassicist Nicolas Boileau-Despr&#x00E9;aux og hans komiske versfort&#x00E6;lling <hi rend="italic">Le lutrin</hi> (1683), 3. sang, vers 85 ff.</note> i en Skole</l>
+<l rend="indent_2">Bestige Borde, B&#x00E6;nke, Stole,</l>
+<l rend="indent_2"><pb n="71"/>Og skrige h&#x00F8;yt, og skogger lee,<note type="commentary"><hi rend="italic">skogger lee</hi>: skoggerle, le h&#x00F8;jt og larmende.</note></l>
+<l rend="indent_2">Naar de ey Skolemester<note type="commentary"><hi rend="italic">Skolemester</hi>: skolel&#x00E6;rer.</note> see;</l>
+<l rend="indent_2">Men naar han kun ved D&#x00F8;ren r&#x00F8;rer,</l>
+<l rend="indent_2">Hver paa sit Sted strax Pokker<note type="commentary"><hi rend="italic">Pokker</hi>: eufemisme for fanden.</note> f&#x00F8;rer;</l>
+<l rend="indent_2">Han neppe faaer &#x00AB;I Esler&#x00BB; sagt,</l>
+<l rend="indent_2">F&#x00F8;r alting er i Orden bragt.</l>
+<lb/>
+<l>Jeg meener Dunsterne ved denne B&#x00F8;rne-Flok,</l>
+<l part="I">Og &#x2013; &#x2013; &#x2013;</l>
+</sp>
+<sp who="JOHAN"><speaker>Johan.</speaker>
+<l part="F">Tal ey meer herom, jeg dig begriber nok;</l>
+<l>Din Kompliment er smuk og Lignelsen<note type="commentary"><hi rend="italic">Lignelsen</hi>: sammenligningen, billedsproget.</note> er vakker,</l>
+<l part="I">Men skal vi ikke gaae?</l>
+</sp>
+<sp who="METTE"><speaker>Mette</speaker> <stage>(Hun seer udaf Vinduet efter Solen.)</stage>
+<l part="F">Det snart ad Tiden lakker.<note type="commentary"><hi rend="italic">Det snart ad Tiden lakker</hi>: tiden n&#x00E6;rmer sig.</note></l>
+</sp>
+<sp who="GRETE"><speaker>Grete.</speaker>
+<l part="I">Kom lille Hierte-Tyv.</l>
+</sp>
+<sp who="JOHAN"><speaker>Johan.</speaker>
+<l part="F">Jeg mig udbede maa</l>
+<l>Et mere tugtigt Navn. Naturen lod mig faae</l>
+<l>Til Tyv, og Tyverie et Had, saa overdrevet,</l>
+<l><pb n="72"/>At Ordet Hierte-Tyv er mig en Afskye blevet.</l>
+<l>Man s&#x00E6;tte Hierte for, man s&#x00E6;tte Hierte bag,</l>
+<l>En Tyv er dog en Tyv, det er en afgiort Sag.</l>
+</sp>
+<figure rend="shortHorizRule"/>
+</div>
+<div type="uchapter" subtype="scene" n="5">
+<head type="sub">Femte Optrin.</head>
+<stage>Mads, Jesper, Grete, Mette, Johan.</stage>
+<sp who="MADS"><speaker>Mads.</speaker>
+<l part="I">Madam, der staaer en Tyv.</l>
+</sp>
+<sp who="GRETE"><speaker>Grete.</speaker>
+<l part="F">Der staaer en Helt, Forr&#x00E6;der.<note type="commentary"><hi rend="italic">Forr&#x00E6;der</hi>: usling.</note></l>
+</sp>
+<sp who="MADS"><speaker>Mads.</speaker>
+<l>Jeg siger nu som f&#x00F8;r, Madam, der staaer en Skredder &#x2013; &#x2013;</l>
+<stage>(Grete faaer lidt Ont.)</stage>
+</sp>
+<sp who="METTE"><speaker>Mette.</speaker> <stage>(Til Johan.)</stage>
+<l>Nu gielder det, Seigneur, at vise Helte-Mod.</l>
+</sp>
+<sp who="JOHAN"><speaker><pb n="73"/>Johan.</speaker> <stage>(Til Mads.)</stage>
+<l>Du mig for liden er, Du ellers for min Fod</l>
+<l>Udgyde skulde strax det smudsige, som flyder</l>
+<l part="I">I dine Aarer.</l>
+</sp>
+<sp who="MADS"><speaker>Mads.</speaker>
+<l part="F">Glad jeg selv mit Blod udgyder,</l>
+<l>Men h&#x00E6;vnet vil jeg d&#x00F8;e, og Grete kiende skal</l>
+<l>Den Nederdr&#x00E6;gtige,<note type="commentary"><hi rend="italic">Den Nederdr&#x00E6;gtige</hi>: den usle, lumpne, ondsindede (person).</note> hun gav mig til Rival.</l>
+<l>Dog hvad! hun kiender ham. En Brudgom, som kan sti&#x00E6;le,</l>
+<l>Ey v&#x00E6;lger sig en Brud, som ey forstaaer at h&#x00E6;le.<note type="commentary"><hi rend="italic">h&#x00E6;le</hi>: bedrive h&#x00E6;leri.</note></l>
+<l>Naar jeg mig t&#x00E6;nker om, jeg heel forn&#x00F8;yet<note type="commentary"><hi rend="italic">heel forn&#x00F8;yet</hi>: ganske tilfreds.</note> er,</l>
+<l>At Grete holdt mig ey den store Naade v&#x00E6;rd,</l>
+<l>At blive hendes Mand. I disse dyre Tider<note type="commentary"><hi rend="italic">dyre Tider</hi>: tider, som pga. h&#x00F8;je priser n&#x00F8;dvendigg&#x00F8;r store udgifter.</note></l>
+<l>En Sv&#x00E6;rm af Haandv&#x00E6;rks Folk om Br&#x00F8;d indbyrdes strider;</l>
+<l>Heltinden klog indsaae, et Haandv&#x00E6;rk ey forslog,</l>
+<l>Og Mads kun havde et. &#x2013; Jeg mig udbeder dog,</l>
+<stage>(Til Johan.)</stage>
+<l>At fra en mere Riig du efterdags<note type="commentary"><hi rend="italic">efterdags</hi>: fremover.</note> vil r&#x00F8;ve,</l>
+<l>Hvad Grete eller du fremdeles kan beh&#x00F8;ve.</l>
+</sp>
+<sp who="GRETE"><speaker><pb n="74"/>Grete.</speaker>
+<l>Jeg ingen Lynild seer! &#x2013; ey h&#x00F8;rer Tordenskrald! &#x2013;</l>
+<l>Hvordan er dette fat? &#x2013; En frek Forr&#x00E6;der skal</l>
+<l>Ustraffet spotte os? &#x2013; Han ryddes ey af Jorden</l>
+<l>I samme &#x00D8;yeblik? &#x2013; Naturens heele Orden</l>
+<l>Urygget<note type="commentary"><hi rend="italic">Urygget</hi>: urokket.</note> staaer; &#x2013; Johan! hvad skal jeg troe, min Ven,</l>
+<l>Til slig Kolsindighed<note type="commentary"><hi rend="italic">Koldsindighed</hi>: ligegyldighed.</note> bev&#x00E6;ger Himmelen?</l>
+<l part="I">Hvor zitrer jeg! &#x2013; mon du &#x2013; &#x2013; &#x2013;</l>
+</sp>
+<sp who="JOHAN"><speaker>Johan.</speaker>
+<l part="F">Imod saa smaa Insecter,</l>
+<l>Mod Maddiker,<note type="commentary"><hi rend="italic">Maddiker</hi>: hvidlig insektlarver, (no.) mark.</note> som den, en Himmel ikke f&#x00E6;gter,</l>
+<l>Og Helten Himmelh&#x00F8;y, ifald han &#x00F8;yned&#x0027; den,</l>
+<l>Den krybe lod i Fred. &#x2013; <stage>(Til Mads.)</stage> Kryb ind, kryb ud igien,</l>
+<l>For mig kryb hvor du vil; kun dette vil jeg sige:</l>
+<l>Erindre hvad du er; viid du maa ikke vige</l>
+<l>Fra Maddikens Natur; tael ey; dit V&#x00E6;sen er</l>
+<l>At krybe, v&#x00E6;re taus. En Helt befaler her,</l>
+<l part="I">Kiend<note type="commentary"><hi rend="italic">Kiend</hi>: erkend, forst&#x00E5;.</note> ham, f&#x00F8;l dig, og lyd.<note type="commentary"><hi rend="italic">lyd</hi>: adlyd.</note></l>
+</sp>
+<sp who="GRETE"><speaker>Grete.</speaker>
+<l part="F">Nu fl&#x00F8;y min Siel tilbage,</l>
+<l>Som vilde nyligen af Angest Flugten tage;</l>
+<l><pb n="75"/>Jeg ustuderet er, saa meget veed jeg dog,</l>
+<l>At aldrig nogen Tyv kan f&#x00F8;re saadant Sprog.</l>
+<l part="I">Hvor Heltem&#x00E6;ssig, stolt &#x2013; &#x2013; &#x2013;</l>
+</sp>
+<sp who="MADS"><speaker>Mads.</speaker> <stage>(Til Grete.)</stage>
+<l part="F">Jeg tvivler ikke l&#x00E6;nger</l>
+<l>Paa din Uskyldighed, du v&#x00E6;rdig er, du tr&#x00E6;nger</l>
+<l part="I">Til en Oplysning. H&#x00F8;r &#x2013; &#x2013;</l>
+</sp>
+<sp who="GRETE"><speaker>Grete.</speaker>
+<l part="F">Forvovne, paa dit Ord,</l>
+<l>Du t&#x00E6;nker, jeg Johan en lav Misd&#x00E6;der<note type="commentary"><hi rend="italic">Misd&#x00E6;der</hi>: forbryder.</note> troer?<note type="commentary"><hi rend="italic">troer</hi>: anser for.</note></l>
+</sp>
+<sp who="JOHAN"><speaker>Johan.</speaker>
+<l part="I">Jeg sagde: Kryb og tie.</l>
+</sp>
+<sp who="MADS"><speaker>Mads.</speaker> <stage>(Til Grete.)</stage>
+<l part="F">Jeg gi&#x00F8;r dig her en Eed,</l>
+<l>Hvis du mig h&#x00F8;rer nu, at i al Evighed</l>
+<l>Du aldrig af min Mund et Ord skal mere h&#x00F8;re.</l>
+</sp>
+<sp who="GRETE"><speaker>Grete.</speaker>
+<l>Han paa det &#x00F8;mme Sted forstod mig ret at r&#x00F8;re,</l>
+<l part="I">Den Fristelse er stor.</l>
+</sp>
+<sp who="JOHAN"><speaker><pb n="76"/>Johan.</speaker>
+<l part="F">Jeg har befalet ham</l>
+<l>At tie som en Muur; tillad ham ey, Madam,</l>
+<l>At handle mod min Lov; min &#x00C6;re derved lider.</l>
+</sp>
+<sp who="GRETE"><speaker>Grete.</speaker>
+<l>Men vinder i sit Tab. Der siden kommer Tider,</l>
+<l>Da du mig takke skal, for jeg ulydig var;</l>
+<l>Da du bekiende<note type="commentary"><hi rend="italic">bekiende</hi>: erkende, indr&#x00F8;mme.</note> maa, din &#x00C6;re vundet har</l>
+<l>Langt meer, end den har tabt &#x2013; din Gretes f&#x00F8;rste Beyler,</l>
+<l>Al Maskepi<note type="commentary"><hi rend="italic">Maskepi</hi>: hemmelig forst&#x00E5;else, samkvem.</note> med ham (det ingenlunde feyler)<note type="commentary"><hi rend="italic">det ingenlunde feyler</hi>: det kan der overhovedet ikke v&#x00E6;re tvivl om.</note></l>
+<l>Gi&#x00F8;r dig og hende Skam; Den Skam b&#x00F8;r vi undgaae,</l>
+<l part="I">Vi b&#x00F8;r &#x2013; siig Eden Mads.</l>
+</sp>
+<sp who="MADS"><speaker>Mads.</speaker>
+<l part="F">Gid gule Erter maae</l>
+<l>Udi min sultne Mund til Stene sig forvandle,</l>
+<l>Saafremt jeg mod min Eed og L&#x00F8;fte skulde handle,</l>
+<l>F&#x00F8;r du mig kiendte frie<note type="commentary"><hi rend="italic">kiendte frie</hi>: frikendte.</note> fra L&#x00F8;fte og fra Eed.</l>
+</sp>
+<sp who="GRETE"><speaker>Grete.</speaker>
+<l>Jeg dig vel sverge b&#x00F8;d, men der er Maade med.</l>
+<l>Graa Erter var vel f&#x00E6;lt, men sverge ved de gule!</l>
+<l><pb n="77"/>Hu! Haaret reyser sig. <stage>(Til Mette.)</stage> Bring mig en lille Smule</l>
+<l part="I">Af Flesk og Erter ind.</l>
+</sp>
+<stage>(Mette gaaer.)</stage>
+<figure rend="shortHorizRule"/>
+</div>
+<div type="uchapter" subtype="scene" n="6">
+<head type="sub">Siette Optrin.</head>
+<stage>Mads, Jesper, Grete, Johan.</stage>
+<sp who="GRETE"><speaker>Grete.</speaker>
+<l part="F">Jeg f&#x00F8;ler, synes mig,</l>
+<l>Hvor Erter i min Mund til Steen forvandle sig;</l>
+<l>Fornuften vil omsonst<note type="commentary"><hi rend="italic">omsonst</hi>: forg&#x00E6;ves.</note> den Skrek af Blodet jage.</l>
+<l>Jeg haaber, naar jeg f&#x00F8;rst faaer Erterne at smage,</l>
+<l part="I">Den snart skal F&#x00F8;dder faae.</l>
+</sp>
+<figure rend="shortHorizRule"/>
+</div>
+<div type="uchapter" subtype="scene" n="7">
+<head type="sub"><pb n="78"/>Syvende Optrin.</head>
+<stage>Mette med en Skaal Erter, de forrige.</stage>
+<sp who="GRETE"><speaker>Grete</speaker> <stage>tager Skaalen.</stage>
+<l part="F">Tak, kiere Mette. <stage>(Til Mads.)</stage> Tal!</l>
+</sp>
+<sp who="MADS"><speaker>Mads.</speaker>
+<l part="I">Erindrer du en Tiid &#x2013; &#x2013; &#x2013;</l>
+</sp>
+<sp who="JOHAN"><speaker>Johan.</speaker>
+<l part="F">Heltinde du er gal</l>
+<l part="I">Som h&#x00F8;rer paa en Orm.</l>
+</sp>
+<sp who="GRETE"><speaker>Grete</speaker> <stage>(som spiser bestandig.)<note type="commentary"><hi rend="italic">bestandig</hi>: hele tiden.</note></stage>
+<l part="F">Heltinder er&#x0027; ey gale;</l>
+<l>Med meer &#x00C6;rb&#x00F8;dighed, Seigneur, du burde tale.</l>
+</sp>
+<sp who="MADS"><speaker>Mads.</speaker>
+<l part="I">Erindrer du en Tid &#x2013; &#x2013; &#x2013;</l>
+</sp>
+<sp who="JOHAN"><speaker>Johan.</speaker>
+<l part="F">Kom lad os gaae Madam.</l>
+</sp>
+<sp who="GRETE"><speaker>Grete.</speaker>
+<l>Jeg fremmer<note type="commentary"><hi rend="italic">fremmer</hi>: befordrer, fremhj&#x00E6;lper.</note> jo dit Vel, i det jeg h&#x00F8;rer ham.</l>
+</sp>
+<sp who="MADS"><speaker><pb n="79"/>Mads.</speaker>
+<l part="I">Erindrer du en Tiid &#x2013; &#x2013; &#x2013;</l>
+</sp>
+<sp who="JOHAN"><speaker>Johan.</speaker>
+<l part="F">Erindrer eller glemmer,</l>
+<l part="I">Saa er det Tiid at gaae.</l>
+</sp>
+<sp who="MADS"><speaker>Mads</speaker> <stage>(Til Grete.)</stage>
+<l part="F">Da to Latinske<note type="commentary"><hi rend="italic">Latinsk(e)</hi>: udformet i skrifttypen antikva i mods&#x00E6;tning til gotisk eller dansk (&#x0027;kr&#x00F8;llede bogstaver&#x0027;), som p&#x00E5; Wessels tid var standardskrifttypen.</note> Emmer<note type="commentary"><hi rend="italic">Emmer</hi>: M&#x0027;er (MM, Mads Madsens initialer).</note></l>
+<l part="I">Du syede paa mit T&#x00F8;y &#x2013; &#x2013; &#x2013;</l>
+</sp>
+<sp who="JOHAN"><speaker>Johan.</speaker>
+<l part="F">Hvi<note type="commentary"><hi rend="italic">Hvi</hi>: hvorfor.</note> blev din Mund ey syed?</l>
+<l>Du h&#x00F8;rer, som jeg seer, Madam, med Hiertens Fryd,</l>
+<l>Hvordan du elskede, hvordan du sydde<note type="commentary"><hi rend="italic">sydde</hi>: syede.</note> Navne;</l>
+<l>Vil du ey kysse ham? vil du ham ey omfavne?</l>
+<l part="I">Jeg skal ey hindre dig.</l>
+<stage>(Han vil gaae.)</stage>
+</sp>
+<sp who="JESPER"><speaker>Jesper</speaker> <stage>(Som holder ham tilbage.)</stage>
+<l part="F">Du bliver her Seigneur.</l>
+</sp>
+<sp who="JOHAN"><speaker>Johan.</speaker>
+<l>Desverre! Du har Ret. <stage>(Sagte.)</stage> Jeg snart af Angest d&#x00F8;er!</l>
+</sp>
+<sp who="GRETE"><speaker><pb n="80"/>Grete.</speaker>
+<l>Du ey dit Beste veed. Jeg veed det, jeg det fremmer,</l>
+<l>Trods dig, trods al din Spot. <stage>(Til Mads.)</stage> Igien til dine Emmer!</l>
+<l part="I">Der var det jo du slap.</l>
+</sp>
+<sp who="MADS"><speaker>Mads.</speaker>
+<l part="F">Om du dem saae igien,</l>
+<l part="I">Saa kiendte du dem vel?</l>
+</sp>
+<sp who="GRETE"><speaker>Grete.</speaker>
+<l part="F">Hvor sigter dette hen?<note type="commentary"><hi rend="italic">Hvor sigter dette hen?</hi>: hvad g&#x00E5;r det her ud p&#x00E5;?</note></l>
+<l part="I">Nu isner alt mit Blod!</l>
+</sp>
+<sp who="JOHAN"><speaker>Johan.</speaker>
+<l part="F">Maaskee er Tiden omme,</l>
+<l>Og vi i Tempelet<note type="commentary"><hi rend="italic">Tempelet</hi>: kirken.</note> for silde<note type="commentary"><hi rend="italic">for silde</hi>: for sent.</note> skulde komme,</l>
+<l>Fordi du daarligen<note type="commentary"><hi rend="italic">daarligen</hi>: t&#x00E5;beligt.</note> et L&#x00F8;fte holdet har,</l>
+<l>Som uforsigtigen en Maddik given var,</l>
+</sp>
+<sp who="GRETE"><speaker>Grete.</speaker>
+<l>Endog mod Maddiker jeg Troe og Love holder.</l>
+<l>At Tiden gaar omsonst,<note type="commentary"><hi rend="italic">omsonst</hi>: til ingen nytte.</note> du selv jo kun forvolder.</l>
+<l>Din Banghed<note type="commentary"><hi rend="italic">Banghed</hi>: &#x00E6;ngstelse.</note> qv&#x00E6;ler<note type="commentary"><hi rend="italic">qv&#x00E6;ler</hi>: piner (ty. qu&#x00E4;len).</note> mig; men L&#x00F8;ftet er alt giort.</l>
+</sp>
+<sp who="JOHAN"><speaker><pb n="81"/>Johan.</speaker> <stage>(Afsides.)</stage>
+<l part="I">Jeg d&#x00F8;er!</l>
+</sp>
+<sp who="MADS"><speaker>Mads.</speaker>
+<l part="F">Ved disse Kn&#x00E6;, at jeg skal v&#x00E6;re kort</l>
+<stage>(Peger paa Johan.)</stage>
+<l>Du kan Mads Madsens Navn og dine Emmer finde.</l>
+</sp>
+<sp who="GRETE"><speaker>Grete.</speaker> <stage>(Til Johan.)</stage>
+<l>Du blegner &#x2013; Haab og Liv og Kraft og Mod forsvinde.</l>
+<stage>(Hun vil til at besvime.)</stage>
+</sp>
+<sp who="MADS"><speaker>Mads.</speaker>
+<l part="I">Ham Fanden har forf&#x00F8;rt<note type="commentary"><hi rend="italic">forf&#x00F8;rt</hi>: forledt.</note> &#x2013; &#x2013; &#x2013;</l>
+</sp>
+<sp who="GRETE"><speaker>Grete.</speaker>
+<l part="F">Om Folk af Helte-Rang</l>
+<l>Du tale t&#x00F8;r saa lavt? Viid til en anden gang,</l>
+<l>Naar Helte Feyl begaae, er Ski&#x00E6;bnen Gierningsmanden,</l>
+<l>Kun P&#x00F8;belen gi&#x00F8;r Ondt og Skylden giver Fanden &#x2013;</l>
+<l>Men, Mette, hvorfor gav ey du ham dette Svar?</l>
+<l>Du saae jeg i Begreb med at besvime var.<note type="commentary"><hi rend="italic">i Begreb med at besvime var</hi>: var ved at besvime.</note></l>
+<stage>(Til Mads.)</stage>
+<l>Og du en anden gang, naar du seer Folk vil daane,</l>
+<l><pb n="82"/>Saa viid, at du dem b&#x00F8;r for P&#x00F8;lse-Snak<note type="commentary"><hi rend="italic">P&#x00F8;lse-Snak</hi>: sludder, &#x00E6;vl.</note> forskaane.</l>
+<l>Hvad skal jeg gi&#x00F8;re nu? &#x2013; besvime eller ey? &#x2013;</l>
+<l>Om det for silde er, veed Pokker<note type="commentary"><hi rend="italic">Pokker</hi>: sgu da.</note> ikke jeg.</l>
+<l>Jeg i en Lignelse min Meening vil fremsette;</l>
+<l>Og siden maae I mig om Eders underrette.</l>
+<l>Jeg i saa slibrig<note type="commentary"><hi rend="italic">slibrig</hi>: vanskelig.</note> Sag ey stoeler blot paa mig.</l>
+<lb/>
+<l rend="indent_2"><hi rend="italic">Aria.</hi></l>
+<l rend="indent_2">Til een, som n&#x00F8;s i Gaar, at sige:</l>
+<l rend="indent_2">&#x00AB;Hj&#x00E6;lp Gud!<note type="commentary"><hi rend="italic">Hielp Gud</hi>: gid Gud m&#x00E5; lade det gavne, prosit.</note> i Dag bet Faar,&#x00BB;<note type="commentary"><hi rend="italic">bet Faar</hi>: lille far, min ven.</note></l>
+<l rend="indent_2">&#x00AB;For det du n&#x00F8;s i Gaar.&#x00BB;</l>
+<l rend="indent_2">Sig passer ikke just saa lige.</l>
+<lb/>
+<l rend="indent_2">Men naar man seer lidt dybt i Tingen,</l>
+<l rend="indent_2">Saa troer jeg, det er reent,<note type="commentary"><hi rend="italic">det er reent</hi>: det er klart.</note></l>
+<l rend="indent_2">At Prosit,<note type="commentary"><hi rend="italic">Prosit</hi>: h&#x00F8;flighedsudtrykket prosit (lat.), bogstaveligt: gid det m&#x00E5; gavne dig.</note> som kom seent,</l>
+<l rend="indent_2">Er bedre end aldeles ingen.</l>
+<lb/>
+<l rend="indent_2"><hi rend="italic">Chorus.</hi></l>
+<l rend="indent_2">Den Prosit, som kom seent,</l>
+<l rend="indent_2">Er bedre end aldeles ingen,</l>
+<l rend="indent_2">Og Grete hun seer dybt i Tingen,</l>
+<l rend="indent_2">Og hvad hun troer, er reent.</l>
+</sp>
+<sp who="METTE"><speaker><pb n="83"/>Mette.</speaker>
+<l>Besvime, ski&#x00F8;nt lidt seent, er vores Raad til dig.</l>
+</sp>
+<sp who="GRETE"><speaker>Grete.</speaker>
+<l>Tag Skaalen een. Jeg meer ey til mig selv kan finde.<note type="commentary"><hi rend="italic">Jeg meer ey til mig selv kan finde</hi>: jeg er ved at besvime.</note></l>
+<stage>(Mads tager Skaalen og spiser.)</stage> <stage>(Hun daaner.)</stage>
+</sp>
+<sp who="JOHAN"><speaker>Johan</speaker> <stage>(til Mette.)</stage>
+<l>Jeg er saa bange for, at Helten skal forsvinde,</l>
+<l>Og Skredderen staae r&#x00F8;d og feig og flad<note type="commentary"><hi rend="italic">flad</hi>: meget flov, sluk&#x00F8;ret.</note> igjen,</l>
+<l>Naar Grete vogner op udaf Besvimelsen.</l>
+</sp>
+<sp who="METTE"><speaker>Mette.</speaker>
+<l>Selv Helte kunde tidt staae r&#x00F8;de, feige, flade;</l>
+<l>At v&#x00E6;re Helte dog de derfor ey aflade.<note type="commentary"><hi rend="italic">aflade</hi>: oph&#x00F8;re med.</note></l>
+<l>Ja vist skal du, Seigneur, staa flad og feig og r&#x00F8;d</l>
+<l>Men r&#x00F8;d og feig og flad du faaer en Helte-D&#x00F8;d,</l>
+<l>Naar du kun siger det, som andre Helte sige,</l>
+<l>Naar de Lastv&#x00E6;rdige forlade Jorderige.</l>
+</sp>
+<sp who="GRETE"><speaker>Grete.</speaker> <stage>(som vogner op.)</stage>
+<l>Hvad Skam! &#x2013; Hvad Qval! Hvad Striid! &#x2013; Du, som min Elsker var,</l>
+<l>Du skulde blive mig til en saa grum Barbar!<note type="commentary"><hi rend="italic">Barbar</hi>: hjertel&#x00F8;s person, umenneske.</note></l>
+</sp>
+<sp who="JOHAN"><speaker><pb n="84"/>Johan.</speaker> <stage>(gr&#x00E6;dende).</stage>
+<l>Barbar! jo men! jeg dig mit rette Navn skal sige:</l>
+<l>En Tyveknegt &#x2013; men t&#x00E6;nk dog ey, jeg kunde vige</l>
+<l>Fra Dyden uden Striid. <stage>(Til Mette.)</stage> Siig du oprigtigen,</l>
+<l>Om Dyden og om jeg ey stode os<note type="commentary"><hi rend="italic">stode os</hi>: holdt stand.</note> som M&#x00E6;nd</l>
+<l>Mod Ski&#x00E6;bne, Elskov, Last, og Fanden og hans Fetter &#x2013;</l>
+<l>Dog &#x2013; Helten Sminke ey paa sine Laster setter;</l>
+<l>Madam, jeg er en Tyv, en Liderlig,<note type="commentary"><hi rend="italic">Liderlig</hi>: umoralsk, udsv&#x00E6;vende person.</note> en Kn&#x00F8;s,<note type="commentary"><hi rend="italic">Kn&#x00F8;s</hi>: skurk.</note></l>
+<l part="I">Jeg har van&#x00E6;ret dig &#x2013; Du h&#x00E6;vnes b&#x00F8;r &#x2013;</l>
+<stage>(Han tager sin Kniv op.)</stage>
+<l part="F">Adi&#x00F8;s.</l>
+<stage>(Han stikker sig.)</stage>
+</sp>
+<sp who="GRETE"><speaker>Grete.</speaker>
+<l>Aa! bitter kn&#x00F8;e!<note type="commentary"><hi rend="italic">bitter kn&#x00F8;e</hi>: j&#x00F8;sses, d&#x00F8;d og pine.</note> &#x2013; Han d&#x00F8;er! &#x2013; Han Hiertet har i Br&#x00F8;stet!<note type="commentary"><hi rend="italic">Han Hiertet har i Br&#x00F8;stet</hi>: han har mod og mandshjerte.</note></l>
+<l>Saa har hans Last omsonst med dette Haab mig tr&#x00F8;stet,</l>
+<l>At han<note type="commentary"><hi rend="italic">At han</hi>: t&#x00E6;nk, at han.</note> kun Skredder var! &#x2013; min Elskers Hierte boer</l>
+<l>Udi hans Br&#x00F8;st &#x2013; han er en Helt: den Tr&#x00F8;st er stor,</l>
+<l><pb n="85"/>Men Jord! Hvor dyre ki&#x00F8;bt &#x2013; <stage>(Til Mads.)</stage> H&#x00F8;r, du Ulykkers Fyrste!</l>
+<l>Er der ey meere Blod, hvorefter du kan t&#x00F8;rste?</l>
+<l>Umenneske! st&#x00F8;d til! der er og Blod i mig.</l>
+</sp>
+<sp who="MADS"><speaker>Mads.</speaker>
+<l>Jeg &#x00F8;m og kielen skal dit Tab oprette dig.<note type="commentary"><hi rend="italic">dit Tab oprette dig</hi>: r&#x00E5;de bod p&#x00E5; dit tab.</note></l>
+<l>&#x00D8;m for din &#x00C6;re f&#x00F8;r, jeg frelste den fra Fare.</l>
+</sp>
+<sp who="GRETE"><speaker>Grete.</speaker>
+<l>Du kunde dig, Barbar, saa grum en Omsorg spare.</l>
+<l>Du lover dig<note type="commentary"><hi rend="italic">Du lover dig</hi>: du g&#x00F8;r dig forventninger om.</note> min Haand som en tilb&#x00F8;rlig Frugt<note type="commentary"><hi rend="italic">tilb&#x00F8;rlig Frugt</hi>: passende bel&#x00F8;nning.</note></l>
+<l>Udaf din Nidkierhed.<note type="commentary"><hi rend="italic">Nidkierhed</hi>: fanatisk iver, emsighed.</note> Snart haver jeg den brugt.</l>
+<stage>(Hun stikker sig.)</stage>
+<l part="I">Nu kan du tage den.</l>
+</sp>
+<sp who="MADS"><speaker>Mads</speaker> <stage>til Mette.</stage>
+<l part="F">Skil mig ved disse Erter;</l>
+<l>Jeg maa med Armene og vise mine Smerter.</l>
+<stage>(Mette tager Skaalen, og hun og Jesper spiser, Mads setter sig i Lave<note type="commentary"><hi rend="italic">i Lave</hi>: til rette.</note> og siger:)</stage>
+<l>En distileret<note type="commentary"><hi rend="italic">distileret</hi>: destilleret, fort&#x00E6;ttet, af koncentreret styrke.</note> Ild af tretten Helveder</l>
+<l>Og &#x2013; &#x2013; jeg veed ikke selv, hvor mange Furier.<note type="commentary"><hi rend="italic">Furier</hi>: onde &#x00E5;nder i kvindeskikkelse, der h&#x00F8;rer hjemme i d&#x00F8;dsriget i rom. mytologi.</note></l>
+<l>H&#x00F8;r Mette, hielp mig lidt. Du kan jo Emolletten;<note type="commentary"><hi rend="italic">Emolletten</hi>: den lille multiplikationstabel.</note></l>
+<l>Siig mig, hvor mange er da Trende<note type="commentary"><hi rend="italic">Trende</hi>: tre.</note> gange Tretten;</l>
+<l>Thi Trende Furier der er per Helvede,</l>
+<l part="I">Om man har sagt mig sandt.</l>
+</sp>
+<sp who="METTE"><speaker><pb n="86"/>Mette.</speaker>
+<l part="F">Ni &#x2013; &#x2013; ni og tredive.</l>
+</sp>
+<sp who="MADS"><speaker>Mads.</speaker>
+<l>En Helt, som regner slet er meget at beklage.</l>
+<l>Min Tale paa en frisk jeg nu maa igientage &#x2013;</l>
+<l>En distileret Ild af tretten Helveder</l>
+<l>Og ni og tredive bandsatte<note type="commentary"><hi rend="italic">bandsatte</hi>: forbandede.</note> Furier,</l>
+<l>Som huses i mit Br&#x00F8;st, mig Hovedet gi&#x00F8;r&#x0027; kruset.<note type="commentary"><hi rend="italic">mig Hovedet gi&#x00F8;r&#x0027; kruset</hi>: g&#x00F8;r mig forvirret.</note></l>
+<l>Men denne troer jeg nok, skal feie dem af Huset.<note type="commentary"><hi rend="italic">feie dem af Huset</hi>: f&#x00E5; dem v&#x00E6;k.</note></l>
+<stage>(Han tager Kniven op.)</stage> <stage>(Han stikker sig.)</stage>
+</sp>
+<sp who="METTE"><speaker>Mette.</speaker>
+<l>Hvor er jeg lykkelig, min Tour dog kom engang!<note type="commentary"><hi rend="italic">min Tour dog kom engang</hi>: at det endelig blev min tur.</note></l>
+<stage>(Hun giver Jesper Skaalen.)</stage>
+<l>Jeg seer to kiere Lig af h&#x00F8;yest Helte-Rang &#x2013;</l>
+<l>Jeg seer &#x2013; jeg ikke kan en Helte-Sprikvort<note type="commentary"><hi rend="italic">Helte-Sprikvort</hi>: heroisk fyndord.</note> finde.</l>
+<l>Jeg uden Sprikvort d&#x00F8;er &#x2013; Herr Jesper! Tienerinde.<note type="commentary"><hi rend="italic">Tienerinde</hi>: til Deres tjeneste.</note></l>
+<stage>(Hun stikker sig.)</stage>
+</sp>
+<sp who="JESPER"><speaker>Jesper.</speaker>
+<l>Hvi skulde Mette d&#x00F8;e? Jeg ey Aarsagen veed; &#x2013;</l>
+<l>Men naar de alle d&#x00F8;e, saa maa jeg og afsted.</l>
+<stage>(Han setter Skaalen fra sig.)</stage>
+<l><pb n="87"/>I Efterlevende som dette Sted betr&#x00E6;de!</l>
+<l>Som skue disse Liig og ey vor D&#x00F8;d begr&#x00E6;de,</l>
+<l>I haarde er&#x0027; som Flint &#x2013; Saa grum er ingen f&#x00F8;d.</l>
+<l>Nei, Eftersl&#x00E6;gten<note type="commentary"><hi rend="italic">Eftersl&#x00E6;gten</hi>: efterkommere.</note> vist<note type="commentary"><hi rend="italic">vist</hi>: med sikkerhed.</note> bejamre<note type="commentary"><hi rend="italic">bejamre</hi>: klage over.</note> skal vor D&#x00F8;d.</l>
+<l>Paa dens Medlidenhed jeg forud er saa sikker,</l>
+<l>At jeg et &#x00D8;nske gi&#x00F8;r, i det at jeg mig stikker,</l>
+<l>Hvorved jeg vidne vil min Tak for hver en Taar.<note type="commentary"><hi rend="italic">Taar</hi>: t&#x00E5;re.</note></l>
+<l>I Efterlevende! troer!<note type="commentary"><hi rend="italic">troer</hi>: tro mig.</note> det fra Hiertet gaaer.</l>
+<l>Gid det ey Eder gaae, som det gik denne St&#x00F8;mper!<note type="commentary"><hi rend="italic">St&#x00F8;mper</hi>: stymper, dvs. stakkel.</note></l>
+<l><hi rend="bold">Gid Eders Kierlighed maa aldrig mangle Str&#x00F8;mper!</hi></l>
+<stage>(Han stikker sig.)</stage>
+</sp>
+<stage>Ende paa femte Optog.</stage>
+<figure rend="shortHorizRule"/>
+</div>
+</div>
+</body>
+</text>
+</TEI>

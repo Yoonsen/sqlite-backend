@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI PUBLIC "-// TEI P5 //EN" "http://www.tei-c.org/release/xml/tei/custom/schema/dtd/tei_all.dtd">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="BS_Obstfelder_Jeg-Formen">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>bokselskap.no, Oslo 2020
+<lb/>Sigbj&#x00F8;rn Obstfelder: <hi rend="italic">Jeg-Formen i Litteraturen</hi>
+<lb/>Teksten i bokselskap.no er transkribert fra Illustreret Tidende, Nr. 47, 19.08.1900 (K&#x00F8;benhavn)
+<lb/>ISBN: 978-82-8319-510-1 (digital, bokselskap.no), 978-82-8319-511-8 (epub), 978-82-8319-512-5 (mobi)
+</title>
+</titleStmt>
+<publicationStmt>
+<p>Publiseres som digital tekst av bokselskap.no.</p></publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Jeg-Formen i Litteraturen I: Illustreret Tidende, Nr. 47, 1900</title>
+<author>Sigbj&#x00F8;rn Obstfelder</author>
+<pubPlace>K&#x00F8;benhavn</pubPlace>
+<date>19.08.1900</date>
+<note>Transkribert av bokselskap.no</note>
+</bibl>
+</sourceDesc>
+</fileDesc>
+<revisionDesc>
+<change who="ENW" when="2020-01-10">Lagt inn korrekturrettelser. Entiteter, kodekontroll og validering.</change>
+<change xml:id="ENW" who="ENW" when="2020-01-09">Transkripsjon og XML-koding. Entiteter. Klar for korrektur.</change>
+</revisionDesc>
+</teiHeader>
+<text xml:id="BS_Obstfelder_Jeg-Formen_tekst" type="essay">
+<front>
+<titlePage type="main">
+<byline><docAuthor>Sigbj&#x00F8;rn Obstfelder</docAuthor></byline>
+<docTitle>
+<titlePart type="main">Jeg-Formen <lb/>i Litteraturen</titlePart>
+</docTitle>
+<docDate>bokselskap.no<lb/>Oslo 2020</docDate>
+</titlePage>
+</front>
+<body>
+<div type="chapter">
+<p rend="noIndent">Hr. Dr. Edvard Brandes har i en Kritik over Hamsuns sidste Bog ford&#x00F8;mt Jeg-Formen. Der er intet en Kunstner n&#x00F8;digere g&#x00F8;r end at forsvare den Kunst, der er hans egen eller synes ham i Sl&#x00E6;gt dermed. Det saarer Kunstnerstoltheden. Han skyr at forsvare det, der synes ham saa n&#x00F8;dvendigt og uimodsigeligt som Regnen fra Himlen eller Duften fra Blomsten.</p>
+<p>Imidlertid har undertegnede l&#x00E6;nge &#x00F8;nsket at bryde Digternes Tavshed ligeover for den Str&#x00F8;m af Ukvemsord, Kritikkerne have ladet hagle over &#x00AB;Jeg-Formen&#x00BB;. Det er blevet Mode blandt Kritikkerne at begynde enhver Recension med en Banstraale mod &#x00AB;Jeg-Formen&#x00BB;, hvad enten det har noget med det foreliggende at bestille eller ej. En Kritikker synes sig selv et bedre Menneske, naar han har faaet sagt den snart udslidte Frase om de &#x00AB;moderne&#x00BB; Digtere, som sv&#x00E6;lge i sine smaa Sorger o.s.v. Det er blevet popul&#x00E6;rt. Saa popul&#x00E6;rt, at man skulde tro det vraget af en saa kr&#x00E6;sen Mand som Dr. Edvard Brandes.</p>
+<p>Dr. E. Brandes skriver sine Bem&#x00E6;rkninger i en aldeles afgjort Form. Han fort&#x00E6;ller som noget, han kan meddele med uomtvistelig Sikkerhed, at Jeg-Formen er let, at den letter den skrivende Arbejdet i s&#x00E6;rdeles Grad. At Jeg-Formen ogsaa ligger Kunstens strenge Linjer fjernt, er rigtignok ikke sagt saadan lige ud, men der er sagt, at den har en Tendens til det.</p>
+<p>Nu falder det sig saa underligt, at den, som skriver dette, finder det n&#x00E6;rmest liggende simplethen at paastaa akkurat det modsatte af disse Ting. Men da det kl&#x00E6;der en ung Mand og spirende Forfatter lige saa lide at paastaa noget, som det kl&#x00E6;der en Dr. Edvard Brandes vel, kan jeg blot sige, at jeg har haft nogen Erfaring i det foreliggende Sp&#x00F8;rgsmaal, og for mig staar det som aldeles modsat. Jeg har skrevet dramatisk baade f&#x00F8;r og efter, jeg fors&#x00F8;gte Jeg-Formen, og det forekommer mig, at Jeg-Formen er usigelig vanskelig. Netop fordi det er saa vanskeligt at fange i Ordet de Linjer, de strenge eller milde Linjer, Synet havde, netop fordi Jeg-Formen spiller med alle Nuancer. Men Nuancerne komme jo ikke frem uden i Skygge af Linjerne.</p>
+<p>Dr. Edv. Brandes siger en S&#x00E6;tning, der synes mig en Mand af hans Rang uv&#x00E6;rdig.Det er et Slags Ordspil: gid denne Jeg-Form ikke var, gid Mennesker kunde holde deres Jeg udenfor deres B&#x00F8;ger!</p>
+<p>Hr. Edv. Brandes ved nemlig meget godt, at Pronominet afg&#x00F8;r det ikke, <emph>han</emph> er oftere et tranponert jeg, et falskt <emph>han</emph>, end jeg&#x0027;et er Forfatterens jeg. Der gives ved Siden af den dramatiske ingen mere objektiverende Form. Mig har den forekommet endnu mere objektiverende.</p>
+<p>Den dramatiske Form s&#x00F8;ger at skabe Mennesker efter deres ydre Tr&#x00E6;k, i store Linjer. Jeg-Formen er f&#x00F8;dt af Trangen til at gaa helt til Bunds i det Menneske eller den enkelte Sindstilstand, man ser for sig. Edv. Brandes skulde vide, hvad det koster at afg&#x00F8;re, om det eller det er det rette Ord. Og tror Dr. Brandes, at det ikke vil f&#x00F8;les, hvis Ordet er u&#x00E6;gte, klinger falskt. Ingen Form fordrer saa stor Lydh&#x00F8;rhed. Han-Formen d&#x00E6;kker, man kan putte i den som ind i en S&#x00E6;k, af sit eget, af det, man har set, af det, man digter &#x2013; Jeg-Formen tr&#x00E6;nger en aldeles metallisk Klarhed i Stoffet, Legering taales ikke. Derved frembringes visselig ofte Monotoni &#x2013; og det er den <emph>gamle</emph> Indvending mod Jeg-Formen, den rigtige, som Folket har fundet paa, og ikke Kritikkerne.</p>
+<p>Jeg-Formen er ogsaa fremgaaet af Trangen til at gribe dybere ned. Dramaet giver Karaktererne ved deres ydre Afspejling. Romanen kombinerer, spinder sammen Personer, Begivenheder. Jeg-Formen vil det, som er mellem og bag om alt dette. Det er for saa vidt, at den er en Monolog. Men der er mere. Den er en selvst&#x00E6;ndig Kunstform. Det er mig let forstaaeligt, at den synes Hr. Edv. Brandes absurd, usmagelig. Den staar hans Naturel fjernt.</p>
+<p>Men der kan siges Ting i Jeg-Formen, som f&#x00F8;r have v&#x00E6;ret usagte, som slaa som Lyn ned hos dem, der l&#x00E6;ser, dem, Digterne skrive for. Hvis de skrev for Kritikkerne, vilde Kunsten, ak, kun blive Blomster uden Duft. Det store, ukendte Publikum er det, Kunstneren arbejder for, Skuespilleren spiller for, det, der er guddomsstrengt i sin Naivetet, mildt ved sin Trang til at skabe Genlyd.</p>
+<p>Jeg-Formen har en Evne til at skabe Genlyd som ingen anden Form af ren Digtning (i Mods&#x00E6;tning til Dramaet, der synes mig at staa udenfor Digtningen, som en Kunst for sig, der har taget Ordets Musik og Legemets v&#x00E6;kslende Plastik til Hj&#x00E6;lp). Den gaar ud af et Syn som en ren Hallucination, og det skulde v&#x00E6;re underligt, om ikke dens Intensitet undertiden fik Medmenneskene til at b&#x00E6;vre med og lytte, lytte efter det, Digteren vil. Thi Digteren vil, som enhver Kunstner, ikke selve V&#x00E6;rket, men det uendelig st&#x00F8;rre, dybere, sk&#x00F8;nnere, som V&#x00E6;rket skal fremkalde.</p>
+</div>
+</body>
+</text>
+</TEI>
+

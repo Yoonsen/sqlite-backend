@@ -1,0 +1,2548 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI PUBLIC "-// TEI P5 //EN" "http://www.tei-c.org/release/xml/tei/custom/schema/dtd/tei_all.dtd">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="BS_Bjornson_DeNygifte">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>bokselskap.no, Oslo 2021
+<lb/>Bj&#x00F8;rnstjerne Bj&#x00F8;rnson: <hi rend="italic">De Nygifte</hi>
+<lb/>Teksten er hentet fra Universitetet i Oslo/dokpro.uio.no. Dokpros tekst er basert p&#x00E5; Samlede Digter-Verker, standardutg. i 9 bind, Kristiania, Gyldendal, 1919&#x2013;20.
+<lb/>ISBN: 978-82-8319-594-1 (digital, bokselskap.no), 978-82-8319-595-8 (epub), 978-82-8319-596-5 (mobi)
+</title>
+</titleStmt>
+<publicationStmt>
+<p>Publiseres som digital tekst av bokselskap.no.</p></publicationStmt>
+<sourceDesc>
+<bibl>
+<title>De Nygifte I: Samlede Digter-verker, bind 2</title>
+<author>Bj&#x00F8;rnstjerne Bj&#x00F8;rnson</author>
+<publisher>Gyldendal</publisher>
+<pubPlace>Kristiania/K&#x00F8;benhavn</pubPlace>
+<date>1919</date>
+<note>1bbbind2.xml (mottatt fra Universitetet i Oslo, 2021)</note>
+</bibl>
+</sourceDesc>
+</fileDesc>
+<revisionDesc>
+<change who="ENW" when="2021-03-18">Entiteter, kodekontroll og validering. Lagt inn ISBN. Klar for publisering.</change>
+<change xml:id="ENW" who="ENW" when="2021-03-18">Konvertert fra DOKPRO-koding til BS-koding.</change>
+</revisionDesc>
+</teiHeader>
+<text xml:id="BS_Bjornson_DeNygifte_tekst" type="drama">
+<front>
+<titlePage type="main">
+<byline><docAuthor>Bj&#x00F8;rnstjerne Bj&#x00F8;rnson</docAuthor></byline>
+<docTitle>
+<titlePart type="main">De Nygifte</titlePart>
+</docTitle>
+<docDate>bokselskap.no<lb/>Oslo 2021</docDate>
+</titlePage>
+</front>
+<body>
+<div type="chapter" subtype="castlist">
+<head type="main">DE HANDLENDE:</head>
+<castList>
+<castItem><role>AMTMANDEN.</role></castItem>
+<castItem><role>FRUEN.</role></castItem>
+<castItem><role>LAURA,</role> <roleDesc>deres Datter.</roleDesc></castItem>
+<castItem><role>AXEL,</role> <roleDesc>hendes Mand.</roleDesc></castItem>
+<castItem><role>MATHILDE,</role> <roleDesc>hendes Veninde.</roleDesc></castItem>
+</castList>
+</div>
+<div type="chapter" subtype="act" n="1">
+<head type="main">F&#x00D8;RSTE AKT</head>
+<stage>Et rigt udstyret V&#x00E6;relse med Gulvt&#x00E6;ppe, en Sofa tilh&#x00F8;jre og en tilvenstre, begge i Forgrunden. Et Bord i Midten med L&#x00E6;nestole om. D&#x00F8;ren i Baggrunden f&#x00F8;rer til et Forv&#x00E6;relse. Foran Sofaen tilvenstre et lidet Bord, hvorpaa Aviser.</stage>
+<div type="uchapter" subtype="scene" n="1_1">
+<head type="sub">F&#x00F8;rste Scene</head>
+<stage><hi rend="bold">Amtmanden</hi> (i Sofaen tilvenstre, l&#x00E6;sende Aviser). <hi rend="bold">Axel</hi> (i Sofaen tilh&#x00F8;jre med en Avis over sine Kn&#x00E6;, hvori han ikke l&#x00E6;ser). <hi rend="bold">Fruen</hi> (syende ved Bordet). <hi rend="bold">Laura</hi> tr&#x00E6;der netop ind). (Senere) <hi rend="bold">Mathilde</hi>.</stage>
+<sp>
+<speaker>Laura.</speaker>
+<p>Godmorgen, Mo&#x0027;r! <stage>(kysser hende)</stage>.</p>
+</sp>
+<sp>
+<speaker>Fruen.</speaker>
+<p>Godmorgen, min Kjere! Du har sovet godt?</p>
+</sp>
+<sp>
+<speaker>Laura.</speaker>
+<p>Godt. Godmorgen, Fa&#x0027;r! <stage>(kysser ham)</stage>.</p>
+</sp>
+<sp>
+<speaker>Amtmanden.</speaker>
+<p>Godmorgen, lille Ven, godmorgen! Glad og vel tilmode?</p>
+</sp>
+<sp>
+<speaker>Laura.</speaker>
+<p>Ja, meget vel <stage>(gaaer forbi Axel).</stage> Godmorgen, Axel! <stage>(Hun s&#x00E6;tter sig ved Bordet, ligeoverfor sin Moder)</stage>.</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Godmorgen.</p>
+</sp>
+<sp>
+<speaker>Fruen.</speaker>
+<p>Det gj&#x00F8;r mig ondt, mit Barn, at jeg ikke kan tage med paa Bal idag. Men den lange Tour derhen, i saa koldt Foraarsvejr &#x2026;</p>
+</sp>
+<sp>
+<speaker>Amtmanden</speaker>
+<stage>(bestandig l&#x00E6;sende).</stage>
+<p>Mo&#x0027;r er ikke vel, hun har hostet inat.</p>
+</sp>
+<sp>
+<speaker>Laura.</speaker>
+<p>Har hun igjen hostet?</p>
+</sp>
+<sp>
+<speaker>Amtmanden.</speaker>
+<p>To Gange. <stage>(Fruen hoster, Amtmanden ser op).</stage> Kan Du h&#x00F8;re! Mo&#x0027;r maa ikke tage ud, ikke paa nogen Maade.</p>
+</sp>
+<sp>
+<speaker>Laura.</speaker>
+<p>Saa tager heller ikke jeg med.</p>
+</sp>
+<sp>
+<speaker>Amtmanden.</speaker>
+<p>Det er ogsaa det bedste; Vejret er saa raat. <stage>(til Fruen).</stage> Men du har intet Shavl om dig, min Pige; hvor er dit Shavl?</p>
+</sp>
+<sp>
+<speaker>Laura.</speaker>
+<p>Axel, hent Mo&#x0027;rs Shavl; det h&#x00E6;nger i Forstuen. <stage>(Axel gaar).</stage></p>
+</sp>
+<sp>
+<speaker>Fruen.</speaker>
+<p>Her er ingen rigtig Vaar endnu. Det undrer mig, at her ikke er lagt i Kakkelovnen.</p>
+</sp>
+<sp>
+<speaker>Laura</speaker>
+<stage>(til Axel, som breder Shavlet om Fruen).</stage>
+<p>Axel, ring paa og lad os faa i Ovnen.</p>
+</sp>
+<stage>(Han gj&#x00F8;r det og giver Tjeneren Besked).</stage>
+<sp>
+<speaker>Fruen.</speaker>
+<p>Dersom vi Alle blive borte fra Ballet, maa der gaa Bud. &#x2013; Kanske du, Axel, bes&#x00F8;rger det?</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Gjerne; &#x2013; men gaar det ogsaa an at blive borte fra dette Bal?</p>
+</sp>
+<sp>
+<speaker>Laura.</speaker>
+<p>Du h&#x00F8;rer jo, at Mo&#x0027;r har hostet inat.</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Jeg h&#x00F8;rer det. Men Ballet er jo gjort af min eneste Ven paa disse Kanter forat h&#x00E6;dre dig og mig; vi ere hele Festens Anledning, &#x2013; og da at blive borte?</p>
+</sp>
+<sp>
+<speaker>Laura.</speaker>
+<p>Vi har jo ingen Gl&#x00E6;de af at tage derhen, naar Mo&#x0027;r ikke er med.</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Man maa ofte gj&#x00F8;re det, hvoraf man ingen Gl&#x00E6;de har.</p>
+</sp>
+<sp>
+<speaker>Laura.</speaker>
+<p>Naar der er Tale om <hi rend="italic">Pligt</hi>, ja. Men vor f&#x00F8;rste Pligt er mod Mo&#x0027;r, som umulig kan sidde hjemme alene, naar hun er syg.</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Jeg opfattede det ikke saa, at Mo&#x0027;r var syg.</p>
+</sp>
+<sp>
+<speaker>Amtmanden</speaker>
+<stage>(l&#x00E6;sende).</stage>
+<p>Hun har hostet to Gange inat. Hun hostede for et &#x00D8;jeblik siden.</p>
+</sp>
+<sp>
+<speaker>Fruen.</speaker>
+<p>Axel mener, at det er ingen Sygdom, og deri har han jo Ret.</p>
+</sp>
+<sp>
+<speaker>Amtmanden</speaker>
+<stage>(l&#x00E6;sende).</stage>
+<p>Hoste kan betyde meget slemt. <stage>(kr&#x00E6;mter).</stage> Brystet, Lungen. <stage>(kr&#x00E6;mter igjen).</stage> Jeg tror, at heller ikke jeg er rigtig vel.</p>
+</sp>
+<sp>
+<speaker>Laura.</speaker>
+<p>Lille Fa&#x0027;r, du gaar for let kl&#x00E6;dt.</p>
+</sp>
+<sp>
+<speaker>Fruen.</speaker>
+<p>Du kl&#x00E6;der dig, som om her var Sommer, og det er her jo slet ikke.</p>
+</sp>
+<sp>
+<speaker>Amtmanden.</speaker>
+<p>Nu br&#x00E6;nder det strax i Kakkelovnen. <stage>(kr&#x00E6;mter atter).</stage> Slet ikke rigtig.</p>
+</sp>
+<sp>
+<speaker>Laura.</speaker>
+<p>Axel! <stage>(han kommer hen til hende).</stage> Nu kunde du l&#x00E6;se noget af Aviserne for os, indtil Frokosten blev f&#x00E6;rdig.</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Gjerne. Dog vilde jeg f&#x00F8;rst h&#x00F8;re, om vi virkelig ikke skulle tage paa Bal?</p>
+</sp>
+<sp>
+<speaker>Laura.</speaker>
+<p><hi rend="italic">Du</hi> kan jo gj&#x00F8;re det og bringe Undskyldning fra os Andre.</p>
+</sp>
+<sp>
+<speaker>Fruen.</speaker>
+<p>Det gaar ikke an. Husk, at nu ere I gifte.</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Men netop derfor synes mig, at heller ikke Laura kan v&#x00E6;re hjemme; hun maa jo nu tage mest Hensyn til, at hun er min Kone, og Ballet er jo for os to, der Intet fejler, ligesom et Bal overhovedet er for de Unge &#x2013;</p>
+</sp>
+<sp>
+<speaker>Fruen.</speaker>
+<p>&#x2013; Og ikke for de Gamle.</p>
+</sp>
+<sp>
+<speaker>Laura.</speaker>
+<p>Tak, Mo&#x0027;r er begyndt at dandse igjen, siden jeg blev voxen. Jeg har aldrig v&#x00E6;ret paa et Bal, som ikke Mo&#x0027;r har f&#x00F8;rt op.</p>
+</sp>
+<sp>
+<speaker>Fruen.</speaker>
+<p>Men Axel mener, at jeg helst ikke burde have gjort det.</p>
+</sp>
+<sp>
+<speaker>Amtmanden</speaker>
+<stage>(l&#x00E6;sende).</stage>
+<p>Mo&#x0027;r dandser just nydelig.</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Det maa jo jeg vide, som saa ofte har havt den &#x00C6;re at f&#x00F8;re op med Mo&#x0027;r. Men dennegang er halvhundrede Mennesker komne sammen, og meget Bryderi, megen Bekostning og megen Gl&#x00E6;de opbudt for vor Skyld alene. Det er ordenlig Synd at skuffe dem.</p>
+</sp>
+<sp>
+<speaker>Amtmanden</speaker>
+<stage>(l&#x00E6;sende).</stage>
+<p>Vi kan jo gj&#x00F8;re et Bal for dem igjen.</p>
+</sp>
+<sp>
+<speaker>Fruen.</speaker>
+<p>Saa meget mere som vi skylder et.</p>
+</sp>
+<sp>
+<speaker>Laura.</speaker>
+<p>Ja, det er bedre; her er ogsaa mere Rum.</p>
+</sp>
+<stage>(En Pause).</stage>
+<sp>
+<speaker>Axel</speaker>
+<stage>(over Lauras Stol).</stage>
+<p>Og din nye Balkjole, min f&#x00F8;rste Gave til dig, &#x2013; den skulde ikke friste dig? Blaat Flor med S&#x00F8;lvstjerner i? De skulle ikke gaa op for f&#x00F8;rste Gang i Aften?</p>
+</sp>
+<sp>
+<speaker>Laura</speaker>
+<stage>(smilende).</stage>
+<p>Nej, &#x2013; den Balaften, hvor Mo&#x0027;r er borte, kunne Stjernerne ikke lyse.</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Vel, jeg skal sende Atterbud. <stage>(gaar).</stage></p>
+</sp>
+<sp>
+<speaker>Amtmanden</speaker>
+<stage>(l&#x00E6;sende).</stage>
+<p>Kanske det dog er bedre, at jeg skriver et Par Ord.</p>
+</sp>
+<stage>(Axel standser).</stage>
+<sp>
+<speaker>Fruen.</speaker>
+<p>Ja, <hi rend="italic">du</hi> gj&#x00F8;r det bedst.</p>
+</sp>
+<sp>
+<speaker>Mathilde</speaker>
+<stage>(tr&#x00E6;der ind fulgt af en Tjener, som aabner begge D&#x00F8;re).</stage>
+<p>Frokosten er f&#x00E6;rdig.</p>
+</sp>
+<sp>
+<speaker>Amtmanden</speaker>
+<stage>(idet han tager Fruens Arm).</stage>
+<p>Behold Shavlet paa, min Bedste; det er koldt gjennem Forstuen. <stage>(de gaa).</stage></p>
+</sp>
+<sp>
+<speaker>Axel</speaker>
+<stage>(byder Laura Armen og gaar efter).</stage>
+<p>Kunde jeg faa tale et Par Ord med dig, forinden vi gik ind? <stage>(standser ved D&#x00F8;ren).</stage></p>
+</sp>
+<sp>
+<speaker>Laura.</speaker>
+<p>Nu skulle vi jo spise.</p>
+</sp>
+<sp>
+<speaker>Axel</speaker>
+<stage>(til Mathilde, som staar bag og venter).</stage>
+<p>V&#x00E6;r saa god! <stage>(hun gaar, Tjeneren f&#x00F8;lger).</stage></p>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="1_2">
+<head type="sub">Anden Scene</head>
+<stage><hi rend="bold">Axel, Laura</hi>. Senere <hi rend="bold">Mathilde</hi>.</stage>
+<sp>
+<speaker>Axel.</speaker>
+<p>Du er ikke til at bev&#x00E6;ge? &#x2013; Tag med paa dette Bal!</p>
+</sp>
+<sp>
+<speaker>Laura.</speaker>
+<p>Ja, det kunde jeg t&#x00E6;nke, at det var derom.</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>For <hi rend="italic">min</hi> Skyld!</p>
+</sp>
+<sp>
+<speaker>Laura.</speaker>
+<p>Men du saa selv? Mo&#x0027;r og Fa&#x0027;r &#x00F8;nsker det ikke.</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p><hi rend="italic">Jeg</hi> &#x00F8;nsker det.</p>
+</sp>
+<sp>
+<speaker>Laura.</speaker>
+<p>Naar Mo&#x0027;r og Fa&#x0027;r ikke vil?</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Du er altsaa f&#x00F8;rst deres Datter, &#x2013; og siden min Hustru?</p>
+</sp>
+<sp>
+<speaker>Laura</speaker>
+<stage>(ler).</stage>
+<p>Ja, det er da naturligt.</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Nei, det er ikke naturligt, thi for to Dage siden lovede du at forlade Fa&#x0027;r og Mo&#x0027;r og f&#x00F8;lge mig.</p>
+</sp>
+<sp>
+<speaker>Laura</speaker>
+<stage>(ler).</stage>
+<p>Paa Bal? Nej, det lovede jeg ikke.</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Hvorhen jeg vil.</p>
+</sp>
+<sp>
+<speaker>Laura.</speaker>
+<p>Men dette vil du ikke, s&#x00F8;de Axel; &#x2013; for det gaar slet ikke an.</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Jo, det gaar an, hvis <hi rend="italic">du</hi> vil?</p>
+</sp>
+<sp>
+<speaker>Laura.</speaker>
+<p>Ja, men jeg vil ikke.</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Samme Dag h&#x00F8;rte du ogsaa, at Manden er Konens Herre; du maa ville gaa fra dem, naar jeg vil; &#x2013; derpaa gav du mig din Haand, lille Egensindige.</p>
+</sp>
+<sp>
+<speaker>Laura.</speaker>
+<p>Det var jo netop for bestandig at kunne <hi rend="italic">blive</hi> hos Fa&#x0027;r og Mo&#x0027;r, at jeg gjorde det.</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Saa det var det. &#x2013; Du vil altsaa ikke blive hos <hi rend="italic">mig?</hi></p>
+</sp>
+<sp>
+<speaker>Laura.</speaker>
+<p>Jo; &#x2013; men ikke forlade <hi rend="italic">dem</hi>.</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Aldrig?</p>
+</sp>
+<sp>
+<speaker>Laura.</speaker>
+<p>Aldrig? <stage>(stille).</stage> Jo, naar jeg engang maa.</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Naar maa du?</p>
+</sp>
+<sp>
+<speaker>Laura.</speaker>
+<p>Naar? &#x2013; Naar Mo&#x0027;r og Fa&#x0027;r &#x2026; ikke er mere. Men hvorfor t&#x00E6;nke paa det &#x2026;?</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Gr&#x00E6;d ikke, Kjere! H&#x00F8;r mig: Kunde du slet ikke f&#x00F8;lge mig, &#x2013; f&#x00F8;r de forlader os?</p>
+</sp>
+<sp>
+<speaker>Laura.</speaker>
+<p>Nej, kan du t&#x00E6;nke det?</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Ak, Laura, du elsker mig ikke.</p>
+</sp>
+<sp>
+<speaker>Laura.</speaker>
+<p>Hvorfor siger du saadant? Det er bare forat faa mig bedr&#x00F8;vet.</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Du ved ikke engang, hvad &#x00AB;elske&#x00BB; er.</p>
+</sp>
+<sp>
+<speaker>Laura.</speaker>
+<p>Ved ikke jeg? &#x2013; Dette er ikke smukt af dig.</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Saa sig det da, du Kjere, forklar det!</p>
+</sp>
+<sp>
+<speaker>Laura</speaker>
+<stage>(kysser ham).</stage>
+<p>Nu skal du ikke mere tale om det; for saa ved du jo, at jeg faar r&#x00F8;de &#x00D8;jne, og saa vil Fa&#x0027;r og Mo&#x0027;r vide hvorfor, og saa kan jeg ikke sige det, &#x2013; og saa bliver det lejt.</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Bedre lidt Graad nu &#x2013; end megen senere.</p>
+</sp>
+<sp>
+<speaker>Laura.</speaker>
+<p>Hvad har jeg da gjort, siden jeg skal gr&#x00E6;de for det?</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Givet din Haand uden tillige at give dit Hjerte, givet dit Ja, men ikke din Vilje, givet dig selv uden at vide hvortil. Det, som nu skulde v&#x00E6;re mig til den st&#x00F8;rste og reneste Gl&#x00E6;de i mit Liv, begynder at blive til Sorg, og Fremtiden m&#x00F8;rknes.</p>
+</sp>
+<sp>
+<speaker>Laura.</speaker>
+<p>Du Himmel, &#x2013; og i alt dette er jeg Skyld?</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Nej, jeg er selv Skyld deri. Jeg har daaret mig med smigrende Haab, jeg har t&#x00E6;nkt, det var saa let en Sag for min Kjerlighed at faa din vakt, men jeg kan ikke engang faa dig til at forstaa mig, hvert Middel er glippet. Saa maa jeg tage Mod til mig: jeg maa pr&#x00F8;ve det sidste.</p>
+</sp>
+<sp>
+<speaker>Laura.</speaker>
+<p>Hvilket? Det sidste?</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Ak, Laura, jeg elsker dig saa ubeskrivelig.</p>
+</sp>
+<sp>
+<speaker>Laura.</speaker>
+<p>Gjorde du det, saa gjorde du mig ikke ondt. Jeg gj&#x00F8;r aldrig dig ondt.</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Saa vis mig bare denne ene F&#x00F8;jelighed, og jeg skal tro, den er L&#x00F8;fte om Mere: &#x2013; gaa med paa Ballet!</p>
+</sp>
+<sp>
+<speaker>Laura.</speaker>
+<p>Det kan jeg jo ikke!</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Ak, saa t&#x00F8;r heller ikke jeg ops&#x00E6;tte!</p>
+</sp>
+<sp>
+<speaker>Laura.</speaker>
+<p>Du gj&#x00F8;r mig bange! Du ser saa vredt.</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Nej, nej; men saaledes kan det ikke l&#x00E6;nger gaa. Jeg holder det ikke ud!</p>
+</sp>
+<sp>
+<speaker>Laura.</speaker>
+<p>Er jeg da saa slem? Det har Ingen sagt om mig f&#x00F8;r.</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Gr&#x00E6;d ikke, lille dejlige Alf; du har ingen Skyld uden den, at du er saa vidunderlig s&#x00F8;d, baade naar du ler og gr&#x00E6;der. Det aander op af din Stemning som af en Blomst; du maa flytte ind, hvor jeg bor, og lege, hvor jeg t&#x00E6;nker, og le, hvor jeg l&#x00E6;nges. Hys, hys, ingen r&#x00F8;de &#x00D8;jne, lad Ingen se det, der kommer Mo&#x0027;r &#x2026; nej, det er Mathilde.</p>
+</sp>
+<sp>
+<speaker>Mathilde.</speaker>
+<p>Kaffen bliver kold.</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Nu kommer vi ogsaa. Det vil sige: Laura. Jeg vilde faa Lov til at tale et Par Ord med Dem.</p>
+</sp>
+<sp>
+<speaker>Mathilde.</speaker>
+<p>Med mig?</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Hvis De tillader?</p>
+</sp>
+<sp>
+<speaker>Mathilde.</speaker>
+<p>Gjerne.</p>
+</sp>
+<sp>
+<speaker>Laura.</speaker>
+<p>Men du kommer dog ind til os?</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Strax, min Ven.</p>
+</sp>
+<sp>
+<speaker>Laura.</speaker>
+<p>Og er ikke mere vred paa mig?</p>
+</sp>
+<sp>
+<speaker>Axel</speaker>
+<stage>(f&#x00F8;lger hende).</stage>
+<p>Det har jeg aldrig v&#x00E6;ret, &#x2013; og det kan jeg aldrig blive!</p>
+</sp>
+<sp>
+<speaker>Laura.</speaker>
+<p>Gud ske Lov! <stage>(springer ud).</stage></p>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="1_3">
+<head type="sub">Tredie Scene</head>
+<stage><hi rend="bold">Axel. Mathilde</hi>.</stage>
+<sp>
+<speaker>Mathilde.</speaker>
+<p>Hvad vil De mig?</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Fr&#x00F8;ken, kan De tie?</p>
+</sp>
+<sp>
+<speaker>Mathilde.</speaker>
+<p>Nej.</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>De vil ikke?</p>
+</sp>
+<sp>
+<speaker>Mathilde.</speaker>
+<p>Nej.</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Ikke mere dele Fortrolighed med mig? <stage>(tager hendes Haand).</stage> F&#x00F8;r delte vi &#x2026;</p>
+</sp>
+<sp>
+<speaker>Mathilde</speaker>
+<stage>(tager Haanden tilbage og viger fremover).</stage>
+<p>Ja, f&#x00F8;r.</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Hvorfor ikke l&#x00E6;nger? <stage>(efter hende).</stage> Hvad er forandret?</p>
+</sp>
+<sp>
+<speaker>Mathilde.</speaker>
+<p>De. &#x2013; De er jo nu gift.</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Nej, det er jeg netop ikke.</p>
+</sp>
+<sp>
+<speaker>Mathilde.</speaker>
+<p>Saa.</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Det maa dog De, som ser saa skarpt, have m&#x00E6;rket.</p>
+</sp>
+<sp>
+<speaker>Mathilde.</speaker>
+<p>Jeg t&#x00E6;nkte, det var saadan, De vilde have det.</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>De svarer mig saa taust. Har jeg forbrudt mig mod Dem?</p>
+</sp>
+<sp>
+<speaker>Mathilde.</speaker>
+<p>Hvorfor falder det Dem ind at sp&#x00F8;rge derom?</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Fordi De i den senere Tid undgaar mig. Husk, hvor god De engang var, ja, at jeg skylder Dem Alt. Det er jo gjennem Dem, at jeg har naaet til hende. Jeg maatte s&#x00E6;tte Dem St&#x00E6;vnem&#x00F8;de for at faa hende med; jeg maatte byde Dem Armen forat kunne give hende den anden og tale med Dem forat faa hende til at h&#x00F8;re. Den Lille troede, at hun gjorde Dem en Tjeneste &#x2013;</p>
+</sp>
+<sp>
+<speaker>Mathilde.</speaker>
+<p>&#x2013; Og saa var det mig, som gjorde hende en &#x2013;</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>&#x2013; Uden at vide af det; &#x2013; det var det Morsomme derved.</p>
+</sp>
+<sp>
+<speaker>Mathilde.</speaker>
+<p>Det er sandt, det var det Morsomme derved.</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Men man sagde snart, at vi To vare hemmelig forlovede, og at vi brugte Laura til Skalkeskjul; &#x2013; saa maatte jeg jo for Deres Skyld gj&#x00F8;re en hurtig Ende derpaa.</p>
+</sp>
+<sp>
+<speaker>Mathilde.</speaker>
+<p>Ja, De overraskede Mange.</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Lige til Dem selv, tror jeg &#x2013; ikke at tale om For&#x00E6;ldrene og Laura. Men det V&#x00E6;rste er, at jeg ogsaa overraskede min egen Lykke.</p>
+</sp>
+<sp>
+<speaker>Mathilde.</speaker>
+<p>Hvad mener De?</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Jeg vidste jo, at Laura kun var et Barn; men jeg t&#x00E6;nkte, hun skulde nok voxe, naar Kjerligheden naaede hende. Men den naar hende ikke; thi Blomsten vil ikke aabne sig, og jeg faar ingen Varme i Luften. Men De kan faa det, De, i hvem hun har levet med alle sine f&#x00F8;rste L&#x00E6;ngsler, De, som saa smukt forstaar at offre Deres Gl&#x00E6;der til Andre. De har jo ogsaa nogen Aarsag i, at dette, det Vigtigste i hendes Liv, kom noget uforberedt paa hende; derfor skylder De at tage hende ved Haanden disse f&#x00F8;rste Skridt bort fra For&#x00E6;ldrene og hen til mig, &#x2013; led hendes Kjerlighed mod mig &#x2013;</p>
+</sp>
+<sp>
+<speaker>Mathilde.</speaker>
+<p>Jeg? &#x2013; <stage>(Pause).</stage></p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Vil De ikke?</p>
+</sp>
+<sp>
+<speaker>Mathilde.</speaker>
+<p>Nej &#x2013;</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Men hvorfor ikke? De elsker hende dog?</p>
+</sp>
+<sp>
+<speaker>Mathilde.</speaker>
+<p>Det gj&#x00F8;r jeg; men dette &#x2013;</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>&#x2013; Kan De gj&#x00F8;re! Thi De er rigere end vi Andre, har derfor ogsaa flere Veje til en Sj&#x00E6;l end vi. Undertiden naar vi taler om saadanne Ting, og De saa siger <hi rend="italic">Deres</hi> Mening, maa jeg t&#x00E6;nke paa Omkv&#x00E6;det i de gamle K&#x00E6;mpeviser, der i to Linier har hele Visens Poesi.</p>
+</sp>
+<sp>
+<speaker>Mathilde.</speaker>
+<p>Ja, &#x2013; jeg har h&#x00F8;rt Dem smigre f&#x00F8;r.</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Jeg smigre? Netop det, jeg nu beder Dem om, viser jo mere end noget andet, hvor stor min &#x2013;</p>
+</sp>
+<sp>
+<speaker>Mathilde.</speaker>
+<p>&#x2013; Nok, nok, jeg gj&#x00F8;r det ikke!</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Hvorfor ikke? V&#x00E6;r dog idetmindste aaben!</p>
+</sp>
+<sp>
+<speaker>Mathilde.</speaker>
+<p>Fordi, o, fordi &#x2013; <stage>(gaar).</stage></p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Men hvad har gjort Dem saa uvenlig?</p>
+</sp>
+<stage>(Mathilde standser, som vilde hun svare, men gaar hurtigt).</stage>
+</div>
+<div type="uchapter" subtype="scene" n="1_4">
+<head type="sub">Fjerde Scene</head>
+<sp>
+<speaker>Axel.</speaker>
+<p>Hvad gaar der dog af hende? Er der kommet noget ivejen med Laura? Noget i Huset? Dette ypperlige Hoved bryder sig ikke om Smaating. &#x2013; Nu, det maa v&#x00E6;re, hvad  det vil; thi jeg faar altsaa Andet at t&#x00E6;nke paa. Naar den Ene ikke kan, den Anden ikke vil forstaa mig, og de Gamle hverken kunne eller ville, saa maa jeg handle paa egen Haand &#x2013; og helst strax! Senere vil det se ud for Verden som et Brud; altsaa nu, f&#x00F8;r vi s&#x00E6;tte Bo. Skal dette vare, gaa vi tilgrunde. At finde sig i det Unaturlige er som godvillig at lade sig slaa lam. Her binder Hensynenes fine Garn mig paa H&#x00E6;nder og F&#x00F8;dder. Jeg maa gaa den hele Route med kvart Damp; jeg maa liste mig med samme Varsomhed mellem deres M&#x00F8;bler og Blomster som mellem deres Vaner. Man kan snarere v&#x00E6;lte hele dette Hus end faa en liden Ting forandret deri. Jeg kan ikke r&#x00F8;re mig! Det bliver ogsaa tilsidst utaaleligt. At flytte den Sofa lidt l&#x00E6;nger ind til V&#x00E6;ggen eller den Stol bort, er det da mod Naturen? Eller er det bestemt fra Evighed af, at det Bord skal staa der? <hi rend="italic">Kan</hi> det ikke flyttes? <stage>(flytter det).</stage> Jo gu&#x0027; kan det flyttes. Og Sofaen med! Hvorfor saa langt fremme <stage>(skyder den bagover),</stage> og hvorfor Stolene bestandig ivejen? Den skal staa der &#x2013; og den der <stage>(flytter).</stage> Jeg vil have Plads for mine Ben, jeg tror tilforladelig, jeg har glemt at gaa; jeg har heller ikke paa et Aar h&#x00F8;rt Lyden af mine egne Skridt, &#x2013; eller af min egen Stemme; her hvisker og hoster man altid. Jeg har da vel min Stemme endnu? <q type="strofe">Brister, brister, alle Baand! Mit F&#x00E6;ngsel vil jeg bryde, m&#x00F8;de frem, med Staal i Haand, hvor Kamp &#x2013;</q></p>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="1_5">
+<head type="sub">Femte Scene</head>
+<stage><hi rend="bold">Amtmanden. Fruen. Laura. Mathilde</hi> (tyggende og drikkende). <hi rend="bold">Axel</hi>. (Lang Pause).</stage>
+<sp>
+<speaker>Laura.</speaker>
+<p>Men Axel?</p>
+</sp>
+<sp>
+<speaker>Mathilde.</speaker>
+<p>Hvad? Ganske alene?</p>
+</sp>
+<sp>
+<speaker>Fruen.</speaker>
+<p>Er du paa Bal?</p>
+</sp>
+<sp>
+<speaker>Amtmanden.</speaker>
+<p>Og bes&#x00F8;rger baade Dandsen og Musiken?</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Jeg morer mig.</p>
+</sp>
+<sp>
+<speaker>Amtmanden.</speaker>
+<p>Med vore M&#x00F8;bler?</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Jeg vilde blot se, om de kunde flyttes.</p>
+</sp>
+<sp>
+<speaker>Fruen.</speaker>
+<p>Om de kunde flyttes?</p>
+</sp>
+<sp>
+<speaker>Laura.</speaker>
+<p>Men hvorfor skriger du saa?</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Jeg vilde blot pr&#x00F8;ve, om jeg endnu havde min Stemme.</p>
+</sp>
+<sp>
+<speaker>Laura.</speaker>
+<p>Om du havde din Stemme?</p>
+</sp>
+<sp>
+<speaker>Fruen.</speaker>
+<p>Der ligger en stor Skov op til Huset, hvor du kan &#x00F8;ve dig.</p>
+</sp>
+<sp>
+<speaker>Amtmanden.</speaker>
+<p>Og en Fos, &#x2013; hvis det er en Demosthenes, du vil blive.</p>
+</sp>
+<sp>
+<speaker>Laura.</speaker>
+<p>Men Axel, er du bleven gal?</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Nej, men jeg tror, at jeg snart bliver det.</p>
+</sp>
+<sp>
+<speaker>Fruen.</speaker>
+<p>Er der da gaaet dig Noget imod?</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Ja, meget.</p>
+</sp>
+<sp>
+<speaker>Fruen.</speaker>
+<p>Hvad er det? En ubehagelig Tidende med Posten?</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Nej, ikke det; &#x2013; men jeg er ulykkelig.</p>
+</sp>
+<sp>
+<speaker>Fruen.</speaker>
+<p>To Dage efter dit Bryllup?</p>
+</sp>
+<sp>
+<speaker>Amtmanden.</speaker>
+<p>H&#x00F8;jst besynderlig Maade at vise det paa.</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Det kommer saadan over mig undertiden.</p>
+</sp>
+<sp>
+<speaker>Fruen.</speaker>
+<p>Men hvad er dette? Du er heller ikke saa lykkelig, som vi haabede, du nu maatte v&#x00E6;re. Min Ven, betro dig til os, som nu ere dine For&#x00E6;ldre.</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Jeg har l&#x00E6;nge t&#x00E6;nkt det, men jeg har savnet Mod.</p>
+</sp>
+<sp>
+<speaker>Fruen.</speaker>
+<p>Hvorfor? Ere vi ikke gode mod Dig?</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>I ere altfor gode.</p>
+</sp>
+<sp>
+<speaker>Amtmanden.</speaker>
+<p>Hvad skal det sige?</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>At jeg har det altfor godt her, at det &#x00F8;ver ikke mine Kr&#x00E6;fter, tilfredsstiller ikke min Trang til Virksomhed, til Kamp, &#x2013; ikke min &#x00C6;rgjerrighed.</p>
+</sp>
+<sp>
+<speaker>Amtmanden.</speaker>
+<p>Ikke det. Hvad vil da du?</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Jeg vil arbejde for mig selv, skylde mig selv min Stilling i Samfundet, jeg vil blive til Noget.</p>
+</sp>
+<sp>
+<speaker>Amtmanden.</speaker>
+<p>Saa. &#x2013; Griller! <stage>(gaar mod D&#x00F8;ren).</stage></p>
+</sp>
+<sp>
+<speaker>Fruen.</speaker>
+<p>Men som vi skulle tage os af: han er jo nu vort Barns Mand. Hvad &#x00F8;nsker du at blive, min Ven? Storthingsmand?</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Nej; men min Onkel, som har omtrent den st&#x00F8;rste Sagf&#x00F8;rerforretning i Landet, har for l&#x00E6;ngere Tid siden tilbudt mig at overtage den.</p>
+</sp>
+<sp>
+<speaker>Fruen.</speaker>
+<p>Den kan du jo ikke styre herifra, Axel?</p>
+</sp>
+<sp>
+<speaker>Amtmanden</speaker>
+<stage>(ved D&#x00F8;ren).</stage>
+<p>Griller, Griller! &#x2013; Kom og spis! <stage>(vil gaa).</stage></p>
+</sp>
+<sp>
+<speaker>Fruen</speaker>
+<stage>(til Axel).</stage>
+<p>Ikke sandt, du kan ikke styre den herifra?</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Nej; men jeg kan flytte til Byen.</p>
+</sp>
+<sp>
+<speaker>Alle.</speaker>
+<p>Flytte til Byen? <stage>(Pause, Amtmanden kommer tilbage).</stage></p>
+</sp>
+<sp>
+<speaker>Amtmanden.</speaker>
+<p>Det er jo endnu mere umuligt.</p>
+</sp>
+<sp>
+<speaker>Fruen.</speaker>
+<p>Men her maa v&#x00E6;re Noget under. Er der Et eller Andet, som trykker dig? <stage>(sagtere)</stage> Har du Gjeld?</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Tak, kjere Svigerfor&#x00E6;ldre; den har I jo betalt for mig.</p>
+</sp>
+<sp>
+<speaker>Fruen.</speaker>
+<p>Hvad er det da, Axel? Du er saa underlig i den senere Tid, &#x2013; hvad er det, bedste Ven?</p>
+</sp>
+<sp>
+<speaker>Amtmanden.</speaker>
+<p>Griller, saadanne som komme fra Maven. Du kan huske, sidst jeg spiste Hummer. &#x2013; Kom ind og tag dig et Glas Sherry, saa er det glemt.</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Nej, det er ikke glemt. Det kommer igjen og bestandig st&#x00E6;rkere. Jeg maa have Arbejde for min Aand, Maal for min L&#x00E6;ngsel; jeg kjeder mig.</p>
+</sp>
+<sp>
+<speaker>Fruen.</speaker>
+<p>To Dage efter Brylluppet!</p>
+</sp>
+<sp>
+<speaker>Amtmanden.</speaker>
+<p>Saa tag fat, for Pokker! Hvad er ivejen? Vil du drive op en af mine Gaarde? Vil du gj&#x00F8;re Anl&#x00E6;g? Vil du &#x2013; nu ja, hvad du vil! Jeg ser gjerne, du har Planer, og Penge skal du faa, &#x2013; blot gj&#x00F8;r ingen Spektakel.</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Men da vil jeg skylde dig Alt og f&#x00F8;le Afh&#x00E6;ngighed.</p>
+</sp>
+<sp>
+<speaker>Amtmanden.</speaker>
+<p>Du vil hellere skylde din Onkel?</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Han giver mig Intet. Jeg maa kj&#x00F8;be det.</p>
+</sp>
+<sp>
+<speaker>Amtmanden.</speaker>
+<p>Saa? &#x2013; Med hvad?</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Med mit Arbejde og med &#x2013; ja, du vil dog laane mig lidt?</p>
+</sp>
+<sp>
+<speaker>Amtmanden.</speaker>
+<p>Ikke en Skilling.</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Men hvorfor?</p>
+</sp>
+<sp>
+<speaker>Amtmanden.</speaker>
+<p>Det skal jeg sige dig: fordi min Svigers&#x00F8;n er min Svigers&#x00F8;n og ikke en spekulerende Sagf&#x00F8;rer, der sidder for aabne D&#x00F8;re og byder sig frem med Skildt paa.</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Er Sagf&#x00F8;rerstanden uh&#x00E6;derlig?</p>
+</sp>
+<sp>
+<speaker>Amtmanden.</speaker>
+<p>Det er den ikke. Men <hi rend="italic">du</hi> er optagen i en af Landets &#x00E6;ldste og rigeste Familier, hvis Fortid du pligter at &#x00E6;re, og i denne Familie har Fa&#x0027;r efter S&#x00F8;n i umindelige Tider v&#x00E6;ret Ejendomsbesiddere, ikke Embedss&#x00F8;gere, ikke Lykkej&#x00E6;gere. De h&#x00E6;derlige Embeder, jeg har havt, ere mig alle tilbudte, ikke forlangte, og heller ikke du skal  sjakkre med din Examen eller dine Talenter, men sidde rolig her; saa tilbyder man dig Mere, end du &#x00F8;nsker.</p>
+</sp>
+<sp>
+<speaker>Fruen.</speaker>
+<p>Men, kjere Ven, ophids dig ikke! Du bliver saa daarlig bagefter. Lad os faa dette ordnet uden Strid. Axel, han taaler ikke Anstrengelse, v&#x00E6;r dog fornuftig. Laura, hent din Fader et Glas Vand. Min Ven, kom, lad os gaa tilbage til Spisestuen.</p>
+</sp>
+<sp>
+<speaker>Amtmanden.</speaker>
+<p>Tak, jeg har ikke mere nogen Appetit.</p>
+</sp>
+<sp>
+<speaker>Fruen.</speaker>
+<p>Der kan du se. Axel, Axel!</p>
+</sp>
+<sp>
+<speaker>Laura.</speaker>
+<p>Fy, Axel!</p>
+</sp>
+<sp>
+<speaker>Fruen.</speaker>
+<p>S&#x00E6;t dig, min Ven, s&#x00E6;t dig! Gud, hvor du er hed!</p>
+</sp>
+<sp>
+<speaker>Amtmanden.</speaker>
+<p>Her er ogsaa saa varmt.</p>
+</sp>
+<sp>
+<speaker>Fruen.</speaker>
+<p>Det er Kakkelovnen. Mathilde, sluk! sluk!</p>
+</sp>
+<sp>
+<speaker>Laura</speaker>
+<stage>(til Axel).</stage>
+<p>Ja, du er en god En, du!</p>
+</sp>
+<sp>
+<speaker>Amtmanden.</speaker>
+<p>S&#x00E6;t &#x2013; s&#x00E6;t Stolene tilrette! <stage>(det sker).</stage> Og Bordet! <stage>(det sker).</stage> Nu er det bedre.</p>
+</sp>
+<sp>
+<speaker>Fruen.</speaker>
+<p>Der kan saa let forefalde Noget, naar en Fremmed kommer ind.</p>
+</sp>
+<sp>
+<speaker>Amtmanden.</speaker>
+<p>Men dette? &#x2013; Jeg er aldrig f&#x00F8;r bleven modsagt.</p>
+</sp>
+<sp>
+<speaker>Fruen.</speaker>
+<p>Det sker en Gang og saa aldrig mere! Han vil snart l&#x00E6;re, hvem du er, og hvad han skylder dig.</p>
+</sp>
+<sp>
+<speaker>Amtmanden.</speaker>
+<p>Og den f&#x00F8;rste Gang &#x2026; af min Svigers&#x00F8;n.</p>
+</sp>
+<sp>
+<speaker>Fruen.</speaker>
+<p>Han vil ogsaa angre det, saal&#x00E6;nge du lever, og naar du er d&#x00F8;d, aldrig faa Ro. Vi maa haabe, at den kjerlige Omgang i vort Hus vil forbedre ham. &#x2013; Axel er ogsaa i den senere Tid som forhexet.</p>
+</sp>
+<sp>
+<speaker>Laura.</speaker>
+<p>Ja, ikke sandt?</p>
+</sp>
+<sp>
+<speaker>Fruen.</speaker>
+<p>Gud, Laura, har ogsaa du &#x2013;?</p>
+</sp>
+<sp>
+<speaker>Laura.</speaker>
+<p>Nej, jeg Intet.</p>
+</sp>
+<sp>
+<speaker>Fruen.</speaker>
+<p>Laura, vil du skjule Noget?</p>
+</sp>
+<sp>
+<speaker>Amtmanden.</speaker>
+<p>For os? <stage>(rejser sig).</stage> Er det kommet saa vidt?</p>
+</sp>
+<sp>
+<speaker>Laura.</speaker>
+<p>Jeg forsikkrer, kjere For&#x00E6;ldre, det er Ingenting, det er bare &#x2013;</p>
+</sp>
+<sp>
+<speaker>Begge.</speaker>
+<p>Det er bare &#x2013;?</p>
+</sp>
+<sp>
+<speaker>Laura.</speaker>
+<p>Nej, nej, det er Ingenting, &#x2013; men I forskr&#x00E6;kker mig saa.</p>
+</sp>
+<sp>
+<speaker>Begge.</speaker>
+<p>Hun gr&#x00E6;der!</p>
+</sp>
+<sp>
+<speaker>Mathilde</speaker>
+<stage>(frem).</stage>
+<p>Hun gr&#x00E6;der!</p>
+</sp>
+<sp>
+<speaker>Amtmanden.</speaker>
+<p>Min Herre, hvorfor gr&#x00E6;der hun?</p>
+</sp>
+<sp>
+<speaker>Laura.</speaker>
+<p>Men Fa&#x0027;r, Fa&#x0027;r, se paa mig, jeg gr&#x00E6;der ikke det mindste.</p>
+</sp>
+<sp>
+<speaker>Fruen og Mathilde.</speaker>
+<p>Jo, Laura gr&#x00E6;der!</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Ja, &#x2013; og vil gr&#x00E6;de hver Dag, indtil her sker en Forandring! <stage>(Pause, hvori Alle se paa ham).</stage> Nuvel, da saameget er sagt, kan Resten siges: Vort Giftermaal er ikke lykkeligt; thi det savner den allerf&#x00F8;rste Betingelse.</p>
+</sp>
+<sp>
+<speaker>Fruen.</speaker>
+<p>Retf&#x00E6;rdige Gud, hvad er det, han siger?</p>
+</sp>
+<sp>
+<speaker>Amtmanden.</speaker>
+<p>Fat dig, lad mig; hvad mener du?</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Laura elsker mig ikke &#x2013;</p>
+</sp>
+<sp>
+<speaker>Laura.</speaker>
+<p>&#x2013; Ja, det siger han!</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Hun ved ikke engang, hvad det er at elske, og vil i sine For&#x00E6;ldres Hus aldrig faa det at vide.</p>
+</sp>
+<sp>
+<speaker>Amtmanden og Fruen.</speaker>
+<p>Hvorfor?</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Fordi Laura kun lever for sine For&#x00E6;ldre; mig har hun som en &#x00E6;ldre Broder, der skal hj&#x00E6;lpe hende at elske dem.</p>
+</sp>
+<sp>
+<speaker>Fruen.</speaker>
+<p>Er <hi rend="italic">det</hi> dig saa imod?</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Nej, nej, jeg er Eder hengiven og taknemmelig, jeg er stolt af at v&#x00E6;re Eders S&#x00F8;n; men jeg bliver det kun gjennem hende, og hun har endnu ikke optaget mig. Jeg kan flytte fra eller til, som jeg selv lyster; <hi rend="italic">hun</hi> staar fast her. Laura giver mig ingen Vilje, neppe et &#x00D8;nske, ja, ikke engang et Kjertegn, som hun ikke f&#x00F8;rst har delt i tre Dele, og hvoraf jeg faar min Trediedel &#x2013; faar den sidst eller slet ikke.</p>
+</sp>
+<sp>
+<speaker>Fruen.</speaker>
+<p>Du er skinsyg, &#x2013; og paa os!</p>
+</sp>
+<sp>
+<speaker>Amtmanden.</speaker>
+<p>Han er skinsyg!</p>
+</sp>
+<sp>
+<speaker>Laura.</speaker>
+<p>Ja, det er han, Mo&#x0027;r.</p>
+</sp>
+<sp>
+<speaker>Amtmanden.</speaker>
+<p>En fix Ide, Axel, en latterlig Ide. Du maa ikke lade Folk h&#x00F8;re det.</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Nej, den er hverken fix eller latterlig; den indeslutter Sundheden og Sandheden i vort Forhold, og den fort&#x00E6;rer mit Sind, saa jeg plager hende, forarger Eder, bliver ledig, tom, harm &#x2013;</p>
+</sp>
+<sp>
+<speaker>Amtmanden.</speaker>
+<p>Saa er det jo en Sygdom.</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Ja, men <hi rend="italic">I</hi> ere dens Aarsag.</p>
+</sp>
+<sp>
+<speaker>Begge.</speaker>
+<p>Vi?</p>
+</sp>
+<sp>
+<speaker>Amtmanden.</speaker>
+<p>V&#x00E6;r dog lidt &#x2013;</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>I lader hende behandle mig som den st&#x00F8;rste af alle de Dukker, I har givet hende; I har ikke Raad til at afstaa mere Kjerlighed end den, hun kan give til en Dukke.</p>
+</sp>
+<sp>
+<speaker>Amtmanden.</speaker>
+<p>Tal anst&#x00E6;ndig, tag de tilb&#x00F8;rlige Hensyn &#x2013;</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Om Forladelse, kjere For&#x00E6;ldre, hvis jeg ikke gj&#x00F8;r det. Jeg mener: et Barn kan ikke v&#x00E6;re en Hustru, og sammen med Eder vil hun stedse kun v&#x00E6;re et Barn.</p>
+</sp>
+<sp>
+<speaker>Fruen.</speaker>
+<p>Men, Axel, var det ikke os, som sagde dig, at hun bare var et Barn, &#x2013;</p>
+</sp>
+<sp>
+<speaker>Amtmanden.</speaker>
+<p>&#x2013; Vi advarede dig, vi bad dig vente et Par Aar &#x2013;</p>
+</sp>
+<sp>
+<speaker>Fruen.</speaker>
+<p>Fordi vi ikke kunde se, at hun elskede dig endnu.</p>
+</sp>
+<sp>
+<speaker>Amtmanden.</speaker>
+<p>Men da svarede du, at det var netop Barnet i hende, du elskede.</p>
+</sp>
+<sp>
+<speaker>Fruen.</speaker>
+<p>Netop Barnets Uskyld og Enfold; du blev renere i hendes N&#x00E6;rhed, ja f&#x00F8;lte dig undertiden som i Kirke. Og det forstode vi For&#x00E6;ldre; thi vi havde selv f&#x00F8;lt det.</p>
+</sp>
+<sp>
+<speaker>Amtmanden.</speaker>
+<p>Da fattede vi Tillid til dig, min S&#x00F8;n.</p>
+</sp>
+<sp>
+<speaker>Fruen.</speaker>
+<p>Kan du huske den Morgen, medens hun sov, da du sagde, at hendes Liv var en Dr&#x00F8;m, som det var Synd at forstyrre?</p>
+</sp>
+<sp>
+<speaker>Amtmanden.</speaker>
+<p>&#x2013; Sagde, at blot du <hi rend="italic">t&#x00E6;nkte</hi> paa hende, gik du uvilkaarlig sagtere som for ikke at v&#x00E6;kke hende.</p>
+</sp>
+<sp>
+<speaker>Fruen.</speaker>
+<p>Hele Livet var blevet dig som en Morgen, hvorpaa man er staaet tidlig op. Du var saa glad, havde saadant Mod og havde faaet Lyst til Alting.</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Det er sandt, hendes Barnlighed lyste Fred over mig, hendes stille Uskyld d&#x00E6;mpede. Det er sandt, jeg f&#x00F8;lte en liflig, dejlig Morgen over mine Kr&#x00E6;fter.</p>
+</sp>
+<sp>
+<speaker>Amtmanden.</speaker>
+<p>Og nu er du utaalmodig over, at hun <hi rend="italic">er</hi> et Barn.</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Ja, ja! Da jeg vilde f&#x00F8;re hende til Altaret, var det maaske blot mit bedre Jeg, mine gode Fors&#x00E6;tter, jeg vilde give Haanden. Hun var for mig, hvad Madonna er for den gode Katholik; men nu er hun bleven mere. Afstanden er borte: jeg kan ikke blot beundre, jeg maa elske, ikke blot kn&#x00E6;le, men omfavne. Hendes Blik har samme Finhed, samme Uskyld, men jeg kan ikke mere  sidde timevis og se derpaa; nu maa det s&#x00E6;nke sig i mit med alt, hvad det ejer. Hendes Haand, Arm, Mund er den samme, men Haanden maa ligge i mit Haar, Armen om min Hals, Munden til min, hendes Tanke maa omfavne min og som Herrens Sol v&#x00E6;re over mig overalt. Hun var mig et Symbol, men det er blevet til Kj&#x00F8;d og Blod. Jeg tog hende op i min Tanke som et Barn; under den daglige Beskuelse er hun voxet ud til en Kvinde, som undselig og uvidende b&#x00F8;jer sig fra mig, men som jeg maa besidde.</p>
+</sp>
+<sp>
+<speaker>Laura</speaker>
+<stage>(iler til ham).</stage>
+</sp>
+<sp>
+<speaker>Fruen.</speaker>
+<p>Han elsker vort Barn!</p>
+</sp>
+<sp>
+<speaker>Amtmanden.</speaker>
+<p>Han elsker hende. <stage>(De Gamle omfavne hinanden).</stage> Men hvad er det saa videre? Alting i Orden! &#x2013; Et Glas Sherry, kom!</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Nej, det er ikke i Orden. Jeg kan faa hendes Tak i en glad Stund, men ikke hendes Hjerte. Thi hvad jeg elsker, elsker ikke hun, hvad jeg vil, vil ikke hun, ja, om det saa blot er at tage paa Bal, saa er det hende ingen Gl&#x00E6;de, naar ikke Moderen kan tage med.</p>
+</sp>
+<sp>
+<speaker>Fruen.</speaker>
+<p>Herregud, ikke Andet!</p>
+</sp>
+<sp>
+<speaker>Laura.</speaker>
+<p>Nej, Mo&#x0027;r, det er ikke Andet. Det er dette Bal!</p>
+</sp>
+<sp>
+<speaker>Amtmanden.</speaker>
+<p>Men saa tag paa Bal! I ere jo lige tossede begge to. Kom nu ind!</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Ballet, det er ikke Ballet; jeg bryder mig ikke om Ballet.</p>
+</sp>
+<sp>
+<speaker>Laura.</speaker>
+<p>Nej, saadan er det, Mo&#x0027;r. Naar han faar det, han vil, saa er det slet ikke det, men noget rent Andet. Jeg forstaar ikke, hvad det er.</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Nej, for det er ikke den enkelte Ting, men det hele Forhold med sin Lydighed, sin Hengivelse i det Store som i det Smaa, med sin Virkelighed som med sine liflige Tegn, kort det er Kjerligheden, jeg savner, og den har hun ikke, og den faar hun ikke, &#x2013; saal&#x00E6;nge hun er hjemme!</p>
+</sp>
+<stage>(Pause).</stage>
+<sp>
+<speaker>Fruen</speaker>
+<stage>(langsomt).</stage>
+<p>Saal&#x00E6;nge hun er hjemme?</p>
+</sp>
+<sp>
+<speaker>Amtmanden</speaker>
+<stage>(n&#x00E6;rmere med lidt B&#x00E6;ven).</stage>
+<p>Hvad mener du dermed?</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>F&#x00F8;rst naar Laura ikke l&#x00E6;nger kan h&#x00E6;lde sig til sine  For&#x00E6;ldre, er der Mulighed for, at hun vil h&#x00E6;lde sig til mig.</p>
+</sp>
+<sp>
+<speaker>Fruen</speaker>
+<stage>(lyttende).</stage>
+<p>Han mener?</p>
+</sp>
+<sp>
+<speaker>Amtmanden</speaker>
+<stage>(ligesaa).</stage>
+<p>Jeg forstaar ikke &#x2013;?</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Forat blive mere end en god Datter, forat blive en god Hustru, &#x2013; maa Laura bort.</p>
+</sp>
+<sp>
+<speaker>Fruen.</speaker>
+<p>Laura bort?</p>
+</sp>
+<sp>
+<speaker>Amtmanden.</speaker>
+<p>Vort Barn?</p>
+</sp>
+<sp>
+<speaker>Laura</speaker>
+<stage>(til Moderen).</stage>
+<p>Mo&#x0027;r!</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Det var Synd mod hende, jeg saa inderlig elsker, Synd mod mig selv og Synd mod Eder, der ere i saa god Tro, hvis ikke jeg, som har Magten, nu ogsaa tog Kraft til at bruge den. Her lever Laura blot for Eder; naar I d&#x00F8;, er alt Livet d&#x00F8;dt for hende, men <hi rend="italic">det</hi> er ikke Guds Bestemmelse, det er ikke, hvad hun lovede for Hans Altar, og det er ikke, hvad jeg vil finde mig i. At forts&#x00E6;tte, hvad der er unaturligt, hvad der er Synd, gj&#x00F8;r os Alle ulykkelige; derfor skal Laura f&#x00F8;lge mig! <stage>(Fruen frem, Laura til Mathilde).</stage></p>
+</sp>
+<sp>
+<speaker>Amtmanden.</speaker>
+<p>Du kan ikke mene, hvad du siger.</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Det er mit inderligste Alvor, og Ingen faar mig mere derfra.</p>
+</sp>
+<sp>
+<speaker>Fruen.</speaker>
+<p>Saa se Herren i Naade til os! <stage>(Pause).</stage></p>
+</sp>
+<sp>
+<speaker>Amtmanden.</speaker>
+<p>Du ved, Axel, at Gud gav os fem B&#x00F8;rn, men du ved ogsaa, at han tog de fire tilbage. Laura er nu vort eneste Barn, vor eneste Gl&#x00E6;de.</p>
+</sp>
+<sp>
+<speaker>Fruen.</speaker>
+<p>Vi taale ikke at miste hende, Axel! Hun har ikke forladt os en eneste Dag, siden hun blev f&#x00F8;dt; hun er vor Smertes forkjelede Barn; de D&#x00F8;de vilde have hende, saa maatte vi jo holde fast.</p>
+</sp>
+<sp>
+<speaker>Amtmanden.</speaker>
+<p>Axel, du er ikke ond, du er ikke kommen iblandt os for at gj&#x00F8;re alle os her ulykkelige.</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Dersom jeg nu gav efter, vilde dette bryde op igjen hver fjortende Dag, og det kunde Ingen af os holde ud. Derfor, velsignede For&#x00E6;ldre, v&#x00E6;r nu istand til et Offer: lad det v&#x00E6;re endt med en Gang, &#x2013; og Laura flytter om otte Dage med mig til Byen.</p>
+</sp>
+<sp>
+<speaker>Amtmanden.</speaker>
+<p>Retf&#x00E6;rdige Gud, &#x2013; det er umuligt!</p>
+</sp>
+<sp>
+<speaker>Fruen.</speaker>
+<p>Du har ikke Hjerte til det: se paa hende og sig det  en Gang til! <stage>(han vender sig bort).</stage> Nej, jeg vidste, at du ikke kunde. Du kan heller ikke l&#x00F8;nne os saaledes. <stage>(til Amtmanden).</stage> Men saa tal til ham, du! Sig ham Sandheden, s&#x00E6;t ham tilrette, fordi han bryder ind med Ondt i en god og kjerlig Familie.</p>
+</sp>
+<sp>
+<speaker>Amtmanden.</speaker>
+<p>Her har i dette Hus, saa langt tilbage som jeg kan mindes, aldrig v&#x00E6;ret sagt et haardt Ord. Dette er mig som en ond Dr&#x00F8;m, jeg arbejder for at blive vaagen, men kan ikke! <stage>(Pause).</stage> Da vi gave &#x2026; Dem vor Datter, Hr. Hargaut, gjorde vi ingen Betingelse. Vi f&#x00F8;rte Dem til en lykkelig Familie, til en rig Stilling, en betydelig Fremtid, og vi ventede til Gjengjeld lidt Kjerlighed, &#x2026; lidt Taknemmelighed, &#x2026; idetmindste lidt Hensyn. Men De b&#x00E6;rer Dem ad som en &#x2026; en &#x2026; Fremmed, der tages ind til Gjestfrihed og Pleje, &#x2026; men om Morgenen er borte med Husets bedste Smykke, &#x2026; som en uskj&#x00F8;nsom, grusom &#x2013;! O, vi have betroet vort Barn, det kjerligste, bl&#x00F8;deste Barn, vort eneste Barn til &#x2026; en Mand uden Hjerte! Vi vare to lykkelige, rige For&#x00E6;ldre, som Alle misundte, og vi ere to bestjaalne Stakler, der krybe sammen i en fattig Skuffelse som i en Krog. <stage>(Han s&#x00E6;tter sig).</stage></p>
+</sp>
+<sp>
+<speaker>Fruen.</speaker>
+<p>Og saaledes kan du handle mod denne Mand, som har givet dig Alt! Hvad svarer du ham?</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Mit Hjerte bl&#x00F8;der ved dette. Havde jeg t&#x00E6;nkt det saa tungt, var jeg vist aldrig begyndt; men standser det halvfuldf&#x00F8;rt, bliver det aldrig mere godt imellem os, det f&#x00F8;ler jeg, og har vi nu Alle taget Lidelsen af det, lad os da ogsaa fuldf&#x00F8;re det!</p>
+</sp>
+<sp>
+<speaker>Amtmanden.</speaker>
+<p>O, vi godtroende Mennesker!</p>
+</sp>
+<sp>
+<speaker>Fruen.</speaker>
+<p>Kan du da ikke give os nogen Frist til rolig Eftertanke. Dette er at rive itu.</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Smerten vilde forl&#x00E6;nges, og I ende med at hade mig. Nej, <hi rend="italic">nu</hi> maa det ske og hurtigt, eller det sker aldrig.</p>
+</sp>
+<sp>
+<speaker>Fruen.</speaker>
+<p>Herre Jesus! <stage>(s&#x00E6;tter sig).</stage></p>
+</sp>
+<sp>
+<speaker>Amtmanden.</speaker>
+<p>Axel! H&#x00F8;r os nu! &#x2026; Det er jo muligt, du har Ret &#x2026; men derfor beder jeg, &#x2026; jeg har aldrig f&#x00F8;r bedet Nogen om Noget, &#x2026; men nu beder jeg dig: v&#x00E6;r barmhjertig! Jeg er en gammel Mand, jeg taaler det ikke, &#x2013; og hun endnu mindre. <stage>(viser mod sin Kone).</stage></p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>O, jeg er ikke haard; men jeg maa pr&#x00F8;ve at v&#x00E6;re standhaftig. Taber jeg nu, taber jeg hende for hele Livet, det f&#x00F8;ler jeg; derfor <hi rend="italic">skal</hi> hun f&#x00F8;lge!</p>
+</sp>
+<sp>
+<speaker>Fruen</speaker>
+<stage>(springer op).</stage>
+<p>Nej, hun <hi rend="italic">skal</hi> ikke! Elsker du hende, som du siger, Hykler, da bliver du, hvor hun er, &#x2013; og <hi rend="italic">her</hi> bliver hun!</p>
+</sp>
+<sp>
+<speaker>Laura</speaker>
+<stage>(som har staaet hos Mathilde, mod hende).</stage>
+<p>Ja, til min D&#x00F8;dsdag!</p>
+</sp>
+<sp>
+<speaker>Amtmanden</speaker>
+<stage>(rejser sig).</stage>
+<p>Nej! Guds Lov forandre vi ikke. Der staar skrevet: &#x00AB;Manden skal forlade Fader og Moder og blive hos sin Hustru,&#x00BB; &#x2013; og da maa hun ogsaa blive hos ham. &#x2013; Laura rejser, naar han vil.</p>
+</sp>
+<sp>
+<speaker>Laura</speaker>
+<stage>(mod ham).</stage>
+<p>Fa&#x0027;r, kan du, er du istand til &#x2013;?</p>
+</sp>
+<sp>
+<speaker>Amtmanden.</speaker>
+<p>Nej, jeg er ikke istand til det mit Barn; men jeg gj&#x00F8;r det alligevel, fordi det er Ret. &#x2013; Ak, Laura! <stage>(omfavner hende, Fruen slutter sig til).</stage></p>
+</sp>
+<sp>
+<speaker>Mathilde</speaker>
+<stage>(mod Axel).</stage>
+<p>De er en Jesuit! &#x2013; Uden Hensyn, uden Skaansel tr&#x00E6;der De Hjerter ned som Gr&#x00E6;sstraa paa den Vej, De vil frem. Men dette skal dog ikke gaa let; thi vel er hun et Barn, &#x2013; men jeg f&#x00F8;lger hende! Dem kjender jeg ikke, Dem tror jeg ikke; <stage>(med knyttet Haand)</stage> men over hende skal jeg vaage!</p>
+</sp>
+<stage>(Teppet falder).</stage>
+</div>
+</div>
+<div type="chapter" subtype="act" n="2">
+<head type="main">ANDEN AKT</head>
+<stage>Et Aar senere og hos Axel. V&#x00E6;relset dekoreret som hint i f&#x00F8;rste Akt, n&#x00E6;sten til N&#x00F8;jagtighed. To store Portr&#x00E6;tter, et af Amtmanden og et af Fruen, meget vel trufne, h&#x00E6;nge midt imod Tilskuerne.</stage>
+<div type="uchapter" subtype="scene" n="2_1">
+<head type="sub">F&#x00F8;rste Scene</head>
+<stage><hi rend="bold">Laura</hi> (ved Bordet). <hi rend="bold">Mathilde</hi> (paa Sofaen tilh&#x00F8;jre).</stage>
+<sp>
+<speaker>Mathilde</speaker>
+<stage>(l&#x00E6;ser h&#x00F8;jt af en Bog).</stage>
+<p>&#x00AB;&#x0027;Nej,&#x0027; l&#x00F8;d det bestemte Svar. Skylden <hi rend="italic">var</hi> hans; men nu er den bleven hendes. Han l&#x00F8;srev hende fra For&#x00E6;ldre, Barndomshjem og Vaner og gjorde det voldsomt; men siden har han s&#x00F8;gt efter hendes Tilgivelse saa vedholdende, efter hendes Kjerlighed saa ydmygt, at der skal et forkjelet Barns hele Stivsind til for at kunne modstaa. Ligesom <hi rend="italic">han</hi> f&#x00F8;r ikke vilde tage noget Hensyn uden sin Kjerlighed, saaledes vil <hi rend="italic">hun</hi> nu intet tage uden sin Selvkjerlighed; men hun er saa meget dadelv&#x00E6;rdigere end han, som hendes Bev&#x00E6;ggrunde er slettere end hans. Hun er som det Barn, der v&#x00E6;kkes for tidlig om Morgenen; det slaar og sparker endog til den, som kun kommer for at kjele.&#x00BB;</p>
+</sp>
+<sp>
+<speaker>Laura.</speaker>
+<p>Men Mathilde! staar dette der?</p>
+</sp>
+<sp>
+<speaker>Mathilde.</speaker>
+<p>Javist staar det.</p>
+</sp>
+<sp>
+<speaker>Laura.</speaker>
+<p>Saadan som du nu l&#x00E6;ser det?</p>
+</sp>
+<sp>
+<speaker>Mathilde.</speaker>
+<p>Se selv!</p>
+</sp>
+<sp>
+<speaker>Laura</speaker>
+<stage>(tager Bogen og ser, l&#x00E6;gger den fra sig).</stage>
+<p>Det er n&#x00E6;sten vor egen Historie, &#x2013; retf&#x00E6;rdige Himmel, hvem har skrevet det?</p>
+</sp>
+<sp>
+<speaker>Mathilde.</speaker>
+<p>Tilf&#x00E6;ldet &#x2013;</p>
+</sp>
+<sp>
+<speaker>Laura.</speaker>
+<p>Nej, et ondt &#x00D8;ie har engang set noget Lignende, et uf&#x00F8;lsomt Sind, istand til at haane For&#x00E6;ldres Kjerlighed; &#x2013; det maa v&#x00E6;re En, som selv er slet og har havt slette For&#x00E6;ldre!</p>
+</sp>
+<sp>
+<speaker>Mathilde.</speaker>
+<p>Gud, Laura, hvor du tager paavej &#x2013;!</p>
+</sp>
+<sp>
+<speaker>Laura.</speaker>
+<p>Ja, det opr&#x00F8;rer mig, dette Sm&#x00E6;deskrift paa al Tro skab i Verden. Hvad er Troskab, naar et Barn ikke skal v&#x00E6;re tro mod sine For&#x00E6;ldre?</p>
+</sp>
+<sp>
+<speaker>Mathilde.</speaker>
+<p>Men det l&#x00E6;ste jeg netop for dig. <stage>(l&#x00E6;ser igjen).</stage> &#x00AB;Troskaben flytter Gjenstand med os selv. Barnet er tro mod sine For&#x00E6;ldre, men den Gifte mod sin Udvalgte, den Gamle mod sine B&#x00F8;rn &#x2013;&#x00BB;</p>
+</sp>
+<sp>
+<speaker>Laura.</speaker>
+<p>L&#x00E6;s ikke mere, jeg vil ikke h&#x00F8;re mere. Det forn&#x00E6;rmer mig i hele sin Tankegang. <stage>(Efter en Pause).</stage> Hvilken slet Bog! <stage>(ligegyldig).</stage> Hvordan gaar det dem tilsidst?</p>
+</sp>
+<sp>
+<speaker>Mathilde</speaker>
+<stage>(ligesaa).</stage>
+<p>Hvem?</p>
+</sp>
+<sp>
+<speaker>Laura.</speaker>
+<p>Dem &#x2013; i den nye Roman.</p>
+</sp>
+<sp>
+<speaker>Mathilde</speaker>
+<stage>(bestandig ligegyldig).</stage>
+<p>Ikke godt. <stage>(Pause).</stage></p>
+</sp>
+<sp>
+<speaker>Laura</speaker>
+<stage>(ser op).</stage>
+<p>Hvem af dem gaar det ikke godt?</p>
+</sp>
+<sp>
+<speaker>Mathilde.</speaker>
+<p>Hvem tror du?</p>
+</sp>
+<sp>
+<speaker>Laura</speaker>
+<stage>(syr igjen).</stage>
+<p>Sagtens hende; &#x2013; thi hun <hi rend="italic">er</hi> jo allerede ulykkelig.</p>
+</sp>
+<sp>
+<speaker>Mathilde.</speaker>
+<p>Du gjettede rigtig. Hun bliver forelsket.</p>
+</sp>
+<sp>
+<speaker>Laura</speaker>
+<stage>(forundret).</stage>
+<p>Hun bliver forelsket?</p>
+</sp>
+<sp>
+<speaker>Mathilde.</speaker>
+<p>Ja; der kommer en Tid, hvori enhver Kvinde vaagner for Kjerlighed. Og da hun ikke kan elske sin Mand, elsker hun i Tidens Fylde en Anden.</p>
+</sp>
+<sp>
+<speaker>Laura</speaker>
+<stage>(forf&#x00E6;rdet).</stage>
+<p>En Anden!</p>
+</sp>
+<sp>
+<speaker>Mathilde.</speaker>
+<p>Ja. <stage>(Pause).</stage></p>
+</sp>
+<sp>
+<speaker>Laura.</speaker>
+<p>Det er afskyligt! <stage>(syr, l&#x00E6;ner derefter Haanden paa Bordet, syr igjen).</stage> Hvordan gaar det saa ham?</p>
+</sp>
+<sp>
+<speaker>Mathilde.</speaker>
+<p>Han bliver syg, meget syg. &#x2013; Da er der En, som finder ham og tr&#x00F8;ster ham, &#x2013; en Kvinde.</p>
+</sp>
+<sp>
+<speaker>Laura</speaker>
+<stage>(ser op).</stage>
+<p>Hvad vil det sige?</p>
+</sp>
+<sp>
+<speaker>Mathilde.</speaker>
+<p>Hans Sj&#x00E6;l er som et tomt Sted; en egen Duft af Vemod og L&#x00E6;ngsel er derover. Lidt efter lidt er hun Tr&#x00F8;sterinden &#x2013; flyttet derind, og saa kommer en Dag, hvorpaa han siger, at han er lykkelig. <stage>(Pause).</stage></p>
+</sp>
+<sp>
+<speaker>Laura</speaker>
+<stage>(stille).</stage>
+<p>Hvem er hun?</p>
+</sp>
+<sp>
+<speaker>Mathilde.</speaker>
+<p>En af disse forsagende Naturer, som kunne lade sig n&#x00F8;je med Kjerlighedens Efterslet.</p>
+</sp>
+<sp>
+<speaker>Laura</speaker>
+<stage>(efter en Pause, hvori hun stivt har betragtet Mathilde).</stage>
+<p>Kunde <hi rend="italic">du</hi> det?</p>
+</sp>
+<sp>
+<speaker>Mathilde.</speaker>
+<p>Nej! &#x2013; Den f&#x00F8;rste eller ingen!</p>
+</sp>
+<sp>
+<speaker>Laura.</speaker>
+<p>Men hun?</p>
+</sp>
+<sp>
+<speaker>Mathilde.</speaker>
+<p>Konen?</p>
+</sp>
+<sp>
+<speaker>Laura.</speaker>
+<p>Ja. Hvordan gaar det hende?</p>
+</sp>
+<sp>
+<speaker>Mathilde.</speaker>
+<p>Strax hun f&#x00F8;ler, at Manden gribes af en anden Kjerlighed, vender hun sig mod ham med al sin Magt; men da er det blevet for silde.</p>
+</sp>
+<sp>
+<speaker>Laura</speaker>
+<stage>(sidder hensunken, rejser sig derpaa hurtigt og gaar til et lidet Sybord, som staar ved Enden af Sofaen tilvenstre, lukker det op, s&#x00F8;ger, t&#x00E6;nker sig om, s&#x00F8;ger atter).</stage>
+</sp>
+<sp>
+<speaker>Mathilde.</speaker>
+<p>Hvad s&#x00F8;ger du?</p>
+</sp>
+<sp>
+<speaker>Laura.</speaker>
+<p>Det er et Portr&#x00E6;t.</p>
+</sp>
+<sp>
+<speaker>Mathilde.</speaker>
+<p>Axels.</p>
+</sp>
+<sp>
+<speaker>Laura.</speaker>
+<p>Nej; &#x2013; men hvor er det bleven af?</p>
+</sp>
+<sp>
+<speaker>Mathilde.</speaker>
+<p>Du husker, at du en Dag tog det op: du vilde ikke have det, sagde du. Saa gjemte jeg det.</p>
+</sp>
+<sp>
+<speaker>Laura.</speaker>
+<p>Du?</p>
+</sp>
+<sp>
+<speaker>Mathilde.</speaker>
+<p>Ja, &#x2013; til <hi rend="italic">du</hi> spurgte efter det. <stage>(rejser sig, lukker sit lille Sybord op, som staar ved Sofaen tilh&#x00F8;jre).</stage> Her er det. <stage>(giver hende det).</stage></p>
+</sp>
+<sp>
+<speaker>Laura.</speaker>
+<p>Saa du har det! <stage>(l&#x00E6;gger det ned uden at se paa det og skyder Skuffen til, gaar et Par Skridt, kommer tilbage, drejer N&#x00F8;glen om og tager den til sig. Standser bag Bordet).</stage> Har Axel l&#x00E6;st den nye Roman?</p>
+</sp>
+<sp>
+<speaker>Mathilde.</speaker>
+<p>Jeg ved ikke. Skal jeg give ham den?</p>
+</sp>
+<sp>
+<speaker>Laura.</speaker>
+<p>Som du vil. Du har maaske Lyst til at l&#x00E6;se den h&#x00F8;jt for ham. <stage>(En Pige kommer med et Brev, Laura tager det, Pigen gaar igjen).</stage> 	Fra mine For&#x00E6;ldre! <stage>(kysser det med R&#x00F8;relse).</stage> De Eneste, som holde af mig! <stage>(gaar hurtigt).</stage></p>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="2_2">
+<head type="sub">Anden Scene</head>
+<stage><hi rend="bold">Mathilde. Axel</hi> (fra Hovedindgangen).</stage>
+<sp>
+<speaker>Axel.</speaker>
+<p>Altid flygter hun, naar jeg kommer!</p>
+</sp>
+<sp>
+<speaker>Mathilde</speaker>
+<stage>(rejser sig).</stage>
+<p>Denne Gang var det dog tilf&#x00E6;ldigt. <stage>(ser paa ham).</stage> Hvor De er bleg?</p>
+</sp>
+<sp>
+<speaker>Axel</speaker>
+<stage>(alvorlig).</stage>
+<p>Jeg er lidt bev&#x00E6;get. &#x2013; Har De l&#x00E6;st den nye Roman?</p>
+</sp>
+<sp>
+<speaker>Mathilde</speaker>
+<stage>(putter Bogen i Lommen).</stage>
+<p>Hvilken Roman?</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>&#x00AB;De Nygifte&#x00BB;, &#x2013; en ganske liden Bog.</p>
+</sp>
+<sp>
+<speaker>Mathilde.</speaker>
+<p>Aa; &#x2013; jeg er just if&#x00E6;rd med den.</p>
+</sp>
+<sp>
+<speaker>Axel</speaker>
+<stage>(ivrig).</stage>
+<p>Laura ogsaa? L&#x00E6;ser Laura den?</p>
+</sp>
+<sp>
+<speaker>Mathilde.</speaker>
+<p>Hun siger, den er slet.</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Nej, men forunderlig er den. Den forf&#x00E6;rder mig, som at komme ind i sit eget V&#x00E6;relse og se sig selv sidde der. Den har fat lige ned i det, som ligger ut&#x00E6;nkt i min Sj&#x00E6;l.</p>
+</sp>
+<sp>
+<speaker>Mathilde.</speaker>
+<p>Det har enhver god Bog.</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Det vil gaa mig som i denne Bog; alle Foruds&#x00E6;tninger ere der, jeg har kun ikke kjendt dem selv.</p>
+</sp>
+<sp>
+<speaker>Mathilde.</speaker>
+<p>Jeg har h&#x00F8;rt, men blot om unge Medicinere, at de f&#x00F8;le alle de Sygdomme, hvorom de l&#x00E6;se.</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>O, dette er mere end Indbildning! Mine Fristelser komme gaaende lyslevende mod mig. Tankerne stige saa naturlig op af det, der sker, som R&#x00F8;gen af sin Ild; &#x2013; og disse Tanker <stage>(med et Blik paa Mathilde)</stage> f&#x00F8;re langt.</p>
+</sp>
+<sp>
+<speaker>Mathilde.</speaker>
+<p>Saavidt jeg kan se, l&#x00E6;rer Bogen kun at tage noget Hensyn overfor en Kvinde, helst naar hun er ung.</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Det er sandt. Men h&#x00F8;r mig: En Ungkarl, opdragen blandt Studenter, kan umulig have alle disse Hensyn f&#x00E6;rdige, som en Kvindes V&#x00E6;sen kr&#x00E6;ver. Han giftes ikke paa en Dag, men efterhaanden; han flytter ikke strax sine Vaner ned af en Sofa eller sine Pligter ind i silkespundne Forhold. Den f&#x00F8;rste Kjerligheds Inspiration giver Begavelsen, men denne maa staa i L&#x00E6;re. Ak, jeg saa ikke, hvad jeg havde fors&#x00F8;mt, f&#x00F8;r hun stod skr&#x00E6;mt og langt borte. Men hvad har jeg siden ikke gjort for at fange hende? N&#x00E6;rmet mig med sagte Gang, fra alle Sider, lokkende, med Gaver, med Anger; men De ser selv: hun flygter altid dybere ind. Mine Tanker, sp&#x00E6;ndte af L&#x00E6;ngsel og Opfindsomhed, stimle efter, Kjerligheden voxer, &#x2013; men undertiden afl&#x00F8;ses den rigtignok af et Savn saa uhyre, at hele Livet vil forgaa deri. Da tr&#x00E6;nger jeg til at klamre mig fast, &#x2013; o, Mathilde, De har v&#x00E6;ret mig meget i denne Tid! <stage>(n&#x00E6;rmer sig).</stage></p>
+</sp>
+<sp>
+<speaker>Mathilde</speaker>
+<stage>(rejser sig).</stage>
+<p>Ja, der h&#x00E6;nder Adskilligt i et Aar, som man ikke t&#x00E6;nkte sig, da man begyndte det.</p>
+</sp>
+<sp>
+<speaker>Axel</speaker>
+<stage>(s&#x00E6;tter sig).</stage>
+<p>Gud, hvilket Aar! Jeg t&#x00F8;r ikke leve et saadant til; &#x2013; denne Bog har gjort mig r&#x00E6;d!</p>
+</sp>
+<sp>
+<speaker>Mathilde</speaker>
+<stage>(afsides).</stage>
+<p>Det er jo godt.</p>
+</sp>
+<sp>
+<speaker>Axel</speaker>
+<stage>(rejser sig op igjen).</stage>
+<p>Desuden: det Arbejde, jeg har, for at holde Alt her, saadan som hun er vant til, bliver mig for  stort, Mathilde! I L&#x00E6;ngden kan det ikke gaa! Havde jeg endda den L&#x00F8;n, som den simpleste Arbejdsmand, at hun takkede mig &#x2013; om bare i et Smil; men naar jeg har rejst ugevis omkring og slidt ondt i disse aabne Baade om Vinterdage, faar jeg saa en Hilsen ved min Hjemkomst? Ved hun af, naar jeg sidder N&#x00E6;tterne oppe, for hvem jeg gj&#x00F8;r det? Har hun blot lagt M&#x00E6;rke til det, &#x2013; eller til dette Hus, at det med stor Bekostning er indrettet som hendes For&#x00E6;ldres? Nej, hun tager Alt, som det saa skal v&#x00E6;re, &#x2013; og hvis Nogen sagde hende: &#x00AB;Dette gj&#x00F8;r han for din Skyld,&#x00BB; saa vilde hun svare: &#x00AB;Det beh&#x00F8;vede han ikke; jeg havde det Altsammen hjemme.&#x00BB;</p>
+</sp>
+<sp>
+<speaker>Mathilde.</speaker>
+<p>Ja, nu maa der komme et Vendepunkt.</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Hvad mener De dermed?</p>
+</sp>
+<sp>
+<speaker>Mathilde.</speaker>
+<p>Intet Bestemt, &#x2013; der er hun!</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Er der Noget h&#x00E6;ndt? Hun kommer saa hurtigt?</p>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="2_3">
+<head type="sub">Tredje Scene</head>
+<stage><hi rend="bold">Mathilde. Axel. Laura</hi> (med et aabent Brev).</stage>
+<sp>
+<speaker>Laura</speaker>
+<stage>(sagte til Mathilde).</stage>
+<p>Mine For&#x00E6;ldre f&#x00F8;le det saa tomt derhjemme, de ville til Udlandet, til Italien, men, de komme hid, Mathilde, f&#x00F8;r de forlade Landet!</p>
+</sp>
+<sp>
+<speaker>Mathilde.</speaker>
+<p>De komme hid? &#x2013; Naar?</p>
+</sp>
+<sp>
+<speaker>Laura.</speaker>
+<p>Nu strax! Jeg lagde ikke M&#x00E6;rke dertil: Brevet er skrevet fra n&#x00E6;ste Station, de ville overraske os, de ere her om et &#x00D8;jeblik! Gud i Himlene, hvad skulle vi gj&#x00F8;re?</p>
+</sp>
+<sp>
+<speaker>Mathilde</speaker>
+<stage>(hurtigt).</stage>
+<p>Sig det til Axel.</p>
+</sp>
+<sp>
+<speaker>Laura.</speaker>
+<p>Ja, gj&#x00F8;r det!</p>
+</sp>
+<sp>
+<speaker>Mathilde.</speaker>
+<p>Nej, det maa du!</p>
+</sp>
+<sp>
+<speaker>Laura</speaker>
+<stage>(forskr&#x00E6;kket).</stage>
+<p>Jeg?</p>
+</sp>
+<sp>
+<speaker>Mathilde</speaker>
+<stage>(til Axel).</stage>
+<p>Laura har Noget, hun vil sige Dem.</p>
+</sp>
+<sp>
+<speaker>Laura.</speaker>
+<p>Mathilde!</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Det vilde v&#x00E6;re f&#x00F8;rste Gang.</p>
+</sp>
+<sp>
+<speaker>Laura.</speaker>
+<p>O, sig det, du!</p>
+</sp>
+<stage>(Mathilde tier og gaar bort).</stage>
+<sp>
+<speaker>Axel</speaker>
+<stage>(n&#x00E6;rmere).</stage>
+<p>Hvad er det?</p>
+</sp>
+<sp>
+<speaker>Laura</speaker>
+<stage>(bange).</stage>
+<p>Mine For&#x00E6;ldre komme.</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Hid?</p>
+</sp>
+<sp>
+<speaker>Laura.</speaker>
+<p>Ja.</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Naar? Idag?</p>
+</sp>
+<sp>
+<speaker>Laura.</speaker>
+<p>Nu. Ret strax.</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Og det har Ingen sagt mig? <stage>(tager sin Hat og gaar).</stage></p>
+</sp>
+<sp>
+<speaker>Laura</speaker>
+<stage>(r&#x00E6;d).</stage>
+<p>Axel!</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Det er vist ikke for at finde mig, at de komme.</p>
+</sp>
+<sp>
+<speaker>Laura.</speaker>
+<p>Men du maa ikke gaa!</p>
+</sp>
+<sp>
+<speaker>Mathilde.</speaker>
+<p>Nej, De maa ikke!</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Tage de da ikke ind her?</p>
+</sp>
+<sp>
+<speaker>Laura.</speaker>
+<p>Jo, jeg har t&#x00E6;nkt, hvis du vil, &#x2013; i dine V&#x00E6;relser.</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Saa er det jo, som det skal v&#x00E6;re: jeg flytter ud, og de tage min Plads.</p>
+</sp>
+<sp>
+<speaker>Mathilde.</speaker>
+<p>Tag De mit V&#x00E6;relse, og jeg flytter sammen med Laura. Det skal jeg med Lethed ordne! <stage>(gaar ud).</stage></p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Hvorfor saa mange Omsv&#x00F8;b? At du l&#x00E6;nges efter dem er saa naturligt, og at jeg tager bort, naar de komme, er ligesaa naturligt; kun skulde du have forberedt det lidt lemf&#x00E6;ldig. Thi jeg maa jo tro, at de nu komme for at tage dig med, &#x2013; og om det koster dig Intet at faa gjort en Ende paa dette, saa maa du jo vide, at mig koster det!</p>
+</sp>
+<sp>
+<speaker>Laura.</speaker>
+<p>Jeg vidste ikke, at de kom, f&#x00F8;r i dette &#x00D8;ieblik.</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Nej, men dine Breve har kaldt dem hid, dine Klager &#x2013;</p>
+</sp>
+<sp>
+<speaker>Laura.</speaker>
+<p>Jeg har ikke klaget.</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Du har blot sagt dem, hvorledes her stod til.</p>
+</sp>
+<sp>
+<speaker>Laura.</speaker>
+<p>Nej aldrig!</p>
+</sp>
+<stage>(Pause).</stage>
+<sp>
+<speaker>Axel</speaker>
+<stage>(forundret).</stage>
+<p>Hvad har du da skrevet til dem i hele dette Aar, &#x2013; et Brev hver Dag?</p>
+</sp>
+<sp>
+<speaker>Laura.</speaker>
+<p>Jeg har sagt dem, at her stod godt til.</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Er det muligt? Hele Tiden? Laura! T&#x00F8;r jeg tro det? Saameget Hensyn <stage>(n&#x00E6;rmere).</stage> O, saa er der dog endnu &#x2013;!</p>
+</sp>
+<sp>
+<speaker>Laura</speaker>
+<stage>(r&#x00E6;d).</stage>
+<p>Jeg gjorde det af Hensyn til mine For&#x00E6;ldre.</p>
+</sp>
+<sp>
+<speaker>Axel</speaker>
+<stage>(koldt).</stage>
+<p>Til dine For&#x00E6;ldre? Saa gj&#x00F8;r det mig ondt for dem; thi de ville snart se, hvorledes vi har det.</p>
+</sp>
+<sp>
+<speaker>Laura.</speaker>
+<p>De blive her blot et Par Dage; de skulle til Udlandet.</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Til Udlandet? &#x2013; Saa skal vel Nogen f&#x00F8;lge dem? &#x2013; <hi rend="italic">Du</hi> kanske?</p>
+</sp>
+<sp>
+<speaker>Laura.</speaker>
+<p><hi rend="italic">Du</hi> kan vel ikke?</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Nej. &#x2013; Du rejser altsaa dog fra mig, Laura. &#x2013; Jeg bliver alene her med Mathilde; &#x2013; det er n&#x00E6;sten som i Bogen.</p>
+</sp>
+<sp>
+<speaker>Laura.</speaker>
+<p>Med Mathilde? &#x2013; Ja, &#x2013; kanske Mathilde kunde f&#x00F8;lge dem?</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Hun kan jo ikke undv&#x00E6;res her, &#x2013; saal&#x00E6;nge det staar som nu.</p>
+</sp>
+<sp>
+<speaker>Laura.</speaker>
+<p>Du vil maaske hellere, at jeg &#x2013;?</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Du beh&#x00F8;ver jo ikke at sp&#x00F8;rge mig om Noget. Du rejser, hvis du vil.</p>
+</sp>
+<sp>
+<speaker>Laura.</speaker>
+<p>Ja, <hi rend="italic">jeg</hi> kan undv&#x00E6;res. &#x2013; Imidlertid tror jeg nok, at jeg bliver!</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Du bliver &#x2013; hos mig?</p>
+</sp>
+<sp>
+<speaker>Laura.</speaker>
+<p>Ja.</p>
+</sp>
+<sp>
+<speaker>Axel</speaker>
+<stage>(glad, n&#x00E6;rmere).</stage>
+<p><hi rend="italic">Det</hi> er dog ikke af Hensyn til dine For&#x00E6;ldre?</p>
+</sp>
+<sp>
+<speaker>Laura.</speaker>
+<p>Nej, det er det ikke!</p>
+</sp>
+<stage>(Han fjerner sig forundret).</stage>
+</div>
+<div type="uchapter" subtype="scene" n="2_4">
+<head type="sub">Fjerde Scene</head>
+<stage>De Forrige. <hi rend="bold">Mathilde</hi>.</stage>
+<sp>
+<speaker>Mathilde.</speaker>
+<p>Nu er Alt i Orden. <stage>(til Axel).</stage> De bliver altsaa?</p>
+</sp>
+<sp>
+<speaker>Axel</speaker>
+<stage>(ser paa Laura).</stage>
+<p>Jeg ved ikke. &#x2013; Dersom jeg rejser bort de faa Dage, vil det vist gaa bedre.</p>
+</sp>
+<sp>
+<speaker>Mathilde</speaker>
+<stage>(tr&#x00E6;der frem).</stage>
+<p>Godt. Saa rejser ogsaa jeg!</p>
+</sp>
+<sp>
+<speaker>Laura.</speaker>
+<p>Du?</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>De?</p>
+</sp>
+<sp>
+<speaker>Mathilde.</speaker>
+<p>Ja, i det, som da sker, vil jeg ingen Del have.</p>
+</sp>
+<stage>(Pause).</stage>
+<sp>
+<speaker>Axel.</speaker>
+<p>Hvad tror De da vil ske?</p>
+</sp>
+<sp>
+<speaker>Mathilde.</speaker>
+<p>Lad det v&#x00E6;re usagt, &#x2013; saal&#x00E6;nge det er usket.</p>
+</sp>
+<stage>(Pause).</stage>
+<sp>
+<speaker>Axel.</speaker>
+<p>Nu t&#x00E6;nker De for haardt om Deres Veninde.</p>
+</sp>
+<sp>
+<speaker>Laura</speaker>
+<stage>(rolig).</stage>
+<p>Mathilde er ikke min Veninde.</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Er Mathilde ikke din &#x2013;?</p>
+</sp>
+<sp>
+<speaker>Laura</speaker>
+<stage>(som f&#x00F8;r).</stage>
+<p>Den, som bestandig skuffer, er ingen Veninde.</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Har Mathilde skuffet Nogen? Du er uretf&#x00E6;rdig!</p>
+</sp>
+<sp>
+<speaker>Laura</speaker>
+<stage>(altid rolig).</stage>
+<p>Er jeg det? Mathilde er Skyld i, at jeg nu er ulykkelig.</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Men, Laura!</p>
+</sp>
+<sp>
+<speaker>Laura.</speaker>
+<p>Kjere, forsvar hende du, hvis du har Trang dertil; men lad mig faa Lov til at sige ligefrem, at Mathilde har f&#x00F8;rt mig, fra jeg var et troskyldigt Barn, og ind i alt det, hvori jeg nu lider! Uden hende var jeg idag ikke gift og heller ikke borte fra mine For&#x00E6;ldre. Hun fulgte mig hid, ikke forat hj&#x00E6;lpe mig, som hun sagde; men forat udspeide mig videre, stille, hemmeligt, som det er hendes Vis, og siden bruge, hvad hun har fundet. Men dig tjener hun; thi dig &#x2013; nej, jeg vil ikke sige det! <stage>(med stigende Heftighed).</stage> Men sammensv&#x00E6;rg Eder, I, og pr&#x00F8;v saa, om jeg l&#x00E6;ngere er noget Barn! Det Tr&#x00E6;, som I har flyttet med oprevne R&#x00F8;dder, giver ikke Frugt det f&#x00F8;rste Aar, hvormeget I saa ryste! Lad det kun gaa som i den Roman, hun har saamegen Gl&#x00E6;de af at l&#x00E6;se h&#x00F8;jt for mig; &#x2013; men den Dag jeg tigger om Kjerlighed, skal I ikke leve! Og saa maa mine For&#x00E6;ldre komme og se Alt, Alt, det er mig nu netop en Trang! Thi jeg vil ikke lade mig lede, jeg vil ikke lade mig skuffe, &#x2013; jeg vil ikke! <stage>(staar et &#x00D8;jeblik ganske stille, brister saa i heftig Graad og l&#x00F8;ber ud).</stage></p>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="2_5">
+<head type="sub">Femte Scene</head>
+<sp>
+<speaker>Axel</speaker>
+<stage>(efter en Pause).</stage>
+<p>Hvad er dette?</p>
+</sp>
+<sp>
+<speaker>Mathilde.</speaker>
+<p>Hun hader mig.</p>
+</sp>
+<sp>
+<speaker>Axel</speaker>
+<stage>(forbauset).</stage>
+<p>Naar er det kommet?</p>
+</sp>
+<sp>
+<speaker>Mathilde.</speaker>
+<p>Lidt efter lidt. Ser De det f&#x00F8;rst nu?</p>
+</sp>
+<sp>
+<speaker>Axel</speaker>
+<stage>(endnu mere).</stage>
+<p>Har De da ikke l&#x00E6;nger hendes Fortrolighed?</p>
+</sp>
+<sp>
+<speaker>Mathilde.</speaker>
+<p>Ikke mere end De.</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Hun, som engang troede Alle &#x2013;!</p>
+</sp>
+<sp>
+<speaker>Mathilde.</speaker>
+<p>Nu tror hun Ingen. <stage>(Pause).</stage></p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Og endnu forunderligere, &#x2013; men, det er ikke til at tage Feil af: hun er skinsyg!</p>
+</sp>
+<sp>
+<speaker>Mathilde.</speaker>
+<p>Ja.</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>&#x2013; &#x2013; Og paa Dem? &#x2013; Noget saa ugrundet <stage>(standser uvilkaarligt seende paa hende; Mathilde gaar til den anden Side).</stage></p>
+</sp>
+<sp>
+<speaker>Mathilde.</speaker>
+<p><hi rend="italic">De</hi> kan kun v&#x00E6;re glad over, at dette er kommet.</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Skinsygen &#x2013; eller &#x2013; hvad sagde De?</p>
+</sp>
+<sp>
+<speaker>Mathilde.</speaker>
+<p>Den har hjulpet hende. Nu er hun paavej til at elske Dem.</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Nu? &#x2013;</p>
+</sp>
+<sp>
+<speaker>Mathilde.</speaker>
+<p>Kjerligheden kommer ofte saaledes, &#x2013; helst hos den, der er gjort usikker.</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Og <hi rend="italic">De</hi> skulde v&#x00E6;re Offer?</p>
+</sp>
+<sp>
+<speaker>Mathilde.</speaker>
+<p>Det er jeg vant til.</p>
+</sp>
+<sp>
+<speaker>Axel</speaker>
+<stage>(n&#x00E6;rmere, hurtigt).</stage>
+<p>De maa selv have elsket, Mathilde?</p>
+</sp>
+<sp>
+<speaker>Mathilde</speaker>
+<stage>(studser, siger derpaa).</stage>
+<p>Det har jeg ogsaa.</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Ulykkeligt?</p>
+</sp>
+<sp>
+<speaker>Mathilde.</speaker>
+<p>Ikke lykkeligt; &#x2013; men hvorfor tror De det?</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>De, der have oplevet saadant, have mindre Egenkjerlighed end vi Andre og ere istand til Mere.</p>
+</sp>
+<sp>
+<speaker>Mathilde.</speaker>
+<p>Ja, &#x2013; Kjerligheden er altid en Indvielse, om ikke altid til det Samme.</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Undertiden gj&#x00F8;r den kun ulykkelig.</p>
+</sp>
+<sp>
+<speaker>Mathilde.</speaker>
+<p>Ja, Mennesker uden Indhold &#x2013; og uden Stolthed!</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Jo mere jeg kjender Dem, desmindre. Hvad er det dog for en Mand, som <hi rend="italic">De</hi> kan have elsket uden Gjenkjerlighed!</p>
+</sp>
+<sp>
+<speaker>Mathilde</speaker>
+<stage>(d&#x00E6;mpet).</stage>
+<p>En Mand, jeg nu er meget taknemmelig; thi det er ikke mit Kald at blive gift.</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Hvad er da Deres Kald?</p>
+</sp>
+<sp>
+<speaker>Mathilde.</speaker>
+<p>Et, man ikke gjerne taler om, f&#x00F8;r man ved, det er lykkedes. &#x2013; Men uden ham havde jeg neppe opdaget det.</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Og nu er De rolig, &#x2013; har ingen L&#x00E6;ngsel?</p>
+</sp>
+<sp>
+<speaker>Mathilde</speaker>
+<stage>(heftigt som Alt f&#x00F8;lgende).</stage>
+<p>Jo, den L&#x00E6;ngsel at rejse, langt, langt! At fylde min Sj&#x00E6;l med store Billeder, o, har De Godhed for mig &#x2013;</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Mathilde, jeg har Mere: den varmeste Taknemmelighed, o, endnu Mere, jeg &#x2013;</p>
+</sp>
+<sp>
+<speaker>Mathilde</speaker>
+<stage>(afbrydende).</stage>
+<p>Vel, saa forson Dem med Laura! Saa faar jeg f&#x00F8;lge hendes For&#x00E6;ldre til Udlandet! &#x2026; O, kommer jeg nu ikke bort, langt bort, saa er der Noget i mig, som d&#x00F8;r!</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Rejs, Mathilde, &#x2013; De siger det, saa jeg tror Dem!</p>
+</sp>
+<sp>
+<speaker>Mathilde.</speaker>
+<p>Jeg rejser ikke, f&#x00F8;r I ere forsonede! Vi skulle dog ikke alle tre blive ulykkelige! &#x2026; Nej, jeg er det ikke; men jeg blev det, hvis I blev det, &#x2013; og hvis jeg nu ikke fik rejse!</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Ak, hvad kan jeg gj&#x00F8;re dertil?</p>
+</sp>
+<sp>
+<speaker>Mathilde</speaker>
+<stage>(hurtigt).</stage>
+<p>Blive her forat tage godt mod de Gamle! V&#x00E6;r saa mod Laura, som om Intet var, og hun tier!</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Hvoraf tror De, at hun tier?</p>
+</sp>
+<sp>
+<speaker>Mathilde.</speaker>
+<p>Af alt, jeg har gjort derfor!</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>De? &#x2013;</p>
+</sp>
+<sp>
+<speaker>Mathilde.</speaker>
+<p>Ja, &#x2013; nej &#x2013; ja, det vil sige, ikke som De har villet, men ad Omveje &#x2013;</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Ogsaa i den f&#x00F8;rste Tid?</p>
+</sp>
+<sp>
+<speaker>Mathilde.</speaker>
+<p>Nej, ikke dengang, det er sandt. Men glem det; thi nu har jeg gjort det godt igjen! Jeg kjendte Dem ikke dengang, &#x2026; der var Grunde &#x2026;</p>
+</sp>
+<sp>
+<speaker>Axel</speaker>
+<stage>(n&#x00E6;rmere).</stage>
+<p>Mathilde, jeg har faaet en forunderlig Godhed for Dem, det er, som om alt Det, der hist bliver forsmaaet, vil samles om Dem, og som om jeg nu f&#x00F8;rst &#x2013;</p>
+</sp>
+<sp>
+<speaker>Mathilde.</speaker>
+<p>Der er Vognen!</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Hvad skal jeg?</p>
+</sp>
+<sp>
+<speaker>Mathilde.</speaker>
+<p>Gaa ned og tage mod de Gamle! Skynd Dem! Se, Laura er alt dernede, o, lad hende ikke savne Dem i denne Stund! Saa, det var ret! <stage>(han gaar).</stage> Ja, det var ret: nu har jeg f&#x00F8;rst rigtig vundet! <stage>(ud).</stage></p>
+</sp>
+</div>
+<div type="uchapter" subtype="scene" n="2_6">
+<head type="sub">Sjette Scene</head>
+<stage>(Man h&#x00F8;rer Fruens og Amtmandens Stemmer udenfor, strax komme <hi rend="bold">Fruen</hi> fulgt af <hi rend="bold">Laura</hi>, derpaa <hi rend="bold">Amtmanden</hi>, fulgt af <hi rend="bold">Axel</hi> og <hi rend="bold">Mathilde</hi>.)</stage>
+<sp>
+<speaker>Fruen.</speaker>
+<p>Saa er jeg da hos dig, mit evig elskede Barn <stage>(kysser hende).</stage> O, det er ogsaa godt at v&#x00E6;re adskilte, for saa m&#x00F8;des vi igjen! <stage>(kysser hende).</stage> Hver eneste Dag dine dejlige Breve, &#x2013; Tak! <stage>(kysser hende atter).</stage> O, du er den samme, ganske den samme, &#x2013; kun lidt blegere; &#x2013; men det skal du jo v&#x00E6;re. <stage>(kysser hende).</stage></p>
+</sp>
+<sp>
+<speaker>Axel</speaker>
+<stage>(til Amtmanden, som tager Frakken og flere Skjerf af).</stage>
+<p>Skal jeg ikke &#x2013;?</p>
+</sp>
+<sp>
+<speaker>Amtmanden</speaker>
+<stage>(bukkende).</stage>
+<p>Jeg takker, &#x2026; jeg kan godt selv!</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Maa jeg saa ikke b&#x00E6;re det bort? <stage>(vil tage Hat og Frakke m. m.).</stage></p>
+</sp>
+<sp>
+<speaker>Amtmanden</speaker>
+<stage>(bukkende).</stage>
+<p>Tusind Tak! &#x2026; Jeg skal nok selv! <stage>(gaar med det).</stage></p>
+</sp>
+<sp>
+<speaker>Fruen</speaker>
+<stage>(til Laura, sagte).</stage>
+<p>Det kostede at faa Fa&#x0027;r med, kan du tro. Han kan endnu ikke glemme &#x2013;. Men vort Barn  maatte vi dog se, f&#x00F8;r vi rejste, og rejse maatte vi, da det blev saa &#x00F8;de der hjemme.</p>
+</sp>
+<sp>
+<speaker>Laura.</speaker>
+<p>Gode Mo&#x0027;r! <stage>(hun og Mathilde hj&#x00E6;lpe hende T&#x00F8;jet af).</stage></p>
+</sp>
+<sp>
+<speaker>Axel</speaker>
+<stage>(til Amtmanden, som er kommen ind igjen).</stage>
+<p>Amtmanden har havt en god Rejse?</p>
+</sp>
+<sp>
+<speaker>Amtmanden.</speaker>
+<p>S&#x00E6;rdeles behagelig.</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Ingen Forkj&#x00F8;lelse?</p>
+</sp>
+<sp>
+<speaker>Amtmanden.</speaker>
+<p>Ingen egentlig, kun en let; &#x2013; lidt H&#x00E6;velse i Halsen, sent ude, st&#x00E6;rkt Duggslag. &#x2013; De befinder Dem vel?</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Tak, meget vel.</p>
+</sp>
+<sp>
+<speaker>Amtmanden.</speaker>
+<p>Det forn&#x00F8;jer mig s&#x00E6;rdeles.</p>
+</sp>
+<sp>
+<speaker>Fruen</speaker>
+<stage>(til Amtmanden).</stage>
+<p>Men ser du &#x2013;?</p>
+</sp>
+<sp>
+<speaker>Amtmanden.</speaker>
+<p>Hvad, min Bedste?</p>
+</sp>
+<sp>
+<speaker>Fruen.</speaker>
+<p>Nej, ser du det ikke?</p>
+</sp>
+<sp>
+<speaker>Amtmanden.</speaker>
+<p>Nej, hvad er det?</p>
+</sp>
+<sp>
+<speaker>Fruen.</speaker>
+<p>Vi ere komne hjem igjen, Stuen er jo vor egen!</p>
+</sp>
+<sp>
+<speaker>Amtmanden</speaker>
+<stage>(forundret).</stage>
+<p>Jeg mener ogsaa &#x2013;</p>
+</sp>
+<sp>
+<speaker>Fruen.</speaker>
+<p>Teppet, Betr&#x00E6;kket, M&#x00F8;blerne, Alt indtil den Orden, hvori det staar! <stage>(gaar over til Axel og tager hans Haand)</stage> Et mere r&#x00F8;rende Bevis paa din Kjerlighed for hende kunde aldrig m&#x00F8;de os! <stage>(til Amtmanden)</stage> Ikke sandt?</p>
+</sp>
+<sp>
+<speaker>Amtmanden.</speaker>
+<p>Ja, det maa jeg sige &#x2013;</p>
+</sp>
+<sp>
+<speaker>Fruen.</speaker>
+<p>Og derom, Laura, har du ikke skrevet et eneste Ord?</p>
+</sp>
+<sp>
+<speaker>Mathilde.</speaker>
+<p>Ikke denne Stue alene, men hele Huset er, saavidt muligt, indrettet som Eders.</p>
+</sp>
+<sp>
+<speaker>Fruen.</speaker>
+<p>Hele Huset, er det muligt!</p>
+</sp>
+<sp>
+<speaker>Amtmanden.</speaker>
+<p>Det er den smukkeste Maade at gj&#x00F8;re sin unge Kone en Gl&#x00E6;de paa, som jeg nogensinde har h&#x00F8;rt Tale om!</p>
+</sp>
+<sp>
+<speaker>Fruen.</speaker>
+<p>Jeg er saa forundret over dig, mit Barn, at du ikke med et Ord har n&#x00E6;vnt alt dette?</p>
+</sp>
+<sp>
+<speaker>Amtmanden.</speaker>
+<p>Nej, ikke med et Ord!</p>
+</sp>
+<sp>
+<speaker>Fruen.</speaker>
+<p>Har du da ikke set det?</p>
+</sp>
+<sp>
+<speaker>Amtmanden.</speaker>
+<p>Det, man daglig har for &#x00D8;je, tror man, at Alle ved, &#x2013; ikke sandt, min Lille? Det er gaaet saadan til?</p>
+</sp>
+<sp>
+<speaker>Fruen.</speaker>
+<p>Og det har Axel givet dig ved sit eget Arbejde! Du er vel stolt deraf?</p>
+</sp>
+<sp>
+<speaker>Amtmanden</speaker>
+<stage>(klappende hende).</stage>
+<p>Naturligvis er hun det; men Laura plejer jo aldrig at skildre sine F&#x00F8;lelser, skj&#x00F8;nt dette er noget saa &#x2013;</p>
+</sp>
+<sp>
+<speaker>Fruen</speaker>
+<stage>(ler).</stage>
+<p>Hendes Breve har i den senere Tid kun v&#x00E6;ret optagne af Betragtninger over Kjerlighed.</p>
+</sp>
+<sp>
+<speaker>Laura.</speaker>
+<p>Mo&#x0027;r! &#x2013;</p>
+</sp>
+<sp>
+<speaker>Fruen.</speaker>
+<p>Nu, jeg skal Intet sige. Men du har en god Mand, Laura!</p>
+</sp>
+<sp>
+<speaker>Laura.</speaker>
+<p>Mo&#x0027;r! &#x2013;</p>
+</sp>
+<sp>
+<speaker>Fruen</speaker>
+<stage>(d&#x00E6;mpet).</stage>
+<p>Du har vist ham en eller anden Opm&#x00E6;rksomhed igjen, givet ham Noget? Eller &#x2013;</p>
+</sp>
+<sp>
+<speaker>Amtmanden.</speaker>
+<p>&#x2013; Syet noget til ham, &#x2013; hvad?</p>
+</sp>
+<sp>
+<speaker>Axel</speaker>
+<stage>(da Mathilde har bragt Vin og skjenket i).</stage>
+<p>Et Glas Vin til Velkomst, &#x2013; Sherry, Amtmandens Yndlingsvin.</p>
+</sp>
+<sp>
+<speaker>Fruen.</speaker>
+<p>Det husker han!</p>
+</sp>
+<stage>(De tage sine Glas).</stage>
+<sp>
+<speaker>Axel.</speaker>
+<p>Maa Laura og jeg nu faa Lov til at &#x00F8;nske Eder velkomne hos os! Maatte I nu finde Alt her, <stage>(bev&#x00E6;get)</stage> saadan som I &#x00F8;nske det; &#x2013; jeg skal gj&#x00F8;re Mit dertil, &#x2026; og Laura vil vist ogsaa gj&#x00F8;re Sit.</p>
+</sp>
+<sp>
+<speaker>Fruen.</speaker>
+<p>Det vil hun! &#x2013; Klink med ham! <stage>(han r&#x00E6;kker sit Glas imod hende, hun skj&#x00E6;lver paa Haanden, saa Vinen spildes).</stage> Du har skjenket for fuldt, mit Barn!</p>
+</sp>
+<stage>(De klinke og drikke Alle).</stage>
+<sp>
+<speaker>Amtmanden</speaker>
+<stage>(da der atter er iskjenket).</stage>
+<p>Min Kone og jeg &#x2026; takke for denne Modtagelse. Vi kunde jo ikke rejse uden f&#x00F8;rst at se til vort Barn, &#x2013; til vore B&#x00F8;rn. En god Veninde af Eder <stage>(ser paa Mathilde)</stage> raadede os til at komme uventet. Vi vilde det ikke strax, men ere nu glade ved, at det skete; thi nu &#x2013; se vi bedst, at Lauras Breve vare sande. I har det godt, &#x2013; og saa maa vi Gamle jo ogsaa have det godt &#x2013; og lade v&#x00E6;re glemt, hvad &#x2013; hvad dog er blevet til det Bedste. &#x2013; Hm hm. &#x2013; Engang kunde vi ikke t&#x00E6;nke os dette &#x2026; og derfor ikke skilles fra vort Barn; men nu kunne vi det trygt; &#x2013; thi nu tror vi paa Dem, &#x2026; jeg tror paa dig, Axel, min S&#x00F8;n &#x2026; Gud velsigne dig! <stage>(De trykke hinandens H&#x00E6;nder, Alle drikke.)</stage></p>
+</sp>
+<sp>
+<speaker>Fruen.</speaker>
+<p>Ved I, hvad jeg nu har Lyst til?</p>
+</sp>
+<sp>
+<speaker>Alle.</speaker>
+<p>Nej?</p>
+</sp>
+<sp>
+<speaker>Fruen.</speaker>
+<p>At Axel fort&#x00E6;ller, hvorledes det gik til, da I bleve forsonede.</p>
+</sp>
+<sp>
+<speaker>Laura.</speaker>
+<p>Mo&#x0027;r! &#x2013;</p>
+</sp>
+<sp>
+<speaker>Fruen.</speaker>
+<p>Hvorfor er du undselig? Hvorfor har du aldrig villet fort&#x00E6;lle det? Herregud, har vi For&#x00E6;ldre nogen st&#x00F8;rre Gl&#x00E6;de end at h&#x00F8;re, hvorledes vore B&#x00F8;rn bleve lykkelige?</p>
+</sp>
+<sp>
+<speaker>Amtmanden.</speaker>
+<p>Det er en god Ide af Mo&#x0027;r! Saa s&#x00E6;tte vi os og h&#x00F8;re paa. <stage>(De s&#x00E6;tte sig; Laura vil gaa)</stage> Nej, kom nu og s&#x00E6;t dig hos Mo&#x0027;r, Laura! Vi maa jo se paa dig, mens han fort&#x00E6;ller. <stage>(han drager hende ned til sig).</stage></p>
+</sp>
+<sp>
+<speaker>Fruen.</speaker>
+<p>Saa maa du ikke glemme Noget, Axel, kom med de f&#x00F8;rste Tegn, den f&#x00F8;rste Godhed, Laura viste dig.</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Ja, jeg skal fort&#x00E6;lle, hvorledes det gik til.</p>
+</sp>
+<sp>
+<speaker>Laura</speaker>
+<stage>(farer op).</stage>
+<p>Men Axel &#x2013;!</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Jeg forts&#x00E6;tter kun dine Breve, Laura.</p>
+</sp>
+<sp>
+<speaker>Fruen.</speaker>
+<p>Det er jo til &#x00C6;re for dig, mit Barn! H&#x00F8;r nu stille paa ham og ret ham, hvor han glemmer Noget. <stage>(Hun drages ned igjen).</stage></p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Ja, kjere For&#x00E6;ldre, I vide jo, at det ikke begyndte godt, &#x2013;</p>
+</sp>
+<sp>
+<speaker>Amtmanden.</speaker>
+<p>Ak ja, &#x2013; men gaa det forbi.</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Den store Uret, jeg havde gjort Laura, f&#x00F8;lte jeg, strax hun stod alene. Hun skalv, naar jeg n&#x00E6;rmede mig, og snart skalv hun for Alle som for mig. F&#x00F8;rst blev jeg ydmyg som den St&#x00E6;rke, naar han har sejret, men siden bange; thi jeg havde v&#x00E6;ret <hi rend="italic">for</hi> st&#x00E6;rk. Da indviede jeg min Kjerlighed til i Jakobs syv Arbejdsaar at tjene op, hvad jeg havde tabt i et &#x00D8;jeblik. I ser dette Hus, &#x2013; jeg jevnede det for hendes Fod; I ser, hvad her er, &#x2013; jeg satte det for hendes &#x00D8;je; af mine N&#x00E6;tters Arbejde, af den yderste Anstrengelse hentede jeg det frem, Stykke for Stykke, at hun ikke skulde st&#x00F8;de sig paa noget Fremmed og Koldt, men b&#x00E6;res af det Kjendte og Elskde. Dette forstod hun, og Vaarens Fugle begyndte tidlig at flagre om Huset, og skj&#x00F8;nt hun altid var flygtet, naar jeg kom, m&#x00E6;rkede jeg hendes Tilstedev&#x00E6;relse i mine Stuer, ved mit Arbejdsbord, i hundrede kjere Smaating &#x2013;</p>
+</sp>
+<sp>
+<speaker>Laura</speaker>
+<stage>(skamfuld).</stage>
+<p>O, det er ikke sandt!</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Tro hende ikke! Laura har et saa kjerligt Hjerte, &#x2013; hun var gjort undselig af sin Frygt, men hun kunde ikke modstaa sine gode Indskydelser eller min ydmyge Troskab. Naar jeg vaagede i mit V&#x00E6;relse ved mit Arbejde for hende, vaagede hun i sit, i alle Fald troede jeg ofte at h&#x00F8;re hendes Fodtrin; og naar jeg kom sent hjem fra haarde Rejser, sprang hun vel ikke imod mig, &#x2013; det var ikke, fordi hun savnede en Hustrus Taknemmelighed, den har Laura! &#x2013; men fordi hun ikke vilde r&#x00F8;be sin Gl&#x00E6;de f&#x00F8;r paa Forsoningens store Dag.</p>
+</sp>
+<sp>
+<speaker>Laura</speaker>
+<stage>(rejser sig).</stage>
+</sp>
+<sp>
+<speaker>Amtmanden.</speaker>
+<p>Men blev I da ikke strax forsonede?</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Ikke strax.</p>
+</sp>
+<sp>
+<speaker>Fruen</speaker>
+<stage>(bange, d&#x00E6;mpet).</stage>
+<p>Gud, det har Laura fortiet!</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Fordi hun elskede Eder og ikke un&#x00F8;dig vilde bedr&#x00F8;ve Eder. Men hendes Taushed, ikke sandt, den r&#x00F8;bede, at hun ventede paa mig; den var hendes Kjerligheds f&#x00F8;rste Gave til mig? <stage>(Laura s&#x00E6;tter sig).</stage> Siden kom flere; hun saa jo, at jeg ikke var ond, tvertom, hun saa, at hvad jeg havde syndet, havde jeg syndet af Kjerlighed, og Laura er jo selv kjerlig, hun kom mig derfor im&#x00F8;de lidt efter lidt, med Blidhed, i Stilhed; hun l&#x00E6;ngtes til at blive en god Hustru. 	Saa var det en dejlig Formiddag, ja, som nu denne; &#x2013; vi havde hver for sig l&#x00E6;st en Bog, der fra det Fjerne talte truende ned i vort Forhold, og vi dreves sammen her af Angst. Da, med en Gang, fl&#x00F8;j alle D&#x00F8;re og Vinduer op, det var Brev fra Eder, som kom, der blev varmt deraf i Stuen, &#x2013; ja, som nu I sidde her, &#x2013; Sommeren sang om Huset, &#x2013; og da saa jeg paa hendes &#x00D8;jne, at nu vilde alle Blomster aabne sig! Da kn&#x00E6;lte jeg for hende &#x2013; som nu &#x2013; og sagde: For vore For&#x00E6;ldres Skyld, at de skulle have Gl&#x00E6;de af os, for min Skyld, at jeg ikke l&#x00E6;ngere skal straffes, og for din Skyld, at du atter skal kunne leve af dit fulde, gode Hjerte, lad os nu finde hverandre! &#x2013; Og da svarte Laura &#x2013;?</p>
+</sp>
+<sp>
+<speaker>Laura</speaker>
+<stage>(kaster sig gr&#x00E6;dende til hans Bryst; Alle rejse sig).</stage>
+</sp>
+<sp>
+<speaker>Fruen.</speaker>
+<p>Det var dejligt, B&#x00F8;rn!</p>
+</sp>
+<sp>
+<speaker>Amtmanden.</speaker>
+<p>Dejligt, som da vi selv vare unge og fandt hinanden! &#x2013; Nej, som den Mand fort&#x00E6;ller!</p>
+</sp>
+<sp>
+<speaker>Fruen.</speaker>
+<p>Ja, som om vi oplevede det nu!</p>
+</sp>
+<sp>
+<speaker>Amtmanden.</speaker>
+<p>Ikke sandt, &#x2013; hvilken Begavelse!</p>
+</sp>
+<sp>
+<speaker>Fruen</speaker>
+<stage>(sagte).</stage>
+<p>Han bliver noget Stort!</p>
+</sp>
+<sp>
+<speaker>Amtmanden</speaker>
+<stage>(sagte).</stage>
+<p>&#x2013; Noget Stort, &#x2013; og i vor Familie.</p>
+</sp>
+<sp>
+<speaker>Axel</speaker>
+<stage>(som har f&#x00F8;rt Laura frem i Forgrunden til Venstre).</stage>
+<p>Saa <hi rend="italic">det</hi> svarte du, Laura!</p>
+</sp>
+<sp>
+<speaker>Laura.</speaker>
+<p>Du husker ikke Alt.</p>
+</sp>
+<sp>
+<speaker>Fruen.</speaker>
+<p>Er der Mere? Lad os h&#x00F8;re Mere!</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Hvad sagde du saa?</p>
+</sp>
+<sp>
+<speaker>Laura.</speaker>
+<p>Jo, jeg sagde, at jeg blev holdt tilbage l&#x00E6;nge &#x2026; l&#x00E6;nge! Jeg saa nok, at du var glad i mig; men jeg var bange, at det var som i et Barn.</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Laura!</p>
+</sp>
+<sp>
+<speaker>Laura.</speaker>
+<p>Jeg er jo ikke saa klog som &#x2026; mange Andre, &#x2026; men et Barn er jeg ikke l&#x00E6;nger; thi nu elsker jeg dig!</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Jo, et Barn er du alligevel!</p>
+</sp>
+<sp>
+<speaker>Amtmanden</speaker>
+<stage>(til Fruen).</stage>
+<p>Men hvordan bliver det nu med vor Aftale. Vi skulde jo strax rejse videre?</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Nej, bliv nu nogle Dage! <stage>(Laura gj&#x00F8;r Tegn til ham).</stage> Ikke?</p>
+</sp>
+<sp>
+<speaker>Laura</speaker>
+<stage>(sagte).</stage>
+<p>Nu vilde jeg, at vi skulde v&#x00E6;re alene.</p>
+</sp>
+<sp>
+<speaker>Fruen.</speaker>
+<p>Hvad siger du, Laura?</p>
+</sp>
+<sp>
+<speaker>Laura.</speaker>
+<p>Jeg? &#x2013; Jeg siger, at jeg vilde bede Jer, naar I nu rejse, at tage Mathilde med.</p>
+</sp>
+<sp>
+<speaker>Fruen.</speaker>
+<p>Det er smukt af dig, Laura, at du husker paa Mathilde. Man siger ellers om Nygifte, at de ere Egoister.</p>
+</sp>
+<sp>
+<speaker>Amtmanden.</speaker>
+<p>Nej, det er Laura ikke!</p>
+</sp>
+<sp>
+<speaker>Alle.</speaker>
+<p>Nej, det er Laura ikke!</p>
+</sp>
+<sp>
+<speaker>Laura.</speaker>
+<p>Mathilde, <stage>(sagte)</stage> tilgiv mig! <stage>(de omfavne hinanden; sagte)</stage> Nu f&#x00F8;rst forstaar jeg dig!</p>
+</sp>
+<sp>
+<speaker>Mathilde.</speaker>
+<p>Ikke ganske.</p>
+</sp>
+<sp>
+<speaker>Laura.</speaker>
+<p>Jo, uden dig havde jeg vist aldrig faaet Axel.</p>
+</sp>
+<sp>
+<speaker>Mathilde.</speaker>
+<p>Det er sandt.</p>
+</sp>
+<sp>
+<speaker>Laura.</speaker>
+<p>O, Mathilde, nu er jeg saa glad!</p>
+</sp>
+<sp>
+<speaker>Mathilde.</speaker>
+<p>Og jeg &#x00F8;nsker dig tillykke.</p>
+</sp>
+<sp>
+<speaker>Axel</speaker>
+<stage>(idet han tager Lauras Arm).</stage>
+<p><hi rend="italic">Nu</hi> kan De rejse, Mathilde!</p>
+</sp>
+<sp>
+<speaker>Mathilde.</speaker>
+<p>Ja! &#x2013; og min n&#x00E6;ste Roman skal blive bedre.</p>
+</sp>
+<sp>
+<speaker>Axel.</speaker>
+<p>Deres &#x2013;?</p>
+</sp>
+<stage>(Teppet falder).</stage>
+</div>
+</div>
+</body>
+</text>
+</TEI>
