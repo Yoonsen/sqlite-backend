@@ -9,7 +9,7 @@
     4. Aggreger posisjoner per n-gram per bok.
     5. **Encoding:** Delta-kode posisjoner og pakk til LEB128 Varint BLOBs.
     6. **Bulk Insert:** Sorter data etter PK før innsetting i SQLite for optimal B-Tree pakking.
-- **Output:** Shardede SQLite-filer (001.db, 002.db, ...).
+- **Output:** Shardede SQLite-filer (001.db, 002.db, ...) med cutoff rundt 500M tokens per shard; eldre filer ligger fra 0.5–1.5 mrd, men vi standardiserer på den konservative størrelsen.
 
 ## 2. Søkefasen (Julia)
 - **Verktøy:** Julia, `SQLite.jl`, `Threads`.
@@ -26,3 +26,4 @@
 - **Posisjonskoding:** Alle `seq` er 0-indekserte per bok.
 - **Nøkkelpakking:** `cf_id` lagres som 4-byte Little Endian i BLOB-nøkler.
 - **Varint:** Standard LEB128 (7-bit per byte, MSB som continuation flagg).
+- **ID-størrelser:** `cf_id`/`raw_id` er 4-byte ints, så unigram-volum er håndterbart; shard-cutoff (500M tokens) styrer filstørrelse.

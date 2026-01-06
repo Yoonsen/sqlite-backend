@@ -9,7 +9,7 @@ Systemet er en shardet, høy-ytelses fulltekstindeks designet for Digital Humani
 3. **Lexicon (Mapping):** Global/lokal tabell som mapper `term` <-> `cf_id` (case-foldet integer).
 
 ## Datamodell (SQLite Shard)
-Tabeller i hver `.sqlite`-fil (ca. 200-500 mill tokens per fil):
+Tabeller i hver `.sqlite`-fil (mål: ~500 mill tokens cutoff; historisk 0.5-1.5 mrd, men vi legger oss konservativt):
 
 ### 1. `tokens` (WITHOUT ROWID)
 Lagrer den lineære tekststrømmen.
