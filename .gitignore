@@ -1,0 +1,52 @@
+# --- DH-Postings Project Gitignore ---
+
+# SQLite & Data
+# Ekskluderer alle databasefiler, da disse er massive og shardet
+*.sqlite
+*.sqlite-journal
+*.sqlite-wal
+*.db
+*.db-journal
+*.db-wal
+
+# Ignorer rådata og prosesseringsmapper
+data/
+output/
+shards/
+*.csv
+*.tsv
+*.parquet
+
+# --- Python (uv) ---
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.python-version
+
+# --- Julia ---
+# Julia prosjekt-filer (Project.toml og Manifest.toml skal vanligvis være med,
+# men kompilerte filer og pakke-artifacts skal ignoreres)
+lib/
+bin/
+*.jl.cov
+*.jl.mem
+manifest.toml.bak
+
+# --- Jupyter Notebook ---
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+# Hvis du vil lagre notebooks uten output, kan du vurdere verktøy som nbstripout,
+# men her ignorerer vi bare checkpoints.
+
+# --- OS / IDE ---
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Logs & Temp ---
+*.log
+tmp/
+temp/
