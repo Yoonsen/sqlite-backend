@@ -24,10 +24,23 @@ Lagrer den lineære tekststrømmen.
 Invertert indeks for lynraske oppslag.
 - `key` (BLOB): Pakket sekvens av `cf_id` (4 bytes per ord).
 - `book_id` (INT)
-- `df` (INT): Antall forekomster i boken.
+- `tf` (INT): Antall forekomster i boken (per bok).
 - `post` (BLOB): Delta-kodede `seq` (Varint/LEB128).
 - **PK:** `(key, book_id)`
 - **Index:** `(book_id, key)` (For analyse av enkeltverk).
+
+## Designnotater (MUS / praktiske rammer)
+- **Maks n-gramlengde:** 6-gram som øvre grense i postings.
+- **Forventet snittlengde:** ~2.5 gitt høy andel hapax (~40%).
+- **Frekvens i postings:** behold `tf` per bok i postings-tabellen; globale frekvenser for `word_id` kan ligge i symboltabellen for å støtte selektive søkestrategier.
+- **Søkestrategi:** bruk `tf` til å velge korteste postings-liste som anker før nærhetskall (unngår å måle blob-lengde).
+- **Mulig indeks:** `(key, tf)` eller `(word_id, tf)` for rask filtrering/aggregat (aviser/tidslinjer).
+
+## Praktisk søkestrategi (ytelse vs orden)
+- **Symmetrisk nærhet i postings** brukes som standard for raske batch-kjøringer.
+- **Ordnet sekvens/retning** kan håndteres i postprosessering når det trengs.
+- Dette gir ofte bedre total gjennomstrømning: sparer mye tid i batch og
+  aksepterer litt ekstra postprosessering der orden er viktig.
 
 ## Søkestrategi (Julia)
 1. **Eksakt n-gram:** Ett oppslag i `ngrams` tabellen via `key`.
