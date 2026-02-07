@@ -5,7 +5,7 @@ Systemet er en shardet, høy-ytelses fulltekstindeks designet for Digital Humani
 
 ## Kjernekomponenter
 1. **Tokens (Sannhetskilden):** Vertikal lagring av hver bok. Hvert ord/tegn er en rad med posisjon (`seq`).
-2. **N-grams (Søkemotoren):** En invertert indeks der nøkkelen er en sekvens av ord-ID-er (opp til 10-gram), og verdien er en komprimert liste over posisjoner.
+2. **Unigrams (Søkemotoren):** Invertert indeks for nærhet og sekvens basert på postings.
 3. **Lexicon (Mapping):** Global/lokal tabell som mapper `term` <-> `cf_id` (case-foldet integer).
 
 ## Datamodell (SQLite Shard)
@@ -21,13 +21,19 @@ Lagrer den lineære tekststrømmen.
 - **PK:** `(book_id, seq)`
 
 ### 2. `ngrams` (WITHOUT ROWID)
-Invertert indeks for lynraske oppslag.
+Invertert indeks for lynraske oppslag (når vi lagrer n-gram).
 - `key` (BLOB): Pakket sekvens av `cf_id` (4 bytes per ord).
 - `book_id` (INT)
 - `tf` (INT): Antall forekomster i boken (per bok).
 - `post` (BLOB): Delta-kodede `seq` (Varint/LEB128).
 - **PK:** `(key, book_id)`
 - **Index:** `(book_id, key)` (For analyse av enkeltverk).
+
+### 3. `unigrams` / `bigrams` (WITHOUT ROWID)
+Vi starter med **unigrams** som grunnmotor og legger til **bigrams** gradvis.
+- `unigrams`: `cf_id`, `book_id`, `tf`, `post` med PK `(cf_id, book_id)`.
+- `bigrams`: `key`, `book_id`, `tf`, `post` med PK `(key, book_id)`.
+- **Cutoff:** bigrams kan lagres selektivt (høyfrekvente) for å holde shard liten.
 
 ## Designnotater (MUS / praktiske rammer)
 - **Maks n-gramlengde:** 6-gram som øvre grense i postings.
@@ -39,6 +45,7 @@ Invertert indeks for lynraske oppslag.
 ## Praktisk søkestrategi (ytelse vs orden)
 - **Symmetrisk nærhet i postings** brukes som standard for raske batch-kjøringer.
 - **Ordnet sekvens/retning** kan håndteres i postprosessering når det trengs.
+- **Union av postings** (f.eks. for regex/lemma-utvidelser) krever merge + re-encoding.
 - Dette gir ofte bedre total gjennomstrømning: sparer mye tid i batch og
   aksepterer litt ekstra postprosessering der orden er viktig.
 

@@ -1,0 +1,67 @@
+# thresholds: short<= 100, long>= 1000
+
+== short-short (n=20) ==
+100010367	blomstersnedde TRÆR	uni_tf=(1,13)	bi_tf=1	bigram=0.000022s	post=0.000011s	ratio=0.5x	hits=1
+100001342	faafaldtc B	uni_tf=(1,19)	bi_tf=1	bigram=0.000022s	post=0.000011s	ratio=0.5x	hits=1
+100017343	STILLER Dessuten	uni_tf=(31,20)	bi_tf=1	bigram=0.000019s	post=0.000011s	ratio=0.6x	hits=1
+100000836	Velklingende Stiil	uni_tf=(3,16)	bi_tf=1	bigram=0.000024s	post=0.000010s	ratio=0.4x	hits=1
+100000537	Matzes ANS	uni_tf=(1,40)	bi_tf=1	bigram=0.000016s	post=0.000010s	ratio=0.6x	hits=1
+100000020	lIaNB NAADE	uni_tf=(14,5)	bi_tf=1	bigram=0.000014s	post=0.000010s	ratio=0.7x	hits=1
+100004418	værcjr KENT	uni_tf=(1,1)	bi_tf=1	bigram=0.000016s	post=0.000010s	ratio=0.6x	hits=1
+100008848	Stærkt IND	uni_tf=(17,15)	bi_tf=1	bigram=0.000020s	post=0.000010s	ratio=0.5x	hits=1
+100009940	KANN NOK	uni_tf=(50,16)	bi_tf=1	bigram=0.000017s	post=0.000011s	ratio=0.6x	hits=1
+100000806	T liA6oV6rtoi-	uni_tf=(70,1)	bi_tf=1	bigram=0.000017s	post=0.000010s	ratio=0.6x	hits=1
+100001238	338. 525	uni_tf=(18,18)	bi_tf=1	bigram=0.000046s	post=0.000037s	ratio=0.8x	hits=1
+100000967	Kunnet opnaae3	uni_tf=(9,2)	bi_tf=1	bigram=0.000013s	post=0.000010s	ratio=0.8x	hits=1
+100010006	DENNE TANKE	uni_tf=(79,5)	bi_tf=1	bigram=0.000015s	post=0.000011s	ratio=0.8x	hits=1
+100000771	OS Beføiet	uni_tf=(65,1)	bi_tf=1	bigram=0.000019s	post=0.000012s	ratio=0.6x	hits=1
+100001295	Forferdelige Raseri	uni_tf=(21,3)	bi_tf=1	bigram=0.000017s	post=0.000010s	ratio=0.6x	hits=1
+100001927	Friend Whom	uni_tf=(27,57)	bi_tf=1	bigram=0.000020s	post=0.000012s	ratio=0.6x	hits=1
+100001235	BEREGNINGER LOR	uni_tf=(5,63)	bi_tf=1	bigram=0.000018s	post=0.000012s	ratio=0.7x	hits=1
+100004275	Multa ILLI	uni_tf=(15,33)	bi_tf=1	bigram=0.000018s	post=0.000012s	ratio=0.7x	hits=1
+100000672	X PAA	uni_tf=(1,46)	bi_tf=1	bigram=0.000020s	post=0.000012s	ratio=0.6x	hits=1
+100017343	NÆR firedoblet	uni_tf=(23,1)	bi_tf=1	bigram=0.000059s	post=0.000032s	ratio=0.5x	hits=1
+
+== long-long (n=20) ==
+100008576	HaD •	uni_tf=(2428,1147)	bi_tf=1	bigram=0.000016s	post=0.000041s	ratio=2.5x	hits=1
+100011619	EN «	uni_tf=(4388,1255)	bi_tf=25	bigram=0.000023s	post=0.000050s	ratio=2.2x	hits=25
+100007501	DET ER	uni_tf=(2479,2202)	bi_tf=104	bigram=0.000027s	post=0.000067s	ratio=2.5x	hits=104
+100001020	DERES OGSAA	uni_tf=(1396,1594)	bi_tf=1	bigram=0.000026s	post=0.000043s	ratio=1.6x	hits=1
+100008117	I DE	uni_tf=(2398,1314)	bi_tf=60	bigram=0.000024s	post=0.000040s	ratio=1.7x	hits=60
+100002268	DEN I	uni_tf=(4002,14219)	bi_tf=56	bigram=0.000026s	post=0.000098s	ratio=3.8x	hits=56
+100010376	DET PAA	uni_tf=(2642,1698)	bi_tf=17	bigram=0.000026s	post=0.000041s	ratio=1.6x	hits=17
+100018120	. BOM	uni_tf=(19612,2023)	bi_tf=37	bigram=0.000028s	post=0.000096s	ratio=3.4x	hits=37
+100000717	SOM DU	uni_tf=(7853,1004)	bi_tf=36	bigram=0.000034s	post=0.000059s	ratio=1.7x	hits=36
+100006721	Å .	uni_tf=(1249,9150)	bi_tf=3	bigram=0.000028s	post=0.000057s	ratio=2.1x	hits=3
+100001111	OG ,	uni_tf=(2668,11508)	bi_tf=11	bigram=0.000046s	post=0.000097s	ratio=2.1x	hits=11
+100007545	BE PAA	uni_tf=(6696,5955)	bi_tf=13	bigram=0.000029s	post=0.000130s	ratio=4.5x	hits=13
+100004316	JEG HAVE	uni_tf=(15718,1281)	bi_tf=24	bigram=0.000030s	post=0.000088s	ratio=3.0x	hits=24
+100004444	DET /	uni_tf=(2784,15903)	bi_tf=2	bigram=0.000026s	post=0.000075s	ratio=2.9x	hits=2
+100000772	AT DER	uni_tf=(3284,1857)	bi_tf=69	bigram=0.000032s	post=0.000058s	ratio=1.8x	hits=69
+100009307	' 33	uni_tf=(2246,1147)	bi_tf=2	bigram=0.000030s	post=0.000048s	ratio=1.6x	hits=2
+100001112	EN I	uni_tf=(2607,9015)	bi_tf=36	bigram=0.000031s	post=0.000080s	ratio=2.6x	hits=36
+100007546	* S	uni_tf=(3816,1011)	bi_tf=1	bigram=0.000033s	post=0.000057s	ratio=1.7x	hits=1
+100004502	AV I	uni_tf=(2939,16204)	bi_tf=27	bigram=0.000034s	post=0.000121s	ratio=3.6x	hits=27
+100004403	? :	uni_tf=(3892,2042)	bi_tf=30	bigram=0.000032s	post=0.000057s	ratio=1.8x	hits=30
+
+== long-short (n=20) ==
+100001155	OS Erindre	uni_tf=(1414,3)	bi_tf=1	bigram=0.000105s	post=0.000097s	ratio=0.9x	hits=1
+100001325	, AD	uni_tf=(5274,13)	bi_tf=1	bigram=0.000024s	post=0.000030s	ratio=1.2x	hits=1
+100006743	Strande ,	uni_tf=(1,20314)	bi_tf=1	bigram=0.000019s	post=0.000023s	ratio=1.2x	hits=1
+100001496	KiaN OG	uni_tf=(3,14976)	bi_tf=1	bigram=0.000020s	post=0.000030s	ratio=1.5x	hits=1
+100004381	ausznbilden .	uni_tf=(1,2491)	bi_tf=1	bigram=0.000016s	post=0.000019s	ratio=1.2x	hits=1
+100013605	AAM .	uni_tf=(1,1361)	bi_tf=1	bigram=0.000015s	post=0.000018s	ratio=1.1x	hits=1
+100001904	Brugt Forn	uni_tf=(43,1283)	bi_tf=1	bigram=0.000018s	post=0.000019s	ratio=1.1x	hits=1
+100004600	Ondt ,	uni_tf=(7,24963)	bi_tf=2	bigram=0.000012s	post=0.000048s	ratio=3.9x	hits=2
+100006734	- ~	uni_tf=(1433,67)	bi_tf=7	bigram=0.000018s	post=0.000022s	ratio=1.2x	hits=7
+100001508	. 1	uni_tf=(1903,28)	bi_tf=7	bigram=0.000019s	post=0.000078s	ratio=4.0x	hits=7
+100004453	/ DTE	uni_tf=(4257,1)	bi_tf=1	bigram=0.000022s	post=0.000027s	ratio=1.2x	hits=1
+100001212	vinxissent .	uni_tf=(1,6192)	bi_tf=1	bigram=0.000015s	post=0.000026s	ratio=1.8x	hits=1
+100009228	KapUN ,	uni_tf=(1,17290)	bi_tf=1	bigram=0.000016s	post=0.000034s	ratio=2.2x	hits=1
+100000960	, Overladte	uni_tf=(16422,2)	bi_tf=1	bigram=0.000018s	post=0.000043s	ratio=2.4x	hits=1
+100004273	EARL ;	uni_tf=(1,19327)	bi_tf=1	bigram=0.000016s	post=0.000023s	ratio=1.4x	hits=1
+100000802	Embedernes ELLER	uni_tf=(3,10988)	bi_tf=1	bigram=0.000015s	post=0.000036s	ratio=2.4x	hits=1
+100000959	HANDLINGER ;	uni_tf=(31,2027)	bi_tf=2	bigram=0.000018s	post=0.000022s	ratio=1.2x	hits=2
+100001020	Prise HANS	uni_tf=(15,2817)	bi_tf=2	bigram=0.000020s	post=0.000027s	ratio=1.3x	hits=2
+100001093	I AlleS	uni_tf=(2597,5)	bi_tf=1	bigram=0.000018s	post=0.000020s	ratio=1.1x	hits=1
+100001204	AF Klimatet	uni_tf=(2397,3)	bi_tf=1	bigram=0.000019s	post=0.000018s	ratio=1.0x	hits=1

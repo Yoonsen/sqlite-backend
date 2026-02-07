@@ -17,6 +17,7 @@
 #define sqlite3_result_int        sqlite3_api->result_int
 #define sqlite3_result_int64      sqlite3_api->result_int64
 #define sqlite3_result_null       sqlite3_api->result_null
+#define sqlite3_result_blob       sqlite3_api->result_blob
 #define sqlite3_result_text       sqlite3_api->result_text
 #define sqlite3_value_blob        sqlite3_api->value_blob
 #define sqlite3_value_bytes       sqlite3_api->value_bytes
@@ -76,6 +77,92 @@ static int json_append_int64(char **buf, int *len, int *cap, sqlite3_int64 v) {
     return 1;
 }
 
+static int append_varint_bytes(uint64_t v, unsigned char **buf, int *len, int *cap) {
+    while (1) {
+        unsigned char byte = (unsigned char)(v & 0x7f);
+        v >>= 7;
+        if (v) byte |= 0x80;
+        if (*len + 1 >= *cap) {
+            int new_cap = (*cap == 0) ? 128 : (*cap * 2);
+            unsigned char *new_buf = sqlite3_realloc(*buf, new_cap);
+            if (!new_buf) return 0;
+            *buf = new_buf;
+            *cap = new_cap;
+        }
+        (*buf)[(*len)++] = byte;
+        if (!v) break;
+    }
+    return 1;
+}
+
+/*
+ * post_union(blobA, blobB)
+ *  - returnerer unionen av to postingslister som ny delta/varint-BLOB
+ */
+static void post_union_sqlite(
+    sqlite3_context *ctx,
+    int argc,
+    sqlite3_value **argv
+) {
+    if (argc != 2) {
+        sqlite3_result_error(ctx, "post_union(blob, blob) expects 2 args", -1);
+        return;
+    }
+
+    const unsigned char *a = sqlite3_value_blob(argv[0]);
+    const unsigned char *b = sqlite3_value_blob(argv[1]);
+    int a_len = sqlite3_value_bytes(argv[0]);
+    int b_len = sqlite3_value_bytes(argv[1]);
+
+    if ((!a || a_len <= 0) && (!b || b_len <= 0)) {
+        sqlite3_result_blob(ctx, "", 0, SQLITE_STATIC);
+        return;
+    }
+
+    const uint8_t *pa = a, *pb = b;
+    const uint8_t *ea = a + a_len, *eb = b + b_len;
+    uint64_t acc_a = 0, acc_b = 0;
+    int has_a = (a && a_len > 0) ? next_seq(&pa, ea, &acc_a) : 0;
+    int has_b = (b && b_len > 0) ? next_seq(&pb, eb, &acc_b) : 0;
+
+    unsigned char *out = NULL;
+    int out_len = 0;
+    int out_cap = 0;
+    uint64_t last_out = 0;
+
+    while (has_a || has_b) {
+        uint64_t next;
+        if (has_a && has_b) {
+            if (acc_a == acc_b) {
+                next = acc_a;
+                has_a = next_seq(&pa, ea, &acc_a);
+                has_b = next_seq(&pb, eb, &acc_b);
+            } else if (acc_a < acc_b) {
+                next = acc_a;
+                has_a = next_seq(&pa, ea, &acc_a);
+            } else {
+                next = acc_b;
+                has_b = next_seq(&pb, eb, &acc_b);
+            }
+        } else if (has_a) {
+            next = acc_a;
+            has_a = next_seq(&pa, ea, &acc_a);
+        } else {
+            next = acc_b;
+            has_b = next_seq(&pb, eb, &acc_b);
+        }
+
+        uint64_t delta = next - last_out;
+        if (!append_varint_bytes(delta, &out, &out_len, &out_cap)) {
+            sqlite3_free(out);
+            sqlite3_result_error(ctx, "post_union: OOM", -1);
+            return;
+        }
+        last_out = next;
+    }
+
+    sqlite3_result_blob(ctx, out, out_len, sqlite3_free);
+}
 /*
  * post_intersect(blobA, blobB)
  *  - returnerer antall posisjoner som finnes i begge lister (eksakt match)
@@ -511,6 +598,13 @@ int sqlite3_postings_init(
         db, "post_near_count", 4,
         SQLITE_UTF8 | SQLITE_DETERMINISTIC,
         NULL, post_near_count_sqlite, NULL, NULL
+    );
+    if (rc != SQLITE_OK) return rc;
+
+    rc = sqlite3_create_function(
+        db, "post_union", 2,
+        SQLITE_UTF8 | SQLITE_DETERMINISTIC,
+        NULL, post_union_sqlite, NULL, NULL
     );
     if (rc != SQLITE_OK) return rc;
 

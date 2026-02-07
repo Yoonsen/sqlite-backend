@@ -221,6 +221,8 @@ def process_book(
     ngram_max: int,
     batch_size: int,
     split_ngrams: bool,
+    bigram_min_uni: int,
+    bigram_min_tf: int,
 ) -> None:
     tokens_rows = [
         (book_id, seqs[i], cf_ids[i], raw_ids[i], paras[i], pages[i])
@@ -261,8 +263,18 @@ def process_book(
         if ngram_max >= 2:
             bigram_rows = []
             for key, pos in bigram_positions.items():
+                tf = len(pos)
+                if bigram_min_tf > 0 and tf < bigram_min_tf:
+                    continue
+                if bigram_min_uni > 0:
+                    cf_x, cf_y = struct.unpack("<II", key)
+                    if min(
+                        len(unigram_positions.get(cf_x, [])),
+                        len(unigram_positions.get(cf_y, [])),
+                    ) < bigram_min_uni:
+                        continue
                 blob = encode_deltas(pos)
-                bigram_rows.append((key, book_id, len(pos), blob))
+                bigram_rows.append((key, book_id, tf, blob))
 
             batch_insert(
                 dst,
@@ -305,6 +317,8 @@ def convert(
     ngram_max: int,
     batch_size: int,
     split_ngrams: bool,
+    bigram_min_uni: int,
+    bigram_min_tf: int,
 ) -> None:
     src = connect_ro(src_path)
     dst = sqlite3.connect(dst_path)
@@ -353,6 +367,8 @@ def convert(
                 ngram_max,
                 batch_size,
                 split_ngrams,
+                bigram_min_uni,
+                bigram_min_tf,
             )
             seqs.clear()
             cf_ids.clear()
@@ -380,6 +396,8 @@ def convert(
             ngram_max,
             batch_size,
             split_ngrams,
+            bigram_min_uni,
+            bigram_min_tf,
         )
 
     src.close()
@@ -421,6 +439,18 @@ def parse_args() -> argparse.Namespace:
         help="Store unigrams/bigrams in separate tables",
     )
     parser.add_argument(
+        "--bigram-min-uni",
+        type=int,
+        default=0,
+        help="Minimum unigram tf (per token) to keep bigram (split mode)",
+    )
+    parser.add_argument(
+        "--bigram-min-tf",
+        type=int,
+        default=0,
+        help="Minimum bigram tf to keep (split mode)",
+    )
+    parser.add_argument(
         "--batch",
         type=int,
         default=10000,
@@ -442,6 +472,8 @@ def main() -> None:
         ngram_max=args.ngram_max,
         batch_size=args.batch,
         split_ngrams=args.split_ngrams,
+        bigram_min_uni=args.bigram_min_uni,
+        bigram_min_tf=args.bigram_min_tf,
     )
 
 
