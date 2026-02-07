@@ -49,7 +49,47 @@ def apply_build_pragmas(con: sqlite3.Connection) -> None:
     con.execute("PRAGMA cache_size = -2000000;")
 
 
-def ensure_dst_schema(con: sqlite3.Connection) -> None:
+def ensure_dst_schema(con: sqlite3.Connection, split_ngrams: bool) -> None:
+    if split_ngrams:
+        con.executescript(
+            """
+            CREATE TABLE IF NOT EXISTS tokens (
+                book_id INTEGER NOT NULL,
+                seq INTEGER NOT NULL,
+                cf_id INTEGER NOT NULL,
+                raw_id INTEGER NOT NULL,
+                para INTEGER,
+                page INTEGER,
+                PRIMARY KEY (book_id, seq)
+            ) WITHOUT ROWID;
+
+            CREATE TABLE IF NOT EXISTS unigrams (
+                cf_id INTEGER NOT NULL,
+                book_id INTEGER NOT NULL,
+                tf INTEGER NOT NULL,
+                post BLOB NOT NULL,
+                PRIMARY KEY (cf_id, book_id)
+            ) WITHOUT ROWID;
+
+            CREATE INDEX IF NOT EXISTS unigrams_book_id_cf_id ON unigrams(book_id, cf_id);
+
+            CREATE TABLE IF NOT EXISTS bigrams (
+                key BLOB NOT NULL,
+                book_id INTEGER NOT NULL,
+                tf INTEGER NOT NULL,
+                post BLOB NOT NULL,
+                PRIMARY KEY (key, book_id)
+            ) WITHOUT ROWID;
+
+            CREATE INDEX IF NOT EXISTS bigrams_book_id_key ON bigrams(book_id, key);
+
+            CREATE TABLE IF NOT EXISTS urns (
+                book_id INTEGER NOT NULL PRIMARY KEY
+            ) WITHOUT ROWID;
+            """
+        )
+        return
+
     con.executescript(
         """
         CREATE TABLE IF NOT EXISTS tokens (
@@ -180,6 +220,7 @@ def process_book(
     pages: List[int],
     ngram_max: int,
     batch_size: int,
+    split_ngrams: bool,
 ) -> None:
     tokens_rows = [
         (book_id, seqs[i], cf_ids[i], raw_ids[i], paras[i], pages[i])
@@ -195,8 +236,45 @@ def process_book(
     )
     dst.execute("INSERT OR IGNORE INTO urns(book_id) VALUES (?)", (book_id,))
 
-    positions: Dict[bytes, List[int]] = {}
     count = len(cf_ids)
+    if split_ngrams:
+        unigram_positions: Dict[int, List[int]] = {}
+        bigram_positions: Dict[bytes, List[int]] = {}
+        for i in range(count):
+            unigram_positions.setdefault(cf_ids[i], []).append(seqs[i])
+            if ngram_max >= 2 and i + 1 < count:
+                key = pack_key(cf_ids[i : i + 2])
+                bigram_positions.setdefault(key, []).append(seqs[i])
+
+        unigram_rows = []
+        for cf_id, pos in unigram_positions.items():
+            blob = encode_deltas(pos)
+            unigram_rows.append((cf_id, book_id, len(pos), blob))
+
+        batch_insert(
+            dst,
+            "INSERT INTO unigrams(cf_id, book_id, tf, post) VALUES (?, ?, ?, ?)",
+            unigram_rows,
+            batch_size,
+        )
+
+        if ngram_max >= 2:
+            bigram_rows = []
+            for key, pos in bigram_positions.items():
+                blob = encode_deltas(pos)
+                bigram_rows.append((key, book_id, len(pos), blob))
+
+            batch_insert(
+                dst,
+                "INSERT INTO bigrams(key, book_id, tf, post) VALUES (?, ?, ?, ?)",
+                bigram_rows,
+                batch_size,
+            )
+
+        dst.commit()
+        return
+
+    positions: Dict[bytes, List[int]] = {}
     for i in range(count):
         for n in range(1, ngram_max + 1):
             if i + n > count:
@@ -226,13 +304,16 @@ def convert(
     urn_limit: int,
     ngram_max: int,
     batch_size: int,
+    split_ngrams: bool,
 ) -> None:
     src = connect_ro(src_path)
     dst = sqlite3.connect(dst_path)
     words = sqlite3.connect(words_path)
 
     apply_build_pragmas(dst)
-    ensure_dst_schema(dst)
+    if split_ngrams and ngram_max > 2:
+        ngram_max = 2
+    ensure_dst_schema(dst, split_ngrams)
 
     selected_urns = select_urns(src, urns, urn_limit)
     word_map = build_word_maps(src, words, selected_urns, batch_size)
@@ -271,6 +352,7 @@ def convert(
                 pages,
                 ngram_max,
                 batch_size,
+                split_ngrams,
             )
             seqs.clear()
             cf_ids.clear()
@@ -297,6 +379,7 @@ def convert(
             pages,
             ngram_max,
             batch_size,
+            split_ngrams,
         )
 
     src.close()
@@ -333,6 +416,11 @@ def parse_args() -> argparse.Namespace:
         help="Max n-gram length to store (default: 3)",
     )
     parser.add_argument(
+        "--split-ngrams",
+        action="store_true",
+        help="Store unigrams/bigrams in separate tables",
+    )
+    parser.add_argument(
         "--batch",
         type=int,
         default=10000,
@@ -353,6 +441,7 @@ def main() -> None:
         urn_limit=args.urn_limit,
         ngram_max=args.ngram_max,
         batch_size=args.batch,
+        split_ngrams=args.split_ngrams,
     )
 
 

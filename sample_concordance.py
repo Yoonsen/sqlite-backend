@@ -44,6 +44,11 @@ def main() -> None:
     parser.add_argument("--token", default="og", help="token to sample")
     parser.add_argument("--limit", type=int, default=30, help="max fragments")
     parser.add_argument("--per-book", type=int, default=0, help="samples per book")
+    parser.add_argument(
+        "--use-unigrams",
+        action="store_true",
+        help="Sample from unigrams table instead of ngrams",
+    )
     parser.add_argument("--before", type=int, default=5, help="words before")
     parser.add_argument("--after", type=int, default=5, help="words after")
     args = parser.parse_args()
@@ -62,20 +67,36 @@ def main() -> None:
         if not args.ext:
             raise ValueError("--per-book requires --ext to use post_sample")
         values = ",".join(f"({i})" for i in range(args.per_book))
-        query = f"""
-            WITH nums(n) AS (VALUES {values})
-            SELECT ngrams.book_id,
-                   post_sample(ngrams.post, abs(random()) % ngrams.tf) AS seq
-            FROM ngrams
-            JOIN nums
-            WHERE ngrams.key = ?
-              AND ngrams.tf > 0
-            ORDER BY ngrams.book_id, nums.n
-        """
-        rows = cur.execute(
-            query,
-            (key,),
-        ).fetchall()
+        if args.use_unigrams:
+            query = f"""
+                WITH nums(n) AS (VALUES {values})
+                SELECT unigrams.book_id,
+                       post_sample(unigrams.post, abs(random()) % unigrams.tf) AS seq
+                FROM unigrams
+                JOIN nums
+                WHERE unigrams.cf_id = ?
+                  AND unigrams.tf > 0
+                ORDER BY unigrams.book_id, nums.n
+            """
+            rows = cur.execute(
+                query,
+                (cf_id,),
+            ).fetchall()
+        else:
+            query = f"""
+                WITH nums(n) AS (VALUES {values})
+                SELECT ngrams.book_id,
+                       post_sample(ngrams.post, abs(random()) % ngrams.tf) AS seq
+                FROM ngrams
+                JOIN nums
+                WHERE ngrams.key = ?
+                  AND ngrams.tf > 0
+                ORDER BY ngrams.book_id, nums.n
+            """
+            rows = cur.execute(
+                query,
+                (key,),
+            ).fetchall()
     else:
         rows = cur.execute(
             """

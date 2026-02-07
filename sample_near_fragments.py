@@ -48,6 +48,11 @@ def main() -> None:
     parser.add_argument("--word-b", default="i", help="near word (default: i)")
     parser.add_argument("--window", type=int, default=10, help="distance window")
     parser.add_argument("--per-book", type=int, default=3, help="max fragments per book")
+    parser.add_argument(
+        "--use-unigrams",
+        action="store_true",
+        help="Query unigrams table instead of ngrams",
+    )
     parser.add_argument("--before", type=int, default=5, help="words before anchor")
     parser.add_argument("--after", type=int, default=5, help="words after anchor")
     args = parser.parse_args()
@@ -63,19 +68,34 @@ def main() -> None:
     cur = con.cursor()
     words_con = sqlite3.connect(args.words_db)
 
-    rows = cur.execute(
-        """
-        SELECT a.book_id,
-               post_near_positions(a.post, b.post, ?, ?) AS positions
-        FROM ngrams a
-        JOIN ngrams b ON a.book_id = b.book_id
-        WHERE a.key = ?
-          AND b.key = ?
-          AND positions != '[]'
-        ORDER BY a.book_id
-        """,
-        (-args.window, args.window, key_a, key_b),
-    )
+    if args.use_unigrams:
+        rows = cur.execute(
+            """
+            SELECT a.book_id,
+                   post_near_positions(a.post, b.post, ?, ?) AS positions
+            FROM unigrams a
+            JOIN unigrams b ON a.book_id = b.book_id
+            WHERE a.cf_id = ?
+              AND b.cf_id = ?
+              AND positions != '[]'
+            ORDER BY a.book_id
+            """,
+            (-args.window, args.window, cf_a, cf_b),
+        )
+    else:
+        rows = cur.execute(
+            """
+            SELECT a.book_id,
+                   post_near_positions(a.post, b.post, ?, ?) AS positions
+            FROM ngrams a
+            JOIN ngrams b ON a.book_id = b.book_id
+            WHERE a.key = ?
+              AND b.key = ?
+              AND positions != '[]'
+            ORDER BY a.book_id
+            """,
+            (-args.window, args.window, key_a, key_b),
+        )
 
     for book_id, positions_json in rows:
         try:

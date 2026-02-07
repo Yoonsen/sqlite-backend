@@ -77,6 +77,11 @@ def main() -> None:
     parser.add_argument("--books", type=int, default=10, help="max books to sample")
     parser.add_argument("--per-book", type=int, default=3, help="samples per book")
     parser.add_argument("--after", type=int, default=5, help="words after '.'")
+    parser.add_argument(
+        "--use-unigrams",
+        action="store_true",
+        help="Use unigrams table instead of ngrams",
+    )
     parser.add_argument("--seed", type=int, default=13, help="random seed")
     args = parser.parse_args()
 
@@ -88,15 +93,26 @@ def main() -> None:
     cur = con.cursor()
     words_con = sqlite3.connect(args.words_db)
 
-    rows = cur.execute(
-        """
-        SELECT book_id, post
-        FROM ngrams
-        WHERE key = ?
-        ORDER BY book_id
-        """,
-        (key,),
-    ).fetchmany(args.books)
+    if args.use_unigrams:
+        rows = cur.execute(
+            """
+            SELECT book_id, post
+            FROM unigrams
+            WHERE cf_id = ?
+            ORDER BY book_id
+            """,
+            (cf_id,),
+        ).fetchmany(args.books)
+    else:
+        rows = cur.execute(
+            """
+            SELECT book_id, post
+            FROM ngrams
+            WHERE key = ?
+            ORDER BY book_id
+            """,
+            (key,),
+        ).fetchmany(args.books)
 
     for book_id, post in rows:
         positions = sample_positions(post, args.per_book, rng)
