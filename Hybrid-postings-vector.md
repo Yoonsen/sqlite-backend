@@ -69,3 +69,47 @@ Antall dokumenter: 23 000 - 25 000.
 Mål: Fullstendig bigram-aggregering for vilkårlige ordpar på < 500ms per shard.
 
 Lagring: < 1.5x original tekststørrelse inkludert alle unigram-posisjoner.
+
+
+eksempel på bigram sammenligning
+#include <stdint.h>
+#include <stddef.h>
+
+/**
+ * Teller antall treff hvor ord A etterfølges av ord B innenfor 'dist' ord.
+ * @param vec_a: Bitvektor for ord A (ferdig utpakket bitmap)
+ * @param vec_b: Bitvektor for ord B
+ * @param num_words: Antall uint64_t elementer i vektoren (f.eks. 625 for 40k bits)
+ * @param dist: Maksimal avstand (1 = rett etter hverandre, dvs. bigram)
+ * @return Totalt antall treff (POPCNT)
+ */
+uint64_t count_proximity_matches(const uint64_t* vec_a, const uint64_t* vec_b, 
+                                 size_t num_words, int dist) {
+    uint64_t total_matches = 0;
+    
+    // Vi lager en "skyggevektor" av A som er forskjøvet og OR-et sammen
+    // For dist=1 (bigram), trenger vi bare ett skift.
+    // For dist=3, sjekker vi (A<<1 | A<<2 | A<<3) & B.
+    
+    for (int d = 1; d <= dist; d++) {
+        uint64_t carry = 0;
+        
+        for (size_t i = 0; i < num_words; i++) {
+            uint64_t a_val = vec_a[i];
+            
+            // Lag det skiftede ordet med biten som "falt ut" av forrige 64-bit blokk
+            uint64_t a_shifted = (a_val << d) | carry;
+            
+            // Forbered carry til neste 64-bit blokk i loopen
+            carry = (d < 64) ? (a_val >> (64 - d)) : 0; 
+            
+            // Finn treff mot ord B i denne blokken
+            uint64_t matches = a_shifted & vec_b[i];
+            
+            // Bruk CPU-ens innebygde popcount (Hevnen!)
+            total_matches += __builtin_popcountll(matches);
+        }
+    }
+    
+    return total_matches;
+}
