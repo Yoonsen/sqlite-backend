@@ -22,6 +22,7 @@
 #define sqlite3_value_blob        sqlite3_api->value_blob
 #define sqlite3_value_bytes       sqlite3_api->value_bytes
 #define sqlite3_value_int         sqlite3_api->value_int
+#define sqlite3_value_int64       sqlite3_api->value_int64
 #define sqlite3_realloc           sqlite3_api->realloc
 #define sqlite3_free              sqlite3_api->free
 #endif
@@ -32,16 +33,55 @@ SQLITE_EXTENSION_INIT1
 #include <stdio.h>
 #include <string.h>
 
+#if defined(__GNUC__)
+#define LIKELY(x) __builtin_expect(!!(x), 1)
+#define UNLIKELY(x) __builtin_expect(!!(x), 0)
+#else
+#define LIKELY(x) (x)
+#define UNLIKELY(x) (x)
+#endif
+
 // Enkle varint/delta helpers – fyll ut senere
-static uint64_t read_varint(const uint8_t **p, const uint8_t *end) {
-    uint64_t x = 0;
-    int shift = 0;
-    while (*p < end) {
-        uint8_t b = *(*p)++;
+static inline uint64_t read_varint(const uint8_t **p, const uint8_t *end) {
+    const uint8_t *ptr = *p;
+    if (UNLIKELY(ptr >= end)) return 0;
+
+    uint8_t b0 = *ptr++;
+    if (LIKELY((b0 & 0x80) == 0)) {
+        *p = ptr;
+        return (uint64_t)b0;
+    }
+
+    if (UNLIKELY(ptr >= end)) {
+        *p = ptr;
+        return (uint64_t)(b0 & 0x7f);
+    }
+    uint8_t b1 = *ptr++;
+    uint64_t x = (uint64_t)(b0 & 0x7f) | ((uint64_t)(b1 & 0x7f) << 7);
+    if (LIKELY((b1 & 0x80) == 0)) {
+        *p = ptr;
+        return x;
+    }
+
+    if (UNLIKELY(ptr >= end)) {
+        *p = ptr;
+        return x;
+    }
+    uint8_t b2 = *ptr++;
+    x |= ((uint64_t)(b2 & 0x7f) << 14);
+    if (LIKELY((b2 & 0x80) == 0)) {
+        *p = ptr;
+        return x;
+    }
+
+    int shift = 21;
+    while (ptr < end) {
+        uint8_t b = *ptr++;
         x |= (uint64_t)(b & 0x7f) << shift;
         if ((b & 0x80) == 0) break;
         shift += 7;
     }
+    *p = ptr;
     return x;
 }
 
@@ -93,6 +133,234 @@ static int append_varint_bytes(uint64_t v, unsigned char **buf, int *len, int *c
         if (!v) break;
     }
     return 1;
+}
+
+static int fill_bitmap(const unsigned char *blob, int blob_len, uint64_t max_seq, uint64_t *out_bits) {
+    if (!blob || blob_len <= 0) return 1;
+    const uint8_t *p = blob;
+    const uint8_t *end = blob + blob_len;
+    uint64_t acc = 0;
+    while (p < end) {
+        uint64_t delta = read_varint(&p, end);
+        acc += delta;
+        if (acc > max_seq) break;
+        uint64_t idx = acc >> 6;
+        uint64_t bit = acc & 63;
+        out_bits[idx] |= (uint64_t)1 << bit;
+    }
+    return 1;
+}
+
+/*
+ * post_to_bitmap(blob, max_seq)
+ *  - returnerer en bitvektor for postings (uint64_t array som BLOB)
+ */
+static void post_to_bitmap_sqlite(
+    sqlite3_context *ctx,
+    int argc,
+    sqlite3_value **argv
+) {
+    if (argc != 2) {
+        sqlite3_result_error(ctx, "post_to_bitmap(blob, max_seq) expects 2 args", -1);
+        return;
+    }
+
+    const unsigned char *a = sqlite3_value_blob(argv[0]);
+    int a_len = sqlite3_value_bytes(argv[0]);
+    sqlite3_int64 max_seq = sqlite3_value_int64(argv[1]);
+    if (max_seq < 0) {
+        sqlite3_result_error(ctx, "post_to_bitmap: max_seq must be >= 0", -1);
+        return;
+    }
+
+    uint64_t bits = (uint64_t)max_seq + 1;
+    uint64_t words = (bits + 63) / 64;
+    size_t byte_len = (size_t)words * sizeof(uint64_t);
+    uint64_t *buf = sqlite3_malloc(byte_len);
+    if (!buf) {
+        sqlite3_result_error(ctx, "post_to_bitmap: OOM", -1);
+        return;
+    }
+    memset(buf, 0, byte_len);
+    fill_bitmap(a, a_len, (uint64_t)max_seq, buf);
+    sqlite3_result_blob(ctx, buf, (int)byte_len, sqlite3_free);
+}
+
+/*
+ * post_bigram_bitmap(blobA, blobB, dist, max_seq)
+ *  - teller treff ved å mappe postings til bitmaps og gjøre shift+AND
+ */
+static void post_bigram_bitmap_sqlite(
+    sqlite3_context *ctx,
+    int argc,
+    sqlite3_value **argv
+) {
+    if (argc != 4) {
+        sqlite3_result_error(ctx, "post_bigram_bitmap(blobA, blobB, dist, max_seq) expects 4 args", -1);
+        return;
+    }
+
+    const unsigned char *a = sqlite3_value_blob(argv[0]);
+    const unsigned char *b = sqlite3_value_blob(argv[1]);
+    int a_len = sqlite3_value_bytes(argv[0]);
+    int b_len = sqlite3_value_bytes(argv[1]);
+    int dist = sqlite3_value_int(argv[2]);
+    sqlite3_int64 max_seq = sqlite3_value_int64(argv[3]);
+
+    if (max_seq < 0 || dist <= 0) {
+        sqlite3_result_int(ctx, 0);
+        return;
+    }
+
+    uint64_t bits = (uint64_t)max_seq + 1;
+    uint64_t words = (bits + 63) / 64;
+    size_t byte_len = (size_t)words * sizeof(uint64_t);
+    uint64_t *vec_a = sqlite3_malloc(byte_len);
+    uint64_t *vec_b = sqlite3_malloc(byte_len);
+    if (!vec_a || !vec_b) {
+        sqlite3_free(vec_a);
+        sqlite3_free(vec_b);
+        sqlite3_result_error(ctx, "post_bigram_bitmap: OOM", -1);
+        return;
+    }
+    memset(vec_a, 0, byte_len);
+    memset(vec_b, 0, byte_len);
+
+    fill_bitmap(a, a_len, (uint64_t)max_seq, vec_a);
+    fill_bitmap(b, b_len, (uint64_t)max_seq, vec_b);
+
+    uint64_t total = 0;
+    int shift = dist & 63;
+    for (uint64_t i = 0; i < words; i++) {
+        uint64_t a_val = vec_a[i];
+        uint64_t carry = 0;
+        if (shift && i > 0) {
+            carry = vec_a[i - 1] >> (64 - shift);
+        }
+        uint64_t a_shifted = shift ? ((a_val << shift) | carry) : a_val;
+        uint64_t matches = a_shifted & vec_b[i];
+        total += __builtin_popcountll(matches);
+    }
+
+    sqlite3_free(vec_a);
+    sqlite3_free(vec_b);
+    sqlite3_result_int64(ctx, (sqlite3_int64)total);
+}
+
+/*
+ * post_bigram_bitmap_hybrid(blobA, blobB, dist, max_seq)
+ *  - dekoder A til bitmap, itererer B og sjekker treff direkte
+ */
+static void post_bigram_bitmap_hybrid_sqlite(
+    sqlite3_context *ctx,
+    int argc,
+    sqlite3_value **argv
+) {
+    if (argc != 4) {
+        sqlite3_result_error(ctx, "post_bigram_bitmap_hybrid(blobA, blobB, dist, max_seq) expects 4 args", -1);
+        return;
+    }
+
+    const unsigned char *a = sqlite3_value_blob(argv[0]);
+    const unsigned char *b = sqlite3_value_blob(argv[1]);
+    int a_len = sqlite3_value_bytes(argv[0]);
+    int b_len = sqlite3_value_bytes(argv[1]);
+    int dist = sqlite3_value_int(argv[2]);
+    sqlite3_int64 max_seq = sqlite3_value_int64(argv[3]);
+
+    if (max_seq < 0 || dist <= 0 || !a || !b || a_len <= 0 || b_len <= 0) {
+        sqlite3_result_int(ctx, 0);
+        return;
+    }
+
+    uint64_t bits = (uint64_t)max_seq + 1;
+    uint64_t words = (bits + 63) / 64;
+    size_t byte_len = (size_t)words * sizeof(uint64_t);
+    uint64_t *vec_a = sqlite3_malloc(byte_len);
+    if (!vec_a) {
+        sqlite3_result_error(ctx, "post_bigram_bitmap_hybrid: OOM", -1);
+        return;
+    }
+    memset(vec_a, 0, byte_len);
+    fill_bitmap(a, a_len, (uint64_t)max_seq, vec_a);
+
+    const uint8_t *pb = b;
+    const uint8_t *eb = b + b_len;
+    uint64_t acc_b = 0;
+    uint64_t total = 0;
+    while (pb < eb) {
+        uint64_t delta = read_varint(&pb, eb);
+        acc_b += delta;
+        if (acc_b > (uint64_t)max_seq) break;
+        if (acc_b >= (uint64_t)dist) {
+            uint64_t pos = acc_b - (uint64_t)dist;
+            uint64_t idx = pos >> 6;
+            uint64_t bit = pos & 63;
+            if (idx < words && (vec_a[idx] & ((uint64_t)1 << bit))) {
+                total++;
+            }
+        }
+    }
+
+    sqlite3_free(vec_a);
+    sqlite3_result_int64(ctx, (sqlite3_int64)total);
+}
+
+/*
+ * bitmap_bigram_count(bitmapA, bitmapB, dist)
+ *  - teller treff ved å gjøre shift+AND direkte på bitmaps
+ */
+static void bitmap_bigram_count_sqlite(
+    sqlite3_context *ctx,
+    int argc,
+    sqlite3_value **argv
+) {
+    if (argc != 3) {
+        sqlite3_result_error(ctx, "bitmap_bigram_count(bitmapA, bitmapB, dist) expects 3 args", -1);
+        return;
+    }
+
+    const unsigned char *a = sqlite3_value_blob(argv[0]);
+    const unsigned char *b = sqlite3_value_blob(argv[1]);
+    int a_len = sqlite3_value_bytes(argv[0]);
+    int b_len = sqlite3_value_bytes(argv[1]);
+    int dist = sqlite3_value_int(argv[2]);
+
+    if (!a || !b || a_len <= 0 || b_len <= 0 || dist <= 0) {
+        sqlite3_result_int(ctx, 0);
+        return;
+    }
+
+    int words_a = a_len / (int)sizeof(uint64_t);
+    int words_b = b_len / (int)sizeof(uint64_t);
+    int words = (words_a < words_b) ? words_a : words_b;
+    if (words <= 0) {
+        sqlite3_result_int(ctx, 0);
+        return;
+    }
+
+    const uint64_t *vec_a = (const uint64_t *)a;
+    const uint64_t *vec_b = (const uint64_t *)b;
+    int word_shift = dist >> 6;
+    int bit_shift = dist & 63;
+    uint64_t total = 0;
+
+    for (int i = 0; i < words; i++) {
+        int src = i - word_shift;
+        uint64_t a_shifted = 0;
+        if (src >= 0) {
+            uint64_t a_val = vec_a[src];
+            uint64_t carry = 0;
+            if (bit_shift && src > 0) {
+                carry = vec_a[src - 1] >> (64 - bit_shift);
+            }
+            a_shifted = bit_shift ? ((a_val << bit_shift) | carry) : a_val;
+        }
+        uint64_t matches = a_shifted & vec_b[i];
+        total += __builtin_popcountll(matches);
+    }
+
+    sqlite3_result_int64(ctx, (sqlite3_int64)total);
 }
 
 /*
@@ -163,6 +431,7 @@ static void post_union_sqlite(
 
     sqlite3_result_blob(ctx, out, out_len, sqlite3_free);
 }
+
 /*
  * post_intersect(blobA, blobB)
  *  - returnerer antall posisjoner som finnes i begge lister (eksakt match)
@@ -605,6 +874,34 @@ int sqlite3_postings_init(
         db, "post_union", 2,
         SQLITE_UTF8 | SQLITE_DETERMINISTIC,
         NULL, post_union_sqlite, NULL, NULL
+    );
+    if (rc != SQLITE_OK) return rc;
+
+    rc = sqlite3_create_function(
+        db, "post_to_bitmap", 2,
+        SQLITE_UTF8 | SQLITE_DETERMINISTIC,
+        NULL, post_to_bitmap_sqlite, NULL, NULL
+    );
+    if (rc != SQLITE_OK) return rc;
+
+    rc = sqlite3_create_function(
+        db, "post_bigram_bitmap", 4,
+        SQLITE_UTF8 | SQLITE_DETERMINISTIC,
+        NULL, post_bigram_bitmap_sqlite, NULL, NULL
+    );
+    if (rc != SQLITE_OK) return rc;
+
+    rc = sqlite3_create_function(
+        db, "post_bigram_bitmap_hybrid", 4,
+        SQLITE_UTF8 | SQLITE_DETERMINISTIC,
+        NULL, post_bigram_bitmap_hybrid_sqlite, NULL, NULL
+    );
+    if (rc != SQLITE_OK) return rc;
+
+    rc = sqlite3_create_function(
+        db, "bitmap_bigram_count", 3,
+        SQLITE_UTF8 | SQLITE_DETERMINISTIC,
+        NULL, bitmap_bigram_count_sqlite, NULL, NULL
     );
     if (rc != SQLITE_OK) return rc;
 
