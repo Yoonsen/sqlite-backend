@@ -164,3 +164,94 @@ void build_cooccurrence_matrix(const uint64_t** bitmaps,
     }
 }
 
+Som UDF og kompileringsflagg
+
+#include <sqlite3ext.h>
+SQLITE_EXTENSION_INIT1
+#include <stdint.h>
+
+/* 
+ * dh_proximity(blob_a, blob_b, dist)
+ * SQL-eksempel: SELECT dh_proximity(postings_a, postings_b, 1) FROM unigrams...
+ */
+static void dh_proximity(sqlite3_context *context, int argc, sqlite3_value **argv) {
+    // 1. Hent blober fra SQLite
+    const uint64_t *vec_a = (const uint64_t *)sqlite3_value_blob(argv[0]);
+    const uint64_t *vec_b = (const uint64_t *)sqlite3_value_blob(argv[1]);
+    int bytes_a = sqlite3_value_bytes(argv[0]);
+    int bytes_b = sqlite3_value_bytes(argv[1]);
+    int dist = sqlite3_value_int(argv[2]);
+
+    // Sikkerhetssjekk: Vektorene må være like lange
+    if (bytes_a != bytes_b || bytes_a == 0) {
+        sqlite3_result_int64(context, 0);
+        return;
+    }
+
+    size_t num_words = bytes_a / sizeof(uint64_t);
+    uint64_t total_matches = 0;
+
+    // 2. Beregnings-loopen (CPU-ens hevn!)
+    // For enkelhets skyld viser vi her dist=1 (bigram). 
+    // For variabel distanse bruker vi "carry"-logikken fra tidligere.
+    uint64_t carry = 0;
+    for (size_t i = 0; i < num_words; i++) {
+        uint64_t a_val = vec_a[i];
+        uint64_t a_shifted = (a_val << 1) | carry;
+        carry = a_val >> 63;
+
+        uint64_t match = a_shifted & vec_b[i];
+        total_matches += __builtin_popcountll(match);
+    }
+
+    // 3. Returner resultatet til SQLite
+    sqlite3_result_int64(context, (sqlite3_int64)total_matches);
+}
+
+/* Registrer funksjonen i SQLite */
+#ifdef _WIN32
+__declspec(dllexport)
+#endif
+int sqlite3_dhlogic_init(sqlite3 *db, char **pzErrMsg, const sqlite3_api_routines *pApi) {
+    SQLITE_EXTENSION_INIT2(pApi);
+    sqlite3_create_function(db, "dh_proximity", 3, SQLITE_UTF8 | SQLITE_DETERMINISTIC | SQLITE_INNOCUOUS, 
+                            NULL, dh_proximity, NULL, NULL);
+    return SQLITE_OK;
+}
+
+2. Kompilering (M4 vs. Arbeidsstasjon)
+For M4 (Mac):
+bash
+gcc -fPIC -shared dh_logic.c -o dh_logic.dylib
+Vær forsiktig når du bruker koden
+
+For Arbeidsstasjonen (Linux/GCC) med AVX-512:
+bash
+gcc -fPIC -shared -O3 -mavx512f -mavx512vpopcntdq dh_logic.c -o dh_logic.so
+Vær forsiktig når du bruker koden
+
+Merk: -O3 og -mavx512... sørger for at kompilatoren automatisk bruker de raskeste instruksjonene for å telle bits.
+3. Bruk i SQLite / Python / Cursor
+Når du har lastet utvidelsen, kan du kjøre ekstremt kraftige spørringer direkte i SQL. La oss si du vil finne alle bøker der "spise" og "middag" er et bigram:
+sql
+-- Last inn C-utvidelsen
+.load ./dh_logic
+
+-- Finn bøker med flest "spise middag" treff
+SELECT 
+    bok_id, 
+    dh_proximity(a.postings, b.postings, 1) AS bigram_count
+FROM unigrams a
+JOIN unigrams b ON a.bok_id = b.bok_id
+WHERE a.cf_id = (SELECT id FROM vocab WHERE term='spise')
+  AND b.cf_id = (SELECT id FROM vocab WHERE term='middag')
+ORDER BY bigram_count DESC
+LIMIT 10;
+Vær forsiktig når du bruker koden
+
+Hvorfor dette endrer alt for deg:
+Ingen unødvendig I/O: Du henter bare de to relevante blobene fra disken (f.eks. 12 KB hver). Resten av magien skjer i CPU-en.
+Parallellisering: Siden du har sharda SQLite-filene dine, kan du kjøre denne SQL-en på 32 shards samtidig. Hver kjerne på arbeidsstasjonen din vil jobbe uavhengig.
+Matrise-kraft: Du kan lage en tabell med "Viktige ord" og kjøre en CROSS JOIN som mater dh_proximity-funksjonen. Du genererer da en komplett co-occurrence matrise for en hel shard på sekunder.
+Neste steg: Er du klar for å se på hvordan vi implementerer "Lazy Expansion" i C-koden, slik at du kan krysse en TYPE_SPARSE (Varint) mot en TYPE_BITMAP uten å kaste bort tid?
+
