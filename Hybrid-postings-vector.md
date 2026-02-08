@@ -113,3 +113,54 @@ uint64_t count_proximity_matches(const uint64_t* vec_a, const uint64_t* vec_b,
     
     return total_matches;
 }
+
+Grafoperasjoner - co.occurence:
+
+#include <stdint.h>
+#include <stdlib.h>
+#include <immintrin.h> // For AVX-512 eller AVX2
+
+/**
+ * Genererer en symmetrisk co-occurrence matrise for en liste med ord.
+ * @param bitmaps: En array av pekere til bit-vektorer (én per ord).
+ * @param num_words: Antall ord vi sammenligner (f.eks. 2000).
+ * @param num_uint64: Lengden på hver bit-vektor i 64-bit ord.
+ * @param out_matrix: En 2D array (num_words x num_words) for resultatene.
+ */
+void build_cooccurrence_matrix(const uint64_t** bitmaps, 
+                               size_t num_words, 
+                               size_t num_uint64, 
+                               uint32_t** out_matrix) {
+    
+    // Tiling/Blocking: Vi deler opp matrisen i mindre blokker (f.eks. 64x64 ord)
+    // for å holde dataene i L1/L2 cachen så lenge som mulig.
+    const size_t tile_size = 64; 
+
+    for (size_t i_tile = 0; i_tile < num_words; i_tile += tile_size) {
+        for (size_t j_tile = i_tile; j_tile < num_words; j_tile += tile_size) {
+            
+            // Prosesser hver blokk (tile)
+            for (size_t i = i_tile; i < i_tile + tile_size && i < num_words; i++) {
+                const uint64_t* vec_i = bitmaps[i];
+                
+                // Vi starter j fra i for å utnytte at matrisen er symmetrisk (A&B == B&A)
+                for (size_t j = (j_tile > i ? j_tile : i); j < j_tile + tile_size && j < num_words; j++) {
+                    const uint64_t* vec_j = bitmaps[j];
+                    uint64_t count = 0;
+
+                    // Den innerste loopen: Her skjer den tunge bit-knusingen
+                    // Denne loopen bør autovektoriseres av kompilatoren til AVX-512
+                    for (size_t k = 0; k < num_uint64; k++) {
+                        count += __builtin_popcountll(vec_i[k] & vec_j[k]);
+                    }
+
+                    out_matrix[i][j] = (uint32_t)count;
+                    if (i != j) {
+                        out_matrix[j][i] = (uint32_t)count; // Symmetri
+                    }
+                }
+            }
+        }
+    }
+}
+
