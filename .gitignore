@@ -36,6 +36,8 @@ manifest.toml.bak
 # --- Jupyter Notebook ---
 .ipynb_checkpoints
 */.ipynb_checkpoints/*
+# Lokal notebook
+*.ipynb
 # Hvis du vil lagre notebooks uten output, kan du vurdere verktøy som nbstripout,
 # men her ignorerer vi bare checkpoints.
 
@@ -50,3 +52,7 @@ manifest.toml.bak
 *.log
 tmp/
 temp/
+
+# --- Build artifacts ---
+postings_native.so
+postings-api.tar.gz
