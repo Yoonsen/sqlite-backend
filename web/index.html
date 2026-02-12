@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Postings API Demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Postings API Demo</h1>
+
+      <section class="card">
+        <h2>API</h2>
+        <label>
+          Backend
+          <select id="backendSelect">
+            <option value="http://localhost:8000">Python (default)</option>
+            <option value="http://localhost:8001">Julia</option>
+            <option value="custom">Custom...</option>
+          </select>
+        </label>
+        <label>
+          Base URL
+          <input id="baseUrl" type="text" value="http://localhost:8000" />
+        </label>
+        <div class="row">
+          <button id="healthBtn">Health</button>
+          <span id="healthStatus"></span>
+        </div>
+      </section>
+
+      <section class="card">
+        <h2>Filter</h2>
+        <label>
+          Upload corpus CSV/XLSX
+          <input id="corpusFile" type="file" accept=".csv,.txt,.xlsx,.xls" />
+        </label>
+        <button id="loadCorpusBtn">Load corpus IDs</button>
+        <div id="corpusStatus"></div>
+        <label class="checkbox">
+          <input id="useFilter" type="checkbox" />
+          Use corpus filter
+        </label>
+        <label>
+          Filter IDs (comma-separated)
+          <textarea id="filterIds" rows="3" placeholder="123,456,789"></textarea>
+        </label>
+        <label>
+          Schema
+          <input id="schema" type="text" value="unigrams" />
+        </label>
+      </section>
+
+      <section class="card">
+        <h2>Concordance</h2>
+        <div class="grid">
+          <label>
+            Word A
+            <input id="wordA" type="text" value="og" />
+          </label>
+          <label>
+            Word B (optional)
+            <input id="wordB" type="text" value="" />
+          </label>
+          <label>
+            Window (near)
+            <input id="window" type="number" min="1" max="50" value="5" />
+          </label>
+          <label>
+            Before
+            <input id="before" type="number" min="1" max="50" value="5" />
+          </label>
+          <label>
+            After
+            <input id="after" type="number" min="1" max="50" value="5" />
+          </label>
+          <label>
+            Samples per book
+            <input id="perBook" type="number" min="1" max="20" value="3" />
+          </label>
+          <label>
+            Total limit
+            <input id="totalLimit" type="number" min="1" max="5000" value="200" />
+          </label>
+          <label class="checkbox">
+            <input id="symmetric" type="checkbox" checked />
+            Symmetric near
+          </label>
+          <label class="checkbox">
+            <input id="excludeSelf" type="checkbox" />
+            Exclude self matches
+          </label>
+        </div>
+        <button id="concordanceBtn">Run concordance</button>
+        <pre id="concordanceOut"></pre>
+      </section>
+
+      <section class="card">
+        <h2>Near frequency</h2>
+        <div class="grid">
+          <label>
+            Word A
+            <input id="freqA" type="text" value="demokrati" />
+          </label>
+          <label>
+            Word B
+            <input id="freqB" type="text" value="og" />
+          </label>
+          <label>
+            Window
+            <input id="freqWindow" type="number" min="1" max="50" value="5" />
+          </label>
+          <label class="checkbox">
+            <input id="freqSym" type="checkbox" checked />
+            Symmetric
+          </label>
+          <label class="checkbox">
+            <input id="freqExcludeSelf" type="checkbox" />
+            Exclude self matches
+          </label>
+          <label>
+            Fragment window
+            <input id="freqFragWindow" type="number" min="1" max="50" value="5" />
+          </label>
+        </div>
+        <button id="freqBtn">Run near frequency</button>
+        <button id="freqSampleBtn">Sample near fragments</button>
+        <pre id="freqOut"></pre>
+        <pre id="freqFragOut"></pre>
+      </section>
+
+      <section class="card">
+        <h2>Collocations</h2>
+        <div class="grid">
+          <label>
+            Word
+            <input id="collWord" type="text" value="og" />
+          </label>
+          <label>
+            Before
+            <input id="collBefore" type="number" min="1" max="50" value="5" />
+          </label>
+          <label>
+            After
+            <input id="collAfter" type="number" min="1" max="50" value="5" />
+          </label>
+          <label>
+            Samples per book
+            <input id="collPerBook" type="number" min="1" max="20" value="3" />
+          </label>
+        </div>
+        <button id="collBtn">Run collocations</button>
+        <pre id="collOut"></pre>
+      </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/xlsx@0.20.2/dist/xlsx.full.min.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>

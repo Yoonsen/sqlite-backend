@@ -17,3 +17,5 @@
 - Bygget converter fra `ft` til `tokens` + ngrams (split unigrams/bigrams).
 - Kompilert `postings.so` og røyktestet funksjoner.
 - Verifisert konkordanser, nærhet, og ytelse på demo- og full-shard.
+- La inn `post_union_agg` og brukte OR-union direkte i SQLite.
+- Oppdatert API til docpost-basert URN-liste (ingen temp-table, `json_each`).

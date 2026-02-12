@@ -25,6 +25,7 @@
 #define sqlite3_value_int64       sqlite3_api->value_int64
 #define sqlite3_realloc           sqlite3_api->realloc
 #define sqlite3_free              sqlite3_api->free
+#define sqlite3_aggregate_context sqlite3_api->aggregate_context
 #endif
 
 SQLITE_EXTENSION_INIT1
@@ -132,6 +133,79 @@ static int append_varint_bytes(uint64_t v, unsigned char **buf, int *len, int *c
         (*buf)[(*len)++] = byte;
         if (!v) break;
     }
+    return 1;
+}
+
+static int union_blobs(
+    const unsigned char *a, int a_len,
+    const unsigned char *b, int b_len,
+    unsigned char **out, int *out_len
+) {
+    *out = NULL;
+    *out_len = 0;
+    if ((!a || a_len <= 0) && (!b || b_len <= 0)) {
+        return 1;
+    }
+    if (!a || a_len <= 0) {
+        unsigned char *buf = sqlite3_malloc(b_len);
+        if (!buf) return 0;
+        memcpy(buf, b, b_len);
+        *out = buf;
+        *out_len = b_len;
+        return 1;
+    }
+    if (!b || b_len <= 0) {
+        unsigned char *buf = sqlite3_malloc(a_len);
+        if (!buf) return 0;
+        memcpy(buf, a, a_len);
+        *out = buf;
+        *out_len = a_len;
+        return 1;
+    }
+
+    const uint8_t *pa = a, *pb = b;
+    const uint8_t *ea = a + a_len, *eb = b + b_len;
+    uint64_t acc_a = 0, acc_b = 0;
+    int has_a = next_seq(&pa, ea, &acc_a);
+    int has_b = next_seq(&pb, eb, &acc_b);
+
+    unsigned char *buf = NULL;
+    int len = 0;
+    int cap = 0;
+    uint64_t last_out = 0;
+
+    while (has_a || has_b) {
+        uint64_t next;
+        if (has_a && has_b) {
+            if (acc_a == acc_b) {
+                next = acc_a;
+                has_a = next_seq(&pa, ea, &acc_a);
+                has_b = next_seq(&pb, eb, &acc_b);
+            } else if (acc_a < acc_b) {
+                next = acc_a;
+                has_a = next_seq(&pa, ea, &acc_a);
+            } else {
+                next = acc_b;
+                has_b = next_seq(&pb, eb, &acc_b);
+            }
+        } else if (has_a) {
+            next = acc_a;
+            has_a = next_seq(&pa, ea, &acc_a);
+        } else {
+            next = acc_b;
+            has_b = next_seq(&pb, eb, &acc_b);
+        }
+
+        uint64_t delta = next - last_out;
+        if (!append_varint_bytes(delta, &buf, &len, &cap)) {
+            sqlite3_free(buf);
+            return 0;
+        }
+        last_out = next;
+    }
+
+    *out = buf;
+    *out_len = len;
     return 1;
 }
 
@@ -382,7 +456,91 @@ static void post_union_sqlite(
     int a_len = sqlite3_value_bytes(argv[0]);
     int b_len = sqlite3_value_bytes(argv[1]);
 
-    if ((!a || a_len <= 0) && (!b || b_len <= 0)) {
+    unsigned char *out = NULL;
+    int out_len = 0;
+    if (!union_blobs(a, a_len, b, b_len, &out, &out_len)) {
+        sqlite3_result_error(ctx, "post_union: OOM", -1);
+        return;
+    }
+    sqlite3_result_blob(ctx, out, out_len, sqlite3_free);
+}
+
+typedef struct {
+    unsigned char *blob;
+    int len;
+} union_agg_ctx;
+
+static void post_union_agg_step(
+    sqlite3_context *ctx,
+    int argc,
+    sqlite3_value **argv
+) {
+    if (argc != 1) {
+        sqlite3_result_error(ctx, "post_union_agg(blob) expects 1 arg", -1);
+        return;
+    }
+    const unsigned char *b = sqlite3_value_blob(argv[0]);
+    int b_len = sqlite3_value_bytes(argv[0]);
+    if (!b || b_len <= 0) return;
+
+    union_agg_ctx *st = sqlite3_aggregate_context(ctx, sizeof(*st));
+    if (!st) {
+        sqlite3_result_error(ctx, "post_union_agg: OOM", -1);
+        return;
+    }
+    if (!st->blob) {
+        st->blob = sqlite3_malloc(b_len);
+        if (!st->blob) {
+            sqlite3_result_error(ctx, "post_union_agg: OOM", -1);
+            return;
+        }
+        memcpy(st->blob, b, b_len);
+        st->len = b_len;
+        return;
+    }
+
+    unsigned char *out = NULL;
+    int out_len = 0;
+    if (!union_blobs(st->blob, st->len, b, b_len, &out, &out_len)) {
+        sqlite3_result_error(ctx, "post_union_agg: OOM", -1);
+        return;
+    }
+    sqlite3_free(st->blob);
+    st->blob = out;
+    st->len = out_len;
+}
+
+static void post_union_agg_final(sqlite3_context *ctx) {
+    union_agg_ctx *st = sqlite3_aggregate_context(ctx, 0);
+    if (!st || !st->blob) {
+        sqlite3_result_blob(ctx, "", 0, SQLITE_STATIC);
+        return;
+    }
+    sqlite3_result_blob(ctx, st->blob, st->len, sqlite3_free);
+    st->blob = NULL;
+    st->len = 0;
+}
+
+/*
+ * post_intersect_blob(blobA, blobB)
+ *  - returnerer snittet av to postingslister som ny delta/varint-BLOB
+ */
+static void post_intersect_blob_sqlite(
+    sqlite3_context *ctx,
+    int argc,
+    sqlite3_value **argv
+) {
+    if (argc != 2) {
+        sqlite3_result_error(ctx, "post_intersect_blob(blob, blob) expects 2 args", -1);
+        return;
+    }
+
+    const unsigned char *a = sqlite3_value_blob(argv[0]);
+    const unsigned char *b = sqlite3_value_blob(argv[1]);
+    int a_len = sqlite3_value_bytes(argv[0]);
+    int b_len = sqlite3_value_bytes(argv[1]);
+
+    if (!a || !b || a_len <= 0 || b_len <= 0) {
         sqlite3_result_blob(ctx, "", 0, SQLITE_STATIC);
         return;
     }
@@ -390,43 +548,93 @@ static void post_union_sqlite(
     const uint8_t *pa = a, *pb = b;
     const uint8_t *ea = a + a_len, *eb = b + b_len;
     uint64_t acc_a = 0, acc_b = 0;
-    int has_a = (a && a_len > 0) ? next_seq(&pa, ea, &acc_a) : 0;
-    int has_b = (b && b_len > 0) ? next_seq(&pb, eb, &acc_b) : 0;
+    int has_a = next_seq(&pa, ea, &acc_a);
+    int has_b = next_seq(&pb, eb, &acc_b);
 
     unsigned char *out = NULL;
     int out_len = 0;
     int out_cap = 0;
     uint64_t last_out = 0;
 
-    while (has_a || has_b) {
-        uint64_t next;
-        if (has_a && has_b) {
-            if (acc_a == acc_b) {
-                next = acc_a;
-                has_a = next_seq(&pa, ea, &acc_a);
-                has_b = next_seq(&pb, eb, &acc_b);
-            } else if (acc_a < acc_b) {
-                next = acc_a;
-                has_a = next_seq(&pa, ea, &acc_a);
-            } else {
-                next = acc_b;
-                has_b = next_seq(&pb, eb, &acc_b);
+    while (has_a && has_b) {
+        if (acc_a == acc_b) {
+            uint64_t delta = acc_a - last_out;
+            if (!append_varint_bytes(delta, &out, &out_len, &out_cap)) {
+                sqlite3_free(out);
+                sqlite3_result_error(ctx, "post_intersect_blob: OOM", -1);
+                return;
             }
-        } else if (has_a) {
-            next = acc_a;
+            last_out = acc_a;
+            has_a = next_seq(&pa, ea, &acc_a);
+            has_b = next_seq(&pb, eb, &acc_b);
+        } else if (acc_a < acc_b) {
             has_a = next_seq(&pa, ea, &acc_a);
         } else {
-            next = acc_b;
             has_b = next_seq(&pb, eb, &acc_b);
         }
+    }
 
-        uint64_t delta = next - last_out;
+    sqlite3_result_blob(ctx, out, out_len, sqlite3_free);
+}
+
+/*
+ * post_complement(blob, universe_blob)
+ *  - returnerer komplementet av blob innenfor universe_blob som delta/varint-BLOB
+ */
+static void post_complement_sqlite(
+    sqlite3_context *ctx,
+    int argc,
+    sqlite3_value **argv
+) {
+    if (argc != 2) {
+        sqlite3_result_error(ctx, "post_complement(blob, universe_blob) expects 2 args", -1);
+        return;
+    }
+
+    const unsigned char *sel = sqlite3_value_blob(argv[0]);
+    const unsigned char *uni = sqlite3_value_blob(argv[1]);
+    int sel_len = sqlite3_value_bytes(argv[0]);
+    int uni_len = sqlite3_value_bytes(argv[1]);
+
+    if (!uni || uni_len <= 0) {
+        sqlite3_result_blob(ctx, "", 0, SQLITE_STATIC);
+        return;
+    }
+    if (!sel || sel_len <= 0) {
+        sqlite3_result_blob(ctx, (const void *)uni, uni_len, SQLITE_TRANSIENT);
+        return;
+    }
+
+    const uint8_t *pa = uni;
+    const uint8_t *pb = sel;
+    const uint8_t *ea = uni + uni_len;
+    const uint8_t *eb = sel + sel_len;
+    uint64_t acc_a = 0, acc_b = 0;
+    int has_a = next_seq(&pa, ea, &acc_a);
+    int has_b = next_seq(&pb, eb, &acc_b);
+
+    unsigned char *out = NULL;
+    int out_len = 0;
+    int out_cap = 0;
+    uint64_t last_out = 0;
+
+    while (has_a) {
+        while (has_b && acc_b < acc_a) {
+            has_b = next_seq(&pb, eb, &acc_b);
+        }
+        if (has_b && acc_b == acc_a) {
+            has_a = next_seq(&pa, ea, &acc_a);
+            has_b = next_seq(&pb, eb, &acc_b);
+            continue;
+        }
+        uint64_t delta = acc_a - last_out;
         if (!append_varint_bytes(delta, &out, &out_len, &out_cap)) {
             sqlite3_free(out);
-            sqlite3_result_error(ctx, "post_union: OOM", -1);
+            sqlite3_result_error(ctx, "post_complement: OOM", -1);
             return;
         }
-        last_out = next;
+        last_out = acc_a;
+        has_a = next_seq(&pa, ea, &acc_a);
     }
 
     sqlite3_result_blob(ctx, out, out_len, sqlite3_free);
@@ -690,6 +898,89 @@ static void post_positions_sqlite(
 }
 
 /*
+ * post_complement_positions(blob, universe_blob)
+ *  - returnerer komplementet av blob innenfor universe_blob som JSON-array
+ */
+static void post_complement_positions_sqlite(
+    sqlite3_context *ctx,
+    int argc,
+    sqlite3_value **argv
+) {
+    if (argc != 2) {
+        sqlite3_result_error(ctx, "post_complement_positions(blob, universe_blob) expects 2 args", -1);
+        return;
+    }
+
+    const unsigned char *sel = sqlite3_value_blob(argv[0]);
+    const unsigned char *uni = sqlite3_value_blob(argv[1]);
+    int sel_len = sqlite3_value_bytes(argv[0]);
+    int uni_len = sqlite3_value_bytes(argv[1]);
+    if (!uni || uni_len <= 0) {
+        sqlite3_result_text(ctx, "[]", -1, SQLITE_STATIC);
+        return;
+    }
+    if (!sel || sel_len <= 0) {
+        // return universe as-is
+        sqlite3_value *tmpv[1];
+        tmpv[0] = argv[1];
+        post_positions_sqlite(ctx, 1, tmpv);
+        return;
+    }
+
+    const uint8_t *pa = uni;
+    const uint8_t *pb = sel;
+    const uint8_t *ea = uni + uni_len;
+    const uint8_t *eb = sel + sel_len;
+    uint64_t acc_a = 0;
+    uint64_t acc_b = 0;
+    int has_a = next_seq(&pa, ea, &acc_a);
+    int has_b = next_seq(&pb, eb, &acc_b);
+
+    char *buf = NULL;
+    int len = 0;
+    int cap = 0;
+    if (!json_append_char(&buf, &len, &cap, '[')) {
+        sqlite3_free(buf);
+        sqlite3_result_error(ctx, "post_complement_positions: OOM", -1);
+        return;
+    }
+
+    int first = 1;
+    while (has_a) {
+        while (has_b && acc_b < acc_a) {
+            has_b = next_seq(&pb, eb, &acc_b);
+        }
+        if (has_b && acc_b == acc_a) {
+            has_a = next_seq(&pa, ea, &acc_a);
+            has_b = next_seq(&pb, eb, &acc_b);
+            continue;
+        }
+        if (!first) {
+            if (!json_append_char(&buf, &len, &cap, ',')) {
+                sqlite3_free(buf);
+                sqlite3_result_error(ctx, "post_complement_positions: OOM", -1);
+                return;
+            }
+        }
+        first = 0;
+        if (!json_append_int64(&buf, &len, &cap, (sqlite3_int64)acc_a)) {
+            sqlite3_free(buf);
+            sqlite3_result_error(ctx, "post_complement_positions: OOM", -1);
+            return;
+        }
+        has_a = next_seq(&pa, ea, &acc_a);
+    }
+
+    if (!json_append_char(&buf, &len, &cap, ']')) {
+        sqlite3_free(buf);
+        sqlite3_result_error(ctx, "post_complement_positions: OOM", -1);
+        return;
+    }
+
+    sqlite3_result_text(ctx, buf, len, sqlite3_free);
+}
+
+/*
  * post_near_positions(blobA, blobB, off_min, off_max)
  *  - returnerer posisjoner i A der det finnes en B innenfor [off_min, off_max]
  */
@@ -829,6 +1120,13 @@ int sqlite3_postings_init(
     if (rc != SQLITE_OK) return rc;
 
     rc = sqlite3_create_function(
+        db, "post_intersect_blob", 2,
+        SQLITE_UTF8 | SQLITE_DETERMINISTIC,
+        NULL, post_intersect_blob_sqlite, NULL, NULL
+    );
+    if (rc != SQLITE_OK) return rc;
+
+    rc = sqlite3_create_function(
         db, "post_intersect_offset", 4,
         SQLITE_UTF8 | SQLITE_DETERMINISTIC,
         NULL, post_intersect_offset_sqlite, NULL, NULL
@@ -857,6 +1155,13 @@ int sqlite3_postings_init(
     if (rc != SQLITE_OK) return rc;
 
     rc = sqlite3_create_function(
+        db, "post_complement_positions", 2,
+        SQLITE_UTF8 | SQLITE_DETERMINISTIC,
+        NULL, post_complement_positions_sqlite, NULL, NULL
+    );
+    if (rc != SQLITE_OK) return rc;
+
+    rc = sqlite3_create_function(
         db, "post_near_positions", 4,
         SQLITE_UTF8 | SQLITE_DETERMINISTIC,
         NULL, post_near_positions_sqlite, NULL, NULL
@@ -874,6 +1179,20 @@ int sqlite3_postings_init(
         db, "post_union", 2,
         SQLITE_UTF8 | SQLITE_DETERMINISTIC,
         NULL, post_union_sqlite, NULL, NULL
+    );
+    if (rc != SQLITE_OK) return rc;
+
+    rc = sqlite3_create_function(
+        db, "post_union_agg", 1,
+        SQLITE_UTF8 | SQLITE_DETERMINISTIC,
+        NULL, NULL, post_union_agg_step, post_union_agg_final
+    );
+    if (rc != SQLITE_OK) return rc;
+
+    rc = sqlite3_create_function(
+        db, "post_complement", 2,
+        SQLITE_UTF8 | SQLITE_DETERMINISTIC,
+        NULL, post_complement_sqlite, NULL, NULL
     );
     if (rc != SQLITE_OK) return rc;
 

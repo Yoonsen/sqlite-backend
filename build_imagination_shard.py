@@ -109,11 +109,15 @@ def process_db(
     batch_size: int,
     max_tokens: Optional[int],
     total_tokens: int,
+    words_only: bool,
 ) -> Tuple[int, int]:
     src = conv.connect_ro(src_path)
     raw_id, cf_id = update_words(
         src, words_con, urns, word_map, cf_map, raw_id, cf_id, batch_size
     )
+    if words_only:
+        src.close()
+        return raw_id, cf_id, total_tokens, False
 
     conv.prepare_urn_filter(src, urns)
     sql = """
@@ -195,13 +199,22 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--csv", required=True, help="Input CSV with urn_seq + db_path")
     parser.add_argument("--src-root", required=True, help="Root directory for db_path")
     parser.add_argument("--dst", required=True, help="Output postings db path")
-    parser.add_argument("--words-db", required=True, help="Output words db path")
+    parser.add_argument(
+        "--words-db",
+        default="",
+        help="Output words db path (leave empty to store words in postings db)",
+    )
     parser.add_argument("--batch", type=int, default=10000, help="Batch size")
     parser.add_argument(
         "--max-tokens",
         type=int,
         default=0,
         help="Stop after writing this many tokens (0 = no limit)",
+    )
+    parser.add_argument(
+        "--words-only",
+        action="store_true",
+        help="Only build words table (skip tokens/unigrams)",
     )
     return parser.parse_args()
 
@@ -214,9 +227,10 @@ def main() -> None:
 
     dst = sqlite3.connect(args.dst)
     conv.apply_build_pragmas(dst)
-    conv.ensure_dst_schema(dst, split_ngrams=True)
+    if not args.words_only:
+        conv.ensure_dst_schema(dst, split_ngrams=True)
 
-    words_con = sqlite3.connect(args.words_db)
+    words_con = dst if not args.words_db else sqlite3.connect(args.words_db)
     ensure_words_schema(words_con)
     word_map, cf_map, raw_id, cf_id = load_existing_words(words_con)
 
@@ -249,6 +263,7 @@ def main() -> None:
             args.batch,
             max_tokens,
             total_tokens,
+            args.words_only,
         )
         processed.update(urns)
         if stop:
@@ -256,7 +271,8 @@ def main() -> None:
             break
 
     dst.close()
-    words_con.close()
+    if words_con is not dst:
+        words_con.close()
 
 
 if __name__ == "__main__":

@@ -1,0 +1,9 @@
+{
+  "postings_dbs": [
+    "/mnt/disk4/imagination_shards/imag_00_postings.db",
+    "/mnt/disk4/imagination_shards/imag_01_postings.db"
+  ],
+  "words_db": "",
+  "ext_path": "/path/to/postings_native.so",
+  "default_schema": "unigrams"
+}

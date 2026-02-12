@@ -361,12 +361,9 @@ with st.sidebar:
     st.header("DB paths")
     postings_db = st.text_input(
         "Postings DB",
-        value="/mnt/disk1/alto_postings/alto_100000000_100019999_ngrams_bigram_split.db",
+        value="/mnt/disk4/imagination_shards/imag_00_postings.db",
     )
-    words_db = st.text_input(
-        "Words DB",
-        value="/mnt/disk1/alto_postings/alto_100000000_100019999_ngrams_bigram_split.db_words.db",
-    )
+    words_db = st.text_input("Words DB", value="")
     ext_path = st.text_input("Postings extension (.so)", value="postings_native.so")
     if st.button("Validate DBs"):
         try:

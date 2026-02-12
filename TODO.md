@@ -18,3 +18,4 @@
   - Standoff‑data i egne filer/sharder.
 - Avklare schema for standoff‑tabeller (felter/metadata).
 - Eventuelt legge inn cutoffs (f.eks. dropp trigram‑hapax) ved behov.
+- Optimalisere URN-listing fra docpost (cache OR-blobs, mindre JSON).

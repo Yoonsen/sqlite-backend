@@ -2,6 +2,71 @@
 
 Utilities for building postings shards and running a Streamlit demo.
 
+### REST backends (Python + Julia) and JS UI
+
+Configuration is shared via `POSTINGS_CONFIG` pointing to a JSON file. Example:
+
+```json
+{
+  "postings_dbs": [
+    "/mnt/disk4/imagination_shards/imag_00_postings.db",
+    "/mnt/disk4/imagination_shards/imag_01_postings.db"
+  ],
+  "words_db": "",
+  "ext_path": "/path/to/postings_native.so",
+  "default_schema": "unigrams"
+}
+```
+
+Set `words_db` to an empty string to use per-shard `words` embedded in each postings DB.
+
+#### Python backend
+
+```bash
+export POSTINGS_CONFIG=/path/to/config.json
+pip install -r api_python/requirements.txt
+uvicorn api_python.server:app --host 0.0.0.0 --port 8000
+```
+
+#### Docker (Python backend, compile postings at startup)
+
+Build:
+
+```bash
+docker build -t postings-api .
+```
+
+Run (mount shards + config + output `.so`):
+
+```bash
+docker run --rm -p 8000:8000 \
+  -e POSTINGS_CONFIG=/data/dhlab/larsj/postings/config.json \
+  -e POSTINGS_SO_PATH=/data/dhlab/larsj/postings/postings_native.so \
+  -v /data/dhlab/larsj/postings:/data/dhlab/larsj/postings \
+  postings-api
+```
+
+#### Julia backend
+
+```bash
+export POSTINGS_CONFIG=/path/to/config.json
+julia --project=api_julia -e 'using Pkg; Pkg.instantiate()'
+julia --project=api_julia api_julia/server.jl
+```
+
+#### Vanilla JS UI
+
+Open `web/index.html` in a browser and point it to the backend base URL.
+
+#### API endpoints
+
+- `GET /health`
+- `POST /concordance`
+- `POST /near_frequency`
+- `POST /near_query` (multi-term + prefix *)
+- `POST /near_fragments` (multi-term + prefix *, returns fragments)
+- `POST /collocations`
+
 ### Streamlit demo
 
 Run from the repo root (update paths in the sidebar if needed):
