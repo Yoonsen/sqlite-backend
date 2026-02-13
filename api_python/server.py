@@ -20,6 +20,7 @@ from api_python.postings_queries import (
     sample_collocations,
     sample_concordance_near,
     sample_concordance_single,
+    sample_concordance_union,
 )
 
 app = FastAPI(title="Postings API", version="0.1.0")
@@ -125,6 +126,7 @@ def concordance(req: ConcordanceRequest):
     rows = []
     word_a_found = False
     word_b_found = True
+    max_variants = 1000
     for path in postings_paths:
         con = connect_postings(path, CONFIG.ext_path)
         conw = connect_words(shard_words_path(path))
@@ -133,11 +135,20 @@ def concordance(req: ConcordanceRequest):
         base_filter_ids = req.filterIds if req.useFilter and req.filterIds else None
         use_filter = False
         filter_json = None
-        cf_a = get_cf_id(curw, req.wordA)
-        if cf_a is None:
-            con.close()
-            conw.close()
-            continue
+        cf_a = None
+        cf_ids_a: Optional[List[int]] = None
+        if req.wordA.endswith("*"):
+            cf_ids_a, _ = expand_term_cf_ids_with_df(curw, req.wordA, max_variants)
+            if not cf_ids_a:
+                con.close()
+                conw.close()
+                continue
+        else:
+            cf_a = get_cf_id(curw, req.wordA)
+            if cf_a is None:
+                con.close()
+                conw.close()
+                continue
         word_a_found = True
         if req.wordB and req.wordB.strip():
             cf_b = get_cf_id(curw, req.wordB)
@@ -185,9 +196,13 @@ def concordance(req: ConcordanceRequest):
             )
         else:
             if not use_filter:
+                if cf_ids_a:
+                    cf_groups = [cf_ids_a]
+                else:
+                    cf_groups = [[cf_a]]
                 filter_ids = _apply_docpost_filter_and_sample(
                     cur,
-                    [[cf_a]],
+                    cf_groups,
                     base_filter_ids,
                     req.docSamples,
                     req.totalLimit,
@@ -200,18 +215,32 @@ def concordance(req: ConcordanceRequest):
                 if filter_ids:
                     use_filter = True
                     filter_json = json.dumps(filter_ids)
-            rows.extend(
-                sample_concordance_single(
-                    cur,
-                    curw,
-                    cf_a,
-                    req.perBook,
-                    req.before,
-                    req.after,
-                    use_filter,
-                    filter_json,
+            if cf_ids_a:
+                rows.extend(
+                    sample_concordance_union(
+                        cur,
+                        curw,
+                        cf_ids_a,
+                        req.perBook,
+                        req.before,
+                        req.after,
+                        use_filter,
+                        filter_json,
+                    )
                 )
-            )
+            else:
+                rows.extend(
+                    sample_concordance_single(
+                        cur,
+                        curw,
+                        cf_a,
+                        req.perBook,
+                        req.before,
+                        req.after,
+                        use_filter,
+                        filter_json,
+                    )
+                )
         con.close()
         conw.close()
     if not word_a_found:

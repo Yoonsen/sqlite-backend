@@ -230,6 +230,57 @@ def sample_concordance_single(
     return out
 
 
+def sample_concordance_union(
+    cur: sqlite3.Cursor,
+    curw: sqlite3.Cursor,
+    cf_ids: List[int],
+    per_book: int,
+    before: int,
+    after: int,
+    use_filter: bool,
+    filter_json: Optional[str],
+) -> List[Tuple[int, int, str]]:
+    if not cf_ids:
+        return []
+    inner = cur.connection.cursor()
+    placeholders = ",".join("?" for _ in cf_ids)
+    if use_filter:
+        sql = f"""
+            SELECT u.book_id, post_union_agg(u.post) AS post
+            FROM json_each(?) f
+            JOIN unigrams u ON u.book_id = f.value
+            WHERE u.cf_id IN ({placeholders})
+            GROUP BY u.book_id
+        """
+        params = (filter_json, *cf_ids)
+    else:
+        sql = f"""
+            SELECT u.book_id, post_union_agg(u.post) AS post
+            FROM unigrams u
+            WHERE u.cf_id IN ({placeholders})
+            GROUP BY u.book_id
+        """
+        params = tuple(cf_ids)
+    out: List[Tuple[int, int, str]] = []
+    for book_id, post in cur.execute(sql, params):
+        if not post:
+            continue
+        cnt_row = inner.execute("SELECT post_count(?)", (post,)).fetchone()
+        total = int(cnt_row[0] or 0) if cnt_row else 0
+        if total <= 0:
+            continue
+        samples = min(per_book, total)
+        indices = random.sample(range(total), samples)
+        for idx in indices:
+            pos_row = inner.execute("SELECT post_sample(?, ?)", (post, idx)).fetchone()
+            if pos_row is None or pos_row[0] is None:
+                continue
+            pos = int(pos_row[0])
+            frag = fetch_window(cur, curw, book_id, pos, before, after)
+            out.append((book_id, pos, frag))
+    return out
+
+
 def sample_concordance_near(
     cur: sqlite3.Cursor,
     curw: sqlite3.Cursor,
