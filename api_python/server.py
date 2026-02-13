@@ -520,12 +520,9 @@ def near_query(req: NearQueryRequest):
         conw = connect_words(shard_words_path(path))
         cur = con.cursor()
         curw = conw.cursor()
-        if req.useFilter and req.filterIds:
-            use_filter = True
-            filter_json = json.dumps(req.filterIds)
-        else:
-            use_filter = False
-            filter_json = None
+        base_filter_ids = req.filterIds if req.useFilter and req.filterIds else None
+        use_filter = False
+        filter_json = None
 
         groups = _resolve_term_groups(
             curw, req.terms, req.termGroups, req.maxVariants, req.symmetric
@@ -553,35 +550,57 @@ def near_query(req: NearQueryRequest):
         found_any = True
         prepare_term_cf_table(cur, groups)
 
-        ctes = []
-        if use_filter:
-            ctes.append("filter AS (SELECT value AS urn FROM json_each(?))")
-        for i in range(1, len(groups) + 1):
-            ctes.append(union_cte(req.schema or CONFIG.default_schema, i, use_filter))
-
-        select_cols = []
-        join_clause = "FROM g1"
-        for i in range(2, len(groups) + 1):
-            join_clause += f" JOIN g{i} ON g{i}.book_id = g1.book_id"
-        for i in range(2, len(groups) + 1):
-            select_cols.append(
-                f"post_near_count(g1.blob, g{i}.blob, {off_min}, {off_max}) AS c{i}"
+        if len(groups) == 2:
+            if use_filter:
+                from_clause = "FROM filter f JOIN {table} u ON u.book_id = f.urn"
+            else:
+                from_clause = "FROM {table} u"
+            sql = f"""
+            WITH
+            {("filter AS (SELECT value AS urn FROM json_each(?))," if use_filter else "")}
+            combined AS (
+                SELECT u.book_id,
+                       post_near_count_groups(t.grp, u.post, {off_min}, {off_max}) AS c
+                {from_clause.format(table=(req.schema or CONFIG.default_schema))}
+                JOIN term_cf t ON t.cf_id = u.cf_id
+                GROUP BY u.book_id
             )
-        select_cols_sql = ", ".join(select_cols)
-        where_all = " AND ".join([f"c{i} > 0" for i in range(2, len(groups) + 1)])
-        sum_cols = " + ".join([f"c{i}" for i in range(2, len(groups) + 1)])
-        sql = f"""
-        WITH
-        {", ".join(ctes)}
-        SELECT
-            SUM(CASE WHEN {where_all} THEN {sum_cols} ELSE 0 END) AS total,
-            SUM(CASE WHEN {where_all} THEN 1 ELSE 0 END) AS docs
-        FROM (
-            SELECT g1.book_id, {select_cols_sql}
-            {join_clause}
-        )
-        """
-        params = (filter_json,) if use_filter else ()
+            SELECT
+                SUM(CASE WHEN c > 0 THEN c ELSE 0 END) AS total,
+                SUM(CASE WHEN c > 0 THEN 1 ELSE 0 END) AS docs
+            FROM combined
+            """
+            params = (filter_json,) if use_filter else ()
+        else:
+            ctes = []
+            if use_filter:
+                ctes.append("filter AS (SELECT value AS urn FROM json_each(?))")
+            for i in range(1, len(groups) + 1):
+                ctes.append(union_cte(req.schema or CONFIG.default_schema, i, use_filter))
+
+            select_cols = []
+            join_clause = "FROM g1"
+            for i in range(2, len(groups) + 1):
+                join_clause += f" JOIN g{i} ON g{i}.book_id = g1.book_id"
+            for i in range(2, len(groups) + 1):
+                select_cols.append(
+                    f"post_near_count(g1.blob, g{i}.blob, {off_min}, {off_max}) AS c{i}"
+                )
+            select_cols_sql = ", ".join(select_cols)
+            where_all = " AND ".join([f"c{i} > 0" for i in range(2, len(groups) + 1)])
+            sum_cols = " + ".join([f"c{i}" for i in range(2, len(groups) + 1)])
+            sql = f"""
+            WITH
+            {", ".join(ctes)}
+            SELECT
+                SUM(CASE WHEN {where_all} THEN {sum_cols} ELSE 0 END) AS total,
+                SUM(CASE WHEN {where_all} THEN 1 ELSE 0 END) AS docs
+            FROM (
+                SELECT g1.book_id, {select_cols_sql}
+                {join_clause}
+            )
+            """
+            params = (filter_json,) if use_filter else ()
         row = cur.execute(sql, params).fetchone()
         if row:
             total += int(row[0] or 0)
@@ -638,59 +657,100 @@ def near_fragments(req: NearFragmentsRequest):
                 filter_json = json.dumps(filter_ids)
 
         prepare_term_cf_table(cur, groups)
-        cte_sql, select_sql, _ = groups_sql(
-            groups, req.schema or CONFIG.default_schema, use_filter
-        )
-        if use_filter:
-            cte_sql = "filter AS (SELECT value AS urn FROM json_each(?)), " + cte_sql
-        sql = f"""
-        WITH
-        {cte_sql}
-        {select_sql}
-        """
         inner = con.cursor()
-        params = (filter_json,) if use_filter else ()
-        for row in cur.execute(sql, params):
-            book_id = row[0]
-            blobs = row[1:]
-            # compute near positions blob from anchor (b1) to each other group
-            common_blob = None
-            for idx in range(1, len(blobs)):
-                res = inner.execute(
-                    "SELECT post_near_positions_blob(?, ?, ?, ?)",
-                    (blobs[0], blobs[idx], off_min, off_max),
-                ).fetchone()
-                if not res or res[0] is None:
-                    common_blob = None
-                    break
-                if common_blob is None:
-                    common_blob = res[0]
-                else:
-                    inter = inner.execute(
-                        "SELECT post_intersect_blob(?, ?)", (common_blob, res[0])
-                    ).fetchone()
-                    common_blob = inter[0] if inter else None
+        if len(groups) == 2:
+            if use_filter:
+                from_clause = "FROM filter f JOIN {table} u ON u.book_id = f.urn"
+            else:
+                from_clause = "FROM {table} u"
+            sql = f"""
+            WITH
+            {("filter AS (SELECT value AS urn FROM json_each(?))," if use_filter else "")}
+            combined AS (
+                SELECT u.book_id,
+                       post_near_positions_groups(t.grp, u.post, {off_min}, {off_max}) AS blob
+                {from_clause.format(table=(req.schema or CONFIG.default_schema))}
+                JOIN term_cf t ON t.cf_id = u.cf_id
+                GROUP BY u.book_id
+            )
+            SELECT book_id, blob FROM combined
+            """
+            params = (filter_json,) if use_filter else ()
+            for row in cur.execute(sql, params):
+                book_id = row[0]
+                common_blob = row[1]
                 if not common_blob:
-                    break
-            if not common_blob:
-                continue
-            cnt_row = inner.execute("SELECT post_count(?)", (common_blob,)).fetchone()
-            total = int(cnt_row[0] or 0) if cnt_row else 0
-            if total <= 0:
-                continue
-            samples = min(req.perBook, total)
-            indices = random.sample(range(total), samples)
-            for idx in indices:
-                pos_row = inner.execute("SELECT post_sample(?, ?)", (common_blob, idx)).fetchone()
-                if pos_row is None or pos_row[0] is None:
                     continue
-                pos = int(pos_row[0])
-                frag = fetch_window(cur, curw, book_id, pos, req.before, req.after)
-                rows.append({"bookId": book_id, "pos": int(pos), "frag": frag})
+                cnt_row = inner.execute("SELECT post_count(?)", (common_blob,)).fetchone()
+                total = int(cnt_row[0] or 0) if cnt_row else 0
+                if total <= 0:
+                    continue
+                samples = min(req.perBook, total)
+                indices = random.sample(range(total), samples)
+                for idx in indices:
+                    pos_row = inner.execute("SELECT post_sample(?, ?)", (common_blob, idx)).fetchone()
+                    if pos_row is None or pos_row[0] is None:
+                        continue
+                    pos = int(pos_row[0])
+                    frag = fetch_window(cur, curw, book_id, pos, req.before, req.after)
+                    rows.append({"bookId": book_id, "pos": int(pos), "frag": frag})
+                    if req.totalLimit and len(rows) >= req.totalLimit:
+                        break
                 if req.totalLimit and len(rows) >= req.totalLimit:
                     break
-            if req.totalLimit and len(rows) >= req.totalLimit:
-                break
+        else:
+            cte_sql, select_sql, _ = groups_sql(
+                groups, req.schema or CONFIG.default_schema, use_filter
+            )
+            if use_filter:
+                cte_sql = "filter AS (SELECT value AS urn FROM json_each(?)), " + cte_sql
+            sql = f"""
+            WITH
+            {cte_sql}
+            {select_sql}
+            """
+            params = (filter_json,) if use_filter else ()
+            for row in cur.execute(sql, params):
+                book_id = row[0]
+                blobs = row[1:]
+                # compute near positions blob from anchor (b1) to each other group
+                common_blob = None
+                for idx in range(1, len(blobs)):
+                    res = inner.execute(
+                        "SELECT post_near_positions_blob(?, ?, ?, ?)",
+                        (blobs[0], blobs[idx], off_min, off_max),
+                    ).fetchone()
+                    if not res or res[0] is None:
+                        common_blob = None
+                        break
+                    if common_blob is None:
+                        common_blob = res[0]
+                    else:
+                        inter = inner.execute(
+                            "SELECT post_intersect_blob(?, ?)", (common_blob, res[0])
+                        ).fetchone()
+                        common_blob = inter[0] if inter else None
+                    if not common_blob:
+                        break
+                if not common_blob:
+                    continue
+                cnt_row = inner.execute("SELECT post_count(?)", (common_blob,)).fetchone()
+                total = int(cnt_row[0] or 0) if cnt_row else 0
+                if total <= 0:
+                    continue
+                samples = min(req.perBook, total)
+                indices = random.sample(range(total), samples)
+                for idx in indices:
+                    pos_row = inner.execute("SELECT post_sample(?, ?)", (common_blob, idx)).fetchone()
+                    if pos_row is None or pos_row[0] is None:
+                        continue
+                    pos = int(pos_row[0])
+                    frag = fetch_window(cur, curw, book_id, pos, req.before, req.after)
+                    rows.append({"bookId": book_id, "pos": int(pos), "frag": frag})
+                    if req.totalLimit and len(rows) >= req.totalLimit:
+                        break
+                if req.totalLimit and len(rows) >= req.totalLimit:
+                    break
         con.close()
         conw.close()
         if req.totalLimit and len(rows) >= req.totalLimit:

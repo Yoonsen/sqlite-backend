@@ -511,6 +511,87 @@ typedef struct {
     int active;
 } blob_iter;
 
+typedef struct {
+    unsigned char **blobs1;
+    int *lens1;
+    int count1;
+    int cap1;
+    unsigned char **blobs2;
+    int *lens2;
+    int count2;
+    int cap2;
+    int off_min;
+    int off_max;
+    int has_offsets;
+} near_groups_ctx;
+
+static int append_blob_group(
+    unsigned char ***blobs,
+    int **lens,
+    int *count,
+    int *cap,
+    const unsigned char *src,
+    int src_len
+) {
+    if (*count == *cap) {
+        int new_cap = *cap ? *cap * 2 : 8;
+        unsigned char **new_blobs = sqlite3_malloc(new_cap * sizeof(*new_blobs));
+        int *new_lens = sqlite3_malloc(new_cap * sizeof(*new_lens));
+        if (!new_blobs || !new_lens) {
+            sqlite3_free(new_blobs);
+            sqlite3_free(new_lens);
+            return 0;
+        }
+        if (*count > 0) {
+            memcpy(new_blobs, *blobs, (*count) * sizeof(*new_blobs));
+            memcpy(new_lens, *lens, (*count) * sizeof(*new_lens));
+        }
+        sqlite3_free(*blobs);
+        sqlite3_free(*lens);
+        *blobs = new_blobs;
+        *lens = new_lens;
+        *cap = new_cap;
+    }
+    unsigned char *copy = sqlite3_malloc(src_len);
+    if (!copy) return 0;
+    memcpy(copy, src, src_len);
+    (*blobs)[*count] = copy;
+    (*lens)[*count] = src_len;
+    *count += 1;
+    return 1;
+}
+
+static void free_group_arrays(unsigned char **blobs, int count, int *lens) {
+    if (blobs) {
+        for (int i = 0; i < count; i++) {
+            sqlite3_free(blobs[i]);
+        }
+        sqlite3_free(blobs);
+    }
+    sqlite3_free(lens);
+}
+
+static int group_next(blob_iter *iters, int n, uint64_t *out) {
+    uint64_t min_val = UINT64_MAX;
+    int any_active = 0;
+    for (int i = 0; i < n; i++) {
+        if (iters[i].active) {
+            any_active = 1;
+            if (iters[i].acc < min_val) {
+                min_val = iters[i].acc;
+            }
+        }
+    }
+    if (!any_active) return 0;
+    *out = min_val;
+    for (int i = 0; i < n; i++) {
+        if (iters[i].active && iters[i].acc == min_val) {
+            iters[i].active = next_seq(&iters[i].ptr, iters[i].end, &iters[i].acc);
+        }
+    }
+    return 1;
+}
+
 static void post_union_agg_step(
     sqlite3_context *ctx,
     int argc,
@@ -639,6 +720,195 @@ static void post_union_agg_final(sqlite3_context *ctx) {
     sqlite3_result_blob(ctx, out, out_len, sqlite3_free);
 }
 
+static void post_near_count_groups_step(
+    sqlite3_context *ctx,
+    int argc,
+    sqlite3_value **argv
+) {
+    if (argc != 4) {
+        sqlite3_result_error(ctx, "post_near_count_groups(grp, blob, off_min, off_max) expects 4 args", -1);
+        return;
+    }
+    int grp = sqlite3_value_int(argv[0]);
+    const unsigned char *b = sqlite3_value_blob(argv[1]);
+    int b_len = sqlite3_value_bytes(argv[1]);
+    int off_min = sqlite3_value_int(argv[2]);
+    int off_max = sqlite3_value_int(argv[3]);
+    if (!b || b_len <= 0) return;
+
+    near_groups_ctx *st = sqlite3_aggregate_context(ctx, sizeof(*st));
+    if (!st) {
+        sqlite3_result_error(ctx, "post_near_count_groups: OOM", -1);
+        return;
+    }
+    if (!st->has_offsets) {
+        st->off_min = off_min;
+        st->off_max = off_max;
+        st->has_offsets = 1;
+    }
+    if (grp == 1) {
+        if (!append_blob_group(&st->blobs1, &st->lens1, &st->count1, &st->cap1, b, b_len)) {
+            sqlite3_result_error(ctx, "post_near_count_groups: OOM", -1);
+        }
+    } else if (grp == 2) {
+        if (!append_blob_group(&st->blobs2, &st->lens2, &st->count2, &st->cap2, b, b_len)) {
+            sqlite3_result_error(ctx, "post_near_count_groups: OOM", -1);
+        }
+    }
+}
+
+static void post_near_count_groups_final(sqlite3_context *ctx) {
+    near_groups_ctx *st = sqlite3_aggregate_context(ctx, 0);
+    if (!st || st->count1 == 0 || st->count2 == 0) {
+        sqlite3_result_int(ctx, 0);
+        return;
+    }
+
+    blob_iter *iters1 = sqlite3_malloc(sizeof(*iters1) * st->count1);
+    blob_iter *iters2 = sqlite3_malloc(sizeof(*iters2) * st->count2);
+    if (!iters1 || !iters2) {
+        sqlite3_free(iters1);
+        sqlite3_free(iters2);
+        sqlite3_result_error(ctx, "post_near_count_groups: OOM", -1);
+        return;
+    }
+    for (int i = 0; i < st->count1; i++) {
+        iters1[i].ptr = st->blobs1[i];
+        iters1[i].end = st->blobs1[i] + st->lens1[i];
+        iters1[i].acc = 0;
+        iters1[i].active = next_seq(&iters1[i].ptr, iters1[i].end, &iters1[i].acc);
+    }
+    for (int i = 0; i < st->count2; i++) {
+        iters2[i].ptr = st->blobs2[i];
+        iters2[i].end = st->blobs2[i] + st->lens2[i];
+        iters2[i].acc = 0;
+        iters2[i].active = next_seq(&iters2[i].ptr, iters2[i].end, &iters2[i].acc);
+    }
+
+    uint64_t a_val = 0, b_val = 0;
+    int has_a = group_next(iters1, st->count1, &a_val);
+    int has_b = group_next(iters2, st->count2, &b_val);
+    int count = 0;
+    while (has_a && has_b) {
+        int64_t diff = (int64_t)b_val - (int64_t)a_val;
+        if (diff < st->off_min) {
+            has_b = group_next(iters2, st->count2, &b_val);
+        } else if (diff > st->off_max) {
+            has_a = group_next(iters1, st->count1, &a_val);
+        } else {
+            count++;
+            has_a = group_next(iters1, st->count1, &a_val);
+        }
+    }
+
+    sqlite3_free(iters1);
+    sqlite3_free(iters2);
+    free_group_arrays(st->blobs1, st->count1, st->lens1);
+    free_group_arrays(st->blobs2, st->count2, st->lens2);
+    st->blobs1 = NULL;
+    st->lens1 = NULL;
+    st->count1 = 0;
+    st->cap1 = 0;
+    st->blobs2 = NULL;
+    st->lens2 = NULL;
+    st->count2 = 0;
+    st->cap2 = 0;
+
+    sqlite3_result_int(ctx, count);
+}
+
+static void post_near_positions_groups_step(
+    sqlite3_context *ctx,
+    int argc,
+    sqlite3_value **argv
+) {
+    post_near_count_groups_step(ctx, argc, argv);
+}
+
+static void post_near_positions_groups_final(sqlite3_context *ctx) {
+    near_groups_ctx *st = sqlite3_aggregate_context(ctx, 0);
+    if (!st || st->count1 == 0 || st->count2 == 0) {
+        sqlite3_result_blob(ctx, "", 0, SQLITE_STATIC);
+        return;
+    }
+
+    blob_iter *iters1 = sqlite3_malloc(sizeof(*iters1) * st->count1);
+    blob_iter *iters2 = sqlite3_malloc(sizeof(*iters2) * st->count2);
+    if (!iters1 || !iters2) {
+        sqlite3_free(iters1);
+        sqlite3_free(iters2);
+        sqlite3_result_error(ctx, "post_near_positions_groups: OOM", -1);
+        return;
+    }
+    for (int i = 0; i < st->count1; i++) {
+        iters1[i].ptr = st->blobs1[i];
+        iters1[i].end = st->blobs1[i] + st->lens1[i];
+        iters1[i].acc = 0;
+        iters1[i].active = next_seq(&iters1[i].ptr, iters1[i].end, &iters1[i].acc);
+    }
+    for (int i = 0; i < st->count2; i++) {
+        iters2[i].ptr = st->blobs2[i];
+        iters2[i].end = st->blobs2[i] + st->lens2[i];
+        iters2[i].acc = 0;
+        iters2[i].active = next_seq(&iters2[i].ptr, iters2[i].end, &iters2[i].acc);
+    }
+
+    uint64_t a_val = 0, b_val = 0;
+    int has_a = group_next(iters1, st->count1, &a_val);
+    int has_b = group_next(iters2, st->count2, &b_val);
+
+    unsigned char *out = NULL;
+    int out_len = 0;
+    int out_cap = 0;
+    uint64_t last_out = 0;
+    int has_out = 0;
+
+    while (has_a && has_b) {
+        int64_t diff = (int64_t)b_val - (int64_t)a_val;
+        if (diff < st->off_min) {
+            has_b = group_next(iters2, st->count2, &b_val);
+        } else if (diff > st->off_max) {
+            has_a = group_next(iters1, st->count1, &a_val);
+        } else {
+            uint64_t delta = has_out ? (a_val - last_out) : a_val;
+            if (!append_varint_bytes(delta, &out, &out_len, &out_cap)) {
+                sqlite3_free(out);
+                sqlite3_free(iters1);
+                sqlite3_free(iters2);
+                free_group_arrays(st->blobs1, st->count1, st->lens1);
+                free_group_arrays(st->blobs2, st->count2, st->lens2);
+                st->blobs1 = NULL;
+                st->lens1 = NULL;
+                st->count1 = 0;
+                st->cap1 = 0;
+                st->blobs2 = NULL;
+                st->lens2 = NULL;
+                st->count2 = 0;
+                st->cap2 = 0;
+                sqlite3_result_error(ctx, "post_near_positions_groups: OOM", -1);
+                return;
+            }
+            last_out = a_val;
+            has_out = 1;
+            has_a = group_next(iters1, st->count1, &a_val);
+        }
+    }
+
+    sqlite3_free(iters1);
+    sqlite3_free(iters2);
+    free_group_arrays(st->blobs1, st->count1, st->lens1);
+    free_group_arrays(st->blobs2, st->count2, st->lens2);
+    st->blobs1 = NULL;
+    st->lens1 = NULL;
+    st->count1 = 0;
+    st->cap1 = 0;
+    st->blobs2 = NULL;
+    st->lens2 = NULL;
+    st->count2 = 0;
+    st->cap2 = 0;
+
+    sqlite3_result_blob(ctx, out, out_len, sqlite3_free);
+}
 /*
  * post_intersect_blob(blobA, blobB)
  *  - returnerer snittet av to postingslister som ny delta/varint-BLOB
@@ -1377,6 +1647,20 @@ int sqlite3_postings_init(
         db, "post_union_agg", 1,
         SQLITE_UTF8 | SQLITE_DETERMINISTIC,
         NULL, NULL, post_union_agg_step, post_union_agg_final
+    );
+    if (rc != SQLITE_OK) return rc;
+
+    rc = sqlite3_create_function(
+        db, "post_near_count_groups", 4,
+        SQLITE_UTF8 | SQLITE_DETERMINISTIC,
+        NULL, NULL, post_near_count_groups_step, post_near_count_groups_final
+    );
+    if (rc != SQLITE_OK) return rc;
+
+    rc = sqlite3_create_function(
+        db, "post_near_positions_groups", 4,
+        SQLITE_UTF8 | SQLITE_DETERMINISTIC,
+        NULL, NULL, post_near_positions_groups_step, post_near_positions_groups_final
     );
     if (rc != SQLITE_OK) return rc;
 
