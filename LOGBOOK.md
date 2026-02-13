@@ -1,5 +1,12 @@
 ## Logbook
 
+### 2026-02-06 (oppdatert)
+- La inn `post_count` og `post_near_positions_blob` i SQLite‑utvidelsen for rask blob‑sampling uten JSON.
+- Flyttet sampling til blob‑nivå (`post_count` + `post_sample`) i concordance/near/fragment‑flyten.
+- Innført `docSamples` i API‑skjema og web‑UI; brukes kun som fallback når ingen docpost‑filter finnes.
+- Standardisert docpost‑filtrering med `json_each` og fallback til `sample_urns` når `urns_postings` mangler.
+- Strammet logikken slik at docpost‑filter alltid kjøres før downsampling.
+
 ### 2026-02-07
 - La inn støtte for `post_union` i SQLite-utvidelsen (merge + re-varint).
 - La inn `post_to_bitmap` og `post_bigram_bitmap` for å teste bitmap-basert bigram-telling.
