@@ -79,6 +79,7 @@ class NearFrequencyRequest(BaseModel):
 
 class NearQueryRequest(BaseModel):
     terms: List[str]
+    termGroups: Optional[List[List[str]]] = None
     window: int = Field(5, ge=1, le=50)
     schema: Optional[str] = None
     symmetric: bool = True
@@ -90,6 +91,7 @@ class NearQueryRequest(BaseModel):
 
 class NearFragmentsRequest(BaseModel):
     terms: List[str]
+    termGroups: Optional[List[List[str]]] = None
     window: int = Field(5, ge=1, le=50)
     before: int = Field(5, ge=1, le=50)
     after: int = Field(5, ge=1, le=50)
@@ -376,6 +378,33 @@ def expand_term_cf_ids_with_df(
     return [row[0]], int(row[1]) if has_docfreq else 1
 
 
+def _resolve_term_groups(
+    curw,
+    terms: List[str],
+    term_groups: Optional[List[List[str]]],
+    max_variants: int,
+    symmetric: bool,
+) -> List[List[int]]:
+    raw_groups = term_groups if term_groups else [[t] for t in terms]
+    term_infos: List[Tuple[List[int], int]] = []
+    for group in raw_groups:
+        group_cf_ids: List[int] = []
+        df_sum = 0
+        for term in group:
+            cf_ids, df = expand_term_cf_ids_with_df(curw, term, max_variants)
+            if not cf_ids:
+                return []
+            group_cf_ids.extend(cf_ids)
+            df_sum += df
+        group_cf_ids = sorted(set(group_cf_ids))
+        if not group_cf_ids:
+            return []
+        term_infos.append((group_cf_ids, df_sum))
+    if symmetric:
+        term_infos.sort(key=lambda x: x[1])
+    return [info[0] for info in term_infos]
+
+
 def expand_term_cf_ids(
     curw, term: str, max_variants: int
 ) -> List[int]:
@@ -475,7 +504,10 @@ def _apply_docpost_filter_and_sample(
 
 @app.post("/near_query")
 def near_query(req: NearQueryRequest):
-    if not req.terms or len(req.terms) < 2:
+    if req.termGroups:
+        if len(req.termGroups) < 2:
+            raise HTTPException(status_code=400, detail="termGroups must contain at least two items")
+    elif not req.terms or len(req.terms) < 2:
         raise HTTPException(status_code=400, detail="terms must contain at least two items")
     postings_paths = CONFIG.postings_dbs
     total = 0
@@ -495,16 +527,9 @@ def near_query(req: NearQueryRequest):
             use_filter = False
             filter_json = None
 
-        term_infos: List[Tuple[str, List[int], int]] = []
-        for term in req.terms:
-            cf_ids, df_sum = expand_term_cf_ids_with_df(curw, term, req.maxVariants)
-            if not cf_ids:
-                term_infos = []
-                break
-            term_infos.append((term, cf_ids, df_sum))
-        if req.symmetric:
-            term_infos.sort(key=lambda x: x[2])
-        groups: List[List[int]] = [info[1] for info in term_infos]
+        groups = _resolve_term_groups(
+            curw, req.terms, req.termGroups, req.maxVariants, req.symmetric
+        )
         if not groups:
             con.close()
             conw.close()
@@ -570,7 +595,10 @@ def near_query(req: NearQueryRequest):
 
 @app.post("/near_fragments")
 def near_fragments(req: NearFragmentsRequest):
-    if not req.terms or len(req.terms) < 2:
+    if req.termGroups:
+        if len(req.termGroups) < 2:
+            raise HTTPException(status_code=400, detail="termGroups must contain at least two items")
+    elif not req.terms or len(req.terms) < 2:
         raise HTTPException(status_code=400, detail="terms must contain at least two items")
     postings_paths = CONFIG.postings_dbs
     rows: List[Dict[str, object]] = []
@@ -585,16 +613,9 @@ def near_fragments(req: NearFragmentsRequest):
         use_filter = False
         filter_json = None
 
-        term_infos: List[Tuple[str, List[int], int]] = []
-        for term in req.terms:
-            cf_ids, df_sum = expand_term_cf_ids_with_df(curw, term, req.maxVariants)
-            if not cf_ids:
-                term_infos = []
-                break
-            term_infos.append((term, cf_ids, df_sum))
-        if req.symmetric:
-            term_infos.sort(key=lambda x: x[2])
-        groups: List[List[int]] = [info[1] for info in term_infos]
+        groups = _resolve_term_groups(
+            curw, req.terms, req.termGroups, req.maxVariants, req.symmetric
+        )
         if not groups:
             con.close()
             conw.close()
