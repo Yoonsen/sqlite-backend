@@ -498,9 +498,18 @@ static void post_count_sqlite(
 }
 
 typedef struct {
-    unsigned char *blob;
-    int len;
+    unsigned char **blobs;
+    int *lens;
+    int count;
+    int cap;
 } union_agg_ctx;
+
+typedef struct {
+    const uint8_t *ptr;
+    const uint8_t *end;
+    uint64_t acc;
+    int active;
+} blob_iter;
 
 static void post_union_agg_step(
     sqlite3_context *ctx,
@@ -520,37 +529,114 @@ static void post_union_agg_step(
         sqlite3_result_error(ctx, "post_union_agg: OOM", -1);
         return;
     }
-    if (!st->blob) {
-        st->blob = sqlite3_malloc(b_len);
-        if (!st->blob) {
+    if (st->count == st->cap) {
+        int new_cap = st->cap ? st->cap * 2 : 8;
+        unsigned char **new_blobs = sqlite3_malloc(new_cap * sizeof(*new_blobs));
+        int *new_lens = sqlite3_malloc(new_cap * sizeof(*new_lens));
+        if (!new_blobs || !new_lens) {
+            sqlite3_free(new_blobs);
+            sqlite3_free(new_lens);
             sqlite3_result_error(ctx, "post_union_agg: OOM", -1);
             return;
         }
-        memcpy(st->blob, b, b_len);
-        st->len = b_len;
-        return;
+        if (st->count > 0) {
+            memcpy(new_blobs, st->blobs, st->count * sizeof(*new_blobs));
+            memcpy(new_lens, st->lens, st->count * sizeof(*new_lens));
+        }
+        sqlite3_free(st->blobs);
+        sqlite3_free(st->lens);
+        st->blobs = new_blobs;
+        st->lens = new_lens;
+        st->cap = new_cap;
     }
-
-    unsigned char *out = NULL;
-    int out_len = 0;
-    if (!union_blobs(st->blob, st->len, b, b_len, &out, &out_len)) {
+    unsigned char *copy = sqlite3_malloc(b_len);
+    if (!copy) {
         sqlite3_result_error(ctx, "post_union_agg: OOM", -1);
         return;
     }
-    sqlite3_free(st->blob);
-    st->blob = out;
-    st->len = out_len;
+    memcpy(copy, b, b_len);
+    st->blobs[st->count] = copy;
+    st->lens[st->count] = b_len;
+    st->count += 1;
 }
 
 static void post_union_agg_final(sqlite3_context *ctx) {
     union_agg_ctx *st = sqlite3_aggregate_context(ctx, 0);
-    if (!st || !st->blob) {
+    if (!st || st->count <= 0) {
         sqlite3_result_blob(ctx, "", 0, SQLITE_STATIC);
         return;
     }
-    sqlite3_result_blob(ctx, st->blob, st->len, sqlite3_free);
-    st->blob = NULL;
-    st->len = 0;
+    blob_iter *iters = sqlite3_malloc(sizeof(*iters) * st->count);
+    if (!iters) {
+        sqlite3_result_error(ctx, "post_union_agg: OOM", -1);
+        return;
+    }
+    for (int i = 0; i < st->count; i++) {
+        iters[i].ptr = st->blobs[i];
+        iters[i].end = st->blobs[i] + st->lens[i];
+        iters[i].acc = 0;
+        iters[i].active = next_seq(&iters[i].ptr, iters[i].end, &iters[i].acc);
+    }
+
+    unsigned char *out = NULL;
+    int out_len = 0;
+    int out_cap = 0;
+    uint64_t last_out = 0;
+    int has_out = 0;
+
+    while (1) {
+        uint64_t min_val = UINT64_MAX;
+        int any_active = 0;
+        for (int i = 0; i < st->count; i++) {
+            if (iters[i].active) {
+                any_active = 1;
+                if (iters[i].acc < min_val) {
+                    min_val = iters[i].acc;
+                }
+            }
+        }
+        if (!any_active) break;
+
+        if (!has_out || min_val != last_out) {
+            uint64_t delta = has_out ? (min_val - last_out) : min_val;
+            if (!append_varint_bytes(delta, &out, &out_len, &out_cap)) {
+                sqlite3_free(out);
+                sqlite3_free(iters);
+                for (int i = 0; i < st->count; i++) {
+                    sqlite3_free(st->blobs[i]);
+                }
+                sqlite3_free(st->blobs);
+                sqlite3_free(st->lens);
+                st->blobs = NULL;
+                st->lens = NULL;
+                st->count = 0;
+                st->cap = 0;
+                sqlite3_result_error(ctx, "post_union_agg: OOM", -1);
+                return;
+            }
+            last_out = min_val;
+            has_out = 1;
+        }
+
+        for (int i = 0; i < st->count; i++) {
+            if (iters[i].active && iters[i].acc == min_val) {
+                iters[i].active = next_seq(&iters[i].ptr, iters[i].end, &iters[i].acc);
+            }
+        }
+    }
+
+    for (int i = 0; i < st->count; i++) {
+        sqlite3_free(st->blobs[i]);
+    }
+    sqlite3_free(st->blobs);
+    sqlite3_free(st->lens);
+    st->blobs = NULL;
+    st->lens = NULL;
+    st->count = 0;
+    st->cap = 0;
+    sqlite3_free(iters);
+
+    sqlite3_result_blob(ctx, out, out_len, sqlite3_free);
 }
 
 /*
