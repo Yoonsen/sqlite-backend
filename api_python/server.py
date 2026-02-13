@@ -706,6 +706,56 @@ def near_fragments(req: NearFragmentsRequest):
                         break
                 if req.totalLimit and len(rows) >= req.totalLimit:
                     break
+        elif len(groups) == 3:
+            if use_filter:
+                from_clause = "FROM filter f JOIN {table} u ON u.book_id = f.urn"
+            else:
+                from_clause = "FROM {table} u"
+            func = "post_near_positions_bitmap_groups" if USE_BITMAP_NEAR else "post_near_positions_groups"
+            extra_arg = f", {BITMAP_CHUNK_SIZE}" if USE_BITMAP_NEAR else ""
+            sql = f"""
+            WITH
+            {("filter AS (SELECT value AS urn FROM json_each(?))," if use_filter else "")}
+            combined AS (
+                SELECT u.book_id,
+                       {func}(CASE WHEN t.grp = 1 THEN 1 WHEN t.grp = 2 THEN 2 END, u.post, {off_min}, {off_max}{extra_arg}) AS b12,
+                       {func}(CASE WHEN t.grp = 1 THEN 1 WHEN t.grp = 3 THEN 2 END, u.post, {off_min}, {off_max}{extra_arg}) AS b13
+                {from_clause.format(table=(req.schema or CONFIG.default_schema))}
+                JOIN term_cf t ON t.cf_id = u.cf_id
+                GROUP BY u.book_id
+            )
+            SELECT book_id, b12, b13 FROM combined
+            """
+            params = (filter_json,) if use_filter else ()
+            for row in cur.execute(sql, params):
+                book_id = row[0]
+                blob12 = row[1]
+                blob13 = row[2]
+                if not blob12 or not blob13:
+                    continue
+                inter = inner.execute(
+                    "SELECT post_intersect_blob(?, ?)", (blob12, blob13)
+                ).fetchone()
+                common_blob = inter[0] if inter else None
+                if not common_blob:
+                    continue
+                cnt_row = inner.execute("SELECT post_count(?)", (common_blob,)).fetchone()
+                total = int(cnt_row[0] or 0) if cnt_row else 0
+                if total <= 0:
+                    continue
+                samples = min(req.perBook, total)
+                indices = random.sample(range(total), samples)
+                for idx in indices:
+                    pos_row = inner.execute("SELECT post_sample(?, ?)", (common_blob, idx)).fetchone()
+                    if pos_row is None or pos_row[0] is None:
+                        continue
+                    pos = int(pos_row[0])
+                    frag = fetch_window(cur, curw, book_id, pos, req.before, req.after)
+                    rows.append({"bookId": book_id, "pos": int(pos), "frag": frag})
+                    if req.totalLimit and len(rows) >= req.totalLimit:
+                        break
+                if req.totalLimit and len(rows) >= req.totalLimit:
+                    break
         else:
             cte_sql, select_sql, _ = groups_sql(
                 groups, req.schema or CONFIG.default_schema, use_filter
