@@ -277,7 +277,7 @@ def near_freq(req: NearFrequencyRequest):
                 cur,
                 [[cf_a], [cf_b]],
                 base_filter_ids,
-                req.docSamples,
+                0,
                 0,
                 0,
             )
@@ -514,7 +514,7 @@ def near_query(req: NearQueryRequest):
                 cur,
                 groups,
                 base_filter_ids,
-                req.docSamples,
+                0,
                 req.totalLimit,
                 req.perBook,
             )
@@ -604,7 +604,7 @@ def near_fragments(req: NearFragmentsRequest):
                 cur,
                 groups,
                 base_filter_ids,
-                req.docSamples,
+                0,
                 req.totalLimit,
                 req.perBook,
             )
