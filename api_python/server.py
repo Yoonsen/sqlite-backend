@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import os
 import random
 from typing import Dict, List, Optional, Tuple
 
@@ -24,6 +25,9 @@ from api_python.postings_queries import (
 )
 
 app = FastAPI(title="Postings API", version="0.1.0")
+
+USE_BITMAP_NEAR = os.environ.get("POSTINGS_BITMAP_NEAR", "").strip() == "1"
+BITMAP_CHUNK_SIZE = int(os.environ.get("POSTINGS_BITMAP_CHUNK", "4096"))
 
 
 @app.middleware("http")
@@ -555,12 +559,14 @@ def near_query(req: NearQueryRequest):
                 from_clause = "FROM filter f JOIN {table} u ON u.book_id = f.urn"
             else:
                 from_clause = "FROM {table} u"
+            func = "post_near_count_bitmap_groups" if USE_BITMAP_NEAR else "post_near_count_groups"
+            extra_arg = f", {BITMAP_CHUNK_SIZE}" if USE_BITMAP_NEAR else ""
             sql = f"""
             WITH
             {("filter AS (SELECT value AS urn FROM json_each(?))," if use_filter else "")}
             combined AS (
                 SELECT u.book_id,
-                       post_near_count_groups(t.grp, u.post, {off_min}, {off_max}) AS c
+                       {func}(t.grp, u.post, {off_min}, {off_max}{extra_arg}) AS c
                 {from_clause.format(table=(req.schema or CONFIG.default_schema))}
                 JOIN term_cf t ON t.cf_id = u.cf_id
                 GROUP BY u.book_id
@@ -663,12 +669,14 @@ def near_fragments(req: NearFragmentsRequest):
                 from_clause = "FROM filter f JOIN {table} u ON u.book_id = f.urn"
             else:
                 from_clause = "FROM {table} u"
+            func = "post_near_positions_bitmap_groups" if USE_BITMAP_NEAR else "post_near_positions_groups"
+            extra_arg = f", {BITMAP_CHUNK_SIZE}" if USE_BITMAP_NEAR else ""
             sql = f"""
             WITH
             {("filter AS (SELECT value AS urn FROM json_each(?))," if use_filter else "")}
             combined AS (
                 SELECT u.book_id,
-                       post_near_positions_groups(t.grp, u.post, {off_min}, {off_max}) AS blob
+                       {func}(t.grp, u.post, {off_min}, {off_max}{extra_arg}) AS blob
                 {from_clause.format(table=(req.schema or CONFIG.default_schema))}
                 JOIN term_cf t ON t.cf_id = u.cf_id
                 GROUP BY u.book_id
