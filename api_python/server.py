@@ -15,6 +15,7 @@ from api_python.postings_queries import (
     fetch_window,
     get_cf_id,
     near_frequency,
+    sample_urns,
     sample_collocations,
     sample_concordance_near,
     sample_concordance_single,
@@ -53,6 +54,7 @@ class ConcordanceRequest(BaseModel):
     before: int = Field(5, ge=1, le=50)
     after: int = Field(5, ge=1, le=50)
     perBook: int = Field(3, ge=1, le=20)
+    docSamples: Optional[int] = Field(None, ge=0, le=50000)
     totalLimit: int = Field(200, ge=1, le=5000)
     schema: Optional[str] = None
     useFilter: bool = False
@@ -70,6 +72,7 @@ class NearFrequencyRequest(BaseModel):
     excludeSelf: bool = False
     useFilter: bool = False
     filterIds: List[int] = []
+    docSamples: Optional[int] = Field(None, ge=0, le=50000)
 
 
 class NearQueryRequest(BaseModel):
@@ -89,6 +92,7 @@ class NearFragmentsRequest(BaseModel):
     before: int = Field(5, ge=1, le=50)
     after: int = Field(5, ge=1, le=50)
     perBook: int = Field(3, ge=1, le=20)
+    docSamples: Optional[int] = Field(None, ge=0, le=50000)
     totalLimit: int = Field(200, ge=1, le=5000)
     schema: Optional[str] = None
     symmetric: bool = True
@@ -103,6 +107,7 @@ class CollocationsRequest(BaseModel):
     before: int = Field(5, ge=1, le=50)
     after: int = Field(5, ge=1, le=50)
     perBook: int = Field(3, ge=1, le=20)
+    docSamples: Optional[int] = Field(None, ge=0, le=50000)
     schema: Optional[str] = None
     useFilter: bool = False
     filterIds: List[int] = []
@@ -145,12 +150,20 @@ def concordance(req: ConcordanceRequest):
                 continue
             if not use_filter:
                 filter_ids = docpost_book_ids(cur, [[cf_a], [cf_b]])
-                if not filter_ids:
+                if filter_ids:
+                    use_filter = True
+                    filter_json = json.dumps(filter_ids)
+                else:
+                    sample_n = _resolve_doc_samples(req.docSamples, req.totalLimit, req.perBook)
+                    if sample_n > 0:
+                        filter_ids = sample_urns(cur, sample_n)
+                        if filter_ids:
+                            use_filter = True
+                            filter_json = json.dumps(filter_ids)
+                if filter_ids == []:
                     con.close()
                     conw.close()
                     continue
-                use_filter = True
-                filter_json = json.dumps(filter_ids)
             if req.symmetric:
                 off_min, off_max = -req.before, req.after
             else:
@@ -175,12 +188,20 @@ def concordance(req: ConcordanceRequest):
         else:
             if not use_filter:
                 filter_ids = docpost_book_ids(cur, [[cf_a]])
-                if not filter_ids:
+                if filter_ids:
+                    use_filter = True
+                    filter_json = json.dumps(filter_ids)
+                else:
+                    sample_n = _resolve_doc_samples(req.docSamples, req.totalLimit, req.perBook)
+                    if sample_n > 0:
+                        filter_ids = sample_urns(cur, sample_n)
+                        if filter_ids:
+                            use_filter = True
+                            filter_json = json.dumps(filter_ids)
+                if filter_ids == []:
                     con.close()
                     conw.close()
                     continue
-                use_filter = True
-                filter_json = json.dumps(filter_ids)
             rows.extend(
                 sample_concordance_single(
                     cur,
@@ -229,12 +250,20 @@ def near_freq(req: NearFrequencyRequest):
             continue
         if not use_filter:
             filter_ids = docpost_book_ids(cur, [[cf_a], [cf_b]])
-            if not filter_ids:
-                con.close()
-                conw.close()
-                continue
-            use_filter = True
-            filter_json = json.dumps(filter_ids)
+            if filter_ids:
+                use_filter = True
+                filter_json = json.dumps(filter_ids)
+            else:
+                sample_n = _resolve_doc_samples(req.docSamples, 0, 0)
+                if sample_n > 0:
+                    filter_ids = sample_urns(cur, sample_n)
+                    if filter_ids:
+                        use_filter = True
+                        filter_json = json.dumps(filter_ids)
+                if filter_ids == []:
+                    con.close()
+                    conw.close()
+                    continue
         found_any = True
         shard_total, shard_docs = near_frequency(
             cur,
@@ -374,6 +403,24 @@ def groups_sql(groups: List[List[int]], table: str, use_filter: bool) -> Tuple[s
     return ", ".join(ctes), select_sql, cols
 
 
+def _sample_book_target(total_limit: int, per_book: int) -> int:
+    if total_limit <= 0:
+        return 0
+    if per_book <= 0:
+        return total_limit
+    return max(1, (total_limit + per_book - 1) // per_book)
+
+
+def _resolve_doc_samples(
+    doc_samples: Optional[int],
+    total_limit: int,
+    per_book: int,
+) -> int:
+    if doc_samples is None:
+        return _sample_book_target(total_limit, per_book)
+    return int(doc_samples)
+
+
 @app.post("/near_query")
 def near_query(req: NearQueryRequest):
     if not req.terms or len(req.terms) < 2:
@@ -412,12 +459,20 @@ def near_query(req: NearQueryRequest):
             continue
         if not use_filter:
             filter_ids = docpost_book_ids(cur, groups)
-            if not filter_ids:
+            if filter_ids:
+                use_filter = True
+                filter_json = json.dumps(filter_ids)
+            else:
+                sample_n = _resolve_doc_samples(req.docSamples, req.totalLimit, req.perBook)
+                if sample_n > 0:
+                    filter_ids = sample_urns(cur, sample_n)
+                    if filter_ids:
+                        use_filter = True
+                        filter_json = json.dumps(filter_ids)
+            if filter_ids == []:
                 con.close()
                 conw.close()
                 continue
-            use_filter = True
-            filter_json = json.dumps(filter_ids)
         found_any = True
         prepare_term_cf_table(cur, groups)
 
@@ -497,12 +552,20 @@ def near_fragments(req: NearFragmentsRequest):
             continue
         if not use_filter:
             filter_ids = docpost_book_ids(cur, groups)
-            if not filter_ids:
+            if filter_ids:
+                use_filter = True
+                filter_json = json.dumps(filter_ids)
+            else:
+                sample_n = _resolve_doc_samples(req.docSamples, req.totalLimit, req.perBook)
+                if sample_n > 0:
+                    filter_ids = sample_urns(cur, sample_n)
+                    if filter_ids:
+                        use_filter = True
+                        filter_json = json.dumps(filter_ids)
+            if filter_ids == []:
                 con.close()
                 conw.close()
                 continue
-            use_filter = True
-            filter_json = json.dumps(filter_ids)
 
         prepare_term_cf_table(cur, groups)
         cte_sql, select_sql, _ = groups_sql(
@@ -520,31 +583,39 @@ def near_fragments(req: NearFragmentsRequest):
         for row in cur.execute(sql, params):
             book_id = row[0]
             blobs = row[1:]
-            # compute near positions from anchor (b1) to each other group
-            pos_sets: List[set] = []
+            # compute near positions blob from anchor (b1) to each other group
+            common_blob = None
             for idx in range(1, len(blobs)):
                 res = inner.execute(
-                    "SELECT post_near_positions(?, ?, ?, ?)",
+                    "SELECT post_near_positions_blob(?, ?, ?, ?)",
                     (blobs[0], blobs[idx], off_min, off_max),
                 ).fetchone()
-                positions = json.loads(res[0]) if res and res[0] else []
-                if not positions:
-                    pos_sets = []
+                if not res or res[0] is None:
+                    common_blob = None
                     break
-                pos_sets.append(set(int(p) for p in positions))
-            if not pos_sets:
-                continue
-            # intersect all position sets
-            common = pos_sets[0]
-            for s in pos_sets[1:]:
-                common = common.intersection(s)
-                if not common:
+                if common_blob is None:
+                    common_blob = res[0]
+                else:
+                    inter = inner.execute(
+                        "SELECT post_intersect_blob(?, ?)", (common_blob, res[0])
+                    ).fetchone()
+                    common_blob = inter[0] if inter else None
+                if not common_blob:
                     break
-            if not common:
+            if not common_blob:
                 continue
-            samples = min(req.perBook, len(common))
-            for pos in list(common)[:samples]:
-                frag = fetch_window(cur, curw, book_id, int(pos), req.before, req.after)
+            cnt_row = inner.execute("SELECT post_count(?)", (common_blob,)).fetchone()
+            total = int(cnt_row[0] or 0) if cnt_row else 0
+            if total <= 0:
+                continue
+            samples = min(req.perBook, total)
+            indices = random.sample(range(total), samples)
+            for idx in indices:
+                pos_row = inner.execute("SELECT post_sample(?, ?)", (common_blob, idx)).fetchone()
+                if pos_row is None or pos_row[0] is None:
+                    continue
+                pos = int(pos_row[0])
+                frag = fetch_window(cur, curw, book_id, pos, req.before, req.after)
                 rows.append({"bookId": book_id, "pos": int(pos), "frag": frag})
                 if req.totalLimit and len(rows) >= req.totalLimit:
                     break
@@ -582,12 +653,20 @@ def collocations(req: CollocationsRequest):
             continue
         if not use_filter:
             filter_ids = docpost_book_ids(cur, [[cf_id]])
-            if not filter_ids:
+            if filter_ids:
+                use_filter = True
+                filter_json = json.dumps(filter_ids)
+            else:
+                sample_n = _resolve_doc_samples(req.docSamples, 50, req.perBook)
+                if sample_n > 0:
+                    filter_ids = sample_urns(cur, sample_n)
+                    if filter_ids:
+                        use_filter = True
+                        filter_json = json.dumps(filter_ids)
+            if filter_ids == []:
                 con.close()
                 conw.close()
                 continue
-            use_filter = True
-            filter_json = json.dumps(filter_ids)
         found_any = True
         counts = sample_collocations(
             cur,

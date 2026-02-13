@@ -61,6 +61,7 @@ def _docpost_union_blob(cur: sqlite3.Cursor, cf_ids: List[int]) -> Optional[byte
             SELECT post_union_agg(docpost)
             FROM words
             WHERE cf_id IN ({placeholders})
+              AND docpost_is_complement = 0
             """,
             cf_ids,
         ).fetchone()
@@ -84,21 +85,70 @@ def _intersect_blobs(cur: sqlite3.Cursor, blobs: List[bytes]) -> Optional[bytes]
     return out
 
 
-def docpost_book_ids(cur: sqlite3.Cursor, cf_groups: List[List[int]]) -> List[int]:
+def docpost_book_ids(cur: sqlite3.Cursor, cf_groups: List[List[int]]) -> Optional[List[int]]:
     if not cf_groups:
         return []
     blobs: List[bytes] = []
     for group in cf_groups:
         blob = _docpost_union_blob(cur, group)
         if not blob:
-            return []
+            continue
         blobs.append(blob)
+    if not blobs:
+        return None
     inter = _intersect_blobs(cur, blobs)
     if not inter:
         return []
     row = cur.execute("SELECT post_positions(?)", (inter,)).fetchone()
     positions = json.loads(row[0]) if row and row[0] else []
     return [int(p) for p in positions]
+
+
+def docpost_sample_book_ids(
+    cur: sqlite3.Cursor,
+    cf_groups: List[List[int]],
+    sample_n: int,
+    seed: int = 0,
+) -> Tuple[List[int], int]:
+    if not cf_groups:
+        return [], 0
+    blobs: List[bytes] = []
+    for group in cf_groups:
+        blob = _docpost_union_blob(cur, group)
+        if not blob:
+            continue
+        blobs.append(blob)
+    if not blobs:
+        return [], -1
+    inter = _intersect_blobs(cur, blobs)
+    if not inter:
+        return [], 0
+    row = cur.execute("SELECT post_count(?)", (inter,)).fetchone()
+    total = int(row[0] or 0) if row else 0
+    if total <= 0:
+        return [], 0
+    n = min(sample_n, total)
+    rng = random.Random(seed)
+    if n == total:
+        indices = list(range(total))
+    else:
+        indices = rng.sample(range(total), n)
+    out: List[int] = []
+    for idx in indices:
+        row = cur.execute("SELECT post_sample(?, ?)", (inter, idx)).fetchone()
+        if row is None or row[0] is None:
+            continue
+        out.append(int(row[0]))
+    return out, total
+
+
+def sample_urns(cur: sqlite3.Cursor, n: int) -> List[int]:
+    if n <= 0:
+        return []
+    rows = cur.execute(
+        "SELECT book_id FROM urns ORDER BY random() LIMIT ?", (n,)
+    ).fetchall()
+    return [int(r[0]) for r in rows]
 
 
 def raw_words(curw: sqlite3.Cursor, raw_ids: Iterable[int]) -> Dict[int, str]:
@@ -216,21 +266,28 @@ def sample_concordance_near(
     for book_id, post_a, post_b in cur.execute(sql, params):
         if exclude_self and cf_a == cf_b and off_min == 0 and off_max == 0:
             row = inner.execute(
-                "SELECT post_near_positions(?, ?, ?, ?)", (post_a, post_b, 1, 1)
+                "SELECT post_near_positions_blob(?, ?, ?, ?)", (post_a, post_b, 1, 1)
             ).fetchone()
         else:
             row = inner.execute(
-                "SELECT post_near_positions(?, ?, ?, ?)",
+                "SELECT post_near_positions_blob(?, ?, ?, ?)",
                 (post_a, post_b, off_min, off_max),
             ).fetchone()
-        if row is None:
+        if row is None or row[0] is None:
             continue
-        positions = json.loads(row[0]) if row[0] else []
-        if not positions:
+        blob = row[0]
+        cnt_row = inner.execute("SELECT post_count(?)", (blob,)).fetchone()
+        total = int(cnt_row[0] or 0) if cnt_row else 0
+        if total <= 0:
             continue
-        samples = min(per_book, len(positions))
-        for pos in random.sample(positions, samples):
-            frag = fetch_window(cur, curw, book_id, int(pos), before, after)
+        samples = min(per_book, total)
+        indices = random.sample(range(total), samples)
+        for idx in indices:
+            pos_row = inner.execute("SELECT post_sample(?, ?)", (blob, idx)).fetchone()
+            if pos_row is None or pos_row[0] is None:
+                continue
+            pos = int(pos_row[0])
+            frag = fetch_window(cur, curw, book_id, pos, before, after)
             out.append((book_id, int(pos), frag))
     return out
 

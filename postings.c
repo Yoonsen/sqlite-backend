@@ -465,6 +465,38 @@ static void post_union_sqlite(
     sqlite3_result_blob(ctx, out, out_len, sqlite3_free);
 }
 
+/*
+ * post_count(blob)
+ *  - returnerer antall postings i blobben
+ */
+static void post_count_sqlite(
+    sqlite3_context *ctx,
+    int argc,
+    sqlite3_value **argv
+) {
+    if (argc != 1) {
+        sqlite3_result_error(ctx, "post_count(blob) expects 1 arg", -1);
+        return;
+    }
+    const unsigned char *a = sqlite3_value_blob(argv[0]);
+    int a_len = sqlite3_value_bytes(argv[0]);
+    if (!a || a_len <= 0) {
+        sqlite3_result_int64(ctx, 0);
+        return;
+    }
+
+    const uint8_t *p = a;
+    const uint8_t *end = a + a_len;
+    uint64_t acc = 0;
+    sqlite3_int64 count = 0;
+    while (p < end) {
+        uint64_t delta = read_varint(&p, end);
+        acc += delta;
+        count++;
+    }
+    sqlite3_result_int64(ctx, count);
+}
+
 typedef struct {
     unsigned char *blob;
     int len;
@@ -1056,6 +1088,65 @@ static void post_near_positions_sqlite(
 }
 
 /*
+ * post_near_positions_blob(blobA, blobB, off_min, off_max)
+ *  - returnerer posisjoner i A der det finnes en B innenfor [off_min, off_max]
+ *    som delta/varint-BLOB
+ */
+static void post_near_positions_blob_sqlite(
+    sqlite3_context *ctx,
+    int argc,
+    sqlite3_value **argv
+) {
+    if (argc != 4) {
+        sqlite3_result_error(ctx, "post_near_positions_blob(blob, blob, off_min, off_max) expects 4 args", -1);
+        return;
+    }
+
+    const unsigned char *a = sqlite3_value_blob(argv[0]);
+    const unsigned char *b = sqlite3_value_blob(argv[1]);
+    int a_len = sqlite3_value_bytes(argv[0]);
+    int b_len = sqlite3_value_bytes(argv[1]);
+    int off_min = sqlite3_value_int(argv[2]);
+    int off_max = sqlite3_value_int(argv[3]);
+
+    if (!a || !b || a_len <= 0 || b_len <= 0) {
+        sqlite3_result_blob(ctx, "", 0, SQLITE_STATIC);
+        return;
+    }
+
+    const uint8_t *pa = a, *pb = b;
+    const uint8_t *ea = a + a_len, *eb = b + b_len;
+    uint64_t acc_a = 0, acc_b = 0;
+    int has_a = next_seq(&pa, ea, &acc_a);
+    int has_b = next_seq(&pb, eb, &acc_b);
+
+    unsigned char *out = NULL;
+    int out_len = 0;
+    int out_cap = 0;
+    uint64_t last_out = 0;
+
+    while (has_a && has_b) {
+        int64_t diff = (int64_t)acc_b - (int64_t)acc_a;
+        if (diff < off_min) {
+            has_b = next_seq(&pb, eb, &acc_b);
+        } else if (diff > off_max) {
+            has_a = next_seq(&pa, ea, &acc_a);
+        } else {
+            uint64_t delta = acc_a - last_out;
+            if (!append_varint_bytes(delta, &out, &out_len, &out_cap)) {
+                sqlite3_free(out);
+                sqlite3_result_error(ctx, "post_near_positions_blob: OOM", -1);
+                return;
+            }
+            last_out = acc_a;
+            has_a = next_seq(&pa, ea, &acc_a);
+        }
+    }
+
+    sqlite3_result_blob(ctx, out, out_len, sqlite3_free);
+}
+
+/*
  * post_near_count(blobA, blobB, off_min, off_max)
  *  - returnerer antall posisjoner i A der det finnes en B innenfor [off_min, off_max]
  */
@@ -1169,6 +1260,13 @@ int sqlite3_postings_init(
     if (rc != SQLITE_OK) return rc;
 
     rc = sqlite3_create_function(
+        db, "post_near_positions_blob", 4,
+        SQLITE_UTF8 | SQLITE_DETERMINISTIC,
+        NULL, post_near_positions_blob_sqlite, NULL, NULL
+    );
+    if (rc != SQLITE_OK) return rc;
+
+    rc = sqlite3_create_function(
         db, "post_near_count", 4,
         SQLITE_UTF8 | SQLITE_DETERMINISTIC,
         NULL, post_near_count_sqlite, NULL, NULL
@@ -1179,6 +1277,13 @@ int sqlite3_postings_init(
         db, "post_union", 2,
         SQLITE_UTF8 | SQLITE_DETERMINISTIC,
         NULL, post_union_sqlite, NULL, NULL
+    );
+    if (rc != SQLITE_OK) return rc;
+
+    rc = sqlite3_create_function(
+        db, "post_count", 1,
+        SQLITE_UTF8 | SQLITE_DETERMINISTIC,
+        NULL, post_count_sqlite, NULL, NULL
     );
     if (rc != SQLITE_OK) return rc;
 

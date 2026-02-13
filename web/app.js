@@ -112,10 +112,13 @@ document.getElementById("loadCorpusBtn").addEventListener("click", async () => {
 });
 
 function getCommonPayload() {
+  const docSamplesRaw = document.getElementById("docSamples").value.trim();
+  const docSamples = docSamplesRaw.length ? Number(docSamplesRaw) : null;
   return {
     schema: document.getElementById("schema").value.trim() || "unigrams",
     useFilter: document.getElementById("useFilter").checked,
     filterIds: parseFilterIds(),
+    docSamples: Number.isFinite(docSamples) ? docSamples : null,
   };
 }
 
