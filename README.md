@@ -1,10 +1,36 @@
 ## sqlite-backend
 
-Utilities for building postings shards and running a Streamlit demo.
+Postings-based SQLite backend for concordance and near search, with a FastAPI service and a simple JS UI.
+See `DATABASE_MODEL.md` for the model and `report.md` for design notes.
 
-### REST backends (Python + Julia) and JS UI
+## Quick start (Docker)
 
-Configuration is shared via `POSTINGS_CONFIG` pointing to a JSON file. Example:
+Build and push:
+
+```bash
+./docker_publish.sh
+```
+
+Run (mount shards + config + output `.so`):
+
+```bash
+docker run --rm -p 8000:8000 \
+  -e POSTINGS_CONFIG=/data/dhlab/larsj/postings/config.json \
+  -e POSTINGS_SO_PATH=/data/dhlab/larsj/postings/postings_native.so \
+  -v /data/dhlab/larsj/postings:/data/dhlab/larsj/postings \
+  harbor.nb.no/sprakbanken/postings-api:latest
+```
+
+Optional bitmap near (2-group and 3-group fragments):
+
+```bash
+-e POSTINGS_BITMAP_NEAR=1
+-e POSTINGS_BITMAP_CHUNK=4096
+```
+
+## Configuration
+
+`POSTINGS_CONFIG` points to a JSON file:
 
 ```json
 {
@@ -20,7 +46,7 @@ Configuration is shared via `POSTINGS_CONFIG` pointing to a JSON file. Example:
 
 Set `words_db` to an empty string to use per-shard `words` embedded in each postings DB.
 
-#### Python backend
+## Python backend (local)
 
 ```bash
 export POSTINGS_CONFIG=/path/to/config.json
@@ -28,60 +54,42 @@ pip install -r api_python/requirements.txt
 uvicorn api_python.server:app --host 0.0.0.0 --port 8000
 ```
 
-#### Docker (Python backend, compile postings at startup)
-
-Build:
-
-```bash
-docker build -t postings-api .
-```
-
-Run (mount shards + config + output `.so`):
-
-```bash
-docker run --rm -p 8000:8000 \
-  -e POSTINGS_CONFIG=/data/dhlab/larsj/postings/config.json \
-  -e POSTINGS_SO_PATH=/data/dhlab/larsj/postings/postings_native.so \
-  -v /data/dhlab/larsj/postings:/data/dhlab/larsj/postings \
-  postings-api
-```
-
-#### Julia backend
-
-```bash
-export POSTINGS_CONFIG=/path/to/config.json
-julia --project=api_julia -e 'using Pkg; Pkg.instantiate()'
-julia --project=api_julia api_julia/server.jl
-```
-
-#### Vanilla JS UI
-
-Open `web/index.html` in a browser and point it to the backend base URL.
-
-#### API endpoints
+## API endpoints
 
 - `GET /health`
 - `POST /concordance`
 - `POST /near_frequency`
-- `POST /near_query` (multi-term + prefix *)
-- `POST /near_fragments` (multi-term + prefix *, returns fragments)
+- `POST /near_query`
+- `POST /near_fragments`
 - `POST /collocations`
 
-### Streamlit demo
+### CNF term groups (OR groups)
 
-Run from the repo root (update paths in the sidebar if needed):
+For multi-term near, you can send `termGroups` (CNF-style):
 
-```bash
-streamlit run streamlit_app.py
+```json
+{
+  "termGroups": [["spise","spiser"], ["middag"]],
+  "window": 5,
+  "before": 5,
+  "after": 5,
+  "perBook": 2,
+  "totalLimit": 100
+}
 ```
 
-Notes:
-- Use a **postings DB** that has `tokens`, `unigrams`, `urns`.
-- Use the matching **words DB** (separate file).
-- Provide the correct `.so` path (often `postings_native.so`).
-- `.so` binaries are architecture-specific; recompile per machine.
+If `termGroups` is omitted, the API uses `terms` as single-item groups.
 
-### Build a shard
+## JS UI
+
+Open `web/index.html` and set the backend base URL.
+
+## Utilities
+
+- `sql/test_concordance_samples.sql`: small concordance sampling SQL.
+- `sql/benchmark_bitmap_near.sql`: benchmark bitmap near UDF.
+
+## Build a shard
 
 ```bash
 python build_imagination_shard.py \
@@ -103,31 +111,11 @@ python build_imagination_shard.py \
   --batch 20000 --max-tokens 500000000
 ```
 
-### Split a shard
-
-Split by max tokens or by max books:
+## Split a shard
 
 ```bash
 python split_shard.py \
   --src /data/db/imagination_postings.db \
   --dst-prefix /data/shards/imagination_part \
   --max-tokens 500000000
-```
-
-### Parallel build (no GNU parallel)
-
-```bash
-mkdir -p /data/parts /data/shards
-split -l 4000 -d --additional-suffix=.csv /home/larsj/imagination_build/imagination_urns_1814_1905.csv /data/parts/imag_
-
-ls /data/parts/imag_*.csv | xargs -P 4 -I {} bash -c '
-f="$1"
-base=$(basename "$f" .csv)
-python /home/larsj/imagination_build/build_imagination_shard.py \
-  --csv "$f" \
-  --src-root /data/db/ft \
-  --dst "/data/shards/${base}_postings.db" \
-  --words-db "/data/shards/${base}_words.db" \
-  --batch 20000 --max-tokens 500000000
-' _ {}
 ```
