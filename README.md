@@ -21,12 +21,16 @@ docker run --rm -p 8000:8000 \
   harbor.nb.no/sprakbanken/postings-api:latest
 ```
 
-Optional bitmap near (2-group and 3-group fragments):
+Optional bitmap near (generalized near path, `len(groups) >= 2`):
 
 ```bash
 -e POSTINGS_BITMAP_NEAR=1
 -e POSTINGS_BITMAP_CHUNK=4096
 ```
+
+With bitmap enabled and the matching extension loaded, both `/near_query` and `/near_fragments`
+use bitmap-based near-position blobs for all multi-group queries (anchor group against all other groups),
+then intersect the resulting blobs to enforce full-group near constraints.
 
 ## Configuration
 
@@ -61,6 +65,7 @@ uvicorn api_python.server:app --host 0.0.0.0 --port 8000
 - `POST /near_frequency`
 - `POST /near_query`
 - `POST /near_fragments`
+- `POST /or_query`
 - `POST /collocations`
 
 ### CNF term groups (OR groups)
@@ -79,6 +84,21 @@ For multi-term near, you can send `termGroups` (CNF-style):
 ```
 
 If `termGroups` is omitted, the API uses `terms` as single-item groups.
+
+### OR query
+
+`/or_query` supports generic union search over terms or OR groups:
+
+```json
+{
+  "termGroups": [["a","b","c"]],
+  "before": 5,
+  "after": 5,
+  "perBook": 3,
+  "docSamples": 10,
+  "totalLimit": 200
+}
+```
 
 ## JS UI
 

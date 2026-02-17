@@ -526,6 +526,19 @@ typedef struct {
     int chunk_size;
 } near_groups_ctx;
 
+typedef struct {
+    unsigned char ***blobs;
+    int **lens;
+    int *count;
+    int *cap;
+    int groups_cap;
+    int max_grp;
+    int off_min;
+    int off_max;
+    int has_offsets;
+    int chunk_size;
+} near_multi_ctx;
+
 static int append_blob_group(
     unsigned char ***blobs,
     int **lens,
@@ -651,6 +664,59 @@ static int group_next(blob_iter *iters, int n, uint64_t *out) {
         }
     }
     return 1;
+}
+
+static int ensure_multi_group_capacity(near_multi_ctx *st, int grp) {
+    if (grp < st->groups_cap) return 1;
+    int new_cap = st->groups_cap ? st->groups_cap : 8;
+    while (new_cap <= grp) new_cap *= 2;
+
+    unsigned char ***new_blobs = sqlite3_malloc((size_t)new_cap * sizeof(*new_blobs));
+    int **new_lens = sqlite3_malloc((size_t)new_cap * sizeof(*new_lens));
+    int *new_count = sqlite3_malloc((size_t)new_cap * sizeof(*new_count));
+    int *new_cap_arr = sqlite3_malloc((size_t)new_cap * sizeof(*new_cap_arr));
+    if (!new_blobs || !new_lens || !new_count || !new_cap_arr) {
+        sqlite3_free(new_blobs);
+        sqlite3_free(new_lens);
+        sqlite3_free(new_count);
+        sqlite3_free(new_cap_arr);
+        return 0;
+    }
+    for (int i = 0; i < new_cap; i++) {
+        new_blobs[i] = NULL;
+        new_lens[i] = NULL;
+        new_count[i] = 0;
+        new_cap_arr[i] = 0;
+    }
+    for (int i = 0; i < st->groups_cap; i++) {
+        new_blobs[i] = st->blobs[i];
+        new_lens[i] = st->lens[i];
+        new_count[i] = st->count[i];
+        new_cap_arr[i] = st->cap[i];
+    }
+    sqlite3_free(st->blobs);
+    sqlite3_free(st->lens);
+    sqlite3_free(st->count);
+    sqlite3_free(st->cap);
+    st->blobs = new_blobs;
+    st->lens = new_lens;
+    st->count = new_count;
+    st->cap = new_cap_arr;
+    st->groups_cap = new_cap;
+    return 1;
+}
+
+static void free_multi_groups(near_multi_ctx *st) {
+    if (!st || !st->blobs) return;
+    for (int g = 0; g <= st->max_grp && g < st->groups_cap; g++) {
+        if (st->count[g] > 0 || st->blobs[g] || st->lens[g]) {
+            free_group_arrays(st->blobs[g], st->count[g], st->lens[g]);
+        }
+        st->blobs[g] = NULL;
+        st->lens[g] = NULL;
+        st->count[g] = 0;
+        st->cap[g] = 0;
+    }
 }
 
 static void post_union_agg_step(
@@ -1100,6 +1166,432 @@ static int run_bitmap_near(
         *out_len = out_len_local;
     }
     return 1;
+}
+
+typedef struct {
+    int grp;
+    blob_iter *iters;
+    int n_iters;
+    int has_b;
+    uint64_t b_pos;
+    uint64_t *bits_prev;
+    uint64_t *bits_curr;
+    uint64_t *bits_next;
+    int64_t prev_idx;
+    int64_t curr_idx;
+    int64_t next_idx;
+} multi_group_state;
+
+static int init_multi_group_state(
+    multi_group_state *gs,
+    near_multi_ctx *st,
+    int grp,
+    int words,
+    int chunk_size,
+    int64_t anchor_idx
+) {
+    gs->grp = grp;
+    gs->n_iters = st->count[grp];
+    gs->iters = sqlite3_malloc(sizeof(*gs->iters) * gs->n_iters);
+    gs->bits_prev = sqlite3_malloc(sizeof(uint64_t) * words);
+    gs->bits_curr = sqlite3_malloc(sizeof(uint64_t) * words);
+    gs->bits_next = sqlite3_malloc(sizeof(uint64_t) * words);
+    if (!gs->iters || !gs->bits_prev || !gs->bits_curr || !gs->bits_next) {
+        sqlite3_free(gs->iters);
+        sqlite3_free(gs->bits_prev);
+        sqlite3_free(gs->bits_curr);
+        sqlite3_free(gs->bits_next);
+        gs->iters = NULL;
+        gs->bits_prev = gs->bits_curr = gs->bits_next = NULL;
+        return 0;
+    }
+    for (int i = 0; i < gs->n_iters; i++) {
+        gs->iters[i].ptr = st->blobs[grp][i];
+        gs->iters[i].end = st->blobs[grp][i] + st->lens[grp][i];
+        gs->iters[i].acc = 0;
+        gs->iters[i].active = next_seq(&gs->iters[i].ptr, gs->iters[i].end, &gs->iters[i].acc);
+    }
+    gs->has_b = group_next(gs->iters, gs->n_iters, &gs->b_pos);
+    gs->curr_idx = anchor_idx;
+    gs->prev_idx = anchor_idx - 1;
+    gs->next_idx = anchor_idx + 1;
+    clear_bits(gs->bits_prev, words);
+    clear_bits(gs->bits_curr, words);
+    clear_bits(gs->bits_next, words);
+
+    if (gs->prev_idx >= 0) {
+        uint64_t prev_start = (uint64_t)gs->prev_idx * (uint64_t)chunk_size;
+        uint64_t prev_end = prev_start + (uint64_t)chunk_size - 1;
+        while (gs->has_b && gs->b_pos <= prev_end) {
+            if (gs->b_pos >= prev_start) set_bit(gs->bits_prev, prev_start, gs->b_pos);
+            gs->has_b = group_next(gs->iters, gs->n_iters, &gs->b_pos);
+        }
+    }
+    {
+        uint64_t curr_start = (uint64_t)gs->curr_idx * (uint64_t)chunk_size;
+        uint64_t curr_end = curr_start + (uint64_t)chunk_size - 1;
+        while (gs->has_b && gs->b_pos <= curr_end) {
+            if (gs->b_pos >= curr_start) set_bit(gs->bits_curr, curr_start, gs->b_pos);
+            gs->has_b = group_next(gs->iters, gs->n_iters, &gs->b_pos);
+        }
+    }
+    {
+        uint64_t next_start = (uint64_t)gs->next_idx * (uint64_t)chunk_size;
+        uint64_t next_end = next_start + (uint64_t)chunk_size - 1;
+        while (gs->has_b && gs->b_pos <= next_end) {
+            if (gs->b_pos >= next_start) set_bit(gs->bits_next, next_start, gs->b_pos);
+            gs->has_b = group_next(gs->iters, gs->n_iters, &gs->b_pos);
+        }
+    }
+    return 1;
+}
+
+static void free_multi_group_state(multi_group_state *gs) {
+    sqlite3_free(gs->iters);
+    sqlite3_free(gs->bits_prev);
+    sqlite3_free(gs->bits_curr);
+    sqlite3_free(gs->bits_next);
+    gs->iters = NULL;
+    gs->bits_prev = gs->bits_curr = gs->bits_next = NULL;
+}
+
+static void rotate_multi_group_state(multi_group_state *gs, int64_t target_idx, int words, int chunk_size) {
+    while (target_idx > gs->curr_idx) {
+        uint64_t *tmp = gs->bits_prev;
+        gs->bits_prev = gs->bits_curr;
+        gs->bits_curr = gs->bits_next;
+        gs->bits_next = tmp;
+        gs->prev_idx = gs->curr_idx;
+        gs->curr_idx = gs->next_idx;
+        gs->next_idx = gs->curr_idx + 1;
+        clear_bits(gs->bits_next, words);
+        uint64_t next_start = (uint64_t)gs->next_idx * (uint64_t)chunk_size;
+        uint64_t next_end = next_start + (uint64_t)chunk_size - 1;
+        while (gs->has_b && gs->b_pos <= next_end) {
+            if (gs->b_pos >= next_start) set_bit(gs->bits_next, next_start, gs->b_pos);
+            gs->has_b = group_next(gs->iters, gs->n_iters, &gs->b_pos);
+        }
+    }
+}
+
+static int group_hit_in_window(
+    multi_group_state *gs,
+    int words,
+    int chunk_size,
+    int64_t start,
+    int64_t end
+) {
+    if (end < start || end < 0) return 0;
+    uint64_t curr_start = (uint64_t)gs->curr_idx * (uint64_t)chunk_size;
+    uint64_t curr_end = curr_start + (uint64_t)chunk_size - 1;
+    int hit = 0;
+    if (gs->prev_idx >= 0) {
+        uint64_t prev_start = curr_start - (uint64_t)chunk_size;
+        uint64_t prev_end = curr_start - 1;
+        hit = range_has_bits(gs->bits_prev, prev_start, prev_end, words, start, end);
+    }
+    if (!hit) {
+        hit = range_has_bits(gs->bits_curr, curr_start, curr_end, words, start, end);
+    }
+    if (!hit) {
+        uint64_t next_start = curr_end + 1;
+        uint64_t next_end = next_start + (uint64_t)chunk_size - 1;
+        hit = range_has_bits(gs->bits_next, next_start, next_end, words, start, end);
+    }
+    return hit;
+}
+
+static int any_bits_set(const uint64_t *bits, int words) {
+    for (int i = 0; i < words; i++) {
+        if (bits[i]) return 1;
+    }
+    return 0;
+}
+
+static void build_anchor_hit_mask_for_group(
+    const multi_group_state *gs,
+    int words,
+    int chunk_size,
+    int off_min,
+    int off_max,
+    uint64_t *out_bits
+) {
+    clear_bits(out_bits, words);
+    uint64_t curr_start = (uint64_t)gs->curr_idx * (uint64_t)chunk_size;
+    uint64_t curr_end = curr_start + (uint64_t)chunk_size - 1;
+
+    const uint64_t *src_bits[3] = { gs->bits_prev, gs->bits_curr, gs->bits_next };
+    uint64_t src_start[3] = {
+        curr_start - (uint64_t)chunk_size,
+        curr_start,
+        curr_start + (uint64_t)chunk_size
+    };
+    for (int si = 0; si < 3; si++) {
+        if (si == 0 && gs->prev_idx < 0) continue;
+        const uint64_t *bits = src_bits[si];
+        uint64_t base = src_start[si];
+        for (int wi = 0; wi < words; wi++) {
+            uint64_t w = bits[wi];
+            while (w) {
+                int bit = __builtin_ctzll(w);
+                uint64_t q = base + ((uint64_t)wi << 6) + (uint64_t)bit;
+                for (int d = off_min; d <= off_max; d++) {
+                    int64_t p = (int64_t)q - (int64_t)d;
+                    if (p >= (int64_t)curr_start && p <= (int64_t)curr_end) {
+                        set_bit(out_bits, curr_start, (uint64_t)p);
+                    }
+                }
+                w &= (w - 1);
+            }
+        }
+    }
+}
+
+static int run_multi_bitmap_near(
+    near_multi_ctx *st,
+    int want_positions,
+    unsigned char **out_blob,
+    int *out_len
+) {
+    *out_blob = NULL;
+    *out_len = 0;
+    if (!st || st->groups_cap <= 1 || st->max_grp < 2) return 1;
+    if (st->count[1] <= 0) return 1;
+
+    int groups_n = 0;
+    for (int g = 1; g <= st->max_grp; g++) {
+        if (g < st->groups_cap && st->count[g] > 0) groups_n++;
+    }
+    if (groups_n < 2) return 1;
+
+    int chunk_size = st->chunk_size > 0 ? st->chunk_size : 4096;
+    if (chunk_size % 64 != 0) chunk_size = ((chunk_size + 63) / 64) * 64;
+    int words = chunk_size / 64;
+
+    blob_iter *anchor_iters = sqlite3_malloc(sizeof(*anchor_iters) * st->count[1]);
+    if (!anchor_iters) return 0;
+    for (int i = 0; i < st->count[1]; i++) {
+        anchor_iters[i].ptr = st->blobs[1][i];
+        anchor_iters[i].end = st->blobs[1][i] + st->lens[1][i];
+        anchor_iters[i].acc = 0;
+        anchor_iters[i].active = next_seq(&anchor_iters[i].ptr, anchor_iters[i].end, &anchor_iters[i].acc);
+    }
+    uint64_t a_pos = 0;
+    int has_a = group_next(anchor_iters, st->count[1], &a_pos);
+    if (!has_a) {
+        sqlite3_free(anchor_iters);
+        return 1;
+    }
+
+    multi_group_state *states = sqlite3_malloc(sizeof(*states) * (st->max_grp + 1));
+    if (!states) {
+        sqlite3_free(anchor_iters);
+        return 0;
+    }
+    memset(states, 0, sizeof(*states) * (st->max_grp + 1));
+    int64_t anchor_idx = (int64_t)(a_pos / (uint64_t)chunk_size);
+    for (int g = 1; g <= st->max_grp; g++) {
+        if (g >= st->groups_cap || st->count[g] <= 0) continue;
+        if (!init_multi_group_state(&states[g], st, g, words, chunk_size, anchor_idx)) {
+            for (int k = 1; k <= st->max_grp; k++) {
+                if (k < st->groups_cap && st->count[k] > 0) free_multi_group_state(&states[k]);
+            }
+            sqlite3_free(states);
+            sqlite3_free(anchor_iters);
+            return 0;
+        }
+    }
+
+    uint64_t *combined = sqlite3_malloc(sizeof(uint64_t) * words);
+    uint64_t *hits = sqlite3_malloc(sizeof(uint64_t) * words);
+    if (!combined || !hits) {
+        sqlite3_free(combined);
+        sqlite3_free(hits);
+        for (int k = 1; k <= st->max_grp; k++) {
+            if (k < st->groups_cap && st->count[k] > 0) free_multi_group_state(&states[k]);
+        }
+        sqlite3_free(states);
+        sqlite3_free(anchor_iters);
+        return 0;
+    }
+
+    unsigned char *out = NULL;
+    int out_len_local = 0;
+    int out_cap = 0;
+    uint64_t last_out = 0;
+    int has_out = 0;
+    int count = 0;
+
+    int64_t chunk_idx = anchor_idx;
+    while (1) {
+        for (int g = 1; g <= st->max_grp; g++) {
+            if (g < st->groups_cap && st->count[g] > 0) {
+                rotate_multi_group_state(&states[g], chunk_idx, words, chunk_size);
+            }
+        }
+        multi_group_state *anchor = &states[1];
+        if (!any_bits_set(anchor->bits_curr, words)) {
+            if (!anchor->has_b && !any_bits_set(anchor->bits_next, words)) break;
+            chunk_idx++;
+            continue;
+        }
+
+        memcpy(combined, anchor->bits_curr, sizeof(uint64_t) * words);
+        for (int g = 2; g <= st->max_grp; g++) {
+            if (g >= st->groups_cap || st->count[g] <= 0) continue;
+            build_anchor_hit_mask_for_group(&states[g], words, chunk_size, st->off_min, st->off_max, hits);
+            for (int wi = 0; wi < words; wi++) combined[wi] &= hits[wi];
+        }
+
+        if (any_bits_set(combined, words)) {
+            if (!want_positions) {
+                for (int wi = 0; wi < words; wi++) {
+                    count += __builtin_popcountll(combined[wi]);
+                }
+            } else {
+                uint64_t chunk_start = (uint64_t)chunk_idx * (uint64_t)chunk_size;
+                for (int wi = 0; wi < words; wi++) {
+                    uint64_t w = combined[wi];
+                    while (w) {
+                        int bit = __builtin_ctzll(w);
+                        uint64_t pos = chunk_start + ((uint64_t)wi << 6) + (uint64_t)bit;
+                        uint64_t delta = has_out ? (pos - last_out) : pos;
+                        if (!append_varint_bytes(delta, &out, &out_len_local, &out_cap)) {
+                            sqlite3_free(out);
+                            sqlite3_free(combined);
+                            sqlite3_free(hits);
+                            for (int k = 1; k <= st->max_grp; k++) {
+                                if (k < st->groups_cap && st->count[k] > 0) free_multi_group_state(&states[k]);
+                            }
+                            sqlite3_free(states);
+                            sqlite3_free(anchor_iters);
+                            return 0;
+                        }
+                        count++;
+                        last_out = pos;
+                        has_out = 1;
+                        w &= (w - 1);
+                    }
+                }
+            }
+        }
+        chunk_idx++;
+    }
+
+    sqlite3_free(combined);
+    sqlite3_free(hits);
+    for (int k = 1; k <= st->max_grp; k++) {
+        if (k < st->groups_cap && st->count[k] > 0) free_multi_group_state(&states[k]);
+    }
+    sqlite3_free(states);
+    sqlite3_free(anchor_iters);
+    if (!want_positions) {
+        *out_blob = NULL;
+        *out_len = count;
+    } else {
+        *out_blob = out;
+        *out_len = out_len_local;
+    }
+    return 1;
+}
+
+static void post_near_count_bitmap_multi_groups_step(
+    sqlite3_context *ctx,
+    int argc,
+    sqlite3_value **argv
+) {
+    if (argc != 5) {
+        sqlite3_result_error(ctx, "post_near_count_bitmap_multi_groups(grp, blob, off_min, off_max, chunk_size) expects 5 args", -1);
+        return;
+    }
+    int grp = sqlite3_value_int(argv[0]);
+    const unsigned char *b = sqlite3_value_blob(argv[1]);
+    int b_len = sqlite3_value_bytes(argv[1]);
+    int off_min = sqlite3_value_int(argv[2]);
+    int off_max = sqlite3_value_int(argv[3]);
+    int chunk_size = sqlite3_value_int(argv[4]);
+    if (grp < 1 || !b || b_len <= 0) return;
+
+    near_multi_ctx *st = sqlite3_aggregate_context(ctx, sizeof(*st));
+    if (!st) {
+        sqlite3_result_error(ctx, "post_near_count_bitmap_multi_groups: OOM", -1);
+        return;
+    }
+    if (!st->has_offsets) {
+        st->off_min = off_min;
+        st->off_max = off_max;
+        st->chunk_size = chunk_size;
+        st->has_offsets = 1;
+    }
+    if (!ensure_multi_group_capacity(st, grp)) {
+        sqlite3_result_error(ctx, "post_near_count_bitmap_multi_groups: OOM", -1);
+        return;
+    }
+    if (!append_blob_group(&st->blobs[grp], &st->lens[grp], &st->count[grp], &st->cap[grp], b, b_len)) {
+        sqlite3_result_error(ctx, "post_near_count_bitmap_multi_groups: OOM", -1);
+        return;
+    }
+    if (grp > st->max_grp) st->max_grp = grp;
+}
+
+static void post_near_positions_bitmap_multi_groups_step(
+    sqlite3_context *ctx,
+    int argc,
+    sqlite3_value **argv
+) {
+    post_near_count_bitmap_multi_groups_step(ctx, argc, argv);
+}
+
+static void post_near_count_bitmap_multi_groups_final(sqlite3_context *ctx) {
+    near_multi_ctx *st = sqlite3_aggregate_context(ctx, 0);
+    if (!st || st->max_grp < 2 || !st->count || st->count[1] <= 0) {
+        sqlite3_result_int(ctx, 0);
+        return;
+    }
+    unsigned char *out = NULL;
+    int out_len = 0;
+    if (!run_multi_bitmap_near(st, 0, &out, &out_len)) {
+        sqlite3_result_error(ctx, "post_near_count_bitmap_multi_groups: OOM", -1);
+        return;
+    }
+    sqlite3_result_int(ctx, out_len);
+    free_multi_groups(st);
+    sqlite3_free(st->blobs);
+    sqlite3_free(st->lens);
+    sqlite3_free(st->count);
+    sqlite3_free(st->cap);
+    st->blobs = NULL;
+    st->lens = NULL;
+    st->count = NULL;
+    st->cap = NULL;
+    st->groups_cap = 0;
+    st->max_grp = 0;
+}
+
+static void post_near_positions_bitmap_multi_groups_final(sqlite3_context *ctx) {
+    near_multi_ctx *st = sqlite3_aggregate_context(ctx, 0);
+    if (!st || st->max_grp < 2 || !st->count || st->count[1] <= 0) {
+        sqlite3_result_blob(ctx, "", 0, SQLITE_STATIC);
+        return;
+    }
+    unsigned char *out = NULL;
+    int out_len = 0;
+    if (!run_multi_bitmap_near(st, 1, &out, &out_len)) {
+        sqlite3_result_error(ctx, "post_near_positions_bitmap_multi_groups: OOM", -1);
+        return;
+    }
+    sqlite3_result_blob(ctx, out, out_len, sqlite3_free);
+    free_multi_groups(st);
+    sqlite3_free(st->blobs);
+    sqlite3_free(st->lens);
+    sqlite3_free(st->count);
+    sqlite3_free(st->cap);
+    st->blobs = NULL;
+    st->lens = NULL;
+    st->count = NULL;
+    st->cap = NULL;
+    st->groups_cap = 0;
+    st->max_grp = 0;
 }
 
 static void post_near_count_bitmap_groups_final(sqlite3_context *ctx) {
@@ -2002,6 +2494,20 @@ int sqlite3_postings_init(
         db, "post_near_positions_bitmap_groups", 5,
         SQLITE_UTF8 | SQLITE_DETERMINISTIC,
         NULL, NULL, post_near_positions_bitmap_groups_step, post_near_positions_bitmap_groups_final
+    );
+    if (rc != SQLITE_OK) return rc;
+
+    rc = sqlite3_create_function(
+        db, "post_near_count_bitmap_multi_groups", 5,
+        SQLITE_UTF8 | SQLITE_DETERMINISTIC,
+        NULL, NULL, post_near_count_bitmap_multi_groups_step, post_near_count_bitmap_multi_groups_final
+    );
+    if (rc != SQLITE_OK) return rc;
+
+    rc = sqlite3_create_function(
+        db, "post_near_positions_bitmap_multi_groups", 5,
+        SQLITE_UTF8 | SQLITE_DETERMINISTIC,
+        NULL, NULL, post_near_positions_bitmap_multi_groups_step, post_near_positions_bitmap_multi_groups_final
     );
     if (rc != SQLITE_OK) return rc;
 

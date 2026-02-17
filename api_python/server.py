@@ -83,7 +83,7 @@ class NearFrequencyRequest(BaseModel):
 
 
 class NearQueryRequest(BaseModel):
-    terms: List[str]
+    terms: Optional[List[str]] = None
     termGroups: Optional[List[List[str]]] = None
     window: int = Field(5, ge=1, le=50)
     schema: Optional[str] = None
@@ -109,7 +109,7 @@ class OrQueryRequest(BaseModel):
 
 
 class NearFragmentsRequest(BaseModel):
-    terms: List[str]
+    terms: Optional[List[str]] = None
     termGroups: Optional[List[List[str]]] = None
     window: int = Field(5, ge=1, le=50)
     before: int = Field(5, ge=1, le=50)
@@ -409,12 +409,13 @@ def expand_term_cf_ids_with_df(
 
 def _resolve_term_groups(
     curw,
-    terms: List[str],
+    terms: Optional[List[str]],
     term_groups: Optional[List[List[str]]],
     max_variants: int,
     symmetric: bool,
 ) -> List[List[int]]:
-    raw_groups = term_groups if term_groups else [[t] for t in terms]
+    base_terms = terms or []
+    raw_groups = term_groups if term_groups else [[t] for t in base_terms]
     term_infos: List[Tuple[List[int], int]] = []
     for group in raw_groups:
         group_cf_ids: List[int] = []
@@ -590,55 +591,35 @@ def near_query(req: NearQueryRequest):
         found_any = True
         prepare_term_cf_table(cur, groups)
         use_bitmap_fn = USE_BITMAP_NEAR and _has_sql_function(
-            cur, "post_near_positions_bitmap_groups"
+            cur, "post_near_count_bitmap_multi_groups"
         )
         if use_bitmap_fn:
             if use_filter:
                 from_clause = "FROM filter f JOIN {table} u ON u.book_id = f.urn"
             else:
                 from_clause = "FROM {table} u"
-            select_cols = []
-            for i in range(2, len(groups) + 1):
-                select_cols.append(
-                    f"post_near_positions_bitmap_groups("
-                    f"CASE WHEN t.grp = 1 THEN 1 WHEN t.grp = {i} THEN 2 END, "
-                    f"u.post, {off_min}, {off_max}, {BITMAP_CHUNK_SIZE}) AS b{i}"
-                )
             sql = f"""
             WITH
             {("filter AS (SELECT value AS urn FROM json_each(?))," if use_filter else "")}
             combined AS (
                 SELECT u.book_id,
-                       {", ".join(select_cols)}
+                       post_near_count_bitmap_multi_groups(
+                           t.grp, u.post, {off_min}, {off_max}, {BITMAP_CHUNK_SIZE}
+                       ) AS c
                 {from_clause.format(table=(req.schema or CONFIG.default_schema))}
                 JOIN term_cf t ON t.cf_id = u.cf_id
                 GROUP BY u.book_id
             )
-            SELECT * FROM combined
+            SELECT
+                SUM(CASE WHEN c > 0 THEN c ELSE 0 END) AS total,
+                SUM(CASE WHEN c > 0 THEN 1 ELSE 0 END) AS docs
+            FROM combined
             """
             params = (filter_json,) if use_filter else ()
-            inner = con.cursor()
-            for row in cur.execute(sql, params):
-                blobs = row[1:]
-                if not blobs or any(b is None for b in blobs):
-                    continue
-                common_blob = blobs[0]
-                for idx in range(1, len(blobs)):
-                    inter = inner.execute(
-                        "SELECT post_intersect_blob(?, ?)",
-                        (common_blob, blobs[idx]),
-                    ).fetchone()
-                    common_blob = inter[0] if inter else None
-                    if not common_blob:
-                        break
-                if not common_blob:
-                    continue
-                cnt_row = inner.execute("SELECT post_count(?)", (common_blob,)).fetchone()
-                c = int(cnt_row[0] or 0) if cnt_row else 0
-                if c <= 0:
-                    continue
-                total += c
-                docs += 1
+            row = cur.execute(sql, params).fetchone()
+            if row:
+                total += int(row[0] or 0)
+                docs += int(row[1] or 0)
         else:
             if len(groups) == 2:
                 if use_filter:
@@ -824,46 +805,31 @@ def near_fragments(req: NearFragmentsRequest):
         prepare_term_cf_table(cur, groups)
         inner = con.cursor()
         use_bitmap_fn = USE_BITMAP_NEAR and _has_sql_function(
-            cur, "post_near_positions_bitmap_groups"
+            cur, "post_near_positions_bitmap_multi_groups"
         )
         if use_bitmap_fn:
             if use_filter:
                 from_clause = "FROM filter f JOIN {table} u ON u.book_id = f.urn"
             else:
                 from_clause = "FROM {table} u"
-            select_cols = []
-            for i in range(2, len(groups) + 1):
-                select_cols.append(
-                    f"post_near_positions_bitmap_groups("
-                    f"CASE WHEN t.grp = 1 THEN 1 WHEN t.grp = {i} THEN 2 END, "
-                    f"u.post, {off_min}, {off_max}, {BITMAP_CHUNK_SIZE}) AS b{i}"
-                )
             sql = f"""
             WITH
             {("filter AS (SELECT value AS urn FROM json_each(?))," if use_filter else "")}
             combined AS (
                 SELECT u.book_id,
-                       {", ".join(select_cols)}
+                       post_near_positions_bitmap_multi_groups(
+                           t.grp, u.post, {off_min}, {off_max}, {BITMAP_CHUNK_SIZE}
+                       ) AS blob
                 {from_clause.format(table=(req.schema or CONFIG.default_schema))}
                 JOIN term_cf t ON t.cf_id = u.cf_id
                 GROUP BY u.book_id
             )
-            SELECT * FROM combined
+            SELECT book_id, blob FROM combined
             """
             params = (filter_json,) if use_filter else ()
             for row in cur.execute(sql, params):
                 book_id = row[0]
-                blobs = row[1:]
-                if not blobs or any(b is None for b in blobs):
-                    continue
-                common_blob = blobs[0]
-                for idx in range(1, len(blobs)):
-                    inter = inner.execute(
-                        "SELECT post_intersect_blob(?, ?)", (common_blob, blobs[idx])
-                    ).fetchone()
-                    common_blob = inter[0] if inter else None
-                    if not common_blob:
-                        break
+                common_blob = row[1]
                 if not common_blob:
                     continue
                 cnt_row = inner.execute("SELECT post_count(?)", (common_blob,)).fetchone()

@@ -24,3 +24,15 @@
 - Eventuelt legge inn cutoffs (f.eks. dropp trigram‑hapax) ved behov.
 - Optimalisere URN-listing fra docpost (cache OR-blobs, mindre JSON).
 - Vurdere pre‑filtering via docpost‑union/intersect før per‑bok OR‑union + near.
+- Parallellisere shard-kjøring i API (nå sekvensiell loop over shards).
+- Definere "shard park" (shard federation) for stor skala:
+  - Shards er self-contained for drift/innlasting.
+  - Et globalt `words`-register vedlikeholdes på tvers av shards.
+  - Lokal `words` får `global_id` i tillegg til `cf_id`.
+  - Synk-jobb ved innlegging av ny shard (map lokal ordliste mot global katalog).
+  - Bruke `global_id` for tverr-shard kollokasjon, concordance og senere DTM-bygging.
+- Implementere sekvensmodus med bit-shift-kjede (phrase-like), f.eks. `x y z`:
+  - Krav: `x` én posisjon fra `y` og `y` én posisjon fra `z`.
+  - Prototype: `H = Gx & shift_right(Gy,1) & shift_right(Gz,2)` (evt. motsatt retning).
+  - Avklare optimal implementasjon ved word-boundary carry (kan kreve to delrunder per shift i praksis).
+  - Sammenligne sekvens-kjerne mot eksisterende near-kjerne for 2/3+ ord.
