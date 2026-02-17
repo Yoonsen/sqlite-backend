@@ -56,15 +56,21 @@ def _docpost_union_blob(cur: sqlite3.Cursor, cf_ids: List[int]) -> Optional[byte
             cf_ids,
         ).fetchone()
     except sqlite3.OperationalError:
-        row = cur.execute(
-            f"""
-            SELECT post_union_agg(docpost)
-            FROM words
-            WHERE cf_id IN ({placeholders})
-              AND docpost_is_complement = 0
-            """,
-            cf_ids,
-        ).fetchone()
+        try:
+            row = cur.execute(
+                f"""
+                SELECT post_union_agg(docpost)
+                FROM words
+                WHERE cf_id IN ({placeholders})
+                  AND docpost_is_complement = 0
+                """,
+                cf_ids,
+            ).fetchone()
+        except sqlite3.OperationalError:
+            # Some local/legacy DBs do not have docpost columns at all.
+            # In that case we disable docpost prefiltering and let callers
+            # fall back to urn sampling / no prefilter.
+            return None
     if not row:
         return None
     return row[0]

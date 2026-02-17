@@ -3,6 +3,7 @@ from __future__ import annotations
 import json
 import os
 import random
+import sqlite3
 from typing import Dict, List, Optional, Tuple
 
 from fastapi import FastAPI, HTTPException, Request
@@ -57,8 +58,8 @@ class ConcordanceRequest(BaseModel):
     wordA: str
     wordB: Optional[str] = ""
     window: int = Field(5, ge=1, le=50)
-    before: int = Field(5, ge=1, le=50)
-    after: int = Field(5, ge=1, le=50)
+    before: int = Field(5, ge=1, le=25)
+    after: int = Field(5, ge=1, le=25)
     perBook: int = Field(3, ge=1, le=20)
     docSamples: Optional[int] = Field(None, ge=0, le=50000)
     totalLimit: int = Field(200, ge=1, le=5000)
@@ -88,6 +89,20 @@ class NearQueryRequest(BaseModel):
     schema: Optional[str] = None
     symmetric: bool = True
     excludeSelf: bool = False
+    useFilter: bool = False
+    filterIds: List[int] = []
+    maxVariants: int = Field(10, ge=1, le=100)
+
+
+class OrQueryRequest(BaseModel):
+    terms: List[str] = []
+    termGroups: Optional[List[List[str]]] = None
+    before: int = Field(5, ge=1, le=25)
+    after: int = Field(5, ge=1, le=25)
+    perBook: int = Field(3, ge=1, le=20)
+    docSamples: Optional[int] = Field(None, ge=0, le=50000)
+    totalLimit: int = Field(200, ge=1, le=5000)
+    schema: Optional[str] = None
     useFilter: bool = False
     filterIds: List[int] = []
     maxVariants: int = Field(10, ge=1, le=100)
@@ -129,126 +144,136 @@ def health() -> Dict[str, str]:
 @app.post("/concordance")
 def concordance(req: ConcordanceRequest):
     postings_paths = CONFIG.postings_dbs
-    rows = []
-    word_a_found = False
-    word_b_found = True
     max_variants = 1000
-    for path in postings_paths:
-        con = connect_postings(path, CONFIG.ext_path)
-        conw = connect_words(shard_words_path(path))
-        cur = con.cursor()
-        curw = conw.cursor()
-        base_filter_ids = req.filterIds if req.useFilter and req.filterIds else None
-        use_filter = False
-        filter_json = None
-        cf_a = None
-        cf_ids_a: Optional[List[int]] = None
-        if req.wordA.endswith("*"):
-            cf_ids_a, _ = expand_term_cf_ids_with_df(curw, req.wordA, max_variants)
-            if not cf_ids_a:
-                con.close()
-                conw.close()
-                continue
-        else:
-            cf_a = get_cf_id(curw, req.wordA)
-            if cf_a is None:
-                con.close()
-                conw.close()
-                continue
-        word_a_found = True
-        if req.wordB and req.wordB.strip():
-            cf_b = get_cf_id(curw, req.wordB)
-            if cf_b is None:
-                word_b_found = False
-                con.close()
-                conw.close()
-                continue
-            if not use_filter:
-                filter_ids = _apply_docpost_filter_and_sample(
-                    cur,
-                    [[cf_a], [cf_b]],
-                    base_filter_ids,
-                    req.docSamples,
-                    req.totalLimit,
-                    req.perBook,
-                )
-                if filter_ids == []:
+
+    def run_once(doc_samples: Optional[int]) -> Tuple[List[Tuple[int, int, str]], bool, bool]:
+        local_rows: List[Tuple[int, int, str]] = []
+        local_word_a_found = False
+        local_word_b_found = True
+        for path in postings_paths:
+            con = connect_postings(path, CONFIG.ext_path)
+            conw = connect_words(shard_words_path(path))
+            cur = con.cursor()
+            curw = conw.cursor()
+            base_filter_ids = req.filterIds if req.useFilter and req.filterIds else None
+            use_filter = False
+            filter_json = None
+            cf_a = None
+            cf_ids_a: Optional[List[int]] = None
+            if req.wordA.endswith("*"):
+                cf_ids_a, _ = expand_term_cf_ids_with_df(curw, req.wordA, max_variants)
+                if not cf_ids_a:
                     con.close()
                     conw.close()
                     continue
-                if filter_ids:
-                    use_filter = True
-                    filter_json = json.dumps(filter_ids)
-            if req.symmetric:
-                off_min, off_max = -req.before, req.after
             else:
-                off_min, off_max = 1, req.after
-            rows.extend(
-                sample_concordance_near(
-                    cur,
-                    curw,
-                    cf_a,
-                    cf_b,
-                    req.perBook,
-                    req.before,
-                    req.after,
-                    use_filter,
-                    filter_json,
-                    (req.schema or CONFIG.default_schema),
-                    off_min,
-                    off_max,
-                    req.excludeSelf,
-                )
-            )
-        else:
-            if not use_filter:
-                if cf_ids_a:
-                    cf_groups = [cf_ids_a]
-                else:
-                    cf_groups = [[cf_a]]
-                filter_ids = _apply_docpost_filter_and_sample(
-                    cur,
-                    cf_groups,
-                    base_filter_ids,
-                    req.docSamples,
-                    req.totalLimit,
-                    req.perBook,
-                )
-                if filter_ids == []:
+                cf_a = get_cf_id(curw, req.wordA)
+                if cf_a is None:
                     con.close()
                     conw.close()
                     continue
-                if filter_ids:
-                    use_filter = True
-                    filter_json = json.dumps(filter_ids)
-            if cf_ids_a:
-                rows.extend(
-                    sample_concordance_union(
+            local_word_a_found = True
+            if req.wordB and req.wordB.strip():
+                cf_b = get_cf_id(curw, req.wordB)
+                if cf_b is None:
+                    local_word_b_found = False
+                    con.close()
+                    conw.close()
+                    continue
+                if not use_filter:
+                    filter_ids = _apply_docpost_filter_and_sample(
                         cur,
-                        curw,
-                        cf_ids_a,
+                        [[cf_a], [cf_b]],
+                        base_filter_ids,
+                        doc_samples,
+                        req.totalLimit,
                         req.perBook,
-                        req.before,
-                        req.after,
-                        use_filter,
-                        filter_json,
                     )
-                )
-            else:
-                rows.extend(
-                    sample_concordance_single(
+                    if filter_ids == []:
+                        con.close()
+                        conw.close()
+                        continue
+                    if filter_ids:
+                        use_filter = True
+                        filter_json = json.dumps(filter_ids)
+                if req.symmetric:
+                    off_min, off_max = -req.before, req.after
+                else:
+                    off_min, off_max = 1, req.after
+                local_rows.extend(
+                    sample_concordance_near(
                         cur,
                         curw,
                         cf_a,
+                        cf_b,
                         req.perBook,
                         req.before,
                         req.after,
                         use_filter,
                         filter_json,
+                        (req.schema or CONFIG.default_schema),
+                        off_min,
+                        off_max,
+                        req.excludeSelf,
                     )
                 )
-        con.close()
-        conw.close()
+            else:
+                if not use_filter:
+                    if cf_ids_a:
+                        cf_groups = [cf_ids_a]
+                    else:
+                        cf_groups = [[cf_a]]
+                    filter_ids = _apply_docpost_filter_and_sample(
+                        cur,
+                        cf_groups,
+                        base_filter_ids,
+                        doc_samples,
+                        req.totalLimit,
+                        req.perBook,
+                    )
+                    if filter_ids == []:
+                        con.close()
+                        conw.close()
+                        continue
+                    if filter_ids:
+                        use_filter = True
+                        filter_json = json.dumps(filter_ids)
+                if cf_ids_a:
+                    local_rows.extend(
+                        sample_concordance_union(
+                            cur,
+                            curw,
+                            cf_ids_a,
+                            req.perBook,
+                            req.before,
+                            req.after,
+                            use_filter,
+                            filter_json,
+                        )
+                    )
+                else:
+                    local_rows.extend(
+                        sample_concordance_single(
+                            cur,
+                            curw,
+                            cf_a,
+                            req.perBook,
+                            req.before,
+                            req.after,
+                            use_filter,
+                            filter_json,
+                        )
+                    )
+            con.close()
+            conw.close()
+        return local_rows, local_word_a_found, local_word_b_found
+
+    rows, word_a_found, word_b_found = run_once(req.docSamples)
+    has_word_b = bool(req.wordB and req.wordB.strip())
+    if has_word_b and int(req.docSamples or 0) > 0 and not rows and word_a_found and word_b_found:
+        rows, retry_word_a_found, retry_word_b_found = run_once(0)
+        word_a_found = word_a_found or retry_word_a_found
+        word_b_found = word_b_found and retry_word_b_found
     if not word_a_found:
         raise HTTPException(status_code=404, detail="Word A not found")
     if req.wordB and req.wordB.strip() and not word_b_found:
@@ -478,6 +503,17 @@ def _resolve_doc_samples(
     return int(doc_samples)
 
 
+def _has_sql_function(cur, fn_name: str) -> bool:
+    try:
+        row = cur.execute(
+            "SELECT 1 FROM pragma_function_list WHERE name = ? LIMIT 1",
+            (fn_name,),
+        ).fetchone()
+        return bool(row)
+    except sqlite3.Error:
+        return False
+
+
 def _apply_docpost_filter_and_sample(
     cur,
     cf_groups: List[List[int]],
@@ -541,6 +577,169 @@ def near_query(req: NearQueryRequest):
                 groups,
                 base_filter_ids,
                 0,
+                0,
+                0,
+            )
+            if filter_ids == []:
+                con.close()
+                conw.close()
+                continue
+            if filter_ids:
+                use_filter = True
+                filter_json = json.dumps(filter_ids)
+        found_any = True
+        prepare_term_cf_table(cur, groups)
+        use_bitmap_fn = USE_BITMAP_NEAR and _has_sql_function(
+            cur, "post_near_positions_bitmap_groups"
+        )
+        if use_bitmap_fn:
+            if use_filter:
+                from_clause = "FROM filter f JOIN {table} u ON u.book_id = f.urn"
+            else:
+                from_clause = "FROM {table} u"
+            select_cols = []
+            for i in range(2, len(groups) + 1):
+                select_cols.append(
+                    f"post_near_positions_bitmap_groups("
+                    f"CASE WHEN t.grp = 1 THEN 1 WHEN t.grp = {i} THEN 2 END, "
+                    f"u.post, {off_min}, {off_max}, {BITMAP_CHUNK_SIZE}) AS b{i}"
+                )
+            sql = f"""
+            WITH
+            {("filter AS (SELECT value AS urn FROM json_each(?))," if use_filter else "")}
+            combined AS (
+                SELECT u.book_id,
+                       {", ".join(select_cols)}
+                {from_clause.format(table=(req.schema or CONFIG.default_schema))}
+                JOIN term_cf t ON t.cf_id = u.cf_id
+                GROUP BY u.book_id
+            )
+            SELECT * FROM combined
+            """
+            params = (filter_json,) if use_filter else ()
+            inner = con.cursor()
+            for row in cur.execute(sql, params):
+                blobs = row[1:]
+                if not blobs or any(b is None for b in blobs):
+                    continue
+                common_blob = blobs[0]
+                for idx in range(1, len(blobs)):
+                    inter = inner.execute(
+                        "SELECT post_intersect_blob(?, ?)",
+                        (common_blob, blobs[idx]),
+                    ).fetchone()
+                    common_blob = inter[0] if inter else None
+                    if not common_blob:
+                        break
+                if not common_blob:
+                    continue
+                cnt_row = inner.execute("SELECT post_count(?)", (common_blob,)).fetchone()
+                c = int(cnt_row[0] or 0) if cnt_row else 0
+                if c <= 0:
+                    continue
+                total += c
+                docs += 1
+        else:
+            if len(groups) == 2:
+                if use_filter:
+                    from_clause = "FROM filter f JOIN {table} u ON u.book_id = f.urn"
+                else:
+                    from_clause = "FROM {table} u"
+                sql = f"""
+                WITH
+                {("filter AS (SELECT value AS urn FROM json_each(?))," if use_filter else "")}
+                combined AS (
+                    SELECT u.book_id,
+                           post_near_count_groups(t.grp, u.post, {off_min}, {off_max}) AS c
+                    {from_clause.format(table=(req.schema or CONFIG.default_schema))}
+                    JOIN term_cf t ON t.cf_id = u.cf_id
+                    GROUP BY u.book_id
+                )
+                SELECT
+                    SUM(CASE WHEN c > 0 THEN c ELSE 0 END) AS total,
+                    SUM(CASE WHEN c > 0 THEN 1 ELSE 0 END) AS docs
+                FROM combined
+                """
+                params = (filter_json,) if use_filter else ()
+            else:
+                ctes = []
+                if use_filter:
+                    ctes.append("filter AS (SELECT value AS urn FROM json_each(?))")
+                for i in range(1, len(groups) + 1):
+                    ctes.append(union_cte(req.schema or CONFIG.default_schema, i, use_filter))
+
+                select_cols = []
+                join_clause = "FROM g1"
+                for i in range(2, len(groups) + 1):
+                    join_clause += f" JOIN g{i} ON g{i}.book_id = g1.book_id"
+                for i in range(2, len(groups) + 1):
+                    select_cols.append(
+                        f"post_near_count(g1.blob, g{i}.blob, {off_min}, {off_max}) AS c{i}"
+                    )
+                select_cols_sql = ", ".join(select_cols)
+                where_all = " AND ".join([f"c{i} > 0" for i in range(2, len(groups) + 1)])
+                sum_cols = " + ".join([f"c{i}" for i in range(2, len(groups) + 1)])
+                sql = f"""
+                WITH
+                {", ".join(ctes)}
+                SELECT
+                    SUM(CASE WHEN {where_all} THEN {sum_cols} ELSE 0 END) AS total,
+                    SUM(CASE WHEN {where_all} THEN 1 ELSE 0 END) AS docs
+                FROM (
+                    SELECT g1.book_id, {select_cols_sql}
+                    {join_clause}
+                )
+                """
+                params = (filter_json,) if use_filter else ()
+            row = cur.execute(sql, params).fetchone()
+            if row:
+                total += int(row[0] or 0)
+                docs += int(row[1] or 0)
+        con.close()
+        conw.close()
+    if not found_any:
+        raise HTTPException(status_code=404, detail="No terms matched")
+    return {"total": total, "docs": docs}
+
+
+@app.post("/or_query")
+def or_query(req: OrQueryRequest):
+    if req.termGroups:
+        if len(req.termGroups) < 1:
+            raise HTTPException(status_code=400, detail="termGroups must contain at least one item")
+    elif not req.terms:
+        raise HTTPException(status_code=400, detail="terms must contain at least one item")
+
+    postings_paths = CONFIG.postings_dbs
+    rows: List[Tuple[int, int, str]] = []
+    found_any = False
+    for path in postings_paths:
+        con = connect_postings(path, CONFIG.ext_path)
+        conw = connect_words(shard_words_path(path))
+        cur = con.cursor()
+        curw = conw.cursor()
+        base_filter_ids = req.filterIds if req.useFilter and req.filterIds else None
+        use_filter = False
+        filter_json = None
+
+        groups = _resolve_term_groups(
+            curw, req.terms, req.termGroups, req.maxVariants, symmetric=False
+        )
+        if not groups:
+            con.close()
+            conw.close()
+            continue
+        or_cf_ids = sorted(set(cf for g in groups for cf in g))
+        if not or_cf_ids:
+            con.close()
+            conw.close()
+            continue
+        if not use_filter:
+            filter_ids = _apply_docpost_filter_and_sample(
+                cur,
+                [or_cf_ids],
+                base_filter_ids,
+                req.docSamples,
                 req.totalLimit,
                 req.perBook,
             )
@@ -552,70 +751,30 @@ def near_query(req: NearQueryRequest):
                 use_filter = True
                 filter_json = json.dumps(filter_ids)
         found_any = True
-        prepare_term_cf_table(cur, groups)
-
-        if len(groups) == 2:
-            if use_filter:
-                from_clause = "FROM filter f JOIN {table} u ON u.book_id = f.urn"
-            else:
-                from_clause = "FROM {table} u"
-            func = "post_near_count_bitmap_groups" if USE_BITMAP_NEAR else "post_near_count_groups"
-            extra_arg = f", {BITMAP_CHUNK_SIZE}" if USE_BITMAP_NEAR else ""
-            sql = f"""
-            WITH
-            {("filter AS (SELECT value AS urn FROM json_each(?))," if use_filter else "")}
-            combined AS (
-                SELECT u.book_id,
-                       {func}(t.grp, u.post, {off_min}, {off_max}{extra_arg}) AS c
-                {from_clause.format(table=(req.schema or CONFIG.default_schema))}
-                JOIN term_cf t ON t.cf_id = u.cf_id
-                GROUP BY u.book_id
+        rows.extend(
+            sample_concordance_union(
+                cur,
+                curw,
+                or_cf_ids,
+                req.perBook,
+                req.before,
+                req.after,
+                use_filter,
+                filter_json,
             )
-            SELECT
-                SUM(CASE WHEN c > 0 THEN c ELSE 0 END) AS total,
-                SUM(CASE WHEN c > 0 THEN 1 ELSE 0 END) AS docs
-            FROM combined
-            """
-            params = (filter_json,) if use_filter else ()
-        else:
-            ctes = []
-            if use_filter:
-                ctes.append("filter AS (SELECT value AS urn FROM json_each(?))")
-            for i in range(1, len(groups) + 1):
-                ctes.append(union_cte(req.schema or CONFIG.default_schema, i, use_filter))
-
-            select_cols = []
-            join_clause = "FROM g1"
-            for i in range(2, len(groups) + 1):
-                join_clause += f" JOIN g{i} ON g{i}.book_id = g1.book_id"
-            for i in range(2, len(groups) + 1):
-                select_cols.append(
-                    f"post_near_count(g1.blob, g{i}.blob, {off_min}, {off_max}) AS c{i}"
-                )
-            select_cols_sql = ", ".join(select_cols)
-            where_all = " AND ".join([f"c{i} > 0" for i in range(2, len(groups) + 1)])
-            sum_cols = " + ".join([f"c{i}" for i in range(2, len(groups) + 1)])
-            sql = f"""
-            WITH
-            {", ".join(ctes)}
-            SELECT
-                SUM(CASE WHEN {where_all} THEN {sum_cols} ELSE 0 END) AS total,
-                SUM(CASE WHEN {where_all} THEN 1 ELSE 0 END) AS docs
-            FROM (
-                SELECT g1.book_id, {select_cols_sql}
-                {join_clause}
-            )
-            """
-            params = (filter_json,) if use_filter else ()
-        row = cur.execute(sql, params).fetchone()
-        if row:
-            total += int(row[0] or 0)
-            docs += int(row[1] or 0)
+        )
         con.close()
         conw.close()
+        if req.totalLimit and len(rows) >= req.totalLimit:
+            break
+
     if not found_any:
         raise HTTPException(status_code=404, detail="No terms matched")
-    return {"total": total, "docs": docs}
+    if not rows:
+        raise HTTPException(status_code=404, detail="No results found")
+    if req.totalLimit and len(rows) > req.totalLimit:
+        rows = rows[: req.totalLimit]
+    return {"rows": [{"bookId": b, "pos": p, "frag": f} for b, p, f in rows]}
 
 
 @app.post("/near_fragments")
@@ -664,79 +823,47 @@ def near_fragments(req: NearFragmentsRequest):
 
         prepare_term_cf_table(cur, groups)
         inner = con.cursor()
-        if len(groups) == 2:
+        use_bitmap_fn = USE_BITMAP_NEAR and _has_sql_function(
+            cur, "post_near_positions_bitmap_groups"
+        )
+        if use_bitmap_fn:
             if use_filter:
                 from_clause = "FROM filter f JOIN {table} u ON u.book_id = f.urn"
             else:
                 from_clause = "FROM {table} u"
-            func = "post_near_positions_bitmap_groups" if USE_BITMAP_NEAR else "post_near_positions_groups"
-            extra_arg = f", {BITMAP_CHUNK_SIZE}" if USE_BITMAP_NEAR else ""
+            select_cols = []
+            for i in range(2, len(groups) + 1):
+                select_cols.append(
+                    f"post_near_positions_bitmap_groups("
+                    f"CASE WHEN t.grp = 1 THEN 1 WHEN t.grp = {i} THEN 2 END, "
+                    f"u.post, {off_min}, {off_max}, {BITMAP_CHUNK_SIZE}) AS b{i}"
+                )
             sql = f"""
             WITH
             {("filter AS (SELECT value AS urn FROM json_each(?))," if use_filter else "")}
             combined AS (
                 SELECT u.book_id,
-                       {func}(t.grp, u.post, {off_min}, {off_max}{extra_arg}) AS blob
+                       {", ".join(select_cols)}
                 {from_clause.format(table=(req.schema or CONFIG.default_schema))}
                 JOIN term_cf t ON t.cf_id = u.cf_id
                 GROUP BY u.book_id
             )
-            SELECT book_id, blob FROM combined
+            SELECT * FROM combined
             """
             params = (filter_json,) if use_filter else ()
             for row in cur.execute(sql, params):
                 book_id = row[0]
-                common_blob = row[1]
-                if not common_blob:
+                blobs = row[1:]
+                if not blobs or any(b is None for b in blobs):
                     continue
-                cnt_row = inner.execute("SELECT post_count(?)", (common_blob,)).fetchone()
-                total = int(cnt_row[0] or 0) if cnt_row else 0
-                if total <= 0:
-                    continue
-                samples = min(req.perBook, total)
-                indices = random.sample(range(total), samples)
-                for idx in indices:
-                    pos_row = inner.execute("SELECT post_sample(?, ?)", (common_blob, idx)).fetchone()
-                    if pos_row is None or pos_row[0] is None:
-                        continue
-                    pos = int(pos_row[0])
-                    frag = fetch_window(cur, curw, book_id, pos, req.before, req.after)
-                    rows.append({"bookId": book_id, "pos": int(pos), "frag": frag})
-                    if req.totalLimit and len(rows) >= req.totalLimit:
+                common_blob = blobs[0]
+                for idx in range(1, len(blobs)):
+                    inter = inner.execute(
+                        "SELECT post_intersect_blob(?, ?)", (common_blob, blobs[idx])
+                    ).fetchone()
+                    common_blob = inter[0] if inter else None
+                    if not common_blob:
                         break
-                if req.totalLimit and len(rows) >= req.totalLimit:
-                    break
-        elif len(groups) == 3:
-            if use_filter:
-                from_clause = "FROM filter f JOIN {table} u ON u.book_id = f.urn"
-            else:
-                from_clause = "FROM {table} u"
-            func = "post_near_positions_bitmap_groups" if USE_BITMAP_NEAR else "post_near_positions_groups"
-            extra_arg = f", {BITMAP_CHUNK_SIZE}" if USE_BITMAP_NEAR else ""
-            sql = f"""
-            WITH
-            {("filter AS (SELECT value AS urn FROM json_each(?))," if use_filter else "")}
-            combined AS (
-                SELECT u.book_id,
-                       {func}(CASE WHEN t.grp = 1 THEN 1 WHEN t.grp = 2 THEN 2 END, u.post, {off_min}, {off_max}{extra_arg}) AS b12,
-                       {func}(CASE WHEN t.grp = 1 THEN 1 WHEN t.grp = 3 THEN 2 END, u.post, {off_min}, {off_max}{extra_arg}) AS b13
-                {from_clause.format(table=(req.schema or CONFIG.default_schema))}
-                JOIN term_cf t ON t.cf_id = u.cf_id
-                GROUP BY u.book_id
-            )
-            SELECT book_id, b12, b13 FROM combined
-            """
-            params = (filter_json,) if use_filter else ()
-            for row in cur.execute(sql, params):
-                book_id = row[0]
-                blob12 = row[1]
-                blob13 = row[2]
-                if not blob12 or not blob13:
-                    continue
-                inter = inner.execute(
-                    "SELECT post_intersect_blob(?, ?)", (blob12, blob13)
-                ).fetchone()
-                common_blob = inter[0] if inter else None
                 if not common_blob:
                     continue
                 cnt_row = inner.execute("SELECT post_count(?)", (common_blob,)).fetchone()
