@@ -1,5 +1,23 @@
 ## Logbook
 
+### 2026-02-18
+- La inn hybrid engine-stotte i Python API for `near_query`/`near_fragments`/`near_hits` via payload-felt:
+  - `engine`: `python` eller `julia`
+  - `parallelShards`: styrer shard-tasking i Julia-probe-lopet
+- Implementerte Julia-subprocess-vei fra Python (`POSTINGS_JULIA_HYBRID=1`) slik at appen kan switche motor per request uten ny deploy.
+- Utvidet Julia-probe (`api_julia/sqlite_blob_julia_probe.jl`) med `useFilter` + `filterIds`; verifisert at filtrerte kall kun returnerer valgte `bookId`.
+- Oppdaterte Docker-oppsett:
+  - Julia-runtime bundlet i imaget
+  - `POSTINGS_API_MODE=python|julia`
+  - valgfri sideport med `POSTINGS_JULIA_SIDE_PORT` for parallell Python/Julia API i samme container
+- Avklart warmup-strategi:
+  - Warmup gir effekt kun for persistent Julia-prosess (julia-mode eller sideport)
+  - Ikke effektivt for per-request Julia-subprocess (JIT-kost per kall)
+- Kjørte eksperiment med ny én-pass/multi-group bitmap-løype i C (`postings.c`) for `len(groups) >= 3`, inkludert varianter med samtidig chunk-AND og variadisk funksjonssignatur.
+- Verifiserte at funksjonene ga korrekte svar på testpayloads, men målte tydelig treghet på høyfrekvent 3-gruppe-case (f.eks. `[spise,spiser] [middag,frokost] [sulten,sultne]`) sammenlignet med stabil produksjonsløype.
+- Konklusjon: idéen er riktig (bitset + early-exit), men implementasjonen trenger videre tuning for å unngå multiplikativ oppførsel i praksis.
+- Beslutning: rull tilbake lokale eksperimentendringer i `postings.c`/`api_python/server.py` før videre arbeid, behold stabil produksjonsvei for studentbruk.
+
 ### 2026-02-17
 - Generaliserte bitmap-løypa i Python for nærhet slik at `len(groups) >= 2` går via samme bitmap-strategi (anchor mot alle grupper), både for count (`/near_query`) og fragments (`/near_fragments`).
 - La inn robust funksjonsdeteksjon i API (`pragma_function_list`) slik at manglende bitmap-UDF i `.so` ikke gir 500, men faller tilbake til ikke-bitmap løype.

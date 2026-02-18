@@ -1,0 +1,129 @@
+[
+  {
+    "name": "concordance_two_terms",
+    "endpoint": "/concordance",
+    "payload": {
+      "wordA": "spise",
+      "wordB": "middag",
+      "window": 5,
+      "before": 5,
+      "after": 5,
+      "perBook": 3,
+      "docSamples": 20,
+      "totalLimit": 300,
+      "schema": "unigrams",
+      "useFilter": false,
+      "filterIds": [],
+      "symmetric": true,
+      "excludeSelf": false
+    }
+  },
+  {
+    "name": "near_query_three_groups_heavy",
+    "endpoint": "/near_query",
+    "payload": {
+      "termGroups": [
+        [
+          "spise",
+          "spiser"
+        ],
+        [
+          "middag",
+          "frokost"
+        ],
+        [
+          "sulten",
+          "sultne"
+        ]
+      ],
+      "window": 5,
+      "schema": "unigrams",
+      "symmetric": true,
+      "excludeSelf": false,
+      "useFilter": false,
+      "filterIds": [],
+      "maxVariants": 10
+    }
+  },
+  {
+    "name": "near_query_three_groups_eskimo",
+    "endpoint": "/near_query",
+    "payload": {
+      "termGroups": [
+        [
+          "eskimoer",
+          "eskimoerne"
+        ],
+        [
+          "er",
+          "var"
+        ],
+        [
+          "snø",
+          "is"
+        ]
+      ],
+      "window": 5,
+      "schema": "unigrams",
+      "symmetric": true,
+      "excludeSelf": false,
+      "useFilter": false,
+      "filterIds": [],
+      "maxVariants": 10
+    }
+  },
+  {
+    "name": "near_fragments_three_groups_heavy",
+    "endpoint": "/near_fragments",
+    "payload": {
+      "termGroups": [
+        [
+          "spise",
+          "spiser"
+        ],
+        [
+          "middag",
+          "frokost"
+        ],
+        [
+          "sulten",
+          "sultne"
+        ]
+      ],
+      "window": 5,
+      "before": 5,
+      "after": 5,
+      "perBook": 2,
+      "docSamples": 20,
+      "totalLimit": 100,
+      "schema": "unigrams",
+      "symmetric": true,
+      "excludeSelf": false,
+      "useFilter": false,
+      "filterIds": [],
+      "maxVariants": 10
+    }
+  },
+  {
+    "name": "or_query_group_union",
+    "endpoint": "/or_query",
+    "payload": {
+      "termGroups": [
+        [
+          "spise",
+          "spiser",
+          "spist"
+        ]
+      ],
+      "before": 5,
+      "after": 5,
+      "perBook": 3,
+      "docSamples": 20,
+      "totalLimit": 300,
+      "schema": "unigrams",
+      "useFilter": false,
+      "filterIds": [],
+      "maxVariants": 10
+    }
+  }
+]

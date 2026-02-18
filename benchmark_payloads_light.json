@@ -1,0 +1,94 @@
+[
+  {
+    "name": "concordance_single_wildcard",
+    "endpoint": "/concordance",
+    "payload": {
+      "wordA": "spis*",
+      "wordB": "",
+      "window": 5,
+      "before": 5,
+      "after": 5,
+      "perBook": 3,
+      "docSamples": 10,
+      "totalLimit": 200,
+      "schema": "unigrams",
+      "useFilter": false,
+      "filterIds": [],
+      "symmetric": true,
+      "excludeSelf": false
+    }
+  },
+  {
+    "name": "near_query_two_groups",
+    "endpoint": "/near_query",
+    "payload": {
+      "termGroups": [
+        [
+          "spise",
+          "spiser"
+        ],
+        [
+          "middag",
+          "frokost"
+        ]
+      ],
+      "window": 5,
+      "schema": "unigrams",
+      "symmetric": true,
+      "excludeSelf": false,
+      "useFilter": false,
+      "filterIds": [],
+      "maxVariants": 10
+    }
+  },
+  {
+    "name": "near_fragments_two_groups",
+    "endpoint": "/near_fragments",
+    "payload": {
+      "termGroups": [
+        [
+          "spise",
+          "spiser"
+        ],
+        [
+          "middag",
+          "frokost"
+        ]
+      ],
+      "window": 5,
+      "before": 5,
+      "after": 5,
+      "perBook": 2,
+      "docSamples": 10,
+      "totalLimit": 50,
+      "schema": "unigrams",
+      "symmetric": true,
+      "excludeSelf": false,
+      "useFilter": false,
+      "filterIds": [],
+      "maxVariants": 10
+    }
+  },
+  {
+    "name": "or_query_group_union",
+    "endpoint": "/or_query",
+    "payload": {
+      "termGroups": [
+        [
+          "spise",
+          "spiser",
+          "spist"
+        ]
+      ],
+      "before": 5,
+      "after": 5,
+      "perBook": 3,
+      "docSamples": 10,
+      "totalLimit": 200,
+      "schema": "unigrams",
+      "useFilter": false,
+      "filterIds": [],
+      "maxVariants": 10
+    }
+  }
+]

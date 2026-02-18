@@ -21,6 +21,47 @@ docker run --rm -p 8000:8000 \
   harbor.nb.no/sprakbanken/postings-api:latest
 ```
 
+Switch API runtime inside the same image:
+
+```bash
+# Default
+-e POSTINGS_API_MODE=python
+
+# Optional Julia HTTP API (api_julia/server.jl)
+-e POSTINGS_API_MODE=julia
+```
+
+Hybrid mode (one Python API, per-request engine switch):
+
+```bash
+# Keep Python API as main server
+-e POSTINGS_API_MODE=python
+
+# Enable Julia engine from Python endpoints (engine="julia")
+-e POSTINGS_JULIA_HYBRID=1
+
+# Optional override (default side Julia port is auto-set to 8001 when hybrid=1)
+-e POSTINGS_JULIA_SIDE_PORT=8001
+```
+
+In hybrid mode, Python keeps serving on `:8000`, and forwards `engine="julia"` near requests
+to a persistent Julia side service (`http://127.0.0.1:8001`) to avoid per-request Julia startup.
+
+Julia runtime paths bundled in the image:
+
+```bash
+/usr/local/bin/julia
+/app/api_julia/server.jl
+/app/api_julia/sqlite_blob_julia_probe.jl
+/app/julia-run.sh
+```
+
+Run the Julia probe manually in the container:
+
+```bash
+docker exec -it <container> /app/julia-run.sh /app/api_julia/payload_probe.json
+```
+
 Optional bitmap near (generalized near path, `len(groups) >= 2`):
 
 ```bash
@@ -85,6 +126,19 @@ For multi-term near, you can send `termGroups` (CNF-style):
 
 If `termGroups` is omitted, the API uses `terms` as single-item groups.
 
+Optional per-request engine fields for `/near_query`, `/near_fragments`, `/near_hits`:
+
+```json
+{
+  "engine": "python",
+  "parallelShards": false
+}
+```
+
+- `engine`: `python` (default) or `julia` (requires `POSTINGS_JULIA_HYBRID=1`)
+- `parallelShards`: used by Julia probe path (`true` enables shard tasks)
+- `useFilter` + `filterIds`: supported in both engines for near endpoints
+
 ### OR query
 
 `/or_query` supports generic union search over terms or OR groups:
@@ -108,6 +162,28 @@ Open `web/index.html` and set the backend base URL.
 
 - `sql/test_concordance_samples.sql`: small concordance sampling SQL.
 - `sql/benchmark_bitmap_near.sql`: benchmark bitmap near UDF.
+- `benchmark_api.py`: fixed API benchmark matrix runner.
+- `benchmark_payloads.json`: standard benchmark payload set.
+- `benchmark_payloads_light.json`: fast daily sanity profile.
+- `benchmark_payloads_heavy.json`: pre-release stress profile.
+
+Run fixed API benchmarks:
+
+```bash
+python benchmark_api.py --base-url http://127.0.0.1:8000 --repeats 3
+```
+
+Run light profile:
+
+```bash
+python benchmark_api.py --base-url http://127.0.0.1:8000 --payloads benchmark_payloads_light.json --repeats 2
+```
+
+Run heavy profile:
+
+```bash
+python benchmark_api.py --base-url http://127.0.0.1:8000 --payloads benchmark_payloads_heavy.json --repeats 3
+```
 
 ## Build a shard
 

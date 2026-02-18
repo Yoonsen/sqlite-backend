@@ -1,0 +1,12 @@
+{
+  "termGroups": [["hamar", "lillehammer"], ["gjovik"]],
+  "window": 15,
+  "before": 15,
+  "after": 15,
+  "perBook": 2,
+  "docSamples": 10,
+  "totalLimit": 100,
+  "maxVariants": 20,
+  "mode": "fragments",
+  "repeats": 3
+}

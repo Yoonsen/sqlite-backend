@@ -31,6 +31,7 @@
 SQLITE_EXTENSION_INIT1
 
 #include <stdint.h>
+#include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
 
@@ -117,6 +118,16 @@ static int json_append_int64(char **buf, int *len, int *cap, sqlite3_int64 v) {
     }
     return 1;
 }
+
+static int sample_positions_blob_to_json(
+    const unsigned char *a,
+    int a_len,
+    int k,
+    char **out_json,
+    int *out_len
+);
+static uint64_t xorshift64_next(uint64_t *state);
+static int cmp_u64(const void *a, const void *b);
 
 static int append_varint_bytes(uint64_t v, unsigned char **buf, int *len, int *cap) {
     while (1) {
@@ -505,6 +516,11 @@ typedef struct {
 } union_agg_ctx;
 
 typedef struct {
+    uint64_t *bits;
+    int words;
+} union_bitmap_agg_ctx;
+
+typedef struct {
     const uint8_t *ptr;
     const uint8_t *end;
     uint64_t acc;
@@ -537,6 +553,7 @@ typedef struct {
     int off_max;
     int has_offsets;
     int chunk_size;
+    int sample_k;
 } near_multi_ctx;
 
 static int append_blob_group(
@@ -847,6 +864,199 @@ static void post_union_agg_final(sqlite3_context *ctx) {
     sqlite3_result_blob(ctx, out, out_len, sqlite3_free);
 }
 
+static int ensure_bitmap_words(uint64_t **bits, int *words, int need_words) {
+    if (need_words <= *words) return 1;
+    int new_words = (*words > 0) ? *words : 64;
+    while (new_words < need_words) new_words *= 2;
+    uint64_t *new_bits = sqlite3_realloc(*bits, (size_t)new_words * sizeof(uint64_t));
+    if (!new_bits) return 0;
+    if (new_words > *words) {
+        memset(new_bits + *words, 0, (size_t)(new_words - *words) * sizeof(uint64_t));
+    }
+    *bits = new_bits;
+    *words = new_words;
+    return 1;
+}
+
+static void post_union_bitmap_agg_step(
+    sqlite3_context *ctx,
+    int argc,
+    sqlite3_value **argv
+) {
+    if (argc != 1) {
+        sqlite3_result_error(ctx, "post_union_bitmap_agg(blob) expects 1 arg", -1);
+        return;
+    }
+    const unsigned char *b = sqlite3_value_blob(argv[0]);
+    int b_len = sqlite3_value_bytes(argv[0]);
+    if (!b || b_len <= 0) return;
+
+    union_bitmap_agg_ctx *st = sqlite3_aggregate_context(ctx, sizeof(*st));
+    if (!st) {
+        sqlite3_result_error(ctx, "post_union_bitmap_agg: OOM", -1);
+        return;
+    }
+
+    const uint8_t *p = b;
+    const uint8_t *end = b + b_len;
+    uint64_t acc = 0;
+    while (p < end) {
+        uint64_t delta = read_varint(&p, end);
+        acc += delta;
+        int wi = (int)(acc >> 6);
+        if (!ensure_bitmap_words(&st->bits, &st->words, wi + 1)) {
+            sqlite3_result_error(ctx, "post_union_bitmap_agg: OOM", -1);
+            return;
+        }
+        st->bits[wi] |= (1ULL << (acc & 63));
+    }
+}
+
+static void post_union_bitmap_agg_final(sqlite3_context *ctx) {
+    union_bitmap_agg_ctx *st = sqlite3_aggregate_context(ctx, 0);
+    if (!st || !st->bits || st->words <= 0) {
+        sqlite3_result_blob(ctx, "", 0, SQLITE_STATIC);
+        return;
+    }
+    sqlite3_result_blob(
+        ctx,
+        st->bits,
+        (int)((size_t)st->words * sizeof(uint64_t)),
+        sqlite3_free
+    );
+    st->bits = NULL;
+    st->words = 0;
+}
+
+static int bitmap_range_has_bits_abs(const uint64_t *bits, int words, int64_t start, int64_t end) {
+    if (!bits || words <= 0) return 0;
+    if (end < start || end < 0) return 0;
+    if (start < 0) start = 0;
+    int64_t max_pos = (int64_t)words * 64 - 1;
+    if (start > max_pos) return 0;
+    if (end > max_pos) end = max_pos;
+    int ws = (int)(start >> 6);
+    int we = (int)(end >> 6);
+    int sb = (int)(start & 63);
+    int eb = (int)(end & 63);
+    if (ws == we) {
+        uint64_t mask = 0;
+        mask_range(sb, eb, &mask);
+        return (bits[ws] & mask) != 0;
+    }
+    uint64_t mask_start = 0;
+    mask_range(sb, 63, &mask_start);
+    if (bits[ws] & mask_start) return 1;
+    for (int i = ws + 1; i < we; i++) {
+        if (bits[i]) return 1;
+    }
+    uint64_t mask_end = 0;
+    mask_range(0, eb, &mask_end);
+    return (bits[we] & mask_end) != 0;
+}
+
+static void bitmap_near_sample_positions_json_sqlite(
+    sqlite3_context *ctx,
+    int argc,
+    sqlite3_value **argv
+) {
+    if (argc != 5) {
+        sqlite3_result_error(
+            ctx,
+            "bitmap_near_sample_positions_json(bitmap_a, bitmap_b, off_min, off_max, sample_k) expects 5 args",
+            -1
+        );
+        return;
+    }
+    const uint64_t *a = (const uint64_t *)sqlite3_value_blob(argv[0]);
+    const uint64_t *b = (const uint64_t *)sqlite3_value_blob(argv[1]);
+    int a_len = sqlite3_value_bytes(argv[0]);
+    int b_len = sqlite3_value_bytes(argv[1]);
+    int off_min = sqlite3_value_int(argv[2]);
+    int off_max = sqlite3_value_int(argv[3]);
+    int sample_k = sqlite3_value_int(argv[4]);
+    int words_a = a_len / (int)sizeof(uint64_t);
+    int words_b = b_len / (int)sizeof(uint64_t);
+    int words = (words_a < words_b) ? words_a : words_b;
+
+    if (!a || !b || words <= 0 || sample_k <= 0 || off_max < off_min) {
+        sqlite3_result_text(ctx, "[]", -1, SQLITE_STATIC);
+        return;
+    }
+
+    uint64_t *samples = sqlite3_malloc((size_t)sample_k * sizeof(uint64_t));
+    if (!samples) {
+        sqlite3_result_error(ctx, "bitmap_near_sample_positions_json: OOM", -1);
+        return;
+    }
+    uint64_t seen = 0;
+    uint64_t seed = 1469598103934665603ULL ^ (uint64_t)words;
+    if (seed == 0) seed = 88172645463325252ULL;
+
+    for (int wi = 0; wi < words; wi++) {
+        uint64_t w = a[wi];
+        while (w) {
+            int bit = __builtin_ctzll(w);
+            uint64_t pos = ((uint64_t)wi << 6) + (uint64_t)bit;
+            int64_t s = (int64_t)pos + (int64_t)off_min;
+            int64_t e = (int64_t)pos + (int64_t)off_max;
+            if (bitmap_range_has_bits_abs(b, words, s, e)) {
+                if (seen < (uint64_t)sample_k) {
+                    samples[seen] = pos;
+                } else {
+                    uint64_t r = xorshift64_next(&seed) % (seen + 1);
+                    if (r < (uint64_t)sample_k) {
+                        samples[r] = pos;
+                    }
+                }
+                seen++;
+            }
+            w &= (w - 1);
+        }
+    }
+
+    int n = (seen < (uint64_t)sample_k) ? (int)seen : sample_k;
+    if (n <= 0) {
+        sqlite3_free(samples);
+        sqlite3_result_text(ctx, "[]", -1, SQLITE_STATIC);
+        return;
+    }
+    qsort(samples, (size_t)n, sizeof(uint64_t), cmp_u64);
+    char *buf = NULL;
+    int len = 0;
+    int cap = 0;
+    if (!json_append_char(&buf, &len, &cap, '[')) {
+        sqlite3_free(samples);
+        sqlite3_free(buf);
+        sqlite3_result_error(ctx, "bitmap_near_sample_positions_json: OOM", -1);
+        return;
+    }
+    for (int i = 0; i < n; i++) {
+        if (i > 0) {
+            if (!json_append_char(&buf, &len, &cap, ',')) {
+                sqlite3_free(samples);
+                sqlite3_free(buf);
+                sqlite3_result_error(ctx, "bitmap_near_sample_positions_json: OOM", -1);
+                return;
+            }
+        }
+        if (!json_append_int64(&buf, &len, &cap, (sqlite3_int64)samples[i])) {
+            sqlite3_free(samples);
+            sqlite3_free(buf);
+            sqlite3_result_error(ctx, "bitmap_near_sample_positions_json: OOM", -1);
+            return;
+        }
+    }
+    if (!json_append_char(&buf, &len, &cap, ']')) {
+        sqlite3_free(samples);
+        sqlite3_free(buf);
+        sqlite3_result_error(ctx, "bitmap_near_sample_positions_json: OOM", -1);
+        return;
+    }
+    sqlite3_free(samples);
+    sqlite3_result_text(ctx, buf, len, sqlite3_free);
+}
+
 static void post_near_count_groups_step(
     sqlite3_context *ctx,
     int argc,
@@ -872,7 +1082,6 @@ static void post_near_count_groups_step(
         st->off_min = off_min;
         st->off_max = off_max;
         st->has_offsets = 1;
-        st->chunk_size = sqlite3_value_int(argv[3]);
     }
     if (grp == 1) {
         if (!append_blob_group(&st->blobs1, &st->lens1, &st->count1, &st->cap1, b, b_len)) {
@@ -1316,32 +1525,57 @@ static void build_anchor_hit_mask_for_group(
     int off_max,
     uint64_t *out_bits
 ) {
+    (void)chunk_size;
     clear_bits(out_bits, words);
-    uint64_t curr_start = (uint64_t)gs->curr_idx * (uint64_t)chunk_size;
-    uint64_t curr_end = curr_start + (uint64_t)chunk_size - 1;
+    if (off_max < off_min) return;
 
-    const uint64_t *src_bits[3] = { gs->bits_prev, gs->bits_curr, gs->bits_next };
-    uint64_t src_start[3] = {
-        curr_start - (uint64_t)chunk_size,
-        curr_start,
-        curr_start + (uint64_t)chunk_size
-    };
-    for (int si = 0; si < 3; si++) {
-        if (si == 0 && gs->prev_idx < 0) continue;
-        const uint64_t *bits = src_bits[si];
-        uint64_t base = src_start[si];
-        for (int wi = 0; wi < words; wi++) {
-            uint64_t w = bits[wi];
-            while (w) {
-                int bit = __builtin_ctzll(w);
-                uint64_t q = base + ((uint64_t)wi << 6) + (uint64_t)bit;
-                for (int d = off_min; d <= off_max; d++) {
-                    int64_t p = (int64_t)q - (int64_t)d;
-                    if (p >= (int64_t)curr_start && p <= (int64_t)curr_end) {
-                        set_bit(out_bits, curr_start, (uint64_t)p);
-                    }
+    int ext_words = words * 3;
+    for (int d = off_min; d <= off_max; d++) {
+        if (d >= 0) {
+            int shift = d;
+            int word_shift = shift >> 6;
+            int bit_shift = shift & 63;
+            for (int wi = 0; wi < words; wi++) {
+                int center = words + wi;
+                int src_idx = center + word_shift;
+                uint64_t lo = 0;
+                uint64_t hi = 0;
+                if (src_idx >= 0 && src_idx < ext_words) {
+                    if (src_idx < words) lo = gs->bits_prev[src_idx];
+                    else if (src_idx < 2 * words) lo = gs->bits_curr[src_idx - words];
+                    else lo = gs->bits_next[src_idx - 2 * words];
                 }
-                w &= (w - 1);
+                if (bit_shift && src_idx + 1 >= 0 && src_idx + 1 < ext_words) {
+                    int idx2 = src_idx + 1;
+                    if (idx2 < words) hi = gs->bits_prev[idx2];
+                    else if (idx2 < 2 * words) hi = gs->bits_curr[idx2 - words];
+                    else hi = gs->bits_next[idx2 - 2 * words];
+                }
+                uint64_t v = bit_shift ? ((lo >> bit_shift) | (hi << (64 - bit_shift))) : lo;
+                out_bits[wi] |= v;
+            }
+        } else {
+            int shift = -d;
+            int word_shift = shift >> 6;
+            int bit_shift = shift & 63;
+            for (int wi = 0; wi < words; wi++) {
+                int center = words + wi;
+                int src_idx = center - word_shift;
+                uint64_t lo = 0;
+                uint64_t hi = 0;
+                if (src_idx >= 0 && src_idx < ext_words) {
+                    if (src_idx < words) lo = gs->bits_prev[src_idx];
+                    else if (src_idx < 2 * words) lo = gs->bits_curr[src_idx - words];
+                    else lo = gs->bits_next[src_idx - 2 * words];
+                }
+                if (bit_shift && src_idx - 1 >= 0 && src_idx - 1 < ext_words) {
+                    int idx2 = src_idx - 1;
+                    if (idx2 < words) hi = gs->bits_prev[idx2];
+                    else if (idx2 < 2 * words) hi = gs->bits_curr[idx2 - words];
+                    else hi = gs->bits_next[idx2 - 2 * words];
+                }
+                uint64_t v = bit_shift ? ((lo << bit_shift) | (hi >> (64 - bit_shift))) : lo;
+                out_bits[wi] |= v;
             }
         }
     }
@@ -1592,6 +1826,88 @@ static void post_near_positions_bitmap_multi_groups_final(sqlite3_context *ctx) 
     st->cap = NULL;
     st->groups_cap = 0;
     st->max_grp = 0;
+}
+
+static void post_near_sample_positions_json_bitmap_multi_groups_step(
+    sqlite3_context *ctx,
+    int argc,
+    sqlite3_value **argv
+) {
+    if (argc != 6) {
+        sqlite3_result_error(
+            ctx,
+            "post_near_sample_positions_json_bitmap_multi_groups(grp, blob, off_min, off_max, chunk_size, sample_k) expects 6 args",
+            -1
+        );
+        return;
+    }
+    int grp = sqlite3_value_int(argv[0]);
+    const unsigned char *b = sqlite3_value_blob(argv[1]);
+    int b_len = sqlite3_value_bytes(argv[1]);
+    int off_min = sqlite3_value_int(argv[2]);
+    int off_max = sqlite3_value_int(argv[3]);
+    int chunk_size = sqlite3_value_int(argv[4]);
+    int sample_k = sqlite3_value_int(argv[5]);
+    if (grp < 1 || !b || b_len <= 0) return;
+
+    near_multi_ctx *st = sqlite3_aggregate_context(ctx, sizeof(*st));
+    if (!st) {
+        sqlite3_result_error(ctx, "post_near_sample_positions_json_bitmap_multi_groups: OOM", -1);
+        return;
+    }
+    if (!st->has_offsets) {
+        st->off_min = off_min;
+        st->off_max = off_max;
+        st->chunk_size = chunk_size;
+        st->sample_k = sample_k;
+        st->has_offsets = 1;
+    }
+    if (!ensure_multi_group_capacity(st, grp)) {
+        sqlite3_result_error(ctx, "post_near_sample_positions_json_bitmap_multi_groups: OOM", -1);
+        return;
+    }
+    if (!append_blob_group(&st->blobs[grp], &st->lens[grp], &st->count[grp], &st->cap[grp], b, b_len)) {
+        sqlite3_result_error(ctx, "post_near_sample_positions_json_bitmap_multi_groups: OOM", -1);
+        return;
+    }
+    if (grp > st->max_grp) st->max_grp = grp;
+}
+
+static void post_near_sample_positions_json_bitmap_multi_groups_final(sqlite3_context *ctx) {
+    near_multi_ctx *st = sqlite3_aggregate_context(ctx, 0);
+    if (!st || st->max_grp < 2 || !st->count || st->count[1] <= 0 || st->sample_k <= 0) {
+        sqlite3_result_text(ctx, "[]", -1, SQLITE_STATIC);
+        return;
+    }
+    unsigned char *blob = NULL;
+    int blob_len = 0;
+    if (!run_multi_bitmap_near(st, 1, &blob, &blob_len)) {
+        sqlite3_result_error(ctx, "post_near_sample_positions_json_bitmap_multi_groups: OOM", -1);
+        return;
+    }
+
+    char *json_buf = NULL;
+    int json_len = 0;
+    if (!sample_positions_blob_to_json(blob, blob_len, st->sample_k, &json_buf, &json_len)) {
+        sqlite3_free(blob);
+        sqlite3_result_error(ctx, "post_near_sample_positions_json_bitmap_multi_groups: OOM", -1);
+        return;
+    }
+    sqlite3_free(blob);
+    sqlite3_result_text(ctx, json_buf, json_len, sqlite3_free);
+
+    free_multi_groups(st);
+    sqlite3_free(st->blobs);
+    sqlite3_free(st->lens);
+    sqlite3_free(st->count);
+    sqlite3_free(st->cap);
+    st->blobs = NULL;
+    st->lens = NULL;
+    st->count = NULL;
+    st->cap = NULL;
+    st->groups_cap = 0;
+    st->max_grp = 0;
+    st->sample_k = 0;
 }
 
 static void post_near_count_bitmap_groups_final(sqlite3_context *ctx) {
@@ -2042,6 +2358,210 @@ static void post_sample_sqlite(
     sqlite3_result_null(ctx);
 }
 
+static uint64_t xorshift64_next(uint64_t *state) {
+    uint64_t x = *state;
+    x ^= x << 13;
+    x ^= x >> 7;
+    x ^= x << 17;
+    *state = x;
+    return x;
+}
+
+static int cmp_u64(const void *a, const void *b) {
+    uint64_t va = *(const uint64_t *)a;
+    uint64_t vb = *(const uint64_t *)b;
+    if (va < vb) return -1;
+    if (va > vb) return 1;
+    return 0;
+}
+
+/*
+ * post_sample_positions_json(blob, k)
+ *  - returns up to k sampled positions as a JSON array (sorted)
+ *  - sampling uses reservoir sampling in one pass over postings
+ */
+static void post_sample_positions_json_sqlite(
+    sqlite3_context *ctx,
+    int argc,
+    sqlite3_value **argv
+) {
+    if (argc != 2) {
+        sqlite3_result_error(ctx, "post_sample_positions_json(blob, k) expects 2 args", -1);
+        return;
+    }
+
+    const unsigned char *a = sqlite3_value_blob(argv[0]);
+    int a_len = sqlite3_value_bytes(argv[0]);
+    int k = sqlite3_value_int(argv[1]);
+    if (!a || a_len <= 0 || k <= 0) {
+        sqlite3_result_text(ctx, "[]", -1, SQLITE_STATIC);
+        return;
+    }
+
+    uint64_t *samples = sqlite3_malloc((size_t)k * sizeof(uint64_t));
+    if (!samples) {
+        sqlite3_result_error(ctx, "post_sample_positions_json: OOM", -1);
+        return;
+    }
+
+    const uint8_t *p = a;
+    const uint8_t *end = a + a_len;
+    uint64_t acc = 0;
+    uint64_t seen = 0;
+    uint64_t seed = 1469598103934665603ULL ^ (uint64_t)a_len;
+    for (int i = 0; i < a_len; i += ((a_len > 64) ? (a_len / 64) : 1)) {
+        seed ^= (uint64_t)a[i] + 0x9e3779b97f4a7c15ULL + (seed << 6) + (seed >> 2);
+    }
+    if (seed == 0) seed = 88172645463325252ULL;
+
+    while (p < end) {
+        uint64_t delta = read_varint(&p, end);
+        acc += delta;
+        if (seen < (uint64_t)k) {
+            samples[seen] = acc;
+        } else {
+            uint64_t r = xorshift64_next(&seed) % (seen + 1);
+            if (r < (uint64_t)k) {
+                samples[r] = acc;
+            }
+        }
+        seen++;
+    }
+
+    int n = (seen < (uint64_t)k) ? (int)seen : k;
+    if (n <= 0) {
+        sqlite3_free(samples);
+        sqlite3_result_text(ctx, "[]", -1, SQLITE_STATIC);
+        return;
+    }
+    qsort(samples, (size_t)n, sizeof(uint64_t), cmp_u64);
+
+    char *buf = NULL;
+    int len = 0;
+    int cap = 0;
+    if (!json_append_char(&buf, &len, &cap, '[')) {
+        sqlite3_free(samples);
+        sqlite3_free(buf);
+        sqlite3_result_error(ctx, "post_sample_positions_json: OOM", -1);
+        return;
+    }
+    for (int i = 0; i < n; i++) {
+        if (i > 0) {
+            if (!json_append_char(&buf, &len, &cap, ',')) {
+                sqlite3_free(samples);
+                sqlite3_free(buf);
+                sqlite3_result_error(ctx, "post_sample_positions_json: OOM", -1);
+                return;
+            }
+        }
+        if (!json_append_int64(&buf, &len, &cap, (sqlite3_int64)samples[i])) {
+            sqlite3_free(samples);
+            sqlite3_free(buf);
+            sqlite3_result_error(ctx, "post_sample_positions_json: OOM", -1);
+            return;
+        }
+    }
+    if (!json_append_char(&buf, &len, &cap, ']')) {
+        sqlite3_free(samples);
+        sqlite3_free(buf);
+        sqlite3_result_error(ctx, "post_sample_positions_json: OOM", -1);
+        return;
+    }
+
+    sqlite3_free(samples);
+    sqlite3_result_text(ctx, buf, len, sqlite3_free);
+}
+
+static int sample_positions_blob_to_json(
+    const unsigned char *a,
+    int a_len,
+    int k,
+    char **out_json,
+    int *out_len
+) {
+    *out_json = NULL;
+    *out_len = 0;
+    if (!a || a_len <= 0 || k <= 0) {
+        char *empty = sqlite3_malloc(3);
+        if (!empty) return 0;
+        memcpy(empty, "[]", 3);
+        *out_json = empty;
+        *out_len = 2;
+        return 1;
+    }
+
+    uint64_t *samples = sqlite3_malloc((size_t)k * sizeof(uint64_t));
+    if (!samples) return 0;
+
+    const uint8_t *p = a;
+    const uint8_t *end = a + a_len;
+    uint64_t acc = 0;
+    uint64_t seen = 0;
+    uint64_t seed = 1469598103934665603ULL ^ (uint64_t)a_len;
+    for (int i = 0; i < a_len; i += ((a_len > 64) ? (a_len / 64) : 1)) {
+        seed ^= (uint64_t)a[i] + 0x9e3779b97f4a7c15ULL + (seed << 6) + (seed >> 2);
+    }
+    if (seed == 0) seed = 88172645463325252ULL;
+
+    while (p < end) {
+        uint64_t delta = read_varint(&p, end);
+        acc += delta;
+        if (seen < (uint64_t)k) {
+            samples[seen] = acc;
+        } else {
+            uint64_t r = xorshift64_next(&seed) % (seen + 1);
+            if (r < (uint64_t)k) {
+                samples[r] = acc;
+            }
+        }
+        seen++;
+    }
+
+    int n = (seen < (uint64_t)k) ? (int)seen : k;
+    if (n <= 0) {
+        sqlite3_free(samples);
+        char *empty = sqlite3_malloc(3);
+        if (!empty) return 0;
+        memcpy(empty, "[]", 3);
+        *out_json = empty;
+        *out_len = 2;
+        return 1;
+    }
+    qsort(samples, (size_t)n, sizeof(uint64_t), cmp_u64);
+
+    char *buf = NULL;
+    int len = 0;
+    int cap = 0;
+    if (!json_append_char(&buf, &len, &cap, '[')) {
+        sqlite3_free(samples);
+        sqlite3_free(buf);
+        return 0;
+    }
+    for (int i = 0; i < n; i++) {
+        if (i > 0) {
+            if (!json_append_char(&buf, &len, &cap, ',')) {
+                sqlite3_free(samples);
+                sqlite3_free(buf);
+                return 0;
+            }
+        }
+        if (!json_append_int64(&buf, &len, &cap, (sqlite3_int64)samples[i])) {
+            sqlite3_free(samples);
+            sqlite3_free(buf);
+            return 0;
+        }
+    }
+    if (!json_append_char(&buf, &len, &cap, ']')) {
+        sqlite3_free(samples);
+        sqlite3_free(buf);
+        return 0;
+    }
+    sqlite3_free(samples);
+    *out_json = buf;
+    *out_len = len;
+    return 1;
+}
+
 /*
  * post_positions(blob)
  *  - returnerer alle posisjoner i postingslista som JSON-array
@@ -2414,6 +2934,13 @@ int sqlite3_postings_init(
     if (rc != SQLITE_OK) return rc;
 
     rc = sqlite3_create_function(
+        db, "post_sample_positions_json", 2,
+        SQLITE_UTF8 | SQLITE_DETERMINISTIC,
+        NULL, post_sample_positions_json_sqlite, NULL, NULL
+    );
+    if (rc != SQLITE_OK) return rc;
+
+    rc = sqlite3_create_function(
         db, "post_positions", 1,
         SQLITE_UTF8 | SQLITE_DETERMINISTIC,
         NULL, post_positions_sqlite, NULL, NULL
@@ -2470,6 +2997,13 @@ int sqlite3_postings_init(
     if (rc != SQLITE_OK) return rc;
 
     rc = sqlite3_create_function(
+        db, "post_union_bitmap_agg", 1,
+        SQLITE_UTF8 | SQLITE_DETERMINISTIC,
+        NULL, NULL, post_union_bitmap_agg_step, post_union_bitmap_agg_final
+    );
+    if (rc != SQLITE_OK) return rc;
+
+    rc = sqlite3_create_function(
         db, "post_near_count_groups", 4,
         SQLITE_UTF8 | SQLITE_DETERMINISTIC,
         NULL, NULL, post_near_count_groups_step, post_near_count_groups_final
@@ -2512,6 +3046,15 @@ int sqlite3_postings_init(
     if (rc != SQLITE_OK) return rc;
 
     rc = sqlite3_create_function(
+        db, "post_near_sample_positions_json_bitmap_multi_groups", 6,
+        SQLITE_UTF8 | SQLITE_DETERMINISTIC,
+        NULL, NULL,
+        post_near_sample_positions_json_bitmap_multi_groups_step,
+        post_near_sample_positions_json_bitmap_multi_groups_final
+    );
+    if (rc != SQLITE_OK) return rc;
+
+    rc = sqlite3_create_function(
         db, "post_complement", 2,
         SQLITE_UTF8 | SQLITE_DETERMINISTIC,
         NULL, post_complement_sqlite, NULL, NULL
@@ -2543,6 +3086,13 @@ int sqlite3_postings_init(
         db, "bitmap_bigram_count", 3,
         SQLITE_UTF8 | SQLITE_DETERMINISTIC,
         NULL, bitmap_bigram_count_sqlite, NULL, NULL
+    );
+    if (rc != SQLITE_OK) return rc;
+
+    rc = sqlite3_create_function(
+        db, "bitmap_near_sample_positions_json", 5,
+        SQLITE_UTF8 | SQLITE_DETERMINISTIC,
+        NULL, bitmap_near_sample_positions_json_sqlite, NULL, NULL
     );
     if (rc != SQLITE_OK) return rc;
 

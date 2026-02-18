@@ -53,6 +53,7 @@ Use this when each term is its own group.
 Endpoints:
 - `POST /near_query` for counts (`total`, `docs`)
 - `POST /near_fragments` for sampled fragments
+- `POST /near_hits` for sampled hits only (`bookId`, `pos`)
 
 ```json
 {
@@ -68,7 +69,9 @@ Endpoints:
   "excludeSelf": false,
   "useFilter": false,
   "filterIds": [],
-  "maxVariants": 10
+  "maxVariants": 10,
+  "engine": "python",
+  "parallelShards": false
 }
 ```
 
@@ -79,6 +82,7 @@ Use this when each group contains OR terms, and near is enforced across groups.
 Endpoints:
 - `POST /near_query`
 - `POST /near_fragments`
+- `POST /near_hits`
 
 ```json
 {
@@ -94,7 +98,9 @@ Endpoints:
   "excludeSelf": false,
   "useFilter": false,
   "filterIds": [],
-  "maxVariants": 10
+  "maxVariants": 10,
+  "engine": "python",
+  "parallelShards": false
 }
 ```
 
@@ -159,3 +165,5 @@ Endpoint: `POST /near_frequency`
 - `filterIds` is optional corpus filtering (book IDs).
 - `symmetric=false` means forward-only matching.
 - For near endpoints, `termGroups` is now sufficient by itself; `terms` is optional.
+- For near endpoints, `engine` can be `python` (default) or `julia` (requires server env `POSTINGS_JULIA_HYBRID=1`).
+- For Julia engine, `parallelShards` controls shard tasking (`true`/`false`).
