@@ -3,12 +3,15 @@ from __future__ import annotations
 import json
 import os
 import random
+import re
 import sqlite3
 import subprocess
 import tempfile
 import time
 import urllib.error
 import urllib.request
+from concurrent.futures import ProcessPoolExecutor
+from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
 
 from fastapi import FastAPI, HTTPException, Request
@@ -17,12 +20,17 @@ from pydantic import BaseModel, Field
 
 from api_python.config import load_config
 from api_python.postings_queries import (
+    candidate_books_for_groups,
     connect_postings,
     connect_words,
+    detect_postings_codec,
     docpost_book_ids,
     fetch_window,
+    group_positions_for_book,
     get_cf_id,
+    near_count_from_groups,
     near_frequency,
+    near_positions_from_groups,
     sample_urns,
     sample_collocations,
     sample_concordance_near,
@@ -54,6 +62,9 @@ JULIA_PARALLEL_SHARDS_DEFAULT = (
 )
 JULIA_THREADS = os.environ.get("POSTINGS_JULIA_THREADS", "").strip()
 JULIA_PROXY_URL = os.environ.get("POSTINGS_JULIA_PROXY_URL", "").strip().rstrip("/")
+_PY_PAR = os.environ.get("POSTINGS_PYTHON_PARALLEL_SHARDS", "1").strip().lower()
+PYTHON_PARALLEL_SHARDS_DEFAULT = _PY_PAR not in {"0", "false", "no", "off"}
+PYTHON_SHARD_WORKERS = int(os.environ.get("POSTINGS_PYTHON_SHARD_WORKERS", "0") or 0)
 
 
 @app.middleware("http")
@@ -77,6 +88,25 @@ CONFIG = load_config()
 
 def shard_words_path(postings_path: str) -> str:
     return CONFIG.words_db or postings_path
+
+
+def shard_sidecar_path(postings_path: str, shard_index: int) -> Optional[str]:
+    if CONFIG.sidecar_dbs and shard_index < len(CONFIG.sidecar_dbs):
+        return CONFIG.sidecar_dbs[shard_index]
+
+    main_name = Path(postings_path).name
+    main_prefix = os.environ.get("POSTINGS_MAIN_PREFIX", "imag_roaring_main_")
+    sidecar_prefix = os.environ.get("POSTINGS_SIDECAR_PREFIX", "imag_roaring_blk128_sidecar_")
+    sidecar_dir = os.environ.get("POSTINGS_SIDECAR_DIR", "").strip()
+    if not main_name.startswith(main_prefix):
+        return None
+    m = re.search(r"(\d+)\.db$", main_name)
+    if not m:
+        return None
+    side_name = f"{sidecar_prefix}{m.group(1)}.db"
+    if sidecar_dir:
+        return str(Path(sidecar_dir) / side_name)
+    return str(Path(postings_path).with_name(side_name))
 
 
 class ConcordanceRequest(BaseModel):
@@ -166,6 +196,13 @@ class CollocationsRequest(BaseModel):
     filterIds: List[int] = []
 
 
+class RenderHitsRequest(BaseModel):
+    rows: List[Dict[str, int]]
+    before: int = Field(5, ge=1, le=25)
+    after: int = Field(5, ge=1, le=25)
+    totalLimit: int = Field(200, ge=1, le=5000)
+
+
 @app.get("/health")
 def health() -> Dict[str, str]:
     return {"status": "ok", "version": app.version}
@@ -180,8 +217,8 @@ def concordance(req: ConcordanceRequest):
         local_rows: List[Tuple[int, int, str]] = []
         local_word_a_found = False
         local_word_b_found = True
-        for path in postings_paths:
-            con = connect_postings(path, CONFIG.ext_path)
+        for shard_index, path in enumerate(postings_paths):
+            con = connect_postings(path, CONFIG.ext_path, shard_sidecar_path(path, shard_index))
             conw = connect_words(shard_words_path(path))
             cur = con.cursor()
             curw = conw.cursor()
@@ -319,8 +356,8 @@ def near_freq(req: NearFrequencyRequest):
     total = 0
     docs = 0
     found_any = False
-    for path in postings_paths:
-        con = connect_postings(path, CONFIG.ext_path)
+    for shard_index, path in enumerate(postings_paths):
+        con = connect_postings(path, CONFIG.ext_path, shard_sidecar_path(path, shard_index))
         conw = connect_words(shard_words_path(path))
         cur = con.cursor()
         curw = conw.cursor()
@@ -726,6 +763,103 @@ def _extract_julia_last_run(result: Dict[str, Any]) -> Dict[str, Any]:
     return result
 
 
+def _python_parallel_shards_enabled(parallel_shards: Optional[bool]) -> bool:
+    return (
+        parallel_shards
+        if parallel_shards is not None
+        else PYTHON_PARALLEL_SHARDS_DEFAULT
+    )
+
+
+def _max_python_workers(task_count: int) -> int:
+    if task_count <= 1:
+        return 1
+    if PYTHON_SHARD_WORKERS > 0:
+        return max(1, min(task_count, PYTHON_SHARD_WORKERS))
+    return task_count
+
+
+def _near_query_roaring_worker(task: Dict[str, Any]) -> Dict[str, int]:
+    con = connect_postings(task["postings_path"], task["ext_path"], task.get("sidecar_path"))
+    try:
+        cur = con.cursor()
+        groups = task["groups"]
+        schema = task["schema"]
+        off_min = int(task["off_min"])
+        off_max = int(task["off_max"])
+        exclude_self = bool(task.get("exclude_self", False))
+        filter_ids = task.get("filter_ids")
+        base_filter_ids = task.get("base_filter_ids")
+        book_ids = (
+            list(filter_ids)
+            if filter_ids is not None
+            else candidate_books_for_groups(cur, groups, schema=schema, base_filter_ids=base_filter_ids)
+        )
+        total = 0
+        docs = 0
+        for book_id in book_ids:
+            gp = group_positions_for_book(cur, groups, int(book_id), schema=schema)
+            c = near_count_from_groups(gp, off_min, off_max, exclude_self)
+            if c > 0:
+                total += c
+                docs += 1
+        return {"total": int(total), "docs": int(docs)}
+    finally:
+        con.close()
+
+
+def _near_fragments_roaring_worker(task: Dict[str, Any]) -> Dict[str, Any]:
+    con = connect_postings(task["postings_path"], task["ext_path"], task.get("sidecar_path"))
+    conw = connect_words(task["words_path"])
+    try:
+        cur = con.cursor()
+        curw = conw.cursor()
+        groups = task["groups"]
+        schema = task["schema"]
+        off_min = int(task["off_min"])
+        off_max = int(task["off_max"])
+        before = int(task["before"])
+        after = int(task["after"])
+        per_book = int(task["per_book"])
+        total_limit = int(task["total_limit"])
+        include_fragments = bool(task["include_fragments"])
+        exclude_self = bool(task.get("exclude_self", False))
+        filter_ids = task.get("filter_ids")
+        base_filter_ids = task.get("base_filter_ids")
+        doc_samples = int(task.get("doc_samples") or 0)
+        book_ids = (
+            list(filter_ids)
+            if filter_ids is not None
+            else candidate_books_for_groups(cur, groups, schema=schema, base_filter_ids=base_filter_ids)
+        )
+        near_hits: List[Tuple[int, List[int]]] = []
+        for book_id in book_ids:
+            gp = group_positions_for_book(cur, groups, int(book_id), schema=schema)
+            pos = near_positions_from_groups(gp, off_min, off_max, exclude_self)
+            if pos:
+                near_hits.append((int(book_id), pos))
+        if doc_samples > 0 and len(near_hits) > doc_samples:
+            near_hits = random.sample(near_hits, doc_samples)
+        rows: List[Dict[str, object]] = []
+        for book_id, positions in near_hits:
+            sampled = positions if len(positions) <= per_book else random.sample(positions, per_book)
+            for ipos in sampled:
+                frag = (
+                    fetch_window(cur, curw, book_id, int(ipos), before, after)
+                    if include_fragments
+                    else ""
+                )
+                rows.append({"bookId": book_id, "pos": int(ipos), "frag": frag})
+                if total_limit and len(rows) >= total_limit:
+                    break
+            if total_limit and len(rows) >= total_limit:
+                break
+        return {"rows": rows}
+    finally:
+        con.close()
+        conw.close()
+
+
 @app.post("/near_query")
 def near_query(req: NearQueryRequest):
     if req.termGroups:
@@ -760,10 +894,12 @@ def near_query(req: NearQueryRequest):
     total = 0
     docs = 0
     found_any = False
+    parallel_shards = _python_parallel_shards_enabled(req.parallelShards)
+    parallel_tasks: List[Dict[str, Any]] = []
     off_min = -req.window if req.symmetric else 1
     off_max = req.window
-    for path in postings_paths:
-        con = connect_postings(path, CONFIG.ext_path)
+    for shard_index, path in enumerate(postings_paths):
+        con = connect_postings(path, CONFIG.ext_path, shard_sidecar_path(path, shard_index))
         conw = connect_words(shard_words_path(path))
         cur = con.cursor()
         curw = conw.cursor()
@@ -795,6 +931,29 @@ def near_query(req: NearQueryRequest):
                 use_filter = True
                 filter_json = json.dumps(filter_ids)
         found_any = True
+        codec = detect_postings_codec(cur)
+        if codec == "roaring_v1" and (req.schema or CONFIG.default_schema) == "unigrams":
+            task = {
+                "postings_path": path,
+                "sidecar_path": shard_sidecar_path(path, shard_index),
+                "ext_path": CONFIG.ext_path,
+                "groups": groups,
+                "schema": (req.schema or CONFIG.default_schema),
+                "off_min": off_min,
+                "off_max": off_max,
+                "exclude_self": req.excludeSelf,
+                "filter_ids": filter_ids if use_filter else None,
+                "base_filter_ids": base_filter_ids,
+            }
+            if parallel_shards and len(postings_paths) > 1:
+                parallel_tasks.append(task)
+            else:
+                shard_res = _near_query_roaring_worker(task)
+                total += int(shard_res.get("total", 0))
+                docs += int(shard_res.get("docs", 0))
+            con.close()
+            conw.close()
+            continue
         prepare_term_cf_table(cur, groups)
         use_bitmap_fn = USE_BITMAP_NEAR and _has_sql_function(
             cur, "post_near_count_bitmap_multi_groups"
@@ -851,63 +1010,54 @@ def near_query(req: NearQueryRequest):
                 total += int(row[0] or 0)
                 docs += int(row[1] or 0)
         else:
-            if len(groups) == 2:
-                if use_filter:
-                    from_clause = "FROM filter f JOIN {table} u ON u.book_id = f.urn"
-                else:
-                    from_clause = "FROM {table} u"
-                sql = f"""
-                WITH
-                {("filter AS (SELECT value AS urn FROM json_each(?))," if use_filter else "")}
-                combined AS (
-                    SELECT u.book_id,
-                           post_near_count_groups(t.grp, u.post, {off_min}, {off_max}) AS c
-                    {from_clause.format(table=(req.schema or CONFIG.default_schema))}
-                    JOIN term_cf t ON t.cf_id = u.cf_id
-                    GROUP BY u.book_id
-                )
-                SELECT
-                    SUM(CASE WHEN c > 0 THEN c ELSE 0 END) AS total,
-                    SUM(CASE WHEN c > 0 THEN 1 ELSE 0 END) AS docs
-                FROM combined
-                """
-                params = (filter_json,) if use_filter else ()
-            else:
-                ctes = []
-                if use_filter:
-                    ctes.append("filter AS (SELECT value AS urn FROM json_each(?))")
-                for i in range(1, len(groups) + 1):
-                    ctes.append(union_cte(req.schema or CONFIG.default_schema, i, use_filter))
+            ctes = []
+            if use_filter:
+                ctes.append("filter AS (SELECT value AS urn FROM json_each(?))")
+            for i in range(1, len(groups) + 1):
+                ctes.append(union_cte(req.schema or CONFIG.default_schema, i, use_filter))
 
-                select_cols = []
-                join_clause = "FROM g1"
-                for i in range(2, len(groups) + 1):
-                    join_clause += f" JOIN g{i} ON g{i}.book_id = g1.book_id"
-                for i in range(2, len(groups) + 1):
-                    select_cols.append(
-                        f"post_near_count(g1.blob, g{i}.blob, {off_min}, {off_max}) AS c{i}"
-                    )
-                select_cols_sql = ", ".join(select_cols)
-                where_all = " AND ".join([f"c{i} > 0" for i in range(2, len(groups) + 1)])
-                sum_cols = " + ".join([f"c{i}" for i in range(2, len(groups) + 1)])
-                sql = f"""
-                WITH
-                {", ".join(ctes)}
-                SELECT
-                    SUM(CASE WHEN {where_all} THEN {sum_cols} ELSE 0 END) AS total,
-                    SUM(CASE WHEN {where_all} THEN 1 ELSE 0 END) AS docs
-                FROM (
-                    SELECT g1.book_id, {select_cols_sql}
-                    {join_clause}
+            select_cols = []
+            join_clause = "FROM g1"
+            for i in range(2, len(groups) + 1):
+                join_clause += f" JOIN g{i} ON g{i}.book_id = g1.book_id"
+            for i in range(2, len(groups) + 1):
+                select_cols.append(
+                    f"post_near_count(g1.blob, g{i}.blob, {off_min}, {off_max}) AS c{i}"
                 )
-                """
-                params = (filter_json,) if use_filter else ()
+            select_cols_sql = ", ".join(select_cols)
+            where_all = " AND ".join([f"c{i} > 0" for i in range(2, len(groups) + 1)])
+            sum_cols = " + ".join([f"c{i}" for i in range(2, len(groups) + 1)])
+            sql = f"""
+            WITH
+            {", ".join(ctes)}
+            SELECT
+                SUM(CASE WHEN {where_all} THEN {sum_cols} ELSE 0 END) AS total,
+                SUM(CASE WHEN {where_all} THEN 1 ELSE 0 END) AS docs
+            FROM (
+                SELECT g1.book_id, {select_cols_sql}
+                {join_clause}
+            )
+            """
+            params = (filter_json,) if use_filter else ()
             row = cur.execute(sql, params).fetchone()
             if row:
                 total += int(row[0] or 0)
                 docs += int(row[1] or 0)
         con.close()
         conw.close()
+    if parallel_tasks:
+        try:
+            max_workers = _max_python_workers(len(parallel_tasks))
+            with ProcessPoolExecutor(max_workers=max_workers) as ex:
+                for shard_res in ex.map(_near_query_roaring_worker, parallel_tasks):
+                    total += int(shard_res.get("total", 0))
+                    docs += int(shard_res.get("docs", 0))
+        except Exception:
+            # Safety fallback for environments where process spawning is restricted.
+            for task in parallel_tasks:
+                shard_res = _near_query_roaring_worker(task)
+                total += int(shard_res.get("total", 0))
+                docs += int(shard_res.get("docs", 0))
     if not found_any:
         raise HTTPException(status_code=404, detail="No terms matched")
     return {"total": total, "docs": docs}
@@ -924,8 +1074,8 @@ def or_query(req: OrQueryRequest):
     postings_paths = CONFIG.postings_dbs
     rows: List[Tuple[int, int, str]] = []
     found_any = False
-    for path in postings_paths:
-        con = connect_postings(path, CONFIG.ext_path)
+    for shard_index, path in enumerate(postings_paths):
+        con = connect_postings(path, CONFIG.ext_path, shard_sidecar_path(path, shard_index))
         conw = connect_words(shard_words_path(path))
         cur = con.cursor()
         curw = conw.cursor()
@@ -1036,7 +1186,9 @@ def near_fragments(req: NearFragmentsRequest):
     off_max = req.window
     req_t0 = time.perf_counter()
     perf_shards: List[Dict[str, object]] = []
-    for path in postings_paths:
+    parallel_shards = _python_parallel_shards_enabled(req.parallelShards)
+    parallel_tasks: List[Dict[str, Any]] = []
+    for shard_index, path in enumerate(postings_paths):
         shard_t0 = time.perf_counter()
         rows_before_shard = len(rows)
         shard_perf: Dict[str, object] = {
@@ -1050,7 +1202,7 @@ def near_fragments(req: NearFragmentsRequest):
             "rows_added": 0,
             "total_ms": 0.0,
         }
-        con = connect_postings(path, CONFIG.ext_path)
+        con = connect_postings(path, CONFIG.ext_path, shard_sidecar_path(path, shard_index))
         conw = connect_words(shard_words_path(path))
         cur = con.cursor()
         curw = conw.cursor()
@@ -1088,120 +1240,47 @@ def near_fragments(req: NearFragmentsRequest):
                 use_filter = True
                 filter_json = json.dumps(filter_ids)
         shard_perf["prefilter_ms"] = round((time.perf_counter() - pre_t0) * 1000.0, 3)
-
-        # Fast near path for two singleton groups:
-        # use the same lean two-term near engine used by concordance.
-        if len(groups) == 2 and len(groups[0]) == 1 and len(groups[1]) == 1:
-            near_rows = sample_concordance_near(
-                cur,
-                curw,
-                groups[0][0],
-                groups[1][0],
-                req.perBook,
-                req.before,
-                req.after,
-                use_filter,
-                filter_json,
-                (req.schema or CONFIG.default_schema),
-                off_min,
-                off_max,
-                req.excludeSelf,
-            )
-            if req.docSamples and req.docSamples > 0 and near_rows:
-                doc_ids = sorted({b for b, _, _ in near_rows})
-                if len(doc_ids) > req.docSamples:
-                    keep_docs = set(random.sample(doc_ids, req.docSamples))
-                    near_rows = [r for r in near_rows if r[0] in keep_docs]
+        codec = detect_postings_codec(cur)
+        if codec == "roaring_v1" and (req.schema or CONFIG.default_schema) == "unigrams":
+            task = {
+                "postings_path": path,
+                "words_path": shard_words_path(path),
+                "sidecar_path": shard_sidecar_path(path, shard_index),
+                "ext_path": CONFIG.ext_path,
+                "groups": groups,
+                "schema": (req.schema or CONFIG.default_schema),
+                "off_min": off_min,
+                "off_max": off_max,
+                "before": req.before,
+                "after": req.after,
+                "per_book": req.perBook,
+                "doc_samples": int(req.docSamples or 0),
+                "total_limit": req.totalLimit,
+                "include_fragments": req.includeFragments,
+                "exclude_self": req.excludeSelf,
+                "filter_ids": filter_ids if use_filter else None,
+                "base_filter_ids": base_filter_ids,
+            }
+            if parallel_shards and len(postings_paths) > 1:
+                parallel_tasks.append(task)
+                con.close()
+                conw.close()
+                shard_perf["rows_added"] = 0
+                shard_perf["total_ms"] = round((time.perf_counter() - shard_t0) * 1000.0, 3)
+                perf_shards.append(shard_perf)
+                continue
+            py_t0 = time.perf_counter()
+            shard_rows = _near_fragments_roaring_worker(task).get("rows", [])
             if req.totalLimit:
                 remaining = max(req.totalLimit - len(rows), 0)
                 if remaining <= 0:
-                    near_rows = []
-                elif len(near_rows) > remaining:
-                    near_rows = near_rows[:remaining]
-            rows.extend(
-                [
-                    {
-                        "bookId": int(b),
-                        "pos": int(p),
-                        "frag": f if req.includeFragments else "",
-                    }
-                    for b, p, f in near_rows
-                ]
-            )
-            con.close()
-            conw.close()
-            shard_perf["rows_added"] = len(rows) - rows_before_shard
-            shard_perf["post_ms"] = round((time.perf_counter() - pre_t0) * 1000.0, 3)
-            shard_perf["total_ms"] = round((time.perf_counter() - shard_t0) * 1000.0, 3)
-            perf_shards.append(shard_perf)
-            if req.totalLimit and len(rows) >= req.totalLimit:
-                break
+                    shard_rows = []
+                elif len(shard_rows) > remaining:
+                    shard_rows = shard_rows[:remaining]
+            rows.extend(shard_rows)
             continue
 
-        # Optional explicit pre-union bitmap path for two-group CNF:
-        # OR each group to bitmap first, then run near directly on bitmaps.
-        if (
-            PREUNION_GROUPS
-            and USE_BITMAP_NEAR
-            and len(groups) == 2
-            and _has_sql_function(cur, "post_union_bitmap_agg")
-            and _has_sql_function(cur, "bitmap_near_sample_positions_json")
-        ):
-            prepare_term_cf_table(cur, groups)
-            if use_filter:
-                from_clause = "FROM filter f JOIN {table} u ON u.book_id = f.urn"
-            else:
-                from_clause = "FROM {table} u"
-            sql = f"""
-            WITH
-            {("filter AS (SELECT value AS urn FROM json_each(?))," if use_filter else "")}
-            grouped AS (
-                SELECT u.book_id, t.grp, post_union_bitmap_agg(u.post) AS bmap
-                {from_clause.format(table=(req.schema or CONFIG.default_schema))}
-                JOIN term_cf t ON t.cf_id = u.cf_id
-                GROUP BY u.book_id, t.grp
-            ),
-            paired AS (
-                SELECT g1.book_id, g1.bmap AS b1, g2.bmap AS b2
-                FROM grouped g1
-                JOIN grouped g2 ON g2.book_id = g1.book_id
-                WHERE g1.grp = 1 AND g2.grp = 2
-            )
-            SELECT
-                book_id,
-                bitmap_near_sample_positions_json(b1, b2, {off_min}, {off_max}, {req.perBook}) AS pos_json
-            FROM paired
-            """
-            params = (filter_json,) if use_filter else ()
-            candidates_json: List[Tuple[int, str]] = []
-            for book_id, pos_json in cur.execute(sql, params):
-                if not pos_json or pos_json == "[]":
-                    continue
-                candidates_json.append((int(book_id), pos_json))
-            if req.docSamples and req.docSamples > 0 and len(candidates_json) > req.docSamples:
-                candidates_json = random.sample(candidates_json, req.docSamples)
-            for book_id, pos_json in candidates_json:
-                try:
-                    positions = json.loads(pos_json)
-                except Exception:
-                    positions = []
-                for pos in positions:
-                    ipos = int(pos)
-                    frag = (
-                        fetch_window(cur, curw, book_id, ipos, req.before, req.after)
-                        if req.includeFragments
-                        else ""
-                    )
-                    rows.append({"bookId": book_id, "pos": ipos, "frag": frag})
-                    if req.totalLimit and len(rows) >= req.totalLimit:
-                        break
-                if req.totalLimit and len(rows) >= req.totalLimit:
-                    break
-            con.close()
-            conw.close()
-            if req.totalLimit and len(rows) >= req.totalLimit:
-                break
-            continue
+        # No two-term special path: always use the general grouped near flow.
 
         sql_t0 = time.perf_counter()
         prepare_term_cf_table(cur, groups)
@@ -1419,6 +1498,34 @@ def near_fragments(req: NearFragmentsRequest):
         perf_shards.append(shard_perf)
         if req.totalLimit and len(rows) >= req.totalLimit:
             break
+    if parallel_tasks:
+        try:
+            max_workers = _max_python_workers(len(parallel_tasks))
+            with ProcessPoolExecutor(max_workers=max_workers) as ex:
+                for shard_res in ex.map(_near_fragments_roaring_worker, parallel_tasks):
+                    shard_rows = shard_res.get("rows", [])
+                    if req.totalLimit:
+                        remaining = max(req.totalLimit - len(rows), 0)
+                        if remaining <= 0:
+                            break
+                        if len(shard_rows) > remaining:
+                            shard_rows = shard_rows[:remaining]
+                    rows.extend(shard_rows)
+                    if req.totalLimit and len(rows) >= req.totalLimit:
+                        break
+        except Exception:
+            # Safety fallback for environments where process spawning is restricted.
+            for task in parallel_tasks:
+                shard_rows = _near_fragments_roaring_worker(task).get("rows", [])
+                if req.totalLimit:
+                    remaining = max(req.totalLimit - len(rows), 0)
+                    if remaining <= 0:
+                        break
+                    if len(shard_rows) > remaining:
+                        shard_rows = shard_rows[:remaining]
+                rows.extend(shard_rows)
+                if req.totalLimit and len(rows) >= req.totalLimit:
+                    break
     if not rows:
         raise HTTPException(status_code=404, detail="No near fragments found")
     if PROFILE_NEAR:
@@ -1443,13 +1550,60 @@ def near_hits(req: NearFragmentsRequest):
     return {"rows": hits}
 
 
+@app.post("/render_hits")
+def render_hits(req: RenderHitsRequest):
+    if not req.rows:
+        raise HTTPException(status_code=400, detail="rows must contain at least one item")
+
+    target_rows = req.rows[: req.totalLimit]
+    pending: List[Dict[str, int]] = []
+    for row in target_rows:
+        if "bookId" not in row or "pos" not in row:
+            continue
+        pending.append({"bookId": int(row["bookId"]), "pos": int(row["pos"])})
+
+    if not pending:
+        raise HTTPException(status_code=400, detail="rows must contain bookId and pos")
+
+    out_rows: List[Dict[str, object]] = []
+    unresolved = list(pending)
+    for shard_index, path in enumerate(CONFIG.postings_dbs):
+        if not unresolved:
+            break
+        con = connect_postings(path, CONFIG.ext_path, shard_sidecar_path(path, shard_index))
+        conw = connect_words(shard_words_path(path))
+        cur = con.cursor()
+        curw = conw.cursor()
+        next_unresolved: List[Dict[str, int]] = []
+        for row in unresolved:
+            book_id = int(row["bookId"])
+            pos = int(row["pos"])
+            exists = cur.execute(
+                "SELECT 1 FROM urns WHERE book_id = ? LIMIT 1",
+                (book_id,),
+            ).fetchone()
+            if not exists:
+                next_unresolved.append(row)
+                continue
+            frag = fetch_window(cur, curw, book_id, pos, req.before, req.after)
+            out_rows.append({"bookId": book_id, "pos": pos, "frag": frag})
+        con.close()
+        conw.close()
+        unresolved = next_unresolved
+
+    if not out_rows:
+        raise HTTPException(status_code=404, detail="No rows could be rendered")
+
+    return {"rows": out_rows, "unresolved": unresolved}
+
+
 @app.post("/collocations")
 def collocations(req: CollocationsRequest):
     postings_paths = CONFIG.postings_dbs
     combined: Dict[str, int] = {}
     found_any = False
-    for path in postings_paths:
-        con = connect_postings(path, CONFIG.ext_path)
+    for shard_index, path in enumerate(postings_paths):
+        con = connect_postings(path, CONFIG.ext_path, shard_sidecar_path(path, shard_index))
         conw = connect_words(shard_words_path(path))
         cur = con.cursor()
         curw = conw.cursor()

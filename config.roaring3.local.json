@@ -1,0 +1,10 @@
+{
+  "postings_dbs": [
+    "/mnt/disk4/imagination_shards_roaring_v1/imag_roaring_00.db",
+    "/mnt/disk4/imagination_shards_roaring_v1/imag_roaring_01.db",
+    "/mnt/disk4/imagination_shards_roaring_v1/imag_roaring_02.db"
+  ],
+  "words_db": "",
+  "ext_path": "/mnt/disk1/Github/sqlite-backend/postings_native.so",
+  "default_schema": "unigrams"
+}

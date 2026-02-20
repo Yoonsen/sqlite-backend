@@ -1,0 +1,15 @@
+{
+  "postings_dbs": [
+    "/data/imagination_shards_roaring_main_v1/imag_roaring_main_0.db",
+    "/data/imagination_shards_roaring_main_v1/imag_roaring_main_1.db",
+    "/data/imagination_shards_roaring_main_v1/imag_roaring_main_2.db"
+  ],
+  "sidecar_dbs": [
+    "/data/imagination_shards_roaring_blk128_sidecar_v1/imag_roaring_blk128_sidecar_0.db",
+    "/data/imagination_shards_roaring_blk128_sidecar_v1/imag_roaring_blk128_sidecar_1.db",
+    "/data/imagination_shards_roaring_blk128_sidecar_v1/imag_roaring_blk128_sidecar_2.db"
+  ],
+  "words_db": "",
+  "ext_path": "/tmp/postings_native.so",
+  "default_schema": "unigrams"
+}

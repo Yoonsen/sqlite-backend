@@ -10,6 +10,7 @@ from typing import List, Optional
 @dataclass
 class AppConfig:
     postings_dbs: List[str]
+    sidecar_dbs: Optional[List[str]]
     words_db: Optional[str]
     ext_path: str
     default_schema: str
@@ -24,16 +25,24 @@ def load_config() -> AppConfig:
     postings_dbs = data.get("postings_dbs") or []
     if not postings_dbs:
         raise RuntimeError("postings_dbs is required in config.")
+    sidecar_dbs = data.get("sidecar_dbs") or None
     words_db = data.get("words_db") or None
     for path in postings_dbs:
         if not Path(path).exists():
             raise RuntimeError(f"postings_db not found: {path}")
+    if sidecar_dbs is not None:
+        if len(sidecar_dbs) != len(postings_dbs):
+            raise RuntimeError("sidecar_dbs must have same length as postings_dbs.")
+        for path in sidecar_dbs:
+            if not Path(path).exists():
+                raise RuntimeError(f"sidecar_db not found: {path}")
     if words_db and not Path(words_db).exists():
         raise RuntimeError(f"words_db not found: {words_db}")
     ext_path = data.get("ext_path") or ""
     default_schema = data.get("default_schema") or "unigrams"
     return AppConfig(
         postings_dbs=postings_dbs,
+        sidecar_dbs=sidecar_dbs,
         words_db=words_db,
         ext_path=ext_path,
         default_schema=default_schema,

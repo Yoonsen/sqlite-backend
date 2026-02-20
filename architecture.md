@@ -1,39 +1,47 @@
-# Arkitektur: DH-Postings (Token-basert Stand-off Indeks)
+# Arkitektur: DH-Postings (Main + Sidecar, Roaring runtime)
 
 ## Oversikt
-Systemet er en shardet, høy-ytelses fulltekstindeks designet for Digital Humaniora (DH). Det erstatter tradisjonell FTS5 med en deterministisk n-gram-indeks lagret som delta-kodede BLOB-er i SQLite.
+Systemet er en shardet, høy-ytelses fulltekstindeks designet for Digital Humaniora (DH). I nåværende modell brukes:
+
+- **Main shard DB**: `words`, `unigrams`, `urns`, `urns_postings`, `meta`
+- **Sidecar shard DB**: `token_blocks` for tekstvindu/visning
+
+Målet er å holde compute-løypa kompakt (postings/bitmaps) og visningsløypa separat.
 
 ## Kjernekomponenter
-1. **Tokens (Sannhetskilden):** Vertikal lagring av hver bok. Hvert ord/tegn er en rad med posisjon (`seq`).
-2. **Unigrams (Søkemotoren):** Invertert indeks for nærhet og sekvens basert på postings.
-3. **Lexicon (Mapping):** Global/lokal tabell som mapper `term` <-> `cf_id` (case-foldet integer).
+1. **Global lexicon (catalog):** Mapper ordformer til `global_cf_id` / `global_raw_id`.
+2. **Lokal words i shard:** Mapper `word` -> lokal `cf_id` + globale ID-er.
+3. **Unigrams (main shard):** Roaring-postings per `(book_id, cf_id)` for søk/near.
+4. **Token blocks (sidecar):** Segmentert tekstindeks (typisk 128) for fragmentuthenting.
 
-## Datamodell (SQLite Shard)
-Tabeller i hver `.sqlite`-fil (mål: ~500 mill tokens cutoff; historisk 0.5-1.5 mrd, men vi legger oss konservativt):
+## Datamodell (SQLite, nåværende)
 
-### 1. `tokens` (WITHOUT ROWID)
-Lagrer den lineære tekststrømmen.
-- `book_id` (INT)
-- `seq` (INT)
-- `cf_id` (INT): Case-foldet ID for analyse.
-- `raw_id` (INT): Originalform ID for visning.
-- `para` (INT), `page` (INT)
-- **PK:** `(book_id, seq)`
+### A) Main shard DB
+- `words(word, raw_id, cf_id, global_id, global_cf_id, global_raw_id, docfreq, total_tf, docpost, ...)`
+- `unigrams(book_id, cf_id, tf, post)` (Roaring BLOB i nåværende build)
+- `urns(book_id)`
+- `urns_postings(id, post)`
+- `meta(key, value)` med `postings_codec=roaring_v1`
 
-### 2. `ngrams` (WITHOUT ROWID)
-Invertert indeks for lynraske oppslag (når vi lagrer n-gram).
-- `key` (BLOB): Pakket sekvens av `cf_id` (4 bytes per ord).
-- `book_id` (INT)
-- `tf` (INT): Antall forekomster i boken (per bok).
-- `post` (BLOB): Delta-kodede `seq` (Varint/LEB128).
-- **PK:** `(key, book_id)`
-- **Index:** `(book_id, key)` (For analyse av enkeltverk).
+### B) Sidecar shard DB
+- `token_blocks(book_id, block_start, block_len, raw_ids)`
+- `meta(key, value)`
 
-### 3. `unigrams` / `bigrams` (WITHOUT ROWID)
-Vi starter med **unigrams** som grunnmotor og legger til **bigrams** gradvis.
-- `unigrams`: `cf_id`, `book_id`, `tf`, `post` med PK `(cf_id, book_id)`.
-- `bigrams`: `key`, `book_id`, `tf`, `post` med PK `(key, book_id)`.
-- **Cutoff:** bigrams kan lagres selektivt (høyfrekvente) for å holde shard liten.
+## Runtime-flyt (Python, nåværende)
+
+1. Term -> global/lokal lookup (`word` -> `global_cf_id` -> lokal `cf_id` per shard).
+2. Kandidatbøker fra docpost/group union/intersect.
+3. Near/OR på Roaring-postings i Python (`pyroaring`) for `roaring_v1`.
+4. Fragmentuthenting via `token_blocks` sidecar (fallback til `tokens` hvis finnes).
+
+Dette gir en robust løype selv når eldre C-UDF decode-path ikke matcher `roaring_v1`.
+
+## Map-reduce over shards
+
+- API kjører shard-resultater som map-fase.
+- Aggregasjon av counts/fragments er reduce-fase i API-laget.
+- `parallelShards` finnes i payload, og Python runtime er satt til parallell som default.
+- For små kall kan sekvensiell være billigere, men demo/korpus-kjøring drar nytte av parallellitet.
 
 ## Designnotater (MUS / praktiske rammer)
 - **Maks n-gramlengde:** 6-gram som øvre grense i postings.
@@ -49,7 +57,6 @@ Vi starter med **unigrams** som grunnmotor og legger til **bigrams** gradvis.
 - Dette gir ofte bedre total gjennomstrømning: sparer mye tid i batch og
   aksepterer litt ekstra postprosessering der orden er viktig.
 
-## Søkestrategi (Julia)
-1. **Eksakt n-gram:** Ett oppslag i `ngrams` tabellen via `key`.
-2. **Lengre sekvenser (L > n_index):** Slå opp det mest selektive n-grammet (lavest `df`), hent posisjoner, og gjør "hale-verifisering" mot `tokens` tabellen (seq + offset).
-3. **Kollokasjoner:** Slå opp anker-ord i `ngrams`, utfør vindu-søk i `tokens` tabellen.
+## Julia-branch
+
+Julia-branch er fortsatt i API-koden (engine-switch), men er midlertidig ikke aktiv i demo-flyt.

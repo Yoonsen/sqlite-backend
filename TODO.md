@@ -36,3 +36,8 @@
   - Prototype: `H = Gx & shift_right(Gy,1) & shift_right(Gz,2)` (evt. motsatt retning).
   - Avklare optimal implementasjon ved word-boundary carry (kan kreve to delrunder per shift i praksis).
   - Sammenligne sekvens-kjerne mot eksisterende near-kjerne for 2/3+ ord.
+- All-Roaring migrering (uten hybridformat) for docpost:
+  - Følg `ROARING_MIGRATION_PLAN.md` (faser 0-5).
+  - Leveranse 1: `ROARING_CODEC.md` + rebuild-script med validate mode.
+  - Leveranse 2: C/Julia/Python runtime med én Roaring-basert docpost-løype.
+  - Leveranse 3: parity/perf-gater og cutover per shard (blue/green).

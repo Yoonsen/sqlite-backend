@@ -46,7 +46,20 @@ end
 
 words_path(cfg::AppConfig, shard_path::String) = cfg.words_db === nothing ? shard_path : cfg.words_db
 
-function decode_postings(blob)::Vector{Int}
+const LIBROARING = "libroaring"
+
+function nonempty_json_array(x)::Bool
+    if x === nothing
+        return false
+    end
+    try
+        return !isempty(x)
+    catch
+        return false
+    end
+end
+
+function decode_postings_varint(blob)::Vector{Int}
     blob === nothing && return Int[]
     bytes = Vector{UInt8}(blob)
     out = Int[]
@@ -66,6 +79,57 @@ function decode_postings(blob)::Vector{Int}
         end
     end
     return out
+end
+
+function decode_postings_roaring(blob)::Vector{Int}
+    blob === nothing && return Int[]
+    bytes = Vector{UInt8}(blob)
+    isempty(bytes) && return Int[]
+    bm = ccall(
+        (:roaring_bitmap_portable_deserialize_safe, LIBROARING),
+        Ptr{Cvoid},
+        (Ptr{UInt8}, Csize_t),
+        pointer(bytes),
+        Csize_t(length(bytes)),
+    )
+    bm == C_NULL && return Int[]
+    try
+        card = ccall((:roaring_bitmap_get_cardinality, LIBROARING), UInt64, (Ptr{Cvoid},), bm)
+        card == 0 && return Int[]
+        arr = Vector{UInt32}(undef, Int(card))
+        ccall(
+            (:roaring_bitmap_to_uint32_array, LIBROARING),
+            Cvoid,
+            (Ptr{Cvoid}, Ptr{UInt32}),
+            bm,
+            pointer(arr),
+        )
+        return Int.(arr)
+    finally
+        ccall((:roaring_bitmap_free, LIBROARING), Cvoid, (Ptr{Cvoid},), bm)
+    end
+end
+
+function decode_postings(blob, codec::Symbol)::Vector{Int}
+    if codec == :roaring
+        return decode_postings_roaring(blob)
+    end
+    return decode_postings_varint(blob)
+end
+
+function detect_postings_codec(db)::Symbol
+    try
+        q = DBInterface.execute(db, "SELECT value FROM meta WHERE key = 'postings_codec' LIMIT 1")
+        it = iterate(q)
+        if it !== nothing
+            v = String(it[1][1])
+            if lowercase(strip(v)) == "roaring_v1"
+                return :roaring
+            end
+        end
+    catch
+    end
+    return :varint
 end
 
 function merge_sorted_unique(a::Vector{Int}, b::Vector{Int})::Vector{Int}
@@ -135,7 +199,7 @@ function cf_ids_for_term(words_db, term::String, max_variants::Int)::Vector{Int}
     return row === nothing ? Int[] : [Int(row[1])]
 end
 
-function group_doc_ids(words_db, cf_ids::Vector{Int})::Union{Nothing, Set{Int}}
+function group_doc_ids(words_db, cf_ids::Vector{Int}, codec::Symbol)::Union{Nothing, Set{Int}}
     # Returns:
     # - Set{Int}: if docpost is available
     # - nothing:  if docpost prefilter cannot be used for this group
@@ -153,7 +217,7 @@ function group_doc_ids(words_db, cf_ids::Vector{Int})::Union{Nothing, Set{Int}}
                 continue
             end
             had_blob = true
-            for id in decode_postings(blob)
+            for id in decode_postings(blob, codec)
                 push!(out, id)
             end
         end
@@ -167,6 +231,7 @@ function fetch_group_positions(
     shard_db,
     cf_ids::Vector{Int},
     candidate_books::Union{Nothing, Vector{Int}},
+    codec::Symbol,
 )::Dict{Int, Vector{Int}}
     out = Dict{Int, Vector{Int}}()
     isempty(cf_ids) && return out
@@ -183,7 +248,7 @@ function fetch_group_positions(
     rows = DBInterface.execute(shard_db, sql, Tuple(params))
     for r in rows
         book_id = Int(r[1])
-        pos = decode_postings(r[2])
+        pos = decode_postings(r[2], codec)
         isempty(pos) && continue
         if haskey(out, book_id)
             out[book_id] = merge_sorted_unique(out[book_id], pos)
@@ -195,10 +260,13 @@ function fetch_group_positions(
 end
 
 function build_groups(payload)::Vector{Vector{String}}
-    if haskey(payload, :termGroups)
+    if haskey(payload, :termGroups) && nonempty_json_array(payload.termGroups)
         return [[String(t) for t in g] for g in payload.termGroups]
     end
-    terms = get(payload, :terms, String[])
+    terms = get(payload, :terms, nothing)
+    if !nonempty_json_array(terms)
+        return Vector{Vector{String}}()
+    end
     return [[String(t)] for t in terms]
 end
 
@@ -276,6 +344,8 @@ function process_shard(
 
     shard_db = SQLite.DB(shard_path)
     words_db = SQLite.DB(words_path(cfg, shard_path))
+    shard_codec = detect_postings_codec(shard_db)
+    words_codec = detect_postings_codec(words_db)
 
     tr = time_ns()
     group_cf_ids = Vector{Vector{Int}}()
@@ -309,7 +379,7 @@ function process_shard(
     usable_prefilter = true
     doc_sets = Vector{Set{Int}}()
     for ids in group_cf_ids
-        s = group_doc_ids(words_db, ids)
+        s = group_doc_ids(words_db, ids, words_codec)
         if s === nothing
             usable_prefilter = false
             break
@@ -336,7 +406,7 @@ function process_shard(
     phase_ms["docprefilter_ms"] += (time_ns() - td) / 1e6
 
     tf = time_ns()
-    group_maps = [fetch_group_positions(shard_db, ids, candidate) for ids in group_cf_ids]
+    group_maps = [fetch_group_positions(shard_db, ids, candidate, shard_codec) for ids in group_cf_ids]
     books = common_books(group_maps)
     phase_ms["fetch_positions_ms"] += (time_ns() - tf) / 1e6
 

@@ -1,5 +1,46 @@
 ## Logbook
 
+### 2026-02-20
+- Etablerte `main + sidecar`-modell i praksis:
+  - main-shards med `words/unigrams/urns` uten `tokens`
+  - sidecar med `token_blocks` for visning/fragmenter
+- La inn sidecar-ruting i API:
+  - `config` støtter `sidecar_dbs`
+  - `connect_postings` attacher sidecar per shard
+  - `fetch_window`/kollokasjoner støtter fallback fra `tokens` til `token_blocks`
+- Bygget global ordkatalog og ingest-flyt:
+  - `global_cf_id`/`global_raw_id` i shard `words`
+  - frekvensaggregater (`docfreq/total_tf/shard_count`) oppdatert ved ingest
+  - verifisert global->lokal kobling med reelle ord (`demokrati`) og pos-postings
+- Verifiserte Roaring-path:
+  - fant codec-mismatch i legacy C-UDF-løype for Roaring-postings
+  - la inn Python Roaring decode-path (`pyroaring`) for near/OR runtime
+  - bekreftet korrekte treff og fragmenter for near + OR-grupper
+- Innførte shard map-reduce i Python runtime:
+  - `parallelShards` støttes i near-endpoints
+  - parallell shard-kjøring via prosesser + sikker fallback til sekvensiell
+- Fjernet to-ords særgrener i near-flyt:
+  - samlet løype for gruppesøk (ingen dedikert 2-terms fast path)
+  - verifisert med `[spiser][middag]` og OR-grupper
+- Docker/Harbor:
+  - oppdatert image med `pyroaring`
+  - dokumenterte run-oppsett i `docker.md`
+  - pushet oppdaterte `main-sidecar` builds til Harbor for db1-deploy
+- Status:
+  - enkeltord + OR + near fungerer i hovedløype
+  - frontend kan bruke bracket/CNF-løype stabilt
+  - neste milepæl: geo standoff markup
+
+### 2026-02-19
+- Kjørte shard-metrikk for planlegging av ny shard-policy og Roaring-migrering:
+  - `imag_00`: 13,694 bøker, 942,903,382 `tokens`, 112,881,290 `unigrams`, ~31.0 GB
+  - `imag_01`: 13,024 bøker, 878,064,362 `tokens`, 101,787,218 `unigrams`, ~28.8 GB
+  - `docpost` p99 lengde ~284-297 bytes; maks ~6.6-7.4 KB
+- Beslutning for videre arbeid: gå for all-Roaring for docpost (ett format, ingen hybrid i bunnarkitekturen).
+- La inn konkret gjennomføringsplan i `ROARING_MIGRATION_PLAN.md`:
+  - formatkontrakt, rebuild-strategi, parity/perf-gater, cutover og rollback.
+- Oppdaterte TODO med eksplisitt all-Roaring leveranseplan (codec + rebuild + runtime + gates).
+
 ### 2026-02-18
 - La inn hybrid engine-stotte i Python API for `near_query`/`near_fragments`/`near_hits` via payload-felt:
   - `engine`: `python` eller `julia`

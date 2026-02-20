@@ -3,17 +3,35 @@ from __future__ import annotations
 import json
 import random
 import sqlite3
+from bisect import bisect_left, bisect_right
 from pathlib import Path
 from typing import Dict, Iterable, List, Optional, Tuple
 
+try:
+    from pyroaring import BitMap as RoaringBitMap
+except Exception:  # pragma: no cover - optional runtime dependency
+    RoaringBitMap = None
 
-def connect_postings(db_path: str, ext_path: str) -> sqlite3.Connection:
+_CODEC_CACHE: Dict[int, str] = {}
+
+
+def connect_postings(
+    db_path: str, ext_path: str, sidecar_path: Optional[str] = None
+) -> sqlite3.Connection:
     if not Path(db_path).exists():
         raise FileNotFoundError(f"Postings DB not found: {db_path}")
     con = sqlite3.connect(f"file:{db_path}?mode=ro", uri=True)
     con.enable_load_extension(True)
     if ext_path:
         con.execute("SELECT load_extension(?, ?)", (ext_path, "sqlite3_postings_init"))
+    if sidecar_path and Path(sidecar_path).exists():
+        sidecar_uri = f"file:{sidecar_path}?mode=ro&immutable=1"
+        try:
+            con.execute("ATTACH DATABASE ? AS sidecar", (sidecar_uri,))
+        except sqlite3.OperationalError:
+            # Some SQLite builds may not treat ATTACH parameter as URI.
+            # Fallback to plain path attach.
+            con.execute("ATTACH DATABASE ? AS sidecar", (str(sidecar_path),))
     return con
 
 
@@ -36,78 +54,269 @@ def get_cf_id(curw: sqlite3.Cursor, word: str) -> Optional[int]:
     return row[0] if row else None
 
 
-def _docpost_union_blob(cur: sqlite3.Cursor, cf_ids: List[int]) -> Optional[bytes]:
+def _postings_codec(cur: sqlite3.Cursor) -> str:
+    key = id(cur.connection)
+    cached = _CODEC_CACHE.get(key)
+    if cached:
+        return cached
+    codec = "legacy_varint"
+    try:
+        row = cur.execute(
+            "SELECT value FROM meta WHERE key = 'postings_codec' LIMIT 1"
+        ).fetchone()
+        if row and row[0]:
+            codec = str(row[0]).strip()
+    except sqlite3.OperationalError:
+        pass
+    _CODEC_CACHE[key] = codec
+    return codec
+
+
+def detect_postings_codec(cur: sqlite3.Cursor) -> str:
+    return _postings_codec(cur)
+
+
+def _decode_positions_blob(cur: sqlite3.Cursor, blob: bytes) -> List[int]:
+    if not blob:
+        return []
+    codec = _postings_codec(cur)
+    if codec == "roaring_v1":
+        if RoaringBitMap is None:
+            raise RuntimeError("pyroaring is required for roaring_v1 postings decode")
+        return list(RoaringBitMap.deserialize(blob))
+    row = cur.execute("SELECT post_positions(?)", (blob,)).fetchone()
+    if not row or not row[0]:
+        return []
+    return [int(x) for x in json.loads(row[0])]
+
+
+def _all_doc_ids(cur: sqlite3.Cursor) -> List[int]:
+    # Fast path for shard-level doc universe.
+    row = cur.execute("SELECT post FROM urns_postings WHERE id = 1").fetchone()
+    if row and row[0]:
+        return _decode_positions_blob(cur, row[0])
+    rows = cur.execute("SELECT book_id FROM urns ORDER BY book_id").fetchall()
+    return [int(r[0]) for r in rows]
+
+
+def _docpost_union_ids(cur: sqlite3.Cursor, cf_ids: List[int]) -> Optional[List[int]]:
     if not cf_ids:
         return None
     placeholders = ",".join("?" for _ in cf_ids)
     try:
-        row = cur.execute(
+        rows = cur.execute(
             f"""
-            WITH u AS (SELECT post AS all_docs FROM urns_postings WHERE id = 1)
-            SELECT post_union_agg(
-                CASE
-                    WHEN w.docpost_is_complement = 1 THEN post_complement(w.docpost, u.all_docs)
-                    ELSE w.docpost
-                END
-            )
-            FROM words w, u
-            WHERE w.cf_id IN ({placeholders})
+            SELECT cf_id, docpost, docpost_is_complement
+            FROM words
+            WHERE cf_id IN ({placeholders})
+            GROUP BY cf_id
             """,
-            cf_ids,
-        ).fetchone()
+            tuple(cf_ids),
+        ).fetchall()
     except sqlite3.OperationalError:
-        try:
-            row = cur.execute(
-                f"""
-                SELECT post_union_agg(docpost)
-                FROM words
-                WHERE cf_id IN ({placeholders})
-                  AND docpost_is_complement = 0
-                """,
-                cf_ids,
-            ).fetchone()
-        except sqlite3.OperationalError:
-            # Some local/legacy DBs do not have docpost columns at all.
-            # In that case we disable docpost prefiltering and let callers
-            # fall back to urn sampling / no prefilter.
-            return None
-    if not row:
         return None
-    return row[0]
+    if not rows:
+        return None
+    all_docs_cache: Optional[set[int]] = None
+    out: set[int] = set()
+    for _, blob, is_complement in rows:
+        ids = set(_decode_positions_blob(cur, blob))
+        if int(is_complement or 0) == 1:
+            if all_docs_cache is None:
+                all_docs_cache = set(_all_doc_ids(cur))
+            ids = all_docs_cache - ids
+        out |= ids
+    return sorted(out)
 
 
-def _intersect_blobs(cur: sqlite3.Cursor, blobs: List[bytes]) -> Optional[bytes]:
-    out: Optional[bytes] = None
+def _intersect_sorted_lists(lists: List[List[int]]) -> List[int]:
+    if not lists:
+        return []
+    out = set(lists[0])
+    for arr in lists[1:]:
+        out &= set(arr)
+        if not out:
+            return []
+    return sorted(out)
+
+
+def _positions_sample(positions: List[int], n: int) -> List[int]:
+    if not positions or n <= 0:
+        return []
+    if len(positions) <= n:
+        return positions
+    return random.sample(positions, n)
+
+
+def _union_roaring_posts(blobs: List[bytes]) -> List[int]:
+    if not blobs:
+        return []
+    if RoaringBitMap is None:
+        raise RuntimeError("pyroaring is required for roaring_v1 postings union")
+    out = RoaringBitMap()
     for blob in blobs:
-        if not blob:
-            return None
-        if out is None:
-            out = blob
-            continue
-        row = cur.execute("SELECT post_intersect_blob(?, ?)", (out, blob)).fetchone()
-        if not row:
-            return None
-        out = row[0]
+        if blob:
+            out |= RoaringBitMap.deserialize(blob)
+    return list(out)
+
+
+def _union_positions_for_book(cur: sqlite3.Cursor, cf_ids: List[int], book_id: int) -> List[int]:
+    placeholders = ",".join("?" for _ in cf_ids)
+    rows = cur.execute(
+        f"SELECT post FROM unigrams WHERE book_id = ? AND cf_id IN ({placeholders})",
+        (book_id, *cf_ids),
+    ).fetchall()
+    blobs = [r[0] for r in rows if r and r[0]]
+    if not blobs:
+        return []
+    if _postings_codec(cur) == "roaring_v1":
+        return _union_roaring_posts(blobs)
+    positions: List[int] = []
+    seen = set()
+    for blob in blobs:
+        for p in _decode_positions_blob(cur, blob):
+            if p not in seen:
+                seen.add(p)
+                positions.append(p)
+    positions.sort()
+    return positions
+
+
+def candidate_books_for_groups(
+    cur: sqlite3.Cursor,
+    groups: List[List[int]],
+    schema: str = "unigrams",
+    base_filter_ids: Optional[List[int]] = None,
+) -> List[int]:
+    if not groups:
+        return []
+    filter_set = set(base_filter_ids) if base_filter_ids else None
+    per_group: List[set[int]] = []
+    for group in groups:
+        if not group:
+            return []
+        placeholders = ",".join("?" for _ in group)
+        rows = cur.execute(
+            f"SELECT DISTINCT book_id FROM {schema} WHERE cf_id IN ({placeholders})",
+            tuple(group),
+        ).fetchall()
+        s = {int(r[0]) for r in rows}
+        if filter_set is not None:
+            s &= filter_set
+        per_group.append(s)
+    out = per_group[0]
+    for s in per_group[1:]:
+        out &= s
+        if not out:
+            return []
+    return sorted(out)
+
+
+def group_positions_for_book(
+    cur: sqlite3.Cursor,
+    groups: List[List[int]],
+    book_id: int,
+    schema: str = "unigrams",
+) -> List[List[int]]:
+    if schema != "unigrams":
+        # Current roaring runtime fallback is scoped to unigrams.
+        return []
+    return [_union_positions_for_book(cur, g, book_id) for g in groups]
+
+
+def _has_pos_in_window(positions: List[int], center: int, off_min: int, off_max: int) -> bool:
+    if not positions:
+        return False
+    lo = center + off_min
+    hi = center + off_max
+    i = bisect_left(positions, lo)
+    return i < len(positions) and positions[i] <= hi
+
+
+def near_positions_from_groups(
+    group_positions: List[List[int]],
+    off_min: int,
+    off_max: int,
+    exclude_self: bool = False,
+) -> List[int]:
+    if not group_positions or len(group_positions) < 2:
+        return []
+    anchor = group_positions[0]
+    if not anchor:
+        return []
+    others = group_positions[1:]
+    same_group_mode = (
+        exclude_self
+        and len(group_positions) == 2
+        and off_min <= 0 <= off_max
+        and group_positions[0] == group_positions[1]
+    )
+    out: List[int] = []
+    for p in anchor:
+        ok = True
+        for g in others:
+            if same_group_mode:
+                lo = p + off_min
+                hi = p + off_max
+                i = bisect_left(g, lo)
+                j = bisect_right(g, hi)
+                # Require at least one neighbor different from anchor position.
+                found_other = any(g[k] != p for k in range(i, j))
+                if not found_other:
+                    ok = False
+                    break
+                continue
+            if not _has_pos_in_window(g, p, off_min, off_max):
+                ok = False
+                break
+        if ok:
+            out.append(int(p))
     return out
 
 
-def docpost_book_ids(cur: sqlite3.Cursor, cf_groups: List[List[int]]) -> Optional[List[int]]:
+def near_count_from_groups(
+    group_positions: List[List[int]],
+    off_min: int,
+    off_max: int,
+    exclude_self: bool = False,
+) -> int:
+    return len(near_positions_from_groups(group_positions, off_min, off_max, exclude_self))
+
+
+def _sample_position_from_blob(cur: sqlite3.Cursor, blob: bytes, n: int) -> List[int]:
+    positions = _decode_positions_blob(cur, blob)
+    return _positions_sample(positions, n)
+
+
+def _decode_count_from_blob(cur: sqlite3.Cursor, blob: bytes) -> int:
+    return len(_decode_positions_blob(cur, blob))
+
+
+def _decode_positions_intersect(cur: sqlite3.Cursor, blobs: List[bytes]) -> List[int]:
+    if not blobs:
+        return []
+    lists = [_decode_positions_blob(cur, b) for b in blobs if b]
+    if not lists:
+        return []
+    return _intersect_sorted_lists(lists)
+
+
+def _docpost_book_ids_python(cur: sqlite3.Cursor, cf_groups: List[List[int]]) -> Optional[List[int]]:
     if not cf_groups:
         return []
-    blobs: List[bytes] = []
+    group_ids: List[List[int]] = []
     for group in cf_groups:
-        blob = _docpost_union_blob(cur, group)
-        if not blob:
+        ids = _docpost_union_ids(cur, group)
+        if ids is None:
             continue
-        blobs.append(blob)
-    if not blobs:
+        group_ids.append(ids)
+    if not group_ids:
         return None
-    inter = _intersect_blobs(cur, blobs)
-    if not inter:
-        return []
-    row = cur.execute("SELECT post_positions(?)", (inter,)).fetchone()
-    positions = json.loads(row[0]) if row and row[0] else []
-    return [int(p) for p in positions]
+    return _intersect_sorted_lists(group_ids)
+
+
+def docpost_book_ids(cur: sqlite3.Cursor, cf_groups: List[List[int]]) -> Optional[List[int]]:
+    return _docpost_book_ids_python(cur, cf_groups)
 
 
 def docpost_sample_book_ids(
@@ -168,6 +377,86 @@ def raw_words(curw: sqlite3.Cursor, raw_ids: Iterable[int]) -> Dict[int, str]:
     return {rid: w for rid, w in rows}
 
 
+def _decode_varints(blob: bytes, max_items: Optional[int] = None) -> List[int]:
+    out: List[int] = []
+    i = 0
+    n = len(blob)
+    while i < n:
+        shift = 0
+        value = 0
+        while True:
+            if i >= n:
+                return out
+            b = blob[i]
+            i += 1
+            value |= (b & 0x7F) << shift
+            if (b & 0x80) == 0:
+                break
+            shift += 7
+        out.append(value)
+        if max_items is not None and len(out) >= max_items:
+            return out
+    return out
+
+
+def _has_sidecar(cur: sqlite3.Cursor) -> bool:
+    try:
+        rows = cur.execute("PRAGMA database_list").fetchall()
+    except sqlite3.OperationalError:
+        return False
+    return any(str(r[1]) == "sidecar" for r in rows)
+
+
+def _fetch_raw_window_rows_from_blocks(
+    cur: sqlite3.Cursor, book_id: int, start: int, end: int
+) -> List[Tuple[int, int]]:
+    if not _has_sidecar(cur):
+        raise sqlite3.OperationalError("tokens table missing and no sidecar attached")
+    rows = cur.execute(
+        """
+        SELECT block_start, block_len, raw_ids
+        FROM sidecar.token_blocks
+        WHERE book_id = ?
+          AND block_start <= ?
+          AND (block_start + block_len - 1) >= ?
+        ORDER BY block_start
+        """,
+        (book_id, end, start),
+    ).fetchall()
+    out: List[Tuple[int, int]] = []
+    for block_start, block_len, raw_blob in rows:
+        raw_ids = _decode_varints(raw_blob, int(block_len))
+        bstart = int(block_start)
+        blen = int(block_len)
+        for i, raw_id in enumerate(raw_ids[:blen]):
+            seq = bstart + i
+            if seq < start:
+                continue
+            if seq > end:
+                break
+            out.append((seq, int(raw_id)))
+    return out
+
+
+def _fetch_raw_window_rows(
+    cur: sqlite3.Cursor, book_id: int, start: int, end: int
+) -> List[Tuple[int, int]]:
+    try:
+        return cur.execute(
+            """
+            SELECT seq, raw_id
+            FROM tokens
+            WHERE book_id = ? AND seq BETWEEN ? AND ?
+            ORDER BY seq
+            """,
+            (book_id, start, end),
+        ).fetchall()
+    except sqlite3.OperationalError as exc:
+        if "no such table: tokens" not in str(exc).lower():
+            raise
+        return _fetch_raw_window_rows_from_blocks(cur, book_id, start, end)
+
+
 def fetch_window(
     cur: sqlite3.Cursor,
     curw: sqlite3.Cursor,
@@ -176,18 +465,9 @@ def fetch_window(
     before: int,
     after: int,
 ) -> str:
-    inner = cur.connection.cursor()
     start = max(center - before, 0)
     end = center + after
-    rows = inner.execute(
-        """
-        SELECT seq, raw_id
-        FROM tokens
-        WHERE book_id = ? AND seq BETWEEN ? AND ?
-        ORDER BY seq
-        """,
-        (book_id, start, end),
-    ).fetchall()
+    rows = _fetch_raw_window_rows(cur, book_id, start, end)
     raw_map = raw_words(curw, [r[1] for r in rows])
     tokens = []
     for seq, raw_id in rows:
@@ -209,7 +489,6 @@ def sample_concordance_single(
     use_filter: bool,
     filter_json: Optional[str],
 ) -> List[Tuple[int, int, str]]:
-    inner = cur.connection.cursor()
     if use_filter:
         sql = """
             SELECT u.book_id, u.tf, u.post
@@ -221,18 +500,13 @@ def sample_concordance_single(
         sql = "SELECT book_id, tf, post FROM unigrams WHERE cf_id = ?"
     out = []
     params = (filter_json, cf_id) if use_filter else (cf_id,)
-    for book_id, tf, post in cur.execute(sql, params):
-        if tf <= 0:
+    for book_id, _, post in cur.execute(sql, params):
+        positions = _decode_positions_blob(cur, post)
+        if not positions:
             continue
-        samples = min(per_book, tf)
-        for _ in range(samples):
-            idx = random.randrange(tf)
-            row = inner.execute("SELECT post_sample(?, ?)", (post, idx)).fetchone()
-            if row is None or row[0] is None:
-                continue
-            pos = int(row[0])
+        for pos in _positions_sample(positions, per_book):
             frag = fetch_window(cur, curw, book_id, pos, before, after)
-            out.append((book_id, pos, frag))
+            out.append((int(book_id), int(pos), frag))
     return out
 
 
@@ -248,42 +522,28 @@ def sample_concordance_union(
 ) -> List[Tuple[int, int, str]]:
     if not cf_ids:
         return []
-    inner = cur.connection.cursor()
     placeholders = ",".join("?" for _ in cf_ids)
     if use_filter:
-        sql = f"""
-            SELECT u.book_id, post_union_agg(u.post) AS post
+        book_rows = cur.execute(
+            f"""
+            SELECT DISTINCT u.book_id
             FROM json_each(?) f
             JOIN unigrams u ON u.book_id = f.value
             WHERE u.cf_id IN ({placeholders})
-            GROUP BY u.book_id
-        """
-        params = (filter_json, *cf_ids)
+            """,
+            (filter_json, *cf_ids),
+        ).fetchall()
     else:
-        sql = f"""
-            SELECT u.book_id, post_union_agg(u.post) AS post
-            FROM unigrams u
-            WHERE u.cf_id IN ({placeholders})
-            GROUP BY u.book_id
-        """
-        params = tuple(cf_ids)
+        book_rows = cur.execute(
+            f"SELECT DISTINCT book_id FROM unigrams WHERE cf_id IN ({placeholders})",
+            tuple(cf_ids),
+        ).fetchall()
     out: List[Tuple[int, int, str]] = []
-    for book_id, post in cur.execute(sql, params):
-        if not post:
-            continue
-        cnt_row = inner.execute("SELECT post_count(?)", (post,)).fetchone()
-        total = int(cnt_row[0] or 0) if cnt_row else 0
-        if total <= 0:
-            continue
-        samples = min(per_book, total)
-        indices = random.sample(range(total), samples)
-        for idx in indices:
-            pos_row = inner.execute("SELECT post_sample(?, ?)", (post, idx)).fetchone()
-            if pos_row is None or pos_row[0] is None:
-                continue
-            pos = int(pos_row[0])
+    for (book_id,) in book_rows:
+        positions = _union_positions_for_book(cur, cf_ids, int(book_id))
+        for pos in _positions_sample(positions, per_book):
             frag = fetch_window(cur, curw, book_id, pos, before, after)
-            out.append((book_id, pos, frag))
+            out.append((int(book_id), int(pos), frag))
     return out
 
 
@@ -446,17 +706,9 @@ def sample_collocations(
             if row is None or row[0] is None:
                 continue
             pos = int(row[0])
-            rows = inner.execute(
-                """
-                SELECT raw_id
-                FROM tokens
-                WHERE book_id = ? AND seq BETWEEN ? AND ?
-                ORDER BY seq
-                """,
-                (book_id, max(pos - before, 0), pos + after),
-            ).fetchall()
-            raw_map = raw_words(curw, [r[0] for r in rows])
-            for (raw_id,) in rows:
+            window_rows = _fetch_raw_window_rows(cur, book_id, max(pos - before, 0), pos + after)
+            raw_map = raw_words(curw, [r[1] for r in window_rows])
+            for _, raw_id in window_rows:
                 w = raw_map.get(raw_id, "?").casefold()
                 counts[w] = counts.get(w, 0) + 1
     return counts
