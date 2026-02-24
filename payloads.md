@@ -2,15 +2,13 @@
 
 This file is meant as a frontend-facing payload reference.
 
-## 1) Single term concordance (with or without wildcard)
+## 1) Single-group concordance-style search (recommended)
 
-Endpoint: `POST /concordance`
+Endpoint: `POST /or_query`
 
 ```json
 {
-  "wordA": "norge*",
-  "wordB": "",
-  "window": 5,
+  "termGroups": [["norge*"]],
   "before": 5,
   "after": 5,
   "perBook": 3,
@@ -19,19 +17,17 @@ Endpoint: `POST /concordance`
   "schema": "unigrams",
   "useFilter": false,
   "filterIds": [],
-  "symmetric": true,
-  "excludeSelf": false
+  "maxVariants": 10
 }
 ```
 
-## 2) Two-term concordance / near
+## 2) Two-term near fragments (recommended)
 
-Endpoint: `POST /concordance`
+Endpoint: `POST /near_fragments`
 
 ```json
 {
-  "wordA": "elskov",
-  "wordB": "kjærlighed",
+  "termGroups": [["elskov"], ["kjærlighed"]],
   "window": 5,
   "before": 5,
   "after": 5,
@@ -58,6 +54,7 @@ Endpoints:
 ```json
 {
   "terms": ["elskov", "kjærlighed", "hjerte"],
+  "matchMode": "near",
   "window": 5,
   "before": 5,
   "after": 5,
@@ -87,6 +84,7 @@ Endpoints:
 ```json
 {
   "termGroups": [["eskimoer", "eskimoerne"], ["er", "var"], ["snø", "is"]],
+  "matchMode": "near",
   "window": 5,
   "before": 5,
   "after": 5,
@@ -140,7 +138,7 @@ Endpoint: `POST /collocations`
 }
 ```
 
-## 7) Near frequency
+## 7) Near frequency (legacy shape)
 
 Endpoint: `POST /near_frequency`
 
@@ -165,5 +163,9 @@ Endpoint: `POST /near_frequency`
 - `filterIds` is optional corpus filtering (book IDs).
 - `symmetric=false` means forward-only matching.
 - For near endpoints, `termGroups` is now sufficient by itself; `terms` is optional.
+- For near endpoints, `matchMode` can be:
+  - `near` (default): window-based proximity
+  - `sequence`: strict phrase-style sequence (`group1@p`, `group2@p+1`, ...)
 - For near endpoints, `engine` can be `python` (default) or `julia` (requires server env `POSTINGS_JULIA_HYBRID=1`).
 - For Julia engine, `parallelShards` controls shard tasking (`true`/`false`).
+- `wordA`/`wordB` + `/concordance` are legacy compatibility fields/endpoints. New clients should use `termGroups`/`terms` with `/or_query` or `/near_*`.

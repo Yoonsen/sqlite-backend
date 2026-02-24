@@ -283,6 +283,37 @@ def near_count_from_groups(
     return len(near_positions_from_groups(group_positions, off_min, off_max, exclude_self))
 
 
+def sequence_positions_from_groups(
+    group_positions: List[List[int]],
+) -> List[int]:
+    """
+    Return anchor positions for strict sequence matching with step=1.
+    Example for 3 groups: require p in g1, p+1 in g2, p+2 in g3.
+    """
+    if not group_positions or len(group_positions) < 2:
+        return []
+    anchor = group_positions[0]
+    if not anchor:
+        return []
+    others = [set(g) for g in group_positions[1:]]
+    out: List[int] = []
+    for p in anchor:
+        ok = True
+        for i, s in enumerate(others, start=1):
+            if (p + i) not in s:
+                ok = False
+                break
+        if ok:
+            out.append(int(p))
+    return out
+
+
+def sequence_count_from_groups(
+    group_positions: List[List[int]],
+) -> int:
+    return len(sequence_positions_from_groups(group_positions))
+
+
 def _sample_position_from_blob(cur: sqlite3.Cursor, blob: bytes, n: int) -> List[int]:
     positions = _decode_positions_blob(cur, blob)
     return _positions_sample(positions, n)

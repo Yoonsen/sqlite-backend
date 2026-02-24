@@ -34,6 +34,7 @@ RUN pip install --no-cache-dir -r /app/api_python/requirements.txt
 
 COPY api_python /app/api_python
 COPY api_julia /app/api_julia
+COPY dispatch_by_shard.py /app/dispatch_by_shard.py
 COPY postings.c /app/postings.c
 COPY docker/entrypoint.sh /app/entrypoint.sh
 COPY docker/julia-run.sh /app/julia-run.sh

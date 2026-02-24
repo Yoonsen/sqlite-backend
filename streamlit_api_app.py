@@ -103,7 +103,7 @@ def api_post(base_url: str, path: str, payload: Dict[str, Any], timeout_s: int =
 
 
 st.set_page_config(page_title="Postings API tester", layout="wide")
-st.title("Postings API tester (terms / termGroups)")
+st.title("Postings API tester (group-based payloads)")
 
 with st.sidebar:
     st.header("Connection")
@@ -128,7 +128,7 @@ with st.sidebar:
     base_url = st.text_input("API base URL", value=default_base, key="base_url")
     endpoint = st.selectbox(
         "Endpoint",
-        ["/auto", "/near_query", "/near_fragments", "/near_hits", "/or_query", "/concordance"],
+        ["/auto", "/near_query", "/near_fragments", "/near_hits", "/or_query"],
         index=0,
     )
     engine_idx = 1 if default_engine == "julia" else 0
@@ -161,6 +161,7 @@ with c3:
     max_variants = st.number_input("maxVariants", min_value=1, max_value=200, value=10)
     schema = st.text_input("schema", value="unigrams")
     symmetric = st.checkbox("symmetric", value=True)
+    match_mode = st.selectbox("matchMode", ["near", "sequence"], index=0)
 with c4:
     exclude_self = st.checkbox("excludeSelf", value=False)
     use_filter = st.checkbox("useFilter", value=False)
@@ -189,27 +190,22 @@ groups = [g for g in groups if g]
 effective_endpoint = endpoint
 if endpoint == "/auto":
     if not groups:
-        effective_endpoint = "/concordance"
+        effective_endpoint = "/or_query"
     elif len(groups) == 1:
-        effective_endpoint = "/or_query" if len(groups[0]) > 1 else "/concordance"
+        effective_endpoint = "/or_query"
     else:
-        effective_endpoint = "/near_query"
+        effective_endpoint = "/near_fragments"
 
 if effective_endpoint in {"/near_query", "/near_fragments", "/near_hits"}:
     payload["engine"] = engine
     payload["parallelShards"] = bool(parallel_shards)
+    payload["matchMode"] = match_mode
 
-if effective_endpoint == "/concordance":
-    # Keep compatibility with legacy endpoint that still expects wordA/wordB.
-    terms = [g[0] for g in groups if len(g) == 1]
-    payload["wordA"] = terms[0] if terms else ""
-    payload["wordB"] = terms[1] if len(terms) > 1 else ""
+has_or_group = any(len(g) > 1 for g in groups)
+if has_or_group or len(groups) != 1:
+    payload["termGroups"] = groups
 else:
-    has_or_group = any(len(g) > 1 for g in groups)
-    if has_or_group or len(groups) != 1:
-        payload["termGroups"] = groups
-    else:
-        payload["terms"] = [groups[0][0]]
+    payload["terms"] = [groups[0][0]]
 
 st.subheader("Payload")
 st.code(json.dumps(payload, ensure_ascii=False, indent=2), language="json")

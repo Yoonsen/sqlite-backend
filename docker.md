@@ -24,17 +24,25 @@ docker run --rm -d -p 8012:8000 \
 ## Run image (Harbor, config.json on host)
 
 ```bash
-docker rm -f postings-main-sidecar-test 2>/dev/null || true
+docker pull harbor.nb.no/sprakbanken/postings-api:main-sidecar
 
 docker run --rm -p 8000:8000 \
   -e POSTINGS_CONFIG=/data/dhlab/larsj/postings/config.json \
   -e POSTINGS_SO_PATH=/tmp/postings_native.so \
   -e POSTINGS_QUERY_ENGINE=python \
-  -e POSTINGS_PYTHON_PARALLEL_SHARDS=0 \
+  -e POSTINGS_PYTHON_PARALLEL_SHARDS=1 \
   -e POSTINGS_PYTHON_SHARD_WORKERS=3 \
   -v "/data/dhlab/larsj/postings:/data/dhlab/larsj/postings:ro" \
-  --name postings-main-sidecar-test \
+  --name postings-api \
   harbor.nb.no/sprakbanken/postings-api:main-sidecar
+```
+
+## Publish image (Harbor)
+
+```bash
+docker build -t postings-api:main-sidecar .
+docker tag postings-api:main-sidecar harbor.nb.no/sprakbanken/postings-api:main-sidecar
+docker push harbor.nb.no/sprakbanken/postings-api:main-sidecar
 ```
 
 ## Smoke test

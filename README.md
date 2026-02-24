@@ -109,7 +109,7 @@ uvicorn api_python.server:app --host 0.0.0.0 --port 8000
 - `POST /or_query`
 - `POST /collocations`
 
-### CNF term groups (OR groups)
+### CNF term groups (OR groups, recommended)
 
 For multi-term near, you can send `termGroups` (CNF-style):
 
@@ -126,10 +126,15 @@ For multi-term near, you can send `termGroups` (CNF-style):
 
 If `termGroups` is omitted, the API uses `terms` as single-item groups.
 
+For new clients, prefer group-based payloads (`termGroups` or `terms`) with:
+- `POST /or_query` for union/single-group concordance-style search
+- `POST /near_query`, `POST /near_fragments`, `POST /near_hits` for near semantics
+
 Optional per-request engine fields for `/near_query`, `/near_fragments`, `/near_hits`:
 
 ```json
 {
+  "matchMode": "near",
   "engine": "python",
   "parallelShards": false
 }
@@ -138,6 +143,7 @@ Optional per-request engine fields for `/near_query`, `/near_fragments`, `/near_
 - `engine`: `python` (default) or `julia` (requires `POSTINGS_JULIA_HYBRID=1`)
 - `parallelShards`: used by Julia probe path (`true` enables shard tasks)
 - `useFilter` + `filterIds`: supported in both engines for near endpoints
+- `matchMode`: `near` (default) or `sequence` (strict phrase-like sequence). `sequence` is currently supported for `engine=python` with `schema=unigrams`.
 
 ### OR query
 
@@ -153,6 +159,10 @@ Optional per-request engine fields for `/near_query`, `/near_fragments`, `/near_
   "totalLimit": 200
 }
 ```
+
+### Legacy note
+
+`POST /concordance` with `wordA`/`wordB` is retained for compatibility, but new clients should use the group-based endpoints above.
 
 ## JS UI
 

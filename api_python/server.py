@@ -31,6 +31,8 @@ from api_python.postings_queries import (
     near_count_from_groups,
     near_frequency,
     near_positions_from_groups,
+    sequence_count_from_groups,
+    sequence_positions_from_groups,
     sample_urns,
     sample_collocations,
     sample_concordance_near,
@@ -146,9 +148,11 @@ class NearQueryRequest(BaseModel):
     excludeSelf: bool = False
     useFilter: bool = False
     filterIds: List[int] = []
+    docSamples: Optional[int] = Field(None, ge=0, le=50000)
     maxVariants: int = Field(10, ge=1, le=100)
     engine: Optional[str] = None
     parallelShards: Optional[bool] = None
+    matchMode: Optional[str] = None
 
 
 class OrQueryRequest(BaseModel):
@@ -183,6 +187,7 @@ class NearFragmentsRequest(BaseModel):
     includeFragments: bool = True
     engine: Optional[str] = None
     parallelShards: Optional[bool] = None
+    matchMode: Optional[str] = None
 
 
 class CollocationsRequest(BaseModel):
@@ -584,6 +589,73 @@ def _has_sql_function(cur, fn_name: str) -> bool:
         return False
 
 
+def _normal_groups_for_sampling(cur, groups: List[List[int]]) -> List[List[int]]:
+    """
+    Return groups that have at least one non-complement docpost source.
+    These are typically useful for reducing candidate docs before near.
+    """
+    out: List[List[int]] = []
+    for g in groups:
+        if not g:
+            continue
+        placeholders = ",".join("?" for _ in g)
+        try:
+            rows = cur.execute(
+                f"""
+                SELECT docpost, docpost_is_complement
+                FROM words
+                WHERE cf_id IN ({placeholders})
+                GROUP BY cf_id
+                """,
+                tuple(g),
+            ).fetchall()
+        except sqlite3.OperationalError:
+            return []
+        has_normal = any((r[0] is not None) and int(r[1] or 0) == 0 for r in rows)
+        if has_normal:
+            out.append(g)
+    return out
+
+
+def _plan_near_downsample_filter_ids(
+    cur,
+    groups: List[List[int]],
+    base_filter_ids: Optional[List[int]],
+    doc_samples: int,
+) -> Tuple[Optional[List[int]], str]:
+    """
+    Planner heuristic for multi-term near:
+    1) Use intersection of normal groups (non-complement docpost) when available.
+    2) If no normal groups exist, sample from corpus/base filter directly.
+    """
+    if doc_samples <= 0:
+        return None, "disabled"
+
+    normal_groups = _normal_groups_for_sampling(cur, groups)
+    if normal_groups:
+        ids = _apply_docpost_filter_and_sample(
+            cur,
+            normal_groups,
+            base_filter_ids,
+            0,  # do not sample here; use full reduced intersection first
+            0,
+            0,
+        )
+        if ids == []:
+            return [], "normal_intersection_empty"
+        if ids:
+            if len(ids) > doc_samples:
+                return random.sample(ids, doc_samples), "normal_intersection_sampled"
+            return ids, "normal_intersection"
+
+    # No normal groups (or no usable reduction): explicit sample fallback.
+    if base_filter_ids:
+        if len(base_filter_ids) > doc_samples:
+            return random.sample(base_filter_ids, doc_samples), "fallback_sample"
+        return list(base_filter_ids), "fallback_full_base"
+    return sample_urns(cur, doc_samples), "fallback_sample"
+
+
 def _apply_docpost_filter_and_sample(
     cur,
     cf_groups: List[List[int]],
@@ -591,9 +663,11 @@ def _apply_docpost_filter_and_sample(
     doc_samples: Optional[int],
     total_limit: int,
     per_book: int,
+    sample_only_when_no_docpost: bool = False,
 ) -> Optional[List[int]]:
     filter_ids = list(base_filter_ids) if base_filter_ids else None
     docpost_ids = docpost_book_ids(cur, cf_groups)
+    has_docpost_prefilter = docpost_ids is not None
     if docpost_ids is not None:
         if filter_ids:
             filter_set = set(filter_ids)
@@ -602,7 +676,10 @@ def _apply_docpost_filter_and_sample(
             filter_ids = docpost_ids
 
     sample_n = _resolve_doc_samples(doc_samples, total_limit, per_book)
-    if sample_n > 0:
+    should_sample = sample_n > 0 and (
+        not sample_only_when_no_docpost or not has_docpost_prefilter
+    )
+    if should_sample:
         if filter_ids:
             if len(filter_ids) > sample_n:
                 filter_ids = random.sample(filter_ids, sample_n)
@@ -622,6 +699,13 @@ def _select_engine(engine: Optional[str]) -> str:
             detail="Julia engine is disabled. Set POSTINGS_JULIA_HYBRID=1 to enable.",
         )
     return selected
+
+
+def _resolve_match_mode(match_mode: Optional[str]) -> str:
+    mode = (match_mode or "near").strip().lower()
+    if mode not in {"near", "sequence"}:
+        raise HTTPException(status_code=400, detail="matchMode must be one of: near, sequence")
+    return mode
 
 
 def _run_julia_probe_payload(payload: Dict[str, Any]) -> Dict[str, Any]:
@@ -720,7 +804,7 @@ def _julia_payload_from_near_query(req: NearQueryRequest) -> Dict[str, Any]:
         "window": req.window,
         "symmetric": req.symmetric,
         "maxVariants": req.maxVariants,
-        "docSamples": 0,
+        "docSamples": int(req.docSamples or 0),
         "perBook": 0,
         "totalLimit": 0,
         "mode": "count",
@@ -779,7 +863,7 @@ def _max_python_workers(task_count: int) -> int:
     return task_count
 
 
-def _near_query_roaring_worker(task: Dict[str, Any]) -> Dict[str, int]:
+def _near_query_roaring_worker(task: Dict[str, Any]) -> Dict[str, Any]:
     con = connect_postings(task["postings_path"], task["ext_path"], task.get("sidecar_path"))
     try:
         cur = con.cursor()
@@ -788,6 +872,7 @@ def _near_query_roaring_worker(task: Dict[str, Any]) -> Dict[str, int]:
         off_min = int(task["off_min"])
         off_max = int(task["off_max"])
         exclude_self = bool(task.get("exclude_self", False))
+        match_mode = str(task.get("match_mode", "near"))
         filter_ids = task.get("filter_ids")
         base_filter_ids = task.get("base_filter_ids")
         book_ids = (
@@ -799,11 +884,18 @@ def _near_query_roaring_worker(task: Dict[str, Any]) -> Dict[str, int]:
         docs = 0
         for book_id in book_ids:
             gp = group_positions_for_book(cur, groups, int(book_id), schema=schema)
-            c = near_count_from_groups(gp, off_min, off_max, exclude_self)
+            if match_mode == "sequence":
+                c = sequence_count_from_groups(gp)
+            else:
+                c = near_count_from_groups(gp, off_min, off_max, exclude_self)
             if c > 0:
                 total += c
                 docs += 1
-        return {"total": int(total), "docs": int(docs)}
+        return {
+            "total": int(total),
+            "docs": int(docs),
+            "_worker": {"pid": os.getpid(), "shard": task["postings_path"]},
+        }
     finally:
         con.close()
 
@@ -824,6 +916,7 @@ def _near_fragments_roaring_worker(task: Dict[str, Any]) -> Dict[str, Any]:
         total_limit = int(task["total_limit"])
         include_fragments = bool(task["include_fragments"])
         exclude_self = bool(task.get("exclude_self", False))
+        match_mode = str(task.get("match_mode", "near"))
         filter_ids = task.get("filter_ids")
         base_filter_ids = task.get("base_filter_ids")
         doc_samples = int(task.get("doc_samples") or 0)
@@ -835,7 +928,10 @@ def _near_fragments_roaring_worker(task: Dict[str, Any]) -> Dict[str, Any]:
         near_hits: List[Tuple[int, List[int]]] = []
         for book_id in book_ids:
             gp = group_positions_for_book(cur, groups, int(book_id), schema=schema)
-            pos = near_positions_from_groups(gp, off_min, off_max, exclude_self)
+            if match_mode == "sequence":
+                pos = sequence_positions_from_groups(gp)
+            else:
+                pos = near_positions_from_groups(gp, off_min, off_max, exclude_self)
             if pos:
                 near_hits.append((int(book_id), pos))
         if doc_samples > 0 and len(near_hits) > doc_samples:
@@ -854,7 +950,10 @@ def _near_fragments_roaring_worker(task: Dict[str, Any]) -> Dict[str, Any]:
                     break
             if total_limit and len(rows) >= total_limit:
                 break
-        return {"rows": rows}
+        return {
+            "rows": rows,
+            "_worker": {"pid": os.getpid(), "shard": task["postings_path"]},
+        }
     finally:
         con.close()
         conw.close()
@@ -867,8 +966,14 @@ def near_query(req: NearQueryRequest):
             raise HTTPException(status_code=400, detail="termGroups must contain at least two items")
     elif not req.terms or len(req.terms) < 2:
         raise HTTPException(status_code=400, detail="terms must contain at least two items")
+    match_mode = _resolve_match_mode(req.matchMode)
     engine = _select_engine(req.engine)
     if engine == "julia":
+        if match_mode == "sequence":
+            raise HTTPException(
+                status_code=400,
+                detail="matchMode=sequence is currently supported only for engine=python",
+            )
         payload = _julia_payload_from_near_query(req)
         if JULIA_PROXY_URL:
             last = _run_julia_proxy_request("/near_query", payload)
@@ -896,8 +1001,16 @@ def near_query(req: NearQueryRequest):
     found_any = False
     parallel_shards = _python_parallel_shards_enabled(req.parallelShards)
     parallel_tasks: List[Dict[str, Any]] = []
+    perf_workers: List[Dict[str, Any]] = []
+    perf_prefilter: List[Dict[str, Any]] = []
     off_min = -req.window if req.symmetric else 1
     off_max = req.window
+    schema_name = req.schema or CONFIG.default_schema
+    if match_mode == "sequence" and schema_name != "unigrams":
+        raise HTTPException(
+            status_code=400,
+            detail="matchMode=sequence currently requires schema=unigrams",
+        )
     for shard_index, path in enumerate(postings_paths):
         con = connect_postings(path, CONFIG.ext_path, shard_sidecar_path(path, shard_index))
         conw = connect_words(shard_words_path(path))
@@ -915,14 +1028,32 @@ def near_query(req: NearQueryRequest):
             conw.close()
             continue
         if not use_filter:
-            filter_ids = _apply_docpost_filter_and_sample(
-                cur,
-                groups,
-                base_filter_ids,
-                0,
-                0,
-                0,
-            )
+            ds = int(req.docSamples or 0)
+            prefilter_strategy = "docpost_only"
+            if ds > 0:
+                filter_ids, prefilter_strategy = _plan_near_downsample_filter_ids(
+                    cur, groups, base_filter_ids, ds
+                )
+            else:
+                filter_ids = _apply_docpost_filter_and_sample(
+                    cur,
+                    groups,
+                    base_filter_ids,
+                    0,
+                    0,
+                    0,
+                    sample_only_when_no_docpost=True,
+                )
+            if PROFILE_NEAR:
+                perf_prefilter.append(
+                    {
+                        "shard": path,
+                        "strategy": prefilter_strategy,
+                        "doc_samples": ds,
+                        "base_pool": len(base_filter_ids) if base_filter_ids else None,
+                        "selected_docs": len(filter_ids) if filter_ids else 0,
+                    }
+                )
             if filter_ids == []:
                 con.close()
                 conw.close()
@@ -932,18 +1063,19 @@ def near_query(req: NearQueryRequest):
                 filter_json = json.dumps(filter_ids)
         found_any = True
         codec = detect_postings_codec(cur)
-        if codec == "roaring_v1" and (req.schema or CONFIG.default_schema) == "unigrams":
+        if schema_name == "unigrams" and (codec == "roaring_v1" or match_mode == "sequence"):
             task = {
                 "postings_path": path,
                 "sidecar_path": shard_sidecar_path(path, shard_index),
                 "ext_path": CONFIG.ext_path,
                 "groups": groups,
-                "schema": (req.schema or CONFIG.default_schema),
+                "schema": schema_name,
                 "off_min": off_min,
                 "off_max": off_max,
                 "exclude_self": req.excludeSelf,
                 "filter_ids": filter_ids if use_filter else None,
                 "base_filter_ids": base_filter_ids,
+                "match_mode": match_mode,
             }
             if parallel_shards and len(postings_paths) > 1:
                 parallel_tasks.append(task)
@@ -951,9 +1083,18 @@ def near_query(req: NearQueryRequest):
                 shard_res = _near_query_roaring_worker(task)
                 total += int(shard_res.get("total", 0))
                 docs += int(shard_res.get("docs", 0))
+                if PROFILE_NEAR:
+                    worker = shard_res.get("_worker")
+                    if isinstance(worker, dict):
+                        perf_workers.append(worker)
             con.close()
             conw.close()
             continue
+        if match_mode == "sequence":
+            raise HTTPException(
+                status_code=400,
+                detail="matchMode=sequence currently requires python worker path",
+            )
         prepare_term_cf_table(cur, groups)
         use_bitmap_fn = USE_BITMAP_NEAR and _has_sql_function(
             cur, "post_near_count_bitmap_multi_groups"
@@ -1009,6 +1150,8 @@ def near_query(req: NearQueryRequest):
             if row:
                 total += int(row[0] or 0)
                 docs += int(row[1] or 0)
+            if PROFILE_NEAR:
+                perf_workers.append({"pid": os.getpid(), "shard": path, "mode": "sqlite_bitmap"})
         else:
             ctes = []
             if use_filter:
@@ -1043,6 +1186,8 @@ def near_query(req: NearQueryRequest):
             if row:
                 total += int(row[0] or 0)
                 docs += int(row[1] or 0)
+            if PROFILE_NEAR:
+                perf_workers.append({"pid": os.getpid(), "shard": path, "mode": "sqlite_join"})
         con.close()
         conw.close()
     if parallel_tasks:
@@ -1052,15 +1197,31 @@ def near_query(req: NearQueryRequest):
                 for shard_res in ex.map(_near_query_roaring_worker, parallel_tasks):
                     total += int(shard_res.get("total", 0))
                     docs += int(shard_res.get("docs", 0))
+                    if PROFILE_NEAR:
+                        worker = shard_res.get("_worker")
+                        if isinstance(worker, dict):
+                            perf_workers.append(worker)
         except Exception:
             # Safety fallback for environments where process spawning is restricted.
             for task in parallel_tasks:
                 shard_res = _near_query_roaring_worker(task)
                 total += int(shard_res.get("total", 0))
                 docs += int(shard_res.get("docs", 0))
+                if PROFILE_NEAR:
+                    worker = shard_res.get("_worker")
+                    if isinstance(worker, dict):
+                        perf_workers.append(worker)
     if not found_any:
         raise HTTPException(status_code=404, detail="No terms matched")
-    return {"total": total, "docs": docs}
+    out: Dict[str, Any] = {"total": total, "docs": docs}
+    if PROFILE_NEAR:
+        out["_perf"] = {
+            "workers": perf_workers,
+            "prefilter": perf_prefilter,
+            "parallel_requested": bool(parallel_shards),
+            "parallel_tasks": len(parallel_tasks),
+        }
+    return out
 
 
 @app.post("/or_query")
@@ -1145,8 +1306,14 @@ def near_fragments(req: NearFragmentsRequest):
             raise HTTPException(status_code=400, detail="termGroups must contain at least two items")
     elif not req.terms or len(req.terms) < 2:
         raise HTTPException(status_code=400, detail="terms must contain at least two items")
+    match_mode = _resolve_match_mode(req.matchMode)
     engine = _select_engine(req.engine)
     if engine == "julia":
+        if match_mode == "sequence":
+            raise HTTPException(
+                status_code=400,
+                detail="matchMode=sequence is currently supported only for engine=python",
+            )
         payload = _julia_payload_from_near_fragments(req)
         if JULIA_PROXY_URL:
             out = _run_julia_proxy_request("/near_fragments", payload)
@@ -1184,8 +1351,15 @@ def near_fragments(req: NearFragmentsRequest):
     rows: List[Dict[str, object]] = []
     off_min = -req.window if req.symmetric else 1
     off_max = req.window
+    schema_name = req.schema or CONFIG.default_schema
+    if match_mode == "sequence" and schema_name != "unigrams":
+        raise HTTPException(
+            status_code=400,
+            detail="matchMode=sequence currently requires schema=unigrams",
+        )
     req_t0 = time.perf_counter()
     perf_shards: List[Dict[str, object]] = []
+    perf_workers: List[Dict[str, Any]] = []
     parallel_shards = _python_parallel_shards_enabled(req.parallelShards)
     parallel_tasks: List[Dict[str, Any]] = []
     for shard_index, path in enumerate(postings_paths):
@@ -1195,6 +1369,7 @@ def near_fragments(req: NearFragmentsRequest):
             "shard": path,
             "groups_ms": 0.0,
             "prefilter_ms": 0.0,
+            "prefilter_strategy": "",
             "near_sql_ms": 0.0,
             "post_ms": 0.0,
             "candidates_json": 0,
@@ -1212,7 +1387,11 @@ def near_fragments(req: NearFragmentsRequest):
 
         groups_t0 = time.perf_counter()
         groups = _resolve_term_groups(
-            curw, req.terms, req.termGroups, req.maxVariants, req.symmetric
+            curw,
+            req.terms,
+            req.termGroups,
+            req.maxVariants,
+            False if match_mode == "sequence" else req.symmetric,
         )
         shard_perf["groups_ms"] = round((time.perf_counter() - groups_t0) * 1000.0, 3)
         if not groups:
@@ -1224,14 +1403,22 @@ def near_fragments(req: NearFragmentsRequest):
             continue
         pre_t0 = time.perf_counter()
         if not use_filter:
-            filter_ids = _apply_docpost_filter_and_sample(
-                cur,
-                groups,
-                base_filter_ids,
-                0,
-                req.totalLimit,
-                req.perBook,
-            )
+            ds = int(req.docSamples or 0)
+            prefilter_strategy = "docpost_only"
+            if ds > 0:
+                filter_ids, prefilter_strategy = _plan_near_downsample_filter_ids(
+                    cur, groups, base_filter_ids, ds
+                )
+            else:
+                filter_ids = _apply_docpost_filter_and_sample(
+                    cur,
+                    groups,
+                    base_filter_ids,
+                    0,
+                    req.totalLimit,
+                    req.perBook,
+                    sample_only_when_no_docpost=True,
+                )
             if filter_ids == []:
                 con.close()
                 conw.close()
@@ -1239,16 +1426,17 @@ def near_fragments(req: NearFragmentsRequest):
             if filter_ids:
                 use_filter = True
                 filter_json = json.dumps(filter_ids)
+            shard_perf["prefilter_strategy"] = prefilter_strategy
         shard_perf["prefilter_ms"] = round((time.perf_counter() - pre_t0) * 1000.0, 3)
         codec = detect_postings_codec(cur)
-        if codec == "roaring_v1" and (req.schema or CONFIG.default_schema) == "unigrams":
+        if schema_name == "unigrams" and (codec == "roaring_v1" or match_mode == "sequence"):
             task = {
                 "postings_path": path,
                 "words_path": shard_words_path(path),
                 "sidecar_path": shard_sidecar_path(path, shard_index),
                 "ext_path": CONFIG.ext_path,
                 "groups": groups,
-                "schema": (req.schema or CONFIG.default_schema),
+                "schema": schema_name,
                 "off_min": off_min,
                 "off_max": off_max,
                 "before": req.before,
@@ -1260,6 +1448,7 @@ def near_fragments(req: NearFragmentsRequest):
                 "exclude_self": req.excludeSelf,
                 "filter_ids": filter_ids if use_filter else None,
                 "base_filter_ids": base_filter_ids,
+                "match_mode": match_mode,
             }
             if parallel_shards and len(postings_paths) > 1:
                 parallel_tasks.append(task)
@@ -1270,7 +1459,11 @@ def near_fragments(req: NearFragmentsRequest):
                 perf_shards.append(shard_perf)
                 continue
             py_t0 = time.perf_counter()
-            shard_rows = _near_fragments_roaring_worker(task).get("rows", [])
+            shard_res = _near_fragments_roaring_worker(task)
+            shard_rows = shard_res.get("rows", [])
+            worker = shard_res.get("_worker")
+            if PROFILE_NEAR and isinstance(worker, dict):
+                perf_workers.append(worker)
             if req.totalLimit:
                 remaining = max(req.totalLimit - len(rows), 0)
                 if remaining <= 0:
@@ -1278,7 +1471,19 @@ def near_fragments(req: NearFragmentsRequest):
                 elif len(shard_rows) > remaining:
                     shard_rows = shard_rows[:remaining]
             rows.extend(shard_rows)
+            shard_perf["post_ms"] = round((time.perf_counter() - py_t0) * 1000.0, 3)
+            con.close()
+            conw.close()
+            shard_perf["rows_added"] = len(rows) - rows_before_shard
+            shard_perf["total_ms"] = round((time.perf_counter() - shard_t0) * 1000.0, 3)
+            perf_shards.append(shard_perf)
             continue
+
+        if match_mode == "sequence":
+            raise HTTPException(
+                status_code=400,
+                detail="matchMode=sequence currently requires python worker path",
+            )
 
         # No two-term special path: always use the general grouped near flow.
 
@@ -1385,7 +1590,7 @@ def near_fragments(req: NearFragmentsRequest):
                     candidates_blob.append((book_id, common_blob))
         else:
             cte_sql, select_sql, _ = groups_sql(
-                groups, req.schema or CONFIG.default_schema, use_filter
+                groups, schema_name, use_filter
             )
             if use_filter:
                 cte_sql = "filter AS (SELECT value AS urn FROM json_each(?)), " + cte_sql
@@ -1504,6 +1709,9 @@ def near_fragments(req: NearFragmentsRequest):
             with ProcessPoolExecutor(max_workers=max_workers) as ex:
                 for shard_res in ex.map(_near_fragments_roaring_worker, parallel_tasks):
                     shard_rows = shard_res.get("rows", [])
+                    worker = shard_res.get("_worker")
+                    if PROFILE_NEAR and isinstance(worker, dict):
+                        perf_workers.append(worker)
                     if req.totalLimit:
                         remaining = max(req.totalLimit - len(rows), 0)
                         if remaining <= 0:
@@ -1516,7 +1724,11 @@ def near_fragments(req: NearFragmentsRequest):
         except Exception:
             # Safety fallback for environments where process spawning is restricted.
             for task in parallel_tasks:
-                shard_rows = _near_fragments_roaring_worker(task).get("rows", [])
+                shard_res = _near_fragments_roaring_worker(task)
+                shard_rows = shard_res.get("rows", [])
+                worker = shard_res.get("_worker")
+                if PROFILE_NEAR and isinstance(worker, dict):
+                    perf_workers.append(worker)
                 if req.totalLimit:
                     remaining = max(req.totalLimit - len(rows), 0)
                     if remaining <= 0:
@@ -1534,6 +1746,9 @@ def near_fragments(req: NearFragmentsRequest):
             "_perf": {
                 "total_ms": round((time.perf_counter() - req_t0) * 1000.0, 3),
                 "shards": perf_shards,
+                "workers": perf_workers,
+                "parallel_requested": bool(parallel_shards),
+                "parallel_tasks": len(parallel_tasks),
             },
         }
     return {"rows": rows}
