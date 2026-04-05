@@ -12,6 +12,7 @@ class AppConfig:
     postings_dbs: List[str]
     sidecar_dbs: Optional[List[str]]
     words_db: Optional[str]
+    imagination_db: Optional[str]
     ext_path: str
     default_schema: str
 
@@ -27,6 +28,8 @@ def load_config() -> AppConfig:
         raise RuntimeError("postings_dbs is required in config.")
     sidecar_dbs = data.get("sidecar_dbs") or None
     words_db = data.get("words_db") or None
+    imagination_db = data.get("imagination_db") or os.environ.get("POSTINGS_IMAGINATION_DB")
+    
     for path in postings_dbs:
         if not Path(path).exists():
             raise RuntimeError(f"postings_db not found: {path}")
@@ -38,12 +41,17 @@ def load_config() -> AppConfig:
                 raise RuntimeError(f"sidecar_db not found: {path}")
     if words_db and not Path(words_db).exists():
         raise RuntimeError(f"words_db not found: {words_db}")
+    if imagination_db and not Path(imagination_db).exists():
+        # Optional: Print warning or handle more strictly? Let's keep it as is.
+        pass
+        
     ext_path = data.get("ext_path") or ""
     default_schema = data.get("default_schema") or "unigrams"
     return AppConfig(
         postings_dbs=postings_dbs,
         sidecar_dbs=sidecar_dbs,
         words_db=words_db,
+        imagination_db=imagination_db,
         ext_path=ext_path,
         default_schema=default_schema,
     )
