@@ -60,6 +60,7 @@ BITMAP_CHUNK_SIZE = int(os.environ.get("POSTINGS_BITMAP_CHUNK", "4096"))
 PROFILE_NEAR = os.environ.get("POSTINGS_PROFILE_NEAR", "").strip() == "1"
 PREUNION_GROUPS = os.environ.get("POSTINGS_PREUNION_GROUPS", "").strip() == "1"
 QUERY_ENGINE_DEFAULT = os.environ.get("POSTINGS_QUERY_ENGINE", "python").strip().lower()
+GEO_REQUIRE_CAPITALIZED = os.environ.get("POSTINGS_GEO_REQUIRE_CAPITALIZED", "1").strip() != "0"
 JULIA_HYBRID_ENABLED = os.environ.get("POSTINGS_JULIA_HYBRID", "").strip() == "1"
 JULIA_BIN = os.environ.get("JULIA_BIN", "julia")
 _JULIA_PROBE_SCRIPT_ENV = os.environ.get("JULIA_PROBE_SCRIPT", "").strip()
@@ -703,6 +704,65 @@ def _load_geo_anchor_positions(
         con.close()
 
 
+def _is_surface_capitalized(surface_text: Optional[str]) -> bool:
+    s = str(surface_text or "").strip()
+    if not s:
+        return False
+    for ch in s:
+        if not ch.isalpha():
+            continue
+        return ch.isupper()
+    return False
+
+
+def _load_geo_capitalized_positions_from_mentions(
+    geo_db_path: str,
+    book_ids: List[int],
+    geo_key: Tuple[str, str],
+) -> Dict[int, List[int]]:
+    if not book_ids:
+        return {}
+    con = sqlite3.connect(f"file:{geo_db_path}?mode=ro", uri=True)
+    cur = con.cursor()
+    try:
+        has_mentions = cur.execute(
+            "SELECT 1 FROM sqlite_master WHERE type='table' AND name='geo_mentions_v2' LIMIT 1"
+        ).fetchone()
+        if not has_mentions:
+            return {}
+        cur.execute("CREATE TEMP TABLE _book_filter_cap(book_id INTEGER PRIMARY KEY)")
+        cur.executemany(
+            "INSERT OR IGNORE INTO _book_filter_cap(book_id) VALUES (?)",
+            ((int(book_id),) for book_id in book_ids),
+        )
+        rows = cur.execute(
+            """
+            SELECT m.book_id, m.seq_start, m.surface_text
+            FROM geo_mentions_v2 m
+            JOIN _book_filter_cap f ON f.book_id = m.book_id
+            WHERE m.place_key_type = ?
+              AND m.place_key = ?
+            ORDER BY m.book_id, m.seq_start
+            """,
+            (geo_key[0], geo_key[1]),
+        ).fetchall()
+        out: Dict[int, List[int]] = {}
+        for book_id, seq_start, surface_text in rows:
+            if not _is_surface_capitalized(surface_text):
+                continue
+            bid = int(book_id)
+            arr = out.get(bid)
+            if arr is None:
+                arr = []
+                out[bid] = arr
+            arr.append(int(seq_start))
+        for bid, arr in out.items():
+            out[bid] = sorted(set(arr))
+        return out
+    finally:
+        con.close()
+
+
 def _lookup_geo_span_meta(
     geo_db_path: str,
     hits: List[Tuple[int, int]],
@@ -765,8 +825,32 @@ def _run_geo_namespace_near_or(
     }
     anchor_t0 = time.perf_counter()
     anchor_positions = _load_geo_anchor_positions(ns_db_path, book_ids, geo_key)
+    capital_filter_applied = False
+    if geo_key and GEO_REQUIRE_CAPITALIZED:
+        capital_t0 = time.perf_counter()
+        cap_positions = _load_geo_capitalized_positions_from_mentions(
+            ns_db_path,
+            list(anchor_positions.keys()) if anchor_positions else book_ids,
+            geo_key,
+        )
+        perf["capital_filter_ms"] = round((time.perf_counter() - capital_t0) * 1000.0, 3)
+        if cap_positions:
+            filtered: Dict[int, List[int]] = {}
+            for bid, arr in anchor_positions.items():
+                cap_arr = cap_positions.get(int(bid))
+                if not cap_arr:
+                    continue
+                cap_set = set(cap_arr)
+                inter = [p for p in arr if p in cap_set]
+                if inter:
+                    filtered[int(bid)] = inter
+            anchor_positions = filtered
+            capital_filter_applied = True
     perf["anchor_load_ms"] = round((time.perf_counter() - anchor_t0) * 1000.0, 3)
     perf["anchor_books"] = len(anchor_positions)
+    if geo_key:
+        perf["capital_filter_enabled"] = bool(GEO_REQUIRE_CAPITALIZED)
+        perf["capital_filter_applied"] = bool(capital_filter_applied)
     if not anchor_positions:
         raise HTTPException(status_code=404, detail="No geo anchor positions for requested namespace/filter")
     rows_hits: List[Tuple[int, int]] = []
