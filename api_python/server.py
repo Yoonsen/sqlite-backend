@@ -573,37 +573,110 @@ def _load_geo_anchor_positions(
     con = sqlite3.connect(f"file:{geo_db_path}?mode=ro", uri=True)
     cur = con.cursor()
     try:
+        def _table_exists(name: str) -> bool:
+            row = cur.execute(
+                "SELECT 1 FROM sqlite_master WHERE type='table' AND name=? LIMIT 1",
+                (name,),
+            ).fetchone()
+            return bool(row)
+
         cur.execute("CREATE TEMP TABLE _book_filter(book_id INTEGER PRIMARY KEY)")
         cur.executemany(
             "INSERT OR IGNORE INTO _book_filter(book_id) VALUES (?)",
             ((int(book_id),) for book_id in book_ids),
         )
-        rows: List[Tuple[int, bytes]] = []
+        rows_blob: List[Tuple[int, bytes]] = []
+        rows_pos: List[Tuple[int, int]] = []
         if geo_key:
-            rows = cur.execute(
-                """
-                SELECT p.book_id, p.starts_roaring
-                FROM geo_postings_v2 p
-                JOIN _book_filter f ON f.book_id = p.book_id
-                WHERE p.token_len = 0
-                  AND p.place_key_type = ?
-                  AND p.place_key = ?
-                """,
-                (geo_key[0], geo_key[1]),
-            ).fetchall()
+            if _table_exists("geo_postings_v2"):
+                rows_blob = cur.execute(
+                    """
+                    SELECT p.book_id, p.starts_roaring
+                    FROM geo_postings_v2 p
+                    JOIN _book_filter f ON f.book_id = p.book_id
+                    WHERE p.token_len = 0
+                      AND p.place_key_type = ?
+                      AND p.place_key = ?
+                    """,
+                    (geo_key[0], geo_key[1]),
+                ).fetchall()
+            elif _table_exists("geo_mentions_v2"):
+                rows_pos = cur.execute(
+                    """
+                    SELECT m.book_id, m.seq_start
+                    FROM geo_mentions_v2 m
+                    JOIN _book_filter f ON f.book_id = m.book_id
+                    WHERE m.place_key_type = ?
+                      AND m.place_key = ?
+                    ORDER BY m.book_id, m.seq_start
+                    """,
+                    (geo_key[0], geo_key[1]),
+                ).fetchall()
+            elif _table_exists("geo_spans"):
+                if geo_key[0] == "geonames" and _table_exists("places"):
+                    rows_pos = cur.execute(
+                        """
+                        SELECT s.book_id, s.seq_start
+                        FROM geo_spans s
+                        JOIN _book_filter f ON f.book_id = s.book_id
+                        JOIN places p ON p.place_id = s.place_id
+                        WHERE CAST(p.geonames_id AS TEXT) = ?
+                        ORDER BY s.book_id, s.seq_start
+                        """,
+                        (geo_key[1],),
+                    ).fetchall()
+                elif geo_key[0] == "internal":
+                    rows_pos = cur.execute(
+                        """
+                        SELECT s.book_id, s.seq_start
+                        FROM geo_spans s
+                        JOIN _book_filter f ON f.book_id = s.book_id
+                        WHERE CAST(s.place_id AS TEXT) = ?
+                        ORDER BY s.book_id, s.seq_start
+                        """,
+                        (geo_key[1],),
+                    ).fetchall()
         else:
-            rows = cur.execute(
-                """
-                SELECT p.book_id, p.post_blob
-                FROM geo_postings_all p
-                JOIN _book_filter f ON f.book_id = p.book_id
-                """
-            ).fetchall()
+            if _table_exists("geo_postings_all"):
+                rows_blob = cur.execute(
+                    """
+                    SELECT p.book_id, p.post_blob
+                    FROM geo_postings_all p
+                    JOIN _book_filter f ON f.book_id = p.book_id
+                    """
+                ).fetchall()
+            elif _table_exists("geo_book_index_v2"):
+                rows_blob = cur.execute(
+                    """
+                    SELECT b.book_id, b.all_places_roaring
+                    FROM geo_book_index_v2 b
+                    JOIN _book_filter f ON f.book_id = b.book_id
+                    """
+                ).fetchall()
+            elif _table_exists("geo_spans"):
+                rows_pos = cur.execute(
+                    """
+                    SELECT s.book_id, s.seq_start
+                    FROM geo_spans s
+                    JOIN _book_filter f ON f.book_id = s.book_id
+                    ORDER BY s.book_id, s.seq_start
+                    """
+                ).fetchall()
         out: Dict[int, List[int]] = {}
-        for book_id, blob in rows:
+        for book_id, blob in rows_blob:
             pos = _decode_roaring_positions(blob)
             if pos:
                 out[int(book_id)] = sorted(int(x) for x in pos)
+        if rows_pos:
+            for book_id, seq_start in rows_pos:
+                bid = int(book_id)
+                arr = out.get(bid)
+                if arr is None:
+                    arr = []
+                    out[bid] = arr
+                arr.append(int(seq_start))
+            for bid, arr in out.items():
+                out[bid] = sorted(set(arr))
         return out
     finally:
         con.close()
