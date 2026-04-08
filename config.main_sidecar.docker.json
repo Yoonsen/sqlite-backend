@@ -10,6 +10,9 @@
     "/data/imagination_shards_roaring_blk128_sidecar_v1/imag_roaring_blk128_sidecar_2.db"
   ],
   "words_db": "",
+  "imagination_db": "",
+  "annotation_registry_db": "/data/imagination_shards_roaring_main_v1/annotation_registry.db",
+  "annotation_base_dir": "/data/imagination_shards_roaring_main_v1",
   "ext_path": "/tmp/postings_native.so",
   "default_schema": "unigrams"
 }

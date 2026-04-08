@@ -10,6 +10,7 @@ import tempfile
 import time
 import urllib.error
 import urllib.request
+from html import escape as html_escape
 from concurrent.futures import ProcessPoolExecutor
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
@@ -18,6 +19,13 @@ from fastapi import FastAPI, HTTPException, Request
 from fastapi.responses import Response
 from pydantic import BaseModel, Field
 
+from api_python.annotations import (
+    fetch_geo_spans,
+    fetch_geo_books_from_imagination,
+    parse_namespace_query,
+    resolve_namespace,
+    resolve_namespace_books,
+)
 from api_python.config import load_config
 from api_python.postings_queries import (
     candidate_books_for_groups,
@@ -39,6 +47,11 @@ from api_python.postings_queries import (
     sample_concordance_single,
     sample_concordance_union,
 )
+
+try:
+    from pyroaring import BitMap as RoaringBitMap
+except Exception:  # pragma: no cover - optional dependency
+    RoaringBitMap = None
 
 app = FastAPI(title="Postings API", version="0.1.0")
 
@@ -167,6 +180,773 @@ class OrQueryRequest(BaseModel):
     useFilter: bool = False
     filterIds: List[int] = []
     maxVariants: int = Field(10, ge=1, le=100)
+    parallelShards: Optional[bool] = None
+    renderHits: bool = False
+
+
+class PlacesRequest(BaseModel):
+    dhlabids: List[int] = []
+    maxPlaces: int = Field(5000, ge=1, le=20000)
+
+
+class PlaceDetailsRequest(BaseModel):
+    dhlabids: List[int] = []
+    token: str
+    limit: int = Field(1000, ge=1, le=20000)
+
+
+def _connect_imagination_ro() -> sqlite3.Connection:
+    db_path = (CONFIG.imagination_db or "").strip()
+    if not db_path:
+        raise HTTPException(
+            status_code=500,
+            detail="imagination_db is not configured in POSTINGS_CONFIG",
+        )
+    if not Path(db_path).exists():
+        raise HTTPException(status_code=500, detail=f"imagination_db not found: {db_path}")
+    return sqlite3.connect(f"file:{db_path}?mode=ro", uri=True)
+
+
+def _table_columns(cur: sqlite3.Cursor, table: str) -> set[str]:
+    cols: set[str] = set()
+    try:
+        for row in cur.execute(f"PRAGMA table_info({table})"):
+            cols.add(str(row[1]))
+    except sqlite3.Error:
+        return set()
+    return cols
+
+
+def _pick_col(cols: set[str], candidates: List[str]) -> Optional[str]:
+    for c in candidates:
+        if c in cols:
+            return c
+    return None
+
+
+def _optional_expr(cols: set[str], candidates: List[str], alias: str, cast: Optional[str] = None) -> str:
+    col = _pick_col(cols, candidates)
+    if not col:
+        return f"NULL AS {alias}"
+    if cast:
+        return f"CAST({col} AS {cast}) AS {alias}"
+    return f"{col} AS {alias}"
+
+
+@app.get("/api/metadata/all")
+def imagination_metadata_all():
+    con = _connect_imagination_ro()
+    try:
+        cur = con.cursor()
+        corpus_cols = _table_columns(cur, "corpus")
+        if not corpus_cols:
+            raise HTTPException(status_code=500, detail="imagination_db is missing table: corpus")
+        id_col = _pick_col(corpus_cols, ["dhlabid", "book_id"])
+        if not id_col:
+            raise HTTPException(
+                status_code=500,
+                detail="corpus table must contain dhlabid (or book_id)",
+            )
+        year_expr = _optional_expr(corpus_cols, ["year", "pub_year"], "year", cast="INTEGER")
+        author_expr = _optional_expr(corpus_cols, ["author", "forfatter"], "author")
+        title_expr = _optional_expr(corpus_cols, ["title", "titel"], "title")
+        category_expr = _optional_expr(corpus_cols, ["category", "genre"], "category")
+        urn_expr = _optional_expr(corpus_cols, ["urn"], "urn")
+        unique_places_expr = _optional_expr(corpus_cols, ["unique_places"], "unique_places_src", cast="INTEGER")
+        total_mentions_expr = _optional_expr(
+            corpus_cols, ["total_mentions"], "total_mentions_src", cast="INTEGER"
+        )
+        books_cols = _table_columns(cur, "books")
+        books_dhlab_col = _pick_col(books_cols, ["dhlabid", "book_id"]) if books_cols else None
+        books_token_col = _pick_col(books_cols, ["token", "place_token"]) if books_cols else None
+        books_count_col = _pick_col(books_cols, ["book_count", "mentions", "count"]) if books_cols else None
+        books_join_sql = ""
+        unique_places_calc_expr = "NULL AS unique_places_calc"
+        total_mentions_calc_expr = "NULL AS total_mentions_calc"
+        if books_dhlab_col and books_token_col:
+            books_count_expr = f"COALESCE({books_count_col}, 1)" if books_count_col else "1"
+            books_join_sql = f"""
+            LEFT JOIN (
+                SELECT
+                    {books_dhlab_col} AS dhlabid,
+                    COUNT(DISTINCT {books_token_col}) AS unique_places_calc,
+                    SUM({books_count_expr}) AS total_mentions_calc
+                FROM books
+                GROUP BY {books_dhlab_col}
+            ) bm ON bm.dhlabid = c.{id_col}
+            """
+            unique_places_calc_expr = "CAST(bm.unique_places_calc AS INTEGER) AS unique_places_calc"
+            total_mentions_calc_expr = "CAST(bm.total_mentions_calc AS INTEGER) AS total_mentions_calc"
+        year_order = "year IS NULL, year, dhlabid" if _pick_col(corpus_cols, ["year", "pub_year"]) else "dhlabid"
+        sql = f"""
+        SELECT
+            CAST(c.{id_col} AS INTEGER) AS dhlabid,
+            {urn_expr},
+            {author_expr},
+            {year_expr},
+            {category_expr},
+            {title_expr},
+            {unique_places_expr},
+            {total_mentions_expr},
+            {unique_places_calc_expr},
+            {total_mentions_calc_expr}
+        FROM corpus c
+        {books_join_sql}
+        ORDER BY {year_order}
+        """
+        rows = cur.execute(sql).fetchall()
+        books: List[Dict[str, Any]] = []
+        for r in rows:
+            unique_places = int(r[6]) if r[6] is not None else (int(r[8]) if r[8] is not None else None)
+            total_mentions = int(r[7]) if r[7] is not None else (int(r[9]) if r[9] is not None else None)
+            books.append(
+                {
+                    "dhlabid": int(r[0]),
+                    "urn": str(r[1]) if r[1] is not None else "",
+                    "author": str(r[2]) if r[2] is not None else None,
+                    "year": int(r[3]) if r[3] is not None else None,
+                    "category": str(r[4]) if r[4] is not None else None,
+                    "title": str(r[5]) if r[5] is not None else None,
+                    "unique_places": unique_places,
+                    "total_mentions": total_mentions,
+                }
+            )
+        return {"books": books}
+    finally:
+        con.close()
+
+
+@app.post("/api/places")
+def imagination_places(req: PlacesRequest):
+    if not req.dhlabids:
+        return {"places": [], "total_places": 0}
+    con = _connect_imagination_ro()
+    try:
+        cur = con.cursor()
+        books_cols = _table_columns(cur, "books")
+        places_cols = _table_columns(cur, "places")
+        if not books_cols:
+            raise HTTPException(status_code=500, detail="imagination_db is missing table: books")
+        if not places_cols:
+            raise HTTPException(status_code=500, detail="imagination_db is missing table: places")
+        dhlab_col = _pick_col(books_cols, ["dhlabid", "book_id"])
+        token_col = _pick_col(books_cols, ["token", "place_token"])
+        count_col = _pick_col(books_cols, ["book_count", "mentions", "count"])
+        places_token_col = _pick_col(places_cols, ["token", "place_token"])
+        lat_col = _pick_col(places_cols, ["latitude", "lat"])
+        lon_col = _pick_col(places_cols, ["longitude", "lon"])
+        name_col = _pick_col(places_cols, ["modern", "name", "canonical_name"])
+        id_col_places = _pick_col(places_cols, ["geonameid", "geonames_id", "place_id"])
+        id_col_books = _pick_col(books_cols, ["geonameid", "geonames_id", "place_id"])
+        if not dhlab_col or not token_col:
+            raise HTTPException(
+                status_code=500,
+                detail="books table must contain dhlabid/book_id and token/place_token",
+            )
+        if not places_token_col or not lat_col or not lon_col:
+            raise HTTPException(
+                status_code=500,
+                detail="places table must contain token/place_token and latitude/longitude",
+            )
+        count_expr = f"COALESCE(b.{count_col}, 1)" if count_col else "1"
+        name_expr = f"COALESCE(p.{name_col}, b.{token_col})" if name_col else f"b.{token_col}"
+        if id_col_places:
+            id_expr = f"COALESCE(CAST(p.{id_col_places} AS TEXT), b.{token_col})"
+        elif id_col_books:
+            id_expr = f"COALESCE(CAST(b.{id_col_books} AS TEXT), b.{token_col})"
+        else:
+            id_expr = f"b.{token_col}"
+        dhlabids_json = json.dumps([int(x) for x in req.dhlabids])
+        sql_rows = f"""
+        WITH filter AS (
+            SELECT CAST(value AS INTEGER) AS dhlabid
+            FROM json_each(?)
+        ),
+        agg AS (
+            SELECT
+                {id_expr} AS id,
+                b.{token_col} AS token,
+                {name_expr} AS name,
+                CAST(p.{lat_col} AS REAL) AS lat,
+                CAST(p.{lon_col} AS REAL) AS lon,
+                SUM({count_expr}) AS frequency,
+                COUNT(DISTINCT b.{dhlab_col}) AS doc_count
+            FROM books b
+            JOIN filter f ON f.dhlabid = b.{dhlab_col}
+            LEFT JOIN places p ON p.{places_token_col} = b.{token_col}
+            WHERE p.{lat_col} IS NOT NULL
+              AND p.{lon_col} IS NOT NULL
+            GROUP BY id, b.{token_col}, name, p.{lat_col}, p.{lon_col}
+        )
+        SELECT id, token, name, lat, lon, frequency, doc_count
+        FROM agg
+        ORDER BY frequency DESC
+        LIMIT ?
+        """
+        rows = cur.execute(sql_rows, (dhlabids_json, int(req.maxPlaces))).fetchall()
+        sql_total = f"""
+        WITH filter AS (
+            SELECT CAST(value AS INTEGER) AS dhlabid
+            FROM json_each(?)
+        )
+        SELECT COUNT(*)
+        FROM (
+            SELECT b.{token_col}
+            FROM books b
+            JOIN filter f ON f.dhlabid = b.{dhlab_col}
+            LEFT JOIN places p ON p.{places_token_col} = b.{token_col}
+            WHERE p.{lat_col} IS NOT NULL
+              AND p.{lon_col} IS NOT NULL
+            GROUP BY b.{token_col}
+        )
+        """
+        total_places = int(cur.execute(sql_total, (dhlabids_json,)).fetchone()[0] or 0)
+        places: List[Dict[str, Any]] = []
+        for r in rows:
+            places.append(
+                {
+                    "id": str(r[0]),
+                    "token": str(r[1]),
+                    "name": str(r[2]) if r[2] is not None else None,
+                    "lat": float(r[3]),
+                    "lon": float(r[4]),
+                    "frequency": int(r[5] or 0),
+                    "doc_count": int(r[6] or 0),
+                }
+            )
+        return {"places": places, "total_places": total_places}
+    finally:
+        con.close()
+
+
+@app.post("/api/places/details")
+def imagination_places_details(req: PlaceDetailsRequest):
+    token = (req.token or "").strip()
+    if not req.dhlabids or not token:
+        return {"books": []}
+    con = _connect_imagination_ro()
+    try:
+        cur = con.cursor()
+        books_cols = _table_columns(cur, "books")
+        corpus_cols = _table_columns(cur, "corpus")
+        if not books_cols:
+            raise HTTPException(status_code=500, detail="imagination_db is missing table: books")
+        if not corpus_cols:
+            raise HTTPException(status_code=500, detail="imagination_db is missing table: corpus")
+        b_dhlab_col = _pick_col(books_cols, ["dhlabid", "book_id"])
+        c_dhlab_col = _pick_col(corpus_cols, ["dhlabid", "book_id"])
+        token_col = _pick_col(books_cols, ["token", "place_token"])
+        count_col = _pick_col(books_cols, ["book_count", "mentions", "count"])
+        if not b_dhlab_col or not c_dhlab_col or not token_col:
+            raise HTTPException(
+                status_code=500,
+                detail="books/corpus tables must contain dhlabid/book_id and books token/place_token",
+            )
+        count_expr = f"COALESCE(b.{count_col}, 1)" if count_col else "1"
+        urn_expr = _optional_expr(corpus_cols, ["urn"], "urn")
+        author_expr = _optional_expr(corpus_cols, ["author", "forfatter"], "author")
+        year_expr = _optional_expr(corpus_cols, ["year", "pub_year"], "year", cast="INTEGER")
+        title_expr = _optional_expr(corpus_cols, ["title", "titel"], "title")
+        category_expr = _optional_expr(corpus_cols, ["category", "genre"], "category")
+        dhlabids_json = json.dumps([int(x) for x in req.dhlabids])
+        sql = f"""
+        WITH filter AS (
+            SELECT CAST(value AS INTEGER) AS dhlabid
+            FROM json_each(?)
+        )
+        SELECT
+            CAST(c.{c_dhlab_col} AS INTEGER) AS dhlabid,
+            {urn_expr},
+            {author_expr},
+            {year_expr},
+            {title_expr},
+            {category_expr},
+            SUM({count_expr}) AS mentions
+        FROM books b
+        JOIN filter f ON f.dhlabid = b.{b_dhlab_col}
+        JOIN corpus c ON c.{c_dhlab_col} = b.{b_dhlab_col}
+        WHERE lower(COALESCE(b.{token_col}, '')) = lower(?)
+        GROUP BY c.{c_dhlab_col}, urn, author, year, title, category
+        ORDER BY mentions DESC, year IS NULL, year, dhlabid
+        LIMIT ?
+        """
+        rows = cur.execute(sql, (dhlabids_json, token, int(req.limit))).fetchall()
+        books: List[Dict[str, Any]] = []
+        for r in rows:
+            books.append(
+                {
+                    "dhlabid": int(r[0]),
+                    "urn": str(r[1]) if r[1] is not None else "",
+                    "author": str(r[2]) if r[2] is not None else None,
+                    "year": int(r[3]) if r[3] is not None else None,
+                    "title": str(r[4]) if r[4] is not None else None,
+                    "category": str(r[5]) if r[5] is not None else None,
+                    "mentions": int(r[6] or 0),
+                }
+            )
+        return {"books": books}
+    finally:
+        con.close()
+
+
+def _geo_annotation_attrs(row: Dict[str, Any]) -> str:
+    place = row.get("place") or {}
+    attrs = [("data-layer", "geo")]
+    attrs.append(("data-geo-place-id", row.get("placeId")))
+    attrs.append(("data-geo-variant-id", row.get("variantId")))
+    attrs.append(("data-geo-canonical", place.get("canonicalName")))
+    attrs.append(("data-geo-geonames-id", place.get("geonamesId")))
+    attrs.append(("data-geo-lat", place.get("lat")))
+    attrs.append(("data-geo-lon", place.get("lon")))
+    attrs.append(("data-geo-country", place.get("country")))
+    attrs.append(("data-geo-variant-text", place.get("variantText")))
+    attrs.append(("data-geo-method", row.get("method")))
+    attrs.append(("data-geo-score", row.get("score")))
+    parts: List[str] = []
+    for key, value in attrs:
+        if value is None:
+            continue
+        parts.append(f'{key}="{html_escape(str(value), quote=True)}"')
+    return " ".join(parts)
+
+
+def _extract_plain_terms_from_or_query(req: OrQueryRequest) -> List[str]:
+    if req.termGroups:
+        source = [t for g in req.termGroups for t in g]
+    else:
+        source = req.terms or []
+    out: List[str] = []
+    for token in source:
+        tok = (token or "").strip()
+        if not tok:
+            continue
+        if tok.startswith("#"):
+            continue
+        out.append(tok)
+    return out
+
+
+def _extract_plain_term_groups_from_or_query(req: OrQueryRequest) -> List[List[str]]:
+    raw_groups = req.termGroups if req.termGroups else [[t] for t in (req.terms or [])]
+    out: List[List[str]] = []
+    for group in raw_groups:
+        g: List[str] = []
+        for token in group:
+            tok = (token or "").strip()
+            if not tok or tok.startswith("#"):
+                continue
+            g.append(tok)
+        if g:
+            out.append(g)
+    return out
+
+
+def _decode_roaring_positions(blob: bytes) -> List[int]:
+    if not blob:
+        return []
+    if RoaringBitMap is None:
+        raise HTTPException(status_code=500, detail="pyroaring is required for geo roaring decode")
+    return list(RoaringBitMap.deserialize(blob))
+
+
+def _try_parse_geo_key(value: Optional[str]) -> Optional[Tuple[str, str]]:
+    if value is None:
+        return None
+    v = str(value).strip()
+    if not v:
+        return None
+    if v.isdigit():
+        return ("geonames", v)
+    m = re.match(r"^(geonames|internal)\s*:\s*(.+)$", v, flags=re.IGNORECASE)
+    if m:
+        return (m.group(1).strip().casefold(), m.group(2).strip())
+    return None
+
+
+def _load_geo_anchor_positions(
+    geo_db_path: str,
+    book_ids: List[int],
+    geo_key: Optional[Tuple[str, str]],
+) -> Dict[int, List[int]]:
+    if not book_ids:
+        return {}
+    con = sqlite3.connect(f"file:{geo_db_path}?mode=ro", uri=True)
+    cur = con.cursor()
+    try:
+        cur.execute("CREATE TEMP TABLE _book_filter(book_id INTEGER PRIMARY KEY)")
+        cur.executemany(
+            "INSERT OR IGNORE INTO _book_filter(book_id) VALUES (?)",
+            ((int(book_id),) for book_id in book_ids),
+        )
+        rows: List[Tuple[int, bytes]] = []
+        if geo_key:
+            rows = cur.execute(
+                """
+                SELECT p.book_id, p.starts_roaring
+                FROM geo_postings_v2 p
+                JOIN _book_filter f ON f.book_id = p.book_id
+                WHERE p.token_len = 0
+                  AND p.place_key_type = ?
+                  AND p.place_key = ?
+                """,
+                (geo_key[0], geo_key[1]),
+            ).fetchall()
+        else:
+            rows = cur.execute(
+                """
+                SELECT p.book_id, p.post_blob
+                FROM geo_postings_all p
+                JOIN _book_filter f ON f.book_id = p.book_id
+                """
+            ).fetchall()
+        out: Dict[int, List[int]] = {}
+        for book_id, blob in rows:
+            pos = _decode_roaring_positions(blob)
+            if pos:
+                out[int(book_id)] = sorted(int(x) for x in pos)
+        return out
+    finally:
+        con.close()
+
+
+def _lookup_geo_span_meta(
+    geo_db_path: str,
+    hits: List[Tuple[int, int]],
+    geo_key: Optional[Tuple[str, str]],
+) -> Dict[Tuple[int, int], Dict[str, Any]]:
+    if not hits:
+        return {}
+    con = sqlite3.connect(f"file:{geo_db_path}?mode=ro", uri=True)
+    cur = con.cursor()
+    try:
+        out: Dict[Tuple[int, int], Dict[str, Any]] = {}
+        for book_id, pos in hits:
+            params: List[Any] = [int(book_id), int(pos)]
+            sql = """
+                SELECT token_len, surface_text, place_key_type, place_key
+                FROM geo_mentions_v2
+                WHERE book_id = ? AND seq_start = ?
+            """
+            if geo_key:
+                sql += " AND place_key_type = ? AND place_key = ?"
+                params.extend([geo_key[0], geo_key[1]])
+            sql += " ORDER BY token_len DESC LIMIT 1"
+            row = cur.execute(sql, tuple(params)).fetchone()
+            if not row:
+                continue
+            out[(int(book_id), int(pos))] = {
+                "tokenLen": int(row[0]),
+                "surfaceText": str(row[1]) if row[1] is not None else None,
+                "placeKeyType": str(row[2]) if row[2] is not None else None,
+                "placeKey": str(row[3]) if row[3] is not None else None,
+            }
+        return out
+    finally:
+        con.close()
+
+
+def _run_geo_namespace_near_or(
+    req: OrQueryRequest,
+    ns_db_path: str,
+    book_ids: List[int],
+    plain_term_groups: List[List[str]],
+    geo_key: Optional[Tuple[str, str]],
+) -> Dict[str, Any]:
+    req_t0 = time.perf_counter()
+    perf: Dict[str, Any] = {
+        "mode": "geo_near_term_groups",
+        "shards": [],
+    }
+    anchor_t0 = time.perf_counter()
+    anchor_positions = _load_geo_anchor_positions(ns_db_path, book_ids, geo_key)
+    perf["anchor_load_ms"] = round((time.perf_counter() - anchor_t0) * 1000.0, 3)
+    perf["anchor_books"] = len(anchor_positions)
+    if not anchor_positions:
+        raise HTTPException(status_code=404, detail="No geo anchor positions for requested namespace/filter")
+    rows_hits: List[Tuple[int, int]] = []
+    target_books = set(anchor_positions.keys())
+    for shard_index, path in enumerate(CONFIG.postings_dbs):
+        if req.totalLimit and len(rows_hits) >= req.totalLimit:
+            break
+        shard_t0 = time.perf_counter()
+        shard_perf: Dict[str, Any] = {
+            "shard": path,
+            "index": int(shard_index),
+        }
+        con = connect_postings(path, CONFIG.ext_path, shard_sidecar_path(path, shard_index))
+        conw = connect_words(shard_words_path(path))
+        try:
+            cur = con.cursor()
+            curw = conw.cursor()
+            groups_t0 = time.perf_counter()
+            cf_groups = _resolve_term_groups(
+                curw, None, plain_term_groups, int(req.maxVariants), symmetric=False
+            )
+            shard_perf["groups_ms"] = round((time.perf_counter() - groups_t0) * 1000.0, 3)
+            if not cf_groups:
+                shard_perf["cf_groups_empty"] = True
+                shard_perf["total_ms"] = round((time.perf_counter() - shard_t0) * 1000.0, 3)
+                perf["shards"].append(shard_perf)
+                continue
+            shard_book_rows = cur.execute("SELECT book_id FROM urns").fetchall()
+            shard_books = [int(r[0]) for r in shard_book_rows if int(r[0]) in target_books]
+            shard_perf["candidate_books"] = len(shard_books)
+            rows_before = len(rows_hits)
+            book_scan_t0 = time.perf_counter()
+            for book_id in shard_books:
+                if req.totalLimit and len(rows_hits) >= req.totalLimit:
+                    break
+                group_pos = group_positions_for_book(
+                    cur, cf_groups, int(book_id), req.schema or CONFIG.default_schema
+                )
+                if not group_pos or any(not g for g in group_pos):
+                    continue
+                off_min = -int(req.before)
+                off_max = int(req.after)
+                near_pos = near_positions_from_groups(
+                    [anchor_positions[int(book_id)], *group_pos],
+                    off_min,
+                    off_max,
+                    exclude_self=False,
+                )
+                if not near_pos:
+                    continue
+                picks = near_pos[: int(req.perBook)]
+                for pos in picks:
+                    rows_hits.append((int(book_id), int(pos)))
+                    if req.totalLimit and len(rows_hits) >= req.totalLimit:
+                        break
+            shard_perf["match_ms"] = round((time.perf_counter() - book_scan_t0) * 1000.0, 3)
+            shard_perf["rows_added"] = len(rows_hits) - rows_before
+            shard_perf["total_ms"] = round((time.perf_counter() - shard_t0) * 1000.0, 3)
+            perf["shards"].append(shard_perf)
+        finally:
+            con.close()
+            conw.close()
+    if not rows_hits:
+        raise HTTPException(status_code=404, detail="No near hits for #geo + term groups")
+    meta_t0 = time.perf_counter()
+    meta_map = _lookup_geo_span_meta(ns_db_path, rows_hits, geo_key)
+    perf["meta_lookup_ms"] = round((time.perf_counter() - meta_t0) * 1000.0, 3)
+    rows: List[Dict[str, Any]] = []
+    for book_id, pos in rows_hits[: int(req.totalLimit)]:
+        meta = meta_map.get((book_id, pos), {})
+        rows.append(
+            {
+                "bookId": int(book_id),
+                "seqStart": int(pos),
+                "pos": int(pos),
+                "tokenLen": int(meta.get("tokenLen") or 1),
+                "surfaceText": meta.get("surfaceText"),
+                "placeKeyType": meta.get("placeKeyType"),
+                "placeKey": meta.get("placeKey"),
+                "method": "geo_near_term_groups",
+            }
+        )
+    rendered_rows: List[Dict[str, object]] = []
+    unresolved_render: List[Dict[str, int]] = []
+    if bool(req.renderHits):
+        render_t0 = time.perf_counter()
+        render_input = [{"bookId": int(r["bookId"]), "pos": int(r["pos"])} for r in rows]
+        rendered_rows, unresolved_render = _render_book_pos_rows(
+            render_input, int(req.before), int(req.after)
+        )
+        perf["render_ms"] = round((time.perf_counter() - render_t0) * 1000.0, 3)
+    out: Dict[str, Any] = {
+        "namespace": "geo",
+        "resolver": "geo_resolver",
+        "mode": "geo_near",
+        "rows": rows,
+    }
+    if rendered_rows:
+        out["rendered"] = rendered_rows
+    if unresolved_render:
+        out["render_unresolved"] = unresolved_render
+    if PROFILE_NEAR:
+        perf["rows_total"] = len(rows)
+        perf["hits_total"] = len(rows_hits)
+        perf["total_ms"] = round((time.perf_counter() - req_t0) * 1000.0, 3)
+        out["_perf"] = perf
+    return out
+
+
+def _attach_geo_surface_fragments(rows: List[Dict[str, Any]]) -> None:
+    """
+    Keep namespace/geo responses independent from fulltext internals.
+    Fragments are derived from geo surface_text only.
+    """
+    for row in rows:
+        surface = str(row.get("surfaceText") or "")
+        row["fragRaw"] = surface
+        if surface:
+            attrs = _geo_annotation_attrs(row)
+            row["fragHtml"] = f"<annotation {attrs}>{html_escape(surface)}</annotation>"
+        else:
+            row["fragHtml"] = ""
+
+
+def _render_book_pos_rows(rows: List[Dict[str, int]], before: int, after: int) -> Tuple[List[Dict[str, object]], List[Dict[str, int]]]:
+    out_rows: List[Dict[str, object]] = []
+    unresolved = [{"bookId": int(r["bookId"]), "pos": int(r["pos"])} for r in rows]
+    for shard_index, path in enumerate(CONFIG.postings_dbs):
+        if not unresolved:
+            break
+        con = connect_postings(path, CONFIG.ext_path, shard_sidecar_path(path, shard_index))
+        conw = connect_words(shard_words_path(path))
+        cur = con.cursor()
+        curw = conw.cursor()
+        next_unresolved: List[Dict[str, int]] = []
+        for row in unresolved:
+            book_id = int(row["bookId"])
+            pos = int(row["pos"])
+            exists = cur.execute(
+                "SELECT 1 FROM urns WHERE book_id = ? LIMIT 1",
+                (book_id,),
+            ).fetchone()
+            if not exists:
+                next_unresolved.append(row)
+                continue
+            frag = fetch_window(cur, curw, book_id, pos, before, after)
+            out_rows.append({"bookId": book_id, "pos": pos, "frag": frag})
+        con.close()
+        conw.close()
+        unresolved = next_unresolved
+    return out_rows, unresolved
+
+
+def _run_annotation_namespace_query_or(req: OrQueryRequest) -> Optional[Dict[str, Any]]:
+    try:
+        namespace, namespace_value, has_non_namespace_terms = parse_namespace_query(
+            req.terms, req.termGroups
+        )
+    except ValueError as exc:
+        raise HTTPException(status_code=400, detail=str(exc)) from exc
+
+    if not namespace:
+        return None
+    plain_terms = _extract_plain_terms_from_or_query(req)
+    plain_term_groups = _extract_plain_term_groups_from_or_query(req)
+    if has_non_namespace_terms and not plain_terms:
+        raise HTTPException(status_code=400, detail="Invalid non-namespace term(s) in request")
+    near_term = plain_terms[0] if plain_terms else None
+    if near_term and namespace_value and not plain_term_groups:
+        raise HTTPException(
+            status_code=400,
+            detail="Use either #namespace:value OR #namespace plus one plain term, not both",
+        )
+    if not CONFIG.annotation_registry_db:
+        raise HTTPException(
+            status_code=500,
+            detail="annotation_registry_db is not configured in POSTINGS_CONFIG",
+        )
+
+    try:
+        ns_meta = resolve_namespace(
+            CONFIG.annotation_registry_db,
+            namespace,
+            base_dir=CONFIG.annotation_base_dir,
+        )
+        filter_ids = req.filterIds if req.useFilter and req.filterIds else None
+        book_ids = resolve_namespace_books(
+            CONFIG.annotation_registry_db,
+            namespace,
+            filter_ids,
+            int(req.docSamples or 0),
+        )
+    except ValueError as exc:
+        raise HTTPException(status_code=404, detail=str(exc)) from exc
+    except FileNotFoundError as exc:
+        raise HTTPException(status_code=500, detail=str(exc)) from exc
+
+    if not book_ids:
+        raise HTTPException(status_code=404, detail=f"No covered books for #{namespace}")
+
+    resolver = str(ns_meta.get("resolver", "")).casefold()
+    if resolver != "geo_resolver":
+        raise HTTPException(
+            status_code=400,
+            detail=f"Unsupported resolver for #{namespace}: {resolver}",
+        )
+    geo_key = _try_parse_geo_key(namespace_value) if namespace == "geo" else None
+    if plain_term_groups:
+        if namespace != "geo":
+            raise HTTPException(status_code=400, detail="Near mode is only supported for #geo namespace")
+        if namespace_value and not geo_key:
+            raise HTTPException(
+                status_code=400,
+                detail="Near mode with #geo:value expects geoname id (e.g. #geo:3143244) or explicit geonames/internal prefix",
+            )
+        return _run_geo_namespace_near_or(
+            req,
+            ns_meta["db_path"],
+            book_ids,
+            plain_term_groups,
+            geo_key,
+        )
+
+    rows = fetch_geo_spans(
+        ns_meta["db_path"],
+        book_ids,
+        int(req.totalLimit),
+        place_text_filter=namespace_value,
+    )
+    fallback_mode: Optional[str] = None
+    if (
+        not rows
+        and namespace == "geo"
+        and namespace_value
+        and CONFIG.imagination_db
+        and Path(CONFIG.imagination_db).exists()
+    ):
+        rows = fetch_geo_books_from_imagination(
+            CONFIG.imagination_db,
+            namespace_value,
+            filter_ids if filter_ids else None,
+            int(req.totalLimit),
+        )
+        if rows:
+            fallback_mode = "imagination_book_level"
+    if not rows:
+        if namespace_value:
+            raise HTTPException(
+                status_code=404,
+                detail=f'No annotation hits for #{namespace}:"{namespace_value}"',
+            )
+        raise HTTPException(status_code=404, detail=f"No annotation hits for #{namespace}")
+    for row in rows:
+        if row.get("seqStart") is not None:
+            try:
+                row["pos"] = int(row["seqStart"])
+            except Exception:
+                pass
+    rendered_rows: List[Dict[str, object]] = []
+    unresolved_render: List[Dict[str, int]] = []
+    if bool(req.renderHits):
+        render_input = []
+        for row in rows:
+            if "bookId" not in row or "pos" not in row:
+                continue
+            pos = int(row["pos"])
+            if pos < 0:
+                continue
+            render_input.append({"bookId": int(row["bookId"]), "pos": pos})
+        if render_input:
+            rendered_rows, unresolved_render = _render_book_pos_rows(
+                render_input, int(req.before), int(req.after)
+            )
+    _attach_geo_surface_fragments(rows)
+    out = {
+        "namespace": namespace,
+        "resolver": resolver,
+        "rows": rows,
+    }
+    if rendered_rows:
+        out["rendered"] = rendered_rows
+    if unresolved_render:
+        out["render_unresolved"] = unresolved_render
+    if fallback_mode:
+        out["coverageMode"] = fallback_mode
+    return out
 
 
 class NearFragmentsRequest(BaseModel):
@@ -471,6 +1251,17 @@ def _words_columns(curw) -> set:
     return cols
 
 
+def _term_exact_variants(term: str) -> List[str]:
+    t = str(term or "")
+    if not t:
+        return []
+    out: List[str] = []
+    for candidate in (t.casefold(), t, t.lower(), t.title(), t.upper()):
+        if candidate and candidate not in out:
+            out.append(candidate)
+    return out
+
+
 def expand_term_cf_ids_with_df(
     curw, term: str, max_variants: int
 ) -> Tuple[List[int], int]:
@@ -501,31 +1292,20 @@ def expand_term_cf_ids_with_df(
         cf_ids = [r[0] for r in rows]
         df_sum = sum(r[1] for r in rows) if has_docfreq else len(cf_ids)
         return cf_ids, int(df_sum)
-    if has_docfreq:
-        row = curw.execute(
-            "SELECT cf_id, docfreq FROM words WHERE word = ? ORDER BY raw_id LIMIT 1",
-            (term.casefold(),),
-        ).fetchone()
-    else:
-        row = curw.execute(
-            "SELECT cf_id FROM words WHERE word = ? ORDER BY raw_id LIMIT 1",
-            (term.casefold(),),
-        ).fetchone()
-    if row:
-        return [row[0]], int(row[1]) if has_docfreq else 1
-    if has_docfreq:
-        row = curw.execute(
-            "SELECT cf_id, docfreq FROM words WHERE word = ? ORDER BY raw_id LIMIT 1",
-            (term,),
-        ).fetchone()
-    else:
-        row = curw.execute(
-            "SELECT cf_id FROM words WHERE word = ? ORDER BY raw_id LIMIT 1",
-            (term,),
-        ).fetchone()
-    if not row:
-        return [], 0
-    return [row[0]], int(row[1]) if has_docfreq else 1
+    for variant in _term_exact_variants(term):
+        if has_docfreq:
+            row = curw.execute(
+                "SELECT cf_id, docfreq FROM words WHERE word = ? ORDER BY raw_id LIMIT 1",
+                (variant,),
+            ).fetchone()
+        else:
+            row = curw.execute(
+                "SELECT cf_id FROM words WHERE word = ? ORDER BY raw_id LIMIT 1",
+                (variant,),
+            ).fetchone()
+        if row:
+            return [row[0]], int(row[1]) if has_docfreq else 1
+    return [], 0
 
 
 def _resolve_term_groups(
@@ -1008,6 +1788,56 @@ def _near_fragments_roaring_worker(task: Dict[str, Any]) -> Dict[str, Any]:
         conw.close()
 
 
+def _or_query_worker(task: Dict[str, Any]) -> Dict[str, Any]:
+    con = connect_postings(task["postings_path"], task["ext_path"], task.get("sidecar_path"))
+    conw = connect_words(task["words_path"])
+    try:
+        cur = con.cursor()
+        curw = conw.cursor()
+        groups = _resolve_term_groups(
+            curw, task.get("terms"), task.get("term_groups"), int(task["max_variants"]), symmetric=False
+        )
+        if not groups:
+            return {"rows": [], "found_any": False, "_worker": {"pid": os.getpid(), "shard": task["postings_path"]}}
+        or_cf_ids = sorted(set(cf for g in groups for cf in g))
+        if not or_cf_ids:
+            return {"rows": [], "found_any": False, "_worker": {"pid": os.getpid(), "shard": task["postings_path"]}}
+        base_filter_ids = task.get("base_filter_ids")
+        filter_ids = _apply_docpost_filter_and_sample(
+            cur,
+            [or_cf_ids],
+            base_filter_ids,
+            task.get("doc_samples"),
+            int(task.get("total_limit") or 0),
+            int(task.get("per_book") or 0),
+        )
+        if filter_ids == []:
+            return {"rows": [], "found_any": False, "_worker": {"pid": os.getpid(), "shard": task["postings_path"]}}
+        use_filter = bool(filter_ids)
+        filter_json = json.dumps(filter_ids) if use_filter else None
+        rows = sample_concordance_union(
+            cur,
+            curw,
+            or_cf_ids,
+            int(task["per_book"]),
+            int(task["before"]),
+            int(task["after"]),
+            use_filter,
+            filter_json,
+        )
+        local_limit = int(task.get("total_limit") or 0)
+        if local_limit and len(rows) > local_limit:
+            rows = rows[:local_limit]
+        return {
+            "rows": rows,
+            "found_any": True,
+            "_worker": {"pid": os.getpid(), "shard": task["postings_path"]},
+        }
+    finally:
+        con.close()
+        conw.close()
+
+
 @app.post("/near_query")
 def near_query(req: NearQueryRequest):
     if req.termGroups:
@@ -1275,6 +2105,10 @@ def near_query(req: NearQueryRequest):
 
 @app.post("/or_query")
 def or_query(req: OrQueryRequest):
+    annotation_response = _run_annotation_namespace_query_or(req)
+    if annotation_response is not None:
+        return annotation_response
+
     if req.termGroups:
         if len(req.termGroups) < 1:
             raise HTTPException(status_code=400, detail="termGroups must contain at least one item")
@@ -1284,60 +2118,84 @@ def or_query(req: OrQueryRequest):
     postings_paths = CONFIG.postings_dbs
     rows: List[Tuple[int, int, str]] = []
     found_any = False
+    parallel_shards = _python_parallel_shards_enabled(req.parallelShards)
+    perf_workers: List[Dict[str, Any]] = []
+    tasks: List[Dict[str, Any]] = []
+    base_filter_ids = req.filterIds if req.useFilter and req.filterIds else None
     for shard_index, path in enumerate(postings_paths):
-        con = connect_postings(path, CONFIG.ext_path, shard_sidecar_path(path, shard_index))
-        conw = connect_words(shard_words_path(path))
-        cur = con.cursor()
-        curw = conw.cursor()
-        base_filter_ids = req.filterIds if req.useFilter and req.filterIds else None
-        use_filter = False
-        filter_json = None
-
-        groups = _resolve_term_groups(
-            curw, req.terms, req.termGroups, req.maxVariants, symmetric=False
+        tasks.append(
+            {
+                "postings_path": path,
+                "words_path": shard_words_path(path),
+                "sidecar_path": shard_sidecar_path(path, shard_index),
+                "ext_path": CONFIG.ext_path,
+                "terms": req.terms,
+                "term_groups": req.termGroups,
+                "max_variants": req.maxVariants,
+                "before": req.before,
+                "after": req.after,
+                "per_book": req.perBook,
+                "doc_samples": req.docSamples,
+                "total_limit": req.totalLimit,
+                "base_filter_ids": base_filter_ids,
+            }
         )
-        if not groups:
-            con.close()
-            conw.close()
-            continue
-        or_cf_ids = sorted(set(cf for g in groups for cf in g))
-        if not or_cf_ids:
-            con.close()
-            conw.close()
-            continue
-        if not use_filter:
-            filter_ids = _apply_docpost_filter_and_sample(
-                cur,
-                [or_cf_ids],
-                base_filter_ids,
-                req.docSamples,
-                req.totalLimit,
-                req.perBook,
-            )
-            if filter_ids == []:
-                con.close()
-                conw.close()
-                continue
-            if filter_ids:
-                use_filter = True
-                filter_json = json.dumps(filter_ids)
-        found_any = True
-        rows.extend(
-            sample_concordance_union(
-                cur,
-                curw,
-                or_cf_ids,
-                req.perBook,
-                req.before,
-                req.after,
-                use_filter,
-                filter_json,
-            )
-        )
-        con.close()
-        conw.close()
-        if req.totalLimit and len(rows) >= req.totalLimit:
-            break
+    if parallel_shards and len(tasks) > 1:
+        try:
+            max_workers = _max_python_workers(len(tasks))
+            with ProcessPoolExecutor(max_workers=max_workers) as ex:
+                for shard_res in ex.map(_or_query_worker, tasks):
+                    found_any = found_any or bool(shard_res.get("found_any"))
+                    if PROFILE_NEAR:
+                        worker = shard_res.get("_worker")
+                        if isinstance(worker, dict):
+                            perf_workers.append(worker)
+                    shard_rows = shard_res.get("rows", [])
+                    if req.totalLimit:
+                        remaining = max(req.totalLimit - len(rows), 0)
+                        if remaining <= 0:
+                            break
+                        if len(shard_rows) > remaining:
+                            shard_rows = shard_rows[:remaining]
+                    rows.extend(shard_rows)
+                    if req.totalLimit and len(rows) >= req.totalLimit:
+                        break
+        except Exception:
+            for task in tasks:
+                shard_res = _or_query_worker(task)
+                found_any = found_any or bool(shard_res.get("found_any"))
+                if PROFILE_NEAR:
+                    worker = shard_res.get("_worker")
+                    if isinstance(worker, dict):
+                        perf_workers.append(worker)
+                shard_rows = shard_res.get("rows", [])
+                if req.totalLimit:
+                    remaining = max(req.totalLimit - len(rows), 0)
+                    if remaining <= 0:
+                        break
+                    if len(shard_rows) > remaining:
+                        shard_rows = shard_rows[:remaining]
+                rows.extend(shard_rows)
+                if req.totalLimit and len(rows) >= req.totalLimit:
+                    break
+    else:
+        for task in tasks:
+            shard_res = _or_query_worker(task)
+            found_any = found_any or bool(shard_res.get("found_any"))
+            if PROFILE_NEAR:
+                worker = shard_res.get("_worker")
+                if isinstance(worker, dict):
+                    perf_workers.append(worker)
+            shard_rows = shard_res.get("rows", [])
+            if req.totalLimit:
+                remaining = max(req.totalLimit - len(rows), 0)
+                if remaining <= 0:
+                    break
+                if len(shard_rows) > remaining:
+                    shard_rows = shard_rows[:remaining]
+            rows.extend(shard_rows)
+            if req.totalLimit and len(rows) >= req.totalLimit:
+                break
 
     if not found_any:
         raise HTTPException(status_code=404, detail="No terms matched")
@@ -1345,7 +2203,14 @@ def or_query(req: OrQueryRequest):
         raise HTTPException(status_code=404, detail="No results found")
     if req.totalLimit and len(rows) > req.totalLimit:
         rows = rows[: req.totalLimit]
-    return {"rows": [{"bookId": b, "pos": p, "frag": f} for b, p, f in rows]}
+    out: Dict[str, Any] = {"rows": [{"bookId": b, "pos": p, "frag": f} for b, p, f in rows]}
+    if PROFILE_NEAR:
+        out["_perf"] = {
+            "workers": perf_workers,
+            "parallel_requested": bool(parallel_shards),
+            "parallel_tasks": len(tasks),
+        }
+    return out
 
 
 @app.post("/near_fragments")
@@ -1829,31 +2694,7 @@ def render_hits(req: RenderHitsRequest):
     if not pending:
         raise HTTPException(status_code=400, detail="rows must contain bookId and pos")
 
-    out_rows: List[Dict[str, object]] = []
-    unresolved = list(pending)
-    for shard_index, path in enumerate(CONFIG.postings_dbs):
-        if not unresolved:
-            break
-        con = connect_postings(path, CONFIG.ext_path, shard_sidecar_path(path, shard_index))
-        conw = connect_words(shard_words_path(path))
-        cur = con.cursor()
-        curw = conw.cursor()
-        next_unresolved: List[Dict[str, int]] = []
-        for row in unresolved:
-            book_id = int(row["bookId"])
-            pos = int(row["pos"])
-            exists = cur.execute(
-                "SELECT 1 FROM urns WHERE book_id = ? LIMIT 1",
-                (book_id,),
-            ).fetchone()
-            if not exists:
-                next_unresolved.append(row)
-                continue
-            frag = fetch_window(cur, curw, book_id, pos, req.before, req.after)
-            out_rows.append({"bookId": book_id, "pos": pos, "frag": frag})
-        con.close()
-        conw.close()
-        unresolved = next_unresolved
+    out_rows, unresolved = _render_book_pos_rows(pending, int(req.before), int(req.after))
 
     if not out_rows:
         raise HTTPException(status_code=404, detail="No rows could be rendered")

@@ -84,12 +84,18 @@ then intersect the resulting blobs to enforce full-group near constraints.
     "/mnt/disk4/imagination_shards/imag_01_postings.db"
   ],
   "words_db": "",
+  "imagination_db": "",
+  "annotation_registry_db": "/mnt/disk4/annotations/annotation_registry.db",
+  "annotation_base_dir": "/mnt/disk4/annotations",
   "ext_path": "/path/to/postings_native.so",
   "default_schema": "unigrams"
 }
 ```
 
 Set `words_db` to an empty string to use per-shard `words` embedded in each postings DB.
+Set `imagination_db` to enable ImagiNation corpus/place endpoints (`/api/*`).
+Set `annotation_registry_db` to enable `#namespace` resolution (for now: `#geo`).
+Set `annotation_base_dir` to resolve relative namespace `db_path` values.
 
 ## Python backend (local)
 
@@ -102,6 +108,9 @@ uvicorn api_python.server:app --host 0.0.0.0 --port 8000
 ## API endpoints
 
 - `GET /health`
+- `GET /api/metadata/all`
+- `POST /api/places`
+- `POST /api/places/details`
 - `POST /concordance`
 - `POST /near_frequency`
 - `POST /near_query`
@@ -130,7 +139,7 @@ For new clients, prefer group-based payloads (`termGroups` or `terms`) with:
 - `POST /or_query` for union/single-group concordance-style search
 - `POST /near_query`, `POST /near_fragments`, `POST /near_hits` for near semantics
 
-Optional per-request engine fields for `/near_query`, `/near_fragments`, `/near_hits`:
+Optional per-request fields for `/near_query`, `/near_fragments`, `/near_hits`, `/or_query`:
 
 ```json
 {
@@ -141,9 +150,10 @@ Optional per-request engine fields for `/near_query`, `/near_fragments`, `/near_
 ```
 
 - `engine`: `python` (default) or `julia` (requires `POSTINGS_JULIA_HYBRID=1`)
-- `parallelShards`: used by Julia probe path (`true` enables shard tasks)
+- `parallelShards`: enables shard-parallel execution in Python near/or paths and Julia probe path
 - `useFilter` + `filterIds`: supported in both engines for near endpoints
 - `matchMode`: `near` (default) or `sequence` (strict phrase-like sequence). `sequence` is currently supported for `engine=python` with `schema=unigrams`.
+- `_perf`: set `POSTINGS_PROFILE_NEAR=1` to include runtime diagnostics (workers, shard task info) in responses.
 
 ### OR query
 
@@ -156,8 +166,71 @@ Optional per-request engine fields for `/near_query`, `/near_fragments`, `/near_
   "after": 5,
   "perBook": 3,
   "docSamples": 10,
-  "totalLimit": 200
+  "totalLimit": 200,
+  "parallelShards": true
 }
+```
+
+Notes:
+- Exact term lookup is case-robust (for example, searching `øysterdalen` matches indexed `Øysterdalen`).
+- With `POSTINGS_PROFILE_NEAR=1`, `/or_query` also returns `_perf` metadata.
+
+Annotation namespace mode for `/or_query` (v1):
+
+```json
+{
+  "terms": ["#geo"],
+  "docSamples": 200,
+  "totalLimit": 500,
+  "useFilter": true,
+  "filterIds": [100617608, 100617609]
+}
+```
+
+In decoupled geo mode, namespace queries are geo-only and do not call fulltext internals.
+That means `#geo` and `#geo:<value>` are supported, while mixed namespace+plain-term
+queries (for example `#geo krig`) should be run as two separate API calls
+(`POST /or_query` for geo + `POST /near_query` or `POST /near_fragments` for fulltext near).
+
+When query contains only `#geo`, backend resolves namespace via `annotation_registry_db`
+and returns rows anchored in shared coordinates: `bookId`, `seqStart`, `tokenLen`.
+If available in `places`, each row also includes geolocation under `place`
+(`canonicalName`, `geonamesId`, `lat`, `lon`, `country`, `variantText`).
+
+Bootstrap helper SQL lives in:
+- `sql/annotation_registry.sql`
+- `sql/annotation_geo.sql`
+
+Example namespace registration:
+
+```sql
+INSERT INTO annotation_namespaces(namespace, db_path, version, resolver, active)
+VALUES ('geo', '/mnt/disk4/annotations/annotation_geo.db', 'v1', 'geo_resolver', 1);
+```
+
+If you want one registry shared across environments, store relative `db_path`:
+
+```sql
+INSERT INTO annotation_namespaces(namespace, db_path, version, resolver, active)
+VALUES ('geo', 'annotation_geo.db', 'v1', 'geo_resolver', 1);
+```
+
+Then only change `annotation_base_dir` per environment.
+
+Import geolocation into `annotation_geo.db` from existing token/source DB:
+
+```bash
+python import_geo_places_from_tokens_db.py \
+  --annotation-db /mnt/disk4/annotations/annotation_geo.db \
+  --source-db /path/to/current_geo_source.db \
+  --source-table geo_tokens \
+  --token-col token \
+  --canonical-col canonical_name \
+  --geonames-col geonames_id \
+  --lat-col lat \
+  --lon-col lon \
+  --country-col country \
+  --link-spans
 ```
 
 ### Legacy note

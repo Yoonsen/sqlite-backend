@@ -4,6 +4,9 @@
     "/mnt/disk4/imagination_shards/imag_01_postings.db"
   ],
   "words_db": "",
+  "imagination_db": "/path/to/imagination.db",
+  "annotation_registry_db": "/path/to/annotation_registry.db",
+  "annotation_base_dir": "/path/to/annotation_dbs",
   "ext_path": "/path/to/postings_native.so",
   "default_schema": "unigrams"
 }

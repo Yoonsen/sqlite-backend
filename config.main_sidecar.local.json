@@ -10,6 +10,7 @@
     "/mnt/disk4/imagination_shards_roaring_blk128_sidecar_v1/imag_roaring_blk128_sidecar_2.db"
   ],
   "words_db": "",
+  "imagination_db": "",
   "ext_path": "/mnt/disk1/Github/sqlite-backend/postings_native.so",
   "default_schema": "unigrams"
 }

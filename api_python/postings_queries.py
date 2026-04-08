@@ -42,16 +42,29 @@ def connect_words(db_path: str) -> sqlite3.Connection:
 
 
 def get_cf_id(curw: sqlite3.Cursor, word: str) -> Optional[int]:
-    w = word.casefold()
-    row = curw.execute(
-        "SELECT cf_id FROM words WHERE word = ? ORDER BY raw_id LIMIT 1", (w,)
-    ).fetchone()
-    if row:
-        return row[0]
-    row = curw.execute(
-        "SELECT cf_id FROM words WHERE word = ? ORDER BY raw_id LIMIT 1", (word,)
-    ).fetchone()
-    return row[0] if row else None
+    for variant in _term_exact_variants(word):
+        row = curw.execute(
+            "SELECT cf_id FROM words WHERE word = ? ORDER BY raw_id LIMIT 1", (variant,)
+        ).fetchone()
+        if row:
+            return row[0]
+    return None
+
+
+def _term_exact_variants(term: str) -> List[str]:
+    """
+    Build ordered exact-match variants for robust lookup when words.word stores
+    cased forms (for example only 'Øysterdalen' and not always a lower-case
+    duplicate).
+    """
+    t = str(term or "")
+    if not t:
+        return []
+    out: List[str] = []
+    for candidate in (t.casefold(), t, t.lower(), t.title(), t.upper()):
+        if candidate and candidate not in out:
+            out.append(candidate)
+    return out
 
 
 def _postings_codec(cur: sqlite3.Cursor) -> str:
