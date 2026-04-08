@@ -619,6 +619,13 @@ def _lookup_geo_span_meta(
     con = sqlite3.connect(f"file:{geo_db_path}?mode=ro", uri=True)
     cur = con.cursor()
     try:
+        table_ok = cur.execute(
+            "SELECT 1 FROM sqlite_master WHERE type='table' AND name='geo_mentions_v2' LIMIT 1"
+        ).fetchone()
+        if not table_ok:
+            # Some prod exports intentionally omit geo_mentions_v2 to stay compact.
+            # In that case we return empty meta and let callers use safe defaults.
+            return {}
         out: Dict[Tuple[int, int], Dict[str, Any]] = {}
         for book_id, pos in hits:
             params: List[Any] = [int(book_id), int(pos)]
@@ -641,6 +648,11 @@ def _lookup_geo_span_meta(
                 "placeKey": str(row[3]) if row[3] is not None else None,
             }
         return out
+    except sqlite3.OperationalError as exc:
+        msg = str(exc).lower()
+        if "no such table" in msg and "geo_mentions_v2" in msg:
+            return {}
+        raise
     finally:
         con.close()
 
@@ -731,6 +743,12 @@ def _run_geo_namespace_near_or(
     rows: List[Dict[str, Any]] = []
     for book_id, pos in rows_hits[: int(req.totalLimit)]:
         meta = meta_map.get((book_id, pos), {})
+        key_type = meta.get("placeKeyType")
+        key_val = meta.get("placeKey")
+        if not key_type and geo_key:
+            key_type = geo_key[0]
+        if not key_val and geo_key:
+            key_val = geo_key[1]
         rows.append(
             {
                 "bookId": int(book_id),
@@ -738,8 +756,8 @@ def _run_geo_namespace_near_or(
                 "pos": int(pos),
                 "tokenLen": int(meta.get("tokenLen") or 1),
                 "surfaceText": meta.get("surfaceText"),
-                "placeKeyType": meta.get("placeKeyType"),
-                "placeKey": meta.get("placeKey"),
+                "placeKeyType": key_type,
+                "placeKey": key_val,
                 "method": "geo_near_term_groups",
             }
         )
