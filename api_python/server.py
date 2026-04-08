@@ -600,6 +600,19 @@ def _load_geo_anchor_positions(
                     """,
                     (geo_key[0], geo_key[1]),
                 ).fetchall()
+                if not rows_blob:
+                    # Some exports may not materialize token_len=0 rollups.
+                    # Fallback: merge all token_len rows for the requested key.
+                    rows_blob = cur.execute(
+                        """
+                        SELECT p.book_id, p.starts_roaring
+                        FROM geo_postings_v2 p
+                        JOIN _book_filter f ON f.book_id = p.book_id
+                        WHERE p.place_key_type = ?
+                          AND p.place_key = ?
+                        """,
+                        (geo_key[0], geo_key[1]),
+                    ).fetchall()
             elif _table_exists("geo_mentions_v2"):
                 rows_pos = cur.execute(
                     """
@@ -666,7 +679,15 @@ def _load_geo_anchor_positions(
         for book_id, blob in rows_blob:
             pos = _decode_roaring_positions(blob)
             if pos:
-                out[int(book_id)] = sorted(int(x) for x in pos)
+                bid = int(book_id)
+                arr = out.get(bid)
+                if arr is None:
+                    arr = []
+                    out[bid] = arr
+                arr.extend(int(x) for x in pos)
+        if rows_blob:
+            for bid, arr in out.items():
+                out[bid] = sorted(set(arr))
         if rows_pos:
             for book_id, seq_start in rows_pos:
                 bid = int(book_id)
