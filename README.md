@@ -2,6 +2,19 @@
 
 Postings-based SQLite backend for concordance and near search, with a FastAPI service and a simple JS UI.
 See `DATABASE_MODEL.md` for the model and `report.md` for design notes.
+For the current local-to-server workflow, see `ARBEIDSFLYT_LOCAL_TO_SERVER.md`.
+For internal AI usage and deploy guardrails, see `AI_FIREWALL_WORKFLOW_POLICY.md`.
+For the long-term token/corpus/shard contract behind query planning and
+annotation compatibility, see `QUERY_CORPUS_MODEL.md`.
+For the operational shard admission and consistency checklist, see
+`SHARD_VALIDATION_CHECKLIST.md`.
+For current geo identity, v2 sidecar tables, and migration notes, see:
+
+- `PLACE_ID_STRATEGY.md`
+- `GEO_INDEX_CONTRACT.md`
+- `API_CONTRACT_GEO_V2.md`
+- `GEO_DISAMBIG_TO_V2_MAPPING.md`
+- `GEO_IMAGINATION_DB.md`
 
 ## Quick start (Docker)
 
@@ -100,15 +113,22 @@ Set `annotation_base_dir` to resolve relative namespace `db_path` values.
 ## Python backend (local)
 
 ```bash
-export POSTINGS_CONFIG=/path/to/config.json
-pip install -r api_python/requirements.txt
-uvicorn api_python.server:app --host 0.0.0.0 --port 8000
+# Use one fixed Python runtime for all local starts.
+# Example runtime on this host:
+REPO_PYTHON=/home/larsj/miniconda3/bin/python \
+POSTINGS_CONFIG=/path/to/config.json \
+API_HOST=0.0.0.0 \
+API_PORT=8000 \
+./run_api.sh
 ```
+
+`run_api.sh` enforces one runtime and checks `uvicorn` + `pyroaring` in that runtime before startup.
 
 ## API endpoints
 
 - `GET /health`
 - `GET /api/metadata/all`
+- `POST /api/place/resolve`
 - `POST /api/places`
 - `POST /api/places/details`
 - `POST /concordance`
@@ -117,6 +137,56 @@ uvicorn api_python.server:app --host 0.0.0.0 --port 8000
 - `POST /near_fragments`
 - `POST /or_query`
 - `POST /collocations`
+
+### Place resolver
+
+Use this for place identity lookup before geo search. It is a pure resolver against the
+place catalog in `imagination.db`, not a corpus-count endpoint and not an annotation lookup.
+
+Query by form:
+
+```json
+{
+  "query": "rio de janeiro",
+  "limit": 5
+}
+```
+
+Query by id:
+
+```json
+{
+  "id": "<place-id>",
+  "limit": 5
+}
+```
+
+Response shape:
+
+```json
+{
+  "matches": [
+    {
+      "id": "4473178",
+      "canonicalName": "Rio de Janeiro",
+      "matchedForm": "Rio de Janeiro",
+      "alternateForms": ["Rio", "Janeiro"],
+      "lat": -22.9,
+      "lon": -43.2,
+      "country": "Brazil",
+      "matchType": "exact"
+    }
+  ]
+}
+```
+
+Use the returned `id` as the stable internal place id in frontend code.
+
+Current compatibility note:
+
+- new code should treat this as canonical internal identity
+- current runtime may still accept bare `#geo:<id>` and materialize that through
+  the deployed `nb` query key
 
 ### CNF term groups (OR groups, recommended)
 
@@ -192,6 +262,12 @@ That means `#geo` and `#geo:<value>` are supported, while mixed namespace+plain-
 queries (for example `#geo krig`) should be run as two separate API calls
 (`POST /or_query` for geo + `POST /near_query` or `POST /near_fragments` for fulltext near).
 
+Identity note for `#geo:<value>`:
+
+- target architecture term: internal `place_id`
+- current runtime compatibility may still interpret bare numeric ids as `nb`
+- explicit `#geo:internal:<id>` should be preferred in new integrations
+
 When query contains only `#geo`, backend resolves namespace via `annotation_registry_db`
 and returns rows anchored in shared coordinates: `bookId`, `seqStart`, `tokenLen`.
 If available in `places`, each row also includes geolocation under `place`
@@ -200,6 +276,7 @@ If available in `places`, each row also includes geolocation under `place`
 Bootstrap helper SQL lives in:
 - `sql/annotation_registry.sql`
 - `sql/annotation_geo.sql`
+- `sql/annotation_geo_nb.sql`
 
 Example namespace registration:
 
