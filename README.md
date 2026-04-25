@@ -25,9 +25,11 @@ Read these first for active geo work:
    - current geo v2 storage shape and layer separation
 3. `API_CONTRACT_GEO_V2.md`
    - current request/response contract for geo-facing API behavior
-4. `GEO_REBUILD_RUNBOOK.md`
+4. `GEO_ENRICHMENT_PIPELINE.md`
+   - current upstream candidate/KWIC/gazetteer/LLM enrichment flow
+5. `GEO_REBUILD_RUNBOOK.md`
    - operational rebuild flow and validation gates
-5. `ANNOTATION_LAYERS_BLUEPRINT.md`
+6. `ANNOTATION_LAYERS_BLUEPRINT.md`
    - shared registry/layer model across annotation namespaces
 
 ### Secondary Geo References

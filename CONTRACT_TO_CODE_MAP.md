@@ -91,6 +91,26 @@ Frontend consumers:
 - `web/app.js`
 - `web/index.html`
 
+## `GEO_ENRICHMENT_PIPELINE.md`
+
+Purpose:
+- current upstream geo candidate, KWIC, gazetteer, and LLM disambiguation flow
+
+Implemented by:
+- external enrichment processes outside this repository
+  - candidate generation from fulltext on `/mnt/disk4`
+  - direct KWIC extraction from corpus fulltext
+  - gazetteer combination across `GeoNames` and `SSR`
+  - LLM disambiguation
+- `ANNOTATION_GEO_DISAMBIGUATION_SCHEMA.md`
+  - expected LLM input/output row shape
+- `import_geo_disambig_to_annotation_nb.py`
+  - import into the sidecar pipeline
+- `build_geo_nb_contract_v1.py`
+  - materialization into current deployed query tables
+- `build_geo_contract_v2.py`
+  - materialization into current v2 tables
+
 ## `GEO_REBUILD_RUNBOOK.md`
 
 Purpose:

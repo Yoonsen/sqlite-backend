@@ -21,9 +21,11 @@ If you are working on geo, read these documents before changing code:
    - current v2 storage shape and separation of concerns
 6. `API_CONTRACT_GEO_V2.md`
    - stable request/response contract for geo-facing API behavior
-7. `GEO_REBUILD_RUNBOOK.md`
+7. `GEO_ENRICHMENT_PIPELINE.md`
+   - current candidate/KWIC/gazetteer/LLM enrichment flow before sidecar import
+8. `GEO_REBUILD_RUNBOOK.md`
    - operational rebuild flow and validation gates
-8. `ANNOTATION_LAYERS_BLUEPRINT.md`
+9. `ANNOTATION_LAYERS_BLUEPRINT.md`
    - shared model for annotation layers and registry behavior
 
 ## Secondary Geo References
@@ -78,12 +80,18 @@ truth. It is derived from `annotation_geo_nb.db` + `imagination.db`.
 
 ## Current Geo Reality
 
+- Current enrichment flow reads candidates and KWIC directly from fulltext on
+  `/mnt/disk4`
+- Candidate enrichment currently combines `GeoNames` and `SSR`
+- KWIC/context is processed by an LLM resolver in the enrichment pipeline
 - Current rebuild source is usually `/home/larsj/geotest/geo_disambig.db`
 - Current safe raw mention basis is:
   - `book_id` / `dhlabid`
   - `seq_start`
   - `geonames_id`
   - `token_len`
+- Current practical global place identity in enrichment is `geonames_id`
+- `SSR` currently links onto `geonames_id` where mapping is possible
 - Runtime compatibility still uses `nb` in several places
 - Long-term architecture term is still canonical internal `place_id`
 
