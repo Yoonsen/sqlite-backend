@@ -2,19 +2,60 @@
 
 Postings-based SQLite backend for concordance and near search, with a FastAPI service and a simple JS UI.
 See `DATABASE_MODEL.md` for the model and `report.md` for design notes.
+
+## Documentation Map
+
+If you are new to the repo, treat this file as the entry point and then branch
+into the relevant contract docs below.
+
+Meta-docs for keeping documentation reconstructive:
+
+- `DOCUMENTATION_STRUCTURE.md`
+  - standard shape for architecture and operational docs
+- `CONTRACT_TO_CODE_MAP.md`
+  - bridge from contract docs to implementation files and commands
+
+### Current Geo Source of Truth
+
+Read these first for active geo work:
+
+1. `PLACE_ID_STRATEGY.md`
+   - canonical place identity model
+2. `GEO_INDEX_CONTRACT.md`
+   - current geo v2 storage shape and layer separation
+3. `API_CONTRACT_GEO_V2.md`
+   - current request/response contract for geo-facing API behavior
+4. `GEO_REBUILD_RUNBOOK.md`
+   - operational rebuild flow and validation gates
+5. `ANNOTATION_LAYERS_BLUEPRINT.md`
+   - shared registry/layer model across annotation namespaces
+
+### Secondary Geo References
+
+Read these when the task is specifically about one sub-area:
+
+- `GEO_DISAMBIG_TO_V2_MAPPING.md`
+  - source-to-v2 mapping for `geo_disambig.db`
+- `GEO_IMAGINATION_DB.md`
+  - map aggregate DB role and rebuild contract
+- `ANNOTATION_GEO_DISAMBIGUATION_SCHEMA.md`
+  - LLM/disambiguation payload and writeback format
+- `DEPLOY_GEO_CHECKLIST.md`
+  - deploy/smoke-test checklist for a specific rollout workflow
+
+### Historical Notes
+
+Some older geo notes still document useful project history, but they should not
+override the current documents above. Use them as migration/debug context only.
+
 For the current local-to-server workflow, see `ARBEIDSFLYT_LOCAL_TO_SERVER.md`.
 For internal AI usage and deploy guardrails, see `AI_FIREWALL_WORKFLOW_POLICY.md`.
 For the long-term token/corpus/shard contract behind query planning and
 annotation compatibility, see `QUERY_CORPUS_MODEL.md`.
 For the operational shard admission and consistency checklist, see
 `SHARD_VALIDATION_CHECKLIST.md`.
-For current geo identity, v2 sidecar tables, and migration notes, see:
-
-- `PLACE_ID_STRATEGY.md`
-- `GEO_INDEX_CONTRACT.md`
-- `API_CONTRACT_GEO_V2.md`
-- `GEO_DISAMBIG_TO_V2_MAPPING.md`
-- `GEO_IMAGINATION_DB.md`
+For current geo identity, storage, API, and rebuild guidance, start with the
+documentation map above.
 
 ## Quick start (Docker)
 

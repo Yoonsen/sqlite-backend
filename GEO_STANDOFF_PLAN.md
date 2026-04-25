@@ -1,4 +1,11 @@
-## GEO Standoff Plan (Shard-local)
+# GEO Standoff Plan (Shard-local)
+
+> Historical design note:
+> This is an early shard-local plan from before the current geo v2 contract was
+> stabilized.
+> Do not treat it as the active backend/storage contract.
+> Read `GEO_INDEX_CONTRACT.md`, `PLACE_ID_STRATEGY.md`, and
+> `ANNOTATION_LAYERS_BLUEPRINT.md` first for current architecture guidance.
 
 Goal: run a practical pilot in one week on a subcorpus (epikk, ~1900 books), with full round-trip:
 - postings search -> concordance with standoff

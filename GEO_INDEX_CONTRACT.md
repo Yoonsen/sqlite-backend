@@ -1,5 +1,11 @@
 # Geo Index Contract (ImagiNation + Annotation Sidecar)
 
+> Current source-of-truth:
+> This document defines the active geo v2 storage contract and the separation
+> between fulltext, geo sidecar, and map aggregate layers.
+> Read it together with `PLACE_ID_STRATEGY.md` and `GEO_REBUILD_RUNBOOK.md`
+> before changing geo storage or rebuild behavior.
+
 This document defines the shared geo indexing model for:
 
 - `imagination.db` for corpus- and place-list APIs

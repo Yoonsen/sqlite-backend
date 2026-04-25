@@ -1,5 +1,12 @@
 # Frontend Handoff: New `#geo` Model (ID-first)
 
+> Historical note:
+> This document captures an earlier frontend handoff phase.
+> Read `API_CONTRACT_GEO_V2.md`, `PLACE_ID_STRATEGY.md`, and
+> `GEO_INDEX_CONTRACT.md` first for the current source of truth.
+> Use this file mainly as migration/context history, especially where it refers
+> to older identity assumptions such as `place_key` forms.
+
 ## Scope
 
 This is the handoff for frontend rewrite to the new geo annotation model:

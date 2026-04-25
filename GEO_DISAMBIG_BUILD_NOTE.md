@@ -1,5 +1,12 @@
 # Note: `geo_disambig.db` -> sidecar test run
 
+> Historical run note:
+> This document records an early import experiment and its observed counts.
+> It is useful for migration/debug history, but it is not the current rebuild
+> contract.
+> Read `GEO_DISAMBIG_TO_V2_MAPPING.md` and `GEO_REBUILD_RUNBOOK.md` first when
+> working on the live rebuild path.
+
 This note summarizes the first working import path from
 `/home/larsj/geotest/geo_disambig.db` into the NB geo annotation sidecar and the
 derived `geo_imagination.db`.
