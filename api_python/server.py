@@ -37,6 +37,7 @@ from api_python.postings_queries import (
     docpost_book_ids,
     fetch_window,
     fetch_window_structured,
+    group_frequency,
     group_positions_for_book,
     get_cf_id,
     near_count_from_groups,
@@ -4498,11 +4499,26 @@ def near_query(req: NearQueryRequest):
     namespace_response = _run_namespace_near_query(req)
     if namespace_response is not None:
         return namespace_response
+    min_group_count = 2 if req.mode in {"hits", "render"} else 1
     if req.termGroups:
-        if len(req.termGroups) < 2:
-            raise HTTPException(status_code=400, detail="termGroups must contain at least two items")
-    elif not req.terms or len(req.terms) < 2:
-        raise HTTPException(status_code=400, detail="terms must contain at least two items")
+        if len(req.termGroups) < min_group_count:
+            raise HTTPException(
+                status_code=400,
+                detail=(
+                    "termGroups must contain at least two items"
+                    if min_group_count == 2
+                    else "termGroups must contain at least one item"
+                ),
+            )
+    elif not req.terms or len(req.terms) < min_group_count:
+        raise HTTPException(
+            status_code=400,
+            detail=(
+                "terms must contain at least two items"
+                if min_group_count == 2
+                else "terms must contain at least one item"
+            ),
+        )
     if req.mode in {"hits", "render"}:
         out = near_fragments(_near_fragments_request_from_query(req))
         if req.mode == "hits":
@@ -4610,6 +4626,27 @@ def near_query(req: NearQueryRequest):
                 filter_json = json.dumps(filter_ids)
         found_any = True
         codec = detect_postings_codec(cur)
+        if len(groups) == 1:
+            shard_total, shard_docs = group_frequency(
+                cur,
+                groups[0],
+                use_filter,
+                filter_json,
+                schema_name,
+            )
+            total += int(shard_total)
+            docs += int(shard_docs)
+            if PROFILE_NEAR:
+                perf_workers.append(
+                    {
+                        "pid": os.getpid(),
+                        "shard": path,
+                        "mode": "single_group_frequency_fastpath",
+                    }
+                )
+            con.close()
+            conw.close()
+            continue
         pairwise_fastpath = (
             match_mode == "near"
             and schema_name == "unigrams"

@@ -859,6 +859,54 @@ def near_partner_popcount(
     return total, docs
 
 
+def group_frequency(
+    cur: sqlite3.Cursor,
+    cf_ids: List[int],
+    use_filter: bool,
+    filter_json: Optional[str],
+    ngrams_table: str,
+) -> Tuple[int, int]:
+    """
+    Count total term frequency and matching documents for one logical term group.
+
+    `cf_ids` may contain one exact term id or multiple ids from a wildcard /
+    OR-group expansion. The query aggregates tf per document first so that docs
+    counts remain document-level even when multiple cf_ids match in the same
+    book.
+    """
+    cf_ids = sorted(set(int(cf) for cf in cf_ids))
+    if not cf_ids:
+        return 0, 0
+    placeholders = ",".join("?" for _ in cf_ids)
+    if use_filter:
+        sql = f"""
+            SELECT COALESCE(SUM(doc_tf), 0) AS total, COUNT(*) AS docs
+            FROM (
+                SELECT u.book_id, SUM(u.tf) AS doc_tf
+                FROM json_each(?) f
+                JOIN {ngrams_table} u ON u.book_id = f.value
+                WHERE u.cf_id IN ({placeholders})
+                GROUP BY u.book_id
+            )
+        """
+        params: Tuple[object, ...] = (filter_json, *cf_ids)
+    else:
+        sql = f"""
+            SELECT COALESCE(SUM(doc_tf), 0) AS total, COUNT(*) AS docs
+            FROM (
+                SELECT book_id, SUM(tf) AS doc_tf
+                FROM {ngrams_table}
+                WHERE cf_id IN ({placeholders})
+                GROUP BY book_id
+            )
+        """
+        params = tuple(cf_ids)
+    row = cur.execute(sql, params).fetchone()
+    if not row:
+        return 0, 0
+    return int(row[0] or 0), int(row[1] or 0)
+
+
 def sample_collocations(
     cur: sqlite3.Cursor,
     curw: sqlite3.Cursor,
