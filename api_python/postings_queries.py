@@ -154,8 +154,10 @@ def _intersect_sorted_lists(lists: List[List[int]]) -> List[int]:
 
 
 def _positions_sample(positions: List[int], n: int) -> List[int]:
-    if not positions or n <= 0:
+    if not positions:
         return []
+    if n <= 0:
+        return positions
     if len(positions) <= n:
         return positions
     return random.sample(positions, n)
@@ -501,6 +503,35 @@ def _fetch_raw_window_rows(
         return _fetch_raw_window_rows_from_blocks(cur, book_id, start, end)
 
 
+def _fetch_window_token_parts(
+    cur: sqlite3.Cursor,
+    curw: sqlite3.Cursor,
+    book_id: int,
+    center: int,
+    before: int,
+    after: int,
+    span_len: int = 1,
+) -> Tuple[List[str], List[str], List[str]]:
+    span_len = max(int(span_len or 1), 1)
+    start = max(center - before, 0)
+    end = center + max(after, span_len - 1)
+    rows = _fetch_raw_window_rows(cur, book_id, start, end)
+    raw_map = raw_words(curw, [r[1] for r in rows])
+    span_end = center + span_len - 1
+    before_tokens: List[str] = []
+    hit_tokens: List[str] = []
+    after_tokens: List[str] = []
+    for seq, raw_id in rows:
+        w = raw_map.get(raw_id, "?")
+        if seq < center:
+            before_tokens.append(w)
+        elif center <= seq <= span_end:
+            hit_tokens.append(w)
+        else:
+            after_tokens.append(w)
+    return before_tokens, hit_tokens, after_tokens
+
+
 def fetch_window(
     cur: sqlite3.Cursor,
     curw: sqlite3.Cursor,
@@ -508,19 +539,43 @@ def fetch_window(
     center: int,
     before: int,
     after: int,
+    span_len: int = 1,
 ) -> str:
-    start = max(center - before, 0)
-    end = center + after
-    rows = _fetch_raw_window_rows(cur, book_id, start, end)
-    raw_map = raw_words(curw, [r[1] for r in rows])
-    tokens = []
-    for seq, raw_id in rows:
-        w = raw_map.get(raw_id, "?")
-        if seq == center:
-            tokens.append(f"[{w}]")
-        else:
-            tokens.append(w)
+    before_tokens, hit_tokens, after_tokens = _fetch_window_token_parts(
+        cur, curw, book_id, center, before, after, span_len=span_len
+    )
+    tokens: List[str] = []
+    if before_tokens:
+        tokens.extend(before_tokens)
+    if hit_tokens:
+        tokens.append(f"[{' '.join(hit_tokens)}]")
+    if after_tokens:
+        tokens.extend(after_tokens)
     return " ".join(tokens)
+
+
+def fetch_window_structured(
+    cur: sqlite3.Cursor,
+    curw: sqlite3.Cursor,
+    book_id: int,
+    center: int,
+    before: int,
+    after: int,
+    span_len: int = 1,
+) -> Dict[str, object]:
+    before_tokens, hit_tokens, after_tokens = _fetch_window_token_parts(
+        cur, curw, book_id, center, before, after, span_len=span_len
+    )
+    hit_text = " ".join(hit_tokens)
+    return {
+        "bookId": int(book_id),
+        "seqStart": int(center),
+        "len": max(int(span_len or 1), 1),
+        "before": " ".join(before_tokens),
+        "hit": hit_text,
+        "after": " ".join(after_tokens),
+        "surface": hit_text,
+    }
 
 
 def sample_concordance_single(
@@ -532,7 +587,8 @@ def sample_concordance_single(
     after: int,
     use_filter: bool,
     filter_json: Optional[str],
-) -> List[Tuple[int, int, str]]:
+    render_mode: str = "legacy",
+) -> List[Tuple[int, int, object]]:
     if use_filter:
         sql = """
             SELECT u.book_id, u.tf, u.post
@@ -542,14 +598,18 @@ def sample_concordance_single(
         """
     else:
         sql = "SELECT book_id, tf, post FROM unigrams WHERE cf_id = ?"
-    out = []
+    out: List[Tuple[int, int, object]] = []
     params = (filter_json, cf_id) if use_filter else (cf_id,)
     for book_id, _, post in cur.execute(sql, params):
         positions = _decode_positions_blob(cur, post)
         if not positions:
             continue
         for pos in _positions_sample(positions, per_book):
-            frag = fetch_window(cur, curw, book_id, pos, before, after)
+            frag: object
+            if render_mode == "structured":
+                frag = fetch_window_structured(cur, curw, book_id, pos, before, after)
+            else:
+                frag = fetch_window(cur, curw, book_id, pos, before, after)
             out.append((int(book_id), int(pos), frag))
     return out
 
@@ -563,7 +623,8 @@ def sample_concordance_union(
     after: int,
     use_filter: bool,
     filter_json: Optional[str],
-) -> List[Tuple[int, int, str]]:
+    render_mode: str = "legacy",
+) -> List[Tuple[int, int, object]]:
     if not cf_ids:
         return []
     placeholders = ",".join("?" for _ in cf_ids)
@@ -582,11 +643,15 @@ def sample_concordance_union(
             f"SELECT DISTINCT book_id FROM unigrams WHERE cf_id IN ({placeholders})",
             tuple(cf_ids),
         ).fetchall()
-    out: List[Tuple[int, int, str]] = []
+    out: List[Tuple[int, int, object]] = []
     for (book_id,) in book_rows:
         positions = _union_positions_for_book(cur, cf_ids, int(book_id))
         for pos in _positions_sample(positions, per_book):
-            frag = fetch_window(cur, curw, book_id, pos, before, after)
+            frag: object
+            if render_mode == "structured":
+                frag = fetch_window_structured(cur, curw, book_id, pos, before, after)
+            else:
+                frag = fetch_window(cur, curw, book_id, pos, before, after)
             out.append((int(book_id), int(pos), frag))
     return out
 
@@ -605,7 +670,8 @@ def sample_concordance_near(
     off_min: int,
     off_max: int,
     exclude_self: bool,
-) -> List[Tuple[int, int, str]]:
+    render_mode: str = "legacy",
+) -> List[Tuple[int, int, object]]:
     inner = cur.connection.cursor()
     if use_filter:
         sql = f"""
@@ -622,7 +688,7 @@ def sample_concordance_near(
             JOIN {ngrams_table} b ON a.book_id = b.book_id
             WHERE a.cf_id = ? AND b.cf_id = ?
         """
-    out = []
+    out: List[Tuple[int, int, object]] = []
     params = (filter_json, cf_a, cf_b) if use_filter else (cf_a, cf_b)
     for book_id, post_a, post_b in cur.execute(sql, params):
         if exclude_self and cf_a == cf_b and off_min == 0 and off_max == 0:
@@ -641,14 +707,21 @@ def sample_concordance_near(
         total = int(cnt_row[0] or 0) if cnt_row else 0
         if total <= 0:
             continue
-        samples = min(per_book, total)
-        indices = random.sample(range(total), samples)
+        if per_book <= 0:
+            indices = range(total)
+        else:
+            samples = min(per_book, total)
+            indices = random.sample(range(total), samples)
         for idx in indices:
             pos_row = inner.execute("SELECT post_sample(?, ?)", (blob, idx)).fetchone()
             if pos_row is None or pos_row[0] is None:
                 continue
             pos = int(pos_row[0])
-            frag = fetch_window(cur, curw, book_id, pos, before, after)
+            frag: object
+            if render_mode == "structured":
+                frag = fetch_window_structured(cur, curw, book_id, pos, before, after)
+            else:
+                frag = fetch_window(cur, curw, book_id, pos, before, after)
             out.append((book_id, int(pos), frag))
     return out
 
@@ -711,6 +784,75 @@ def near_frequency(
                 cnt = inner.execute(
                     "SELECT post_near_count(?, ?, 1, ?)", (post_a, post_b, window)
                 ).fetchone()[0]
+        total += cnt
+        if cnt > 0:
+            docs += 1
+    return total, docs
+
+
+def near_partner_popcount(
+    cur: sqlite3.Cursor,
+    cf_a: int,
+    cf_b: int,
+    window: int,
+    use_filter: bool,
+    filter_json: Optional[str],
+    ngrams_table: str,
+    symmetric: bool,
+    exclude_self: bool,
+) -> Tuple[int, int]:
+    """
+    Count matching partner tokens from the right-hand query term.
+
+    For ordered near searches this counts B positions that have an A within the
+    requested window to the left. For symmetric searches it counts B positions
+    that have an A anywhere in [-window, +window].
+
+    This is intentionally only well-defined for two different terms. Same-term
+    queries should stay on the existing anchor-hit path until we add an explicit
+    self-excluding participant metric.
+    """
+    inner = cur.connection.cursor()
+    if use_filter:
+        sql = f"""
+            SELECT a.book_id, a.post, b.post
+            FROM json_each(?) f
+            JOIN {ngrams_table} a ON a.book_id = f.value
+            JOIN {ngrams_table} b ON b.book_id = f.value
+            WHERE a.cf_id = ? AND b.cf_id = ?
+        """
+    else:
+        sql = f"""
+            SELECT a.book_id, a.post, b.post
+            FROM {ngrams_table} a
+            JOIN {ngrams_table} b ON a.book_id = b.book_id
+            WHERE a.cf_id = ? AND b.cf_id = ?
+        """
+    if symmetric:
+        off_min, off_max = -window, window
+    else:
+        # Count B positions that have an A to the left within the requested
+        # ordered near window.
+        off_min, off_max = -window, -1
+    total = 0
+    docs = 0
+    params = (filter_json, cf_a, cf_b) if use_filter else (cf_a, cf_b)
+    for _, post_a, post_b in cur.execute(sql, params):
+        if cf_a == cf_b:
+            cnt = 0
+        elif exclude_self and off_min <= 0 <= off_max:
+            cnt_left = inner.execute(
+                "SELECT post_near_count(?, ?, ?, ?)", (post_b, post_a, off_min, -1)
+            ).fetchone()[0]
+            cnt_right = inner.execute(
+                "SELECT post_near_count(?, ?, ?, ?)", (post_b, post_a, 1, off_max)
+            ).fetchone()[0]
+            cnt = cnt_left + cnt_right
+        else:
+            cnt = inner.execute(
+                "SELECT post_near_count(?, ?, ?, ?)",
+                (post_b, post_a, off_min, off_max),
+            ).fetchone()[0]
         total += cnt
         if cnt > 0:
             docs += 1

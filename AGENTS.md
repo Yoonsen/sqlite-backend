@@ -5,6 +5,24 @@ main active workstream is geo annotation: importing updated place annotations,
 materializing them into a fulltext-aligned sidecar, and deriving map-friendly
 aggregates for frontend use.
 
+The current geo workstream now also includes an evaluation branch where the
+project-level resolver output is materialized into a local annotation sidecar
+and rebuilt into `geo_imagination.db` for map-app inspection before wider
+promotion.
+
+## Working Paths
+
+Keep these local working paths in mind during geo work:
+
+- repo root:
+  - `/mnt/disk1/Github/sqlite-backend`
+- local eval / scratch workspace:
+  - `/home/larsj/geotest`
+- active local model / shard root:
+  - `/mnt/disk4/imagination_shards_roaring_main_v1`
+- local rebuild run root:
+  - `/mnt/disk4/geo_rebuild_runs`
+
 ## Read These First
 
 If you are working on geo, read these documents before changing code:
@@ -36,6 +54,10 @@ Read these when the task touches a specific rebuild path or map aggregate behavi
   - concrete source-to-v2 mapping for `geo_disambig.db`
 - `GEO_IMAGINATION_DB.md`
   - role and rebuild contract for `geo_imagination.db`
+- `GAZETTEER_MERGE_CONTRACT.md`
+  - merge rules for the internal place registry across `GeoNames`, `SSR`, and future sources
+- `PLACE_SURFACE_FORMS_CONTRACT.md`
+  - precomputed display-oriented surface forms for `/api/places` and frontend lists
 
 ## Task-Specific References
 
@@ -45,6 +67,10 @@ Read these only when the task clearly matches the topic:
   - server-side deploy/smoke-test checklist for geo changes
 - `ANNOTATION_GEO_DISAMBIGUATION_SCHEMA.md`
   - LLM/disambiguation payload and writeback schema
+- `GEO_ENTROPY_TRIAGE_PLAN.md`
+  - pre-launch quality plan for entropy-based triage of ambiguous geo surfaces
+- `NEW_DHLAB_SEARCH_ARCHITECTURE.md`
+  - consolidated architecture note for runtime identity, corpus bitmaps, metadata decoupling, locality layers, fast count paths, and sampling
 - `FRONTEND_GEO_HANDOFF.md`
   - frontend-facing handoff notes from an earlier geo contract phase; use with care
 
@@ -53,6 +79,10 @@ Read these only when the task clearly matches the topic:
 Older notes can still be valuable because they document how the current model was
 reached. Use them as background or migration context, but do not let them
 override the current source-of-truth documents above.
+
+For a short repository/project evolution note that explains the corpus history,
+frontend/app transitions, the temporary global `gpt-4o` place pass, and the move
+toward positional annotation, see `PROJECT_EVOLUTION.md`.
 
 In particular, treat these as historical design notes unless the current task is
 explicitly about archaeology or migration:
@@ -85,6 +115,8 @@ truth. It is derived from `annotation_geo_nb.db` + `imagination.db`.
 - Candidate enrichment currently combines `GeoNames` and `SSR`
 - KWIC/context is processed by an LLM resolver in the enrichment pipeline
 - Current rebuild source is usually `/home/larsj/geotest/geo_disambig.db`
+- Current local evaluation path also uses `/home/larsj/geotest/annotation_geo_nb_buildtest.db`
+  plus a rebuilt `/home/larsj/geotest/geo_imagination.db` for map-app review
 - Current safe raw mention basis is:
   - `book_id` / `dhlabid`
   - `seq_start`
@@ -102,6 +134,22 @@ In practice today:
   query tables
 - `geo_imagination.db` should only contain places that actually occur in at
   least one book
+- The older `Dash` app and older DHLab-style fulltext model still exist as a
+  separate line of work
+- The newer postings/annotation-oriented backend in this repo is the current
+  development direction
+- Longer term, the bitmap/annotation-layer model is expected to take over more
+  of the fulltext functionality as it matures
+- One practical motivation for that transition is reduced storage footprint
+- A likely next quality-workstream is entropy-based triage over the roughly
+  `90k` place list in `imagination.db`, using that global list as a starting
+  point for identifying high-risk ambiguous surfaces
+- In practice, prioritize surfaces with high `lat/lon` entropy, high place-id
+  spread, strong person-vs-place ambiguity, or very high token frequency where
+  true place readings are sparse (for example `Os`)
+- Treat those as "needle-in-the-haystack" review candidates for a later,
+  targeted disambiguation pass rather than trying to send the whole corpus to an
+  LLM at once
 
 ## Important Files
 
@@ -148,6 +196,12 @@ Typical safe local rebuild flow:
   is usually comparatively stable
 - For ambiguous names, prefer resolving to `id` before treating QA numbers as
   place-specific truth
+- `Grønland` is partially improved but still needs a dedicated follow-up split
+  between `Grenland`/Skien-area references and `Grønlandsisen` / global Greenland
+  readings; inspect the underlying LLM output carefully before tightening the
+  next rule batch. In 1800s material, `Grønland`, `Grenland`, and `Grænland`
+  can vary orthographically, so modern Norwegian assumptions like `Grenland =
+  Telemark` are not sufficient on their own.
 
 ## Do / Don't
 

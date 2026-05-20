@@ -13,14 +13,16 @@ import urllib.request
 from html import escape as html_escape
 from concurrent.futures import ProcessPoolExecutor
 from pathlib import Path
-from typing import Any, Dict, List, Optional, Tuple
+from typing import Any, Dict, List, Literal, Optional, Tuple
 
 from fastapi import FastAPI, HTTPException, Request
 from fastapi.responses import Response
 from pydantic import BaseModel, Field
 
 from api_python.annotations import (
+    fetch_geo_book_sequence,
     fetch_geo_spans,
+    fetch_geo_spans_by_key,
     fetch_geo_books_from_imagination,
     parse_namespace_query,
     resolve_namespace,
@@ -34,10 +36,12 @@ from api_python.postings_queries import (
     detect_postings_codec,
     docpost_book_ids,
     fetch_window,
+    fetch_window_structured,
     group_positions_for_book,
     get_cf_id,
     near_count_from_groups,
     near_frequency,
+    near_partner_popcount,
     near_positions_from_groups,
     sequence_count_from_groups,
     sequence_positions_from_groups,
@@ -81,6 +85,12 @@ JULIA_PROXY_URL = os.environ.get("POSTINGS_JULIA_PROXY_URL", "").strip().rstrip(
 _PY_PAR = os.environ.get("POSTINGS_PYTHON_PARALLEL_SHARDS", "1").strip().lower()
 PYTHON_PARALLEL_SHARDS_DEFAULT = _PY_PAR not in {"0", "false", "no", "off"}
 PYTHON_SHARD_WORKERS = int(os.environ.get("POSTINGS_PYTHON_SHARD_WORKERS", "0") or 0)
+AUTO_DOC_SAMPLE_MIN_CANDIDATES = int(
+    os.environ.get("POSTINGS_AUTO_DOC_SAMPLE_MIN_CANDIDATES", "1000") or 1000
+)
+AUTO_DOC_SAMPLE_MULTIPLIER = int(
+    os.environ.get("POSTINGS_AUTO_DOC_SAMPLE_MULTIPLIER", "20") or 20
+)
 
 
 @app.middleware("http")
@@ -131,14 +141,15 @@ class ConcordanceRequest(BaseModel):
     window: int = Field(5, ge=1, le=50)
     before: int = Field(5, ge=1, le=25)
     after: int = Field(5, ge=1, le=25)
-    perBook: int = Field(3, ge=1, le=20)
+    perBook: int = Field(3, ge=0, le=20)
     docSamples: Optional[int] = Field(None, ge=0, le=50000)
-    totalLimit: int = Field(200, ge=1, le=5000)
+    totalLimit: int = Field(200, ge=0, le=5000)
     schema: Optional[str] = None
     useFilter: bool = False
     filterIds: List[int] = []
     symmetric: bool = True
     excludeSelf: bool = False
+    renderMode: Literal["legacy", "structured"] = "legacy"
 
 
 class NearFrequencyRequest(BaseModel):
@@ -157,6 +168,10 @@ class NearQueryRequest(BaseModel):
     terms: Optional[List[str]] = None
     termGroups: Optional[List[List[str]]] = None
     window: int = Field(5, ge=1, le=50)
+    before: int = Field(5, ge=1, le=50)
+    after: int = Field(5, ge=1, le=50)
+    perBook: int = Field(3, ge=0, le=20)
+    totalLimit: int = Field(200, ge=0, le=5000)
     schema: Optional[str] = None
     symmetric: bool = True
     excludeSelf: bool = False
@@ -164,9 +179,12 @@ class NearQueryRequest(BaseModel):
     filterIds: List[int] = []
     docSamples: Optional[int] = Field(None, ge=0, le=50000)
     maxVariants: int = Field(10, ge=1, le=100)
+    mode: Literal["count", "hits", "render"] = "count"
+    countMode: Literal["auto", "anchor", "partner_popcount"] = "auto"
     engine: Optional[str] = None
     parallelShards: Optional[bool] = None
     matchMode: Optional[str] = None
+    renderMode: Literal["legacy", "structured"] = "legacy"
 
 
 class OrQueryRequest(BaseModel):
@@ -174,15 +192,16 @@ class OrQueryRequest(BaseModel):
     termGroups: Optional[List[List[str]]] = None
     before: int = Field(5, ge=1, le=25)
     after: int = Field(5, ge=1, le=25)
-    perBook: int = Field(3, ge=1, le=20)
+    perBook: int = Field(3, ge=0, le=20)
     docSamples: Optional[int] = Field(None, ge=0, le=50000)
-    totalLimit: int = Field(200, ge=1, le=5000)
+    totalLimit: int = Field(200, ge=0, le=5000)
     schema: Optional[str] = None
     useFilter: bool = False
     filterIds: List[int] = []
     maxVariants: int = Field(10, ge=1, le=100)
     parallelShards: Optional[bool] = None
     renderHits: bool = False
+    renderMode: Literal["legacy", "structured"] = "legacy"
 
 
 class PlacesRequest(BaseModel):
@@ -194,6 +213,63 @@ class PlaceDetailsRequest(BaseModel):
     dhlabids: List[int] = []
     token: str
     limit: int = Field(1000, ge=1, le=20000)
+
+
+class PlaceFirstYearRequest(BaseModel):
+    dhlabids: List[int] = []
+
+
+class PlaceStatsRequest(BaseModel):
+    dhlabids: List[int] = []
+    maxFeatureCodes: int = Field(100, ge=1, le=1000)
+
+
+class PlaceResolveRequest(BaseModel):
+    query: Optional[str] = None
+    id: Optional[str] = None
+    limit: int = Field(10, ge=1, le=100)
+
+
+class PlaceQaRequest(BaseModel):
+    dhlabids: List[int] = []
+    query: Optional[str] = None
+    id: Optional[str] = None
+    limit: int = Field(10, ge=1, le=100)
+    maxSurfaces: int = Field(5, ge=1, le=20)
+
+
+class GeoBookSequenceRequest(BaseModel):
+    bookId: int
+    namespace: str = "geo"
+    limit: int = Field(50000, ge=1, le=500000)
+
+
+class GeoAnnotationEditRequest(BaseModel):
+    namespace: str = "geo"
+    bookId: int
+    seqStart: int = Field(..., ge=0)
+    action: Literal["set_place", "clear"]
+    nbPlaceId: Optional[int] = Field(None, ge=1)
+    note: Optional[str] = None
+    editor: Optional[str] = None
+    rebuild: bool = True
+    dropExisting: bool = False
+
+
+class GeoAnnotationEditItem(BaseModel):
+    bookId: int
+    seqStart: int = Field(..., ge=0)
+    action: Literal["set_place", "clear"]
+    nbPlaceId: Optional[int] = Field(None, ge=1)
+    note: Optional[str] = None
+    editor: Optional[str] = None
+
+
+class GeoAnnotationBatchEditRequest(BaseModel):
+    namespace: str = "geo"
+    edits: List[GeoAnnotationEditItem] = Field(..., min_length=1, max_length=2000)
+    rebuild: bool = True
+    dropExisting: bool = False
 
 
 def _connect_imagination_ro() -> sqlite3.Connection:
@@ -234,6 +310,693 @@ def _optional_expr(cols: set[str], candidates: List[str], alias: str, cast: Opti
     return f"{col} AS {alias}"
 
 
+def _place_catalog_spec(cur: sqlite3.Cursor) -> Dict[str, Optional[str]]:
+    places_cols = _table_columns(cur, "places")
+    if not places_cols:
+        raise HTTPException(status_code=500, detail="imagination_db is missing table: places")
+    token_col = _pick_col(places_cols, ["token", "place_token"])
+    name_col = _pick_col(places_cols, ["modern", "name", "canonical_name"])
+    lat_col = _pick_col(places_cols, ["latitude", "lat"])
+    lon_col = _pick_col(places_cols, ["longitude", "lon"])
+    country_col = _pick_col(places_cols, ["area", "country", "country_code"])
+    id_col = _pick_col(
+        places_cols,
+        ["mock_id", "nb_place_id", "geonameid", "geonames_id", "place_id", "id"],
+    )
+    if not token_col and name_col:
+        # New geo_imagination.db is name/id-first and may not keep token column.
+        token_col = name_col
+    if not token_col:
+        raise HTTPException(status_code=500, detail="places table must contain token/place_token")
+    return {
+        "token_col": token_col,
+        "name_col": name_col,
+        "lat_col": lat_col,
+        "lon_col": lon_col,
+        "country_col": country_col,
+        "id_col": id_col,
+    }
+
+
+def _place_catalog_exprs(spec: Dict[str, Optional[str]]) -> Dict[str, str]:
+    token_col = spec["token_col"]
+    name_col = spec["name_col"]
+    lat_col = spec["lat_col"]
+    lon_col = spec["lon_col"]
+    country_col = spec["country_col"]
+    id_col = spec["id_col"]
+    token_expr = f"COALESCE(p.{token_col}, '')"
+    canonical_expr = f"COALESCE(p.{name_col}, p.{token_col})" if name_col else token_expr
+    lat_expr = f"CAST(p.{lat_col} AS REAL)" if lat_col else "NULL"
+    lon_expr = f"CAST(p.{lon_col} AS REAL)" if lon_col else "NULL"
+    country_expr = f"p.{country_col}" if country_col else "NULL"
+    if id_col:
+        id_expr = f"COALESCE(CAST(p.{id_col} AS TEXT), {canonical_expr}, {token_expr})"
+    else:
+        id_expr = f"COALESCE({canonical_expr}, {token_expr})"
+    return {
+        "token": token_expr,
+        "canonical": canonical_expr,
+        "lat": lat_expr,
+        "lon": lon_expr,
+        "country": country_expr,
+        "id": id_expr,
+    }
+
+
+def _place_kind_case_sql(
+    place_alias: str = "p",
+    feature_code_col: Optional[str] = "feature_code",
+    feature_class_col: Optional[str] = "feature_class",
+) -> str:
+    feature_code = (
+        f"COALESCE({place_alias}.{feature_code_col}, '')"
+        if feature_code_col
+        else "''"
+    )
+    feature_class = (
+        f"COALESCE({place_alias}.{feature_class_col}, '')"
+        if feature_class_col
+        else "''"
+    )
+    return f"""
+        CASE
+            WHEN {feature_code} IN ('MT', 'MTS', 'PK', 'PKS', 'HLL', 'PASS', 'RDGE')
+              THEN 'mountain'
+            WHEN {feature_code} IN ('STM', 'STMI', 'STMX', 'STMH', 'WADI')
+              THEN 'river'
+            WHEN {feature_code} IN ('LK', 'LKS', 'RSV', 'SEA', 'GULF', 'BAY', 'COVE', 'OCN', 'CHN', 'CNL')
+              THEN 'water'
+            WHEN {feature_code} GLOB 'PPL*' OR {feature_class} = 'P'
+              THEN 'settlement'
+            WHEN {feature_code} IN ('PCLI', 'PCL', 'PCLS', 'PCLD', 'PCLF', 'ADM1', 'ADM2', 'ADM3', 'ADM4', 'ADM5', 'CONT')
+              OR {feature_class} = 'A'
+              THEN 'admin'
+            WHEN {feature_code} IN ('ISL', 'ISLS')
+              THEN 'island'
+            WHEN {feature_class} = 'V'
+              THEN 'vegetation'
+            WHEN {feature_class} = 'T'
+              THEN 'terrain'
+            WHEN {feature_class} = 'H'
+              THEN 'water'
+            WHEN {feature_class} = 'R'
+              THEN 'transport'
+            WHEN {feature_class} = 'S'
+              THEN 'spot'
+            WHEN {feature_class} = 'L'
+              THEN 'area'
+            WHEN {feature_class} = 'U'
+              THEN 'undersea'
+            ELSE 'other'
+        END
+    """
+
+
+def _place_kind_label(kind: str) -> str:
+    labels = {
+        "mountain": "Mountain",
+        "river": "River",
+        "water": "Water",
+        "settlement": "Settlement",
+        "admin": "Administrative",
+        "island": "Island",
+        "vegetation": "Vegetation",
+        "terrain": "Terrain",
+        "transport": "Transport",
+        "spot": "Spot",
+        "area": "Area",
+        "undersea": "Undersea",
+        "other": "Other",
+    }
+    return labels.get(kind, kind.title())
+
+
+def _ranked_place_match_type(rank: int) -> str:
+    if rank <= 1:
+        return "exact"
+    if rank == 2:
+        return "prefix"
+    return "contains"
+
+
+def _format_place_matches(
+    rows: List[Tuple[Any, ...]], prefer_canonical_matched_form: bool = False
+) -> List[Dict[str, Any]]:
+    grouped: Dict[str, Dict[str, Any]] = {}
+    order: List[str] = []
+    for row in rows:
+        place_id = str(row[0] or "")
+        canonical_name = str(row[1]) if row[1] is not None else ""
+        matched_form = str(row[2]) if row[2] is not None else canonical_name
+        lat = float(row[3]) if row[3] is not None else None
+        lon = float(row[4]) if row[4] is not None else None
+        country = str(row[5]) if row[5] is not None else None
+        rank = int(row[6]) if row[6] is not None else 99
+        if place_id not in grouped:
+            grouped[place_id] = {
+                "id": place_id,
+                "canonicalName": canonical_name or matched_form or None,
+                "matchedForm": matched_form or canonical_name or None,
+                "alternateForms": [],
+                "lat": lat,
+                "lon": lon,
+                "country": country,
+                "matchType": _ranked_place_match_type(rank),
+                "_forms": set(),
+                "_rank": rank,
+            }
+            order.append(place_id)
+        item = grouped[place_id]
+        if rank < int(item["_rank"]):
+            item["_rank"] = rank
+            item["matchType"] = _ranked_place_match_type(rank)
+            item["matchedForm"] = matched_form or canonical_name or None
+        if item["canonicalName"] is None and canonical_name:
+            item["canonicalName"] = canonical_name
+        for form in (matched_form, canonical_name):
+            clean = str(form or "").strip()
+            if not clean:
+                continue
+            if clean == item["matchedForm"]:
+                continue
+            if clean not in item["_forms"]:
+                item["_forms"].add(clean)
+                item["alternateForms"].append(clean)
+    out: List[Dict[str, Any]] = []
+    for place_id in order:
+        item = grouped[place_id]
+        if prefer_canonical_matched_form and item.get("canonicalName"):
+            canonical_name = str(item["canonicalName"])
+            if canonical_name in item["alternateForms"]:
+                item["alternateForms"] = [
+                    form for form in item["alternateForms"] if form != canonical_name
+                ]
+            item["matchedForm"] = canonical_name
+        item.pop("_forms", None)
+        item.pop("_rank", None)
+        out.append(item)
+    return out
+
+
+def _resolve_places_by_query(cur: sqlite3.Cursor, query: str, limit: int) -> List[Dict[str, Any]]:
+    spec = _place_catalog_spec(cur)
+    exprs = _place_catalog_exprs(spec)
+    token_expr = exprs["token"]
+    canonical_expr = exprs["canonical"]
+    sql = f"""
+        SELECT
+            {exprs["id"]} AS id,
+            {canonical_expr} AS canonical_name,
+            {token_expr} AS matched_form,
+            {exprs["lat"]} AS lat,
+            {exprs["lon"]} AS lon,
+            {exprs["country"]} AS country,
+            CASE
+                WHEN lower({token_expr}) = lower(?) THEN 0
+                WHEN lower({canonical_expr}) = lower(?) THEN 1
+                WHEN lower({token_expr}) LIKE lower(?) THEN 2
+                ELSE 3
+            END AS rank
+        FROM places p
+        WHERE lower({token_expr}) = lower(?)
+           OR lower({canonical_expr}) = lower(?)
+           OR lower({token_expr}) LIKE lower(?)
+           OR lower({canonical_expr}) LIKE lower(?)
+        ORDER BY rank, canonical_name, matched_form
+        LIMIT ?
+    """
+    pattern_prefix = f"{query}%"
+    pattern_contains = f"%{query}%"
+    rows = cur.execute(
+        sql,
+        (
+            query,
+            query,
+            pattern_prefix,
+            query,
+            query,
+            pattern_prefix,
+            pattern_contains,
+            max(int(limit) * 10, int(limit)),
+        ),
+    ).fetchall()
+    matches = _format_place_matches(rows)
+    return matches[: int(limit)]
+
+
+def _resolve_places_by_id(cur: sqlite3.Cursor, raw_id: str, limit: int) -> List[Dict[str, Any]]:
+    spec = _place_catalog_spec(cur)
+    exprs = _place_catalog_exprs(spec)
+    token_expr = exprs["token"]
+    canonical_expr = exprs["canonical"]
+    sql = f"""
+        SELECT
+            {exprs["id"]} AS id,
+            {canonical_expr} AS canonical_name,
+            {token_expr} AS matched_form,
+            {exprs["lat"]} AS lat,
+            {exprs["lon"]} AS lon,
+            {exprs["country"]} AS country,
+            0 AS rank
+        FROM places p
+        WHERE {exprs["id"]} = ?
+        ORDER BY canonical_name, matched_form
+        LIMIT ?
+    """
+    rows = cur.execute(sql, (raw_id, max(int(limit) * 10, int(limit)))).fetchall()
+    matches = _format_place_matches(rows, prefer_canonical_matched_form=True)
+    return matches[: int(limit)]
+
+
+def _load_nb_surface_tokens_for_places(
+    dhlabids: List[int],
+    nb_place_ids: List[int],
+) -> Dict[int, str]:
+    """
+    Best-effort enrichment for /api/places in NB mode:
+    choose the most frequent surface form from annotation rows in the requested books.
+    """
+    if not dhlabids or not nb_place_ids or not CONFIG.annotation_registry_db:
+        return {}
+    try:
+        ns_meta = resolve_namespace(
+            CONFIG.annotation_registry_db,
+            "geo",
+            base_dir=CONFIG.annotation_base_dir,
+        )
+    except Exception:
+        return {}
+    geo_db_path = str(ns_meta.get("db_path") or "").strip()
+    if not geo_db_path:
+        return {}
+    con = sqlite3.connect(f"file:{geo_db_path}?mode=ro", uri=True)
+    try:
+        cur = con.cursor()
+        cur.execute("CREATE TEMP TABLE _book_filter_tokens(book_id INTEGER PRIMARY KEY)")
+        cur.executemany(
+            "INSERT OR IGNORE INTO _book_filter_tokens(book_id) VALUES (?)",
+            ((int(book_id),) for book_id in dhlabids),
+        )
+        cur.execute("CREATE TEMP TABLE _place_filter_tokens(place_id INTEGER PRIMARY KEY)")
+        cur.executemany(
+            "INSERT OR IGNORE INTO _place_filter_tokens(place_id) VALUES (?)",
+            ((int(pid),) for pid in nb_place_ids),
+        )
+        has_geo_spans = cur.execute(
+            "SELECT 1 FROM sqlite_master WHERE type='table' AND name='geo_spans' LIMIT 1"
+        ).fetchone()
+        has_mentions_v2 = cur.execute(
+            "SELECT 1 FROM sqlite_master WHERE type='table' AND name='geo_mentions_v2' LIMIT 1"
+        ).fetchone()
+        if has_geo_spans:
+            sql = """
+                SELECT
+                    s.place_id AS place_id,
+                    s.surface_text AS surface_text,
+                    COUNT(*) AS cnt
+                FROM geo_spans s
+                JOIN _book_filter_tokens b ON b.book_id = s.book_id
+                JOIN _place_filter_tokens p ON p.place_id = s.place_id
+                WHERE trim(COALESCE(s.surface_text, '')) <> ''
+                GROUP BY s.place_id, s.surface_text
+                ORDER BY s.place_id, cnt DESC, LENGTH(s.surface_text) ASC, s.surface_text
+            """
+        elif has_mentions_v2:
+            sql = """
+                SELECT
+                    m.place_id AS place_id,
+                    m.surface_text AS surface_text,
+                    COUNT(*) AS cnt
+                FROM geo_mentions_v2 m
+                JOIN _book_filter_tokens b ON b.book_id = m.book_id
+                JOIN _place_filter_tokens p ON p.place_id = m.place_id
+                WHERE trim(COALESCE(m.surface_text, '')) <> ''
+                GROUP BY m.place_id, m.surface_text
+                ORDER BY m.place_id, cnt DESC, LENGTH(m.surface_text) ASC, m.surface_text
+            """
+        else:
+            return {}
+        rows = cur.execute(sql).fetchall()
+        out: Dict[int, str] = {}
+        for place_id, surface_text, _cnt in rows:
+            pid = int(place_id)
+            if pid in out:
+                continue
+            out[pid] = str(surface_text)
+        return out
+    except Exception:
+        return {}
+    finally:
+        con.close()
+
+
+def _load_place_surface_tokens_from_imagination(
+    cur: sqlite3.Cursor,
+    place_ids: List[int],
+) -> Dict[int, str]:
+    if not place_ids:
+        return {}
+    psf_cols = _table_columns(cur, "place_surface_forms")
+    if not psf_cols:
+        return {}
+    psf_place_col = _pick_col(psf_cols, ["mock_id", "nb_place_id", "place_id", "id"])
+    surface_col = _pick_col(psf_cols, ["surface_text", "surface"])
+    rank_col = _pick_col(psf_cols, ["rank"])
+    if not psf_place_col or not surface_col or not rank_col:
+        return {}
+    ids_json = json.dumps([int(pid) for pid in place_ids])
+    sql = f"""
+        WITH ids AS (
+            SELECT CAST(value AS INTEGER) AS place_id
+            FROM json_each(?)
+        )
+        SELECT
+            CAST(psf.{psf_place_col} AS INTEGER) AS place_id,
+            psf.{surface_col} AS surface_text
+        FROM place_surface_forms psf
+        JOIN ids i ON i.place_id = psf.{psf_place_col}
+        WHERE psf.{rank_col} = 1
+          AND trim(COALESCE(psf.{surface_col}, '')) <> ''
+        ORDER BY psf.{psf_place_col}
+    """
+    rows = cur.execute(sql, (ids_json,)).fetchall()
+    return {int(place_id): str(surface_text) for place_id, surface_text in rows}
+
+
+def _load_place_surface_stats_from_imagination(
+    cur: sqlite3.Cursor,
+    place_ids: List[int],
+    max_surfaces: int = 5,
+) -> Dict[int, List[Dict[str, Any]]]:
+    if not place_ids:
+        return {}
+    psf_cols = _table_columns(cur, "place_surface_forms")
+    if not psf_cols:
+        return {}
+    psf_place_col = _pick_col(psf_cols, ["mock_id", "nb_place_id", "place_id", "id"])
+    surface_col = _pick_col(psf_cols, ["surface_text", "surface"])
+    mentions_col = _pick_col(psf_cols, ["mentions", "count"])
+    rank_col = _pick_col(psf_cols, ["rank"])
+    if not psf_place_col or not surface_col or not mentions_col or not rank_col:
+        return {}
+    ids_json = json.dumps([int(pid) for pid in place_ids])
+    sql = f"""
+        WITH ids AS (
+            SELECT CAST(value AS INTEGER) AS place_id
+            FROM json_each(?)
+        )
+        SELECT
+            CAST(psf.{psf_place_col} AS INTEGER) AS place_id,
+            psf.{surface_col} AS surface_text,
+            CAST(psf.{mentions_col} AS INTEGER) AS mentions
+        FROM place_surface_forms psf
+        JOIN ids i ON i.place_id = psf.{psf_place_col}
+        WHERE trim(COALESCE(psf.{surface_col}, '')) <> ''
+          AND psf.{rank_col} <= ?
+        ORDER BY psf.{psf_place_col}, psf.{rank_col}
+    """
+    rows = cur.execute(sql, (ids_json, int(max_surfaces))).fetchall()
+    out: Dict[int, List[Dict[str, Any]]] = {}
+    for place_id, surface_text, mentions in rows:
+        pid = int(place_id)
+        items = out.setdefault(pid, [])
+        items.append(
+            {
+                "surface": str(surface_text),
+                "mentions": int(mentions or 0),
+            }
+        )
+    return out
+
+
+def _load_nb_surface_stats_for_places(
+    dhlabids: List[int],
+    nb_place_ids: List[int],
+    max_surfaces: int = 5,
+) -> Dict[int, List[Dict[str, Any]]]:
+    if not dhlabids or not nb_place_ids or not CONFIG.annotation_registry_db:
+        return {}
+    try:
+        ns_meta = resolve_namespace(
+            CONFIG.annotation_registry_db,
+            "geo",
+            base_dir=CONFIG.annotation_base_dir,
+        )
+    except Exception:
+        return {}
+    geo_db_path = str(ns_meta.get("db_path") or "").strip()
+    if not geo_db_path:
+        return {}
+    con = sqlite3.connect(f"file:{geo_db_path}?mode=ro", uri=True)
+    try:
+        cur = con.cursor()
+        cur.execute("CREATE TEMP TABLE _book_filter_surface(book_id INTEGER PRIMARY KEY)")
+        cur.executemany(
+            "INSERT OR IGNORE INTO _book_filter_surface(book_id) VALUES (?)",
+            ((int(book_id),) for book_id in dhlabids),
+        )
+        cur.execute("CREATE TEMP TABLE _place_filter_surface(place_id INTEGER PRIMARY KEY)")
+        cur.executemany(
+            "INSERT OR IGNORE INTO _place_filter_surface(place_id) VALUES (?)",
+            ((int(pid),) for pid in nb_place_ids),
+        )
+        has_geo_spans = cur.execute(
+            "SELECT 1 FROM sqlite_master WHERE type='table' AND name='geo_spans' LIMIT 1"
+        ).fetchone()
+        has_mentions_v2 = cur.execute(
+            "SELECT 1 FROM sqlite_master WHERE type='table' AND name='geo_mentions_v2' LIMIT 1"
+        ).fetchone()
+        if has_geo_spans:
+            sql = """
+                SELECT
+                    s.place_id AS place_id,
+                    s.surface_text AS surface_text,
+                    COUNT(*) AS cnt
+                FROM geo_spans s
+                JOIN _book_filter_surface b ON b.book_id = s.book_id
+                JOIN _place_filter_surface p ON p.place_id = s.place_id
+                WHERE trim(COALESCE(s.surface_text, '')) <> ''
+                GROUP BY s.place_id, s.surface_text
+                ORDER BY s.place_id, cnt DESC, LENGTH(s.surface_text) ASC, s.surface_text
+            """
+        elif has_mentions_v2:
+            sql = """
+                SELECT
+                    m.place_id AS place_id,
+                    m.surface_text AS surface_text,
+                    COUNT(*) AS cnt
+                FROM geo_mentions_v2 m
+                JOIN _book_filter_surface b ON b.book_id = m.book_id
+                JOIN _place_filter_surface p ON p.place_id = m.place_id
+                WHERE trim(COALESCE(m.surface_text, '')) <> ''
+                GROUP BY m.place_id, m.surface_text
+                ORDER BY m.place_id, cnt DESC, LENGTH(m.surface_text) ASC, m.surface_text
+            """
+        else:
+            return {}
+        rows = cur.execute(sql).fetchall()
+        out: Dict[int, List[Dict[str, Any]]] = {}
+        for place_id, surface_text, cnt in rows:
+            pid = int(place_id)
+            items = out.setdefault(pid, [])
+            if len(items) >= int(max_surfaces):
+                continue
+            items.append(
+                {
+                    "surface": str(surface_text),
+                    "mentions": int(cnt or 0),
+                }
+            )
+        return out
+    except Exception:
+        return {}
+    finally:
+        con.close()
+
+
+def _geo_db_path_for_namespace(namespace: str = "geo") -> Optional[str]:
+    if not CONFIG.annotation_registry_db:
+        return None
+    try:
+        ns_meta = resolve_namespace(
+            CONFIG.annotation_registry_db,
+            namespace,
+            base_dir=CONFIG.annotation_base_dir,
+        )
+    except Exception:
+        return None
+    geo_db_path = str(ns_meta.get("db_path") or "").strip()
+    return geo_db_path or None
+
+
+def _count_exact_surface_mentions(
+    dhlabids: List[int],
+    surface: str,
+    place_ids: Optional[List[int]] = None,
+) -> int:
+    if place_ids:
+        counts = _count_exact_surface_mentions_by_place(dhlabids, surface, place_ids)
+        return sum(int(v or 0) for v in counts.values())
+    geo_db_path = _geo_db_path_for_namespace("geo")
+    if not geo_db_path or not dhlabids or not str(surface or "").strip():
+        return 0
+    con = sqlite3.connect(f"file:{geo_db_path}?mode=ro", uri=True)
+    try:
+        cur = con.cursor()
+        cur.execute("CREATE TEMP TABLE _book_filter_surface_count(book_id INTEGER PRIMARY KEY)")
+        cur.executemany(
+            "INSERT OR IGNORE INTO _book_filter_surface_count(book_id) VALUES (?)",
+            ((int(book_id),) for book_id in dhlabids),
+        )
+        params: List[Any] = [str(surface).strip()]
+        place_join = ""
+        place_where = ""
+        if place_ids:
+            cur.execute("CREATE TEMP TABLE _place_filter_surface_count(place_id INTEGER PRIMARY KEY)")
+            cur.executemany(
+                "INSERT OR IGNORE INTO _place_filter_surface_count(place_id) VALUES (?)",
+                ((int(pid),) for pid in place_ids),
+            )
+            place_join = "JOIN _place_filter_surface_count p ON p.place_id = s.place_id"
+        has_geo_spans = cur.execute(
+            "SELECT 1 FROM sqlite_master WHERE type='table' AND name='geo_spans' LIMIT 1"
+        ).fetchone()
+        has_mentions_v2 = cur.execute(
+            "SELECT 1 FROM sqlite_master WHERE type='table' AND name='geo_mentions_v2' LIMIT 1"
+        ).fetchone()
+        if has_geo_spans:
+            sql = f"""
+                SELECT COUNT(*)
+                FROM geo_spans s
+                JOIN _book_filter_surface_count b ON b.book_id = s.book_id
+                {place_join}
+                WHERE lower(COALESCE(s.surface_text, '')) = lower(?)
+            """
+        elif has_mentions_v2:
+            if place_ids:
+                place_join = "JOIN _place_filter_surface_count p ON p.place_id = m.place_id"
+            sql = f"""
+                SELECT COUNT(*)
+                FROM geo_mentions_v2 m
+                JOIN _book_filter_surface_count b ON b.book_id = m.book_id
+                {place_join}
+                WHERE lower(COALESCE(m.surface_text, '')) = lower(?)
+            """
+        else:
+            return 0
+        row = cur.execute(sql, tuple(params)).fetchone()
+        return int(row[0] or 0) if row else 0
+    except Exception:
+        return 0
+    finally:
+        con.close()
+
+
+def _count_exact_surface_mentions_by_place(
+    dhlabids: List[int],
+    surface: str,
+    place_ids: List[int],
+) -> Dict[int, int]:
+    geo_db_path = _geo_db_path_for_namespace("geo")
+    if not geo_db_path or not dhlabids or not str(surface or "").strip() or not place_ids:
+        return {}
+    con = sqlite3.connect(f"file:{geo_db_path}?mode=ro", uri=True)
+    try:
+        cur = con.cursor()
+        cur.execute("CREATE TEMP TABLE _book_filter_surface_count(book_id INTEGER PRIMARY KEY)")
+        cur.executemany(
+            "INSERT OR IGNORE INTO _book_filter_surface_count(book_id) VALUES (?)",
+            ((int(book_id),) for book_id in dhlabids),
+        )
+        cur.execute("CREATE TEMP TABLE _place_filter_surface_count(place_id INTEGER PRIMARY KEY)")
+        cur.executemany(
+            "INSERT OR IGNORE INTO _place_filter_surface_count(place_id) VALUES (?)",
+            ((int(pid),) for pid in place_ids),
+        )
+        has_geo_spans = cur.execute(
+            "SELECT 1 FROM sqlite_master WHERE type='table' AND name='geo_spans' LIMIT 1"
+        ).fetchone()
+        has_mentions_v2 = cur.execute(
+            "SELECT 1 FROM sqlite_master WHERE type='table' AND name='geo_mentions_v2' LIMIT 1"
+        ).fetchone()
+        if has_geo_spans:
+            sql = """
+                SELECT s.place_id, COUNT(*) AS mentions
+                FROM geo_spans s
+                JOIN _book_filter_surface_count b ON b.book_id = s.book_id
+                JOIN _place_filter_surface_count p ON p.place_id = s.place_id
+                WHERE lower(COALESCE(s.surface_text, '')) = lower(?)
+                GROUP BY s.place_id
+            """
+        elif has_mentions_v2:
+            sql = """
+                SELECT m.place_id, COUNT(*) AS mentions
+                FROM geo_mentions_v2 m
+                JOIN _book_filter_surface_count b ON b.book_id = m.book_id
+                JOIN _place_filter_surface_count p ON p.place_id = m.place_id
+                WHERE lower(COALESCE(m.surface_text, '')) = lower(?)
+                GROUP BY m.place_id
+            """
+        else:
+            return {}
+        out = {int(pid): 0 for pid in place_ids}
+        for pid, mentions in cur.execute(sql, (str(surface).strip(),)).fetchall():
+            if pid is None:
+                continue
+            out[int(pid)] = int(mentions or 0)
+        return out
+    except Exception:
+        return {}
+    finally:
+        con.close()
+
+
+def _term_exact_variants_local(term: str) -> List[str]:
+    t = str(term or "")
+    if not t:
+        return []
+    out: List[str] = []
+    for candidate in (t.casefold(), t, t.lower(), t.title(), t.upper()):
+        if candidate and candidate not in out:
+            out.append(candidate)
+    return out
+
+
+def _count_word_frequency_for_corpus(dhlabids: List[int], term: str) -> int:
+    if not dhlabids or not str(term or "").strip():
+        return 0
+    variants = _term_exact_variants_local(term)
+    if not variants:
+        return 0
+    total = 0
+    for db_path in CONFIG.postings_dbs:
+        con = sqlite3.connect(f"file:{db_path}?mode=ro", uri=True)
+        try:
+            cur = con.cursor()
+            placeholders = ",".join("?" for _ in variants)
+            sql = f"""
+                WITH filter AS (
+                    SELECT CAST(value AS INTEGER) AS book_id
+                    FROM json_each(?)
+                ),
+                term_cf AS (
+                    SELECT DISTINCT cf_id
+                    FROM words
+                    WHERE word IN ({placeholders})
+                )
+                SELECT COALESCE(SUM(u.tf), 0)
+                FROM unigrams u
+                JOIN filter f ON f.book_id = u.book_id
+                WHERE u.cf_id IN (SELECT cf_id FROM term_cf)
+            """
+            row = cur.execute(sql, (json.dumps([int(x) for x in dhlabids]), *variants)).fetchone()
+            total += int(row[0] or 0) if row else 0
+        finally:
+            con.close()
+    return total
+
+
 @app.get("/api/metadata/all")
 def imagination_metadata_all():
     con = _connect_imagination_ro()
@@ -258,9 +1021,13 @@ def imagination_metadata_all():
             corpus_cols, ["total_mentions"], "total_mentions_src", cast="INTEGER"
         )
         books_cols = _table_columns(cur, "books")
+        book_places_cols = _table_columns(cur, "book_places")
         books_dhlab_col = _pick_col(books_cols, ["dhlabid", "book_id"]) if books_cols else None
         books_token_col = _pick_col(books_cols, ["token", "place_token"]) if books_cols else None
         books_count_col = _pick_col(books_cols, ["book_count", "mentions", "count"]) if books_cols else None
+        bp_dhlab_col = _pick_col(book_places_cols, ["dhlabid", "book_id"]) if book_places_cols else None
+        bp_place_col = _pick_col(book_places_cols, ["mock_id", "nb_place_id", "place_id"]) if book_places_cols else None
+        bp_count_col = _pick_col(book_places_cols, ["mentions", "book_count", "count"]) if book_places_cols else None
         books_join_sql = ""
         unique_places_calc_expr = "NULL AS unique_places_calc"
         total_mentions_calc_expr = "NULL AS total_mentions_calc"
@@ -274,6 +1041,20 @@ def imagination_metadata_all():
                     SUM({books_count_expr}) AS total_mentions_calc
                 FROM books
                 GROUP BY {books_dhlab_col}
+            ) bm ON bm.dhlabid = c.{id_col}
+            """
+            unique_places_calc_expr = "CAST(bm.unique_places_calc AS INTEGER) AS unique_places_calc"
+            total_mentions_calc_expr = "CAST(bm.total_mentions_calc AS INTEGER) AS total_mentions_calc"
+        elif bp_dhlab_col and bp_place_col:
+            bp_count_expr = f"COALESCE({bp_count_col}, 1)" if bp_count_col else "1"
+            books_join_sql = f"""
+            LEFT JOIN (
+                SELECT
+                    {bp_dhlab_col} AS dhlabid,
+                    COUNT(DISTINCT {bp_place_col}) AS unique_places_calc,
+                    SUM({bp_count_expr}) AS total_mentions_calc
+                FROM book_places
+                GROUP BY {bp_dhlab_col}
             ) bm ON bm.dhlabid = c.{id_col}
             """
             unique_places_calc_expr = "CAST(bm.unique_places_calc AS INTEGER) AS unique_places_calc"
@@ -325,97 +1106,515 @@ def imagination_places(req: PlacesRequest):
     try:
         cur = con.cursor()
         books_cols = _table_columns(cur, "books")
+        book_places_cols = _table_columns(cur, "book_places")
         places_cols = _table_columns(cur, "places")
-        if not books_cols:
-            raise HTTPException(status_code=500, detail="imagination_db is missing table: books")
+        place_names_cols = _table_columns(cur, "place_names")
         if not places_cols:
             raise HTTPException(status_code=500, detail="imagination_db is missing table: places")
-        dhlab_col = _pick_col(books_cols, ["dhlabid", "book_id"])
-        token_col = _pick_col(books_cols, ["token", "place_token"])
-        count_col = _pick_col(books_cols, ["book_count", "mentions", "count"])
+        dhlab_col = _pick_col(books_cols, ["dhlabid", "book_id"]) if books_cols else None
+        token_col = _pick_col(books_cols, ["token", "place_token"]) if books_cols else None
+        count_col = _pick_col(books_cols, ["book_count", "mentions", "count"]) if books_cols else None
+        bp_dhlab_col = _pick_col(book_places_cols, ["dhlabid", "book_id"]) if book_places_cols else None
+        bp_place_col = _pick_col(book_places_cols, ["mock_id", "nb_place_id", "place_id"]) if book_places_cols else None
+        bp_count_col = _pick_col(book_places_cols, ["mentions", "book_count", "count"]) if book_places_cols else None
         places_token_col = _pick_col(places_cols, ["token", "place_token"])
+        places_nb_col = _pick_col(places_cols, ["mock_id", "nb_place_id", "place_id", "id"])
         lat_col = _pick_col(places_cols, ["latitude", "lat"])
         lon_col = _pick_col(places_cols, ["longitude", "lon"])
         name_col = _pick_col(places_cols, ["modern", "name", "canonical_name"])
-        id_col_places = _pick_col(places_cols, ["geonameid", "geonames_id", "place_id"])
-        id_col_books = _pick_col(books_cols, ["geonameid", "geonames_id", "place_id"])
-        if not dhlab_col or not token_col:
+        id_col_places = _pick_col(
+            places_cols,
+            ["mock_id", "nb_place_id", "geonameid", "geonames_id", "place_id"],
+        )
+        id_col_books = _pick_col(books_cols, ["geonameid", "geonames_id", "place_id"]) if books_cols else None
+        if not lat_col or not lon_col:
             raise HTTPException(
                 status_code=500,
-                detail="books table must contain dhlabid/book_id and token/place_token",
+                detail="places table must contain latitude/longitude",
             )
-        if not places_token_col or not lat_col or not lon_col:
-            raise HTTPException(
-                status_code=500,
-                detail="places table must contain token/place_token and latitude/longitude",
+        uses_place_id_model = False
+        if books_cols and dhlab_col and token_col and places_token_col:
+            count_expr = f"COALESCE(b.{count_col}, 1)" if count_col else "1"
+            name_expr = f"COALESCE(p.{name_col}, b.{token_col})" if name_col else f"b.{token_col}"
+            feature_code_expr = "NULLIF(TRIM(COALESCE(p.feature_code, '')), '')"
+            kind_expr = _place_kind_case_sql(
+                "p",
+                feature_code_col=("feature_code" if "feature_code" in places_cols else None),
+                feature_class_col=("feature_class" if "feature_class" in places_cols else None),
             )
-        count_expr = f"COALESCE(b.{count_col}, 1)" if count_col else "1"
-        name_expr = f"COALESCE(p.{name_col}, b.{token_col})" if name_col else f"b.{token_col}"
-        if id_col_places:
-            id_expr = f"COALESCE(CAST(p.{id_col_places} AS TEXT), b.{token_col})"
-        elif id_col_books:
-            id_expr = f"COALESCE(CAST(b.{id_col_books} AS TEXT), b.{token_col})"
+            if id_col_places:
+                id_expr = f"COALESCE(CAST(p.{id_col_places} AS TEXT), b.{token_col})"
+            elif id_col_books:
+                id_expr = f"COALESCE(CAST(b.{id_col_books} AS TEXT), b.{token_col})"
+            else:
+                id_expr = f"b.{token_col}"
+            token_out_expr = f"b.{token_col}"
+            sql_rows = f"""
+            WITH filter AS (
+                SELECT CAST(value AS INTEGER) AS dhlabid
+                FROM json_each(?)
+            ),
+            agg AS (
+                SELECT
+                    {id_expr} AS id,
+                    {token_out_expr} AS token,
+                    {name_expr} AS name,
+                    CAST(p.{lat_col} AS REAL) AS lat,
+                    CAST(p.{lon_col} AS REAL) AS lon,
+                    {feature_code_expr} AS feature_code,
+                    {kind_expr} AS kind,
+                    SUM({count_expr}) AS frequency,
+                    COUNT(DISTINCT b.{dhlab_col}) AS doc_count
+                FROM books b
+                JOIN filter f ON f.dhlabid = b.{dhlab_col}
+                LEFT JOIN places p ON p.{places_token_col} = b.{token_col}
+                WHERE p.{lat_col} IS NOT NULL
+                  AND p.{lon_col} IS NOT NULL
+                GROUP BY 1, 2, 3, 4, 5, 6, 7
+            )
+            SELECT id, token, name, lat, lon, feature_code, kind, frequency, doc_count
+            FROM agg
+            ORDER BY frequency DESC
+            LIMIT ?
+            """
+            sql_total = f"""
+            WITH filter AS (
+                SELECT CAST(value AS INTEGER) AS dhlabid
+                FROM json_each(?)
+            )
+            SELECT COUNT(*)
+            FROM (
+                SELECT b.{token_col}
+                FROM books b
+                JOIN filter f ON f.dhlabid = b.{dhlab_col}
+                LEFT JOIN places p ON p.{places_token_col} = b.{token_col}
+                WHERE p.{lat_col} IS NOT NULL
+                  AND p.{lon_col} IS NOT NULL
+                GROUP BY b.{token_col}
+            )
+            """
+        elif book_places_cols and bp_dhlab_col and bp_place_col and places_nb_col:
+            uses_place_id_model = True
+            bp_count_expr = f"COALESCE(bp.{bp_count_col}, 1)" if bp_count_col else "1"
+            token_expr = f"COALESCE(p.{name_col}, CAST(p.{places_nb_col} AS TEXT))" if name_col else f"CAST(p.{places_nb_col} AS TEXT)"
+            place_names_id_col = _pick_col(place_names_cols, ["place_id", "nb_place_id", "mock_id"]) if place_names_cols else None
+            place_names_canonical_col = (
+                _pick_col(place_names_cols, ["canonical_name", "name"]) if place_names_cols else None
+            )
+            place_names_norwegian_col = (
+                _pick_col(place_names_cols, ["norwegian_name", "primary_surface", "surface_text", "name"])
+                if place_names_cols
+                else None
+            )
+            place_names_surface_forms_col = (
+                _pick_col(place_names_cols, ["surface_forms_json"]) if place_names_cols else None
+            )
+            place_names_join_sql = ""
+            canonical_expr = (
+                f"COALESCE(pn.{place_names_canonical_col}, p.{name_col}, CAST(p.{places_nb_col} AS TEXT))"
+                if place_names_canonical_col and name_col
+                else (
+                    f"COALESCE(pn.{place_names_canonical_col}, CAST(p.{places_nb_col} AS TEXT))"
+                    if place_names_canonical_col
+                    else (
+                        f"COALESCE(p.{name_col}, CAST(p.{places_nb_col} AS TEXT))"
+                        if name_col
+                        else f"CAST(p.{places_nb_col} AS TEXT)"
+                    )
+                )
+            )
+            norwegian_expr = (
+                f"COALESCE(pn.{place_names_norwegian_col}, p.{name_col}, CAST(p.{places_nb_col} AS TEXT))"
+                if place_names_norwegian_col and name_col
+                else (
+                    f"COALESCE(pn.{place_names_norwegian_col}, CAST(p.{places_nb_col} AS TEXT))"
+                    if place_names_norwegian_col
+                    else (
+                        f"COALESCE(p.{name_col}, CAST(p.{places_nb_col} AS TEXT))"
+                        if name_col
+                        else f"CAST(p.{places_nb_col} AS TEXT)"
+                    )
+                )
+            )
+            surface_forms_expr = (
+                f"COALESCE(pn.{place_names_surface_forms_col}, '[]')"
+                if place_names_surface_forms_col
+                else "'[]'"
+            )
+            if place_names_id_col:
+                place_names_join_sql = f"LEFT JOIN place_names pn ON pn.{place_names_id_col} = p.{places_nb_col}"
+            feature_code_expr = "NULLIF(TRIM(COALESCE(p.feature_code, '')), '')"
+            kind_expr = _place_kind_case_sql(
+                "p",
+                feature_code_col=("feature_code" if "feature_code" in places_cols else None),
+                feature_class_col=("feature_class" if "feature_class" in places_cols else None),
+            )
+            id_expr = f"CAST(p.{places_nb_col} AS TEXT)"
+            sql_rows = f"""
+            WITH filter AS (
+                SELECT CAST(value AS INTEGER) AS dhlabid
+                FROM json_each(?)
+            ),
+            agg AS (
+                SELECT
+                    {id_expr} AS id,
+                    {token_expr} AS token,
+                    {canonical_expr} AS canonical_name,
+                    {norwegian_expr} AS norwegian_name,
+                    {surface_forms_expr} AS surface_forms_json,
+                    CAST(p.{lat_col} AS REAL) AS lat,
+                    CAST(p.{lon_col} AS REAL) AS lon,
+                    {feature_code_expr} AS feature_code,
+                    {kind_expr} AS kind,
+                    SUM({bp_count_expr}) AS frequency,
+                    COUNT(DISTINCT bp.{bp_dhlab_col}) AS doc_count
+                FROM book_places bp
+                JOIN filter f ON f.dhlabid = bp.{bp_dhlab_col}
+                JOIN places p ON p.{places_nb_col} = bp.{bp_place_col}
+                {place_names_join_sql}
+                WHERE p.{lat_col} IS NOT NULL
+                  AND p.{lon_col} IS NOT NULL
+                GROUP BY 1, 2, 3, 4, 5, 6, 7, 8, 9
+            )
+            SELECT id, token, canonical_name, norwegian_name, surface_forms_json, lat, lon, feature_code, kind, frequency, doc_count
+            FROM agg
+            ORDER BY frequency DESC
+            LIMIT ?
+            """
+            sql_total = f"""
+            WITH filter AS (
+                SELECT CAST(value AS INTEGER) AS dhlabid
+                FROM json_each(?)
+            )
+            SELECT COUNT(*)
+            FROM (
+                SELECT bp.{bp_place_col}
+                FROM book_places bp
+                JOIN filter f ON f.dhlabid = bp.{bp_dhlab_col}
+                JOIN places p ON p.{places_nb_col} = bp.{bp_place_col}
+                WHERE p.{lat_col} IS NOT NULL
+                  AND p.{lon_col} IS NOT NULL
+                GROUP BY bp.{bp_place_col}
+            )
+            """
         else:
-            id_expr = f"b.{token_col}"
+            raise HTTPException(
+                status_code=500,
+                detail="imagination_db must contain either books+places(token join) or book_places+places(nb_place_id join)",
+            )
         dhlabids_json = json.dumps([int(x) for x in req.dhlabids])
-        sql_rows = f"""
-        WITH filter AS (
-            SELECT CAST(value AS INTEGER) AS dhlabid
-            FROM json_each(?)
-        ),
-        agg AS (
-            SELECT
-                {id_expr} AS id,
-                b.{token_col} AS token,
-                {name_expr} AS name,
-                CAST(p.{lat_col} AS REAL) AS lat,
-                CAST(p.{lon_col} AS REAL) AS lon,
-                SUM({count_expr}) AS frequency,
-                COUNT(DISTINCT b.{dhlab_col}) AS doc_count
-            FROM books b
-            JOIN filter f ON f.dhlabid = b.{dhlab_col}
-            LEFT JOIN places p ON p.{places_token_col} = b.{token_col}
-            WHERE p.{lat_col} IS NOT NULL
-              AND p.{lon_col} IS NOT NULL
-            GROUP BY id, b.{token_col}, name, p.{lat_col}, p.{lon_col}
-        )
-        SELECT id, token, name, lat, lon, frequency, doc_count
-        FROM agg
-        ORDER BY frequency DESC
-        LIMIT ?
-        """
         rows = cur.execute(sql_rows, (dhlabids_json, int(req.maxPlaces))).fetchall()
-        sql_total = f"""
-        WITH filter AS (
-            SELECT CAST(value AS INTEGER) AS dhlabid
-            FROM json_each(?)
-        )
-        SELECT COUNT(*)
-        FROM (
-            SELECT b.{token_col}
-            FROM books b
-            JOIN filter f ON f.dhlabid = b.{dhlab_col}
-            LEFT JOIN places p ON p.{places_token_col} = b.{token_col}
-            WHERE p.{lat_col} IS NOT NULL
-              AND p.{lon_col} IS NOT NULL
-            GROUP BY b.{token_col}
-        )
-        """
         total_places = int(cur.execute(sql_total, (dhlabids_json,)).fetchone()[0] or 0)
+        place_ids_for_rows: List[int] = []
+        if uses_place_id_model:
+            for r in rows:
+                try:
+                    place_ids_for_rows.append(int(r[0]))
+                except Exception:
+                    continue
+        surface_by_place_id = _load_place_surface_tokens_from_imagination(cur, place_ids_for_rows)
+        if not surface_by_place_id and place_ids_for_rows:
+            surface_by_place_id = _load_nb_surface_tokens_for_places(
+                [int(x) for x in req.dhlabids],
+                place_ids_for_rows,
+            )
         places: List[Dict[str, Any]] = []
         for r in rows:
+            place_id_text = str(r[0])
+            place_id_value: Optional[int] = None
+            if uses_place_id_model:
+                try:
+                    place_id_value = int(r[0])
+                except Exception:
+                    place_id_value = None
+            token_value = str(r[1])
+            if place_id_value is not None:
+                token_value = surface_by_place_id.get(place_id_value, token_value)
+            canonical_value = str(r[2]) if r[2] is not None else None
+            norwegian_value = canonical_value
+            surface_forms_value: List[Dict[str, Any]] = []
+            if uses_place_id_model:
+                norwegian_value = str(r[3]) if r[3] is not None else canonical_value
+                if r[4]:
+                    try:
+                        parsed_surface_forms = json.loads(str(r[4]))
+                        if isinstance(parsed_surface_forms, list):
+                            surface_forms_value = parsed_surface_forms
+                    except Exception:
+                        surface_forms_value = []
             places.append(
                 {
-                    "id": str(r[0]),
-                    "token": str(r[1]),
-                    "name": str(r[2]) if r[2] is not None else None,
-                    "lat": float(r[3]),
-                    "lon": float(r[4]),
-                    "frequency": int(r[5] or 0),
-                    "doc_count": int(r[6] or 0),
+                    "id": place_id_text,
+                    "nb_place_id": place_id_value,
+                    "mock_id": place_id_value if uses_place_id_model and "mock_id" in places_cols else None,
+                    "surface": token_value,
+                    "canonicalName": canonical_value,
+                    "norwegianName": norwegian_value,
+                    "surfaceForms": surface_forms_value,
+                    "token": token_value,
+                    "name": norwegian_value if norwegian_value is not None else canonical_value,
+                    "lat": float(r[5] if uses_place_id_model else r[3]),
+                    "lon": float(r[6] if uses_place_id_model else r[4]),
+                    "featureCode": str(r[7] if uses_place_id_model else r[5]) if (r[7] if uses_place_id_model else r[5]) is not None else None,
+                    "kind": str(r[8] if uses_place_id_model else r[6]) if (r[8] if uses_place_id_model else r[6]) is not None else None,
+                    "frequency": int((r[9] if uses_place_id_model else r[7]) or 0),
+                    "doc_count": int((r[10] if uses_place_id_model else r[8]) or 0),
                 }
             )
         return {"places": places, "total_places": total_places}
+    finally:
+        con.close()
+
+
+@app.post("/api/places/first-year")
+def imagination_places_first_year(req: PlaceFirstYearRequest):
+    if not req.dhlabids:
+        return {"rows": []}
+    con = _connect_imagination_ro()
+    try:
+        cur = con.cursor()
+        book_places_cols = _table_columns(cur, "book_places")
+        places_cols = _table_columns(cur, "places")
+        corpus_cols = _table_columns(cur, "corpus")
+        if not book_places_cols or not places_cols or not corpus_cols:
+            raise HTTPException(
+                status_code=500,
+                detail="imagination_db must contain book_places, places, and corpus for first-year",
+            )
+        bp_dhlab_col = _pick_col(book_places_cols, ["dhlabid", "book_id"])
+        bp_place_col = _pick_col(book_places_cols, ["mock_id", "nb_place_id", "place_id"])
+        places_id_col = _pick_col(places_cols, ["mock_id", "nb_place_id", "place_id", "id"])
+        places_name_col = _pick_col(places_cols, ["name", "modern", "canonical_name"])
+        corpus_dhlab_col = _pick_col(corpus_cols, ["dhlabid", "book_id"])
+        corpus_year_col = _pick_col(corpus_cols, ["year", "pub_year"])
+        if not bp_dhlab_col or not bp_place_col or not places_id_col or not corpus_dhlab_col or not corpus_year_col:
+            raise HTTPException(
+                status_code=500,
+                detail="imagination_db schema is missing required columns for first-year",
+            )
+        token_expr = (
+            f"COALESCE(p.{places_name_col}, CAST(p.{places_id_col} AS TEXT))"
+            if places_name_col
+            else f"CAST(p.{places_id_col} AS TEXT)"
+        )
+        dhlabids_json = json.dumps([int(x) for x in req.dhlabids])
+        sql = f"""
+            WITH filter AS (
+                SELECT CAST(value AS INTEGER) AS dhlabid
+                FROM json_each(?)
+            ),
+            place_years AS (
+                SELECT
+                    CAST(p.{places_id_col} AS TEXT) AS place_id,
+                    {token_expr} AS token,
+                    CAST(c.{corpus_year_col} AS INTEGER) AS year
+                FROM book_places bp
+                JOIN filter f ON f.dhlabid = bp.{bp_dhlab_col}
+                JOIN corpus c ON c.{corpus_dhlab_col} = bp.{bp_dhlab_col}
+                JOIN places p ON p.{places_id_col} = bp.{bp_place_col}
+                WHERE c.{corpus_year_col} IS NOT NULL
+            )
+            SELECT
+                place_id,
+                token,
+                MIN(year) AS year
+            FROM place_years
+            GROUP BY place_id, token
+            ORDER BY year, token
+        """
+        rows = cur.execute(sql, (dhlabids_json,)).fetchall()
+        place_ids_for_surface: List[int] = []
+        for row in rows:
+            try:
+                place_ids_for_surface.append(int(row[0]))
+            except Exception:
+                continue
+        surface_by_place_id = _load_place_surface_tokens_from_imagination(cur, place_ids_for_surface)
+        if not surface_by_place_id and place_ids_for_surface:
+            surface_by_place_id = _load_nb_surface_tokens_for_places(
+                [int(x) for x in req.dhlabids],
+                place_ids_for_surface,
+            )
+        out_rows: List[Dict[str, Any]] = []
+        for place_id, token, year in rows:
+            token_value = str(token) if token is not None else str(place_id)
+            try:
+                pid_int = int(place_id)
+            except Exception:
+                pid_int = None
+            if pid_int is not None:
+                token_value = surface_by_place_id.get(pid_int, token_value)
+            out_rows.append(
+                {
+                    "place_id": str(place_id),
+                    "token": token_value,
+                    "year": int(year),
+                }
+            )
+        return {"rows": out_rows}
+    finally:
+        con.close()
+
+
+@app.post("/api/places/stats")
+def imagination_places_stats(req: PlaceStatsRequest):
+    if not req.dhlabids:
+        return {
+            "totals": {"uniquePlaces": 0, "mentions": 0, "docCount": 0},
+            "kinds": [],
+            "featureClasses": [],
+            "featureCodes": [],
+        }
+    con = _connect_imagination_ro()
+    try:
+        cur = con.cursor()
+        book_places_cols = _table_columns(cur, "book_places")
+        places_cols = _table_columns(cur, "places")
+        if not book_places_cols or not places_cols:
+            raise HTTPException(
+                status_code=500,
+                detail="imagination_db must contain book_places and places for place stats",
+            )
+        bp_dhlab_col = _pick_col(book_places_cols, ["dhlabid", "book_id"])
+        bp_place_col = _pick_col(book_places_cols, ["mock_id", "nb_place_id", "place_id"])
+        bp_count_col = _pick_col(book_places_cols, ["mentions", "book_count", "count"])
+        places_id_col = _pick_col(places_cols, ["mock_id", "nb_place_id", "place_id", "id"])
+        if not bp_dhlab_col or not bp_place_col or not places_id_col:
+            raise HTTPException(
+                status_code=500,
+                detail="imagination_db book_places/places schema is missing required id columns",
+            )
+        bp_count_expr = f"COALESCE(bp.{bp_count_col}, 1)" if bp_count_col else "1"
+        dhlabids_json = json.dumps([int(x) for x in req.dhlabids])
+        feature_code_col = "feature_code" if "feature_code" in places_cols else None
+        feature_class_col = "feature_class" if "feature_class" in places_cols else None
+        kind_expr = _place_kind_case_sql(
+            "p",
+            feature_code_col=feature_code_col,
+            feature_class_col=feature_class_col,
+        )
+        feature_class_select_expr = (
+            "COALESCE(NULLIF(TRIM(COALESCE(p.feature_class, '')), ''), 'unknown')"
+            if feature_class_col
+            else "'unknown'"
+        )
+        feature_code_select_expr = (
+            "COALESCE(NULLIF(TRIM(COALESCE(p.feature_code, '')), ''), 'unknown')"
+            if feature_code_col
+            else "'unknown'"
+        )
+
+        totals_sql = f"""
+            WITH filter AS (
+                SELECT CAST(value AS INTEGER) AS dhlabid
+                FROM json_each(?)
+            )
+            SELECT
+                COUNT(DISTINCT bp.{bp_place_col}) AS unique_places,
+                COALESCE(SUM({bp_count_expr}), 0) AS mentions,
+                COUNT(DISTINCT bp.{bp_dhlab_col}) AS doc_count
+            FROM book_places bp
+            JOIN filter f ON f.dhlabid = bp.{bp_dhlab_col}
+            JOIN places p ON p.{places_id_col} = bp.{bp_place_col}
+        """
+        feature_class_sql = f"""
+            WITH filter AS (
+                SELECT CAST(value AS INTEGER) AS dhlabid
+                FROM json_each(?)
+            )
+            SELECT
+                {feature_class_select_expr} AS feature_class,
+                COUNT(DISTINCT bp.{bp_place_col}) AS unique_places,
+                COALESCE(SUM({bp_count_expr}), 0) AS mentions,
+                COUNT(DISTINCT bp.{bp_dhlab_col}) AS doc_count
+            FROM book_places bp
+            JOIN filter f ON f.dhlabid = bp.{bp_dhlab_col}
+            JOIN places p ON p.{places_id_col} = bp.{bp_place_col}
+            GROUP BY 1
+            ORDER BY mentions DESC, unique_places DESC, feature_class
+        """
+        feature_code_sql = f"""
+            WITH filter AS (
+                SELECT CAST(value AS INTEGER) AS dhlabid
+                FROM json_each(?)
+            )
+            SELECT
+                {feature_code_select_expr} AS feature_code,
+                {feature_class_select_expr} AS feature_class,
+                {kind_expr} AS kind,
+                COUNT(DISTINCT bp.{bp_place_col}) AS unique_places,
+                COALESCE(SUM({bp_count_expr}), 0) AS mentions,
+                COUNT(DISTINCT bp.{bp_dhlab_col}) AS doc_count
+            FROM book_places bp
+            JOIN filter f ON f.dhlabid = bp.{bp_dhlab_col}
+            JOIN places p ON p.{places_id_col} = bp.{bp_place_col}
+            GROUP BY 1, 2, 3
+            ORDER BY mentions DESC, unique_places DESC, feature_code
+            LIMIT ?
+        """
+        kind_sql = f"""
+            WITH filter AS (
+                SELECT CAST(value AS INTEGER) AS dhlabid
+                FROM json_each(?)
+            )
+            SELECT
+                {kind_expr} AS kind,
+                COUNT(DISTINCT bp.{bp_place_col}) AS unique_places,
+                COALESCE(SUM({bp_count_expr}), 0) AS mentions,
+                COUNT(DISTINCT bp.{bp_dhlab_col}) AS doc_count
+            FROM book_places bp
+            JOIN filter f ON f.dhlabid = bp.{bp_dhlab_col}
+            JOIN places p ON p.{places_id_col} = bp.{bp_place_col}
+            GROUP BY 1
+            ORDER BY mentions DESC, unique_places DESC, kind
+        """
+
+        totals_row = cur.execute(totals_sql, (dhlabids_json,)).fetchone()
+        feature_class_rows = cur.execute(feature_class_sql, (dhlabids_json,)).fetchall()
+        feature_code_rows = cur.execute(
+            feature_code_sql,
+            (dhlabids_json, int(req.maxFeatureCodes)),
+        ).fetchall()
+        kind_rows = cur.execute(kind_sql, (dhlabids_json,)).fetchall()
+
+        return {
+            "totals": {
+                "uniquePlaces": int(totals_row[0] or 0),
+                "mentions": int(totals_row[1] or 0),
+                "docCount": int(totals_row[2] or 0),
+            },
+            "kinds": [
+                {
+                    "kind": str(row[0]),
+                    "label": _place_kind_label(str(row[0])),
+                    "uniquePlaces": int(row[1] or 0),
+                    "mentions": int(row[2] or 0),
+                    "docCount": int(row[3] or 0),
+                }
+                for row in kind_rows
+            ],
+            "featureClasses": [
+                {
+                    "featureClass": str(row[0]),
+                    "uniquePlaces": int(row[1] or 0),
+                    "mentions": int(row[2] or 0),
+                    "docCount": int(row[3] or 0),
+                }
+                for row in feature_class_rows
+            ],
+            "featureCodes": [
+                {
+                    "featureCode": str(row[0]),
+                    "featureClass": str(row[1]),
+                    "kind": str(row[2]),
+                    "label": _place_kind_label(str(row[2])),
+                    "uniquePlaces": int(row[3] or 0),
+                    "mentions": int(row[4] or 0),
+                    "docCount": int(row[5] or 0),
+                }
+                for row in feature_code_rows
+            ],
+        }
     finally:
         con.close()
 
@@ -429,49 +1628,93 @@ def imagination_places_details(req: PlaceDetailsRequest):
     try:
         cur = con.cursor()
         books_cols = _table_columns(cur, "books")
+        book_places_cols = _table_columns(cur, "book_places")
+        places_cols = _table_columns(cur, "places")
         corpus_cols = _table_columns(cur, "corpus")
-        if not books_cols:
-            raise HTTPException(status_code=500, detail="imagination_db is missing table: books")
         if not corpus_cols:
             raise HTTPException(status_code=500, detail="imagination_db is missing table: corpus")
-        b_dhlab_col = _pick_col(books_cols, ["dhlabid", "book_id"])
+        b_dhlab_col = _pick_col(books_cols, ["dhlabid", "book_id"]) if books_cols else None
         c_dhlab_col = _pick_col(corpus_cols, ["dhlabid", "book_id"])
-        token_col = _pick_col(books_cols, ["token", "place_token"])
-        count_col = _pick_col(books_cols, ["book_count", "mentions", "count"])
-        if not b_dhlab_col or not c_dhlab_col or not token_col:
-            raise HTTPException(
-                status_code=500,
-                detail="books/corpus tables must contain dhlabid/book_id and books token/place_token",
-            )
-        count_expr = f"COALESCE(b.{count_col}, 1)" if count_col else "1"
+        token_col = _pick_col(books_cols, ["token", "place_token"]) if books_cols else None
+        count_col = _pick_col(books_cols, ["book_count", "mentions", "count"]) if books_cols else None
+        bp_dhlab_col = _pick_col(book_places_cols, ["dhlabid", "book_id"]) if book_places_cols else None
+        bp_place_col = _pick_col(book_places_cols, ["mock_id", "nb_place_id", "place_id"]) if book_places_cols else None
+        bp_count_col = _pick_col(book_places_cols, ["mentions", "book_count", "count"]) if book_places_cols else None
+        places_name_col = _pick_col(places_cols, ["name", "modern", "canonical_name"]) if places_cols else None
+        places_id_col = _pick_col(
+            places_cols,
+            ["mock_id", "nb_place_id", "place_id", "id", "geonames_id"],
+        ) if places_cols else None
+        if not c_dhlab_col:
+            raise HTTPException(status_code=500, detail="corpus table must contain dhlabid/book_id")
         urn_expr = _optional_expr(corpus_cols, ["urn"], "urn")
         author_expr = _optional_expr(corpus_cols, ["author", "forfatter"], "author")
         year_expr = _optional_expr(corpus_cols, ["year", "pub_year"], "year", cast="INTEGER")
         title_expr = _optional_expr(corpus_cols, ["title", "titel"], "title")
         category_expr = _optional_expr(corpus_cols, ["category", "genre"], "category")
         dhlabids_json = json.dumps([int(x) for x in req.dhlabids])
-        sql = f"""
-        WITH filter AS (
-            SELECT CAST(value AS INTEGER) AS dhlabid
-            FROM json_each(?)
-        )
-        SELECT
-            CAST(c.{c_dhlab_col} AS INTEGER) AS dhlabid,
-            {urn_expr},
-            {author_expr},
-            {year_expr},
-            {title_expr},
-            {category_expr},
-            SUM({count_expr}) AS mentions
-        FROM books b
-        JOIN filter f ON f.dhlabid = b.{b_dhlab_col}
-        JOIN corpus c ON c.{c_dhlab_col} = b.{b_dhlab_col}
-        WHERE lower(COALESCE(b.{token_col}, '')) = lower(?)
-        GROUP BY c.{c_dhlab_col}, urn, author, year, title, category
-        ORDER BY mentions DESC, year IS NULL, year, dhlabid
-        LIMIT ?
-        """
-        rows = cur.execute(sql, (dhlabids_json, token, int(req.limit))).fetchall()
+        if books_cols and b_dhlab_col and token_col:
+            count_expr = f"COALESCE(b.{count_col}, 1)" if count_col else "1"
+            sql = f"""
+            WITH filter AS (
+                SELECT CAST(value AS INTEGER) AS dhlabid
+                FROM json_each(?)
+            )
+            SELECT
+                CAST(c.{c_dhlab_col} AS INTEGER) AS dhlabid,
+                {urn_expr},
+                {author_expr},
+                {year_expr},
+                {title_expr},
+                {category_expr},
+                SUM({count_expr}) AS mentions
+            FROM books b
+            JOIN filter f ON f.dhlabid = b.{b_dhlab_col}
+            JOIN corpus c ON c.{c_dhlab_col} = b.{b_dhlab_col}
+            WHERE lower(COALESCE(b.{token_col}, '')) = lower(?)
+            GROUP BY c.{c_dhlab_col}, urn, author, year, title, category
+            ORDER BY mentions DESC, year IS NULL, year, dhlabid
+            LIMIT ?
+            """
+            rows = cur.execute(sql, (dhlabids_json, token, int(req.limit))).fetchall()
+        elif book_places_cols and bp_dhlab_col and bp_place_col and places_id_col:
+            bp_count_expr = f"COALESCE(bp.{bp_count_col}, 1)" if bp_count_col else "1"
+            place_match_clause = "CAST(p.{id_col} AS TEXT) = ?".format(id_col=places_id_col)
+            params: List[Any] = [dhlabids_json, token]
+            if places_name_col:
+                place_match_clause += " OR lower(COALESCE(p.{name_col}, '')) = lower(?)".format(
+                    name_col=places_name_col
+                )
+                params.append(token)
+            sql = f"""
+            WITH filter AS (
+                SELECT CAST(value AS INTEGER) AS dhlabid
+                FROM json_each(?)
+            )
+            SELECT
+                CAST(c.{c_dhlab_col} AS INTEGER) AS dhlabid,
+                {urn_expr},
+                {author_expr},
+                {year_expr},
+                {title_expr},
+                {category_expr},
+                SUM({bp_count_expr}) AS mentions
+            FROM book_places bp
+            JOIN filter f ON f.dhlabid = bp.{bp_dhlab_col}
+            JOIN places p ON p.{places_id_col} = bp.{bp_place_col}
+            JOIN corpus c ON c.{c_dhlab_col} = bp.{bp_dhlab_col}
+            WHERE ({place_match_clause})
+            GROUP BY c.{c_dhlab_col}, urn, author, year, title, category
+            ORDER BY mentions DESC, year IS NULL, year, dhlabid
+            LIMIT ?
+            """
+            params.append(int(req.limit))
+            rows = cur.execute(sql, tuple(params)).fetchall()
+        else:
+            raise HTTPException(
+                status_code=500,
+                detail="imagination_db must contain either books token model or book_places place-id model",
+            )
         books: List[Dict[str, Any]] = []
         for r in rows:
             books.append(
@@ -486,6 +1729,250 @@ def imagination_places_details(req: PlaceDetailsRequest):
                 }
             )
         return {"books": books}
+    finally:
+        con.close()
+
+
+@app.post("/api/place/resolve")
+def resolve_place(req: PlaceResolveRequest):
+    query = str(req.query or "").strip()
+    raw_id = str(req.id or "").strip()
+    if bool(query) == bool(raw_id):
+        raise HTTPException(status_code=400, detail="Provide exactly one of: query or id")
+    con = _connect_imagination_ro()
+    try:
+        cur = con.cursor()
+        if query:
+            matches = _resolve_places_by_query(cur, query, int(req.limit))
+        else:
+            matches = _resolve_places_by_id(cur, raw_id, int(req.limit))
+        return {"matches": matches}
+    finally:
+        con.close()
+
+
+@app.post("/api/place/qa")
+def place_qa(req: PlaceQaRequest):
+    query = str(req.query or "").strip()
+    raw_id = str(req.id or "").strip()
+    if bool(query) == bool(raw_id):
+        raise HTTPException(status_code=400, detail="Provide exactly one of: query or id")
+    dhlabids = [int(x) for x in req.dhlabids]
+    con = _connect_imagination_ro()
+    try:
+        cur = con.cursor()
+        book_places_cols = _table_columns(cur, "book_places")
+        places_cols = _table_columns(cur, "places")
+        if not book_places_cols or not places_cols:
+            raise HTTPException(
+                status_code=500,
+                detail="imagination_db must contain book_places and places for place QA",
+            )
+        bp_dhlab_col = _pick_col(book_places_cols, ["dhlabid", "book_id"])
+        bp_place_col = _pick_col(book_places_cols, ["mock_id", "nb_place_id", "place_id"])
+        bp_count_col = _pick_col(book_places_cols, ["mentions", "book_count", "count"])
+        places_id_col = _pick_col(places_cols, ["mock_id", "nb_place_id", "place_id", "id"])
+        name_col = _pick_col(places_cols, ["modern", "name", "canonical_name"])
+        country_col = _pick_col(places_cols, ["area", "country", "country_code"])
+        lat_col = _pick_col(places_cols, ["latitude", "lat"])
+        lon_col = _pick_col(places_cols, ["longitude", "lon"])
+        feature_code_col = _pick_col(places_cols, ["feature_code", "featureCode"])
+        feature_class_col = _pick_col(places_cols, ["feature_class", "featureClass"])
+        if not bp_dhlab_col or not bp_place_col or not places_id_col:
+            raise HTTPException(
+                status_code=500,
+                detail="imagination_db book_places/places schema is missing required id columns",
+            )
+        if query:
+            matches = _resolve_places_by_query(cur, query, int(req.limit))
+        else:
+            matches = _resolve_places_by_id(cur, raw_id, int(req.limit))
+
+        dhlabids_json = json.dumps(dhlabids)
+        bp_count_expr = f"COALESCE(bp.{bp_count_col}, 1)" if bp_count_col else "1"
+        coverage_sql = f"""
+            WITH filter AS (
+                SELECT CAST(value AS INTEGER) AS dhlabid
+                FROM json_each(?)
+            ),
+            geo_books AS (
+                SELECT
+                    bp.{bp_dhlab_col} AS dhlabid,
+                    SUM({bp_count_expr}) AS mentions
+                FROM book_places bp
+                JOIN filter f ON f.dhlabid = bp.{bp_dhlab_col}
+                GROUP BY bp.{bp_dhlab_col}
+            )
+            SELECT
+                (SELECT COUNT(*) FROM filter) AS books_in_corpus,
+                COUNT(DISTINCT g.dhlabid) AS books_with_geo,
+                COALESCE(SUM(g.mentions), 0) AS total_geo_mentions,
+                (
+                    SELECT COUNT(DISTINCT bp2.{bp_place_col})
+                    FROM book_places bp2
+                    JOIN filter f2 ON f2.dhlabid = bp2.{bp_dhlab_col}
+                ) AS unique_places
+            FROM geo_books g
+        """
+        coverage_row = cur.execute(coverage_sql, (dhlabids_json,)).fetchone()
+        books_in_corpus = int(coverage_row[0] or 0)
+        books_with_geo = int(coverage_row[1] or 0)
+        total_geo_mentions = int(coverage_row[2] or 0)
+        unique_places = int(coverage_row[3] or 0)
+
+        matched_ids = [str(m.get("id") or "").strip() for m in matches if str(m.get("id") or "").strip()]
+        stats_by_id: Dict[str, Dict[str, Any]] = {}
+        query_word_frequency = _count_word_frequency_for_corpus(dhlabids, query) if query else 0
+        if matched_ids:
+            ids_json = json.dumps(matched_ids)
+            canonical_expr = f"COALESCE(p.{name_col}, CAST(p.{places_id_col} AS TEXT))" if name_col else f"CAST(p.{places_id_col} AS TEXT)"
+            country_expr = f"p.{country_col}" if country_col else "NULL"
+            lat_expr = f"CAST(p.{lat_col} AS REAL)" if lat_col else "NULL"
+            lon_expr = f"CAST(p.{lon_col} AS REAL)" if lon_col else "NULL"
+            feature_code_expr = f"NULLIF(TRIM(COALESCE(p.{feature_code_col}, '')), '')" if feature_code_col else "NULL"
+            feature_class_expr = f"NULLIF(TRIM(COALESCE(p.{feature_class_col}, '')), '')" if feature_class_col else "NULL"
+            kind_expr = _place_kind_case_sql(
+                "p",
+                feature_code_col=feature_code_col,
+                feature_class_col=feature_class_col,
+            )
+            stats_sql = f"""
+                WITH filter AS (
+                    SELECT CAST(value AS INTEGER) AS dhlabid
+                    FROM json_each(?)
+                ),
+                match_ids AS (
+                    SELECT CAST(value AS TEXT) AS place_id
+                    FROM json_each(?)
+                ),
+                agg AS (
+                    SELECT
+                        bp.{bp_place_col} AS place_id,
+                        COUNT(DISTINCT bp.{bp_dhlab_col}) AS doc_count,
+                        COALESCE(SUM({bp_count_expr}), 0) AS mentions
+                    FROM book_places bp
+                    JOIN filter f ON f.dhlabid = bp.{bp_dhlab_col}
+                    GROUP BY bp.{bp_place_col}
+                )
+                SELECT
+                    CAST(p.{places_id_col} AS TEXT) AS id,
+                    {canonical_expr} AS canonical_name,
+                    {country_expr} AS country,
+                    {lat_expr} AS lat,
+                    {lon_expr} AS lon,
+                    {feature_code_expr} AS feature_code,
+                    {feature_class_expr} AS feature_class,
+                    {kind_expr} AS kind,
+                    COALESCE(a.mentions, 0) AS mentions,
+                    COALESCE(a.doc_count, 0) AS doc_count
+                FROM match_ids m
+                JOIN places p ON CAST(p.{places_id_col} AS TEXT) = m.place_id
+                LEFT JOIN agg a ON CAST(a.place_id AS TEXT) = m.place_id
+                ORDER BY canonical_name, id
+            """
+            for row in cur.execute(stats_sql, (dhlabids_json, ids_json)).fetchall():
+                stats_by_id[str(row[0])] = {
+                    "canonicalName": str(row[1]) if row[1] is not None else None,
+                    "country": str(row[2]) if row[2] is not None else None,
+                    "lat": float(row[3]) if row[3] is not None else None,
+                    "lon": float(row[4]) if row[4] is not None else None,
+                    "featureCode": str(row[5]) if row[5] is not None else None,
+                    "featureClass": str(row[6]) if row[6] is not None else None,
+                    "kind": str(row[7]) if row[7] is not None else None,
+                    "placeMentions": int(row[8] or 0),
+                    "docCount": int(row[9] or 0),
+                }
+        numeric_matched_ids = [int(mid) for mid in matched_ids if mid.isdigit()]
+        tagged_surface_mentions_by_place = (
+            _count_exact_surface_mentions_by_place(dhlabids, query, numeric_matched_ids)
+            if query and numeric_matched_ids
+            else {}
+        )
+        tagged_surface_mentions = (
+            sum(int(v or 0) for v in tagged_surface_mentions_by_place.values())
+            if query
+            else 0
+        )
+        surface_stats = _load_place_surface_stats_from_imagination(
+            cur,
+            numeric_matched_ids,
+            max_surfaces=int(req.maxSurfaces),
+        ) if matched_ids and dhlabids else {}
+        if not surface_stats and matched_ids and dhlabids:
+            surface_stats = _load_nb_surface_stats_for_places(
+                dhlabids,
+                numeric_matched_ids,
+                max_surfaces=int(req.maxSurfaces),
+            )
+
+        out_matches: List[Dict[str, Any]] = []
+        for m in matches:
+            place_id = str(m.get("id") or "").strip()
+            meta = stats_by_id.get(place_id, {})
+            doc_count = int(meta.get("docCount") or 0)
+            tagged_surface_for_place = (
+                int(tagged_surface_mentions_by_place.get(int(place_id), 0))
+                if query and place_id.isdigit()
+                else 0
+            )
+            out_matches.append(
+                {
+                    "id": place_id,
+                    "canonicalName": meta.get("canonicalName") or m.get("canonicalName"),
+                    "matchedForm": m.get("matchedForm"),
+                    "alternateForms": m.get("alternateForms") or [],
+                    "country": meta.get("country") or m.get("country"),
+                    "lat": meta.get("lat") if meta.get("lat") is not None else m.get("lat"),
+                    "lon": meta.get("lon") if meta.get("lon") is not None else m.get("lon"),
+                    "featureCode": meta.get("featureCode"),
+                    "featureClass": meta.get("featureClass"),
+                    "kind": meta.get("kind"),
+                    "placeMentions": int(meta.get("placeMentions") or 0),
+                    "surfacePlaceMentions": tagged_surface_for_place,
+                    "docCount": doc_count,
+                    "docCoverageRate": (doc_count / books_in_corpus) if books_in_corpus else 0.0,
+                    "wordFrequency": query_word_frequency if query else None,
+                    "nonPlaceWordFrequency": (
+                        max(query_word_frequency - tagged_surface_for_place, 0)
+                        if query
+                        else None
+                    ),
+                    "surfaceTagRatio": (
+                        (tagged_surface_for_place / query_word_frequency)
+                        if query and query_word_frequency > 0
+                        else None
+                    ),
+                    "surfaceShareWithinTagged": (
+                        (tagged_surface_for_place / tagged_surface_mentions)
+                        if query and tagged_surface_mentions > 0
+                        else None
+                    ),
+                    "topSurfaces": surface_stats.get(int(place_id), []) if place_id.isdigit() else [],
+                }
+            )
+
+        return {
+            "corpus": {
+                "booksInCorpus": books_in_corpus,
+                "booksWithGeo": books_with_geo,
+                "coverageRate": (books_with_geo / books_in_corpus) if books_in_corpus else 0.0,
+                "totalGeoMentions": total_geo_mentions,
+                "uniquePlaces": unique_places,
+                "queryWordFrequency": query_word_frequency if query else None,
+                "queryTaggedSurfaceMentions": tagged_surface_mentions if query else None,
+                "queryNonPlaceWordFrequency": (
+                    max(query_word_frequency - tagged_surface_mentions, 0)
+                    if query
+                    else None
+                ),
+                "querySurfaceTagRatio": (
+                    (tagged_surface_mentions / query_word_frequency)
+                    if query and query_word_frequency > 0
+                    else None
+                ),
+            },
+            "matches": out_matches,
+        }
     finally:
         con.close()
 
@@ -557,8 +2044,10 @@ def _try_parse_geo_key(value: Optional[str]) -> Optional[Tuple[str, str]]:
     if not v:
         return None
     if v.isdigit():
-        return ("geonames", v)
-    m = re.match(r"^(geonames|internal)\s*:\s*(.+)$", v, flags=re.IGNORECASE)
+        # New default contract: bare numeric #geo:<id> means NB internal place id.
+        # Legacy geonames/internal forms remain supported when explicitly prefixed.
+        return ("nb", v)
+    m = re.match(r"^(geonames|internal|nb)\s*:\s*(.+)$", v, flags=re.IGNORECASE)
     if m:
         return (m.group(1).strip().casefold(), m.group(2).strip())
     return None
@@ -780,26 +2269,65 @@ def _lookup_geo_span_meta(
             # Some prod exports intentionally omit geo_mentions_v2 to stay compact.
             # In that case we return empty meta and let callers use safe defaults.
             return {}
-        out: Dict[Tuple[int, int], Dict[str, Any]] = {}
-        for book_id, pos in hits:
-            params: List[Any] = [int(book_id), int(pos)]
-            sql = """
-                SELECT token_len, surface_text, place_key_type, place_key
-                FROM geo_mentions_v2
-                WHERE book_id = ? AND seq_start = ?
+        cur.execute(
+            "CREATE TEMP TABLE _hit_filter_meta(book_id INTEGER NOT NULL, seq_start INTEGER NOT NULL, PRIMARY KEY(book_id, seq_start))"
+        )
+        cur.executemany(
+            "INSERT OR IGNORE INTO _hit_filter_meta(book_id, seq_start) VALUES (?, ?)",
+            ((int(book_id), int(pos)) for book_id, pos in hits),
+        )
+        params: List[Any] = []
+        sql = """
+            SELECT
+              h.book_id,
+              h.seq_start,
+              m.token_len,
+              m.surface_text,
+              m.place_key_type,
+              m.place_key,
+              m.place_id,
+              COALESCE(m.geonames_id, p.geonames_id) AS geonames_id,
+              p.canonical_name,
+              p.lat,
+              p.lon,
+              p.country,
+              pv.variant_text
+            FROM _hit_filter_meta h
+            JOIN geo_mentions_v2 m
+              ON m.book_id = h.book_id
+             AND m.seq_start = h.seq_start
+            LEFT JOIN places p ON p.place_id = m.place_id
+            LEFT JOIN place_variants pv ON pv.variant_id = m.variant_id
+        """
+        if geo_key:
+            sql += """
+            WHERE m.place_key_type = ?
+              AND m.place_key = ?
             """
-            if geo_key:
-                sql += " AND place_key_type = ? AND place_key = ?"
-                params.extend([geo_key[0], geo_key[1]])
-            sql += " ORDER BY token_len DESC LIMIT 1"
-            row = cur.execute(sql, tuple(params)).fetchone()
-            if not row:
+            params.extend([geo_key[0], geo_key[1]])
+        sql += " ORDER BY h.book_id, h.seq_start, m.token_len DESC"
+        rows = cur.execute(sql, tuple(params)).fetchall()
+        out: Dict[Tuple[int, int], Dict[str, Any]] = {}
+        for row in rows:
+            key = (int(row[0]), int(row[1]))
+            if key in out:
+                # Highest token_len row comes first due to ORDER BY.
                 continue
-            out[(int(book_id), int(pos))] = {
-                "tokenLen": int(row[0]),
-                "surfaceText": str(row[1]) if row[1] is not None else None,
-                "placeKeyType": str(row[2]) if row[2] is not None else None,
-                "placeKey": str(row[3]) if row[3] is not None else None,
+            out[key] = {
+                "tokenLen": int(row[2]),
+                "surfaceText": str(row[3]) if row[3] is not None else None,
+                "placeKeyType": str(row[4]) if row[4] is not None else None,
+                "placeKey": str(row[5]) if row[5] is not None else None,
+                "placeId": int(row[6]) if row[6] is not None else None,
+                "geonamesId": int(row[7]) if row[7] is not None else None,
+                "place": {
+                    "canonicalName": str(row[8]) if row[8] is not None else None,
+                    "geonamesId": int(row[7]) if row[7] is not None else None,
+                    "lat": float(row[9]) if row[9] is not None else None,
+                    "lon": float(row[10]) if row[10] is not None else None,
+                    "country": str(row[11]) if row[11] is not None else None,
+                    "variantText": str(row[12]) if row[12] is not None else None,
+                },
             }
         return out
     except sqlite3.OperationalError as exc:
@@ -807,6 +2335,187 @@ def _lookup_geo_span_meta(
         if "no such table" in msg and "geo_mentions_v2" in msg:
             return {}
         raise
+    finally:
+        con.close()
+
+
+def _lookup_geo_place_meta(
+    geo_db_path: str,
+    geo_key: Tuple[str, str],
+) -> Dict[str, Any]:
+    con = sqlite3.connect(f"file:{geo_db_path}?mode=ro", uri=True)
+    cur = con.cursor()
+    try:
+        table_ok = cur.execute(
+            "SELECT 1 FROM sqlite_master WHERE type='table' AND name='places' LIMIT 1"
+        ).fetchone()
+        if not table_ok:
+            return {
+                "placeId": int(geo_key[1]) if geo_key[0] in {"internal", "nb"} and str(geo_key[1]).isdigit() else None,
+                "geonamesId": int(geo_key[1]) if geo_key[0] == "geonames" and str(geo_key[1]).isdigit() else None,
+                "place": {
+                    "canonicalName": None,
+                    "lat": None,
+                    "lon": None,
+                    "country": None,
+                    "variantText": None,
+                },
+            }
+        if geo_key[0] == "geonames":
+            row = cur.execute(
+                """
+                SELECT place_id, geonames_id, canonical_name, lat, lon, country
+                FROM places
+                WHERE CAST(geonames_id AS TEXT) = ?
+                ORDER BY place_id
+                LIMIT 1
+                """,
+                (geo_key[1],),
+            ).fetchone()
+        else:
+            row = cur.execute(
+                """
+                SELECT place_id, geonames_id, canonical_name, lat, lon, country
+                FROM places
+                WHERE CAST(place_id AS TEXT) = ?
+                LIMIT 1
+                """,
+                (geo_key[1],),
+            ).fetchone()
+        if not row:
+            return {
+                "placeId": int(geo_key[1]) if geo_key[0] in {"internal", "nb"} and str(geo_key[1]).isdigit() else None,
+                "geonamesId": int(geo_key[1]) if geo_key[0] == "geonames" and str(geo_key[1]).isdigit() else None,
+                "place": {
+                    "canonicalName": None,
+                    "lat": None,
+                    "lon": None,
+                    "country": None,
+                    "variantText": None,
+                },
+            }
+        return {
+            "placeId": int(row[0]) if row[0] is not None else None,
+            "geonamesId": int(row[1]) if row[1] is not None else None,
+            "place": {
+                "canonicalName": str(row[2]) if row[2] is not None else None,
+                "lat": float(row[3]) if row[3] is not None else None,
+                "lon": float(row[4]) if row[4] is not None else None,
+                "country": str(row[5]) if row[5] is not None else None,
+                "variantText": None,
+            },
+        }
+    finally:
+        con.close()
+
+
+def _fetch_geo_rows_by_key_mentions_fast(
+    geo_db_path: str,
+    book_ids: List[int],
+    geo_key: Tuple[str, str],
+    total_limit: int,
+) -> Optional[List[Dict[str, Any]]]:
+    """
+    Fast path for #geo:key concordance rows:
+    resolve rows directly from geo_mentions_v2 (+ place joins) in one query.
+    Returns None when geo_mentions_v2 is unavailable so callers can fallback.
+    """
+    if not book_ids:
+        return []
+    con = sqlite3.connect(f"file:{geo_db_path}?mode=ro", uri=True)
+    cur = con.cursor()
+    try:
+        has_mentions = cur.execute(
+            "SELECT 1 FROM sqlite_master WHERE type='table' AND name='geo_mentions_v2' LIMIT 1"
+        ).fetchone()
+        if not has_mentions:
+            return None
+        cur.execute("CREATE TEMP TABLE _book_filter_fast(book_id INTEGER PRIMARY KEY)")
+        cur.executemany(
+            "INSERT OR IGNORE INTO _book_filter_fast(book_id) VALUES (?)",
+            ((int(book_id),) for book_id in book_ids),
+        )
+        params: List[Any] = [geo_key[0], geo_key[1]]
+        sql = """
+            WITH ranked AS (
+              SELECT
+                m.book_id,
+                m.seq_start,
+                m.token_len,
+                m.place_key_type,
+                m.place_key,
+                m.place_id,
+                COALESCE(m.geonames_id, p.geonames_id) AS geonames_id,
+                m.variant_id,
+                m.surface_text,
+                p.canonical_name,
+                p.lat,
+                p.lon,
+                p.country,
+                pv.variant_text,
+                ROW_NUMBER() OVER (
+                  PARTITION BY m.book_id, m.seq_start
+                  ORDER BY m.token_len DESC
+                ) AS rn
+              FROM geo_mentions_v2 m
+              JOIN _book_filter_fast f ON f.book_id = m.book_id
+              LEFT JOIN places p ON p.place_id = m.place_id
+              LEFT JOIN place_variants pv ON pv.variant_id = m.variant_id
+              WHERE m.place_key_type = ?
+                AND m.place_key = ?
+            )
+            SELECT
+              book_id,
+              seq_start,
+              token_len,
+              place_key_type,
+              place_key,
+              place_id,
+              geonames_id,
+              variant_id,
+              surface_text,
+              canonical_name,
+              lat,
+              lon,
+              country,
+              variant_text
+            FROM ranked
+            WHERE rn = 1
+            ORDER BY book_id, seq_start
+        """
+        if total_limit > 0:
+            sql += " LIMIT ?"
+            params.append(int(total_limit))
+        rows = cur.execute(sql, tuple(params)).fetchall()
+        out: List[Dict[str, Any]] = []
+        for row in rows:
+            out.append(
+                {
+                    "bookId": int(row[0]),
+                    "seqStart": int(row[1]),
+                    "tokenLen": int(row[2]) if row[2] is not None else 1,
+                    "placeKeyType": str(row[3]) if row[3] is not None else geo_key[0],
+                    "placeKey": str(row[4]) if row[4] is not None else geo_key[1],
+                    "placeId": int(row[5]) if row[5] is not None else None,
+                    "variantId": int(row[7]) if row[7] is not None else None,
+                    "surfaceText": str(row[8]) if row[8] is not None else None,
+                    "method": "geo_postings_fastpath",
+                    "score": None,
+                    "geonamesId": int(row[6]) if row[6] is not None else None,
+                    "place": {
+                        "canonicalName": str(row[9]) if row[9] is not None else None,
+                        "geonamesId": int(row[6]) if row[6] is not None else None,
+                        "lat": float(row[10]) if row[10] is not None else None,
+                        "lon": float(row[11]) if row[11] is not None else None,
+                        "country": str(row[12]) if row[12] is not None else None,
+                        "variantText": str(row[13]) if row[13] is not None else None,
+                    },
+                }
+            )
+        return out
+    except sqlite3.OperationalError:
+        # Some exports may not include v2 tables/cols; caller handles fallback.
+        return None
     finally:
         con.close()
 
@@ -825,32 +2534,11 @@ def _run_geo_namespace_near_or(
     }
     anchor_t0 = time.perf_counter()
     anchor_positions = _load_geo_anchor_positions(ns_db_path, book_ids, geo_key)
-    capital_filter_applied = False
-    if geo_key and GEO_REQUIRE_CAPITALIZED:
-        capital_t0 = time.perf_counter()
-        cap_positions = _load_geo_capitalized_positions_from_mentions(
-            ns_db_path,
-            list(anchor_positions.keys()) if anchor_positions else book_ids,
-            geo_key,
-        )
-        perf["capital_filter_ms"] = round((time.perf_counter() - capital_t0) * 1000.0, 3)
-        if cap_positions:
-            filtered: Dict[int, List[int]] = {}
-            for bid, arr in anchor_positions.items():
-                cap_arr = cap_positions.get(int(bid))
-                if not cap_arr:
-                    continue
-                cap_set = set(cap_arr)
-                inter = [p for p in arr if p in cap_set]
-                if inter:
-                    filtered[int(bid)] = inter
-            anchor_positions = filtered
-            capital_filter_applied = True
     perf["anchor_load_ms"] = round((time.perf_counter() - anchor_t0) * 1000.0, 3)
     perf["anchor_books"] = len(anchor_positions)
     if geo_key:
-        perf["capital_filter_enabled"] = bool(GEO_REQUIRE_CAPITALIZED)
-        perf["capital_filter_applied"] = bool(capital_filter_applied)
+        perf["capital_filter_enabled"] = False
+        perf["capital_filter_applied"] = False
     if not anchor_positions:
         raise HTTPException(status_code=404, detail="No geo anchor positions for requested namespace/filter")
     rows_hits: List[Tuple[int, int]] = []
@@ -901,7 +2589,7 @@ def _run_geo_namespace_near_or(
                 )
                 if not near_pos:
                     continue
-                picks = near_pos[: int(req.perBook)]
+                picks = near_pos if int(req.perBook) <= 0 else near_pos[: int(req.perBook)]
                 for pos in picks:
                     rows_hits.append((int(book_id), int(pos)))
                     if req.totalLimit and len(rows_hits) >= req.totalLimit:
@@ -927,6 +2615,7 @@ def _run_geo_namespace_near_or(
             key_type = geo_key[0]
         if not key_val and geo_key:
             key_val = geo_key[1]
+        place = meta.get("place") or {}
         rows.append(
             {
                 "bookId": int(book_id),
@@ -936,6 +2625,16 @@ def _run_geo_namespace_near_or(
                 "surfaceText": meta.get("surfaceText"),
                 "placeKeyType": key_type,
                 "placeKey": key_val,
+                "placeId": meta.get("placeId"),
+                "geonamesId": meta.get("geonamesId"),
+                "place": {
+                    "canonicalName": place.get("canonicalName"),
+                    "geonamesId": place.get("geonamesId"),
+                    "lat": place.get("lat"),
+                    "lon": place.get("lon"),
+                    "country": place.get("country"),
+                    "variantText": place.get("variantText"),
+                },
                 "method": "geo_near_term_groups",
             }
         )
@@ -943,7 +2642,14 @@ def _run_geo_namespace_near_or(
     unresolved_render: List[Dict[str, int]] = []
     if bool(req.renderHits):
         render_t0 = time.perf_counter()
-        render_input = [{"bookId": int(r["bookId"]), "pos": int(r["pos"])} for r in rows]
+        render_input = [
+            {
+                "bookId": int(r["bookId"]),
+                "pos": int(r["pos"]),
+                "tokenLen": int(r.get("tokenLen") or 1),
+            }
+            for r in rows
+        ]
         rendered_rows, unresolved_render = _render_book_pos_rows(
             render_input, int(req.before), int(req.after)
         )
@@ -966,6 +2672,56 @@ def _run_geo_namespace_near_or(
     return out
 
 
+def _count_geo_namespace_near_or(
+    req: OrQueryRequest,
+    ns_db_path: str,
+    book_ids: List[int],
+    plain_term_groups: List[List[str]],
+    geo_key: Optional[Tuple[str, str]],
+) -> Dict[str, Any]:
+    anchor_positions = _load_geo_anchor_positions(ns_db_path, book_ids, geo_key)
+    if not anchor_positions:
+        raise HTTPException(status_code=404, detail="No geo anchor positions for requested namespace/filter")
+    total = 0
+    docs = 0
+    target_books = set(anchor_positions.keys())
+    for shard_index, path in enumerate(CONFIG.postings_dbs):
+        con = connect_postings(path, CONFIG.ext_path, shard_sidecar_path(path, shard_index))
+        conw = connect_words(shard_words_path(path))
+        try:
+            cur = con.cursor()
+            curw = conw.cursor()
+            cf_groups = _resolve_term_groups(
+                curw, None, plain_term_groups, int(req.maxVariants), symmetric=False
+            )
+            if not cf_groups:
+                continue
+            shard_book_rows = cur.execute("SELECT book_id FROM urns").fetchall()
+            shard_books = [int(r[0]) for r in shard_book_rows if int(r[0]) in target_books]
+            for book_id in shard_books:
+                group_pos = group_positions_for_book(
+                    cur, cf_groups, int(book_id), req.schema or CONFIG.default_schema
+                )
+                if not group_pos or any(not g for g in group_pos):
+                    continue
+                near_pos = near_positions_from_groups(
+                    [anchor_positions[int(book_id)], *group_pos],
+                    -int(req.before),
+                    int(req.after),
+                    exclude_self=False,
+                )
+                if not near_pos:
+                    continue
+                total += len(near_pos)
+                docs += 1
+        finally:
+            con.close()
+            conw.close()
+    if total <= 0:
+        raise HTTPException(status_code=404, detail="No near hits for #geo + term groups")
+    return {"total": int(total), "docs": int(docs)}
+
+
 def _attach_geo_surface_fragments(rows: List[Dict[str, Any]]) -> None:
     """
     Keep namespace/geo responses independent from fulltext internals.
@@ -981,9 +2737,53 @@ def _attach_geo_surface_fragments(rows: List[Dict[str, Any]]) -> None:
             row["fragHtml"] = ""
 
 
-def _render_book_pos_rows(rows: List[Dict[str, int]], before: int, after: int) -> Tuple[List[Dict[str, object]], List[Dict[str, int]]]:
+def _build_text_fragment_row(
+    cur: sqlite3.Cursor,
+    curw: sqlite3.Cursor,
+    book_id: int,
+    seq_start: int,
+    before: int,
+    after: int,
+    render_mode: str = "legacy",
+    span_len: int = 1,
+) -> Dict[str, object]:
+    if render_mode == "structured":
+        return fetch_window_structured(
+            cur,
+            curw,
+            int(book_id),
+            int(seq_start),
+            int(before),
+            int(after),
+            span_len=max(int(span_len or 1), 1),
+        )
+    frag = fetch_window(
+        cur,
+        curw,
+        int(book_id),
+        int(seq_start),
+        int(before),
+        int(after),
+        span_len=max(int(span_len or 1), 1),
+    )
+    return {"bookId": int(book_id), "pos": int(seq_start), "frag": frag}
+
+
+def _render_book_pos_rows(
+    rows: List[Dict[str, int]],
+    before: int,
+    after: int,
+    render_mode: str = "legacy",
+) -> Tuple[List[Dict[str, object]], List[Dict[str, int]]]:
     out_rows: List[Dict[str, object]] = []
-    unresolved = [{"bookId": int(r["bookId"]), "pos": int(r["pos"])} for r in rows]
+    unresolved = [
+        {
+            "bookId": int(r["bookId"]),
+            "pos": int(r["pos"]),
+            "tokenLen": max(int(r.get("tokenLen") or 1), 1),
+        }
+        for r in rows
+    ]
     for shard_index, path in enumerate(CONFIG.postings_dbs):
         if not unresolved:
             break
@@ -995,6 +2795,7 @@ def _render_book_pos_rows(rows: List[Dict[str, int]], before: int, after: int) -
         for row in unresolved:
             book_id = int(row["bookId"])
             pos = int(row["pos"])
+            token_len = max(int(row.get("tokenLen") or 1), 1)
             exists = cur.execute(
                 "SELECT 1 FROM urns WHERE book_id = ? LIMIT 1",
                 (book_id,),
@@ -1002,8 +2803,18 @@ def _render_book_pos_rows(rows: List[Dict[str, int]], before: int, after: int) -
             if not exists:
                 next_unresolved.append(row)
                 continue
-            frag = fetch_window(cur, curw, book_id, pos, before, after)
-            out_rows.append({"bookId": book_id, "pos": pos, "frag": frag})
+            out_rows.append(
+                _build_text_fragment_row(
+                    cur,
+                    curw,
+                    book_id,
+                    pos,
+                    before,
+                    after,
+                    render_mode=render_mode,
+                    span_len=token_len,
+                )
+            )
         con.close()
         conw.close()
         unresolved = next_unresolved
@@ -1011,6 +2822,7 @@ def _render_book_pos_rows(rows: List[Dict[str, int]], before: int, after: int) -
 
 
 def _run_annotation_namespace_query_or(req: OrQueryRequest) -> Optional[Dict[str, Any]]:
+    perf_ns: Dict[str, Any] = {}
     try:
         namespace, namespace_value, has_non_namespace_terms = parse_namespace_query(
             req.terms, req.termGroups
@@ -1043,12 +2855,26 @@ def _run_annotation_namespace_query_or(req: OrQueryRequest) -> Optional[Dict[str
             base_dir=CONFIG.annotation_base_dir,
         )
         filter_ids = req.filterIds if req.useFilter and req.filterIds else None
-        book_ids = resolve_namespace_books(
-            CONFIG.annotation_registry_db,
-            namespace,
-            filter_ids,
-            int(req.docSamples or 0),
-        )
+        if filter_ids:
+            # Fast path: when caller already scopes books, avoid registry book-map scan.
+            seen: set[int] = set()
+            book_ids = []
+            for raw_id in filter_ids:
+                bid = int(raw_id)
+                if bid in seen:
+                    continue
+                seen.add(bid)
+                book_ids.append(bid)
+            doc_samples = _effective_namespace_doc_samples(namespace_value, req.docSamples)
+            if doc_samples > 0 and len(book_ids) > doc_samples:
+                book_ids = random.sample(book_ids, doc_samples)
+        else:
+            book_ids = resolve_namespace_books(
+                CONFIG.annotation_registry_db,
+                namespace,
+                filter_ids,
+                _effective_namespace_doc_samples(namespace_value, req.docSamples),
+            )
     except ValueError as exc:
         raise HTTPException(status_code=404, detail=str(exc)) from exc
     except FileNotFoundError as exc:
@@ -1070,7 +2896,7 @@ def _run_annotation_namespace_query_or(req: OrQueryRequest) -> Optional[Dict[str
         if namespace_value and not geo_key:
             raise HTTPException(
                 status_code=400,
-                detail="Near mode with #geo:value expects geoname id (e.g. #geo:3143244) or explicit geonames/internal prefix",
+                detail="Near mode with #geo:value expects an id (e.g. #geo:3143244) or explicit geonames/internal/nb prefix",
             )
         return _run_geo_namespace_near_or(
             req,
@@ -1080,17 +2906,101 @@ def _run_annotation_namespace_query_or(req: OrQueryRequest) -> Optional[Dict[str
             geo_key,
         )
 
-    rows = fetch_geo_spans(
-        ns_meta["db_path"],
-        book_ids,
-        int(req.totalLimit),
-        place_text_filter=namespace_value,
-    )
+    if namespace == "geo" and geo_key:
+        geo_fast_t0 = time.perf_counter()
+        try:
+            fast_rows_t0 = time.perf_counter()
+            fast_rows = _fetch_geo_rows_by_key_mentions_fast(
+                ns_meta["db_path"], book_ids, geo_key, int(req.totalLimit)
+            )
+            perf_ns["geo_fast_mentions_ms"] = round((time.perf_counter() - fast_rows_t0) * 1000.0, 3)
+            if fast_rows is not None:
+                rows = fast_rows
+                perf_ns["geo_fast_strategy"] = "mentions_direct"
+            else:
+                anchor_t0 = time.perf_counter()
+                anchor_positions = _load_geo_anchor_positions(ns_meta["db_path"], book_ids, geo_key)
+                perf_ns["geo_anchor_ms"] = round((time.perf_counter() - anchor_t0) * 1000.0, 3)
+                rows_hits: List[Tuple[int, int]] = []
+                max_hits = int(req.totalLimit)
+                for bid in sorted(anchor_positions.keys()):
+                    arr = anchor_positions[bid]
+                    if max_hits > 0:
+                        remaining = max_hits - len(rows_hits)
+                        if remaining <= 0:
+                            break
+                        if len(arr) <= remaining:
+                            rows_hits.extend((int(bid), int(pos)) for pos in arr)
+                        else:
+                            rows_hits.extend((int(bid), int(pos)) for pos in arr[:remaining])
+                            break
+                    else:
+                        rows_hits.extend((int(bid), int(pos)) for pos in arr)
+                place_t0 = time.perf_counter()
+                place_meta = _lookup_geo_place_meta(ns_meta["db_path"], geo_key)
+                perf_ns["geo_place_meta_ms"] = round((time.perf_counter() - place_t0) * 1000.0, 3)
+                meta_t0 = time.perf_counter()
+                meta_map = _lookup_geo_span_meta(ns_meta["db_path"], rows_hits, geo_key)
+                perf_ns["geo_span_meta_ms"] = round((time.perf_counter() - meta_t0) * 1000.0, 3)
+                place_defaults = place_meta.get("place") or {}
+                rows = []
+                for book_id, pos in rows_hits:
+                    meta = meta_map.get((book_id, pos), {})
+                    row_place = meta.get("place") or {}
+                    rows.append(
+                        {
+                            "bookId": int(book_id),
+                            "seqStart": int(pos),
+                            "tokenLen": int(meta.get("tokenLen") or 1),
+                            "placeKeyType": meta.get("placeKeyType") or geo_key[0],
+                            "placeKey": meta.get("placeKey") or geo_key[1],
+                            "placeId": meta.get("placeId") or place_meta.get("placeId"),
+                            "variantId": meta.get("variantId"),
+                            "surfaceText": meta.get("surfaceText"),
+                            "method": "geo_postings_fastpath",
+                            "score": None,
+                            "geonamesId": meta.get("geonamesId") or place_meta.get("geonamesId"),
+                            "place": {
+                                "canonicalName": row_place.get("canonicalName") or place_defaults.get("canonicalName"),
+                                "geonamesId": row_place.get("geonamesId") or place_meta.get("geonamesId"),
+                                "lat": row_place.get("lat")
+                                if row_place.get("lat") is not None
+                                else place_defaults.get("lat"),
+                                "lon": row_place.get("lon")
+                                if row_place.get("lon") is not None
+                                else place_defaults.get("lon"),
+                                "country": row_place.get("country") or place_defaults.get("country"),
+                                "variantText": row_place.get("variantText") or place_defaults.get("variantText"),
+                            },
+                        }
+                    )
+                perf_ns["geo_fast_strategy"] = "postings_plus_meta"
+        except HTTPException as exc:
+            # Fallback for environments without roaring decode support.
+            if "pyroaring" not in str(getattr(exc, "detail", "")).lower():
+                raise
+            rows = fetch_geo_spans_by_key(
+                ns_meta["db_path"],
+                book_ids,
+                geo_key[0],
+                geo_key[1],
+                int(req.totalLimit),
+            )
+            perf_ns["geo_fast_strategy"] = "spans_by_key_fallback"
+        perf_ns["geo_fast_total_ms"] = round((time.perf_counter() - geo_fast_t0) * 1000.0, 3)
+    else:
+        rows = fetch_geo_spans(
+            ns_meta["db_path"],
+            book_ids,
+            int(req.totalLimit),
+            place_text_filter=namespace_value,
+        )
     fallback_mode: Optional[str] = None
     if (
         not rows
         and namespace == "geo"
         and namespace_value
+        and not geo_key
         and CONFIG.imagination_db
         and Path(CONFIG.imagination_db).exists()
     ):
@@ -1125,7 +3035,13 @@ def _run_annotation_namespace_query_or(req: OrQueryRequest) -> Optional[Dict[str
             pos = int(row["pos"])
             if pos < 0:
                 continue
-            render_input.append({"bookId": int(row["bookId"]), "pos": pos})
+            render_input.append(
+                {
+                    "bookId": int(row["bookId"]),
+                    "pos": pos,
+                    "tokenLen": int(row.get("tokenLen") or 1),
+                }
+            )
         if render_input:
             rendered_rows, unresolved_render = _render_book_pos_rows(
                 render_input, int(req.before), int(req.after)
@@ -1142,6 +3058,250 @@ def _run_annotation_namespace_query_or(req: OrQueryRequest) -> Optional[Dict[str
         out["render_unresolved"] = unresolved_render
     if fallback_mode:
         out["coverageMode"] = fallback_mode
+    if PROFILE_NEAR and perf_ns:
+        perf_ns["rows"] = len(rows)
+        out["_perf"] = perf_ns
+    return out
+
+
+def _resolve_geo_namespace_meta(namespace: str) -> Tuple[Dict[str, Any], str]:
+    if not CONFIG.annotation_registry_db:
+        raise HTTPException(
+            status_code=500,
+            detail="annotation_registry_db is not configured in POSTINGS_CONFIG",
+        )
+    try:
+        ns_meta = resolve_namespace(
+            CONFIG.annotation_registry_db,
+            namespace,
+            base_dir=CONFIG.annotation_base_dir,
+        )
+    except ValueError as exc:
+        raise HTTPException(status_code=404, detail=str(exc)) from exc
+    except FileNotFoundError as exc:
+        raise HTTPException(status_code=500, detail=str(exc)) from exc
+    resolver = str(ns_meta.get("resolver", "")).casefold()
+    if resolver != "geo_resolver":
+        raise HTTPException(
+            status_code=400,
+            detail=f"Unsupported resolver for #{namespace}: {resolver}",
+        )
+    return ns_meta, resolver
+
+
+def _run_geo_nb_rebuild(annotation_db_path: str, drop_existing: bool = False) -> Dict[str, Any]:
+    script_candidates = [
+        Path(__file__).resolve().parent.parent / "build_geo_nb_contract_v1.py",
+        Path("/app/build_geo_nb_contract_v1.py"),
+    ]
+    script_path = next((p for p in script_candidates if p.exists()), None)
+    if script_path is None:
+        raise HTTPException(
+            status_code=500,
+            detail="build_geo_nb_contract_v1.py not found; cannot rebuild resolved geo tables",
+        )
+    cmd = [
+        "python",
+        str(script_path),
+        "--annotation-db",
+        annotation_db_path,
+    ]
+    if drop_existing:
+        cmd.append("--drop-existing")
+    try:
+        proc = subprocess.run(
+            cmd,
+            check=False,
+            capture_output=True,
+            text=True,
+            timeout=900,
+        )
+    except subprocess.TimeoutExpired as exc:
+        raise HTTPException(status_code=500, detail=f"Geo rebuild timed out: {exc}") from exc
+    if proc.returncode != 0:
+        stderr_text = (proc.stderr or "").strip()
+        stdout_text = (proc.stdout or "").strip()
+        detail = stderr_text or stdout_text or f"geo rebuild failed (exit code {proc.returncode})"
+        raise HTTPException(status_code=500, detail=detail)
+    return {
+        "script": str(script_path),
+        "command": cmd,
+        "stdout": (proc.stdout or "").strip(),
+    }
+
+
+def _ensure_geo_edit_tables(cur: sqlite3.Cursor) -> None:
+    edits_table_ok = cur.execute(
+        "SELECT 1 FROM sqlite_master WHERE type='table' AND name='geo_annotations_edits' LIMIT 1"
+    ).fetchone()
+    if not edits_table_ok:
+        raise HTTPException(
+            status_code=500,
+            detail="geo_annotations_edits table is missing; initialize annotation_geo_nb schema first",
+        )
+    places_ok = cur.execute(
+        "SELECT 1 FROM sqlite_master WHERE type='table' AND name='nb_places' LIMIT 1"
+    ).fetchone()
+    if not places_ok:
+        raise HTTPException(
+            status_code=500,
+            detail="nb_places table is missing; initialize annotation_geo_nb schema first",
+        )
+
+
+def _insert_geo_edit_row(
+    cur: sqlite3.Cursor,
+    book_id: int,
+    seq_start: int,
+    action: str,
+    nb_place_id: Optional[int],
+    note: Optional[str],
+    editor: Optional[str],
+) -> int:
+    if action == "set_place":
+        if nb_place_id is None:
+            raise HTTPException(status_code=400, detail="nbPlaceId is required when action='set_place'")
+        place_row = cur.execute(
+            "SELECT 1 FROM nb_places WHERE nb_place_id = ? LIMIT 1",
+            (int(nb_place_id),),
+        ).fetchone()
+        if not place_row:
+            raise HTTPException(status_code=404, detail=f"nb_place_id not found: {int(nb_place_id)}")
+
+    cur.execute(
+        """
+        INSERT INTO geo_annotations_edits(
+          dhlabid, seq_start, action, nb_place_id, note, editor
+        )
+        VALUES (?, ?, ?, ?, ?, ?)
+        """,
+        (
+            int(book_id),
+            int(seq_start),
+            str(action),
+            int(nb_place_id) if nb_place_id is not None and action == "set_place" else None,
+            note,
+            editor,
+        ),
+    )
+    return int(cur.lastrowid)
+
+
+@app.post("/api/geo/book/sequence")
+def api_geo_book_sequence(req: GeoBookSequenceRequest) -> Dict[str, Any]:
+    namespace = (req.namespace or "geo").strip().casefold() or "geo"
+    ns_meta, resolver = _resolve_geo_namespace_meta(namespace)
+    rows = fetch_geo_book_sequence(
+        ns_meta["db_path"],
+        int(req.bookId),
+        int(req.limit),
+    )
+    return {
+        "namespace": namespace,
+        "resolver": resolver,
+        "bookId": int(req.bookId),
+        "rows": rows,
+        "count": len(rows),
+    }
+
+
+@app.post("/api/geo/annotation/edit")
+def api_geo_annotation_edit(req: GeoAnnotationEditRequest) -> Dict[str, Any]:
+    namespace = (req.namespace or "geo").strip().casefold() or "geo"
+    ns_meta, resolver = _resolve_geo_namespace_meta(namespace)
+
+    geo_db_path = str(ns_meta["db_path"])
+    con = sqlite3.connect(geo_db_path)
+    try:
+        cur = con.cursor()
+        _ensure_geo_edit_tables(cur)
+        edit_id = _insert_geo_edit_row(
+            cur=cur,
+            book_id=int(req.bookId),
+            seq_start=int(req.seqStart),
+            action=str(req.action),
+            nb_place_id=(int(req.nbPlaceId) if req.nbPlaceId is not None else None),
+            note=req.note,
+            editor=req.editor,
+        )
+        con.commit()
+    finally:
+        con.close()
+
+    rebuild_info: Optional[Dict[str, Any]] = None
+    if bool(req.rebuild):
+        rebuild_info = _run_geo_nb_rebuild(geo_db_path, drop_existing=bool(req.dropExisting))
+
+    out: Dict[str, Any] = {
+        "ok": True,
+        "namespace": namespace,
+        "resolver": resolver,
+        "dbPath": geo_db_path,
+        "edit": {
+            "editId": edit_id,
+            "bookId": int(req.bookId),
+            "seqStart": int(req.seqStart),
+            "action": str(req.action),
+            "nbPlaceId": int(req.nbPlaceId) if req.nbPlaceId is not None and req.action == "set_place" else None,
+            "note": req.note,
+            "editor": req.editor,
+        },
+    }
+    if rebuild_info is not None:
+        out["rebuild"] = rebuild_info
+    return out
+
+
+@app.post("/api/geo/annotation/edit/batch")
+def api_geo_annotation_edit_batch(req: GeoAnnotationBatchEditRequest) -> Dict[str, Any]:
+    namespace = (req.namespace or "geo").strip().casefold() or "geo"
+    ns_meta, resolver = _resolve_geo_namespace_meta(namespace)
+
+    geo_db_path = str(ns_meta["db_path"])
+    con = sqlite3.connect(geo_db_path)
+    inserted: List[Dict[str, Any]] = []
+    try:
+        cur = con.cursor()
+        _ensure_geo_edit_tables(cur)
+        for item in req.edits:
+            edit_id = _insert_geo_edit_row(
+                cur=cur,
+                book_id=int(item.bookId),
+                seq_start=int(item.seqStart),
+                action=str(item.action),
+                nb_place_id=(int(item.nbPlaceId) if item.nbPlaceId is not None else None),
+                note=item.note,
+                editor=item.editor,
+            )
+            inserted.append(
+                {
+                    "editId": edit_id,
+                    "bookId": int(item.bookId),
+                    "seqStart": int(item.seqStart),
+                    "action": str(item.action),
+                    "nbPlaceId": int(item.nbPlaceId) if item.nbPlaceId is not None and item.action == "set_place" else None,
+                    "note": item.note,
+                    "editor": item.editor,
+                }
+            )
+        con.commit()
+    finally:
+        con.close()
+
+    rebuild_info: Optional[Dict[str, Any]] = None
+    if bool(req.rebuild):
+        rebuild_info = _run_geo_nb_rebuild(geo_db_path, drop_existing=bool(req.dropExisting))
+
+    out: Dict[str, Any] = {
+        "ok": True,
+        "namespace": namespace,
+        "resolver": resolver,
+        "dbPath": geo_db_path,
+        "count": len(inserted),
+        "edits": inserted,
+    }
+    if rebuild_info is not None:
+        out["rebuild"] = rebuild_info
     return out
 
 
@@ -1151,9 +3311,9 @@ class NearFragmentsRequest(BaseModel):
     window: int = Field(5, ge=1, le=50)
     before: int = Field(5, ge=1, le=50)
     after: int = Field(5, ge=1, le=50)
-    perBook: int = Field(3, ge=1, le=20)
+    perBook: int = Field(3, ge=0, le=20)
     docSamples: Optional[int] = Field(None, ge=0, le=50000)
-    totalLimit: int = Field(200, ge=1, le=5000)
+    totalLimit: int = Field(200, ge=0, le=5000)
     schema: Optional[str] = None
     symmetric: bool = True
     excludeSelf: bool = False
@@ -1164,6 +3324,7 @@ class NearFragmentsRequest(BaseModel):
     engine: Optional[str] = None
     parallelShards: Optional[bool] = None
     matchMode: Optional[str] = None
+    renderMode: Literal["legacy", "structured"] = "legacy"
 
 
 class CollocationsRequest(BaseModel):
@@ -1194,6 +3355,7 @@ class CorpusFilters(BaseModel):
 class CorpusBuildRequest(BaseModel):
     filters: Optional[CorpusFilters] = None
     contentKeywords: Optional[List[str]] = None
+    contentOperator: Optional[str] = "AND"
     baseCorpus: Optional[List[int]] = None
 
 class PlacesRequest(BaseModel):
@@ -1243,8 +3405,8 @@ def concordance(req: ConcordanceRequest):
     postings_paths = CONFIG.postings_dbs
     max_variants = 1000
 
-    def run_once(doc_samples: Optional[int]) -> Tuple[List[Tuple[int, int, str]], bool, bool]:
-        local_rows: List[Tuple[int, int, str]] = []
+    def run_once(doc_samples: Optional[int]) -> Tuple[List[Tuple[int, int, object]], bool, bool]:
+        local_rows: List[Tuple[int, int, object]] = []
         local_word_a_found = False
         local_word_b_found = True
         for shard_index, path in enumerate(postings_paths):
@@ -1312,6 +3474,7 @@ def concordance(req: ConcordanceRequest):
                         off_min,
                         off_max,
                         req.excludeSelf,
+                        req.renderMode,
                     )
                 )
             else:
@@ -1346,6 +3509,7 @@ def concordance(req: ConcordanceRequest):
                             req.after,
                             use_filter,
                             filter_json,
+                            req.renderMode,
                         )
                     )
                 else:
@@ -1359,6 +3523,7 @@ def concordance(req: ConcordanceRequest):
                             req.after,
                             use_filter,
                             filter_json,
+                            req.renderMode,
                         )
                     )
             con.close()
@@ -1377,7 +3542,30 @@ def concordance(req: ConcordanceRequest):
         raise HTTPException(status_code=404, detail="Word B not found")
     if req.totalLimit and len(rows) > req.totalLimit:
         rows = rows[: req.totalLimit]
-    return {"rows": [{"bookId": b, "pos": p, "frag": f} for b, p, f in rows]}
+    if req.renderMode == "structured":
+        structured_rows: List[Dict[str, object]] = []
+        for book_id, pos, payload in rows:
+            if isinstance(payload, dict):
+                row = dict(payload)
+            else:
+                row = {
+                    "bookId": int(book_id),
+                    "seqStart": int(pos),
+                    "len": 1,
+                    "before": "",
+                    "hit": str(payload),
+                    "after": "",
+                    "surface": str(payload),
+                }
+            row.setdefault("bookId", int(book_id))
+            row.setdefault("seqStart", int(pos))
+            row.setdefault("len", 1)
+            structured_rows.append(row)
+        return {"renderMode": req.renderMode, "rows": structured_rows}
+    return {
+        "renderMode": req.renderMode,
+        "rows": [{"bookId": b, "pos": p, "frag": f} for b, p, f in rows],
+    }
 
 
 @app.post("/near_frequency")
@@ -1511,6 +3699,7 @@ def _resolve_term_groups(
     max_variants: int,
     symmetric: bool,
 ) -> List[List[int]]:
+    # Each inner group is OR; groups are combined as AND across the query.
     base_terms = terms or []
     raw_groups = term_groups if term_groups else [[t] for t in base_terms]
     term_infos: List[Tuple[List[int], int]] = []
@@ -1601,6 +3790,22 @@ def _resolve_doc_samples(
     if doc_samples is None:
         return _sample_book_target(total_limit, per_book)
     return int(doc_samples)
+
+
+def _auto_doc_sample_threshold(total_limit: int, per_book: int) -> int:
+    sample_target = _sample_book_target(total_limit, per_book)
+    return max(AUTO_DOC_SAMPLE_MIN_CANDIDATES, sample_target * AUTO_DOC_SAMPLE_MULTIPLIER)
+
+
+def _effective_namespace_doc_samples(
+    namespace_value: Optional[str], requested_doc_samples: Optional[int]
+) -> int:
+    # For targeted namespace queries like #geo:geonames:<id>, resolve the concrete
+    # annotation key first; sampling the namespace coverage set up front turns
+    # sparse lookups into a random "needle in a haystack" search.
+    if namespace_value:
+        return 0
+    return int(requested_doc_samples or 0)
 
 
 def _has_sql_function(cur, fn_name: str) -> bool:
@@ -1701,9 +3906,13 @@ def _apply_docpost_filter_and_sample(
             filter_ids = docpost_ids
 
     sample_n = _resolve_doc_samples(doc_samples, total_limit, per_book)
+    auto_sampling = doc_samples is None
     should_sample = sample_n > 0 and (
         not sample_only_when_no_docpost or not has_docpost_prefilter
     )
+    if auto_sampling and should_sample and filter_ids is not None:
+        if len(filter_ids) <= _auto_doc_sample_threshold(total_limit, per_book):
+            should_sample = False
     if should_sample:
         if filter_ids:
             if len(filter_ids) > sample_n:
@@ -1731,6 +3940,241 @@ def _resolve_match_mode(match_mode: Optional[str]) -> str:
     if mode not in {"near", "sequence"}:
         raise HTTPException(status_code=400, detail="matchMode must be one of: near, sequence")
     return mode
+
+
+def _near_fragments_request_from_query(req: NearQueryRequest) -> NearFragmentsRequest:
+    return NearFragmentsRequest(
+        terms=req.terms,
+        termGroups=req.termGroups,
+        window=req.window,
+        before=req.before,
+        after=req.after,
+        perBook=req.perBook,
+        docSamples=req.docSamples,
+        totalLimit=req.totalLimit,
+        schema=req.schema,
+        symmetric=req.symmetric,
+        excludeSelf=req.excludeSelf,
+        useFilter=req.useFilter,
+        filterIds=req.filterIds,
+        maxVariants=req.maxVariants,
+        includeFragments=(req.mode == "render"),
+        engine=req.engine,
+        parallelShards=req.parallelShards,
+        matchMode=req.matchMode,
+        renderMode=req.renderMode,
+    )
+
+
+def _or_query_request_from_near_query(req: NearQueryRequest) -> OrQueryRequest:
+    return OrQueryRequest(
+        terms=req.terms or [],
+        termGroups=req.termGroups,
+        before=req.before,
+        after=req.after,
+        perBook=req.perBook,
+        docSamples=req.docSamples,
+        totalLimit=req.totalLimit,
+        schema=req.schema,
+        useFilter=req.useFilter,
+        filterIds=req.filterIds,
+        maxVariants=req.maxVariants,
+        parallelShards=req.parallelShards,
+        renderHits=(req.mode == "render"),
+        renderMode=req.renderMode,
+    )
+
+
+def _normalize_namespace_near_response(
+    req: NearQueryRequest, out: Dict[str, Any]
+) -> Dict[str, Any]:
+    rows_in = out.get("rows", [])
+    rows = [dict(r) for r in rows_in] if isinstance(rows_in, list) else []
+    if req.mode == "count":
+        docs = len({int(r["bookId"]) for r in rows if "bookId" in r})
+        res: Dict[str, Any] = {"total": len(rows), "docs": docs}
+        if "_perf" in out:
+            res["_perf"] = out["_perf"]
+        return res
+    if req.mode == "render":
+        rendered_map: Dict[Tuple[int, int], str] = {}
+        rendered_rows = out.get("rendered", [])
+        if isinstance(rendered_rows, list):
+            for r in rendered_rows:
+                if not isinstance(r, dict):
+                    continue
+                if "bookId" not in r or "pos" not in r:
+                    continue
+                rendered_map[(int(r["bookId"]), int(r["pos"]))] = str(r.get("frag") or "")
+        for row in rows:
+            if "bookId" in row and "pos" in row:
+                row["frag"] = rendered_map.get((int(row["bookId"]), int(row["pos"])), "")
+            else:
+                row["frag"] = ""
+    res = {"rows": rows}
+    for key in ("namespace", "resolver", "coverageMode", "_perf"):
+        if key in out:
+            res[key] = out[key]
+    return res
+
+
+def _count_annotation_namespace_query_or(req: OrQueryRequest) -> Optional[Dict[str, Any]]:
+    try:
+        namespace, namespace_value, has_non_namespace_terms = parse_namespace_query(
+            req.terms, req.termGroups
+        )
+    except ValueError as exc:
+        raise HTTPException(status_code=400, detail=str(exc)) from exc
+    if not namespace:
+        return None
+    plain_terms = _extract_plain_terms_from_or_query(req)
+    plain_term_groups = _extract_plain_term_groups_from_or_query(req)
+    if has_non_namespace_terms and not plain_terms:
+        raise HTTPException(status_code=400, detail="Invalid non-namespace term(s) in request")
+    near_term = plain_terms[0] if plain_terms else None
+    if near_term and namespace_value and not plain_term_groups:
+        raise HTTPException(
+            status_code=400,
+            detail="Use either #namespace:value OR #namespace plus one plain term, not both",
+        )
+    if not CONFIG.annotation_registry_db:
+        raise HTTPException(
+            status_code=500,
+            detail="annotation_registry_db is not configured in POSTINGS_CONFIG",
+        )
+    try:
+        ns_meta = resolve_namespace(
+            CONFIG.annotation_registry_db,
+            namespace,
+            base_dir=CONFIG.annotation_base_dir,
+        )
+        filter_ids = req.filterIds if req.useFilter and req.filterIds else None
+        if filter_ids:
+            seen: set[int] = set()
+            book_ids = []
+            for raw_id in filter_ids:
+                bid = int(raw_id)
+                if bid in seen:
+                    continue
+                seen.add(bid)
+                book_ids.append(bid)
+            doc_samples = _effective_namespace_doc_samples(namespace_value, req.docSamples)
+            if doc_samples > 0 and len(book_ids) > doc_samples:
+                book_ids = random.sample(book_ids, doc_samples)
+        else:
+            book_ids = resolve_namespace_books(
+                CONFIG.annotation_registry_db,
+                namespace,
+                filter_ids,
+                _effective_namespace_doc_samples(namespace_value, req.docSamples),
+            )
+    except ValueError as exc:
+        raise HTTPException(status_code=404, detail=str(exc)) from exc
+    except FileNotFoundError as exc:
+        raise HTTPException(status_code=500, detail=str(exc)) from exc
+    if not book_ids:
+        raise HTTPException(status_code=404, detail=f"No covered books for #{namespace}")
+    resolver = str(ns_meta.get("resolver", "")).casefold()
+    if resolver != "geo_resolver":
+        raise HTTPException(
+            status_code=400,
+            detail=f"Unsupported resolver for #{namespace}: {resolver}",
+        )
+    geo_key = _try_parse_geo_key(namespace_value) if namespace == "geo" else None
+    if plain_term_groups:
+        if namespace != "geo":
+            raise HTTPException(status_code=400, detail="Near mode is only supported for #geo namespace")
+        if namespace_value and not geo_key:
+            raise HTTPException(
+                status_code=400,
+                detail="Near mode with #geo:value expects an id (e.g. #geo:3143244) or explicit geonames/internal/nb prefix",
+            )
+        return _count_geo_namespace_near_or(
+            req,
+            ns_meta["db_path"],
+            book_ids,
+            plain_term_groups,
+            geo_key,
+        )
+    if namespace == "geo":
+        try:
+            if geo_key:
+                anchor_positions = _load_geo_anchor_positions(ns_meta["db_path"], book_ids, geo_key)
+            elif namespace_value:
+                rows = fetch_geo_spans(
+                    ns_meta["db_path"],
+                    book_ids,
+                    None,
+                    place_text_filter=namespace_value,
+                )
+                if not rows and CONFIG.imagination_db and Path(CONFIG.imagination_db).exists():
+                    rows = fetch_geo_books_from_imagination(
+                        CONFIG.imagination_db,
+                        namespace_value,
+                        filter_ids if filter_ids else None,
+                        None,
+                    )
+                if not rows:
+                    raise HTTPException(
+                        status_code=404,
+                        detail=f'No annotation hits for #{namespace}:"{namespace_value}"',
+                    )
+                return {
+                    "total": len(rows),
+                    "docs": len({int(r["bookId"]) for r in rows if "bookId" in r}),
+                }
+            else:
+                anchor_positions = _load_geo_anchor_positions(ns_meta["db_path"], book_ids, None)
+        except HTTPException as exc:
+            if "pyroaring" not in str(getattr(exc, "detail", "")).lower():
+                raise
+            rows = (
+                fetch_geo_spans_by_key(ns_meta["db_path"], book_ids, geo_key[0], geo_key[1], None)
+                if geo_key
+                else fetch_geo_spans(ns_meta["db_path"], book_ids, None)
+            )
+            if not rows:
+                raise HTTPException(status_code=404, detail=f"No annotation hits for #{namespace}")
+            return {
+                "total": len(rows),
+                "docs": len({int(r["bookId"]) for r in rows if "bookId" in r}),
+            }
+        total = sum(len(arr) for arr in anchor_positions.values())
+        docs = len(anchor_positions)
+        if total <= 0:
+            if namespace_value:
+                raise HTTPException(
+                    status_code=404,
+                    detail=f'No annotation hits for #{namespace}:"{namespace_value}"',
+                )
+            raise HTTPException(status_code=404, detail=f"No annotation hits for #{namespace}")
+        return {"total": int(total), "docs": int(docs)}
+    out = _run_annotation_namespace_query_or(req)
+    if out is None:
+        return None
+    rows = out.get("rows", [])
+    return {
+        "total": len(rows) if isinstance(rows, list) else 0,
+        "docs": len({int(r["bookId"]) for r in rows if isinstance(r, dict) and "bookId" in r})
+        if isinstance(rows, list)
+        else 0,
+    }
+
+
+def _run_namespace_near_query(req: NearQueryRequest) -> Optional[Dict[str, Any]]:
+    try:
+        namespace, _, _ = parse_namespace_query(req.terms, req.termGroups)
+    except ValueError as exc:
+        raise HTTPException(status_code=400, detail=str(exc)) from exc
+    if not namespace:
+        return None
+    or_req = _or_query_request_from_near_query(req)
+    if req.mode == "count":
+        return _count_annotation_namespace_query_or(or_req)
+    out = _run_annotation_namespace_query_or(or_req)
+    if out is None:
+        return None
+    return _normalize_namespace_near_response(req, out)
 
 
 def _run_julia_probe_payload(payload: Dict[str, Any]) -> Dict[str, Any]:
@@ -1942,6 +4386,8 @@ def _near_fragments_roaring_worker(task: Dict[str, Any]) -> Dict[str, Any]:
         include_fragments = bool(task["include_fragments"])
         exclude_self = bool(task.get("exclude_self", False))
         match_mode = str(task.get("match_mode", "near"))
+        render_mode = str(task.get("render_mode", "legacy"))
+        span_len = max(int(task.get("span_len") or 1), 1)
         filter_ids = task.get("filter_ids")
         base_filter_ids = task.get("base_filter_ids")
         doc_samples = int(task.get("doc_samples") or 0)
@@ -1963,14 +4409,26 @@ def _near_fragments_roaring_worker(task: Dict[str, Any]) -> Dict[str, Any]:
             near_hits = random.sample(near_hits, doc_samples)
         rows: List[Dict[str, object]] = []
         for book_id, positions in near_hits:
-            sampled = positions if len(positions) <= per_book else random.sample(positions, per_book)
+            if per_book <= 0 or len(positions) <= per_book:
+                sampled = positions
+            else:
+                sampled = random.sample(positions, per_book)
             for ipos in sampled:
-                frag = (
-                    fetch_window(cur, curw, book_id, int(ipos), before, after)
-                    if include_fragments
-                    else ""
-                )
-                rows.append({"bookId": book_id, "pos": int(ipos), "frag": frag})
+                if include_fragments:
+                    rows.append(
+                        _build_text_fragment_row(
+                            cur,
+                            curw,
+                            book_id,
+                            int(ipos),
+                            before,
+                            after,
+                            render_mode=render_mode,
+                            span_len=span_len,
+                        )
+                    )
+                else:
+                    rows.append({"bookId": book_id, "pos": int(ipos)})
                 if total_limit and len(rows) >= total_limit:
                     break
             if total_limit and len(rows) >= total_limit:
@@ -2020,6 +4478,7 @@ def _or_query_worker(task: Dict[str, Any]) -> Dict[str, Any]:
             int(task["after"]),
             use_filter,
             filter_json,
+            str(task.get("render_mode", "legacy")),
         )
         local_limit = int(task.get("total_limit") or 0)
         if local_limit and len(rows) > local_limit:
@@ -2036,11 +4495,23 @@ def _or_query_worker(task: Dict[str, Any]) -> Dict[str, Any]:
 
 @app.post("/near_query")
 def near_query(req: NearQueryRequest):
+    namespace_response = _run_namespace_near_query(req)
+    if namespace_response is not None:
+        return namespace_response
     if req.termGroups:
         if len(req.termGroups) < 2:
             raise HTTPException(status_code=400, detail="termGroups must contain at least two items")
     elif not req.terms or len(req.terms) < 2:
         raise HTTPException(status_code=400, detail="terms must contain at least two items")
+    if req.mode in {"hits", "render"}:
+        out = near_fragments(_near_fragments_request_from_query(req))
+        if req.mode == "hits":
+            rows = out.get("rows", [])
+            hits = [{"bookId": int(r["bookId"]), "pos": int(r["pos"])} for r in rows]
+            if "_perf" in out:
+                return {"rows": hits, "_perf": out["_perf"]}
+            return {"rows": hits}
+        return out
     match_mode = _resolve_match_mode(req.matchMode)
     engine = _select_engine(req.engine)
     if engine == "julia":
@@ -2078,6 +4549,7 @@ def near_query(req: NearQueryRequest):
     parallel_tasks: List[Dict[str, Any]] = []
     perf_workers: List[Dict[str, Any]] = []
     perf_prefilter: List[Dict[str, Any]] = []
+    count_mode = req.countMode or "auto"
     off_min = -req.window if req.symmetric else 1
     off_max = req.window
     schema_name = req.schema or CONFIG.default_schema
@@ -2138,6 +4610,44 @@ def near_query(req: NearQueryRequest):
                 filter_json = json.dumps(filter_ids)
         found_any = True
         codec = detect_postings_codec(cur)
+        pairwise_fastpath = (
+            match_mode == "near"
+            and schema_name == "unigrams"
+            and len(groups) == 2
+            and len(groups[0]) == 1
+            and len(groups[1]) == 1
+            and groups[0][0] != groups[1][0]
+        )
+        resolved_count_mode = count_mode
+        if resolved_count_mode == "auto" and pairwise_fastpath:
+            resolved_count_mode = "partner_popcount"
+        elif resolved_count_mode == "auto":
+            resolved_count_mode = "anchor"
+        if resolved_count_mode == "partner_popcount" and pairwise_fastpath:
+            shard_total, shard_docs = near_partner_popcount(
+                cur,
+                groups[0][0],
+                groups[1][0],
+                req.window,
+                use_filter,
+                filter_json,
+                schema_name,
+                req.symmetric,
+                req.excludeSelf,
+            )
+            total += int(shard_total)
+            docs += int(shard_docs)
+            if PROFILE_NEAR:
+                perf_workers.append(
+                    {
+                        "pid": os.getpid(),
+                        "shard": path,
+                        "mode": "partner_popcount_fastpath",
+                    }
+                )
+            con.close()
+            conw.close()
+            continue
         if schema_name == "unigrams" and (codec == "roaring_v1" or match_mode == "sequence"):
             task = {
                 "postings_path": path,
@@ -2293,6 +4803,7 @@ def near_query(req: NearQueryRequest):
         out["_perf"] = {
             "workers": perf_workers,
             "prefilter": perf_prefilter,
+            "count_mode": count_mode,
             "parallel_requested": bool(parallel_shards),
             "parallel_tasks": len(parallel_tasks),
         }
@@ -2312,7 +4823,7 @@ def or_query(req: OrQueryRequest):
         raise HTTPException(status_code=400, detail="terms must contain at least one item")
 
     postings_paths = CONFIG.postings_dbs
-    rows: List[Tuple[int, int, str]] = []
+    rows: List[Tuple[int, int, object]] = []
     found_any = False
     parallel_shards = _python_parallel_shards_enabled(req.parallelShards)
     perf_workers: List[Dict[str, Any]] = []
@@ -2334,6 +4845,7 @@ def or_query(req: OrQueryRequest):
                 "doc_samples": req.docSamples,
                 "total_limit": req.totalLimit,
                 "base_filter_ids": base_filter_ids,
+                "render_mode": req.renderMode,
             }
         )
     if parallel_shards and len(tasks) > 1:
@@ -2399,7 +4911,28 @@ def or_query(req: OrQueryRequest):
         raise HTTPException(status_code=404, detail="No results found")
     if req.totalLimit and len(rows) > req.totalLimit:
         rows = rows[: req.totalLimit]
-    out: Dict[str, Any] = {"rows": [{"bookId": b, "pos": p, "frag": f} for b, p, f in rows]}
+    if req.renderMode == "structured":
+        out_rows: List[Dict[str, object]] = []
+        for book_id, pos, payload in rows:
+            if isinstance(payload, dict):
+                row = dict(payload)
+            else:
+                row = {
+                    "bookId": int(book_id),
+                    "seqStart": int(pos),
+                    "len": 1,
+                    "before": "",
+                    "hit": str(payload),
+                    "after": "",
+                    "surface": str(payload),
+                }
+            row.setdefault("bookId", int(book_id))
+            row.setdefault("seqStart", int(pos))
+            row.setdefault("len", 1)
+            out_rows.append(row)
+        out: Dict[str, Any] = {"rows": out_rows}
+    else:
+        out = {"rows": [{"bookId": b, "pos": p, "frag": f} for b, p, f in rows]}
     if PROFILE_NEAR:
         out["_perf"] = {
             "workers": perf_workers,
@@ -2449,6 +4982,13 @@ def near_fragments(req: NearFragmentsRequest):
                 row = {"bookId": book_id, "pos": pos}
                 row["frag"] = str(r.get("frag", "")) if req.includeFragments else ""
                 rows.append(row)
+        if req.renderMode == "structured" and req.includeFragments:
+            rows, _ = _render_book_pos_rows(
+                rows,
+                int(req.before),
+                int(req.after),
+                render_mode="structured",
+            )
         if req.totalLimit and len(rows) > req.totalLimit:
             rows = rows[: req.totalLimit]
         if not rows:
@@ -2511,6 +5051,7 @@ def near_fragments(req: NearFragmentsRequest):
             shard_perf["total_ms"] = round((time.perf_counter() - shard_t0) * 1000.0, 3)
             perf_shards.append(shard_perf)
             continue
+        span_len = len(groups) if match_mode == "sequence" else 1
         pre_t0 = time.perf_counter()
         if not use_filter:
             ds = int(req.docSamples or 0)
@@ -2555,6 +5096,8 @@ def near_fragments(req: NearFragmentsRequest):
                 "doc_samples": int(req.docSamples or 0),
                 "total_limit": req.totalLimit,
                 "include_fragments": req.includeFragments,
+                "render_mode": req.renderMode,
+                "span_len": span_len,
                 "exclude_self": req.excludeSelf,
                 "filter_ids": filter_ids if use_filter else None,
                 "base_filter_ids": base_filter_ids,
@@ -2610,7 +5153,7 @@ def near_fragments(req: NearFragmentsRequest):
                 from_clause = "FROM filter f JOIN {table} u ON u.book_id = f.urn"
             else:
                 from_clause = "FROM {table} u"
-            use_sampled_agg_fn = _has_sql_function(
+            use_sampled_agg_fn = req.perBook > 0 and _has_sql_function(
                 cur, "post_near_sample_positions_json_bitmap_multi_groups"
             )
             if use_sampled_agg_fn:
@@ -2751,17 +5294,26 @@ def near_fragments(req: NearFragmentsRequest):
                 positions = []
             for pos in positions:
                 ipos = int(pos)
-                frag = (
-                    fetch_window(cur, curw, book_id, ipos, req.before, req.after)
-                    if req.includeFragments
-                    else ""
-                )
-                rows.append({"bookId": book_id, "pos": ipos, "frag": frag})
+                if req.includeFragments:
+                    rows.append(
+                        _build_text_fragment_row(
+                            cur,
+                            curw,
+                            book_id,
+                            ipos,
+                            req.before,
+                            req.after,
+                            render_mode=req.renderMode,
+                            span_len=span_len,
+                        )
+                    )
+                else:
+                    rows.append({"bookId": book_id, "pos": ipos})
                 if req.totalLimit and len(rows) >= req.totalLimit:
                     break
             if req.totalLimit and len(rows) >= req.totalLimit:
                 break
-        use_sample_json_fn = _has_sql_function(inner, "post_sample_positions_json")
+        use_sample_json_fn = req.perBook > 0 and _has_sql_function(inner, "post_sample_positions_json")
         for book_id, common_blob in candidates_blob:
             if use_sample_json_fn:
                 srow = inner.execute(
@@ -2775,12 +5327,21 @@ def near_fragments(req: NearFragmentsRequest):
                     positions = []
                 for pos in positions:
                     ipos = int(pos)
-                    frag = (
-                        fetch_window(cur, curw, book_id, ipos, req.before, req.after)
-                        if req.includeFragments
-                        else ""
-                    )
-                    rows.append({"bookId": book_id, "pos": ipos, "frag": frag})
+                    if req.includeFragments:
+                        rows.append(
+                            _build_text_fragment_row(
+                                cur,
+                                curw,
+                                book_id,
+                                ipos,
+                                req.before,
+                                req.after,
+                                render_mode=req.renderMode,
+                                span_len=span_len,
+                            )
+                        )
+                    else:
+                        rows.append({"bookId": book_id, "pos": ipos})
                     if req.totalLimit and len(rows) >= req.totalLimit:
                         break
             else:
@@ -2788,19 +5349,31 @@ def near_fragments(req: NearFragmentsRequest):
                 total = int(cnt_row[0] or 0) if cnt_row else 0
                 if total <= 0:
                     continue
-                samples = min(req.perBook, total)
-                indices = random.sample(range(total), samples)
+                if req.perBook <= 0:
+                    indices = range(total)
+                else:
+                    samples = min(req.perBook, total)
+                    indices = random.sample(range(total), samples)
                 for idx in indices:
                     pos_row = inner.execute("SELECT post_sample(?, ?)", (common_blob, idx)).fetchone()
                     if pos_row is None or pos_row[0] is None:
                         continue
                     pos = int(pos_row[0])
-                    frag = (
-                        fetch_window(cur, curw, book_id, pos, req.before, req.after)
-                        if req.includeFragments
-                        else ""
-                    )
-                    rows.append({"bookId": book_id, "pos": int(pos), "frag": frag})
+                    if req.includeFragments:
+                        rows.append(
+                            _build_text_fragment_row(
+                                cur,
+                                curw,
+                                book_id,
+                                int(pos),
+                                req.before,
+                                req.after,
+                                render_mode=req.renderMode,
+                                span_len=span_len,
+                            )
+                        )
+                    else:
+                        rows.append({"bookId": book_id, "pos": int(pos)})
                     if req.totalLimit and len(rows) >= req.totalLimit:
                         break
             if req.totalLimit and len(rows) >= req.totalLimit:
@@ -2956,6 +5529,87 @@ def collocations(req: CollocationsRequest):
 
 # ----- Unified Imagination Endpoints -----
 
+
+def _normalize_content_keywords(raw_keywords: Optional[List[str]]) -> List[str]:
+    out: List[str] = []
+    seen: set[str] = set()
+    for raw in raw_keywords or []:
+        term = str(raw or "").strip()
+        if not term:
+            continue
+        key = term.casefold()
+        if key in seen:
+            continue
+        seen.add(key)
+        out.append(term)
+    return out
+
+
+def _resolve_content_keyword_books(
+    keywords: List[str],
+    base_filter_ids: Optional[List[int]] = None,
+    max_variants: int = 200,
+    operator: str = "AND",
+) -> List[int]:
+    """
+    Resolve docs matching content keywords across shards.
+    AND: all keywords must match.
+    OR: at least one keyword must match.
+    Wildcard terms are expanded in words table.
+    """
+    if not keywords:
+        return []
+    base_filter_set = set(int(x) for x in base_filter_ids) if base_filter_ids else None
+    matched: set[int] = set()
+    for shard_index, path in enumerate(CONFIG.postings_dbs):
+        con = connect_postings(path, CONFIG.ext_path, shard_sidecar_path(path, shard_index))
+        conw = connect_words(shard_words_path(path))
+        try:
+            cur = con.cursor()
+            curw = conw.cursor()
+            groups: List[List[int]] = []
+            op = str(operator or "AND").strip().upper()
+            if op == "OR":
+                union_cf_ids: List[int] = []
+                for term in keywords:
+                    cf_ids, _ = expand_term_cf_ids_with_df(curw, term, max_variants)
+                    if cf_ids:
+                        union_cf_ids.extend(int(x) for x in cf_ids)
+                merged = sorted(set(union_cf_ids))
+                if not merged:
+                    continue
+                groups = [merged]
+            else:
+                failed = False
+                for term in keywords:
+                    cf_ids, _ = expand_term_cf_ids_with_df(curw, term, max_variants)
+                    cf_ids = sorted(set(int(x) for x in cf_ids))
+                    if not cf_ids:
+                        failed = True
+                        break
+                    groups.append(cf_ids)
+                if failed or not groups:
+                    continue
+            book_ids = docpost_book_ids(cur, groups)
+            if book_ids is None:
+                book_ids = candidate_books_for_groups(
+                    cur,
+                    groups,
+                    schema=(CONFIG.default_schema or "unigrams"),
+                )
+            if base_filter_set is not None:
+                for bid in book_ids:
+                    ibid = int(bid)
+                    if ibid in base_filter_set:
+                        matched.add(ibid)
+            else:
+                matched.update(int(bid) for bid in book_ids)
+        finally:
+            con.close()
+            conw.close()
+    return sorted(matched)
+
+
 @app.post("/api/corpus/build")
 def build_corpus(req: CorpusBuildRequest):
     conn = get_imagination_db()
@@ -2978,28 +5632,40 @@ def build_corpus(req: CorpusBuildRequest):
             
     cursor.execute(query, params)
     rows = cursor.fetchall()
-    dhlabids = [row["dhlabid"] for row in rows]
-    
-    # NOTE: Content keyword filtering (contentKeywords) is not implemented here 
-    # to maintain strict decoupling between metadata and fulltext search.
-    # Users should perform search via existing search endpoints and pass results 
-    # as baseCorpus for intersection.
+    dhlabids = [int(row["dhlabid"]) for row in rows]
 
     # 2. Base Corpus Intersection (used for combining with search hits)
     if req.baseCorpus is not None:
-        base_set = set(req.baseCorpus)
-        dhlabids = [id for id in dhlabids if id in base_set]
+        base_set = set(int(x) for x in req.baseCorpus)
+        dhlabids = [bid for bid in dhlabids if bid in base_set]
+
+    # 3. Content keyword intersection (fulltext in postings shards).
+    keywords = _normalize_content_keywords(req.contentKeywords)
+    content_operator = str(req.contentOperator or "AND").strip().upper()
+    if content_operator not in {"AND", "OR"}:
+        raise HTTPException(status_code=400, detail="contentOperator must be 'AND' or 'OR'")
+    if keywords:
+        keyword_hits = _resolve_content_keyword_books(
+            keywords,
+            base_filter_ids=dhlabids,
+            operator=content_operator,
+        )
+        keyword_set = set(keyword_hits)
+        dhlabids = [bid for bid in dhlabids if bid in keyword_set]
         
+    final_set = set(dhlabids)
     stats = {
         "totalBooks": len(dhlabids),
-        "uniqueAuthors": len(set([row["author"] for row in rows if row["dhlabid"] in dhlabids])),
+        "uniqueAuthors": len(set([row["author"] for row in rows if int(row["dhlabid"]) in final_set])),
+        "contentKeywordsApplied": len(keywords),
+        "contentOperator": content_operator,
     }
 
     conn.close()
     return {"dhlabids": dhlabids, "stats": stats}
 
 
-@app.post("/api/places")
+@app.post("/api/legacy/places")
 def get_places(req: PlacesRequest):
     if not req.dhlabids:
         return {"places": []}
@@ -3065,7 +5731,7 @@ def get_places(req: PlacesRequest):
     return {"places": places, "total_places": total_places}
 
 
-@app.post("/api/places/details")
+@app.post("/api/legacy/places/details")
 def get_place_details(req: PlaceDetailsRequest):
     if not req.dhlabids:
         return {"books": []}

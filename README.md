@@ -15,6 +15,11 @@ Meta-docs for keeping documentation reconstructive:
 - `CONTRACT_TO_CODE_MAP.md`
   - bridge from contract docs to implementation files and commands
 
+Architecture notes for the newer postings-based DHLab direction:
+
+- `NEW_DHLAB_SEARCH_ARCHITECTURE.md`
+  - consolidated note for runtime identity, corpus bitmaps, metadata decoupling, locality layers, fast count paths, and sampling
+
 ### Current Geo Source of Truth
 
 Read these first for active geo work:
@@ -27,9 +32,11 @@ Read these first for active geo work:
    - current request/response contract for geo-facing API behavior
 4. `GEO_ENRICHMENT_PIPELINE.md`
    - current upstream candidate/KWIC/gazetteer/LLM enrichment flow
-5. `GEO_REBUILD_RUNBOOK.md`
+5. `GEO_POSTPROCESS_CONTRACT.md`
+   - repo-owned postprocess step from predictions to import-ready annotation rows
+6. `GEO_REBUILD_RUNBOOK.md`
    - operational rebuild flow and validation gates
-6. `ANNOTATION_LAYERS_BLUEPRINT.md`
+7. `ANNOTATION_LAYERS_BLUEPRINT.md`
    - shared registry/layer model across annotation namespaces
 
 ### Secondary Geo References
@@ -40,20 +47,45 @@ Read these when the task is specifically about one sub-area:
   - source-to-v2 mapping for `geo_disambig.db`
 - `GEO_IMAGINATION_DB.md`
   - map aggregate DB role and rebuild contract
+- `GEO_POSTPROCESS_CONTRACT.md`
+  - current repo-owned postprocess step from `geo_disambig.db` into importable annotations
+- `GAZETTEER_MERGE_CONTRACT.md`
+  - merge contract for the internal place registry across GeoNames, SSR, and future sources
+- `PLACE_SURFACE_FORMS_CONTRACT.md`
+  - precomputed display surface forms for place lists and frontend expansion
 - `ANNOTATION_GEO_DISAMBIGUATION_SCHEMA.md`
   - LLM/disambiguation payload and writeback format
 - `DEPLOY_GEO_CHECKLIST.md`
   - deploy/smoke-test checklist for a specific rollout workflow
+- `GEO_ENTROPY_TRIAGE_PLAN.md`
+  - forward-looking plan for ranking high-risk ambiguous surfaces before a fuller pre-launch geo pass
 
 ### Historical Notes
 
 Some older geo notes still document useful project history, but they should not
 override the current documents above. Use them as migration/debug context only.
 
+For a short repository/project evolution note explaining how the current geo
+layers were reached, see `PROJECT_EVOLUTION.md`.
+
+Important current transition note:
+
+- the older `Dash` app and the older DHLab-style fulltext model still exist as a
+  separate line of work
+- this repository's newer backend is the postings/annotation-oriented model
+  developed since February 2026
+- the longer-term direction is for the bitmap/annotation-layer model to take
+  over more of the fulltext functionality as it matures
+- one practical reason for that transition is that the newer model is intended
+  to be more space-efficient while supporting annotation-aligned search
+
 For the current local-to-server workflow, see `ARBEIDSFLYT_LOCAL_TO_SERVER.md`.
 For internal AI usage and deploy guardrails, see `AI_FIREWALL_WORKFLOW_POLICY.md`.
 For the long-term token/corpus/shard contract behind query planning and
 annotation compatibility, see `QUERY_CORPUS_MODEL.md`.
+For the emerging newer DHLab runtime architecture around `dhlabid`, corpus
+bitmaps, metadata decoupling, and layered locality/count behavior, see
+`NEW_DHLAB_SEARCH_ARCHITECTURE.md`.
 For the operational shard admission and consistency checklist, see
 `SHARD_VALIDATION_CHECKLIST.md`.
 For current geo identity, storage, API, and rebuild guidance, start with the

@@ -17,6 +17,31 @@ Use it as a bridge:
 - `DOCUMENTATION_STRUCTURE.md`
   - standard structure for writing or refactoring contract docs
 
+## `NEW_DHLAB_SEARCH_ARCHITECTURE.md`
+
+Purpose:
+- consolidated architecture note for runtime identity, corpus-as-bitmap,
+  metadata decoupling, locality layers, fast count paths, and sampling
+
+Implemented by:
+- `api_python/server.py`
+  - endpoint dispatch, count-mode selection, filter handling, and query-path
+    selection
+- `api_python/postings_queries.py`
+  - postings helpers, near/count primitives, docpost handling, and candidate
+    document logic
+- `postings.c`
+  - native postings and bitmap functions used by fast count/query paths
+- shard rebuild and indexing scripts
+  - materialize or validate runtime query layers such as postings and any future
+    block-level side indexes
+- external metadata / corpus builders outside this repo
+  - produce document sets or bitmaps over `dhlabid` for runtime filtering
+
+Related notes:
+- `BLOCKPOST_INDEX_NOTE.md`
+- `RUNTIME_IDENTITY_LADDER.md`
+
 ## `PLACE_ID_STRATEGY.md`
 
 Purpose:
@@ -111,6 +136,23 @@ Implemented by:
 - `build_geo_contract_v2.py`
   - materialization into current v2 tables
 
+## `GEO_POSTPROCESS_CONTRACT.md`
+
+Purpose:
+- repo-owned postprocess step from LLM predictions to import-ready annotation rows
+
+Implemented by:
+- `match_geo_disambig_predictions.py`
+  - matches `predictions.guess_lat/guess_lon` to `GeoNames` + `SSR` and writes `predictions.place_id`
+- `propagate_geo_disambig_annotations.py`
+  - propagates `(dhlabid, surface)` place decisions into positional `geo_annotations_v2`
+- `geo_postprocess_common.py`
+  - shared helpers for `place_id` parsing and `mock_places` mapping
+- `import_geo_disambig_to_annotation_nb.py`
+  - imports propagated output into sidecar staging tables
+- `build_geo_imagination.py`
+  - consumes the same mapping rules when building `geo_imagination.db`
+
 ## `GEO_REBUILD_RUNBOOK.md`
 
 Purpose:
@@ -164,6 +206,8 @@ Operational concepts realized here:
 ### `GEO_DISAMBIG_TO_V2_MAPPING.md`
 
 Implemented by:
+- `match_geo_disambig_predictions.py`
+- `propagate_geo_disambig_annotations.py`
 - `import_geo_disambig_to_annotation_nb.py`
 - `build_geo_nb_contract_v1.py`
 - `build_geo_contract_v2.py`
@@ -171,6 +215,13 @@ Implemented by:
 ### `GEO_IMAGINATION_DB.md`
 
 Implemented by:
+- `build_geo_imagination.py`
+- `api_python/server.py`
+
+### `GAZETTEER_MERGE_CONTRACT.md`
+
+Implemented by:
+- upstream merge/export scripts outside this repo
 - `build_geo_imagination.py`
 - `api_python/server.py`
 

@@ -35,6 +35,7 @@ def concordance(
     filter_ids: Optional[List[int]] = None,
     symmetric: bool = True,
     exclude_self: bool = False,
+    render_mode: str = "legacy",
     base_url: str = BASE_URL,
 ) -> Dict[str, Any]:
     payload = {
@@ -50,6 +51,7 @@ def concordance(
         "filterIds": filter_ids or [],
         "symmetric": symmetric,
         "excludeSelf": exclude_self,
+        "renderMode": render_mode,
     }
     return _post("/concordance", payload, base_url=base_url)
 
@@ -87,6 +89,7 @@ def near_query(
     use_filter: bool = False,
     filter_ids: Optional[List[int]] = None,
     max_variants: int = 10,
+    count_mode: str = "auto",
     base_url: str = BASE_URL,
 ) -> Dict[str, Any]:
     payload = {
@@ -98,6 +101,7 @@ def near_query(
         "useFilter": use_filter,
         "filterIds": filter_ids or [],
         "maxVariants": max_variants,
+        "countMode": count_mode,
     }
     return _post("/near_query", payload, base_url=base_url)
 
@@ -115,6 +119,7 @@ def near_fragments(
     use_filter: bool = False,
     filter_ids: Optional[List[int]] = None,
     max_variants: int = 10,
+    render_mode: str = "legacy",
     base_url: str = BASE_URL,
 ) -> Dict[str, Any]:
     payload = {
@@ -130,6 +135,7 @@ def near_fragments(
         "useFilter": use_filter,
         "filterIds": filter_ids or [],
         "maxVariants": max_variants,
+        "renderMode": render_mode,
     }
     return _post("/near_fragments", payload, base_url=base_url)
 
